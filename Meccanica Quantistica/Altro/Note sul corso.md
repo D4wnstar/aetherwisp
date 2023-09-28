@@ -1,0 +1,2 @@
+Email di Benatti: benatti@ts.infn.it
+Esame solo scritto: 3 esercizi in 3 parti ciascuno. Ciascun esercizio è 10 punti. Le parti diventano progressivamente più difficili. All'esame si può portare tutto tranne gli eserciziari. L'esame dura 3 ore.

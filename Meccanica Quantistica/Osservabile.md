@@ -1,0 +1,1 @@
+Un'**osservabile** è una quantità che si può osservare (e quindi misurare).

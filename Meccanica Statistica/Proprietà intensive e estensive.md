@@ -1,0 +1,1 @@
+Le **proprietà estensive** sono proporzionali alla *taglia* (ossia il numero di elementi) del sistema. Le **proprietà intensive** invece no.

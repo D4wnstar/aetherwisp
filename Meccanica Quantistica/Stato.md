@@ -1,0 +1,2 @@
+Lo **stato** è l'insieme di informazioni che definiscono completamente il sistema. Ci sono **stati puri**, individuati da un singolo punto nello spazio delle fasi, e **stati misti**, individuati da una distribuzione probabilistica nello spazio delle fasi.
+In meccanica classica, conoscere lo stato puro significa sapere con esattezza tutte le osservabili di quel sistema. In meccanica quantistica, significa conoscere le *distribuzioni di probabilità* delle osservabili del sistema.
