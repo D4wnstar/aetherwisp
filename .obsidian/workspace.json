@@ -11,24 +11,11 @@
             "id": "da179832addf1a6b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Introduzione all'Astrofisica/Misure astronomiche/Magnitudine.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4a98ee113ba88e5d",
-            "type": "leaf",
-            "state": {
               "type": "graph",
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -94,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Introduzione all'Astrofisica/Misure astronomiche/Magnitudine.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Introduzione all'Astrofisica/Misure astronomiche/Magnitudine.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,17 +118,23 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Introduzione all'Astrofisica/Misure astronomiche/Magnitudine.md"
-              }
+              "state": {}
+            }
+          },
+          {
+            "id": "11c537cbe31b9c7c",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 288.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -157,42 +148,43 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "4a98ee113ba88e5d",
+  "active": "da179832addf1a6b",
   "lastOpenFiles": [
-    "Introduzione all'Astrofisica/Misure astronomiche/Telescopi.md",
-    "Introduzione all'Astrofisica/Misure astronomiche/Magnitudine.md",
-    "Introduzione all'Astrofisica/Misure astronomiche/Misure di luminosità.md",
-    "Introduzione all'Astrofisica/Misure astronomiche/Misurazione di lunghezze d'onda.md",
-    "Introduzione all'Astrofisica/Misure astronomiche/Coordinate dei corpi celesti.md",
-    "Excalidraw/Grafico Coordinate Equatoriali IAA.md",
-    "Excalidraw/Sistemi di magnitudine IAA.md",
-    "Excalidraw/Grafico Sistema Azimutale IAA.md",
-    "Meccanica Statistica/Minimi e massimi di potenziali.md",
-    "Meccanica Statistica/Potenziali termodinamici.md",
-    "Excalidraw/Forma Phi MS.md",
-    "Excalidraw/Telescopio Cassegrain IAA.md",
-    "Excalidraw/Telescopio Rifrangente IAA.md",
-    "Excalidraw/Template.excalidraw.md",
-    "Excalidraw/Drawing 2023-09-27 15.07.47.excalidraw.md",
-    "Excalidraw/Drawing 2023-09-27 15.04.08.excalidraw.md",
-    "Meccanica Quantistica/Qubits.md",
-    "Meccanica Quantistica/Notazione Braket.md",
-    "Prodotto scalare.md",
-    "Meccanica Quantistica/Disuguaglianza di Heisenberg.md",
-    "Meccanica Quantistica/Stato.md",
-    "Meccanica Quantistica/Oscillatore armonico quantistico.md",
-    "Meccanica Quantistica/Orbite quantizzate degli elettroni.md",
+    "Meccanica Statistica/Principi della termodinamica.md",
+    "Meccanica Statistica/Ensemble/Ensemble.md",
+    "Tecniche di Rappresentazione Dati",
+    "Meccanica Statistica/Ensemble/Ensemble microcanonico.md",
+    "Meccanica Statistica/Relazione di Gibbs-Duhem.md",
+    "Meccanica Statistica/Concetti",
+    "Meccanica Statistica/Ensemble",
+    "Meccanica Statistica/Concetti/Limite termodinamico.md",
     "Meccanica Quantistica/Parentesi di Poisson.md",
-    "Meccanica Quantistica/Altro/Da organizzare.md",
-    "Meccanica Quantistica/Osservabile.md",
-    "Introduzione all'Astrofisica/Misure astronomiche",
-    "Introduzione all'Astrofisica",
-    "Excalidraw",
-    "Metodi di Trattamento delle Immagini",
-    "Meccanica Quantistica/Altro",
-    "Meccanica Quantistica",
-    "Meccanica Statistica/Altro",
-    "Meccanica Statistica",
-    "Hi"
+    "Meccanica Statistica/Teorema di Liouville.md",
+    "Costanti/Costante di Planck.md",
+    "Meccanica Statistica/Concetti/Ipotesi ergodica.md",
+    "Costanti/Numero di Avogadro.md",
+    "Meccanica Statistica/Potenziali termodinamici.md",
+    "Costanti/Costante di Boltzmann.md",
+    "Costanti/Costante dei gas ideali.md",
+    "Costanti",
+    "Analisi 2/Integrali/Integrali della fisica/Teorema della divergenza.md",
+    "Analisi 2/Spazi metrici/Successione di Cauchy.md",
+    "Analisi 2/Spazi metrici/Spazio metrico completo.md",
+    "Analisi 2/Spazi metrici/Spazio metrico compatto.md",
+    "Analisi 2/Spazi metrici/Palla.md",
+    "Analisi 2/Spazi metrici/Equivalenza di norme.md",
+    "Analisi 2/Spazi metrici/K compatto _=_ K chiuso e limitato.md",
+    "Analisi 2/Spazi metrici/Disuguaglianza di Schwarz.md",
+    "Analisi 2/Spazi metrici/Completezza di R__N.md",
+    "Analisi 2/Spazi metrici",
+    "Analisi 2/Serie/Serie di potenze/Raggio di convergenza di serie derivata e integrale.md",
+    "Analisi 2/Serie/Serie di potenze/Criterio della radice per serie di potenze.md",
+    "Analisi 2/Serie/Serie di potenze/Convergenza assoluta di serie potenze.md",
+    "Analisi 2/Serie/Serie a termini qualunque/Criterio di Leibniz.md",
+    "Analisi 2/Serie/Serie di potenze",
+    "Analisi 2/Serie/Serie a termini qualunque",
+    "Analisi 2/Serie/Serie a termini non negativi",
+    "Analisi 2/Serie",
+    "Analisi 2/Massimi e minimi"
   ]
 }

@@ -80,7 +80,7 @@
   "mdFont": "Virgil",
   "mdFontColor": "Black",
   "mdBorderColor": "Black",
-  "mdCSS": "",
+  "mdCSS": "Excalidraw/excstyle.css",
   "scriptEngineSettings": {},
   "defaultTrayMode": true,
   "previousRelease": "1.9.19",

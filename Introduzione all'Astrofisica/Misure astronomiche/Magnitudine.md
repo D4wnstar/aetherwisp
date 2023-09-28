@@ -4,7 +4,7 @@ Più bassa è, più luminoso è l'oggetto. La magnitudine può andare anche in n
 Essendo una misura relativa, bisogna avere un punto di riferimento:
 - Una possibilità è il **sistema Vega**. Vega è la stella più luminosa del cielo estivo, la cui magnitudine è definita 0 in tutte le lunghezze d'onda. Il problema è misurare il flusso (complesso) di Vega.
 - Alternativamente si usa il **sistema AB**, dove ci si basa su un oggetto immaginario che ha flusso costante in tutte le lunghezze d'onda. Diventa facile calcolare il flusso, senza integrali, usando $f_{banda}=\frac{L_{banda}}{4\pi d^{2}}$, con $L_{banda}$ la luminosità della banda.
-![[Sistemi di magnitudine IAA]]
+![[Sistemi di magnitudine]]
 La magnitudine è fondamentalmente dipende dalla distanza della stella. Dunque, per "normalizzare" le magnitudini in funzione della distanza, si usa la **magnitudine assoluta**
 $$M=m-5\log(d)+5$$
 che rappresenta la luminosità che la stella avrebbe se fosse posta a 10 [[parsec]] di distanza.

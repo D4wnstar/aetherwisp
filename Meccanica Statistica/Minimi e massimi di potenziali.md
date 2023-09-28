@@ -15,4 +15,4 @@ Chiamando $\phi = V_{1}/\frac{V}{2}$, che varia in $0\leq\phi\leq2$ e usando $V_
 $$\Delta S=Nk_{b}\ln[\phi(2-\phi)]$$
 Considero la funzione $f(\phi)=\phi(2-\phi)$. Questa è una funzione parabolica con un massimo.
 
-![[Forma Phi MS]]
+![[Forma Phi MS|center]]

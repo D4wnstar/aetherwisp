@@ -1,17 +1,59 @@
 {
   "collapse-filter": true,
-  "search": "",
-  "showTags": false,
+  "search": "-tag:#excalidraw ",
+  "showTags": true,
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": false,
+  "collapse-color-groups": true,
   "colorGroups": [
     {
       "query": "path:\"Introduzione all'Astrofisica\"  ",
       "color": {
         "a": 1,
         "rgb": 5401056
+      }
+    },
+    {
+      "query": "path:\"Meccanica Quantistica\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 2528286
+      }
+    },
+    {
+      "query": "path:\"Meccanica Statistica\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 11076612
+      }
+    },
+    {
+      "query": "path:\"Tecniche di Rappresentazione Dati\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 14924879
+      }
+    },
+    {
+      "query": "path:\"Analisi 2\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 7026847
+      }
+    },
+    {
+      "query": "path:Costanti  ",
+      "color": {
+        "a": 1,
+        "rgb": 14131916
+      }
+    },
+    {
+      "query": "path:\"Metodi di Trattamento delle Immagini\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 2338995
       }
     }
   ],
@@ -25,6 +67,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 1.034366083131915,
+  "scale": 0.8001102010732501,
   "close": false
 }

@@ -4,7 +4,7 @@ Oggi si usa il **sistema di coordinate equatoriali**. Abbiamo bisogno di due ang
 1. Il primo lo troviamo dall'equatore della Terra, esteso immaginariamente a tutta la sfera celeste, che è scelto per semplicità e perché non è ambiguo. Calcoliamo l'angolo di elevazione della stella da questo piano. L'angolo si chiama **declinazione**, $\delta$, e va dagli -90° ai 90°.
 2. Per il secondo, dividiamo l'equatore in 24 segmenti, uno per ciascun'ora. Il problema è dov'è lo zero. Scegliamo un punto arbitrario: l'eclittica del sole interseca il piano equatoriale due volte all'anno: agli equinozi. Scegliamo quello del 21 marzo per convenzione. Dunque l'angolo descritto dal sole con la terra nell'equinozio di primavera è l'angolo zero. Il problema è che l'angolo cambia nel tempo, quindi si "resetta" l'angolo ogni 50 anni. Oggi usiamo il sistema **J2000**, prima si usava il **J1950** e fra qualche decennio si userà **J2050**. L'angolo così trovato si chiama **ascensione retta**, $\gamma$ (dovrebbe essere il simbolo della costellazione dell'Ariete), e va da 0 a 24 ore.
 
-![[Grafico Coordinate Equatoriali IAA]]
+![[Grafico Coordinate Equatoriali]]
 Si possono usare anche **coordinate galattiche**, dove si usa il **piano galattico** (quello della Via Lattea nel cielo) al posto dell'eclittica del Sole. Sono utili per oggetti lontani (al di fuori della nostra galassia).
 
 Per insiemi di oggetti anche le coordinate galattiche perdono del significato, quindi si usa un terzo sistema, detto **sistema supergalattico**, che prende il piano medio di una distribuzione di galassie più o meno allineate in una zona dello spazio.

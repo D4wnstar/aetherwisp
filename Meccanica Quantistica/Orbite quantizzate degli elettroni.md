@@ -1,7 +1,7 @@
 C'è un problema: a partire dall'effetto fotoelettrico si è scoperto che solo certe frequenze di luce permettono ad un elettrone di liberarsi. Difatti, ci sono delle bande nere negli spettri di assorbimento, che corrispondono alle frequenze che promuovono gli elettroni.
 Ci si è domandato cos'è che impedisce agli elettroni di "cadere" sul nucleo come una pianeta in una stella, e perché solo certe orbite siano permesse. Si è supposto che il momento angolare dell'elettrone sia quantizzato:
 $$mvr=pr=\hbar n$$
-con $\hbar=\frac{h}{2\pi}$ la [[costante di Planck]] ridotta. Usando la meccanica classica si usa la legge di Coulomb per ottenere
+con $\hbar=\frac{h}{2\pi}$ la [[Costante di Planck]] ridotta. Usando la meccanica classica si usa la legge di Coulomb per ottenere
 $$\frac{e^{2}}{r^{2}} = \frac{mv^{2}}{r}$$
 con $e$ la carica dell'elettrone. Riordino per trovare
 $$me^{2}r=m^{2}v^{2}r^{2}=\hbar^{2}n^{2}$$
