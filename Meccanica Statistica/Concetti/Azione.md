@@ -1,0 +1,1 @@
+Un'**azione** è una costate $h$ che ha le dimensioni $[h]=[L\cdot p]$.

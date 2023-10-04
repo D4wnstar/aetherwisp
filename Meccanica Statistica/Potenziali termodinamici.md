@@ -1,4 +1,4 @@
-Si parla di potenziali termodinamici **estensivi** se sono *[[funzioni omogenee di primo grado]] nelle [[Proprietà intensive e estensive|variabili estensive]]*. 
+Si parla di potenziali termodinamici **estensivi** se sono *[[Funzioni omogenee di primo grado]] nelle [[Proprietà intensive e estensive|variabili estensive]]*. 
 ## Energia del sistema
 
 Si tratta di quella trovata nel [[Principi della termodinamica#Primo principio|primo principio della termodinamica]], ossia $E = Q - W$ con differenziale $dE = TdS - PdV$.

@@ -7,4 +7,4 @@ Essendo una misura relativa, bisogna avere un punto di riferimento:
 ![[Sistemi di magnitudine]]
 La magnitudine è fondamentalmente dipende dalla distanza della stella. Dunque, per "normalizzare" le magnitudini in funzione della distanza, si usa la **magnitudine assoluta**
 $$M=m-5\log(d)+5$$
-che rappresenta la luminosità che la stella avrebbe se fosse posta a 10 [[parsec]] di distanza.
+che rappresenta la luminosità che la stella avrebbe se fosse posta a 10 [[Parsec]] di distanza.
