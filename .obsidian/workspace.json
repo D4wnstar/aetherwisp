@@ -81,6 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +98,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +120,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "conflict-files-obsidian-git.md"
+              }
             }
           },
           {
@@ -148,9 +152,16 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "da179832addf1a6b",
+  "active": "11c537cbe31b9c7c",
   "lastOpenFiles": [
     "conflict-files-obsidian-git.md",
+    "Introduzione all'Astrofisica/Stelle/Candele standard.md",
+    "Introduzione all'Astrofisica/Stelle",
+    "Introduzione all'Astrofisica/Misure astronomiche/Misure di massa stellare.md",
+    "Introduzione all'Astrofisica/Misure astronomiche/Misure di distanza.md",
+    "Introduzione all'Astrofisica/Misure astronomiche/Giorni Giuliani.md",
+    "Introduzione all'Astrofisica/Disegni/Relazione empirica delle Cefeidi.md",
+    "Introduzione all'Astrofisica/Disegni/Distanza con parallasse.md",
     "Meccanica Quantistica/Osservabile.md",
     "Metodi Matematici della Fisica/Distribuzioni/Delta di Dirac.md",
     "Metodi Matematici della Fisica/Distribuzioni",
@@ -173,18 +184,11 @@
     "Meccanica Quantistica/Concetti",
     "Introduzione all'Astrofisica/Misure astronomiche/Spettroscopia.md",
     "Introduzione all'Astrofisica/Misure astronomiche/Parsec.md",
-    "Introduzione all'Astrofisica/Misure astronomiche/Colore.md",
-    "Introduzione all'Astrofisica/Disegni/Righe spettrali.md",
-    "Introduzione all'Astrofisica/Disegni/Definizione di Parsec.md",
-    "Introduzione all'Astrofisica/Disegni/Assorbimento Filtri Telescopi.md",
-    "Meccanica Quantistica/Stato.md",
-    "Meccanica Quantistica/Qubits.md",
     "Tecniche di Rappresentazione Dati",
     "Meccanica Statistica/Concetti",
     "Meccanica Statistica/Ensemble",
     "Costanti",
     "Analisi 2/Spazi metrici",
-    "Analisi 2/Serie/Serie di potenze",
-    "Analisi 2/Serie/Serie a termini qualunque"
+    "Analisi 2/Serie/Serie di potenze"
   ]
 }
