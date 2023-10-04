@@ -1,0 +1,5 @@
+La misura della massa di una stella non può essere condotta direttamente, in quanto non ci sono [[Osservabile|osservabili]] da cui si può estrarre la massa.
+
+Possiamo però misurare le masse indirettamente nel caso di **sistemi binari** di stelle, in quanto vediamo la seconda stella orbitare attorno alla prima. Con sufficienti misure possiamo interpolare la traiettoria dell'orbita e da essa, con la legge di gravitazione universale, la massa della prima stella. In questo caso si parla di **binaria visiva**, perché possiamo vederla con i telescopi direttamente.
+
+Si possono anche avere sistemi binari lontani visibili solo tramite gli spettri. Dato che le stelle orbitano una attorno all'altra, gli spettri oscillano tra due limiti, corrispondenti ai massimi dell'orbita. Dalla velocità di oscillazione dello spettro possiamo estrapolare la massa, sempre dalla legge di gravitazione.

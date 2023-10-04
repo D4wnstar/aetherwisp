@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "4c0b4c47ec4e9578",
+        "id": "cc37bfe02119de5c",
         "type": "tabs",
         "children": [
           {
-            "id": "6d3ff56ebb083149",
+            "id": "79401fc52f7f98cb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Meccanica Quantistica/Misure di osservabili.md",
+                "file": "Introduzione all'Astrofisica/Misure astronomiche/Misure di massa stellare.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Meccanica Quantistica/Misure di osservabili.md",
+                "file": "Introduzione all'Astrofisica/Misure astronomiche/Misure di massa stellare.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Meccanica Quantistica/Misure di osservabili.md",
+                "file": "Introduzione all'Astrofisica/Misure astronomiche/Misure di massa stellare.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Meccanica Quantistica/Misure di osservabili.md"
+                "file": "Introduzione all'Astrofisica/Misure astronomiche/Misure di massa stellare.md"
               }
             }
           },
@@ -136,9 +136,17 @@
               "type": "git-view",
               "state": {}
             }
+          },
+          {
+            "id": "864cba8e0cc2e337",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -156,34 +164,35 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "6d3ff56ebb083149",
+  "active": "79401fc52f7f98cb",
   "lastOpenFiles": [
-    "Analisi 2/Spazi metrici/Disuguaglianza di Schwarz.md",
+    "Introduzione all'Astrofisica/Misure astronomiche/Misure di distanza.md",
+    "Introduzione all'Astrofisica/Stelle/Candele standard.md",
+    "Introduzione all'Astrofisica/Misure astronomiche/Misure di massa stellare.md",
+    "Introduzione all'Astrofisica/Disegni/Relazione empirica delle Cefeidi.md",
+    "Introduzione all'Astrofisica/Misure astronomiche/Misurazione di lunghezze d'onda.md",
+    "Introduzione all'Astrofisica/Misure astronomiche/Misure di luminosità.md",
+    "Introduzione all'Astrofisica/Stelle",
+    "Introduzione all'Astrofisica/Disegni/Distanza con parallasse.md",
+    "Introduzione all'Astrofisica/Misure astronomiche/Giorni Giuliani.md",
+    "Introduzione all'Astrofisica/Misure astronomiche/Spettroscopia.md",
     "Meccanica Quantistica/Misure di osservabili.md",
+    "Analisi 2/Spazi metrici/Disuguaglianza di Schwarz.md",
     "Meccanica Quantistica/Onde piane.md",
     "Meccanica Quantistica/Concetti/Parentesi di Poisson.md",
     "Meccanica Quantistica/Concetti/Proiettore.md",
     "Meccanica Quantistica/Concetti/Notazione Braket.md",
     "Meccanica Quantistica/Oscillatore armonico quantistico.md",
     "Meccanica Quantistica/Orbite quantizzate degli elettroni.md",
-    "Introduzione all'Astrofisica/Misure astronomiche/Spettroscopia.md",
     "Introduzione all'Astrofisica/Misure astronomiche/Parsec.md",
     "Introduzione all'Astrofisica/Disegni/Righe spettrali.md",
     "Introduzione all'Astrofisica/Disegni/Definizione di Parsec.md",
-    "Introduzione all'Astrofisica/Misure astronomiche/Misure di luminosità.md",
     "Introduzione all'Astrofisica/Misure astronomiche/Colore.md",
     "Introduzione all'Astrofisica/Misure astronomiche/Coordinate dei corpi celesti.md",
     "Introduzione all'Astrofisica/Misure astronomiche/Telescopi.md",
     "Introduzione all'Astrofisica/Misure astronomiche/Magnitudine.md",
-    "Introduzione all'Astrofisica/Misure astronomiche/Misurazione di lunghezze d'onda.md",
     "Introduzione all'Astrofisica/Disegni/Assorbimento Filtri Telescopi.md",
     "Introduzione all'Astrofisica/Disegni/Telescopio Cassegrain.md",
-    "Algebra Lineare/Prodotto scalare.md",
-    "Meccanica Quantistica/Concetti/Matrici di Pauli.md",
-    "Meccanica Quantistica/Concetti/Osservabile.md",
-    "Meccanica Quantistica/Concetti/Matrice di Hadamard.md",
-    "Meccanica Statistica/Gas ideale nella scelta di Gibbs.md",
-    "Meccanica Statistica/Ensemble/Ensemble microcanonico.md",
     "Metodi Matematici della Fisica/Distribuzioni",
     "Metodi Matematici della Fisica",
     "Meccanica Quantistica/Concetti",
@@ -192,7 +201,6 @@
     "Meccanica Statistica/Ensemble",
     "Costanti",
     "Analisi 2/Spazi metrici",
-    "Analisi 2/Serie/Serie di potenze",
-    "Analisi 2/Serie/Serie a termini qualunque"
+    "Analisi 2/Serie/Serie di potenze"
   ]
 }
