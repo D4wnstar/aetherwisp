@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "b9330a50f5eab2ff",
+        "id": "4c0b4c47ec4e9578",
         "type": "tabs",
         "children": [
           {
-            "id": "da179832addf1a6b",
+            "id": "6d3ff56ebb083149",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Meccanica Quantistica/Misure di osservabili.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Meccanica Quantistica/Misure di osservabili.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Meccanica Quantistica/Misure di osservabili.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Meccanica Quantistica/Misure di osservabili.md"
+              }
             }
           },
           {
@@ -148,43 +156,43 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "da179832addf1a6b",
+  "active": "6d3ff56ebb083149",
   "lastOpenFiles": [
-    "Meccanica Statistica/Principi della termodinamica.md",
-    "Meccanica Statistica/Ensemble/Ensemble.md",
-    "Tecniche di Rappresentazione Dati",
+    "Analisi 2/Spazi metrici/Disuguaglianza di Schwarz.md",
+    "Meccanica Quantistica/Misure di osservabili.md",
+    "Meccanica Quantistica/Onde piane.md",
+    "Meccanica Quantistica/Concetti/Parentesi di Poisson.md",
+    "Meccanica Quantistica/Concetti/Proiettore.md",
+    "Meccanica Quantistica/Concetti/Notazione Braket.md",
+    "Meccanica Quantistica/Oscillatore armonico quantistico.md",
+    "Meccanica Quantistica/Orbite quantizzate degli elettroni.md",
+    "Introduzione all'Astrofisica/Misure astronomiche/Spettroscopia.md",
+    "Introduzione all'Astrofisica/Misure astronomiche/Parsec.md",
+    "Introduzione all'Astrofisica/Disegni/Righe spettrali.md",
+    "Introduzione all'Astrofisica/Disegni/Definizione di Parsec.md",
+    "Introduzione all'Astrofisica/Misure astronomiche/Misure di luminosità.md",
+    "Introduzione all'Astrofisica/Misure astronomiche/Colore.md",
+    "Introduzione all'Astrofisica/Misure astronomiche/Coordinate dei corpi celesti.md",
+    "Introduzione all'Astrofisica/Misure astronomiche/Telescopi.md",
+    "Introduzione all'Astrofisica/Misure astronomiche/Magnitudine.md",
+    "Introduzione all'Astrofisica/Misure astronomiche/Misurazione di lunghezze d'onda.md",
+    "Introduzione all'Astrofisica/Disegni/Assorbimento Filtri Telescopi.md",
+    "Introduzione all'Astrofisica/Disegni/Telescopio Cassegrain.md",
+    "Algebra Lineare/Prodotto scalare.md",
+    "Meccanica Quantistica/Concetti/Matrici di Pauli.md",
+    "Meccanica Quantistica/Concetti/Osservabile.md",
+    "Meccanica Quantistica/Concetti/Matrice di Hadamard.md",
+    "Meccanica Statistica/Gas ideale nella scelta di Gibbs.md",
     "Meccanica Statistica/Ensemble/Ensemble microcanonico.md",
-    "Meccanica Statistica/Relazione di Gibbs-Duhem.md",
+    "Metodi Matematici della Fisica/Distribuzioni",
+    "Metodi Matematici della Fisica",
+    "Meccanica Quantistica/Concetti",
+    "Tecniche di Rappresentazione Dati",
     "Meccanica Statistica/Concetti",
     "Meccanica Statistica/Ensemble",
-    "Meccanica Statistica/Concetti/Limite termodinamico.md",
-    "Meccanica Quantistica/Parentesi di Poisson.md",
-    "Meccanica Statistica/Teorema di Liouville.md",
-    "Costanti/Costante di Planck.md",
-    "Meccanica Statistica/Concetti/Ipotesi ergodica.md",
-    "Costanti/Numero di Avogadro.md",
-    "Meccanica Statistica/Potenziali termodinamici.md",
-    "Costanti/Costante di Boltzmann.md",
-    "Costanti/Costante dei gas ideali.md",
     "Costanti",
-    "Analisi 2/Integrali/Integrali della fisica/Teorema della divergenza.md",
-    "Analisi 2/Spazi metrici/Successione di Cauchy.md",
-    "Analisi 2/Spazi metrici/Spazio metrico completo.md",
-    "Analisi 2/Spazi metrici/Spazio metrico compatto.md",
-    "Analisi 2/Spazi metrici/Palla.md",
-    "Analisi 2/Spazi metrici/Equivalenza di norme.md",
-    "Analisi 2/Spazi metrici/K compatto _=_ K chiuso e limitato.md",
-    "Analisi 2/Spazi metrici/Disuguaglianza di Schwarz.md",
-    "Analisi 2/Spazi metrici/Completezza di R__N.md",
     "Analisi 2/Spazi metrici",
-    "Analisi 2/Serie/Serie di potenze/Raggio di convergenza di serie derivata e integrale.md",
-    "Analisi 2/Serie/Serie di potenze/Criterio della radice per serie di potenze.md",
-    "Analisi 2/Serie/Serie di potenze/Convergenza assoluta di serie potenze.md",
-    "Analisi 2/Serie/Serie a termini qualunque/Criterio di Leibniz.md",
     "Analisi 2/Serie/Serie di potenze",
-    "Analisi 2/Serie/Serie a termini qualunque",
-    "Analisi 2/Serie/Serie a termini non negativi",
-    "Analisi 2/Serie",
-    "Analisi 2/Massimi e minimi"
+    "Analisi 2/Serie/Serie a termini qualunque"
   ]
 }

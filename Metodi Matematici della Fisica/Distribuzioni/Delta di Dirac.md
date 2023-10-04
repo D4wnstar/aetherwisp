@@ -1,0 +1,1 @@
+La **delta di Dirac** è una [[distribuzione temperata]]. Ha le dimensione dell'inverso dell'argomento.
