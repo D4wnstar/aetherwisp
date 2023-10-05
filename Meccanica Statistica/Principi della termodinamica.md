@@ -9,7 +9,8 @@ con $\gamma_{rev}$ un cammino reversibile da $A$ a $B$. Questo ci dà l'entropia
 $$dS = \frac{dQ}{T}$$
 da cui si ottiene
 $$dE = TdS - PdV$$
-ossia l'energia è funzione di entropia e volume: $E(S,V)$.
+ossia l'energia è funzione di entropia e volume: $E(S,V)$. Aggiungendo la dipendenza dal numero di elementi con il **potenziale chimico** si ha
+$$dE = TdS - PdV+\mu dN$$
 
 ## Secondo principio
 

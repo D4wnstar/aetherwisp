@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Introduzione all'Astrofisica/Misure astronomiche/Misure di massa stellare.md",
+                "file": "Meccanica Quantistica/Misure di osservabili.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Introduzione all'Astrofisica/Misure astronomiche/Misure di massa stellare.md",
+                "file": "Meccanica Quantistica/Misure di osservabili.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Introduzione all'Astrofisica/Misure astronomiche/Misure di massa stellare.md",
+                "file": "Meccanica Quantistica/Misure di osservabili.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Introduzione all'Astrofisica/Misure astronomiche/Misure di massa stellare.md"
+                "file": "Meccanica Quantistica/Misure di osservabili.md"
               }
             }
           },
@@ -146,7 +146,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -166,33 +166,33 @@
   },
   "active": "79401fc52f7f98cb",
   "lastOpenFiles": [
-    "Introduzione all'Astrofisica/Misure astronomiche/Misure di distanza.md",
-    "Introduzione all'Astrofisica/Stelle/Candele standard.md",
-    "Introduzione all'Astrofisica/Misure astronomiche/Misure di massa stellare.md",
-    "Introduzione all'Astrofisica/Disegni/Relazione empirica delle Cefeidi.md",
-    "Introduzione all'Astrofisica/Misure astronomiche/Misurazione di lunghezze d'onda.md",
-    "Introduzione all'Astrofisica/Misure astronomiche/Misure di luminosità.md",
-    "Introduzione all'Astrofisica/Stelle",
-    "Introduzione all'Astrofisica/Disegni/Distanza con parallasse.md",
-    "Introduzione all'Astrofisica/Misure astronomiche/Giorni Giuliani.md",
-    "Introduzione all'Astrofisica/Misure astronomiche/Spettroscopia.md",
-    "Meccanica Quantistica/Misure di osservabili.md",
-    "Analisi 2/Spazi metrici/Disuguaglianza di Schwarz.md",
-    "Meccanica Quantistica/Onde piane.md",
-    "Meccanica Quantistica/Concetti/Parentesi di Poisson.md",
+    "Meccanica Quantistica/Disuguaglianza di Heisenberg.md",
+    "Meccanica Quantistica/Concetti/Stato.md",
+    "Meccanica Quantistica/Concetti/Qubits.md",
     "Meccanica Quantistica/Concetti/Proiettore.md",
+    "Meccanica Quantistica/Concetti/Parentesi di Poisson.md",
+    "Meccanica Quantistica/Concetti/Osservabile.md",
     "Meccanica Quantistica/Concetti/Notazione Braket.md",
-    "Meccanica Quantistica/Oscillatore armonico quantistico.md",
-    "Meccanica Quantistica/Orbite quantizzate degli elettroni.md",
-    "Introduzione all'Astrofisica/Misure astronomiche/Parsec.md",
-    "Introduzione all'Astrofisica/Disegni/Righe spettrali.md",
-    "Introduzione all'Astrofisica/Disegni/Definizione di Parsec.md",
-    "Introduzione all'Astrofisica/Misure astronomiche/Colore.md",
-    "Introduzione all'Astrofisica/Misure astronomiche/Coordinate dei corpi celesti.md",
-    "Introduzione all'Astrofisica/Misure astronomiche/Telescopi.md",
-    "Introduzione all'Astrofisica/Misure astronomiche/Magnitudine.md",
-    "Introduzione all'Astrofisica/Disegni/Assorbimento Filtri Telescopi.md",
-    "Introduzione all'Astrofisica/Disegni/Telescopio Cassegrain.md",
+    "Meccanica Quantistica/Concetti/Matrici di Pauli.md",
+    "Meccanica Quantistica/Concetti/Matrice di Hadamard.md",
+    "Meccanica Statistica/Minimi e massimi di potenziali.md",
+    "Meccanica Statistica/Ensemble/Ensemble microcanonico.md",
+    "Meccanica Statistica/Concetti/Funzioni omogenee di primo grado.md",
+    "Meccanica Statistica/Concetti/Ipotesi ergodica.md",
+    "Meccanica Statistica/Concetti/Proprietà intensive e estensive.md",
+    "Meccanica Statistica/Concetti/Limite termodinamico.md",
+    "Meccanica Statistica/Ensemble/Ensemble.md",
+    "Meccanica Statistica/Concetti/Fisica statistica.md",
+    "Meccanica Statistica/Concetti/Azione.md",
+    "Algebra Lineare/Prodotto scalare.md",
+    "Meccanica Statistica/Gas ideale nell'ensemble microcanonico.md",
+    "Meccanica Statistica/Condizioni al contorno di gas ideali.md",
+    "Meccanica Statistica/Teorema di Liouville.md",
+    "Meccanica Statistica/Teorema di equipartizione dell'energia.md",
+    "Meccanica Statistica/Relazione di Gibbs-Duhem.md",
+    "Meccanica Statistica/Principi della termodinamica.md",
+    "Meccanica Statistica/Potenziali termodinamici.md",
+    "Introduzione all'Astrofisica/Stelle",
     "Metodi Matematici della Fisica/Distribuzioni",
     "Metodi Matematici della Fisica",
     "Meccanica Quantistica/Concetti",
