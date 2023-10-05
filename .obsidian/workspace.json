@@ -4,18 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "b9330a50f5eab2ff",
+        "id": "66281daf9fb56bfb",
         "type": "tabs",
         "children": [
           {
-            "id": "da179832addf1a6b",
+            "id": "d282e74972bf16fb",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Introduzione all'Astrofisica/Misure astronomiche/Misure di massa stellare.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b7dc71a3b1da16cf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -152,14 +169,25 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "11c537cbe31b9c7c",
+  "active": "b7dc71a3b1da16cf",
   "lastOpenFiles": [
+    "Introduzione all'Astrofisica/Misure astronomiche/Misure di massa stellare.md",
+    "Meccanica Statistica/Teorema di equipartizione dell'energia.md",
+    "Meccanica Statistica/Gas ideale nell'ensemble microcanonico.md",
+    "Meccanica Statistica/Condizioni al contorno di gas ideali.md",
+    "Introduzione all'Astrofisica/Misure astronomiche/Parsec.md",
+    "Introduzione all'Astrofisica/Misure astronomiche/Coordinate dei corpi celesti.md",
+    "Introduzione all'Astrofisica/Misure astronomiche/Giorni Giuliani.md",
+    "Introduzione all'Astrofisica/Misure astronomiche/Misure di distanza.md",
+    "Introduzione all'Astrofisica/Misure astronomiche/Misurazione di lunghezze d'onda.md",
+    "Introduzione all'Astrofisica/Misure astronomiche/Misure di luminosità.md",
+    "Introduzione all'Astrofisica/Misure astronomiche/Telescopi.md",
+    "Introduzione all'Astrofisica/Misure astronomiche/Colore.md",
+    "Introduzione all'Astrofisica/Misure astronomiche/Magnitudine.md",
+    "Introduzione all'Astrofisica/Disegni/Telescopio Cassegrain.md",
     "conflict-files-obsidian-git.md",
     "Introduzione all'Astrofisica/Stelle/Candele standard.md",
     "Introduzione all'Astrofisica/Stelle",
-    "Introduzione all'Astrofisica/Misure astronomiche/Misure di massa stellare.md",
-    "Introduzione all'Astrofisica/Misure astronomiche/Misure di distanza.md",
-    "Introduzione all'Astrofisica/Misure astronomiche/Giorni Giuliani.md",
     "Introduzione all'Astrofisica/Disegni/Relazione empirica delle Cefeidi.md",
     "Introduzione all'Astrofisica/Disegni/Distanza con parallasse.md",
     "Meccanica Quantistica/Osservabile.md",
@@ -172,18 +200,7 @@
     "Meccanica Statistica/Concetti/Fisica statistica.md",
     "Meccanica Statistica/Concetti/Azione.md",
     "Meccanica Quantistica/Onde piane.md",
-    "Meccanica Quantistica/Misure di osservabili.md",
-    "Meccanica Quantistica/Concetti/Stato.md",
-    "Meccanica Quantistica/Concetti/Qubits.md",
-    "Meccanica Quantistica/Concetti/Proiettore.md",
-    "Meccanica Quantistica/Concetti/Parentesi di Poisson.md",
-    "Meccanica Quantistica/Concetti/Osservabile.md",
-    "Meccanica Quantistica/Concetti/Notazione Braket.md",
-    "Meccanica Quantistica/Concetti/Matrici di Pauli.md",
-    "Meccanica Quantistica/Concetti/Matrice di Hadamard.md",
     "Meccanica Quantistica/Concetti",
-    "Introduzione all'Astrofisica/Misure astronomiche/Spettroscopia.md",
-    "Introduzione all'Astrofisica/Misure astronomiche/Parsec.md",
     "Tecniche di Rappresentazione Dati",
     "Meccanica Statistica/Concetti",
     "Meccanica Statistica/Ensemble",
