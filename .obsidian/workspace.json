@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "72d3db12e202b652",
+            "id": "07bc9fe7eb747e59",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Meccanica Quantistica/Onde piane.md",
+                "file": "Introduzione all'Astrofisica/Stelle/Stelle.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Meccanica Quantistica/Onde piane.md",
+                "file": "Introduzione all'Astrofisica/Stelle/Stelle.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Meccanica Quantistica/Onde piane.md",
+                "file": "Introduzione all'Astrofisica/Stelle/Stelle.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Meccanica Quantistica/Onde piane.md"
+                "file": "Introduzione all'Astrofisica/Stelle/Stelle.md"
               }
             }
           },
@@ -164,16 +164,27 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "72d3db12e202b652",
+  "active": "11c537cbe31b9c7c",
   "lastOpenFiles": [
+    "Introduzione all'Astrofisica/Stelle/Fusione nucleare.md",
+    "Introduzione all'Astrofisica/Stelle/Stelle.md",
+    "Introduzione all'Astrofisica/Disegni/Frammentazione gerarchica.md",
+    "Algebra Lineare/Prodotto scalare.md",
+    "Introduzione all'Astrofisica/Stelle/Metallicità.md",
+    "Introduzione all'Astrofisica/Stelle/Nubi molecolari.md",
+    "Costanti/Costante di Boltzmann.md",
+    "Meccanica Quantistica/Misure di osservabili.md",
     "Meccanica Quantistica/Oscillatore armonico quantistico.md",
+    "Meccanica Quantistica/Postulati della meccanica quantistica.md",
     "Meccanica Quantistica/Orbite quantizzate degli elettroni.md",
+    "Excalidraw/Drawing 2023-10-10 15.06.49.excalidraw.md",
     "Meccanica Quantistica/Onde piane.md",
+    "Introduzione all'Astrofisica/Misure astronomiche/Misure di massa stellare.md",
+    "Introduzione all'Astrofisica/Misure astronomiche/Misure di luminosità.md",
+    "Introduzione all'Astrofisica/Misure astronomiche/Misure di distanza.md",
     "Meccanica Quantistica/Concetti/Matrice densità.md",
     "Meccanica Quantistica/Rappresentazione spettrale.md",
     "Operatore positivo.md",
-    "Meccanica Quantistica/Postulati della meccanica quantistica.md",
-    "Meccanica Quantistica/Misure di osservabili.md",
     "Meccanica Quantistica/Disuguaglianza di Heisenberg.md",
     "Meccanica Quantistica/Concetti/Autostati degeneri.md",
     "Meccanica Statistica/Ensemble/Ensemble canonico.md",
@@ -181,17 +192,6 @@
     "Meccanica Statistica/Ensemble/Ensemble.md",
     "Meccanica Statistica/Ensemble/Ensemble microcanonico.md",
     "Meccanica Statistica/Gas ideale nell'ensemble canonico.md",
-    "Meccanica Statistica/Gas ideale nell'ensemble microcanonico.md",
-    "Meccanica Statistica/Concetti/Approssimazione di Stirling.md",
-    "Meccanica Statistica/Condizioni al contorno di gas ideali.md",
-    "conflict-files-obsidian-git.md",
-    "Meccanica Statistica/Potenziali termodinamici.md",
-    "Meccanica Statistica/Disegni/Sistemi Annidati.md",
-    "Meccanica Statistica/Altro/Da organizzare.md",
-    "Meccanica Quantistica/Concetti/Matrici di Pauli.md",
-    "Meccanica Quantistica/Concetti/Notazione Braket.md",
-    "Meccanica Quantistica/Concetti/Stato.md",
-    "Meccanica Quantistica/Concetti/Qubits.md",
     "Introduzione all'Astrofisica/Stelle",
     "Metodi Matematici della Fisica/Distribuzioni",
     "Metodi Matematici della Fisica",

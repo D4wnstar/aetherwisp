@@ -64,3 +64,4 @@ e^{ik(x-vt)}&=e^{\frac{i}{\hbar}px-i \frac{2\pi}{\lambda} vt} \\
 $$\left( \frac{\hat{p}^{2}}{2m}\psi_{t} \right)(x)=i\hbar\partial_{t}\psi_{t}(x)=E\psi_{t}(x)=- \frac{\hbar^{2}}{2m}\partial_{x}^{2}\psi_{t}(x)=\frac{p^{2}}{2m}\psi_{t}(x)$$
 Onda piana particella libera -> si trova l'energia -> si vede che la si ottiene derivando rispetto al tempo ma anche rispetto alla posizione due volte.
 $$i\hbar\partial_{t}|\psi_{t}\rangle=\frac{\hat{p}^{2}}{2m}|\psi_{t}\rangle=\hat{H}|\psi_{t}\rangle$$
+
