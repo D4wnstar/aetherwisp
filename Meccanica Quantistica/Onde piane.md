@@ -1,3 +1,4 @@
+## Onda non dipendente dal tempo
 Considero un'onda piana $\psi_{p}(x)=A_{p}e^{\frac{i}{\hbar}px}$ e la descrivo come [[prodotto scalare]]
 $$\psi_{p}(x)=\langle x|\psi_{p}\rangle=\langle x|p\rangle$$
 abbreviando $\psi_{p}$ a $p$. Allora trovo il prodotto scalare tra due onde
@@ -51,3 +52,15 @@ $$\ldots=x \langle x|\hat{p}\psi\rangle+i\hbar\partial_{x}\langle x|\hat{x}\psi\
 Ma allora abbiamo scoperto che
 $$\boxed{[\hat{x},\hat{p}]=i\hbar\hat{\mathbb{1}}=i\hbar}$$
 dove tendenzialmente si tralascia l'operatore identico, per comodità. Un altro esempio di questo è $\alpha|\psi\rangle=\alpha\hat{\mathbb{1}}|\psi\rangle$.
+
+## Onda dipendente dal tempo
+Considero un'onda piana ora dipendente dal tempo e la sviluppo
+$$\begin{align}
+e^{ik(x-vt)}&=e^{\frac{i}{\hbar}px-i \frac{2\pi}{\lambda} vt} \\
+&=e^{\frac{i}{\hbar}px-i2\pi\nu t}\\
+&=e^{\frac{i}{\hbar}(px- \hbar\nu t)}\\
+&=e^{\frac{i}{\hbar}px-Et}=\psi_{t}(x)
+\end{align}$$
+$$\left( \frac{\hat{p}^{2}}{2m}\psi_{t} \right)(x)=i\hbar\partial_{t}\psi_{t}(x)=E\psi_{t}(x)=- \frac{\hbar^{2}}{2m}\partial_{x}^{2}\psi_{t}(x)=\frac{p^{2}}{2m}\psi_{t}(x)$$
+Onda piana particella libera -> si trova l'energia -> si vede che la si ottiene derivando rispetto al tempo ma anche rispetto alla posizione due volte.
+$$i\hbar\partial_{t}|\psi_{t}\rangle=\frac{\hat{p}^{2}}{2m}|\psi_{t}\rangle=\hat{H}|\psi_{t}\rangle$$

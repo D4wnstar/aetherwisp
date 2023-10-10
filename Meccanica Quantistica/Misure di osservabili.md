@@ -1,4 +1,4 @@
-Prendiamo un'[[osservabile]] $\hat{A}=\hat{A}^{\dagger}:\mathbb{H}\rightarrow\mathbb{H}$ e una $\hat{B}=\hat{B}^{\dagger}:\mathbb{H}\rightarrow\mathbb{H}$. Prendo un ket $|\psi\rangle\in\mathbb{H}$ che rappresenta lo stato del mio sistema. Dato che la meccanica quantistica è una teoria statistica, è conveniente trovare i valori medi delle osservabili: $$\boxed{\langle\hat{A}\rangle_{\psi}=\langle \psi|\hat{A}\psi\rangle}$$
+Prendiamo un'[[osservabile]] $\hat{A}=\hat{A}^{\dagger}:\mathbb{H}\rightarrow\mathbb{H}$ e una $\hat{B}=\hat{B}^{\dagger}:\mathbb{H}\rightarrow\mathbb{H}$. Prendo un [[Notazione Braket|ket]] $|\psi\rangle\in\mathbb{H}$ che rappresenta lo stato del mio sistema. Dato che la meccanica quantistica è una teoria statistica, è conveniente trovare i valori medi delle osservabili: $$\boxed{\langle\hat{A}\rangle_{\psi}=\langle \psi|\hat{A}\psi\rangle}$$
 Per dimostrarlo, ricordiamo che se $\hat{A}$ è autoaggiunto, i suoi autovettori formano una base dello spazio. Abbiamo $\hat{A}|a_{i}\rangle=a_{i}|a_{i}\rangle$ con $a_{i}\in\mathbb{R}$. Riscriviamo l'espressione esprimendo $\psi$ in questa base
 $$|\psi\rangle=\sum\limits_{i=1}^{n}\psi_{i}|a_{i}\rangle$$
 $$\langle \psi|\hat{A}\psi\rangle=\sum\limits_{i,j=1}^{n}\psi_{i}\psi_{j}^{\ast}\langle a_{j}|\hat{A}|a_{i}\rangle=\sum\limits_{i,j=1}^{n}\psi_{i}\psi_{j}^{\ast}a_{j}\underbrace{\langle a_{j}|a_{i}\rangle}\limits_{\delta_{ij}}$$
@@ -19,7 +19,7 @@ quindi il valor medio è uguale al suo coniugato, quindi è *reale*. Tornando al
 $$\Delta_{\psi}\hat{A}=||(\hat{A}-\langle\hat{A}\rangle_{\psi})|\psi\rangle||^{2}$$
 $$\Delta_{\psi}\hat{B}=||(\hat{B}-\langle\hat{B}\rangle_{\psi})|\psi\rangle||^{2}$$
 Allora il prodotto è
-$$\Delta_{\psi}\hat{A}\Delta_{\psi}\hat{B}=\Delta_{\psi}\hat{A}=||(\hat{A}-\langle\hat{A}\rangle_{\psi})|\psi\rangle||^{2}+\Delta_{\psi}\hat{B}=||(\hat{B}-\langle\hat{B}\rangle_{\psi})|\psi\rangle||^{2}\geq\ldots$$
+$$\Delta_{\psi}\hat{A}\Delta_{\psi}\hat{B}=||(\hat{A}-\langle\hat{A}\rangle_{\psi})|\psi\rangle||^{2}+||(\hat{B}-\langle\hat{B}\rangle_{\psi})|\psi\rangle||^{2}\geq\ldots$$
 e usando la [[disuguaglianza di Schwarz]] 
 $$\ldots\geq|\langle\hat{A}-\langle\hat{A}\rangle_{\psi})\psi\;|\;(\hat{B}-\langle\hat{B}\rangle_{\psi})\psi\rangle|^{2}\geq\ldots$$
 Ricordando che la parte immaginaria di un numero complesso $z$ si può scrivere come
