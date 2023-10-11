@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "1493f3625c961f37",
+        "id": "73f7293b0492ccda",
         "type": "tabs",
         "children": [
           {
-            "id": "07bc9fe7eb747e59",
+            "id": "ef9440dfe36d00e8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Introduzione all'Astrofisica/Stelle/Stelle.md",
+                "file": "Meccanica Quantistica/Problema della buca infinita.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Introduzione all'Astrofisica/Stelle/Stelle.md",
+                "file": "Meccanica Quantistica/Problema della buca infinita.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Introduzione all'Astrofisica/Stelle/Stelle.md",
+                "file": "Meccanica Quantistica/Problema della buca infinita.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Introduzione all'Astrofisica/Stelle/Stelle.md"
+                "file": "Meccanica Quantistica/Problema della buca infinita.md"
               }
             }
           },
@@ -145,8 +145,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
@@ -164,10 +163,20 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "11c537cbe31b9c7c",
+  "active": "ef9440dfe36d00e8",
   "lastOpenFiles": [
-    "Introduzione all'Astrofisica/Stelle/Fusione nucleare.md",
+    "Meccanica Quantistica/Equazioni di Schroedinger.md",
+    "Meccanica Quantistica/Problema della buca infinita.md",
+    "Meccanica Quantistica/Disegni/Buca infinita.md",
+    "Meccanica Quantistica/Disegni",
+    "Metodi Matematici della Fisica/Operatori/Operatore autoaggiunto.md",
+    "Meccanica Quantistica/Concetti/Proiettore.md",
+    "Metodi Matematici della Fisica/Operatori",
+    "Metodi Matematici della Fisica/Operatori/Operatore positivo.md",
+    "Meccanica Quantistica/Rappresentazione spettrale.md",
+    "Meccanica Quantistica/Postulati della meccanica quantistica.md",
     "Introduzione all'Astrofisica/Stelle/Stelle.md",
+    "Introduzione all'Astrofisica/Stelle/Fusione nucleare.md",
     "Introduzione all'Astrofisica/Disegni/Frammentazione gerarchica.md",
     "Algebra Lineare/Prodotto scalare.md",
     "Introduzione all'Astrofisica/Stelle/Metallicità.md",
@@ -175,7 +184,6 @@
     "Costanti/Costante di Boltzmann.md",
     "Meccanica Quantistica/Misure di osservabili.md",
     "Meccanica Quantistica/Oscillatore armonico quantistico.md",
-    "Meccanica Quantistica/Postulati della meccanica quantistica.md",
     "Meccanica Quantistica/Orbite quantizzate degli elettroni.md",
     "Excalidraw/Drawing 2023-10-10 15.06.49.excalidraw.md",
     "Meccanica Quantistica/Onde piane.md",
@@ -183,15 +191,8 @@
     "Introduzione all'Astrofisica/Misure astronomiche/Misure di luminosità.md",
     "Introduzione all'Astrofisica/Misure astronomiche/Misure di distanza.md",
     "Meccanica Quantistica/Concetti/Matrice densità.md",
-    "Meccanica Quantistica/Rappresentazione spettrale.md",
-    "Operatore positivo.md",
     "Meccanica Quantistica/Disuguaglianza di Heisenberg.md",
     "Meccanica Quantistica/Concetti/Autostati degeneri.md",
-    "Meccanica Statistica/Ensemble/Ensemble canonico.md",
-    "Meccanica Statistica/Disegni/Drawing 2023-10-10 09.08.09.excalidraw.md",
-    "Meccanica Statistica/Ensemble/Ensemble.md",
-    "Meccanica Statistica/Ensemble/Ensemble microcanonico.md",
-    "Meccanica Statistica/Gas ideale nell'ensemble canonico.md",
     "Introduzione all'Astrofisica/Stelle",
     "Metodi Matematici della Fisica/Distribuzioni",
     "Metodi Matematici della Fisica",
@@ -199,8 +200,6 @@
     "Tecniche di Rappresentazione Dati",
     "Meccanica Statistica/Concetti",
     "Meccanica Statistica/Ensemble",
-    "Costanti",
-    "Analisi 2/Spazi metrici",
-    "Analisi 2/Serie/Serie di potenze"
+    "Costanti"
   ]
 }
