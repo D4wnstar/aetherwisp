@@ -1,9 +1,9 @@
 Si denota $\langle\cdot|\cdot\rangle$ il **prodotto scalare** tra due variabili (usando la [[Notazione Braket]]), che ha le seguenti proprietà:
-1. è lineare nel membro di destra (convenzione, i matematici usano a sinistra)
-2. è antilineare nel membro di sinistra (convenzione, i matematici usano a destra)
+1. è lineare nel membro di destra (convenzione, i matematici usano a sinistra), ossia $\langle v|\alpha w + \beta z\rangle=\alpha \langle v|w\rangle+\beta \langle v|z\rangle$. 
+2. è antilineare nel membro di sinistra (convenzione, i matematici usano a destra), ossia $\langle \alpha v + \beta w|z\rangle=\alpha^{\ast} \langle v|w\rangle+\beta^{\ast} \langle v|z\rangle$
 3. $\langle v|v\rangle\geq0\;\forall\;|v\rangle\in\mathbb{C}^{n}$
 4. $\langle v|v\rangle=0\Leftrightarrow|v\rangle=0$
-5. $\langle w|v\rangle\leq||w||\;||v||$ (**disuguaglianza di Cauchy-Schwartz**)
+5. $\langle w|v\rangle\leq||w||\;||v||$ (**disuguaglianza di Cauchy-Schwarz**)
 6. $\langle v|w\rangle=\overline{\langle w|v\rangle}$
 
 Si può definire anche su spazi di funzioni come $L^{2}(\mathbb{R},dx)$. Allora presi due vettori $|\psi\rangle,|\phi\rangle$ in questo spazio vale

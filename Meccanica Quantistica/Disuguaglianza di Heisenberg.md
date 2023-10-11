@@ -5,7 +5,7 @@ $$\langle F^{2}\rangle_{\pi}=\sum\limits_{i=1}^{d}p_{i}F^{2}(x_{i})$$
 $$\Delta_{\pi}F=\langle F^{2}\rangle_{\pi}-\langle F\rangle^{2}_{\pi}$$
 In meccanica classica è possibile misurare qualunque cosa, almeno in linea di principio, con precisione arbitraria. In meccanica quantistica, invece, si trova che gli errori su $\hat{p}$ e $\hat{q}$ sono
 $$\boxed{\Delta\hat{p}\Delta\hat{q}\geq\frac{\hbar}{2}}$$
-che è la **disuguaglianza di Heisenberg**.
+che è la **disuguaglianza di Heisenberg**. Per una forma in funzione di due [[Osservabile|osservabili]], vedi [[Misure di osservabili]].
 Dunque è impossibile misurare traiettorie per particelle quantistiche, in quanto servirebbe avere misure precise sia per $\hat{p}$ e $\hat{q}$.
 
 Se prendiamo la distribuzione di Gibbs che descrive uno [[stato]] misto
