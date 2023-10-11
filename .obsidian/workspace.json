@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "73f7293b0492ccda",
+        "id": "ae599006157bafbc",
         "type": "tabs",
         "children": [
           {
-            "id": "ef9440dfe36d00e8",
+            "id": "35f6b7db6d5dd55d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Meccanica Quantistica/Problema della buca infinita.md",
+                "file": "Introduzione all'Astrofisica/Stelle/Equilibrio idrostatico.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Meccanica Quantistica/Problema della buca infinita.md",
+                "file": "Introduzione all'Astrofisica/Stelle/Equilibrio idrostatico.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Meccanica Quantistica/Problema della buca infinita.md",
+                "file": "Introduzione all'Astrofisica/Stelle/Equilibrio idrostatico.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Meccanica Quantistica/Problema della buca infinita.md"
+                "file": "Introduzione all'Astrofisica/Stelle/Equilibrio idrostatico.md"
               }
             }
           },
@@ -163,10 +163,20 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "ef9440dfe36d00e8",
+  "active": "35f6b7db6d5dd55d",
   "lastOpenFiles": [
-    "Meccanica Quantistica/Equazioni di Schroedinger.md",
+    "Introduzione all'Astrofisica/Disegni/Equilibrio idrostatico.md",
+    "Introduzione all'Astrofisica/Stelle/Equilibrio idrostatico.md",
+    "Excalidraw/Template.excalidraw.md",
+    "Costanti/Constante gravitazionale.md",
+    "Introduzione all'Astrofisica/Stelle/Luminosità di una stella.md",
+    "Introduzione all'Astrofisica/Stelle/Fusione nucleare.md",
+    "Introduzione all'Astrofisica/Stelle/Nubi molecolari.md",
+    "Introduzione all'Astrofisica/Stelle/Ammassi stellari.md",
+    "Introduzione all'Astrofisica/Stelle/Stelle.md",
+    "Introduzione all'Astrofisica/Disegni/Rallentamento magnetico.md",
     "Meccanica Quantistica/Problema della buca infinita.md",
+    "Meccanica Quantistica/Equazioni di Schroedinger.md",
     "Meccanica Quantistica/Disegni/Buca infinita.md",
     "Meccanica Quantistica/Disegni",
     "Metodi Matematici della Fisica/Operatori/Operatore autoaggiunto.md",
@@ -175,24 +185,14 @@
     "Metodi Matematici della Fisica/Operatori/Operatore positivo.md",
     "Meccanica Quantistica/Rappresentazione spettrale.md",
     "Meccanica Quantistica/Postulati della meccanica quantistica.md",
-    "Introduzione all'Astrofisica/Stelle/Stelle.md",
-    "Introduzione all'Astrofisica/Stelle/Fusione nucleare.md",
     "Introduzione all'Astrofisica/Disegni/Frammentazione gerarchica.md",
     "Algebra Lineare/Prodotto scalare.md",
     "Introduzione all'Astrofisica/Stelle/Metallicità.md",
-    "Introduzione all'Astrofisica/Stelle/Nubi molecolari.md",
     "Costanti/Costante di Boltzmann.md",
     "Meccanica Quantistica/Misure di osservabili.md",
     "Meccanica Quantistica/Oscillatore armonico quantistico.md",
     "Meccanica Quantistica/Orbite quantizzate degli elettroni.md",
     "Excalidraw/Drawing 2023-10-10 15.06.49.excalidraw.md",
-    "Meccanica Quantistica/Onde piane.md",
-    "Introduzione all'Astrofisica/Misure astronomiche/Misure di massa stellare.md",
-    "Introduzione all'Astrofisica/Misure astronomiche/Misure di luminosità.md",
-    "Introduzione all'Astrofisica/Misure astronomiche/Misure di distanza.md",
-    "Meccanica Quantistica/Concetti/Matrice densità.md",
-    "Meccanica Quantistica/Disuguaglianza di Heisenberg.md",
-    "Meccanica Quantistica/Concetti/Autostati degeneri.md",
     "Introduzione all'Astrofisica/Stelle",
     "Metodi Matematici della Fisica/Distribuzioni",
     "Metodi Matematici della Fisica",
