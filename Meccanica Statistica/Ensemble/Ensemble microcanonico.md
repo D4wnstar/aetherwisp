@@ -1,3 +1,4 @@
+L'**ensemble microcanonico** è un insieme statistico che descrive i possibili stati di un [[sistema isolato]]. In esso valgono il [[teorema di equipartizione dell'energia]] e l'[[ipotesi ergodica]].
 Prendo una funzione di densità dei punti rappresentativi $\rho(q;p)=\rho(H(q;p)) \Rightarrow \rho(E)$ nello spazio delle fasi con $H$ [[Hamiltoniana]] del sistema. Prendiamo un sistema isolato, quindi con energia $E$ costante. Decido che $\rho = cost$, allora valgono alcune scelte per $H$:
 1. $H=E$ con $E$ l'energia del sistema
 2. $E\leq H \leq E+\Delta$ con $\Delta$ finito

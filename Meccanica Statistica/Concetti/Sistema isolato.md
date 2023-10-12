@@ -1,0 +1,1 @@
+Un **sistema isolato** è un sistema che un valore costante di energia, volume e particelle.
