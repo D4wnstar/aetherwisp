@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Introduzione all'Astrofisica/Stelle/Equilibrio idrostatico.md",
+                "file": "Meccanica Quantistica/Rappresentazione spettrale.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Introduzione all'Astrofisica/Stelle/Equilibrio idrostatico.md",
+                "file": "Meccanica Quantistica/Rappresentazione spettrale.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Introduzione all'Astrofisica/Stelle/Equilibrio idrostatico.md",
+                "file": "Meccanica Quantistica/Rappresentazione spettrale.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Introduzione all'Astrofisica/Stelle/Equilibrio idrostatico.md"
+                "file": "Meccanica Quantistica/Rappresentazione spettrale.md"
               }
             }
           },
@@ -145,7 +145,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -165,34 +166,34 @@
   },
   "active": "35f6b7db6d5dd55d",
   "lastOpenFiles": [
-    "Introduzione all'Astrofisica/Disegni/Equilibrio idrostatico.md",
-    "Introduzione all'Astrofisica/Stelle/Equilibrio idrostatico.md",
-    "Excalidraw/Template.excalidraw.md",
-    "Costanti/Constante gravitazionale.md",
-    "Introduzione all'Astrofisica/Stelle/Luminosità di una stella.md",
-    "Introduzione all'Astrofisica/Stelle/Fusione nucleare.md",
-    "Introduzione all'Astrofisica/Stelle/Nubi molecolari.md",
-    "Introduzione all'Astrofisica/Stelle/Ammassi stellari.md",
-    "Introduzione all'Astrofisica/Stelle/Stelle.md",
-    "Introduzione all'Astrofisica/Disegni/Rallentamento magnetico.md",
-    "Meccanica Quantistica/Problema della buca infinita.md",
-    "Meccanica Quantistica/Equazioni di Schroedinger.md",
-    "Meccanica Quantistica/Disegni/Buca infinita.md",
-    "Meccanica Quantistica/Disegni",
-    "Metodi Matematici della Fisica/Operatori/Operatore autoaggiunto.md",
-    "Meccanica Quantistica/Concetti/Proiettore.md",
-    "Metodi Matematici della Fisica/Operatori",
-    "Metodi Matematici della Fisica/Operatori/Operatore positivo.md",
+    "Meccanica Quantistica/Concetti/Evolutore.md",
     "Meccanica Quantistica/Rappresentazione spettrale.md",
-    "Meccanica Quantistica/Postulati della meccanica quantistica.md",
-    "Introduzione all'Astrofisica/Disegni/Frammentazione gerarchica.md",
-    "Algebra Lineare/Prodotto scalare.md",
-    "Introduzione all'Astrofisica/Stelle/Metallicità.md",
-    "Costanti/Costante di Boltzmann.md",
     "Meccanica Quantistica/Misure di osservabili.md",
+    "Metodi Matematici della Fisica/Operatori/Operatore autoaggiunto.md",
+    "Meccanica Quantistica/Equazioni di Schroedinger.md",
+    "Meccanica Quantistica/Disuguaglianza di Heisenberg.md",
+    "Meccanica Quantistica/Problema della buca infinita.md",
+    "Meccanica Quantistica/Altro/Da organizzare.md",
+    "Meccanica Quantistica/Postulati della meccanica quantistica.md",
+    "Meccanica Quantistica/Onde piane.md",
+    "Meccanica Quantistica/Altro/Cose per esercizi.md",
     "Meccanica Quantistica/Oscillatore armonico quantistico.md",
     "Meccanica Quantistica/Orbite quantizzate degli elettroni.md",
-    "Excalidraw/Drawing 2023-10-10 15.06.49.excalidraw.md",
+    "Meccanica Statistica/Teoria delle perturbazioni.md",
+    "Meccanica Statistica/Altro/Esercizi.md",
+    "Meccanica Statistica/Gas ideale nell'ensemble canonico.md",
+    "Meccanica Statistica/Altro/Da organizzare.md",
+    "Meccanica Statistica/Gas ideale nell'ensemble microcanonico.md",
+    "Meccanica Statistica/Concetti/Teorema di equipartizione dell'energia.md",
+    "Meccanica Statistica/Concetti/Proprietà intensive e estensive.md",
+    "Introduzione all'Astrofisica/Stelle/Equilibrio idrostatico.md",
+    "Introduzione all'Astrofisica/Stelle/Fusione nucleare.md",
+    "Introduzione all'Astrofisica/Stelle/Luminosità di una stella.md",
+    "Introduzione all'Astrofisica/Stelle/Metallicità.md",
+    "Introduzione all'Astrofisica/Stelle/Nubi molecolari.md",
+    "Introduzione all'Astrofisica/Stelle/Stelle.md",
+    "Meccanica Quantistica/Disegni",
+    "Metodi Matematici della Fisica/Operatori",
     "Introduzione all'Astrofisica/Stelle",
     "Metodi Matematici della Fisica/Distribuzioni",
     "Metodi Matematici della Fisica",
