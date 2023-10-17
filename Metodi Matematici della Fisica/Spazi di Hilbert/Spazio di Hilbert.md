@@ -1,0 +1,1 @@
+Uno **spazio di Hilbert** $\mathbb{H}$ è uno spazio vettoriale completo rispetto alla norma indotta da un prodotto scalare.
