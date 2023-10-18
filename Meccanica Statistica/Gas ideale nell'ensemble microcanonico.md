@@ -22,7 +22,7 @@ $$\ldots=\frac{\partial }{\partial E}Nk_{B}(\ln X+\ln E^{\frac{3}{2}})=\frac{\pa
 da cui troviamo
 $$\frac{1}{T}=\frac{3}{2}Nk_{B} \frac{1}{E} \Rightarrow \boxed{E= \frac{3}{2}Nk_{B}T}$$
 quindi l'energia è funzione della temperatura. L'entropia inoltre è
-$$S=Nk_{B}\ln\left[ \frac{V}{N}e^{\frac{5}{2}}\left(\frac{2\pi mE}{h^{2}}\right)^\frac{3}{2}\right]$$
+$$\boxed{S=Nk_{B}\ln\left[ \frac{V}{N}e^{\frac{5}{2}}\left(\frac{2\pi mE}{h^{2}}\right)^\frac{3}{2}\right]}$$
 Da qui, partendo dal primo principio, possiamo trovare le espressioni per le variabili di stato. Partiamo dalla pressione
 $$P=T \frac{\partial S}{\partial V}{\big|}_{E,N}=T \frac{\partial }{\partial V}Nk_{B}[\ln V+\ln(\ldots)]$$
 la seconda parte del logaritmo non dipende da $V$, quindi scompare nella derivata
