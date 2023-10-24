@@ -4,18 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "695a0438865063f2",
+        "id": "e344f902d709c3ad",
         "type": "tabs",
         "children": [
           {
-            "id": "b042e07b35701a8c",
+            "id": "9c6645693de83310",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Introduzione all'Astrofisica/Stelle/Equazioni della struttura stellare.md",
+                "file": "Introduzione all'Astrofisica/Stelle/Sequenza principale.md",
                 "mode": "source",
                 "source": false
+              }
+            }
+          },
+          {
+            "id": "039184047d671233",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Introduzione all'Astrofisica/Disegni/Evoluzione Post-mortem Stelle Solari.md"
               }
             }
           }
@@ -85,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Introduzione all'Astrofisica/Stelle/Equazioni della struttura stellare.md",
+                "file": "Introduzione all'Astrofisica/Stelle/Sequenza principale.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Introduzione all'Astrofisica/Stelle/Equazioni della struttura stellare.md",
+                "file": "Introduzione all'Astrofisica/Stelle/Sequenza principale.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Introduzione all'Astrofisica/Stelle/Equazioni della struttura stellare.md"
+                "file": "Introduzione all'Astrofisica/Stelle/Sequenza principale.md"
               }
             }
           },
@@ -134,6 +144,14 @@
             "type": "leaf",
             "state": {
               "type": "git-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "864cba8e0cc2e337",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
               "state": {}
             }
           }
@@ -158,35 +176,35 @@
   },
   "active": "11c537cbe31b9c7c",
   "lastOpenFiles": [
-    "Introduzione all'Astrofisica/Stelle/Trasferimenti radiativi.md",
-    "Introduzione all'Astrofisica/Stelle/Stelle.md",
-    "Introduzione all'Astrofisica/Stelle/Luminosità.md",
-    "Introduzione all'Astrofisica/Stelle/Metallicità.md",
-    "Introduzione all'Astrofisica/Stelle/Equazioni della struttura stellare.md",
+    "Introduzione all'Astrofisica/Disegni/Evoluzione Post-mortem Stelle Solari.md",
+    "Introduzione all'Astrofisica/Disegni/Grafico di Fase Gas Degenere.md",
+    "Introduzione all'Astrofisica/Stelle/Sequenza principale.md",
+    "Introduzione all'Astrofisica/Stelle/Pressione degenere.md",
     "Introduzione all'Astrofisica/Stelle/Nubi molecolari.md",
-    "Costanti/Costante di Stefan-Boltzmann.md",
-    "Introduzione all'Astrofisica/Stelle/Equilibrio idrostatico.md",
-    "Introduzione all'Astrofisica/Stelle/Candele standard.md",
-    "Introduzione all'Astrofisica/Stelle/Ammassi stellari.md",
-    "Meccanica Statistica/Ensemble/Ensemble gran canonico.md",
-    "conflict-files-obsidian-git.md",
+    "Introduzione all'Astrofisica/Stelle/Luminosità.md",
+    "Senza nome.md",
+    "Introduzione all'Astrofisica/Stelle/Equazioni della struttura stellare.md",
+    "Meccanica Statistica/Gas ideale nell'ensemble canonico.md",
+    "Meccanica Statistica/Condizioni al contorno di gas ideali.md",
+    "Excalidraw/Drawing 2023-10-24 14.00.41.excalidraw.md",
+    "Meccanica Statistica/Disegni/Drawing 2023-10-10 09.08.09.excalidraw.md",
     "Meccanica Statistica/Equivalenza di ensemble canonico e gran canonico.md",
-    "Meccanica Statistica/Disegni/Drawing 2023-10-24 09.11.00.excalidraw.md",
-    "Metodi Matematici della Fisica/Spazi di Hilbert/Spazio di Hilbert.md",
-    "Metodi Matematici della Fisica/Spazi di Hilbert",
-    "Meccanica Statistica/Teoria delle perturbazioni.md",
-    "Meccanica Statistica/Particelle in un campo magnetico.md",
-    "Meccanica Statistica/Concetti/Teorema di equipartizione dell'energia.md",
-    "Meccanica Statistica/Concetti/Teorema di Liouville.md",
-    "Meccanica Statistica/Concetti/Sistema isolato.md",
-    "Meccanica Statistica/Concetti/Relazione di Gibbs-Duhem.md",
+    "Costanti/Costante di Stefan-Boltzmann.md",
     "Meccanica Statistica/Altro/Esercizi.md",
-    "Meccanica Quantistica/Concetti/Evolutore.md",
-    "Meccanica Quantistica/Concetti/Equazione di Schroedinger.md",
-    "Meccanica Quantistica/Concetti/Dualità.md",
-    "Meccanica Quantistica/Altro/Cose per esercizi.md",
-    "Metodi Matematici della Fisica/Operatori",
+    "Introduzione all'Astrofisica/Misure astronomiche/Misure di massa stellare.md",
+    "Introduzione all'Astrofisica/Stelle/Equazione della struttura stellare.md",
+    "Introduzione all'Astrofisica/Stelle/Metallicità.md",
+    "Introduzione all'Astrofisica/Misure astronomiche/Giorni Giuliani.md",
+    "Introduzione all'Astrofisica/Stelle/Trasferimenti radiativi.md",
+    "Introduzione all'Astrofisica/Misure astronomiche/Spettroscopia.md",
+    "Introduzione all'Astrofisica/Misure astronomiche/Colore.md",
+    "Introduzione all'Astrofisica/Stelle/Candele standard.md",
+    "Excalidraw/excstyle.css.md",
+    "Meccanica Statistica/Disegni/Drawing 2023-10-24 09.11.00.excalidraw.md",
+    "Analisi 2/Equazioni differenziali ordinarie/Teorema del Wronksiano.md",
+    "Metodi Matematici della Fisica/Spazi di Hilbert",
     "Meccanica Quantistica/Disegni",
+    "Metodi Matematici della Fisica/Operatori",
     "Introduzione all'Astrofisica/Stelle",
     "Metodi Matematici della Fisica/Distribuzioni",
     "Metodi Matematici della Fisica",
