@@ -4,33 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "090bc25bc266c493",
+        "id": "695a0438865063f2",
         "type": "tabs",
         "children": [
           {
-            "id": "f30ef2c440057687",
+            "id": "b042e07b35701a8c",
             "type": "leaf",
             "state": {
-              "type": "diff-view",
+              "type": "markdown",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
-                "staged": false
-              }
-            }
-          },
-          {
-            "id": "ff920cb344febd15",
-            "type": "leaf",
-            "state": {
-              "type": "diff-view",
-              "state": {
-                "file": ".obsidian/graph.json",
-                "staged": false
+                "file": "Introduzione all'Astrofisica/Stelle/Equazioni della struttura stellare.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -96,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Introduzione all'Astrofisica/Stelle/Equazioni della struttura stellare.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Introduzione all'Astrofisica/Stelle/Equazioni della struttura stellare.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Introduzione all'Astrofisica/Stelle/Equazioni della struttura stellare.md"
+              }
             }
           },
           {
@@ -163,8 +156,19 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "ff920cb344febd15",
+  "active": "11c537cbe31b9c7c",
   "lastOpenFiles": [
+    "Introduzione all'Astrofisica/Stelle/Trasferimenti radiativi.md",
+    "Introduzione all'Astrofisica/Stelle/Stelle.md",
+    "Introduzione all'Astrofisica/Stelle/Luminosità.md",
+    "Introduzione all'Astrofisica/Stelle/Metallicità.md",
+    "Introduzione all'Astrofisica/Stelle/Equazioni della struttura stellare.md",
+    "Introduzione all'Astrofisica/Stelle/Nubi molecolari.md",
+    "Costanti/Costante di Stefan-Boltzmann.md",
+    "Introduzione all'Astrofisica/Stelle/Equilibrio idrostatico.md",
+    "Introduzione all'Astrofisica/Stelle/Candele standard.md",
+    "Introduzione all'Astrofisica/Stelle/Ammassi stellari.md",
+    "Meccanica Statistica/Ensemble/Ensemble gran canonico.md",
     "conflict-files-obsidian-git.md",
     "Meccanica Statistica/Equivalenza di ensemble canonico e gran canonico.md",
     "Meccanica Statistica/Disegni/Drawing 2023-10-24 09.11.00.excalidraw.md",
@@ -172,7 +176,6 @@
     "Metodi Matematici della Fisica/Spazi di Hilbert",
     "Meccanica Statistica/Teoria delle perturbazioni.md",
     "Meccanica Statistica/Particelle in un campo magnetico.md",
-    "Meccanica Statistica/Ensemble/Ensemble gran canonico.md",
     "Meccanica Statistica/Concetti/Teorema di equipartizione dell'energia.md",
     "Meccanica Statistica/Concetti/Teorema di Liouville.md",
     "Meccanica Statistica/Concetti/Sistema isolato.md",
@@ -182,17 +185,7 @@
     "Meccanica Quantistica/Concetti/Equazione di Schroedinger.md",
     "Meccanica Quantistica/Concetti/Dualità.md",
     "Meccanica Quantistica/Altro/Cose per esercizi.md",
-    "Introduzione all'Astrofisica/Stelle/Trasferimenti radiativi.md",
-    "Introduzione all'Astrofisica/Stelle/Luminosità.md",
-    "Introduzione all'Astrofisica/Stelle/Equazione della struttura stellare.md",
-    "Introduzione all'Astrofisica/Disegni/Particelle in sezione di gas.md",
-    "Introduzione all'Astrofisica/Disegni/Cammino di una particella.md",
-    "Metodi Matematici della Fisica/Operatori/Operatore positivo.md",
-    "Metodi Matematici della Fisica/Operatori/Operatore autoaggiunto.md",
     "Metodi Matematici della Fisica/Operatori",
-    "Meccanica Statistica/Gas ideale nell'ensemble canonico.md",
-    "Meccanica Statistica/Ensemble/Ensemble canonico.md",
-    "Meccanica Statistica/Disegni/Sistemi Annidati.md",
     "Meccanica Quantistica/Disegni",
     "Introduzione all'Astrofisica/Stelle",
     "Metodi Matematici della Fisica/Distribuzioni",

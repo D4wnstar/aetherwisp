@@ -7,4 +7,4 @@ Un altro tipo di candela standard si basa sulle *supernove di tipo 1a*, che sono
 
 Altrimenti c'è la **relazione di Tully-Fisher**, che collega la rotazione di una galassia alla sua luminosità.
 
-C'è anche la **Legge di Hubble**, che collega la velocità degli oggetti molto lontani alla loro distanza.
+C'è anche la **legge di Hubble**, che collega la velocità degli oggetti molto lontani alla loro distanza.
