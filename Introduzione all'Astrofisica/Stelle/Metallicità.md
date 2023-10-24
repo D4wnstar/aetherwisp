@@ -1,1 +1,1 @@
-La **metallicità** $Z$ di una stella è la percentuale di elementi metallici di cui è composta.
+La **metallicità** $Z$ di una [[stelle|stella]] è la percentuale di elementi metallici di cui è composta.

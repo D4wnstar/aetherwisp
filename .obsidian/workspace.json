@@ -17,8 +17,20 @@
                 "staged": false
               }
             }
+          },
+          {
+            "id": "ff920cb344febd15",
+            "type": "leaf",
+            "state": {
+              "type": "diff-view",
+              "state": {
+                "file": ".obsidian/graph.json",
+                "staged": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -151,9 +163,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "f30ef2c440057687",
+  "active": "ff920cb344febd15",
   "lastOpenFiles": [
     "conflict-files-obsidian-git.md",
+    "Meccanica Statistica/Equivalenza di ensemble canonico e gran canonico.md",
+    "Meccanica Statistica/Disegni/Drawing 2023-10-24 09.11.00.excalidraw.md",
     "Metodi Matematici della Fisica/Spazi di Hilbert/Spazio di Hilbert.md",
     "Metodi Matematici della Fisica/Spazi di Hilbert",
     "Meccanica Statistica/Teoria delle perturbazioni.md",
@@ -179,8 +193,6 @@
     "Meccanica Statistica/Gas ideale nell'ensemble canonico.md",
     "Meccanica Statistica/Ensemble/Ensemble canonico.md",
     "Meccanica Statistica/Disegni/Sistemi Annidati.md",
-    "Meccanica Statistica/Disegni/Drawing 2023-10-10 09.08.09.excalidraw.md",
-    "Meccanica Statistica/Concetti/Approssimazione di Stirling.md",
     "Meccanica Quantistica/Disegni",
     "Introduzione all'Astrofisica/Stelle",
     "Metodi Matematici della Fisica/Distribuzioni",
