@@ -5,3 +5,5 @@ $$\frac{N\epsilon}{E}=1+e^{\frac{\epsilon}{k_{B}T}} \Rightarrow E=\frac{N\epsilo
 ![[Drawing 2023-10-10 09.08.09.excalidraw|center]]
 
 In generale, per quantità piccole, conviene sempre fare uno sviluppo in serie che calcolare la derivata.
+
+## Qualcosa su gran canonico

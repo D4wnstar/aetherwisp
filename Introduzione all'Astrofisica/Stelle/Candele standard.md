@@ -1,4 +1,4 @@
-Una **candela standard** è un'unità di misura che si calcola in funzione di un'altra proprietà della stella che è indipendente dalla distanza.
+Una **candela standard** è un'unità di misura che si calcola in funzione di un'altra proprietà della [[stelle|stella]] che è indipendente dalla distanza.
 
 Un tipo di candela standard sono le **cefeidi**, in cui la luminosità è legata al periodo di pulsazione della stella da una relazione empirica. Esistono cefeidi *di tipo 1* e cefeidi *di tipo 2*.
 
