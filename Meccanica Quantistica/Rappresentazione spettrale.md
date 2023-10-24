@@ -17,6 +17,13 @@ $$f(x)=\sum\limits_{n=0}^{\infty}c_{n}x^{n}$$
 $$\boxed{f(\hat{A})=\sum\limits_{i=1}^{\infty}f(a_{i})|a_{i}\rangle\langle a_{i}|}$$
 che è una formulazione più generale del [[Teorema spettrale]].
 
+**Dimostrazione.**
+Sapendo che
+$$\hat{A}^{2}=\hat{A}\hat{A}=\sum\limits_{i,j=1}^{\infty}a_{i}a_{j}|a_{i}\rangle\underbrace{\langle a_{j}|a_{i}\rangle}\limits_{\delta_{ij}}\langle a_{j}|=\sum\limits_{i=1}^{\infty}a_{i}^{2}|a_{i}\rangle\langle a_{i}|$$
+più in generale posso scambiare i quadrati con l'$n$-esima derivata. Posso dimostrare la generalizzazione del teorema spettrale in questo modo
+$$f(\hat{A})=\sum\limits_{n=0}^{\infty}c_{n}\hat{A}^{n}=\sum\limits_{n=0}^{\infty}\sum\limits_{i=1}^{\infty}c_{n}a_{i}^{n}|a_{i}\rangle\langle a_{i}|=\sum\limits_{i=1}^{\infty}\left( \sum\limits_{n=0}^{\infty}c_{n}a_{i}^{n} \right)|a_{i}\rangle\langle a_{i}|$$
+$$\boxed{f(\hat{A})=\sum\limits_{i=1}^{\infty}f(a_{i})|a_{i}\rangle\langle a_{i}|}$$
+
 Per esempio, torniamo all'[[uguaglianza di Schroedinger]] 
 $$\begin{cases}
 i\hbar\partial_{t}|\psi_{t}\rangle=-\hat{H}|\psi_{t}\rangle \Rightarrow^{\ast}\\ 
@@ -28,11 +35,4 @@ $$\partial_{t}e^{- \frac{i}{\hbar}\hat{H}t}=- \frac{i}{\hbar}\hat{H}\sum\limits_
 $$=- \frac{i}{\hbar}\hat{H}\sum\limits_{p=0}^{\infty}\left( - \frac{i}{\hbar} \right)^{p} \frac{t^{p}}{p!}H^{p}$$
 Quindi troviamo che
 $$\hat{H}=\sum\limits_{i=1}^{\infty}E_{i} |E_{i}\rangle\langle E_{i}|$$
-dove $E_{i}$ sono le autofunzioni dell'Hamiltoniana. Dunque se riusciamo a trovare queste autofunzioni riusciamo a trovare esattamente l'evoluzione del sistema. Chiamo inoltre **evolutore** la funzione
-$$\boxed{\hat{U}_{t}=e^{- \frac{i}{\hbar}\hat{H}t}=\sum\limits_{i=1}^{\infty}e^{- \frac{i}{\hbar}E_{i}t}|E_{i}\rangle\langle E_{i}| }$$
-$$\hat{U}_{t}|\psi\rangle=|\psi_{t}\rangle=\sum\limits_{i=1}^{\infty}e^{- \frac{i}{\hbar}E_{i}t} \langle E_{i}|\psi\rangle |E_{i}\rangle$$
-quindi se abbiamo l'evolutore, abbiamo lo stato (probabilistico) del sistema in ogni dato tempo $t$.
-$$\hat{A}^{2}=\hat{A}\hat{A}=\sum\limits_{i,j=1}^{\infty}a_{i}a_{j}|a_{i}\rangle\underbrace{\langle a_{j}|a_{i}\rangle}\limits_{\delta_{ij}}\langle a_{j}|=\sum\limits_{i=1}^{\infty}a_{i}^{2}|a_{i}\rangle\langle a_{i}|$$
-più in generale posso scambiare i quadrati con l'$n$-esima derivata. Posso dimostrare la generalizzazione del teorema spettrale in questo modo
-$$f(\hat{A})=\sum\limits_{n=0}^{\infty}c_{n}\hat{A}^{n}=\sum\limits_{n=0}^{\infty}\sum\limits_{i=1}^{\infty}c_{n}a_{i}^{n}|a_{i}\rangle\langle a_{i}|=\sum\limits_{i=1}^{\infty}\left( \sum\limits_{n=0}^{\infty}c_{n}a_{i}^{n} \right)|a_{i}\rangle\langle a_{i}|$$
-$$\boxed{f(\hat{A})=\sum\limits_{i=1}^{\infty}f(a_{i})|a_{i}\rangle\langle a_{i}|}$$
+dove $E_{i}$ sono le autofunzioni dell'Hamiltoniana. Dunque se riusciamo a trovare queste autofunzioni riusciamo a trovare esattamente l'evoluzione del sistema. Da qui possiamo definire l'[[evolutore]], che ci dà la descrizione dell'evoluzione temporale di un sistema quantistico.

@@ -1,4 +1,4 @@
-Chiamo $\hat{\rho}$ la **densità statistica**, **matrice densità** o altri diversi nomi l'operatore:
+Si chiama $\hat{\rho}$ la **densità statistica**, **matrice densità** o altri nomi l'operatore:
 $$\hat{\rho}=\sum\limits_{i=1}^{\infty}P_{\psi}^{A}(a_{i})|a_{i}\rangle\langle a_{i}|=\sum\limits_{i=1}^{\infty}|\langle a_{i}|\psi\rangle|^{2}|a_{i}\rangle\langle a_{i}|=\sum\limits_{i=1}^{\infty}\langle a_{i}|\psi\rangle \langle \psi|a_{i}\rangle |a_{i}\rangle\langle a_{i}|$$
 $$=\sum\limits_{i=1}^{\infty}|a_{i}\rangle\langle a_{i}|\hat{P}_{\psi}|a_{i}\rangle\langle a_{i}|=\sum\limits_{i=1}^{\infty}\hat{P}^{A}_{a_{i}}\hat{P}_{\psi}^{A}\hat{P}^{A}_{a_{i}}$$
 $\hat{\rho}$ è *[[Operatore positivo|definito positivo]]*, dunque si ha

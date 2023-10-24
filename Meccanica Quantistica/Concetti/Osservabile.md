@@ -1,1 +1,1 @@
-Un'**osservabile** è una quantità che si può osservare (e quindi misurare).
+Un'**osservabile** $A$ è una quantità che si può osservare (e quindi misurare). Ad ogni osservabile è associato un [[operatore autoaggiunto]] $\hat{A}$.

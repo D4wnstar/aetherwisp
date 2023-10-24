@@ -1,6 +1,6 @@
 Consideriamo $\mathbb{C}^{2}$. Le **matrici di Pauli** nella rappresentazione standard sono date da
 $$\hat{\sigma}_{x}=\left(\matrix{0 & 1 \\ 1 & 0}\right),\;\hat{\sigma}_{y}=\left(\matrix{0 & -i \\ i & 0}\right),\;\hat{\sigma}_{z}=\left(\matrix{1 & 0 \\ 0 & -1}\right)$$
-Sono tutte e tre *autoaggiunte*, ossia $\hat{\sigma}_{i}^{\dagger}=\hat{\sigma}_{i}$. I quadrati sono
+Sono tutte e tre *[[Operatore autoaggiunto|autoaggiunte]]*, ossia $\hat{\sigma}_{i}^{\dagger}=\hat{\sigma}_{i}$. I quadrati sono
 $$\hat{\sigma}_{x}^{2}=\left(\matrix{0 & 1 \\ 1 & 0}\right)\left(\matrix{0 & 1 \\ 1 & 0}\right)=\left(\matrix{1 & 0 \\ 0 & 1}\right)=\hat{\mathbb{1}}$$
 $$\hat{\sigma}_{y}^{2}=\left(\matrix{0 & -i \\ i & 0}\right)\left(\matrix{0 & -i \\ i & 0}\right)=\left(\matrix{1 & 0 \\ 0 & 1}\right)=\hat{\mathbb{1}}$$
 $$\hat{\sigma}_{z}=\hat{\mathbb{1}}$$

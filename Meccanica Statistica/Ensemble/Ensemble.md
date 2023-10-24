@@ -1,6 +1,6 @@
-Un **ensemble di Gibbs** è un *insieme di punti nello spazio delle fasi*.
+Un **ensemble di Gibbs** o **insieme statistico** è un *insieme di punti nello spazio delle fasi* di un sistema. Ciascun punto si dice **punto rappresentativo** e rappresenta un **microstato** compatibile con un **macrostato**. L'ensemble è l'*insieme di tutti i microstati possibili per un dato macrostato*.
 
-Consideriamo lo spazio delle fasi a $6N$ dimensioni dei **punti rappresentativi**: $\Gamma:(q_{0},q_{1},\ldots,q_{3N};p_{1},p_{2},\ldots,p_{3N})\equiv (q,p)$. Per analizzare il sistema possiamo fare una media temporale delle posizioni delle particelle nel tempo: $\langle f(p,q)\rangle_{t}$. Vogliamo fare un'analisi più dettagliata di una semplice media temporale.
+Consideriamo lo spazio delle fasi a $6N$ dimensioni dei punti rappresentativi: $\Gamma:(q_{0},q_{1},\ldots,q_{3N};p_{1},p_{2},\ldots,p_{3N})\equiv (q,p)$. Per analizzare il sistema possiamo fare una media temporale delle posizioni delle particelle nel tempo: $\langle f(p,q)\rangle_{t}$. Vogliamo fare un'analisi più dettagliata di una semplice media temporale.
 
 Diciamo che esiste una funzione [[Hamiltoniana]] $H(q,p)=E$ che è uguale ad una qualche costante. Denotiamo le derivate con $\dot{q}_{i}=\frac{\partial x}{\partial p_{i}}$ e $\dot{p}_{i}=\frac{\partial x}{\partial q_{i}}$. Allora la funzione $x$ ci descrive un'ipersuperficie in $6N-1$ dimensioni. Se troviamo questa funzione, possiamo trovare una media sullo spazio delle fasi, anziché usare la media nel tempo.
 

@@ -4,6 +4,7 @@ e vale che
 $$\hat{P}_{\psi}|\phi\rangle=\langle\psi|\phi\rangle|\psi\rangle$$
 Un importante proiettore è, presa una base ortonormale $|\psi\rangle\in\mathbb{C}^{N}$ con $\{|\psi_{i}\rangle\}^{n}_{i=1}$,
 $$\hat{P}_{i}=|i\rangle\langle i|$$
+che proietta sull'$i$-esimo vettore della base ortonormale.
 Vale la **relazione di completezza**
 $$\sum\limits_{i=1}^{n}\hat{P}_{\psi_{i}}=\hat{\mathbb{1}}$$
 che si può estendere anche al caso $n \rightarrow\infty$. Valgono anche

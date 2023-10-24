@@ -1,1 +1,3 @@
 L'**ipotesi ergodica** ci dice che se, preso un insieme $\Gamma$ di punti rappresentativi nello [[spazio delle fasi]], le traiettorie di tutti i punti di $\Gamma$ ricoprono *uniformemente* lo spazio delle fasi, è possibile sostituire la media temporale del moto dei punti con quella del moto sullo spazio delle fasi.
+
+In parole semplici, la media nel tempo di una certa proprietà termodinamica è uguale alla sua media nello spazio delle fasi.

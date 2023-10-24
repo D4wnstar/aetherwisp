@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "240e6f5a59abeced",
+        "id": "090bc25bc266c493",
         "type": "tabs",
         "children": [
           {
-            "id": "df8af6bb139cde99",
+            "id": "f30ef2c440057687",
             "type": "leaf",
             "state": {
               "type": "diff-view",
               "state": {
-                "file": "Meccanica Quantistica/Misure di osservabili.md",
+                "file": "conflict-files-obsidian-git.md",
                 "staged": false
               }
             }
@@ -151,43 +151,43 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "df8af6bb139cde99",
+  "active": "f30ef2c440057687",
   "lastOpenFiles": [
-    "Meccanica Quantistica/Misure di osservabili.md",
-    "Algebra Lineare/Prodotto scalare.md",
-    "Meccanica Quantistica/Disuguaglianza di Heisenberg.md",
-    "Meccanica Quantistica/Onde piane.md",
-    "Introduzione all'Astrofisica/Misure astronomiche/Misurazione di lunghezze d'onda.md",
-    "Introduzione all'Astrofisica/Misure astronomiche/Colore.md",
-    "Introduzione all'Astrofisica/Disegni/Righe spettrali.md",
-    "Introduzione all'Astrofisica/Misure astronomiche/Misure di luminosità.md",
-    "Meccanica Quantistica/Orbite quantizzate degli elettroni.md",
     "conflict-files-obsidian-git.md",
-    "Introduzione all'Astrofisica/Misure astronomiche/Misure di massa stellare.md",
-    "Meccanica Statistica/Teorema di equipartizione dell'energia.md",
-    "Meccanica Statistica/Gas ideale nell'ensemble microcanonico.md",
-    "Meccanica Statistica/Condizioni al contorno di gas ideali.md",
-    "Introduzione all'Astrofisica/Misure astronomiche/Parsec.md",
-    "Introduzione all'Astrofisica/Misure astronomiche/Coordinate dei corpi celesti.md",
-    "Introduzione all'Astrofisica/Misure astronomiche/Giorni Giuliani.md",
-    "Introduzione all'Astrofisica/Misure astronomiche/Misure di distanza.md",
-    "Introduzione all'Astrofisica/Misure astronomiche/Telescopi.md",
-    "Introduzione all'Astrofisica/Misure astronomiche/Magnitudine.md",
-    "Introduzione all'Astrofisica/Disegni/Telescopio Cassegrain.md",
-    "Introduzione all'Astrofisica/Stelle/Candele standard.md",
+    "Metodi Matematici della Fisica/Spazi di Hilbert/Spazio di Hilbert.md",
+    "Metodi Matematici della Fisica/Spazi di Hilbert",
+    "Meccanica Statistica/Teoria delle perturbazioni.md",
+    "Meccanica Statistica/Particelle in un campo magnetico.md",
+    "Meccanica Statistica/Ensemble/Ensemble gran canonico.md",
+    "Meccanica Statistica/Concetti/Teorema di equipartizione dell'energia.md",
+    "Meccanica Statistica/Concetti/Teorema di Liouville.md",
+    "Meccanica Statistica/Concetti/Sistema isolato.md",
+    "Meccanica Statistica/Concetti/Relazione di Gibbs-Duhem.md",
+    "Meccanica Statistica/Altro/Esercizi.md",
+    "Meccanica Quantistica/Concetti/Evolutore.md",
+    "Meccanica Quantistica/Concetti/Equazione di Schroedinger.md",
+    "Meccanica Quantistica/Concetti/Dualità.md",
+    "Meccanica Quantistica/Altro/Cose per esercizi.md",
+    "Introduzione all'Astrofisica/Stelle/Trasferimenti radiativi.md",
+    "Introduzione all'Astrofisica/Stelle/Luminosità.md",
+    "Introduzione all'Astrofisica/Stelle/Equazione della struttura stellare.md",
+    "Introduzione all'Astrofisica/Disegni/Particelle in sezione di gas.md",
+    "Introduzione all'Astrofisica/Disegni/Cammino di una particella.md",
+    "Metodi Matematici della Fisica/Operatori/Operatore positivo.md",
+    "Metodi Matematici della Fisica/Operatori/Operatore autoaggiunto.md",
+    "Metodi Matematici della Fisica/Operatori",
+    "Meccanica Statistica/Gas ideale nell'ensemble canonico.md",
+    "Meccanica Statistica/Ensemble/Ensemble canonico.md",
+    "Meccanica Statistica/Disegni/Sistemi Annidati.md",
+    "Meccanica Statistica/Disegni/Drawing 2023-10-10 09.08.09.excalidraw.md",
+    "Meccanica Statistica/Concetti/Approssimazione di Stirling.md",
+    "Meccanica Quantistica/Disegni",
     "Introduzione all'Astrofisica/Stelle",
-    "Introduzione all'Astrofisica/Disegni/Relazione empirica delle Cefeidi.md",
-    "Introduzione all'Astrofisica/Disegni/Distanza con parallasse.md",
-    "Meccanica Quantistica/Osservabile.md",
-    "Metodi Matematici della Fisica/Distribuzioni/Delta di Dirac.md",
     "Metodi Matematici della Fisica/Distribuzioni",
     "Metodi Matematici della Fisica",
     "Meccanica Quantistica/Concetti",
     "Tecniche di Rappresentazione Dati",
     "Meccanica Statistica/Concetti",
-    "Meccanica Statistica/Ensemble",
-    "Costanti",
-    "Analisi 2/Spazi metrici",
-    "Analisi 2/Serie/Serie di potenze"
+    "Meccanica Statistica/Ensemble"
   ]
 }
