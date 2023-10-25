@@ -22,6 +22,11 @@ T ^6KxLEX3n
 
 L ^BpWjb1qo
 
+Sequenza principale ^mblRRjAH
+
+Braccio asintotico
+delle giganti ^kXlXGeyZ
+
 %%
 # Drawing
 ```json
@@ -76,8 +81,8 @@ L ^BpWjb1qo
 		},
 		{
 			"type": "arrow",
-			"version": 107,
-			"versionNonce": 634785669,
+			"version": 137,
+			"versionNonce": 76238324,
 			"isDeleted": false,
 			"id": "a_HrZVfpY2a61AGltuMTq",
 			"fillStyle": "hachure",
@@ -86,11 +91,11 @@ L ^BpWjb1qo
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": -303.5,
+			"x": -325.531945231362,
 			"y": 125.41796875,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
-			"width": 446.5,
+			"width": 468.531945231362,
 			"height": 0,
 			"seed": 234478859,
 			"groupIds": [],
@@ -99,21 +104,21 @@ L ^BpWjb1qo
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1698151280958,
+			"updated": 1698241486031,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
 			"endBinding": null,
 			"lastCommittedPoint": null,
-			"startArrowhead": null,
-			"endArrowhead": "arrow",
+			"startArrowhead": "arrow",
+			"endArrowhead": null,
 			"points": [
 				[
 					0,
 					0
 				],
 				[
-					446.5,
+					468.531945231362,
 					0
 				]
 			]
@@ -489,33 +494,38 @@ L ^BpWjb1qo
 			"baseline": 32
 		},
 		{
-			"id": "ZZinjZb7s4bRMAMfSdP3G",
 			"type": "line",
-			"x": 6.680911280285784,
-			"y": -112.66532133807453,
-			"width": 57.09677419354841,
-			"height": 34.83870967741933,
-			"angle": 0,
-			"strokeColor": "#2f9e44",
-			"backgroundColor": "transparent",
+			"version": 146,
+			"versionNonce": 132189413,
+			"isDeleted": false,
+			"id": "ZZinjZb7s4bRMAMfSdP3G",
 			"fillStyle": "hachure",
 			"strokeWidth": 1,
 			"strokeStyle": "solid",
 			"roughness": 1,
 			"opacity": 100,
+			"angle": 0,
+			"x": 6.680911280285784,
+			"y": -112.66532133807453,
+			"strokeColor": "#2f9e44",
+			"backgroundColor": "transparent",
+			"width": 57.09677419354841,
+			"height": 34.83870967741933,
+			"seed": 1313952619,
 			"groupIds": [],
 			"frameId": null,
 			"roundness": {
 				"type": 2
 			},
-			"seed": 1313952619,
-			"version": 146,
-			"versionNonce": 132189413,
-			"isDeleted": false,
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1698155860688,
 			"link": null,
 			"locked": false,
+			"startBinding": null,
+			"endBinding": null,
+			"lastCommittedPoint": null,
+			"startArrowhead": null,
+			"endArrowhead": null,
 			"points": [
 				[
 					0,
@@ -529,18 +539,135 @@ L ^BpWjb1qo
 					-57.09677419354841,
 					34.83870967741933
 				]
-			],
-			"lastCommittedPoint": null,
+			]
+		},
+		{
+			"type": "text",
+			"version": 214,
+			"versionNonce": 1266734412,
+			"isDeleted": false,
+			"id": "mblRRjAH",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"angle": 1.056905944140686,
+			"x": -256.22231452616575,
+			"y": -187.82661166065515,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"width": 186.43983459472656,
+			"height": 25,
+			"seed": 1959574604,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": null,
+			"boundElements": [],
+			"updated": 1698239944756,
+			"link": null,
+			"locked": false,
+			"fontSize": 20,
+			"fontFamily": 1,
+			"text": "Sequenza principale",
+			"rawText": "Sequenza principale",
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"containerId": null,
+			"originalText": "Sequenza principale",
+			"lineHeight": 1.25,
+			"baseline": 18
+		},
+		{
+			"type": "line",
+			"version": 136,
+			"versionNonce": 2012205772,
+			"isDeleted": false,
+			"id": "agWaNu1yQY8thZloSeg-9",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"angle": 0,
+			"x": -51.98502789576301,
+			"y": -77.7899460014307,
+			"strokeColor": "#be4bdb",
+			"backgroundColor": "transparent",
+			"width": 48.8201320145655,
+			"height": 61.905940595789275,
+			"seed": 91462220,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": {
+				"type": 2
+			},
+			"boundElements": [],
+			"updated": 1698240941578,
+			"link": null,
+			"locked": false,
 			"startBinding": null,
 			"endBinding": null,
+			"lastCommittedPoint": null,
 			"startArrowhead": null,
-			"endArrowhead": null
+			"endArrowhead": null,
+			"points": [
+				[
+					0,
+					0
+				],
+				[
+					29.359185919412255,
+					-28.68811881268283
+				],
+				[
+					48.8201320145655,
+					-61.905940595789275
+				]
+			]
+		},
+		{
+			"type": "text",
+			"version": 107,
+			"versionNonce": 1281271412,
+			"isDeleted": false,
+			"id": "kXlXGeyZ",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"angle": 0,
+			"x": 5.05567617623791,
+			"y": -182.3086478745383,
+			"strokeColor": "#be4bdb",
+			"backgroundColor": "transparent",
+			"width": 179.11984252929688,
+			"height": 50,
+			"seed": 337015156,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": null,
+			"boundElements": [],
+			"updated": 1698240957521,
+			"link": null,
+			"locked": false,
+			"fontSize": 20,
+			"fontFamily": 1,
+			"text": "Braccio asintotico\ndelle giganti",
+			"rawText": "Braccio asintotico\ndelle giganti",
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"containerId": null,
+			"originalText": "Braccio asintotico\ndelle giganti",
+			"lineHeight": 1.25,
+			"baseline": 43
 		}
 	],
 	"appState": {
 		"theme": "dark",
 		"viewBackgroundColor": "#f1f1f1",
-		"currentItemStrokeColor": "#2f9e44",
+		"currentItemStrokeColor": "#be4bdb",
 		"currentItemBackgroundColor": "transparent",
 		"currentItemFillStyle": "hachure",
 		"currentItemStrokeWidth": 1,
@@ -548,12 +675,12 @@ L ^BpWjb1qo
 		"currentItemRoughness": 1,
 		"currentItemOpacity": 100,
 		"currentItemFontFamily": 1,
-		"currentItemFontSize": 36,
+		"currentItemFontSize": 20,
 		"currentItemTextAlign": "left",
-		"currentItemStartArrowhead": null,
-		"currentItemEndArrowhead": "arrow",
-		"scrollX": 429.77070162294,
-		"scrollY": 275.1401197251713,
+		"currentItemStartArrowhead": "arrow",
+		"currentItemEndArrowhead": null,
+		"scrollX": 551.0158161991039,
+		"scrollY": 277.74087909974776,
 		"zoom": {
 			"value": 1.55
 		},

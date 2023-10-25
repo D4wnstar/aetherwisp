@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Meccanica Quantistica/Altro/Da organizzare.md",
+                "file": "Introduzione all'Astrofisica/Stelle/Evoluzione stellare.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Meccanica Quantistica/Altro/Da organizzare.md",
+                "file": "Introduzione all'Astrofisica/Stelle/Evoluzione stellare.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Meccanica Quantistica/Altro/Da organizzare.md",
+                "file": "Introduzione all'Astrofisica/Stelle/Evoluzione stellare.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Meccanica Quantistica/Altro/Da organizzare.md"
+                "file": "Introduzione all'Astrofisica/Stelle/Evoluzione stellare.md"
               }
             }
           },
@@ -146,7 +146,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -164,13 +164,18 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "8651fbd66417359f",
+  "active": "d717a05ffdf3d6bb",
   "lastOpenFiles": [
+    "Introduzione all'Astrofisica/Stelle/Pressione degenere.md",
+    "Introduzione all'Astrofisica/Stelle/Evoluzione stellare.md",
+    "Introduzione all'Astrofisica/Disegni/Evoluzione Post-sequenza Principale Stelle Solari.md",
+    "Introduzione all'Astrofisica/Disegni/Grafico di Fase Gas Degenere.md",
+    "Introduzione all'Astrofisica/Stelle/Fusione nucleare.md",
+    "Meccanica Quantistica/Altro/Da organizzare.md",
     "Meccanica Quantistica/Orbite quantizzate degli elettroni.md",
     "Metodi di Trattamento delle Immagini/Definizione di immagine.md",
     "Metodi di Trattamento delle Immagini/Operazioni sulle immagini.md",
     "Metodi di Trattamento delle Immagini/Vettore di informazione elettromagnetico.md",
-    "Meccanica Quantistica/Altro/Da organizzare.md",
     "Meccanica Quantistica/Altro/Note sul corso.md",
     "Meccanica Quantistica/Concetti/Dualità.md",
     "Meccanica Quantistica/Concetti/Evolutore.md",
@@ -180,10 +185,6 @@
     "Meccanica Quantistica/Equazioni di Schroedinger.md",
     "Meccanica Quantistica/Rappresentazione spettrale.md",
     "Meccanica Quantistica/Disegni/Buca infinita.md",
-    "Introduzione all'Astrofisica/Stelle/Sequenza principale.md",
-    "Introduzione all'Astrofisica/Disegni/Evoluzione Post-mortem Stelle Solari.md",
-    "Introduzione all'Astrofisica/Disegni/Grafico di Fase Gas Degenere.md",
-    "Introduzione all'Astrofisica/Stelle/Pressione degenere.md",
     "Introduzione all'Astrofisica/Stelle/Nubi molecolari.md",
     "Introduzione all'Astrofisica/Stelle/Luminosità.md",
     "Senza nome.md",
@@ -191,7 +192,6 @@
     "Meccanica Statistica/Gas ideale nell'ensemble canonico.md",
     "Meccanica Statistica/Condizioni al contorno di gas ideali.md",
     "Excalidraw/Drawing 2023-10-24 14.00.41.excalidraw.md",
-    "Meccanica Statistica/Disegni/Drawing 2023-10-10 09.08.09.excalidraw.md",
     "Metodi Matematici della Fisica/Spazi di Hilbert",
     "Meccanica Quantistica/Disegni",
     "Metodi Matematici della Fisica/Operatori",

@@ -4,10 +4,10 @@ Cerchiamo in che condizioni un gas può essere degenere. Definiamo la *densità 
 $$n_{Q}=\left( \frac{2\pi m_{e}kT}{h^{2}} \right)^{\frac{3}{2}}$$
 Da qui si trova che la temperatura sotto il quale il gas può essere degenere dipende dalla densità
 $$T_{deg}\propto\rho^{\frac{2}{3}}$$
-![[Grafico di Fase Gas Degenere|center]]
-dove il segmento, con pendenza $2/3$, è la soglia sotto il quale il gas diventa degenere. Le linee tratteggiate blu rappresentano un gas in equilibrio idrostatico per una certa massa stellare, con pendenza $1/3$ dalla relazione
+![[Grafico di Fase Gas Degenere|80%|center]]
+dove il segmento, con pendenza $2/3$, è la soglia sotto la quale (area colorata di rosso) il gas diventa degenere. Le linee tratteggiate blu rappresentano un gas in equilibrio idrostatico per una certa massa stellare, con pendenza $1/3$ dalla relazione
 $$T\propto M^{\frac{2}{3}}\rho^{\frac{1}{3}}$$
 
-Il grafico ha un limite destro *relativistico*. Ad una certa massa, la pressione degenere necessaria per evitare che il nucleo collassi richiederebbe particelle con velocità superluminali, cosa impossibile. Dunque, se la massa sale oltre questo limite, la stella collassa *di nuovo*. Questo si chiama **limite di Chandrasekhar**, che è di circa 1.44 masse solari *per il solo nucleo*, non tutta la stella.
+Il grafico ha un limite destro *relativistico*. Ad una certa massa, la pressione degenere necessaria per evitare che il nucleo collassi richiederebbe particelle con velocità superluminali, cosa impossibile. Dunque, se la massa sale oltre questo limite, la stella collassa *di nuovo*. Questo si chiama **limite di Chandrasekhar**, che è di circa 1.44 masse solari *per il solo nucleo*, non tutta la stella. La linea tratteggiata blu più alta rappresenta questa massa.
 
-La linea punteggiata bianca con la stella rappresenta un oggetto con massa così piccola che il nucleo diventa gas degenere prima ancora di innescare la fusione nucleare. Oggetti di questo genere, sebbene si scaldino un po' per la pressione, non diventeranno mai stelle. Questi oggetti hanno massa inferiore ai $0.08M_{\odot}$.
+La linea punteggiata bianca con la stella rappresenta un oggetto con massa così piccola che il nucleo diventa gas degenere prima ancora di innescare la fusione nucleare. Oggetti di questo genere, sebbene si scaldino un po' per la pressione, non diventeranno mai stelle. Questi oggetti hanno massa inferiore ai $0.08M_{\odot}$. La linea tratteggiata blu più bassa è un esempio di tale oggetto: incrocia la linea di gas degenere prima di quella della temperatura di fusione.
