@@ -11,3 +11,40 @@ $$\begin{cases}
 \partial_{t}\hat{\rho}_{t}=- \frac{i}{\hbar}[\hat{H}, \hat{\rho}_{t}]& \mbox{ equazione di Liouville-Von Neumann}
 \end{cases}$$
 dove $[A,B]$ è il [[commutatore]].
+
+---
+$$\hat{H}=\hbar\omega(\hat{a}^{\dagger}\hat{a}+ \frac{1}{2})$$
+$$\hat{H}|n\rangle=\hbar\omega\left(n+ \frac{1}{2}\right)|n\rangle\quad\forall n\in \mathbb{N}$$
+$$\psi_{n}=\langle n|x\rangle$$
+$$P_{t}(\psi_{n}|\psi)=|\langle n|\hat{U}_{t}\psi\rangle|^{2}=|\langle \hat{U}_{t}^{\dagger}n|\psi\rangle|^{2}=|\langle n|\psi\rangle|^{2}$$
+Cerco qual è la probabilità stato coerente
+$$|z\rangle=e^{- \frac{|z|^{2}}{2}}\sum\limits_{n=0}^{\infty} \frac{z^{n}}{\sqrt{n!}}|n\rangle$$
+$$\{P(n|z)=|\langle n|z\rangle|^{2}\}_{n=0}^{\infty}$$
+La probabilità somma a 1 perché $|\langle n|z\rangle|^{2}=\langle n|z\rangle \langle z|n\rangle=\langle z|n\rangle \langle n|z\rangle=\langle z|z\rangle=1$. Per trovare la distribuzione di probabilità possiamo sviluppare il modulo quadro
+$$|\langle n|z\rangle|^{2}= e^{-|z|^{2}} \frac{(|z|^{2})^{n}}{n!}$$
+che è una distribuzione Poissoniana.
+Verificare l'indeterminazione di un qualsiasi stato coerente.
+$$\Delta_{\psi}\hat{q}\Delta_{\psi}\hat{p}\geq \frac{\hbar^{2}}{4}$$
+$$\hat{q}=\sqrt{\frac{\hbar}{2m\omega}}(\hat{q}+\hat{a}^{\dagger})$$
+$$\hat{p}=i(-\hat{a}+\hat{a}^{\dagger})\sqrt{\frac{\hbar m\omega}{2}}$$
+$$\Delta_{|z\rangle}\hat{q}=\langle z|\hat{q}^{2}|z\rangle-(\langle z|\hat{q}|z\rangle)^{2}$$
+Calcolo i due termini separatamente
+$$\langle z|\hat{q}|z\rangle=\sqrt{\frac{\hbar}{2m\omega}}\langle z|(\hat{a}+\hat{a}^{\dagger})|z\rangle=^{\ast}(z+z^{\ast})\sqrt{\frac{\hbar}{2m\omega}}=\sqrt{\frac{\hbar}{2m\omega}}\Re(z)$$
+risolto usando che $z$ è un autostato di $\hat{a}$. Altrimenti si può fare i calcoli per esteso
+$$\ldots=^{\ast}\sqrt{\frac{\hbar}{2m\omega}}e^{-|z|^{2}}\sum\limits_{l=0}^{\infty}\sum\limits_{k=0}^{\infty} \frac{(z^{\ast})^{l}}{\sqrt{l!}} \frac{z^{k}}{\sqrt{k!}}\langle l|(\hat{a}+\hat{a}^{\dagger})|k\rangle=\ldots$$
+$$\langle l|(\hat{a}+\hat{a}^{\dagger})|k\rangle=\langle l|(\sqrt{k}|k-1\rangle)+\sqrt{k+1}|k+1\rangle)=\sqrt{k}\delta_{l,k-1}+\sqrt{k+1}\delta_{l,k+1}$$
+$$\ldots=\sqrt{\frac{\hbar}{2m\omega}}e^{-|z|^{2}}\left(\sum\limits_{k=1}^{\infty} \frac{(z^{\ast})^{k-1}z^{k}}{\sqrt{k!(k-1)!}}+\sum\limits_{k=0}^{\infty} \frac{(z^{\ast})^{k+1}z^{k}}{\sqrt{k!(k+1)!}}\right)=$$
+$$=\sqrt{\frac{\hbar}{2m\omega}}e^{-|z|^{2}}\sum\limits_{l=0}^{\infty}\frac{(z^{\ast})^{l}z^{l+1}+(z^{\ast})^{l+1}z^{l}}{\sqrt{l!(l+1)!}}=\sqrt{\frac{\hbar}{2m\omega}}e^{-|z|^{2}}\sum\limits_{l=0}^{\infty}|z|^{2l} \frac{z+z^{\ast}}{\sqrt{l!(l+1)!}}=$$
+$$=\sqrt{\frac{\hbar}{2m\omega}}(z+z^{\ast})e^{-|z|^{2}}\sum\limits_{l=0}^{\infty} \frac{|z|^{2l}}{l!\sqrt{l+1}}$$
+(calcoli sbagliati)
+Calcolo anche il secondo termine
+$$\langle z|\hat{q}^{2}|z\rangle=\frac{\hbar}{2m\omega}\langle z|(\hat{a}^{2}+\hat{a}^{\dagger^{2}}+\hat{a}\hat{a}^{\dagger}+\hat{a}^{\dagger}\hat{a})|z\rangle=$$
+$$=\frac{\hbar}{2m\omega}\langle z|(z^{2}+(z^{\ast})^{2}+1+|z|^{2}+|z|^{2})|z\rangle=\ldots$$
+usando che $\hat{a}\hat{a}^{\dagger}=1+\hat{a}^{\dagger}\hat{a}$ 
+$$=\frac{\hbar}{2m\omega}(z^{2}+|z^{\ast}|^{2}+1+2|z|^{2})$$
+Tornando alla varianza
+$$\Delta_{|z\rangle}\hat{q}=\frac{\hbar}{2m\omega}$$
+Ripetendo i calcoli per $\Delta_{t}\hat{p}$ si trova
+$$\Delta_{t}\hat{p}=\frac{\hbar m\omega}{2}$$
+Allora l'indeterminazione di uno stato coerente è
+$$\boxed{\Delta_{|z\rangle}\hat{q}\Delta_{t}\hat{p}=\frac{\hbar^{2}}{4}}$$
