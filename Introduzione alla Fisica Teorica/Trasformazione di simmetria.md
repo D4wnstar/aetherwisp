@@ -1,0 +1,1 @@
+Si dice **trasformazione di simmetria** ogni trasformazione che lascia invariata l'Hamiltoniana del sistema.

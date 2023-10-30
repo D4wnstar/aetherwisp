@@ -48,3 +48,18 @@ Ripetendo i calcoli per $\Delta_{t}\hat{p}$ si trova
 $$\Delta_{t}\hat{p}=\frac{\hbar m\omega}{2}$$
 Allora l'indeterminazione di uno stato coerente è
 $$\boxed{\Delta_{|z\rangle}\hat{q}\Delta_{t}\hat{p}=\frac{\hbar^{2}}{4}}$$
+
+---
+
+$$e^{\hat{A}}\hat{B}e^{-\hat{A}}=\sum\limits_{k=0}^{\infty} \underbrace{\frac{1}{k!}[\hat{A},[\hat{A},[\hat{A},\ldots,[\hat{A},\hat{B}]]]]}\limits_{\mbox{k parentesi}}=$$
+$$=\hat{B}+[\hat{A}+\hat{B}]+\ \frac{1}{2}[\hat{A},[\hat{A},\hat{B}]]+\ldots\left(1+\hat{A}+ \frac{1}{2}\hat{A}^{2}+\ldots\right)\hat{B}\left(1-\hat{A}+ \frac{\hat{A}^{2}}{2}+\ldots\right)=$$
+$$=\hat{B}+\hat{A}\hat{B}-\hat{B}\hat{A}+ \frac{ \hat{A}\hat{A}\hat{B}+\hat{B}\hat{A}\hat{A}-\hat{A}\hat{B}\hat{A}-\hat{A}\hat{B}\hat{A}+\ldots}{2}=$$
+$$=\hat{B}+[\hat{A},\hat{B}]+ \frac{1}{2}(\hat{A}[\hat{A},\hat{B}]-[\hat{A},\hat{B}])+\ldots$$
+
+$$e^{\frac{i}{\hbar}q\hat{p}}\hat{q}e^{- \frac{i}{\hbar}q\hat{p}}=\hat{q}+q$$
+$$e^{\frac{i}{\hbar}p\hat{q}}\hat{p}e^{- \frac{i}{\hbar}p\hat{q}}=\hat{p}-p$$
+Prendo l'*operatore di spostamento* 
+$$\hat{D}(\alpha)=e^{\alpha\hat{a}^{\dagger}-\alpha^{\ast}\hat{a}}$$
+Si vuole quale segno è corretto in
+$$\hat{D}^{\dagger}(\alpha)\hat{a}\hat{D}(\alpha)=\hat{a}\overbrace{\pm}^{?}\alpha$$
+usando la *formula di Baker-Campbell-Hausdorff*: se $[\hat{A},\hat{B}]=c\hat{\mathbb{1}}$ allora $e^{\hat{A}+\hat{B}}=e^{- \frac{1}{2}[\hat{A},\hat{B}]}e^{\hat{A}}e^{\hat{B}}$.
