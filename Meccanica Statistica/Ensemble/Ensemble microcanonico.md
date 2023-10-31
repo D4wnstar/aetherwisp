@@ -63,3 +63,7 @@ Possiamo ritrovare la densità dei punti rappresentativi dall'estensione dello s
 $$\mbox{Scelta 1: }\rho(H)= \frac{1}{N!h^{3N}}\delta(E-H)$$
 $$\mbox{Boltzmann: }\rho_{B}(H)= \frac{1}{N!h^{3N}}[\Theta(E+\Delta-H)-\Theta(E-H)]$$
 $$\mbox{Gibbs: }\rho_{G}(H)= \frac{1}{N!h^{3N}}\Theta(E-H(q;p))$$
+## Microcanonico quantistico
+Parto da due postulati sulla distribuzione $\rho$ dell'energia
+1. **Equipartizione dell'energia a priori.** $\rho_{nn}$ indipendente da $n$
+2. **Ipotesi delle fasi casuali.** $\rho_{nn'}=0$

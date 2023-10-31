@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Meccanica Quantistica/Concetti/Prodotto tensoriale.md",
+                "file": "Meccanica Statistica/Ensemble/Ensemble microcanonico.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Meccanica Quantistica/Concetti/Prodotto tensoriale.md",
+                "file": "Meccanica Statistica/Ensemble/Ensemble microcanonico.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Meccanica Quantistica/Concetti/Prodotto tensoriale.md",
+                "file": "Meccanica Statistica/Ensemble/Ensemble microcanonico.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Meccanica Quantistica/Concetti/Prodotto tensoriale.md"
+                "file": "Meccanica Statistica/Ensemble/Ensemble microcanonico.md"
               }
             }
           },
@@ -166,33 +166,33 @@
   },
   "active": "9b1e836ce0746461",
   "lastOpenFiles": [
-    "Meccanica Quantistica/Altro/Da organizzare.md",
-    "Meccanica Quantistica/Concetti/Prodotto tensoriale.md",
-    "Meccanica Quantistica/Particelle accoppiate.md",
-    "Meccanica Quantistica/Concetti/Teorema di Nother.md",
-    "Meccanica Quantistica/Concetti/Teorema di Stone.md",
-    "Introduzione alla Fisica Teorica/Trasformazione di simmetria.md",
-    "Introduzione alla Fisica Teorica",
-    "Senza nome.md",
+    "Meccanica Statistica/Minimi e massimi di potenziali.md",
+    "Meccanica Statistica/Ensemble/Ensemble microcanonico.md",
     "Meccanica Statistica/Particelle identiche.md",
-    "Meccanica Statistica/Disegni/Sistema in Mondo Esterno.md",
-    "Meccanica Statistica/Gas ideale nell'ensemble gran canonico.md",
-    "Meccanica Statistica/Ensemble/Ensemble gran canonico.md",
-    "Meccanica Statistica/Gas ideale nell'ensemble canonico.md",
-    "Meccanica Statistica/Altro/Da organizzare.md",
-    "Introduzione all'Astrofisica/Stelle/Evoluzione stellare.md",
-    "Introduzione all'Astrofisica/Stelle/Pressione degenere.md",
-    "Introduzione all'Astrofisica/Disegni/Evoluzione Post-sequenza Principale Stelle Solari.md",
-    "Introduzione all'Astrofisica/Disegni/Grafico di Fase Gas Degenere.md",
-    "Introduzione all'Astrofisica/Stelle/Fusione nucleare.md",
-    "Meccanica Quantistica/Orbite quantizzate degli elettroni.md",
-    "Metodi di Trattamento delle Immagini/Definizione di immagine.md",
-    "Metodi di Trattamento delle Immagini/Operazioni sulle immagini.md",
-    "Metodi di Trattamento delle Immagini/Vettore di informazione elettromagnetico.md",
-    "Meccanica Quantistica/Altro/Note sul corso.md",
-    "Meccanica Quantistica/Concetti/Dualità.md",
-    "Meccanica Quantistica/Concetti/Evolutore.md",
+    "Meccanica Quantistica/Altro/Da organizzare.md",
     "Meccanica Quantistica/Concetti/Autostati degeneri.md",
+    "Meccanica Quantistica/Concetti/Evolutore.md",
+    "Meccanica Quantistica/Concetti/Equazione di Schroedinger.md",
+    "Meccanica Quantistica/Problema della buca infinita.md",
+    "Meccanica Quantistica/Rappresentazione spettrale.md",
+    "Meccanica Quantistica/Onde piane.md",
+    "Meccanica Quantistica/Altro/Cose per esercizi.md",
+    "Meccanica Quantistica/Concetti/Dualità.md",
+    "Meccanica Quantistica/Concetti/Matrici di Pauli.md",
+    "Meccanica Quantistica/Concetti/Matrice di Hadamard.md",
+    "Meccanica Quantistica/Concetti/Qubits.md",
+    "Meccanica Quantistica/Concetti/Proiettore.md",
+    "Meccanica Quantistica/Concetti/Prodotto tensoriale.md",
+    "Meccanica Quantistica/Concetti/Osservabile.md",
+    "Meccanica Quantistica/Concetti/Parentesi di Poisson.md",
+    "Meccanica Quantistica/Concetti/Notazione Braket.md",
+    "Meccanica Quantistica/Misure di osservabili.md",
+    "Traccia.md",
+    "Meccanica Quantistica/Concetti/Matrice densità.md",
+    "Meccanica Quantistica/Disuguaglianza di Heisenberg.md",
+    "Meccanica Quantistica/Equazioni di Schroedinger.md",
+    "Meccanica Quantistica/Orbite quantizzate degli elettroni.md",
+    "Introduzione alla Fisica Teorica",
     "Metodi Matematici della Fisica/Spazi di Hilbert",
     "Meccanica Quantistica/Disegni",
     "Metodi Matematici della Fisica/Operatori",
