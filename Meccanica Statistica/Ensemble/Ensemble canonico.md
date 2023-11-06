@@ -77,3 +77,29 @@ $$\ln Q_{N}=-\beta(\bar{E}-TS(\bar{E}))+ \frac{1}{2}\ln(2\pi k_{B}T^{2}C_{V})$$
 Nel [[limite termodinamico]]
 $$\boxed{A(N,V,T)=\bar{E}-TS_{MC}(\bar{E})}$$
 con $S_{MC}$ l'entropia dell'ensemble microcanonico, da cui si ritrova $T_{MC}(\bar{E})=T$, stavolta per una generica [[Hamiltoniana]].
+## Canonico quantistico
+Parto dalla stessa base usata in [[Particelle identiche]]:
+$$\{|\psi_{mn}\rangle\}\equiv\{|\phi_{m}\rangle\otimes |\varphi_{n}\rangle\}$$
+usando il [[prodotto tensoriale]]. In questo caso facciamo il prodotto tensoriale tra il sistema termostato 1 e il sistema 2.
+
+![[Sistemi Annidati|center]]
+
+Considero l'[[ensemble microcanonico]]:
+$$\rho(E,\hat{H})=\delta(E-\hat{H})$$
+$$\langle \hat{O}_{1} \rangle=\frac{\mbox{Tr}[\delta(E-\hat{H}_{1}-\hat{H}_{2})\hat{O}_{1}]}{\mbox{Tr}[\delta(E-\hat{H}_{1}-\hat{H}_{2})]}=\frac{\mbox{Tr}[\int_{0}^{E}dE_{1}\delta(E-\hat{H}_{1})\delta(E-E_{1}-\hat{H}_{2})\hat{O}_{1}]}{\mbox{Tr}[\int_{0}^{E}dE_{1}\delta(E-\hat{H}_{1})\delta(E-E_{1}-\hat{H}_{2})]}=$$
+$$=\frac{\mbox{Tr}[\int_{0}^{E}dE_{1}\delta(E-\hat{H}_{1})\hat{O}_{1}\delta(E-E_{1}-\hat{H}_{2})]}{\mbox{Tr}[\int_{0}^{E}dE_{1}\delta(E-\hat{H}_{1})\delta(E-E_{1}-\hat{H}_{2})]}=\ldots$$
+Ricordando che per il [[commutatore]] vale $[\hat{H}_{1},\hat{H}_{2}]=0$ perché sono in sistemi diversi (?) e che $[\hat{O},\hat{H}_{2}]=0$ 
+$$\ldots=\frac{\int_{0}^{E}dE_{1}\mbox{Tr}^{(1)}[\delta(E-\hat{H}_{1})\hat{O}_{1}]\mbox{Tr}^{(2)}[\delta(E-E_{1}-\hat{H}_{2})]}{\int_{0}^{E}dE_{1}\mbox{Tr}^{(1)}[\delta(E-\hat{H}_{1})]\mbox{Tr}^{(2)}[\delta(E-E_{1}-\hat{H}_{2})]}=\ldots$$
+Ricordando l'espressione dell'entropia un ensemble microcanonico $S=k_{B}\ln[\mbox{Tr}\rho(E,\hat{H})]$ possiamo vedere
+$$\mbox{Tr}^{(2)}[\delta(E-E_{1}-\hat{H}_{2})]=e^{\frac{S_{2}(E-E_{1},V_{2},N_{2})}{k_{B}}}$$
+e trovando il [[limite termodinamico]] sull'esponente
+$$S(E-E_{1},V_{2},N_{2})\overbrace{\Rightarrow}\limits^{L.T.}S_{2}(E-E_{1},V_{2},N_{2})\simeq S_{2}(E,V_{2},N_{2})- \frac{E_{1}}{T}$$
+al che abbiamo
+$$e^{\frac{S_{2}(E-E_{1},V_{2},N_{2})}{k_{B}}}\simeq e^{\frac{S_{2}(E,N_{2},V_{2})}{k_{B}}}e^{- \frac{E_{1}}{k_{B}T}}$$
+e tornando alla media di $\hat{O}_{1}$ 
+$$\ldots=\frac{\int_{0}^{E}dE_{1}\mbox{Tr}^{(1)}[\delta(E-\hat{H}_{1})\hat{O}_{1}]e^{\frac{S_{2}}{k_{B}}}e^{-\beta E_{1}}}{\int_{0}^{E}dE_{1}\mbox{Tr}^{(1)}[\delta(E-\hat{H}_{1})]e^{\frac{S_{2}}{k_{B}}}e^{-\beta E_{1}}}=\frac{\int_{0}^{E}dE_{1}\mbox{Tr}^{(1)}[\delta(E_{1}-\hat{H}_{1})e^{-\beta E_{1}}\hat{O}_{1}]}{\int_{0}^{E}dE_{1}\mbox{Tr}^{(1)}[\delta(E_{1}-\hat{H}_{1})e^{-\beta E_{1}}]}=$$
+$$=\frac{\int_{0}^{E}dE_{1}\mbox{Tr}^{(1)}[\delta(E_{1}-\hat{H}_{1})e^{-\beta \hat{H}_{1}}\hat{O}_{1}]}{\int_{0}^{E}dE_{1}\mbox{Tr}^{(1)}[\delta(E_{1}-\hat{H}_{1})e^{-\beta \hat{H}_{1}}]}=\ldots$$
+Calcolando il limite $E \rightarrow \infty$ abbiamo
+$$\ldots=\frac{dE_{1}\mbox{Tr}^{(1)}[e^{-\beta E_{1}}\hat{O}_{1}]}{dE_{1}\mbox{Tr}^{(1)}[e^{-\beta E_{1}}]}\equiv \frac{\mbox{Tr}^{(1)}[\hat{\rho}_{c}\hat{O}_{1}]}{\mbox{Tr}\hat{\rho}_{c}}$$
+e quindi
+$$\boxed{\hat{\rho}_{c}=e^{-\beta\hat{H}_{1}}}$$

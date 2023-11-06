@@ -46,7 +46,7 @@ Definisco
 $$\rho_{nn'}=\overline{\sum\limits_{m}c^{\ast}_{mn'}(t)c_{mn}(t)}$$
 Allora ho
 $$\overline{\langle \hat{O}_{S} \rangle}=\frac{\sum\limits_{nn'}\rho_{nn'}O_{S,n'n}}{\sum\limits_{n}\rho_{nn}}=\frac{\mbox{Tr}(\hat{\rho}\hat{O}_{S})}{\mbox{Tr}\hat{\rho}}$$
-con $\mbox{Tr}$ la [[traccia]] di un operatore, con
+con $\mbox{Tr}$ la [[Traccia]] di un operatore, con
 $$\hat{\rho}=\sum\limits_{nn'}|n\rangle\langle n'|\rho_{nn'}$$
 Tornando all'equazione di Schroedinger usiamo
 $$|n_{t}\rangle=e^{-i \frac{\hat{H}_{S}t}{\hbar}}|n\rangle \Rightarrow i\hbar \frac{\partial }{\partial t}|n_{t}\rangle=\hat{H}_{S}|n_{t}\rangle$$

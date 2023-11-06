@@ -1,2 +1,1 @@
-
 Nel caso di sistemi quantistici, è più facile calcolare l'ensemble gran canonico che quello canonico.
