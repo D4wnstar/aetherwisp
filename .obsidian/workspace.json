@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Meccanica Statistica/Soluzioni dell'equazione di Schroedinger per bosoni e fermioni.md",
+                "file": "Introduzione all'Astrofisica/Pianeti/Formazione planetaria.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Meccanica Statistica/Soluzioni dell'equazione di Schroedinger per bosoni e fermioni.md",
+                "file": "Introduzione all'Astrofisica/Pianeti/Formazione planetaria.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Meccanica Statistica/Soluzioni dell'equazione di Schroedinger per bosoni e fermioni.md",
+                "file": "Introduzione all'Astrofisica/Pianeti/Formazione planetaria.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Meccanica Statistica/Soluzioni dell'equazione di Schroedinger per bosoni e fermioni.md"
+                "file": "Introduzione all'Astrofisica/Pianeti/Formazione planetaria.md"
               }
             }
           },
@@ -166,8 +166,23 @@
   },
   "active": "701b54728caf6f86",
   "lastOpenFiles": [
-    "Meccanica Quantistica/Concetti/Spin.md",
+    "Introduzione all'Astrofisica/Pianeti/Fascia Riccioli d'Oro.md",
+    "Introduzione all'Astrofisica/Pianeti/Formazione planetaria.md",
+    "Introduzione all'Astrofisica/Pianeti/Gigante gassoso.md",
+    "Introduzione all'Astrofisica/Pianeti/Meteorite.md",
+    "Introduzione all'Astrofisica/Pianeti/Asteroide.md",
+    "Introduzione all'Astrofisica/Stelle/Stelle.md",
+    "Introduzione all'Astrofisica/Pianeti/Gigante di ghiaccio.md",
+    "Introduzione all'Astrofisica/Pianeti/Satellite.md",
+    "Introduzione all'Astrofisica/Pianeti/Pianeta.md",
+    "Introduzione all'Astrofisica/Pianeti/Pianeta roccioso.md",
+    "Introduzione all'Astrofisica/Pianeti/Termination Shock.md",
+    "Introduzione all'Astrofisica/Pianeti/Bolide.md",
+    "Introduzione all'Astrofisica/Pianeti/Cometa.md",
+    "Introduzione all'Astrofisica/Pianeti/Eliopausa.md",
+    "Introduzione all'Astrofisica/Pianeti",
     "Meccanica Statistica/Soluzioni dell'equazione di Schroedinger per bosoni e fermioni.md",
+    "Meccanica Quantistica/Concetti/Spin.md",
     "Meccanica Quantistica/Concetti/Funzione d'onda.md",
     "Meccanica Quantistica/Concetti/Stato.md",
     "Meccanica Quantistica/Concetti/Teorema di Noether.md",
@@ -178,20 +193,6 @@
     "Meccanica Quantistica/Altro/Da organizzare.md",
     "Meccanica Quantistica/Altro/Cose per esercizi.md",
     "Meccanica Quantistica/Concetti/Prodotto tensoriale.md",
-    "Meccanica Quantistica/Concetti/Teorema di Stone.md",
-    "Meccanica Quantistica/Particelle accoppiate.md",
-    "Meccanica Statistica/Ensemble/Ensemble canonico.md",
-    "Meccanica Statistica/Ensemble/Ensemble gran canonico.md",
-    "Meccanica Statistica/Disegni/Sistemi Annidati.md",
-    "Meccanica Statistica/Disegni/Sistema in Mondo Esterno.md",
-    "Algebra Lineare/Traccia.md",
-    "Meccanica Statistica/Particelle identiche.md",
-    "Meccanica Statistica/Minimi e massimi di potenziali.md",
-    "Meccanica Quantistica/Concetti/Autostati degeneri.md",
-    "Meccanica Quantistica/Concetti/Evolutore.md",
-    "Meccanica Quantistica/Concetti/Equazione di Schroedinger.md",
-    "Meccanica Quantistica/Problema della buca infinita.md",
-    "Meccanica Quantistica/Rappresentazione spettrale.md",
     "Introduzione alla Fisica Teorica",
     "Metodi Matematici della Fisica/Spazi di Hilbert",
     "Meccanica Quantistica/Disegni",
@@ -200,7 +201,6 @@
     "Metodi Matematici della Fisica/Distribuzioni",
     "Metodi Matematici della Fisica",
     "Meccanica Quantistica/Concetti",
-    "Tecniche di Rappresentazione Dati",
-    "Meccanica Statistica/Concetti"
+    "Tecniche di Rappresentazione Dati"
   ]
 }
