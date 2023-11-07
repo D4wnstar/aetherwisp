@@ -20,7 +20,7 @@ $$\begin{cases}
 $$\ldots=\partial_{p}H\partial_{q}F-\partial_{q}H\partial_{p}F=\{F,H\}$$
 Trovo la derivata per $\alpha$ dell'Hamiltoniana
 $$H'=\frac{dH}{d\alpha}=q'\partial_{q}H+q'\partial_{p}H=\{H,F\}$$
-Allora posso enunciare il **teorema di Nother**:
+Allora posso enunciare il **teorema di Noether**:
 	Il generatore di una [[trasformazione di simmetria|trasformazione continua di simmetria]] è una quantità conservata (cioè una [[costante del moto]]). Ogni costante del moto genera una trasformazione continua di simmetria.
 
 Usando gli operatori $\hat{H}$ e $\hat{F}$ si ha, per estensione

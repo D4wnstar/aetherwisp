@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Meccanica Quantistica/Altro/Da organizzare.md",
+                "file": "Meccanica Statistica/Soluzioni dell'equazione di Schroedinger per bosoni e fermioni.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Meccanica Quantistica/Altro/Da organizzare.md",
+                "file": "Meccanica Statistica/Soluzioni dell'equazione di Schroedinger per bosoni e fermioni.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Meccanica Quantistica/Altro/Da organizzare.md",
+                "file": "Meccanica Statistica/Soluzioni dell'equazione di Schroedinger per bosoni e fermioni.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Meccanica Quantistica/Altro/Da organizzare.md"
+                "file": "Meccanica Statistica/Soluzioni dell'equazione di Schroedinger per bosoni e fermioni.md"
               }
             }
           },
@@ -166,32 +166,32 @@
   },
   "active": "701b54728caf6f86",
   "lastOpenFiles": [
+    "Meccanica Quantistica/Concetti/Spin.md",
+    "Meccanica Statistica/Soluzioni dell'equazione di Schroedinger per bosoni e fermioni.md",
+    "Meccanica Quantistica/Concetti/Funzione d'onda.md",
+    "Meccanica Quantistica/Concetti/Stato.md",
+    "Meccanica Quantistica/Concetti/Teorema di Noether.md",
+    "Meccanica Statistica/Particella libera.md",
+    "Meccanica Statistica/Concetti/Homogenous Boundary Condition.md",
+    "Meccanica Statistica/Concetti/Periodic Boundary Condition.md",
+    "Meccanica Statistica/Ensemble/Ensemble microcanonico.md",
+    "Meccanica Quantistica/Altro/Da organizzare.md",
     "Meccanica Quantistica/Altro/Cose per esercizi.md",
     "Meccanica Quantistica/Concetti/Prodotto tensoriale.md",
-    "Meccanica Quantistica/Concetti/Teorema di Nother.md",
     "Meccanica Quantistica/Concetti/Teorema di Stone.md",
     "Meccanica Quantistica/Particelle accoppiate.md",
     "Meccanica Statistica/Ensemble/Ensemble canonico.md",
-    "Meccanica Statistica/Ensemble/Ensemble microcanonico.md",
     "Meccanica Statistica/Ensemble/Ensemble gran canonico.md",
     "Meccanica Statistica/Disegni/Sistemi Annidati.md",
     "Meccanica Statistica/Disegni/Sistema in Mondo Esterno.md",
     "Algebra Lineare/Traccia.md",
     "Meccanica Statistica/Particelle identiche.md",
     "Meccanica Statistica/Minimi e massimi di potenziali.md",
-    "Meccanica Quantistica/Altro/Da organizzare.md",
     "Meccanica Quantistica/Concetti/Autostati degeneri.md",
     "Meccanica Quantistica/Concetti/Evolutore.md",
     "Meccanica Quantistica/Concetti/Equazione di Schroedinger.md",
     "Meccanica Quantistica/Problema della buca infinita.md",
     "Meccanica Quantistica/Rappresentazione spettrale.md",
-    "Meccanica Quantistica/Onde piane.md",
-    "Meccanica Quantistica/Concetti/Dualità.md",
-    "Meccanica Quantistica/Concetti/Matrici di Pauli.md",
-    "Meccanica Quantistica/Concetti/Matrice di Hadamard.md",
-    "Meccanica Quantistica/Concetti/Qubits.md",
-    "Meccanica Quantistica/Concetti/Proiettore.md",
-    "Meccanica Quantistica/Concetti/Osservabile.md",
     "Introduzione alla Fisica Teorica",
     "Metodi Matematici della Fisica/Spazi di Hilbert",
     "Meccanica Quantistica/Disegni",
