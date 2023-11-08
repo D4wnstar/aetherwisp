@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Introduzione all'Astrofisica/Pianeti/Formazione planetaria.md",
+                "file": "Introduzione all'Astrofisica/Misure astronomiche/Misurazione di lunghezze d'onda.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Introduzione all'Astrofisica/Pianeti/Formazione planetaria.md",
+                "file": "Introduzione all'Astrofisica/Misure astronomiche/Misurazione di lunghezze d'onda.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Introduzione all'Astrofisica/Pianeti/Formazione planetaria.md",
+                "file": "Introduzione all'Astrofisica/Misure astronomiche/Misurazione di lunghezze d'onda.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Introduzione all'Astrofisica/Pianeti/Formazione planetaria.md"
+                "file": "Introduzione all'Astrofisica/Misure astronomiche/Misurazione di lunghezze d'onda.md"
               }
             }
           },
@@ -166,8 +166,11 @@
   },
   "active": "701b54728caf6f86",
   "lastOpenFiles": [
-    "Introduzione all'Astrofisica/Pianeti/Fascia Riccioli d'Oro.md",
+    "Introduzione all'Astrofisica/Misure astronomiche/Spettroscopia.md",
+    "Introduzione all'Astrofisica/Misure astronomiche/Misurazione di lunghezze d'onda.md",
+    "Introduzione all'Astrofisica/Stelle/Nana bianca.md",
     "Introduzione all'Astrofisica/Pianeti/Formazione planetaria.md",
+    "Introduzione all'Astrofisica/Pianeti/Fascia Riccioli d'Oro.md",
     "Introduzione all'Astrofisica/Pianeti/Gigante gassoso.md",
     "Introduzione all'Astrofisica/Pianeti/Meteorite.md",
     "Introduzione all'Astrofisica/Pianeti/Asteroide.md",
@@ -190,9 +193,6 @@
     "Meccanica Statistica/Concetti/Homogenous Boundary Condition.md",
     "Meccanica Statistica/Concetti/Periodic Boundary Condition.md",
     "Meccanica Statistica/Ensemble/Ensemble microcanonico.md",
-    "Meccanica Quantistica/Altro/Da organizzare.md",
-    "Meccanica Quantistica/Altro/Cose per esercizi.md",
-    "Meccanica Quantistica/Concetti/Prodotto tensoriale.md",
     "Introduzione alla Fisica Teorica",
     "Metodi Matematici della Fisica/Spazi di Hilbert",
     "Meccanica Quantistica/Disegni",
