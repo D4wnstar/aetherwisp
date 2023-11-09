@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Introduzione all'Astrofisica/Misure astronomiche/Misurazione di lunghezze d'onda.md",
+                "file": "Meccanica Quantistica/Concetti/Spin.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Introduzione all'Astrofisica/Misure astronomiche/Misurazione di lunghezze d'onda.md",
+                "file": "Meccanica Quantistica/Concetti/Spin.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Introduzione all'Astrofisica/Misure astronomiche/Misurazione di lunghezze d'onda.md",
+                "file": "Meccanica Quantistica/Concetti/Spin.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Introduzione all'Astrofisica/Misure astronomiche/Misurazione di lunghezze d'onda.md"
+                "file": "Meccanica Quantistica/Concetti/Spin.md"
               }
             }
           },
@@ -166,8 +166,13 @@
   },
   "active": "701b54728caf6f86",
   "lastOpenFiles": [
-    "Introduzione all'Astrofisica/Misure astronomiche/Spettroscopia.md",
+    "Meccanica Quantistica/Particelle accoppiate.md",
+    "Meccanica Statistica/Particelle identiche.md",
+    "Meccanica Statistica/Particella libera.md",
+    "Meccanica Quantistica/Concetti/Spin.md",
+    "Meccanica Statistica/Spin.md",
     "Introduzione all'Astrofisica/Misure astronomiche/Misurazione di lunghezze d'onda.md",
+    "Introduzione all'Astrofisica/Misure astronomiche/Spettroscopia.md",
     "Introduzione all'Astrofisica/Stelle/Nana bianca.md",
     "Introduzione all'Astrofisica/Pianeti/Formazione planetaria.md",
     "Introduzione all'Astrofisica/Pianeti/Fascia Riccioli d'Oro.md",
@@ -185,14 +190,9 @@
     "Introduzione all'Astrofisica/Pianeti/Eliopausa.md",
     "Introduzione all'Astrofisica/Pianeti",
     "Meccanica Statistica/Soluzioni dell'equazione di Schroedinger per bosoni e fermioni.md",
-    "Meccanica Quantistica/Concetti/Spin.md",
     "Meccanica Quantistica/Concetti/Funzione d'onda.md",
     "Meccanica Quantistica/Concetti/Stato.md",
     "Meccanica Quantistica/Concetti/Teorema di Noether.md",
-    "Meccanica Statistica/Particella libera.md",
-    "Meccanica Statistica/Concetti/Homogenous Boundary Condition.md",
-    "Meccanica Statistica/Concetti/Periodic Boundary Condition.md",
-    "Meccanica Statistica/Ensemble/Ensemble microcanonico.md",
     "Introduzione alla Fisica Teorica",
     "Metodi Matematici della Fisica/Spazi di Hilbert",
     "Meccanica Quantistica/Disegni",
