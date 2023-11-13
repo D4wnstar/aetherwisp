@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Meccanica Quantistica/Concetti/Spin.md",
+                "file": "Meccanica Statistica/Altro/Da organizzare.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Meccanica Quantistica/Concetti/Spin.md",
+                "file": "Meccanica Statistica/Altro/Da organizzare.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Meccanica Quantistica/Concetti/Spin.md",
+                "file": "Meccanica Statistica/Altro/Da organizzare.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Meccanica Quantistica/Concetti/Spin.md"
+                "file": "Meccanica Statistica/Altro/Da organizzare.md"
               }
             }
           },
@@ -166,10 +166,10 @@
   },
   "active": "701b54728caf6f86",
   "lastOpenFiles": [
+    "Meccanica Quantistica/Concetti/Spin.md",
     "Meccanica Quantistica/Particelle accoppiate.md",
     "Meccanica Statistica/Particelle identiche.md",
     "Meccanica Statistica/Particella libera.md",
-    "Meccanica Quantistica/Concetti/Spin.md",
     "Meccanica Statistica/Spin.md",
     "Introduzione all'Astrofisica/Misure astronomiche/Misurazione di lunghezze d'onda.md",
     "Introduzione all'Astrofisica/Misure astronomiche/Spettroscopia.md",
