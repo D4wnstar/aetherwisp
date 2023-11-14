@@ -1,4 +1,4 @@
-Si dimostra che l'[[ensemble canonico]] e l'[[ensemble gran canonico]] danno risultati equivalenti nel calcolo delle proprietà di un gas ideale.
+Si dimostra che l'[[ensemble canonico]] e l'[[Ensemble gran canonico]] danno risultati equivalenti nel calcolo delle proprietà di un gas ideale.
 
 <!-- Lezione del 19/10/23 da recuperare va qui -->
 

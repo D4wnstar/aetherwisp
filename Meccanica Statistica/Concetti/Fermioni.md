@@ -1,0 +1,1 @@
+I **fermioni** sono particelle fondamentali con [[spin]] pari a mezzo intero, come $\frac{1}{2}$, $\frac{3}{2}$, ecc. Gli elettroni sono fermioni e hanno spin $\frac{1}{2}$.

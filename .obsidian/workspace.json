@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Meccanica Statistica/Altro/Da organizzare.md",
+                "file": "Meccanica Statistica/Ensemble/Ensemble gran canonico.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Meccanica Statistica/Altro/Da organizzare.md",
+                "file": "Meccanica Statistica/Ensemble/Ensemble gran canonico.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Meccanica Statistica/Altro/Da organizzare.md",
+                "file": "Meccanica Statistica/Ensemble/Ensemble gran canonico.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Meccanica Statistica/Altro/Da organizzare.md"
+                "file": "Meccanica Statistica/Ensemble/Ensemble gran canonico.md"
               }
             }
           },
@@ -166,6 +166,11 @@
   },
   "active": "701b54728caf6f86",
   "lastOpenFiles": [
+    "Meccanica Statistica/Concetti/Bosoni.md",
+    "Meccanica Statistica/Concetti/Fermioni.md",
+    "Meccanica Statistica/Ensemble/Ensemble gran canonico.md",
+    "Meccanica Statistica/Concetti/Stato fondamentale.md",
+    "Meccanica Statistica/Altro/Da organizzare.md",
     "Meccanica Quantistica/Concetti/Spin.md",
     "Meccanica Quantistica/Particelle accoppiate.md",
     "Meccanica Statistica/Particelle identiche.md",
@@ -187,12 +192,7 @@
     "Introduzione all'Astrofisica/Pianeti/Termination Shock.md",
     "Introduzione all'Astrofisica/Pianeti/Bolide.md",
     "Introduzione all'Astrofisica/Pianeti/Cometa.md",
-    "Introduzione all'Astrofisica/Pianeti/Eliopausa.md",
     "Introduzione all'Astrofisica/Pianeti",
-    "Meccanica Statistica/Soluzioni dell'equazione di Schroedinger per bosoni e fermioni.md",
-    "Meccanica Quantistica/Concetti/Funzione d'onda.md",
-    "Meccanica Quantistica/Concetti/Stato.md",
-    "Meccanica Quantistica/Concetti/Teorema di Noether.md",
     "Introduzione alla Fisica Teorica",
     "Metodi Matematici della Fisica/Spazi di Hilbert",
     "Meccanica Quantistica/Disegni",
