@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "1259fad91e467c71",
+        "id": "60609edc22ea008f",
         "type": "tabs",
         "children": [
           {
-            "id": "701b54728caf6f86",
+            "id": "3d7831482455f51a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Meccanica Statistica/Ensemble/Ensemble gran canonico.md",
+                "file": "Introduzione all'Astrofisica/Galassie/Velocità di rotazione.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "redshift",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Meccanica Statistica/Ensemble/Ensemble gran canonico.md",
+                "file": "Introduzione all'Astrofisica/Galassie/Velocità di rotazione.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Meccanica Statistica/Ensemble/Ensemble gran canonico.md",
+                "file": "Introduzione all'Astrofisica/Galassie/Velocità di rotazione.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Meccanica Statistica/Ensemble/Ensemble gran canonico.md"
+                "file": "Introduzione all'Astrofisica/Galassie/Velocità di rotazione.md"
               }
             }
           },
@@ -164,34 +164,35 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "701b54728caf6f86",
+  "active": "3d7831482455f51a",
   "lastOpenFiles": [
+    "Introduzione all'Astrofisica/Galassie/Righe proibite.md",
+    "Introduzione all'Astrofisica/Galassie/Velocità di rotazione.md",
+    "Introduzione all'Astrofisica/Galassie/Via Lattea.md",
+    "Introduzione all'Astrofisica/Stelle/Luminosità.md",
+    "Introduzione all'Astrofisica/Galassie/Mezzo interstellare.md",
+    "Introduzione all'Astrofisica/Disegni/Diagramma Trumpler.md",
+    "Introduzione all'Astrofisica/Misure astronomiche/Spettroscopia.md",
+    "Introduzione all'Astrofisica/Misure astronomiche/Redshift.md",
+    "Introduzione all'Astrofisica/Misure astronomiche/Giorni Giuliani.md",
+    "Introduzione all'Astrofisica/Misure astronomiche/Magnitudine.md",
+    "Introduzione all'Astrofisica/Misure astronomiche/Misurazione di lunghezze d'onda.md",
+    "Introduzione all'Astrofisica/Misure astronomiche/Telescopi.md",
+    "Introduzione all'Astrofisica/Pianeti/Eliopausa.md",
+    "Introduzione all'Astrofisica/Pianeti/Termination Shock.md",
+    "Introduzione all'Astrofisica/Stelle/Ammassi stellari.md",
+    "Introduzione all'Astrofisica/Stelle/Stella.md",
+    "Introduzione all'Astrofisica/Pianeti/Pianeta roccioso.md",
+    "Introduzione all'Astrofisica/Galassie",
+    "Meccanica Statistica/Ensemble/Ensemble gran canonico.md",
     "Meccanica Statistica/Concetti/Bosoni.md",
     "Meccanica Statistica/Concetti/Fermioni.md",
-    "Meccanica Statistica/Ensemble/Ensemble gran canonico.md",
     "Meccanica Statistica/Concetti/Stato fondamentale.md",
     "Meccanica Statistica/Altro/Da organizzare.md",
     "Meccanica Quantistica/Concetti/Spin.md",
     "Meccanica Quantistica/Particelle accoppiate.md",
     "Meccanica Statistica/Particelle identiche.md",
     "Meccanica Statistica/Particella libera.md",
-    "Meccanica Statistica/Spin.md",
-    "Introduzione all'Astrofisica/Misure astronomiche/Misurazione di lunghezze d'onda.md",
-    "Introduzione all'Astrofisica/Misure astronomiche/Spettroscopia.md",
-    "Introduzione all'Astrofisica/Stelle/Nana bianca.md",
-    "Introduzione all'Astrofisica/Pianeti/Formazione planetaria.md",
-    "Introduzione all'Astrofisica/Pianeti/Fascia Riccioli d'Oro.md",
-    "Introduzione all'Astrofisica/Pianeti/Gigante gassoso.md",
-    "Introduzione all'Astrofisica/Pianeti/Meteorite.md",
-    "Introduzione all'Astrofisica/Pianeti/Asteroide.md",
-    "Introduzione all'Astrofisica/Stelle/Stelle.md",
-    "Introduzione all'Astrofisica/Pianeti/Gigante di ghiaccio.md",
-    "Introduzione all'Astrofisica/Pianeti/Satellite.md",
-    "Introduzione all'Astrofisica/Pianeti/Pianeta.md",
-    "Introduzione all'Astrofisica/Pianeti/Pianeta roccioso.md",
-    "Introduzione all'Astrofisica/Pianeti/Termination Shock.md",
-    "Introduzione all'Astrofisica/Pianeti/Bolide.md",
-    "Introduzione all'Astrofisica/Pianeti/Cometa.md",
     "Introduzione all'Astrofisica/Pianeti",
     "Introduzione alla Fisica Teorica",
     "Metodi Matematici della Fisica/Spazi di Hilbert",
@@ -200,7 +201,6 @@
     "Introduzione all'Astrofisica/Stelle",
     "Metodi Matematici della Fisica/Distribuzioni",
     "Metodi Matematici della Fisica",
-    "Meccanica Quantistica/Concetti",
-    "Tecniche di Rappresentazione Dati"
+    "Meccanica Quantistica/Concetti"
   ]
 }

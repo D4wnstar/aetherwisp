@@ -1,4 +1,4 @@
-La **fusione nucleare** è il processo per il quale i nuclei di due atomi si fondono fra loro, creando un nuovo atomo combinato. Per accadere richiede temperature e pressioni estremamente alte. Il nucleo delle [[stelle]], ad esempio, ha le condizioni adatte per far avvenire la reazione, sebbene siano poco efficienti.
+La **fusione nucleare** è il processo per il quale i nuclei di due atomi si fondono fra loro, creando un nuovo atomo combinato. Per accadere richiede temperature e pressioni estremamente alte. Il nucleo delle [[Stella]], ad esempio, ha le condizioni adatte per far avvenire la reazione, sebbene siano poco efficienti.
 
 La fusione nucleare non produce sempre un surplus di energia. Fino al ferro, la fusione produce più energia di quanto non ne consumi. Dal ferro in poi, la fusione perde energia e dunque non è auto-sostenibile. Dunque, la fusione nucleare stellare produce elementi solo fino al ferro. Oltre ad esso, c'è bisogno di qualche altro processo che produce quantità di energia considerevolmente più grandi.
 

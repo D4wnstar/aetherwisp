@@ -1,4 +1,4 @@
-Le **stelle** sono oggetti astronomici composti di gas di svariati elementi nel cui nucleo avviene la [[fusione nucleare]] e che brillano di luce propria. Le stelle sono determinate dagli elementi di cui sono composte. All'inizio, al [[Big Bang]], c'erano solo idrogeno ed elio, che tutt'oggi compongono il 73% e 25% della massa dell'universo.
+Una **stella** è un oggetto astronomico composto di gas di svariati elementi (perlopiù idrogeno e elio) nel cui nucleo avviene la [[fusione nucleare]] e che brilla di luce propria. Le stelle sono determinate dagli elementi di cui sono composte. All'inizio, al [[Big Bang]], c'erano solo idrogeno ed elio, che tutt'oggi compongono il 73% e 25% della massa dell'universo.
 
 La maggior parte dell'universo è vuota. La densità di massa dell'universo è nell'ordine del $10^{-20}$ mentre quella delle galassie come la Via Lattea è nell'ordine del $10^{-16}$. Per poter parlare di stelle, bisogna avere una densità più alta. Ciò può accadere, ad esempio, nelle [[nubi molecolari]].
 

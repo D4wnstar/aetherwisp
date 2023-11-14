@@ -1,4 +1,4 @@
-La struttura delle [[stelle]] viene descritta da quattro equazioni.
+La struttura delle [[Stella]] viene descritta da quattro equazioni.
 1. L'**equazione di equilibrio idrostatico**: $$\frac{dP(r)}{dr}=- \frac{GM(r)\rho(r)}{r^{2}}$$dove $G$ è la [[constante gravitazionale]], $M$ è la massa della stella e $\rho$ è la sua densità. Tutto è in funzione della distanza dal centro $r$.
 2. L'**equazione di continuità di massa**: $$\frac{dM(r)}{dr}=4\pi r^{2}\rho(r)$$
 3. L'**equazione di trasporto energetico radiativo**: $$\frac{dT(r)}{dr}= \frac{3}{4\pi} \frac{\kappa L(r)\rho(r)}{r^{2}4\sigma T^{3}}$$dove $L$ è la [[luminosità]] della stella, $T$ è la sua temperatura, $\kappa$ è l'opacità e $\sigma$ è la [[costante di Stefan-Boltzmann]].

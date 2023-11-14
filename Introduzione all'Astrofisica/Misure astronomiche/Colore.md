@@ -1,1 +1,1 @@
-Il **colore** di una [[stelle|stella]] è definito come da differenza tra il flusso misurato con un filtro blu $B$ e quella misurata con un verde $V$. Più il valore del colore è basso, più la stella tende al blu (cioè ultravioletto). Viceversa, più alto è, più tende al(l'infra)rosso.
+Il **colore** di una [[Stella|stella]] è definito come da differenza tra il flusso misurato con un filtro blu $B$ e quella misurata con un verde $V$. Più il valore del colore è basso, più la stella tende al blu (cioè ultravioletto). Viceversa, più alto è, più tende al(l'infra)rosso.

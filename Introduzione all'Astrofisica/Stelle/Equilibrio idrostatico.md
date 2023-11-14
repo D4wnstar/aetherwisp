@@ -1,6 +1,6 @@
 L'energia potenziale di una stella in forma differenziale è
 $$dU=- \frac{GM(r_{0})}{r_{0}}dm$$
-dove $M(r_{0})$ è la massa della [[stelle|stella]] entro il raggio $r_{0}$. In questa formula siamo nell'approssimazione che la massa sia contenuta tutta in un punto al centro della stella, che è una buona approssimazione per quanto riguarda la forza gravitazionale. Sfruttando la conservazione dell'energia
+dove $M(r_{0})$ è la massa della [[Stella|stella]] entro il raggio $r_{0}$. In questa formula siamo nell'approssimazione che la massa sia contenuta tutta in un punto al centro della stella, che è una buona approssimazione per quanto riguarda la forza gravitazionale. Sfruttando la conservazione dell'energia
 $$\frac{1}{2}\left( \frac{dr}{dt} \right)^{2}= \frac{GM(r_{0})}{r}- \frac{GM(r_{0})}{r_{0}}$$
 Calcoliamo il tempo che ci mette un oggetto a cadere da $r_{0}$ al centro della stella puramente per forza gravitazionale
 $$\tau_{FF}=\int_{0}^{\tau_{FF}}dt=-\int_{r_{0}}^{0}2GM(r_{0})\left( \frac{1}{r}- \frac{1}{r_{0}} \right)^{- \frac{1}{2}}dr=$$

@@ -1,0 +1,1 @@
+Il **redshift**, o **arrossamento**, è un fenomeno secondo il quale una banda luminosa viene spostata verso il rosso per effetto Doppler. Il fenomeno analogo e opposto è il **blueshift**.
