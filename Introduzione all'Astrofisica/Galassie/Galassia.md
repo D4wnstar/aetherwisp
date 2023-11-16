@@ -1,0 +1,1 @@
+Una **galassia** è un sistema di [[stelle]], [[]]

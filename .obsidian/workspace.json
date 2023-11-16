@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Introduzione all'Astrofisica/Misure astronomiche/Spettroscopia.md",
+                "file": "Introduzione all'Astrofisica/Stelle/Evoluzione stellare.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Introduzione all'Astrofisica/Misure astronomiche/Spettroscopia.md",
+                "file": "Introduzione all'Astrofisica/Stelle/Evoluzione stellare.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Introduzione all'Astrofisica/Misure astronomiche/Spettroscopia.md",
+                "file": "Introduzione all'Astrofisica/Stelle/Evoluzione stellare.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Introduzione all'Astrofisica/Misure astronomiche/Spettroscopia.md"
+                "file": "Introduzione all'Astrofisica/Stelle/Evoluzione stellare.md"
               }
             }
           },
@@ -164,34 +164,35 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "a8e9594a2ea9c832",
+  "active": "b0bae34b9ff6f44c",
   "lastOpenFiles": [
-    "Introduzione all'Astrofisica/Misure astronomiche/Misure di massa stellare.md",
-    "Introduzione all'Astrofisica/Misure astronomiche/Misure di luminosità.md",
-    "Introduzione all'Astrofisica/Misure astronomiche/Misurazione di lunghezze d'onda.md",
-    "Introduzione all'Astrofisica/Galassie/Irradianza di una galassia.md",
+    "Introduzione all'Astrofisica/Stelle/Nube molecolare.md",
+    "Introduzione all'Astrofisica/Stelle/Evoluzione stellare.md",
+    "Introduzione all'Astrofisica/Stelle/Sequenza principale.md",
+    "Introduzione all'Astrofisica/Stelle/Equilibrio idrostatico.md",
+    "Introduzione all'Astrofisica/Stelle/Fusione nucleare.md",
+    "Introduzione all'Astrofisica/Stelle/Luminosità.md",
+    "Introduzione all'Astrofisica/Stelle/Stella.md",
+    "Introduzione all'Astrofisica/Stelle/Relitto stellare.md",
+    "Introduzione all'Astrofisica/Stelle/Pressione degenere.md",
+    "Introduzione all'Astrofisica/Stelle/Nana bianca.md",
+    "Introduzione all'Astrofisica/Galassie/Galassia.md",
+    "Introduzione all'Astrofisica/Galassie/Via Lattea.md",
     "Introduzione all'Astrofisica/Galassie/Velocità di rotazione.md",
-    "Introduzione all'Astrofisica/Misure astronomiche/Misure di distanza.md",
-    "Introduzione all'Astrofisica/Misure astronomiche/Giorni Giuliani.md",
-    "Introduzione all'Astrofisica/Misure astronomiche/Magnitudine.md",
-    "Introduzione all'Astrofisica/Misure astronomiche/Coordinate dei corpi celesti.md",
+    "Introduzione all'Astrofisica/Galassie/Righe proibite.md",
+    "Introduzione all'Astrofisica/Galassie/Mezzo interstellare.md",
+    "Introduzione all'Astrofisica/Galassie/Isofota.md",
+    "Introduzione all'Astrofisica/Galassie/Irradianza di una galassia.md",
     "Introduzione all'Astrofisica/Galassie/Classi galattiche.md",
     "Introduzione all'Astrofisica/Disegni/Hubble Tuning Fork.md",
-    "Introduzione all'Astrofisica/Disegni/Senza nome.md",
-    "Introduzione all'Astrofisica/Galassie/Isofota.md",
-    "Introduzione all'Astrofisica/Galassie/Righe proibite.md",
-    "Introduzione all'Astrofisica/Galassie/Via Lattea.md",
-    "Introduzione all'Astrofisica/Stelle/Luminosità.md",
-    "Introduzione all'Astrofisica/Galassie/Mezzo interstellare.md",
-    "Introduzione all'Astrofisica/Disegni/Diagramma Trumpler.md",
-    "Introduzione all'Astrofisica/Misure astronomiche/Spettroscopia.md",
-    "Introduzione all'Astrofisica/Misure astronomiche/Redshift.md",
-    "Introduzione all'Astrofisica/Misure astronomiche/Telescopi.md",
     "Introduzione all'Astrofisica/Pianeti/Eliopausa.md",
+    "Introduzione all'Astrofisica/Pianeti/Satellite.md",
     "Introduzione all'Astrofisica/Pianeti/Termination Shock.md",
-    "Introduzione all'Astrofisica/Stelle/Ammassi stellari.md",
-    "Introduzione all'Astrofisica/Stelle/Stella.md",
     "Introduzione all'Astrofisica/Pianeti/Pianeta roccioso.md",
+    "Introduzione all'Astrofisica/Pianeti/Pianeta.md",
+    "Introduzione all'Astrofisica/Pianeti/Meteorite.md",
+    "Introduzione all'Astrofisica/Pianeti/Gigante gassoso.md",
+    "Meccanica Statistica/Esercizi",
     "Introduzione all'Astrofisica/Galassie",
     "Introduzione all'Astrofisica/Pianeti",
     "Introduzione alla Fisica Teorica",
@@ -200,7 +201,6 @@
     "Metodi Matematici della Fisica/Operatori",
     "Introduzione all'Astrofisica/Stelle",
     "Metodi Matematici della Fisica/Distribuzioni",
-    "Metodi Matematici della Fisica",
-    "Meccanica Quantistica/Concetti"
+    "Metodi Matematici della Fisica"
   ]
 }
