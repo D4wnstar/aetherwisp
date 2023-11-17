@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "af1fe5b0fc417b26",
+        "id": "50894953adfbab84",
         "type": "tabs",
         "children": [
           {
-            "id": "a8e9594a2ea9c832",
+            "id": "e20b63c47645650b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Introduzione all'Astrofisica/Stelle/Evoluzione stellare.md",
+                "file": "Introduzione all'Astrofisica/Galassie/Classi galattiche.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Introduzione all'Astrofisica/Stelle/Evoluzione stellare.md",
+                "file": "Introduzione all'Astrofisica/Galassie/Classi galattiche.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Introduzione all'Astrofisica/Stelle/Evoluzione stellare.md",
+                "file": "Introduzione all'Astrofisica/Galassie/Classi galattiche.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Introduzione all'Astrofisica/Stelle/Evoluzione stellare.md"
+                "file": "Introduzione all'Astrofisica/Galassie/Classi galattiche.md"
               }
             }
           },
@@ -164,34 +164,34 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "b0bae34b9ff6f44c",
+  "active": "e20b63c47645650b",
   "lastOpenFiles": [
+    "Introduzione all'Astrofisica/Galassie/Irradianza di una galassia.md",
+    "Introduzione all'Astrofisica/Galassie/Classi galattiche.md",
+    "Introduzione all'Astrofisica/Galassie/Galassia.md",
+    "Meccanica Quantistica/Orbite quantizzate degli elettroni.md",
+    "Introduzione alla Fisica Teorica/Trasformazione di simmetria.md",
+    "Meccanica Quantistica/Onde piane.md",
+    "Meccanica Quantistica/Oscillatore armonico quantistico.md",
     "Introduzione all'Astrofisica/Stelle/Nube molecolare.md",
+    "Introduzione all'Astrofisica/Stelle/Stella.md",
+    "Meccanica Statistica/Esercizi/Bosoni in 2D.md",
+    "Meccanica Quantistica/Disuguaglianza di Heisenberg.md",
+    "Meccanica Quantistica/Equazioni di Schroedinger.md",
     "Introduzione all'Astrofisica/Stelle/Evoluzione stellare.md",
     "Introduzione all'Astrofisica/Stelle/Sequenza principale.md",
     "Introduzione all'Astrofisica/Stelle/Equilibrio idrostatico.md",
     "Introduzione all'Astrofisica/Stelle/Fusione nucleare.md",
     "Introduzione all'Astrofisica/Stelle/Luminosità.md",
-    "Introduzione all'Astrofisica/Stelle/Stella.md",
     "Introduzione all'Astrofisica/Stelle/Relitto stellare.md",
     "Introduzione all'Astrofisica/Stelle/Pressione degenere.md",
     "Introduzione all'Astrofisica/Stelle/Nana bianca.md",
-    "Introduzione all'Astrofisica/Galassie/Galassia.md",
     "Introduzione all'Astrofisica/Galassie/Via Lattea.md",
     "Introduzione all'Astrofisica/Galassie/Velocità di rotazione.md",
     "Introduzione all'Astrofisica/Galassie/Righe proibite.md",
     "Introduzione all'Astrofisica/Galassie/Mezzo interstellare.md",
     "Introduzione all'Astrofisica/Galassie/Isofota.md",
-    "Introduzione all'Astrofisica/Galassie/Irradianza di una galassia.md",
-    "Introduzione all'Astrofisica/Galassie/Classi galattiche.md",
     "Introduzione all'Astrofisica/Disegni/Hubble Tuning Fork.md",
-    "Introduzione all'Astrofisica/Pianeti/Eliopausa.md",
-    "Introduzione all'Astrofisica/Pianeti/Satellite.md",
-    "Introduzione all'Astrofisica/Pianeti/Termination Shock.md",
-    "Introduzione all'Astrofisica/Pianeti/Pianeta roccioso.md",
-    "Introduzione all'Astrofisica/Pianeti/Pianeta.md",
-    "Introduzione all'Astrofisica/Pianeti/Meteorite.md",
-    "Introduzione all'Astrofisica/Pianeti/Gigante gassoso.md",
     "Meccanica Statistica/Esercizi",
     "Introduzione all'Astrofisica/Galassie",
     "Introduzione all'Astrofisica/Pianeti",
