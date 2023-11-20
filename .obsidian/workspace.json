@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Introduzione all'Astrofisica/Galassie/Classi galattiche.md",
+                "file": "Meccanica Statistica/Esercizi/Termodinamica dei bosoni in 3D.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Introduzione all'Astrofisica/Galassie/Classi galattiche.md",
+                "file": "Meccanica Statistica/Esercizi/Termodinamica dei bosoni in 3D.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Introduzione all'Astrofisica/Galassie/Classi galattiche.md",
+                "file": "Meccanica Statistica/Esercizi/Termodinamica dei bosoni in 3D.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Introduzione all'Astrofisica/Galassie/Classi galattiche.md"
+                "file": "Meccanica Statistica/Esercizi/Termodinamica dei bosoni in 3D.md"
               }
             }
           },
@@ -166,8 +166,8 @@
   },
   "active": "e20b63c47645650b",
   "lastOpenFiles": [
-    "Introduzione all'Astrofisica/Galassie/Irradianza di una galassia.md",
     "Introduzione all'Astrofisica/Galassie/Classi galattiche.md",
+    "Introduzione all'Astrofisica/Galassie/Irradianza di una galassia.md",
     "Introduzione all'Astrofisica/Galassie/Galassia.md",
     "Meccanica Quantistica/Orbite quantizzate degli elettroni.md",
     "Introduzione alla Fisica Teorica/Trasformazione di simmetria.md",
