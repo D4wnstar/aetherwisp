@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Meccanica Statistica/Esercizi/Termodinamica dei bosoni in 3D.md",
+                "file": "Meccanica Statistica/Funzione di partizione dei Boltzmannioni.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Meccanica Statistica/Esercizi/Termodinamica dei bosoni in 3D.md",
+                "file": "Meccanica Statistica/Funzione di partizione dei Boltzmannioni.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Meccanica Statistica/Esercizi/Termodinamica dei bosoni in 3D.md",
+                "file": "Meccanica Statistica/Funzione di partizione dei Boltzmannioni.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Meccanica Statistica/Esercizi/Termodinamica dei bosoni in 3D.md"
+                "file": "Meccanica Statistica/Funzione di partizione dei Boltzmannioni.md"
               }
             }
           },
@@ -166,6 +166,8 @@
   },
   "active": "e20b63c47645650b",
   "lastOpenFiles": [
+    "Meccanica Statistica/Esercizi/Termodinamica dei bosoni in 3D.md",
+    "Meccanica Statistica/Funzione di partizione dei Boltzmannioni.md",
     "Introduzione all'Astrofisica/Galassie/Classi galattiche.md",
     "Introduzione all'Astrofisica/Galassie/Irradianza di una galassia.md",
     "Introduzione all'Astrofisica/Galassie/Galassia.md",
@@ -190,8 +192,6 @@
     "Introduzione all'Astrofisica/Galassie/Velocità di rotazione.md",
     "Introduzione all'Astrofisica/Galassie/Righe proibite.md",
     "Introduzione all'Astrofisica/Galassie/Mezzo interstellare.md",
-    "Introduzione all'Astrofisica/Galassie/Isofota.md",
-    "Introduzione all'Astrofisica/Disegni/Hubble Tuning Fork.md",
     "Meccanica Statistica/Esercizi",
     "Introduzione all'Astrofisica/Galassie",
     "Introduzione all'Astrofisica/Pianeti",
