@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Meccanica Statistica/Funzione di partizione dei Boltzmannioni.md",
+                "file": "Introduzione all'Astrofisica/Galassie/Buco nero.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Meccanica Statistica/Funzione di partizione dei Boltzmannioni.md",
+                "file": "Introduzione all'Astrofisica/Galassie/Buco nero.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Meccanica Statistica/Funzione di partizione dei Boltzmannioni.md",
+                "file": "Introduzione all'Astrofisica/Galassie/Buco nero.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Meccanica Statistica/Funzione di partizione dei Boltzmannioni.md"
+                "file": "Introduzione all'Astrofisica/Galassie/Buco nero.md"
               }
             }
           },
@@ -166,11 +166,20 @@
   },
   "active": "e20b63c47645650b",
   "lastOpenFiles": [
-    "Meccanica Statistica/Esercizi/Termodinamica dei bosoni in 3D.md",
-    "Meccanica Statistica/Funzione di partizione dei Boltzmannioni.md",
+    "Costanti/Constante gravitazionale.md",
+    "Introduzione all'Astrofisica/Galassie/Buco nero.md",
+    "Introduzione all'Astrofisica/Galassie/Quasar.md",
+    "Introduzione all'Astrofisica/Galassie/Oggetti superluminali.md",
+    "Introduzione all'Astrofisica/Galassie/Galassie Seyfert.md",
+    "Introduzione all'Astrofisica/Galassie/Galassia.md",
+    "Introduzione all'Astrofisica/Galassie/Righe proibite.md",
     "Introduzione all'Astrofisica/Galassie/Classi galattiche.md",
     "Introduzione all'Astrofisica/Galassie/Irradianza di una galassia.md",
-    "Introduzione all'Astrofisica/Galassie/Galassia.md",
+    "Introduzione all'Astrofisica/Galassie/Mezzo interstellare.md",
+    "Introduzione all'Astrofisica/Galassie/Velocità di rotazione.md",
+    "Introduzione all'Astrofisica/Galassie/Isofota.md",
+    "Meccanica Statistica/Funzione di partizione dei Boltzmannioni.md",
+    "Meccanica Statistica/Esercizi/Termodinamica dei bosoni in 3D.md",
     "Meccanica Quantistica/Orbite quantizzate degli elettroni.md",
     "Introduzione alla Fisica Teorica/Trasformazione di simmetria.md",
     "Meccanica Quantistica/Onde piane.md",
@@ -183,15 +192,6 @@
     "Introduzione all'Astrofisica/Stelle/Evoluzione stellare.md",
     "Introduzione all'Astrofisica/Stelle/Sequenza principale.md",
     "Introduzione all'Astrofisica/Stelle/Equilibrio idrostatico.md",
-    "Introduzione all'Astrofisica/Stelle/Fusione nucleare.md",
-    "Introduzione all'Astrofisica/Stelle/Luminosità.md",
-    "Introduzione all'Astrofisica/Stelle/Relitto stellare.md",
-    "Introduzione all'Astrofisica/Stelle/Pressione degenere.md",
-    "Introduzione all'Astrofisica/Stelle/Nana bianca.md",
-    "Introduzione all'Astrofisica/Galassie/Via Lattea.md",
-    "Introduzione all'Astrofisica/Galassie/Velocità di rotazione.md",
-    "Introduzione all'Astrofisica/Galassie/Righe proibite.md",
-    "Introduzione all'Astrofisica/Galassie/Mezzo interstellare.md",
     "Meccanica Statistica/Esercizi",
     "Introduzione all'Astrofisica/Galassie",
     "Introduzione all'Astrofisica/Pianeti",

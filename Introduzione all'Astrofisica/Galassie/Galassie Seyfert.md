@@ -1,0 +1,1 @@
+Le **galassie Seyfert** sono una tipologia di galassia che possiedono una luminosità molto alta e hanno un nucleo galattico attivo (*AGN*, Active Galactic Nucleus). Mostrano linee di emissione ad alta ionizzazione (*broad lines*). Esistono galassie Seyfert di tipo I e tipo II, dove le tipo I sono ad energia più alta.
