@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Introduzione all'Astrofisica/Galassie/Buco nero.md",
+                "file": "Introduzione all'Astrofisica/Cosmologia/Legge di Hubble.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Introduzione all'Astrofisica/Galassie/Buco nero.md",
+                "file": "Introduzione all'Astrofisica/Cosmologia/Legge di Hubble.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Introduzione all'Astrofisica/Galassie/Buco nero.md",
+                "file": "Introduzione all'Astrofisica/Cosmologia/Legge di Hubble.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Introduzione all'Astrofisica/Galassie/Buco nero.md"
+                "file": "Introduzione all'Astrofisica/Cosmologia/Legge di Hubble.md"
               }
             }
           },
@@ -166,8 +166,21 @@
   },
   "active": "e20b63c47645650b",
   "lastOpenFiles": [
-    "Costanti/Constante gravitazionale.md",
+    "Introduzione all'Astrofisica/Misure astronomiche/Spettroscopia.md",
+    "Introduzione all'Astrofisica/Misure astronomiche/Misure di distanza.md",
+    "Introduzione all'Astrofisica/Misure astronomiche/Misure di luminosità.md",
+    "Introduzione all'Astrofisica/Misure astronomiche/Misure di massa stellare.md",
+    "Introduzione all'Astrofisica/Misure astronomiche/Misurazione di lunghezze d'onda.md",
+    "Introduzione all'Astrofisica/Cosmologia/Legge di Hubble.md",
+    "Introduzione all'Astrofisica/Cosmologia/Big Bang.md",
+    "Introduzione all'Astrofisica/Misure astronomiche/Redshift.md",
+    "Introduzione all'Astrofisica/Cosmologia/Principio cosmologico.md",
+    "Introduzione all'Astrofisica/Cosmologia/Espansione dell'universo.md",
+    "Introduzione all'Astrofisica/Disegni/Legge di Hubble.md",
+    "Senza nome.md",
     "Introduzione all'Astrofisica/Galassie/Buco nero.md",
+    "Introduzione all'Astrofisica/Cosmologia",
+    "Costanti/Constante gravitazionale.md",
     "Introduzione all'Astrofisica/Galassie/Quasar.md",
     "Introduzione all'Astrofisica/Galassie/Oggetti superluminali.md",
     "Introduzione all'Astrofisica/Galassie/Galassie Seyfert.md",
@@ -180,18 +193,6 @@
     "Introduzione all'Astrofisica/Galassie/Isofota.md",
     "Meccanica Statistica/Funzione di partizione dei Boltzmannioni.md",
     "Meccanica Statistica/Esercizi/Termodinamica dei bosoni in 3D.md",
-    "Meccanica Quantistica/Orbite quantizzate degli elettroni.md",
-    "Introduzione alla Fisica Teorica/Trasformazione di simmetria.md",
-    "Meccanica Quantistica/Onde piane.md",
-    "Meccanica Quantistica/Oscillatore armonico quantistico.md",
-    "Introduzione all'Astrofisica/Stelle/Nube molecolare.md",
-    "Introduzione all'Astrofisica/Stelle/Stella.md",
-    "Meccanica Statistica/Esercizi/Bosoni in 2D.md",
-    "Meccanica Quantistica/Disuguaglianza di Heisenberg.md",
-    "Meccanica Quantistica/Equazioni di Schroedinger.md",
-    "Introduzione all'Astrofisica/Stelle/Evoluzione stellare.md",
-    "Introduzione all'Astrofisica/Stelle/Sequenza principale.md",
-    "Introduzione all'Astrofisica/Stelle/Equilibrio idrostatico.md",
     "Meccanica Statistica/Esercizi",
     "Introduzione all'Astrofisica/Galassie",
     "Introduzione all'Astrofisica/Pianeti",
@@ -200,7 +201,6 @@
     "Meccanica Quantistica/Disegni",
     "Metodi Matematici della Fisica/Operatori",
     "Introduzione all'Astrofisica/Stelle",
-    "Metodi Matematici della Fisica/Distribuzioni",
-    "Metodi Matematici della Fisica"
+    "Metodi Matematici della Fisica/Distribuzioni"
   ]
 }

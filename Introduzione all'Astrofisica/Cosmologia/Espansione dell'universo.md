@@ -1,0 +1,1 @@
+L'**espansione dell'universo** accade in ogni punto dell'universo. L'universo non si espande *in* nulla: è lo spazio stesso ad espandersi, come afferma la relatività. Di conseguenza, tutti gli oggetti dell'universo si allontanano gli uni dagli altri, aumentando di velocità in base alla loro distanza secondo la [[legge di Hubble]].

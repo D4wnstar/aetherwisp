@@ -1,0 +1,1 @@
+Il **principio cosmologico** afferma che l'universo non abbia un centro. In altre parole, qualunque punto dell'universo può essere considerato come il suo centro senza perdita di coerenza.

@@ -1,0 +1,1 @@
+Il **Big Bang** è l'evento che ha dato inizio all'espansione dell'universo.
