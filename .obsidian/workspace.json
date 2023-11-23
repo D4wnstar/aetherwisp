@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Meccanica Statistica/Concetti/Distribuzione di Fermi-Dirac.md",
+                "file": "Tecniche di Rappresentazione Dati/Stime per distribuzioni non gaussiane.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Meccanica Statistica/Concetti/Distribuzione di Fermi-Dirac.md",
+                "file": "Tecniche di Rappresentazione Dati/Stime per distribuzioni non gaussiane.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Meccanica Statistica/Concetti/Distribuzione di Fermi-Dirac.md",
+                "file": "Tecniche di Rappresentazione Dati/Stime per distribuzioni non gaussiane.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Meccanica Statistica/Concetti/Distribuzione di Fermi-Dirac.md"
+                "file": "Tecniche di Rappresentazione Dati/Stime per distribuzioni non gaussiane.md"
               }
             }
           },
@@ -166,6 +166,9 @@
   },
   "active": "c169a6dc9943a804",
   "lastOpenFiles": [
+    "Introduzione all'Astrofisica/Misure astronomiche/Redshift.md",
+    "Tecniche di Rappresentazione Dati/Stime per distribuzioni non gaussiane.md",
+    "Introduzione all'Astrofisica/Misure astronomiche/Parsec.md",
     "Meccanica Statistica/Concetti/Distribuzione di Fermi-Dirac.md",
     "Excalidraw/Drawing 2023-10-10 15.06.49.excalidraw.md",
     "Introduzione all'Astrofisica/Cosmologia/Legge di Hubble.md",
@@ -175,7 +178,6 @@
     "Introduzione all'Astrofisica/Misure astronomiche/Misure di massa stellare.md",
     "Introduzione all'Astrofisica/Misure astronomiche/Misurazione di lunghezze d'onda.md",
     "Introduzione all'Astrofisica/Cosmologia/Big Bang.md",
-    "Introduzione all'Astrofisica/Misure astronomiche/Redshift.md",
     "Introduzione all'Astrofisica/Cosmologia/Principio cosmologico.md",
     "Introduzione all'Astrofisica/Cosmologia/Espansione dell'universo.md",
     "Introduzione all'Astrofisica/Disegni/Legge di Hubble.md",
@@ -191,8 +193,6 @@
     "Introduzione all'Astrofisica/Galassie/Classi galattiche.md",
     "Introduzione all'Astrofisica/Galassie/Irradianza di una galassia.md",
     "Introduzione all'Astrofisica/Galassie/Mezzo interstellare.md",
-    "Introduzione all'Astrofisica/Galassie/Velocità di rotazione.md",
-    "Introduzione all'Astrofisica/Galassie/Isofota.md",
     "Meccanica Statistica/Esercizi",
     "Introduzione all'Astrofisica/Galassie",
     "Introduzione all'Astrofisica/Pianeti",
