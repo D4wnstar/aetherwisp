@@ -1,1 +1,1 @@
-Il **Big Bang** è l'evento che ha dato inizio all'espansione dell'universo.
+Il **Big Bang** è l'evento che ha dato inizio all'espansione dell'universo. La teoria corrente afferma che all'inizio dell'universo, questo era compresso in uno spazio estremamente piccolo (sebbene non infinitamente piccolo) e caldissimo, da cui il nome *Big Bang caldo*.
