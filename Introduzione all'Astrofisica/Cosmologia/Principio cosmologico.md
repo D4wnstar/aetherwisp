@@ -1,6 +1,7 @@
 Il **principio cosmologico** afferma che l'universo non abbia un centro. In altre parole, qualunque punto dell'universo può essere considerato come il suo centro senza perdita di coerenza. Formalmente, l'universo è
 1. Omogeneo, ossia ogni area dell'universo è equivalente ad ogni altra
 2. Isotropo, ossia non c'è una direzione privilegiata nell'universo
+Questo principio è sperimentalmente valido a distanze molto grandi (>100Mpc).
 
 La teoria della gravità classica ci dà pochi strumenti per capire questo principio. Partendo dall'equazione di Poisson del campo gravitazionale
 $$\nabla^{2}\phi=4\pi G\rho$$
