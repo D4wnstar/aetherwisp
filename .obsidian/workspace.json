@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Introduzione all'Astrofisica/Cosmologia/Equazioni di Friedmann.md",
+                "file": "Tecniche di Rappresentazione Dati/Teorema di Bayes per la stima dei parametri.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Introduzione all'Astrofisica/Cosmologia/Equazioni di Friedmann.md",
+                "file": "Tecniche di Rappresentazione Dati/Teorema di Bayes per la stima dei parametri.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Introduzione all'Astrofisica/Cosmologia/Equazioni di Friedmann.md",
+                "file": "Tecniche di Rappresentazione Dati/Teorema di Bayes per la stima dei parametri.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Introduzione all'Astrofisica/Cosmologia/Equazioni di Friedmann.md"
+                "file": "Tecniche di Rappresentazione Dati/Teorema di Bayes per la stima dei parametri.md"
               }
             }
           },
@@ -164,10 +164,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "c169a6dc9943a804",
+  "active": "11c537cbe31b9c7c",
   "lastOpenFiles": [
-    "Introduzione all'Astrofisica/Cosmologia/Effetto Casimir.md",
     "Introduzione all'Astrofisica/Cosmologia/Equazioni di Friedmann.md",
+    "Tecniche di Rappresentazione Dati/Teorema di Bayes per la stima dei parametri.md",
+    "Introduzione all'Astrofisica/Cosmologia/Effetto Casimir.md",
     "Introduzione all'Astrofisica/Disegni/Effetto Casimir.md",
     "Introduzione all'Astrofisica/Cosmologia/Principio cosmologico.md",
     "Introduzione all'Astrofisica/Cosmologia/Barione.md",
@@ -192,7 +193,6 @@
     "Introduzione all'Astrofisica/Cosmologia",
     "Costanti/Constante gravitazionale.md",
     "Introduzione all'Astrofisica/Galassie/Quasar.md",
-    "Introduzione all'Astrofisica/Galassie/Oggetti superluminali.md",
     "Meccanica Statistica/Esercizi",
     "Introduzione all'Astrofisica/Galassie",
     "Introduzione all'Astrofisica/Pianeti",
