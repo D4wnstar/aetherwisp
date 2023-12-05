@@ -1,1 +1,1 @@
-Un **barione** è l'unità fondamentale della materia ordinaria e possono essere protoni o neutroni.
+Un **barione** è l'unità fondamentale della [[materia]] ordinaria e possono essere protoni e neutroni.
