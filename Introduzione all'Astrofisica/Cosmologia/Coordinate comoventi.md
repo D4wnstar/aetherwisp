@@ -1,0 +1,5 @@
+Le **coordinate comoventi** sono un sistema di riferimento che annulla l'effetto dell'espansione dell'universo. In altre parole, due oggetti misurati in coordinate comoventi restano fermi rispetto l'un l'altro se l'unico loro moto è quello del trascinamento di Hubble. In queste coordinate, gli unici movimenti misurati sono i *moti peculiari*. Senza le coordinate comoventi la velocità di un oggetto è
+$$cZ=H_{0}d+v_{0}$$
+con $v_{0}$ la velocità peculiare, $Z$ il [[redshift]] e $d$ la distanza. Nelle coordinate comoventi il termine $H_{0}d$ svanisce.
+
+Le coordinate comoventi sono dipendenti dalla cosmologia che si usa. In particolare, la cosmologia serve per fare il passaggio da redshift a distanza. Avere una cosmologia significa definire alcuni parametri cosmologici: $H_{0}$, $\Omega_{m}$, $\Omega_{\Lambda}$ e $\Omega_{\kappa}$, con il vincolo che $\Omega_{m}+\Omega_{\Lambda}+\Omega_{\kappa}=1$.
