@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Introduzione all'Astrofisica/Cosmologia/Modello LambdaCDM.md",
+                "file": "Introduzione all'Astrofisica/Cosmologia/Coordinate comoventi.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Introduzione all'Astrofisica/Cosmologia/Modello LambdaCDM.md",
+                "file": "Introduzione all'Astrofisica/Cosmologia/Coordinate comoventi.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Introduzione all'Astrofisica/Cosmologia/Modello LambdaCDM.md",
+                "file": "Introduzione all'Astrofisica/Cosmologia/Coordinate comoventi.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Introduzione all'Astrofisica/Cosmologia/Modello LambdaCDM.md"
+                "file": "Introduzione all'Astrofisica/Cosmologia/Coordinate comoventi.md"
               }
             }
           },
@@ -154,7 +154,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -175,19 +175,19 @@
   },
   "active": "28c3df4371b34061",
   "lastOpenFiles": [
-    "Introduzione all'Astrofisica/Cosmologia/Coordinate comoventi.md",
-    "Introduzione all'Astrofisica/Cosmologia/Modello LambdaCDM.md",
     "Introduzione all'Astrofisica/Cosmologia/Componenti dell'universo.md",
+    "Introduzione all'Astrofisica/Cosmologia/Coordinate comoventi.md",
+    "Introduzione all'Astrofisica/Cosmologia/Equazioni di Friedmann.md",
+    "Introduzione all'Astrofisica/Cosmologia/Espansione dell'universo.md",
+    "Introduzione all'Astrofisica/Cosmologia/Legge di Hubble.md",
+    "Introduzione all'Astrofisica/Cosmologia/Materia.md",
+    "Introduzione all'Astrofisica/Cosmologia/Modello LambdaCDM.md",
+    "Introduzione all'Astrofisica/Cosmologia/Principio cosmologico.md",
     "Introduzione all'Astrofisica/Cosmologia/Radiazione cosmica nelle microonde.md",
+    "Introduzione all'Astrofisica/Cosmologia/Effetto Casimir.md",
     "Introduzione all'Astrofisica/Cosmologia/Barione.md",
     "Tecniche di Rappresentazione Dati/Teorema di Bayes per la stima dei parametri.md",
-    "Introduzione all'Astrofisica/Cosmologia/Principio cosmologico.md",
-    "Introduzione all'Astrofisica/Cosmologia/Materia.md",
-    "Introduzione all'Astrofisica/Cosmologia/Effetto Casimir.md",
     "Introduzione all'Astrofisica/Cosmologia/Big Bang.md",
-    "Introduzione all'Astrofisica/Cosmologia/Legge di Hubble.md",
-    "Introduzione all'Astrofisica/Cosmologia/Espansione dell'universo.md",
-    "Introduzione all'Astrofisica/Cosmologia/Equazioni di Friedmann.md",
     "Introduzione all'Astrofisica/Disegni/Effetto Casimir.md",
     "Introduzione all'Astrofisica/Disegni/Modello Friedmann.md",
     "Meccanica Statistica/Esercizi/Termodinamica dei bosoni in 3D.md",
