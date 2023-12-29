@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "a8e7be8742071ea4",
+        "id": "695a0438865063f2",
         "type": "tabs",
         "children": [
           {
-            "id": "28c3df4371b34061",
+            "id": "b042e07b35701a8c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Introduzione all'Astrofisica/Cosmologia/Coordinate comoventi.md",
+                "file": "Introduzione all'Astrofisica/Misure astronomiche/Sistemi di coordinate/Sistema di coordinate celesti.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "redshift",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Introduzione all'Astrofisica/Cosmologia/Coordinate comoventi.md",
+                "file": "Introduzione all'Astrofisica/Misure astronomiche/Sistemi di coordinate/Sistema di coordinate celesti.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Introduzione all'Astrofisica/Cosmologia/Coordinate comoventi.md",
+                "file": "Introduzione all'Astrofisica/Misure astronomiche/Sistemi di coordinate/Sistema di coordinate celesti.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,16 +125,8 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Introduzione all'Astrofisica/Cosmologia/Coordinate comoventi.md"
+                "file": "Introduzione all'Astrofisica/Misure astronomiche/Sistemi di coordinate/Sistema di coordinate celesti.md"
               }
-            }
-          },
-          {
-            "id": "864cba8e0cc2e337",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {}
             }
           },
           {
@@ -146,7 +138,7 @@
             }
           },
           {
-            "id": "158e1a321513bd01",
+            "id": "5c80b486c9d4de0b",
             "type": "leaf",
             "state": {
               "type": "mathpad-view",
@@ -154,11 +146,11 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 295.5
+    "width": 288.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -173,43 +165,43 @@
       "mathpad:Open Mathpad": false
     }
   },
-  "active": "28c3df4371b34061",
+  "active": "b042e07b35701a8c",
   "lastOpenFiles": [
-    "Introduzione all'Astrofisica/Cosmologia/Componenti dell'universo.md",
+    "Introduzione all'Astrofisica/Misure astronomiche/Sistemi di coordinate/Sistema equatoriale.md",
+    "Introduzione all'Astrofisica/Misure astronomiche/Sistemi di coordinate/Sistema di coordinate supergalattiche.md",
+    "Introduzione all'Astrofisica/Misure astronomiche/Sistemi di coordinate/Sistema di coordinate galattiche.md",
+    "Introduzione all'Astrofisica/Misure astronomiche/Sistemi di coordinate/Sistema di coordinate celesti.md",
+    "Introduzione all'Astrofisica/Misure astronomiche/Coordinate dei corpi celesti.md",
+    "Senza nome.md",
+    "Introduzione all'Astrofisica/Misure astronomiche/Sistemi di coordinate/Sistema altazimutale.md",
+    "Introduzione all'Astrofisica/Misure astronomiche/Sistemi di coordinate",
+    "Introduzione all'Astrofisica/Misure astronomiche/Colore.md",
+    "Metodi Matematici della Fisica/Distribuzioni/Delta di Dirac.md",
+    "Metodi Matematici della Fisica/Operatori/Operatore positivo.md",
+    "Metodi Matematici della Fisica/Spazi di Hilbert/Spazio di Hilbert.md",
+    "Metodi Matematici della Fisica/Operatori/Operatore autoaggiunto.md",
+    "Introduzione all'Astrofisica/Stelle/Evoluzione stellare.md",
     "Introduzione all'Astrofisica/Cosmologia/Coordinate comoventi.md",
-    "Introduzione all'Astrofisica/Cosmologia/Equazioni di Friedmann.md",
-    "Introduzione all'Astrofisica/Cosmologia/Espansione dell'universo.md",
-    "Introduzione all'Astrofisica/Cosmologia/Legge di Hubble.md",
-    "Introduzione all'Astrofisica/Cosmologia/Materia.md",
-    "Introduzione all'Astrofisica/Cosmologia/Modello LambdaCDM.md",
-    "Introduzione all'Astrofisica/Cosmologia/Principio cosmologico.md",
-    "Introduzione all'Astrofisica/Cosmologia/Radiazione cosmica nelle microonde.md",
-    "Introduzione all'Astrofisica/Cosmologia/Effetto Casimir.md",
     "Introduzione all'Astrofisica/Cosmologia/Barione.md",
+    "Algebra Lineare/Traccia.md",
+    "Introduzione all'Astrofisica/Galassie/Mezzo interstellare.md",
+    "Introduzione all'Astrofisica/Stelle/Equazioni della struttura stellare.md",
     "Tecniche di Rappresentazione Dati/Teorema di Bayes per la stima dei parametri.md",
-    "Introduzione all'Astrofisica/Cosmologia/Big Bang.md",
-    "Introduzione all'Astrofisica/Disegni/Effetto Casimir.md",
-    "Introduzione all'Astrofisica/Disegni/Modello Friedmann.md",
-    "Meccanica Statistica/Esercizi/Termodinamica dei bosoni in 3D.md",
     "Tecniche di Rappresentazione Dati/Stime per distribuzioni non gaussiane.md",
-    "Introduzione all'Astrofisica/Misure astronomiche/Redshift.md",
-    "Introduzione all'Astrofisica/Misure astronomiche/Parsec.md",
-    "Meccanica Statistica/Concetti/Distribuzione di Fermi-Dirac.md",
-    "Excalidraw/Drawing 2023-10-10 15.06.49.excalidraw.md",
-    "Introduzione all'Astrofisica/Misure astronomiche/Spettroscopia.md",
-    "Introduzione all'Astrofisica/Misure astronomiche/Misure di distanza.md",
-    "Introduzione all'Astrofisica/Misure astronomiche/Misure di luminosità.md",
-    "Introduzione all'Astrofisica/Misure astronomiche/Misure di massa stellare.md",
-    "Introduzione all'Astrofisica/Misure astronomiche/Misurazione di lunghezze d'onda.md",
-    "Introduzione all'Astrofisica/Cosmologia",
+    "Tecniche di Rappresentazione Dati",
+    "Meccanica Statistica/Soluzioni dell'equazione di Schroedinger per bosoni e fermioni.md",
+    "Meccanica Statistica/Particelle identiche.md",
+    "Meccanica Statistica/Particella libera.md",
+    "Meccanica Statistica/Gas ideale nell'ensemble gran canonico.md",
+    "Meccanica Statistica/Funzione di partizione dei Boltzmannioni.md",
+    "Meccanica Statistica/Esercizi/Termodinamica dei bosoni in 3D.md",
     "Meccanica Statistica/Esercizi",
-    "Introduzione all'Astrofisica/Galassie",
-    "Introduzione all'Astrofisica/Pianeti",
     "Introduzione alla Fisica Teorica",
+    "Introduzione all'Astrofisica/Pianeti",
+    "Introduzione all'Astrofisica/Galassie",
+    "Introduzione all'Astrofisica/Cosmologia",
     "Metodi Matematici della Fisica/Spazi di Hilbert",
-    "Meccanica Quantistica/Disegni",
     "Metodi Matematici della Fisica/Operatori",
-    "Introduzione all'Astrofisica/Stelle",
-    "Metodi Matematici della Fisica/Distribuzioni"
+    "Meccanica Quantistica/Disegni"
   ]
 }
