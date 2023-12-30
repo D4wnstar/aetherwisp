@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Introduzione all'Astrofisica/Misure astronomiche/Sistemi di coordinate/Sistema di coordinate celesti.md",
+                "file": "Introduzione all'Astrofisica/Misure astronomiche/Spettroscopia.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Introduzione all'Astrofisica/Misure astronomiche/Sistemi di coordinate/Sistema di coordinate celesti.md",
+                "file": "Introduzione all'Astrofisica/Misure astronomiche/Spettroscopia.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Introduzione all'Astrofisica/Misure astronomiche/Sistemi di coordinate/Sistema di coordinate celesti.md",
+                "file": "Introduzione all'Astrofisica/Misure astronomiche/Spettroscopia.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Introduzione all'Astrofisica/Misure astronomiche/Sistemi di coordinate/Sistema di coordinate celesti.md"
+                "file": "Introduzione all'Astrofisica/Misure astronomiche/Spettroscopia.md"
               }
             }
           },
@@ -167,15 +167,20 @@
   },
   "active": "b042e07b35701a8c",
   "lastOpenFiles": [
+    "Introduzione all'Astrofisica/Misure astronomiche/Magnitudine.md",
+    "Introduzione all'Astrofisica/Misure astronomiche/Misurazione di lunghezze d'onda.md",
+    "Introduzione all'Astrofisica/Stelle/Luminosità.md",
+    "Introduzione all'Astrofisica/Misure astronomiche/Colore.md",
+    "Introduzione all'Astrofisica/Misure astronomiche/Sistemi di coordinate/Sistema di coordinate celesti.md",
+    "Introduzione all'Astrofisica/Misure astronomiche/Spettroscopia.md",
+    "Introduzione all'Astrofisica/Misure astronomiche/Misure di distanza.md",
     "Introduzione all'Astrofisica/Misure astronomiche/Sistemi di coordinate/Sistema equatoriale.md",
     "Introduzione all'Astrofisica/Misure astronomiche/Sistemi di coordinate/Sistema di coordinate supergalattiche.md",
     "Introduzione all'Astrofisica/Misure astronomiche/Sistemi di coordinate/Sistema di coordinate galattiche.md",
-    "Introduzione all'Astrofisica/Misure astronomiche/Sistemi di coordinate/Sistema di coordinate celesti.md",
     "Introduzione all'Astrofisica/Misure astronomiche/Coordinate dei corpi celesti.md",
     "Senza nome.md",
     "Introduzione all'Astrofisica/Misure astronomiche/Sistemi di coordinate/Sistema altazimutale.md",
     "Introduzione all'Astrofisica/Misure astronomiche/Sistemi di coordinate",
-    "Introduzione all'Astrofisica/Misure astronomiche/Colore.md",
     "Metodi Matematici della Fisica/Distribuzioni/Delta di Dirac.md",
     "Metodi Matematici della Fisica/Operatori/Operatore positivo.md",
     "Metodi Matematici della Fisica/Spazi di Hilbert/Spazio di Hilbert.md",
@@ -190,11 +195,6 @@
     "Tecniche di Rappresentazione Dati/Stime per distribuzioni non gaussiane.md",
     "Tecniche di Rappresentazione Dati",
     "Meccanica Statistica/Soluzioni dell'equazione di Schroedinger per bosoni e fermioni.md",
-    "Meccanica Statistica/Particelle identiche.md",
-    "Meccanica Statistica/Particella libera.md",
-    "Meccanica Statistica/Gas ideale nell'ensemble gran canonico.md",
-    "Meccanica Statistica/Funzione di partizione dei Boltzmannioni.md",
-    "Meccanica Statistica/Esercizi/Termodinamica dei bosoni in 3D.md",
     "Meccanica Statistica/Esercizi",
     "Introduzione alla Fisica Teorica",
     "Introduzione all'Astrofisica/Pianeti",
