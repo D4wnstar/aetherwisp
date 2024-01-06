@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Introduzione all'Astrofisica/Misure astronomiche/Spettroscopia.md",
+                "file": "Metodi Matematici della Fisica/Analisi Complessa/Singolarità isolata.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Introduzione all'Astrofisica/Misure astronomiche/Spettroscopia.md",
+                "file": "Metodi Matematici della Fisica/Analisi Complessa/Singolarità isolata.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Introduzione all'Astrofisica/Misure astronomiche/Spettroscopia.md",
+                "file": "Metodi Matematici della Fisica/Analisi Complessa/Singolarità isolata.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Introduzione all'Astrofisica/Misure astronomiche/Spettroscopia.md"
+                "file": "Metodi Matematici della Fisica/Analisi Complessa/Singolarità isolata.md"
               }
             }
           },
@@ -167,12 +167,22 @@
   },
   "active": "b042e07b35701a8c",
   "lastOpenFiles": [
+    "Metodi Matematici della Fisica/Analisi Complessa/Teorema di Picard.md",
+    "Metodi Matematici della Fisica/Analisi Complessa/Singolarità isolata.md",
+    "Metodi Matematici della Fisica/Distribuzioni/Delta di Dirac.md",
+    "Metodi Matematici della Fisica/Analisi Complessa",
+    "Introduzione all'Astrofisica/Galassie/Quasar.md",
+    "Introduzione all'Astrofisica/Pianeti/Bolide.md",
+    "Introduzione all'Astrofisica/Pianeti/Asteroide.md",
+    "Introduzione all'Astrofisica/Pianeti/Meteorite.md",
+    "Introduzione all'Astrofisica/Galassie/Galassie Seyfert.md",
+    "Introduzione all'Astrofisica/Galassie/Buco nero.md",
+    "Introduzione all'Astrofisica/Misure astronomiche/Spettroscopia.md",
     "Introduzione all'Astrofisica/Misure astronomiche/Magnitudine.md",
     "Introduzione all'Astrofisica/Misure astronomiche/Misurazione di lunghezze d'onda.md",
     "Introduzione all'Astrofisica/Stelle/Luminosità.md",
     "Introduzione all'Astrofisica/Misure astronomiche/Colore.md",
     "Introduzione all'Astrofisica/Misure astronomiche/Sistemi di coordinate/Sistema di coordinate celesti.md",
-    "Introduzione all'Astrofisica/Misure astronomiche/Spettroscopia.md",
     "Introduzione all'Astrofisica/Misure astronomiche/Misure di distanza.md",
     "Introduzione all'Astrofisica/Misure astronomiche/Sistemi di coordinate/Sistema equatoriale.md",
     "Introduzione all'Astrofisica/Misure astronomiche/Sistemi di coordinate/Sistema di coordinate supergalattiche.md",
@@ -181,27 +191,17 @@
     "Senza nome.md",
     "Introduzione all'Astrofisica/Misure astronomiche/Sistemi di coordinate/Sistema altazimutale.md",
     "Introduzione all'Astrofisica/Misure astronomiche/Sistemi di coordinate",
-    "Metodi Matematici della Fisica/Distribuzioni/Delta di Dirac.md",
     "Metodi Matematici della Fisica/Operatori/Operatore positivo.md",
     "Metodi Matematici della Fisica/Spazi di Hilbert/Spazio di Hilbert.md",
     "Metodi Matematici della Fisica/Operatori/Operatore autoaggiunto.md",
     "Introduzione all'Astrofisica/Stelle/Evoluzione stellare.md",
-    "Introduzione all'Astrofisica/Cosmologia/Coordinate comoventi.md",
-    "Introduzione all'Astrofisica/Cosmologia/Barione.md",
-    "Algebra Lineare/Traccia.md",
-    "Introduzione all'Astrofisica/Galassie/Mezzo interstellare.md",
-    "Introduzione all'Astrofisica/Stelle/Equazioni della struttura stellare.md",
-    "Tecniche di Rappresentazione Dati/Teorema di Bayes per la stima dei parametri.md",
-    "Tecniche di Rappresentazione Dati/Stime per distribuzioni non gaussiane.md",
     "Tecniche di Rappresentazione Dati",
-    "Meccanica Statistica/Soluzioni dell'equazione di Schroedinger per bosoni e fermioni.md",
     "Meccanica Statistica/Esercizi",
     "Introduzione alla Fisica Teorica",
     "Introduzione all'Astrofisica/Pianeti",
     "Introduzione all'Astrofisica/Galassie",
     "Introduzione all'Astrofisica/Cosmologia",
     "Metodi Matematici della Fisica/Spazi di Hilbert",
-    "Metodi Matematici della Fisica/Operatori",
-    "Meccanica Quantistica/Disegni"
+    "Metodi Matematici della Fisica/Operatori"
   ]
 }

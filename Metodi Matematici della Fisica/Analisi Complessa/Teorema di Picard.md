@@ -1,0 +1,1 @@
+Sia $f(z)$ una funzione ad argomento complesso con una [[Singolarità isolata#Singolarità essenziali|singolarità essenziale]] in $z_0$. Allora preso un intorno $I$ di $z_{0}$, per qualsiasi valore $\alpha\in\mathbb{C}$ eccetto al più un valore speciale, esistono infiniti punti di $I$ nei quali vale $f(z) = \alpha$.
