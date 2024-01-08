@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "695a0438865063f2",
+        "id": "2aa6cdeab33edc7a",
         "type": "tabs",
         "children": [
           {
-            "id": "b042e07b35701a8c",
+            "id": "d7ff903881dc8ee0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Metodi Matematici della Fisica/Analisi Complessa/Singolarità isolata.md",
+                "file": "Metodi Matematici della Fisica/Analisi di Fourier/Serie di Fourier.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Metodi Matematici della Fisica/Analisi Complessa/Singolarità isolata.md",
+                "file": "Metodi Matematici della Fisica/Analisi di Fourier/Serie di Fourier.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Metodi Matematici della Fisica/Analisi Complessa/Singolarità isolata.md",
+                "file": "Metodi Matematici della Fisica/Analisi di Fourier/Serie di Fourier.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Metodi Matematici della Fisica/Analisi Complessa/Singolarità isolata.md"
+                "file": "Metodi Matematici della Fisica/Analisi di Fourier/Serie di Fourier.md"
               }
             }
           },
@@ -146,7 +146,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -165,43 +165,43 @@
       "mathpad:Open Mathpad": false
     }
   },
-  "active": "b042e07b35701a8c",
+  "active": "d7ff903881dc8ee0",
   "lastOpenFiles": [
-    "Metodi Matematici della Fisica/Analisi Complessa/Teorema di Picard.md",
+    "Metodi Matematici della Fisica/Analisi di Fourier/Serie di Fourier.md",
+    "Proprietà generali/Funzione generalmente continua.md",
+    "Proprietà generali",
+    "Analisi reale/Equazioni differenziali/Equazioni differenziali parziali/Equazione di d'Alembert.md",
+    "Metodi Matematici della Fisica/Analisi di Fourier",
     "Metodi Matematici della Fisica/Analisi Complessa/Singolarità isolata.md",
-    "Metodi Matematici della Fisica/Distribuzioni/Delta di Dirac.md",
-    "Metodi Matematici della Fisica/Analisi Complessa",
-    "Introduzione all'Astrofisica/Galassie/Quasar.md",
-    "Introduzione all'Astrofisica/Pianeti/Bolide.md",
-    "Introduzione all'Astrofisica/Pianeti/Asteroide.md",
-    "Introduzione all'Astrofisica/Pianeti/Meteorite.md",
-    "Introduzione all'Astrofisica/Galassie/Galassie Seyfert.md",
-    "Introduzione all'Astrofisica/Galassie/Buco nero.md",
-    "Introduzione all'Astrofisica/Misure astronomiche/Spettroscopia.md",
-    "Introduzione all'Astrofisica/Misure astronomiche/Magnitudine.md",
-    "Introduzione all'Astrofisica/Misure astronomiche/Misurazione di lunghezze d'onda.md",
-    "Introduzione all'Astrofisica/Stelle/Luminosità.md",
-    "Introduzione all'Astrofisica/Misure astronomiche/Colore.md",
-    "Introduzione all'Astrofisica/Misure astronomiche/Sistemi di coordinate/Sistema di coordinate celesti.md",
-    "Introduzione all'Astrofisica/Misure astronomiche/Misure di distanza.md",
-    "Introduzione all'Astrofisica/Misure astronomiche/Sistemi di coordinate/Sistema equatoriale.md",
-    "Introduzione all'Astrofisica/Misure astronomiche/Sistemi di coordinate/Sistema di coordinate supergalattiche.md",
-    "Introduzione all'Astrofisica/Misure astronomiche/Sistemi di coordinate/Sistema di coordinate galattiche.md",
-    "Introduzione all'Astrofisica/Misure astronomiche/Coordinate dei corpi celesti.md",
-    "Senza nome.md",
-    "Introduzione all'Astrofisica/Misure astronomiche/Sistemi di coordinate/Sistema altazimutale.md",
-    "Introduzione all'Astrofisica/Misure astronomiche/Sistemi di coordinate",
-    "Metodi Matematici della Fisica/Operatori/Operatore positivo.md",
+    "Analisi reale/Equazioni differenziali/Equazioni differenziali parziali",
+    "Analisi reale/Equazioni differenziali",
     "Metodi Matematici della Fisica/Spazi di Hilbert/Spazio di Hilbert.md",
+    "Introduzione alla Fisica Teorica/Trasformazione di simmetria.md",
+    "Metodi Matematici della Fisica/Analisi Complessa/Teorema dei residui.md",
+    "Tecniche di Rappresentazione Dati/Teorema di Bayes per la stima dei parametri.md",
+    "Tecniche di Rappresentazione Dati/Stime per distribuzioni non gaussiane.md",
+    "Metodi di Trattamento delle Immagini/Operazioni sulle immagini.md",
+    "Metodi di Trattamento delle Immagini/Vettore di informazione elettromagnetico.md",
+    "Metodi di Trattamento delle Immagini/Definizione di immagine.md",
+    "Metodi Matematici della Fisica/Analisi Complessa/Residuo.md",
+    "Metodi Matematici della Fisica/Analisi Complessa/Lemma di Jordan.md",
+    "Metodi Matematici della Fisica/Analisi Complessa/Teorema di Liouville.md",
+    "Metodi Matematici della Fisica/Analisi Complessa/Teorema di Picard.md",
+    "Metodi Matematici della Fisica/Analisi Complessa/Teorema fondamentale dell'algebra.md",
+    "Metodi Matematici della Fisica/Distribuzioni/Delta di Dirac.md",
     "Metodi Matematici della Fisica/Operatori/Operatore autoaggiunto.md",
-    "Introduzione all'Astrofisica/Stelle/Evoluzione stellare.md",
+    "Metodi Matematici della Fisica/Operatori/Operatore positivo.md",
+    "Metodi Matematici della Fisica/Analisi Complessa/Funzione intera.md",
+    "Metodi Matematici della Fisica/Analisi Complessa/Funzione analitica.md",
+    "Metodi Matematici della Fisica/Analisi Complessa/Funzione meromorfa.md",
+    "Analisi reale/Integrali/Kurzweil-Henstock/Convergenza assoluta integrale.md",
+    "Analisi reale/Integrali/Kurzweil-Henstock/Criterio del confronto integrale.md",
+    "Analisi reale/Integrali/Kurzweil-Henstock/Criterio di convergenza di Cauchy.md",
+    "Metodi Matematici della Fisica/Analisi Complessa",
+    "Introduzione all'Astrofisica/Misure astronomiche/Sistemi di coordinate",
     "Tecniche di Rappresentazione Dati",
     "Meccanica Statistica/Esercizi",
     "Introduzione alla Fisica Teorica",
-    "Introduzione all'Astrofisica/Pianeti",
-    "Introduzione all'Astrofisica/Galassie",
-    "Introduzione all'Astrofisica/Cosmologia",
-    "Metodi Matematici della Fisica/Spazi di Hilbert",
-    "Metodi Matematici della Fisica/Operatori"
+    "Introduzione all'Astrofisica/Pianeti"
   ]
 }

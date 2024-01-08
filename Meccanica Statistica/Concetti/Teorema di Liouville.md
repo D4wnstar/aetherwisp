@@ -11,7 +11,7 @@ $$\begin{align}-\frac{d}{dt}\int_{\omega}\rho(q,p,t)dp^{3N}dq^{3N}&=- \frac{d}{d
 &=\int_{\omega}\left[\nabla\cdot(\rho\vec{v})+\frac{\partial \rho }{\partial t} \right]\\
 &=0
 \end{align}$$
-definendo $\int_{\omega}\rho d\omega$ l'integrale sullo spazio delle fasi e usando il [[teorema della divergenza]].
+definendo $\int_{\omega}\rho d\omega$ l'integrale sullo spazio delle fasi e usando il [[Teorema della divergenza]].
 
 Prendo ora un $\omega$ arbitrario infinitesimo.
 $$\begin{align}0&=\left[\nabla\cdot(\rho\vec{v})+\frac{\partial \rho }{\partial t}\right]=\sum\limits_{i=1}^{3N}\left[\frac{\partial }{\partial q_{i}}(\rho\dot{q}_{i})+\frac{\partial }{\partial p_{i}}(\rho\dot{p}_{i}) \right]\\

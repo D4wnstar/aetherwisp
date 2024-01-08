@@ -1,5 +1,5 @@
 ## Onda non dipendente dal tempo
-Considero un'onda piana $\psi_{p}(x)=A_{p}e^{\frac{i}{\hbar}px}$ e la descrivo come [[prodotto scalare]]
+Considero un'onda piana $\psi_{p}(x)=A_{p}e^{\frac{i}{\hbar}px}$ e la descrivo come [[Prodotto scalare]]
 $$\psi_{p}(x)=\langle x|\psi_{p}\rangle=\langle x|p\rangle$$
 abbreviando $\psi_{p}$ a $p$. Allora trovo il prodotto scalare tra due onde
 $$\begin{align}

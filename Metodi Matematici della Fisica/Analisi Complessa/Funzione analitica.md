@@ -1,0 +1,1 @@
+Una funzione ad argomento complesso $f(z)$ si dice **analitica** od **olomorfa** in $z_{0}$ se è derivabile in senso complesso con derivata continua in un intorno di un punto $z_{0}$. È sostanzialmente l'equivalente complesso di una funzione reale di classe $C^{1}$.

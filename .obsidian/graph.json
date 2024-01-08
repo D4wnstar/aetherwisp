@@ -8,7 +8,7 @@
   "collapse-color-groups": true,
   "colorGroups": [
     {
-      "query": "path:\"Introduzione all'Astrofisica\"  ",
+      "query": "path:\"Introduzione all'Astrofisica\"",
       "color": {
         "a": 1,
         "rgb": 5401056
@@ -59,14 +59,14 @@
   ],
   "collapse-display": true,
   "showArrow": false,
-  "textFadeMultiplier": 0,
-  "nodeSizeMultiplier": 1.00598958333333,
+  "textFadeMultiplier": -0.6,
+  "nodeSizeMultiplier": 1,
   "lineSizeMultiplier": 1,
   "collapse-forces": true,
-  "centerStrength": 0.520833333333333,
+  "centerStrength": 0.518713248970312,
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.6587950466887301,
+  "scale": 0.292797798528324,
   "close": false
 }
