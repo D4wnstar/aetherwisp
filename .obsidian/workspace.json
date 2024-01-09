@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Metodi Matematici della Fisica/Analisi di Fourier/Serie di Fourier.md",
+                "file": "Introduzione all'Astrofisica/Galassie/Mezzo interstellare.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Metodi Matematici della Fisica/Analisi di Fourier/Serie di Fourier.md",
+                "file": "Introduzione all'Astrofisica/Galassie/Mezzo interstellare.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Metodi Matematici della Fisica/Analisi di Fourier/Serie di Fourier.md",
+                "file": "Introduzione all'Astrofisica/Galassie/Mezzo interstellare.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Metodi Matematici della Fisica/Analisi di Fourier/Serie di Fourier.md"
+                "file": "Introduzione all'Astrofisica/Galassie/Mezzo interstellare.md"
               }
             }
           },
@@ -146,7 +146,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -160,13 +160,33 @@
       "daily-notes:Apri nota del giorno": false,
       "templates:Inserisci modello": false,
       "command-palette:Apri riquadro comandi": false,
+      "mathpad:Open Mathpad": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
-      "mathpad:Open Mathpad": false
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
   "active": "d7ff903881dc8ee0",
   "lastOpenFiles": [
+    "Introduzione all'Astrofisica/Galassie/Via Lattea.md",
+    "Introduzione all'Astrofisica/Galassie/Galassia.md",
+    "Introduzione all'Astrofisica/Stelle/Ammasso stellare.md",
+    "Introduzione all'Astrofisica/Galassie/Mezzo interstellare.md",
+    "Introduzione all'Astrofisica/Stelle/Evoluzione stellare.md",
+    "Introduzione all'Astrofisica/Stelle/Stella.md",
+    "Introduzione all'Astrofisica/Disegni/Diagramma Trumpler.md",
+    "Introduzione all'Astrofisica/Misure astronomiche/Parsec.md",
+    "Introduzione all'Astrofisica/Misure astronomiche/Misurazione di lunghezze d'onda.md",
+    "Introduzione all'Astrofisica/Misure astronomiche/Misure di distanza.md",
+    "Introduzione all'Astrofisica/Misure astronomiche/Unità astronomica.md",
+    "Introduzione all'Astrofisica/Misure astronomiche/Righe spettrali.md",
+    "Meccanica Quantistica/Disuguaglianza di Heisenberg.md",
+    "Meccanica Quantistica/Concetti/Osservabile.md",
+    "Meccanica Quantistica/Misure di osservabili.md",
+    "Meccanica Quantistica/Concetti/Notazione Braket.md",
+    "Introduzione all'Astrofisica/Disegni/Righe spettrali.md",
+    "Introduzione all'Astrofisica/Misure astronomiche/Redshift.md",
+    "Introduzione all'Astrofisica/Misure astronomiche/Spettro continuo.md",
+    "Introduzione all'Astrofisica/Misure astronomiche/Coordinate dei corpi celesti.md",
     "Metodi Matematici della Fisica/Analisi di Fourier/Serie di Fourier.md",
     "Proprietà generali/Funzione generalmente continua.md",
     "Proprietà generali",
@@ -177,26 +197,6 @@
     "Analisi reale/Equazioni differenziali",
     "Metodi Matematici della Fisica/Spazi di Hilbert/Spazio di Hilbert.md",
     "Introduzione alla Fisica Teorica/Trasformazione di simmetria.md",
-    "Metodi Matematici della Fisica/Analisi Complessa/Teorema dei residui.md",
-    "Tecniche di Rappresentazione Dati/Teorema di Bayes per la stima dei parametri.md",
-    "Tecniche di Rappresentazione Dati/Stime per distribuzioni non gaussiane.md",
-    "Metodi di Trattamento delle Immagini/Operazioni sulle immagini.md",
-    "Metodi di Trattamento delle Immagini/Vettore di informazione elettromagnetico.md",
-    "Metodi di Trattamento delle Immagini/Definizione di immagine.md",
-    "Metodi Matematici della Fisica/Analisi Complessa/Residuo.md",
-    "Metodi Matematici della Fisica/Analisi Complessa/Lemma di Jordan.md",
-    "Metodi Matematici della Fisica/Analisi Complessa/Teorema di Liouville.md",
-    "Metodi Matematici della Fisica/Analisi Complessa/Teorema di Picard.md",
-    "Metodi Matematici della Fisica/Analisi Complessa/Teorema fondamentale dell'algebra.md",
-    "Metodi Matematici della Fisica/Distribuzioni/Delta di Dirac.md",
-    "Metodi Matematici della Fisica/Operatori/Operatore autoaggiunto.md",
-    "Metodi Matematici della Fisica/Operatori/Operatore positivo.md",
-    "Metodi Matematici della Fisica/Analisi Complessa/Funzione intera.md",
-    "Metodi Matematici della Fisica/Analisi Complessa/Funzione analitica.md",
-    "Metodi Matematici della Fisica/Analisi Complessa/Funzione meromorfa.md",
-    "Analisi reale/Integrali/Kurzweil-Henstock/Convergenza assoluta integrale.md",
-    "Analisi reale/Integrali/Kurzweil-Henstock/Criterio del confronto integrale.md",
-    "Analisi reale/Integrali/Kurzweil-Henstock/Criterio di convergenza di Cauchy.md",
     "Metodi Matematici della Fisica/Analisi Complessa",
     "Introduzione all'Astrofisica/Misure astronomiche/Sistemi di coordinate",
     "Tecniche di Rappresentazione Dati",
