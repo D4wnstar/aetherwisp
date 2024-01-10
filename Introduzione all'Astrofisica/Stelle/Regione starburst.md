@@ -1,0 +1,3 @@
+Una **regione starburst** è una regione dello spazio dove si misura in un'attività di formazione stellare molto più alta della media osservata per quel genere di regione, processo appunto chiamato *starburst*.
+
+Gli starburst in genere accadono in [[nebulosa|nebulose]] e [[Galassia|galassie]]. Quest'ultime vengono chiamate [[Galassia starburst|galassie starburst]] e presentano tassi di formazioni molto elevati in tutta la galassia, anziché solo una zona ristretta.

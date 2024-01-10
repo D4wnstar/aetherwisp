@@ -12,7 +12,7 @@ La *funzione luminosità di Schechter* ci dà un'approssimazione della quantità
 $$\Phi(L)dL=\Phi_{\star}\left(\frac{L}{L_{\star}}\right)^{\alpha}\exp\left(- \frac{L}{L_{\star}}\right) \frac{dL}{L_{\star}}$$
 con $L_{\star}$ è la luminosità galattica caratteristica e $\Phi_{\star}$ è la normalizzazione.
 
-Si trova che la luminosità $L$ è proporzionale alla [[velocità di rotazione]] alla quarta
+Si trova che la luminosità $L$ è proporzionale alla [[Rotazione di una galassia]] alla quarta
 $$L\propto v^{4}$$
 Possiamo misurare l'irradianza di tutta la galassia come integrale di luminosità per "anelli" della galassia
 $$I(r)=\int_{0}^{\infty}I(0)2\pi rdr$$

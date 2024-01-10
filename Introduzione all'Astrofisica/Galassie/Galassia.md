@@ -1,6 +1,6 @@
-Una **galassia** è un sistema di [[stella|stelle]], [[Relitto stellare|relitti stellari]], [[mezzo interstellare]], polvere e (teoricamente) materia oscura legati fra loro dalla gravità.
+Una **galassia** è un sistema di [[stella|stelle]], [[Relitto stellare|relitti stellari]], [[mezzo interstellare]] e (teoricamente) materia oscura legati fra loro dalla gravità.
 
-Le galassie vengono categorizzate in [[classi galattiche]] in base alla loro morfologia apparente. Diverse classi hanno diverse caratteristiche morfologiche, ma tutte hanno un nucleo centrale con una densità più alta di stelle chiamato *bulge*.
+Le galassie vengono categorizzate in [[classi galattiche]] in base alla loro morfologia apparente. Diverse classi hanno diverse caratteristiche morfologiche, ma tutte hanno una rigonfiamento centrale chiamato *bulge*.
 
 All'apparenza, una galassia lontana con bulge molto luminoso può apparire come una stella ai telescopi (ossia un punto luminoso). Riconosciamo che sono galassie grazie alle caratteristiche anomale che hanno le linee di emissione dello spettro rispetto a quelle di una stella. La classificazione delle linee di emissione ottiche è la seguente:
 1. **Broad lines**: le broad lines sono linee di emissione che richiedono velocità di rotazione nell'ordine dei 10,000km/s e dunque non possono essere linee di espansione termica in quanto una linea del genere richiederebbe temperature nel milione di Kelvin e qualunque gas è ionizzato a quelle temperature. Le broad lines sono tutte [[Righe proibite|righe permesse]]. Sono create da galassie Seyfert di tipo 1.

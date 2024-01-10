@@ -1,4 +1,0 @@
-La velocità di rotazione $v$ ad un certo raggio $r$ ci permette di calcolare indirettamente la massa di una galassia.
-$$\frac{v^{2}}{r}=a=\frac{F}{m_{ruota}}=G \frac{Mm_{ruota}}{r^{2}} \frac{1}{m_{ruota}}$$
-$$v=\sqrt{\frac{GM(r)}{r}}$$
-che è la **velocità di rotazione** di una [[galassia]] nell'approssimazione di campo debole della relatività generale o, in altre parole, la gravità newtoniana. Facendo misure di massa (con errori ampi), possiamo fare un grafico con la velocità misurata e quella stimata dalla formula e troviamo che a velocità alte, le nostre stime sono consistentemente sempre più basse del valore misurato. Dunque dev'esserci qualche fattore che aumenta la velocità di rotazione di una galassia. Ad oggi si pensa che sia la materia oscura.
