@@ -12,3 +12,11 @@ Valgono le seguenti proprietà
 3. se $f(x)$ è pari, allora $\alpha_{0}=\frac{1}{L}\int_{0}^{L}f(x)dx$, $\alpha_{n}=\frac{2}{L}\int_{0}^{L}f(x)\cos\left(\frac{n\pi}{L}x\right)dx$ e $\beta_{n}=0$; un risultato analogo vale se $f(x)$ è dispari
 4. se vale $\sum\limits_{n}|\alpha_{n}|+\sum\limits_{n}|\beta_{n}|<\infty$, allora $f(x)$ è continua e $f(L)=f(-L)$. Questo segue dalla definizione di convergenza totale
 
+La funzione $f$ così trovata può essere vista intuitivamente come una "combinazione lineare infinita" di una "base" costituita dai vettori
+$$\left[1,\;\cos\left(\frac{n\pi}{L}x\right),\;\sin\left(\frac{n\pi}{L}x\right)\right]\quad\forall n\in\mathbb{N}$$
+Possiamo anche normalizzare questi vettori
+$$\left[\frac{1}{\sqrt{2L}},\; \frac{1}{\sqrt{L}} \cos\left(\frac{n\pi}{L}x\right),\; \frac{1}{\sqrt{L}}\sin\left(\frac{n\pi}{L}x\right)\right]\quad\forall n\in\mathbb{N}$$
+e ottenere un sistema ortonormale, dove vale $(f^{(m)}, f^{(n)})=\delta_{mn}$, avendo segnato $f^{(n)}$ come la generica funzione. Allora $f$ vale
+$$f=\sum\limits_{n=0}^{\infty}a_{n}f^{(n)}$$
+con $a_{0}=\sqrt{2L}\alpha_{0}$, $a_{2n}=\sqrt{L}\alpha_{n}$ e $a_{2n-1}=\sqrt{L}\beta_{n}$. È anche possibile invertire la relazione per ottenere i coefficienti dalle funzione
+$$a_{n}=(f^{(n)},f)$$
