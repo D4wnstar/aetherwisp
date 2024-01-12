@@ -17,6 +17,6 @@ $$\left[1,\;\cos\left(\frac{n\pi}{L}x\right),\;\sin\left(\frac{n\pi}{L}x\right)\
 Possiamo anche normalizzare questi vettori
 $$\left[\frac{1}{\sqrt{2L}},\; \frac{1}{\sqrt{L}} \cos\left(\frac{n\pi}{L}x\right),\; \frac{1}{\sqrt{L}}\sin\left(\frac{n\pi}{L}x\right)\right]\quad\forall n\in\mathbb{N}$$
 e ottenere un sistema ortonormale, dove vale $(f^{(m)}, f^{(n)})=\delta_{mn}$, avendo segnato $f^{(n)}$ come la generica funzione. Allora $f$ vale
-$$f=\sum\limits_{n=0}^{\infty}a_{n}f^{(n)}$$
+$$f=\sum\limits_{n=0}^{\infty}a_{n}f_{n}$$
 con $a_{0}=\sqrt{2L}\alpha_{0}$, $a_{2n}=\sqrt{L}\alpha_{n}$ e $a_{2n-1}=\sqrt{L}\beta_{n}$. È anche possibile invertire la relazione per ottenere i coefficienti dalle funzione
-$$a_{n}=(f^{(n)},f)$$
+$$a_{n}=(f_{n},f)$$

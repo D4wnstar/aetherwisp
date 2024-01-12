@@ -5,10 +5,16 @@ Si denota $\langle v|w \rangle$ il **prodotto scalare** tra due variabili (usand
 4. $\langle v|v\rangle=0\Leftrightarrow|v\rangle=0$
 5. $\langle w|v\rangle\leq||w||\;||v||$ (detta **disuguaglianza di Cauchy-Schwarz**)
 6. $\langle v|w\rangle=\overline{\langle w|v\rangle}$
+7. è continuo, ossia presa una successione $\{x_{n}\}$ convergente a $x\in H$ con $H$ uno [[spazio di Hilbert]], vale che per ogni $y\in H$ si ha $\lim\limits_{n \rightarrow \infty}(y,x_{n})=(y,x)$
 
 Si può definire anche su spazi di funzioni come $L^{2}(\mathbb{R},dx)$. Allora presi due vettori $|\psi\rangle,|\phi\rangle$ in questo spazio vale
 $$\langle\phi|\psi\rangle=\int_{\mathbb{R}}\overline{\phi(x)}\psi(x)$$
 $$\langle\psi|\psi\rangle=\int_{\mathbb{R}}|\psi(x)|^{2}$$
+La continuità vale anche qui, ossia
+$$\int_{I}\overline{\phi(x)}\psi_{n}(x)dx \rightarrow \int_{I}\overline{\phi(x)}\psi_{n}(x)dx$$
+Se l'intervallo $I$ è misurabile si può prendere $\phi(x)=1$ e si ha
+$$\int_{I}\psi_{n}(x)dx\rightarrow\int_{I}\psi(x)dx$$
+
 Il prodotto scalare può anche essere applicato su matrici. Prendiamo $\hat{A},\hat{B}\in M_{2}(\mathbb{C})$ matrici $2\times2$. Considero la *traccia* della matrice $Tr(\hat{A})=\sum\limits_{i=1}^{n}A_{ii}$. E' importante notare che la traccia è *unica* e non cambia *in base alla rappresentazione* della matrice (ossia la base rispetto al quale è espressa):
 $$Tr\hat{A}=\sum\limits_{i=1}^{n}\langle\psi_{i}|\hat{A}\psi_{i}\rangle\;\forall\;\mbox{base o.n.}\{|\psi_{i}\rangle\}_{i=1}^{n}\in\mathbb{C}^{n}$$
 La matrice $\hat{U}=[\langle \psi_{k}|\phi_{i}\rangle]$ è unitaria, ossia $\hat{U}\hat{U}^{\dagger}=\hat{\mathbb{1}}=\hat{U}^{\dagger}\hat{U}$.

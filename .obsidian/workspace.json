@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Metodi Matematici della Fisica/Analisi di Fourier/Teorema di Fourier.md",
+                "file": "Metodi Matematici della Fisica/Analisi di Fourier/Serie di Fourier.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Metodi Matematici della Fisica/Analisi di Fourier/Teorema di Fourier.md",
+                "file": "Metodi Matematici della Fisica/Analisi di Fourier/Serie di Fourier.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Metodi Matematici della Fisica/Analisi di Fourier/Teorema di Fourier.md",
+                "file": "Metodi Matematici della Fisica/Analisi di Fourier/Serie di Fourier.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Metodi Matematici della Fisica/Analisi di Fourier/Teorema di Fourier.md"
+                "file": "Metodi Matematici della Fisica/Analisi di Fourier/Serie di Fourier.md"
               }
             }
           },
@@ -144,9 +144,17 @@
               "type": "mathpad-view",
               "state": {}
             }
+          },
+          {
+            "id": "ce669775a59f4571",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -167,32 +175,32 @@
   },
   "active": "d7ff903881dc8ee0",
   "lastOpenFiles": [
-    "Algebra lineare/Sistema completo.md",
-    "Metodi Matematici della Fisica/Analisi di Fourier/Teorema di Fourier.md",
-    "Metodi Matematici della Fisica/Spazi di Hilbert/Spazi Lp.md",
-    "Algebra lineare/Norma.md",
-    "Algebra lineare/Prodotto scalare.md",
-    "Metodi Matematici della Fisica/Spazi di Hilbert/Disuguaglianza di Schwarz-Hölder.md",
-    "Metodi Matematici della Fisica/Spazi di Hilbert/Spazio di Hilbert.md",
-    "Metodi Matematici della Fisica/Analisi di Fourier/Serie di Fourier.md",
+    "Metodi Matematici della Fisica/Spazi di Hilbert/Spazi lp.md",
     "Metodi Matematici della Fisica/Spazi di Hilbert/Spazio di Banach.md",
+    "Metodi Matematici della Fisica/Spazi di Hilbert/Spazio di Hilbert.md",
+    "Metodi Matematici della Fisica/Spazi di Hilbert/Identità di Parseval.md",
+    "Metodi Matematici della Fisica/Analisi di Fourier/Serie di Fourier.md",
+    "Metodi Matematici della Fisica/Analisi di Fourier/Teorema di Fourier.md",
+    "Metodi Matematici della Fisica/Spazi di Hilbert/Sistema ortonormale completo.md",
+    "Metodi Matematici della Fisica/Spazi di Hilbert/Spazi Lp.md",
+    "Metodi Matematici della Fisica/Spazi di Hilbert/Disuguaglianza di Bessel.md",
+    "Metodi Matematici della Fisica/Spazi di Hilbert/Disuguaglianza di Schwarz-Hölder.md",
+    "Metodi Matematici della Fisica/Spazi di Hilbert/Teorema della convergenza dominata.md",
+    "Algebra lineare/Sistema completo.md",
+    "Algebra lineare/Prodotto scalare.md",
+    "Meccanica Quantistica/Concetti/Proiettore.md",
+    "Analisi reale/Spazi metrici/Convergenza uniforme.md",
+    "Analisi reale/Spazi metrici/Convergenza puntuale.md",
+    "Analisi reale/Spazi metrici/Successione di Cauchy.md",
+    "Algebra lineare/Ortonormalizzazione di Gram-Schmidt.md",
+    "Algebra lineare/Norma.md",
     "Analisi reale/Spazi metrici/Spazio metrico completo.md",
     "Algebra lineare/Disuguaglianza di Schwarz.md",
     "Analisi reale/Spazi metrici/Equivalenza di norme.md",
     "Analisi reale/Spazi metrici/Completezza di R_N.md",
     "Algebra lineare/Traccia.md",
-    "Analisi reale/Spazi metrici/Convergenza puntuale.md",
     "Analisi reale/Spazi metrici/Palla.md",
-    "Metodi Matematici della Fisica/Spazi di Hilbert/Teorema della convergenza dominata.md",
-    "Analisi reale/Spazi metrici/Convergenza uniforme.md",
     "Analisi reale/Integrali/Kurzweil-Henstock/Integrale secondo Lebesgue.md",
-    "Proprietà generali/Funzione generalmente continua.md",
-    "Analisi reale/Spazi metrici/Spazio metrico compatto.md",
-    "Analisi reale/Spazi metrici/K compatto = K chiuso e limitato.md",
-    "Analisi reale/Integrali/Integrali della fisica/Campo vettoriale.md",
-    "Analisi reale/Spazi metrici/Disuguaglianza di Schwarz.md",
-    "Analisi reale/Spazi metrici/Successione di Cauchy.md",
-    "Metodi Matematici della Fisica/Analisi Complessa/Funzione intera.md",
     "Proprietà generali",
     "Metodi Matematici della Fisica/Analisi di Fourier",
     "Analisi reale/Equazioni differenziali/Equazioni differenziali parziali",

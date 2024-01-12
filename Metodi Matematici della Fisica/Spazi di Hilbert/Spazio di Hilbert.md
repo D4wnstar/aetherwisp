@@ -1,3 +1,5 @@
-Uno **spazio di Hilbert** è uno [[spazio vettoriale]] [[Spazio metrico completo|completo]] rispetto alla [[norma]] indotta da un [[prodotto scalare]] definito su di esso.
+Uno **spazio di Hilbert** è uno [[spazio vettoriale]] [[Spazio metrico completo|completo]] rispetto alla [[norma]] indotta da un [[prodotto scalare]] definito su di esso. Se sullo spazio è inoltre presente un [[sistema completo]] (non necessariamente ortonormale), si dice che lo spazio è **separabile**.
 
-Esempio di spazi di Hilbert è lo [[Spazi Lp#Spazio $L {2}$|spazio L^2]], così come tutti gli spazi $\mathbb{R}^{N}$ e $\mathbb{C}^{N}$, sebbene di norma si usi parlare di spazi di Hilbert solo in dimensione infinita.
+Un esempio di spazio di Hilbert è lo [[Metodi Matematici della Fisica/Spazi di Hilbert/Spazi Lp#Spazio $L {2}$|spazio L^2]], ma lo so anche tutti gli spazi $\mathbb{R}^{N}$ e $\mathbb{C}^{N}$, sebbene di norma si usi parlare di spazi di Hilbert solo in dimensione infinita.
+
+Sia $H$ un generico spazio di Hilbert che assumiamo di dimensione infinita. Allora è possibile trovare un insieme infinito di vettori $v_{1},v_{2},\ldots,v_{n}$ [[lineare indipendenza|linearmente indipendenti]], ossia un insieme infinito numerabile tale per cui, preso un qualunque $n$ naturale, i primi $x_{1},\ldots,x_{n}$ vettori sono linearmente indipendenti fra loro. Se si riesce a trovare un tale insieme, è sempre possibile trovare un altro insieme di vettori ortonormali fra loro tramite l'[[ortonormalizzazione di Gram-Schmidt]].
