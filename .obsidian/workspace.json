@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Metodi Matematici della Fisica/Analisi di Fourier/Serie di Fourier.md",
+                "file": "Metodi Matematici della Fisica/Operatori/Operatore unitario.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Metodi Matematici della Fisica/Analisi di Fourier/Serie di Fourier.md",
+                "file": "Metodi Matematici della Fisica/Operatori/Operatore unitario.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Metodi Matematici della Fisica/Analisi di Fourier/Serie di Fourier.md",
+                "file": "Metodi Matematici della Fisica/Operatori/Operatore unitario.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Metodi Matematici della Fisica/Analisi di Fourier/Serie di Fourier.md"
+                "file": "Metodi Matematici della Fisica/Operatori/Operatore unitario.md"
               }
             }
           },
@@ -154,7 +154,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -175,32 +175,32 @@
   },
   "active": "d7ff903881dc8ee0",
   "lastOpenFiles": [
-    "Metodi Matematici della Fisica/Spazi di Hilbert/Spazi lp.md",
-    "Metodi Matematici della Fisica/Spazi di Hilbert/Spazio di Banach.md",
-    "Metodi Matematici della Fisica/Spazi di Hilbert/Spazio di Hilbert.md",
-    "Metodi Matematici della Fisica/Spazi di Hilbert/Identità di Parseval.md",
-    "Metodi Matematici della Fisica/Analisi di Fourier/Serie di Fourier.md",
-    "Metodi Matematici della Fisica/Analisi di Fourier/Teorema di Fourier.md",
-    "Metodi Matematici della Fisica/Spazi di Hilbert/Sistema ortonormale completo.md",
-    "Metodi Matematici della Fisica/Spazi di Hilbert/Spazi Lp.md",
-    "Metodi Matematici della Fisica/Spazi di Hilbert/Disuguaglianza di Bessel.md",
-    "Metodi Matematici della Fisica/Spazi di Hilbert/Disuguaglianza di Schwarz-Hölder.md",
-    "Metodi Matematici della Fisica/Spazi di Hilbert/Teorema della convergenza dominata.md",
-    "Algebra lineare/Sistema completo.md",
-    "Algebra lineare/Prodotto scalare.md",
     "Meccanica Quantistica/Concetti/Proiettore.md",
-    "Analisi reale/Spazi metrici/Convergenza uniforme.md",
-    "Analisi reale/Spazi metrici/Convergenza puntuale.md",
-    "Analisi reale/Spazi metrici/Successione di Cauchy.md",
-    "Algebra lineare/Ortonormalizzazione di Gram-Schmidt.md",
-    "Algebra lineare/Norma.md",
-    "Analisi reale/Spazi metrici/Spazio metrico completo.md",
-    "Algebra lineare/Disuguaglianza di Schwarz.md",
-    "Analisi reale/Spazi metrici/Equivalenza di norme.md",
-    "Analisi reale/Spazi metrici/Completezza di R_N.md",
-    "Algebra lineare/Traccia.md",
-    "Analisi reale/Spazi metrici/Palla.md",
-    "Analisi reale/Integrali/Kurzweil-Henstock/Integrale secondo Lebesgue.md",
+    "Metodi Matematici della Fisica/Operatori/Operatore unitario.md",
+    "Metodi Matematici della Fisica/Operatori/Operatore autoaggiunto.md",
+    "Metodi Matematici della Fisica/Operatori/Operatore aggiunto.md",
+    "Meccanica Quantistica/Concetti/Teorema di Noether.md",
+    "Meccanica Quantistica/Concetti/Stato.md",
+    "Meccanica Quantistica/Concetti/Spin.md",
+    "Meccanica Quantistica/Concetti/Qubits.md",
+    "Meccanica Quantistica/Postulati della meccanica quantistica.md",
+    "Meccanica Quantistica/Concetti/Prodotto tensoriale.md",
+    "Meccanica Quantistica/Concetti/Parentesi di Poisson.md",
+    "Meccanica Quantistica/Concetti/Osservabile.md",
+    "Meccanica Quantistica/Concetti/Notazione Braket.md",
+    "Meccanica Quantistica/Concetti/Matrici di Pauli.md",
+    "Meccanica Quantistica/Concetti/Matrice di Hadamard.md",
+    "Meccanica Quantistica/Rappresentazione spettrale.md",
+    "Meccanica Quantistica/Concetti/Matrice densità.md",
+    "Meccanica Quantistica/Concetti/Evolutore.md",
+    "Meccanica Quantistica/Concetti/Equazione di Schroedinger.md",
+    "Meccanica Quantistica/Concetti/Dualità.md",
+    "Meccanica Quantistica/Concetti/Autostati degeneri.md",
+    "Meccanica Quantistica/Particelle accoppiate.md",
+    "Meccanica Quantistica/Orbite quantizzate degli elettroni.md",
+    "Meccanica Quantistica/Equazioni di Schroedinger.md",
+    "Metodi Matematici della Fisica/Operatori/Operatore positivo.md",
+    "Metodi Matematici della Fisica/Operatori/Operatore lineare.md",
     "Proprietà generali",
     "Metodi Matematici della Fisica/Analisi di Fourier",
     "Analisi reale/Equazioni differenziali/Equazioni differenziali parziali",
