@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Metodi Matematici della Fisica/Operatori/Operatore unitario.md",
+                "file": "Metodi Matematici della Fisica/Operatori/Spettro.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Metodi Matematici della Fisica/Operatori/Operatore unitario.md",
+                "file": "Metodi Matematici della Fisica/Operatori/Spettro.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Metodi Matematici della Fisica/Operatori/Operatore unitario.md",
+                "file": "Metodi Matematici della Fisica/Operatori/Spettro.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Metodi Matematici della Fisica/Operatori/Operatore unitario.md"
+                "file": "Metodi Matematici della Fisica/Operatori/Spettro.md"
               }
             }
           },
@@ -175,10 +175,17 @@
   },
   "active": "d7ff903881dc8ee0",
   "lastOpenFiles": [
-    "Meccanica Quantistica/Concetti/Proiettore.md",
+    "Metodi Matematici della Fisica/Operatori/Equazione ad autovalori.md",
+    "Metodi Matematici della Fisica/Operatori/Spettro.md",
     "Metodi Matematici della Fisica/Operatori/Operatore unitario.md",
-    "Metodi Matematici della Fisica/Operatori/Operatore autoaggiunto.md",
     "Metodi Matematici della Fisica/Operatori/Operatore aggiunto.md",
+    "Metodi Matematici della Fisica/Operatori/Operatore autoaggiunto.md",
+    "Metodi Matematici della Fisica/Operatori/Operatore.md",
+    "Metodi Matematici della Fisica/Operatori/Operatore positivo.md",
+    "Metodi Matematici della Fisica/Operatori/Operatore lineare.md",
+    "Analisi reale/Spazi metrici/Spazio denso.md",
+    "Algebra lineare/Norma.md",
+    "Meccanica Quantistica/Concetti/Proiettore.md",
     "Meccanica Quantistica/Concetti/Teorema di Noether.md",
     "Meccanica Quantistica/Concetti/Stato.md",
     "Meccanica Quantistica/Concetti/Spin.md",
@@ -194,13 +201,6 @@
     "Meccanica Quantistica/Concetti/Matrice densità.md",
     "Meccanica Quantistica/Concetti/Evolutore.md",
     "Meccanica Quantistica/Concetti/Equazione di Schroedinger.md",
-    "Meccanica Quantistica/Concetti/Dualità.md",
-    "Meccanica Quantistica/Concetti/Autostati degeneri.md",
-    "Meccanica Quantistica/Particelle accoppiate.md",
-    "Meccanica Quantistica/Orbite quantizzate degli elettroni.md",
-    "Meccanica Quantistica/Equazioni di Schroedinger.md",
-    "Metodi Matematici della Fisica/Operatori/Operatore positivo.md",
-    "Metodi Matematici della Fisica/Operatori/Operatore lineare.md",
     "Proprietà generali",
     "Metodi Matematici della Fisica/Analisi di Fourier",
     "Analisi reale/Equazioni differenziali/Equazioni differenziali parziali",
