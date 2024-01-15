@@ -14,7 +14,7 @@ Un operatore lineare $T$ si dice *limitato* se la quantità $||Tx||/||x||$ al va
 $$\sup\limits_{x\in D} \frac{||Tx||}{||x||}=K<+\infty$$
 Si esclude il caso $x=0$, dove $T(0)=0$. La quantità $K$ si dice *norma* dell'operatore e si indica con $||T||$, ed è effettivamente una norma applicata allo spazio vettoriale degli operatori lineari limitati in uno spazio di Hilbert. Vale la disuguaglianza
 $$||Tx||\leq||T||\;||x||$$
-Un caso importante sono gli "operatori di moltiplicazione" $Tf(x)=h(x)f(x)$ con $f(x)$ funzione [[Metodi Matematici della Fisica/Spazi di Hilbert/Spazi Lp#Spazio $L {2}$|a quadrato sommabile]] $L^{2}(I)$ e $h=h(x)$ è una funzione assegnata. In questi casi, vale $||T||=\sup\limits_{x\in I} |h(x)|$, infatti
+Un caso importante sono gli "operatori di moltiplicazione" $Tf(x)=h(x)f(x)$ con $f(x)$ funzione [[Spazi Lp#Spazio $L {2}$|a quadrato sommabile]] $L^{2}(I)$ e $h=h(x)$ è una funzione assegnata. In questi casi, vale $||T||=\sup\limits_{x\in I} |h(x)|$, infatti
 $$||Tf||^{2}=\int_{I}|h(x)f(x)|^{2}dx\leq\sup\limits_{x\in I}|h(x)|^{2}||f||^{2}$$
 ### Equivalenza
 Si dimostra che continuità e limitatezza sono proprietà equivalenti, ossia un operatore lineare continuo è anche limitato e viceversa.

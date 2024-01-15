@@ -1,5 +1,5 @@
 ## Una dimensione
-Considero una singola particella in una dimensione. Prendo 0 come punto di origine e un punto $L>0$. Considero l'[[equazione di Schroedinger]] con $E\geq0$ 
+Considero una singola particella in una dimensione. Prendo 0 come punto di origine e un punto $L>0$. Considero l'[[Equazione di Schrödinger]] con $E\geq0$ 
 $$- \frac{\hbar^{2}}{2m} \frac{\partial ^{2}}{\partial x^{2}}\psi(x)=E\psi(x)$$
 Definendo $k^{2}=\frac{2mE}{\hbar^{2}}$ si trova
 $$-\psi''(x)= \frac{2mE}{\hbar^{2}}\psi(x) \Rightarrow \psi''(x)+k^{2}\psi(x)=0$$

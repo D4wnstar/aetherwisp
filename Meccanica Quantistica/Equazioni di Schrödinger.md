@@ -1,10 +1,10 @@
-L'**equazione di Schroedinger** astratta è
+L'**equazione di Schrödinger** astratta è
 $$i\hbar\partial_{t}|\psi_{t}\rangle=\hat{H}|\psi_{t}\rangle\quad;\quad |\psi_{t=0}\rangle=|\psi\rangle\mbox{ condizione iniziale}$$
 Prendiamo l'[[Hamiltoniana]] di una particella libera
 $$H(\bar{q},\bar{p})= \frac{\bar{p}^{2}}{2m}=\frac{1}{2m}(p_{x}^{2}+p_{y}^{2}+p_{z}^{2})$$
 e il suo operatore associato
 $$\hat{H}=\frac{\hat{\bar{p}}^{2}}{2m}=\frac{1}{2m}(\hat{p}^{2}_{x}+\hat{p}^{2}_{y}+\hat{p}^{2}_{z})$$
-Vogliamo risolvere l'equazione di Schroedinger.
+Vogliamo risolvere l'equazione di Schrodinger.
 
 ## Rappresentazione dei momenti
 Usiamo la rappresentazione dei momenti, con $|r\rangle=|x,y,z\rangle$.

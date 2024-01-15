@@ -1,3 +1,0 @@
-L'**equazione di Schroedinger** descrive lo [[stato]] di un sistema quantistico in un dato tempo $t$ 
-$$i\hbar\partial_{t}|\psi_{t}\rangle=\hat{H}|\psi_{t}\rangle$$
-dove $\hbar$ è la [[costante di Planck]] ridotta, $\hat{H}$ è l'[[Hamiltoniana]] del sistema e $|\psi_{t}\rangle$ è lo stato al tempo $t$. Essa è risolta dall'[[evolutore]] e grazie a esso si trova che è *reversibile*. Quindi la dinamica descritta dall'equazione di Schroedinger è reversibile. Questo è un fatto molto importante dato che la dinamica descritta dal collasso di un pacchetto d'onda è *irreversibile*. Come sia possibile che queste due dinamiche coesistano è un problema aperto della fisica.

@@ -29,7 +29,7 @@ Assumo che questo oggetto sia un sistema ortonormale completo. Allora posso espr
 $$|\psi\rangle=\sum\limits_{m,n}c_{m,n}|\phi_{m}\rangle\otimes\ |\varphi_{n}\rangle$$
 Chiamo $\langle \hat{O}_{S} \rangle$ il valore di aspettazione dell'osservabile che descrive lo stato del sistema
 $$\langle \hat{O}_{S} \rangle= \frac{\langle \psi|\hat{I}_{ME}\otimes\hat{O}_{S}|\psi\rangle}{\langle \psi|\psi\rangle}$$
-con $\hat{I}_{ME}$ l'identità del mondo esterno. Ora uso l'[[equazione di Schroedinger]] per descrivere l'evoluzione del sistema
+con $\hat{I}_{ME}$ l'identità del mondo esterno. Ora uso l'[[Equazione di Schrödinger]] per descrivere l'evoluzione del sistema
 $$i\hbar \frac{\partial }{\partial t}|\psi_{U}\rangle=\hat{H}_{U}|\psi_{U}\rangle$$
 $$|\psi_{U}(t)\rangle=e^{-i \frac{\hat{H}_{U}t}{\hbar}}|\psi_{U}(t)\rangle$$
 $$\langle \psi(t)|\psi(t)\rangle=\langle \psi(0)|e^{i \frac{\hat{H}t}{\hbar}}e^{-i \frac{\hat{H}t}{\hbar}}|\psi(0)\rangle=\langle \psi(0)|\psi(0)\rangle$$

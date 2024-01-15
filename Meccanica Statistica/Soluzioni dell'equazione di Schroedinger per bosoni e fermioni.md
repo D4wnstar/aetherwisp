@@ -1,4 +1,4 @@
-Nel caso di $N$ particelle, la soluzione dell'[[equazione di Schroedinger]] ha la forma
+Nel caso di $N$ particelle, la soluzione dell'[[Equazione di Schrödinger]] ha la forma
 $$\psi(x_{1},\ldots,x_{N})=\varphi(x_{1})\varphi(x_{2})\ldots\varphi(x_{N})$$
 Usando le [[Hamiltoniana|Hamiltoniane]] 
 $$\hat{H}_{i}= \frac{\hat{p}^{2}_{i}}{2m};\quad \hat{H}=\sum\limits_{i=1}^{N} \frac{\hat{p}^{2}_{i}}{2m}$$
