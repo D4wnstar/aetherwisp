@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Metodi Matematici della Fisica/Operatori/Operatore lineare.md",
+                "file": "Metodi Matematici della Fisica/Distribuzioni/Distribuzione temperata.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Metodi Matematici della Fisica/Operatori/Operatore lineare.md",
+                "file": "Metodi Matematici della Fisica/Distribuzioni/Distribuzione temperata.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Metodi Matematici della Fisica/Operatori/Operatore lineare.md",
+                "file": "Metodi Matematici della Fisica/Distribuzioni/Distribuzione temperata.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Metodi Matematici della Fisica/Operatori/Operatore lineare.md"
+                "file": "Metodi Matematici della Fisica/Distribuzioni/Distribuzione temperata.md"
               }
             }
           },
@@ -154,7 +154,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -173,8 +173,15 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "d7ff903881dc8ee0",
+  "active": "ce669775a59f4571",
   "lastOpenFiles": [
+    "Metodi Matematici della Fisica/Distribuzioni/Distribuzione.md",
+    "Metodi Matematici della Fisica/Distribuzioni/Distribuzione temperata.md",
+    "Metodi Matematici della Fisica/Distribuzioni/Spazio di Schwartz.md",
+    "Analisi reale/Spazi metrici/Spazio metrico completo.md",
+    "Metodi Matematici della Fisica/Operatori/Operatore lineare.md",
+    "Analisi reale/Spazi metrici/Spazio metrico compatto.md",
+    "Metodi Matematici della Fisica/Distribuzioni/Delta di Dirac.md",
     "Metodi Matematici della Fisica/Operatori/Operatore autoaggiunto.md",
     "Metodi Matematici della Fisica/Operatori/Operatore aggiunto.md",
     "Metodi Matematici della Fisica/Spazi di Hilbert/Disuguaglianza di Bessel.md",
@@ -189,18 +196,11 @@
     "Metodi Matematici della Fisica/Analisi di Fourier/Teorema di Fourier.md",
     "Metodi Matematici della Fisica/Analisi di Fourier/Serie di Fourier.md",
     "Metodi Matematici della Fisica/Operatori/Problema di Sturm-Liouville.md",
-    "Metodi Matematici della Fisica/Operatori/Operatore lineare.md",
     "Metodi Matematici della Fisica/Analisi Complessa/Funzione intera.md",
     "Metodi Matematici della Fisica/Operatori/Operatore.md",
     "Metodi Matematici della Fisica/Operatori/Equazione ad autovalori.md",
     "Meccanica Quantistica/Concetti/Equazione di Schrödinger.md",
     "Metodi Matematici della Fisica/Analisi Complessa/Funzione analitica.md",
-    "Metodi Matematici della Fisica/Operatori/Operatore unitario.md",
-    "Metodi Matematici della Fisica/Operatori/Operatore positivo.md",
-    "Metodi Matematici della Fisica/Operatori/Spettro.md",
-    "Meccanica Quantistica/Equazioni di Schrödinger.md",
-    "Analisi reale/Spazi metrici/Spazio denso.md",
-    "Algebra lineare/Norma.md",
     "Proprietà generali",
     "Metodi Matematici della Fisica/Analisi di Fourier",
     "Analisi reale/Equazioni differenziali/Equazioni differenziali parziali",
