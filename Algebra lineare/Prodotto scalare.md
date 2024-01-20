@@ -7,11 +7,13 @@ Si denota $\langle v|w \rangle$ il **prodotto scalare** tra due variabili (usand
 6. $\langle v|w\rangle=\overline{\langle w|v\rangle}$
 7. è continuo, ossia presa una successione $\{x_{n}\}$ convergente a $x\in H$ con $H$ uno [[spazio di Hilbert]], vale che per ogni $y\in H$ si ha $\lim\limits_{n \rightarrow \infty}(y,x_{n})=(y,x)$
 
-Si può definire anche su spazi di funzioni come $L^{2}(\mathbb{R},dx)$. Allora presi due vettori $|\psi\rangle,|\phi\rangle$ in questo spazio vale
+In [[spazio vettoriale|spazi vettoriali]] a dimensione finita, come $\mathbb{R}^{N}$ o $\mathbb{C}^{N}$, il prodotto scalare è definito come una somma di prodotti delle componenti dei vettori. Siano $v,w$ due vettori dello spazio, allora il prodotto scalare tra i due è
+$$\langle v|w\rangle=\sum\limits_{i=0}^{N}v_{i}w_{i}$$
+Si può definire anche su spazi a dimensione infinita, come gli spazi di Hilbert o gli [[spazi Lp]] come $L^{2}(\mathbb{R},dx)$. Allora presi due vettori $|\psi\rangle,|\phi\rangle$ in questo spazio vale
 $$\langle\phi|\psi\rangle=\int_{\mathbb{R}}\overline{\phi(x)}\psi(x)$$
 $$\langle\psi|\psi\rangle=\int_{\mathbb{R}}|\psi(x)|^{2}$$
 La continuità vale anche qui, ossia
-$$\int_{I}\overline{\phi(x)}\psi_{n}(x)dx \rightarrow \int_{I}\overline{\phi(x)}\psi_{n}(x)dx$$
+$$\int_{I}\overline{\phi(x)}\psi_{n}(x)dx \rightarrow \int_{I}\overline{\phi(x)}\psi(x)dx$$
 Se l'intervallo $I$ è misurabile si può prendere $\phi(x)=1$ e si ha
 $$\int_{I}\psi_{n}(x)dx\rightarrow\int_{I}\psi(x)dx$$
 
