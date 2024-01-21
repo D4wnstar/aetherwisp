@@ -28,3 +28,5 @@ La [[trasformata di Fourier]] e l'antitrasformata sono un automorfismo nello spa
 $$\langle \mathscr{F}T,\varphi\rangle=\langle T,\mathscr{F}\varphi\rangle$$
 che è valida dato che $\mathscr{F}(\varphi)\in\mathcal{S}$. La trasformata $\mathscr{F}T$ è a sua volta una distribuzione temperata. Analogamente
 $$\langle \mathscr{F}^{-1}T,\varphi\rangle=\langle T,\mathscr{F}^{-1}\varphi\rangle$$
+Presa una successione di distribuzioni temperate $T_{n}\in\mathcal{S}'$ vale anche la continuità
+$$\widehat{T}_{n} \rightarrow \widehat{T}$$

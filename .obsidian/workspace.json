@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Metodi Matematici della Fisica/Distribuzioni/Distribuzione temperata.md",
+                "file": "Metodi Matematici della Fisica/Distribuzioni/Distribuzione parte principale.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Metodi Matematici della Fisica/Distribuzioni/Distribuzione temperata.md",
+                "file": "Metodi Matematici della Fisica/Distribuzioni/Distribuzione parte principale.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Metodi Matematici della Fisica/Distribuzioni/Distribuzione temperata.md",
+                "file": "Metodi Matematici della Fisica/Distribuzioni/Distribuzione parte principale.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Metodi Matematici della Fisica/Distribuzioni/Distribuzione temperata.md"
+                "file": "Metodi Matematici della Fisica/Distribuzioni/Distribuzione parte principale.md"
               }
             }
           },
@@ -154,7 +154,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -173,17 +173,19 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "ce669775a59f4571",
+  "active": "5c80b486c9d4de0b",
   "lastOpenFiles": [
-    "Metodi Matematici della Fisica/Distribuzioni/Spazio di Schwartz.md",
+    "Metodi Matematici della Fisica/Distribuzioni/Delta di Dirac.md",
+    "Metodi Matematici della Fisica/Distribuzioni/Distribuzione parte principale.md",
+    "Metodi Matematici della Fisica/Analisi Complessa/Parte principale di Cauchy.md",
     "Metodi Matematici della Fisica/Distribuzioni/Distribuzione temperata.md",
+    "Metodi Matematici della Fisica/Distribuzioni/Spazio di Schwartz.md",
     "Metodi Matematici della Fisica/Distribuzioni/Distribuzione.md",
     "Metodi Matematici della Fisica/Operatori/Operatore lineare.md",
     "Analisi reale/Calcolo differenziale/Teorema di Schwarz.md",
     "Metodi Matematici della Fisica/Operatori/Equazione ad autovalori.md",
     "Metodi Matematici della Fisica/Spazi di Hilbert/Identità di Parseval.md",
     "Metodi Matematici della Fisica/Spazi di Hilbert/Sistema ortonormale completo.md",
-    "Metodi Matematici della Fisica/Distribuzioni/Delta di Dirac.md",
     "Algebra lineare/Prodotto scalare.md",
     "Analisi reale/Spazi metrici/Spazio metrico completo.md",
     "Analisi reale/Spazi metrici/Spazio metrico compatto.md",
@@ -199,8 +201,6 @@
     "Metodi Matematici della Fisica/Analisi di Fourier/Teorema di Fourier.md",
     "Metodi Matematici della Fisica/Analisi di Fourier/Serie di Fourier.md",
     "Metodi Matematici della Fisica/Operatori/Problema di Sturm-Liouville.md",
-    "Metodi Matematici della Fisica/Analisi Complessa/Funzione intera.md",
-    "Metodi Matematici della Fisica/Operatori/Operatore.md",
     "Proprietà generali",
     "Metodi Matematici della Fisica/Analisi di Fourier",
     "Analisi reale/Equazioni differenziali/Equazioni differenziali parziali",
