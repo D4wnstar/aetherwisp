@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "2aa6cdeab33edc7a",
+        "id": "166e8ae28bb798df",
         "type": "tabs",
         "children": [
           {
-            "id": "d7ff903881dc8ee0",
+            "id": "4c5e833b15566b06",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Metodi Matematici della Fisica/Distribuzioni/Distribuzione parte principale.md",
+                "file": "Metodi Matematici della Fisica/Tecniche.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Metodi Matematici della Fisica/Distribuzioni/Distribuzione parte principale.md",
+                "file": "Metodi Matematici della Fisica/Tecniche.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Metodi Matematici della Fisica/Distribuzioni/Distribuzione parte principale.md",
+                "file": "Metodi Matematici della Fisica/Tecniche.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Metodi Matematici della Fisica/Distribuzioni/Distribuzione parte principale.md"
+                "file": "Metodi Matematici della Fisica/Tecniche.md"
               }
             }
           },
@@ -173,10 +173,20 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "5c80b486c9d4de0b",
+  "active": "4c5e833b15566b06",
   "lastOpenFiles": [
-    "Metodi Matematici della Fisica/Distribuzioni/Delta di Dirac.md",
+    "Metodi Matematici della Fisica/Quadrato e modulo complesso.md",
+    "Metodi Matematici della Fisica/Tecniche.md",
+    "Algebra lineare/Norma.md",
+    "Metodi Matematici della Fisica/Spazi di Hilbert/Spazi di successioni lp.md",
+    "Algebra lineare/Prodotto scalare.md",
+    "Algebra lineare/Sistema completo.md",
+    "Algebra lineare/Ortonormalizzazione di Gram-Schmidt.md",
+    "Algebra lineare/Traccia.md",
+    "Algebra lineare/Matrice simmetrica.md",
+    "Metodi Matematici della Fisica/Spazi di Hilbert/Spazi Lp.md",
     "Metodi Matematici della Fisica/Distribuzioni/Distribuzione parte principale.md",
+    "Metodi Matematici della Fisica/Distribuzioni/Delta di Dirac.md",
     "Metodi Matematici della Fisica/Analisi Complessa/Parte principale di Cauchy.md",
     "Metodi Matematici della Fisica/Distribuzioni/Distribuzione temperata.md",
     "Metodi Matematici della Fisica/Distribuzioni/Spazio di Schwartz.md",
@@ -186,21 +196,11 @@
     "Metodi Matematici della Fisica/Operatori/Equazione ad autovalori.md",
     "Metodi Matematici della Fisica/Spazi di Hilbert/Identità di Parseval.md",
     "Metodi Matematici della Fisica/Spazi di Hilbert/Sistema ortonormale completo.md",
-    "Algebra lineare/Prodotto scalare.md",
     "Analisi reale/Spazi metrici/Spazio metrico completo.md",
     "Analisi reale/Spazi metrici/Spazio metrico compatto.md",
     "Metodi Matematici della Fisica/Operatori/Operatore autoaggiunto.md",
     "Metodi Matematici della Fisica/Operatori/Operatore aggiunto.md",
     "Metodi Matematici della Fisica/Spazi di Hilbert/Disuguaglianza di Bessel.md",
-    "Metodi Matematici della Fisica/Spazi di Hilbert/Disuguaglianza di Schwarz-Hölder.md",
-    "Metodi Matematici della Fisica/Spazi di Hilbert/Spazi di successioni lp.md",
-    "Metodi Matematici della Fisica/Spazi di Hilbert/Spazi Lp.md",
-    "Metodi Matematici della Fisica/Spazi di Hilbert/Spazio di Banach.md",
-    "Metodi Matematici della Fisica/Spazi di Hilbert/Spazio di Hilbert.md",
-    "Metodi Matematici della Fisica/Spazi di Hilbert/Teorema della convergenza dominata.md",
-    "Metodi Matematici della Fisica/Analisi di Fourier/Teorema di Fourier.md",
-    "Metodi Matematici della Fisica/Analisi di Fourier/Serie di Fourier.md",
-    "Metodi Matematici della Fisica/Operatori/Problema di Sturm-Liouville.md",
     "Proprietà generali",
     "Metodi Matematici della Fisica/Analisi di Fourier",
     "Analisi reale/Equazioni differenziali/Equazioni differenziali parziali",
