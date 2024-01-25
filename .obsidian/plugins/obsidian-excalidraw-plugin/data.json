@@ -57,7 +57,6 @@
   "autoExportLightAndDark": false,
   "autoexportExcalidraw": false,
   "embedType": "excalidraw",
-  "embedMarkdownCommentLinks": true,
   "embedWikiLink": true,
   "syncExcalidraw": false,
   "experimentalFileType": false,
@@ -72,7 +71,7 @@
   "library2": {
     "type": "excalidrawlib",
     "version": 2,
-    "source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.0.16",
+    "source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/1.9.27",
     "libraryItems": []
   },
   "imageElementNotice": true,
@@ -407,12 +406,13 @@
   "pdfScale": 4,
   "pdfBorderBox": true,
   "pdfGapSize": 20,
-  "pdfGroupPages": false,
   "pdfLockAfterImport": true,
   "pdfNumColumns": 1,
+  "pdfImportScale": 0.3,
+  "embedMarkdownCommentLinks": true,
+  "pdfGroupPages": false,
   "pdfNumRows": 1,
   "pdfDirection": "right",
-  "pdfImportScale": 0.3,
   "laserSettings": {
     "DECAY_LENGTH": 50,
     "DECAY_TIME": 1000,
