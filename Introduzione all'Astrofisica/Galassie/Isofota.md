@@ -1,1 +1,1 @@
-L'**isofota** è la linea di pari luminosità sulla superficie di una [[galassia]].
+L'**isofota** è un [[insieme di livello]] a brillanza superficiale costante di una [[galassia]].

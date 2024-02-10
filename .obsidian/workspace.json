@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Introduzione all'Astrofisica/Galassie/Classi galattiche.md",
+                "file": "Introduzione all'Astrofisica/Galassie/Relazione Tully-Fisher.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Introduzione all'Astrofisica/Galassie/Classi galattiche.md",
+                "file": "Introduzione all'Astrofisica/Galassie/Relazione Tully-Fisher.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Introduzione all'Astrofisica/Galassie/Classi galattiche.md",
+                "file": "Introduzione all'Astrofisica/Galassie/Relazione Tully-Fisher.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Introduzione all'Astrofisica/Galassie/Classi galattiche.md"
+                "file": "Introduzione all'Astrofisica/Galassie/Relazione Tully-Fisher.md"
               }
             }
           },
@@ -175,11 +175,18 @@
   },
   "active": "d477fd9c2cdc0169",
   "lastOpenFiles": [
+    "Introduzione all'Astrofisica/Galassie/Quasar.md",
+    "Introduzione all'Astrofisica/Galassie/Relazione Tully-Fisher.md",
     "Introduzione all'Astrofisica/Galassie/Luminosità di galassie.md",
+    "Introduzione all'Astrofisica/Galassie/Rotazione di una galassia.md",
+    "Introduzione all'Astrofisica/Misure astronomiche/Righe spettrali.md",
+    "Introduzione all'Astrofisica/Disegni/Righe spettrali.md",
     "Introduzione all'Astrofisica/Galassie/Classi galattiche.md",
+    "Introduzione all'Astrofisica/Galassie/Isofota.md",
+    "Introduzione all'Astrofisica/Galassie/Galassie Seyfert.md",
+    "Analisi reale/Massimi e minimi/Insieme di livello.md",
     "Introduzione all'Astrofisica/Galassie/Galassia.md",
     "Metodi Matematici della Fisica/Quadrato e modulo complesso.md",
-    "Introduzione all'Astrofisica/Galassie/Rotazione di una galassia.md",
     "Introduzione all'Astrofisica/Stelle/Luminosità.md",
     "Introduzione all'Astrofisica/Misure astronomiche/Magnitudine.md",
     "Introduzione all'Astrofisica/Galassie/Via Lattea.md",
@@ -194,13 +201,6 @@
     "Metodi Matematici della Fisica/Distribuzioni/Distribuzione parte principale.md",
     "Introduzione all'Astrofisica/Disegni/Hubble Tuning Fork.md",
     "Introduzione all'Astrofisica/Disegni/Grafico Coordinate Equatoriali.md",
-    "Introduzione all'Astrofisica/Disegni/Frammentazione gerarchica.md",
-    "Introduzione all'Astrofisica/Disegni/Evoluzione Post-sequenza Principale Stelle Solari.md",
-    "Introduzione all'Astrofisica/Disegni/Equilibrio idrostatico.md",
-    "Introduzione all'Astrofisica/Disegni/Effetto Casimir.md",
-    "Introduzione all'Astrofisica/Disegni/Distanza con parallasse.md",
-    "Introduzione all'Astrofisica/Disegni/Definizione di Parsec.md",
-    "Introduzione all'Astrofisica/Disegni/Cammino di una particella.md",
     "Metodi Matematici della Fisica/Tecniche.pdf",
     "Proprietà generali",
     "Metodi Matematici della Fisica/Analisi di Fourier",
