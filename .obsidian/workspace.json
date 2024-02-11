@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Introduzione all'Astrofisica/Galassie/Relazione Tully-Fisher.md",
+                "file": "Metodi Matematici della Fisica/Spazi di Hilbert/Spazi di successioni lp.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Introduzione all'Astrofisica/Galassie/Relazione Tully-Fisher.md",
+                "file": "Metodi Matematici della Fisica/Spazi di Hilbert/Spazi di successioni lp.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Introduzione all'Astrofisica/Galassie/Relazione Tully-Fisher.md",
+                "file": "Metodi Matematici della Fisica/Spazi di Hilbert/Spazi di successioni lp.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Introduzione all'Astrofisica/Galassie/Relazione Tully-Fisher.md"
+                "file": "Metodi Matematici della Fisica/Spazi di Hilbert/Spazi di successioni lp.md"
               }
             }
           },
@@ -175,8 +175,18 @@
   },
   "active": "d477fd9c2cdc0169",
   "lastOpenFiles": [
-    "Introduzione all'Astrofisica/Galassie/Quasar.md",
+    "Metodi Matematici della Fisica/Operatori/Equazione ad autovalori.md",
+    "Algebra lineare/Norma.md",
+    "Algebra lineare/Prodotto scalare.md",
+    "Algebra lineare/Disuguaglianza di Schwarz.md",
+    "Metodi Matematici della Fisica/Spazi di Hilbert/Sistema ortonormale completo.md",
+    "Metodi Matematici della Fisica/Operatori/Operatore unitario.md",
+    "Metodi Matematici della Fisica/Analisi Complessa/Residuo.md",
+    "Analisi reale/Serie/Serie comuni.md",
+    "Metodi Matematici della Fisica/Analisi di Fourier/Teorema di Fourier.md",
+    "Metodi Matematici della Fisica/Analisi di Fourier/Serie di Fourier.md",
     "Introduzione all'Astrofisica/Galassie/Relazione Tully-Fisher.md",
+    "Introduzione all'Astrofisica/Galassie/Quasar.md",
     "Introduzione all'Astrofisica/Galassie/Luminosità di galassie.md",
     "Introduzione all'Astrofisica/Galassie/Rotazione di una galassia.md",
     "Introduzione all'Astrofisica/Misure astronomiche/Righe spettrali.md",
@@ -191,16 +201,6 @@
     "Introduzione all'Astrofisica/Misure astronomiche/Magnitudine.md",
     "Introduzione all'Astrofisica/Galassie/Via Lattea.md",
     "Introduzione all'Astrofisica/Galassie/Distribuzione di stelle nella Via Lattea.md",
-    "Introduzione all'Astrofisica/Galassie/Galassia starburst.md",
-    "Introduzione all'Astrofisica/Galassie/Mezzo interstellare.md",
-    "Introduzione all'Astrofisica/Galassie/Massa di una galassia.md",
-    "Tecniche di Rappresentazione Dati/Teorema di Bayes per la stima dei parametri.md",
-    "Introduzione all'Astrofisica/Presentazione di esame.md",
-    "Metodi Matematici della Fisica/Distribuzioni/Delta di Dirac.md",
-    "Metodi Matematici della Fisica/Distribuzioni/Distribuzione temperata.md",
-    "Metodi Matematici della Fisica/Distribuzioni/Distribuzione parte principale.md",
-    "Introduzione all'Astrofisica/Disegni/Hubble Tuning Fork.md",
-    "Introduzione all'Astrofisica/Disegni/Grafico Coordinate Equatoriali.md",
     "Metodi Matematici della Fisica/Tecniche.pdf",
     "Proprietà generali",
     "Metodi Matematici della Fisica/Analisi di Fourier",
