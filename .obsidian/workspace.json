@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Metodi Matematici della Fisica/Spazi di Hilbert/Spazi di successioni lp.md",
+                "file": "Metodi Matematici della Fisica/Analisi Complessa/Teorema dei residui.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Metodi Matematici della Fisica/Spazi di Hilbert/Spazi di successioni lp.md",
+                "file": "Metodi Matematici della Fisica/Analisi Complessa/Teorema dei residui.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Metodi Matematici della Fisica/Spazi di Hilbert/Spazi di successioni lp.md",
+                "file": "Metodi Matematici della Fisica/Analisi Complessa/Teorema dei residui.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Metodi Matematici della Fisica/Spazi di Hilbert/Spazi di successioni lp.md"
+                "file": "Metodi Matematici della Fisica/Analisi Complessa/Teorema dei residui.md"
               }
             }
           },
@@ -175,13 +175,16 @@
   },
   "active": "d477fd9c2cdc0169",
   "lastOpenFiles": [
+    "Metodi Matematici della Fisica/Analisi Complessa/Residuo.md",
+    "Metodi Matematici della Fisica/Analisi Complessa/Teorema dei residui.md",
+    "Metodi Matematici della Fisica/Analisi Complessa/Singolarità isolata.md",
+    "Metodi Matematici della Fisica/Spazi di Hilbert/Spazi di successioni lp.md",
     "Metodi Matematici della Fisica/Operatori/Equazione ad autovalori.md",
     "Algebra lineare/Norma.md",
     "Algebra lineare/Prodotto scalare.md",
     "Algebra lineare/Disuguaglianza di Schwarz.md",
     "Metodi Matematici della Fisica/Spazi di Hilbert/Sistema ortonormale completo.md",
     "Metodi Matematici della Fisica/Operatori/Operatore unitario.md",
-    "Metodi Matematici della Fisica/Analisi Complessa/Residuo.md",
     "Analisi reale/Serie/Serie comuni.md",
     "Metodi Matematici della Fisica/Analisi di Fourier/Teorema di Fourier.md",
     "Metodi Matematici della Fisica/Analisi di Fourier/Serie di Fourier.md",
@@ -198,9 +201,6 @@
     "Introduzione all'Astrofisica/Galassie/Galassia.md",
     "Metodi Matematici della Fisica/Quadrato e modulo complesso.md",
     "Introduzione all'Astrofisica/Stelle/Luminosità.md",
-    "Introduzione all'Astrofisica/Misure astronomiche/Magnitudine.md",
-    "Introduzione all'Astrofisica/Galassie/Via Lattea.md",
-    "Introduzione all'Astrofisica/Galassie/Distribuzione di stelle nella Via Lattea.md",
     "Metodi Matematici della Fisica/Tecniche.pdf",
     "Proprietà generali",
     "Metodi Matematici della Fisica/Analisi di Fourier",
