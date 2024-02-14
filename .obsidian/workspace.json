@@ -11,11 +11,10 @@
             "id": "28c3df4371b34061",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "diff-view",
               "state": {
-                "file": "Algebra lineare/Norma.md",
-                "mode": "source",
-                "source": false
+                "file": ".obsidian/workspace.json",
+                "staged": false
               }
             }
           }
@@ -85,7 +84,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebra lineare/Norma.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +100,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algebra lineare/Norma.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +121,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Algebra lineare/Norma.md"
-              }
+              "state": {}
             }
           },
           {
@@ -154,7 +149,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -173,8 +168,13 @@
       "mathpad:Open Mathpad": false
     }
   },
-  "active": "158e1a321513bd01",
+  "active": "28c3df4371b34061",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "Algebra lineare/Norma.md",
+    "Introduzione all'Astrofisica/Galassie/Relazione Tully-Fisher.md",
+    "Introduzione all'Astrofisica/Galassie/Massa di una galassia.md",
+    "Introduzione all'Astrofisica/Galassie/Luminosità di galassie.md",
     "Metodi Matematici della Fisica/Tecniche.md",
     "Metodi Matematici della Fisica/Tecniche.pdf",
     "Metodi Matematici della Fisica/Quadrato e modulo complesso.md",
@@ -200,10 +200,6 @@
     "Metodi Matematici della Fisica/Spazi di Hilbert/Spazio di Banach.md",
     "Metodi Matematici della Fisica/Spazi di Hilbert/Spazi di successioni lp.md",
     "Metodi Matematici della Fisica/Spazi di Hilbert/Spazi Lp.md",
-    "Metodi Matematici della Fisica/Spazi di Hilbert/Sistema ortonormale completo.md",
-    "Metodi Matematici della Fisica/Spazi di Hilbert/Identità di Parseval.md",
-    "Metodi Matematici della Fisica/Spazi di Hilbert/Disuguaglianza di Schwarz-Hölder.md",
-    "Metodi Matematici della Fisica/Spazi di Hilbert/Disuguaglianza di Bessel.md",
     "Introduzione all'Astrofisica/Misure astronomiche/Sistemi di coordinate",
     "Analisi reale/Serie/Serie di potenze",
     "Analisi reale/Serie/Serie a termini qualunque",

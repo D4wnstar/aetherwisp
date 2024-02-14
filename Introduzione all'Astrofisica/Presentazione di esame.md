@@ -1,0 +1,2 @@
+### Note
+- I dati che sostengono l'esistenza dei [[buco nero|buchi neri]] supermassivi (SMBH) includono anche delle restrizioni sulla loro epoca di formazione. Recenti osservazioni del JWST presentano dati che spingono quell'epoca più indietro di quanto si fosse immaginato, a soli poche centinaia di milioni di anni dal [[Big Bang]]. Sta venendo effettuata ricerca su un nuovo modello che spiega la formazione dei SMBH (dal sito del progetto CASSUM).

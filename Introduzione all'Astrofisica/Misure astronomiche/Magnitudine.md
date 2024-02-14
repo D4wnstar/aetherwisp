@@ -9,4 +9,4 @@ Essendo una misura relativa, bisogna avere un punto di riferimento:
 
 La magnitudine dipende dal flusso di un oggetto e quindi dalla sua distanza. Dunque, per "normalizzare" le magnitudini in funzione della distanza, si usa la **magnitudine assoluta**
 $$M=m-5\log(d)+5\equiv m-\mu$$
-dove $m$ è la magnitudine apparente in una certa banda e $d$ è la distanza dell'oggetto. $\mu$ si dice *modulo di distanza*. Questa misura rappresenta la luminosità che la stella avrebbe se fosse posta a 10 [[Parsec]] di distanza.
+dove $m$ è la magnitudine apparente in una certa banda e $d$ è la distanza dell'oggetto. $\mu$ si dice *modulo di distanza*. Questa misura rappresenta la luminosità che la stella avrebbe se fosse posta a 10 [[parsec]] di distanza.
