@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Metodi Matematici della Fisica/Analisi Complessa/Teorema dei residui.md",
+                "file": "Tecniche di Rappresentazione Dati/Posterior.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Metodi Matematici della Fisica/Analisi Complessa/Teorema dei residui.md",
+                "file": "Tecniche di Rappresentazione Dati/Posterior.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Metodi Matematici della Fisica/Analisi Complessa/Teorema dei residui.md",
+                "file": "Tecniche di Rappresentazione Dati/Posterior.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Metodi Matematici della Fisica/Analisi Complessa/Teorema dei residui.md"
+                "file": "Tecniche di Rappresentazione Dati/Posterior.md"
               }
             }
           },
@@ -175,9 +175,19 @@
   },
   "active": "d477fd9c2cdc0169",
   "lastOpenFiles": [
-    "Metodi Matematici della Fisica/Analisi Complessa/Residuo.md",
+    "Tecniche di Rappresentazione Dati/Teorema di Bayes per la stima dei parametri.md",
+    "Tecniche di Rappresentazione Dati/Posterior.md",
+    "Tecniche di Rappresentazione Dati/Likelihood.md",
+    "Tecniche di Rappresentazione Dati/Prior.md",
+    "Tecniche di Rappresentazione Dati/Stime per distribuzioni non gaussiane.md",
     "Metodi Matematici della Fisica/Analisi Complessa/Teorema dei residui.md",
+    "Metodi Matematici della Fisica/Spazi di Hilbert/Disuguaglianza di Schwarz-Hölder.md",
+    "Metodi Matematici della Fisica/Analisi Complessa/Teorema di Liouville.md",
+    "Metodi Matematici della Fisica/Operatori/Problema di Sturm-Liouville.md",
+    "Metodi Matematici della Fisica/Operatori/Operatore autoaggiunto.md",
+    "Metodi Matematici della Fisica/Operatori/Operatore aggiunto.md",
     "Metodi Matematici della Fisica/Analisi Complessa/Singolarità isolata.md",
+    "Metodi Matematici della Fisica/Analisi Complessa/Residuo.md",
     "Metodi Matematici della Fisica/Spazi di Hilbert/Spazi di successioni lp.md",
     "Metodi Matematici della Fisica/Operatori/Equazione ad autovalori.md",
     "Algebra lineare/Norma.md",
@@ -191,16 +201,6 @@
     "Introduzione all'Astrofisica/Galassie/Relazione Tully-Fisher.md",
     "Introduzione all'Astrofisica/Galassie/Quasar.md",
     "Introduzione all'Astrofisica/Galassie/Luminosità di galassie.md",
-    "Introduzione all'Astrofisica/Galassie/Rotazione di una galassia.md",
-    "Introduzione all'Astrofisica/Misure astronomiche/Righe spettrali.md",
-    "Introduzione all'Astrofisica/Disegni/Righe spettrali.md",
-    "Introduzione all'Astrofisica/Galassie/Classi galattiche.md",
-    "Introduzione all'Astrofisica/Galassie/Isofota.md",
-    "Introduzione all'Astrofisica/Galassie/Galassie Seyfert.md",
-    "Analisi reale/Massimi e minimi/Insieme di livello.md",
-    "Introduzione all'Astrofisica/Galassie/Galassia.md",
-    "Metodi Matematici della Fisica/Quadrato e modulo complesso.md",
-    "Introduzione all'Astrofisica/Stelle/Luminosità.md",
     "Metodi Matematici della Fisica/Tecniche.pdf",
     "Proprietà generali",
     "Metodi Matematici della Fisica/Analisi di Fourier",

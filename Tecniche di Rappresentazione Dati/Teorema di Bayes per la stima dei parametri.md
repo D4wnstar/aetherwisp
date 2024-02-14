@@ -4,7 +4,7 @@ dove $d$ si riferisce ai dati misurati, $M$ al modello in uso (una distribuzione
 
 $P(d|pM)$ è la *funzione di verosimiglianza*, o *likelihood function*.
 
-$P(p|M)$ è la conoscenza *a priori*, che quantifica quanto quanto sappiamo del modello prima ancora di misurare i dati.
+$P(p|M)$ è la conoscenza *a priori* o [[prior]], che quantifica quanto sappiamo del modello prima ancora di misurare i dati.
 
 $P(d|M)$ è l'*evidenza* (*evidence*), o *likelihood marginalizzata*, ed è la likelihood calcolata su tutti i possibili parametri che il posteriore può avere.
 

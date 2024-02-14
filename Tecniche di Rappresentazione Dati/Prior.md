@@ -1,0 +1,5 @@
+La **distribuzione a priori** o **prior** è una distribuzione di probabilità assunta che rappresenta la conoscenza pregressa che si nei rispetti di un processo. In altre parole, è la distribuzione di probabilità che si assume in mancanza di dati sul problema.
+
+È un componente fondamentale del [[teorema di Bayes per la stima dei parametri]], dove è pesata dalla funzione di [[likelihood]] dei parametri del modello statistico per ottenere il [[posterior]].
+
+I prior possono contenere più o meno informazione: spesso non si hanno molte conoscenze pregresse riguardo al problema in esame e in tal caso si sceglie un prior generico e poco informativo. L'esempio più semplice è dato dal [[principio di indifferenza]], che afferma che, in mancanza di evidenza rilevante sulla distribuzione di un evento, si possa considerare la distribuzione dell'evento come uniforme.
