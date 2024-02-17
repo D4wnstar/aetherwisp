@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "28c3df4371b34061",
+            "id": "114e70b8fca03306",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tecniche di Rappresentazione Dati/Teorema di Bayes per la stima dei parametri.md",
+                "file": "Introduzione all'Astrofisica/Galassie/Nucleo galattico attivo.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tecniche di Rappresentazione Dati/Teorema di Bayes per la stima dei parametri.md",
+                "file": "Introduzione all'Astrofisica/Galassie/Nucleo galattico attivo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tecniche di Rappresentazione Dati/Teorema di Bayes per la stima dei parametri.md",
+                "file": "Introduzione all'Astrofisica/Galassie/Nucleo galattico attivo.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tecniche di Rappresentazione Dati/Teorema di Bayes per la stima dei parametri.md"
+                "file": "Introduzione all'Astrofisica/Galassie/Nucleo galattico attivo.md"
               }
             }
           },
@@ -173,38 +173,38 @@
       "mathpad:Open Mathpad": false
     }
   },
-  "active": "28c3df4371b34061",
+  "active": "114e70b8fca03306",
   "lastOpenFiles": [
-    "Tecniche di Rappresentazione Dati/Posterior.md",
-    "Tecniche di Rappresentazione Dati/Prior.md",
-    "Tecniche di Rappresentazione Dati/Teorema di Bayes per la stima dei parametri.md",
-    "conflict-files-obsidian-git.md",
-    "Algebra lineare/Norma.md",
-    "Introduzione all'Astrofisica/Galassie/Relazione Tully-Fisher.md",
-    "Introduzione all'Astrofisica/Galassie/Massa di una galassia.md",
+    "Introduzione all'Astrofisica/Galassie/Quasar.md",
+    "Introduzione all'Astrofisica/Galassie/Nucleo galattico attivo.md",
+    "Introduzione all'Astrofisica/Galassie/Galassia starburst.md",
+    "Introduzione all'Astrofisica/Galassie/Galassia.md",
+    "Introduzione all'Astrofisica/Stelle/Nana bianca.md",
+    "Introduzione all'Astrofisica/Stelle/Nube molecolare.md",
+    "Introduzione all'Astrofisica/Stelle/Regione starburst.md",
+    "Introduzione all'Astrofisica/Stelle/Pressione degenere.md",
+    "Introduzione all'Astrofisica/Stelle/Trasferimenti radiativi.md",
+    "Introduzione all'Astrofisica/Stelle/Stella.md",
+    "Introduzione all'Astrofisica/Stelle/Sequenza principale.md",
+    "Introduzione all'Astrofisica/Stelle/Ammasso stellare.md",
+    "Introduzione all'Astrofisica/Stelle/Candele standard.md",
+    "Introduzione all'Astrofisica/Disegni/Righe spettrali.md",
+    "Introduzione all'Astrofisica/Galassie/Righe proibite.md",
+    "Introduzione all'Astrofisica/Galassie/Relazione del piano fondamentale.md",
+    "Introduzione all'Astrofisica/Stelle/Luminosità.md",
+    "Introduzione all'Astrofisica/Galassie/Mezzo interstellare.md",
+    "Introduzione all'Astrofisica/Misure astronomiche/Point Spread Function.md",
+    "Meccanica Statistica/Teoria delle perturbazioni.md",
+    "Introduzione all'Astrofisica/Stelle/Equazioni della struttura stellare.md",
+    "Introduzione all'Astrofisica/Misure astronomiche/Magnitudine.md",
     "Introduzione all'Astrofisica/Galassie/Luminosità di galassie.md",
-    "Metodi Matematici della Fisica/Tecniche.md",
+    "Introduzione all'Astrofisica/Galassie/Raggio effettivo.md",
+    "Introduzione all'Astrofisica/Galassie/Massa di una galassia.md",
+    "Introduzione all'Astrofisica/Misure astronomiche/Righe spettrali.md",
     "Metodi Matematici della Fisica/Tecniche.pdf",
-    "Metodi Matematici della Fisica/Quadrato e modulo complesso.md",
-    "Introduzione all'Astrofisica/Cosmologia/Coordinate comoventi.md",
-    "Metodi Matematici della Fisica/Analisi di Fourier/Teorema di Fourier.md",
-    "Metodi Matematici della Fisica/Analisi di Fourier/Serie di Fourier.md",
     "Metodi Matematici della Fisica/Analisi di Fourier",
-    "Metodi Matematici della Fisica/Analisi Complessa/Teorema di Picard.md",
-    "Metodi Matematici della Fisica/Analisi Complessa/Teorema fondamentale dell'algebra.md",
-    "Metodi Matematici della Fisica/Analisi Complessa/Singolarità isolata.md",
-    "Metodi Matematici della Fisica/Analisi Complessa/Teorema di Liouville.md",
-    "Metodi Matematici della Fisica/Analisi Complessa/Teorema dei residui.md",
-    "Metodi Matematici della Fisica/Analisi Complessa/Parte principale di Cauchy.md",
-    "Metodi Matematici della Fisica/Analisi Complessa/Residuo.md",
-    "Metodi Matematici della Fisica/Analisi Complessa/Lemma di Jordan.md",
-    "Metodi Matematici della Fisica/Analisi Complessa/Funzione meromorfa.md",
-    "Metodi Matematici della Fisica/Analisi Complessa/Funzione intera.md",
-    "Metodi Matematici della Fisica/Analisi Complessa/Funzione analitica.md",
     "Metodi Matematici della Fisica/Analisi Complessa",
-    "Proprietà generali/Funzione generalmente continua.md",
     "Proprietà generali",
-    "Metodi Matematici della Fisica/Spazi di Hilbert/Teorema della convergenza dominata.md",
     "Introduzione all'Astrofisica/Misure astronomiche/Sistemi di coordinate",
     "Analisi reale/Serie/Serie di potenze",
     "Analisi reale/Serie/Serie a termini qualunque",

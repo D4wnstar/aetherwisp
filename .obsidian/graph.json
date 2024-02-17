@@ -36,7 +36,7 @@
       }
     },
     {
-      "query": "path:\"Analisi 2\"  ",
+      "query": "path:\"Analisi reale\" ",
       "color": {
         "a": 1,
         "rgb": 7026847
@@ -55,6 +55,20 @@
         "a": 1,
         "rgb": 2338995
       }
+    },
+    {
+      "query": "path:\"Metodi Matematici della Fisica\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 13134366
+      }
+    },
+    {
+      "query": "path:\"Algebra lineare\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 14048429
+      }
     }
   ],
   "collapse-display": true,
@@ -67,6 +81,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.017136771015832396,
+  "scale": 0.31214753848498683,
   "close": false
 }

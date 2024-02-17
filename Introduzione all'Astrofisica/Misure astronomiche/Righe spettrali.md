@@ -13,7 +13,8 @@ Si definisce **larghezza equivalente** (EW) di una riga di assorbimento come la 
 
 ![[Introduzione all'Astrofisica/Disegni/Righe spettrali|80%|center]]
 
-Misurare *esattamente* una riga di assorbimento è impossibile per qualche motivo:
+### Allargamento delle righe
+Misurare *esattamente* una riga di assorbimento è impossibile per diversi motivi:
 1. **Allargamento naturale**: la banda è $\frac{\Delta\lambda}{\lambda}=\frac{v}{c}$, ossia misurare $\Delta\lambda$ ci richiede di misurare la velocità di una particella. Per la [[disuguaglianza di Heisenberg]], è impossibile farlo con precisione arbitraria, quindi ci sarà necessariamente un errore. Ciò rende le bande delle distribuzioni.
 2. **Allargamento termico**: i moti caotici delle particelle che compongono gas caldi come le [[stella|stelle]] causano variazioni di lunghezza d'onda per effetto Doppler. In un gas a temperatura $T$ di molecole di massa $Am_{p}$, con $A$ la massa atomica e $m_{p}$ quella del protone, esse si muovono a $$v\sim\sqrt{\frac{kT}{Am_{p}}}$$e la lunghezza d'onda della transizione va riferita al sistema di riferimento dell'atomo in moto, quindi i fotoni emessi mostreranno un certo redshift.
 3. **Allargamento di pressione/collisione**: gli elettroni in stelle dense sono talmente vicini da loro che le interazioni con gli elettroni vicini causano modifiche nei loro livelli di energia.

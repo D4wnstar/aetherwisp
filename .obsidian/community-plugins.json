@@ -4,5 +4,6 @@
   "obsidian-excalidraw-plugin",
   "obsidian-git",
   "mathpad",
-  "obsidian-pandoc"
+  "obsidian-pandoc",
+  "global-search-and-replace"
 ]
