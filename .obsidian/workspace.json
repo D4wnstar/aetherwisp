@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Introduzione all'Astrofisica/Galassie/Nucleo galattico attivo.md",
+                "file": "Introduzione all'Astrofisica/Galassie/Quasar.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Introduzione all'Astrofisica/Galassie/Nucleo galattico attivo.md",
+                "file": "Introduzione all'Astrofisica/Galassie/Quasar.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Introduzione all'Astrofisica/Galassie/Nucleo galattico attivo.md",
+                "file": "Introduzione all'Astrofisica/Galassie/Quasar.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Introduzione all'Astrofisica/Galassie/Nucleo galattico attivo.md"
+                "file": "Introduzione all'Astrofisica/Galassie/Quasar.md"
               }
             }
           },
@@ -154,7 +154,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -175,8 +175,17 @@
   },
   "active": "114e70b8fca03306",
   "lastOpenFiles": [
+    "Introduzione all'Astrofisica/Misure astronomiche/Sistemi di coordinate/Sistema di coordinate celesti.md",
+    "Introduzione all'Astrofisica/Misure astronomiche/Sistemi di coordinate/Sistema altazimutale.md",
+    "Introduzione all'Astrofisica/Misure astronomiche/Sistemi di coordinate/Sistema equatoriale.md",
+    "Introduzione all'Astrofisica/Misure astronomiche/Coordinate dei corpi celesti.md",
     "Introduzione all'Astrofisica/Galassie/Quasar.md",
     "Introduzione all'Astrofisica/Galassie/Nucleo galattico attivo.md",
+    "Introduzione all'Astrofisica/Galassie/Classi galattiche.md",
+    "Introduzione all'Astrofisica/Galassie/Mezzo interstellare.md",
+    "Introduzione all'Astrofisica/Galassie/Oggetti superluminali.md",
+    "Introduzione all'Astrofisica/Galassie/Isofota.md",
+    "Proprietà generali/Funzione generalmente continua.md",
     "Introduzione all'Astrofisica/Galassie/Galassia starburst.md",
     "Introduzione all'Astrofisica/Galassie/Galassia.md",
     "Introduzione all'Astrofisica/Stelle/Nana bianca.md",
@@ -192,15 +201,6 @@
     "Introduzione all'Astrofisica/Galassie/Righe proibite.md",
     "Introduzione all'Astrofisica/Galassie/Relazione del piano fondamentale.md",
     "Introduzione all'Astrofisica/Stelle/Luminosità.md",
-    "Introduzione all'Astrofisica/Galassie/Mezzo interstellare.md",
-    "Introduzione all'Astrofisica/Misure astronomiche/Point Spread Function.md",
-    "Meccanica Statistica/Teoria delle perturbazioni.md",
-    "Introduzione all'Astrofisica/Stelle/Equazioni della struttura stellare.md",
-    "Introduzione all'Astrofisica/Misure astronomiche/Magnitudine.md",
-    "Introduzione all'Astrofisica/Galassie/Luminosità di galassie.md",
-    "Introduzione all'Astrofisica/Galassie/Raggio effettivo.md",
-    "Introduzione all'Astrofisica/Galassie/Massa di una galassia.md",
-    "Introduzione all'Astrofisica/Misure astronomiche/Righe spettrali.md",
     "Metodi Matematici della Fisica/Tecniche.pdf",
     "Metodi Matematici della Fisica/Analisi di Fourier",
     "Metodi Matematici della Fisica/Analisi Complessa",
