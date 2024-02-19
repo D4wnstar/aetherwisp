@@ -1,4 +1,4 @@
-Una **galassia** è un sistema di [[stella|stelle]], [[Relitto stellare|relitti stellari]], [[mezzo interstellare]] e (teoricamente) [[materia oscura]] legati fra loro dalla gravità.
+Una **galassia** è un sistema di [[stella|stelle]], [[Relitto stellare|relitti stellari]], [[mezzo interstellare]] e (teoricamente) [[materia oscura]] legati fra loro dalla gravità. Tali oggetti orbitano attorno ad un nucleo luminoso costituito da un [[buco nero]] particolarmente massivo, la cui forza di gravità è sufficiente da mantenerli in orbita stabile.
 
 Le galassie vengono categorizzate in [[classi galattiche]] in base alla loro morfologia apparente. Diverse classi hanno diverse caratteristiche morfologiche, ma tutte hanno una rigonfiamento centrale chiamato *bulge*.
 
@@ -6,9 +6,7 @@ In molte galassie si nota un'emissione nucleare molto intensa: il bulge centrale
 
 Lo spettro ottico di questi nuclei può assumere alcune forme: i nuclei a energia più bassa solitamente mostrano [[Introduzione all'Astrofisica/Misure astronomiche/Righe spettrali|linee di emissione]] simili a quelle delle regioni HII del [[mezzo interstellare]] e dunque possono essere spiegate come regioni di forte formazione stellare. Le [[supernova|supernove]] possono complicare ulteriormente lo spettro. Questi sono detti **nuclei starburst**.
 
-Gli spettri ottici più luminosi non sono riconducibili a questo genere di attività. Questi prendono il nome di **[[Nucleo galattico attivo|Nuclei Galattici Attivi]]** (AGN).
-
-Le galassie che non presentano spettri con linee di emissione di questo genere prendono il nome di **galassie passive**.
+Gli spettri ottici più luminosi non sono riconducibili a questo genere di attività. Questi prendono il nome di **[[Nucleo galattico attivo|Nuclei Galattici Attivi]]** (AGN). Le galassie che non presentano spettri con linee di emissione di questo genere prendono il nome di **galassie passive**.
 
 All'apparenza, una galassia lontana con bulge molto luminoso può apparire come una stella ai telescopi (ossia un punto luminoso). Riconosciamo che sono galassie grazie alle caratteristiche anomale che hanno le linee di emissione dello spettro rispetto a quelle di una stella. La classificazione delle linee di emissione ottiche è la seguente:
 1. **Broad lines**: le broad lines sono linee di emissione che richiedono velocità di rotazione nell'ordine dei 10,000km/s e dunque non possono essere linee di espansione termica in quanto una linea del genere richiederebbe temperature nel milione di Kelvin e qualunque gas è ionizzato a quelle temperature. Le broad lines sono tutte [[Righe proibite|righe permesse]]. Sono create da galassie Seyfert di tipo 1.
