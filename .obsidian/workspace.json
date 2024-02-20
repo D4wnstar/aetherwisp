@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Introduzione all'Astrofisica/Misure astronomiche/Redshift.md",
+                "file": "Introduzione all'Astrofisica/Misure astronomiche/Scala delle distanze cosmica/Scala delle distanze cosmica.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Introduzione all'Astrofisica/Misure astronomiche/Redshift.md",
+                "file": "Introduzione all'Astrofisica/Misure astronomiche/Scala delle distanze cosmica/Scala delle distanze cosmica.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Introduzione all'Astrofisica/Misure astronomiche/Redshift.md",
+                "file": "Introduzione all'Astrofisica/Misure astronomiche/Scala delle distanze cosmica/Scala delle distanze cosmica.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Introduzione all'Astrofisica/Misure astronomiche/Redshift.md"
+                "file": "Introduzione all'Astrofisica/Misure astronomiche/Scala delle distanze cosmica/Scala delle distanze cosmica.md"
               }
             }
           },
@@ -169,38 +169,39 @@
       "templates:Inserisci modello": false,
       "command-palette:Apri riquadro comandi": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
-      "mathpad:Open Mathpad": false
+      "mathpad:Open Mathpad": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
   "active": "114e70b8fca03306",
   "lastOpenFiles": [
-    "Introduzione all'Astrofisica/Misure astronomiche/Righe spettrali.md",
-    "Introduzione all'Astrofisica/Galassie/Galassie Seyfert.md",
-    "Introduzione all'Astrofisica/Disegni/Schema righe spettrali.md",
+    "Introduzione all'Astrofisica/Disegni/Distanza con parallasse.md",
+    "Introduzione all'Astrofisica/Misure astronomiche/Scala delle distanze cosmica/Scala delle distanze cosmica.md",
+    "Introduzione all'Astrofisica/Misure astronomiche/Misure di distanza.md",
+    "Introduzione all'Astrofisica/Misure astronomiche/Regolo standard.md",
+    "Introduzione all'Astrofisica/Misure astronomiche/Candela standard.md",
     "Introduzione all'Astrofisica/Stelle/Luminosità.md",
-    "Introduzione all'Astrofisica/Galassie/Galassia starburst.md",
-    "Introduzione all'Astrofisica/Stelle/Regione starburst.md",
-    "Introduzione all'Astrofisica/Galassie/Galassia.md",
-    "Introduzione all'Astrofisica/Galassie/Distribuzione di stelle nella Via Lattea.md",
-    "Introduzione all'Astrofisica/Galassie/Classi galattiche.md",
-    "Introduzione all'Astrofisica/Galassie/Buco nero.md",
-    "Introduzione all'Astrofisica/Galassie/Relazione Tully-Fisher.md",
-    "Introduzione all'Astrofisica/Pianeti/Eliopausa.md",
-    "Introduzione all'Astrofisica/Pianeti/Termination Shock.md",
-    "Introduzione all'Astrofisica/Pianeti/Cometa.md",
-    "Introduzione all'Astrofisica/Pianeti/Bolide.md",
-    "Introduzione all'Astrofisica/Pianeti/Asteroide.md",
-    "Introduzione all'Astrofisica/Galassie/Quasar.md",
-    "Introduzione all'Astrofisica/Galassie/Nucleo galattico attivo.md",
-    "Costanti/Costante di Planck.md",
-    "Introduzione all'Astrofisica/Misure astronomiche/Sistemi di coordinate/Sistema di coordinate celesti.md",
-    "Introduzione all'Astrofisica/Misure astronomiche/Sistemi di coordinate/Sistema altazimutale.md",
-    "Introduzione all'Astrofisica/Misure astronomiche/Sistemi di coordinate/Sistema equatoriale.md",
+    "Introduzione all'Astrofisica/Misure astronomiche/Magnitudine.md",
+    "Introduzione all'Astrofisica/Misure astronomiche/Giorni Giuliani.md",
     "Introduzione all'Astrofisica/Misure astronomiche/Coordinate dei corpi celesti.md",
-    "Introduzione all'Astrofisica/Galassie/Mezzo interstellare.md",
-    "Introduzione all'Astrofisica/Galassie/Oggetti superluminali.md",
-    "Introduzione all'Astrofisica/Galassie/Isofota.md",
+    "Introduzione all'Astrofisica/Misure astronomiche/Colore.md",
+    "Introduzione all'Astrofisica/Misure astronomiche/Misure di massa stellare.md",
+    "Introduzione all'Astrofisica/Misure astronomiche/Redshift.md",
+    "Introduzione all'Astrofisica/Misure astronomiche/Point Spread Function.md",
+    "Introduzione all'Astrofisica/Misure astronomiche/Parsec.md",
+    "Introduzione all'Astrofisica/Misure astronomiche/Misure di luminosità.md",
+    "Introduzione all'Astrofisica/Stelle/Equazioni della struttura stellare.md",
+    "Introduzione all'Astrofisica/Stelle/Equilibrio idrostatico.md",
+    "Introduzione all'Astrofisica/Stelle/Evoluzione stellare.md",
+    "Introduzione all'Astrofisica/Stelle/Fusione nucleare.md",
+    "Introduzione all'Astrofisica/Stelle/Pressione degenere.md",
+    "Introduzione all'Astrofisica/Stelle/Trasferimenti radiativi.md",
+    "Introduzione all'Astrofisica/Stelle/Temperatura effettiva.md",
+    "Introduzione all'Astrofisica/Stelle/Stella binaria.md",
+    "Introduzione all'Astrofisica/Stelle/Stella.md",
+    "Introduzione all'Astrofisica/Misure astronomiche/Misurazione di lunghezze d'onda.md",
+    "Introduzione all'Astrofisica/Misure astronomiche/Spettro continuo.md",
+    "Introduzione all'Astrofisica/Misure astronomiche/Scala delle distanze cosmica",
     "Metodi Matematici della Fisica/Tecniche.pdf",
     "Metodi Matematici della Fisica/Analisi di Fourier",
     "Metodi Matematici della Fisica/Analisi Complessa",
@@ -209,7 +210,6 @@
     "Analisi reale/Serie/Serie di potenze",
     "Analisi reale/Serie/Serie a termini qualunque",
     "Analisi reale/Serie/Serie a termini non negativi",
-    "Analisi reale/Equazioni differenziali/Equazioni differenziali parziali",
-    "Analisi reale/Equazioni differenziali/Equazioni differenziali ordinarie"
+    "Analisi reale/Equazioni differenziali/Equazioni differenziali parziali"
   ]
 }

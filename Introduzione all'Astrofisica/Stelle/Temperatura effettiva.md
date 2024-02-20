@@ -1,0 +1,1 @@
+La **temperatura effettiva** di una [[stella]] o in generale di un corpo celeste è la temperatura di un [[corpo nero]] che emette la stessa quantità di radiazioni del corpo celeste. Viene spesso usata come approssimazione della temperatura superficiale di alcuni corpi celesti che si sanno avere spettro vicino a quello di un corpo nero, in particolare stelle e [[Pianeta|pianeti]].
