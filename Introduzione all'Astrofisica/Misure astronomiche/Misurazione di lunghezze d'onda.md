@@ -13,3 +13,20 @@ Il limite di rifrazione di un [[Telescopi|telescopio]] dipende dalla lunghezza d
 - I **raggi sottomillimetrici** sono ancora visibili da terra, in montagna. Arrivano fino al millimetro.
 - I **raggi $\mu$** sono visibili da terra, in montagna. Arrivano ai 3cm.
 - Le **onde radio** sono osservabili da terra, ma sono soggette a grandi problemi di contaminazione da tutte le telecomunicazioni (vedi *Peryton*). Arrivano fino ai 30m.
+
+| Banda | Sottobanda | $\lambda$ |
+| ---- | ---- | ---- |
+|  | (non osservabile) | > 30 m |
+| Radio | Radio | 30 m - 3 cm |
+|  | microonde | 3 cm - 1 mm |
+|  | sub-mm | 1 mm - 300 $\mu$m |
+| IR | FIR | 300 $\mu$m - 30 $\mu$m |
+|  | MIR | 30 $\mu$m - 5 $\mu$m |
+|  | NIR | 5 $\mu$m - 7000 Å |
+| Ottico | Visuale | 7000 Å - 4000 Å |
+|  | NUV | 4000 Å - 3100 Å |
+| UV | *soft* UV | 3100 Å - 912 Å |
+|  | EUV | 912 Å - 100 Å |
+| X | *soft* X | 100 V - 10 Å |
+|  | *hard* X | 10 Å - 0.02 Å |
+| $\gamma$ |  | < 0.02 Å |

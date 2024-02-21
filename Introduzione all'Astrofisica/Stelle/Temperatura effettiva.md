@@ -1,1 +1,5 @@
-La **temperatura effettiva** di una [[stella]] o in generale di un corpo celeste è la temperatura di un [[corpo nero]] che emette la stessa quantità di radiazioni del corpo celeste. Viene spesso usata come approssimazione della temperatura superficiale di alcuni corpi celesti che si sanno avere spettro vicino a quello di un corpo nero, in particolare stelle e [[Pianeta|pianeti]].
+La **temperatura effettiva** di una [[stella]] o in generale di un corpo celeste è la temperatura di un [[corpo nero]] che ha le stesse dimensioni del corpo celeste ed emette la stessa quantità di radiazioni. In particolare, si usano raggio e [[luminosità]] bolometrica. Viene spesso usata come approssimazione della temperatura superficiale di alcuni corpi celesti che si sanno avere spettro vicino a quello di un corpo nero, in particolare stelle e [[Pianeta|pianeti]].
+
+Siccome il flusso emesso da un corpo nero per unità di superficie è definito dalla [[legge di Stefan-Boltzmann]] $f=\sigma T^{4}$, con $\sigma$ la [[costante di Stefan-Boltzmann]], la temperatura efficace di una stella con raggio $R$ e luminosità $L$ è definita da
+$$L=4\pi R^{2}\sigma T^{4}_{e}$$
+In scala log-log, stelle con lo stesso raggio si trovano su una retta a pendenza 4 al variare di $T_{e}$.
