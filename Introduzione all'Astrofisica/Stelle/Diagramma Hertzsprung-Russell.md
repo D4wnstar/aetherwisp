@@ -4,6 +4,8 @@ L'importanza di questo grafico sta nel fatto che le stelle non sono distribuite 
 
 Le stelle si raggruppano in tre regioni principali: la [[sequenza principale]], il **ramo delle giganti** e le [[Nana bianca|nane bianche]].
 
+Esistono numerose regioni più piccole e specifiche, talvolta visibili sono in diagrammi HR fatti su certi [[Ammasso stellare|ammassi stellari]]. Per esempio, ad alte temperature e luminosità vi sono le [[stella di Wolf-Rayet|stelle di Wolf-Rayet]], che sono stelle molto massive che hanno perso precocemente il proprio inviluppo esterno e dunque appaiono molto calde. Attorno ai 7000K, in una fascia quasi perfettamente verticale, troviamo le [[Cefeide|Cefeidi]] e le [[RR-Lyrae]].
+
 Usando dati del telescopio Gaia, è stato possibile elaborare un diagramma HR con dati di quattro milioni di stelle entro 5000 anni luce. In questo grafico si usa la magnitudine in banda G e il colore $B-R$.
 
 ![[Gaia HR Diagram.jpg]]

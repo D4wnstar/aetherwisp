@@ -6,57 +6,17 @@
       {
         "id": "513fac78ffa6f643",
         "type": "tabs",
-        "dimension": 51.01860053144376,
         "children": [
-          {
-            "id": "cd3fade120dfd1b1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Introduzione all'Astrofisica/Unificazione AGN Esame.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e73b45148e4be2ed",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Introduzione all'Astrofisica/Galassie/Nucleo galattico attivo.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
           {
             "id": "e91533339b7198af",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Introduzione all'Astrofisica/Presentazione di esame.md",
+                "file": "Introduzione all'Astrofisica/Stelle/Ammasso stellare.md",
                 "mode": "source",
                 "source": false
               }
-            }
-          }
-        ]
-      },
-      {
-        "id": "dace2e6c8e0178ed",
-        "type": "tabs",
-        "dimension": 48.98139946855625,
-        "children": [
-          {
-            "id": "64e6a328ca46e8e3",
-            "type": "leaf",
-            "state": {
-              "type": "reveal-preview-view",
-              "state": {}
             }
           }
         ]
@@ -125,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Introduzione all'Astrofisica/Unificazione AGN Esame.md",
+                "file": "Introduzione all'Astrofisica/Stelle/Ammasso stellare.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Introduzione all'Astrofisica/Unificazione AGN Esame.md",
+                "file": "Introduzione all'Astrofisica/Stelle/Ammasso stellare.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -165,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Introduzione all'Astrofisica/Unificazione AGN Esame.md"
+                "file": "Introduzione all'Astrofisica/Stelle/Ammasso stellare.md"
               }
             }
           },
@@ -194,7 +154,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -214,12 +174,17 @@
       "obsidian-advanced-slides:Show Slide Preview": false
     }
   },
-  "active": "cd3fade120dfd1b1",
+  "active": "11c537cbe31b9c7c",
   "lastOpenFiles": [
+    "Introduzione all'Astrofisica/Stelle/Diagramma Hertzsprung-Russell.md",
+    "Introduzione all'Astrofisica/Stelle/Sequenza principale.md",
+    "Introduzione all'Astrofisica/Stelle/Evoluzione stellare.md",
+    "Introduzione all'Astrofisica/Stelle/Equazioni della struttura stellare.md",
+    "Introduzione all'Astrofisica/Presentazione di esame.md",
+    "Introduzione all'Astrofisica/Galassie/Quasar.md",
+    "Introduzione all'Astrofisica/Unificazione AGN Esame.md",
     "Introduzione all'Astrofisica/Galassie/Nucleo galattico attivo.md",
     "Introduzione all'Astrofisica/File/AGN Unificato.png",
-    "Introduzione all'Astrofisica/Unificazione AGN Esame.md",
-    "Introduzione all'Astrofisica/Presentazione di esame.md",
     "Introduzione all'Astrofisica/Galassie/Mezzo interstellare.md",
     "Introduzione all'Astrofisica/Galassie/Isofota.md",
     "Introduzione all'Astrofisica/File/M87 Jet Crop.jpg",
@@ -247,16 +212,12 @@
     "export/Unificazione AGN Esame/plugin/menu/CONTRIBUTING.md",
     "export/Unificazione AGN Esame/plugin/menu/README.md",
     "Excalidraw/Drawing 2024-02-24 17.52.29.excalidraw.md",
-    "Introduzione all'Astrofisica/Galassie/Quasar.md",
     "Introduzione all'Astrofisica/Stelle/Temperatura effettiva.md",
     "Introduzione all'Astrofisica/Stelle/Trasferimenti radiativi.md",
-    "Introduzione all'Astrofisica/Stelle/Sequenza principale.md",
-    "Introduzione all'Astrofisica/Stelle/Diagramma Hertzsprung-Russell.md",
     "Introduzione all'Astrofisica/Stelle/Classi stellari.md",
     "Introduzione all'Astrofisica/Stelle/Luminosità.md",
     "Introduzione all'Astrofisica/Stelle/Stella.md",
     "Introduzione all'Astrofisica/Misure astronomiche/Colore.md",
-    "Introduzione all'Astrofisica/Stelle/Equazioni della struttura stellare.md",
     "Introduzione all'Astrofisica/Misure astronomiche/Scala delle distanze cosmica/Scala delle distanze cosmica.md",
     "Introduzione all'Astrofisica/Galassie/Classi galattiche.md",
     "Introduzione all'Astrofisica/Disegni/Diagramma Trumpler.md",
