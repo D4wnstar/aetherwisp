@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "513fac78ffa6f643",
+        "id": "e0b3cb662dbe803e",
         "type": "tabs",
         "children": [
           {
-            "id": "e91533339b7198af",
+            "id": "38f73d1bf70a8e7f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Introduzione all'Astrofisica/Stelle/Nube molecolare.md",
+                "file": "Introduzione alla Fisica Nucleare e Subnucleare/Interazioni fondamentali.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "redshift",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Introduzione all'Astrofisica/Stelle/Nube molecolare.md",
+                "file": "Introduzione alla Fisica Nucleare e Subnucleare/Interazioni fondamentali.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Introduzione all'Astrofisica/Stelle/Nube molecolare.md",
+                "file": "Introduzione alla Fisica Nucleare e Subnucleare/Interazioni fondamentali.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Introduzione all'Astrofisica/Stelle/Nube molecolare.md"
+                "file": "Introduzione alla Fisica Nucleare e Subnucleare/Interazioni fondamentali.md"
               }
             }
           },
@@ -169,58 +169,49 @@
       "templates:Inserisci modello": false,
       "command-palette:Apri riquadro comandi": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "mathpad:Open Mathpad": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
-      "obsidian-advanced-slides:Show Slide Preview": false
+      "mathpad:Open Mathpad": false
     }
   },
-  "active": "e91533339b7198af",
+  "active": "38f73d1bf70a8e7f",
   "lastOpenFiles": [
-    "Introduzione all'Astrofisica/Stelle/Evoluzione stellare.md",
-    "Introduzione all'Astrofisica/Stelle/Nube molecolare.md",
-    "Introduzione all'Astrofisica/Stelle/Nana bruna.md",
-    "Introduzione all'Astrofisica/Stelle/Classi stellari.md",
-    "Introduzione all'Astrofisica/Stelle/Diagramma Hertzsprung-Russell.md",
-    "Introduzione all'Astrofisica/Stelle/Ammasso stellare.md",
-    "Introduzione all'Astrofisica/Stelle/Equazioni della struttura stellare.md",
-    "Introduzione all'Astrofisica/Stelle/Equilibrio idrostatico.md",
-    "Introduzione all'Astrofisica/Stelle/Fusione nucleare.md",
-    "Introduzione all'Astrofisica/Stelle/Luminosità.md",
-    "Introduzione all'Astrofisica/Stelle/Metallicità.md",
-    "Introduzione all'Astrofisica/Stelle/Nana bianca.md",
-    "Introduzione all'Astrofisica/Stelle/Pressione degenere.md",
+    "Costanti/Constante gravitazionale.md",
+    "Introduzione alla Fisica Nucleare e Subnucleare/Interazioni fondamentali.md",
+    "Introduzione alla Fisica Nucleare e Subnucleare/Relazioni utili.md",
     "Costanti/Costante di Planck.md",
-    "Introduzione all'Astrofisica/Stelle/Trasferimenti radiativi.md",
+    "Introduzione alla Fisica Nucleare e Subnucleare/Elettronvolt.md",
+    "Introduzione alla Fisica Nucleare e Subnucleare/Esperimento di Rutherford.md",
+    "Introduzione alla Fisica Nucleare e Subnucleare/Particella.md",
+    "Introduzione all'Astrofisica/Galassie/Nucleo galattico attivo.md",
+    "Meccanica Quantistica/Disuguaglianza di Heisenberg.md",
+    "Introduzione alla Fisica Nucleare e Subnucleare/Disegni/Modelli atomici.md",
+    "Introduzione alla Fisica Nucleare e Subnucleare/Disegni",
+    "Introduzione alla Fisica Nucleare e Subnucleare",
+    "Introduzione alla Fisica della Materia/Senza nome.md",
+    "Meccanica Statistica/Teoria delle perturbazioni.md",
+    "Introduzione alla Fisica della Materia/Info.md",
+    "Introduzione alla Fisica della Materia",
+    "Introduzione all'Astrofisica/Unificazione AGN Esame.md",
+    "Tecniche di Rappresentazione Dati/Teorema di Bayes per la stima dei parametri.md",
     "Introduzione all'Astrofisica/Stelle/Teorema del viriale.md",
     "Introduzione all'Astrofisica/Stelle/Tempo dinamico.md",
-    "Introduzione all'Astrofisica/Stelle/Sequenza principale.md",
-    "Introduzione all'Astrofisica/Presentazione di esame.md",
-    "Introduzione all'Astrofisica/Galassie/Quasar.md",
-    "Introduzione all'Astrofisica/Unificazione AGN Esame.md",
-    "Introduzione all'Astrofisica/Galassie/Nucleo galattico attivo.md",
-    "Introduzione all'Astrofisica/File/AGN Unificato.png",
-    "Introduzione all'Astrofisica/Galassie/Mezzo interstellare.md",
-    "Introduzione all'Astrofisica/Galassie/Isofota.md",
-    "Introduzione all'Astrofisica/File/M87 Jet Crop.jpg",
-    "export/Unificazione AGN Esame/Introduzione all'Astrofisica/File/M87 Jet.jpg",
-    "export/Unificazione AGN Esame/Introduzione all'Astrofisica/File",
-    "export/Unificazione AGN Esame/Introduzione all'Astrofisica",
-    "export/Unificazione AGN Esame/plugin/chalkboard/README.md",
-    "export/Unificazione AGN Esame/plugin/chalkboard/_style.css",
-    "export/Unificazione AGN Esame/plugin/chalkboard/img/whiteboard.png",
-    "export/Unificazione AGN Esame/plugin/chalkboard/img/sponge.png",
-    "export/Unificazione AGN Esame/plugin/chalkboard/img/chalk-yellow.png",
-    "export/Unificazione AGN Esame/plugin/chalkboard/img/chalk-white.png",
-    "export/Unificazione AGN Esame/plugin/chalkboard/img/chalk-red.png",
-    "export/Unificazione AGN Esame/plugin/chalkboard/img/chalk-purple.png",
-    "export/Unificazione AGN Esame/plugin/chalkboard/img/chalk-orange.png",
-    "export/Unificazione AGN Esame/plugin/chalkboard/img",
-    "export/Unificazione AGN Esame/plugin/chalkboard/style.css",
-    "export/Unificazione AGN Esame/plugin/chalkboard/plugin.js",
-    "export/Unificazione AGN Esame/plugin/chalkboard/plugin (copy).js",
-    "export/Unificazione AGN Esame/plugin/chalkboard",
-    "export/Unificazione AGN Esame/plugin/chart/README.md",
-    "export/Unificazione AGN Esame/plugin/chart/chart.min.js",
-    "export/Unificazione AGN Esame/plugin/chart/plugin.js"
+    "Introduzione all'Astrofisica/Stelle/Nana bruna.md",
+    "Introduzione all'Astrofisica/File/M87 Jet.jpg",
+    "Tecniche di Rappresentazione Dati/Appunti.md",
+    "Tecniche di Rappresentazione Dati/Stime per distribuzioni non gaussiane.md",
+    "Tecniche di Rappresentazione Dati/Posterior.md",
+    "Tecniche di Rappresentazione Dati/Likelihood.md",
+    "Tecniche di Rappresentazione Dati/Prior.md",
+    "Introduzione all'Astrofisica/Stelle/Temperatura effettiva.md",
+    "Introduzione all'Astrofisica/Stelle/Stella binaria.md",
+    "Introduzione all'Astrofisica/Stelle/Diagramma Hertzsprung-Russell.md",
+    "Introduzione all'Astrofisica/Misure astronomiche/Scala delle distanze cosmica",
+    "Introduzione all'Astrofisica/File/Gaia HR Diagram.jpg",
+    "Introduzione all'Astrofisica/File",
+    "Metodi Matematici della Fisica/Tecniche.pdf",
+    "Metodi Matematici della Fisica/Analisi di Fourier",
+    "Metodi Matematici della Fisica/Analisi Complessa",
+    "Proprietà generali",
+    "Introduzione all'Astrofisica/Misure astronomiche/Sistemi di coordinate"
   ]
 }

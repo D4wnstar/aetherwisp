@@ -1,4 +1,4 @@
-La **costante di Planck** $h$ vale circa $6.626\times10^{-34}Js$.
+La **costante di Planck** $h$ vale circa $6.626\times10^{-34}Js$. Si usa anche la **costante di Planck ridotta** $\hbar=h/2\pi$.
 
 $[h] = J\times\mbox{sec}=[S]=[l]$ con $l$ un *momento angolare*. Quindi la costante di Planck ha le dimensioni di un momento angolare.
 $\vec{l}=\vec{r}\times\vec{p}$ con $\vec{r}$ vettore posizione e $\vec{p}=m\vec{v}$ impulso/quantità di moto.

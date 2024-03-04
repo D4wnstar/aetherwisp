@@ -5,6 +5,18 @@
   },
   "data": [
     {
+      "char": "É",
+      "name": "latin capital letter e with acute",
+      "useCount": 1,
+      "lastUsed": 1709550903271
+    },
+    {
+      "char": "Å",
+      "name": "angstrom sign",
+      "useCount": 1,
+      "lastUsed": 1708512481060
+    },
+    {
       "char": "⏦",
       "name": "ac current"
     },
@@ -111,12 +123,6 @@
     {
       "char": "⦤",
       "name": "angle with underbar"
-    },
-    {
-      "char": "Å",
-      "name": "angstrom sign",
-      "useCount": 1,
-      "lastUsed": 1708512481060
     },
     {
       "char": "☥",
@@ -34059,10 +34065,6 @@
       "name": "latin capital letter e"
     },
     {
-      "char": "É",
-      "name": "latin capital letter e with acute"
-    },
-    {
       "char": "Ĕ",
       "name": "latin capital letter e with breve"
     },
@@ -34124,7 +34126,9 @@
     },
     {
       "char": "È",
-      "name": "latin capital letter e with grave"
+      "name": "latin capital letter e with grave",
+      "useCount": 1,
+      "lastUsed": 1709550925747
     },
     {
       "char": "Ẻ",

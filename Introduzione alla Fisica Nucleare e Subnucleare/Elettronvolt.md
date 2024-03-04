@@ -1,0 +1,1 @@
+L'**elettronvolt**, scritto *eV*, è un unità di misura di energia pari a $1.6\times10^{-19}$ J. Sono comuni i suoi multipli del SI: keV, MeV, GeV e TeV.
