@@ -69,11 +69,25 @@
         "a": 1,
         "rgb": 14048429
       }
+    },
+    {
+      "query": "path:\"Introduzione alla Fisica della Materia\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 13652819
+      }
+    },
+    {
+      "query": "path:\"Introduzione alla Fisica Nucleare e Subnucleare\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 10602801
+      }
     }
   ],
   "collapse-display": true,
   "showArrow": false,
-  "textFadeMultiplier": -0.6,
+  "textFadeMultiplier": -0.2,
   "nodeSizeMultiplier": 1,
   "lineSizeMultiplier": 1,
   "collapse-forces": true,
@@ -81,6 +95,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.31214753848498666,
+  "scale": 0.35974258845901286,
   "close": false
 }

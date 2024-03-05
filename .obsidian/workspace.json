@@ -13,9 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Introduzione alla Fisica Nucleare e Subnucleare/Interazioni fondamentali.md",
+                "file": "Introduzione alla Fisica della Materia/Esperimento di Stern-Gerlach.md",
                 "mode": "source",
                 "source": false
+              }
+            }
+          },
+          {
+            "id": "9d82b2c6e1bb21ab",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Introduzione alla Fisica della Materia/Disegni/Spira con momento di dipolo.md"
               }
             }
           }
@@ -85,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Introduzione alla Fisica Nucleare e Subnucleare/Interazioni fondamentali.md",
+                "file": "Introduzione alla Fisica della Materia/Esperimento di Stern-Gerlach.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Introduzione alla Fisica Nucleare e Subnucleare/Interazioni fondamentali.md",
+                "file": "Introduzione alla Fisica della Materia/Esperimento di Stern-Gerlach.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Introduzione alla Fisica Nucleare e Subnucleare/Interazioni fondamentali.md"
+                "file": "Introduzione alla Fisica della Materia/Esperimento di Stern-Gerlach.md"
               }
             }
           },
@@ -154,7 +164,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -162,6 +172,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-advanced-slides:Show Slide Preview": false,
       "switcher:Apri selezione rapida": false,
       "graph:Apri vista grafo": false,
       "canvas:Crea nuova lavagna": false,
@@ -175,19 +186,25 @@
   },
   "active": "38f73d1bf70a8e7f",
   "lastOpenFiles": [
-    "Costanti/Constante gravitazionale.md",
+    "Introduzione alla Fisica della Materia/Disegni/Spira con momento di dipolo.md",
+    "Introduzione alla Fisica della Materia/Esperimento di Stern-Gerlach.md",
+    "Introduzione alla Fisica della Materia/Modello di Bohr.md",
+    "Introduzione alla Fisica Nucleare e Subnucleare/Elettronvolt.md",
+    "Introduzione alla Fisica della Materia/Legge di Rydberg.md",
+    "Introduzione alla Fisica della Materia/Disegni/Schema Modello di Bohr.md",
+    "Costanti/Costante di Rydberg.md",
+    "Introduzione alla Fisica della Materia/Disegni",
     "Introduzione alla Fisica Nucleare e Subnucleare/Interazioni fondamentali.md",
+    "Introduzione alla Fisica Nucleare e Subnucleare/Esperimento di Rutherford.md",
+    "Costanti/Constante gravitazionale.md",
     "Introduzione alla Fisica Nucleare e Subnucleare/Relazioni utili.md",
     "Costanti/Costante di Planck.md",
-    "Introduzione alla Fisica Nucleare e Subnucleare/Elettronvolt.md",
-    "Introduzione alla Fisica Nucleare e Subnucleare/Esperimento di Rutherford.md",
     "Introduzione alla Fisica Nucleare e Subnucleare/Particella.md",
     "Introduzione all'Astrofisica/Galassie/Nucleo galattico attivo.md",
     "Meccanica Quantistica/Disuguaglianza di Heisenberg.md",
     "Introduzione alla Fisica Nucleare e Subnucleare/Disegni/Modelli atomici.md",
     "Introduzione alla Fisica Nucleare e Subnucleare/Disegni",
     "Introduzione alla Fisica Nucleare e Subnucleare",
-    "Introduzione alla Fisica della Materia/Senza nome.md",
     "Meccanica Statistica/Teoria delle perturbazioni.md",
     "Introduzione alla Fisica della Materia/Info.md",
     "Introduzione alla Fisica della Materia",
@@ -200,18 +217,12 @@
     "Tecniche di Rappresentazione Dati/Appunti.md",
     "Tecniche di Rappresentazione Dati/Stime per distribuzioni non gaussiane.md",
     "Tecniche di Rappresentazione Dati/Posterior.md",
-    "Tecniche di Rappresentazione Dati/Likelihood.md",
-    "Tecniche di Rappresentazione Dati/Prior.md",
-    "Introduzione all'Astrofisica/Stelle/Temperatura effettiva.md",
-    "Introduzione all'Astrofisica/Stelle/Stella binaria.md",
-    "Introduzione all'Astrofisica/Stelle/Diagramma Hertzsprung-Russell.md",
     "Introduzione all'Astrofisica/Misure astronomiche/Scala delle distanze cosmica",
     "Introduzione all'Astrofisica/File/Gaia HR Diagram.jpg",
     "Introduzione all'Astrofisica/File",
     "Metodi Matematici della Fisica/Tecniche.pdf",
     "Metodi Matematici della Fisica/Analisi di Fourier",
     "Metodi Matematici della Fisica/Analisi Complessa",
-    "Proprietà generali",
-    "Introduzione all'Astrofisica/Misure astronomiche/Sistemi di coordinate"
+    "Proprietà generali"
   ]
 }

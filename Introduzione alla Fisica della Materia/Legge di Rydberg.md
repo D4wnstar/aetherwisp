@@ -1,0 +1,3 @@
+La **legge di Rydberg** descrive la struttura generale delle righe di assorbimento di un gas.
+$$\frac{1}{\lambda}=R\left(\frac{1}{n_{a}^{2}}- \frac{1}{n_{b}^{2}}\right)$$
+dove $\lambda$ è la lunghezza d'onda della riga, $R$ è la [[costante di Rydberg]] e $n_{a}$ e $n_{b}$ sono i numeri quantici degli stati prima e dopo la transizione di orbita. $a$ e $b$ sono interi e $b > a$. Si tratta del caso più generale di serie conosciute come la [[serie di Balmer]].
