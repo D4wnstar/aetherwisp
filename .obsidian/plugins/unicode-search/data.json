@@ -5,6 +5,12 @@
   },
   "data": [
     {
+      "char": "È",
+      "name": "latin capital letter e with grave",
+      "useCount": 4,
+      "lastUsed": 1710152940802
+    },
+    {
       "char": "É",
       "name": "latin capital letter e with acute",
       "useCount": 1,
@@ -34123,12 +34129,6 @@
     {
       "char": "Ȅ",
       "name": "latin capital letter e with double grave"
-    },
-    {
-      "char": "È",
-      "name": "latin capital letter e with grave",
-      "useCount": 1,
-      "lastUsed": 1709550925747
     },
     {
       "char": "Ẻ",

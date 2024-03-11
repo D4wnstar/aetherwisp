@@ -1,0 +1,1 @@
+Si dicono **isobari** di un elemento i nuclidi dell'elemento con numero di massa $A$ uguale. Sono stabili. Per esempio, $^{3}H$ e $^{3}He$.

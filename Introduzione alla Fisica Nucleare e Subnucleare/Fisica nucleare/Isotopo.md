@@ -1,0 +1,1 @@
+Si dicono **isotopi** di un elemento i nuclidi dell'elemento con numero di protoni $Z$ uguale.

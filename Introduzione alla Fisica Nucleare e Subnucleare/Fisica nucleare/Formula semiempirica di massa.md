@@ -1,0 +1,9 @@
+La **formula semiempirica di massa**, anche conosciuta come **formula di Weizsacker**, è una formula per stimare la massa e l'energia di legame di un atomo con numero di protoni $Z$ e numero di massa $A$.
+$$m(Z,A)=Nm_{n}+Zm_{p}+Zm_{e}- \frac{B(Z,A)}{c^{2}}$$
+$$B(Z,A)=a_{v}A-a_{s}A^{\frac{2}{3}}-a_{c} \frac{Z(Z-1)}{A^{\frac{1}{3}}}-a_{a} \frac{(N-Z)^{2}}{4A}+\delta$$
+1. $a_{v}A$ è il *termine di volume* ed è proporzionale ad $A$. Sperimentalmente si trova che $R\propto A^{1/3}$.
+2. $a_{s}A^{2/3}$ è il *termine di superficie*. Si trova che $R^{2}\propto A^{2/3}$. Allora i nucleoni sulla superficie risentono meno delle forze nucleare.
+3. $a_{c} \frac{Z(Z-1)}{A^{\frac{1}{3}}}$ è il *termine Coulombiano*. Bisogna togliere la parte energetica Coulombiana $E_{Coulombiana}\propto \frac{Z(Z-1)a\hbar c}{R}\propto Z(Z-1)A^{-1/3}$.
+4. $a_{a} \frac{(N-Z)^{2}}{4A}$ è il *termine di asimmetria*. Tiene conto del fatto che negli atomi più pesanti si rompe la simmetria tra neutroni e protoni a causa della pressione Coulombiana, e i neutroni diventano più numerosi. Se i protoni e neutroni sono in pari numero, il termine si annulla. Ha l'effetto di abbassare la curva per atomi grandi.
+5. $\delta$ è il *termine di accoppiamento* ed ha origine sperimentale. Si è visto che i nuclei sono più stabili se $Z$ e $N$ sono pari. Ciò suggerisce che protoni e neutroni tendano ad accoppiarsi. Vale $\delta=a_{p}A^{-3/4}$ se $A,Z,N$ sono pari, $\delta=-a_{p}A^{-3/4}$ se $A$ è pari e $Z,N$ sono dispari e $\delta=0$ se $A$ è dispari. In questo caso, l'esponente $-3/4$ è completamente empirico e ottenuto da un fit.
+Tutti questi termini sono costanti e sono stati misurati sperimentalmente.

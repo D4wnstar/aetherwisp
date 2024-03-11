@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Introduzione alla Fisica della Materia/Modello dell'atomo di idrogeno.md",
+                "file": "Introduzione alla Fisica Nucleare e Subnucleare/Atomo.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Introduzione alla Fisica della Materia/Modello dell'atomo di idrogeno.md",
+                "file": "Introduzione alla Fisica Nucleare e Subnucleare/Atomo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Introduzione alla Fisica della Materia/Modello dell'atomo di idrogeno.md",
+                "file": "Introduzione alla Fisica Nucleare e Subnucleare/Atomo.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Introduzione alla Fisica della Materia/Modello dell'atomo di idrogeno.md"
+                "file": "Introduzione alla Fisica Nucleare e Subnucleare/Atomo.md"
               }
             }
           },
@@ -176,34 +176,35 @@
   },
   "active": "38f73d1bf70a8e7f",
   "lastOpenFiles": [
+    "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare/Formula semiempirica di massa.md",
+    "Introduzione alla Fisica Nucleare e Subnucleare/Atomo.md",
+    "Introduzione alla Fisica Nucleare e Subnucleare/Disegni/Grafico Energia di legame.md",
+    "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare/Spettroscopia di massa.md",
+    "Introduzione alla Fisica Nucleare e Subnucleare/Disegni/Schema Spettroscopo di massa.md",
+    "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare/Abbondanze isotopiche della Terra.md",
+    "Introduzione alla Fisica Nucleare e Subnucleare/Disegni/Abbondanze isotopiche Terra.md",
+    "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare/Nuclide.md",
+    "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare/Isotopo.md",
+    "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare/Isobaro.md",
+    "Introduzione alla Fisica Nucleare e Subnucleare/Interazioni fondamentali.md",
+    "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare/Isotono.md",
+    "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare/Esperimento di Rutherford.md",
+    "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare",
+    "Introduzione alla Fisica Nucleare e Subnucleare/Particella.md",
+    "Introduzione alla Fisica Nucleare e Subnucleare/Elettronvolt.md",
+    "Introduzione alla Fisica Nucleare e Subnucleare/Cinematica relativistica/Quadrivettore energia-impulso.md",
+    "Introduzione alla Fisica Nucleare e Subnucleare/Cinematica relativistica/Limite relativistico.md",
+    "Introduzione alla Fisica Nucleare e Subnucleare/Cinematica relativistica/Invariante relativistica.md",
+    "Introduzione alla Fisica Nucleare e Subnucleare/Relazioni utili.md",
     "Introduzione alla Fisica della Materia/Modello dell'atomo di idrogeno.md",
+    "Introduzione alla Fisica della Materia/Disegni/Potenziale atomi idrogenoidi.md",
     "Meccanica Quantistica/Concetti/Matrici di Pauli.md",
     "Metodi Matematici della Fisica/Operatori/Operatore autoaggiunto.md",
     "Metodi Matematici della Fisica/Operatori/Operatore aggiunto.md",
     "Meccanica Quantistica/Concetti/Matrice di Hadamard.md",
     "Meccanica Quantistica/Concetti/Stato.md",
-    "Meccanica Quantistica/Concetti/Spin.md",
-    "Meccanica Quantistica/Concetti/Equazione di Schrödinger.md",
-    "elettrone.md",
-    "Introduzione alla Fisica della Materia/Disegni/Schema modello idrogeno.md",
-    "Introduzione alla Fisica della Materia/Modello di Bohr.md",
-    "Introduzione alla Fisica Nucleare e Subnucleare/Cinematica relativistica/Rapidità.md",
-    "Introduzione alla Fisica Nucleare e Subnucleare/Cinematica relativistica/Invariante relativistica.md",
-    "Introduzione alla Fisica Nucleare e Subnucleare/Cinematica relativistica/Quadrivettore energia-impulso.md",
-    "Introduzione alla Fisica Nucleare e Subnucleare/Cinematica relativistica/Tensore metrico.md",
-    "Introduzione alla Fisica Nucleare e Subnucleare/Disegni/Coordinate Sferiche Particella.md",
-    "Introduzione alla Fisica Nucleare e Subnucleare/Cinematica relativistica/Limite relativistico.md",
-    "Introduzione alla Fisica della Materia/Esperimento di Stern-Gerlach.md",
     "Introduzione alla Fisica Nucleare e Subnucleare/Cinematica relativistica",
-    "Introduzione alla Fisica Nucleare e Subnucleare/Particella.md",
-    "Introduzione alla Fisica Nucleare e Subnucleare/Esperimento di Rutherford.md",
-    "Introduzione alla Fisica della Materia/Disegni/Spira con momento di dipolo.md",
-    "Introduzione alla Fisica Nucleare e Subnucleare/Elettronvolt.md",
-    "Introduzione alla Fisica della Materia/Legge di Rydberg.md",
-    "Introduzione alla Fisica della Materia/Disegni/Schema Modello di Bohr.md",
-    "Costanti/Costante di Rydberg.md",
     "Introduzione alla Fisica della Materia/Disegni",
-    "Introduzione alla Fisica Nucleare e Subnucleare/Interazioni fondamentali.md",
     "Introduzione alla Fisica Nucleare e Subnucleare/Disegni",
     "Introduzione alla Fisica Nucleare e Subnucleare",
     "Introduzione alla Fisica della Materia",
@@ -212,7 +213,6 @@
     "Introduzione all'Astrofisica/File/Gaia HR Diagram.jpg",
     "Introduzione all'Astrofisica/File",
     "Metodi Matematici della Fisica/Tecniche.pdf",
-    "Metodi Matematici della Fisica/Analisi di Fourier",
-    "Metodi Matematici della Fisica/Analisi Complessa"
+    "Metodi Matematici della Fisica/Analisi di Fourier"
   ]
 }

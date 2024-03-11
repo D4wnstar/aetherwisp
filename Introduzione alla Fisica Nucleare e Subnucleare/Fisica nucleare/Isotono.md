@@ -1,0 +1,1 @@
+Si dicono **isotoni** di un elemento i nuclidi dell'elemento con numero di neutroni $N$ uguale. Sono stabili solo con $N=1$. Per esempio, $_{1}^{2}H_{1}$ e $_{2}^{3}He_{1}$.
