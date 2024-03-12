@@ -1,3 +1,4 @@
+L'[[atomo]] di idrogeno (e tutti gli atomi *idrogenoidi*, ossia con un solo elettrone), sono gli atomi dalla struttura più semplice e gli unici ad essere risolvibili analiticamente.
 ### Formulazione di Schroedinger
 Consideriamo l'[[Hamiltoniana]]
 $$H=- \frac{\hbar^{2}}{2M}\nabla^{2}_{R}- \frac{\hbar^{2}}{2m}\nabla^{2}_{r_{e}}- \frac{Ze^{2}}{4\pi\epsilon_{0}|R-r_{e}|}$$
@@ -69,4 +70,18 @@ $$\begin{cases}
 \end{cases}$$
 da cui otteniamo
 $$\left[\frac{d^{2}}{d \rho^{2}} - \frac{l(l+1)}{\rho^{2}} + \frac{\lambda}{\rho} - \frac{1}{4}\right]u_{E,l}(\rho)=0$$
-Questa equazione ha soluzioni esponenziali $u_{E,l}(\rho)\propto e^{-\rho/2}$. Per $\rho \rightarrow \infty$, diventa una soluzione del tipo $u_{E,l}(\rho)=e^{-\rho/2}P_{e,l}(\rho)$, dove $P$ è un polinomio.
+Questa equazione ha soluzioni esponenziali $u_{E,l}(\rho)\propto e^{-\rho/2}$. Per $\rho \rightarrow \infty$, diventa una soluzione del tipo $u_{E,l}(\rho)=e^{-\rho/2}P_{e,l}(\rho)$, dove $P$ è un polinomio. Compiendo una sostituzione magica e incredibile da $u$ a $g$ (???) si trova
+$$\left[\rho \frac{d^{2}}{d\rho^{2}}+\left(2l+2-\rho\right) \frac{d}{d\rho} + (\lambda - l - 1)\right]g(\rho)=0$$
+le cui soluzioni sono dei [[polinomi di Laguerre]]
+$$L_{q}^{p}(\rho)=\frac{d^{p}}{d\rho^{p}}L_{q}(\rho)\quad;\quad L_{q}(\rho)=e^{\rho} \frac{d^{q}}{d\rho^{q}}(\rho^{q}e^{-\rho})$$
+Di fatto si giunge alla soluzione
+$$R_{n,l}(r)=N_{n,l}e^{-\rho/2}L_{n+l}^{2l+1}(\rho)\text{ con }\rho=\frac{2Zr}{na_{\mu}}\text{ e }n=1,2,\ldots;\;l=0,\ldots,n-1$$
+dove $a_{\mu}$ è una correzione del [[raggio di Bohr]].
+
+La funzione d'onda risolta diventa quindi dipendente dai tre numeri quantici $n,l,m$ e ha la forma semplice
+$$\Psi(r,\theta,\phi)=R_{n,l}(r)Y_{l,m}(\theta,\phi)$$
+Gli autovalori di energia possono essere espressi come
+$$E_{n}=-R(\mu) \frac{Z^{2}}{n^{2}}=- \frac{\mu}{m}R_{\infty} \frac{Z^{2}}{n^{2}}$$
+dove $R_{\infty}$ è la [[costante di Rydberg]]. Si nota che sono presenti stati discreti infiniti e che si infittiscono per $n \rightarrow \infty$ quando il potenziale Coulombiano tende a zero. Gli stati risultano degeneri in $l$ ed $m$. La degenerazione dei livelli è data da
+$$d=\underbrace{2}\limits_{m_{s}}\sum\limits_{l=0}^{n-1}\underbrace{2l+1}\limits_{m}=2n^{2}$$
+che racchiude tutti i numeri quantici: abbiamo che $l$ varia da $0$ a $n-1$, per ogni $l$ sono possibili $2l+1$ valori di $m$ e tutto è possibile per entrambi i numeri di [[spin]] $m_{s}=\pm\frac{1}{2}$.
