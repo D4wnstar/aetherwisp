@@ -14,4 +14,4 @@ con $N=0,1,2,\ldots$ i livelli energetici, ossia il numero quantico principale. 
 $$N=2(n-1)+l$$
 Ogni livello energetico ha diversi set di numeri quantici che portano allo stesso livello: il numero di set si dice *degenerazione* e ci sono $2l+1$ set. In presenza di [[spin]], diventa $2(2l+1)$.
 ![[Grafico Modello a shell nucleare|80%|center]]
-Questo modello riproduce i numeri magici con accuratezza fino al 20.
+	Questo modello riproduce i numeri magici con accuratezza fino al 20.

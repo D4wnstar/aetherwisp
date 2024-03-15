@@ -2,10 +2,10 @@
   "quick-latex",
   "table-editor-obsidian",
   "obsidian-excalidraw-plugin",
-  "obsidian-git",
   "mathpad",
   "global-search-and-replace",
   "unicode-search",
   "obsidian-enhancing-export",
-  "obsidian-advanced-slides"
+  "obsidian-advanced-slides",
+  "obsidian-git"
 ]

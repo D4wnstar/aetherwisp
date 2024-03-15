@@ -7,7 +7,7 @@ $$\hat{I}=\sum\limits_{x}|x\rangle\langle x|\sum\limits_{\sigma}|\sigma\rangle\l
 $$\hat{I}|\psi\rangle=\sum\limits_{x,\sigma}(|x\rangle\otimes |\sigma\rangle)(\langle x|\otimes \langle \sigma|)|\psi\rangle$$
 Allora
 $$\psi(x,\sigma)=(\langle x|\otimes \langle \sigma|)|\psi\rangle$$
-che ci dà la generalizzazione della [[funzione d'onda]] che tiene conto anche dello spin per una singola particella. Nel caso di tante particelle, diventa
+che ci dà la generalizzazione della [[Funzione d'onda]] che tiene conto anche dello spin per una singola particella. Nel caso di tante particelle, diventa
 $$\psi(x_{1},\sigma_{1};x_{2},\sigma_{2};\ldots;x_{N},\sigma_{N})=\langle \bar{r}_{i},\sigma_{i}|\equiv x_{i}$$
 Si hanno casi diversi in base alla particella che si considera. Per i bosoni si ha
 $$\psi(x_{1},x_{2},\ldots,x_{i},\ldots,x_{j},\ldots,x_{N})=\psi(x_{1},x_{2},\ldots,x_{j},x_{i},\ldots,x_{N})$$

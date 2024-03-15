@@ -1,4 +1,4 @@
-L'Hamiltoniana di un oscillatore armonico ad una particella è
+L'[[Hamiltoniana]] di un oscillatore armonico ad una particella è
 $$H=\frac{\bar{p}^{2}}{2m}+U(\bar{q})=\frac{\bar{p}^{2}}{2m}+ \frac{m\omega^{2}}{2}\bar{q}^{2}$$
 con $(\bar{p},\bar{q})\in\mathbb{R}^{N}\times\mathbb{R}^{N}$, $\bar{p}=m\bar{v}$ e $\bar{q}^{2}=||\bar{q}||^{2}$. Questa risolve le equazioni canoniche di Hamilton
 $$\begin{cases} \dot{\bar{q}}=\partial_{\bar{q}}H=\frac{d}{dt}\bar{q}\\

@@ -33,7 +33,7 @@ Valgono anche altri risultati
 4. Vale il **teorema di separazione**: dette $u_{n},u_{m}$ due autosoluzioni con autovalori $\lambda_{n},\lambda_{m}$ rispettivamente, se $\lambda_{n}>\lambda_{m}$ allora fra due zeri consecutivi di $u_{m}$ cade almeno uno zero di $u_{n}$.
 5. Vale il **teorema di oscillazione**: supponendo di aver ordinato gli autovalori $\lambda_{n}$ in ordine crescente, la $n$-esima autosoluzione $u_{n}$ ha $n-1$ zeri nell'intervallo aperto $\alpha,\beta$, ossia $n+1$ includendo gli estremi $x=\alpha$ e $x=\beta$.
 ### Esempi
-L'[[equazione di Schrödinger]] indipendente dal tempo, unidimensionale, per una particella quantistica soggetta a potenziale $V(x)$ è del tipo (1)
+L'[[Equazione di Schrödinger]] indipendente dal tempo, unidimensionale, per una particella quantistica soggetta a potenziale $V(x)$ è del tipo (1)
 $$\left[- \frac{d^{2}}{dx^{2}}+V(x)\right]u(x)=\lambda u(x)$$
 Le corrispondenti autofunzioni formano un sistema completo, che garantisce che uno stato può essere espresso come sovrapposizione (cioè serie di Fourier) degli autostati dell'operatore energia.
 
