@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Meccanica Quantistica/Fondamenti/Funzione d'onda.md",
+                "file": "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare/Decadimento.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Meccanica Quantistica/Fondamenti/Funzione d'onda.md",
+                "file": "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare/Decadimento.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Meccanica Quantistica/Fondamenti/Funzione d'onda.md",
+                "file": "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare/Decadimento.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Meccanica Quantistica/Fondamenti/Funzione d'onda.md"
+                "file": "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare/Decadimento.md"
               }
             }
           },
@@ -154,7 +154,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -176,34 +176,35 @@
   },
   "active": "38f73d1bf70a8e7f",
   "lastOpenFiles": [
+    "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare/Decadimento.md",
+    "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare/Stabilità dei nuclei.md",
+    "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare/Potenziale di Woods-Saxon.md",
+    "Introduzione alla Fisica Nucleare e Subnucleare/Atomo.md",
+    "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare/Spettroscopia di massa.md",
+    "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare/Esperimento di Rutherford.md",
+    "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare/Formula semiempirica di massa.md",
+    "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare/Isotono.md",
+    "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare/Nucleone.md",
+    "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare/Nucleo atomico.md",
+    "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare/Modello a shell nucleare.md",
+    "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare/Modello a gas di Fermi.md",
+    "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare/Attività.md",
+    "Introduzione alla Fisica Nucleare e Subnucleare/Disegni/Grafico Attività multiple.md",
+    "Introduzione alla Fisica Nucleare e Subnucleare/Disegni/Grafico Stabilità dei nuclei.md",
+    "Introduzione alla Fisica Nucleare e Subnucleare/Disegni/Grafico Buca di potenziale rettangolare.md",
+    "Introduzione alla Fisica Nucleare e Subnucleare/Disegni/Abbondanze isotopiche Terra.md",
+    "Introduzione alla Fisica Nucleare e Subnucleare/Disegni/Grafico Potenziale di Wood-Saxon.md",
+    "Introduzione alla Fisica Nucleare e Subnucleare/Disegni/Schema Spettroscopo di massa.md",
+    "Introduzione alla Fisica Nucleare e Subnucleare/Disegni/Modelli atomici.md",
+    "Introduzione alla Fisica Nucleare e Subnucleare/Disegni/Grafico Modello a shell nucleare.md",
+    "Introduzione alla Fisica della Materia/Interazioni radiazioni-materia/Sistema a due livelli.md",
     "Meccanica Quantistica/Fondamenti/Equazione di Schrödinger.md",
-    "Meccanica Quantistica/Fondamenti/Funzione d'onda.md",
-    "Metodi Matematici della Fisica/Spazi di Hilbert/Spazi Lp.md",
-    "Algebra lineare/Prodotto scalare.md",
-    "Meccanica Quantistica/Concetti/Notazione Braket.md",
-    "Algebra lineare/Norma.md",
-    "Meccanica Quantistica/Concetti/Indeterminatezza quantistica.md",
-    "Meccanica Quantistica/Concetti/Evolutore.md",
     "Meccanica Quantistica/Disuguaglianza di Heisenberg.md",
     "Meccanica Quantistica/Misure di osservabili.md",
-    "Meccanica Quantistica/Postulati della meccanica quantistica.md",
-    "Meccanica Quantistica/Disegni/Grafico Collasso funzione d'onda.md",
-    "Meccanica Quantistica/Concetti/Autostati degeneri.md",
-    "Introduzione alla Fisica Nucleare e Subnucleare/Atomo.md",
-    "Meccanica Quantistica/Oscillatore armonico quantistico.md",
-    "Costanti/Costante di Planck.md",
+    "Meccanica Quantistica/Concetti/Indeterminatezza quantistica.md",
+    "Introduzione alla Fisica della Materia/Interazioni radiazioni-materia",
     "Meccanica Quantistica/Matematica",
     "Meccanica Quantistica/Fondamenti",
-    "Meccanica Quantistica/Equazioni di Schrödinger.md",
-    "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare/Modello a shell nucleare.md",
-    "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare/Abbondanze isotopiche della Terra.md",
-    "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare/Esperimento di Rutherford.md",
-    "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare/Isobaro.md",
-    "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare/Isotono.md",
-    "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare/Isotopo.md",
-    "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare/Nucleo atomico.md",
-    "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare/Nucleone.md",
-    "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare/Nuclide.md",
     "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare",
     "Introduzione alla Fisica Nucleare e Subnucleare/Cinematica relativistica",
     "Introduzione alla Fisica della Materia/Disegni",
@@ -212,7 +213,6 @@
     "Introduzione alla Fisica della Materia",
     "Introduzione all'Astrofisica/File/M87 Jet.jpg",
     "Introduzione all'Astrofisica/Misure astronomiche/Scala delle distanze cosmica",
-    "Introduzione all'Astrofisica/File/Gaia HR Diagram.jpg",
-    "Introduzione all'Astrofisica/File"
+    "Introduzione all'Astrofisica/File/Gaia HR Diagram.jpg"
   ]
 }
