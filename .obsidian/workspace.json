@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare/Decadimento.md",
+                "file": "Introduzione alla Fisica della Materia/Interazioni radiazioni-materia/Interazione radiazione-materia.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare/Decadimento.md",
+                "file": "Introduzione alla Fisica della Materia/Interazioni radiazioni-materia/Interazione radiazione-materia.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare/Decadimento.md",
+                "file": "Introduzione alla Fisica della Materia/Interazioni radiazioni-materia/Interazione radiazione-materia.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare/Decadimento.md"
+                "file": "Introduzione alla Fisica della Materia/Interazioni radiazioni-materia/Interazione radiazione-materia.md"
               }
             }
           },
@@ -176,6 +176,12 @@
   },
   "active": "38f73d1bf70a8e7f",
   "lastOpenFiles": [
+    "Meccanica Quantistica/Fondamenti/Equazione di Schrödinger.md",
+    "Introduzione alla Fisica della Materia/Interazioni radiazioni-materia/Interazione radiazione-materia.md",
+    "Introduzione alla Fisica della Materia/Interazioni radiazioni-materia/Laser.md",
+    "Introduzione alla Fisica della Materia/Disegni/Schema Sistema a tre livelli.md",
+    "Introduzione alla Fisica della Materia/Disegni/Schema Laser.md",
+    "Introduzione alla Fisica della Materia/Interazioni radiazioni-materia/Sistema a due livelli.md",
     "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare/Decadimento.md",
     "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare/Stabilità dei nuclei.md",
     "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare/Potenziale di Woods-Saxon.md",
@@ -196,12 +202,6 @@
     "Introduzione alla Fisica Nucleare e Subnucleare/Disegni/Grafico Potenziale di Wood-Saxon.md",
     "Introduzione alla Fisica Nucleare e Subnucleare/Disegni/Schema Spettroscopo di massa.md",
     "Introduzione alla Fisica Nucleare e Subnucleare/Disegni/Modelli atomici.md",
-    "Introduzione alla Fisica Nucleare e Subnucleare/Disegni/Grafico Modello a shell nucleare.md",
-    "Introduzione alla Fisica della Materia/Interazioni radiazioni-materia/Sistema a due livelli.md",
-    "Meccanica Quantistica/Fondamenti/Equazione di Schrödinger.md",
-    "Meccanica Quantistica/Disuguaglianza di Heisenberg.md",
-    "Meccanica Quantistica/Misure di osservabili.md",
-    "Meccanica Quantistica/Concetti/Indeterminatezza quantistica.md",
     "Introduzione alla Fisica della Materia/Interazioni radiazioni-materia",
     "Meccanica Quantistica/Matematica",
     "Meccanica Quantistica/Fondamenti",
