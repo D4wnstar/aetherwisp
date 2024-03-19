@@ -1,1 +1,3 @@
 Un **operatore** o **trasformazione** è una generica legge che trasforma elementi di uno spazio, detto *dominio*, in elementi di un altro spazio, detto *codominio* o *immagine*. In genere, i termini "operatore" e "funzione" sono intercambiabili, ma è utile separarli quando si studiano, ad esempio, spazi di funzioni come gli [[Spazi Lp]], dove i termini si confonderebbero.
+
+In fisica, il termine operatore si usa per denotare una funzione definita su uno spazio degli stati ad un altro spazio degli stati.
