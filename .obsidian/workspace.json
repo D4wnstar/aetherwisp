@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Meccanica Quantistica/Matematica/Teorema di Ehrenfest.md",
+                "file": "Introduzione alla Fisica della Materia/Interazioni radiazioni-materia/Interazione radiazione-materia.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 295.5,
-    "collapsed": true
+    "width": 295.5
   },
   "right": {
     "id": "0016483b14bd94db",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Meccanica Quantistica/Matematica/Teorema di Ehrenfest.md",
+                "file": "Introduzione alla Fisica della Materia/Interazioni radiazioni-materia/Interazione radiazione-materia.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Meccanica Quantistica/Matematica/Teorema di Ehrenfest.md",
+                "file": "Introduzione alla Fisica della Materia/Interazioni radiazioni-materia/Interazione radiazione-materia.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Meccanica Quantistica/Matematica/Teorema di Ehrenfest.md"
+                "file": "Introduzione alla Fisica della Materia/Interazioni radiazioni-materia/Interazione radiazione-materia.md"
               }
             }
           },
@@ -154,8 +153,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 6
+        ]
       }
     ],
     "direction": "horizontal",
@@ -177,21 +175,24 @@
   },
   "active": "38f73d1bf70a8e7f",
   "lastOpenFiles": [
-    "Metodi Matematici della Fisica/Operatori/Operatore.md",
+    "Introduzione alla Fisica della Materia/Interazioni radiazioni-materia/Interazione radiazione-materia.md",
+    "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare/Decadimento.md",
+    "Proprietà generali/Funzione generalmente continua.md",
+    "Meccanica Quantistica/Concetti/Evolutore.md",
+    "Introduzione alla Fisica della Materia/Interazioni radiazioni-materia/Laser.md",
+    "Introduzione alla Fisica Nucleare e Subnucleare/Disegni/Schema Decadimento Alpha.md",
     "Meccanica Quantistica/Matematica/Teorema di Ehrenfest.md",
+    "Metodi Matematici della Fisica/Operatori/Operatore.md",
     "Meccanica Quantistica/Fondamenti/Funzione d'onda.md",
     "Meccanica Quantistica/Concetti/Proiettore.md",
     "Meccanica Quantistica/Concetti/Notazione Braket.md",
     "Meccanica Quantistica/Concetti/Indeterminatezza quantistica.md",
     "Meccanica Quantistica/Fondamenti/Collasso della funzione d'onda.md",
     "Metodi Matematici della Fisica/Spazi di Hilbert/Spazi Lp.md",
-    "Introduzione alla Fisica della Materia/Interazioni radiazioni-materia/Interazione radiazione-materia.md",
     "Meccanica Quantistica/Fondamenti/Equazione di Schrödinger.md",
-    "Introduzione alla Fisica della Materia/Interazioni radiazioni-materia/Laser.md",
     "Introduzione alla Fisica della Materia/Disegni/Schema Sistema a tre livelli.md",
     "Introduzione alla Fisica della Materia/Disegni/Schema Laser.md",
     "Introduzione alla Fisica della Materia/Interazioni radiazioni-materia/Sistema a due livelli.md",
-    "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare/Decadimento.md",
     "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare/Stabilità dei nuclei.md",
     "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare/Potenziale di Woods-Saxon.md",
     "Introduzione alla Fisica Nucleare e Subnucleare/Atomo.md",
@@ -200,9 +201,6 @@
     "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare/Formula semiempirica di massa.md",
     "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare/Isotono.md",
     "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare/Nucleone.md",
-    "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare/Nucleo atomico.md",
-    "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare/Modello a shell nucleare.md",
-    "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare/Modello a gas di Fermi.md",
     "Introduzione alla Fisica della Materia/Interazioni radiazioni-materia",
     "Meccanica Quantistica/Matematica",
     "Meccanica Quantistica/Fondamenti",

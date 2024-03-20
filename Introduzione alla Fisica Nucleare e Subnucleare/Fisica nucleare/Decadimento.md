@@ -54,3 +54,75 @@ La probabilità di convertire una particella stabile in radioattività è $\sim1
 $$dN_{1}=Rdt-\lambda_{1}N_{1}dt \rightarrow N_{1}(t)=\frac{R}{\lambda_{1}}(1-e^{-\lambda_{1}t}) \rightarrow A_{1}(t)=\lambda_{1}N_{1}(t)=R(1-e^{-\lambda_{1}t})$$
 - Se $t\ll t_\frac{1}{2}$ allora $A_{1}(t)\sim R\lambda_{1}t$, cioè cresce linearmente con il tempo.
 - Se $t\gg t_\frac{1}{2}$ allora $A_{1}(t)\sim R$, il tasso di produzione è uguale al tasso di decadimento. Questo stato si dice **equilibrio secolare**.
+### Serie di decadimenti
+Nel caso di una serie di decadimenti, e quindi di generazione di nuclei, ho
+$$dN_{i}=\lambda_{i-1}N_{i-1}dt-\lambda_{i}N_{i}dt$$
+dette le **equazioni di Bateman**, che danno una soluzione generale nel caso in cui $N_{0}$ sia costituito solo da nuclei madre. L'attività è
+$$A_{n}=N_{0}\sum\limits_{i=0}^{n}c_{i}e^{-\lambda_{i}t}=N_{0}(c_{1}e^{-\lambda_{1}t}+c_{2}e^{-\lambda_{2}t}+\ldots+c_{n}e^{-\lambda_{n}t})$$
+dove $c_{i}$ è
+$$c_{m}=\frac{\prod_{i=1}^{n}\lambda_{i}}{\prod_{i=1}^{n}(\lambda_{i}-\lambda_{m})}=\frac{\lambda_{1}\lambda_{2}\lambda_{3}\ldots\lambda_{n}}{(\lambda_{1}-\lambda_{m})(\lambda_{2}-\lambda_{m})\ldots(\lambda_{n}-\lambda_{m})}$$
+dove nei produttori ometto il termine $i=m$. Si ha equilibrio secolare nel caso
+$$\lambda_{1}N_{1}=\lambda_{2}N_{2}=\ldots=\lambda_{n}N_{n}$$
+## Tipi di decadimento
+Esistono tre tipi principali di decadimento:
+- **decadimento $\alpha$**
+- **decadimento $\beta$**
+- **decadimento $\gamma$**
+Nei decadimenti $\alpha$ e $\beta$, un nuclide emette una particella $\alpha$ o $\beta$ per diventare più stabile. Nel decadimento $\gamma$, uno stato eccitato emette radiazione $\gamma$ per tornare allo stato fondamentale, senza cambiare la specie nucleare.
+### Decadimento $\alpha$
+Nel decadimento $\alpha$, un nuclide emette una particella $\alpha$, come un nucleo di $_{2}^{4}He_{2}$. Il nucleo rilasciato è molto legato, quindi l'energia cinetica rilasciata è massimizzata. Il processo di decadimento è
+$$_{Z}^{A}X_{N} \rightarrow _{Z-2}^{A-4}X'_{N-2}+\alpha$$
+dove $X$ e $X'$ sono simboli chimici di specie nucleari diverse nello stato iniziale e finale. Il numero di protoni e neutroni deve conservarsi. L'energia cinetica tipica di una tale reazione è nell'ordine dei [[Elettronvolt|MeV]].
+
+Una reazione tipo è
+$$_{88}^{226}Ra_{138}\rightarrow _{86}^{222}Rn_{136}+_{2}^{4}He_{2}$$
+che ha un tempo di dimezzamento di 1600 anni e la particella $\alpha$ ha un'energia cinetica di $4.8$ MeV.
+#### Meccanismo
+Protoni e neutroni hanno energie di legami attorno agli 8 MeV, quindi non possono scappare dal nucleo. Può però succedere che l'emissione di un gruppo di nucleoni sotto forma di un sistema legato sia energeticamente favorita.
+
+Studiamo l'energia potenziale $V(r)$ di una particella $\alpha$ in funzione della distanza $r$ dal nucleo
+
+![[Schema Decadimento Alpha|80%|center]]
+A grandi distanze, $\alpha$ è soggetta a repulsione Coulombiana dei protoni, come si vede in $V_{C}$. $Z$ è il numero atomico del nucleo, $Z-2$ è il numero dopo il decadimento $\alpha$.
+- $Q$ è l'energia di disintegrazione.
+- In $r<a$ si ha una buca di potenziale che rappresenta l'interno del nucleo. La barriera di potenziale è alta $-V_{0}$. In meccanica classica, il nucleone può muoversi dentro questa buca, ma non può uscirne.
+- In $a<r<b$ si forma una seconda barriera di potenziale perché l'energia potenziale supera quella disponibile $Q$. $\alpha$ non può entrare in questa regione.
+- La regione $r>b$ è quella normale fuori dalla barriera.
+L'unico modo che la particella $\alpha$ ha per entrare o uscire dal nucleo è tramite il [[tunneling quantistico]].
+
+Chiamiamo *costante di disintegrazione* $\lambda$ di un emettitore $\alpha$
+$$\lambda=fp\text{ con }f\sim \frac{v}{a}$$
+dove $f$ è la frequenza con cui $\alpha$ si presenta alla barriera, $p$ è la probabilità di trasmissione oltre la barriera e $v$ è la velocità della particella $\alpha$ sulla barriera.
+
+Per comprendere il fenomeno, dobbiamo risolvere l'[[equazione di Schrödinger]] in una dimensione per una particella sottoposta ad una barriera di potenziale $V(x)$. Consideriamo l'[[autostato]] $\Psi$. Allora
+$$\frac{\hbar^{2}}{2m} \frac{d^{2}\Psi(x)}{dx^{2}}+V(x)\Psi(x)=E\Psi(x)$$
+A causa della barriera di potenziale, abbiamo tre soluzione per tre regioni dello spazio, determinate dalle condizione al contorno:
+- $V(x)=0$ per $x<0$ ci dà $\Psi_{1}(x)=Ae^{ik_{1}x}+Be^{-ik_{1}x}$
+- $V(x)=V_{0}$ per $0\leq x\leq a$ ci dà $\Psi_{2}(x)=Ce^{k_{2}x}+De^{-k_{2}x}$
+- $V(x)=0$ per $x>a$ ci dà $\Psi_{3}(x)=Ee^{ik_{3}x}+Fe^{-ik_{3}x}$
+dove
+$$k_{1}=k_{3}=\sqrt{\frac{2mE}{\hbar^{2}}}\quad;\quad k_{2}=\sqrt{\frac{2m(V_{0}-E)}{\hbar^{2}}}$$
+Possiamo chiamare $P$ la probabilità di trasmissione
+$$P=\frac{j_{trasmesso}}{j_{incidente}}$$
+con $j_{trasmesso}$ la corrente nell'onda trasmessa e $j_{incidente}$ la corrente nell'onda incidente. Quindi $P$ è la frazione della corrente incidente e trasmessa oltre la barriera. Si ha
+$$P=\frac{1}{1+ \frac{1}{4} \frac{V_{0}^{2}}{E(V_{0}-E)}\sinh^{2}(k_{2}a)}$$
+In meccanica classica, $P=0$, quindi penetrare la barriera è impossibile. L'onda quantistica invece può penetrare la barriera con probabilità $P$, fenomeno detto *tunnelling quantistico*.
+#### Conservazione dell'energia
+non so, farò prima o poi
+### Decadimento $\beta$
+Nel decadimento $\beta$, il nucleo corregge l'eccesso di protoni $p$ o neutroni $n$ convertendoli l'uno nell'altro.
+$$\text{decadimento }\beta^{-}\text{: }\quad n \rightarrow p+e^{-}+\nu_{e}^{-}$$
+$$\text{decadimento }\beta^{+}\text{: }\quad p \rightarrow n+e^{+}+\nu_{e}$$
+dove $e^{-}$ è un [[elettrone]] e $e^{+}$ è un [[positrone]]. Vengono emessi anche (anti)[[neutrino|neutrini]] elettronici $\nu_{e}$. Esiste anche una terza reazione, chiamata *cattura elettronica*
+$$p+e^{-}\rightarrow n+\nu_{e}$$
+che "promuove" un protone ad un neutrone. È importante ricordare che il protone decade *solo nel nucleo*, non nel vuoto.
+
+Una reazione tipo $\beta^{-}$ è
+$$_{53}^{131}I_{78} \rightarrow _{54}^{131}Xe_{77}$$
+con tempo di dimezzamento di 8.0 giorni.
+### Decadimento $\gamma$
+Nel decadimento $\gamma$,  uno stato eccitato decade in uno stato diseccitato o in quello fondamentale emettendo radiazione $\gamma$. Spesso segue il decadimento $\alpha$ o $\beta$ dato che questi di solito lasciano nuclei figli in stati eccitati.
+### Fissione spontanea
+Alcuni nuclei fissionano spontaneamente senza che la reazione sia indotta. Un nucleo pesante, come l'uranio, si divide in due più leggeri che, a differenza degli altri decadimenti non sono ben determinati. I nuclei in cui si può rompere sono un intero intervallo centrato attorno ad un peso medio, di cui si può misurare la distribuzione di probabilità.
+
+Il fermio $^{256}Fm$ e il californio $^{254}Cf$ sono elementi che mostrano fissione spontanea.
