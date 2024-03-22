@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "e0b3cb662dbe803e",
+        "id": "200f6fa2eb703134",
         "type": "tabs",
         "children": [
           {
-            "id": "38f73d1bf70a8e7f",
+            "id": "97302145187f450b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Introduzione alla Fisica della Materia/Interazioni radiazioni-materia/Interazione radiazione-materia.md",
+                "file": "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare/Decadimento Beta.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Introduzione alla Fisica della Materia/Interazioni radiazioni-materia/Interazione radiazione-materia.md",
+                "file": "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare/Decadimento Beta.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Introduzione alla Fisica della Materia/Interazioni radiazioni-materia/Interazione radiazione-materia.md",
+                "file": "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare/Decadimento Beta.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Introduzione alla Fisica della Materia/Interazioni radiazioni-materia/Interazione radiazione-materia.md"
+                "file": "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare/Decadimento Beta.md"
               }
             }
           },
@@ -153,7 +153,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -173,10 +174,17 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "38f73d1bf70a8e7f",
+  "active": "97302145187f450b",
   "lastOpenFiles": [
-    "Introduzione alla Fisica della Materia/Interazioni radiazioni-materia/Interazione radiazione-materia.md",
+    "Introduzione alla Fisica Nucleare e Subnucleare/Disegni/Grafico Decadimento Potassio.md",
+    "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare/Decadimento Beta.md",
     "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare/Decadimento.md",
+    "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare/Decadimento Gamma.md",
+    "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare/Decadimento Alpha.md",
+    "Introduzione alla Fisica Nucleare e Subnucleare/Disegni/Grafico Decadimento Beta pari.md",
+    "Introduzione alla Fisica Nucleare e Subnucleare/Disegni/Grafico Decadimento Beta dispari.md",
+    "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare/Formula semiempirica di massa.md",
+    "Introduzione alla Fisica della Materia/Interazioni radiazioni-materia/Interazione radiazione-materia.md",
     "Proprietà generali/Funzione generalmente continua.md",
     "Meccanica Quantistica/Concetti/Evolutore.md",
     "Introduzione alla Fisica della Materia/Interazioni radiazioni-materia/Laser.md",
@@ -194,13 +202,6 @@
     "Introduzione alla Fisica della Materia/Disegni/Schema Laser.md",
     "Introduzione alla Fisica della Materia/Interazioni radiazioni-materia/Sistema a due livelli.md",
     "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare/Stabilità dei nuclei.md",
-    "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare/Potenziale di Woods-Saxon.md",
-    "Introduzione alla Fisica Nucleare e Subnucleare/Atomo.md",
-    "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare/Spettroscopia di massa.md",
-    "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare/Esperimento di Rutherford.md",
-    "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare/Formula semiempirica di massa.md",
-    "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare/Isotono.md",
-    "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare/Nucleone.md",
     "Introduzione alla Fisica della Materia/Interazioni radiazioni-materia",
     "Meccanica Quantistica/Matematica",
     "Meccanica Quantistica/Fondamenti",

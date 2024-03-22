@@ -1,0 +1,1 @@
+Il **decadimento $\gamma$** è un tipo di [[decadimento]] nel quale uno stato eccitato decade in uno stato diseccitato o in quello fondamentale emettendo radiazione $\gamma$. Spesso segue il [[decadimento alpha]] o [[Decadimento Beta|beta]] dato che questi di solito lasciano nuclei figli in stati eccitati.
