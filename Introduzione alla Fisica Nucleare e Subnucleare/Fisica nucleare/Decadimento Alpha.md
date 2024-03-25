@@ -5,7 +5,7 @@ dove $X$ e $X'$ sono simboli chimici di specie nucleari diverse nello stato iniz
 Una reazione tipo è
 $$_{88}^{226}Ra_{138}\rightarrow _{86}^{222}Rn_{136}+_{2}^{4}He_{2}$$
 che ha un tempo di dimezzamento di 1600 anni e la particella $\alpha$ ha un'energia cinetica di $4.8$ MeV.
-#### Meccanismo
+## Meccanismo
 Protoni e neutroni hanno energie di legami attorno agli 8 MeV, quindi non possono scappare dal nucleo. Può però succedere che l'emissione di un gruppo di nucleoni sotto forma di un sistema legato sia energeticamente favorita.
 
 Studiamo l'energia potenziale $V(r)$ di una particella $\alpha$ in funzione della distanza $r$ dal nucleo
@@ -35,5 +35,5 @@ $$P=\frac{j_{trasmesso}}{j_{incidente}}$$
 con $j_{trasmesso}$ la corrente nell'onda trasmessa e $j_{incidente}$ la corrente nell'onda incidente. Quindi $P$ è la frazione della corrente incidente e trasmessa oltre la barriera. Si ha
 $$P=\frac{1}{1+ \frac{1}{4} \frac{V_{0}^{2}}{E(V_{0}-E)}\sinh^{2}(k_{2}a)}$$
 In meccanica classica, $P=0$, quindi penetrare la barriera è impossibile. L'onda quantistica invece può penetrare la barriera con probabilità $P$, fenomeno detto *tunnelling quantistico*.
-#### Conservazione dell'energia
+## Conservazione dell'energia
 non so, farò prima o poi

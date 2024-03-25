@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare/Decadimento Beta.md",
+                "file": "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare/Radioattività naturale.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare/Decadimento Beta.md",
+                "file": "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare/Radioattività naturale.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare/Decadimento Beta.md",
+                "file": "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare/Radioattività naturale.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare/Decadimento Beta.md"
+                "file": "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare/Radioattività naturale.md"
               }
             }
           },
@@ -153,8 +153,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 6
+        ]
       }
     ],
     "direction": "horizontal",
@@ -176,15 +175,22 @@
   },
   "active": "97302145187f450b",
   "lastOpenFiles": [
-    "Introduzione alla Fisica Nucleare e Subnucleare/Disegni/Grafico Decadimento Potassio.md",
-    "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare/Decadimento Beta.md",
     "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare/Decadimento.md",
-    "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare/Decadimento Gamma.md",
-    "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare/Decadimento Alpha.md",
-    "Introduzione alla Fisica Nucleare e Subnucleare/Disegni/Grafico Decadimento Beta pari.md",
-    "Introduzione alla Fisica Nucleare e Subnucleare/Disegni/Grafico Decadimento Beta dispari.md",
+    "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare/Radioattività naturale.md",
     "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare/Formula semiempirica di massa.md",
+    "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare/Rapporti di ramificazione.md",
+    "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare/Decadimento Gamma.md",
+    "Introduzione alla Fisica della Materia/Interazioni radiazioni-materia/Quantizzazione del campo elettromagnetico.md",
     "Introduzione alla Fisica della Materia/Interazioni radiazioni-materia/Interazione radiazione-materia.md",
+    "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare/Esperimento di Rutherford.md",
+    "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare/Decadimento Beta.md",
+    "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare/Decadimento Alpha.md",
+    "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare/Abbondanze isotopiche della Terra.md",
+    "Introduzione alla Fisica della Materia/Legge di Rydberg.md",
+    "Analisi reale/Integrali/Integrali della fisica/Campo vettoriale.md",
+    "Introduzione alla Fisica Nucleare e Subnucleare/Disegni/Grafico Decadimento Beta dispari.md",
+    "Introduzione alla Fisica Nucleare e Subnucleare/Disegni/Grafico Decadimento Potassio.md",
+    "Introduzione alla Fisica Nucleare e Subnucleare/Disegni/Grafico Decadimento Beta pari.md",
     "Proprietà generali/Funzione generalmente continua.md",
     "Meccanica Quantistica/Concetti/Evolutore.md",
     "Introduzione alla Fisica della Materia/Interazioni radiazioni-materia/Laser.md",
@@ -195,13 +201,6 @@
     "Meccanica Quantistica/Concetti/Proiettore.md",
     "Meccanica Quantistica/Concetti/Notazione Braket.md",
     "Meccanica Quantistica/Concetti/Indeterminatezza quantistica.md",
-    "Meccanica Quantistica/Fondamenti/Collasso della funzione d'onda.md",
-    "Metodi Matematici della Fisica/Spazi di Hilbert/Spazi Lp.md",
-    "Meccanica Quantistica/Fondamenti/Equazione di Schrödinger.md",
-    "Introduzione alla Fisica della Materia/Disegni/Schema Sistema a tre livelli.md",
-    "Introduzione alla Fisica della Materia/Disegni/Schema Laser.md",
-    "Introduzione alla Fisica della Materia/Interazioni radiazioni-materia/Sistema a due livelli.md",
-    "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare/Stabilità dei nuclei.md",
     "Introduzione alla Fisica della Materia/Interazioni radiazioni-materia",
     "Meccanica Quantistica/Matematica",
     "Meccanica Quantistica/Fondamenti",
