@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare/Radioattività naturale.md",
+                "file": "Introduzione alla Fisica della Materia/Interazioni radiazioni-materia/Quantizzazione del campo elettromagnetico.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare/Radioattività naturale.md",
+                "file": "Introduzione alla Fisica della Materia/Interazioni radiazioni-materia/Quantizzazione del campo elettromagnetico.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare/Radioattività naturale.md",
+                "file": "Introduzione alla Fisica della Materia/Interazioni radiazioni-materia/Quantizzazione del campo elettromagnetico.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare/Radioattività naturale.md"
+                "file": "Introduzione alla Fisica della Materia/Interazioni radiazioni-materia/Quantizzazione del campo elettromagnetico.md"
               }
             }
           },
@@ -153,7 +153,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -175,8 +176,8 @@
   },
   "active": "97302145187f450b",
   "lastOpenFiles": [
-    "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare/Decadimento.md",
     "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare/Radioattività naturale.md",
+    "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare/Decadimento.md",
     "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare/Formula semiempirica di massa.md",
     "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare/Rapporti di ramificazione.md",
     "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare/Decadimento Gamma.md",
