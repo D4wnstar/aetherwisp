@@ -10,7 +10,7 @@ Protoni e neutroni hanno energie di legami attorno agli 8 MeV, quindi non posson
 
 Studiamo l'energia potenziale $V(r)$ di una particella $\alpha$ in funzione della distanza $r$ dal nucleo
 
-![[Schema Decadimento Alpha|80%|center]]
+![[Grafico Decadimento Alpha|80%|center]]
 A grandi distanze, $\alpha$ è soggetta a repulsione Coulombiana dei protoni, come si vede in $V_{C}$. $Z$ è il numero atomico del nucleo, $Z-2$ è il numero dopo il decadimento $\alpha$.
 - $Q$ è l'energia di disintegrazione.
 - In $r<a$ si ha una buca di potenziale che rappresenta l'interno del nucleo. La barriera di potenziale è alta $-V_{0}$. In meccanica classica, il nucleone può muoversi dentro questa buca, ma non può uscirne.

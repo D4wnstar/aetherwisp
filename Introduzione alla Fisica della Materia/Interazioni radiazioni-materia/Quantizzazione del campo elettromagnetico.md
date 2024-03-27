@@ -66,4 +66,13 @@ $$=\frac{1}{4}\langle n|\hat{a}^{+}\hat{a}+\hat{a}\hat{a}^{+}+1-1+1-\hat{a}\hat{
 Se non metto alcun fotone nel sistema, $\hat{a}^{+}\hat{a}$ si annulla, ma rimane una fluttuazione non nulla: $\frac{1}{2}\langle n| \frac{1}{2}|n\rangle$. Questa si chiama **fluttuazione di punto zero**. Ora troviamo le fluttuazioni del campo elettrico
 $$\langle n|\hat{E}^{2}|n\rangle=\frac{\hbar\omega}{2\epsilon_{0}V}\left[ \frac{1}{2}\langle n|\hat{a}^{+}\hat{a}+ \frac{1}{2}|n\rangle\right]$$
 
-Qualcosa qualcosa beam splitter e apparato di Mach-Zender (???), digressione per simpatia. Fotoni sovrapposizione di ogni possibile linea temporale.
+Qualcosa qualcosa beam splitter e apparato di Mach-Zehnder (???), digressione per simpatia. Fotoni sovrapposizione di ogni possibile linea temporale.
+## Stati coerenti
+Definisco uno **stato coerente** come una combinazione lineare di [[stato di Fock|stati di Fock]]
+$$|\alpha\rangle=\sum\limits_{n=0}^{\infty}c_{n}|n\rangle$$
+L'equazione agli autovalori è
+$$\hat{a}|\alpha\rangle\equiv\alpha|\alpha\rangle$$
+quindi
+$$\hat{a}|\alpha\rangle=\sum\limits_{n=0}^{\infty}c_{n}\sqrt{n}|n-1\rangle=\alpha\sum\limits_{n=0}^{\infty}c_{n}|n\rangle=\alpha |\alpha\rangle$$
+$$\boxed{\sum\limits_{m=0}^{\infty}c_{m}\sqrt{m}|m-1\rangle\equiv\alpha\sum\limits_{m=0}^{\infty}c_{m}|m\rangle}$$
+che ci dà una definizione ricorsiva per i coefficienti.
