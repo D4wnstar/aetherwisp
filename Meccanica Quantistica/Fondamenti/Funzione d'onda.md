@@ -36,7 +36,7 @@ Cos'è $\left\langle x \right\rangle$? A causa del collasso dopo un'osservazione
 
 La funzione d'onda varia nel tempo. Allora, anche il valore di aspettazione dipende da $t$. Possiamo trovarne la derivata temporale
 $$\frac{d\left\langle x \right\rangle}{dt}=\int_{-\infty}^{+\infty}x \frac{\partial }{\partial t}|\Psi(x,t)|^{2}dx=\frac{i\hbar}{2m}\int_{-\infty}^{+\infty}x\frac{\partial }{\partial x}\left(\Psi^{*}\frac{\partial \Psi}{\partial x}-\frac{\partial \Psi^{*}}{\partial x}\Psi\right)dx=\ldots$$
-usando un'integrazione per parti e usando che $\lim\limits_{x \rightarrow \pm\infty}\Psi(x,t)=0$
+usando un'[[integrazione per parti]] e usando che $\lim\limits_{x \rightarrow \pm\infty}\Psi(x,t)=0$
 $$\ldots=-\frac{i\hbar}{2m}\int_{-\infty}^{+\infty}\left(\Psi^{*}\frac{\partial \Psi}{\partial x}-\frac{\partial \Psi^{*}}{\partial x}\Psi\right)dx=\ldots$$
 e ancora un'integrazione per parti, su $\partial\Psi^{*}/\partial x$
 $$\ldots=- \frac{i\hbar}{m}\int_{-\infty}^{+\infty}\Psi^{*}\frac{\partial \Psi}{\partial x}dx$$
@@ -51,7 +51,8 @@ $$\boxed{\begin{align}
 \end{align}}$$
 dove $x$ e $p\equiv(\hbar/i)\partial/\partial x$ sono [[Operatore|operatori]] e possiamo calcolarne la media ponendoli in mezzo[^1] a $\Psi^{*}$ e $\Psi$ e poi integrando il risultato su tutto $\mathbb{R}$.
 
-Qualunque quantità dinamica classica è esprimibile in funzione di $x$ e $p$. Allora, per calcolare il valore di aspettazione (nello stato $\Psi$) di una qualsiasi di queste, basta sostituire $p$ con $(\hbar/i)\partial/\partial x$ e integrare come sopra.
+Qualunque quantità dinamica classica $Q$ è esprimibile in funzione di $x$ e $p$. Allora, per calcolare il valore di aspettazione (nello stato $\Psi$) di $Q$, basta sostituire $p$ con $(\hbar/i)\partial/\partial x$ e integrare come sopra. La formula generale è
+$$\left\langle Q(x,p) \right\rangle=\int_{-\infty}^{+\infty}\Psi^{*}Q\left(x, \frac{\hbar}{i}\frac{\partial }{\partial x}\right)\Psi dx$$
 ### Formalizzazione matematica
 Matematicamente, è un elemento di uno [[spazio di Hilbert]] che è il coefficiente di sviluppo degli autostati di posizione di un oggetto. In altre parole, è la *rappresentazione* dell'evoluzione (della posizione) di quell'oggetto in una base. In una dimensione ha la forma
 $$\psi(x)=\langle x|\psi\rangle$$

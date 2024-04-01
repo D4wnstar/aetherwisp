@@ -1,4 +1,4 @@
-Si chiamano **spazi** $L^{p}$ gli spazi di funzioni [[integrale secondo Lebesgue|integrabili secondo Lebesgue]]. Sono tutti [[Spazio di Banach|spazi di Banach]] e $L^{2}$ in particolare è uno [[spazio di Hilbert]].
+Si chiamano **spazi** $L^{p}$ gli spazi di funzioni [[Integrale secondo Lebesgue|integrabili secondo Lebesgue]]. Sono tutti [[Spazio di Banach|spazi di Banach]] e $L^{2}$ in particolare è uno [[spazio di Hilbert]].
 ### Spazio $L^1$
 Si definisce **spazio** $L^{1}(I)$ l'insieme di tutte le funzioni **sommabili** o **integrabili** su un intervallo $I$, ovvero le funzioni $f$ tali per cui vale
 $$\int_{I}|f(x)|dx<+\infty$$

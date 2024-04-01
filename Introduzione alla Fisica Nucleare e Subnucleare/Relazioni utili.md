@@ -1,4 +1,4 @@
-Si chiamano sistemi *microscopici* quelli con grandezze nell'ordine della [[costante di Planck]]. Sistemi più grandi sono detti *macroscopici*. Nei sistemi microscopici ovviamente vale la meccanica quantistica è la [[disuguaglianza di Heisenberg]].
+Si chiamano sistemi *microscopici* quelli con grandezze nell'ordine della [[costante di Planck]]. Sistemi più grandi sono detti *macroscopici*. Nei sistemi microscopici ovviamente vale la meccanica quantistica è la [[Disuguaglianza di Heisenberg]].
 
 È comune usare il prodotto tra costante di Planck e [[velocità della luce]] $\hbar\cdot c=200$ MeV fm per avere un'idea della scala lunghezza/energia.
 

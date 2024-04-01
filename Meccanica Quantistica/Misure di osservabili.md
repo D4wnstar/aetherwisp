@@ -11,7 +11,7 @@ $$\boxed{\psi_{i}=\langle a_{i}|\psi\rangle}$$
 Allora possiamo anche considerare le varianze
 $$\Delta_{\psi}\hat{A}=\langle(\hat{A}-\langle\hat{A}\rangle_{\psi})^{2}\rangle_{\psi}=\langle \psi|(\hat{A}-\langle\hat{A}\rangle_{\psi})^{2}\psi\rangle$$
 $$\Delta_{\psi}\hat{B}=\langle(\hat{B}-\langle\hat{B}\rangle_{\psi})^{2}\rangle_{\psi}=\langle \psi|(\hat{B}-\langle\hat{B}\rangle_{\psi})^{2}\psi\rangle$$
-Riprendendo la [[disuguaglianza di Heisenberg]] abbiamo
+Riprendendo la [[Disuguaglianza di Heisenberg]] abbiamo
 $$\Delta_{\psi}\hat{A}\Delta_{\psi}\hat{B}\geq\;?$$
 dove bisogna trovare il limite inferiore al prodotto delle varianze.
 $$\overline{\langle \psi|\hat{A}\psi\rangle}=\langle \hat{A}\psi|\psi\rangle=\langle \psi|\hat{A}\psi\rangle$$
