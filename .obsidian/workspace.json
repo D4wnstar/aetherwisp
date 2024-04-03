@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Meccanica Quantistica/Fondamenti/Disuguaglianza di Heisenberg.md",
+                "file": "Introduzione alla Fisica della Materia/Struttura fine.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Meccanica Quantistica/Fondamenti/Disuguaglianza di Heisenberg.md",
+                "file": "Introduzione alla Fisica della Materia/Struttura fine.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Meccanica Quantistica/Fondamenti/Disuguaglianza di Heisenberg.md",
+                "file": "Introduzione alla Fisica della Materia/Struttura fine.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Meccanica Quantistica/Fondamenti/Disuguaglianza di Heisenberg.md"
+                "file": "Introduzione alla Fisica della Materia/Struttura fine.md"
               }
             }
           },
@@ -174,8 +174,22 @@
   },
   "active": "6207b7cc6ce736d9",
   "lastOpenFiles": [
-    "Meccanica Quantistica/Matematica/Formula di de Broglie.md",
+    "Introduzione alla Fisica della Materia/Interazioni radiazioni-materia/Quantizzazione del campo elettromagnetico.md",
+    "Introduzione alla Fisica della Materia/Struttura fine.md",
+    "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare/Sezione d'urto.md",
+    "Introduzione alla Fisica Nucleare e Subnucleare/Disegni/Schema Sezione d'urto differenziale.md",
+    "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare/Luminosità nucleare.md",
+    "Introduzione all'Astrofisica/Stelle/Luminosità.md",
+    "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare/Diffusione di particelle.md",
+    "Introduzione alla Fisica Nucleare e Subnucleare/Disegni/Schema Sezione d'urto geometrica.md",
+    "Introduzione alla Fisica Nucleare e Subnucleare/Disegni/Schema Diffusione anelastica.md",
+    "Introduzione alla Fisica Nucleare e Subnucleare/Disegni/Schema Diffusione elastica.md",
+    "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare/Fissione nucleare.md",
+    "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare/Modello a gas di Fermi.md",
     "Meccanica Quantistica/Fondamenti/Disuguaglianza di Heisenberg.md",
+    "Introduzione alla Fisica della Materia/Modello dell'atomo di idrogeno.md",
+    "Metodi Matematici della Fisica/Spazi di Hilbert/Spazio di Banach.md",
+    "Meccanica Quantistica/Matematica/Formula di de Broglie.md",
     "Meccanica Quantistica/Fondamenti/Equazione di Schrödinger.md",
     "Meccanica Quantistica/Fondamenti/Funzione d'onda.md",
     "Meccanica Quantistica/Concetti/Stato.md",
@@ -187,24 +201,10 @@
     "Analisi reale/Integrali/Multidimensionali/Insiemi a misura nulla.md",
     "Analisi reale/Integrali/Multidimensionali/Integrale secondo Lebesgue.md",
     "Analisi reale/Integrali/Unidimensionali",
-    "Analisi reale/Integrali/Kurzweil-Henstock/Integrazione per parti.md",
-    "Analisi reale/Integrali/Kurzweil-Henstock/Convergenza assoluta integrale.md",
-    "Analisi reale/Integrali/Kurzweil-Henstock/Criterio del confronto integrale.md",
-    "Analisi reale/Integrali/Kurzweil-Henstock/Criterio integrale di convergenza.md",
-    "Analisi reale/Integrali/Kurzweil-Henstock/Criterio di convergenza di Cauchy.md",
     "Analisi reale/Integrali/Kurzweil-Henstock/Senza nome",
-    "Metodi Matematici della Fisica/Operatori/Operatore.md",
-    "Meccanica Quantistica/Onde piane.md",
-    "Meccanica Quantistica/Concetti/Notazione Braket.md",
-    "Introduzione alla Fisica della Materia/Interazioni radiazioni-materia/Sistema a due livelli.md",
-    "Introduzione alla Fisica della Materia/Interazioni radiazioni-materia/Schema modi di oscillazione corpo nero.md",
-    "Introduzione alla Fisica della Materia/Interazioni radiazioni-materia/Quantizzazione del campo elettromagnetico.md",
-    "Introduzione alla Fisica della Materia/Interazioni radiazioni-materia/Laser.md",
-    "Introduzione alla Fisica della Materia/Interazioni radiazioni-materia/Interazione radiazione-materia.md",
     "Introduzione alla Fisica della Materia/Interazioni radiazioni-materia",
     "Meccanica Quantistica/Matematica",
     "Meccanica Quantistica/Fondamenti",
-    "Meccanica Quantistica/Disegni/Grafico Collasso funzione d'onda.md",
     "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare",
     "Introduzione alla Fisica Nucleare e Subnucleare/Cinematica relativistica",
     "Introduzione alla Fisica della Materia/Disegni",
