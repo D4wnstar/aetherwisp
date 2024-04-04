@@ -1,6 +1,6 @@
 ---
 aliases:
-  - Principio di indeterminazione
+  - principio di indeterminazione
 ---
 La **disuguaglianza di Heisenberg**, o **principio di incertezza**, è una disuguaglianza che mostra come il prodotto tra l'errore sulla posizione $p$ e quello sulla quantità di moto $q$ di una [[particella]] quantistica ha un minimo costante. Ciò implica che le due quantità non possono essere determinate con precisione arbitraria allo stesso tempo e che misurare con precisione una rende la seconda molto imprecisa. Matematicamente,
 $$\Delta\hat{p}\Delta\hat{q}\geq\frac{\hbar}{2}$$

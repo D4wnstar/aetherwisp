@@ -46,12 +46,12 @@ Di norma si lavora con il momento, o quantità di moto, $p=mv$ della particella:
 $$\left\langle p \right\rangle=m \frac{d\left\langle x \right\rangle}{dt}=- i\hbar\int_{-\infty}^{+\infty}\Psi^{*}\frac{\partial \Psi}{\partial x}dx$$
 $\left\langle x \right\rangle$ e $\left\langle p \right\rangle$ sono solitamente scritte in questo modo
 $$\boxed{\begin{align}
-\left\langle x \right\rangle&=\int_{-\infty}^{+\infty}\Psi^{*}(x)\Psi^{*}dx \\
-\left\langle p \right\rangle&=\int_{-\infty}^{+\infty}\Psi^{*}\left(\frac{\hbar}{i}\frac{\partial }{\partial x}\right)\Psi dx
+\left\langle x \right\rangle &=\int_{-\infty}^{+\infty}\Psi^{*}(x)\Psi dx &= \int_{-\infty}^{+\infty}\Psi^{*}\;\hat{q}\;\Psi dx \\
+\left\langle p \right\rangle&=\int_{-\infty}^{+\infty}\Psi^{*}\left(\frac{\hbar}{i}\frac{\partial }{\partial x}\right)\Psi dx &= \int_{-\infty}^{+\infty}\Psi^{*}\;\hat{p}\;\Psi dx
 \end{align}}$$
-dove $x$ e $p\equiv(\hbar/i)\partial/\partial x$ sono [[Operatore|operatori]] e possiamo calcolarne la media ponendoli in mezzo[^1] a $\Psi^{*}$ e $\Psi$ e poi integrando il risultato su tutto $\mathbb{R}$.
+dove $\hat{q}\equiv x$ e $\hat{p}\equiv(\hbar/i)\partial/\partial x$ sono [[Operatore|operatori]] e possiamo calcolarne la media ponendoli in mezzo[^1] a $\Psi^{*}$ e $\Psi$ e poi integrando il risultato su tutto $\mathbb{R}$.
 
-Qualunque quantità dinamica classica $Q$ è esprimibile in funzione di $x$ e $p$. Allora, per calcolare il valore di aspettazione (nello stato $\Psi$) di $Q$, basta sostituire $p$ con $(\hbar/i)\partial/\partial x$ e integrare come sopra. La formula generale è
+Qualunque [[variabile dinamica]] classica $Q$ è esprimibile in funzione di $x$ e $p$. Allora, per calcolare il valore di aspettazione (nello stato $\Psi$) di $Q$, basta sostituire $p$ con $(\hbar/i)\partial/\partial x$ e integrare come sopra. La formula generale è
 $$\left\langle Q(x,p) \right\rangle=\int_{-\infty}^{+\infty}\Psi^{*}Q\left(x, \frac{\hbar}{i}\frac{\partial }{\partial x}\right)\Psi dx$$
 ### Formalizzazione matematica
 Matematicamente, è un elemento di uno [[spazio di Hilbert]] che è il coefficiente di sviluppo degli autostati di posizione di un oggetto. In altre parole, è la *rappresentazione* dell'evoluzione (della posizione) di quell'oggetto in una base. In una dimensione ha la forma

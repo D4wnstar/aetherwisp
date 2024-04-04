@@ -54,7 +54,8 @@
   "env": {},
   "showExportProgressBar": true,
   "lastExportDirectory": {
-    "win32": "C:\\Users\\samue\\Documents"
+    "win32": "C:\\Users\\samue\\Documents",
+    "linux": "/run/media/dawnstar/vault/vault-home/Documenti"
   },
   "lastExportType": "PDF"
 }
