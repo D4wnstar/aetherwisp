@@ -1,5 +1,5 @@
 L'**equazione di Schrödinger** è un'equazione differenziale di secondo grado che descrive lo [[stato]] di un sistema quantistico in un dato tempo $t$. Si esprime come
-$$i\hbar \frac{\partial \Psi}{\partial t}=- \frac{\hbar^{2}}{2m} \frac{\partial ^{2}\Psi}{\partial x^{2}}+V\Psi$$
+$$\boxed{i\hbar \frac{\partial \Psi}{\partial t}=- \frac{\hbar^{2}}{2m} \frac{\partial ^{2}\Psi}{\partial x^{2}}+V\Psi}$$
 dove $\hbar$ è la [[costante di Planck]] ridotta, $m$ è la massa della [[particella]], $\Psi(x,t)$ è la [[funzione d'onda]] della particella in esame e $V$ è la funzione energia potenziale della particella. Risolvere l'equazione di Schrödinger, trovando quindi l'equazione d'onda, ci permette di conoscere l'evoluzione temporale del sistema quantistico.
 
 Una forma più generale dell'equazione di Schrödinger è
@@ -18,7 +18,7 @@ che dividendo per $\psi \varphi$ prende la forma
 $$\frac{i\hbar}{\varphi(t)} \frac{d\varphi}{dt}(t)=- \frac{\hbar^{2}}{2m} \frac{1}{\psi(x)} \frac{d^{2}\psi}{dx^{2}}(x)+V(x)$$
 dove il membro sinistro dipende solo da $t$ e quello destro da $x$. L'unico caso qui possibile che i due membri siano *entrambi costanti*; se non lo fossero, potrei variare $t$ in quello a sinistra e quindi variare quello a destra a causa dell'uguaglianza. Chiamiamo allora $E$ la costante a cui sono uguali. Allora risolvendo i due membri si trova
 $$\frac{d\varphi}{dt}(t)=- \frac{iE}{\hbar}\varphi(t) \tag{1}$$
-$$\quad - \frac{\hbar^{2}}{2m} \frac{d^{2}\psi}{dx^{2}}(x) + V(x)\psi(x)=E\psi(x)\tag{2}$$
+$$\boxed{- \frac{\hbar^{2}}{2m} \frac{d^{2}\psi}{dx^{2}}(x) + V(x)\psi(x)=E\psi(x)\tag{2}}$$
 che è un sistema di due differenziali ordinarie *non parziali*. La soluzione della $(1)$ si ottiene integrando
 $$\int\frac{1}{\varphi}d\varphi=- \frac{iE}{\hbar}\int dt \quad \rightarrow \quad \varphi=Ce^{-iEt/\hbar}$$
 La soluzione della $(2)$, detta *equazione di Schrödinger indipendente dal tempo*, si può trovare solo una volta deciso il potenziale.

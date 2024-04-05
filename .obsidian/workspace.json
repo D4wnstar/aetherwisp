@@ -13,19 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare/Diffusione di particelle.md",
+                "file": "Meccanica Quantistica/Problema della buca infinita.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "707128d865206396",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Introduzione alla Fisica Nucleare e Subnucleare/Disegni/Schema Diffusione di Rutherford.md"
               }
             }
           }
@@ -79,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 257.5
+    "width": 257.5,
+    "collapsed": true
   },
   "right": {
     "id": "0016483b14bd94db",
@@ -95,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare/Diffusione di particelle.md",
+                "file": "Meccanica Quantistica/Problema della buca infinita.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare/Diffusione di particelle.md",
+                "file": "Meccanica Quantistica/Problema della buca infinita.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare/Diffusione di particelle.md"
+                "file": "Meccanica Quantistica/Problema della buca infinita.md"
               }
             }
           },
@@ -163,8 +154,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "horizontal",
@@ -184,8 +174,15 @@
   },
   "active": "6207b7cc6ce736d9",
   "lastOpenFiles": [
-    "Introduzione alla Fisica Nucleare e Subnucleare/Disegni/Schema Diffusione di Rutherford.md",
+    "Meccanica Quantistica/Fondamenti/Equazione di Schrödinger.md",
+    "Meccanica Quantistica/Problema della buca infinita.md",
+    "Metodi Matematici della Fisica/Analisi di Fourier/Serie di Fourier.md",
+    "Algebra lineare/Sistema completo.md",
+    "Meccanica Quantistica/Disegni/Grafico Buca infinita.md",
+    "Meccanica Quantistica/Concetti/Evolutore.md",
+    "Introduzione alla Fisica Nucleare e Subnucleare/Elettronvolt.md",
     "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare/Diffusione di particelle.md",
+    "Introduzione alla Fisica Nucleare e Subnucleare/Disegni/Schema Diffusione di Rutherford.md",
     "Introduzione alla Fisica Nucleare e Subnucleare/Interazioni fondamentali.md",
     "Introduzione alla Fisica della Materia/Struttura fine.md",
     "Introduzione alla Fisica della Materia/Interazioni radiazioni-materia/Quantizzazione del campo elettromagnetico.md",
@@ -202,14 +199,7 @@
     "Introduzione alla Fisica della Materia/Modello dell'atomo di idrogeno.md",
     "Metodi Matematici della Fisica/Spazi di Hilbert/Spazio di Banach.md",
     "Meccanica Quantistica/Matematica/Formula di de Broglie.md",
-    "Meccanica Quantistica/Fondamenti/Equazione di Schrödinger.md",
     "Meccanica Quantistica/Fondamenti/Funzione d'onda.md",
-    "Meccanica Quantistica/Concetti/Stato.md",
-    "Meccanica Quantistica/Matematica/Teorema di Ehrenfest.md",
-    "Meccanica Quantistica/Misure di osservabili.md",
-    "Costanti/Costante di Planck.md",
-    "Algebra lineare/Prodotto scalare.md",
-    "Analisi reale/Integrali/Unidimensionali/Integrazione per parti.md",
     "Analisi reale/Integrali/Unidimensionali",
     "Analisi reale/Integrali/Kurzweil-Henstock/Senza nome",
     "Introduzione alla Fisica della Materia/Interazioni radiazioni-materia",
