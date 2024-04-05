@@ -4,18 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "513fac78ffa6f643",
+        "id": "5c3917eb91222191",
         "type": "tabs",
         "children": [
           {
-            "id": "e91533339b7198af",
+            "id": "6207b7cc6ce736d9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Meccanica Quantistica/Fondamenti/Equazione di Schrödinger.md",
+                "file": "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare/Diffusione di particelle.md",
                 "mode": "source",
                 "source": false
+              }
+            }
+          },
+          {
+            "id": "707128d865206396",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Introduzione alla Fisica Nucleare e Subnucleare/Disegni/Schema Diffusione di Rutherford.md"
               }
             }
           }
@@ -48,7 +58,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "redshift",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Meccanica Quantistica/Fondamenti/Equazione di Schrödinger.md",
+                "file": "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare/Diffusione di particelle.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Meccanica Quantistica/Fondamenti/Equazione di Schrödinger.md",
+                "file": "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare/Diffusione di particelle.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Meccanica Quantistica/Fondamenti/Equazione di Schrödinger.md"
+                "file": "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare/Diffusione di particelle.md"
               }
             }
           },
@@ -172,53 +182,45 @@
       "obsidian-advanced-slides:Show Slide Preview": false
     }
   },
-  "active": "e91533339b7198af",
+  "active": "6207b7cc6ce736d9",
   "lastOpenFiles": [
-    "Meccanica Quantistica/Problema della buca infinita.md",
-    "Meccanica Quantistica/Fondamenti/Equazione di Schrödinger.md",
-    "Metodi Matematici della Fisica/Operatori/Problema di Sturm-Liouville.md",
-    "Meccanica Quantistica/Concetti/Evolutore.md",
-    "Metodi Matematici della Fisica/Analisi di Fourier/Serie di Fourier.md",
-    "Metodi Matematici della Fisica/Analisi di Fourier/Teorema di Fourier.md",
-    "Meccanica Quantistica/Fondamenti/Funzione d'onda.md",
+    "Introduzione alla Fisica Nucleare e Subnucleare/Disegni/Schema Diffusione di Rutherford.md",
+    "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare/Diffusione di particelle.md",
+    "Introduzione alla Fisica Nucleare e Subnucleare/Interazioni fondamentali.md",
+    "Introduzione alla Fisica della Materia/Struttura fine.md",
+    "Introduzione alla Fisica della Materia/Interazioni radiazioni-materia/Quantizzazione del campo elettromagnetico.md",
+    "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare/Sezione d'urto.md",
+    "Introduzione alla Fisica Nucleare e Subnucleare/Disegni/Schema Sezione d'urto differenziale.md",
+    "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare/Luminosità nucleare.md",
+    "Introduzione all'Astrofisica/Stelle/Luminosità.md",
+    "Introduzione alla Fisica Nucleare e Subnucleare/Disegni/Schema Sezione d'urto geometrica.md",
+    "Introduzione alla Fisica Nucleare e Subnucleare/Disegni/Schema Diffusione anelastica.md",
+    "Introduzione alla Fisica Nucleare e Subnucleare/Disegni/Schema Diffusione elastica.md",
+    "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare/Fissione nucleare.md",
+    "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare/Modello a gas di Fermi.md",
+    "Meccanica Quantistica/Fondamenti/Disuguaglianza di Heisenberg.md",
+    "Introduzione alla Fisica della Materia/Modello dell'atomo di idrogeno.md",
+    "Metodi Matematici della Fisica/Spazi di Hilbert/Spazio di Banach.md",
     "Meccanica Quantistica/Matematica/Formula di de Broglie.md",
+    "Meccanica Quantistica/Fondamenti/Equazione di Schrödinger.md",
+    "Meccanica Quantistica/Fondamenti/Funzione d'onda.md",
+    "Meccanica Quantistica/Concetti/Stato.md",
     "Meccanica Quantistica/Matematica/Teorema di Ehrenfest.md",
     "Meccanica Quantistica/Misure di osservabili.md",
-    "Meccanica Quantistica/Fondamenti/Disuguaglianza di Heisenberg.md",
-    "Meccanica Quantistica/Altro/Cose per esercizi.md",
-    "Meccanica Quantistica/Altro/Da organizzare.md",
-    "Meccanica Quantistica/Altro/Note sul corso.md",
-    "Meccanica Quantistica/Concetti/Teorema di Noether.md",
-    "Meccanica Quantistica/Concetti/Teorema di Stone.md",
-    "Meccanica Quantistica/Concetti/Stato.md",
-    "Meccanica Quantistica/Concetti/Spin.md",
-    "Meccanica Quantistica/Concetti/Qubits.md",
-    "Meccanica Quantistica/Concetti/Proiettore.md",
-    "Meccanica Quantistica/Concetti/Prodotto tensoriale.md",
-    "Meccanica Quantistica/Concetti/Parentesi di Poisson.md",
-    "Meccanica Quantistica/Concetti/Osservabile.md",
-    "Meccanica Quantistica/Concetti/Notazione Braket.md",
-    "Meccanica Quantistica/Concetti/Matrice di Hadamard.md",
-    "Meccanica Quantistica/Concetti/Matrici di Pauli.md",
+    "Costanti/Costante di Planck.md",
+    "Algebra lineare/Prodotto scalare.md",
+    "Analisi reale/Integrali/Unidimensionali/Integrazione per parti.md",
     "Analisi reale/Integrali/Unidimensionali",
-    "Analisi reale/Integrali/Multidimensionali",
+    "Analisi reale/Integrali/Kurzweil-Henstock/Senza nome",
+    "Introduzione alla Fisica della Materia/Interazioni radiazioni-materia",
     "Meccanica Quantistica/Matematica",
     "Meccanica Quantistica/Fondamenti",
-    "Introduzione alla Fisica della Materia/Interazioni radiazioni-materia",
-    "Introduzione alla Fisica della Materia/Disegni",
-    "Introduzione alla Fisica della Materia",
     "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare",
-    "Introduzione alla Fisica Nucleare e Subnucleare/Disegni",
     "Introduzione alla Fisica Nucleare e Subnucleare/Cinematica relativistica",
-    "Introduzione all'Astrofisica/File/AGN Unificato.png",
-    "Introduzione all'Astrofisica/File/M87 Jet Crop.jpg",
-    "export/Unificazione AGN Esame/Introduzione all'Astrofisica/File/M87 Jet.jpg",
-    "export/Unificazione AGN Esame/plugin/chalkboard/img/whiteboard.png",
-    "export/Unificazione AGN Esame/plugin/chalkboard/img/sponge.png",
-    "export/Unificazione AGN Esame/plugin/chalkboard/img/chalk-yellow.png",
-    "export/Unificazione AGN Esame/plugin/chalkboard/img/chalk-white.png",
-    "export/Unificazione AGN Esame/plugin/chalkboard/img/chalk-red.png",
-    "export/Unificazione AGN Esame/plugin/chalkboard/img/chalk-purple.png",
-    "export/Unificazione AGN Esame/plugin/chalkboard/img/chalk-orange.png"
+    "Introduzione alla Fisica della Materia/Disegni",
+    "Introduzione alla Fisica Nucleare e Subnucleare/Disegni",
+    "Introduzione alla Fisica Nucleare e Subnucleare",
+    "Introduzione all'Astrofisica/File/M87 Jet.jpg",
+    "Introduzione all'Astrofisica/File/Gaia HR Diagram.jpg"
   ]
 }
