@@ -36,6 +36,7 @@ che, come atteso, è un insieme infinito e numerabile di soluzioni. $\psi_{1}$ �
 2. hanno $n-1$ nodi.
 3. sono ortonormali fra loro, ossia $\int_{-\infty}^{+\infty}\psi_{m}^{*}(x)\psi_{n}(x)dx=\delta_{mn}$ per ogni $m, n\in\mathbb{N}$.
 4. sono [[Sistema completo|complete]], quindi ogni altra funzione può essere espressa come combinazione lineare di esse.
+
 Dunque le soluzioni formano un [[sistema ortonormale completo]] e una qualunque funzione può essere espressa in [[serie di Fourier]] in questa base:
 $$f(x)=\sum\limits_{n=1}^{\infty}c_{n}\psi_{n}(x)=\sqrt{\frac{2}{a}}\sum\limits_{n=1}^{\infty}c_{n}\sin\left(\frac{n\pi}{a}x\right)$$
 Queste proprietà valgono *spesso*, ma non *sempre*.
@@ -45,10 +46,12 @@ Queste proprietà valgono *spesso*, ma non *sempre*.
 4. vale per quasi tutti i potenziali effettivamente incontrati in fisica
 
 Aggiungendo la dipendenza temporale alle soluzioni e sommandole tutte, troviamo la soluzione all'equazione di Schrödinger dipendente dal tempo:
-$$\Psi(x,t)=\sum\limits_{n=1}^{\infty}c_{n}\sqrt{\frac{2}{a}}\sin\left(\frac{n\pi}{a}x\right)e^{-i(n^{2}\pi^{2}\hbar/2ma^{2})}$$
-I coefficienti per $\Psi(x,0)$ possono essere calcolati come da norma
-$$c_{n}=(\psi_{n},\Psi(x,0))$$
-dove la notazione intende il [[prodotto scalare]].
+$$\boxed{\Psi(x,t)=\sum\limits_{n=1}^{\infty}c_{n}\psi(x)\varphi(t)=\sum\limits_{n=1}^{\infty}c_{n}\sqrt{\frac{2}{a}}\sin\left(\frac{n\pi}{a}x\right)e^{-i(n^{2}\pi^{2}\hbar/2ma^{2})t}}$$
+e anche la condizione iniziale può essere trovata allo stesso modo:
+$$\boxed{\Psi(x,0)=\sum\limits_{n=1}^{\infty}c_{n}\psi(x)=\sum\limits_{n=1}^{\infty}c_{n}\sqrt{\frac{2}{a}}\sin\left(\frac{n\pi}{a}x\right)}$$
+I coefficienti per $\Psi(x,t)$ o $\Psi(x,0)$ possono essere calcolati come di norma
+$$c_{n}=(\psi_{n},\Psi(x,t))\quad\text{ oppure }\quad c_{n}=(\psi_{n},\Psi(x,0))$$
+dove la notazione intende il [[prodotto scalare]]. La [[norma]] di questi coefficienti, $|c_{n}|^{2}$, rappresentano la probabilità che la misura dell'energia della particella dia come risultato un certo $E_{n}$ più che un altro. La misura, inoltre, può *solo* ritornare uno degli $E_{n}$ e *mai* un valore al di fuori, al di là di errori di misura o strumentali.
 
 ---
 $$\begin{cases}

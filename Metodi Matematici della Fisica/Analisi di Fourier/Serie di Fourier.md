@@ -20,3 +20,6 @@ e ottenere un sistema ortonormale, dove vale $(f^{(m)}, f^{(n)})=\delta_{mn}$, a
 $$f=\sum\limits_{n=0}^{\infty}a_{n}f_{n}$$
 con $a_{0}=\sqrt{2L}\alpha_{0}$, $a_{2n}=\sqrt{L}\alpha_{n}$ e $a_{2n-1}=\sqrt{L}\beta_{n}$. È anche possibile invertire la relazione per ottenere i coefficienti dalle funzione
 $$a_{n}=(f_{n},f)$$
+Vale anche l'importante proprietà di normalizzazione
+$$\sum\limits_{n=1}^{\infty}|a_{n}|^{2}=1$$
+e $|a_{n}|^{2}$ può essere vista come una sorta di rappresentazione di "importanza" della $f_{n}$-esima componente: più alto è $|a_{n}|^{2}$, più è importante $f_{n}$ nell'espansione funzione $f$.

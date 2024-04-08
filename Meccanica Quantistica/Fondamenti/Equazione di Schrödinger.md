@@ -16,7 +16,7 @@ e l'equazione di Schrödinger diventa dunque
 $$i\hbar\psi \frac{d\varphi}{dt}=- \frac{\hbar^{2}}{2m} \frac{d^{2}\psi}{dx^{2}}\varphi+V\psi\varphi$$
 che dividendo per $\psi \varphi$ prende la forma
 $$\frac{i\hbar}{\varphi(t)} \frac{d\varphi}{dt}(t)=- \frac{\hbar^{2}}{2m} \frac{1}{\psi(x)} \frac{d^{2}\psi}{dx^{2}}(x)+V(x)$$
-dove il membro sinistro dipende solo da $t$ e quello destro da $x$. L'unico caso qui possibile che i due membri siano *entrambi costanti*; se non lo fossero, potrei variare $t$ in quello a sinistra e quindi variare quello a destra a causa dell'uguaglianza. Chiamiamo allora $E$ la costante a cui sono uguali. Allora risolvendo i due membri si trova
+dove il membro sinistro dipende solo da $t$ e quello destro da $x$. L'unico caso qui possibile che i due membri siano *entrambi costanti*; se non lo fossero, potrei variare $t$ in quello a sinistra e quindi variare quello a destra a causa dell'uguaglianza. Ma il membro a destra è solo dipendente da $x$, non da $t$, quindi non ha senso che cambi variando $t$. Allora segue che devono essere costanti. Chiamiamo allora $E$ la costante a cui sono uguali. Allora risolvendo i due membri si trova
 $$\frac{d\varphi}{dt}(t)=- \frac{iE}{\hbar}\varphi(t) \tag{1}$$
 $$\boxed{- \frac{\hbar^{2}}{2m} \frac{d^{2}\psi}{dx^{2}}(x) + V(x)\psi(x)=E\psi(x)\tag{2}}$$
 che è un sistema di due differenziali ordinarie *non parziali*. La soluzione della $(1)$ si ottiene integrando
