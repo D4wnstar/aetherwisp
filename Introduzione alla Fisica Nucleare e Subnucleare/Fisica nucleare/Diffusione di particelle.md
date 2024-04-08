@@ -95,3 +95,65 @@ quindi dipende da $\propto z^{2}T^{-2}\sin^{-4}(\theta/2)$. Queste dipendenze so
 In regime quantistico vale il [[Disuguaglianza di Heisenberg|principio di indeterminazione]]. L'incertezza $\Delta b$ su $b$ implica $\Delta p\sim \hbar/\Delta b$. La dimostrazione classica ha senso se $\Delta b\ll b$ e $\Delta p\ll p$. Si ha
 $$b\Delta p\gg \Delta b \Delta p \geq \hbar \quad \rightarrow\quad \frac{b\Delta p}{\hbar}\gg 1$$
 Se $b\sim0$ e l'energia del proiettile è molto elevata, risento della forza forte. Allora, la sezione d'urto di Rutherford perde validità. A questo punto mi aiuta a stimare il raggio del nucleo.
+
+Per trovare la sezione d'urto di Rutherford tramite la meccanica quantistica, consideriamo
+- il rinculo del nucleo come trascurabile.
+- inizialmente si ha una carica puntiforme che incide sul nucleo atomico.
+- l'*approssimazione di Born*: $Z\alpha\ll1$, dove $\alpha=1/137$ è la [[costante di struttura fine]].
+Le [[Funzione d'onda|funzioni d'onda]] entranti e uscenti dall'elettrone sono [[onda piana|onde piane]] e valgono
+$$\psi_{i}=\frac{1}{\sqrt{V}}e^{i \vec{p}\cdot\vec{r}/\hbar},\quad \psi_{f}=\frac{1}{\sqrt{V}}e^{i \vec{p}'\cdot\vec{r}'/\hbar}$$
+con $V$ il volume del nucleo. Gli elettroni sono liberi a 0 e a $+\infty$.
+
+Considero le strutture discrete degli elettroni come un continuo.
+$$V=\frac{N}{n}$$
+dove $N$ è il numero di centri diffusori (di fatto il numero di [[nucleone|nucleoni]]) e $n$ è la densità. Per un volume grande, considero una normalizzazione del tipo
+$$\int_{V}|\psi_{i}|^{2}dV=nV$$
+La regola d'oro di Fermi afferma che il tasso di reazioni $W$ è messo in relazione con la velocità delle particelle del fascio, la sezione d'urto ed il volume nel seguente modo:
+$$W=\frac{\sigma v_{e}}{V}=\frac{2\pi}{\hbar}|\langle \psi_{f}|\mathcal{M}_{int}|\psi_{i}\rangle|^{2} \frac{dn}{dE_{f}}$$
+L'energia dello stato finale è $E_{f}$ e vale $dE_{f}=dE'=dE$.
+
+La densità nello [[spazio delle fasi]] è
+$$dn(|\vec{p'}|)=\frac{4\pi |\vec{p'}|d |\vec{p'}|}{(2\pi\hbar)^{3}}V$$
+quindi scrivo la sezione d'urto per l'elettrone nell'elemento di angolo solido $d\Omega$ come
+$$d\sigma \frac{N}{V}=\frac{2\pi}{\hbar}|\langle \psi_{f}|\mathcal{H}_{int}|\psi_{i}\rangle|^{2} \frac{V |\vec{p'}|^{2}d |\vec{p'}|}{(2\pi\hbar)^{3}dE_{f}}d\Omega$$
+Sostituisco $v$ con $c$ per il caso relativistico, nel quale $|\vec{p'}|\sim E'/c$. Allora
+$$\frac{d\sigma}{d\Omega}=\frac{V^{2}}{(2\pi)^{2}} \frac{E'^{2}}{(\hbar c)^{4}} |\langle \psi_{f}|\mathcal{H}_{int}|\psi_{i}\rangle|^{2}$$
+L'Hamiltoniana è
+$$\mathcal{H}_{int}=\phi(\vec{r})$$
+con $\phi(\vec{r})$ il potenziale del campo elettrico. La matrice di transizione è
+$$\mathcal{M}_{fi}=\langle \psi_{f}|\mathcal{H}_{int}|\psi_{f}\rangle=\frac{1}{V}\int e^{-i \vec{p}'\cdot \vec{r}'/\hbar}V(\vec{r})e^{i\vec{p}\cdot \vec{r}/\hbar}d\vec{r}$$
+Definiamo l'*impulso trasferito* $\vec{q}\equiv\vec{p}-\vec{p}'$. Allora la matrice diventa
+$$\mathcal{M}_{fi}=\frac{1}{V}\int V(\vec{r}) e^{-i\vec{q}\cdot\vec{r}/\hbar}d\vec{r}$$
+e vale anche
+$$|\vec{q}|=2 |\vec{p}|\sin\left(\frac{\theta}{2}\right)$$
+con $|\vec{p'}|=|\vec{p}|$ e $(1-\cos\theta)=2\sin^{2}(\theta/2)$. Il quadrato è
+$$|\vec{q}|^{2}=|\vec{p}|^{2}+|\vec{p'}|^{2}-2 |\vec{p}| |\vec{p'}|\cos\theta=2 |\vec{p}|^{2}(1-cos\theta)=4 |\vec{p}|^{2}\sin^{2}\left(\frac{\theta}{2}\right)$$
+
+Consideriamo una carica puntiforme. In un sistema a simmetria sferica, il potenziale è
+$$V(\vec{r})= \frac{zZe^{2}}{4\pi\epsilon_{0}}\int \frac{\rho(\vec{r'})}{|\vec{r}-\vec{r'}|}d\vec{r'}$$
+Tornando alla matrice di transizione, si ha
+$$\mathcal{M}_{fi}=\frac{zZe^{2}}{4\pi\epsilon_{0}V}\int e^{i\vec{q}\cdot\vec{r}/\hbar}d\vec{r}\int \frac{\rho(\vec{r})}{|\vec{r}-\vec{r'}|}d\vec{r}=\ldots$$
+e definendo $\vec{D}=\vec{r}-\vec{r'}$
+$$\ldots=\frac{zZe^{2}}{4\pi\epsilon_{0}V}\int e^{i\vec{q}\cdot\vec{r}/\hbar}\frac{1}{D}d\vec{D}\int \rho(\vec{r}) e^{i\vec{q}\cdot\vec{r}/\hbar}d\vec{r'}$$
+Passiamo in coordinate polari sferiche, usando $\alpha$ angolo polare e $\phi$ angolo azimutale.
+$$\int \frac{\rho^{i\vec{q}\cdot\vec{r}/\hbar}}{r}d\vec{r}=\int_{0}^{2\pi}d\phi\int_{0}^{\pi}\sin\alpha d\alpha \int_{0}^{\pi} \frac{r^{2}}{r}e^{iqr\cos\alpha/\hbar}dr=2\pi\int_{-1}^{1}d(\cos\alpha)\int_{0}^{\infty} \frac{r^{2}}{r}e^{iqr\cos\alpha/\hbar}dr$$
+$$=2\pi\int_{0}^{\infty}r \frac{\hbar}{iqr}(e^{iqr/\hbar}-e^{-iqr/\hbar})dr=2\pi\int_{0}^{\infty}\sin x dx$$
+definendo $x=qr/\hbar$. Il problema è questo integrale diverge. Per sistemarlo, aggiungiamo un termine esponenziale $e^{-\lambda x}$ come
+$$\int_{0}^{\infty}e^{-\lambda x}\sin xdx=\frac{1}{2i}\int_{0}^{\infty}[e^{(i-\lambda)x}-e^{-(i+\lambda x)}] dx=-\frac{1}{2i}\left(\frac{1}{i-\lambda}+ \frac{1}{i+\lambda}\right)=\frac{1}{1+\lambda^{2}}$$
+Agli estremi si ha
+$$\lim\limits_{\lambda \rightarrow 0} \frac{1}{1+\lambda^{2}}=1,\quad\lim\limits_{\lambda \rightarrow \infty} \frac{1}{1+\lambda^{2}}=0$$
+Allora l'aggiunta del termine $e^{-\lambda x}$ tramite moltiplicazione non cambia il risultato fisico. Sostituisco
+$$\int e^{iqD/\hbar} \frac{1}{D}dD=4\pi \left(\frac{\hbar}{q}\right)^{2}$$
+e la matrice diventa
+$$\mathcal{M}_{fi}=\langle \psi_{f}|\mathcal{H}_{int}|\psi_{i}\rangle=\frac{zZe^{2}}{\epsilon_{0}V} \frac{\hbar^{2}}{|\vec{q}|^{2}}\int \rho(\vec{r'}) e^{i\vec{q}\cdot\vec{r}/\hbar}d\vec{r'}$$
+Il termine integrale è il [[fattore di forma]] $F(\vec{q})$.
+
+Nel caso in cui la carica sia puntiforme, si ha
+$$\mathcal{M}_{fi}=\frac{zZe^{2}}{\epsilon_{0}V} \frac{\hbar^{2}}{|\vec{q}|^{2}}$$
+e la sezione d'urto di Rutherford è
+$$\frac{d\sigma}{d\Omega}=\frac{V^{2}E'^{2}}{(2\pi)^{2}(\hbar c)^{4}}|M_{fi}|^{2}=\left(\frac{zZe^{2}}{16\pi\epsilon_{0}}\right) \frac{4E'^{2}}{p^{4}c^{4}} \frac{1}{\sin^{4}(\frac{\theta}{2})}$$
+Nel limite relativistico $E'=|\vec{p'}|c$ e $|\vec{p'}|=|\vec{p}|$ si ha
+$$\frac{d\sigma}{d\Omega}=\left(\frac{zZe^{2}}{8\pi\epsilon_{0}E'}\right)^{2} \frac{1}{\sin^{4}(\frac{\theta}{2})}$$
+Se consideriamo il caso non relativistico della particella di carica $Ze$ che si muove liberamente con $p=mv$ e $E_{cin}=1/2mv^{2}$ e se $E'=mc^{2}\gamma\sim1$, con $\gamma$ il [[coefficiente di Lorentz]], si ha
+$$\frac{d\sigma}{d\Omega}=\left(\frac{zZe^{2}}{4\pi\epsilon_{0}}\right)^{2} \frac{1}{(4E_{cin})^{2}} \frac{1}{\sin^{4}(\frac{\theta}{2})}$$
+che è esattamente il risultato del caso classico.

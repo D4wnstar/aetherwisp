@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Meccanica Quantistica/Problema della buca infinita.md",
+                "file": "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare/Fattore di forma.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 257.5,
-    "collapsed": true
+    "width": 257.5
   },
   "right": {
     "id": "0016483b14bd94db",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Meccanica Quantistica/Problema della buca infinita.md",
+                "file": "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare/Fattore di forma.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Meccanica Quantistica/Problema della buca infinita.md",
+                "file": "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare/Fattore di forma.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,16 +125,8 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Meccanica Quantistica/Problema della buca infinita.md"
+                "file": "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare/Fattore di forma.md"
               }
-            }
-          },
-          {
-            "id": "864cba8e0cc2e337",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {}
             }
           },
           {
@@ -145,16 +136,9 @@
               "type": "git-view",
               "state": {}
             }
-          },
-          {
-            "id": "158e1a321513bd01",
-            "type": "leaf",
-            "state": {
-              "type": "mathpad-view",
-              "state": {}
-            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -172,34 +156,34 @@
       "obsidian-advanced-slides:Show Slide Preview": false
     }
   },
-  "active": "6207b7cc6ce736d9",
+  "active": "d717a05ffdf3d6bb",
   "lastOpenFiles": [
-    "Meccanica Quantistica/Fondamenti/Equazione di Schrödinger.md",
+    "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare/Fattore di forma.md",
+    "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare/Diffusione di particelle.md",
+    "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare/Sezione d'urto.md",
+    "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare/Decadimento Alpha.md",
+    "Introduzione alla Fisica Nucleare e Subnucleare/Disegni/Grafico Decadimento Alpha.md",
+    "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare/Nucleone.md",
+    "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare/Rapporti di ramificazione.md",
+    "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare/Radioattività naturale.md",
+    "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare/Esperimento di Rutherford.md",
+    "Introduzione alla Fisica della Materia/Struttura fine.md",
+    "Introduzione alla Fisica della Materia/Esperimento di Stern-Gerlach.md",
+    "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare/Nucleo atomico.md",
+    "Analisi reale/Calcolo differenziale/Polinomio di Taylor.md",
     "Meccanica Quantistica/Problema della buca infinita.md",
+    "Meccanica Quantistica/Fondamenti/Equazione di Schrödinger.md",
     "Metodi Matematici della Fisica/Analisi di Fourier/Serie di Fourier.md",
     "Algebra lineare/Sistema completo.md",
     "Meccanica Quantistica/Disegni/Grafico Buca infinita.md",
     "Meccanica Quantistica/Concetti/Evolutore.md",
     "Introduzione alla Fisica Nucleare e Subnucleare/Elettronvolt.md",
-    "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare/Diffusione di particelle.md",
     "Introduzione alla Fisica Nucleare e Subnucleare/Disegni/Schema Diffusione di Rutherford.md",
     "Introduzione alla Fisica Nucleare e Subnucleare/Interazioni fondamentali.md",
-    "Introduzione alla Fisica della Materia/Struttura fine.md",
     "Introduzione alla Fisica della Materia/Interazioni radiazioni-materia/Quantizzazione del campo elettromagnetico.md",
-    "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare/Sezione d'urto.md",
     "Introduzione alla Fisica Nucleare e Subnucleare/Disegni/Schema Sezione d'urto differenziale.md",
     "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare/Luminosità nucleare.md",
     "Introduzione all'Astrofisica/Stelle/Luminosità.md",
-    "Introduzione alla Fisica Nucleare e Subnucleare/Disegni/Schema Sezione d'urto geometrica.md",
-    "Introduzione alla Fisica Nucleare e Subnucleare/Disegni/Schema Diffusione anelastica.md",
-    "Introduzione alla Fisica Nucleare e Subnucleare/Disegni/Schema Diffusione elastica.md",
-    "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare/Fissione nucleare.md",
-    "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare/Modello a gas di Fermi.md",
-    "Meccanica Quantistica/Fondamenti/Disuguaglianza di Heisenberg.md",
-    "Introduzione alla Fisica della Materia/Modello dell'atomo di idrogeno.md",
-    "Metodi Matematici della Fisica/Spazi di Hilbert/Spazio di Banach.md",
-    "Meccanica Quantistica/Matematica/Formula di de Broglie.md",
-    "Meccanica Quantistica/Fondamenti/Funzione d'onda.md",
     "Analisi reale/Integrali/Unidimensionali",
     "Analisi reale/Integrali/Kurzweil-Henstock/Senza nome",
     "Introduzione alla Fisica della Materia/Interazioni radiazioni-materia",

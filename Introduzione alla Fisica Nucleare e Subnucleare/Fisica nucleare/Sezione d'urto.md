@@ -34,3 +34,9 @@ quindi lega il tasso di reazioni con la probabilità e la densità. Vale anche
 $$W=\frac{\dot{N}(E)}{N_{b}N_{a}}=\frac{\sigma v_{a}}{V}$$
 con $V=N_{a}/n_{a}$. Allora eguagliando le due formule per $W$ possiamo trovare $\sigma$ come
 $$\sigma=\frac{2\pi}{\hbar v_{a}}|\mathcal{M}_{fi}|^{2}\rho(E')V$$
+## Sezione d'urto di Mott
+La sezione d'urto di Mott tiene conto degli [[spin]] dell'elettrone e del nucleo e di come influenzano la sezione d'urto. Vale
+$$\left(\frac{d\sigma}{d\Omega}\right)_{\text{Mott}}=\left(\frac{d\sigma}{d\Omega}\right)_{\text{Rutherford}}\left[1-\beta^{2}\sin^{2}\left(\frac{\theta}{2}\right)\right]$$
+con $\beta=v/c$. Con rinculo del nucleo trascurabile nel regime $\beta \rightarrow 1$ vale
+$$\left(\frac{d\sigma}{d\Omega}\right)_{\text{Mott}}=\left(\frac{d\sigma}{d\Omega}\right)_{\text{Rutherford}}\cos^{2}\left(\frac{\theta}{2}\right)$$
+La sezione d'urto di Mott diminuisce più rapidamente di Rutherford al crescere di $\theta$.

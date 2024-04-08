@@ -1,1 +1,1 @@
-Un **nucleone** è un [[protone]] o un [[neutrone]] inteso come parte di un [[nucleo|nucleo atomico]].
+Un **nucleone** è un [[protone]] o un [[neutrone]] inteso come parte di un [[nucleo atomico]].
