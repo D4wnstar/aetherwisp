@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "513fac78ffa6f643",
+        "id": "5c3917eb91222191",
         "type": "tabs",
         "children": [
           {
-            "id": "e91533339b7198af",
+            "id": "6207b7cc6ce736d9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Metodi Matematici della Fisica/Analisi di Fourier/Serie di Fourier.md",
+                "file": "Introduzione alla Fisica della Materia/Notazione a termini spettroscopica.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "redshift",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Metodi Matematici della Fisica/Analisi di Fourier/Serie di Fourier.md",
+                "file": "Introduzione alla Fisica della Materia/Notazione a termini spettroscopica.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Metodi Matematici della Fisica/Analisi di Fourier/Serie di Fourier.md",
+                "file": "Introduzione alla Fisica della Materia/Notazione a termini spettroscopica.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,16 +125,8 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Metodi Matematici della Fisica/Analisi di Fourier/Serie di Fourier.md"
+                "file": "Introduzione alla Fisica della Materia/Notazione a termini spettroscopica.md"
               }
-            }
-          },
-          {
-            "id": "864cba8e0cc2e337",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {}
             }
           },
           {
@@ -144,22 +136,13 @@
               "type": "git-view",
               "state": {}
             }
-          },
-          {
-            "id": "158e1a321513bd01",
-            "type": "leaf",
-            "state": {
-              "type": "mathpad-view",
-              "state": {}
-            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 295.5,
-    "collapsed": true
+    "width": 295.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -173,53 +156,45 @@
       "obsidian-advanced-slides:Show Slide Preview": false
     }
   },
-  "active": "e91533339b7198af",
+  "active": "6207b7cc6ce736d9",
   "lastOpenFiles": [
-    "Metodi Matematici della Fisica/Analisi di Fourier/Teorema di Fourier.md",
-    "Metodi Matematici della Fisica/Analisi di Fourier/Serie di Fourier.md",
-    "Meccanica Quantistica/Problema della buca infinita.md",
-    "Analisi reale/Integrali/Unidimensionali/Integrazione per parti.md",
-    "Meccanica Quantistica/Fondamenti/Equazione di Schrödinger.md",
-    "Meccanica Quantistica/Fondamenti/Disuguaglianza di Heisenberg.md",
-    "Analisi reale/Equazioni differenziali/Equazioni differenziali parziali/Equazione di d'Alembert.md",
-    "Meccanica Quantistica/Fondamenti/Funzione d'onda.md",
-    "Meccanica Quantistica/Disegni/Grafico Buca infinita.md",
+    "Introduzione alla Fisica della Materia/Struttura fine.md",
+    "Introduzione alla Fisica della Materia/Notazione a termini spettroscopica.md",
+    "Introduzione alla Fisica della Materia/Disegni/Schema Termine di Darwin.md",
     "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare/Fattore di forma.md",
-    "Introduzione alla Fisica Nucleare e Subnucleare/Disegni/Schema Diffusione di Rutherford.md",
-    "Metodi Matematici della Fisica/Operatori/Problema di Sturm-Liouville.md",
+    "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare/Diffusione di particelle.md",
+    "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare/Sezione d'urto.md",
+    "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare/Decadimento Alpha.md",
+    "Introduzione alla Fisica Nucleare e Subnucleare/Disegni/Grafico Decadimento Alpha.md",
+    "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare/Nucleone.md",
+    "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare/Rapporti di ramificazione.md",
+    "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare/Radioattività naturale.md",
+    "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare/Esperimento di Rutherford.md",
+    "Introduzione alla Fisica della Materia/Esperimento di Stern-Gerlach.md",
+    "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare/Nucleo atomico.md",
+    "Analisi reale/Calcolo differenziale/Polinomio di Taylor.md",
+    "Meccanica Quantistica/Problema della buca infinita.md",
+    "Meccanica Quantistica/Fondamenti/Equazione di Schrödinger.md",
+    "Metodi Matematici della Fisica/Analisi di Fourier/Serie di Fourier.md",
+    "Algebra lineare/Sistema completo.md",
+    "Meccanica Quantistica/Disegni/Grafico Buca infinita.md",
     "Meccanica Quantistica/Concetti/Evolutore.md",
-    "Meccanica Quantistica/Matematica/Formula di de Broglie.md",
-    "Meccanica Quantistica/Matematica/Teorema di Ehrenfest.md",
-    "Meccanica Quantistica/Misure di osservabili.md",
-    "Meccanica Quantistica/Altro/Cose per esercizi.md",
-    "Meccanica Quantistica/Altro/Da organizzare.md",
-    "Meccanica Quantistica/Altro/Note sul corso.md",
-    "Meccanica Quantistica/Concetti/Teorema di Noether.md",
-    "Meccanica Quantistica/Concetti/Teorema di Stone.md",
-    "Meccanica Quantistica/Concetti/Stato.md",
-    "Meccanica Quantistica/Concetti/Spin.md",
-    "Meccanica Quantistica/Concetti/Qubits.md",
-    "Meccanica Quantistica/Concetti/Proiettore.md",
-    "Meccanica Quantistica/Concetti/Prodotto tensoriale.md",
+    "Introduzione alla Fisica Nucleare e Subnucleare/Elettronvolt.md",
+    "Introduzione alla Fisica Nucleare e Subnucleare/Disegni/Schema Diffusione di Rutherford.md",
+    "Introduzione alla Fisica Nucleare e Subnucleare/Interazioni fondamentali.md",
+    "Introduzione alla Fisica della Materia/Interazioni radiazioni-materia/Quantizzazione del campo elettromagnetico.md",
+    "Introduzione alla Fisica Nucleare e Subnucleare/Disegni/Schema Sezione d'urto differenziale.md",
     "Analisi reale/Integrali/Unidimensionali",
-    "Analisi reale/Integrali/Multidimensionali",
+    "Analisi reale/Integrali/Kurzweil-Henstock/Senza nome",
+    "Introduzione alla Fisica della Materia/Interazioni radiazioni-materia",
     "Meccanica Quantistica/Matematica",
     "Meccanica Quantistica/Fondamenti",
-    "Introduzione alla Fisica della Materia/Interazioni radiazioni-materia",
-    "Introduzione alla Fisica della Materia/Disegni",
-    "Introduzione alla Fisica della Materia",
     "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare",
-    "Introduzione alla Fisica Nucleare e Subnucleare/Disegni",
     "Introduzione alla Fisica Nucleare e Subnucleare/Cinematica relativistica",
-    "Introduzione all'Astrofisica/File/AGN Unificato.png",
-    "Introduzione all'Astrofisica/File/M87 Jet Crop.jpg",
-    "export/Unificazione AGN Esame/Introduzione all'Astrofisica/File/M87 Jet.jpg",
-    "export/Unificazione AGN Esame/plugin/chalkboard/img/whiteboard.png",
-    "export/Unificazione AGN Esame/plugin/chalkboard/img/sponge.png",
-    "export/Unificazione AGN Esame/plugin/chalkboard/img/chalk-yellow.png",
-    "export/Unificazione AGN Esame/plugin/chalkboard/img/chalk-white.png",
-    "export/Unificazione AGN Esame/plugin/chalkboard/img/chalk-red.png",
-    "export/Unificazione AGN Esame/plugin/chalkboard/img/chalk-purple.png",
-    "export/Unificazione AGN Esame/plugin/chalkboard/img/chalk-orange.png"
+    "Introduzione alla Fisica della Materia/Disegni",
+    "Introduzione alla Fisica Nucleare e Subnucleare/Disegni",
+    "Introduzione alla Fisica Nucleare e Subnucleare",
+    "Introduzione all'Astrofisica/File/M87 Jet.jpg",
+    "Introduzione all'Astrofisica/File/Gaia HR Diagram.jpg"
   ]
 }
