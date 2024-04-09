@@ -1,3 +1,9 @@
+---
+aliases:
+  - l^1
+  - l^2
+  - l^p
+---
 Si chiamano **spazi** $\ell^{p}$ gli spazi di successioni di numeri complessi che godono della seguente proprietà
 $$\sum\limits_{i=1}^{\infty}|a_{i}|^{p}<+\infty$$
 Tutti gli spazi $\ell^{p}$ sono [[Spazio di Banach|spazi di Banach]].

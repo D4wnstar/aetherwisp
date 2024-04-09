@@ -2,4 +2,4 @@ Una successione di funzioni $\{f_{n}\}_{n\in\mathbb{N}}$ si dice **uniformemente
 $$\lim\limits_{n \rightarrow \infty}\sup\{|f_{n}(x)-f(x)|\}=0$$
 per ogni punto $x$ nel dominio comune di $f$ e delle $f_{n}$. Inoltre, a funzione $f$ è continua.
 
-È una forma più forte della [[convergenza uniforme]], in quanto tutte le successioni uniformemente convergenti sono anche puntualmente convergenti.
+È una forma più forte della [[convergenza puntuale]], in quanto tutte le successioni uniformemente convergenti sono anche puntualmente convergenti.

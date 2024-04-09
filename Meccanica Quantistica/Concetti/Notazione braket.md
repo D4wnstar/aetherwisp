@@ -1,3 +1,9 @@
+---
+aliases:
+  - ket
+  - bra
+  - braket
+---
 Prendo un vettore $v$ in $\mathbb{C}^{N}$. Allora chiamo **bra** il vettore *riga* dei coniugati $\langle v|$ e **ket** il vettore *colonna* $|v\rangle$
 $$\langle v|=(v_{1}^{*},v_{2}^{*},\ldots,v_{N}^{*})\quad;\quad |v\rangle=\pmatrix{v_{1} \\ v_{2} \\ \vdots \\ v_{N}}$$
 Si usa la seguente notazione per rappresentare il [[prodotto scalare]] hermitiano

@@ -1,3 +1,7 @@
+---
+aliases:
+  - aggiunto
+---
 Presi due [[spazio di Hilbert|spazi di Hilbert]] $H$ e $H'$, si dice **operatore aggiunto** $T^{+}$ (anche solo **aggiunto**, anche scritto $T^{\dagger}$) di un [[operatore lineare]] $T:H \rightarrow H'$ un operatore per il quale vale
 $$T^{+}:H'\rightarrow H\quad;\quad(y,Tx)=(T^{+}y,x)\quad\forall\;x,y\in H$$
 Se l'operatore $T$ è limitato, allora ha sempre un aggiunto $T^{+}$ ed è anch'esso limitato e vale $||T||=||T^{+}||$. Inoltre, il dominio di $T^{+}$ coincide con tutto $H'$.

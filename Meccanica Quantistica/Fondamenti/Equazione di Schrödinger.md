@@ -25,7 +25,7 @@ La soluzione della $(2)$, detta *equazione di Schrödinger indipendente dal temp
 ### Proprietà delle soluzioni separabili
 Questa forma conferisce alle soluzioni alcune proprietà particolari:
 1. sono *stati stazionari*. Ciò significa che il [[valore di aspettazione]] della funzione d'onda, ma anche quello di *qualunque* [[variabile dinamica]], è costante nel tempo. È possibile dunque tralasciare il termine temporale $\varphi$ e usare solo quello spaziale $\psi$. Vale anche che se $\Psi$ è normalizzata, lo è anche $\psi$.
-2. L'energia totale è definita e può essere espressa come un'Hamiltoniana della forma $$H(x,p)=\frac{p^{2}}{2m}+V(x)$$con operatore Hamiltoniano associato $$\hat{H}=- \frac{\hbar^{2}}{2m}\frac{\partial ^{2}}{\partial x^{2}}+V(x)$$ottenuto sostituendo $p$ con $\hat{p}$. Allora l'equazione di Schrödinger indipendente dal tempo può essere scritta nella forma estremamente compatta $$\boxed{\hat{H}\psi=E\psi}$$
+2. L'energia totale è definita e può essere espressa come un'Hamiltoniana della forma $$H(x,p)=\frac{p^{2}}{2m}+V(x)$$con operatore Hamiltoniano associato $$\hat{H}=- \frac{\hbar^{2}}{2m}\frac{\partial ^{2}}{\partial x^{2}}+V(x)$$ottenuto sostituendo $p$ con $\hat{p}$. Allora l'equazione di Schrödinger indipendente dal tempo può essere scritta nella forma estremamente compatta $$\boxed{\hat{H}\psi=E\psi}\tag{3}$$
 3. La soluzione generale dell'equazione di Schrödinger *dipendente* dal tempo è una combinazione lineare delle soluzioni separabili *indipendenti* dal tempo. Ciò significa che una volta risolta l'equazione indipendente, si può costruire la soluzione di quella dipendente.
 #### Dimostrazioni e dettagli
 *Stati stazionari.* Prendiamo una soluzione $\Psi(x,t)=\psi(x)e^{-iEt/\hbar}$. Ovviamente dipende da $t$, ma la sua densità di probabilità *no*:
@@ -36,7 +36,7 @@ In particolare, la posizione $\left\langle x \right\rangle$ è costante, quindi 
 
 *Caratteristiche dell'Hamiltoniana.* Il valore di aspettazione dell'Hamiltoniana $H$ è
 $$\left\langle H \right\rangle=\int_{-\infty}^{+\infty}\psi^{*}\hat{H}\psi \;dx=E\int_{-\infty}^{+\infty}|\psi|^{2}dx=E\int_{-\infty}^{+\infty}|\Psi|^{2}=E$$
-che è proprio la costante di separazione trovata nella soluzione sopra. Cerchiamo la varianza di $H$. Partendo da
+che è proprio la costante di separazione trovata nella soluzione sopra. Cerchiamo anche la varianza di $H$. Partendo da
 $$\hat{H}^{2}\psi=\hat{H}(\hat{H}\psi)=\hat{H}(E\psi)=E(\hat{H}\psi)=E^{2}\psi$$
 si ottiene
 $$\left\langle H^{2} \right\rangle=\int_{-\infty}^{+\infty}\psi^{*}\hat{H}^{2}\psi\;dx=E^{2}\int_{-\infty}^{+\infty}|\psi|^{2}dx=E^{2}$$
@@ -46,8 +46,12 @@ Ciò implica che *ogni misura dell'energia totale darà esattamente $E$*, a diff
 *Soluzione generale.* Risolvere l'equazione indipendente di Schrödinger dà un insieme infinito di soluzioni $\psi_{1},\psi_{2},\ldots$, ciascuna con un'energia associata $E_{1},E_{2},\ldots$. Allora è possibile esprimere la soluzione generale a tempo zero come
 $$\Psi(x,0)=\sum\limits_{n=1}^{\infty}c_{n}\psi_{n}(x)$$
 con $c_{1},c_{2},\ldots$ costanti complesse che esistono *sempre*. È poi possibile generalizzare al caso dipendente dal tempo aggiungendo il termine temporale $\varphi$ per ottenere
-$$\Psi(x,t)=\sum\limits_{n=1}^{\infty}c_{n}\psi_{n}(x)e^{-iE_{n}t/\hbar}=\sum\limits_{n=1}^{\infty}c_{n}\Psi_{n}(x,t)$$
+$$\boxed{\Psi(x,t)=\sum\limits_{n=1}^{\infty}c_{n}\psi_{n}(x)e^{-iE_{n}t/\hbar}=\sum\limits_{n=1}^{\infty}c_{n}\Psi_{n}(x,t)}$$
 dove $\psi_{n}e^{-iEt/\hbar}=\Psi_{n}(x,t)$ sono le soluzioni separabili. È importante notare come sebbene queste siano stati stazionari, la soluzione generale *non lo è*.
+
+Partendo dalla $(3)$, si dimostra che vale
+$$\left\langle H \right\rangle=\sum\limits_{n=1}^{\infty}|c_{n}|^{2}E_{n}$$
+Questo dimostra un fatto importante: dato che le $|c_{n}|^{2}$ possono essere interpretate come probabilità e che sono indipendenti dal tempo, la probabilità di ottenere un certo $E_{n}$ è essa stessa indipendente dal tempo. Questa è una manifestazione della conservazione dell'energia in meccanica quantistica.
 #### Teoremi utili
 Per soluzioni normalizzabili, la costante di separazione $E$ è sempre reale.
 

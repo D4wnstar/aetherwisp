@@ -1,4 +1,16 @@
-Si denota $\langle v|w \rangle$ il **prodotto scalare** tra due variabili (usando la [[notazione Braket]], altrimenti $(v,w)$ o $v\cdot w$), che ha le seguenti proprietà:
+---
+aliases:
+  - prodotto hermitiano
+---
+Si denota $(v,w)$, $v\cdot w$ o $\langle v|w \rangle$ (in [[notazione braket]]) il **prodotto scalare** tra due variabili $v$ e $w$ appartenenti ad uno [[spazio vettoriale]]. Se le variabili $v$ e $w$ sono complesse, si dice anche **prodotto hermitiano**.
+
+In spazi vettoriali a dimensione finita, come $\mathbb{R}^{N}$ o $\mathbb{C}^{N}$, il prodotto scalare è definito come una somma di prodotti delle componenti dei vettori. Siano $v,w$ due vettori dello spazio, allora il prodotto scalare tra i due è
+$$\langle v|w\rangle=\sum\limits_{i=0}^{N}v_{i}w_{i}$$
+Si può definire anche su spazi a dimensione infinita, come gli spazi di Hilbert o gli [[spazi Lp]] come $L^{2}(\mathbb{R},dx)$. Allora presi due vettori $|\psi\rangle,|\phi\rangle$ in questo spazio vale
+$$\langle\phi|\psi\rangle=\int_{\mathbb{R}}\overline{\phi(x)}\psi(x)$$
+$$\langle\psi|\psi\rangle=\int_{\mathbb{R}}|\psi(x)|^{2}$$
+### Proprietà
+Ha le seguenti proprietà:
 1. è lineare nel membro di destra (convenzione, i matematici usano a sinistra), ossia $\langle v|\alpha w + \beta z\rangle=\alpha \langle v|w\rangle+\beta \langle v|z\rangle$. 
 2. è antilineare nel membro di sinistra (convenzione, i matematici usano a destra), ossia $\langle \alpha v + \beta w|z\rangle=\alpha^{\ast} \langle v|w\rangle+\beta^{\ast} \langle v|z\rangle$
 3. $\langle v|v\rangle\geq0\;\forall\;|v\rangle\in\mathbb{C}^{n}$
@@ -7,12 +19,7 @@ Si denota $\langle v|w \rangle$ il **prodotto scalare** tra due variabili (usand
 6. $\langle v|w\rangle=\overline{\langle w|v\rangle}$
 7. è continuo, ossia presa una successione $\{x_{n}\}$ convergente a $x\in H$ con $H$ uno [[spazio di Hilbert]], vale che per ogni $y\in H$ si ha $\lim\limits_{n \rightarrow \infty}(y,x_{n})=(y,x)$
 
-In [[spazio vettoriale|spazi vettoriali]] a dimensione finita, come $\mathbb{R}^{N}$ o $\mathbb{C}^{N}$, il prodotto scalare è definito come una somma di prodotti delle componenti dei vettori. Siano $v,w$ due vettori dello spazio, allora il prodotto scalare tra i due è
-$$\langle v|w\rangle=\sum\limits_{i=0}^{N}v_{i}w_{i}$$
-Si può definire anche su spazi a dimensione infinita, come gli spazi di Hilbert o gli [[spazi Lp]] come $L^{2}(\mathbb{R},dx)$. Allora presi due vettori $|\psi\rangle,|\phi\rangle$ in questo spazio vale
-$$\langle\phi|\psi\rangle=\int_{\mathbb{R}}\overline{\phi(x)}\psi(x)$$
-$$\langle\psi|\psi\rangle=\int_{\mathbb{R}}|\psi(x)|^{2}$$
-La continuità vale anche qui, ossia
+La continuità vale anche in spazi a dimensione infinita, ossia
 $$\int_{I}\overline{\phi(x)}\psi_{n}(x)dx \rightarrow \int_{I}\overline{\phi(x)}\psi(x)dx$$
 Se l'intervallo $I$ è misurabile si può prendere $\phi(x)=1$ e si ha
 $$\int_{I}\psi_{n}(x)dx\rightarrow\int_{I}\psi(x)dx$$

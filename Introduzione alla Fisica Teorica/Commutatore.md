@@ -1,0 +1,15 @@
+Il **commutatore** è un valore che indica quanto due elementi legati da un'operazione binaria non soddisfano la proprietà commutativa. Nel caso della moltiplicazione, presi due elementi $A$ e $B$, il loro commutatore è
+$$[A,B]=AB-BA$$
+che è pari a 0 se e solo se vale la proprietà commutativa tra $A$ e $B$ (e dunque $AB=BA$).
+### Proprietà
+Valgono numerose proprietà del commutatore. Le principali sono:
+1. $[A+B,C]=[A,C]+[B,C]$
+2. $[A,A]=0$, quindi un elemento commuta sempre con se stesso.
+3. $[A,B]=-[B,A]$, detta *anticommutatività*.
+4. $[A,[B,C]]+[B,[C,A]]+[C,[A,B]]=0$, detta *identità di Jacobi*.
+
+Nel caso specifico di [[operatore|operatori]], tutti gli operatori commutano con qualunque costante.
+### In meccanica quantistica
+Il commutatore è di importanza primaria nella meccanica quantistica, dove permette di esprimere numerosi concetti relativi al [[Disuguaglianza di Heisenberg|principio di indeterminazione]]. La relazione commutativa più importante della materia è la cosiddetta **relazione commutativa canonica**, che dimostra che l'operatore posizione e l'operatore quantità di moto non commutano:
+$$[\hat{x},\hat{p}]=i\hbar$$
+con $\hbar$ la [[Costante di Planck|costante di Planck ridotta]].
