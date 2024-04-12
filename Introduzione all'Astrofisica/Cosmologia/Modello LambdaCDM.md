@@ -1,3 +1,7 @@
+---
+aliases:
+  - modello cosmologico
+---
 
 1. L'universo è isotropo
 2. Vale la relatività generale

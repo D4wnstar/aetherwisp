@@ -1,9 +1,9 @@
 Un **atomo** è il più piccolo componente di un elemento chimico che non è divisibile tramite i metodi della chimica (acidi/basi, temperature corrispondenti a pochi [[elettronvolt]], etc.) (Haken, Wolf).
 
 L'atomo è costituito da due parti:
-1. il **[[nucleo atomico]]** sta al centro ed è composto da **[[nucleone|nucleoni]]**, che si dividono in **[[protone|protoni]]** e **[[neutrone|neutroni]]**. È carico positivamente.
+1. il **[[Nucleo atomico]]** sta al centro ed è composto da **[[Nucleone|nucleoni]]**, che si dividono in **[[protone|protoni]]** e **[[neutrone|neutroni]]**. È carico positivamente.
 2. gli **[[elettrone|elettroni]]** orbitano il nucleo. Sono carichi negativamente.
-La forma "planetaria" dell'atomo è stata provata con l'[[esperimento di Rutherford]].
+La forma "planetaria" dell'atomo è stata provata con l'[[Esperimento di Rutherford]].
 
 Gli atomi si rappresentano convenzionalmente con $_{Z}^{A}X_{N}$, dove:
 - $X$ è il simbolo chimico.

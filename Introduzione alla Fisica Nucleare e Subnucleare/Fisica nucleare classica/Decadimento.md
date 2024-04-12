@@ -1,4 +1,4 @@
-Il **decadimento** è il processo per il quale il [[nucleo atomico]] si autodistrugge, non lo so cambia dopo
+Il **decadimento** è il processo per il quale il [[Nucleo atomico]] si autodistrugge, non lo so cambia dopo
 ### Legge di decadimento radioattivo
 Consideriamo
 - $N$ nuclei radioattivi
@@ -13,7 +13,7 @@ che è la **legge esponenziale del decadimento radioattivo**, con $N_{0}$ il num
 $$t_{\frac{1}{2}}=\frac{0.693}{\lambda}$$
 ed è il tempo necessario per far decadere metà dei nuclei.
 
-Si dice **vita media** $\tau$ il tempo medio di vita di un [[nuclide]]
+Si dice **vita media** $\tau$ il tempo medio di vita di un [[Nuclide]]
 $$\tau=\frac{\int_{0}^{\infty}t| \frac{dN}{dt}|dt}{\int_{0}^{\infty}| \frac{dN}{dt}|dt}=\frac{1}{\lambda}$$
 ottenuta integrando $| \frac{dN}{dt}|dt$, cioè il numero di nuclei che decadono tra $t$ e $t+dt$.
 
@@ -23,7 +23,7 @@ Allora se $\Delta t\ll \frac{1}{\lambda} \ll t_{\frac{1}{2}}$ posso ignorare i t
 $$|\Delta N|=\lambda N_{0}e^{-\lambda t}\Delta t$$
 che in forma differenziale diventa
 $$\left|\frac{dN}{dt}\right|=\lambda N(t)=\lambda N_{0}e^{-\lambda t}$$
-Usando l'[[attività]] e se $\Delta t\ll t_\frac{1}{2}$ possiamo misurare $\Delta N$
+Usando l'[[Attività]] e se $\Delta t\ll t_\frac{1}{2}$ possiamo misurare $\Delta N$
 $$\Delta N=\int_{t_{1}}^{t_{2}=t_{1}+\Delta t}Adt=A\Delta t$$
 L'attività si misura in **Becquerel**: $1\text{ Bq}=1 \frac{\text{dec}}{\text{s}}$. Storicamente si è usato anche il **Curie**: $1\text{ Cu}=3.7\times10^{10}\frac{\text{dec}}{\text{s}}$, che è l'attività di un giorno del radio.
 

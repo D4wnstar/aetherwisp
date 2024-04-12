@@ -1,4 +1,4 @@
-Il **decadimento $\gamma$** è un tipo di [[decadimento]] nel quale uno stato eccitato decade in uno stato diseccitato o in quello fondamentale emettendo radiazione $\gamma$. Spesso segue il [[decadimento alpha]] o [[Decadimento Beta|beta]] dato che questi di solito lasciano il [[Nucleo atomico|nucleo]] in stati eccitati.
+Il **decadimento $\gamma$** è un tipo di [[Decadimento]] nel quale uno stato eccitato decade in uno stato diseccitato o in quello fondamentale emettendo radiazione $\gamma$. Spesso segue il [[Decadimento Alpha]] o [[Decadimento Beta|beta]] dato che questi di solito lasciano il [[Nucleo atomico|nucleo]] in stati eccitati.
 ## Bilanciamento energetico
 Prendiamo un nucleo di massa $M$ a riposo che decade $\gamma$ da uno stato eccitato con $E_{i}$ ad uno stato con $E_{f}$. Allora
 1. il momento lineare si conserva.
@@ -19,7 +19,7 @@ perché $\frac{(\Delta E)^{2}}{2Mc^{2}}\sim10^{-5}$, che è il contributo del ri
 La radiazione $\gamma$ ha un contributo sia elettrico che magnetico.
 - La radiazione elettrica è causata da una variazione del campo $\vec{E}$ nel nucleo.
 - La radiazione magnetica è causata da una variazione del momento magnetico del nucleo.
-La conservazione angolare e di parità determinano le transizioni possibili. La transizione $\gamma$ da un nucleo iniziale con momento angolare $J_{i}$ e parità $\pi_{i}$ ad uno con momento angolare $J_{f}$ e parità $\pi_{f}$. Parità definita in funzione del suo momento angolare come nel [[modello a shell nucleare]]. Per conservazione angolare
+La conservazione angolare e di parità determinano le transizioni possibili. La transizione $\gamma$ da un nucleo iniziale con momento angolare $J_{i}$ e parità $\pi_{i}$ ad uno con momento angolare $J_{f}$ e parità $\pi_{f}$. Parità definita in funzione del suo momento angolare come nel [[Modello a shell nucleare]]. Per conservazione angolare
 $$\vec{J}_{i}=\vec{J}_{f}+\vec{L}_{\gamma}$$
 con $\vec{L}_{\gamma}$ è il momento angolare del $\gamma$.
 

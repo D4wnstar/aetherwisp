@@ -14,7 +14,7 @@ $$\lambda_{C}=\begin{cases}
 \end{cases}$$
 A causa del [[Disuguaglianza di Heisenberg|principio di indeterminazione]], se voglio studiare una risoluzione spaziale $\Delta x$, devo utilizzare $\lambda_{C}\leq\Delta x$, ossia
 $$p\geq \frac{\hbar}{\Delta x} \rightarrow pc\geq \frac{\hbar c}{\Delta x}\sim \frac{200 \text{ MeV fm}}{\Delta x}$$
-Se il raggio del [[nucleo atomico]] è circa 1 fm, allora ho $p\sim$ 10 - 1000 MeV/c. Se è attorno ai 0.8 fm, si ha $p\sim$ 1000 MeV/c, quindi l'energia deve essere nell'ordine dei GeV.
+Se il raggio del [[Nucleo atomico]] è circa 1 fm, allora ho $p\sim$ 10 - 1000 MeV/c. Se è attorno ai 0.8 fm, si ha $p\sim$ 1000 MeV/c, quindi l'energia deve essere nell'ordine dei GeV.
 ## Diffusione anelastica
 La diffusione anelastica è un tipo di diffusione dove :)
 ![[Schema Diffusione anelastica|60%|center]]
@@ -44,7 +44,7 @@ Nel sistema $(*)$ del laboratorio vale
 $$E'=\frac{E}{\frac{E}{Mc^{2}}(1-\cos\theta)}$$
 con $\theta$ l'angolo di diffusione. Questa quantità è molto importante perché è molto facile da misurare.
 
-Consideriamo un urto di un elettrone su un nucleo con carica $Ze$. Trovo la [[sezione d'urto]] di Rutherford.
+Consideriamo un urto di un elettrone su un nucleo con carica $Ze$. Trovo la [[Sezione d'urto]] di Rutherford.
 
 *grafico dell'urto di Rutherford qui*
 #### Metodo classico
@@ -106,7 +106,7 @@ con $V$ il volume del nucleo. Gli elettroni sono liberi a 0 e a $+\infty$.
 
 Considero le strutture discrete degli elettroni come un continuo.
 $$V=\frac{N}{n}$$
-dove $N$ è il numero di centri diffusori (di fatto il numero di [[nucleone|nucleoni]]) e $n$ è la densità. Per un volume grande, considero una normalizzazione del tipo
+dove $N$ è il numero di centri diffusori (di fatto il numero di [[Nucleone|nucleoni]]) e $n$ è la densità. Per un volume grande, considero una normalizzazione del tipo
 $$\int_{V}|\psi_{i}|^{2}dV=nV$$
 La regola d'oro di Fermi afferma che il tasso di reazioni $W$ è messo in relazione con la velocità delle particelle del fascio, la sezione d'urto ed il volume nel seguente modo:
 $$W=\frac{\sigma v_{e}}{V}=\frac{2\pi}{\hbar}|\langle \psi_{f}|\mathcal{M}_{int}|\psi_{i}\rangle|^{2} \frac{dn}{dE_{f}}$$
@@ -146,7 +146,7 @@ Allora l'aggiunta del termine $e^{-\lambda x}$ tramite moltiplicazione non cambi
 $$\int e^{iqD/\hbar} \frac{1}{D}dD=4\pi \left(\frac{\hbar}{q}\right)^{2}$$
 e la matrice diventa
 $$\mathcal{M}_{fi}=\langle \psi_{f}|\mathcal{H}_{int}|\psi_{i}\rangle=\frac{zZe^{2}}{\epsilon_{0}V} \frac{\hbar^{2}}{|\vec{q}|^{2}}\int \rho(\vec{r'}) e^{i\vec{q}\cdot\vec{r}/\hbar}d\vec{r'}$$
-Il termine integrale è il [[fattore di forma]] $F(\vec{q})$.
+Il termine integrale è il [[Fattore di forma]] $F(\vec{q})$.
 
 Nel caso in cui la carica sia puntiforme, si ha
 $$\mathcal{M}_{fi}=\frac{zZe^{2}}{\epsilon_{0}V} \frac{\hbar^{2}}{|\vec{q}|^{2}}$$

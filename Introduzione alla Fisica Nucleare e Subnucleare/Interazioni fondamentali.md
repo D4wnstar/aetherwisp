@@ -16,7 +16,7 @@ La costante di accoppiamento diventa
 $$\alpha_{G}=\frac{m_{p}^{2}}{\mathcal{M}_{PL}^{2}}\sim10^{-40}$$
 Quindi la costante di accoppiamento in scale nucleari è piccolissima.
 ### Interazione debole
-L'*interazione debole* regola il [[decadimento]] $\beta$. Si determina sperimentalmente che ha un tempo caratteristico $T\sim10^{2}$ s, quindi i decadimenti beta accadono molto lentamente.
+L'*interazione debole* regola il [[Decadimento]] $\beta$. Si determina sperimentalmente che ha un tempo caratteristico $T\sim10^{2}$ s, quindi i decadimenti beta accadono molto lentamente.
 $$G_{Fermi}\sim1.17\times10^{-5}\left(\frac{\hbar c}{\text{GeV}}\right)^{2}$$
 $$\xi_{Fermi}=\sqrt{\frac{(\hbar c)^{3}}{G_{F}}}\sim300\text{ GeV}$$
 $$\alpha_{deb}(\xi^{2}_{Fermi})=\alpha=\frac{1}{137}$$
