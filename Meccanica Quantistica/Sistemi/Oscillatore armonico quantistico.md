@@ -28,7 +28,7 @@ Riconoscendo che $[a_{+},a_{-}]=1$, possiamo esprimere l'Hamiltoniana come
 $$H=\hbar\omega\left(a_{+}a_{-}+ \frac{1}{2}\right)$$
 che possiamo sostituire nell'equazione di Schrödinger
 $$\hbar\omega\left(a_{\pm}a_{\mp}\pm \frac{1}{2}\right)\psi=E\psi\tag{3}$$
-Si dimostra[^1] che se $\psi$ soddisfa l'equazione di Schrödinger per l'energia $E$, allora $(a_{+}\psi)$ soddisfa l'equazione per energia $E+\hbar\omega$. Allo stesso modo, $(a_{-}\psi)$ soddisfa l'equazione per $E-\hbar\omega$. Gli operatori $a_{\pm}$ sono detti [[operatori scaletta]] e permettono di aumentare e diminuire lo stato di energia.
+Si dimostra[^1] che se $\psi$ soddisfa l'equazione di Schrödinger per l'energia $E$, allora $(a_{+}\psi)$ soddisfa l'equazione per energia $E+\hbar\omega$. Allo stesso modo, $(a_{-}\psi)$ soddisfa l'equazione per $E-\hbar\omega$. Gli operatori $a_{\pm}$ sono detti [[operatori di creazione e distruzione|operatori scaletta]] e permettono di aumentare e diminuire lo stato di energia.
 
 Applicando a catena l'operatore di discesa si arriva eventualmente ad una soluzione non normalizzabile: questa non è altro che lo stato fondamentale del sistema. Per questa, vale $a_{-}\psi_{0}=0$. Da qui in poi, l'operatore di discesa smette di darci nuove soluzioni, dato che $a_{-}(0)=0$. Possiamo così determinare la funzione d'onda (spaziale) dello stato fondamentale:
 $$\frac{1}{\sqrt{2\hbar m\omega}}\left(\hbar \frac{d}{dx}+m\omega x\right)\psi_{0}=0\quad \rightarrow \quad \frac{d\psi_{0}}{dx}=- \frac{m\omega}{\hbar} x\psi_{0}$$
@@ -56,11 +56,19 @@ $$\langle a_{-}a_{+}\psi_{n}|\psi_{n}\rangle=\langle(n+1)\psi_{n}|\psi_{n}\rangl
 Ma le $\psi_{n}$ sono normalizzate, quindi $n+1=|c_{n}|^{2}$ e $n=|d_{n}|^{2}$. Mettendole nella $(4)$, si ha
 $$\boxed{a_{+}\psi_{n}=\sqrt{n+1}\psi_{n+1},\quad a_{-}\psi_{n}=\sqrt{n}\psi_{n-1}}$$
 da cui la forma definitiva del $n$-esimo stato dell'oscillatore armonico quantistico:
-$$\boxed{\psi_{n}=\frac{1}{\sqrt{n!}}(a_{+})^{n}\psi_{0}\quad\text{con}\quad E_{n}=\left(n+ \frac{1}{2}\right)\hbar\omega}$$
+$$\boxed{\psi_{n}=\frac{1}{\sqrt{n!}}(a_{+})^{n}\psi_{0}=\frac{1}{\sqrt{n!}}(a_{+})^{n}\left(\frac{m\omega}{2\hbar}\right)^{1/4}e^{-(m\omega/2\hbar)x^{2}}\quad\text{con}\quad E_{n}=\left(n+ \frac{1}{2}\right)\hbar\omega}$$
 
-L'energia potenziale media è
+L'energia potenziale media è[^2]
 $$\left\langle V \right\rangle=\left\langle \frac{1}{2}m\omega^{2}x^{2} \right\rangle=\frac{1}{2}m\omega^{2} \left\langle x^{2} \right\rangle=\ldots=\frac{1}{2}\hbar\omega\left(n+ \frac{1}{2}\right)$$
 cioè esattamente metà dell'energia totale, come nel caso classico.
+## Risultati
+Le $\psi_{n}$ così trovate sono curiosamente diverse dalle soluzioni del moto classico: da una parte, abbiamo che l'energia è quantizzata; dall'altra, notiamo fenomeni che né si osservano né si spiegano in meccanica classica, come il fatto che la probabilità che la particella si trovi al di fuori dell'ampiezza (classica) dell'oscillatore *non* è zero e che la probabilità di trovarsi al centro dell'oscillatore negli stati dispari è *sempre* 0.
+
+Si nota anche che per stati di energia sufficientemente alti ($n\gg1$), la probabilità di osservare la particella in una data posizione è approssimativamente uguale quella classica, se si prende la media.
+
+![[Stati stazionari oscillatore armonico quantistico.png]]
+*Da Introduction to Quantum Mechanics di Griffiths*
+
 
 ---
 
@@ -102,7 +110,6 @@ $$\boxed{\hat{\bar{p}}=-i\hbar\nabla_{\bar{r}}}$$
 Per un sistema quantistico, le variabili di stato sono $q$, la posizione, e $p$, la fase.
 
 
-[^1]: Soddisfare l'equazione di Schrödinger significa che vale $H\psi=E\psi$, quindi vogliamo trovare $H(a_{+}\psi)=(E+\hbar\omega)\psi$. Difatti, si ha
-$$H(a_{+}\psi)=\hbar\omega\left(a_{+}a_{-}+ \frac{1}{2}\right)(a_{+}\psi)=\hbar\omega\left(a_{+}a_{-}a_{+}+ \frac{1}{2}a_{+}\right)\psi=\hbar\omega a_{+}\left(a_{-}a_{+}+ \frac{1}{2}\right)\psi=$$
-$$=a_{+}\left[\hbar\omega\left(\underbrace{a_{+}a_{-}+1}\limits_{*}+ \frac{1}{2}\right)\psi\right]=a_{+}(H+\hbar\omega)\psi=a_{+}(E+\hbar\omega)\psi=(E+\hbar\omega)(a_{+}\psi)$$
-dove in $*$ abbiamo usato il commutatore $[a_{+},a_{-}]=1$ per affermare $a_{-}a_{+}=a_{+}a_{-}+1$.
+[^1]: Soddisfare l'equazione di Schrödinger significa che vale $H\psi=E\psi$, quindi vogliamo trovare $H(a_{+}\psi)=(E+\hbar\omega)\psi$. Difatti, si ha$$H(a_{+}\psi)=\hbar\omega\left(a_{+}a_{-}+ \frac{1}{2}\right)(a_{+}\psi)=\hbar\omega\left(a_{+}a_{-}a_{+}+ \frac{1}{2}a_{+}\right)\psi=\hbar\omega a_{+}\left(a_{-}a_{+}+ \frac{1}{2}\right)\psi=$$$$=a_{+}\left[\hbar\omega\left(\underbrace{a_{+}a_{-}+1}\limits_{*}+ \frac{1}{2}\right)\psi\right]=a_{+}(H+\hbar\omega)\psi=a_{+}(E+\hbar\omega)\psi=(E+\hbar\omega)(a_{+}\psi)$$dove in $*$ abbiamo usato il commutatore $[a_{+},a_{-}]=1$ per affermare $a_{-}a_{+}=a_{+}a_{-}+1$.
+
+[^2]: L'integrale che compare da $\left\langle x^{2} \right\rangle=\int_{-\infty}^{+\infty}\psi_{0}^{*}x^{2}\psi_{0}\;dx$ può essere risolto usando tecniche per [[integrali di posizione e quantità di moto]].

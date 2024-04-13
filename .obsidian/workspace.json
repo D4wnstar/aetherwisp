@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare relativistica/Cromodinamica quantistica.md",
+                "file": "Meccanica Quantistica/Sistemi/Particella libera.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare relativistica/Cromodinamica quantistica.md",
+                "file": "Meccanica Quantistica/Sistemi/Particella libera.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare relativistica/Cromodinamica quantistica.md",
+                "file": "Meccanica Quantistica/Sistemi/Particella libera.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare relativistica/Cromodinamica quantistica.md"
+                "file": "Meccanica Quantistica/Sistemi/Particella libera.md"
               }
             }
           },
@@ -158,8 +158,23 @@
   },
   "active": "6207b7cc6ce736d9",
   "lastOpenFiles": [
-    "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare relativistica/Storia dell'Universo.md",
+    "Meccanica Quantistica/Fondamenti/Funzione d'onda.md",
+    "Meccanica Quantistica/Sistemi/Particella libera.md",
+    "o.md",
+    "Meccanica Quantistica/Orbite quantizzate degli elettroni.md",
+    "Meccanica Quantistica/Sistemi/Buca infinita quantistica.md",
+    "Meccanica Quantistica/Sistemi/Oscillatore armonico quantistico.md",
+    "Introduzione alla Fisica Nucleare e Subnucleare/Particella.md",
+    "Meccanica Quantistica/Immagini/Stati stazionari oscillatore armonico quantistico.png",
+    "Meccanica Quantistica/Immagini/Screenshot 2024-04-13 182203.png",
+    "Meccanica Quantistica/Immagini",
+    "Meccanica classica/Oscillatore armonico.md",
+    "Meccanica Quantistica/Tecniche/Integrali di posizione e quantità di moto.md",
+    "Introduzione alla Fisica Teorica/Commutatore.md",
+    "Meccanica Quantistica/Tecniche",
+    "Meccanica Quantistica/Sistemi",
     "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare relativistica/Cromodinamica quantistica.md",
+    "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare relativistica/Storia dell'Universo.md",
     "Introduzione all'Astrofisica/Cosmologia/Modello LambdaCDM.md",
     "Introduzione alla Fisica Nucleare e Subnucleare/Elettronvolt.md",
     "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare classica/Esperimento di Rutherford.md",
@@ -174,26 +189,13 @@
     "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare classica/Rapporti di ramificazione.md",
     "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare classica/Radioattività naturale.md",
     "Introduzione alla Fisica della Materia/Notazione a termini spettroscopica.md",
-    "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare classica/Nuclide.md",
-    "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare classica/Abbondanze isotopiche della Terra.md",
-    "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare classica/Diffusione di particelle.md",
-    "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare classica/Formula semiempirica di massa.md",
     "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare relativistica",
-    "Meccanica classica/Oscillatore armonico.md",
     "Meccanica classica",
-    "Meccanica Quantistica/Concetti/Notazione braket.md",
-    "Introduzione alla Fisica Teorica/Commutatore.md",
-    "Introduzione alla Fisica della Materia/Struttura fine.md",
-    "Introduzione alla Fisica della Materia/Disegni/Schema Termine di Darwin.md",
-    "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare classica/Fattore di forma.md",
     "Analisi reale/Integrali/Unidimensionali",
     "Analisi reale/Integrali/Kurzweil-Henstock/Senza nome",
     "Introduzione alla Fisica della Materia/Interazioni radiazioni-materia",
     "Meccanica Quantistica/Matematica",
     "Meccanica Quantistica/Fondamenti",
-    "Introduzione alla Fisica Nucleare e Subnucleare/Fisica nucleare classica",
-    "Introduzione alla Fisica Nucleare e Subnucleare/Cinematica relativistica",
-    "Introduzione alla Fisica della Materia/Disegni",
     "Introduzione all'Astrofisica/File/M87 Jet.jpg",
     "Introduzione all'Astrofisica/File/Gaia HR Diagram.jpg"
   ]
