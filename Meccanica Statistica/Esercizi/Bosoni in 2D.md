@@ -1,4 +1,4 @@
-Partiamo in modo analogo al caso tridimensionale. Prendiamo [[bosoni]] con [[spin]] 0. Immagino una griglia suddivisa in quadratini di dimensione $\frac{h}{L}$ dove $h$ è la [[costante di Planck]]. La quantità di moto è
+Partiamo in modo analogo al caso tridimensionale. Prendiamo [[Bosone]] con [[spin]] 0. Immagino una griglia suddivisa in quadratini di dimensione $\frac{h}{L}$ dove $h$ è la [[costante di Planck]]. La quantità di moto è
 $$\vec{p}=\frac{h}{L}(n_{x},n_{y})$$
 La densità è
 $$\rho= \frac{1}{V} \frac{z}{1-z}+ \frac{1}{V}\sum\limits_{|\vec{p}|>0} \frac{z}{e^{\beta \frac{p^{2}}{2m}}-z}$$

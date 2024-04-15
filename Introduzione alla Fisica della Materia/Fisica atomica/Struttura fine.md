@@ -1,4 +1,4 @@
-La **struttura fine** è la struttura ottenuta applicando correzioni relativistiche ottenute dalla [[funzione d'onda]] relativistica al modello dell'[[atomo]] di idrogeno.
+La **struttura fine** è la struttura ottenuta applicando correzioni relativistiche ottenute dalla [[funzione d'onda]] relativistica al modello dell'[[atomo di idrogeno]].
 ## Trattamento perturbativo
 È composta da tre correzioni (tutte relativistiche):
 1. correzione relativistica dell'energia cinetica

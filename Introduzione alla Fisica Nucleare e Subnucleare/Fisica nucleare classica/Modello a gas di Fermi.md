@@ -1,5 +1,5 @@
 Il **modello a gas di Fermi** è un modello del nucleo nello stato fondamentale di un [[atomo]]. Si basa su alcune supposizioni:
-1. [[protone|protoni]] e [[neutrone|neutroni]] sono [[fermioni]].
+1. [[protone|protoni]] e [[neutrone|neutroni]] sono [[Fermione]].
 2. i nucleoni si muovono liberamente nel nucleo.
 ### Formulazione
 Consideriamo una [[particella]]. A causa del [[principio di indeterminazione]], essa occupa una volume $h^{3}=(2\pi\hbar)^{2}$ nello spazio delle fasi (6-dimensionale, posizione + impulso). Prendiamo un volume $V$ nello spazio e un volume $4\pi p^{2}dp$ con una calotta sferica di raggio $\bar{p}$ e spessore $d\bar{p}$ nell'impulso. Gli stati accessibili allora sono

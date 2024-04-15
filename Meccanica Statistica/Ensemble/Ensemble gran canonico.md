@@ -15,7 +15,7 @@ Usando la formula per $\ln Z$ troviamo
 $$\langle n_{\gamma} \rangle=- \frac{1}{\beta}\frac{\partial }{\partial \epsilon_{\gamma}}\sum\limits_{\sigma}\sigma\ln(1+\sigma e^{-\beta \epsilon_{\alpha}}z)=- \frac{1}{\beta} \frac{\partial }{\partial \epsilon_{\alpha}}[\sigma\ln(1+\sigma e^{-\beta \epsilon_{\gamma}})z]=$$
 $$=\frac{\sigma}{1+\sigma e^{-\beta \epsilon_{\gamma}}z}\sigma e^{-\beta \epsilon_{\gamma}}z= \frac{z}{e^{\beta \epsilon_{\gamma}}+\sigma z}$$
 che ci dà l'*occupazione media dello stato*.
-Questa formula cambia per [[fermioni]] e [[bosoni]]
+Questa formula cambia per [[Fermione]] e [[Bosone]]
 $$\mbox{Fermioni: }\frac{1}{e^{\beta(E_{\gamma}-\mu)}+1}\quad\mbox{Bosoni: }\frac{1}{e^{\beta(E_{\gamma}-\mu)}-1}$$
 ossia si ha $z=1$ e cambia il segno al denominatore.
 
@@ -34,7 +34,7 @@ $$\rho= \frac{\langle N \rangle}{V}=\sum\limits_{\alpha} \frac{\langle n_{\alpha
 ## Proprietà a temperature prossime a 0
 Vogliamo trovare una relazione tra lo [[stato fondamentale]] del sistema e le proprietà di meccanica statistica nel caso di temperature che tendono allo zero. Ci aspettiamo che convergano. Partiamo dall'[[Potenziali termodinamici#Energia libera di Helmholtz|energia libera di Helmholzt]].
 $$A(N,T,V)=E(N,T,V)-TS(N,T,V)\quad T \rightarrow 0$$
-Consideriamo lo stato fondamentale per i [[bosoni]] con [[spin]] 0. Abbiamo $\alpha = \bar{p}$. Supponiamo di avere $N$ particelle. Descriviamo l'energia come
+Consideriamo lo stato fondamentale per i [[Bosone]] con [[spin]] 0. Abbiamo $\alpha = \bar{p}$. Supponiamo di avere $N$ particelle. Descriviamo l'energia come
 $$E=\sum\limits_{\bar{p}}n_{p}\epsilon_{p}$$
 dove c'è il vincolo che $\sum n_{p}=n$. In questo caso, $e_{p}=p^{2}/2m$ e $\bar{p}=\frac{h}{L}(n_{x},n_{y},n_{z})$.
 Cerchiamo la densità

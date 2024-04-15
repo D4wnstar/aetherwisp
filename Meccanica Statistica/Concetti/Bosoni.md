@@ -1,1 +1,0 @@
-I **bosoni** sono particelle fondamentali con [[spin]] intero.
