@@ -22,6 +22,8 @@ $$\boxed{- \frac{\hbar^{2}}{2m} \frac{d^{2}\psi}{dx^{2}}(x) + V(x)\psi(x)=E\psi(
 che è un sistema di due differenziali ordinarie *non parziali*. La soluzione della $(1)$ si ottiene integrando
 $$\int\frac{1}{\varphi}d\varphi=- \frac{iE}{\hbar}\int dt \quad \rightarrow \quad \varphi=Ce^{-iEt/\hbar}$$
 La soluzione della $(2)$, detta *equazione di Schrödinger indipendente dal tempo*, si può trovare solo una volta deciso il potenziale.
+
+Se due o più soluzioni distinte (ossia [[lineare indipendenza|linearmente indipendenti]]) della $(2)$ hanno la stessa energia $E$, allora si dicono **degeneri**.
 ### Proprietà delle soluzioni separabili
 Questa forma conferisce alle soluzioni alcune proprietà particolari:
 1. sono *stati stazionari*. Ciò significa che il [[valore di aspettazione]] della funzione d'onda, ma anche quello di *qualunque* [[variabile dinamica]], è costante nel tempo. È possibile dunque tralasciare il termine temporale $\varphi$ e usare solo quello spaziale $\psi$. Vale anche che se $\Psi$ è normalizzata, lo è anche $\psi$.
@@ -58,3 +60,5 @@ Per soluzioni normalizzabili, la costante di separazione $E$ è sempre reale.
 La funzione d'onda indipendente dal tempo $\psi(x)$ può essere sempre considerata reale, a differenza di $\Psi(x,t)$ che è sempre complessa. Ciò non significa che ogni $\psi_{n}$ deve essere reale, ma è sempre possibile esprimere ogni $\psi_{n}$ complessa come combinazione lineare di $\psi_{n}$ reali con la stessa energia.
 
 Se $V(x)$ è pari, allora $\psi(x)$ è o pari o dispari.
+
+In una dimensione, non esistono [[Stati in meccanica quantistica|stati legati]] degeneri.
