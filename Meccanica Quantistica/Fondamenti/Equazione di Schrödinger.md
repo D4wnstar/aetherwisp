@@ -27,7 +27,7 @@ Se due o più soluzioni distinte (ossia [[lineare indipendenza|linearmente indip
 ### Proprietà delle soluzioni separabili
 Questa forma conferisce alle soluzioni alcune proprietà particolari:
 1. sono *stati stazionari*. Ciò significa che il [[valore di aspettazione]] della funzione d'onda, ma anche quello di *qualunque* [[variabile dinamica]], è costante nel tempo. È possibile dunque tralasciare il termine temporale $\varphi$ e usare solo quello spaziale $\psi$. Vale anche che se $\Psi$ è normalizzata, lo è anche $\psi$.
-2. L'energia totale è definita e può essere espressa come un'Hamiltoniana della forma $$H(x,p)=\frac{p^{2}}{2m}+V(x)$$con operatore Hamiltoniano associato $$\hat{H}=- \frac{\hbar^{2}}{2m}\frac{\partial ^{2}}{\partial x^{2}}+V(x)$$ottenuto sostituendo $p$ con $\hat{p}$. Allora l'equazione di Schrödinger indipendente dal tempo può essere scritta nella forma estremamente compatta $$\boxed{\hat{H}\psi=E\psi}\tag{3}$$
+2. L'energia totale è definita e può essere espressa come un'Hamiltoniana della forma $$H(x,p)=\frac{p^{2}}{2m}+V(x)$$con operatore Hamiltoniano associato $$\hat{H}=- \frac{\hbar^{2}}{2m}\frac{\partial ^{2}}{\partial x^{2}}+V(x)$$ottenuto sostituendo $p$ con $\hat{p}$. Allora l'equazione di Schrödinger indipendente dal tempo può essere scritta nella forma estremamente compatta $$\boxed{\hat{H}\psi=E\psi}\tag{3}$$che è un'[[equazione agli autovalori]] per l'Hamiltoniana, di autovalore $E$ e autofunzione $\psi$. Allora, $\psi$ è uno [[stato determinato]] di $\hat{H}$.
 3. La soluzione generale dell'equazione di Schrödinger *dipendente* dal tempo è una combinazione lineare delle soluzioni separabili *indipendenti* dal tempo. Ciò significa che una volta risolta l'equazione indipendente, si può costruire la soluzione di quella dipendente.
 #### Dimostrazioni e dettagli
 *Stati stazionari.* Prendiamo una soluzione $\Psi(x,t)=\psi(x)e^{-iEt/\hbar}$. Ovviamente dipende da $t$, ma la sua densità di probabilità *no*:
@@ -43,7 +43,7 @@ $$\hat{H}^{2}\psi=\hat{H}(\hat{H}\psi)=\hat{H}(E\psi)=E(\hat{H}\psi)=E^{2}\psi$$
 si ottiene
 $$\left\langle H^{2} \right\rangle=\int_{-\infty}^{+\infty}\psi^{*}\hat{H}^{2}\psi\;dx=E^{2}\int_{-\infty}^{+\infty}|\psi|^{2}dx=E^{2}$$
 $$\sigma_{H}^{2}=\left\langle H^{2} \right\rangle-\left\langle H \right\rangle^{2}=E^{2}-E^{2}=0$$
-Ciò implica che *ogni misura dell'energia totale darà esattamente $E$*, a differenza delle altre [[Osservabile|osservabili]], che sono soggette all'[[indeterminatezza quantistica]].
+Ciò implica che *ogni misura dell'energia totale darà esattamente $E$*, a differenza delle altre [[Osservabile|osservabili]], che sono soggette all'[[indeterminatezza quantistica]]. Questo è un esempio di stato determinato.
 
 *Soluzione generale.* Risolvere l'equazione indipendente di Schrödinger dà un insieme infinito di soluzioni $\psi_{1},\psi_{2},\ldots$, ciascuna con un'energia associata $E_{1},E_{2},\ldots$. Allora è possibile esprimere la soluzione generale a tempo zero come
 $$\Psi(x,0)=\sum\limits_{n=1}^{\infty}c_{n}\psi_{n}(x)$$

@@ -1,3 +1,9 @@
+---
+aliases:
+  - autovalore
+  - autovettore
+  - autofunzione
+---
 Sia $T:H \rightarrow H$ un [[operatore lineare]] su uno [[spazio di Hilbert]]. L'**equazione agli autovalori** associata all'operatore $T$ di dominio $D$ è
 $$Tx=\lambda x;\quad \lambda\in\mathbb{C},\quad x\neq0\in D$$
 dove $\lambda$ è l'**autovalore** e $x$ è l'**autovettore**. Nel caso di spazi di funzioni, si ha $Tf=\lambda f$ e $f$ si dice **autofunzione**.

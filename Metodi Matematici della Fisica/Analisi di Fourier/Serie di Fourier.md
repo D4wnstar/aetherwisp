@@ -24,7 +24,7 @@ $$f=\sum\limits_{n=1}^{\infty}a_{n}f^{(n)}$$
 Se poi il sistema è anche ortonormale, vale $(f^{(m)}, f^{(n)})=\delta_{mn}$ (dove le parentesi denotano il [[prodotto scalare]]) e se si conosce $f$, è possibile ottenere i coefficienti con
 $$a_{n}=(f^{(n)},f)$$
 
-Se $f$ è [[Spazi Lp#Spazio $L {2}$|L^2]] e vale $\int |f(x)|^{2}dx=1$, vale anche l'importante proprietà di normalizzazione
+Se $f$ è [[Spazi Lp#Spazio $L {2}$|L^2]] e vale $\int |f(x)|^{2}dx=1$, vale anche l'importante proprietà di [[normalizzazione]]
 $$\sum\limits_{n=1}^{\infty}|a_{n}|^{2}=1$$
 e $|a_{n}|^{2}$ può essere vista come una sorta di rappresentazione di "importanza" della $f_{n}$-esima componente: più alto è $|a_{n}|^{2}$, più è importante $f_{n}$ nell'espansione funzione $f$.
 #### Dimostrazione
