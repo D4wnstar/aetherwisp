@@ -1,6 +1,13 @@
+---
+aliases:
+  - anticommutatore
+---
 Il **commutatore** è un valore che indica quanto due elementi legati da un'operazione binaria non soddisfano la proprietà commutativa. Nel caso della moltiplicazione, presi due elementi $A$ e $B$, il loro commutatore è
 $$[A,B]=AB-BA$$
 che è pari a 0 se e solo se vale la proprietà commutativa tra $A$ e $B$ (e dunque $AB=BA$).
+
+Si dice **anticommutatore** l'operazione con segno opposto
+$$\{A,B\}=AB+BA$$
 ### Proprietà
 Valgono numerose proprietà del commutatore. Le principali sono:
 1. $[A+B,C]=[A,C]+[B,C]$
