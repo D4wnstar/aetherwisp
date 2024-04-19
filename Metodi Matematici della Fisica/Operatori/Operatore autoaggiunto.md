@@ -1,3 +1,11 @@
+---
+aliases:
+  - autoaggiunto
+  - simmetrico
+  - hermitiano
+  - operatore hermitiano
+  - operatore simmetrico
+---
 Un **operatore autoaggiunto** $T:H \rightarrow H'$ è un [[operatore lineare]] che è pari al suo [[Operatore aggiunto|aggiunto]]. In simboli, vale
 $$T^{+}=T\tag{1}$$
 e il dominio di $T$ coincide con il dominio di $T^{+}$. Presi due vettori qualunque $x,y$ appartenenti al dominio di $T$, si ha dunque
