@@ -32,7 +32,7 @@ $$\frac{\hbar}{i} \frac{d}{dx}f_{p}(x)=pf_{p}(x)$$
 la cui soluzione generale è $f_{p}(x)=Ae^{ipx/\hbar}$. Questa soluzione non è normalizzabile, quindi le autofunzioni non sono [[Spazi Lp|L^2]]. Vale che
 $$\int_{-\infty}^{+\infty}f_{p'}(x)f_{p}(x)dx=|A|^{2}\int_{-\infty}^{+\infty}e^{i(p-p')x/\hbar}dx=|A|^{2}2\pi\hbar\delta(p-p')$$
 con $p$ e $p'$ due autovalori che decidiamo siano reali e $\delta$ la [[delta di Dirac]]. Scelta $A=1/\sqrt{2\pi\hbar}$ si ha
-$$f_{p}(x)=\frac{1}{\sqrt{2\pi\hbar}}e^{ipx/\hbar}\tag{1}$$
+$$\boxed{f_{p}(x)=\frac{1}{\sqrt{2\pi\hbar}}e^{ipx/\hbar}}\tag{1}$$
 e quindi
 $$\langle f_{p'}|f_{p}\rangle=\delta(p-p')$$
 Questo risultato è molto simile all'[[ortonormalità]], ma con variabili continue anziché discrete e la delta di Dirac anziché quella [[Delta di Kronecker|di Kronecker]]. Possiamo chiamarla **Dirac-ortonormalità**. Dato che le autofunzioni formano un [[sistema completo]] e in un sistema continuo vale
@@ -50,7 +50,7 @@ $$g_{y}(x)=A\delta(x-y)$$
 Qui l'autovalore deve essere reale, quindi sebbene le autofunzioni non siano $L^{2}$, comunque ammettono la Dirac-ortonormalità
 $$\int_{-\infty}^{+\infty}g^{*}_{y'}(x)g_{y}(x)dx=|A|^{2}\int_{-\infty}^{+\infty}\delta(x-y')\delta(x-y)dx=|A|^{2}\delta(y-y')$$
 e con $A=1$
-$$g_{y}(x)=\delta(x-y), \quad \langle g_{y'}|g_{y}\rangle=\delta(y-y')$$
+$$\boxed{g_{y}(x)=\delta(x-y)}, \quad \langle g_{y'}|g_{y}\rangle=\delta(y-y')$$
 e il sistema è completo
 $$f(x)=\int_{-\infty}^{+\infty}c(y)g_{y}(x)dy=\int_{-\infty}^{+\infty}c(y)\delta(x-y)dy$$
 
