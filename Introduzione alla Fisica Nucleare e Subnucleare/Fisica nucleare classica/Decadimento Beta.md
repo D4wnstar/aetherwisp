@@ -1,16 +1,18 @@
-Il **decadimento $\beta$** è un tipo di [[Decadimento]] che coinvolge [[Isobaro|isobari]]. Il [[Nucleo atomico|nucleo]] corregge l'eccesso di [[protone|protoni]] $p$ o [[neutrone|neutroni]] $n$ convertendoli l'uno nell'altro.
+Il **decadimento $\beta$** è un tipo di [[decadimento]] che coinvolge [[Isobaro|isobari]]. Il [[Nucleo atomico|nucleo]] corregge l'eccesso di [[protone|protoni]] $p$ o [[neutrone|neutroni]] $n$ convertendoli l'uno nell'altro.
 $$\text{decadimento }\beta^{-}\text{: }\quad n \rightarrow p+e^{-}+\nu_{e}^{-}$$
 $$\text{decadimento }\beta^{+}\text{: }\quad p \rightarrow n+e^{+}+\nu_{e}$$
 dove $e^{-}$ è un [[elettrone]] e $e^{+}$ è un [[positrone]]. Vengono emessi anche (anti)[[neutrino|neutrini]] elettronici $\nu_{e}$. Esiste anche una terza reazione, chiamata *cattura elettronica* (o c.e.)
 $$p+e^{-}\rightarrow n+\nu_{e}$$
-che "promuove" un protone ad un neutrone. È importante ricordare che il protone decade *solo nel nucleo*, non nel vuoto.
+che "promuove" un protone ad un neutrone. È importante ricordare che il protone decade $\beta$ *solo nel nucleo*, non nel vuoto, dato che il $\beta^{+}$ termina in una massa superiore (da 938 MeV a ~939.5 MeV) ed c'è quindi bisogno di interazione esterna.
+
+Queste reazioni nucleari sono dette *interazioni di contatto a 4 [[fermione|fermioni]]*.
 
 Una reazione tipo $\beta^{-}$ è
 $$_{53}^{131}I_{78} \rightarrow _{54}^{131}Xe_{77}$$
 con tempo di dimezzamento di 8.0 giorni.
 ## Meccanismo
 ### Decadimento $\beta^{\pm}$
-Partiamo dalla [[Formula semiempirica di massa]] che nel nostro caso diventa
+Partiamo dalla [[formula semiempirica di massa]] che nel nostro caso diventa
 $$M(A,Z)=\alpha A-\beta Z+\gamma Z^{2}+\delta$$
 con
 $$\begin{align}

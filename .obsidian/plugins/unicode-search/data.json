@@ -54112,7 +54112,9 @@
     },
     {
       "char": "~",
-      "name": "tilde"
+      "name": "tilde",
+      "useCount": 1,
+      "lastUsed": 1713949212054
     },
     {
       "char": "∼",
