@@ -5,16 +5,16 @@
   },
   "data": [
     {
+      "char": "È",
+      "name": "latin capital letter e with grave",
+      "useCount": 29,
+      "lastUsed": 1713987706216
+    },
+    {
       "char": "~",
       "name": "tilde",
       "useCount": 1,
       "lastUsed": 1713949212054
-    },
-    {
-      "char": "È",
-      "name": "latin capital letter e with grave",
-      "useCount": 27,
-      "lastUsed": 1713952898964
     },
     {
       "char": "É",

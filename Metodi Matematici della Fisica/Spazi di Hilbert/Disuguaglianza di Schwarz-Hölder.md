@@ -7,3 +7,5 @@ Nel caso importante per cui $f\in L^{2}(I)$ e $g\in L^{2}(I)$, la disuguaglianza
 $$\int_{I}|fg|dx\leq \sqrt{\int_{I}|f|^{2}dx \int_{I}|g|^{2}dx}$$
 e scrivendolo usando la notazione della [[norma]] è
 $$||fg||_{L^{1}}^{2}\leq ||f||_{L^{2}}||g||_{L^{2}}$$
+
+La disuguaglianza è saturata quando una funzione è multiplo dell'altra, ossia $g=cf$.

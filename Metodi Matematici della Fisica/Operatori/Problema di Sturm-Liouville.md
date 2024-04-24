@@ -1,10 +1,10 @@
-Un **problema di Sturm-Liouville** è un problema agli autovalori associato all'equazione
+Un **problema di Sturm-Liouville** è un'[[equazione agli autovalori]] associata all'equazione
 $$\frac{1}{\rho(x)}\left[\frac{d}{dx}\left(p(x) \frac{d}{dx}\right)-q(x)\right]u(x)+\lambda u(x)=0\tag{1}$$
 per la funzione $u(x)$, dove $p(x),q(x)$ e $\rho(x)$ sono funzioni "abbastanza regolari" in un intervallo finito $[\alpha,\beta]$. La $u(x)$ deve anche soddisfare una condizione agli estremi, come l'annullamento agli estremi
 $$u(\alpha)=u(\beta)=0\tag{2}$$
 Altre condizioni agli estremi, come l'annullamento della derivata o periodicità, sono comunque valide.
 ### Soluzioni
-Ci si aspetta che la $u(x)$ soddisfi la (1) solo per certi $\lambda$ nelle condizioni (2). Stiamo studiando l'[[operatore]]
+Ci si aspetta che la $u(x)$ soddisfi la $(1)$ solo per certi $\lambda$ nelle condizioni $(2)$. Stiamo studiando l'[[operatore]]
 $$T=- \frac{1}{\rho(x)}\left[\frac{d}{dx}\left(p(x) \frac{d}{dx}\right)-q(x)\right]$$
 che è non limitato nello [[Spazi Lp#Spazio $L {2}$|spazio]] $L^{2}(\alpha,\beta)$ e generalizza l'operatore derivata seconda $-d^{2}/dx^{2}$, che si ottiene ponendo $\rho(x)=p(x)=1$ e $q(x)=0$.
 
@@ -13,11 +13,11 @@ $$p(x)>0\text{, classe }C^{1}$$
 $$q(x)\geq0,\;\rho(x)>0\text{ entrambe continue}$$
 Grazie alla positività di $\rho(x)$ possiamo definire il [[prodotto scalare]] pesato
 $$(f,g)_{\rho}=\int_{\alpha}^{\beta}\rho(x)f^{*}(x)g(x)dx\tag{3}$$
-Si trova che $T$ è [[Operatore autoaggiunto|simmetrico]] rispetto a questo prodotto scalare nel sottoinsieme [[Spazio denso|denso]] in $L^{2}(\alpha,\beta)$ delle funzioni due volte derivabili in $L^{2}$ e soddisfacenti la (2). Allora se $u_{1}(x)$ e $u_{2}(x)$ sono autofunzioni di $T$, e dunque soluzioni della (1), sono ortogonali a $\rho(x)$
+Si trova che $T$ è [[Operatore autoaggiunto|simmetrico]] rispetto a questo prodotto scalare nel sottoinsieme [[Spazio denso|denso]] in $L^{2}(\alpha,\beta)$ delle funzioni due volte derivabili in $L^{2}$ e soddisfacenti la $(2)$. Allora se $u_{1}(x)$ e $u_{2}(x)$ sono autofunzioni di $T$, e dunque soluzioni della $(1)$, sono ortogonali a $\rho(x)$
 $$(u_{1},u_{2})_{\rho}=\int_{\alpha}^{\beta}u_{1}^{*}(x)u_{2}(x)\rho(x)dx$$
 Allora si hanno i seguenti risultati
 1. Gli autovalori del problema di Sturm-Liouville sono tutti reali e maggiori di zero
-2. Le corrispondenti autofunzioni $\{u_{n}(x)\}_{n\geq1}$, che sono ortogonali fra loro nel prodotto scalare (3), formano un [[Sistema ortonormale completo|sistema completo]] nello spazio, relativo alla [[norma]] indotta dal prodotto scalare.
+2. Le corrispondenti autofunzioni $\{u_{n}(x)\}_{n\geq1}$, che sono ortogonali fra loro nel prodotto scalare $(3)$, formano un [[Sistema ortonormale completo|sistema completo]] nello spazio, relativo alla [[norma]] indotta dal prodotto scalare.
 Ciò significa che una funzione $f$ tale che
 $$\int_{\alpha}^{\beta}|f|^{2}\rho\;dx<+\infty$$
 può essere sviluppata in [[serie di Fourier]] di tali autofunzioni $u_{n}$
@@ -33,7 +33,7 @@ Valgono anche altri risultati
 4. Vale il **teorema di separazione**: dette $u_{n},u_{m}$ due autosoluzioni con autovalori $\lambda_{n},\lambda_{m}$ rispettivamente, se $\lambda_{n}>\lambda_{m}$ allora fra due zeri consecutivi di $u_{m}$ cade almeno uno zero di $u_{n}$.
 5. Vale il **teorema di oscillazione**: supponendo di aver ordinato gli autovalori $\lambda_{n}$ in ordine crescente, la $n$-esima autosoluzione $u_{n}$ ha $n-1$ zeri nell'intervallo aperto $\alpha,\beta$, ossia $n+1$ includendo gli estremi $x=\alpha$ e $x=\beta$.
 ### Esempi
-L'[[equazione di Schrödinger]] indipendente dal tempo, unidimensionale, per una particella quantistica soggetta a potenziale $V(x)$ è del tipo (1)
+L'[[equazione di Schrödinger]] indipendente dal tempo, unidimensionale, per una particella quantistica soggetta a potenziale $V(x)$ è del tipo $(1)$
 $$\left[- \frac{d^{2}}{dx^{2}}+V(x)\right]u(x)=\lambda u(x)$$
 Le corrispondenti autofunzioni formano un sistema completo, che garantisce che uno stato può essere espresso come sovrapposizione (cioè serie di Fourier) degli autostati dell'operatore energia.
 

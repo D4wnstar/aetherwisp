@@ -20,5 +20,11 @@ $$||Tf||^{2}=\int_{I}|h(x)f(x)|^{2}dx\leq\sup\limits_{x\in I}|h(x)|^{2}||f||^{2}
 Si dimostra che continuità e limitatezza sono proprietà equivalenti, ossia un operatore lineare continuo è anche limitato e viceversa.
 ### Forma matriciale
 Scegliamo per semplicità $H=H'$ e prendiamo un [[sistema ortonormale completo]] $\{e_{i}\}$ in $H$. I [[Prodotto scalare|prodotti scalari]] $(e_{i},Te_{j})=T_{ij}$ sono gli elementi della matrice rappresentativa dell'operatore lineare $T$. Nel caso $T$ sia limitato, è possibile calcolare le componenti del vettore trasformato usando questi elementi. Posto $x'=Tx$, le componenti $x_{i}'$ di $x'$ sono
-$$x'_{i}=\sum\limits_{j=1}^{\infty}T_{ij}x_{j}$$
-Ciò non è necessariamente vero se $T$ non è limitato.
+$$x'_{i}=\sum\limits_{j}T_{ij}x_{j}$$
+Ciò non è necessariamente vero se $T$ non è limitato. Naturalmente, se l'operatore è infinito-dimensionale, la matrice diventa un concetto più astratto, specialmente se su un sistema continuo e non discreto.
+### Decomposizione spettrale
+Preso un operatore $T$ con un sistema ortonormale di [[Equazione agli autovalori|autovettori]] $\{e_{n}\}_{n\in\mathbb{N}}$ tali che sia soddisfatta
+$$Te_{n}=t_{n}e_{n}$$
+con $t_{n}$ gli autovalori associati, è possibile esprimere l'operatore con la sua **decomposizione spettrale**:
+$$T=\sum\limits_{n}t_{n} e_{n}^{*}\cdot e_{n}=\sum\limits_{n}t_{n}|e_{n}\rangle \langle e_{n}|=\sum\limits_{n}t_{n}\hat{P}_{e_{n}}$$
+dove si è scritto usando il complesso coniugato $*$, la [[notazione braket]] e il [[proiettore]] sul $n$-esimo vettore di base.
