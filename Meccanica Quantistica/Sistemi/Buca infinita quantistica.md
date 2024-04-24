@@ -1,6 +1,7 @@
 ---
 aliases:
   - buca infinita
+  - particella in una scatola
 ---
 Consideriamo un potenziale della forma
 $$V=\begin{cases}

@@ -1,4 +1,4 @@
-Consideriamo un'[[osservabile]] $A$ e il suo [[operatore autoaggiunto]] associato $\hat{A}$. Prendo un [[Notazione braket|ket]] $|\psi\rangle\in\mathcal{H}$ con $\mathcal{H}$ uno [[spazio di Hilbert]] e $\psi$ una [[funzione d'onda]] che rappresenta lo stato del mio sistema. Dato che la meccanica quantistica è una teoria statistica, è conveniente trovare il valor medio di un'osservabile:
+Consideriamo un'[[osservabile]] $A$ e il suo [[operatore autoaggiunto]] associato $\hat{A}$. Prendo un [[Notazione braket|ket]] $|\psi\rangle\in\mathcal{H}$ con $\mathcal{H}$ uno [[spazio di Hilbert]] e $\psi$ una [[funzione d'onda]] che rappresenta lo [[stato]] del mio sistema. Dato che la meccanica quantistica è una teoria statistica, è conveniente trovare il valor medio di un'osservabile:
 $$\boxed{\langle A\rangle_{\psi}=\langle \psi|\hat{A}|\psi\rangle}$$
 Per dimostrarlo, ricordiamo che se $\hat{A}$ è autoaggiunto, i suoi autovettori formano una base dello spazio. Abbiamo $\hat{A}|a_{i}\rangle=a_{i}|a_{i}\rangle$ con $a_{i}\in\mathbb{R}$. Riscriviamo l'espressione esprimendo $\psi$ in questa base
 $$|\psi\rangle=\sum\limits_{i=1}^{n}\psi_{i}|a_{i}\rangle$$
