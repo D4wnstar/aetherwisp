@@ -10,7 +10,7 @@ $$\rho_{\gamma,0}=\frac{aT_{\gamma,0}^{4}}{c^{2}}=\rho_{\gamma,0}(1+Z)^{4} \Righ
 Troviamo il punto in cui la densità di radiazione e quella di massa erano uguali
 $$\frac{\rho_{\gamma}}{\rho_{m}}=\frac{\rho_{\gamma,0}}{\rho_{m,0}}(1+Z)=1$$
 $$1+Z_{eq}=\frac{\rho_{m,0}}{\rho_{\gamma,0}}=\frac{\Omega_{m,0}}{\Omega_{\gamma,0}}\simeq5570$$
-Troviamo il rapporto di particelle di materia (barionica) e di fotoni, partendo dal numero di [[barione|barioni]] $n_{b,0}$ e il numero di fotoni $n_{\gamma,0}$
+Troviamo il rapporto di particelle di materia (barionica) e di fotoni, partendo dal numero di [[Barione|barioni]] $n_{b,0}$ e il numero di fotoni $n_{\gamma,0}$
 $$n=\frac{n_{b,0}}{n_{\gamma,0}}=\frac{\frac{\rho_{c,0}\Omega_{b}}{m_{p}}}{n_{\gamma,0}}=2.68\times10^{-8}$$
 dove $\Omega_{b}$ è la densità barionica, che è un componente della densità di [[materia]] $\Omega_{m}$. Allora per ogni barione, vi sono circa due miliardi di fotoni. Inoltre, troviamo $\Omega_{b}h^{2}\simeq0.022$.
 

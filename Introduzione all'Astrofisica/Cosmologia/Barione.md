@@ -1,1 +1,0 @@
-Un **barione** è l'unità fondamentale della [[materia]] ordinaria. Ogni [[particella]] con un numero barionico non nullo è un barione. [[Protone|Protoni]] e [[neutrone|neutroni]], assieme ad altre particelle simili, sono barioni. Gli [[elettrone|elettroni]], [[Kaone|kaoni]] e la maggior parte delle altre particelle non sono barioni.
