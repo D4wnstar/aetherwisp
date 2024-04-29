@@ -3,8 +3,8 @@ $$\boxed{i\hbar \frac{\partial \Psi}{\partial t}=- \frac{\hbar^{2}}{2m} \frac{\p
 dove $\hbar$ è la [[costante di Planck]] ridotta, $m$ è la massa della [[particella]], $\Psi(x,t)$ è la [[funzione d'onda]] della particella in esame e $V$ è la funzione energia potenziale della particella. Risolvere l'equazione di Schrödinger, trovando quindi l'equazione d'onda, ci permette di conoscere l'evoluzione temporale del sistema quantistico.
 
 Una forma più generale dell'equazione di Schrödinger è
-$$i\hbar \frac{\partial }{\partial t}|\Psi_{t}\rangle=\hat{H}|\Psi_{t}\rangle$$
-dove $\hat{H}$ è l'[[operatore]] [[Hamiltoniana|Hamiltoniano]] del sistema e $|\Psi_{t}\rangle$ è lo stato al tempo $t$. Essa è risolta dall'[[evolutore]] e grazie a esso si trova che è *reversibile*. Quindi la dinamica descritta dall'equazione di Schrödinger è reversibile. Questo è un fatto molto importante dato che la dinamica descritta dal collasso di un pacchetto d'onda è *irreversibile*. Come sia possibile che queste due dinamiche coesistano è un problema aperto della fisica.
+$$i\hbar \frac{\partial }{\partial t}|\mathcal{S}(t)\rangle=\hat{H}|\mathcal{S}(t)\rangle$$
+dove $\hat{H}$ è l'[[operatore]] [[Hamiltoniana|Hamiltoniano]] del sistema e $|\mathcal{S}(t)\rangle$ è lo [[stato]] al tempo $t$, che può essere rappresentato da una varietà di costrutti matematici, come una funzione d'onda. Essa è risolta dall'[[evolutore]] e grazie a esso si trova che è *reversibile*. Quindi la dinamica descritta dall'equazione di Schrödinger è reversibile. Questo è un fatto molto importante dato che la dinamica descritta dal collasso di un pacchetto d'onda è *irreversibile*. Come sia possibile che queste due dinamiche coesistano è un problema aperto della fisica.
 ## Potenziale indipendente dal tempo
 Per risolvere l'equazione di Schrödinger bisogna determinare un certo potenziale $V(x,t)$. Possiamo restringere il set di potenziali a quelli indipendenti dal tempo, a modo tale che valga $V(x)$ e non $V(x,t)$.
 ### Soluzione

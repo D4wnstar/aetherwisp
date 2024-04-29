@@ -1,13 +1,17 @@
-La **dualità** in fisica quantistica è la relazione tra la *picture* di Schroedinger, in cui evolvono gli stati, e la *picture* di Heisenberg, in cui evolvono gli operatori. Questi due punti di vista sono equivalenti. Si tratta dell'analogo quantistico dell'equivalenza di sistemi di riferimento (come guardare un treno dalla banchina o essere sul treno e guardare fuori).
+La **dualità** in fisica quantistica è la relazione tra la *picture* di Schrödinger, in cui evolvono gli [[stato|stati]], e la *picture* di Heisenberg, in cui evolvono gli [[operatore|operatori]]. Questi due punti di vista sono equivalenti e quale viene usato è interamente una questione di preferenza. Si tratta dell'analogo quantistico dell'equivalenza di sistemi di riferimento (come guardare un treno dalla banchina o essere sul treno e guardare fuori).
 
-Nella *picture* di Schroedinger si ha
+Nella *picture* di Schrödinger è lo stato ad evolversi nel tempo. Presa uno stato $\psi$, essa si evolve con l'[[evolutore]] con
 $$|\psi\rangle \rightarrow |\psi_{t}\rangle=\hat{U}_{t}|\psi_{t}\rangle$$
-$$\hat{A}=\hat{A}^{\dagger}\quad;\quad \langle \psi_{t}|\hat{A}\psi_{t}\rangle$$
-Nella *picture* di Heisenberg si ha
-$$\hat{A}\rightarrow\hat{A}_{t}\quad;\quad \langle \psi|\hat{A}_{t}\psi\rangle$$
-I due valori medi devono essere uguali, come si dimostra
+e il valor medio di una [[osservabile]] $Q$ con [[operatore autoaggiunto]] $\hat{Q}$ si esprime
+$$\left\langle Q \right\rangle = \langle \psi_{t}|\hat{Q}|\psi_{t}\rangle$$
+
+Nella *picture* di Heisenberg è l'operatore dell'osservabile a evolvere.
+$$\hat{Q}\rightarrow\hat{Q}_{t}=\hat{U}_{t}^{-1} \hat{Q}\hat{U}_{t}$$
+e il valor medio si esprime invece
+$$\left\langle Q \right\rangle=\langle \psi|\hat{Q}_{t}|\psi\rangle$$
+
+I due valori medi *sono uguali*, come si dimostra
 $$\langle \psi_{t}|\hat{A}\psi_{t}\rangle=\langle \hat{U}_{t}\psi|\hat{A}\hat{U}_{t}\psi\rangle=\langle \psi|\hat{U}_{t}^{\dagger}\hat{A}\hat{U}_{t}\psi\rangle=\langle \psi|\hat{A}_{t}\psi\rangle$$
-usando che $\hat{A}_{t}=\hat{U}_{t}^{\dagger}\hat{A}\hat{U}_{t}$.
 
 Prendo l'[[Hamiltoniana]] della dinamica libera $\hat{H}=\frac{\hat{\bar{p}}^{2}}{2m}= \frac{\hat{p}^{2}_{x}+\hat{p}^{2}_{y}+\hat{p}^{2}_{z}}{2m}$.
 $$\hat{x}_{t}=e^{\frac{i}{\hbar} \frac{\hat{\bar{p}}^{2}}{2m}t}\quad;\quad\hat{x}=e^{-\frac{i}{\hbar} \frac{\hat{\bar{p}}^{2}}{2m}t}$$
