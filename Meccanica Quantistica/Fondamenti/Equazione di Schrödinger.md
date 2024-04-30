@@ -1,6 +1,10 @@
-L'**equazione di Schrödinger** è un'equazione differenziale di secondo grado che descrive lo [[stato]] di un sistema quantistico in un dato tempo $t$. Si esprime come
-$$\boxed{i\hbar \frac{\partial \Psi}{\partial t}=- \frac{\hbar^{2}}{2m} \frac{\partial ^{2}\Psi}{\partial x^{2}}+V\Psi}$$
-dove $\hbar$ è la [[costante di Planck]] ridotta, $m$ è la massa della [[particella]], $\Psi(x,t)$ è la [[funzione d'onda]] della particella in esame e $V$ è la funzione energia potenziale della particella. Risolvere l'equazione di Schrödinger, trovando quindi l'equazione d'onda, ci permette di conoscere l'evoluzione temporale del sistema quantistico.
+L'**equazione di Schrödinger** è un'equazione differenziale di secondo grado che descrive lo [[stato]] di un sistema quantistico in un dato tempo $t$. Nel caso unidimensionale, si esprime come
+$$i\hbar \frac{\partial \Psi}{\partial t}=- \frac{\hbar^{2}}{2m} \frac{\partial ^{2}\Psi}{\partial x^{2}}+V\Psi\tag{1D}$$
+dove $\hbar$ è la [[costante di Planck]] ridotta, $m$ è la massa della [[particella]], $\Psi(x,t)$ è la [[funzione d'onda]] della particella in esame e $V$ è la funzione energia potenziale della particella. In tre dimensione ha la forma
+$$i\hbar \frac{\partial \Psi}{\partial t}=- \frac{\hbar^{2}}{2m}\nabla^{2}\Psi+V\Psi\tag{3D}$$
+con $\nabla^{2}$ il [[laplaciano]].
+
+Risolvere l'equazione di Schrödinger, trovando quindi l'equazione d'onda, ci permette di conoscere l'evoluzione temporale del sistema quantistico.
 
 Una forma più generale dell'equazione di Schrödinger è
 $$i\hbar \frac{\partial }{\partial t}|\mathcal{S}(t)\rangle=\hat{H}|\mathcal{S}(t)\rangle$$

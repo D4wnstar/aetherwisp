@@ -53,11 +53,21 @@ dove $\hat{q}\equiv x$ e $\hat{p}\equiv(\hbar/i)\partial/\partial x$ sono [[Oper
 
 Qualunque [[variabile dinamica]] classica $Q$ è esprimibile in funzione di $q$ e $p$. Allora, per calcolare il valore di aspettazione (nello stato $\Psi$) di $Q$, basta sostituire $p$ con $(\hbar/i)\partial/\partial x$ e integrare come sopra. La formula generale è
 $$\boxed{\left\langle Q(q,p) \right\rangle=\int_{-\infty}^{+\infty}\Psi^{*}Q\left(q, \frac{\hbar}{i}\frac{\partial }{\partial x}\right)\Psi dx=\langle \Psi|\hat{Q} |\Psi\rangle}$$
+### Caso tridimensionale
+La funzione d'onda e le sue proprietà sono facilmente estese a tre dimensioni. Per una funzione d'onda in tre dimensioni $\Psi(\vec{r},t)$ valgono le stesse proprietà del caso unidimensionale. La normalizzazione è su un volume
+$$\int |\Psi(\vec{r},t)|^{2}d^{3}\vec{r}=1$$
+Se il potenziale è indipendente dal tempo, può essere comunque espressa in funzione degli stati stazionari e l'[[evolutore]]
+$$\Psi_{n}(\vec{r},t)=\psi_{n}(\vec{r})\hat{U}_{t}=\psi_{n}(\vec{r})e^{iE_{n}t/\hbar}$$
+dove gli stati stazionari $\psi_{n}$ sono la soluzione della forma indipendente dal tempo dell'equazione di Schrödinger e la soluzione generale è sempre
+$$\Psi_{n}(\vec{r},t)=\sum\limits_{n=1}^{\infty}c_{n}\psi_{n}(\vec{r})e^{-iE_{n}t/\hbar}$$
+Ovviamente se gli stati sono continui e non discreti, la somma diventa un integrale.
 ### Formalizzazione matematica
-Matematicamente, è un elemento di uno [[spazio di Hilbert]] che è il coefficiente di sviluppo degli autostati di posizione di un oggetto. In altre parole, è la *rappresentazione* dell'evoluzione (della posizione) di quell'oggetto in una base. In una dimensione ha la forma
+Matematicamente, è un elemento di uno [[spazio di Hilbert]] che è il coefficiente di sviluppo degli autostati di posizione di un oggetto. In altre parole, è la *rappresentazione* dell'evoluzione (della posizione) di quell'oggetto in una base. La funzione d'onda indipendente dal tempo in una dimensione ha la forma
 $$\psi(x)=\langle x|\psi\rangle$$
-$$\sum\limits_{x}|x\rangle\langle x|\psi\rangle=\sum\limits_{x}\psi(x)|x\rangle$$
-In più dimensioni ha la forma
+$$\hat{P}_{x}|\psi\rangle=\sum\limits_{x}|x\rangle\langle x|\psi\rangle=\sum\limits_{x}\psi(x)|x\rangle$$
+usando il [[proiettore]]. In più dimensioni
 $$\psi(\bar{r})=\langle \bar{r}|\psi\rangle$$
-$$\sum\limits_{\bar{r}}|\bar{r}\rangle\langle \bar{r}|\psi\rangle=\sum\limits_{\bar{r}}\psi(\bar{r})|\bar{r}\rangle$$
+$$\hat{P}_{\vec{r}}|\psi\rangle=\sum\limits_{\bar{r}}|\bar{r}\rangle\langle \bar{r}|\psi\rangle=\sum\limits_{\bar{r}}\psi(\bar{r})|\bar{r}\rangle$$
+
+
 [^1]: L'esatta operazione da compiere è un [[prodotto scalare]] tra $\Psi$ e l'operatore.
