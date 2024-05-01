@@ -57,7 +57,7 @@ $$\boxed{\left\langle Q(q,p) \right\rangle=\int_{-\infty}^{+\infty}\Psi^{*}Q\lef
 La funzione d'onda e le sue proprietà sono facilmente estese a tre dimensioni. Per una funzione d'onda in tre dimensioni $\Psi(\vec{r},t)$ valgono le stesse proprietà del caso unidimensionale. La normalizzazione è su un volume
 $$\int |\Psi(\vec{r},t)|^{2}d^{3}\vec{r}=1$$
 Se il potenziale è indipendente dal tempo, può essere comunque espressa in funzione degli stati stazionari e l'[[evolutore]]
-$$\Psi_{n}(\vec{r},t)=\psi_{n}(\vec{r})\hat{U}_{t}=\psi_{n}(\vec{r})e^{iE_{n}t/\hbar}$$
+$$\Psi_{n}(\vec{r},t)=\psi_{n}(\vec{r})\hat{U}_{t}=\psi_{n}(\vec{r})e^{-iE_{n}t/\hbar}$$
 dove gli stati stazionari $\psi_{n}$ sono la soluzione della forma indipendente dal tempo dell'equazione di Schrödinger e la soluzione generale è sempre
 $$\Psi_{n}(\vec{r},t)=\sum\limits_{n=1}^{\infty}c_{n}\psi_{n}(\vec{r})e^{-iE_{n}t/\hbar}$$
 Ovviamente se gli stati sono continui e non discreti, la somma diventa un integrale.

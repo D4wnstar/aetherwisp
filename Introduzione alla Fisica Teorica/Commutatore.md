@@ -20,3 +20,7 @@ Nel caso specifico di [[operatore|operatori]], tutti gli operatori commutano con
 Il commutatore è di importanza primaria nella meccanica quantistica, dove permette di esprimere numerosi concetti relativi al [[Disuguaglianza di Heisenberg|principio di indeterminazione]]. La relazione commutativa più importante della materia è la cosiddetta **relazione commutativa canonica**, che dimostra che l'operatore posizione e l'operatore quantità di moto non commutano:
 $$[\hat{x},\hat{p}]=i\hbar$$
 con $\hbar$ la [[Costante di Planck|costante di Planck ridotta]].
+
+In tre dimensioni si hanno, per le variabili $\vec{r}$ e $\vec{p}$,
+$$[r_{i},p_{j}]=-[p_{i},r_{j}]=i\hbar\delta_{ij}, \quad [r_{i},r_{j}]=[p_{i},p_{j}]=0$$
+con gli indici che si riferiscono alle tre dimensioni spaziali.

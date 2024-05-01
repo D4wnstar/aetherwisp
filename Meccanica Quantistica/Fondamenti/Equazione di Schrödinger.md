@@ -11,7 +11,7 @@ $$i\hbar \frac{\partial }{\partial t}|\mathcal{S}(t)\rangle=\hat{H}|\mathcal{S}(
 dove $\hat{H}$ è l'[[operatore]] [[Hamiltoniana|Hamiltoniano]] del sistema e $|\mathcal{S}(t)\rangle$ è lo [[stato]] al tempo $t$, che può essere rappresentato da una varietà di costrutti matematici, come una funzione d'onda. Essa è risolta dall'[[evolutore]] e grazie a esso si trova che è *reversibile*. Quindi la dinamica descritta dall'equazione di Schrödinger è reversibile. Questo è un fatto molto importante dato che la dinamica descritta dal collasso di un pacchetto d'onda è *irreversibile*. Come sia possibile che queste due dinamiche coesistano è un problema aperto della fisica.
 ## Potenziale indipendente dal tempo
 Per risolvere l'equazione di Schrödinger bisogna determinare un certo potenziale $V(x,t)$. Possiamo restringere il set di potenziali a quelli indipendenti dal tempo, a modo tale che valga $V(x)$ e non $V(x,t)$.
-### Soluzione
+### Soluzione unidimensionale
 Allora, possiamo risolvere l'equazione mediante [[equazioni a variabili separabili|separazione delle variabili]]. Dunque, cerchiamo soluzioni della forma
 $$\Psi(x,t)=\psi(x)\varphi(t)$$
 Per queste soluzioni vale
@@ -20,7 +20,7 @@ e l'equazione di Schrödinger diventa dunque
 $$i\hbar\psi \frac{d\varphi}{dt}=- \frac{\hbar^{2}}{2m} \frac{d^{2}\psi}{dx^{2}}\varphi+V\psi\varphi$$
 che dividendo per $\psi \varphi$ prende la forma
 $$\frac{i\hbar}{\varphi(t)} \frac{d\varphi}{dt}(t)=- \frac{\hbar^{2}}{2m} \frac{1}{\psi(x)} \frac{d^{2}\psi}{dx^{2}}(x)+V(x)$$
-dove il membro sinistro dipende solo da $t$ e quello destro da $x$. L'unico caso qui possibile che i due membri siano *entrambi costanti*; se non lo fossero, potrei variare $t$ in quello a sinistra e quindi variare quello a destra a causa dell'uguaglianza. Ma il membro a destra è solo dipendente da $x$, non da $t$, quindi non ha senso che cambi variando $t$. Allora segue che devono essere costanti. Chiamiamo allora $E$ la costante a cui sono uguali. Allora risolvendo i due membri si trova
+dove il membro sinistro dipende solo da $t$ e quello destro da $x$. L'unico caso qui possibile che i due membri siano *entrambi costanti*; se non lo fossero, potrei variare $t$ in quello a sinistra e quindi variare quello a destra a causa dell'uguaglianza. Ma il membro a destra è solo dipendente da $x$, non da $t$, quindi non ha senso che cambi variando $t$. Allora segue che devono essere costanti. Chiamiamo allora $E$ la costante (detta *di separazione*) a cui sono uguali. Allora risolvendo i due membri si trova
 $$\frac{d\varphi}{dt}(t)=- \frac{iE}{\hbar}\varphi(t) \tag{1}$$
 $$\boxed{- \frac{\hbar^{2}}{2m} \frac{d^{2}\psi}{dx^{2}}(x) + V(x)\psi(x)=E\psi(x)\tag{2}}$$
 che è un sistema di due differenziali ordinarie *non parziali*. La soluzione della $(1)$ si ottiene integrando
@@ -66,3 +66,20 @@ La funzione d'onda indipendente dal tempo $\psi(x)$ può essere sempre considera
 Se $V(x)$ è pari, allora $\psi(x)$ è o pari o dispari.
 
 In una dimensione, non esistono [[Stati in meccanica quantistica|stati legati]] degeneri.
+### Soluzione tridimensionale
+Per uno spazio tridimensionale, si giunge ad una simile conclusione. L'equazione indipendente dal tempo in tre dimensioni è
+$$\boxed{- \frac{\hbar^{2}}{2m}\nabla^{2}\psi+V\psi=E\psi}$$
+e la soluzione all'equazione tempo-dipendente è
+$$\boxed{\Psi(\vec{r},t)=\sum\limits_{n=1}^{\infty}c_{n}\psi_{n}(\vec{r})e^{-iE_{n}t/\hbar}=\sum\limits_{n=1}^{\infty}c_{n}\Psi_{n}(\vec{r},t)}$$
+#### Separazione delle variabili
+A differenza del caso unidimensionale, possiamo ripetere di nuovo la separazione delle variabili per suddividere ancora la funzione d'onda in due componenti: una radiale e una angolare. Allora chiediamo che la funzione d'onda tempo-indipendente abbia soluzioni della forma
+$$\psi(r,\theta,\phi)=R(r)Y(\theta,\phi)\tag{4}$$
+Esprimo l'equazione di Schrödinger tempo-indipendente in coordinate sferiche, dato che molti sistemi quantistici hanno potenziale a simmetrica sferica (come i modelli di [[atomo]]):
+$$- \frac{\hbar^{2}}{2m}\left[\frac{1}{r^{2}}\frac{\partial }{\partial r}\left(r^{2}\frac{\partial \psi}{\partial r}\right)+ \frac{1}{r^{2}\sin\theta}\frac{\partial }{\partial \theta}\left(\sin\theta \frac{\partial \psi}{\partial \theta}\right)+ \frac{1}{r^{2}\sin^{2}\theta}\left(\frac{\partial ^{2}\psi}{\partial \phi^{2}}\right)\right] + V\psi=E\psi$$
+e sostituendo la $(4)$ troviamo
+$$- \frac{\hbar^{2}}{2m}\left[\frac{Y}{r^{2}}\frac{\partial }{\partial r}\left(r^{2}\frac{\partial R}{\partial r}\right)+ \frac{R}{r^{2}\sin\theta}\frac{\partial }{\partial \theta}\left(\sin\theta \frac{\partial Y}{\partial \theta}\right)+ \frac{R}{r^{2}\sin^{2}\theta}\left(\frac{\partial ^{2}Y}{\partial \phi^{2}}\right)\right] + VRY=ERY$$
+Ora possiamo dividere per $RY$ e moltiplicare per $-2mr^{2}/\hbar^{2}$:
+$$\left[\frac{1}{R}\frac{\partial }{\partial r}\left(r^{2}\frac{\partial R}{\partial r}\right) - \frac{2mr^{2}}{\hbar^{2}}[V(r)-E]\right]+ \frac{1}{Y}\left[\frac{1}{\sin\theta}\frac{\partial }{\partial \theta}\left(\sin\theta \frac{\partial Y}{\partial \theta}\right)+ \frac{1}{\sin^{2}\theta}\frac{\partial ^{2}Y}{\partial \phi^{2}}\right]= 0$$
+dove il primo termine dipende solo da $r$ e il secondo solo da $(\theta,\phi)$. Di conseguenza, entrambe devono pari ad una costante di separazione, proprio come nella soluzione del caso unidimensionale. Decido che questa costante ha la forma $l(l+1)$. Dunque trovo il sistema di due equazioni
+$$\frac{1}{R}\frac{\partial }{\partial r}\left(r^{2}\frac{\partial R}{\partial r}\right) - \frac{2mr^{2}}{\hbar^{2}}[V(r)-E]=l(l+1)$$
+$$\frac{1}{Y}\left[\frac{1}{\sin\theta}\frac{\partial }{\partial \theta}\left(\sin\theta \frac{\partial Y}{\partial \theta}\right)+ \frac{1}{\sin^{2}\theta}\frac{\partial ^{2}Y}{\partial \phi^{2}}\right]=-l(l+1)$$
