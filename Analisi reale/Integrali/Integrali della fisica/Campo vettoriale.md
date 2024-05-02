@@ -8,9 +8,9 @@ Definiamo **campo vettoriale** una funzione continua $F : A ⊂ \mathbb{R}^3 →
 Il rotore di un campo vettoriale di classe $C^1$ è definito come
 $$\nabla\times F = \left(\frac{\partial F_3}{\partial y} - \frac{\partial F_2}{\partial z}, \frac{\partial F_1}{\partial z} - \frac{\partial F_1}{\partial x}, \frac{\partial F_2}{\partial x} - \frac{\partial F_1}{\partial y}\right)$$
 o anche come il determinante della *pseudomatrice*
-$$\nabla\times F = det\left(\begin{array}{cc} \vec{i} & \vec{j} & \vec{k} \\ \frac{\partial}{\partial x} & \frac{\partial}{\partial y} & \frac{\partial}{\partial z} \\ F_{1} & F_{2} & F_{3} \end{array}\right)$$
-
+$$\nabla\times F = \det\left(\begin{array}{cc} \vec{i} & \vec{j} & \vec{k} \\ \frac{\partial}{\partial x} & \frac{\partial}{\partial y} & \frac{\partial}{\partial z} \\ F_{1} & F_{2} & F_{3} \end{array}\right)$$
 Se il rotore è nullo, il campo si dice **irrotazionale**.
+
 La divergenza è definita come
 $$\nabla\cdot F = \frac{\partial F_1}{\partial x} + \frac{\partial F_2}{\partial y} + \frac{\partial F_3}{\partial z}$$
 Se la divergenza è nulla, il campo si dice **indivergente**.

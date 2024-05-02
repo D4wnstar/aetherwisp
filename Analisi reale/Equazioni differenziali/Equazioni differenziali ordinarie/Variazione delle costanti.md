@@ -1,4 +1,0 @@
----
-tags:
-  - equazioni-differenziali-ordinarie
----

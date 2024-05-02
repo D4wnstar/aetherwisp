@@ -81,5 +81,32 @@ $$- \frac{\hbar^{2}}{2m}\left[\frac{Y}{r^{2}}\frac{\partial }{\partial r}\left(r
 Ora possiamo dividere per $RY$ e moltiplicare per $-2mr^{2}/\hbar^{2}$:
 $$\left[\frac{1}{R}\frac{\partial }{\partial r}\left(r^{2}\frac{\partial R}{\partial r}\right) - \frac{2mr^{2}}{\hbar^{2}}[V(r)-E]\right]+ \frac{1}{Y}\left[\frac{1}{\sin\theta}\frac{\partial }{\partial \theta}\left(\sin\theta \frac{\partial Y}{\partial \theta}\right)+ \frac{1}{\sin^{2}\theta}\frac{\partial ^{2}Y}{\partial \phi^{2}}\right]= 0$$
 dove il primo termine dipende solo da $r$ e il secondo solo da $(\theta,\phi)$. Di conseguenza, entrambe devono pari ad una costante di separazione, proprio come nella soluzione del caso unidimensionale. Decido che questa costante ha la forma $l(l+1)$. Dunque trovo il sistema di due equazioni
-$$\frac{1}{R}\frac{\partial }{\partial r}\left(r^{2}\frac{\partial R}{\partial r}\right) - \frac{2mr^{2}}{\hbar^{2}}[V(r)-E]=l(l+1)$$
-$$\frac{1}{Y}\left[\frac{1}{\sin\theta}\frac{\partial }{\partial \theta}\left(\sin\theta \frac{\partial Y}{\partial \theta}\right)+ \frac{1}{\sin^{2}\theta}\frac{\partial ^{2}Y}{\partial \phi^{2}}\right]=-l(l+1)$$
+$$\frac{1}{R}\frac{\partial }{\partial r}\left(r^{2}\frac{\partial R}{\partial r}\right) - \frac{2mr^{2}}{\hbar^{2}}[V(r)-E]=l(l+1)\tag{5}$$
+$$\frac{1}{Y}\left[\frac{1}{\sin\theta}\frac{\partial }{\partial \theta}\left(\sin\theta \frac{\partial Y}{\partial \theta}\right)+ \frac{1}{\sin^{2}\theta}\frac{\partial ^{2}Y}{\partial \phi^{2}}\right]=-l(l+1)\tag{6}$$
+Idealmente ora vogliamo determinare la forma di $R$ e $Y$, dette rispettivamente *parte radiale* e *parte angolare*.
+#### Parte angolare
+Se moltiplichiamo la $(6)$ per $Y\sin^{2}\theta$ otteniamo
+$$\sin\theta\frac{\partial }{\partial \theta}\left(\sin\theta \frac{\partial Y}{\partial \theta}\right)+ \frac{\partial ^{2}Y}{\partial \phi^{2}}=-l(l+1)Y\sin^{2}\theta$$
+Proviamo ancora con la separazione delle variabili, richiedendo che la soluzione sia del tipo
+$$Y(\theta,\phi)=\Theta(\theta)\Phi(\phi)$$
+Come da norma, sostituendo e moltiplicando per $\Theta\Phi$ si trova
+$$\left\{\frac{1}{\Theta}\left[\sin\theta \frac{d}{d\theta}\left(\sin\theta \frac{d\Theta}{d\theta}\right)\right]+l(l+1)\sin^{2}\theta\right\} + \frac{1}{\Phi} \frac{d^{2}\Phi}{d\phi^{2}}=0$$
+Il primo termine (tra le graffe) dipende solo da $\theta$, il secondo solo da $\phi$. Allora chiamo la costante di separazione $m^{2}$ e si ha il sistema
+$$\frac{1}{\Theta}\left[\sin\theta \frac{d}{d\theta}\left(\sin\theta \frac{d\Theta}{d\theta}\right)\right]+l(l+1)\sin^{2}\theta=m^{2}$$
+$$\frac{1}{\Phi} \frac{d^{2}\Phi}{d\phi^{2}}=-m^{2}$$
+L'equazione in $\phi$ è banale. La soluzione è[^1]
+$$\frac{d^{2}\Phi}{d\phi^{2}}=-m^{2}\phi \Rightarrow \Phi(\phi)=e^{im\phi}$$
+Scegliamo il ramo della funzione esponenziale notando che, ruotando di $2\pi$, torniamo nel punto iniziale, quindi deve valere[^2]
+$$\Phi(\phi+2\pi)=\Phi(\phi) \Rightarrow e^{im(\phi+2\pi)}=e^{im\phi} \Rightarrow e^{2\pi im}=1$$
+Che non è altro che la formula di Eulero per i numeri complessi. Allora $m$ deve essere un numero intero $0,\pm1,\pm2,\ldots$.
+
+L'equazione in $\theta$ è più complessa. Riscriviamola come
+$$\left[\sin\theta \frac{d}{d\theta}\left(\sin\theta \frac{d\Theta}{d\theta}\right)+l(l+1)\sin^{2}\theta-m^{2}\right]\Theta=0$$
+Si trova che la soluzione di questa equazione è
+$$\Theta(\theta)=AP_{1}^{m}(\cos\theta)$$
+dove $P_{1}^{m}$ è la **funzione associata di Legendre** (o *polinomio associato di Legendre*), definito come
+$$P_{l}^{m}(x)\equiv (1-x^{2})^{|m|/2} \left(\frac{d}{dx}\right)^{2}P_{l}(x)$$
+dove $P_{l}(x)$ sono i [[polinomi di Legendre]].
+
+[^1]: Tecnicamente ci sono due soluzioni: $\exp(im\phi)$ e $\exp(-im\phi)$, ma dato che $m$ può essere negativo, le due coincidono (basta cambiare $m$). Dovrebbe esserci un fattore di scala di fronte, come $C\exp(im\phi)$, ma per convenienza lo assorbiamo nella soluzione di $\Theta$, dato che dovranno inevitabilmente essere moltiplicate l'una per l'altra.
+[^2]: Questo ragionamento non è propriamente rigoroso. Ci sono modi più corretti di determinare questa condizione, che in ogni caso è vera.
