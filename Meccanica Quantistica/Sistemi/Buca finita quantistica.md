@@ -2,7 +2,7 @@
 aliases:
   - buca finita
 ---
-Consideriamo una [[particella]] immersa nel [[potenziale]]
+Consideriamo una [[particella]] immersa nel [[Potenziale]]
 $$V(x)=\begin{cases}
 - V_{0} & \text{se }-a<x<a \\
 0 & \text{altrove}

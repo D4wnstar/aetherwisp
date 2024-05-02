@@ -9,11 +9,11 @@ $$\Delta x \Delta p_{x}\geq \frac{\hbar}{2}, \quad \Delta y \Delta p_{y}\geq \fr
 
 L'errore qui definito non è quello della strumentazione, ma quello intrinseco dovuto alla [[funzione d'onda]] della particella, dato che misure uguali su sistemi preparati allo stesso modo *non* danno lo stesso risultato. È una manifestazione dell'[[indeterminatezza quantistica]].
 ## Forma generale
-Consideriamo un'[[osservabile]] $A$ e il suo [[operatore autoaggiunto]] $\hat{A}$ per una funzione d'onda $\Psi$. Allora la sua varianza è
+Consideriamo un'[[osservabile]] $A$ e il suo [[Operatore autoaggiunto]] $\hat{A}$ per una funzione d'onda $\Psi$. Allora la sua varianza è
 $$\sigma_{A}^{2}=\langle (\hat{A}-\left\langle A \right\rangle)\Psi\;|\; (\hat{A}-\left\langle A \right\rangle)\Psi\rangle=\langle f|f\rangle$$
 con $f=(\hat{A}-\left\langle A \right\rangle)\Psi$. Per un'altra osservabile $B$ si ha
 $$\sigma_{B}^{2}=\langle g|g\rangle$$
-con $g=(\hat{B}-\left\langle B \right\rangle)\Psi$. Usando la [[disuguaglianza di Schwarz-Hölder]] vale
+con $g=(\hat{B}-\left\langle B \right\rangle)\Psi$. Usando la [[Disuguaglianza di Schwarz-Hölder]] vale
 $$\sigma_{A}^{2}\sigma_{B}^{2}=\langle f|f\rangle \langle g|g\rangle\geq |\langle f|g\rangle|^{2}\tag{1}$$
 Per ogni numero complesso $z$ vale
 $$|z|^{2}=|\text{Re}(z)^{2}|+|\text{Im}(z)|^{2}\geq |\text{Im}(z)|^{2}=\left[\frac{1}{2i}(z-z^{*})\right]^{2}\tag{2}$$
@@ -30,7 +30,7 @@ quindi
 $$\langle f|g\rangle-\langle g|f\rangle=\langle [\hat{A},\hat{B}] \rangle$$
 che è il valor medio del [[commutatore]] delle due osservabili. Allora possiamo scrivere la disuguaglianza di Heisenberg come
 $$\boxed{\sigma_{A}^{2}\sigma_{B}^{2}\geq \left(\frac{1}{2i} \langle[\hat{A},\hat{B}]\rangle\right)^{2}}\tag{3}$$
-Il commutatore di due operatori autoaggiunti ha valore di aspettazione immaginario, quindi la $i$ al denominatore si semplifica e il valore è reale e positivo, come ci si aspetta. Allora il principio di indeterminazione è un concetto più generale che si applica a *tutte le coppie di osservabili che hanno commutatore non nullo*. Queste coppie si dicono **osservabili incompatibili**. Se invece il commutatore è nullo, non si applica il principio di indeterminazione e si dicono **osservabili compatibili**. Osservabili compatibili ammettono un [[sistema completo]] di [[Equazione agli autovalori|autofunzioni]] condivise, mentre quelle incompatibili no.[^1]
+Il commutatore di due operatori autoaggiunti ha valore di aspettazione immaginario, quindi la $i$ al denominatore si semplifica e il valore è reale e positivo, come ci si aspetta. Allora il principio di indeterminazione è un concetto più generale che si applica a *tutte le coppie di osservabili che hanno commutatore non nullo*. Queste coppie si dicono **osservabili incompatibili**. Se invece il commutatore è nullo, non si applica il principio di indeterminazione e si dicono **osservabili compatibili**. Osservabili compatibili ammettono un [[Sistema completo]] di [[Equazione agli autovalori|autofunzioni]] condivise, mentre quelle incompatibili no.[^1]
 
 Se decidiamo $A=q$ e $B=p$ si ha che il commutatore fra le due è $[\hat{q},\hat{p}]=i\hbar$ e quindi la $(3)$ diventa
 $$\sigma_{p}^{2}\sigma_{q}^{2}\geq \frac{\hbar^{2}}{4}$$
@@ -74,7 +74,7 @@ Questa trattazione dell'indeterminazione tempo-energia è detta **formulazione d
 
 ---
 
-Prendo $X=\{x_{i}\}^{d}_{i}$ un insieme di $d$ variabili casuali. Definisco una [[distribuzione]] $F:X \rightarrow\mathbb{R}$, $x_{i} \rightarrow F(x_{i})$ che agisce sulle $X$. Dato che le $X$ sono determinate casualmente, non è esiste alcun "valore" di $X$. Al meglio, possiamo definire il valore di aspettazione o quantità simili. Ciò significa anche che non possiamo nemmeno determinare $F$, al di là di una media. Calcoliamo allora proprio questa, o meglio i *momenti* della distribuzione $F$ nello [[stato]] $\pi$
+Prendo $X=\{x_{i}\}^{d}_{i}$ un insieme di $d$ variabili casuali. Definisco una [[Distribuzione]] $F:X \rightarrow\mathbb{R}$, $x_{i} \rightarrow F(x_{i})$ che agisce sulle $X$. Dato che le $X$ sono determinate casualmente, non è esiste alcun "valore" di $X$. Al meglio, possiamo definire il valore di aspettazione o quantità simili. Ciò significa anche che non possiamo nemmeno determinare $F$, al di là di una media. Calcoliamo allora proprio questa, o meglio i *momenti* della distribuzione $F$ nello [[stato]] $\pi$
 $$\langle F\rangle_{\pi}=\sum\limits_{i=1}^{d}p_{i}F(x_{i})$$
 $$\langle F^{2}\rangle_{\pi}=\sum\limits_{i=1}^{d}p_{i}F^{2}(x_{i})$$
 $$\Delta_{\pi}F=\langle F^{2}\rangle_{\Psi}-\langle F\rangle^{2}_{\pi}$$
@@ -87,7 +87,7 @@ Se prendiamo la distribuzione di Gibbs che descrive uno stato misto
 $$\rho_{p}(q,p)=\frac{e^{-\beta H(q,p)}}{z_{\beta}}$$
 abbiamo il valore di aspettazione
 $$\langle F\rangle_{\rho_{\beta}}=\int_{\mathbb{R}^{2}}\rho_{\beta}(q,p)F(q,p)dqdp$$
-Possiamo rappresentare un punto nello spazio delle fasi come la distribuzione *[[delta di Dirac]]*
+Possiamo rappresentare un punto nello spazio delle fasi come la distribuzione *[[Delta di Dirac]]*
 $$(q,p)\rightarrow\delta(q-q_{0}),\;\delta(p-p_{0})$$
 Dunque posso pensare ad un punto come appartenere alla stessa "classe" delle distribuzioni nello [[spazio delle fasi]]. Allora abbiamo
 $$\langle F\rangle_{\rho_{\beta}}=\int_{\mathbb{R}^{2}}\rho_{\beta}(q,p)F(q,p)dqdp=F(q_{0},p_{0})$$

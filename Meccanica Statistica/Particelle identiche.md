@@ -14,7 +14,7 @@ Pongo il sistema in una dimensioni e prendo l'Hamiltoniana della particella libe
 $$\left[ - \frac{\hbar^{2}}{2m}\frac{\partial ^{2}}{\partial x^{2}}+U(x) \right]\psi(x)=E \psi(x))$$
 Uso la relazione di completezza dei [[Proiettore|proiettori]] 
 $$\sum\limits_{x}|x\rangle\langle x|\psi\rangle=\sum\limits_{x}\psi(x)|x\rangle$$
-con $\psi(x)=\langle x|\psi\rangle$ la rappresentazione in $x$ di $\psi$. Riscrivo $\psi(x)$ come [[trasformata di Fourier]] 
+con $\psi(x)=\langle x|\psi\rangle$ la rappresentazione in $x$ di $\psi$. Riscrivo $\psi(x)$ come [[Trasformata di Fourier]] 
 $$\psi(x)=\frac{1}{2\pi}\int dq\; e^{iqx}\tilde{\psi}(q)$$
 e la sua antitrasformata
 $$\tilde{\psi}(q)=\int dx\;e^{-iqx}\psi(x)$$

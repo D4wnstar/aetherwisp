@@ -1,6 +1,6 @@
-Consideriamo una [[particella]] immersa in un [[potenziale]] della forma
+Consideriamo una [[particella]] immersa in un [[Potenziale]] della forma
 $$V(x)=-\alpha \delta(x)$$
-con $\alpha$ una costante positiva e $\delta(x)$ la [[delta di Dirac]]. Questo potenziale è una [[Buca infinita quantistica|buca infinita]] localizzata interamente nell'origine, a differenza della buca infinita vera e propria, che ha un'estensione spaziale. L'[[equazione di Schrödinger]] diventa
+con $\alpha$ una costante positiva e $\delta(x)$ la [[Delta di Dirac]]. Questo potenziale è una [[Buca infinita quantistica|buca infinita]] localizzata interamente nell'origine, a differenza della buca infinita vera e propria, che ha un'estensione spaziale. L'[[equazione di Schrödinger]] diventa
 $$- \frac{\hbar^{2}}{2m} \frac{d^{2}\psi}{dx^{2}} - \alpha\delta(x)\psi=E\psi$$
 Per la definizione di delta di Dirac, possiamo ricavare sia stati legati che liberi.
 ### Stati legati

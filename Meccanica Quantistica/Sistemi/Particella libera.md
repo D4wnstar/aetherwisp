@@ -2,7 +2,7 @@
 aliases:
   - particella quantistica libera
 ---
-La **particella libera** è un sistema quantistico costituito da una singola [[particella]] in assenza di [[potenziale]], ovvero $V(x)=0$ ovunque. Nel caso classico, questo sistema è banale e ha soluzioni immediate, dato che la particella compie un semplice moto rettilineo a velocità costante, ma nel caso quantistico compaiono problemi non trascurabili e diventa più complesso dell'[[oscillatore armonico quantistico]].
+La **particella libera** è un sistema quantistico costituito da una singola [[particella]] in assenza di [[Potenziale]], ovvero $V(x)=0$ ovunque. Nel caso classico, questo sistema è banale e ha soluzioni immediate, dato che la particella compie un semplice moto rettilineo a velocità costante, ma nel caso quantistico compaiono problemi non trascurabili e diventa più complesso dell'[[oscillatore armonico quantistico]].
 ## Soluzione
 Partiamo come al solito dall'[[Equazione di Schrödinger#Potenziale indipendente dal tempo|equazione di Schrödinger indipendente dal tempo]]
 $$- \frac{\hbar^{2}}{2m} \frac{d^{2}\psi}{dx^{2}}=E\psi$$
@@ -32,7 +32,7 @@ In questa forma, $\phi(k)/\sqrt{2\pi}$ prende il ruolo dei coefficienti $c_{n}$ 
 
 A tempo zero, la funzione d'onda iniziale ha la forma
 $$\Psi(x,0)=\frac{1}{\sqrt{2\pi}}\int_{-\infty}^{+\infty}\phi(k)e^{ixk}dk=F[\phi(k)](x)$$
-Ma questa non è altro che la [[trasformata di Fourier]] dal dominio delle frequenze spaziali $k$ a quello delle posizioni $x$. Per estrarre $\phi(k)$, basta applicare l'antitrasformata:
+Ma questa non è altro che la [[Trasformata di Fourier]] dal dominio delle frequenze spaziali $k$ a quello delle posizioni $x$. Per estrarre $\phi(k)$, basta applicare l'antitrasformata:
 $$\boxed{\phi(k)=\frac{1}{\sqrt{2\pi}}\int_{-\infty}^{+\infty}\Psi(x,0)e^{-ikx}dx=F^{-1}[\Psi(x,0)](k)}$$
 È giusto menzionare che gli integrali per $\phi(k)$ e soprattutto per $\Psi(x,t)$ sono raramente risolvibili analiticamente.
 ### Paradosso della velocità

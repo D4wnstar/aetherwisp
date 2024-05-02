@@ -29,7 +29,7 @@ In realtà il termine correttivo giusto ha un termine 2 iniziale, detto *fattore
 $$\boxed{H_{so}=- \frac{1}{2}\vec{\mu_{S}}\cdot\vec{B}= \frac{1}{2m^{2}c^{2}r} \frac{dV}{dr}\vec{L}\cdot\vec{S}}$$
 Questa forma più corretta esce naturalmente seguendo il formalismo di Dirac.
 
-$H_{so}$ commuta con $L^{2}$, ma non con $L_{z}$ o $S_{z}$. Introduciamo l'*[[operatore]] momento angolare* $\vec{J}=\vec{L}+\vec{S}$. Dalla definizione $\vec{J}^{2}=\vec{L}^{2}+\vec{S}^{2}+2\vec{L}\cdot\vec{S}$ ricaviamo $\vec{L}\cdot\vec{S}=(1/2) [\vec{J}^{2}-\vec{L}^{2}-\vec{S}^{2}]$. Da questo, si vede che vale
+$H_{so}$ commuta con $L^{2}$, ma non con $L_{z}$ o $S_{z}$. Introduciamo l'*[[Operatore]] momento angolare* $\vec{J}=\vec{L}+\vec{S}$. Dalla definizione $\vec{J}^{2}=\vec{L}^{2}+\vec{S}^{2}+2\vec{L}\cdot\vec{S}$ ricaviamo $\vec{L}\cdot\vec{S}=(1/2) [\vec{J}^{2}-\vec{L}^{2}-\vec{S}^{2}]$. Da questo, si vede che vale
 $$H_{so}=\frac{1}{2}\xi(r)[\vec{J}^{2}-\vec{L}^{2}-\vec{S}^{2}]$$
 e che è diagonale nel sottospazio degenere. Ci interessa solo la correzione di energia
 $$\Delta E_{so}=\langle \psi_{nljm}|H_{so}|\psi_{nljm}\rangle=\frac{\hbar^{2}}{2} \langle R_{n}|\xi(r)|R_{n}\rangle[j(j+1)-l(l+1)-(s+1)]$$
@@ -45,7 +45,7 @@ Il termine di Darwin è
 $$\boxed{H_{D}'=\frac{\pi\hbar^{2}}{2m^{2}c^{2}} \left(\frac{Ze^{2}}{4\pi\epsilon_{0}}\right)\delta(r)}$$
 Considero un [[protone]] al centro del mio sistema di riferimento. L'elettrone dista $\vec{r}$ da esso. Allora l'energia potenziale Coulombiana è
 $$V(\vec{r})=-e\phi(\vec{r})\propto -e\left( \frac{e}{r}\right)\simeq- \frac{e^{2}}{r}$$
-con $\phi(\vec{r})$ il potenziale Coulombiano. Introduciamo un [[campo vettoriale]] $\vec{u}$ che definisce una regione di carica attorno all'elettrone. Allora un qualunque punto nello spazio (in particolare attorno all'elettrone) può essere espresso come $\vec{r}+\vec{u}$.
+con $\phi(\vec{r})$ il potenziale Coulombiano. Introduciamo un [[Campo vettoriale]] $\vec{u}$ che definisce una regione di carica attorno all'elettrone. Allora un qualunque punto nello spazio (in particolare attorno all'elettrone) può essere espresso come $\vec{r}+\vec{u}$.
 ![[Schema Termine di Darwin|60%|center]]
 Chiamo $\tilde{V}(\vec{r})$ l'energia potenziale "vera", pari a $\tilde{V}(\vec{r})=\int\phi dq$, integrando sul volume dell'elettrone[^1]. Definisco $\rho(\vec{u})=-e\rho_{0}(\vec{u})$ la densità di carica, tramite $\rho_{0}$ la densità di carica "a meno delle unità di misura". Deve valere $\int\rho_{0}(\vec{u})d^{3}\vec{u}$, sempre sul volume. Allora si ha
 $$\tilde{V}(\vec{r})=\int_{elettrone}\rho(\vec{u})\phi(\vec{r}+\vec{u})d^{3}\vec{u}=\int \rho_{0}(\vec{u})V(\vec{r}+\vec{u})d^{3}\vec{u}$$
@@ -55,7 +55,7 @@ quindi l'energia potenziale vera diventa
 $$\tilde{V}(\vec{r})=\underbrace{\int\rho_{0}(\vec{u})d^{3}\vec{u}}\limits_{0}+\sum\limits_{i}^{\infty}\left.\frac{\partial V}{\partial x_{i}}\right|_{\vec{r}}\int \rho_{0}(\vec{u})u_{i}d^{3}\vec{u}+ \frac{1}{2}\sum\limits_{i,j}^{\infty}\left.\frac{\partial ^{2}V}{\partial x_{i}\partial x_{j}}\right|_{\vec{r}} \underbrace{\int \rho_{0}(\vec{u})u_{i}u_{j}d^{3}\vec{u}}\limits_{*}$$
 dove $*$ diventa
 $$\delta_{ij}\frac{1}{3}\int \rho_{0}(\vec{u})u^{2}d^{3}\vec{u}$$
-con $\delta_{ij}$ la [[delta di Kronecker]]. Rimangono allora solo gli indici uguali $i=j$, il che rende la somma di derivate seconde un [[laplaciano]]. Dunque possiamo scrivere
+con $\delta_{ij}$ la [[Delta di Kronecker]]. Rimangono allora solo gli indici uguali $i=j$, il che rende la somma di derivate seconde un [[Laplaciano]]. Dunque possiamo scrivere
 $$\tilde{V}(\vec{r})=V(\vec{r})+ \frac{1}{6}\nabla^{2}V(\vec{r})\int \rho_{0}(\vec{u})u^{2}d^{3}\vec{u}$$
 Si può modellare $\rho_{0}$ come
 $$\newcommand\lambdabar{

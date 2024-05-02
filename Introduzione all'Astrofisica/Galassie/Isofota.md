@@ -1,1 +1,1 @@
-L'**isofota** è un [[insieme di livello]] a brillanza superficiale costante di una [[galassia]].
+L'**isofota** è un [[Insieme di livello]] a brillanza superficiale costante di una [[galassia]].

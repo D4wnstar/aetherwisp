@@ -1,6 +1,6 @@
 Una **funzione d'onda** $\Psi(x,t)$ (anche $\psi(x,t)$) è una funzione che descrive lo stato di una [[particella]] quantistica. È la soluzione dell'[[equazione di Schrödinger]]. Esistono diverse interpretazioni fisiche della funzione d'onda.
 ### Interpretazione di Born
-Un modo per spiegare a livello fisico la funzione d'onda è l'**interpretazione statistica di Born**. Questa afferma che la [[norma]] della funzione d'onda ci dà la *probabilità* che la particella si trovi in un determinato punto $x$ allo spazio $t$. In simboli
+Un modo per spiegare a livello fisico la funzione d'onda è l'**interpretazione statistica di Born**. Questa afferma che la [[Norma]] della funzione d'onda ci dà la *probabilità* che la particella si trovi in un determinato punto $x$ allo spazio $t$. In simboli
 $$\int_{a}^{b}|\Psi(x,t)|^{2}dx=\text{probabilità di trovare la particella tra }a\text{ e }b\text{ al tempo }t$$
 Ciò significa che, anche conoscendo la funzione d'onda di una particella, quello che sappiamo del suo moto è al più la *probabilità* che si trovi in un certo punto (o insieme di punti) ad un certo tempo. Questo fatto si chiama [[indeterminatezza quantistica]].
 #### Normalizzazione
@@ -36,7 +36,7 @@ Cos'è $\left\langle x \right\rangle$? A causa del collasso dopo un'osservazione
 
 La funzione d'onda varia nel tempo. Allora, anche il valore di aspettazione dipende da $t$. Possiamo trovarne la derivata temporale
 $$\frac{d\left\langle x \right\rangle}{dt}=\int_{-\infty}^{+\infty}x \frac{\partial }{\partial t}|\Psi(x,t)|^{2}dx=\frac{i\hbar}{2m}\int_{-\infty}^{+\infty}x\frac{\partial }{\partial x}\left(\Psi^{*}\frac{\partial \Psi}{\partial x}-\frac{\partial \Psi^{*}}{\partial x}\Psi\right)dx=\ldots$$
-usando un'[[integrazione per parti]] e usando che $\lim\limits_{x \rightarrow \pm\infty}\Psi(x,t)=0$
+usando un'[[Integrazione per parti]] e usando che $\lim\limits_{x \rightarrow \pm\infty}\Psi(x,t)=0$
 $$\ldots=-\frac{i\hbar}{2m}\int_{-\infty}^{+\infty}\left(\Psi^{*}\frac{\partial \Psi}{\partial x}-\frac{\partial \Psi^{*}}{\partial x}\Psi\right)dx=\ldots$$
 e ancora un'integrazione per parti, su $\partial\Psi^{*}/\partial x$
 $$\ldots=- \frac{i\hbar}{m}\int_{-\infty}^{+\infty}\Psi^{*}\frac{\partial \Psi}{\partial x}dx$$
@@ -62,12 +62,12 @@ dove gli stati stazionari $\psi_{n}$ sono la soluzione della forma indipendente 
 $$\Psi_{n}(\vec{r},t)=\sum\limits_{n=1}^{\infty}c_{n}\psi_{n}(\vec{r})e^{-iE_{n}t/\hbar}$$
 Ovviamente se gli stati sono continui e non discreti, la somma diventa un integrale.
 ### Formalizzazione matematica
-Matematicamente, è un elemento di uno [[spazio di Hilbert]] che è il coefficiente di sviluppo degli autostati di posizione di un oggetto. In altre parole, è la *rappresentazione* dell'evoluzione (della posizione) di quell'oggetto in una base. La funzione d'onda indipendente dal tempo in una dimensione ha la forma
+Matematicamente, è un elemento di uno [[Spazio di Hilbert]] che è il coefficiente di sviluppo degli autostati di posizione di un oggetto. In altre parole, è la *rappresentazione* dell'evoluzione (della posizione) di quell'oggetto in una base. La funzione d'onda indipendente dal tempo in una dimensione ha la forma
 $$\psi(x)=\langle x|\psi\rangle$$
 $$\hat{P}_{x}|\psi\rangle=\sum\limits_{x}|x\rangle\langle x|\psi\rangle=\sum\limits_{x}\psi(x)|x\rangle$$
-usando il [[proiettore]]. In più dimensioni
+usando il [[Proiettore]]. In più dimensioni
 $$\psi(\bar{r})=\langle \bar{r}|\psi\rangle$$
 $$\hat{P}_{\vec{r}}|\psi\rangle=\sum\limits_{\bar{r}}|\bar{r}\rangle\langle \bar{r}|\psi\rangle=\sum\limits_{\bar{r}}\psi(\bar{r})|\bar{r}\rangle$$
 
 
-[^1]: L'esatta operazione da compiere è un [[prodotto scalare]] tra $\Psi$ e l'operatore.
+[^1]: L'esatta operazione da compiere è un [[Prodotto scalare]] tra $\Psi$ e l'operatore.

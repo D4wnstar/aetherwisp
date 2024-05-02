@@ -2,13 +2,13 @@ L'**equazione di Schrödinger** è un'equazione differenziale di secondo grado c
 $$i\hbar \frac{\partial \Psi}{\partial t}=- \frac{\hbar^{2}}{2m} \frac{\partial ^{2}\Psi}{\partial x^{2}}+V\Psi\tag{1D}$$
 dove $\hbar$ è la [[costante di Planck]] ridotta, $m$ è la massa della [[particella]], $\Psi(x,t)$ è la [[funzione d'onda]] della particella in esame e $V$ è la funzione energia potenziale della particella. In tre dimensione ha la forma
 $$i\hbar \frac{\partial \Psi}{\partial t}=- \frac{\hbar^{2}}{2m}\nabla^{2}\Psi+V\Psi\tag{3D}$$
-con $\nabla^{2}$ il [[laplaciano]].
+con $\nabla^{2}$ il [[Laplaciano]].
 
 Risolvere l'equazione di Schrödinger, trovando quindi l'equazione d'onda, ci permette di conoscere l'evoluzione temporale del sistema quantistico.
 
 Una forma più generale dell'equazione di Schrödinger è
 $$i\hbar \frac{\partial }{\partial t}|\mathcal{S}(t)\rangle=\hat{H}|\mathcal{S}(t)\rangle$$
-dove $\hat{H}$ è l'[[operatore]] [[Hamiltoniana|Hamiltoniano]] del sistema e $|\mathcal{S}(t)\rangle$ è lo [[stato]] al tempo $t$, che può essere rappresentato da una varietà di costrutti matematici, come una funzione d'onda. Essa è risolta dall'[[evolutore]] e grazie a esso si trova che è *reversibile*. Quindi la dinamica descritta dall'equazione di Schrödinger è reversibile. Questo è un fatto molto importante dato che la dinamica descritta dal collasso di un pacchetto d'onda è *irreversibile*. Come sia possibile che queste due dinamiche coesistano è un problema aperto della fisica.
+dove $\hat{H}$ è l'[[Operatore]] [[Hamiltoniana|Hamiltoniano]] del sistema e $|\mathcal{S}(t)\rangle$ è lo [[stato]] al tempo $t$, che può essere rappresentato da una varietà di costrutti matematici, come una funzione d'onda. Essa è risolta dall'[[evolutore]] e grazie a esso si trova che è *reversibile*. Quindi la dinamica descritta dall'equazione di Schrödinger è reversibile. Questo è un fatto molto importante dato che la dinamica descritta dal collasso di un pacchetto d'onda è *irreversibile*. Come sia possibile che queste due dinamiche coesistano è un problema aperto della fisica.
 ## Potenziale indipendente dal tempo
 Per risolvere l'equazione di Schrödinger bisogna determinare un certo potenziale $V(x,t)$. Possiamo restringere il set di potenziali a quelli indipendenti dal tempo, a modo tale che valga $V(x)$ e non $V(x,t)$.
 ### Soluzione unidimensionale
@@ -31,7 +31,7 @@ Se due o più soluzioni distinte (ossia [[lineare indipendenza|linearmente indip
 ### Proprietà delle soluzioni separabili
 Questa forma conferisce alle soluzioni alcune proprietà particolari:
 1. sono *stati stazionari*. Ciò significa che il [[valore di aspettazione]] della funzione d'onda, ma anche quello di *qualunque* [[variabile dinamica]], è costante nel tempo. È possibile dunque tralasciare il termine temporale $\varphi$ e usare solo quello spaziale $\psi$. Vale anche che se $\Psi$ è normalizzata, lo è anche $\psi$.
-2. L'energia totale è definita e può essere espressa come un'Hamiltoniana della forma $$H(x,p)=\frac{p^{2}}{2m}+V(x)$$con operatore Hamiltoniano associato $$\hat{H}=- \frac{\hbar^{2}}{2m}\frac{\partial ^{2}}{\partial x^{2}}+V(x)$$ottenuto sostituendo $p$ con $\hat{p}$. Allora l'equazione di Schrödinger indipendente dal tempo può essere scritta nella forma estremamente compatta $$\boxed{\hat{H}\psi=E\psi}\tag{3}$$che è un'[[equazione agli autovalori]] per l'Hamiltoniana, di autovalore $E$ e autofunzione $\psi$. Allora, $\psi$ è uno [[stato determinato]] di $\hat{H}$.
+2. L'energia totale è definita e può essere espressa come un'Hamiltoniana della forma $$H(x,p)=\frac{p^{2}}{2m}+V(x)$$con operatore Hamiltoniano associato $$\hat{H}=- \frac{\hbar^{2}}{2m}\frac{\partial ^{2}}{\partial x^{2}}+V(x)$$ottenuto sostituendo $p$ con $\hat{p}$. Allora l'equazione di Schrödinger indipendente dal tempo può essere scritta nella forma estremamente compatta $$\boxed{\hat{H}\psi=E\psi}\tag{3}$$che è un'[[Equazione agli autovalori]] per l'Hamiltoniana, di autovalore $E$ e autofunzione $\psi$. Allora, $\psi$ è uno [[stato determinato]] di $\hat{H}$.
 3. La soluzione generale dell'equazione di Schrödinger *dipendente* dal tempo è una combinazione lineare delle soluzioni separabili *indipendenti* dal tempo. Ciò significa che una volta risolta l'equazione indipendente, si può costruire la soluzione di quella dipendente.
 #### Dimostrazioni e dettagli
 *Stati stazionari.* Prendiamo una soluzione $\Psi(x,t)=\psi(x)e^{-iEt/\hbar}$. Ovviamente dipende da $t$, ma la sua densità di probabilità *no*:
@@ -106,7 +106,7 @@ Si trova che la soluzione di questa equazione è
 $$\Theta(\theta)=AP_{1}^{m}(\cos\theta)$$
 dove $P_{1}^{m}$ è la **funzione associata di Legendre** (o *polinomio associato di Legendre*), definito come
 $$P_{l}^{m}(x)\equiv (1-x^{2})^{|m|/2} \left(\frac{d}{dx}\right)^{2}P_{l}(x)$$
-dove $P_{l}(x)$ sono i [[polinomi di Legendre]].
+dove $P_{l}(x)$ sono i [[Polinomi di Legendre]].
 
 [^1]: Tecnicamente ci sono due soluzioni: $\exp(im\phi)$ e $\exp(-im\phi)$, ma dato che $m$ può essere negativo, le due coincidono (basta cambiare $m$). Dovrebbe esserci un fattore di scala di fronte, come $C\exp(im\phi)$, ma per convenienza lo assorbiamo nella soluzione di $\Theta$, dato che dovranno inevitabilmente essere moltiplicate l'una per l'altra.
 [^2]: Questo ragionamento non è propriamente rigoroso. Ci sono modi più corretti di determinare questa condizione, che in ogni caso è vera.

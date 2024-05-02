@@ -1,4 +1,4 @@
-Consideriamo il [[campo elettromagnetico]] espresso tramite il [[potenziale vettore]] $\vec{A}$
+Consideriamo il [[campo elettromagnetico]] espresso tramite il [[Potenziale vettore]] $\vec{A}$
 $$\nabla^{2}\vec{A}(r,t)- \frac{1}{c^{2}}\frac{\partial ^{2}}{\partial t^{2}}\vec{A}(r,t)=-N_{0}J_{T}=0$$
 dove $J_{T}$ è la [[corrente]] trasversa alla direzione di propagazione $\vec{k}$, che consideriamo nulla. Il campo elettrico (trasverso) e magnetico si trovano con
 $$\vec{E}_{T}=-\frac{\partial \vec{A}}{\partial t}\quad;\quad\vec{B}=\vec{\nabla}\times\vec{A}\tag{1}$$
@@ -7,7 +7,7 @@ $$A(r,t)=\sum\limits_{k,\lambda}[A_{k,\lambda}(\omega)\hat{e}_{\lambda}e^{i(kr-\
 Noi vogliamo pensare al campo come una serie di fotoni discreti. Dobbiamo quindi quantizzare il campo. Per fare ciò bisogna:
 1. trovare l'[[Hamiltoniana]] $H(A(r,t))$
 2. trovare le variabili canoniche del campo $q$ e $p$
-3. "promuovere" variabili a [[operatore|operatori]] e imporre regole di commutazione
+3. "promuovere" variabili a [[Operatore|operatori]] e imporre regole di commutazione
 
 Cerchiamo $q$. Considerando un sistema chiuso dove non esce energia di un certo volume, la densità di energia $U$ è
 $$U=\frac{1}{2}\int \left[\epsilon_{0}\vec{E}_{T}(r,t)\cdot\vec{E}_{T}(r,t)+ \frac{1}{\mu_{0}}\vec{B}(r,t)\cdot\vec{B}(r,t)\right]dV$$

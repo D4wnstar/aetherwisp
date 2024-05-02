@@ -1,11 +1,11 @@
 L'**interpretazione statistica generalizzata** è una spiegazione probabilistica della meccanica quantistica e dei suoi meccanismi.
 
-Consideriamo un'[[osservabile]] $Q(x,p)$ per una [[particella]] nello [[stato]] denotato dalla [[funzione d'onda]] $\Psi(x,t)$. Se compiamo una misura, siamo certi di ottenere uno degli [[Equazione agli autovalori|autovalori]] dell'[[operatore autoaggiunto]] $\hat{Q}\left(x,-i\hbar \frac{d}{dx}\right)$.
-- Se lo [[spettro]] di $\hat{Q}$ è discreto, la probabilità di ottenere un certo autovalore $q_{n}$ associato all'autofunzione [[Ortonormalità|ortonormale]] $f_{n}(x)$ è$$|c_{n}|^{2},\quad\text{con}\quad c_{n}=\langle f_{n}|\Psi\rangle$$
+Consideriamo un'[[osservabile]] $Q(x,p)$ per una [[particella]] nello [[stato]] denotato dalla [[funzione d'onda]] $\Psi(x,t)$. Se compiamo una misura, siamo certi di ottenere uno degli [[Equazione agli autovalori|autovalori]] dell'[[Operatore autoaggiunto]] $\hat{Q}\left(x,-i\hbar \frac{d}{dx}\right)$.
+- Se lo [[Spettro]] di $\hat{Q}$ è discreto, la probabilità di ottenere un certo autovalore $q_{n}$ associato all'autofunzione [[Ortonormalità|ortonormale]] $f_{n}(x)$ è$$|c_{n}|^{2},\quad\text{con}\quad c_{n}=\langle f_{n}|\Psi\rangle$$
 - Se lo spettro è continuo con autovalori reali $q(z)$ e autofunzioni [[Ortonormalità|Dirac-ortonormali]] associate $f_{z}(x)$, la probabilità di ottenere un risultato in un intervallo infinitesimo $dz$ è$$|c(z)|^{2}dz,\quad\text{con}\quad c(z)=\langle f_{z}|\Psi\rangle$$
 Una volta completata la misura, la funzione d'onda collassa nell'autostato corrispondente.
 
-La funzione d'onda $\Psi$ di può essere scritta come [[Serie di Fourier|serie]] o [[trasformata di Fourier]] delle autofunzioni dell'osservabile
+La funzione d'onda $\Psi$ di può essere scritta come [[Serie di Fourier|serie]] o [[Trasformata di Fourier]] delle autofunzioni dell'osservabile
 $$\Psi(x,t)=\sum\limits_{n=1}^{\infty}c_{n}(t)f_{n}(x)\quad\text{(con spettro discreto)}$$
 $$\Psi(x,t)=\int_{-\infty}^{+\infty}c(k)e^{i(kx-at)}dk\quad\text{(con spettro continuo)}$$
 e i coefficienti possono essere trovati come ci dice l'analisi di Fourier
@@ -21,7 +21,7 @@ $$\left\langle Q \right\rangle=\sum\limits_{n=1}^{\infty}q_{n}|c_{n}|^{2}=1\quad
 e più comunemente dalla funzione d'onda
 $$\left\langle Q \right\rangle=\langle \Psi|\hat{Q}| \Psi\rangle$$
 
-Controlliamo i casi importanti degli [[operatore|operatori]] posizione e momento. Come visto in [[Autofunzioni di operatori autoaggiunti]], la posizione accetta qualunque numero reale $y$ come autovalore e ha come autofunzioni la [[delta di Dirac]]. Controlliamo che valga la $(1)$ continua:
+Controlliamo i casi importanti degli [[Operatore|operatori]] posizione e momento. Come visto in [[Autofunzioni di operatori autoaggiunti]], la posizione accetta qualunque numero reale $y$ come autovalore e ha come autofunzioni la [[Delta di Dirac]]. Controlliamo che valga la $(1)$ continua:
 $$c(y)=\langle \delta(x-y)|\Psi\rangle=\int_{-\infty}^{+\infty}\delta(x-y)\Psi(x,t)dx=\Psi(y,t)$$
 e quindi la probabilità di trovare una particella in un intervallo $dy$ è $|\Psi(x,t)|^{2}dy$, esattamente come si era originariamente predetto. Allo stesso modo, controlliamo la quantità di moto, che ha autofunzioni $f_{p}(x)=(1/\sqrt{2\pi\hbar})\exp(ipx/\hbar)$:
 $$c(p)=\langle f_{p}|\Psi\rangle=\frac{1}{\sqrt{2\pi\hbar}}\int_{-\infty}^{+\infty}\Psi(x,t)e^{-ipx/\hbar}dx=\Phi(p,t)$$

@@ -58,7 +58,7 @@ $$i\hbar\partial_{t}|\psi_{t}\rangle= \frac{\hat{\bar{p}}^{2}}{2m}|\psi_{t}\rang
 $$i\hbar\partial_{t}(\bar{r})=\frac{1}{2m}\langle \bar{r}|\hat{\bar{p}}^{2}|\psi_{t}\rangle=\frac{1}{2m}\langle \bar{r}|\hat{\bar{p}}\cdot\hat{\bar{p}}|\psi_{t}\rangle=\frac{1}{2m}\langle \bar{r}|(\hat{p}^{2}_{x}+\hat{p}^{2}_{y}+\hat{p}^{2}_{z})|\psi_{t}\rangle$$
 Usando il Laplaciano
 $$- \frac{\hbar^{2}}{2m}\overline{\nabla}^{2}\psi_{t}(\bar{r})=i\hbar\partial_{t}\psi_{t}(\bar{r})$$
-Per essere risolta dobbiamo fare la [[trasformata di Fourier]], poi tornare indietro con l'antitrasformata, quindi torneremmo comunque dov'eravamo prima nella rappresentazione dei momenti, quindi non conviene.
+Per essere risolta dobbiamo fare la [[Trasformata di Fourier]], poi tornare indietro con l'antitrasformata, quindi torneremmo comunque dov'eravamo prima nella rappresentazione dei momenti, quindi non conviene.
 
 ## Autoaggiuntezza di $\hat{x}$, $\hat{p}$
 $$\langle \phi|\hat{x}\psi\rangle=\langle \phi|\hat{x}\left( \int_{\mathbb{R}}dx |x\rangle\langle x| \right)\psi\rangle=\langle \phi|\int_{\mathbb{R}}dx x |x\rangle\langle x| \psi\rangle$$

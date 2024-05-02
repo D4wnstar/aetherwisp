@@ -6,7 +6,7 @@ Si ha che $p>0$ e $p^{2}=\left(\frac{h}{L}\right)^{2}(n^{2}_{x}+n^{2}_{y})>0$. L
 $$\epsilon_{m}=\frac{p^{2}}{2m}= \frac{1}{2m}\left(\frac{h}{L}\right)^{2}$$
 Ora calcolo
 $$g(E)=\frac{1}{A}\sum\limits_{\vec{p}}\delta\left(E- \frac{p^{2}}{2m}\right)=\frac{2\pi}{A}\int dp\; \frac{p}{\left(\frac{h}{L}\right)^{2}}\delta\left(E- \frac{p^{2}}{2m}\right)=\ldots$$
-Vogliamo calcolare l'integrale con la [[delta di Dirac]] 
+Vogliamo calcolare l'integrale con la [[Delta di Dirac]] 
 $$\int dx f(x)\delta(g(x)-c)=\sum\limits_{i=1}^{M}f(x_{i}) \frac{1}{|g'(x_{i})|}$$
 $$\int_{0}^{\infty}dp\;p \delta\left(E- \frac{p^{2}}{2m}\right)=\sqrt{2mE} \frac{1}{\frac{\sqrt{2mE}}{m}}=m$$
 Quindi tornando al calcolo di $g$ 

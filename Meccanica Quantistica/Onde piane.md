@@ -8,7 +8,7 @@ $$\begin{align}
 \end{align}$$
 Allora possiamo esprimere l'onda *piana* come
 $$\psi_{p}=\frac{e^{\frac{i}{\hbar}px}}{\sqrt{2\pi\hbar}}=\langle x|p\rangle$$
-ossia come il prodotto scalare tra un autoket di posizione $x$ e un autoket di momento $p$, cioè la rappresentazione di $p$ su $x$. Ma prendendo il coniugato posso trovare anche la forma simmetrica $\langle p|x\rangle$ che ci dà la rappresentazione di $x$ su $p$, che è del tutto equivalente in termini fisici. Matematicamente, non è altro che una [[trasformata di Fourier]] da $x$ a $p$ o viceversa:
+ossia come il prodotto scalare tra un autoket di posizione $x$ e un autoket di momento $p$, cioè la rappresentazione di $p$ su $x$. Ma prendendo il coniugato posso trovare anche la forma simmetrica $\langle p|x\rangle$ che ci dà la rappresentazione di $x$ su $p$, che è del tutto equivalente in termini fisici. Matematicamente, non è altro che una [[Trasformata di Fourier]] da $x$ a $p$ o viceversa:
 $$\psi:L^{2}(\mathbb{R},dx)\rightarrow L^{2}(\mathbb{R},dx),\quad \psi(x)\rightarrow\tilde{\psi}(p)=\int_{-\infty}^{+\infty}dx \frac{e^{\frac{i}{\hbar}px}}{\sqrt{2\pi\hbar}}\psi(x)$$
 Valgono anche $\langle x_{0}|x\rangle=\delta(x-x_{0})$ e l'antitrasformata
 $$\psi(x)=\int_{-\infty}^{+\infty}dp \frac{e^{-\frac{i}{\hbar}xp}}{\sqrt{2\pi\hbar}}\tilde{\psi}(p)$$

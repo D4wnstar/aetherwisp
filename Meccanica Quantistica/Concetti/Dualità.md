@@ -1,8 +1,8 @@
-La **dualità** in fisica quantistica è la relazione tra la *picture* di Schrödinger, in cui evolvono gli [[stato|stati]], e la *picture* di Heisenberg, in cui evolvono gli [[operatore|operatori]]. Questi due punti di vista sono equivalenti e quale viene usato è interamente una questione di preferenza. Si tratta dell'analogo quantistico dell'equivalenza di sistemi di riferimento (come guardare un treno dalla banchina o essere sul treno e guardare fuori).
+La **dualità** in fisica quantistica è la relazione tra la *picture* di Schrödinger, in cui evolvono gli [[stato|stati]], e la *picture* di Heisenberg, in cui evolvono gli [[Operatore|operatori]]. Questi due punti di vista sono equivalenti e quale viene usato è interamente una questione di preferenza. Si tratta dell'analogo quantistico dell'equivalenza di sistemi di riferimento (come guardare un treno dalla banchina o essere sul treno e guardare fuori).
 
 Nella *picture* di Schrödinger è lo stato ad evolversi nel tempo. Presa uno stato $\psi$, essa si evolve con l'[[evolutore]] con
 $$|\psi\rangle \rightarrow |\psi_{t}\rangle=\hat{U}_{t}|\psi_{t}\rangle$$
-e il valor medio di una [[osservabile]] $Q$ con [[operatore autoaggiunto]] $\hat{Q}$ si esprime
+e il valor medio di una [[osservabile]] $Q$ con [[Operatore autoaggiunto]] $\hat{Q}$ si esprime
 $$\left\langle Q \right\rangle = \langle \psi_{t}|\hat{Q}|\psi_{t}\rangle$$
 
 Nella *picture* di Heisenberg è l'operatore dell'osservabile a evolvere.

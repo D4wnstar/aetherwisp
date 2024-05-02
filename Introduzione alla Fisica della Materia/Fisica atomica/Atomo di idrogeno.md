@@ -8,7 +8,7 @@ dove $M$ è la massa del nucleo, $m$ la masse dell'[[elettrone]], $Z$ è il nume
 
 Si nota che l'Hamiltoniana non dipende esplicitamente dallo [[spin]] dell'elettrone. La [[funzione d'onda]] è esprimibile come prodotto della componente spaziale e di spin
 $$\psi(q)=\chi_{s,m_{s}}\psi(r)$$
-dove $\chi_{ms}$ sono gli autostati dell'[[operatore]] $S_{z}$ ed $S^{2}$ con autovalori $s=1/2$ e $m_{s}=\pm1/2$. Cerchiamo questi autostati.
+dove $\chi_{ms}$ sono gli autostati dell'[[Operatore]] $S_{z}$ ed $S^{2}$ con autovalori $s=1/2$ e $m_{s}=\pm1/2$. Cerchiamo questi autostati.
 
 Prendiamo il momento angolare orbitale $\vec{L}=\vec{r}\times\vec{p} =-i\hbar(\vec{r}\times\nabla)$. Per componenti
 $$\begin{cases}
