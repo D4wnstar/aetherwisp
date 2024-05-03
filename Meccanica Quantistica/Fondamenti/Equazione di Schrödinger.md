@@ -106,7 +106,7 @@ Si trova che la soluzione di questa equazione è
 $$\Theta(\theta)=AP_{1}^{m}(\cos\theta)$$
 dove $P_{1}^{m}$ è la **funzione associata di Legendre** (o *polinomio associato di Legendre*), definito come
 $$P_{l}^{m}(x)\equiv (1-x^{2})^{|m|/2} \left(\frac{d}{dx}\right)^{2}P_{l}(x)$$
-dove $P_{l}(x)$ sono i [[Polinomi di Legendre]].
+dove $P_{l}(x)$ sono i [[polinomi di Legendre]].
 
 [^1]: Tecnicamente ci sono due soluzioni: $\exp(im\phi)$ e $\exp(-im\phi)$, ma dato che $m$ può essere negativo, le due coincidono (basta cambiare $m$). Dovrebbe esserci un fattore di scala di fronte, come $C\exp(im\phi)$, ma per convenienza lo assorbiamo nella soluzione di $\Theta$, dato che dovranno inevitabilmente essere moltiplicate l'una per l'altra.
 [^2]: Questo ragionamento non è propriamente rigoroso. Ci sono modi più corretti di determinare questa condizione, che in ogni caso è vera.

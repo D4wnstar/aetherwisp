@@ -27,3 +27,7 @@ Usando gli operatori $\hat{H}$ e $\hat{F}$ si ha, per estensione
 $$\hat{H}'=\frac{d\hat{H}_{\alpha}}{d\alpha}=\frac{i}{\hbar}[\hat{F},\hat{H}_{\alpha}]=\frac{i}{\hbar}\hat{V}_{\alpha}^{\dagger}[\hat{F},\hat{H}]\hat{V}_{\alpha}$$
 $$\dot{\hat{F}}=\frac{d\hat{F}_{t}}{dt}=\frac{i}{\hbar}[\hat{H},\hat{F}_{t}]=\frac{i}{\hbar}\hat{U}_{t}^{\dagger}[\hat{H},\hat{F}]\hat{U}_{t}$$
 usando che $\hat{F}_{t}=\hat{U}_{t}^{\dagger}\hat{F}\hat{U}_{t}$ e $\hat{H}_{\alpha}=\hat{V}_{\alpha}^{\dagger}\hat{H}\hat{V}_{\alpha}$, con $\hat{U}_{t}=e^{- \frac{i}{\hbar}t \hat{H}}$ e $\hat{V}_{\alpha}=e^{- \frac{i}{\hbar}\alpha\hat{F}}$.
+### Forma generale
+Il teorema di Noether può essere generalizzato. La sua forma più generale è
+$$\text{simmetria} \Leftrightarrow \text{legge di conservazione}$$
+Quindi per ogni simmetria esiste una legge di conservazione associata ad essa, e per ogni legge di conservazione esiste una simmetria.
