@@ -2,13 +2,13 @@ L'**equazione di Schrödinger** è un'equazione differenziale di secondo grado c
 $$i\hbar \frac{\partial \Psi}{\partial t}=- \frac{\hbar^{2}}{2m} \frac{\partial ^{2}\Psi}{\partial x^{2}}+V\Psi\tag{1D}$$
 dove $\hbar$ è la [[costante di Planck]] ridotta, $m$ è la massa della [[particella]], $\Psi(x,t)$ è la [[funzione d'onda]] della particella in esame e $V$ è la funzione energia potenziale della particella. In tre dimensione ha la forma
 $$i\hbar \frac{\partial \Psi}{\partial t}=- \frac{\hbar^{2}}{2m}\nabla^{2}\Psi+V\Psi\tag{3D}$$
-con $\nabla^{2}$ il [[Laplaciano]].
+con $\nabla^{2}$ il [[laplaciano]].
 
 Risolvere l'equazione di Schrödinger, trovando quindi l'equazione d'onda, ci permette di conoscere l'evoluzione temporale del sistema quantistico.
 
 Una forma più generale dell'equazione di Schrödinger è
 $$i\hbar \frac{\partial }{\partial t}|\mathcal{S}(t)\rangle=\hat{H}|\mathcal{S}(t)\rangle$$
-dove $\hat{H}$ è l'[[Operatore]] [[Hamiltoniana|Hamiltoniano]] del sistema e $|\mathcal{S}(t)\rangle$ è lo [[stato]] al tempo $t$, che può essere rappresentato da una varietà di costrutti matematici, come una funzione d'onda. Essa è risolta dall'[[evolutore]] e grazie a esso si trova che è *reversibile*. Quindi la dinamica descritta dall'equazione di Schrödinger è reversibile. Questo è un fatto molto importante dato che la dinamica descritta dal collasso di un pacchetto d'onda è *irreversibile*. Come sia possibile che queste due dinamiche coesistano è un problema aperto della fisica.
+dove $\hat{H}$ è l'[[operatore]] [[Hamiltoniana|Hamiltoniano]] del sistema e $|\mathcal{S}(t)\rangle$ è lo [[stato]] al tempo $t$, che può essere rappresentato da una varietà di costrutti matematici, come una funzione d'onda. Essa è risolta dall'[[evolutore]] e grazie a esso si trova che è *reversibile*. Quindi la dinamica descritta dall'equazione di Schrödinger è reversibile. Questo è un fatto molto importante dato che la dinamica descritta dal collasso di un pacchetto d'onda è *irreversibile*. Come sia possibile che queste due dinamiche coesistano è un problema aperto della fisica.
 ## Potenziale indipendente dal tempo
 Per risolvere l'equazione di Schrödinger bisogna determinare un certo potenziale $V(x,t)$. Possiamo restringere il set di potenziali a quelli indipendenti dal tempo, a modo tale che valga $V(x)$ e non $V(x,t)$.
 ### Soluzione unidimensionale
@@ -95,7 +95,7 @@ Il primo termine (tra le graffe) dipende solo da $\theta$, il secondo solo da $\
 $$\frac{1}{\Theta}\left[\sin\theta \frac{d}{d\theta}\left(\sin\theta \frac{d\Theta}{d\theta}\right)\right]+l(l+1)\sin^{2}\theta=m^{2}$$
 $$\frac{1}{\Phi} \frac{d^{2}\Phi}{d\phi^{2}}=-m^{2}$$
 L'equazione in $\phi$ è banale. La soluzione è[^1]
-$$\frac{d^{2}\Phi}{d\phi^{2}}=-m^{2}\phi \Rightarrow \Phi(\phi)=e^{im\phi}$$
+$$\frac{d^{2}\Phi}{d\phi^{2}}=-m^{2}\phi \Rightarrow \boxed{\Phi(\phi)=e^{im\phi}}$$
 Scegliamo il ramo della funzione esponenziale notando che, ruotando di $2\pi$, torniamo nel punto iniziale, quindi deve valere[^2]
 $$\Phi(\phi+2\pi)=\Phi(\phi) \Rightarrow e^{im(\phi+2\pi)}=e^{im\phi} \Rightarrow e^{2\pi im}=1$$
 Che non è altro che la formula di Eulero per i numeri complessi. Allora $m$ deve essere un numero intero $0,\pm1,\pm2,\ldots$.
@@ -103,10 +103,33 @@ Che non è altro che la formula di Eulero per i numeri complessi. Allora $m$ dev
 L'equazione in $\theta$ è più complessa. Riscriviamola come
 $$\left[\sin\theta \frac{d}{d\theta}\left(\sin\theta \frac{d\Theta}{d\theta}\right)+l(l+1)\sin^{2}\theta-m^{2}\right]\Theta=0$$
 Si trova che la soluzione di questa equazione è
-$$\Theta(\theta)=AP_{1}^{m}(\cos\theta)$$
-dove $P_{1}^{m}$ è la **funzione associata di Legendre** (o *polinomio associato di Legendre*), definito come
-$$P_{l}^{m}(x)\equiv (1-x^{2})^{|m|/2} \left(\frac{d}{dx}\right)^{2}P_{l}(x)$$
-dove $P_{l}(x)$ sono i [[polinomi di Legendre]].
+$$\boxed{\Theta(\theta)=AP_{l}^{m}(\cos\theta)}$$
+dove $A$ è una costante e $P_{l}^{m}$ è la [[Polinomi di Legendre#Polinomi associati di Legendre|funzione di Legendre associata]], definita come
+$$P_{l}^{m}(x)\equiv (1-x^{2})^{|m|/2} \left(\frac{d}{dx}\right)^{m}P_{l}(x)$$
+dove $P_{l}(x)$ è la [[Polinomi di Legendre|funzione di Legendre]]. Solo valori interi di $l$ e $m$ hanno senso fisico, quindi $P_{l}^{m}$ diventano i polinomi di Legendre associati. Allora la parte angolare è
+$$\boxed{Y(\theta,\phi)=AP_{l}^{m}(\cos\theta)e^{im\theta}}$$
+#### Parte radiale
+La parte radiale è diversa da quella angolare nel fatto che contiene anche il potenziale. Se la parte angolare è indipendente dal potenziale, quella radiale dipende dalla sua forma. Moltiplichiamo la $(5)$ per $R$ e riscriviamo le derivate come totali anziché parziali per ottenere
+$$\frac{d}{dr}\left(r^{2}\frac{dR}{dr}\right) - \frac{2mr^{2}}{\hbar^{2}}[V(r)-E]R=l(l+1)R$$
+Possiamo compiere un cambio di variabili per semplificare
+$$u(r)\equiv rR(r)$$
+con cui
+$$\boxed{- \frac{\hbar^{2}}{2m} \frac{d^{2}u}{dr^{2}}+\left[V+ \frac{\hbar^{2}}{2m} \frac{l(l+1)}{r^{2}}\right]u=Eu}\tag{7}$$
+Questa si chiama **equazione radiale** e va risolta in base al potenziale dato. È molto importante il fatto che sia *esattamente* l'equazione di Schrödinger indipendente dal tempo in una dimensione $(2)$, con un *potenziale effettivo* $V_{\text{eff}}$ pari a
+$$V_{\text{eff}}=V+ \frac{\hbar^{2}}{2m} \frac{l(l+1)}{r^{2}}$$
+che contiene un termine aggiuntivo detto **termine centrifugale** che tende a "spingere" la particella verso "fuori", proprio come la pseudoforza centrifuga in meccanica classica.
+#### Normalizzazione
+Ora vogliamo normalizzare le nostre soluzioni. La condizione di normalizzazione in tre dimensioni è
+$$\int|\psi|^{2}d\tau=\int|\psi|^{2}r^{2}\sin\theta drd\theta d\phi=\int|R|^{2}r^{2}dr\int|Y|^{2}\sin\theta d\theta d\phi=1$$
+Normalizziamo parte radiale e angolare separatamente, cioè
+$$\int_{0}^{\infty}|R|^{2}r^{2}dr=1, \quad \int_{0}^{2\pi}\int_{0}^{\pi}|Y|^{2}\sin\theta d\theta d\phi=1$$
+
+La parte angolare normalizzata non è altro che la $l$-$m$-esima [[armoniche sferiche|armonica sferica]] e vale
+$$Y_{l}^{m}(\theta,\phi)=\epsilon\sqrt{\frac{2l+1}{4\pi} \frac{(l-|m|)!}{(l+|m|)!}}e^{im\phi}P_{l}^{m}(\cos\theta)$$
+dove $\epsilon$ è $(-1)^{m}$ per $m\geq0$ e $1$ per $m\leq0$. Nel contesto della meccanica quantistica, $l$ è detto *numero quantico di momento angolare* e $m$ *numero quantico magnetico*.
+
+La parte radiale normalizzata non ha una forma generale perché dipende dal potenziale.
+
 
 [^1]: Tecnicamente ci sono due soluzioni: $\exp(im\phi)$ e $\exp(-im\phi)$, ma dato che $m$ può essere negativo, le due coincidono (basta cambiare $m$). Dovrebbe esserci un fattore di scala di fronte, come $C\exp(im\phi)$, ma per convenienza lo assorbiamo nella soluzione di $\Theta$, dato che dovranno inevitabilmente essere moltiplicate l'una per l'altra.
 [^2]: Questo ragionamento non è propriamente rigoroso. Ci sono modi più corretti di determinare questa condizione, che in ogni caso è vera.

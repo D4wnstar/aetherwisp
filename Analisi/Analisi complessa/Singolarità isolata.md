@@ -1,3 +1,7 @@
+---
+aliases:
+  - singolarità
+---
 Una **singolarità isolata** per una funzione ad argomento complesso $f(z)$ è un punto isolato di [[Funzione analitica|non-olomorfia]] entro il dominio della funzione. Si distinguono tre tipi.
 ### Singolarità removibili
 Sono singolarità "finte", nel senso che è sempre possibile prolungare la funzione per continuità sulla singolarità in modo da renderla olomorfa anche in quel punto. Un esempio è $f(z)=\frac{\sin(z)}{z}$ in $z=0$, dove è prolungabile dichiarando $f(0)=1$.

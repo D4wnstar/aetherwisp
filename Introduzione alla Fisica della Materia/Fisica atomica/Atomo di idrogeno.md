@@ -1,14 +1,14 @@
-L'[[atomo]] di idrogeno (e tutti gli atomi *idrogenoidi*, ossia con un solo elettrone), sono gli atomi dalla struttura più semplice e gli unici ad essere risolvibili analiticamente.
+L'**atomo di idrogeno** consiste in un [[protone]] sostanzialmente fermo di carica $e$ legato dall'[[Interazioni fondamentali|interazione elettromagnetica]] con un [[elettrone]] di carica $-e$. È l'[[atomo]] dalla struttura più semplice e l'unico ad essere risolvibile analiticamente (assieme a tutti gli atomi *idrogenoidi*, ossia con un solo elettrone, che si riconducono a quello di idrogeno).
 ### Formulazione di Schroedinger
 Consideriamo l'[[Hamiltoniana]]
 $$H=- \frac{\hbar^{2}}{2M}\nabla^{2}_{R}- \frac{\hbar^{2}}{2m}\nabla^{2}_{r_{e}}- \frac{Ze^{2}}{4\pi\epsilon_{0}|R-r_{e}|}$$
-dove $M$ è la massa del nucleo, $m$ la masse dell'[[elettrone]], $Z$ è il numero atomico e $|R-r_{e}|$ la distanza orbitale dell'elettrone. I tre termini rappresentano, in ordine, l'energia cinetica dei nuclei, quella degli elettroni e l'energia potenziale.
+dove $M$ è la massa del nucleo, $m$ la masse dell'[[elettrone]], $Z$ è il numero atomico e $|R-r_{e}|$ la distanza orbitale dell'elettrone. I tre termini rappresentano, in ordine, l'energia cinetica dei nuclei, quella degli elettroni e l'energia [[potenziale]].
 
 ![[Schema modello idrogeno|center]]
 
 Si nota che l'Hamiltoniana non dipende esplicitamente dallo [[spin]] dell'elettrone. La [[funzione d'onda]] è esprimibile come prodotto della componente spaziale e di spin
 $$\psi(q)=\chi_{s,m_{s}}\psi(r)$$
-dove $\chi_{ms}$ sono gli autostati dell'[[Operatore]] $S_{z}$ ed $S^{2}$ con autovalori $s=1/2$ e $m_{s}=\pm1/2$. Cerchiamo questi autostati.
+dove $\chi_{ms}$ sono gli autostati dell'[[operatore]] $S_{z}$ ed $S^{2}$ con autovalori $s=1/2$ e $m_{s}=\pm1/2$. Cerchiamo questi autostati.
 
 Prendiamo il momento angolare orbitale $\vec{L}=\vec{r}\times\vec{p} =-i\hbar(\vec{r}\times\nabla)$. Per componenti
 $$\begin{cases}
@@ -85,3 +85,114 @@ $$E_{n}=-R(\mu) \frac{Z^{2}}{n^{2}}=- \frac{\mu}{m}R_{\infty} \frac{Z^{2}}{n^{2}
 dove $R_{\infty}$ è la [[costante di Rydberg]]. Si nota che sono presenti stati discreti infiniti e che si infittiscono per $n \rightarrow \infty$ quando il potenziale Coulombiano tende a zero. Gli stati risultano degeneri in $l$ ed $m$. La degenerazione dei livelli è data da
 $$d=\underbrace{2}\limits_{m_{s}}\sum\limits_{l=0}^{n-1}\underbrace{2l+1}\limits_{m}=2n^{2}$$
 che racchiude tutti i numeri quantici: abbiamo che $l$ varia da $0$ a $n-1$, per ogni $l$ sono possibili $2l+1$ valori di $m$ e tutto è possibile per entrambi i numeri di [[spin]] $m_{s}=\pm\frac{1}{2}$.
+### Trattamento di Griffiths
+Anzitutto, determiniamo il [[potenziale]]. Dalla [[legge di Coulomb]] abbiamo il potenziale (in unita SI)
+$$V(r)=- \frac{e^{2}}{4\pi\epsilon_{0}} \frac{1}{r}$$
+quindi l'equazione radiale da risolvere per trovare la [[funzione d'onda]] è
+$$- \frac{\hbar^{2}}{2m}\frac{d^{2}u}{dr^{2}}+ \left[- \frac{e^{2}}{4\pi\epsilon_{0}} \frac{1}{r}+\frac{\hbar^{2}}{2m} \frac{l(l+1)}{r^{2}} \right]u(r)=Eu(r)\tag{1}$$
+
+Il potenziale Coulombiano ammette sia stati con [[spettro]] continuo con $E>0$ (che rappresentano la [[diffusione di particelle|diffusione]] protone-elettrone), sia con spettro discreto con $E<0$, i cui autostati stazionari rappresentano i livelli di energia dell'elettrone legato. A noi interessano questi ultimi.
+#### Funzione d'onda radiale
+Consideriamo la costante
+$$\kappa\equiv \frac{\sqrt{-2mE}}{\hbar} $$
+Per gli stati legati abbiamo $E<0$, quindi $\kappa$ è reale. Dividendo la $(1)$ per $E$ troviamo
+$$\frac{1}{\kappa^{2}} \frac{d^{2}u}{dr^{2}}=\left[1- \frac{me^{2}}{2\pi\epsilon_{0}\hbar^{2}\kappa} \frac{1}{\kappa r} + \frac{l(l+1)}{(\kappa r)^{2}}\right]u$$
+Possiamo compiere le sostituzioni
+$$\rho\equiv \kappa r, \quad \rho_{0}\equiv \frac{me^{2}}{2\pi\epsilon_{0}\hbar^{2}\kappa}$$
+da cui troviamo
+$$\frac{d^{2}u}{d\rho^{2}}=\left[1 - \frac{\rho_{0}}{\rho}+ \frac{l(l+1)}{\rho^{2}}\right]u\tag{2}$$
+Esaminiamo il comportamento asintotico[^1]. Per $\rho \rightarrow \infty$, i termini $\rho^{-1}$ e $\rho^{-2}$ tendono a zero, quindi rimane
+$$\frac{d^{2}u}{d\rho^{2}}=u$$
+la cui soluzione generale è
+$$u(\rho)=Ae^{-\rho}+Be^{\rho}$$
+Poiché $e^{\rho} \rightarrow \infty$, deve essere $B=0$. Allora
+$$u(\rho)\simeq Ae^{-\rho} \quad \text{per }\rho\gg1$$
+Per $\rho \rightarrow 0$, domina il termine centrifugale $\rho^{-2}$ (eccetto per $l=0$), quindi si ha
+$$\frac{d^{2}u}{dr^{2}}=\frac{l(l+1)}{\rho^{2}}u$$
+la cui soluzione generale è
+$$u(\rho)=C\rho^{l+1}+D\rho^{-l}$$
+Poiché $\rho^{-l} \rightarrow \infty$, deve essere $D=0$. Allora
+$$u(\rho)\simeq C\rho^{l+1}\quad \text{per }\rho\ll1$$
+
+Introduciamo la funzione $v(\rho)$ come
+$$u(\rho)=\rho^{l+1}e^{-\rho}v(\rho)$$
+che sostanzialmente rappresenta il comportamento di $u(\rho)$ al di fuori degli asintoti. Calcoliamone le derivate per risolvere l'equazione radiale esplicitamente:
+$$\frac{du}{d\rho}=\rho^{l}e^{-\rho}\left[(l+1-\rho)v+\rho \frac{dv}{d\rho}\right]$$
+$$\frac{d^{2}u}{dr^{2}}=\rho^{l}e^{-\rho}\left\{\left[ -2l-2+\rho+ \frac{l(l+1)}{\rho}\right]v + 2(l+1-\rho) \frac{dv}{d\rho} + \rho \frac{d^{2}v}{d\rho^{2}}\right\}$$
+Sostituendo nella $(2)$ abbiamo
+$$\rho \frac{d^{2}v}{d\rho^{2}}+2(l+1-\rho) \frac{dv}{d\rho}+[\rho_{0}-2(l+1)]v=0\tag{3}$$
+Assumiamo che la soluzione $v(\rho)$ possa essere espressa in [[serie di potenze]] in $\rho$:
+$$v(\rho)=\sum\limits_{j=0}^{\infty}c_{j}\rho^{j}$$
+Quindi il nostro problema ora è cercare i coefficienti $c_{j}$. Differenziando termine per termine si ha
+$$\frac{dv}{d\rho}=\sum\limits_{j=0}^{\infty}jc_{j}\rho^{j-1}=\sum\limits_{j=0}^{\infty}(j+1)c_{j+1}\rho^{j}$$
+dove nel secondo passaggio l'indice è stato modificato da $j$ a $j+1$. La seconda serie comincia da $j=0$ e non da $-1$ perché il termine $-1$ è nullo a causa di $(j+1)$. Differenziando ancora
+$$\frac{d^{2}v}{d\rho^{2}}=\sum\limits_{j=0}^{\infty}j(j+1)c_{j+1}\rho^{j-1}$$
+Sostituendo nella $(3)$ abbiamo
+$$\sum\limits_{j=0}^{\infty}j(j+1)c_{j+1}\rho^{j}+2(l+1)\sum\limits_{j=0}^{\infty}(j+1)c_{j+1}\rho^{j}-2\sum\limits_{j=0}^{\infty}jc_{j}\rho^{j}+$$
+$$+[\rho_{0}-2(l+1)]\sum\limits_{j=0}^{\infty}c_{j}\rho^{j}=0$$
+Equivalendo i coefficienti delle serie si ha
+$$j(j+1)c_{j}+2(l+1)c_{j+1}+2jc_{j}+[\rho_{0}-2(l+1)]c_{j}=0$$
+e invertendo
+$$c_{j+1}=\left[\frac{2(j+l+1)-\rho_{0}}{(j+1)(j+2l+2)}\right]c_{j}\tag{4}$$
+che è una formula ricorsiva per i coefficienti.
+
+Per $j\gg1$ possiamo approssimare i coefficienti
+$$c_{j+1}\simeq \frac{2j}{j(j+1)}c_{j}=\frac{2}{j+1}c_{j}$$
+(il $+1$ rimane la denominatore perché rende l'algebra a seguire più facile). Se questi fossero esatti e non un'approssimazione, si avrebbe
+$$c_{j}=\frac{2^{j}}{j!}c_{0}$$
+e quindi
+$$v(\rho)=c_{0}\sum\limits_{j=0}^{\infty} \frac{2^{j}}{j!}\rho^{j}=c_{0}e^{2\rho}$$
+e infine
+$$u(\rho)=c_{0}\rho^{l+1}e^{\rho}$$
+che va all'infinito per $\rho$ grande. L'esponenziale positivo è esattamente il termine che abbiamo rimosso nel risolvere il comportamento per $\rho \rightarrow \infty$. Dunque, l'unica soluzione qui è che la serie non è infinita. Deve quindi esserci un certo indice $j_{\text{max}}$  tale per cui
+$$c_{j_\text{max}+i}=0 \quad \forall i=1,2,\ldots$$
+Allora dalla $(4)$ vale
+$$2(j_{\text{max}}+l+1)-\rho_{0}=0$$
+Definendo il **numero quantico principale**
+$$n\equiv j_{\text{max}}+l+1\tag{5}$$
+si ha
+$$\rho_{0}=2n$$
+e dato che da $\rho_{0}$ possiamo risalire a $\kappa$ e quindi ad $E$:
+$$E=- \frac{\hbar^{2}\kappa^{2}}{2m}=- \frac{me^{4}}{8\pi^{2}\epsilon_{0}^{2}\hbar^{2}\rho_{0}^{2}}$$
+da cui troviamo gli autostati di energia permessa
+$$\boxed{E_{n}=-\left[ \frac{m}{2\hbar^{2}}\left( \frac{e^{2}}{4\pi\epsilon_{0}}\right)^{2}\right] \frac{1}{n^{2}}=\frac{E_{1}}{n^{2}}}$$
+Questa si chiama **formula di Bohr**.
+
+Se invece combiniamo la definizione di $\rho_{0}$ con $\rho_{0}=2n$ possiamo trovare $\kappa$ come
+$$\kappa=\left( \frac{me^{2}}{4\pi\epsilon_{0}\hbar^{2}}\right) \frac{1}{n}= \frac{1}{a_{0}n}$$
+dove abbiamo definito
+$$a_{0}\equiv \frac{4\pi\epsilon_{0}\hbar^{2}}{me^{2}}=0.529\times10^{-10}\text{m}$$
+il cosiddetto **[[raggio di Bohr]]**. Dalla definizione $\rho\equiv\kappa r$ abbiamo
+$$\rho= \frac{r}{an}$$
+Possiamo infine trovare la forma della funzione d'onda, che sarà determinata da tre [[numero quantico|numeri quantici]] ($n$, $l$, $m$):
+$$\psi_{nlm}(r,\theta,\phi)=R_{nl}(r)Y_{l}^{m}(\theta,\phi)$$
+dove
+$$R_{nl}(r)=\frac{1}{r}\rho^{l+1}e^{-\rho}v(\rho)$$
+e $v(\rho)$ è un polinomio di grado $j_{\text{max}}=n-l-1$ in $\rho$, i cui coefficienti sono determinati dalla formula ricorsiva $(4)$.
+
+Lo stato fondamentale $n=1$ è
+$$E_{1}=-\left[ \frac{m}{2\hbar^{2}} \left(\frac{e^{2}}{4\pi\epsilon_{0}}\right)^{2}\right]=-13.6\text{ eV}$$
+che è l'[[energia di legame]] dell'elettrone nello stato fondamentale dell'atomo di idrogeno. Per $n=1$, $l=0$ per la $(5)$, quindi anche $m=0$ poiché $|m|\leq l$. Dobbiamo trovare
+$$\psi_{100}(r,\theta,\phi)=R_{10}(r)Y_{0}^{0}(\theta,\phi)$$
+La $(4)$ ci dice che la serie termine appena dopo il primo termine, quindi $v(\rho)$ è una costante $c_{0}$ e la parte radiale è
+$$R_{10}(r)=\frac{c_{0}}{a}e^{-r/a}$$
+Normalizzandola si trova
+$$\int_{0}^{\infty}|R_{10}|^{2}r^{2}dr= \frac{|c_{0}|^{2}}{a^{2}}\int_{0}^{\infty} e^{-2r/a} r^{2}dr=|c_{0}|^{2} \frac{a}{4}=1$$
+che significa $c_{0}=2/\sqrt{a}$. L'[[Armoniche sferiche|armonica sferica]] con $l=0$ e $m=0$ è $Y_{0}^{0}=1/\sqrt{4\pi}$, quindi la funzione d'onda dello stato fondamentale dell'atomo di idrogeno è
+$$\boxed{\psi_{100}(r,\theta,\phi)=\frac{1}{\sqrt{\pi a^{3}}}e^{-r/a}}$$
+Livelli di energia più alti ($n\geq2$) presentano degenerazione pari a
+$$d(n)=\sum\limits_{l=0}^{n-1}(2l+1)=n^{2}$$
+
+La serie di potenze $v(\rho)$ definita con la formula ricorsiva $(4)$ può essere scritta come
+$$v(\rho)=L_{n-l-1}^{2l+1}(2\rho)$$
+con
+$$L_{q-p}^{p}(x)\equiv(-1)^{p}\left(\frac{d}{dx}\right)^{p}L_{q}(x)$$
+i [[polinomi di Laguerre|polinomi di Laguerre associati]] e
+$$L_{q}(x)\equiv e^{x}\left(\frac{d}{dx}\right)^{q}(e^{-x}x^{q})$$
+i [[polinomi di Laguerre]]. Sapendo questo è possibile normalizzare la funzione d'onda nel suo caso più generico. Così facendo si trova la funzione d'onda di un qualsiasi stato dell'atomo di idrogeno
+$$\boxed{\psi_{nlm}(r,\theta,\phi)=\sqrt{\left(\frac{2}{na}\right)^{3} \frac{(n-l-1)!}{2n[(n+l)!]^{3}}}e^{-r/na} \left(\frac{2r}{na}\right)^{l}\left[L_{n-l-1}^{2l+q}\left(\frac{2r}{na}\right)\right]Y_{l}^{m}(\theta,\phi)}$$
+Questa è una delle pochissime funzioni d'onda di casi realistici che possono essere risolte in forma chiusa. Le diverse funzioni d'onda sono fra loro [[Ortogonalità|ortogonali]]:
+$$\int \psi_{nlm}^{*}\psi_{n'l'm'}r^{2}\sin\theta dr d\theta d\phi=\delta_{nn'}\delta_{ll'}\delta_{mm'}$$
+usando la [[delta di Kronecker]]. Questo segue dall'ortogonalità delle armoniche sferiche e dal fatto che sono [[Equazione agli autovalori|autofunzioni]] di $H$ con autovalori distinti.
+
+[^1]: Ci sono due motivi per controllare e poi estrarre il comportamento asintotico anziché lavorare direttamente con $u(r)$. Estrarre $\rho^{l+1}$ serve a far si che la serie a cui giungiamo alla fine parta con termini non nulli (altrimenti i primi $l+1$ termini sarebbero tutti zeri). Estrarre $e^{-\rho}$ è utile perché il risultato ottenuto senza questa estrazione è molto più complicato.

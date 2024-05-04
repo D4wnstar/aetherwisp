@@ -2,7 +2,7 @@ Il **modello a shell** è un modello del nucleo di un [[atomo]]. Da non confonde
 1. i nucleoni si muovono nel nucleo sottoposti ad un potenziale
 2. il potenziale ha origine dagli altri nucleoni
 
-Dall'interpolazione dell'[[Atomo#Energia di legame|energia di legame]] media si trova che alcuni nuclei sono incredibilmente stabili e si trovano di molto al di sopra della curva. Questi nuclei si trovano in corrispondenza di alcuni $N$ e $Z$ specifici detti **numeri magici**: essi sono 2, 8, 20, 28, 50, 82 e 126. Esempi di nuclei (doppiamente) magici sono $_{2}^{4}He_{2}$, $_{8}^{16}O_{8}$, $_{20}^{40}Ca_{20}$, $_{20}^{48}Ca_{28}$ e $_{82}^{208}Pb_{128}$.
+Dall'interpolazione dell'[[energia di legame]] media si trova che alcuni nuclei sono incredibilmente stabili e si trovano di molto al di sopra della curva. Questi nuclei si trovano in corrispondenza di alcuni $N$ e $Z$ specifici detti **numeri magici**: essi sono 2, 8, 20, 28, 50, 82 e 126. Esempi di nuclei (doppiamente) magici sono $_{2}^{4}He_{2}$, $_{8}^{16}O_{8}$, $_{20}^{40}Ca_{20}$, $_{20}^{48}Ca_{28}$ e $_{82}^{208}Pb_{128}$.
 ### Formulazione con potenziale gaussiano
 Per nuclei piccoli ($A\leq7$), la distribuzione dei nucleoni nel nucleo è circa Gaussiana, quindi possiamo approssimare il potenziale con distribuzione spaziale Gaussiana. In altre parole, abbiamo un [[oscillatore armonico]] tridimensionale, che ha potenziale
 $$V(r)=\frac{1}{2k}r^{2}$$

@@ -1,12 +1,12 @@
 L'**oscillatore armonico quantistico** è l'analogo quantistico dell'[[oscillatore armonico]] classico, ossia un sistema quantistico con un [[punto di equilibrio]] soggetto ad una forza di ritorno $F$ una volta perturbato.
 ## Soluzione
-Il caso dell'oscillatore armonico consiste nel risolvere l'[[equazione di Schrödinger]] per una [[particella]] immersa nel [[Potenziale]]
+Il caso dell'oscillatore armonico consiste nel risolvere l'[[equazione di Schrödinger]] per una [[particella]] immersa nel [[potenziale]]
 $$V(x)=\frac{1}{2}m\omega^{2}x^{2}$$
 Partiamo dunque dall'equazione indipendente dal tempo, che prende la forma
 $$- \frac{\hbar^{2}}{2m} \frac{d^{2}\psi}{dx^{2}}+ \frac{1}{2}m\omega^{2}x^{2}\psi=E\psi\tag{1}$$
 Esistono due modi comuni per risolvere questa equazione: un modo semplice e "di forza bruta" che sfrutta le [[serie di potenze]] e un metodo algebrico che sfrutta le cosiddette operazioni a scala.
 ### Metodo algebrico
-Riscriviamo la $(1)$ in un modo più comodo, usando l'[[Operatore]] di quantità di moto $p\equiv (\hbar/i)d/dx$:
+Riscriviamo la $(1)$ in un modo più comodo, usando l'[[operatore]] di quantità di moto $p\equiv (\hbar/i)d/dx$:
 $$\frac{1}{2m}[p^{2}+(m\omega x)^{2}]\psi=E\psi$$
 da cui otteniamo la nota [[Hamiltoniana]] dell'oscillatore armonico
 $$H=\frac{1}{2m}[p^{2}+(m\omega x)^{2}]$$
