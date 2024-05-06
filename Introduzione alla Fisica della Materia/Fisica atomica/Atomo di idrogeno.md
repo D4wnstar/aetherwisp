@@ -1,5 +1,5 @@
 L'**atomo di idrogeno** consiste in un [[protone]] sostanzialmente fermo di carica $e$ legato dall'[[Interazioni fondamentali|interazione elettromagnetica]] con un [[elettrone]] di carica $-e$. È l'[[atomo]] dalla struttura più semplice e l'unico ad essere risolvibile analiticamente (assieme a tutti gli atomi *idrogenoidi*, ossia con un solo elettrone, che si riconducono a quello di idrogeno).
-### Formulazione di Schroedinger
+### Formulazione di Schrödinger
 Consideriamo l'[[Hamiltoniana]]
 $$H=- \frac{\hbar^{2}}{2M}\nabla^{2}_{R}- \frac{\hbar^{2}}{2m}\nabla^{2}_{r_{e}}- \frac{Ze^{2}}{4\pi\epsilon_{0}|R-r_{e}|}$$
 dove $M$ è la massa del nucleo, $m$ la masse dell'[[elettrone]], $Z$ è il numero atomico e $|R-r_{e}|$ la distanza orbitale dell'elettrone. I tre termini rappresentano, in ordine, l'energia cinetica dei nuclei, quella degli elettroni e l'energia [[potenziale]].
@@ -91,7 +91,7 @@ $$V(r)=- \frac{e^{2}}{4\pi\epsilon_{0}} \frac{1}{r}$$
 quindi l'equazione radiale da risolvere per trovare la [[funzione d'onda]] è
 $$- \frac{\hbar^{2}}{2m}\frac{d^{2}u}{dr^{2}}+ \left[- \frac{e^{2}}{4\pi\epsilon_{0}} \frac{1}{r}+\frac{\hbar^{2}}{2m} \frac{l(l+1)}{r^{2}} \right]u(r)=Eu(r)\tag{1}$$
 
-Il potenziale Coulombiano ammette sia stati con [[spettro]] continuo con $E>0$ (che rappresentano la [[diffusione di particelle|diffusione]] protone-elettrone), sia con spettro discreto con $E<0$, i cui autostati stazionari rappresentano i livelli di energia dell'elettrone legato. A noi interessano questi ultimi.
+Il potenziale Coulombiano ammette sia stati con [[spettro]] continuo con $E>0$ (che rappresentano la [[diffusione di particelle|diffusione]] protone-elettrone), sia con spettro discreto con $E<0$, i cui [[Stato stazionario|stati stazionari]] rappresentano i livelli di energia dell'elettrone legato. A noi interessano questi ultimi.
 #### Funzione d'onda radiale
 Consideriamo la costante
 $$\kappa\equiv \frac{\sqrt{-2mE}}{\hbar} $$
@@ -163,7 +163,7 @@ $$\kappa=\left( \frac{me^{2}}{4\pi\epsilon_{0}\hbar^{2}}\right) \frac{1}{n}= \fr
 dove abbiamo definito
 $$a_{0}\equiv \frac{4\pi\epsilon_{0}\hbar^{2}}{me^{2}}=0.529\times10^{-10}\text{m}$$
 il cosiddetto **[[raggio di Bohr]]**. Dalla definizione $\rho\equiv\kappa r$ abbiamo
-$$\rho= \frac{r}{an}$$
+$$\rho= \frac{r}{a_{0}n}$$
 Possiamo infine trovare la forma della funzione d'onda, che sarà determinata da tre [[numero quantico|numeri quantici]] ($n$, $l$, $m$):
 $$\psi_{nlm}(r,\theta,\phi)=R_{nl}(r)Y_{l}^{m}(\theta,\phi)$$
 dove
@@ -175,11 +175,11 @@ $$E_{1}=-\left[ \frac{m}{2\hbar^{2}} \left(\frac{e^{2}}{4\pi\epsilon_{0}}\right)
 che è l'[[energia di legame]] dell'elettrone nello stato fondamentale dell'atomo di idrogeno. Per $n=1$, $l=0$ per la $(5)$, quindi anche $m=0$ poiché $|m|\leq l$. Dobbiamo trovare
 $$\psi_{100}(r,\theta,\phi)=R_{10}(r)Y_{0}^{0}(\theta,\phi)$$
 La $(4)$ ci dice che la serie termine appena dopo il primo termine, quindi $v(\rho)$ è una costante $c_{0}$ e la parte radiale è
-$$R_{10}(r)=\frac{c_{0}}{a}e^{-r/a}$$
+$$R_{10}(r)=\frac{c_{0}}{a_{0}}e^{-r/a_{0}}$$
 Normalizzandola si trova
-$$\int_{0}^{\infty}|R_{10}|^{2}r^{2}dr= \frac{|c_{0}|^{2}}{a^{2}}\int_{0}^{\infty} e^{-2r/a} r^{2}dr=|c_{0}|^{2} \frac{a}{4}=1$$
-che significa $c_{0}=2/\sqrt{a}$. L'[[Armoniche sferiche|armonica sferica]] con $l=0$ e $m=0$ è $Y_{0}^{0}=1/\sqrt{4\pi}$, quindi la funzione d'onda dello stato fondamentale dell'atomo di idrogeno è
-$$\boxed{\psi_{100}(r,\theta,\phi)=\frac{1}{\sqrt{\pi a^{3}}}e^{-r/a}}$$
+$$\int_{0}^{\infty}|R_{10}|^{2}r^{2}dr= \frac{|c_{0}|^{2}}{a_{0}^{2}}\int_{0}^{\infty} e^{-2r/a_{0}} r^{2}dr=|c_{0}|^{2} \frac{a_{0}}{4}=1$$
+che significa $c_{0}=2/\sqrt{a_{0}}$. L'[[Armoniche sferiche|armonica sferica]] con $l=0$ e $m=0$ è $Y_{0}^{0}=1/\sqrt{4\pi}$, quindi la funzione d'onda dello stato fondamentale dell'atomo di idrogeno è
+$$\boxed{\psi_{100}(r,\theta,\phi)=\frac{1}{\sqrt{\pi a^{3}}}e^{-r/a_{0}}}$$
 Livelli di energia più alti ($n\geq2$) presentano degenerazione pari a
 $$d(n)=\sum\limits_{l=0}^{n-1}(2l+1)=n^{2}$$
 
@@ -189,10 +189,21 @@ con
 $$L_{q-p}^{p}(x)\equiv(-1)^{p}\left(\frac{d}{dx}\right)^{p}L_{q}(x)$$
 i [[polinomi di Laguerre|polinomi di Laguerre associati]] e
 $$L_{q}(x)\equiv e^{x}\left(\frac{d}{dx}\right)^{q}(e^{-x}x^{q})$$
-i [[polinomi di Laguerre]]. Sapendo questo è possibile normalizzare la funzione d'onda nel suo caso più generico. Così facendo si trova la funzione d'onda di un qualsiasi stato dell'atomo di idrogeno
-$$\boxed{\psi_{nlm}(r,\theta,\phi)=\sqrt{\left(\frac{2}{na}\right)^{3} \frac{(n-l-1)!}{2n[(n+l)!]^{3}}}e^{-r/na} \left(\frac{2r}{na}\right)^{l}\left[L_{n-l-1}^{2l+q}\left(\frac{2r}{na}\right)\right]Y_{l}^{m}(\theta,\phi)}$$
+i [[polinomi di Laguerre]]. Possiamo quindi scrivere la funzione d'onda radiale nella forma generica
+$$\boxed{R_{nl}(r)=\frac{1}{na_{0}}\left(\frac{r}{na_{0}}\right)^{l}e^{-r/(na_{0})}L_{n-l-1}^{2l+1}\left(\frac{2r}{na_{0}}\right)}$$
+
+Possiamo anche normalizzare la funzione d'onda nel suo caso più generico. Così facendo si trova la funzione d'onda di un qualsiasi stato dell'atomo di idrogeno
+$$\boxed{\psi_{nlm}(r,\theta,\phi)=\sqrt{\left(\frac{2}{na_{0}}\right)^{3} \frac{(n-l-1)!}{2n[(n+l)!]^{3}}}e^{-r/na_{0}} \left(\frac{2r}{na_{0}}\right)^{l}\left[L_{n-l-1}^{2l+1}\left(\frac{2r}{na_{0}}\right)\right]Y_{l}^{m}(\theta,\phi)}$$
 Questa è una delle pochissime funzioni d'onda di casi realistici che possono essere risolte in forma chiusa. Le diverse funzioni d'onda sono fra loro [[Ortogonalità|ortogonali]]:
 $$\int \psi_{nlm}^{*}\psi_{n'l'm'}r^{2}\sin\theta dr d\theta d\phi=\delta_{nn'}\delta_{ll'}\delta_{mm'}$$
 usando la [[delta di Kronecker]]. Questo segue dall'ortogonalità delle armoniche sferiche e dal fatto che sono [[Equazione agli autovalori|autofunzioni]] di $H$ con autovalori distinti.
+### Transizioni
+Dato che gli [[Stato stazionario|stati stazionari]] sono ben noti, è possibile calcolare facilmente l'energia assorbita o emessa dall'elettrone durante una [[transizione di stato]]. L'energia di transizione è
+$$E_{\gamma}=E_{i}-E_{f}=-13.6\text{ eV }\left( \frac{1}{n_{i}^{2}}- \frac{1}{n_{f}^{2}}\right)$$
+dove $n_{i}$ e $n_{f}$ sono i numeri quantici principali degli stato di inizio e fine.
+
+Usando la [[formula di Planck]] e il fatto che la lunghezza d'onda per un [[fotone]] sia $\lambda=c/\nu$, abbiamo anche
+$$\frac{1}{\lambda}=R\left(\frac{1}{n^{2}_{f}}- \frac{1}{n_{i}^{2}}\right)$$
+dove $R$ è la [[costante di Rydberg]]. Questo risultato si dice **[[formula di Rydberg]]** per lo spettro dell'atomo di idrogeno.
 
 [^1]: Ci sono due motivi per controllare e poi estrarre il comportamento asintotico anziché lavorare direttamente con $u(r)$. Estrarre $\rho^{l+1}$ serve a far si che la serie a cui giungiamo alla fine parta con termini non nulli (altrimenti i primi $l+1$ termini sarebbero tutti zeri). Estrarre $e^{-\rho}$ è utile perché il risultato ottenuto senza questa estrazione è molto più complicato.

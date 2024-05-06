@@ -1,6 +1,8 @@
 ---
 aliases:
   - principio di indeterminazione
+  - osservabili compatibili
+  - osservabili incompatibili
 ---
 La **disuguaglianza di Heisenberg**, o **principio di indeterminazione**, è una disuguaglianza che mostra come il prodotto tra l'errore sulla posizione $q$ e quello sulla quantità di moto $p$ di una [[particella]] quantistica ha un minimo costante. Ciò implica che le due quantità non possono essere determinate con precisione arbitraria allo stesso tempo e che misurare con precisione una rende la seconda molto imprecisa. Matematicamente, in una dimensione
 $$\Delta q\Delta p\geq\frac{\hbar}{2}$$
@@ -9,11 +11,11 @@ $$\Delta x \Delta p_{x}\geq \frac{\hbar}{2}, \quad \Delta y \Delta p_{y}\geq \fr
 
 L'errore qui definito non è quello della strumentazione, ma quello intrinseco dovuto alla [[funzione d'onda]] della particella, dato che misure uguali su sistemi preparati allo stesso modo *non* danno lo stesso risultato. È una manifestazione dell'[[indeterminatezza quantistica]].
 ## Forma generale
-Consideriamo un'[[osservabile]] $A$ e il suo [[Operatore autoaggiunto]] $\hat{A}$ per una funzione d'onda $\Psi$. Allora la sua varianza è
+Consideriamo un'[[osservabile]] $A$ e il suo [[operatore autoaggiunto]] $\hat{A}$ per una funzione d'onda $\Psi$. Allora la sua varianza è
 $$\sigma_{A}^{2}=\langle (\hat{A}-\left\langle A \right\rangle)\Psi\;|\; (\hat{A}-\left\langle A \right\rangle)\Psi\rangle=\langle f|f\rangle$$
 con $f=(\hat{A}-\left\langle A \right\rangle)\Psi$. Per un'altra osservabile $B$ si ha
 $$\sigma_{B}^{2}=\langle g|g\rangle$$
-con $g=(\hat{B}-\left\langle B \right\rangle)\Psi$. Usando la [[Disuguaglianza di Schwarz-Hölder]] vale
+con $g=(\hat{B}-\left\langle B \right\rangle)\Psi$. Usando la [[disuguaglianza di Schwarz-Hölder]] vale
 $$\sigma_{A}^{2}\sigma_{B}^{2}=\langle f|f\rangle \langle g|g\rangle\geq |\langle f|g\rangle|^{2}\tag{1}$$
 Per ogni numero complesso $z$ vale
 $$|z|^{2}=|\text{Re}(z)^{2}|+|\text{Im}(z)|^{2}\geq |\text{Im}(z)|^{2}=\left[\frac{1}{2i}(z-z^{*})\right]^{2}\tag{2}$$
@@ -30,7 +32,7 @@ quindi
 $$\langle f|g\rangle-\langle g|f\rangle=\langle [\hat{A},\hat{B}] \rangle$$
 che è il valor medio del [[commutatore]] delle due osservabili. Allora possiamo scrivere la disuguaglianza di Heisenberg come
 $$\boxed{\sigma_{A}^{2}\sigma_{B}^{2}\geq \left(\frac{1}{2i} \langle[\hat{A},\hat{B}]\rangle\right)^{2}}\tag{3}$$
-Il commutatore di due operatori autoaggiunti ha valore di aspettazione immaginario, quindi la $i$ al denominatore si semplifica e il valore è reale e positivo, come ci si aspetta. Allora il principio di indeterminazione è un concetto più generale che si applica a *tutte le coppie di osservabili che hanno commutatore non nullo*. Queste coppie si dicono **osservabili incompatibili**. Se invece il commutatore è nullo, non si applica il principio di indeterminazione e si dicono **osservabili compatibili**. Osservabili compatibili ammettono un [[Sistema completo]] di [[Equazione agli autovalori|autofunzioni]] condivise, mentre quelle incompatibili no.[^1]
+Il commutatore di due operatori autoaggiunti ha valore di aspettazione immaginario, quindi la $i$ al denominatore si semplifica e il valore è reale e positivo, come ci si aspetta. Allora il principio di indeterminazione è un concetto più generale che si applica a *tutte le coppie di osservabili che hanno commutatore non nullo*. Queste coppie si dicono **osservabili incompatibili**. Se invece il commutatore è nullo, non si applica il principio di indeterminazione e si dicono **osservabili compatibili**. Osservabili compatibili ammettono un [[sistema completo]] di [[Equazione agli autovalori|autofunzioni]] condivise, mentre quelle incompatibili no.[^1]
 
 Se decidiamo $A=q$ e $B=p$ si ha che il commutatore fra le due è $[\hat{q},\hat{p}]=i\hbar$ e quindi la $(3)$ diventa
 $$\sigma_{p}^{2}\sigma_{q}^{2}\geq \frac{\hbar^{2}}{4}$$

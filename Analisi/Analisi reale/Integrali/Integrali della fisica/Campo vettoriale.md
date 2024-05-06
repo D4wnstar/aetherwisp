@@ -15,4 +15,4 @@ La divergenza è definita come
 $$\nabla\cdot F = \frac{\partial F_1}{\partial x} + \frac{\partial F_2}{\partial y} + \frac{\partial F_3}{\partial z}$$
 Se la divergenza è nulla, il campo si dice **indivergente**.
 
-Un campo vettoriale $F$ si dice **conservativo** se ammette un [[Potenziale]] $U$ tale che $\nabla U = -F$. Se $F$ è di classe $C^1$ e conservativo allora è anche irrotazionale. Alternativamente può ammettere un [[Potenziale vettore]] $\Psi$ tale che $\nabla\times\Psi = F$. Se $F$ è di classe $C^1$ e ammette potenziale vettore allora è anche indivergente.
+Un campo vettoriale $F$ si dice **conservativo** se ammette un [[potenziale]] $U$ tale che $\nabla U = -F$. Se $F$ è di classe $C^1$ e conservativo allora è anche irrotazionale. Alternativamente può ammettere un [[potenziale vettore]] $\Psi$ tale che $\nabla\times\Psi = F$. Se $F$ è di classe $C^1$ e ammette potenziale vettore allora è anche indivergente.

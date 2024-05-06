@@ -63,4 +63,4 @@ P_{3}^{3}(\cos\theta)&=15\sin^{3}\theta
 \end{align}$$
 
 ![[Polinomi di Legendre associati.png]]
-*Da Introduction to Quantum Mechanics di Griffths, p. 140*
+*Da Introduction to Quantum Mechanics di Griffiths, p. 140*

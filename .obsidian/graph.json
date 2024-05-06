@@ -1,0 +1,107 @@
+{
+  "collapse-filter": true,
+  "search": "-tag:#excalidraw -path:\"Meccanica Statistica/Altro\"  -path:\"Meccanica Quantistica/Altro\"  ",
+  "showTags": true,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": true,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "path:\"Introduzione all'Astrofisica\"",
+      "color": {
+        "a": 1,
+        "rgb": 5401056
+      }
+    },
+    {
+      "query": "path:\"Meccanica Quantistica\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 2528286
+      }
+    },
+    {
+      "query": "path:\"Meccanica Statistica\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 11076612
+      }
+    },
+    {
+      "query": "path:Statistica",
+      "color": {
+        "a": 1,
+        "rgb": 6296926
+      }
+    },
+    {
+      "query": "path:Analisi  ",
+      "color": {
+        "a": 1,
+        "rgb": 6171783
+      }
+    },
+    {
+      "query": "path:Costanti  ",
+      "color": {
+        "a": 1,
+        "rgb": 14131916
+      }
+    },
+    {
+      "query": "path:\"Metodi di Trattamento delle Immagini\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 2338995
+      }
+    },
+    {
+      "query": "path:\"Algebra lineare\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 5393087
+      }
+    },
+    {
+      "query": "path:\"Introduzione alla Fisica della Materia\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 13652819
+      }
+    },
+    {
+      "query": "path:\"Introduzione alla Fisica Nucleare e Subnucleare\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 10602801
+      }
+    },
+    {
+      "query": "path:\"Teoria degli operatori\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 11618446
+      }
+    },
+    {
+      "query": "path:\"Altra matematica\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 9342189
+      }
+    }
+  ],
+  "collapse-display": true,
+  "showArrow": false,
+  "textFadeMultiplier": -0.2,
+  "nodeSizeMultiplier": 1,
+  "lineSizeMultiplier": 1,
+  "collapse-forces": true,
+  "centerStrength": 0.518713248970312,
+  "repelStrength": 10,
+  "linkStrength": 1,
+  "linkDistance": 250,
+  "scale": 0.20809835898999157,
+  "close": false
+}
