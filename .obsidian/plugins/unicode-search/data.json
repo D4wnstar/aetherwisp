@@ -5,10 +5,16 @@
   },
   "data": [
     {
+      "char": "ö",
+      "name": "latin small letter o with diaeresis",
+      "useCount": 5,
+      "lastUsed": 1715364867074
+    },
+    {
       "char": "È",
       "name": "latin capital letter e with grave",
-      "useCount": 31,
-      "lastUsed": 1715009364717
+      "useCount": 34,
+      "lastUsed": 1715364430174
     },
     {
       "char": "~",
@@ -37151,10 +37157,6 @@
     {
       "char": "ỗ",
       "name": "latin small letter o with circumflex and tilde"
-    },
-    {
-      "char": "ö",
-      "name": "latin small letter o with diaeresis"
     },
     {
       "char": "ȫ",

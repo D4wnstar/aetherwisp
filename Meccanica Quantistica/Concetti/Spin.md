@@ -1,4 +1,4 @@
-Lo **spin** è un concetto necessario per la corretta descrizione di una [[particella]] elementare, come l'[[elettrone]]. Esso è rappresentato come un vettore in tre dimensioni.
+Lo **spin** è l'equivalente quantistico del momento angolare. Esso è rappresentato come un vettore in tre dimensioni.
 $$\hat{\bar{S}}=(\hat{S}_{x},\hat{S}_{y},\hat{S}_{z})$$
 Vale
 $$\frac{\hat{S}}{\frac{\hbar}{2}}|\sigma\rangle=\sigma |\sigma\rangle;\quad\sigma=\pm 1$$

@@ -63,7 +63,7 @@ $$\sigma_{H}\sigma_{Q}\geq \frac{\hbar}{2} \left| \frac{d}{dt} \left\langle Q \r
 La deviazione sull'Hamiltoniana è l'errore sull'energia: $\sigma_{H}\equiv\Delta E$. Definiamo inoltre
 $$\Delta t\equiv \frac{\sigma_{Q}}{|d \left\langle Q \right\rangle/dt|}$$
 Allora con queste definizioni vale
-$$\Delta E \Delta t\geq \frac{\hbar}{2}$$
+$$\boxed{\Delta E \Delta t\geq \frac{\hbar}{2}}$$
 che è il principio di indeterminazione tempo-energia. La cosa importante qui è il significato della variabile $\Delta t$. Invertendo la sua definizione si vede
 $$\sigma_{Q}=\left| \frac{d}{dt}\left\langle Q \right\rangle\right|\Delta t$$
 quindi $\Delta t$ rappresenta il lasso di tempo necessario per far si che $\left\langle Q \right\rangle$ cambi di una deviazione standard. Più generalmente, $\Delta t$ è il tempo necessario per causare un cambiamento "sostanziale" nel sistema. $\Delta t$ dipende da dipende dall'osservabile in esame, ma è *sempre* modulata da $\Delta E$: se l'energia è bassa, allora il tempo di cambiamento di *qualunque* variabile sarà lungo, mentre a energie alte il cambiamento avverrà in poco tempo. Vista al contrario, se una variabile cambia molto in poco tempo, l'energia sarà altamente incerta (ossia cambia molto).

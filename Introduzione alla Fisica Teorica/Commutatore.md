@@ -24,3 +24,7 @@ con $\hbar$ la [[Costante di Planck|costante di Planck ridotta]].
 In tre dimensioni si hanno, per le variabili $\vec{r}$ e $\vec{p}$,
 $$[r_{i},p_{j}]=-[p_{i},r_{j}]=i\hbar\delta_{ij}, \quad [r_{i},r_{j}]=[p_{i},p_{j}]=0$$
 con gli indici che si riferiscono alle tre dimensioni spaziali.
+
+Per il momento angolare sull'asse $z$ $L_{z}$ valgono
+$$[L_{z},x]=i\hbar y, \quad [L_{z},y]=-i\hbar x, \quad [L_{z},z]=0$$
+$$[L_{z},p_{x}]=i\hbar p_{y}, \quad [L_{z},p_{y}]=-i\hbar p_{x}, \quad [L_{z},p_{z}]=0$$

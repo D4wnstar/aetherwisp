@@ -8,3 +8,7 @@ La $(1)$ è di fatto uguale alla legge $p=mv=m (\partial t/\partial x)$ della me
 Il teorema vale anche in tre dimensioni:
 $$m \frac{d\left\langle \vec{x} \right\rangle}{dt}=\left\langle \vec{p} \right\rangle$$
 $$\frac{d \left\langle \vec{p} \right\rangle}{dt}=\left\langle -\nabla V \right\rangle$$
+### Analogo rotazionale
+Vale anche un risultato simile al teorema di Ehrenfest per il momento angolare:
+$$\frac{d}{dt}\langle \vec{L} \rangle=\langle \vec{N} \rangle$$
+dove $N$ è il momento di forza $N = \vec{r}\times \vec{F}$ per una forza $\vec{F}$.

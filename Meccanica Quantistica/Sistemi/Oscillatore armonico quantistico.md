@@ -80,7 +80,7 @@ $$\begin{cases} \dot{\bar{q}}=\partial_{\bar{q}}H=\frac{d}{dt}\bar{q}\\
 \end{cases}$$
 Definiamo
 $$\phi=(\bar{q},\bar{p})\quad,\quad \dot{\phi}=\frac{d\phi}{dt}=\{\phi,H\}$$
-dove $\{x,y\}$ sono le [[Parentesi di Poisson]]. Abbiamo, in generale
+dove $\{x,y\}$ sono le [[parentesi di Poisson]]. Abbiamo, in generale
 $$\dot{q}_{1}=\{q_{1},H\}=\partial_{p_{1}}H\quad;\quad \dot{p}_{1}=\{p_{1},H\}=-\partial_{q_{1}}H$$
 Dalle scoperte di De Broglie, posso interpretare una particella come un'onda di lunghezza d'onda $\lambda=\frac{h}{p}$ e numero d'onda $k=\frac{2\pi}{\lambda}$. Prendiamo un'onda piana
 $$e^{ikx}=e^{i\frac{2\pi}{\lambda}x}=e^{i \frac{p}{h}2\pi x}=e^{\frac{i}{\hbar}px}$$
@@ -100,7 +100,7 @@ In genere, questo accade quando si parla di oggetti che sono liberi di andare da
 
 Nel caso si normalizzi la funzione d'onda
 $$\psi(x)\rightarrow\phi(x)=\frac{\psi(x)}{||\psi(x)||}$$
-si trovano *distribuzioni di probabilità*. In sostanza, lo [[Stato]] del sistema è **stocastico**.
+si trovano *distribuzioni di probabilità*. In sostanza, lo [[stato]] del sistema è **stocastico**.
 
 Abbiamo che la *funzione momento quantistica* $\hat{p}$ sarà quella funzione tale per cui è vera
 $$(\hat{p}\psi)(x)=-i\hbar\partial_{x}\psi(x)$$
