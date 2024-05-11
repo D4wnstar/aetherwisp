@@ -1,6 +1,8 @@
-Consideriamo $\mathbb{C}^{2}$. Le **matrici di Pauli** nella rappresentazione standard sono date da
+Le **matrici di Pauli** sono un insieme di tre matrici $2\times2$ in $\mathbb{C}^{2}$ che, date nella rappresentazione standard, sono
 $$\hat{\sigma}_{x}=\left(\matrix{0 & 1 \\ 1 & 0}\right),\;\hat{\sigma}_{y}=\left(\matrix{0 & -i \\ i & 0}\right),\;\hat{\sigma}_{z}=\left(\matrix{1 & 0 \\ 0 & -1}\right)$$
-Sono tutte e tre *[[Operatore autoaggiunto|autoaggiunte]]*, ossia $\hat{\sigma}_{i}^{\dagger}=\hat{\sigma}_{i}$. I quadrati sono
+Sono tutte e tre [[Operatore autoaggiunto|autoaggiunte]], ossia $\hat{\sigma}_{i}^{\dagger}=\hat{\sigma}_{i}$. Questo è un fatto importante e necessario dato che queste matrici sono derivate dallo studio dello [[Spin#Spin 1/2|spin 1/2]] delle [[Particella|particelle]]. Dato che lo spin è un [[osservabile]], l'[[operatore]] associato ad esso deve essere autoaggiunto.
+
+I quadrati sono
 $$\hat{\sigma}_{x}^{2}=\left(\matrix{0 & 1 \\ 1 & 0}\right)\left(\matrix{0 & 1 \\ 1 & 0}\right)=\left(\matrix{1 & 0 \\ 0 & 1}\right)=\hat{\mathbb{1}}$$
 $$\hat{\sigma}_{y}^{2}=\left(\matrix{0 & -i \\ i & 0}\right)\left(\matrix{0 & -i \\ i & 0}\right)=\left(\matrix{1 & 0 \\ 0 & 1}\right)=\hat{\mathbb{1}}$$
 $$\hat{\sigma}_{z}=\hat{\mathbb{1}}$$
@@ -11,7 +13,7 @@ $$\hat{\sigma}_{x}|\uparrow z\rangle=|\downarrow z\rangle\;,\;\hat{\sigma}_{z}|\
 Quindi $\hat{\sigma}_{x}$ è il gate NOT (almeno in informazione quantistica).
 $$\frac{|\uparrow z\rangle+|\downarrow z\rangle}{\sqrt{2}}=|\uparrow x\rangle= \frac{1}{\sqrt{2}} \left(\matrix{1 \\ 1}\right)$$
 $$\frac{|\uparrow z\rangle-|\downarrow z\rangle}{\sqrt{2}}=|\downarrow x\rangle=\frac{1}{\sqrt{2}} \left(\matrix{1 \\ -1}\right)$$
-che sono gli autostati di $\hat{\sigma}_{x}$, quindi sono la base per cui $\hat{\sigma}_{x}$ è diagonale. Questi due vettori formano la [[matrice di Hadamard]].
+che sono gli autostati di $\hat{\sigma}_{x}$, quindi sono la base per cui $\hat{\sigma}_{x}$ è diagonale. Questi due vettori formano la [[Matrice di Hadamard]].
 
 Formalmente $\hat{\sigma}_{z}$ è
 $$\hat{\tilde{\sigma}}_{z}=\left(\matrix{\langle\uparrow x|\hat{\sigma}_{z}|\uparrow x\rangle & \langle\uparrow x|\hat{\sigma}_{z}|\downarrow x\rangle \\ \langle\downarrow x|\hat{\sigma}_{z}|\uparrow x\rangle & \langle\downarrow x|\hat{\sigma}_{z}|\downarrow x\rangle}\right)=\left(\matrix{0 & 1 \\ 1 & 0}\right)$$

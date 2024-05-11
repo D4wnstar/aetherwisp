@@ -1,1 +1,1 @@
-Un **bosone** è una [[particella]] fondamentale con [[spin]] intero descritta da una [[funzione d'onda]] [[stato totalsimettrico|totalsimmetrica]].
+Un **bosone** è una [[particella]] fondamentale con [[Spin]] intero descritta da una [[Funzione d'onda]] [[stato totalsimettrico|totalsimmetrica]].

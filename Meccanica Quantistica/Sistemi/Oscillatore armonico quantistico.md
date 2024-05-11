@@ -1,6 +1,6 @@
 L'**oscillatore armonico quantistico** è l'analogo quantistico dell'[[oscillatore armonico]] classico, ossia un sistema quantistico con un [[punto di equilibrio]] soggetto ad una forza di ritorno $F$ una volta perturbato.
 ## Soluzione
-Il caso dell'oscillatore armonico consiste nel risolvere l'[[equazione di Schrödinger]] per una [[particella]] immersa nel [[potenziale]]
+Il caso dell'oscillatore armonico consiste nel risolvere l'[[Equazione di Schrödinger]] per una [[particella]] immersa nel [[potenziale]]
 $$V(x)=\frac{1}{2}m\omega^{2}x^{2}$$
 Partiamo dunque dall'equazione indipendente dal tempo, che prende la forma
 $$- \frac{\hbar^{2}}{2m} \frac{d^{2}\psi}{dx^{2}}+ \frac{1}{2}m\omega^{2}x^{2}\psi=E\psi\tag{1}$$
@@ -80,7 +80,7 @@ $$\begin{cases} \dot{\bar{q}}=\partial_{\bar{q}}H=\frac{d}{dt}\bar{q}\\
 \end{cases}$$
 Definiamo
 $$\phi=(\bar{q},\bar{p})\quad,\quad \dot{\phi}=\frac{d\phi}{dt}=\{\phi,H\}$$
-dove $\{x,y\}$ sono le [[parentesi di Poisson]]. Abbiamo, in generale
+dove $\{x,y\}$ sono le [[Parentesi di Poisson]]. Abbiamo, in generale
 $$\dot{q}_{1}=\{q_{1},H\}=\partial_{p_{1}}H\quad;\quad \dot{p}_{1}=\{p_{1},H\}=-\partial_{q_{1}}H$$
 Dalle scoperte di De Broglie, posso interpretare una particella come un'onda di lunghezza d'onda $\lambda=\frac{h}{p}$ e numero d'onda $k=\frac{2\pi}{\lambda}$. Prendiamo un'onda piana
 $$e^{ikx}=e^{i\frac{2\pi}{\lambda}x}=e^{i \frac{p}{h}2\pi x}=e^{\frac{i}{\hbar}px}$$
@@ -88,7 +88,7 @@ con $\hbar=\frac{h}{2\pi}$ la [[Costante di Planck|costante di Planck ridotta]].
 $$-i\hbar\partial_{x}e^{\frac{i}{\hbar}px}=pe^{\frac{i}{\hbar}px}$$
 Ma quindi abbiamo trovato un operatore che converte un valore in sé stesso, ma moltiplicato per una costante. Dunque abbiamo trovato una *relazione agli autovalori*.
 $$\hat{A}(\bar{v}):\bar{v}\in\mathbb{C}^{n} \longrightarrow\hat{A}\bar{v}\in\mathbb{C}^{n}$$
-Usiamo la [[notazione braket|notazione ket]] per descrivere i vettori colonna come $\bar{v}$
+Usiamo la [[Notazione braket|notazione ket]] per descrivere i vettori colonna come $\bar{v}$
 $$|v\rangle\in\mathbb{C}^{n} \longrightarrow^{\hat{A}} \hat{A}|{v}\rangle\in\mathbb{C}^{n}$$
 $\hat{A}$ è una matrice $n$-dimensionale su $\mathbb{C}$ con elementi $A_{ij}$. Abbiamo dunque la relazione
 $$\hat{A}|v\rangle=a|v\rangle$$
@@ -100,7 +100,7 @@ In genere, questo accade quando si parla di oggetti che sono liberi di andare da
 
 Nel caso si normalizzi la funzione d'onda
 $$\psi(x)\rightarrow\phi(x)=\frac{\psi(x)}{||\psi(x)||}$$
-si trovano *distribuzioni di probabilità*. In sostanza, lo [[stato]] del sistema è **stocastico**.
+si trovano *distribuzioni di probabilità*. In sostanza, lo [[Stato]] del sistema è **stocastico**.
 
 Abbiamo che la *funzione momento quantistica* $\hat{p}$ sarà quella funzione tale per cui è vera
 $$(\hat{p}\psi)(x)=-i\hbar\partial_{x}\psi(x)$$
@@ -112,4 +112,4 @@ Per un sistema quantistico, le variabili di stato sono $q$, la posizione, e $p$,
 
 [^1]: Soddisfare l'equazione di Schrödinger significa che vale $H\psi=E\psi$, quindi vogliamo trovare $H(a_{+}\psi)=(E+\hbar\omega)\psi$. Difatti, si ha$$H(a_{+}\psi)=\hbar\omega\left(a_{+}a_{-}+ \frac{1}{2}\right)(a_{+}\psi)=\hbar\omega\left(a_{+}a_{-}a_{+}+ \frac{1}{2}a_{+}\right)\psi=\hbar\omega a_{+}\left(a_{-}a_{+}+ \frac{1}{2}\right)\psi=$$$$=a_{+}\left[\hbar\omega\left(\underbrace{a_{+}a_{-}+1}\limits_{*}+ \frac{1}{2}\right)\psi\right]=a_{+}(H+\hbar\omega)\psi=a_{+}(E+\hbar\omega)\psi=(E+\hbar\omega)(a_{+}\psi)$$dove in $*$ abbiamo usato il commutatore $[a_{+},a_{-}]=1$ per affermare $a_{-}a_{+}=a_{+}a_{-}+1$.
 
-[^2]: L'integrale che compare da $\left\langle x^{2} \right\rangle=\int_{-\infty}^{+\infty}\psi_{0}^{*}x^{2}\psi_{0}\;dx$ può essere risolto usando tecniche per [[integrali di posizione e quantità di moto]].
+[^2]: L'integrale che compare da $\left\langle x^{2} \right\rangle=\int_{-\infty}^{+\infty}\psi_{0}^{*}x^{2}\psi_{0}\;dx$ può essere risolto usando tecniche per [[Integrali di posizione e quantità di moto]].

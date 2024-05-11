@@ -65,7 +65,7 @@ Consideriamo l'energia di un elettrone $e=h\nu=\frac{hc}{\lambda}$. Esprimiamo l
 $$\frac{\lambda_{oss}}{a(t_{oss})}=\frac{\lambda_{em}}{a(t_{em})}$$
 ossia la lunghezza d'onda osservata differisce da quella emessa in funzione del fattore di scala ai tempi di osservazione e di emissione. Se consideriamo il [[redshift]], abbiamo
 $$\boxed{1+Z= \frac{1}{a(t_{em})}}$$
-ossia possiamo calcolare il fattore scala dal redshift, che è misurabile. Dunque il fattore di scala è un [[osservabile]].
+ossia possiamo calcolare il fattore scala dal redshift, che è misurabile. Dunque il fattore di scala è un [[Osservabile]].
 
 Va notato che l'energia degli elettroni *diminuisce* mentre viaggia perché la sua lunghezza d'onda diminuisce come $a^{-1}$. Ciò giustifica il fatto che, nel caso della pressione di radiazione, la densità di energia diminuisce come $a^{-4}$ e non $a^{-3}$. Un modo vago ma intuitivo per pensarci è che è come un gas in espansione: più il gas si espande, più diminuisce la temperatura.
 

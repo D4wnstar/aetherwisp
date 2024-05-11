@@ -11,7 +11,7 @@ Vale
 $$p_{x}=\frac{\partial L}{\partial v_{x}}=mv_{x}+qA_{x}$$
 da cui l'[[Hamiltoniana]] di una [[particella]] in un campo
 $$H=\vec{v}\cdot\vec{p}-L=\frac{(p-q\vec{A})^{2}}{2m}+qV$$
-e l'[[equazione di Schrödinger]]
+e l'[[Equazione di Schrödinger]]
 $$i\hbar \frac{\partial }{\partial t}\Psi(\vec{r},t)=\left[\frac{1}{2m}(-i\hbar\nabla+e\vec{A})^{2}- \frac{Ze^{2}}{(4\pi\epsilon_{0})r}\right]\Psi(\vec{r},t)$$
 
 L'equazione di Schrödinger è invariante per scelta di [[gauge]]
@@ -27,4 +27,4 @@ Il termine $\frac{e^{2}}{2m}\vec{A}^{2}$ è trascurabile. Scrivendo l'equazione 
 $$i\hbar \frac{\partial }{\partial t}\Psi(\vec{r}, t)=H(t)\Psi(\vec{r},t)$$
 la cui soluzione più generale è
 $$\Psi(\vec{r},t)=\sum\limits_{k}C_{k}(t)\Psi_{k}(\vec{r})e^{-i \frac{E_{k}t}{\hbar}}$$
-con $C_{k}$ l'[[evolutore]].
+con $C_{k}$ l'[[Evolutore]].

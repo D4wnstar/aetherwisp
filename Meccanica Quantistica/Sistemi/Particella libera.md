@@ -2,7 +2,7 @@
 aliases:
   - particella quantistica libera
 ---
-La **particella libera** è un sistema quantistico costituito da una singola [[particella]] in assenza di [[Potenziale]], ovvero $V(x)=0$ ovunque. Nel caso classico, questo sistema è banale e ha soluzioni immediate, dato che la particella compie un semplice moto rettilineo a velocità costante, ma nel caso quantistico compaiono problemi non trascurabili e diventa più complesso dell'[[oscillatore armonico quantistico]].
+La **particella libera** è un sistema quantistico costituito da una singola [[particella]] in assenza di [[Potenziale]], ovvero $V(x)=0$ ovunque. Nel caso classico, questo sistema è banale e ha soluzioni immediate, dato che la particella compie un semplice moto rettilineo a velocità costante, ma nel caso quantistico compaiono problemi non trascurabili e diventa più complesso dell'[[Oscillatore armonico quantistico]].
 ## Soluzione
 Partiamo come al solito dall'[[Equazione di Schrödinger#Potenziale indipendente dal tempo|equazione di Schrödinger indipendente dal tempo]]
 $$- \frac{\hbar^{2}}{2m} \frac{d^{2}\psi}{dx^{2}}=E\psi$$
@@ -26,7 +26,7 @@ dividendo il coefficiente di $x$ ($k$) per il coefficiente di $t$ ($\hbar k^{2}/
 $$v_{\text{classica}}=\sqrt{\frac{2E}{m}}=2v_{\text{quantistica}}$$
 Allora la particella quantistica viaggia a metà della particella classica? Non ha senso, dato che rappresentano la stessa cosa. Una delle due deve essere sbagliata. Ma c'è un altro problema: $\Psi(x,t)$ *non è normalizzabile* o, in altre parole, *non ha senso fisico*. Infatti
 $$\int_{-\infty}^{+\infty}\Psi_{k}^{*}\Psi_{k}dx=|A|^{2}\int_{-\infty}^{+\infty}dx=|A|^{2}\cdot \infty$$
-Cosa implica tutto questo? *Una particella libera non può esistere in uno stato stazionario*. Detta in altri termini, *non esistono particelle libere con un'energia ben definita*. Dunque, le soluzioni separabili di cui sopra non hanno alcun significato fisico, ma ne hanno uno matematico. Di fatto, la soluzione generale non è più una *somma* su degli stati *numerabili* determinati dall'indice $n$, bensì un *integrale* su infiniti stati *non numerabili* determinati dalla variabile continua $k$. La [[funzione d'onda]] definitiva, allora, è
+Cosa implica tutto questo? *Una particella libera non può esistere in uno stato stazionario*. Detta in altri termini, *non esistono particelle libere con un'energia ben definita*. Dunque, le soluzioni separabili di cui sopra non hanno alcun significato fisico, ma ne hanno uno matematico. Di fatto, la soluzione generale non è più una *somma* su degli stati *numerabili* determinati dall'indice $n$, bensì un *integrale* su infiniti stati *non numerabili* determinati dalla variabile continua $k$. La [[Funzione d'onda]] definitiva, allora, è
 $$\boxed{\Psi(x,t)=\frac{1}{\sqrt{2\pi}}\int_{-\infty}^{+\infty}\phi(k)e^{ik[x-(\hbar k/2m)t]}dk}$$
 In questa forma, $\phi(k)/\sqrt{2\pi}$ prende il ruolo dei coefficienti $c_{n}$ della forma discreta. Questa funzione d'onda può essere normalizzata per appropriati $\phi(k)$ e quindi ha significato fisico. Ciascun $\phi(k)$ però porta necessariamente con sé un intervallo di $k$, non uno singolo, e quindi un intervallo di energie e velocità. Questo si chiama *pacchetto d'onda*.
 

@@ -4,7 +4,7 @@ $$=\sum\limits_{i=1}^{\infty}|a_{i}\rangle\langle a_{i}|\hat{P}_{\psi}|a_{i}\ran
 $\hat{\rho}$ è *[[Operatore positivo|definito positivo]]*, dunque si ha
 $$\langle \psi|\hat{\rho}\psi\rangle=\sum\limits_{\alpha}\lambda_{\alpha}\langle \psi|\hat{P}_{\alpha}\psi\rangle\geq0$$
 $$\langle \psi|\psi_\alpha\rangle \langle \psi_{\alpha}|\psi\rangle=|\langle \psi_{\alpha}|\psi\rangle|^{2}\geq 0$$
-In [[rappresentazione spettrale]] è
+In [[Rappresentazione spettrale]] è
 $$\hat{\rho}=\sum\limits_{\alpha}\lambda_{\alpha}\hat{P}_{\alpha}=\sum\limits_{\alpha}\lambda_{\alpha} |\psi_{\alpha}\rangle\langle \psi_{\alpha}|$$
 Cerco la traccia di $\hat{\rho}$ 
 $$\mbox{Tr}\hat{\rho}=\sum\limits_{\alpha}\lambda_{\alpha}=1$$

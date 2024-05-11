@@ -6,7 +6,7 @@ $$V(r)=- \frac{V_{0}}{1+e^{(r-R)/a}}$$
 con $R$ il raggio medio del nucleo. Vale $R=R_{0}A^{1/3}$ con $R_{0}$ la [[costante di Rydberg]] e $V_{0}$ si trova essere $\sim50$ MeV.
 ### Accoppiamento spin-orbita
 $$V_{tot}(r)=V_{centr}(r)+V_{l,s}(r)\frac{\left\langle \vec{l}\cdot\vec{s} \right\rangle}{\hbar^{2}}$$
-dove $\vec{l}$ è il momento angolare orbitale (rispetto al centro del nucleo) e $\vec{s}$ è lo [[spin]] del nucleone.
+dove $\vec{l}$ è il momento angolare orbitale (rispetto al centro del nucleo) e $\vec{s}$ è lo [[Spin]] del nucleone.
 
 Ogni nucleone ha spin $\frac{1}{2}$ e momento angolare totale $\vec{j}=\vec{l}+\vec{s}$. Vale $j=l\pm \frac{1}{2}$. Calcoliamo
 $$j^{2}=(\vec{l}+\vec{s})^{2}=(\vec{l}^{2}+2\vec{l}\cdot\vec{s}+\vec{s}^{2}) \rightarrow \vec{l}\cdot\vec{s}=\frac{1}{2}(\vec{j}^{2}-\vec{l}^{2}-\vec{s}^{2})$$

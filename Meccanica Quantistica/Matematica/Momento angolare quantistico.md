@@ -27,7 +27,7 @@ $$\begin{align}
 $$[L^{2},\vec{L}]=0$$
 Ciò significa che è possibile trovare [[Stato stazionario|autostati]] simultanei di $L^{2}$ e (per esempio) $L_{z}$.
 ### Autovalori
-Per trovare gli autovalori, usiamo un approccio simile a quello dell'[[oscillatore armonico quantistico]], usando degli [[operatori di creazione e distruzione]]. Definiamo
+Per trovare gli autovalori, usiamo un approccio simile a quello dell'[[Oscillatore armonico quantistico]], usando degli [[operatori di creazione e distruzione]]. Definiamo
 $$L_{\pm}\equiv L_{x}\pm iL_{y}$$
 Il commutatore con $L_{z}$ è
 $$[L_{z},L_{\pm}]=[L_{z},L_{x}]\pm i[L_{z},L_{y}]=i\hbar L_{y}\pm i(-i\hbar L_{x})=\pm\hbar(L_{x}\pm iL_{y})=\pm\hbar L_{\pm}$$

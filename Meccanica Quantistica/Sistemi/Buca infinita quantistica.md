@@ -10,7 +10,7 @@ $$V=\begin{cases}
 \end{cases}$$
 Una [[particella]] in questo potenziale è perfettamente libera entro $0$ e $a$, ma non può in alcun modo uscire da questi due limiti, ai quali vi è una forza infinita che le impedisce di fuggire. Sebbene sia un potenziale chiaramente artificioso, è molto utile per testare la teoria.
 ![[Grafico Buca infinita|center]]
-Al di fuori della buca, la [[funzione d'onda]] $\psi(x)$ è identicamente zero, dato che la probabilità di trovare la particella lì è nulla. Dentro la buca, con potenziale $V=0$, l'[[equazione di Schrödinger#Potenziale indipendente dal tempo|equazione di Schrödinger]] indipendente dal tempo è
+Al di fuori della buca, la [[Funzione d'onda]] $\psi(x)$ è identicamente zero, dato che la probabilità di trovare la particella lì è nulla. Dentro la buca, con potenziale $V=0$, l'[[Equazione di Schrödinger#Potenziale indipendente dal tempo|equazione di Schrödinger]] indipendente dal tempo è
 $$- \frac{\hbar^{2}}{2m} \frac{d^{2}\psi}{dx^{2}}=E\psi$$
 o anche
 $$\frac{d^{2}\psi}{dx^{2}}=-k^{2}\psi,\quad\text{con }k\equiv \frac{\sqrt{2mE}}{\hbar}$$

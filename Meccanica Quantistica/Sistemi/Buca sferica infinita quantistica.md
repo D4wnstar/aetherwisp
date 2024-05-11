@@ -9,7 +9,7 @@ $$V(r)=\begin{cases}
 \end{cases}$$
 È la versione sferica della [[Buca infinita quantistica|buca infinita]].
 
-Vogliamo risolvere l'equazione radiale dell'[[equazione di Schrödinger#Parte radiale|equazione di Schrödinger]]. Allora, entro la buca dove $V=0$, l'equazione radiale diventa
+Vogliamo risolvere l'equazione radiale dell'[[Equazione di Schrödinger#Parte radiale|equazione di Schrödinger]]. Allora, entro la buca dove $V=0$, l'equazione radiale diventa
 $$\frac{d^{2}u}{dr^{2}}=\left[\frac{l(l+1)}{r^{2}}-k^{2}\right]u$$
 dove
 $$k\equiv \frac{\sqrt{2mE}}{\hbar}$$
@@ -17,7 +17,7 @@ Vogliamo risolvere questa equazione, con la condizione al contorno $u(a)=0$.
 ### Caso $l=0$
 Il caso $l=0$ è l'[[oscillatore armonico]]:
 $$\frac{d^{2}u}{dr^{2}}=-k^{2}u \Rightarrow u(r)=A\sin(kr)+B\cos(kr)$$
-L'effettiva [[funzione d'onda]] radiale è $R(r)=u/r$ quindi
+L'effettiva [[Funzione d'onda]] radiale è $R(r)=u/r$ quindi
 $$R(r)=A \frac{\sin(kr)}{r}+ B \frac{\cos(kr)}{r}$$
 ma $\cos(kr)/r \rightarrow \infty$ per $r \rightarrow 0$, che rendere la soluzione non normalizzabile, quindi[^1] $B=0$. La condizione al contorno quindi richiede $\sin(ka)=0$, cioè $ka=n\pi$ con $n$ intero. Allora le energie permesse sono
 $$E_{n0}=\frac{n^{2}\pi^{2}\hbar^{2}}{2ma^{2}}$$

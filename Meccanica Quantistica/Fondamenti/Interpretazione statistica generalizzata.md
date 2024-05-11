@@ -1,6 +1,6 @@
 L'**interpretazione statistica generalizzata** è una spiegazione probabilistica della meccanica quantistica e dei suoi meccanismi.
 
-Consideriamo un'[[osservabile]] $Q(x,p)$ per una [[particella]] nello [[stato]] denotato dalla [[funzione d'onda]] $\Psi(x,t)$. Se compiamo una misura, siamo certi di ottenere uno degli [[Equazione agli autovalori|autovalori]] dell'[[Operatore autoaggiunto]] $\hat{Q}\left(x,-i\hbar \frac{d}{dx}\right)$.
+Consideriamo un'[[Osservabile]] $Q(x,p)$ per una [[particella]] nello [[Stato]] denotato dalla [[Funzione d'onda]] $\Psi(x,t)$. Se compiamo una misura, siamo certi di ottenere uno degli [[Equazione agli autovalori|autovalori]] dell'[[Operatore autoaggiunto]] $\hat{Q}\left(x,-i\hbar \frac{d}{dx}\right)$.
 - Se lo [[Spettro]] di $\hat{Q}$ è discreto, la probabilità di ottenere un certo autovalore $q_{n}$ associato all'autofunzione [[Ortonormalità|ortonormale]] $f_{n}(x)$ è$$|c_{n}|^{2},\quad\text{con}\quad c_{n}=\langle f_{n}|\Psi\rangle$$
 - Se lo spettro è continuo con autovalori reali $q(z)$ e autofunzioni [[Ortonormalità|Dirac-ortonormali]] associate $f_{z}(x)$, la probabilità di ottenere un risultato in un intervallo infinitesimo $dz$ è$$|c(z)|^{2}dz,\quad\text{con}\quad c(z)=\langle f_{z}|\Psi\rangle$$
 Una volta completata la misura, la funzione d'onda collassa nell'autostato corrispondente.

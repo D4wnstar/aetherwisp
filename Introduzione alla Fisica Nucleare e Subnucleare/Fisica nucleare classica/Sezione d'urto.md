@@ -20,7 +20,7 @@ $$\frac{d^{2}\sigma(E,E',\theta)}{d\Omega dE'}$$
 e la sezione d'urto totale è
 $$\sigma_{tot}(E)=\int_{0}^{E'_{mox}}\int_{4\pi} \frac{d^{2}\sigma(E,E',\theta)}{d\Omega dE'}d\Omega dE'$$
 ## Predizione teorica
-La sezione d'urto può essere predetta dalla teoria usando la *seconda regola d'oro di Fermi*. Partiamo dal fatto che $\dot{N}$ dipende dal potenziale d'interazione, le cui caratteristiche sono contenute nell'operatore di Hamilton $\mathcal{H}_{int}$, che trasforma una [[funzione d'onda]] iniziale $\Psi_{i}$ in una finale $\Psi_{f}$.
+La sezione d'urto può essere predetta dalla teoria usando la *seconda regola d'oro di Fermi*. Partiamo dal fatto che $\dot{N}$ dipende dal potenziale d'interazione, le cui caratteristiche sono contenute nell'operatore di Hamilton $\mathcal{H}_{int}$, che trasforma una [[Funzione d'onda]] iniziale $\Psi_{i}$ in una finale $\Psi_{f}$.
 
 L'elemento di matrice della transizione è
 $$\mathcal{M}_{fi}=\langle \Psi_{f}|\mathcal{H}_{int}|\Psi_{i}\rangle=\int\Psi_{f}^{*}\mathcal{H}_{int}\Psi_{i}dV$$
@@ -35,7 +35,7 @@ $$W=\frac{\dot{N}(E)}{N_{b}N_{a}}=\frac{\sigma v_{a}}{V}$$
 con $V=N_{a}/n_{a}$. Allora eguagliando le due formule per $W$ possiamo trovare $\sigma$ come
 $$\sigma=\frac{2\pi}{\hbar v_{a}}|\mathcal{M}_{fi}|^{2}\rho(E')V$$
 ## Sezione d'urto di Mott
-La sezione d'urto di Mott tiene conto degli [[spin]] dell'elettrone e del nucleo e di come influenzano la sezione d'urto. Vale
+La sezione d'urto di Mott tiene conto degli [[Spin]] dell'elettrone e del nucleo e di come influenzano la sezione d'urto. Vale
 $$\left(\frac{d\sigma}{d\Omega}\right)_{\text{Mott}}=\left(\frac{d\sigma}{d\Omega}\right)_{\text{Rutherford}}\left[1-\beta^{2}\sin^{2}\left(\frac{\theta}{2}\right)\right]$$
 con $\beta=v/c$. Con rinculo del nucleo trascurabile nel regime $\beta \rightarrow 1$ vale
 $$\left(\frac{d\sigma}{d\Omega}\right)_{\text{Mott}}=\left(\frac{d\sigma}{d\Omega}\right)_{\text{Rutherford}}\cos^{2}\left(\frac{\theta}{2}\right)$$

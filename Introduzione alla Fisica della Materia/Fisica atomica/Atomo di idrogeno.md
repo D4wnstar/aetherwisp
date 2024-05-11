@@ -6,7 +6,7 @@ dove $M$ è la massa del nucleo, $m$ la masse dell'[[elettrone]], $Z$ è il nume
 
 ![[Schema modello idrogeno|center]]
 
-Si nota che l'Hamiltoniana non dipende esplicitamente dallo [[spin]] dell'elettrone. La [[funzione d'onda]] è esprimibile come prodotto della componente spaziale e di spin
+Si nota che l'Hamiltoniana non dipende esplicitamente dallo [[Spin]] dell'elettrone. La [[Funzione d'onda]] è esprimibile come prodotto della componente spaziale e di spin
 $$\psi(q)=\chi_{s,m_{s}}\psi(r)$$
 dove $\chi_{ms}$ sono gli autostati dell'[[operatore]] $S_{z}$ ed $S^{2}$ con autovalori $s=1/2$ e $m_{s}=\pm1/2$. Cerchiamo questi autostati.
 
@@ -27,13 +27,13 @@ e dato che i commutatori non sono nulli, non è possibile costruire autostati si
 Si ha
 $$S^{2}\alpha=\frac{3}{4}\hbar^{2}\alpha\quad;\quad S_{z}\alpha=\frac{\hbar}{2}\alpha$$
 $$S^{2}\beta=\frac{3}{4}\hbar^{2}\beta\quad;\quad S_{z}\beta=-\frac{\hbar}{2}\beta$$
-Quindi per sovrapposizione degli [[stato|stati]]
+Quindi per sovrapposizione degli [[Stato|stati]]
 $$\chi=\chi_{+}\alpha+\chi_{-}\beta\quad;\quad|\chi_{+}|^{2}+|\chi_{-}|^{2}=1$$
 $$\langle \alpha|\alpha\rangle=1\quad;\quad \langle \beta|\beta\rangle=1\quad; \quad \langle \alpha|\beta\rangle=\langle \beta|\alpha\rangle=0$$
-Usando le [[matrici di Pauli]]
+Usando le [[Matrici di Pauli]]
 $$S^{2}=\frac{3}{4}\hbar^{2}\pmatrix{1 & 0 \\ 0 & 1}$$
 $$S_{x}=\frac{\hbar}{2}\pmatrix{0 & 1 \\ 1 & 0}=\frac{\hbar}{2}\sigma_{x}\quad;\quad S_{y}=\frac{\hbar}{2}\pmatrix{0 & -i \\ i & 0}=\frac{\hbar}{2}\sigma_{y}\quad;\quad S_{z}=\frac{\hbar}{2}\pmatrix{1 & 0 \\ 0 & -1}=\frac{\hbar}{2}\sigma_{z}$$
-Possiamo scrivere la soluzione dell'[[equazione di Schrödinger]] in coordinate polari come
+Possiamo scrivere la soluzione dell'[[Equazione di Schrödinger]] in coordinate polari come
 $$\left[- \frac{\hbar^{2}}{2\mu} \frac{1}{r^{2}} \frac{\partial }{\partial r}\left(r^{2}\frac{\partial }{\partial r}\right)+ \frac{\vec{L}^{2}}{2\mu r^{2}} - \frac{Ze^{2}}{4\pi\epsilon_{0}r}\right]\Psi(r,\theta,\phi)=E\Psi(r,\theta,\phi)$$
 e troviamo le autofunzioni dell'operatore $L$
 $$L^{2}Y_{l,m}(\theta,\phi)=l(l+1)\hbar^{2}Y_{l,m}(\theta,\phi)$$
@@ -84,11 +84,11 @@ Gli autovalori di energia possono essere espressi come
 $$E_{n}=-R(\mu) \frac{Z^{2}}{n^{2}}=- \frac{\mu}{m}R_{\infty} \frac{Z^{2}}{n^{2}}$$
 dove $R_{\infty}$ è la [[costante di Rydberg]]. Si nota che sono presenti stati discreti infiniti e che si infittiscono per $n \rightarrow \infty$ quando il potenziale Coulombiano tende a zero. Gli stati risultano degeneri in $l$ ed $m$. La degenerazione dei livelli è data da
 $$d=\underbrace{2}\limits_{m_{s}}\sum\limits_{l=0}^{n-1}\underbrace{2l+1}\limits_{m}=2n^{2}$$
-che racchiude tutti i numeri quantici: abbiamo che $l$ varia da $0$ a $n-1$, per ogni $l$ sono possibili $2l+1$ valori di $m$ e tutto è possibile per entrambi i numeri di [[spin]] $m_{s}=\pm\frac{1}{2}$.
+che racchiude tutti i numeri quantici: abbiamo che $l$ varia da $0$ a $n-1$, per ogni $l$ sono possibili $2l+1$ valori di $m$ e tutto è possibile per entrambi i numeri di [[Spin]] $m_{s}=\pm\frac{1}{2}$.
 ### Trattamento di Griffiths
 Anzitutto, determiniamo il [[potenziale]]. Dalla [[legge di Coulomb]] abbiamo il potenziale (in unita SI)
 $$V(r)=- \frac{e^{2}}{4\pi\epsilon_{0}} \frac{1}{r}$$
-quindi l'equazione radiale da risolvere per trovare la [[funzione d'onda]] è
+quindi l'equazione radiale da risolvere per trovare la [[Funzione d'onda]] è
 $$- \frac{\hbar^{2}}{2m}\frac{d^{2}u}{dr^{2}}+ \left[- \frac{e^{2}}{4\pi\epsilon_{0}} \frac{1}{r}+\frac{\hbar^{2}}{2m} \frac{l(l+1)}{r^{2}} \right]u(r)=Eu(r)\tag{1}$$
 
 Il potenziale Coulombiano ammette sia stati con [[spettro]] continuo con $E>0$ (che rappresentano la [[diffusione di particelle|diffusione]] protone-elettrone), sia con spettro discreto con $E<0$, i cui [[Stato stazionario|stati stazionari]] rappresentano i livelli di energia dell'elettrone legato. A noi interessano questi ultimi.
@@ -198,11 +198,11 @@ Questa è una delle pochissime funzioni d'onda di casi realistici che possono es
 $$\int \psi_{nlm}^{*}\psi_{n'l'm'}r^{2}\sin\theta dr d\theta d\phi=\delta_{nn'}\delta_{ll'}\delta_{mm'}$$
 usando la [[delta di Kronecker]]. Questo segue dall'ortogonalità delle armoniche sferiche e dal fatto che sono [[Equazione agli autovalori|autofunzioni]] di $H$ con autovalori distinti.
 ### Transizioni
-Dato che gli [[Stato stazionario|stati stazionari]] sono ben noti, è possibile calcolare facilmente l'energia assorbita o emessa dall'elettrone durante una [[transizione di stato]]. L'energia di transizione è
+Dato che gli [[Stato stazionario|stati stazionari]] sono ben noti, è possibile calcolare facilmente l'energia assorbita o emessa dall'elettrone durante una [[Transizione di stato]]. L'energia di transizione è
 $$E_{\gamma}=E_{i}-E_{f}=-13.6\text{ eV }\left( \frac{1}{n_{i}^{2}}- \frac{1}{n_{f}^{2}}\right)$$
 dove $n_{i}$ e $n_{f}$ sono i numeri quantici principali degli stato di inizio e fine.
 
-Usando la [[formula di Planck]] e il fatto che la lunghezza d'onda per un [[fotone]] sia $\lambda=c/\nu$, abbiamo anche
+Usando la [[Formula di Planck]] e il fatto che la lunghezza d'onda per un [[fotone]] sia $\lambda=c/\nu$, abbiamo anche
 $$\frac{1}{\lambda}=R\left(\frac{1}{n^{2}_{f}}- \frac{1}{n_{i}^{2}}\right)$$
 dove $R$ è la [[costante di Rydberg]]. Questo risultato si dice **[[formula di Rydberg]]** per lo spettro dell'atomo di idrogeno.
 

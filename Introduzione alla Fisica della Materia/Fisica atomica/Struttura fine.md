@@ -1,4 +1,4 @@
-La **struttura fine** è la struttura ottenuta applicando correzioni relativistiche ottenute dalla [[funzione d'onda]] relativistica al modello dell'[[atomo di idrogeno]].
+La **struttura fine** è la struttura ottenuta applicando correzioni relativistiche ottenute dalla [[Funzione d'onda]] relativistica al modello dell'[[atomo di idrogeno]].
 ## Trattamento perturbativo
 È composta da tre correzioni (tutte relativistiche):
 1. correzione relativistica dell'energia cinetica
@@ -15,7 +15,7 @@ dove $E_{cin}$ è l'energia classica e i termini ulteriori sono termini corretti
 È diagonale in $L^{2}$, $S^{2}$, $L_{z}$ e $S_{z}$, quindi la correzione è data al primo ordine perturbativo da $-\frac{1}{2m_{e}c^{2}}\langle \psi_{nlm}|T^{2}|\psi_{nlm}\rangle$ da cui la differenza di energia
 $$\boxed{\Delta E_{1}=-E_{n} \frac{(Z\alpha)^{2}}{n^{2}} \left[\frac{3}{4} - \frac{n}{l-\frac{1}{2}} \right]}$$
 ### Interazione spin-orbita
-L'interazione tra il momento di dipolo magnetico di [[spin]] di un elettrone e il campo magnetico interno di un atomo che dipende dal momento angolare orbitale dell'elettrone.
+L'interazione tra il momento di dipolo magnetico di [[Spin]] di un elettrone e il campo magnetico interno di un atomo che dipende dal momento angolare orbitale dell'elettrone.
 
 Una descrizione efficace di questo fenomeno si può ricavare ponendosi nel sistema di riferimento dell'elettrone in cui il [[Nucleo atomico|nucleo]] con carica $Ze$ in movimento genera un campo magnetico che interagisce con gli spin degli elettroni. Considero il campo magnetico visto dall'elettrone
 $$\vec{B}=- \frac{1}{c^{2}} \vec{v}\times\vec{E}$$

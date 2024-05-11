@@ -9,9 +9,9 @@ $$\Delta q\Delta p\geq\frac{\hbar}{2}$$
 e in tre dimensioni
 $$\Delta x \Delta p_{x}\geq \frac{\hbar}{2}, \quad \Delta y \Delta p_{y}\geq \frac{\hbar}{2}, \quad \Delta z \Delta p_{z}\geq \frac{\hbar}{2}$$
 
-L'errore qui definito non è quello della strumentazione, ma quello intrinseco dovuto alla [[funzione d'onda]] della particella, dato che misure uguali su sistemi preparati allo stesso modo *non* danno lo stesso risultato. È una manifestazione dell'[[indeterminatezza quantistica]].
+L'errore qui definito non è quello della strumentazione, ma quello intrinseco dovuto alla [[Funzione d'onda]] della particella, dato che misure uguali su sistemi preparati allo stesso modo *non* danno lo stesso risultato. È una manifestazione dell'[[Indeterminatezza quantistica]].
 ## Forma generale
-Consideriamo un'[[osservabile]] $A$ e il suo [[operatore autoaggiunto]] $\hat{A}$ per una funzione d'onda $\Psi$. Allora la sua varianza è
+Consideriamo un'[[Osservabile]] $A$ e il suo [[operatore autoaggiunto]] $\hat{A}$ per una funzione d'onda $\Psi$. Allora la sua varianza è
 $$\sigma_{A}^{2}=\langle (\hat{A}-\left\langle A \right\rangle)\Psi\;|\; (\hat{A}-\left\langle A \right\rangle)\Psi\rangle=\langle f|f\rangle$$
 con $f=(\hat{A}-\left\langle A \right\rangle)\Psi$. Per un'altra osservabile $B$ si ha
 $$\sigma_{B}^{2}=\langle g|g\rangle$$
@@ -48,7 +48,7 @@ che è una gaussiana. Allora *il pacchetto d'onda di minima incertezza ha sempre
 ### Disuguaglianza tempo-energia
 Dalla forma generale del principio di indeterminazione possiamo ottenere la legge per la coppia tempo-energia, che ha un significato fisico particolare. Allora partiamo cercando una misura di quanto in fretta un sistema stia cambiano calcolando la derivata temporale del valor medio di un'osservabile $Q(x,p,t)$:
 $$\frac{d}{dt}\left\langle Q \right\rangle=\frac{d}{dt}\langle \Psi|\hat{Q}\Psi\rangle=\left\langle \frac{\partial \Psi}{\partial t}|\hat{Q}\Psi\right\rangle+\left\langle \Psi| \frac{\partial \left\langle Q \right\rangle}{\partial t}\Psi\right\rangle + \left\langle \Psi|\hat{Q}\frac{\partial \Psi}{\partial t}\right\rangle$$
-L'[[equazione di Schrödinger]] ha la forma
+L'[[Equazione di Schrödinger]] ha la forma
 $$i\hbar \frac{\partial \Psi}{\partial t}=\hat{H}\Psi$$
 dove l'[[Hamiltoniana]] è $H=p^{2}/2m+V$. Allora
 $$\frac{d}{dt}\left\langle Q \right\rangle=- \frac{1}{i\hbar}\langle \hat{H}\Psi|\hat{Q}\Psi\rangle+ \frac{1}{i\hbar}\langle \Psi|\hat{Q}\hat{H}\Psi\rangle+\left\langle \frac{\partial \hat{Q}}{\partial t} \right\rangle$$
@@ -70,13 +70,13 @@ quindi $\Delta t$ rappresenta il lasso di tempo necessario per far si che $\left
 
 Ma si può dire di più: grazie all'equivalenza massa-energia, l'errore sull'energia lo è anche sulla massa, quindi la *massa stessa* di un oggetto quantistico (ossia una particella) che cambia molto rapidamente (ossia ha un tempo di vita molto bassa) è necessariamente molto incerta. Questo è il motivo per cui particelle fondamentali con tempi di vita bassissimi hanno masse molto difficili da misurare con precisione, ergo le distribuzioni di misure di massa molto ampie negli esperimenti con acceleratori.
 
-Questo risultato resiste anche al caso limite di uno stato stazionario, dove l'energia è [[stato determinato|determinata]]. In questo, chiaramente deve essere $\Delta E =0$, ma allora $\Delta t \rightarrow \infty$. Ma $\Delta t \rightarrow \infty$ significa che le medie delle osservabili impiegano tempo infinito per variare, che è perfettamente sensato dato che in uno stato stazionario sono costanti. Per ottenere una variazione, bisogna combinare linearmente almeno due stati stazionari.
+Questo risultato resiste anche al caso limite di uno stato stazionario, dove l'energia è [[Stato determinato|determinata]]. In questo, chiaramente deve essere $\Delta E =0$, ma allora $\Delta t \rightarrow \infty$. Ma $\Delta t \rightarrow \infty$ significa che le medie delle osservabili impiegano tempo infinito per variare, che è perfettamente sensato dato che in uno stato stazionario sono costanti. Per ottenere una variazione, bisogna combinare linearmente almeno due stati stazionari.
 
 Questa trattazione dell'indeterminazione tempo-energia è detta **formulazione di Mandelstam-Tamm**.
 
 ---
 
-Prendo $X=\{x_{i}\}^{d}_{i}$ un insieme di $d$ variabili casuali. Definisco una [[Distribuzione]] $F:X \rightarrow\mathbb{R}$, $x_{i} \rightarrow F(x_{i})$ che agisce sulle $X$. Dato che le $X$ sono determinate casualmente, non è esiste alcun "valore" di $X$. Al meglio, possiamo definire il valore di aspettazione o quantità simili. Ciò significa anche che non possiamo nemmeno determinare $F$, al di là di una media. Calcoliamo allora proprio questa, o meglio i *momenti* della distribuzione $F$ nello [[stato]] $\pi$
+Prendo $X=\{x_{i}\}^{d}_{i}$ un insieme di $d$ variabili casuali. Definisco una [[Distribuzione]] $F:X \rightarrow\mathbb{R}$, $x_{i} \rightarrow F(x_{i})$ che agisce sulle $X$. Dato che le $X$ sono determinate casualmente, non è esiste alcun "valore" di $X$. Al meglio, possiamo definire il valore di aspettazione o quantità simili. Ciò significa anche che non possiamo nemmeno determinare $F$, al di là di una media. Calcoliamo allora proprio questa, o meglio i *momenti* della distribuzione $F$ nello [[Stato]] $\pi$
 $$\langle F\rangle_{\pi}=\sum\limits_{i=1}^{d}p_{i}F(x_{i})$$
 $$\langle F^{2}\rangle_{\pi}=\sum\limits_{i=1}^{d}p_{i}F^{2}(x_{i})$$
 $$\Delta_{\pi}F=\langle F^{2}\rangle_{\Psi}-\langle F\rangle^{2}_{\pi}$$

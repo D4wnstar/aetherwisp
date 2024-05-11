@@ -1,6 +1,6 @@
 Consideriamo una [[particella]] immersa in un [[Potenziale]] della forma
 $$V(x)=-\alpha \delta(x)$$
-con $\alpha$ una costante positiva e $\delta(x)$ la [[Delta di Dirac]]. Questo potenziale è una [[Buca infinita quantistica|buca infinita]] localizzata interamente nell'origine, a differenza della buca infinita vera e propria, che ha un'estensione spaziale. L'[[equazione di Schrödinger]] diventa
+con $\alpha$ una costante positiva e $\delta(x)$ la [[Delta di Dirac]]. Questo potenziale è una [[Buca infinita quantistica|buca infinita]] localizzata interamente nell'origine, a differenza della buca infinita vera e propria, che ha un'estensione spaziale. L'[[Equazione di Schrödinger]] diventa
 $$- \frac{\hbar^{2}}{2m} \frac{d^{2}\psi}{dx^{2}} - \alpha\delta(x)\psi=E\psi$$
 Per la definizione di delta di Dirac, possiamo ricavare sia stati legati che liberi.
 ### Stati legati
@@ -14,7 +14,7 @@ $$\psi(x)=Be^{\kappa x}\quad\text{per }x<0$$
 Nella regione $x>0$ si ha ancora $V(x)=0$ e $E<0$, con la stessa soluzione generale. Stavolta è il secondo termine ad andare all'infinito, quindi l'altra costante va posta a zero. Troviamo dunque
 $$\psi(x)=Ce^{-\kappa x}\quad\text{per }x>0$$
 
-Manca solo la condizione al contorno all'origine. Le condizioni al contorno standard per la [[funzione d'onda]] indipendente dal tempo sono $\psi$ continua e $d\psi/dx$ continua tranne che in punti con potenziale infinito.
+Manca solo la condizione al contorno all'origine. Le condizioni al contorno standard per la [[Funzione d'onda]] indipendente dal tempo sono $\psi$ continua e $d\psi/dx$ continua tranne che in punti con potenziale infinito.
 
 La continuità di $\psi$ ci dice che
 $$Be^{\kappa 0}=Ce^{-\kappa 0} \rightarrow B=C$$

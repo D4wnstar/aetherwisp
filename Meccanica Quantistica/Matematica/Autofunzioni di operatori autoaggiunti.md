@@ -1,6 +1,6 @@
-Le [[Equazione agli autovalori|autofunzioni]] di [[Operatore autoaggiunto|operatori autoaggiunti]] svolgono un ruolo cruciale nella meccanica quantistica, dato che corrispondono a [[Stato determinato|stati determinati]] di un'[[osservabile]] e quindi ci permettono di "bypassare" il [[Disuguaglianza di Heisenberg|principio di indeterminazione]].
+Le [[Equazione agli autovalori|autofunzioni]] di [[Operatore autoaggiunto|operatori autoaggiunti]] svolgono un ruolo cruciale nella meccanica quantistica, dato che corrispondono a [[Stato determinato|stati determinati]] di un'[[Osservabile]] e quindi ci permettono di "bypassare" il [[Disuguaglianza di Heisenberg|principio di indeterminazione]].
 
-Prendiamo un'osservabile $Q$ con operatore associato $\hat{Q}$. Se lo [[Spettro]] di $\hat{Q}$ è discreto, le autofunzioni esistono in [[Spazi Lp#Spazio $L {2}$|L^2]] e corrispondono a stati fisicamente realizzabili. Se lo spettro è continuo, le autofunzioni non sono normalizzabili e non rappresentano alcuna [[funzione d'onda]], anche se una loro combinazione lineare forse sì.
+Prendiamo un'osservabile $Q$ con operatore associato $\hat{Q}$. Se lo [[Spettro]] di $\hat{Q}$ è discreto, le autofunzioni esistono in [[Spazi Lp#Spazio $L {2}$|L^2]] e corrispondono a stati fisicamente realizzabili. Se lo spettro è continuo, le autofunzioni non sono normalizzabili e non rappresentano alcuna [[Funzione d'onda]], anche se una loro combinazione lineare forse sì.
 ## Spettro discreto
 Le autofunzioni di un operatore autoaggiunto hanno due importanti proprietà:
 1. Hanno autovalori reali.
@@ -41,7 +41,7 @@ che è una [[Trasformata di Fourier]].
 
 Le autofunzioni $(1)$ sono sinusoidali con lunghezza d'onda
 $$\lambda=\frac{2\pi\hbar}{p}$$
-che non è altro che la [[formula di de Broglie]]. Queste autofunzioni non rappresentano stati fisicamente ottenibili, ma in certi casi (se le funzioni ammettono autovalore reale), possono comunque tornare utili nel trattamento matematico di un sistema; vedi [[particella libera]].
+che non è altro che la [[Formula di de Broglie]]. Queste autofunzioni non rappresentano stati fisicamente ottenibili, ma in certi casi (se le funzioni ammettono autovalore reale), possono comunque tornare utili nel trattamento matematico di un sistema; vedi [[Meccanica Statistica/Particella libera]].
 ### Autofunzioni di $x$
 Consideriamo l'equazione agli autovalori
 $$xg_{y}(x)=yg_{y}(x)$$

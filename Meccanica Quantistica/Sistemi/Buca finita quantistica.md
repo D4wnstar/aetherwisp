@@ -7,13 +7,13 @@ $$V(x)=\begin{cases}
 - V_{0} & \text{se }-a<x<a \\
 0 & \text{altrove}
 \end{cases}$$
-con $a$ e $V_{0}$ costanti reali positive. Come per il [[potenziale delta di Dirac]], sono possibili sia stati legati ($E<0$) e stati liberi ($E>0$).
+con $a$ e $V_{0}$ costanti reali positive. Come per il [[Potenziale delta di Dirac]], sono possibili sia stati legati ($E<0$) e stati liberi ($E>0$).
 
 ![[Grafico Buca finita|70%|center]]
 ### Stati legati
-In $x<-a$ il potenziale è zero, quindi l'[[equazione di Schrödinger]] diventa
+In $x<-a$ il potenziale è zero, quindi l'[[Equazione di Schrödinger]] diventa
 $$\frac{d^{2}\psi}{dx^{2}}=- \frac{2mE}{\hbar^{2}}\psi=\kappa^{2}\psi$$
-con $\kappa\equiv \sqrt{-2mE}/\hbar$. Come per gli altri casi di questo genere, la soluzione generale è $\psi(x)=Ae^{-\kappa x}+Be^{\kappa x}$, ma il primo termine esplode a $-\infty$, quindi non è normalizzabile, quindi non è fisicamente ammissibile. Allora abbiamo la [[funzione d'onda]]
+con $\kappa\equiv \sqrt{-2mE}/\hbar$. Come per gli altri casi di questo genere, la soluzione generale è $\psi(x)=Ae^{-\kappa x}+Be^{\kappa x}$, ma il primo termine esplode a $-\infty$, quindi non è normalizzabile, quindi non è fisicamente ammissibile. Allora abbiamo la [[Funzione d'onda]]
 $$\psi(x)=Be^{\kappa x}\quad \text{per }x<-a$$
 In $-a<x<a$, $V(x)=-V_{0}$, quindi vale
 $$- \frac{\hbar^{2}}{2m} \frac{d^{2}\psi}{dx^{2}} -V_{0}\psi=E\psi \quad \rightarrow \quad \frac{d^{2}\psi}{dx^{2}}=- l^{2}\psi \quad \text{con}\quad l\equiv \frac{\sqrt{2m(E+V_{0})}}{\hbar}$$

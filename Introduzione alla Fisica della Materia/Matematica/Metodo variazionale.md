@@ -19,7 +19,7 @@ $$\delta H=\left[\int_{-\infty}^{+\infty}\delta \phi^{*}H \phi d\tau +\text{cc1}
 
 e imponendo la condizione di stazionarietà $\delta H=0$ troviamo
 $$\int_{-\infty}^{+\infty} \delta\phi^{*}[H - \left\langle H \right\rangle]\phi+\text{cc}=0$$
-che è equivalente a chiedere l'[[equazione di Schrödinger]]
+che è equivalente a chiedere l'[[Equazione di Schrödinger]]
 $$H\phi=E\phi$$
 Quindi aggiungere un termine variazionale e chiedere la stazionarietà è equivalente a risolvere l'equazione di Schrödinger.
 ### Utilizzo

@@ -3,10 +3,11 @@ aliases:
   - autovalore
   - autovettore
   - autofunzione
+  - autostato
 ---
-Sia $T:H \rightarrow H$ un [[Operatore lineare]] su uno [[Spazio di Hilbert]]. L'**equazione agli autovalori** associata all'operatore $T$ di dominio $D$ è
+Sia $T:H \rightarrow H$ un [[operatore lineare]] su uno [[spazio di Hilbert]]. L'**equazione agli autovalori** associata all'operatore $T$ di dominio $D$ è
 $$Tx=\lambda x;\quad \lambda\in\mathbb{C},\quad x\neq0\in D$$
-dove $\lambda$ è l'**autovalore** e $x$ è l'**autovettore**. Nel caso di spazi di funzioni, si ha $Tf=\lambda f$ e $f$ si dice **autofunzione**.
+dove $\lambda$ è l'**autovalore** e $x$ è l'**autovettore**. Nel caso di spazi di funzioni, si ha $Tf=\lambda f$ e $f$ si dice **autofunzione**. Talvolta, se $x$ rappresenta lo [[stato]] del sistema, come spesso accade in meccanica quantistica, si dice anche **autostato**.
 ### Dimensione infinita
 In dimensione infinita è impossibile fare una constatazione generale sull'esistenza degli autovettori. Ciò non dipende nemmeno dalla limitatezza dell'operatore. Vale comunque il seguente teorema: se $T$ è [[Operatore autoaggiunto|simmetrico]] e possiede qualche autovalore, allora
 1. gli autovalori sono reali

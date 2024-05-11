@@ -2,7 +2,7 @@ Quando si trattano [[Particella|particelle]] e comunque oggetti molto piccoli, �
 
 Consideriamo la massa relativistica in [[unità naturali]]
 $$E^{2}=p^{2}+m^{2}$$
-e l'[[equazione di Schrödinger]]
+e l'[[Equazione di Schrödinger]]
 $$E\Psi=H\Psi$$
 L'approccio più logico è mettere la $E$ relativistica nell'equazione
 $$E\Psi=\sqrt{p^{2}+m^{2}}\Psi=H\Psi$$
@@ -31,7 +31,7 @@ $$\begin{align}
 \end{align}$$
 con $\delta_{ij}$ la [[Delta di Kronecker]]. Si trova che le uniche matrici che soddisfano queste condizioni sono
 $$\alpha_{i}=\pmatrix{0 & \sigma_{i} \\ -\sigma_{i} & 0},\quad \beta=\pmatrix{1 & 0 \\ 0 & -1}$$
-con $\sigma_{i}$ le [[matrici di Pauli]].
+con $\sigma_{i}$ le [[Matrici di Pauli]].
 
 Introduciamo le nuove matrici
 $$\gamma^{0}=\beta,\quad \gamma^{i}=\gamma^{0}\alpha_{i}$$

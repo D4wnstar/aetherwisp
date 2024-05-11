@@ -80,7 +80,7 @@ con $S_{MC}$ l'entropia dell'ensemble microcanonico, da cui si ritrova $T_{MC}(\
 ## Canonico quantistico
 Parto dalla stessa base usata in [[Particelle identiche]]:
 $$\{|\psi_{mn}\rangle\}\equiv\{|\phi_{m}\rangle\otimes |\varphi_{n}\rangle\}$$
-usando il [[prodotto tensoriale]]. In questo caso facciamo il prodotto tensoriale tra il sistema termostato 1 e il sistema 2.
+usando il [[Prodotto tensoriale]]. In questo caso facciamo il prodotto tensoriale tra il sistema termostato 1 e il sistema 2.
 
 ![[Sistemi Annidati|center]]
 

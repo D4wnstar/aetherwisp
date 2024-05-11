@@ -12,6 +12,6 @@ con $m_{l}=0,\pm1,\pm2,\ldots$ [[numero quantico]] magnetico e $l=0,1,2,\ldots=s
 $$E_{N}=\hbar \omega_{0}\left(N + \frac{3}{2}\right)$$
 con $N=0,1,2,\ldots$ i livelli energetici, ossia il numero quantico principale. Vale $l\leq N$. Introducendo $n$ il numero di nodi, possiamo scrivere i livelli come
 $$N=2(n-1)+l$$
-Ogni livello energetico ha diversi set di numeri quantici che portano allo stesso livello: il numero di set si dice *degenerazione* e ci sono $2l+1$ set. In presenza di [[spin]], diventa $2(2l+1)$.
+Ogni livello energetico ha diversi set di numeri quantici che portano allo stesso livello: il numero di set si dice *degenerazione* e ci sono $2l+1$ set. In presenza di [[Spin]], diventa $2(2l+1)$.
 ![[Grafico Modello a shell nucleare|80%|center]]
 	Questo modello riproduce i numeri magici con accuratezza fino al 20.

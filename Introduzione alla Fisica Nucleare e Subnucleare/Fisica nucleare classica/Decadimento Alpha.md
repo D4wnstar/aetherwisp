@@ -22,7 +22,7 @@ Chiamiamo *costante di disintegrazione* $\lambda$ di un emettitore $\alpha$
 $$\lambda=fp\text{ con }f\sim \frac{v}{a}$$
 dove $f$ è la frequenza con cui $\alpha$ si presenta alla barriera, $p$ è la probabilità di trasmissione oltre la barriera e $v$ è la velocità della particella $\alpha$ sulla barriera.
 
-Per comprendere il fenomeno, dobbiamo risolvere l'[[equazione di Schrödinger]] in una dimensione per una particella sottoposta ad una barriera di potenziale $V(x)$. Consideriamo l'[[autostato]] $\Psi$. Allora
+Per comprendere il fenomeno, dobbiamo risolvere l'[[Equazione di Schrödinger]] in una dimensione per una particella sottoposta ad una barriera di potenziale $V(x)$. Consideriamo l'[[autostato]] $\Psi$. Allora
 $$\frac{\hbar^{2}}{2m} \frac{d^{2}\Psi(x)}{dx^{2}}+V(x)\Psi(x)=E\Psi(x)$$
 A causa della barriera di potenziale, abbiamo tre soluzione per tre regioni dello spazio, determinate dalle condizione al contorno:
 - $V(x)=0$ per $x<0$ ci dà $\Psi_{1}(x)=Ae^{ik_{1}x}+Be^{-ik_{1}x}$

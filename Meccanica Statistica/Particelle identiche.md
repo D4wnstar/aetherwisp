@@ -22,7 +22,7 @@ Estendo al caso bidimensionale, l'equazione da risolvere è
 $$\left[ - \frac{\hbar^{2}}{2m}\bar{v}^{2}+U(\bar{r}) \right]\psi(x,y)=E \psi(x,y))$$
 e la trasformata diventa
 $$\psi(x,y)= \frac{1}{(2\pi)^{2}}\int dq_{x}\int dq_{y}\;e^{i(q_{x}x+q_{y}y)}\tilde{\psi}(q_{x},q_{y})$$
-Uso il [[prodotto tensoriale]] per collegare gli stati del sistema e del mondo esterno
+Uso il [[Prodotto tensoriale]] per collegare gli stati del sistema e del mondo esterno
 $$\{|\phi_{m}\rangle\otimes |\psi_{n}\rangle\}$$
 che ci dà una base completa per l'universo.
 Assumo che questo oggetto sia un sistema ortonormale completo. Allora posso esprimere lo stato $|\psi\rangle$ come

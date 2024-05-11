@@ -1,12 +1,12 @@
-Una **funzione d'onda** $\Psi(x,t)$ (anche $\psi(x,t)$) è una funzione che descrive lo stato di una [[particella]] quantistica. È la soluzione dell'[[equazione di Schrödinger]]. Esistono diverse interpretazioni fisiche della funzione d'onda.
+Una **funzione d'onda** $\Psi(x,t)$ (anche $\psi(x,t)$) è una funzione che descrive lo stato di una [[particella]] quantistica. È la soluzione dell'[[Equazione di Schrödinger]]. Esistono diverse interpretazioni fisiche della funzione d'onda.
 ### Interpretazione di Born
 Un modo per spiegare a livello fisico la funzione d'onda è l'**interpretazione statistica di Born**. Questa afferma che la [[Norma]] della funzione d'onda ci dà la *probabilità* che la particella si trovi in un determinato punto $x$ allo spazio $t$. In simboli
 $$\int_{a}^{b}|\Psi(x,t)|^{2}dx=\text{probabilità di trovare la particella tra }a\text{ e }b\text{ al tempo }t$$
-Ciò significa che, anche conoscendo la funzione d'onda di una particella, quello che sappiamo del suo moto è al più la *probabilità* che si trovi in un certo punto (o insieme di punti) ad un certo tempo. Questo fatto si chiama [[indeterminatezza quantistica]].
+Ciò significa che, anche conoscendo la funzione d'onda di una particella, quello che sappiamo del suo moto è al più la *probabilità* che si trovi in un certo punto (o insieme di punti) ad un certo tempo. Questo fatto si chiama [[Indeterminatezza quantistica]].
 #### Normalizzazione
 Se $\Psi$ è una distribuzione di probabilità, allora deve essere normalizzata
 $$\boxed{\int_{-\infty}^{+\infty}|\Psi(x,t)|^{2}dx= \langle \Psi|\Psi\rangle =1\tag{1}}$$
-(dove il secondo termine usa la [[notazione braket]]) ma $\Psi$ è ottenuta dall'equazione di Schrödinger, che di per sé non dà alcuna garanzia che $\Psi$ sia normalizzata. Per le proprietà delle equazioni differenziali, sappiamo però che se $\Psi(x,t)$ è soluzione, lo sono anche tutte le $A\Psi(x,t)=\tilde{\Psi}(x,t)$, con $A$ costante complessa. Allora è quasi sempre possibile trovare una $A$ tale per cui $(1)$ è soddisfatta.
+(dove il secondo termine usa la [[Notazione braket]]) ma $\Psi$ è ottenuta dall'equazione di Schrödinger, che di per sé non dà alcuna garanzia che $\Psi$ sia normalizzata. Per le proprietà delle equazioni differenziali, sappiamo però che se $\Psi(x,t)$ è soluzione, lo sono anche tutte le $A\Psi(x,t)=\tilde{\Psi}(x,t)$, con $A$ costante complessa. Allora è quasi sempre possibile trovare una $A$ tale per cui $(1)$ è soddisfatta.
 
 È possibile che per alcune soluzioni dell'equazione di Schrödinger, l'integrale $(1)$ sia infinito o zero. In questi casi, non esiste nessuna $A$ capace di normalizzare $\Psi$. Queste soluzioni *non-normalizzabili* non hanno significato fisico e vanno scartate. Vista in un altro modo, tutte le $\Psi$ rappresentanti soluzioni fisiche sono funzioni [[Spazi Lp#Spazio $L {2}$|L^2]].
 
@@ -56,7 +56,7 @@ $$\boxed{\left\langle Q(q,p) \right\rangle=\int_{-\infty}^{+\infty}\Psi^{*}Q\lef
 ### Caso tridimensionale
 La funzione d'onda e le sue proprietà sono facilmente estese a tre dimensioni. Per una funzione d'onda in tre dimensioni $\Psi(\vec{r},t)$ valgono le stesse proprietà del caso unidimensionale. La normalizzazione è su un volume
 $$\int |\Psi(\vec{r},t)|^{2}d^{3}\vec{r}=1$$
-Se il potenziale è indipendente dal tempo, può essere comunque espressa in funzione degli stati stazionari e l'[[evolutore]]
+Se il potenziale è indipendente dal tempo, può essere comunque espressa in funzione degli stati stazionari e l'[[Evolutore]]
 $$\Psi_{n}(\vec{r},t)=\psi_{n}(\vec{r})\hat{U}_{t}=\psi_{n}(\vec{r})e^{-iE_{n}t/\hbar}$$
 dove gli stati stazionari $\psi_{n}$ sono la soluzione della forma indipendente dal tempo dell'equazione di Schrödinger e la soluzione generale è sempre
 $$\Psi_{n}(\vec{r},t)=\sum\limits_{n=1}^{\infty}c_{n}\psi_{n}(\vec{r})e^{-iE_{n}t/\hbar}$$
