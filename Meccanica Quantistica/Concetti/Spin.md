@@ -59,6 +59,60 @@ $$|a|^{2}+|b|^{2}=1$$
 In altre parole, $|a|^{2}$ è la probabilità che la [[funzione d'onda]] della particella collassi in $|\uparrow\;\rangle$, mentre $|b|^{2}$ è la probabilità che collassi in $|\downarrow\;\rangle$.
 
 È possibile trovare gli autovalori e autovettori di $\mathbf{S}_{x}$ e $\mathbf{S}_{y}$ allo stesso modo, e quindi anche le probabilità di collasso associate. Spesso, per evitare confusione tra le componenti, i loro autovettori vengono scritti come $|\uparrow x\rangle$, $|\uparrow y\rangle$ e $|\uparrow z\rangle$. In genere, tuttavia, si parla solo di $|\uparrow z\rangle$ ed è normale tralasciare la $z$ e scrivere solo $|\uparrow\;\rangle$.
+### Somme di momenti angolari
+Consideriamo un sistema di particelle $s=1/2$ anziché una solitaria. Ad esempio, il protone e l'elettrone nello stato fondamentale dell'[[atomo di idrogeno]]. In questo caso, ciascuna particella ha il suo spin (up o down) e dunque insieme il sistema ha quattro possibilità
+$$\uparrow\uparrow,\; \uparrow\downarrow ,\; \downarrow \uparrow, \; \downarrow\downarrow\tag{2}$$
+dove la prima freccia rappresenta lo spin dell'elettrone e la seconda quello del protone. Più correttamente, le particelle sono in una combinazione lineare di stati: questi quattro formano una *base* per il nuovo sistema, il cui stato vero e proprio è una combinazione lineare di questi.
+
+Ci interessa trovare qual è il momento angolare *totale* dell'atomo. Chiamiamo
+$$\mathbf{S}\equiv \mathbf{S}^{(1)}+\mathbf{S}^{(2)}$$
+la somma degli spin. Ciascuno dei stati $(2)$ è un autostato di $S_{z}$. Infatti, chiamando $\chi_{1}$ e $\chi_{2}$ gli stati di protone ed elettrone si ha
+$$S_{z}\chi_{1}\chi_{2}=(S_{z}^{(1)}+S_{z}^{(2)})\chi_{1}\chi_{2}=(S_{z}^{(1)}\chi_{1})\chi_{2}+\chi_{1}(S_{z}^{(2)}\chi_{2})=$$
+$$=(\hbar m_{s,1} \chi_{1})\chi_{2}+\chi_{1}(\hbar m_{s,2}\chi_{2})=\hbar(m_{s,1}+m_{s,2})\chi_{1}\chi_{2}$$
+Allora $m_{s}$, come numero quantico di tutto il sistema, non è altro che $m_{s,1}+m_{s,2}$. Allora vale
+$$\begin{align}
+\uparrow\uparrow &: m_{s}=1 \\
+\uparrow\downarrow &: m_{s}=0 \\
+\downarrow\uparrow &: m_{s}=0 \\
+\downarrow\downarrow &: m_{s}=-1
+\end{align}$$
+Pare esserci un problema: $m_{s}$ dovrebbe aumentare e diminuire di un intero alla volta, ma ci sono due stati con $m_{s}=0$. Possiamo provare ad applicare l'operatore di distruzione
+$$S_{-}=S_{-}^{(1)}+S_{-}^{(2)}$$
+allo stato $\uparrow\uparrow$. Allora si ha
+$$S_{-}|\uparrow\uparrow\;\rangle=(S_{-}^{(1)}|\uparrow\;\rangle)|\uparrow\;\rangle+|\uparrow\;\rangle(S_{-}^{(2)}|\uparrow\;\rangle)=$$
+$$=(\hbar |\downarrow\;\rangle)|\uparrow\;\rangle+|\uparrow\;\rangle(\hbar |\downarrow\;\rangle)=\hbar(|\downarrow\uparrow\;\rangle+ |\uparrow\downarrow\;\rangle)$$
+Allora evidentemente i tre stati con $s=1$ sono
+$$\begin{cases}
+|11 \rangle=|\uparrow \uparrow\;\rangle \\
+|10 \rangle= \frac{1}{\sqrt{2}}(|\uparrow\downarrow\;\rangle + |\downarrow\uparrow\;\rangle) \\
+|1 -1\rangle=|\downarrow\downarrow\;\rangle
+\end{cases}$$
+Questa si chiama **combinazione a tripletto**. Nel mentre, lo stato [[Ortogonalità|ortogonale]] con $m=0$ ha $s=0$:
+$$|00\rangle=\frac{1}{\sqrt{2}}(|\uparrow\downarrow\;\rangle - |\downarrow\uparrow\;\rangle)$$
+detto **singoletto**.
+
+Affermo che la combinazione di stati di due particelle con spin 1/2 deve avere spin 1 o 0 in base a se occupa la configurazione a tripletto o a singoletto. Per fare ciò, devo provare che gli stati del tripletto siano autovettori di $S^{2}$ con autovalore $2\hbar^{2}$ e che il singoletto sia autovettore di $S^{2}$ con autovalore $0$. Abbiamo
+$$S^{2}=(\mathbf{S}^{(1)}+\mathbf{S}^{(2)})\cdot(\mathbf{S}^{(1)}+\mathbf{S}^{(2)})=(S^{(1)})^{2}+(S^{(2)})^{2}+2\mathbf{S}^{(1)}\cdot \mathbf{S}^{(2)}$$
+e anche
+$$\mathbf{S}^{(1)}\cdot\mathbf{S}^{(2)}|\uparrow\downarrow\;\rangle=\ldots=\frac{\hbar^{2}}{4}(2|\downarrow\uparrow\;\rangle - |\uparrow\downarrow\;\rangle)$$
+Analogamente
+$$\mathbf{S}^{(1)}\cdot\mathbf{S}^{(2)}|\downarrow\uparrow\;\rangle=\ldots=\frac{\hbar^{2}}{4}(2|\uparrow\downarrow\;\rangle - |\downarrow\uparrow\;\rangle)$$
+Segue che
+$$\mathbf{S}^{(1)}\cdot\mathbf{S}^{(2)}|10\rangle=\ldots=\frac{\hbar^{2}}{4}|10\rangle$$
+e
+$$\mathbf{S}^{(1)}\cdot\mathbf{S}^{(2)}|00\rangle=\ldots=-\frac{3\hbar^{2}}{4}|00\rangle$$
+Quindi abbiamo
+$$S^{2}|10\rangle=\left(\frac{3\hbar^{2}}{4}+ \frac{3\hbar^{2}}{4}+2 \frac{\hbar^{2}}{4}\right)|10\rangle=2\hbar^{2}|10\rangle$$
+e
+$$S^{2}|00\rangle=\left(\frac{3\hbar^{2}}{4}+ \frac{3\hbar^{2}}{4} - 2 \frac{3\hbar^{2}}{4}\right)|00\rangle=0$$
+Allora $|10\rangle$ è effettivamente un autovettore di $S^{2}$ con autovalore $2\hbar^{2}$ e $|00\rangle$ è autovettore con autovalore 0, che era ciò che cercavamo. Si dimostra allo stesso modo che $|11\rangle$ e $|1-1\rangle$ sono autovettori con autovalore $2\hbar^{2}$. Conclusione: un sistema di due particelle con spin 1/2 genera un sistema con spin 1 o 0.
+
+Questo è un caso specifico di un problema generale: combinando due particelle con spin $s_{1}$ e $s_{2}$, quali sono gli spin permessi al sistema composito? Si dimostra che la risposta è "**qualunque spin tra $|s_{1}-s_{2}|$ e $s_{1}+s_{2}$, in passi interi**". Lo spin più basso, $|s_{1}-s_{2}|$, accade quando tutti gli spin sono antiparalleli, mentre quello più alto, $s_{1}+s_{2}$, quando sono tutti paralleli.
+
+Lo stato combinato $|sm\rangle$ con spin totale $s$ e componente $z$ $m$ sarà una combinazione lineare degli stati compositi $|s_{1}m_{1}\rangle |s_{2},m_{2}\rangle$:
+$$|sm\rangle=\sum\limits_{m_{1}+m_{2}=m}C_{m_{1}m_{2}m}^{s_{1}s_{2}s}|s_{1}m_{1}\rangle |s_{2}m_{2}\rangle$$
+(la somma sui $m_{1}+m_{2}=m$ è dovuta al fatto che le componenti $z$ si sommano, quindi le uniche che contribuiscono sono quelle con $m_{1}+m_{2}=m$). $C_{m_{1}m_{2}m}^{s_{1}s_{2}s}$ si dicono [[coefficienti di Clebsch-Gordan]]. La relazione vale anche al contrario:
+$$|s_{1}m_{1}\rangle |s_{2}m_{2}\rangle=\sum\limits_{m_{1}+m_{2}=m}C_{m_{1}m_{2}m}^{s_{1}s_{2}s}|sm\rangle$$
 ### Interazione con il campo magnetico
 Una particella carica in rotazione costituisce un dipolo magnetico. Il suo [[momento di dipolo magnetico]] $\vec{\mu}$ è proporzionale al suo momento angolare di spin $\vec{S}$ secondo la relazione
 $$\vec{\mu}=\gamma\vec{S}$$

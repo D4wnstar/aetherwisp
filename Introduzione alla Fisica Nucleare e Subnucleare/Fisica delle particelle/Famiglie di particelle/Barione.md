@@ -4,4 +4,4 @@ aliases:
 ---
 Un **barione** è l'unità fondamentale della [[materia]] ordinaria. Ogni [[particella]] con un [[numero barionico]] è un barione. [[Protone|Protoni]] e [[neutrone|neutroni]], assieme ad altre particelle simili, sono barioni. Gli [[elettrone|elettroni]], [[Kaone|kaoni]] e la maggior parte delle altre particelle non sono barioni.
 
-Hanno [[Spin]] pari ad $1/2$. Sono un tipo di [[adrone|adroni]] e dunque agiscono per [[Interazioni fondamentali|interazione forte]]. Sono composti tra tre [[quark]].
+Hanno [[spin]] pari ad $1/2$ o $3/2$. Sono un tipo di [[adrone|adroni]] e dunque agiscono per [[Interazioni fondamentali|interazione forte]]. Sono composti tra tre [[quark]].
