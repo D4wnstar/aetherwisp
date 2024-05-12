@@ -36,7 +36,7 @@ Cos'è $\left\langle x \right\rangle$? A causa del collasso dopo un'osservazione
 
 La funzione d'onda varia nel tempo. Allora, anche il valore di aspettazione dipende da $t$. Possiamo trovarne la derivata temporale
 $$\frac{d\left\langle x \right\rangle}{dt}=\int_{-\infty}^{+\infty}x \frac{\partial }{\partial t}|\Psi(x,t)|^{2}dx=\frac{i\hbar}{2m}\int_{-\infty}^{+\infty}x\frac{\partial }{\partial x}\left(\Psi^{*}\frac{\partial \Psi}{\partial x}-\frac{\partial \Psi^{*}}{\partial x}\Psi\right)dx=\ldots$$
-usando un'[[Integrazione per parti]] e usando che $\lim\limits_{x \rightarrow \pm\infty}\Psi(x,t)=0$
+usando un'[[integrazione per parti]] e usando che $\lim\limits_{x \rightarrow \pm\infty}\Psi(x,t)=0$
 $$\ldots=-\frac{i\hbar}{2m}\int_{-\infty}^{+\infty}\left(\Psi^{*}\frac{\partial \Psi}{\partial x}-\frac{\partial \Psi^{*}}{\partial x}\Psi\right)dx=\ldots$$
 e ancora un'integrazione per parti, su $\partial\Psi^{*}/\partial x$
 $$\ldots=- \frac{i\hbar}{m}\int_{-\infty}^{+\infty}\Psi^{*}\frac{\partial \Psi}{\partial x}dx$$
@@ -56,18 +56,18 @@ $$\boxed{\left\langle Q(q,p) \right\rangle=\int_{-\infty}^{+\infty}\Psi^{*}Q\lef
 ### Caso tridimensionale
 La funzione d'onda e le sue proprietà sono facilmente estese a tre dimensioni. Per una funzione d'onda in tre dimensioni $\Psi(\vec{r},t)$ valgono le stesse proprietà del caso unidimensionale. La normalizzazione è su un volume
 $$\int |\Psi(\vec{r},t)|^{2}d^{3}\vec{r}=1$$
-Se il potenziale è indipendente dal tempo, può essere comunque espressa in funzione degli stati stazionari e l'[[Evolutore]]
-$$\Psi_{n}(\vec{r},t)=\psi_{n}(\vec{r})\hat{U}_{t}=\psi_{n}(\vec{r})e^{-iE_{n}t/\hbar}$$
+Se il potenziale è indipendente dal tempo, può essere comunque espressa in funzione degli stati stazionari
+$$\Psi_{n}(\vec{r},t)=\psi_{n}(\vec{r})e^{-iE_{n}t/\hbar}$$
 dove gli stati stazionari $\psi_{n}$ sono la soluzione della forma indipendente dal tempo dell'equazione di Schrödinger e la soluzione generale è sempre
 $$\Psi_{n}(\vec{r},t)=\sum\limits_{n=1}^{\infty}c_{n}\psi_{n}(\vec{r})e^{-iE_{n}t/\hbar}$$
 Ovviamente se gli stati sono continui e non discreti, la somma diventa un integrale.
 ### Formalizzazione matematica
-Matematicamente, è un elemento di uno [[Spazio di Hilbert]] che è il coefficiente di sviluppo degli autostati di posizione di un oggetto. In altre parole, è la *rappresentazione* dell'evoluzione (della posizione) di quell'oggetto in una base. La funzione d'onda indipendente dal tempo in una dimensione ha la forma
+Matematicamente, è un elemento di uno [[spazio di Hilbert]] che è il coefficiente di sviluppo degli autostati di posizione di un oggetto. In altre parole, è la *rappresentazione* dell'evoluzione (della posizione) di quell'oggetto in una base. La funzione d'onda indipendente dal tempo in una dimensione ha la forma
 $$\psi(x)=\langle x|\psi\rangle$$
 $$\hat{P}_{x}|\psi\rangle=\sum\limits_{x}|x\rangle\langle x|\psi\rangle=\sum\limits_{x}\psi(x)|x\rangle$$
-usando il [[Proiettore]]. In più dimensioni
+usando il [[proiettore]]. In più dimensioni
 $$\psi(\bar{r})=\langle \bar{r}|\psi\rangle$$
 $$\hat{P}_{\vec{r}}|\psi\rangle=\sum\limits_{\bar{r}}|\bar{r}\rangle\langle \bar{r}|\psi\rangle=\sum\limits_{\bar{r}}\psi(\bar{r})|\bar{r}\rangle$$
 
 
-[^1]: L'esatta operazione da compiere è un [[Prodotto scalare]] tra $\Psi$ e l'operatore.
+[^1]: L'esatta operazione da compiere è un [[prodotto scalare]] tra $\Psi$ e l'operatore.

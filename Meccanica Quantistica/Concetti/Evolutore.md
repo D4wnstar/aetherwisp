@@ -5,7 +5,7 @@ $$|\psi_{t}\rangle=\hat{U}_{t}|\psi\rangle=\sum\limits_{i=1}^{\infty}e^{- \frac{
 o più in generale il valor medio di un'[[osservabile]] al tempo $t$
 $$\left\langle Q(t) \right\rangle=\langle \Psi(x,t)|\; \hat{Q}\; |\Psi(x,t)\rangle=\langle \Psi(x,0)|\;\hat{U}_{t}^{-1}\hat{Q}\hat{U}_{t}\;|\Psi(x,0)\rangle$$
 difatti si dimostra che, presa una [[funzione d'onda]] che risolve l'equazione di Schrödinger, vale
-$$\Psi(x,t+t_{0})=\Psi(x,t)e^{\frac{-i}{\hbar}\hat{H}t_{0}}=\Psi(x,t)\hat{U}_{t_{0}}$$
+$$\Psi(x,t+t_{0})=\Psi(x,t)e^{-\frac{i}{\hbar}\hat{H}t_{0}}=\Psi(x,t)\hat{U}_{t_{0}}$$
 
 È quindi possibile trovare l'evoluzione temporale di un valor medio sia lasciando che la funzione d'onda tenga la dipendenza temporale, sia lasciando che l'operatore dell'osservabile la tenga. La prima opzione si dice **Schrödinger picture**, mentre la seconda **Heisenberg picture**. Queste due forme sono equivalenti e la loro equivalenza viene detta [[dualità]].
 
