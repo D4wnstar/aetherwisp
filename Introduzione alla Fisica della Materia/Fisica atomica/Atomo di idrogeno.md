@@ -196,13 +196,13 @@ Possiamo anche normalizzare la funzione d'onda nel suo caso più generico. Così
 $$\boxed{\psi_{nlm}(r,\theta,\phi)=\sqrt{\left(\frac{2}{na_{0}}\right)^{3} \frac{(n-l-1)!}{2n[(n+l)!]^{3}}}e^{-r/na_{0}} \left(\frac{2r}{na_{0}}\right)^{l}\left[L_{n-l-1}^{2l+1}\left(\frac{2r}{na_{0}}\right)\right]Y_{l}^{m}(\theta,\phi)}$$
 Questa è una delle pochissime funzioni d'onda di casi realistici che possono essere risolte in forma chiusa. Le diverse funzioni d'onda sono fra loro [[Ortogonalità|ortogonali]]:
 $$\int \psi_{nlm}^{*}\psi_{n'l'm'}r^{2}\sin\theta dr d\theta d\phi=\delta_{nn'}\delta_{ll'}\delta_{mm'}$$
-usando la [[delta di Kronecker]]. Questo segue dall'ortogonalità delle armoniche sferiche e dal fatto che sono [[Equazione agli autovalori|autofunzioni]] di $H$ con autovalori distinti.
+usando la [[delta di Kronecker]]. Questo segue dall'ortogonalità delle armoniche sferiche e dal fatto che sono [[Equazione agli autovalori|autofunzioni]] di $\hat{H}$ con autovalori distinti.
 ### Transizioni
-Dato che gli [[Stato stazionario|stati stazionari]] sono ben noti, è possibile calcolare facilmente l'energia assorbita o emessa dall'elettrone durante una [[Transizione di stato]]. L'energia di transizione è
+Dato che gli [[Stato stazionario|stati stazionari]] sono ben noti, è possibile calcolare facilmente l'energia assorbita o emessa dall'elettrone durante una [[transizione di stato]]. L'energia di transizione è
 $$E_{\gamma}=E_{i}-E_{f}=-13.6\text{ eV }\left( \frac{1}{n_{i}^{2}}- \frac{1}{n_{f}^{2}}\right)$$
 dove $n_{i}$ e $n_{f}$ sono i numeri quantici principali degli stato di inizio e fine.
 
-Usando la [[Formula di Planck]] e il fatto che la lunghezza d'onda per un [[fotone]] sia $\lambda=c/\nu$, abbiamo anche
+Usando la [[formula di Planck]] e il fatto che la lunghezza d'onda per un [[fotone]] sia $\lambda=c/\nu$, abbiamo anche
 $$\frac{1}{\lambda}=R\left(\frac{1}{n^{2}_{f}}- \frac{1}{n_{i}^{2}}\right)$$
 dove $R$ è la [[costante di Rydberg]]. Questo risultato si dice **[[formula di Rydberg]]** per lo spettro dell'atomo di idrogeno.
 
