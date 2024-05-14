@@ -6,7 +6,7 @@ aliases:
   - operatore hermitiano
   - operatore simmetrico
 ---
-Un **operatore autoaggiunto** $T:H \rightarrow H'$ è un [[Operatore lineare]] che è pari al suo [[Operatore aggiunto|aggiunto]]. In simboli, vale
+Un **operatore autoaggiunto** $T:H \rightarrow H'$ è un [[operatore lineare]] che è pari al suo [[Operatore aggiunto|aggiunto]]. In simboli, vale
 $$T^{+}=T\tag{1}$$
 e il dominio di $T$ coincide con il dominio di $T^{+}$. Presi due vettori qualunque $x,y$ appartenenti al dominio di $T$, si ha dunque
 $$(x,Ty)=(Tx,y)\tag{2}$$
@@ -15,7 +15,7 @@ $$(x,Ty)=(Tx,y)\tag{2}$$
 Si definisce operatore **antiautoaggiunto** l'operatore che è uguale all'opposto del suo aggiunto
 $$T^{+}=-T$$
 ### Risultati utili
-Si dimostra che un operatore hermitiano il cui dominio è l'intero [[Spazio di Hilbert]] è limitato.
+Si dimostra che un operatore hermitiano il cui dominio è l'intero [[spazio di Hilbert]] è limitato.
 
 Si dimostra anche che gli [[Equazione agli autovalori|autovettori]] di un operatore autoaggiunto formano una [[base]] di $H$.
 
