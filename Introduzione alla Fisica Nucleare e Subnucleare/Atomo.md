@@ -1,3 +1,9 @@
+---
+aliases:
+  - numero atomico
+  - numero di massa atomica
+  - numero di neutroni
+---
 Un **atomo** è il più piccolo componente di un elemento chimico che non è divisibile tramite i metodi della chimica (acidi/basi, temperature corrispondenti a pochi [[elettronvolt]], etc.) (Haken & Wolf).
 
 L'atomo è costituito da due parti:
