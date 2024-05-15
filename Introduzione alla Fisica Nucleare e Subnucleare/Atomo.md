@@ -7,8 +7,8 @@ aliases:
 Un **atomo** è il più piccolo componente di un elemento chimico che non è divisibile tramite i metodi della chimica (acidi/basi, temperature corrispondenti a pochi [[elettronvolt]], etc.) (Haken & Wolf).
 
 L'atomo è costituito da due parti:
-1. il **[[nucleo atomico]]** sta al centro ed è composto da **[[Nucleone|nucleoni]]**, che si dividono in **[[protone|protoni]]** e **[[neutrone|neutroni]]**. È carico positivamente.
-2. gli **[[elettrone|elettroni]]** orbitano il nucleo. Sono carichi negativamente.
+1. il **[[nucleo atomico]]** sta al centro ed è composto da **[[Nucleone|nucleoni]]**, che si dividono in **[[protone|protoni]]** e **[[neutrone|neutroni]]**. È carico positivamente ed ha un raggio di circa $\sim10^{-13}$ cm.
+2. gli **[[elettrone|elettroni]]** orbitano il nucleo. Sono carichi negativamente. Il raggio dell'orbita degli elettroni dipende dal loro livello di energia, ma a grandi linee, il raggio dell'atomo è nell'ordine dei $\sim10^{-8}$ cm.
 La forma "planetaria" dell'atomo è stata provata con l'[[esperimento di Rutherford]].
 
 Gli atomi si rappresentano convenzionalmente con $_{Z}^{A}X_{N}$, dove:
