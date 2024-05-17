@@ -1,1 +1,1 @@
-Si dicono **isotopi** di un elemento i nuclidi dell'elemento con numero di protoni $Z$ uguale.
+Due [[Nuclide|nuclidi]] si dicono **isotopi** se hanno numero di [[protone|protoni]] $Z$ uguale, ma numero di [[neutrone|neutroni]] $N$ diverso. Per esempio, il cloro ha due isotopi stabili $^{35}\text{Cl}$ e $^{37}\text{Cl}$ e numerosi isotopi instabili.

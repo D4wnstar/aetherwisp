@@ -1,5 +1,5 @@
 ### Formulazione semiclassica
-La formulazione semiclassica dell'interazione tra radiazione e materia usa campi classici e [[atomo|atomi]] quantistici, trascurando il feedback dell'atomo sul campo.
+La formulazione semiclassica dell'interazione tra radiazione e materia usa campi classici e [[Atomo|atomi]] quantistici, trascurando il feedback dell'atomo sul campo.
 
 Partiamo dalla [[forza di Lorentz]]
 $$\vec{F}=q(\vec{E}+\vec{v}\times\vec{B})$$

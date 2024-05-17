@@ -2,7 +2,7 @@
 aliases:
   - stranezza
 ---
-Una **particella strana** è una [[particella]] che presenta caratteristiche anomale: è generata con [[Sezione d'urto|sezioni d'urto]] caratteristiche dell'[[Interazioni fondamentali|interazione forte]], ma [[Decadimento|decade]] con tempi di vita caratteristici dell'[[Interazioni fondamentali|interazione debole]]. Queste proprietà sono collettivamente conosciute come la *stranezza* di una particella, rappresentata dal [[numero quantico]] di stranezza $S$. I [[kaone|kaoni]] sono particelle con stranezza non-zero.
+Una **particella strana** è una [[particella]] che presenta caratteristiche anomale: è generata con [[Sezione d'urto|sezioni d'urto]] caratteristiche dell'[[Interazione fondamentale|interazione forte]], ma [[Decadimento|decade]] con tempi di vita caratteristici dell'[[Interazione fondamentale|interazione debole]]. Queste proprietà sono collettivamente conosciute come la *stranezza* di una particella, rappresentata dal [[numero quantico]] di stranezza $S$. I [[kaone|kaoni]] sono particelle con stranezza non-zero.
 
 La stranezza di una particella è conservata da interazioni forti, ma violata da interazioni deboli.
 

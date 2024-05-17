@@ -1,5 +1,7 @@
 L'**energia di legame** $B(Z,A)$ è l'energia necessaria per rimuovere una [[particella]] da un sistema legato, come per esempio un [[atomo]] e i suoi [[elettrone|elettroni]]. In fisica nucleare, si preferisce il termine **energia di separazione** quando si parla di rimuovere [[Nucleone|nucleoni]] dal [[Nucleo atomico|nucleo]].
 
+È definita come la differenza tra la massa dei singoli costituenti del sistema e la massa del sistema, moltiplicata per $c^{2}$. La differenza tra la massa del sistema legato e i suoi costituenti viene anche detta **difetto di massa**.
+
 È conveniente esprimere l'energia di legame in funzione delle masse atomiche, in quanto sono misurabili sperimentalmente con grande precisione ($\sim10^{-6}$) usando la spettroscopia di massa. Allora abbiamo
 $$B(Z,A)=[Zm(^{1}H)+Nm_{n}-m(A,Z)]c^{2}$$
 dove $m_{n}$ è la massa del neutrone e $m=m_{e}+m_{p}$, con $m_{e}$ la massa dell'elettrone. Possiamo riscrivere $B$ come
