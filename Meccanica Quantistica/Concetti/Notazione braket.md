@@ -16,11 +16,11 @@ e identifica un prodotto matriciale
 $$\mathbf{\hat{A}\psi}\equiv \hat{A}|\psi\rangle = \pmatrix{A_{11} & A_{12} & \ldots & A_{1N} \\ A_{21} & \ddots &  & \vdots \\ \vdots & & \ddots & \vdots \\ A_{N1} & \ldots & \ldots & A_{NN}} \pmatrix{\psi_{1} \\ \psi_{2} \\ \vdots \\ \psi_{N}}$$
 L'insieme di tutti i bra costituisce lo [[spazio duale]] di $C^{N}$ e quindi i bra possono essere usati con proprietà particolari.
 ### Dimensione infinita
-Prendo una funzione $f$ in uno [[Spazio di Hilbert]] $\mathcal{H}$. Allora chiamo **bra** la funzione lineare $|f\rangle$ e **ket** il vettore infinito-dimensionale $|v\rangle$.
+Prendo una funzione $f$ in uno [[spazio di Hilbert]] $\mathcal{H}$. Allora chiamo **bra** la funzione lineare $|f\rangle$ e **ket** il vettore infinito-dimensionale $|v\rangle$.
 $$\langle f|=\int f^{*} (\ldots)\quad ; \quad |v\rangle=(v_{1},v_{2},\ldots)$$
 e $\langle f|$ può essere come un'istruzione ad integrare su un certo vettore rappresentato da un ket.
 
 
 ---
 
-La rappresentazione come vettore riga/colonna e come prodotto matriciale sussiste in spazi a dimensione finita, ma è facilmente estensibile, perlomeno intuitivamente, a spazi di dimensione infinita. Lo stesso vale nel caso, onnipresente in meccanica quantistica, dove i vettori in realtà sono funzioni $|f\rangle$ e per i quali la notazione vettoriale (rappresentante le componenti in [[Serie di Fourier]]) sarebbe scomoda.
+La rappresentazione come vettore riga/colonna e come prodotto matriciale sussiste in spazi a dimensione finita, ma è facilmente estensibile, perlomeno intuitivamente, a spazi di dimensione infinita. Lo stesso vale nel caso, onnipresente in meccanica quantistica, dove i vettori in realtà sono funzioni $|f\rangle$ e per i quali la notazione vettoriale (rappresentante le componenti in [[serie di Fourier]]) sarebbe scomoda.

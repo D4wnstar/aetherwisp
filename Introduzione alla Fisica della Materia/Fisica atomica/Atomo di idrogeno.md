@@ -6,7 +6,7 @@ dove $M$ è la massa del nucleo, $m$ la masse dell'[[elettrone]], $Z$ è il nume
 
 ![[Schema modello idrogeno|center]]
 
-Si nota che l'Hamiltoniana non dipende esplicitamente dallo [[Spin]] dell'elettrone. La [[Funzione d'onda]] è esprimibile come prodotto della componente spaziale e di spin
+Si nota che l'Hamiltoniana non dipende esplicitamente dallo [[spin]] dell'elettrone. La [[Funzione d'onda]] è esprimibile come prodotto della componente spaziale e di spin
 $$\psi(q)=\chi_{s,m_{s}}\psi(r)$$
 dove $\chi_{ms}$ sono gli autostati dell'[[operatore]] $S_{z}$ ed $S^{2}$ con autovalori $s=1/2$ e $m_{s}=\pm1/2$. Cerchiamo questi autostati.
 
@@ -30,7 +30,7 @@ $$S^{2}\beta=\frac{3}{4}\hbar^{2}\beta\quad;\quad S_{z}\beta=-\frac{\hbar}{2}\be
 Quindi per sovrapposizione degli [[Stato|stati]]
 $$\chi=\chi_{+}\alpha+\chi_{-}\beta\quad;\quad|\chi_{+}|^{2}+|\chi_{-}|^{2}=1$$
 $$\langle \alpha|\alpha\rangle=1\quad;\quad \langle \beta|\beta\rangle=1\quad; \quad \langle \alpha|\beta\rangle=\langle \beta|\alpha\rangle=0$$
-Usando le [[Matrici di Pauli]]
+Usando le [[matrici di Pauli]]
 $$S^{2}=\frac{3}{4}\hbar^{2}\pmatrix{1 & 0 \\ 0 & 1}$$
 $$S_{x}=\frac{\hbar}{2}\pmatrix{0 & 1 \\ 1 & 0}=\frac{\hbar}{2}\sigma_{x}\quad;\quad S_{y}=\frac{\hbar}{2}\pmatrix{0 & -i \\ i & 0}=\frac{\hbar}{2}\sigma_{y}\quad;\quad S_{z}=\frac{\hbar}{2}\pmatrix{1 & 0 \\ 0 & -1}=\frac{\hbar}{2}\sigma_{z}$$
 Possiamo scrivere la soluzione dell'[[Equazione di Schrödinger]] in coordinate polari come
@@ -84,7 +84,7 @@ Gli autovalori di energia possono essere espressi come
 $$E_{n}=-R(\mu) \frac{Z^{2}}{n^{2}}=- \frac{\mu}{m}R_{\infty} \frac{Z^{2}}{n^{2}}$$
 dove $R_{\infty}$ è la [[costante di Rydberg]]. Si nota che sono presenti stati discreti infiniti e che si infittiscono per $n \rightarrow \infty$ quando il potenziale Coulombiano tende a zero. Gli stati risultano degeneri in $l$ ed $m$. La degenerazione dei livelli è data da
 $$d=\underbrace{2}\limits_{m_{s}}\sum\limits_{l=0}^{n-1}\underbrace{2l+1}\limits_{m}=2n^{2}$$
-che racchiude tutti i numeri quantici: abbiamo che $l$ varia da $0$ a $n-1$, per ogni $l$ sono possibili $2l+1$ valori di $m$ e tutto è possibile per entrambi i numeri di [[Spin]] $m_{s}=\pm\frac{1}{2}$.
+che racchiude tutti i numeri quantici: abbiamo che $l$ varia da $0$ a $n-1$, per ogni $l$ sono possibili $2l+1$ valori di $m$ e tutto è possibile per entrambi i numeri di [[spin]] $m_{s}=\pm\frac{1}{2}$.
 ### Trattamento di Griffiths
 Anzitutto, determiniamo il [[potenziale]]. Dalla [[legge di Coulomb]] abbiamo il potenziale (in unita SI)
 $$V(r)=- \frac{e^{2}}{4\pi\epsilon_{0}} \frac{1}{r}$$

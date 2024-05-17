@@ -1,6 +1,6 @@
 La meccanica quantistica è sostanzialmente un'applicazione dell'algebra lineare a dimensioni infinita e della teoria degli [[Operatore|operatori]]. Si usa quindi una certa notazione che porta a semplificare la parte grafica della matematica necessaria per i calcoli.
 
-La [[Notazione braket]] è la base su cui si costruisce tutta la meccanica quantistica. Serve a rappresentare vettori e funzioni, finiti o infiniti, assieme ai loro [[Prodotto scalare|prodotti scalari]] in modo conciso.
+La [[notazione braket]] è la base su cui si costruisce tutta la meccanica quantistica. Serve a rappresentare vettori e funzioni, finiti o infiniti, assieme ai loro [[Prodotto scalare|prodotti scalari]] in modo conciso.
 
 Le [[Osservabile|osservabili]] sono proprietà di un oggetto quantistico che possono essere misurate. Queste sono rappresentate come variabili nel senso classico. In particolare, si usano le convenzioni della meccanica razionale e in particolare quella [[Hamiltoniana]]:
 - la posizione generalizzata è rappresentata con una $q$ (o $\vec{q}$ o $\vec{r}$ in più dimensioni)
@@ -14,7 +14,7 @@ con $*$ il coniugato complesso
 
 Dato che la meccanica quantistica è una teoria statistica, è comune cercare il valore di aspettazione di un'osservabile. In notazione braket, il valor medio di un'osservabile in uno stato $\Psi$ è
 $$\left\langle Q \right\rangle_{\Psi}=\langle \Psi|\hat{Q}|\Psi\rangle$$
-dove $\Psi$ è formalmente una qualunque funzione [[Spazi Lp#Spazio $L {2}$|L^2]], ma quasi sempre una [[Funzione d'onda]].
+dove $\Psi$ è formalmente una qualunque funzione [[Spazi Lp#Spazio $L {2}$|L^2]], ma quasi sempre una [[funzione d'onda]].
 
 Gli operatori autoaggiunti più comuni sono l'operatore posizione $\hat{q}$, quantità di moto $\hat{p}$ e Hamiltoniana $\hat{H}$, che hanno la forma
 $$\hat{q}\equiv q, \quad \hat{p}\equiv \frac{\hbar}{i} \frac{\partial }{\partial x}, \quad \hat{H}\equiv - \frac{\hbar^{2}}{2m} \frac{d^{2}}{dx^{2}} + V(x)$$

@@ -34,7 +34,7 @@ $$\rho= \frac{\langle N \rangle}{V}=\sum\limits_{\alpha} \frac{\langle n_{\alpha
 ## Proprietà a temperature prossime a 0
 Vogliamo trovare una relazione tra lo [[stato fondamentale]] del sistema e le proprietà di meccanica statistica nel caso di temperature che tendono allo zero. Ci aspettiamo che convergano. Partiamo dall'[[Potenziali termodinamici#Energia libera di Helmholtz|energia libera di Helmholzt]].
 $$A(N,T,V)=E(N,T,V)-TS(N,T,V)\quad T \rightarrow 0$$
-Consideriamo lo stato fondamentale per i [[Bosone]] con [[Spin]] 0. Abbiamo $\alpha = \bar{p}$. Supponiamo di avere $N$ particelle. Descriviamo l'energia come
+Consideriamo lo stato fondamentale per i [[Bosone]] con [[spin]] 0. Abbiamo $\alpha = \bar{p}$. Supponiamo di avere $N$ particelle. Descriviamo l'energia come
 $$E=\sum\limits_{\bar{p}}n_{p}\epsilon_{p}$$
 dove c'è il vincolo che $\sum n_{p}=n$. In questo caso, $e_{p}=p^{2}/2m$ e $\bar{p}=\frac{h}{L}(n_{x},n_{y},n_{z})$.
 Cerchiamo la densità

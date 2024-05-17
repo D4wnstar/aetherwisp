@@ -27,4 +27,4 @@ Il termine $\frac{e^{2}}{2m}\vec{A}^{2}$ è trascurabile. Scrivendo l'equazione 
 $$i\hbar \frac{\partial }{\partial t}\Psi(\vec{r}, t)=H(t)\Psi(\vec{r},t)$$
 la cui soluzione più generale è
 $$\Psi(\vec{r},t)=\sum\limits_{k}C_{k}(t)\Psi_{k}(\vec{r})e^{-i \frac{E_{k}t}{\hbar}}$$
-con $C_{k}$ l'[[Evolutore]].
+con $C_{k}$ l'[[evolutore]].

@@ -35,4 +35,4 @@ $$\partial_{t}e^{- \frac{i}{\hbar}\hat{H}t}=- \frac{i}{\hbar}\hat{H}\sum\limits_
 $$=- \frac{i}{\hbar}\hat{H}\sum\limits_{p=0}^{\infty}\left( - \frac{i}{\hbar} \right)^{p} \frac{t^{p}}{p!}H^{p}$$
 Quindi troviamo che
 $$\hat{H}=\sum\limits_{i=1}^{\infty}E_{i} |E_{i}\rangle\langle E_{i}|$$
-dove $E_{i}$ sono le autofunzioni dell'Hamiltoniana. Dunque se riusciamo a trovare queste autofunzioni riusciamo a trovare esattamente l'evoluzione del sistema. Da qui possiamo definire l'[[Evolutore]], che ci dà la descrizione dell'evoluzione temporale di un sistema quantistico.
+dove $E_{i}$ sono le autofunzioni dell'Hamiltoniana. Dunque se riusciamo a trovare queste autofunzioni riusciamo a trovare esattamente l'evoluzione del sistema. Da qui possiamo definire l'[[evolutore]], che ci dà la descrizione dell'evoluzione temporale di un sistema quantistico.
