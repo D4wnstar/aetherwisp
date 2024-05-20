@@ -1,6 +1,8 @@
 ---
 aliases:
   - percorso residuo
+  - picco di Bragg
+  - range straggling
 ---
 In fisica delle particelle e dei rivelatori, il **range** o **percorso (medio) residuo** $R$ di una [[particella]] in un certo mezzo è la distanza che questa può percorrere prima di perdere tutta la sua energia. È definito come
 $$R(E)=\int_{0}^{R}dx=\int_{E_{0}}^{0} \frac{dE}{dE/dx}$$

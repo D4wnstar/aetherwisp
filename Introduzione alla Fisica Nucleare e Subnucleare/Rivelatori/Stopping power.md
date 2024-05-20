@@ -1,6 +1,7 @@
 ---
 aliases:
   - formula di Bethe-Bloch
+  - energy straggling
 ---
 Lo **stopping power** $S$ è la capacità di un materiale di rallentare una [[particella]] che ci passa attraverso mediante l'interazione con la materia, diminuendo la sua energia. Matematicamente, è la media della diminuzione di energia $E$ della particella per unità di spazio $x$, inteso come lo spazio occupato da materia entro il quale passa la particella:
 $$S(E)=- \left\langle\frac{dE}{dx}\right\rangle$$
@@ -53,7 +54,7 @@ L'andamento della perdita di energia per radiazione va come
 ![[Grafico Stopping power e radiazione|80%|center]]
 dove $E_{C}$ è l'energia critica alla quale la perdita per collisione e radiazione è uguale.
 
-$L_{R}$ è il
+$L_{R}$ è il [[range]] di lunghezza d'onda.
 
 
 [^1]: Dato che si tratta di un prodotto, il logaritmo in sé non può essere trascurato (bisognerebbe avere una somma). È però possibile trascurare la variazione del logaritmo e quindi rimanere con una costante.
