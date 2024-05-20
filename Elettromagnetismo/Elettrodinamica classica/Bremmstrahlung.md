@@ -1,0 +1,1 @@
+Il **bremmstrahlung** o **radiazione di frenamento** è l'emissione di radiazione da parte di una [[particella]] carica causata dalla sua decelerazione.
