@@ -19,7 +19,7 @@ dove si usano i [[Notazione braket|ket]] per ricordare che gli autostati dello s
 $$S_{\pm}|sm\rangle=\hbar\sqrt{s(s+1)-m(m\pm1)}|s(m\pm1)\rangle$$
 con $S_{\pm}=S_{x}\pm iS_{y}$. In questo caso le autofunzioni non sono le [[armoniche sferiche]] (di fatto, non c'è neanche una dipendenza da $\theta$ e $\phi$) e non c'è alcuna ragione per escludere valori di mezzo intero per $s$ e $m_{s}$, che possono quindi avere valori
 $$s=0,\frac{1}{2},1,\frac{3}{2},\ldots; \quad m_{s}=-s,-s+1,\ldots,0,\ldots,s-1,s$$
-$s$ è detto il **[[numero quantico]] di spin** e si trova che ogni singola particella elementare ha un valore costante e immutabile di $s$, che si dice essere lo spin della particella. Questo è diverso dal momento orbitale, che invece dipende dallo [[Stato]] in cui si trova la particella.
+$s$ è detto il **[[numero quantico]] di spin** e si trova che ogni singola particella elementare ha un valore costante e immutabile di $s$, che si dice essere lo spin della particella. Questo è diverso dal momento orbitale, che invece dipende dallo [[stato]] in cui si trova la particella.
 ### Spin 1/2
 Il caso dello spin $s=1/2$ è di gran lunga il più importante, dato che tutte le particelle che compongono la materia ordinaria ([[protone]], [[neutrone]], [[elettrone]]) hanno spin 1/2, così come tutti i [[quark]] e tutti i [[Leptone|leptoni]].
 
@@ -107,7 +107,9 @@ e
 $$S^{2}|00\rangle=\left(\frac{3\hbar^{2}}{4}+ \frac{3\hbar^{2}}{4} - 2 \frac{3\hbar^{2}}{4}\right)|00\rangle=0$$
 Allora $|10\rangle$ è effettivamente un autovettore di $S^{2}$ con autovalore $2\hbar^{2}$ e $|00\rangle$ è autovettore con autovalore 0, che era ciò che cercavamo. Si dimostra allo stesso modo che $|11\rangle$ e $|1-1\rangle$ sono autovettori con autovalore $2\hbar^{2}$. Conclusione: un sistema di due particelle con spin 1/2 genera un sistema con spin 1 o 0.
 
-Questo è un caso specifico di un problema generale: combinando due particelle con spin $s_{1}$ e $s_{2}$, quali sono gli spin permessi al sistema composito? Si dimostra che la risposta è "**qualunque spin tra $|s_{1}-s_{2}|$ e $s_{1}+s_{2}$, in passi interi**". Lo spin più basso, $|s_{1}-s_{2}|$, accade quando tutti gli spin sono antiparalleli, mentre quello più alto, $s_{1}+s_{2}$, quando sono tutti paralleli.
+Questo è un caso specifico di un problema generale: combinando due particelle con spin $s_{1}$ e $s_{2}$, quali sono gli spin permessi al sistema composito? 
+
+> **Risultato.** Un sistema composto da due particelle con spin $s_{1}$ e $s_{2}$ può avere qualunque spin tra $|s_{1}-s_{2}|$ e $s_{1}+s_{2}$, in passi interi. Lo spin più basso, $|s_{1}-s_{2}|$, accade quando tutti gli spin sono antiparalleli, mentre quello più alto, $s_{1}+s_{2}$, quando sono tutti paralleli.
 
 Lo stato combinato $|sm\rangle$ con spin totale $s$ e componente $z$ $m$ sarà una combinazione lineare degli stati compositi $|s_{1}m_{1}\rangle |s_{2},m_{2}\rangle$:
 $$|sm\rangle=\sum\limits_{m_{1}+m_{2}=m}C_{m_{1}m_{2}m}^{s_{1}s_{2}s}|s_{1}m_{1}\rangle |s_{2}m_{2}\rangle$$

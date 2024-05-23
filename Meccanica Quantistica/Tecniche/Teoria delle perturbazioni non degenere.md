@@ -53,7 +53,7 @@ $$(E_{l}^{0}-E_{n}^{0})c_{l}^{(n)}=-\langle \psi_{l}^{0}|H'|\psi_{n}^{0}\rangle$
 da cui (rinominando $l$ a $m$)
 $$c_{m}^{(n)}=\frac{\langle \psi_{m}^{0}|H'|\psi_{n}^{0}\rangle}{E_{n}^{0}-E_{m}^{0}}$$
 e quindi
-$$\boxed{\psi_{n}^{1}=\sum\limits_{m\neq n} \frac{\langle \psi_{m}|H'|\psi_{n}^{0}\rangle}{E_{n}^{0}-E_{m}^{0}}\psi_{m}^{0}}$$
+$$\boxed{\psi_{n}^{1}=\sum\limits_{m\neq n} \frac{\langle \psi_{m}^{0}|H'|\psi_{n}^{0}\rangle}{E_{n}^{0}-E_{m}^{0}}\psi_{m}^{0}}$$
 Questa equazione ci dà la correzione di primo ordine alla funzione d'onda. C'è un dettaglio importante: è valida solo se lo [[spettro]] di energia non perturbato è *non degenere*. Se fosse degenere, dovremmo dividere per zero per ottenere l'espressione per i coefficienti. Infatti, qui stiamo supponendo che $E_{n}^{0}\neq E_{m}^{0}$ per ogni $n$, $m$, che è equivalente a chiedere la non degenerazione.
 ##### Perturbazione costante
 Consideriamo una perturbazione costante del tipo

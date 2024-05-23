@@ -2,7 +2,7 @@
 aliases:
   - prodotto hermitiano
 ---
-Si denota $(v,w)$, $v\cdot w$ o $\langle v|w \rangle$ (in [[Notazione braket]]) il **prodotto scalare** tra due variabili $v$ e $w$ appartenenti ad uno [[spazio vettoriale]]. Se le variabili $v$ e $w$ sono complesse, si dice anche **prodotto hermitiano**.
+Si denota $(v,w)$, $v\cdot w$ o $\langle v|w \rangle$ (in [[notazione braket]]) il **prodotto scalare** tra due variabili $v$ e $w$ appartenenti ad uno [[spazio vettoriale]]. Se le variabili $v$ e $w$ sono complesse, si dice anche **prodotto hermitiano**.
 
 In spazi vettoriali a dimensione finita, come $\mathbb{R}^{N}$ o $\mathbb{C}^{N}$, il prodotto scalare è definito come una somma di prodotti delle componenti dei vettori. Siano $v,w$ due vettori dello spazio, allora il prodotto scalare tra i due è
 $$\langle v|w\rangle=\sum\limits_{i=0}^{N}v_{i}w_{i}$$

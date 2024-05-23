@@ -12,21 +12,25 @@ da cui otteniamo la nota [[Hamiltoniana]] dell'oscillatore armonico
 $$H=\frac{1}{2m}[p^{2}+(m\omega x)^{2}]$$
 L'idea è fattorizzare l'Hamiltoniana usando
 $$z^{2}+w^{2}=(iz+w)(-iz+w)$$
-ma bisogna fare particolare attenzione, dato che $x$ e $p$ *non* sono numeri, bensì operatori, e perché la precedente equazione sia vera bisogna che valga la commutatività. Per il prodotto tra scalari è garantita, ma per due operatori in genere no, nel senso che $xp\neq px$. Detto ciò, possiamo comunque analizzare le seguenti quantità
+ma bisogna fare particolare attenzione, dato che $x$ e $p$ *non* sono numeri, bensì operatori, e perché la precedente equazione sia vera bisogna che valga la commutatività. Per il prodotto tra scalari è garantita, ma per due operatori in genere no, nel senso che non sempre $xp\neq px$. Detto ciò, possiamo comunque analizzare le seguenti quantità
 $$a_{\pm}\equiv \frac{1}{\sqrt{2\hbar m\omega}}(\mp ip+m\omega x)$$
 Il fattore di scala iniziale è solo per comodità. Controlliamo il prodotto $a_{-}a_{+}$:
-$$a_{+}a_{-}=\frac{1}{2\hbar m \omega}(-ip+m\omega x)(ip+m\omega x)=\frac{1}{2\hbar m\omega}[p^{2}+(m\omega x)^{2}-im\omega(xp-px)]$$
+$$a_{-}a_{+}=\frac{1}{2\hbar m \omega}(-ip+m\omega x)(ip+m\omega x)=\frac{1}{2\hbar m\omega}[p^{2}+(m\omega x)^{2}-im\omega(xp-px)]$$
 dove ritroviamo il [[commutatore]] di $x$ e $p$ al terzo termine nelle parentesi. Estraendo l'ultimo termine e esplicitando il commutatore otteniamo
-$$a_{+}a_{-}=\frac{1}{2\hbar m\omega}[p^{2}+(m\omega x)^{2}] - \frac{i}{2\hbar}[x,p]\tag{2}$$
+$$a_{-}a_{+}=\frac{1}{2\hbar m\omega}[p^{2}+(m\omega x)^{2}] - \frac{i}{2\hbar}[x,p]\tag{2}$$
 Calcoliamo allora il commutatore tra $x$ e $p$, aggiungendo una funzione di test dato che sono operatori:
 $$[x,p]\varphi(x)=\left[x \frac{\hbar}{i} \frac{d\varphi}{dx}- \frac{\hbar}{i} \frac{d}{dx} (x\varphi)\right]=\frac{\hbar}{i}\left(x \frac{d\varphi}{dx}-x \frac{d\varphi}{dx}-\varphi\right)=i\hbar\varphi$$
 da cui si trova la relazione commutativa canonica
 $$\boxed{[x,p]=i\hbar}$$
 Tornando alla $(2)$, abbiamo
+$$a_{-}a_{+}=\frac{1}{\hbar \omega}H+ \frac{1}{2}$$
+Riconoscendo che $[a_{-},a_{+}]=1$, possiamo esprimere l'Hamiltoniana come
+$$H=\hbar\omega\left(a_{-}a_{+}- \frac{1}{2}\right)$$
+Possiamo rifare lo stesso percorso usando $a_{+}a_{-}$ anziché $a_{-}a_{+}$ e troviamo
 $$a_{+}a_{-}=\frac{1}{\hbar \omega}H- \frac{1}{2}$$
-Riconoscendo che $[a_{+},a_{-}]=1$, possiamo esprimere l'Hamiltoniana come
+e quindi
 $$H=\hbar\omega\left(a_{+}a_{-}+ \frac{1}{2}\right)$$
-che possiamo sostituire nell'equazione di Schrödinger
+che possiamo combinare con l'altra soluzione per sostituire nell'equazione di Schrödinger
 $$\hbar\omega\left(a_{\pm}a_{\mp}\pm \frac{1}{2}\right)\psi=E\psi\tag{3}$$
 Si dimostra[^1] che se $\psi$ soddisfa l'equazione di Schrödinger per l'energia $E$, allora $(a_{+}\psi)$ soddisfa l'equazione per energia $E+\hbar\omega$. Allo stesso modo, $(a_{-}\psi)$ soddisfa l'equazione per $E-\hbar\omega$. Gli operatori $a_{\pm}$ sono detti [[operatori di creazione e distruzione|operatori scaletta]] e permettono di aumentare e diminuire lo stato di energia.
 
@@ -42,13 +46,13 @@ quindi la funzione d'onda spaziale dello stato fondamentale è
 $$\boxed{\psi_{0}(x)=\left(\frac{m\omega}{2\hbar}\right)^{1/4}e^{-(m\omega/2\hbar)x^{2}}}$$
 Possiamo determinarne l'energia sostituendola nell'equazione di Schrödinger $(3)$:
 $$\hbar\omega\left(a_{\pm}a_{\mp}\pm \frac{1}{2}\right)\psi_{0}=E_{0}\psi_{0} \quad \rightarrow \quad E_{0}=\frac{1}{2}\hbar \omega$$
-Ora che abbiamo una base, trovare gli altri stati è banale: basta applicare l'operatore di salita a catena per trovare l'$n$-esimo stato eccitato, aumentando l'energia di $\hbar\omega$ ogni salto. Abbiamo quindi trovato due cose: l'equazione d'onda spaziale di tutti gli stati dell'oscillatore armonico quantistico e tutte le energie permesse a loro associate:
+(sfruttando che $a_{-}\psi_{0}=0$). Ora che abbiamo una base, trovare gli altri stati è banale: basta applicare l'operatore di salita a catena per trovare l'$n$-esimo stato eccitato, aumentando l'energia di $\hbar\omega$ ogni salto. Abbiamo quindi trovato due cose: l'equazione d'onda spaziale di tutti gli stati dell'oscillatore armonico quantistico e tutte le energie permesse a loro associate:
 $$\psi_{n}(x)=A_{n}(a_{+})^{n}\psi_{0}(x)\quad\text{con}\quad E_{n}=\left(n+ \frac{1}{2}\right)\hbar\omega$$
 con $A_{n}$ la costante di normalizzazione dell'$n$-esimo stato.
 
 In realtà è anche possibile derivare le costanti $A_{n}$ algebricamente, usando gli operatori scaletta. Consideriamo il fatto che i due operatori scaletta sono l'[[Operatore aggiunto|aggiunto]] l'un dell'altro, quindi $(\psi,a_{\pm}\varphi,a_{\mp}\psi,\varphi)$, usando il [[Prodotto scalare|prodotto hermitiano]] $\langle \cdot|\cdot\rangle$. Sappiamo che $a_{\pm}\psi_{n}$ è proporzionale a $\psi_{n+1}$ tramite le relazioni
 $$a_{+}\psi_{n}=c_{n}\psi_{n+1}, \quad a_{-}\psi_{n}=d_{n}\psi_{n-1}\tag{4}$$
-Vogliano conoscere le costanti $c_{n}$ e $d_{n}$. Vale
+Vogliamo conoscere le costanti $c_{n}$ e $d_{n}$. Vale
 $$\langle a_{\pm}\psi_{n}|a_{\pm}\psi_{n}\rangle=\langle a_{\mp}a_{\pm}\psi_{n}|\psi_{n}\rangle$$
 Ma sappiamo che $a_{+}a_{-}\psi_{n}=n\psi_{n}$ e $a_{-}a_{+}\psi_{n}=(n+1)\psi_{n}$, da cui
 $$\langle a_{+}a_{-}\psi_{n}|\psi_{n}\rangle=\langle n\psi_{n}|\psi_{n}\rangle=n\int_{-\infty}^{+\infty}|\psi_{n}|^{2}dx$$
