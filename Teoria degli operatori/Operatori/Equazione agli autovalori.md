@@ -4,10 +4,20 @@ aliases:
   - autovettore
   - autofunzione
   - autostato
+  - autospazio
+  - polinomio caratteristico
+  - equazione caratteristica
+  - autoket
 ---
 Sia $T:H \rightarrow H$ un [[operatore lineare]] su uno [[spazio di Hilbert]]. L'**equazione agli autovalori** associata all'operatore $T$ di dominio $D$ è
 $$Tx=\lambda x;\quad \lambda\in\mathbb{C},\quad x\neq0\in D$$
-dove $\lambda$ è l'**autovalore** e $x$ è l'**autovettore**. Nel caso di spazi di funzioni, si ha $Tf=\lambda f$ e $f$ si dice **autofunzione**. Talvolta, se $x$ rappresenta lo [[stato]] del sistema, come spesso accade in meccanica quantistica, si dice anche **autostato**.
+dove $\lambda$ è l'**autovalore** e $x$ è l'**autovettore**. Nel caso di spazi di funzioni, si scrive di solito $Tf=\lambda f$ e $f$ si dice invece **autofunzione**. Se $x$ rappresenta lo [[stato]] di un sistema, come spesso accade in meccanica quantistica, si dice anche **autostato** o **autoket**. A ciascun autovalore è associato uno [[spazio vettoriale]] detto **autospazio** generato da una [[base]] costituita dal suo autovettore. È possibile che più autovettori condividano lo stesso autovalore: in questi casi si dice che sono **[[Degenerazione|degeneri]]** e l'autospazio associato a quell'autovalore ha dimensione pari al suo grado di degenerazione, e la sua base diventa costituita da tutti gli autovettori degeneri.
+### Soluzione
+Un'equazione agli autovalori può essere risolta risolvendo il cosiddetto **polinomio caratteristico** definito come
+$$P[\lambda]=\det(\mathbb{1}\lambda-T)\equiv \det(T-\mathbb{1}\lambda)$$
+dove $\mathbb{1}$ è l'operatore identità. Le due forme non sono uguali, ma hanno le stesse radici. Le radici di questo polinomio sono gli autovalori di $T$, quindi bisogna risolvere l'**equazione caratteristica**
+$$\det(\mathbb{1}\lambda-T)=0$$
+Una volta trovati gli autovalori, è possibile trovare gli autovettori semplicemente sostituendoli nell'equazione originale e risolvendola.
 ### Dimensione infinita
 In dimensione infinita è impossibile fare una constatazione generale sull'esistenza degli autovettori. Ciò non dipende nemmeno dalla limitatezza dell'operatore. Vale comunque il seguente teorema: se $T$ è [[Operatore autoaggiunto|simmetrico]] e possiede qualche autovalore, allora
 1. gli autovalori sono reali

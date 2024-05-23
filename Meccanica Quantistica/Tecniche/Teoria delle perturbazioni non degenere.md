@@ -50,8 +50,8 @@ e compiendo il prodotto scalare con $\psi_{l}^{0}$ abbiamo
 $$\sum\limits_{m\neq n}(E_{m}^{0}-E_{n}^{0})c_{m}^{(n)}\langle \psi_{l}^{0}|\psi_{m}^{0}\rangle=-\langle \psi_{l}^{0}|H'|\psi_{n}^{0}\rangle+E_{n}^{1}\langle \psi_{l}^{0}|\psi_{n}^{0}\rangle$$
 Per $l=n$ il membro sinistro è nullo e riotteniamo la correzione di primo ordine di energia. Nel caso $l\neq n$ abbiamo
 $$(E_{l}^{0}-E_{n}^{0})c_{l}^{(n)}=-\langle \psi_{l}^{0}|H'|\psi_{n}^{0}\rangle$$
-da cui
-$$c_{l}^{(n)}=\frac{\langle \psi_{m}^{0}|H'|\psi_{n}^{0}\rangle}{E_{n}^{0}-E_{m}^{0}}$$
+da cui (rinominando $l$ a $m$)
+$$c_{m}^{(n)}=\frac{\langle \psi_{m}^{0}|H'|\psi_{n}^{0}\rangle}{E_{n}^{0}-E_{m}^{0}}$$
 e quindi
 $$\boxed{\psi_{n}^{1}=\sum\limits_{m\neq n} \frac{\langle \psi_{m}|H'|\psi_{n}^{0}\rangle}{E_{n}^{0}-E_{m}^{0}}\psi_{m}^{0}}$$
 Questa equazione ci dà la correzione di primo ordine alla funzione d'onda. C'è un dettaglio importante: è valida solo se lo [[spettro]] di energia non perturbato è *non degenere*. Se fosse degenere, dovremmo dividere per zero per ottenere l'espressione per i coefficienti. Infatti, qui stiamo supponendo che $E_{n}^{0}\neq E_{m}^{0}$ per ogni $n$, $m$, che è equivalente a chiedere la non degenerazione.
@@ -82,5 +82,6 @@ Si trova che la correzione di $k$-esimo ordine all'energia è pari a
 $$E_{n}^{k}=\langle \psi_{n}^{0}|H'|\psi_{n}^{k-1}\rangle$$
 e quella alla funzione d'onda
 $$\psi_{n}^{k}=\sum\limits_{m\neq n} \frac{1}{E_{n}^{0}-E_{m}^{0}}\left(\langle \psi_{m}^{0}|H'|\psi_{n}^{k-1}\rangle - \sum\limits_{l=1}^{k-1}E_{n}^{l}\langle \psi_{n}^{0}|\psi_{n}^{(k-l)}\rangle\right)\psi_{m}^{0}$$
+Le correzioni alle funzioni d'onda sono tutte normalizzate.
 
 [^1]: Questo segue dall'unicità della serie di potenze.
