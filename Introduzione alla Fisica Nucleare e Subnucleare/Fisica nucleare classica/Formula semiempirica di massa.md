@@ -1,9 +1,29 @@
-La **formula semiempirica di massa**, anche conosciuta come **formula di Weizsacker**, è una formula per stimare la massa e l'energia di legame di un atomo con numero di protoni $Z$ e numero di massa $A$.
+La **formula semiempirica di massa**, anche conosciuta come **formula di Weizsacker**, è una formula per stimare la massa e l'[[energia di legame]] di un [[atomo]]:
 $$m(Z,A)=Nm_{n}+Zm_{p}+Zm_{e}- \frac{B(Z,A)}{c^{2}}$$
+con
 $$B(Z,A)=a_{v}A-a_{s}A^{\frac{2}{3}}-a_{c} \frac{Z(Z-1)}{A^{\frac{1}{3}}}-a_{a} \frac{(N-Z)^{2}}{4A}+\delta$$
-1. $a_{v}A$ è il *termine di volume* ed è proporzionale ad $A$. Sperimentalmente si trova che $R\propto A^{1/3}$.
-2. $a_{s}A^{2/3}$ è il *termine di superficie*. Si trova che $R^{2}\propto A^{2/3}$. Allora i nucleoni sulla superficie risentono meno delle forze nucleare.
-3. $a_{c} \frac{Z(Z-1)}{A^{\frac{1}{3}}}$ è il *termine Coulombiano*. Bisogna togliere la parte energetica Coulombiana $E_{Coulombiana}\propto \frac{Z(Z-1)a\hbar c}{R}\propto Z(Z-1)A^{-1/3}$.
-4. $a_{a} \frac{(N-Z)^{2}}{4A}$ è il *termine di asimmetria*. Tiene conto del fatto che negli atomi più pesanti si rompe la simmetria tra neutroni e protoni a causa della pressione Coulombiana, e i neutroni diventano più numerosi. Se i protoni e neutroni sono in pari numero, il termine si annulla. Ha l'effetto di abbassare la curva per atomi grandi.
-5. $\delta$ è il *termine di accoppiamento* ed ha origine sperimentale. Si è visto che i nuclei sono più stabili se $Z$ e $N$ sono pari. Ciò suggerisce che protoni e neutroni tendano ad accoppiarsi. Vale $\delta=a_{p}A^{-3/4}$ se $A,Z,N$ sono pari, $\delta=-a_{p}A^{-3/4}$ se $A$ è pari e $Z,N$ sono dispari e $\delta=0$ se $A$ è dispari. In questo caso, l'esponente $-3/4$ è completamente empirico e ottenuto da un fit.
-Tutti questi termini sono costanti e sono stati misurati sperimentalmente.
+dove
+- $m_{n}$, $m_{p}$ e $m_{e}$ sono masse di [[neutrone]], [[protone]] ed [[elettrone]].
+- $Z$, $N$ e $A$ sono il [[Atomo|numero atomico]], il [[Atomo|numero di neutroni]] e il [[Atomo|numero di massa atomica]].
+- $B(Z,A)$ è l'energia di legame.
+- $c$ è la [[velocità della luce]].
+
+La formula per l'energia di legame contiene cinque termini costanti misurati sperimentalmente con un particolare significato:
+1. $a_{v}A$ è il **termine di volume** ed è proporzionale ad $A$. In teoria, se ogni [[Nucleone]] interagisse con ogni altro nucleone, la proporzionalità sarebbe $\propto A(A-1)\sim A^{2}$, dato sperimentalmente si trova che il raggio del nucleo vale $R\propto A^{1/3}$. In pratica, si trova $\propto A$, che suggerisce che i nucleoni interagiscono solo con i loro vicini.
+2. $a_{s}A^{2/3}$ è il **termine di superficie**. La discussione sulle interazioni con nucleoni vicini vale per quelli *dentro* il nucleo, ma quelli in superficie hanno meno "vicini", quindi sono legati meno fortemente. Questo termine viene sottratto per tenere conto di questa mancanza. È proporzionale alla superficie nucleare, che sperimentalmente è $R^{2}\propto A^{2/3}$.
+3. $a_{c} \frac{Z(Z-1)}{A^{\frac{1}{3}}}$ è il **termine Coulombiano**. I protoni sono carichi e si respingono a vicenda mediante [[interazione elettromagnetica]], che indebolisce il loro legame.$$E_{Coulombiana}\propto \frac{Z(Z-1)\alpha\hbar c}{R}\propto Z(Z-1)A^{-1/3}$$
+4. $a_{a} \frac{(N-Z)^{2}}{4A}$ è il **termine di asimmetria**. Tiene conto del fatto che negli atomi più pesanti si rompe la simmetria tra neutroni e protoni a causa dell'aumento della repulsione Coulombiana dei neutroni. Se i protoni e neutroni sono in pari numero, il termine si annulla. Ha l'effetto di abbassare la curva per atomi grandi.
+5. $\delta$ è il **termine di accoppiamento** ed ha origine sperimentale. Si è scoperto che i nuclei sono più stabili se contengono un numero pari di protoni e neutroni. Ciò suggerisce che protoni e neutroni tendano ad accoppiarsi. Infatti, dei 171 nuclei stabili noti, solo 4 hanno $N$ e $Z$ dispari. Tutti gli altri hanno $N$ e $Z$ pari. Vale$$\begin{align}
+\delta=a_{p}A^{-3/4} \quad &\text{se }A,Z,N\text{ sono pari} \\
+\delta=-a_{p}A^{-3/4} \quad &\text{se }A\text{ è pari e }Z,N\text{ sono dispari} \\
+\delta = 0 \quad & \text{se }A\text{ è dispari}
+\end{align}$$In questo caso, l'esponente $-3/4$ è completamente empirico e ottenuto da un fit.
+
+Le costanti valgono
+$$\begin{align}
+a_{v} &= 15.67\,\frac{MeV}{c^{2}} \\
+a_{s} &= 17.23\,\frac{MeV}{c^{2}} \\
+a_{c} &= 0.714\,\frac{MeV}{c^{2}} \\
+a_{a} &= 93.15\,\frac{MeV}{c^{2}} \\
+a_{p} &= 34\,\frac{MeV}{c^{2}}
+\end{align}$$

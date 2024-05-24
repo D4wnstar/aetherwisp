@@ -2,6 +2,8 @@
 aliases:
   - potenziale Coulombiano
   - legge di Coulomb
+  - repulsione Coulombiana
+  - attrazione Coulombiana
 ---
 L'**interazione elettromagnetica** è l'[[interazione fondamentale]] che governa l'attrazione e repulsione tra oggetti dotati di carica elettrica. Considerato un oggetto di carica $q$ a distanza $r$ da un altro oggetto carico, il [[potenziale]] Coulombiano che li lega è
 $$V=\frac{1}{4\pi\varepsilon_{0}}\frac{q}{r}$$

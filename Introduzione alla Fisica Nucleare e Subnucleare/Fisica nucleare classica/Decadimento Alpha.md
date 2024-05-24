@@ -1,4 +1,4 @@
-Il **decadimento $\alpha$** è un tipo di [[decadimento]] nel quale un [[nuclide]] emette una *particella $\alpha$*, ossia un [[Nucleo atomico|nucleo]] con due [[protone|protoni]] e due [[neutrone|neutroni]], come ad esempio un nucleo di $_{2}^{4}\text{He}_{2}$. Il nucleo rilasciato è molto legato, quindi l'energia cinetica rilasciata è massimizzata. Il processo di decadimento è
+Il **decadimento $\alpha$** è un tipo di [[decadimento]] nel quale un [[Nuclide]] emette una *particella $\alpha$*, ossia un [[Nucleo atomico|nucleo]] con due [[protone|protoni]] e due [[neutrone|neutroni]], come ad esempio un nucleo di $_{2}^{4}\text{He}_{2}$. Il nucleo rilasciato è molto legato, quindi l'energia cinetica rilasciata è massimizzata. Il processo di decadimento è
 $$_{Z}^{A}X_{N} \rightarrow _{Z-2}^{A-4}X'_{N-2}+\alpha$$
 dove $X$ e $X'$ sono simboli chimici di specie nucleari diverse nello stato iniziale e finale. Il numero di protoni e neutroni deve conservarsi. L'energia cinetica tipica di una tale reazione è nell'ordine dei [[Elettronvolt|MeV]].
 
