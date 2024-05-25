@@ -25,7 +25,7 @@ $$\boxed{[x,p]=i\hbar}$$
 Tornando alla $(2)$, abbiamo
 $$a_{+}a_{-}=\frac{1}{\hbar \omega}H- \frac{1}{2}$$
 Riconoscendo che $[a_{+},a_{-}]=1$, possiamo esprimere l'Hamiltoniana come
-$$H=\hbar\omega\left(a_{+}a_{-}+ \frac{1}{2}\right)$$
+$$\boxed{H=\hbar\omega\left(a_{+}a_{-}+ \frac{1}{2}\right)}$$
 che possiamo sostituire nell'equazione di Schrödinger
 $$\hbar\omega\left(a_{\pm}a_{\mp}\pm \frac{1}{2}\right)\psi=E\psi\tag{3}$$
 Si dimostra[^1] che se $\psi$ soddisfa l'equazione di Schrödinger per l'energia $E$, allora $(a_{+}\psi)$ soddisfa l'equazione per energia $E+\hbar\omega$. Allo stesso modo, $(a_{-}\psi)$ soddisfa l'equazione per $E-\hbar\omega$. Gli operatori $a_{\pm}$ sono detti [[operatori di creazione e distruzione|operatori scaletta]] e permettono di aumentare e diminuire lo stato di energia.

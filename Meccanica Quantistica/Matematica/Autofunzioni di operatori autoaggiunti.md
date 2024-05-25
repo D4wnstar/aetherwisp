@@ -16,7 +16,7 @@ Questa equazione è vera solo se $q=q^{*}$ o $f=0$, ma le autofunzioni non posso
 $$\hat{Q}f=qf,\quad \hat{Q}g=q'g$$
 Per l'autoaggiuntezza di $\hat{Q}$ e perché $f,g\in L^{2}$ vale
 $$\langle f|\hat{Q}g\rangle=\langle \hat{Q}f|g\rangle \quad\rightarrow\quad q'\langle f|g\rangle=q^{*}\langle f|g\rangle$$
-Se $q$ è reale per il punto uno e $q'\neq q^{*}$, deve valere $\langle f|g\rangle=0$.  $\square$
+Se $q$ è reale per il punto uno e $q'\neq q^{*}$, deve valere $\langle f|g\rangle=0$.
 
 L'unico dettaglio che manca ai due risultati è cosa accade quando ci sono due stati degeneri, tali per cui $q'=q$. Fortunatamente non è un grande problema, dato che la combinazione lineare di due autofunzioni con lo stesso autovalore è essa stessa un'autofunzione con lo stesso autovalore. Allora, sfruttando l'[[ortonormalizzazione di Gram-Schmidt]], è sempre possibile costruire una [[base]] [[Ortonormalità|ortonormale]] nell'(auto)spazio degenere. Ciò implica che, degenerazione o meno, le autofunzioni possono essere sempre scelte come tutte ortogonali; al peggio basta ortonormalizzare.
 

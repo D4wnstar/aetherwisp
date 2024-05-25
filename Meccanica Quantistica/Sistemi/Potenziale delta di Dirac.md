@@ -39,12 +39,12 @@ B\kappa e^{-\kappa \varepsilon} \rightarrow B\kappa & \text{per }x<0
 e anche $\psi(0)=B$. Allora
 $$\left(\frac{d\psi}{dx}\right)_{-\varepsilon}^{+\varepsilon}=-2B\kappa=-\frac{2m \alpha}{\hbar^{2}}B \quad \rightarrow \quad \kappa= \frac{m\alpha}{\hbar^{2}}$$
 e invertendo la formula per $\kappa$ si trovano energie permesse
-$$E=- \frac{\hbar^{2}\kappa^{2}}{2m}=- \frac{m\alpha^{2}}{2\hbar^{2}}$$
+$$\boxed{E=- \frac{\hbar^{2}\kappa^{2}}{2m}=- \frac{m\alpha^{2}}{2\hbar^{2}}}$$
 
 Ora normalizziamo $\psi$:
 $$\int_{-\infty}^{+\infty}|\psi|^{2}dx=2|B|^{2}\int_{0}^{+\infty}e^{-2\kappa x}dx= \frac{|B|^{2}}{\kappa}=1 \quad \rightarrow \quad B=\sqrt{\kappa}=\frac{\sqrt{m\alpha}}{\hbar}$$
 La funzione d'onda ha quindi la forma
-$$\psi(x)=\frac{\sqrt{m\alpha}}{\hbar}e^{-m\alpha|x|/\hbar^{2}},\quad E=- \frac{m\alpha^{2}}{2\hbar^{2}}$$
+$$\boxed{\psi(x)=\frac{\sqrt{m\alpha}}{\hbar}e^{-m\alpha|x|/\hbar^{2}}}$$
 Non è comparsa alcuna dipendenza da indici come nel caso, per esempio, della buca infinita, quindi esiste uno ed uno solo stato legato, con energia $E$.
 ### Stati liberi
 Nella regione $x>0$, l'equazione di Schrödinger è

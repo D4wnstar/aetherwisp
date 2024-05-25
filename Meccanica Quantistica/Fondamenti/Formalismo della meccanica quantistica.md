@@ -17,7 +17,7 @@ $$\left\langle Q \right\rangle_{\Psi}=\langle \Psi|\hat{Q}|\Psi\rangle$$
 dove $\Psi$ è formalmente una qualunque funzione [[Spazi Lp#Spazio $L {2}$|L^2]], ma quasi sempre una [[funzione d'onda]].
 
 Gli operatori autoaggiunti più comuni sono l'operatore posizione $\hat{q}$, quantità di moto $\hat{p}$ e Hamiltoniana $\hat{H}$, che hanno la forma
-$$\hat{q}\equiv q, \quad \hat{p}\equiv \frac{\hbar}{i} \frac{\partial }{\partial x}, \quad \hat{H}\equiv - \frac{\hbar^{2}}{2m} \frac{d^{2}}{dx^{2}} + V(x)$$
+$$\hat{q}\equiv q, \quad \hat{p}\equiv \frac{\hbar}{i} \frac{\partial }{\partial q}, \quad \hat{H}\equiv - \frac{\hbar^{2}}{2m} \frac{d^{2}}{dq^{2}} + V(q)$$
 con $V(x)$ un [[potenziale]]. In tre dimensioni hanno invece la forma
 $$\hat{\vec{q}}\equiv\vec{q}, \quad \hat{p}_{x}\equiv \frac{\hbar}{i}\frac{\partial }{\partial x}, \quad \hat{p}_{y}\equiv \frac{\hbar}{i}\frac{\partial }{\partial y}, \quad \hat{p}_{z}\equiv \frac{\hbar}{i}\frac{\partial }{\partial z}, \quad \hat{\vec{p}}=\frac{\hbar}{i}\nabla$$
 $$\hat{H}\equiv - \frac{\hbar^{2}}{2m}\left(\frac{\partial^{2} }{\partial x^{2}}+\frac{\partial^{2} }{\partial y^{2}}+\frac{\partial^{2} }{\partial z^{2}}\right)+V(\vec{q})=- \frac{\hbar^{2}}{2m}\nabla^{2} + V(\vec{q})$$

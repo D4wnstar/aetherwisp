@@ -36,10 +36,10 @@ $$j_{l}(ka)=0$$
 La $j_{l}$ è una funzione (pseudo)periodica, quindi ha un numero infinito (numerabile) di zeri. Purtroppo, non esiste una forma analitica per questi zeri, che invece vanno calcolati con metodi numerici. In ogni caso, deve essere
 $$k=\frac{1}{a}\beta_{nl}$$
 con $\beta_{nl}$ l'$n$-esimo zero della funzione sferica di $l$-esimo ordine. Dunque, le energie permesse sono date da
-$$E_{nl}=\frac{\hbar^{2}}{2ma^{2}}\beta^{2}_{nl}$$
+$$\boxed{E_{nl}=\frac{\hbar^{2}}{2ma^{2}}\beta^{2}_{nl}}$$
 
 Combinando la parte radiale con le [[armoniche sferiche]] si ottiene la funzione d'onda
-$$\boxed{\psi_{nlm}(r,\theta,\phi)=A_{nl}j_{l}\left(\frac{\beta_{nl}}{a}r\right)Y_{l}^{m}(\theta,\phi)}$$
+$$\boxed{\psi_{nlm}(r,\theta,\phi)=A_{nl}\,j_{l}\left(\frac{\beta_{nl}}{a}r\right)Y_{l}^{m}(\theta,\phi)}$$
 con $A_{nl}$ la costante di normalizzazione. Ciascuno livello energetico è $(2l+1)$ volte degenere, dato che ci sono $(2l+1)$ valori di $m$ per ogni $l$.
 
 [^1]: Sulla carta, $B=0$ è una richiesta eccessiva dato che rende la funzione *finita*, che è una condizione più forte di *normalizzabile*. Infatti, anche $R(r)\sim 1/r$ all'origine è normalizzabile, poiché che la condizione di normalizzazione è $\int|R|^{2}r^{2}dr$ e il $r^{2}$ si annulla anche in questo caso. Tuttavia, deve proprio essere $B=0$. Per una dimostrazione, vedi *Principles of Quantum Mechanics di R. Shankar, p. 342*.

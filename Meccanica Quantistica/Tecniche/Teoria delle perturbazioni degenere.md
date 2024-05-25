@@ -84,4 +84,4 @@ Per uno stato $n$-volte degenere, dobbiamo cercare gli autovalori della matrice 
 $$W_{ij}=\langle \psi_{i}^{0}|H'|\psi_{j}^{0}\rangle$$
 Dato che vogliamo avere $W_{ij}=0$ per ogni $i\neq j$ per il teorema precedente, ciò che stiamo cercando di fare è [[diagonalizzazione|diagonalizzare]] la matrice. Se troviamo una base per la quale $\mathbf{W}$ è diagonale, allora gli $n$ elementi di quella base sono gli $n$ autostati "buoni" che ci danno le $n$ correzioni di primo ordine all'energia usando le formule della teoria non degenere.
 
-> **Risultato.** Gli autostati non perturbati degeneri si spezzano in un numero di autostati perturbati pari al loro grado di degenerazione e le correzioni in sé sono date dalla base di autostati che diagonalizza la matrice $\mathbf{W}$ usando la teoria non degenere.
+> **Risultato.** Gli autostati non perturbati degeneri si spezzano in un numero di autostati perturbati pari al loro grado di degenerazione. Le correzioni in sé sono date dalla base di autostati che diagonalizza la matrice $\mathbf{W}$ usando la teoria non degenere.
