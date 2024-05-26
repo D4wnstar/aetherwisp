@@ -8,6 +8,7 @@ La **disuguaglianza di Heisenberg**, o **principio di indeterminazione**, è una
 $$\Delta q\Delta p\geq\frac{\hbar}{2}$$
 e in tre dimensioni
 $$\Delta x \Delta p_{x}\geq \frac{\hbar}{2}, \quad \Delta y \Delta p_{y}\geq \frac{\hbar}{2}, \quad \Delta z \Delta p_{z}\geq \frac{\hbar}{2}$$
+mentre in coordinate diverse non c'è una particolare relazione (ad esempio, $\Delta x \Delta p_{y}\geq0$).
 
 L'errore qui definito non è quello della strumentazione, ma quello intrinseco dovuto alla [[Funzione d'onda]] della particella, dato che misure uguali su sistemi preparati allo stesso modo *non* danno lo stesso risultato. È una manifestazione dell'[[Indeterminatezza quantistica]].
 ## Forma generale

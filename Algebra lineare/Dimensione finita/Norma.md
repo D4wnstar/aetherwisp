@@ -4,7 +4,7 @@ Si definisce **norma** una legge $V \rightarrow \mathbb{R}^{+}$ definita per ogn
 3. $||\lambda v||=|\lambda|\;||v||$
 4. $||v+w||\leq||v||+||w||$ (detta **disuguaglianza triangolare**)
 
-Si ha che un [[Prodotto scalare]] definito su un campo $V$ *implica* una norma, definita come
+Si ha che un [[prodotto scalare]] definito su un campo $V$ *implica* una norma, definita come
 $$||v||=\sqrt{(v,v)}$$
 con $(\cdot,\cdot)$ il prodotto scalare. Tuttavia, non tutte le norme hanno un prodotto scalare associato. Ad esempio, la seguente valida norma
 $$||v||=|v_{1}|+|v_{2}|+\ldots+|v_{n}|$$
@@ -14,7 +14,7 @@ Vale inoltre la regola del parallelogramma
 $$||v+w||^{2}+||v-w||^{2}=2||v||^{2}+2||w||^{2}$$
 per ogni $v,w\in V$.
 
-Nel caso di spazi di funzioni a dimensione infinita, la definizione di norma vale se consideriamo *equivalenti* le funzioni *uguali quasi ovunque*. Ciò è necessario in quanto la proprietà 2. sarebbe falsa, dato che l'integrale di una funzione non nulla in numero finito o numerabile di punti è anch'esso uguale a zero, oltre al caso voluto $f\equiv0$.
+Nel caso di spazi di funzioni a dimensione infinita, la definizione di norma vale se consideriamo *equivalenti* le funzioni *uguali quasi ovunque*. Ciò è necessario in quanto la proprietà 2 sarebbe falsa, dato che l'integrale di una funzione non nulla in numero finito o numerabile di punti è anch'esso uguale a zero, oltre al caso voluto $f\equiv0$.
 ### Norme canoniche
 Sebbene sia possibile definire un numero infinito di norme, fintantoché soddisfano le condizioni sopra, di solito si usa una sola norma, chiamata **norma canonica**. Nel caso di spazi vettoriali a dimensione finita, si usa la **norma 2** o **norma euclidea**
 $$||v||_{2}=\sqrt{v_{1}^{2}+v_{2}^{2}+\ldots+v_{n}^{2}}$$

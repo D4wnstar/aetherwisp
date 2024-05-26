@@ -29,11 +29,14 @@ da cui
 $$|\psi_{t}\rangle=\hat{U}_{t}|\psi\rangle \text{ (Schrödinger picture)}$$
 $$\hat{Q}_{t}=\hat{U}_{t}^{+}\hat{Q}\hat{U}_{t} \text{ (Heisenberg picture)}$$
 ### Commutatori
+$$[r_{i},p_{j}]=-[p_{i},r_{j}]=i\hbar\delta_{ij}, \quad [r_{i},r_{j}]=[p_{i},p_{j}]=0$$
+La posizione commuta sempre con la posizione; la quantità di moto commuta sempre con la quantità di moto; tra di loro commutano solo in coordinate diverse, altrimenti si ha $i\hbar$. Due coordinate possono identificarsi come posizione e momento se il loro commutatore è $i\hbar$.
+
 $$[\hat{q},\hat{p}]=i\hbar; \quad [\hat{H},\hat{q}]=- \frac{i\hbar}{m}\hat{p}; \quad [\hat{H},\hat{p}]=0$$
 Se $[\hat{H},\hat{Q}]=0$, allora $\hat{Q}$ è una [[costante del moto]].
 ### Matrici di Pauli
 $$\hat{\sigma}_{x}=\pmatrix{0 & 1 \\ 1 & 0},\;\hat{\sigma}_{y}=\pmatrix{0 & -i \\ i & 0},\;\hat{\sigma}_{z}=\pmatrix{1 & 0 \\ 0 & -1}$$
-tutte con autovalori $\pm1$. Gli autovettori sono
+tutte con autovalori $\pm1$. Sono autoaggiunte: $\hat{\sigma}_{i}^{\dagger}=\hat{\sigma}_{i}$. I quadrati sono unitari: $\hat{\sigma}_{i}^{2}=\hat{\mathbb{1}}$. Gli autovettori sono
 $$x_{+}: \frac{1}{\sqrt{2}}\pmatrix{1 \\ 1}, \quad x_{-}: \frac{1}{\sqrt{2}}\pmatrix{1 \\ -1}$$
 $$y_{+}: \frac{1}{\sqrt{2}}\pmatrix{1 \\ i}, \quad y_{-}: \frac{1}{\sqrt{2}}\pmatrix{1 \\ -i}$$
 $$z_{+}: \pmatrix{1 \\ 0}, \quad z_{-}: \pmatrix{0 \\ 1}$$
@@ -114,3 +117,7 @@ Ammette esattamente uno stato legato e stati liberi
 $$V=-\alpha \delta(x); \quad E=- \frac{m\alpha^{2}}{2\hbar^{2}}; \quad \psi(x)=\frac{\sqrt{m\alpha}}{\hbar}e^{-m\alpha|x|/\hbar^{2}}$$
 I coefficienti di trasmissione e riflessione degli stati liberi sono
 $$R=\frac{1}{1+ \left(\frac{2\hbar^{2}E}{m\alpha^{2}}\right)},\quad T=\frac{1}{1+\left(\frac{m\alpha^{2}}{2\hbar^{2}E}\right)}$$
+## Metodi
+- Usa le proprietà degli operatori (unitarietà e autoaggiuntezza sono le più importanti).
+- Usa i risultati dell'algebra lineare, anche al di là di quantistica. Vedi:
+	- Disuguaglianza di Schwarz: $\langle v|w\rangle\leq||v||\,||w||$.

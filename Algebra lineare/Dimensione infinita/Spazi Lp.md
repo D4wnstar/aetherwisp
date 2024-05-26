@@ -10,9 +10,6 @@ Si definisce **spazio** $L^{1}(I)$ l'insieme di tutte le funzioni **sommabili** 
 $$\int_{I}|f(x)|dx<+\infty$$
 Lo spazio $L^{1}$ è [[Spazio metrico completo|completo]] rispetto alla [[Norma#Norme canoniche|norma]] $L^{1}$ in dimensione infinita (**teorema di Riesz**). In particolare, è la chiusura dello spazio $C^{0}(I)$ delle funzioni continue su $I$ rispetto a tale norma.
 ### Spazio $L^{2}$
-
-^e9f82c
-
 Si definisce **spazio** $L^{2}(I)$ l'insieme di tutte le funzioni **a quadrato sommabile** o **a quadrato integrabile** su un intervallo $I$, ovvero le funzioni $f$ tali per cui vale
 $$\int_{I}|f(x)|^{2}dx<+\infty$$
 Lo spazio $L^{2}(I)$ è anche uno [[spazio vettoriale]] con uno [[Prodotto scalare]] definito come
