@@ -1,6 +1,8 @@
 ---
 tags:
   - massimi-minimi
+aliases:
+  - punto stazionario
 ---
 Sia $f : C ⊆ \mathbb{R}^{N} → \mathbb{R}$ e $x^0 ∈ \mathring{C}$. Diremo che $x^0$ è **punto critico** per $f$ se
 - $f$ non è differenziabile in $x^0$
