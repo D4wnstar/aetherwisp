@@ -18,7 +18,7 @@ $$_{53}^{131}I_{78} \rightarrow _{54}^{131}Xe_{77}$$
 con tempo di dimezzamento di 8.0 giorni.
 ## Meccanismo
 ### Decadimento $\beta^{\pm}$
-Partiamo dalla [[formula semiempirica di massa]] che nel nostro caso diventa
+Partiamo dalla [[Formula semiempirica di massa]] che nel nostro caso diventa
 $$M(A,Z)=\alpha A-\beta Z+\gamma Z^{2}+\delta$$
 con
 $$\begin{align}

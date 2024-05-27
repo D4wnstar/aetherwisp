@@ -1,3 +1,10 @@
+---
+aliases:
+  - correzione relativistica dell'energia cinetica
+  - accoppiamento spin-orbita
+  - correzione spin-orbita
+  - termine di Darwin
+---
 La **struttura fine** è la struttura ottenuta applicando correzioni relativistiche ottenute dalla [[Funzione d'onda]] relativistica al modello dell'[[atomo di idrogeno]].
 ## Trattamento perturbativo
 È composta da tre correzioni (tutte relativistiche):

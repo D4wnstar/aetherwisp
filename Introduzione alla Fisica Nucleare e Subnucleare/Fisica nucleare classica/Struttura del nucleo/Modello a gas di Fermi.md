@@ -36,4 +36,4 @@ che è valida per $A$ fisso. Si trova però che, variando $N$ e $Z$, la funzione
 $$N=\frac{A+\Delta}{2}, \quad Z=\frac{A-\Delta}{2}; \quad \Delta\equiv N-Z$$
 si ottiene
 $$E_{cin}(A)=\frac{3}{10M} \frac{\hbar^{2}}{R_{0}^{2}} \left(\frac{9}{4}\pi\right)^{2/3} \left(A+ \frac{5}{9} \frac{(N-Z)^{2}}{A}+\ldots\right)$$
-dove $A$ contribuisce al termine di volume nella [[formula semiempirica di massa]], mentre il secondo termine è la correzione di asimmetria, che cresce con il quadrato di neutroni in eccesso.
+dove $A$ contribuisce al termine di volume nella [[Formula semiempirica di massa]], mentre il secondo termine è la correzione di asimmetria, che cresce con il quadrato di neutroni in eccesso.

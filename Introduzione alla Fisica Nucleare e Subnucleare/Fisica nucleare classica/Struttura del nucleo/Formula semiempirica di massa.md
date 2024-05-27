@@ -15,8 +15,8 @@ La formula per l'energia di legame contiene cinque termini costanti misurati spe
 4. $a_{a} \frac{(N-Z)^{2}}{4A}$ è il **termine di asimmetria**. Tiene conto del fatto che negli atomi più pesanti si rompe la simmetria tra neutroni e protoni per compensare l'aumento della repulsione Coulombiana dei neutroni. Se i protoni e neutroni sono in pari numero, il termine si annulla. Ha l'effetto di abbassare la curva per atomi grandi.
 5. $\delta$ è il **termine di accoppiamento** ed ha origine sperimentale. Si è scoperto che i nuclei sono più stabili se contengono un numero pari di protoni e neutroni. Ciò suggerisce che protoni e neutroni tendano ad accoppiarsi. Infatti, dei 171 nuclei stabili noti, solo 4 hanno $N$ e $Z$ dispari. Tutti gli altri hanno $N$ e $Z$ pari. Vale$$\begin{align}
 \delta=a_{p}A^{-3/4} \quad &\text{se }A,Z,N\text{ sono pari} \\
-\delta=-a_{p}A^{-3/4} \quad &\text{se }A\text{ è pari e }Z,N\text{ sono dispari} \\
-\delta = 0 \quad & \text{se }A\text{ è dispari}
+\delta = 0 \quad & \text{se }A\text{ è dispari} \\
+\delta=-a_{p}A^{-3/4} \quad &\text{se }A\text{ è pari e }Z,N\text{ sono dispari}
 \end{align}$$In questo caso, l'esponente $-3/4$ è completamente empirico e ottenuto da un fit.
 
 Le costanti valgono

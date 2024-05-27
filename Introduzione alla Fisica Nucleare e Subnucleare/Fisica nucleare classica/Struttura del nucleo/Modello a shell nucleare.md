@@ -1,9 +1,17 @@
+---
+aliases:
+  - shell
+---
 Il **modello a shell** è un modello del [[nucleo atomico]]. Da non confondere con il modello a shell dell'[[atomo]] stesso, che tratta degli [[elettrone|elettroni]]. Ha i seguenti presupposti:
 1. ogni [[nucleone]] occupa un livello di energia ben preciso all'interno di una *shell*.
 2. i nucleoni si muovono nel nucleo sottoposti ad un [[potenziale]] *medio*.
 3. il potenziale medio ha origine dagli altri nucleoni.
 
-Lo stato di un nucleo ([[spin]] $\pm1/2$, [[parità]] $(-1)^{l}$) è poi determinato unicamente dai nucleoni **spaiati**, ossia quelli disaccoppiati, un po' come sono gli elettroni di valenza a determinare lo stato di un atomo nella shell elettronica.
+Lo stato di un nucleo ([[spin]] $\pm1/2$ e [[parità]] $(-1)^{l}$) è poi determinato unicamente dai nucleoni **spaiati**, ossia quelli disaccoppiati, un po' come sono gli elettroni di valenza a determinare lo stato di un atomo nella shell elettronica. Un nucleone mancante in una shell è detto **buco**.
+
+Il modello a shell più preciso ([[Potenziale di Woods-Saxon]] con [[Struttura fine|accoppiamento spin-orbita]]) è molto accurato per $A<150$ e $190<A<220$. Al di là di questo intervallo bisogna adoperare altri stratagemmi, come considerare la deformazione dei nuclei (per $150<A<190$ e $A>230$).
+
+Le predizioni compiute da questo modello sono corrette solo se nella shell più superiore (quella di valenza) è presente soltanto un nucleone spaiato. Shell non complete con più di un nucleone, come quelle del $^{23}_{11}Na_{12}$ non sono corrette.
 ### Potenziale gaussiano
 Per nuclei piccoli ($A\leq7$), la distribuzione dei nucleoni nel nucleo è circa gaussiana, quindi possiamo approssimare il potenziale con distribuzione spaziale gaussiana. In altre parole, abbiamo un [[oscillatore armonico quantistico]] tridimensionale, che ha potenziale
 $$V(r)=\frac{1}{2}kr^{2}$$
@@ -21,7 +29,7 @@ La [[degenerazione]] dei livelli di energia è pari a $2l+1$, o $2(2l+1)$ consid
 
 Calcolando il numero di nucleoni che compongono le shell chiuse, si trova che corrispondono ai [[Numero magico|numeri magici]] fino al 20, ma poi divergono.
 ### Potenziale di Woods-Saxon
-Una descrizione più accurata richiede un potenziale più preciso. A questo scopo si può usare il [[potenziale di Woods-Saxon]], per il quale si trovano numeri magici più accurati.
+Una descrizione più accurata richiede un potenziale più preciso. A questo scopo si può usare il [[Potenziale di Woods-Saxon]], per il quale si trovano numeri magici più accurati.
 
 ![[Shell complete Woods-Saxon.png|240]]
 
@@ -57,3 +65,27 @@ j=\frac{5}{2} \rightarrow \text{ livello } 1f_{5/2} \\
 j=\frac{7}{2} \rightarrow \text{ livello } 1f_{7/2}
 \end{cases}$$
 Ciascuno di questi livelli ha una cosiddetta **capacità**, ossia il numero di nucleoni che può ospitare. La somma progressiva delle capacità produce uno ad uno tutti i numeri magici.
+### Applicazioni
+Consideriamo due [[Isotopo|isotopi]] dell'ossigeno: $^{15}_{8}O$ e $^{17}_{8}O$. Entrambi hanno 8 protoni, ma uno ha 7 neutroni e l'altro 9. Nel primo caso vi è un protone spaiato; nel secondo un neutrone spaiato.
+
+![[Shell ossigeno.png]]
+
+Nel $^{15}_{8}O$, il protone spaiato è nella shell $1p_{1/2}$. Lo stato fondamentale del nucleo dovrebbe quindi avere spin 1/2 e parità $(-1)^{1}=-1$. È comune scrivere lo stato del nucleo nella forma $J^{P}$, dove $J$ è il momento angolare e $P$ è la parità, denotata con $+$ e $-$. In questa caso, si ha $J^{P}=\frac{1}{2}^{-}$.
+
+Nel $^{17}_{8}O$, c'è un buco nel livello $1d_{5/2}$, quindi lo spin dovrebbe essere 5/2 e la parità $(-1)^{2}=1$, quindi un totale di $J^{P}=\frac{5}{2}^{+}$.
+#### Nuclei pari-pari e dispari-dispari
+Nel caso di [[nuclide|nuclidi]] con $Z$ e $N$ pari, indipendentemente da quali stati sono eccitati, lo stato fondamentale sarà $J^{P}=0^{+}$ e il primo eccitato sarà $J^{P}_{1}=2^{+}$. Siccome sono ordinati a coppie, avranno sempre parità positiva.
+
+Per nuclidi con $Z$ e $N$ dispari, lo spin totale si ottiene come da norma per un sistema con due particelle con spin, ossia presi $j_{1}$ e $j_{2}$ gli spin, i valori possibili sono tra $|j_{1}-j_{2}|$ e $j_{1}+j_{2}$ in intervalli interi. La parità sarà $(-1)^{l_{1}+l_{2}}$, con $l_{1}$ e $l_{2}$ i momenti angolari orbitali del protone e neutrone spaiati.
+
+Ad esempio, $^{6}_{3}Li_{3}$ ha sia un protone che un neutrone spaiato in $1p_{3/2}$, quindi ha $l_{1}=l_{2}=l=1$. Allora la parità sarà $(-1)^{1+1}=1$. Lo spin invece è tra $|3/2-3/2|=0$ e $3/2+3/2=3$, quindi può avere i valori di 0, 1, 2 o 3. In totale, gli stati possibili sono
+$$J^{P}=0^{+},\,1^{+},\,2^{+},\,3^{+}$$
+### Transizione di stato
+Così come per gli elettroni, anche i nucleoni possono compiere una [[transizione di stato]] per salire o scendere di shell. Un nucleone può salire ad uno stato eccitato in due modi:
+1. per eccitazione del nucleone spaiato nella sottoshell successiva.
+2. per accoppiamento di questo nucleone con un altro che provenga da una sottoshell più interna.
+
+Per esempio, nel caso del $^{7}_{3}Li_{4}$ ($J^{P}=\frac{3}{2}^{+}$), il neutrone spaiato è in $1p_{3/2}$ e può
+1. salire di energia a $1p_{1/2}$. In questo caso diventa $J^{P}=\frac{1}{2}^{-}$.
+2. accoppiarsi con il neutrone in $1s_{1/2}$. In questo caso diventa $J^{P}=\frac{1}{2}^{+}$.
+Il caso 2 richiede molta più energia.
