@@ -23,7 +23,7 @@ con $\hbar$ la [[Costante di Planck|costante di Planck ridotta]].
 
 In tre dimensioni si hanno, per le variabili $\vec{r}$ e $\vec{p}$,
 $$[r_{i},p_{j}]=-[p_{i},r_{j}]=i\hbar\delta_{ij}, \quad [r_{i},r_{j}]=[p_{i},p_{j}]=0$$
-con gli indici che si riferiscono alle tre dimensioni spaziali.
+con gli indici che si riferiscono alle tre dimensioni spaziali. In altre parole, la posizione commuta sempre con la posizione; la quantità di moto commuta sempre con la quantità di moto; tra di loro commutano solo in coordinate diverse, altrimenti si ha $i\hbar$.
 
 Per il [[momento angolare quantistico]] sull'asse $z$ $L_{z}$ valgono
 $$[L_{z},x]=i\hbar y, \quad [L_{z},y]=-i\hbar x, \quad [L_{z},z]=0$$

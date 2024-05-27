@@ -1,3 +1,9 @@
+---
+aliases:
+  - processo beta
+  - processo beta inverso
+  - cattura elettronica
+---
 Il **decadimento $\beta$** è un tipo di [[decadimento]] che coinvolge [[Isobaro|isobari]]. Il [[Nucleo atomico|nucleo]] corregge l'eccesso di [[protone|protoni]] $p$ o [[neutrone|neutroni]] $n$ convertendoli l'uno nell'altro.
 $$\text{decadimento }\beta^{-}\text{: }\quad n \rightarrow p+e^{-}+\nu_{e}^{-}$$
 $$\text{decadimento }\beta^{+}\text{: }\quad p \rightarrow n+e^{+}+\nu_{e}$$

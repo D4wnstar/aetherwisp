@@ -8,6 +8,7 @@ La **disuguaglianza di Heisenberg**, o **principio di indeterminazione**, è una
 $$\Delta q\Delta p\geq\frac{\hbar}{2}$$
 e in tre dimensioni
 $$\Delta x \Delta p_{x}\geq \frac{\hbar}{2}, \quad \Delta y \Delta p_{y}\geq \frac{\hbar}{2}, \quad \Delta z \Delta p_{z}\geq \frac{\hbar}{2}$$
+mentre in coordinate diverse non c'è una particolare relazione (ad esempio, $\Delta x \Delta p_{y}\geq0$).
 
 L'errore qui definito non è quello della strumentazione, ma quello intrinseco dovuto alla [[Funzione d'onda]] della particella, dato che misure uguali su sistemi preparati allo stesso modo *non* danno lo stesso risultato. È una manifestazione dell'[[Indeterminatezza quantistica]].
 ## Forma generale
@@ -54,7 +55,9 @@ dove l'[[Hamiltoniana]] è $H=p^{2}/2m+V$. Allora
 $$\frac{d}{dt}\left\langle Q \right\rangle=- \frac{1}{i\hbar}\langle \hat{H}\Psi|\hat{Q}\Psi\rangle+ \frac{1}{i\hbar}\langle \Psi|\hat{Q}\hat{H}\Psi\rangle+\left\langle \frac{\partial \hat{Q}}{\partial t} \right\rangle$$
 Ma $\hat{H}$ è autoaggiunto, quindi $\langle \hat{H}\Psi|\hat{Q}\Psi\rangle=\langle \Psi|\hat{H}\hat{Q}\Psi\rangle$ e allora
 $$\boxed{\frac{d}{dt}\left\langle Q \right\rangle=\frac{i}{\hbar}\left\langle [\hat{H},\hat{Q}] \right\rangle+\left\langle \frac{\partial \hat{Q}}{\partial t} \right\rangle}$$
-Nel caso comune[^2] di un operatore $\hat{Q}$ che non dipende dal tempo, $\partial \hat{Q}/\partial t=0$, quindi la derivata temporale di un'osservabile è direttamente proporzionale al suo commutatore con l'Hamiltoniana del sistema. In particolare, *se $Q$ commuta con $H$, allora $Q$ è una [[costante del moto]]*.
+Nel caso comune[^2] di un operatore $\hat{Q}$ che non dipende dal tempo, $\partial \hat{Q}/\partial t=0$, quindi la derivata temporale di un'osservabile è direttamente proporzionale al suo commutatore con l'Hamiltoniana del sistema.
+
+> **Risultato.** Se un'osservabile $\hat{Q}$ commuta con $\hat{H}$, ossia $[\hat{Q},\hat{H}]=0$, allora $Q$ è una [[costante del moto]].
 
 Ora consideriamo il principio d'incertezza. Se $Q$ non dipende dal tempo, abbiamo
 $$\sigma_{H}^{2}\sigma_{Q}^{2}\geq\left(\frac{1}{2i}\langle[\hat{H},\hat{Q}]\rangle\right)^{2}=\left(\frac{1}{2i} \frac{\hbar}{i} \frac{d}{dt} \left\langle Q \right\rangle\right)^{2}=\left(\frac{\hbar}{2}\right)^{2}\left(\frac{d}{dt} \left\langle Q \right\rangle\right)^{2}$$

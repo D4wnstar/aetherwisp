@@ -1,4 +1,4 @@
-Si dice **spettro** di un [[Operatore]] $T$ l'insieme di tutti i numeri $\sigma$ tali per cui l'operatore $T-\sigma I$ non ammette inverso limitato, cioè se non è invertibile o se ammette un inverso non limitato. Gli autovalori sono automaticamente parte dello spettro. In particolare, in dimensione finita lo spettro *è* l'insieme degli autovalori.
+Si dice **spettro** di un [[operatore]] $T$ l'insieme di tutti i numeri $\sigma$ tali per cui l'operatore $T-\sigma I$ non ammette inverso limitato, cioè se non è invertibile o se ammette un inverso non limitato. Gli [[Equazione agli autovalori|autovalori]] sono automaticamente parte dello spettro. In particolare, in dimensione finita lo spettro *è* l'insieme degli autovalori.
 
 Uno spettro si dice **degenere** se due o più autovettori (o autofunzioni) [[lineare indipendenza|linearmente indipendenti]] hanno lo stesso autovalore.
 

@@ -1,6 +1,6 @@
 ---
 aliases:
-  - Luminosità
+  - luminosità
 ---
 La **luminosità** $\mathscr{L}$, intesa in ambito della fisica nucleare, è una quantità misurata durante la [[diffusione di particelle]]. In simboli
 $$\mathscr{L}=\Phi_{a}N_{b}=\dot{N}_{a}n_{b}d=n_{a}v_{a}N_{b}$$
