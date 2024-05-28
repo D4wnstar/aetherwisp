@@ -27,7 +27,7 @@ $$\begin{align}
 $$[L^{2},\vec{L}]=0$$
 Ciò significa che è possibile trovare [[Stato stazionario|autostati]] simultanei di $L^{2}$ e (per esempio) $L_{z}$.
 ### Autovalori
-Per trovare gli autovalori, usiamo un approccio simile a quello dell'[[Oscillatore armonico quantistico]], usando degli [[operatori di creazione e distruzione]]. Definiamo
+Per trovare gli autovalori, usiamo un approccio simile a quello dell'[[oscillatore armonico quantistico]], usando degli [[operatori di creazione e distruzione]]. Definiamo
 $$L_{\pm}\equiv L_{x}\pm iL_{y}$$
 Il commutatore con $L_{z}$ è
 $$[L_{z},L_{\pm}]=[L_{z},L_{x}]\pm i[L_{z},L_{y}]=i\hbar L_{y}\pm i(-i\hbar L_{x})=\pm\hbar(L_{x}\pm iL_{y})=\pm\hbar L_{\pm}$$
@@ -72,6 +72,8 @@ $$l=0,\;1/2,\;1,\;3/2,\;2,\ldots\quad; \quad m=-l,-l+1,\ldots,0,\ldots,l-1,l$$
 *Da Introduction to Quantum Mechanics di Griffiths, p. 167*
 
 I vettori sono (o meglio, dovrebbero essere) $\vec{L}$, tutti di lunghezza $\sqrt{l(l+1)}$ (in unità di $\hbar$). Allora è fisicamente impossibile che il momento angolare sia allineato proprio sull'asse $z$ e la spiegazione è, come al solito, il [[Disuguaglianza di Heisenberg|principio di indeterminazione]]. Per far sì che $L_{z}$ sia ben definito, allora dobbiamo accettare che $L_{x}$ e $L_{y}$ saranno completamente indeterminati dato che le tre componenti *non commutano*. Infatti, non è solo impossibile che il momento angolare sia su un certo asse, ma il *vettore stesso* del momento angolare non è definibile dato che fare ciò richiede tutte e tre le componenti, che *non possono* essere definite simultaneamente. Di fatto, i vettori mostrati nell'immagine sopra sono fuorvianti, dato che stiamo definendo $L_{z}$ e quindi $L_{x}$ e $L_{y}$ non sono definibili. Una rappresentazione più corretta sarebbe "spalmare" i vettori su tutto la linea latitudinale a modo che sia chiara l'indeterminatezza.
+
+Dato che le componenti sono intercambiabili fra loro con una permutazione ciclica, gli autovalori sono gli stessi per tutte le componenti. Quindi, per esempio, sapendo gli autovalori di $L_{z}$ si sanno automaticamente anche quelli di $L_{x}$ e $L_{y}$.
 ### Autofunzioni
 Ora vogliamo sapere quali sono le autofunzioni degli operatori. Conviene scrivere gli operatori in coordinate sferiche. Dato che $\hat{\vec{L}}=(\hbar/i)(\vec{r}\times\nabla)$, possiamo usare l'operatore nabla in forma sferica
 $$\nabla=\hat{r}\frac{\partial }{\partial r}+\hat{\theta} \frac{1}{r}\frac{\partial }{\partial \theta}+\hat{\phi} \frac{1}{r\sin\theta}\frac{\partial }{\partial \phi}$$
