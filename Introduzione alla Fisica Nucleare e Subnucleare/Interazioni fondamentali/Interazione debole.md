@@ -1,6 +1,6 @@
-L'**interazione debole** è l'[[interazione fondamentale]] che governa il [[decadimento]] delle [[Particella|particelle]] elementari.
+L'**interazione debole** è l'[[interazione fondamentale]] che governa il [[Decadimento]] delle [[Particella|particelle]] elementari.
 ### Costante di accoppiamento
-A *partire* dalla [[vita media]] del [[decadimento beta]] $\tau\sim10^{2}$ s, possiamo determinare la *costante di accoppiamento effettiva di Fermi* $G_{F}$:
+A *partire* dalla [[vita media]] del [[Decadimento Beta]] $\tau\sim10^{2}$ s, possiamo determinare la *costante di accoppiamento effettiva di Fermi* $G_{F}$:
 $$G_{F}\simeq1.17\times10^{-5}\left(\frac{\hbar c}{\text{GeV}}\right)^{2}\simeq1.17\times10^{-5}\left(\frac{\hbar}{m_{p}c}\right)^{2}$$
 Definisco l'*energia di scala di Fermi* $\epsilon_{F}$, cioè l'energia del più alto livello energetico occupato in un sistema di [[fermione|fermioni]] allo 0 assoluto e anche la lunghezza di Fermi $\lambda_{F}$ associata all'impulso di Fermi
 $$\epsilon_{F}=\sqrt{\frac{(\hbar c)^{3}}{G_{F}}}\simeq300\text{ GeV}$$

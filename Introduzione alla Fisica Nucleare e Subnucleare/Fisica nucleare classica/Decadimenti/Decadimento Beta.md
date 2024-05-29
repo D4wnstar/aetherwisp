@@ -4,7 +4,7 @@ aliases:
   - processo beta inverso
   - cattura elettronica
 ---
-Il **decadimento $\beta$** è un tipo di [[decadimento]] che coinvolge [[Isobaro|isobari]]. Il [[Nucleo atomico|nucleo]] corregge l'eccesso di [[protone|protoni]] $p$ o [[neutrone|neutroni]] $n$ convertendoli l'uno nell'altro.
+Il **decadimento $\beta$** è un tipo di [[Decadimento]] che coinvolge [[Isobaro|isobari]]. Il [[Nucleo atomico|nucleo]] corregge l'eccesso di [[protone|protoni]] $p$ o [[neutrone|neutroni]] $n$ convertendoli l'uno nell'altro.
 $$\text{decadimento }\beta^{-}\text{: }\quad n \rightarrow p+e^{-}+\nu_{e}^{-}$$
 $$\text{decadimento }\beta^{+}\text{: }\quad p \rightarrow n+e^{+}+\nu_{e}$$
 dove $e^{-}$ è un [[elettrone]] e $e^{+}$ è un [[positrone]]. Vengono emessi anche (anti)[[neutrino|neutrini]] elettronici $\nu_{e}$. Esiste anche una terza reazione, chiamata *cattura elettronica* (o c.e.)
