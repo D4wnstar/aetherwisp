@@ -14,4 +14,4 @@ Considero particelle distribuite con una gaussiana con deviazione standard $\sig
 $$A=4\pi\sigma_{x}\sigma_{y}$$
 Per ottenere alte $\mathscr{L}$ devo focalizzare i fasci nella zona d'interesse. Nel Large Hadron Collider, il diametro dei fasci è nell'ordine dei micrometri e produce luminosità
 $$\mathscr{L}_{LHC}\simeq10^{34}\text{ cm}^{-2}\text{s}^{-1}$$
-Si definisce anche la **luminosità integrata** come $\int\mathscr{L} dt$, che è comunemente usata per quantificare i dati raccolti. Moltiplicandola per la [[sezione d'urto]] totale, $\int\mathscr{L}dt\times\sigma_{tot}$, otteniamo il numero di reazioni di un certo processo dell'acceleratore.
+Si definisce anche la **luminosità integrata** come $\int\mathscr{L} dt$, che è comunemente usata per quantificare i dati raccolti. Moltiplicandola per la [[Sezione d'urto]] totale, $\int\mathscr{L}dt\times\sigma_{tot}$, otteniamo il numero di reazioni di un certo processo dell'acceleratore.

@@ -1,0 +1,1 @@
+L'**equilibrio secolare** è una situazione nella quale in numero totale di [[Nucleo atomico|nuclei]] radioattivi rimane costante nel tempo perché il loro tasso di produzione è pari al loro tasso di [[decadimento]].

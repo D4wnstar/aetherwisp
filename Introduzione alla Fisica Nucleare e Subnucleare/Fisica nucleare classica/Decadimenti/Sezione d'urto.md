@@ -1,4 +1,16 @@
-La **sezione d'urto** $\sigma$ è la probabilità che avvenga una reazione tra due [[Particella|particelle]]. È una misura di superficie e generalmente si misura in *barn* (b). 1 b  = $10^{-28}$ m$^{2}$. La sezione d'urto varia in funzione dell'energia delle particelle incidenti. Valori tipo sono $\sigma_{pp}(10\text{ GeV})\sim40$ mb per la [[Diffusione di particelle|diffusione]] [[protone]] protone, $\sigma_{\nu p}(10\text{ GeV})\sim70$ fb per quella [[neutrino]] protone e $\sigma_{pp}(13\text{ TeV})\sim110$ mb per quella protone protone a energie più alte.
+La **sezione d'urto** $\sigma$ è definita come la probabilità che avvenga una reazione tra due [[Particella|particelle]], come per esempio una particella che impatta su un bersaglio in un acceleratore. È una misura di superficie e generalmente si misura in *barn* (b). 1 b  = $10^{-28}$ m$^{2}$. La sezione d'urto varia in funzione dell'energia delle particelle incidenti.
+### Valori tipici
+La sezione d'urto varia di sistema in sistema e in base all'energia delle particelle interagenti, ma gli ordini di grandezza sono grosso modo determinati dal tipo di [[interazione fondamentale]] che si va considerando:
+- [[interazione forte]]: $\sigma\sim10^{-24}$ cm$^{2}$.
+
+In casi di particelle comuni si ha
+- $\sigma_{pp}(10\text{ GeV})\sim40\text{ mb }=4\times10^{-26}\text{ cm}^{2}$ per la [[Diffusione di particelle|diffusione]] [[protone]] protone (interazione forte)
+- $\sigma_{pp}(13\text{ TeV})\sim110\text{ mb}=1.1\times10^{-25}\text{ cm}^{2}$ per quella protone protone a energie più alte (interazione forte)
+- $\sigma_{\nu p}(10\text{ GeV})\sim70\text{ fb}=7\times10^{-38}\text{ cm}^{2}$ per quella [[neutrino]] protone (interazione debole)
+
+Per un fascio di particelle tipico con flusso di particelle incidenti
+$$I\sim10^{14}\frac{\text{particelle}}{\text{s}\times\text{cm}^{2}}$$
+che interagiscono forte ($\sigma\sim10^{-24}$ cm$^{2}$), il tasso di conversione di particelle stabili in una reattiva è $\sim10^{-10}s^{-1}$: un tasso estremamente piccolo.
 ## Sezione d'urto geometrica
 Consideriamo una targhetta rettangolare di spessore $d$ e superficie $A$
 

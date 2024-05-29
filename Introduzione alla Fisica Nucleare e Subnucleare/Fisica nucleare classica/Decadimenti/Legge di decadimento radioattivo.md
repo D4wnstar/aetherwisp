@@ -43,6 +43,8 @@ $$N_{1}=N_{0}e^{-\lambda t}\quad;\quad N_{2}=N_{0}(1-e^{-\lambda t})$$
 ossia
 $$N_{2}=N_{0}-N_{1} \quad \rightarrow \quad N_{0}=N_{1}+N_{2}$$
 quindi il numero di nuclei rimane costante, vengono solo modificati dalla specie 1 alla 2.
+
+Come già detto, questa legge perde validità anche se vengono aggiunti nuclei al campione durante il decadimento, dato che ciò produce nuova attività non prevista. Un esempio sarebbe aggiungere una certa quantità di materiale stabile in un reattore nucleare o in un acceleratore di particelle. In tal caso, bisogna considerare anche il tasso di produzione di nuovi nuclidi.
 #### Decadimenti multipli
 Consideriamo il caso più complesso in cui ci sono due tipi di decadimento. Chiamiamoli $a$ e $b$. Entrambi hanno una **costante di decadimento parziale**
 $$\lambda_{a}=- \frac{1}{N}\left(\frac{dN}{dt}\right)_{a}\quad;\quad\lambda_{b}=- \frac{1}{N}\left(\frac{dN}{dt}\right)_{b}$$
