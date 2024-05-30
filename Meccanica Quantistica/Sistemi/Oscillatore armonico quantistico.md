@@ -68,11 +68,14 @@ cioè esattamente metà dell'energia totale, come nel caso classico.
 ## Risultati
 Le $\psi_{n}$ così trovate sono curiosamente diverse dalle soluzioni del moto classico: da una parte, abbiamo che l'energia è quantizzata; dall'altra, notiamo fenomeni che né si osservano né si spiegano in meccanica classica, come il fatto che la probabilità che la particella si trovi al di fuori dell'ampiezza (classica) dell'oscillatore *non* è zero e che la probabilità di trovarsi al centro dell'oscillatore negli stati dispari è *sempre* 0.
 
+Si può inoltre definire uno [[stato coerente]] come l'unico autostato $|\alpha\rangle$ dell'operatore di distruzione
+$$a_{-}|z\rangle=\alpha |z\rangle$$
+con il suo autovalore associato $\alpha$. Questo stato è quello con la dinamica più simile a quella dell'oscillatore armonico classico ed è un esempio del principio di corrispondenza.
+
 Si nota anche che per stati di energia sufficientemente alti ($n\gg1$), la probabilità di osservare la particella in una data posizione è approssimativamente uguale quella classica, se si prende la media.
 
 ![[Stati stazionari oscillatore armonico quantistico.png]]
 *Da Introduction to Quantum Mechanics di Griffiths*
-
 
 ---
 

@@ -11,7 +11,7 @@ $$F=ma=m\ddot{x}=-kx$$
 che ci dà un'equazione differenziale lineare di secondo ordine
 $$\ddot{x}=- \frac{k}{m}x=-\omega^{2}x$$
 dove $\omega=\sqrt{k/m}$ è la frequenza angolare. La soluzione generale è della forma
-$$x(t)=A\cos(\omega t)+B\sin(\omega t)$$
+$$x(t)=A\cos(\omega t)+B\sin(\omega t)=C\cos(\omega t+\varphi)$$
 con le costanti determinate dalle condizioni al contorno, come di norma. Questo moto è periodico e il periodo è $T=2\pi/\omega$.
 
 La velocità e l'accelerazione oscillano con la stessa frequenza, ma hanno fase diversa dalla posizione. In particolare, la velocità è minima quando lo spostamento è massimo e viceversa.

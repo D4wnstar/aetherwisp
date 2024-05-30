@@ -6,12 +6,13 @@ Indipendente dal tempo:
 $$\hat{H}\psi=E\psi$$
 Caso dipendente da quello indipendente 1D e 3D:
 $$\Psi(q,t)=\sum\limits_{n=1}^{\infty}c_{n}\psi_{n}(q)e^{iE_{n}t/\hbar}=\sum\limits_{n=1}^{\infty}c_{n}\Psi_{n}(q,t); \quad \Psi(\vec{r},t)=\sum\limits_{n=1}^{\infty}c_{n}\Psi_{n}(\vec{r},t)$$
-In $\hat{q}_{t}$
-$$\frac{d\hat{q}_{t}}{dt}=\frac{i}{\hbar}[\hat{H},\hat{q}_{t}]$$
 In coordinate sferiche
 $$- \frac{\hbar^{2}}{2m}\left[\frac{1}{r^{2}}\frac{\partial }{\partial r}\left(r^{2}\frac{\partial \psi}{\partial r}\right)+ \frac{1}{r^{2}\sin\theta}\frac{\partial }{\partial \theta}\left(\sin\theta \frac{\partial \psi}{\partial \theta}\right)+ \frac{1}{r^{2}\sin^{2}\theta}\left(\frac{\partial ^{2}\psi}{\partial \phi^{2}}\right)\right] + V\psi=E\psi$$
 La probabilità di misurare un certo autostato $|\phi\rangle$ al tempo $t$ è
 $$P_{\psi_{t}}(\phi)=|\langle \phi|\psi_{t}\rangle|^{2}$$
+### Equazioni di Heisenberg
+$$\frac{d\hat{q}}{dt}=\frac{i}{\hbar}[\hat{H},\hat{q}]$$
+$$\frac{d \hat{p}}{dt}=\frac{i}{\hbar}[\hat{H},\hat{p}]$$
 ### Disuguaglianza di Heisenberg
 In posizione e momento
 $$\Delta \hat{q}\Delta \hat{p}\geq \frac{\hbar}{2}$$
@@ -36,6 +37,8 @@ La posizione commuta sempre con la posizione; la quantità di moto commuta sempr
 
 $$[\hat{q},\hat{p}]=i\hbar; \quad [\hat{H},\hat{q}]=- \frac{i\hbar}{m}\hat{p}; \quad [\hat{H},\hat{p}]=0$$
 Se $[\hat{H},\hat{Q}]=0$, allora $\hat{Q}$ è una costante del moto.
+
+Operatori relativi a gradi di libertà differenti commutano sempre. Per esempio, $[\vec{J},\vec{S}]$ o $[\vec{J},\vec{L}]$.
 ### Matrici di Pauli
 $$\hat{\sigma}_{x}=\pmatrix{0 & 1 \\ 1 & 0},\;\hat{\sigma}_{y}=\pmatrix{0 & -i \\ i & 0},\;\hat{\sigma}_{z}=\pmatrix{1 & 0 \\ 0 & -1}$$
 tutte con autovalori $\pm1$. Sono autoaggiunte: $\hat{\sigma}_{i}^{\dagger}=\hat{\sigma}_{i}$. I quadrati sono unitari: $\hat{\sigma}_{i}^{2}=\hat{\mathbb{1}}$. Gli autovettori sono
@@ -44,31 +47,39 @@ $$y_{+}: \frac{1}{\sqrt{2}}\pmatrix{1 \\ i}, \quad y_{-}: \frac{1}{\sqrt{2}}\pma
 $$z_{+}: \pmatrix{1 \\ 0}, \quad z_{-}: \pmatrix{0 \\ 1}$$
 ### Matrice di Hadamard
 $$U= \frac{1}{\sqrt{2}}\pmatrix{1 & 1 \\ 1 & -1}=(|\uparrow x\;\rangle |\downarrow x\;\rangle)$$
+### Prodotto tensoriale
+$$v\otimes w=\pmatrix{v_{1}\\ v_{2}}\otimes\pmatrix{w_{1} \\ w_{2}}=\pmatrix{v_{1} & \pmatrix{w_{1} \\ w_{2}} \\ v_{2} & \pmatrix{w_{1} \\ w_{2}}}=\pmatrix{v_{1}w_{1} \\ v_{1}w_{2} \\ v_{2}w_{1} \\ v_{2}w_{2}}$$
 ### Momento angolare
 $$\hat{L}_{x}=\frac{\hbar y}{i}\frac{\partial }{\partial z}- \frac{\hbar z}{i}\frac{\partial }{\partial y}, \quad \hat{L}_{y}=\frac{\hbar z}{i}\frac{\partial }{\partial x}- \frac{\hbar x}{i}\frac{\partial }{\partial z}, \quad \hat{L}_{z}=\frac{\hbar x}{i}\frac{\partial }{\partial y}- \frac{\hbar y}{i}\frac{\partial }{\partial x}$$
 $$[L_{x},L_{y}]=i\hbar L_{z}, \quad [L_{y},L_{z}]=i\hbar L_{x}, \quad [L_{z},L_{x}]=i\hbar L_{y}$$
-$$[L^{2},L_{z}]=0$$
+$$[L^{2},L_{z}]=0; \quad L^{2}=\hbar^{2}l(l+1)$$
 $$L^{2}Y_{lm}=\hbar^{2}l(l+1)Y_{lm}, \quad L_{z}Y_{lm}=\hbar mY_{lm}$$
+$$l=0,\;1/2,\;1,\;3/2,\;2,\ldots\quad; \quad m=-l,-l+1,\ldots,0,\ldots,l-1,l$$
 Operatori di creazione e distruzione
 $$L_{\pm}\equiv L_{x}\pm iL_{y}$$
+$$L_{\pm}|sm\rangle=\hbar\sqrt{l(l+1)-m(m\pm1)}|l(m\pm1)\rangle$$
 $$L^{2}=L_{\pm}L_{\mp}+L^{2}_{z}\mp\hbar L_{z}$$
 Gli autovalori sono gli stessi per tutte le componenti $L_{x}$, $L_{y}$ e $L_{z}$.
 ### Spin
 $$[S^{2},S_{z}]=0$$
-$$\boxed{\hat{\mathbf{S}}=\frac{\hbar}{2}\hat{\sigma}}$$
+$$\hat{\mathbf{S}}=\frac{\hbar}{2}\hat{\sigma}$$
 con $\hat{\sigma}$ le matrici di Pauli.
-
+ 
 Equazioni agli autovalori
 $$S^{2}|sm_{s}\rangle=\hbar^{2}s(s+1)|sm_{s}\rangle, \quad S_{z}|sm_{s}\rangle=\hbar m_{s} |sm_{s}\rangle$$
+$$s=0,\frac{1}{2},1,\frac{3}{2},\ldots; \quad m_{s}=-s,-s+1,\ldots,0,\ldots,s-1,s$$
 Operatori di creazione e distruzione
-$$S_{\pm}|sm\rangle=\hbar\sqrt{s(s+1)-m(m\pm1)}|s(m\pm1)\rangle$$
 $$S_{\pm}=S_{x}\pm iS_{y}$$
+$$S_{\pm}|sm\rangle=\hbar\sqrt{s(s+1)-m(m\pm1)}|s(m\pm1)\rangle$$
 Per spin 1/2
 $$\mathbf{S}_{+}|\downarrow\;\rangle=\hbar |\uparrow\;\rangle, \quad \mathbf{S}_{-}|\uparrow\;\rangle=\hbar |\downarrow\;\rangle, \quad \mathbf{S}_{+}|\uparrow\;\rangle=\mathbf{S}_{-}|\downarrow\;\rangle=0$$
 
 La somma di spin in un sistema a due particelle con spin $s_{1}$ e $s_{2}$ è tra $|s_{1}-s_{2}|$ e $s_{1}+s_{2}$, a passi interi. Per una coppia di due particelle con $s=1/2$ è 0 o 1.
 
 Gli autovalori sono gli stessi per tutte le componenti $S_{x}$, $S_{y}$ e $S_{z}$.
+### Momento angolare totale
+$$\vec{J}=\vec{L}+\vec{S}, \quad [\vec{J},\vec{L}], \quad [\vec{J},\vec{S}]$$
+$$J^{2}|jm_{j}\rangle=\hbar^{2}j(j+1)|jm_{j}\rangle,\quad J_{z}|jm_{j}\rangle=\hbar m_{j}|jm_{j}\rangle$$
 ### Rappresentazioni
 Posizione
 $$\Psi(x,t)=\langle x|\psi(t)\rangle$$
@@ -132,6 +143,8 @@ $$a_{\pm}\equiv \frac{1}{\sqrt{2\hbar m\omega}}(\mp ip+m\omega x)$$
 $$a_{+}\psi_{n}=\sqrt{n+1}\psi_{n+1},\quad a_{-}\psi_{n}=\sqrt{n}\psi_{n-1}$$
 $$a_{+}a_{-}\psi_{n}=n\psi_{n},\quad a_{-}a_{+}\psi_{n}=(n+1)\psi_{n}$$
 $$q=\sqrt{\frac{\hbar}{2m\omega}}(a_{+}+a_{-})\quad;\quad p=i\sqrt{\frac{\hbar m\omega}{2}}(a_{+}-a_{-})$$
+Caso classico
+$$\ddot{q}=- \frac{k}{m}q=-\omega^{2}q \quad ; \quad q(t)=A\cos(\omega t)+B\sin(\omega t)=C\cos(\omega t+\varphi)$$
 ### Particella libera
 Ammette solo stati liberi
 $$V=0; \quad \phi(k)=\frac{1}{\sqrt{2\pi}}\int_{-\infty}^{+\infty}\Psi(x,0)e^{-ikx}dx; \quad \Psi(x,t)=\frac{1}{\sqrt{2\pi}}\int_{-\infty}^{+\infty}\phi(k)e^{ik[x-(\hbar k/2m)t]}dk$$

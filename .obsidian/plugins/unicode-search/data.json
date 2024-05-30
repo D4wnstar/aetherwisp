@@ -5,16 +5,16 @@
   },
   "data": [
     {
+      "char": "È",
+      "name": "latin capital letter e with grave",
+      "useCount": 61,
+      "lastUsed": 1717096899612
+    },
+    {
       "char": "⨉",
       "name": "n-ary times operator",
       "useCount": 2,
       "lastUsed": 1716994819197
-    },
-    {
-      "char": "È",
-      "name": "latin capital letter e with grave",
-      "useCount": 60,
-      "lastUsed": 1716994821265
     },
     {
       "char": "ö",
