@@ -42,7 +42,7 @@ $$\ldots=e^{-|z|^{2}/2}\sum\limits_{k=0}^{\infty} \frac{z^{k}}{k!}\hat{U}_{t}(\h
 $$=\ldots=e^{-|z|^{2}/2}\sum\limits_{k=0}^{\infty} \frac{z^{k}}{k!}e^{-i\omega tk}(\hat{a}^{+})^{k}e^{- (i/\omega)t(\hat{n}+1/2)}|0\rangle=e^{-|z|^{2}/2}\sum\limits_{k=0}^{\infty} \left(\frac{ze^{-i\omega t}}{k!}\right)^{k}e^{-i\omega t/2}\sqrt{k!}|k\rangle=$$
 $$=e^{-i\omega t/2}e^{-|z\exp(-i\omega t)|^{2}/2}\sum\limits_{k=0}^{\infty}\frac{(ze^{-i\omega t})^{k}}{\sqrt{k!}}|k\rangle$$
 e quindi
-$$\boxed{|z_{t}\rangle=e^{-i\omega t/2}|e^{-i\omega t}z\rangle}$$
+$$|z_{t}\rangle=e^{-i\omega t/2}|e^{-i\omega t}z\rangle$$
 ### Probabilità
 A ciascuno stato coerente è associata una distribuzione di probabilità
 $$P(n|z)=|\langle n|z\rangle|^{2}=\frac{e^{-|z|^{2}/2}}{\sqrt{n!}}z^{-n}\frac{e^{-|z|^{2}/2}}{\sqrt{n!}}z^{n}=e^{-|z|^{2}} \frac{|z|^{2n}}{n!}$$
