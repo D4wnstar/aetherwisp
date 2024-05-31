@@ -1,9 +1,10 @@
 ## Matematica
 ### Equazione di Schrödinger e funzione d'onda
 Equazione di Schrödinger dipendente dal tempo:
-$$i\hbar \frac{\partial }{\partial t}|\Psi\rangle=\hat{H}|\Psi\rangle$$
+$$i\hbar \frac{\partial }{\partial t}|\Psi\rangle=\hat{H}|\Psi\rangle=- \frac{\hbar^{2}}{2m} \frac{\partial ^{2}}{\partial x^{2}}|\Psi\rangle+V |\Psi\rangle$$
 Indipendente dal tempo:
 $$\hat{H}\psi=E\psi$$
+$$- \frac{\hbar^{2}}{2m} \frac{d^{2}\psi}{dx^{2}}(x) + V(x)\psi(x)=E\psi(x)$$
 Caso dipendente da quello indipendente 1D e 3D:
 $$\Psi(q,t)=\sum\limits_{n=1}^{\infty}c_{n}\psi_{n}(q)e^{iE_{n}t/\hbar}=\sum\limits_{n=1}^{\infty}c_{n}\Psi_{n}(q,t); \quad \Psi(\vec{r},t)=\sum\limits_{n=1}^{\infty}c_{n}\Psi_{n}(\vec{r},t)$$
 In coordinate sferiche
@@ -43,6 +44,16 @@ $$[\hat{q},\hat{p}]=i\hbar; \quad [\hat{H},\hat{q}]=- \frac{i\hbar}{m}\hat{p}; \
 Se $[\hat{H},\hat{Q}]=0$, allora $\hat{Q}$ è una costante del moto.
 
 Operatori relativi a gradi di libertà differenti commutano sempre. Per esempio, $[\vec{J},\vec{S}]$ o $[\vec{J},\vec{L}]$.
+### Proiettori
+$$\hat{P}_\psi=|\psi\rangle\langle\psi| \quad ; \quad \hat{P}_{\psi}|\phi\rangle=\langle\psi|\phi\rangle|\psi\rangle$$
+Presa una base ortonormale ${|i\rangle}_{i\in\mathbb{N}}$, il proiettore dà l'$i$-esimo coefficiente di Fourier (i.e. la componente $i$-esima) di un ket
+$$\hat{P}_{i}|\phi\rangle=|i\rangle\langle i|\phi\rangle=|\phi_{i}\rangle$$
+e se stesso se proiettato su se stesso
+$$\hat{P}_{\psi}|\psi\rangle=\langle \psi|\psi\rangle|\psi\rangle=|\psi\rangle$$
+Relazione di completezza (discreta e continua)
+$$\sum\limits_{i=1}^{n}\hat{P}_{\psi_{i}}=\hat{\mathbb{1}} \quad ; \quad \int_{-\infty}^{+\infty}|e_{z}\rangle\langle e_{z}|dz=\hat{\mathbb{1}}$$
+Idempotenza
+$$\hat{P}^{2}=\hat{P}$$
 ### Matrici di Pauli
 $$\hat{\sigma}_{x}=\pmatrix{0 & 1 \\ 1 & 0},\;\hat{\sigma}_{y}=\pmatrix{0 & -i \\ i & 0},\;\hat{\sigma}_{z}=\pmatrix{1 & 0 \\ 0 & -1}$$
 tutte con autovalori $\pm1$. Sono autoaggiunte: $\hat{\sigma}_{i}^{\dagger}=\hat{\sigma}_{i}$. I quadrati sono unitari: $\hat{\sigma}_{i}^{2}=\hat{\mathbb{1}}$. Gli autovettori sono
@@ -148,6 +159,9 @@ con gli operatori di creazione e distruzione $a=a_{-}$ e $a^{\dagger}=a_{+}$
 $$a_{\pm}\equiv \frac{1}{\sqrt{2\hbar m\omega}}(\mp ip+m\omega x)$$
 $$a_{+}\psi_{n}=\sqrt{n+1}\psi_{n+1},\quad a_{-}\psi_{n}=\sqrt{n}\psi_{n-1}$$
 $$\text{operatore numero: }a_{+}a_{-}\psi_{n}=n\psi_{n},\quad a_{-}a_{+}\psi_{n}=(n+1)\psi_{n}$$
+Autostati dell'operatore numero
+$$|n\rangle= \frac{(a^{+})^{n_{a}}}{\sqrt{n!}}|0\rangle$$
+Posizione e momento in termini di operatori di creazione e distruzione
 $$q=\sqrt{\frac{\hbar}{2m\omega}}(a_{+}+a_{-})\quad;\quad p=i\sqrt{\frac{\hbar m\omega}{2}}(a_{+}-a_{-})$$
 Caso classico
 $$\ddot{q}=- \frac{k}{m}q=-\omega^{2}q \quad ; \quad q(t)=A\cos(\omega t)+B\sin(\omega t)=C\cos(\omega t+\varphi)$$
@@ -177,3 +191,5 @@ Per $n$-volte degeneri basta aumentare la dimensione della matrice.
 	- Disuguaglianza di Schwarz: $\langle v|w\rangle\leq||v||\,||w||$.
 	- Decomposizione spettrale (vedi sopra)
 - Conviene sempre controllare la forma delle equazioni prima di usare formule fatte e finite (ad es. sostituire la perturbazione nell'Hamiltoniana prima di cercare le correzioni).
+- L'integrazione per parti è utile casomai si debba risolvere un integrale: $\int_{a}^{b} fg'=fg|_{a}^{b}-\int_{a}^{b}f'g$.
+- Cambiare forma all'equazione è utile per vedere nuove relazioni (ad es. prendere la norma di qualcosa, specialmente un operatore su un vettore).
