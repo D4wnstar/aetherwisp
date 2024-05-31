@@ -1,5 +1,7 @@
 Uno **stato coerente** è un qualunque [[Equazione agli autovalori|autostato]] dell'[[Operatori di creazione e distruzione|operatore di distruzione]] $\hat{a}$ e ha la forma
 $$|z\rangle=e^{-|z|^{2}/2} \sum\limits_{n=0}^{\infty} \frac{z^{n}}{\sqrt{n!}}|n\rangle$$
+dove $z$ l'autovalore dell'operatore e vale
+$$z=e^{-i\omega t}$$
 ### Proprietà
 Gli stati coerenti, sebbene siano [[Normalizzazione|normalizzati]], non sono [[Ortogonalità|ortogonali]] fra loro:
 $$\langle z_{1}|z_{2}\rangle=\exp\left(- \frac{1}{2}(|z_{1}|^{2}+|z|^{2})+ z_{1}^{*}z_{2}\right)$$

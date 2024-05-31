@@ -55,6 +55,8 @@ dove l'[[Hamiltoniana]] è $H=p^{2}/2m+V$. Allora
 $$\frac{d}{dt}\left\langle Q \right\rangle=- \frac{1}{i\hbar}\langle \hat{H}\Psi|\hat{Q}\Psi\rangle+ \frac{1}{i\hbar}\langle \Psi|\hat{Q}\hat{H}\Psi\rangle+\left\langle \frac{\partial \hat{Q}}{\partial t} \right\rangle$$
 Ma $\hat{H}$ è autoaggiunto, quindi $\langle \hat{H}\Psi|\hat{Q}\Psi\rangle=\langle \Psi|\hat{H}\hat{Q}\Psi\rangle$ e allora
 $$\boxed{\frac{d}{dt}\left\langle Q \right\rangle=\frac{i}{\hbar}\left\langle [\hat{H},\hat{Q}] \right\rangle+\left\langle \frac{\partial \hat{Q}}{\partial t} \right\rangle}$$
+Questa equazione, detta [[equazione di Heisenberg]], forma la base della [[Rappresentazioni della meccanica quantistica|rappresentazione di Heisenberg]], dove l'evoluzione temporale è data agli operatori.
+
 Nel caso comune[^2] di un operatore $\hat{Q}$ che non dipende dal tempo, $\partial \hat{Q}/\partial t=0$, quindi la derivata temporale di un'osservabile è direttamente proporzionale al suo commutatore con l'Hamiltoniana del sistema.
 
 > **Risultato.** Se un'osservabile $\hat{Q}$ commuta con $\hat{H}$, ossia $[\hat{Q},\hat{H}]=0$, allora $Q$ è una [[costante del moto]].
