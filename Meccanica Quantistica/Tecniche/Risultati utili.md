@@ -11,8 +11,10 @@ $$- \frac{\hbar^{2}}{2m}\left[\frac{1}{r^{2}}\frac{\partial }{\partial r}\left(r
 La probabilità di misurare un certo autostato $|\phi\rangle$ al tempo $t$ è
 $$P_{\psi_{t}}(\phi)=|\langle \phi|\psi_{t}\rangle|^{2}$$
 ### Equazioni di Heisenberg
-$$\frac{d\hat{q}}{dt}=\frac{i}{\hbar}[\hat{H},\hat{q}]$$
-$$\frac{d \hat{p}}{dt}=\frac{i}{\hbar}[\hat{H},\hat{p}]$$
+Generale
+$$\frac{d}{dt}\hat{A}(t)=\frac{i}{\hbar}[\hat{H},\hat{A}(t)]$$
+Per posizione e momento
+$$\frac{d\hat{q}}{dt}=\frac{i}{\hbar}[\hat{H},\hat{q}]\quad;\quad\frac{d \hat{p}}{dt}=\frac{i}{\hbar}[\hat{H},\hat{p}]$$
 ### Disuguaglianza di Heisenberg
 In posizione e momento
 $$\Delta \hat{q}\Delta \hat{p}\geq \frac{\hbar}{2}$$
@@ -82,17 +84,13 @@ Gli autovalori sono gli stessi per tutte le componenti $S_{x}$, $S_{y}$ e $S_{z}
 ### Momento angolare totale
 $$\vec{J}=\vec{L}+\vec{S}, \quad [\vec{J},\vec{L}], \quad [\vec{J},\vec{S}]$$
 $$J^{2}|jm_{j}\rangle=\hbar^{2}j(j+1)|jm_{j}\rangle,\quad J_{z}|jm_{j}\rangle=\hbar m_{j}|jm_{j}\rangle$$
-### Rappresentazioni
+### Rappresentazioni di stato
 Posizione
 $$\Psi(x,t)=\langle x|\psi(t)\rangle$$
 Momento
 $$\Phi(p,t)=\langle p|\psi(t)\rangle$$
 Coefficienti dell'Hamiltoniana
 $$c_{n}(t)=\langle n|\psi(t)\rangle$$
-Interazione
-$$i\hbar \frac{\partial }{\partial t}|\psi_{I}(t)\rangle=H_{I}(t)|\psi_{I}(t)\rangle$$
-dove
-$$H_{I}(t)=\hat{U}^{+}H\hat{U}; \quad |\psi_{I}(t)\rangle=\hat{U}^{+}|\psi(t)\rangle$$
 Decomposizione spettrale di un qualunque operatore in una base ortonormale $\{e_{n}\}$
 $$T=\sum\limits_{n}t_{n} e_{n}^{*}\cdot e_{n}=\sum\limits_{n}t_{n}|e_{n}\rangle \langle e_{n}|=\sum\limits_{n}t_{n}\hat{P}_{e_{n}}$$
 dove deve valere
@@ -101,15 +99,21 @@ Se l'operatore modifica l'autovettore (come quelli di creazione/distruzione) del
 $$T e_{n}^{(1)}=t_{n}e_{n}^{(2)}$$
 allora
 $$T=\sum\limits_{n}t_{n}|e_{n}^{(2)}\rangle \langle e_{n}^{(1)}|$$
+### Rappresentazioni di evoluzione
+Di Schrödinger (con equazione di Schrödinger)
+$$|\psi_{t}\rangle=U_{t}|\psi\rangle$$
+Di Heisenberg (con equazione di Heisenberg)
+$$\hat{A}_{t}=U_{t}^{+}\hat{A}U_{t}$$
+Di interazione
+$$i\hbar \frac{\partial }{\partial t}|\psi_{I}(t)\rangle=H_{I}(t)|\psi_{I}(t)\rangle$$
+dove
+$$H_{I}(t)=\hat{U}^{+}H\hat{U}; \quad |\psi_{I}(t)\rangle=\hat{U}^{+}|\psi(t)\rangle$$
 ### Armoniche sferiche
 Le prime armoniche sferiche sono
 $$\begin{align}
 Y_{0}^{0}&=\sqrt{\frac{1}{4\pi}} \\
 Y_{1}^{0}&=\sqrt{\frac{3}{4\pi}}\cos\theta \\
 Y_{1}^{\pm1}&=\mp\sqrt{\frac{3}{8\pi}}\sin\theta e^{\pm i\phi} \\
-Y_{2}^{0}&=\sqrt{\frac{5}{16\pi}}(3\cos^{2}\theta-1) \\
-Y_{2}^{\pm1}&=\mp\sqrt{\frac{15}{8\pi}}\sin\theta\cos\theta e^{\pm i\phi} \\
-Y_{2}^{\pm2}&=\sqrt{\frac{15}{32\pi}}\sin^{2}\theta e^{\pm2i\phi}
 \end{align}$$
 e sono ortonormali fra loro
 $$\int_{0}^{2\pi}\int_{0}^{\pi}(Y_{l}^{m})^{*}Y_{l'}^{m'}\sin\theta d\theta d\phi=\langle Y_{l}^{m}|Y_{l'}^{m'}\rangle=\delta_{mm'}\delta_{ll'}$$
@@ -143,7 +147,7 @@ $$V(x)=\frac{1}{2}m\omega^{2}x^{2}; \quad \psi_{n}=\frac{1}{\sqrt{n!}}(a_{+})^{n
 con gli operatori di creazione e distruzione $a=a_{-}$ e $a^{\dagger}=a_{+}$
 $$a_{\pm}\equiv \frac{1}{\sqrt{2\hbar m\omega}}(\mp ip+m\omega x)$$
 $$a_{+}\psi_{n}=\sqrt{n+1}\psi_{n+1},\quad a_{-}\psi_{n}=\sqrt{n}\psi_{n-1}$$
-$$a_{+}a_{-}\psi_{n}=n\psi_{n},\quad a_{-}a_{+}\psi_{n}=(n+1)\psi_{n}$$
+$$\text{operatore numero: }a_{+}a_{-}\psi_{n}=n\psi_{n},\quad a_{-}a_{+}\psi_{n}=(n+1)\psi_{n}$$
 $$q=\sqrt{\frac{\hbar}{2m\omega}}(a_{+}+a_{-})\quad;\quad p=i\sqrt{\frac{\hbar m\omega}{2}}(a_{+}-a_{-})$$
 Caso classico
 $$\ddot{q}=- \frac{k}{m}q=-\omega^{2}q \quad ; \quad q(t)=A\cos(\omega t)+B\sin(\omega t)=C\cos(\omega t+\varphi)$$
@@ -171,4 +175,5 @@ Per $n$-volte degeneri basta aumentare la dimensione della matrice.
 - Usa le proprietà degli operatori (unitarietà e autoaggiuntezza sono le più importanti).
 - Usa i risultati dell'algebra lineare, anche al di là di quantistica. Vedi:
 	- Disuguaglianza di Schwarz: $\langle v|w\rangle\leq||v||\,||w||$.
+	- Decomposizione spettrale (vedi sopra)
 - Conviene sempre controllare la forma delle equazioni prima di usare formule fatte e finite (ad es. sostituire la perturbazione nell'Hamiltoniana prima di cercare le correzioni).

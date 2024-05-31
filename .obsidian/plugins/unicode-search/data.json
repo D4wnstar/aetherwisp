@@ -5,22 +5,22 @@
   },
   "data": [
     {
+      "char": "ö",
+      "name": "latin small letter o with diaeresis",
+      "useCount": 13,
+      "lastUsed": 1717149440553
+    },
+    {
       "char": "È",
       "name": "latin capital letter e with grave",
-      "useCount": 61,
-      "lastUsed": 1717096899612
+      "useCount": 63,
+      "lastUsed": 1717149308828
     },
     {
       "char": "⨉",
       "name": "n-ary times operator",
       "useCount": 2,
       "lastUsed": 1716994819197
-    },
-    {
-      "char": "ö",
-      "name": "latin small letter o with diaeresis",
-      "useCount": 8,
-      "lastUsed": 1716801776504
     },
     {
       "char": "~",
