@@ -31,4 +31,4 @@ Preso un operatore $T$ con un sistema ortonormale di [[Equazione agli autovalori
 $$Te_{n}=t_{n}e_{n}$$
 con $t_{n}$ gli autovalori associati, è possibile esprimere l'operatore con la sua **decomposizione spettrale**:
 $$T=\sum\limits_{n}t_{n} e_{n}^{*}\cdot e_{n}=\sum\limits_{n}t_{n}|e_{n}\rangle \langle e_{n}|=\sum\limits_{n}t_{n}\hat{P}_{e_{n}}$$
-dove si è scritto usando il complesso coniugato $*$, la [[notazione braket]] e il [[proiettore]] sul $n$-esimo vettore di base.
+dove si è scritto usando il complesso coniugato $*$, la [[notazione braket]] e il [[proiettore]] sul $n$-esimo vettore di base. I proiettori usati per la decomposizione sono solitamente chiamati **autoproiettori** associati all'operatore in quella base.

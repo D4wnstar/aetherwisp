@@ -45,6 +45,7 @@ Se $[\hat{H},\hat{Q}]=0$, allora $\hat{Q}$ è una costante del moto.
 
 Operatori relativi a gradi di libertà differenti commutano sempre. Per esempio, $[\vec{J},\vec{S}]$ o $[\vec{J},\vec{L}]$.
 ### Proiettori
+Autoaggiunti, traccia unitaria, autovalori 0 e 1.
 $$\hat{P}_\psi=|\psi\rangle\langle\psi| \quad ; \quad \hat{P}_{\psi}|\phi\rangle=\langle\psi|\phi\rangle|\psi\rangle$$
 Presa una base ortonormale ${|i\rangle}_{i\in\mathbb{N}}$, il proiettore dà l'$i$-esimo coefficiente di Fourier (i.e. la componente $i$-esima) di un ket
 $$\hat{P}_{i}|\phi\rangle=|i\rangle\langle i|\phi\rangle=|\phi_{i}\rangle$$
@@ -55,13 +56,19 @@ $$\sum\limits_{i=1}^{n}\hat{P}_{\psi_{i}}=\hat{\mathbb{1}} \quad ; \quad \int_{-
 Idempotenza
 $$\hat{P}^{2}=\hat{P}$$
 ### Matrici di Pauli
+Forma standard:
 $$\hat{\sigma}_{x}=\pmatrix{0 & 1 \\ 1 & 0},\;\hat{\sigma}_{y}=\pmatrix{0 & -i \\ i & 0},\;\hat{\sigma}_{z}=\pmatrix{1 & 0 \\ 0 & -1}$$
 tutte con autovalori $\pm1$. Sono autoaggiunte: $\hat{\sigma}_{i}^{\dagger}=\hat{\sigma}_{i}$. I quadrati sono unitari: $\hat{\sigma}_{i}^{2}=\hat{\mathbb{1}}$. Gli autovettori sono
 $$x_{+}: \frac{1}{\sqrt{2}}\pmatrix{1 \\ 1}, \quad x_{-}: \frac{1}{\sqrt{2}}\pmatrix{1 \\ -1}$$
 $$y_{+}: \frac{1}{\sqrt{2}}\pmatrix{1 \\ i}, \quad y_{-}: \frac{1}{\sqrt{2}}\pmatrix{1 \\ -i}$$
 $$z_{+}: \pmatrix{1 \\ 0}, \quad z_{-}: \pmatrix{0 \\ 1}$$
+Vale
+$$\sigma_{x}|\uparrow\,\rangle=|\downarrow\;\rangle, \quad \sigma_{x}|\downarrow\;\rangle=|\uparrow\;\rangle$$
 ### Matrice di Hadamard
 $$U= \frac{1}{\sqrt{2}}\pmatrix{1 & 1 \\ 1 & -1}=(|\uparrow x\;\rangle |\downarrow x\;\rangle)$$
+### Matrice di densità
+$$\hat{\rho}=\pmatrix{\rho & \sigma \\ \sigma^{*} & 1-\rho}$$
+dove $\rho\in[0,1]$ e $\sigma\in\mathbb{C}$. Ha traccia unitaria, è autoaggiunta.
 ### Prodotto tensoriale
 $$v\otimes w=\pmatrix{v_{1}\\ v_{2}}\otimes\pmatrix{w_{1} \\ w_{2}}=\pmatrix{v_{1} & \pmatrix{w_{1} \\ w_{2}} \\ v_{2} & \pmatrix{w_{1} \\ w_{2}}}=\pmatrix{v_{1}w_{1} \\ v_{1}w_{2} \\ v_{2}w_{1} \\ v_{2}w_{2}}$$
 ### Momento angolare
@@ -112,20 +119,16 @@ allora
 $$T=\sum\limits_{n}t_{n}|e_{n}^{(2)}\rangle \langle e_{n}^{(1)}|$$
 ### Rappresentazioni di evoluzione
 Di Schrödinger (con equazione di Schrödinger)
-$$|\psi_{t}\rangle=U_{t}|\psi\rangle$$
+$$|\psi_{t,S}\rangle=U_{t}|\psi\rangle$$
 Di Heisenberg (con equazione di Heisenberg)
-$$\hat{A}_{t}=U_{t}^{+}\hat{A}U_{t}$$
+$$\hat{A}_{t,H}=U_{t}^{+}\hat{A}U_{t}$$
 Di interazione
-$$i\hbar \frac{\partial }{\partial t}|\psi_{I}(t)\rangle=H_{I}(t)|\psi_{I}(t)\rangle$$
+$$H_{I}=H_{0}+H_{1}; \quad i\hbar \frac{\partial }{\partial t}|\psi_{I}(t)\rangle=H_{I}(t)|\psi_{I}(t)\rangle$$
 dove
-$$H_{I}(t)=\hat{U}^{+}H\hat{U}; \quad |\psi_{I}(t)\rangle=\hat{U}^{+}|\psi(t)\rangle$$
+$$|\psi_{I}(t)\rangle=U_{t,0}^{+}|\psi_{S}(t)\rangle; \quad \hat{A}_{I}(t)=U_{t,0}^{+}\hat{A}_{S}(t)U_{t,0}$$
 ### Armoniche sferiche
 Le prime armoniche sferiche sono
-$$\begin{align}
-Y_{0}^{0}&=\sqrt{\frac{1}{4\pi}} \\
-Y_{1}^{0}&=\sqrt{\frac{3}{4\pi}}\cos\theta \\
-Y_{1}^{\pm1}&=\mp\sqrt{\frac{3}{8\pi}}\sin\theta e^{\pm i\phi} \\
-\end{align}$$
+$$Y_{0}^{0}=\sqrt{\frac{1}{4\pi}};\quad Y_{1}^{0}=\sqrt{\frac{3}{4\pi}}\cos\theta;\quad Y_{1}^{\pm1}=\mp\sqrt{\frac{3}{8\pi}}\sin\theta e^{\pm i\phi}$$
 e sono ortonormali fra loro
 $$\int_{0}^{2\pi}\int_{0}^{\pi}(Y_{l}^{m})^{*}Y_{l'}^{m'}\sin\theta d\theta d\phi=\langle Y_{l}^{m}|Y_{l'}^{m'}\rangle=\delta_{mm'}\delta_{ll'}$$
 Vale che
@@ -190,6 +193,8 @@ Per $n$-volte degeneri basta aumentare la dimensione della matrice.
 - Usa i risultati dell'algebra lineare, anche al di là di quantistica. Vedi:
 	- Disuguaglianza di Schwarz: $\langle v|w\rangle\leq||v||\,||w||$.
 	- Decomposizione spettrale (vedi sopra)
+	- Traccia: $\mbox{Tr}(\hat{A})=\sum\limits_{n}^{\infty}\langle\phi_{n}| \hat{A}|\phi_{n}\rangle$, con $\phi_{n}$ autovettori di $\hat{A}$.
 - Conviene sempre controllare la forma delle equazioni prima di usare formule fatte e finite (ad es. sostituire la perturbazione nell'Hamiltoniana prima di cercare le correzioni).
 - L'integrazione per parti è utile casomai si debba risolvere un integrale: $\int_{a}^{b} fg'=fg|_{a}^{b}-\int_{a}^{b}f'g$.
 - Cambiare forma all'equazione è utile per vedere nuove relazioni (ad es. prendere la norma di qualcosa, specialmente un operatore su un vettore).
+- Identificare i vettori su cui proiettano dei proiettori è estremamente laborioso, quindi dovrebbe essere sempre ovvio.

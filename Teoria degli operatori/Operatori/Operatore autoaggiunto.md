@@ -19,4 +19,6 @@ Si dimostra che un operatore hermitiano il cui dominio è l'intero [[spazio di H
 
 Si dimostra anche che gli [[Equazione agli autovalori|autovettori]] di un operatore autoaggiunto formano una [[base]] di $H$.
 
+Per il [[teorema spettrale]], ogni operatore autoaggiunto in $\mathbb{C}^{n}$ ha $n$ autovettori [[Ortonormalità|ortonormali]] e $n$ autovalori reali. In dimensione infinita, essi formano un [[sistema ortonormale completo]].
+
 La somma di prodotti hermitiani è hermitiana.

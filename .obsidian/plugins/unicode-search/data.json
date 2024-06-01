@@ -5,16 +5,16 @@
   },
   "data": [
     {
+      "char": "È",
+      "name": "latin capital letter e with grave",
+      "useCount": 67,
+      "lastUsed": 1717241619830
+    },
+    {
       "char": "ö",
       "name": "latin small letter o with diaeresis",
       "useCount": 13,
       "lastUsed": 1717149440553
-    },
-    {
-      "char": "È",
-      "name": "latin capital letter e with grave",
-      "useCount": 63,
-      "lastUsed": 1717149308828
     },
     {
       "char": "⨉",

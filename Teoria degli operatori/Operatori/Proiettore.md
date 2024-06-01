@@ -3,6 +3,23 @@ $$\hat{P}_\psi=|\psi\rangle\langle\psi|$$
 e applicato ad un vettore $|\phi\rangle$ si scrive
 $$\hat{P}_{\psi}|\phi\rangle=\langle\psi|\phi\rangle|\psi\rangle$$
 Il numero risultante (se si proietta su uno spazio 1D) appartiene al sottospazio unidimensionale generato da $|\psi\rangle$.
+### Proprietà
+Un proiettore è un operatore [[idempotenza|idempotente]]
+$$\hat{P}_{\psi}^{2}=\hat{P}_{\psi}\hat{P}_{\psi}=(|\psi\rangle\langle \psi|)(|\psi\rangle\langle \psi|)=\langle \psi|\psi\rangle|\psi\rangle\langle \psi|=\hat{P}_{\psi}$$
+e vale $\hat{P}_{\psi}^{0}=0$.
+
+È [[Operatore autoaggiunto|autoaggiunto]], infatti
+$$\langle \phi|\hat{P}_{x}\psi\rangle=\langle \hat{P}_{x}\phi+\phi-\tilde{\phi}|\hat{P}_{x}\psi\rangle=\langle \hat{P}_{x}\phi|\hat{P}_{x}\psi\rangle=\langle \hat{P}_{x}\phi|\hat{P}_{x}\psi+\psi-\tilde{\psi}\rangle=\langle \hat{P}_{x}\phi|\psi\rangle$$
+
+Ha [[traccia]] unitaria
+$$\text{Tr}(\hat{P}_{\psi})=1$$
+e gli [[Equazione agli autovalori|autovalori]] sono sempre 0 e 1.
+
+Poiché sono autoaggiunti, hanno traccia unitaria e autovalori 0 e 1, i proiettori possono essere rappresentati come [[Matrice di densità|matrici di densità]].
+
+Per dimostrare che un operatore è un proiettore bisogna dimostrare
+- l'autoaggiuntezza
+- l'idempotenza
 ### Proiettore su base ortonormale
 Presa una [[base]] [[Ortonormalità|ortonormale]] discreta $|\psi\rangle$ costituita da $\{|\psi_{i}\rangle\}^{n}_{i=1}$, si può definire l'operatore
 $$\hat{P}_{i}=|i\rangle\langle i|$$
@@ -12,17 +29,6 @@ dato che $\langle i|\phi\rangle$ le componenti $\phi_{i}$. Per questo operatore 
 $$\sum\limits_{i=1}^{n}\hat{P}_{\psi_{i}}=\hat{\mathbb{1}}$$
 Questo risultato si estende immediatamente anche al caso a dimensione infinita discreta, prendendo un [[Sistema ortonormale completo]]. Nel caso di un sistema a dimensione infinita continua, c'è bisogno che sia [[Ortonormalità|Dirac-ortonormale]], in qual caso la relazione di completezza diventa
 $$\int_{-\infty}^{+\infty}|e_{z}\rangle\langle e_{z}|dz=\hat{\mathbb{1}}$$
-### Proprietà
-Il proiettore è un operatore [[idempotenza|idempotente]]
-$$\hat{P}_{\psi}^{2}=\hat{P}_{\psi}\hat{P}_{\psi}=(|\psi\rangle\langle \psi|)(|\psi\rangle\langle \psi|)=\langle \psi|\psi\rangle|\psi\rangle\langle \psi|=\hat{P}_{\psi}$$
-e vale $\hat{P}_{\psi}^{0}=0$.
-
-Il proiettore è [[Operatore autoaggiunto|autoaggiunto]], infatti
-$$\langle \phi|\hat{P}_{x}\psi\rangle=\langle \hat{P}_{x}\phi+\phi-\tilde{\phi}|\hat{P}_{x}\psi\rangle=\langle \hat{P}_{x}\phi|\hat{P}_{x}\psi\rangle=\langle \hat{P}_{x}\phi|\hat{P}_{x}\psi+\psi-\tilde{\psi}\rangle=\langle \hat{P}_{x}\phi|\psi\rangle$$
-
-Per dimostrare che un operatore è un proiettore bisogna dimostrare
-- l'autoaggiuntezza
-- l'idempotenza
 ### Risultati utili
 La somma di tutte le proiezioni su una base ortonormale è il vettore stesso, grazie alla completezza:
 $$|\psi\rangle=\sum\limits_{i=1}^{n}\langle i|\psi\rangle|i\rangle=\sum\limits_{i=1}^{n}|i\rangle\langle i|\psi\rangle=\left(\sum\limits_{i=1}^{n}\hat{P}_{i}\right)|\psi\rangle$$

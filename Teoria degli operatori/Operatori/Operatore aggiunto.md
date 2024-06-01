@@ -8,7 +8,9 @@ Se l'operatore $T$ è limitato, allora ha sempre un aggiunto $T^{+}$ ed è anch'
 ### Proprietà
 Valgono le seguenti proprietà per due operatori limitati $T$ ed $S$
 1. $(T^{+})^{+}=T$
-2. $(TS)^{+}=S^{+}T^{+}$
+2. $(T+S)^{+}=T^{+}+S^{+}$
+3. $(\lambda T)^{+}=\lambda^{*}T^{+}$
+4. $(TS)^{+}=S^{+}T^{+}$
 ### Forma matriciale
 Dato che gli operatori aggiunti sono lineari, possono essere espressi in forma matriciale. In particolare, calcolando esplicitamente gli elementi si trova
 $$(T^{+})_{ij}=(e_{i},T^{+}e_{j})=(Te_{i},e_{j})=(e_{j},Te_{i})^{*}=T_{ji}^{*}$$

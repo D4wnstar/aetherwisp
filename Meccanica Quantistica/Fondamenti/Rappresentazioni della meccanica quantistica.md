@@ -13,7 +13,7 @@ dove $|\psi_{t}\rangle$ rappresenta lo stato al tempo $t$. La dinamica del siste
 $$i\hbar \frac{\partial }{\partial t}|\psi_{t}\rangle=\hat{H}|\psi_{t}\rangle$$
 Il valor medio di un'[[osservabile]] $Q$ al tempo $t$ è quindi definito semplicemente come
 $$\left\langle Q \right\rangle_{t}=\langle \psi_{t}|\hat{Q}|\psi_{t}\rangle$$
-La [[matrice densità]] $\rho$ varia nel tempo come
+La [[Matrice di densità]] $\rho$ varia nel tempo come
 $$\rho_{t}=U_{t}\rho U_{t}^{+}$$
 ### Rappresentazione di Heisenberg
 La rappresentazione di Heisenberg è definita ponendo la dipendenza temporale negli operatori associati alle [[Osservabile|osservabili]], lasciando invece lo stato costante nel tempo. Preso un'operatore $\hat{A}$, esso evolve nel tempo come
