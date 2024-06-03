@@ -18,14 +18,12 @@ che sono gli [[Equazione agli autovalori|autovettori]] di $\hat{\sigma}_{x}$, qu
 La rappresentazione formale di $\hat{\sigma}_{z}$ è
 $$\hat{\tilde{\sigma}}_{z}=\left(\matrix{\langle\uparrow x|\hat{\sigma}_{z}|\uparrow x\rangle & \langle\uparrow x|\hat{\sigma}_{z}|\downarrow x\rangle \\ \langle\downarrow x|\hat{\sigma}_{z}|\uparrow x\rangle & \langle\downarrow x|\hat{\sigma}_{z}|\downarrow x\rangle}\right)=\left(\matrix{0 & 1 \\ 1 & 0}\right)$$
 
-L'aggiunto di una matrice $A$ è *indipendente dalla rappresentazione*.
-$$\langle \phi|\hat{A}\psi\rangle=\langle A^{\dagger}\phi|\psi\rangle\;\forall|\phi\rangle,|\psi\rangle\in\mathbb{H}$$
-con $\mathbb{H}$ [[spazio di Hilbert]].
-$$\begin{align}\langle \phi|\hat{A}\psi\rangle&=\sum\limits_{i=1}^{n}\phi_{i}^{\ast}(\hat{A}\psi)_{i}=\sum\limits_{i=1}^{n}\sum\limits_{j=1}^{n}\phi_{i}^{\ast}(\hat{A}^{\ast}_{ij})^{\ast}\psi_{j}=\sum\limits_{i=1}^{n}\sum\limits_{j=1}^{n}(\phi_{i}\hat{A}^{\ast}_{ij})^{\ast}\psi_{j}\\
-&=\sum\limits_{i=1}^{n}\sum\limits_{j=1}^{n}((\hat{A}^{\ast})^{T}_{ij}\phi_{i})\psi_{j} = \ldots=\langle \hat{A}^{\dagger}\psi|\phi\rangle
-\end{align}$$
-Abbiamo $|\chi\rangle\in\mathbb{H}:\hat{A}=\hat{P}_{\chi}$ con $\hat{P}_{\chi}$ un [[proiettore]]. $\hat{P}_{\chi}|\phi\rangle=|\psi\rangle \langle \psi|\phi\rangle$. Allora ho
-$$\langle \psi|\hat{P}_{\chi}\phi\rangle=\langle \psi|\langle \chi|\phi\rangle \chi\rangle=\langle \chi|\phi\rangle \langle \psi|\chi\rangle=\langle \langle \chi|\psi \chi\rangle|\phi\rangle=\langle \hat{P}_{\chi}\psi|\phi\rangle$$
-Vogliamo anche provare che $\langle \hat{A}\psi|\phi\rangle=\langle \hat{B}\psi|\phi\rangle \Leftrightarrow \hat{A}=\hat{B}$. Consideriamo l'$ij$-esimo elemento $\langle i|\hat{A}|j\rangle=A_{ij}=\langle \hat{A}^{\dagger}i|j\rangle$ usando l'autoaggiuntezza.
-$$0=\langle (\hat{A}-\hat{B})\psi|(\hat{A}-\hat{B})\psi\rangle=||(\hat{A}-\hat{B})\psi||^{2}\quad\forall\|\psi\rangle,|\phi\rangle\in\mathbb{H}$$
-dunque $\hat{A} = \hat{B}$.
+I commutatori tra le matrici sono
+$$[\sigma_{1},\sigma_{2}]=2i\sigma_{3}, \quad [\sigma_{2},\sigma_{3}]=2i\sigma_{1}, \quad [\sigma_{3},\sigma_{1}]=2i\sigma_{2}$$
+o più in generale
+$$[\sigma_{i},\sigma_{j}]=2i\epsilon_{ijk}\sigma_{k}$$
+dove $\epsilon_{ijk}$ è il [[tensore di Levi-Civita]]. Le tre relazioni precedenti si ritrovano quando $i$, $j$ e $k$ sono diversi fra loro o se c'è un numero pari di scambi fra loro. Inoltre, le matrici anticommutano
+$$\{\sigma_{i},\sigma_{j}\}=2\delta_{ij}$$
+
+Dai commutatori si ottengono anche le relazioni
+$$\sigma_{1}\sigma_{2}=-\sigma_{2}\sigma_{1}, \quad \sigma_{2}\sigma_{3}=-\sigma_{3}\sigma_{2}, \quad \sigma_{1}\sigma_{3}=-\sigma_{3}\sigma_{1}$$

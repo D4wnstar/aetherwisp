@@ -61,20 +61,20 @@ implica
 $$t |\psi\rangle=T |\psi\rangle=TT |\psi\rangle=Tt |\psi\rangle=tT |\psi\rangle=t^{2}|\psi\rangle \quad \Rightarrow \quad t=t^{2} \quad \Rightarrow \quad t=0,1$$
 ### Matrici di Pauli
 Forma standard:
-$$\hat{\sigma}_{x}=\begin{pmatrix}0 & 1 \\ 1 & 0\end{pmatrix},\;\hat{\sigma}_{y}=\begin{pmatrix}0 & -i \\ i & 0\end{pmatrix},\;\hat{\sigma}_{z}=\begin{pmatrix}1 & 0 \\ 0 & -1\end{pmatrix}$$
+$$\hat{\sigma}_{x}=\pmatrix{0 & 1 \\ 1 & 0},\;\hat{\sigma}_{y}=\pmatrix{0 & -i \\ i & 0},\;\hat{\sigma}_{z}=\pmatrix{1 & 0 \\ 0 & -1}$$
 tutte con autovalori $\pm1$. Sono autoaggiunte: $\hat{\sigma}_{i}^{\dagger}=\hat{\sigma}_{i}$. I quadrati sono unitari: $\hat{\sigma}_{i}^{2}=\hat{\mathbb{1}}$. Gli autovettori sono
-$$x_{+}: \frac{1}{\sqrt{2}}\begin{pmatrix}1 \\ 1\end{pmatrix}, \quad x_{-}: \frac{1}{\sqrt{2}}\begin{pmatrix}1 \\ -1\end{pmatrix}$$
-$$y_{+}: \frac{1}{\sqrt{2}}\begin{pmatrix}1 \\ i\end{pmatrix}, \quad y_{-}: \frac{1}{\sqrt{2}}\begin{pmatrix}1 \\ -i\end{pmatrix}$$
-$$z_{+}: \begin{pmatrix}1 \\ 0\end{pmatrix}, \quad z_{-}: \begin{pmatrix}0 \\ 1\end{pmatrix}$$
+$$x_{+}: \frac{1}{\sqrt{2}}\pmatrix{1 \\ 1}, \quad x_{-}: \frac{1}{\sqrt{2}}\pmatrix{1 \\ -1}$$
+$$y_{+}: \frac{1}{\sqrt{2}}\pmatrix{1 \\ i}, \quad y_{-}: \frac{1}{\sqrt{2}}\pmatrix{1 \\ -i}$$
+$$z_{+}: \pmatrix{1 \\ 0}, \quad z_{-}: \pmatrix{0 \\ 1}$$
 Vale
 $$\sigma_{x}|\uparrow\,\rangle=|\downarrow\;\rangle, \quad \sigma_{x}|\downarrow\;\rangle=|\uparrow\;\rangle$$
 ### Matrice di Hadamard
-$$U= \frac{1}{\sqrt{2}}\begin{pmatrix}1 & 1 \\ 1 & -1\end{pmatrix}=(|\uparrow x\;\rangle |\downarrow x\;\rangle)$$
+$$U= \frac{1}{\sqrt{2}}\pmatrix{1 & 1 \\ 1 & -1}=(|\uparrow x\;\rangle |\downarrow x\;\rangle)$$
 ### Matrice di densità
-$$\hat{\rho}=\begin{pmatrix}\rho & \sigma \\ \sigma^{*} & 1-\rho\end{pmatrix}$$
+$$\hat{\rho}=\pmatrix{\rho & \sigma \\ \sigma^{*} & 1-\rho}$$
 dove $\rho\in[0,1]$ e $\sigma\in\mathbb{C}$. Ha traccia unitaria, è autoaggiunta.
 ### Prodotto tensoriale
-$$v\otimes w=\begin{pmatrix}v_{1}\\ v_{2}\end{pmatrix}\otimes\begin{pmatrix}w_{1} \\ w_{2}\end{pmatrix}=\begin{pmatrix}v_{1} & \begin{pmatrix}w_{1} \\ w_{2}\end{pmatrix} \\ v_{2} & \begin{pmatrix}w_{1} \\ w_{2}\end{pmatrix}\end{pmatrix}=\begin{pmatrix}v_{1}w_{1} \\ v_{1}w_{2} \\ v_{2}w_{1} \\ v_{2}w_{2}\end{pmatrix}$$
+$$v\otimes w=\pmatrix{v_{1}\\ v_{2}}\otimes\pmatrix{w_{1} \\ w_{2}}=\pmatrix{v_{1} & \pmatrix{w_{1} \\ w_{2}} \\ v_{2} & \pmatrix{w_{1} \\ w_{2}}}=\pmatrix{v_{1}w_{1} \\ v_{1}w_{2} \\ v_{2}w_{1} \\ v_{2}w_{2}}$$
 ### Momento angolare
 $$\hat{L}_{x}=\frac{\hbar y}{i}\frac{\partial }{\partial z}- \frac{\hbar z}{i}\frac{\partial }{\partial y}, \quad \hat{L}_{y}=\frac{\hbar z}{i}\frac{\partial }{\partial x}- \frac{\hbar x}{i}\frac{\partial }{\partial z}, \quad \hat{L}_{z}=\frac{\hbar x}{i}\frac{\partial }{\partial y}- \frac{\hbar y}{i}\frac{\partial }{\partial x}$$
 $$[L_{x},L_{y}]=i\hbar L_{z}, \quad [L_{y},L_{z}]=i\hbar L_{x}, \quad [L_{z},L_{x}]=i\hbar L_{y}$$
@@ -188,7 +188,7 @@ $$\psi_{n}^{1}=\sum\limits_{m\neq n} \frac{\langle \psi_{m}^{0}|H'|\psi_{n}^{0}\
 Non degenere, secondo ordine, autovalori
 $$E_{n}^{2}=\sum\limits_{m\neq n} \frac{|\langle \psi_{m}^{0}|H'|\psi_{n}^{0}\rangle|^{2}}{E_{n}^{0}-E_{m}^{0}}$$
 Degenere, primo ordine, autovalori $2$-volte degeneri
-$$\begin{pmatrix}W_{aa} & W_{ab} \\ W_{ba} & W_{bb}\end{pmatrix}\begin{pmatrix}\alpha \\ \beta\end{pmatrix}=E^{1}\begin{pmatrix}\alpha \\ \beta\end{pmatrix}$$
+$$\pmatrix{W_{aa} & W_{ab} \\ W_{ba} & W_{bb}}\pmatrix{\alpha \\ \beta}=E^{1}\pmatrix{\alpha \\ \beta}$$
 con
 $$W_{ij}=\langle \psi_{i}^{0}|H'|\psi_{j}^{0}\rangle$$
 Per $n$-volte degeneri basta aumentare la dimensione della matrice.
@@ -201,6 +201,6 @@ Per $n$-volte degeneri basta aumentare la dimensione della matrice.
 - Conviene sempre controllare la forma delle equazioni prima di usare formule fatte e finite (ad es. sostituire la perturbazione nell'Hamiltoniana prima di cercare le correzioni).
 - L'integrazione per parti è utile casomai si debba risolvere un integrale: $\int_{a}^{b} fg'=fg|_{a}^{b}-\int_{a}^{b}f'g$.
 - Cambiare forma all'equazione è utile per vedere nuove relazioni (ad es. prendere la norma di qualcosa, specialmente un operatore su un vettore).
-- Identificare i vettori su cui proiettano dei proiettori è estremamente laborioso, quindi conviene vedere se è ovvio.
+- Identificare i vettori su cui proiettano dei proiettori è estremamente laborioso, quindi dovrebbe è meglio cercare se è ovvio.
 - La fase è arbitraria, ma la differenza di fase no! È importante soprattutto cercando i moduli quadri di coefficienti, tipo in $|\alpha|^{2}+|\beta|^{2}=1$. Se ad es. $\alpha=1/\sqrt{2}$, allora $\beta=e^{i\phi}/\sqrt{2}$, perché abbiamo deciso fase nulla in $\alpha$ e quindi la fase in $\beta$ non la possiamo più decidere.
 - Quando Benatti dice hermitiano, intende dire autoaggiunto.
