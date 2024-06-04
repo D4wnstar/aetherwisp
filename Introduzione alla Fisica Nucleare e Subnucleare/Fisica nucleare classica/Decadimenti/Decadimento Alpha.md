@@ -1,10 +1,12 @@
-Il **decadimento $\alpha$** è un tipo di [[Decadimento]] nel quale un [[nuclide]] emette una *particella $\alpha$*, ossia un [[Nucleo atomico|nucleo]] di elio $_{2}^{4}\text{He}_{2}$. Il nucleo rilasciato è molto legato, quindi l'energia cinetica rilasciata è massimizzata. Il processo di decadimento è
-$$_{Z}^{A}X_{N} \rightarrow _{Z-2}^{A-4}X'_{N-2}+\alpha$$
-dove $X$ e $X'$ sono simboli chimici di specie nucleari diverse nello stato iniziale e finale. Il numero di protoni e neutroni deve conservarsi. L'energia cinetica tipica di una tale reazione è nell'ordine dei [[Elettronvolt|MeV]].
+Il **decadimento $\alpha$** è un tipo di [[decadimento]] nel quale un [[nuclide]] emette una *particella $\alpha$*, ossia un [[Nucleo atomico|nucleo]] di elio $_{2}^{4}\text{He}_{2}$. Il nucleo rilasciato è molto legato (infatti è [[Numero magico|doppiamente magico]]), quindi l'energia cinetica rilasciata è massimizzata. Il processo di decadimento è
+$$_{Z}^{A}X_{N} \rightarrow\ _{Z-2}^{A-4}X'_{N-2}+\alpha$$
+dove $X$ e $X'$ sono simboli chimici di specie nucleari diverse nello stato iniziale e finale. Il numero di protoni e neutroni deve conservarsi separatamente. L'energia cinetica tipica della particella $\alpha$ emessa è nell'ordine dei [[Elettronvolt|MeV]].
+
+Il decadimento $\alpha$ è mediato dall'[[interazione forte]].
 
 Una reazione tipo è
-$$_{88}^{226}Ra_{138}\rightarrow _{86}^{222}Rn_{136}+_{2}^{4}He_{2}$$
-che ha un tempo di dimezzamento di 1600 anni e la particella $\alpha$ ha un'energia cinetica di $4.8$ MeV.
+$$_{88}^{226}Ra_{138}\rightarrow\, _{86}^{222}Rn_{136}+\,_{2}^{4}He_{2}$$
+che ha un [[Legge di decadimento radioattivo|tempo di dimezzamento]] di 1600 anni e la particella $\alpha$ ha un'energia cinetica di $4.8$ MeV.
 ## Meccanismo
 Protoni e neutroni hanno [[energia di legame]] attorno agli 8 MeV, quindi non possono scappare dal nucleo. Può però succedere che l'emissione di un gruppo di nucleoni sotto forma di un sistema legato sia energeticamente favorita.
 

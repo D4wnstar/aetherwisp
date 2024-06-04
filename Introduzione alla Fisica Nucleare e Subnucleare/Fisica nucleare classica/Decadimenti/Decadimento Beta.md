@@ -4,18 +4,27 @@ aliases:
   - processo beta inverso
   - cattura elettronica
 ---
-Il **decadimento $\beta$** è un tipo di [[Decadimento]] che coinvolge [[Isobaro|isobari]]. Il [[Nucleo atomico|nucleo]] corregge l'eccesso di [[protone|protoni]] $p$ o [[neutrone|neutroni]] $n$ convertendoli l'uno nell'altro.
+Il **decadimento $\beta$** è un tipo di [[decadimento]] nel quale un [[Nucleo atomico|nucleo]] corregge l'eccesso di [[protone|protoni]] o [[neutrone|neutroni]] convertendoli l'uno nell'altro. Esistono infatti due tipi di decadimento $\beta$, in base alla direzione della conversione:
 $$\text{decadimento }\beta^{-}\text{: }\quad n \rightarrow p+e^{-}+\nu_{e}^{-}$$
 $$\text{decadimento }\beta^{+}\text{: }\quad p \rightarrow n+e^{+}+\nu_{e}$$
-dove $e^{-}$ è un [[elettrone]] e $e^{+}$ è un [[positrone]]. Vengono emessi anche (anti)[[neutrino|neutrini]] elettronici $\nu_{e}$. Esiste anche una terza reazione, chiamata *cattura elettronica* (o c.e.)
-$$p+e^{-}\rightarrow n+\nu_{e}$$
-che "promuove" un protone ad un neutrone. È importante ricordare che il protone decade $\beta$ *solo nel nucleo*, non nel vuoto, dato che il $\beta^{+}$ termina in una massa superiore (da 938 MeV a ~939.5 MeV) ed c'è quindi bisogno di interazione esterna.
+dove $e^{-}$ è un [[elettrone]] e $e^{+}$ è un [[positrone]]. Vengono emessi anche (anti)[[neutrino|neutrini]] elettronici $\nu_{e}$. Esiste anche una terza reazione, chiamata **cattura elettronica** (o c.e.)
+$$\text{cattura elettronica:}\quad p+e^{-}\rightarrow n+\nu_{e}$$
+che "promuove" un protone ad un neutrone catturando un elettrone vicino al nucleo. Dato che lo scopo del decadimento $\beta$ è convertire protoni e neutroni, tutti i nuclei risultanti sono [[Isobaro|isobari]].
+
+
+È importante ricordare che il protone decade $\beta$ *solo nel nucleo*, non nel vuoto, dato che il $\beta^{+}$ termina in una massa superiore (da 938 MeV a ~939.5 MeV) ed c'è quindi bisogno di interazione esterna.
+
+Il decadimento $\beta$ è mediato dall'[[interazione debole]].
 
 Queste reazioni nucleari sono dette *interazioni di contatto a 4 [[fermione|fermioni]]*.
 
 Una reazione tipo $\beta^{-}$ è
 $$_{53}^{131}I_{78} \rightarrow _{54}^{131}Xe_{77}$$
-con tempo di dimezzamento di 8.0 giorni.
+con [[Legge di decadimento radioattivo|tempo di dimezzamento]] di 8.0 giorni. Per $\beta^{+}$ invece si ha
+$$^{25}_{13}Al_{12} \rightarrow\, ^{25}_{12}Mg_{13}$$
+con tempo di dimezzamento di 7.2 giorni. Per la cattura elettronica
+$$^{54}_{25}Mn_{29} \rightarrow\, ^{54}_{24}Cr_{30}$$
+con tempo di dimezzamento 312 giorni.
 ## Meccanismo
 ### Decadimento $\beta^{\pm}$
 Partiamo dalla [[Formula semiempirica di massa]] che nel nostro caso diventa
@@ -39,7 +48,7 @@ $$_{48}^{106}Cd \rightarrow _{46}^{106}Pp + 2e^{+}+ \nu_{e}$$
 che un doppio decadimento $\beta^{+}$.
 ### Cattura elettronica
 La cattura elettronica è più probabile per nuclei grandi, perché il nucleo è più vicino alla nuvola elettronica. Compete energeticamente con il decadimento $\beta^{+}$. È possibile se $M(A,Z)>M(A,Z-1)+E$ con $E$ l'energia di eccitazione dell'elettrone catturato.
-## Vite medie
+### Vite medie
 Consideriamo il decadimento $\beta^{-}$ del neutrone libero nel vuoto
 $$n \rightarrow p+e^{-}+\bar{\nu}_{e}$$
 Esso rilascia 0.78 MeV di energia e ha una vita media di $\tau=889.1\pm2.1$ s. Come esempio, guardiamo il $^{40}K$ che decade per $\beta^+$, $\beta^{-}$ e cattura elettronica.
