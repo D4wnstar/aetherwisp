@@ -47062,7 +47062,9 @@
     },
     {
       "char": "→",
-      "name": "rightwards arrow"
+      "name": "rightwards arrow",
+      "useCount": 1,
+      "lastUsed": 1717497526088
     },
     {
       "char": "⥵",

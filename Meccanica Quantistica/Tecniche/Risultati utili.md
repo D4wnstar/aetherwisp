@@ -163,9 +163,9 @@ e diventa uno agli autovalori visti sopra.
 Ammette solo stati legati
 $$V(x)=\frac{1}{2}m\omega^{2}x^{2}; \quad \psi_{n}=\frac{1}{\sqrt{n!}}(a_{+})^{n}\left(\frac{m\omega}{2\hbar}\right)^{1/4}e^{-(m\omega/2\hbar)x^{2}};\quad E_{n}=\left(n+ \frac{1}{2}\right)\hbar\omega$$
 con gli operatori di creazione e distruzione $a=a_{-}$ e $a^{\dagger}=a_{+}$
-$$a_{\pm}\equiv \frac{1}{\sqrt{2\hbar m\omega}}(\mp ip+m\omega x)$$
-$$a_{+}\psi_{n}=\sqrt{n+1}\psi_{n+1},\quad a_{-}\psi_{n}=\sqrt{n}\psi_{n-1}$$
-$$\text{operatore numero: }a_{+}a_{-}\psi_{n}=n\psi_{n},\quad a_{-}a_{+}\psi_{n}=(n+1)\psi_{n}$$
+$$a_{\pm}\equiv \frac{1}{\sqrt{2\hbar m\omega}}(\mp ip+m\omega x), \quad a_{+}\psi_{n}=\sqrt{n+1}\psi_{n+1},\quad a_{-}\psi_{n}=\sqrt{n}\psi_{n-1}$$
+Operatore numero $a_{+}a_{-}$
+$$a_{+}a_{-}\psi_{n}=n\psi_{n},\quad a_{-}a_{+}\psi_{n}=(n+1)\psi_{n}$$
 Autostati dell'operatore numero
 $$|n\rangle= \frac{(a^{+})^{n}}{\sqrt{n!}}|0\rangle$$
 Posizione e momento in termini di operatori di creazione e distruzione
@@ -181,26 +181,24 @@ $$V=-\alpha \delta(x); \quad E=- \frac{m\alpha^{2}}{2\hbar^{2}}; \quad \psi(x)=\
 I coefficienti di trasmissione e riflessione degli stati liberi sono
 $$R=\frac{1}{1+ \left(\frac{2\hbar^{2}E}{m\alpha^{2}}\right)},\quad T=\frac{1}{1+\left(\frac{m\alpha^{2}}{2\hbar^{2}E}\right)}$$
 ## Teoria delle perturbazioni
-Non degenere, primo ordine, autovalori
-$$E_{n}^{1}=\langle \psi_{n}^{0}|H'|\psi_{n}^{0}\rangle$$
-Non degenere, primo ordine, autovettori
-$$\psi_{n}^{1}=\sum\limits_{m\neq n} \frac{\langle \psi_{m}^{0}|H'|\psi_{n}^{0}\rangle}{E_{n}^{0}-E_{m}^{0}}\psi_{m}^{0}$$
-Non degenere, secondo ordine, autovalori
-$$E_{n}^{2}=\sum\limits_{m\neq n} \frac{|\langle \psi_{m}^{0}|H'|\psi_{n}^{0}\rangle|^{2}}{E_{n}^{0}-E_{m}^{0}}$$
+Non degenere, primo e secondo ordine, autovalori $E$ e autovettori $\psi$
+$$E_{n}^{1}=\langle \psi_{n}^{0}|H'|\psi_{n}^{0}\rangle, \quad  E_{n}^{2}=\sum\limits_{m\neq n} \frac{|\langle \psi_{m}^{0}|H'|\psi_{n}^{0}\rangle|^{2}}{E_{n}^{0}-E_{m}^{0}}, \quad \psi_{n}^{1}=\sum\limits_{m\neq n} \frac{\langle \psi_{m}^{0}|H'|\psi_{n}^{0}\rangle}{E_{n}^{0}-E_{m}^{0}}\psi_{m}^{0}$$
 Degenere, primo ordine, autovalori $2$-volte degeneri
-$$\begin{pmatrix}W_{aa} & W_{ab} \\ W_{ba} & W_{bb}\end{pmatrix}\begin{pmatrix}\alpha \\ \beta\end{pmatrix}=E^{1}\begin{pmatrix}\alpha \\ \beta\end{pmatrix}$$
-con
-$$W_{ij}=\langle \psi_{i}^{0}|H'|\psi_{j}^{0}\rangle$$
+$$\begin{pmatrix}W_{aa} & W_{ab} \\ W_{ba} & W_{bb}\end{pmatrix}\begin{pmatrix}\alpha \\ \beta\end{pmatrix}=E^{1}\begin{pmatrix}\alpha \\ \beta\end{pmatrix} \quad \text{con}\quad W_{ij}=\langle \psi_{i}^{0}|H'|\psi_{j}^{0}\rangle$$
 Per $n$-volte degeneri basta aumentare la dimensione della matrice.
-## Metodi
+## Consigli
 - Usa le proprietà degli operatori (unitarietà e autoaggiuntezza sono le più importanti).
 - Usa i risultati dell'algebra lineare, anche al di là di quantistica. Vedi:
 	- Disuguaglianza di Schwarz: $\langle v|w\rangle\leq||v||\,||w||$.
 	- Decomposizione spettrale (vedi sopra)
 	- Traccia: $\mbox{Tr}(\hat{A})=\sum\limits_{n}^{\infty}\langle\phi_{n}| \hat{A}|\phi_{n}\rangle$, con $\phi_{n}$ autovettori di $\hat{A}$.
-- Conviene sempre controllare la forma delle equazioni prima di usare formule fatte e finite (ad es. sostituire la perturbazione nell'Hamiltoniana prima di cercare le correzioni).
+- Conviene sempre controllare la forma delle equazioni prima di usare formule fatte e finite (ad es. sostituire la perturbazione nell'Hamiltoniana prima di cercare le correzioni). Le sostituzioni aiutano a ritrovare forme note.
 - L'integrazione per parti è utile casomai si debba risolvere un integrale: $\int_{a}^{b} fg'=fg|_{a}^{b}-\int_{a}^{b}f'g$.
 - Cambiare forma all'equazione è utile per vedere nuove relazioni (ad es. prendere la norma di qualcosa, specialmente un operatore su un vettore).
 - Identificare i vettori su cui proiettano dei proiettori è estremamente laborioso, quindi conviene vedere se è ovvio.
 - La fase è arbitraria, ma la differenza di fase no! È importante soprattutto cercando i moduli quadri di coefficienti, tipo in $|\alpha|^{2}+|\beta|^{2}=1$. Se ad es. $\alpha=1/\sqrt{2}$, allora $\beta=e^{i\phi}/\sqrt{2}$, perché abbiamo deciso fase nulla in $\alpha$ e quindi la fase in $\beta$ non la possiamo più decidere.
 - Quando Benatti dice hermitiano, intende dire autoaggiunto.
+## Metodi
+- Buca infinita → Raccogli costanti come $-k^{2}$ → Risolvi come oscillatore armonico classico → Quantizzazione compare nelle condizioni al contorno.
+- Oscillatore armonico → Raccogli $1/2m$ nell'Hamiltoniana → Definisci $a$ e $a^{+}$ → Trova l'operatore numero $a^{+}a$ per semplice prodotto → Esprimi Hamiltoniana in funzione di $a^{+}a$ → Trova stato fondamentale $|0\rangle$ sviluppando $a |0\rangle=0$ → Esce differenziale, risolvi integrando direttamente → Normalizza → Autovalore sostituendo → Autostati successivi applicando $a^{+}$ ripetutamente.
+- Normalizzazione $a^{+}$ e $a$ → Vale $a^{+}|n\rangle=c_{n}|n+1\rangle$ e $a |n\rangle=d_{n}|n-1\rangle$ → $\langle a_{\pm}\psi_{n}|a_{\pm}\psi_{n}\rangle=\langle a_{\mp}a_{\pm}\psi_{n}|\psi_{n}\rangle$ → $\langle a_{+}a_{-}\psi_{n}|\psi_{n}\rangle=n\langle \psi_{n}|\psi_{n}\rangle$ e $\langle a_{-}a_{+}\psi_{n}|\psi_{n}\rangle=(n+1)\langle\psi_{n}|\psi_{n}\rangle$ → $|c_{n}|^{2}=n$ e $|d_{n}|^{2}=n+1$.
