@@ -5,8 +5,8 @@ Consideriamo un'[[osservabile]] $Q(x,p)$ per una [[particella]] nello [[Stato]] 
 - Se lo spettro è continuo con autovalori reali $q(z)$ e autofunzioni [[Ortonormalità|Dirac-ortonormali]] associate $f_{z}(x)$, la probabilità di ottenere un risultato in un intervallo infinitesimo $dz$ è$$|c(z)|^{2}dz,\quad\text{con}\quad c(z)=\langle f_{z}|\Psi\rangle$$
 Una volta completata la misura, la funzione d'onda collassa nell'autostato corrispondente.
 
-La funzione d'onda $\Psi$ di può essere scritta come [[Serie di Fourier|serie]] o [[trasformata di Fourier]] delle autofunzioni dell'osservabile
-$$\Psi(x,t)=\sum\limits_{n=1}^{\infty}c_{n}(t)f_{n}(x)\quad\text{(con spettro discreto)}$$
+Essendo parte di uno [[spazio di Hilbert]], una funzione d'onda $\Psi$ può essere scritta come [[Serie di Fourier|serie]] o [[trasformata di Fourier]] di un qualunque [[sistema ortonormale completo]]. Ciò permette alla funzione d'onda di essere [[Rappresentazioni dello stato|rappresentata]] in numerosi modi, in base a quale osservabile ci conviene (di solito la posizione):
+$$\Psi(x,t)=\sum\limits_{n=1}^{\infty}c_{n}f_{n}(x)\quad\text{(con spettro discreto)}$$
 $$\Psi(x,t)=\int_{-\infty}^{+\infty}c(k)e^{i(kx-at)}dk\quad\text{(con spettro continuo)}$$
 e i coefficienti possono essere trovati come ci dice l'analisi di Fourier
 $$c_{n}=\langle f_{n}|\Psi\rangle\quad \text{(discreto)},\quad c(k)=\langle f_{k}|\Psi\rangle\quad \text{(continuo)}\tag{1}$$

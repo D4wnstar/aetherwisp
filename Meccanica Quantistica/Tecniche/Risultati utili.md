@@ -141,6 +141,17 @@ per ogni $(l,m)\neq(0,0)$. Per $(l,m)=(0,0)$ l'integrale vale $2\sqrt{\pi}$. Inf
 
 La dipendenza angolare di uno stato $\psi$ in un sistema sferico si trova come
 $$\langle Y_{l}^{m}|\psi(r,\theta,\phi)\rangle$$
+### Stati coerenti
+Autostati dell'operatore di distruzione
+$$|z_{t}\rangle=\hat{U}_{t}|z\rangle=e^{-|z|^{2}/2}\sum\limits_{k=0}^{\infty} \frac{z^{k}}{\sqrt{k!}}\hat{U}_{t}|k\rangle\quad \text{con} \quad z=e^{-i\omega t}$$
+Normalizzati, ma non ortogonali fra loro. La norma è
+$$|\langle z_{1}|z_{2}\rangle|^{2}=e^{-|z_{1}-z_{2}|^{2}}$$
+Ipercompletezza
+$$\int_{\mathbb{C}}\hat{P}_{z}dz=\int_{\mathbb{C}}|z\rangle\langle z|dz=\mathbb{1}$$
+Evoluzione temporale (viene da Schrödinger picture e autostato dell'operatore numero)
+$$|z_{t}\rangle=e^{-i\omega t/2}|e^{-i\omega t}z\rangle$$
+Probabilità
+$$P(n|z)=|\langle n|z\rangle|^{2}=e^{-|z|^{2}} \frac{|z|^{2n}}{n!}, \quad \left\langle P(n|z) \right\rangle=|z|^{2}$$
 ## Sistemi
 ### Buca infinita
 Larghezza $a$. Ammette solo stati legati

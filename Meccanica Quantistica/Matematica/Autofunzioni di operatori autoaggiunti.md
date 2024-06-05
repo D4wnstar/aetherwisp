@@ -41,7 +41,7 @@ che è una [[trasformata di Fourier]].
 
 Le autofunzioni $(1)$ sono sinusoidali con lunghezza d'onda
 $$\lambda=\frac{2\pi\hbar}{p}$$
-che non è altro che la [[formula di de Broglie]]. Queste autofunzioni non rappresentano stati fisicamente ottenibili, ma in certi casi (se le funzioni ammettono autovalore reale), possono comunque tornare utili nel trattamento matematico di un sistema; vedi [[Meccanica Statistica/Particella libera]].
+che non è altro che la [[formula di de Broglie]]. Queste autofunzioni non rappresentano stati fisicamente ottenibili, ma in certi casi (se le funzioni ammettono autovalore reale), possono comunque tornare utili nel trattamento matematico di un sistema; vedi [[Meccanica Quantistica/Sistemi/Particella libera|particella libera]].
 ### Autofunzioni di $x$
 Consideriamo l'equazione agli autovalori
 $$xg_{y}(x)=yg_{y}(x)$$
