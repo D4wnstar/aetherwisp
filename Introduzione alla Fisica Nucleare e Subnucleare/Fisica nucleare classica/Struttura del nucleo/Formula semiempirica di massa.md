@@ -27,3 +27,5 @@ a_{c} &= 0.714\,\frac{MeV}{c^{2}} \\
 a_{a} &= 93.15\,\frac{MeV}{c^{2}} \\
 a_{p} &= 34\,\frac{MeV}{c^{2}}
 \end{align}$$
+
+![[Grafico Energia di legame Semiempirica.png]]

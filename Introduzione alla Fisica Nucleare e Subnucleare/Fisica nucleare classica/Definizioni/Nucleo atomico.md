@@ -17,4 +17,4 @@ Formalmente, si ha *instabilità spontanea* per un decadimento a due corpi se
 $$M(A,Z)>M(A-A',Z-Z')+M(A',Z')$$
 con $M$ la massa dell'atomo, considerando la massa dell'atomo originario e quella dei prodotti (notati con il primo). Questa relazione considera il mantenimento del numero di protoni e neutroni, ma non dà informazioni sulla probabilità del decadimento.
 
-> **Isotopo stabile.** Un [[isotopo]] stabile è una specie nucleare la cui [[vita media]] è considerevolmente più lunga della vita media del Sistema Solare.
+> **Isotopo stabile.** Un [[isotopo]] stabile è una specie nucleare la cui [[Legge di decadimento radioattivo|vita media]] è considerevolmente più lunga della vita media del Sistema Solare.

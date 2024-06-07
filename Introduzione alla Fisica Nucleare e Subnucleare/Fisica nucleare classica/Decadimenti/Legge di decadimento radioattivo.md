@@ -19,7 +19,7 @@ $$\boxed{N(t)=N_{0}e^{-\lambda t}}$$
 che è la **legge esponenziale del decadimento radioattivo**, con $N_{0}$ il numero di nuclei a $t=0$, ossia il numero di nuclei che compongono l'oggetto all'inizio delle osservazioni.
 
 Per comodità si definisce si dice **tempo di dimezzamento** $t_{\frac{1}{2}}$ il tempo per il quale vale il numero di nuclei è dimezzato, ossia $N=N_{0}/2$, e vale
-$$\boxed{t_{\frac{1}{2}}=\frac{0.693}{\lambda}}$$
+$$\boxed{t_{\frac{1}{2}}=\frac{\ln2}{\lambda}}$$
 Inoltre, si dice **vita media** $\tau$ il tempo medio di vita di un *singolo nucleo* prima di decadere
 $$\boxed{\tau=\frac{\int_{0}^{\infty}t| \frac{dN}{dt}|dt}{\int_{0}^{\infty}| \frac{dN}{dt}|dt}=\frac{1}{\lambda}}$$
 ottenuta integrando $| \frac{dN}{dt}|dt$, cioè il numero di nuclei che decadono tra $t$ e $t+dt$.
