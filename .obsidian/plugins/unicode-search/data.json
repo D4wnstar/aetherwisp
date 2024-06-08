@@ -5,10 +5,16 @@
   },
   "data": [
     {
+      "char": "→",
+      "name": "rightwards arrow",
+      "useCount": 1,
+      "lastUsed": 1717497526088
+    },
+    {
       "char": "È",
       "name": "latin capital letter e with grave",
-      "useCount": 69,
-      "lastUsed": 1717423017855
+      "useCount": 70,
+      "lastUsed": 1717853820746
     },
     {
       "char": "ö",
@@ -47059,12 +47065,6 @@
     {
       "char": "⨽",
       "name": "righthand interior product"
-    },
-    {
-      "char": "→",
-      "name": "rightwards arrow",
-      "useCount": 1,
-      "lastUsed": 1717497526088
     },
     {
       "char": "⥵",
