@@ -2,7 +2,7 @@
 aliases:
   - luminosità
 ---
-La **luminosità** $\mathscr{L}$, intesa in ambito della fisica nucleare, è una quantità misurata durante la [[diffusione di particelle]]. In simboli
+La **luminosità** $\mathscr{L}$, intesa in ambito della fisica nucleare, è una quantità misurata durante la [[Diffusione di particelle]]. In simboli
 $$\mathscr{L}=\Phi_{a}N_{b}=\dot{N}_{a}n_{b}d=n_{a}v_{a}N_{b}$$
 dove $\Phi_{a}=\dot{N}_{a}/A=n_{a}v_{a}$ è il flusso di [[Particella|particelle]] incidenti su una targhetta e $N_{b}$ è il numero di particelle nella targhetta. Le unità di misura sono $[\mathscr{L}]=[A]^{-1}\times[T]^{-1}$.
 ### Nei collisori

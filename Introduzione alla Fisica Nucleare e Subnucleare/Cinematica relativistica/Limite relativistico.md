@@ -1,4 +1,4 @@
-A velocità che approssimano la [[velocità della luce]], bisogna applicare la teoria della relatività per spiegare la cinematica di un oggetto. In questo regime, bisogna usare le [[trasformazioni di Lorentz]]
+A velocità che approssimano la [[velocità della luce]], bisogna applicare la teoria della relatività per spiegare la cinematica di un oggetto. In questo regime, bisogna usare le [[Trasformazioni di Lorentz]]
 $$\beta=\frac{v}{c}\quad;\quad\gamma= \frac{1}{\sqrt{1-\beta^{2}}}$$
 Si dice **limite relativistico** il limite oltre il quale bisogna usare la relatività per evitare errori grandi. Matematicamente, il limite equivale ad avere $\beta\sim1$ e $\gamma>1$. Si dice **regime ultrarelativistico** le condizioni $\beta\sim1$ e $\gamma\gg1$. I limiti relativistici possono essere scritti come trasformazione di Lorentz (lungo $x$)
 $$\begin{cases}

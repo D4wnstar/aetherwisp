@@ -91,7 +91,7 @@ $$V(r)=- \frac{e^{2}}{4\pi\epsilon_{0}} \frac{1}{r}$$
 quindi l'equazione radiale da risolvere per trovare la [[Funzione d'onda]] è
 $$- \frac{\hbar^{2}}{2m}\frac{d^{2}u}{dr^{2}}+ \left[- \frac{e^{2}}{4\pi\epsilon_{0}} \frac{1}{r}+\frac{\hbar^{2}}{2m} \frac{l(l+1)}{r^{2}} \right]u(r)=Eu(r)\tag{1}$$
 
-Il potenziale Coulombiano ammette sia stati con [[spettro]] continuo con $E>0$ (che rappresentano la [[diffusione di particelle|diffusione]] protone-elettrone), sia con spettro discreto con $E<0$, i cui [[Stato stazionario|stati stazionari]] rappresentano i livelli di energia dell'elettrone legato. A noi interessano questi ultimi.
+Il potenziale Coulombiano ammette sia stati con [[spettro]] continuo con $E>0$ (che rappresentano la [[Diffusione di particelle|diffusione]] protone-elettrone), sia con spettro discreto con $E<0$, i cui [[Stato stazionario|stati stazionari]] rappresentano i livelli di energia dell'elettrone legato. A noi interessano questi ultimi.
 #### Funzione d'onda radiale
 Consideriamo la costante
 $$\kappa\equiv \frac{\sqrt{-2mE}}{\hbar} $$

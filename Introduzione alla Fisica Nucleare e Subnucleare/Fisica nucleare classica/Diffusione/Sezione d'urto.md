@@ -5,7 +5,7 @@ La sezione d'urto varia di sistema in sistema e in base all'energia delle partic
 
 In casi di particelle comuni si ha
 - $\sigma_{pp}(10\text{ GeV})\sim40\text{ mb }=4\times10^{-26}\text{ cm}^{2}$ per la [[Diffusione di particelle|diffusione]] [[protone]] protone (interazione forte)
-- $\sigma_{pp}(13\text{ TeV})\sim110\text{ mb}=1.1\times10^{-25}\text{ cm}^{2}$ per quella protone protone a energie più alte (interazione forte)
+- $\sigma_{pp}(13\text{ TeV})\sim110\text{ mb}=1.1\times10^{-25}\text{ cm}^{2}$ per quella protone protone a energie più alte (interazione forte), di cui 30 mb è elastica e 80 mb è anelastica.
 - $\sigma_{\nu p}(10\text{ GeV})\sim70\text{ fb}=7\times10^{-38}\text{ cm}^{2}$ per quella [[neutrino]] protone (interazione debole)
 
 Per un fascio di particelle tipico con flusso di particelle incidenti
@@ -15,10 +15,18 @@ che interagiscono forte ($\sigma\sim10^{-24}$ cm$^{2}$), il tasso di conversione
 Consideriamo una targhetta rettangolare di spessore $d$ e superficie $A$
 
 ![[Schema Sezione d'urto geometrica|center]]
-su cui si scontra un fascio di particelle $a$ puntiformi a velocità $\vec{v}_{a}$. Il flusso sulla superficie della targhetta è $\Phi_{a}=n_{a}v_{a}$. Ogni particella del bersaglio ha una sezione geometrica $\sigma_{b}$ (in unità di area) che si può determinare sperimentalmente. Sulla targhetta vi sono dei *centri diffusori* $b$ (che non si sovrappongono). Il numero totale di particelle nel bersaglio è $N_{b}=n_{b}Ad$ con $n_{b}$ è la densità di ???. La reazione accade se una particella $a$ si scontra con un centro diffusione $b$. Chiamo $\dot{N}$ il numero di conteggi totali, ossia il numero di reazioni per unità di tempo. Fisso $\Phi_{a}=n_{a}v_{a}=\frac{\dot{N}_{a}}{A}$, che è il numero di proiettili che colpiscono il bersaglio per unità di tempo e di area. Allora ho $\dot{N}=\Phi_{a}N_{b}\sigma_{b}$.
+
+su cui si scontra un fascio di particelle $a$ puntiformi a velocità $\vec{v}_{a}$. Ogni particella del bersaglio ha una sezione geometrica $\sigma_{b}$ (in unità di area) che si può determinare sperimentalmente. Quando una particella del fascio urta con una particella della targhetta, esse reagiscono. Si assume che dopo la reazione, la particella incidente sia rimossa dal fascio.
+
+Sulla targhetta vi sono dei *centri diffusori* (che non si sovrappongono) che rappresentano le aree dove i proiettili devono entrare per urtare una particella del bersaglio. Chiamo $\dot{N}$ il numero di conteggi totali, ossia il numero di reazioni per unità di tempo, che è una misura diretta della sezione d'urto $\sigma_{b}$ dei centri diffusori. Chiamata $A$ la sezione trasversale e la densità di proiettili è $n_{a}$, il flusso incidente è
+$$\Phi_{a}=n_{a}v_{a}=\frac{\dot{N}_{a}}{A}$$
+che è il numero di proiettili che colpiscono il bersaglio per unità di tempo e di area. Allora la frequenza di collisione è
+$$\dot{N}=\Phi_{a}N_{b}\sigma_{b}$$
+
+Il numero totale di particelle nel bersaglio è $N_{b}=n_{b}Ad$ con $n_{b}$ è la densità di ???.
 
 L'area che ogni centro diffusore ha a disposizione per la reazione con $a$ è la sezione d'urto geometrica
-$$\sigma_{b}=\frac{\dot{N}}{\Phi_{a}N_{b}}=\frac{\text{numero di reazione / tempo}}{\text{numero di particelle }a\text{ / tempo e area }\times\text{ numero di centri diffusori }b}$$
+$$\sigma_{b}=\frac{\dot{N}}{\Phi_{a}N_{b}}=\frac{\text{numero di reazioni / tempo}}{\text{numero di proiettili / tempo e area }\times\text{ numero di centri diffusori }}$$
 La sezione d'urto geometrica è divisibile in sezione d'urto elastica e anelastica in base al tipo di diffusione
 $$\sigma_{tot}=\sigma_{el}+\sigma_{anel}$$
 ## Sezione d'urto differenziale

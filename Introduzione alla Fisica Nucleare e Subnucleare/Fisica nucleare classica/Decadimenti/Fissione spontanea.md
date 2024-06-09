@@ -36,7 +36,7 @@ L'energia di eccitazione è
 $$E_{ecc}=[m(^{236}\text{U}^{*})-m(^{235}\text{U})]c^{2}=6.5\text{ MeV}$$
 con $m(^{236}\text{U}^{*})=m(^{235}\text{U})+m_{n}$. Da calcoli del [[Modello a shell nucleare]] (e anche misure sperimentali), ottengo $E_{attivazione}$ (l'energia necessaria a superare la barriera di potenziale) per $^{235}\text{U}$ pari a 6.2 MeV, quindi $^{235}\text{U}$ può fissionare anche con neutroni termici, dato che $E_{ecc}-E_{attivazione}$ è bassa. Nella fissione
 $$^{235}_{92}\text{U}_{143} + n \rightarrow ^{236}\text{U}^{*} \rightarrow ^{93}\text{Rb}+^{141}\text{Cs}+2n$$
-rilascio $Q-\text{valore}=181$ MeV di energia. I due neutroni emessi hanno energia media $\left\langle E_{n} \right\rangle\sim2$ MeV, quindi a loro volta possono innescare fissione anche con alte energie. L'energia degli altri prodotti sono $E_{\beta}\sim19$ MeV, $E_{\gamma,\text{dec.}}\sim7$ MeV e $E_{\gamma,\text{pronto}}\sim8$ MeV.
+ho un [[Q-valore]] di 181 MeV di energia. I due neutroni emessi hanno energia media $\left\langle E_{n} \right\rangle\sim2$ MeV, quindi a loro volta possono innescare fissione anche con alte energie. L'energia degli altri prodotti sono $E_{\beta}\sim19$ MeV, $E_{\gamma,\text{dec.}}\sim7$ MeV e $E_{\gamma,\text{pronto}}\sim8$ MeV.
 
 Lo stesso calcolo per $^{238}\text{U}$ ci dà $E_{ecc}=4.8$ MeV e $E_{att}=6.6$ MeV, quindi abbiamo bisogno di neutroni ad alte energie.
 

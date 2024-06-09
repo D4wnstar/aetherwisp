@@ -1,4 +1,4 @@
-Il **Q-valore** è l'energia rilasciata durante [[decadimento]]. Per un generico decadimento
+Il **Q-valore** è l'energia rilasciata durante un evento di [[decadimento]]. Per un generico decadimento
 $$x+X \rightarrow y+Y$$
 vale
 $$Q=[m(x)+m(X)-m(y)-m(Y)]c^{2}$$

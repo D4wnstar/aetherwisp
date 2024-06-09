@@ -2,7 +2,7 @@ La [[legge di decadimento radioattivo]] descrive con buona precisione il decadim
 
 Si definisce **tasso di produzione** $R$ la quantità di conversioni da nucleo stabile ad instabile che accadono quando un bersaglio stabile viene bombardato da un fascio di particelle. Tipicamente è molto basso, quindi il numero di [[atomo|atomi]] stabili che compongono il bersaglio non varia sensibilmente. 
 
-Considerato un flusso di particelle incidenti $I$ (particelle/s$\times$cm$^{2}$), la [[sezione d'urto]] $\sigma$ di questa reazione e il numero di atomo presenti nel bersaglio $N_{0}$ (considerato costante), il tasso di produzione può essere espresso come
+Considerato un flusso di particelle incidenti $I$ (particelle/s$\times$cm$^{2}$), la [[Sezione d'urto]] $\sigma$ di questa reazione e il numero di atomo presenti nel bersaglio $N_{0}$ (considerato costante), il tasso di produzione può essere espresso come
 $$R=N_{0}\sigma I$$
 
 Consideriamo ora gli $N_{1}$ atomi nuclei radioattivi formati, che decadono con [[Legge di decadimento radioattivo|costante di decadimento]] $\lambda_{1}$ in $N_{2}$ nuclei stabili. Gli $N_{1}$, oltre a diminuire per il loro decadimento, aumentano a causa delle interazioni con il fascio di particelle incidente. La loro variazione è
