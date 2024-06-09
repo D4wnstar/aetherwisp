@@ -1,22 +1,31 @@
-Si dice **quadrivettore energia-impulso** il [[quadrivettore]]
-$$p=\left(\frac{E}{c},\; p\right)$$
+---
+aliases:
+  - quadri-impulso
+---
+Il **quadrivettore energia-impulso**, o **quadri-impulso**, è il [[quadrivettore]]
+$$p=\left(\frac{E}{c},\; \vec{p}\right)$$
 con energia $E=\gamma mc^{2}$ e impulso $\vec{p}=\gamma m\vec{v}$. In forma completa
-$$p=(\gamma mc,\;\gamma mv)$$
-La [[Norma]] del 4-vettore è
-$$\sqrt{p\cdot p}=\sqrt{E^{2}/c^{2}-|\vec{p}|^{2}}=\sqrt{\frac{\gamma^{2}m^{2}c^{4}}{c^{2}}-\gamma^{2}m^{2}\vec{v}^{2}}=\sqrt{m^{2}\gamma^{2}(c^{2}-v^{2})}=m\gamma\sqrt{c^{2}-v^{2}}=$$
+$$p=(\gamma mc,\;\gamma m\vec{v})$$
+### Energia relativistica
+La sua [[norma]] è
+$$\sqrt{p\cdot p}=\sqrt{\frac{E^{2}}{c^{2}}-|\vec{p}|^{2}}=\sqrt{\frac{\gamma^{2}m^{2}c^{4}}{c^{2}}-\gamma^{2}m^{2}\vec{v}^{2}}=\sqrt{m^{2}\gamma^{2}(c^{2}-v^{2})}=m\gamma\sqrt{c^{2}-v^{2}}=$$
 $$=\frac{m}{\sqrt{1- \frac{v^{2}}{c^{2}}}}\sqrt{c^{2}-v^{2}}=\frac{m\sqrt{c^{2}\left(1 - \frac{v^{2}}{c^{2}}\right)}}{\sqrt{1 - \frac{v^{2}}{c^{2}}}}=mc$$
 Dunque si ha
 $$m^{2}c^{2}=\frac{E^{2}}{c^{2}}-|\vec{p}|^{2}$$
 quindi ho una relazione tra massa, energia e impulso di una [[particella]]. Invertendo la relazione si ha
 $$E^{2}=|\vec{p}|^{2}c^{2}+m^{2}c^{4}$$
-che si dice **energia relativistica totale**. Si può anche considerare solo la parte cinetica
+che si dice **energia relativistica totale**. Da questa possiamo anche ridefinire $\beta$ e $\gamma$ come
+$$\gamma=\frac{E}{mc^{2}}\quad;\quad\beta=\frac{|\vec{p}|c}{E}$$
+da cui otteniamo anche
+$$\beta\gamma=\frac{|\vec{p}|}{mc}$$
+
+Si può anche considerare solo la parte cinetica
 $$K=E-mc^{2}=\gamma mc^{2} -mc^{2}=mc^{2}(\gamma-1)$$
 Sviluppando $\gamma$ in serie per $\beta\ll1$ e prendendo il primo ordine, si torna alla formula classica per l'energia cinetica
 $$K\sim\left(1+ \frac{\beta^{2}}{2} -1\right)\simeq \frac{mc^{2}\beta^{2}}{2}\simeq \frac{v^{2}}{2c^{2}}mc^{2}=\frac{1}{2}mv^{2}$$
-Valgono anche
-$$\gamma=\frac{E}{mc^{2}}\quad;\quad\beta=\frac{|\vec{p}|c}{t}$$
+### Sotto trasformazioni di Lorentz
+Prendiamo una particella $p$ in un sistema di riferimento in coordinate sferiche.
 
-Prendiamo una particella $p$ in coordinate sferiche.
 ![[Coordinate Sferiche Particella|center]]
 
 Allora
