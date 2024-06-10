@@ -6,4 +6,4 @@ con $g^{\mu\nu}$ il [[tensore metrico]].
 
 La [[norma]] di un quadrivettore $|a|^{2}=g_{\mu\nu}a^{\mu}a^{\nu}$ è invariante.
 
-L'impulso trasverso di una [[particella]], il suo angolo azimutale in coordinate sferiche e la [[Rapidità]] sono altre invarianti.
+L'impulso trasverso di una [[Particella]], il suo angolo azimutale in coordinate sferiche e la [[Rapidità]] sono altre invarianti.

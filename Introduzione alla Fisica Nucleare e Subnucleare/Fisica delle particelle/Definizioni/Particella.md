@@ -3,7 +3,7 @@ Una **particella** è un oggetto fisico che occupa uno spazio-tempo localizzato 
 - carica
 - [[spin]]
 - etc...
-Alcune di questi attributi non sono predicibili quantitativamente (come massa o carica di un elettrone), mentre altri sì (lo spin o l'esistenza del [[elettrone|positrone]]).
+Alcune di questi attributi non sono predicibili quantitativamente (come massa o carica di un elettrone), mentre altri sì (lo spin o l'esistenza del [[Elettrone|positrone]]).
 
 Una particella si dice **elementare** se non è divisibile in altre particelle. Idealmente, le particelle obbediscono direttamente alle [[Interazione fondamentale|interazioni fondamentali]], senza necessità di astrazioni.
 

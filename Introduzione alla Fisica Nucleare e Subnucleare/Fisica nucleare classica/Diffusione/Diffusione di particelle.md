@@ -23,11 +23,11 @@ A causa del [[Disuguaglianza di Heisenberg|principio di indeterminazione]], se v
 $$p\geq \frac{\hbar}{\Delta x} \quad\rightarrow\quad E= pc\geq \frac{\hbar c}{\Delta x}\sim \frac{200 \text{ MeV fm}}{\Delta x}$$
 Se il raggio del [[nucleo atomico]] è circa 1 fm, allora ho $p\sim$ 10 - 1000 MeV/c. Se è attorno ai 0.8 fm, si ha $p\sim$ 1000 MeV/c, quindi l'energia deve essere nell'ordine dei GeV.
 ## Diffusione anelastica
-La **diffusione anelastica** è un tipo di diffusione dove parte dell'energia cinetica viene trasferita dal proiettile $a$ al bersaglio $b$, che lo porta ad uno stato eccitato $b^{*}$. Questo poi [[Decadimento|decade]] allo stato fondamentale, emettendo una o più particelle.
+La **diffusione anelastica** è un tipo di diffusione dove parte dell'energia cinetica viene trasferita dal proiettile $a$ al bersaglio $b$, che lo porta ad uno stato eccitato $b^{*}$. Questo poi [[Decadimento nucleare|decade]] allo stato fondamentale, emettendo una o più particelle.
 ![[Schema Diffusione anelastica|60%|center]]
 La diffusione si scrive
 $$a+b \rightarrow a'+b^{*} \rightarrow a'+c+d$$
-dove $b^{*}$ può tornare allo stato fondamentale emettendo [[Decadimento Gamma#Radiazione elettromagnetica|radiazione]] $\gamma$ o può [[Decadimento|decadere]] in $c$ e $d$.
+dove $b^{*}$ può tornare allo stato fondamentale emettendo [[Decadimento Gamma#Radiazione elettromagnetica|radiazione]] $\gamma$ o può [[Decadimento nucleare|decadere]] in $c$ e $d$.
 
 Se da una diffusione anelastica rivelo solo $a'$, si dice **inclusiva**, mentre se rivelo tutti i prodotti di reazione, si dice **esclusiva**. In realtà, il proiettile $a$ può anche scomparire in una diffusione anelastica, emettendo solo nuove particelle o trasferendo l'energia per alzare di stato il bersaglio.
 ## Diffusione di Rutherford

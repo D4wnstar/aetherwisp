@@ -4,7 +4,7 @@ aliases:
   - energy straggling
   - lunghezza di radiazione
 ---
-Lo **stopping power** $S$ è la capacità di un materiale di rallentare una [[particella]] che ci passa attraverso mediante l'interazione con la materia, diminuendo la sua energia. Matematicamente, è la media della diminuzione di energia $E$ della particella per unità di spazio $x$, inteso come lo spazio occupato da materia entro il quale passa la particella:
+Lo **stopping power** $S$ è la capacità di un materiale di rallentare una [[Particella]] che ci passa attraverso mediante l'interazione con la materia, diminuendo la sua energia. Matematicamente, è la media della diminuzione di energia $E$ della particella per unità di spazio $x$, inteso come lo spazio occupato da materia entro il quale passa la particella:
 $$S(E)=- \left\langle\frac{dE}{dx}\right\rangle$$
 per un sistema del tipo
 ![[Schema Rivelatore generico|40%|center]]
@@ -37,7 +37,7 @@ Le uniche due proprietà intrinseche della particella da cui la formula dipende 
 
 Lo stopping power ha un minimo, per poi risalire nuovamente per effetti relativistici. Una particella con diminuzione di energia minima viene detta *minimum ionizing particle* (o *MIP*) e per tutte le MIP vale che $\beta\gamma\simeq3$.
 ### Perdita per radiazione
-Lo stopping power relativo ad un [[elettrone]] non è ben descritto dalla formula di Bethe-Bloch e richiede una derivazione diversa. Questo è dovuto al fatto che gli elettroni del fascio sono identici a quelle del bersaglio e anche da quanto piccola è la loro massa. Infatti, per gli elettroni la perdita di energia dovuta a radiazione (in particolare [[bremmstrahlung]]) è molto più importante.
+Lo stopping power relativo ad un [[Elettrone]] non è ben descritto dalla formula di Bethe-Bloch e richiede una derivazione diversa. Questo è dovuto al fatto che gli elettroni del fascio sono identici a quelle del bersaglio e anche da quanto piccola è la loro massa. Infatti, per gli elettroni la perdita di energia dovuta a radiazione (in particolare [[bremmstrahlung]]) è molto più importante.
 
 La perdita di energia per radiazione di una particella di energia $E_{0}$ è
 $$- \left.\frac{dE}{dx}\right|_{\text{rad}}=\frac{E}{L_{R}}$$

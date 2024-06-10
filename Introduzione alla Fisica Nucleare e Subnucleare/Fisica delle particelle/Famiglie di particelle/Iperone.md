@@ -1,0 +1,1 @@
+Un **iperone** è una [[particella strana]] [[Barione|barionica]] con massa superiore a quella del [[protone]]. Sono [[Fermione|fermioni]] con [[spin]] 1/2. Ne fanno parte le [[lambda (particella)]], le [[sigma (particella)]] e le [[xi (particella)]].

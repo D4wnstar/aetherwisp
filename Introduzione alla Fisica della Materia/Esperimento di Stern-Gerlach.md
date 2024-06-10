@@ -1,4 +1,4 @@
-L'**esperimento di Stern-Gerlach** è un esperimento che ha scoperto quasi accidentalmente lo [[spin]] dell'[[elettrone]]. Il vero scopo dell'esperimento era misurare se le [[Particella|particelle]] avessero un momento angolare intrinseco.
+L'**esperimento di Stern-Gerlach** è un esperimento che ha scoperto quasi accidentalmente lo [[spin]] dell'[[Elettrone]]. Il vero scopo dell'esperimento era misurare se le [[Particella|particelle]] avessero un momento angolare intrinseco.
 ### Teoria
 Si consideri una spira circolare attraversata da una corrente $I$. Questa spira ha un momento di dipolo magnetico perpendicolare alla spira pari a $\vec{\mu}=I\vec{A}$.
 
@@ -6,7 +6,7 @@ Si consideri una spira circolare attraversata da una corrente $I$. Questa spira 
 Per una spira di raggio $R$ con cariche $q$ a velocità $\vec{v}$ e lunghezza d'onda $\lambda$ si ha
 $$I=\lambda v=\frac{q}{2\pi R} v$$
 $$IA=\frac{q}{2\pi R}v\pi R^{2}=\frac{1}{2}qvR$$
-Se la [[particella]] carica ha massa $M$, ha momento angolare $L=MvR$ e quindi
+Se la [[Particella]] carica ha massa $M$, ha momento angolare $L=MvR$ e quindi
 $$\vec{\mu}=\frac{1}{2} \frac{q}{M}\vec{L}$$
 che è una *relazione generale tra un momento di dipolo magnetico e un momento angolare*. Per un elettrone, deve valere
 $$\mu_{e}=\frac{1}{2} \frac{e}{m_{e}} S_{e}$$

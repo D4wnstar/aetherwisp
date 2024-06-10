@@ -1,4 +1,4 @@
-Una **funzione d'onda** $\Psi(x,t)$ (anche $\psi(x,t)$) è una funzione che descrive lo stato di una [[particella]] quantistica. È la soluzione dell'[[Equazione di Schrödinger]]. Esistono diverse interpretazioni fisiche della funzione d'onda.
+Una **funzione d'onda** $\Psi(x,t)$ (anche $\psi(x,t)$) è una funzione che descrive lo stato di una [[Particella]] quantistica. È la soluzione dell'[[Equazione di Schrödinger]]. Esistono diverse interpretazioni fisiche della funzione d'onda.
 ### Interpretazione di Born
 Un modo per spiegare a livello fisico la funzione d'onda è l'**interpretazione statistica di Born**. Questa afferma che la [[Norma]] della funzione d'onda ci dà la *probabilità* che la particella si trovi in un determinato punto $x$ allo spazio $t$. In simboli
 $$\int_{a}^{b}|\Psi(x,t)|^{2}dx=\text{probabilità di trovare la particella tra }a\text{ e }b\text{ al tempo }t$$

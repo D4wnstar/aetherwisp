@@ -1,4 +1,4 @@
-L'**energia di legame** $B$ è l'energia necessaria per rimuovere una [[particella]] da un sistema legato, come per esempio un [[atomo]] e i suoi [[elettrone|elettroni]]. In fisica nucleare, si preferisce il termine **energia di separazione** quando si parla di rimuovere [[Nucleone|nucleoni]] dal [[Nucleo atomico|nucleo]].
+L'**energia di legame** $B$ è l'energia necessaria per rimuovere una [[Particella]] da un sistema legato, come per esempio un [[atomo]] e i suoi [[Elettrone|elettroni]]. In fisica nucleare, si preferisce il termine **energia di separazione** quando si parla di rimuovere [[Nucleone|nucleoni]] dal [[Nucleo atomico|nucleo]].
 
 È definita come la differenza tra la massa dei singoli costituenti del sistema e la massa del sistema, moltiplicata per $c^{2}$. La differenza tra la massa del sistema legato e i suoi costituenti viene anche detta **difetto di massa**. Per un nucleo, è la differenza in massa tra il nucleo $^{A}_{Z}X_{N}$ e i suoi costituenti $Z$ [[protone|protoni]] e [[neutrone|neutroni]].
 
@@ -6,7 +6,7 @@ L'**energia di legame** $B$ è l'energia necessaria per rimuovere una [[particel
 $$B(Z,A)=[Zm(^{1}H)+Nm_{n}-m(A,Z)]c^{2}$$
 dove
 - $m_{n}$ è la massa del [[neutrone]].
-- $m(^{1}H)=m_{e}+m_{p}$, con $m_{e}$ e $m_{p}$ le masse dell'[[elettrone]] e del [[protone]].
+- $m(^{1}H)=m_{e}+m_{p}$, con $m_{e}$ e $m_{p}$ le masse dell'[[Elettrone]] e del [[protone]].
 - $A$, $N$ e $Z$ [[Atomo|numero di massa atomica]], [[Atomo|numero di neutroni]] e [[Atomo|numero atomico]].
 - $c$ è la [[velocità della luce]].
 In sostanza, questa formula misura la differenza tra le masse dell'atomo e la massa che avrebbe il sistema se fosse composto da atomi di idrogeno e neutroni separatamente.

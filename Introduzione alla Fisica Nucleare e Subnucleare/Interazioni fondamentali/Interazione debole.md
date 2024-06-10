@@ -1,4 +1,6 @@
-L'**interazione debole** è l'[[interazione fondamentale]] che governa il [[Decadimento]] delle [[Particella|particelle]] elementari.
+L'**interazione debole** è l'[[interazione fondamentale]] che governa il [[Decadimento nucleare|decadimento]] delle [[Particella|particelle]] elementari.
+
+L'interazione debole agisce mediante lo scambio di un [[bosone W]] o di un [[bosone Z]].
 ### Costante di accoppiamento
 A *partire* dalla [[vita media]] del [[Decadimento Beta]] $\tau\sim10^{2}$ s, possiamo determinare la *costante di accoppiamento effettiva di Fermi* $G_{F}$:
 $$G_{F}\simeq1.17\times10^{-5}\left(\frac{\hbar c}{\text{GeV}}\right)^{2}\simeq1.17\times10^{-5}\left(\frac{\hbar}{m_{p}c}\right)^{2}$$

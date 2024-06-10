@@ -18,7 +18,7 @@ e si hanno tre casi:
 ![[Schema Cono di luce|80%|center]]
 ### Sistemi di riferimento
 In un esperimento, si usano due sistemi di riferimento fondamentali:
-1. Il sistema di riferimento del laboratorio è solidale all'osservatore (e ai [[Rivelatore|rivelatori]]). È quello che si usa quando si fa collidere una [[particella]] con un bersaglio fisso.
+1. Il sistema di riferimento del laboratorio è solidale all'osservatore (e ai [[Rivelatore|rivelatori]]). È quello che si usa quando si fa collidere una [[Particella]] con un bersaglio fisso.
 2. Il sistema di riferimento del [[centro di massa]] è il sistema tale per cui la somma degli impulsi delle particelle che collidono è nulla: $\sum\vec{p}=0$.
 
 Considerando i [[Quadrivettore energia-impulso|quadri-impulsi]] per due particelle (o un bersaglio), si ha per il laboratorio

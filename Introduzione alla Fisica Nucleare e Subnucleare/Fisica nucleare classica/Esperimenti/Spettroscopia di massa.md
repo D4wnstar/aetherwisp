@@ -4,7 +4,7 @@ Uno spettrometro di massa è tradizionalmente composto da tre componenti: una *s
 
 ![[Schema Spettroscopo di massa|80%|center]]
 
-La *sorgente di ioni* è una qualunque sorgente che emana un fascio di [[ione|ioni]] di un elemento a diverse velocità. Una sorgente molto semplice è, ad esempio, un blocco di materiale puro dell'elemento che mi interessa che viene bombardato da un fascio di [[elettrone|elettroni]], generando così un fascio di ioni.
+La *sorgente di ioni* è una qualunque sorgente che emana un fascio di [[ione|ioni]] di un elemento a diverse velocità. Una sorgente molto semplice è, ad esempio, un blocco di materiale puro dell'elemento che mi interessa che viene bombardato da un fascio di [[Elettrone|elettroni]], generando così un fascio di ioni.
 
 Il primo selettore è un *selettore di velocità* composto da campi elettrici e magnetici perpendicolari. Il campo elettrico $\vec{E}$ genera un forza di modulo $qE$ che spinge gli ioni verso la parte superiore del selettore; il campo magnetico $\vec{B}$ genera una forza di modulo $qvB$ verso la parte inferiore. Se l'ione continua dritto, vuol dire che queste due forze si equilibrano (altrimenti colliderebbe con l'interno del selettore). Allora si ha
 $$qE=qvB \quad\Rightarrow\quad v=\frac{E}{B}$$

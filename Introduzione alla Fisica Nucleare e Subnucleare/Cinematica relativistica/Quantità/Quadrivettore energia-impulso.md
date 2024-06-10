@@ -12,7 +12,7 @@ $$\sqrt{p\cdot p}=\sqrt{\frac{E^{2}}{c^{2}}-|\vec{p}|^{2}}=\sqrt{\frac{\gamma^{2
 $$=\frac{m}{\sqrt{1- \frac{v^{2}}{c^{2}}}}\sqrt{c^{2}-v^{2}}=\frac{m\sqrt{c^{2}\left(1 - \frac{v^{2}}{c^{2}}\right)}}{\sqrt{1 - \frac{v^{2}}{c^{2}}}}=mc$$
 Dunque si ha
 $$m^{2}c^{2}=\frac{E^{2}}{c^{2}}-|\vec{p}|^{2}$$
-quindi ho una relazione tra massa, energia e impulso di una [[particella]]. Invertendo la relazione si ha
+quindi ho una relazione tra massa, energia e impulso di una [[Particella]]. Invertendo la relazione si ha
 $$E^{2}=|\vec{p}|^{2}c^{2}+m^{2}c^{4}$$
 che si dice **energia relativistica totale**. Da questa possiamo anche ridefinire $\beta$ e $\gamma$ come
 $$\gamma=\frac{E}{mc^{2}}\quad;\quad\beta=\frac{|\vec{p}|c}{E}$$

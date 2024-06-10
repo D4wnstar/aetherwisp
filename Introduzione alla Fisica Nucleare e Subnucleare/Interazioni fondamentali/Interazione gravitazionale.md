@@ -18,4 +18,4 @@ Definiamo la *costante di accoppiamento gravitazionale* $\alpha_{G}(\mathcal{M}^
 $$\alpha_{G}(M_{Pl}^{2})=\alpha=\frac{1}{137}$$
 eguagliando alla [[costante di struttura fine]]. Se invece consideriamo la massa del protone si ha
 $$\alpha_{G}(\sim1\text{ GeV})=\alpha_{G}(m_{p}^{2})=\frac{m_{p}^{2}}{M^{2}_{Pl}}\alpha_{G}(M_{Pl}^{2})\simeq10^{-40}$$
-che è un valore minuscolo. Infatti, per masse piccole come quella di una [[particella]], l'interazione gravitazionale è completamente trascurabile.
+che è un valore minuscolo. Infatti, per masse piccole come quella di una [[Particella]], l'interazione gravitazionale è completamente trascurabile.

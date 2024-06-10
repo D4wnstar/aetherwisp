@@ -1,1 +1,1 @@
-Il **numero quantico barionico** è il [[numero quantico]] che caratterizza i [[Barione|barioni]]. È 1 per le [[Particella|particelle]] e -1 per le [[antiparticella|antiparticelle]]. Il numero barionico si conserva sempre.
+Il **numero quantico barionico** è il [[numero quantico]] che caratterizza i [[Barione|barioni]]. Per convenzione, è 1 per le [[Particella|particelle]] barioniche e -1 per le [[antiparticella|antiparticelle]]. Il numero barionico si conserva sempre.

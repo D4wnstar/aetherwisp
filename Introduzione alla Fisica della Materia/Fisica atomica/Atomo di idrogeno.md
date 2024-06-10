@@ -1,8 +1,8 @@
-L'**atomo di idrogeno** consiste in un [[protone]] sostanzialmente fermo di carica $e$ legato dall'[[Interazione fondamentale|interazione elettromagnetica]] con un [[elettrone]] di carica $-e$. È l'[[atomo]] dalla struttura più semplice e l'unico ad essere risolvibile analiticamente (assieme a tutti gli atomi *idrogenoidi*, ossia con un solo elettrone, che si riconducono a quello di idrogeno).
+L'**atomo di idrogeno** consiste in un [[protone]] sostanzialmente fermo di carica $e$ legato dall'[[Interazione fondamentale|interazione elettromagnetica]] con un [[Elettrone]] di carica $-e$. È l'[[atomo]] dalla struttura più semplice e l'unico ad essere risolvibile analiticamente (assieme a tutti gli atomi *idrogenoidi*, ossia con un solo elettrone, che si riconducono a quello di idrogeno).
 ### Formulazione di Schrödinger
 Consideriamo l'[[Hamiltoniana]]
 $$H=- \frac{\hbar^{2}}{2M}\nabla^{2}_{R}- \frac{\hbar^{2}}{2m}\nabla^{2}_{r_{e}}- \frac{Ze^{2}}{4\pi\epsilon_{0}|R-r_{e}|}$$
-dove $M$ è la massa del nucleo, $m$ la masse dell'[[elettrone]], $Z$ è il numero atomico e $|R-r_{e}|$ la distanza orbitale dell'elettrone. I tre termini rappresentano, in ordine, l'energia cinetica dei nuclei, quella degli elettroni e l'energia [[potenziale]].
+dove $M$ è la massa del nucleo, $m$ la masse dell'[[Elettrone]], $Z$ è il numero atomico e $|R-r_{e}|$ la distanza orbitale dell'elettrone. I tre termini rappresentano, in ordine, l'energia cinetica dei nuclei, quella degli elettroni e l'energia [[potenziale]].
 
 ![[Schema modello idrogeno|center]]
 

@@ -2,7 +2,7 @@
 aliases:
   - catena di decadimento
 ---
-È possibile che un [[Nuclide|radionuclide]] [[Decadimento|decada]] in [[Nucleo atomico|specie nucleari]] che al loro volta sono instabili, e quindi queste a loro volta decadranno in nuove specie. Questo fenomeno è detto **decadimento a catena** e la successione di nuclei che vengono prodotti dai decadimenti è detta **catena di decadimento**. Il nucleo che dà origine alla catena è detto **nucleo madre** e i risultanti sono detti **figlie**, **nipoti**, etc.
+È possibile che un [[Nuclide|radionuclide]] [[Decadimento nucleare|decada]] in [[Nucleo atomico|specie nucleari]] che al loro volta sono instabili, e quindi queste a loro volta decadranno in nuove specie. Questo fenomeno è detto **decadimento a catena** e la successione di nuclei che vengono prodotti dai decadimenti è detta **catena di decadimento**. Il nucleo che dà origine alla catena è detto **nucleo madre** e i risultanti sono detti **figlie**, **nipoti**, etc.
 ### Decadimento a due passi
 Se comincio con $N_{0}$ [[Atomo|atomi]] madre e nessuna figlia, ho $N_{1}(t_{0})=N_{0}$, $N_{2}(t_{0})=0$, etc., con una [[Legge di decadimento radioattivo|costante di decadimento]] $\lambda_{i}$ per ciascun decadimento. Il nucleo madre decade secondo la [[legge di decadimento radioattivo]]:
 $$dN_{1}=-\lambda_{1}N_{1}dt \quad \Rightarrow \quad N_{1}(t)=N_{0}e^{-\lambda_{1}t}$$

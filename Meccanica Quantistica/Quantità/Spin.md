@@ -3,7 +3,7 @@ $$\hat{S}=(\hat{S}_{x},\hat{S}_{y},\hat{S}_{z})$$
 
 In meccanica classica esistono due tipi di momenti angolare: quello *orbitale*, $\vec{L}=\vec{r}\times\vec{p}$, che rappresenta il momento di un oggetto attorno ad un punto esterno (come la Terra che orbita attorno al Sole), e quello di *spin*, che rappresenta il momento di un oggetto attorno al proprio asse (come la Terra che ruota su se stessa ogni giorno). Se il [[momento angolare quantistico]] spiega il momento orbitale, lo spin rappresenta, appunto, il momento di spin.
 
-Il problema di fondo è che in meccanica classica, il momento di spin è sostanzialmente un'astrazione di comodità; d'altronde, ogni momento di spin di un oggetto esteso può essere spiegato come momento orbitale delle sue componenti rispetto al centro di massa[^1]. In meccanica quantistica, tuttavia, lo spin ha un suo significato intrinseco. Dato che le [[particella|particelle]] elementari sono modellate come oggetti puntiformi prive di struttura interna, è impossibile decomporre lo spin in somma di momenti orbitali delle componenti interne, dato che non ci sono componenti interne. Allora, lo spin quantistico è una proprietà indipendente della particella con un suo significato fisico.
+Il problema di fondo è che in meccanica classica, il momento di spin è sostanzialmente un'astrazione di comodità; d'altronde, ogni momento di spin di un oggetto esteso può essere spiegato come momento orbitale delle sue componenti rispetto al centro di massa[^1]. In meccanica quantistica, tuttavia, lo spin ha un suo significato intrinseco. Dato che le [[Particella|particelle]] elementari sono modellate come oggetti puntiformi prive di struttura interna, è impossibile decomporre lo spin in somma di momenti orbitali delle componenti interne, dato che non ci sono componenti interne. Allora, lo spin quantistico è una proprietà indipendente della particella con un suo significato fisico.
 ### Commutatività
 Applicando il [[commutatore]] alle componenti e omettendo il cappuccio si ottiene
 $$\begin{cases}
@@ -23,7 +23,7 @@ $s$ è detto il **[[numero quantico]] di spin** e si trova che ogni singola part
 
 Dato che le componenti sono intercambiabili fra loro con una permutazione ciclica, gli autovalori sono gli stessi per tutte le componenti. Quindi, per esempio, sapendo gli autovalori di $S_{z}$ si sanno automaticamente anche quelli di $S_{x}$ e $S_{y}$.
 ### Spin 1/2
-Il caso dello spin $s=1/2$ è di gran lunga il più importante, dato che tutte le particelle che compongono la materia ordinaria ([[protone]], [[neutrone]], [[elettrone]]) hanno spin 1/2, così come tutti i [[quark]] e tutti i [[Leptone|leptoni]].
+Il caso dello spin $s=1/2$ è di gran lunga il più importante, dato che tutte le particelle che compongono la materia ordinaria ([[protone]], [[neutrone]], [[Elettrone]]) hanno spin 1/2, così come tutti i [[quark]] e tutti i [[Leptone|leptoni]].
 
 Ha anche la fortuna di essere il caso più facile possibile, grazie al fatto che esistono solo due possibili autostati per $s$ e $m_{s}$: $| \frac{1}{2},\frac{1}{2}\rangle$ e $| \frac{1}{2}, -\frac{1}{2}\rangle$. Questi due stati vengono comunemente chiamati **spin up** $\uparrow$ e **spin down** $\downarrow$. I vettori che rappresentano questi due stati compongono una [[base]] in $\mathbb{C}^{2}$ e possono dunque essere combinati linearmente per creare stati misti espressi come vettori colonna bidimensionali (ossia degli [[spinore|spinori]]):
 $$\chi=\pmatrix{a \\ b}=a |\uparrow\;\rangle+b |\downarrow\;\rangle$$

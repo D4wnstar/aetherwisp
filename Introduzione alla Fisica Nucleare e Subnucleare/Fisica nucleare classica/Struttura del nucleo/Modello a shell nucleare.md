@@ -2,7 +2,7 @@
 aliases:
   - shell
 ---
-Il **modello a shell** è un modello del [[nucleo atomico]]. Da non confondere con il modello a shell dell'[[atomo]] stesso, che tratta degli [[elettrone|elettroni]]. Ha i seguenti presupposti:
+Il **modello a shell** è un modello del [[nucleo atomico]]. Da non confondere con il modello a shell dell'[[atomo]] stesso, che tratta degli [[Elettrone|elettroni]]. Ha i seguenti presupposti:
 1. ogni [[nucleone]] occupa un livello di energia ben preciso all'interno di una *shell*.
 2. i nucleoni si muovono nel nucleo sottoposti ad un [[potenziale]] *medio*.
 3. il potenziale medio ha origine dagli altri nucleoni.

@@ -1,4 +1,4 @@
-La **radiazione Cherenkov** è un fenomeno di radiazione legato alle proprietà dielettriche del materiale che avviene quando la velocità di propagazione di una [[particella]] in un mezzo è maggiore alla [[velocità della luce]] in quel mezzo.
+La **radiazione Cherenkov** è un fenomeno di radiazione legato alle proprietà dielettriche del materiale che avviene quando la velocità di propagazione di una [[Particella]] in un mezzo è maggiore alla [[velocità della luce]] in quel mezzo.
 
 Causa una perdita ridotta di energia, ma è utile per misurare la velocità delle particelle.
 ### Meccanismo

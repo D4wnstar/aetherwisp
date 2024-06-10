@@ -11,7 +11,7 @@ Non tutti i nuclei sono ugualmente stabili. Il numero di [[Nuclide|nuclidi]] sta
 
 ![[Piano Z-N stabilità nucleare.png]]
 
-L'instabilità può essere causata da diversi fattori; la [[formula semiempirica di massa]] dà una buona misura dell'[[energia di legame]] di un nucleo. Più bassa è, più instabile è (eccetto nei nuclei molto leggeri nella prima parte della curva, che sono eccezioni). In altre parole, nuclei più pesanti (oltre $A>60$) sono più instabili e si stabilizzando mediante un processo di [[Decadimento]]. Per conservare la massa, la somma delle masse delle specie decadute deve essere minora alla massa originale.
+L'instabilità può essere causata da diversi fattori; la [[formula semiempirica di massa]] dà una buona misura dell'[[energia di legame]] di un nucleo. Più bassa è, più instabile è (eccetto nei nuclei molto leggeri nella prima parte della curva, che sono eccezioni). In altre parole, nuclei più pesanti (oltre $A>60$) sono più instabili e si stabilizzando mediante un processo di [[Decadimento nucleare|decadimento]]. Per conservare la massa, la somma delle masse delle specie decadute deve essere minora alla massa originale.
 
 Formalmente, si ha *instabilità spontanea* per un decadimento a due corpi se
 $$M(A,Z)>M(A-A',Z-Z')+M(A',Z')$$
