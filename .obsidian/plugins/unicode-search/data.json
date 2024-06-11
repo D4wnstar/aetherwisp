@@ -5,16 +5,16 @@
   },
   "data": [
     {
+      "char": "È",
+      "name": "latin capital letter e with grave",
+      "useCount": 71,
+      "lastUsed": 1718121645984
+    },
+    {
       "char": "→",
       "name": "rightwards arrow",
       "useCount": 3,
       "lastUsed": 1718028789464
-    },
-    {
-      "char": "È",
-      "name": "latin capital letter e with grave",
-      "useCount": 70,
-      "lastUsed": 1718028791209
     },
     {
       "char": "ö",

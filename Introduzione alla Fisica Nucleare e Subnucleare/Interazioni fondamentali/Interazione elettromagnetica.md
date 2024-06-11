@@ -22,3 +22,8 @@ dove
 - $\varepsilon$ è la [[costante dielettrica del vuoto]].
 
 È importante il fatto che questa costante sia universale: ogni singolo processo elettromagnetico dell'Universo è regolato da questa costante. È anche piccola abbastanza da giustificare l'utilizzo della teoria perturbativa.
+### Interazione con la materia
+La radiazione elettromagnetica è mediata dai fotoni e può convertire tutta o parte della sua energia interagendo con gli atomi e i [[Nucleo atomico|nuclei]] atomici in questi tre modi:
+- [[Effetto fotoelettrico]]: il fotone viene assorbito dall'atomo per aumentare l'[[Equazione agli autovalori|autostato]] di energia di un [[elettrone]].
+- [[Effetto Compton]]: il fotone viene [[Diffusione di particelle|diffuso]] su un elettrone, ma non assorbito, quindi viene scambiata solo parte dell'energia e c'è una deviazione angolare del fotone.
+- **Produzione di coppie elettrone-positrone**: il fotone "decade" spontaneamente in una coppia elettrone-positrone.

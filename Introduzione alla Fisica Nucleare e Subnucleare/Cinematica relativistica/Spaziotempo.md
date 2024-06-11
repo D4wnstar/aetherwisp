@@ -16,6 +16,7 @@ e si hanno tre casi:
 È possibile rappresentare questo concetto graficamente mediante un **cono di luce**, ossia il cono prodotto nello spazio tempo un'oggetto che si muove alla velocità della luce e che non è superabile in alcun modo.
 
 ![[Schema Cono di luce|80%|center]]
+
 ### Sistemi di riferimento
 In un esperimento, si usano due sistemi di riferimento fondamentali:
 1. Il sistema di riferimento del laboratorio è solidale all'osservatore (e ai [[Rivelatore|rivelatori]]). È quello che si usa quando si fa collidere una [[Particella]] con un bersaglio fisso.
@@ -38,5 +39,5 @@ $$\begin{pmatrix}\sqrt{s} \\ 0 \\ 0 \\ 0 \end{pmatrix}=g_{\mu\nu}\begin{pmatrix}
 Se invece applichiamo una trasformazione su $z$ da lab a CM:
 $$\begin{pmatrix}E \\ p_{x} \\ p_{y} \\ p_{z}\end{pmatrix}_{LAB}=\begin{pmatrix}E \\ p\sin\theta\cos\varphi \\ p\sin\theta\sin\varphi \\ p\cos\theta\end{pmatrix}_{LAB}=\begin{pmatrix}\gamma & 0 & 0 & \beta\gamma \\ 0 & 1 & 0 & 0 \\ 0 & 0 & 1 & 0 \\ \beta \gamma & 0 & 0 & \gamma\end{pmatrix}\begin{pmatrix}E^{*} \\ p^{*}\sin\theta^{*}\cos\varphi^{*} \\ p^{*}\sin\theta^{*}\sin\varphi^{*} \\ p^{*}\cos\varphi^{*}\end{pmatrix}$$
 da cui
-$$\begin{pmatrix}E \\ p\sin\theta\cos\varphi \\ p\sin\theta\sin\varphi \\ p\cos\theta\end{pmatrix}_{LAB}=\begin{pmatrix}E^{*}\gamma+\beta\gamma\cos\theta^{*} \\ p^{*}\sin\theta^{*}\cos\varphi^{*} \\ p^{*}\sin\theta^{*}\sin\varphi^{*} \\ \beta\gamma E^{*}+\gamma p^{*}\cos\theta^{*}\end{pmatrix}_{CM}$$
+$$\begin{pmatrix}E \\ p\sin\theta\cos\varphi \\ p\sin\theta\sin\varphi \\ p\cos\theta\end{pmatrix}_{LAB}=\begin{pmatrix}E^{*}\gamma+\beta\gamma p^{*}\cos\theta^{*} \\ p^{*}\sin\theta^{*}\cos\varphi^{*} \\ p^{*}\sin\theta^{*}\sin\varphi^{*} \\ \beta\gamma E^{*}+\gamma p^{*}\cos\theta^{*}\end{pmatrix}_{CM}$$
 da cui si vede $p_{T}=p\sin\theta=p^{*}\sin\varphi^{*}$, ossia si conserva l'*impulso trasverso*, che è quindi un'[[invariante relativistica]] per una trasformazione lungo $z$, così come $\varphi=\varphi^{*}$ l'*angolo azimutale*.
