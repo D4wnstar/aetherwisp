@@ -4,6 +4,9 @@ aliases:
   - energy straggling
   - lunghezza di radiazione
   - stopping power
+  - perdita per collisione
+  - perdita per ionizzazione
+  - perdita per radiazione
 ---
 Il **potere frenante** o **stopping power** $S$ è la capacità di un materiale di rallentare una [[particella]] che ci passa attraverso mediante l'interazione con la materia, diminuendo la sua energia. Matematicamente, è la media della diminuzione di energia $E$ della particella per unità di spazio $x$, inteso come lo spazio occupato da materia entro il quale passa la particella:
 $$S(E)=- \left\langle\frac{dE}{dx}\right\rangle$$
@@ -90,7 +93,7 @@ $$- \left.\frac{dE}{dx}\right|_{\text{rad}}=\frac{E}{L_{R}}$$
 ovvero
 $$E(x)=E_{0}e^{-x/L_{R}}$$
 con
-$$L_{R}^{-1}=\left[\ln\left(\frac{183}{Z^{\frac{1}{3}}}\right)\right] \frac{4 r_{0}^{2}N_{A}Z^{2}\alpha\rho}{A}$$
+$$L_{R}^{-1}=\ln\left(\frac{183}{Z^{\frac{1}{3}}}\right) \frac{4 r_{0}^{2}N_{A}Z^{2}\alpha\rho}{A}$$
 dove
 - $r_{0}$ è il raggio classico dell'elettrone.
 - $N_A$ è il [[numero di Avogadro]].
@@ -101,16 +104,15 @@ dove
 
 $L_{R}$ si dice **lunghezza di radiazione** ed è la distanza alla quale l'energia dell'elettrone si diminuisce a $1/e$ di quella iniziale. È fortemente dipendente dal numero atomico del mezzo.
 
-L'andamento della perdita di energia per radiazione va come
+L'andamento della perdita di energia per radiazione è esponenziale e per alte energie porta ad una perdita di energia molto più importante dell'ionizzazione. A basse energie, invece, la ionizzazione domina di molto. Si dice *energia critica* $E_{C}$ è l'energia alla quale la perdita per collisione e radiazione è uguale. 
 
 ![[Grafico Stopping power e radiazione|80%|center]]
 *L'asse $x$ è in scala log10*
 
-dove $E_{C}$ è l'energia critica alla quale la perdita per collisione e radiazione è uguale. È chiaro che la perdita di energia per bremmstrahlung, essendo esponenziale, è molto più veloce di quella per ionizzazione. Alcuni esempi di $L_{R}$ per certi materiali sono 36 cm per $H_{2}O$, 9 cm per $Al$, 1.7 cm per $Fe$ e 0.56 cm per $Pb$.
+Alcuni esempi di $L_{R}$ per certi materiali sono 3.6 cm per $H_{2}O$, 9 cm per $Al$, 1.7 cm per $Fe$ e 0.56 cm per $Pb$. Questo evidenzia perché il piombo è uno schermante così buono.
 
 Lo [[spettro di energia]] dei [[fotone|fotoni]] emessi va da 0 a $E_{0}$ con $\left\langle \theta \right\rangle\simeq mc^{2}/E_{0}$, indipendente dall'energia del fotone emesso. L'energia critica è circa di $\sim600/Z$ MeV.
 
-Dato che la perdita per radiazione è $\propto 1/m_{e}^{2}$ nel caso dell'elettrone, per particelle di massa $M$ si ha che è $\propto1/M^{2}$. Ciò significa che la perdita di energia per radiazione è rilevante soltanto per particelle di massa molto piccola (appunto come elettroni) o in casi ad altissima energia (ultrarelativistici).
-
+Per particelle di massa $M$ si ha che la perdita per bremmstrahlung è $\propto1/M^{2}$. Ciò significa che la perdita di energia per radiazione è rilevante soltanto per particelle di massa molto piccola (appunto come elettroni) o in casi ad altissima energia (ultrarelativistici).
 
 [^1]: Dato che si tratta di un prodotto, il logaritmo in sé non può essere trascurato (bisognerebbe avere una somma). È però possibile trascurare la variazione del logaritmo e quindi rimanere con una costante.

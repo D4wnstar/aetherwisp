@@ -1,6 +1,7 @@
 ---
 aliases:
   - catena di decadimento
+  - equazione di Bateman
 ---
 È possibile che un [[Nuclide|radionuclide]] [[Decadimento nucleare|decada]] in [[Nucleo atomico|specie nucleari]] che al loro volta sono instabili, e quindi queste a loro volta decadranno in nuove specie. Questo fenomeno è detto **decadimento a catena** e la successione di nuclei che vengono prodotti dai decadimenti è detta **catena di decadimento**. Il nucleo che dà origine alla catena è detto **nucleo madre** e i risultanti sono detti **figlie**, **nipoti**, etc.
 ### Decadimento a due passi

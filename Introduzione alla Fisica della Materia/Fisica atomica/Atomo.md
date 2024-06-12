@@ -4,7 +4,7 @@ aliases:
   - numero di massa atomica
   - numero di neutroni
 ---
-Un **atomo** è il più piccolo componente di un elemento chimico che non è divisibile tramite i metodi della chimica (acidi/basi, temperature corrispondenti a pochi [[elettronvolt]], etc.) (Haken & Wolf).
+Un **atomo** è il più piccolo componente di un elemento chimico che non è divisibile tramite i metodi della chimica (acidi/basi, temperature corrispondenti a pochi [[elettronvolt]], etc.)[^1].
 
 L'atomo è costituito da due parti:
 1. il **[[Nucleo atomico]]** sta al centro ed è composto da **[[Nucleone|nucleoni]]**, che si dividono in **[[protone|protoni]]** e **[[neutrone|neutroni]]**. È carico positivamente ed ha un raggio di circa $\sim10^{-13}$ cm o $\sim1$ fm.
@@ -17,3 +17,5 @@ Gli atomi si rappresentano convenzionalmente con $_{Z}^{A}X_{N}$, dove:
 - $A$ è il *numero di massa atomica*. È l'intero più vicino al rapporto tra massa nucleare e l'unità di massa atomica.
 - $N$ è il *numero di neutroni*. È pari ad $A - Z$.
 Per esempio, l'uranio (al di là di [[Isotopo|isotopi]] rari o processati) si scrive $_{92}^{238}U_{146}$, che vale a dire che l'uranio ha massa di (circa) 238 masse atomiche, ha 92 protoni e 146 neutroni.
+
+[^1]: Definizione di Haken & Wolf.

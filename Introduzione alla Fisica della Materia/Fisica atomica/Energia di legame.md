@@ -2,7 +2,7 @@ L'**energia di legame** $B$ è l'energia necessaria per rimuovere una [[Particel
 
 È definita come la differenza tra la massa dei singoli costituenti del sistema e la massa del sistema, moltiplicata per $c^{2}$. La differenza tra la massa del sistema legato e i suoi costituenti viene anche detta **difetto di massa**. Per un nucleo, è la differenza in massa tra il nucleo $^{A}_{Z}X_{N}$ e i suoi costituenti $Z$ [[protone|protoni]] e [[neutrone|neutroni]].
 
-È conveniente esprimere l'energia di legame in funzione delle masse atomiche, in quanto sono misurabili sperimentalmente con grande precisione ($\sim10^{-6}$) usando la spettroscopia di massa. Allora abbiamo
+È conveniente esprimere l'energia di legame in funzione delle masse atomiche, in quanto sono misurabili sperimentalmente con grande precisione ($\sim10^{-6}$) usando la [[spettroscopia di massa]]. Allora abbiamo
 $$B(Z,A)=[Zm(^{1}H)+Nm_{n}-m(A,Z)]c^{2}$$
 dove
 - $m_{n}$ è la massa del [[neutrone]].

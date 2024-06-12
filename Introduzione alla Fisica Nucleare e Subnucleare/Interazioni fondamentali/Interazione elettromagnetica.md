@@ -27,3 +27,5 @@ La radiazione elettromagnetica è mediata dai fotoni e può convertire tutta o p
 - [[Effetto fotoelettrico]]: il fotone viene assorbito dall'atomo per aumentare l'[[Equazione agli autovalori|autostato]] di energia di un [[elettrone]].
 - [[Effetto Compton]]: il fotone viene [[Diffusione di particelle|diffuso]] su un elettrone, ma non assorbito, quindi viene scambiata solo parte dell'energia e c'è una deviazione angolare del fotone.
 - **Produzione di coppie elettrone-positrone**: il fotone "decade" spontaneamente in una coppia elettrone-positrone.
+
+In tutti questi modi vi è un trasferimento parziale o totale dell'energia dal fotone a particelle cariche.
