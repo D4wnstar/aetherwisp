@@ -7,8 +7,14 @@
     {
       "char": "È",
       "name": "latin capital letter e with grave",
-      "useCount": 71,
-      "lastUsed": 1718121645984
+      "useCount": 73,
+      "lastUsed": 1718288642647
+    },
+    {
+      "char": "Å",
+      "name": "angstrom sign",
+      "useCount": 4,
+      "lastUsed": 1718288644362
     },
     {
       "char": "→",
@@ -39,12 +45,6 @@
       "name": "latin capital letter e with acute",
       "useCount": 1,
       "lastUsed": 1709550903271
-    },
-    {
-      "char": "Å",
-      "name": "angstrom sign",
-      "useCount": 1,
-      "lastUsed": 1708512481060
     },
     {
       "char": "⏦",

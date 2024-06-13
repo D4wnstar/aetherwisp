@@ -16,106 +16,23 @@ assorbita ^wFj8bItN
 Ciascuna "montagna" è la curva di 
 assorbimento per un tipo di filtro ^NCpmn9Kq
 
+
+# Embedded files
+6aa2b1022003aecdff610c11bbe1d256dd56b698: $$s_{banda}(\lambda)$$
+f4cdeba0707d82d8c4e4ed4e787276687948ae50: $$\lambda$$
+
 %%
 # Drawing
 ```json
 {
 	"type": "excalidraw",
 	"version": 2,
-	"source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/1.9.19",
+	"source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.0.21",
 	"elements": [
 		{
 			"type": "line",
-			"version": 70,
-			"versionNonce": 447889667,
-			"isDeleted": false,
-			"id": "_u4Sx8mz8biZXTK6aSDkR",
-			"fillStyle": "hachure",
-			"strokeWidth": 1,
-			"strokeStyle": "solid",
-			"roughness": 1,
-			"opacity": 100,
-			"angle": 0,
-			"x": -213,
-			"y": -297.08203125,
-			"strokeColor": "#1e1e1e",
-			"backgroundColor": "transparent",
-			"width": 5.684341886080802e-14,
-			"height": 480.5,
-			"seed": 786581709,
-			"groupIds": [],
-			"frameId": null,
-			"roundness": {
-				"type": 2
-			},
-			"boundElements": [],
-			"updated": 1696335604508,
-			"link": null,
-			"locked": false,
-			"startBinding": null,
-			"endBinding": null,
-			"lastCommittedPoint": null,
-			"startArrowhead": null,
-			"endArrowhead": null,
-			"points": [
-				[
-					0,
-					0
-				],
-				[
-					-5.684341886080802e-14,
-					480.5
-				]
-			]
-		},
-		{
-			"type": "line",
-			"version": 53,
-			"versionNonce": 1364231341,
-			"isDeleted": false,
-			"id": "S9vJqhs6i2fg-Axz8uxm7",
-			"fillStyle": "hachure",
-			"strokeWidth": 1,
-			"strokeStyle": "solid",
-			"roughness": 1,
-			"opacity": 100,
-			"angle": 0,
-			"x": -278.5,
-			"y": 152.41796875,
-			"strokeColor": "#1e1e1e",
-			"backgroundColor": "transparent",
-			"width": 592,
-			"height": 0,
-			"seed": 427825603,
-			"groupIds": [],
-			"frameId": null,
-			"roundness": {
-				"type": 2
-			},
-			"boundElements": [],
-			"updated": 1696335604508,
-			"link": null,
-			"locked": false,
-			"startBinding": null,
-			"endBinding": null,
-			"lastCommittedPoint": null,
-			"startArrowhead": null,
-			"endArrowhead": null,
-			"points": [
-				[
-					0,
-					0
-				],
-				[
-					592,
-					0
-				]
-			]
-		},
-		{
-			"type": "line",
-			"version": 141,
-			"versionNonce": 224995491,
+			"version": 168,
+			"versionNonce": 558610044,
 			"isDeleted": false,
 			"id": "kHNbEfQ_ZLXuJirCYpn6j",
 			"fillStyle": "hachure",
@@ -124,12 +41,12 @@ assorbimento per un tipo di filtro ^NCpmn9Kq
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": -209.5,
-			"y": 143.41796875,
+			"x": -206.2628205128205,
+			"y": 143.95899746119588,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
-			"width": 77,
-			"height": 90,
+			"width": 73.7628205128205,
+			"height": 96.54152191120141,
 			"seed": 1771562061,
 			"groupIds": [],
 			"frameId": null,
@@ -137,7 +54,7 @@ assorbimento per un tipo di filtro ^NCpmn9Kq
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1696335604508,
+			"updated": 1718289013510,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -148,22 +65,22 @@ assorbimento per un tipo di filtro ^NCpmn9Kq
 			"points": [
 				[
 					0,
-					0
+					6.326441423148836
 				],
 				[
-					29.5,
-					-86.5
+					26.262820512820497,
+					-87.04086538461536
 				],
 				[
-					77,
-					3.5
+					73.7628205128205,
+					9.50065652658607
 				]
 			]
 		},
 		{
 			"type": "line",
-			"version": 262,
-			"versionNonce": 932538125,
+			"version": 313,
+			"versionNonce": 1122733508,
 			"isDeleted": false,
 			"id": "4ZrzkWZez-h1gNaSFoQ1v",
 			"fillStyle": "hachure",
@@ -172,12 +89,12 @@ assorbimento per un tipo di filtro ^NCpmn9Kq
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": -161,
-			"y": 147.91796875,
+			"x": -162.91706730769226,
+			"y": 152.02253605769238,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
-			"width": 204,
-			"height": 414.5,
+			"width": 205.91706730769226,
+			"height": 403.87900641025647,
 			"seed": 474581005,
 			"groupIds": [],
 			"frameId": null,
@@ -185,7 +102,7 @@ assorbimento per un tipo di filtro ^NCpmn9Kq
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1696335604508,
+			"updated": 1718289015721,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -199,35 +116,35 @@ assorbimento per un tipo di filtro ^NCpmn9Kq
 					0
 				],
 				[
-					52,
-					-170.5
+					53.917067307692264,
+					-174.60456730769238
 				],
 				[
-					77.5,
-					-298.5
+					79.41706730769226,
+					-302.6045673076924
 				],
 				[
-					130,
-					-406.5
+					114.23677884615381,
+					-399.98357371794884
 				],
 				[
-					146.5,
-					-285
+					148.41706730769226,
+					-289.1045673076924
 				],
 				[
-					180,
-					-219
+					181.91706730769226,
+					-223.10456730769238
 				],
 				[
-					204,
-					8
+					205.91706730769226,
+					3.8954326923076223
 				]
 			]
 		},
 		{
 			"type": "line",
-			"version": 297,
-			"versionNonce": 1143086147,
+			"version": 362,
+			"versionNonce": 1998694524,
 			"isDeleted": false,
 			"id": "HuK67wT36L-UdPO-umH1W",
 			"fillStyle": "hachure",
@@ -236,12 +153,12 @@ assorbimento per un tipo di filtro ^NCpmn9Kq
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": -38.5,
-			"y": 142.91796875,
+			"x": -41.47475961538464,
+			"y": 153.76532451923072,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
-			"width": 237,
-			"height": 449,
+			"width": 239.97475961538464,
+			"height": 448.7576121794872,
 			"seed": 235562797,
 			"groupIds": [],
 			"frameId": null,
@@ -249,7 +166,7 @@ assorbimento per un tipo di filtro ^NCpmn9Kq
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1696335604508,
+			"updated": 1718289018611,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -263,32 +180,32 @@ assorbimento per un tipo di filtro ^NCpmn9Kq
 					0
 				],
 				[
-					8.5,
-					-204.5
+					11.474759615384642,
+					-215.34735576923072
 				],
 				[
-					95.5,
-					-330.5
+					98.47475961538464,
+					-341.3473557692307
 				],
 				[
-					108.5,
-					-439
+					148.25961538461536,
+					-448.7576121794872
 				],
 				[
-					183.5,
-					-368
+					186.47475961538464,
+					-378.8473557692307
 				],
 				[
-					222,
-					-270.5
+					224.97475961538464,
+					-281.3473557692307
 				],
 				[
-					226.5,
-					-122
+					229.47475961538464,
+					-132.84735576923072
 				],
 				[
-					237,
-					10
+					239.97475961538464,
+					-0.8473557692307168
 				]
 			]
 		},
@@ -354,8 +271,8 @@ assorbimento per un tipo di filtro ^NCpmn9Kq
 		},
 		{
 			"type": "text",
-			"version": 55,
-			"versionNonce": 1601355501,
+			"version": 106,
+			"versionNonce": 1269577540,
 			"isDeleted": false,
 			"id": "S18HhwQt",
 			"fillStyle": "hachure",
@@ -364,21 +281,21 @@ assorbimento per un tipo di filtro ^NCpmn9Kq
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": -35,
-			"y": 198.91796875,
+			"x": -45.32852564102552,
+			"y": 170.17397836538464,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
-			"width": 171.57986450195312,
-			"height": 25,
+			"width": 203.02237044236637,
+			"height": 29.5813301282052,
 			"seed": 1791141613,
 			"groupIds": [],
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1696335641441,
+			"updated": 1718289058302,
 			"link": null,
 			"locked": false,
-			"fontSize": 20,
+			"fontSize": 23.665064102564152,
 			"fontFamily": 1,
 			"text": "Lunghezza d'onda",
 			"rawText": "Lunghezza d'onda",
@@ -387,7 +304,7 @@ assorbimento per un tipo di filtro ^NCpmn9Kq
 			"containerId": null,
 			"originalText": "Lunghezza d'onda",
 			"lineHeight": 1.25,
-			"baseline": 18
+			"baseline": 20.000000000000007
 		},
 		{
 			"type": "text",
@@ -405,7 +322,7 @@ assorbimento per un tipo di filtro ^NCpmn9Kq
 			"y": -215.58203125,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
-			"width": 115.27989196777344,
+			"width": 115.27987670898438,
 			"height": 50,
 			"seed": 692070925,
 			"groupIds": [],
@@ -427,12 +344,49 @@ assorbimento per un tipo di filtro ^NCpmn9Kq
 			"baseline": 43
 		},
 		{
-			"id": "NCpmn9Kq",
 			"type": "text",
+			"version": 128,
+			"versionNonce": 1595592132,
+			"isDeleted": false,
+			"id": "NCpmn9Kq",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"angle": 0,
 			"x": -181.2960104761488,
-			"y": -411.87224503327116,
-			"width": 350.7998046875,
-			"height": 50,
+			"y": -421.87224503327116,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"width": 491.12200927734375,
+			"height": 70,
+			"seed": 2086282307,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": null,
+			"boundElements": [],
+			"updated": 1718289060911,
+			"link": null,
+			"locked": false,
+			"fontSize": 28,
+			"fontFamily": 1,
+			"text": "Ciascuna \"montagna\" è la curva di \nassorbimento per un tipo di filtro",
+			"rawText": "Ciascuna \"montagna\" è la curva di \nassorbimento per un tipo di filtro",
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"containerId": null,
+			"originalText": "Ciascuna \"montagna\" è la curva di \nassorbimento per un tipo di filtro",
+			"lineHeight": 1.25,
+			"baseline": 60
+		},
+		{
+			"id": "TkOrENW1aWGf6d0OCF2hL",
+			"type": "arrow",
+			"x": -249.84350662345588,
+			"y": 181.4635669865695,
+			"width": 0.11818910256411641,
+			"height": 518.8301282051282,
 			"angle": 0,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
@@ -443,25 +397,142 @@ assorbimento per un tipo di filtro ^NCpmn9Kq
 			"opacity": 100,
 			"groupIds": [],
 			"frameId": null,
-			"roundness": null,
-			"seed": 2086282307,
-			"version": 125,
-			"versionNonce": 1491902605,
+			"roundness": {
+				"type": 2
+			},
+			"seed": 460211836,
+			"version": 91,
+			"versionNonce": 577611204,
 			"isDeleted": false,
 			"boundElements": null,
-			"updated": 1696335762742,
+			"updated": 1718289010640,
 			"link": null,
 			"locked": false,
-			"text": "Ciascuna \"montagna\" è la curva di \nassorbimento per un tipo di filtro",
-			"rawText": "Ciascuna \"montagna\" è la curva di \nassorbimento per un tipo di filtro",
-			"fontSize": 20,
-			"fontFamily": 1,
-			"textAlign": "left",
-			"verticalAlign": "top",
-			"baseline": 43,
-			"containerId": null,
-			"originalText": "Ciascuna \"montagna\" è la curva di \nassorbimento per un tipo di filtro",
-			"lineHeight": 1.25
+			"points": [
+				[
+					0,
+					0
+				],
+				[
+					0.11818910256411641,
+					-518.8301282051282
+				]
+			],
+			"lastCommittedPoint": null,
+			"startBinding": null,
+			"endBinding": null,
+			"startArrowhead": null,
+			"endArrowhead": "arrow"
+		},
+		{
+			"id": "7zyr33BNXB4LqkjuZyL53",
+			"type": "arrow",
+			"x": -275.6247566234559,
+			"y": 153.80531378144133,
+			"width": 645.3545673076922,
+			"height": 0,
+			"angle": 0,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": {
+				"type": 2
+			},
+			"seed": 1295592060,
+			"version": 103,
+			"versionNonce": 1013665148,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1718289008639,
+			"link": null,
+			"locked": false,
+			"points": [
+				[
+					0,
+					0
+				],
+				[
+					645.3545673076922,
+					0
+				]
+			],
+			"lastCommittedPoint": null,
+			"startBinding": null,
+			"endBinding": null,
+			"startArrowhead": null,
+			"endArrowhead": "arrow"
+		},
+		{
+			"type": "image",
+			"version": 99,
+			"versionNonce": 442254716,
+			"isDeleted": false,
+			"id": "JLtjBjkG",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"angle": 0,
+			"x": -361.2934264952508,
+			"y": -304.651817628815,
+			"strokeColor": "#000000",
+			"backgroundColor": "transparent",
+			"width": 101.41123575498568,
+			"height": 26.84415064102562,
+			"seed": 96900,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": null,
+			"boundElements": [],
+			"updated": 1718289046851,
+			"link": null,
+			"locked": false,
+			"status": "pending",
+			"fileId": "6aa2b1022003aecdff610c11bbe1d256dd56b698",
+			"scale": [
+				1,
+				1
+			]
+		},
+		{
+			"type": "image",
+			"version": 152,
+			"versionNonce": 2065380220,
+			"isDeleted": false,
+			"id": "V6b7KoAQ",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"angle": 0,
+			"x": 322.9882241457749,
+			"y": 176.67230096092842,
+			"strokeColor": "#000000",
+			"backgroundColor": "transparent",
+			"width": 39.7231570512821,
+			"height": 27.17900219298249,
+			"seed": 89049,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": null,
+			"boundElements": [],
+			"updated": 1718289055898,
+			"link": null,
+			"locked": false,
+			"status": "pending",
+			"fileId": "f4cdeba0707d82d8c4e4ed4e787276687948ae50",
+			"scale": [
+				1,
+				1
+			]
 		}
 	],
 	"appState": {
@@ -475,14 +546,14 @@ assorbimento per un tipo di filtro ^NCpmn9Kq
 		"currentItemRoughness": 1,
 		"currentItemOpacity": 100,
 		"currentItemFontFamily": 1,
-		"currentItemFontSize": 20,
+		"currentItemFontSize": 28,
 		"currentItemTextAlign": "left",
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
-		"scrollX": 459.56468742427893,
-		"scrollY": 681.5150285686252,
+		"scrollX": 524.4809264952507,
+		"scrollY": 434.7744137826612,
 		"zoom": {
-			"value": 1.004424943063568
+			"value": 1.9500000000000002
 		},
 		"currentItemRoundness": "round",
 		"gridSize": null,
