@@ -16,7 +16,7 @@ $$\begin{cases}
 \end{cases}$$
 e mettendole insieme
 $$\beta=\tanh(y)$$
-Allora possiamo interpretare le trasformazioni di Lorentz come rotazioni iperboliche nello spaziotempo, con la rapidità che rappresenta l'angolo di rotazione:
+Allora possiamo interpretare le [[trasformazioni di Lorentz]] come rotazioni iperboliche nello spaziotempo, con la rapidità che rappresenta l'angolo di rotazione:
 $$\pmatrix{ct' \\ x' \\ y' \\ z'}=\pmatrix{\cosh y & -\sinh y & 0 & 0 \\ -\sinh y & \cosh y & 0 & 0 \\ 0 & 0 & 1 & 0 \\ 0 & 0 & 0 & 1}\pmatrix{ct \\ x \\ y \\ z}$$
 Possiamo invertire la relazione sopra per definire $y$
 $$y=\text{arctanh}\left(\frac{|\vec{p}|c}{E}\right)=\frac{1}{2}\ln\left(\frac{E-|\vec{p}|c}{E+|\vec{p}|c}\right)$$

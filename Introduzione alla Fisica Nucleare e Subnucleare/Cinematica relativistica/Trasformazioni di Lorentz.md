@@ -22,7 +22,7 @@ $$\Lambda(\beta)=\begin{pmatrix}\gamma & -\beta \gamma & 0 & 0 \\ -\beta \gamma 
 applicate ad un [[quadrivettore]] come
 $$a'_{\mu}=\Lambda(\beta)a_{\mu}$$
 ### Formalismo matematico
-Dal punto di vista matematico, una trasformazione di Lorentz non è altro che una [[rotazione]] nello [[spaziotempo]]. Le rotazioni sono [[Operatore unitario|unitarie]], quindi la [[norma]] è conservata:
+Dal punto di vista matematico, una trasformazione di Lorentz non è altro che una [[rotazione]] iperbolica nello [[spaziotempo]], il cui angolo di rotazione è detto [[rapidità]]. Le rotazioni sono [[Operatore unitario|unitarie]], quindi la [[norma]] è conservata:
 $$(x')^{2}+(y')^{2}+(z')^{2}-(ct')^{2}=x^{2}+y^{2}+z^{2}-(ct)^{2}$$
 Ciò significa che la distanza spaziotemporale è un'[[invariante relativistica]].
 ### Contrazione e dilatazione dello spaziotempo
