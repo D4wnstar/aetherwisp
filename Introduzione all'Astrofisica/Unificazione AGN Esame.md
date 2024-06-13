@@ -118,7 +118,7 @@ I modelli di unificazione sono ancora imprecisi (Netzer 2015):
 </grid>
 
 <grid drag="100 40" drop="0 50">
-#### Revisioni
+#### Revisioni (Netzer 2015)
 - Raffinare la geometria del toro e aggiungere più fonti di oscuramento, possibilmente esterne all'AGN.
 - Isolare le linee di assorbimento relative al toro.
 - Considerare più fonti di emissione in raggi X.
