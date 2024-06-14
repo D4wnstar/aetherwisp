@@ -1,8 +1,8 @@
 La **luminosità** di un astro è definita come l'energia emessa isotropicamente dall'astro in una certa banda per unità di tempo, misurata in fotoni che cadono in quella banda. Matematicamente
 $$L_{banda}=f_{banda}4\pi d^{2}$$
-dove $d$ è la distanza dell'astro. Bisogna dunque conoscere la distanza dell'oggetto per poterne misurare correttamente la luminosità. Date le difficoltà delle [[misure di distanza]], le misure di luminosità sono notoriamente impegnative. Si definisce inoltre **luminosità bolometrica** la luminosità emessa in tutte le bande.
+dove $d$ è la distanza dell'astro. Bisogna dunque conoscere la distanza dell'oggetto per poterne misurare correttamente la luminosità. Date le difficoltà delle misure di distanza, le misure di luminosità sono notoriamente impegnative. Si definisce inoltre **luminosità bolometrica** la luminosità emessa in tutte le bande.
 
-Si può definire la luminosità con un'approssimazione dell'energia prodotta dalla [[Stella|stella]] considerata come un corpo nero. Questa luminosità è "oggettiva", nel senso che non dipende da osservazioni "visive". Si calcola con
+Per avere una misura corretta della luminosità bolometrica, è necessario avere dati sulla luminosità in tutte le fasce dello [[spettro elettromagnetico]], cosa che in alcuni casi, come quello degli [[Nucleo galattico attivo|AGN]], non è per nulla semplice. Si può definire la luminosità con un'approssimazione dell'energia prodotta dalla [[Stella|stella]] considerata come un corpo nero. Questa luminosità è "oggettiva", nel senso che non dipende da osservazioni "visive". Si calcola con
 $$L=4\pi R^{2}\sigma T^{4}_{E}$$
 dove $R$ è il raggio della stella, $T$ è la temperatura *effettiva* e $\sigma$ è la [[costante di Stefan-Boltzmann]]. La luminosità dipende dalla massa
 $$L\propto M^{3.5}$$

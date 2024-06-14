@@ -1,4 +1,8 @@
-Un **Nucleo Galattico Attivo** (AGN, *Active Galactic Nucleus*) è un nucleo di una [[galassia]] che presenta [[Introduzione all'Astrofisica/Misure astronomiche/Righe spettrali|linee di emissione]] estremamente pronunciate che non possono essere ricondotte a semplici fenomeni di formazione stellare.
+---
+aliases:
+  - AGN
+---
+Un **Nucleo Galattico Attivo** (AGN, *Active Galactic Nucleus*) è un nucleo di una [[galassia]] che presenta [[Righe spettrali|linee di emissione]] estremamente pronunciate che non possono essere ricondotte a semplici fenomeni di formazione stellare.
 ## Manifestazione
 La presenza di un AGN comporta l'osservazione di forti righe di emissioni in tutto lo spettro elettromagnetico. L'esatta manifestazione dipende da che tipo di AGN si considera.
 
@@ -10,11 +14,11 @@ Le radiogalassie sono sistemi molto interessanti dal punto di vista fisico. Ad e
 Gli AGN vengono tipicamente classificati in base alla banda ottica in cui sono osservati. Nel visibile si hanno due classificazioni principali: una basata sulla [[luminosità]] e una basata sulla natura delle righe di emissione dello spettro ottico.
 
 Le classi di luminosità sono le seguenti:
-1. Le galassie che ospitano AGN con [[magnitudine]] maggiore di $M_{V}=-23$ sono dette **[[galassie Seyfert]]**.
+1. Le galassie che ospitano AGN con [[Magnitudine]] maggiore di $M_{V}=-23$ sono dette **[[galassie Seyfert]]**.
 2. Gli AGN con luminosità superiore sono invece detti **[[Quasi-Stellar Objects|Quasi-Stellar Objects]]** (QSO).
 La differenza tra le due classi è più un artefatto storico: gli AGN molto luminosi tipicamente non venivano risolti con buona precisione, sia per la loro estrema luminosità, sia per le loro distanze, e quindi venivano equiparati a stelle, da cui il nome *QSO*. Dal punto di vista puramente fisico, non c'è nessun "salto" tra le galassie Seyfert e i QSO, fanno entrambi parte dello stesso continuo e le Seyfert sono solo a minore luminosità.
 
-Per quanto riguarda la seconda classificazione, bisogna prima parlare della natura delle righe spettrali. Queste sono di due tipi principali e hanno entrambe la stessa origine. Si tratta di [[Introduzione all'Astrofisica/Misure astronomiche/Righe spettrali#Allargamento delle righe|allargamenti dovuti ai nubi calde]] e quindi dall'[[effetto Doppler]], ma si notano due categorie: alcune sono molto ampie e i moti che le producono sono stimabili nell'ordine dei $10^{4}$ km/s, mentre altre sono più strette e sono associate a moti nell'ordine dei $10^{3}$ km/s. Le prime sono quasi tutte righe permesse, sia ad alta che bassa ionizzazione, mentre le seconde possono essere sia permesse che [[Righe proibite|proibite]], anch'esse sia ad alta che bassa ionizzazione. Sapendo questo, possiamo suddividere gli AGN in tre tipi:
+Per quanto riguarda la seconda classificazione, bisogna prima parlare della natura delle righe spettrali. Queste sono di due tipi principali e hanno entrambe la stessa origine. Si tratta di [[Righe spettrali#Allargamento delle righe|allargamenti dovuti ai nubi calde]] e quindi dall'[[effetto Doppler]], ma si notano due categorie: alcune sono molto ampie e i moti che le producono sono stimabili nell'ordine dei $10^{4}$ km/s, mentre altre sono più strette e sono associate a moti nell'ordine dei $10^{3}$ km/s. Le prime sono quasi tutte righe permesse, sia ad alta che bassa ionizzazione, mentre le seconde possono essere sia permesse che [[Righe proibite|proibite]], anch'esse sia ad alta che bassa ionizzazione. Sapendo questo, possiamo suddividere gli AGN in tre tipi:
 1. Gli **AGN di tipo 1** sono quelli che presentano entrambi i tipi di righe, sovrapposte ad uno spettro continuo nel blu e vicino UV.
 2. Gli **AGN di tipo 2** presentano solo righe strette.
 3. I **LINER** (*Low-Ionization Narrow Emission Region*) presentano solo righe strette a bassa ionizzazione.

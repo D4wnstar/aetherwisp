@@ -1,4 +1,4 @@
-Il **diagramma Hertzprung-Russell**, abbreviato **diagramma HR**, è il diagramma che riporta per ogni [[stella]] la [[temperatura effettiva]] in ascissa (crescente verso sinistra) e la [[luminosità]] bolometrica in ordinata, in scala log-log. Spesso si usa creare il diagramma usando il [[colore]] in ascissa e la [[magnitudine]] assoluta in ordinata, dato che sono misure che si ottengono osservativamente.
+Il **diagramma Hertzprung-Russell**, abbreviato **diagramma HR**, è il diagramma che riporta per ogni [[stella]] la [[temperatura effettiva]] in ascissa (crescente verso sinistra) e la [[luminosità]] bolometrica in ordinata, in scala log-log. Spesso si usa creare il diagramma usando il [[Colore]] in ascissa e la [[Magnitudine]] assoluta in ordinata, dato che sono misure che si ottengono osservativamente.
 
 L'importanza di questo grafico sta nel fatto che le stelle non sono distribuite uniformemente, ma occupano spazi ben precisi. Ciò significa che le stelle sono realizzazioni di un singolo modello fisico descrivibile in pochi parametri e che l'intera natura fisica di una stella può essere descritta trovando la sua posizione nel diagramma HR.
 

@@ -4,7 +4,7 @@ Le galassie vengono categorizzate in [[classi galattiche]] in base alla loro mor
 
 In molte galassie si nota un'emissione nucleare molto intensa: il bulge centrale, puntiforme nella risoluzione angolare del telescopio, possiede una luminosità ben superiore di quanto il profilo di luminosità non suggerirebbe. In alcuni casi, è talmente luminoso da rendere il resto della galassia completamente indistinguibile dalla [[point spread function]] del nucleo.
 
-Lo spettro ottico di questi nuclei può assumere alcune forme: i nuclei a energia più bassa solitamente mostrano [[Introduzione all'Astrofisica/Misure astronomiche/Righe spettrali|linee di emissione]] simili a quelle delle regioni HII del [[mezzo interstellare]] e dunque possono essere spiegate come regioni di forte formazione stellare. Le [[supernova|supernove]] possono complicare ulteriormente lo spettro. Questi sono detti **nuclei starburst**.
+Lo spettro ottico di questi nuclei può assumere alcune forme: i nuclei a energia più bassa solitamente mostrano [[Righe spettrali|linee di emissione]] simili a quelle delle regioni HII del [[mezzo interstellare]] e dunque possono essere spiegate come regioni di forte formazione stellare. Le [[supernova|supernove]] possono complicare ulteriormente lo spettro. Questi sono detti **nuclei starburst**.
 
 Gli spettri ottici più luminosi non sono riconducibili a questo genere di attività. Questi prendono il nome di **[[Nucleo galattico attivo|Nuclei Galattici Attivi]]** (AGN). Le galassie che non presentano spettri con linee di emissione di questo genere prendono il nome di **galassie passive**.
 
