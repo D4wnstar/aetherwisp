@@ -63,7 +63,7 @@ Prendendo il caso $P=\frac{1}{3}\rho c^{2}$, che la pressione di radiazione, abb
 $$\dot{\rho}_{\gamma}+4 \frac{\dot{a}}{a}=0 \rightarrow \rho_{\gamma}=\rho_{\gamma,0}a^{-4}$$
 Consideriamo l'energia di un elettrone $e=h\nu=\frac{hc}{\lambda}$. Esprimiamo la lunghezza d'onda in base al fattore di scala dell'universo
 $$\frac{\lambda_{oss}}{a(t_{oss})}=\frac{\lambda_{em}}{a(t_{em})}$$
-ossia la lunghezza d'onda osservata differisce da quella emessa in funzione del fattore di scala ai tempi di osservazione e di emissione. Se consideriamo il [[redshift]], abbiamo
+ossia la lunghezza d'onda osservata differisce da quella emessa in funzione del fattore di scala ai tempi di osservazione e di emissione. Se consideriamo il [[Redshift]], abbiamo
 $$\boxed{1+Z= \frac{1}{a(t_{em})}}$$
 ossia possiamo calcolare il fattore scala dal redshift, che è misurabile. Dunque il fattore di scala è un [[Osservabile]].
 

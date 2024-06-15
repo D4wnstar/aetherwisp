@@ -1,6 +1,6 @@
 Il **flusso energetico** $\Phi$, o semplicemente **flusso**, è la quantità di energia $E$ che passa attraverso una superficie $S$ per unità di tempo $t$:
 $$\Phi=\frac{1}{S} \frac{dE}{dt} \quad \left[\frac{W}{m^{2}}\right]$$
-Il flusso energetico trova applicazione in diversi ambiti della fisica.
+Il flusso energetico trova applicazione in diversi ambiti della fisica e solitamente prende nomi diversi in ciascuno di essi.
 ### In astrofisica
 Nel contesto di telescopi e misurazioni celesti, è comune usare due tipi di flusso: il flusso in una generica banda è la quantità di energia raccolta da un [[rivelatore]] per unità di tempo sulla sua superficie:
 $$f_{banda}=\frac{1}{S_{rivelatore}} \frac{dE}{dt} \quad \left[\frac{erg}{s\cdot cm^{2}}\right]$$

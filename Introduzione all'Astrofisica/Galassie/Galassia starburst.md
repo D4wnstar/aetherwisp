@@ -1,3 +1,3 @@
-Una **galassia starburst** è una [[galassia]] che presenta tassi di formazione stellare estremamente alti rispetto a quanto osservato in altre galassie. In sostanza, l'intera galassia è una [[regione starburst]].
+Una **galassia starburst** è una [[galassia]] che presenta tassi di formazione stellare estremamente alti rispetto a quanto osservato in altre galassie. In sostanza, l'intera galassia è una [[Regione starburst]].
 
 La formazione stellare è talmente intensa che la galassia consuma tutta la sua riserva di gas in tempi scala molto minori della sua età. Ciò significa che lo starburst è una fase, più che una caratteristica intrinseca della galassia.

@@ -1,1 +1,0 @@
-Un **regolo standard** è un oggetto astronomico esteso di cui è nota la dimensione. Conoscendo questa, è possibile misurarne la distanza

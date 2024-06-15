@@ -1,9 +1,0 @@
-Un **ammasso stellare** è una regione dello spazio in cui si trovano numerose [[stella|stelle]] una vicino all'altra (nell'ordine dei [[parsec]]). Sono molto utili per studiare le proprietà delle [[Galassia|galassie]], in quanto è ragionevole supporre che tutte le stelle che fanno parte dell'ammasso si sono formate
-1. allo stesso tempo
-2. dalla stessa materia
-3. nello stesso luogo
-Il diagramma HR di un ammasso è interessante, perché l'unica variabile libera è la massa. Ciò ci permette di "scattare una fotografia" dell'evoluzione stellare in funzione della massa per testare i nostri modelli.
-## Ammassi aperti
-Gli ammassi aperti si misurano nell'ordine dei parsec e contengono masse dalle centinaia alle migliaia di $M_{\odot}$. Hanno una densità tra gli 10 e i 100 $M_{\odot}/Pc^{3}$. Di solito contengono stelle giovani e hanno forze gravitazionali relativamente deboli e dunque le stelle che ne fanno parte sono solo leggermente legate fra loro. Mostrano dispersioni di velocità nei km/s. Contengono stelle giovani e relativamente ricche di elementi pesanti, dette stelle di *popolazione I*.
-## Ammassi globulari
-Gli ammassi globulari si misurano nell'ordine delle decine di parsec e hanno masse nei milioni di $M_{\odot}$. Hanno una densità oltre le 1000 $M_{\odot}/Pc^{3}$. Le forze gravitazionali sono molto più forti e dunque le stelle sono legate fra loro molto più fortemente, il che le rende molto più stabili nel tempo. Questa stabilità è importante: con tempi scala nei $10^{10}$ anni, sono tra gli oggetti più antichi dell'Universo e pongono limiti importanti sulla sua età. Contengono stelle vecchie povere di elementi pesanti, dette stelle di *popolazione II*.

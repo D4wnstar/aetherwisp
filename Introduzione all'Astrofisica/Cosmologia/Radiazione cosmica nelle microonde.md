@@ -3,7 +3,7 @@ La **radiazione cosmica nelle microonde**, informalmente chiamata *eco del [[Big
 Oggi ha una temperatura $T_{\gamma,0}$ pari a 2.73K. In base a questa possiamo calcolare l'odierna densità di radiazione dell'universo usano la legge di Stefan-Boltzmann
 $$\rho_{\gamma,0}c^{2}=aT_{\gamma,0}^{4}=4.20\times10^{-13}erg\;cm^{-3}$$
 $$\rho_{\gamma,0}=\frac{aT_{\gamma,0}}{c}^{2}=4.67\times10^{-34}g\;cm^{-3}$$
-Dunque oggi ha un valore estremamente piccola. Tuttavia si può dimostrare che andando indietro nel tempo, il suo valore aumenta considerevolmente ed calcolabile tramite il [[redshift]]
+Dunque oggi ha un valore estremamente piccola. Tuttavia si può dimostrare che andando indietro nel tempo, il suo valore aumenta considerevolmente ed calcolabile tramite il [[Redshift]]
 $$\rho_\gamma=\rho_{\gamma,0}(1+Z)^{4}$$
 e quindi
 $$\rho_{\gamma,0}=\frac{aT_{\gamma,0}^{4}}{c^{2}}=\rho_{\gamma,0}(1+Z)^{4} \Rightarrow \boxed{T_{\gamma}\propto(1+Z)^{4}}$$

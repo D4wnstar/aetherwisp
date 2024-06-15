@@ -1,8 +1,8 @@
-Il **mezzo interstellare** (ISM, *Interstellar Medium*) è la materia che si trova nello spazio interstellare, ossia lo spazio oltre l'[[eliopausa]] di tutte le [[stella|stelle]] vicine. E' principalmente composto da atomi liberi, polvere e gas.
+Il **mezzo interstellare** (ISM, *Interstellar Medium*) è la materia che si trova nello spazio interstellare, ossia lo spazio oltre l'[[eliopausa]] di tutte le [[Stella|stelle]] vicine. E' principalmente composto da atomi liberi, polvere e gas.
 ### Effetto
 La polvere diffusa è particolarmente importante in quanto ha effetti visibili, specialmente nell'ultravioletto. Quando un fotone interseca un grano di polvere interstellare, può
 1. essere *estinto*, ossia assorbito da uno dei granelli di polvere per aumentare il suo livello di energia
-2. essere *arrossata* ([[redshift]]). L'estinzione preferenziale dell'UV cambia il [[Colore]] delle stelle
+2. essere *arrossata* ([[Redshift]]). L'estinzione preferenziale dell'UV cambia il [[Colore]] delle stelle
 3. essere *polarizzato*, dato che i grani sono in genere non sferici, in rotazione e ferromagnetici e un campo magnetico può quindi allinearli
 4. subire *scattering* e quindi essere deviata. La luce deviata appare diffusa e bluastra ed è in genere polarizzata
 Assorbendo la luce delle stelle, la polvere si scalda a temperature di pochi Kelvin e la loro emissione termica è visibile nel medio o lontano infrarosso.
@@ -14,7 +14,7 @@ Questo spiega perché si osservano le stelle di classe O e B in queste regioni n
 Nell'ottico, il mezzo interstellare è visibile in diversi oggetti, in genere associati con stelle giovani e brillanti, o stelle morenti.
 1. **[[Nebula oscura|Nebule oscure]]**: alcune zone del cielo sono completamente buie, in quanto la luce è assorbita da queste piccole nubi dense.
 2. **[[Nebulosa a riflessione|Nebulose a riflessione]]**: l'ISM è visibile attorno ad alcune stelle giovani dalla radiazione riflessa dalle polveri.
-3. **[[Regione HII|Regioni HII]]**: stelle luminose di [[classe stellare]] O e B sono spesso circondate da regioni di idrogeno ionizzato, che emette uno spettro caratteristico dominato da [[Righe spettrali|righe di emissione]].
+3. **[[Regione HII|Regioni HII]]**: stelle luminose di [[classe stellare]] O e B sono spesso circondate da regioni di idrogeno ionizzato, che emette uno spettro caratteristico dominato da [[Riga spettrale|righe di emissione]].
 4. **[[Nebulosa planetaria|Nebulose planetarie]]**.
 5. **Resti di [[supernova|supernove]]**: emettono radiazione principalmente per radiazione di sincrotrone e filamenti di gas confinati da campi magnetici.
 ### Scoperta

@@ -32,7 +32,7 @@ L'energia di legame di un nucleo dipende dal suo numero di massa atomica $A$. Ci
 $B$ cresce moltissimo nei primi atomi (fino a $A\simeq20$) dopodiché comincia ad appiattirsi e a scendere con una lieve pendenza. La stragrande maggioranza dei nuclei risiede in una fascia relativamente stretta, compresa tra 7.2 e 8.8 MeV/nucleone ($8.0\pm0.8$ MeV/nucleone). Gli unici elementi non inclusi in questa banda sono quelli molto leggeri, con $A<10$, come idrogeno ed elio. Il picco di energia per nucleone si trova a $A\sim60$, dove gli nuclei evidentemente sono particolarmente legati.
 
 Questo grafico ci dà informazioni su quale processo è energeticamente viabile per rilasciare energia:
-1. per $A<60$ è più efficiente combinare nuclei assieme mediante la [[fusione nucleare]].
+1. per $A<60$ è più efficiente combinare nuclei assieme mediante la [[Fusione nucleare]].
 2. per $A>60$ è più efficiente spezzare nuclei per crearne di più piccoli mediante la [[Fissione spontanea]].
 
 Il "capolinea" di questi processi è in ogni caso gli elementi ad $A\sim60$. Per esempio, la fusione nucleare non può creare atomi più pesanti del ferro ($A=56$) senza avere aggiunte di energia dall'esterno.

@@ -8,7 +8,7 @@ Il punto da cui si osserva è indifferente: la velocità aumenta allo stesso mod
 
 ![[Introduzione all'Astrofisica/Disegni/Legge di Hubble|Legge di Hubble|80%|center]]
 
-Esprimendo la legge in funzione del [[redshift]] abbiamo
+Esprimendo la legge in funzione del [[Redshift]] abbiamo
 $$cZ=H_{0}d$$
 Così facendo possiamo calcolare a grandi linee la costante di Hubble, ottenendo
 $$H_{0}\sim100km\;s^{-1}\;Mpc^{-1}$$

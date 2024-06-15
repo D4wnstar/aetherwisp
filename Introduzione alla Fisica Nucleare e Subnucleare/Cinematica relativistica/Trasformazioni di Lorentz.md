@@ -12,7 +12,7 @@ $$\begin{cases}
 x'=\frac{x-vt}{\sqrt{1-v^2/c^{2}}} \\
 y'=y \\
 z'=z \\
-t'=\frac{t-vx/c^{2}}{\sqrt1-v^{2}/c^{2}}
+t'=\frac{t-vx/c^{2}}{\sqrt{1-v^{2}/c^{2}}}
 \end{cases}$$
 o, definendo
 $$\beta=\frac{v}{c}\quad;\quad\gamma= \frac{1}{\sqrt{1-\beta^{2}}}$$

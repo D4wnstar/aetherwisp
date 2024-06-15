@@ -1,8 +1,9 @@
 ---
 aliases:
   - gravità
-  - forza di gravità
+  - forza gravitazionale
   - legge di gravitazione universale
+  - potenziale gravitazionale
 ---
 L'**interazione gravitazionale** è l'[[interazione fondamentale]] che governa l'attrazione tra corpi massivi. Nella descrizione classica newtoniana, considerati due oggetti con masse $m_{1}$ e $m_{2}$ a distanza $r$ fra loro, il [[potenziale]] gravitazionale che li lega è
 $$V=G \frac{m_{1}m_{2}}{r}$$
