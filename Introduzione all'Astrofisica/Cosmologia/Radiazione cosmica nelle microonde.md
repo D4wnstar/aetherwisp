@@ -1,3 +1,7 @@
+---
+aliases:
+  - fondo cosmico nelle microonde
+---
 La **radiazione cosmica nelle microonde**, informalmente chiamata *eco del [[Big Bang]]*, è una radiazione che permea l'universo con frequenza nelle microonde. Fu teorizzata come l'unico residuo rimanente dal Big Bang e dalla radiazione emessa dal *brodo termico*, con temperatura molto bassa e corrispondente alla curva termica di un [[corpo nero]]. Dopo aver compiuto misure estremamente precise, possiamo affermare non solo che esiste, ma anche che è il corpo nero più preciso esistente in natura, in quanto i dati misurati ricalcano il comportamento di un corpo nero pressoché perfettamente.
 
 Oggi ha una temperatura $T_{\gamma,0}$ pari a 2.73K. In base a questa possiamo calcolare l'odierna densità di radiazione dell'universo usano la legge di Stefan-Boltzmann

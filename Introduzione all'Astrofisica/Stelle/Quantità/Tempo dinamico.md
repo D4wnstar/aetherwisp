@@ -4,7 +4,7 @@ aliases:
 ---
 Il **tempo dinamico** $t_{din}$, anche **tempo di caduta libera** o di ***free fall***, di una [[stella]] è il tempo che un elemento di massa fermo alla superficie (a distanza $R$ dal centro della stella) impiega per cadere fino al centro della stella, nel caso ipotetico che la massa $M_{s}$ sia tutta concentrata in un punto al centro:
 $$t_{din}=\int_{R}^{0} \frac{dr}{v}=\sqrt{\frac{3\pi}{32G\bar{\rho}}}$$
-con $G$ la [[constante gravitazionale]] e $\bar{\rho}$ la densità media della stella.
+con $G$ la [[Costante gravitazionale]] e $\bar{\rho}$ la densità media della stella.
 
 Esistono diverse definizioni del tempo dinamico, ma tutte sono della forma $\text{cost.}/\sqrt{G\bar{\rho}}$. Con questa definizione, il tempo dinamico del Sole è di circa mezz'ora.
 ### Derivazione

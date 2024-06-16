@@ -2,7 +2,7 @@
 aliases:
   - fronte Compton
 ---
-La **diffusione Compton** è un fenomeno di [[diffusione di particelle]] tra un [[fotone]] ed un [[elettrone]] che è descritta dall'assorbimento e riemissione di un fotone da parte dell'elettrone [[Atomo|atomico]].
+La **diffusione di Compton** è un fenomeno di [[diffusione di particelle]] tra un [[fotone]] ed un [[elettrone]] che è descritta dall'assorbimento e riemissione di un fotone da parte dell'elettrone [[Atomo|atomico]]. È una forma ad energia più alta della [[diffusione di Thompson]].
 ### Meccanismo
 Il processo può essere schematizzato semplicemente:
 $$\gamma e^{-} \rightarrow \gamma e^{-}$$

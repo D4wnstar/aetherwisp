@@ -1,10 +1,12 @@
-Una **stella** è un corpo celeste sferoidale auto-gravitante composto di gas di svariati elementi, principalmente in fase di plasma, nel cui nucleo avviene la [[Fusione nucleare]]. Questo permette alla stella di brillare di luce propria, e questa luce è emessa perlopiù in banda ottica. La struttura di una stella è fortemente determinata dalla sua composizione chimica, che in generale è dominata da idrogeno ed elio. La percentuale di elementi più pesanti è detta [[Metallicità]].
+Una **stella** è un corpo celeste sferoidale auto-gravitante composto di gas di svariati elementi, principalmente in fase di plasma, nel cui nucleo avviene la [[Fusione nucleare]]. Questo permette alla stella di brillare di luce propria, e questa luce è emessa perlopiù in banda ottica. La struttura di una stella è fortemente determinata dalla sua composizione chimica, che in generale è dominata da idrogeno ed elio. La percentuale di elementi più pesanti è detta [[metallicità]].
+### Struttura
+La struttura di una stella è quella di una nube di gas sferoidale in quasi-equilibrio idrostatico modulato dalla propria [[Interazione gravitazionale|forza gravitazionale]] e la [[pressione di radiazione]] della fusione nucleare che accade nel suo centro. Per la maggior parte delle stelle, è descritta dalle [[equazioni della struttura stellare]].
 
 La maggior parte dell'universo è vuota. La densità di massa dell'universo è nell'ordine del $10^{-20}$ mentre quella delle galassie come la Via Lattea è nell'ordine del $10^{-16}$. Per poter parlare di stelle, bisogna avere una densità più alta. Ciò può accadere, ad esempio, nelle [[Nube molecolare|nubi molecolari]].
 
 Le stelle sono graficate nel [[Diagramma Hertzsprung-Russell]] (diagramma HR), che mostra la luminosità (rispetto al Sole) in funzione della temperatura superficiale. Da esso si notano diversi gruppi: la **sequenza principale**, le **[[Nana bianca|nane bianche]]**, **giganti** e le **supergiganti**.
 
-Le stelle sono suddivise in **classi stellari** con la notazione *lettera-numero*, dove la lettera rappresenta la classe. Le classi sono decise in base allo spettro della stella.
+Le stelle sono suddivise in [[Classe stellare|classi stellari]], denotate con una lettera ed un numero, che descrivono in modo conciso la temperatura e lo spettro di una stella.
 
 Le stelle non sono esattamente corpi neri, ma possiamo trovare la loro temperatura partendo dalla temperatura che avrebbe un corpo nero sferico dello stesso raggio.
 ## Misure

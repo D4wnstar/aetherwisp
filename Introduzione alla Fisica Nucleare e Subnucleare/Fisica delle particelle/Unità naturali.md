@@ -2,4 +2,4 @@ Il sistema di **unità naturali** è un sistema di unità nel quale diverse cost
 
 In una delle variazioni, vale
 $$c=\hbar=G=\frac{1}{4\pi\varepsilon_{0}}=k_{b}=1$$
-con $c$ [[velocità della luce]], $\hbar$ [[Costante di Planck|costante di Planck ridotta]], $G$ [[constante gravitazionale]], $\varepsilon_{0}$ [[costante dielettrica del vuoto]] e $k_{b}$ [[costante di Boltzmann]].
+con $c$ [[velocità della luce]], $\hbar$ [[Costante di Planck|costante di Planck ridotta]], $G$ [[Costante gravitazionale]], $\varepsilon_{0}$ [[costante dielettrica del vuoto]] e $k_{b}$ [[costante di Boltzmann]].

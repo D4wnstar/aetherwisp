@@ -2,7 +2,7 @@ Un **buco nero** è una regione dello spazio dove lo spazio-tempo è talmente pi
 
 La grandezza dell'orizzonte degli eventi si può calcolare grazie alla relatività generale: in particolare, il raggio dell'orizzonte degli eventi si chiama **raggio di Schwarzschild** ed è uno dei parametri fisici della soluzione di Schwarzschild delle equazioni del campo di Einstein. Esso vale
 $$R_{Sch}=2 \frac{GM}{c^{2}}$$
-con $G$ la [[constante gravitazionale]], $M$ la massa del buco nero e $c$ la velocità della luce. Si chiama *raggio gravitazionale* la quantità
+con $G$ la [[Costante gravitazionale]], $M$ la massa del buco nero e $c$ la velocità della luce. Si chiama *raggio gravitazionale* la quantità
 $$R_{gr}=\frac{GM}{c^{2}}$$
 che è la metà del raggio di Schwarzschild. Talvolta il raggio di Schwarzschild stesso si chiama raggio gravitazionale.
 

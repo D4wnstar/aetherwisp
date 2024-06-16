@@ -7,7 +7,7 @@ aliases:
 ---
 L'**interazione gravitazionale** è l'[[interazione fondamentale]] che governa l'attrazione tra corpi massivi. Nella descrizione classica newtoniana, considerati due oggetti con masse $m_{1}$ e $m_{2}$ a distanza $r$ fra loro, il [[potenziale]] gravitazionale che li lega è
 $$V=G \frac{m_{1}m_{2}}{r}$$
-dove $G$ è la [[constante gravitazionale]]. La forza gravitazionale dunque è
+dove $G$ è la [[Costante gravitazionale]]. La forza gravitazionale dunque è
 $$F=-\frac{dV}{dr}=G \frac{m_{1}m_{2}}{r^{2}}$$
 ### Costante di accoppiamento
 A partire dalla costante gravitazionale possiamo determinare massa, lunghezza e tempo di Planck:

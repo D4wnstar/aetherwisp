@@ -17,7 +17,7 @@ A piccole distanze, l'interazione forte domina e si forma una buca di potenziale
 
 A grandi distanze, la particella $\alpha$ è soggetta a [[Interazione elettromagnetica|repulsione Coulombiana]] dei protoni, come si vede in $V_{C}$. $Z$ è il [[Atomo|numero atomico]] del nucleo, $Z-2$ è il numero dopo il decadimento $\alpha$.
 - $Q$ è l'energia di disintegrazione.
-- In $r<a$ si ha una buca di potenziale dovuta all'interazione forte. L'unico modo che la particella $\alpha$ ha per uscirne (o entrarne, nel caso della [[fissione spontanea]]) è mediante [[tunneling quantistico]].
+- In $r<a$ si ha una buca di potenziale dovuta all'interazione forte. L'unico modo che la particella $\alpha$ ha per uscirne (o entrarne, nel caso della [[fissione spontanea]]) è mediante [[tunnelling quantistico]].
 - In $a<r<b$ si forma una seconda barriera di potenziale perché l'energia potenziale supera quella disponibile $Q$. $\alpha$ non può entrare in questa regione.
 - La regione $r>b$ è quella normale fuori dalla barriera.
 
