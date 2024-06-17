@@ -1,5 +1,12 @@
-...
+---
+aliases:
+  - pulsar
+---
+Una **stella di neutroni** è un [[relitto stellare]] formato quando una [[stella]] il cui nucleo supera il [[limite di Chandrasekhar]], ma non quello di [[limite di Tolman-Oppenheimer-Volkoff|Tolman-Oppenheimer-Volkoff]], collassa gravitazionalmente in un oggetto principalmente composto da [[Pressione degenere|materia degenere]] di [[neutrone|neutroni]].
 
+Le stelle di neutroni sono in rotazione molto rapida, con periodi dai pochi secondi fino anche ai millisecondi. Questo fatto, assieme al getto di radiazioni che viene eiettato ai poli della stella per [[radiazione da sincrotrone]] che non è perfettamente allineato all'asse di rotazione, rende alcune stelle di neutroni delle [[stella variabile|stelle variabili]] con periodo molto basso e luminosità molto alta: questi oggetti sono detti **pulsar**.
+
+Il motivo per cui i neutroni non [[Decadimento Beta#$ beta {-}$ nel vuoto|decadono]] $\beta^{-}$ è dovuto all'occupazione di tutti gli [[stato|stati]] quantistici possibili degli [[elettrone|elettroni]]. La densità del nucleo stellare è talmente alta che anche solo pochi decadimenti $\beta^{-}$ sono sufficienti per saturare i pochi stati disponibili. Per gli altri neutroni, il decadimento non è energeticamente viabile e quindi rimangono stabili come se fossero in un [[nucleo atomico]]. La percentuale di neutroni che decadono $\beta^{-}$ è circa il 0.5%.
 ### Formazione del nucleo
 La presenza di soli neutroni ha conseguenze particolari:
 - non c'è [[Interazione elettromagnetica|repulsione Coulombiana]].

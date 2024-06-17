@@ -1,3 +1,7 @@
+---
+aliases:
+  - particella alpha
+---
 Il **decadimento $\alpha$** è un tipo di [[Decadimento nucleare|decadimento]] nel quale un [[nuclide]] emette una *particella $\alpha$*, ossia un [[Nucleo atomico|nucleo]] di elio $_{2}^{4}\text{He}_{2}$. Il nucleo rilasciato è molto legato (infatti è [[Numero magico|doppiamente magico]]), quindi l'energia cinetica rilasciata è massimizzata. Il processo di decadimento è
 $$_{Z}^{A}X_{N} \rightarrow\ _{Z-2}^{A-4}X'_{N-2}+\alpha$$
 dove $X$ e $X'$ sono simboli chimici di specie nucleari diverse nello stato iniziale e finale. Il numero di protoni e neutroni deve conservarsi separatamente. L'energia cinetica tipica della particella $\alpha$ emessa è nell'ordine dei [[Elettronvolt|MeV]].
