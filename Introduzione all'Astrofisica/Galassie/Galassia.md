@@ -1,4 +1,4 @@
-Una **galassia** è un sistema di [[Stella|stelle]], [[Relitto stellare|relitti stellari]], [[mezzo interstellare]] e (teoricamente) [[materia oscura]] legati fra loro dalla gravità. Tali oggetti orbitano attorno ad un nucleo luminoso costituito da un [[buco nero]] particolarmente massivo, la cui forza di gravità è sufficiente da mantenerli in orbita stabile.
+Una **galassia** è un sistema di [[Stella|stelle]], [[Relitto stellare|relitti stellari]], [[mezzo interstellare]] e (teoricamente) [[materia oscura]] legati fra loro dalla gravità. Tali oggetti orbitano attorno ad un nucleo luminoso costituito da un [[Buco nero]] particolarmente massivo, la cui forza di gravità è sufficiente da mantenerli in orbita stabile.
 
 Le galassie vengono categorizzate in [[classi galattiche]] in base alla loro morfologia apparente. Diverse classi hanno diverse caratteristiche morfologiche, ma tutte hanno una rigonfiamento centrale chiamato *bulge*.
 

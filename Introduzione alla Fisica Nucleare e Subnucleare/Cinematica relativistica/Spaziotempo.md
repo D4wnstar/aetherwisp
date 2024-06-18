@@ -5,8 +5,10 @@ aliases:
 Lo **spaziotempo** è un modello matematico per descrivere simultaneamente le tre dimensioni spaziali e l'una temporale dell'Universo, rendendolo quindi uno spazio in quattro dimensioni.
 
 In assenza di [[Interazione gravitazionale|gravitazione]], lo spaziotempo è descritto da uno **spazio di Minkowski**, che è uno [[spazio metrico]] che ammette un [[prodotto scalare]], detto [[tensore metrico]], usato per descrivere il concetto di distanza nello spaziotempo. In presenza di gravitazione, bisogna fare uso della relatività generale.
+
+Un evento accaduto in qualche momento della storia in qualche luogo dello spazio è semplicemente un punto nello spaziotempo. Tutti gli oggetti si muovono nello spaziotempo, se non altro per l'inesorabile avanzare del tempo. La traiettoria formata da un oggetto nello spaziotempo è detta [[linea di universo]].
 ### Causalità
-La distanza tra due eventi nello spaziotempo può essere descritta mediante il segno della metrica. Allora presi due eventi $E_{1}=(t_{1},\vec{x}_{1})$ e $E_{2}=(t_{2},\vec{x}_{2})$, la loro distanza è
+La causalità tra due eventi nello spaziotempo può essere descritta mediante il segno della metrica. Allora presi due eventi $E_{1}=(t_{1},\vec{x}_{1})$ e $E_{2}=(t_{2},\vec{x}_{2})$, la loro distanza è
 $$S_{12}^{2}=(c\Delta t)^{2}-(\Delta\vec{x})^{2}$$
 e si hanno tre casi:
 1. $S_{12}^{2}<0$: si ha $t_{1}=t_{2}$, ossia gli eventi avvengono allo stesso tempo e sono spazialmente separati: $S_{12}=\sqrt{-\Delta x^{2}}$. Gli eventi non sono legati causalmente. Si dicono **space-like events**.

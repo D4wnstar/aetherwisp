@@ -1,5 +1,5 @@
 ### Note
-- I dati che sostengono l'esistenza dei [[buco nero|buchi neri]] supermassivi (SMBH) includono anche delle restrizioni sulla loro epoca di formazione. Recenti osservazioni del JWST presentano dati che spingono quell'epoca più indietro di quanto si fosse immaginato, a soli poche centinaia di milioni di anni dal [[Big Bang]]. Sta venendo effettuata ricerca su un nuovo modello che spiega la formazione dei SMBH (dal sito del progetto CASSUM).
+- I dati che sostengono l'esistenza dei [[Buco nero|buchi neri]] supermassivi (SMBH) includono anche delle restrizioni sulla loro epoca di formazione. Recenti osservazioni del JWST presentano dati che spingono quell'epoca più indietro di quanto si fosse immaginato, a soli poche centinaia di milioni di anni dal [[Big Bang]]. Sta venendo effettuata ricerca su un nuovo modello che spiega la formazione dei SMBH (dal sito del progetto CASSUM).
 ### Riferimenti
 Hagai Netzer (2015) [Revisiting the Unified Model of Active Galactic Nuclei](https://www.annualreviews.org/doi/pdf/10.1146/annurev-astro-082214-122302)
 - Modello di unificazione ancora impreciso.
