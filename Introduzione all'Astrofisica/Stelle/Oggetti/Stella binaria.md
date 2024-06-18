@@ -20,7 +20,7 @@ La classificazione di una stella binaria segue dal metodo usato per identificarl
 $$\frac{m_{1}v_{1}^{2}}{r_{1}}=\frac{m_{2}v_{2}^{2}}{r_{2}}=G \frac{m_{1}m_{2}}{r}$$
 $$P=\frac{2\pi r_{1}}{v_{1}}=\frac{2\pi r_{2}}{v_{2}}$$
 $$m_{1}r_{1}-m_{2}r_{2}=0$$
-da cui si ottiene (derivazione completa in [[Misure di massa stellare]])
+da cui si ottiene
 $$\Omega^{2}=G\frac{m_{1}+m_{2}}{r^{3}}$$
 $$v_{1}=\Omega r \frac{m_{2}}{m_{1}+m_{2}}$$
 $$\frac{m_{2}}{m_{1}}=\frac{v_{1}}{v_{2}}$$

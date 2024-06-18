@@ -5,7 +5,7 @@ aliases:
   - braccio orizzontale
   - braccio delle giganti asintotiche
 ---
-Le [[Stella|stelle]] sono oggetti dinamici, le cui caratteristiche cambiano nel passare di milioni o anche miliardi di anni. Il processo che parte con la nascita di una stella da una [[Nube molecolare]] all'interno di un [[ammasso stellare]] e che termina con la creazione di [[Relitto stellare]] prende il nome di **evoluzione stellare**.
+Le [[Stella|stelle]] sono oggetti dinamici, le cui caratteristiche cambiano nel passare di milioni o anche miliardi di anni. Il processo che parte con la [[formazione stellare|formazione di una stella]] all'interno di un [[ammasso stellare]] e che termina con la creazione di [[relitto stellare]] prende il nome di **evoluzione stellare**.
 ### Aspettativa di vita
 Possiamo calcolare una stima dell'aspettativa di vita di una stella (definita come il tempo per il quale rimane sulla [[sequenza principale]]) in base all'*efficienza di generazione di energia* $\eta$, la *massa di combustibile* $M_{c}$ e la sua [[luminosità]] $L$ con la seguente formula
 $$t_{v}=\eta M_{c}c^{2} \frac{1}{L}$$

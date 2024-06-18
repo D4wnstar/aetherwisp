@@ -1,5 +1,5 @@
 
-![[Particelle in sezione di gas|center]]
+![[Schema Particelle in sezione di gas|center]]
 $$\sigma ndx \rightarrow \sigma n dx=1$$
 Definisco il **cammino libero medio** (*mean free path*) di una particella come
 $$l= \frac{1}{\sigma n}$$
@@ -16,7 +16,7 @@ $$l= \frac{1}{\sigma n}= \frac{m_{H}}{\rho\sigma_{T}}\simeq 2cm$$
 ossia un fotone viaggia approssimativamente per 2cm all'interno del Sole. Il valore reale, ottenuto con un calcolo molto più preciso, è circa 1mm.
 
 Per via del numero di particelle e interazioni, il cammino di una particella all'interno del gas stellare è di fatto un cammino casuale (*random walk*). Se vuole andare da un punto A ad uno B, lontani $D$ l'uno dall'altro, lo farà in $N$ cammini liberi casuali
-![[Cammino di una particella|40%|center]]
+![[Grafico Cammino di una particella|40%|center]]
 $$D=l_{1}+l_{2}+l_{3}+\ldots+l_{N}$$
 $$D^{2}=|l_{1}|^{2}+|l_{2}|^{2}+\ldots+2(l_{1}\cdot l_{2}+l_{1}\cdot l_{3}+l_{1}\cdot l_{4}+\ldots)$$
 Il cammino quadrato medio è

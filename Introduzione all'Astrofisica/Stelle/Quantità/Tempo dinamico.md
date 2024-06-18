@@ -2,7 +2,7 @@
 aliases:
   - tempo di caduta libera
 ---
-Il **tempo dinamico** $t_{din}$, anche **tempo di caduta libera** o di ***free fall***, di una [[stella]] è il tempo che un elemento di massa fermo alla superficie (a distanza $R$ dal centro della stella) impiega per cadere fino al centro della stella, nel caso ipotetico che la massa $M_{s}$ sia tutta concentrata in un punto al centro:
+Il **tempo dinamico** $t_{din}$, anche **tempo di caduta libera** o di ***free fall***, di una [[stella]] (o qualunque nube di gas) è il tempo che un elemento di massa fermo alla superficie (a distanza $R$ dal centro della stella) impiega per cadere fino al centro della stella, nel caso ipotetico che la massa $M_{s}$ sia tutta concentrata in un punto al centro:
 $$t_{din}=\int_{R}^{0} \frac{dr}{v}=\sqrt{\frac{3\pi}{32G\bar{\rho}}}$$
 con $G$ la [[Costante gravitazionale]] e $\bar{\rho}$ la densità media della stella.
 

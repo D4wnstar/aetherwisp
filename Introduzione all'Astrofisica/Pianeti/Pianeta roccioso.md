@@ -1,1 +1,1 @@
-Un **pianeta roccioso** è un [[pianeta]] composto primariamente da silicati e metalli (intesi nel senso geologico, non astrofisico). Strutturalmente, hanno tutti un nucleo composto da materiali più pesanti.
+Un **pianeta roccioso** è un [[Pianeta]] composto primariamente da silicati e metalli (intesi nel senso geologico, non astrofisico). Strutturalmente, hanno tutti un nucleo composto da materiali più pesanti.
