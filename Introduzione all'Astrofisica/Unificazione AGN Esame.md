@@ -5,10 +5,11 @@ theme: night
 
 ![[M87 Jet Crop.jpg|600x400]]
 
-*Getto relativistico di Messier 87 (Fonte: NASA)* <!-- element style="font-size: 14px" -->
+*Getto relativistico di Messier 87 (Fonte: NASA/Hubble Space Telescope, composito da UV a IR)* <!-- element style="font-size: 14px" -->
 
 ---
-<!-- .slide: style="font-size: 34px" -->
+<!-- .slide: style="font-size: 28px" -->
+%%<grid drag="60 100" drop="-40 00">%%
 ### Cos'è un AGN?
 Osservativamente, un AGN è un oggetto:
 1. estremamente luminoso
@@ -16,11 +17,15 @@ Osservativamente, un AGN è un oggetto:
 3. con tempi scala molto lunghi¹
 4. non spiegabile come attività stellare
 
-In altre parole:
-\
-*Un nucleo di una galassia che presenta uno spettro molto energetico, non riconducibile a fenomeni anche eccezionali di formazione stellare.*
+> *Un nucleo di una galassia che presenta uno spettro molto energetico, non riconducibile a fenomeni anche eccezionali di formazione stellare.*
 
-^1: dal punto di vista umano <!-- element style="font-size: 14px" -->
+^1: paragonabili a galassie <!-- element style="font-size: 14px" -->
+
+%%</grid>%%
+%%<grid drag="35 100" drop="63 00">
+![[Best-fit-BeppoSAX-spectrum-of-M87-in-the-IS-HSS-state-ID60010001-using-the.png]]
+*Spettro di M87 (Fonte: Titarchuk et al. 2019/BeppoSAX)*<!-- element style="font-size: 14px" -->
+</grid>%%
 
 ---
 <!-- .slide: style="font-size: 34px" -->
@@ -54,23 +59,33 @@ Classi basate sulla banda di osservazione.
 Sono tutte fisicamente distinte?
 
 ---
-<!-- .slide: style="font-size: 30px" -->
+<!-- .slide: style="font-size: 26px" -->
+<grid drag="100 0" drop="0 12">
 ### Un esempio di unificazione
+</grid>
+<grid drag="60 0" drop="5 50">
 Le galassie Seyfert sono AGN con magnitudine $M>-23$. I QSO hanno $M<-23$.
 
 Perché proprio $M=-23$?
 
-Al tempo della classificazione (Seyfert 1943), la strumentazione non era in grado di risolvere certi AGN come oggetti estesi, così il limite pari a $-23$ è stato scelto su base tecnica, non fisica. Di fatto, le due classi indicano lo stesso oggetto.
+Al tempo della classificazione (Seyfert 1943), la strumentazione non era in grado di risolvere i QSO come oggetti estesi, così il limite pari a $-23$ è stato scelto su base tecnica.
+</grid>
 
+<grid drag="30 50" drop="68 30">
+![[Quasar_3C_273.jpg]]
+<em>Quasar 3C 273 (Fonte: NASA/HST)<br>Il centro è oscurato da un coronografo a modo di vedere la galassia.</em> <!-- element style="font-size: 14px" -->
+</grid>
+
+<grid drag="60 0" drop="7 88">
 Vale lo stesso per le altre?
+</grid>
 
 ---
-<!-- .slide: style="font-size: 34px" -->
+<!-- .slide: style="font-size: 26px" -->
 ### Unificazione per orientazione
 *Gli AGN sono descrivibili da due parametri: la luminosità della sorgente e l'inclinazione rispetto alla linea di vista.*
 
 Il modello più semplice, basato sull'abbondante evidenza di radiazione fortemente anisotropica (Urry & Padovani 1995). Sviluppato in varie iterazioni da numerosi ricercatori.
-
 ---
 <!-- .slide: data-auto-animate -->
 <grid drag="100 10" drop="0 10">

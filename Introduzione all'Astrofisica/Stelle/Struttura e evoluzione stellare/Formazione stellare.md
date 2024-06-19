@@ -2,10 +2,10 @@
 aliases:
   - massa di Jeans
 ---
-La **formazione stellare** è il processo per cui il [[mezzo interstellare]] si aggrega per formare una [[stella]]. Ad oggi, è il punto meno compreso dell'[[evoluzione stellare]] e si basa principalmente sulla fisica dell'ISM e delle sue fasi.
+La **formazione stellare** è il processo per cui il [[Mezzo interstellare]] si aggrega per formare una [[stella]]. Ad oggi, è il punto meno compreso dell'[[evoluzione stellare]] e si basa principalmente sulla fisica dell'ISM e delle sue fasi.
 ## Fasi di formazione
 ### Inizio del collasso
-La formazione stellare inizia in una [[nube molecolare]], una nuvola di ISM in fase molecolare. Se il [[Interazione gravitazionale|potenziale gravitazionale]] $\Omega$ di questa nube è sufficiente da superare la sua energia termica $K$, la nube comincia a contrarsi. In altre parole, l'energia totale della nube deve essere negativa (dato che il [[potenziale]] è convenzionalmente negativo):
+La formazione stellare inizia in una [[Nube molecolare]], una nuvola di ISM in fase molecolare. Se il [[Interazione gravitazionale|potenziale gravitazionale]] $\Omega$ di questa nube è sufficiente da superare la sua energia termica $K$, la nube comincia a contrarsi. In altre parole, l'energia totale della nube deve essere negativa (dato che il [[potenziale]] è convenzionalmente negativo):
 $$K+\Omega<0$$
 
 Consideriamo una nube di [[gas perfetto]], per semplicità uniforme, con un volume sferico di raggio $R$, $V=4\pi R^{3}/3$, densità $\rho=M/V$ e peso molecolare $\mu$. L'energia termica $K$ e quella gravitazionale $\Omega$ sono
@@ -32,7 +32,7 @@ Generalmente, quando una nube collassa, l'aumento della densità diminuisce la m
 
 Una stella che ha cominciato il collasso e che ha cominciato ad aumentare la sua temperatura si chiama [[protostella]], e non è ancora una stella vera e propria in quanto non ha ancora processi interni. Attorno ad esse vi sono [[disco di accrescimento|dischi di accrescimento]] da cui accumulano massa. Le protostelle sono un tipo di [[Young Stellar Object]]. La stella diventa tale solo quando comincia la [[fusione nucleare]] dell'idrogeno all'interno del suo nucleo.
 #### Dissipazione del momento angolare
-Non basta semplicemente collassare per far sì che una nube diventi una stella. Il momento angolare tipico di una stella è molto minore di quello di una nube ($\sim10^{17}$ contro $\sim10^{24}$) quindi c'è bisogno di dissipare una grande quantità di momento angolare per far sì che il gas non diventi un disco, come per esempio accade in una [[galassia]].
+Non basta semplicemente collassare per far sì che una nube diventi una stella. Il momento angolare tipico di una stella è molto minore di quello di una nube ($\sim10^{17}$ contro $\sim10^{24}$) quindi c'è bisogno di dissipare una grande quantità di momento angolare per far sì che il gas non diventi un disco, come per esempio accade in una [[Galassia]].
 
 Una parte del momento è perso nella frammentazione gerarchica, ma non abbastanza. Un'altra parte si trova nel disco protoplanetario di alcune stelle, ma la massa del disco è trascurabile. Deve esserci quindi un altro modo importante di dissipazione.
 
@@ -42,7 +42,7 @@ Questo modo è mediante i campi magnetici. Il plasma della nube, essendo elettri
 ### Contrazione
 Nel perdere momento angolare, la protostella si contrae sempre di più. A differenza di una stella "viva", questo processo non è governato dal [[teorema del viriale]]. Infatti, la nube è otticamente sottile e quasi tutta l'energia termica viene [[irradiazione|irradiata]] verso l'esterno, quindi può continuare a collassare e accumulare potenziale gravitazionale. La fase di contrazione dura circa un [[tempo dinamico]], che è nell'ordine dei milioni di anni per ISM in fase molecolare.
 
-La contrazione tende a formare un nucleo più denso. Ad un certo punto, il gas diventa abbastanza denso da diventare opaco. A questo punto, l'irradiazione di energia diventa inefficiente ed entra in gioco il teorema del viriale, ponendo la protostella in quasi-equilibrio idrostatico. A questo punto, il nucleo si contrae sul [[tempo scala di Kelvin-Helmholtz]]. Nel frattempo, la nube attorno alla protostella diventa una [[regione HII]] ed emette nell'infrarosso lontano, assorbendo nell'ottico e nell'UV. Ciò rende difficile individuare le protostelle finché queste non producono venti stellari abbastanza forti da dissipare la nube.
+La contrazione tende a formare un nucleo più denso. Ad un certo punto, il gas diventa abbastanza denso da diventare opaco. A questo punto, l'irradiazione di energia diventa inefficiente ed entra in gioco il teorema del viriale, ponendo la protostella in quasi-equilibrio idrostatico. A questo punto, il nucleo si contrae sul [[tempo scala di Kelvin-Helmholtz]]. Nel frattempo, la nube attorno alla protostella diventa una [[Regione H II]] ed emette nell'infrarosso lontano, assorbendo nell'ottico e nell'UV. Ciò rende difficile individuare le protostelle finché queste non producono venti stellari abbastanza forti da dissipare la nube.
 
 Le protostelle sono completamente [[convezione|convettive]], fredde, molto grandi e molto luminose. Cominciano tutte sul lato destro del [[Diagramma Hertzsprung-Russell|diagramma HR]], al [[limite di Hayashi]], per poi avvicinarsi alla [[sequenza principale]] a età zero (ZAMS). Questa fase si dice **fase di presequenza** e osservativamente sono simili alle [[gigante rossa|giganti]], ma a sono distinguibili perché occupano una parte molto precisa del diagramma, sono sempre circondate da spesse nubi di gas e polvere, hanno [[Spettro (astrofisica)|spettri]] peculiari con forti [[Riga spettrale|righe di emissione]] e allargamenti per venti stellari. Cambiano anche la loro [[luminosità]] molto rapidamente. Presentano talvolta anche una grande quantità di litio, fatto strano dato che di solito viene consumato nella fusione.
 

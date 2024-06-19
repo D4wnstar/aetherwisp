@@ -1,1 +1,0 @@
-L'**eliopausa** (*heliopause*) è l'area di spazio dove il vento solare di una stella cessa di espandersi. Dall'eliopausa in poi, lo spazio è dominato dall'attività del [[mezzo interstellare]]. Nel sistema solare si trova a circa 100 [[Unità astronomica|Unità Astronomiche]] dal sole.

@@ -1,10 +1,10 @@
-Esistono metodi analitici per calcolare l'irradianza emessa da una [[galassia]]. Partiamo cercando di definire il profilo di brillanza superficiale di una galassia, sull'asse maggiore dell'immagine della galassia. Per le [[Classi galattiche|galassie ellittiche]], questo segue in genere una legge di de Vaucouleurs:
+Esistono metodi analitici per calcolare l'irradianza emessa da una [[Galassia]]. Partiamo cercando di definire il profilo di brillanza superficiale di una galassia, sull'asse maggiore dell'immagine della galassia. Per le [[Classi galattiche|galassie ellittiche]], questo segue in genere una legge di de Vaucouleurs:
 $$I(r)=I(0)\exp\left[- \left( \frac{r}{r_{0}} \right)^{0.25}\right]\tag{1}$$
 mentre per le galassie a spirale si ha una curva esponenziale
 $$I(r)=I(0)\exp\left(- \frac{r}{r_{0}}\right)\tag{2}$$
 Spesso questi profili vengono modellati tramite un profilo di Sérsic
 $$I(r)=I_{e}\exp \left\{-b_{n} \left[\left(\frac{r}{R_{e}}\right)^{1/n}-1\right]\right\}$$
-dove $R_{e}$ è il [[raggio effettivo]]. $I_{e}$ è la brillanza superficiale calcolata in $R_{e}$. $b_{n}$ è un coefficiente sperimentale tabulato in funzione di $n$ e mette in relazione $r_{0}$ e $R_{e}$. Per $n=1$ si ha il profilo $(1)$, mentre per $n=4$ si ha $(2)$. Una misura di $n$ può dare una vaga approssimazione della morfologia.
+dove $R_{e}$ è il [[Raggio effettivo]]. $I_{e}$ è la brillanza superficiale calcolata in $R_{e}$. $b_{n}$ è un coefficiente sperimentale tabulato in funzione di $n$ e mette in relazione $r_{0}$ e $R_{e}$. Per $n=1$ si ha il profilo $(1)$, mentre per $n=4$ si ha $(2)$. Una misura di $n$ può dare una vaga approssimazione della morfologia.
 
 ### Funzione di luminosità delle galassie
 Al di là della luminosità di una singola galassia, esistono anche modelli per misurare l'irradianza in funzione della distribuzione di galassie nello spazio. Si consideri un volume $V$ e si dica che il numero di galassie con luminosità nell'intervallo $[L,L+dL]$ è $dN$. Allora la *funzione di luminosità delle galassie* $\Phi(L)$ è definita come $dN=V\Phi(L)dL$. La *funzione di luminosità di Schechter* dà una buona approssimazione della precedente funzione

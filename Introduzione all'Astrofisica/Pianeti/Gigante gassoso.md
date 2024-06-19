@@ -1,1 +1,0 @@
-Un **gigante gassoso** è un [[Pianeta]] composto primariamente da idrogeno ed elio.

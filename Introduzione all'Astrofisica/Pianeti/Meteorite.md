@@ -1,1 +1,0 @@
-Un **meteorite** è un [[asteroide]] che colpisce la terra.

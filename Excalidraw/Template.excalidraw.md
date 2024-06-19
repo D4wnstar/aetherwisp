@@ -18,7 +18,7 @@ tags: [excalidraw]
 	"elements": [],
 	"appState": {
 		"theme": "dark",
-		"viewBackgroundColor": "#f1f1f1",
+		"viewBackgroundColor": "transparent",
 		"currentItemStrokeColor": "#1e1e1e",
 		"currentItemBackgroundColor": "transparent",
 		"currentItemFillStyle": "hachure",

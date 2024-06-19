@@ -18,6 +18,6 @@ Le supernove di tipo Ia sono ancora leggermente sotto discusse, ma i modelli pi�
 ### Importanza
 Le supernove sono utili per una varietà di ragioni:
 - la loro luminosità le rende visibile a grandissime distanze
-- gli elementi pesanti che rilasciano arricchiscono il [[mezzo interstellare]]
+- gli elementi pesanti che rilasciano arricchiscono il [[Mezzo interstellare]]
 - riscaldano il mezzo interstellare mediante l'onda d'urto che formano
 - le Ia in particolare possono essere usate come una [[candela standard]] data la loro luminosità nota

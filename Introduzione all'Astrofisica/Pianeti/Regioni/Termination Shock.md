@@ -1,0 +1,1 @@
+Il **termination shock** è l'area dello spazio dove il [[vento stellare]] di una [[stella]] rallenta per via dell'interazione con il [[Mezzo interstellare|gas interstellare]]. Qui si crea una zona di densità più alta dove il vento "sbatte" (da cui *shock*) sul mezzo interstellare. Nel Sistema Solare si trova a circa 80 [[Unità astronomica|Unità Astronomiche]] dal Sole.

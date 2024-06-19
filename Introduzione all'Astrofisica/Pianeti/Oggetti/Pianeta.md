@@ -3,16 +3,16 @@ aliases:
   - pianeta nano
   - esopianeta
 ---
-Un **pianeta** è un corpo non-stellare con le seguenti proprietà
+Un **pianeta** è un corpo non-[[stella|stellare]] con le seguenti proprietà
 1. orbita attorno ad una stella
-2. ha una massa sufficientemente alta da essere schiacciato in una forma sferica dalla sua stessa forza gravitazionale
+2. ha una massa sufficientemente alta da essere schiacciato in una forma sferica dalla sua stessa [[Interazione gravitazionale|forza gravitazionale]] (quindi sono in equilibrio idrostatico), ma non così alta da diventare una [[nana bruna]]
 3. deve essere l'oggetto dominante nella sua orbita o, in altre parole, aver assorbito tutti gli altri oggetti di grandezza simile nella sua orbita
 
 Un oggetto non-stellare che verifica le prime due condizioni ma non la terza è definito come **pianeta nano**. Plutone è un pianeta nano, così come numerosi oggetti con orbite molto ellittiche che intersecano la sua orbita.
 
 Un pianeta esterno al Sistema Solare è detto **esopianeta**.
 ### Osservazioni
-Osservare un sistema [[stella]]-pianeta non è facile, dato che il pianeta è molto piccolo e non brilla di luce propria. I metodi per l'osservazione sono molto simili a quelli per le [[Stella binaria|stelle binarie]], con la differenza che la massa del pianeta è trascurabile. Allora si ha
+Osservare un sistema stella-pianeta non è facile, dato che il pianeta è molto piccolo e non brilla di luce propria. I metodi per l'osservazione sono molto simili a quelli per le [[Stella binaria|stelle binarie]], con la differenza che la massa del pianeta è trascurabile. Allora si ha
 $$\Omega^{2}=\frac{GM_{\star}}{r^{3}}$$
 $$v_{\star}\sin i=\Omega r \frac{M_{P}}{M_{\star}}\sin i$$
 $$\frac{M_{P}}{M_{\star}}=\frac{v_{\star}}{v_{P}}$$
