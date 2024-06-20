@@ -1,4 +1,4 @@
-Una **galassia** è un sistema di [[Stella|stelle]], [[Relitto stellare|relitti stellari]], [[Mezzo interstellare]] e (teoricamente) [[materia oscura]] legati fra loro dalla gravità. Tali oggetti orbitano attorno ad un nucleo luminoso costituito da un [[Buco nero]] particolarmente massivo, la cui forza di gravità è sufficiente da mantenerli in orbita stabile.
+Una **galassia** è un sistema di [[Stella|stelle]], [[Relitto stellare|relitti stellari]], [[Mezzo interstellare]] e (teoricamente) [[Materia oscura]] legati fra loro dalla gravità. Tali oggetti orbitano attorno ad un nucleo luminoso costituito da un [[Buco nero]] particolarmente massivo, la cui forza di gravità è sufficiente da mantenerli in orbita stabile.
 
 Le galassie vengono categorizzate in [[Classi galattiche]] in base alla loro morfologia apparente. Diverse classi hanno diverse caratteristiche morfologiche, ma tutte hanno una rigonfiamento centrale chiamato *bulge*.
 
@@ -80,5 +80,5 @@ Si nota una correlazione fra la classe galattica e l'abbondanza di [[Mezzo inter
 Laddove le stelle possiedono una relazione strutturale ben descritta con il [[Diagramma Hertzsprung-Russell]], le galassie non hanno una relazione così universale e quelle che esistono sono più ristrette e di interpretazione più difficile. Queste relazioni collegano quantità dipendenti dalla distanza a quantità indipendenti da essa e dunque possono essere usate come stimatori di distanza, da cui la loro importanza.
 
 Per le galassie spirali, è nota la [[Relazione Tully-Fisher]], mentre le per le ellittiche vale la [[Relazione del piano fondamentale]]. I bulge sono particolari in quanto hanno relazioni strutturali proprie, diverse dal resto della galassia. Si dividono in due categorie:
-1. I bulge *classici* sono tipici delle lenticolari e delle spirali dei primi tipi e hanno proprietà simili alle galassie ellittiche.
+1. I bulge *classici* sono tipici delle lenticolari e delle spirali dei primi tipi e hanno relazioni strutturale simili alle galassie ellittiche.
 2. I *pseudobulge* sono tipici delle spirali degli ultimi tipi e hanno profili esponenziali e cinematica più semplici, dato che ruotano con il disco e questa rotazione li appiattisce.

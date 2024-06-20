@@ -45,7 +45,7 @@ La struttura in sé dell'ISM è complessa e comunque si usano tutte le bande pos
 ### Scoperta
 La prima prova dell'esistenza di questo mezzo ci è data da Trumpler nel 1930. Il suo omonimo **Diagramma Trumpler**, che mostra come c'è una chiara dipendenza non-lineare tra diametro angolare di un ammasso stellare e la sua luminosità apparente. Queste due quantità dovrebbero essere legate linearmente, quindi c'è una chiara anomalia. Trumpler mostrò che, a lunghe distanze, gli ammassi apparivano meno luminosi di quanto il loro diametro non facesse presupporre.
 
-![[Diagramma Trumpler|80%|center]]
+![[Grafico Diagramma Trumpler|80%|center]]
 
 > **Risultato.** Quest'anomalia è spiegabile come l'assorbimento dei fotoni da una polvere.
 

@@ -6,7 +6,7 @@ La struttura della Via Lattea viene in genere descritta definendo quattro sue co
 3. **Alone**. L'alone è una struttura sferoidale che si estende per un raggio di circa ~30 kpc ed è composto da stelle isolate e [[Ammasso stellare#Ammassi globulari|ammassi globulari]]. È quasi privo di ISM freddo o tiepido. Il moto qui è "caldo" e caotico, con componenti casuali del moto attorno ai ~250 km/s. Questo coincide non casualmente con la velocità di rotazione del disco, dato che entrambe rispondono al teorema del viriale. La maggior parte delle stelle sono popolazione 2.
 4. **Bulge**. Il bulge è una struttura sferoidale di raggio ~3 kpc le cui stelle seguono traiettorie caotiche, ma le alte velocità di rotazione danno al bulge una forma schiacciata sull'asse della galassia. In certe galassie (spirali barrate), il bulge è talmente schiacciato da apparire come una barra più che una sfera. Le stelle del bulge sono anomale in quanto sono sia vecchie (popolazione 2) sia molto metalliche (popolazione 1).
 
-![[Struttura della Via Lattea|80%|center]]
+![[Schema Struttura della Via Lattea|80%|center]]
 ### Magnetismo
 Osservando la [[polarizzazione]] della luce, si scopre che la Via Lattea è permeata da un debole campo magnetico di intensità nei microgauss. Questo ha importanti conseguenze, come la presenza di [[radiazione da sincrotrone]] presente per qualunque [[fotone]] [[Trasformazioni di Lorentz|relativistico]] della Galassia, osservabili nel radio.
 ### Distribuzione di stelle

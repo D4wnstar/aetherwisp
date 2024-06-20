@@ -7,7 +7,7 @@ quindi la luminosità è proporzionale alla quarta potenza della velocità di ro
 ![[Relazione Tully-Fisher.png]]
 *Relazione Tully-Fisher inversa, con velocità in ascissa e luminosità in ordinata*
 
-Si trova inoltre che il rapporto tra la luminosità e la massa totale (quindi inclusiva di [[materia oscura]]) è
+Si trova inoltre che il rapporto tra la luminosità e la massa totale (quindi inclusiva di [[Materia oscura]]) è
 $$M_{tot}\propto L^{0.6}$$
 quindi la differenza in massa tra galassie è meno pronunciata di quella di luminosità.
 

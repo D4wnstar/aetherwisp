@@ -98,7 +98,7 @@ Il modello più semplice, basato sull'abbondante evidenza di radiazione fortemen
 
 <grid drag="50 70" drop="48 20">
 ::: block
-1. Un buco nero centrale massivo $M_{BH}>10^{5}M_{\odot}$
+1. Un buco nero centrale massivo $M_{BH}>10^{6}M_{\odot}$
 2. Un disco di accrescimento
 3. Un toro gassoso simmetrico al centro
 4. Una zona di gas ad alta densità e velocità $\sim10^{4}$ km/s a $<1$ pc dal centro (BLR)

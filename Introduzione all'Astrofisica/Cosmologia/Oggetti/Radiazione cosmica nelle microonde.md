@@ -16,6 +16,6 @@ $$\frac{\rho_{\gamma}}{\rho_{m}}=\frac{\rho_{\gamma,0}}{\rho_{m,0}}(1+Z)=1$$
 $$1+Z_{eq}=\frac{\rho_{m,0}}{\rho_{\gamma,0}}=\frac{\Omega_{m,0}}{\Omega_{\gamma,0}}\simeq5570$$
 Troviamo il rapporto di particelle di materia (barionica) e di fotoni, partendo dal numero di [[Barione|barioni]] $n_{b,0}$ e il numero di fotoni $n_{\gamma,0}$
 $$n=\frac{n_{b,0}}{n_{\gamma,0}}=\frac{\frac{\rho_{c,0}\Omega_{b}}{m_{p}}}{n_{\gamma,0}}=2.68\times10^{-8}$$
-dove $\Omega_{b}$ è la densità barionica, che è un componente della densità di [[materia]] $\Omega_{m}$. Allora per ogni barione, vi sono circa due miliardi di fotoni. Inoltre, troviamo $\Omega_{b}h^{2}\simeq0.022$.
+dove $\Omega_{b}$ è la densità barionica, che è un componente della densità di [[Materia]] $\Omega_{m}$. Allora per ogni barione, vi sono circa due miliardi di fotoni. Inoltre, troviamo $\Omega_{b}h^{2}\simeq0.022$.
 
 Con misure molto precise (nei millikelvin) si trova che il fondo cosmico non è perfettamente isotropo. Esistono piccole fluttuazioni che si osservano avere una conformazione a dipolo, il che indica che non siamo a riposo rispetto ai fotoni del fondo cosmico.
