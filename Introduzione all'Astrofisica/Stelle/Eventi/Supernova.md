@@ -10,11 +10,11 @@ Questi eventi sono incredibilmente luminosi e fanno competizione alle [[Galassia
 ### Origine
 Le supernove sono associate a specifici sistemi astrofisici, nel senso che una certa classe di supernove può accadere solo in un certo tipo di stella o di sistema di stelle. Questo rende facile capire il tipo di oggetto che era presente prima della supernova.
 
-Le supernove di tipo II generalmente provengono dall'esplosione di una stella singola al termine della sua vita, dato che la grande quantità di idrogeno combacia con l'espulsione dell'inviluppo esterno.
-
-Le supernove di tipo Ia sono ancora leggermente sotto discusse, ma i modelli più accreditati danno due origini, entrambe relative ad un [[Stella binaria|sistema binario]]:
+Le supernove di tipo Ia sono ancora leggermente sotto discussione, ma i modelli più accreditati danno due origini, entrambe relative ad un [[Stella binaria|sistema binario]]:
 - scenario *single degenerate*: in questo caso, una [[nana bianca]] è in un sistema con una stella normale, spesso una [[gigante rossa]] o [[supergigante]], e sta [[accrescimento|accrescendo]] materia dall'inviluppo di essa. L'aumento di materia nella nana bianca eventualmente la porta oltre il [[limite di Chandrasekhar]], facendola esplodere.
 - scenario *double degenerate*: in questo caso, il sistema binario è composto da due nane bianche così vicine che perdono momento angolare per emissione di [[onda gravitazionale|onde gravitazionali]], fino a scontrarsi e compiere una [[fusione stellare]], associata ad un'esplosione.
+
+Le supernove di tipo II generalmente provengono dall'esplosione di una stella singola al termine della sua vita, dato che la grande quantità di idrogeno combacia con l'espulsione dell'inviluppo esterno.
 ### Importanza
 Le supernove sono utili per una varietà di ragioni:
 - la loro luminosità le rende visibile a grandissime distanze

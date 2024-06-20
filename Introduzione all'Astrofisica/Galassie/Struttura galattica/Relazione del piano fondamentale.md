@@ -1,4 +1,4 @@
-La **relazione del piano fondamentale** è una relazione strutturale che vale per le [[Classi galattiche|galassie ellittiche]] che lega la [[Luminosità di galassie|luminosità]] al raggio effettivo e alla dispersione di velocità delle [[Stella|stelle]].
+La **relazione del piano fondamentale** è una relazione strutturale che vale per le [[Classi galattiche|galassie ellittiche]] che lega la [[luminosità]] al [[raggio effettivo]] e alla dispersione di velocità delle [[Stella|stelle]].
 
 Assumiamo che valga il [[teorema del viriale]] per le galassie ellittiche e che il rapporto massa-luce $\mathcal{M}/\mathcal{L}$ della galassia sia costante. In queste condizioni, è possibile verificare che la dispersione di velocità delle stelle $\sigma_{0}$, il raggio effettivo $R_{e}$ e la brillanza superficiale media $I_{e}$ sono legate dalla relazione
 $$I_{e}R_{e}\propto \sigma_{0}^{2}$$
@@ -9,3 +9,5 @@ $$M(r)\simeq \frac{r\sigma(r)^{2}}{G}$$
 che è una relazione analoga a quella trovata usando la velocità di rotazione in [[Massa di una galassia]], ma usando invece la dispersione. Ciò ci permette di presumere che la velocità di rotazione del disco sia simile alla dispersione di velocità delle stelle nell'alone.
 
 Un'analisi più accurata dimostra che la cinematica delle galassie è molto complessa. Il loro schiacciamento non è causato dalla rotazione, che di solito è trascurabile, bensì dall'anisotropia della dispersione della velocità. Faber e Jackson notarono una relazione tra la dispersione di velocità e la luminosità di una galassia, ma osservarono che era molto imprecisa. Presto realizzarono che la loro relazione in realtà non era altro che una proiezione di una relazione più complessa, che chiamarono relazione del piano fondamentale.
+
+Partendo dal teorema del viriale, $2k+\Omega=0$, abbiamo $k\sim \frac{M\sigma^{2}}{2}$ e $\Omega\sim - \frac{GM^{2}}{R}$. Viene $M\sim \frac{R\sigma^{2}}{G}$ e $M\propto I_{e}R_{e}^{2}$. Allora si trova $I_{e}R_{e}\propto \sigma^{2}_{0}$, che descrive il **piano fondamentale** di una galassia. Viene usato per misurare la distanza di galassie ellittiche.
