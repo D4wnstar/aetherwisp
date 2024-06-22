@@ -1,3 +1,0 @@
-Un'immagine (intesa come **insieme ordinato di informazioni**) può essere definita in uno di due modi:
-1. Le caratteristiche spaziali/temporali/di energia di processi di *emissione* di una o più sorgenti e effetti di propagazione in un mezzo o nel vuoto.
-2. Le caratteristiche spaziali/temporali/di energia di processi di *interazione* radiativi di una o più sorgenti con uno o più oggetti e effetti di propagazione in un mezzo o nel vuoto.

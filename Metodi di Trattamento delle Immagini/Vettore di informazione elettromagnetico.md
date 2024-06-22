@@ -1,2 +1,0 @@
-Un singolo fotone è definito da frequenza/lunghezza d'onda, energia e direzione.
-Una radiazione, cioè un fascio di fotoni, ha più parametri: larghezza di banda, campo di energia, angolo solido di fascio, polarizzazione e densità di flusso.

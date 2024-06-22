@@ -1,0 +1,1 @@
+A **rigid body** is a solid body that cannot be deformed. Given any two points on the object, the distance in between them remains the same at all times. A rigid body can be described as a point [[Particella]], as a system of particles or as a continuum of mass.
