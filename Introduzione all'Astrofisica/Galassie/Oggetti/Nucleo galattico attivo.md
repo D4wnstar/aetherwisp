@@ -47,7 +47,7 @@ Il tempo $T_{0}=t_{0}+ D/c$ è il tempo a cui osserviamo la nube nel punto 0 e $
 $$v_{opp}=\frac{\delta}{T_{1}-T_{0}}=\frac{v\sin\theta}{1-\frac{v}{c}\cos\theta}$$
 Se $\theta$ è piccolo e $v\sim c$, allora $v_{app}\simeq 2c/\theta$, che è di molto superiore a $c$.
 ### Raggi X
-Nei raggi X, l'AGN è la sorgente più potente della galassia, tipicamente molto più brillante di tutto il resto. Il suo spettro nei raggi X è anche sbilanciato verso le alte energie (gli *hard X*), diversamente dal resto dell'emissione, dominata da sistemi di [[Stella binaria|stelle binarie]], che è più *soft*. Il tipico spettro X di un AGN mostra un forte assorbimento [[Effetto fotoelettrico|fotoelettrico]] nella banda *soft X*.  Questo permette di stimare la densità di colonna di gas responsabile per l'attenuazione (in densità di idrogeno $N_{H}$) e questa si usa per classificare gli AGN X[^1]:
+Nei raggi X, l'AGN è la sorgente più potente della galassia, tipicamente molto più brillante di tutto il resto. Il suo spettro nei raggi X è anche sbilanciato verso le alte energie (gli *hard X*), diversamente dal resto dell'emissione, dominata da sistemi di [[Stella binaria|stelle binarie]], che è più *soft*. Il tipico spettro X di un AGN mostra un forte assorbimento [[Effetto fotoelettrico|fotoelettrico]] nella banda *soft X*.  Questo permette di stimare la [[densità di colonna di gas]] responsabile per l'attenuazione (in densità di idrogeno $N_{H}$) e questa si usa per classificare gli AGN X[^1]:
 1. Gli **AGN X di tipo 1** hanno $N_{H}<10^{21}$ [[atomo|atomi]]/cm$^{-2}$.
 2. Gli **AGN X di tipo 2** hanno $N_{H}>10^{21}$ atomi/cm$^{-2}$.
 3. Un AGN con luminosità intrinseca X superiori ai $10^{44}$ erg/s è definito quasar.
@@ -69,7 +69,7 @@ Le caratteristiche di queste modello sono le seguenti:
 1. Il centro di un AGN è composto da un [[buco nero]] circondato da un [[disco di accrescimento]]. Se il buco nero ruota, esso emette anche getti di elettroni relativistici in corrispondenza dell'asse di rotazione. Questi getti, assieme al campo magnetico ad esso associato, possono creare i lobi radio.
 2. Una regione detta **Broad Line Region** (BLR) di dimensioni inferiori ai 0.01 [[Parsec]], composta da nubi di gas caldo in moto molto veloce (nell'ordine dei $\sim10^{4}$ km/s) e di densità e temperature sufficientemente alte da generare le righe osservate nello spettro degli AGN di tipo 1.
 3. Una regione toroidale composta di polveri, di dimensioni di circa un $\sim1$ parsec che circonda il buco nero centrale e la BLR, oscurandone l'emissione su un grande angolo solido.
-4. Una regione detta **Narrow Line Region** (NLR), di dimensioni di circa $\sim100$ parsec, composta di nubi calde in modo simile alla BLR, ma con nubi in moto più lento e di densità minore. Queste generano le righe strette e proibite negli AGN meno luminosi.
+4. Una regione detta **Narrow Line Region** (NLR), di dimensioni di circa $\sim100$ parsec, composta di nubi calde principalmente gassose in modo simile alla BLR ma con delle polveri e con moto più lento e densità minore. Queste generano le righe strette e proibite negli AGN meno luminosi.
 
 Tutte queste distanze fanno riferimento ad un buco nero centrale di massa $\sim10^{8}M_{\odot}$. Buchi neri più o meno massivi cambiano le distanze.
 

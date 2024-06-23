@@ -14,12 +14,10 @@ theme: night
 Osservativamente, un AGN è un oggetto:
 1. estremamente luminoso
 2. associato ad una galassia
-3. con tempi scala molto lunghi¹
+3. con tempi scala lunghi
 4. non spiegabile come attività stellare
 
 > *Un nucleo di una galassia che presenta uno spettro molto energetico, non riconducibile a fenomeni anche eccezionali di formazione stellare.*
-
-^1: paragonabili a galassie <!-- element style="font-size: 14px" -->
 
 %%</grid>%%
 %%<grid drag="35 100" drop="63 00">
@@ -73,7 +71,7 @@ Al tempo della classificazione (Seyfert 1943), la strumentazione non era in grad
 
 <grid drag="30 50" drop="68 30">
 ![[Quasar_3C_273.jpg]]
-<em>Quasar 3C 273 (Fonte: NASA/HST)<br>Il centro è oscurato da un coronografo a modo di vedere la galassia.</em> <!-- element style="font-size: 14px" -->
+<em>Quasar 3C 273 (Fonte: NASA/HST , ottico)<br>Il centro è oscurato da un coronografo a modo di vedere la galassia.</em> <!-- element style="font-size: 14px" -->
 </grid>
 
 <grid drag="60 0" drop="7 88">
@@ -81,15 +79,18 @@ Vale lo stesso per le altre?
 </grid>
 
 ---
-<!-- .slide: style="font-size: 26px" -->
+<!-- .slide: style="font-size: 24px" -->
 ### Unificazione per orientazione
 *Gli AGN sono descrivibili da due parametri: la luminosità della sorgente e l'inclinazione rispetto alla linea di vista.*
 
-Il modello più semplice, basato sull'abbondante evidenza di radiazione fortemente anisotropica (Urry & Padovani 1995). Sviluppato in varie iterazioni da numerosi ricercatori.
+Il modello più semplice, basato sull'abbondante evidenza di radiazione fortemente anisotropica (ad es. Haniff, Wilson & Ward 1988 o Prieto & Freudling 1993).
+
+![[Markarian 3 Emission anisotropy.png|400]]
+<em>Isofote di due righe di emissione in Markarian 3 (Fonte: Haniff, Wilson & Ward 1988)<br>Notare la forma ellittica schiacciata e non circolare della radiazione.</em> <!-- element style="font-size: 14px" -->
 ---
-<!-- .slide: data-auto-animate -->
+<!-- .slide: style="font-size: 24px" -->
 <grid drag="100 10" drop="0 10">
-### Struttura unificata
+### Unificazione per orientazione
 </grid>
 
 <grid drag="50 70" drop="2 20">
@@ -100,7 +101,7 @@ Il modello più semplice, basato sull'abbondante evidenza di radiazione fortemen
 ::: block
 1. Un buco nero centrale massivo $M_{BH}>10^{6}M_{\odot}$
 2. Un disco di accrescimento
-3. Un toro gassoso simmetrico al centro
+3. Un toro di gas e polvere simmetrico al centro
 4. Una zona di gas ad alta densità e velocità $\sim10^{4}$ km/s a $<1$ pc dal centro (BLR)
 5. Una zona di gas a bassa densità e velocità $\sim10^{3}$ km/s fuori dal toro che si estende a distanze $>100$ pc in un cono (NLR)
 6. Se radio-loud, uno o due getti relativistici visibili nel radio
@@ -114,27 +115,29 @@ Il modello più semplice, basato sull'abbondante evidenza di radiazione fortemen
 <grid drag="90 10" drop="5 -1">
 *(Fonte: Emma Alexander, University of Manchester. Basato su Urry & Padovani 1995)* <!-- element style="font-size: 14px" -->
 </grid>
-
 ---
+<!-- .slide: style="font-size: 26px" -->
 ### Problemi
-I modelli di unificazione sono ancora imprecisi (Netzer 2015):
-1. I tori sono probabilmente "grumosi" (clumpy)
-2. La dipendenza tra oscuramento del toro e luminosità non è ben chiara
-3. Osservazioni interferometriche deviano da quelle attese da un semplice toro
-4. Nessuna prova che gli AGN si comportino come da modello durante o dopo fusioni
+L'unificazione per orientazione è ancora imprecisa. Alcuni problemi (Netzer 2015):
+1. I tori sono probabilmente "grumosi" (clumpy). Osservazioni interferometriche deviano da quelle attese da un semplice toro.
+2. Non è noto se gli AGN si comportino come da modello durante o dopo fusioni.
+3. Fenomeni come il Radiatively Inefficient Accretion Flow non sono spiegati.
+
+<split left="3" right="1" gap="1">
+<div>
+![[AGN Clumpy torus simulation Wada2009.png|600]]
+</div>
+<div><br>
+<em>Simulazione idrodinamica di un AGN di massa $1.3\times10^{7}M_{\odot}$. Il gas circostante forma spontaneamente una struttura disomogenea. Risultati compatibili con osservazioni del Keck. (Fonte: Wada et al. 2009)</em> <!-- element style="font-size: 14px" -->
+</div>
+</split>
 
 ---
-<!-- .slide: style="font-size: 30px" -->
-<grid drag="100 40" drop="0 15">
+<!-- .slide: style="font-size: 26px" -->
 ### Conclusioni
-- I modelli basati sull'orientazione sono una buona approssimazione, ma richiedono delle revisioni.
-- Il toro centrale è troppo semplicistico.
-- Molti, ma non tutti, gli AGN sono spiegati dal modello.
-</grid>
-
-<grid drag="100 40" drop="0 50">
-#### Revisioni (Netzer 2015)
-- Raffinare la geometria del toro e aggiungere più fonti di oscuramento, possibilmente esterne all'AGN.
-- Isolare le linee di assorbimento relative al toro.
-- Considerare più fonti di emissione in raggi X.
-</grid>
+- Molte osservazioni confermano una forte anisotropia di emissione.
+- Il modello a orientazioni comprime le categorie di AGN in soli due parametri: luminosità e orientazione.
+- Alcuni tipi di AGN o fenomeni non sono spiegati dal modello senza aggiungere nuovi parametri (ad es. efficienza di accrescimento per il RIAF).
+- La geometria del modello è troppo omogenea.
+---
+### Fonti
