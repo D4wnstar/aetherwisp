@@ -4,4 +4,4 @@ Siccome il [[Flusso energetico|flusso]] emesso da un corpo nero per unità di su
 $$L=4\pi R^{2}\sigma T^{4}_{e}$$
 che invertita è
 $$T_{e}=\left(\frac{L}{4\pi R^{2}\sigma}\right)^{1/4}$$
-In scala log-log, stelle con lo stesso raggio si trovano su una retta a pendenza 4 al variare di $T_{e}$.
+In scala log-log, stelle con lo stesso raggio si trovano su una retta a pendenza 4 sul [[Diagramma Hertzsprung-Russell|diagramma HR]] al variare di $T_{e}$.

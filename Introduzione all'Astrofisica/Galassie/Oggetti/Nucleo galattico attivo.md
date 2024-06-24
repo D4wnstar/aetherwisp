@@ -6,7 +6,16 @@ aliases:
 ---
 Un **nucleo galattico attivo** (AGN, *Active Galactic Nucleus*) è un nucleo di una [[Galassia]] che presenta uno [[Spettro (astrofisica)|spettro]] ottico estremamente energetico con [[Riga spettrale|linee di emissione]] molto pronunciate che non possono essere ricondotte a semplici fenomeni di [[formazione stellare]].
 ## Manifestazione
-La presenza di un AGN comporta l'osservazione di forti righe di emissioni in tutto lo [[spettro elettromagnetico]]. L'esatta manifestazione dipende da che tipo di AGN si considera.
+La presenza di un AGN comporta l'osservazione di forti righe di emissioni in tutto lo [[spettro elettromagnetico]]. L'esatta manifestazione dipende da che tipo di AGN si considera. Una [[spectral energy decomposition|SED]] media per un AGN è
+
+![[AGN SED model.png]]
+
+dove si trovano tre componenti principali
+- una salita nel IR e forse nel radio a dipendenza del tipo di AGN, dovuta all'emissione termica del toro oscurante molto più calda dell'ISM (~100 K)
+- una salita nell'ottico e UV, detta Big Blue Bump, dovuta al disco di accrescimento, molto complicata da modellare
+- una salita nel hard X e nei gamma, dovuta a [[radiazione da sincrotrone]] di [[elettrone|elettroni]] [[Trasformazioni di Lorentz|ultrarelativistici]] vicino al centro
+
+La regione in UV estremi e raggi X soft è largamente inosservabile a causa dell'assorbimento dell'idrogeno neutro sotto il [[limite di Lyman]]. Inoltre, la SED nucleare non tiene conto dei lobi radio, che hanno energie enormi e sarebbero una quarta componente a parte.
 ## Classificazioni
 Esistono numerose classi di AGN per quasi ogni banda osservativa. La maggior parte di queste categorie sono artificiali, nel senso che potrebbero rappresentare lo stesso oggetto; vedi *Modello unificato* sotto.
 ### Ottica
@@ -99,7 +108,11 @@ Queste misure ci dicono che è ragionevole interpretare gli MDO come relitti del
 2. I quasar, che corrispondono agli MDO più grandi, sono da associare alle galassie ellittiche.
 3. La proporzionalità tra massa della galassia (o del bulge) e del MDO suggerisce che la maggior parte dell'attività da AGN sia accaduta durante la formazione della galassia.
 
-La proporzionalità è particolarmente importante: dato che abbiamo dalla [[Relazione Tully-Fisher]] abbiamo una relazione tra massa di una galassia e la sua luminosità, possiamo dunque creare una relazione tra la massa di un AGN e la luminosità della galassia. Ciò ci permette di stimare la distribuzione delle masse dei buchi neri fossili nelle galassie locali; tale funzione si dice *funzione di massa*. Ci si può anche chiedere se la funzione di massa sia compatibile con l'attività AGN attraverso tutta la storia cosmica. Considerando una regione molto grande dell'universo, si ha che l'energia totale emessa da tutti gli AGN $E_{AGN}$ durante tutta la storia cosmica, se attribuibile interamente a causa dell'accrescimento di massa $M_{acc}$ sui buchi neri, dovrebbe essere 
+La proporzionalità è particolarmente importante: dato che abbiamo dalla [[Relazione Tully-Fisher]] abbiamo una relazione tra massa di una galassia e la sua luminosità, possiamo dunque creare una relazione tra la massa di un AGN e la luminosità della galassia, $P(M_{BH}|L_{bul})$. Conoscendo anche la funzione di luminosità del bulge $\Phi(L_{bul})$, possiamo stimare la distribuzione delle masse dei buchi neri fossili nelle galassie locali; tale funzione si dice *funzione di massa* e vale
+$$\Phi(M_{BH})=\int_{0}^{\infty}P(M_{BH}|L_{bul})\Phi(L_{bul})dL_{bul}$$
+e la densità di massa è
+$$\rho_{BH}=\int_{0}^{\infty}M_{BH}\Phi(M_{BH})dM_{BH}\simeq3-5\times10^{5}M_{\odot}Mpc^{-3}$$
+Ci si può anche chiedere se la funzione di massa sia compatibile con l'attività AGN attraverso tutta la storia cosmica. Considerando una regione molto grande dell'universo, si ha che l'energia totale emessa da tutti gli AGN $E_{AGN}$ durante tutta la storia cosmica, se attribuibile interamente a causa dell'accrescimento di massa $M_{acc}$ sui buchi neri, dovrebbe essere 
 $$E_{AGN}=\eta \dot{M}_{acc}c^{2}$$
 con $\dot{M}_{acc}$ la variazione di massa nel tempo, ossia il tasso di accrescimento. La massa dei buchi neri invece dovrebbe essere
 $$\dot{M}_{BH}=(1-\eta)\dot{M}_{acc}$$

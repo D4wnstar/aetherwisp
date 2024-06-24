@@ -7,7 +7,7 @@ aliases:
   - binaria spettroscopica
   - binaria ad eclissi
 ---
-Una **stella binaria** o **sistema binario** è un sistema di due [[Stella|stelle]] che sono gravitazionalmente vincolate e orbitano l'una attorno all'altra. I sistemi binari sono molto comuni: si stima che la metà di tutte le stelle dell'universo siano in realtà sistemi binari.
+Una **stella binaria** o **sistema binario** è un sistema di due [[Stella|stelle]] che sono [[interazione gravitazionale|gravitazionalmente]] vincolate e orbitano l'una attorno all'altra. I sistemi binari sono molto comuni: si stima che la metà di tutte le stelle dell'universo siano in realtà sistemi binari.
 ### Classificazione
 La classificazione di una stella binaria segue dal metodo usato per identificarla.
 1. **Coppie ottiche.** Una coppia ottica è una coppia di stelle visibili, talvolta anche a occhio nudo, apparentemente vicine fra loro. Queste *non* sono sistemi binari, in quanto non sono gravitazionalmente vincolate. Il fatto che appaiano vicine è una coincidenza causata dalla prospettiva.
@@ -29,6 +29,6 @@ Alle sei incognite qui presenti, va aggiunta l'inclinazione $i$ dell'orbita, def
 Ci sono tre casi noti in cui si possono ottenere queste stime:
 1. Per le binarie visuali, se la distanza da noi è nota, possiamo studiare l'orbita apparente e ricavarne il periodo $P$, la distanza $r$ e le velocità perpendicolari alla linea di vista $v_{1}\cos i$ e $v_{2}\cos i$.
 2. Per le binarie spettroscopiche che sono anche binarie ad eclissi, se la fase di eclissi è breve rispetto al periodo orbitale, possiamo essere sicuri di osservare l'orbita quasi di taglio ($i\simeq90°$). Sapendo l'inclinazione, possiamo stimare massa e distanza a partire da $v_{1}\sin i$ e $v_{2}\sin i$ (calcolate al valore massimo) e $P$, così come il raggio delle stelle.
-3. Per le binarie visuali, se si misura la differenza di velocità lungo la linea di vista. Gli spettri delle stelle delle binarie visuali possono mostrare differenze di velocità, portando ad una misura di $v\sin i$. In questo caso si possono ricavare, oltre a $P$, anche le componenti della velocità e da queste l'inclinazione. Si può ricavare anche la distanza da noi del sistema.
+3. Per le binarie visuali, si misura la differenza di velocità lungo la linea di vista. Gli spettri delle stelle delle binarie visuali possono mostrare differenze di velocità, portando ad una misura di $v\sin i$. In questo caso si possono ricavare, oltre a $P$, anche le componenti della velocità e da queste l'inclinazione. Si può ricavare anche la distanza da noi del sistema.
 
 Studiando la curva di velocità di una binaria spettroscopica o l'orbita di una binaria visuale, è possibile ottenere informazioni sull'ellitticità dell'orbita.

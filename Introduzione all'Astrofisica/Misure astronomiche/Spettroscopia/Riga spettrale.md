@@ -10,7 +10,7 @@ Le linee di assorbimento accadono quando ho una sorgente calda che sto osservand
 1. **Assorbimento**: il [[fotone]] viene assorbito da un [[elettrone]], che passa ad uno [[stato]] quantistico eccitato. Se la densità è sufficientemente alta, come nell'atmosfera di una [[Stella]], l'atomo eccitato colpisce a breve un altro [[atomo]], diseccitandosi collisionalmente tramutando l'energia assorbita in energia cinetica.
 2. **Scattering**: l'atomo eccitato si diseccita radiativamente, ridirigendo il fotone in una direzione casuale in un angolo solido.
 
-Può succedere anche l'effetto contrario, ossia *linee di emissione*, per le stesse ragioni, ma al contrario. Inoltre, le linee di emissione possono anche essere causate da **fluorescenza**.
+Può succedere anche l'effetto contrario, ossia *linee di emissione*, per le stesse ragioni, ma al contrario. Inoltre, le linee di emissione possono anche essere causate da **fluorescenza**. Questo è tipico delle [[Regione H II|regioni H II]].
 
 Il centro di una riga spettrale coincide con una transizione atomica ben precisa, traslata di una certa quantità $\Delta\lambda$. Tale spostamento è spiegabile in funzione dell'[[effetto Doppler]]. Nel caso di velocità non [[Trasformazioni di Lorentz|relativistiche]] ($v\ll c$) si ha
 $$z=\frac{\Delta\lambda}{\lambda}\simeq\frac{v}{c}\tag{1}$$

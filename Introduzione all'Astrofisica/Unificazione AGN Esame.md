@@ -1,7 +1,7 @@
 ---
 theme: night
 ---
-### L'unificazione degli AGN
+#### L'unificazione degli AGN: modello e mancanze
 
 ![[M87 Jet Crop.jpg|600x400]]
 
@@ -117,11 +117,11 @@ Il modello più semplice, basato sull'abbondante evidenza di radiazione fortemen
 </grid>
 ---
 <!-- .slide: style="font-size: 26px" -->
-### Problemi
+### Il problema del toro
 L'unificazione per orientazione è ancora imprecisa. Alcuni problemi (Netzer 2015):
-1. I tori sono probabilmente "grumosi" (clumpy). Osservazioni interferometriche deviano da quelle attese da un semplice toro.
+1. Il toro è probabilmente "grumoso" (clumpy). Osservazioni negli X (ad es. NuSTAR) deviano da quelle attese da un semplice toro omogeneo.
 2. Non è noto se gli AGN si comportino come da modello durante o dopo fusioni.
-3. Fenomeni come il Radiatively Inefficient Accretion Flow non sono spiegati.
+3. Fenomeni come il Radiatively Inefficient Accretion Flow richiedono più parametri.
 
 <split left="3" right="1" gap="1">
 <div>
@@ -134,10 +134,27 @@ L'unificazione per orientazione è ancora imprecisa. Alcuni problemi (Netzer 201
 
 ---
 <!-- .slide: style="font-size: 26px" -->
+### Il problema del toro
+![[Clumpy torus SED simulation.png|600]]
+<em>Spettri ottenuti da simulazioni per AGN nei raggi X con diverse geometrie per il toro. Solo la geometria a grumi (5, Unified Clumpy) descrive il flusso di soft X osservato sperimentalmente. Il modello (2, BNTorus) è stato confutato dal modello (1, Geant4). (Fonte: Buchner et al. 2019)</em> <!-- element style="font-size: 14px" -->
+---
+<!-- .slide: style="font-size: 26px" -->
+### Il problema del toro
+<split left="1" right="2" gap="1">
+<div>
+![[AGN Compton-thick mirror.png|400]]
+<em>La forma dell'anello usato nella simulazione. Altre forme sono possibili.</em> <!-- element style="font-size: 14px" -->
+</div>
+<div>
+![[Clumpy torus in Xray without inner ring on Circinus.png|300]]
+![[Clumpy torus in Xray with inner ring on Circinus.png|288]]
+<em>Paragone del modello precedente con il nucleo della galassia Circinus. Aggiungere un anello interno migliora il fit, specialmente attorno alla linee $K\alpha$ e $K\beta$ del $\text{Fe}$. (Fonte: Buchner et al. 2019)</em> <!-- element style="font-size: 14px" -->
+</div>
+---
+<!-- .slide: style="font-size: 26px" -->
 ### Conclusioni
 - Molte osservazioni confermano una forte anisotropia di emissione.
 - Il modello a orientazioni comprime le categorie di AGN in soli due parametri: luminosità e orientazione.
 - Alcuni tipi di AGN o fenomeni non sono spiegati dal modello senza aggiungere nuovi parametri (ad es. efficienza di accrescimento per il RIAF).
-- La geometria del modello è troppo omogenea.
----
-### Fonti
+- La geometria del modello è disomogenea e grumosa.
+- È possibile che siano presenti altre strutture non presenti nel modello.

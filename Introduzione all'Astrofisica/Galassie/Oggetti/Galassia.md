@@ -1,8 +1,8 @@
-Una **galassia** è un sistema di [[Stella|stelle]], [[Relitto stellare|relitti stellari]], [[Mezzo interstellare]] e (teoricamente) [[Materia oscura]] legati fra loro dalla gravità. Tali oggetti orbitano attorno ad un nucleo luminoso costituito da un [[Buco nero]] particolarmente massivo, la cui forza di gravità è sufficiente da mantenerli in orbita stabile.
+Una **galassia** è un sistema di [[Stella|stelle]], [[Relitto stellare|relitti stellari]], [[Mezzo interstellare]] e (teoricamente) [[Materia oscura]] legati fra loro dalla gravità. Tali oggetti orbitano attorno ad un nucleo luminoso costituito da un [[Buco nero]] particolarmente massivo, la cui [[Interazione gravitazionale|gravità]] è sufficiente per mantenerli in orbita stabile.
 
 Le galassie vengono categorizzate in [[Classi galattiche]] in base alla loro morfologia apparente. Diverse classi hanno diverse caratteristiche morfologiche, ma tutte hanno una rigonfiamento centrale chiamato *bulge*.
 
-In molte galassie si nota un'emissione nucleare molto intensa: il bulge centrale, puntiforme nella risoluzione angolare del telescopio, possiede una luminosità ben superiore di quanto il profilo di luminosità non suggerirebbe. In alcuni casi, è talmente luminoso da rendere il resto della galassia completamente indistinguibile dalla [[Point Spread Function]] del nucleo.
+In molte galassie si nota un'emissione nucleare molto intensa: il bulge centrale, puntiforme nella risoluzione angolare del telescopio, possiede una luminosità ben superiore di quanto il profilo di [[luminosità]] non suggerirebbe. In alcuni casi, è talmente luminoso da rendere il resto della galassia completamente indistinguibile dalla [[Point Spread Function]] del nucleo.
 
 Lo spettro ottico di questi nuclei può assumere alcune forme: i nuclei a energia più bassa solitamente mostrano [[Riga spettrale|linee di emissione]] simili a quelle delle [[regione H II|regioni H II]] del [[Mezzo interstellare]] e dunque possono essere spiegate come regioni di forte formazione stellare. Le [[supernova|supernove]] possono complicare ulteriormente lo spettro. Questi sono detti **nuclei starburst**.
 

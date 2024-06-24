@@ -5,22 +5,22 @@
   },
   "data": [
     {
+      "char": "→",
+      "name": "rightwards arrow",
+      "useCount": 5,
+      "lastUsed": 1719242540111
+    },
+    {
       "char": "È",
       "name": "latin capital letter e with grave",
-      "useCount": 99,
-      "lastUsed": 1719152796402
+      "useCount": 100,
+      "lastUsed": 1719242542566
     },
     {
       "char": "Å",
       "name": "angstrom sign",
       "useCount": 5,
       "lastUsed": 1718808147150
-    },
-    {
-      "char": "→",
-      "name": "rightwards arrow",
-      "useCount": 4,
-      "lastUsed": 1719152835855
     },
     {
       "char": "ö",

@@ -21,7 +21,7 @@ Gli **indicatori secondari di distanza** sono quegli oggetti o metodi che ci per
 #### Relazione Tully-Fisher
 Per le [[Classi galattiche|galassie a spirale]] si usa la [[relazione Tully-Fisher]], che lega luminosità e velocità di rotazione del disco galattico.
 #### Relazione del piano fondamentale
-Per le [[Classi galattiche|galassie ellittiche]] si usa la [[relazione del piano fondamentale]], che lega [[raggio effettivo]], brillanza superficiale e dispersione di velocità.
+Per le [[Classi galattiche|galassie ellittiche]] si usa la [[relazione del piano fondamentale]], che lega [[raggio effettivo]], [[brillanza superficiale]] e dispersione di velocità.
 #### Fluttuazioni di brillanza superficiale
 Sempre per le ellittiche si usa un metodo detto **fluttuazioni di brillanza superficiale** che consiste nel misurare la differenza di luminosità tra pixel di un sensore CCD: se in un pixel cade la luce di $N$ stelle, allora la fluttuazione tra pixel sarà di $\sqrt{N}$. Siccome $N\propto d^{2}$, possiamo estrarne una stima di distanza.
 #### Supernove di tipo 1a

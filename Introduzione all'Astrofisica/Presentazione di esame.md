@@ -18,3 +18,5 @@ Prieto & Freudling (1993) [New evidence for an anisotropic radiation field in NG
 - Altra evidenza anisotropia Seyfert 2
 Wada, Papadopoulos & Spaans (2009) [MOLECULAR GAS DISK STRUCTURES AROUND ACTIVE GALACTIC NUCLEI](https://iopscience.iop.org/article/10.1088/0004-637X/702/1/63/pdf)
 - Simulazione di AGN che mostra grumi nel toro
+Buchner et al. (2019) [X-ray spectral and eclipsing model of the clumpy obscurer in active galactic nuclei](https://www.aanda.org/articles/aa/pdf/2019/09/aa34771-18.pdf)
+- Simulazione di spettro di AGN con toro a grumi che mostra l'accordo ai dati e la possibile necessità di un anello riflettore

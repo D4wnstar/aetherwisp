@@ -2,7 +2,7 @@ Una **nana bianca** è un [[relitto stellare]], il nucleo di una [[stella]] di m
 
 Hanno masse di circa 0.6 masse solari e hanno raggi di circa 0.02 [[Raggio solare|raggi solari]], dimensioni paragonabili a quelle della Terra. La loro densità è, di conseguenza, estremamente alte, con stime nell'ordine dei 1000 kg/cm$^{3}$.
 ### Nascita
-Una nana bianca nasce dopo la fase da gigante asintotico di una stella di massa $<8M_{\odot}$. I pulsi termici che avvengono dalla ripetuta accensione e spegnimento della fusione di elio instabile nel secondo strato della stella scagliano via progressivamente sempre più dell'inviluppo, lasciando indietro soltanto il nucleo. L'inviluppo va a formare una [[nebulosa planetaria]].
+Una nana bianca nasce dopo la fase da [[gigante asintotica]] di una stella di massa $<8M_{\odot}$. I pulsi termici che avvengono dalla ripetuta accensione e spegnimento della fusione di elio instabile nel secondo strato della stella scagliano via progressivamente sempre più dell'inviluppo, lasciando indietro soltanto il nucleo. L'inviluppo va a formare una nebulosa planetaria.
 
 Alternativamente, stelle molto poco massive ($<0.5M_{\odot}$) diventano nane bianche senza creare mai diventare giganti, in quanto il loro nucleo non fonde mai elio. Nessun oggetto di questo genere è mai stato individuato, in quanto stelle con massa così bassa hanno aspettative di vita superiori all'età dell'universo.
 ### Struttura
