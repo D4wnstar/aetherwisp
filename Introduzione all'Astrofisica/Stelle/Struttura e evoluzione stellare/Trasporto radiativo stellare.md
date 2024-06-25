@@ -37,9 +37,9 @@ che è un'approssimazione. Il valore reale ottenuto con calcoli più complessi �
 $$L(r)=- \frac{4}{3}\pi r^{2}lc \frac{\Delta u}{\Delta r}$$
 ossia ha un fattore $\frac{1}{3}$. Possiamo trovare il [[flusso energetico]] come luminosità per area
 $$f=\frac{L(r)}{4\pi r^{2}}=\left( - \frac{cl}{3} \right) \frac{du}{dr}$$
-dove il termine tra parentesi è il **coefficiente di diffusione** e la derivata è il **gradiente di densità energetica**. Usando la [[legge di Stefan-Boltzmann]] $u= \sigma T^{4}$ con $a=\frac{4\sigma}{c}$ si può calcolare la derivata
-$$\frac{du}{dr}=\frac{du}{dT} \frac{dT}{dr}=4\sigma T^{3} \frac{dT}{dr}$$
-$$\boxed{\frac{dT(r)}{dr}= \frac{3}{4\pi} \frac{\kappa L(r)\rho(r)}{r^{2}4\sigma T^{3}}}$$
+dove il termine tra parentesi è il **coefficiente di diffusione** e la derivata è il **gradiente di densità energetica**. Usando la [[legge di Stefan-Boltzmann]] $u= (4\sigma/c) T^{4}=aT^{4}$ si può calcolare la derivata
+$$\frac{du}{dr}=\frac{du}{dT} \frac{dT}{dr}=4a T^{3} \frac{dT}{dr}$$
+$$\boxed{\frac{dT(r)}{dr}= \frac{3}{4c\pi} \frac{\kappa L(r)\rho(r)}{r^{2}4a T^{3}}}$$
 che è la **legge di trasporto energetico radiativo**. Possiamo calcolare la luminosità per il Sole usando $T_{vir,\odot}=4\times10^{6}$ e $l=0.1cm$, che ci dà $L_{\odot}=2\times10^{33}erg/s$. Le misure effettive ci danno $L_{\odot}=3.8\times10^{33}erg/s\sim3.86\times10^{26}W$, un valore tutto sommato simile (ben dentro i margini delle deviazioni standard di queste misure). Per contesto, il consumo energetico globale è nell'ordine dei $10^{12}W$.
 
 Possiamo calcolare la potenza prodotta per unità di massa $\epsilon(r)$ da cui si ha

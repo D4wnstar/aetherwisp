@@ -6,7 +6,7 @@ La **zona di abitabilità**, o **fascia Riccioli d'Oro**, è un'anello di spazio
 ### Calcolo
 Il raggio è spesso calcolato cercando il punto di equilibrio termico $H=C$ assumendo che il pianeta sia un [[corpo nero]] e sia privo di atmosfera, dove $H$ è il tasso di riscaldamento e $C$ è quello di raffreddamento, che valgono
 $$H=(1-\alpha) \frac{L_{\star}}{4\pi d^{2}}\pi R_{P}^{2}$$
-con $\alpha$ il termine di albedo (la frazione di luce riflessa), $L_{\odot}$ la [[luminosità]] dalla stella, $R_{\oplus}$ il raggio del pianeta, e
+con $\alpha$ il termine di albedo (la frazione di luce riflessa), $L_{\star}$ la [[luminosità]] dalla stella, $R_{\oplus}$ il raggio del pianeta, e
 $$C=4\pi R_{P}^{2}\sigma T_{P}^{4}$$
 con $T_{P}$ la temperatura media del pianeta. In base alle temperature dove l'acqua in superficie è liquida, si trova l'intervallo di distanza $d$.
 

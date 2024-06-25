@@ -24,6 +24,6 @@ Di solito si usa chiamare *galassie nane* le galassie come [[Magnitudine|magnitu
 
 Una classe particolare di galassie sono le *ellittiche giganti*, oggetti rarissimi (frequenza di circa $10^{-6}Mpc^{-1}$) con [[luminosità]] enorme rispetto alla media tipica con masse stellari che eccedono le $10^{12}M_{\odot}$.
 
-Fino agli anni '80 si pensava che tutte le galassie spirali avessero luminosità caratteristica $I(0)$ circa uguale. Questo valore, detto *valore di Freeman*, è di circa $I(0)\simeq140L_{\odot}pc^{-2}$. Si sono scoperti tuttavia galassie spirali con luminosità minori, originariamente perse nelle misure, e ad esse è stato dato il nome di galassie *Low Surface Brightness* (LSB). Il nome poi è stato esteso a tutte le galassie con luminosità sotto il valore di Freeman. La maggior parte delle galassie nane è una galassia LSB.
+Fino agli anni '80 si pensava che tutte le galassie spirali avessero luminosità caratteristica $I(0)$ circa uguale. Questo valore, detto *valore di Freeman*, è di circa $I(0)\simeq140L_{\odot}/pc^{2}$. Si sono scoperti tuttavia galassie spirali con luminosità minori, originariamente perse nelle misure, e ad esse è stato dato il nome di galassie *Low Surface Brightness* (LSB). Il nome poi è stato esteso a tutte le galassie con luminosità sotto il valore di Freeman. La maggior parte delle galassie nane è una galassia LSB.
 
 Le LSB sono galassie grandi dischi di massa simile a quelle spirali, ma sono più diluite e quindi meno luminose per area di superficie.

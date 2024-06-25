@@ -8,7 +8,7 @@ Il **mezzo interstellare** (ISM, *Interstellar Medium*) è la materia che si tro
 ### Formazione
 La polvere interstellare viene prodotta in ambienti molto densi e a temperature relativamente basse, principalmente nelle zone esterne delle [[gigante asintotica|giganti asintotiche]] e nei resti raffreddati di una [[supernova]]. Più in generale, sono massimamente abbondanti in [[Regione starburst|regioni starburst]].
 
-Questo spiega perché si osservano le stelle di classe O e B in queste regioni nel lontano infrarosso anziché nell'ultravioletto, dove le stelle emettono: la grande presenza di polvere nei loro dintorni assorbe quasi tutta la luce UV che emettono, oscurandole alle osservazioni in quella banda, e la polvere riemette nel lontano infrarosso, dove queste regioni sono effettivamente visibili.
+Questo spiega perché si osservano le stelle di [[Classe stellare|classe]] O e B in queste regioni nel lontano infrarosso anziché nell'ultravioletto, dove le stelle emettono: la grande presenza di polvere nei loro dintorni assorbe quasi tutta la luce UV che emettono, oscurandole alle osservazioni in quella banda, e la polvere riemette nel lontano infrarosso, dove queste regioni sono effettivamente visibili.
 ### Struttura
 Il mezzo interstellare è amorfo, dato che si tratta di materia gassosa o polverosa. Termodinamicamente, si trova in una grande varietà di condizioni che prendono il nome di **fasi** (da non confondere con le fasi di materia come solido o liquido). La fase in cui si trova l'ISM è importante per capirne l'interazione con sé stesso o con altri oggetti.
 
@@ -26,7 +26,7 @@ Si pensa che l'ISM sia un mezzo multifase, ossia che in un certo volume (piccolo
 ### Effetto
 La polvere diffusa è particolarmente importante in quanto ha effetti visibili, specialmente nell'ultravioletto. Quando un [[fotone]] interseca un grano di polvere interstellare, può
 1. essere *estinto*, ossia assorbito da uno dei granelli di polvere per aumentare il suo [[stato]] di energia;
-2. essere *arrossata* ([[Redshift]]). L'estinzione preferenziale dell'UV cambia il [[colore]] delle stelle, in un modo simile a ciò che accade durante il tramonto;
+2. essere *arrossato* ([[Redshift]]). L'estinzione preferenziale dell'UV cambia il [[colore]] delle stelle, in un modo simile a ciò che accade durante il tramonto;
 3. essere *[[polarizzazione|polarizzato]]*, dato che i grani sono in genere non sferici, in rotazione e sono fatti di materiale ferromagnetico. Un campo magnetico può quindi allinearli e ciò rende il loro assorbimento dipendente dalla polarizzazione del fotone incidente;
 4. subire *scattering* e quindi essere riflessa. La luce deviata appare diffusa e bluastra ed è in genere polarizzata.
 
@@ -43,13 +43,13 @@ Il metodo di osservazione dipende dalla fase dell'ISM. Per le regioni H II, bast
 
 La struttura in sé dell'ISM è complessa e comunque si usano tutte le bande possibili, non solo ottico e radio.
 ### Scoperta
-La prima prova dell'esistenza di questo mezzo ci è data da Trumpler nel 1930. Il suo omonimo **Diagramma Trumpler**, che mostra come c'è una chiara dipendenza non-lineare tra diametro angolare di un ammasso stellare e la sua luminosità apparente. Queste due quantità dovrebbero essere legate linearmente, quindi c'è una chiara anomalia. Trumpler mostrò che, a lunghe distanze, gli ammassi apparivano meno luminosi di quanto il loro diametro non facesse presupporre.
+La prima prova dell'esistenza di questo mezzo ci è data da Trumpler nel 1930. Il **diagramma Trumpler** mostra come c'è una chiara dipendenza non-lineare tra diametro angolare di un ammasso stellare e la sua luminosità apparente. Queste due quantità vanno entrambe come $r^{2}$ e dovrebbero essere legate linearmente, quindi c'è una chiara anomalia. Trumpler mostrò che, a lunghe distanze, gli ammassi apparivano meno luminosi di quanto il loro diametro non facesse presupporre.
 
 ![[Grafico Diagramma Trumpler|80%|center]]
 
 > **Risultato.** Quest'anomalia è spiegabile come l'assorbimento dei fotoni da una polvere.
 
-Perché specificamente una polvere? Se si trattasse di un gas neutro o leggermente ionizzato e osservassimo una stella, vedremmo linee di assorbimento anomale non prodotte dalla stella e riconducibili a qualche materia a metà fra noi e la stella. Queste righe sarebbero facilmente rintracciabili in [[Stella binaria|binaria spettroscopica]], dove si sdoppiano periodicamente.
+Perché specificamente una polvere? Se si trattasse di un gas neutro o leggermente ionizzato e osservassimo una stella, vedremmo linee di assorbimento anomale non prodotte dalla stella e riconducibili a qualche materia a metà fra noi e la stella. Queste righe sarebbero facilmente rintracciabili in una [[Stella binaria|binaria spettroscopica]], dove si sdoppiano periodicamente.
 
 Questo non accade; l'assorbimento misurato è continuo. Un grano di polvere, con diametro paragonabile alle lunghezze d'onda dell'UV, assorbe (o devia) la luce in modo continuo. Questo spiega perfettamente il comportamento osservato.
 

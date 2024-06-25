@@ -12,11 +12,11 @@ La rotazione di una galassia è una parte molto importante e informativa della s
 #### Galassie a spirale
 Consideriamo una galassia a spirale, come la Via Lattea. Osservativamente, notiamo che è affetta da rotazione differenziale, quindi la velocità angolare aumenta man mano che ci si avvicina al nucleo galattico. Per una discussione più completa, vedi [[Via Lattea#Rotazione]].
 
-La velocità di rotazione $v$ ad un certo raggio $r$ ci permette di calcolare indirettamente la sua massa. Usando la [[leggi di Newton|seconda legge di Newton]] e la [[Interazione gravitazionale|legge di gravitazione universale]] si ha:
+La velocità di rotazione $v$ ad un certo raggio $r$ ci permette di calcolare indirettamente la sua massa. Usando la [[leggi di Newton|seconda legge di Newton]], la [[Interazione gravitazionale|legge di gravitazione universale]] e assumendo moto circolare si ha:
 $$\frac{v^{2}}{r}=a=\frac{F}{m_{ogg}}=G \frac{Mm_{ogg}}{r^{2}} \frac{1}{m_{ruota}}=G \frac{M}{r^{2}}$$
 dove $M$ è la massa della galassia entro il raggio $r$ (si assume la simmetria sferica) e $G$ è la [[costante gravitazionale]]. Riordinando
 $$v(r)=\sqrt{\frac{GM(r)}{r}} \quad \Rightarrow \quad M(r)=\frac{rv^{2}(r)}{G}\tag{1}$$
-che è la velocità di rotazione di una galassia nell'approssimazione di campo debole della relatività generale o, in altre parole, la gravità newtoniana. Compiendo molte misure di massa (anche con ampi errori), è possibile fare un grafico con la velocità misurata sperimentalmente sovrapposte alla stima di velocità data dalla formula sopra. Si trova che, a quasi tutte le velocità al di fuori di quelle molto basse, la stima della formula è consistentemente sempre più bassa del valore misurato. Dev'esserci dunque qualcosa che è stato mancato. Ad oggi ci sono due possibilità riconosciute:
+che è la velocità di rotazione di una galassia nell'approssimazione di campo debole della relatività generale o, in altre parole, la gravità newtoniana. Compiendo molte misure di massa (anche con ampi errori), è possibile fare un grafico con la velocità misurata sperimentalmente sovrapposte alla stima di velocità data dalla formula sopra. Si trova che, a quasi tutte le velocità al di fuori di quelle molto basse, la stima della formula è sempre minore del valore misurato. Dev'esserci dunque qualcosa che è stato mancato. Ad oggi ci sono due possibilità riconosciute:
 1. **MOND**, Modified Newtonian Dynamics. In altre parole, assumiamo che la migliore teoria della gravitazione che abbiamo oggi, la relatività generale, sia imperfetta e che non funzioni in queste condizioni. Bisogna dunque modificare la teoria per sistemare questa discrepanza.
 2. **Materia oscura**. Possiamo assumere che, nelle parti estreme della galassia, sia presente una grande quantità di qualche sostanza che genera un campo gravitazionale, seppur senza emettere alcuna forma di radiazione visibile (o interagire con quella già presente). Chiamiamo questa sostanza *materia oscura* e la maggior parte dei risultati sperimentali sembra confermarne l'esistenza.
 #### Misurazione
@@ -24,25 +24,29 @@ Le informazioni principali sulla cinematica di una galassia provengono dalle [[R
 
 Nel caso di galassie spirali, le righe di emissione associate ad emissione stellare sono strette e soggette a [[Redshift]] Doppler a causa della rotazione differenziale del disco, la cui rotazione dipende dalla posizione sulla fenditura (che rappresenta la distanza dal nucleo). Di conseguenza, la misura è migliore se fatta vedendo una galassia di taglio e impossibile se vista di piatto.
 ### Luminosità
-Esistono metodi analitici per calcolare l'[[irradianza]] emessa da una galassia. Partiamo cercando di definire il profilo di brillanza superficiale di una galassia, sull'asse maggiore dell'immagine della galassia. Per le [[Classi galattiche|galassie ellittiche]], questo segue in genere una **legge di de Vaucouleurs**:
+Esistono metodi analitici per calcolare l'[[irradianza]] emessa da una galassia. Partiamo cercando di definire il profilo di [[brillanza superficiale]] di una galassia, sull'asse maggiore dell'immagine della galassia. Per le [[Classi galattiche|galassie ellittiche]], questo segue in genere una **legge di de Vaucouleurs**:
 $$I(r)=I(0)\exp\left[- \left( \frac{r}{r_{0}} \right)^{1/4}\right]\tag{1}$$
 mentre per le [[Classi galattiche|galassie a spirale]] si ha una curva esponenziale
 $$I(r)=I(0)\exp\left(- \frac{r}{r_{0}}\right)\tag{2}$$
 Spesso questi profili vengono modellati tramite un **profilo di Sérsic**
 $$I(r)=I_{e}\exp \left\{-b_{n} \left[\left(\frac{r}{R_{e}}\right)^{1/n}-1\right]\right\}$$
-dove $R_{e}$ è il [[Raggio effettivo]]. $I_{e}$ è la brillanza superficiale calcolata in $R_{e}$. $b_{n}$ è un coefficiente sperimentale tabulato in funzione di $n$ e mette in relazione $r_{0}$ e $R_{e}$. Per $n=1$ si ha il profilo $(1)$, mentre per $n=4$ si ha $(2)$. Una misura di $n$ può dare una vaga approssimazione della morfologia.
+dove $R_{e}$ è il [[Raggio effettivo]]. $I_{e}$ è la brillanza superficiale calcolata in $R_{e}$. $b_{n}$ è un coefficiente sperimentale tabulato in funzione di $n$ e mette in relazione $r_{0}$ e $R_{e}$. Per $n=4$ si ha il profilo $(1)$, mentre per $n=1$ si ha $(2)$. Una misura di $n$ può dare una vaga approssimazione della morfologia.
 
-La [[relazione Tully-Fisher]] collega velocità di rotazione con luminosità di una galassia a spirale. La [[relazione del piano fondamentale]] invece lega la luminosità di una galassia ellittica con il suo raggio effettivo e la dispersione di velocità.
+La [[Relazione di Tully-Fisher]] collega velocità di rotazione con luminosità di una galassia a spirale. La [[relazione del piano fondamentale]] invece lega la luminosità di una galassia ellittica con il suo raggio effettivo e la dispersione di velocità.
 #### Funzione di luminosità delle galassie
 Ben oltre la luminosità di una singola galassia, esistono anche modelli per misurare l'irradianza in funzione della distribuzione di galassie nello spazio. Si consideri un volume di spazio $V$ e si dica $dN$ il numero di galassie con luminosità nell'intervallo $[L,L+dL]$. Allora la **funzione di luminosità delle galassie** $\Phi(L)$ è definita come $dN=V\Phi(L)dL$. La **funzione di luminosità di Schechter** dà una buona approssimazione della precedente funzione
-$$\Phi(L)dL=\Phi_{\star}\left(\frac{L}{L_{\star}}\right)^{\alpha}\exp\left(- \frac{L}{L_{\star}}\right) \frac{dL}{L_{\star}}$$
-con $L_{\star}$ è la luminosità galattica caratteristica (la luminosità della galassia brillante tipica) e $\Phi_{\star}$ è la normalizzazione (l'abbondanza tipica delle galassie brillanti). Questa funzione ha forme leggermente diverse in base alla [[Classi galattiche|classe galattica]]:
+$$\Phi(L)dL=\Phi_{\star}\left(\frac{L}{L_{\star}}\right)^{\alpha}\exp\left(- \frac{L}{L_{\star}}\right) d\left(\frac{L}{L_{\star}}\right)$$
+con $L_{\star}$ è la luminosità galattica caratteristica (la luminosità della galassia brillante tipica) e $\Phi_{\star}$ è l'abbondanza tipica delle galassie brillanti (che fa da normalizzazione). $\alpha$ è un parametro che viene da fit e vale $\sim-1.1$. Il termine esponenziale agisce con un cutoff oltre il quale la quantità di galassie cade a picco.
+
+> **Risultato.** L'abbondanza delle galassie è una legge di potenza ($\alpha\sim-1$) per $L\ll L_{\star}$ che decade esponenzialmente da $L\sim L_{\star}$ in poi. Le galassie molto più luminose del valore tipico sono esponenzialmente più rare di quelle più tenui.
+
+Questa funzione ha forme leggermente diverse in base alla [[Classi galattiche|classe galattica]]:
 - Tipo 1: galassie E/S0
 - Tipo 2: galassie Sa/Sb
 - Tipo 3: galassie Sc/Sd
 - Tipo 4: galassie irregolari
 ### Popolazioni
-Esiste una correlazione fra la classe galattica di una galassia e la popolazione di [[Stella|stelle]] di cui è composta. Le galassie ellittiche e lenticolari hanno stelle vecchie e molto [[Metallicità|metalliche]] ($Z>Z_{\odot}$) e questo è vero anche per il bulge delle galassie a spirale. I dischi delle spirali invece presentano stelle giovani e blu, con relativamente ($Z\sim Z_{\odot}$). Le galassie nane infine presentano stelle giovani con metallicità molto bassa ($Z\ll Z_{0}$).
+Esiste una correlazione fra la classe galattica di una galassia e la popolazione di [[Stella|stelle]] di cui è composta. Le galassie ellittiche e lenticolari hanno stelle vecchie e molto [[Metallicità|metalliche]] ($Z>Z_{\odot}$) e questo è vero anche per il bulge delle galassie a spirale. I dischi delle spirali invece presentano stelle giovani e blu, con metallicità circa solare ($Z\sim Z_{\odot}$). Le galassie nane infine presentano stelle giovani con metallicità molto bassa ($Z\ll Z_{0}$).
 
 Queste variazioni di popolazione stellare sono visibili nella distribuzione del [[colore]] delle galassie vicine. Mettendo [[magnitudine]] in ascissa e colore in ordinata, si trova che le galassie tendono a stare in due regioni principali:
 - la **sequenza rossa** è popolata da ellittiche, lenticolari e diverse spirali dei primi tipi
@@ -67,6 +71,6 @@ Si nota una correlazione fra la classe galattica e l'abbondanza di [[Mezzo inter
 ### Relazioni strutturali
 Laddove le stelle possiedono una relazione strutturale ben descritta con il [[Diagramma Hertzsprung-Russell]], le galassie non hanno una relazione così universale e quelle che esistono sono più ristrette e di interpretazione più difficile. Queste relazioni collegano quantità dipendenti dalla distanza a quantità indipendenti da essa e dunque possono essere usate come stimatori di distanza, da cui la loro importanza.
 
-Per le galassie spirali, è nota la [[Relazione Tully-Fisher]], mentre le per le ellittiche vale la [[Relazione del piano fondamentale]]. I bulge sono particolari in quanto hanno relazioni strutturali proprie, diverse dal resto della galassia. Si dividono in due categorie:
+Per le galassie spirali, è nota la [[Relazione di Tully-Fisher]], mentre le per le ellittiche vale la [[Relazione del piano fondamentale]]. I bulge sono particolari in quanto hanno relazioni strutturali proprie, diverse dal resto della galassia. Si dividono in due categorie:
 1. I bulge *classici* sono tipici delle lenticolari e delle spirali dei primi tipi e hanno relazioni strutturale simili alle galassie ellittiche.
 2. I *pseudobulge* sono tipici delle spirali degli ultimi tipi e hanno profili esponenziali e cinematica più semplici, dato che ruotano con il disco e questa rotazione li appiattisce.

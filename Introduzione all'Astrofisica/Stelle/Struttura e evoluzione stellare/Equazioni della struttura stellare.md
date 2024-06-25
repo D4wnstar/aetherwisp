@@ -10,7 +10,7 @@ $$P(r)=n(r)k_{B}T(r)\quad\text{con}\quad n(r)=\frac{\rho(r)}{\mu m_{p}}$$
 4. L'**equazione di generazione di energia**:
 $$\frac{dL}{dr}=4\pi r^{2}\rho(r)\epsilon(\rho,T,\text{comp.})$$
 5. L'**equazione di trasporto radiativo**:
-$$\frac{dT(r)}{dr}=- \frac{3}{4c} \frac{\kappa L(r)\rho(r)}{4\pi r^{2}\sigma T^{3}(r)} \quad \text{con}\quad \kappa=\frac{1}{\rho l}$$
+$$\frac{dT(r)}{dr}=- \frac{3}{4c} \frac{\kappa L(r)\rho(r)}{4\pi r^{2}a T^{3}(r)} \quad \text{con}\quad \kappa=\frac{1}{\rho l}, \quad a=\frac{4\sigma}{c}$$
 
 e le variabili sono:
 1. la pressione $P$

@@ -16,6 +16,12 @@ dove si trovano tre componenti principali
 - una salita nel hard X e nei gamma, dovuta a [[radiazione da sincrotrone]] di [[elettrone|elettroni]] [[Trasformazioni di Lorentz|ultrarelativistici]] vicino al centro
 
 La regione in UV estremi e raggi X soft è largamente inosservabile a causa dell'assorbimento dell'idrogeno neutro sotto il [[limite di Lyman]]. Inoltre, la SED nucleare non tiene conto dei lobi radio, che hanno energie enormi e sarebbero una quarta componente a parte.
+#### Linee spettrali
+Tra le linee spettrali più importanti abbiamo la $H\alpha$, la $[O\ III]$ e le $K\alpha$ e $K\beta$ di fluorescenza del $\text{Fe}$. Più in generale, troviamo:
+- La [[serie di Balmer]], da $H\alpha\ \lambda6563$ in poi. Utili per tracciare il moto di ISM ionizzato, dato che è composto principalmente da idrogeno.
+- Linee dell'ossigeno $[O\ I]\lambda6300$, $[O\ II]\lambda3727$ e $[O\ III]\lambda5007$. La $[O\ III]$ è particolarmente utile perché emessa vicino al centro dell'AGN.
+- Linee ad alta ionizzazione negli hard X come le linee del ferro $K\alpha$ e $K\beta$ come anche $HeII\ \lambda1640$, che provengono da vicino all'[[orizzonte degli eventi]] in quanto c'è bisogno di campi di radiazione UV molto forti.
+- Un continuo nell'UV e ottico a causa di [[bremmstrahlung]] e [[Diffusione di Compton]] inversa.
 ## Classificazioni
 Esistono numerose classi di AGN per quasi ogni banda osservativa. La maggior parte di queste categorie sono artificiali, nel senso che potrebbero rappresentare lo stesso oggetto; vedi *Modello unificato* sotto.
 ### Ottica
@@ -64,7 +70,7 @@ Nei raggi X, l'AGN è la sorgente più potente della galassia, tipicamente molto
 
 In genere le osservazioni degli AGN sono compiute proprio nell'*hard X* dato che l'attenuazione di questi oltre i 2 [[Elettronvolt|keV]] è relativamente piccola, il che la rende una banda affidabile per individuare questi oggetti. È tuttavia possibile che un AGN abbia $N_{H}>10^{23}$ cm$^{-2}$; in questo caso esso è **Compton-thick** e anche le emissioni nel hard X sono oscurate, assieme a quelle nell'ottico. Questo genere di AGN è osservabile solo nel medio infrarosso.
 ### BL Lac
-Gli AGN di classe **BL Lac** sono caratterizzati da uno spettro continuo nell'ottico privo di righe, da una luminosità molto variabile e un alto grado di [[polarizzazione]] della radiazione.
+Gli AGN di classe **BL Lac** sono caratterizzati da uno spettro continuo nell'ottico privo di righe, da una luminosità molto variabile e un alto grado di [[polarizzazione]] della radiazione. Il nome proviene dall'AGN prototipo BL Lacertae.
 ### Blazar
 Si dicono **blazar** AGN con luminosità elevatissime. Sono di fatto AGN radio-loud con uno dei getti relativistici puntati esattamente verso di noi. Gli oggetti BL Lac sono un tipo di blazar.
 ### Morfologia
@@ -108,7 +114,7 @@ Queste misure ci dicono che è ragionevole interpretare gli MDO come relitti del
 2. I quasar, che corrispondono agli MDO più grandi, sono da associare alle galassie ellittiche.
 3. La proporzionalità tra massa della galassia (o del bulge) e del MDO suggerisce che la maggior parte dell'attività da AGN sia accaduta durante la formazione della galassia.
 
-La proporzionalità è particolarmente importante: dato che abbiamo dalla [[Relazione Tully-Fisher]] abbiamo una relazione tra massa di una galassia e la sua luminosità, possiamo dunque creare una relazione tra la massa di un AGN e la luminosità della galassia, $P(M_{BH}|L_{bul})$. Conoscendo anche la funzione di luminosità del bulge $\Phi(L_{bul})$, possiamo stimare la distribuzione delle masse dei buchi neri fossili nelle galassie locali; tale funzione si dice *funzione di massa* e vale
+La proporzionalità è particolarmente importante: dato che dalla [[relazione di Tully-Fisher]] e dalla [[relazione del piano fondamentale]] abbiamo una relazione tra massa di una galassia e la sua luminosità, possiamo dunque creare una relazione tra la massa di un AGN e la luminosità della galassia, $P(M_{BH}|L_{bul})$. Conoscendo anche la funzione di luminosità del bulge $\Phi(L_{bul})$, possiamo stimare la distribuzione delle masse dei buchi neri fossili nelle galassie locali; tale funzione si dice *funzione di massa* e vale
 $$\Phi(M_{BH})=\int_{0}^{\infty}P(M_{BH}|L_{bul})\Phi(L_{bul})dL_{bul}$$
 e la densità di massa è
 $$\rho_{BH}=\int_{0}^{\infty}M_{BH}\Phi(M_{BH})dM_{BH}\simeq3-5\times10^{5}M_{\odot}Mpc^{-3}$$

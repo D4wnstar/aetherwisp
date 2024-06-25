@@ -13,7 +13,7 @@ La massa di combustibile è minore a quella della stella; la stella non può bru
 $$L\propto M_{\star}^{3.5}$$
 E quindi mettendo le due formule assieme abbiamo
 $$\boxed{t_{v}\propto M_{\star}^{-2.5}\times10^{10}\text{ anni}}$$
-da cui possiamo dedurre che la massa ha un grande impatto sulla vita di una stella. Le stelle molto massive vivono ordini di grandezza meno di stelle di [[massa solare]]. Ad esempio, il Sole è nella sequenza principale dalla sua nascita 5 miliardi di anni fa circa. Betelgeuse (16.5 - 19 $M_{\odot}$) è rimasta sulla sequenza per soli 9 milioni di anni (per poi diventare una gigante; vedi sotto). Le stelle con circa un decimo di una massa solare hanno età così lunga da essere vecchie quanto l'universo stesso (le cosiddette **stelle primordiali**) e dunque non le nostre misure di aspettativa di vita sono tutte speculative.
+da cui possiamo dedurre che la massa ha un grande impatto sulla vita di una stella. Le stelle molto massive vivono ordini di grandezza meno di stelle di [[massa solare]]. Ad esempio, il Sole è nella sequenza principale dalla sua nascita 5 miliardi di anni fa circa. Betelgeuse (16.5 - 19 $M_{\odot}$) è rimasta sulla sequenza per soli 9 milioni di anni (per poi diventare una gigante; vedi sotto). Le stelle con circa un decimo di una massa solare hanno età così lunga da essere vecchie quanto l'universo stesso (le cosiddette **stelle primordiali**).
 ### Fasi di vita
 Una stella comincia la sua vita già nella sequenza principale, su una fascia detto Zero Age Main Sequence (ZAMS). La maggior parte delle stelle giace per la maggior parte della sua vita sulla sequenza principale.
 

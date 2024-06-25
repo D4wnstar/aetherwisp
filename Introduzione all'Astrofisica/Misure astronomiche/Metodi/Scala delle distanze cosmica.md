@@ -19,7 +19,7 @@ Esistono alcune stelle, dette [[stella variabile|stelle variabili]], il cui invi
 ### Indicatori secondari
 Gli **indicatori secondari di distanza** sono quegli oggetti o metodi che ci permettono di misurare distanza anche in scale cosmologiche, nelle centinaia di megaparsec e oltre. Devono essere calibrati su galassie vicine, ma non così vicine da riuscire a ricostruire il diagramma HR.
 #### Relazione Tully-Fisher
-Per le [[Classi galattiche|galassie a spirale]] si usa la [[relazione Tully-Fisher]], che lega luminosità e velocità di rotazione del disco galattico.
+Per le [[Classi galattiche|galassie a spirale]] si usa la [[Relazione di Tully-Fisher]], che lega luminosità e velocità di rotazione del disco galattico.
 #### Relazione del piano fondamentale
 Per le [[Classi galattiche|galassie ellittiche]] si usa la [[relazione del piano fondamentale]], che lega [[raggio effettivo]], [[brillanza superficiale]] e dispersione di velocità.
 #### Fluttuazioni di brillanza superficiale

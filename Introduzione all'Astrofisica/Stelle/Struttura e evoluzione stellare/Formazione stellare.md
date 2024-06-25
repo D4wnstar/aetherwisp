@@ -26,7 +26,7 @@ con $M_{\odot}$ la [[massa solare]]. Come vediamo, la massa di Jeans aumenta con
 
 > **Risultato.** Più calda è una nube molecolare, più massiva deve essere per iniziare la formazione stellare. Per questo, sono sempre le nubi più fredde a diventare zone di formazione stellare.
 ### Collasso
-Generalmente, quando una nube collassa, l'aumento della densità diminuisce la massa di Jeans e ciò fa si che sezioni più piccole *interne* alla nube comincio esse stesse a collassare, più in fretta della nube totale. Di conseguenza, invece di collassare in una singola stella con la massa di tutta la nube, si creano molte stelle più piccoli che hanno solo la massa di una piccola parte della nube. Questo fenomeno si chiama **frammentazione gerarchica**.
+Generalmente, quando una nube collassa, l'aumento della densità diminuisce la massa di Jeans e ciò fa si che sezioni più piccole *interne* alla nube comincino esse stesse a collassare, più in fretta della nube totale. Di conseguenza, invece di collassare in una singola stella con la massa di tutta la nube, si creano molte stelle più piccoli che hanno solo la massa di una piccola parte della nube. Questo fenomeno si chiama **frammentazione gerarchica**.
 
 ![[Schema Frammentazione gerarchica|center]]
 
@@ -34,7 +34,7 @@ Una stella che ha cominciato il collasso e che ha cominciato ad aumentare la sua
 #### Dissipazione del momento angolare
 Non basta semplicemente collassare per far sì che una nube diventi una stella. Il momento angolare tipico di una stella è molto minore di quello di una nube ($\sim10^{17}$ contro $\sim10^{24}$) quindi c'è bisogno di dissipare una grande quantità di momento angolare per far sì che il gas non diventi un disco, come per esempio accade in una [[Galassia]].
 
-Una parte del momento è perso nella frammentazione gerarchica, ma non abbastanza. Un'altra parte si trova nel disco protoplanetario di alcune stelle, ma la massa del disco è trascurabile. Deve esserci quindi un altro modo importante di dissipazione.
+Una parte del momento è perso nella frammentazione gerarchica, ma non abbastanza. Un'altra parte si trova nel [[disco protoplanetario]] di alcune stelle, ma la massa del disco è trascurabile. Deve esserci quindi un altro modo importante di dissipazione.
 
 Questo modo è mediante i campi magnetici. Il plasma della nube, essendo elettricamente carico, emette un tenue campo magnetico nell'ordine dei microgauss. In un plasma, il campo magnetico rimane congelato con il gas, quindi il campo si oppone alla rotazione e trasporta momento angolare dalla protostella verso l'estero. Nel girare attorno ad un campo magnetico, *piega* le linee magnetiche in una direzione. Per fare ciò, consuma energia che viene tolta dall'energia cinetica, agendo praticamente come *attrito magnetico*. Questo fenomeno si chiama **magnetic braking**.
 
