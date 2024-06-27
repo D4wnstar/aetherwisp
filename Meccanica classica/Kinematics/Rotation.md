@@ -27,7 +27,7 @@ A couple of useful vectors are
 $$\mathbf{d}\times\mathbf{v}=-\beta\mathbf{a}+\alpha\mathbf{b}, \quad \mathbf{d}\times(\mathbf{d}\times\mathbf{v})=-\alpha\mathbf{a}-\beta\mathbf{b}$$
 The first one can be written as a matrix multiplied by a vector
 $$\mathbf{d}\times\mathbf{v}=\begin{pmatrix}d_{1} \\ d_{2} \\ d_{3}\end{pmatrix}\times\begin{pmatrix}v_{1} \\ v_{2} \\ v_{3}\end{pmatrix}=\begin{pmatrix}d_{2}v_{3}-d_{3}v_{2} \\ d_{3}v_{1}-d_{1}v_{3} \\ d_{1}v_{2}-d_{2}v_{1}\end{pmatrix}=\begin{pmatrix}0 & -d_{3} & d_{2} \\ d_{3} & 0 & -d_{1} \\ -d_{2} & d_{1} & 0\end{pmatrix}\begin{pmatrix}v_{1} \\ v_{2} \\ v_{3}\end{pmatrix}=D\mathbf{v}\tag{3}$$
-The matrix $D$ is [[Matrice simmetrica|antisymmetric]]. We can then also say $\mathbf{d}\times(\mathbf{d}\times\mathbf{v})=D^{2}\mathbf{v}$.
+The matrix $D$ is [[Matrice simmetrica|antisymmetric]]. We can then also say $\mathbf{d}\times(\mathbf{d}\times\mathbf{v})=D^{2}\mathbf{v}$. This is (one of) the matrix representation(s) of the [[prodotto vettoriale|cross product]].
 
 Using $(2)$ and the unitary matrix $I$ we can find
 $$I\mathbf{v}=\mathbf{v}=\ldots=(\mathbf{a}\mathbf{a}^{T}+\mathbf{b}\mathbf{b}^{T}+\mathbf{d}\mathbf{d}^{T})\mathbf{v}$$
@@ -60,21 +60,21 @@ $$\boxed{\mathbf{a}(t)=-r_{0}\sigma^{2}\mathbf{R}+\alpha\times\mathbf{r}}$$
 where $-r_{0}\sigma^{2}\mathbf{R}$ is the **centripetal acceleration** and $\mathbf{\alpha}\times\mathbf{r}$ is the **tangential acceleration**.
 ### Moving axis
 If the axis $\mathbf{D}(t)$ is moving, let's consider the static axis case in a bit more detail before. We can define an antisymmetric matrix for any vector $\mathbf{u}$ as
-$$A(\mathbf{u})=\begin{pmatrix}0 & -u_{3} & u_{2} \\ u_{3} & 0 & -u_{1} \\ -u_{2} & u_{1} & 0\end{pmatrix}$$
-This matrix has the property $A(\mathbf{u})\mathbf{r}=\mathbf{u}\times\mathbf{r}$ thanks to $(3)$, and thanks to $(4)$ we can say[^1]
-$$R(t)=I+A(\mathbf{D})\sin(\theta(t))+A(\mathbf{D})^{2}(1-\cos(\theta(t)))$$
+$$C(\mathbf{u})=\begin{pmatrix}0 & -u_{3} & u_{2} \\ u_{3} & 0 & -u_{1} \\ -u_{2} & u_{1} & 0\end{pmatrix}$$
+This is the matrix representation of the [[Prodotto vettoriale|cross product]], $C(\mathbf{u})\mathbf{r}=\mathbf{u}\times\mathbf{r}$ thanks to $(3)$, and thanks to $(4)$ we can say[^1]
+$$R(t)=I+C(\mathbf{D})\sin(\theta(t))+C(\mathbf{D})^{2}(1-\cos(\theta(t)))$$
 Linear velocity is worked out as
-$$\dot{\mathbf{r}}=\mathbf{w}(t)\times \mathbf{r}(t)=A(\mathbf{w}(t))\mathbf{r}(t)$$
+$$\dot{\mathbf{r}}=\mathbf{v}=\mathbf{w}(t)\times \mathbf{r}(t)=C(\mathbf{w}(t))\mathbf{r}(t)$$
 If we differentiate $\mathbf{r}$ directly, we get
-$$\dot{\mathbf{r}}=\dot{R}(t)r_{0}=\dot{R}(t)R^{T}R\mathbf{r}_{0}=(\dot{R}(t)R^{T})\mathbf{r}(t)\tag{5}$$
+$$\mathbf{v}=\dot{R}(t)r_{0}=\dot{R}(t)R^{T}R\mathbf{r}_{0}=(\dot{R}(t)R^{T})\mathbf{r}(t)\tag{5}$$
 Therefore
-$$A(\mathbf{w}(t))=(\dot{R}(t)R^{T})$$
+$$C(\mathbf{w}(t))=(\dot{R}(t)R^{T})$$
 or
-$$\dot{R}(t)=A(\mathbf{w}(t))R(t)\tag{6}$$
+$$\dot{R}(t)=C(\mathbf{w}(t))R(t)\tag{6}$$
 $(5)$ and $(6)$ equations tell us the rate of change for the rotation in terms of the current rotation and angular velocity.
 
 Equipped with these, let's consider an actually moving axis $\mathbf{D}(t)$. Using $(4)$, the rotation matrix corresponding to this vector for angle of rotation $\theta(t)$ is
-$$R(t)=I+A(\mathbf{D}(t))\sin(\theta(t))+A(\mathbf{D}(t))^{2}(1-\cos(\theta(t)))\tag{7}$$
+$$R(t)=I+C(\mathbf{D}(t))\sin(\theta(t))+C(\mathbf{D}(t))^{2}(1-\cos(\theta(t)))\tag{7}$$
 which acts like
 $$\boxed{\mathbf{r(t)}=R(t)\mathbf{r}_{0}}$$
 The linear velocity is given by $(5)$.
@@ -83,7 +83,7 @@ For a rotation matrix, $I=RR^{T}$, so taking the time derivative
 $$0=\dot{R}R^{T}+R\dot{R}^{T}=\dot{R}R^{T}+(\dot{R}R^{T})^{T} \quad \Rightarrow \quad(\dot{R}R^{T})^{T}=-\dot{R}R^{T}$$
 which means $S(t)=\dot{R}(t)R^{T}(t)$ is antisymmetric and because of that we can write $S(t)=A(\mathbf{w}(t))$.
 
-The angular velocity can be calculated using $R(t)$ from $(7)$ and then calculating $\dot{R}R^{T}$. Using $A(\mathbf{D})^{3}=-A(\mathbf{D})$ we can prove
+The angular velocity can be calculated using $R(t)$ from $(7)$ and then calculating $\dot{R}R^{T}$. Using $C(\mathbf{D})^{3}=-C(\mathbf{D})$ we can prove
 $$\boxed{\mathbf{w}=\dot{\theta}\mathbf{D}+\sin\theta\dot{\mathbf{D}}+(\cos\theta-1)\dot{\mathbf{D}}\times\mathbf{D}}$$
 As $\mathbf{D}$ is a unit vector, the triad $\{\mathbf{D},\dot{\mathbf{D}},\dot{\mathbf{D}}\times\mathbf{D}\}$ forms an orthonormal basis. The angular velocity is expressed in this basis.
 
