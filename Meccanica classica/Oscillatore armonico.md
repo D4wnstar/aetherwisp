@@ -6,7 +6,7 @@ Un **oscillatore armonico** è un sistema dotato di un [[punto di equilibrio]] c
 $$\vec{F}=-k\vec{x}$$
 con $k$ una costante positiva detta **costante elastica**.
 ## Moto armonico semplice
-Se la forza $F$ è l'unica che agisce sul sistema, esso prende il nome di **oscillatore armonico semplice** e l'oggetto in movimento descrive un **moto armonico semplice**. In questo caso, possiamo usare la [[Leggi del moto|seconda legge del moto]] per analizzare il sistema:
+Se la forza $F$ è l'unica che agisce sul sistema, esso prende il nome di **oscillatore armonico semplice** e l'oggetto in movimento descrive un **moto armonico semplice**. In questo caso, possiamo usare la [[Newton's laws|seconda legge del moto]] per analizzare il sistema:
 $$F=ma=m\ddot{x}=-kx$$
 che ci dà un'equazione differenziale lineare di secondo ordine
 $$\ddot{x}=- \frac{k}{m}x=-\omega^{2}x$$
