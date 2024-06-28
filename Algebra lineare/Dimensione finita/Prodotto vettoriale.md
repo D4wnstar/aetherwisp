@@ -12,3 +12,6 @@ $$\vec{a}\times\vec{b}=\begin{vmatrix}\hat{i} & \hat{j} & \hat{k} \\ a_{1} & a_{
 che può essere risolto, ad esempio, con la [[regola di Sarrus]]:
 $$\vec{a}\times\vec{b}=(a_{2}b_{3}-a_{3}b_{2})\hat{i}+(a_{3}b_{1}-a_{1}b_{3})\hat{j}+(a_{1}b_{2}-a_{2}b_{1})\hat{k}$$
 che dà lo stesso risultato di sopra.
+### Interazione con rotazioni
+Il prodotto vettoriale è distributivo rispetto ad una [[Rotation|rotazione]] $R$:
+$$(R\vec{a})\times(R\vec{b})=R(\vec{a}\times\vec{b})$$

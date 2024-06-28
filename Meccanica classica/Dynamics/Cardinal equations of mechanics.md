@@ -1,4 +1,4 @@
-The **cardinal equations of mechanics** are two equations that fully determine the dynamics of a system. They are
+The **cardinal equations of mechanics** are a system of two equations that fully determine the dynamics of a system. They are
 $$\begin{cases}
 \vec{F}^{(e)}=\frac{d\vec{Q}}{dt} \\
 \vec{M}^{(e)}_{\Omega}=\frac{d\vec{L}_\Omega}{dt}
