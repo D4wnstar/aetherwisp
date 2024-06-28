@@ -1,4 +1,4 @@
-Lo **spin** $\hat{S}$ è l'equivalente quantistico del momento angolare di spin di un corpo. È rappresentato da un [[operatore]] vettoriale in tre dimensioni
+Lo **spin** $\hat{S}$ è l'equivalente quantistico del momento angolare di spin di un corpo. È rappresentato da un [[operatore semidefinito positivo]] vettoriale in tre dimensioni
 $$\hat{S}=(\hat{S}_{x},\hat{S}_{y},\hat{S}_{z})$$
 
 In meccanica classica esistono due tipi di momenti angolare: quello *orbitale*, $\vec{L}=\vec{r}\times\vec{p}$, che rappresenta il momento di un oggetto attorno ad un punto esterno (come la Terra che orbita attorno al Sole), e quello di *spin*, che rappresenta il momento di un oggetto attorno al proprio asse (come la Terra che ruota su se stessa ogni giorno). Se il [[momento angolare quantistico]] spiega il momento orbitale, lo spin rappresenta, appunto, il momento di spin.

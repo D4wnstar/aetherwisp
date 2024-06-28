@@ -17,7 +17,7 @@ $$\frac{d^{2}\psi}{dx^{2}}=-k^{2}\psi,\quad\text{con }k\equiv \frac{\sqrt{2mE}}{
 dove abbiamo assunto che $E\geq0$, che è sempre vero dato che $E\geq V_{min}=0$. Ma questa non è altro che l'[[oscillatore armonico]] classico, la cui soluzione generale è
 $$\psi(x)=A\sin(kx)+B\cos(kx)$$
 con $A$ e $B$ costanti arbitrarie, determinate dalle condizioni al contorno del problema. Sappiano infatti che per la continuità di $\psi$ deve valere $\psi(0)=\psi(a)=0$. Allora abbiamo
-$$\psi(0)=A\sin(0)+B\sin(0)=B=0$$
+$$\psi(0)=A\sin(0)+B\cos(0)=B=0$$
 e allora la soluzione generale diventa
 $$\psi(x)=A\sin(kx)$$
 Usando l'altra condizione $\psi(a)=0$ otteniamo

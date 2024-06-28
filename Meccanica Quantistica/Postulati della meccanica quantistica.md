@@ -1,6 +1,7 @@
-La meccanica quantistica si basa su diversi **postulati**:
-1. a
-2. b
-3. c
-4. Se preparo un sistema nello [[Stato]] $|\psi\rangle$ e misuro un'[[Osservabile]] $A$, ottengo un valore $a_{i}$. Se poi ripreparo il sistema *da capo* (in pratica lo resetto) e poi lo misuro di nuovo con la stessa procedura, ottengo un $a_{j}$ non necessariamente uguale ad $a_{i}$. Ripetendo molte volte le misure, resettando ogni volta il sistema, trovo la distribuzione delle probabilità degli $a_{i}$ associata all'operatore $\hat{A}$ nello stato $|\psi\rangle$: $P_{\psi}^{\hat{A}}(a_{i})\equiv|\langle a_{i}|\psi\rangle|^{2}$ 
-5. Se preparo un sistema nello stato $|\psi\rangle$ e misuro un'osservabile $A$, ottengo un valore $a_{i}$. Se poi ripeto la misura di $a_{i}$, sullo stesso sistema, *senza resettarlo*, riottengo sicuramente $a_{i}$. Si dice che la funzione d'onda che descrive lo stato del sistema è *collassata* e $|\psi\rangle$ è diventato un *autoket* del sistema che rappresenta uno e uno solo *autostato* (prima poteva essere combinazione di autostati diversi). Una volta collassato, il sistema è *deterministico*.
+La meccanica quantistica può essere interamente descritta a partire da un piccolo insieme di cinque **postulati**. Tutti gli altri risultati derivano da questi:
+1. Gli [[stato|stati]] dei sistemi quantistici sono tutti i vettori [[Normalizzazione|normalizzati]] negli [[Spazio di Hilbert|spazi di Hilbert]] $H$ associati ai sistemi, detti **vettori di stato**. Tutte le [[Combinazione convessa|combinazioni convesse]] di vettori di stato, risultanti in [[Matrice di densità|matrici di densità]], sono ancora vettori di stato.
+2. Le [[Osservabile|osservabili]] quantistiche sono tutti gli [[Operatore autoaggiunto|operatori autoaggiunti]] dello spazio $H$.
+3. In una misura di un'osservabile $A=A^{+}$, gli unici risultati possibili sono i suoi [[Equazione agli autovalori|autovalori]] $a_{i}$.
+4. Detta $P_{\psi}(a_{i})$ la probabilità di misurare $a_{i}$ in una misura su sistemi identicamente preparati dell'osservabile $A=A^{+}$ nello stato $|\psi\rangle$, vale $P_{\psi}(a_{i})=|\langle a_{i}|\psi\rangle|^{2}$ .
+5. Dopo aver ottenuto un autovalore $a_{i}$ da una misura di un sistema quantistico, lo stato del sistema [[Funzione d'onda#Collasso|collassa]] in $|a_{i}\rangle$. Misure ripetute sullo stesso sistema daranno sempre $a_{i}$.
+6. L'evoluzione temporale $|\psi\rangle \rightarrow |\psi_{t}\rangle$ degli stati quantistici è determinata dall'[[operatore]] [[Hamiltoniana]] $H=H^{+}$, attraverso l'[[equazione di Schrödinger]].

@@ -1,0 +1,3 @@
+Un [[operatore autoaggiunto]] $\hat{A}:H \rightarrow H$ è **semidefinito positivo** se, per ogni vettore $|\psi\rangle$, vale
+$$\langle \psi|\hat{A}\psi\rangle=\sum\limits_{i=1}^{n}a_{i}|\langle a_{i}|\psi\rangle|^{2}\geq0$$
+che è equivalente a chiedere che l'operatore abbia solo [[Equazione agli autovalori|autovalori]] positivi.

@@ -8,7 +8,7 @@ with $V$ the volume of the body.
 
 The center of mass is the point in space for which the moment of force about it is zero. The center of mass does not need to be part of the object itself.
 ### Specific forms
-The formulas above are completely generic and work in any case. It is convenient to solve the equations for common systems in one, two and three dimensions.
+The formulas above are completely generic and work in any case. It is convenient to solve the equations for common mass continuum systems in one, two and three dimensions.
 #### One dimension (wire)
 A one-dimensional mass continuum can be thought of as a wire from $a$ to $b$. Give this wire a linear mass density $\lambda(x)$. The center of mass $x_{C}$ is
 $$x_{C}=\frac{\int_{a}^{b}\lambda(x)x\ dx}{\int_{a}^{b}\lambda(x)\ dx}$$
@@ -19,12 +19,27 @@ which is the midpoint of the wire.
 A two-dimensional mass continuum can be thought of as a plate of area $A$. Give this plate a surface mass density $\sigma(x,y)$. The center of mass $\vec{r}_{C}$ is
 $$\vec{r}_{C}=\frac{\iint_{A}\sigma(x,y)\vec{r}\ dxdy}{\iint_{A}\sigma(x,y)\ dxdy}$$
 #### Two dimensions (wire)
-It's possible to have a one-dimensional wire in two-dimensional space. In this case, we can extend the one dimensional case by parameterizing the [[curva|curve]] it sits on. Consider the wire as a continuous and differentiable curve $s(x(t),y(t))$, with $t\in[a,b]$. The linear density is expressed in terms of the arc length $\lambda(s)$ or, alternatively, in terms of the parameter $\bar{\lambda}(t)$. The unit of arc length $ds$ is expressed in terms of the rate of change of position on the arc
-$$ds=\sqrt{\left(\frac{dx}{dt}\right)^{2}+\left(\frac{dy}{dt}\right)^{2}}dt=\sqrt{\dot{x}^{2}+\dot{y}^{2}}\ dt$$
+It's possible to have a one-dimensional wire in two-dimensional space. In this case, we can extend the one dimensional case by parameterizing the [[curva|curve]] it sits on. Consider the wire as a continuous and differentiable curve $s(t)=(x(t),y(t))$, with $t\in[a,b]$. The linear density is expressed in terms of the arc length $\lambda(s)$ or, alternatively, in terms of the parameter $\bar{\lambda}(t)$. The unit of arc length $ds$ is expressed in terms of the rate of change of position on the arc
+$$ds=\left|\left|\frac{d\vec{s}}{dt}\right|\right|dt=\sqrt{\left(\frac{dx}{dt}\right)^{2}+\left(\frac{dy}{dt}\right)^{2}}dt=\sqrt{\dot{x}^{2}+\dot{y}^{2}}\ dt$$
 which means that the center of mass is
 $$\vec{r}_{C}=\frac{(\int x(t)\lambda(t)ds, \int y(t)\lambda(t)ds)}{\int \lambda(t)ds}$$
 or in terms of $t$
 $$\vec{r}_{C}=\frac{(\int x(t)\lambda(t)\sqrt{\dot{x}^{2}+\dot{y}^{2}}\ dt,\  \int y(t)\lambda(t)\sqrt{\dot{x}^{2}+\dot{y}^{2}}\ dt)}{\int \lambda(t)\sqrt{\dot{x}^{2}+\dot{y}^{2}}\ dt}$$
+#### Three dimensions (volume)
+A three-dimensional continuum is a volume $V$. Give this volume a volume mass density $\rho(x,y,z)$. The center of mass $\vec{r}_{C}$ is
+$$\vec{r}_{C}=\frac{\iiint_{V}\rho(x,y,z)\vec{r}\ dxdydz}{\iiint_{V}\rho(x,y,z)\ dxdydz}$$
+#### Three dimensions (sheet)
+Like in the two-dimensional wire case above, we can have two-dimensional sheet in three-dimensional space. We can parameterize this as a [[Superficie|surface]] $\Phi:\Omega\subset \mathbb{R}^{3}\rightarrow\mathbb{R}^{2}$ with $\Omega=[a,b]\times[c,d]$ and $\Phi(u,v)=(x(u,v),y(u,v),z(u,v))$, with the surface unit defined as
+$$d\Phi=\left|\frac{\partial \Phi}{\partial u}\times\frac{\partial \Phi}{\partial v}\right|dudv$$
+Given a volume mass density $\rho(x,y,z)$, the center of mass $\vec{r}_{C}$ is
+$$\vec{r}_{C}=\frac{\iint_{\Omega}\rho(\Phi(u,v))\Phi(u,v)\ d\Phi}{\iint_{\Omega}\rho(\Phi(u,v))\ d\Phi}$$
+or in terms of each component
+$$\vec{r}_{C}=\frac{(\iint_{\Omega}\rho(\Phi(u,v))x(u,v)\ d\Phi, \iint_{\Omega}\rho(\Phi(u,v))y(u,v)\ d\Phi, \iint_{\Omega}\rho(\Phi(u,v))z(u,v)\ d\Phi)}{\iint_{\Omega}\rho(\Phi(u,v))\ d\Phi}$$
+#### Three dimensions (wire)
+The same can be said about a wire in three dimensions. We can parameterize it as a curve $\gamma(t):I \rightarrow \mathbb{R}^{3}$ with $I=[a,b]$ and $\gamma(t)=(x(t),y(t),z(t))$. The surface unit is
+$$d\gamma=\left|\left|\frac{d\gamma}{dt}\right|\right|dt=\sqrt{\left(\frac{dx}{dt}\right)^{2}+\left(\frac{dy}{dt}\right)^{2}+\left(\frac{dz}{dt}\right)^{2}}dt=\sqrt{\dot{x}^{2}+\dot{y}^{2}+\dot{z}^{2}}\ dt$$
+Given a volume mass density $\rho(x,y,z)$, the center of mass $\vec{r}_{C}$ is
+$$\vec{r}_{C}=\frac{\int_{I}\rho(\gamma(t))\gamma(t)\ d\gamma}{\int_{I}\rho(\gamma(t))\ d\gamma}$$
 ### Center of mass theorems
 The center of mass theorems are three results that characterize the center of mass.
 #### First theorem

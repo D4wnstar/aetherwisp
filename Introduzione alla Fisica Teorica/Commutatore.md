@@ -15,7 +15,7 @@ Valgono numerose proprietà del commutatore. Le principali sono:
 3. $[A,B]=-[B,A]$, detta *anticommutatività*.
 4. $[A,[B,C]]+[B,[C,A]]+[C,[A,B]]=0$, detta *identità di Jacobi*.
 
-Nel caso specifico di [[Operatore|operatori]], tutti gli operatori commutano con qualunque costante.
+Nel caso specifico di [[Operatore|operatori]], tutti gli operatori commutano con qualunque costante. Un'operatore commuta anche con qualunque sua funzione, nel senso che l'operatore $A$ e una sua funzione $f(A)=e^{cA}$ commutano: $[A,f(A)]=0$.
 ### In meccanica quantistica
 Il commutatore è di importanza primaria nella meccanica quantistica, dove permette di esprimere numerosi concetti relativi al [[Disuguaglianza di Heisenberg|principio di indeterminazione]]. La relazione commutativa più importante della materia è la cosiddetta **relazione commutativa canonica**, che dimostra che l'operatore posizione e l'operatore quantità di moto non commutano:
 $$[\hat{x},\hat{p}]=i\hbar$$

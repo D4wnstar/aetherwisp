@@ -9,8 +9,7 @@ Si dice **superficie** una funzione continua $\Phi : \Omega\subset \mathbb{R}^2 
 Una superficie si dice *regolare* se è di classe $C^1$ e vale $(\Phi_u\times \Phi_v)(u,v)\neq(0,0,0),\;\forall(u,v)\in\Omega$.
 
 Posso considerare i vettori normali alla superficie $\widehat{N}_\Phi:\Omega\rightarrow \mathbb{R}^3$ come
-$\widehat{N}_\Phi:\Omega\rightarrow\mathbb{R}^3$,
-$\widehat{N}_\Phi(u,v)= \frac{\Phi_u\times\Phi_v}{||\Phi_u\times\Phi_v||}$
+$$\widehat{N}_\Phi(u,v)= \frac{\Phi_u\times\Phi_v}{||\Phi_u\times\Phi_v||}$$
 
 Due curve regolari $\Phi_1:\Omega_1\rightarrow\mathbb{R}^3$ e $\Phi_2:\Omega_2\rightarrow\mathbb{R}^3$ si dicono *equivalenti* se hanno lo stesso sostegno ed esiste un $C^1$-diffeomorfismo $\varphi:\Omega_1\rightarrow \Omega_2$ tale che $\Phi_1=\Phi_2\circ\varphi$. Si dirà che le due curve hanno la stessa orientazione se $\det J_\varphi(u,v)>0\;\forall (u,v)\in \Omega_1$.
 
