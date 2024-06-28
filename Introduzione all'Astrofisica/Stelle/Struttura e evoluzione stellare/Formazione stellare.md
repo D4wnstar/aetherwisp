@@ -36,7 +36,7 @@ Non basta semplicemente collassare per far sì che una nube diventi una stella. 
 
 Una parte del momento è perso nella frammentazione gerarchica, ma non abbastanza. Un'altra parte si trova nel [[disco protoplanetario]] di alcune stelle, ma la massa del disco è trascurabile. Deve esserci quindi un altro modo importante di dissipazione.
 
-Questo modo è mediante i campi magnetici. Il plasma della nube, essendo elettricamente carico, emette un tenue campo magnetico nell'ordine dei microgauss. In un plasma, il campo magnetico rimane congelato con il gas, quindi il campo si oppone alla rotazione e trasporta momento angolare dalla protostella verso l'estero. Nel girare attorno ad un campo magnetico, *piega* le linee magnetiche in una direzione. Per fare ciò, consuma energia che viene tolta dall'energia cinetica, agendo praticamente come *attrito magnetico*. Questo fenomeno si chiama **magnetic braking**.
+Questo modo è mediante i campi magnetici. Il plasma della nube, essendo elettricamente carico, emette un tenue campo magnetico nell'ordine dei microgauss. In un plasma, il campo magnetico rimane congelato con il gas, quindi il campo si oppone alla rotazione e trasporta momento angolare dalla protostella verso l'esterno. Nel girare attorno ad un campo magnetico, *piega* le linee magnetiche in una direzione. Per fare ciò, consuma energia che viene tolta dall'energia cinetica, agendo praticamente come *attrito magnetico*. Questo fenomeno si chiama **magnetic braking**.
 
 ![[Schema Rallentamento magnetico|100%|center]]
 ### Contrazione

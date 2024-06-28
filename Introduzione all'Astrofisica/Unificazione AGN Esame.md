@@ -66,7 +66,7 @@ Le galassie Seyfert sono AGN con magnitudine $M>-23$. I QSO hanno $M<-23$.
 
 Perché proprio $M=-23$?
 
-Al tempo della classificazione (Seyfert 1943), la strumentazione non era in grado di risolvere i QSO come oggetti estesi, così il limite pari a $-23$ è stato scelto su base tecnica.
+Al tempo della classificazione (Seyfert 1943), la strumentazione non era in grado di risolvere i QSO.
 </grid>
 
 <grid drag="30 50" drop="68 30">
@@ -101,7 +101,7 @@ Il modello più semplice, basato sull'abbondante evidenza di radiazione fortemen
 ::: block
 1. Un buco nero centrale massivo $M_{BH}>10^{6}M_{\odot}$
 2. Un disco di accrescimento
-3. Un toro di gas e polvere simmetrico al centro
+3. Un toro di polvere simmetrico al centro
 4. Una zona di gas ad alta densità e velocità $\sim10^{4}$ km/s a $<1$ pc dal centro (BLR)
 5. Una zona di gas a bassa densità e velocità $\sim10^{3}$ km/s fuori dal toro che si estende a distanze $>100$ pc in un cono (NLR)
 6. Se radio-loud, uno o due getti relativistici visibili nel radio
@@ -118,10 +118,10 @@ Il modello più semplice, basato sull'abbondante evidenza di radiazione fortemen
 ---
 <!-- .slide: style="font-size: 26px" -->
 ### Il problema del toro
-L'unificazione per orientazione è ancora imprecisa. Alcuni problemi (Netzer 2015):
+L'unificazione per orientazione è ancora imprecisa (Netzer 2015):
 1. Il toro è probabilmente "grumoso" (clumpy). Osservazioni negli X (ad es. NuSTAR) deviano da quelle attese da un semplice toro omogeneo.
-2. Non è noto se gli AGN si comportino come da modello durante o dopo fusioni.
-3. Fenomeni come il Radiatively Inefficient Accretion Flow richiedono più parametri.
+2. Non è noto se gli AGN si comportino come da modello dopo fusioni.
+3. Fenomeni come il RIAF richiedono più parametri.
 
 <split left="3" right="1" gap="1">
 <div>
@@ -158,3 +158,12 @@ L'unificazione per orientazione è ancora imprecisa. Alcuni problemi (Netzer 201
 - Alcuni tipi di AGN o fenomeni non sono spiegati dal modello senza aggiungere nuovi parametri (ad es. efficienza di accrescimento per il RIAF).
 - La geometria del modello è disomogenea e grumosa.
 - È possibile che siano presenti altre strutture non presenti nel modello.
+---
+<!-- .slide: style="font-size: 22px" -->
+### Bibliografia
+- Hagai Netzer (2015) [Revisiting the Unified Model of Active Galactic Nuclei](https://www.annualreviews.org/doi/pdf/10.1146/annurev-astro-082214-122302)
+- C. Megan Urry & Paolo Padovani (1995) [Unified Schemes for Radio-Loud Active Galactic Nuclei](https://arxiv.org/pdf/astro-ph/9506063.pdf)
+- Haniff, Wilson & Ward (1988) [High-resolution emission-line imaging of Seyfert galaxies](https://articles.adsabs.harvard.edu/pdf/1988ApJ...334..104H)
+- Prieto & Freudling (1993) [New evidence for an anisotropic radiation field in NGC 5252](https://articles.adsabs.harvard.edu/pdf/1993ApJ...418..668P)
+- Wada, Papadopoulos & Spaans (2009) [Molecular gas disk structures around active galactic nuclei](https://iopscience.iop.org/article/10.1088/0004-637X/702/1/63/pdf)
+- Buchner et al. (2019) [X-ray spectral and eclipsing model of the clumpy obscurer in active galactic nuclei](https://www.aanda.org/articles/aa/pdf/2019/09/aa34771-18.pdf)
