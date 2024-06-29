@@ -1,3 +1,11 @@
+---
+aliases:
+  - inertia tensor
+  - mass matrix
+  - Huygens-Steiner theorem
+  - product of inertia
+  - Euler's equation of motion
+---
 The **moment of inertia** $I$ is a quantity that determines how difficult it is to accelerate or decelerate a body in a [[Rotation|rotational]] motion. It is the rotational analog of mass. For a system of $N$ [[Particella|particles]] of mass $m_{i}$ rotating around the origin at a distance $r_{i}$, it is
 $$I=\sum\limits_{i=1}^{N}m_{i}r_{i}^{2}$$
 and for a continuum of mass
@@ -55,4 +63,4 @@ $$\vec{M}=\frac{d\vec{L}}{dt}=\frac{D\vec{L}}{Dt}+\vec{w}\times\vec{L}=\frac{D(J
 $$=J \frac{d\vec{w}}{dt}+\vec{w}\times(J\vec{w})$$
 In the specific case the body axes are equal to the [[base|basis]] in which $J$ is diagonal (i.e. the principal directions of inertia), then we can write
 $$\boxed{\vec{M}=P \frac{d\vec{w}}{dt}+\vec{w}\times(P\vec{w})}$$
-This is called **Euler's equation of motion** and is functionally equivalent to the second [[Cardinal equations of mechanics|cardinal equation of mechanics]].
+This is called **Euler's equation of motion** and is functionally equivalent to the second [[Cardinal equations of mechanics|cardinal equation of mechanics]], with the added benefit that it works even if the frame of reference is rotating (thus non inertial), so long as its axes remain the same as the body axes.

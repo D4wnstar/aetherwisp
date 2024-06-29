@@ -1,0 +1,6 @@
+**Mirtich's algorithm** is a mathematical method to calculate the mass and [[Moment of inertia|inertia tensor]] for a solid polyhedron of constant mass density. It uses the [[Teorema della divergenza|divergence theorem]] to reduce a volume integrals into a [[Superficie|surface]] integrals and then again [[Teorema del rotore|Green's theorem]] to reduce the surface integrals into [[curva|line]] integrals. Some important things to note are:
+1. The polyhedron is composed of flat faces, which means that the surface integrals are just two-dimensional integrals on a plane. The same can be said for the line integrals at the edges of the faces.
+2. Consequently, the faces can and should be projected onto the plane they reside on in order to avoid numerical problems.
+3. The reduction to line integrals commonly returns known integrals, which can be trivially calculated for a considerable improvement in speed.
+
+Point 2. is necessary to give precise number to point 3., and point 3. is necessary in order to handle polyhedra with arbitrary face polygons, such as squares or hexagons. In case the face polygons are triangle (which is always the case for computer meshes), then points 2. and 3. are redundant and the algorithm can be greatly simplified.
