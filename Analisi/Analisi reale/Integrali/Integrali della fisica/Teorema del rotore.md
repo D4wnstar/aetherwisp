@@ -14,4 +14,4 @@ $$\iint_{\Sigma}(\nabla\times F)\cdot\hat{\nu}\;dS=\oint_{\partial^+\Sigma}F\tim
 Nel caso bidimensionale prende il nome di **teorema di Gauss-Green**:
 Dato un campo vettoriale $F = (F1 , F2) : U ⊆ \mathbb{R}^{2} → \mathbb{R}^{2}$ e un dominio
 chiuso $D ⊂ U$ allora vale
-$$\iint_{D}\left(\frac{\partial F_2}{\partial x}- \frac{\partial F_{1}}{\partial y}\right)\ dxdy=\oint_{\partial^+D}F\times\hat{\tau}\;ds$$
+$$\iint_{D}\left(\frac{\partial F_2}{\partial x}- \frac{\partial F_{1}}{\partial y}\right)\ dxdy=\oint_{\partial^+D}F\times\hat{\tau}\;ds=\oint_{\partial^{+}D}(F_{2}dx+F_{1}dy)$$

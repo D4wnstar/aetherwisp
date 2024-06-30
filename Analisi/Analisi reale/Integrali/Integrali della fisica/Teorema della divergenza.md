@@ -13,3 +13,5 @@ Vale anche
 $$\iiint_{D}(\nabla\times F)(x,y,z)dxdydz=-\iint_{\partial^+D}F\times\hat{\nu}\;dS$$
 Nel caso di una funzione a valori scalari $\phi:U\subset \mathbb{R}^{3}\rightarrow \mathbb{R}$
 $$\iiint_{D}(\nabla\phi)(x,y,z)dxdydz=\iint_{\partial^+D}\phi\hat{\nu}\;dS$$
+
+Nel caso bidimensionale, è equivalente al [[Teorema del rotore|teorema di Green]].
