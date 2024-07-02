@@ -1,6 +1,11 @@
-Il **prodotto vettoriale** è un operazione tra due vettori che produce un terzo vettore [[Ortogonalità|ortogonale]] a entrambi. Presi due vettori $\vec{a}$ a $\vec{b}$, il prodotto vettoriale si denota
-$$\vec{c}=\vec{a}\times\vec{b}$$
-La direzione di $\vec{c}$ può essere intuita usando la regola della mano destra.
+Il **prodotto vettoriale** è un operazione tra due vettori che produce un terzo vettore [[Ortogonalità|ortogonale]] a entrambi. Presi due vettori $\vec{a}$ a $\vec{b}$ in $\mathbb{R}^{3}$, il prodotto vettoriale si denota
+$$\vec{c}=\vec{a}\times\vec{b}=|\vec{a}|\ |\vec{b}|\sin\theta\ \hat{n}$$
+dove $\theta$ è l'angolo tra i due vettori e $\hat{n}$ è il versore perpendicolare a $\vec{a}$ e $\vec{b}$. La direzione di $\vec{c}$ può essere intuita usano la regola della mano destra.
+### Proprietà
+Il prodotto vettoriale ha le seguenti proprietà:
+1. è distributivo, ossia $\vec{a}\times(\vec{b}+\vec{c})=\vec{a}\times\vec{b}+\vec{a}\times\vec{c}$
+2. è antisimmetrico, ossia $\vec{a}\times\vec{b}=-\vec{b}\times\vec{a}$
+3. il prodotto vettoriale di un vettore per sé stesso è sempre nullo, ossia $\vec{a}\times\vec{a}=0$
 ### Rappresentazione matriciale
 Nel caso tridimensionale, dati due vettori $\vec{a}$ e $\vec{b}$, il prodotto scalare $\vec{a}\times\vec{b}$ può essere rappresentato mediante la [[Matrice simmetrica|matrice antisimmetrica]] di $\vec{a}$
 $$C(\vec{a})=\begin{pmatrix}0 & -a_{3} & a_{2} \\ a_{3} & 0 & -a_{1} \\ -a_{2} & a_{1} & 0\end{pmatrix}$$

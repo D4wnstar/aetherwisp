@@ -86,7 +86,7 @@ Lo stopping power ha un minimo, per poi risalire nuovamente per effetti relativi
 
 > **Risultato.** La perdita di energia per ionizzazione cambia molto, a parità di impulso, tra particelle diverse, ossia per masse diverse. Questo si vede come una sorta di traslazione sull'asse $x$ della curva, dove più alta è la massa, più alta è la perdita di energia. Comprendere questa alta variabilità è uno strumento chiave per misurare la massa della particella incidente.
 ### Perdita per radiazione
-Lo stopping power relativo ad un [[elettrone]] non è ben descritto dalla formula di Bethe-Bloch. Il motivo è cercarsi nel fatto che gli elettroni del fascio sono identici a quelle del bersaglio e che la loro massa è molto piccola. Infatti, la Bethe-Bloch funzione solo per particelle pesanti. Per gli elettroni è molto più importante la perdita di energia dovuta a radiazione, in particolare dal [[bremmstrahlung]]. Questa è invece trascurabile nelle particelle pesanti perché la deviazione delle loro traiettorie è molto piccola.
+Lo stopping power relativo ad un [[elettrone]] non è ben descritto dalla formula di Bethe-Bloch. Il motivo è cercarsi nel fatto che gli elettroni del fascio sono identici a quelle del bersaglio e che la loro massa è molto piccola. Infatti, la Bethe-Bloch funzione solo per particelle pesanti. Per gli elettroni è molto più importante la perdita di energia dovuta a radiazione, in particolare dal [[Bremmstrahlung]]. Questa è invece trascurabile nelle particelle pesanti perché la deviazione delle loro traiettorie è molto piccola.
 
 La perdita di energia per radiazione di una particella di energia $E_{0}$ è
 $$- \left.\frac{dE}{dx}\right|_{\text{rad}}=\frac{E}{L_{R}}$$

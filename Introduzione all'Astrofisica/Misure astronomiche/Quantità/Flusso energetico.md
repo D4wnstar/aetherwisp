@@ -14,6 +14,6 @@ L'esatta risposta di un rivelatore dipende dalla lunghezza d'onda dell'onda inci
 
 Si può usare questa funzione per legare flusso monocromatico e flusso di banda:
 $$f_{banda}=\int_{0}^{\infty}f_{\lambda}s_{banda}(\lambda)d\lambda$$
-La funzione in sé è difficile da calcolare e dipende da fenomeni fuori dal controllo degli osservatori, meteo in primis. Si compie dunque una calibrazione ogni notte su stelle standard il cui [[spettro elettromagnetico]] è noto.
+La funzione in sé è difficile da calcolare e dipende da fenomeni fuori dal controllo degli osservatori, meteo in primis. Si compie dunque una calibrazione ogni notte su stelle standard il cui [[Spettro elettromagnetico]] è noto.
 
 Nell'ottico, le bande più usate sono UBVRI, dalle iniziali della luce che assorbono: (vicino) ultravioletto, blu, visibile, rosso, (vicino) infrarosso. Poi, al di là dell'ottico vi sono continua nell'infrarosso con JHKLMNQ, che sono semplicemente in (quasi) ordine alfabetico.

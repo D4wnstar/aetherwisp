@@ -6,7 +6,7 @@ aliases:
 ---
 Un **nucleo galattico attivo** (AGN, *Active Galactic Nucleus*) è un nucleo di una [[Galassia]] che presenta uno [[Spettro (astrofisica)|spettro]] ottico estremamente energetico con [[Riga spettrale|linee di emissione]] molto pronunciate che non possono essere ricondotte a semplici fenomeni di [[formazione stellare]].
 ## Manifestazione
-La presenza di un AGN comporta l'osservazione di forti righe di emissioni in tutto lo [[spettro elettromagnetico]]. L'esatta manifestazione dipende da che tipo di AGN si considera. Una [[spectral energy decomposition|SED]] media per un AGN è
+La presenza di un AGN comporta l'osservazione di forti righe di emissioni in tutto lo [[Spettro elettromagnetico]]. L'esatta manifestazione dipende da che tipo di AGN si considera. Una [[spectral energy decomposition|SED]] media per un AGN è
 
 ![[AGN SED model.png]]
 
@@ -21,7 +21,7 @@ Tra le linee spettrali più importanti abbiamo la $H\alpha$, la $[O\ III]$ e le 
 - La [[serie di Balmer]], da $H\alpha\ \lambda6563$ in poi. Utili per tracciare il moto di ISM ionizzato, dato che è composto principalmente da idrogeno.
 - Linee dell'ossigeno $[O\ I]\lambda6300$, $[O\ II]\lambda3727$ e $[O\ III]\lambda5007$. La $[O\ III]$ è particolarmente utile perché emessa vicino al centro dell'AGN.
 - Linee ad alta ionizzazione negli hard X come le linee del ferro $K\alpha$ e $K\beta$ come anche $HeII\ \lambda1640$, che provengono da vicino all'[[orizzonte degli eventi]] in quanto c'è bisogno di campi di radiazione UV molto forti.
-- Un continuo nell'UV e ottico a causa di [[bremmstrahlung]] e [[Diffusione di Compton]] inversa.
+- Un continuo nell'UV e ottico a causa di [[Bremmstrahlung]] e [[Diffusione di Compton]] inversa.
 ## Classificazioni
 Esistono numerose classi di AGN per quasi ogni banda osservativa. La maggior parte di queste categorie sono artificiali, nel senso che potrebbero rappresentare lo stesso oggetto; vedi *Modello unificato* sotto.
 ### Ottica

@@ -8,8 +8,8 @@ aliases:
 L'**interazione elettromagnetica** è l'[[interazione fondamentale]] che governa l'attrazione e repulsione tra oggetti dotati di carica elettrica. Considerato un oggetto di carica $q$ a distanza $r$ da un altro oggetto carico, il [[potenziale]] Coulombiano che li lega è
 $$V=\frac{1}{4\pi\varepsilon_{0}}\frac{q}{r}$$
 dove $\epsilon_{0}$ è la [[costante dielettrica del vuoto]]. La forza invece è determinata dalla **legge di Coulomb**
-$$F=\frac{1}{4\pi\varepsilon_{0}}\frac{q_{1}q_{2}}{r^{2}}$$
-dove $q_{1}$ e $q_{2}$ sono le cariche delle [[Particella|particelle]] puntiformi che stanno interagendo.
+$$\vec{F}=\frac{1}{4\pi\varepsilon_{0}}\frac{q_{1}q_{2}}{r^{2}}\hat{r}$$
+dove $q_{1}$ e $q_{2}$ sono le cariche delle [[Particella|particelle]] puntiformi che stanno interagendo a distanza $r$ una dall'altra. $\hat{r}$ è il versore che punta da $q_{1}$ a $q_{2}$.
 
 L'interazione elettromagnetica agisce mediante lo scambio di un [[fotone]], il quanto elettromagnetico.
 ### Costante di accoppiamento

@@ -2,7 +2,7 @@
 aliases:
   - spettro
 ---
-Lo [[spettro elettromagnetico]] di un corpo celeste è la prima - e spesso unica - fonte di informazioni che abbiamo di esso. Per questo, essere in grado di analizzarlo è di fondamentale importanza per l'astrofisica.
+Lo [[Spettro elettromagnetico]] di un corpo celeste è la prima - e spesso unica - fonte di informazioni che abbiamo di esso. Per questo, essere in grado di analizzarlo è di fondamentale importanza per l'astrofisica.
 
 La spettroscopia usa strumenti che disperdono la luce in modo tale da separare le frequenze componenti e ne misurano l'intensità per trovare lo spettro della luce come una [[funzione continua]]. Lo spettro misurato può essere "liscio", spesso chiamato **emissione continua** o **spettro continuo**, nel senso che non ci sono aumenti o diminuzioni repentine di intensità in una banda ristretta di lunghezza d'onda, o presentare "buche" o "picchi": questi sono [[Riga spettrale]] e sono la parte più informativa dello spettro perché associate a specifici fenomeni quantistici.
 
