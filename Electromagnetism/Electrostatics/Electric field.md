@@ -1,9 +1,10 @@
-The **electric field** $\mathbf{E}$ is the [[Campo vettoriale|vector field]] that describes the action of an [[electric charge]] onto other charges. For a test charge $Q$, the force applied to it by another charged object is determined through the electric field as
+The **electric field** $\mathbf{E}$ is the [[conservative force|conservative]] [[Campo vettoriale|vector field]] that describes the action of an [[electric charge]] onto other charges. For a test charge $Q$, the force applied to it by another charged object is determined through the electric field as
 $$\mathbf{F}=Q\mathbf{E}$$
 ### Point charges
 Given a system of source point charges $q_{1}$, $q_{2}$, ..., the electric field is the quantity
 $$\mathbf{E}(\mathbf{r})=\frac{1}{4\pi\varepsilon_{0}}\sum\limits_{i=1}^{n} \frac{q_{i}}{\mathscr{r}_{i}^{2}}\hat{\mathscr{r}}_{i}\quad \left[\frac{\text{N}}{\text{C}}\right]$$
 where $\epsilon_{0}$ is the [[Costante dielettrica del vuoto|permittivity of free space]] and $\mathscr{r}_{i}=|\mathbf{r}-\mathbf{r}'|$ is the distance between the $i$-th source charge (at position $\mathbf{r}'$) and the test charge (at position $\mathbf{r}$). $\hat{\mathscr{r}}$ is the unit vector that points from that charge to the test charge.
+
 ### Continuous charges
 For continues charges, the field is derived by integration as
 $$\mathbf{E}(\mathbf{r})=\frac{1}{4\pi\varepsilon_{0}}\int \frac{1}{\mathscr{r}^{2}}\hat{\mathscr{r}}dq$$
@@ -34,10 +35,24 @@ $$\iiint \delta^{3}(\mathbf{r})\ d\mathbf{r}=1$$
 this makes the previous statements not paradoxical.
 #### Divergence of the electric field
 Knowing this, we can go back to the electric field. We then get
-$$\nabla\cdot\mathbf{E}=\frac{1}{4\pi\varepsilon_{0}}\int4\pi\delta^{3}(\mathscr{r})\rho(\mathbf{r}')d\tau'=\frac{1}{\varepsilon_{0}}\rho(\mathbf{r})$$
+$$\boxed{\nabla\cdot\mathbf{E}=\frac{1}{4\pi\varepsilon_{0}}\int4\pi\delta^{3}(\mathscr{r})\rho(\mathbf{r}')d\tau'=\frac{1}{\varepsilon_{0}}\rho(\mathbf{r})}$$
 which is just [[Gauss' law]] in differential form, here calculated explicitly.
+### Curl
+The [[curl]] is easier to derive than the divergence. Consider the electric field of a point charge
+$$\mathbf{E}=\frac{1}{4\pi\varepsilon_{0}} \frac{q}{r^{2}}\hat{\mathbf{r}}$$
+Let's calculate the line integral of this from point $\mathbf{a}$ to point $\mathbf{b}$:
+$$\int_{\mathbf{a}}^{\mathbf{b}} \mathbf{E}\cdot d\mathbf{r}$$
+In [[spherical coordinates]] we have $d\mathbf{r}=dr\hat{\mathbf{r}}+rd\theta\hat{\mathbf{\theta}}+r\sin\phi d\phi\hat{\mathbf{\phi}}$, so
+$$\mathbf{E}\cdot d\mathbf{r}=\frac{1}{4\pi\varepsilon_{0}} \frac{q}{r^{2}}dr$$
+therefore
+$$\int_{\mathbf{a}}^{\mathbf{b}}\mathbf{E}\cdot d\mathbf{r}=\frac{1}{4\pi\varepsilon_{0}}\int_{\mathbf{a}}^{\mathbf{b}} \frac{q}{r^{2}}dr=\frac{1}{4\pi\varepsilon_{0}}\left(\frac{q}{r_{a}}- \frac{q}{r_{b}}\right)$$
+For a closed integral we have $r_{a}=r_{b}$, so
+$$\oint \mathbf{E}\cdot d\mathbf{r}=0$$
+and using the [[Teorema del rotore|curl theorem]] we find
+$$\boxed{\nabla\times \mathbf{E}=0}$$
+So the electric field of a point charge is irrotational, which means, among other things, that the force caused by it is conservative. In fact, due to the superposition principle, this holds for *any* distribution of charge, be it discrete or continuous.
 ### Notable cases
-#### Wire under charge
+#### Wire
 Consider a wire with uniform linear charge density $\lambda$ running on the $x$ axis and a test charge on the $z$ axis at distance $z$. The wire is symmetrical around the origin and has a length of $2L$, on $x\in[-L,L]$. The electric field applied on the test charge by the wire is entirely on the $z$ axis and is
 $$\mathbf{E}=\frac{1}{4\pi\varepsilon_{0}} \frac{2\lambda Lz}{z\sqrt{z^{2}+ L^{2}}}\hat{\mathbf{z}}$$
 If the wire is only on one side of the origin, on $x\in[0,L]$, then the field is

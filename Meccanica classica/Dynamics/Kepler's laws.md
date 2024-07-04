@@ -32,3 +32,7 @@ We know the areal rate of change from the first law, so we can integrate it over
 $$T=\frac{2A}{|\vec{C}|}=\frac{2\pi a^{2}\sqrt{1-e^{2}}}{\sqrt{GMa(1-e^{2})}}=\frac{2\pi}{\sqrt{GM}}a^{3/2}$$
 thus
 $$T^{2}\propto a^{3}$$
+### Angular speed
+We can also explicitly find the angular speed $\dot{\theta}$ as
+$$\dot{\theta}=\frac{\alpha}{G^{2}M^{3}}\left(c_{0}\sin\theta +c_{1}\cos\theta - \frac{G^{2}M^{4}}{\alpha^{2}}\right)^{2}$$
+which is a first order, non-linear differential equation with a starting condition of $\theta(0)=\theta_{0}$. It can be solved numerically. $\alpha$ is the angular momentum (which is conserved) and $c_{0}$ and $c_{1}$ are constants to be determined.
