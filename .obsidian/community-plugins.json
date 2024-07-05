@@ -1,9 +1,11 @@
 [
-  "quick-latex",
   "obsidian-excalidraw-plugin",
   "global-search-and-replace",
   "unicode-search",
   "obsidian-enhancing-export",
   "obsidian-advanced-slides",
-  "obsidian-git"
+  "obsidian-git",
+  "obsidian-latex-suite",
+  "obsidian-tikzjax",
+  "mathpad"
 ]

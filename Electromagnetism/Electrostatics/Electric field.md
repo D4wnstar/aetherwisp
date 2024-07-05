@@ -2,25 +2,24 @@ The **electric field** $\mathbf{E}$ is the [[conservative force|conservative]] [
 $$\mathbf{F}=Q\mathbf{E}$$
 ### Point charges
 Given a system of source point charges $q_{1}$, $q_{2}$, ..., the electric field is the quantity
-$$\mathbf{E}(\mathbf{r})=\frac{1}{4\pi\varepsilon_{0}}\sum\limits_{i=1}^{n} \frac{q_{i}}{\mathscr{r}_{i}^{2}}\hat{\mathscr{r}}_{i}\quad \left[\frac{\text{N}}{\text{C}}\right]$$
-where $\epsilon_{0}$ is the [[Costante dielettrica del vuoto|permittivity of free space]] and $\mathscr{r}_{i}=|\mathbf{r}-\mathbf{r}'|$ is the distance between the $i$-th source charge (at position $\mathbf{r}'$) and the test charge (at position $\mathbf{r}$). $\hat{\mathscr{r}}$ is the unit vector that points from that charge to the test charge.
-
+$$\mathbf{E}(\mathbf{r})=\frac{1}{4\pi\varepsilon_{0}}\sum\limits_{i=1}^{n} \frac{q_{i}}{\mathfrak{r}_{i}^{2}}\hat{\mathfrak{r}}_{i}\quad \left[\frac{\text{N}}{\text{C}}\right]$$
+where $\epsilon_{0}$ is the [[Costante dielettrica del vuoto|permittivity of free space]] and $\mathfrak{r}_{i}=|\mathbf{r}-\mathbf{r}'|$ is the distance between the $i$-th source charge (at position $\mathbf{r}'$) and the test charge (at position $\mathbf{r}$). $\hat{\mathfrak{r}}$ is the unit vector that points from that charge to the test charge.
 ### Continuous charges
 For continues charges, the field is derived by integration as
-$$\mathbf{E}(\mathbf{r})=\frac{1}{4\pi\varepsilon_{0}}\int \frac{1}{\mathscr{r}^{2}}\hat{\mathscr{r}}dq$$
+$$\mathbf{E}(\mathbf{r})=\frac{1}{4\pi\varepsilon_{0}}\int \frac{1}{\mathfrak{r}^{2}}\hat{\mathfrak{r}}dq$$
 where the domain of integration is the charge distribution in space. This is expressed in one, two and three dimensions as [[Integrale su una curva|line integrals]], [[Integrale su una superficie|surface integrals]] and volume integrals. 
 
 For a linear charge distribution $dq=\lambda dt'$, with $\lambda$ the linear charge density and $dt'$ the line element onto the charge [[curva|curve]] $\gamma$, we have
-$$\mathbf{E}(\mathbf{r})=\frac{1}{4\pi\varepsilon_{0}}\int_{\gamma} \frac{\lambda(\mathbf{r}')}{\mathscr{r}^{2}}\hat{\mathscr{r}}dt'$$
+$$\mathbf{E}(\mathbf{r})=\frac{1}{4\pi\varepsilon_{0}}\int_{\gamma} \frac{\lambda(\mathbf{r}')}{\mathfrak{r}^{2}}\hat{\mathfrak{r}}dt'$$
 For a surface charge distribution $dq=\sigma da'$ with $\sigma$ the surface charge density and $da'$ the area element onto the [[Superficie|surface]] $\Phi$, we have
-$$\mathbf{E}(\mathbf{r})=\frac{1}{4\pi\varepsilon_{0}}\int_{\Phi}\frac{\sigma(\mathbf{r}')}{\mathscr{r}^{2}}\hat{\mathscr{r}}da'$$
+$$\mathbf{E}(\mathbf{r})=\frac{1}{4\pi\varepsilon_{0}}\int_{\Phi}\frac{\sigma(\mathbf{r}')}{\mathfrak{r}^{2}}\hat{\mathfrak{r}}da'$$
 For a volume charge distribution $dq=\rho d\tau'$ with $\rho$ the volume charge density and $d\tau'$ the area element onto the volume $V$, we have
-$$\mathbf{E}(\mathbf{r})=\frac{1}{4\pi\varepsilon_{0}}\int_{V}\frac{\rho(\mathbf{r}')}{\mathscr{r}^{2}}\hat{\mathscr{r}}d\tau'$$
-In all of the above, $\mathscr{r}$ is the distance between the test charge and the charge object element.
+$$\mathbf{E}(\mathbf{r})=\frac{1}{4\pi\varepsilon_{0}}\int_{V}\frac{\rho(\mathbf{r}')}{\mathfrak{r}^{2}}\hat{\mathfrak{r}}d\tau'$$
+In all of the above, $\mathfrak{r}$ is the distance between the test charge and the charge object element.
 ### Divergence
 We can calculate the [[divergence]] of the electric field starting from the volume charge. The volume $V$ may be extended to cover all space as $\rho$ is zero outside the charged object anyway, so it makes no difference. The divergence then is
-$$\nabla\cdot\mathbf{E}=\frac{1}{4\pi\varepsilon_{0}}\int\nabla\cdot\left(\frac{\hat{\mathscr{r}}}{\mathscr{r}^{2}}\right)\rho(\mathbf{r}')\ d\tau'$$
-(the divergence "targets" $\mathbf{r}$, so $\mathscr{r}$ is part of the calculation, but $\rho$ is not). We therefore need to find the divergence of $\hat{r}/r^{2}$.
+$$\nabla\cdot\mathbf{E}=\frac{1}{4\pi\varepsilon_{0}}\int\nabla\cdot\left(\frac{\hat{\mathfrak{r}}}{\mathfrak{r}^{2}}\right)\rho(\mathbf{r}')\ d\tau'$$
+(the divergence "targets" $\mathbf{r}$, so $\mathfrak{r}$ is part of the calculation, but $\rho$ is not). We therefore need to find the divergence of $\hat{r}/r^{2}$.
 #### Divergence of $\hat{r}/r^{2}$
 The divergence of $\hat{r}/r^{2}$ explodes in 0, so the divergence cannot be calculated directly without making a mistake. The flux of $\hat{r}/r^{2}$ is $4\pi$ for any surface $S$:
 $$\oint_{S} \frac{\hat{r}}{r^{2}}\cdot d\mathbf{a}=\int_{S}\left(\frac{1}{R^{2}}\hat{r}\right)\cdot(R^{2}\sin\theta d\theta d\phi\hat{r})=\left(\int_{0}^{\pi}\sin\theta d\theta\right)\left(\int_{0}^{2\pi}d\phi\right) =4\pi$$
@@ -35,7 +34,7 @@ $$\iiint \delta^{3}(\mathbf{r})\ d\mathbf{r}=1$$
 this makes the previous statements not paradoxical.
 #### Divergence of the electric field
 Knowing this, we can go back to the electric field. We then get
-$$\boxed{\nabla\cdot\mathbf{E}=\frac{1}{4\pi\varepsilon_{0}}\int4\pi\delta^{3}(\mathscr{r})\rho(\mathbf{r}')d\tau'=\frac{1}{\varepsilon_{0}}\rho(\mathbf{r})}$$
+$$\boxed{\nabla\cdot\mathbf{E}=\frac{1}{4\pi\varepsilon_{0}}\int4\pi\delta^{3}(\mathfrak{r})\rho(\mathbf{r}')d\tau'=\frac{1}{\varepsilon_{0}}\rho(\mathbf{r})}$$
 which is just [[Gauss' law]] in differential form, here calculated explicitly.
 ### Curl
 The [[curl]] is easier to derive than the divergence. Consider the electric field of a point charge
@@ -54,7 +53,7 @@ So the electric field of a point charge is irrotational, which means, among othe
 ### Notable cases
 #### Wire
 Consider a wire with uniform linear charge density $\lambda$ running on the $x$ axis and a test charge on the $z$ axis at distance $z$. The wire is symmetrical around the origin and has a length of $2L$, on $x\in[-L,L]$. The electric field applied on the test charge by the wire is entirely on the $z$ axis and is
-$$\mathbf{E}=\frac{1}{4\pi\varepsilon_{0}} \frac{2\lambda Lz}{z\sqrt{z^{2}+ L^{2}}}\hat{\mathbf{z}}$$
+$$\mathbf{E}=\frac{1}{4\pi\varepsilon_{0}} \frac{2\lambda L}{z\sqrt{z^{2}+ L^{2}}}\hat{\mathbf{z}}$$
 If the wire is only on one side of the origin, on $x\in[0,L]$, then the field is
 $$\mathbf{E}=\frac{1}{4\pi\varepsilon_{0}} \frac{\lambda}{z}\left[\left(-1 + \frac{z}{\sqrt{z^{2}+L^{2}}}\right)\hat{\mathbf{x}}+\frac{L}{\sqrt{z^{2}+L^{2}}}\hat{\mathbf{z}}\right]$$
 #### Square loop
@@ -85,3 +84,19 @@ If the charge is inside the ball, so $r<R$, it's the ratio between the interior 
 $$Q_{int}=\frac{\frac{4}{3}\pi r^{3}}{\frac{4}{3}\pi R^{3}}Q=\frac{r^{3}}{R^{3}}Q$$
 and the field becomes
 $$\mathbf{E}=\frac{1}{4\pi\varepsilon_{0}} \frac{r}{R^{3}}Q\hat{\mathbf{r}}$$
+### Discontinuities
+Since one- and two-dimensional objects do not actually exist in our three-dimensional world, their usage with the electric field can cause some issues. Namely, it's the cause behind the discontinuity that the field experiences when, say, it passes through a charged surface. To find the actual discontinuity, we can just use Gauss' law on a arbitrarily thin pillbox shape
+$$\oint_{S}\mathbf{E}\cdot d\mathbf{a}=\frac{1}{\varepsilon_{0}}\sigma A$$
+The sides contribute nothing to the field, as they are parallel to the outgoing field when in close proximity to the surface (hence why we need a thin enough pillbox). Thus, we only have the fields passing through the top and bottom of the box:
+$$E_{\text{above}}^{\perp}-E_{\text{below}}^{\perp}=\frac{1}{\varepsilon_{0}}\sigma$$
+where the two components denote the perpendicular component of the outgoing field from the surface above and below it. This is also the discontinuity for the field for any surface, not just a plane. This also only applies for surface charges, as there is no such discontinuity when passing through the surface of a charged solid, such as a ball.
+
+On the contrary, the parallel component of $\mathbf{E}$ is always continuous. This is because the electric field is irrotational. In fact, since the curl is zero, the integral on a closed loop is also always zero:
+$$\oint \mathbf{E}\cdot d\mathbf{r}=0$$
+If we pick the loop to be on an edge of the pillbox that passes through the surface, the edges going through add nothing (as they are arbitrarily small) and the edges parallel to the surface give $(\mathbf{E}_\text{above}^{\parallel}-\mathbf{E}_\text{below}^{\parallel})l$, where $l$ is the length of the pillbox. In other words,
+$$\mathbf{E}_\text{above}^{\parallel}=\mathbf{E}_\text{below}^{\parallel}$$
+which shows that there is no difference between parallel fields when going through the surface.
+
+We can combine these two formulas into a single vector one as
+$$\mathbf{E}_\text{above}-\mathbf{E}_\text{below}=\frac{\sigma}{\varepsilon_{0}}\hat{\mathbf{n}}$$
+where $\hat{\mathbf{n}}$ is the normal vector from the surface.
