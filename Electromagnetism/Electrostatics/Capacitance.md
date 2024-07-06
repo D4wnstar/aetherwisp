@@ -1,0 +1,5 @@
+The **capacitance** $C$ of a system of two [[Conductor|conductors]] is the constant of proportionality between their [[Electric charge|charges]] and their [[electric potential]]. For two conductors with charges $Q$ and $-Q$ respectively, their capacitance is
+$$C=\frac{Q}{V} \quad [\text{F}]\equiv\left[ \frac{\text{C}}{\text{V}} \right]$$
+measured in Farads. Common amounts are measured in either microfarads ($10^{-6}\text{ F}$) or picofarads ($10^{-12}\text{ F}$). Capacitance is a purely geometric quantity and depends on the shape, size and separation of the conductors. It is inherently positive, as the charge is that of the positive conductor and the potential is the positive potential minus the negative one.
+
+It's possible to talk about the capacitance of a single conductor by choosing the second (negative) conductor to be a spherical shell of infinite radius centered around the positive capacitor. In this case, the negative potential is just zero (if the point of reference is picked at infinity).

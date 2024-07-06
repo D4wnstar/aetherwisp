@@ -1,6 +1,6 @@
 The **Helmholtz theorem** provides the necessary conditions for existence and uniqueness of a vector function $\mathbf{F}$ for a given [[divergence]] $\nabla\cdot\mathbf{F}=D$ and [[curl]] $\nabla\times\mathbf{F}=\mathbf{C}$.
 
-> [!quote] Helmholtz theorem
+> [!info] Helmholtz theorem
 > If both the divergence $D$ and curl $\mathbf{C}$ of a vector field $\mathbf{F}$ are specified, if both go to zero faster than $1/r^{2}$ at $r \rightarrow \infty$ and if $\mathbf{F}(\mathbf{r})$ goes to zero as $r \rightarrow \infty$, then $\mathbf{F}$ is uniquely given by
 > $$\mathbf{F}=-\nabla U+\nabla\times\mathbf{W}$$
 > where
@@ -42,9 +42,9 @@ where $X$ is either $D$ or $\mathbf{C}$. For these to exist, $X(r')$ must go to 
 ### Corollary
 The Helmholtz theorem has a useful corollary:
 
-> [!quote] Corollary
+> [!info] Corollary
 > Any differentiable vector function $\mathbf{F}(\mathbf{r})$ that goes to zero faster than $1/r$ as $r \to \infty$ can be expressed as the gradient of a scalar plus the curl of a vector as
-> $$\mathbf{F}(\mathbf{r})=\nabla\left( - \frac{1}{4\pi}\int \frac{\nabla'\cdot \mathbf{F}(\mathbf{r})}{\mathfrak{r}}\ d\tau'  \right)+\nabla\times\left( \frac{1}{4\pi} \frac{\int(\nabla'\times \mathbf{F}(\mathbf{r}'))}{\mathfrak{r}}\ d\tau' \right)$$
+> $$\mathbf{F}(\mathbf{r})=\nabla\left( - \frac{1}{4\pi}\int \frac{\nabla'\cdot \mathbf{F}(\mathbf{r})}{\mathfrak{r}}\ d\tau'  \right)+\nabla\times\left( \frac{1}{4\pi} \int\frac{\nabla'\times \mathbf{F}(\mathbf{r}')}{\mathfrak{r}}\ d\tau' \right)$$
 
  This applies, for instance, to the [[electric field]]:
 $$\mathbf{E}(\mathbf{r})=-\nabla\left( \frac{1}{4\pi \varepsilon_{0}}\int \frac{\rho(\mathbf{r}')}{\mathfrak{r}}d\tau' \right)=-\nabla V$$

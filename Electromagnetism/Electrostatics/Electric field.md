@@ -99,4 +99,5 @@ which shows that there is no difference between parallel fields when going throu
 
 We can combine these two formulas into a single vector one as
 $$\mathbf{E}_\text{above}-\mathbf{E}_\text{below}=\frac{\sigma}{\varepsilon_{0}}\hat{\mathbf{n}}$$
-where $\hat{\mathbf{n}}$ is the normal vector from the surface.
+where $\hat{\mathbf{n}}$ is the normal vector from the surface. Notably, for a charge that is *on* the surface, that is, on the discontinuity itself, the force per unit area $\mathbf{f}=\sigma \mathbf{E}$ applied onto seems at first undefined. After all, if the electric field is discontinuous, the force caused by it must act weird. Turns out, the correct field to use is the average between the field above and below:
+$$\mathbf{f}=\frac{1}{2}\sigma(\mathbf{E}_\text{above}+\mathbf{E}_\text{below})$$

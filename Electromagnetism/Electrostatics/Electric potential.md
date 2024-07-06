@@ -67,3 +67,31 @@ $$\Delta V=\frac{W}{Q}$$
 so the difference in potential between two points is equal to the amount of work per unit charge required to move the charge. A nice example is the amount of work needed to bring in a charge from very far away ($\infty$):
 $$W=Q[V(\mathbf{r})-V(\infty)]=QV(\mathbf{r})$$
 In this sense, the electric potential is energy per unit charge.
+### Energy of a system
+Since electric potential is related to energy, we can use it to measure the energy stored in a system. The energy required to move a point charge $q_{2}$ from infinity to a near another point charge $q_{1}$ is
+$$W_{2}=\frac{1}{4\pi \varepsilon_{0}}q_{2}\left( \frac{q_{1}}{\mathfrak{r}_{12}} \right)$$
+where $\mathfrak{r}_{12}$ is the distance between the charges after being moved. The charges are assumed to be static, so they never budge after being moved to their respective locations. Adding another charge $q_{3}$ will take
+$$W_{3}=\frac{1}{4\pi \varepsilon_{0}}q_{3}\left( \frac{q_{1}}{\mathfrak{r}_{13}}+ \frac{q_{2}}{\mathfrak{r}_{23}} \right)$$
+and a fourth charge $q_{4}$ will take
+$$W_{4}=\frac{1}{4\pi \varepsilon_{0}}q_{4}\left( \frac{q_{1}}{\mathfrak{r}_{14}}+ \frac{q_{2}}{\mathfrak{r}_{24}}+ \frac{q_{3}}{\mathfrak{r}_{34}} \right)$$
+and therefore the total work will be
+$$W=W_{2}+W_{3}+W_{4}=\frac{1}{4\pi \varepsilon_{0}}\left(\frac{q_{1}q_{2}}{\mathfrak{r}_{12}}+ \frac{q_{1}q_{3}}{\mathfrak{r}_{13}}+ \frac{q_{1}q_{4}}{\mathfrak{r}_{14}}+ \frac{q_{2}q_{3}}{\mathfrak{r}_{23}}+ \frac{q_{2}q_{4}}{\mathfrak{r}_{24}}+ \frac{q_{3}q_{4}}{\mathfrak{r}_{34}} \right)$$
+The general rule here is that each charge interacts with all the previous ones:
+$$W=\frac{1}{4\pi \varepsilon_{0}}\sum_{i=1}^{N} \sum_{j>1}^{N} \frac{q_{i}q_{j}}{\mathfrak{r}_{ij}}$$
+where $j>i$ is to avoid counting each pair twice. Alternatively, we can count each pair twice and divide everything by two:
+$$W=\frac{1}{8\pi \varepsilon_{0}}\sum_{i=1}^{N} \sum_{j\neq i}^{N} \frac{q_{i}q_{j}}{\mathfrak{r}_{ij}}$$
+(we still need to avoid a charge interacting with itself, so $j\neq i$ is still necessary). This form is pleasant because it is independent on order of assembly of the charges.
+
+If we extract $q_{i}$ from the second sum, we can see that what we are left with is just the potential caused by $q_{j}$ and thus
+$$\boxed{W=\frac{1}{8\pi \varepsilon_{0}}\sum_{i=1}^{N} q_{i}V(\mathbf{r}_{i})}$$
+For volume charges, we can just substitute the sum with an integral over the space of the distribution[^1]:
+$$\boxed{W=\frac{1}{2}\int _\text{distr.} \rho V\ d\tau}$$
+with corresponding integrals for surface and line distributions. We can also rewrite this in terms of the electric field only. Using Gauss' law as $\rho=\varepsilon_{0}\nabla\cdot\mathbf{E}$, we have
+$$W=\frac{\varepsilon_{0}}{2}\int(\nabla\cdot\mathbf{E})V\ d\tau$$
+Using [[Integrazione per parti|integration by parts]] we have
+$$W=\frac{\varepsilon_{0}}{2}\left[ -\int \mathbf{E}\cdot(\nabla V)\ d\tau + \oint V\mathbf{E}\cdot d\mathbf{a} \right]=\frac{\varepsilon_{0}}{2}\left( \int_{V}E^{2}\ d\tau+\oint_{S}V\mathbf{E}\cdot d\mathbf{a} \right)$$
+This volume $V$ that we are integrating over is technically the charge distribution from before, but since $\rho$ is zero outside of the distribution, any volume larger than it will not contribute to the integral. This permits us to choose as arbitrarily large volume, provided it contains the whole charge. Of course, $\int_{V}E^{2}d\tau$ will *increase* with a bigger $V$, but the surface integral *decreases* with a bigger $V$, so they cancel each other out. In fact, $E\propto 1/r^{2}$ and $V\propto 1/r$ at large enough distances and $a\propto r^{2}$, so the whole integral goes like $\sim 1/r$ in total. Since the volume is arbitrary provided it contains the whole charge, we might as well pick all space. In this case, the surface integral vanishes and the field integral contains all the work:
+$$\boxed{W=\frac{\varepsilon_{0}}{2}\int _\text{all space} E^{2}\ d\tau}$$
+These two integrals are completely equivalent, provided the domain of integration is chosen appropriately. The value of this integral is that it clearly shows that system energy is quadratic and therefore non-linear, so it cannot simply be summed. If the charge is doubled everywhere, then the energy quadruples instead.
+
+[^1]: Actually, there's another change happening here. For any charge, the sum only considers other charges ($j\neq i$), whereas the integral considers everything including the infinitesimal charge element itself. This is fine because $dq$ alone has no impact, as it is infinitesimal. However, if one were to try and calculate the work for point charges using this integral, they would get infinite energy, as the distribution of energy of a charge is discontinuous. The technical reason for the discrepancy is the considering the charge itself in the summation/integral is equivalent to considering the energy necessary to *create* the charge too, not just to move it. Since we can't create or destroy charges, this amount is irrelevant and mostly just leads to headaches. This is also why the integral is always positive (at least in electric field form), but the summation may be negative.
