@@ -1,4 +1,4 @@
-**Spherical coordinates** are three-dimensional set of coordinates where each point in space is determined by the distance $\rho$ from the origin, the angle $\theta$ from a reference direction and the angle $\phi$ from another, perpendicular reference direction, where $\theta\in[0,2\pi[$ and $\phi\in[0,\pi[$,
+**Spherical coordinates** are three-dimensional set of coordinates where each point in space is determined by the distance $\rho$ from the origin, the angle $\theta$ from a reference direction and the angle $\phi$ from another, perpendicular reference direction, where $\theta\in[0,2\pi[$ and $\phi\in[0,\pi[$.
 
 ![[Graph Spherical coordinates|center]]
 
