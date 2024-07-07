@@ -1,10 +1,12 @@
 **Spherical coordinates** are three-dimensional set of coordinates where each point in space is determined by the distance $\rho$ from the origin, the angle $\theta$ from a reference direction and the angle $\phi$ from another, perpendicular reference direction, where $\theta\in[0,2\pi[$ and $\phi\in[0,\pi[$.
 
-![[Graph Spherical coordinates|center]]
+![[Graph Spherical coordinates|50%|center]]
 
 ### Relation to Cartesian coordinates
 Spherical coordinates can be converted to [[Cartesian coordinates]] by doing
 $$x=\rho\cos\theta\sin\phi, \quad y=\rho\sin\theta\sin\phi, \quad z=\rho\cos\phi$$
+and viceversa
+$$r=\sqrt{ x^{2}+y^{2}+z^{2} },\quad y=\arctan\left( \frac{\sqrt{x^{2}+y^{2} }}{z} \right),\quad z=\arctan\left( \frac{y}{x} \right)$$
 ### Motion
 A unit vector in the unit sphere is $\mathbf{R}=(\cos\theta\sin\phi,\sin\theta\sin\phi,\cos\phi)$. A perpendicular vector is $\mathbf{P}=(-\sin\theta,\cos\theta,0)$. Another perpendicular vector is just obtained by the [[prodotto vettoriale|cross product]] $\mathbf{Q}=\mathbf{R}\times\mathbf{P}=(-\cos\theta\cos\phi,-\sin\theta\cos\phi,\sin\phi)$, which completes the [[base|basis]]. The [[moving frame]] is
 $$\{\mathbf{r}(t);\mathbf{R}(t),\mathbf{P}(t),\mathbf{Q}(t)\}$$
