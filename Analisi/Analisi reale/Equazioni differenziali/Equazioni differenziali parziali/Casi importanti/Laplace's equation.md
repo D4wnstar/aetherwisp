@@ -15,7 +15,7 @@ which is just a straight line. The constants are determined by the boundary cond
 In two dimensions, using Cartesian coordinates, the equation is
 $$\frac{ \partial ^{2} \psi }{ \partial x^{2} }+\frac{ \partial ^{2} \psi }{ \partial y^{2} } =0$$
 Since it is a partial differential equation, it has no closed-form general solution. Nevertheless, the properties from the one-dimensional case still apply:
-1. The value of $\psi(x,y)$ is the average of all surrounding points, given by a closed integral over a circle of radius $R$ around the point:$$\psi(x,y)=\frac{1}{2\pi R}\underset{ \text{circle} }{ \oint } Vdl$$
+1. The value of $\psi(x,y)$ is the average of all surrounding points, given by a closed integral over a circle of radius $R$ around the point:$$\psi(x,y)=\frac{1}{2\pi R}\underset{ \text{circle} }{ \oint }\psi\ dl$$
 2. The maxima and minima are all at the boundary. The surface of the function is perfectly smooth, with no hills or valleys.
 #### Solution by separation of variables
 Separation of variables instructs us to look for solutions of the form
@@ -47,7 +47,7 @@ where $P_{l}(\cos \theta)$ are the [[Polinomi di Legendre|Legendre polynomials]]
 In three dimensions, we get the full equation:
 $$\frac{ \partial ^{2} \psi }{ \partial x^{2} } + \frac{ \partial ^{2} \psi }{ \partial y^{2} } + \frac{ \partial ^{2} \psi }{ \partial z^{2} } =0$$
 In this case, the properties are as follow:
-1. The value of $\psi(x,y,z)$ is again the average of all surrounding points, this time determined by a loop integral on a sphere centered on that point:$$\psi(x,y,z)=\frac{1}{4\pi R^{2}}\underset{ \text{sphere} }{ \oint } Vda$$
+1. The value of $\psi(x,y,z)$ is again the average of all surrounding points, this time determined by a loop integral on a sphere centered on that point:$$\psi(x,y,z)=\frac{1}{4\pi R^{2}}\underset{ \text{sphere} }{ \oint } \psi\ da$$
 2. The maxima and minima are still at the boundary. There is no easy way to visualize this, but the general property of minimizing the [[measure]] of the space spanning the boundary still applies.
 
 The separable variable solution for the three-dimensional case is similar to the two-dimensional case, but becomes more complicated as it ends up requiring a double Fourier series over two sets of solutions. An example is
