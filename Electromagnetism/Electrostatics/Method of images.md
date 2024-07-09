@@ -7,7 +7,7 @@ This method can be applied to any charge distribution near a grounded plane subs
 4. Solve the potential for the new system.
 ### Examples
 #### Point charge and conductor plane
-We want to find the [[electric field]] of a point [[Electric charge|charge]] $q$ and an infinite, grounded [[conductor]] plane. The charge is a distance $d$ above the plane. Since we want to know the field on the charge, we only care about the solution in $z>0$, above the plane. We know the boundary conditions are
+We want to find the [[electric field]] of a point [[Electric charge|charge]] $q$ and an infinite, grounded [[Conductor]] plane. The charge is a distance $d$ above the plane. Since we want to know the field on the charge, we only care about the solution in $z>0$, above the plane. We know the boundary conditions are
 1. $V=0$ at $z=0$ because the plane is grounded.
 2. $V=0$ at $x^{2}+y^{2}+z^{2} \gg d^{2}$, because convention.
 

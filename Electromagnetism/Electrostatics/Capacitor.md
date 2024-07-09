@@ -1,4 +1,4 @@
-A **capacitor** is an electronic component that consists of two [[Conductor|conducting]] surfaces designed to have high [[capacitance]].
+A **capacitor** is an electronic component that consists of two [[Conductor|conducting]] surfaces designed to have high [[Capacitance]].
 ### Energy required to charge
 Charging a capacitor requires moving [[Elettrone|electrons]] from the positive plate to the negative one, which means going against the [[electric field]]. The energy required to charge a capacitor by an infinitesimal [[electric charge|charge]] $dq$ is
 $$dW=\frac{q}{C}dq$$

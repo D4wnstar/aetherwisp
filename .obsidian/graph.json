@@ -74,7 +74,7 @@
       "query": "path:\"Introduzione alla Fisica Nucleare e Subnucleare\"  ",
       "color": {
         "a": 1,
-        "rgb": 10602801
+        "rgb": 10010411
       }
     },
     {
@@ -89,6 +89,20 @@
       "color": {
         "a": 1,
         "rgb": 9342189
+      }
+    },
+    {
+      "query": "path:Electromagnetism  ",
+      "color": {
+        "a": 1,
+        "rgb": 16775936
+      }
+    },
+    {
+      "query": "path:\"Meccanica classica\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 13920529
       }
     }
   ],
