@@ -51,39 +51,45 @@ and using the [[Teorema del rotore|curl theorem]] we find
 $$\boxed{\nabla\times \mathbf{E}=0}$$
 So the electric field of a point charge is irrotational, which means, among other things, that the force caused by it is conservative. In fact, due to the superposition principle, this holds for *any* distribution of charge, be it discrete or continuous.
 ### Notable cases
-#### Wire
-Consider a wire with uniform linear charge density $\lambda$ running on the $x$ axis and a test charge on the $z$ axis at distance $z$. The wire is symmetrical around the origin and has a length of $2L$, on $x\in[-L,L]$. The electric field applied on the test charge by the wire is entirely on the $z$ axis and is
-$$\mathbf{E}=\frac{1}{4\pi\varepsilon_{0}} \frac{2\lambda L}{z\sqrt{z^{2}+ L^{2}}}\hat{\mathbf{z}}$$
-If the wire is only on one side of the origin, on $x\in[0,L]$, then the field is
-$$\mathbf{E}=\frac{1}{4\pi\varepsilon_{0}} \frac{\lambda}{z}\left[\left(-1 + \frac{z}{\sqrt{z^{2}+L^{2}}}\right)\hat{\mathbf{x}}+\frac{L}{\sqrt{z^{2}+L^{2}}}\hat{\mathbf{z}}\right]$$
-#### Square loop
-Consider a test charge on the $z$ axis at distance $z$ over a wire with uniform linear charge density $\lambda$ in a square loop around the origin. The edge of the loop has a length of $a$. The field applied onto the charge is
-$$\mathbf{E}=\frac{1}{4\pi\varepsilon_{0}} \frac{4\lambda az}{(z^{2}+ \frac{a^{2}}{4})\sqrt{z^{2}+ \frac{a^{2}}{2}}}\hat{\mathbf{z}}$$
-#### Circular loop
-Same as the square loop, but the loop is circular and has a radius of $R$. The field is
-$$\mathbf{E}=\frac{1}{2\varepsilon_{0}} \frac{\lambda rz}{(r^{2}+z^{2})^{3/2}}\hat{\mathbf{z}}$$
-#### Circular disk
-Same as the circular loop, but it's a disk with uniform surface charge density $\sigma$. The field is
-$$\mathbf{E}=\frac{\sigma}{2\varepsilon_{0}}\left(1- \frac{z}{\sqrt{R^{2}+z^{2}}}\right)\hat{\mathbf{z}}$$
-#### Infinite plane
-The infinite plane is a special case of the circular disk where the radius goes to infinity, $R \rightarrow \infty$. In this case, the second term vanishes and we get
-$$\mathbf{E}=\frac{\sigma}{2\varepsilon_{0}}\hat{\mathbf{z}}$$
-#### Spherical surface
-Consider a empty sphere of radius $R$ with a uniform surface charge density $\sigma$ and a test charge at distance $r$ in any direction. If the test charge is outside of the sphere, so $r>R$, the field is
-$$\mathbf{E}=\frac{1}{4\pi\varepsilon_{0}} \frac{Q}{r^{2}}\hat{\mathbf{r}} \qquad \text{if }r>R$$
-where $Q$ is the total charge on the surface, $Q=4\pi R^{2}\sigma$. This shows that a charge sphere acts identically to a point charge for test charges outside of it.
+> [!example] Wire
+> Consider a wire with uniform linear charge density $\lambda$ running on the $x$ axis and a test charge on the $z$ axis at distance $z$. The wire is symmetrical around the origin and has a length of $2L$, on $x\in[-L,L]$. The electric field applied on the test charge by the wire is entirely on the $z$ axis and is
+> $$\mathbf{E}=\frac{1}{4\pi\varepsilon_{0}} \frac{2\lambda L}{z\sqrt{z^{2}+ L^{2}}}\hat{\mathbf{z}}$$
+> If the wire is only on one side of the origin, on $x\in[0,L]$, then the field is
+> $$\mathbf{E}=\frac{1}{4\pi\varepsilon_{0}} \frac{\lambda}{z}\left[\left(-1 + \frac{z}{\sqrt{z^{2}+L^{2}}}\right)\hat{\mathbf{x}}+\frac{L}{\sqrt{z^{2}+L^{2}}}\hat{\mathbf{z}}\right]$$
 
-If the test charge is inside, so $r<R$, the field is null:
-$$\mathbf{E}=0 \qquad \text{if }r<R$$
-#### Ball
-Consider a ball of radius $R$ with uniform volume charge density $\rho$ and a test charge at distance $r$ in any direction. The field on the test charge is
-$$\mathbf{E}=\frac{1}{4\pi\varepsilon_{0}} \frac{Q_{int}}{r^{2}}\hat{\mathbf{r}}$$
-where $Q_{int}$ is the total charge contained within the spherical surface of radius $r$ that the test charge sits on. If the test charge is outside of the ball, so $r>R$, this is the total charge of the ball and $Q_{int}=Q=\frac{4}{3}\pi R^{3}\rho$. Just like a sphere, a ball acts as a point charge for test charges outside of it.
+> [!example] Square loop
+> Consider a test charge on the $z$ axis at distance $z$ over a wire with uniform linear charge density $\lambda$ in a square loop around the origin. The edge of the loop has a length of $a$. The field applied onto the charge is
+> $$\mathbf{E}=\frac{1}{4\pi\varepsilon_{0}} \frac{4\lambda az}{(z^{2}+ \frac{a^{2}}{4})\sqrt{z^{2}+ \frac{a^{2}}{2}}}\hat{\mathbf{z}}$$
 
-If the charge is inside the ball, so $r<R$, it's the ratio between the interior volume and total volume, so
-$$Q_{int}=\frac{\frac{4}{3}\pi r^{3}}{\frac{4}{3}\pi R^{3}}Q=\frac{r^{3}}{R^{3}}Q$$
-and the field becomes
-$$\mathbf{E}=\frac{1}{4\pi\varepsilon_{0}} \frac{r}{R^{3}}Q\hat{\mathbf{r}}$$
+> [!example] Circular loop
+> Same as the square loop, but the loop is circular and has a radius of $R$. The field is
+> $$\mathbf{E}=\frac{1}{2\varepsilon_{0}} \frac{\lambda rz}{(r^{2}+z^{2})^{3/2}}\hat{\mathbf{z}}$$
+
+> [!example] Circular disk
+> Same as the circular loop, but it's a disk with uniform surface charge density $\sigma$. The field is
+> $$\mathbf{E}=\frac{\sigma}{2\varepsilon_{0}}\left(1- \frac{z}{\sqrt{R^{2}+z^{2}}}\right)\hat{\mathbf{z}}$$
+
+> [!example] Infinite plane
+> The infinite plane is a special case of the circular disk where the radius goes to infinity, $R \rightarrow \infty$. In this case, the second term vanishes and we get
+> $$\mathbf{E}=\frac{\sigma}{2\varepsilon_{0}}\hat{\mathbf{z}}$$
+
+ > [!example] Spherical surface
+> Consider a empty sphere of radius $R$ with a uniform surface charge density $\sigma$ and a test charge at distance $r$ in any direction. If the test charge is outside of the sphere, so $r>R$, the field is
+> $$\mathbf{E}=\frac{1}{4\pi\varepsilon_{0}} \frac{Q}{r^{2}}\hat{\mathbf{r}} \qquad \text{if }r>R$$
+> where $Q$ is the total charge on the surface, $Q=4\pi R^{2}\sigma$. This shows that a charge sphere acts identically to a point charge for test charges outside of it.
+> 
+> If the test charge is inside, so $r<R$, the field is null:
+> $$\mathbf{E}=0 \qquad \text{if }r<R$$
+
+> [!example] Ball
+> Consider a ball of radius $R$ with uniform volume charge density $\rho$ and a test charge at distance $r$ in any direction. The field on the test charge is
+> $$\mathbf{E}=\frac{1}{4\pi\varepsilon_{0}} \frac{Q_{int}}{r^{2}}\hat{\mathbf{r}}$$
+> where $Q_{int}$ is the total charge contained within the spherical surface of radius $r$ that the test charge sits on. If the test charge is outside of the ball, so $r>R$, this is the total charge of the ball and $Q_{int}=Q=\frac{4}{3}\pi R^{3}\rho$. Just like a sphere, a ball acts as a point charge for test charges outside of it.
+>
+> If the charge is inside the ball, so $r<R$, it's the ratio between the interior volume and total volume, so
+> $$Q_{int}=\frac{\frac{4}{3}\pi r^{3}}{\frac{4}{3}\pi R^{3}}Q=\frac{r^{3}}{R^{3}}Q$$
+> and the field becomes
+> $$\mathbf{E}=\frac{1}{4\pi\varepsilon_{0}} \frac{r}{R^{3}}Q\hat{\mathbf{r}}$$
 ### Discontinuities
 Since one- and two-dimensional objects do not actually exist in our three-dimensional world, their usage with the electric field can cause some issues. Namely, it's the cause behind the discontinuity that the field experiences when, say, it passes through a charged surface. To find the actual discontinuity, we can just use Gauss' law on a arbitrarily thin pillbox shape
 $$\oint_{S}\mathbf{E}\cdot d\mathbf{a}=\frac{1}{\varepsilon_{0}}\sigma A$$
