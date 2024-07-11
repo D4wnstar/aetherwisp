@@ -1,8 +1,9 @@
 ---
 aliases:
   - insulator
+  - linear dielectric
 ---
-A **dielectric** or **insulator** is a material in which all [[Electric charge|electric charges]] are attached to a specific [[Atomo|atom]] or [[molecule]] and cannot move far from it. There are no free charges.
+A **dielectric** or **insulator** is a material in which all [[Electric charge|electric charges]] are bound to a specific [[Atomo|atom]] or [[molecule]] and cannot move far from it. There are no free charges.
 ### Behavior under an electric field
 #### Atoms
 The simplest possible dielectric is a single atom, with a positively charged [[Nucleo atomico|atomic nucleus]] and a negatively charged [[Elettrone|electron]] cloud surrounding it. When subject to an [[electric field]], the nucleus and electron cloud move in opposite direction, as one is attracted by the field and the other is repelled. With a strong enough field, the electrons can be ripped from the nucleus, thus [[ionizzazione|ionizing]] the atom, but for milder fields, a state of equilibrium is reached.
@@ -44,3 +45,25 @@ and therefore
 $$\mathbf{F}=(\mathbf{p}\cdot \nabla)\mathbf{E}$$
 and the moment of force therefore sums to the previous one to get
 $$\mathbf{N}=\mathbf{p}\times \mathbf{E}+\mathbf{r}\times \mathbf{F}$$
+#### Linear dielectrics
+At a macroscopic level, we can estimate the behavior of materials by their behavior at a microscopic level. From the study of [[dielectric polarization]], we know that it comes from the alignment of atoms and molecules around the electric field. We also know that the intensity of their dipole moment is dependent on the strength of the field, so long it's not large enough to break the molecules. Thus, we can (qualitatively) assume that the polarization of a dielectric is dependent on the electric field that is applied onto it. In fact, many material not only exhibit this dependence, but specifically a linear dependence:
+$$\mathbf{P}=\varepsilon_{0}\chi_{e}\mathbf{E}$$
+where $\varepsilon_{0}$ is the [[Costante dielettrica del vuoto|vacuum permittivity]] and $\chi_{0}$ is the [[electric susceptibility]], whose value depends on the microscopic structure of the material and external factors like temperature. $\mathbf{E}$ is the total field, including the one caused by polarization itself. Materials that obey this relation are known as **linear dielectrics**.
+
+The dependence on the *total* field, as opposed to the external field, can cause problems: say you apply a field to a dielectric. It gets polarized and starts producing a field of its own, which adds on top of the external one, which in turn causes a variation in the polarization, which changes the material's field, which changes the total field, which changes the polarization, which- you get the point. Logically, it goes on to infinity, though it eventually comes to rest. Breaking out of the infinite loop can be done, for instance, by examining the [[electric displacement]] instead:
+$$\mathbf{D}=\varepsilon_{0}\mathbf{E}+\mathbf{P}=\varepsilon_{0}\mathbf{E}+\varepsilon_{0}\chi_{e}\mathbf{E}=\varepsilon_{0}(1+\chi_{e})\mathbf{E}$$
+We can define the [[permittivity]] of a material as
+$$\varepsilon=\varepsilon_{0}(1+\chi_{e})$$
+and thus the displacement is
+$$\boxed{\mathbf{D}=\varepsilon \mathbf{E}}$$
+
+Despite the displacement being entirely dependent on $\mathbf{E}$, the [[curl]] of $\mathbf{D}$ is still not guaranteed to be zero. This is because for it to be zero, the line integral across the boundary between to materials needs to be zero, but it isn't zero as the electric susceptibility changes when switching material. In fact, this discontinuity in $\chi_{e}$ not only causes the curl to be nonzero, it makes it blow up to infinity in those points. Mathematically, the cause is that the curl of $\mathbf{P}$ in linear dielectrics is
+$$\nabla\times\mathbf{P}=-\varepsilon_{0}\mathbf{E}\times(\nabla \chi_{e})$$
+and is dependent on the [[gradient]] of $\chi_{e}$. The only way this can be zero is if $\chi_{e}$ is spatially constant. In other words, all space[^1] needs to have the same susceptibility, in which case $\nabla \chi_{e}=0$ and the curl of $\mathbf{P}$ (and therefore $\mathbf{D}$) is zero everywhere. A material in which the susceptibility is constant is said to be **homogeneous**. In this scenario, we can the displacement is very much analogous to the electric field and similar laws apply to it:
+$$\nabla\cdot\mathbf{D}=\rho_{f},\qquad \nabla\times\mathbf{D}=0$$
+and the displacement can be calculated as if the dielectric was not there in the first place:
+$$\mathbf{D}=\varepsilon_{0}\mathbf{E}_\text{vac}$$
+where $\mathbf{E}_\text{vac}$ is the field that would be produced by the same free charge distribution if the dielectric was not there. It is related to the actual field by a constant:
+$$\mathbf{E}=\frac{1}{\varepsilon}\mathbf{D}=\frac{1}{\varepsilon_{r}}\mathbf{E}_\text{vac}$$
+
+[^1]: Actually, only the space where the field is nonzero needs to be like this. It makes no difference whether the susceptibility is constant or not if there is no field to speak of in the first place. If the field is created within the dielectric and becomes irrelevant before coming out of the surface, we might as well call all homogeneous.

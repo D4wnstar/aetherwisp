@@ -69,6 +69,17 @@ $$E_{out}=0, \quad E_{in}=\frac{\sigma}{\varepsilon_{0}}$$
 where the inner field goes from the positive plane to the negative one.
 
 ![[Schema Charged parallel planes|80%|center]]
-
+### In dielectrics
+In a [[dielectric]], the electric field is given by both the bound charges caused by [[dielectric polarization]] and by the free charges due to everything else. The total charge density is
+$$\rho=\rho_{b}+\rho_{f}$$
+and Gauss' law reads
+$$\varepsilon_{0}\nabla\cdot\mathbf{E}=\rho=\rho_{b}+\rho_{f}=-\nabla\cdot\mathbf{P}+\rho_{f}$$
+where $\mathbf{E}$ is the total field, due to both the polarization and external effects. Combining the divergence terms
+$$\nabla\cdot(\varepsilon_{0}\mathbf{E}+\mathbf{P})=\rho_{f}$$
+The expression in parentheses is called the [[electric displacement]] $\mathbf{D}$. Thus, Gauss' law reads
+$$\boxed{\nabla\cdot\mathbf{D}=\rho_{f}}$$
+or in integral form
+$$\boxed{\oint \mathbf{D}\cdot d\mathbf{a}=Q_{f,enc}}$$
+where $Q_{f,enc}$ denotes the total free charge within the Gaussian surface. This form is nice because it only references free charges, which are generally artificial and therefore known, as opposed to bound charges. It's also possible to calculate displacement directly when the symmetry requirements above are met.
 
 [^1]: $\mathbf{E}$ can't not be radial. The ball is static and perfectly smooth, so there is not point of reference, like say, an axis of [[rotation]]. This means any direction is equal, as any direction that's chosen could just as easily be chosen to be anything else. The only direction that has "character" to it, in the sense that it can be actually be defined, is the radial direction.

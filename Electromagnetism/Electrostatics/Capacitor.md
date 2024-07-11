@@ -16,6 +16,10 @@ Some capacitor configurations are more common than others.
 > and the capacitance therefore is
 > $$C=\frac{A\varepsilon_{0}}{d}$$
 
+> [!example] Parallel-plate capacitor with dielectric
+> Consider a parallel-plate capacitor that is filled with [[dielectric]] material of [[Permittivity|relative permittivity]] $\varepsilon_{r}$ in between the plates. Since the field is confined between the plates, it is entirely diminished by the dielectric, specifically by a factor $1/\varepsilon_{r}$. The same goes for the potential. Since $C=Q/V$, the capacitance of a dielectric-enhanced capacitor with respect to one in a vacuum is
+> $$C=\varepsilon_{r}C_\text{vac}$$
+
 > [!example] Concentric spheres
 > Consider two concentric spheres of radii $a$ and $b$. The charge is $Q$ on the inner one and $-Q$ on the outer one. The field between the spheres is
 > $$\mathbf{E}=\frac{1}{4\pi \varepsilon_{0}} \frac{Q}{r^{2}}\hat{\mathbf{r}}$$
@@ -23,5 +27,3 @@ Some capacitor configurations are more common than others.
 > $$V=-\int_{b}^{a}\mathbf{E}\cdot d\mathbf{r}=- \frac{Q}{4\pi \varepsilon_{0}}\int_{b}^{a} \frac{1}{r^{2}}\ dr=\frac{Q}{4\pi \varepsilon_{0}}\left( \frac{1}{a}- \frac{1}{b} \right)$$
 > and the capacitance is
 > $$C=\frac{Q}{V}=4\pi \varepsilon_{0} \frac{ab}{b-a}$$
-
-
