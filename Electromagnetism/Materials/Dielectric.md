@@ -65,5 +65,38 @@ and the displacement can be calculated as if the dielectric was not there in the
 $$\mathbf{D}=\varepsilon_{0}\mathbf{E}_\text{vac}$$
 where $\mathbf{E}_\text{vac}$ is the field that would be produced by the same free charge distribution if the dielectric was not there. It is related to the actual field by a constant:
 $$\mathbf{E}=\frac{1}{\varepsilon}\mathbf{D}=\frac{1}{\varepsilon_{r}}\mathbf{E}_\text{vac}$$
+##### Boundary values
+Assuming the linear dielectric is homogeneous and isotropic, the bound charge density $\rho_{f}$ is proportional to the free charge density $\rho_{f}$:
+$$\boxed{\rho_{b}=-\nabla\cdot\mathbf{P}=-\nabla \cdot\left( \varepsilon_{0} \frac{\chi_{e}}{\varepsilon}\mathbf{D} \right)=-\left( \frac{\chi_{e}}{1+\chi_{e}} \right)\rho_{f}}$$
+In particular, unless free charge is embedded in the material, the bound charge density must be zero. Thus, all the charge must reside on the surface. This way, the potential obeys [[Laplace's equation]] and it can be used to find it.
+
+The conditions can also be rewritten to explicitly only reference the free charge too. Starting from the displacement boundary conditions we have
+$$D_\text{above}^{\perp}-D_\text{below}^{\perp}=\varepsilon _\text{above}E_\text{above}^{\perp}-\varepsilon _\text{below}E_\text{below}^{\perp}=\sigma_{f}$$
+and in terms of potential
+$$\varepsilon _\text{above}\frac{ \partial V_\text{above} }{ \partial n } -\varepsilon _\text{below}\frac{ \partial V_\text{below} }{ \partial n } =-\sigma_{f}$$
+### Energy
+From the fact that a [[capacitor]] filled with dielectric has a higher [[capacitance]], and from the formula
+$$W=\frac{1}{2}CV^{2}$$
+we can recognize that it must take more work to charge a dielectric-filled capacitor than a vacuum one. The reason here is because part of the field is cancelled out by the bound charges that occur in a material, thus it takes more free charge to achieve the same potential.
+
+For a linear dielectric, the displacement is $\mathbf{D}=\varepsilon \mathbf{E}$. We can modify the formula for the electrostatic energy stored in a system to take this into account:
+$$W=\frac{\varepsilon_{0}}{2}\int \varepsilon_{r}E^{2}\ d\tau=\frac{1}{2}\int \mathbf{D}\cdot \mathbf{E}\ d\tau$$
+To prove this is true, suppose some (not necessarily linear) dielectric is fixed and we move a free charge closer. Since the distribution $\rho_{f}$ is increased by an amount of $\Delta \rho_{f}$ each time the charge moves a little bit closer, the polarization will change and with it, the bound charge distribution. We're only interested about the incremental work done on the free charge itself:
+$$\Delta W=\int(\Delta \rho_{f})V\ d\tau$$
+Since $\nabla\cdot\mathbf{D}=\rho_{f}$, $\Delta \rho_{f}=\nabla \cdot(\Delta \mathbf{D})$, where $\Delta \mathbf{D}$ is the change in displacement due to moving the free charge closer. So
+$$\Delta W=\int[\nabla \cdot(\Delta \mathbf{D})]V\ d\tau$$
+Now
+$$\nabla \cdot[(\Delta \mathbf{D})V]=[\nabla \cdot(\Delta \mathbf{D})]V+\Delta \mathbf{D}\cdot(\nabla V)$$
+and using [[Integrazione per parti|integration by parts]] we get
+$$\Delta W=\int \nabla \cdot[(\Delta \mathbf{D})V]\ d\tau+\int(\Delta \mathbf{D})\cdot \mathbf{E}\ d\tau$$
+The [[Teorema della divergenza|divergence theorem]] turns the first integral into a surface integral, which vanishes if we integrate over  all space. Thus, only the second term remains
+$$\Delta W=\int(\Delta \mathbf{D})\cdot \mathbf{E}\ d\tau$$
+This is universal and applies to all dielectrics. Now suppose it is linear. We can substitute the displacement like
+$$(\Delta \mathbf{D})\cdot \mathbf{E}=\varepsilon(\Delta \mathbf{E})\cdot \mathbf{E}=\frac{1}{2}\Delta(\varepsilon E^{2})=\frac{1}{2}\Delta(\mathbf{D}\cdot \mathbf{E})$$
+(for infinitesimal increments). Thus
+$$\Delta W=\Delta\left( \frac{1}{2}\int \mathbf{D}\cdot \mathbf{E}\ d\tau \right)$$
+The total work done to build up the charge all the way from zero to the end result, then, is
+$$\boxed{W=\frac{1}{2}\int \mathbf{D}\cdot \mathbf{E}\ d\tau}$$
+This formula ends up differing from the original one, but not because either a wrong, they just represent different energies. The general one dependent on the square of the field represents the energy required to assemble all charges in the system, both free *and* bound, by moving each one independently from infinity (or whatever point of reference). This *does not*, however, include the energy spent when rotating and stretching the molecules and atoms of the dielectric to actually get the charges into their expected geometry, as you are moving the charges one by one. The second formula, dependent on the displacement, instead represents the energy required to move *only* the free charge, but *does* include the elastic "spring" energy contained in the atoms and molecules due to, well, their displacement. The difference here is that the first energy is about moving charges as if they were independent, while the second involves moving only the free ones and figuring out how bound charges respond. The latter is always higher (as it also includes the elastic energy) and generally the one you want, as free charges are usually artificially controlled, but bound ones are not.
 
 [^1]: Actually, only the space where the field is nonzero needs to be like this. It makes no difference whether the susceptibility is constant or not if there is no field to speak of in the first place. If the field is created within the dielectric and becomes irrelevant before coming out of the surface, we might as well call all homogeneous.

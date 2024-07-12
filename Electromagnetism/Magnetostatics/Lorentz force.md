@@ -1,0 +1,3 @@
+The **Lorentz force** is the force applied onto an [[electric charge]] in the presence of both an [[Electric field|electric]] and [[magnetic field]]. It is a more general case of [[Interazione elettromagnetica|Coulomb's law]], to which it goes back to if there is no magnetic field. It is
+$$\mathbf{F}=Q[\mathbf{E}+(\mathbf{v}\times \mathbf{B})]$$
+where $\mathbf{v}$ is the velocity of the test charge $Q$.
