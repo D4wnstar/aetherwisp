@@ -2,6 +2,8 @@
 tags:
   - integrali
   - integrali-fisica
+aliases:
+  - path integral
 ---
 ## Prima specie
 Siano $\gamma:[a,b]\rightarrow\mathbb{R}^N$ una [[Curva]] regolare e $f:A\subset\mathbb{R}^N\rightarrow\mathbb{R}$ una funzione continua con $A$ aperto. Supponiamo che il sostegno di $\gamma$ sia contenuto in $A$, allora l'**integrale di prima specie di $f$ lungo $\gamma$** risulta
