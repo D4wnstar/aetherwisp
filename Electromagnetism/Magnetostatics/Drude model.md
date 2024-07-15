@@ -1,0 +1,15 @@
+The **Drude model** or **Drude-Lorentz model** is an approximate model of electrical conduction within a material, primarily metals.
+### Explanation
+Consider a metallic [[conductor]], for which the [[electric charge]] carriers are the valence [[Elettrone|electrons]] of the [[Atomo|atoms]]. The mass and charge of the carriers therefore are [[massa dell'elettrone|electron mass]] $m=m_{e}$ and [[Carica elementare|elementary charge]] $q=-e$ respectively. Let's start by representing the electrons in the wire as a [[gas perfetto|perfect gas]]. As in all kinetic gas models, the velocity of the electrons $\mathbf{v}_{\text{rand}}$ is completely random and isotropic and its average is zero: $\langle \mathbf{v}_{\text{rand}} \rangle=0$. Say, then, we apply an [[electric field]] $\mathbf{E}$ to the gas. The electrons respond by being attracted or repelled depending on the sign of the field and their velocity changes to
+$$\langle \mathbf{v} \rangle_\text{drift}=\langle \mathbf{v}_{\text{rand}} \rangle + \frac{q\mathbf{E}}{m_{}}\langle t \rangle =\frac{q\mathbf{E}}{m}\tau $$
+where $\langle t \rangle=\tau$ is the average time between collisions. Because the collisions are chaotic and unpredictable, the *directions* are again uniformly distributed, but the *magnitudes* are skewed in the direction of the electric field. So while the electrons [[Diffusione di particelle|scatter]] in all directions isotropically, they tend to move faster in the direction of the field, causing a general (albeit very slow) collective motion in that direction. This is known as the **drift velocity**.
+
+As a whole, the electrons are sufficiently many to constitute a volume charge density $\rho$ moving at a velocity $\langle \mathbf{v} \rangle_\text{drift}$, which produces a volume [[Electric current|current]] density
+$$\mathbf{J}=-Nq\langle \mathbf{v} \rangle_\text{drift}=\frac{Nq^{2}\tau}{m}\mathbf{E} \simeq\rho \langle \mathbf{v} \rangle_\text{drift} $$
+where $N$ is the total number of electrons. But this is just [[Ohm's laws|Ohm's second law]] in differential form, so we can express the [[electrical conductivity]] of a metallic conductor as
+$$\sigma_{C}=\frac{Nq^{2}\tau}{m}$$
+We know empirically that $\sigma_{C}$ is mostly constant, so since $N$, $q$ and $m$ are all themselves constant, $\tau$ too must be constant[^1], at least within the same limits as $\sigma_{C}$.
+
+The linear connection between electric field and *velocity* is noteworthy as the field is inherently linear to *acceleration* (by way of [[Interazione elettromagnetica|Coulomb's law]] and [[Newton's laws|Newton's second law]]), not a velocity. The fact that velocity is constant for a given field intensity suggests that there's something "pushing back", preventing the electrons from accelerating to higher speeds. This behavior can be succinctly explained by interactions with the lattice of the material, which exchanges energy with the electrons through mostly random thermal interactions, and is a remarkably simple way of explaining the [[Joule effect]].
+
+[^1]: The actual value is, unsurprisingly, tiny. For copper, it's in the ballpark of $2.5\times10^{-14}$ seconds.
