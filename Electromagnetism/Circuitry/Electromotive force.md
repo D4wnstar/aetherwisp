@@ -1,3 +1,7 @@
+---
+aliases:
+  - emf
+---
 The **electromotive force** (or **emf** for short) $\mathcal{E}$ is the transfer of energy per unit [[electric charge]] to a circuit, usually by a generator or battery. It is an [[electric potential]] difference, measured in volts, that can be thought of as "putting charges in motion" within a circuit. Despite the name, it is not a force. In the case of a closed circuit powered by a sole generator, the voltage of the circuit is equivalent to the electromotive force produced by the generator.
 ### Origin
 Consider a closed circuit of any sort. We know that the [[electric field]] is [[conservative force|conservative]], so the circulation is always zero:
@@ -12,7 +16,7 @@ in which case the circulation of the total field is not zero and is entirely det
 
 To see how this correlates to the voltage of the system, consider the case where the generator is not actually attached to anything (A and B are just "dangling" terminals). In this case, there is no current and the two fields cancel each other out: $\mathbf{E}=\mathbf{E}_{m}+\mathbf{E}_{s}=0$. This is because the electromotive field does actually move charges around *within* the generator, so that positive charges pile up on one terminal and negative ones on the other. But these charges are the ones that produce the electrostatic field, which opposes the electromotive one. Thus, in time, the difference between the charges across the terminals will be large enough that the electrostatic field will cancel it out completely, ending up in a state of equilibrium. If this sounds like the definition of a potential difference, it's because it is. If we calculate the emf inside we get
 $$\mathcal{E}=\underset{ \text{inside} }{ \int_{B}^{A} }\mathbf{E}_{m}\cdot d\mathbf{r}=-\int_{B}^{A}\mathbf{E}_{s}\cdot d\mathbf{r}=V_{A}-V_{B}=\Delta V$$
-Therefore, if we were to connect the two terminals with a wire, the voltage on that circuit would be precisely $\mathcal{ E}$, at least at the start when current has not yet started flowing. Once current $I$ does begin flowing, two things happen: one, the charges inside the generator begin moving, so they are subject to whatever internal [[electrical resistance]] $r$ the generator has, which produces a second potential difference opposite the emf; second, [[Ohm's laws|Ohm's first law]] kicks in and a third potential different is produced dependent on the wire's resistance $R$. If we put this all together we get
+Therefore, if we were to connect the two terminals with a wire, the voltage on that circuit would be precisely $\mathcal{ E}$, at least at the start when current has not yet started flowing. Once current $I$ does begin flowing, two things happen: one, the charges inside the generator begin moving, so they are subject to whatever internal [[Electrical resistance]] $r$ the generator has, which produces a second potential difference opposite the emf; second, [[Ohm's laws|Ohm's first law]] kicks in and a third potential different is produced dependent on the wire's resistance $R$. If we put this all together we get
 $$\Delta V=RI$$
 and also
 $$\Delta V=\mathcal{E}-rI$$
@@ -32,6 +36,57 @@ The two resistances are in series, so the sum between the two is expected. What 
 ```
 
 where the longer line is the positive end (i.e. higher potential) and the shorter one the negative end.
+### Generators in series and parallel
+Say you have an open circuit containing $n$ identical real generators producing an emf $\mathcal{E}$ each of which with internal resistance $r_{i}$.
+
+```tikz
+\usepackage{circuitikz}
+\begin{document}
+\begin{circuitikz}
+\draw
+(0,0) to[battery1] (2,0)
+(2,0) to[battery1] (4,0)
+(4,0) to[battery1] (6,0)
+(6,0) to[battery1] (8,0)
+(8,0) to[battery1] (10,0)
+;
+\end{circuitikz}
+\end{document}
+```
+
+If the circuit is open and the ends are not connected to anything else, the potential difference at the ends is the total electromotive force of the generators, which just is
+$$\Delta V=\mathcal{E}'=n\mathcal{E}$$
+so generators in series sum their emfs. The total resistance is of course $r=\sum r_{i}$.
+
+Say now they are in parallel.
+
+```tikz
+\usepackage{circuitikz}
+\begin{document}
+\begin{circuitikz}
+\draw
+(0,0) -- (2,0)
+(2,0) -- (2,4)
+(2,0) -- (2,-4)
+(2,4) to[battery1] (4,4)
+(2,2) to[battery1] (4,2)
+(2,0) to[battery1] (4,0)
+(2,-2) to[battery1] (4,-2)
+(2,-4) to[battery1] (4,-4)
+(4,4) -- (4,-4)
+(4,0) -- (6,0)
+;
+\end{circuitikz}
+\end{document}
+```
+
+The current gets split among all the generators, so the emf is
+$$\Delta V=\mathcal{E}'=\mathcal{E}$$
+but the resistance is also split and is
+$$\frac{1}{r'}=\sum_{i=1}^{n} \frac{1}{r_{i}}\quad\Rightarrow \quad r'=\frac{r}{6}$$
+which reduces the [[Joule effect]] and overall leads to a more efficient transfer of energy. On top of that, since the total energy is now $n$ times greater, this current can be maintained $n$ times longer, leading to a much more long lived system (if you plug two batteries in parallel, the thing you're powering will last twice as long).
+
+To summarize, generators in series move $n$ times more energy but run out of energy in the same time as a single generator, but ones in parallel move the same amount of energy, but do so for $n$ times longer. Series allows for a greater burst of current, whereas parallel allows for a more long term application.
 
 [^1]: As a matter of fact, this electrostatic field could very well be zero everywhere, as is the case with steady currents, and yet the current is clearly there.
 [^2]: This is why it's impossible to create an everlasting battery. If the battery never lost any energy of its own, it could never produce a potential difference! The reason why battery technology does improve over time is because this energy transfer is inefficient and some of the energy gets "lost in transport", but the transfer itself must happen.

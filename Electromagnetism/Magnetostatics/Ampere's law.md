@@ -3,6 +3,12 @@ $$\nabla\times\mathbf{B}=\mu_{0}\mathbf{J}$$
 where $\mu_{0}$ is the [[permeability of free space]] and $\mathbf{J}$ is the volume current density. It can be converted to integral form by application of the [[Teorema del rotore|curl theorem]]:
 $$\oint_{\gamma} \mathbf{B}\cdot d\mathbf{r}=\mu_{0}I_\text{enc}$$
 where $I_\text{enc}$ is the enclosed current passing through the surface. This law can be thought of as the magnetic counterpart of [[Gauss' law]] and just like it, it makes solving some problems trivial, provided symmetry allows.
+
+It can also be expressed in terms of the [[magnetic vector potential]] $\mathbf{A}$ as
+$$\nabla ^{2}\mathbf{A}=-\mu_{0}\mathbf{J}$$
+which are three [[Poisson's equation]], one for each coordinate, which we know how to solve of $\mathbf{J}$ goes to zero at infinity. We get
+$$\mathbf{A}(\mathbf{r})=\frac{\mu_{0}}{4\pi}\int \frac{\mathbf{I}(\mathbf{r}')}{\mathfrak{r}}\ dl',\quad \mathbf{A}(\mathbf{r})=\frac{\mu_{0}}{4\pi}\int \frac{\mathbf{K}(\mathbf{r})'}{\mathfrak{r}}\ da',\quad \mathbf{A}(\mathbf{r})=\frac{\mu_{0}}{4\pi}\int \frac{\mathbf{J}(\mathbf{r}')}{\mathfrak{r}}\ d\tau'$$
+for line, surface and volume current densities.
 ### Symmetries
 There are three symmetries that work well for Ampere's law:
 - a *loop around* an infinite straight wire

@@ -3,7 +3,7 @@ aliases:
   - Ohm's first law
   - Ohm's second law
 ---
-**Ohm's laws** are a set of two experimentally-determined laws that describe the [[electric potential]] difference and [[electrical resistance]] of a closed circuit made of thin wires:
+**Ohm's laws** are a set of two experimentally-determined laws that describe the [[electric potential]] difference and [[Electrical resistance]] of a closed circuit made of thin wires:
 $$(1)\quad\Delta V=RI, \qquad R=\rho_{R}\frac{l}{S}\quad(2)$$
 In the first law, $\Delta V$ is the potential difference calculated between the point of highest and lowest potential. In a circuit, these would be the connections to a battery or generator. $R$ is the resistance and $I$ is the [[electric current]] running through the wire. 
 

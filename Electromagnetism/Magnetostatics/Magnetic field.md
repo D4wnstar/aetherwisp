@@ -83,6 +83,18 @@ which is [[Ampere's law]].
 > 
 > If the solenoid is infinite, the angles are $\theta_{2}=0$ and $\theta_{1}=\pi$ so $\cos \theta_{2}-\cos \theta_{1}=1-(-1)=2$ and so
 > $$B=\mu_{0}nI$$
+### Boundary conditions
+The magnetic field suffers a discontinuity when passing through a surface current density $\mathbf{K}$. Say we apply
+$$\oint \mathbf{B}\cdot d\mathbf{a}=0$$
+to a pillbox straddling the surface current, we get
+$$B^{\perp}_\text{above}=B^{\perp}_\text{below}=0$$
+because the magnetic field caused by a surface is entirely parallel to the surface. Let us, then, look at the parallel component by running an Amperian loop across the surface, perpendicular to the current:
+$$\oint \mathbf{B}\cdot d\mathbf{r}=(B_\text{above}^{\parallel}-B_\text{below}^{\parallel})l=\mu_{0}\mathbf{I}_\text{enc}=\mu_{0}\mathbf{K}l$$
+or
+$$\mathbf{B}_\text{above}^{\parallel}-B_\text{below}^{\parallel}=\mu_{0}K$$
+This component is parallel to the surface, by perpendicular to the current. A similar loop running parallel to the current instead gives us that that the component parallel to the current is instead continuous. Thus, what we have above is the only discontinuity in the field, which we can put into vector form as
+$$\mathbf{B}_\text{above}-\mathbf{B}_\text{below}=\mu_{0}(\mathbf{K}\times \hat{\mathbf{n}})$$
+with $\hat{\mathbf{n}}$ being the normal vector to the surface.
 
 [^1]: In fact, for a general function $f(x-x')$, the partial derivatives go like$$\frac{ \partial  }{ \partial x } f(x-x')=-\frac{ \partial  }{ \partial x' } f(x-x')$$
 [^2]: If the current extends to infinity, such as for a straight wire, more care needs to be taken, though it's still common for it to go to zero anyway.

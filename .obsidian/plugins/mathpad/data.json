@@ -12,9 +12,9 @@
   "inlinePostfix": "-",
   "latexPostfix": "$",
   "hidePrefix": "%",
-  "plotGrid": false,
+  "plotGrid": true,
   "plotWidth": 0,
-  "plotDerivatives": true,
+  "plotDerivatives": false,
   "precision": 21,
   "scientific": false
 }

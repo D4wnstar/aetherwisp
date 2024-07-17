@@ -1,4 +1,4 @@
-The **Joule effect** is the phenomenon whereby an [[electric current]] traversing a material produces heat, the amount of which is dependent on the intensity of the current. For an ohmic perfect resistor of [[electrical resistance]] $R$ subject to a current $I$ and an [[electric potential]] difference $\Delta V$,  the power output in heat is
+The **Joule effect** is the phenomenon whereby an [[electric current]] traversing a material produces heat, the amount of which is dependent on the intensity of the current. For an ohmic perfect resistor of [[Electrical resistance]] $R$ subject to a current $I$ and an [[electric potential]] difference $\Delta V$,  the power output in heat is
 $$P=I\Delta V=RI^{2}$$
 If the element not a perfect resistor, only the first relation is true.
 ### Derivation
