@@ -46,3 +46,15 @@ $$\oint \mathbf{B}\cdot \mathbf{r}=BL=\mu_{0}I_\text{enc}=\mu_{0}nIL$$
 so
 $$B=\mu_{0}nI$$
 where the field here is the one inside of the solenoid.
+### For magnetized matter
+Consider any magnetized object upon which is set a free current $\mathbf{J}_{f}$. The total current then is the sum of the free one and the bound one $\mathbf{J}_{b}$:
+$$\mathbf{J}=\mathbf{J}_{b}+\mathbf{J}_{f}$$
+From Ampere's law we get
+$$\frac{1}{\mu_{0}}(\nabla\times\mathbf{B})=\mathbf{J}=\mathbf{J}_{b}+\mathbf{J}_{f}=\mathbf{J}_{f}+(\nabla\times\mathbf{M})$$
+if we collect the [[curl|curls]] we get
+$$\nabla \times\left( \frac{1}{\mu_{0}}\mathbf{B}-\mathbf{M} \right)=\nabla\times\mathbf{H}=\mathbf{J}_{f}$$
+where $\mathbf{H}$ is the [[auxiliary field]]. Thus Ampere's law in magnetized matter is
+$$\nabla\times\mathbf{H}=\mathbf{J}_{f}$$
+and in integral form
+$$\oint \mathbf{H}\cdot d\mathbf{r}=I_{f,\text{enc}}$$
+where $I_{f,enc}$ is the free current enclosed in the Amperian loop.
