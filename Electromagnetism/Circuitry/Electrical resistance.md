@@ -1,4 +1,4 @@
-The **electrical resistance** $R$ of a material is the amount of [[electric current]] running through it per unit [[electric potential]]. For metals, it can be calculated with [[Ohm's laws|Ohm's first law]]. It is measured in Ohms, $\Omega$. The resistance of a material is also dependent on its temperature.
+The **electrical resistance** $R$ of a material is the amount of [[electric current]] running through it per unit [[electric potential]]. For metals, it can be calculated with [[Ohm's laws|Ohm's first law]]. It is measured in ohms, $\Omega$, which are volts per ampere. The resistance of a material is also dependent on its temperature.
 ### Behavior in series and parallel
 Consider two resistances $R_{1}$ and $R_{2}$ in a circuit of total potential difference $\Delta V$ and traversed by a current $I$. Say they are placed in series one after another.
 

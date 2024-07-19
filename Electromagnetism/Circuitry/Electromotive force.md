@@ -1,8 +1,18 @@
 ---
 aliases:
   - emf
+  - motional emf
+  - flux rule
 ---
 The **electromotive force** (or **emf** for short) $\mathcal{E}$ is the transfer of energy per unit [[electric charge]] to a circuit, usually by a generator or battery. It is an [[electric potential]] difference, measured in volts, that can be thought of as "putting charges in motion" within a circuit. Despite the name, it is not a force. In the case of a closed circuit powered by a sole generator, the voltage of the circuit is equivalent to the electromotive force produced by the generator.
+### Flux rule
+In the specific case of a loop of [[electric current]] moving through a static [[magnetic field]], an emf is produced by the work done by whatever is pulling the loop being converted into a push of the charges by the magnetic field. This form of emf is called **motional emf** and is the basis of generators, which transform mechanical energy into electrical one. The amount of motional emf can be found with a straightforward law called the **flux rule**:
+$$\mathcal{E}=- \frac{d\Phi}{dt}$$
+This tells us that the motional emf $\mathcal{E}$ is equal to the opposite of the change in the magnetic flux $\Phi$ through the loop. If you pull a loop out of a magnetic field, the flux reduces in time and the derivative is negative, which correctly yields a positive emf.
+
+In fact, by studying [[electromagnetic induction]], we can generalize the flux rule to state that whenever a magnetic field going through a loop changes (for *any* reason, be it movement of the loop, of the flux, variation in the generating current, etc.), a emf equal to
+$$\mathcal{E}=- \frac{d\Phi}{dt}$$
+will be found in the loop.
 ### Origin
 Consider a closed circuit of any sort. We know that the [[electric field]] is [[conservative force|conservative]], so the circulation is always zero:
 $$\oint_{\gamma} \mathbf{E}\cdot d\mathbf{r}=0$$
