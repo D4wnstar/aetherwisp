@@ -34,7 +34,7 @@ Since $\alpha$ is the angle between $\mathbf{r}'$ and $\mathbf{r}$ we can write
 $$r'\cos \alpha=\hat{\mathbf{r}}\cdot \mathbf{r}'$$
 and the dipole term becomes
 $$V_\text{dip}(\mathbf{r})=\frac{1}{4\pi\varepsilon_{0}} \frac{1}{r^{2}}\hat{\mathbf{r}}\cdot \int \mathbf{r}'\rho(\mathbf{r}')\ d\tau'$$
-The integral is defined as the [[dipole moment]] $\mathbf{p}$ of the distribution:
+The integral is defined as the [[electric dipole moment]] $\mathbf{p}$ of the distribution:
 $$\mathbf{p}\equiv \int \mathbf{r}'\rho(\mathbf{r}')\ d\tau'$$
 In this notation, the dipole potential becomes
 $$\boxed{V_\text{dip}(\mathbf{r})=\frac{1}{4\pi\varepsilon_{0}} \frac{\mathbf{p}\cdot\hat{\mathbf{r}}}{r^{2}}}$$

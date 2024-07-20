@@ -27,7 +27,7 @@ The vector potential can be expanded in a [[Multipole expansion|multipole series
 $$\mathbf{A}(\mathbf{r})=\frac{\mu_{0}I}{4\pi}\oint \frac{1}{\mathfrak{r}}d\mathbf{r}'=\frac{\mu_{0}I}{4\pi}\sum_{n=0}^{\infty} \frac{1}{r^{n+1}}\oint(r')^{n}P_{n}(\cos \alpha)d\mathbf{r}'$$
 where $P(\cos \alpha)$ are the [[Polinomi di Legendre|Legendre polynomials]]. Notably, the monopole term is just the displacement around a closed loop, which is always zero:
 $$\oint d\mathbf{r}=0$$
-which is an important confirmation of the fact that magnetic monopoles are not known to exist in nature and, beyond that, [[Maxwell's laws|Maxwell's equation]] $\nabla\cdot\mathbf{B}=0$ implicitly requires this to be so. Since the monopole term vanishes, the smallest terms is the dipole one:
+which is an important confirmation of the fact that magnetic monopoles are not known to exist in nature and, beyond that, [[Maxwell's equations|Maxwell's equation]] $\nabla\cdot\mathbf{B}=0$ implicitly requires this to be so. Since the monopole term vanishes, the smallest terms is the dipole one:
 $$\mathbf{A}_\text{dip}(\mathbf{r})=\frac{\mu_{0}I}{4\pi}\oint r'\cos \alpha \ d\mathbf{r}'=\frac{\mu_{0}I}{4\pi}\oint(\hat{\mathbf{r}}\cdot \mathbf{r}')d\mathbf{r}'$$
 This can be written in a more illuminating way by seeing that
 $$\oint(\hat{\mathbf{r}}\cdot \mathbf{r}')\ d\mathbf{r}'=-\hat{\mathbf{r}}\times \int d\mathbf{a}'$$
@@ -39,3 +39,34 @@ Unlike the [[electric dipole moment]], this one is completely independent on the
 $$\mathbf{B}_\text{dip}(\mathbf{r})=\nabla\times\mathbf{A}=\frac{\mu_{0}m}{4\pi r^{3}}(2\cos \theta \hat{\mathbf{r}}+\sin \theta \hat{\boldsymbol{\phi}})$$
 in [[Cartesian coordinates]]. It can be rewritten in coordinate-free form as
 $$\boxed{\mathbf{B}_\text{dip}(\mathbf{r})=\frac{\mu_{0}}{4\pi} \frac{1}{r^{3}}[3(\mathbf{m}\cdot \hat{\mathbf{r}})\hat{\mathbf{r}}-\mathbf{m}]}$$
+### Energy of a system
+Making a current run through a wire is not free. It requires pushing (i.e. doing work) against the [[Self inductance|back emf]] induced by the changing current. This work is, unlike the heat expelled by the [[Joule effect]] *recoverable*. When the current is removed from the wire, the back emf will do the same amount of work it did originally, just in the opposite direction. In the meantime, you can think of it as being "stored" within the wire.
+
+The work done per unit charge against the back emf of value $\mathcal{E}$ is simply $-\mathcal{E}$. We also know the current $I$, which is the amount of charge passing through the wire per unit time. The work done per unit time then is
+$$\frac{dW}{dt}=-\mathcal{E}I=LI \frac{dI}{dt}$$
+where $L$ is the [[self inductance]] of the circuit. Integrating over all time we get
+$$\boxed{W=\frac{1}{2}LI^{2}}$$
+Notably, it is independent on time. It does not matter how fast or slow we change the current. The amount of work we need to do is predetermined by the properties of wire: geometry for $L$, desired current intensity for $I$.
+
+This formula is clean, but can be rewritten to be more informative. The magnetic flux $\Phi$ going through a loop is $LI$, but also
+$$LI=\Phi=\int \mathbf{B}\cdot d\mathbf{a}=\int(\nabla\times\mathbf{A})\cdot d\mathbf{a}=\oint \mathbf{A}\cdot d\mathbf{I}$$
+Substituting this into the work formula, we get
+$$W=\frac{1}{2}I\oint (\mathbf{A}\cdot I)\ dl$$
+Generalizing to volume currents is pretty easy now:
+$$\boxed{W=\frac{1}{2}\int_{\mathcal{V}}(\mathbf{A}\cdot \mathbf{J})\ d\tau}$$
+But we know how to express $\mathbf{J}$ in terms of the magnetic field using Ampere's law:
+$$\nabla\times\mathbf{B}=\mu_{0}\mathbf{J}$$
+so
+$$W=\frac{1}{2\mu_{0}}\oint_{\mathcal{V}}\mathbf{A}\cdot(\nabla\times\mathbf{B})\ d\tau$$
+We can exploit [[Integrazione per parti|integration by parts]] to transfer the derivative to $\mathbf{A}$ and then use this product rule
+$$\nabla \cdot(\mathbf{A}\times \mathbf{B})=\mathbf{B}\cdot(\nabla\times\mathbf{A})-\mathbf{A}\cdot(\nabla\times\mathbf{B})$$
+and reversed
+$$\mathbf{A}\cdot(\nabla\times\mathbf{B})=\mathbf{B}\cdot \mathbf{B}-\nabla \cdot(\mathbf{A}\times \mathbf{B})$$
+to find
+$$\begin{align}
+W&=\frac{1}{2\mu_{0}}\left[ \int B^{2}\ d\tau-\int \nabla \cdot(\mathbf{A}\times \mathbf{B})\ d\tau \right]= \\
+ & =\frac{1}{2\mu_{0}}\left[ \int_{\mathcal{V}} B^{2}\ d\tau-\oint_{\mathcal{S}} (\mathbf{A}\times \mathbf{B})\cdot d\mathbf{a} \right]
+\end{align}$$
+where $\mathcal{S}$ is the bounding [[Superficie|surface]] of $\mathcal{V}$. $\mathcal{V}$ is the volume where the current is running through, but we might as well extend this to all space as any regione where the current is zero won't contribute anything anyway. As we increase the size of the volume, the volume integral gets larger and the surface integral gets smaller (we are making the surface further and further away from both $\mathbf{A}$ and $\mathbf{B}$ so it makes sense). In the limiting case of integration over all space, the volume integral is the only contribution and the surface integral vanishes, leaving us with
+$$\boxed{W=\frac{1}{2\mu_{0}}\int _\text{all space}B^{2}\  d\tau}$$
+Like many things in magnetism, this is a near carbon copy of the equivalent counterpart, the electric field energy, just with $1/\mu_{0}$ instead of $\varepsilon_{0}$ and $B$ instead of $E$. Just like it, *where* the energy is located is beyond the scope of this formula. One could argue it's located in the field (as QFT wants) or that it's located in the current (as common sense might have it). What matters is the actual energy itself, which correctly given by any of the above formulas.

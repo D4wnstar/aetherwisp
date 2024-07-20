@@ -58,3 +58,33 @@ $$\nabla\times\mathbf{H}=\mathbf{J}_{f}$$
 and in integral form
 $$\oint \mathbf{H}\cdot d\mathbf{r}=I_{f,\text{enc}}$$
 where $I_{f,enc}$ is the free current enclosed in the Amperian loop.
+### In electrodynamics
+There is an internal issue with how Ampere's law is formulated. In differential form, it is the curl of the magnetic field and from calculus we know that the [[divergence]] of curl is always zero. And yet, if we apply the divergence to Ampere's law we get
+$$\nabla\cdot(\nabla\times\mathbf{B})=\mu_{0}(\nabla\cdot\mathbf{J})$$
+which is, in general, not zero. It *is* zero in magnetostatics, when using steady currents, but beyond magnetostatics (when dealing with electrodynamics), it cannot be correct. Truth is, Ampere's law is actually missing a piece, as Maxwell discovered.
+
+For a thought experiment, imagine we are charging a [[capacitor]]. The integral from of Ampere's law is
+$$\oint \mathbf{B}\cdot d\mathbf{r}=\mu_{0}I_\text{enc}$$
+Say I want to use this law on a loop right after a capacitor, beyond the second plate.
+
+![[Circuit Ampere's law inconsistency|60%|center]]
+
+What's the enclosed current? Well, it's whatever current is passing through the surface of the loop. But what is the surface of the loop? It's any surface bounded by it. The obvious choice here is just the flat space within the loop (blue in the image), but it just as well be the amorphous green one, similar to a balloon. The issue here is that, while in the blue surface the current passing through is obvious, in the green one there is *no* current passing through. This makes no sense: Ampere's law must hold for every possible surface bounded by the loop, it can't be picky. There's clearly something wrong here.
+
+The problem arises in electrodynamics: this never occurred in magnetostatics because steady current don't pile [[electric charge]] up somewhere, whereas with non-steady currents it's possible that happens. Since in order to charge a capacitor you need a non-steady current (to stockpile charge on the capacitor plates), this occurs only now. In fact, in all of electrodynamics, the concept of "current enclosed by the loop" is ill-defined, as it predicates on the notion that the current is constant in time.
+
+To find the missing link, apply the current continuity equation and Gauss' law to the problematic side of Ampere's law
+$$\nabla\cdot\mathbf{J}=- \frac{ \partial \rho }{ \partial t } =-\frac{ \partial  }{ \partial t } (\varepsilon_{0}\nabla\cdot\mathbf{E})=-\nabla \cdot\left( \varepsilon_{0}\frac{ \partial \mathbf{E} }{ \partial t }  \right)$$
+So, if we added the term in brackets to Ampere's law, it would exactly cancel out the divergence of the right hand side and fix the law. Thus, we get
+$$\boxed{\nabla\times\mathbf{B}=\mu_{0}\mathbf{J}+\mu_{0}\varepsilon_{0}\frac{ \partial \mathbf{E} }{ \partial t }}$$
+This new terms vanishes in magnetostatics, where $\mathbf{E}$ is constant in time, but it cannot be ignored in electrodynamics, where it has the fundamental consequence:
+
+> **Changing electric fields induce magnetic fields.**
+
+The additional term $\varepsilon_{0}\frac{ \partial \mathbf{E} }{ \partial t }\equiv \mathbf{J}_{d}$ is called the **displacement current** (as opposed to the **conduction current** $\mathbf{J}$), though it has nothing to do with the actual current beyond adding to its value. To see why this fixes the law physically, beyond mathematically, let's go back to the capacitor problem. If the capacitor plates are close to each other, the field between them is
+$$E=\frac{\sigma}{\varepsilon_{0}}=\frac{1}{\varepsilon_{0}} \frac{Q}{A}$$
+where $Q$ is the charge on the plate and $A$ is its area. We thus have
+$$\frac{ \partial E }{ \partial t } =\frac{1}{\varepsilon_{0}A}\frac{dQ}{dt} =\frac{1}{\varepsilon_{0}A}I$$
+Substituting this in the fixed Ampere's law gives us
+$$\oint \mathbf{B}\cdot d\mathbf{r}=\mu_{0}I_\text{enc}+\mu_{0}\varepsilon_{0}\int\left( \frac{ \partial \mathbf{E} }{ \partial t }  \right)\cdot d\mathbf{a}$$
+If we choose the flat surface, then $E=0$ and $I_\text{enc}=I$, but if we choose the pathological balloon-like surface instead, then $I_\text{enc}=$ and $\int \frac{ \partial \mathbf{E} }{ \partial t }\cdot d\mathbf{a}=I/\varepsilon_{0}$, which again gives us the correct result.
