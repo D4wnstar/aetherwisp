@@ -39,6 +39,61 @@ Some capacitor configurations are more common than others.
 > $$V=-\int_{b}^{a}\mathbf{E}\cdot d\mathbf{r}=- \frac{Q}{4\pi \varepsilon_{0}}\int_{b}^{a} \frac{1}{r^{2}}\ dr=\frac{Q}{4\pi \varepsilon_{0}}\left( \frac{1}{a}- \frac{1}{b} \right)$$
 > and the capacitance is
 > $$C=\frac{Q}{V}=4\pi \varepsilon_{0} \frac{ab}{b-a}$$
+### Behavior in series and parallel
+Consider two capacitors $C_{1}$ and $C_{2}$ in a circuit of total potential difference $\Delta V$. Say they are in series one after another:
+
+```tikz
+\usepackage{circuitikz}
+\begin{document}
+\begin{circuitikz}
+\draw
+(0,0) to[capacitor, o-o, l=$C_1$] (1,0)
+(1,0) -- (3,0)
+(3,0) to[capacitor, o-o, l=$C_2$] (4,0)
+;
+\end{circuitikz}
+\end{document}
+```
+
+The charge $Q$ remains constant across all them (it just flips sign across plates), so
+$$C_{1}=\frac{Q}{V_{1}},\quad C_{2}=\frac{Q}{V_{2}}$$
+From [[Kirchhoff's laws|Kirchhoff's hoop law]], we know that the potential changes by each potential must sum to the total:
+$$\Delta V=V_{1}+V_{2}=QC_{1}+QC_{2}=Q(C_{1}+C_{2})$$
+and inverting the relation
+$$\frac{1}{C_{1}+C_{2}}=\frac{\Delta V}{Q}$$
+which means that the total capacitance of capacitors in series is
+$$\frac{1}{C}=\frac{1}{C_{1}+C_{2}}$$
+and more generally, for $n$ capacitors,
+$$\boxed{\frac{1}{C}=\sum_{i=1}^{n} \frac{1}{C_{i}}}$$
+
+Say now they are in parallel:
+
+```tikz
+\usepackage{circuitikz}
+\begin{document}
+\begin{circuitikz}
+\draw
+(0,0) -- node[currarrow]{} (1,0)
+(1,0) -- (1,1)
+(1,0) -- (1,-1)
+(1,1) to[capacitor, o-o, l=$C_1$] (3,1)
+(1,-1) to[capacitor, o-o, l=$C_2$] (3,-1)
+(3,1) -- (3,0)
+(3,-1) -- (3,0)
+(3,0) -- node[currarrow] {} (4,0)
+;
+\end{circuitikz}
+\end{document}
+```
+
+The charge is now split across the capacitors before merging again after, $Q=Q_{1}+Q_{2}$, but the potential difference isn't, so
+$$C_{1}=\frac{Q_{1}}{\Delta V},\quad C_{2}=\frac{Q_{2}}{\Delta V}$$
+and using charge conservation
+$$Q=C_{1}\Delta V+C_{2}\Delta V=(C_{1}+C_{2})\Delta V$$
+so the total capacitance of capacitors in parallel is
+$$C=C_{1}+C_{2}$$
+and more generally, for $n$ capacitors,
+$$\boxed{C=\sum_{i=1}^{n} C_{i}}$$
 ### Charge and discharge process
 The process of charging and discharging a capacitor is of course not an electrostatics problem. That said, if the capacitor is (dis)charging *slowly*, then we can approximate the [[electric current]] in the circuit to be mostly constant in time as the propagation of change happens much faster than the (dis)charging[^1]. It's not *actually*, but if the (dis)charge is slow enough, we can consider it as if it were a (quasi-)steady current. In this regime, we can apply [[Kirchhoff's laws|Kirchhoff's hoop law]].
 #### Charge

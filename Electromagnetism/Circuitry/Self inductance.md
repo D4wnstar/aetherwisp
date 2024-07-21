@@ -12,7 +12,7 @@ Consider any loop traversed by an [[Electric current|steady current]] $I$. This 
 The flux change is proportional to the current
 $$\Phi=LI$$
 where $L$ is the constant of proportionality called **self inductance**. The [[Electromotive force|emf]] induced by this change is
-$$\mathcal{E}=-L \frac{d\Phi}{dt}$$
+$$\mathcal{E}=-L \frac{dI}{dt}$$
 which is known as the **back emf**, because it tries to push back against any change. The larger the inductance, the harder it gets to change a circuit's current.
 ### RL circuit
 An **RL circuit** is a circuit made of a [[Electrical resistance|resistor]] $R$ and an inductor $L$. If we attach a generator of emf $\mathcal{E}_{0}$ and no internal resistance, [[Ohm's laws|Ohm's first law]] says

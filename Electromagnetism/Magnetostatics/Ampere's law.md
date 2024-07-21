@@ -6,9 +6,7 @@ where $I_\text{enc}$ is the enclosed current passing through the surface. This l
 
 It can also be expressed in terms of the [[magnetic vector potential]] $\mathbf{A}$ as
 $$\nabla ^{2}\mathbf{A}=-\mu_{0}\mathbf{J}$$
-which are three [[Poisson's equation]], one for each coordinate, which we know how to solve of $\mathbf{J}$ goes to zero at infinity. We get
-$$\mathbf{A}(\mathbf{r})=\frac{\mu_{0}}{4\pi}\int \frac{\mathbf{I}(\mathbf{r}')}{\mathfrak{r}}\ dl',\quad \mathbf{A}(\mathbf{r})=\frac{\mu_{0}}{4\pi}\int \frac{\mathbf{K}(\mathbf{r})'}{\mathfrak{r}}\ da',\quad \mathbf{A}(\mathbf{r})=\frac{\mu_{0}}{4\pi}\int \frac{\mathbf{J}(\mathbf{r}')}{\mathfrak{r}}\ d\tau'$$
-for line, surface and volume current densities.
+which are three [[Poisson's equation]], one for each coordinate.
 ### Symmetries
 There are three symmetries that work well for Ampere's law:
 - a *loop around* an infinite straight wire

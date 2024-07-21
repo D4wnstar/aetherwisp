@@ -91,7 +91,7 @@ $$B^{\perp}_\text{above}=B^{\perp}_\text{below}=0$$
 because the magnetic field caused by a surface is entirely parallel to the surface. Let us, then, look at the parallel component by running an Amperian loop across the surface, perpendicular to the current:
 $$\oint \mathbf{B}\cdot d\mathbf{r}=(B_\text{above}^{\parallel}-B_\text{below}^{\parallel})l=\mu_{0}\mathbf{I}_\text{enc}=\mu_{0}\mathbf{K}l$$
 or
-$$\mathbf{B}_\text{above}^{\parallel}-B_\text{below}^{\parallel}=\mu_{0}K$$
+$$B_\text{above}^{\parallel}-B_\text{below}^{\parallel}=\mu_{0}K$$
 This component is parallel to the surface, by perpendicular to the current. A similar loop running parallel to the current instead gives us that that the component parallel to the current is instead continuous. Thus, what we have above is the only discontinuity in the field, which we can put into vector form as
 $$\mathbf{B}_\text{above}-\mathbf{B}_\text{below}=\mu_{0}(\mathbf{K}\times \hat{\mathbf{n}})$$
 with $\hat{\mathbf{n}}$ being the normal vector to the surface.

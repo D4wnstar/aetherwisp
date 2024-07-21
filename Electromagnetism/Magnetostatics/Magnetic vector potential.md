@@ -14,7 +14,12 @@ $$V=\frac{1}{4\pi}\int_{\mathcal{V}} \frac{\nabla\cdot\mathbf{A}_{0}}{\mathfrak{
 which is the exact function that makes the $\nabla ^{2}V=-\nabla\cdot\mathbf{A}_{0}$ or, in other words, makes the divergence of $\mathbf{A}$ always zero. Since $V$ obeys Poisson's equation, and we can always solve Poisson's equation in some way or another, we can always find a $V$ for which the divergence of $\mathbf{A}$ is zero. In fact, we could pick a $V$ for which $\nabla\cdot\mathbf{A}$ is nonzero, but it's typically just plain easier to set $\nabla\cdot\mathbf{A}=0$ and pretend it doesn't exist, so we might as well.
 
 This gives us permission to express [[Ampere's law]] like this:
-$$\nabla\times\mathbf{B}=\nabla\times(\mathbf{\nabla\times\mathbf{A}})=\nabla(\nabla\cdot\mathbf{A})-\nabla ^{2}\mathbf{A}=-\mu_{0}\mathbf{J}$$
+$$\nabla\times\mathbf{B}=\nabla\times(\mathbf{\nabla\times\mathbf{A}})=\nabla(\cancel{ \nabla\cdot\mathbf{A} })-\nabla ^{2}\mathbf{A}=\mu_{0}\mathbf{J}$$
+and so
+$$\boxed{\nabla ^{2}\mathbf{A}=-\mu_{0}\mathbf{J}}$$
+These are just three [[Poisson's equation]], one for each coordinate, which we know how to solve of $\mathbf{J}$ goes to zero at infinity. We get
+$$\mathbf{A}(\mathbf{r})=\frac{\mu_{0}}{4\pi}\int \frac{\mathbf{I}(\mathbf{r}')}{\mathfrak{r}}\ dl',\quad \mathbf{A}(\mathbf{r})=\frac{\mu_{0}}{4\pi}\int \frac{\mathbf{K}(\mathbf{r})'}{\mathfrak{r}}\ da',\quad \mathbf{A}(\mathbf{r})=\frac{\mu_{0}}{4\pi}\int \frac{\mathbf{J}(\mathbf{r}')}{\mathfrak{r}}\ d\tau'$$
+for line, surface and volume current densities.
 ### Boundary conditions
 Unlike the magnetic field, the vector potential does not exhibit a discontinuity across a surface current density $\mathbf{K}$. In fact, the lack of divergence implies that the normal component of the vector is continuous, whereas the curl
 $$\oint \mathbf{A}\cdot d\mathbf{r}=\int \mathbf{B}\cdot d\mathbf{a}=\Phi$$

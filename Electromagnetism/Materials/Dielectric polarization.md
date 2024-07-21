@@ -20,7 +20,7 @@ $$\boxed{\sigma_{b}=\mathbf{P}\cdot \hat{\mathbf{n}}}$$
 and the second one that of the potential of a volume charge
 $$\boxed{\rho_{b}=-\nabla'\cdot \mathbf{P}}$$
 and so we get
-$$V=\frac{1}{4\pi\varepsilon_{0}}\oint_{\mathcal{S}} \frac{\sigma_{b}}{\mathfrak{r}}\ da'+\frac{1}{4\pi\varepsilon_{0}}\int_{\mathcal{V}} \frac{\rho_{b}}{\mathfrak{r}}\ d\tau'$$
+$$\boxed{V=\frac{1}{4\pi\varepsilon_{0}}\oint_{\mathcal{S}} \frac{\sigma_{b}}{\mathfrak{r}}\ da'+\frac{1}{4\pi\varepsilon_{0}}\int_{\mathcal{V}} \frac{\rho_{b}}{\mathfrak{r}}\ d\tau'}$$
 Clearly, then, the potential of a polarized material is the result of both a surface charge and a volume charge. Since these charges are in a dielectric and therefore not free to move, they are called **bound charges**. If we can find the bound charges, we can get the potential and then the field.
 
 > [!example] Uniformly polarized sphere

@@ -15,7 +15,7 @@ There is also a much more general and physically meaningful form that applies to
 $$\mathbf{J}=\sigma_{C}\mathbf{f}$$
 where $\mathbf{f}$ is the force per unit charge and $\sigma_{C}$ is the [[electrical conductivity]] of the material. For most electromagnetic forces, $\mathbf{f}$ is just the [[electric field]] $\mathbf{E}$:
 $$\mathbf{J}=\sigma_{C}\mathbf{E}$$
-### Integral form of first law
+### Differential form of first law
 Ohm's first law can also be represented in integral form, which has the benefit of being applicable to all materials regardless of shape (and so not just wires). Let's consider a [[conductor]] of any shape being traversed by a certain current density $\mathbf{J}$. Let's also consider a tiny cylinder aligned with $\mathbf{J}$ of height $l$ and cross-section $dS$. Using Ohm's second law, the resistance of the cylinder is
 $$R=\rho_{R} \frac{dl}{dS}$$
 There's also a potential difference $dV$ between the top and bottom of the cylinder, so we can also apply the first law to it
