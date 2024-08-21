@@ -8,7 +8,7 @@ La **legge di decadimento radioattivo** è una legge esponenziale che descrive i
 
 Questa legge si basa sull'assunzione che il nucleo non ha "memoria", ossia lo stato di nucleo ad ogni dato tempo è indipendente dai suoi stati precedenti. Ciò significa che il suo tasso di decadimento è una costante nel tempo, ma l'esatto tasso dipende dalla specie nucleare.
 ### Formulazione
-Considero un oggetto macroscopico composto da $N$ nuclei radioattivi e la lascio decadere naturalmente per un tempo $t$ *senza introdurre nuovi nuclei*. Questa legge descrive solo il decadimento di una specie e non dice nulla su cosa succede ai risultati del decadimento. Per questo, i prodotti del decadimento devono essere stabili.
+Considero un oggetto macroscopico composto da $N$ nuclei radioattivi e lo lascio decadere naturalmente per un tempo $t$ *senza introdurre nuovi nuclei*. Questa legge descrive solo il decadimento di una specie e non dice nulla su cosa succede ai risultati del decadimento. Per questo, i prodotti del decadimento devono essere stabili.
 
 Consideriamo anzitutto il caso in cui avviene solo un tipo di decadimento.
 
@@ -18,7 +18,7 @@ $$\lambda=- \frac{1}{N}\frac{dN}{dt}$$
 $$\boxed{N(t)=N_{0}e^{-\lambda t}}$$
 che è la **legge esponenziale del decadimento radioattivo**, con $N_{0}$ il numero di nuclei a $t=0$, ossia il numero di nuclei che compongono l'oggetto all'inizio delle osservazioni.
 
-Per comodità si definisce si dice **tempo di dimezzamento** $t_{\frac{1}{2}}$ il tempo per il quale vale il numero di nuclei è dimezzato, ossia $N=N_{0}/2$, e vale
+Per comodità si definisce **tempo di dimezzamento** $t_{\frac{1}{2}}$ il tempo per il quale vale il numero di nuclei dell'*intero oggetto* è dimezzato, ossia $N=N_{0}/2$, e vale
 $$\boxed{t_{\frac{1}{2}}=\frac{\ln2}{\lambda}}$$
 Inoltre, si dice **vita media** $\tau$ il tempo medio di vita di un *singolo nucleo* prima di decadere
 $$\boxed{\tau=\frac{\int_{0}^{\infty}t| \frac{dN}{dt}|dt}{\int_{0}^{\infty}| \frac{dN}{dt}|dt}=\frac{1}{\lambda}}$$
@@ -42,9 +42,9 @@ Inoltre, i prodotti di decadimento devono essere stabili. Ciò significa che per
 $$N_{1}=N_{0}e^{-\lambda t}\quad;\quad N_{2}=N_{0}(1-e^{-\lambda t})$$
 ossia
 $$N_{2}=N_{0}-N_{1} \quad \rightarrow \quad N_{0}=N_{1}+N_{2}$$
-quindi il numero di nuclei rimane costante, vengono solo modificati dalla specie 1 alla 2.
+quindi il numero di nuclei rimane costante, vengono solo trasformati dalla specie 1 alla 2.
 
-Come già detto, questa legge perde validità anche se vengono aggiunti nuclei al campione durante il decadimento, dato che ciò produce nuova attività non prevista. Un esempio sarebbe aggiungere una certa quantità di materiale stabile in un reattore nucleare o in un acceleratore di particelle. In tal caso, bisogna considerare anche il tasso di produzione di nuovi nuclidi.
+Come già detto, questa legge perde validità se vengono aggiunti nuclei al campione durante il decadimento, dato che ciò produce nuova attività non prevista. Un esempio sarebbe aggiungere una certa quantità di materiale stabile in un reattore nucleare o in un acceleratore di particelle. In tal caso, bisogna considerare anche il tasso di produzione di nuovi nuclidi. Per questa teoria, vedi [[Decadimento con aggiunta di particelle]].
 #### Decadimenti multipli
 Consideriamo il caso più complesso in cui ci sono due tipi di decadimento. Chiamiamoli $a$ e $b$. Entrambi hanno una **costante di decadimento parziale**
 $$\lambda_{a}=- \frac{1}{N}\left(\frac{dN}{dt}\right)_{a}\quad;\quad\lambda_{b}=- \frac{1}{N}\left(\frac{dN}{dt}\right)_{b}$$
@@ -56,8 +56,9 @@ Il numero di nuclei presenti nelle specie 1 e 2 è
 $$N_{1}=N_{0}e^{-\lambda_{1}t}$$
 $$N_{2a}=N_{0} \left(\frac{\lambda_{a}}{\lambda_{t}}\right)(1-e^{-\lambda_{1}t})\quad;\quad N_{2b}=N_{0} \left(\frac{\lambda_{b}}{\lambda_{t}}\right)(1-e^{-\lambda_{1}t})$$
 
-> **Esempio.** Assumiamo di avere un campione di radionuclidi con due schemi di decadimento
-$$^{64}\text{Cu}\rightarrow t_\frac{1}{2}=12.7\text{ h}\quad;\quad ^{61}\text{Cu}\rightarrow t_\frac{1}{2}=3.4\text{ h}$$
+> [!example] Esempio
+> Assumiamo di avere un campione di radionuclidi con due schemi di decadimento
+> $$^{64}\text{Cu}\rightarrow t_\frac{1}{2}=12.7\text{ h}\quad;\quad ^{61}\text{Cu}\rightarrow t_\frac{1}{2}=3.4\text{ h}$$
 > Misurando l'attività trovo un grafico del genere
 >
 >![[Grafico Attività multiple|60%|center]]

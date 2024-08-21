@@ -41,7 +41,7 @@ Chiamando il potenziale della correzione $V_{l,s}$, il potenziale corretto sarà
 $$V_{tot}(r)=V_{centr}(r)+V_{l,s}(r)\frac{\left\langle \vec{l}\cdot\vec{s} \right\rangle}{\hbar^{2}}$$
 dove $\vec{l}$ è il momento angolare orbitale (rispetto al centro del nucleo) e $\vec{s}$ è lo spin del nucleone.
 
-I nucleoni sono [[fermione|fermioni]] e quindi hanno spin 1/2. Definiamo il **momento angolare totale** $\vec{j}$ come $\vec{j}=\vec{l}+\vec{s}$. Dato che lo spin può avere solo due valori, si ha
+I nucleoni sono [[fermione|fermioni]] e quindi hanno spin 1/2. Definiamo il momento angolare totale $\vec{j}$ come $\vec{j}=\vec{l}+\vec{s}$. Dato che lo spin può avere solo due valori, si ha
 $$j=l\pm \frac{1}{2}$$
 L'unica eccezione è il caso $l=0$, dove si ha sempre $j=1/2$. Calcoliamo
 $$j^{2}=(\vec{l}+\vec{s})^{2}=(\vec{l}^{2}+2\vec{l}\cdot\vec{s}+\vec{s}^{2}) \quad\rightarrow\quad \vec{l}\cdot\vec{s}=\frac{1}{2}(\vec{j}^{2}-\vec{l}^{2}-\vec{s}^{2})$$
@@ -51,7 +51,7 @@ $$=\hbar^{2}\begin{cases}
 j=l+ \frac{1}{2} \rightarrow \frac{l}{2} \\
 j=l- \frac{1}{2} \rightarrow -\frac{l+1}{2}
 \end{cases}$$
-quindi la separazione energetica dei livelli cresce linearmente con il momento angolare è
+quindi la separazione energetica dei livelli cresce linearmente con il momento angolare ed è
 $$\Delta E_{l,s}=\left[\left\langle \vec{l} \cdot \vec{s}\right\rangle_{j=l+ \frac{1}{2}} - \left\langle \vec{l}\cdot\vec{s} \right\rangle_{j=l- \frac{1}{2}}\right]\langle V_{l,s}(r)\rangle=\frac{2l+1}{2}\langle V_{l,s}(r)\rangle$$
 Sperimentalmente si trova che $V_{l,s}$ è negativo, quindi il livello $l+1/2$ è sempre sotto quello da $l-1/2$.
 
