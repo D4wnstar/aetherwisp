@@ -23,7 +23,7 @@ $$\Phi_{a}=n_{a}v_{a}=\frac{\dot{N}_{a}}{A}$$
 che è il numero di proiettili che colpiscono il bersaglio per unità di tempo e di area. Allora la frequenza di collisione è
 $$\dot{N}=\Phi_{a}N_{b}\sigma_{b}$$
 
-Il numero totale di particelle nel bersaglio è $N_{b}=n_{b}Ad$ con $n_{b}$ è la densità di ???.
+Il numero totale di particelle nel bersaglio è $N_{b}=n_{b}Ad$ con $n_{b}$ è la densità di proiettili.
 
 L'area che ogni centro diffusore ha a disposizione per la reazione con $a$ è la sezione d'urto geometrica
 $$\sigma_{b}=\frac{\dot{N}}{\Phi_{a}N_{b}}=\frac{\text{numero di reazioni / tempo}}{\text{numero di proiettili / tempo e area }\times\text{ numero di centri diffusori }}$$

@@ -19,7 +19,7 @@ M_{a}=E_{b}+E_{c}=\sqrt{s}
 Vale
 $$M_{a}=\sqrt{p^{2}+m_{b}^{2}}+\sqrt{p^{2}+m_{c}^{2}} \quad \Rightarrow \quad (M_{a}-\sqrt{p^{2}+m_{b}^{2}})^{2}=p^{2}+m_{c}^{2} \quad \Rightarrow$$
 $$\Rightarrow \quad M_{a}^{2}+p^{2}+m_{b}^{2}-2M_{a}\sqrt{p^{2}+m_{b}^{2}}=p^{2}+m_{c}^{2} \quad \Rightarrow$$
-$$\Rightarrow \quad (M_{a}^{2}+m_{b}^{2}-m_{c}^{2})^{2}=2M_{a}\sqrt{p^{2}+m_{b}^{2}}) \quad \Rightarrow$$
+$$\Rightarrow \quad (M_{a}^{2}+m_{b}^{2}-m_{c}^{2})^{2}=2M_{a}\sqrt{p^{2}+m_{b}^{2}} \quad \Rightarrow$$
 $$\Rightarrow \quad M_{a}^{4}+(m_{b}^{2}-m_{c}^{2})-2M_{a}^{2}(m_{b}^{2}+m_{c}^{2})=4M_{a}^{2}(p^{2}+m_{b}^{2})$$
 da cui
 $$p=\frac{1}{2M_{a}}\sqrt{M_{a}^{4}+(m_{b}^{2}-m_{c}^{2})^{2}-2M_{a}^{2}(m_{b}^{2}+m_{c}^{2})}$$
@@ -28,7 +28,7 @@ $$\begin{cases}
 E^{2}_{b}=p^{2}+m_{b}^{2}=\frac{M_{a}^{2}+(m_{b}^{2}-m_{c}^{2})}{2M_{a}}=\frac{s+(m_{b}^{2}-m_{c}^{2})}{2\sqrt{s}} \\
 E^{2}_{c}=p^{2}+m_{c}^{2}=\frac{M_{a}^{2}-(m_{b}^{2}-m_{c}^{2})}{2M_{a}}=\frac{s-(m_{b}^{2}-m_{c}^{2})}{2\sqrt{s}}
 \end{cases}$$
-quindi una volta fissata $s$, anche le energie dipendono solo dalle masse.
+quindi una volta fissata $\sqrt{ s }$, anche le energie dipendono solo dalle masse.
 #### Particella in volo
 Consideriamo una particella in volo nel sistema di riferimento del laboratorio. Per esempio, un [[pione]] che decade in due [[fotone|fotoni]]: $\pi^{0} \rightarrow \gamma\gamma$. In questo caso, le particelle figlie vengono emesse ad un angolo.
 
@@ -50,7 +50,7 @@ p_{\gamma,1}=-p_{\gamma,2} \Rightarrow E_{\gamma,1}=E_{\gamma,2}=E_{\gamma} \\
 
 Mettendo insieme le due cose, possiamo trovare l'energia nel centro di massa
 $$\sqrt{s}=M_{\pi^{0}}=\sqrt{(p_{\gamma,1}+p_{\gamma,2})^{2}}=\ldots=\sqrt{4E_{\gamma,1}E_{\gamma,2}\sin^{2}\frac{\theta}{2}}$$
-che significa che la massa invariante dipende dall'angolo a cui sono emessi i fotoni nel laboratorio. A questo punto ci chiediamo quale possa essere questo angolo. Invertendo la formula sopra
+che significa che la [[massa invariante]] dipende dall'angolo a cui sono emessi i fotoni nel laboratorio. A questo punto ci chiediamo quale possa essere questo angolo. Invertendo la formula sopra
 $$\sin\frac{\theta}{2}= \frac{M_{\pi^{0}}}{2\sqrt{E_{1}E_{2}}} \quad \Rightarrow \quad \begin{cases}
 E_{1}=\frac{E_{\pi}}{2} \\
 E_{2}=\frac{E_{\pi}}{2}
@@ -72,15 +72,15 @@ E_{1}+E_{2}+E_{3}=M
 \end{cases}$$
 in quanto abbiamo tre incognite in due equazioni. Per risolvere il sistema, poniamo ulteriori limiti sulla cinematica.
 
-Un trucco utile è quello di considerare la [[massa invariante]] di due corpi assieme[^1], ossia
+Un trucco utile è quello di considerare la [[massa invariante]] di due corpi come una sola[^1], ossia
 $$M=m_{12}+m_{3} \quad\text{anziché} \quad M=m_{1}+m_{2}+m_{3}$$
-e quindi il loro 4-impulso
+e quindi il loro [[Quadrivettore energia-impulso|quadri-impulso]] è
 $$p_{12}=p_{1}+p_{2}=(E_{1}+E_{2},\vec{p}_{1}+\vec{p}_{2})$$
 Usando il decadimento in due corpi come sopra
 $$M_{12}^{2}=(M-E_{3})^{2}-\vec{p}_{3}=M^{2}+m_{3}^{2}-2ME_{3}$$
 dove $\vec{p}_{3}=E_{3}^{2}-M_{3}^{2}$. Segue
 $$E_{3}=\frac{M^{2}+m_{3}^{2}-M_{12}^{2}}{2M}$$
-quindi $E_{3}$ varia con $M_{12}$. Possiamo calcolare gli estremi per $E_{3}$. Il minimo è per 3 ferma a riposo, e quindi
+quindi $E_{3}$ varia con $M_{12}$. Possiamo calcolare gli estremi per $E_{3}$. Il minimo c'è quando 3 è ferma a riposo, e quindi
 $$E_{3}^{min}=m_{3}, \quad \vec{p}_{3}^{min}=0$$
 da cui, con $\vec{p}=\vec{p}_{1}+\vec{p}_{2}$ e $\vec{p}_{1}+\vec{p}_{2}=0$,
 $$|\vec{p}|^{2}=\frac{(M-m_{3})^{2}-(m_{1}+m_{2})^{2}-(M-m_{3})^{2}-(m_{1}-m_{2})^{2}}{4(M-m_{3})^{3}}$$

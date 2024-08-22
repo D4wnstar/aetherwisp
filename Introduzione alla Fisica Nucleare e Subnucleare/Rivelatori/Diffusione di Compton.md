@@ -11,9 +11,10 @@ $$\gamma e^{-} \rightarrow \gamma e^{-}$$
 
 Per energie del fotone molto maggiori dell'[[energia di legame]] dell'elettrone, questo può essere considerato libero e interagire con il fotone in modo elastico, dove l'elettrone assorbe parte dell'energia del fotone e ne varia la frequenza. Si trova che
 $$\Delta \lambda=\lambda'-\lambda=\frac{h}{m_{e}c}(1-\cos\theta)=\lambda_{C}(1-\cos\theta)$$
-dove $\lambda_{C}$ è la [[lunghezza d'onda di Compton]]. Maggiore è l'angolo di diffusione $\theta$, maggiore è l'energia ceduta.
+dove $\lambda_{C}$ è la [[lunghezza d'onda di Compton]] del'elettrone. Maggiore è l'angolo di diffusione $\theta$, maggiore è l'energia ceduta.
 
-> **Risultato.** La variazione di frequenza del fotone è maggiore quanto più vicina la frequenza del fotone è alla lunghezza d'onda di Compton $\lambda_{C}$. Questo accade quando l'energia del fotone è $E_{\gamma}=h\nu\simeq hc/\lambda_{C}=m_{e}c^{2}=0.51$ MeV. Per valori molto maggiori, la variazione di frequenza è sostanzialmente nulla.
+> [!info] Risultato
+> La variazione di frequenza del fotone è maggiore quanto più vicina la frequenza del fotone è alla lunghezza d'onda di Compton $\lambda_{C}$ dell'elettrone. Questo accade quando l'energia del fotone è $E_{\gamma}=h\nu\simeq hc/\lambda_{C}=m_{e}c^{2}=0.51$ MeV. Per valori molto maggiori, la variazione di frequenza è sostanzialmente nulla.
 
 Si distinguono due casi interessanti:
 - $\theta=0$: si ha $\Delta \lambda=0$, ossia l'elettrone non ha ceduto energia.
@@ -29,4 +30,4 @@ Purtroppo, l'angolo di diffusione non può essere predetto in quanto, per quanto
 
 ![[Schema Fronte Compton|90%|center]]
 ### Meccanismo inverso
-È talvolta possibile che lo scambio di energia avvenga al contrario, ossia che sia un elettrone ad alta energia a trasferire energia ad un fotone impattante con energia minore. Questo fenomeno si dice **diffusione di Compton inversa**. È raro nella materia compatta dato che gli elettroni sono confinati negli atomi, ma in condizioni più estreme, come il [[disco di accrescimento]] di un [[Buco nero]], è possibile che un elettrone libero relativistico impatti con un fotone ad energia minore, causano quindi diffusione Compton inversa.
+È talvolta possibile che lo scambio di energia avvenga al contrario, ossia che sia un elettrone ad alta energia a trasferire energia ad un fotone impattante con energia minore. Questo fenomeno si dice **diffusione di Compton inversa**. È raro nella materia compatta dato che gli elettroni sono confinati negli atomi, ma in condizioni più estreme, come il [[disco di accrescimento]] di un [[buco nero]], è possibile che un elettrone libero relativistico impatti con un fotone ad energia minore, causano quindi diffusione Compton inversa.

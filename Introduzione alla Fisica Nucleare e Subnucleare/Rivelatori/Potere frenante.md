@@ -28,7 +28,8 @@ dove $\mu$ è detto **coefficiente di assorbimento**. Integrando, si ha
 $$N(x)=N(0)e^{-\mu x}=N(0)e^{- x/\lambda}$$
 dove $\lambda$ è detto **cammino libero medio**. Il coefficiente di assorbimento è la probabilità di interazione per unità di cammino, esprimibile come $\mu=N\sigma$, dove $N$ è il numero di [[Sezione d'urto|centri diffusori]] e $\sigma$ è la [[sezione d'urto]]. $\lambda$ è invece la distanza media percorsa prima di subire una collisione.
 
-> **Risultato.** Passando attraverso ad un materiale, un fascio di particelle cariche pesanti non subisce variazioni di intensità (numero di particelle), ma viene degradato energeticamente. Un fascio di fotoni non subisce variazioni di energia, ma il numero di fotoni cala esponenzialmente.
+> [!info] Risultato
+> Passando attraverso ad un materiale, un fascio di particelle cariche pesanti non subisce variazioni di intensità (numero di particelle), ma viene degradato energeticamente. Un fascio di fotoni non subisce variazioni di energia, ma il numero di fotoni cala esponenzialmente.
 
 Le particelle cariche pesanti interagiscono principalmente per collisione con elettroni legati, mentre quelle leggere per radiazione.
 ### Perdita per collisione
@@ -73,9 +74,11 @@ dove $\delta(\gamma)$ è una correzione di densità dovuta alla [[polarizzazione
 
 Il $4\pi mc^{2}N_{A}r_{e}^{2}=0.3$ MeV cm$^{2}$/g viene detto di *perdita di energia per ionizzazione*. Il termine logaritmico, che cresce lentamente, diventa grande solo per $\gamma$ molto grandi, ossia in regimi ultrarelativistici.
 
-> **Risultato.** La formula di Bethe-Bloch descrive la perdita di energia per ionizzazione di una particella incidente. Nella forma di spessore massiccio, è quasi indipendente dall'assorbitore, se si trascura la dipendenza logaritmica contenuta nel potenziale di ionizzazione. Infatti, $Z/A\simeq0.5$ per tutti gli elementi tranne l'idrogeno, per il quale è 1.
+> [!info] Risultato
+> La formula di Bethe-Bloch descrive la perdita di energia per ionizzazione di una particella incidente. Nella forma di spessore massiccio, è quasi indipendente dall'assorbitore, se si trascura la dipendenza logaritmica contenuta nel potenziale di ionizzazione. Infatti, $Z/A\simeq0.5$ per tutti gli elementi tranne l'idrogeno, per il quale è 1.
 
-> **Osservazione.** Le uniche due proprietà della particella nella formula sono $z$ e $m$, il che significa che un materiale non distingue tra particelle con stessa massa e carica per quanto riguarda il potere frenante. Una volta fissate queste due, la curva ha validità universale. Inoltre, il potere frenante è quadratico nella carica della particella.
+> [!info] Osservazione
+> Le uniche due proprietà della particella nella formula sono $z$ e $m$, il che significa che un materiale non distingue tra particelle con stessa massa e carica per quanto riguarda il potere frenante. Una volta fissate queste due, la curva ha validità universale. Inoltre, il potere frenante è quadratico nella carica della particella.
 
  La massa è anche presente solo nel termine logaritmico, il che vuol dire che è rilevante solo in casi ultrarelativistici. Per velocità minori, è importante solo la carica, dato che la variazione del logaritmo può essere trascurata[^1]. Nel caso $z=1$, la decaduta di energia ha una forma del genere:
 
@@ -84,7 +87,8 @@ Il $4\pi mc^{2}N_{A}r_{e}^{2}=0.3$ MeV cm$^{2}$/g viene detto di *perdita di ene
 
 Lo stopping power ha un minimo, per poi risalire nuovamente per effetti relativistici. Una particella con diminuzione di energia minima viene detta *minimum ionizing particle* (o *MIP*) e per tutte le MIP vale che $\beta\gamma\simeq3$.
 
-> **Risultato.** La perdita di energia per ionizzazione cambia molto, a parità di impulso, tra particelle diverse, ossia per masse diverse. Questo si vede come una sorta di traslazione sull'asse $x$ della curva, dove più alta è la massa, più alta è la perdita di energia. Comprendere questa alta variabilità è uno strumento chiave per misurare la massa della particella incidente.
+> [!info] Risultato
+> La perdita di energia per ionizzazione cambia molto, a parità di impulso, tra particelle diverse, ossia per masse diverse. Questo si vede come una sorta di traslazione sull'asse $x$ della curva, dove più alta è la massa, più alta è la perdita di energia. Comprendere questa alta variabilità è uno strumento chiave per misurare la massa della particella incidente.
 ### Perdita per radiazione
 Lo stopping power relativo ad un [[elettrone]] non è ben descritto dalla formula di Bethe-Bloch. Il motivo è cercarsi nel fatto che gli elettroni del fascio sono identici a quelle del bersaglio e che la loro massa è molto piccola. Infatti, la Bethe-Bloch funzione solo per particelle pesanti. Per gli elettroni è molto più importante la perdita di energia dovuta a radiazione, in particolare dal [[Bremmstrahlung]]. Questa è invece trascurabile nelle particelle pesanti perché la deviazione delle loro traiettorie è molto piccola.
 

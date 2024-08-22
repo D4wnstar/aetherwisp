@@ -53,13 +53,13 @@ Ora guardiamo il decadimento per $A$ pari. Ad esempio $A=106$:
 ![[Grafico Decadimento Beta pari|80%|center]]
 Se $A>70$, c'è più di un nucleo stabile nella catena di decadimento $\beta$. Sia $_{48}^{106}Cd$ che $_{46}^{106}Pd$ sono stabili dato che entrambi i loro vicini sono ad energia maggiore, ma il palladio lo è di più. Dunque, il cadmio può *molto raramente* decadere in palladio con la reazione
 $$_{48}^{106}Cd \rightarrow _{46}^{106}Pd + 2e^{+}+ \nu_{e}$$
-che un doppio decadimento $\beta^{+}$.
+cioè un doppio decadimento $\beta^{+}$.
 ### Cattura elettronica
 A causa dell'[[indeterminatezza quantistica]], la posizione di un elettrone non è definita se non al tempo della misura. C'è sempre quindi una possibilità che un elettrone "si trovi" all'interno del nucleo. In quell'intervallo di tempo, è possibile che l'elettrone interagisca con un protone per creare un neutrone con emissione di neutrino.
 
-La cattura elettronica è più probabile per nuclei grandi, perché il nucleo, oltre ad essere più voluminoso, è anche più alle shell interne della nuvola elettronica. Infatti, gli elettroni ad essere catturati sono quasi sempre quelli delle shell basse, come 1s o 2p. Il "buco" lasciato nella shell bassa sarà riempito da un elettrone di una shell superiore che decade, che a sua volta sarà riempito da uno ad energia più alta, creando una catena di decadimenti elettroni.
+La cattura elettronica è più probabile per nuclei grandi, perché il nucleo, oltre ad essere più voluminoso, è anche più vicino alle shell interne della nuvola elettronica. Infatti, si trova empiricamente che gli elettroni ad essere catturati sono quasi sempre quelli delle shell basse, come 1s o 2p. Il "buco" lasciato nella shell bassa sarà riempito da un elettrone di una shell superiore che decade, che a sua volta sarà riempito da uno ad energia più alta, creando una catena di decadimenti elettroni.
 
-È simile al decadimento $\beta^{+}$ ed infatti ci compete energeticamente. È possibile se $M(A,Z)>M(A,Z-1)+E$ con $E$ l'energia di eccitazione associata alla shell elettronica dell'elettrone catturato. L'energia cinetica della c.e. è maggiore di quella del $\beta^{+}$ di $2m_{e}c^{2}-E$ nello stato finale. Questo implica che la c.e. può avvenire anche se la massa dell'atomo genitore è simile a quella della figlia $M(A,Z)\simeq M(A,Z-1)$, mentre $\beta^{+}$.
+È simile al decadimento $\beta^{+}$ ed infatti ci compete energeticamente. È possibile se $M(A,Z)>M(A,Z-1)+E$ con $E$ l'energia di eccitazione associata alla shell elettronica dell'elettrone catturato. L'energia cinetica della c.e. è maggiore di quella del $\beta^{+}$ di $2m_{e}c^{2}-E$ nello stato finale. Questo implica che la c.e. può avvenire anche se la massa dell'atomo genitore è simile a quella della figlia $M(A,Z)\simeq M(A,Z-1)$, mentre $\beta^{+}$ no.
 ### Vite medie
 La vita media di nuclei soggetti a decadimento $\beta$ varia tra i pochi millisecondi a $10^{16}$ anni, a dipendenza dell'energia disponibile e dalle proprietà dei nuclei.
 
@@ -75,7 +75,7 @@ La freccia piegata nel $\beta^{+}$ indica che la produzione di $e^{+}$ e la pres
 $$\beta^{-}:\, ^{40}_{19}K \rightarrow\ ^{40}_{20}Ca+e^{-}+\bar{\nu}_{e}$$
 $$\beta^{+}:\ ^{40}_{20}K \rightarrow\ ^{40}_{18}Ar+e^{+}+\nu_{e}$$
 $$\text{c.e.}:\ ^{40}_{20}K+e^{-} \rightarrow\ ^{40}_{18}Ar + \nu_{e}$$
-La c.e. poi decade a sua volta dallo stato eccitato $2^{+}$ a quello fondamentale $0^{+}$ con rilascio di un [[fotone]].
+Il $^{40}\text{Ar}$ a sua volta [[Decadimento Gamma|decade]] $\gamma$ dallo stato eccitato $2^{+}$ a quello fondamentale $0^{+}$ con rilascio di un [[fotone]].
 ## Rilascio energetico
 ### $\beta^{-}$ nel vuoto
 Considero il decadimento $\beta^{-}$ del neutrone libero

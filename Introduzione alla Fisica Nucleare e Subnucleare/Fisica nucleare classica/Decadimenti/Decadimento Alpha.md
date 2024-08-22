@@ -9,10 +9,10 @@ dove $X$ e $X'$ sono simboli chimici di specie nucleari diverse nello stato iniz
 Il decadimento $\alpha$ è mediato dall'[[interazione forte]].
 
 Una reazione tipo è
-$$_{88}^{226}Ra_{138}\rightarrow\, _{86}^{222}Rn_{136}+\,_{2}^{4}He_{2}$$
+$$_{88}^{226}\text{Ra}_{138}\rightarrow\, _{86}^{222}\text{Rn}_{136}+\,_{2}^{4}\text{He}_{2}$$
 che ha un [[Legge di decadimento radioattivo|tempo di dimezzamento]] di 1600 anni e la particella $\alpha$ ha un'energia cinetica di $4.8$ MeV.
 ## Meccanismo
-Protoni e neutroni hanno [[energia di legame]] attorno agli 8 MeV, quindi non possono scappare dal nucleo se non in condizioni particolare. Può però succedere che l'emissione di un gruppo di nucleoni sotto forma di un sistema legato $^{4}He$ sia energeticamente favorita.
+Protoni e neutroni hanno [[energia di legame]] attorno agli 8 MeV, quindi non possono scappare dal nucleo se non in condizioni particolare. Può però succedere che l'emissione di un gruppo di nucleoni sotto forma di un sistema legato $^{4}\text{He}$ sia energeticamente favorita.
 
 Studiamo l'energia [[potenziale]] $V(r)$ di una particella $\alpha$ in funzione della distanza $r$ dal nucleo
 
@@ -33,7 +33,7 @@ La barriera di potenziale Coulombiano ha altezza $C$ per $r=a$ data da
 $$C=\frac{1}{4\pi\epsilon_{0}} \frac{2(Z-2)e^{2}}{a}$$
 per $\alpha$ con carica $2e$ e nucleo figlia con carica $(Z-2)e$. L'altezza della barriera varia da $C-Q$ in $r=a$ a 0 in $r=b$, quindi consideriamo il valor medio $\frac{1}{2}(C-Q)$. Considero anche la larghezza media $d=\frac{1}{2}(b-a)$.
 
-Per comprendere il fenomeno, si può guardare la trattazione della [[Buca infinita quantistica]]. Dobbiamo risolvere l'[[equazione di Schrödinger]] in una dimensione per una particella sottoposta ad una barriera di potenziale $V(x)$. Consideriamo l'[[autostato]] $\psi$. Allora
+Per comprendere il fenomeno, si può guardare la trattazione della [[Buca infinita quantistica]]. Dobbiamo risolvere l'[[equazione di Schrödinger]] in una dimensione per una particella sottoposta ad una barriera di potenziale $V(x)$. Consideriamo l'[[Equazione agli autovalori|autostato]] $\psi$. Allora
 $$\frac{\hbar^{2}}{2m} \frac{d^{2}\psi(x)}{dx^{2}}+V(x)\psi(x)=E\psi(x)$$
 A causa della barriera di potenziale, abbiamo tre soluzione per tre regioni dello spazio, determinate dalle condizione al contorno:
 - $V(x)=0$ per $x<0$ ci dà $\psi_{1}(x)=Ae^{ik_{1}x}+Be^{-ik_{1}x}$
