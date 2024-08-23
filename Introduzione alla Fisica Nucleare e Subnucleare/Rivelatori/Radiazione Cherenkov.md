@@ -7,13 +7,14 @@ La **radiazione Cherenkov** o **effetto Cherenkov** è un fenomeno di radiazione
 
 Causa una perdita ridotta di energia, ma è utile per misurare la velocità delle particelle.
 ### Meccanismo
-Consideriamo un mezzo con [[indice di rifrazione]] $n(\omega)$. La particella in sé si propaga a velocità $c/n$. Se la velocità della particella è $\beta\ll c/n$, allora non vi è perdita di energia da parte della particella, ma se $\beta> c/n$ il materiale polarizzato comincia ad emettere radiazione. Quando la particella carica passa al suo interno, il campo elettrico generato da essa sposta i centri di gravità delle cariche positive e negative degli [[Atomo|atomi]] del mezzo, creando [[dipolo elettrico|dipoli elettrici]] che [[polarizzazione|polarizzano]] il mezzo. L'emissione è causata dalla polarizzazione e depolarizzazione del mezzo, che genera lungo la traccia della particella una serie di onde sferiche il cui [[inviluppo]] costituisce un [[fronte d'onda]] conico. Questo fenomeno è equivalente al boom supersonico o alla formazione di una scia da parte di una barca che si muove a velocità maggiore delle onde del mare.
+Consideriamo un mezzo con [[indice di rifrazione]] $n(\omega)$. La particella in sé si propaga a velocità $c/n$. Se la velocità della particella è $\beta\ll c/n$, allora non vi è perdita di energia da parte della particella, ma se $\beta> c/n$ il materiale polarizzato comincia ad emettere radiazione. Quando la particella carica passa al suo interno, il campo elettrico generato da essa sposta i centri di gravità delle cariche positive e negative degli [[Atomo|atomi]] del mezzo, creando [[Electric dipole|dipoli elettrici]] che [[polarizzazione|polarizzano]] il mezzo. L'emissione è causata dalla polarizzazione e depolarizzazione del mezzo, che genera lungo la traccia della particella una serie di onde sferiche il cui [[inviluppo]] costituisce un [[fronte d'onda]] conico. Questo fenomeno è equivalente al boom supersonico o alla formazione di una scia da parte di una barca che si muove a velocità maggiore delle onde del mare.
 
 L'apertura angolare $\theta_{C}$ del fronte d'onda conico è detto **angolo di emissione di Cherenkov** e, rispetto alla direzione di moto della particella, è
 $$\cos\theta_{C}=\frac{1}{n\beta}$$
 da cui segue che deve essere $\beta>1/n$, quindi il fenomeno avviene solo se la velocità della particella è maggiore di quella della luce nel mezzo, come già osservato.
 
-> **Risultato.** Sapendo l'indice di rifrazione, misurare $\theta_{C}$ equivale a misurare la velocità della particella, estraendola da $\beta$. Maggiore è l'angolo, maggiore è la velocità.
+> [!info] Risultato
+> Sapendo l'indice di rifrazione, misurare $\theta_{C}$ equivale a misurare la velocità della particella, estraendola da $\beta$. Maggiore è l'angolo, maggiore è la velocità.
 
 La radiazione Cherenkov è inversamente proporzionale alla lunghezza d'onda della particella, per cui viene emessa uno spettro continuo a cavallo dell'ultravioletto e della luce visibile, con un picco a 420 mm. Per questo, la radiazione Cherenkov è visible a occhio nudo e appare blu/azzurra.
 #### Perdita di energia
