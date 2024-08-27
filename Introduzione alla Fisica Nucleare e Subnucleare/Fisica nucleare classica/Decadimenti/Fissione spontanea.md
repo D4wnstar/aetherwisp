@@ -21,7 +21,7 @@ $$\simeq\left(- \frac{2}{5}a_{s}A^{2/3}+ \frac{1}{5}a_{c}Z^{2}A^{-1/3}\right)\ep
 Allora la fissione è spontanea se $\Delta E>0$ che accade quando $Z^{2}/A>47$. In altri termini, la fissione nucleare accade solo per atomi pesanti.
 
 Un esempio di fissione con $^{235}_{92}\text{U}_{143}$:
-$$^{235}_{92}\text{U}_{143} + n \rightarrow _{37}^{93}\text{Rb}_{56}+_{55}^{141}\text{Cs}_{86}+2n$$
+$$^{235}_{92}\text{U}_{143} + n \rightarrow\ _{37}^{93}\text{Rb}_{56}+\ _{55}^{141}\text{Cs}_{86}+2n$$
 Quindi la fissione produce altri neutroni. Questi neutroni a loro volta possono indurre ulteriori fissioni nucleari nei nuclei vicini, iniziando così una reazione a catena che emette grandi quantità di energie con poca energia iniziale (quella necessaria per sparare i primi neutroni).
 ![[Grafico Fissione uranio 235|80%|center]]
 Nel caso della fissione spontanea o indotta da neutroni *termici* (ossia ad energia basse nell'ordine dei keV), è improbabile che gli atomi frammento abbiano $A$ simili. La ragione è sconosciuta. Nel caso di fissione indotta da neutroni ad alte energie (nell'ordine dei MeV), è più probabile che $A_{1}\sim A_{2}$.
