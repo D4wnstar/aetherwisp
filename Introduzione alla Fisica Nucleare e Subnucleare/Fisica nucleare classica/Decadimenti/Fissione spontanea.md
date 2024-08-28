@@ -1,4 +1,4 @@
-La **fissione spontanea** è un tipo di [[Decadimento nucleare|decadimento]] nel quale un [[Nucleo atomico|nucleo]] pesante (con $A$ grande) si scinde in due nuclei più piccoli.
+La **fissione spontanea** è un tipo di [[Decadimento nucleare|decadimento]] nel quale un [[Nucleo atomico|nucleo]] pesante (con $A$ grande) compie [[fissione nucleare]] spontaneamente, senza l'ausilio di [[Particella|particelle]] esterne.
 
 Per esempio, prendiamo il $^{238}\text{U}$ che ha un'[[energia di legame]] pari a circa $\sim7.6$ MeV/[[Nucleone]]. Se si scinde a metà, l'uranio si divide in due atomi con $A=119$, che dai dati sperimentale ha energia di legame maggiore: $\sim8.5$ MeV/nucleone.
 
