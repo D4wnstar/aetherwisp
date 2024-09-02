@@ -61,7 +61,7 @@ Determining what the boundary conditions are in the one-dimensional case is easy
 For the two- and three-dimensional case, such easy logic doesn't hold. The proof that a set of boundary condition provides a unique solution is usually given in the form of a *uniqueness theorem*. There are several for the Laplace equation.
 #### First uniqueness theorem
 > [!info] First uniqueness theorem
-> The solution to Laplace's equation in some volume $V$ is uniquely determined if $V$ is specified on the boundary surface $S$.
+> The solution to Laplace's equation in some volume $V$ is uniquely determined if $\psi$ is specified on the boundary surface $S$.
 
 This theorem actually also applies to Poisson's equation.
 ##### Proof
