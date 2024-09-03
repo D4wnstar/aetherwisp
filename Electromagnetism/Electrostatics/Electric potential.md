@@ -77,7 +77,7 @@ $$W_{4}=\frac{1}{4\pi \varepsilon_{0}}q_{4}\left( \frac{q_{1}}{\mathfrak{r}_{14}
 and therefore the total work will be
 $$W=W_{2}+W_{3}+W_{4}=\frac{1}{4\pi \varepsilon_{0}}\left(\frac{q_{1}q_{2}}{\mathfrak{r}_{12}}+ \frac{q_{1}q_{3}}{\mathfrak{r}_{13}}+ \frac{q_{1}q_{4}}{\mathfrak{r}_{14}}+ \frac{q_{2}q_{3}}{\mathfrak{r}_{23}}+ \frac{q_{2}q_{4}}{\mathfrak{r}_{24}}+ \frac{q_{3}q_{4}}{\mathfrak{r}_{34}} \right)$$
 The general rule here is that each charge interacts with all the previous ones:
-$$W=\frac{1}{4\pi \varepsilon_{0}}\sum_{i=1}^{N} \sum_{j>1}^{N} \frac{q_{i}q_{j}}{\mathfrak{r}_{ij}}$$
+$$W=\frac{1}{4\pi \varepsilon_{0}}\sum_{i=1}^{N} \sum_{j>i}^{N} \frac{q_{i}q_{j}}{\mathfrak{r}_{ij}}$$
 where $j>i$ is to avoid counting each pair twice. Alternatively, we can count each pair twice and divide everything by two:
 $$W=\frac{1}{8\pi \varepsilon_{0}}\sum_{i=1}^{N} \sum_{j\neq i}^{N} \frac{q_{i}q_{j}}{\mathfrak{r}_{ij}}$$
 (we still need to avoid a charge interacting with itself, so $j\neq i$ is still necessary). This form is pleasant because it is independent on order of assembly of the charges.

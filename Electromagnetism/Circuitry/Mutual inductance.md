@@ -11,11 +11,13 @@ $$\Phi_{2}=\int \mathbf{B}_{1}\cdot d\mathbf{a}_{2}=\int(\nabla\times\mathbf{A}_
 Now, the vector potential for a line current is
 $$\mathbf{A}_{1}=\frac{\mu_{0}I_{1}}{4\pi}\oint \frac{1}{\mathfrak{r}}d\mathbf{I}_{1}$$
 and hence
-$$\boxed{\Phi_{2}=\frac{\mu_{0}I_{1}}{4\pi}\oint \oint \frac{d\mathbf{I}_{1}\cdot d\mathbf{I}_{2}}{\mathfrak{r}}}$$
-This is called the **Neumann formula for mutual inductance**. Thought it's unwieldy for actual calculation, it is rich with meaning:
+$$\Phi_{2}=\frac{\mu_{0}I_{1}}{4\pi}\oint \oint \frac{d\mathbf{I}_{1}\cdot d\mathbf{I}_{2}}{\mathfrak{r}}$$
+from which
+$$\boxed{M_{21}=\frac{\mu_{0}}{4\pi}\oint \oint \frac{d\mathbf{I}_{1}\cdot d\mathbf{I}_{2}}{\mathfrak{r}}}$$
+This is called the **Neumann formula for mutual inductance**. Though it's unwieldy for actual calculation, it is rich with meaning:
 1. The behavior $M_{21}$ is geometrically determined: the only things that matter are the shape, size and distance of the loops (which is what the integrals say).
 2. The integral is unchanged if we invert the roles of the loops, that is, we look for $M_{12}$ instead. This means that the mutual inductance is a symmetric quantity and hence $M_{21}=M_{12}=M$.
 
 Furthermore, if the magnetic field changes in loop 1, this prompts a change in flux in loop 2. But we know that a change in magnetic flux induces an [[Electromotive force|emf]] by the [[Electromotive force|flux rule]], so
 $$\mathcal{E}_{2}=- \frac{d\Phi_{2}}{dt}=-M \frac{dI_{1}}{dt}$$
-This is a remarkable result: it states that we can change the current in loop 2 by acting only on loop 1, even though the two loops are completely detached from each other. In simple terms, you can "telepathically" change currents on a loop provided you have another loop whose current you can manipulate.
+This is a remarkable result: it states that we can change the current in loop 2 by acting only on loop 1, even though the two loops are completely detached from each other. In simple terms, you can "telepathically" change currents on a loop just by having *another* loop whose current you can manipulate.
