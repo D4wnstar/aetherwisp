@@ -19,7 +19,7 @@ M_{a}=E_{b}+E_{c}=\sqrt{s}
 Vale
 $$M_{a}=\sqrt{p^{2}+m_{b}^{2}}+\sqrt{p^{2}+m_{c}^{2}} \quad \Rightarrow \quad (M_{a}-\sqrt{p^{2}+m_{b}^{2}})^{2}=p^{2}+m_{c}^{2} \quad \Rightarrow$$
 $$\Rightarrow \quad M_{a}^{2}+p^{2}+m_{b}^{2}-2M_{a}\sqrt{p^{2}+m_{b}^{2}}=p^{2}+m_{c}^{2} \quad \Rightarrow$$
-$$\Rightarrow \quad (M_{a}^{2}+m_{b}^{2}-m_{c}^{2})^{2}=2M_{a}\sqrt{p^{2}+m_{b}^{2}} \quad \Rightarrow$$
+$$\Rightarrow \quad (M_{a}^{2}+m_{b}^{2}-m_{c}^{2})^{2}=(2M_{a}\sqrt{p^{2}+m_{b}^{2}})^{2} \quad \Rightarrow$$
 $$\Rightarrow \quad M_{a}^{4}+(m_{b}^{2}-m_{c}^{2})-2M_{a}^{2}(m_{b}^{2}+m_{c}^{2})=4M_{a}^{2}(p^{2}+m_{b}^{2})$$
 da cui
 $$p=\frac{1}{2M_{a}}\sqrt{M_{a}^{4}+(m_{b}^{2}-m_{c}^{2})^{2}-2M_{a}^{2}(m_{b}^{2}+m_{c}^{2})}$$
@@ -37,8 +37,8 @@ Consideriamo una particella in volo nel sistema di riferimento del laboratorio. 
 Si ha
 $$\begin{cases}
 \theta_{1}+\theta_{2}=\theta \\
-(E_{\gamma,1}, \vec{p}_{\gamma,1})=(|\vec{p}_{\gamma,1}|^{2},\vec{p}_{\gamma,1}) \\
-(E_{\gamma,2}, \vec{p}_{\gamma,2})=(|\vec{p}_{\gamma,2}|^{2},\vec{p}_{\gamma,2})
+(E_{\gamma,1}, \vec{p}_{\gamma,1})=(|\vec{p}_{\gamma,1}|,\vec{p}_{\gamma,1}) \\
+(E_{\gamma,2}, \vec{p}_{\gamma,2})=(|\vec{p}_{\gamma,2}|,\vec{p}_{\gamma,2})
 \end{cases}$$
 dato che $M_{\gamma}=0$.
 
@@ -49,8 +49,12 @@ p_{\gamma,1}=-p_{\gamma,2} \Rightarrow E_{\gamma,1}=E_{\gamma,2}=E_{\gamma} \\
 \end{cases}$$
 
 Mettendo insieme le due cose, possiamo trovare l'energia nel centro di massa
-$$\sqrt{s}=M_{\pi^{0}}=\sqrt{(p_{\gamma,1}+p_{\gamma,2})^{2}}=\ldots=\sqrt{4E_{\gamma,1}E_{\gamma,2}\sin^{2}\frac{\theta}{2}}$$
-che significa che la [[massa invariante]] dipende dall'angolo a cui sono emessi i fotoni nel laboratorio. A questo punto ci chiediamo quale possa essere questo angolo. Invertendo la formula sopra
+$$\begin{align}
+\sqrt{s}&=M_{\pi^{0}}=\sqrt{(p_{\gamma,1}+p_{\gamma,2})^{2}}=\sqrt{ (E_{\gamma,1}+E_{\gamma,2})^{2}-(\vec{p}_{\gamma,1}+\vec{p}_{\gamma,2})^{2}} \\
+&=\sqrt{ E_{\gamma,1}^{2}+E_{\gamma,2}^{2}+2E_{\gamma,1}E_{\gamma,2}-(|\vec{p}_{\gamma,1}|^{2}+|\vec{p}_{\gamma,2}|^{2}+2|\vec{p}_{\gamma,1}|^{2}|\vec{p}_{\gamma,2}|^{2}\cos \theta) } \\
+&=\sqrt{ 2E_{\gamma,1}E_{\gamma,2}(1-\cos \theta) }=\sqrt{4E_{\gamma,1}E_{\gamma,2}\sin^{2}\frac{\theta}{2}}
+\end{align}$$
+(usando $E^{2}_{\gamma}=p^{2}_{\gamma}$ e $1-\cos \theta=2\sin^{2} \frac{\theta}{2}$) che significa che la [[massa invariante]] dipende dall'angolo a cui sono emessi i fotoni nel laboratorio. A questo punto ci chiediamo quale possa essere l'angolo minimo. Invertendo la formula sopra
 $$\sin\frac{\theta}{2}= \frac{M_{\pi^{0}}}{2\sqrt{E_{1}E_{2}}} \quad \Rightarrow \quad \begin{cases}
 E_{1}=\frac{E_{\pi}}{2} \\
 E_{2}=\frac{E_{\pi}}{2}
