@@ -1,4 +1,6 @@
-Il **bremmstrahlung** o **radiazione di frenamento** è l'emissione di radiazione da parte di una [[Particella]] carica causata dalla sua decelerazione.
+Il **bremmstrahlung** o **radiazione di frenamento** è l'emissione di [[radiazione]] da parte di una [[particella]] [[Electric charge|carica]] causata dalla sua decelerazione.
 
-Per l'[[Elettrone]], il processo di bremmstrahlung è
-$$e^{-}+(Z,A) \rightarrow e^{-}+\gamma+(Z,A)$$
+Per l'[[elettrone]], il processo di bremmstrahlung è
+$$e^{-}+\ _{Z}^{A}X \rightarrow e^{-}+\gamma+\ _{Z}^{A}X$$
+
+Il bremmstrahlung ha applicazioni in diversi campi. Per esempio, è la principale causa della perdita di energia per particelle molto leggere durante il passaggio attraverso materia densa (vedi [[Potere frenante]]).

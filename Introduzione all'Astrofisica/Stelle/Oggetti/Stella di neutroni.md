@@ -12,7 +12,7 @@ La presenza di soli neutroni ha conseguenze particolari:
 - non c'è [[Interazione elettromagnetica|repulsione Coulombiana]].
 - c'è solo [[interazione gravitazionale]].
 
-La densità neutronica è $\sim10\rho_{N}$ (ottenuta da massa e volume della stella). Dato che sono create da [[supernova|supernove]], il nucleo contiene quasi esclusivamente $^{56}Fe$, di massa tra le 1 e 2 masse solari. A causa dell'enorme forza gravitazionale, il nucleo collassa in un volume molto piccolo e l'energia di Fermi degli elettroni aumenta a tal punto da permettere il [[Decadimento Beta|processo beta]] inverso $p+e^{-} \rightarrow n+\nu_{e}$. Applicato al ferro si ha
+La densità neutronica è $\sim10\rho_{N}$ (ottenuta da massa e volume della stella). Dato che sono create da [[supernova|supernove]], il nucleo contiene quasi esclusivamente $^{56}Fe$, di massa tra le 1 e 2 masse solari. A causa dell'enorme forza gravitazionale, il nucleo collassa in un volume molto piccolo e l'energia di Fermi degli elettroni aumenta a tal punto da permettere il [[Decadimento Beta|cattura elettronica]] $p+e^{-} \rightarrow n+\nu_{e}$. Applicato al ferro si ha
 $$^{56}_{26}Fe+26e^{-}\rightarrow56n+26\nu_{e}$$
 Questo processo si ferma soltanto quando la pressione di Fermi dei neutroni è sufficientemente alta ($\sim10^{18}kg/m^{3}$).
 ### Struttura interna

@@ -17,21 +17,6 @@ per un sistema del tipo
 Esiste più di un tipo di meccanismo di perdita di energia.
 ### Energy straggling
 La perdita di energia è dovuta a molte collisioni con gli elettroni del mezzo entro il quale il fascio incidente sta entrando. Dato che l'energia trasferita in una collisione dipende dai parametri dell'urto, si trova che il numero di urti, e quindi l'energia persa, seguirà un [[distribuzione poissoniana]]. Per il [[teorema del limite centrale]], se il numero di urti è abbastanza alto (ossia il materiale è abbastanza spesso), la statistica converge ad una gaussiana. Questo fenomeno è detto **energy straggling**. Per materiali fini, si osserva invece una [[distribuzione di Landau e Vavilon]].
-### Generalità
-Consideriamo un fascio di particelle che attraversa un sottile strato di materia. Si distinguono due casi:
-1. Le particelle subiscono molte interazioni e in ciascuna perdono un po' di energia, oltre ad essere deviate leggermente. In questo caso, il fascio uscente non sarà più monoenergetico, ma avrà una distribuzione di energie e uno sparpagliamento angolare. Questo comportamento è tipico delle particelle pesanti (s'intende qualunque cosa nelle centinaia di [[Elettronvolt|MeV]] e più).
-2. Le particelle non interagiscono o, se interagiscono, spariscono dal fascio incidente, per esempio perché sono assorbite. In questo caso, sia l'energia, sia l'angolo del fascio uscente sono uguali a quelle del fascio entrante. Questo comportamento è tipico dei fotoni.
-
-Nel caso 2., per ciascun elemento di spessore $dx$ del materiale, il numero di particelle che interagisce è proporzionale al numero di particelle incidenti $N(x)$ su quello spessore:
-$$dN=-N(x)\mu dx$$
-dove $\mu$ è detto **coefficiente di assorbimento**. Integrando, si ha
-$$N(x)=N(0)e^{-\mu x}=N(0)e^{- x/\lambda}$$
-dove $\lambda$ è detto **cammino libero medio**. Il coefficiente di assorbimento è la probabilità di interazione per unità di cammino, esprimibile come $\mu=N\sigma$, dove $N$ è il numero di [[Sezione d'urto|centri diffusori]] e $\sigma$ è la [[sezione d'urto]]. $\lambda$ è invece la distanza media percorsa prima di subire una collisione.
-
-> [!info] Risultato
-> Passando attraverso ad un materiale, un fascio di particelle cariche pesanti non subisce variazioni di intensità (numero di particelle), ma viene degradato energeticamente. Un fascio di fotoni non subisce variazioni di energia, ma il numero di fotoni cala esponenzialmente.
-
-Le particelle cariche pesanti interagiscono principalmente per collisione con elettroni legati, mentre quelle leggere per radiazione.
 ### Perdita per collisione
 Consideriamo una particella carica pesante che impatta con un elettrone legato. Assumiamo che la particella abbia velocità costante e molto maggiore a quella dell'elettrone a modo di poter considerare quest'ultimo come approssimativamente fermo. Inoltre, assumiamo che l'impulso trasferito sia piccolo abbastanza da non causare una deviazione tangibile nella traiettoria della particella.
 

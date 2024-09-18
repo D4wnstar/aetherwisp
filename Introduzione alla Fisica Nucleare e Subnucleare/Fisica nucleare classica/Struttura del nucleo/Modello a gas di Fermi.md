@@ -1,20 +1,22 @@
 Il **modello a gas di Fermi** è un modello del [[Nucleo atomico|nucleo]] nello stato fondamentale di un [[atomo]] o debolmente eccitato. Si basa su alcune supposizioni:
 1. [[protone|protoni]] e [[neutrone|neutroni]] sono sistemi indipendenti.
 2. i nucleoni si muovono liberamente nel nucleo.
+
+Al di là del nucleo atomico, è utile per spiegare il comportamento di materia neutronica a scala macroscopica, principalmente il nucleo delle [[Stella di neutroni|stelle di neutroni]].
 ### Formulazione
-Il [[potenziale]] a cui ciascun [[nucleone]] è soggetto è una sovrapposizione di tutti gli altri potenziali prodotti da altri nucleoni. Per il gas di Fermi, assumiamo che il potenziale risultante sia una [[Buca finita quantistica|buca finita]] rettangolare:
+Il [[potenziale]] a cui ciascun [[nucleone]] è soggetto è una sovrapposizione di tutti gli altri potenziali prodotti da altri nucleoni. Per il gas di Fermi, *assumiamo che il potenziale risultante sia una [[Buca finita quantistica|buca finita]] rettangolare*:
 
 ![[Grafico Buca di potenziale rettangolare|70%|center]]
 
-A causa del [[Disuguaglianza di Heisenberg|principio di indeterminazione]], una [[Particella]] occupa un volume $h^{3}=(2\pi\hbar)^{2}$ nello [[spazio delle fasi]] (6-dimensionale, posizione + impulso). Prendiamo un volume $V$ nello spazio e un volume $4\pi p^{2}dp$ con una calotta sferica di raggio $p$ e spessore $p$ nell'impulso. Gli [[stato|stati]] accessibili allora sono
-$$dn=\frac{4\pi p^{2}dp}{2\pi\hbar^{2}}V$$
+A causa del [[Disuguaglianza di Heisenberg|principio di indeterminazione]], una [[Particella]] occupa un volume $h^{3}=(2\pi\hbar)^{3}$ nello [[spazio delle fasi]] (6-dimensionale, posizione + impulso). Prendiamo un volume $V$ nello spazio e un volume $4\pi p^{2}dp$ con una calotta sferica di raggio $p$ e spessore $dp$ nell'impulso. Gli [[stato|stati]] accessibili allora sono
+$$dn=\frac{4\pi p^{2}dp}{(2\pi\hbar)^{3}}V$$
 Allo stato fondamentale (allo zero assoluto), tutti gli stati più bassi sono occupati fino ad un impulso massimo detto **impulso di Fermi** $p_{F}$. Il numero di questi stati si ottiene integrando l'equazione precedente ed è
-$$\int_{0}^{p_{F}}n(p)dp=\frac{Vp_{F}^{3}}{6\pi^{2}\hbar^{3}}$$
+$$n=\int_{0}^{p_{F}}n(p)dp=\frac{Vp_{F}^{3}}{6\pi^{2}\hbar^{3}}$$
 Ricordando il [[principio di esclusione di Pauli]], abbiamo che uno stato può contenere al massimo due [[fermione|fermioni]] dello stesso tipo. Dato che sia protoni che neutroni sono fermioni, il numero di stati effettivo è
-$$n=2 \frac{Vp_{F}^{2}}{6\pi^{2}\hbar^{2}}$$
+$$n=2 \frac{Vp_{F}^{3}}{6\pi^{2}\hbar^{2}}$$
 e il numero di neutroni e protoni è dato da
 $$N=\frac{V(p_{F}^{n})^{3}}{3\pi^{2}\hbar^{3}}\quad;\quad Z=\frac{V(p_{F}^{p})^{3}}{3\pi^{2}\hbar^{3}}\quad\tag{1}$$
-Assumendo che il raggio del nucleo sia quello sperimentalmente determinato $R=R_{0}A^{1/3}$ (con $A$ [[Atomo|numero di massa atomica]] e $R_{0}=121$ fm), vale anche
+*Assumendo* che il raggio del nucleo sia quello sperimentalmente determinato $R=R_{0}A^{1/3}$ (con $A$ [[Atomo|numero di massa atomica]] e $R_{0}=121$ fm), vale anche
 $$V=\frac{4}{3}\pi R^{3}=\frac{4}{3}\pi R_{0}^{3}A\tag{2}$$
 *Assumo* che le buche di potenziale abbiano lo stesso raggio sia per protoni che neutroni e che l'atomo sia neutro, ossia $N=Z=A/2$. Utilizzando $(1)$ e $(2)$ posso calcolare l'impulso di Fermi
 $$\boxed{p_{F}=p_{F}^{n}=p_{F}^{p}=\frac{\hbar}{R_{0}}\left(\frac{9\pi}{8}\right)^\frac{1}{3}\simeq250\text{ MeV/c}}$$

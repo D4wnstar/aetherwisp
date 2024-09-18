@@ -55,7 +55,7 @@ Se assumo che il nucleo originario $X$ sia a riposo, allora l'energia iniziale d
 $$m_{X'}c^{2}+T_{X'}+m_{\alpha}c^{2}+T_{\alpha}$$
 con $T$ l'energia cinetica. Per conservazione dell'energia
 $$m_{X}c^{2}=m_{X'}c^{2}+T_{X'}+m_{\alpha}c^{2}+T_{\alpha}$$
-$$\Rightarrow (m_{X}-m_{X'}-m_{\alpha})c^{2}=T_{X'}-T_{\alpha}$$
+$$\Rightarrow (m_{X}-m_{X'}-m_{\alpha})c^{2}=T_{X'}+T_{\alpha}$$
 Il [[Q-valore]] questo caso vale
 $$Q=(m_{X}-m_{X'}-m_{\alpha})c^{2}$$
 dato che la particella $\alpha$ ha massa nota, le altre due masse sono calcolabili direttamente da tabelle contenenti le masse atomiche (le masse degli elettroni si annullano). Ricordando che la [[velocità della luce]] vale $931.5$ MeV/u e che le masse atomiche non vanno oltre le centinaia, si vede che $Q$ è nell'ordine dei MeV.
