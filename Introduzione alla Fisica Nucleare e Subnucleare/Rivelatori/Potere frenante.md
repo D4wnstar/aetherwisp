@@ -77,7 +77,7 @@ Lo stopping power ha un minimo, per poi risalire nuovamente per effetti relativi
 ### Perdita per radiazione
 Lo stopping power relativo ad un [[elettrone]] non è ben descritto dalla formula di Bethe-Bloch. Il motivo è cercarsi nel fatto che gli elettroni del fascio sono identici a quelle del bersaglio e che la loro massa è molto piccola. Infatti, la Bethe-Bloch funzione solo per particelle pesanti. Per gli elettroni è molto più importante la perdita di energia dovuta a radiazione, in particolare dal [[Bremmstrahlung]]. Questa è invece trascurabile nelle particelle pesanti perché la deviazione delle loro traiettorie è molto piccola.
 
-La perdita di energia per radiazione di una particella di energia $E_{0}$ è
+La perdita di energia per radiazione di una particella di energia $E_{0}$ è ben descritta da un'applicazione della [[legge di Beer-Lambert]]:
 $$- \left.\frac{dE}{dx}\right|_{\text{rad}}=\frac{E}{L_{R}}$$
 ovvero
 $$E(x)=E_{0}e^{-x/L_{R}}$$
