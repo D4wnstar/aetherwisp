@@ -9,7 +9,7 @@ $$\frac{ d^{2} \psi }{ d x^{2} } =0$$
 and the general solution is simply
 $$\psi(x)=mx+b$$
 which is just a straight line. The constants are determined by the boundary conditions. From this, we can derive a couple of useful results that carry over to the two- and three-dimensional cases:
-1. Given a certain $a$, $\psi(x)$ is the average of $\psi(x+a)$ and $\psi(x-a)$:$$\psi(x)=\frac{1}{2}[\psi(x+a)+\psi(x-a)]$$and the harmonics that solve the equation fit the endpoints exactly. In a way, Laplace's equation is an rule on how to average a function.
+1. Given a certain $a$, $\psi(x)$ is the average of $\psi(x+a)$ and $\psi(x-a)$:$$\psi(x)=\frac{1}{2}[\psi(x+a)+\psi(x-a)]$$and the harmonics that solve the equation fit the endpoints exactly. In a way, Laplace's equation is a rule on how to average a function.
 2. There are no *local* [[Punto critico|critical points]] within the harmonic. The only critical points are at the edges of the function. This is a direct consequence of point 1., as if there were maxima and minima within the function, then there would be cases in which the solution would not be an average (as both sides would be bigger or smaller).
 ### Two-dimensional case
 In two dimensions, using Cartesian coordinates, the equation is
@@ -76,7 +76,7 @@ This takes the value *zero* on all boundaries, since $\psi_{1}$ and $\psi_{2}$ h
 The same can be proven for Poisson's equations, as the function $f$ cancels out either way. We can express this as a sort of corollary:
 
 > [!info] Corollary, first uniqueness theorem
-> The solution to Laplace's equation in a volume $V$ is uniquely determined if the function $f$ and the value of $\psi$ on all boundaries are specified.
+> The solution to Poisson's equation in a volume $V$ is uniquely determined if the function $f$ and the value of $\psi$ on all boundaries are specified.
 
 ##### Electrostatic interpretation
 This theorem (especially the corollary) is of particular use in electrostatics, where the [[electric potential]] obeys Poisson's equation. The corollary can therefore be stated as:
