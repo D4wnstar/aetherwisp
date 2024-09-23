@@ -75,10 +75,11 @@ $$D_\text{above}^{\perp}-D_\text{below}^{\perp}=\varepsilon _\text{above}E_\text
 and in terms of potential
 $$\varepsilon _\text{above}\frac{ \partial V_\text{above} }{ \partial n } -\varepsilon _\text{below}\frac{ \partial V_\text{below} }{ \partial n } =-\sigma_{f}$$
 ### Energy
+#### In capacitors
 From the fact that a [[capacitor]] filled with dielectric has a higher [[capacitance]], and from the formula
 $$W=\frac{1}{2}CV^{2}$$
 we can recognize that it must take more work to charge a dielectric-filled capacitor than a vacuum one. The reason here is because part of the field is cancelled out by the bound charges that occur in a material, thus it takes more free charge to achieve the same potential.
-
+#### In linear dielectrics
 For a linear dielectric, the displacement is $\mathbf{D}=\varepsilon \mathbf{E}$. We can modify the formula for the electrostatic energy stored in a system to take this into account:
 $$W=\frac{\varepsilon_{0}}{2}\int \varepsilon_{r}E^{2}\ d\tau=\frac{1}{2}\int \mathbf{D}\cdot \mathbf{E}\ d\tau$$
 To prove this is true, suppose some (not necessarily linear) dielectric is fixed and we move a free charge closer. Since the distribution $\rho_{f}$ is increased by an amount of $\Delta \rho_{f}$ each time the charge moves a little bit closer, the polarization will change and with it, the bound charge distribution. We're only interested about the incremental work done on the free charge itself:
