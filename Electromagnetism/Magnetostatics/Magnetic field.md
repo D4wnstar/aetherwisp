@@ -1,6 +1,6 @@
 The **magnetic field** $\mathbf{B}$ is the [[Campo vettoriale|vector field]] that describes the action of an [[electric current]] onto other [[Electric charge|electric charges]]. It is measured in either Teslas $\text{T}$ or Gauss $\text{G}$. It is given by the [[Biot-Savart law]].
 ### Curl
-The magnetic field's [[curl]] is manifestly nonzero as it rotates around the current. We can start from the magnetic field of a long straight wire and calculate the [[Integrale su una curva|path integral]] in a closed circular path of radius $s$ centered in the wire:
+The magnetic field's [[curl]] is manifestly nonzero as it rotates around the current. We can start from the magnetic field of a long straight wire and calculate the [[Integrale su una curva|path integral]] over a closed circular path of radius $s$ centered in the wire:
 $$\oint \mathbf{B}\cdot d\mathbf{r}=\oint \frac{\mu_{0}I}{2\pi s}dl=\frac{\mu_{0}I}{2\pi s}\oint dl=\frac{\mu_{0}I}{2\pi s}2\pi s=\mu_{0}I$$
 The answer is independent of the radius. In fact, it's independent of the shape of the loop too, the circle was just a convenient choice. Now, say you have several wires arranged in any way. Only the ones passing through the loop make a difference, and the ones that do all end up providing $\mu_{0}I_{i}$, so the total is just the sum of currents that pass through:
 $$\oint \mathbf{B}\cdot d\mathbf{r}=\mu_{0}I_\text{enc}$$
@@ -35,7 +35,7 @@ For *steady* currents, the divergence of $\mathbf{J}$ is zero, so
 $$\left[ -(\mathbf{J}\cdot \nabla') \frac{\boldsymbol{\mathfrak{r}}}{\mathfrak{r}^{2}} \right]_{x}=\nabla'\cdot\left[ \frac{x-x'}{\mathfrak{r}^{3}}\mathbf{J} \right]$$
 and therefore the contribution to the original integral $(1)$ can be written as
 $$\int_{V}\nabla'\cdot \left[ \frac{x-x'}{\mathfrak{r}^{3}}\mathbf{J} \right]d\tau'=\oint_{S} \frac{x-x'}{\mathfrak{r}^{3}}\mathbf{J}\cdot d\mathbf{a}'$$
-using [[Integrazione per parti|integration by parts]] (which is why we switched to primed coordinates in the first place). But the surface we are integrating on is the bounding surface of the volume in the Biot-Savart law, which is the volume large enough to contain the whole current. Since the current exists entirely *inside* the volume, there is no current on the surface, who $\mathbf{J}=0$ for any point on the surface, which means the integral is zero[^2]. Thus what we are left with
+using [[Integrazione per parti|integration by parts]] (which is why we switched to primed coordinates in the first place). But the surface we are integrating on is the bounding surface of the volume in the Biot-Savart law, which is the volume large enough to contain the whole current. Since the current exists entirely *inside* the volume, there is no current on the surface, for which $\mathbf{J}=0$ for any point on the surface, which means the integral is zero[^2]. Thus what we are left with
 $$\nabla\times\mathbf{B}=\frac{\mu_{0}}{4\pi}\int \mathbf{J}(\mathbf{r}')4\pi \delta^{3}(\mathbf{r}-\mathbf{r}')\ d\tau'$$
 which integrates to
 $$\boxed{\nabla\times\mathbf{B}=\mu_{0}\mathbf{J}(\mathbf{r})}$$
@@ -92,7 +92,7 @@ because the magnetic field caused by a surface is entirely parallel to the surfa
 $$\oint \mathbf{B}\cdot d\mathbf{r}=(B_\text{above}^{\parallel}-B_\text{below}^{\parallel})l=\mu_{0}\mathbf{I}_\text{enc}=\mu_{0}\mathbf{K}l$$
 or
 $$B_\text{above}^{\parallel}-B_\text{below}^{\parallel}=\mu_{0}K$$
-This component is parallel to the surface, by perpendicular to the current. A similar loop running parallel to the current instead gives us that that the component parallel to the current is instead continuous. Thus, what we have above is the only discontinuity in the field, which we can put into vector form as
+This component is parallel to the surface, by perpendicular to the current. A similar loop running parallel to the current instead gives us that the component parallel to the current is instead continuous. Thus, what we have above is the only discontinuity in the field, which we can put into vector form as
 $$\mathbf{B}_\text{above}-\mathbf{B}_\text{below}=\mu_{0}(\mathbf{K}\times \hat{\mathbf{n}})$$
 with $\hat{\mathbf{n}}$ being the normal vector to the surface.
 
