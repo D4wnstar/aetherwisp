@@ -33,6 +33,27 @@ The currents $\mathbf{J}_{b}$ and $\mathbf{K}_{b}$ are called the **bound curren
 >$$\mathbf{B}=\frac{2}{3}\mu_{0}\mathbf{M}$$
 >inside the sphere, whereas outside it is equal to that of a perfect magnetic dipole with
 >$$\mathbf{m}=\frac{4}{3}\pi R^{3}\mathbf{M}$$
+### Bound currents
+Analogously to dielectric polarization, bound currents arise as the collective excitation of many atoms and molecules, each of which acts as a magnetic dipole. Each, then, is a tiny loop of current perpendicular to the axis of magnetization, bordering all the other loops next to it. An edge of a loop will have current flowing in the opposite direction of the adjacent loop. In the case of uniform magnetization, the intensity of this dipole current is identical for all dipoles, so they cancel out. This occurs across the entire chunk of material, except at the edges. There, there is no adjacent dipole, so some of the current is not cancelled out. When you take every single edge dipole into consideration, this creates an effective ring or ribbon of current traversing the sides of the material, with the same intensity as that of a singular dipole.
+
+Say each of the loops has area $a$ and thickness $t$, under a magnetization $\mathbf{M}$. It's magnetic dipole moment is $m=Mat$. The circulating current is $m=Ia$, so together we get $I=Mt$, so the surface current is $K_{b}=\frac{Mt}{t}=M$. In vector form, this current revolves around the dipole moment vector, which is easily expressed by taking the normal vector $\mathbf{\hat{n}}$ from the area $a$ and using the [[Prodotto vettoriale|cross product]]:
+$$\mathbf{K}_{b}=\mathbf{M}\times \mathbf{\hat{n}}$$
+
+> [!info] Bound surface current origin
+> The bound surface current comes from the alignment of the single magnetic dipoles and the internal cancellation of their currents except at the very edges. The current is odd in that no single charge ever makes a round trip (they are attached to specific atoms), but it nevertheless behaves in the same way as every other current.
+
+Say now the magnetization is not uniform (and on the $z$ axis). The internal cancellation is thus not perfect. On the surface the touch (say, on the $x$ axis), the current is
+$$I_{x}=[M_{z}(y+dy)-M_{z}(y)]dz=\frac{ \partial M_{z} }{ \partial y } dydz$$
+and the corresponding volume current density is
+$$J_{b,x}=\frac{ \partial M_{z} }{ \partial y } $$
+Similarly, a non-uniform magnetization on the $y$ axis would create add a current $-\frac{ \partial M_{y} }{ \partial z }$, for a total of
+$$J_{b,x}=\frac{ \partial M_{z} }{ \partial y } -\frac{ \partial M_{y} }{ \partial z } $$
+The same can be applied on each edge, which returns the familiar formula for the cross product components. Thus
+$$\mathbf{J}_{b}=\nabla\times\mathbf{M}$$
+Notably, this abides by charge conservation $\nabla \cdot\mathbf{J}_{b}=0$ as the [[divergence]] of curl is always zero.
+
+> [!info] Bound volume current origin
+> The bound volume current comes from the incomplete cancellation of the internal dipole currents, which leads to stray currents existing within the material too.
 ### In linear media
 Most substances exhibit a linear proportionality between the magnetic field applied onto them and the magnetization they show. This relation is usually expressed in terms of the [[auxiliary field]] $\mathbf{H}$ instead of $\mathbf{B}$:
 $$\mathbf{M}=\chi_{m}\mathbf{H}$$

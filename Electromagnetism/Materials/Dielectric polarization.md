@@ -42,7 +42,7 @@ The amount of bound charge is given by the total of each chain. Since the charge
 $$\sigma_{b}=\frac{q}{A_{end}}=\frac{q}{A}\cos \theta=P\cos \theta=\mathbf{P}\cdot \hat{\mathbf{n}}$$
 which is what we found before.
 
-> [!result] **Bound surface charge origin**
+> [!result] Bound surface charge origin
 > The bound surface charge comes from the alignment of the single dipoles and their internal cancellation except at the very edges, on the surface of the object.
 
 *If the field is not uniform*, then the cancellation in between each dipole pair in the chain doesn't quite occur, as the dipole moment of each little dipole changes depending on how strong the field is. This creates pockets of nonzero charge internally. But charge must be conserved, and so if we "push" charges to the surface with density $\sigma=\mathbf{P}\cdot \hat{\mathbf{n}}$, the internal ones must be as a whole equal and opposite to those. Thus, the total internal charge must be
