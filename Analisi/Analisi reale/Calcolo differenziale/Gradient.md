@@ -14,5 +14,5 @@ The most generic form of the gradient is given in curvilinear coordinates. Consi
 $$dt=\nabla t\cdot d\mathbf{r}=(\nabla t)_{u}f\ du+(\nabla t)_{v}g\ dv+(\nabla t)_{w}h\ dw$$
 so long as we define
 $$(\nabla t)_{u}\equiv \frac{1}{f}\frac{ \partial t }{ \partial u } ,\quad (\nabla t)_{v}\equiv \frac{1}{g}\frac{ \partial t }{ \partial v } ,\quad(\nabla t)_{w}\equiv \frac{1}{h}\frac{ \partial t }{ \partial w } $$
-where $f$, $g$ and $h$ are functions of position that are specific to a given coordinate system. The gradient of $t$ then is
+where $f$, $g$ and $h$ are functions of position that are specific to a given coordinate system (see [[Curvilinear coordinates functions]]). The gradient of $t$ then is
 $$\nabla t\equiv \frac{1}{f}\frac{ \partial t }{ \partial u } \mathbf{\hat{u}}+ \frac{1}{g}\frac{ \partial t }{ \partial v } \mathbf{\hat{v}}+ \frac{1}{h}\frac{ \partial t }{ \partial w } \mathbf{\hat{w}}$$

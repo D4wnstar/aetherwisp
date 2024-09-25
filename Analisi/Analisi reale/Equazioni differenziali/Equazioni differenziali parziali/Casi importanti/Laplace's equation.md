@@ -73,7 +73,7 @@ which must also obey Laplace's equation:
 $$\nabla ^{2}\psi_{3}=\nabla ^{2}\psi_{1}-\nabla ^{2}\psi_{2}=0$$
 This takes the value *zero* on all boundaries, since $\psi_{1}$ and $\psi_{2}$ have the same value there. But we know there are no maxima and minima outside of the boundary, thus all other points must be themselves zero, so $\psi_{3}=0$, which means $\psi_{1}=\psi_{2}$.
 
-The same can be proven for Poisson's equations, as the function $f$ cancels out either way. We can express this as a sort of corollary:
+The same can be proven for Poisson's equation, as the function $f$ cancels out either way. We can express this as a sort of corollary:
 
 > [!info] Corollary, first uniqueness theorem
 > The solution to Poisson's equation in a volume $V$ is uniquely determined if the function $f$ and the value of $\psi$ on all boundaries are specified.
@@ -86,8 +86,10 @@ This theorem (especially the corollary) is of particular use in electrostatics, 
 
 This is useful because the potential is often known, since it comes from artificial batteries that are built provide a specific potential.
 #### Second uniqueness theorem
+The second uniqueness theorem is given directly in electromagnetic flavor.
+
 > [!info] Second uniqueness theorem
-> In a volume $\mathcal{V}$ surrounded by [[Conductor|conductors]] and containing a specified charge density $\rho$, the [[electric field]] is uniquely determined if the total charge on each conductor is given.
+> In a volume $\mathcal{V}$ surrounded by [[Conductor|conductors]] (or possibly extending to infinity) and containing a specified charge density $\rho$, the [[electric field]] is uniquely determined if the total charge on each conductor is given.
 
 ##### Proof
 Suppose there are two fields satisfying the conditions. Both obey [[Gauss' law]]:

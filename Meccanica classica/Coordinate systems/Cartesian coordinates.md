@@ -57,7 +57,7 @@ where $\tau$ is the [[torsion]] of the curve. The minus sign is conventional. We
 $$\frac{d\mathbf{N}}{ds}=\mathbf{B}\times \frac{d\mathbf{T}}{ds}+ \frac{d\mathbf{B}}{ds}\times \mathbf{T}=\kappa\mathbf{B}\times\mathbf{N}-\tau\mathbf{N}\times\mathbf{T}=-\kappa\mathbf{T}+\tau\mathbf{B}$$
 The three derivatives can be put into a matrix:
 $$\begin{pmatrix}\dot{\mathbf{T}} \\ \dot{\mathbf{N}} \\ \dot{\mathbf{B}}\end{pmatrix}=\begin{pmatrix}0 & \kappa & 0 \\ -\kappa & 0 & \tau \\ 0 & -\tau & 0\end{pmatrix}\begin{pmatrix}\mathbf{T}(s) \\ \mathbf{N}(s) \\ \mathbf{B}(s)\end{pmatrix}$$
-which is also [[Matrice simmetrica|antisymmetric]].
+which is also [[Matrice simmetrica|antisymmetric]]. These are the [[Frenet-Serret equations]] in matrix form.
 
 [^1]: A rotation by $-\pi/2$ is completely equivalent and would end up with a clockwise-rotation system. A $\pi/2$ rotation gives a counterclockwise-rotating system. It's convention to use the counterclockwise form.
 [^2]: Like in the 2D case, there are actually two possibilities, $\mathbf{N}$ and $-\mathbf{N}$. If the curve is planar, we can just pick the counterclockwise direction again. If it's nonplanar, this reasoning cannot apply and the choice should be made to keep $\mathbf{N}$ continuous (if possible).
