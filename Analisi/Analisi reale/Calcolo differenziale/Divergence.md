@@ -1,5 +1,7 @@
 The **divergence** $\nabla\cdot\mathbf{F}$ of a [[Differenziabilità|differentiable]] vector function $\mathbf{F}$ is a [[scalar field]] that represents the volume density of the outgoing [[flux]] of $\mathbf{F}$ from an infinitesimal volume around a given point. In simpler terms, it represents how $\mathbf{F}$ "emanates" from a point. Positive divergence means the function emanates outwards from a source, negative divergence means the function compresses inwards towards a sink.
 
+It is linked to the flux by the [[Teorema della divergenza|divergence theorem]].
+
 In [[Cartesian coordinates]], the divergence can be written as
 $$\nabla\cdot\mathbf{F}=\left( \frac{ \partial  }{ \partial x } +\frac{ \partial  }{ \partial y } + \frac{ \partial  }{ \partial z }  \right)\cdot(F_{x},F_{y},F_{z})=\frac{ \partial F_{x} }{ \partial x } +\frac{ \partial F_{y} }{ \partial y } +\frac{ \partial F_{z} }{ \partial z } $$
 ### In curvilinear coordinates

@@ -16,3 +16,7 @@ so long as we define
 $$(\nabla t)_{u}\equiv \frac{1}{f}\frac{ \partial t }{ \partial u } ,\quad (\nabla t)_{v}\equiv \frac{1}{g}\frac{ \partial t }{ \partial v } ,\quad(\nabla t)_{w}\equiv \frac{1}{h}\frac{ \partial t }{ \partial w } $$
 where $f$, $g$ and $h$ are functions of position that are specific to a given coordinate system (see [[Curvilinear coordinates functions]]). The gradient of $t$ then is
 $$\nabla t\equiv \frac{1}{f}\frac{ \partial t }{ \partial u } \mathbf{\hat{u}}+ \frac{1}{g}\frac{ \partial t }{ \partial v } \mathbf{\hat{v}}+ \frac{1}{h}\frac{ \partial t }{ \partial w } \mathbf{\hat{w}}$$
+
+As a bonus, using $dt=\nabla t\cdot d\mathbf{r}$, we can state
+$$t(b)-t(a)=\int_{a}^{b}dt=\int_{a}^{b}\nabla t\cdot d\mathbf{r}$$
+which is the [[gradient theorem]].

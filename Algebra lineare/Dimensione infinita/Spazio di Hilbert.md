@@ -1,4 +1,4 @@
-Uno **spazio di Hilbert**, in genere denotato $\mathrm{H}$ o $\mathcal{H}$, è uno [[spazio vettoriale]] [[Spazio metrico completo|completo]] rispetto alla [[Norma]] indotta da un [[prodotto scalare]] definito su di esso. Se sullo spazio è inoltre presente un [[Sistema completo]] (non necessariamente ortonormale), si dice che lo spazio è **separabile**.
+Uno **spazio di Hilbert**, in genere denotato $\mathrm{H}$ o $\mathcal{H}$, è uno [[spazio vettoriale]] [[Spazio metrico completo|completo]] rispetto alla [[norma]] indotta da un [[prodotto scalare]] definito su di esso. Se sullo spazio è inoltre presente un [[sistema completo]] (non necessariamente ortonormale), si dice che lo spazio è **separabile**.
 
 Un esempio di spazio di Hilbert è lo [[Spazi di successioni lp#Spazio $L {2}$|spazio L^2]], ma lo so anche tutti gli spazi $\mathbb{R}^{N}$ e $\mathbb{C}^{N}$, sebbene di norma si usi parlare di spazi di Hilbert solo in dimensione infinita.
 
@@ -21,5 +21,5 @@ Se $\ket{\psi}$ è normalizzato, deve valere
 $$\lvert \psi \rvert ^{2}=\lvert \alpha \rvert ^{2}+\lvert \beta \rvert ^{2}=1$$
 e quindi $\lvert  \alpha \rvert^{2}$ e $\lvert  \beta \rvert^{2}$ devono essere compresi fra 0 e 1, ossia possono essere interpretati come probabilità.
 
-> [!info] Probabilità e spazi di Hilbert
+> [!result] Probabilità e spazi di Hilbert
 > Le norme quadre dei componenti di un vettore normalizzato su un spazio di Hilbert possono essere interpretate come probabilità.

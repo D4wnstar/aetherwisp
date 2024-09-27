@@ -5,7 +5,18 @@ aliases:
 ---
 **Self inductance** is the phenomenon where changing the [[electric current]] within a loop induces an additional current within the loop itself counteracting the change. If the current is increased, the induced current will run in reverse, thereby trying to reduce the current back to its original value. Likewise, decreasing the current will prompt the loop to try to increase its own current. This can be thought of as an inertial phenomenon, as a sort of [[Newton's laws|Newton's first law]] for currents.
 
-It is quantified by a constant also called the **self inductance** (or simply **inductance**) and denoted $L$. Like its sibling quantity [[mutual inductance]], it is a purely geometric quantity, determined by the size and shape of the loop. It is measured in henries $\text{H}$, which are volt-second per ampere. In circuits, inductance is added through high self inductance components called **inductors**.
+It is quantified by a constant also called the **self inductance** (or simply **inductance**) and denoted $L$. Like its sibling quantity [[mutual inductance]], it is a purely geometric quantity, determined by the size and shape of the loop. It is measured in henries $\text{H}$, which are volt-second per ampere. In circuits, inductance is added through high self inductance components called **inductors** and are represented as
+
+```tikz
+\usepackage{circuitikz}
+\begin{document}
+\begin{circuitikz}
+\draw
+(0,0) to[L] (2,0)
+;
+\end{circuitikz}
+\end{document}
+```
 ### Derivation
 Consider any loop traversed by an [[Electric current|steady current]] $I$. This current produces a [[magnetic field]] running through the loop with a certain flux. Say now that the current is changed (so it's not steady anymore). This prompts an increase or decrease in the flux going through the loop, but this change [[Electromagnetic induction|induces]] an [[electric field]] and thus a current through the wire itself. [[Lenz's law]] tells us the induced field must be such as to oppose change, which means that the current will be run in a direction that tends to keep the total current constant. If the current is decreased, it'll try to increase it and viceversa. In other words, the induced current tries to maintain the "status quo"[^1].
 
