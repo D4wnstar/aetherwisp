@@ -18,8 +18,18 @@ Valgono numerose proprietà del commutatore. Le principali sono:
 Nel caso specifico di [[Operatore|operatori]], tutti gli operatori commutano con qualunque costante. Un'operatore commuta anche con qualunque sua funzione, nel senso che l'operatore $A$ e una sua funzione $f(A)=e^{cA}$ commutano: $[A,f(A)]=0$.
 ### In meccanica quantistica
 Il commutatore è di importanza primaria nella meccanica quantistica, dove permette di esprimere numerosi concetti relativi al [[Disuguaglianza di Heisenberg|principio di indeterminazione]]. La relazione commutativa più importante della materia è la cosiddetta **relazione commutativa canonica**, che dimostra che l'operatore posizione e l'operatore quantità di moto non commutano:
-$$[\hat{x},\hat{p}]=i\hbar$$
+$$[\hat{q},\hat{p}]=i\hbar$$
 con $\hbar$ la [[Costante di Planck|costante di Planck ridotta]].
+
+> [!example] Dimostrazione
+> Consideriamo lo [[spazio di Hilbert]] [[Spazi Lp|L^2]] su $\mathbb{R}$ e ci interessiamo al commutatore $[\hat{q},\hat{p}]$ entro di esso. Il commutatore qui è definito $[\hat{q},\hat{p}]:L^{2}(\mathbb{R})=\mathcal{H}\to \mathcal{H}$. Allora per una [[funzione d'onda]] generica $\psi(x)$ (gli operatori devono agire su *qualcosa*) si ha
+> $$([\hat{q},\hat{p}]\psi)(x)=(\hat{q}\hat{p}\psi)(x)-(\hat{p}\hat{q}\psi)(x)=x(\hat{p}\psi)(x)+i\hbar \partial_{x}(\hat{q}\psi)(x)=\ldots$$
+> ricordando che gli operatori agiscono sempre su quello che hanno alla loro destra. Continuando
+> $$\ldots=-i\hbar x\partial _{x}\psi(x)+i\hbar\partial_{x}(x\psi(x))=-\cancel{ i\hbar x\partial_{x}\psi(x) }+i\hbar \psi(x)+\cancel{ i\hbar x\partial_{x}(x) }$$
+> e quindi
+> $$([\hat{q},\hat{p}]\psi(x))=i\hbar \psi(x)$$
+> che, essendo vero per ogni $\psi(x)\in L^{2}(\mathbb{R})$, ci permette di dire
+> $$[\hat{q},\hat{p}]=i\hbar$$
 
 In tre dimensioni si hanno, per le variabili $\vec{r}$ e $\vec{p}$,
 $$[r_{i},p_{j}]=-[p_{i},r_{j}]=i\hbar\delta_{ij}, \quad [r_{i},r_{j}]=[p_{i},p_{j}]=0$$

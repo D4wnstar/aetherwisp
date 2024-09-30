@@ -4,7 +4,7 @@ aliases:
   - L^1
   - L^p
 ---
-Si chiamano **spazi** $L^{p}$ gli spazi di funzioni [[Integrale secondo Lebesgue|integrabili secondo Lebesgue]]. Sono tutti [[Spazio di Banach|spazi di Banach]] e $L^{2}$ in particolare è uno [[Spazio di Hilbert]].
+Si chiamano **spazi** $L^{p}$ gli spazi di funzioni [[Integrale secondo Lebesgue|integrabili secondo Lebesgue]]. Sono tutti [[Spazio di Banach|spazi di Banach]] e $L^{2}$ in particolare è uno [[Spazio di Hilbert]]. Più formalmente, sono rappresentati con la notazione $L^{p}(\mathcal{H},dx)$ dove $\mathcal{H}$ è lo spazio su cui sono definite le funzioni (in genere $\mathbb{R}$ o $\mathbb{C}$) e $dx$ rappresenta la [[measure|misura]] di Lebesgue. È comune abbreviare a solo $L^{p}(\mathcal{H})$ o solo $L^{p}$.
 ### Spazio $L^1$
 Si definisce **spazio** $L^{1}(I)$ l'insieme di tutte le funzioni **sommabili** o **integrabili** su un intervallo $I$, ovvero le funzioni $f$ tali per cui vale
 $$\int_{I}|f(x)|dx<+\infty$$

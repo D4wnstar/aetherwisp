@@ -1,2 +1,3 @@
-Un'**osservabile** $A$ è una quantità che si può osservare (e quindi misurare). In meccanica quantistica, ad ogni osservabile è associato un [[operatore autoaggiunto]] $\hat{A}$ ottenuto compiendo le sostituzioni
-$$q \rightarrow \hat{q}, \quad p \rightarrow \hat{p} \equiv \frac{\hbar}{i} \frac{d}{dx}$$
+Un'**osservabile** $A$ è una quantità che si può osservare (e quindi misurare). In meccanica classica, le osservabili sono tutte le funzioni reali dello [[spazio delle fasi]]. In meccanica quantistica, sono tutte le funzioni con [[spettro]] reale. In particolare, ad ogni osservabile quantistica è associato un [[operatore autoaggiunto]] $\hat{A}$ ottenuto compiendo le sostituzioni
+$$q \rightarrow \hat{q}, \quad p \rightarrow \hat{p} \equiv -i\hbar \partial_{x}$$
+Il problema di fondo della meccanica quantistica è che, a differenza di quella classica, molte osservabili non [[Commutatore|commutano]] fra loro (in primis $\hat{q}$ e $\hat{p}$) e quindi non sono simultaneamente misurabili.
