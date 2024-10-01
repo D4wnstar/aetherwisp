@@ -1,0 +1,1 @@
+Il **paradosso di Simpson** è il fenomeno per cui un'inappropriata analisi o raccolta dei dati empirici porta ad una conclusione opposta a quello che i dati in realtà mostrano.

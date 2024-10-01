@@ -1,0 +1,1 @@
+La **validità** o **accuratezza** è la proprietà di una misura di rappresentare esattamente ciò che la misura desidera trovare. È uno dei due concetti fondamentali di una misura, assieme alla [[Precisione (misura)|precisione]].

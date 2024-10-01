@@ -1,4 +1,4 @@
-La **figura di Rey** è una figura molto complessa usata come prova di memoria. La sua complessità la rende difficile (sostanzialmente impossibile) ricordarla interamente a memoria.
+La **figura di Rey** è una figura molto complessa usata come prova di memoria. La sua complessità la rende difficile (sostanzialmente impossibile) da ricordare interamente a memoria.
 ### Esperimento di riproduzione
 La figura può essere usata come test di memoria. Si mostra l'immagine ad una persona per 5 secondi, poi la si toglie e gli si chiede di riprodurla a memoria.
 
