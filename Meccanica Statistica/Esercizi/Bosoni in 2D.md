@@ -20,5 +20,5 @@ usando che
 $$\frac{d}{dE}\ln(1-ze^{-\beta E})= \frac{ze^{-\beta E}}{(1-ze^{-\beta E})}\beta$$
 Tornando alla densità
 $$\rho_{m}=\frac{-2\pi m}{h^{2}}k_{B}T\ln(1-ze^{\beta \epsilon_{m}})$$
-Nel [[limite termodinamico]] si ha
+Nel [[Limite termodinamico]] si ha
 $$\rho_{m}=- \frac{1}{\lambda^{2}_{T}}\ln(1-z)$$

@@ -13,6 +13,3 @@ $$\sum\limits_{n=1}^{\infty} \frac{1}{n^{\alpha}},\quad \alpha\in \mathbb{R} \qu
 La **serie di Mengoli** è
 $$\sum\limits_{n=1}^{\infty} \frac{1}{n(n+1)}=1$$
 ## Serie esponenziale
-La **serie esponenziale** è
-$$\sum\limits_{n=0}^{\infty} \frac{x^n}{n!}=e^x$$
-Converge con $x=1$.

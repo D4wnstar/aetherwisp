@@ -1,4 +1,4 @@
-Si dimostra che l'[[ensemble canonico]] e l'[[Ensemble gran canonico]] danno risultati equivalenti nel calcolo delle proprietà di un gas ideale.
+Si dimostra che l'[[Ensemble canonico]] e l'[[Ensemble gran canonico]] danno risultati equivalenti nel calcolo delle proprietà di un gas ideale.
 
 <!-- Lezione del 19/10/23 da recuperare va qui -->
 
@@ -29,4 +29,4 @@ $$\ldots=\frac{5}{2}k_{B}\langle N \rangle-k_{B}\langle N \rangle\ln(\rho\lambda
 $$=k_{B}\langle N \rangle \left( \ln e^{\frac{5}{2}} + \ln\left(\frac{1}{\lambda^{3}\rho}\right) \right)$$
 da cui troviamo che
 $$\boxed{S=k_{B}\langle N \rangle\ln\left( \frac{e^{\frac{5}{2}}}{\lambda^{3}\rho} \right)}$$
-che è lo stesso risultato che abbiamo trovato nel [[gas ideale nell'ensemble canonico]].
+che è lo stesso risultato che abbiamo trovato nel [[Gas ideale nell'ensemble canonico]].

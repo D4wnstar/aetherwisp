@@ -1,5 +1,5 @@
 # Convezione di Gibbs
-Consideriamo l'estensione dello spazio delle fasi di Gibbs dell'[[ensemble microcanonico]]. Un gas ideale ha [[Hamiltoniana]]
+Consideriamo l'estensione dello spazio delle fasi di Gibbs dell'[[Ensemble microcanonico]]. Un gas ideale ha [[Hamiltoniana]]
 $$H=\sum\limits_{i=1}^{N} \frac{\bar{p}_{i}^{2}}{2m}\quad;\quad H=\sum\limits_{\alpha=1}^{3N} \frac{\bar{p}_{\alpha}^{2}}{2m}$$
 la prima è in una dimensione, la seconda in tre. In $N$ dimensione l'estensione sarà
 $$\Sigma=\frac{V^{N}}{N!h^{3N}}\int\limits_{\sum\limits_{\alpha=1}^{3N} \frac{\bar{p}_{\alpha}^{2}}{2m}\leq E}d^{3N}p=\frac{V^{N}}{N!h^{3N}}\int\limits_{\sum\limits_{\alpha=1}^{3N} \bar{p}_{\alpha}^{2}\leq2mE\equiv R^{2}}d^{3N}p$$
@@ -45,7 +45,7 @@ Considero ora la convenzione $\omega$ per l'estensione dello spazio delle fasi
 $$\omega(E)=\frac{\partial \Sigma(E,N,V)}{\partial E}=\frac{3}{2}NCE^{\frac{3N}{2}-1}=\frac{\frac{3}{2}NCE^{\frac{3N}{2}}}{E}=\Sigma(E) \frac{3}{2} \frac{N}{E}$$
 che quindi è in funzione della convenzione di Gibbs.
 $$\frac{\ln\omega(E)}{E}= \frac{\ln\Sigma(E)}{E}+\frac{\ln\left( \frac{3}{2} \frac{N}{E}\right)}{E} \rightarrow 0$$
-che tende a zero nel [[limite termodinamico]]. Quindi i risultati della convenzione $\omega$ coincidono con quelli della convenzioni di Gibbs nel limite. Ciò accade anche per la convenzione di Boltzmann. I problemi sorgono quando si considerano sistemi con temperature negative.
+che tende a zero nel [[Limite termodinamico]]. Quindi i risultati della convenzione $\omega$ coincidono con quelli della convenzioni di Gibbs nel limite. Ciò accade anche per la convenzione di Boltzmann. I problemi sorgono quando si considerano sistemi con temperature negative.
 $$\Sigma(E)=\sum\limits_{i=1}^{\frac{E}{\Delta}}\Gamma(E_{i},N,V)$$
 con $E_{i}=i\Delta$, cioè stiamo considerando l'energia in pacchetti discreti di grandezza $\Delta$. Trovo il termine massimo della somma $E^{\ast}=\max\limits_{i}\Gamma(E_{i},N,V)$. Allora si ha
 $$\Gamma(E^{\ast},N,V)\leq\Sigma\leq\left( \frac{E}{\Delta}+1\right)\Gamma(E^{\ast},N,V)$$

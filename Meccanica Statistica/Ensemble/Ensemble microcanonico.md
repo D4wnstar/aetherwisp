@@ -1,4 +1,4 @@
-L'**ensemble microcanonico** è un insieme statistico che descrive i possibili stati di un [[sistema isolato]]. In esso valgono il [[teorema di equipartizione dell'energia]] e l'[[ipotesi ergodica]].
+L'**ensemble microcanonico** è un insieme statistico che descrive i possibili stati di un [[Sistema isolato]]. In esso valgono il [[Teorema di equipartizione dell'energia]] e l'[[Ipotesi ergodica]].
 Prendo una funzione di densità dei punti rappresentativi $\rho(q;p)=\rho(H(q;p)) \Rightarrow \rho(E)$ nello spazio delle fasi con $H$ [[Hamiltoniana]] del sistema. Prendiamo un sistema isolato, quindi con energia $E$ costante. Decido che $\rho = cost$, allora valgono alcune scelte per $H$:
 1. $H=E$ con $E$ l'energia del sistema
 2. $E\leq H \leq E+\Delta$ con $\Delta$ finito
@@ -10,7 +10,7 @@ $$\int\delta(E-H(q;p))d^{3N}qd^{3N}p$$
 con $\delta(x)$ la [[Delta di Dirac]].
 Nella 2. si ha
 $$\Gamma=\int\limits_{E<H\leq E+\Delta}\rho(H(q;p))d^{3N}qd^{3N}p=\ldots$$
-ma la $\rho$ non è univoca. Allora introduco un'[[azione]] e definisco $\rho$ come l'inversa dell'azione
+ma la $\rho$ non è univoca. Allora introduco un'[[Azione]] e definisco $\rho$ come l'inversa dell'azione
 $$\ldots=\int\limits_{E\leq H<E+\Delta}  \frac{d^{3N}qd^{3N}p}{h^{3N}}= \frac{1}{h^{3N}}\int\limits_{E\leq H<E+\Delta}  d^{3N}qd^{3N}p\quad\quad\mbox{con }\rho(q;p)= \frac{1}{h^{3N}}$$
 da cui si trova si trova
 $$S=k_{B}\ln(\Gamma(E,N,V,\Delta))$$
@@ -27,7 +27,7 @@ con $V_{12}$ il termine di interazione reciproca. Inoltre vale
 $$H=\sum\limits_{i=1}^{N} \frac{\bar{p}^{2}_{i}}{2m}+\sum\limits_{i<j}\phi(|\bar{r}_{1}-\bar{r}_{2}|)$$
 dove la prima somma è quella dei gas ideali non interagenti, mentre la seconda ha una funzione $\phi$ che rappresenta l'interazione tra due particelle. La somma va in $i<j$ per evitare di raddoppiare gli effetti.
 
-Consideriamo un'interazione a lungo raggio $\phi\sim\frac{1}{r_{ij}}$ e inoltre $\phi_{ij}(r)=\varepsilon\left[\left( \frac{\sigma}{r}\right)^{12}- \left( \frac{\sigma}{r}\right)^{6} \right]$. Stiamo considerando l'approssimazione delle **sticky hard spheres (SHS)**. In questo caso, $V_{12}$ è trascurabile rispetto a $H_{1}+H_{2}$ *solo* nel [[limite termodinamico]]. Allora troviamo che l'entropia del sistema è
+Consideriamo un'interazione a lungo raggio $\phi\sim\frac{1}{r_{ij}}$ e inoltre $\phi_{ij}(r)=\varepsilon\left[\left( \frac{\sigma}{r}\right)^{12}- \left( \frac{\sigma}{r}\right)^{6} \right]$. Stiamo considerando l'approssimazione delle **sticky hard spheres (SHS)**. In questo caso, $V_{12}$ è trascurabile rispetto a $H_{1}+H_{2}$ *solo* nel [[Limite termodinamico]]. Allora troviamo che l'entropia del sistema è
 $$S_{\alpha}=k_{b}\ln(\Gamma_{\alpha}(E_{\alpha},N_{\alpha},V_{\alpha}))$$
 Abbiamo che
 $$\begin{align}\underbrace{\Gamma_{1}(E_{1}^{\ast},N_{1}^{\ast},N_{1})\Gamma_{2}(E_{2}^{\ast},N_{2}^{\ast},V_{2}) \frac{N!}{N_{1}^{\ast}!N_{2}^{\ast}!}}\limits_{A_{1}}

@@ -16,7 +16,7 @@ La densità neutronica è $\sim10\rho_{N}$ (ottenuta da massa e volume della ste
 $$^{56}_{26}Fe+26e^{-}\rightarrow56n+26\nu_{e}$$
 Questo processo si ferma soltanto quando la pressione di Fermi dei neutroni è sufficientemente alta ($\sim10^{18}kg/m^{3}$).
 ### Struttura interna
-La massa è $M\sim1.3-1.5M_{\odot}$ e il raggio è $R\sim10$ km. La struttura interna di una stella di neutroni non è conosciuta; il meglio che possiamo fare sono predizioni teoriche. Usiamo allora un modello relativamente semplice, che afferma che in queste condizioni il nucleo sia un *liquido di neutroni degenere* a densità costante. La densità di questo liquido è elevatissima, a tal punto che la principale componente di repulsione è il [[principio di esclusione di Pauli]] che impedisce a più [[fermione|fermioni]] di ricadere nello stesso stato energetico. Riducendo il volume, i neutroni sono dunque obbligati a occupare stati eccitati oltre a quello fondamentale.
+La massa è $M\sim1.3-1.5M_{\odot}$ e il raggio è $R\sim10$ km. La struttura interna di una stella di neutroni non è conosciuta; il meglio che possiamo fare sono predizioni teoriche. Usiamo allora un modello relativamente semplice, che afferma che in queste condizioni il nucleo sia un *liquido di neutroni degenere* a densità costante. La densità di questo liquido è elevatissima, a tal punto che la principale componente di repulsione è il [[principio di esclusione di Pauli]] che impedisce a più [[Fermione|fermioni]] di ricadere nello stesso stato energetico. Riducendo il volume, i neutroni sono dunque obbligati a occupare stati eccitati oltre a quello fondamentale.
 
 Secondo questo modello, la crosta della stella è spessa circa 1 km ed è composta da atomi compressi allo stato solido dalla forza gravitazionale.
 

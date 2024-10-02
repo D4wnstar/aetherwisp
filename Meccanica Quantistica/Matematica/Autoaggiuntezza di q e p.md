@@ -19,5 +19,5 @@ usando che $x \in \mathbb{R}$ e quindi $\overline{x}=x$. $\hat{q}$ quindi è aut
 Le relazioni $(1)$ e $(2)$ denotano le [[Rappresentazioni dello stato|rappresentazioni in posizione]] $\hat{q}$ e $\hat{p}$:
 $$\boxed{\begin{align}
 (\hat{q}\psi)(x)&=x\psi(x) \\
-(\hat{p}\psi)(x)&=-i\hbar \frac{ \partial  }{ \partial x } \psi(x)
+(\hat{p}\psi)(x)&=-i\hbar \partial_{x}  \psi(x)
 \end{align}}$$

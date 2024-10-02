@@ -32,7 +32,7 @@ In conclusione, per *temperature finite*, abbiamo
 $$\beta P=\frac{1}{V}\ln Z=\frac{1}{V}\sum\limits_{\alpha}\sigma\ln(1+\sigma e^{-\beta \epsilon_{\alpha}}z)$$
 $$\rho= \frac{\langle N \rangle}{V}=\sum\limits_{\alpha} \frac{\langle n_{\alpha} \rangle}{V} =\sum\limits_{\alpha} \frac{1}{V} \frac{1}{\frac{e^{\beta \epsilon_{\alpha}}}{z}+\sigma}=\frac{1}{V}z \frac{\partial \ln Z}{\partial z}$$
 ## Proprietà a temperature prossime a 0
-Vogliamo trovare una relazione tra lo [[stato fondamentale]] del sistema e le proprietà di meccanica statistica nel caso di temperature che tendono allo zero. Ci aspettiamo che convergano. Partiamo dall'[[Potenziali termodinamici#Energia libera di Helmholtz|energia libera di Helmholzt]].
+Vogliamo trovare una relazione tra lo [[Stato fondamentale]] del sistema e le proprietà di meccanica statistica nel caso di temperature che tendono allo zero. Ci aspettiamo che convergano. Partiamo dall'[[Potenziali termodinamici#Energia libera di Helmholtz|energia libera di Helmholzt]].
 $$A(N,T,V)=E(N,T,V)-TS(N,T,V)\quad T \rightarrow 0$$
 Consideriamo lo stato fondamentale per i [[Bosone]] con [[spin]] 0. Abbiamo $\alpha = \bar{p}$. Supponiamo di avere $N$ particelle. Descriviamo l'energia come
 $$E=\sum\limits_{\bar{p}}n_{p}\epsilon_{p}$$

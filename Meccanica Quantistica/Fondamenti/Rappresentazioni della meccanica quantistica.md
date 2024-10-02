@@ -28,7 +28,7 @@ La rappresentazione di interazione, anche detta rappresentazione di Dirac, è un
 
 Presa un'[[Hamiltoniana]] $H$ descritta dalla rappresentazione di Schrödinger, essa può essere divisa in due pezzi:
 $$H=H_{0}+H_{1}$$
-$H_{0}$ e $H_{1}$ possono essere una qualunque suddivisione e la rappresentazione di interazione funzionerà per tutte quante, ma per avere utilità pratica, $H_{0}$ si assume risolvibile facilmente, mentre $H_{1}$ è un'interazione difficile da risolvere. Questa non è altro che la suddivisione usata in [[teoria delle perturbazioni]], a meno di una costante. In genere, $H_{0}$ dovrebbe essere indipendente dal tempo.
+$H_{0}$ e $H_{1}$ possono essere una qualunque suddivisione e la rappresentazione di interazione funzionerà per tutte quante, ma per avere utilità pratica, $H_{0}$ si assume risolvibile facilmente, mentre $H_{1}$ è un'interazione difficile da risolvere. Questa non è altro che la suddivisione usata in [[Meccanica statistica/Teoria delle perturbazioni]], a meno di una costante. In genere, $H_{0}$ dovrebbe essere indipendente dal tempo.
 
 Definiamo $U_{t}=e^{-iHt/\hbar}$, $U_{t,0}=e^{-iH_{0}t/\hbar}$ e $U_{t,1}=e^{-iH_{1}t/\hbar}$ gli evolutori associati alle Hamiltoniane. Preso uno stato $|\psi_{S}(t)\rangle=U_{t}|\psi(0)\rangle$ descritto dalla rappresentazione di Schrödinger, la rappresentazione di interazione è
 $$|\psi_{I}(t)\rangle=U_{t,0}^{+}|\psi_{S}(t)\rangle$$

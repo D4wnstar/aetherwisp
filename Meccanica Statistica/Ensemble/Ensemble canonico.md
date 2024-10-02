@@ -1,4 +1,4 @@
-L'**[[ensemble]] canonico** è un insieme statistico che descrive i possibili stati di un sistema chiuso in equilibrio termico con una grande fonte di calore, solitamente chiamata *termostato*. Esso dipende dal numero di particelle $N$ e il volume $V$ e la temperatura $T$, tutte fissate. Si tratta di una generalizzazione dell'[[ensemble microcanonico]] che invece richiede che il sistema sia [[Sistema isolato|isolato]]. Il canonico permette gli scambi di calore (ma non di particelle).
+L'**[[Ensemble]] canonico** è un insieme statistico che descrive i possibili stati di un sistema chiuso in equilibrio termico con una grande fonte di calore, solitamente chiamata *termostato*. Esso dipende dal numero di particelle $N$ e il volume $V$ e la temperatura $T$, tutte fissate. Si tratta di una generalizzazione dell'[[Ensemble microcanonico]] che invece richiede che il sistema sia [[Sistema isolato|isolato]]. Il canonico permette gli scambi di calore (ma non di particelle).
 
 Prendiamo due sistemi.
 1. Termostato
@@ -10,7 +10,7 @@ $$d\Gamma=\frac{d^{3N}qd^{3N}p}{N!h^{3N}}\quad;\quad\Gamma(q_{1},\ldots,q_{3N},p
 D'ora in poi consideriamo $\Gamma$, oltre che come estensione dello [[spazio delle fasi]], anche come punto nello spazio delle fasi, solo come notazione conveniente.
 Dalla teoria degli ensemble in generale si trova
 $$\langle f(\Gamma)\rangle=\frac{\int\rho(q,p,t)f(q,p)dp^{3N}dq^{3N}}{\int\rho(q,p,t)dp^{3N}dq^{3N}}$$
-Come nell'[[ensemble microcanonico]] dobbiamo scegliere $\rho$. Qui lo scegliamo come
+Come nell'[[Ensemble microcanonico]] dobbiamo scegliere $\rho$. Qui lo scegliamo come
 $$\boxed{\rho(\Gamma)=\delta(E-H)}$$
 Cerco la media nel sistema 1. Consideriamo interazioni a lungo raggio
 $$\langle f_{1}(\Gamma_{1}) \rangle=\frac{\int d\Gamma_{1}\int d \Gamma _{2}f(\Gamma_{1})\delta(E-H_{1}-H_{2})}{\int d\Gamma_{1}\int d \Gamma _{2} \delta(E-H_{1}-H_{2})}=$$
@@ -61,7 +61,7 @@ usando che $S=k_{B}\ln\omega(E)\rightarrow\omega(E)=E^{S/k_{B}}=e^{-[-\beta TS]}
 $$\frac{\partial }{\partial E}[E-TS(E)]=1-T \frac{\partial S}{\partial E}=0$$
 Usando il [[Principi della termodinamica#Primo principio|primo principio della termodinamica]] troviamo
 $$1- \frac{T}{T_{MC}(E)}=0 \Rightarrow T_{MC}(E)=T$$
-dove $T_{MC}$ è la temperatura data dall'[[ensemble microcanonico]] ($T$ è quella dell'ensemble canonico).
+dove $T_{MC}$ è la temperatura data dall'[[Ensemble microcanonico]] ($T$ è quella dell'ensemble canonico).
 
 $$E-TS(E,N,V)=\bar{E}-TS(\bar{E})+0+ \frac{1}{2} \frac{1}{TC_{V}(\bar{E})}(E-\bar{E})^{2}$$
 trovato usando
@@ -74,7 +74,7 @@ Cerchiamo di approssimare l'integrale
 $$\simeq\int_{-\infty}^{\infty}dE e^{- \frac{1}{2k_{B}T^{2}C}(E-\bar{E})^{2}}=\int_{-\infty}^{\infty}dx e^{- \frac{1}{2k_{B}T^{2}C_{V}}x^{2}}=\sqrt{2\pi k_{B}T^{2}C_{V}}$$
 Allora abbiamo
 $$\ln Q_{N}=-\beta(\bar{E}-TS(\bar{E}))+ \frac{1}{2}\ln(2\pi k_{B}T^{2}C_{V})$$
-Nel [[limite termodinamico]]
+Nel [[Limite termodinamico]]
 $$\boxed{A(N,V,T)=\bar{E}-TS_{MC}(\bar{E})}$$
 con $S_{MC}$ l'entropia dell'ensemble microcanonico, da cui si ritrova $T_{MC}(\bar{E})=T$, stavolta per una generica [[Hamiltoniana]].
 ## Canonico quantistico
@@ -84,7 +84,7 @@ usando il [[Prodotto tensoriale]]. In questo caso facciamo il prodotto tensorial
 
 ![[Sistemi Annidati|center]]
 
-Considero l'[[ensemble microcanonico]]:
+Considero l'[[Ensemble microcanonico]]:
 $$\rho(E,\hat{H})=\delta(E-\hat{H})$$
 $$\langle \hat{O}_{1} \rangle=\frac{\mbox{Tr}[\delta(E-\hat{H}_{1}-\hat{H}_{2})\hat{O}_{1}]}{\mbox{Tr}[\delta(E-\hat{H}_{1}-\hat{H}_{2})]}=\frac{\mbox{Tr}[\int_{0}^{E}dE_{1}\delta(E-\hat{H}_{1})\delta(E-E_{1}-\hat{H}_{2})\hat{O}_{1}]}{\mbox{Tr}[\int_{0}^{E}dE_{1}\delta(E-\hat{H}_{1})\delta(E-E_{1}-\hat{H}_{2})]}=$$
 $$=\frac{\mbox{Tr}[\int_{0}^{E}dE_{1}\delta(E-\hat{H}_{1})\hat{O}_{1}\delta(E-E_{1}-\hat{H}_{2})]}{\mbox{Tr}[\int_{0}^{E}dE_{1}\delta(E-\hat{H}_{1})\delta(E-E_{1}-\hat{H}_{2})]}=\ldots$$
@@ -92,7 +92,7 @@ Ricordando che per il [[commutatore]] vale $[\hat{H}_{1},\hat{H}_{2}]=0$ perché
 $$\ldots=\frac{\int_{0}^{E}dE_{1}\mbox{Tr}^{(1)}[\delta(E-\hat{H}_{1})\hat{O}_{1}]\mbox{Tr}^{(2)}[\delta(E-E_{1}-\hat{H}_{2})]}{\int_{0}^{E}dE_{1}\mbox{Tr}^{(1)}[\delta(E-\hat{H}_{1})]\mbox{Tr}^{(2)}[\delta(E-E_{1}-\hat{H}_{2})]}=\ldots$$
 Ricordando l'espressione dell'entropia un ensemble microcanonico $S=k_{B}\ln[\mbox{Tr}\rho(E,\hat{H})]$ possiamo vedere
 $$\mbox{Tr}^{(2)}[\delta(E-E_{1}-\hat{H}_{2})]=e^{\frac{S_{2}(E-E_{1},V_{2},N_{2})}{k_{B}}}$$
-e trovando il [[limite termodinamico]] sull'esponente
+e trovando il [[Limite termodinamico]] sull'esponente
 $$S(E-E_{1},V_{2},N_{2})\overbrace{\Rightarrow}\limits^{L.T.}S_{2}(E-E_{1},V_{2},N_{2})\simeq S_{2}(E,V_{2},N_{2})- \frac{E_{1}}{T}$$
 al che abbiamo
 $$e^{\frac{S_{2}(E-E_{1},V_{2},N_{2})}{k_{B}}}\simeq e^{\frac{S_{2}(E,N_{2},V_{2})}{k_{B}}}e^{- \frac{E_{1}}{k_{B}T}}$$

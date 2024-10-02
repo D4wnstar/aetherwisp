@@ -1,3 +1,3 @@
 Prendiamo delle coordinate $(q_{1},\ldots,q_{3N},p_{1},\ldots,p_{3N})$ e chiamo $x_{i}=q_{i}$ per ogni $i=1,\ldots,3N$ e $x_{j}=p_{i-3N}$ per ogni $j=3N+1,\ldots,6N$. Allora vale
 $$\left\langle x_{i}\frac{\partial H}{\partial x_{j}}\right\rangle=\delta_{ij}k_{B}T$$
-dove $k_{B}$ è la [[costante di Boltzmann]] e $\langle\cdot\rangle$ è la media sullo spazio delle fasi dell'[[ensemble]]. Questo vale sia per l'[[ensemble microcanonico]] che per l'[[ensemble canonico]].
+dove $k_{B}$ è la [[costante di Boltzmann]] e $\langle\cdot\rangle$ è la media sullo spazio delle fasi dell'[[Ensemble]]. Questo vale sia per l'[[Ensemble microcanonico]] che per l'[[Ensemble canonico]].

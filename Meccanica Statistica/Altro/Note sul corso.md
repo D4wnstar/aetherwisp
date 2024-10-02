@@ -1,1 +1,2 @@
-**Ci sono parziali**
+Kerson-Huang: Meccanica statistica (libro del corso)
+Mezard-Montanari: Information, computation and physics (libro aggiuntivo per i primi due capitoli, per mostrare un legame più forte con la computazione)

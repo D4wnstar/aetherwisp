@@ -19,7 +19,9 @@ Nel caso specifico di [[Operatore|operatori]], tutti gli operatori commutano con
 ### In meccanica quantistica
 Il commutatore è di importanza primaria nella meccanica quantistica, dove permette di esprimere numerosi concetti relativi al [[Disuguaglianza di Heisenberg|principio di indeterminazione]]. La relazione commutativa più importante della materia è la cosiddetta **relazione commutativa canonica**, che dimostra che l'operatore posizione e l'operatore quantità di moto non commutano:
 $$[\hat{q},\hat{p}]=i\hbar$$
-con $\hbar$ la [[Costante di Planck|costante di Planck ridotta]].
+con $\hbar$ la [[Costante di Planck|costante di Planck ridotta]]. Più correttamente si ha
+$$[\hat{q},\hat{p}]=i\hbar \mathbf{\hat{1}}$$
+dove $\mathbf{\hat{1}}$ è l'operatore identità, di solito omesso per comodità ma necessario perché un operatore deve essere pari ad un altro operatore, non uno scalare.
 
 > [!example] Dimostrazione
 > Consideriamo lo [[spazio di Hilbert]] [[Spazi Lp|L^2]] su $\mathbb{R}$ e ci interessiamo al commutatore $[\hat{q},\hat{p}]$ entro di esso. Il commutatore qui è definito $[\hat{q},\hat{p}]:L^{2}(\mathbb{R})=\mathcal{H}\to \mathcal{H}$. Allora per una [[funzione d'onda]] generica $\psi(x)$ (gli operatori devono agire su *qualcosa*) si ha

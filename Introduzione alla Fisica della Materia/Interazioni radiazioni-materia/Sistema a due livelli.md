@@ -23,7 +23,7 @@ Posso chiedermi qual è il rapporto tra $N_{1}$ e $N_{2}$.
 $$\frac{N_{2}}{N_{1}}=\frac{B_{12}u(\omega)}{B_{21}u(\omega)+A_{21}}\equiv e^{-\hbar\omega/k_{B}T}$$
 assumendo che gli stati hanno la stessa [[degenerazione]] e seguano una statistica di un sistema termodinamico. Con un po' di algebra si trova
 $$u(\omega)= \frac{A_{21}/B_{21}}{(B_{12}/B_{21})e^{\frac{\hbar\omega}{k_{B}T}}}$$
-Se vogliamo prendere il [[limite termodinamico]] e far tendere $T \rightarrow \infty$, vogliamo che l'energia diverga. Tuttavia, la quantità di energia nel sistema a due livelli è finita: una volta che tutti gli elementi del sistema sono allo stato eccitato, non si può più aumentare l'energia. Dunque, se l'energia deve andare all'infinito, bisogna che l'energia in eccesso vada tutta nel campo. Matematicamente, se $u(\omega) \rightarrow \infty$ bisogna che $B_{12}=B_{21}$, a modo che il denominatore tenda a $0$. Quindi i tassi di emissione devono essere uguali.
+Se vogliamo prendere il [[Limite termodinamico]] e far tendere $T \rightarrow \infty$, vogliamo che l'energia diverga. Tuttavia, la quantità di energia nel sistema a due livelli è finita: una volta che tutti gli elementi del sistema sono allo stato eccitato, non si può più aumentare l'energia. Dunque, se l'energia deve andare all'infinito, bisogna che l'energia in eccesso vada tutta nel campo. Matematicamente, se $u(\omega) \rightarrow \infty$ bisogna che $B_{12}=B_{21}$, a modo che il denominatore tenda a $0$. Quindi i tassi di emissione devono essere uguali.
 
 Usando termini più generici $A_{21}=A$ e $B_{12}=B_{21}=B$ si calcola
 $$u(\omega)=\frac{A}{B}\left(\frac{1}{e^{\hbar\omega/k_{B}T}-1}\right)$$

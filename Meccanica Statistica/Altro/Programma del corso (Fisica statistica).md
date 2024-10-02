@@ -1,8 +1,0 @@
-- Richiami di Termodinamica
-	- Potenziali termodinamici
-	- Proprietà estensive/intensive
-	- 2° principio della TD: proprietà e min/max dei potenziali
-	- Relazione di Gibbs/Duhem
-- Teorema di Liouville
-- Meccanica statistica classica
-- Meccanica statistica quantistica
