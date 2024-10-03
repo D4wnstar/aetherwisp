@@ -18,7 +18,7 @@ dove $\vec{R}$ è il [[centro di massa]]. Con queste sostituzioni, e definendo l
 $$- \frac{\hbar^{2}}{2(m_{1}+m_{2})}\nabla^{2}_{R}\psi- \frac{\hbar^{2}}{2\mu}\nabla^{2}_{r}\psi+V(\vec{r})\psi=E\psi$$
 che è risolvibile separando $\vec{r}$ e $\vec{R}$. Si trova che $\psi_{R}(\vec{R})$ soddisfa l'equazione di Schrödinger per una particella con massa $m_{1}+m_{2}$, potenziale nullo ed energia $E_{R}$, mentre $\psi_{r}(\vec{r})$ lo fa per una particella con massa ridotta $\mu$, potenziale $V(\vec{r})$ e energia $E_{r}$. L'energia totale è $E=E_{R}+E_{r}$.
 
-In sostanza, questa soluzione ci dice che in una sistema di due particelle accoppiate con potenziale $V\propto\vec{r}$, il centro di massa si muove come una [[Meccanica quantistica/Sistemi/Particella libera]] con massa totale e il moto relativo (quello della particella due rispetto alla uno) come una particella con massa ridotta nel potenziale $V$. Questo riduce un sistema a due corpi ad uno equivalente ad un corpo. Lo stesso accade anche in meccanica classica.
+In sostanza, questa soluzione ci dice che in una sistema di due particelle accoppiate con potenziale $V\propto\vec{r}$, il centro di massa si muove come una [[Particella libera (quantistica)]] con massa totale e il moto relativo (quello della particella due rispetto alla uno) come una particella con massa ridotta nel potenziale $V$. Questo riduce un sistema a due corpi ad uno equivalente ad un corpo. Lo stesso accade anche in meccanica classica.
 ### Traslazione rigida
 Prendo l'Hamiltoniana di due particelle accoppiate
 $$H=H(q_{1},p_{1},q_{2},p_{2})= \frac{p_{1}^{2}}{2m} + \frac{p_{2}^{2}}{2m}+\frac{k}{2}(q_{2}-q_{1})^{2}$$

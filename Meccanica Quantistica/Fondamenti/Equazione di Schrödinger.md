@@ -1,6 +1,6 @@
-L'**equazione di Schrödinger** è un'[[equazione differenziale parziale]] di secondo grado che descrive lo [[stato]] di un sistema quantistico in un dato tempo $t$. Nel caso unidimensionale, si esprime come
+L'**equazione di Schrödinger** è un'[[equazione differenziale parziale]] di secondo grado che descrive lo [[stato]] di un sistema quantistico in un dato tempo $t$. Nel caso unidimensionale in [[Rappresentazioni dello stato|rappresentazione della posizione]], si esprime come
 $$i\hbar \frac{\partial \Psi}{\partial t}=- \frac{\hbar^{2}}{2m} \frac{\partial ^{2}\Psi}{\partial x^{2}}+V\Psi\tag{1D}$$
-dove $\hbar$ è la [[costante di Planck]] ridotta, $m$ è la massa della [[Particella]], $\Psi(x,t)$ è la [[funzione d'onda]] della [[particella]] in esame e $V$ è la funzione energia [[potenziale]] della particella. In tre dimensione ha la forma
+dove $\hbar$ è la [[costante di Planck]] ridotta, $m$ è la massa della [[Particella]], $\Psi(x,t)$ è la [[funzione d'onda]] della [[particella]] in esame e $V$ è la funzione energia [[potenziale]] della particella. In tre dimensioni ha la forma
 $$i\hbar \frac{\partial \Psi}{\partial t}=- \frac{\hbar^{2}}{2m}\nabla^{2}\Psi+V\Psi\tag{3D}$$
 con $\nabla^{2}$ il [[laplaciano]].
 
@@ -27,7 +27,7 @@ che è un sistema di due differenziali ordinarie *non parziali*. La soluzione de
 $$\int\frac{1}{\varphi}d\varphi=- \frac{iE}{\hbar}\int dt \quad \rightarrow \quad \varphi=Ce^{-iEt/\hbar}$$
 La soluzione della $(2)$, detta *equazione di Schrödinger indipendente dal tempo*, si può trovare solo una volta deciso il potenziale.
 
-Se due o più soluzioni distinte (ossia [[lineare indipendenza|linearmente indipendenti]]) della $(2)$ hanno la stessa energia $E$, allora si dicono **degeneri**.
+Se due o più soluzioni distinte (ossia [[lineare indipendenza|linearmente indipendenti]]) della $(2)$ hanno la stessa energia $E$, allora si dicono [[Degenerazione|degeneri]].
 ### Proprietà delle soluzioni separabili
 Questa forma conferisce alle soluzioni alcune proprietà particolari:
 1. sono *stati stazionari*. Ciò significa che il [[valore di aspettazione]] della funzione d'onda, ma anche quello di *qualunque* [[variabile dinamica]], è costante nel tempo. È possibile dunque tralasciare il termine temporale $\varphi$ e usare solo quello spaziale $\psi$. Vale anche che se $\Psi$ è normalizzata, lo è anche $\psi$.

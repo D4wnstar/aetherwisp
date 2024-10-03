@@ -1,12 +1,16 @@
-L'**equazione di Schrödinger** astratta è
+---
+aliases:
+  - rappresentazione della posizione
+  - rappresentazione del momento
+---
+L'[[equazione di Schrödinger]] generale è
 $$i\hbar\partial_{t}|\psi_{t}\rangle=\hat{H}|\psi_{t}\rangle\quad;\quad |\psi_{t=0}\rangle=|\psi\rangle\mbox{ condizione iniziale}$$
 Prendiamo l'[[Hamiltoniana]] di una particella libera
 $$H(\bar{q},\bar{p})= \frac{\bar{p}^{2}}{2m}=\frac{1}{2m}(p_{x}^{2}+p_{y}^{2}+p_{z}^{2})$$
 e il suo operatore associato
 $$\hat{H}=\frac{\hat{\bar{p}}^{2}}{2m}=\frac{1}{2m}(\hat{p}^{2}_{x}+\hat{p}^{2}_{y}+\hat{p}^{2}_{z})$$
 Vogliamo risolvere l'equazione di Schrodinger.
-
-## Rappresentazione dei momenti
+## Rappresentazione del momento
 Usiamo la rappresentazione dei momenti, con $|r\rangle=|x,y,z\rangle$.
 $$\hat{\bar{p}}|\bar{p}\rangle=\bar{p}|\bar{p}\rangle$$
 $$\langle x|p\rangle=\frac{e^{\frac{i}{\hbar}px}}{(\sqrt{2\pi\hbar})^{3}}\mbox{ in una dimensione}$$
@@ -59,10 +63,3 @@ $$i\hbar\partial_{t}(\bar{r})=\frac{1}{2m}\langle \bar{r}|\hat{\bar{p}}^{2}|\psi
 Usando il Laplaciano
 $$- \frac{\hbar^{2}}{2m}\overline{\nabla}^{2}\psi_{t}(\bar{r})=i\hbar\partial_{t}\psi_{t}(\bar{r})$$
 Per essere risolta dobbiamo fare la [[Trasformata di Fourier]], poi tornare indietro con l'antitrasformata, quindi torneremmo comunque dov'eravamo prima nella rappresentazione dei momenti, quindi non conviene.
-
-## Autoaggiuntezza di $\hat{x}$, $\hat{p}$
-$$\langle \phi|\hat{x}\psi\rangle=\langle \phi|\hat{x}\left( \int_{\mathbb{R}}dx |x\rangle\langle x| \right)\psi\rangle=\langle \phi|\int_{\mathbb{R}}dx x |x\rangle\langle x| \psi\rangle$$
-con $\hat{x}:L^{2}(\mathbb{R})\rightarrow L^{2}(\mathbb{R})$ [[Operatore autoaggiunto|autoaggiunto]]
-Nel caso dei momenti $\hat{p}$ 
-$$\langle \phi|\hat{p}\psi\rangle=\int_{\mathbb{R}}dx \phi^{\ast}(x)(-i\hbar\partial_{x}\psi(x))=\int_{-\infty}^{\infty}dx(-i\hbar\partial_{x}\phi(x))^{\ast}\cdot\psi(x)=\langle \hat{p}\phi^{\ast}|\psi\rangle$$
-Avremmo anche potuto usare la completezza dei [[Proiettore|proiettori]] come sopra.

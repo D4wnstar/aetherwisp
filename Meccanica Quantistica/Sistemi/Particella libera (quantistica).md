@@ -1,6 +1,6 @@
 ---
 aliases:
-  - particella quantistica libera
+  - particella libera
 ---
 La **particella libera** è un sistema quantistico costituito da una singola [[Particella]] in assenza di [[Potenziale]], ovvero $V(x)=0$ ovunque. Nel caso classico, questo sistema è banale e ha soluzioni immediate, dato che la particella compie un semplice moto rettilineo a velocità costante, ma nel caso quantistico compaiono problemi non trascurabili e diventa più complesso dell'[[Oscillatore armonico quantistico]].
 ## Soluzione
