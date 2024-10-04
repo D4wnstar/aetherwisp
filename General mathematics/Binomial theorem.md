@@ -1,6 +1,7 @@
 ---
 aliases:
   - binomial expansion
+  - binomial coefficient
 ---
 The **binomial theorem**, or **binomial expansion**, describes the algebraic expansion of powers in a binomial $(x+y)^{n}$. $n$ is typically an integer, but there are generalization for real and complex numbers as well, which are particularly useful to approximate square roots.
 
