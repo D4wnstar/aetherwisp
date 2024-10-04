@@ -1,0 +1,3 @@
+The **gamma distribution** is a real continuous [[probability distribution]] defined by two parameters, $\alpha$ and $\beta$. Its [[probability density function]] is
+$$f(x;\alpha,\beta)=\frac{1}{\beta^{\alpha}\Gamma(\alpha)}x^{\alpha-1}e^{-x/\beta}$$
+where $\Gamma$ is the [[gamma function]]. It is a very general distribution that has applications in many fields. Normally, specific cases of this distribution are used and given names: for $\alpha=k$ and $\beta=1$, we find the [[Erlang distribution]] and for $\alpha=k/2$ and $\beta=2$ we get the [[chi-square distribution]].
