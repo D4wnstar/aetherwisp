@@ -4,7 +4,7 @@ using the [[Binomial theorem|binomial coefficient]], hence the name. $P_{k}$ is 
 $$P_{6}=\begin{pmatrix}n \\ 6\end{pmatrix}0.5^{6}0.5^{n-6}$$
 Unsurprisingly, as the number of attempts $n$ goes up, the probability that it'll occur also goes up.
 
-Its [[expectation value]] is $E[k]=np$ and its [[variance]] is $\text{var}(k)=npq=np(1-p)$.
+Its [[expected value]] is $E[k]=np$ and its [[variance]] is $\text{var}(k)=npq=np(1-p)$.
 ### Moments
 The algebraic [[moment-generating function]] is
 $$M_{k}^{*}(t)=E[e^{tk}]=\sum_{k=0}^{n} e^{tk}\begin{pmatrix}n \\ k\end{pmatrix}p^{k}q^{n-k}=\sum_{k=0}^{n} \begin{pmatrix}n \\ k\end{pmatrix}(e^{t}p)^{k}q^{n-k}=(e^{t}p+q)^{n}$$

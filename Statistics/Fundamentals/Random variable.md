@@ -8,7 +8,7 @@ Random variables are typically written with a capital letter like $X$, whereas s
 ### Discrete random variables
 A discrete random variable $X$ in defined over a discrete sample space $\Omega=\{ x_{1},\ldots,x_{n} \}$ where $n$ may be either finite or infinite. The [[probability]] that $X$ assumes the specific value $x_{i}$ is
 $$P_{x_{i}}=P(X=x_{i})\quad\text{for }i\in \{ 1,\ldots,n \}$$
-The set of all values of $P$ constitutes the probability distribution $\{ P_{X} \}$ associated with $X$ and the function that maps outcomes to these probabilities is called the [[probability mass function]]. The [[expectation value]] $E\equiv \mu$ and [[variance]] $\text{var}\equiv\sigma ^{2}$ are defined as
+The set of all values of $P$ constitutes the probability distribution $\{ P_{X} \}$ associated with $X$ and the function that maps outcomes to these probabilities is called the [[probability mass function]]. The [[expected value]] $E\equiv \mu$ and [[variance]] $\text{var}\equiv\sigma ^{2}$ are defined as
 $$E[X]\equiv\mu_{X}=\sum_{i=1}^{n} P_{i},\quad\text{var}(X)\equiv \sigma ^{2}_{X}=E[(x-\mu_{X})^{2}]=\sum_{i=1}^{n} (x_{i}-\mu_{x})^{2}P_{i}$$
 Common discrete probability distributions are the [[binomial distribution]] and the [[Poisson distribution]]. 
 ### Continuous random variables

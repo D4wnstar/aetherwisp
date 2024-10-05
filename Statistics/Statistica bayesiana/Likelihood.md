@@ -4,4 +4,4 @@ e la likelihood dei parametri condizionata da $x$ è
 $$\theta \rightarrow P(\theta|x):= L(\theta|x)$$
 che si può interpretare come il livello di fiducia che si ha nei parametri $\theta$ avendo osservato $x$.
 
-La likelihood è una componente fondamentale del [[teorema di Bayes per la stima dei parametri]], dove viene moltiplicato per il [[prior]] per ottenere il [[posterior]].
+La likelihood è una componente fondamentale del [[Teorema di Bayes per la stima dei parametri]], dove viene moltiplicato per il [[Prior]] per ottenere il [[Posterior]].

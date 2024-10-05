@@ -4,7 +4,7 @@ aliases:
 ---
 The **Gaussian distribution** or **normal distribution** is a real univariate continuous [[probability distribution]] defined as
 $$N(x;\mu,\sigma ^{2})=\frac{1}{\sqrt{ 2\pi \sigma^{2} }}e^{- \frac{(x-\mu)^{2}}{2\sigma ^{2}}}$$
-where $\mu$ is the [[expectation value]] e $\sigma$ is the [[standard deviation]].
+where $\mu$ is the [[expected value]] e $\sigma$ is the [[standard deviation]].
 
 A **standard normal distribution** is defined as a normal distribution with $\mu=0$ and $\sigma=1$.
 ### Moments
