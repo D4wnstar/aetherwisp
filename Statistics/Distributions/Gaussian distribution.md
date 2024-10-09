@@ -2,22 +2,44 @@
 aliases:
   - normal distribution
 ---
-The **Gaussian distribution** or **normal distribution** is a real univariate continuous [[probability distribution]] defined as
+The **Gaussian distribution** or **normal distribution** is a real univariate continuous [[probability distribution]]. For a [[random variable]] $X$, the [[probability density function]] is
 $$N(x;\mu,\sigma ^{2})=\frac{1}{\sqrt{ 2\pi \sigma^{2} }}e^{- \frac{(x-\mu)^{2}}{2\sigma ^{2}}}$$
-where $\mu$ is the [[expected value]] e $\sigma$ is the [[standard deviation]].
+where $\mu$ is the [[expected value]] e $\sigma ^{2}$ is the [[variance]].
 
-A **standard normal distribution** is defined as a normal distribution with $\mu=0$ and $\sigma=1$.
+A **standard normal distribution** is defined as a normal distribution with $\mu=0$ and $\sigma=1$, which looks like
+$$N(x;0,1)=\frac{1}{\sqrt{ 2\pi }}e^{-x^{2}/2}$$
 ### Moments
-The [[moment-generating function]] for the Gaussian is
-$$M_{x}^{*}(t)=e^{t\mu+t^{2}\sigma ^{2}/2}$$
-For a standard normal distribution, it simplifies to
-$$M_{x}^{*}(t)=e^{t^{2}/2}$$
+The central and algebraic [[moment-generating function]] for the Gaussian are
+$$M_{X}(t)=E[e^{t(X-\mu)}]=e^{\sigma ^{2}t^{2}/2},\qquad M_{X}^{*}(t)=e^{t\mu}M_{X}(t)=e^{t\mu+t^{2}\sigma ^{2}/2}$$
+For a standard normal distribution, they simplify to
+$$M_{X}(t)=e^{t^{2}/2},\qquad M_{X}^{*}(t)=e^{t+t^{2}/2}$$
+
+
+The expected value is
+$$E[X]=\mu=\frac{1}{\sqrt{ 2\pi \sigma ^{2} }}\int_{-\infty}^{\infty} xe^{(x-\mu)^{2}/2\sigma ^{2}} \ dx$$
+The variance is
+$$\text{var}(X)=\sigma ^{2}=\frac{1}{\sqrt{ 2\pi \sigma ^{2} }}\int_{-\infty}^{\infty} x^{2}e^{(x-\mu)^{2}/2\sigma ^{2}} \ dx - \mu ^{2} $$
+Generally, the [[Function moments|moments]] are
+0. $\mu_{0}^{*}=1$
+1. $\mu_{1}^{*}=\mu$ ([[mean]])
+
+0. $\mu_{0}=1$
+1. $\mu_{1}=0$
+2. $\mu_{2}=\sigma ^{2}$ ([[variance]])
+3. $\mu_{3}=0$
+4. $\mu_{4}=3\sigma^{4}$
+
+and the coefficients are
+1. $\gamma_{1}=0$ ([[skewness]], it is symmetrical around the mean)
+2. $\gamma_{2}=0$ ([[kurtosis]])
+### Properties
+- It is [[Normalizzazione|normalized]]: $\frac{1}{\sqrt{ 2\pi \sigma ^{2} }}\int_{-\infty}^{\infty} e^{(x-\mu)^{2}/2\sigma ^{2}} \ dx=1$.
 ### As sum of normal variables
-A sum of [[independent variable|independent variables]] $x_{i}$ that are normally distributed is itself a normal distribution:
-$$y=\sum_{i=1}^{n} x_{i}$$
+A sum of [[independent variable|independent variables]] $X_{i}$ that are normally distributed is itself a normal distribution:
+$$Y=\sum_{i=1}^{n} X_{i}$$
 and its MGF is the sum of all the MGF over $x$:
-$$M_{y}^{*}(t)=\prod_{i=1}^{n}M_{x}^{*}(t)$$
-Let's consider a set of normal variables $\{x_{i}\}_{i}$ that are all normally distributed with mean $\mu$ and [[variance]] $\sigma ^{2}$. As the number of variables $n$ goes to infinity, the sum distribution goes like
+$$M_{Y}^{*}(t)=\prod_{i=1}^{n}M_{X}^{*}(t)$$
+Let's consider a set of normal variables $\{X_{i}\}_{i}$ that are all normally distributed with mean $\mu$ and [[variance]] $\sigma ^{2}$. As the number of variables $n$ goes to infinity, the sum distribution goes like
 $$N\left( \mu, \frac{\sigma ^{2}}{n} \right)$$
 so the deviation tends to go to zero. Now let's consider the variable
 $$z=\frac{\bar{x}-\mu}{\frac{\sigma}{\sqrt{ n }}}$$

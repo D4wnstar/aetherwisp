@@ -23,7 +23,7 @@ where $E$ is the [[expected value]] operator and $f_{X}(x)$ is the [[probability
 Orders 2 and up don't have an immediate interpretation and are therefore mostly unused.
 
 The **central moments** of order $k$ are instead defined as the moments about the expectation of $X$, $\mu_{X}$:
-$$\mu_{k}=E[(x-\mu_{X})^{k}]=\int_{\Omega}(x-\mu_{X})^{k}f_{X}(x)\ dx$$
+$$\mu_{k}=E[(X-\mu_{X})^{k}]=\int_{\Omega}(x-\mu_{X})^{k}f_{X}(x)\ dx$$
 The first few moments are
 0. $\mu_{0}=\int_{\Omega}f_{X}(x)\ dx=\mu^{*}_{0}$ is again the normalization condition for $f_{X}(x)$.
 1. $\mu_{1}=\int_{\Omega}(x-\mu_{X})f_{X}(x)\ dx$ is expectation of $x-\mu_{X}$.
