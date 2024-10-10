@@ -75,4 +75,39 @@ $$\langle \phi|\hat{p}\psi\rangle=-i\hbar\int_{0}^{a}dx \phi^{\ast}(x)\psi'(x)=-
 $$=\underbrace{-i\hbar \phi^{\ast}(x)\psi(x)|_{0}^{a}}\limits_{0}+\int_{0}^{a}dx(-i\hbar\partial_{x}\phi(x))^{\ast}\psi(x)=^{?}\langle \hat{p}^{\dagger}\phi|\psi\rangle$$
 dove il termine calcolato agli estremi si annulla. Per essere vero, oltre che soddisfare l'equazione agli autovalori di $\hat{p}$ deve anche soddisfare le condizioni al contorno. Si trova che non vengono soddisfatte, quindi $\hat{p}$ non è autoaggiunto. Il suo quadrato, $\hat{p}^{2}$, invece si.
 
+
+
+Per una buca infinita simmetrica tra $[-a,a]$ abbiamo
+$$p_{n}=\frac{\hbar \pi}{2a},\qquad E_{n}=\frac{\hbar^{2}\pi^{2}n^{2}}{8a^{2}m}$$
+e gli autostati
+$$\psi_{n}(x)=A_{n}(e^{ip_{n}x/\hbar}-e^{-ip_{n}x/\hbar}e^{-2ip_{n}a/\hbar})$$
+con $\psi_{n}\in L^{2}([-a,a],dx)$. Sviluppiamo $\psi_{n}$:
+$$\psi_{n}(x)=A_{n}e^{-ip_{n}a/\hbar}(\ldots)$$
+Divido per autostati pari e dispari:
+$$\begin{align}
+\psi_{n=2l}(x)&=\tilde{A}_{2l}\sin\left( \frac{\pi}{2a}2lx+\pi l \right)=\tilde{A}_{2l}(-1)^{l}\sin\left( \frac{\pi}{la}x \right)=\tilde{\tilde{A}}_{2l}\sin\left( \frac{l\pi}{a}x \right) \\
+\psi_{n=2l+1}(x)&=\tilde{A}_{2l+1}\sin\left( \frac{\pi}{2a}(2l+1)x+\pi l+ \frac{\pi}{2} \right)=\tilde{\tilde{A}}_{2l+1}\cos\left( \frac{\pi}{2a}(2l+1)x \right)
+\end{align}$$
+e combinandole
+$$\psi_{n}(x)=2A_{n}\sin\left( \frac{\psi n}{2a}x+ \frac{\pi}{2}n \right)$$
+Troviamo la costante di normalizzazione
+$$1=\int_{-a}^{a}\lvert \psi_{n}(x) \rvert ^{2}\ dx=4\lvert A_{n} \rvert ^{2}=\int_{-a}^{a}\sin ^{2}\left( \frac{\pi n}{2a}x+ \frac{\pi}{2}n \right)\ dx=\ldots$$
+Posso fare la sostituzione
+$$y=\frac{\pi n}{2a}+ \frac{\pi}{2}n,\qquad y(+a)=\frac{\pi n}{2}+ \frac{\pi}{2}n=\pi n,\qquad dy=\frac{\pi n}{2a}dx$$
+per trovare l'integrale
+$$\ldots=4\lvert A_{n} \rvert ^{2}\int_{0}^{\pi n} \frac{2a}{\pi n}\sin ^{2}y\ dy=4a\lvert A_{n} \rvert ^{2}\quad\Rightarrow \quad \lvert A_{n} \rvert ^{2}=\frac{1}{2\sqrt{ a }}$$
+e quindi
+$$\psi_{n}(x)=\frac{1}{\sqrt{ a }}\sin\left( \frac{\psi n}{2a}x+ \frac{\pi}{2}n \right)$$
+
+Consideriamo l'[[operatore di parità]] e applichiamolo alla funzione d'onda dell'[[Hamiltoniana]]:
+$$(\hat{H}\hat{\pi}\psi)(x)=- \frac{\hbar^{2}}{2m}(\hat{\pi}\psi)''(x)=- \frac{\hbar^{2}}{2m}\psi''(-x)$$
+Dato che Hamiltoniana e parità sono operatori, è utile sapere se commutano:
+$$(\hat{\pi}\hat{H}\psi)(x)=(\hat{H}\psi)(-x)=- \frac{\hbar^{2}}{2m}\psi''(-x)$$
+quindi commutano: $[\hat{\pi},\hat{H}]=0$. So per il [[teorema di Noether]] che la commutatività con $\hat{H}$ può comportare una degenerazione. Per vedere cosa succede, considero l'$n$-esimo autostato
+$$(\hat{\pi}\psi_{n})(x)=\psi_{n}(-x)=\sin\left( - \frac{\pi}{2a}x+ \frac{\pi}{2}n \right)$$
+Per gli autostati pari
+$$(\hat{\pi}\psi_{2l})(x)=\frac{1}{\sqrt{ a }}(-1)^{l+1}\sin\left( \frac{l\pi}{a}x \right)$$
+Dato che cambia solo per una fase rispetto a $\ket{\psi_{2l}}$, gli stati rappresentano la stessa situazione e quindi non c'è degenerazione. Per gli autostati dispari vale lo stesso, quindi $\ket{\psi_{n}}$ in generale non è degenere a causa di $\hat{\pi}$.
+
+
 [^1]: È interessante notare come la quantizzazione dell'energia è nata da un obbligo matematico (le condizioni al contorno), non uno fisico.
