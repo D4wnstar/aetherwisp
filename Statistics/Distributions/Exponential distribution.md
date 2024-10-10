@@ -1,4 +1,4 @@
-The **exponential distribution** is continuous, positive [[probability distribution]]. For a [[random variable]] $X$, the [[probability density function]] is
+The **exponential distribution** is a continuous [[probability distribution]] over non-negative reals $[0,\infty)$. For a [[random variable]] $X$, the [[probability density function]] is
 $$f_{X}(x)=\frac{1}{\tau}e^{-x/\tau}$$
 where $\tau$ is a parameter that is usually a characteristic time.
 
@@ -26,4 +26,6 @@ The coefficients are
 1. $\gamma_{1}=2$ ([[skewness]], it asymmetrical around the mean)
 2. $\gamma_{2}=6$ ([[kurtosis]])
 ### Properties
-It is [[Normalizzazione|normalized]].
+It is [[Normalizzazione|normalized]] with a constant of $c=1$.
+### Relation to other distributions
+The sum of several exponential random variables, all with the same parameter $\tau$, is an [[Erlang distribution]].
