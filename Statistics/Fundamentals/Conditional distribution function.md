@@ -1,0 +1,1 @@
+The **conditional distribution function** of a set of $N$ [[random variable|random variables]] is the function that gives the [[probability]] of every combination of outcomes when the value of one or more of the random variables is known. In a way, it is a [[joint distribution function]] where one or more variables are "locked" to a specific value.

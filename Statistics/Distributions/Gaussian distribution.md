@@ -1,10 +1,22 @@
 ---
 aliases:
   - normal distribution
+  - standard normal distribution
 ---
 The **Gaussian distribution** or **normal distribution** is a real univariate continuous [[probability distribution]]. For a [[random variable]] $X$, the [[probability density function]] is
 $$N(x;\mu,\sigma ^{2})=\frac{1}{\sqrt{ 2\pi \sigma^{2} }}e^{- \frac{(x-\mu)^{2}}{2\sigma ^{2}}}$$
 where $\mu$ is the [[expected value]] e $\sigma ^{2}$ is the [[variance]].
+
+```mathpad
+%$2:=abs(sigma)^(-1)*e^((-1/2)*(-mu+x)^2*sigma^(-2))*sqrt(2)^(-1)*sqrt(pi)^(-1)
+mu:=0
+%$3:=0
+sigma:=1/2
+%$4:=1/2
+%f(x):=1/sqrt(2pi*sigma^2)*e^(-(x-mu)^2/(2sigma^2))
+plot(f(x), [-4,4], [0,1])==?
+```
+
 
 A **standard normal distribution** is defined as a normal distribution with $\mu=0$ and $\sigma=1$, which looks like
 $$N(x;0,1)=\frac{1}{\sqrt{ 2\pi }}e^{-x^{2}/2}$$

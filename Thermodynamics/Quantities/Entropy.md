@@ -1,0 +1,3 @@
+**Entropy** is a measurement of uniformity of a system. In Clausius' words, it is the "amount of transformation of a system".
+### Etymology
+The word "entropy" was coined by Clausius starting from the Greek work $\tau \rho o\pi \eta$ (tropi) which means "transformation". The "en" comes from "energy". It was added as a prefix to make the word as similar as possible to energy due to them being intrinsically linked.

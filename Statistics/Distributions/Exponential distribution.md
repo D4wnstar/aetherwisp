@@ -2,6 +2,15 @@ The **exponential distribution** is a continuous [[probability distribution]] ov
 $$f_{X}(x)=\frac{1}{\tau}e^{-x/\tau}$$
 where $\tau$ is a parameter that is usually a characteristic time.
 
+```mathpad
+tau:=1
+%$1:=1
+%$2:=(1/3)*e^((-1/3)*x)
+%f(x):=1/tau*e^(-x/tau)
+plot(f(x), [0,5], [0,1])==?
+```
+
+
 This distribution is commonly used in physics to model the wait times of random independent events, such a [[Decadimento nucleare|radioactive]] or [[Decadimento di particelle|particle decay]].
 ### Moments
 The algebraic and central [[Moment-generating function|moment-generating functions]] are
