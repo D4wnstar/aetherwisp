@@ -1,6 +1,7 @@
 ---
 aliases:
   - correlation coefficient
+  - covariance matrix
 ---
 The **covariance** of two [[random variable|random variables]] is a measure of their correlation and joint variability. For two [[Joint distribution function|jointly-distributed]] variables $X$ and $Y$ with finite [[variance]], their covariance is defined as
 $$\text{cov}(X,Y)=E[(X-E[X])(Y-E[Y])]$$
@@ -17,3 +18,20 @@ which is defined in $[-1,1]$. It has the same meaning as the covariance, but wit
 > &=a\sigma_{1}^{2}
 > \end{align}$$
 
+> [!example] Two generic variables
+> Consider two variables $X$ and $Y$, each measured $n$ times for values $x_{i}$ and $y_{i}$.
+
+### Covariance matrix
+Consider a random variables $X$, measured $n$ times. These measurements can be collected in vectors of $n$ elements each
+$$\mathbf{x}=\begin{pmatrix}
+x_{1} \\
+\vdots \\
+x_{n}
+\end{pmatrix}\qquad \mathbf{\mu}=\begin{pmatrix}
+\mu_{1} \\
+\vdots \\
+\mu_{n}
+\end{pmatrix}$$
+where $\mu_{i}$ is the [[expected value]] of the $i$-th measurement, $\mu_{i}=E[x_{i}]$. The **covariance matrix** is defined by its elements $V_{ij}$:
+$$V_{ij}=\rho_{ij}\sigma_{i}\sigma_{j}$$
+It is a [[Matrice simmetrica|symmetrical matrix]], so $V_{ij}=V_{ji}$, and the diagonal contains the variance of each measurement: $V_{ii}=\sigma ^{2}_{i}$.

@@ -1,0 +1,1 @@
+**Thermal equilibrium** is the state a physical system is in when it has no net flow of [[heat]] to other physical systems despite them being connected by a path permeable to heat. In other words, a system is in thermal equilibrium when it isn't isolated but also transfers no heat.
