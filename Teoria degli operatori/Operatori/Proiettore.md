@@ -1,12 +1,12 @@
-Si chiama **proiettore** $\hat{P}_{\psi}$ l'[[operatore lineare]] che, applicato ad un elemento di uno [[spazio vettoriale]], risulta nella componente di quell'elemento che giace su $\psi$. Usando la [[notazione braket]], si scrive
+Si chiama **proiettore** $\hat{P}_{\psi}$ l'[[operatore lineare]] che, applicato ad un elemento di uno [[spazio vettoriale]], risulta nella componente di quell'elemento che giace sulla direzione $\psi$. Usando la [[notazione braket]], si scrive
 $$\hat{P}_\psi=|\psi\rangle\langle\psi|$$
 e applicato ad un vettore $|\phi\rangle$ si scrive
 $$\hat{P}_{\psi}|\phi\rangle=\langle\psi|\phi\rangle|\psi\rangle$$
-Il numero risultante (se si proietta su uno spazio 1D) appartiene al sottospazio unidimensionale generato da $|\psi\rangle$.
+Il numero risultante (se si proietta su uno spazio 1D) appartiene al sottospazio unidimensionale generato da $|\psi\rangle$. In sostanza, il proiettore individua la componente di un vettore su una certa dimensione e lo applica al vettore stesso.
 ### Proprietà
 Un proiettore è un operatore [[idempotenza|idempotente]]
 $$\hat{P}_{\psi}^{2}=\hat{P}_{\psi}\hat{P}_{\psi}=(|\psi\rangle\langle \psi|)(|\psi\rangle\langle \psi|)=\langle \psi|\psi\rangle|\psi\rangle\langle \psi|=\hat{P}_{\psi}$$
-e vale $\hat{P}_{\psi}^{0}=0$.
+usando che $\braket{ \psi | \psi }=1$ e vale $\hat{P}_{\psi}^{0}=0$.
 
 È [[Operatore autoaggiunto|autoaggiunto]], infatti
 $$\langle \phi|\hat{P}_{x}\psi\rangle=\langle \hat{P}_{x}\phi+\phi-\tilde{\phi}|\hat{P}_{x}\psi\rangle=\langle \hat{P}_{x}\phi|\hat{P}_{x}\psi\rangle=\langle \hat{P}_{x}\phi|\hat{P}_{x}\psi+\psi-\tilde{\psi}\rangle=\langle \hat{P}_{x}\phi|\psi\rangle$$
@@ -21,13 +21,19 @@ Per dimostrare che un operatore è un proiettore bisogna dimostrare
 - l'autoaggiuntezza
 - l'idempotenza
 ### Proiettore su base ortonormale
-Presa una [[base]] [[Ortonormalità|ortonormale]] discreta $|\psi\rangle$ costituita da $\{|\psi_{i}\rangle\}^{n}_{i=1}$, si può definire l'operatore
-$$\hat{P}_{i}=|i\rangle\langle i|$$
-che proietta l'argomento sull'$i$-esimo vettore della base ortonormale. Se applicato ad un vettore, ci dà i componenti dell'espansione in [[Serie di Fourier]] nella base:
-$$\hat{P}_{i}|\phi\rangle=|i\rangle\langle i|\phi\rangle=|\phi_{i}\rangle$$
-dato che $\langle i|\phi\rangle$ le componenti $\phi_{i}$. Per questo operatore vale la **relazione di completezza**
-$$\sum\limits_{i=1}^{n}\hat{P}_{\psi_{i}}=\hat{\mathbb{1}}$$
-Questo risultato si estende immediatamente anche al caso a dimensione infinita discreta, prendendo un [[Sistema ortonormale completo]]. Nel caso di un sistema a dimensione infinita continua, c'è bisogno che sia [[Ortonormalità|Dirac-ortonormale]], in qual caso la relazione di completezza diventa
+I proiettori sono particolarmente utili quando si deve trovare la rappresentazione di un vettore o funzione rispetto ad una [[base]]. Infatti, presa una [[base]] [[Ortonormalità|ortonormale]] costituita da $\{|\phi_{i}\rangle\}^{n}_{i=1}$ definita su uno [[spazio di Hilbert]] $\mathcal{H}$, ogni vettore generico $\ket{\psi}$ di $\mathcal{H}$ può essere rappresentato come una combinazione lineare degli elementi della base
+$$\ket{\psi} =\sum_{i=1}^{n} \braket{ \phi_{i} | \psi } \ket{\phi_{i}} $$
+dove $\braket{ \phi_{i} | \psi }$ sono i [[Serie di Fourier|coefficienti di Fourier]]. Lo stesso vale per una base in uno spazio infinito dimensionale e continuo, come ad esempio [[Spazi Lp|L^2]], come
+$$\ket{\psi} =\int_{-\infty}^{\infty} \braket{ x | \psi } \ket{\psi}  \ dx $$
+Ma dovrebbe essere evidente il parallelo con il proiettore. Se definiamo il proiettore sulla direzione $\ket{\phi_{i}}$ come
+$$\hat{P}_{\phi_{i}}=\ket{\phi_{i}} \bra{\phi_{i}} $$
+la sua applicazione su generico vettore $\ket{\psi}$ è $\hat{P}_{\phi_{i}}=\braket{ \phi_{i} | \psi }\ket{\phi_{i}}$. Ma questo non è altro che il singolo termine della serie di Fourier con il quale espandiamo un vettore in una base ortonormale. Vale infatti
+$$\ket{\psi} =\sum_{i=1}^{n} \hat{P}_{\phi_{i}}\ket{\psi} $$
+Ma da questo si può anche ricavare un risultato molto importante. Applicare tutti i proiettori sui vettori di una base su un vettore ci ritorna il vettore stesso. In pratica, la somma di tutti i proiettori su una base ortonormale "non fa nulla". Questo fatto è formalizzato nella **relazione di completezza**
+$$\sum\limits_{i=1}^{n}\hat{P}_{\psi_{i}}=\hat{\mathbf{1}}$$
+dove $\hat{\mathbf{1}}$ è l'operatore identico.
+
+Questo risultato si estende immediatamente anche al caso a dimensione infinita discreta, prendendo un [[sistema ortonormale completo]]. Nel caso di un sistema a dimensione infinita continua, c'è bisogno che sia [[Ortonormalità|Dirac-ortonormale]], in qual caso la relazione di completezza diventa
 $$\int_{-\infty}^{+\infty}|e_{z}\rangle\langle e_{z}|dz=\hat{\mathbb{1}}$$
 ### Risultati utili
 La somma di tutte le proiezioni su una base ortonormale è il vettore stesso, grazie alla completezza:

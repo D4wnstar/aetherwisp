@@ -8,7 +8,7 @@ $$\begin{align}
 &=-i\hbar \overline{\psi(x)}\phi(x)|_{-\infty}^{\infty}+i\hbar \int_{-\infty}^{\infty} \overline{\partial_{x}  \psi (x)}\phi(x) \, dx \\
 &=\int_{-\infty}^{\infty} \overline{-i\hbar \partial_{x}  \psi(x)}\phi(x) \, dx =\braket{ \hat{p}\psi | \phi } 
 \end{align}$$
-usando l'[[integrazione per parti]]. Quindi $\hat{p}$ è autoaggiunto: $\hat{p}=\hat{p}^{+}$.
+usando l'[[integrazione per parti]]. Quindi vale $\braket{ \psi | \hat{p}\phi }=\braket{ \hat{p}\psi | \phi }$. È possibile dimostrare come $\hat{p}$ sia in realtà solo [[Operatore autoaggiunto|hermitiano]] e non propriamente autoaggiunto e che quindi non valga $\hat{p}=\hat{p}^{+}$. Per le necessità della meccanica quantistica, questo non fa differenza.
 ### Autoaggiuntezza di $\hat{q}$
 Consideriamo due funzioni generiche $\psi$ e $\phi$. Ricordiamo che vale
 $$(\hat{q}\psi)(x)=x\psi(x)\tag{2}$$

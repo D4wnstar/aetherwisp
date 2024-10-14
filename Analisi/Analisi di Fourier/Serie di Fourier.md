@@ -1,6 +1,10 @@
+---
+aliases:
+  - coefficienti di Fourier
+---
 Data una [[Funzione generalmente continua]] $f(x)$ definita su un intervallo $]-L,L[$, la sua espansione in **serie trigonometrica di Fourier** canonica è
 $$f(x)=\alpha_{0}+\sum\limits_{n=1}^{\infty}\alpha_{n}\cos\left(\frac{n\pi}{L}x\right)+\sum\limits_{n=1}^{\infty}\beta_{n}\sin\left(\frac{n\pi}{L}x\right)$$
-dove i coefficienti $\alpha_{0}$, $\alpha_{n}$ e $\beta_{n}$ sono
+dove i coefficienti $\alpha_{0}$, $\alpha_{n}$ e $\beta_{n}$ sono detti **coefficienti di Fourier** e valgono
 $$\begin{cases}
 \alpha_{0}=\frac{1}{2L}\int_{-L}^{+L}f(x)dx \\
 \alpha_{n}=\frac{1}{L}\int_{-L}^{+L}f(x)\cos(\frac{n\pi}{L}x)dx \\

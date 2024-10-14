@@ -30,7 +30,7 @@ Il **collasso della funzione d'onda** è un fenomeno quantistico osservato dopo 
 
 ![[Grafico Collasso funzione d'onda|100%|center]]
 ### Valori di aspettazione
-Prendiamo una particella in uno stato $\Psi$. Allora, possiamo determinare il valore di aspettazione della posizione $x$ come
+Prendiamo una particella in uno stato $\Psi$. Allora, possiamo determinare il [[expected value|valore di aspettazione]] della posizione $x$ come
 $$\left\langle x \right\rangle=\int_{-\infty}^{+\infty}x|\Psi(x,t)|^{2}dx=\langle \Psi|x |\Psi\rangle$$
 Cos'è $\left\langle x \right\rangle$? A causa del collasso dopo un'osservazione, misure ripetute daranno sempre lo stesso risultato. Dunque, $\left\langle x \right\rangle$ non può il risultato che ci si aspetta dalla media di molte misure. Invece, $\left\langle x \right\rangle$ è la media di risultati ottenuti da misure su particelle *nello stato* $\Psi$. In altre parole, bisogna misurare particelle che sono nello stato indeterminato, *prima* del collasso. Ciò significa o trovare un modo per "resettare" una particella e farla tornare indeterminata dopo il collasso per misurarla più volte, o misurare un intero ensemble di particelle, tutte nello stesso stato $\Psi$. Allora, il *valore di aspettazione è la media di misure ripetute su un ensemble di sistemi preparati allo stesso modo*.
 
@@ -62,12 +62,14 @@ dove gli stati stazionari $\psi_{n}$ sono la soluzione della forma indipendente 
 $$\Psi_{n}(\vec{r},t)=\sum\limits_{n=1}^{\infty}c_{n}\psi_{n}(\vec{r})e^{-iE_{n}t/\hbar}$$
 Ovviamente se gli stati sono continui e non discreti, la somma diventa un integrale.
 ### Formalizzazione matematica
-Matematicamente, è un elemento di uno [[spazio di Hilbert]] che è il coefficiente di sviluppo degli autostati di posizione di un oggetto. In altre parole, è la *rappresentazione* dell'evoluzione (della posizione) di quell'oggetto in una base. La funzione d'onda indipendente dal tempo in una dimensione ha la forma
-$$\psi(x)=\langle x|\psi\rangle$$
-$$\hat{P}_{x}|\psi\rangle=\sum\limits_{x}|x\rangle\langle x|\psi\rangle=\sum\limits_{x}\psi(x)|x\rangle$$
-usando il [[proiettore]]. In più dimensioni
-$$\psi(\bar{r})=\langle \bar{r}|\psi\rangle$$
-$$\hat{P}_{\vec{r}}|\psi\rangle=\sum\limits_{\bar{r}}|\bar{r}\rangle\langle \bar{r}|\psi\rangle=\sum\limits_{\bar{r}}\psi(\bar{r})|\bar{r}\rangle$$
+Matematicamente, una funzione d'onda è un elemento di uno [[spazio di Hilbert]] individuata come il coefficiente di sviluppo in [[serie]] degli autostati di una particella in qualche [[Rappresentazioni dello stato|rappresentazione]]. Infatti, sebbene uno stato sia universale, una funzione d'onda dipende dalla rappresentazione. In un certo senso, è solo un modo di interpretare lo stato. Per esempio, in rappresentazione della posizione, la funzione d'onda indipendente dal tempo in una dimensione è
+$$\langle x|\psi\rangle=\braket{ \tilde{\psi}_{x} | \psi } =\int_{-\infty}^{\infty} \overline{\tilde{\psi}_{x}(y)}\psi(y) \ dy=\int_{-\infty}^{\infty} \delta(y-x)\psi(y) \ dy = \psi(x)$$
+dove $\ket{\psi}$ è lo stato della particella e $\ket{\tilde{\psi}_{x}}$ è un autostato di posizione della particella, spesso rappresentato solo come $\ket{x}$. $\delta(y-x)$ è la [[delta di Dirac]]. In rappresentazione dei momenti è
+$$\braket{ p | \psi } =\braket{ \psi_{p} | \psi }=\int_{-\infty}^{\infty} \overline{\psi_{p}(y)}\psi(y) \ dy=\int_{-\infty}^{\infty} \frac{e^{-ipy/\hbar}}{\sqrt{ 2\pi \hbar }}\psi(y) \ dy   =\psi(p)$$
+dove di nuovo $\ket{\psi_{p}}$ è un autostato di momento, spesso rappresentato come $\ket{p}$.
 
+È possibile passare da una rappresentazione all'altra compiendo una [[trasformata di Fourier]]. Infatti, sia $\psi(x)$ che $\psi(p)$ appartengono a $L^{2}(\mathbb{R},dx)$ e valgono
+$$\psi(p)=\int_{-\infty}^{\infty} \frac{e^{-ipx/\hbar}}{\sqrt{ 2\pi \hbar }}\psi(x) \ dx,\qquad \psi(x)=\int_{-\infty}^{\infty} \frac{e^{ipx/\hbar}}{\sqrt{ 2\pi \hbar }}\psi(p) \ dp  $$
+quindi trasformando la rappresentazione delle posizioni ci dà quella dei momenti, antitrasformando quella dei momenti ci dà quella delle posizioni.
 
 [^1]: L'esatta operazione da compiere è un [[prodotto scalare]] tra $\Psi$ e l'operatore.
