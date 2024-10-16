@@ -7,51 +7,17 @@ tags: [excalidraw]
 ==⚠  Switch to EXCALIDRAW VIEW in the MORE OPTIONS menu of this document. ⚠==
 
 
-# Text Elements
+# Excalidraw Data
+## Text Elements
 %%
-# Drawing
-```json
-{
-	"type": "excalidraw",
-	"version": 2,
-	"source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/1.9.19",
-	"elements": [],
-	"appState": {
-		"theme": "dark",
-		"viewBackgroundColor": "transparent",
-		"currentItemStrokeColor": "#1e1e1e",
-		"currentItemBackgroundColor": "transparent",
-		"currentItemFillStyle": "hachure",
-		"currentItemStrokeWidth": 1,
-		"currentItemStrokeStyle": "solid",
-		"currentItemRoughness": 1,
-		"currentItemOpacity": 100,
-		"currentItemFontFamily": 1,
-		"currentItemFontSize": 20,
-		"currentItemTextAlign": "left",
-		"currentItemStartArrowhead": null,
-		"currentItemEndArrowhead": "arrow",
-		"scrollX": 0,
-		"scrollY": 0,
-		"zoom": {
-			"value": 1
-		},
-		"currentItemRoundness": "round",
-		"gridSize": null,
-		"gridColor": {
-			"Bold": "#BBBBBBFF",
-			"Regular": "#DFDFDFFF"
-		},
-		"currentStrokeOptions": null,
-		"previousGridSize": null,
-		"frameRendering": {
-			"enabled": true,
-			"clip": true,
-			"name": true,
-			"outline": true
-		}
-	},
-	"files": {}
-}
+## Drawing
+```compressed-json
+N4KAkARALgngDgUwgLgAQQQDwMYEMA2AlgCYBOuA7hADTgQBuCpAzoQPYB2KqATLZMzYBXUtiRoIACyhQ4zZAHoFAc0JRJQgEYA6bGwC2CgF7N6hbEcK4OCtptbErHALRY8RMpWdx8Q1TdIEfARcZgRmBShcZQUebQBWbR4aOiCEfQQOKGZuAG0AXX4IXDg4AGUoqHFUUDBIdXTqiGJcUgBrFLqGQgQKACFcbDblUmEOYgBhNnw2Um5ocg5mOFbM
+
+qE7IbBFArIBJKv0K0baEKZm5iQBiAEYEW9uNiC3SHah99IGhkbHJ6dn5qCLZarLKPZ6vd76ABihHw+AqMGC80kgw0gTB2zWkKObBOAHUSOpuNd+JtMXsDjiTgikRJBB4MS8sQcAErCZSSDjhHJoEngMlMinpADyK2wahgxIADFLSU9yW8DlDOFAobh9LDJby5eDmellVkyoQjNUeLL+fLBYr0gAVLBQACCRGUXAkwQAZusdQrsVFSI6XmwKJIQsR
+
+uBwhHDvVbIQBRcYOwPB0PzVqjKjRiEHRPpm3wJqjITjR7MbCjOEADW48QAbAAOJLxOWl8v4ACa3AAzHWa9oAJzXADsffrg6bFqMbAM3FqXXoBCE1Wu/IAvpm9fo2UXiFzmDz0IXi3KRiQjSbuGbj6RT1U4NWryQALJsYgIeO4TTBMNod0EMIP35zhnflID6aZvwPZRNFwAAKHgh2oXgEKQwdEKlBIAEoNkgFkEGUSNWnmUgoNgnhO1lXhyMQsiKP
+
+Q+IsNXddDUBXEEFFKB2CWcNI3wOV3XIDJcPGJhCA4ZRgLqSBMg/L9uEBRdSU2Ig7zQeSEEUiAOHVao1I04QoCILk5NIRdGItOwACsEGwbIyi0uBn1fd9PwQCDf3wf8LUGDjGBtKd8AkrpYEQeYwmCGzOOw+VmCgAw8xCtAIyjECIBmIZXO4dzPMk1LQkdCLfP87i4VXcA1zod1YXCGcVxAFcgA==
 ```
 %%

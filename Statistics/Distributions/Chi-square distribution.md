@@ -20,6 +20,20 @@ The [[expected value]] is
 $$E[X]=k$$
 and the [[variance]] is
 $$\text{var}(X)=2k$$
+
+The [[Function moments|moments]] are
+0. $\mu_{0}^{*}=1$
+1. $\mu_{1}^{*}=k$ ([[mean]])
+
+0. $\mu_{0}=1$
+1. $\mu_{1}=0$
+2. $\mu_{2}=2k$ ([[variance]])
+3. $\mu_{3}=8k$
+4. $\mu_{4}=12k^{2}+48k$
+
+and the coefficients are
+1. $\gamma_{1}=2 \sqrt{ \frac{2}{k} }$ ([[skewness]], it has a peak at low values and tapers off to the right, goes to zero for $k\to \infty$)
+2. $\gamma_{2}=\frac{12}{k}$ ([[kurtosis]], goes to zero for $k\to \infty$)
 ### As sum of normal variables
 Given a set of normally-distributed variables $\{ X_{i} \}_{i}$, the sum of their squares $Y=\sum_{i=1}^{N}X_{i}^{2}$ is chi-square-distributed with a number of degrees of freedom equal to the number of normal variables being summed, $k=N$. This is the primary reason why this distribution is so common and often given as its definition.
 ### Relation to other distributions
