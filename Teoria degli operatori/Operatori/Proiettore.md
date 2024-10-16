@@ -1,4 +1,4 @@
-Si chiama **proiettore** $\hat{P}_{\psi}$ l'[[operatore lineare]] che, applicato ad un elemento di uno [[spazio vettoriale]], risulta nella componente di quell'elemento che giace sulla direzione $\psi$. Usando la [[notazione braket]], si scrive
+Si chiama **proiettore** $\hat{P}_{\psi}$ l'[[operatore lineare]] che, applicato ad un elemento di uno [[spazio vettoriale]], risulta nella componente di quell'elemento che giace sulla direzione $\psi$ di una [[base]] [[Ortonormalità|ortonormale]]. Usando la [[notazione braket]], si scrive
 $$\hat{P}_\psi=|\psi\rangle\langle\psi|$$
 e applicato ad un vettore $|\phi\rangle$ si scrive
 $$\hat{P}_{\psi}|\phi\rangle=\langle\psi|\phi\rangle|\psi\rangle$$
@@ -6,10 +6,17 @@ Il numero risultante (se si proietta su uno spazio 1D) appartiene al sottospazio
 ### Proprietà
 Un proiettore è un operatore [[idempotenza|idempotente]]
 $$\hat{P}_{\psi}^{2}=\hat{P}_{\psi}\hat{P}_{\psi}=(|\psi\rangle\langle \psi|)(|\psi\rangle\langle \psi|)=\langle \psi|\psi\rangle|\psi\rangle\langle \psi|=\hat{P}_{\psi}$$
-usando che $\braket{ \psi | \psi }=1$ e vale $\hat{P}_{\psi}^{0}=0$.
+usando che $\braket{ \psi | \psi }=1$ ($\psi$ è componente di una base ortonormale) e vale $\hat{P}_{\psi}^{0}=0$.
 
-È [[Operatore autoaggiunto|autoaggiunto]], infatti
+È [[Operatore autoaggiunto|hermitiano]], infatti
 $$\langle \phi|\hat{P}_{x}\psi\rangle=\langle \hat{P}_{x}\phi+\phi-\tilde{\phi}|\hat{P}_{x}\psi\rangle=\langle \hat{P}_{x}\phi|\hat{P}_{x}\psi\rangle=\langle \hat{P}_{x}\phi|\hat{P}_{x}\psi+\psi-\tilde{\psi}\rangle=\langle \hat{P}_{x}\phi|\psi\rangle$$
+
+Sono [[Ortogonalità|ortogonali]] fra loro, ossia presi due proiettori su vettori ortogonali $\phi_{1}$ e $\phi_{2}$, si ha
+$$\braket{ \phi_{1} | \phi_{2} } =0\quad\Rightarrow \quad \hat{P}_{\phi_{1}}\hat{P}_{\phi_{2}}=0$$
+infatti
+$$\hat{P}_{\phi_{1}}\hat{P}_{\phi_{2}}\ket{\psi} =\braket{ \phi_{1} | \hat{P}_{\phi_{2}}\psi }\ket{\phi_{1}} =\braket{ \phi_{1} | \braket{ \phi_{2} | \psi } \phi_{2} }\ket{\phi_{1}} =\braket{ \phi_{2} | \psi } \underbrace{ \braket{ \phi_{1} | \phi_{2} } }_{ 0 } \ket{\phi_{1}} =0  $$
+e più in generale si può scrivere
+$$\hat{P}_{\phi_{i}}\hat{P}_{\phi _{j}}=\delta_{ij}\hat{P}_{\phi_{i}}$$
 
 Ha [[traccia]] unitaria
 $$\text{Tr}(\hat{P}_{\psi})=1$$
@@ -21,7 +28,7 @@ Per dimostrare che un operatore è un proiettore bisogna dimostrare
 - l'autoaggiuntezza
 - l'idempotenza
 ### Proiettore su base ortonormale
-I proiettori sono particolarmente utili quando si deve trovare la rappresentazione di un vettore o funzione rispetto ad una [[base]]. Infatti, presa una [[base]] [[Ortonormalità|ortonormale]] costituita da $\{|\phi_{i}\rangle\}^{n}_{i=1}$ definita su uno [[spazio di Hilbert]] $\mathcal{H}$, ogni vettore generico $\ket{\psi}$ di $\mathcal{H}$ può essere rappresentato come una combinazione lineare degli elementi della base
+I proiettori sono particolarmente utili quando si deve trovare la rappresentazione di un vettore o funzione rispetto ad una base. Infatti, presa una base ortonormale costituita da $\{|\phi_{i}\rangle\}^{n}_{i=1}$ definita su uno [[spazio di Hilbert]] $\mathcal{H}$, ogni vettore generico $\ket{\psi}$ di $\mathcal{H}$ può essere rappresentato come una combinazione lineare degli elementi della base
 $$\ket{\psi} =\sum_{i=1}^{n} \braket{ \phi_{i} | \psi } \ket{\phi_{i}} $$
 dove $\braket{ \phi_{i} | \psi }$ sono i [[Serie di Fourier|coefficienti di Fourier]]. Lo stesso vale per una base in uno spazio infinito dimensionale e continuo, come ad esempio [[Spazi Lp|L^2]], come
 $$\ket{\psi} =\int_{-\infty}^{\infty} \braket{ x | \psi } \ket{\psi}  \ dx $$

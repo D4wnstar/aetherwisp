@@ -1,3 +1,5 @@
-**Entropy** is a measurement of uniformity of a system. In Clausius' words, it is the "amount of transformation of a system".
+**Entropy** $S$ is a measurement of uniformity of a system. In Clausius' words, it is the "amount of transformation of a system". In differential form
+$$dS=\frac{dQ_{\text{rev}}}{T}=k_{B}\ dS_\text{it}$$
+where $Q_\text{rev}$ is the [[heat]] exchanged by a reversible [[thermodynamic transformation]] and $T$ is [[temperature]]. $S_\text{it}$ is the [[entropy (information theory)|information theory entropy]], which becomes thermodynamic entropy when weighed by the [[Costante di Boltzmann|Boltzmann constant]] $k_{B}$.
 ### Etymology
 The word "entropy" was coined by Clausius starting from the Greek work $\tau \rho o\pi \eta$ (tropi) which means "transformation". The "en" comes from "energy". It was added as a prefix to make the word as similar as possible to energy due to them being intrinsically linked.

@@ -1,4 +1,4 @@
-La **delta di Dirac** $\delta(x)$ è una [[Distribuzione temperata]]. Ha le dimensione dell'inverso dell'argomento. È definita come
+La **delta di Dirac** $\delta(x)$ è una [[distribuzione temperata]]. Ha le dimensione dell'inverso dell'argomento. È definita come
 $$\delta(x)=\begin{cases}
 0 & \text{se }x\neq0 \\
 \infty & \text{se }x=0
@@ -40,11 +40,11 @@ ma anche una successione di approssimanti [[Gaussian distribution|Gaussiane]]:
 $$f_{n}(x)=n\frac{e^{-n^{2}x^{2}}}{\sqrt{ \pi }}$$
 Per dimostrare il punto originale, dobbiamo quindi trovare se c'è una successione di $f_{n}$ il cui limite sia la delta di Dirac. In particolare, vogliamo dimostrare che vale
 $$\lim_{ n \to \infty } \underbrace{ \int_{-n}^{n} \frac{e^{-ipx/\hbar}}{2\pi \hbar}\ dx }_{ f_{n}(p) }=\delta(p)$$
-Partiamo da $n=1$:
-$$\int_{-1}^{1} \frac{e^{-ixp/\hbar}}{2\pi \hbar} \ dx =\frac{i\hbar}{p} \left.\frac{e^{-ixp/\hbar}}{2\pi \hbar}\right|_{-1}^{1}=\text{da finire}$$
-da cui
-$$f(p)=\sqrt{ \frac{2\hbar}{\pi} } \frac{\sin(p/\hbar)}{p}$$
-Più in generale, un'altra possibile successione di funzioni utile è
+La $f(p)$ può essere trovata o risolvendo l'integrale direttamente tra $-n$ e $n$ e poi ponendo $n=1$, o ponendo $n=1$ prima e risolvendo l'integrale fra $-1$ e $1$. Sono equivalenti. Risolviamo tra $-n$ e $n$:
+$$\int_{-n}^{n} \frac{e^{-ixp/\hbar}}{2\pi \hbar} \ dx =\frac{1}{2\pi \hbar} \left.\frac{1}{\frac{i}{\hbar}p}e^{ipx/\hbar}\right|_{-n}^{+n}=\frac{1}{2i\pi p}(e^{ipn/\hbar}-e^{-ipn/\hbar})=\frac{1}{\pi } \frac{\sin\left( \frac{p}{\hbar}n \right)}{p}$$
+usando la formula di Eulero per il seno. Ora, con $n=1$, si ha
+$$f(p)=\frac{1}{\pi} \frac{\sin(p/\hbar)}{p}$$
+Più in generale, una possibile successione di funzioni utile è
 $$f_{n}(x)=\frac{\sin(nx)}{\pi x}$$
 ### Risultati utili
 È la derivata (nel senso delle distribuzioni) della [[theta di Heaviside]]:

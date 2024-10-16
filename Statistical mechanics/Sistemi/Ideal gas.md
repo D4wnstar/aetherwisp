@@ -8,6 +8,6 @@ where $P$ is the [[pressure]], $V$ is the volume occupied by the gas, $N$ is the
 
 ![[Schema Ideal Gas state|center]]
 
-The low self-interactivity of the ideal gas shows the limits of the model: when a gas is made to interact with another object of temperature $T$, by the [[Principles of thermodynamics]] the two objects thermalize. But to thermalize, the gas must interact with itself (else the gas would never reach an equilibrium state), so it cannot be used to even define the concept of temperature.
+The low self-interactivity of the ideal gas shows the limits of the model: when a gas is made to interact with another object of temperature $T$, by the [[Laws of thermodynamics]] the two objects thermalize. But to thermalize, the gas must interact with itself (else the gas would never reach an equilibrium state), so it cannot be used to even define the concept of temperature.
 
 "In generale, si porta l'oggetto di cui $T$ a contatto con il gas ideale e si misura $T$."
