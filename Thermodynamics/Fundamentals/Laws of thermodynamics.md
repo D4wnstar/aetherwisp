@@ -19,21 +19,21 @@ The first law can be used by itself to determine three equations for the variati
 The second law was stated by Kelvin in this way:
 
 > [!info] Second law of thermodynamics (Kelvin's statement)
-> There exists no [[thermodynamic transformation]] whose *only* effect is to extract an amount of heat from a reservoir and convert it *entirely* in work.
+> There exists no [[thermodynamic transformation]] whose *only* effect is to extract an amount of heat from a reservoir and convert it *entirely* into work.
 
-Clausius stated it in a different way;
+Clausius stated it in a different way:
 
 > [!info] Second law of thermodynamics (Clausius' statement)
-> There exists no [[thermodynamic transformation]] whose *only* effect is to extract an amount of heat from a reservoir and transfer *all* of it to a hotter reservoir.
+> There exists no [[thermodynamic transformation]] whose *only* effect is to extract an amount of heat from a colder reservoir and transfer it all to a hotter reservoir.
 
 These two statements are, for all purposes, identical. If one is true, then so is the other.
 
 > [!example] Equality of statements
-> 1. Let's assume K's statement is false. Then the transformation converts heat entirely in work. This leaves temperature completely unchanged.
-> 2. Let's assume C's is false and also a [[thermodynamic machine]] which carries out a cyclical transformation (i.e. the start state is identical to the end state). In order:
-> 	1. The machine absorbs heat $Q_{2}$ from the second reservoir at temperature $T_{2}$.
-> 	2. The machine moves heat $Q_{1}$ from the first reservoir at temperature $T_{1}<T_{2}$.
-> 	3. The machine does work $W$ to enact this movement.
+> Let's assume there are two reservoirs at temperatures $T_{1}$ and $T_{2}$, with $T_{2}>T_{1}$.
+> - If Kelvin's statement is false, then we could extract heat from $T_{1}$ and transform it all into work. We could then reverse the process and convert that work back into heat, now placing into $T_{2}$. But now we have made a process whose only effect is to transfer heat from $T_{1}$ to $T_{2}$, which is prevented from Clausius' statement.
+> - If Clausius' statement is false, then we could let some amount of heat $Q_{2}$ move from $T_{1}$ to $T_{2}$ spontaneously. We could then connect a [[Carnot engine]] between $T_{2}$ and $T_{1}$ to extract $Q_{2}$ from $T_{2}$ and return some heat $Q_{1}<Q_{2}$ to $T_{1}$. The net work output of the apparatus is $Q_{2}-Q_{1}>0$. Since this is the only output of the apparatus, Kelvin's statement is contradicted.
+
+At a statistical level, heat is a transfer of energy residing in the random motion of [[Particella|particles]]. In contrast, work requires organized motion from the particles. The ability to convert heat entirely into work would imply a spontaneous tendency to move from chaos to order. Though technically not impossible, it is exceptionally unlikely, as the configuration that leads to order is typically only one, compared to the myriad of other configuration that lead to chaos. The second law of thermodynamics fundamentally describes this tendency at a high level.
 ### Third law
 The third law of thermodynamic was stated by Nernst in 1905 as follows:
 

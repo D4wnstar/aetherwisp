@@ -2,6 +2,7 @@
 aliases:
   - isolated system
   - isolated
+  - system
 ---
 A **physical system** is a portion of the universe that is chosen for physical analysis. All components of the system must coexist and have some physical relationship among themselves. The boundaries of the system are fundamentally arbitrary and often chosen to make the analysis easier or clearer. Everything outside the system is typically called the **(external) environment**.
 

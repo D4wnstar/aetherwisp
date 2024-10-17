@@ -5,7 +5,7 @@
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": true,
+  "collapse-color-groups": false,
   "colorGroups": [
     {
       "query": "path:\"Introduzione all'Astrofisica\"",
@@ -25,7 +25,14 @@
       "query": "path:\"Meccanica Statistica\"  ",
       "color": {
         "a": 1,
-        "rgb": 11076612
+        "rgb": 13378309
+      }
+    },
+    {
+      "query": "path:Thermodynamics  ",
+      "color": {
+        "a": 1,
+        "rgb": 11404292
       }
     },
     {
@@ -116,6 +123,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.2690252970227425,
+  "scale": 0.27084945988633746,
   "close": false
 }
