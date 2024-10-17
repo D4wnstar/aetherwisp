@@ -1,4 +1,8 @@
-Una **funzione d'onda** $\Psi(x,t)$ (anche $\psi(x,t)$) è una funzione che descrive lo stato di una [[Particella]] quantistica. È la soluzione dell'[[Equazione di Schrödinger]]. Esistono diverse interpretazioni fisiche della funzione d'onda.
+---
+aliases:
+  - collasso della funzione d'onda
+---
+Una **funzione d'onda** è una funzione che descrive lo stato di una [[particella]] quantistica. È la soluzione dell'[[equazione di Schrödinger]]. Esistono diverse interpretazioni fisiche della funzione d'onda.
 ### Interpretazione di Born
 Un modo per spiegare a livello fisico la funzione d'onda è l'**interpretazione statistica di Born**. Questa afferma che la [[Norma]] della funzione d'onda ci dà la *probabilità* che la particella si trovi in un determinato punto $x$ allo spazio $t$. In simboli
 $$\int_{a}^{b}|\Psi(x,t)|^{2}dx=\text{probabilità di trovare la particella tra }a\text{ e }b\text{ al tempo }t$$
@@ -29,6 +33,10 @@ usando che $\Psi\in L^{2}$ deve valere $\Psi(\pm\infty) \rightarrow 0$ e allora 
 Il **collasso della funzione d'onda** è un fenomeno quantistico osservato dopo la misura di una particella. Immediatamente dopo aver compiuto una misura, la funzione d'onda della particella *collassa*, cambiando radicalmente forma e diventando un singolo picco attorno al valore misurato. Ciò implica che, compiendo misure rapide una dopo l'altra, si otterrà sempre lo stesso risultato (o comunque uno quasi uguale).
 
 ![[Grafico Collasso funzione d'onda|100%|center]]
+
+Questa è una dinamica *irreversibile*: consideriamo uno stato generico $\ket{\psi}$ in cui si trova la particella prima della misura. Dopo la misura, inevitabilmente collassa in uno dei suoi autostati $\ket{a_{i}}$, dandoci come valore sperimentali il suo autovalore $a_{i}$. L'esperimento può essere ripetuto molte volte su sistemi identicamente preparati, derivando così le probabilità di collasso in ciascuno degli autostati. Ora la domanda è: da queste misure, possiamo andare a ritroso e capire qual era lo stato $\ket{\psi}$ prima del collasso? *No.* La ragione è la seguente: consideriamo lo stato $\ket{\psi}$ nella sua [[rappresentazione spettrale]]:
+$$\ket{\psi} =\sum_{i=1}^{d} \braket{ a_{i} | \psi } \ket{a_{i}} $$
+con $d$ la [[degenerazione]] dello stato. Noi abbiamo bisogno dello scalare $\braket{ a_{i} | \psi }$ per poter trovare i termini. Ma noi abbiamo le *probabilità* di collasso, che sono la *norma quadra* dello scalare $\lvert \braket{ a_{i} | \psi } \rvert^{2}$, non lo scalare in sé. Difatti, $\braket{ a_{i} | \psi }$ è un numero complesso, detto **ampiezza di probabilità**, e le misure sperimentali ci possono solo dare numeri reali. Trovare la radice quadrata della probabilità non è sufficiente, perché perdiamo un'informazione cruciale: la fase dell'ampiezza di probabilità. Senza la fase, non possiamo trovare i termini e senza i termini non possiamo trovare lo stato. Quindi è impossibile, dalle informazioni che ci dà il collasso, invertire il processo per trovare cosa c'era prima.
 ### Valori di aspettazione
 Prendiamo una particella in uno stato $\Psi$. Allora, possiamo determinare il [[expected value|valore di aspettazione]] della posizione $x$ come
 $$\left\langle x \right\rangle=\int_{-\infty}^{+\infty}x|\Psi(x,t)|^{2}dx=\langle \Psi|x |\Psi\rangle$$
@@ -51,8 +59,28 @@ $$\boxed{\begin{align}
 \end{align}}$$
 dove $\hat{q}\equiv x$ e $\hat{p}\equiv(\hbar/i)\partial/\partial x$ sono [[Operatore|operatori]] associati alle [[Osservabile|osservabili]] posizione e quantità di moto e possiamo calcolarne la media ponendoli in mezzo[^1] a $\Psi^{*}$ e $\Psi$ e poi integrando il risultato su tutto $\mathbb{R}$.
 
-Qualunque [[variabile dinamica]] classica $Q$ è esprimibile in funzione di $q$ e $p$. Allora, per calcolare il valore di aspettazione (nello stato $\Psi$) di $Q$, basta sostituire $p$ con $(\hbar/i)\partial/\partial x$ e integrare come sopra. La formula generale è
+Qualunque [[variabile dinamica]] $Q$ è esprimibile in funzione di $q$ e $p$. Allora, per calcolare il valore di aspettazione (nello stato $\Psi$) di $Q$, basta sostituire $p$ con $(\hbar/i)\partial/\partial x$ e integrare come sopra. La formula generale è
 $$\boxed{\left\langle Q(q,p) \right\rangle=\int_{-\infty}^{+\infty}\Psi^{*}Q\left(q, \frac{\hbar}{i}\frac{\partial }{\partial x}\right)\Psi dx=\langle \Psi|\hat{Q} |\Psi\rangle}$$
+
+In generale, per ogni osservabile $A$ associata ad un [[operatore autoaggiunto]] $\hat{A}$, il valore di aspettazione del $\hat{A}$ in uno stato $\ket{\psi}$ è
+$$\langle \hat{A} \rangle _{\psi}=\braket{ \psi | \hat{A}\psi } $$
+
+> [!example] Dimostrazione
+> Considerato un operatore autoaggiunto $\hat{A}$ e uno stato $\ket{\psi}$, la sua media in quello stato è
+> $$\langle \hat{A} \rangle_{\psi}=\sum_{i=1}^{n} a_{i}\braket{ \psi | a_{i} } \braket{ a_{i} | \psi } =\sum_{i=1}^{n} a_{i}\braket{ \psi | \hat{P}_{a_{i}}\psi } =\braket{ \psi | \sum_{i=1}^{n} a_{i}\hat{P}_{a_{i}} |\psi } )=\braket{ \psi | \hat{A}\psi } $$
+> usando la [[rappresentazione spettrale]] dell'operatore, $\hat{A}=\sum_{i=1}^{n}a_{i}\hat{P}_{a_{i}}$.
+
+La media può anche essere rappresentata come la [[traccia]] di un [[proiettore]] su quell'operatore.
+$$\langle \hat{A} \rangle _{\psi}=\text{Tr}(\hat{A}\hat{P}_{\psi})=\text{Tr}(\hat{P}_{\psi}\hat{A})$$
+
+> [!example] Dimostrazione
+> Considerato un operatore autoaggiunto $\hat{A}$ e uno stato $\ket{\psi}$, vale
+> di un operatore autoaggiunto $\hat{A}$ e uno stato $\ket{\psi}$, la sua media in quello stato è
+> $$\begin{align}
+> \langle \hat{A} \rangle _{\psi}&=\sum_{i=1}^{n} a_{i}\hat{P}_{\psi}(a_{i})=\sum_{i=1}^{n} a_{i}\braket{ a_{i} | \psi } \braket{ \psi | a_{i} } =\sum_{i=1}^{n} a_{i}\braket{ a_{i} | \hat{P}_{\psi}a_{i} } =\sum_{i=1}^{n} a_{i}\text{Tr}(\hat{P}_{\psi}\hat{P}_{a_{i}}^{A})= \\
+> &=\sum_{i=1}^{n} \text{Tr}(a_{i}\hat{P}_{\psi}\hat{P}_{a_{i}}^{A})=\text{Tr}(\hat{P}_{\psi}\hat{A})
+> \end{align}$$
+> Per la ciclità della traccia, vale $\text{Tr}(\hat{A}\hat{P}_{\psi})=\text{Tr}(\hat{P}_{\psi}\hat{A})$.
 ### Caso tridimensionale
 La funzione d'onda e le sue proprietà sono facilmente estese a tre dimensioni. Per una funzione d'onda in tre dimensioni $\Psi(\vec{r},t)$ valgono le stesse proprietà del caso unidimensionale. La normalizzazione è su un volume
 $$\int |\Psi(\vec{r},t)|^{2}d^{3}\vec{r}=1$$

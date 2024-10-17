@@ -1,6 +1,11 @@
 La **matrice di densità** o **densità statistica** $\hat{\rho}$ è una matrice $2\times2\in\mathbb{C}^{2\times2}$ che è la forma più generale di una matrice con [[traccia]] unitaria. È definita in forma matriciale come l'[[operatore]]
 $$\hat{\rho}=\pmatrix{\rho & \sigma \\ \sigma^{*} & 1-\rho}$$
 dove $\rho\in[0,1]$ e $\sigma\in\mathbb{C}$.
+
+Una matrice di densità rappresenta lo [[stato]] di un sistema. Preso uno stato $\ket{\psi}$ e una [[sistema ortonormale completo]] $\{ \psi_{i} \}_{i}$, vale
+$$\hat{\rho}=\sum_{i=1}^{n} \lambda_{i}\hat{P}_{\psi_{i}}$$
+dove $\hat{P}$ è il [[proiettore]] sul vettore $\psi_{i}$. Questa è una [[combinazione convessa]], quindi valgono
+$$\sum_{i=1}^{n} \lambda_{i}=1\qquad \lambda_{i}\geq 0$$
 ### Proprietà
 La matrice di densità ha traccia unitaria, ossia
 $$\text{Tr}(\hat{\rho})=1$$

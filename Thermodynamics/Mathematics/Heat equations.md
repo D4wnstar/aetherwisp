@@ -3,11 +3,11 @@ The **heat equations** or **$dQ$ equations** (not to be confused with the [[heat
 The equations are
 $$\begin{align}
 dQ(P,V)&=\left( \frac{ \partial U }{ \partial P }  \right)_{V}dP+\left[ \left( \frac{ \partial U }{ \partial V }  \right)_{P}+P \right]dV \\
-dQ(P,T)&=\left[ \left( \frac{ \partial U }{ \partial F }  \right)_{P}+ P\left( \frac{ \partial V }{ \partial T }  \right)_{P} \right]dT+\left[ \left( \frac{ \partial U }{ \partial P }  \right)_{T}+P\left( \frac{ \partial V }{ \partial P }  \right)_{T} \right]dP \\
+dQ(P,T)&=\left[ \left( \frac{ \partial U }{ \partial P }  \right)_{T}+P\left( \frac{ \partial V }{ \partial P }  \right)_{T} \right]dP+\left( \frac{ \partial H }{ \partial T }  \right)_{P}dT \\
 dQ(V,T)&=\left[ \left( \frac{ \partial U }{ \partial V }  \right)_{T}+P \right]dV+\left( \frac{ \partial U }{ \partial T }  \right)_{V}dT
 \end{align}
 $$
-where $U$ is the [[internal energy]] of the system and $F$ is [[Helmholtz free energy]]. The subscripts mean taking a derivative while holding that variable constant. These derivatives are coefficients that are measured experimentally. Specifically, we have
+where $U$ is the [[internal energy]] of the system and $H$ is [[enthalpy]]. The subscripts mean taking a derivative while holding that variable constant. These derivatives are coefficients that are measured experimentally. Specifically, we have
 $$C_{V}=\left( \frac{ \partial U }{ \partial T }  \right)_{V}\qquad C_{P}=\left( \frac{ \partial H }{ \partial T }  \right)_{P}$$
 as the [[heat capacity]] for constant-volume and isobaric [[Thermodynamic transformation|transformations]].
 ### Derivation
@@ -29,5 +29,5 @@ The first and third equations are done, but the second equation can't be used as
 $$dV=\left( \frac{ \partial V }{ \partial P }  \right)_{T}dP+\left( \frac{ \partial V }{ \partial T }  \right)_{P}dT$$
 and so
 $$dQ(P,T)=\left[ \left( \frac{ \partial U }{ \partial P }  \right)_{T}+P\left( \frac{ \partial V }{ \partial P }  \right)_{T} \right]dP+\left( \frac{ \partial (U+PV) }{ \partial T }  \right)_{P}dT$$
-For convenience, we can use the [[enthalpy]] $H=U+PV$ to simplify things:
+For convenience, we can use the enthalpy $H=U+PV$ to simplify things:
 $$dQ(P,T)=\left[ \left( \frac{ \partial U }{ \partial P }  \right)_{T}+P\left( \frac{ \partial V }{ \partial P }  \right)_{T} \right]dP+\left( \frac{ \partial H }{ \partial T }  \right)_{P}dT$$
