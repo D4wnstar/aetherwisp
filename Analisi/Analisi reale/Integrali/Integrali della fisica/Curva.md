@@ -2,6 +2,8 @@
 tags:
   - integrali
   - integrali-fisica
+aliases:
+  - path
 ---
 Si dice **curva** una funzione continua $γ : I → \mathbb{R}^N$ dove $I$ è un intervallo. L’immagine $γ(I)$ si dice **sostegno della curva**.
 

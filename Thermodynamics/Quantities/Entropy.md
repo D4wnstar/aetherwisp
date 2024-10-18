@@ -1,9 +1,9 @@
 **Entropy** $S$ is a measurement of uniformity and disorder of a system. In Clausius' words, it is the "amount of transformation of a system". In differential form it is defined as
-$$dS=\frac{dQ_{\text{rev}}}{T}=k_{B}\ dS_\text{it}$$
-where $Q_\text{rev}$ is the [[heat]] exchanged by a reversible [[thermodynamic transformation]] and $T$ is [[temperature]]. $S_\text{it}$ is the [[entropy (information theory)|information theory entropy]], which becomes thermodynamic entropy when weighed by the [[Costante di Boltzmann|Boltzmann constant]] $k_{B}$.
+$$dS=\frac{\delta Q_{\text{rev}}}{T}=k_{B}\ dS_\text{it}$$
+where $Q_\text{rev}$ is the [[heat]] exchanged by a reversible [[thermodynamic transformation]] and $T$ is [[temperature]]. $S_\text{it}$ is the [[entropy (information theory)|information theory entropy]], which becomes thermodynamic entropy when weighed by the [[Costante di Boltzmann|Boltzmann constant]] $k_{B}$. Notably, $dS$ is an [[exact differential]], unlike $\delta Q$, which usually isn't.
 
 Entropy is defined up to an additive constant and the difference between two [[stato|states]] $A$ and $B$ connected by a reversible transformation is
-$$\Delta S=S(B)-S(A)\equiv \int_{A}^{B} \frac{dQ}{T}$$
+$$\Delta S=S(B)-S(A)\equiv \int_{A}^{B} \frac{\delta Q}{T}$$
 By [[Clausius' theorem]], $\Delta S$ is independent of path, so long it is reversible.
 ### Irreversible transformations
 To understand the effects of an irreversible transformation, let's define two paths, $P$ and $R$, between the same end states. $P$ is not reversible, $R$ is. The combined process $P-R$ forms an irreversible cycle. Invoking Clausius' theorem again, we know that $\int_{P-R}dQ/T\leq 0$, which in turn means
