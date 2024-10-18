@@ -58,15 +58,15 @@ $$\overline{AA'}=2\sigma_{1}\sqrt{ 1-\rho ^{2} },\qquad \overline{BB'}=2\sigma_{
 The red diagonals ($\overline{C C'}$ and $\overline{DD'}$) are known as the **regression lines**.
 ### idk lol
 Let's consider the variable $\mathbf{y}$ defined as
-$$\mathbf{y}=\mathrm{A}\mathbf{x},\qquad \mathbf{\mu}_{y}=\mathrm{A}\mathbf{\mu}$$
+$$\mathbf{y}=\mathrm{A}\mathbf{x},\qquad \mathbf{\mu}_{y}=\mathrm{A}\boldsymbol{\mu}$$
 where $\mathrm{A}$ is a matrix. The covariance matrix is
 $$\mathrm{V}_{y}=\mathrm{A}\mathrm{V}\mathrm{A}^{T}$$
 Let's also consider a vector $\mathbf{z}$ such that its components are standard-normal distributed:
 $$z_{i}\sim N(0,1)\quad\Rightarrow \quad\sum_{i=1}^{n} z_{i}^{2}\sim \chi_{n}^{2}$$
 $\mathbf{z}$ can be written as
-$$\mathbf{z}=\mathrm{V}^{-1/2}(\mathbf{x}-\mathbf{\mu})$$
+$$\mathbf{z}=\mathrm{V}^{-1/2}(\mathbf{x}-\boldsymbol{\mu})$$
 $\mathbf{z}$ follows a multinormal distribution with covariance matrix $\mathrm{V}_{z}$, so $N(0,\mathrm{V}_{z})$, where $\mathrm{V}_{z}$ is
 $$\mathrm{V}_{z}=\mathrm{V}^{-1/2}\mathrm{V}\mathrm{V}^{-1/2}=\mathrm{I}$$
 since the $z_{i}$ are independent of each other, $\text{cov}(z_{i},z_{j})=0$ for $i\neq j$. Thus, $Q^{2}$ in terms of $\mathbf{z}$ is
-$$Q^{2}=\underbrace{ (\mathbf{x}-\mathbf{\mu})^{T}\mathrm{V}^{-1/2} }_{ \mathbf{z}^{T} }\underbrace{ \mathrm{V}^{-1/2}(\mathbf{x}-\mathbf{\mu}) }_{ \mathbf{z} }=\mathbf{z}^{T}\mathbf{z}=\sum_{i=1}^{n} z_{i}^{2}$$
+$$Q^{2}=\underbrace{ (\mathbf{x}-\boldsymbol{\mu})^{T}\mathrm{V}^{-1/2} }_{ \mathbf{z}^{T} }\underbrace{ \mathrm{V}^{-1/2}(\mathbf{x}-\boldsymbol{\mu}) }_{ \mathbf{z} }=\mathbf{z}^{T}\mathbf{z}=\sum_{i=1}^{n} z_{i}^{2}$$
 which is indeed chi-square-distributed.

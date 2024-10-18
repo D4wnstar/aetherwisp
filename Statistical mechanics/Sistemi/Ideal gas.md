@@ -14,3 +14,11 @@ The low self-interactivity of the ideal gas shows the limits of the model: when 
 ### Properties
 The [[heat capacity]] by volume of an ideal gas is
 $$C_{V}=\frac{3}{2}Nk_{B}$$
+### Entropy
+The [[entropy]] of an ideal gas can calculated as a function of volume $V$ and temperature $T$ by explicitly integrating $dS=dQ/T$. Let's consider a [[stato|state]] $A$, which we approach from two different states: one using an constant-volume transformation (path 1), the other using a isothermal one (path 2).
+
+Along path 1, $V$ is constant, so
+$$\int \frac{dQ}{T}=C_{V}\int \frac{dT}{T}$$
+and thus if we start the transformation at temperature $T_{0}$ we get
+$$S(V,T)=S(V,T_{0})+C_{V}\int_{T_{0}}^{T} \frac{dT}{T}=S(V,T_{0})+C_{V}\ln \frac{T}{T_{0}}$$
+(TODO: Finish this proof)
