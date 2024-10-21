@@ -4,7 +4,7 @@ o equivalentemente (grazie alla linearità)
 $$||Ux||=||x||$$
 Valgono anche
 $$U^{+}U=I\quad;\quad||U||=1$$
-con $I$ la matrice identica. In dimensione finita, l'unitarietà è sufficiente a garantire l'invertibilità dell'operatore, ma ciò in dimensione infinita garantisce solo l'iniettività, dato che
+con $I$ l'operatore identico. In dimensione finita, l'unitarietà è sufficiente a garantire l'invertibilità dell'operatore, ma in dimensione infinita garantisce solo l'iniettività, dato che
 $$Ux=Uy \quad \Rightarrow \quad 0=||U(x-y)||=||x-y|| \quad \Rightarrow \quad x=y$$
 Per ottenere la suriettività anche in dimensione infinita, bisogna porre la condizione
 $$\text{Imm}U=H$$

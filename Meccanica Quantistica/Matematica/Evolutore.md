@@ -25,3 +25,46 @@ $$\hat{U}_{t}^{\dagger}\hat{U}_{t}=\hat{U}_{t}\hat{U}_{t}^{\dagger}=\mathbf{\hat
 che è valido *solo* perché $\frac{i}{\hbar}t\hat{H}$ e $-\frac{i}{\hbar}t\hat{H}$ [[Commutatore|commutano]]. Questo è perché, esprimendo due esponenziali come [[serie esponenziale]], si trova
 $$e^{\hat{A}}e^{\hat{B}}\neq e^{\hat{A}+\hat{B}}$$
 in generale. Ciò è vero solo se $\hat{A}$ e $\hat{B}$ commutano.
+### Spin
+È possibile rappresentare l'evolutore di un sistema in $\mathbb{C}^{2}$ tramite le [[matrici di Pauli]]. Presa l'Hamiltoniana del sistema $\hat{H}$ abbiamo
+$$\hat{U}_{t}=e^{-it \hat{H}/\hbar}=e^{(i/\hbar)t (\hbar \omega/2)\hat{\sigma}_{z}}=e^{it\omega \hat{\sigma}_{z}/2}=\sum_{k=0}^{\infty} \left( \frac{it\omega}{2} \right)^{k} \frac{1}{k!}\hat{\sigma}_{z}^{k}=$$
+$$=\hat{\mathbf{1}}\left( \sum_{l=0}^{\infty} \left( \frac{it\omega}{2} \right)^{2l} \frac{1}{(2l)!} \right)+\hat{\sigma}_{z}\left( \sum_{j=0}^{\infty} \left( \frac{i\omega}{2}\right)^{2j+1} \frac{1}{(2j+1)!} \right)=$$
+$$=\left( \cos \frac{\omega t}{2} \right)\hat{\mathbf{1}}+i\left( \sin \frac{\omega t}{2} \right)\hat{\sigma}_{z}$$
+In forma matriciale, riscrivendo seno e coseno in forma complessa, si trova
+$$\hat{U}_{t}=\begin{pmatrix}
+e^{i\omega t/2} & 0 \\
+0 & e^{-i\omega t/2}
+\end{pmatrix}$$
+C'è un modo più semplice per derivare questa forma. La matrice $\hat{\sigma}_{z}$ è
+$$\hat{\sigma}_{z}=\begin{pmatrix}
+1 & 0  \\
+0 & 0
+\end{pmatrix}-\begin{pmatrix}
+0 & 0 \\
+0 & 1
+\end{pmatrix}$$
+e una funzione di essa è
+$$f(\hat{\sigma}_{z})=f(1)\begin{pmatrix}
+1 & 0 \\
+0 & 0
+\end{pmatrix}-f(-1)\begin{pmatrix}
+0 & 0 \\
+0 & 1
+\end{pmatrix}=\ldots$$
+In questo caso $f(x)=e^{(i\omega t/2)x}$, da cui
+$$\ldots=e^{i\omega t/2}\begin{pmatrix}
+1 & 0 \\
+0 & 0
+\end{pmatrix}-e^{-i\omega t/2}\begin{pmatrix}
+0 & 0 \\
+0 & 1
+\end{pmatrix}=\begin{pmatrix}
+e^{i\omega t/2} & 0 \\
+0 & e^{-i\omega t/2}
+\end{pmatrix}$$
+
+Un procedimento simile può essere usato per trovare l'evolutore in funzione di $\hat{\sigma}_{x}$:
+$$\hat{U}_{t}=\cos \frac{\omega t}{2}\hat{\mathbf{1}}+i \sin \frac{\omega t}{2}\hat{\sigma}_{x}=\begin{pmatrix}
+\cos \frac{\omega t}{2} & i\sin \frac{\omega t}{2} \\
+i\sin \frac{\omega t}{2} & \cos \frac{\omega t}{2}
+\end{pmatrix}$$

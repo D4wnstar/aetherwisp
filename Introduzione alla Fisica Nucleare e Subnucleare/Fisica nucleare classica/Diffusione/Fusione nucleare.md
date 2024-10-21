@@ -32,7 +32,7 @@ con $\lambda$ la [[Formula di de Broglie|lunghezza d'onda di De Broglie]]. Dato 
 
 Nel contesto di stelle, o comunque gas ad una certa temperatura $T$, possiamo assumere che le velocità delle particelle del nucleo stellare siano distribuite secondo una [[distribuzione di Maxwell]]. La probabilità di avere una velocità sufficientemente alta si dimostra avere la forma
 $$P_{maxwell}\propto\exp\left(- \frac{mv^{2}}{2k_{B}T}\right)$$
-con $k_{B}$ la [[costante di Boltzmann]]. La probabilità di fusione totale è dunque il prodotto $P_{tunnel}P_{maxwell}$. Si dimostra che la probabilità è massimizzata per velocità
+con $k_{B}$ la [[Boltzmann constant]]. La probabilità di fusione totale è dunque il prodotto $P_{tunnel}P_{maxwell}$. Si dimostra che la probabilità è massimizzata per velocità
 $$v=\left(\frac{2\pi q_{1}q_{2}k_{B}T}{\hbar m}\right)^{1/3}$$
 con $\hbar$ la [[Costante di Planck|costante di Planck ridotta]]. Le condizioni minime per accendere il reattore a fusione nel nucleo allora sono
 $$\boxed{P_{reaz}\propto \exp\left(- \left( \frac{T}{T_{0}} \right)^{-1/3}\right)}$$

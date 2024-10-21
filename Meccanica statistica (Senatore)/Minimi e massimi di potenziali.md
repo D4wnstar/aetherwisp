@@ -1,4 +1,4 @@
-Considero una trasformazione reversibile di un gas da $V_{1}$ a $V_{2}$ all'interno di un termostato. L'energia interna del sistema è $E=\frac{3}{2}Nk_{b}T$, dove $k_{b}$ è la [[Costante di Boltzmann]]. La variazione di energia (con il pedice $g$ che sta per gas):
+Considero una trasformazione reversibile di un gas da $V_{1}$ a $V_{2}$ all'interno di un termostato. L'energia interna del sistema è $E=\frac{3}{2}Nk_{b}T$, dove $k_{b}$ è la [[Boltzmann constant]]. La variazione di energia (con il pedice $g$ che sta per gas):
 $$dE_{g}=0=TdS_{g}-PdV_{g}$$
 $$TdS_{g}=PdV_{g}\quad \Rightarrow\quad dS_{g}= \frac{P}{T}dV_{g}$$
 Dato che siamo in una trasformazione reversibile, possiamo fare l'integrale con l'uguaglianza per il [[Principi della termodinamica#Primo principio|primo principio della termodinamica]]

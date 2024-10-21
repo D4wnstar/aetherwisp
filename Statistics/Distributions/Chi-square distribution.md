@@ -45,4 +45,4 @@ and therefore the one for $v^{2}$ is, by substitution,
 $$g(v^{2})=\frac{1}{\sqrt{ 2\pi }}\left( \frac{v^{2}}{\sigma ^{2}} \right)^{1/2}e^{-v^{2}/2\sigma ^{2}} \frac{1}{\sigma ^{2}}=\frac{1}{\sqrt{ 2\pi }} \frac{v}{\sigma ^{3}}e^{-v^{2}/2\sigma ^{2}}$$
 and for $v$ we get
 $$h(v)=g(v^{2})2v=\frac{2}{\sqrt{ 2\pi }}\frac{v^{2}}{\sigma ^{3}}e^{-v^{2}/2\sigma ^{2}}$$
-This is called the [[Maxwell-Boltzmann distribution]] and is used for modeling stochastic motion at molecular or atomic scale. It can be found that $\sigma=k_{B}T/m$ where $k_{B}$ is the [[costante di Boltzmann|Boltzmann constant]], $T$ is the gas temperature and $m$ is the mass of the molecules.
+This is called the [[Maxwell-Boltzmann distribution]] and is used for modeling stochastic motion at molecular or atomic scale. It can be found that $\sigma=k_{B}T/m$ where $k_{B}$ is the [[Boltzmann constant|Boltzmann constant]], $T$ is the gas temperature and $m$ is the mass of the molecules.

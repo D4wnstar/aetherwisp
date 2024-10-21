@@ -6,13 +6,17 @@ aliases:
 ---
 The **laws of thermodynamics** are a set of experimentally derived laws that describe the fundamental behavior of thermodynamics. They are very useful for predicting thermal behavior.
 ### First law
-The first law states that the difference between [[heat]] $Q$ absorbed by a system and the [[work]] $W$ done by that system is a variation of the system's [[internal energy]] $U$:
-$$\Delta U=\Delta Q-\Delta W$$
+The first law states that the difference between [[heat]] $Q$ absorbed by a system and the [[work]] $W$ done by that system is a variation of the system's [[internal energy]] $U$.
+
+> [!info] First law of thermodynamics
+> The internal energy $U$ of a system varies according to
+> $$\Delta U=\Delta Q-\Delta W$$
+
 This is a form of conservation of energy and shows that heat is "just another type" of energy.
 
 It can also be expressed in differential form as
-$$dU=dQ-dW$$
-$dU$ is an [[exact differential]], which is useful as it proves that $U$ is such that $\int dU$ is independent of the path taken and is uniquely determined by the boundaries[^1]. The boundaries in this case are system [[stato|states]], so $U$ is uniquely determined by the state(s) of the system. This makes $U$ an [[equation of state]], $U(P,V,T)$, where $P$ is [[pressure]], $V$ is volume and $T$ is [[temperature]].
+$$dU=\delta Q-\delta W$$
+$dU$ is an [[exact differential]], which is useful as it proves that $\int dU$ is independent of the path taken and is uniquely determined by the boundaries[^1]. The boundaries in this case are system [[stato|states]], so $U$ is uniquely determined by the state(s) of the system. This makes $U$ an [[equation of state]], $U(P,V,T)$, where $P$ is [[pressure]], $V$ is volume and $T$ is [[temperature]].
 
 The first law can be used by itself to determine three equations for the variation of heat called [[heat equations]].
 ### Second law
@@ -43,4 +47,4 @@ The third law of thermodynamic was stated by Nernst in 1905 as follows:
 
 This law implies that reaching absolute zero is impossible, as reaching zero entropy is itself not possible.
 
-[^1]: Notably, $dQ$ and $dW$ are in general *not* exact, but their difference *is*.
+[^1]: Notably, $\delta Q$ and $\delta W$ are in general *not* exact, but their difference *is*.

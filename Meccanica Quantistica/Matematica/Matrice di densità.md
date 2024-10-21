@@ -1,11 +1,9 @@
-La **matrice di densità** o **densità statistica** $\hat{\rho}$ è una matrice $2\times2\in\mathbb{C}^{2\times2}$ che è la forma più generale di una matrice con [[traccia]] unitaria. È definita in forma matriciale come l'[[operatore]]
-$$\hat{\rho}=\pmatrix{\rho & \sigma \\ \sigma^{*} & 1-\rho}$$
-dove $\rho\in[0,1]$ e $\sigma\in\mathbb{C}$.
+La **matrice di densità** o **densità statistica** $\hat{\rho}$ è una matrice con [[traccia]] unitaria definita come la forma matriciale di un [[operatore lineare]] [[Operatore semidefinito positivo|semidefinito positivo]] detto **operatore densità**. Essa descrive un sistema quantistico con più possibili [[stato|stati]] e permette di calcolare la [[probability|probabilità]] di riduzione del pacchetto d'onda in ogni possibile [[Equazione agli autovalori|autostato]] a seguito di una misura. È una forma più generale della rappresentazione in forma vettoriale, che è limitata agli stati puri. Le matrici di densità possono invece anche descrivere stati misti, e sono generalmente usata per questo[^1].
 
-Una matrice di densità rappresenta lo [[stato]] di un sistema. Preso uno stato $\ket{\psi}$ e una [[sistema ortonormale completo]] $\{ \psi_{i} \}_{i}$, vale
-$$\hat{\rho}=\sum_{i=1}^{n} \lambda_{i}\hat{P}_{\psi_{i}}$$
-dove $\hat{P}$ è il [[proiettore]] sul vettore $\psi_{i}$. Questa è una [[combinazione convessa]], quindi valgono
-$$\sum_{i=1}^{n} \lambda_{i}=1\qquad \lambda_{i}\geq 0$$
+Preso uno stato qualunque $\ket{\psi}$ e una [[sistema ortonormale completo]] $\{ a_{i} \}_{i}$ nello [[spazio di Hilbert]] di $\psi$, vale
+$$\hat{\rho}=\sum_{i=1}^{n} \lvert \braket{ a_{i} | \psi } \rvert ^{2}\hat{P}_{a_{i}} =\sum_{i=1}^{n} \hat{P}_{a_{i}}\hat{P}_{\psi}\hat{P}_{a_{i}}$$
+dove $\hat{P}$ sono [[proiettore|proiettori]]. I coefficienti $\lvert \braket{ a_{i} | \psi } \rvert^{2}$ sono probabilità, quindi la somma è una [[combinazione convessa]]:
+$$\sum_{i=1}^{n} \lvert \braket{ a_{i} | \psi } \rvert ^{2}=1\qquad \lvert \braket{ a_{i} | \psi } \rvert ^{2}\geq 0$$
 ### Proprietà
 La matrice di densità ha traccia unitaria, ossia
 $$\text{Tr}(\hat{\rho})=1$$
@@ -13,6 +11,9 @@ Detti $\rho_{1}$ e $\rho_{2}$ gli [[Equazione agli autovalori|autovalori]] della
 $$\det(\hat{\rho})=\rho_{1}\rho_{2}, \quad \text{Tr}(\hat{\rho})=\rho_{1}+\rho_{2}$$
 La matrice di densità è [[Matrice hermitiana|autoaggiunta]]:
 $$\hat{\rho}=\overline{\hat{\rho}^{T}}$$
+Se $\hat{\rho}$ può essere scritto come un semplice proiettore su uno stato $\ket{\psi}$
+$$\hat{\rho}=\hat{P}_{\psi}=\ket{\psi} \bra{\psi} $$
+allora $\ket{\psi}$ è uno stato puro. Altrimenti, $\ket{\psi}$ è uno stato misto.
 ### Rappresentazione di Bloch
 È possibile rappresentare la matrice di densità in forma più compatta usando le [[matrici di Pauli]]. Chiamando $\vec{r}=(r_{1},r_{2},r_3)$ un vettore qualunque detto **vettore di Bloch**, si ha
 $$\hat{\rho}= \frac{1+\vec{r}\cdot\vec{\sigma}}{2}$$
@@ -79,3 +80,5 @@ $$\mbox{Tr}\hat{\rho}=\sum\limits_{\alpha}\lambda_{\alpha}=1$$
 $$\hat{P}_{\alpha}=|\psi_{\alpha}\rangle\langle \psi_{\alpha}||\psi\rangle\langle \psi|=1$$
 $$\hat{P}=|\psi_{i}\rangle\langle \psi_\alpha||\psi\rangle\langle \psi|=0$$
 con $\psi_{i}$ ket della base e sapendo che $\psi_{i} \perp \psi_{\alpha}$ sono ortogonali.
+
+[^1]: Va notato che le matrici di densità per stati misti dovuti da un [[ensemble]] di stati puri e matrici per stati misti dovuti ad [[entanglement quantistico]] sono in genere diverse. Ad esempio, la matrice di densità per un ensemble composto in parti uguali da stati $\ket{\psi_{1}}$ e $\ket{\psi_{2}}$ sarà diversa da quella per un sistema intrecciato tra $\ket{\psi_{1}}$ e $\ket{\psi_{2}}$ con ampiezze di probabilità uguali.

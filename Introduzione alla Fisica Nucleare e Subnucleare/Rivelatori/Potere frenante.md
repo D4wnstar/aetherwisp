@@ -43,7 +43,7 @@ I limiti $b_{max}$ e $b_{min}$ devono essere presi con cognizione di causa, dato
 
 Chiamando
 $$N_{0}=\frac{n_{mol}N_{A}}{V}=\frac{\rho V}{VA}N_{A}=\frac{\rho N_{A}}{V}$$
-con $N_{A}$ il [[numero di Avogadro]], $\rho$ la densità del materiale e $A$ il [[Atomo|numero di massa atomica]] del materiale, possiamo esprimere la **formula di Bohr**:
+con $N_{A}$ il [[Avogadro number]], $\rho$ la densità del materiale e $A$ il [[Atomo|numero di massa atomica]] del materiale, possiamo esprimere la **formula di Bohr**:
 $$S(E)=- \frac{dE}{dx}=4\pi r^{2}_{e}mc^{2} \frac{N_{A}Z\rho}{A} \frac{z^{2}}{\beta^{2}}\ln\left(\frac{mc^{2}\beta^{2}\gamma^{2}}{\nu h}\right) \quad \left[\frac{\text{MeV}}{\text{cm}}\right]$$
 che può essere espressa in funzione dello *spessore massiccio* $X=\rho x$, come
 $$S(E)=- \frac{dE}{dX}=0.3 \frac{z^{2}Z}{\beta^{2}A}\ln\left(\frac{mc^{2}\beta^{2}\gamma^{2}}{I}\right) \quad \left[\frac{\text{MeV}}{\text{g cm}}\right]$$
@@ -85,7 +85,7 @@ con
 $$L_{R}^{-1}=\ln\left(\frac{183}{Z^{\frac{1}{3}}}\right) \frac{4 r_{0}^{2}N_{A}Z^{2}\alpha\rho}{A}$$
 dove
 - $r_{0}$ è il raggio classico dell'elettrone.
-- $N_A$ è il [[numero di Avogadro]].
+- $N_A$ è il [[Avogadro number]].
 - $\alpha$ è la [[costante di struttura fine]].
 - $\rho$ è la densità del materiale.
 - $Z$ è il numero atomico del materiale.

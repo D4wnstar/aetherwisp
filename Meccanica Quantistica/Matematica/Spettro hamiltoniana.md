@@ -17,7 +17,7 @@ E\psi_{2}(x)\psi_{1}(x)&=- \frac{\hbar^{2}}{2m}\psi_{2}''(x)\psi_{1}(x)+V(x)\psi
 \end{align}$$
 ma adesso posso eguagliare le due equazioni per trovare
 $$0=\psi_{1}''(x)\psi_{2}(x)-\psi_{2}''(x)\psi_{1}(x)=\frac{d}{dx}(\psi_{1}'(x)\psi_{2}(x)-\psi_{1}(x)\psi_{2}'(x))$$
-da cui si evince che $\psi_{1}'(x)\psi_{2}-\psi_{1}(x)\psi_{2}'(x)$ è pari ad una costante $c$. Ma dato che le autofunzioni devono ad quadrato sommabile e quindi andare a zero all'infinito. Ma l'unica costante che va a zero a infinito e lo zero stesso, quindi $c=0$. In altre parole,
+da cui si evince che $\psi_{1}'(x)\psi_{2}-\psi_{1}(x)\psi_{2}'(x)$ è pari ad una costante $c$. Ma le autofunzioni devono essere a quadrato sommabile e quindi andare a zero all'infinito. Ma l'unica costante che va a zero a infinito e lo zero stesso, quindi $c=0$. In altre parole,
 $$\psi_{1}'(x)\psi_{2}(x)=\psi_{1}(x)\psi_{2}'(x)\quad\Rightarrow \quad \frac{\psi_{1}'(x)}{\psi_{1}(x)}=\frac{\psi_{2}'(x)}{\psi_{2}(x)}\quad\Rightarrow \quad \frac{d}{dx}\ln \psi_{1}(x)=\frac{d}{dx}\ln \psi_{2}(x)\quad\Rightarrow$$
 $$\Rightarrow \quad \ln \psi_{1}(x)=\ln \psi_{2}(x)+a\quad\Rightarrow \quad \psi_{1}(x)=\psi_{2}(x)e^{a}$$
 

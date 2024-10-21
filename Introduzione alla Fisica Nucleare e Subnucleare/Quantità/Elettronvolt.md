@@ -11,7 +11,7 @@ $$m=1 eV/c^{2}$$
 ma in [[unità naturali]] $c=1$, quindi in genere la si omette, scrivendo semplicemente
 $$m=1eV$$
 
-Inoltre, possiamo convertire tra energia cinetica e temperatura mediante la [[costante di Boltzmann]]. Come sopra, è comune usare una quantità in elettronvolt di energia cinetica per riferirsi ad una temperatura e viceversa, come
+Inoltre, possiamo convertire tra energia cinetica e temperatura mediante la [[Boltzmann constant]]. Come sopra, è comune usare una quantità in elettronvolt di energia cinetica per riferirsi ad una temperatura e viceversa, come
 - temperatura ambiente: $20°C=293K \Rightarrow 2.5\times10^{-5}eV$
 - temperatura della superficie del Sole: $6000K \Rightarrow 0.5eV$
 - temperatura del centro del Sole: $10^{7}K \Rightarrow 0.9keV$

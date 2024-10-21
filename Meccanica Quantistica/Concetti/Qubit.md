@@ -1,7 +1,7 @@
-Un **qubit** è un vettore bidimensionale definito in uno [[spazio di Hilbert]] $\mathbb{C}^{2}$ in una [[base]] composta da due vettori detti di [[spin]] *up* e *down*, $|\uparrow z\rangle$ e $|\downarrow z\rangle$, definiti come
-$$|\uparrow z\rangle=\pmatrix{1 \\ 0}, \quad |\downarrow z\rangle=\pmatrix{0 \\ 1}$$
+Un **qubit** è un vettore bidimensionale definito in uno [[spazio di Hilbert]] $\mathbb{C}^{2}$ in una [[base]] composta da due vettori detti di [[spin]] up e down, $|0\rangle$ e $|1\rangle$, definiti come
+$$|0\rangle=\pmatrix{1 \\ 0}, \quad |1\rangle=\pmatrix{0 \\ 1}$$
 La loro combinazione lineare è un qubit
-$$|w\rangle=\left(\matrix{\alpha \\ \beta}\right)=\alpha|\uparrow z\rangle+\beta|\downarrow z\rangle\in\mathbb{C}^{2}$$
+$$|w\rangle=\left(\matrix{\alpha \\ \beta}\right)=\alpha|0\rangle+\beta|1\rangle\in\mathbb{C}^{2}$$
 Deve valere anche
 $$|\alpha|^{2}+|\beta|^{2}=1$$
 

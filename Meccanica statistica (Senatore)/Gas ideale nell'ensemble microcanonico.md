@@ -13,7 +13,7 @@ applicandola a $\Sigma$ si trova
 $$\Sigma\simeq\left[ \frac{V}{h^{3}} \left(\frac{2\pi mE2e}{3N}\right)^{\frac{3}{2}} \frac{e}{N}\right]^{N}$$
 e l'[[entropia]] è
 $$\boxed{S=k_{B}\ln\Sigma=Nk_{B}\ln\left[ \frac{V}{N}e^{\frac{5}{2}}\left(\frac{4\pi mE}{3Nh^{2}}\right)^\frac{3}{2}\right]}$$
-con $k_{B}$ la [[costante di Boltzmann]]. Si vede che l'entropia è [[Proprietà intensive e estensive|estensiva]].
+con $k_{B}$ la [[Boltzmann constant]]. Si vede che l'entropia è [[Proprietà intensive e estensive|estensiva]].
 Prendo il [[Principi della termodinamica#Primo principio|primo principio della termodinamica]] in funzione del numero di elementi
 $$dE=TdS-PdV+\mu dN$$
 $$\frac{1}{T}=\frac{\partial }{\partial E}Nk_{B}\ln\left[ \frac{V}{N}e\left(\frac{4\pi meE}{3Nh^{2}}\right)^\frac{3}{2}\right]=\ldots$$

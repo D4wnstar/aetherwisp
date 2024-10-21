@@ -18,7 +18,7 @@ L'insieme di tutti i bra costituisce lo [[spazio duale]] di $C^{N}$ e quindi i b
 ### Dimensione infinita
 Prendo una funzione $f$ in uno [[spazio di Hilbert]] $\mathcal{H}$. Allora chiamo **bra** la funzione lineare $\langle f|$ e **ket** il vettore infinito-dimensionale $|v\rangle$.
 $$\langle f|=\int f^{*} (\ldots)\quad ; \quad |v\rangle=(v_{1},v_{2},\ldots)$$
-e $\langle f|$ può essere come un'istruzione ad integrare su un certo vettore rappresentato da un ket.
+e $\langle f|$ può essere visto come un'istruzione ad integrare su un certo vettore rappresentato da un ket.
 
 
 ---

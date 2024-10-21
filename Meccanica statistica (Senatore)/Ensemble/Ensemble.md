@@ -4,7 +4,7 @@ Consideriamo lo spazio delle fasi a $6N$ dimensioni dei punti rappresentativi: $
 
 Diciamo che esiste una funzione [[Hamiltoniana]] $H(q,p)=E$ che è uguale ad una qualche costante. Denotiamo le derivate con $\dot{q}_{i}=\frac{\partial x}{\partial p_{i}}$ e $\dot{p}_{i}=\frac{\partial x}{\partial q_{i}}$. Allora la funzione $x$ ci descrive un'ipersuperficie in $6N-1$ dimensioni. Se troviamo questa funzione, possiamo trovare una media sullo spazio delle fasi, anziché usare la media nel tempo.
 
-Ovviamente trattare ogni punto singolarmente è impossibile per il semplice numero di punti presenti ([[Numero di Avogadro]]), quindi possiamo semplificare assegnando un volumetto a ciascun punto. Definisco la **densità di punti rappresentativa in $\Gamma$**:
+Ovviamente trattare ogni punto singolarmente è impossibile per il semplice numero di punti presenti ([[Avogadro number]]), quindi possiamo semplificare assegnando un volumetto a ciascun punto. Definisco la **densità di punti rappresentativa in $\Gamma$**:
 $$\rho(q;p;t)dq^{3N}dp^{3N}$$
 che è un differenziale. Prendo una costante $h$ con le dimensioni di un'azione (un impulso, $J\times s$) e lo divido
 $$\rho(q;p;t)\frac{dq^{3N}dp^{3N}}{h^{3N}}$$

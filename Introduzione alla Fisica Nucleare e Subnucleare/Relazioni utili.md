@@ -1,6 +1,6 @@
 È comune usare il prodotto tra costante di Planck e [[velocità della luce]] $\hbar\cdot c=200$ MeV fm per avere un'idea della scala lunghezza/energia.
 
-In modo simile, vale anche una relazione tra energia e temperatura per avere un senso di quanto calda o fredda sia una [[Particella]]: $E=k_{b}T$ con $k_{B}$ la [[costante di Boltzmann]]. Il legame atomico è estremamente caldo: $E\sim13eV \rightarrow 1.6\times10^{5}$ K.
+In modo simile, vale anche una relazione tra energia e temperatura per avere un senso di quanto calda o fredda sia una [[Particella]]: $E=k_{b}T$ con $k_{B}$ la [[Boltzmann constant]]. Il legame atomico è estremamente caldo: $E\sim13eV \rightarrow 1.6\times10^{5}$ K.
 
 Per la massa si usa l'[[equivalenza massa-energia]] $E=mc^{2}$, con energia misurata in [[elettronvolt]]. Vale $1eV/c^{2}=1.7\times10^{-36}$ kg. Di fatto, la massa si esprime in eV/c$^{2}$. Ad esempio, la massa di un elettrone è $m_{e}=0.5$ MeV/c$^{2}$ e quella di un protone è $m_{p}=938.3$ MeV/c$^{2}$. In [[unità naturali]], la dipendenza da $c$ svanisce.
 

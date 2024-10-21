@@ -1,4 +1,4 @@
-Abbiamo un cilindro di base $A_{b}$ e altezza $L_{z}$. Abbiamo $l=\frac{k_{B}T}{mg}$, con $k_{B}$ la [[costante di Boltzmann]]. Il cilindro è pieno di gas ideale di densità
+Abbiamo un cilindro di base $A_{b}$ e altezza $L_{z}$. Abbiamo $l=\frac{k_{B}T}{mg}$, con $k_{B}$ la [[Boltzmann constant]]. Il cilindro è pieno di gas ideale di densità
 $$\rho(\bar{r})=N \langle \delta(\bar{r}-\bar{r}_{i}) \rangle$$
 dove $\delta$ è la [[Delta di Dirac]] tridimensionale. Dobbiamo trovare un espressione per la densità, la pressione e il potenziale chimico.
 $$\rho(\bar{r})=\sum\limits_{i=1}^{N}\langle \delta(\bar{r}-\bar{r}_{i}) \rangle$$

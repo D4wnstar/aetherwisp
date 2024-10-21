@@ -20,7 +20,7 @@ Sebbene non sia dipendente dalla temperatura, la pressione degenere può accader
 
 Cerchiamo allora in che temperature un gas può essere degenere. Definiamo la *densità di stati quantici* come
 $$n_{Q}=\left( \frac{2\pi m_{e}k_{B}T}{h^{2}} \right)^{3/2}$$
-dove $k_{B}$ è la [[costante di Boltzmann]]. Questa è la quantità di stati a disposizione menzionata prima. Più bassa è la temperatura, meno stati si ha. La degenerazione diventa importante quando $n_{Q}$ diventa minore del numero di particelle libere. Nel centro del Sole, ad esempio, vale $n_{Q}\sim3n_{e}$, con $n_{e}$ il numero di elettroni liberi, quindi sebbene la maggior parte degli elettroni non sia degenere, l'effetto non è proprio trascurabile.
+dove $k_{B}$ è la [[Boltzmann constant]]. Questa è la quantità di stati a disposizione menzionata prima. Più bassa è la temperatura, meno stati si ha. La degenerazione diventa importante quando $n_{Q}$ diventa minore del numero di particelle libere. Nel centro del Sole, ad esempio, vale $n_{Q}\sim3n_{e}$, con $n_{e}$ il numero di elettroni liberi, quindi sebbene la maggior parte degli elettroni non sia degenere, l'effetto non è proprio trascurabile.
 
 Da qui si trova che la temperatura sotto il quale il gas può essere degenere dipende dalla densità
 $$\boxed{T_{deg}\propto n_{Q}^{2/3}\propto \rho^{2/3}}$$

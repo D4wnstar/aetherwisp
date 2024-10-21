@@ -22,6 +22,6 @@ Il tempo di raffreddamento di una nana bianca è dato dal rapporto tra energia t
 $$t_{WD}=\frac{K}{L}$$
 dove
 $$K=\frac{3M_{\star}k_{B}T_{e}}{2\mu m_{p}}, \quad L=4\pi R^{2}\sigma T_{e}^{4}$$
-con $k_{B}$ [[costante di Boltzmann]], $T_{e}$ [[temperatura efficace]], $R$ distanza della nana bianca e $\sigma$ [[costante di Stefan-Boltzmann]]. Questa formula in realtà sottostima il tempo di raffreddamento, dato che la stella di neutroni presenta una crosta che isola termicamente il nucleo, tenendolo caldo più a lungo.
+con $k_{B}$ [[Boltzmann constant]], $T_{e}$ [[temperatura efficace]], $R$ distanza della nana bianca e $\sigma$ [[costante di Stefan-Boltzmann]]. Questa formula in realtà sottostima il tempo di raffreddamento, dato che la stella di neutroni presenta una crosta che isola termicamente il nucleo, tenendolo caldo più a lungo.
 ### Righe spettrali
 Alcune nane bianche presentano [[Riga spettrale|righe spettrali]] suddivise per [[effetto Zeeman]], dovuto a campi magnetici molto forti. A differenza delle [[Stella di neutroni|stelle di neutroni]], l'origine di questo campo magnetico è un mistero irrisolto.

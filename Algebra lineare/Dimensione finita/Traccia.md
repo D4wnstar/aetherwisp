@@ -6,3 +6,17 @@ Ha le seguenti proprietà:
 1. La traccia è indipendente dalla rappresentazione. Ciò significa che il valore della traccia è uguale in qualunque base la matrice o operatore sia espresso.
 2. È lineare: $\lambda\text{Tr}(\hat{A})=\text{Tr}(\lambda \hat{A})$.
 3. È ciclica: $\mbox{Tr}(\hat{A}\hat{B})=\mbox{Tr}(\hat{B}\hat{A})$.
+#### Dimostrazione indipendenza dalla base
+Consideriamo una base $\{ \psi_{i} \}_{i}^{d}$ e un operatore $\hat{A}: \mathbb{C}^{d}\to \mathbb{C}^{d}$. Assumiamo per assurdo che la traccia dipenda dalla base. Allora troviamo la traccia in $\{ \psi_{i} \}_{i}^{d}$:
+$$\mathrm{Tr}_{\{ \psi_{i} \}}\hat{A}=\sum_{i=1}^{d} \braket{ \psi_{i} | \hat{A}\psi_{i}  } $$
+e anche in un'altra base $\{ \phi_{j} \}_{j}^{d}$:
+$$\text{Tr}_{\{ \phi_{j} \}}\hat{A}=\sum_{j=1}^{d} \braket{ \phi_{j} | \hat{A}\phi_{j} } $$
+Sfruttiamo la relazione di completezza dei [[Proiettore|proiettori]] su una base:
+$$\mathrm{Tr}_{\{ \psi_{i} \}}\hat{A}=\sum_{i=1}^{d} \braket{ \psi_{i} | \left( \sum_{j=1}^{d} \hat{P}_{\phi_{j}} \right)\hat{A}\left( \sum_{k=1}^{d} \hat{P}_{\phi_{k}} \right)\psi_{i} } =\ldots$$
+Le somme possono essere tirate fuori dal prodotto scalare per linearità:
+$$\ldots=\sum_{i=1}^{d} \sum_{j=1}^{d} \sum_{k=1}^{d} \braket{ \psi_{i} |\hat{P}_{\phi_{j}}\hat{A}\hat{P}_{\phi_{k}}\psi_{i}  }=\sum_{i=1}^{d} \sum_{j=1}^{d} \sum_{k=1}^{d} \braket{ \psi_{i} |\phi_{j}  }\braket{ \phi_{j} | \hat{A}\phi_{k} } \braket{ \phi_{k} | \psi_{i} } =\ldots$$
+Posso riordinare i termini per costruire il proiettore su $\psi_{i}$:
+$$\ldots=\sum_{i=1}^{d} \sum_{j=1}^{d} \sum_{k=1}^{d} \braket{ \phi_{j} | \hat{A}\phi_{k} } \braket{ \phi _{k}|\psi_{i} } \braket{ \psi_{i} | \phi_{j} } =\sum_{j=1}^{d} \sum_{k=1}^{d} \braket{ \phi_{j} | \hat{A}\phi_{k} }\sum_{i=1}^{d} \bra{\phi_{k}}\hat{P}_{\psi_{i}}\ket{\phi_{j}}=\ldots $$
+Possiamo portare la somma in $i$ dentro il prodotto scalere e con la relazione di completezza vale $\sum_{i=1}^{d}\hat{P}_{\psi_{i}}=\hat{\mathbf{1}}$ troviamo $\braket{ \phi_{k} | \phi_{j} }$, ma questi sono [[Ortonormalità|ortonormali]] l'un l'altro, quindi diventano la [[delta di Kronecker]] $\delta_{kj}$. Ma questa delta "assorbe" una delle somme (o in $j$ o in $k$) e quindi ci rimane
+$$\ldots=\sum_{j=1}^{d} \braket{ \phi_{j} | \hat{A}\phi_{j} } =\text{Tr}_{\{ \phi_{j} \}}\hat{A}$$
+quindi la traccia è indipendente dalla base.

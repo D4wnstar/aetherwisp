@@ -22,7 +22,7 @@ e le variabili sono:
 assieme a:
 - la distanza dal centro della stella $r$
 - la [[costante gravitazionale]] $G$
-- la [[costante di Boltzmann]] $k_{B}$
+- la [[Boltzmann constant]] $k_{B}$
 - la densità di [[particella|particelle]] per unità di volume $n$, con $\mu$ il peso molecolare medio e $m_{p}$ la massa del [[protone]]
 - l'energia generata per unità di massa $\epsilon$
 - l'opacità del gas $\kappa$, con $l$ il cammino libero medio dei [[fotone|fotoni]]
@@ -60,7 +60,7 @@ $$\boxed{\frac{dM(r)}{dr}=4\pi r^{2}\rho(r)}$$
 ### Equazione di stato dei gas perfetti
 Una stella è, su grande scala, considerabile come un gas perfetto. Possiamo quindi sfruttare l'[[equazione di stato dei gas perfetti]]:
 $$\boxed{P(r)=n(r)k_{B}T(r)\mbox{ con }n(r)=\frac{\rho(r)}{\mu m_{p}}}$$
-con $k_{B}$ la [[costante di Boltzmann]]. $n(r)$ è la densità di particelle per volume, ma non è una nuova variabile in quanto è ottenibile dalla densità di massa $\rho(r)$ con $n(r)=\rho(r)/\mu m_{p}$, con $m_{p}$ la massa del protone.
+con $k_{B}$ la [[Boltzmann constant]]. $n(r)$ è la densità di particelle per volume, ma non è una nuova variabile in quanto è ottenibile dalla densità di massa $\rho(r)$ con $n(r)=\rho(r)/\mu m_{p}$, con $m_{p}$ la massa del protone.
 
 $\mu$ è il peso molecolare medio del gas, abbastanza simile a quella dell'[[atomo di idrogeno]] in questa approssimazione. $\mu$ dipende dalla composizione del gas: per idrogeno completamente [[ionizzazione|ionizzato]], vale $\mu=0.5$; per una composizione solare altamente ionizzata si ha $\mu\simeq0.6$ nella maggior parte della stella, tranne nel centro dove l'idrogeno è parzialmente fuso con l'elio e vale $\mu\simeq1$.
 ### Generazione di energia
