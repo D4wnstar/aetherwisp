@@ -21,4 +21,4 @@ The expectation has some useful properties:
 - If $X=Y$, then $E[X]=E[Y]$.
 - If $E[\lvert X \rvert]=0$ then $X=0$.
 - If $X=c$ for a constant $c$, then $E[X]=c$. As a consequence, since the expectation is a constant, the expectation operator is [[idempotence|idempotent]]: $E[E[X]]=E[X]$.
-- $E[XY]\neq E[X]E[Y]$ in general. It is only guaranteed to be equal if $X$ and $Y$ are [[independent variable|independent variables]], though it may also be true if they are dependent.
+- $E[XY]\neq E[X]E[Y]$ in general. It is only guaranteed to be equal if $X$ and $Y$ are [[independent variables]], though it may also be true if they are dependent.

@@ -1,0 +1,3 @@
+**Bayes' theorem** is the central theorem of Bayesian statistics and relates [[Joint distribution function|joint probability distributions]] with [[Conditional distribution function|conditional distributions]]. For two [[random variable|random variables]] $X$ and $Y$, Bayes' theorem states
+$$P(y|x)=\frac{P(x|y)P(y)}{P(x)}=\frac{P(x,y)}{P(x)}$$
+The notable consequence of this theorem is that it allows one to invert a conditional probability into a joint probability, which makes it possible to determine the probability of the cause of an event from its effect.

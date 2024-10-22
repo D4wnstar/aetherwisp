@@ -47,7 +47,7 @@ and the coefficients are
 ### Properties
 - It is [[Normalizzazione|normalized]]: $\frac{1}{\sqrt{ 2\pi \sigma ^{2} }}\int_{-\infty}^{\infty} e^{(x-\mu)^{2}/2\sigma ^{2}} \ dx=1$.
 ### As sum of normal variables
-A sum of [[independent variable|independent variables]] $X_{i}$ that are normally distributed is itself a normal distribution:
+A sum of [[independent variables]] $X_{i}$ that are normally distributed is itself a normal distribution:
 $$Y=\sum_{i=1}^{n} X_{i}$$
 and its MGF is the sum of all the MGF over $x$:
 $$M_{Y}^{*}(t)=\prod_{i=1}^{n}M_{X}^{*}(t)$$
