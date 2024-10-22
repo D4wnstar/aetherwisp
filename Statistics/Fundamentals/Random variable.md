@@ -16,6 +16,15 @@ A discrete random variable $X$ is defined over a continuous sample space $\Omega
 $$\lim_{ n \to \infty } P=\lim_{ n \to \infty } \frac{1}{n}=0$$
 What we can define is the probability that $X$ will give a value in a certain interval $[x_{1},x_{2}]$. Since we are working with continuous values, we represent this as an integral over a specific function over the interval $[x_{1},x_{2}]$:
 $$P(x_{1}\leq X\leq x_{2})=\int_{x_{1}}^{x_{2}}f(x)dx$$
-The function $f(x)$ is called the [[probability density function]] of the distribution. The expectation value $E\equiv\mu$ and the variance $\text{var}\equiv \sigma ^{2}$ are defined as
+The function $f(x)$ is called the [[probability density function]] of the distribution. For a more general space (not necessarily one dimensional), the probability of $X$ being in a subset $A$of $\Omega$ is
+$$P(X\in A)=\int_{x \in A}dp(x)=\int _\text{all space}\mathbf{I}_{A}(x)dp(x)$$
+where $dp(x)$ is the infinitesimal probability, which is often but not always equal to $f(x)dx$, and $\mathbf{I}_{A}$ is the **indicator function**, defined as
+$$\mathbf{I}_{A}=\begin{cases}
+1 & x \in A \\
+0 & \text{otherwise}
+\end{cases}$$
+It is functionally just a way to integrate over all space instead of just over $A$.
+
+The expectation value $E\equiv\mu$ and the variance $\text{var}\equiv \sigma ^{2}$ are defined as
 $$E[X]\equiv \mu_{X}=\int_{\Omega_{X}}xf(x)dx,\quad\text{var}(X)\equiv \sigma ^{2}_{X}=E[(x-\mu_{X})^{2}]=\int_{\Omega_{X}}(x-\mu_{X})^{2}f(x)dx$$
 The most common continuous probability distribution is the [[Gaussian distribution]].

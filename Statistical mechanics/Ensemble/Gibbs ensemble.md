@@ -1,7 +1,11 @@
+---
+aliases:
+  - representative point
+---
 The **Gibbs ensemble** is an [[ensemble]].
 ### Derivation
 Consider a gas of $N$ [[particella|particles]], each with position $\mathbf{q}$ and momentum $\mathbf{p}$. In three dimensions, each particles has six variables, so for a system of $N$ particles, we are working with $6N$ variables in the [[spazio delle fasi|phase space]] $\Gamma$. This is, of course, impossible to solve analytically.
 
 Each point in the phase space is called a **representative point**. The system as a whole, when subject to known macroscopic conditions, is set in a *macroscopic state*, but internally it contains numerous *microscopic states*. The collection of internal microscopic states is said to be an **ensemble**, which can be thought of as "variants" of the internal state that are equivalent to each other and lead to the same macroscopic state. In other words, an ensemble is the collection of microscopic states that lead to the same macroscopic state.
 
-Each ensemble is determined by a density function $\rho(q,p,t)$, with $q=(q_{1},\ldots,q_{3N})$ and $p=(p_{1},..p_{3N})$. Integration over a region of the phase space (over $d^{3N}q\,d^{3N}p$) returns a number of representative points (a non-dimensional number). The total number of (microscopic) systems in an ensemble is conserved, as is the number of representative points.
+Each ensemble is determined by a **density function** $\rho(q,p,t)$, with $q=(q_{1},\ldots,q_{3N})$ and $p=(p_{1},..p_{3N})$. Integration of this function over a region of the phase space (over $d^{3N}q\,d^{3N}p$) returns a number of representative points (a non-dimensional number). The total number of (microscopic) systems in an ensemble is conserved, as is the number of representative points. The density function is the fundamental characterization of an ensemble.
