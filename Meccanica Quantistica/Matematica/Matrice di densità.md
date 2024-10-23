@@ -81,4 +81,4 @@ $$\hat{P}_{\alpha}=|\psi_{\alpha}\rangle\langle \psi_{\alpha}||\psi\rangle\langl
 $$\hat{P}=|\psi_{i}\rangle\langle \psi_\alpha||\psi\rangle\langle \psi|=0$$
 con $\psi_{i}$ ket della base e sapendo che $\psi_{i} \perp \psi_{\alpha}$ sono ortogonali.
 
-[^1]: Va notato che le matrici di densità per stati misti dovuti da un [[Meccanica statistica (Senatore)/Ensemble/Ensemble]] di stati puri e matrici per stati misti dovuti ad [[entanglement quantistico]] sono in genere diverse. Ad esempio, la matrice di densità per un ensemble composto in parti uguali da stati $\ket{\psi_{1}}$ e $\ket{\psi_{2}}$ sarà diversa da quella per un sistema intrecciato tra $\ket{\psi_{1}}$ e $\ket{\psi_{2}}$ con ampiezze di probabilità uguali.
+[^1]: Va notato che le matrici di densità per stati misti dovuti da un [[Ensemble (vecchio)]] di stati puri e matrici per stati misti dovuti ad [[entanglement quantistico]] sono in genere diverse. Ad esempio, la matrice di densità per un ensemble composto in parti uguali da stati $\ket{\psi_{1}}$ e $\ket{\psi_{2}}$ sarà diversa da quella per un sistema intrecciato tra $\ket{\psi_{1}}$ e $\ket{\psi_{2}}$ con ampiezze di probabilità uguali.

@@ -1,0 +1,3 @@
+The **equal *a priori* probability hypothesis** states that if a macroscopic [[Physical system|system]] is in [[thermal equilibrium]], its microscopic [[stato|state]] can be any one that satisfies the macroscopic conditions, all with equal [[probability]]. In other words, there is no "privileged" microscopic state.
+
+This is a working hypothesis and not something that is strictly proven in classical mechanics, as even if it were proven from the equations of motion, we'd have to prove it again in a quantum field later to fully justify it. It is a natural extension of the [[ergodic hypothesis]].

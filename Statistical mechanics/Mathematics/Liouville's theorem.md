@@ -2,8 +2,8 @@
 
 > [!info] Liouville's theorem
 > Consider an [[ensemble]] with density function $\rho(q,p,t)$. The density function obeys the following equality:
-> $$\frac{ \partial \rho }{ \partial t } +\sum_{i=1}^{3N} \left( \frac{ \partial \rho }{ \partial p_{i} } \dot{p}_{i}+ \frac{ \partial \rho }{ \partial q_{i} } \dot{q}_{i} \right)=0=\frac{d\rho}{dt}$$
-> This means that the number of representative points in [[Phase space|phase space]] is conserved, both globally and in a given volume. Formally, the terms inside the sum are a [[Parentesi di Poisson|Poisson bracket]] between $\rho$ and the [[Hamiltoniana|Hamiltonian]], $\{ \rho,H \}$.
+> $$\frac{ \partial \rho }{ \partial t } +\sum_{i=1}^{3N} \left( \frac{ \partial \rho }{ \partial p_{i} } \dot{p}_{i}+ \frac{ \partial \rho }{ \partial q_{i} } \dot{q}_{i} \right)=\frac{ \partial \rho }{ \partial t } +\{ \rho,H \}=0=\frac{d\rho}{dt}$$
+> where the curly braces are [[Parentesi di Poisson|Poisson brackets]] between $\rho$ and the [[Hamiltoniana|Hamiltonian]]. This means that the number of representative points in [[Phase space|phase space]] is conserved, both globally and in a given volume.
 ### Proof
 (TODO: Finish this) Calling $\mathbf{v}=(\dot{p}_{1},\ldots,\dot{p}_{3N},\dot{q}_{1},\ldots,\dot{q}_{3N})$, we have, by the continuity equation,
 $$- \frac{d}{dt}\int_{\omega}\rho\ d\omega=\int_{S}\mathbf{\hat{n}}\cdot \mathbf{v}\ \rho\ dS$$

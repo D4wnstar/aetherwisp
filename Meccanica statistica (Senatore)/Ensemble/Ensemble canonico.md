@@ -1,4 +1,4 @@
-L'**[[Meccanica statistica (Senatore)/Ensemble/Ensemble]] canonico** è un insieme statistico che descrive i possibili stati di un sistema chiuso in equilibrio termico con una grande fonte di calore, solitamente chiamata *termostato*. Esso dipende dal numero di particelle $N$ e il volume $V$ e la temperatura $T$, tutte fissate. Si tratta di una generalizzazione dell'[[Ensemble microcanonico]] che invece richiede che il sistema sia [[Sistema isolato|isolato]]. Il canonico permette gli scambi di calore (ma non di particelle).
+L'**[[Ensemble (vecchio)]] canonico** è un insieme statistico che descrive i possibili stati di un sistema chiuso in equilibrio termico con una grande fonte di calore, solitamente chiamata *termostato*. Esso dipende dal numero di particelle $N$ e il volume $V$ e la temperatura $T$, tutte fissate. Si tratta di una generalizzazione dell'[[Ensemble microcanonico]] che invece richiede che il sistema sia [[Sistema isolato|isolato]]. Il canonico permette gli scambi di calore (ma non di particelle).
 
 Prendiamo due sistemi.
 1. Termostato
