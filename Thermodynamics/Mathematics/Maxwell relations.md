@@ -1,8 +1,19 @@
-The **Maxwell relations** are a set of equations in thermodynamics regarding a system's energy when subject to a reversible [[thermodynamic transformation]]. These shouldn't be confused with [[Maxwell's equations]], which are the description of electromagnetism. They are useful to determine state variables like [[pressure]] and [[entropy]] from the system's energy. There are many forms for Maxwell relations, depending on which system energy is chosen.
+The **Maxwell relations** are a set of four equations in thermodynamics regarding a system's energy when subject to a reversible [[thermodynamic transformation]]. They exist for several [[Equation of state|equations of state]]: [[internal energy]] $U$, [[enthalpy]] $H$, [[Helmholtz free energy]] $A$ and [[Gibbs free energy]] $G$. These shouldn't be confused with [[Maxwell's equations]], which are the description of electromagnetism. There are many forms for Maxwell relations, depending on which system energy is chosen.
 
-Maxwell relations can be rendered graphically in a square diagram (I have no idea how it works):
+$$\begin{align}
+U(S,V)&:& dU=TdS-PdV \\
+H(S,P)&:& dH=TdS-VdP \\
+A(V,T)&:& dA=-SdT-PdV \\
+G(P,T)&:& dG=-SdT+VdP
+\end{align}$$
+
+Here $T$ is [[temperature]], $S$ is [[entropy]], $P$ is [[pressure]] and $V$ is volume.
+### Mnemonic
+Maxwell relations can be rendered graphically in a square diagram:
 
 ![[Diagram Maxwell Relations|50%|center]]
+
+The system energy is at the center of the sides and can be expressed in function of the two variables at its sides. The arrows refer to what the constant quantities are: starting at one of the variables, follow the arrow to find the constant. If you go in the direction of the arrow, it's a positive term, else it's negative. For instance, $U$ is between $S$ and $V$ so it will be $U(S,V)$. An arrow connects $V$ to $P$ and we go against the arrow, so one term will be $-PdV$. The other arrow points from $S$ to $T$ and we go alongside it, so the other term will be $TdS$. In total, we have $U(S,V)=TdS-PdV$.
 ### Derivations
 The difference between exact differentials ($d$) and inexact differentials ($\delta$) here is somewhat important. This assumes reversible transformations and therefore exact differentials.
 

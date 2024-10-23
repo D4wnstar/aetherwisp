@@ -121,7 +121,7 @@ La regola d'oro di Fermi afferma che il tasso di reazioni $W$ è messo in relazi
 $$W=\frac{\sigma v_{e}}{V}=\frac{2\pi}{\hbar}|\langle \psi_{f}|\mathcal{M}_{int}|\psi_{i}\rangle|^{2} \frac{dn}{dE_{f}}$$
 L'energia dello stato finale è $E_{f}$ e vale $dE_{f}=dE'=dE$.
 
-La densità nello [[spazio delle fasi]] è
+La densità nello [[Phase space]] è
 $$dn(|\vec{p'}|)=\frac{4\pi |\vec{p'}|d |\vec{p'}|}{(2\pi\hbar)^{3}}V$$
 quindi scrivo la sezione d'urto per l'elettrone nell'elemento di angolo solido $d\Omega$ come
 $$d\sigma \frac{N}{V}=\frac{2\pi}{\hbar}|\langle \psi_{f}|\mathcal{H}_{int}|\psi_{i}\rangle|^{2} \frac{V |\vec{p'}|^{2}d |\vec{p'}|}{(2\pi\hbar)^{3}dE_{f}}d\Omega$$

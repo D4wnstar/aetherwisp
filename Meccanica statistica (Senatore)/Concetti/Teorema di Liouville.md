@@ -1,4 +1,4 @@
-Sia $(p,q)$ un insieme di punti rappresentativi e $\rho$ la loro densità nello [[spazio delle fasi]]. Chiamando $x$ la funzione che descrive il loro moto nello spazio delle fasi, vale
+Sia $(p,q)$ un insieme di punti rappresentativi e $\rho$ la loro densità nello [[Phase space]]. Chiamando $x$ la funzione che descrive il loro moto nello spazio delle fasi, vale
 $$\frac{d\rho}{dt}=\frac{\partial\rho}{\partial t}+\sum\limits_{i=1}^{2N}\left[\frac{\partial \rho}{\partial q_{i}}\frac{\partial q_{i}}{\partial t}+\frac{\partial \rho}{\partial p_{i}}\frac{\partial p_{i}}{\partial t} \right]=\frac{\partial \rho}{\partial t}+\{\rho,x\}$$
 dove $\{\cdot,\cdot\}$ sono le [[Parentesi di Poisson]].
 

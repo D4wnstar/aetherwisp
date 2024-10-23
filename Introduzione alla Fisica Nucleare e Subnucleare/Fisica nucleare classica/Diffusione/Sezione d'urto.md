@@ -44,7 +44,7 @@ La sezione d'urto può essere predetta dalla teoria usando la *seconda regola d'
 
 L'elemento di matrice della transizione è
 $$\mathcal{M}_{fi}=\langle \Psi_{f}|\mathcal{H}_{int}|\Psi_{i}\rangle=\int\Psi_{f}^{*}\mathcal{H}_{int}\Psi_{i}dV$$
-che ci dà l'ampiezza di probabilità. Prendiamo una particella in volume $V$ nello [[spazio delle fasi]]. Considero l'intervallo tra impulsi da $p'$ a $p'+dp$. Creo una calotta sferica $4\pi p'^{2}dp$ con volume $h^{3}=(2\pi\hbar)^{3}$. Il numero di stati finali è
+che ci dà l'ampiezza di probabilità. Prendiamo una particella in volume $V$ nello [[Phase space]]. Considero l'intervallo tra impulsi da $p'$ a $p'+dp$. Creo una calotta sferica $4\pi p'^{2}dp$ con volume $h^{3}=(2\pi\hbar)^{3}$. Il numero di stati finali è
 $$dn(p')=\frac{4\pi p'^{2}dp'}{2\pi\hbar^{3}}V$$
 L'energia differenziale è $dE'=v'dp'$, da cui posso trovare la densità di stati finali
 $$\rho(E')=\frac{dn(E')}{dE'}= \frac{V4\pi p'^{2}}{v'2\pi\hbar^{3}}$$

@@ -8,7 +8,7 @@ Il [[potenziale]] a cui ciascun [[nucleone]] è soggetto è una sovrapposizione 
 
 ![[Grafico Buca di potenziale rettangolare|70%|center]]
 
-A causa del [[Disuguaglianza di Heisenberg|principio di indeterminazione]], una [[Particella]] occupa un volume $h^{3}=(2\pi\hbar)^{3}$ nello [[spazio delle fasi]] (6-dimensionale, posizione + impulso). Prendiamo un volume $V$ nello spazio e un volume $4\pi p^{2}dp$ con una calotta sferica di raggio $p$ e spessore $dp$ nell'impulso. Gli [[stato|stati]] accessibili allora sono
+A causa del [[Disuguaglianza di Heisenberg|principio di indeterminazione]], una [[Particella]] occupa un volume $h^{3}=(2\pi\hbar)^{3}$ nello [[Phase space]] (6-dimensionale, posizione + impulso). Prendiamo un volume $V$ nello spazio e un volume $4\pi p^{2}dp$ con una calotta sferica di raggio $p$ e spessore $dp$ nell'impulso. Gli [[stato|stati]] accessibili allora sono
 $$dn=\frac{4\pi p^{2}dp}{(2\pi\hbar)^{3}}V$$
 Allo stato fondamentale (allo zero assoluto), tutti gli stati più bassi sono occupati fino ad un impulso massimo detto **impulso di Fermi** $p_{F}$. Il numero di questi stati si ottiene integrando l'equazione precedente ed è
 $$n=\int_{0}^{p_{F}}n(p)dp=\frac{Vp_{F}^{3}}{6\pi^{2}\hbar^{3}}$$

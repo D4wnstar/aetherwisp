@@ -1,4 +1,4 @@
-L'**[[Ensemble]] canonico** è un insieme statistico che descrive i possibili stati di un sistema chiuso in equilibrio termico con una grande fonte di calore, solitamente chiamata *termostato*. Esso dipende dal numero di particelle $N$ e il volume $V$ e la temperatura $T$, tutte fissate. Si tratta di una generalizzazione dell'[[Ensemble microcanonico]] che invece richiede che il sistema sia [[Sistema isolato|isolato]]. Il canonico permette gli scambi di calore (ma non di particelle).
+L'**[[Meccanica statistica (Senatore)/Ensemble/Ensemble]] canonico** è un insieme statistico che descrive i possibili stati di un sistema chiuso in equilibrio termico con una grande fonte di calore, solitamente chiamata *termostato*. Esso dipende dal numero di particelle $N$ e il volume $V$ e la temperatura $T$, tutte fissate. Si tratta di una generalizzazione dell'[[Ensemble microcanonico]] che invece richiede che il sistema sia [[Sistema isolato|isolato]]. Il canonico permette gli scambi di calore (ma non di particelle).
 
 Prendiamo due sistemi.
 1. Termostato
@@ -7,7 +7,7 @@ Prendiamo due sistemi.
 ![[Sistemi Annidati|center]]
 Quindi ci sono solo scambi di energia fra i due sistemi, non scambi di particelle.
 $$d\Gamma=\frac{d^{3N}qd^{3N}p}{N!h^{3N}}\quad;\quad\Gamma(q_{1},\ldots,q_{3N},p_{1},\ldots,p_{3N})$$
-D'ora in poi consideriamo $\Gamma$, oltre che come estensione dello [[spazio delle fasi]], anche come punto nello spazio delle fasi, solo come notazione conveniente.
+D'ora in poi consideriamo $\Gamma$, oltre che come estensione dello [[Phase space]], anche come punto nello spazio delle fasi, solo come notazione conveniente.
 Dalla teoria degli ensemble in generale si trova
 $$\langle f(\Gamma)\rangle=\frac{\int\rho(q,p,t)f(q,p)dp^{3N}dq^{3N}}{\int\rho(q,p,t)dp^{3N}dq^{3N}}$$
 Come nell'[[Ensemble microcanonico]] dobbiamo scegliere $\rho$. Qui lo scegliamo come
@@ -88,7 +88,7 @@ Considero l'[[Ensemble microcanonico]]:
 $$\rho(E,\hat{H})=\delta(E-\hat{H})$$
 $$\langle \hat{O}_{1} \rangle=\frac{\mbox{Tr}[\delta(E-\hat{H}_{1}-\hat{H}_{2})\hat{O}_{1}]}{\mbox{Tr}[\delta(E-\hat{H}_{1}-\hat{H}_{2})]}=\frac{\mbox{Tr}[\int_{0}^{E}dE_{1}\delta(E-\hat{H}_{1})\delta(E-E_{1}-\hat{H}_{2})\hat{O}_{1}]}{\mbox{Tr}[\int_{0}^{E}dE_{1}\delta(E-\hat{H}_{1})\delta(E-E_{1}-\hat{H}_{2})]}=$$
 $$=\frac{\mbox{Tr}[\int_{0}^{E}dE_{1}\delta(E-\hat{H}_{1})\hat{O}_{1}\delta(E-E_{1}-\hat{H}_{2})]}{\mbox{Tr}[\int_{0}^{E}dE_{1}\delta(E-\hat{H}_{1})\delta(E-E_{1}-\hat{H}_{2})]}=\ldots$$
-Ricordando che per il [[commutatore]] vale $[\hat{H}_{1},\hat{H}_{2}]=0$ perché sono in sistemi diversi (?) e che $[\hat{O},\hat{H}_{2}]=0$ 
+Ricordando che per il [[Commutatore]] vale $[\hat{H}_{1},\hat{H}_{2}]=0$ perché sono in sistemi diversi (?) e che $[\hat{O},\hat{H}_{2}]=0$ 
 $$\ldots=\frac{\int_{0}^{E}dE_{1}\mbox{Tr}^{(1)}[\delta(E-\hat{H}_{1})\hat{O}_{1}]\mbox{Tr}^{(2)}[\delta(E-E_{1}-\hat{H}_{2})]}{\int_{0}^{E}dE_{1}\mbox{Tr}^{(1)}[\delta(E-\hat{H}_{1})]\mbox{Tr}^{(2)}[\delta(E-E_{1}-\hat{H}_{2})]}=\ldots$$
 Ricordando l'espressione dell'entropia un ensemble microcanonico $S=k_{B}\ln[\mbox{Tr}\rho(E,\hat{H})]$ possiamo vedere
 $$\mbox{Tr}^{(2)}[\delta(E-E_{1}-\hat{H}_{2})]=e^{\frac{S_{2}(E-E_{1},V_{2},N_{2})}{k_{B}}}$$

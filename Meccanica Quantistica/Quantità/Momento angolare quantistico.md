@@ -5,7 +5,7 @@ $$L_{x}=yp_{z}-zp_{y}, \quad L_{y}=zp_{x}-xp_{z}, \quad L_{z}=xp_{y}-yp_{x}$$
 Quantizzando queste quantità con l'[[operatore]] quantità di moto si trova
 $$\hat{L}_{x}=\frac{\hbar y}{i}\frac{\partial }{\partial z}- \frac{\hbar z}{i}\frac{\partial }{\partial y}, \quad \hat{L}_{y}=\frac{\hbar z}{i}\frac{\partial }{\partial x}- \frac{\hbar x}{i}\frac{\partial }{\partial z}, \quad \hat{L}_{z}=\frac{\hbar x}{i}\frac{\partial }{\partial y}- \frac{\hbar y}{i}\frac{\partial }{\partial x}$$
 ### Commutatività
-Per trovare gli [[Equazione agli autovalori|autovalori]] di questi operatori, anzitutto calcoliamo il loro [[commutatore]]:
+Per trovare gli [[Equazione agli autovalori|autovalori]] di questi operatori, anzitutto calcoliamo il loro [[Commutatore]]:
 $$[L_{x},L_{y}]=[yp_{z}-zp_{y}, zp_{x}-xp_{z}]=[yp_{z},zp_{x}]-[yp_{z},xp_{z}]-[zp_{y},zp_{x}]+[zp_{y},xp_{z}]=\ldots$$
 Gli unici commutatori che non commutano sono $x$ con $p_{x}$, $y$ con $p_{y}$ e $z$ con $p_{z}$, quindi
 $$\ldots=[yp_{z},zp_{x}]-[zp_{y},xp_{z}]=yp_{x}[p_{z},z]+xp_{y}[z,p_{z}]=i\hbar(xp_{yu}-yp_{x})=i\hbar L_{z}$$

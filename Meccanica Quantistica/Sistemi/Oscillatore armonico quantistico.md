@@ -16,7 +16,7 @@ ma bisogna fare particolare attenzione, dato che $x$ e $p$ *non* sono numeri, be
 $$a_{\pm}\equiv \frac{1}{\sqrt{2\hbar m\omega}}(\mp ip+m\omega x)$$
 Il fattore di scala iniziale è solo per comodità. Controlliamo il prodotto $a_{-}a_{+}$:
 $$a_{-}a_{+}=\frac{1}{2\hbar m \omega}(-ip+m\omega x)(ip+m\omega x)=\frac{1}{2\hbar m\omega}[p^{2}+(m\omega x)^{2}-im\omega(xp-px)]$$
-dove ritroviamo il [[commutatore]] di $x$ e $p$ al terzo termine nelle parentesi. Estraendo l'ultimo termine e esplicitando il commutatore otteniamo
+dove ritroviamo il [[Commutatore]] di $x$ e $p$ al terzo termine nelle parentesi. Estraendo l'ultimo termine e esplicitando il commutatore otteniamo
 $$a_{-}a_{+}=\frac{1}{2\hbar m\omega}[p^{2}+(m\omega x)^{2}] - \frac{i}{2\hbar}[x,p]\tag{2}$$
 Calcoliamo allora il commutatore tra $x$ e $p$, aggiungendo una funzione di test dato che sono operatori:
 $$[x,p]\varphi(x)=\left[x \frac{\hbar}{i} \frac{d\varphi}{dx}- \frac{\hbar}{i} \frac{d}{dx} (x\varphi)\right]=\frac{\hbar}{i}\left(x \frac{d\varphi}{dx}-x \frac{d\varphi}{dx}-\varphi\right)=i\hbar\varphi$$

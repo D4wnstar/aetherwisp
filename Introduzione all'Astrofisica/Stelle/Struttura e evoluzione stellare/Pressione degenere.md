@@ -8,7 +8,7 @@ Questo processo, tuttavia, non può andare avanti all'infinito. Eventualmente, l
 ### Derivazione
 Prendiamo la [[disuguaglianza di Heisenberg]] in tre dimensioni[^1]:
 $$\Delta x\Delta p_{x}>h$$
-allora quando il nucleo viene compresso, l'errore sulla posizione naturalmente diminuisce (ci sono meno luoghi possibili in cui gli atomi possono trovarsi). Ma allora deve crescere l'errore sulla quantità di moto. Allora la distribuzione di quantità di moto si allarga. Definiamo un volumetto tridimensionale di volume $h^{3}$ nello [[spazio delle fasi]] che rappresenta uno [[stato]] quantistico. Il [[principio di esclusione di Pauli]] ci dice che in questo volumetto possono esistere in contemporanea al massimo due [[Elettrone|elettroni]], e solo se hanno [[spin]] opposto.
+allora quando il nucleo viene compresso, l'errore sulla posizione naturalmente diminuisce (ci sono meno luoghi possibili in cui gli atomi possono trovarsi). Ma allora deve crescere l'errore sulla quantità di moto. Allora la distribuzione di quantità di moto si allarga. Definiamo un volumetto tridimensionale di volume $h^{3}$ nello [[Phase space]] che rappresenta uno [[stato]] quantistico. Il [[principio di esclusione di Pauli]] ci dice che in questo volumetto possono esistere in contemporanea al massimo due [[Elettrone|elettroni]], e solo se hanno [[spin]] opposto.
 
 Consideriamo un gas di $n_{e}$ elettroni liberi. Lo spazio delle fasi è tra loro equipartito e ciascuno di essi occupa uno un volume $\Delta x^{3}\simeq1/n_{e}$. Allora, l'incertezza sulla loro posizione è isotropica, dato che il volume è cubico, e vale
 $$\Delta x\simeq \frac{1}{n_{e}^{1/3}}=n_{e}^{- 1/3}$$

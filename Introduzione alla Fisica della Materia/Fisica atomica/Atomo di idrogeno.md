@@ -16,7 +16,7 @@ L_{x}=yp_{z}-zp_{y}=-i\hbar\left(y \frac{\partial }{\partial z} -z \frac{\partia
 L_{y}=-i\hbar\left(z \frac{\partial }{\partial x} -x \frac{\partial }{\partial z}\right) \\
 L_{z}=-i\hbar\left(x \frac{\partial }{\partial y} -y \frac{\partial }{\partial x}\right) \\
 \end{cases}$$
-Usando il [[commutatore]] si trova
+Usando il [[Commutatore]] si trova
 $$\begin{cases}
 [L_{x},L_{y}]=i\hbar L_{z} \\
 [L_{y},L_{z}]=i\hbar L_{x} \\

@@ -10,7 +10,7 @@ $$\begin{cases}
 \partial_{t}\hat{P}_{\psi_{t}}=- \frac{i}{\hbar}[A,\hat{P}_{\psi_{t}}]& \mbox{ equazione di Heisenberg} \\
 \partial_{t}\hat{\rho}_{t}=- \frac{i}{\hbar}[\hat{H}, \hat{\rho}_{t}]& \mbox{ equazione di Liouville-Von Neumann}
 \end{cases}$$
-dove $[A,B]$ è il [[commutatore]].
+dove $[A,B]$ è il [[Commutatore]].
 
 ---
 $$\hat{H}=\hbar\omega(\hat{a}^{\dagger}\hat{a}+ \frac{1}{2})$$

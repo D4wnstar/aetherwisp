@@ -1,1 +1,1 @@
-Il generatore di una [[trasformazione di simmetria]] dell'[[Hamiltoniana]] in meccanica quantistica *deve* essere [[Operatore autoaggiunto|autoaggiunto]].
+Il generatore di una [[Trasformazione di simmetria]] dell'[[Hamiltoniana]] in meccanica quantistica *deve* essere [[Operatore autoaggiunto|autoaggiunto]].

@@ -53,7 +53,7 @@ $$|n_{t}\rangle=e^{-i \frac{\hat{H}_{S}t}{\hbar}}|n\rangle \Rightarrow i\hbar \f
 Allora
 $$i\hbar \frac{\partial }{\partial t}\hat{\rho}=\sum\limits_{nn'}\rho_{nn'}\left[ \left( i\hbar \frac{\partial }{\partial t} |n\rangle\right)\langle n|+|m\rangle i\hbar \frac{\partial }{\partial t} \langle n|\right]$$
 $$i\hbar \frac{\partial }{\partial t}\hat{\rho}=\sum\limits_{nn'}\rho_{nn'}(\hat{H}_{S}|n\rangle\langle n'|-|n\rangle\langle n'|\hat{H}_{S})=\sum\limits_{nn'}[\hat{H}_{S},\rho_{nn'}|n\rangle\langle n'|]=[\hat{H}_{S},\hat{\rho}]$$
-usando il [[commutatore]]. Va notato che questo risultato è *diverso* dalla [[rappresentazione di Heisenberg]]
+usando il [[Commutatore]]. Va notato che questo risultato è *diverso* dalla [[rappresentazione di Heisenberg]]
 $$\begin{align}
 i\hbar \frac{\partial \hat{\rho}}{\partial t}&=[\hat{H}_{S},\hat{\rho}] \\
 i\hbar \frac{\partial \hat{A}}{\partial t}&=[\hat{A},H] \mbox{ rappresentazione di Heisenberg}

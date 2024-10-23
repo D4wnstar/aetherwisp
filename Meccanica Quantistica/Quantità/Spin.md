@@ -5,7 +5,7 @@ In meccanica classica esistono due tipi di momenti angolare: quello *orbitale*, 
 
 Il problema di fondo è che in meccanica classica, il momento di spin è sostanzialmente un'astrazione di comodità; d'altronde, ogni momento di spin di un oggetto esteso può essere spiegato come momento orbitale delle sue componenti rispetto al centro di massa[^1]. In meccanica quantistica, tuttavia, lo spin ha un suo significato intrinseco. Dato che le [[Particella|particelle]] elementari sono modellate come oggetti puntiformi prive di struttura interna, è impossibile decomporre lo spin in somma di momenti orbitali delle componenti interne, dato che non ci sono componenti interne. Allora, lo spin quantistico è una proprietà indipendente della particella con un suo significato fisico.
 ### Commutatività
-Applicando il [[commutatore]] alle componenti e omettendo il cappuccio si ottiene
+Applicando il [[Commutatore]] alle componenti e omettendo il cappuccio si ottiene
 $$\begin{cases}
 [S_{x},S_{y}]=i\hbar S_{z} \\
 [S_{y},S_{z}]=i\hbar S_{x} \\

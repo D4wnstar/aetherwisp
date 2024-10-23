@@ -31,7 +31,7 @@ usando la normalizzazione della funzione d'onda $\langle \Psi|\Psi\rangle=1$. Co
 $$\langle g|f\rangle=\langle \hat{B}\hat{A}\rangle - \left\langle A \right\rangle \left\langle B \right\rangle$$
 quindi
 $$\langle f|g\rangle-\langle g|f\rangle=\langle [\hat{A},\hat{B}] \rangle$$
-che è il valor medio del [[commutatore]] delle due osservabili. Allora possiamo scrivere la disuguaglianza di Heisenberg come
+che è il valor medio del [[Commutatore]] delle due osservabili. Allora possiamo scrivere la disuguaglianza di Heisenberg come
 $$\boxed{\sigma_{A}^{2}\sigma_{B}^{2}\geq \left(\frac{1}{2i} \langle[\hat{A},\hat{B}]\rangle\right)^{2}}\tag{3}$$
 Il commutatore di due operatori autoaggiunti ha valore di aspettazione immaginario, quindi la $i$ al denominatore si semplifica e il valore è reale e positivo, come ci si aspetta. Allora il principio di indeterminazione è un concetto più generale che si applica a *tutte le coppie di osservabili che hanno commutatore non nullo*. Queste coppie si dicono **osservabili incompatibili**. Se invece il commutatore è nullo, non si applica il principio di indeterminazione e si dicono **osservabili compatibili**. Osservabili compatibili ammettono un [[sistema completo]] di [[Equazione agli autovalori|autofunzioni]] condivise, mentre quelle incompatibili no.[^1]
 
@@ -96,7 +96,7 @@ abbiamo il valore di aspettazione
 $$\langle F\rangle_{\rho_{\beta}}=\int_{\mathbb{R}^{2}}\rho_{\beta}(q,p)F(q,p)dqdp$$
 Possiamo rappresentare un punto nello spazio delle fasi come la distribuzione *[[Delta di Dirac]]*
 $$(q,p)\rightarrow\delta(q-q_{0}),\;\delta(p-p_{0})$$
-Dunque posso pensare ad un punto come appartenere alla stessa "classe" delle distribuzioni nello [[spazio delle fasi]]. Allora abbiamo
+Dunque posso pensare ad un punto come appartenere alla stessa "classe" delle distribuzioni nello [[Phase space]]. Allora abbiamo
 $$\langle F\rangle_{\rho_{\beta}}=\int_{\mathbb{R}^{2}}\rho_{\beta}(q,p)F(q,p)dqdp=F(q_{0},p_{0})$$
 Naturalmente la notazione di funzione della delta di Dirac $\delta(x-x_{0})$ è un'approssimazione comoda della notazione rigorosa da distribuzione $\delta_{x_{0}}[f]=f(x_{0})$.
 

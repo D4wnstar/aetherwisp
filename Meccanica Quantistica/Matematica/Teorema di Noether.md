@@ -1,7 +1,7 @@
 Il **teorema di Noether** è un risultato fondamentale che associa trasformazioni della dinamica di un sistema con leggi di conservazione.
 
 > [!info] Teorema di Noether
-> Il generatore di una [[trasformazione di simmetria|trasformazione continua di simmetria]] è una quantità conservata (cioè una [[costante del moto]]). Ogni costante del moto genera una trasformazione continua di simmetria.
+> Il generatore di una [[Trasformazione di simmetria|trasformazione continua di simmetria]] è una quantità conservata (cioè una [[costante del moto]]). Ogni costante del moto genera una trasformazione continua di simmetria.
 ### In meccanica quantistica
 Consideriamo due [[operatore|operatori]], l'Hamiltoniana $\hat{H}$ e $\hat{\pi}$, che [[Commutatore|commutano]]: $[\hat{H},\hat{\pi}]=0$, e l'[[equazione di Schrödinger]] indipendente dal tempo
 $$\hat{H}\ket{\psi_{e}} =E\ket{\psi_{E}} $$
@@ -37,7 +37,7 @@ $$H'=\frac{dH}{d\alpha}=q'\partial_{q}H+q'\partial_{p}H=\{H,F\}$$
 Allora posso enunciare il **teorema di Noether**:
 
 > [!info] Teorema di Noether
-> Il generatore di una [[trasformazione di simmetria|trasformazione continua di simmetria]] è una quantità conservata (cioè una [[costante del moto]]). Ogni costante del moto genera una trasformazione continua di simmetria.
+> Il generatore di una [[Trasformazione di simmetria|trasformazione continua di simmetria]] è una quantità conservata (cioè una [[costante del moto]]). Ogni costante del moto genera una trasformazione continua di simmetria.
 
 Usando gli operatori $\hat{H}$ e $\hat{F}$ si ha, per estensione
 $$\hat{H}'=\frac{d\hat{H}_{\alpha}}{d\alpha}=\frac{i}{\hbar}[\hat{F},\hat{H}_{\alpha}]=\frac{i}{\hbar}\hat{V}_{\alpha}^{\dagger}[\hat{F},\hat{H}]\hat{V}_{\alpha}$$

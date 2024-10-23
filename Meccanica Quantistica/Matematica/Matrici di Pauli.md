@@ -42,7 +42,7 @@ La rappresentazione formale di $\hat{\sigma}_{z}$ è nella base degli autostati 
 $$\hat{\tilde{\sigma}}_{z}=\left(\matrix{\langle\uparrow x|\hat{\sigma}_{z}|\uparrow x\rangle & \langle\uparrow x|\hat{\sigma}_{z}|\downarrow x\rangle \\ \langle\downarrow x|\hat{\sigma}_{z}|\uparrow x\rangle & \langle\downarrow x|\hat{\sigma}_{z}|\downarrow x\rangle}\right)=\left(\matrix{0 & 1 \\ 1 & 0}\right)$$
 nella quale non è più diagonale.
 
-I [[commutatore|commutatori]] tra le matrici sono
+I [[Commutatore|commutatori]] tra le matrici sono
 $$[\sigma_{1},\sigma_{2}]=2i\sigma_{3}, \quad [\sigma_{2},\sigma_{3}]=2i\sigma_{1}, \quad [\sigma_{3},\sigma_{1}]=2i\sigma_{2}$$
 o più in generale
 $$[\sigma_{i},\sigma_{j}]=2i\epsilon_{ijk}\sigma_{k}$$
@@ -51,4 +51,4 @@ $$\{\sigma_{i},\sigma_{j}\}=2\delta_{ij}$$
 
 Dai commutatori si ottengono anche le relazioni
 $$\sigma_{1}\sigma_{2}=-\sigma_{2}\sigma_{1}, \quad \sigma_{2}\sigma_{3}=-\sigma_{3}\sigma_{2}, \quad \sigma_{1}\sigma_{3}=-\sigma_{3}\sigma_{1}$$
-Questa ciclicità è molto simile a quello che accade con le [[parentesi di Poisson]] del momento angolare in meccanica classica. Non per altro, le matrici di Pauli rappresentano lo spin di un sistema quantistico.
+Questa ciclicità è molto simile a quello che accade con le [[Parentesi di Poisson]] del momento angolare in meccanica classica. Non per altro, le matrici di Pauli rappresentano lo spin di un sistema quantistico.

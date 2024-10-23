@@ -1,9 +1,9 @@
-**Liouville's theorem** proves that the density of [[Gibbs ensemble|representative points]] near a point is constant and that the points behave like an incompressible fluid, in that their density does not change in time.
+**Liouville's theorem** proves that the density of [[Statistical mechanics/Ensemble/Ensemble|representative points]] near a point is constant and that the points behave like an incompressible fluid, in that their density does not change in time.
 
 > [!info] Liouville's theorem
 > Consider an [[ensemble]] with density function $\rho(q,p,t)$. The density function obeys the following equality:
 > $$\frac{ \partial \rho }{ \partial t } +\sum_{i=1}^{3N} \left( \frac{ \partial \rho }{ \partial p_{i} } \dot{p}_{i}+ \frac{ \partial \rho }{ \partial q_{i} } \dot{q}_{i} \right)=0=\frac{d\rho}{dt}$$
-> This means that the number of representative points in [[spazio delle fasi|phase space]] is conserved, both globally and in a given volume. Formally, the terms inside the sum are a [[Parentesi di Poisson|Poisson bracket]] between $\rho$ and the [[Hamiltoniana|Hamiltonian]], $\{ \rho,H \}$.
+> This means that the number of representative points in [[Phase space|phase space]] is conserved, both globally and in a given volume. Formally, the terms inside the sum are a [[Parentesi di Poisson|Poisson bracket]] between $\rho$ and the [[Hamiltoniana|Hamiltonian]], $\{ \rho,H \}$.
 ### Proof
 (TODO: Finish this) Calling $\mathbf{v}=(\dot{p}_{1},\ldots,\dot{p}_{3N},\dot{q}_{1},\ldots,\dot{q}_{3N})$, we have, by the continuity equation,
 $$- \frac{d}{dt}\int_{\omega}\rho\ d\omega=\int_{S}\mathbf{\hat{n}}\cdot \mathbf{v}\ \rho\ dS$$
@@ -12,3 +12,20 @@ $$\int_{S}\hat{\mathbf{n}}\cdot \mathbf{v}\rho\ dS=$$
 $$\int_{\omega}[\rho +\nabla \cdot(\rho \mathbf{v})]\ d\omega=0$$
 for any $\omega$. So at this point we can state
 $$- \frac{d\rho}{dt}=\nabla(\rho \mathbf{v})=\sum_{i=1}^{3N} \left[ \frac{ \partial  }{ \partial \rho } (p \dot{p}_{i})+ \frac{ \partial \omega }{ \partial q_{i} } (pq_{i}) \right]=\sum_{i=1}^{3N} p\underbrace{ \left( \frac{ \partial p }{ \partial p_{i} } +\frac{ \partial q }{ \partial q_{i} }  \right) }_{ =0 \text{ (Hamilton eqs.)}}+$$
+### Examples
+> [!example] Damped harmonic oscillator
+
+Consider a [[Oscillatore armonico|damped harmonic oscillator]] (like a pendulum). It is described by $\dot{q}=p/m$ and $\dot{p}=-\gamma p-k\sin q$, where $\gamma$ is the dampening constant. We have
+$$-\gamma=\frac{ \partial \dot{p} }{ \partial p } +\frac{ \partial \dot{q} }{ \partial q } =0 $$
+and the [[Hamilton equations]]
+$$\dot{p}=-\frac{ \partial H }{ \partial q } ,\qquad \dot{q}=-\frac{ \partial H }{ \partial p }$$
+We want to check if the Liouville theorem holds and what $d\rho/dt$ is. To do so, we want to see if there exist a Hamiltonian for which the following holds:
+$$\frac{ \partial ^{2}H }{ \partial q\partial p } =\frac{ \partial \dot{q} }{ \partial q } ,\qquad \frac{ \partial ^{2}H }{ \partial q\partial p } =\frac{ \partial \dot{p} }{ \partial p } $$
+(TODO: Apparently we proved this, idk)
+
+To find $d\rho/dt$ we use the continuity equations, which is always true, so
+$$\frac{ \partial \rho }{ \partial t } +\nabla\cdot(\mathbf{v}p)=0$$
+With some mathemagics we get
+$$\frac{ \partial \rho }{ \partial t } =-\frac{ \partial  }{ \partial q } (\rho \dot{q})-\frac{ \partial  }{ \partial p } (p \dot{p})=-\frac{ \partial \rho }{ \partial q } \dot{q}-\frac{ \partial \rho }{ \partial p } \dot{p}-\rho\left( \frac{ \partial \dot{q} }{ \partial q } + \frac{ \partial \dot{p} }{ \partial p }  \right)$$
+Since we know $\dot{q}$ and $\dot{p}$ this becomes
+$$\frac{ \partial \rho }{ \partial t } =\gamma \rho$$
