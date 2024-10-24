@@ -2,7 +2,7 @@
 aliases:
   - extensive
 ---
-A property of a [[physical system]] is said to be **extensive** if it is dependent on the amount of stuff present in the system[^1]. "Stuff" can be any quantity of interest, like number of [[Atomo|atoms]], [[mass]], [[electric charge]], etc. For instance, mass and volume are extensive because they depend on the amount of atoms in the object, but mass density is not. Another definition is any property whose magnitude sums for subsystems[^2].
+A property of a [[physical system]] is said to be **extensive** if it is dependent on the amount of stuff present in the system[^1]. "Stuff" can be any quantity of interest, like number of [[Atomo|atoms]], [[mass]], [[electric charge]], etc. For instance, mass and volume are extensive because they depend on the amount of atoms in the object, but mass density is not. Another definition is "any property whose magnitude sums for subsystems"[^2].
 
 The opposite of an extensive property is an [[intensive property]].
 

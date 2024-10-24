@@ -37,7 +37,10 @@ These two statements are, for all purposes, identical. If one is true, then so i
 > - If Kelvin's statement is false, then we could extract heat from $T_{1}$ and transform it all into work. We could then reverse the process and convert that work back into heat, now placing into $T_{2}$. But now we have made a process whose only effect is to transfer heat from $T_{1}$ to $T_{2}$, which is prevented from Clausius' statement.
 > - If Clausius' statement is false, then we could let some amount of heat $Q_{2}$ move from $T_{1}$ to $T_{2}$ spontaneously. We could then connect a [[Carnot engine]] between $T_{2}$ and $T_{1}$ to extract $Q_{2}$ from $T_{2}$ and return some heat $Q_{1}<Q_{2}$ to $T_{1}$. The net work output of the apparatus is $Q_{2}-Q_{1}>0$. Since this is the only output of the apparatus, Kelvin's statement is contradicted.
 
-At a statistical level, heat is a transfer of energy residing in the random motion of [[Particella|particles]]. In contrast, work requires organized motion from the particles. The ability to convert heat entirely into work would imply a spontaneous tendency to move from chaos to order. Though technically not impossible, it is exceptionally unlikely, as the configuration that leads to order is typically only one, compared to the myriad of other configuration that lead to chaos. The second law of thermodynamics fundamentally describes this tendency at a high level.
+At a statistical level, heat is a transfer of energy residing in the random motion of [[Particella|particles]]. In contrast, work requires organized motion from the particles. The ability to convert heat entirely into work would imply a spontaneous tendency to move from chaos to order. Though technically not impossible, it is exceptionally unlikely, as the configuration that leads to order is typically only one, compared to the myriad of other configuration that lead to chaos. The second law of thermodynamics fundamentally describes this tendency at a high level. In fact, we can express this law in yet another form, invoking [[entropy]]:
+
+> [!info] Second law of thermodynamics (Entropy formulation)
+> There exists no thermodynamic transformation that can decrease the entropy of an [[Physical system|isolated system]]. For such a system, $\Delta S\geq 0$.
 ### Third law
 The third law of thermodynamic was stated by Nernst in 1905 as follows:
 

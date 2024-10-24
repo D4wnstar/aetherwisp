@@ -11,6 +11,11 @@ It is often called **Shannon entropy** due to it being originally introduced by 
 Strictly speaking, the base of the logarithm is arbitrary and may be any real number. Base two is the most common choice as it encodes the idea of "true or false" outcomes and is measured in **bits**. In physics, however, base $e$ (i.e. $\ln$) is the more common choice as it spontaneously arises in nature. Entropy in base $e$ is measured in **nats**.
 ### Interpretation
 Shannon entropy can be described as a measure of the uncertainty of $X$. $H$ can be seen as  a sort of "missing information": the greater the entropy, the less information I have about $X$ a priori. For instance, if $X$ only has one possible value, entropy is zero as there is no uncertainty; I already know everything possible about $X$ before even sampling from it.
+### Boltzmann's entropy
+In the specific case that all outcomes are equally likely, $p(x)$ is a constant. If there are $W$ possible outcomes, we have $p=1/W$, in which case the entropy reduces to
+$$H=\log W$$
+This chiefly occurs in statistical mechanics under the [[equal a priori probability hypothesis]], where $W$ is interpreted as the number of [[microstate|microstates]] a [[physical system]] can be found in. Turning it into physical [[entropy]] through the [[Boltzmann constant]], we get Boltzmann's formula for entropy:
+$$S=k_{B}\log W$$
 ### Joint entropy
 If $X$ and $Y$ are two random variables in sample spaces $\mathcal{X}$ and $\mathcal{Y}$, **joint entropy** is defined by just changing the normal distribution function to a [[joint distribution function]]:
 $$H_{X,Y}=-\sum_{x \in \mathcal{X}} \sum_{y\in \mathcal{Y}}p_{X,Y}(x,y)\log p_{X,Y}(x,y)$$
