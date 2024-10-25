@@ -72,3 +72,23 @@ It can be proven that the entropy can be calculated from any of $\Gamma$, $\omeg
 $$S=k_{B}\log \Gamma(E)\qquad S=k_{B}\log \omega(E)\qquad S=k_{B}\log \Sigma(E)$$
 
 The only thing left to prove is that $S$ obeys the second law of thermodynamics. Thankfully this is straight-forward: the second law says that when a thermodynamic systems goes from one state to another through a [[Thermodynamic transformation|transformation]], the entropy does not decrease. In a microcanonical ensemble, entropy is a function of $E$, $N$ and $V$. But $E$ and $N$ are constant, so the only thing we can change to vary the state is $V$. But if $V$ is increased, then $\Sigma(E)$ must also increase as we are integrating over more states (recall that the integration bounds are affected by $V$). But since $S=k_{B}\log \Sigma(E)$, and $\Sigma(E)$ can only increase, then $S$ can also only increase. Thus, the second law is preserved, and with that we proved that $S$ is formally entropy.
+### Examples
+> [!info] 6-3 Huang (Italian edition)
+> Consider a system of $N$ particles. $n_{0}$ are at energy $0$ and $n_{1}$ are at energy $E>0$. Find the entropy and temperature of the system.
+> The total energy of the system must be $U=n_{1}E$ (all $n_{0}$ particles have no energy). We can write $n_{0}$ as
+> $$n_{0}=N-n_{1}=N- \frac{U}{E}$$
+> With some combinatorics, the number of state combinations due to $n_{1}$ is
+> $$W=\begin{pmatrix}N \\ n_{1}\end{pmatrix}=\frac{N!}{n_{1}!(N-n_{1})!}$$
+> using the [[Binomial theorem|binomial coefficient]]. The entropy therefore is
+> $$S=k_{B}\log \frac{N!}{n_{1}!(N-n_{1})!}$$
+> Dividing entropy by the Boltzmann constant we get
+> $$\frac{S}{k_{B}}=\log N!-\log n_{1}!-\log[(N-n_{1})!]\simeq N\log N- \frac{U}{E}\log \frac{U}{E}- \left( N- \frac{U}{E} \right)\log\left( N- \frac{U}{E} \right)$$
+> using the [[Stirling approximation]] and $n_{1}=U/E$.
+> As for the temperature, we have from the [[Maxwell relations]]:
+> $$T=\frac{ \partial U }{ \partial S } \quad\to \quad \frac{1}{T}=\frac{ \partial S }{ \partial U } $$
+> We use the inverse just because it's easier, as we already have $S$ anyway. So
+> $$\frac{1}{k_{B}T}=\log\left( \frac{NE-U}{U} \right)$$
+> So
+> $$T=\frac{1}{k_{B}\log\left( \frac{NE-U}{U} \right)}$$
+> Note that this temperature could very well be negative. This, of course, is non-physical, but it's happening here regardless. The reason why it happens is that the system is being bounded in energy from above, that is, there is a maximum energy that the system cannot cross. The unphysical nature of negative temperature implies that systems with an energy maximum cannot exist, or at most exist as approximation of unbounded systems. This is the case for [[Sistema a due livelli|two-level systems]], which in practice do exist, but only within a short period of time. For instance, a [[qubit]] is a two-level system during the short period of its measurement, but if we were to observe one over long periods of time, it would not remain so as that would imply the possibility of negative temperature.
+
