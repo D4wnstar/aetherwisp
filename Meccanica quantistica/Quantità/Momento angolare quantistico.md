@@ -1,5 +1,5 @@
 Classicamente, il momento angolare è dato dalla formula vettoriale
-$$\vec{L}=\vec{r}\times\vec{p}$$
+$$\mathbf{L}=\mathbf{r}\times\mathbf{p}$$
 che suddiviso nelle sue componenti dà
 $$L_{x}=yp_{z}-zp_{y}, \quad L_{y}=zp_{x}-xp_{z}, \quad L_{z}=xp_{y}-yp_{x}$$
 Quantizzando queste quantità con l'[[operatore]] quantità di moto si trova

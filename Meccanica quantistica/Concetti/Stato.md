@@ -18,67 +18,68 @@ $$\hat{\rho}=\sum_{i=1}^{d} \lvert \braket{ a_{i} | \psi }  \rvert ^{2}\hat{P}_{
 dove $\ket{a_{i}}$ sono i singoli stati della miscela con i loro proiettori $\hat{P}_{a_{i}}$. La lettera $\rho$ è una lettera standard per denotare stati misti e rappresenta la [[matrice di densità]]. Algebricamente possiamo scrivere
 $$\hat{\rho}=\sum_{i=1}^{d} \braket{ a_{i} | \psi } \ket{a_{i}} \bra{a_{i}} \braket{ \psi | a_{i} } =\sum_{i=1}^{d} \ket{a_{i}} \bra{a_{i}} \ket{\psi} \bra{\psi} \ket{a_{i}} \bra{a_{i}} =\sum_{i=1}^{d} \hat{P}_{a_{i}}\hat{P}_{\psi}\hat{P}_{a_{i}}$$
 Quindi anche uno stato misto può essere visto esclusivamente in funzione dei proiettori sugli stati della miscela.
-#### Esempio: Matrici di Pauli
-Consideriamo le [[matrici di Pauli]] rappresentate nella [[base]] delle $z$. I proiettori sugli autostati di $z$ sono
-$$\hat{P}_{\uparrow z}=\begin{pmatrix}
-1 & 0  \\
-0 & 0
-\end{pmatrix}\qquad \hat{P}_{\downarrow z}=\begin{pmatrix}
-0 & 0  \\
-0 & 1
-\end{pmatrix}$$
-Consideriamo uno stato generico $\ket{\psi}$ in $\mathbb{C}^{2}$ e il suo proiettore
-$$\hat{P}_{\psi}=\ket{\psi} \bra{\psi}=\begin{pmatrix}
-\alpha \\
-\beta
-\end{pmatrix}(\alpha^{*}\ \beta^{*})=\begin{pmatrix}
-\lvert \alpha \rvert ^{2} & \alpha \beta^{*} \\
-\alpha^{*}\beta & \lvert \beta \rvert ^{2}
-\end{pmatrix} $$
-Ricordiamo che
-$$\begin{pmatrix}
-\alpha  \\
-\beta
-\end{pmatrix}=\alpha \ket{\uparrow z} +\beta \ket{\downarrow z} $$
-quindi $\psi$ è una miscela convessa di stati up e down. Vogliamo rappresentare lo stato misto usando quanto abbiamo appena visto. Allora
-$$\hat{\rho}=\begin{pmatrix}1 & 0 \\
-0 & 0\end{pmatrix}\begin{pmatrix}
-\lvert \alpha \rvert ^{2} & \alpha \beta^{*} \\
-\alpha^{*}\beta & \lvert \beta \rvert ^{2}
-\end{pmatrix}\begin{pmatrix}
-0 & 0 \\
-0 & 1
-\end{pmatrix}+\begin{pmatrix}
-0 & 0 \\
-0 & 1
-\end{pmatrix}\begin{pmatrix}
-\lvert \alpha \rvert ^{2} & \alpha \beta^{*} \\
-\alpha^{*}\beta & \lvert \beta \rvert ^{2}
-\end{pmatrix}\begin{pmatrix}
-1 & 0 \\
-0 & 0
-\end{pmatrix}=$$
-$$=\begin{pmatrix}
-\lvert \alpha \rvert ^{2} & \alpha \beta^{*} \\
-0 & 0
-\end{pmatrix}\begin{pmatrix}
-1 & 0 \\
-0 & 0
-\end{pmatrix}+\begin{pmatrix}
-0 & 0 \\
-\alpha^{*}\beta & \lvert \beta \rvert ^{2}
-\end{pmatrix}\begin{pmatrix}
-0 & 0 \\
-0 & 1
-\end{pmatrix}=$$
-$$=\begin{pmatrix}
-\lvert \alpha \rvert ^{2} & 0 \\
-0 & 0
-\end{pmatrix}+\begin{pmatrix}
-0 & 0 \\
-0 & \lvert \beta \rvert ^{2}
-\end{pmatrix}=\begin{pmatrix}
-\lvert \alpha \rvert ^{2} & 0 \\
-0 & \lvert \beta \rvert ^{2}
-\end{pmatrix}$$
-che ci dà una matrice diagonale che rimuove i termini $\alpha \beta$, generalmente detti *termini di interferenza*.
+
+> [!example] Matrici di Pauli
+> Consideriamo le [[matrici di Pauli]] rappresentate nella [[base]] delle $z$. I proiettori sugli autostati di $z$ sono
+> $$\hat{P}_{\uparrow z}=\begin{pmatrix}
+> 1 & 0  \\
+> 0 & 0
+> \end{pmatrix}\qquad \hat{P}_{\downarrow z}=\begin{pmatrix}
+> 0 & 0  \\
+> 0 & 1
+> \end{pmatrix}$$
+> Consideriamo uno stato generico $\ket{\psi}$ in $\mathbb{C}^{2}$ e il suo proiettore
+> $$\hat{P}_{\psi}=\ket{\psi} \bra{\psi}=\begin{pmatrix}
+> \alpha \\
+> \beta
+> \end{pmatrix}(\alpha^{*}\ \beta^{*})=\begin{pmatrix}
+> \lvert \alpha \rvert ^{2} & \alpha \beta^{*} \\
+> \alpha^{*}\beta & \lvert \beta \rvert ^{2}
+> \end{pmatrix} $$
+> Ricordiamo che
+> $$\begin{pmatrix}
+> \alpha  \\
+> \beta
+> \end{pmatrix}=\alpha \ket{\uparrow z} +\beta \ket{\downarrow z} $$
+> quindi $\psi$ è una miscela convessa di stati up e down. Vogliamo rappresentare lo stato misto usando quanto abbiamo appena visto. Allora
+> $$\hat{\rho}=\begin{pmatrix}1 & 0 \\
+> 0 & 0\end{pmatrix}\begin{pmatrix}
+> \lvert \alpha \rvert ^{2} & \alpha \beta^{*} \\
+> \alpha^{*}\beta & \lvert \beta \rvert ^{2}
+> \end{pmatrix}\begin{pmatrix}
+> 0 & 0 \\
+> 0 & 1
+> \end{pmatrix}+\begin{pmatrix}
+> 0 & 0 \\
+> 0 & 1
+ >\end{pmatrix}\begin{pmatrix}
+> \lvert \alpha \rvert ^{2} & \alpha \beta^{*} \\
+> \alpha^{*}\beta & \lvert \beta \rvert ^{2}
+> \end{pmatrix}\begin{pmatrix}
+> 1 & 0 \\
+> 0 & 0
+> \end{pmatrix}=$$
+> $$=\begin{pmatrix}
+> \lvert \alpha \rvert ^{2} & \alpha \beta^{*} \\
+> 0 & 0
+> \end{pmatrix}\begin{pmatrix}
+> 1 & 0 \\
+> 0 & 0
+> \end{pmatrix}+\begin{pmatrix}
+> 0 & 0 \\
+> \alpha^{*}\beta & \lvert \beta \rvert ^{2}
+> \end{pmatrix}\begin{pmatrix}
+> 0 & 0 \\
+> 0 & 1
+> \end{pmatrix}=$$
+> $$=\begin{pmatrix}
+> \lvert \alpha \rvert ^{2} & 0 \\
+> 0 & 0
+> \end{pmatrix}+\begin{pmatrix}
+> 0 & 0 \\
+> 0 & \lvert \beta \rvert ^{2}
+> \end{pmatrix}=\begin{pmatrix}
+> \lvert \alpha \rvert ^{2} & 0 \\
+> 0 & \lvert \beta \rvert ^{2}
+> \end{pmatrix}$$
+> che ci dà una matrice diagonale che rimuove i termini $\alpha \beta$, generalmente detti *termini di interferenza*.

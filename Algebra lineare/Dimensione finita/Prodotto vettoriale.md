@@ -20,3 +20,6 @@ che dà lo stesso risultato di sopra.
 ### Interazione con rotazioni
 Il prodotto vettoriale è distributivo rispetto ad una [[Rotation|rotazione]] $R$:
 $$(R\vec{a})\times(R\vec{b})=R(\vec{a}\times\vec{b})$$
+### Rappresentazione tensoriale
+Il prodotto vettoriale può anche essere rappresentato mediante il [[tensore di Levi-Civita]]. In tre dimensioni, l'$i$-esimo componente del prodotto vettoriale è
+$$(\mathbf{a}\times \mathbf{b})_{i}=\sum_{i,j=1,2,3} \epsilon_{ijk}a_{i}b_{j} $$

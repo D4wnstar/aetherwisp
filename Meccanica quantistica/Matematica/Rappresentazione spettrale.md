@@ -1,4 +1,4 @@
-La **rappresentazione spettrale** di un operatore è una decomposizione in [[serie]] dell'operatore nella base creata dai suoi stessi autostati.
+La **rappresentazione spettrale** di un [[operatore]] è una decomposizione in [[serie]] dell'operatore nella [[base]] creata dai suoi stessi [[Equazione agli autovalori|autostati]].
 ### Spettro discreto
 Consideriamo un [[operatore autoaggiunto]] $\hat{A}=\hat{A}^{+}$ nello [[spazio di Hilbert]] $\mathcal{H}=\mathbb{C}^{n}$. Diciamo che questo operatore ha [[spettro]] discreto. Allora, i suoi [[Equazione agli autovalori|autostati]] (che sono [[Ortonormalità|ortonormali]]) costituiscono una [[base]] ortonormale in $\mathcal{H}$, $\{ \ket{a_{i}} \}_{i=1}^{n}$. ha autovalori reali, infatti presa l'[[equazione agli autovalori]]
 $$\hat{A}\ket{a_{i}} =a_{i}\ket{a_{i}} $$

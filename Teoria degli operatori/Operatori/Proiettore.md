@@ -1,10 +1,17 @@
+---
+aliases:
+  - autoproiettore
+  - relazione di completezza
+---
 Si chiama **proiettore** $\hat{P}_{\psi}$ l'[[operatore lineare]] che, applicato ad un elemento di uno [[spazio vettoriale]], risulta nella componente di quell'elemento che giace sulla direzione $\psi$ di una [[base]] [[Ortonormalità|ortonormale]]. Usando la [[notazione braket]], si scrive
 $$\hat{P}_\psi=|\psi\rangle\langle\psi|$$
 e applicato ad un vettore $|\phi\rangle$ si scrive
 $$\hat{P}_{\psi}|\phi\rangle=\langle\psi|\phi\rangle|\psi\rangle$$
 Il numero risultante (se si proietta su uno spazio 1D) appartiene al sottospazio unidimensionale generato da $|\psi\rangle$. In sostanza, il proiettore individua la componente di un vettore su una certa dimensione e lo applica al vettore stesso.
+
+In meccanica quantistica, i proiettori sono comunemente usati per rappresentare la riduzione di uno stato non osservato ad un suo [[Equazione agli autovalori|autostato]] a seguire di una misura. Un proiettore che proietta su un vettore di autostato è anche detto **autoproiettore**.
 ### Proprietà
-Un proiettore è un operatore [[idempotenza|idempotente]]
+Un proiettore è un operatore [[idempotence|idempotente]]
 $$\hat{P}_{\psi}^{2}=\hat{P}_{\psi}\hat{P}_{\psi}=(|\psi\rangle\langle \psi|)(|\psi\rangle\langle \psi|)=\langle \psi|\psi\rangle|\psi\rangle\langle \psi|=\hat{P}_{\psi}$$
 usando che $\braket{ \psi | \psi }=1$ ($\psi$ è componente di una base ortonormale) e vale $\hat{P}_{\psi}^{0}=0$.
 
@@ -27,32 +34,35 @@ Poiché sono autoaggiunti, hanno traccia unitaria e autovalori 0 e 1, i proietto
 Per dimostrare che un operatore è un proiettore bisogna dimostrare
 - l'autoaggiuntezza
 - l'idempotenza
-### Proiettore su base ortonormale
-I proiettori sono particolarmente utili quando si deve trovare la rappresentazione di un vettore o funzione rispetto ad una base. Infatti, presa una base ortonormale costituita da $\{|\phi_{i}\rangle\}^{n}_{i=1}$ definita su uno [[spazio di Hilbert]] $\mathcal{H}$, ogni vettore generico $\ket{\psi}$ di $\mathcal{H}$ può essere rappresentato come una combinazione lineare degli elementi della base
+### Relazione di completezza
+La **relazione di completezza** è una relazione particolarmente utile associata ai proiettori. Si verifica sia su sistemi ortonormali discreti che continui.
+#### Caso discreto
+Presa una base ortonormale discreta costituita da $\{|\phi_{i}\rangle\}^{n}_{i=1}$ definita su uno [[spazio di Hilbert]] $\mathcal{H}$, ogni vettore generico $\ket{\psi}$ di $\mathcal{H}$ può essere rappresentato come una combinazione lineare degli elementi della base in [[serie di Fourier]]:
 $$\ket{\psi} =\sum_{i=1}^{n} \braket{ \phi_{i} | \psi } \ket{\phi_{i}} $$
-dove $\braket{ \phi_{i} | \psi }$ sono i [[Serie di Fourier|coefficienti di Fourier]]. Lo stesso vale per una base in uno spazio infinito dimensionale e continuo, come ad esempio [[Spazi Lp|L^2]], come
-$$\ket{\psi} =\int_{-\infty}^{\infty} \braket{ x | \psi } \ket{\psi}  \ dx $$
-Ma dovrebbe essere evidente il parallelo con il proiettore. Se definiamo il proiettore sulla direzione $\ket{\phi_{i}}$ come
+dove $\braket{ \phi_{i} | \psi }$ sono i [[Serie di Fourier|coefficienti di Fourier]]. Dovrebbe essere evidente il parallelo con il proiettore. Se definiamo il proiettore sulla direzione  come
 $$\hat{P}_{\phi_{i}}=\ket{\phi_{i}} \bra{\phi_{i}} $$
-la sua applicazione su generico vettore $\ket{\psi}$ è $\hat{P}_{\phi_{i}}=\braket{ \phi_{i} | \psi }\ket{\phi_{i}}$. Ma questo non è altro che il singolo termine della serie di Fourier con il quale espandiamo un vettore in una base ortonormale. Vale infatti
+la sua applicazione su generico vettore $\ket{\psi}$ è $\hat{P}_{\phi_{i}}=\braket{ \phi_{i} | \psi }\ket{\phi_{i}}$. Ma questo non è altro che il singolo termine della serie di Fourier, che può infatti essere scritta in forma proiettiva come
 $$\ket{\psi} =\sum_{i=1}^{n} \hat{P}_{\phi_{i}}\ket{\psi} $$
-Ma da questo si può anche ricavare un risultato molto importante. Applicare tutti i proiettori sui vettori di una base su un vettore ci ritorna il vettore stesso. In pratica, la somma di tutti i proiettori su una base ortonormale "non fa nulla". Questo fatto è formalizzato nella **relazione di completezza**
-$$\sum\limits_{i=1}^{n}\hat{P}_{\psi_{i}}=\hat{\mathbf{1}}$$
-dove $\hat{\mathbf{1}}$ è l'operatore identico.
+Da qui si vede che la somma di tutte le proiezioni su una base di un vettore ci ritorna il vettore stesso. In pratica, la somma di tutti i proiettori su una base ortonormale "non fa nulla". Se consideriamo i proiettori in maniera astratta, senza applicarli al vettore, possiamo tirare quest'ultimo fuori dalla somma (dato che non dipende da $i$), il che implica la seguente relazione
+$$\boxed{\sum\limits_{i=1}^{n}\hat{P}_{\phi_{i}}=\hat{\mathbf{1}}}$$
+dove $\hat{\mathbf{1}}$ è l'operatore identico. Questa è detta relazione di completezza ed è universalmente valida per qualunque base ortonormale discreta.
+#### Caso continuo
+Il caso continuo richiede degli accorgimenti. Possiamo dimostrare la relazione partendo da concetti quantistici: prendiamo da una [[funzione d'onda]] $\psi \in L^{2}(\mathbb{R})$ e la [[rappresentazioni dello stato|rappresentiamo in posizione]] come 
+$$\psi(x)=\braket{ x | \psi }=\int_{-\infty}^{\infty} \delta(y-x)\psi(y) \ dy=\ldots$$
+usando la [[delta di Dirac]]. È anche vero che $\braket{ x | y }=\delta(x-y)$, allora
+$$\ldots=\int_{-\infty}^{\infty} \braket{ x | y } \braket{ y | \psi }  \ dx =\bra{x} \left( \int_{-\infty}^{\infty} \underbrace{ \ket{y} \bra{y} }_{ \hat{P}_{y} }  \ dy  \right)\ket{\psi} $$
+che possiamo fare per la linearità dell'integrale. Dato che gli autostati di posizione sono continui e non discreti (e quindi non [[Normalizzazione|normalizzabili]]), l'argomento dell'integrale $\hat{P}_{y}$ non può essere un proiettore, e viene invece detto **pseudoproiettore**, in quanto condivide diverse proprietà di un proiettore, ma non è idempotente. Infatti, il quadrato di una delta di Dirac non esiste, neanche come distribuzione, quindi il quadrato di un pseudoproiettore è anch'esso indefinito.
 
-Questo risultato si estende immediatamente anche al caso a dimensione infinita discreta, prendendo un [[sistema ortonormale completo]]. Nel caso di un sistema a dimensione infinita continua, c'è bisogno che sia [[Ortonormalità|Dirac-ortonormale]], in qual caso la relazione di completezza diventa
-$$\int_{-\infty}^{+\infty}|e_{z}\rangle\langle e_{z}|dz=\hat{\mathbb{1}}$$
+Detto questo, si può vedere subito che l'integrale non può avere alcun'azione sul $\ket{\psi}$, altrimenti non potrebbe essere uguale a $\braket{ x | \psi }$. Ci ritroviamo nella stessa situazione del caso discreto e allo stesso modo possiamo affermare
+$$\boxed{\int_{-\infty}^{\infty} \hat{P}_{x} \ dx=\int_{-\infty}^{\infty} \ket{x} \bra{x}  \ dx  =\hat{\mathbf{1}}}$$
+Questo risultato vale su un [[sistema ortonormale completo]], con l'ortonormalità intesa [[Ortonormalità|nel senso della delta di Dirac]].
 ### Risultati utili
-La somma di tutte le proiezioni su una base ortonormale è il vettore stesso, grazie alla completezza:
-$$|\psi\rangle=\sum\limits_{i=1}^{n}\langle i|\psi\rangle|i\rangle=\sum\limits_{i=1}^{n}|i\rangle\langle i|\psi\rangle=\left(\sum\limits_{i=1}^{n}\hat{P}_{i}\right)|\psi\rangle$$
-che è una serie di Fourier.
-
 Un vettore proiettato su sé stesso dà sé stesso:
 $$\hat{P}_{\psi}|\psi\rangle=\langle \psi|\psi\rangle|\psi\rangle=|\psi\rangle$$
 
-Un vettore proiettato su un altro vettore ortogonale ad esso dà sempre 0:
-$$\hat{P}_{\psi}|\phi\rangle=\langle \psi|\phi\rangle|\psi\rangle=0\quad\text{con}\quad|\phi\rangle\in\{|\psi\rangle\}^{\perp} \Rightarrow\langle \phi|\psi\rangle=0$$
+La proiezione di un vettore su un vettore ortogonale ad esso è sempre nulla:
+$$\braket{ \phi | \psi } =0 \quad\Rightarrow \quad\hat{P}_{\psi}|\phi\rangle=\langle \psi|\phi\rangle|\psi\rangle=0$$
 
-Considero l'esponenziale
-$$e^{\hat{P}_{\psi}}=\sum\limits_{n=0}^{\infty} \frac{1}{n!}(\hat{P}_{\psi})^{n}=\hat{\mathbb{1}}+\left(\sum\limits_{n=1}^{\infty} \frac{1}{n!}\right)\hat{P}_{\psi}=\hat{\mathbb{1}}+(e-1)\hat{P}_{\psi}$$
-ricordando l'idempotenza.
+L'esponenziale di un proiettore ha una forma particolare per merito dell'idempotenza
+$$e^{\hat{P}_{\psi}}=\sum\limits_{n=0}^{\infty} \frac{1}{n!}(\hat{P}_{\psi})^{n}=\hat{\mathbf{1}}+\left(\sum\limits_{n=1}^{\infty} \frac{1}{n!}\right)\hat{P}_{\psi}=\hat{\mathbf{1}}+(e-1)\hat{P}_{\psi}$$
+usando la [[serie esponenziale]].

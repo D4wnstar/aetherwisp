@@ -10,11 +10,11 @@ $$(f_{m},f_{n})=\delta_{mn}=\begin{cases}
 0 & \text{se }m\neq n
 \end{cases}$$
 
-Il concetto di ortonormalità si applica solo a sistemi discreti, finiti o infiniti. È possibile costruire una forma debole di ortonormalità anche per sistemi infiniti continui, chiamata **ortonormalità di Dirac**[^1]. Presi due valori $z$ e $w$ che rappresentano due funzioni o vettori (un'indice continuo), allora vale
+Il concetto di ortonormalità si applica solo a sistemi discreti, siano essi finiti o infiniti. È possibile costruire una forma debole di ortonormalità anche per sistemi infiniti continui, chiamata **ortonormalità di Dirac**[^1]. Presi due valori $z$ e $w$ che rappresentano due funzioni o vettori (un'indice continuo), allora vale
 $$(f_{z},f_{w})=\delta(z-w)=\begin{cases}
 \infty & \text{se }z=w \\
 0 & \text{se }z\neq w 
 \end{cases}$$
 dove la delta ora è la [[delta di Dirac]].
 
-[^1]: Il nome proviene da *Introduction to Quantum Mechanics, 2nd Ed.* di Griffiths.
+[^1]: Il nome proviene da *Introduction to Quantum Mechanics, 2nd ed.* di Griffiths.
