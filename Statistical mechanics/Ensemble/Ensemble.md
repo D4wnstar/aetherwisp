@@ -1,4 +1,11 @@
 An **ensemble** or **statistical ensemble** is a collection of identical copies of a mechanical [[Physical system|system]] characterized by a **density function** $\rho(\mathbf{q},\mathbf{p},t)$ defined in the [[phase space]] of the system.
+
+The most common ensembles are the [[microcanonical ensemble]], the [[canonical ensemble]]and the [[grand canonical ensemble]]. They differ in the following points:
+- The microcanonical is [[Physical system|isolated]] from the environment.
+- The canonical is not isolated and is subject to [[energy]] fluctuations.
+- The grand canonical is not isolated and is subject to both energy fluctuations and number of particles fluctuations.
+
+Which ensemble best describes a system depends on which of the above conditions are met.
 ### Detailed description
 Consider a gas of $N$ [[particella|particles]], each with position $\mathbf{q}$ and momentum $\mathbf{p}$. In three dimensions, each particles has six variables, so for a system of $N$ particles, we are working with a $6N$-dimensional [[Phase space|phase space]] $\Gamma$. This is, of course, impossible to solve analytically.
 
