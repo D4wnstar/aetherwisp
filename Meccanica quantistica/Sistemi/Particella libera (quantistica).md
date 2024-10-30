@@ -3,7 +3,7 @@ aliases:
   - particella libera
 ---
 La **particella libera** è un sistema quantistico costituito da una singola [[Particella]] in assenza di [[Potenziale]], ovvero $V(x)=0$ ovunque. Nel caso classico, questo sistema è banale e ha soluzioni immediate, dato che la particella compie un semplice moto rettilineo a velocità costante, ma nel caso quantistico compaiono problemi non trascurabili e diventa più complesso dell'[[Oscillatore armonico quantistico]].
-## Soluzione
+### Soluzione
 Partiamo come al solito dall'[[Equazione di Schrödinger#Potenziale indipendente dal tempo|equazione di Schrödinger indipendente dal tempo]]
 $$- \frac{\hbar^{2}}{2m} \frac{d^{2}\psi}{dx^{2}}=E\psi$$
 che ha potenziale nullo. Come per la [[Buca infinita quantistica|buca infinita]], scriviamola in una forma più compatta
@@ -39,7 +39,7 @@ $$\Psi(x,0)=\frac{1}{\sqrt{2\pi}}\int_{-\infty}^{+\infty}\phi(k)e^{ixk}dk=F[\phi
 Ma questa non è altro che la [[Trasformata di Fourier]] dal dominio delle frequenze spaziali $k$ a quello delle posizioni $x$. Per estrarre $\phi(k)$, basta applicare l'antitrasformata:
 $$\boxed{\phi(k)=\frac{1}{\sqrt{2\pi}}\int_{-\infty}^{+\infty}\Psi(x,0)e^{-ikx}dx=F^{-1}[\Psi(x,0)](k)}$$
 È giusto menzionare che gli integrali per $\phi(k)$ e soprattutto per $\Psi(x,t)$ sono raramente risolvibili analiticamente.
-### Paradosso della velocità
+#### Paradosso della velocità
 Nella ricerca della funzione d'onda per la particella libera, ci si è imbattuti in un paradosso: la velocità data dalla teoria classica è il doppio di quella data dalla teoria quantistica, anche se rappresentano la stessa identica particella. Il problema di fatto non sussiste, dato che la soluzione che porta a questo problema non ha significato fisico, ma è comunque interessante studiare il perché di questo paradosso.
 
 Definiamo a grandi linee un pacchetto d'onda: un pacchetto d'onda è una sovrapposizione di funzioni sinusoidali modulate dalla funzione $\phi(k)$. Si tratta di un'onda contenuta in un battimento e come in tutti questi casi, si hanno due tipi di velocità, non una: la **velocità di fase** è la velocità che ha un punto sull'onda, mentre la **velocità di gruppo** è la velocità del battimento. Queste possono, ma non devono, essere uguali.
@@ -61,6 +61,31 @@ $$v_{\text{fase}}=\frac{\omega}{k}$$
 Nel nostro caso, valgono
 $$v_{\text{fase}}=\frac{\omega}{k}=\frac{\hbar k}{2m},\quad v_{\text{gruppo}}=\frac{d\omega}{dk}=\frac{\hbar k}{m}=2v_{\text{fase}}$$
 che il paradosso: la teoria classica ci dà la velocità di gruppo dell'onda quantistica, non la velocità degli stati stazionari.
+### Soluzione nel tempo
+L'[[Hamiltoniana]] di un particella libera è
+$$\hat{H}=\frac{\hat{p}^{2}}{2m}$$
+Usiamo l'equazione di Schrödinger generale
+$$i\hbar \partial_{t} \ket{\psi_{t}} =\hat{H}\ket{\psi_{t}}$$
+Usiamo la [[Rappresentazioni dello stato|rappresentazione della posizione]], nella quale sappiamo che forma ha l'operatore $\hat{p}=-i\hbar \partial_{x}$:
+$$i\hbar \partial_{t} \psi _{t}(x)=- \frac{\hbar^{2}}{2m}\partial_{x} ^{2}\psi_{t}(x)$$
+Questa è un'equazione differenziale parziale sia in tempo che in posizione. La derivata in tempo è qui per definizione dell'equazione di Schrödinger, ma la derivata in posizione è arrivata dalla scelta di usare la rappresentazione in posizione. Se usassimo la rappresentazione in momento? In quel caso, avremmo
+$$\braket{ p | (i\hbar \partial_{t} \psi_{t}) } =i\hbar \partial_{t} \psi_{t}(p)=\braket{ p | \frac{\hat{p}^{2}}{2m}\psi_{t} }=\frac{p^{2}}{2m}\psi_{t}(p) $$
+dove la terza uguaglianza è derivata dall'equazione di Schrödinger e la quarta sviluppando la terza dato che $\hat{p}$ è [[Operatore autoaggiunto|hermitiano]] e vale
+$$\braket{ p | \frac{\hat{p}^{2}}{2m}\psi_{t} } =\frac{1}{2m}\braket{ \hat{p}^{2}p | \psi_{t} } =\frac{p^{2}}{2m}\braket{ p | \psi _{t} } =\frac{p^{2}}{2m}\psi_{t}(p)$$
+dato che $\hat{p}\ket{p}=p\ket{p}$. Ma quindi ora abbiamo
+$$i\hbar \partial_{t} \psi_{t}(p)=\frac{p^{2}}{2m}\psi_{t}(p)$$
+che è un'equazione differenziale di gran lunga più semplice. La soluzione è un esponenziale.
+$$\psi_{t}(p)=e^{-(i/\hbar)(p^{2}/2m)t}\psi(p)$$
+Per gli scopi fisici però abbiamo più bisogno della soluzione nelle posizioni. Per convertire basta sfruttare la [[Proiettore|relazione di completezza]]:
+$$\psi_{t}(x)=\braket{ x | \psi_{t} } =\bra{x} \int_{-\infty}^{\infty} \ket{p} \bra{p}  \ dp \ket{\psi_{t}} =\int_{-\infty}^{\infty} \braket{ x | p } \braket{ p | \psi_{t} }  \ dp=  $$
+$$=\int_{-\infty}^{\infty} \frac{e^{ipx/\hbar}}{\sqrt{ 2\pi \hbar }} e^{-(i/\hbar)(p^{2}/2m)t}\psi(p) \ dp$$
+che è un'[[Trasformata di Fourier|antitrasformata di Fourier]]. Purtroppo lo stato iniziale $\psi(p)$ noi lo sappiamo in posizione come $\psi(x)$, quindi dovremmo compiere un'altra antitrasformata per convertirla (o usare la completezza di nuovo):
+$$\psi(p)=\braket{ p | \psi } =\int_{-\infty}^{\infty} \braket{ p | y } \braket{ y | \psi }  \ dy=\frac{1}{\sqrt{ 2\pi \hbar }} \int_{-\infty}^{\infty} e^{-ipy/\hbar}\psi(y) \ dy $$
+Ora che abbiamo convertito tutto, il problema sta nel risolvere gli integrali in sé.
+$$\begin{align}
+\psi_{t}(x)&=\int_{-\infty}^{\infty} \frac{e^{ipx/\hbar}}{\sqrt{ 2\pi \hbar }} e^{-(i/\hbar)(p^{2}/2m)t}\left(\frac{1}{\sqrt{ 2\pi \hbar }} \int_{-\infty}^{\infty} e^{-ipy/\hbar}\psi(y) \ dy\right) \ dp \\
+&=\frac{1}{ 2\pi \hbar }\int_{-\infty}^{\infty}\int_{-\infty}^{\infty} e^{(i/\hbar)p(x-y)-(i/\hbar)(p^{2}/2m)t}\ \psi(y) \ dy \ dp
+\end{align}$$
 
 [^1]: Questa relazione è particolarmente utile, dato che se conosciamo $k$, conosciamo anche $p$. È doppiamente importante perché questo legame fa sì che $k$ si comporti come $p$ ai fini del [[Disuguaglianza di Heisenberg|principio di indeterminazione]], quindi se l'errore su $x$ è basso, l'errore su $k$ è alto.
 [^2]: È certamente sensato avere una $\phi(k)$ più generica e diffusa, ma la nozione di gruppo - e quindi di velocità di gruppo - perde senso quando la $\phi(k)$ diventa così "diluita", dato che il gruppo cambia forma di continuo a causa delle diverse velocità interne.
