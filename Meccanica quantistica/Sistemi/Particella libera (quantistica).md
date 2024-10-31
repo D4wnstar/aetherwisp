@@ -79,13 +79,37 @@ $$\psi_{t}(p)=e^{-(i/\hbar)(p^{2}/2m)t}\psi(p)$$
 Per gli scopi fisici però abbiamo più bisogno della soluzione nelle posizioni. Per convertire basta sfruttare la [[Proiettore|relazione di completezza]]:
 $$\psi_{t}(x)=\braket{ x | \psi_{t} } =\bra{x} \int_{-\infty}^{\infty} \ket{p} \bra{p}  \ dp \ket{\psi_{t}} =\int_{-\infty}^{\infty} \braket{ x | p } \braket{ p | \psi_{t} }  \ dp=  $$
 $$=\int_{-\infty}^{\infty} \frac{e^{ipx/\hbar}}{\sqrt{ 2\pi \hbar }} e^{-(i/\hbar)(p^{2}/2m)t}\psi(p) \ dp$$
-che è un'[[Trasformata di Fourier|antitrasformata di Fourier]]. Purtroppo lo stato iniziale $\psi(p)$ noi lo sappiamo in posizione come $\psi(x)$, quindi dovremmo compiere un'altra antitrasformata per convertirla (o usare la completezza di nuovo):
+che è un'[[Trasformata di Fourier|antitrasformata di Fourier]]. Purtroppo lo stato iniziale $\psi(p)$ noi lo conosciamo in posizione come $\psi(x)$, quindi dovremmo compiere un'altra antitrasformata per convertirla (o usare la completezza di nuovo):
 $$\psi(p)=\braket{ p | \psi } =\int_{-\infty}^{\infty} \braket{ p | y } \braket{ y | \psi }  \ dy=\frac{1}{\sqrt{ 2\pi \hbar }} \int_{-\infty}^{\infty} e^{-ipy/\hbar}\psi(y) \ dy $$
 Ora che abbiamo convertito tutto, il problema sta nel risolvere gli integrali in sé.
 $$\begin{align}
 \psi_{t}(x)&=\int_{-\infty}^{\infty} \frac{e^{ipx/\hbar}}{\sqrt{ 2\pi \hbar }} e^{-(i/\hbar)(p^{2}/2m)t}\left(\frac{1}{\sqrt{ 2\pi \hbar }} \int_{-\infty}^{\infty} e^{-ipy/\hbar}\psi(y) \ dy\right) \ dp \\
 &=\frac{1}{ 2\pi \hbar }\int_{-\infty}^{\infty}\int_{-\infty}^{\infty} e^{(i/\hbar)p(x-y)-(i/\hbar)(p^{2}/2m)t}\ \psi(y) \ dy \ dp
 \end{align}$$
+Quello che possiamo fare è raggruppare gli integrali in questo modo
+$$\begin{align}
+\psi_{t}(x)=\int_{-\infty}^{\infty} \left( \int_{-\infty}^{\infty} \frac{e^{ip(x-y)/\hbar-(i/\hbar)(p^{2}/2m)t}}{2\pi \hbar} \ dp  \right)\psi(y) \ dy 
+\end{align}$$
+L'integrale centrale è la rappresentazione dell'evolutore libero in una dimensione, che prende i contributi dello stato iniziale noto $\psi(y)$ e li porta al tempo $t$ alla posizione $x$. Si tratta di una [[Green's function|funzione di Green]]. Infatti, si può dimostrare che questo integrale non è altro che $\bra{x}\hat{U}_{t}\ket{y}$, con $\hat{U}_{t}$ l'[[evolutore]].
+
+> [!example] Dimostrazione
+> $$\begin{align}
+> \psi_{t}(x)&=\braket{ x | \psi_{t} } =\braket{ x | \hat{U}_{t}\psi } =\bra{x} \left( \int_{-\infty}^{\infty} \ket{y} \bra{y}  \ dy \right)\ \ket{\hat{U}_{t}\psi}=\int_{-\infty}^{\infty} \braket{ x | y } \braket{ y | \hat{U}_{t}\psi }  \ dy  \\
+> &=\int_{-\infty}^{\infty} \braket{ x | y }\ \hat{U}_{t}\psi(y) \ dy =\int_{-\infty}^{\infty} \bra{x} \hat{U}_{t}\ket{y}\ \psi(y) \ dy
+> \end{align}$$
+> usando la relazione di completezza e
+> $$\psi_{t}(y)=\hat{U}_{t}\psi(y),\qquad\psi_{t}(y)=\braket{ y | \psi_{t} } =\braket{ y | \hat{U}_{t}\psi } \quad\Rightarrow \quad\braket{ y | \hat{U}_{t}\psi } =\hat{U}_{t}\psi(y) $$
+> e
+> $$\hat{U}_{t}\braket{ x | y } =\bra{x} \hat{U}_{t}\ket{y} \quad\text{(unitarietà?)}$$
+
+Ci rimane quindi
+$$\psi_{t}(x)=\int_{-\infty}^{\infty} \bra{x}\hat{U}_{t}\ket{y} \psi(y) \ dy $$
+$\bra{x}\hat{U}_{t}\ket{y}$ è abbastanza importante da avere un nome tutto suo: **propagatore libero**. Chiaramente la forma astratta ci è utile a livello teorico, ma qui vogliamo trovare la forma specifica alla particella libera. Dobbiamo quindi calcolare l'integrale. Possiamo completare il quadrato all'esponente:
+$$\int_{-\infty}^{\infty} \frac{e^{ip(x-y)/\hbar-(i/\hbar)(p^{2}/2m)t}}{2\pi \hbar} \ dp=\frac{1}{2\pi \hbar}\int_{-\infty}^{\infty} e^{-(i/t\hbar)(t/m)p^{2}-2p(m/t)(x-y)+ (m^{2}/p^{2})(x-y)^{2}} \ dp= $$
+$$=\frac{1}{2\pi \hbar}\int_{-\infty}^{\infty} e^{(it/\hbar) (1/2m)(m^{2}/p^{2})(x-y)^{2}} \ dp =\frac{e^{(im/2\hbar)t(x-y)}}{2\pi \hbar}\int_{-\infty}^{\infty} e^{-(it/2m\hbar)\underbrace{ (p-m(x-y)/t)^{2} }_{ =u }} \ dp =$$
+$$=\frac{e^{(im/2\hbar)t(x-y)}}{2\pi \hbar}\int_{-\infty}^{\infty} e^{-(it/2m\hbar)u^{2}} \ dx =???$$
+(TODO: Finisci dopo, lezione 24/10/2024, 12:15)
+
 
 [^1]: Questa relazione è particolarmente utile, dato che se conosciamo $k$, conosciamo anche $p$. È doppiamente importante perché questo legame fa sì che $k$ si comporti come $p$ ai fini del [[Disuguaglianza di Heisenberg|principio di indeterminazione]], quindi se l'errore su $x$ è basso, l'errore su $k$ è alto.
-[^2]: È certamente sensato avere una $\phi(k)$ più generica e diffusa, ma la nozione di gruppo - e quindi di velocità di gruppo - perde senso quando la $\phi(k)$ diventa così "diluita", dato che il gruppo cambia forma di continuo a causa delle diverse velocità interne.
+[^2]: È certamente sensato avere una $\phi(k)$ più generica e diffusa, ma la nozione di gruppo — e quindi di velocità di gruppo — perde senso quando la $\phi(k)$ diventa così "diluita", dato che il gruppo cambia forma di continuo a causa delle diverse velocità interne.
