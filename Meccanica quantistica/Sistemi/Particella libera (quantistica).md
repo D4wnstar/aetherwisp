@@ -108,7 +108,7 @@ $\bra{x}\hat{U}_{t}\ket{y}$ è abbastanza importante da avere un nome tutto suo:
 $$\int_{-\infty}^{\infty} \frac{e^{ip(x-y)/\hbar-(i/\hbar)(p^{2}/2m)t}}{2\pi \hbar} \ dp=\frac{1}{2\pi \hbar}\int_{-\infty}^{\infty} e^{-(i/t\hbar)(t/m)p^{2}-2p(m/t)(x-y)+ (m^{2}/p^{2})(x-y)^{2}} \ dp= $$
 $$=\frac{1}{2\pi \hbar}\int_{-\infty}^{\infty} e^{(it/\hbar) (1/2m)(m^{2}/p^{2})(x-y)^{2}} \ dp =\frac{e^{(im/2\hbar)t(x-y)}}{2\pi \hbar}\int_{-\infty}^{\infty} e^{-(it/2m\hbar)\underbrace{ (p-m(x-y)/t)^{2} }_{ =u }} \ dp =$$
 $$=\frac{e^{(im/2\hbar)t(x-y)}}{2\pi \hbar}\int_{-\infty}^{\infty} e^{-(it/2m\hbar)u^{2}} \ dx =???$$
-(TODO: Finisci dopo, lezione 24/10/2024, 12:15)
+(TODO: Finisci dopo, lezione 24/10/2024, 12:15 nella registrazione)
 
 
 [^1]: Questa relazione è particolarmente utile, dato che se conosciamo $k$, conosciamo anche $p$. È doppiamente importante perché questo legame fa sì che $k$ si comporti come $p$ ai fini del [[Disuguaglianza di Heisenberg|principio di indeterminazione]], quindi se l'errore su $x$ è basso, l'errore su $k$ è alto.

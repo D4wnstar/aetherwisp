@@ -72,6 +72,8 @@ It can be proven that the entropy can be calculated from any of $\Gamma$, $\omeg
 $$S=k_{B}\log \Gamma(E)\qquad S=k_{B}\log \omega(E)\qquad S=k_{B}\log \Sigma(E)$$
 
 The only thing left to prove is that $S$ obeys the second law of thermodynamics. Thankfully this is straight-forward: the second law says that when a thermodynamic systems goes from one state to another through a [[Thermodynamic transformation|transformation]], the entropy does not decrease. In a microcanonical ensemble, entropy is a function of $E$, $N$ and $V$. But $E$ and $N$ are constant, so the only thing we can change to vary the state is $V$. But if $V$ is increased, then $\Sigma(E)$ must also increase as we are integrating over more states (recall that the integration bounds are affected by $V$). But since $S=k_{B}\log \Sigma(E)$, and $\Sigma(E)$ can only increase, then $S$ can also only increase. Thus, the second law is preserved, and with that we proved that $S$ is formally entropy.
+#### Connection to information theory
+Consider the definition of entropy in function of [[Entropy (information theory)|information-theoretical entropy]], $S=k_{B}S_\text{inf}$. Note that this has the same form as the above three, just with $S_\text{inf}$ instead of $\Gamma$, $\omega$ or $\Sigma$. This suggests that all three of these define a specific type of information-theoretical entropy, which then gets converted into physical entropy by the Boltzmann constant.
 ### Examples
 > [!info] 6-3 Huang (Italian edition)
 > Consider a system of $N$ particles. $n_{0}$ are at energy $0$ and $n_{1}$ are at energy $E>0$. Find the entropy and temperature of the system.

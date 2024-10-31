@@ -1,5 +1,5 @@
 The **grand canonical ensemble** is an [[ensemble]] where both [[energy]] and number of [[Particella|particles]] can fluctuate. The number of particles is determined by environmental conditions external to the ensemble.
-
+### Partition function
 Let's consider two gases of particle numbers $N_{1}$ and $N_{2}$ bound by $N_{2}=N-N_{1}$ and volumes $V_{1}$ and $V_{2}$. Let's assume $V_{2}\gg V_{1}$ and $N_{2}\gg N_{1}$ and that the [[Hamiltonian]] is additive:
 $$H(\mathbf{q},\mathbf{p},N)=H(\mathbf{q}_{1},\mathbf{p}_{1},N_{1})+H(\mathbf{q}_{2},\mathbf{p}_{2},N_{2})$$
 This implicitly means that we are neglecting interactions between the gases, which generally means that the interaction range is short.
@@ -33,7 +33,7 @@ $$Z\equiv e^{\beta \mu}$$
 The density function becomes
 $$\rho(\mathbf{q},\mathbf{p},N)=\frac{Z^{N}}{h^{3N}N!}e^{-\beta PV-\beta H(\mathbf{q},\mathbf{p},N)}$$
 This is dependent on three variables: [[temperature]] $T$ (hidden in $\beta$), pressure $P$ and chemical potential $\mu$ (hidden in $Z$). We can finally write the **grand canonical partition function**:
-$$\mathcal{Z}(Z,V,T)\equiv \sum_{N=0}^{\infty} Z^{N}Q_{N}(V,T)$$
+$$\boxed{\mathcal{Z}(Z,V,T)\equiv \sum_{N=0}^{\infty} Z^{N}Q_{N}(V,T)}$$
 which is an extended form of the canonical partition function.
 ### Properties
 Since $N$ varies, we can express the [[mean]] number of particles as the [[ensemble average]]
@@ -41,7 +41,7 @@ $$\langle N \rangle =\frac{\sum_{N=0}^{\infty}NZ^{N}Q_{N}(V,T)}{\sum_{N=0}^{\inf
 But since
 $$\frac{ \partial  }{ \partial Z } \log \mathcal{Z}=\frac{1}{\mathcal{Z}}\sum_{N=0}^{\infty} NZ^{N-1}Q_{N}(V,T)\tag{2}$$
 we have
-$$\langle N \rangle =Z\frac{ \partial  }{ \partial Z } \log \mathcal{Z}(Z,V,T)$$
+$$\boxed{\langle N \rangle =Z\frac{ \partial  }{ \partial Z } \log \mathcal{Z}(Z,V,T)}$$
 
 From $(1)$ we get
 $$1=\int \rho(\mathbf{q},\mathbf{p},N)\,dq\,dp =\frac{Z^{N}}{N!h^{3N}}e^{-\beta PV}\int e^{-\beta H}\,dq\,dp=Z^{N}e^{-\beta PV}Q_{N}$$
@@ -53,6 +53,26 @@ The [[specific heat]] is from the [[Maxwell relations]]:
 $$C_{V}=\left( \frac{ \partial U }{ \partial T }  \right)_{V}$$
 and [[entropy]] is[^1]
 $$S=\int \frac{dQ}{T}=\int_{0}^{T}C_{V} \frac{dT}{T} $$
+We define
+$$W(N)\equiv Z^{N}Q_{N}=e^{\beta \mu N-\beta A(N,V,T)}$$
+which is proportional to the [[probability]] that the system has $N$ particles.
+#### Equations of state
+We have
+$$\beta \mu \langle N \rangle -\beta A(\langle N \rangle ,V,T)=\log Z^{\langle N \rangle }+\log Q_{\langle N \rangle }(V,T)$$
+$$-\beta A(\langle N \rangle ,V,T)=-\beta \mu \langle N \rangle +\log Z^{\langle N \rangle }+\log Q_{N}$$
+$$A(\langle N \rangle ,V,T)=\mu \langle N \rangle -k_{B}T\log Z^{\langle N \rangle }Q_{\langle N \rangle }$$
+Since $\log \mathcal{Z}\simeq Z^{\langle N \rangle}Q_{\langle N \rangle}$ we have
+$$\boxed{A(\langle N \rangle ,V,T)=k_{B}T\langle N \rangle \log Z-k_{B}T\log \mathcal{Z}(Z,V,T)}$$
+which is the [[Helmholtz free energy]] of the ensemble. Invoking the [[Laws of thermodynamics|first law of thermodynamics]] and the definition of $A$ we have
+$$A=U-TS,\qquad dA=dU-d(TS)=dQ-dW-TdS-SdT=-PdV-SdT$$
+If the number of particles increases, the free energy also increases, so
+$$dA=-PdV-SdT+\mu dN$$
+The internal energy does something similar
+$$dU=dQ-dW+\mu dN=TdS-PdV+\mu dV$$
+Same for [[Gibbs free energy]] $G=A+PV$:
+$$dG=dA+d(PV)=-PdV+\mu dV+PdV-VdP-SdT=VdP-SdT+\mu dN$$
+
+The chemical potential is the [[Moltiplicatori di Lagrange|Lagrange multiplier]] that governs the number of particles.
 ### Equivalence with canonical ensemble
 Consider the [[variance]] of the particle number:
 $$\langle N^{2} \rangle -\langle N \rangle ^{2}=Z\frac{ \partial  }{ \partial Z } Z \frac{ \partial  }{ \partial Z } \log \mathcal{Z}(Z,V,T)$$
@@ -69,6 +89,8 @@ Which proves the previous formula. We also have
 $$\frac{ \partial  }{ \partial Z } =\frac{ \partial \mu }{ \partial Z } \frac{ \partial  }{ \partial \mu } =\frac{1}{\beta Z}\frac{ \partial  }{ \partial \mu } $$
 and so
 $$\frac{ \partial P }{ \partial Z } =\frac{k_{B}T}{V} \frac{1}{Z} \frac{ \partial \mathcal{Z} }{ \partial Z } =\frac{k_{B}T}{VZ}\log \mathcal{Z}$$
+We also somehow get
+$$\frac{PV}{k_{B}T}=\log \mathcal{Z}$$
 So we can find a second, more useful form for the variance of $N$:
 $$\langle N^{2} \rangle -\langle  N \rangle ^{2}=k_{B}TV \frac{ \partial ^{2}P }{ \partial \mu ^{2} } $$
 Also idk what this is
@@ -91,5 +113,7 @@ $$\langle N^{2} \rangle -\langle N \rangle ^{2}=k_{B}T \frac{1}{v\left( -\frac{ 
 which goes like $\langle N \rangle$ for large $N$. The variance of energy is
 $$\langle H^{2} \rangle -\langle H \rangle ^{2}\propto T^{2}C_{V}\sim \langle N \rangle $$
 which also goes like $\langle N \rangle$ for large $N$. This is precisely what happens with the canonical ensemble, so for large $N$, the two are equivalent. But since the canonical is itself equivalent to the microcanonical for large $N$, the grand canonical is also equivalent to the microcanonical.
+
+The canonical ensemble has internal energy $U$ with fluctuations $\sqrt{ N }$. The grand canonical has number of particles $\langle N \rangle$ with fluctuations $\sqrt{ N }$.
 
 [^1]: Note how, unlike the [[microcanonical ensemble]], entropy is derived last.

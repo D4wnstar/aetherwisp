@@ -1,5 +1,5 @@
 The **canonical ensemble** is an [[ensemble]] that is not [[Physical system|isolated]] from the environment, but is in [[thermal equilibrium]] with a larger [[Physical system|system]]. The [[energy]] is subject to fluctuation, but the number of [[Particella|particles]] is constant.
-
+### Partition function
 Let's divide the considered system in two subsystems, each with a large number of particles $N_{1}\gg 1$ and $N_{2}\gg 1$. Singularly, each subsystem is described by a [[microcanonical ensemble]] of energies $E_{1}$ and $E_{2}$ that obey
 $$E<E_{1}+E_{2}<E+2\Delta$$
 where $E$ is the energy of the collective system and $\Delta$ is a small amount of energy (to account for uncertainty). There are two states $\bar{E}_{1}$ and $\bar{E}_{2}$ which account for almost all of the [[entropy]] of each subsystem. Let's assume $\bar{E}_{2}\gg \bar{E}_{1}$. We want to find the amount of [[Phase space|representative points]] in the [[Phase space|phase spaces]] of each subsystem for these energies.
