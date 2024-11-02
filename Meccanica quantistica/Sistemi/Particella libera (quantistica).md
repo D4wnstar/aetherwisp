@@ -104,12 +104,23 @@ L'integrale centrale è la rappresentazione dell'evolutore libero in una dimensi
 
 Ci rimane quindi
 $$\psi_{t}(x)=\int_{-\infty}^{\infty} \bra{x}\hat{U}_{t}\ket{y} \psi(y) \ dy $$
-$\bra{x}\hat{U}_{t}\ket{y}$ è abbastanza importante da avere un nome tutto suo: **propagatore libero**. Chiaramente la forma astratta ci è utile a livello teorico, ma qui vogliamo trovare la forma specifica alla particella libera. Dobbiamo quindi calcolare l'integrale. Possiamo completare il quadrato all'esponente:
+$\bra{x}\hat{U}_{t}\ket{y}$ è abbastanza importante da avere un nome tutto suo: [[propagatore]]. Chiaramente la forma astratta ci è utile a livello teorico, ma qui vogliamo trovare la forma specifica alla particella libera. Dobbiamo quindi calcolare l'integrale. Possiamo completare il quadrato all'esponente:
 $$\int_{-\infty}^{\infty} \frac{e^{ip(x-y)/\hbar-(i/\hbar)(p^{2}/2m)t}}{2\pi \hbar} \ dp=\frac{1}{2\pi \hbar}\int_{-\infty}^{\infty} e^{-(i/t\hbar)(t/m)p^{2}-2p(m/t)(x-y)+ (m^{2}/p^{2})(x-y)^{2}} \ dp= $$
 $$=\frac{1}{2\pi \hbar}\int_{-\infty}^{\infty} e^{(it/\hbar) (1/2m)(m^{2}/p^{2})(x-y)^{2}} \ dp =\frac{e^{(im/2\hbar)t(x-y)}}{2\pi \hbar}\int_{-\infty}^{\infty} e^{-(it/2m\hbar)\underbrace{ (p-m(x-y)/t)^{2} }_{ =u }} \ dp =$$
-$$=\frac{e^{(im/2\hbar)t(x-y)}}{2\pi \hbar}\int_{-\infty}^{\infty} e^{-(it/2m\hbar)u^{2}} \ dx =???$$
-(TODO: Finisci dopo, lezione 24/10/2024, 12:15 nella registrazione)
+$$=\frac{e^{(im/2\hbar)t(x-y)}}{2\pi \hbar}\int_{-\infty}^{\infty} e^{-(it/2m\hbar)u^{2}} \ du =\ldots$$
+Dobbiamo risolvere questo integrale, quindi
+$$\int_{-\infty}^{\infty} e^{-(it/2m\hbar)u^{2}} \ du=\sqrt{ \frac{2m\hbar}{t} }\int_{-\infty}^{\infty} e^{-iv^{2}} \ dv $$
+usando $\frac{t}{2m\hbar}u^{2}=v^{2}$ e quindi $v=\sqrt{ \frac{t}{2m\hbar} }u$. Chiamando il propagatore $G(y-x)$, esso è
+$$G(y-x)=e^{im(x-y)^{2}/2\hbar t}\sqrt{ \frac{2m\hbar}{t} } \frac{1}{2\pi \hbar}\int_{-\infty}^{\infty} e^{-iv^{2}} \ dv $$
+Con la sostituzione $iv^{2}=w^{2}$ ho $w=\sqrt{ iv^{2} }=\sqrt{ i }v$. Allora
+$$\int_{-\infty}^{\infty} e^{-iv^{2}} \ dv =\int_{-\infty}^{\infty} \frac{e^{-w^{2}}}{\sqrt{ i }} \ dw= \sqrt{ \frac{\pi}{i} }$$
+e quindi mi aspetto che il propagatore sia
+$$G(y-x)=e^{im(x-y)^{2}/2\hbar t}\sqrt{ \frac{m}{2it\pi \hbar} }$$
+Ora possiamo introdurre il propagatore nell'espressione originale per $\psi_{t}(x)$:
+$$\boxed{\psi_{t}(x)=\int_{-\infty}^{\infty}\sqrt{ \frac{m}{2it\pi \hbar} } e^{im(x-y)^{2}/2\hbar t}\psi(y) \ dy }$$
+che è l'[[ampiezza di probabilità]] di trovare la particella in un intervallo centrato in $x$ a partire da un intervallo centrato in $y$. La probabilità in sé è $\lvert \psi_{t}(x) \rvert^{2}$.
 
+È notevole il fatto che questa probabilità sia in generale non nulla per qualunque intervallo spaziale. Dal punto di vista fisico, questo è una chiara violazione della relatività, dato che c'è una probabilità che una particella viaggi in un luogo [[spaziotempo|spaziotemporalmente]] disconnesso, nel senso che la luce non viaggia a sufficiente velocità per connettere i due punti nell'intervallo di tempo dato. In altre parole, c'è una possibilità che una particella si ritrovi in un punto al di fuori del [[cono di luce]] costruito attorno ad esso. La ragione è dovuta al fatto che l'equazione di Schrödinger dipenda da $\frac{ \partial  }{ \partial t }$ e non da $\frac{ \partial  }{ \partial t^{2} }$ come dovrebbe una [[equazione d'onda]]. La teoria quantistica dei campi e l'utilizzo dell'[[equazione di Dirac]] anziché di quella di Schrödinger risolvono il problema.
 
 [^1]: Questa relazione è particolarmente utile, dato che se conosciamo $k$, conosciamo anche $p$. È doppiamente importante perché questo legame fa sì che $k$ si comporti come $p$ ai fini del [[Disuguaglianza di Heisenberg|principio di indeterminazione]], quindi se l'errore su $x$ è basso, l'errore su $k$ è alto.
 [^2]: È certamente sensato avere una $\phi(k)$ più generica e diffusa, ma la nozione di gruppo — e quindi di velocità di gruppo — perde senso quando la $\phi(k)$ diventa così "diluita", dato che il gruppo cambia forma di continuo a causa delle diverse velocità interne.
