@@ -1,6 +1,8 @@
 ---
 aliases:
   - decomposizione spettrale
+  - operatore continuo
+  - operatore limitato
 ---
 Si dice **operatore** o **trasformazione lineare** $T$ un [[Operatore]] tra due [[Spazio di Hilbert|spazi di Hilbert]] $H$ e $H'$ per il quale vale
 $$T(\alpha x +\beta y)=\alpha T(x)+\beta T(y)\quad\text{dove}\quad \alpha,\beta\in\mathbb{C},\;x,y\in H$$
