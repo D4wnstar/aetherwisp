@@ -4,15 +4,15 @@ aliases:
   - osservabili compatibili
   - osservabili incompatibili
 ---
-La **disuguaglianza di Heisenberg**, o **principio di indeterminazione**, è una disuguaglianza che mostra come il prodotto tra l'errore sulla posizione $q$ e quello sulla quantità di moto $p$ di una [[Particella]] quantistica ha un minimo costante. Ciò implica che le due quantità non possono essere determinate con precisione arbitraria allo stesso tempo e che misurare con precisione una rende la seconda molto imprecisa. Matematicamente, in una dimensione
+La **disuguaglianza di Heisenberg**, o **principio di indeterminazione**, è una disuguaglianza che mostra come il prodotto tra l'errore sulla posizione $q$ e quello sulla quantità di moto $p$ di una [[particella]] quantistica ha un minimo costante. Ciò implica che le due quantità non possono essere determinate con precisione arbitraria allo stesso tempo e che misurare con precisione una rende la seconda molto imprecisa. Matematicamente, in una dimensione
 $$\Delta q\Delta p\geq\frac{\hbar}{2}$$
 e in tre dimensioni
 $$\Delta x \Delta p_{x}\geq \frac{\hbar}{2}, \quad \Delta y \Delta p_{y}\geq \frac{\hbar}{2}, \quad \Delta z \Delta p_{z}\geq \frac{\hbar}{2}$$
 mentre in coordinate diverse non c'è una particolare relazione (ad esempio, $\Delta x \Delta p_{y}\geq0$).
 
-L'errore qui definito non è quello della strumentazione, ma quello intrinseco dovuto alla [[Funzione d'onda]] della particella, dato che misure uguali su sistemi preparati allo stesso modo *non* danno lo stesso risultato. È una manifestazione dell'[[Indeterminatezza quantistica]].
+L'errore qui definito non è quello della strumentazione, ma quello intrinseco dovuto alla [[funzione d'onda]] della particella, dato che misure uguali su sistemi preparati allo stesso modo *non* danno lo stesso risultato. È una manifestazione dell'[[indeterminatezza quantistica]].
 ## Forma generale
-Consideriamo un'[[Osservabile]] $A$ e il suo [[operatore autoaggiunto]] $\hat{A}$ per una funzione d'onda $\Psi$. Allora la sua varianza è
+Consideriamo un'[[osservabile]] $A$ e il suo [[operatore autoaggiunto]] $\hat{A}$ per una funzione d'onda $\Psi$. Allora la sua varianza è
 $$\sigma_{A}^{2}=\langle (\hat{A}-\left\langle A \right\rangle)\Psi\;|\; (\hat{A}-\left\langle A \right\rangle)\Psi\rangle=\langle f|f\rangle$$
 con $f=(\hat{A}-\left\langle A \right\rangle)\Psi$. Per un'altra osservabile $B$ si ha
 $$\sigma_{B}^{2}=\langle g|g\rangle$$
@@ -73,7 +73,7 @@ che è il principio di indeterminazione tempo-energia. La cosa importante qui è
 $$\sigma_{Q}=\left| \frac{d}{dt}\left\langle Q \right\rangle\right|\Delta t$$
 quindi $\Delta t$ rappresenta il lasso di tempo necessario per far si che $\left\langle Q \right\rangle$ cambi di una deviazione standard. Più generalmente, $\Delta t$ è il tempo necessario per causare un cambiamento "sostanziale" nel sistema. $\Delta t$ dipende da dipende dall'osservabile in esame, ma è *sempre* modulata da $\Delta E$: se l'energia è bassa, allora il tempo di cambiamento di *qualunque* variabile sarà lungo, mentre a energie alte il cambiamento avverrà in poco tempo. Vista al contrario, se una variabile cambia molto in poco tempo, l'energia sarà altamente incerta (ossia cambia molto).
 
-Ma si può dire di più: grazie all'equivalenza massa-energia, l'errore sull'energia lo è anche sulla massa, quindi la *massa stessa* di un oggetto quantistico (ossia una particella) che cambia molto rapidamente (ossia ha un tempo di vita molto bassa) è necessariamente molto incerta. Questo è il motivo per cui particelle fondamentali con tempi di vita bassissimi hanno masse molto difficili da misurare con precisione, ergo le distribuzioni di misure di massa molto ampie negli esperimenti con acceleratori.
+Ma si può dire di più: grazie all'equivalenza massa-energia, l'errore sull'energia lo è anche sulla massa, quindi la *massa stessa* di un oggetto quantistico (ossia una particella) che cambia molto rapidamente (ossia ha un tempo di vita molto bassa) è necessariamente molto incerta. Questo è il motivo per cui particelle elementari con tempi di vita bassissimi hanno masse molto difficili da misurare con precisione, ergo le distribuzioni di misure di massa molto ampie negli esperimenti con acceleratori.
 
 Questo risultato resiste anche al caso limite di uno stato stazionario, dove l'energia è [[Stato determinato|determinata]]. In questo, chiaramente deve essere $\Delta E =0$, ma allora $\Delta t \rightarrow \infty$. Ma $\Delta t \rightarrow \infty$ significa che le medie delle osservabili impiegano tempo infinito per variare, che è perfettamente sensato dato che in uno stato stazionario sono costanti. Per ottenere una variazione, bisogna combinare linearmente almeno due stati stazionari.
 
