@@ -47,7 +47,7 @@ Da qui si vede che la somma di tutte le proiezioni su una base di un vettore ci 
 $$\boxed{\sum\limits_{i=1}^{n}\hat{P}_{\phi_{i}}=\hat{\mathbf{1}}}$$
 dove $\hat{\mathbf{1}}$ è l'operatore identico. Questa è detta relazione di completezza ed è universalmente valida per qualunque base ortonormale discreta.
 #### Caso continuo
-Il caso continuo richiede degli accorgimenti. Possiamo dimostrare la relazione partendo da concetti quantistici: prendiamo da una [[funzione d'onda]] $\psi \in L^{2}(\mathbb{R})$ e la [[rappresentazioni dello stato|rappresentiamo in posizione]] come 
+Il caso continuo richiede degli accorgimenti. Possiamo dimostrare la relazione partendo da concetti quantistici: prendiamo da una [[funzione d'onda]] $\psi \in L^{2}(\mathbb{R})$ e la [[Rappresentazioni dello stato|rappresentiamo in posizione]] come 
 $$\psi(x)=\braket{ x | \psi }=\int_{-\infty}^{\infty} \delta(y-x)\psi(y) \ dy=\ldots$$
 usando la [[delta di Dirac]]. È anche vero che $\braket{ x | y }=\delta(x-y)$, allora
 $$\ldots=\int_{-\infty}^{\infty} \braket{ x | y } \braket{ y | \psi }  \ dx =\bra{x} \left( \int_{-\infty}^{\infty} \underbrace{ \ket{y} \bra{y} }_{ \hat{P}_{y} }  \ dy  \right)\ket{\psi} $$

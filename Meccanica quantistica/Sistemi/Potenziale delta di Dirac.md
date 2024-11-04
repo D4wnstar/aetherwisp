@@ -99,34 +99,37 @@ Allora se integriamo $\psi''_{E}$ in un intervallo $[-\varepsilon,\varepsilon]$ 
 $$\int _{-\varepsilon}^{\varepsilon}\psi''_{E}(x) \ dx =\psi'_{E}(\varepsilon)-\psi'_{E}(-\varepsilon)=\frac{2m\gamma}{\hbar ^{2}}\psi_{E}(0)- \frac{2mE}{\hbar ^{2}}\int_{-\varepsilon}^{\varepsilon}\psi_{E}(x)\ dx$$
 usando il [[fundamental theorem of calculus|teorema fondamentale del calcolo]]. Andando al limite $\varepsilon\to 0^{+}$ e $-\varepsilon\to 0^{-}$, l'integrale svanisce e rimane
 $$\psi_{E}'(0^{+})-\psi'_{E}(0^{-})=\frac{2m\gamma}{\hbar ^{2}}\psi_{E}(0)$$
-Questa è una condizione di discontinuità sulla derivata. Facciamo un ansatz sulla soluzione in forma di [[plane wave|onda piana]], sia a destra che a sinistra della barriera di potenziale (TODO: Rivedere ragione perché lezione 04/11/2024, circa 20-25 minuti). A sinistra
+Questa è una condizione di discontinuità sulla derivata. La soluzione generale di un'equazione differenziale lineare è una combinazione lineare di esponenziali complessi, che in termini fisici è una somma di [[plane wave|onde piane]], una a destra e una a sinistra della barriera di potenziale. A sinistra
 $$\psi_{E}^{L}(x)=A_{L}e^{ikx}+B_{L}e^{-ikx}$$
-Queste sono due onde piane, la prima che viaggia verso destra ($+\infty$) e la seconda verso sinistra ($-\infty$). A destra è analogo
+
+Dove un'onda piana arriva da $-\infty$ e collide con la barriera (l'onda entrante) e che parte dalla barriera e va in direzione opposta, verso $-\infty$ (l'onda riflessa). A destra è analogo
 $$\psi_{E}^{R}(x)=A_{R}e^{ikx}$$
-ma in questo caso c'è solo un'onda che va a destra. In queste equazioni,
+ma in questo caso c'è solo un'onda che va a destra a partire dalla barriera (l'onda trasmessa). In queste equazioni,
 $$k=\frac{\sqrt{ 2mE }}{\hbar}=\frac{p}{\hbar}$$
-Devono valere le condizioni al contorno
+Derivando $\psi_{E}^{R}(x)$ e $\psi_{E}^{L}(x)$ e valutandole in $0^{+}$ e $0^{-}$ si trovano condizioni al contorno
 $$\psi'_{E}(0^{+})=ikA_{R},\qquad \psi'_{E}(0^{-})=ik(A_{L}-B_{R})$$
-ma deve anche valere $\psi_{E}^{L}(0)=\psi_{E}^{R}(0)$ (la derivata è discontinua, ma la funzione in sé no). Ciò implica $A_{L}+B_{L}=A_{R}$. Mettendo queste cose insieme abbiamo
+ma deve anche valere $\psi_{E}^{L}(0)=\psi_{E}^{R}(0)$ (la derivata è discontinua, ma la funzione in sé no). Ciò implica
+$$A_{L}+B_{L}=A_{R}\tag{1}$$
+Mettendo queste cose insieme abbiamo
 $$ikA_{R}-ik(A_{L}-B_{L})=\frac{2m\gamma}{\hbar ^{2}}A_{R}$$
 Allora
 $$-A_{R}+A_{L}-B_{L}= \frac{2mi\gamma}{\hbar ^{2}k}A_{R}$$
-$$A_{L}-B_{L}=A_{R}+ \frac{2mi\gamma}{\hbar ^{2}k}A_{R}=A_{R}\left( 1+ \frac{2mi\gamma}{\hbar ^{2}k} \right)$$
-Quindi valgono le condizioni al contorno per le costanti
+$$A_{L}-B_{L}=A_{R}+ \frac{2mi\gamma}{\hbar ^{2}k}A_{R}=A_{R}\left( 1+ \frac{2mi\gamma}{\hbar ^{2}k} \right)\tag{2}$$
+Quindi dividendo $(1)$ e $(2)$ per $A_{L}$, valgono le condizioni al contorno per le costanti
 $$\boxed{\begin{align}
 1+ \frac{B_{L}}{A_{L}}&=\frac{A_{R}}{A_{L}} \\
 1- \frac{B_{L}}{A_{L}} &= \left( 1+ \frac{2mi\gamma}{\hbar ^{2}k} \right) \frac{A_{R}}{A_{L}}
 \end{align}}$$
-Combinandole possiamo anche trovare un rapporto tra onda entrante $A_{L}$ e trasmessa $A_{R}$:
+Sommandole possiamo anche trovare un rapporto tra onda entrante $A_{L}$ e trasmessa $A_{R}$:
 $$2=2\left( 1+ \frac{mi\gamma}{\hbar ^{2}k} \right) \frac{A_{R}}{A_{L}}\quad\Rightarrow \quad\boxed{\frac{A_{R}}{A_{L}}= \frac{1}{1+ \frac{mi\gamma}{\hbar ^{2}k}}}$$
-e anche tra onda entrante $A_{L}$ e riflessa $B_{L}$:
+e sottraendole anche tra onda entrante $A_{L}$ e riflessa $B_{L}$:
 $$2 \frac{B_{L}}{A_{L}}=- \frac{2mi\gamma}{\hbar ^{2}k} \frac{A_{R}}{A_{L}}\quad\Rightarrow \quad\boxed{\frac{B_{L}}{A_{L}}=-i \frac{m\gamma}{\hbar ^{2}k+im\gamma}}$$
 Quindi sapendo l'onda entrante $A_{L}$ (non normalizzabile), possiamo trovare anche quella riflessa e quella trasmessa. Come ultima cosa, possiamo raccordare funzione d'onda sinistra e destra con la theta di Heaviside $\Theta$:
 $$\boxed{\psi_{E}(x)=A_{L}\left( e^{ikx}- i \frac{m\gamma}{\hbar ^{2}k-im\gamma}e^{-ikx} \right)\Theta(-x)+A_{L} \frac{\hbar^{2}k}{\hbar ^{2}k+im\gamma}\Theta(x)}$$
-Queste sono le [[Equazione agli autovalori|autofunzioni]] di stato di una particella soggetta ad una barriera a delta di Dirac. Esse formano un sistema continuo e quindi sono non normalizzabili e rappresentano stati liberi.
+Queste sono le [[Equazione agli autovalori|autofunzioni]] di stato di una particella soggetta ad una barriera a delta di Dirac ad energia $E$. Esse formano un sistema continuo e quindi non sono normalizzabili. Rappresentano stati liberi. $A_{L}$ non è una costante di normalizzazione (l'onda non è normalizzabile) ma è una funzione che dà [[ampiezza di probabilità]].
 
-Dato che stiamo parlando di onde, è interessante vedere qual è la [[corrente di probabilità]] del sistema. Dato che $\psi$ è nota, sappiamo la [[Probability distribution|distribuzione di probabilità]] come $\lvert \psi \rvert^{2}$. Per arrivare alla corrente, dobbiamo moltiplicarla per la velocità di propagazione della corrente, che in questo caso è $v=\hbar k/m$. Allora
-$$J_\text{in}=\lvert A_{L} \rvert ^{2} \frac{hk}{m},\qquad J_\text{rif}=\lvert A_{L} \rvert ^{2} \frac{m^{2}\gamma ^{2}}{\hbar^{4}k^{2}+m^{2}\gamma ^{2}} \frac{\hbar k}{m},\qquad J_\text{tras}=\lvert A_{L} \rvert ^{2} \frac{\hbar^{4}k^{2}}{\hbar^{4}k^{2}+m^{2}\gamma ^{2}} \frac{\hbar k}{m}$$
+Dato che stiamo parlando di onde, è interessante vedere qual è la [[corrente di probabilità]] del sistema. Dato che $\psi$ è nota, la [[Probability distribution|distribuzione di probabilità]] è $\lvert \psi \rvert^{2}$. Per arrivare alla corrente, dobbiamo moltiplicarla per la velocità di propagazione della corrente (cioè della particella), che in questo caso proviene da $k=p/\hbar$ ed è $v=\hbar k/m$. Allora
+$$J_\text{in}=\lvert A_{L} \rvert ^{2} \frac{\hbar k}{m},\qquad J_\text{rif}=\lvert A_{L} \rvert ^{2} \frac{m^{2}\gamma ^{2}}{\hbar^{4}k^{2}+m^{2}\gamma ^{2}} \frac{\hbar k}{m},\qquad J_\text{tras}=\lvert A_{L} \rvert ^{2} \frac{\hbar^{4}k^{2}}{\hbar^{4}k^{2}+m^{2}\gamma ^{2}} \frac{\hbar k}{m}$$
 #### Buca di potenziale
 Consideriamo ora il caso inverso, in cui il potenziale è $V=-\gamma \delta(x)$. In questo caso, è possibile anche avere energie totali negative $E=T-V<0$, con $T$ l'[[kinetic energy|energia cinetica]], che portano a stati legati. Se $E<0$ abbiamo
 $$k=\frac{\sqrt{ 2mE }}{\hbar}=\frac{i\sqrt{ 2m\lvert E \rvert  }}{\hbar}$$
