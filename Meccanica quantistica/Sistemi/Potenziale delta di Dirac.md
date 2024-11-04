@@ -95,7 +95,7 @@ Allora estraendo $\psi''_{E}$
 $$\psi''_{E}(x)=\frac{2m\gamma}{\hbar ^{2}}\delta(x)\psi_{E}(x)- \frac{2mE}{\hbar ^{2}}\psi_{E}(x)$$
 In notazione di distribuzioni abbiamo
 $$\delta_{x_{0}}[f]=f(x_{0})=\int_{-\infty}^{\infty} \delta(x-x_{0})f(x) \ dx $$
-Allora se integriamo $\psi''_{E}$ in un intervallo infinitesimo $[-\varepsilon,\varepsilon]$ attorno all'origine abbiamo
+Allora se integriamo $\psi''_{E}$ in un intervallo $[-\varepsilon,\varepsilon]$ attorno all'origine abbiamo
 $$\int _{-\varepsilon}^{\varepsilon}\psi''_{E}(x) \ dx =\psi'_{E}(\varepsilon)-\psi'_{E}(-\varepsilon)=\frac{2m\gamma}{\hbar ^{2}}\psi_{E}(0)- \frac{2mE}{\hbar ^{2}}\int_{-\varepsilon}^{\varepsilon}\psi_{E}(x)\ dx$$
 usando il [[fundamental theorem of calculus|teorema fondamentale del calcolo]]. Andando al limite $\varepsilon\to 0^{+}$ e $-\varepsilon\to 0^{-}$, l'integrale svanisce e rimane
 $$\psi_{E}'(0^{+})-\psi'_{E}(0^{-})=\frac{2m\gamma}{\hbar ^{2}}\psi_{E}(0)$$
