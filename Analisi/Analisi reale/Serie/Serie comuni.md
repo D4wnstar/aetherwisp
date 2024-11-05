@@ -12,4 +12,3 @@ $$\sum\limits_{n=1}^{\infty} \frac{1}{n^{\alpha}},\quad \alpha\in \mathbb{R} \qu
 ## Serie di Mengoli
 La **serie di Mengoli** è
 $$\sum\limits_{n=1}^{\infty} \frac{1}{n(n+1)}=1$$
-## Serie esponenziale

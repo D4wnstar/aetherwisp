@@ -30,7 +30,7 @@ $$\begin{align}
 \end{align}$$
 Risolviamo gli integrali separatamente
 $$I=\int_{-\infty}^{\infty} y^{2}e^{-y^{2}} \, dy=\ldots$$
-Possiamo usare la [[funzione gamma]]
+Possiamo usare la [[Gamma function|funzione gamma]]
 $$\Gamma(z)=\int_{-\infty}^{\infty} t^{z-1}e^{-t} \, dt $$
 con $z$ complesso e $t$ reale. Vale $t^{z-1}=t^{x-1+iy}=t^{x-1}t^{iy}$. Il problema è il termine con l'esponenziale reale $t^{x-1}$, che può divergere, quindi deve essere strettamente positivo. Possiamo anche sfruttare il fatto che la funzione sia pari per cambiare il dominio di integrazione
 $$\ldots=2\int_{0}^{\infty }y^{2}e^{-y^{2}}dy=\int_{0}^{\infty}ye^{-y^{2}}d(y^{2})=\int_{0}^{\infty}\sqrt{ t }e^{-t}\, dt=\Gamma\left( \frac{3}{2} \right)=\ldots$$
