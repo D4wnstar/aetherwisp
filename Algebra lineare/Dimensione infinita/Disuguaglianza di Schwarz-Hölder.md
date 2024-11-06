@@ -1,4 +1,4 @@
-La **disuguaglianza di Schwarz-Hölder** è una generalizzazione della [[Disuguaglianza di Schwarz]] agli spazi a dimensione infinita, in particolare gli [[Spazio di Hilbert|spazi di Hilbert]].
+La **disuguaglianza di Schwarz-Hölder** è una generalizzazione della [[Disuguaglianza di Cauchy-Schwarz]] agli spazi a dimensione infinita, in particolare gli [[Spazio di Hilbert|spazi di Hilbert]].
 
 Siano $f\in L^{p}(I)$ e $g\in L^{q}(I)$ funzioni appartenenti agli spazi [[Spazi Lp|L^p]], dove $p$ e $q$ sono numeri tali che $1/p+1/q=1$. Allora il prodotto $fg$ è [[Spazi Lp#Spazio $L 1$|sommabile]] e vale la disuguaglianza
 $$\int_{I}|fg|dx\leq\left[\int_{I}|f|^{p}dx\right]^{1/p}\left[\int_{I}|g|^{q}dx\right]^{1/q}$$

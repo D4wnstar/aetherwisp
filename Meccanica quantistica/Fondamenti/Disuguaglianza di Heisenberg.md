@@ -12,48 +12,75 @@ mentre in coordinate diverse non c'è una particolare relazione (ad esempio, $\D
 
 L'errore qui definito non è quello della strumentazione, ma quello intrinseco dovuto alla [[funzione d'onda]] della particella, dato che misure uguali su sistemi preparati allo stesso modo *non* danno lo stesso risultato. È una manifestazione dell'[[indeterminatezza quantistica]].
 ## Forma generale
-Consideriamo un'[[osservabile]] $A$ e il suo [[operatore autoaggiunto]] $\hat{A}$ per una funzione d'onda $\Psi$. Allora la sua varianza è
-$$\sigma_{A}^{2}=\langle (\hat{A}-\left\langle A \right\rangle)\Psi\;|\; (\hat{A}-\left\langle A \right\rangle)\Psi\rangle=\langle f|f\rangle$$
-con $f=(\hat{A}-\left\langle A \right\rangle)\Psi$. Per un'altra osservabile $B$ si ha
+Consideriamo un'[[osservabile]] $A$ e il suo [[operatore autoaggiunto]] $\hat{A}$ per una funzione d'onda $\psi$. Allora la sua [[variance|varianza]] è
+$$\sigma_{A}^{2}=\langle (\hat{A}-\left\langle A \right\rangle)\psi\;|\; (\hat{A}-\left\langle A \right\rangle)\psi\rangle=\langle f|f\rangle$$
+con $f=(\hat{A}-\left\langle A \right\rangle)\psi$ e $\langle \cdot \rangle=\bra{\psi}\cdot \ket{\psi}$ la media nello stato $\psi$. Per un'altra osservabile $B$ si ha
 $$\sigma_{B}^{2}=\langle g|g\rangle$$
-con $g=(\hat{B}-\left\langle B \right\rangle)\Psi$. Usando la [[disuguaglianza di Schwarz-Hölder]] vale
+con $g=(\hat{B}-\left\langle B \right\rangle)\psi$. Usando la [[Disuguaglianza di Cauchy-Schwarz]] vale
 $$\sigma_{A}^{2}\sigma_{B}^{2}=\langle f|f\rangle \langle g|g\rangle\geq |\langle f|g\rangle|^{2}\tag{1}$$
 Per ogni numero complesso $z$ vale
 $$|z|^{2}=|\text{Re}(z)^{2}|+|\text{Im}(z)|^{2}\geq |\text{Im}(z)|^{2}=\left[\frac{1}{2i}(z-z^{*})\right]^{2}\tag{2}$$
 Dunque dato che $\langle f|g\rangle$ è un valore complesso $z$, si ha
 $$\sigma_{A}^{2}\sigma_{B}^{2}=\left(\frac{1}{2i}[\langle f|g\rangle-\langle g|f\rangle]\right)^{2}$$
 Compiendo esplicitamente i calcoli per $\langle f|g\rangle$ troviamo
-$$\langle f|g\rangle=\langle (\hat{A}-\left\langle A \right\rangle)\Psi| (\hat{B}-\left\langle B \right\rangle)\Psi\rangle=\langle \Psi|(\hat{A}-\left\langle A \right\rangle)(\hat{B}-\left\langle B \right\rangle)\Psi\rangle=$$
-$$=\langle \Psi|(\hat{A}\hat{B}-\hat{A}\left\langle B \right\rangle-\hat{B}\left\langle A \right\rangle+\left\langle A \right\rangle \left\langle B \right\rangle \Psi\rangle=$$
-$$=\langle \Psi|\hat{A}\hat{B}\Psi\rangle-\left\langle B \right\rangle \langle \Psi|\hat{A}\Psi\rangle-\left\langle A \right\rangle \langle \Psi|\hat{B}\Psi\rangle+\left\langle A \right\rangle \left\langle B \right\rangle \langle \Psi|\Psi\rangle=$$
+$$\langle f|g\rangle=\langle (\hat{A}-\left\langle A \right\rangle)\psi| (\hat{B}-\left\langle B \right\rangle)\psi\rangle=\langle \psi|(\hat{A}-\left\langle A \right\rangle)(\hat{B}-\left\langle B \right\rangle)\psi\rangle=$$
+$$=\langle \psi|(\hat{A}\hat{B}-\hat{A}\left\langle B \right\rangle-\hat{B}\left\langle A \right\rangle+\left\langle A \right\rangle \left\langle B \right\rangle \psi\rangle=$$
+$$=\langle \psi|\hat{A}\hat{B}\psi\rangle-\left\langle B \right\rangle \langle \psi|\hat{A}\psi\rangle-\left\langle A \right\rangle \langle \psi|\hat{B}\psi\rangle+\left\langle A \right\rangle \left\langle B \right\rangle \langle \psi|\psi\rangle=$$
 $$=\langle \hat{A}\hat{B} \rangle + \left\langle B \right\rangle \left\langle A \right\rangle - \left\langle A \right\rangle \left\langle B \right\rangle + \left\langle A \right\rangle \left\langle B \right\rangle= \langle \hat{A}\hat{B} \rangle - \left\langle A \right\rangle \left\langle B \right\rangle$$
-usando la normalizzazione della funzione d'onda $\langle \Psi|\Psi\rangle=1$. Con lo stesso procedimento
+usando la normalizzazione della funzione d'onda $\langle \psi|\psi\rangle=1$. Con lo stesso procedimento
 $$\langle g|f\rangle=\langle \hat{B}\hat{A}\rangle - \left\langle A \right\rangle \left\langle B \right\rangle$$
 quindi
 $$\langle f|g\rangle-\langle g|f\rangle=\langle [\hat{A},\hat{B}] \rangle$$
-che è il valor medio del [[Commutatore]] delle due osservabili. Allora possiamo scrivere la disuguaglianza di Heisenberg come
-$$\boxed{\sigma_{A}^{2}\sigma_{B}^{2}\geq \left(\frac{1}{2i} \langle[\hat{A},\hat{B}]\rangle\right)^{2}}\tag{3}$$
+che è il valor medio del [[Commutatore]] delle due osservabili. Allora, scrivendo la media in forma estesa e notando $(1/2i)^{2}=-1/4$, possiamo scrivere la disuguaglianza di Heisenberg in uno stato $\psi$ come
+$$\boxed{\sigma_{A}^{2}\sigma_{B}^{2}\geq -\frac{1}{4} \left(\bra{\psi} [\hat{A},\hat{B}]\ket{\psi} \right)^{2}}\tag{3}$$
 Il commutatore di due operatori autoaggiunti ha valore di aspettazione immaginario, quindi la $i$ al denominatore si semplifica e il valore è reale e positivo, come ci si aspetta. Allora il principio di indeterminazione è un concetto più generale che si applica a *tutte le coppie di osservabili che hanno commutatore non nullo*. Queste coppie si dicono **osservabili incompatibili**. Se invece il commutatore è nullo, non si applica il principio di indeterminazione e si dicono **osservabili compatibili**. Osservabili compatibili ammettono un [[sistema completo]] di [[Equazione agli autovalori|autofunzioni]] condivise, mentre quelle incompatibili no.[^1]
 
 Se decidiamo $A=q$ e $B=p$ si ha che il commutatore fra le due è $[\hat{q},\hat{p}]=i\hbar$ e quindi la $(3)$ diventa
 $$\sigma_{p}^{2}\sigma_{q}^{2}\geq \frac{\hbar^{2}}{4}$$
 che è il quadrato della disuguaglianza di Heisenberg.
 ### Minima incertezza
-Si può cercare il caso generale in cui la disuguaglianza diventa un'uguaglianza e quindi l'incertezza è minima. Sappiamo che la disuguaglianza di Schwartz è saturata nel caso $f=cg$ con $g$ una costante complessa. Allora, cerchiamo quando la $(1)$ e la $(2)$ sono uguaglianze. Per la $(2)$, deve essere $\text{Re}(z)=0$. Ciò vale a dire $\text{Re}(\langle f|g\rangle)=\text{Re}(c \langle f|f\rangle)=0$. Dato che $\langle f|f\rangle$ è sempre reale, deve essere che $c$ è immaginaria, quindi $c=ia$, con $a$ una costante reale. Allora la condizione per avere minima incertezza è $g(x)=iaf(x)$.
+Si può cercare il caso generale in cui la disuguaglianza diventa un'uguaglianza e quindi l'incertezza è minima. Sappiamo che la disuguaglianza di Cauchy-Schwarz è saturata nel caso $f=cg$ con $g$ una costante complessa. Allora, cerchiamo quando la $(1)$ e la $(2)$ sono uguaglianze. Per la $(2)$, deve essere $\text{Re}(z)=0$. Ciò vale a dire $\text{Re}(\langle f|g\rangle)=\text{Re}(c \langle f|f\rangle)=0$. Dato che $\langle f|f\rangle$ è sempre reale, deve essere che $c$ è immaginaria, quindi $c=i\mu$, con $\mu$ una costante reale. Allora la condizione per avere minima incertezza è $g(x)=i\mu f(x)$. In forma estesa, vale a dire
+$$\lvert \braket{ (\hat{A}-\langle A \rangle )\psi | (\hat{B}-\langle B \rangle )\psi }  \rvert ^{2}=||(\hat{A}-\langle A \rangle \psi)||^{2}\,||(\hat{B}-\langle B \rangle )\psi||^{2}$$
+da cui
+$$\boxed{(\hat{B}-\langle B \rangle )\ket{\psi} =i\mu(\hat{A}-\langle A \rangle )\ket{\psi} }\tag{4}$$
+con $\mu \in \mathbb{R}$.
 
 Nel caso posizione-momento unidimensionale, vale
-$$\left(\frac{\hbar}{i} \frac{d}{dx}- \left\langle p \right\rangle\right)\Psi=ia(x- \left\langle x \right\rangle)\Psi$$
-che è un'equazione differenziale di $\Psi$ in $x$, la cui soluzione è
-$$\Psi(x)=Ae^{-a(x-\left\langle x \right\rangle)^{2}/2\hbar}e^{i\left\langle p \right\rangle x/\hbar}$$
-che è una gaussiana. Allora *il pacchetto d'onda di minima incertezza ha sempre una forma gaussiana*.
+$$\left(\hat{p} - \left\langle \hat{p} \right\rangle\right)\ket{\psi} =i\mu(\hat{q}- \left\langle \hat{q} \right\rangle)\ket{\psi} $$
+che è un'equazione differenziale di $\psi$ in $q$, la cui soluzione rispetto alla posizione è
+$$\boxed{\psi(x)=Ae^{-\mu(x-\left\langle x \right\rangle)^{2}/2\hbar}e^{i\left\langle p \right\rangle x/\hbar}}$$
+che è una gaussiana. Allora *il pacchetto d'onda di minima incertezza ha sempre una forma Gaussiana*.
+
+In [[Rappresentazioni dello stato|rappresentazione della posizione]] (cioè proiettando su $\bra{x}$), i calcoli completi sono
+$$\braket{ x | \hat{p}\psi } -\langle \hat{p} \rangle _{\psi}\braket{ x | \psi } =i\mu \braket{ x | \hat{q}\psi } -i\mu \langle \hat{q} \rangle _{\psi}\braket{ x | \psi } $$
+$$-i\hbar \partial_{x} \psi(x)-\langle \hat{p} \rangle _{\psi}\psi(x)=i\mu x\psi(x)-i\mu \langle \hat{q} \rangle _{\psi}\psi(x)$$
+$$\psi'(x)=\partial_{x} \psi(x)=\frac{i}{\hbar}\langle \hat{p} \rangle _{\psi}\psi(x)- \frac{\mu}{\hbar}x\psi(x)+ \frac{\mu}{\hbar}\langle \hat{q} \rangle _{\psi}\psi(x)$$
+$$\frac{d}{dx}\log \psi(x)=\frac{\psi'(x)}{\psi(x)}=\frac{i}{\hbar}\langle \hat{p} \rangle _{\psi}- \frac{\mu}{\hbar}x+ \frac{\mu}{\hbar}\langle \hat{q} \rangle _{\psi}$$
+$$\log \psi(x)+A=\frac{i}{\hbar}\langle \hat{p} \rangle _{\psi}x- \frac{\mu}{2\hbar}x^{2}+ \frac{\mu}{\hbar}x\langle \hat{q} \rangle _{\psi}$$
+$$\psi(x)=ce^{- \mu x^{2}/2\hbar}e^{i\langle \hat{p} \rangle _{\psi}x/\hbar}e^{\mu x\langle \hat{q} \rangle _{\psi}/\hbar}$$
+che possiamo riscrivere come
+$$\psi(x)=\tilde{c}e^{-\mu(x-\langle \hat{q} \rangle _{\psi})^{2}/2\hbar}e^{i\langle \hat{p} \rangle _{\psi}x/\hbar}$$
+che è una forma Gaussiana.
+
+In [[Rappresentazioni dello stato|rappresentazione del momento]], i calcoli sono simili, ma si proietta su $\bra{p}$:
+$$\braket{ p | \hat{p}\psi } -\langle \hat{p} \rangle _{\psi}\braket{ p | \psi } =i\mu \braket{ p | \hat{q}\psi } -i\mu \langle \hat{q} \rangle _{\psi}\braket{ p | \psi } $$
+$$p\psi(p)-\langle \hat{p} \rangle _{\psi}\psi(p)=i\mu \braket{ p | \hat{q}\psi } -i\mu \langle \hat{q} \rangle _{\psi}\psi(p)$$
+Bisogna risolvere $\braket{ p | \hat{q}\psi }$. Possiamo sfruttare la [[Proiettore|relazione di completezza]]:
+$$\begin{align}
+\braket{ p | \hat{q}\psi } &=\bra{p}\left( \int_{-\infty}^{\infty} \ket{x} \bra{x}  \ dx  \right)\ket{\hat{q}\psi}  =\int_{-\infty}^{\infty} \braket{ p | x } \braket{ x | \hat{q}\psi }  \ dx =\int_{-\infty}^{\infty} \frac{e^{-ipx/\hbar}}{\sqrt{ 2\pi \hbar }}x\psi(x) \ dx = \\
+&=\int_{-\infty}^{\infty} (i\hbar \partial_{p}) \left( \frac{e^{-ipx/\hbar}}{\sqrt{ 2\pi \hbar }} \right)\psi(x) \ dx =i\hbar \partial_{p} \underbrace{ \left( \int_{-\infty}^{\infty} \frac{e^{-ipx/\hbar}}{\sqrt{ 2\pi \hbar }}\psi(x) \ dx  \right) }_{ \psi(p) }=i\hbar \partial_{p}\psi(p)
+\end{align}$$
+Quindi sostituendo questo nell'equazione precedente troviamo
+$$p\psi(p)-\langle \hat{p} \rangle _{\psi}\psi(p)=-\mu \hbar \partial_{p}\psi(p)-i\mu \langle \hat{p} \rangle _{\psi}$$
+Questa si può risolvere allo stesso modo della posizione. Le due funzioni $\psi(p)$ e $\psi(x)$ sono come al solito legate dalla [[trasformata di Fourier]] come $\mathcal{F}[\psi(p)]=\psi(x)$.
 ### Disuguaglianza tempo-energia
 Dalla forma generale del principio di indeterminazione possiamo ottenere la legge per la coppia tempo-energia, che ha un significato fisico particolare. Allora partiamo cercando una misura di quanto in fretta un sistema stia cambiano calcolando la derivata temporale del valor medio di un'osservabile $Q(x,p,t)$:
-$$\frac{d}{dt}\left\langle Q \right\rangle=\frac{d}{dt}\langle \Psi|\hat{Q}\Psi\rangle=\left\langle \frac{\partial \Psi}{\partial t}|\hat{Q}\Psi\right\rangle+\left\langle \Psi| \frac{\partial \left\langle Q \right\rangle}{\partial t}\Psi\right\rangle + \left\langle \Psi|\hat{Q}\frac{\partial \Psi}{\partial t}\right\rangle$$
+$$\frac{d}{dt}\left\langle Q \right\rangle=\frac{d}{dt}\langle \psi|\hat{Q}\psi\rangle=\left\langle \frac{\partial \psi}{\partial t}|\hat{Q}\psi\right\rangle+\left\langle \psi| \frac{\partial \left\langle Q \right\rangle}{\partial t}\psi\right\rangle + \left\langle \psi|\hat{Q}\frac{\partial \psi}{\partial t}\right\rangle$$
 L'[[Equazione di Schrödinger]] ha la forma
-$$i\hbar \frac{\partial \Psi}{\partial t}=\hat{H}\Psi$$
+$$i\hbar \frac{\partial \psi}{\partial t}=\hat{H}\psi$$
 dove l'[[Hamiltoniana]] è $H=p^{2}/2m+V$. Allora
-$$\frac{d}{dt}\left\langle Q \right\rangle=- \frac{1}{i\hbar}\langle \hat{H}\Psi|\hat{Q}\Psi\rangle+ \frac{1}{i\hbar}\langle \Psi|\hat{Q}\hat{H}\Psi\rangle+\left\langle \frac{\partial \hat{Q}}{\partial t} \right\rangle$$
-Ma $\hat{H}$ è autoaggiunto, quindi $\langle \hat{H}\Psi|\hat{Q}\Psi\rangle=\langle \Psi|\hat{H}\hat{Q}\Psi\rangle$ e allora
+$$\frac{d}{dt}\left\langle Q \right\rangle=- \frac{1}{i\hbar}\langle \hat{H}\psi|\hat{Q}\psi\rangle+ \frac{1}{i\hbar}\langle \psi|\hat{Q}\hat{H}\psi\rangle+\left\langle \frac{\partial \hat{Q}}{\partial t} \right\rangle$$
+Ma $\hat{H}$ è autoaggiunto, quindi $\langle \hat{H}\psi|\hat{Q}\psi\rangle=\langle \psi|\hat{H}\hat{Q}\psi\rangle$ e allora
 $$\boxed{\frac{d}{dt}\left\langle Q \right\rangle=\frac{i}{\hbar}\left\langle [\hat{H},\hat{Q}] \right\rangle+\left\langle \frac{\partial \hat{Q}}{\partial t} \right\rangle}$$
 Questa equazione, detta [[equazione di Heisenberg]], forma la base della [[Rappresentazioni della meccanica quantistica|rappresentazione di Heisenberg]], dove l'evoluzione temporale è data agli operatori.
 
@@ -78,27 +105,6 @@ Ma si può dire di più: grazie all'equivalenza massa-energia, l'errore sull'ene
 Questo risultato resiste anche al caso limite di uno stato stazionario, dove l'energia è [[Stato determinato|determinata]]. In questo, chiaramente deve essere $\Delta E =0$, ma allora $\Delta t \rightarrow \infty$. Ma $\Delta t \rightarrow \infty$ significa che le medie delle osservabili impiegano tempo infinito per variare, che è perfettamente sensato dato che in uno stato stazionario sono costanti. Per ottenere una variazione, bisogna combinare linearmente almeno due stati stazionari.
 
 Questa trattazione dell'indeterminazione tempo-energia è detta **formulazione di Mandelstam-Tamm**.
-
----
-
-Prendo $X=\{x_{i}\}^{d}_{i}$ un insieme di $d$ variabili casuali. Definisco una [[Distribuzione]] $F:X \rightarrow\mathbb{R}$, $x_{i} \rightarrow F(x_{i})$ che agisce sulle $X$. Dato che le $X$ sono determinate casualmente, non è esiste alcun "valore" di $X$. Al meglio, possiamo definire il valore di aspettazione o quantità simili. Ciò significa anche che non possiamo nemmeno determinare $F$, al di là di una media. Calcoliamo allora proprio questa, o meglio i *momenti* della distribuzione $F$ nello [[Stato]] $\pi$
-$$\langle F\rangle_{\pi}=\sum\limits_{i=1}^{d}p_{i}F(x_{i})$$
-$$\langle F^{2}\rangle_{\pi}=\sum\limits_{i=1}^{d}p_{i}F^{2}(x_{i})$$
-$$\Delta_{\pi}F=\langle F^{2}\rangle_{\pi}-\langle F\rangle^{2}_{\pi}$$
-In meccanica classica è possibile misurare qualunque cosa, almeno in linea di principio, con precisione arbitraria. In meccanica quantistica, invece, si trova che gli errori su $\hat{p}$ e $\hat{q}$ sono
-$$\boxed{\Delta\hat{p}\Delta\hat{q}\geq\frac{\hbar}{2}}$$
-che è la **disuguaglianza di Heisenberg**. Per una forma in funzione di due [[Osservabile|osservabili]], vedi [[Misure di osservabili]].
-Dunque è impossibile misurare traiettorie per particelle quantistiche, in quanto servirebbe avere misure precise sia per $\hat{p}$ e $\hat{q}$.
-
-Se prendiamo la distribuzione di Gibbs che descrive uno stato misto
-$$\rho_{p}(q,p)=\frac{e^{-\beta H(q,p)}}{z_{\beta}}$$
-abbiamo il valore di aspettazione
-$$\langle F\rangle_{\rho_{\beta}}=\int_{\mathbb{R}^{2}}\rho_{\beta}(q,p)F(q,p)dqdp$$
-Possiamo rappresentare un punto nello spazio delle fasi come la distribuzione *[[Delta di Dirac]]*
-$$(q,p)\rightarrow\delta(q-q_{0}),\;\delta(p-p_{0})$$
-Dunque posso pensare ad un punto come appartenere alla stessa "classe" delle distribuzioni nello [[Phase space]]. Allora abbiamo
-$$\langle F\rangle_{\rho_{\beta}}=\int_{\mathbb{R}^{2}}\rho_{\beta}(q,p)F(q,p)dqdp=F(q_{0},p_{0})$$
-Naturalmente la notazione di funzione della delta di Dirac $\delta(x-x_{0})$ è un'approssimazione comoda della notazione rigorosa da distribuzione $\delta_{x_{0}}[f]=f(x_{0})$.
 
 [^1]: L'equivalente finito-dimensionale di questa affermazione è che due [[Matrice hermitiana|matrici autoaggiunte]] che non commutano fra loro ($\mathbf{A}\mathbf{B}\neq \mathbf{B}\mathbf{A}$) non possono essere [[diagonalizzazione|diagonalizzate]] simultaneamente dalla stessa trasformazione simile.
 [^2]: Gli operatori che hanno una dipendenza esplicita dal tempo sono piuttosto rari. Un esempio sarebbe un oscillatore armonico la cui costante elastica dipende dal tempo, per qualche ragione.

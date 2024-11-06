@@ -11,9 +11,11 @@ $$\{A,B\}=AB+BA$$
 ### Proprietà
 Valgono numerose proprietà del commutatore. Le principali sono:
 1. $[A+B,C]=[A,C]+[B,C]$
-2. $[A,A]=0$, quindi un elemento commuta sempre con se stesso.
-3. $[A,B]=-[B,A]$, detta *anticommutatività*.
-4. $[A,[B,C]]+[B,[C,A]]+[C,[A,B]]=0$, detta *identità di Jacobi*.
+2. $[AB,C]=ABC-CAB$
+3. $[A,A]=0$, quindi un elemento commuta sempre con se stesso.
+4. $[A,B]=-[B,A]$, detta *anticommutatività*.
+5. $[A,[B,C]]+[B,[C,A]]+[C,[A,B]]=0$, detta *identità di Jacobi*.
+6. $[A,B]^{+}=-[A,B]$, con $^{+}$ l'[[Operatore aggiunto|aggiunto]].
 
 Nel caso specifico di [[Operatore|operatori]], tutti gli operatori commutano con qualunque costante. Un'operatore commuta anche con qualunque sua funzione, nel senso che l'operatore $A$ e una sua funzione $f(A)=e^{cA}$ commutano: $[A,f(A)]=0$.
 ### In meccanica quantistica

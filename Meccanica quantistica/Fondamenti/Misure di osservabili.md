@@ -21,7 +21,7 @@ $$\Delta_{\psi}\hat{A}=||(\hat{A}-\langle\hat{A}\rangle_{\psi})|\psi\rangle||^{2
 $$\Delta_{\psi}\hat{B}=||(\hat{B}-\langle\hat{B}\rangle_{\psi})|\psi\rangle||^{2}$$
 Allora il prodotto è
 $$\Delta_{\psi}\hat{A}\Delta_{\psi}\hat{B}=||(\hat{A}-\langle\hat{A}\rangle_{\psi})|\psi\rangle||^{2}+||(\hat{B}-\langle\hat{B}\rangle_{\psi})|\psi\rangle||^{2}\geq\ldots$$
-e usando la [[Disuguaglianza di Schwarz]] 
+e usando la [[Disuguaglianza di Cauchy-Schwarz]] 
 $$\ldots\geq|\langle\hat{A}-\langle\hat{A}\rangle_{\psi})\psi\;|\;(\hat{B}-\langle\hat{B}\rangle_{\psi})\psi\rangle|^{2}\geq\ldots$$
 Ricordando che la parte immaginaria di un numero complesso $z$ si può scrivere come
 $$\Im(z)= \frac{z-z^{\ast}}{2i}$$

@@ -1,11 +1,11 @@
 L'**oscillatore armonico quantistico** è l'analogo quantistico dell'[[oscillatore armonico]] classico, ossia un sistema quantistico con un [[punto di equilibrio]] soggetto ad una forza di ritorno $F$ una volta perturbato.
-## Soluzione
+### Soluzione
 Il caso dell'oscillatore armonico consiste nel risolvere l'[[Equazione di Schrödinger]] per una [[Particella]] immersa nel [[potenziale]]
 $$V(x)=\frac{1}{2}m\omega^{2}x^{2}$$
 Partiamo dunque dall'equazione indipendente dal tempo, che prende la forma
 $$- \frac{\hbar^{2}}{2m} \frac{d^{2}\psi}{dx^{2}}+ \frac{1}{2}m\omega^{2}x^{2}\psi=E\psi\tag{1}$$
 Esistono due modi comuni per risolvere questa equazione: un modo semplice e "di forza bruta" che sfrutta le [[serie di potenze]] e un metodo algebrico che sfrutta gli operatori di creazione e distruzione.
-### Metodo algebrico
+#### Metodo algebrico
 Riscriviamo la $(1)$ in un modo più comodo, usando l'[[operatore]] di quantità di moto $p\equiv (\hbar/i)d/dx$:
 $$\frac{1}{2m}[p^{2}+(m\omega x)^{2}]\psi=E\psi$$
 da cui otteniamo la nota [[Hamiltoniana]] dell'oscillatore armonico
@@ -65,7 +65,7 @@ $$\boxed{\psi_{n}=\frac{1}{\sqrt{n!}}(a_{+})^{n}\psi_{0}=\frac{1}{\sqrt{n!}}(a_{
 L'energia potenziale media è[^2]
 $$\left\langle V \right\rangle=\left\langle \frac{1}{2}m\omega^{2}x^{2} \right\rangle=\frac{1}{2}m\omega^{2} \left\langle x^{2} \right\rangle=\ldots=\frac{1}{2}\hbar\omega\left(n+ \frac{1}{2}\right)$$
 cioè esattamente metà dell'energia totale, come nel caso classico.
-## Risultati
+#### Risultati
 Le $\psi_{n}$ così trovate sono curiosamente diverse dalle soluzioni del moto classico: da una parte, abbiamo che l'energia è quantizzata; dall'altra, notiamo fenomeni che né si osservano né si spiegano in meccanica classica, come il fatto che la probabilità che la particella si trovi al di fuori dell'ampiezza (classica) dell'oscillatore *non* è zero e che la probabilità di trovarsi al centro dell'oscillatore negli stati dispari è *sempre* 0.
 
 Si può inoltre definire uno [[stato coerente]] come l'unico autostato $|\alpha\rangle$ dell'operatore di distruzione
@@ -75,47 +75,34 @@ con il suo autovalore associato $\alpha$. Questo stato è quello con la dinamica
 Si nota anche che per stati di energia sufficientemente alti ($n\gg1$), la probabilità di osservare la particella in una data posizione è approssimativamente uguale quella classica, se si prende la media.
 
 ![[Stati stazionari oscillatore armonico quantistico.png]]
-*Da Introduction to Quantum Mechanics di Griffiths*
-
----
-
-L'[[Hamiltoniana]] di un oscillatore armonico ad una particella è
-$$H=\frac{\bar{p}^{2}}{2m}+U(\bar{q})=\frac{\bar{p}^{2}}{2m}+ \frac{m\omega^{2}}{2}\bar{q}^{2}$$
-con $(\bar{p},\bar{q})\in\mathbb{R}^{N}\times\mathbb{R}^{N}$, $\bar{p}=m\bar{v}$ e $\bar{q}^{2}=||\bar{q}||^{2}$. Questa risolve le equazioni canoniche di Hamilton
-$$\begin{cases} \dot{\bar{q}}=\partial_{\bar{q}}H=\frac{d}{dt}\bar{q}\\
-\dot{\bar{p}}=-\partial_{\bar{q}}H=\frac{d}{dt}\bar{p} \\
-\end{cases}$$
-Definiamo
-$$\phi=(\bar{q},\bar{p})\quad,\quad \dot{\phi}=\frac{d\phi}{dt}=\{\phi,H\}$$
-dove $\{x,y\}$ sono le [[Parentesi di Poisson]]. Abbiamo, in generale
-$$\dot{q}_{1}=\{q_{1},H\}=\partial_{p_{1}}H\quad;\quad \dot{p}_{1}=\{p_{1},H\}=-\partial_{q_{1}}H$$
-Dalle scoperte di De Broglie, posso interpretare una particella come un'onda di lunghezza d'onda $\lambda=\frac{h}{p}$ e numero d'onda $k=\frac{2\pi}{\lambda}$. Prendiamo un'onda piana
-$$e^{ikx}=e^{i\frac{2\pi}{\lambda}x}=e^{i \frac{p}{h}2\pi x}=e^{\frac{i}{\hbar}px}$$
-con $\hbar=\frac{h}{2\pi}$ la [[Costante di Planck|costante di Planck ridotta]]. Per estrarre la $p$ dalla funzione d'onda, possiamo derivare e moltiplicare per una costante
-$$-i\hbar\partial_{x}e^{\frac{i}{\hbar}px}=pe^{\frac{i}{\hbar}px}$$
-Ma quindi abbiamo trovato un operatore che converte un valore in sé stesso, ma moltiplicato per una costante. Dunque abbiamo trovato una *relazione agli autovalori*.
-$$\hat{A}(\bar{v}):\bar{v}\in\mathbb{C}^{n} \longrightarrow\hat{A}\bar{v}\in\mathbb{C}^{n}$$
-Usiamo la [[Notazione braket|notazione ket]] per descrivere i vettori colonna come $\bar{v}$
-$$|v\rangle\in\mathbb{C}^{n} \longrightarrow^{\hat{A}} \hat{A}|{v}\rangle\in\mathbb{C}^{n}$$
-$\hat{A}$ è una matrice $n$-dimensionale su $\mathbb{C}$ con elementi $A_{ij}$. Abbiamo dunque la relazione
-$$\hat{A}|v\rangle=a|v\rangle$$
-dove $a$ è l'**autovalore** di $\hat{A}$ e $|v\rangle$ è l'**autovettore** o **autoket** di $\hat{A}$. Tuttavia, nella relazione dell'onda sembrano esserci due scalari, non due vettori. Definisco allora
-$$\boxed{\psi_{p}(x)=e^{\frac{i}{\hbar}px}}$$
-e scrivo $(-i\hbar\partial_{x}\psi_{p})(x)=p\psi_{p}(x)$. Però si può vedere una funzione come una sorta di "vettore continuo", che abbia infiniti elementi che il valore della funzione $\psi_{p}(x)$ sia l'$x$-esimo "componente" di questo vettore. Ci basta che la norma di questo vettore infinito sia finita. In pratica, vogliamo che la funzione $\psi_{p}$ sia *a quadrato sommabile*, cioè che sia in $L^{2}$. Nel nostro caso, la funzione non è quadrato-sommabile:
-$$\int_{-\infty}^{\infty}|\psi_{p}(x)|^{2}dx=|A|^{2}\int_{-\infty}^{\infty}dx$$
-In genere, questo accade quando si parla di oggetti che sono liberi di andare da $-\infty$ a $+\infty$. In ogni caso, è possibile trovare un estensione anche per questi casi, usando ciò che si chiamano **pseudoket**.
-
-Nel caso si normalizzi la funzione d'onda
-$$\psi(x)\rightarrow\phi(x)=\frac{\psi(x)}{||\psi(x)||}$$
-si trovano *distribuzioni di probabilità*. In sostanza, lo [[Stato]] del sistema è **stocastico**.
-
-Abbiamo che la *funzione momento quantistica* $\hat{p}$ sarà quella funzione tale per cui è vera
-$$(\hat{p}\psi)(x)=-i\hbar\partial_{x}\psi(x)$$
-$$\boxed{\hat{p}=-i\hbar\partial_{x}}$$
-Nel caso vettoriale, si passa semplicemente al gradiente
-$$\boxed{\hat{\bar{p}}=-i\hbar\nabla_{\bar{r}}}$$
-Per un sistema quantistico, le variabili di stato sono $q$, la posizione, e $p$, la fase.
-
+*Fonte: Introduction to Quantum Mechanics di Griffiths*
+### Soluzione alternativa
+L'[[Hamiltoniana]] di un oscillatore armonico è
+$$\hat{H}=\frac{\hat{p}^{2}}{2m}+ \frac{m\omega ^{2}}{2}\hat{q}^{2}$$
+L'equazione che vogliamo risolvere, indipendente dal tempo è
+$$\hat{H}\ket{\psi_{E}} =E\ket{\psi_{E}} $$
+dove gli stati $\ket{\psi_{E}}$ sono [[Stati in meccanica quantistica|stati legati]] ad [[energy|energia]] $E$. L'[[equazione di Schrödinger]] completa in [[Rappresentazioni dello stato|rappresentazione della posizione]] allora è
+$$- \frac{\hbar^{2}}{2m}\psi''_{E}(x)+ \frac{m\omega ^{2}}{2}x^{2}\psi_{E}(x)=E\psi_{E}(x)$$
+Risolvere questa equazione diventa molto più gestibile introducendo gli [[operatori di creazione e distruzione]] $\hat{a}$ e $\hat{a}^{+}$. Usando l'algebra degli [[Operatore|operatori]] ed in particolare quella dei [[Commutatore|commutatori]], è possibile trovare $\psi_{E}$ senza nemmeno risolvere un'equazione differenziale. Per definizione, gli operatori sono
+$$\hat{a}=\alpha \hat{q}+i\beta \hat{p},\qquad \alpha,\beta \in \mathbb{R}$$
+Le due costanti sono
+$$\alpha=\sqrt{ \frac{m\omega}{2\hbar} },\qquad \beta=\frac{1}{\sqrt{ 2m\omega \hbar }}$$
+quindi l'operatore di distruzione $\hat{a}$ e il suo [[Operatore aggiunto|aggiunto]] l'operatore di creazione sono
+$$\hat{a}=\sqrt{ \frac{m\omega}{2\hbar} }\hat{q}+i \frac{1}{\sqrt{ 2m\omega \hbar }}\hat{p},\qquad \hat{a}^{+}=\sqrt{ \frac{m\omega}{2\hbar} }\hat{q}-i \frac{1}{\sqrt{ 2m\omega \hbar }}\hat{p}$$
+I due non commutano:
+$$[\hat{a},\hat{a}^{+}]=\left[ \sqrt{ \frac{m\omega}{2\hbar} }\hat{q}+ \frac{i}{\sqrt{ 2m\omega \hbar }}\hat{p},\sqrt{ \frac{m\omega}{2\hbar} }- \frac{i}{\sqrt{ 2m\omega \hbar }}\hat{p} \right]=\ldots$$
+Sfruttiamo le proprietà dei commutatori $[\hat{A}+\hat{B},\hat{C}]=[\hat{A},\hat{C}]+[\hat{B},\hat{C}]$ e $[\hat{A}\hat{B},\hat{C}]=\hat{A}\hat{B}\hat{C}-\hat{C}\hat{A}\hat{B}$:
+$$\ldots=\sqrt{ \frac{m\omega}{2\hbar} } \frac{\sqrt{ \hbar }}{\sqrt{ 2m\omega \hbar }}+ \frac{\sqrt{ \hbar }}{\sqrt{ 2m\omega \hbar }}\sqrt{ \frac{m\omega}{2\hbar} }=\frac{1}{2}+ \frac{1}{2}=1$$
+Quindi
+$$[\hat{a},\hat{a}^{+}]=1$$
+In particolare, possiamo chiamare $\hat{a}^{+}\hat{a}$ operatore numero, e notare che è un [[operatore semidefinito positivo]] dato che
+$$\braket{ \psi |\hat{a}^{+}\hat{a}\psi  }=\braket{ \hat{a}\psi | \hat{a}\psi } =\lvert \hat{a}\psi \rvert ^{2} \geq0$$
+L'espressione dell'operatore numero è
+$$\hat{a}^{+}\hat{a}=\frac{m\omega}{2\hbar}\hat{q}^{2}+ \frac{1}{\sqrt{ 2m\omega \hbar }}\hat{p}^{2}- \frac{i}{2\hbar}\hat{q}\hat{p}+ \frac{i}{2\hbar}\hat{p}\hat{q}=\frac{\hat{p}^{2}}{2m\omega \hbar}+ \frac{m\omega}{2\hbar}\hat{q}^{2}- \frac{i}{2\hbar}[\hat{q},\hat{p}]$$
+Sappiamo $[\hat{q},\hat{p}]=i\hbar$ quindi
+$$\hat{a}^{+}\hat{a}=\frac{\hat{p}^{2}}{2m\omega \hbar}+ \frac{m\omega}{2\hbar}\hat{q}^{2}- \frac{1}{2}$$
+Ma questa espressione è molto simile a quella dell'Hamiltoniana. Infatti, se la sostituiamo in essa troviamo
+$$\boxed{\hat{H}=\hbar\omega\left(\hat{a}^{+}\hat{a}+ \frac{1}{2}\right)}$$
 
 [^1]: Soddisfare l'equazione di Schrödinger significa che vale $H\psi=E\psi$, quindi vogliamo trovare $H(a_{+}\psi)=(E+\hbar\omega)\psi$. Difatti, si ha$$H(a_{+}\psi)=\hbar\omega\left(a_{+}a_{-}+ \frac{1}{2}\right)(a_{+}\psi)=\hbar\omega\left(a_{+}a_{-}a_{+}+ \frac{1}{2}a_{+}\right)\psi=\hbar\omega a_{+}\left(a_{-}a_{+}+ \frac{1}{2}\right)\psi=$$$$=a_{+}\left[\hbar\omega\left(\underbrace{a_{+}a_{-}+1}\limits_{*}+ \frac{1}{2}\right)\psi\right]=a_{+}(H+\hbar\omega)\psi=a_{+}(E+\hbar\omega)\psi=(E+\hbar\omega)(a_{+}\psi)$$dove in $*$ abbiamo usato il commutatore $[a_{+},a_{-}]=1$ per affermare $a_{-}a_{+}=a_{+}a_{-}+1$.
 

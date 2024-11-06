@@ -10,7 +10,7 @@ Il **teorema di esistenza globale** ci dice che se la funzione cresce al massimo
 
 *Dimostrazione.* Consideriamo gli intervalli dell'enunciato in questa forma: $I=]a,b[ \supseteq \tilde{I}=]\alpha,\beta[$, dove $\tilde{I}$ è l'intervallo su cui è definita la soluzione massimale. Supponiamo per assurdo che $\beta<b$ (e $\beta\in\mathbb{R}$) e prendiamo $\delta>0$ tale che $\beta-\delta>\alpha$. Consideriamo il compatto $[\beta-\delta,\beta]\subseteq I$. La soluzione $\tilde{x}$ è definita come
 $$\tilde{x}(t)=\tilde{x}(\beta-\delta)+\int_{\beta-\delta}^{t}f(s, \tilde{x}(s))ds,\quad\forall t\in[\beta-\delta,\beta]$$
-Segue che, con la [[Disuguaglianza di Schwarz]]:
+Segue che, con la [[Disuguaglianza di Cauchy-Schwarz]]:
 $$\begin{align}||\tilde{x}(t)||&\leq||\tilde{x}(\beta-\delta)||+\int_{\beta-\delta}^{t}||f(s,\tilde{x}(s))||ds\\
 &\leq||\tilde{x}(\beta-\delta)||+\int_{\beta-\delta}^{t}C_{1}+C_{2}||\tilde{x}(s)||ds
 \end{align}
