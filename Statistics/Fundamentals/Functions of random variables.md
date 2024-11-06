@@ -2,7 +2,7 @@ A **function of one or more random variables** is any function that depends on a
 ### Expectation and variance
 It is generally useful to know the [[expected value]] and [[variance]] of such a function. Assume the expectation and variance of the $i$-th variable are $E[X_{i}]=\mu_{i}$ and $\sigma_{i}^{2}$, and the [[covariance]] of the $ij$ pair is $\text{cov}(x_{i},x_{j})=\rho_{y}\sigma_{i}\sigma_{j}$.
 
-Let's initially consider just the univariate case $y=y(x)$ and let's call $E[y]=\mu$ the expected value and $\sigma^{2}$ the variance of $y$. We can do a [[Polinomio di Taylor|Taylor expansion]] of $y$ centered in $\mu$ as
+Let's initially consider just the univariate case $y=y(x)$ and let's call $E[y]=\mu$ the expected value and $\sigma^{2}$ the variance of $y$. We can do a [[Serie di Taylor|Taylor expansion]] of $y$ centered in $\mu$ as
 $$y(x)\simeq y(\mu)+ \underbrace{ \left. \frac{dy}{dx}\right|_{x=\mu}(x-\mu) }_{ 0 }+ \frac{1}{2}\left. \frac{d^{2}y}{dx^{2}}\right|_{x=\mu}(x-\mu)^{2}+\ldots$$
 We have
 $$\mu_{y}=E[y]=y(\mu)+ \frac{1}{2}\left. \frac{d^{2}y}{dx^{2}}\right|_{x=\mu}\sigma ^{2}+\ldots$$

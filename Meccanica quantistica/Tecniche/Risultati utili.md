@@ -1,10 +1,10 @@
 ## Matematica
 ### Equazione di Schrödinger e funzione d'onda
 Equazione di Schrödinger dipendente dal tempo:
-$$i\hbar \frac{\partial }{\partial t}|\Psi\rangle=\hat{H}|\Psi\rangle=- \frac{\hbar^{2}}{2m} \frac{\partial ^{2}}{\partial x^{2}}|\Psi\rangle+V |\Psi\rangle$$
+$$i\hbar \partial_{t} |\Psi\rangle=\hat{H}|\Psi\rangle=- \frac{\hbar^{2}}{2m} \frac{\partial ^{2}}{\partial x^{2}}|\Psi\rangle+V |\Psi\rangle$$
 Indipendente dal tempo:
-$$\hat{H}\psi=E\psi$$
-$$- \frac{\hbar^{2}}{2m} \frac{d^{2}\psi}{dx^{2}}(x) + V(x)\psi(x)=E\psi(x)$$
+$$\hat{H}\ket{\psi} =E\ket{\psi} $$
+$$- \frac{\hbar^{2}}{2m} \frac{ \partial ^{2}  }{ \partial x^{2} } \psi(x) + V(x)\psi(x)=E\psi(x)$$
 Caso dipendente da quello indipendente 1D e 3D:
 $$\Psi(q,t)=\sum\limits_{n=1}^{\infty}c_{n}\psi_{n}(q)e^{iE_{n}t/\hbar}=\sum\limits_{n=1}^{\infty}c_{n}\Psi_{n}(q,t); \quad \Psi(\vec{r},t)=\sum\limits_{n=1}^{\infty}c_{n}\Psi_{n}(\vec{r},t)$$
 In coordinate sferiche
@@ -21,21 +21,27 @@ In posizione e momento
 $$\Delta \hat{q}\Delta \hat{p}\geq \frac{\hbar}{2}$$
 In più dimensioni vale solo nella stessa componente. Componenti diversi commutano.
 Caso generale tra due operatori autoaggiunti $\hat{A}$ e $\hat{B}$:
-$$\Delta \hat{A}\Delta \hat{B}\geq \frac{1}{2i}\left\langle [\hat{A},\hat{B}] \right\rangle$$
+$$\Delta \hat{A}\Delta \hat{B}\geq -\frac{1}{4} \left(\bra{\psi} [\hat{A},\hat{B}]\ket{\psi} \right)^{2}$$
 In tempo ed energia
 $$\Delta E \Delta t\geq \frac{\hbar}{2}$$
 ### Operatori
 In una dimensione
-$$\hat{q}=q, \quad \hat{p}= \frac{\hbar}{i}\frac{\partial }{\partial q}, \quad\hat{H}=- \frac{\hbar^{2}}{2m} \frac{d^{2}}{dq^{2}}+V(q)$$
+$$\hat{q}=q, \quad \hat{p}= -i\hbar \partial_{x} , \quad\hat{H}=- \frac{\hbar^{2}}{2m} \partial_{x} ^{2}+V(q)$$
 In tre dimensioni
-$$\hat{\vec{q}}=\vec{q}, \quad \hat{\vec{p}}=\frac{\hbar}{i}\nabla, \quad \hat{H}=- \frac{\hbar^{2}}{2m}\nabla^{2}+V(\vec{r})$$
+$$\hat{\mathbf{q}}=\mathbf{q}, \quad \hat{\mathbf{p}}=\frac{\hbar}{i}\nabla, \quad \hat{H}=- \frac{\hbar^{2}}{2m}\nabla^{2}+V(\vec{r})$$
 Evolutore
 $$\hat{U}_{t}=\exp\left(- i \frac{\hat{H}}{\hbar} t\right)=\sum\limits_{i=1}^{\infty}e^{- \frac{i}{\hbar}E_{i}t}|E_{i}\rangle\langle E_{i}|$$
 da cui
 $$|\psi_{t}\rangle=\hat{U}_{t}|\psi\rangle \text{ (Schrödinger picture)}$$
 $$\hat{Q}_{t}=\hat{U}_{t}^{+}\hat{Q}\hat{U}_{t} \text{ (Heisenberg picture)}$$
-Se $|\psi\rangle$ è un autostato di $H$ con autovalore $E$
-$$|\psi_{t}\rangle=\hat{U}_{t}|\psi\rangle=e^{-iEt/\hbar}|\psi\rangle$$
+Propagatore
+$$\bra{x} \hat{U}_{t}\ket{y} $$
+Generatore di traslazioni di momento
+$$\hat{U}_{p_{0}}=e^{-ip_{0}\hat{q}/\hbar}$$
+tale che
+$$\hat{U}_{p_{0}}^{+}\hat{p}\hat{U}_{p_{0}}=e^{ip_{0}\hat{q}/\hbar}\hat{p}e^{-ip_{0}\hat{q}/\hbar}=\hat{p}+ \frac{i}{\hbar}p_{0}[\hat{q},\hat{p}]=\hat{p}-p_{0}$$
+Se $|\psi_{E}\rangle$ è un autostato di $H$ con autovalore $E$
+$$|\psi_{E,t}\rangle=\hat{U}_{t}|\psi_{E}\rangle=e^{-iEt/\hbar}|\psi_{E}\rangle$$
 ### Commutatori
 $$[r_{i},p_{j}]=-[p_{i},r_{j}]=i\hbar\delta_{ij}, \quad [r_{i},r_{j}]=[p_{i},p_{j}]=0$$
 La posizione commuta sempre con la posizione; la quantità di moto commuta sempre con la quantità di moto; tra di loro commutano solo in coordinate diverse, altrimenti si ha $i\hbar$. Due coordinate possono identificarsi come posizione e momento se il loro commutatore è $i\hbar$.
@@ -52,7 +58,7 @@ $$\hat{P}_{i}|\phi\rangle=|i\rangle\langle i|\phi\rangle=|\phi_{i}\rangle$$
 e se stesso se proiettato su se stesso
 $$\hat{P}_{\psi}|\psi\rangle=\langle \psi|\psi\rangle|\psi\rangle=|\psi\rangle$$
 Relazione di completezza (discreta e continua)
-$$\sum\limits_{i=1}^{n}\hat{P}_{\psi_{i}}=\hat{\mathbb{1}} \quad ; \quad \int_{-\infty}^{+\infty}|e_{z}\rangle\langle e_{z}|dz=\hat{\mathbb{1}}$$
+$$\sum\limits_{i=1}^{n}\hat{P}_{\psi_{i}}=\hat{\mathbf{1}} \quad ; \quad \int_{-\infty}^{+\infty}|e_{z}\rangle\langle e_{z}|dz=\hat{\mathbf{1}}$$
 Idempotenza
 $$\hat{P}^{2}=\hat{P}$$
 Tutti gli operatori idempotenti hanno come unici autovalori 0 e 1. Infatti
@@ -62,7 +68,7 @@ $$t |\psi\rangle=T |\psi\rangle=TT |\psi\rangle=Tt |\psi\rangle=tT |\psi\rangle=
 ### Matrici di Pauli
 Forma standard:
 $$\hat{\sigma}_{x}=\begin{pmatrix}0 & 1 \\ 1 & 0\end{pmatrix},\;\hat{\sigma}_{y}=\begin{pmatrix}0 & -i \\ i & 0\end{pmatrix},\;\hat{\sigma}_{z}=\begin{pmatrix}1 & 0 \\ 0 & -1\end{pmatrix}$$
-tutte con autovalori $\pm1$. Sono autoaggiunte: $\hat{\sigma}_{i}^{\dagger}=\hat{\sigma}_{i}$. I quadrati sono unitari: $\hat{\sigma}_{i}^{2}=\hat{\mathbb{1}}$. Gli autovettori sono
+tutte con autovalori $\pm1$. Sono autoaggiunte: $\hat{\sigma}_{i}^{\dagger}=\hat{\sigma}_{i}$. I quadrati sono unitari: $\hat{\sigma}_{i}^{2}=\hat{\mathbf{1}}$. Gli autovettori sono
 $$x_{+}: \frac{1}{\sqrt{2}}\begin{pmatrix}1 \\ 1\end{pmatrix}, \quad x_{-}: \frac{1}{\sqrt{2}}\begin{pmatrix}1 \\ -1\end{pmatrix}$$
 $$y_{+}: \frac{1}{\sqrt{2}}\begin{pmatrix}1 \\ i\end{pmatrix}, \quad y_{-}: \frac{1}{\sqrt{2}}\begin{pmatrix}1 \\ -i\end{pmatrix}$$
 $$z_{+}: \begin{pmatrix}1 \\ 0\end{pmatrix}, \quad z_{-}: \begin{pmatrix}0 \\ 1\end{pmatrix}$$
@@ -79,7 +85,7 @@ $$v\otimes w=\begin{pmatrix}v_{1}\\ v_{2}\end{pmatrix}\otimes\begin{pmatrix}w_{1
 $$\hat{L}_{x}=\frac{\hbar y}{i}\frac{\partial }{\partial z}- \frac{\hbar z}{i}\frac{\partial }{\partial y}, \quad \hat{L}_{y}=\frac{\hbar z}{i}\frac{\partial }{\partial x}- \frac{\hbar x}{i}\frac{\partial }{\partial z}, \quad \hat{L}_{z}=\frac{\hbar x}{i}\frac{\partial }{\partial y}- \frac{\hbar y}{i}\frac{\partial }{\partial x}$$
 $$[L_{x},L_{y}]=i\hbar L_{z}, \quad [L_{y},L_{z}]=i\hbar L_{x}, \quad [L_{z},L_{x}]=i\hbar L_{y}$$
 $$[L^{2},L_{z}]=0; \quad L^{2}=\hbar^{2}l(l+1)$$
-$$L^{2}Y_{lm}=\hbar^{2}l(l+1)Y_{lm}, \quad L_{z}Y_{lm}=\hbar mY_{lm}$$
+$$L^{2}\ket{lm} =\hbar^{2}l(l+1)\ket{lm} , \quad L_{z}\ket{lm} =\hbar m\ket{lm} $$
 $$l=0,\;1/2,\;1,\;3/2,\;2,\ldots\quad; \quad m=-l,-l+1,\ldots,0,\ldots,l-1,l$$
 Operatori di creazione e distruzione
 $$L_{\pm}\equiv L_{x}\pm iL_{y}$$
@@ -88,8 +94,8 @@ $$L^{2}=L_{\pm}L_{\mp}+L^{2}_{z}\mp\hbar L_{z}$$
 Gli autovalori sono gli stessi per tutte le componenti $L_{x}$, $L_{y}$ e $L_{z}$.
 ### Spin
 $$[S^{2},S_{z}]=0$$
-$$\hat{\mathbf{S}}=\frac{\hbar}{2}\hat{\sigma}$$
-con $\hat{\sigma}$ le matrici di Pauli.
+$$\hat{\mathbf{S}}=\frac{\hbar}{2}\hat{\boldsymbol{\sigma}}$$
+con $\hat{\boldsymbol{\sigma}}$ le matrici di Pauli.
  
 Equazioni agli autovalori
 $$S^{2}|sm_{s}\rangle=\hbar^{2}s(s+1)|sm_{s}\rangle, \quad S_{z}|sm_{s}\rangle=\hbar m_{s} |sm_{s}\rangle$$
@@ -107,27 +113,23 @@ Gli autovalori sono gli stessi per tutte le componenti $S_{x}$, $S_{y}$ e $S_{z}
 $$\vec{J}=\vec{L}+\vec{S}, \quad [\vec{J},\vec{L}], \quad [\vec{J},\vec{S}]$$
 $$J^{2}|jm_{j}\rangle=\hbar^{2}j(j+1)|jm_{j}\rangle,\quad J_{z}|jm_{j}\rangle=\hbar m_{j}|jm_{j}\rangle$$
 ### Rappresentazioni di stato
-Posizione
-$$\Psi(x,t)=\langle x|\psi(t)\rangle$$
-Momento
-$$\Phi(p,t)=\langle p|\psi(t)\rangle$$
-Coefficienti dell'Hamiltoniana
-$$c_{n}(t)=\langle n|\psi(t)\rangle$$
-Decomposizione spettrale di un qualunque operatore in una base ortonormale $\{e_{n}\}$
-$$T=\sum\limits_{n}t_{n} e_{n}^{*}\cdot e_{n}=\sum\limits_{n}t_{n}|e_{n}\rangle \langle e_{n}|=\sum\limits_{n}t_{n}\hat{P}_{e_{n}}$$
+Posizione e momento di uno stato $\ket{\psi_{t}}$
+$$\psi_{t}(x)=\langle x|\psi_t\rangle,\qquad \psi_{t}(p)=\braket{ p | \psi_{t} } $$
+Decomposizione spettrale di un qualunque operatore $T$ in una base ortonormale $\{\psi_{n}\}$
+$$T=\sum\limits_{n}t_{n}|\psi_{n}\rangle \langle \psi_{n}|=\sum\limits_{n}t_{n}\hat{P}_{\psi_{n}}$$
 dove deve valere
-$$Te_{n}=t_{n}e_{n}$$
-Se l'operatore modifica l'autovettore (come quelli di creazione/distruzione) del tipo
-$$T e_{n}^{(1)}=t_{n}e_{n}^{(2)}$$
+$$T\ket{\psi_{n}} =t_{n}\ket{\psi_{n}} $$
+In genere è la base di autostati di un operatore, come l'Hamiltoniana. Se l'operatore modifica l'autostato (come quelli di creazione/distruzione) del tipo
+$$T \ket{\psi_{n}^{(1)}} =t_{n}\ket{\psi_{n}^{(2)}} $$
 allora
-$$T=\sum\limits_{n}t_{n}|e_{n}^{(2)}\rangle \langle e_{n}^{(1)}|$$
+$$T=\sum\limits_{n}t_{n}|\psi_{n}^{(2)}\rangle \langle \psi_{n}^{(1)}|$$
 ### Rappresentazioni di evoluzione
 Di Schrödinger (con equazione di Schrödinger)
 $$|\psi_{t,S}\rangle=U_{t}|\psi\rangle$$
 Di Heisenberg (con equazione di Heisenberg)
 $$\hat{A}_{t,H}=U_{t}^{+}\hat{A}U_{t}$$
 Di interazione
-$$H_{I}=H_{0}+H_{1}; \quad i\hbar \frac{\partial }{\partial t}|\psi_{I}(t)\rangle=H_{I}(t)|\psi_{I}(t)\rangle$$
+$$H_{I}=H_{0}+H_{1}; \quad i\hbar \partial_{t} |\psi_{I}(t)\rangle=H_{I}(t)|\psi_{I}(t)\rangle$$
 dove
 $$|\psi_{I}(t)\rangle=U_{t,0}^{+}|\psi_{S}(t)\rangle; \quad \hat{A}_{I}(t)=U_{t,0}^{+}\hat{A}_{S}(t)U_{t,0}$$
 ### Armoniche sferiche
@@ -147,7 +149,7 @@ $$|z_{t}\rangle=\hat{U}_{t}|z\rangle=e^{-|z|^{2}/2}\sum\limits_{k=0}^{\infty} \f
 Normalizzati, ma non ortogonali fra loro. La norma è
 $$|\langle z_{1}|z_{2}\rangle|^{2}=e^{-|z_{1}-z_{2}|^{2}}$$
 Ipercompletezza
-$$\int_{\mathbb{C}}\hat{P}_{z}dz=\int_{\mathbb{C}}|z\rangle\langle z|dz=\mathbb{1}$$
+$$\int_{\mathbb{C}}\hat{P}_{z}dz=\int_{\mathbb{C}}|z\rangle\langle z|dz=\hat{\mathbf{1}}$$
 Evoluzione temporale (viene da Schrödinger picture e autostato dell'operatore numero)
 $$|z_{t}\rangle=e^{-i\omega t/2}|e^{-i\omega t}z\rangle$$
 Probabilità
@@ -172,25 +174,32 @@ $$T^{-1}=1 + \frac{V_{0}^{2}}{4E(E+V_{0})}\sin^{2}\left(\frac{2a}{\hbar}\sqrt{2m
 e diventa uno agli autovalori visti sopra.
 ### Oscillatore armonico
 Ammette solo stati legati
-$$V(x)=\frac{1}{2}m\omega^{2}x^{2}; \quad \psi_{n}=\frac{1}{\sqrt{n!}}(a_{+})^{n}\left(\frac{m\omega}{2\hbar}\right)^{1/4}e^{-(m\omega/2\hbar)x^{2}};\quad E_{n}=\left(n+ \frac{1}{2}\right)\hbar\omega$$
-con gli operatori di creazione e distruzione $a=a_{-}$ e $a^{\dagger}=a_{+}$
-$$a_{\pm}\equiv \frac{1}{\sqrt{2\hbar m\omega}}(\mp ip+m\omega x), \quad a_{+}\psi_{n}=\sqrt{n+1}\psi_{n+1},\quad a_{-}\psi_{n}=\sqrt{n}\psi_{n-1}$$
-Operatore numero $a_{+}a_{-}$
-$$a_{+}a_{-}\psi_{n}=n\psi_{n},\quad a_{-}a_{+}\psi_{n}=(n+1)\psi_{n}$$
+$$\hat{H}=\frac{\hat{p}^{2}}{2m}+ \frac{m\omega ^{2}}{2}\hat{q}^{2}=\hbar\omega\left(\hat{a}^{+}\hat{a}+ \frac{1}{2}\right)$$
+Autostati
+$$\psi_{n}(x)=\frac{1}{\sqrt{n!}}(\hat{a}^{+})^{n}\left(\frac{m\omega}{2\hbar}\right)^{1/4}e^{-(m\omega/2\hbar)x^{2}};\quad E_{n}=\left(n+ \frac{1}{2}\right)\hbar\omega$$
+con operatori di creazione e distruzione
+$$\hat{a}=\sqrt{ \frac{m\omega}{2\hbar} }\hat{q}+i \frac{1}{\sqrt{ 2m\omega \hbar }}\hat{p},\qquad \hat{a}^{+}=\sqrt{ \frac{m\omega}{2\hbar} }\hat{q}-i \frac{1}{\sqrt{ 2m\omega \hbar }}\hat{p}$$
+$$\hat{a}^{+}\ket{\psi_{n}} =\sqrt{n+1}\ket{\psi_{n+1}} ,\quad \hat{a}\ket{\psi_{n}} =\sqrt{n}\ket{\psi_{n-1}} $$
+Operatore numero $\hat{a}^{+}\hat{a}$
+$$\hat{a}^{+}\hat{a}\ket{\psi_{n}} =n\ket{\psi_{n}} ,\quad \hat{a}\hat{a}^{+}\ket{\psi_{n}} =(n+1)\ket{\psi_{n}} $$
 Autostati dell'operatore numero
-$$|n\rangle= \frac{(a^{+})^{n}}{\sqrt{n!}}|0\rangle$$
+$$|n\rangle= \frac{(\hat{a}^{+})^{n}}{\sqrt{n!}}|0\rangle$$
 Posizione e momento in termini di operatori di creazione e distruzione
-$$q=\sqrt{\frac{\hbar}{2m\omega}}(a_{+}+a_{-})\quad;\quad p=i\sqrt{\frac{\hbar m\omega}{2}}(a_{+}-a_{-})$$
+$$\hat{q}=\sqrt{\frac{\hbar}{2m\omega}}(\hat{a}^{+}+\hat{a})\quad;\quad \hat{p}=i\sqrt{\frac{\hbar m\omega}{2}}(\hat{a}^{+}-\hat{a})$$
 Caso classico
 $$\ddot{q}=- \frac{k}{m}q=-\omega^{2}q \quad ; \quad q(t)=A\cos(\omega t)+B\sin(\omega t)=C\cos(\omega t+\varphi)$$
 ### Particella libera
 Ammette solo stati liberi
-$$V=0; \quad \phi(k)=\frac{1}{\sqrt{2\pi}}\int_{-\infty}^{+\infty}\Psi(x,0)e^{-ikx}dx; \quad \Psi(x,t)=\frac{1}{\sqrt{2\pi}}\int_{-\infty}^{+\infty}\phi(k)e^{ik[x-(\hbar k/2m)t]}dk$$
+$$\hat{H}=\frac{\hat{p}^{2}}{2m}$$
+Non ha autostati normalizzabili. Evoluzione temporale
+$$\psi_{t}(x)=\int_{-\infty}^{\infty}\sqrt{ \frac{m}{2it\pi \hbar} } e^{im(x-y)^{2}/2\hbar t}\psi(y) \ dy $$
 ### Potenziale delta di Dirac
-Ammette esattamente uno stato legato e stati liberi
-$$V=-\alpha \delta(x); \quad E=- \frac{m\alpha^{2}}{2\hbar^{2}}; \quad \psi(x)=\frac{\sqrt{m\alpha}}{\hbar}e^{-m\alpha|x|/\hbar^{2}}$$
-I coefficienti di trasmissione e riflessione degli stati liberi sono
-$$R=\frac{1}{1+ \left(\frac{2\hbar^{2}E}{m\alpha^{2}}\right)},\quad T=\frac{1}{1+\left(\frac{m\alpha^{2}}{2\hbar^{2}E}\right)}$$
+La buca ammette esattamente uno stato legato e stati liberi
+$$\hat{H}=\frac{\hat{p}^{2}}{2m}-\gamma \delta(x)$$
+Stati liberi barriera
+$$\psi_{E}(x)=A_{L}\left( e^{ikx}- i \frac{m\gamma}{\hbar ^{2}k-im\gamma}e^{-ikx} \right)\Theta(-x)+A_{L} \frac{\hbar^{2}k}{\hbar ^{2}k+im\gamma}\Theta(x)$$
+con $A_{L}$ qualche valore non costante perché non normalizzabile. Stato legato buca ad energia $E<0$
+$$\psi_{\lvert E \rvert }(x)\sqrt{ \frac{m\gamma}{\hbar ^{2}} }e^{-(i/\hbar)\sqrt{ 2m\lvert E \rvert  }\,\lvert x \rvert },\qquad\lvert E \rvert =\frac{m\gamma ^{2}}{2\hbar ^{2}}$$
 ## Teoria delle perturbazioni
 Non degenere, primo e secondo ordine, autovalori $E$ e autovettori $\psi$
 $$E_{n}^{1}=\langle \psi_{n}^{0}|H'|\psi_{n}^{0}\rangle, \quad  E_{n}^{2}=\sum\limits_{m\neq n} \frac{|\langle \psi_{m}^{0}|H'|\psi_{n}^{0}\rangle|^{2}}{E_{n}^{0}-E_{m}^{0}}, \quad \psi_{n}^{1}=\sum\limits_{m\neq n} \frac{\langle \psi_{m}^{0}|H'|\psi_{n}^{0}\rangle}{E_{n}^{0}-E_{m}^{0}}\psi_{m}^{0}$$
@@ -212,4 +221,4 @@ Per $n$-volte degeneri basta aumentare la dimensione della matrice.
 ## Metodi
 - Buca infinita → Raccogli costanti come $-k^{2}$ → Risolvi come oscillatore armonico classico → Quantizzazione compare nelle condizioni al contorno.
 - Oscillatore armonico → Raccogli $1/2m$ nell'Hamiltoniana → Definisci $a$ e $a^{+}$ → Trova l'operatore numero $a^{+}a$ per semplice prodotto → Esprimi Hamiltoniana in funzione di $a^{+}a$ → Trova stato fondamentale $|0\rangle$ sviluppando $a |0\rangle=0$ → Esce differenziale, risolvi integrando direttamente → Normalizza → Autovalore sostituendo → Autostati successivi applicando $a^{+}$ ripetutamente.
-- Normalizzazione $a^{+}$ e $a$ → Vale $a^{+}|n\rangle=c_{n}|n+1\rangle$ e $a |n\rangle=d_{n}|n-1\rangle$ → $\langle a_{\pm}\psi_{n}|a_{\pm}\psi_{n}\rangle=\langle a_{\mp}a_{\pm}\psi_{n}|\psi_{n}\rangle$ → $\langle a_{+}a_{-}\psi_{n}|\psi_{n}\rangle=n\langle \psi_{n}|\psi_{n}\rangle$ e $\langle a_{-}a_{+}\psi_{n}|\psi_{n}\rangle=(n+1)\langle\psi_{n}|\psi_{n}\rangle$ → $|c_{n}|^{2}=n$ e $|d_{n}|^{2}=n+1$.
+- Normalizzazione $a^{+}$ e $a$ → Vale $a^{+}|n\rangle=c_{n}|n+1\rangle$ e $a |n\rangle=d_{n}|n-1\rangle$ → $\langle a_{\pm}\psi_{n}|a_{\pm}\psi_{n}\rangle=\langle a_{\mp}a_{\pm}\psi_{n}|\psi_{n}\rangle$ → $\langle \hat{a}^{+}\hat{a}\psi_{n}|\psi_{n}\rangle=n\langle \psi_{n}|\psi_{n}\rangle$ e $\langle \hat{a}\hat{a}^{+}\psi_{n}|\psi_{n}\rangle=(n+1)\langle\psi_{n}|\psi_{n}\rangle$ → $|c_{n}|^{2}=n$ e $|d_{n}|^{2}=n+1$.

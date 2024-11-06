@@ -20,7 +20,7 @@ L'oscillatore ha energia [[potenziale]] in posizione $x$ pari a
 $$V=\frac{1}{2}kx^{2}\tag{1}$$
 e la forza è conservativa.
 ## Approssimazioni
-L'oscillatore armonico è estremamente importante perché *qualunque* potenziale $V(x)$ associato ad un moto oscillatorio può essere approssimato come una parabola della forma $(1)$ fintantoché l'oscillazione è piccola. Per dimostrarlo, espandiamo $V(x)$ in [[Polinomio di Taylor|serie di Taylor]] centrata in un minimo locale $x_{0}$:
+L'oscillatore armonico è estremamente importante perché *qualunque* potenziale $V(x)$ associato ad un moto oscillatorio può essere approssimato come una parabola della forma $(1)$ fintantoché l'oscillazione è piccola. Per dimostrarlo, espandiamo $V(x)$ in [[Serie di Taylor|serie di Taylor]] centrata in un minimo locale $x_{0}$:
 $$V(x)=V(x_{0})+V'(x_{0})(x-x_{0})+ \frac{1}{2}V''(x_{0})(x-x_{0})^{2}+O(x^{3})$$
 Dato che la costante $V(x_{0})$ si annulla derivando per ottenere la forza, possiamo sottrarla senza perdita di generalità. Inoltre, dato che $x_{0}$ è un [[punto critico]], $V'(x_{0})=0$. Dunque ci rimane la forma esatta
 $$V(x)=\frac{1}{2}V''(x_{0})(x-x_{0})^{2}+O(x^{3})$$

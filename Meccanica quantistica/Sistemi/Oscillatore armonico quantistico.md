@@ -88,7 +88,7 @@ $$\hat{a}=\alpha \hat{q}+i\beta \hat{p},\qquad \alpha,\beta \in \mathbb{R}$$
 Le due costanti sono
 $$\alpha=\sqrt{ \frac{m\omega}{2\hbar} },\qquad \beta=\frac{1}{\sqrt{ 2m\omega \hbar }}$$
 quindi l'operatore di distruzione $\hat{a}$ e il suo [[Operatore aggiunto|aggiunto]] l'operatore di creazione sono
-$$\hat{a}=\sqrt{ \frac{m\omega}{2\hbar} }\hat{q}+i \frac{1}{\sqrt{ 2m\omega \hbar }}\hat{p},\qquad \hat{a}^{+}=\sqrt{ \frac{m\omega}{2\hbar} }\hat{q}-i \frac{1}{\sqrt{ 2m\omega \hbar }}\hat{p}$$
+$$\boxed{\hat{a}=\sqrt{ \frac{m\omega}{2\hbar} }\hat{q}+i \frac{1}{\sqrt{ 2m\omega \hbar }}\hat{p},\qquad \hat{a}^{+}=\sqrt{ \frac{m\omega}{2\hbar} }\hat{q}-i \frac{1}{\sqrt{ 2m\omega \hbar }}\hat{p}}$$
 I due non commutano:
 $$[\hat{a},\hat{a}^{+}]=\left[ \sqrt{ \frac{m\omega}{2\hbar} }\hat{q}+ \frac{i}{\sqrt{ 2m\omega \hbar }}\hat{p},\sqrt{ \frac{m\omega}{2\hbar} }- \frac{i}{\sqrt{ 2m\omega \hbar }}\hat{p} \right]=\ldots$$
 Sfruttiamo le proprietà dei commutatori $[\hat{A}+\hat{B},\hat{C}]=[\hat{A},\hat{C}]+[\hat{B},\hat{C}]$ e $[\hat{A}\hat{B},\hat{C}]=\hat{A}\hat{B}\hat{C}-\hat{C}\hat{A}\hat{B}$:
@@ -100,7 +100,7 @@ $$\braket{ \psi |\hat{a}^{+}\hat{a}\psi  }=\braket{ \hat{a}\psi | \hat{a}\psi } 
 L'espressione dell'operatore numero è
 $$\hat{a}^{+}\hat{a}=\frac{m\omega}{2\hbar}\hat{q}^{2}+ \frac{1}{\sqrt{ 2m\omega \hbar }}\hat{p}^{2}- \frac{i}{2\hbar}\hat{q}\hat{p}+ \frac{i}{2\hbar}\hat{p}\hat{q}=\frac{\hat{p}^{2}}{2m\omega \hbar}+ \frac{m\omega}{2\hbar}\hat{q}^{2}- \frac{i}{2\hbar}[\hat{q},\hat{p}]$$
 Sappiamo $[\hat{q},\hat{p}]=i\hbar$ quindi
-$$\hat{a}^{+}\hat{a}=\frac{\hat{p}^{2}}{2m\omega \hbar}+ \frac{m\omega}{2\hbar}\hat{q}^{2}- \frac{1}{2}$$
+$$\boxed{\hat{a}^{+}\hat{a}=\frac{\hat{p}^{2}}{2m\omega \hbar}+ \frac{m\omega}{2\hbar}\hat{q}^{2}- \frac{1}{2}}$$
 Ma questa espressione è molto simile a quella dell'Hamiltoniana. Infatti, se la sostituiamo in essa troviamo
 $$\boxed{\hat{H}=\hbar\omega\left(\hat{a}^{+}\hat{a}+ \frac{1}{2}\right)}$$
 

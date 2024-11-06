@@ -172,7 +172,7 @@ Allora
 $$A=\sqrt{ \frac{m\gamma}{\hbar ^{2}} }$$
 e mettendo tutto insieme
 $$\boxed{\psi_{\lvert E \rvert }(x)\sqrt{ \frac{m\gamma}{\hbar ^{2}} }e^{-(i/\hbar)\sqrt{ 2m\lvert E \rvert  }\,\lvert x \rvert }}$$
-Dato che é uno stato legato, non c'è corrente di probabilità.
+Dato che è uno stato legato, non c'è corrente di probabilità.
 
 [^1]: La probabilità *assoluta* è data sempre da $|\Psi|^{2}$, ma qui non è normalizzabile, quindi non ha molto senso parlarne.
 [^2]: Nel caso di un fascio di particelle, questi rappresentano la frazione di particelle che vengono mediamente riflesse e trasmesse.

@@ -44,7 +44,7 @@ Nella ricerca della funzione d'onda per la particella libera, ci si è imbattuti
 
 Definiamo a grandi linee un pacchetto d'onda: un pacchetto d'onda è una sovrapposizione di funzioni sinusoidali modulate dalla funzione $\phi(k)$. Si tratta di un'onda contenuta in un battimento e come in tutti questi casi, si hanno due tipi di velocità, non una: la **velocità di fase** è la velocità che ha un punto sull'onda, mentre la **velocità di gruppo** è la velocità del battimento. Queste possono, ma non devono, essere uguali.
 
-Ciò che importa è che per un'onda quantistica, la velocità di gruppo è il doppio della velocità di fase. Ciò riconcilia le due teorie, ma va dimostrato. La [[relazione di dispersione]] dell'onda della particella libera è $\omega(k)=\hbar k^{2}/2m$. Assumiamo che $\phi(k)$ abbia un picco piuttosto localizzato attorno ad un $k_{0}$[^2]. Allora, possiamo espandere in [[Polinomio di Taylor|serie di Taylor]] la $\omega(k)$ attorno a $k_{0}$ senza grandi errori:
+Ciò che importa è che per un'onda quantistica, la velocità di gruppo è il doppio della velocità di fase. Ciò riconcilia le due teorie, ma va dimostrato. La [[relazione di dispersione]] dell'onda della particella libera è $\omega(k)=\hbar k^{2}/2m$. Assumiamo che $\phi(k)$ abbia un picco piuttosto localizzato attorno ad un $k_{0}$[^2]. Allora, possiamo espandere in [[Serie di Taylor|serie di Taylor]] la $\omega(k)$ attorno a $k_{0}$ senza grandi errori:
 $$\omega(k)\simeq \omega(k_{0})+ \frac{d\omega}{dk}(k_{0})(k-k_{0})\equiv \omega_{0}+\omega_{0}'(k-k_{0})$$
 Compiendo il cambio di variabile $s\equiv k-k_{0}$, l'integrale della funzione d'onda diventa
 $$\Psi(x,t)\simeq \frac{1}{\sqrt{2\pi}}\int_{-\infty}^{+\infty}\phi(k_{0}+s)e^{i[(k_{0}+s)x-(\omega_{0}+\omega_{0}'s)t]}ds$$
