@@ -77,7 +77,7 @@ Si nota anche che per stati di energia sufficientemente alti ($n\gg1$), la proba
 ![[Stati stazionari oscillatore armonico quantistico.png]]
 *Fonte: Introduction to Quantum Mechanics di Griffiths*
 ### Soluzione alternativa
-L'[[Hamiltoniana]] di un oscillatore armonico è
+L'[[Hamiltoniana]] di un oscillatore armonico quantistico è
 $$\hat{H}=\frac{\hat{p}^{2}}{2m}+ \frac{m\omega ^{2}}{2}\hat{q}^{2}$$
 L'equazione che vogliamo risolvere, indipendente dal tempo è
 $$\hat{H}\ket{\psi_{E}} =E\ket{\psi_{E}} $$
@@ -97,12 +97,66 @@ Quindi
 $$[\hat{a},\hat{a}^{+}]=1$$
 In particolare, possiamo chiamare $\hat{a}^{+}\hat{a}$ operatore numero, e notare che è un [[operatore semidefinito positivo]] dato che
 $$\braket{ \psi |\hat{a}^{+}\hat{a}\psi  }=\braket{ \hat{a}\psi | \hat{a}\psi } =\lvert \hat{a}\psi \rvert ^{2} \geq0$$
-L'espressione dell'operatore numero è
+Ciò significa che tutti gli autovalori di $\hat{a}^{+}\hat{a}$ sono positivi. L'espressione dell'operatore numero è
 $$\hat{a}^{+}\hat{a}=\frac{m\omega}{2\hbar}\hat{q}^{2}+ \frac{1}{\sqrt{ 2m\omega \hbar }}\hat{p}^{2}- \frac{i}{2\hbar}\hat{q}\hat{p}+ \frac{i}{2\hbar}\hat{p}\hat{q}=\frac{\hat{p}^{2}}{2m\omega \hbar}+ \frac{m\omega}{2\hbar}\hat{q}^{2}- \frac{i}{2\hbar}[\hat{q},\hat{p}]$$
 Sappiamo $[\hat{q},\hat{p}]=i\hbar$ quindi
 $$\boxed{\hat{a}^{+}\hat{a}=\frac{\hat{p}^{2}}{2m\omega \hbar}+ \frac{m\omega}{2\hbar}\hat{q}^{2}- \frac{1}{2}}$$
 Ma questa espressione è molto simile a quella dell'Hamiltoniana. Infatti, se la sostituiamo in essa troviamo
 $$\boxed{\hat{H}=\hbar\omega\left(\hat{a}^{+}\hat{a}+ \frac{1}{2}\right)}$$
+L'operatore numero agisce su un autostato $\ket{\lambda}$ di autovalore $\lambda$ come
+$$\hat{a}^{+}\hat{a}\ket{\lambda} =\lambda \ket{\lambda} $$
+quindi l'Hamiltoniana su un autostato è
+$$\hat{H}\ket{\lambda} =\hbar \omega \hat{a}^{+}\hat{a}\ket{\lambda} + \frac{\hbar \omega}{2}\ket{\lambda} =\hbar \omega \left( \lambda+ \frac{1}{2} \right)\ket{\lambda}  $$
+La cosa comoda è che ora per trovare gli autostati di $\hat{H}$, ossia il suo [[spettro]], basta trovare lo spettro dell'operatore numero. Ora bisogna capire cosa sono $\lambda$ e $\ket{\lambda}$. Intanto, vediamo un po' di algebra di commutatori. Naturalmente vale
+$$[\hat{a},\hat{a}^{n}]=0,\qquad [\hat{a}^{+},(\hat{a}^{+})^{n}]=0$$
+Ma è interessante
+$$[\hat{a},(\hat{a}^{+})^{n}]=[\hat{a},\hat{a}^{+}(\hat{a}^+)^{n-1}]=\ldots$$
+Usiamo la proprietà
+$$[\hat{A},\hat{B}\hat{C}]=\hat{C}\hat{A}\hat{B}-\hat{A}\hat{B}\hat{C}$$
+Quindi
+$$\ldots=\hat{a}^{+}[\hat{a},(\hat{a}^{+})^{n-1}]+(\hat{a}^{+})^{n-1}\underbrace{ [\hat{a},\hat{a}^{+}] }_{ 1 }=\hat{a}^{+}[\hat{a},\hat{a}^{+}(\hat{a}^{+})^{n-2}]+(\hat{a}^{+})^{n-1}=\ldots$$
+Adesso posso iterare questo procedimento $n$ volte per ottenere
+$$\boxed{[\hat{a},(\hat{a}^{+})^{n}]=n(\hat{a}^{+})^{n-1}}$$
+Non per altro, $\hat{a}$ si chiama operatore di distruzione perché diminuisce la potenza di uno. Per l'inverso possiamo sfruttare quello che abbiamo già trovato prendendo l'aggiunto del commutatore
+$$[\hat{a}^{+},(\hat{a})^{n}]=-[\hat{a},(\hat{a}^{+})^{n}]^{+}=-n((\hat{a}^{+})^{n-1})^{+}$$
+Qui possiamo sfruttare le proprietà dell'aggiunto per ottenere
+$$\boxed{[\hat{a}^{+},(\hat{a})^{n}]=-n \hat{a}^{n-1}}$$
+Queste sono valide per ogni $n$ naturale. Altri commutatori utili sono
+$$\boxed{[\hat{a}^{+}\hat{a},\hat{a}]=-\hat{a},\qquad[\hat{a}^{+}\hat{a},\hat{a}^{+}]=\hat{a}^{+}}$$
+che legano l'operatore numero con gli operatori di creazione e distruzione.
+
+Vediamo dunque qualche azione dell'operatore numero su autostati, sfruttando quanto appena trovato. Partiamo da
+$$\hat{a}^{+}\hat{a}\hat{a}\ket{\lambda} =[\hat{a}^{+}\hat{a},\hat{a}]\ket{\lambda} +\hat{a}\underbrace{ \hat{a}^{+}\hat{a}\ket{\lambda} }_{ \lambda \ket{\lambda}  } =-\hat{a}\ket{\lambda} +\lambda\hat{a}\ket{\lambda} =(\lambda-1)\hat{a}\ket{\lambda} $$
+Vediamo anche
+$$\hat{a}^{+}\hat{a}\hat{a}^{n}\ket{\lambda} =\hat{a}^{n}\underbrace{ \hat{a}^{+}\hat{a}\ket{\lambda} }_{ \lambda \ket{\lambda}  } +[\hat{a}^{+}\hat{a},\hat{a}^{n}]\ket{\lambda} =\lambda \hat{a}^{n}\ket{\lambda} -n \hat{a}^{n}\ket{\lambda} =(\lambda-n)\hat{a}^{n}\ket{\lambda} $$
+Qui però sorge un problema. Sappiamo per definizione di semi-positività che tutti gli autovalori di $\hat{a}^{+}\hat{a}$ sono positivi. Ma per $n$ sufficientemente grandi l'autovalore $\lambda-n$ diventerà eventualmente negativo, quindi deve esistere una condizione su $\lambda-n$ tale per cui è sempre maggiore di zero. Questa condizione è che $\lambda \in \mathbb{N}$ (e quindi anche $\lambda-n\in \mathbb{N}$) e che $\hat{a}^{+}\hat{a}\ket{0}=0$, ossia ci sia un limite inferiore all'azione dell'operatore numero. Sapendo questo, possiamo riscrivere l'azione di $\hat{a}^{+}\hat{a}$ come
+$$\hat{a}^{+}\hat{a}\ket{n} =n\ket{n} $$
+da cui si può vedere che l'operatore numero si chiama così perché i suoi autovalori sono tutti i numeri naturali. Ora vorremo anche capire l'azione di $\hat{a}$ e $\hat{a}^{+}$ sugli autostati. Intanto sappiamo
+$$\hat{a}^{+}\hat{a}\hat{a}\ket{n} =(n-1)\hat{a}\ket{n} $$
+Vogliamo vedere se $\hat{a}\ket{n}\propto \ket{n-1}$. Se questo è vero, allora posso applicare $\hat{a}$ a catena fino a che non raggiungo $\ket{0}$, pesato per qualche costante. (TODO: Rivedi lezione 07/11/2024 circa 15-20 minuti seconda parte).
+
+$$\hat{a}^{+}\hat{a}\hat{a}^{+}\ket{n}=\hat{a}^{+}\hat{a}^{+}\hat{a}\ket{n}+[\hat{a}^{+}\hat{a},\hat{a}]\ket{n} =n \hat{a}^{+}\ket{n} +\hat{a}^{+}\ket{n} =(n+1)\hat{a}^{+}\ket{n} $$
+Abbiamo/vogliamo che $\hat{a}^{+}\ket{n}\propto \ket{n+1}$. Quindi con consecutive applicazione di $\hat{a}^{+}$ su $\ket{0}$ possiamo alzare l'autostato a qualunque $\ket{n}$. Controlliamo dunque la [[norma]] di questo valore
+$$\lvert \ket{(\hat{a}^{+})^{n}0}  \rvert ^{2}=\braket{ (\hat{a}^{+})^{n}0 | (\hat{a}^{+})^{n}0 } =\braket{ 0 | \hat{a}^{n}(\hat{a}^{+})^{n}0 }=\ldots$$
+Per districare questa equazione vogliamo sfruttare il fatto che $\ket{0}$ è annichilito da $\hat{a}$, quindi idealmente vogliamo trovare un modo per spostare almeno un $\hat{a}$ da sinistra dei $(\hat{a}^{+})^{n}$ a destra, in modo che possa essere applicato a $\ket{0}$ e che quindi cancelli tutto. Allora
+$$\ldots=\braket{ 0 | \hat{a}^{n-1}\hat{a}(\hat{a}^{+})^{n}0 }=\cancel{ \braket{ 0 | \hat{a}^{n-1}(\hat{a}^{+})^{n}\hat{a} |0 } } +\braket{ 0 | \hat{a}^{n-1}[\hat{a},(\hat{a}^{+})^{n}]|0 } = n\braket{ 0 | \hat{a}^{n-1}(\hat{a}^{+})^{n-1}|0 } =\ldots$$
+Posso ripetere la cancellazione $n$ volte per ottenere
+$$\ldots=n!$$
+Quindi da questo possiamo concludere che l'$n$-esima azione di $\hat{a}^{+}$ su $\ket{0}$ è
+$$\boxed{(\hat{a}^{+})^{n}\ket{0} =\sqrt{ n! }\ket{n} }$$
+Possiamo invertire questa forma per trovare una formula per gli autostati dell'oscillatore armonico in funzione di $\ket{0}$:
+$$\boxed{\ket{n} =\frac{(\hat{a}^{+})^{n}\ket{0}}{\sqrt{ n! }}}$$
+per ogni $n\in \mathbb{N}$. Dobbiamo però dimostrare che siano tutti [[Ortonormalità|ortonormali]]. Allora presi $n\neq m\in \mathbb{N}$ vogliamo l'ortogonalità
+$$\braket{ n | m } =\frac{\braket{ 0 | \hat{a}^{n}(\hat{a}^{+})^{m}|0 }}{\sqrt{ n!m! }} =0$$
+Questo è vero, infatti per iterazione abbiamo
+$$\braket{ 0 | \hat{a}^{n-1} \hat{a}(\hat{a}^{+})^{m}|0}=\braket{ 0 | \hat{a}^{n-1}[\hat{a},(\hat{a}^{+})^{m}]|0 } =m\braket{ 0 | \hat{a}^{n-1}(\hat{a}^{+})^{m-1}|0 }  $$
+Ora, supponiamo che $n>m$. Dato che $n$ e $m$ diminuiscono in unisono, quando $m$ arriva a zero, sarà rimasto almeno un $\hat{a}$ davanti al $\ket{0}$, quindi va tutto a zero. Se invece $n<m$ rimarrà almeno un $\hat{a}^{+}$, che possiamo spostare dall'altra parte del prodotto scalare per comunque trovare un $\hat{a}$ che agisce su $\ket{0}$, di nuovo annullando tutto. L'unico caso con risultato non nullo è quello in cui $n=m$, in qual caso rimane $\braket{ 0 | 0 }=1$. Ma questa non è altro che una [[delta di Kronecker]], quindi $\braket{ n | m }=\delta_{nm}$, che prova l'ortonormalità. Questo prova definitivamente che $\{ \ket{n} \}_{n\in \mathbb{N}}$ è la [[base]] ortonormale degli autostati dell'oscillatore armonico, ed è equivalente all'insieme dei modi di oscillazione normale del [[oscillatore armonico|caso classico]].
+
+Ora che sappiamo la statica del sistema, vogliamo trovarne l'evoluzione temporale. Preso l'[[evolutore]] $\hat{U}_{t}=e^{-i \hat{H}p/\hbar}$. Avendo la base degli autostati, un generico stato $\ket{\psi_{t}}$ è rappresentato in [[serie di Fourier]] da
+$$\ket{\psi_{t}} =\hat{U}_{t}\ket{\psi} =\sum_{n=0}^{\infty} \braket{ n | \psi } \hat{U}_{t}\ket{n} =\sum_{n=0}^{\infty} \braket{ n | \psi } e^{-it\hbar \omega(n+ 1/2)/\hbar}\ket{n} $$
+Ci interessa la [[Rappresentazioni dello stato|rappresentazione della posizione]] $\psi_{n}(x)=\braket{ x | n }$. (TODO: Rivedi lezione 07/11/24 verso la fine). Lo stato fondamentale è
+$$\psi_{0}(x)=\sqrt[4]{ \frac{m\omega}{\hbar \pi} }e^{-(m\omega/2\hbar)x^{2}}$$
+La forma degli autostati in posizione è data dai [[polinomi di Hermite]].
 
 [^1]: Soddisfare l'equazione di Schrödinger significa che vale $H\psi=E\psi$, quindi vogliamo trovare $H(a_{+}\psi)=(E+\hbar\omega)\psi$. Difatti, si ha$$H(a_{+}\psi)=\hbar\omega\left(a_{+}a_{-}+ \frac{1}{2}\right)(a_{+}\psi)=\hbar\omega\left(a_{+}a_{-}a_{+}+ \frac{1}{2}a_{+}\right)\psi=\hbar\omega a_{+}\left(a_{-}a_{+}+ \frac{1}{2}\right)\psi=$$$$=a_{+}\left[\hbar\omega\left(\underbrace{a_{+}a_{-}+1}\limits_{*}+ \frac{1}{2}\right)\psi\right]=a_{+}(H+\hbar\omega)\psi=a_{+}(E+\hbar\omega)\psi=(E+\hbar\omega)(a_{+}\psi)$$dove in $*$ abbiamo usato il commutatore $[a_{+},a_{-}]=1$ per affermare $a_{-}a_{+}=a_{+}a_{-}+1$.
 
