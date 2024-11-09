@@ -32,8 +32,7 @@ $$\hat{\mathbf{q}}=\mathbf{q}, \quad \hat{\mathbf{p}}=\frac{\hbar}{i}\nabla, \qu
 Evolutore
 $$\hat{U}_{t}=\exp\left(- i \frac{\hat{H}}{\hbar} t\right)=\sum\limits_{i=1}^{\infty}e^{- \frac{i}{\hbar}E_{i}t}|E_{i}\rangle\langle E_{i}|$$
 da cui
-$$|\psi_{t}\rangle=\hat{U}_{t}|\psi\rangle \text{ (Schrödinger picture)}$$
-$$\hat{Q}_{t}=\hat{U}_{t}^{+}\hat{Q}\hat{U}_{t} \text{ (Heisenberg picture)}$$
+$$|\psi_{t}\rangle=\hat{U}_{t}|\psi\rangle \text{ (Schrödinger picture)},\qquad\hat{Q}_{t}=\hat{U}_{t}^{+}\hat{Q}\hat{U}_{t} \text{ (Heisenberg picture)}$$
 Propagatore
 $$\bra{x} \hat{U}_{t}\ket{y} $$
 Generatore di traslazioni di momento
@@ -43,9 +42,11 @@ $$\hat{U}_{p_{0}}^{+}\hat{p}\hat{U}_{p_{0}}=e^{ip_{0}\hat{q}/\hbar}\hat{p}e^{-ip
 Se $|\psi_{E}\rangle$ è un autostato di $H$ con autovalore $E$
 $$|\psi_{E,t}\rangle=\hat{U}_{t}|\psi_{E}\rangle=e^{-iEt/\hbar}|\psi_{E}\rangle$$
 ### Commutatori
-$$[r_{i},p_{j}]=-[p_{i},r_{j}]=i\hbar\delta_{ij}, \quad [r_{i},r_{j}]=[p_{i},p_{j}]=0$$
+Commutatori annidati con $\hat{B}$ contenente $\hat{A}$
+$$f(\hat{B})^{+}\hat{A}f(\hat{B})=e^{-\hat{B}}\hat{A}e^{\hat{B}}=\hat{A}+[-\hat{B},\hat{A}]$$
+Posizione/momento
+$$[q_{i},p_{j}]=-[p_{i},q_{j}]=i\hbar\delta_{ij}, \quad [q_{i},q_{j}]=[p_{i},p_{j}]=0$$
 La posizione commuta sempre con la posizione; la quantità di moto commuta sempre con la quantità di moto; tra di loro commutano solo in coordinate diverse, altrimenti si ha $i\hbar$. Due coordinate possono identificarsi come posizione e momento se il loro commutatore è $i\hbar$.
-
 $$[\hat{q},\hat{p}]=i\hbar; \quad [\hat{H},\hat{q}]=- \frac{i\hbar}{m}\hat{p}; \quad [\hat{H},\hat{p}]=0$$
 Se $[\hat{H},\hat{Q}]=0$, allora $\hat{Q}$ è una costante del moto.
 
@@ -95,7 +96,7 @@ Gli autovalori sono gli stessi per tutte le componenti $L_{x}$, $L_{y}$ e $L_{z}
 ### Spin
 $$[S^{2},S_{z}]=0$$
 $$\hat{\mathbf{S}}=\frac{\hbar}{2}\hat{\boldsymbol{\sigma}}$$
-con $\hat{\boldsymbol{\sigma}}$ le matrici di Pauli.
+con $\hat{\boldsymbol{\sigma}}=(\hat{\sigma}_{x},\hat{\sigma}_{y},\hat{\sigma}_{z})$ le matrici di Pauli.
  
 Equazioni agli autovalori
 $$S^{2}|sm_{s}\rangle=\hbar^{2}s(s+1)|sm_{s}\rangle, \quad S_{z}|sm_{s}\rangle=\hbar m_{s} |sm_{s}\rangle$$
