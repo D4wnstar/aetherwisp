@@ -1,3 +1,7 @@
+---
+aliases:
+  - disuguaglianza triangolare
+---
 Si definisce **norma** una legge $V \rightarrow \mathbb{R}^{+}$ definita per ogni $v\in V$ su un [[spazio vettoriale]] $V$, indicata con $||\cdot||$, che soddisfa le seguenti proprietà per ogni vettore $v,w\in V$ e scalare $\lambda\in\mathbb{C}$:
 1. $||v||\geq0$
 2. $||v||=0 \Leftrightarrow v=0$

@@ -38,7 +38,8 @@ per [[ortogonalità]]. Inoltre, $\langle \psi_{n}^{0}|\psi_{n}^{0}\rangle=1$ per
 $$\boxed{E_{n}^{1}=\langle \psi_{n}^{0}|H'|\psi_{n}^{0}\rangle}$$
 Questo è il risultato principale della teoria delle perturbazioni non degenere di primo ordine.
 
-> **Risultato.** La correzione di primo ordine all'energia è pari al valor medio della perturbazione nello stato non perturbato.
+> [!success] Risultato
+> La correzione di primo ordine all'energia è pari al valor medio della perturbazione nello stato non perturbato.
 
 Troviamo ora la correzione alla [[funzione d'onda]]. Riscriviamo la $(2)$ come
 $$(H^{0}-E_{n}^{0})\psi_{n}^{1}=-(H'-E_{n}^{1})\psi_{n}^{0}\tag{4}$$
@@ -64,7 +65,8 @@ e quindi il livello d'energia corretto sarà
 $$E_{n}\simeq E_{n}^{0}+V_{0}$$
 che capita essere non una soluzione approssimata, bensì quella esatta.
 
-> **Risultato.** Per una perturbazione costante, tutti le correzioni di ordine superiore al primo svaniscono. La correzione di primo ordine è la perturbazione stessa.
+> [!success] Risultato
+> Per una perturbazione costante, tutti le correzioni di ordine superiore al primo svaniscono. La correzione di primo ordine è la perturbazione stessa.
 ##### Precisione
 La correzione di primo ordine è quella più semplice. La correzione all'energia è solitamente piuttosto accurata, nel senso che $E_{n}^{1}+E_{n}^{1}$ è solitamente piuttosto vicina ad $E_{esatta}$. Tuttavia, la correzione alla funzione d'onda è scarsa e non è sufficiente ad una buona approssimazione.
 #### Secondo ordine

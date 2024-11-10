@@ -111,7 +111,8 @@ Allora $|10\rangle$ è effettivamente un autovettore di $S^{2}$ con autovalore $
 
 Questo è un caso specifico di un problema generale: combinando due particelle con spin $s_{1}$ e $s_{2}$, quali sono gli spin permessi al sistema composito? 
 
-> **Risultato.** Un sistema composto da due particelle con spin $s_{1}$ e $s_{2}$ può avere qualunque spin tra $|s_{1}-s_{2}|$ e $s_{1}+s_{2}$, in passi interi. Lo spin più basso, $|s_{1}-s_{2}|$, accade quando tutti gli spin sono antiparalleli, mentre quello più alto, $s_{1}+s_{2}$, quando sono tutti paralleli.
+> [!success] Risultato
+> Un sistema composto da due particelle con spin $s_{1}$ e $s_{2}$ può avere qualunque spin tra $|s_{1}-s_{2}|$ e $s_{1}+s_{2}$, in passi interi. Lo spin più basso, $|s_{1}-s_{2}|$, accade quando tutti gli spin sono antiparalleli, mentre quello più alto, $s_{1}+s_{2}$, quando sono tutti paralleli.
 
 Lo stato combinato $|sm\rangle$ con spin totale $s$ e componente $z$ $m$ sarà una combinazione lineare degli stati compositi $|s_{1}m_{1}\rangle |s_{2},m_{2}\rangle$:
 $$|sm\rangle=\sum\limits_{m_{1}+m_{2}=m}C_{m_{1}m_{2}m}^{s_{1}s_{2}s}|s_{1}m_{1}\rangle |s_{2}m_{2}\rangle$$
