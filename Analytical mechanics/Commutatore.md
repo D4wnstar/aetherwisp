@@ -1,6 +1,7 @@
 ---
 aliases:
   - anticommutatore
+  - formula di Baker-Campbell-Hausdorff
 ---
 Il **commutatore** è un valore che indica quanto due elementi legati da un'operazione binaria non soddisfano la proprietà commutativa. Nel caso della moltiplicazione, presi due elementi $A$ e $B$, il loro commutatore è
 $$[A,B]=AB-BA$$
@@ -18,6 +19,28 @@ Valgono numerose proprietà del commutatore. Le principali sono:
 6. $[A,B]^{+}=-[A,B]$, con $^{+}$ l'[[Operatore aggiunto|aggiunto]].
 
 Nel caso specifico di [[Operatore|operatori]], tutti gli operatori commutano con qualunque costante. Un'operatore commuta anche con qualunque sua funzione, nel senso che l'operatore $A$ e una sua funzione $f(A)=e^{cA}$ commutano: $[A,f(A)]=0$.
+
+Se due operatori non commutano per una costante, ossia $[A,B]=c \hat{\mathbf{1}}$, allora vale la **formula di Baker-Campbell-Hausdorff**:
+$$e^{A+B}=e^{-[A,B]/2}e^{A}e^{B}$$
+quindi compare un termine correttivo $e^{-[A,B]/2}$ nel suddividere una somma di operatori all'esponente.
+
+Nel caso di due funzioni operatori $e^{-A}$  e $e^{A}$ applicate su un altro operatore $B$, si ha
+$$\begin{align}
+e^{A}Be^{-A}&=\sum_{k=0}^{\infty} \frac{1}{k!}\underbrace{ [A,[A, \ldots[A,B] }_{ k \text{ volte} }\ldots]] \\
+&=B+[A,B]+ \frac{1}{2}[A,[A,B]]+ \frac{1}{3!}[A,[A,[A,B]]]+\ldots
+\end{align}$$
+
+> [!example] Dimostrazione
+>Possiamo espandere in serie le funzioni separatamente:
+> $$\begin{align}
+> &\quad\left( 1+A+ \frac{A^{2}}{2}+\ldots \right)B\left( 1-A+ \frac{A^{2}}{2} +\ldots\right)= \\
+> &=\left( 1+A+ \frac{A^{2}}{2}+\ldots \right)\left( B-BA+ B \frac{A^{2}}{2}+\ldots \right)= \\
+> &=B-BA+ \frac{BA^{2}}{2}+ AB-ABA- \frac{A^{2}}{2}B+\ldots= \\
+> &=B+[A,B]+ \left( \frac{1}{2}BA^{2}- ABA + \frac{1}{2}A^{2}B \right)+\ldots \\
+> &=B+[A,B]+[A,[A,B]]+\ldots
+> \end{align}$$
+
+Vale anche per $e^{A}f(B)e^{-A}$ dato che $e^{A}f(B)e^{-A}=f(e^{A}Be^{-A})$.
 ### In meccanica quantistica
 Il commutatore è di importanza primaria nella meccanica quantistica, dove permette di esprimere numerosi concetti relativi al [[Disuguaglianza di Heisenberg|principio di indeterminazione]]. La relazione commutativa più importante della materia è la cosiddetta **relazione commutativa canonica**, che dimostra che l'operatore posizione e l'operatore quantità di moto non commutano:
 $$[\hat{q},\hat{p}]=i\hbar$$

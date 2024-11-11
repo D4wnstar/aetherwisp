@@ -2,7 +2,7 @@ L'**equazione di Heisenberg** è un'[[equazione differenziale ordinaria]] che de
 $$\frac{d}{dt}\hat{A}_{H}(t)=\frac{i}{\hbar}[\hat{H},\hat{A}_{H}(t)]+\left(\frac{\partial }{\partial t}\hat{A}_{S}(t)\right)_{H}$$
 dove $[\cdot,\cdot]$ è il [[Commutatore]]. I pedici H e S denotano l'operatore nella rappresentazione di Heisenberg e Schrödinger. L'operatore in H è l'evoluzione temporale di quello in S:
 $$\hat{A}_{H}(t)=\hat{U}_{t}^{+}\hat{A}_{S}\hat{U}_{t}$$
-dove $\hat{U}_{t}$ è l'[[evolutore]]. È importante notare che l'operatore in H è sempre dipendente dal tempo (perché lo si pesa per l'evolutore), mentre quello in S può essere costante nel tempo.
+dove $\hat{U}_{t}$ è l'[[evolutore]]. È importante notare che l'operatore in H è sempre dipendente dal tempo (perché lo si pesa per l'evolutore), mentre quello in S può essere costante nel tempo (e di solito lo è).
 
 Nel caso comune di operatori in S che non dipendono dal tempo, l'equazione si riduce a
 $$\frac{d}{dt}\hat{A}_{H}(t)=\frac{i}{\hbar}[\hat{H},\hat{A}_{H}(t)]$$
