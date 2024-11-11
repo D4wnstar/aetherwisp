@@ -1,7 +1,7 @@
 ## Matematica
 ### Equazione di Schrödinger e funzione d'onda
 Equazione di Schrödinger dipendente dal tempo:
-$$i\hbar \partial_{t} |\Psi\rangle=\hat{H}|\Psi\rangle=- \frac{\hbar^{2}}{2m} \frac{\partial ^{2}}{\partial x^{2}}|\Psi\rangle+V |\Psi\rangle$$
+$$i\hbar \partial_{t} |\psi_{t}\rangle=\hat{H}|\psi_{t}\rangle=- \frac{\hbar^{2}}{2m} \frac{\partial ^{2}}{\partial x^{2}}|\psi_{t}\rangle+V |\psi_{t}\rangle$$
 Indipendente dal tempo:
 $$\hat{H}\ket{\psi} =E\ket{\psi} $$
 $$- \frac{\hbar^{2}}{2m} \frac{ \partial ^{2}  }{ \partial x^{2} } \psi(x) + V(x)\psi(x)=E\psi(x)$$
