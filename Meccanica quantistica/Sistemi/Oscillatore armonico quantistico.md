@@ -130,7 +130,7 @@ $$\hat{a}^{+}\hat{a}\hat{a}\ket{\lambda} =[\hat{a}^{+}\hat{a},\hat{a}]\ket{\lamb
 Vediamo anche
 $$\hat{a}^{+}\hat{a}\hat{a}^{n}\ket{\lambda} =\hat{a}^{n}\underbrace{ \hat{a}^{+}\hat{a}\ket{\lambda} }_{ \lambda \ket{\lambda}  } +[\hat{a}^{+}\hat{a},\hat{a}^{n}]\ket{\lambda} =\lambda \hat{a}^{n}\ket{\lambda} -n \hat{a}^{n}\ket{\lambda} =(\lambda-n)\hat{a}^{n}\ket{\lambda} $$
 Qui però sorge un problema. Sappiamo per definizione di semi-positività che tutti gli autovalori di $\hat{a}^{+}\hat{a}$ sono positivi. Ma per $n$ sufficientemente grandi l'autovalore $\lambda-n$ diventerà eventualmente negativo, quindi deve esistere una condizione su $\lambda-n$ tale per cui è sempre maggiore di zero. Questa condizione è che $\lambda \in \mathbb{N}$ (e quindi anche $\lambda-n\in \mathbb{N}$) e che $\hat{a}^{+}\hat{a}\ket{0}=0$, ossia ci sia un limite inferiore all'azione dell'operatore numero. Sapendo questo, possiamo riscrivere l'azione di $\hat{a}^{+}\hat{a}$ come
-$$\hat{a}^{+}\hat{a}\ket{n} =n\ket{n} $$
+$$\boxed{\hat{a}^{+}\hat{a}\ket{n} =n\ket{n} }$$
 da cui si può vedere che l'operatore numero si chiama così perché i suoi autovalori sono tutti i numeri naturali. Ora vorremo anche capire l'azione di $\hat{a}$ e $\hat{a}^{+}$ sugli autostati. Intanto sappiamo
 $$\hat{a}^{+}\hat{a}\hat{a}\ket{n} =(n-1)\hat{a}\ket{n} $$
 Vogliamo vedere se $\hat{a}\ket{n}\propto \ket{n-1}$. Se questo è vero, allora posso applicare $\hat{a}$ a catena fino a che non raggiungo $\ket{0}$, pesato per qualche costante. (TODO: Rivedi lezione 07/11/2024 circa 15-20 minuti seconda parte).
@@ -143,9 +143,9 @@ $$\ldots=\braket{ 0 | \hat{a}^{n-1}\hat{a}(\hat{a}^{+})^{n}0 }=\cancel{ \braket{
 Posso ripetere la cancellazione $n$ volte per ottenere
 $$\ldots=n!$$
 Quindi da questo possiamo concludere che l'$n$-esima azione di $\hat{a}^{+}$ su $\ket{0}$ è
-$$\boxed{(\hat{a}^{+})^{n}\ket{0} =\sqrt{ n! }\ket{n} }$$
+$$(\hat{a}^{+})^{n}\ket{0} =\sqrt{ n! }\ket{n}$$
 Possiamo invertire questa forma per trovare una formula per gli autostati dell'oscillatore armonico in funzione di $\ket{0}$:
-$$\boxed{\ket{n} =\frac{(\hat{a}^{+})^{n}\ket{0}}{\sqrt{ n! }}}$$
+$$\boxed{\ket{n} =\frac{(\hat{a}^{+})^{n}\ket{0}}{\sqrt{ n! }}}\tag{1}$$
 per ogni $n\in \mathbb{N}$. Dobbiamo però dimostrare che siano tutti [[Ortonormalità|ortonormali]]. Allora presi $n\neq m\in \mathbb{N}$ vogliamo l'ortogonalità
 $$\braket{ n | m } =\frac{\braket{ 0 | \hat{a}^{n}(\hat{a}^{+})^{m}|0 }}{\sqrt{ n!m! }} =0$$
 Questo è vero, infatti per iterazione abbiamo
@@ -155,8 +155,21 @@ Ora, supponiamo che $n>m$. Dato che $n$ e $m$ diminuiscono in unisono, quando $m
 Ora che sappiamo la statica del sistema, vogliamo trovarne l'evoluzione temporale. Preso l'[[evolutore]] $\hat{U}_{t}=e^{-i \hat{H}p/\hbar}$. Avendo la base degli autostati, un generico stato $\ket{\psi_{t}}$ è rappresentato in [[serie di Fourier]] da
 $$\ket{\psi_{t}} =\hat{U}_{t}\ket{\psi} =\sum_{n=0}^{\infty} \braket{ n | \psi } \hat{U}_{t}\ket{n} =\sum_{n=0}^{\infty} \braket{ n | \psi } e^{-it\hbar \omega(n+ 1/2)/\hbar}\ket{n} $$
 Ci interessa la [[Rappresentazioni dello stato|rappresentazione della posizione]] $\psi_{n}(x)=\braket{ x | n }$. (TODO: Rivedi lezione 07/11/24 verso la fine). Lo stato fondamentale è
-$$\psi_{0}(x)=\sqrt[4]{ \frac{m\omega}{\hbar \pi} }e^{-(m\omega/2\hbar)x^{2}}$$
+$$\boxed{\psi_{0}(x)=\sqrt[4]{ \frac{m\omega}{\hbar \pi} }e^{-(m\omega/2\hbar)x^{2}}}$$
 La forma degli autostati in posizione è data dai [[polinomi di Hermite]].
+#### Azione di $\hat{a}$ e $\hat{a}^{+}$
+Ora che sappiamo la forma degli autostati $(1)$, possiamo vedere quale sia l'azione di $\hat{a}$ e $\hat{a}^{+}$ su di loro. Partiamo da $\hat{a}$:
+$$\hat{a}\ket{n} =\hat{a} \frac{(\hat{a}^{+})^{n}}{\sqrt{ n! }}\ket{0} =\frac{(\hat{a}^{+})^{n}\hat{a}\ket{0}}{\sqrt{ n! }}+ \frac{1}{\sqrt{ n! }}\underbrace{ [\hat{a},(\hat{a}^{+})^{n}] }_{ n(\hat{a}^{+})^{n-1} }\ket{0}=\ldots $$
+usando che $\hat{a}$ e $\hat{a}^{+}$ non commutano. Ora
+$$\ldots=\frac{n}{\sqrt{ n! }}(\hat{a}^{+})^{n-1}\ket{0} =\sqrt{ n } \frac{(\hat{a}^{+})^{n-1}}{\sqrt{ (n-1)! }}\ket{0}=\sqrt{ n }\ket{n-1}  $$
+Ora guardiamo $\hat{a}^{+}$:
+$$\hat{a}^{+}\ket{n} =\hat{a}^{+} \frac{(\hat{a}^{+})^{n}}{\sqrt{ n! }}\ket{0} =\frac{(\hat{a}^{+})^{n+1}}{\sqrt{ n! }}\ket{0} =\sqrt{ n+1 }\ket{n+1} $$
+Quindi in conclusione abbiamo
+$$\boxed{\hat{a}\ket{n} =\sqrt{ n }\ket{n-1} ,\qquad \hat{a}^{+}\ket{n} =\sqrt{ n+1 }\ket{n+1}}$$
+Troviamo anche i valori medi negli autostati:
+$$\braket{ m | \hat{a} | n } =\sqrt{ n }\braket{ m | n-1 } =\sqrt{ n }\delta_{m,n-1},\qquad \braket{ m | \hat{a}^{+} | n } =\sqrt{ n+1 }\braket{ m | n+1 } =\sqrt{ n+1 }\delta_{m,n+1}$$
+con $\delta$ la [[delta di Kronecker]].
+
 
 [^1]: Soddisfare l'equazione di Schrödinger significa che vale $H\psi=E\psi$, quindi vogliamo trovare $H(a_{+}\psi)=(E+\hbar\omega)\psi$. Difatti, si ha$$H(a_{+}\psi)=\hbar\omega\left(a_{+}a_{-}+ \frac{1}{2}\right)(a_{+}\psi)=\hbar\omega\left(a_{+}a_{-}a_{+}+ \frac{1}{2}a_{+}\right)\psi=\hbar\omega a_{+}\left(a_{-}a_{+}+ \frac{1}{2}\right)\psi=$$$$=a_{+}\left[\hbar\omega\left(\underbrace{a_{+}a_{-}+1}\limits_{*}+ \frac{1}{2}\right)\psi\right]=a_{+}(H+\hbar\omega)\psi=a_{+}(E+\hbar\omega)\psi=(E+\hbar\omega)(a_{+}\psi)$$dove in $*$ abbiamo usato il commutatore $[a_{+},a_{-}]=1$ per affermare $a_{-}a_{+}=a_{+}a_{-}+1$.
 

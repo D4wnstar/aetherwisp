@@ -1,3 +1,4 @@
+TODO: Aggiungi risultati su commutazione operatori creazione/distruzione/numero
 ## Matematica
 ### Equazione di Schrödinger e funzione d'onda
 Equazione di Schrödinger dipendente dal tempo:
