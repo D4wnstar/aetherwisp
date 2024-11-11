@@ -1,0 +1,15 @@
+A **hypothesis test** is a statistical test to check whether a statement is true or false based on a [[sample]] of values from one or more [[Random variable|random variables]], usually empirically measured or simulated.
+### Method
+There are many different types of hypothesis tests, designed for different purposes, but there is a general chain of thought behind all of them.
+
+Assume you have a sample of $N$ values from a random variable $X$. In order to execute a hypothesis, we need to introduce a **test statistic**, which is a random variable $T=T(x_{1},\ldots,x_{n})$ dependent on the sample. $T$ follows some [[probability distribution]] $\phi_{0}(t)$. However, $T$ holds only under specific circumstances. These circumstances are determined a a set of mathematical constraint that needs to be met for the test to succeed. The "failure case" of the test is *accepting* the **null hypothesis** $H_{0}$, a statistical hypothesis that states that the effect, law or generally the test subject does not hold, which essentially means that there is no proof that what is being studied exists. If the null hypothesis is accepted, no conclusion can be gained from the test[^1]. It is said the the null hypothesis is *rejected* if the value of $T$ calculated on the sample lies in a **critical region** of $\phi_{0}$. This region is determined by introducing a new parameter $\alpha$ called the **significance level** of the test defined as
+$$\alpha=\int_{t_{\alpha}}^{\infty} \phi_{0}(t) \ dt $$
+$\alpha$ is determined by the tester manually depending on how significant the test needs to be (a typical value is $\alpha=0.05\equiv 5\%$). The lower bound $t_{\alpha}$ therefore remains the only unknown and is derived by inverting the relation. The critical region is the region in $\phi_{0}$ where $t\geq t_{\alpha}$, which is the positive tail-end of the distribution. Thus, if $T$ falls in this region when calculating in on the tested set, the test fails.
+
+![[Graph Critical region|center]]
+
+Since the critical region is determined by hand (by picking $\alpha$), it's very possible that an overly large critical region could cause $T$ to end up in it even if the original hypothesis is true. This leads to the risk of false positives, so it's important to pick a value of $\alpha$ that is appropriate for the test. This is why it's called "significance": the lower it is, the more unlikely the outcome needs to be to end up in the critical region, which makes it more meaningful. A value too low however can cause true positives to be missed, so a balance between precision and risk of failure needs to be found.
+
+But what does it mean for the test to be successful? For one, it means that the outcome of the sample is **statistically significant** and a conclusion can be derived with a certain level of significance. However, if $T$ ends up in the critical region, the test is statistically insignificant and an **alternative hypothesis** $H_{1}$ is met.
+
+[^1]: This does not necessarily mean that the test is *wrong*, it just means that it may or may not be wrong.

@@ -1,3 +1,10 @@
+## Postulati
+1. Gli stati puri di un sistema quantistico sono tutti i vettori normalizzati di un dato spazio di Hilbert $\mathcal{H}$, detti vettori di stato. Tutte le combinazioni convesse di vettori di stato, risultanti in matrici di densità, sono ancora vettori di stato.
+2. Le osservabili quantistiche sono i tutti e soli operatori autoaggiunti su $\mathcal{H}$. Ad oggi, è sempre stato possibile associare ad ogni osservabile un apparato sperimentale per misurarla. Allo stesso modo, ad ogni apparato sperimentale è stata associata un'osservabile di cui si misurano gli autostati.
+3. Data un'osservabile $\hat{A}=\hat{A}^{+}:\mathcal{H}\to \mathcal{H}$, una misura di essa ha come unici risultati possibili i suoi autovalori reali $a_{i}$.
+4. Dato un vettore di stato $\ket{\psi}\in \mathcal{H}$, in una misura di $\hat{A}$ sul sistema preparato nello stato $\ket{\psi}$ si ottengono gli autovalori $a_{i}$ di $\hat{A}$ con probabilità $\lvert \braket{ a_{i} | \psi } \rvert^{2}$, dove $\ket{a_{i}}$ è un autoket di $\hat{A}$ relativo all'autovalore $a_{i}$. Questo è verificato sperimentalmente ripetendo molte misure su sistemi preparati identicamente e si trova che $\lvert \braket{ a_{i} | \psi } \rvert^{2}$ è il limite per misure infinite della probabilità di ottenere un autoket.
+5. Dopo aver effettuato una misura di $\hat{A}$ nel sistema nello stato $\ket{\psi}$  e ottenuto l'autovalore $a_{i}$, lo stato del sistema collassa nello stato $|a_{i}\rangle$. Misure ripetute sullo stesso sistema daranno sempre $a_{i}$.
+6. Gli stati puri $\ket{\psi}\in \mathcal{H}$ evolvono nel tempo $|\psi\rangle \rightarrow |\psi_{t}\rangle$ secondo l'operatore Hamiltoniana $\hat{H}=\hat{H}^{+}$ del sistema, attraverso l'equazione di Schrödinger.
 ## Matematica
 ### Equazione di Schrödinger e funzione d'onda
 Equazione di Schrödinger dipendente dal tempo:
@@ -55,7 +62,7 @@ Identità utili
 $$[A+B,C]=[A,C]+[B,C],\qquad[AB,C]=ABC-CAB,\qquad[A,A]=0$$
 $$[A,B]=-[B,A],\qquad[A,B]^{+}=-[A,B]$$
 Commutatori annidati
-$$e^{-\hat{B}}\hat{A}e^{\hat{B}}=\hat{A}+[\hat{A},\hat{B}]+ \frac{1}{2!}[\hat{A},[\hat{A},\hat{B}]]+\ldots$$
+$$e^{-\hat{B}}\hat{A}e^{\hat{B}}=\hat{A}+[\hat{A},\hat{B}]+ \frac{1}{2!}[\hat{A},[\hat{A},\hat{B}+\ldots$$
 Formula di Baker-Campbell-Hausdorff se $[\hat{A},\hat{B}]=c \hat{\mathbf{1}}$
 $$e^{\hat{A}+\hat{B}}=e^{-[\hat{A},\hat{B}]/2}e^{\hat{A}}e^{\hat{B}}$$
 Posizione/momento
@@ -144,7 +151,7 @@ $$\langle Y_{l}^{m}|\psi(r,\theta,\phi)\rangle$$
 ### Stati coerenti
 Autostati $\ket{\alpha}$ dell'operatore di distruzione $\hat{a}\ket{\alpha}=\alpha\ket{\alpha}$
 $$|\alpha_{t}\rangle=\hat{U}_{t}\ket{\alpha} =e^{-|\alpha|^{2}/2}\sum\limits_{n=0}^{\infty} \frac{\alpha^{n}}{\sqrt{n!}}\hat{U}_{t}\ket{n} $$
-Normalizzati, ma non ortogonali fra loro. La norma è
+Normalizzati, ma non ortogonali fra loro. La norma tra due stati è
 $$|\braket{ \alpha_{1} | \alpha_{2} } |^{2}=e^{-|\alpha_{1}-\alpha_{2}|^{2}}$$
 Evoluzione temporale (viene da Schrödinger picture e autostato dell'operatore numero)
 $$\ket{\alpha_{t}} =e^{-i\omega t/2}|e^{-i\omega t}\alpha\rangle$$

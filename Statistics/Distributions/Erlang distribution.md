@@ -22,5 +22,5 @@ The [[expected value]] and [[variance]] are
 $$E[T]=\frac{k}{\mu}=k\tau,\qquad\text{var}(T)=\frac{k}{\mu ^{2}}=k\tau ^{2}$$
 and in the $\mu=1$ case
 $$E[T]=k,\qquad\text{var}(T)=k$$
-### Relation to other distribution
+### Relation to other distributions
 If $k=1$, if simplifies to an [[exponential distribution]]. In fact, an Erlang distribution can be derived as a sum of exponential random variables. It is also a special case of the [[Gamma distribution]] with $\alpha=k$ and $\beta=1$.
