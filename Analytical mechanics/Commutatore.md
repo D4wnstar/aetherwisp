@@ -1,7 +1,7 @@
 ---
 aliases:
   - anticommutatore
-  - formula di Baker-Campbell-Haussdorf
+  - formula di Baker-Campbell-Hausdorff
 ---
 Il **commutatore** è un valore che indica quanto due elementi legati da un'operazione binaria non soddisfano la proprietà commutativa. Nel caso della moltiplicazione, presi due elementi $A$ e $B$, il loro commutatore è
 $$[A,B]=AB-BA$$
@@ -20,7 +20,7 @@ Valgono numerose proprietà del commutatore. Le principali sono:
 
 Nel caso specifico di [[Operatore|operatori]], tutti gli operatori commutano con qualunque costante. Un'operatore commuta anche con qualunque sua funzione, nel senso che l'operatore $A$ e una sua funzione $f(A)=e^{cA}$ commutano: $[A,f(A)]=0$.
 
-Se due operatori non commutano per una costante, ossia $[A,B]=c \hat{\mathbf{1}}$, allora vale la **formula di Baker-Campbell-Haussdorf**:
+Se due operatori non commutano per una costante, ossia $[A,B]=c \hat{\mathbf{1}}$, allora vale la **formula di Baker-Campbell-Hausdorff**:
 $$e^{A+B}=e^{-[A,B]/2}e^{A}e^{B}$$
 quindi compare un termine correttivo $e^{-[A,B]/2}$ nel suddividere una somma di operatori all'esponente.
 

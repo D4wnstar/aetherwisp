@@ -1,4 +1,3 @@
-TODO: Aggiungi risultati su commutazione operatori creazione/distruzione/numero
 ## Matematica
 ### Equazione di Schrödinger e funzione d'onda
 Equazione di Schrödinger dipendente dal tempo:
@@ -55,8 +54,10 @@ La rappresentazione matriciale in questo caso è data dagli "autovalori" $t_{n}$
 Identità utili
 $$[A+B,C]=[A,C]+[B,C],\qquad[AB,C]=ABC-CAB,\qquad[A,A]=0$$
 $$[A,B]=-[B,A],\qquad[A,B]^{+}=-[A,B]$$
-Commutatori annidati con $\hat{B}$ contenente $\hat{A}$
-$$f(\hat{B})^{+}\hat{A}f(\hat{B})=e^{-\hat{B}}\hat{A}e^{\hat{B}}=\hat{A}+[-\hat{B},\hat{A}]$$
+Commutatori annidati
+$$e^{-\hat{B}}\hat{A}e^{\hat{B}}=\hat{A}+[\hat{A},\hat{B}]+ \frac{1}{2!}[\hat{A},[\hat{A},\hat{B}]]+\ldots$$
+Formula di Baker-Campbell-Hausdorff se $[\hat{A},\hat{B}]=c \hat{\mathbf{1}}$
+$$e^{\hat{A}+\hat{B}}=e^{-[\hat{A},\hat{B}]/2}e^{\hat{A}}e^{\hat{B}}$$
 Posizione/momento
 $$[q_{i},p_{j}]=-[p_{i},q_{j}]=i\hbar\delta_{ij}, \quad [q_{i},q_{j}]=[p_{i},p_{j}]=0$$
 La posizione commuta sempre con la posizione; la quantità di moto commuta sempre con la quantità di moto; tra di loro commutano solo in coordinate diverse, altrimenti si ha $i\hbar$. Due coordinate possono identificarsi come posizione e momento se il loro commutatore è $i\hbar$.
@@ -141,14 +142,14 @@ per ogni $(l,m)\neq(0,0)$. Per $(l,m)=(0,0)$ l'integrale vale $2\sqrt{\pi}$. Inf
 La dipendenza angolare di uno stato $\psi$ in un sistema sferico si trova come
 $$\langle Y_{l}^{m}|\psi(r,\theta,\phi)\rangle$$
 ### Stati coerenti
-Autostati $\ket{z}$ dell'operatore di distruzione $\hat{a}\ket{z}=z\ket{z}$
-$$|z_{t}\rangle=\hat{U}_{t}|z\rangle=e^{-|z|^{2}/2}\sum\limits_{k=0}^{\infty} \frac{z^{k}}{\sqrt{k!}}\hat{U}_{t}|k\rangle\quad \text{con} \quad z=e^{-i\omega t}$$
+Autostati $\ket{\alpha}$ dell'operatore di distruzione $\hat{a}\ket{\alpha}=\alpha\ket{\alpha}$
+$$|\alpha_{t}\rangle=\hat{U}_{t}\ket{\alpha} =e^{-|\alpha|^{2}/2}\sum\limits_{n=0}^{\infty} \frac{\alpha^{n}}{\sqrt{n!}}\hat{U}_{t}\ket{n} $$
 Normalizzati, ma non ortogonali fra loro. La norma è
-$$|\langle z_{1}|z_{2}\rangle|^{2}=e^{-|z_{1}-z_{2}|^{2}}$$
+$$|\braket{ \alpha_{1} | \alpha_{2} } |^{2}=e^{-|\alpha_{1}-\alpha_{2}|^{2}}$$
 Evoluzione temporale (viene da Schrödinger picture e autostato dell'operatore numero)
-$$|z_{t}\rangle=e^{-i\omega t/2}|e^{-i\omega t}z\rangle$$
-Probabilità
-$$P(n|z)=|\langle n|z\rangle|^{2}=e^{-|z|^{2}} \frac{|z|^{2n}}{n!}, \quad \left\langle P(n|z) \right\rangle=|z|^{2}$$
+$$\ket{\alpha_{t}} =e^{-i\omega t/2}|e^{-i\omega t}\alpha\rangle$$
+Probabilità determinata da una distribuzione di Poisson con $\nu=\lvert \alpha \rvert^{2}$ e $k=m$. $\hat{n}=\hat{a}^{+}\hat{a}$ operatore numero
+$$\text{Prob}(\hat{n}=m|\alpha)=|\braket{ m | \alpha } |^{2}=e^{-|\alpha|^{2}} \frac{(|\alpha|^{2})^{m}}{m!}$$
 ## Sistemi
 Due stati sono degeneri se sono due autostati linearmente indipendenti dell'Hamiltoniana del sistema che hanno lo stesso autovalore. $\ket{\psi}$ e $\ket{\phi}$ sono degeneri se $\braket{ \psi | \phi }=0$ e $\hat{H}\ket{\psi}=E\ket{\psi}$ e $\hat{H}\ket{\phi}=E\ket{\phi}$.
 ### Buca infinita
@@ -171,14 +172,16 @@ e diventa uno agli autovalori visti sopra.
 ### Oscillatore armonico
 Ammette solo stati legati
 $$\hat{H}=\frac{\hat{p}^{2}}{2m}+ \frac{m\omega ^{2}}{2}\hat{q}^{2}=\hbar\omega\left(\hat{a}^{+}\hat{a}+ \frac{1}{2}\right)$$
-Autostati
-$$\psi_{n}(x)=\frac{1}{\sqrt{n!}}(\hat{a}^{+})^{n}\left(\frac{m\omega}{2\hbar}\right)^{1/4}e^{-(m\omega/2\hbar)x^{2}};\quad E_{n}=\left(n+ \frac{1}{2}\right)\hbar\omega$$
+Autostati in posizione
+$$\psi_{n}(x)=\frac{1}{\sqrt{n!}}(\hat{a}^{+})^{n}\underbrace{ \left(\frac{m\omega}{2\hbar}\right)^{1/4}e^{-(m\omega/2\hbar)x^{2}} }_{ \psi_{0}(x) };\quad E_{n}=\left(n+ \frac{1}{2}\right)\hbar\omega$$
 con operatori di creazione e distruzione
 $$\hat{a}=\sqrt{ \frac{m\omega}{2\hbar} }\hat{q}+i \frac{1}{\sqrt{ 2m\omega \hbar }}\hat{p},\qquad \hat{a}^{+}=\sqrt{ \frac{m\omega}{2\hbar} }\hat{q}-i \frac{1}{\sqrt{ 2m\omega \hbar }}\hat{p}$$
-$$\hat{a}^{+}\ket{\psi_{n}} =\sqrt{n+1}\ket{\psi_{n+1}} ,\quad \hat{a}\ket{\psi_{n}} =\sqrt{n}\ket{\psi_{n-1}} $$
-Operatore numero $\hat{a}^{+}\hat{a}$
+$$\hat{a}^{+}\ket{n} =\sqrt{n+1}\ket{n+1} ,\quad \hat{a}\ket{n} =\sqrt{n}\ket{n-1} $$
+$$[\hat{a},\hat{a}^{+}]=1,\qquad[\hat{a},(\hat{a}^{+})^{n}]=n(\hat{a}^{+})^{n-1},\qquad[\hat{a}^{+},\hat{a}^{n}]=-n \hat{a}^{n-1}$$
+Operatore numero $\hat{n}=\hat{a}^{+}\hat{a}$
 $$\hat{a}^{+}\hat{a}=\frac{\hat{p}^{2}}{2m\omega \hbar}+ \frac{m\omega}{2\hbar}\hat{q}^{2}- \frac{1}{2}$$
-$$\hat{a}^{+}\hat{a}\ket{\psi_{n}} =n\ket{\psi_{n}} ,\quad \hat{a}\hat{a}^{+}\ket{\psi_{n}} =(n+1)\ket{\psi_{n}} $$
+$$\hat{a}^{+}\hat{a}\ket{n} =n\ket{n} ,\quad \hat{a}\hat{a}^{+}\ket{n} =(n+1)\ket{n} $$
+$$[\hat{a}^{+}\hat{a},\hat{a}]=-\hat{a},\qquad[\hat{a}^{+}\hat{a},\hat{a}^{+}]=\hat{a}^{+}$$
 Autostati dell'operatore numero
 $$|n\rangle= \frac{(\hat{a}^{+})^{n}}{\sqrt{n!}}|0\rangle$$
 Posizione e momento in termini di operatori di creazione e distruzione
