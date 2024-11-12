@@ -18,6 +18,7 @@ In coordinate sferiche
 $$- \frac{\hbar^{2}}{2m}\left[\frac{1}{r^{2}}\frac{\partial }{\partial r}\left(r^{2}\frac{\partial \psi}{\partial r}\right)+ \frac{1}{r^{2}\sin\theta}\frac{\partial }{\partial \theta}\left(\sin\theta \frac{\partial \psi}{\partial \theta}\right)+ \frac{1}{r^{2}\sin^{2}\theta}\left(\frac{\partial ^{2}\psi}{\partial \phi^{2}}\right)\right] + V\psi=E\psi$$
 La probabilità di misurare un certo autostato $|\phi\rangle$ al tempo $t$ è
 $$P_{\psi_{t}}(\phi)=|\langle \phi|\psi_{t}\rangle|^{2}$$
+Stati legati sono normalizzabili, stati liberi no. Un potenziale ammette stati legati se l'energia $E$ del sistema in quello stato è minore del potenziale a infinito, ossia $E<V(\pm\infty)$. In genere il potenziale va a zero a infinito e in tal caso, $E<0$.
 ### Equazioni di Heisenberg
 Generale
 $$\frac{d}{dt}\hat{A}(t)=\frac{i}{\hbar}[\hat{H},\hat{A}(t)]$$
@@ -32,7 +33,7 @@ $$\Delta \hat{A}\Delta \hat{B}\geq -\frac{1}{4} \left(\bra{\psi} [\hat{A},\hat{B
 In tempo ed energia
 $$\Delta E \Delta t\geq \frac{\hbar}{2}$$
 ### Operatori
-In una dimensione
+In una dimensione e rappresentazione della posizione
 $$\hat{q}=q, \quad \hat{p}= -i\hbar \partial_{x} , \quad\hat{H}=- \frac{\hbar^{2}}{2m} \partial_{x} ^{2}+V(q)$$
 In tre dimensioni
 $$\hat{\mathbf{q}}=\mathbf{q}, \quad \hat{\mathbf{p}}=\frac{\hbar}{i}\nabla, \quad \hat{H}=- \frac{\hbar^{2}}{2m}\nabla^{2}+V(\vec{r})$$
@@ -62,16 +63,19 @@ Identità utili
 $$[A+B,C]=[A,C]+[B,C],\qquad[AB,C]=ABC-CAB,\qquad[A,A]=0$$
 $$[A,B]=-[B,A],\qquad[A,B]^{+}=-[A,B]$$
 Commutatori annidati
-$$e^{-\hat{B}}\hat{A}e^{\hat{B}}=\hat{A}+[\hat{A},\hat{B}]+ \frac{1}{2!}[\hat{A},[\hat{A},\hat{B}+\ldots$$
+$$e^{-\hat{B}}\hat{A}e^{\hat{B}}=\hat{A}+[\hat{A},\hat{B}]+ \frac{1}{2!}[\hat{A},[\hat{A},\hat{B}]]+\ldots$$
 Formula di Baker-Campbell-Hausdorff se $[\hat{A},\hat{B}]=c \hat{\mathbf{1}}$
 $$e^{\hat{A}+\hat{B}}=e^{-[\hat{A},\hat{B}]/2}e^{\hat{A}}e^{\hat{B}}$$
 Posizione/momento
 $$[q_{i},p_{j}]=-[p_{i},q_{j}]=i\hbar\delta_{ij}, \quad [q_{i},q_{j}]=[p_{i},p_{j}]=0$$
 La posizione commuta sempre con la posizione; la quantità di moto commuta sempre con la quantità di moto; tra di loro commutano solo in coordinate diverse, altrimenti si ha $i\hbar$. Due coordinate possono identificarsi come posizione e momento se il loro commutatore è $i\hbar$.
-$$[\hat{q},\hat{p}]=i\hbar; \quad [\hat{H},\hat{q}]=- \frac{i\hbar}{m}\hat{p}; \quad [\hat{H},\hat{p}]=0$$
-Se $[\hat{H},\hat{Q}]=0$, allora $\hat{Q}$ è una costante del moto.
+$$[\hat{q},\hat{p}]=i\hbar;\quad[\hat{q}^{n},\hat{p}]=ni\hbar \hat{q}^{n-1};\quad[\hat{q},\hat{p}^{n}]=ni\hbar \hat{p}^{n-1}; \quad [\hat{H},\hat{q}]=- \frac{i\hbar}{m}\hat{p}; \quad [\hat{H},\hat{p}]=0$$
+Se $[\hat{H},\hat{Q}]=0$, allora $\hat{Q}$ è una costante del moto. Un operatore commuta con le sue funzioni e le derivate delle sue funzioni. Ad esempio, $[\hat{q},F(\hat{q})]=0$ e $[\hat{q},\partial_{\hat{q}}F(\hat{q})]=0$.
 
 Operatori relativi a gradi di libertà differenti commutano sempre. Per esempio, $[\vec{J},\vec{S}]$ o $[\vec{J},\vec{L}]$.
+### Teorema di Noether
+Ad ogni simmetria è associata una legge di conservazione. Usando l'equazione di Heisenberg, per l'Hamiltoniana $\hat{H}$ e un operatore $\hat{T}_{\alpha}$ dipendente da un parametro $\alpha$ e da un operatore $\hat{F}$, a sua volta dipendente da $\hat{q}$ e/o $\hat{p}$ (quindi operante nello spazio delle fasi), vale simmetria se $\hat{T}^{+}_{\alpha}\hat{H}\hat{T}_{\alpha}=\hat{H}(\alpha)=\hat{H}$, ossia
+$$\frac{d \hat{H}(\alpha)}{d\alpha}=\frac{i}{\hbar}[\hat{F},\hat{H}(\alpha)]=\frac{i}{\hbar}\hat{T}^{+}_{\alpha}[\hat{F},\hat{H}]\hat{T}_{\alpha}=0$$
 ### Proiettori
 Autoaggiunti, traccia unitaria, autovalori 0 e 1.
 $$\hat{P}_\psi=|\psi\rangle\langle\psi| \quad ; \quad \hat{P}_{\psi}|\phi\rangle=\langle\psi|\phi\rangle|\psi\rangle$$

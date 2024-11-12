@@ -3,8 +3,8 @@ aliases:
   - stato legato
   - stato libero
 ---
-In meccanica classica, preso un sistema composto da una [[Particella]] ad energia totale $E$ immersa in un [[potenziale]] unidimensionale indipendente dal tempo $V(x)$, si distinguono due tipi di stati (assumendo la conservazione dell'energia nel sistema, quindi niente motori o attrito):
-1. Gli **stati legati** sono quegli [[Stato|stati]] nei quali la particella è "bloccata" tra due barriere di potenziali insormontabili ed è quindi destinata a "rimbalzare" tra le barriere senza poter mai uscire. Questo accade quando il potenziale cresce al di sopra dell'energia totale della particella, ossia $V(x)>E$ per qualche $x$.
+In meccanica classica, preso un [[physical system|sistema]] composto da una [[particella]] ad [[energy|energia]] totale $E$ immersa in un [[potenziale]] unidimensionale indipendente dal tempo $V(x)$, si distinguono due tipi di [[stato|stati]] (assumendo la conservazione dell'energia nel sistema, quindi niente motori o attrito):
+1. Gli **stati legati** sono quegli stati nei quali la particella è "bloccata" tra due barriere di potenziale insormontabili ed è quindi destinata a "rimbalzare" tra le barriere senza poter mai uscire. Questo accade quando il potenziale cresce al di sopra dell'energia totale della particella, ossia $V(x)>E$ per qualche $x$.
 2. Gli **stati liberi** sono quegli stati nei quali la particella si muove da un infinito ad un altro, o rimbalza su una barriera e torna all'infinito di partenza. Questo accade quando il potenziale non sale sopra l'energia della particella o lo fa solo una volta, a modo che non crei una "trappola".
 
 ![[Schema Stati legati e liberi|80%|center]]
@@ -21,4 +21,4 @@ $$\begin{cases}
 E < 0 & \Rightarrow & \text{stato legato} \\
 E > 0 & \Rightarrow & \text{stato libero}
 \end{cases}$$
-I casi comuni ricadono in queste regole: la buca infinita e l'[[oscillatore armonico quantistico]] hanno potenziale che tendono a infinito all'infinito, quindi ammettono solo stati legati. La particella libera ha un potenziale che tende a zero, quindi ammette solo stati liberi.
+I casi comuni ricadono in queste regole: la buca infinita e l'[[oscillatore armonico quantistico]] hanno potenziale che tendono a infinito all'infinito, quindi ammettono solo stati legati. La particella libera ha un potenziale che sempre zero e energia cinetica sempre maggiore di zero, quindi ammette solo stati liberi.
