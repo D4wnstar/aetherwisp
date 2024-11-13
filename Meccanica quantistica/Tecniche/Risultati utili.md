@@ -19,11 +19,11 @@ $$- \frac{\hbar^{2}}{2m}\left[\frac{1}{r^{2}}\frac{\partial }{\partial r}\left(r
 La probabilità di misurare un certo autostato $|\phi\rangle$ al tempo $t$ è
 $$P_{\psi_{t}}(\phi)=|\langle \phi|\psi_{t}\rangle|^{2}$$
 Stati legati sono normalizzabili, stati liberi no. Un potenziale ammette stati legati se l'energia $E$ del sistema in quello stato è minore del potenziale a infinito, ossia $E<V(\pm\infty)$. In genere il potenziale va a zero a infinito e in tal caso, $E<0$.
-### Equazioni di Heisenberg
-Generale
-$$\frac{d}{dt}\hat{A}(t)=\frac{i}{\hbar}[\hat{H},\hat{A}(t)]$$
-Per posizione e momento
-$$\frac{d\hat{q}_{t}}{dt}=\frac{i}{\hbar}[\hat{H},\hat{q}_{t}]\quad;\quad\frac{d \hat{p}_{t}}{dt}=\frac{i}{\hbar}[\hat{H},\hat{p}_{t}]$$
+### Equazione di Heisenberg
+Con evolutore $\hat{U}_{t}$
+$$\frac{d}{dt}\hat{A}_{t}=\frac{i}{\hbar}[\hat{H},\hat{A}_{t}]=\frac{i}{\hbar}\hat{U}_{t}^{+}[\hat{H},\hat{A}]\hat{U}_{t}$$
+Per un operatore unitario $\hat{T}_{\alpha}$ dipendente da un parametro $\alpha$ e un operatore $\hat{F}$ (i.e. $\hat{T}_{\alpha}=e^{\hat{F}\alpha}$) si ha
+$$\frac{d}{d\alpha}\hat{A}_{\alpha}=\frac{i}{\hbar}[\hat{F},\hat{A}_{\alpha}]=\frac{i}{\hbar}\hat{T}_{\alpha}[\hat{F},\hat{A}]\hat{T}_{\alpha}$$
 ### Disuguaglianza di Heisenberg
 In posizione e momento e in tempo ed energia
 $$\Delta \hat{q}\Delta \hat{p}\geq \frac{\hbar}{2},\qquad\Delta E \Delta t\geq \frac{\hbar}{2}$$
@@ -45,7 +45,9 @@ Generatore di traslazioni di momento $\hat{U}_{p_{0}}=e^{-ip_{0}\hat{q}/\hbar}$ 
 $$\hat{U}_{p_{0}}^{+}\hat{p}\hat{U}_{p_{0}}=e^{ip_{0}\hat{q}/\hbar}\hat{p}e^{-ip_{0}\hat{q}/\hbar}=\hat{p}+ \frac{i}{\hbar}p_{0}[\hat{q},\hat{p}]=\hat{p}-p_{0}$$
 Operatore di traslazione $\hat{D}(\alpha)=e^{\alpha \hat{a}^{+}-\alpha^{*}\hat{a}}$ è unitario
 $$\hat{D}^{+}(\alpha)=e^{-\alpha \hat{a}^{+}+\alpha^{*}\hat{a}}=\hat{D}(-\alpha)=\hat{D}^{-1}(\alpha)$$
-Per le trasformazioni $X_{U}=U^{+}XU$ con $U$ unitario (tipo $\hat{D}_{\alpha}$ o $\hat{U}_{t}$) vale il teorema di Noether. Se $|\psi_{E}\rangle$ è un autostato di $H$ con autovalore $E$
+Valgono $\hat{D}^{+}(\alpha)\hat{a}\hat{D}(\alpha)=\hat{a}+\alpha$ e $\hat{D}^{+}(\alpha)\hat{a}^{+}\hat{D}(\alpha)=\hat{a}^{+}+\alpha^{*}$.
+
+Per le trasformazioni $X_{U}=U^{+}XU$ con $U$ unitario (tipo $\hat{D}_{\alpha}$ o $\hat{U}_{t}$) vale il teorema di Noether. Se $|\psi_{E}\rangle$ è un autostato di $\hat{H}$ con autovalore $E$
 $$|\psi_{E,t}\rangle=\hat{U}_{t}|\psi_{E}\rangle=e^{-iEt/\hbar}|\psi_{E}\rangle$$
 Decomposizione spettrale di un qualunque operatore $T$ in una base ortonormale $\{\psi_{n}\}$
 $$T=\sum\limits_{n}t_{n}|\psi_{n}\rangle \langle \psi_{n}|=\sum\limits_{n}t_{n}\hat{P}_{\psi_{n}}$$
@@ -72,9 +74,9 @@ Se $[\hat{H},\hat{Q}]=0$, allora $\hat{Q}$ è una costante del moto. Un operator
 
 Operatori relativi a gradi di libertà differenti commutano sempre. Per esempio, $[\vec{J},\vec{S}]$ o $[\vec{J},\vec{L}]$.
 ### Teorema di Noether
-Ad ogni simmetria è associata una legge di conservazione. Usando l'equazione di Heisenberg, per l'Hamiltoniana $\hat{H}$ e un operatore $\hat{T}_{\alpha}$ dipendente da un parametro $\alpha$ e da un operatore $\hat{F}$, a sua volta dipendente da $\hat{q}$ e/o $\hat{p}$ (quindi operante nello spazio delle fasi), vale simmetria se $\hat{T}^{+}_{\alpha}\hat{H}\hat{T}_{\alpha}=\hat{H}(\alpha)=\hat{H}$, ossia
-$$\frac{d \hat{H}(\alpha)}{d\alpha}=\frac{i}{\hbar}[\hat{F},\hat{H}(\alpha)]=\frac{i}{\hbar}\hat{T}^{+}_{\alpha}[\hat{F},\hat{H}]\hat{T}_{\alpha}=0$$
-Per le trasformazioni $X_{U}=U^{+}XU$ con $U$ unitario (tipo $\hat{D}_{\alpha}$ o $\hat{U}_{t}$) vale il teorema di Noether.
+Ad ogni simmetria è associata una legge di conservazione. Trova la derivata di un operatore evoluto/traslato per un parametro. Consideriamo un operatore $\hat{A}$ traslato da un operatore $\hat{T}_{\alpha}$ rispetto ad un parametro $\alpha$ come $\hat{A}_{\alpha}=\hat{T}_{\alpha}^{+}\hat{A}\hat{T}_{\alpha}$. $\hat{T}_{\alpha}$ dipende da un operatore $\hat{F}$ di $\hat{q}$ e/o $\hat{p}$ (quindi operante nello spazio delle fasi). La simmetria vale se $\hat{A}_{\alpha}=\hat{A}$, ossia
+$$\frac{d \hat{A}_{\alpha}}{d\alpha}=\frac{i}{\hbar}[\hat{F},\hat{A}_{\alpha}]=\frac{i}{\hbar}\hat{T}^{+}_{\alpha}[\hat{F},\hat{A}]\hat{T}_{\alpha}=0$$
+In altre parole, l'operatore è costante rispetto al parametro $\alpha$. Per le trasformazioni $X_{U}=U^{+}XU$ con $U$ unitario (tipo $\hat{D}_{\alpha}$ o $\hat{U}_{t}$) vale il teorema di Noether.
 ### Proiettori
 Autoaggiunti, traccia unitaria, autovalori 0 e 1.
 $$\hat{P}_\psi=|\psi\rangle\langle\psi| \quad ; \quad \hat{P}_{\psi}|\phi\rangle=\langle\psi|\phi\rangle|\psi\rangle$$
@@ -102,6 +104,7 @@ $$\sigma_{x}|\uparrow\,\rangle=|\downarrow\;\rangle, \quad \sigma_{x}|\downarrow
 ### Matrice di Hadamard
 $$U= \frac{1}{\sqrt{2}}\begin{pmatrix}1 & 1 \\ 1 & -1\end{pmatrix}=(|\uparrow x\;\rangle |\downarrow x\;\rangle)$$
 ### Matrice di densità
+In 2D
 $$\hat{\rho}=\begin{pmatrix}\rho & \sigma \\ \sigma^{*} & 1-\rho\end{pmatrix}$$
 dove $\rho\in[0,1]$ e $\sigma\in\mathbb{C}$. Ha traccia unitaria, è autoaggiunta.
 ### Prodotto tensoriale
@@ -133,9 +136,9 @@ Posizione e momento di uno stato $\ket{\psi_{t}}$
 $$\psi_{t}(x)=\langle x|\psi_t\rangle,\qquad \psi_{t}(p)=\braket{ p | \psi_{t} } $$
 ### Rappresentazioni di evoluzione
 Di Schrödinger (con equazione di Schrödinger)
-$$|\psi_{t,S}\rangle=U_{t}|\psi\rangle$$
+$$|\psi_{t}\rangle=\hat{U}_{t}|\psi\rangle$$
 Di Heisenberg (con equazione di Heisenberg)
-$$\hat{A}_{t,H}=U_{t}^{+}\hat{A}U_{t}$$
+$$\hat{A}_{t}=\hat{U}_{t}^{+}\hat{A}\hat{U}_{t}$$
 Di interazione
 $$H_{I}=H_{0}+H_{1}; \quad i\hbar \partial_{t} |\psi_{I}(t)\rangle=H_{I}(t)|\psi_{I}(t)\rangle$$
 dove
@@ -188,10 +191,12 @@ con operatori di creazione e distruzione
 $$\hat{a}=\sqrt{ \frac{m\omega}{2\hbar} }\hat{q}+i \frac{1}{\sqrt{ 2m\omega \hbar }}\hat{p},\qquad \hat{a}^{+}=\sqrt{ \frac{m\omega}{2\hbar} }\hat{q}-i \frac{1}{\sqrt{ 2m\omega \hbar }}\hat{p}$$
 $$\hat{a}^{+}\ket{n} =\sqrt{n+1}\ket{n+1} ,\quad \hat{a}\ket{n} =\sqrt{n}\ket{n-1} $$
 $$[\hat{a},\hat{a}^{+}]=1,\qquad[\hat{a},(\hat{a}^{+})^{n}]=n(\hat{a}^{+})^{n-1},\qquad[\hat{a}^{+},\hat{a}^{n}]=-n \hat{a}^{n-1}$$
+$$\hat{a}_{t}=\hat{U}_{t}^{+}\hat{a}\hat{U}_{t}=e^{-i\omega t}\hat{a},\qquad \hat{a}^{+}_{t}=\hat{U}_{t}^{+}\hat{a}^{+}\hat{U}_{t}=e^{i\omega t}\hat{a}^{+}$$
 Operatore numero $\hat{n}=\hat{a}^{+}\hat{a}$
 $$\hat{a}^{+}\hat{a}=\frac{\hat{p}^{2}}{2m\omega \hbar}+ \frac{m\omega}{2\hbar}\hat{q}^{2}- \frac{1}{2}$$
 $$\hat{a}^{+}\hat{a}\ket{n} =n\ket{n} ,\quad \hat{a}\hat{a}^{+}\ket{n} =(n+1)\ket{n} $$
 $$[\hat{a}^{+}\hat{a},\hat{a}]=-\hat{a},\qquad[\hat{a}^{+}\hat{a},\hat{a}^{+}]=\hat{a}^{+}$$
+$$(\hat{a}^{+}\hat{a})_{t}=\hat{U}_{t}^{+}\hat{a}^{+}\hat{a}\hat{U}_{t}=\hat{a}^{+}\hat{a}$$
 Autostati dell'operatore numero
 $$|n\rangle= \frac{(\hat{a}^{+})^{n}}{\sqrt{n!}}|0\rangle$$
 Posizione e momento in termini di operatori di creazione e distruzione
@@ -211,8 +216,8 @@ $$\psi_{E}(x)=A_{L}\left( e^{ikx}- i \frac{m\gamma}{\hbar ^{2}k-im\gamma}e^{-ikx
 con $A_{L}$ qualche valore non costante perché non normalizzabile. Stato legato buca ad energia $E<0$
 $$\psi_{\lvert E \rvert }(x)\sqrt{ \frac{m\gamma}{\hbar ^{2}} }e^{-(i/\hbar)\sqrt{ 2m\lvert E \rvert  }\,\lvert x \rvert },\qquad\lvert E \rvert =\frac{m\gamma ^{2}}{2\hbar ^{2}}$$
 ## Teoria delle perturbazioni
-Non degenere, primo e secondo ordine, autovalori $E$ e autostati $\ket{\psi}$, perturbazione $H'$
-$$E_{n}^{1}=\langle \psi_{n}^{0}|H'|\psi_{n}^{0}\rangle, \quad  E_{n}^{2}=\sum\limits_{m\neq n} \frac{|\langle \psi_{m}^{0}|H'|\psi_{n}^{0}\rangle|^{2}}{E_{n}^{0}-E_{m}^{0}}, \quad \ket{\psi_{n}^{1}} =\sum\limits_{m\neq n} \frac{\langle \psi_{m}^{0}|H'|\psi_{n}^{0}\rangle}{E_{n}^{0}-E_{m}^{0}}\ket{\psi_{m}^{0}} $$
+Non degenere, primo e secondo ordine, autovalori $E$ e autostati $\ket{\psi}$, perturbazione $\hat{V}$
+$$E_{n}^{1}=\langle \psi_{n}^{0}|\hat{V}|\psi_{n}^{0}\rangle, \quad  E_{n}^{2}=\sum\limits_{m\neq n} \frac{|\langle \psi_{m}^{0}|\hat{V}|\psi_{n}^{0}\rangle|^{2}}{E_{n}^{0}-E_{m}^{0}}, \quad \ket{\psi_{n}^{1}} =\sum\limits_{m\neq n} \frac{\langle \psi_{m}^{0}|\hat{V}|\psi_{n}^{0}\rangle}{E_{n}^{0}-E_{m}^{0}}\ket{\psi_{m}^{0}} $$
 Degenere, primo ordine, autovalori $2$-volte degeneri
 $$\mathbf{W}\begin{pmatrix}
 \alpha \\

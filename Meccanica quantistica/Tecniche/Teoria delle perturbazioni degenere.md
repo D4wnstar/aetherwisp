@@ -9,7 +9,7 @@ $$\hat{H}\psi_{n}=E_{n}\psi_{n}\tag{1}$$
 ### Formulazione
 #### Due volte degenere
 Supponiamo che
-$$H^{0}\psi_{a}^{0}=E^{0}\psi_{0}, \quad H^{0}\psi_{b}^{0}=E^{0}\psi_{b}^{0}, \quad \langle \psi_{a}^{0}|\psi_{b}^{0} \rangle=0$$
+$$H^{0}\psi_{a}^{0}=E^{0}\psi_{a}^{0}, \quad H^{0}\psi_{b}^{0}=E^{0}\psi_{b}^{0}, \quad \langle \psi_{a}^{0}|\psi_{b}^{0} \rangle=0$$
 dove $\psi_{a}^{0}$ e $\psi_{b}^{0}$ sono [[Normalizzazione|normalizzati]] e fra loro degeneri. Dato che autostati degeneri formano una [[base]] del loro autospazio, una loro combinazione lineare è sempre un autostato
 $$\psi^{0}=\alpha \psi_{a}^{0}+\beta \psi_{b}^{0}\tag{2}$$
 con lo stesso autovalore, a modo che valga

@@ -2,7 +2,7 @@ L'**equazione di Heisenberg** è un'[[equazione differenziale ordinaria]] che de
 $$\frac{d}{dt}\hat{A}_{t}=\frac{i}{\hbar}[\hat{H},\hat{A}_{t}]+\frac{\partial }{\partial t}\hat{A}$$
 dove $[\cdot,\cdot]$ è il [[commutatore]]. L'operatore $\hat{A}_{t}$ è l'evoluzione temporale di quello a tempo zero:
 $$\hat{A}_{t}=\hat{U}_{t}^{+}\hat{A}\hat{U}_{t}$$
-dove $\hat{U}_{t}$ è l'[[evolutore]]. Attenzione al fatto che la derivata parziale nel tempo è su $\hat{A}$, non $\hat{A}_{t}$. Infatti, l'operatore iniziale $\hat{A}$ può dipendere dal tempo anche prima di essere evoluto ($\hat{U}_{t}$ aggiungerebbe una seconda dipendenza da $t$), ma tipicamente non lo è.
+dove $\hat{U}_{t}$ è l'[[evolutore]]. Attenzione al fatto che la derivata parziale nel tempo è su $\hat{A}$, non $\hat{A}_{t}$. Infatti, l'operatore iniziale $\hat{A}$ potrebbe dipendere dal tempo ancor prima di essere evoluto ($\hat{U}_{t}$ aggiungerebbe in qual caso una seconda dipendenza da $t$), ma tipicamente non lo è.
 
 Nel caso comune di operatori che non dipendono intrinsecamente dal tempo, l'equazione si riduce al caso molto più pratico
 $$\boxed{\frac{d}{dt}\hat{A}(t)=\frac{i}{\hbar}[\hat{H},\hat{A}(t)]=\frac{i}{\hbar}\hat{U}_{t}^{+}[\hat{H},\hat{A}]\hat{U}_{t}}$$
