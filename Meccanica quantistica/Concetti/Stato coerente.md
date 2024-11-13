@@ -47,7 +47,16 @@ $$\lvert c_{0} \rvert =e^{-\lvert \alpha \rvert ^{2}/2}$$
 Mettendo tutto insieme, abbiamo definitivamente l'espressione per gli stati coerenti di un [[oscillatore armonico quantistico]]:
 $$\boxed{\ket{\alpha} =e^{-\lvert \alpha \rvert ^{2}/2}\sum_{n=0}^{\infty} \frac{\alpha^{n}}{\sqrt{ n! }}\ket{n}}$$
 ### Evoluzione temporale
-È interessante studiare in ulteriore dettaglio come gli stati coerenti evolvono nel tempo. Nella [[Rappresentazioni della meccanica quantistica|rappresentazione di Schrödinger]], lo stato coerente $\ket{\alpha}$ evolve nel tempo con l'[[evolutore]] come
+È interessante studiare come gli stati coerenti evolvono nel tempo. Nella [[Rappresentazioni della meccanica quantistica|rappresentazione di Schrödinger]], lo stato coerente $\ket{\alpha}$ evolve nel tempo con l'[[evolutore]] come $\ket{\alpha}\to \hat{U}_{t}\ket{\alpha}$. Allora
+$$\hat{U}_{t}\ket{\alpha} =e^{-\lvert \alpha \rvert ^{2}/2}\sum_{k=0}^{\infty} \frac{\alpha^{k}}{\sqrt{ k! }}\hat{U}_{t}\ket{k}=\ldots $$
+L'evoluzione temporale di uno [[Stato stazionario|autostato di energia]] è $\hat{U}_{t}\ket{k}=e^{-iE_{k}t/k}\ket{k}$ e sappiamo che $E_{k}$ è quella dell'oscillatore armonico quantistico, ossia $E_{k}=\hbar \omega(k+1/2)$. Allora
+$$\ldots=e^{-\lvert \alpha \rvert ^{2}/2}\sum_{k=0}^{\infty} \frac{\alpha^{k}}{\sqrt{ k! }}e^{-i\omega t(k+1/2)}\ket{k}=e^{-\lvert \alpha \rvert ^{2}/2t}\sum_{k=0}^{\infty} \frac{(\alpha e^{-i\omega t})^{k}}{\sqrt{ k! }}\ket{k}=$$
+
+
+
+
+---
+
 $$|z_{t}\rangle=\hat{U}_{t}\ket{\alpha}=e^{-|z|^{2}/2}\sum\limits_{k=0}^{\infty} \frac{z^{k}}{\sqrt{k!}}\hat{U}_{t}|k\rangle$$
 Dato che
 $$|k\rangle= \frac{(\hat{a}^{+})^{k}}{\sqrt{k!}}|0\rangle$$

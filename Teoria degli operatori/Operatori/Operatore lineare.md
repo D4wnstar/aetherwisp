@@ -22,6 +22,7 @@ Si esclude il caso $x=0$, dove $T(0)=0$. La quantità $K$ si dice *norma* dell'o
 $$||Tx||\leq||T||\;||x||$$
 Un caso importante sono gli "operatori di moltiplicazione" $Tf(x)=h(x)f(x)$ con $f(x)$ funzione [[Spazi Lp#Spazio $L {2}$|a quadrato sommabile]] $L^{2}(I)$ e $h=h(x)$ è una funzione assegnata. In questi casi, vale $||T||=\sup\limits_{x\in I} |h(x)|$, infatti
 $$||Tf||^{2}=\int_{I}|h(x)f(x)|^{2}dx\leq\sup\limits_{x\in I}|h(x)|^{2}||f||^{2}$$
+L'insieme di tutti gli operatori limitati in uno spazio di Hilbert $\mathcal{H}$ forma un'[[algebra]], spesso denotata $\mathcal{B}(\mathcal{H})$. L'algebra degli operatori limitati è l'estensione del concetto di spazio di funzioni continue. (TODO: Un algebra è uno spazio i cui elementi soddisfano le seguenti proprietà: la somma rimane nell'algebra, il prodotto per uno scalare rimane nell'algebra il prodotto rimane nell'algebra.)
 ### Equivalenza
 Si dimostra che continuità e limitatezza sono proprietà equivalenti, ossia un operatore lineare continuo è anche limitato e viceversa.
 ### Forma matriciale

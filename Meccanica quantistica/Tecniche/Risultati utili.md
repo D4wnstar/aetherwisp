@@ -25,13 +25,11 @@ $$\frac{d}{dt}\hat{A}(t)=\frac{i}{\hbar}[\hat{H},\hat{A}(t)]$$
 Per posizione e momento
 $$\frac{d\hat{q}_{t}}{dt}=\frac{i}{\hbar}[\hat{H},\hat{q}_{t}]\quad;\quad\frac{d \hat{p}_{t}}{dt}=\frac{i}{\hbar}[\hat{H},\hat{p}_{t}]$$
 ### Disuguaglianza di Heisenberg
-In posizione e momento
-$$\Delta \hat{q}\Delta \hat{p}\geq \frac{\hbar}{2}$$
+In posizione e momento e in tempo ed energia
+$$\Delta \hat{q}\Delta \hat{p}\geq \frac{\hbar}{2},\qquad\Delta E \Delta t\geq \frac{\hbar}{2}$$
 In più dimensioni vale solo nella stessa componente. Componenti diversi commutano.
 Caso generale tra due operatori autoaggiunti $\hat{A}$ e $\hat{B}$:
 $$\Delta \hat{A}\Delta \hat{B}\geq -\frac{1}{4} \left(\bra{\psi} [\hat{A},\hat{B}]\ket{\psi} \right)^{2}$$
-In tempo ed energia
-$$\Delta E \Delta t\geq \frac{\hbar}{2}$$
 ### Operatori
 In una dimensione e rappresentazione della posizione
 $$\hat{q}=q, \quad \hat{p}= -i\hbar \partial_{x} , \quad\hat{H}=- \frac{\hbar^{2}}{2m} \partial_{x} ^{2}+V(q)$$
@@ -41,13 +39,13 @@ Evolutore
 $$\hat{U}_{t}=\exp\left(- i \frac{\hat{H}}{\hbar} t\right)=\sum\limits_{i=1}^{\infty}e^{- \frac{i}{\hbar}E_{i}t}|E_{i}\rangle\langle E_{i}|$$
 da cui
 $$|\psi_{t}\rangle=\hat{U}_{t}|\psi\rangle \text{ (Schrödinger picture)},\qquad\hat{Q}_{t}=\hat{U}_{t}^{+}\hat{Q}\hat{U}_{t} \text{ (Heisenberg picture)}$$
-Propagatore
-$$\bra{x} \hat{U}_{t}\ket{y} $$
-Generatore di traslazioni di momento
-$$\hat{U}_{p_{0}}=e^{-ip_{0}\hat{q}/\hbar}$$
-tale che
+Propagatore $\bra{x} \hat{U}_{t}\ket{y}$ tale che con $\psi(y)$ stato iniziale
+$$\psi(x)=\int_{-\infty}^{\infty} \braket{ x | \hat{U}_{t} | y } \psi(y) \ dy $$
+Generatore di traslazioni di momento $\hat{U}_{p_{0}}=e^{-ip_{0}\hat{q}/\hbar}$ tale che
 $$\hat{U}_{p_{0}}^{+}\hat{p}\hat{U}_{p_{0}}=e^{ip_{0}\hat{q}/\hbar}\hat{p}e^{-ip_{0}\hat{q}/\hbar}=\hat{p}+ \frac{i}{\hbar}p_{0}[\hat{q},\hat{p}]=\hat{p}-p_{0}$$
-Se $|\psi_{E}\rangle$ è un autostato di $H$ con autovalore $E$
+Operatore di traslazione $\hat{D}(\alpha)=e^{\alpha \hat{a}^{+}-\alpha^{*}\hat{a}}$ è unitario
+$$\hat{D}^{+}(\alpha)=e^{-\alpha \hat{a}^{+}+\alpha^{*}\hat{a}}=\hat{D}(-\alpha)=\hat{D}^{-1}(\alpha)$$
+Per le trasformazioni $X_{U}=U^{+}XU$ con $U$ unitario (tipo $\hat{D}_{\alpha}$ o $\hat{U}_{t}$) vale il teorema di Noether. Se $|\psi_{E}\rangle$ è un autostato di $H$ con autovalore $E$
 $$|\psi_{E,t}\rangle=\hat{U}_{t}|\psi_{E}\rangle=e^{-iEt/\hbar}|\psi_{E}\rangle$$
 Decomposizione spettrale di un qualunque operatore $T$ in una base ortonormale $\{\psi_{n}\}$
 $$T=\sum\limits_{n}t_{n}|\psi_{n}\rangle \langle \psi_{n}|=\sum\limits_{n}t_{n}\hat{P}_{\psi_{n}}$$
@@ -76,6 +74,7 @@ Operatori relativi a gradi di libertà differenti commutano sempre. Per esempio,
 ### Teorema di Noether
 Ad ogni simmetria è associata una legge di conservazione. Usando l'equazione di Heisenberg, per l'Hamiltoniana $\hat{H}$ e un operatore $\hat{T}_{\alpha}$ dipendente da un parametro $\alpha$ e da un operatore $\hat{F}$, a sua volta dipendente da $\hat{q}$ e/o $\hat{p}$ (quindi operante nello spazio delle fasi), vale simmetria se $\hat{T}^{+}_{\alpha}\hat{H}\hat{T}_{\alpha}=\hat{H}(\alpha)=\hat{H}$, ossia
 $$\frac{d \hat{H}(\alpha)}{d\alpha}=\frac{i}{\hbar}[\hat{F},\hat{H}(\alpha)]=\frac{i}{\hbar}\hat{T}^{+}_{\alpha}[\hat{F},\hat{H}]\hat{T}_{\alpha}=0$$
+Per le trasformazioni $X_{U}=U^{+}XU$ con $U$ unitario (tipo $\hat{D}_{\alpha}$ o $\hat{U}_{t}$) vale il teorema di Noether.
 ### Proiettori
 Autoaggiunti, traccia unitaria, autovalori 0 e 1.
 $$\hat{P}_\psi=|\psi\rangle\langle\psi| \quad ; \quad \hat{P}_{\psi}|\phi\rangle=\langle\psi|\phi\rangle|\psi\rangle$$

@@ -169,7 +169,33 @@ $$\boxed{\hat{a}\ket{n} =\sqrt{ n }\ket{n-1} ,\qquad \hat{a}^{+}\ket{n} =\sqrt{ 
 Troviamo anche i valori medi negli autostati:
 $$\braket{ m | \hat{a} | n } =\sqrt{ n }\braket{ m | n-1 } =\sqrt{ n }\delta_{m,n-1},\qquad \braket{ m | \hat{a}^{+} | n } =\sqrt{ n+1 }\braket{ m | n+1 } =\sqrt{ n+1 }\delta_{m,n+1}$$
 con $\delta$ la [[delta di Kronecker]].
-
+#### Evoluzione temporale
+Dato che conosciamo l'evoluzione temporale di $\hat{a}$ e $\hat{a}^{+}$ e che possiamo esprimere posizione e momento dell'oscillatore rispetto a questi due, possiamo anche trovare la loro evoluzione temporale. Infatti, dato che
+$$\hat{q}=\sqrt{\frac{\hbar}{2m\omega}}(\hat{a}^{+}+\hat{a}),\quad \hat{p}=i\sqrt{\frac{\hbar m\omega}{2}}(\hat{a}^{+}-\hat{a})$$
+Abbiamo dunque
+$$\hat{q}_{t}=\hat{U}_{t}^{+}\hat{q}\hat{U}_{t}=\sqrt{ \frac{\hbar}{2m\omega} }(e^{-i\omega t}\hat{a}+e^{i\omega t}\hat{a}^{+})$$
+$$\hat{p}_{t}=\hat{U}_{t}\hat{p}\hat{U}_{t}=-i\sqrt{ \frac{m\omega \hbar}{2} }(e^{-i\omega t}\hat{a}-e^{i\omega t}\hat{a}^{+})$$
+Idealmente vorremmo togliere completamente $\hat{a}$ e $\hat{a}^{+}$ e esprimere tutto in funzione di $\hat{q}$ e $\hat{p}$. Ma sappiamo esprimere $\hat{a}$ e $\hat{a}^{+}$ in termini di $\hat{q}$ e $\hat{p}$ quindi sostituiamo
+$$\begin{align}
+\hat{q}_{t}&=\sqrt{ \frac{\hbar}{2m\omega} }\left[ \left( \sqrt{ \frac{m\omega}{2\hbar} } \hat{q}+ \frac{i}{\sqrt{ 2m\omega \hbar }}\hat{p} \right) e^{-i\omega t}+\left( \sqrt{ \frac{m\omega}{2\hbar} }- \frac{i}{\sqrt{ 2m\omega \hbar }} \right)e^{i\omega t} \right]= \\
+&=\frac{1}{2}\hat{q}e^{-i\omega t}+ \frac{i}{2m\omega}\hat{p}e^{-i\omega t}+ \frac{1}{2}\hat{q}e^{i\omega t}- \frac{i}{2m\omega}\hat{p}e^{i\omega t} \\
+&=\hat{q}\cos(\omega t)+ \frac{\hat{p}}{m\omega}\sin(\omega t)
+\end{align}$$
+e $\hat{p}$ analogamente (intuibile dal fatto che questo sono identiche alle soluzioni classiche)
+$$\begin{align}
+\hat{p}_{t}&=\hat{p}\cos(\omega t)-m\omega \hat{q}\sin(\omega t)
+\end{align}$$
+Allora in un oscillatore armonico quantistico, posizione e momento evolvono come
+$$\boxed{\hat{q}_{t}=\hat{q}\cos(\omega t)+ \frac{\hat{p}}{m\omega}\sin(\omega t),\qquad \hat{p}_{t}=\hat{p}\cos(\omega t)-m\omega \hat{q}\sin(\omega t)}$$
+Ora possiamo anche risolvere l'[[equazione di Heisenberg]] per entrambe
+$$\frac{d}{dt}\hat{q}_{t}=\frac{i}{\hbar}[\hat{H},\hat{q}_{t}]=\ldots=\frac{\hat{p}_{t}}{m}$$
+$$\frac{d}{dt}\hat{p}_{t}=\frac{i}{\hbar}[\hat{H},\hat{p}_{t}]=\frac{i}{\hbar}\hat{U}_{t}^{+}[\hat{H},\hat{p}]\hat{U}_{t}=\left[ \frac{\hat{p}^{2}}{2m}+ \frac{m\omega ^{2}}{2}\hat{q}^{2},\hat{p} \right]=\frac{m\omega ^{2}}{2}[\hat{p}^{2},\hat{q}]=m\omega ^{2}i\hbar \hat{q}$$
+Allora abbiamo il sistema di equazioni differenziali operatoriali
+$$\begin{cases}
+\frac{d}{dt}\hat{q}_{t}=\frac{\hat{p}_{t}}{m} \\
+\frac{d}{dt}\hat{p}_{t}=-m\omega ^{2}\hat{q}_{t}
+\end{cases}$$
+che sono identiche alle [[Hamilton equations|equazioni di Hamilton]] classiche. Questo è dovuto al fatto che $\hat{H}$ qui è quadratica sia in $\hat{q}$ che $\hat{p}$.
 
 [^1]: Soddisfare l'equazione di Schrödinger significa che vale $H\psi=E\psi$, quindi vogliamo trovare $H(a_{+}\psi)=(E+\hbar\omega)\psi$. Difatti, si ha$$H(a_{+}\psi)=\hbar\omega\left(a_{+}a_{-}+ \frac{1}{2}\right)(a_{+}\psi)=\hbar\omega\left(a_{+}a_{-}a_{+}+ \frac{1}{2}a_{+}\right)\psi=\hbar\omega a_{+}\left(a_{-}a_{+}+ \frac{1}{2}\right)\psi=$$$$=a_{+}\left[\hbar\omega\left(\underbrace{a_{+}a_{-}+1}\limits_{*}+ \frac{1}{2}\right)\psi\right]=a_{+}(H+\hbar\omega)\psi=a_{+}(E+\hbar\omega)\psi=(E+\hbar\omega)(a_{+}\psi)$$dove in $*$ abbiamo usato il commutatore $[a_{+},a_{-}]=1$ per affermare $a_{-}a_{+}=a_{+}a_{-}+1$.
 

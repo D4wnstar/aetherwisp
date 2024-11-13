@@ -12,17 +12,17 @@ quindi la commutatività con l'Hamiltoniana può comportare una [[degenerazione]
 
 ---
 
-Prendo un'[[Hamiltoniana]] nello spazio delle fasi $PS$, $H:PS \rightarrow \mathbb{R}$.
+Partiamo dalla meccanica analitica, con un'[[Hamiltoniana]] $H$ nello spazio delle fasi $PS$, $H:PS \rightarrow \mathbb{R}$.
 $$\phi=(q,p)\quad;\quad\dot{\phi}=\{\phi,H\}$$
 Prendo una funzione qualunque dallo spazio delle fasi, $F:PS \rightarrow \mathbb{R}$ 
 $$\frac{d\phi}{d\alpha}=\phi'=\{\phi_{\alpha},F\}$$
-Questo sono trasformazioni nello *spazio delle fasi in meccanica classica*.
+Questo sono trasformazioni nello spazio delle fasi in meccanica classica.
 
 Usando un operatore quantistico $\hat{x}$ ho
 $$\frac{d\hat{x}_{t}}{dt}=\frac{i}{\hbar}[\hat{H},\hat{x}_{t}]$$
 e
 $$\frac{d\hat{x}_{t}}{d\alpha} =\frac{i}{\hbar}[\hat{F},\hat{x}_{\alpha}]$$
-Queste sono trasformazioni *di operatori in meccanica quantistica*.
+Queste sono trasformazioni di operatori in meccanica quantistica.
 
 La derivata della funzione $F$ è
 $$\dot{F}=\dot{q}\partial_{q}F+\dot{p}\partial_{p}F=\ldots$$

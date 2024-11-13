@@ -1,3 +1,7 @@
+---
+aliases:
+  - unitario
+---
 Si dice **operatore unitario** $U:H \rightarrow H$ un [[Operatore]] con la caratteristica di conservare il [[Prodotto scalare]], ovvero
 $$(Ux,Uy)=(x,y)$$
 o equivalentemente (grazie alla linearità)
@@ -18,3 +22,12 @@ Valgono in tal caso
 2. se $T$ è [[Operatore autoaggiunto|simmetrico]] in dominio $D_{0}$, allora $T'$ è simmetrico nel dominio $UD_{0}$ dei vettori trasformati $Ux\;\forall x\in D_{0}$
 3. se $T$ è un [[proiettore]] che proietta su un sottospazio $H_{1}$, anche $T'$ è un proiettore e proietta sul sottospazio $UH_{1}$ dei vettori trasformati $Ux\;\forall x\in H_{1}$
 4. se $S$ è un operatore invertibile, si può considerare la trasformazione $T \rightarrow T''=STS^{-1}$. Se $T$ ammette un autovettore $x$ con autovalore $\lambda$, allora $T''$ ammette l'autovettore $Sx$ con autovalore $\lambda$. Se $T$ soddisfa un'equazione algebrica $a_{n}T^{n}+\ldots+a_{0}I=0$, anche $T''$ la soddisfa. Va notato che questa trasformazione non conserva l'ortonormalità dei sistemi né le proprietà di autoaggiuntezza degli operatori.
+### Parentesi di commutazione
+Gli operatori unitari non cambiano il [[commutatore]]. Infatti, presi due operatori $X$ e $Y$ e un operatore unitario $U$ che applichiamo ad essi, vale
+$$\begin{align}
+[X_{U},Y_{U}]&=[U^{+}XU,U^{+}YU] \\
+&=U^{+}XUU^{+}YU-U^{+}YUU^{+}XU \\
+&=U^{+}XYU-U^{+}YXU \\
+&=U^{+}[X,Y]U
+\end{align}$$
+Questo genere di trasformazioni $X_{U}=U^{+}XU$, dette unitarie, sono l'equivalente quantistico delle [[canonical transformation|trasformazioni canoniche]] che preservano l'[[Hamiltoniana]] in meccanica classica. Per esse vale dunque il [[teorema di Noether]].
