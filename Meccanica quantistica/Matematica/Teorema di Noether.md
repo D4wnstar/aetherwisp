@@ -1,5 +1,14 @@
 Il **teorema di Noether** è un risultato fondamentale che associa trasformazioni della dinamica di un sistema con leggi di conservazione.
 
+Consideriamo un'Hamiltoniana $\hat{H}$ definita nell'[[algebra]] dei [[operatore|operatori]] unitari $\mathcal{B}(\mathcal{H})$, con $\mathcal{H}$ uno [[spazio di Hilbert]]. Consideriamo anche un operatore $\hat{G}:\mathcal{H}\to \mathcal{H}$ definita nella stessa algebra che genera una trasformazione di $\hat{H}$ in $\alpha$. Allora, l'evoluzione temporale di $\hat{G}$ e $\hat{H}$ sono
+$$\frac{d}{dt}\hat{G}_{t}=\frac{i}{\hbar}[\hat{H},\hat{G}_{t}],\qquad \frac{d}{d\alpha}\hat{H}_{\alpha}=i[\hat{G},\hat{H}]$$
+L'Hamiltoniana trasforma altri operatori nel tempo, gli altri operatori trasformano l'Hamiltoniana in altri parametri. Se $\hat{G}_{t}=\hat{G}$ commuta con $\hat{H}$, quindi $[\hat{G}_{\alpha},\hat{H}]=0$, allora è una [[costante del moto]]. Detto questo, possiamo enunciare il teorema di Noether
+
+> [!info] Teorema di Noether
+> Presa un'Hamiltoniana $\hat{H}$ e un operatore $\hat{G}_{\alpha}$, se $\hat{G}_{\alpha}$ genera una [[Trasformazione di simmetria|simmetria]] di $\hat{H}$ in un parametro $\alpha$, allora è una costante del moto. In simboli,
+> $$\hat{G}_{\alpha}^{+}\hat{H}\hat{G}_{\alpha}=\hat{H}_{\alpha}=\hat{H}\quad \Leftrightarrow \quad [\hat{G}_{\alpha},\hat{H}]=0$$
+
+
 > [!info] Teorema di Noether
 > Il generatore di una [[Trasformazione di simmetria|trasformazione continua di simmetria]] è una quantità conservata (cioè una [[costante del moto]]). Ogni costante del moto genera una trasformazione continua di simmetria.
 ### In meccanica quantistica
@@ -11,33 +20,6 @@ $$\hat{H}\hat{\pi}\ket{\psi_{E}} =E\hat{\pi}\ket{\psi_{E}} \quad\Rightarrow \qua
 quindi la commutatività con l'Hamiltoniana può comportare una [[degenerazione]] degli [[Equazione agli autovalori|autostati]] se $\ket{\psi_{E}}\neq \ket{\psi_{E}^{\pi}}$.
 
 ---
-
-Partiamo dalla meccanica analitica, con un'[[Hamiltoniana]] $H$ nello spazio delle fasi $PS$, $H:PS \rightarrow \mathbb{R}$.
-$$\phi=(q,p)\quad;\quad\dot{\phi}=\{\phi,H\}$$
-Prendo una funzione qualunque dallo spazio delle fasi, $F:PS \rightarrow \mathbb{R}$ 
-$$\frac{d\phi}{d\alpha}=\phi'=\{\phi_{\alpha},F\}$$
-Questo sono trasformazioni nello spazio delle fasi in meccanica classica.
-
-Usando un operatore quantistico $\hat{x}$ ho
-$$\frac{d\hat{x}_{t}}{dt}=\frac{i}{\hbar}[\hat{H},\hat{x}_{t}]$$
-e
-$$\frac{d\hat{x}_{t}}{d\alpha} =\frac{i}{\hbar}[\hat{F},\hat{x}_{\alpha}]$$
-Queste sono trasformazioni di operatori in meccanica quantistica.
-
-La derivata della funzione $F$ è
-$$\dot{F}=\dot{q}\partial_{q}F+\dot{p}\partial_{p}F=\ldots$$
-ma usando
-$$\begin{cases}
-\dot{q}=\frac{\partial H}{\partial p} \\
-\dot{p}=-\frac{\partial H}{\partial q}
-\end{cases}$$
-$$\ldots=\partial_{p}H\partial_{q}F-\partial_{q}H\partial_{p}F=\{F,H\}$$
-Trovo la derivata per $\alpha$ dell'Hamiltoniana
-$$H'=\frac{dH}{d\alpha}=q'\partial_{q}H+q'\partial_{p}H=\{H,F\}$$
-Allora posso enunciare il **teorema di Noether**:
-
-> [!info] Teorema di Noether
-> Il generatore di una [[Trasformazione di simmetria|trasformazione continua di simmetria]] è una quantità conservata (cioè una [[costante del moto]]). Ogni costante del moto genera una trasformazione continua di simmetria.
 
 Usando gli operatori $\hat{H}$ e $\hat{F}$ si ha, per estensione
 $$\hat{H}'=\frac{d\hat{H}_{\alpha}}{d\alpha}=\frac{i}{\hbar}[\hat{F},\hat{H}_{\alpha}]=\frac{i}{\hbar}\hat{V}_{\alpha}^{\dagger}[\hat{F},\hat{H}]\hat{V}_{\alpha}$$

@@ -45,7 +45,9 @@ Generatore di traslazioni di momento $\hat{U}_{p_{0}}=e^{-ip_{0}\hat{q}/\hbar}$ 
 $$\hat{U}_{p_{0}}^{+}\hat{p}\hat{U}_{p_{0}}=e^{ip_{0}\hat{q}/\hbar}\hat{p}e^{-ip_{0}\hat{q}/\hbar}=\hat{p}+ \frac{i}{\hbar}p_{0}[\hat{q},\hat{p}]=\hat{p}-p_{0}$$
 Operatore di traslazione $\hat{D}(\alpha)=e^{\alpha \hat{a}^{+}-\alpha^{*}\hat{a}}$ è unitario
 $$\hat{D}^{+}(\alpha)=e^{-\alpha \hat{a}^{+}+\alpha^{*}\hat{a}}=\hat{D}(-\alpha)=\hat{D}^{-1}(\alpha)$$
-Per le trasformazioni $X_{U}=U^{+}XU$ con $U$ unitario (tipo $\hat{D}_{\alpha}$ o $\hat{U}_{t}$) vale il teorema di Noether. Se $|\psi_{E}\rangle$ è un autostato di $H$ con autovalore $E$
+In forma $q$ e $p$ è $\hat{D}(q,p)=e^{-i(q \hat{p}-p \hat{q})/\hbar}$. Valgono
+$$\hat{D}(\alpha)\ket{0} =\ket{\alpha} ,\qquad \hat{D}^{+}(q,p)\hat{q}\hat{D}(q,p)=\hat{q}+q,\qquad\hat{D}^{+}(q,p)\hat{p}\hat{D}(q,p)=\hat{p}+p$$
+Per le trasformazioni $X_{U}=U^{+}XU$ con $U$ unitario (tipo $\hat{D}_{\alpha}$ o $\hat{U}_{t}$) vale il teorema di Noether (e quindi gli autovalori di $X$ rimangono costanti). Se $|\psi_{E}\rangle$ è un autostato di $H$ con autovalore $E$
 $$|\psi_{E,t}\rangle=\hat{U}_{t}|\psi_{E}\rangle=e^{-iEt/\hbar}|\psi_{E}\rangle$$
 Decomposizione spettrale di un qualunque operatore $T$ in una base ortonormale $\{\psi_{n}\}$
 $$T=\sum\limits_{n}t_{n}|\psi_{n}\rangle \langle \psi_{n}|=\sum\limits_{n}t_{n}\hat{P}_{\psi_{n}}$$

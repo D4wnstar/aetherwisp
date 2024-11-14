@@ -24,7 +24,7 @@ Se due operatori non commutano per una costante, ossia $[A,B]=c \hat{\mathbf{1}}
 $$e^{A+B}=e^{-[A,B]/2}e^{A}e^{B}$$
 quindi compare un termine correttivo $e^{-[A,B]/2}$ nel suddividere una somma di operatori all'esponente.
 
-Nel caso di due funzioni operatori $e^{-A}$  e $e^{A}$ applicate su un altro operatore $B$, si ha
+Nel caso di due funzioni operatori $e^{-A}$  e $e^{A}$ applicate su un altro operatore $B$, si possono usare gli **commutatori annidati**:
 $$\begin{align}
 e^{A}Be^{-A}&=\sum_{k=0}^{\infty} \frac{1}{k!}\underbrace{ [A,[A, \ldots[A,B] }_{ k \text{ volte} }\ldots]] \\
 &=B+[A,B]+ \frac{1}{2}[A,[A,B]]+ \frac{1}{3!}[A,[A,[A,B]]]+\ldots

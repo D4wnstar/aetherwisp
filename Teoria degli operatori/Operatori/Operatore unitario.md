@@ -31,3 +31,33 @@ $$\begin{align}
 &=U^{+}[X,Y]U
 \end{align}$$
 Questo genere di trasformazioni $X_{U}=U^{+}XU$, dette unitarie, sono l'equivalente quantistico delle [[canonical transformation|trasformazioni canoniche]] che preservano l'[[Hamiltoniana]] in meccanica classica. Per esse vale dunque il [[teorema di Noether]].
+
+Più in generale, questo fatto è importante perché la traslazione per operatori unitari non varia gli [[Equazione agli autovalori|autovalori]]. Infatti, consideriamo un'equazione agli autovalori
+$$H\ket{\psi_{a}} =E_{a}\ket{\psi_{a}} $$
+Ora trasliamo $\ket{\psi_{a}}$ come $\ket{\psi^{U}_{a}}=U\ket{\psi_{a}}$. Ora abbiamo
+$$H^{U}\ket{\psi_{a}^{U}} =E_{a}^{U}\ket{\psi_{a}^{U}} $$
+Ma vale
+$$U^{+}H \underbrace{ UU^{+} }_{ \hat{\mathbf{1}} }\ket{\psi_{a}} =E_{a}U^{+}\ket{\psi_{a}} $$
+Quindi gli autovalori rimangono gli stessi sotto trasformazione unitaria (???).
+
+> [!example] Oscillatore armonico quantistico
+> L'Hamiltoniana dell'[[oscillatore armonico quantistico]] traslata per $q$ è
+> $$\hat{H}_{q}=\frac{\hat{p}^{2}}{2m}+ \frac{m\omega ^{2}}{2}(\hat{q}-q)^{2}=e^{-iq\hat{p}/\hbar}\hat{H}e^{-iq\hat{p}/\hbar}$$
+> dove $e^{-iq \hat{p}/\hbar}$ è l'[[Operatori di traslazione e boost|operatore di traslazione]]. L'energia invece è
+> $$E_{n}^{q}=\hbar \omega\left( n+ \frac{1}{2} \right)=E_{n}$$
+> L'evoluzione dell $n$-esimo autostato è $\ket{\psi_{n}^{q}}=e^{-iq\hat{p}/\hbar}\ket{\psi_{n}}$. Vogliamo trovarne l'autofunzione associata. In [[Rappresentazioni dello stato|rappresentazione del momento]] l'operatore $\hat{p}$ diventa semplicemente $p$ e abbiamo
+> $$\braket{ p | \psi_{n}^{q} } =e^{-iqp/\hbar}\braket{ p | \psi_{n} } $$
+> ma a noi interessa la [[Rappresentazioni dello stato|rappresentazione della posizione]] e per convertire dovremmo fare l'[[Trasformata di Fourier|antitrasformata di Fourier]] dell'autostato (e quindi dei [[polinomi di Hermite]], buona fortuna). Partiamo dunque direttamente dalla posizione
+> $$\braket{ x | \psi_{n}^{q} } =\braket{ x | e^{-iq\hat{p}/\hbar}\psi_{n}^{q} } $$
+> Risolviamo prima
+> $$\hat{q}e^{iq\hat{p}/\hbar}\ket{x} =e^{iq\hat{p}/\hbar}\underbrace{ e^{-iq\hat{p}/\hbar}\hat{q}e^{iq\hat{p}/\hbar} }_{ \hat{q}-q }\ket{x} =\ldots$$
+> dove abbiamo fatto comparire l'evoluzione in $q$ per unitarietà. Allora continuando
+> $$\ldots=e^{iq\hat{p}/\hbar}(\hat{q}-q)\ket{x} =e^{iq\hat{p}/\hbar}(x-q)\ket{x} =(x-q)e^{iq\hat{p}/\hbar}\ket{x} $$
+> $e^{iq\hat{p}/\hbar}\ket{x}$ deve essere proporzionale a $\ket{x-q}$:
+> $$e^{iq\hat{p}/\hbar}\ket{x}=c\ket{x-q} $$
+> Possiamo sfruttare l'[[Ortonormalità|ortonormalità di Dirac]] degli autostati
+> $$\delta(y-x)=\braket{ e^{iq\hat{p}/\hbar}y |e^{iq\hat{p}/\hbar}x  }=\braket{ c(y-q) | c(x-q) } =\lvert c \rvert ^{2}\braket{ y-q | x-q } =\lvert c \rvert ^{2}\delta (y-x) $$
+> e quindi $\lvert c \rvert^{2}=1$, da cui $c=1$. Allora vale $e^{iq\hat{p}/\hbar}\ket{x}=\ket{x-q}$. Tornando quindi indietro si ha
+> $$\braket{ x | \psi_{n}^{q} }=\braket{ x | e^{-iq\hat{p}/\hbar}\psi_{n} }  =\braket{ e^{iq\hat{p}/\hbar}x | \psi_{n} } =\braket{ x-q | \psi_{n} } $$
+> Le autofunzioni in posizione sono quindi uguali in tutto tranne che sono traslate di $-q$:
+> $$\psi_{0}^{q}(x)=\psi_{0}(x-q)=\sqrt[4]{ \frac{m\omega}{\hbar \pi} }e^{-(m\omega/2\hbar)(x-q)^{2}}$$
