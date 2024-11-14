@@ -9,7 +9,7 @@ Gli **operatori di creazione e distruzione** $\hat{a}^{+}$ e $\hat{a}$ sono una 
 ### Proprietà
 - Sono uno l'[[Operatore aggiunto|aggiunto]] dell'altro.
 - Non sono [[Operatore autoaggiunto|autoaggiunti]].
-- Non [[commutatore|commutano]]: $[\hat{a},\hat{a}^{+}]=1$. Si può usare la [[Commutatore|formula di Baker-Campbell-Haussdorf]]: $e^{\alpha \hat{a}^{+}-\alpha^{*}\hat{a}}=e^{-\lvert \alpha \rvert^{2}/2}e^{\alpha \hat{a}^{+}}e^{-\alpha^{+}\hat{a}}$.
+- Non [[commutatore|commutano]]: $[\hat{a},\hat{a}^{+}]=1$. Si può usare la [[Commutatore|formula di Baker-Campbell-Hausdorff]]: $e^{\alpha \hat{a}^{+}-\alpha^{*}\hat{a}}=e^{-\lvert \alpha \rvert^{2}/2}e^{\alpha \hat{a}^{+}}e^{-\alpha^{+}\hat{a}}$.
 ### Evoluzione temporale
 Possiamo cercare l'evoluzione temporale nella [[Rappresentazioni della meccanica quantistica|rappresentazione di Heisenberg]] $\hat{a}\to \hat{U}_{t}^{+}\hat{a}\hat{U}_{t}$. Per risolvere questa equazione, possiamo notare che è la soluzione dell'[[equazione di Heisenberg]]. Infatti, presa l'[[Hamiltoniana]] dell'oscillatore armonico quantistico $\hat{H}=\hbar \omega\left( \hat{a}^{+}\hat{a}+ \frac{1}{2} \right)$
 $$\frac{d}{dt}\hat{a}_{t}=\frac{i}{\hbar}[\hat{H},\hat{a}_{t}]=\frac{i}{\hbar}\left[ \hbar \omega\left( \hat{a}^{+}\hat{a}+ \frac{1}{2} \right), \hat{a}_{t} \right]=i\omega[\hat{a}^{+}\hat{a},\hat{a}_{t}]=\ldots$$
@@ -26,8 +26,6 @@ Questo ci lascia con un'[[equazione differenziale ordinaria]]:
 $$\frac{d}{dt}\hat{a}_{t}=-i\omega \hat{a}_{t}$$
 con condizione al contorno $\hat{a}_{t=0}=\hat{a}$. Questa è immediatamente risolvibile come
 $$\boxed{\hat{a}_{t}=e^{-i\omega t}\hat{a}}$$
-Al di là del risultato sull'operatore di distruzione, questo dimostra un risultato universale e molto importante, già scoperto in meccanica analitica. Dato che l'evoluzione temporale (invero, tutte le trasformazioni [[Operatore unitario|unitarie]]) non modificano le parentesi di commutazione, possiamo risolvere l'equazione di Heisenberg senza dover conoscere l'evoluzione temporale. Infatti, dato che l'equazione dipende da $\hat{a}_{t}$, per risolvere l'equazione e trovare la dinamica dovremmo sapere $\hat{a}_{t}$... che *è* la dinamica. Sarebbe un loop infinito e l'equazione sarebbe logicamente irrisolvibile. Ma grazie al fatto che l'evoluzione temporale non modifica le parentesi di commutazione, possiamo risolvere l'equazione con lo stato iniziale a tempo zero e poi riapplicare l'evoluzione, risolvendo il loop.
-
 L'operatore di distruzione si trova in modo analogo e vale
 $$\boxed{\hat{a}^{+}_{t}=e^{i\omega t}\hat{a}^{+}}$$
 L'operatore numero è invece costante nel tempo

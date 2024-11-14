@@ -177,7 +177,7 @@ $$\hat{q}_{t}=\hat{U}_{t}^{+}\hat{q}\hat{U}_{t}=\sqrt{ \frac{\hbar}{2m\omega} }(
 $$\hat{p}_{t}=\hat{U}_{t}\hat{p}\hat{U}_{t}=-i\sqrt{ \frac{m\omega \hbar}{2} }(e^{-i\omega t}\hat{a}-e^{i\omega t}\hat{a}^{+})$$
 Idealmente vorremmo togliere completamente $\hat{a}$ e $\hat{a}^{+}$ e esprimere tutto in funzione di $\hat{q}$ e $\hat{p}$. Ma sappiamo esprimere $\hat{a}$ e $\hat{a}^{+}$ in termini di $\hat{q}$ e $\hat{p}$ quindi sostituiamo
 $$\begin{align}
-\hat{q}_{t}&=\sqrt{ \frac{\hbar}{2m\omega} }\left[ \left( \sqrt{ \frac{m\omega}{2\hbar} } \hat{q}+ \frac{i}{\sqrt{ 2m\omega \hbar }}\hat{p} \right) e^{-i\omega t}+\left( \sqrt{ \frac{m\omega}{2\hbar} }- \frac{i}{\sqrt{ 2m\omega \hbar }} \right)e^{i\omega t} \right]= \\
+\hat{q}_{t}&=\sqrt{ \frac{\hbar}{2m\omega} }\left[ \left( \sqrt{ \frac{m\omega}{2\hbar} } \hat{q}+ \frac{i}{\sqrt{ 2m\omega \hbar }}\hat{p} \right) e^{-i\omega t}+\left( \sqrt{ \frac{m\omega}{2\hbar} }- \frac{i}{\sqrt{ 2m\omega \hbar }} \right)e^{i\omega t} \right] \\
 &=\frac{1}{2}\hat{q}e^{-i\omega t}+ \frac{i}{2m\omega}\hat{p}e^{-i\omega t}+ \frac{1}{2}\hat{q}e^{i\omega t}- \frac{i}{2m\omega}\hat{p}e^{i\omega t} \\
 &=\hat{q}\cos(\omega t)+ \frac{\hat{p}}{m\omega}\sin(\omega t)
 \end{align}$$
