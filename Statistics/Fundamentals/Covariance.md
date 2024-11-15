@@ -32,6 +32,6 @@ x_{n}
 \vdots \\
 \mu_{n}
 \end{pmatrix}$$
-where $\mu_{i}$ is the [[expected value]] of the $i$-th measurement, $\mu_{i}=E[x_{i}]$. The **covariance matrix** is defined by its elements $\mathrm{V}_{ij}$:
+where $\mu_{i}$ is the [[expected value]] of the $i$-th measurement, $\mu_{i}=E[x_{i}]$. The **covariance matrix** $\mathrm{V}$ is defined by its elements $\mathrm{V}_{ij}$:
 $$\mathrm{V}_{ij}=\rho_{ij}\sigma_{i}\sigma_{j}$$
 It is a [[Matrice simmetrica|symmetrical matrix]], so $\mathrm{V}_{ij}=\mathrm{V}_{ji}$, and the diagonal contains the variance of each measurement: $\mathrm{V}_{ii}=\sigma ^{2}_{i}$.

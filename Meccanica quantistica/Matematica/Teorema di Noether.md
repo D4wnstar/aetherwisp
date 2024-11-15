@@ -8,6 +8,7 @@ L'Hamiltoniana trasforma altri operatori nel tempo, gli altri operatori trasform
 > Presa un'Hamiltoniana $\hat{H}$ e un operatore $\hat{G}_{\alpha}$, se $\hat{G}_{\alpha}$ genera una [[Trasformazione di simmetria|simmetria]] di $\hat{H}$ in un parametro $\alpha$, allora è una costante del moto. In simboli,
 > $$\hat{G}_{\alpha}^{+}\hat{H}\hat{G}_{\alpha}=\hat{H}_{\alpha}=\hat{H}\quad \Leftrightarrow \quad [\hat{G}_{\alpha},\hat{H}]=0$$
 
+A parole si può enunciare anche come
 
 > [!info] Teorema di Noether
 > Il generatore di una [[Trasformazione di simmetria|trasformazione continua di simmetria]] è una quantità conservata (cioè una [[costante del moto]]). Ogni costante del moto genera una trasformazione continua di simmetria.
