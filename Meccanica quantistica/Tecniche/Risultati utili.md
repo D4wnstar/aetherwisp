@@ -155,14 +155,16 @@ per ogni $(l,m)\neq(0,0)$. Per $(l,m)=(0,0)$ l'integrale vale $2\sqrt{\pi}$. Inf
 La dipendenza angolare di uno stato $\psi$ in un sistema sferico si trova come
 $$\langle Y_{l}^{m}|\psi(r,\theta,\phi)\rangle$$
 ### Stati coerenti
-Autostati $\ket{\alpha}$ dell'operatore di distruzione $\hat{a}\ket{\alpha}=\alpha\ket{\alpha}$
-$$|\alpha_{t}\rangle=\hat{U}_{t}\ket{\alpha} =e^{-|\alpha|^{2}/2}\sum\limits_{n=0}^{\infty} \frac{\alpha^{n}}{\sqrt{n!}}\hat{U}_{t}\ket{n} $$
+Autostati $\ket{\alpha}$ dell'operatore di distruzione $\hat{a}\ket{\alpha}=\alpha\ket{\alpha}$. Nella base degli autostati di $\hat{n}$ è
+$$\ket{\alpha}=e^{-|\alpha|^{2}/2} \sum\limits_{n=0}^{\infty} \frac{\alpha^{n}}{\sqrt{n!}}|n\rangle$$
 Normalizzati, ma non ortogonali fra loro. La norma tra due stati è
 $$|\braket{ \alpha_{1} | \alpha_{2} } |^{2}=e^{-|\alpha_{1}-\alpha_{2}|^{2}}$$
-Evoluzione temporale (viene da Schrödinger picture e autostato dell'operatore numero)
+Evoluzione temporale (viene da autostato dell'operatore numero)
 $$\ket{\alpha_{t}} =e^{-i\omega t/2}|e^{-i\omega t}\alpha\rangle$$
 Probabilità determinata da una distribuzione di Poisson con $\nu=\lvert \alpha \rvert^{2}$ e $k=m$. $\hat{n}=\hat{a}^{+}\hat{a}$ operatore numero
 $$\text{Prob}(\hat{n}=m|\alpha)=|\braket{ m | \alpha } |^{2}=e^{-|\alpha|^{2}} \frac{(|\alpha|^{2})^{m}}{m!}$$
+Aspettazione e varianza dell'operatore numero in uno stato coerente
+$$E_{\alpha}[\hat{n}]=\text{var}_{\alpha}(\hat{n})=\lvert \alpha \rvert ^{2}$$
 ## Sistemi
 Due stati sono degeneri se sono due autostati linearmente indipendenti dell'Hamiltoniana del sistema che hanno lo stesso autovalore. $\ket{\psi}$ e $\ket{\phi}$ sono degeneri se $\braket{ \psi | \phi }=0$ e $\hat{H}\ket{\psi}=E\ket{\psi}$ e $\hat{H}\ket{\phi}=E\ket{\phi}$.
 ### Buca infinita
