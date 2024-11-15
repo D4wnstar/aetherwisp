@@ -34,6 +34,34 @@ Z&=\sum_{\{ S_{i} \}}e^{-\beta H}=\sum_{S_{1}\pm 1}\ldots\sum_{S_{N}=\pm 1}e^{\b
 &=\left( \sum_{S_{1}\pm 1}e^{\beta hS_{1}} \right)\left( \sum_{S_{2}\pm 1}e^{\beta hS_{2}} \right)\ldots\left( \sum_{S_{N}\pm 1}e^{\beta hS_{N}} \right) \\
 &=(2\cosh(\beta h))^{N}
 \end{align}$$
-
+### Quantum model
+The Ising model can be rewritten in quantum mechanical terms. The classical Ising Hamiltonian is
+$$H=-J\sum_{\langle i,j \rangle }S_{i}S_{j}-h\sum_{i}S_{i},\quad S_{n}=\pm 1$$
+This is classical in the sense that the $S_{n}$ are just numbers, bits. They naturally [[Commutatore|commute]] with each other. Some things are reminiscent of quantum mechanics, such as the fact that there are discrete energy levels for each [[microstate]]. But they are not states in the quantum sense, they're just due to the kind of description of the system we are using (which employs a set of discrete quantities). Each element of the system can classically be either *up* or *down*, $\uparrow$ or $\downarrow$, true or false, 1 or -1. When we make the quantum leap, these morph into individual quantum states $\ket{S}$. These are no longer discrete: they are linear combinations in $\mathbb{C}^{2}$ of the two [[Equazione agli autovalori|eigenstates]] $\ket{\uparrow}$ and $\ket{\downarrow}$, such that
+$$\ket{S} =\alpha \ket{\uparrow} +\beta \ket{\downarrow} $$
+In other words, we went from bits to [[qubit|qubits]]. The $S$ values become [[Osservabile|observable]] and are therefore described by [[Operatore autoaggiunto|self-adjoint operators]] $\hat{S}_{i}$. In particular, since these are spin states, they are described by the [[Matrici di Pauli|Pauli matrices]]:
+$$S_{i}\quad\to \quad \hat{S}_{i}=\sigma_{z}^{i}=\begin{pmatrix}
+1 & 0 \\
+0 & -1
+\end{pmatrix}$$
+(yes, it's missing an $\hbar/2$, it's just to prove the point). If we make this substitution in the Hamiltonian, we get the quantum Ising model Hamiltonian
+$$\hat{H}=-J\sum_{\langle i,j \rangle }\sigma_{z}^{i}\sigma_{z}^{j}-h\sum_{i}\sigma_{z}^{i}-h_{T}\sum \sigma_{x}^{i}$$
+The addition of the last terms is due to the non-commutativity of $\sigma_{x}$ and $\sigma_{z}$. In fact, we have
+$$[\sigma_{z}^{1}\sigma_{z}^{2},\sigma_{x}^{1}]\neq 0$$
+though still $[\sigma_{z}^{i},\sigma_{z}^{j}]=0$. The matrix form of the quantum Hamiltonian is $2^{N}\times 2^{N}$ dimensional. In fact, take the two dimensional case for example. We only have two elements, with spins $\hat{\sigma}_{z}^{1}$ and $\hat{\sigma}_{z}^{2}$. These operators are the [[Prodotto tensoriale|tensor product]] between $\hat{\sigma}_{z}$ and the unit operatore is
+$$\hat{\sigma}_{z}^{1}=\hat{\sigma}_{z}\otimes \hat{\mathbf{1}}=\begin{pmatrix}
+1 & 0 \\
+0 & -1
+\end{pmatrix}\otimes \begin{pmatrix}
+1 & 0 \\
+0 & 1
+\end{pmatrix}
+=\begin{pmatrix}
+1 & 0 & 0 & 0 \\
+0 & 1 & 0 & 0 \\
+0 & 0 & -1 & 0 \\
+0 & 0 & 0 & -1
+\end{pmatrix}$$
+The same applies to $\hat{\sigma}_{z}^{2}=\hat{\mathbf{1}}\otimes \hat{\sigma}_{z}$. If we add more elements (increasing $N$) we get $N$ tensor products in sequence. Since we are multiplying 2-dimensional matrices, each product multiplies the dimensions by two, which means that the $N$-th product $\hat{\mathbf{1}}\otimes \hat{\mathbf{1}}\otimes\ldots\otimes \hat{\sigma}_{z}\otimes\ldots\otimes \hat{\mathbf{1}}$ is going to be $2^{N}\times 2^{N}$ dimensional. This is a sensible result: after all, the classical case has $2^{N}$ possible combinations also.
 
 [^1]: In fact, the original idea predates it and was later solved with the Ising model when that was developed.

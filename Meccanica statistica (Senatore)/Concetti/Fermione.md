@@ -1,1 +1,1 @@
-Un **fermione** è una [[Particella]] fondamentale con [[spin]] pari a mezzo intero ($\frac{1}{2}$, $\frac{3}{2}$, ...) descritta da una [[Funzione d'onda]] [[Stato total-antisimmetrico|total-antisimmetrica]].  Gli [[Elettrone|elettroni]] sono fermioni e hanno spin $\frac{1}{2}$.
+Un **fermione** è una [[Particella]] fondamentale con [[spin]] pari a mezzo intero ($\frac{1}{2}$, $\frac{3}{2}$, ...) descritta da una [[Funzione d'onda]] [[Stato total-antisimmetrico|total-antisimmetrica]]. Gli [[Elettrone|elettroni]] sono fermioni e hanno spin $\frac{1}{2}$.
