@@ -118,7 +118,7 @@ $$\int_{-\infty}^{\infty} e^{-iv^{2}} \ dv =\int_{-\infty}^{\infty} \frac{e^{-w^
 e quindi mi aspetto che il propagatore sia
 $$G(y-x)=e^{im(x-y)^{2}/2\hbar t}\sqrt{ \frac{m}{2it\pi \hbar} }$$
 Ora possiamo introdurre il propagatore nell'espressione originale per $\psi_{t}(x)$:
-$$\boxed{\psi_{t}(x)=\int_{-\infty}^{\infty}\sqrt{ \frac{m}{2it\pi \hbar} } e^{im(x-y)^{2}/2\hbar t}\psi(y) \ dy }$$
+$$\boxed{\psi_{t}(x)=\sqrt{ \frac{m}{2it\pi \hbar} }\int_{-\infty}^{\infty} e^{im(x-y)^{2}/2\hbar t}\psi(y) \ dy }$$
 che è l'[[ampiezza di probabilità]] di trovare la particella in un intervallo centrato in $x$ a partire da un intervallo centrato in $y$. La probabilità in sé è $\lvert \psi_{t}(x) \rvert^{2}$.
 
 È notevole il fatto che questa probabilità sia in generale non nulla per qualunque intervallo spaziale. Dal punto di vista fisico, questo è una chiara violazione della relatività, dato che c'è una probabilità che una particella viaggi in un luogo [[spaziotempo|spaziotemporalmente]] disconnesso, nel senso che la luce non viaggia a sufficiente velocità per connettere i due punti nell'intervallo di tempo dato. In altre parole, c'è una possibilità che una particella si ritrovi in un punto al di fuori del [[cono di luce]] costruito attorno ad esso. La ragione è dovuta al fatto che l'equazione di Schrödinger dipenda da $\frac{ \partial  }{ \partial t }$ e non da $\frac{ \partial  }{ \partial t^{2} }$ come dovrebbe una [[equazione d'onda]]. La teoria quantistica dei campi e l'utilizzo dell'[[equazione di Dirac]] anziché di quella di Schrödinger risolvono il problema.

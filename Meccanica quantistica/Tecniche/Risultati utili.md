@@ -12,9 +12,7 @@ $$i\hbar \partial_{t} |\psi_{t}\rangle=\hat{H}|\psi_{t}\rangle=- \frac{\hbar^{2}
 Indipendente dal tempo:
 $$\hat{H}\ket{\psi} =E\ket{\psi} $$
 $$- \frac{\hbar^{2}}{2m} \frac{ \partial ^{2}  }{ \partial x^{2} } \psi(x) + V(x)\psi(x)=E\psi(x)$$
-Se $V(x)$ è pari, allora $\psi(x)$ è o pari o dispari. Caso dipendente da quello indipendente per spettro discreto di energie $\{ E_{n} \}$ e autostati $\{ \Psi_{n} \}$:
-$$\Psi(q,t)=\sum\limits_{n=1}^{\infty}c_{n}\psi_{n}(q)e^{iE_{n}t/\hbar}=\sum\limits_{n=1}^{\infty}c_{n}\Psi_{n}(q,t)$$
-In coordinate sferiche
+Se $V(x)$ è pari, allora $\psi(x)$ è o pari o dispari. In coordinate sferiche
 $$- \frac{\hbar^{2}}{2m}\left[\frac{1}{r^{2}}\frac{\partial }{\partial r}\left(r^{2}\frac{\partial \psi}{\partial r}\right)+ \frac{1}{r^{2}\sin\theta}\frac{\partial }{\partial \theta}\left(\sin\theta \frac{\partial \psi}{\partial \theta}\right)+ \frac{1}{r^{2}\sin^{2}\theta}\left(\frac{\partial ^{2}\psi}{\partial \phi^{2}}\right)\right] + V\psi=E\psi$$
 La probabilità di misurare un certo autostato $|\phi\rangle$ al tempo $t$ è
 $$P_{\psi_{t}}(\phi)=|\langle \phi|\psi_{t}\rangle|^{2}$$
@@ -191,7 +189,7 @@ Autostati in posizione
 $$\psi_{n}(x)=\frac{1}{\sqrt{n!}}(\hat{a}^{+})^{n}\underbrace{ \left(\frac{m\omega}{2\hbar}\right)^{1/4}e^{-(m\omega/2\hbar)x^{2}} }_{ \psi_{0}(x) };\quad E_{n}=\left(n+ \frac{1}{2}\right)\hbar\omega$$
 con operatori di creazione e distruzione
 $$\hat{a}=\sqrt{ \frac{m\omega}{2\hbar} }\hat{q}+i \frac{1}{\sqrt{ 2m\omega \hbar }}\hat{p},\qquad \hat{a}^{+}=\sqrt{ \frac{m\omega}{2\hbar} }\hat{q}-i \frac{1}{\sqrt{ 2m\omega \hbar }}\hat{p}$$
-$$\hat{a}^{+}\ket{n} =\sqrt{n+1}\ket{n+1} ,\quad \hat{a}\ket{n} =\sqrt{n}\ket{n-1} $$
+$$\hat{a}^{+}\ket{n} =\sqrt{n+1}\ket{n+1} ,\quad \hat{a}\ket{n} =\sqrt{n}\ket{n-1},\quad (\hat{a}^{+})^{n}\ket{0}=\sqrt{ n! }\ket{n} ,\quad \hat{a}^{n}\ket{n} =\sqrt{ n! }\ket{0}  $$
 $$[\hat{a},\hat{a}^{+}]=1,\qquad[\hat{a},(\hat{a}^{+})^{n}]=n(\hat{a}^{+})^{n-1},\qquad[\hat{a}^{+},\hat{a}^{n}]=-n \hat{a}^{n-1}$$
 $$\hat{a}_{t}=\hat{U}_{t}^{+}\hat{a}\hat{U}_{t}=e^{-i\omega t}\hat{a},\qquad \hat{a}^{+}_{t}=\hat{U}_{t}^{+}\hat{a}^{+}\hat{U}_{t}=e^{i\omega t}\hat{a}^{+}$$
 Operatore numero $\hat{n}=\hat{a}^{+}\hat{a}$

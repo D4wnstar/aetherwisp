@@ -17,7 +17,7 @@ $$\hat{D}(\alpha)=e^{\alpha \hat{a}^{+}-\alpha^{*}\hat{a}}$$
 È possibile esprimere l'operatore con $\hat{q}$ e $\hat{p}$ come
 $$\hat{D}(q,p)=e^{-i(q \hat{p}-p \hat{q})/\hbar}$$
 ### Proprietà
-- È [[Operatore unitario|unitario]], infatti $D^{+}(\alpha)=e^{-\alpha \hat{a}^{+}+\alpha^{*}\hat{a}}=\hat{D}(-\alpha)=\hat{D}^{-1}(\alpha)$.
+- È [[Operatore unitario|unitario]], infatti $\hat{D}^{+}(\alpha)=e^{-\alpha \hat{a}^{+}+\alpha^{*}\hat{a}}=\hat{D}(-\alpha)=\hat{D}^{-1}(\alpha)$.
 
 Se applicato all'[[Operatori di creazione e distruzione|operatore di distruzione]] $\hat{a}$ vale
 $$\begin{align}
