@@ -60,7 +60,7 @@ $$\langle a_{-}a_{+}\psi_{n}|\psi_{n}\rangle=\langle(n+1)\psi_{n}|\psi_{n}\rangl
 Ma le $\psi_{n}$ sono normalizzate, quindi $n+1=|c_{n}|^{2}$ e $n=|d_{n}|^{2}$. Mettendole nella $(4)$, si ha
 $$\boxed{a_{+}\psi_{n}=\sqrt{n+1}\psi_{n+1},\quad a_{-}\psi_{n}=\sqrt{n}\psi_{n-1}}$$
 da cui la forma definitiva del $n$-esimo stato dell'oscillatore armonico quantistico:
-$$\boxed{\psi_{n}=\frac{1}{\sqrt{n!}}(a_{+})^{n}\psi_{0}=\frac{1}{\sqrt{n!}}(a_{+})^{n}\left(\frac{m\omega}{2\hbar}\right)^{1/4}e^{-(m\omega/2\hbar)x^{2}}\quad\text{con}\quad E_{n}=\left(n+ \frac{1}{2}\right)\hbar\omega}$$
+$$\boxed{\psi_{n}=\frac{1}{\sqrt{n!}}(a_{+})^{n}\psi_{0}=\frac{1}{\sqrt{n!}}(a_{+})^{n}\left(\frac{m\omega}{\pi\hbar}\right)^{1/4}e^{-(m\omega/2\hbar)x^{2}}\quad\text{con}\quad E_{n}=\left(n+ \frac{1}{2}\right)\hbar\omega}$$
 
 L'energia potenziale media è[^2]
 $$\left\langle V \right\rangle=\left\langle \frac{1}{2}m\omega^{2}x^{2} \right\rangle=\frac{1}{2}m\omega^{2} \left\langle x^{2} \right\rangle=\ldots=\frac{1}{2}\hbar\omega\left(n+ \frac{1}{2}\right)$$
@@ -152,7 +152,7 @@ Questo è vero, infatti per iterazione abbiamo
 $$\braket{ 0 | \hat{a}^{n-1} \hat{a}(\hat{a}^{+})^{m}|0}=\braket{ 0 | \hat{a}^{n-1}[\hat{a},(\hat{a}^{+})^{m}]|0 } =m\braket{ 0 | \hat{a}^{n-1}(\hat{a}^{+})^{m-1}|0 }  $$
 Ora, supponiamo che $n>m$. Dato che $n$ e $m$ diminuiscono in unisono, quando $m$ arriva a zero, sarà rimasto almeno un $\hat{a}$ davanti al $\ket{0}$, quindi va tutto a zero. Se invece $n<m$ rimarrà almeno un $\hat{a}^{+}$, che possiamo spostare dall'altra parte del prodotto scalare per comunque trovare un $\hat{a}$ che agisce su $\ket{0}$, di nuovo annullando tutto. L'unico caso con risultato non nullo è quello in cui $n=m$, in qual caso rimane $\braket{ 0 | 0 }=1$. Ma questa non è altro che una [[delta di Kronecker]], quindi $\braket{ n | m }=\delta_{nm}$, che prova l'ortonormalità. Questo prova definitivamente che $\{ \ket{n} \}_{n\in \mathbb{N}}$ è la [[base]] ortonormale degli autostati dell'oscillatore armonico, ed è equivalente all'insieme dei modi di oscillazione normale del [[oscillatore armonico|caso classico]].
 
-Ora che sappiamo la statica del sistema, vogliamo trovarne l'evoluzione temporale. Preso l'[[evolutore]] $\hat{U}_{t}=e^{-i \hat{H}p/\hbar}$. Avendo la base degli autostati, un generico stato $\ket{\psi_{t}}$ è rappresentato in [[serie di Fourier]] da
+Ora che sappiamo la statica del sistema, vogliamo trovarne l'evoluzione temporale. Preso l'[[evolutore]] $\hat{U}_{t}=e^{-i \hat{H}t/\hbar}$. Avendo la base degli autostati, un generico stato $\ket{\psi_{t}}$ è rappresentato in [[serie di Fourier]] da
 $$\ket{\psi_{t}} =\hat{U}_{t}\ket{\psi} =\sum_{n=0}^{\infty} \braket{ n | \psi } \hat{U}_{t}\ket{n} =\sum_{n=0}^{\infty} \braket{ n | \psi } e^{-it\hbar \omega(n+ 1/2)/\hbar}\ket{n} $$
 Ci interessa la [[Rappresentazioni dello stato|rappresentazione della posizione]] $\psi_{n}(x)=\braket{ x | n }$. (TODO: Rivedi lezione 07/11/24 verso la fine). Lo stato fondamentale è
 $$\boxed{\psi_{0}(x)=\sqrt[4]{ \frac{m\omega}{\hbar \pi} }e^{-(m\omega/2\hbar)x^{2}}}$$

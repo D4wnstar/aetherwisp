@@ -14,9 +14,10 @@ $$\hat{H}\ket{\psi} =E\ket{\psi} $$
 $$- \frac{\hbar^{2}}{2m} \frac{ \partial ^{2}  }{ \partial x^{2} } \psi(x) + V(x)\psi(x)=E\psi(x)$$
 Se $V(x)$ è pari, allora $\psi(x)$ è o pari o dispari. In coordinate sferiche
 $$- \frac{\hbar^{2}}{2m}\left[\frac{1}{r^{2}}\frac{\partial }{\partial r}\left(r^{2}\frac{\partial \psi}{\partial r}\right)+ \frac{1}{r^{2}\sin\theta}\frac{\partial }{\partial \theta}\left(\sin\theta \frac{\partial \psi}{\partial \theta}\right)+ \frac{1}{r^{2}\sin^{2}\theta}\left(\frac{\partial ^{2}\psi}{\partial \phi^{2}}\right)\right] + V\psi=E\psi$$
-La probabilità di misurare un certo autostato $|\phi\rangle$ al tempo $t$ è
-$$P_{\psi_{t}}(\phi)=|\langle \phi|\psi_{t}\rangle|^{2}$$
-Stati legati sono normalizzabili, stati liberi no. Un potenziale ammette stati legati se l'energia $E$ del sistema in quello stato è minore del potenziale a infinito, ossia $E<V(\pm\infty)$. In genere il potenziale va a zero a infinito e in tal caso, $E<0$.
+La probabilità di misurare un certo autostato $|\phi\rangle$ al tempo $t$ a partire dallo stato $\ket{\psi}$ è
+$$\text{Prob}_{t}(\phi|\psi)=|\langle \phi|\psi_{t}\rangle|^{2}$$
+Stati legati sono normalizzabili, stati liberi no. Un potenziale ammette stati legati se l'energia $E$ del sistema in quello stato è minore del potenziale a infinito, ossia $E<V(\pm\infty)$. In genere il potenziale va a zero a infinito e in tal caso, $E<0$. Per stati di posizione e momento
+$$\braket{ x | y } =\delta(x-y),\quad\braket{ x | p } =\frac{e^{ipx/\hbar}}{\sqrt{ 2\pi \hbar }}$$
 ### Equazione di Heisenberg
 Con evolutore $\hat{U}_{t}$
 $$\frac{d}{dt}\hat{A}_{t}=\frac{i}{\hbar}[\hat{H},\hat{A}_{t}]=\frac{i}{\hbar}\hat{U}_{t}^{+}[\hat{H},\hat{A}]\hat{U}_{t}$$
@@ -38,7 +39,7 @@ $$\hat{U}_{t}=\exp\left(- i \frac{\hat{H}}{\hbar} t\right)=\sum\limits_{i=1}^{\i
 da cui
 $$|\psi_{t}\rangle=\hat{U}_{t}|\psi\rangle \text{ (Schrödinger picture)},\qquad\hat{Q}_{t}=\hat{U}_{t}^{+}\hat{Q}\hat{U}_{t} \text{ (Heisenberg picture)}$$
 Propagatore $\bra{x} \hat{U}_{t}\ket{y}$ tale che con $\psi(y)$ stato iniziale
-$$\psi(x)=\int_{-\infty}^{\infty} \braket{ x | \hat{U}_{t} | y } \psi(y) \ dy $$
+$$\psi_{t}(x)=\int_{-\infty}^{\infty} \braket{ x | \hat{U}_{t} | y } \psi(y) \ dy $$
 Generatore di traslazioni di momento $\hat{U}_{p_{0}}=e^{-ip_{0}\hat{q}/\hbar}$ tale che
 $$\hat{U}_{p_{0}}^{+}\hat{p}\hat{U}_{p_{0}}=e^{ip_{0}\hat{q}/\hbar}\hat{p}e^{-ip_{0}\hat{q}/\hbar}=\hat{p}+ \frac{i}{\hbar}p_{0}[\hat{q},\hat{p}]=\hat{p}-p_{0}$$
 Operatore di traslazione $\hat{D}(\alpha)=e^{\alpha \hat{a}^{+}-\alpha^{*}\hat{a}}$ è unitario
@@ -83,7 +84,7 @@ $$\hat{P}_{i}|\phi\rangle=|i\rangle\langle i|\phi\rangle=|\phi_{i}\rangle$$
 e se stesso se proiettato su se stesso
 $$\hat{P}_{\psi}|\psi\rangle=\langle \psi|\psi\rangle|\psi\rangle=|\psi\rangle$$
 Relazione di completezza (discreta e continua)
-$$\sum\limits_{i=1}^{n}\hat{P}_{\psi_{i}}=\hat{\mathbf{1}} \quad ; \quad \int_{-\infty}^{+\infty}|e_{z}\rangle\langle e_{z}|dz=\hat{\mathbf{1}}$$
+$$\sum\limits_{i=1}^{n}\hat{P}_{\psi_{i}}=\hat{\mathbf{1}} \quad ; \quad \int_{-\infty}^{+\infty}|z\rangle\langle z|\ dz=\hat{\mathbf{1}}$$
 Idempotenza
 $$\hat{P}^{2}=\hat{P}$$
 Tutti gli operatori idempotenti hanno come unici autovalori 0 e 1. Infatti
@@ -186,7 +187,7 @@ e diventa uno agli autovalori visti sopra.
 Ammette solo stati legati
 $$\hat{H}=\frac{\hat{p}^{2}}{2m}+ \frac{m\omega ^{2}}{2}\hat{q}^{2}=\hbar\omega\left(\hat{a}^{+}\hat{a}+ \frac{1}{2}\right)$$
 Autostati in posizione
-$$\psi_{n}(x)=\frac{1}{\sqrt{n!}}(\hat{a}^{+})^{n}\underbrace{ \left(\frac{m\omega}{2\hbar}\right)^{1/4}e^{-(m\omega/2\hbar)x^{2}} }_{ \psi_{0}(x) };\quad E_{n}=\left(n+ \frac{1}{2}\right)\hbar\omega$$
+$$\psi_{n}(x)=\frac{1}{\sqrt{n!}}(\hat{a}^{+})^{n}\underbrace{ \left(\frac{m\omega}{\pi\hbar}\right)^{1/4}e^{-(m\omega/2\hbar)x^{2}} }_{ \psi_{0}(x) };\quad E_{n}=\left(n+ \frac{1}{2}\right)\hbar\omega$$
 con operatori di creazione e distruzione
 $$\hat{a}=\sqrt{ \frac{m\omega}{2\hbar} }\hat{q}+i \frac{1}{\sqrt{ 2m\omega \hbar }}\hat{p},\qquad \hat{a}^{+}=\sqrt{ \frac{m\omega}{2\hbar} }\hat{q}-i \frac{1}{\sqrt{ 2m\omega \hbar }}\hat{p}$$
 $$\hat{a}^{+}\ket{n} =\sqrt{n+1}\ket{n+1} ,\quad \hat{a}\ket{n} =\sqrt{n}\ket{n-1},\quad (\hat{a}^{+})^{n}\ket{0}=\sqrt{ n! }\ket{n} ,\quad \hat{a}^{n}\ket{n} =\sqrt{ n! }\ket{0}  $$
@@ -237,6 +238,7 @@ Per $n$-volte degeneri basta aumentare la dimensione della matrice e del vettore
 - La fase è arbitraria, ma la differenza di fase no! È importante soprattutto cercando i moduli quadri di coefficienti, tipo in $|\alpha|^{2}+|\beta|^{2}=1$. Se ad es. $\alpha=1/\sqrt{2}$, allora $\beta=e^{i\phi}/\sqrt{2}$, perché abbiamo deciso fase nulla in $\alpha$ e quindi la fase in $\beta$ non la possiamo più decidere.
 - L'energia potenziale in un'Hamiltoniana è tutta la parte che non include termini con $\hat{p}$, che sono invece di energia cinetica.
 - La normalizzazione dei parametri $\lvert \alpha \rvert^{2}+\lvert \beta \rvert^{2}+\ldots=1$ è obbligatoria per tutti gli stati normalizzati ed è un'equazione utile per determinarli (ad es. risolvendo un'equazione agli autovalori direttamente).
+- La varianza è $\text{var}(X)=E[X^{2}]-E[X]^{2}$.
 ## Metodi
 - Buca infinita → Raccogli costanti come $-k^{2}$ → Risolvi come oscillatore armonico classico → Quantizzazione compare nelle condizioni al contorno.
 - Oscillatore armonico → Raccogli $1/2m$ nell'Hamiltoniana → Definisci $a$ e $a^{+}$ → Trova l'operatore numero $a^{+}a$ per semplice prodotto → Esprimi Hamiltoniana in funzione di $a^{+}a$ → Trova stato fondamentale $|0\rangle$ sviluppando $a |0\rangle=0$ → Esce differenziale, risolvi integrando direttamente → Normalizza → Autovalore sostituendo → Autostati successivi applicando $a^{+}$ ripetutamente.
