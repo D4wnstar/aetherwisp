@@ -156,7 +156,19 @@ Ora che sappiamo la statica del sistema, vogliamo trovarne l'evoluzione temporal
 $$\ket{\psi_{t}} =\hat{U}_{t}\ket{\psi} =\sum_{n=0}^{\infty} \braket{ n | \psi } \hat{U}_{t}\ket{n} =\sum_{n=0}^{\infty} \braket{ n | \psi } e^{-it\hbar \omega(n+ 1/2)/\hbar}\ket{n} $$
 Ci interessa la [[Rappresentazioni dello stato|rappresentazione della posizione]] $\psi_{n}(x)=\braket{ x | n }$. (TODO: Rivedi lezione 07/11/24 verso la fine). Lo stato fondamentale è
 $$\boxed{\psi_{0}(x)=\sqrt[4]{ \frac{m\omega}{\hbar \pi} }e^{-(m\omega/2\hbar)x^{2}}}$$
-La forma degli autostati in posizione è data dai [[polinomi di Hermite]].
+La forma degli autostati in posizione può essere derivata in alcuni modo. In unità naturali di lunghezza ed energia, sono dati dai [[polinomi di Hermite]]. Si possono derivare dalla soluzione in serie dell'oscillatore armonico. Si possono anche ottenere dagli operatori di creazione e distruzione. Il primo stato eccitato si trova essere
+$$\boxed{\psi_{1}(x)=\sqrt[4]{ \frac{m\omega}{\hbar \pi} }\sqrt{ \frac{2m\omega}{\hbar} }xe^{-(m\omega/2\hbar)x^{2}}}$$
+
+> [!example] Con operatori di creazione e distruzione
+> Ci interessa $\psi_{1}(x)=\braket{ x | 1 }$. Allora
+> $$\begin{align}
+> \braket{ x | 1 }&=\braket{ x | \hat{a}^{+} | 0 } \\
+> &=\bra{x} \left( \sqrt{ \frac{m\omega}{2\hbar} }\hat{q}-i \frac{\hat{p}}{\sqrt{ 2m\omega \hbar }} \right)\ket{0} \\
+> &=\sqrt{ \frac{m\omega}{2\hbar} }x\psi_{0}(x)-\sqrt{ \frac{\hbar}{2m\omega} } \partial_{x}  \psi_{0}(x) \\
+> &=\sqrt{ \frac{m\omega}{2\hbar} }x\sqrt[4]{ \frac{m\omega}{\hbar \pi } }e^{-(m\omega/2\hbar)x^{2}}+\sqrt{ \frac{m\omega}{2\hbar} }\sqrt[4]{ \frac{m\omega}{\hbar \pi} }xe^{-(m\omega/2\hbar)x^{2}}= \\
+> &=\sqrt{ \frac{2m\omega}{\hbar} }\sqrt[4]{ \frac{m\omega}{\hbar \pi} }xe^{-(m\omega/2\hbar)x^{2}}
+> \end{align} $$
+
 #### Azione di $\hat{a}$ e $\hat{a}^{+}$
 Ora che sappiamo la forma degli autostati $(1)$, possiamo vedere quale sia l'azione di $\hat{a}$ e $\hat{a}^{+}$ su di loro. Partiamo da $\hat{a}$:
 $$\hat{a}\ket{n} =\hat{a} \frac{(\hat{a}^{+})^{n}}{\sqrt{ n! }}\ket{0} =\frac{(\hat{a}^{+})^{n}\hat{a}\ket{0}}{\sqrt{ n! }}+ \frac{1}{\sqrt{ n! }}\underbrace{ [\hat{a},(\hat{a}^{+})^{n}] }_{ n(\hat{a}^{+})^{n-1} }\ket{0}=\ldots $$
@@ -196,6 +208,55 @@ $$\begin{cases}
 \frac{d}{dt}\hat{p}_{t}=-m\omega ^{2}\hat{q}_{t}
 \end{cases}$$
 che sono identiche alle [[Hamilton equations|equazioni di Hamilton]] classiche. Questo è dovuto al fatto che $\hat{H}$ qui è quadratica sia in $\hat{q}$ che $\hat{p}$.
+### Forza di Lorentz
+Un'applicazione diretta dell'oscillatore armonico quantistico è per descrivere una [[particella]] [[Electric charge|elettricamente carica]] soggetta alla [[Lorentz force|forza di Lorentz]]. Questa può essere espressa come
+$$m \frac{d\mathbf{v}}{dt}=\frac{q}{c}\mathbf{v}\times \mathbf{B}(\mathbf{r},t)+q\mathbf{E}(\mathbf{r},t)$$
+Sfruttiamo l'[[Lagrange-Euler equation|equazione di Lagrange-Eulero]]
+$$\frac{d}{dt}\frac{ \partial \mathcal{L} }{ \partial \mathbf{v} } =\frac{ \partial \mathcal{L} }{ \partial \mathbf{r} } $$
+con $\mathcal{L}$ la [[Lagrangiana]] della particella. Ricordiamo le [[Maxwell's equations|equazioni di Maxwell]]:
+$$\nabla\cdot\mathbf{B}=0,\qquad \nabla\times\mathbf{E}=- \frac{1}{c}\frac{ \partial \mathbf{B} }{ \partial t } $$
+Usando il [[Magnetic vector potential|potenziale vettore]] $\mathbf{A}$ abbiamo anche $\nabla\times\mathbf{B}=\mathbf{A}$. Il [[curl|rotore]] di $\mathbf{E}$ mediante il potenziale vettore è
+$$\nabla\times\mathbf{E}=- \frac{1}{c}\frac{ \partial  }{ \partial t } \nabla\times\mathbf{A}=-\nabla\times\mathbf{\left( \frac{1}{c}\frac{ \partial \mathbf{A} }{ \partial t } \right) }$$
+Dunque
+$$\nabla\times\mathbf{\left( \mathbf{E}+ \frac{1}{c}\frac{ \partial \mathbf{A} }{ \partial t }  \right)}=0\quad\Rightarrow \quad \mathbf{E}+ \frac{1}{c}\frac{ \partial \mathbf{A} }{ \partial t } =-\nabla \Phi$$
+dove $\Phi$ è un [[Electric potential|potenziale elettrico]]. Ricordando che, essendo potenziali, possiamo traslare $\Phi$ e $\mathbf{A}$ di una costante senza cambiare la fisica, possiamo esprimere la [[gauge freedom|libertà di gauge]] come
+$$\begin{align}
+\mathbf{A}\to \mathbf{A}+\nabla f,\quad &\mathbf{B}\to \mathbf{B} \\
+\Phi\to \Phi- \frac{1}{c}\frac{ \partial f }{ \partial t } ,\quad &\mathbf{E}\to \mathbf{E}
+\end{align}$$
+dove $f$ è la funzione di gauge. Nel caso $\mathbf{E}=0$ e
+$$\mathbf{B}=(0,0,B)=\nabla\times\mathbf{A}=(\partial_{y}A_{z}-\partial_{z}A_{y},\partial_{z} A_{x}-\partial_{x} A_{z},\partial_{x} A_{y}-\partial_{y} A_{x})$$
+Allora $\mathbf{A}'=(0,B_{x},0)$ e $\mathbf{A}=\left( - \frac{B}{2}y, \frac{B}{2}x,0 \right)$. La funzione di gauge viene da
+$$\begin{cases}
+0=- \frac{B}{2}y+\partial_{x} f \\
+B_{x}=\frac{B}{2}x+\partial_{y} f \\
+0=0+\partial_{z} f
+\end{cases}$$
+Da cui $f(x,y)=\frac{B}{2}xy$.
+
+Una volta ottenuta la Lagrangiana, possiamo trovare l'Hamiltoniana tramite una [[trasformata di Legendre]] secondo
+$$H(\mathbf{r},\mathbf{p})=\mathbf{v}\cdot \mathbf{p}-\mathcal{L}(\mathbf{r},\mathbf{v})$$
+Cerchiamo quindi la Lagrangiana. Sostituendo quanto trovato nella forza di Lorentz abbiamo
+$$m \frac{d\mathbf{v}}{dt}=\frac{q}{c} \mathbf{v}\times\mathbf{A}- \frac{q}{c}\partial_{t} \mathbf{A}-q\nabla \Phi$$
+Il primo termine è
+$$m \frac{d\mathbf{v}}{dt}=\frac{d}{dt}\frac{ \partial  }{ \partial \mathbf{v} } \left( \frac{m\mathbf{v}^{2}}{2} \right)$$
+quindi
+$$\begin{align}
+\frac{d}{dt}\frac{ \partial  }{ \partial \mathbf{v} } \left( \frac{m\mathbf{v}^{2}}{2} \right)&=\frac{q}{c}(v_{y}(\nabla\times\mathbf{A})_{z}-v_{z}(\nabla\times\mathbf{A})_{y})- \frac{q}{c}\partial_{t} A_{x}-q\partial_{x} \Phi \\
+&=\frac{q}{c}(v_{y}\partial_{x} A_{y}-v_{y}\partial_{y}A_{x}-v_{z}\partial_{z}A_{x} +v_{z}\partial_{x} A_{z}-v_{x}\partial_{x}A_{x}+v_{x}\partial_{x} A_{x})- \frac{q}{c}\partial_{t} A_{x}-q \partial_{x} \Phi \\
+&=\ldots
+\end{align}$$
+Il termine $v_{x}\partial_{x}A_{x}$ è stato aggiunto e rimosso per poter semplificare l'equazione
+$$\begin{align}
+\ldots&=\frac{q}{c}\mathbf{v}\cdot \partial_{x} \mathbf{A}-\left( \frac{q}{c}\mathbf{v}\cdot \nabla A_{x}+ \frac{q}{c}\partial_{t} A_{x} \right)-q\partial_{x} \Phi \\
+&=\frac{q}{c}\partial_{x} (\mathbf{v}\cdot \mathbf{A})- \frac{q}{c} \frac{d}{dt}(\partial_{v_{x}}\mathbf{v} \cdot A)-q\partial_{x} \Phi
+\end{align}$$
+Allora
+$$\frac{d}{dt}\partial_{v_{x}} \left( \frac{m\mathbf{v}^{2}}{2} + \frac{q}{c}\mathbf{v}\cdot \mathbf{A}-q\Phi \right)=\partial_{x} \left( \frac{q}{c}\mathbf{v}\cdot A- q\Phi + \frac{m\mathbf{v}^{2}}{2} \right)$$
+e quindi
+$$\boxed{\mathcal{L}(\mathbf{r,\mathbf{v},t})=\frac{m\mathbf{v}^{2}}{2}+ \frac{q}{c}\mathbf{v}\cdot \mathbf{A}(\mathbf{r},t)-q\Phi(\mathbf{r},t)}$$
+Allora il momento è
+$$\mathbf{p}=\frac{ \partial \mathcal{L} }{ \partial \mathbf{v} } =m\mathbf{v}+ \frac{q}{c}\mathbf{A}(\mathbf{r},t)$$
 
 [^1]: Soddisfare l'equazione di Schrödinger significa che vale $H\psi=E\psi$, quindi vogliamo trovare $H(a_{+}\psi)=(E+\hbar\omega)\psi$. Difatti, si ha$$H(a_{+}\psi)=\hbar\omega\left(a_{+}a_{-}+ \frac{1}{2}\right)(a_{+}\psi)=\hbar\omega\left(a_{+}a_{-}a_{+}+ \frac{1}{2}a_{+}\right)\psi=\hbar\omega a_{+}\left(a_{-}a_{+}+ \frac{1}{2}\right)\psi=$$$$=a_{+}\left[\hbar\omega\left(\underbrace{a_{+}a_{-}+1}\limits_{*}+ \frac{1}{2}\right)\psi\right]=a_{+}(H+\hbar\omega)\psi=a_{+}(E+\hbar\omega)\psi=(E+\hbar\omega)(a_{+}\psi)$$dove in $*$ abbiamo usato il commutatore $[a_{+},a_{-}]=1$ per affermare $a_{-}a_{+}=a_{+}a_{-}+1$.
 
