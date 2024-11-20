@@ -1,0 +1,4 @@
+The **quantum grand canonical ensemble** is the quantum extension of the [[grand canonical ensemble]]. Its [[partition function]] is
+$$\mathcal{Z}(Z,V,T)=\sum_{N=0}^{\infty}Z^{N}Q_{N}(V,T)=\text{Tr}(e^{-\beta(\hat{H}-\mu \hat{N})})$$
+where $Z$ is the [[fugacity]], $Q_{N}$ is the [[canonical ensemble]]'s partition function, $V$ is the volume, $\beta=\frac{1}{k_{B}T}$ ($k_{B}$ is the [[Boltzmann constant]] and $T$ is the [[temperature]]), $\hat{H}$ is the [[Hamiltonian]] of the [[Physical system|system]], $\mu$ is the [[chemical potential]] and $\hat{N}$ is the [[Operatore|operator]] that denotes the number of [[Particella|particles]] in the system.
+ù
