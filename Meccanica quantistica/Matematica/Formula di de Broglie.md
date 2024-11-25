@@ -1,7 +1,8 @@
 ---
 aliases:
-  - lunghezza d'onda di De Broglie
+  - lunghezza d'onda di de Broglie
   - lunghezza d'onda di De Broglie ridotta
+  - lunghezza termica di de Broglie
 ---
 La **formula di de Broglie** lega la quantità di moto $q$ di una [[Particella]] alla sua lunghezza d'onda $\lambda$, intesa come la lunghezza dell'onda di materia quantistica. La formula è
 $$p=\frac{h}{\lambda}=\frac{2\pi\hbar}{\lambda}$$
@@ -12,6 +13,9 @@ $$\newcommand\lambdabar{
 \raise1.5pt{\moveright2.0pt\unicode{0x0335}}\moveleft1pt\lambda
 }
 \lambdabar=\frac{\lambda}{2\pi}=\frac{\hbar}{p}$$
+Si può anche definire la **lunghezza termica di de Broglie** come
+$$\lambda=\sqrt{\frac{2\pi\hbar^{2}}{mk_{B}T} }$$
+dove $k_{B}$ è la [[Boltzmann constant|costante di Boltzmann]], $m$ è la massa e $T$ è la [[Temperature|temperatura]]. Questa è utile perché quando la distanza media tra [[Bosone|bosoni]] diventa dell'ordine della lunghezza termica, accade la [[Bose-Einstein condensate|condensazione di Bose-Einstein]].
 
 In realtà, la situazione è più complessa. A causa dell'[[indeterminatezza quantistica]], nessuna particella ha una quantità di moto determinata, quindi di fatto questa formula non si applica ad esse. È tuttavia possibile considerare un pacchetto d'onda con un piccolo intervallo di quantità di moto e a questo genere di oggetto è si può applicare questa formula.
 

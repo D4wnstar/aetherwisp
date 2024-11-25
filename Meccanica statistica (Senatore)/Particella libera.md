@@ -8,7 +8,7 @@ $$\begin{align*}
 \psi(x) &= \sin(kx),\cos(kx) \\
 \psi(x) &= e^{ikx},e^{-ikx}
 \end{align*}$$
-Dobbiamo fissare delle condizioni al contorno: usiamo la [[Periodic Boundary Condition]] o la [[Homogenous Boundary Condition]].
+Dobbiamo fissare delle condizioni al contorno: usiamo la [[Periodic boundary condition]] o la [[Homogenous Boundary Condition]].
 
 Usando la HBC, deve essere
 $$\psi(x)=A\sin(kx)+B\cos(kx)$$

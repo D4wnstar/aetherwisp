@@ -8,7 +8,7 @@ where $k_{B}$ is the [[Boltzmann constant]], $\mu=\frac{U}{N}$ and $U$ is [[inte
 
 The mixing entropy is equal for something i guess so it's wrong?
 ### Correction
-The paradox was corrected by using **Boltzmann's corrected count** $\Sigma(E)/N!$. Using this new way of counting microstates, we get the **Salkur-Tetrode equation**:
+The paradox was corrected by using **Boltzmann's corrected count** $\Sigma(E)/N!$. Using this new way of counting microstates, we get the **Sackur-Tetrode equation**:
 $$S=Nk_{B}\ln\left( \frac{V}{N}\mu^{3/2} \right)+ \frac{3}{2}Nk_{B}\left( \frac{5}{3}+\ln \frac{4\pi m}{3h^{2}} \right)$$
 where $h$ is the [[Costante di Planck|Planck constant]] and $m$ is ???. This equation was proven correct experimentally.
 

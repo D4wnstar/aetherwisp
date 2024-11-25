@@ -1,6 +1,7 @@
 ---
 aliases:
   - point charge
+  - charge carrier
 ---
 **Electric charge**, often simply just **charge**, is the physical property of a [[particella|particle]] that causes it exhibit [[Interazione elettromagnetica|electromagnetic interaction]]. It may be positive, negative or zero. A particle with zero electric charge is said to be electrically neutral. Charges of different type annihilate each other, in the sense that their effects cancel each other out.
 
