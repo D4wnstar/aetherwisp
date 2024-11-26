@@ -11,7 +11,6 @@ and therefore
 $$\sum_{i=1}^{n} \frac{Q_{i}}{T_{i}}\leq 0$$
 For an infinite amount if steps $n\to \infty$, the sum becomes an integral and thus
 $$\oint \frac{dQ}{T}\leq 0$$
-
 ### Corollary
 Clausius' theorem implicitly states the following corollary:
 

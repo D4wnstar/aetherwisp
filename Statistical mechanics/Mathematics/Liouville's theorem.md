@@ -1,4 +1,4 @@
-**Liouville's theorem** proves that the density of [[Statistical mechanics/Ensemble/Ensemble|representative points]] near a point is constant and that the points behave like an incompressible fluid, in that their density does not change in time.
+**Liouville's theorem** proves that the density of [[Statistical mechanics/Ensemble/Ensemble|representative points]] near a point in [[phase space]] is constant and that the points behave like an incompressible fluid, in that their density does not change in time. In other words, state density is stationary.
 
 > [!info] Liouville's theorem
 > Consider an [[ensemble]] with density function $\rho(q,p,t)$. The density function obeys the following equality:

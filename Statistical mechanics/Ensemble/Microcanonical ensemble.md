@@ -5,7 +5,7 @@ $$\rho(\mathbf{q},\mathbf{p})=\begin{cases}
 \end{cases}$$
 where $H$ is the [[Hamiltoniana|Hamiltonian]] of the [[Physical system|system]] and $E$ is its total [[energy]]. Basically, the density is non-zero only in a tiny bracket of energy $[E,E+\Delta]$, and constant within that bracket. $\Delta$ is a small constant ($\Delta\ll E$) that allows for some uncertainty in the energy measurements and for qualitative purposes can be seen as zero. This means that the microcanonical ensemble describes a system whose energy is a well defined constant (within an uncertainty margin $\Delta$).
 
-Since the density function describes the [[probability]] that the system will be in a given [[microstate]] and it is constant, all allowed microstates of a microcanonical ensemble are equally likely, which satisfies the [[equal a priori probability hypothesis]].
+Since the density function describes the [[probability]] that the system will be in a given [[Stato|microstate]] and it is constant, all allowed microstates of a microcanonical ensemble are equally likely, which satisfies the [[equal a priori probability hypothesis]].
 ### Expectation values
 Given some [[variabile dinamica|dynamical variable]] $f(\mathbf{q},\mathbf{p})$, its most likely value (the [[mode]]) is the one that $f$ takes in the largest number of systems. The [[mean]] on the other hand is the usual [[ensemble average]]:
 $$\langle f \rangle = \frac{\int f(\mathbf{q},\mathbf{p})\rho(\mathbf{q},\mathbf{p})\,d^{3N}q\,d^{3N}p}{\int \rho(\mathbf{q},\mathbf{p})\,d^{3N}q\,d^{3N}p}$$
