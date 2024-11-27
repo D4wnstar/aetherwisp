@@ -18,6 +18,9 @@ The system energy is at the center of the sides and can be expressed in function
 The difference between exact differentials ($d$) and inexact differentials ($\delta$) here is somewhat important. This assumes reversible transformations and therefore exact differentials.
 
 For all of these, we use $dW=PdV$ and $dS=dQ/T$.
+#### Internal energy
+We get
+$$T=\left( \frac{ \partial U }{ \partial S }  \right)_{V}\qquad P=\left( \frac{ \partial U }{ \partial V }  \right)_{S}$$
 #### Enthalpy
 From $H$ we get
 $$dH=dU+d(PV)=dQ-\cancel{ dW }+\cancel{ PdV }+VdP=TdS+VdP$$
