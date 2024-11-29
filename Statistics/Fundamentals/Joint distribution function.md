@@ -6,3 +6,5 @@ The **joint distribution function** of a set of $N$ [[random variable|random var
 
 In the specific case of [[independent variables]], the joint distribution function is just the product of each individual [[probability density function]] or [[probability mass function]], as
 $$f(x_{1},x_{2},\ldots,x_{n})=f_{1}(x_{1})\ldots f_{n}(x_{n})$$
+For [[iid]] variables, it's simply the product of the shared distribution $g(x)$
+$$f(x_{1},x_{2},\ldots,x_{n})=\prod_{i=1}^{n} g(x_{i})$$

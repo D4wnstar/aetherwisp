@@ -1,3 +1,3 @@
 **iid** or **i.i.d.** is an acronym that stands for **independent and identically distributed**, with reference to two or more [[random variable|random variables]]. Two or more iid variables are [[independent variable|independent]] of each other and all follow the same [[probability distribution]]. They are a particularly simple case of a set of random variables, as the probability of a specific set of outcomes occurring is just the product of the probabilities of each outcome happening independently:
-$$p(x_{1},\ldots,x_{N})=\prod_{i=1}^{N} p(x_{i})$$
+$$P(x_{1},\ldots,x_{N})=\prod_{i=1}^{N} p(x_{i})$$
 where $p$ is the [[probability mass function]] or [[probability density function]] of the variables.
