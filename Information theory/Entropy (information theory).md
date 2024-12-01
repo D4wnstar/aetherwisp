@@ -3,6 +3,7 @@ aliases:
   - Shannon entropy
   - information-theoretical entropy
   - joint entropy
+  - Boltzmann entropy
 ---
 In information theory, the **entropy** $H_{X}$ or $H(X)$ of a discrete [[random variable]] $X$ defined in the [[sample space]] $\mathcal{X}$ and following some [[probability distribution]] described by the [[probability mass function]] $p(x)$, is
 $$H_{X}=-\sum_{x \in \mathcal{X}}p(x)\log_{2}p(x) $$
