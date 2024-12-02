@@ -1,19 +1,18 @@
 La **matrice di densità** o **densità statistica** $\hat{\rho}$ è una matrice con [[traccia]] unitaria definita come la forma matriciale di un [[operatore lineare]] [[Operatore semidefinito positivo|semidefinito positivo]] detto **operatore densità**. Essa descrive un sistema quantistico con più possibili [[stato|stati]] e permette di calcolare la [[probability|probabilità]] di riduzione del pacchetto d'onda in ogni possibile [[Equazione agli autovalori|autostato]] a seguito di una misura. È una forma più generale della rappresentazione in forma vettoriale, che è limitata agli stati puri. Le matrici di densità possono invece anche descrivere stati misti, e sono generalmente usata per questo[^1].
 
-Preso uno stato qualunque $\ket{\psi}$ e una [[sistema ortonormale completo]] $\{ a_{i} \}_{i}$ nello [[spazio di Hilbert]] di $\psi$, vale
-$$\hat{\rho}=\sum_{i=1}^{n} \lvert \braket{ a_{i} | \psi } \rvert ^{2}\hat{P}_{a_{i}} =\sum_{i=1}^{n} \hat{P}_{a_{i}}\hat{P}_{\psi}\hat{P}_{a_{i}}$$
-dove $\hat{P}$ sono [[proiettore|proiettori]]. I coefficienti $\lvert \braket{ a_{i} | \psi } \rvert^{2}$ sono probabilità, quindi la somma è una [[combinazione convessa]]:
-$$\sum_{i=1}^{n} \lvert \braket{ a_{i} | \psi } \rvert ^{2}=1\qquad \lvert \braket{ a_{i} | \psi } \rvert ^{2}\geq 0$$
+Preso uno stato qualunque $\ket{\psi}$ e una [[sistema ortonormale completo]] $\{ \phi_{i} \}_{i}$ nello [[spazio di Hilbert]] di $\psi$, vale
+$$\hat{\rho}=\sum_{i=1}^{n} p_{i}\ket{\phi_{i}} \bra{\phi_{i}} =\sum_{i=1}^{n} \lvert \braket{ \phi_{i} | \psi } \rvert ^{2}\hat{P}_{\phi_{i}} =\sum_{i=1}^{n} \hat{P}_{\phi_{i}}\hat{P}_{\psi}\hat{P}_{\phi_{i}}$$
+dove $\hat{P}$ sono [[proiettore|proiettori]]. I coefficienti $p_{i}=\lvert \braket{ \phi_{i} | \psi } \rvert^{2}$ sono probabilità, quindi la somma è una [[combinazione convessa]]:
+$$\sum_{i=1}^{n} \lvert \braket{ \phi_{i} | \psi } \rvert ^{2}=1\qquad \lvert \braket{ \phi_{i} | \psi } \rvert ^{2}\geq 0$$
 ### Proprietà
-La matrice di densità ha traccia unitaria, ossia
+La matrice di densità ha [[traccia]] unitaria, ossia
 $$\text{Tr}(\hat{\rho})=1$$
-Detti $\rho_{1}$ e $\rho_{2}$ gli [[Equazione agli autovalori|autovalori]] della matrice, il suo determinante e traccia sono
-$$\det(\hat{\rho})=\rho_{1}\rho_{2}, \quad \text{Tr}(\hat{\rho})=\rho_{1}+\rho_{2}$$
 La matrice di densità è [[Matrice hermitiana|autoaggiunta]]:
 $$\hat{\rho}=\overline{\hat{\rho}^{T}}$$
-Se $\hat{\rho}$ può essere scritto come un semplice proiettore su uno stato $\ket{\psi}$
+Se $\hat{\rho}$ può essere scritto come un semplice [[proiettore]] su uno stato $\ket{\psi}$
 $$\hat{\rho}=\hat{P}_{\psi}=\ket{\psi} \bra{\psi} $$
-allora $\ket{\psi}$ è uno stato puro. Altrimenti, $\ket{\psi}$ è uno stato misto.
+allora $\ket{\psi}$ è uno stato puro. Altrimenti, $\ket{\psi}$ è uno stato misto. La probabilità di trovarsi in uno stato $\ket{\psi}$ dopo una misura è
+$$\text{Prob}(\psi)=\braket{ \psi | \hat{\rho} | \psi } $$
 ### Rappresentazione di Bloch
 È possibile rappresentare la matrice di densità in forma più compatta usando le [[matrici di Pauli]]. Chiamando $\vec{r}=(r_{1},r_{2},r_3)$ un vettore qualunque detto **vettore di Bloch**, si ha
 $$\hat{\rho}= \frac{1+\vec{r}\cdot\vec{\sigma}}{2}$$
@@ -66,19 +65,4 @@ e infine, esplicitando i vettori generici, si ha
 $$\pmatrix{a_{\pm} \\ b_{\pm}}=e^{i\phi_{\pm}}\pmatrix{\sqrt{\frac{1}{2}\left(1\pm \frac{r_{3}}{r}\right)} \\ \pm e^{i\arctan(r_{2}/r_{1})}\sqrt{\frac{1}{2}\left(1\mp \frac{r_{3}}{r}\right)}}$$
 La fase totale $e^{i\arctan(r_{2}/r_{1})}$ non dà alcuna informazione, in quanto scompare nel calcolo della matrice del proiettore essendo moltiplicata per la sua coniugata, quindi è trascurabile. Questi due vettori sono effettivamente gli autovettori del proiettore.
 
----
-
-$$\hat{\rho}=\sum\limits_{i=1}^{\infty}P_{\psi}^{A}(a_{i})|a_{i}\rangle\langle a_{i}|=\sum\limits_{i=1}^{\infty}|\langle a_{i}|\psi\rangle|^{2}|a_{i}\rangle\langle a_{i}|=\sum\limits_{i=1}^{\infty}\langle a_{i}|\psi\rangle \langle \psi|a_{i}\rangle |a_{i}\rangle\langle a_{i}|$$
-$$=\sum\limits_{i=1}^{\infty}|a_{i}\rangle\langle a_{i}|\hat{P}_{\psi}|a_{i}\rangle\langle a_{i}|=\sum\limits_{i=1}^{\infty}\hat{P}^{A}_{a_{i}}\hat{P}_{\psi}^{A}\hat{P}^{A}_{a_{i}}$$
-$\hat{\rho}$ è un *[[operatore semidefinito positivo]]*, dunque si ha
-$$\langle \psi|\hat{\rho}\psi\rangle=\sum\limits_{\alpha}\lambda_{\alpha}\langle \psi|\hat{P}_{\alpha}\psi\rangle\geq0$$
-$$\langle \psi|\psi_\alpha\rangle \langle \psi_{\alpha}|\psi\rangle=|\langle \psi_{\alpha}|\psi\rangle|^{2}\geq 0$$
-In [[Meccanica quantistica/Rappresentazione spettrale]] è
-$$\hat{\rho}=\sum\limits_{\alpha}\lambda_{\alpha}\hat{P}_{\alpha}=\sum\limits_{\alpha}\lambda_{\alpha} |\psi_{\alpha}\rangle\langle \psi_{\alpha}|$$
-Cerco la traccia di $\hat{\rho}$ 
-$$\mbox{Tr}\hat{\rho}=\sum\limits_{\alpha}\lambda_{\alpha}=1$$
-$$\hat{P}_{\alpha}=|\psi_{\alpha}\rangle\langle \psi_{\alpha}||\psi\rangle\langle \psi|=1$$
-$$\hat{P}=|\psi_{i}\rangle\langle \psi_\alpha||\psi\rangle\langle \psi|=0$$
-con $\psi_{i}$ ket della base e sapendo che $\psi_{i} \perp \psi_{\alpha}$ sono ortogonali.
-
-[^1]: Va notato che le matrici di densità per stati misti dovuti da un [[Ensemble (vecchio)]] di stati puri e matrici per stati misti dovuti ad [[entanglement quantistico]] sono in genere diverse. Ad esempio, la matrice di densità per un ensemble composto in parti uguali da stati $\ket{\psi_{1}}$ e $\ket{\psi_{2}}$ sarà diversa da quella per un sistema intrecciato tra $\ket{\psi_{1}}$ e $\ket{\psi_{2}}$ con ampiezze di probabilità uguali.
+[^1]: Va notato che le matrici di densità per stati misti dovuti da un [[ensemble]] di stati puri e matrici per stati misti dovuti ad [[entanglement quantistico]] sono in genere diverse. Ad esempio, la matrice di densità per un ensemble composto in parti uguali da stati puri $\ket{\psi_{1}}$ e $\ket{\psi_{2}}$ sarà diversa da quella per un sistema intrecciato tra $\ket{\psi_{1}}$ e $\ket{\psi_{2}}$ con [[ampiezza di probabilità|ampiezze di probabilità]] uguali. La ragione è che la causa dell'incertezza in questi due casi è diversa: nel caso di un ensemble, proviene dalla nostra ignoranza riguardo alle specifiche del sistema; nel caso di entanglement, proviene da una legge fondamentale dell'Universo.

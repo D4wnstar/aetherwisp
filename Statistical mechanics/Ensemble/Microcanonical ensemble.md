@@ -97,3 +97,10 @@ Consider the definition of entropy in function of [[Entropy (information theory)
 > So
 > $$T=\frac{E}{k_{B}\log\left( \frac{NE-U}{U} \right)}$$
 > Note that this temperature could very well be negative. This, of course, is non-physical, but it's happening here regardless. The reason why it happens is that the system is being bounded in energy from above, that is, there is a maximum energy that the system cannot cross. The unphysical nature of negative temperature implies that systems with an energy maximum cannot exist, or at most exist as approximation of unbounded systems. This is the case for [[Sistema a due livelli|two-level systems]], which in practice do exist, but only within a short period of time. For instance, a [[qubit]] is a two-level system during the short period of its measurement, but if we were to observe one over long periods of time, it would not remain so as that would imply the possibility of negative temperature.
+> 
+> We can also invert the last equation to find the internal energy of the system:
+> $$U=\frac{NE}{e^{\beta E}+1}$$
+> or alternatively, using $n_{1}=U/E$, the fraction of particles in the $n_{1}$ state:
+> $$\frac{n_{1}}{N}=\frac{1}{e^{\beta E}+1}$$
+> This is the [[Fermi-Dirac distribution]] for a system with no [[chemical potential]]. It is interesting to see how we managed to find a strictly quantum property from a purely classical treatment. We can also derive the [[heat capacity]] from its definition:
+> $$C(T)=\frac{dU}{dT}=\frac{NE^{2}}{k_{B}T^{2}} \frac{e^{\beta E}}{e^{\beta E}+1}$$

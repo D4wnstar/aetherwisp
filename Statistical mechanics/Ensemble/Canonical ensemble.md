@@ -1,6 +1,7 @@
 The **canonical ensemble** is an [[ensemble]] that is not [[Physical system|isolated]] from the environment, but is in [[thermal equilibrium]] with a larger [[Physical system|system]] that acts as a [[heat reservoir]] (i.e., the environment). The [[energy]] is subject to fluctuation, but the number of [[Particella|particles]] is constant. Its density function is
 $$\rho(\mathbf{q},\mathbf{p})=e^{-\beta H(\mathbf{q},\mathbf{p})}$$
-where $\beta=1/k_{B}T$, $H$ is the [[Hamiltonian]], $k_{B}$ is the [[Boltzmann constant]] and $T$ is the [[temperature]].
+where $\beta=1/k_{B}T$, $H$ is the [[Hamiltonian]], $k_{B}$ is the [[Boltzmann constant]] and $T$ is the [[temperature]]. The [[Normalizzazione|normalization]] factor is the [[partition function]]
+$$Q_{N}(V,T)=\int \frac{e^{-\beta H(\mathbf{q},\mathbf{p})}}{h^{3N}N!} \ d^{3N}q\,d^{3N}p$$
 
 It differs from the [[microcanonical ensemble]], which has constant energy with no fluctuations, and the [[grand canonical ensemble]], which has fluctuations in both energy and particle number. For most solid and liquid systems, the canonical ensemble is the most convenient description, as it takes the interaction with the environment into account. Compared to the microcanonical, energy is derived from the equilibrium temperature instead of the other way around.
 ### Density function derivation
@@ -26,7 +27,7 @@ The first exponential is a constant, so we can drop it by redefining the normali
 $$\boxed{\rho(\mathbf{q},\mathbf{p})=e^{-\beta H(\mathbf{q},\mathbf{p})}}$$
 This is the density function of the canonical ensemble and is an incredibly important result in and out of physics because it essentially encodes a universal method to find a [[stato|state]] of equilibrium from an extremely complex system. In statistical physics, of course, it represents a huge number of particles needing to thermalize. But it may also represent cities in the [[traveling salesman problem]] or many other systems completely detached from physics. The function $H$ here is the [[Hamiltonian]], but it is more generally a [[cost function]] the minimum of which is the most stable equilibrium state.
 ### Partition function
-The [[partition function]] of the system is
+The [[partition function]] of the canonical ensemble is
 $$\boxed{Q_{N}(V,T)=\int \frac{e^{-\beta H(\mathbf{q},\mathbf{p})}}{h^{3N}N!} \ d^{3N}q\,d^{3N}p }$$
 The $N!$ comes from correct Boltzmann counting[^2], meanwhile $h^{3N}$ keeps the function dimensionless by canceling the dimensions of $d^{3N}q\,d^{3N}p$. Integration happens over the entire phase space. The following important result also holds:
 $$\boxed{Q_{N}(V,T)=e^{-\beta A(V,T)}}$$
@@ -68,7 +69,9 @@ $$\frac{ \partial U }{ \partial \beta } +\langle (U-H)^{2} \rangle =0$$
 $$\langle H^{2} \rangle -\langle H \rangle ^{2}=-\frac{ \partial U }{ \partial \beta }=-\frac{ \partial U }{ \partial T } \frac{ \partial T }{ \partial \beta } =-C_{V} \frac{1}{k_{B}} \frac{-1}{\beta}=k_{B}C_{V}T^{2} $$
 This connects the energy of a system with its constant-volume [[heat capacity]]. But the right hand side goes like $N$ for large particle numbers, as $k_{B}$ is constant and $T$ is [[Intensive property|intensive]], so only $C_{V}\sim N$ contributes. As such, the variance goes like $N$ asymptotically. If we compare it to the square [[mean]] of the energy $\langle H \rangle^{2}$, which goes like $N^{2}$, we can see that
 $$\boxed{\frac{\langle H^{2} \rangle -\langle H \rangle ^{2}}{\langle H \rangle ^{2}}\sim \frac{N}{N^{2}}\sim \frac{1}{N}}$$
-So for large $N$, the fluctuations tend to zero, which means that the energy of the system is essentially defined up to a tiny margin of error. But that's just the definition of the microcanonical ensemble, which confirms that for macroscopic systems, they are equivalent.
+So in the [[thermodynamic limit]], for large $N$, the fluctuations tend to zero, which means that the energy of the system is essentially defined up to a tiny margin of error. But that's just the definition of the microcanonical ensemble, which confirms that for macroscopic systems, they are equivalent. In fact, for canonical ensembles with a realistic number of particles $(\sim 10^{23})$, we might as well write $\text{var}(H)=0$ and $\langle H \rangle=H$.
+
+Another point that can be derived from variance equation is that the energy fluctuations are seemingly directly correlated with the heat capacity of a system. Though it might seem a bit odd at first, think of it like this: the heat capacity is the ability of a system to absorb and dissipate energy without large change in temperature. If an energy fluctuation occurs, a system with large heat capacity will scarcely respond it, whereas one with small heat capacity will feel it much more. As such, it's pretty natural to see that the system's fluctuations are dependent on how "good" it is at absorbing and dissipating energy. The bigger the heat capacity, the bigger the fluctuations are allowed to be without "breaking" the system. This is a specific case of a more universal result known as the [[fluctuation-dissipation theorem]].
 ##### Alternative argument
 Another possible argument for equivalence starts from the partition function
 $$Q_{N}(V,T)=\int e^{-\beta H(\mathbf{q},\mathbf{p})}dq\,dp=\int_{0}^{\infty} \omega(E)e^{-\beta E} \ dE=\int _{0}^{\infty}e^{-\beta E+\log \omega(E)} \ dE  =$$
