@@ -21,7 +21,7 @@ The idea is to manually[^1] rotate the loop *at a constant speed* in order to pr
 
 We expect the [[Electromotive force|emf]] that we see due to induction to be periodic:
 $$\mathcal{E}(t)=B_{L}n\omega(t)\pi R^{2}\sin \phi \sin \alpha \sin(\omega t)$$
-with $n$ the number of wire loops, $R$ the radius of the coil and $\omega$ is the angular frequency of rotation (ideally constant). $\phi$ is the angle between the local magnetic field and normal vector of the coil surface???. $\alpha$ is the angle between the local magnetic field and the axis of rotation of the coil.
+with $n$ the number of wire loops, $R$ the radius of the coil and $\omega$ is the angular frequency of rotation (ideally constant). $\phi$ is the angle between the local magnetic field and normal vector of the coil surface. $\alpha$ is the angle between the local magnetic field and the axis of rotation of the coil.
 
 In order to determine the direction of the local magnetic field, we can use the fact that if the axis of rotation $\alpha$ is parallel to the field, no field is induced as the magnetic flux does not vary. We can see this in the formula since if $\alpha=0$, $\sin \alpha=0$. To do this, we can take a measurement every 10 degrees or so for a full 180 degrees and figure out where the reading is smallest. We can put reference angles on the table to keep track of the orientation.
 
