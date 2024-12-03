@@ -71,13 +71,13 @@ which is exactly what we should expect as we are studying the system in the cont
 As a side note, $T_{1}=T_{2}$ holds for any two subsystems, which means that the global temperature of a [[Physical system|isolated system]] described by the microcanonical ensemble also regulates the temperature (and therefore thermal equilibrium) of all of its components.
 
 It can be proven that the entropy can be calculated from any of $\Gamma$, $\omega$ and $\Sigma$, and that they are all equal up to an additive constant:
-$$S=k_{B}\log \Gamma(E)\qquad S=k_{B}\log \omega(E)\qquad S=k_{B}\log \Sigma(E)$$
+$$\boxed{S=k_{B}\log \Gamma(E)\qquad S=k_{B}\log \omega(E)\qquad S=k_{B}\log \Sigma(E)}$$
 
 The only thing left to prove is that $S$ obeys the second law of thermodynamics. Thankfully this is straight-forward: the second law says that when a thermodynamic systems goes from one state to another through a [[Thermodynamic transformation|transformation]], the entropy does not decrease. In a microcanonical ensemble, entropy is a function of $E$, $N$ and $V$. But $E$ and $N$ are constant, so the only thing we can change to vary the state is $V$. But if $V$ is increased, then $\Sigma(E)$ must also increase as we are integrating over more states (recall that the integration bounds are affected by $V$). But since $S=k_{B}\log \Sigma(E)$, and $\Sigma(E)$ can only increase, then $S$ can also only increase. Thus, the second law is preserved, and with that we proved that $S$ is formally entropy.
 #### Connection to information theory
 Consider the definition of entropy in function of [[Entropy (information theory)|information-theoretical entropy]], $S=k_{B}S_\text{inf}$. Note that this has the same form as the above three, just with $S_\text{inf}$ instead of the $\log$ of $\Gamma$, $\omega$ or $\Sigma$. This suggests that all three of these are formally types of information-theoretical entropy, which then gets converted into physical entropy by the Boltzmann constant.
 ### Examples
-> [!info] Two state system
+> [!example] Two state system
 > Consider a system of $N$ particles. $n_{0}$ are at energy $0$ and $n_{1}$ are at energy $E>0$. Find the entropy and temperature of the system.
 > 
 > The total energy of the system must be $U=n_{1}E$ (all $n_{0}$ particles have no energy). We can write $n_{0}$ as
@@ -102,5 +102,5 @@ Consider the definition of entropy in function of [[Entropy (information theory)
 > $$U=\frac{NE}{e^{\beta E}+1}$$
 > or alternatively, using $n_{1}=U/E$, the fraction of particles in the $n_{1}$ state:
 > $$\frac{n_{1}}{N}=\frac{1}{e^{\beta E}+1}$$
-> This is the [[Fermi-Dirac distribution]] for a system with no [[chemical potential]]. It is interesting to see how we managed to find a strictly quantum property from a purely classical treatment. We can also derive the [[heat capacity]] from its definition:
+> This is the [[Fermi-Dirac distribution]] for a system with no [[chemical potential]]. It is interesting to see how we managed to find a strictly quantum property from a purely classical treatment. The reason is that a two state system is inherently a quantum idea as requires discretization of energy. We can also derive the [[heat capacity]] from its definition:
 > $$C(T)=\frac{dU}{dT}=\frac{NE^{2}}{k_{B}T^{2}} \frac{e^{\beta E}}{e^{\beta E}+1}$$

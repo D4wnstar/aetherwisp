@@ -2,13 +2,13 @@
 tags:
   - massimi-minimi
 ---
-Siano $F:A\subseteq \mathbb{R}^{N}\rightarrow\mathbb{R}^{M}$ con $1\leq M\leq N$ e $f:A\subseteq\mathbb{R}^{N}\rightarrow\mathbb{R}^{M}$. Definiamo **insieme vincolato** l'insieme $C=\{P\in A\;|\;F(P)=0\}\subseteq A$, ossia l'insieme di tutti i punti che annullano la funzione $F$. Prendiamo un punto $P_{0}\in C$.
-Supponiamo che $F$ sia di classe $C^1$ su $A$ con Jacobiana $J_{F}(P_{0})$ di rango massimo e che $f$ sia differenziabile in $P_{0}$.
+Siano $F:A\subseteq \mathbb{R}^{N}\rightarrow\mathbb{R}^{M}$ con $1\leq M\leq N$ e $f:A\subseteq\mathbb{R}^{N}\rightarrow\mathbb{R}^{M}$. Definiamo **insieme vincolato** l'insieme $C=\{P\in A\;|\;F(P)=0\}\subseteq A$, ossia l'insieme di tutti i punti che annullano la funzione $F$. Prendiamo un punto $P_{0}\in C$. Supponiamo che $F$ sia di classe $C^1$ su $A$ con [[Jacobian|Jacobiana]] $J_{F}(P_{0})$ di rango massimo e che $f$ sia [[Differenziabilità|differenziabile]] in $P_{0}$.
+
 Se $P_{0}$ è punto di estremo locale per $f$ relativo al vincolo $C$, allora esistono $\lambda_{1},\cdots,\lambda_{M}$ coefficienti reali detti **moltiplicatori di Lagrange** tali che
 $$\nabla f(P_{0})=\lambda_{1}\nabla F_{1}(P_{0})+\cdots+\lambda_{M}F_{M}(P_{0})$$
 dove $F_{k}$ sono le componenti di $F$.
-
-*Dimostrazione.* Consideriamo senza perdere di generalità il caso in cui $P_{0}$ sia minimo locale per $f$ relativo al vincolo $C$. Riordiniamo le variabili di $\mathbb{R}^{N}$ in modo da individuare le coordinate $P=(x,y)\in\mathbb{R}^{N-M}\times\mathbb{R}^{N}$ tali che la sottomatrice $\frac{\partial F}{\partial y}(x_{0},y_{0})$ della matrice Jacobiana sia invertibile. Usando il [[Teorema del Dini]] troviamo che l'insieme
+### Dimostrazione
+Consideriamo senza perdere di generalità il caso in cui $P_{0}$ sia minimo locale per $f$ relativo al vincolo $C$. Riordiniamo le variabili di $\mathbb{R}^{N}$ in modo da individuare le coordinate $P=(x,y)\in\mathbb{R}^{N-M}\times\mathbb{R}^{N}$ tali che la sottomatrice $\frac{\partial F}{\partial y}(x_{0},y_{0})$ della matrice Jacobiana sia invertibile. Usando il [[Teorema del Dini]] troviamo che l'insieme
 $$C\;\cap(U\times V)=\{(x,y)\in\mathbb{R}^{N- M}\times\mathbb{R}^{M}\;|\;y=\varphi(x),x\in U\}$$
 contiene il punto $P_{0}=(x_{0},y_{0})=(x_{0},\varphi(x_{0}))$. Poichè $P_{0}$ è minimo locale per $f$ relativo a $C$, esiste un insieme aperto $W=U_{1}\times V_{1}\subset U\times V$ tale che $f(P_{0})\leq f(P)$ per ogni $P\in W\cap C$. Quindi, per ogni $x\in U_{1}$, abbiamo $P=(x,\varphi(x))\in W\cap C$, quindi $f(P_{0})=f(x_{0},\varphi(x_{0}))\leq f(x,\varphi(x))\;\forall x\in U_{1}$.
 In pratica abbiamo trovato una funzione $f_{1}:U_{1}\subset \mathbb{R}^{N-M}\rightarrow\mathbb{R}$ definita come $f_{1}(x)=f(x,\varphi(x))$, che ha un punto di minimo in $x_{0}$. $f_{1}$ eredita la differenziabilità in $x_{0}$ di $f$ e vale

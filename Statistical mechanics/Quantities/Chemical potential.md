@@ -2,6 +2,6 @@ The **chemical potential** $\mu$ is an [[energy]] difference that determines the
 
 It is important in the description of the [[grand canonical ensemble]], where the number of particles is variable, but also generally describes the energy of adding a particle to a system like the [[Elettrone|electron]] shell of an [[Atomo|atom]].
 
-It can be expressed in terms of the [[Helmholtz free energy]] and [[Gibbs free energy]] as
-$$\mu=\left( \frac{ \partial A }{ \partial N }  \right)_{V,T}=\left( \frac{ \partial G }{ \partial N }  \right)_{P,T}$$
+It can be expressed in terms of the [[internal energy]], [[entropy]], [[Helmholtz free energy]] and [[Gibbs free energy]] as
+$$\mu=\left( \frac{ \partial E }{ \partial N }  \right)_{S,V}=-T\left( \frac{ \partial S }{ \partial N }  \right)_{E,V}=\left( \frac{ \partial A }{ \partial N }  \right)_{V,T}=\left( \frac{ \partial G }{ \partial N }  \right)_{P,T}$$
 If $\mu>0$, then if $N$ increases (i.e. particles are added), so do $A$ and $G$.

@@ -7,7 +7,9 @@ aliases:
 ---
 In information theory, the **entropy** $H_{X}$ or $H(X)$ of a discrete [[random variable]] $X$ defined in the [[sample space]] $\mathcal{X}$ and following some [[probability distribution]] described by the [[probability mass function]] $p(x)$, is
 $$H_{X}=-\sum_{x \in \mathcal{X}}p(x)\log_{2}p(x) $$
-It is often called **Shannon entropy** due to it being originally introduced by Claude Shannon.
+It is often called **Shannon entropy** due to it being originally introduced by Claude Shannon. If the [[probability]] is encoded in a [[Matrice di densità|density matrix]] $\hat{\rho}$, we can alternatively write
+$$H=-\text{Tr}(\hat{\rho}\log_{2} \hat{\rho})$$
+using the [[Traccia|trace]].
 
 Strictly speaking, the base of the logarithm is arbitrary and may be any real number. Base two is the most common choice as it encodes the idea of "true or false" outcomes and is measured in **bits**. In physics, however, base $e$ (i.e. $\ln$) is the more common choice as it spontaneously arises in nature. Entropy in base $e$ is measured in **nats**.
 ### Interpretation

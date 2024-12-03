@@ -1,5 +1,5 @@
-The **grand canonical ensemble** is an [[ensemble]] where both [[energy]] and number of [[Particella|particles]] can fluctuate. The number of particles is determined by environmental conditions external to the ensemble.
-### Partition function
+The **grand canonical ensemble** is an [[ensemble]] where both [[energy]] and number of [[Particella|particles]] can fluctuate. The number of particles is determined by environmental conditions external to the ensemble. Here, the conserved quantities are the [[temperature]] and the [[chemical potential]].
+### Density function derivation
 Let's consider two gases of particle numbers $N_{1}$ and $N_{2}$ bound by $N_{2}=N-N_{1}$ and volumes $V_{1}$ and $V_{2}$. Let's assume $V_{2}\gg V_{1}$ and $N_{2}\gg N_{1}$ and that the [[Hamiltonian]] is additive:
 $$H(\mathbf{q},\mathbf{p},N)=H(\mathbf{q}_{1},\mathbf{p}_{1},N_{1})+H(\mathbf{q}_{2},\mathbf{p}_{2},N_{2})$$
 This implicitly means that we are neglecting interactions between the gases, which generally means that the interaction range is short.
@@ -31,10 +31,12 @@ $$\rho(\mathbf{q}_{1},\mathbf{p}_{1},N_{1})=\frac{e^{-\beta(P_{1}V-N_{1}\mu)}}{h
 Now let's only consider system 1 (and drop the subscript for simplicity) and let's define [[fugacity]] as
 $$Z\equiv e^{\beta \mu}$$
 The density function becomes
-$$\rho(\mathbf{q},\mathbf{p},N)=\frac{Z^{N}}{h^{3N}N!}e^{-\beta PV-\beta H(\mathbf{q},\mathbf{p},N)}$$
-This is dependent on three variables: [[temperature]] $T$ (hidden in $\beta$), pressure $P$ and chemical potential $\mu$ (hidden in $Z$). We can finally write the **grand canonical partition function**:
+$$\boxed{\rho(\mathbf{q},\mathbf{p},N)=\frac{Z^{N}}{h^{3N}N!}e^{-\beta PV-\beta H(\mathbf{q},\mathbf{p},N)}}$$
+This is dependent on three variables: [[temperature]] $T$ (hidden in $\beta$), pressure $P$ and chemical potential $\mu$ (hidden in $Z$).
+### Partition function
+Using what we found when deriving the density function, we can write the **grand canonical partition function**:
 $$\boxed{\mathcal{Z}(Z,V,T)\equiv \sum_{N=0}^{\infty} Z^{N}Q_{N}(V,T)}$$
-which is an extended form of the canonical partition function.
+which is an extended form of the canonical partition function, weighed by the fugacity.
 ### Properties
 Since $N$ varies, we can express the [[mean]] number of particles as the [[ensemble average]]
 $$\langle N \rangle =\frac{\sum_{N=0}^{\infty}NZ^{N}Q_{N}(V,T)}{\sum_{N=0}^{\infty} Z^{N}Q_{N}(V,T)}$$
@@ -71,7 +73,6 @@ The internal energy does something similar
 $$dU=dQ-dW+\mu dN=TdS-PdV+\mu dV$$
 Same for [[Gibbs free energy]] $G=A+PV$:
 $$dG=dA+d(PV)=-PdV+\mu dV+PdV-VdP-SdT=VdP-SdT+\mu dN$$
-
 The chemical potential is the [[Moltiplicatori di Lagrange|Lagrange multiplier]] that governs the number of particles.
 ### Equivalence with canonical ensemble
 Consider the [[variance]] of the particle number:

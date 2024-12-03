@@ -1,6 +1,6 @@
 The **Helmholtz free energy** $A$ or $F$ is a measure of the energy of a system. It is defined as
 $$A=U-TS$$
-where $U$ is the [[internal energy]], $T$ is the [[temperature]] and $S$ is the [[entropy]].
+where $U$ is the [[internal energy]], $T$ is the [[temperature]] and $S$ is the [[entropy]]. Helmholtz free energy is particularly useful in systems that a constant temperature.
 ### Mechanically isolated system
 For a mechanically [[Physical system|isolated system]] at constant temperature, $A$ never increases. In fact, from the [[Laws of thermodynamics|second law of thermodynamics]] we get
 $$\int_{A}^{B} \frac{dQ}{T}\leq S(B)-S(A)\equiv \Delta S\quad\Rightarrow \quad \frac{\Delta Q}{T}\leq \Delta S$$
