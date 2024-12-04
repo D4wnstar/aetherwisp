@@ -102,6 +102,13 @@ $$\frac{S}{k_{B}}=\log W=\begin{align}
 &\text{(Fermions) }\sum_{i} \frac{g_{i}!}{\bar{n}_{i}!(g_{i}-\bar{n}_{i})!} = \sum_{i}g_{i}\left[ \frac{\beta E_{i}-\log Z}{Z^{-1}e^{\beta E_{i}}+1}+ \log(1+Ze^{-\beta E_{i}}) \right]\\
 &\text{(Boltzmann) } \sum_{i} \frac{g_{i}^{n_{i}}}{n_{i}!}=Z\sum_{i}g_{i}e^{-\beta E_{i}}(\beta E_{i}-\log Z)+N
 \end{align}$$
+If $\log g_{i}\gg 1$, the $+N$ term in the Boltzmann system can be safely ignored. It can be found that the $g_{i}$ functions are
+$$\begin{align}
+\text{(Bosons)}\quad g_{i}&=1 \\
+\text{(Fermions)}\quad g_{i}&=1 \\
+\text{(Boltzmann)}\quad g_{i}&=\frac{1}{N!} \frac{N!}{\sum_{i}n_{i}!}=\frac{1}{\sum_{i}n_{i}!}
+\end{align}$$
+#### Boltzmann system
 We can calculate the number of particles in the Boltzmann system as
 $$\begin{align}
 N&=Z\sum_{i}g_{i}e^{-\beta E_{i}}=Z\sum_{\mathbf{p}}e^{-\beta E_{\mathbf{p}}}=\frac{ZV}{h ^{3}}\int e^{-\beta p^{2}/2m}d\mathbf{p}= \\
@@ -110,11 +117,112 @@ N&=Z\sum_{i}g_{i}e^{-\beta E_{i}}=Z\sum_{\mathbf{p}}e^{-\beta E_{\mathbf{p}}}=\f
 \end{align}$$
 This can be expressed in a much simpler form using the [[Formula di de Broglie|de Broglie thermal wavelength]] $\lambda$:
 $$N=\frac{ZV}{\lambda ^{3}}$$
-Energy is
+The energy ends up being
 $$\begin{align}
 E&=\sum E_{i}n_{i}=\sum_{i}Zg_{i}E_{i}e^{-\beta E_{i}}=Z\sum_{\mathbf{p}} \frac{\mathbf{p}^{2}}{2m}e^{-\beta p^{2}/2m}=\frac{ZV}{h^{3}}4\pi \int_{0}^{\infty}p^{2} \frac{p^{2}}{2m}e^{-\beta p^{2}/2m}dp \\
 &=\frac{3}{2}k_{B}T
 \end{align}$$
-And the entropy is
+which is the classical result. The entropy is
 $$\frac{S}{k_{B}}=Z\sum_{\mathbf{p}}e^{-\beta E_{\mathbf{p}}}(\beta E_{\mathbf{p}}-\log Z)+N$$
 But this is just the Sackur-Tetrode equation, which was the original classical result.
+#### In the grand canonical ensemble
+The [[equation of state]] can be expressed with the grand [[partition function]] $\mathcal{Z}$ as
+$$\frac{PV}{k_{B}T}=\log \mathcal{Z}(Z,V,T)=\left\{\begin{align}
+\text{(Bosons)}\quad &-\sum_{\bar{p}} \log (1-Ze^{-\beta \varepsilon_{\bar{p}}}) \\
+\text{(Fermions)}\quad &\sum_{\bar{p}} \log(1+Ze^{-\beta \varepsilon_{\bar{p}}})
+\end{align}\right.$$
+The number of particle is
+$$\sum_{\bar{p}}\langle n_{\bar{p}} \rangle =N=Ze\frac{ \partial  }{ \partial Z } \mathcal{Z}(Z,V,T)=\left\{\begin{align}
+\text{(Bosons)}\quad &\sum_{\bar{p}} \frac{Ze^{-\beta \varepsilon_{\bar{p}}}}{1-Ze^{-\beta \varepsilon_{\bar{p}}}}  \\
+\text{(Fermions)}\quad &\sum_{\bar{p}} \frac{Ze^{-\beta \varepsilon_{\bar{p}}}}{1+Ze^{-\beta \varepsilon_{\bar{p}}}}
+\end{align}\right.$$
+The particle density is
+$$\frac{1}{v}=\frac{N}{V}=\frac{4\pi}{h^{3}}\int_{0}^{\infty}p^{2} \frac{1}{Z^{-1}e^{\beta p^{2}/2m}}dp$$
+##### Fermions
+For fermions, we get
+$$\frac{PV}{k_{B}T}=\log \mathcal{Z}=\sum_{\bar{p}}\log(1+Ze^{-\beta \varepsilon_{\bar{p}}})=\frac{V}{(2\pi h)^{3}}4\pi \int_{0}^{\infty}p^{2}\log(1+Ze^{-\beta p^{2}/2m})\ dp=\ldots$$
+Introducing the function
+$$f_{5/2}(Z)=\frac{4}{\sqrt{ \pi }}\int_{0}^{\infty}x^{2}\log(1+Ze^{-x^{2}})\ dx=\frac{4}{\sqrt{ \pi }}\sum_{j=1}^{\infty}\int_{0}^{\infty}x^{2}Z^{j}e^{-jx^{2}}=\sum_{j=1}^{\infty} \frac{(-1)^{j+1}Z^{j}}{j^{5/2}}$$
+(This is the Riemann function calculated in 5/2???) and using the substitution $\beta p^{2}/2m=y^{2}$, we can state
+$$\begin{align}
+\ldots&=\frac{4\pi}{h^{3}}\int_{0}^{\infty}\sqrt{ \frac{2m}{\beta} }y^{2} \frac{2m}{\beta}\log(1+Ze^{-y^{2}})\ dy \\
+&=\left( \frac{4\pi}{h^{3}} \right)\left( \frac{2m}{\beta} \right)^{3/2}\int_{0}^{\infty}y^{2}\log(1+Ze^{-y^{2}})\ dy \\
+&=\frac{1}{\lambda^{3}}f_{5/2}(Z)
+\end{align}$$
+using the thermal wavelength. The particle density is
+$$\frac{1}{v}=\frac{4\pi}{h^{3}}\left( \frac{2m}{\beta} \right)^{3/2}\int_{0}^{\infty} \frac{y^{2}}{Z^{-1}e^{y^{2}}+1}=\frac{1}{\lambda ^{3}}Z\frac{ \partial  }{ \partial Z } f_{5/2}(Z)$$
+If we introduce another function
+$$f_{3/2}(Z)=\sum_{j=1}^{\infty} \frac{(-1)^{j+1}Z^{j}}{j^{3/2}}$$
+we can finally get
+$$\boxed{\left\{ \begin{align}
+\frac{PV}{k_{B}T}&=\frac{1}{\lambda ^{3}}f_{5/2}(Z)\\
+\frac{1}{v}&=\frac{1}{\lambda ^{3}}f_{3/2}(Z)
+\end{align} \right.}$$
+##### Bosons
+For bosons we have
+$$\frac{PV}{k_{B}T}=-\sum_{\bar{p}}\log(1-Ze^{-\beta \varepsilon_{\bar{p}}})$$
+The average occupation number is
+$$\langle n_{\bar{p}} \rangle =\frac{1}{Z^{-1}e^{\beta \varepsilon_{\bar{p}}}-1}=\frac{1}{e^{\beta(\varepsilon_{\bar{p}}-\mu)}-1}$$
+Note that this function diverges if $e^{\beta(\varepsilon_{\bar{p}}-\mu)}=1$, which is to say $\mu=0$ and $\bar{p}\to 0$. In this state, the ground state's occupation number blows up to infinity and all other states becomes unoccupied, which means that all bosons "collapsed" into the ground state. This is called [[Bose-Einstein condensation]] and it only occurs in bosons due to the $-1$ term at the denominator. Fermions have a $+1$, which means that the function never diverges.
+
+Similarly to fermions, we can find
+$$\left\{ \begin{align}
+\frac{P}{k_{B}T}&=\frac{4\pi}{h^{3}}\int_{0}^{\infty}p^{2}\log(1-Ze^{\beta p^{2}/2m})\ dp- \frac{1}{V}\log(1-Z) \\
+\frac{1}{v}&=\frac{4\pi}{h^{3}}\int p^{2} \frac{1}{Z^{-1}e^{\beta p^{2}/2m}} + \frac{1}{V} \frac{Z}{1-Z}
+\end{align} \right.$$
+Defining
+$$g_{5/2}(Z)=\sum_{j=1}^{\infty} \frac{Z^{j}}{j^{5/2}},\qquad g_{3/2}(Z)=\sum_{j=1}^{\infty} \frac{Z^{j}}{j^{3/2}}$$
+we get
+$$\boxed{\left\{ \begin{align}
+\frac{P}{k_{B}T}&=\frac{1}{\lambda ^{3}}g_{5/2}(Z)- \frac{1}{V}\log(1-Z) \\
+\frac{1}{v}&=\frac{1}{\lambda ^{3}}g_{3/2}(Z)+ \frac{1}{V} \frac{Z}{1-Z}
+\end{align} \right.}$$
+##### Internal energy
+The grand canonical [[internal energy]] $U$ is
+$$U(Z,V,T)=-\left( \frac{ \partial  }{ \partial \beta } \log \mathcal{Z} \right)_{P,V}=-\frac{ \partial  }{ \partial \beta }  \frac{PV}{k_{B}T}$$
+For fermions we have
+$$U=-\frac{ \partial  }{ \partial \beta } \frac{1}{\lambda ^{3}}f_{5/2}(Z)$$
+$$\frac{ \partial P }{ \partial \beta } =\frac{ \partial  }{ \partial \beta } \left( k_{B}+ \frac{1}{\lambda ^{3}}f_{5/2}(Z) \right)$$
+$$\frac{U}{V}=\frac{3}{2}k_{B}+ \frac{1}{\lambda ^{3}}f_{5/2}(Z)$$
+For bosons we get the same
+$$\frac{U}{V}=\frac{3}{2}k_{B}+ \frac{1}{\lambda ^{3}}g_{5/2}(Z)$$
+In the [[thermodynamic limit]], these simplify down to
+$$U=\frac{3}{2}k_{B}T$$
+which is the classical result, satisfying the correspondence principle.
+##### Free boson gas
+Consider a gas of $N$ [[Particella libera (quantistica)|free]] bosons in a cubic volume $V=L^{3}$, where
+$$N=\sum_{\mathbf{p}}\langle n_{\mathbf{p}} \rangle =\sum_{\mathbf{p}}= \frac{1}{e^{\beta(\varepsilon_{\mathbf{p}}-\mu)}-1}$$
+and $\varepsilon_{\mathbf{p}}=\mathbf{p}^{2}/2m$ Since the bosons are free, their [[Equazione agli autovalori|eigenfunctions]] are [[plane wave|plane waves]]: $\propto e^{i\mathbf{p}\cdot \mathbf{r}/\hbar}$. The momentum in the in the direction $\hat{\mathbf{n}}=(n_{x},n_{y},n_{z})$ is
+$$\mathbf{p}=\frac{2\pi}{L}\hbar \hat{\mathbf{n}}$$
+There is a possible state for every direction. We want to find the number of states $G(\varepsilon)$ up to a certain energy $\varepsilon$:
+$$g(\varepsilon)=???$$
+The density of states (DOS) $g(\varepsilon)$ is
+$$g(\varepsilon)=\frac{ \partial G}{ \partial \varepsilon } =\frac{Vm^{3/2}}{\sqrt{ 2 }\pi ^{2}\hbar ^{3}}\sqrt{ \varepsilon }$$
+More generally, the DOS is a function like
+$$g(\varepsilon)=C_{\alpha}\varepsilon^{\alpha-1}$$
+As it happens, in three dimension $d=3$ and for $\alpha=d/2=3/2$ we have
+$$C_{3/2}=V \frac{\sqrt{ 2 }}{3\pi ^{2}\hbar ^{3}}$$
+The number of particles can be expressed through the DOS
+$$N=\sum_{\mathbf{p}} \frac{1}{e^{\beta(\varepsilon _{\mathbf{p}}-\mu)}-1}=\int_{0}^{\infty}g(\varepsilon) \frac{1}{e^{\beta(\varepsilon-\mu)}-1}d\varepsilon=\int_{0}^{\infty} \frac{C_{\alpha}\varepsilon^{\alpha-1}}{e^{\beta(\varepsilon-1)}-1}$$
+We want to solve this integral[^1]. In fact, we mostly want to see if there is a critical temperature $T_{C}\neq 0$ such that ???. To solve the integral, we define
+$$\frac{\varepsilon}{k_{B}T_{C}}=x$$
+This turns the integral into
+$$N=k_{B}T_{C}\int_{0}^{\infty} \frac{C_{\alpha}(k_{B}T_{C})^{\alpha-1}x^{\alpha-1}}{e^{x}-1}=(k_{B}T_{C})^{\alpha}\int_{0}^{\infty} \frac{x^{\alpha-1}}{e^{x}-1}\ dx$$
+We can instead solve
+$$\begin{align}
+\mathcal{I}&=\int_{0}^{\infty} \frac{x^{\alpha-1}}{e^{x}(1-e^{-x})}\ dx=\int_{0}^{\infty}x^{\alpha-1}e^{-x}\sum_{j=0}^{\infty}(e^{-x})^{j}= \\
+&=\sum_{j=0}^{\infty}\int x^{\alpha-1}e^{-x}e^{-jx}\ dx=\sum_{j'=1}^{\infty} \int_{0}^{\infty} e^{-j'x}x^{\alpha-1}\ dx= \\
+(j'x=y)\quad&=\sum_{j'=1}^{\infty} \int_{0}^{\infty} \frac{1}{j'}e^{-y}\left( \frac{y}{j} \right)^{\alpha-1}=\ldots \\
+\end{align} $$
+using the Riemann [[Zeta function]]
+$$\zeta(\alpha)=\sum_{n=1}^{\infty} \frac{1}{n^{\alpha}}$$
+and the [[Gamma function]]. So back to $N$ we have
+$$N=(k_{B}T_{C})^{\alpha}\Gamma(\alpha)\zeta(\alpha)$$
+We can invert the formula to find the critical temperature
+$$T_{C}=\frac{1}{k_{B}}\left[ \frac{N}{C_{\alpha}\Gamma(\alpha)\zeta(\alpha)} \right]^{1/\alpha}$$
+In the case $d=3\to \alpha=3/2$ we get, since $\Gamma\left( 3/2 \right)=\sqrt{ \pi }/2$,
+$$T_{C}=\frac{1}{k_{B}} \frac{N^{2/3}}{\left[ \frac{Vm^{3/2}}{\sqrt{ 2 }\pi ^{2}\hbar ^{3}}\Gamma\left( \frac{3}{2} \right)\zeta\left( \frac{3}{2} \right) \right]^{2/3}}=\frac{1}{k_{B}}\frac{2\pi}{\left[ \zeta\left( \frac{3}{2} \right) \right]^{2/3}} \frac{\hbar^{2}n^{2/3}}{m}$$
+using the density $n=N/V$. This is a finite number, which proves that a free boson gas can condense. With realistic numbers, we get a value of around $\sim 100\text{ nanokelvins}$.
+
+
+[^1]: Also see Chapter 1 of Feynman's *Statistical Mechanics*.
