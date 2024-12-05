@@ -143,7 +143,7 @@ For fermions, we get
 $$\frac{PV}{k_{B}T}=\log \mathcal{Z}=\sum_{\bar{p}}\log(1+Ze^{-\beta \varepsilon_{\bar{p}}})=\frac{V}{(2\pi h)^{3}}4\pi \int_{0}^{\infty}p^{2}\log(1+Ze^{-\beta p^{2}/2m})\ dp=\ldots$$
 Introducing the function
 $$f_{5/2}(Z)=\frac{4}{\sqrt{ \pi }}\int_{0}^{\infty}x^{2}\log(1+Ze^{-x^{2}})\ dx=\frac{4}{\sqrt{ \pi }}\sum_{j=1}^{\infty}\int_{0}^{\infty}x^{2}Z^{j}e^{-jx^{2}}=\sum_{j=1}^{\infty} \frac{(-1)^{j+1}Z^{j}}{j^{5/2}}$$
-(This is the Riemann function calculated in 5/2???) and using the substitution $\beta p^{2}/2m=y^{2}$, we can state
+(This is the Riemann zeta function calculated in 5/2???) and using the substitution $\beta p^{2}/2m=y^{2}$, we can state
 $$\begin{align}
 \ldots&=\frac{4\pi}{h^{3}}\int_{0}^{\infty}\sqrt{ \frac{2m}{\beta} }y^{2} \frac{2m}{\beta}\log(1+Ze^{-y^{2}})\ dy \\
 &=\left( \frac{4\pi}{h^{3}} \right)\left( \frac{2m}{\beta} \right)^{3/2}\int_{0}^{\infty}y^{2}\log(1+Ze^{-y^{2}})\ dy \\
