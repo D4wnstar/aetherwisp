@@ -64,7 +64,7 @@ Questo ci dice dunque che, in presenza di sola materia, $\Omega_{m}$ decide da s
 Per $\Omega_{m}\ll1$, quindi piccoli, $t_{0}$ si avvicina a $t_{H}$, mentre per $\Omega_m=1$ si ha $a(t)=(t/t_{0})^{2/3}$ e allora
 $$H(t)=\frac{1}{a} \frac{da}{dt}=\frac{2}{3t} \quad \Rightarrow \quad t_{0} = \frac{2t_{H}}{3}$$
 #### Universo di radiazione
-È possibile ripercorrere i passaggi per riottenere al seconda equazione per un universo dominato da [[radiazione]]. Basta notare che la massa $M$ nella sfera è la massa energia dei [[fotone|fotoni]] $M=\rho_{\gamma}V$, con $\rho_{\gamma}$ la densità di massa dei fotoni[^2]. Dato che questa va come $a(t)^{-4}$ e $V\propto a(t)^{3}$, la massa "diminuisce" col tempo per via dell'espansione come
+È possibile ripercorrere i passaggi per riottenere al seconda equazione per un universo dominato da [[radiazione]]. Basta notare che la massa $M$ nella sfera è la massa energia dei [[Photon|fotoni]] $M=\rho_{\gamma}V$, con $\rho_{\gamma}$ la densità di massa dei fotoni[^2]. Dato che questa va come $a(t)^{-4}$ e $V\propto a(t)^{3}$, la massa "diminuisce" col tempo per via dell'espansione come
 $$M= \frac{M_{1}}{a}$$
 dove 1 e 2 sono due tempi qualunque. Da qui si può ottenere
 $$\frac{H^{2}}{H_{1}^{2}}=\frac{\Omega_{r}}{a^{4}}+ \frac{1-\Omega_{r}}{a^{2}}$$

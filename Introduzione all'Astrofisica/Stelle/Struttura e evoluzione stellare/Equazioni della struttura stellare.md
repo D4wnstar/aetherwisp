@@ -25,7 +25,7 @@ assieme a:
 - la [[Boltzmann constant]] $k_{B}$
 - la densità di [[particella|particelle]] per unità di volume $n$, con $\mu$ il peso molecolare medio e $m_{p}$ la massa del [[protone]]
 - l'energia generata per unità di massa $\epsilon$
-- l'opacità del gas $\kappa$, con $l$ il cammino libero medio dei [[fotone|fotoni]]
+- l'opacità del gas $\kappa$, con $l$ il cammino libero medio dei [[Photon|fotoni]]
 - la [[costante di Stefan-Boltzmann]] $\sigma$
 
 Abbiamo anche delle condizioni al contorno:
@@ -84,7 +84,7 @@ Il processo effettivo con cui le stelle producono energia è la [[fusione nuclea
 ### Trasporto energetico
 Abbiamo bisogno di una quinta equazione per chiudere definitivamente il sistema. La termodinamica insegna che il trasporto di calore avviene attraverso tre meccanismi: [[conduzione]], [[convezione]] e [[irradiazione|irraggiamento]]. La conduzione per [[elettrone|elettroni]] è molto inefficiente e trascurabile. La convezione è di maggiore importanza. L'irraggiamento, anche noto come **trasporto radiativo** nel contesto dell'astrofisica, è di gran lunga il più interessante dei tre, per via dell'altissima opacità del gas stellare.
 
-Per via dell'altissima densità del gas, i [[fotone|fotoni]] hanno una probabilità molto alta di interagire con gli [[atomo|atomi]] e anche con gli elettroni liberi mediante [[diffusione di Thompson]]. Ciò significa che il percorso medio di un fotone emesso dentro una stella è molto piccolo. Se i fotoni emessi non escono dalla superficie, allora il gas è opaco. In queste condizioni, si raggiunge un equilibrio termodinamico locale, a differenza dello stato globale che sta irradiando verso l'esterno.
+Per via dell'altissima densità del gas, i [[Photon|fotoni]] hanno una probabilità molto alta di interagire con gli [[atomo|atomi]] e anche con gli elettroni liberi mediante [[diffusione di Thompson]]. Ciò significa che il percorso medio di un fotone emesso dentro una stella è molto piccolo. Se i fotoni emessi non escono dalla superficie, allora il gas è opaco. In queste condizioni, si raggiunge un equilibrio termodinamico locale, a differenza dello stato globale che sta irradiando verso l'esterno.
 
 Dato che i fotoni vengono emessi e riassorbiti di continuo, un singolo fotone[^5] impiega tempi enormi per uscire dalla superficie. Nel Sole, si teorizzano tempi medi di circa 30,000 anni. Questo tempo è cruciale perché determina il numero di fotoni che effettivamente escono dalla superficie, ossia quelli irradiati verso l'esterno, ossia quelli che vediamo e che determinano la luminosità stellare. Di fatto, la lentezza con cui escono i fotoni dalla stella agisce come un smorzatore della luminosità; se tutti i fotoni uscissero direttamente, la luminosità stellare sarebbe altissima.
 

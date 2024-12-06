@@ -202,7 +202,7 @@ Dato che gli [[Stato stazionario|stati stazionari]] sono ben noti, è possibile 
 $$E_{\gamma}=E_{i}-E_{f}=-13.6\text{ eV }\left( \frac{1}{n_{i}^{2}}- \frac{1}{n_{f}^{2}}\right)$$
 dove $n_{i}$ e $n_{f}$ sono i numeri quantici principali degli stato di inizio e fine.
 
-Usando la [[formula di Planck]] e il fatto che la lunghezza d'onda per un [[fotone]] sia $\lambda=c/\nu$, abbiamo anche
+Usando la [[formula di Planck]] e il fatto che la lunghezza d'onda per un [[Photon]] sia $\lambda=c/\nu$, abbiamo anche
 $$\frac{1}{\lambda}=R\left(\frac{1}{n^{2}_{f}}- \frac{1}{n_{i}^{2}}\right)$$
 dove $R$ è la [[costante di Rydberg]]. Questo risultato si dice **[[formula di Rydberg]]** per lo spettro dell'atomo di idrogeno.
 

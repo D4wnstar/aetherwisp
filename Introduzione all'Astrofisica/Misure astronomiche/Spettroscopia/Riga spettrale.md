@@ -7,7 +7,7 @@ aliases:
 Le **righe** o **linee spettrali** sono bande di luce in un intervallo ristretto di lunghezze d'onda in cui il flusso è considerevolmente più basso o più alto. Nel primo caso si parla di **righe di assorbimento**; nel secondo di **righe di emissione**. Nel grafico del [[flusso energetico]] si vedono come valli o picchi nella funzione, o come righe più scure o chiare se visualizzate come spettro arcobaleno.
 
 Le linee di assorbimento accadono quando ho una sorgente calda che sto osservando e nel mezzo c'è uno stato di materia non completamente opaca e non completamente [[ionizzazione|ionizzata]] che sta assorbendo la luce. In genere, ci sono due fenomeni che creano le linee di assorbimento:
-1. **Assorbimento**: il [[fotone]] viene assorbito da un [[elettrone]], che passa ad uno [[stato]] quantistico eccitato. Se la densità è sufficientemente alta, come nell'atmosfera di una [[Stella]], l'atomo eccitato colpisce a breve un altro [[atomo]], diseccitandosi collisionalmente tramutando l'energia assorbita in energia cinetica.
+1. **Assorbimento**: il [[Photon]] viene assorbito da un [[elettrone]], che passa ad uno [[stato]] quantistico eccitato. Se la densità è sufficientemente alta, come nell'atmosfera di una [[Stella]], l'atomo eccitato colpisce a breve un altro [[atomo]], diseccitandosi collisionalmente tramutando l'energia assorbita in energia cinetica.
 2. **Scattering**: l'atomo eccitato si diseccita radiativamente, ridirigendo il fotone in una direzione casuale in un angolo solido.
 
 Può succedere anche l'effetto contrario, ossia *linee di emissione*, per le stesse ragioni, ma al contrario. Inoltre, le linee di emissione possono anche essere causate da **fluorescenza**. Questo è tipico delle [[Regione H II|regioni H II]].

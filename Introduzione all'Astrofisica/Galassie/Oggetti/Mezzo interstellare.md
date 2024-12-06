@@ -24,7 +24,7 @@ $\mu$ è il [[peso molecolare]], $M_{J}$ la [[Formazione stellare|massa di Jeans
 
 Si pensa che l'ISM sia un mezzo multifase, ossia che in un certo volume (piccolo rispetto alla galassia che lo ospita) coesistano più fasi in contemporanea.
 ### Effetto
-La polvere diffusa è particolarmente importante in quanto ha effetti visibili, specialmente nell'ultravioletto. Quando un [[fotone]] interseca un grano di polvere interstellare, può
+La polvere diffusa è particolarmente importante in quanto ha effetti visibili, specialmente nell'ultravioletto. Quando un [[Photon]] interseca un grano di polvere interstellare, può
 1. essere *estinto*, ossia assorbito da uno dei granelli di polvere per aumentare il suo [[stato]] di energia;
 2. essere *arrossato* ([[Redshift]]). L'estinzione preferenziale dell'UV cambia il [[colore]] delle stelle, in un modo simile a ciò che accade durante il tramonto;
 3. essere *[[polarizzazione|polarizzato]]*, dato che i grani sono in genere non sferici, in rotazione e sono fatti di materiale ferromagnetico. Un campo magnetico può quindi allinearli e ciò rende il loro assorbimento dipendente dalla polarizzazione del fotone incidente;
@@ -53,4 +53,4 @@ Perché specificamente una polvere? Se si trattasse di un gas neutro o leggermen
 
 Questo non accade; l'assorbimento misurato è continuo. Un grano di polvere, con diametro paragonabile alle lunghezze d'onda dell'UV, assorbe (o devia) la luce in modo continuo. Questo spiega perfettamente il comportamento osservato.
 
-[^1]: Sia il [[protone]] che l'[[elettrone]] hanno [[spin]] e momento magnetico e la configurazione a spin allineate è meno energeticamente vantaggiosa di quello a spin opposto. Se l'atomo si trova in uno stato misto di spin allineati, allora decade in quello di spin opposto emettendo un [[fotone]]. 
+[^1]: Sia il [[protone]] che l'[[elettrone]] hanno [[spin]] e momento magnetico e la configurazione a spin allineate è meno energeticamente vantaggiosa di quello a spin opposto. Se l'atomo si trova in uno stato misto di spin allineati, allora decade in quello di spin opposto emettendo un [[Photon]]. 

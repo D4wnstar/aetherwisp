@@ -1,6 +1,6 @@
 Una **sfera di Strömgren** è una [[regione H II]] sferica possibilmente presente attorno ad una [[stella]] giovane di [[classe stellare]] O o B. Questo oggetto è osservato come una [[nebulosa a emissione]].
 ### Formazione
-Una stella massiva di classe O o B emette grandi quantità di [[fotone|fotoni]] UV, molti dei quali di lunghezza d'onda minore del [[limite di Lyman]]. Questi fotoni hanno energia sufficientemente alta non solo da rompere le molecole di idrogeno, ma anche di ionizzare l'[[atomo di idrogeno]]. Si forma dunque una regione sferica entro il quale tutto l'idrogeno è ionizzato.
+Una stella massiva di classe O o B emette grandi quantità di [[Photon|fotoni]] UV, molti dei quali di lunghezza d'onda minore del [[limite di Lyman]]. Questi fotoni hanno energia sufficientemente alta non solo da rompere le molecole di idrogeno, ma anche di ionizzare l'[[atomo di idrogeno]]. Si forma dunque una regione sferica entro il quale tutto l'idrogeno è ionizzato.
 
 Il raggio di questa sfera dipende dal numero di [[ionizzazione|ricombinazioni]] dell'idrogeno. Chiamo
 $$\mathcal{R}=\alpha n_{p}n_{e}$$

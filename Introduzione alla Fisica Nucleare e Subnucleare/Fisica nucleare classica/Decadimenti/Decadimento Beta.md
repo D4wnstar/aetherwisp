@@ -75,7 +75,7 @@ La freccia piegata nel $\beta^{+}$ indica che la produzione di $e^{+}$ e la pres
 $$\beta^{-}:\, ^{40}_{19}K \rightarrow\ ^{40}_{20}Ca+e^{-}+\bar{\nu}_{e}$$
 $$\beta^{+}:\ ^{40}_{20}K \rightarrow\ ^{40}_{18}Ar+e^{+}+\nu_{e}$$
 $$\text{c.e.}:\ ^{40}_{20}K+e^{-} \rightarrow\ ^{40}_{18}Ar + \nu_{e}$$
-Il $^{40}\text{Ar}$ a sua volta [[Decadimento Gamma|decade]] $\gamma$ dallo stato eccitato $2^{+}$ a quello fondamentale $0^{+}$ con rilascio di un [[fotone]].
+Il $^{40}\text{Ar}$ a sua volta [[Decadimento Gamma|decade]] $\gamma$ dallo stato eccitato $2^{+}$ a quello fondamentale $0^{+}$ con rilascio di un [[Photon]].
 ## Rilascio energetico
 ### $\beta^{-}$ nel vuoto
 Considero il decadimento $\beta^{-}$ del neutrone libero

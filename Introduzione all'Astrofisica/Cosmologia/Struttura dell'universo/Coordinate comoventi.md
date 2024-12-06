@@ -6,7 +6,7 @@ aliases:
 ---
 Le **coordinate comoventi** sono un sistema di riferimento che annulla l'effetto dell'[[espansione dell'universo]]. In altre parole, due oggetti misurati in coordinate comoventi restano fermi rispetto l'un l'altro se l'unico loro moto è quello del trascinamento di Hubble. In queste coordinate, gli unici movimenti misurati sono i *moti peculiari*.
 
-Consideriamo una sorgente cosmologica a [[redshift]] $z$. Un [[fotone]] che arriva a noi da essa è in ritardo per via della limitatezza della [[velocità della luce]]. Nel frattempo, la sorgente si è allontanata per l'espansione dell'universo. Senza le coordinate comoventi la velocità della sorgente è data dalla [[legge di Hubble]]:
+Consideriamo una sorgente cosmologica a [[redshift]] $z$. Un [[Photon]] che arriva a noi da essa è in ritardo per via della limitatezza della [[velocità della luce]]. Nel frattempo, la sorgente si è allontanata per l'espansione dell'universo. Senza le coordinate comoventi la velocità della sorgente è data dalla [[legge di Hubble]]:
 $$cz=H_{0}d+v_{0}$$
 con $v_{0}$ la velocità peculiare e $d$ la distanza.
 

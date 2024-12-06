@@ -47,7 +47,7 @@ $$[\hat{H},\hat{a}^{+}]=\hbar\omega\left[\left(\hat{a}^{+}\hat{a} + \frac{1}{2}\
 e calcoliamo anche l'azione dell'Hamiltoniana sull'operatore $\hat{a}^{+}$
 $$H(\hat{a}^{+}|?\rangle)=(H\hat{a}^{+}-\hat{a}^{+}H+\hat{a}^{+}H)|?\rangle=([H,\hat{a}^{+}]+a^{+}H)|?\rangle=(\hbar\omega\hat{a}^{+}+\hat{a}^{+}E_{n})|?\rangle=$$
 $$=(\hbar\omega+E_{n})\hat{a}^{+}|?\rangle$$
-Quindi vediamo che l'energia varia di un valore $\hbar\omega$. Da qui è nata l'idea di [[fotone]] come quanto di eccitazione del campo elettromagnetico.
+Quindi vediamo che l'energia varia di un valore $\hbar\omega$. Da qui è nata l'idea di [[Photon]] come quanto di eccitazione del campo elettromagnetico.
 
 Ora possiamo scrivere il campo elettrico in funzione degli operatori di creazione e distruzione
 $$\hat{E}(r,t)=\vec{e}_{i}(i\omega\hat{a}e^{i(kr-\omega t)}-i\omega\hat{a}^{+}e^{-i(kr-\omega t)})(c)=\alpha[\hat{X}\sin(\omega t-kr)+\hat{Y}\cos(\omega t-kr)]$$

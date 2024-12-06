@@ -100,7 +100,7 @@ L'andamento della perdita di energia per radiazione è esponenziale e per alte e
 
 Alcuni esempi di $L_{R}$ per certi materiali sono 3.6 cm per $H_{2}O$, 9 cm per $Al$, 1.7 cm per $Fe$ e 0.56 cm per $Pb$. Questo evidenzia perché il piombo è uno schermante così buono.
 
-Lo [[spettro di energia]] dei [[fotone|fotoni]] emessi va da 0 a $E_{0}$ con $\left\langle \theta \right\rangle\simeq mc^{2}/E_{0}$, indipendente dall'energia del fotone emesso. L'energia critica è circa di $\sim600/Z$ MeV.
+Lo [[spettro di energia]] dei [[Photon|fotoni]] emessi va da 0 a $E_{0}$ con $\left\langle \theta \right\rangle\simeq mc^{2}/E_{0}$, indipendente dall'energia del fotone emesso. L'energia critica è circa di $\sim600/Z$ MeV.
 
 Per particelle di massa $M$ si ha che la perdita per bremmstrahlung è $\propto1/M^{2}$. Ciò significa che la perdita di energia per radiazione è rilevante soltanto per particelle di massa molto piccola (appunto come elettroni) o in casi ad altissima energia (ultrarelativistici).
 

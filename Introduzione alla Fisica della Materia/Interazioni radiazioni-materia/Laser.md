@@ -1,4 +1,4 @@
-Un **laser** (*Light Amplification by Stimulated Emission of Radiation*) è uno strumento che sfrutta l'[[emissione stimolata]] di radiazione per emettere [[fotone|fotoni]] in un raggio altamente collimato.
+Un **laser** (*Light Amplification by Stimulated Emission of Radiation*) è uno strumento che sfrutta l'[[emissione stimolata]] di radiazione per emettere [[Photon|fotoni]] in un raggio altamente collimato.
 ### Funzionamento
 Un laser è composto da una cavità contenente un mezzo attivo circondato da specchi. Una spira circonda il mezzo attivo e una corrente viene generata da un alimentatore. Il campo elettromagnetico prodotto dalla spira causa l'emissione di fotoni dal mezzo. Uno degli specchi è semitrasparente: la maggior parte dei fotoni che lo colpiscono sono riflessi, ma alcuni rifrangono e sono convogliati verso l'esterno. Ciò crea un raggio di fotoni altamente collimato e possibilmente di altissima intensità.
 ![[Schema Laser|80%|center]]

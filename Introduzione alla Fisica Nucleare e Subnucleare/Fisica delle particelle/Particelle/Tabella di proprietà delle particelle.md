@@ -38,7 +38,7 @@
 ### Bosoni vettore
 | Nome         | Interazione      | Simbolo  | Massa (MeV) | Q      | B   | S   | L   | $J^{P}$ |
 | ------------ | ---------------- | -------- | ----------- | ------ | --- | --- | --- | ------- |
-| [[Fotone]]   | Elettromagnetica | $\gamma$ | 0           | 0      | 0   | 0   | 0   | $1^{-}$ |
+| [[Photon]]   | Elettromagnetica | $\gamma$ | 0           | 0      | 0   | 0   | 0   | $1^{-}$ |
 | [[Bosone W]] | Debole           | $W$      | 80377       | $\pm1$ | 0   | 0   | 0   | $1$     |
 | [[Bosone Z]] | Debole           | $Z$      | 91188       | 0      | 0   | 0   | 0   | $1$     |
 | [[Gluone]]   | Forte            | $g$      | 0           | 0      | 0   | 0   | 0   | $1^{-}$ |

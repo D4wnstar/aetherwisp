@@ -2,7 +2,7 @@
 aliases:
   - coefficiente di assorbimento
 ---
-La **legge di Beer-Lambert** descrive l'attenuazione di un raggio di luce (più correttamente[[fotone|fotoni]]) durante il passaggio attraverso la materia. È una legge esponenziale dalla forma
+La **legge di Beer-Lambert** descrive l'attenuazione di un raggio di luce (più correttamente[[Photon|fotoni]]) durante il passaggio attraverso la materia. È una legge esponenziale dalla forma
 $$I=I_{0}e^{-\mu x}$$
 dove $I_{0}$ è l'intensità del raggio iniziale, $\mu$ è il **coefficiente di assorbimento** e $x$ è lo spazio percorso entro il materiale.
 ### In fisica delle particelle

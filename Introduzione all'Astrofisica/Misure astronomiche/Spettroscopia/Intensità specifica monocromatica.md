@@ -1,4 +1,4 @@
-L'**intensità specifica monocromatica** $I_{\lambda}$ è l'energia $dE$, misurata in [[fotone|fotoni]] di lunghezza d'onda in un intervallo $d\lambda$, provenienti da un certo angolo solido $d\Omega$, che attraversano una superficie $dS$ in un tempo $dt$. In simboli:
+L'**intensità specifica monocromatica** $I_{\lambda}$ è l'energia $dE$, misurata in [[Photon|fotoni]] di lunghezza d'onda in un intervallo $d\lambda$, provenienti da un certo angolo solido $d\Omega$, che attraversano una superficie $dS$ in un tempo $dt$. In simboli:
 $$I_{\lambda}=\frac{dE}{d\lambda d\Omega dSdt}$$
 Nel caso specifico di un [[corpo nero]], essa vale
 $$B_{\lambda}(T)= \frac{2hc^2

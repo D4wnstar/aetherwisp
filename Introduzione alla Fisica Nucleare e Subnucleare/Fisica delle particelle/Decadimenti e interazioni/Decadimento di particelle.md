@@ -30,7 +30,7 @@ E^{2}_{c}=p^{2}+m_{c}^{2}=\frac{M_{a}^{2}-(m_{b}^{2}-m_{c}^{2})}{2M_{a}}=\frac{s
 \end{cases}$$
 quindi una volta fissata $\sqrt{ s }$, anche le energie dipendono solo dalle masse.
 #### Particella in volo
-Consideriamo una particella in volo nel sistema di riferimento del laboratorio. Per esempio, un [[pione]] che decade in due [[fotone|fotoni]]: $\pi^{0} \rightarrow \gamma\gamma$. In questo caso, le particelle figlie vengono emesse ad un angolo.
+Consideriamo una particella in volo nel sistema di riferimento del laboratorio. Per esempio, un [[pione]] che decade in due [[Photon|fotoni]]: $\pi^{0} \rightarrow \gamma\gamma$. In questo caso, le particelle figlie vengono emesse ad un angolo.
 
 ![[Schema Decadimento ad un angolo|80%|center]]
 

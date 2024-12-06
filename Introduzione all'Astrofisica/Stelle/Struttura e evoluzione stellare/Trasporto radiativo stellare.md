@@ -31,7 +31,7 @@ Consideriamo un guscio di gas stellare di spessore $\Delta r$ a distanza $L$ dal
 $$E_{ecc}=4\pi r^{2}\Delta r\Delta u$$
 Il tempo che una particella impiega a attraversare questo guscio è
 $$\tau= \frac{(\Delta r)^{2}}{lc}$$
-La [[luminosità]] dovuta ai [[fotone|fotoni]] uscenti da quel guscio è
+La [[luminosità]] dovuta ai [[Photon|fotoni]] uscenti da quel guscio è
 $$L(r)=-\frac{E_{ecc}}{\tau}= - \frac{4\pi r^{2}\Delta r \Delta u}{\frac{\Delta r^{2}}{lc}}=- 4\pi r^{2}lc \frac{\Delta u}{\Delta r}$$
 che è un'approssimazione. Il valore reale ottenuto con calcoli più complessi è
 $$L(r)=- \frac{4}{3}\pi r^{2}lc \frac{\Delta u}{\Delta r}$$

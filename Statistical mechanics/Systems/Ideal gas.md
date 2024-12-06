@@ -139,7 +139,9 @@ $$\sum_{\bar{p}}\langle n_{\bar{p}} \rangle =N=Ze\frac{ \partial  }{ \partial Z 
 The particle density is
 $$\frac{1}{v}=\frac{N}{V}=\frac{4\pi}{h^{3}}\int_{0}^{\infty}p^{2} \frac{1}{Z^{-1}e^{\beta p^{2}/2m}}dp$$
 ##### Fermions
-For fermions, we get
+For fermions, the average occupation number is
+$$\langle n_{\bar{p}} \rangle =\frac{1}{Z^{-1}e^{\beta \varepsilon_{\bar{p}}}+1}=\frac{1}{e^{\beta(\varepsilon_{\bar{p}}-\mu)}+1}$$
+We get
 $$\frac{PV}{k_{B}T}=\log \mathcal{Z}=\sum_{\bar{p}}\log(1+Ze^{-\beta \varepsilon_{\bar{p}}})=\frac{V}{(2\pi h)^{3}}4\pi \int_{0}^{\infty}p^{2}\log(1+Ze^{-\beta p^{2}/2m})\ dp=\ldots$$
 Introducing the function
 $$f_{5/2}(Z)=\frac{4}{\sqrt{ \pi }}\int_{0}^{\infty}x^{2}\log(1+Ze^{-x^{2}})\ dx=\frac{4}{\sqrt{ \pi }}\sum_{j=1}^{\infty}\int_{0}^{\infty}x^{2}Z^{j}e^{-jx^{2}}=\sum_{j=1}^{\infty} \frac{(-1)^{j+1}Z^{j}}{j^{5/2}}$$
