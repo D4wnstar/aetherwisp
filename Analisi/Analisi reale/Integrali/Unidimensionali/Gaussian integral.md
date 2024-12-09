@@ -10,3 +10,11 @@ A related integral is
 $$\int_{-\infty}^{\infty} x^{2}e^{-x^{2}} \ dx=\frac{\sqrt{ \pi }}{2a^{3/2}}$$
 The relation between the two can be seen by applying [[Integrazione per parti|integration by parts]] on $1$ and $e^{-x^{2}}$ on the Gaussian integral:
 $$\int_{-\infty}^{\infty} e^{-x^{2}} \ dx=2a\int_{-\infty}^{\infty} x^{2}e^{-x^{2}} \ dx$$
+### General solution
+An analytical solution can be derived for the more general case
+$$\begin{align}
+\int_{0}^{\infty}x^{n}e^{-ax^{2}}\ dx&=\left( \frac{1}{a} \right)^{(n+1)/2}\int_{0}^{\infty}e^{-t}t^{n/2} \frac{t^{-1/2}}{2} \ dt \\
+&=\frac{1}{2}\left( \frac{1}{a} \right)^{(n+1)/2}\int_{0}^{\infty}e^{-t}t^{(n-1)/2}\ dt \\
+&=\frac{1}{2}\left( \frac{1}{a} \right)^{(n+1)/2}\Gamma\left( \frac{n+1}{2} \right)
+\end{align}$$
+where $n\in \mathbb{N}$ and we again made the $x=\sqrt{ t }$ substitution, then used the definition of Gamma function. Careful with the integration bounds, as they are $[0,\infty[$ here, not $]-\infty,+\infty[$.
