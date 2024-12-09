@@ -1,4 +1,4 @@
-The **binomial distribution** is a real discrete [[probability distribution]] that describes events that can only take two values: true or false, head or tails, etc.. It is described by two parameters: $p$ and $q=1-p$, such that $p+q=1$. For a [[random variable]] $K$, its [[probability mass function]] is
+[]()The **binomial distribution** is a real discrete [[probability distribution]] that describes events that can only take two values: true or false, head or tails, etc.. It is described by two parameters: $p$ and $q=1-p$, such that $p+q=1$. For a [[random variable]] $K$, its [[probability mass function]] is
 $$P_{k}=P(k;n,p)=\begin{pmatrix}n \\ k\end{pmatrix}p^{k}q^{n-k}$$
 using the [[Binomial theorem|binomial coefficient]], hence the name. $k$ must be between $0\leq k\leq n$. $P_{k}$ is the probability that $k$ events will all be true (or head, or anything else), each with probability $p$ of occurring, over $n$ total attempts. For instance, the probability that 6 coin tosses will all result in head is, with probability $p=0.5$ and $q=0.5$:
 $$P_{6}=\begin{pmatrix}n \\ 6\end{pmatrix}0.5^{6}0.5^{n-6}$$
