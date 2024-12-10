@@ -1,11 +1,12 @@
 The **canonical ensemble** is an [[ensemble]] that is not [[Physical system|isolated]] from the environment, but is in [[thermal equilibrium]] with a larger [[Physical system|system]] that acts as a [[heat reservoir]] (i.e., the environment). The [[energy]] is subject to fluctuation, but the number of [[Particella|particles]] is constant. Its density function is
-$$\rho(\mathbf{q},\mathbf{p})=e^{-\beta H(\mathbf{q},\mathbf{p})}$$
-where $\beta=1/k_{B}T$, $H$ is the [[Hamiltonian]], $k_{B}$ is the [[Boltzmann constant]] and $T$ is the [[temperature]]. The [[Normalizzazione|normalization]] factor is the [[partition function]]
+$$\rho(\mathbf{q},\mathbf{p})=\frac{1}{Q_{N}}e^{-\beta H(\mathbf{q},\mathbf{p})}$$
+where $\beta=1/k_{B}T$, $H$ is the [[Hamiltonian]], $k_{B}$ is the [[Boltzmann constant]] and $T$ is the [[temperature]]. The [[Normalizzazione|normalization]] factor is the [[partition function]][^1]
 $$Q_{N}(V,T)=\int \frac{e^{-\beta H(\mathbf{q},\mathbf{p})}}{h^{3N}N!} \ d^{3N}q\,d^{3N}p$$
+Here, $h$ is a constant to make the function dimensionless. It is usually assumed to be the [[Costante di Planck|Planck constant]].
 
 It differs from the [[microcanonical ensemble]], which has constant energy with no fluctuations, and the [[grand canonical ensemble]], which has fluctuations in both energy and particle number. For most solid and liquid systems, the canonical ensemble is the most convenient description, as it takes the interaction with the environment into account. Compared to the microcanonical, energy is derived from the equilibrium temperature instead of the other way around. In fact, in the canonical ensemble, temperature serves much of the same role as energy does in the microcanonical, being the quantity that's guaranteed to remain static in time.
 ### Density function derivation
-Let's consider the system (1) and the reservoir (2) separately, each with a large and constant number of particles $N_{1}\gg 1$ and $N_{2}\gg 1$. Combined, they make up an [[Physical system|isolated system]] which can be described by a [[microcanonical ensemble]][^1] of energy $E_{1} + E_{2}$ that obeys
+Let's consider the system (1) and the reservoir (2) separately, each with a large and constant number of particles $N_{1}\gg 1$ and $N_{2}\gg 1$. Combined, they make up an [[Physical system|isolated system]] which can be described by a [[microcanonical ensemble]][^2] of energy $E_{1} + E_{2}$ that obeys
 $$E_\text{total}<E_{1}+E_{2}<E_\text{total}+2\Delta$$
 where $E_\text{total}$ is the energy of the system + reservoir and $\Delta$ is a small amount of energy (to account for uncertainty). For clarity: $E_\text{total}$ is approximately constant, but $E_{1}$ and $E_{2}$ are *not*. We ignore the interaction between the two system beyond the transfer of energy so that the total Hamiltonian is just a sum
 $$H=H_{1}+H_{2}$$
@@ -25,11 +26,13 @@ where we used the [[Maxwell relations|Maxwell relation]] $\frac{ \partial S_{2} 
 $$\Gamma_{2}(E_\text{total}-E_{1})=e^{S_{2}(E_\text{total})/k_{B}}e^{-E_{1}/k_{B}T}=\rho_{1}(\mathbf{q}_{1},\mathbf{p_{1}})$$
 The first exponential is a constant, so we can drop it by redefining the normalization constant. By writing $E_{1}=H_{1}(\mathbf{q}_{1},\mathbf{p}_{1})$, using the inverse temperature $\beta=1/k_{B}T$ and dropping the index 1, we can write the density function:
 $$\boxed{\rho(\mathbf{q},\mathbf{p})=e^{-\beta H(\mathbf{q},\mathbf{p})}}$$
+Note that it is not yet normalized. The normalization factor is the partition function below.
+
 This is the density function of the canonical ensemble and is an incredibly important result in and out of physics because it essentially encodes a universal method to find a [[stato|state]] of equilibrium from an extremely complex system. In statistical physics, of course, it represents a huge number of particles needing to thermalize. But it may also represent cities in the [[traveling salesman problem]] or many other systems completely detached from physics. The function $H$ here is the [[Hamiltonian]], but it is more generally a [[cost function]] the minimum of which is the most stable equilibrium state.
 ### Partition function
 The [[partition function]] of the canonical ensemble is
 $$\boxed{Q_{N}(V,T)=\int \frac{e^{-\beta H(\mathbf{q},\mathbf{p})}}{h^{3N}N!} \ d^{3N}q\,d^{3N}p }$$
-The $N!$ comes from correct Boltzmann counting[^2], meanwhile $h^{3N}$ keeps the function dimensionless by canceling the dimensions of $d^{3N}q\,d^{3N}p$. Integration happens over the entire phase space. The following important result also holds:
+The $N!$ comes from correct Boltzmann counting[^1], meanwhile $h^{3N}$ keeps the function dimensionless by canceling the dimensions of $d^{3N}q\,d^{3N}p$. Integration happens over the entire phase space. The following important result also holds:
 $$\boxed{Q_{N}(V,T)=e^{-\beta A(V,T)}}$$
 where $A=U-TS$ is the [[Helmholtz free energy]] (needs to be proven; see below). Since $A$ is an [[equation of state]], it encodes all information about the system. If one can calculate the partition function, the free energy can be extracted from it, and from the free energy we get everything about the system.
 
@@ -89,6 +92,41 @@ So for large particle counts, the energy distribution tends to become a [[Delta 
 $$\ldots=\int_{-U}^{\infty}e^{-x^{2}/2k_{B}T^{2}C_{V}}dx \simeq \int_{-\infty}^{\infty} e^{-x^{2}/2k_{B}T^{2}C_{V}} dx =\sqrt{ 2\pi k_{B}T^{2}C_{V} }$$
 
 A third argument for equivalence is purely qualitative. Consider a body in thermal equilibrium. Necessarily, the temperature of any piece of it has to be equal to the average temperature, as if it weren't, it wouldn't be in equilibrium. More generally, a body at equilibrium with the Universe must have the same temperature of the Universe. (TODO: Finish this discussion)
+### Minimization of free energy
+In thermodynamics, a system will spontaneously converge the state of lowest free energy. This can be derived from the canonical partition function using the Helmholtz free energy. The partition function can be rewritten
+$$Q_{N}(V,T)=\int_{0}^{\infty} e^{-\beta E}dE\int \frac{\delta(H(\mathbf{q},\mathbf{p})-E)}{h^{3N}N!}d^{3N}q\ d^{3N}p$$
+We use a [[Delta di Dirac|Dirac delta]] to select only the states with energy $E$ and split the integral into two. Since the Dirac delta only permits integrals where $H(\mathbf{q},\mathbf{p})=E$, this simplifies back into the original form. The integral with the delta is a density of states (DOS) function:
+$$\omega(E)=\int \frac{\delta(H(\mathbf{q},\mathbf{p})-E)}{h^{3N}N!}d^{3N}q\ d^{3N}p$$
+Since it counts states, we can get its [[Entropy (information theory)|Boltzmann entropy]]:
+$$S=k_{B}\ln \omega(E)$$
+which we can invert to express the states as a function of entropy:
+$$\omega(E)=e^{S(E)/k_{B}}=e^{\beta TS(E)}$$
+With this, the partition function becomes
+$$Q_{N}(V,T)=\int_{0}^{\infty} e^{-\beta E}\omega (E)dE=\int_{0}^{\infty}e^{-\beta[E-TS(E)]}\ dE=\int_{0}^{\infty}e^{-\beta A(E)}\ dE$$
+The most impactful contribution to the integral is given by the region of lowest free energy, so we want to find the minimum of $A(E)$. Let's assume this minimum exists and let's call $\bar{E}$ the energy value at which it occurs. We can use [[Laplace's method]] to approximate the integral. $A(\bar{E})$ is a [[Punto critico|stationary point]] for which
+$$\frac{ \partial A }{ \partial E } (\bar{E})=0$$
+Unpacking the definition $A=E-TS$, we get
+$$\left( 1-T\frac{ \partial S }{ \partial E }  \right)(\bar{E})=0$$
+which gives us the well-known entropy-temperature relation
+$$\frac{ \partial S }{ \partial E } (\bar{E})=\frac{1}{T}$$
+This proves that the equilibrium temperature $T$ is determined exclusively by the energy state $\bar{E}$ at which free energy is minimized. With the same procedure, we can also find the second derivative
+$$\frac{ \partial ^{2}A }{ \partial E^{2} } (\bar{E})=-T \frac{ \partial ^{2}S }{ \partial E^{2} }=-T\frac{ \partial  }{ \partial E } \frac{1}{T}= -T \left( -\frac{1}{T^{2}} \right)\frac{ \partial T }{ \partial E }  =\frac{1}{TC_{V}}$$
+since the [[heat capacity]] is $C_{V}=\frac{ \partial E }{ \partial T }$. Since [[absolute temperature]] and heat capacity are both strictly positive, this is also a strictly positive quantity, which guarantees that $A(\bar{E})$ is a minimum. We can expand $A$ in a [[Serie di Taylor|Taylor series]] about $\bar{E}$ up to the second order:
+$$\begin{align}
+A(E)&\simeq A(\bar{E})+\frac{ \partial A }{ \partial E } (\bar{E})(E-\bar{E})+ \frac{1}{2}\frac{ \partial ^{2}A }{ \partial E^{2} } (\bar{E})(E-\bar{E})^{2} \\
+&=A(\bar{E})+ \frac{1}{2TC_{V}}(E-\bar{E})^{2}
+\end{align}$$
+We can substitute this in the partition function to get
+$$Q_{N}(V,T)\simeq e^{-\beta A(\bar{E})}\int_{0}^{\infty}e^{-(\beta/2TC_{V})(E-\bar{E})^{2}}dE$$
+Since the integrand is very sharply peaked around $\bar{E}$, we can extend the lower integration bound from $0$ to $-\infty$ without much error. We are now left with a [[Gaussian integral]], we can be solved as
+$$\boxed{Q_{N}\simeq \sqrt{ 2\pi k_{B}T^{2}C_{V} }e^{-\beta A(\bar{E})}}$$
+and the natural logarithm, for convenience, is
+$$\ln Q_{N}=- \frac{A(\bar{E})}{k_{B}T}+ \frac{1}{2}\ln(2\pi k_{B}T^{2}C_{V})$$
+In the [[thermodynamic limit]], the first term is of order $N$ (due to $A$), whereas the second is of order $\ln N$ (due to $\ln T$). Thus, the second term is vanishingly small and we can write
+$$\ln Q_{N}=-\beta A(\bar{E})\quad\Rightarrow \quad Q_{N}=e^{-\beta A(\bar{E})}$$
 
-[^1]: Remember that the fluctuations we consider for a canonical ensemble are between the system itself and an *external* reservoir. If we consider them as one singular block, the fluctuations become internal and can be ignored, which leaves us with a microcanonical.
-[^2]: If the objects the system is made up of are distinguishable, the $N!$ must be omitted.
+> [!success] Result
+> All of the relevant information about the system can be deduced just from the state of lowest free energy. Though it is technically an approximation, just like the [[Laws of thermodynamics|second law of thermodynamics]] it is so exceedingly unlikely for the system to stabilize in any other state that we might as well consider it to a be a perfect, non-approximate result.
+
+[^1]: If the objects the system is made up of are [[Identical particles|distinguishable]], the $N!$ must be omitted.
+[^2]: Remember that the fluctuations we consider for a canonical ensemble are between the system itself and an *external* reservoir. If we consider them as one singular block, the fluctuations become internal and can be ignored, which leaves us with a microcanonical.

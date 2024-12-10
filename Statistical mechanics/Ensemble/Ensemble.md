@@ -6,6 +6,8 @@ The most common ensembles are the [[microcanonical ensemble]], the [[canonical e
 - The **grand canonical** is not isolated and is subject to both energy fluctuations and number of particles fluctuations. It is connected to both a heat reservoir and particle reservoir.
 
 Notably, all ensembles are equivalent to each other and lead to the same physics. The choice of which to use is fundamentally just a matter of which of the above conditions are met by the studied system.
+### Fundamental concept
+Ensembles are fundamentally based on respecting conservation laws at a large scale. Different ensembles are derived by changing what quantities are conserved. In the microcanonical ensemble, energy is conserved. In the canonical ensemble, energy is allowed to vary, but the temperature is conserved to preserve conservation of energy. In the grand canonical ensemble, the particle number is allowed to vary, but the chemical potential is conserved, also to preserve energy. It is very much possible to do the same thing with other quantities to make a new ensemble. For instance, we could allow [[electric charge]] to vary and instead conserve [[electric potential]]. We can even stack multiple conservation laws on top of each other to permit different kinds of fluctuations, like in the grand canonical.
 ### Detailed description
 Consider a gas of $N$ [[particella|particles]], each with position $\mathbf{q}$ and momentum $\mathbf{p}$. In three dimensions, each particles has six variables, so for a system of $N$ particles, we are working with a $6N$-dimensional [[Phase space|phase space]] $\Gamma$. This is, of course, impossible to solve analytically.
 
