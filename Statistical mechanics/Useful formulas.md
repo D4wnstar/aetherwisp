@@ -23,3 +23,6 @@ Internal energy
 $$U=-\frac{ \partial  }{ \partial \beta } \ln Z$$
 Helmholtz free energy
 $$Z=e^{-\beta A}\quad\Rightarrow \quad A=- \frac{1}{\beta} \ln Z$$
+### General math
+Stirling's approximation
+$$\ln n! =n\ln n-n+O(\ln n)$$

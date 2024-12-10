@@ -1,3 +1,8 @@
+---
+aliases:
+  - canonical partition function
+  - grand canonical partition function
+---
 The **partition function** of an [[ensemble]] is the [[Normalizzazione|normalization]] factor of the [[probability density function]] for the [[stato|states]]. It describes the statistical properties of a system in [[thermal equilibrium]] and most thermodynamic variables, like [[temperature]] and [[entropy]], can be derived from it directly or from its derivatives.
 
 It's usually denoted using $Z$, which comes from German "Zustandsumme" or $Q_{N}$ (in Huang's). The most common partition functions are the **canonical partition function** of the [[canonical ensemble]] $Q_{N}$ and the **grand canonical partition function** of the [[grand canonical ensemble]] $\mathcal{Z}$. Their expressions change depending on whether we are consider the classical or quantum ensemble and whether [[Particella|particles]] are [[Identical particles|distinguishable]] or not.

@@ -49,7 +49,32 @@ $$\Sigma(R)=\left( \frac{V}{h^{3}} \right)^{N} \underbrace{ \frac{\pi^{3N/2}}{\G
 and entropy
 $$S=k_{B}\log \Sigma(R)$$
 We can use the fact that $\Gamma(n+1)=n!$ and the [[Stirling approximation]] $\log n!=n\log n-n+O(\log n)$ to get [[Steps Entropy microcanonical ideal gas]].
+#### In the canonical ensemble
+An ideal gas can also be derived from the [[canonical ensemble]]. Using the Hamiltonian
+$$H=\sum_{i=1}^{N} \frac{\mathbf{p}^{2}_{i}}{2m}$$
+the [[partition function]] is
+$$\begin{align}
+Q_{N}&=\int \frac{e^{-\beta(\mathbf{p}_{1}^{2}+\ldots+\mathbf{p}_{N}^{2})/2m}}{h^{3N}N!} \ d^{3N}q\ d^{3N}p \\ \\
+&= \frac{1}{N!} \int d^{3N}q\int \frac{e^{-\beta(\mathbf{p}_{1}^{2}+\ldots+\mathbf{p}_{N}^{2})/2m}}{h^{3N}}d^{3N}p \\
+&= \frac{V^{N}}{N!}\left( \int_{-\infty}^{\infty} \frac{e^{-\beta p^{2}/2m}}{h} \ dp  \right)^{3N}
+\end{align} $$
+Solving the [[Gaussian integral]] and using the [[Formula di de Broglie|de Broglie thermal wavelength]] $\lambda$, we write
+$$Q_{N}=\frac{1}{N!}\left( \frac{V}{\lambda ^{3}} \right)^{N}$$
+and its logarithm is
+$$\ln Q_{N}=-\ln N!+N\ln \frac{V}{\lambda ^{3}}\simeq N-N\ln N+N\ln \frac{V}{\lambda ^{3}}=N(1-\ln n\lambda ^{3})$$
+where we defined the particle density $n=N/V$. Now that we have the partition function, thermodynamics follows suit naturally. The Helmholtz free energy is
+$$A=- \frac{1}{\beta}\ln Q_{N}\simeq- \frac{1}{\beta}N(1-\ln (n\lambda ^{3}))=k_{B}TN[\ln(n\lambda ^{3})-1]$$
+and the entropy
+$$\begin{align}
+S&=-\left( \frac{ \partial A }{ \partial T }  \right)_{V} \\
+&=-k_{B}N\frac{ \partial  }{ \partial T } [T(\ln(n\lambda ^{3})-1)] \\
+&=-k_{B}N\left[ \ln(n\lambda ^{3})-1 + T\frac{ \partial  }{ \partial T } \ln(n\lambda ^{3}) \right] \\
+&=-k_{B}N\left[ \ln(n\lambda ^{3})-1- T\frac{3}{2T} \right] \\
+&=k_{B}N\left[ \frac{5}{2}-\ln(n\lambda ^{3}) \right]
+\end{align}$$
+which is the [[Sackur-Tetrode equation]], as expected.
 ### Quantum mechanics
+### In the quantum microcanonical ensemble
 It is possible to derive the behavior of an ideal gas using the [[quantum microcanonical ensemble]]. Like all quantum statistical systems, there are two cases: a [[Fermione|fermion]] gas and a [[bosone|boson]] gas (or a third, secret option called a Boltzmann system, where all [[Equazione agli autovalori|eigenfunctions]] are [[Stato totalsimmetrico|symmetric]], like for bosons, but counted using the corrected Boltzmann count. This essentially gives the classical results starting from the quantum description).
 
 Consider a cube of side $L$ and volume $V=L^{3}$ filled with the ideal gas. Since the particles are non-interacting, they are [[Particella libera (quantistica)|free particles]] with non-[[Normalizzazione|normalizable]] [[Funzione d'onda|wavefunctions]] $\psi(\mathbf{r})=e^{-\mathbf{p}\cdot \mathbf{r}/\hbar}$ (a [[plane wave]]). The momentum and energy of each particle are
@@ -124,8 +149,8 @@ E&=\sum E_{i}n_{i}=\sum_{i}Zg_{i}E_{i}e^{-\beta E_{i}}=Z\sum_{\mathbf{p}} \frac{
 \end{align}$$
 which is the classical result. The entropy is
 $$\frac{S}{k_{B}}=Z\sum_{\mathbf{p}}e^{-\beta E_{\mathbf{p}}}(\beta E_{\mathbf{p}}-\log Z)+N$$
-But this is just the Sackur-Tetrode equation, which was the original classical result.
-#### In the grand canonical ensemble
+But this is just the [[Sackur-Tetrode equation]], which was the original classical result.
+#### In the quantum grand canonical ensemble
 The [[equation of state]] can be expressed with the grand [[partition function]] $\mathcal{Z}$ as
 $$\frac{PV}{k_{B}T}=\log \mathcal{Z}(Z,V,T)=\left\{\begin{align}
 \text{(Bosons)}\quad &-\sum_{\bar{p}} \log (1-Ze^{-\beta \varepsilon_{\bar{p}}}) \\

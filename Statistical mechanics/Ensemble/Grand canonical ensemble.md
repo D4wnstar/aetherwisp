@@ -1,4 +1,7 @@
-The **grand canonical ensemble** is an [[ensemble]] where both [[energy]] and number of [[Particella|particles]] can fluctuate. The number of particles is determined by environmental conditions external to the ensemble. Here, the conserved quantities are the [[temperature]] and the [[chemical potential]].
+The **grand canonical ensemble** is an [[ensemble]] that is not [[Physical system|isolated]] from the environment, but is in [[Thermal equilibrium|thermal]] and [[chemical equilibrium]] with a much larger [[Heat reservoir|heat]] and particle reservoir. As such, both [[energy]] and number of [[Particella|particles]] can fluctuate. The conserved quantities are the [[temperature]] $T$ and the [[chemical potential]] $\mu$. Its density function is
+$$\rho(Z,V,T)=Z^{N}Q_{N}(V,T)$$
+where $Z=e^{\beta \mu}$ and $Q_{N}$ is the [[Partition function|canonical partition function]]. Its [[partition function]] is
+$$\mathcal{Z}(Z,V,T)\equiv \sum_{N=0}^{\infty} Z^{N}Q_{N}(V,T)$$
 ### Density function derivation
 Let's consider two gases of particle numbers $N_{1}$ and $N_{2}$ bound by $N_{2}=N-N_{1}$ and volumes $V_{1}$ and $V_{2}$. Let's assume $V_{2}\gg V_{1}$ and $N_{2}\gg N_{1}$ and that the [[Hamiltonian]] is additive:
 $$H(\mathbf{q},\mathbf{p},N)=H(\mathbf{q}_{1},\mathbf{p}_{1},N_{1})+H(\mathbf{q}_{2},\mathbf{p}_{2},N_{2})$$
