@@ -48,7 +48,7 @@ where $\Gamma$ is the [[Gamma function]]. Thus, we have
 $$\Sigma(R)=\left( \frac{V}{h^{3}} \right)^{N} \underbrace{ \frac{\pi^{3N/2}}{\Gamma\left( \frac{3N}{2}+1 \right)} }_{ c_{n} }R^{3N}=\left( \frac{V}{h^{3}} \right)^{N}c_{3N} (2mE)^{3N/2}$$
 and entropy
 $$S=k_{B}\log \Sigma(R)$$
-We can use the fact that $\Gamma(n+1)=n!$ and the [[Stirling approximation]] $\log n!=n\log n-n+O(\log n)$ to get [[Steps Entropy microcanonical ideal gas]].
+We can use the fact that $\Gamma(n+1)=n!$ and [[Stirling's approximation]] $\log n!=n\log n-n+O(\log n)$ to get [[Steps Entropy microcanonical ideal gas]].
 #### In the canonical ensemble
 An ideal gas can also be derived from the [[canonical ensemble]]. Using the Hamiltonian
 $$H=\sum_{i=1}^{N} \frac{\mathbf{p}^{2}_{i}}{2m}$$
