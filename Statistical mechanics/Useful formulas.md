@@ -26,3 +26,5 @@ $$Z=e^{-\beta A}\quad\Rightarrow \quad A=- \frac{1}{\beta} \ln Z$$
 ### General math
 Stirling's approximation
 $$\ln n! =n\ln n-n+O(\ln n)$$
+## Esercizi
+Uno degli esercizi dell'esame è sicuramente "gas di fermioni/bosoni in 1/2/3/4 dimensioni con distribuzione in $p$/$p^{2}$". Sono 16 possibili combinazioni.
