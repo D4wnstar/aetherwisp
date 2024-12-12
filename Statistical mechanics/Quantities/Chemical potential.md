@@ -7,5 +7,9 @@ $$\mu=\left( \frac{ \partial E }{ \partial N }  \right)_{S,V}=-T\left( \frac{ \p
 If $\mu>0$, then if $N$ increases (i.e. particles are added), so do $A$ and $G$.
 ### Connection to the first law of thermodynamics
 In a system of $N$ particles that exchanges particles and is subject to a chemical potential $\mu$, the [[Laws of thermodynamics|first law of thermodynamics]] is extended to
-$$dE=TdS-PdV+\mu dN$$
-since energy now also depends on the number of particles.
+$$dU=TdS-PdV+\mu dN$$
+since energy now also depends on the number of particles. This is true for all energy functions, not just the internal energy. The Helmholtz free energy variation is
+$$dA=-PdV-SdT+\mu dN$$
+and the Gibbs free energy one is
+$$dG=dA+d(PV)=-PdV+\mu dV+PdV-VdP-SdT=VdP-SdT+\mu dN$$
+The chemical potential is the [[Moltiplicatori di Lagrange|Lagrange multiplier]] that governs the number of particles.

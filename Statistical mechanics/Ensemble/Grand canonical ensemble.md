@@ -40,20 +40,75 @@ This is dependent on three variables: [[temperature]] $T$ (hidden in $\beta$), p
 Using what we found when deriving the density function, we can write the **grand canonical partition function**:
 $$\boxed{\mathcal{Z}(Z,V,T)\equiv \sum_{N=0}^{\infty} Z^{N}Q_{N}(V,T)}$$
 which is an extended form of the canonical partition function, weighed by the fugacity.
-### Properties
+### Ensemble average
+The [[ensemble average]] in the grand canonical ensemble is the canonical ensemble average weighted by the fugacity:
+$$\langle O \rangle =\frac{\sum_{N=0}^{\infty}O\,Z^{N}Q_{N}}{\sum_{N=0}^{\infty} Z^{N}Q_{N}}$$
+### Energy
+Just like in the canonical ensemble, the energy is
+$$U=\langle H \rangle =-\frac{ \partial  }{ \partial \beta } \ln \mathcal{Z}(Z,V,T)$$
+### Particle number fluctuations
 Since $N$ varies, we can express the [[mean]] number of particles as the [[ensemble average]]
 $$\langle N \rangle =\frac{\sum_{N=0}^{\infty}NZ^{N}Q_{N}(V,T)}{\sum_{N=0}^{\infty} Z^{N}Q_{N}(V,T)}$$
-But since
-$$\frac{ \partial  }{ \partial Z } \log \mathcal{Z}=\frac{1}{\mathcal{Z}}\sum_{N=0}^{\infty} NZ^{N-1}Q_{N}(V,T)\tag{2}$$
-we have
+The trick is to take the $Z$ derivative of $\ln Z$:
+$$\frac{ \partial  }{ \partial Z } \ln \mathcal{Z}=\frac{1}{\sum_{N=0}^{\infty} Z^{N}Q_{N}}\frac{ \partial  }{ \partial Z } \mathcal{Z}=\ldots$$
+The $Z$ derivative of the partition function reduces to
+$$\frac{ \partial  }{ \partial Z } \mathcal{Z}=\sum_{N=0}^{\infty} \left( \frac{ \partial  }{ \partial Z } Z^{N} \right)Q_{N}=\sum_{N=0}^{\infty} NZ^{N-1}Q_{N}=\frac{1}{Z}\sum_{N=0}^{\infty} NZ^{N}Q_{N}$$
+and so we have
+$$\ldots=\frac{1}{Z} \frac{\sum_{N=0}^{\infty} NZ^{N}Q_{N}}{\sum_{N=0}^{\infty} Z^{N}Q_{N} }=\frac{1}{Z}\langle N \rangle $$
+By inverting the equation, can get
 $$\boxed{\langle N \rangle =Z\frac{ \partial  }{ \partial Z } \log \mathcal{Z}(Z,V,T)}$$
+Now that we have the mean, we can also find the [[variance]]. The trick is the same as before. If doing $Z\frac{ \partial  }{ \partial Z }$ gave us $\langle N \rangle$, doing it twice should give us $\langle N^{2} \rangle$:
+$$\begin{align}
+Z\frac{ \partial  }{ \partial Z } Z\frac{ \partial  }{ \partial Z } \ln \mathcal{Z}&=Z\frac{ \partial  }{ \partial Z } \frac{\sum_{N=0}^{\infty}NZ^{N}Q_{N}}{\mathcal{Z}} \\
+&=Z\left[ \frac{1}{\mathcal{Z}}\sum_{N=0}^{\infty} N\left( \frac{ \partial  }{ \partial Z } Z^{N} \right)Q_{N}+ \left( \frac{ \partial  }{ \partial Z } \frac{1}{\mathcal{Z}} \right)\sum_{N=0}^{\infty} NZ^{N}Q_{N} \right] \\
+&=Z\left[ \frac{1}{\mathcal{Z}} \frac{1}{Z}\sum_{N=0}^{\infty} N^{2}Z^{N}Q_{N}- \frac{1}{\mathcal{Z}^{2}} \frac{1}{Z}\left( \sum_{N=0}^{\infty} NZ^{N}Q_{N} \right)\left( \sum_{N=0}^{\infty} NZ^{N}Q_{N} \right) \right]= \\
+&=\frac{\sum_{N=0}^{\infty}N^{2}Z^{N}Q_{N}}{\mathcal{Z}}- \left( \frac{\sum_{N=0}^{\infty}NZ^{N}Q_{N}}{\mathcal{Z}} \right)^{2} \\
+&=\langle N^{2} \rangle -\langle N \rangle ^{2}
+\end{align}$$
+which is precisely the variance. However, though we understand what the variance is, the left hand side of the equation is still cryptic. To find the physics in it, we can express the $Z$ derivative in terms of the chemical potential as
+$$Z\frac{ \partial  }{ \partial Z } =Z\frac{ \partial \mu }{ \partial Z } \frac{ \partial }{ \partial \mu } =Z\left( \frac{ \partial  }{ \partial Z } k_{B}T\ln Z \right)\frac{ \partial  }{ \partial \mu } =k_{B}T\frac{ \partial  }{ \partial \mu } $$
+Plugging this back into the previous equation gives us a more interesting look on particle number fluctuations:
+$$\boxed{\langle N^{2} \rangle -\langle N \rangle ^{2}=k_{B}^{2}T^{2}\frac{ \partial ^{2}  }{ \partial \mu ^{2} } \ln \mathcal{Z}}$$
+Unsurprisingly, higher temperatures mean higher variances.
+#### Canonical ensemble equivalence
+We can use the previous result to our advantage to prove that the grand canonical and [[Canonical ensemble|canonical ensembles]] are equivalent in the [[thermodynamic limit]]. In fact, if we divide the particle variance by the square of the volume $V$ occupied the ensemble and we define the particle density $n=N/V$, we get
+$$\langle n^{2} \rangle -\langle n \rangle ^{2}=\frac{k_{B}^{2}T^{2}}{V^{2}}\frac{ \partial ^{2} }{ \partial \mu ^{2} } \ln \mathcal{Z}$$
+When $V\to \infty$ in the limit, this equation goes to zero, which means that particle density fluctuations nullify, which in turn also means that particle number fluctuations are also zero.
+### Thermodynamics
+To derive thermodynamics relations in the grand canonical, we can do something similar to keeping only the highest [[entropy]] state in the [[microcanonical ensemble]]. The grand canonical partition function is a sum:
+$$\mathcal{Z}=\sum_{N=0}^{\infty} Z^{N}Q_{N}$$
+If one term (call it $\langle N \rangle$) is considerably larger than all the others, we can keep only that one and approximate the sum away. This happens if the number variance is vanishingly small, which is to say in the thermodynamic limit. In this case, we can state
+$$\mathcal{Z}=\sum_{N=0}^{\infty} Z^{N}Q_{N}\simeq Z^{\langle N \rangle}Q_{\langle N \rangle}$$
+The logarithm simplifies considerably:
+$$\ln \mathcal{Z}\simeq \ln(Z^{\langle N \rangle}Q_{\langle N \rangle})=\langle N \rangle\ln Z+\ln Q_{\langle N \rangle}=\langle N \rangle\beta\mu-\beta A_{\langle N \rangle}$$
+where $A_{\langle N \rangle}$ is the [[Helmholtz free energy]] in state $\langle N \rangle$. We can state $A_{N}=Na(v,T)$ by defining $a$ as the free energy per particle, using $v=V/N$ as the specific volume of the ensemble. Doing this, we get
+$$\ln \mathcal{Z}\simeq \langle N \rangle\beta\mu-\beta\langle N \rangle a(\langle v \rangle,T)=\langle N \rangle\beta(\mu-a(\langle v \rangle,T))$$
+where $\langle v \rangle=V/\langle N \rangle$. Unfortunately, $a(\langle v \rangle,T)$ is a somewhat cryptic quantity and it would be nice to express it in terms of better understood ones. Fortunately, this is possible by calculating a couple of thermodynamic quantities. [[Pressure]] is
+$$P=-\left( \frac{ \partial A }{ \partial V } \right)_{N,T}=-N\frac{ \partial a\left( \frac{V}{T},T \right) }{ \partial V } =-\frac{ \partial a }{ \partial v } $$
+and the chemical potential is
+$$\mu=\left( \frac{ \partial A }{ \partial N }  \right)_{V,T}=\frac{ \partial N }{ \partial N } a+N\frac{ \partial a\left( \frac{V}{N},T \right) }{ \partial N } =a-N \frac{V}{N^{2}}\frac{ \partial a }{ \partial v }=a-v\frac{ \partial a }{ \partial v } =a+vP\tag{2}$$
+Inverting this relation gives us $a=\mu-vP$. If we put this back in the partition function, we find
+$$\ln \mathcal{Z}\simeq \langle N \rangle\beta(\mu-\mu+\langle v \rangle P)=\langle N \rangle\beta \langle v \rangle P=\langle N \rangle\beta \frac{V}{\langle N \rangle}P=\beta PV=\frac{PV}{k_{B}T}$$
+Thus, in thermodynamic limit, we have
+$$\boxed{\ln \mathcal{Z}=\frac{PV}{k_{B}T}}$$
+Note that it is independent from the number of particles $\langle N \rangle$. Since $\langle N \rangle$ is also the only state that matters for the number of particles (as long as we are in the thermodynamic limit), we can write $\langle N \rangle=N$ without much loss.
+#### Number fluctuations, again
+Now that we have a sensible expression for $\ln \mathcal{Z}$, we can give a more satisfactory description of particle number fluctuations. In fact, we get
+$$\langle n^{2} \rangle -\langle n \rangle ^{2}=\left( \frac{k_{B}T}{V} \right)^{2}\frac{ \partial ^{2} }{ \partial \mu ^{2} } \left( \frac{PV}{k_{B}T} \right)=\frac{k_{B}T}{V}\frac{ \partial ^{2}P }{ \partial \mu ^{2} }$$
+We can invert $(2)$ to get
+$$P=\frac{\mu-a}{v}$$
+and so
+$$\frac{ \partial P }{ \partial \mu }  =\frac{1}{v}$$
+However, $v$ is itself dependent on $\mu$, which gives us
+$$\frac{ \partial ^{2}P }{ \partial \mu ^{2} }= - \frac{1}{v^{2}}\frac{ \partial v }{ \partial \mu } $$
+TODO: Finish this section
+
+---
 
 From $(1)$ we get
 $$1=\int \rho(\mathbf{q},\mathbf{p},N)\,dq\,dp =\frac{Z^{N}}{N!h^{3N}}e^{-\beta PV}\int e^{-\beta H}\,dq\,dp=Z^{N}e^{-\beta PV}Q_{N}$$
 Also
 $$\sum Z^{N}Q_{N}(V,T)=e^{\beta V???} $$
-The [[internal energy]] is
-$$U=\langle H \rangle =-\frac{ \partial  }{ \partial \beta } \log \mathcal{Z}(Z,V,T)$$
 The [[specific heat]] is from the [[Maxwell relations]]:
 $$C_{V}=\left( \frac{ \partial U }{ \partial T }  \right)_{V}$$
 and [[entropy]] is[^1]
@@ -61,48 +116,8 @@ $$S=\int \frac{dQ}{T}=\int_{0}^{T}C_{V} \frac{dT}{T} $$
 We define
 $$W(N)\equiv Z^{N}Q_{N}=e^{\beta \mu N-\beta A(N,V,T)}$$
 which is proportional to the [[probability]] that the system has $N$ particles.
-#### Equations of state
-We have
-$$\beta \mu \langle N \rangle -\beta A(\langle N \rangle ,V,T)=\log Z^{\langle N \rangle }+\log Q_{\langle N \rangle }(V,T)$$
-$$-\beta A(\langle N \rangle ,V,T)=-\beta \mu \langle N \rangle +\log Z^{\langle N \rangle }+\log Q_{N}$$
-$$A(\langle N \rangle ,V,T)=\mu \langle N \rangle -k_{B}T\log Z^{\langle N \rangle }Q_{\langle N \rangle }$$
-Since $\log \mathcal{Z}\simeq Z^{\langle N \rangle}Q_{\langle N \rangle}$ we have
-$$\boxed{A(\langle N \rangle ,V,T)=k_{B}T\langle N \rangle \log Z-k_{B}T\log \mathcal{Z}(Z,V,T)}$$
-which is the [[Helmholtz free energy]] of the ensemble. Invoking the [[Laws of thermodynamics|first law of thermodynamics]] and the definition of $A$ we have
-$$A=U-TS,\qquad dA=dU-d(TS)=dQ-dW-TdS-SdT=-PdV-SdT$$
-If the number of particles increases, the free energy also increases, so
-$$dA=-PdV-SdT+\mu dN$$
-The internal energy does something similar
-$$dU=dQ-dW+\mu dN=TdS-PdV+\mu dV$$
-Same for [[Gibbs free energy]] $G=A+PV$:
-$$dG=dA+d(PV)=-PdV+\mu dV+PdV-VdP-SdT=VdP-SdT+\mu dN$$
-The chemical potential is the [[Moltiplicatori di Lagrange|Lagrange multiplier]] that governs the number of particles.
-### Equivalence with canonical ensemble
-Consider the [[variance]] of the particle number:
-$$\langle N^{2} \rangle -\langle N \rangle ^{2}=Z\frac{ \partial  }{ \partial Z } Z \frac{ \partial  }{ \partial Z } \log \mathcal{Z}(Z,V,T)$$
-We have
-$$\frac{ \partial  }{ \partial Z } Z\frac{ \partial  }{ \partial Z } \mathcal{Z}=\frac{ \partial  }{ \partial Z } \log \mathcal{Z}+Z\frac{ \partial ^{2} }{ \partial Z^{2} } \log \mathcal{Z}=\ldots$$
-and using $(2)$
-$$\begin{align}
-\ldots&=\frac{ \partial  }{ \partial Z } \log \mathcal{ Z}+Z\left(  \frac{\sum_{N=0}^{\infty}N(N-1)Z^{N-1}Q_{N}}{\sum_{N=0}^{\infty} Z^{N}Q_{N}}  - \frac{\left( \sum_{N=0}^{\infty} NZ^{N-1}Q_{N} \right)^{2}}{\left( \sum_{N=0}^{\infty} Z^{N}Q_{N} \right)^{2}}\right) \\
-&=\frac{ \partial  }{ \partial Z } \log \mathcal{Z}+Z\left( \frac{\sum_{N=0}^{\infty}N(N-1)Z^{N-1}Q_{N}}{\sum_{N=0}^{\infty} Z^{N}Q_{N}} - \frac{1}{Z^{2}}\langle N \rangle ^{2} \right) \\
-&=\cancel{ \frac{\left\langle  N  \right\rangle}{Z} }+ \frac{\langle N^{2} \rangle }{Z}- \cancel{ \frac{\langle N \rangle }{Z} }- \frac{\langle N \rangle^{2} }{Z} \\
-&=\frac{1}{Z}(\langle N^{2} \rangle -\langle N \rangle ^{2})=\frac{\text{var}(N)}{Z}
-\end{align}$$
-Which proves the previous formula. We also have
-$$\frac{ \partial  }{ \partial Z } =\frac{ \partial \mu }{ \partial Z } \frac{ \partial  }{ \partial \mu } =\frac{1}{\beta Z}\frac{ \partial  }{ \partial \mu } $$
-and so
-$$\frac{ \partial P }{ \partial Z } =\frac{k_{B}T}{V} \frac{1}{Z} \frac{ \partial \mathcal{Z} }{ \partial Z } =\frac{k_{B}T}{VZ}\log \mathcal{Z}$$
-We also somehow get
-$$\frac{PV}{k_{B}T}=\log \mathcal{Z}$$
-So we can find a second, more useful form for the variance of $N$:
-$$\langle N^{2} \rangle -\langle  N \rangle ^{2}=k_{B}TV \frac{ \partial ^{2}P }{ \partial \mu ^{2} } $$
-Also idk what this is
-$$A(N,V,T)=Na(v)$$
-where $v=V/N$ is the "volume density".
-$$\mu=\frac{ \partial A }{ \partial N } =a+N \frac{ \partial a }{ \partial N } =a-v\frac{ \partial a }{ \partial v } $$
-$$P=-\frac{ \partial A }{ \partial v } =-\frac{ \partial v }{ \partial V } \frac{ \partial  }{ \partial v } Na$$
-...
+
+---
 
 We get yet another form for the variance of $N$:
 $$\langle N^{2} \rangle -\langle N \rangle ^{2}=\frac{Vk_{B}T}{v^{3}\left( -\frac{ \partial P }{ \partial v }  \right)}$$
