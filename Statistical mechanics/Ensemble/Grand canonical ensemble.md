@@ -95,13 +95,15 @@ Note that it is independent from the number of particles $\langle N \rangle$. Si
 #### Number fluctuations, again
 Now that we have a sensible expression for $\ln \mathcal{Z}$, we can give a more satisfactory description of particle number fluctuations. In fact, we get
 $$\langle n^{2} \rangle -\langle n \rangle ^{2}=\left( \frac{k_{B}T}{V} \right)^{2}\frac{ \partial ^{2} }{ \partial \mu ^{2} } \left( \frac{PV}{k_{B}T} \right)=\frac{k_{B}T}{V}\frac{ \partial ^{2}P }{ \partial \mu ^{2} }$$
-We can invert $(2)$ to get
-$$P=\frac{\mu-a}{v}$$
+We can use the following relation
+$$\frac{ \partial \mu }{ \partial v } =-v\frac{ \partial ^{2}a(v) }{ \partial v^{2} } =v\frac{ \partial P }{ \partial v } \quad\to \quad \frac{ \partial P }{ \partial v } \frac{ \partial v }{ \partial \mu } =\frac{1}{v}$$
 and so
-$$\frac{ \partial P }{ \partial \mu }  =\frac{1}{v}$$
+$$\frac{ \partial P }{ \partial \mu }=\frac{ \partial P }{ \partial v } \frac{ \partial v }{ \partial \mu } =\frac{1}{v} $$
 However, $v$ is itself dependent on $\mu$, which gives us
-$$\frac{ \partial ^{2}P }{ \partial \mu ^{2} }= - \frac{1}{v^{2}}\frac{ \partial v }{ \partial \mu } $$
-TODO: Finish this section
+$$\frac{ \partial ^{2}P }{ \partial \mu ^{2} }= - \frac{1}{v^{2}}\frac{ \partial v }{ \partial \mu } =\frac{\kappa_{T}}{v^{2}}$$
+where we defined the [[Compressibility|isothermal compressibility]] $\kappa_{T}$. As such, our fluctuations become
+$$\frac{\langle n^{2} \rangle -\langle n \rangle ^{2}}{\langle n \rangle ^{2}}=\frac{k_{B}T\kappa_{T}}{V}$$
+In the thermodynamic limit, these again vanish.
 
 ---
 
