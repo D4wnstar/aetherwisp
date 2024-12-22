@@ -56,7 +56,7 @@ $$\frac{ \partial  }{ \partial Z } \mathcal{Z}=\sum_{N=0}^{\infty} \left( \frac{
 and so we have
 $$\ldots=\frac{1}{Z} \frac{\sum_{N=0}^{\infty} NZ^{N}Q_{N}}{\sum_{N=0}^{\infty} Z^{N}Q_{N} }=\frac{1}{Z}\langle N \rangle $$
 By inverting the equation, can get
-$$\boxed{\langle N \rangle =Z\frac{ \partial  }{ \partial Z } \log \mathcal{Z}(Z,V,T)}$$
+$$\boxed{\langle N \rangle =Z\frac{ \partial  }{ \partial Z } \log \mathcal{Z}(Z,V,T)}\tag{2}$$
 Now that we have the mean, we can also find the [[variance]]. The trick is the same as before. If doing $Z\frac{ \partial  }{ \partial Z }$ gave us $\langle N \rangle$, doing it twice should give us $\langle N^{2} \rangle$:
 $$\begin{align}
 Z\frac{ \partial  }{ \partial Z } Z\frac{ \partial  }{ \partial Z } \ln \mathcal{Z}&=Z\frac{ \partial  }{ \partial Z } \frac{\sum_{N=0}^{\infty}NZ^{N}Q_{N}}{\mathcal{Z}} \\
@@ -68,7 +68,7 @@ Z\frac{ \partial  }{ \partial Z } Z\frac{ \partial  }{ \partial Z } \ln \mathcal
 which is precisely the variance. However, though we understand what the variance is, the left hand side of the equation is still cryptic. To find the physics in it, we can express the $Z$ derivative in terms of the chemical potential as
 $$Z\frac{ \partial  }{ \partial Z } =Z\frac{ \partial \mu }{ \partial Z } \frac{ \partial }{ \partial \mu } =Z\left( \frac{ \partial  }{ \partial Z } k_{B}T\ln Z \right)\frac{ \partial  }{ \partial \mu } =k_{B}T\frac{ \partial  }{ \partial \mu } $$
 Plugging this back into the previous equation gives us a more interesting look on particle number fluctuations:
-$$\boxed{\langle N^{2} \rangle -\langle N \rangle ^{2}=k_{B}^{2}T^{2}\frac{ \partial ^{2}  }{ \partial \mu ^{2} } \ln \mathcal{Z}}$$
+$$\boxed{\text{var}(N)=\langle N^{2} \rangle -\langle N \rangle ^{2}=k_{B}^{2}T^{2}\frac{ \partial ^{2}  }{ \partial \mu ^{2} } \ln \mathcal{Z}}$$
 Unsurprisingly, higher temperatures mean higher variances.
 #### Canonical ensemble equivalence
 We can use the previous result to our advantage to prove that the grand canonical and [[Canonical ensemble|canonical ensembles]] are equivalent in the [[thermodynamic limit]]. In fact, if we divide the particle variance by the square of the volume $V$ occupied the ensemble and we define the particle density $n=N/V$, we get
@@ -89,8 +89,8 @@ and the chemical potential is
 $$\mu=\left( \frac{ \partial A }{ \partial N }  \right)_{V,T}=\frac{ \partial N }{ \partial N } a+N\frac{ \partial a\left( \frac{V}{N},T \right) }{ \partial N } =a-N \frac{V}{N^{2}}\frac{ \partial a }{ \partial v }=a-v\frac{ \partial a }{ \partial v } =a+vP\tag{2}$$
 Inverting this relation gives us $a=\mu-vP$. If we put this back in the partition function, we find
 $$\ln \mathcal{Z}\simeq \langle N \rangle\beta(\mu-\mu+\langle v \rangle P)=\langle N \rangle\beta \langle v \rangle P=\langle N \rangle\beta \frac{V}{\langle N \rangle}P=\beta PV=\frac{PV}{k_{B}T}$$
-Thus, in thermodynamic limit, we have
-$$\boxed{\ln \mathcal{Z}=\frac{PV}{k_{B}T}}$$
+Thus, in thermodynamic limit, we find an [[equation of state]]:
+$$\boxed{\ln \mathcal{Z}=\frac{PV}{k_{B}T}}\tag{3}$$
 Note that it is independent from the number of particles $\langle N \rangle$. Since $\langle N \rangle$ is also the only state that matters for the number of particles (as long as we are in the thermodynamic limit), we can write $\langle N \rangle=N$ without much loss.
 #### Number fluctuations, again
 Now that we have a sensible expression for $\ln \mathcal{Z}$, we can give a more satisfactory description of particle number fluctuations. In fact, we get
@@ -104,37 +104,11 @@ $$\frac{ \partial ^{2}P }{ \partial \mu ^{2} }= - \frac{1}{v^{2}}\frac{ \partial
 where we defined the [[Compressibility|isothermal compressibility]] $\kappa_{T}$. As such, our fluctuations become
 $$\frac{\langle n^{2} \rangle -\langle n \rangle ^{2}}{\langle n \rangle ^{2}}=\frac{k_{B}T\kappa_{T}}{V}$$
 In the thermodynamic limit, these again vanish.
-
----
-
-From $(1)$ we get
-$$1=\int \rho(\mathbf{q},\mathbf{p},N)\,dq\,dp =\frac{Z^{N}}{N!h^{3N}}e^{-\beta PV}\int e^{-\beta H}\,dq\,dp=Z^{N}e^{-\beta PV}Q_{N}$$
-Also
-$$\sum Z^{N}Q_{N}(V,T)=e^{\beta V???} $$
-The [[specific heat]] is from the [[Maxwell relations]]:
-$$C_{V}=\left( \frac{ \partial U }{ \partial T }  \right)_{V}$$
-and [[entropy]] is[^1]
-$$S=\int \frac{dQ}{T}=\int_{0}^{T}C_{V} \frac{dT}{T} $$
-We define
-$$W(N)\equiv Z^{N}Q_{N}=e^{\beta \mu N-\beta A(N,V,T)}$$
-which is proportional to the [[probability]] that the system has $N$ particles.
-
----
-
-We get yet another form for the variance of $N$:
-$$\langle N^{2} \rangle -\langle N \rangle ^{2}=\frac{Vk_{B}T}{v^{3}\left( -\frac{ \partial P }{ \partial v }  \right)}$$
-If we define a few parameters, this can be simplified. The [[thermal expansion coefficient]] is
-$$\alpha=\frac{1}{V}\left( \frac{ \partial V }{ \partial T }  \right)_{P}$$
-The [[compressibility]] is
-$$K_{T}=- \frac{1}{V}\left( \frac{ \partial V }{ \partial P }  \right)_{T}$$
-and the adiabatic compressibility is
-$$\mathcal{K}_{T}=- \frac{1}{V}\left( \frac{ \partial V }{ \partial P }  \right)_{S}$$
-So the variance can be written as
-$$\langle N^{2} \rangle -\langle N \rangle ^{2}=k_{B}T \frac{1}{v\left( -\frac{ \partial P }{ \partial v }  \right)} \frac{V}{v^{2}}=k_{B}T\langle N \rangle \frac{\mathcal{K}_{T}}{v}\sim \langle N \rangle $$
-which goes like $\langle N \rangle$ for large $N$. The variance of energy is
-$$\langle H^{2} \rangle -\langle H \rangle ^{2}\propto T^{2}C_{V}\sim \langle N \rangle $$
-which also goes like $\langle N \rangle$ for large $N$. This is precisely what happens with the canonical ensemble, so for large $N$, the two are equivalent. But since the canonical is itself equivalent to the microcanonical for large $N$, the grand canonical is also equivalent to the microcanonical.
-
-The canonical ensemble has internal energy $U$ with fluctuations $\sqrt{ N }$. The grand canonical has number of particles $\langle N \rangle$ with fluctuations $\sqrt{ N }$.
+### Virial expansion
+The equation of state $(3)$ can be rewritten using $(2)$ as
+$$n=\frac{1}{V}Z\frac{ \partial  }{ \partial Z } \ln \mathcal{Z}(Z,V,T)$$
+If the temperature is sufficiently high and the particle density is sufficiently low, the equation in both forms can be expanded as a [[serie di potenze|power series]] in $Z$:
+$$\frac{P}{k_{B}T}=\frac{1}{\lambda ^{3}}\sum_{l=1}^{\infty} b_{l}Z^{l},\qquad n=\frac{1}{\lambda ^{3}}\sum_{l=1}^{\infty} lb_{l}Z^{l}$$
+using the [[Formula di de Broglie|de Broglie thermal wavelength]] $\lambda$. The coefficients $b_{l}$ are known as **cluster integrals** and represents the internal correlation of a group of $l$ particles due to interactions. By definition, $b_{1}\equiv1$.
 
 [^1]: Note how, unlike the [[microcanonical ensemble]], entropy is derived last.
