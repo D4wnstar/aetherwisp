@@ -12,7 +12,7 @@ A causa del [[Disuguaglianza di Heisenberg|principio di indeterminazione]], una 
 $$dn=\frac{4\pi p^{2}dp}{(2\pi\hbar)^{3}}V$$
 Allo stato fondamentale (allo zero assoluto), tutti gli stati più bassi sono occupati fino ad un impulso massimo detto **impulso di Fermi** $p_{F}$. Il numero di questi stati si ottiene integrando l'equazione precedente ed è
 $$n=\int_{0}^{p_{F}}n(p)dp=\frac{Vp_{F}^{3}}{6\pi^{2}\hbar^{3}}$$
-Ricordando il [[principio di esclusione di Pauli]], abbiamo che uno stato può contenere al massimo due [[Fermione|fermioni]] dello stesso tipo. Dato che sia protoni che neutroni sono fermioni, il numero di stati effettivo è
+Ricordando il [[Pauli exclusion principle]], abbiamo che uno stato può contenere al massimo due [[Fermion|fermioni]] dello stesso tipo. Dato che sia protoni che neutroni sono fermioni, il numero di stati effettivo è
 $$n=2 \frac{Vp_{F}^{3}}{6\pi^{2}\hbar^{2}}$$
 e il numero di neutroni e protoni è dato da
 $$N=\frac{V(p_{F}^{n})^{3}}{3\pi^{2}\hbar^{3}}\quad;\quad Z=\frac{V(p_{F}^{p})^{3}}{3\pi^{2}\hbar^{3}}\quad\tag{1}$$

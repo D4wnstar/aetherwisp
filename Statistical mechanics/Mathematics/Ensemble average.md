@@ -1,4 +1,4 @@
-The **ensemble average** of a [[dynamical variable]] $O(\mathbf{q},\mathbf{p})$ over an [[ensemble]] is the weighted average over all possible [[stato|macrostates]] of the [[Physical system|system]] in the [[thermodynamic limit]]:
+The **ensemble average** of a [[dynamical variable]] $O(\mathbf{q},\mathbf{p})$ over an [[ensemble]] is the weighted average over all possible [[stato|macrostates]] of the [[Physical system|system]] in the [[Thermodynamic limit]]:
 $$\langle O \rangle =\frac{\int\rho(\mathbf{q},\mathbf{p},t)O(\mathbf{q},\mathbf{p})\,dp\,dq}{\int \rho(\mathbf{q},\mathbf{p},t)\,dp\,dq}$$
 where $\rho$ is the density function of the ensemble. In the quantum case, for a [[Operatore autoaggiunto|Hermitian operator]] $\hat{O}(\hat{q},\hat{p})$ and a [[base|basis]] of [[Equazione agli autovalori|eigenstates]] $\{ \ket{n} \}_{n\in \mathbb{N}}$, it is
 $$\langle \hat{O} \rangle =\sum_{n}p(n)\braket{ n | \hat{O}(\hat{q},\hat{p}) | n } $$

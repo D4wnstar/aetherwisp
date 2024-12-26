@@ -1,4 +1,10 @@
-Un **fermione** è una [[Particella]] fondamentale con [[spin]] pari a mezzo intero ($\frac{1}{2}$, $\frac{3}{2}$, ...) descritta da una [[Funzione d'onda]] [[Stato total-antisimmetrico|total-antisimmetrica]]. Gli [[Elettrone|elettroni]] sono fermioni e hanno spin $\frac{1}{2}$.
+A **fermion** is a [[Particella|particle]] with half-integer [[spin]] ($\frac{1}{2}$, $\frac{3}{2}$, ...). The [[funzione d'onda|wavefunction]] of a [[Physical system|system]] of $N$ fermions changes sign when subject to a coordinate [[permutazione|permutation]]:
+$$P_{ij}\psi(\mathbf{r}_{1},\ldots,\mathbf{r}_{i},\ldots,\mathbf{r}_{j},\ldots,\mathbf{r}_{N})=-\psi(\mathbf{r}_{1},\ldots,\mathbf{r}_{j},\ldots,\mathbf{r}_{i},\ldots,\mathbf{r}_{N})$$
+$P_{ij}$ is the [[Operatore di scambio|switch operator]]. This wavefunction is said to be [[Stato total-antisimmetrico|antisymmetric]] (or odd).
+
+Fermions are subject to the [[Pauli exclusion principle]].
+### Origin
+The existence of fermions as a distinct category arises from the [[Identical particles|indistinguishability]] of particles caused by the [[Disuguaglianza di Heisenberg|uncertainty principle]].
 ### Fermi surface
 The common property of all fermions is the existence of the **Fermi surface**, which is the surface that divides occupied [[stato|states]] from unoccupied states at zero [[temperature]].
 #### 1D
@@ -9,7 +15,7 @@ $$H\psi_{n}=E\psi_{n}$$
 The boundary conditions make our system into a [[Buca infinita quantistica|infinite square well]], so the solution is $\psi_{n}\propto \sin kx$. We also have $kL=n\pi$, which means
 $$\psi_{n}(x)\propto \sin \frac{n\pi x}{L},\qquad E_{n}=\frac{\hbar^{2}k^{2}}{2m}=\frac{h^{2}}{2m} \left( \frac{n\pi}{L} \right)^{2}=- \frac{h^{2}}{2m} \left( \frac{n}{2L} \right)^{2}$$
 $$H=- \frac{h^{2}}{2m}\frac{ \partial ^{2} }{ \partial x^{2} } $$
-By the [[principio di esclusione di Pauli|Pauli exclusion principle]], fermions will be coupled in spin pairs. If we have $N$ fermions in the space, $N/2$ will be spin up and $N/2$ will be spin down. The highest occupied state is therefore $N/2$. Thus our **Fermi energy** (the energy of the last occupied state) is
+By the [[Pauli exclusion principle|Pauli exclusion principle]], fermions will be coupled in spin pairs. If we have $N$ fermions in the space, $N/2$ will be spin up and $N/2$ will be spin down. The highest occupied state is therefore $N/2$. Thus our **Fermi energy** (the energy of the last occupied state) is
 $$E_{F}=\frac{h^{2}}{2m}\left( \frac{N}{4L} \right)^{2}$$
 ##### Periodic boundary conditions
 If we use periodic boundary conditions, we have $\psi(x=0)=\psi(x=L)$, or $e^{ikx}=e^{ik(x+L)}$ and $e^{ikL}=1$. Our periodic condition is $2\pi n=kL$, where $n=0,\pm 1, \pm 2,\ldots$, so

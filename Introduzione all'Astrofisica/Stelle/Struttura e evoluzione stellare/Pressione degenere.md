@@ -8,7 +8,7 @@ Questo processo, tuttavia, non può andare avanti all'infinito. Eventualmente, l
 ### Derivazione
 Prendiamo la [[disuguaglianza di Heisenberg]] in tre dimensioni[^1]:
 $$\Delta x\Delta p_{x}>h$$
-allora quando il nucleo viene compresso, l'errore sulla posizione naturalmente diminuisce (ci sono meno luoghi possibili in cui gli atomi possono trovarsi). Ma allora deve crescere l'errore sulla quantità di moto. Allora la distribuzione di quantità di moto si allarga. Definiamo un volumetto tridimensionale di volume $h^{3}$ nello [[Phase space]] che rappresenta uno [[stato]] quantistico. Il [[principio di esclusione di Pauli]] ci dice che in questo volumetto possono esistere in contemporanea al massimo due [[Elettrone|elettroni]], e solo se hanno [[spin]] opposto.
+allora quando il nucleo viene compresso, l'errore sulla posizione naturalmente diminuisce (ci sono meno luoghi possibili in cui gli atomi possono trovarsi). Ma allora deve crescere l'errore sulla quantità di moto. Allora la distribuzione di quantità di moto si allarga. Definiamo un volumetto tridimensionale di volume $h^{3}$ nello [[Phase space]] che rappresenta uno [[stato]] quantistico. Il [[Pauli exclusion principle]] ci dice che in questo volumetto possono esistere in contemporanea al massimo due [[Elettrone|elettroni]], e solo se hanno [[spin]] opposto.
 
 Consideriamo un gas di $n_{e}$ elettroni liberi. Lo spazio delle fasi è tra loro equipartito e ciascuno di essi occupa uno un volume $\Delta x^{3}\simeq1/n_{e}$. Allora, l'incertezza sulla loro posizione è isotropica, dato che il volume è cubico, e vale
 $$\Delta x\simeq \frac{1}{n_{e}^{1/3}}=n_{e}^{- 1/3}$$
@@ -33,7 +33,7 @@ Nel caso generale, possiamo sfruttare il seguente integrale
 $$P=\frac{1}{3}\int_{0}^{\infty}n(p)pv\ dp$$
 dove $n(p)dp$ è la distribuzione di densità di momento, cioè la quantità di elettroni che hanno momento contenuto in un certo intervallo $[p,p+dp]$. Dato che il momento è quantizzato, si integra su tutti gli stati quantistici.
 
-Dobbiamo trovare che distribuzione usare. Se usassimo la distribuzione di Maxwell-Boltzmann per $n(p)$, troveremmo la ben nota [[equazione di stato dei gas perfetti]]. Purtroppo le condizioni sono troppo estreme per usarla. Sfruttiamo quindi la fisica statistica: gli elettroni sono [[Fermione|fermioni]] e quindi siamo legittimati ad usare la [[Distribuzione di Fermi-Dirac]].
+Dobbiamo trovare che distribuzione usare. Se usassimo la distribuzione di Maxwell-Boltzmann per $n(p)$, troveremmo la ben nota [[equazione di stato dei gas perfetti]]. Purtroppo le condizioni sono troppo estreme per usarla. Sfruttiamo quindi la fisica statistica: gli elettroni sono [[Fermion|fermioni]] e quindi siamo legittimati ad usare la [[Distribuzione di Fermi-Dirac]].
 
 Risolvere l'integrale analiticamente con questa distribuzione è impossibile. Per semplificare, a temperature basse possiamo usare la *condizione di degenerazione*. Si dice che un gas è *degenere* se la sua energia termica $k_{B}T\ll E_{F}$ con $E_{F}$ l'*energia di Fermi*. In questa condizione, tutti gli stati quantistici con energia minore di quella di Fermi sono occupati, mentre nessuno di quelli con energia superiore lo è[^2].
 

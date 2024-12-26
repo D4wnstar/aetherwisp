@@ -73,9 +73,8 @@ S&=-\left( \frac{ \partial A }{ \partial T }  \right)_{V} \\
 &=k_{B}N\left[ \frac{5}{2}-\ln(n\lambda ^{3}) \right]
 \end{align}$$
 which is the [[Sackur-Tetrode equation]], as expected.
-### Quantum mechanics
 ### In the quantum microcanonical ensemble
-It is possible to derive the behavior of an ideal gas using the [[quantum microcanonical ensemble]]. Like all quantum statistical systems, there are two cases: a [[Fermione|fermion]] gas and a [[bosone|boson]] gas (or a third, secret option called a Boltzmann system, where all [[Equazione agli autovalori|eigenfunctions]] are [[Stato totalsimmetrico|symmetric]], like for bosons, but counted using the corrected Boltzmann count. This essentially gives the classical results starting from the quantum description).
+It is possible to derive the behavior of an ideal gas using the [[quantum microcanonical ensemble]]. Like all quantum statistical systems, there are two cases: a [[Fermion|fermion]] gas and a [[Boson|boson]] gas (or a third, secret option called a Boltzmann system, where all [[Equazione agli autovalori|eigenfunctions]] are [[Stato totalsimmetrico|symmetric]], like for bosons, but counted using the corrected Boltzmann count. This essentially gives the classical results starting from the quantum description).
 
 Consider a cube of side $L$ and volume $V=L^{3}$ filled with the ideal gas. Since the particles are non-interacting, they are [[Particella libera (quantistica)|free particles]] with non-[[Normalizzazione|normalizable]] [[Funzione d'onda|wavefunctions]] $\psi(\mathbf{r})=e^{-\mathbf{p}\cdot \mathbf{r}/\hbar}$ (a [[plane wave]]). The momentum and energy of each particle are
 $$\mathbf{p}=\frac{2\pi \hbar}{L}\hat{\mathbf{n}},\qquad E=\frac{p^{2}}{2m}$$
@@ -94,7 +93,7 @@ $$n_{\mathbf{p}}=\begin{cases}
 0,1&\text{fermions} \\
 0,1,2,\ldots&\text{bosons}
 \end{cases}$$
-This a consequence of the [[principio di esclusione di Pauli|Pauli exclusion principle]]. The Boltzmann systems behaves like bosons. These numbers are important because they determine the possible [[stato|states]] of the system
+This a consequence of the [[Pauli exclusion principle|Pauli exclusion principle]]. The Boltzmann systems behaves like bosons. These numbers are important because they determine the possible [[stato|states]] of the system
 $$\frac{N!}{\prod_{\mathbf{p}}(n_{\mathbf{p}}!)}$$
 We can divide space in cells identified by an index $i$. Each cell has an average energy $E_{i}$ contains $g_{i}$ energy levels. We can call $n_{i}$ the sum of all occupation numbers $n_{\mathbf{p}}$ present in the cell and $W(\{ n_{i} \})$ the number of system states in that cell. Finally, the state counting function is $\Gamma(E)=\sum_{\{ n_{i} \}}W(\{ n_{i} \})$.
 
@@ -150,7 +149,7 @@ E&=\sum E_{i}n_{i}=\sum_{i}Zg_{i}E_{i}e^{-\beta E_{i}}=Z\sum_{\mathbf{p}} \frac{
 which is the classical result. The entropy is
 $$\frac{S}{k_{B}}=Z\sum_{\mathbf{p}}e^{-\beta E_{\mathbf{p}}}(\beta E_{\mathbf{p}}-\log Z)+N$$
 But this is just the [[Sackur-Tetrode equation]], which was the original classical result.
-#### In the quantum grand canonical ensemble
+### In the quantum grand canonical ensemble
 The [[equation of state]] can be expressed with the grand [[partition function]] $\mathcal{Z}$ as
 $$\frac{PV}{k_{B}T}=\log \mathcal{Z}(Z,V,T)=\left\{\begin{align}
 \text{(Bosons)}\quad &-\sum_{\bar{p}} \log (1-Ze^{-\beta \varepsilon_{\bar{p}}}) \\
@@ -163,7 +162,7 @@ $$\sum_{\bar{p}}\langle n_{\bar{p}} \rangle =N=Ze\frac{ \partial  }{ \partial Z 
 \end{align}\right.$$
 The particle density is
 $$\frac{1}{v}=\frac{N}{V}=\frac{4\pi}{h^{3}}\int_{0}^{\infty}p^{2} \frac{1}{Z^{-1}e^{\beta p^{2}/2m}}dp$$
-##### Fermions
+#### Fermions
 For fermions, the average occupation number is
 $$\langle n_{\bar{p}} \rangle =\frac{1}{Z^{-1}e^{\beta \varepsilon_{\bar{p}}}+1}=\frac{1}{e^{\beta(\varepsilon_{\bar{p}}-\mu)}+1}$$
 We get
@@ -213,7 +212,7 @@ $$\frac{ \partial P }{ \partial \beta } =\frac{ \partial  }{ \partial \beta } \l
 $$\frac{U}{V}=\frac{3}{2}k_{B}+ \frac{1}{\lambda ^{3}}f_{5/2}(Z)$$
 For bosons we get the same
 $$\frac{U}{V}=\frac{3}{2}k_{B}+ \frac{1}{\lambda ^{3}}g_{5/2}(Z)$$
-In the [[thermodynamic limit]], these simplify down to
+In the [[Thermodynamic limit]], these simplify down to
 $$U=\frac{3}{2}k_{B}T$$
 which is the classical result, satisfying the correspondence principle.
 ##### Free boson gas

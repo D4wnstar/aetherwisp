@@ -14,13 +14,13 @@ since we have a [[Serie geometrica|geometric series]]. The logarithm is then
 $$\log Q=-\sum_{\mathbf{k},\hat{\varepsilon}}\log(1-e^{-\beta \hbar \omega})=-2\sum_{\mathbf{k}}\log(1-e^{-\beta \hbar \omega})$$
 since there are only two possible $\hat{\varepsilon}$ states. The average [[occupation number]] is
 $$\langle n_{\mathbf{k}} \rangle =- \frac{1}{\beta}\frac{ \partial  }{ \partial (\hbar \omega) } \log Q=\frac{2}{\beta} \frac{\beta e^{\hbar \omega \beta}}{1-e^{-\beta \hbar \omega}}=\frac{2}{e ^{\beta \hbar \omega}-1}$$
-which is the [[Bose-Einstein distribution]], as we should expect from since photons are [[Bosone|bosons]]. The [[internal energy]] is
+which is the [[Bose-Einstein distribution]], as we should expect from since photons are [[Boson|bosons]]. The [[internal energy]] is
 $$U=-\frac{ \partial  }{ \partial \beta } \log Q=\sum_{\mathbf{k}}\hbar \omega \langle n_{\mathbf{k}} \rangle $$
 Note that this result is essentially equation $(1)$ but using the [[ensemble average]] instead[^2]. This is expected, as we know that in a canonical ensemble, $\langle E \rangle=U$. The [[pressure]] is
 $$P=-\frac{ \partial A }{ \partial V } =\frac{1}{\beta}\frac{ \partial  }{ \partial V } \log Q=\frac{1}{\beta}\frac{ \partial  }{ \partial V } \left( -2\sum_{\mathbf{k}}\log(1-e^{-\beta \hbar c_{2}\pi \lvert \hat{\mathbf{n}} \rvert /V^{1/3}}) \right)=\frac{1}{3V}\sum_{\mathbf{k}}\hbar \omega \langle n_{\mathbf{k}} \rangle $$
 From which we can get the [[equation of state]] of a photon gas
 $$\boxed{PV=\frac{1}{3}U}$$
-We can calculate $U$ more explicitly in the [[thermodynamic limit]]:
+We can calculate $U$ more explicitly in the [[Thermodynamic limit]]:
 $$U=\sum_{\mathbf{k},\hat{\varepsilon}}\hbar \omega \langle n_{\mathbf{k}} \rangle =\frac{V}{(2\pi)^{3}}2\int_{0}^{\infty}4\pi k^{2} \frac{\hbar ck}{e^{\beta \hbar ck}-1}dk=\frac{2V}{(2\pi)^{3}}4\pi \int_{0}^{\infty} \frac{1}{c} \frac{\omega ^{2}}{c^{2}} \hbar \frac{\omega}{e^{\beta \hbar \omega}-1}d\omega$$
 The energy density by volume is
 $$\boxed{\frac{U}{V}=\int_{0}^{\infty}u(\omega,T)\ d\omega \quad\text{where}\quad u(\omega,T)=\frac{\hbar}{\pi ^{2}c^{3}} \frac{\omega ^{3}}{e^{\beta \hbar \omega}-1}}$$

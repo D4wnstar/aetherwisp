@@ -72,7 +72,7 @@ $$\frac{ \partial U }{ \partial \beta } +\langle (U-H)^{2} \rangle =0$$
 $$\langle H^{2} \rangle -\langle H \rangle ^{2}=-\frac{ \partial U }{ \partial \beta }=-\frac{ \partial U }{ \partial T } \frac{ \partial T }{ \partial \beta } =-C_{V} \frac{1}{k_{B}} \frac{-1}{\beta}=k_{B}C_{V}T^{2} $$
 This connects the energy of a system with its constant-volume [[heat capacity]]. But the right hand side goes like $N$ for large particle numbers, as $k_{B}$ is constant and $T$ is [[Intensive property|intensive]], so only $C_{V}\sim N$ contributes. As such, the variance goes like $N$ asymptotically. If we compare it to the square [[mean]] of the energy $\langle H \rangle^{2}$, which goes like $N^{2}$, we can see that
 $$\boxed{\frac{\langle H^{2} \rangle -\langle H \rangle ^{2}}{\langle H \rangle ^{2}}\sim \frac{N}{N^{2}}\sim \frac{1}{N}}$$
-So in the [[thermodynamic limit]], for large $N$, the fluctuations tend to zero, which means that the energy of the system is essentially defined up to a tiny margin of error. But that's just the definition of the microcanonical ensemble, which confirms that for macroscopic systems, they are equivalent. In fact, for canonical ensembles with a realistic number of particles $(\sim 10^{23})$, we might as well write $\text{var}(H)=0$ and $\langle H \rangle=H$.
+So in the [[Thermodynamic limit]], for large $N$, the fluctuations tend to zero, which means that the energy of the system is essentially defined up to a tiny margin of error. But that's just the definition of the microcanonical ensemble, which confirms that for macroscopic systems, they are equivalent. In fact, for canonical ensembles with a realistic number of particles $(\sim 10^{23})$, we might as well write $\text{var}(H)=0$ and $\langle H \rangle=H$.
 
 Another point that can be derived from variance equation is that the energy fluctuations are seemingly directly correlated with the heat capacity of a system. Though it might seem a bit odd at first, think of it like this: the heat capacity is the ability of a system to absorb and dissipate energy without large change in temperature. If an energy fluctuation occurs, a system with large heat capacity will scarcely respond it, whereas one with small heat capacity will feel it much more. As such, it's pretty natural to see that the system's fluctuations are dependent on how "good" it is at absorbing and dissipating energy. The bigger the heat capacity, the bigger the fluctuations are allowed to be without "breaking" the system. This is a specific case of a more universal result known as the [[fluctuation-dissipation theorem]].
 ##### Alternative argument
@@ -122,7 +122,7 @@ Since the integrand is very sharply peaked around $\bar{E}$, we can extend the l
 $$\boxed{Q_{N}\simeq \sqrt{ 2\pi k_{B}T^{2}C_{V} }e^{-\beta A(\bar{E})}}$$
 and the natural logarithm, for convenience, is
 $$\ln Q_{N}=- \frac{A(\bar{E})}{k_{B}T}+ \frac{1}{2}\ln(2\pi k_{B}T^{2}C_{V})$$
-In the [[thermodynamic limit]], the first term is of order $N$ (due to $A$), whereas the second is of order $\ln N$ (due to $\ln T$). Thus, the second term is vanishingly small and we can write
+In the [[Thermodynamic limit]], the first term is of order $N$ (due to $A$), whereas the second is of order $\ln N$ (due to $\ln T$). Thus, the second term is vanishingly small and we can write
 $$\ln Q_{N}=-\beta A(\bar{E})\quad\Rightarrow \quad Q_{N}=e^{-\beta A(\bar{E})}$$
 
 > [!success] Result

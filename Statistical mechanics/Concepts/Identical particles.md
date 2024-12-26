@@ -11,57 +11,25 @@ Not so in quantum physics. Say the pool balls are now quantum objects. After the
 $$\ket{\psi} =\beta \ket{ab} +\gamma \ket{ba} =\alpha[\beta \ket{ba} +\gamma \ket{ab} ]$$
 We have $\beta=\alpha \gamma$ and $\gamma=\alpha \beta$, so $\alpha=\beta/\gamma=\gamma/\beta$. This implies $\alpha^{2}=1$ or $\alpha=\pm 1$. So, there are only two possible states
 $$\ket{ab} =\pm \ket{ba} $$
-This shows that there is a [[Parità|parity]] phenomenon going on. Sometimes, inverting the position causes the state to flip sign, other times nothing happens. This suggests the presence of two types of particles, one which undergoes parity flipping, and another which does not. These two types of particles are respectively called [[fermione|fermions]] and [[bosone|bosons]]. Fermions flip signs, bosons do not. This has the remarkable outcome that fermions just can't occupy the same state as another fermion in the same system simultaneously, whereas bosons can. This odd property is called the [[principio di esclusione di Pauli|Pauli exclusion principle]].
+This shows that there is a [[Parità|parity]] phenomenon going on. Sometimes, inverting the position causes the state to flip sign, other times nothing happens. This suggests the presence of two types of particles, one which undergoes parity flipping, and another which does not. These two types of particles are respectively called [[Fermion|fermions]] and [[Boson|bosons]]. Fermions flip signs and make for odd wavefunctions, bosons do not and make for even wavefunctions.
+
+This has the remarkable outcome that fermions just can't occupy the same state as another fermion in the same system simultaneously, whereas bosons can. In fact, if $a=b$, the fermion mixed state would be
+$$\ket{\psi} =\ket{aa} -\ket{aa} =0$$
+Meaning, there is no such state. The two fermions *must* end up in different states $\ket{a}$ and $\ket{b}$. It doesn't matter which goes where, but it is necessary for the two to differ. Meanwhile for bosons, we get
+$$\ket{\psi} =\ket{aa} +\ket{aa} =2\ket{aa} $$
+so not only does the state exists, it is simply a rescaling of the original. As such, it is perfectly fine for two bosons to end up in the same state. This odd property is called the [[Pauli exclusion principle]].
 
 > [!example] $N$ particles
-> This can be readily generalized to any number of particles. Consider $N$ of them. The position [[Funzione d'onda|wavefunction]] of the system is $\psi(\mathbf{r}_{1},\mathbf{r}_{2},\ldots,\mathbf{r}_{N})$, where $\mathbf{r}_{i}$ is the position of the $i$-th particle. We can define the particle switch [[operatore|operator]] $P$ as
+> This can be readily generalized to any number of particles. Consider $N$ of them. The position [[Funzione d'onda|wavefunction]] of the system is $\psi(\mathbf{r}_{1},\mathbf{r}_{2},\ldots,\mathbf{r}_{N})$, where $\mathbf{r}_{i}$ is the position of the $i$-th particle. We can define the particle [[Operatore di scambio|switch operator]] $P$ as
 >$$P\psi(\mathbf{r}_{1},\ldots,\mathbf{r}_{i},\ldots,\mathbf{r}_{j},\ldots,\mathbf{r}_{N})=\psi(\mathbf{r}_{1},\ldots,\mathbf{r}_{j},\ldots,\mathbf{r}_{i},\ldots,\mathbf{r}_{N})$$
 > Of course, switching particles gets us back to the original wavefunction, so $P$ is [[Operatore unitario|unitary]] ($PP=P^{2}=1$). As with all unitary operators, applying them to a state won't change the [[Equazione agli autovalori|eigenvalues]]:
 > $$H\psi=E\psi \quad\to \quad H(P\psi)=E(P\psi)$$
 > If the eigenvalue is not [[Degenerazione|degenerate]], $\psi$ and $P\psi$ must describe the same state and thus be proportional to each other: $P\psi=\alpha \psi$, where $\alpha \in \mathbb{C}$. However, since $P$ is unitary, $\alpha$ must be $\pm 1$. As such, we get
 > $$P\psi=\pm \psi$$
 > Again, we see that switching two particles can only have two effects. Either it flips the sign of the state, or it doesn't.
+### Correct Boltzmann counting
+The indistinguishability of particles affects the number of unique states that are possible in a quantum system. Since particles positions can't be determined precisely, states where the only difference is how the particles are ordered all combine into a single mixed state made up of a superposition of all of these pure states. For instance, if you have two particles at positions $a$ and $b$ and you measure them, their mixed state would be
+$$\ket{\psi} =\ket{ab} \pm \ket{ba} $$
+(with some omitted [[Normalizzazione|normalization]] constant). This is because it is not possible to distinguish between $\ket{ab}$ and $\ket{ba}$. The sign of $\pm$ is determined by whether we are working with fermions (-) or bosons (+). Thus, when passing from classical to quantum physics, the number of states is reduced from two to one.
 
-Take as an example the [[Oscillatore armonico quantistico|quantum harmonic oscillator]]. There are infinite discrete energy [[Equazione agli autovalori|eigenstates]] determined by the principal quantum number $n$. Since fermions can't occupy the same state, each energy state can be occupied by only one fermion at the same time. Meanwhile, bosons have no such restriction and can theoretically all pile up at the ground state.
-
-If we call the energy level of the $k$-th particle $n_{k}$, the [[partition function]] can be calculated as
-$$Z=\prod_{k}\sum_{n_{k}}e^{-nE_{k}n_{k}}$$
-The exact form depends on whether we are working with bosons or fermions.
-$$Z_{B}=\prod_{k}\sum_{n_{k}=0}^{\infty} e^{-\beta E_{K}n_{k}},\qquad Z_{F}=\prod_{k}\sum_{n_{k}=0}^{1}e^{-\beta E_{k} n_{k}}$$
-The average energy state for each particle therefore is
-$$\langle n_{\bar{k}} \rangle =\frac{1}{Z}\prod_{k}\sum_{n_{k}}n_{\bar{k}}e^{-\beta n_{k}E_{k}}= \frac{1}{\sum_{n_{\bar{k}}=0}^{1\text{ or }\infty} e^{-\beta n_{k}E_{k}}}\sum_{n_{\bar{k}}=0}^{1\text{ or }\infty} n_{\bar{k}}e^{-\beta n_{\bar{k}}E_{\bar{k}}}$$
-For fermions, it becomes
-$$\langle n_{k} \rangle =\frac{e^{-\beta E_{k}}}{1+e^{-\beta E_{k}}}=\frac{\sum_{n_{k}=0}^{i} n_{k}e^{-\beta n_{k}E_{k}}}{1+e^{-\beta E_{k}}}=\frac{\sum_{n_{k}=0}^{1} n_{k}e^{-\beta n_{k}E_{k}}}{\sum_{n_{k}=0}^{1} e^{-\beta n_{k}E_{k}}}=\frac{1}{e^{\beta E_{k}}+1}$$
-For bosons, it becomes
-$$\langle n_{k} \rangle =\frac{1}{\frac{1}{1-e^{\beta E_{k}}}} \sum_{n_{k}=0}^{\infty} n_{k}e^{-\beta n_{k}E_{k}}=\frac{1}{e^{\beta E_{k}}-1}$$
-These are the [[Fermi-Dirac distribution]] and the [[Bose-Einstein distribution]] respectively. Combined, we can write
-$$\boxed{\langle n_{k} \rangle =\frac{1}{e^{\beta E_{k}}\pm 1}}$$
-The sign is determined the kind of particle in play.
-
-> [!example] The T in TTRPG stands for thermodynamics
-> Consider 2 three sided dice and let's play a game where the throw them at the same time and check the result, with some additional rules. The fundamental rule is that some combinations of results are legal and some aren't. If the roll is not legal, we must reroll until we get one that is. Let's define three variations of the game:
-> - In the *Boltzmann game*, every combination of rolls is legal.
-> - In the *Bose game*, a roll is illegal if the second dice is greater *or equal* ($\geq$) to the first.
-> - In the *Fermi game*, a roll is illegal if the second is greater *but not equal* ($>$) to the first.
-> 
-> Let's find the probability of rolling a total of five in each of the games. We have two dice and each die has three possible states: 1, 2 and 3. That's $3^{2}=9$ possible combinations. In the Boltzmann game, all of these are legal. In the Bose and Fermi game, not all of them are. Since there aren't that many combinations, we can figure out which are legal by just listing them all out manually. 
-> 
-> idk im lazy there should be a list of possibilities here
-> 
-> So we found that there are 6 legal combinations in the Bose game, and 3 legal ones in the Fermi game. Of the 9 original combinations, the totals of each combinations are
-> 
-> |     | 1   | 2   | 3   |
-> | --- | --- | --- | --- |
-> | 1   | 2   | 3   | 4   |
-> | 2   | 3   | 4   | 5   |
-> | 3   | 4   | 5   | 6   |
-> 
-> In the Boltzmann game, the probability is obvious: just count the cells that are equal to 5. That's 2 over 9. In the Bose game, we have 6 probabilities:
-> 
-> |     | 1   | 2   | 3   |
-> | --- | --- | --- | --- |
-> | 1   | 2   | 3   | 4   |
-> | 2   | 3   | 4   | 5   |
-> | 3   | 4   | 5   | 6   |
-> 
-> (TODO: Finish this example, end of lesson from 15/11/2024)
+This can be extend to a system of $N$ particles, in which the number of identical configurations (i.e. coordinate [[permutazione|permutations]]) becomes $N!$ and so the number of distinguishable states is reduced to $1/N!$ of the classical version. This is the origin of the so called **correct Boltzmann counting**, which was needed in classical [[Ensemble|ensembles]] to solve the [[Gibbs paradox]]. The reason it is necessary even in classical statistical mechanics is because even classical ensembles deal with quantum objects such as [[Atomo|atoms]] and [[molecule|molecules]] as basic elements.

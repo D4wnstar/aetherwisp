@@ -2,7 +2,7 @@
 aliases:
   - positrone
 ---
-L'**elettrone** è una [[Particella]] elementare con carica negativa pari ad una [[carica elementare]]. Specificamente, è il [[leptone]] di prima generazione e, escludendo [[neutrino|neutrini]] e particelle prive di massa, è la particella di massa più piccola tra quelle note. Hanno [[spin]] 1/2, il che li rende [[Fermione|fermioni]].
+L'**elettrone** è una [[Particella]] elementare con carica negativa pari ad una [[carica elementare]]. Specificamente, è il [[leptone]] di prima generazione e, escludendo [[neutrino|neutrini]] e particelle prive di massa, è la particella di massa più piccola tra quelle note. Hanno [[spin]] 1/2, il che li rende [[Fermion|fermioni]].
 
 L'[[antiparticella]] dell'elettrone è detta **positrone**.
 

@@ -79,7 +79,7 @@ The average [[occupation number]] is
 $$\langle n_{i} \rangle =- \frac{1}{\beta \frac{ \partial  }{ \partial (\hbar \omega) } }\log Q=\frac{1}{e^{\beta \hbar \omega}-1}$$
 The [[internal energy]] is
 $$U=-\frac{ \partial  }{ \partial \beta } \log Q=\sum_{i=1}^{3N} \hbar \omega_{i}\langle n_{i} \rangle =\sum_{i=1}^{3N} \frac{\hbar \omega_{i}}{e^{\beta \hbar \omega_{i}}-1}$$
-In the [[thermodynamic limit]] it becomes
+In the [[Thermodynamic limit]] it becomes
 $$U=\frac{3V}{2\pi ^{2}c^{3}}\int_{0}^{\omega _\text{max}}\omega ^{2} \frac{1}{e^{\beta \hbar \omega}-1}d\omega$$
 The energy density by particle is
 $$\frac{U}{N}=\frac{g(k_{B}T)^{4}}{(\hbar \omega _\text{max})^{3}}\int_{0}^{\beta \hbar \omega _\text{max}} \frac{t^{3}}{e^{t}-1}dt$$

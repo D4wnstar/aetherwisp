@@ -11,8 +11,7 @@ $$n\lambda ^{3}\simeq 1\quad\text{(onset of quantum effects)}$$
 Much more than this, and quantum effects are negligible. Note that $\lambda$ is dependent on temperature. This means that we can rewrite the previous equation to find a specific temperature at which a gas starts to behave like a quantum system. If we use the full equality $n\lambda ^{3}=1$ and extract $T$ out of $\lambda$ we find
 $$T_{0}=\left( \frac{2\pi \hbar^{2}}{k_{B}m} \right)n^{2/3}$$
 We call $T_{0}$ the [[degeneracy temperature]]. Anything below this value and we must take quantum physics into account. What this value actually is changes extensively across several orders of magnitude depending on which system we are talking about. For instance, atomic hydrogen ($H_{2}$) gas at particle density of $2\times 10^{19}\text{ particles/cm}^{3}$ has a degeneracy temperature of $T_{0}=5\times 10^{-2}\text{ K}$. However, if we express free [[Elettrone|electrons]] in metal as a particle gas of density $10^{22}\text{ particles/cm}^{3}$ we get a temperature of $T_{0}=10^{4}\text{ K}$. A difference of six orders of magnitude.
-
-
+### General treatment
 One of the basic [[Postulati della meccanica quantistica|principles of quantum mechanics]] is that a [[stato|state]] $\psi$ can be expressed as a [[Serie di Fourier|Fourier series]] of [[Equazione agli autovalori|eigenfunctions]] $\phi_{n}$ as
 $$\psi=\sum_{n}c_{n}\phi_{n} $$
 where $c_{n}$ are coefficients. Each component of the system has its own state described by its own eigenfunction. The [[Stato|macrostate]] of the system as a whole is a [[Stato|mixed state]] of all of these [[Stato|microstates]]. In time, $c_{n}(t)$ can be considered [[Funzione d'onda|wavefunctions]] just like $\phi_{n}$. The [[mean]] of a quantity $O$ in a state $\psi$ is

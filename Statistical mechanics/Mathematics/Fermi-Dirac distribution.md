@@ -1,8 +1,8 @@
-The **Fermi-Dirac distribution** is a [[probability distribution]] that describes the behavior of a [[Physical system|system]] of $N$ [[Fermione|fermions]] in [[thermal equilibrium]]. Its [[probability density function]] is
+The **Fermi-Dirac distribution** is a [[probability distribution]] that describes the behavior of a [[Physical system|system]] of $N$ [[Fermion|fermions]] in [[thermal equilibrium]]. Its [[probability density function]] is
 $$\langle n_{i} \rangle =\frac{1}{e^{\beta(\varepsilon_{i}-\mu)}+1}$$
 $\langle n_{i} \rangle$ is the average number of fermions in the $i$-th single-[[Particella|particle]] [[stato|state]] of energy $\varepsilon_{i}$, $\mu$ is the system [[chemical potential]] and $\beta=1/k_{B}T$ is the inverse temperature, with $k_{B}$ the [[Boltzmann constant]] and $T$ the [[temperature]]. The [[Normalizzazione|normalization]] constant is
 $$\sum_{i}n_{i}=N$$
-Since we are working with fermions, the [[principio di esclusione di Pauli|Pauli exclusion principle]] must hold, which is to say that $\langle n_{i} \rangle< 1$.
+Since we are working with fermions, the [[Pauli exclusion principle|Pauli exclusion principle]] must hold, which is to say that $\langle n_{i} \rangle< 1$.
 ### ?
 $$f_{3/2}(z)=\sum_{l=1}^{\infty} \frac{(-1)^{l+1}z^{l}}{l^{3/2}}=z\frac{ \partial  }{ \partial z }f_{5/2}(z)=\frac{4}{\sqrt{ \pi }}\int_{0}^{\infty} \frac{x^{2}}{z^{-1}e^{x^{2}}+1}\ dx$$
 The first few terms are
@@ -37,7 +37,7 @@ Interparticle distance is on the order of $\sim v^{1/3}$. For high temperature, 
 ### Ideal gas
 Consider a fermion [[ideal gas]]. From the [[equation of state]] we get
 $$\begin{align}
-\frac{PV}{Nk_{B}t}&=\frac{Pv}{k_{B}T} \\
+\frac{PV}{Nk_{B}T}&=\frac{Pv}{k_{B}T} \\
 &=\frac{v}{\lambda ^{3}_{T}}f_{3/2}(z) \\
 &\simeq \frac{v}{\lambda ^{3}_{T}}\left( z- \frac{z^{2}}{2^{3/2}}+\ldots \right) \\
 &\simeq \frac{v}{\lambda ^{3}_{T}}\left[ \frac{\lambda ^{3}_{T}}{v}+ \frac{1}{2^{3/2}}\left( \frac{\lambda ^{3}_{T}}{v} \right)-\left(\frac{\lambda ^{3}_{T}}{v} + \frac{1}{2^{3/2}}\left( \frac{\lambda ^{3}_{T}}{v} \right)^{2} \right)^{5/2} \frac{1}{2^{5/2}}+\ldots \right] \\
@@ -47,7 +47,7 @@ Note the consequence here. The classical ideal gas is
 $$\frac{PV}{Nk_{B}T}=1$$
 Meanwhile, a fermion ideal gas is
 $$\boxed{\frac{PV}{Nk_{B}T}=1+ \frac{1}{2^{5/2}} \frac{\lambda_{T}^{3}}{v}+\ldots}$$
-We have an expansion with many terms beyond 1. The term beyond one is called the **second virial coefficient**. This normally occurs when you extend an ideal gas to also have internal interactions between particles. But there are no interactions here, it's just fermions. What this is, is the manifestation of the [[principio di esclusione di Pauli|Pauli exclusion principle]], which can be interpreted as a sort of repulsive interaction between fermions that prevents them from occupying the same [[stato|state]]. It's not *really* a potential, but it behaves like one.
+We have an expansion with many terms beyond 1. The term beyond one is called the **second virial coefficient**. This normally occurs when you extend an ideal gas to also have internal interactions between particles. But there are no interactions here, it's just fermions. What this is, is the manifestation of the [[Pauli exclusion principle|Pauli exclusion principle]], which can be interpreted as a sort of repulsive interaction between fermions that prevents them from occupying the same [[stato|state]]. It's not *really* a potential, but it behaves like one.
 
 $$\frac{1}{v}\lambda ^{3}_{T}=\frac{1}{v}\left( \frac{2\pi \hbar^{2}}{mk_{B}T} \right)^{3/2}= \frac{4}{3\sqrt{ \pi }}(\ln z)^{3/2}$$
 The logarithm is

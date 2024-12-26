@@ -15,7 +15,7 @@ che "promuove" un protone ad un neutrone catturando un elettrone vicino al nucle
 
 Il decadimento $\beta$ è mediato dall'[[interazione debole]].
 
-Queste reazioni nucleari sono dette *interazioni di contatto a 4 [[Fermione|fermioni]]*.
+Queste reazioni nucleari sono dette *interazioni di contatto a 4 [[Fermion|fermioni]]*.
 
 Una reazione tipo $\beta^{-}$ è
 $$_{53}^{131}I_{78} \rightarrow _{54}^{131}Xe_{77}$$
