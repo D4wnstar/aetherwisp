@@ -109,7 +109,7 @@ $g_{i}^{n_{i}}$ are all the possible ways $n_{i}$ bosons can occupy $g_{i}$ ener
 
 Now that we have $W_{i}$, we can look back at the entropy. Assuming that fluctuations are negligible, we can remember that entropy in the microcanonical ensemble is determined entirely by a single state, so we can turn the sum of states $\sum_{i}W(\{ n_{i} \})$ into just the term that contains that state $W(\{ \bar{n}_{i} \})$ to get $S=k_{B}\log W(\{ \bar{n}_{i} \})$. However, entropy can also be expressed in [[Entropy (information theory)|information-theory]] terms as $S=\sum_{i}p_{i}\log p_{i}$. We can combine these two to solve the logarithm, using the [[Approssimazione di Stirling|Stirling approximation]]. For bosons
 $$\log W=\sum_{i}[(n_{i}+g_{i}-1)\log(n_{i}+g_{i}-1)-n_{i}\log n_{i}-(g_{i}-1)\log(g_{i}-1)]$$
-We can expand the entropy formula by exploiting [[Lagrange multiplier constraints]]:
+We can expand the entropy formula by exploiting [[Entropy from Lagrange multipliers]]:
 $$S\to S_{\text{Lag.}}=-\sum_{x}p(x)\log p(x)+\alpha\left( \sum_{x} p(x)-1 \right)+\beta\left( \sum_{x}p(x)E(x)-E \right)$$
 so
 $$- \frac{d}{dn_{i}}\log W_{i}=-\sum_{i}[\log(n_{i}+g_{i}-1)+1-\log n_{i}-1]+\alpha \sum_{i}1+\beta \sum_{i}E_{i}$$

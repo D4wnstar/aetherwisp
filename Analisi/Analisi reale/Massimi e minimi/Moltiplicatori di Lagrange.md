@@ -7,6 +7,9 @@ Siano $F:A\subseteq \mathbb{R}^{N}\rightarrow\mathbb{R}^{M}$ con $1\leq M\leq N$
 Se $P_{0}$ è punto di estremo locale per $f$ relativo al vincolo $C$, allora esistono $\lambda_{1},\cdots,\lambda_{M}$ coefficienti reali detti **moltiplicatori di Lagrange** tali che
 $$\nabla f(P_{0})=\lambda_{1}\nabla F_{1}(P_{0})+\cdots+\lambda_{M}F_{M}(P_{0})$$
 dove $F_{k}$ sono le componenti di $F$.
+
+Nel caso più semplice $M=1$, si ha
+$$\nabla f(P_{0})=\lambda \nabla F(P_{0})$$
 ### Dimostrazione
 Consideriamo senza perdere di generalità il caso in cui $P_{0}$ sia minimo locale per $f$ relativo al vincolo $C$. Riordiniamo le variabili di $\mathbb{R}^{N}$ in modo da individuare le coordinate $P=(x,y)\in\mathbb{R}^{N-M}\times\mathbb{R}^{N}$ tali che la sottomatrice $\frac{\partial F}{\partial y}(x_{0},y_{0})$ della matrice Jacobiana sia invertibile. Usando il [[Teorema del Dini]] troviamo che l'insieme
 $$C\;\cap(U\times V)=\{(x,y)\in\mathbb{R}^{N- M}\times\mathbb{R}^{M}\;|\;y=\varphi(x),x\in U\}$$
