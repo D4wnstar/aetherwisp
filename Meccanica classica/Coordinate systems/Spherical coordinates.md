@@ -3,10 +3,12 @@
 ![[Graph Spherical coordinates|50%|center]]
 
 ### Relation to Cartesian coordinates
-Spherical coordinates can be converted to [[Cartesian coordinates]] by doing
+[[Cartesian coordinates]] can be converted to spherical coordinates by doing
 $$x=\rho\cos\theta\sin\phi, \quad y=\rho\sin\theta\sin\phi, \quad z=\rho\cos\phi$$
 and viceversa
 $$r=\sqrt{ x^{2}+y^{2}+z^{2} },\quad y=\arctan\left( \frac{\sqrt{x^{2}+y^{2} }}{z} \right),\quad z=\arctan\left( \frac{y}{x} \right)$$
+To convert an integral from Cartesian to spherical, we find the [[determinant]] of the [[Jacobian]] of the conversion [[diffeomorphism]] $\sigma(x,y,z)=(\rho\cos\theta\sin\phi,\rho\sin\theta\sin\phi,\rho\cos\phi)$, which is $\det J\sigma=r^{2}\sin \phi$. As such
+$$\iiint dxdydz=\iiint r^{2}\sin \phi\ drd\theta d\phi$$
 ### Motion
 A unit vector in the unit sphere is $\mathbf{R}=(\cos\theta\sin\phi,\sin\theta\sin\phi,\cos\phi)$. A perpendicular vector is $\mathbf{P}=(-\sin\theta,\cos\theta,0)$. Another perpendicular vector is just obtained by the [[prodotto vettoriale|cross product]] $\mathbf{Q}=\mathbf{R}\times\mathbf{P}=(-\cos\theta\cos\phi,-\sin\theta\cos\phi,\sin\phi)$, which completes the [[base|basis]]. The [[moving frame]] is
 $$\{\mathbf{r}(t);\mathbf{R}(t),\mathbf{P}(t),\mathbf{Q}(t)\}$$

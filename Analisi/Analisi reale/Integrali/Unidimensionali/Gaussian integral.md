@@ -7,9 +7,9 @@ This integral commonly occurs in quantum mechanics (e.g. in the [[Oscillatore ar
 There are several methods for solving this integral. The simplest just consists of using the evenness of the function, making the substitution $x=\sqrt{ t }$ and noticing the definition of the [[Gamma function]]:
 $$\int_{-\infty}^{\infty} e^{-x^{2}} \ dx =2\int_{0}^{\infty}e^{-x^{2}}\ dx=2\int_{0}^{\infty} \frac{1}{2}e^{-t}t^{-1/2} \ dt =\Gamma\left( \frac{1}{2} \right)=\sqrt{ \pi }$$
 A related integral is
-$$\int_{-\infty}^{\infty} x^{2}e^{-x^{2}} \ dx=\frac{\sqrt{ \pi }}{2a^{3/2}}$$
+$$\int_{-\infty}^{\infty} x^{2}e^{-ax^{2}} \ dx=\frac{\sqrt{ \pi }}{2a^{3/2}}$$
 The relation between the two can be seen by applying [[Integrazione per parti|integration by parts]] on $1$ and $e^{-x^{2}}$ on the Gaussian integral:
-$$\int_{-\infty}^{\infty} e^{-x^{2}} \ dx=2a\int_{-\infty}^{\infty} x^{2}e^{-x^{2}} \ dx$$
+$$\int_{-\infty}^{\infty} e^{-ax^{2}} \ dx=2a\int_{-\infty}^{\infty} x^{2}e^{-ax^{2}} \ dx$$
 ### General solution
 An analytical solution can be derived for the more general case
 $$\begin{align}
