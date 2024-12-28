@@ -41,38 +41,47 @@ $g_{i}^{n_{i}}$ is the number of possible ways we can arrange $n_{i}$ particles 
 Unfortunately, this formula leads to a wrong result. The problem is the [[Gibbs paradox]], we would lead us to [[Intensive property|intensive]] entropy due to not considering the [[Identical particles|indistinguishability]] of particles. The solution is to divide by $N!$. As such, the correct state count is
 $$W(\{ n_{i} \})=\prod_{i} \frac{g_{i}^{n_{i}}}{n_{i}!}$$
 We now want the [[Entropy (information theory)|Boltzmann entropy]] $S=k_{B}\ln W$, so we need the logarithm:
-$$\ln W(\{ n_{i} \})=\ln\left( \prod_{i} \frac{g_{i}^{n_{i}}}{n_{i}!}\right)=\sum_{i}[\ln g_{i}^{n_{i}}-\ln n_{j}!]$$
+$$\ln W(\{ n_{i} \})=\ln\left( \prod_{i} \frac{g_{i}^{n_{i}}}{n_{i}!}\right)=\sum_{i}[\ln g_{i}^{n_{i}}-\ln n_{j}!]=\sum_{i}[n_{i}\ln g_{i}-\ln n_{j}!]$$
 For large $n_{j}$ and $g_{j}$, we can use [[Stirling's approximation]]:
-$$\ln W(\{ n_{i} \})\simeq \sum_{i}[\ln g_{i}^{n_{i}}-n_{i}\ln n_{i}+n_{i}]$$
+$$\ln W(\{ n_{i} \})\simeq \sum_{i}[n_{i}\ln g_{i}-n_{i}\ln n_{i}+n_{i}]$$
 The highest entropy state is found by maximizing this function. To do this, we can use [[Moltiplicatori di Lagrange|Lagrange multipliers]] (for a similar derivation, see [[Entropy from Lagrange multipliers]])[^1]. Our constraints $g_{1}$ and $g_{2}$ arise are the constant particle number and the constant energy:
 $$\gamma_{1}=N-\sum_{j}n_{j},\qquad \gamma_{2}=E-\sum_{j}\varepsilon_{j}n_{j}$$
 With this information, the [[Lagrangian]] to work on is
 $$\begin{align}
 \mathcal{L}&=\ln W+\alpha \gamma_{1}+\beta \gamma_{2} \\
-&=\sum_{j}[\ln g_{i}^{n_{i}}-n_{j}\ln n_{j}]+\alpha\left(N- \sum_{j} n_{j} \right)+\beta\left( E-\sum_{j}\varepsilon_{j}n_{j} \right)
+&=\sum_{i}[n_{i}\ln g_{i}-n_{i}\ln n_{i}]+\alpha\left(N- \sum_{i} n_{i} \right)+\beta\left( E-\sum_{i}\varepsilon_{i}n_{i} \right)
 \end{align}$$
 To find the maximum, we look for the stationary point
 $$\begin{align}
 0&=\nabla \mathcal{L}(n_{i})=\frac{d}{dn_{i}}\mathcal{L}(n_{i}) \\
-&=
+&=\sum_{i}\left[ \frac{d}{dn_{i}}n_{i}\ln g_{i}- \frac{d}{dn_{i}}n_{i}\ln n_{i}+ \frac{d}{dn_{i}}n_{i} \right]-\alpha \sum_{i} \frac{d}{dn_{i}}n_{i}-\beta \sum_{i} \varepsilon_{i} \frac{d}{dn_{i}}n_{i} \\
+&=\sum_{i}[\ln g_{i}-\ln n_{i}-1+1]-\alpha \sum_{i}1-\beta \sum_{i}\varepsilon_{i} \\
+&=\sum_{i}\left[ \ln \frac{g_{i}}{n_{i}}-\alpha-\beta \varepsilon_{i} \right]
 \end{align}$$
+Terms are independent from each other, so the only way the sum can be zero is if each terms is individually zero:
+$$\ln \frac{g_{i}}{n_{i}}-\alpha-\beta \varepsilon_{i}=0$$
+which we can rearrange to get $n_{i}$:
+$$\bar{n}_{i}=\frac{g_{i}}{e^{\alpha+\beta \varepsilon_{i}}}$$
+where the bar over $n_{i}$ was added to remember that this is specifically the most likely/highest entropy $n_{i}$. If we can figure out what $\alpha$ and $\beta$ are, we can then substitute this back in $\ln W$ and use that to finally find the entropy. Right away, we can see a connection: this just the [[Maxwell-Boltzmann statistic]], multiplied by $g_{j}$ and with $\alpha=-\beta \mu$ and $\beta=\beta$. In fact, if we make this substitution, we get
+$$\bar{n}_{i}=\frac{g_{j}}{e^{\beta(\varepsilon_{i}-\mu)}}$$
+More evidence of this can be found below.
 #### Fermions
 A system of [[Fermion|fermions]] is solved by exploiting the fact that $n_{j}\in \{ 0,1 \}$. To place $n_{j}$ fermions in $g_{j}$ states, we choose $n_{j}$ elements out of a set of $g_{j}$ elements. What we are looking for is the number of [[combination|combinations]], which is given directly by the [[Binomial theorem|binomial coefficient]]:
 $$w_{j}(n_{j})=\begin{pmatrix} g_{j} \\ n_{j}\end{pmatrix}=\frac{g_{j}!}{n_{j}!(g_{j}-n_{j})!}$$
 and so
 $$W(\{ n_{i} \})=\prod_{j} \frac{g_{j}!}{n_{j}!(g_{j}-n_{j})!}$$
 We now want the [[Entropy (information theory)|Boltzmann entropy]] $S=k_{B}\ln W$, so we need the logarithm:
-$$\ln W(\{ n_{i} \})=\sum_{j}\ln\left( \frac{g_{j}!}{n_{j}!(g_{j}-n_{j})!} \right)=\sum_{j}[\ln g_{j}!-\ln n_{j}!-\ln(g_{j}-n_{j})!]$$
-For large $n_{j}$ and $g_{j}$, we can use [[Stirling's approximation]]:
-$$\ln W(\{ n_{i} \})\simeq \sum_{j}[g_{j}\ln g_{j}-n_{j}\ln n_{j}-(g_{j}-n_{j})\ln(g_{j}-n_{j})]$$
-The highest entropy state is found by maximizing this function. To do this, we can use [[Moltiplicatori di Lagrange|Lagrange multipliers]] (for a similar derivation, see [[Entropy from Lagrange multipliers]])[^1]. Our constraints $g_{1}$ and $g_{2}$ arise are the constant particle number and the constant energy:
-$$\gamma_{1}=N-\sum_{j}n_{j},\qquad \gamma_{2}=E-\sum_{j}\varepsilon_{j}n_{j}$$
-With this information, the [[Lagrangian]] to work on is
+$$\begin{align}
+\ln W(\{ n_{i} \})&=\sum_{j}\ln\left( \frac{g_{j}!}{n_{j}!(g_{j}-n_{j})!} \right) \\
+&=\sum_{j}[\ln g_{j}!-\ln n_{j}!-\ln(g_{j}-n_{j})!] \\
+\text{(Stirling's appr.)}&\simeq \sum_{j}[g_{j}\ln g_{j}-n_{j}\ln n_{j}-(g_{j}-n_{j})\ln(g_{j}-n_{j})]
+\end{align}$$
+We define our Lagrangian in the same way as before.
 $$\begin{align}
 \mathcal{L}&=\ln W+\alpha \gamma_{1}+\beta \gamma_{2} \\
 &=\sum_{j}[g_{j}\ln g_{j}-n_{j}\ln n_{j}-(g_{j}-n_{j})\ln(g_{j}-n_{j})]+\alpha\left(N- \sum_{j} n_{j} \right)+\beta\left( E-\sum_{j}\varepsilon_{j}n_{j} \right)
 \end{align}$$
-To find the maximum, we look for the stationary point
+Then we look for the stationary point
 $$\begin{align}
 0&=\nabla \mathcal{L}(n_{j})=\frac{d}{dn_{j}}\mathcal{L}(n_{j}) \\
 &=-\sum_{j} \frac{d}{dn_{j}}(n_{j}\ln n_{j})-\sum_{j} \frac{d}{dn_{j}}[(g_{j}-n_{j})\ln(g_{j}-n_{j})]-\alpha \sum_{j} \frac{d}{dn_{j}}n_{j}-\beta \sum_{j}\varepsilon_{j} \frac{d}{dn_{j}}n_{j} \\
@@ -84,9 +93,7 @@ From this we get
 $$-\ln n_{j}+\ln(g_{j}-n_{j})-\alpha-\beta \varepsilon_{j}=0$$
 which we can rearrange to extract $n_{j}$:
 $$\bar{n}_{j}=\frac{g_{j}}{e^{\alpha+\beta \varepsilon_{j}}+1}$$
-where we wrote $\bar{n}_{j}$ to remember that this is specifically the most likely/highest entropy configuration. If we can figure out what $\alpha$ and $\beta$ are, we can then substitute this back in $\ln W$ and use that to finally find the entropy. Right away, we can see a connection: this just the [[Fermi-Dirac distribution]], multiplied by $g_{j}$ and with $\alpha=-\beta \mu$ and $\beta=\beta$. In fact, if we make this substitution, we get
-$$\bar{n}_{j}=\frac{g_{j}}{e^{\beta(\varepsilon_{j}-\mu)}+1}$$
-Actually proving this requires quite a few more calculations. For the full derivation, see below.
+Similarly to before, this is the [[Fermi-Dirac distribution]] with $\alpha=-\beta \mu$ and $\beta=\beta$.
 #### Bosons
 Bosons require more attention than fermions because we can't rely on the exclusion principle. To figure out how many possible arrangements each cell can be put in, notice how the presences of $g_{j}$ distinct energy levels creates $g_{j}-1$ partitions in each cell. While we can't modify the energy levels themselves, we can order them however we want to rearrange the partitions, keeping the particles where they are. This is a way of cycling through every possible arrangement of particle numbers. The number of ways to populate the cell with $n_{j}$ bosons is to throw them into the cell in any order (they will distribute themselves in the partitions) and then count the number of possible arrangements obtainable by [[permutazione|permutations]] of $n_{j}$ bosons with $g_{j}-1$ partitions[^2]. These are
 $$w_{j}(n_{j})=\frac{(n_{j}+g_{j}-1)!}{n_{j}!(g_{j}-1)!}$$
@@ -115,7 +122,7 @@ Extracting the $n_{j}$ we get
 $$\bar{n}_{j}=\frac{g_{j}}{e^{\alpha+\beta \varepsilon_{j}}-1}$$
 Similarly to before, this is the [[Bose-Einstein distribution]] with $\alpha=-\beta \mu$ and $\beta=\beta$.
 #### Determining the parameters
-Now we want to determine what $\alpha$ and $\beta$ are. Since the two distributions differ only by a sign, we can deal with both of them together by writing
+Now we want to determine what $\alpha$ and $\beta$ are. Since the two quantum distributions differ only by a sign, we can deal with both of them together by writing
 $$n_{j}=\frac{g_{j}}{e^{\alpha+\beta \varepsilon_{j}}\pm 1}$$
 $+$ is for fermions, $-$ is for bosons. The total number of particles is
 $$N=\sum_{j}n_{j}=\sum_{j} \frac{g_{j}}{e^{\alpha+\beta \varepsilon_{j}}\pm 1}$$
@@ -138,8 +145,8 @@ $$n=\frac{4\pi}{h^{3}}\left( \frac{2m}{\beta} \right)^{3/2} \int_{0}^{\infty} \f
 To make physical sense, the density needs to remain finite even when $\beta\to 0$, despite $\beta$ being at the denominator. For that to be true, the integral needs to go to zero, which means the denominator needs to go to infinity:
 $$\lim_{ \beta \to 0 } e^{\alpha+x^{2}}=\lim_{ \beta \to 0 } e^{\alpha}=\infty$$
 where we omitted the $\pm 1$ since it makes no difference. The second term is because $\lim_{ \beta \to 0 }x^{2}=\lim_{ \beta \to 0 }\beta \varepsilon_{p}=0$. In this limit we have
-$$\lim_{ \beta \to 0 } n_{\mathbf{p}}=\frac{1}{e^{\alpha+x^{2}}}=\frac{1}{e^{\beta \varepsilon_{p}+\alpha}}$$
-But this is precisely the [[Maxwell-Boltzmann statistic]]. So we found that our system (this time the whole system, not just an imaginary cell) is correctly described by the classical statistic for state occupation. Thus, we can definitively state that $\alpha=-\beta \mu$ and $\beta=\beta=1/k_{B}T$, with $\mu$ the [[chemical potential]], $k_{B}$ the [[Boltzmann constant]] and $T$ the [[temperature]]. We can also define the [[fugacity]] as $z=e^{-\alpha}=e^{\beta \mu}$. With this, we can write the final distribution
+$$\lim_{ \beta \to 0 } n_{\mathbf{p}}=\frac{1}{e^{\alpha+x^{2}}}=\frac{1}{e^{\alpha+\beta \varepsilon_{p}}}$$
+But this is precisely the [[Maxwell-Boltzmann statistic]]. So we found that our system (this time the whole system, not just an imaginary cell) is correctly described by the classical statistic for state occupation. Thus, we can definitively state that $\alpha=-\beta \mu$ and $\beta=1/k_{B}T$, with $\mu$ the [[chemical potential]], $k_{B}$ the [[Boltzmann constant]] and $T$ the [[temperature]]. We can also define the [[fugacity]] as $z=e^{-\alpha}=e^{\beta \mu}$. With this, we can write the final distribution
 $$\boxed{n_{\mathbf{p}}=\frac{1}{z^{-1}e^{\beta \varepsilon_{p}}+c}\quad\text{where}\quad c=\begin{cases}
 +1\quad&\text{fermions} \\
 -1\quad&\text{bosons} \\
@@ -169,9 +176,9 @@ $$\ln W(\{ n_{i} \})=\sum_{\mathbf{p}}\left[ \frac{1}{\xi\pm 1}\ln(\xi\pm 1)\mp 
 Our entropy therefore is
 $$\boxed{S=k_{B}\sum_{\mathbf{p}}\left[ \frac{1}{\xi\pm 1}\ln(\xi\pm 1)\mp \frac{\xi}{\xi\pm 1}\ln\left( \frac{\xi}{\xi \pm 1} \right) \right]}$$
 #### Boltzmann gas properties
-Despite being inaccurate at a quantum level, a Boltzmann gas can still give us useful results at high temperatures. We can do a similar thing as we did when determining the parameters. We can calculate the number of particles in the Boltzmann system as
+Despite being inaccurate at a quantum level, a Boltzmann gas can still give us useful results at high temperatures. We can follow a similar procedure as we did when determining the parameters. We can calculate the number of particles in the Boltzmann system as
 $$N=\sum_{\mathbf{p}}n_{p}$$
-Boltzmann gases use the classical [[Maxwell-Boltzmann statistic]] that we found in the high temperature limit, so
+Using the Maxwell-Boltzmann statistic that we found yields
 $$N=\sum_{\mathbf{p}} \frac{1}{z^{-1}e^{\beta \varepsilon_{p}}}=\sum_{\mathbf{p}}ze^{-\beta \varepsilon_{p}}$$
 The deceptively important part here is the second step. Since there is no $\pm 1$, we can bring everything up to the numerator. When we jump into the thermodynamic limit to get the particle density, the integral can now be solved pretty easily:
 $$\begin{align}
@@ -202,11 +209,11 @@ U&=\frac{Vz}{h^{3}}\int \varepsilon_{p}e^{-\beta \varepsilon_{p}}\ d^{3}p \\
 Since $1/\beta=k_{B}T$, this returns the well-known result regarding the average energy of a particle in a three dimensional ideal gas, as given by the [[equipartition theorem]]:
 $$\boxed{u=\frac{U}{N}=\frac{3}{2}k_{B}T}$$
 
+:::hidden
 The entropy is
 $$\frac{S}{k_{B}}=Z\sum_{\mathbf{p}}e^{-\beta E_{\mathbf{p}}}(\beta E_{\mathbf{p}}-\log Z)+N$$
 But this is just the [[Sackur-Tetrode equation]], which was the original classical result.
 
-:::hidden
 In the Boltzmann system, we have
 $$W_{i}=\frac{1}{N!} \prod_{i}\frac{N!}{n_{i}!}g_{i}^{n_{i}}=\prod_{i}\frac{g_{i}^{n_{i}}}{n_{i}!}\quad\text{(Boltzmann gas)}$$
 $g_{i}^{n_{i}}$ are all the possible ways $n_{i}$ bosons can occupy $g_{i}$ energy levels in the $i$-th cell.
