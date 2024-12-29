@@ -18,3 +18,6 @@ $$\begin{align}
 &=\frac{1}{2}\left( \frac{1}{a} \right)^{(n+1)/2}\Gamma\left( \frac{n+1}{2} \right)
 \end{align}$$
 where $n\in \mathbb{N}$ and we again made the $x=\sqrt{ t }$ substitution, then used the definition of Gamma function. Careful with the integration bounds, as they are $[0,\infty[$ here, not $]-\infty,+\infty[$.
+
+Alternatively, we can find solutions for even $n$ by taking the solution for the $n=0$ case and differentiating both sides by $a$:
+$$\int_{-\infty}^{\infty} \left( \frac{d}{da} \right)^{n/2}e^{-ax^{2}} \ dx =\left( \frac{d}{da} \right)^{n/2} \sqrt{ \frac{\pi}{a} }\qquad\text{for even }n$$

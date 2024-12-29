@@ -7,7 +7,7 @@ $$PV=Nk_{B}T=nRT$$
 where $P$ is the [[pressure]], $V$ is the volume occupied by the gas, $N$ is the number of [[particella|particles]] composing the gas, $k_{B}$ is the [[Boltzmann constant]], $T$ is the [[temperature]], $n$ is the number of [[mole|moles]] and $R$ is the [[ideal gas constant]]. The latter form exists because, besides being of practical convenience, thermodynamics was historically developed at a time where the existence of the [[atomo|atom]] had yet to be proven and with it, the [[Particella|particle]] division of matter. In fact, classical thermodynamics as a whole does not strictly require the existence of particles like atoms.
 
 ![[Schema Ideal Gas state|center]]
-### Properties
+### Heat capacity
 The [[heat capacity]] by volume of a monatomic ideal gas is
 $$C_{V}=\frac{3}{2}Nk_{B}$$
 ### Entropy
@@ -31,7 +31,23 @@ $$S(V,T_{0})=C_{0}+Nk_{B}\ln V$$
  $$S(V,T)=C_{0}+Nk_{B}\ln V+C_{V}\ln T$$
  This depends on the nature of the gas itself, because of $C_{V}$. For a monatomic ideal gas, we have
 $$S(V,T)=C_{0}+Nk_{B}\ln(VT^{3/2})$$
-#### In the classical microcanonical ensemble
+### Pressure
+The pressure of an ideal gas is the average force per unit area that it exerts on the wall of its container. By calculating the energy transferred from each particle collision on the walls per unit time, we can derive the pressure directly from particle mechanics.
+
+Take the wall to be normal to the $x$ axis and assume the wall is perfectly reflecting. When a particle of velocity $v_{x}$ hits the wall, it transfers $2p_{x}=2mv_{x}$ momentum to the wall. The total force on the wall is given by this momentum transfer multiplied by the amount of particles hitting a unit area of the wall, i.e. the particle [[flux]].
+
+The flux is the number of particles crossing a unit area per second. If the particles are moving over $x$, this is equal to a cylinder of unit cross-section and length $v_{x}\Delta t\equiv v_{x}$, since $\Delta t=1\text{ second}$. Thus, the flux is given by
+$$\Phi=v_{x}f(\mathbf{p})d\mathbf{p}$$
+where $f(\mathbf{p})$ is the [[Maxwell-Boltzmann distribution]] for momentum
+$$f(\mathbf{p})=n\left( \frac{\beta}{2\pi m} \right)^{3/2}e^{-\beta \lvert \mathbf{p} \rvert ^{2}/2m}$$
+which is weighted by the particle density $n=N/V$. The pressure is therefore
+$$P=\int_{v_{x}>0}2mv_{x}\ v_{x}f(\mathbf{p})d\mathbf{p}=m\int_{v_{x}>0}v_{x}^{2}f(\mathbf{p})d\mathbf{p}$$
+If we assume movement is isotropic, we make the substitution
+$$v_{x}^{2}=\frac{1}{3}(v_{x}^{2}+v_{y}^{2}+v_{z}^{2})=\frac{1}{3}\lvert \mathbf{v} \rvert^{2}=\frac{1}{3} \frac{\lvert\mathbf{p}\rvert^{2}}{m^{2}} $$
+and so
+$$P=\frac{1}{3m}\int _{v_{x}} \lvert \mathbf{p} \rvert ^{2}f(\mathbf{p})d\mathbf{p}=\frac{2}{3} \frac{E}{V}$$
+which is solved with a [[Gaussian integral]].
+### In the classical microcanonical ensemble
 The entropy can also be calculated by modeling an ideal gas as a [[microcanonical ensemble]] of [[Hamiltonian]]
 $$H=\sum_{i=1}^{N} \frac{\mathbf{p}^{2}_{i}}{2m}$$
 We use the entropy given by the sigma function $S=k_{B}\log \Sigma(E)$ where
@@ -49,7 +65,7 @@ $$\Sigma(R)=\left( \frac{V}{h^{3}} \right)^{N} \underbrace{ \frac{\pi^{3N/2}}{\G
 and entropy
 $$S=k_{B}\log \Sigma(R)$$
 We can use the fact that $\Gamma(n+1)=n!$ and [[Stirling's approximation]] $\log n!=n\log n-n+O(\log n)$ to get [[Steps Entropy microcanonical ideal gas]].
-#### In the classical canonical ensemble
+### In the classical canonical ensemble
 An ideal gas can also be derived from the [[canonical ensemble]]. Using the Hamiltonian
 $$H=\sum_{i=1}^{N} \frac{\mathbf{p}^{2}_{i}}{2m}$$
 the [[partition function]] is
@@ -110,7 +126,7 @@ $$\boxed{\left\{ \begin{align}
 \frac{PV}{k_{B}T}&=\frac{1}{\lambda ^{3}}f_{5/2}(Z)\\
 \frac{1}{v}&=\frac{1}{\lambda ^{3}}f_{3/2}(Z)
 \end{align} \right.}$$
-##### Bosons
+#### Bosons
 For bosons we have
 $$\frac{PV}{k_{B}T}=-\sum_{\bar{p}}\log(1-Ze^{-\beta \varepsilon_{\bar{p}}})$$
 The average occupation number is
@@ -129,7 +145,7 @@ $$\boxed{\left\{ \begin{align}
 \frac{P}{k_{B}T}&=\frac{1}{\lambda ^{3}}g_{5/2}(Z)- \frac{1}{V}\log(1-Z) \\
 \frac{1}{v}&=\frac{1}{\lambda ^{3}}g_{3/2}(Z)+ \frac{1}{V} \frac{Z}{1-Z}
 \end{align} \right.}$$
-##### Internal energy
+#### Internal energy
 The grand canonical [[internal energy]] $U$ is
 $$U(Z,V,T)=-\left( \frac{ \partial  }{ \partial \beta } \log \mathcal{Z} \right)_{P,V}=-\frac{ \partial  }{ \partial \beta }  \frac{PV}{k_{B}T}$$
 For fermions we have
@@ -141,7 +157,7 @@ $$\frac{U}{V}=\frac{3}{2}k_{B}+ \frac{1}{\lambda ^{3}}g_{5/2}(Z)$$
 In the [[Thermodynamic limit]], these simplify down to
 $$U=\frac{3}{2}k_{B}T$$
 which is the classical result, satisfying the correspondence principle.
-##### Free boson gas
+#### Free boson gas
 Consider a gas of $N$ [[Particella libera (quantistica)|free]] bosons in a cubic volume $V=L^{3}$, where
 $$N=\sum_{\mathbf{p}}\langle n_{\mathbf{p}} \rangle =\sum_{\mathbf{p}}= \frac{1}{e^{\beta(\varepsilon_{\mathbf{p}}-\mu)}-1}$$
 and $\varepsilon_{\mathbf{p}}=\mathbf{p}^{2}/2m$ Since the bosons are free, their [[Equazione agli autovalori|eigenfunctions]] are [[plane wave|plane waves]]: $\propto e^{i\mathbf{p}\cdot \mathbf{r}/\hbar}$. The momentum in the in the direction $\hat{\mathbf{n}}=(n_{x},n_{y},n_{z})$ is

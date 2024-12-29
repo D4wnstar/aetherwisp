@@ -1,4 +1,4 @@
-The **Maxwell-Boltzmann distribution** is a real, continuous [[probability distribution]]. For a [[random variable]] $X$, the [[probability density function]] is
+The **Maxwell-Boltzmann distribution** (not to be confused with the *other* [[Maxwell-Boltzmann statistic|Maxwell-Boltzmann distribution]]) is a real, continuous [[probability distribution]]. For a [[random variable]] $X$, the [[probability density function]] is
 $$f(x)=\sqrt{ \frac{2}{\pi} } \frac{x^{2}}{a^{3}} e^{-x^{2}/2a^{2}}$$
 where $a>0\in \mathbb{R}$ is a parameter. It is commonly employed in physics to model the velocity distribution of [[Particella|particles]] in an [[ideal gas]].
 ### 3D monoatomic ideal gas
