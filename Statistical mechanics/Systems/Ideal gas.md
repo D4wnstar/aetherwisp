@@ -3,14 +3,17 @@ aliases:
   - ideal gas law
 ---
 An **ideal gas** is an approximate model of the behavior of a gas that holds for low density gases. It is sparse and has weak internal interactions that limit [[information]] exchange. The dynamics are determined by the **ideal gas law**:
-$$PV=Nk_{B}T=nRT$$
-where $P$ is the [[pressure]], $V$ is the volume occupied by the gas, $N$ is the number of [[particella|particles]] composing the gas, $k_{B}$ is the [[Boltzmann constant]], $T$ is the [[temperature]], $n$ is the number of [[mole|moles]] and $R$ is the [[ideal gas constant]]. The latter form exists because, besides being of practical convenience, thermodynamics was historically developed at a time where the existence of the [[atomo|atom]] had yet to be proven and with it, the [[Particella|particle]] division of matter. In fact, classical thermodynamics as a whole does not strictly require the existence of particles like atoms.
+$$PV=Nk_{B}T=nRT=\frac{2}{3}U$$
+where $P$ is the [[pressure]], $V$ is the volume occupied by the gas, $N$ is the number of [[particella|particles]] composing the gas, $k_{B}$ is the [[Boltzmann constant]], $T$ is the [[temperature]], $n$ is the number of [[mole|moles]], $R$ is the [[ideal gas constant]] and $U$ is the [[internal energy]][^1]. The first and second forms apply only to classical gases, whereas the third is also valid for quantum gases.
 
-![[Schema Ideal Gas state|center]]
-### Heat capacity
+An ideal gas is a [[Physical system|system]] of free particles enclosed in a finite enclosure with rigid, perfectly elastic walls. The system [[Hamiltonian]] is
+$$H=\sum_{i=1}^{N} \frac{\mathbf{p}^{2}_{i}}{2m}$$
+### Classical thermodynamics
+Many properties of the ideal gas were already derived with classical thermodynamics.
+#### Heat capacity
 The [[heat capacity]] by volume of a monatomic ideal gas is
 $$C_{V}=\frac{3}{2}Nk_{B}$$
-### Entropy
+#### Entropy
 The [[entropy]] of an ideal gas can calculated as a function of volume $V$ and temperature $T$ by explicitly integrating $dS=dQ/T$. Let's consider a [[stato|state]] $A$, which we approach from two different states: one using an constant-volume transformation (path 1), the other using a isothermal one (path 2).
 
 Along path 1, $V$ is constant, so
@@ -42,15 +45,13 @@ where $f(\mathbf{p})$ is the [[Maxwell-Boltzmann distribution]] for momentum
 $$f(\mathbf{p})=n\left( \frac{\beta}{2\pi m} \right)^{3/2}e^{-\beta \lvert \mathbf{p} \rvert ^{2}/2m}$$
 which is weighted by the particle density $n=N/V$. The pressure is therefore
 $$P=\int_{v_{x}>0}2mv_{x}\ v_{x}f(\mathbf{p})d\mathbf{p}=m\int_{v_{x}>0}v_{x}^{2}f(\mathbf{p})d\mathbf{p}$$
-If we assume movement is isotropic, we make the substitution
+Since motion in an ideal gas is isotropic, we can make the substitution
 $$v_{x}^{2}=\frac{1}{3}(v_{x}^{2}+v_{y}^{2}+v_{z}^{2})=\frac{1}{3}\lvert \mathbf{v} \rvert^{2}=\frac{1}{3} \frac{\lvert\mathbf{p}\rvert^{2}}{m^{2}} $$
 and so
-$$P=\frac{1}{3m}\int _{v_{x}} \lvert \mathbf{p} \rvert ^{2}f(\mathbf{p})d\mathbf{p}=\frac{2}{3} \frac{E}{V}$$
-which is solved with a [[Gaussian integral]].
+$$P=\frac{1}{3m}\int _{v_{x}} \lvert \mathbf{p} \rvert ^{2}f(\mathbf{p})d\mathbf{p}=\frac{2}{3} \frac{U}{V}$$
+which is solved with a [[Gaussian integral]]. $U$ is the [[internal energy]].
 ### In the classical microcanonical ensemble
-The entropy can also be calculated by modeling an ideal gas as a [[microcanonical ensemble]] of [[Hamiltonian]]
-$$H=\sum_{i=1}^{N} \frac{\mathbf{p}^{2}_{i}}{2m}$$
-We use the entropy given by the sigma function $S=k_{B}\log \Sigma(E)$ where
+The entropy can also be calculated by modeling an ideal gas as a [[microcanonical ensemble]]. We use the entropy given by the sigma function $S=k_{B}\log \Sigma(E)$ where
 $$\Sigma(E)=\frac{1}{h^{3N}}\int\limits_{H(\mathbf{q},\mathbf{p})<E}d^{3}q_{1}\ldots d^{3}q_{N}\,d^{3}p_{1}\ldots d^{3}p_{N}$$
 and $h$ is a dimensionally appropriate constant, specifically $\text{impulse}\times\text{length}$, which gives $\text{energy}\times\text{seconds}$. We can develop this as
 $$\Sigma(E)=\left( \frac{V}{h^{3}} \right)^{N}\int\limits_{H(\mathbf{q},\mathbf{p})<E}d^{3}p_{1}\ldots d^{3}p_{N}$$
@@ -66,7 +67,7 @@ and entropy
 $$S=k_{B}\log \Sigma(R)$$
 We can use the fact that $\Gamma(n+1)=n!$ and [[Stirling's approximation]] $\log n!=n\log n-n+O(\log n)$ to get [[Steps Entropy microcanonical ideal gas]].
 ### In the classical canonical ensemble
-An ideal gas can also be derived from the [[canonical ensemble]]. Using the Hamiltonian
+An ideal gas can also be describe by a [[canonical ensemble]]. Using the Hamiltonian
 $$H=\sum_{i=1}^{N} \frac{\mathbf{p}^{2}_{i}}{2m}$$
 the [[partition function]] is
 $$\begin{align}
@@ -172,7 +173,7 @@ As it happens, in three dimension $d=3$ and for $\alpha=d/2=3/2$ we have
 $$C_{3/2}=V \frac{\sqrt{ 2 }}{3\pi ^{2}\hbar ^{3}}$$
 The number of particles can be expressed through the DOS
 $$N=\sum_{\mathbf{p}} \frac{1}{e^{\beta(\varepsilon _{\mathbf{p}}-\mu)}-1}=\int_{0}^{\infty}g(\varepsilon) \frac{1}{e^{\beta(\varepsilon-\mu)}-1}d\varepsilon=\int_{0}^{\infty} \frac{C_{\alpha}\varepsilon^{\alpha-1}}{e^{\beta(\varepsilon-1)}-1}$$
-We want to solve this integral[^1]. In fact, we mostly want to see if there is a critical temperature $T_{C}\neq 0$ such that ???. To solve the integral, we define
+We want to solve this integral[^2]. In fact, we mostly want to see if there is a critical temperature $T_{C}\neq 0$ such that ???. To solve the integral, we define
 $$\frac{\varepsilon}{k_{B}T_{C}}=x$$
 This turns the integral into
 $$N=k_{B}T_{C}\int_{0}^{\infty} \frac{C_{\alpha}(k_{B}T_{C})^{\alpha-1}x^{\alpha-1}}{e^{x}-1}=(k_{B}T_{C})^{\alpha}\int_{0}^{\infty} \frac{x^{\alpha-1}}{e^{x}-1}\ dx$$
@@ -192,5 +193,5 @@ In the case $d=3\to \alpha=3/2$ we get, since $\Gamma\left( 3/2 \right)=\sqrt{ \
 $$T_{C}=\frac{1}{k_{B}} \frac{N^{2/3}}{\left[ \frac{Vm^{3/2}}{\sqrt{ 2 }\pi ^{2}\hbar ^{3}}\Gamma\left( \frac{3}{2} \right)\zeta\left( \frac{3}{2} \right) \right]^{2/3}}=\frac{1}{k_{B}}\frac{2\pi}{\left[ \zeta\left( \frac{3}{2} \right) \right]^{2/3}} \frac{\hbar^{2}n^{2/3}}{m}$$
 using the density $n=N/V$. This is a finite number, which proves that a free boson gas can condense. With realistic numbers, we get a value of around $\sim 100\text{ nanokelvins}$.
 
-
-[^1]: Also see Chapter 1 of Feynman's *Statistical Mechanics*.
+[^1]: The form $PV=nRT$ exists because, besides being convenient in a laboratory setting, thermodynamics was historically developed at a time where the existence of the [[atomo|atom]] had yet to be proven and with it, the [[Particella|particle]] division of matter. In fact, classical thermodynamics as a whole does not strictly require the existence of particles like atoms.
+[^2]: Also see Chapter 1 of Feynman's *Statistical Mechanics*.

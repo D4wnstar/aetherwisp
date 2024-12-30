@@ -4,6 +4,7 @@ L'idea che esista un limite inferiore alla precisione delle nostre misure, sotto
 - la posizione realista
 - la posizione ortodossa
 - la posizione agnostica
+
 Ciascuna di queste posizioni interpreta l'indeterminatezza in modo diverso e rispondere in modo diverso alla seguente domanda: supponendo di aver misurato una particella al punto $X$ in un certo momento, dove si trovava il momento prima?
 ### Posizione realista
 La posizione realista afferma che la particella si trovava nel punto $X$. Allora, il fatto che la meccanica quantistica ci dia una *probabilità* che fosse in $X$ e non la *certezza* non è un fatto fisico, ma una riflessione della nostra ignoranza. In questa ottica, la meccanica quantistica è una teoria incompleta: mancano dei "pezzi" per riuscire a spiegare con certezza cosa succede alla particella. Einstein, che fu tra i primi a sostenere questa posizione, chiamò questi "pezzi" *variabili nascoste*.

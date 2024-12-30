@@ -1,17 +1,20 @@
-The **quantum canonical ensemble** is the quantum extension of the [[canonical ensemble]]. Its [[Matrice di densità|density matrix]] is
+The **quantum canonical ensemble** is the quantum extension of the [[canonical ensemble]]. It is defined through the [[Matrice di densità|density matrix]]
 $$\hat{\rho}=e^{-\beta \hat{H}}$$
-where $\hat{H}$ is the [[Hamiltonian]] of the [[Physical system|system]] and $\beta=\frac{1}{k_{B}T}$, with $k_{B}$ the [[Boltzmann constant]] and $T$ the [[temperature]].
-### Properties
+where $\hat{H}$ is the [[Hamiltonian]] of the [[Physical system|system]] and $\beta=1/k_{B}T$, with $k_{B}$ the [[Boltzmann constant]] and $T$ the [[temperature]]. The elements of the matrix in the [[Stato stazionario|energy eigenstate]] [[base|basis]] are $\rho_{n}=e^{-\beta E_{n}}$, where $E_{n}$ are the energy [[Equazione agli autovalori|eigenvalues]].
+### Partition function
 The [[partition function]] is
-$$Z=\sum_{n}e^{-\beta E_{n}}$$
-where $E_{n}$ are the [[Stato stazionario|energy eigenstates]]. The [[Helmholtz free energy]] is
-$$A=-k_{B}T\log Z$$
-The rest of the properties from the classical canonical ensemble still hold, such as
-$$\langle E \rangle =-\frac{ \partial  }{ \partial \beta } \ln Z,\qquad\text{var}(E)=\frac{ \partial ^{2} }{ \partial \beta ^{2} }\ln Z=-\frac{ \partial \langle E \rangle  }{ \partial \beta } $$
+$$Q_{N}=\text{Tr}(\hat{\rho})=\sum_{n}e^{-\beta E_{n}}$$
+The sum notation holds only if we represent $\hat{\rho}$ in the energy eigenstate [[base|basis]], which is generally a bad choice as it's almost never possible to [[diagonalizzazione|diagonalize]] $\hat{H}$. It is possible in an [[ideal gas]], however.
+### Internal energy
+The internal energy
+$$U=\langle \hat{H} \rangle =-\frac{ \partial  }{ \partial \beta } \ln Z,\qquad\text{var}(U)=\frac{ \partial ^{2} }{ \partial \beta ^{2} }\ln Z=-\frac{ \partial U  }{ \partial \beta } $$
+### Helmholtz free energy
+The [[Helmholtz free energy]] is
+$$A=-k_{B}T\ln Z$$
 ### Entropy
 Since we know the state density, we can determine [[entropy]] from the [[Entropy (information theory)|information-theoretical one]] as
 $$S=-k_{B}\sum_{n} p(n) \ln p(n)=\frac{k_{B}\beta}{Z}\sum_{n}E_{n}e^{-\beta E_{n}}+k_{B}\ln Z$$
-since $p(n)=e^{-\beta E_{n}}/Z$. It can equivalently be expressed as
+since $p(n)=\rho_{n}/Z=e^{-\beta E_{n}}/Z$. It can equivalently be expressed as
 $$S=k_{B}\frac{ \partial  }{ \partial T }(T\ln Z) $$
 ### Examples
 > [!example] Non-interacting two state system

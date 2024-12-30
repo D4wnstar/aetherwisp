@@ -5,7 +5,7 @@ $$Q_{N}(V,T)=\int \frac{e^{-\beta H(\mathbf{q},\mathbf{p})}}{h^{3N}N!} \ d^{3N}q
 Here, $h$ is a constant to make the function dimensionless. It is usually assumed to be the [[Costante di Planck|Planck constant]].
 
 It differs from the [[microcanonical ensemble]], which has constant energy with no fluctuations, and the [[grand canonical ensemble]], which has fluctuations in both energy and particle number. For most solid and liquid systems, the canonical ensemble is the most convenient description, as it takes the interaction with the environment into account. Compared to the microcanonical, energy is derived from the equilibrium temperature instead of the other way around. In fact, in the canonical ensemble, temperature serves much of the same role as energy does in the microcanonical, being the quantity that's guaranteed to remain static in time.
-### Density function derivation
+### Density function
 Let's consider the system (1) and the reservoir (2) separately, each with a large and constant number of particles $N_{1}\gg 1$ and $N_{2}\gg 1$. Combined, they make up an [[Physical system|isolated system]] which can be described by a [[microcanonical ensemble]][^2] of energy $E_{1} + E_{2}$ that obeys
 $$E_\text{total}<E_{1}+E_{2}<E_\text{total}+2\Delta$$
 where $E_\text{total}$ is the energy of the system + reservoir and $\Delta$ is a small amount of energy (to account for uncertainty). For clarity: $E_\text{total}$ is approximately constant, but $E_{1}$ and $E_{2}$ are *not*. We ignore the interaction between the two system beyond the transfer of energy so that the total Hamiltonian is just a sum
