@@ -1,0 +1,27 @@
+---
+aliases:
+  - Fermi functions
+  - Bose functions
+---
+The **Fermi and Bose functions** are classes of functions that make quantum [[ensemble|ensembles]] easier to manager mathematically. The Fermi functions $f_{k}$ and Bose functions $g_{k}$ are defined as
+$$f_{k}(z)\equiv \sum_{l=1}^{\infty}(-1)^{l+1} \frac{z^{l}}{l^{k}},\qquad g_{k}(z)\equiv \sum_{l=1}^{\infty} \frac{z^{l}}{l^{k}}$$
+where $k$ is a real number. They obey the recurrence relations
+$$z \frac{d}{dz}f_{k}(z)=-f_{k-1}(z),\qquad z \frac{d}{dz}g_{k}(z)=g_{k-1}(z)$$
+They have an integral representation through the [[Gamma function]]:
+$$\left.\begin{align}
+f_{k}(z) \\
+g_{k}(z)
+\end{align}\ \right\}= \frac{2^{2k-1}}{\sqrt{ \pi }} \frac{\Gamma\left( k- \frac{1}{2} \right)}{\Gamma(2k-1)}\int_{0}^{\infty} \frac{x^{2k-1}}{z^{-1}e^{x^{2}}\pm 1}dx$$
+where $+$ is for Fermi functions and $-$ for Bose functions.
+### Origin
+These functions are convenience functions defined from integrals that occur in [[quantum statistical mechanics]] when dealing with [[Fermion|fermions]] and [[Boson|bosons]]. They appear, for instance, in the [[equation of state]] of a quantum [[ideal gas]] in both the [[quantum microcanonical ensemble]] and the [[quantum grand canonical ensemble]] derivations. For example, in the latter, they come up when taking the derivative of the [[Partition function|grand canonical partition function]] $\mathcal{Z}$ in the [[thermodynamic limit]]:
+$$\ln \mathcal{Z}=\frac{4\pi V}{h^{3}}\int_{0}^{\infty}p^{2}\ln(1+ze^{-\beta \varepsilon_{p}})dp$$
+This integral can't be solved analytically, but we can expand $\ln(1+x)$ in a [[Serie di Taylor|Taylor series]] about $0$ to find
+$$\begin{align}
+\frac{1}{V}\ln \mathcal{Z}&=\frac{4\pi}{h^{3}}\int_{0}^{\infty}p^{2}\sum_{j=1}^{\infty} \frac{(-1)^{j+1}z^{j}e^{-j\beta\varepsilon_{p}}}{j} \\
+&=\frac{4\pi}{h^{3}}\sum_{j=1}^{\infty} \frac{(-1)^{j+1}z^{j}}{j}\int_{0}^{\infty}p^{2}e^{-j\beta p^{2}/2m} \\
+&=\frac{4\pi}{h^{3}}\sum_{j=1}^{\infty} \frac{(-1)^{j+1}z^{j}}{j} \frac{\sqrt{ \pi }}{4(j\beta/2m)^{3/2}} \\
+&=\left( \frac{2m\pi}{\beta h^{2}} \right)^{3/2}\underbrace{ \sum_{j=1}^{\infty} \frac{(-1)^{j+1}z^{j}}{j^{5/2}} }_{ f_{5/2}(z) }
+\end{align}$$
+We can see the Fermi function $f_{5/2}(z)$. From this we can retroactively state
+$$f_{5/2}(z)=\frac{4}{\sqrt{ \pi }} \left( \frac{\beta}{2m} \right)^{3/2}\int_{0}^{\infty}p^{2}\ln(1+ze^{-\beta \varepsilon_{p}})dp$$

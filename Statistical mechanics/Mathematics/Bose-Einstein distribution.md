@@ -1,5 +1,5 @@
 The **Bose-Einstein distribution** is a [[probability distribution]] that describes the behavior of a [[Physical system|system]] of $N$ [[Boson|bosons]] in [[thermal equilibrium]]. Its [[probability density function]] is
-$$\langle n_{i} \rangle =\frac{1}{e^{\beta(\varepsilon_{i}-\mu)}-1}$$
-$\langle n_{i} \rangle$ is the average number of fermions in the $i$-th single-[[Particella|particle]] [[stato|state]] of energy $\varepsilon_{i}$, $\mu$ is the system [[chemical potential]] and $\beta=1/k_{B}T$ is the inverse temperature, with $k_{B}$ the [[Boltzmann constant]] and $T$ the [[temperature]]. The [[Normalizzazione|normalization]] constant is
+$$\langle n_{i} \rangle =\frac{1}{e^{\beta(\varepsilon_{i}-\mu)}-1}=\frac{1}{z^{-1}e^{\beta \varepsilon_{i}}-1}$$
+$\langle n_{i} \rangle$ is the average number of fermions in the $i$-th single-[[Particella|particle]] [[stato|state]] of energy $\varepsilon_{i}$, $\mu$ is the system [[chemical potential]], $\beta=1/k_{B}T$ is the inverse temperature, with $k_{B}$ the [[Boltzmann constant]] and $T$ the [[temperature]], and $z$ is the [[fugacity]]. The [[Normalizzazione|normalization]] constant is
 $$\sum_{i}n_{i}=N$$
 Bosons are not subject to the [[Pauli exclusion principle|Pauli exclusion principle]], so $\langle n_{i} \rangle$ can be any positive real.

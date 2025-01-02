@@ -61,7 +61,7 @@ where $A=U-TS$ is the [[Helmholtz free energy]] (needs to be proven; see below).
 The [[internal energy]] of the system is the [[ensemble average]] of the Hamiltonian
 $$U=\langle H \rangle = \frac{\int He^{-\beta H}d\mathbf{q}\,d\mathbf{p}}{\int e^{-\beta H}d\mathbf{q}\,d\mathbf{p}}$$
 as $H$ is variable due to fluctuations. We also have
-$$U=-\frac{ \partial  }{ \partial \beta } \ln Q_{N}$$
+$$\boxed{U=-\frac{ \partial  }{ \partial \beta } \ln Q_{N}}$$
 #### Canonical-microcanonical ensemble
 The difference between the canonical ensemble and the [[microcanonical ensemble]] is that in the former, energy is allowed to fluctuate, whereas in the latter it is fixed and has no communication with the outside environment.
 
@@ -119,7 +119,7 @@ A(E)&\simeq A(\bar{E})+\frac{ \partial A }{ \partial E } (\bar{E})(E-\bar{E})+ \
 We can substitute this in the partition function to get
 $$Q_{N}(V,T)\simeq e^{-\beta A(\bar{E})}\int_{0}^{\infty}e^{-(\beta/2TC_{V})(E-\bar{E})^{2}}dE$$
 Since the integrand is very sharply peaked around $\bar{E}$, we can extend the lower integration bound from $0$ to $-\infty$ without much error. We are now left with a [[Gaussian integral]], we can be solved as
-$$\boxed{Q_{N}\simeq \sqrt{ 2\pi k_{B}T^{2}C_{V} }e^{-\beta A(\bar{E})}}$$
+$$Q_{N}\simeq \sqrt{ 2\pi k_{B}T^{2}C_{V} }e^{-\beta A(\bar{E})}$$
 and the natural logarithm, for convenience, is
 $$\ln Q_{N}=- \frac{A(\bar{E})}{k_{B}T}+ \frac{1}{2}\ln(2\pi k_{B}T^{2}C_{V})$$
 In the [[Thermodynamic limit]], the first term is of order $N$ (due to $A$), whereas the second is of order $\ln N$ (due to $\ln T$). Thus, the second term is vanishingly small and we can write
