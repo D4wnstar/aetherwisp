@@ -6,9 +6,9 @@ aliases:
 **Friction** is a [[dissipative force]] between two objects that occurs when one objects slides over the surface of the other. Typically, the second object is static. This force is tangent to the surface and opposes motion. Its magnitude is assumed to be proportional to the normal force between the objects (usually weight) and independent of both the area of contact and the velocity of the moving object once it is in motion.
 
 Mathematically, **dynamic friction** can be described as
-$$\vec{F}=\begin{cases}
--c_{k} \frac{\vec{v}}{|\vec{v}|}, \quad &\vec{v}\neq0 \\
-0,\quad &\vec{v}=0
+$$\mathbf{F}=\begin{cases}
+-c_{k} \frac{\mathbf{v}}{|\mathbf{v}|}, \quad &\mathbf{v}\neq0 \\
+0,\quad &\mathbf{v}=0
 \end{cases}$$
 where $c_{k}$ is called the **coefficient of dynamic friction**. The coefficient is the ratio between the magnitudes of the friction and the normal force, $c_{k}=F_{friction}/F_{normal}$, multiplied by a unit constant to make the units of measurements those of a force.
 

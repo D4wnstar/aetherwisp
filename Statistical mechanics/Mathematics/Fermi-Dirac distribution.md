@@ -1,39 +1,8 @@
-The **Fermi-Dirac distribution** is a [[probability distribution]] that describes the behavior of a [[Physical system|system]] of $N$ [[Fermion|fermions]] in [[thermal equilibrium]]. Its [[probability density function]] is
+The **Fermi-Dirac distribution** is a [[probability distribution]] that describes the behavior of a [[Physical system|system]] of $N$ non-interacting [[Fermion|fermions]] in [[thermal equilibrium]]. Its [[probability density function]] is
 $$\langle n_{i} \rangle =\frac{1}{e^{\beta(\varepsilon_{i}-\mu)}+1}=\frac{1}{z^{-1}e^{\beta \varepsilon_{i}}+1}$$
 $\langle n_{i} \rangle$ is the average number of fermions in the $i$-th single-[[Particella|particle]] [[stato|state]] of energy $\varepsilon_{i}$, $\mu$ is the system [[chemical potential]], $\beta=1/k_{B}T$ is the inverse temperature, with $k_{B}$ the [[Boltzmann constant]] and $T$ the [[temperature]], and $z$ is the [[fugacity]]. The [[Normalizzazione|normalization]] constant is
 $$\sum_{i}n_{i}=N$$
 Since we are working with fermions, the [[Pauli exclusion principle|Pauli exclusion principle]] must hold, which is to say that $\langle n_{i} \rangle< 1$.
-### ?
-$$f_{3/2}(z)=\sum_{l=1}^{\infty} \frac{(-1)^{l+1}z^{l}}{l^{3/2}}=z\frac{ \partial  }{ \partial z }f_{5/2}(z)=\frac{4}{\sqrt{ \pi }}\int_{0}^{\infty} \frac{x^{2}}{z^{-1}e^{x^{2}}+1}\ dx$$
-The first few terms are
-$$f_{3/2}(z)=z- \frac{z^{2}}{2^{3/2}}+ \frac{z^{3}}{z^{3/2}}-\ldots$$
-### Sommerfeld expansions
-The $f_{3/2}(z)$ can be expanded in terms of $\ln z$, which is useful for large $z$. That said, the derivation is somewhat convoluted[^1].
-
-Let's start from
-$$\nu=\beta \mu=\frac{\mu}{k_{B}T}=\ln z$$
-We can write
-$$f_{3/2}(z)=\frac{4}{\sqrt{ \pi }}\int_{0}^{\infty} \frac{x^{2}}{e^{x^{2}-\nu}+1}\ dx=\frac{4}{2\sqrt{ \pi }}\int_{0}^{\infty} \frac{\sqrt{ y }}{e^{y-\nu}+1}\ dy=\frac{4}{3\sqrt{ \pi }}\int_{0}^{\infty} \frac{y^{3/2}e^{y-\nu}}{(e^{y-\nu}+1)^{2}}\ dy=\ldots$$
-using the $x^{2}=y$ substitution. The last step is from [[Integrazione per parti|integration by parts]] on
-$$f=\frac{1}{e^{y-\nu}+1}$$
-and $g=\sqrt{ y }$. The integrand is peaked around $\nu$. Making the further substitution $y=\nu+t$, we get
-$$\ldots=\frac{4\nu^{3/2}}{3\sqrt{ \pi }}\int_{-\nu}^{\infty} \left( 1+ \frac{t}{\nu} \right)^{3/2} \frac{e^{t}}{(e^{t}+1)^{2}}=\ldots$$
-Since the integral peaks around $\nu$, we might as well extend the lower bound to $-\infty$
-$$\ldots\simeq \frac{4\nu^{3/2}}{3\sqrt{ \pi }}\int_{-\infty}^{\infty}\left( 1 + \frac{t}{\nu} \right)^{3/2} \frac{e^{t}}{(e^{t}+1)^{2}}\ dt=\ldots$$
-Now, using the expansion
-$$\left( 1+ \frac{t}{\nu} \right)^{3/2}\simeq 1+ \frac{3}{2} \frac{t}{\nu}+ \frac{3}{8} \frac{t^{2}}{\nu ^{2}}+\ldots$$
-we can write
-$$\ldots= \frac{4\nu^{3/2}}{3\sqrt{ \pi }}\int_{-\infty}^{\infty}\left( 1+ \frac{3}{2} \frac{t}{\nu} + \frac{3}{8} \frac{t^{2}}{\nu ^{2}}+ \ldots \right) \frac{e^{t}}{(e^{t}+1)^{2}}=\frac{4\nu^{3/2}}{3\sqrt{ \pi }} \left( I_{0}+ \frac{3}{\sqrt{ \pi }}I_{1}+\ldots \right)$$
-The $I_{n}$ are the expansion coefficients (TODO: The previous equation is probably somewhat wrong). From this, we can state
-$$\begin{align}
-z\ll 1\qquad&f_{3/2}(z)=z- \frac{z^{2}}{2^{3/2}}+ \frac{z^{3}}{3^{3/2}}-\ldots \\
-z\gg 1\qquad& f_{3/2}(z)=\frac{4}{3\sqrt{ \pi }}\left[ (\ln z)^{3/2}+ \frac{\pi ^{2}}{8} \frac{1}{(\ln z)^{3/2}}+\ldots \right]
-\end{align}$$
-...
-
-The $f_{3/2}(z)$ connects specific volume to the thermal wavelength:
-$$\frac{1}{v}=\frac{N}{V}=\frac{1}{\lambda ^{3}_{T}}f_{3/2}(z)$$
-Interparticle distance is on the order of $\sim v^{1/3}$. For high temperature, the de Broglie thermal wavelength is tiny, way smaller than $v^{1/3}$, (in symbols, $v^{1/3}\gg \lambda_{T}$) so the wave nature of matter becomes irrelevant and we see classical physics. Having low density (and so high $v$ compared to $\lambda_{T}$) is one way of ignoring quantum effects.
 ### Ideal gas
 Consider a fermion [[ideal gas]]. From the [[equation of state]] we get
 $$\begin{align}

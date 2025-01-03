@@ -12,7 +12,7 @@ $$\left.\begin{align}
 f_{k}(z) \\
 g_{k}(z)
 \end{align}\ \right\}= \frac{2^{2k-1}}{\sqrt{ \pi }} \frac{\Gamma\left( k- \frac{1}{2} \right)}{\Gamma(2k-1)}\int_{0}^{\infty} \frac{x^{2k-1}}{z^{-1}e^{x^{2}}\pm 1}dx$$
-where $+$ is for Fermi functions and $-$ for Bose functions.
+where $+$ is for Fermi functions and $-$ for Bose functions. In a physical context, $z$ is the [[fugacity]] and the integration variable is typically momentum. The [[Fermi-Dirac distribution|Fermi-Dirac]] and [[Bose-Einstein distribution]] appear in the integral.
 ### Origin
 These functions are convenience functions defined from integrals that occur in [[quantum statistical mechanics]] when dealing with [[Fermion|fermions]] and [[Boson|bosons]]. They appear, for instance, in the [[equation of state]] of a quantum [[ideal gas]] in both the [[quantum microcanonical ensemble]] and the [[quantum grand canonical ensemble]] derivations. For example, in the latter, they come up when taking the derivative of the [[Partition function|grand canonical partition function]] $\mathcal{Z}$ in the [[thermodynamic limit]]:
 $$\ln \mathcal{Z}=\frac{4\pi V}{h^{3}}\int_{0}^{\infty}p^{2}\ln(1+ze^{-\beta \varepsilon_{p}})dp$$
@@ -25,3 +25,7 @@ $$\begin{align}
 \end{align}$$
 We can see the Fermi function $f_{5/2}(z)$. From this we can retroactively state
 $$f_{5/2}(z)=\frac{4}{\sqrt{ \pi }} \left( \frac{\beta}{2m} \right)^{3/2}\int_{0}^{\infty}p^{2}\ln(1+ze^{-\beta \varepsilon_{p}})dp$$
+### Sommerfeld expansion
+Fermi functions have an alternative [[serie di potenze|power series]] representation known as a [[Sommerfeld expansion]] that comes in handy in physical applications. For $f_{3/2}(z)$ it yields
+$$f_{3/2}(z)\simeq \frac{4}{3\sqrt{ \pi }}\left[ (\ln z)^{3/2}+ \frac{\pi ^{2}}{8} \frac{1}{\sqrt{ \ln z }}+\ldots \right]$$
+The full proof is in the Sommerfeld expansion page.

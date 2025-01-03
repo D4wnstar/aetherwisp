@@ -1,10 +1,10 @@
 A **fermion** is a [[Particella|particle]] with half-integer [[spin]] ($\frac{1}{2}$, $\frac{3}{2}$, ...). The [[funzione d'onda|wavefunction]] of a [[Physical system|system]] of $N$ fermions changes sign when subject to a coordinate [[permutazione|permutation]]:
 $$P_{ij}\psi(\mathbf{r}_{1},\ldots,\mathbf{r}_{i},\ldots,\mathbf{r}_{j},\ldots,\mathbf{r}_{N})=-\psi(\mathbf{r}_{1},\ldots,\mathbf{r}_{j},\ldots,\mathbf{r}_{i},\ldots,\mathbf{r}_{N})$$
-$P_{ij}$ is the [[Operatore di scambio|switch operator]]. This wavefunction is said to be [[Stato total-antisimmetrico|antisymmetric]] (or odd).
+$P_{ij}$ is the [[Operatore di scambio|switch operator]]. This wavefunction is said to be [[Stato total-antisimmetrico|antisymmetric]] (or odd). Their behavior in matter is described by the [[Fermi-Dirac distribution]].
 
 Fermions are subject to the [[Pauli exclusion principle]].
 ### Origin
-The existence of fermions as a distinct category arises from the [[Identical particles|indistinguishability]] of particles caused by the [[Disuguaglianza di Heisenberg|uncertainty principle]].
+The existence of fermions as a separate category arises from the [[Identical particles|indistinguishability]] of particles caused by the [[Disuguaglianza di Heisenberg|uncertainty principle]].
 ### Fermi surface
 The common property of all fermions is the existence of the **Fermi surface**, which is the surface that divides occupied [[stato|states]] from unoccupied states at zero [[temperature]].
 #### 1D

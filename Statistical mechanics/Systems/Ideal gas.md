@@ -178,70 +178,37 @@ $$\begin{align}
 This result is actually a specific case of a more general recurrence relation among Fermi (and Bose) functions. It inverts to $f_{3/2}(z)=z\frac{ \partial  }{ \partial z }f_{5/2}(z)$, which very nicely exists in our previous result as-is. As such, our final formula is
 $$\boxed{n=\frac{1}{\lambda ^{3}}f_{3/2}(z)}$$
 ##### Bosons
-For bosons we have
-$$\frac{PV}{k_{B}T}=-\sum_{\bar{p}}\log(1-Ze^{-\beta \varepsilon_{\bar{p}}})$$
-The average occupation number is
-$$\langle n_{\bar{p}} \rangle =\frac{1}{Z^{-1}e^{\beta \varepsilon_{\bar{p}}}-1}=\frac{1}{e^{\beta(\varepsilon_{\bar{p}}-\mu)}-1}$$
-Note that this function diverges if $e^{\beta(\varepsilon_{\bar{p}}-\mu)}=1$, which is to say $\mu=0$ and $\bar{p}\to 0$. In this state, the ground state's occupation number blows up to infinity and all other states becomes unoccupied, which means that all bosons "collapsed" into the ground state. This is called [[Bose-Einstein condensation]] and it only occurs in bosons due to the $-1$ term at the denominator. Fermions have a $+1$, which means that the function never diverges.
-
-Similarly to fermions, we can find
-$$\left\{ \begin{align}
-\frac{P}{k_{B}T}&=\frac{4\pi}{h^{3}}\int_{0}^{\infty}p^{2}\log(1-Ze^{\beta p^{2}/2m})\ dp- \frac{1}{V}\log(1-Z) \\
-\frac{1}{v}&=\frac{4\pi}{h^{3}}\int p^{2} \frac{1}{Z^{-1}e^{\beta p^{2}/2m}} + \frac{1}{V} \frac{Z}{1-Z}
-\end{align} \right.$$
-Defining
-$$g_{5/2}(Z)=\sum_{j=1}^{\infty} \frac{Z^{j}}{j^{5/2}},\qquad g_{3/2}(Z)=\sum_{j=1}^{\infty} \frac{Z^{j}}{j^{3/2}}$$
-we get
-$$\boxed{\left\{ \begin{align}
-\frac{P}{k_{B}T}&=\frac{1}{\lambda ^{3}}g_{5/2}(Z)- \frac{1}{V}\log(1-Z) \\
-\frac{1}{v}&=\frac{1}{\lambda ^{3}}g_{3/2}(Z)+ \frac{1}{V} \frac{Z}{1-Z}
-\end{align} \right.}$$
+We start from
+$$\frac{PV}{k_{B}T}=\ln \mathcal{Z}=-\sum_{\mathbf{p}}\ln(1-ze^{-\beta \varepsilon_{\mathbf{p}}})$$
+The process is the same as with fermions, except we use [[Fermi and Bose functions|Bose functions]] $g_{k}$ instead. We can find
+$$\frac{P}{k_{B}T}=\frac{4\pi}{h^{3}}\int_{0}^{\infty}p^{2}\ln(1-ze^{-\beta \varepsilon_{p}})\ dp- \frac{1}{V}\ln(1-z)$$
+which resolves to
+$$\boxed{\frac{P}{k_{B}T}=\frac{1}{\lambda ^{3}}g_{5/2}(z)}$$
+Similarly, the particle density is
+$$n=\frac{4\pi}{h^{3}}\int_{0}^{\infty} p^{2} \frac{1}{z^{-1}e^{\beta \varepsilon_{p}}}dp + \frac{1}{V} \frac{z}{1-z}$$
+which yields
+$$\boxed{n=\frac{1}{\lambda ^{3}}g_{3/2}(z)}$$
+:::hidden
+These were found in class instead of the above, but I can't figure out how. Kerson Huang doesn't have these, so who knows?
+$$\boxed{\frac{P}{k_{B}T}=\frac{1}{\lambda ^{3}}g_{5/2}(z)- \frac{1}{V}\ln(1-z)}$$
+$$\boxed{n=\frac{1}{\lambda ^{3}}g_{3/2}(z)+ \frac{1}{V} \frac{z}{1-z}}$$
+:::
 #### Internal energy
-The grand canonical [[internal energy]] $U$ is
-$$U(Z,V,T)=-\left( \frac{ \partial  }{ \partial \beta } \log \mathcal{Z} \right)_{P,V}=-\frac{ \partial  }{ \partial \beta }  \frac{PV}{k_{B}T}$$
+The grand canonical [[internal energy]] $U$ is given by
+$$U(z,V,T)=-\left( \frac{ \partial  }{ \partial \beta } \ln \mathcal{Z} \right)_{P,V}=-\frac{ \partial  }{ \partial \beta }  \frac{PV}{k_{B}T}$$
+In the thermodynamic limit, we can use the equations of state above.
+##### Fermions
 For fermions we have
-$$U=-\frac{ \partial  }{ \partial \beta } \frac{1}{\lambda ^{3}}f_{5/2}(Z)$$
-$$\frac{ \partial P }{ \partial \beta } =\frac{ \partial  }{ \partial \beta } \left( k_{B}+ \frac{1}{\lambda ^{3}}f_{5/2}(Z) \right)$$
-$$\frac{U}{V}=\frac{3}{2}k_{B}+ \frac{1}{\lambda ^{3}}f_{5/2}(Z)$$
-For bosons we get the same
-$$\frac{U}{V}=\frac{3}{2}k_{B}+ \frac{1}{\lambda ^{3}}g_{5/2}(Z)$$
-In the [[Thermodynamic limit]], these simplify down to
-$$U=\frac{3}{2}k_{B}T$$
-which is the classical result, satisfying the correspondence principle.
-#### Free boson gas
-Consider a gas of $N$ [[Particella libera (quantistica)|free]] bosons in a cubic volume $V=L^{3}$, where
-$$N=\sum_{\mathbf{p}}\langle n_{\mathbf{p}} \rangle =\sum_{\mathbf{p}}= \frac{1}{e^{\beta(\varepsilon_{\mathbf{p}}-\mu)}-1}$$
-and $\varepsilon_{\mathbf{p}}=\mathbf{p}^{2}/2m$ Since the bosons are free, their [[Equazione agli autovalori|eigenfunctions]] are [[plane wave|plane waves]]: $\propto e^{i\mathbf{p}\cdot \mathbf{r}/\hbar}$. The momentum in the in the direction $\hat{\mathbf{n}}=(n_{x},n_{y},n_{z})$ is
-$$\mathbf{p}=\frac{2\pi}{L}\hbar \hat{\mathbf{n}}$$
-There is a possible state for every direction. We want to find the number of states $G(\varepsilon)$ up to a certain energy $\varepsilon$:
-$$g(\varepsilon)=???$$
-The density of states (DOS) $g(\varepsilon)$ is
-$$g(\varepsilon)=\frac{ \partial G}{ \partial \varepsilon } =\frac{Vm^{3/2}}{\sqrt{ 2 }\pi ^{2}\hbar ^{3}}\sqrt{ \varepsilon }$$
-More generally, the DOS is a function like
-$$g(\varepsilon)=C_{\alpha}\varepsilon^{\alpha-1}$$
-As it happens, in three dimension $d=3$ and for $\alpha=d/2=3/2$ we have
-$$C_{3/2}=V \frac{\sqrt{ 2 }}{3\pi ^{2}\hbar ^{3}}$$
-The number of particles can be expressed through the DOS
-$$N=\sum_{\mathbf{p}} \frac{1}{e^{\beta(\varepsilon _{\mathbf{p}}-\mu)}-1}=\int_{0}^{\infty}g(\varepsilon) \frac{1}{e^{\beta(\varepsilon-\mu)}-1}d\varepsilon=\int_{0}^{\infty} \frac{C_{\alpha}\varepsilon^{\alpha-1}}{e^{\beta(\varepsilon-1)}-1}$$
-We want to solve this integral[^2]. In fact, we mostly want to see if there is a critical temperature $T_{C}\neq 0$ such that ???. To solve the integral, we define
-$$\frac{\varepsilon}{k_{B}T_{C}}=x$$
-This turns the integral into
-$$N=k_{B}T_{C}\int_{0}^{\infty} \frac{C_{\alpha}(k_{B}T_{C})^{\alpha-1}x^{\alpha-1}}{e^{x}-1}=(k_{B}T_{C})^{\alpha}\int_{0}^{\infty} \frac{x^{\alpha-1}}{e^{x}-1}\ dx$$
-We can instead solve
-$$\begin{align}
-\mathcal{I}&=\int_{0}^{\infty} \frac{x^{\alpha-1}}{e^{x}(1-e^{-x})}\ dx=\int_{0}^{\infty}x^{\alpha-1}e^{-x}\sum_{j=0}^{\infty}(e^{-x})^{j}= \\
-&=\sum_{j=0}^{\infty}\int x^{\alpha-1}e^{-x}e^{-jx}\ dx=\sum_{j'=1}^{\infty} \int_{0}^{\infty} e^{-j'x}x^{\alpha-1}\ dx= \\
-(j'x=y)\quad&=\sum_{j'=1}^{\infty} \int_{0}^{\infty} \frac{1}{j'}e^{-y}\left( \frac{y}{j} \right)^{\alpha-1}=\ldots \\
-\end{align} $$
-using the Riemann [[Zeta function]]
-$$\zeta(\alpha)=\sum_{n=1}^{\infty} \frac{1}{n^{\alpha}}$$
-and the [[Gamma function]]. So back to $N$ we have
-$$N=(k_{B}T_{C})^{\alpha}\Gamma(\alpha)\zeta(\alpha)$$
-We can invert the formula to find the critical temperature
-$$T_{C}=\frac{1}{k_{B}}\left[ \frac{N}{C_{\alpha}\Gamma(\alpha)\zeta(\alpha)} \right]^{1/\alpha}$$
-In the case $d=3\to \alpha=3/2$ we get, since $\Gamma\left( 3/2 \right)=\sqrt{ \pi }/2$,
-$$T_{C}=\frac{1}{k_{B}} \frac{N^{2/3}}{\left[ \frac{Vm^{3/2}}{\sqrt{ 2 }\pi ^{2}\hbar ^{3}}\Gamma\left( \frac{3}{2} \right)\zeta\left( \frac{3}{2} \right) \right]^{2/3}}=\frac{1}{k_{B}}\frac{2\pi}{\left[ \zeta\left( \frac{3}{2} \right) \right]^{2/3}} \frac{\hbar^{2}n^{2/3}}{m}$$
-using the density $n=N/V$. This is a finite number, which proves that a free boson gas can condense. With realistic numbers, we get a value of around $\sim 100\text{ nanokelvins}$.
+$$\frac{U}{V}=-\frac{ \partial  }{ \partial \beta } \frac{P}{k_{B}T}=-\frac{ \partial  }{ \partial \beta } \frac{1}{\lambda ^{3}}f_{5/2}(z)=-\left( \frac{ \partial  }{ \partial \beta } \frac{1}{\lambda ^{3}} \right)f_{5/2}(z)- \frac{1}{\lambda ^{3}}\left( \frac{ \partial  }{ \partial \beta } f_{5/2}(z) \right)$$
+Computing the derivatives separately
+$$\frac{ \partial  }{ \partial \beta } \frac{1}{\lambda ^{3}}=-\frac{1}{\lambda ^{3}} \frac{3}{2\beta},\qquad \frac{ \partial  }{ \partial \beta } f_{5/2}(z)=\sum_{j=1}^{\infty} \frac{(-1)^{j+1}}{j^{5/2}}\frac{ \partial  }{ \partial \beta } z^{j}=\mu\sum_{j=1}^{\infty} \frac{(-1)^{j+1}}{j^{3/2}}z^{j}=\mu f_{3/2}(z)$$
+and so
+$$\frac{U}{V}=\frac{3}{2\beta} \frac{f_{5/2}(z)}{\lambda ^{3}}-\mu \frac{f_{3/2}(z)}{\lambda ^{3}}=\frac{3}{2\beta}\beta P-\mu n$$
+If we move $V$ over to the right side, we get
+$$\boxed{U=\frac{3}{2}PV-\mu N}$$
+This is identical to the classical result, which is what we want.
+##### Bosons
+Since the equation of state of bosons is identical to that of fermions, but with Bose functions instead of Fermi functions, the internal energy is itself identical, derived in the same way as above.
 
 [^1]: The form $PV=nRT$ exists because, besides being convenient in a laboratory setting, thermodynamics was historically developed at a time where the existence of the [[atomo|atom]] had yet to be proven and with it, the [[Particella|particle]] division of matter. In fact, classical thermodynamics as a whole does not strictly require the existence of particles like atoms.
 [^2]: Also see Chapter 1 of Feynman's *Statistical Mechanics*.
