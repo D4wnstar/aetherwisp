@@ -30,10 +30,5 @@ In practice, we only care about the first few terms, which are
 $$f_{3/2}(z)\simeq \frac{4}{3\sqrt{ \pi }}\left[ (\ln z)^{3/2}+ \frac{\pi ^{2}}{8} \frac{1}{\sqrt{ \ln z }}+\ldots \right]$$
 since $\nu=\ln z$.
 
-:::hidden
-In class we also found the low $z$ limit, somehow?
-$$z\ll 1\qquad f_{3/2}(z)=z- \frac{z^{2}}{2^{3/2}}+ \frac{z^{3}}{3^{3/2}}-\ldots$$
-:::
-
 [^1]: This is due to the [[Pauli exclusion principle]], which constrains [[Occupation number|occupation numbers]] to be $0$ or $1$ for fermions.
 [^2]: As it happens, these integrals have another nice form: $I_{n}=(n-1)!(2n)(1-2^{1-n})\zeta(n)$. Here, $\zeta(n)$ is the [[Riemann zeta function]].

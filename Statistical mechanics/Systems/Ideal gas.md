@@ -181,18 +181,21 @@ $$\boxed{n=\frac{1}{\lambda ^{3}}f_{3/2}(z)}$$
 We start from
 $$\frac{PV}{k_{B}T}=\ln \mathcal{Z}=-\sum_{\mathbf{p}}\ln(1-ze^{-\beta \varepsilon_{\mathbf{p}}})$$
 The process is the same as with fermions, except we use [[Fermi and Bose functions|Bose functions]] $g_{k}$ instead. We can find
-$$\frac{P}{k_{B}T}=\frac{4\pi}{h^{3}}\int_{0}^{\infty}p^{2}\ln(1-ze^{-\beta \varepsilon_{p}})\ dp- \frac{1}{V}\ln(1-z)$$
+$$\frac{P}{k_{B}T}=\frac{4\pi}{h^{3}}\int_{0}^{\infty}p^{2}\ln(1-ze^{-\beta \varepsilon_{p}})\ dp$$
 which resolves to
 $$\boxed{\frac{P}{k_{B}T}=\frac{1}{\lambda ^{3}}g_{5/2}(z)}$$
 Similarly, the particle density is
-$$n=\frac{4\pi}{h^{3}}\int_{0}^{\infty} p^{2} \frac{1}{z^{-1}e^{\beta \varepsilon_{p}}}dp + \frac{1}{V} \frac{z}{1-z}$$
+$$n=\frac{4\pi}{h^{3}}\int_{0}^{\infty} p^{2} \frac{1}{z^{-1}e^{\beta \varepsilon_{p}}}dp$$
 which yields
 $$\boxed{n=\frac{1}{\lambda ^{3}}g_{3/2}(z)}$$
-:::hidden
-These were found in class instead of the above, but I can't figure out how. Kerson Huang doesn't have these, so who knows?
+
+A more precise result can be reached by taking [[Bose-Einstein condensation]] into consideration. Condensation occurs at minimal temperatures, which in turn implies minimal particle energies, $\varepsilon_{p}\to 0$. In this state, the occupation number blows up and causes a [[Singolarità isolata|singularity]], making it technically impossible to calculate the integral at the lower bound $p=0$. Because of this, we can extract the term $p=\varepsilon_{p}=0$ from the equation of state sum *before* going to integral notation, which leaves us with
 $$\boxed{\frac{P}{k_{B}T}=\frac{1}{\lambda ^{3}}g_{5/2}(z)- \frac{1}{V}\ln(1-z)}$$
+(a single point is a [[Insiemi a misura trascurabile|negligible set]] in a 1D integral, so it still evaluates to $g_{5/2}(z)$). Similarly, the particle density is
 $$\boxed{n=\frac{1}{\lambda ^{3}}g_{3/2}(z)+ \frac{1}{V} \frac{z}{1-z}}$$
-:::
+In fact, we can use this to describe how the occupation number blows up:
+$$\langle n_{p=0} \rangle =nV=\frac{z}{1-z}$$
+$z$ blows up at low temperatures, and this does too.
 #### Internal energy
 The grand canonical [[internal energy]] $U$ is given by
 $$U(z,V,T)=-\left( \frac{ \partial  }{ \partial \beta } \ln \mathcal{Z} \right)_{P,V}=-\frac{ \partial  }{ \partial \beta }  \frac{PV}{k_{B}T}$$
@@ -208,7 +211,6 @@ If we move $V$ over to the right side, we get
 $$\boxed{U=\frac{3}{2}PV-\mu N}$$
 This is identical to the classical result, which is what we want.
 ##### Bosons
-Since the equation of state of bosons is identical to that of fermions, but with Bose functions instead of Fermi functions, the internal energy is itself identical, derived in the same way as above.
+Since the equation of state of bosons is identical to that of fermions, but with Bose functions instead of Fermi functions, the internal energy is itself identical, derived in the same way as above. It should be noted that the additional term due to condensation in the equation of state does not make a difference.
 
 [^1]: The form $PV=nRT$ exists because, besides being convenient in a laboratory setting, thermodynamics was historically developed at a time where the existence of the [[atomo|atom]] had yet to be proven and with it, the [[Particella|particle]] division of matter. In fact, classical thermodynamics as a whole does not strictly require the existence of particles like atoms.
-[^2]: Also see Chapter 1 of Feynman's *Statistical Mechanics*.

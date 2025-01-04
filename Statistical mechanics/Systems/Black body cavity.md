@@ -4,12 +4,12 @@ aliases:
 ---
 A **black body cavity** is a hollow [[corpo nero|black body]] with a pinhole dug into the surface. The cavity emits [[radiazione elettromagnetica|electromagnetic radiation]] from within. If the cavity is large enough, the system approximately looses the dependency on boundary conditions. It was the [[physical system]] that spurred the start of quantum mechanics, as classical results differ massively from reality due to the **ultraviolet catastrophe**.
 ### Quantum description
-Since electromagnetic radiation is described by the exchange of [[Photon|photons]], the whole cavity can be described as an [[canonical ensemble]] of them. Since photons are absorbed and emitted, the total number of photons is not conserved. The [[chemical potential]] is zero[^1].
+Since electromagnetic radiation is the exchange of [[Photon|photons]], the whole cavity can be described as a [[canonical ensemble]]. Specifically, it is a [[Bose gas]] of [[mass|massless]] bosons. Since photons are absorbed and emitted, the total number of photons is not conserved. The [[chemical potential]] is zero[^1].
 
 Let's say we have $N$ photons, each with [[wave vector]] $\mathbf{k}$ and polarization $\hat{\varepsilon}$. Each state is $n_{\mathbf{k},\hat{\varepsilon}}=0,1,2,\ldots$. The total [[energy]] is
 $$E(\{ n_{\mathbf{k},\hat{\varepsilon}} \})=\sum_{\mathbf{k},\hat{\varepsilon}}\hbar \omega n_{\mathbf{k},\hat{\varepsilon}}\tag{1}$$
 where the frequency is $\omega=c\lvert \mathbf{k} \rvert$ using the [[velocità della luce|speed of light]] $c$. The [[partition function]] is
-$$Q=\sum_{\{ n_{\mathbf{k},\hat{\varepsilon}} \}}=\exp\left( -\beta \sum_{\mathbf{k},\hat{\varepsilon}}\hbar \omega n_{\mathbf{k},\hat{\varepsilon}} \right)=\prod_{\mathbf{k},\hat{\varepsilon}}\sum_{n=0}^{\infty} (e^{-\beta \hbar \omega})^{n}=\prod_{\mathbf{k},\hat{\varepsilon}} \frac{1}{1-e^{-\beta \hbar \omega}}$$
+$$Q=\sum_{\{ n_{\mathbf{k},\hat{\varepsilon}} \}}\exp\left( -\beta \sum_{\mathbf{k},\hat{\varepsilon}}\hbar \omega n_{\mathbf{k},\hat{\varepsilon}} \right)=\prod_{\mathbf{k},\hat{\varepsilon}}\sum_{n=0}^{\infty} (e^{-\beta \hbar \omega})^{n}=\prod_{\mathbf{k},\hat{\varepsilon}} \frac{1}{1-e^{-\beta \hbar \omega}}$$
 since we have a [[Serie geometrica|geometric series]]. The logarithm is then
 $$\log Q=-\sum_{\mathbf{k},\hat{\varepsilon}}\log(1-e^{-\beta \hbar \omega})=-2\sum_{\mathbf{k}}\log(1-e^{-\beta \hbar \omega})$$
 since there are only two possible $\hat{\varepsilon}$ states. The average [[occupation number]] is
@@ -48,5 +48,5 @@ As such, we get
 $$\boxed{I(T)=\frac{\pi ^{2}k_{B}^{4}}{60\hbar ^{3}c^{2}}T^{4}=\sigma T^{4}}$$
 This is known as the [[legge di Stefan-Boltzmann|Stefan law]] for [[irradiazione|irradiation]], where $\sigma$ is the [[Costante di Stefan-Boltzmann|Stefan-Boltzmann constant]].
 
-[1]: This might seem weird as photons are being added and removed all the time. The real reason is that photons have no [[mass]] and only carry [[kinetic energy]], so when they are absorbed, they give away their energy and vanish. As such, the energy increases, but the particles do not (since the photon vanished). Photons really just move energy around and once they deliver their energy, the disappear.
+[1]: This might seem weird as photons are being added and removed all the time. The real reason is that photons have no [[mass]] and only carry [[kinetic energy]], so when they are absorbed, they give away their energy and vanish. As such, the energy increases, but the particles do not (since the photon vanished). Photons really just move energy around and once they deliver their energy, the disappear. In fact, all ensembles of massless particles have zero chemical potential.
 [^2]: However, do be careful of the factor 2 from the sum over polarization states.
