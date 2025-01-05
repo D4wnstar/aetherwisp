@@ -23,7 +23,11 @@ $$\boxed{g(\varepsilon)=C_{\alpha}\varepsilon^{\alpha-1}}$$
 where $\alpha=d/2$ is a real number that is half the dimension of the system. For instance, in the 3D gas above we have $\alpha=3/2$.
 ### Consequences
 The intended use case for this approximation is turning sums over quantum states to integrals over energy. For instance, in a [[Fermi gas|Fermi]] or [[Bose gas]], the number of particles is
-$$N=\sum_{\mathbf{p}} \frac{1}{z^{-1}e^{\beta \varepsilon}\pm 1}$$
+$$N=\sum_{\varepsilon} \frac{1}{z^{-1}e^{\beta \varepsilon}\pm 1}$$
 In the Thomas-Fermi approximation, this becomes
 $$N=\int_{0}^{\infty} \frac{g(\varepsilon)}{z^{-1}e^{\beta \varepsilon}\pm 1}d\varepsilon=C_{\alpha}\int_{0}^{\infty} \frac{\varepsilon^{\alpha-1}}{z^{-1}e^{\beta \varepsilon}\pm 1}d\varepsilon$$
-This integral can't be solved, but the [[Sommerfeld expansion]] provides a strong approximation for high $z$.
+This integral can't be solved, but the [[Sommerfeld expansion]] provides a strong approximation for high $z$. A more general notation could be
+$$\sum_{\varepsilon} \langle n_{\varepsilon} \rangle \to \int_{0}^{\infty}g(\varepsilon)\langle n_{\varepsilon} \rangle d\varepsilon $$
+
+> [!warning] Integration variable
+> When you make the approximation above, make sure that the integration variable is the same one that you're using to label the states! If you use a different variable, your integral will be wrong by the constant $a$ such that $d\varepsilon=a\ dx$, where $x$ is the variable you were supposed to use ($k$, $p$, $\omega$,...). For instance, if your sum is over [[wave vector]] $k$, you must integrate over $dk$. If you integrate over $d\varepsilon$, you'll be wrong by $\hbar c$ since you'll need to substitute $d\varepsilon=\hbar c\ dk$.

@@ -18,6 +18,12 @@ Since we know the state density, we can determine [[entropy]] from the [[Entropy
 $$S=-k_{B}\sum_{n} p(n) \ln p(n)=\frac{k_{B}\beta}{Q_{N}}\sum_{n}E_{n}e^{-\beta E_{n}}+k_{B}\ln Q_{N}$$
 since $p(n)=\rho_{n}/Z=e^{-\beta E_{n}}/Z$. It can equivalently be expressed as
 $$S=k_{B}\frac{ \partial  }{ \partial T }(T\ln Q_{N}) $$
+### Occupation numbers
+The [[Occupation number|occupation numbers]] can be derived from the partition function as
+$$\langle n \rangle =- \frac{1}{\beta}\frac{ \partial  }{ \partial E } \ln Q_{N}$$
+This is because the number can be derived from a sum over all possible states
+$$\langle n \rangle = \frac{1}{Q_{N}}\sum_{{\{ n \}}}ne^{-\beta E_{n}}$$
+The above form can seen by noticing that this sum is essentially the derivative of $\ln Q_{N}$ up to scaling constant.
 ### Examples
 > [!example] Non-interacting two state system
 > Consider a single particle with two possible states, one with energy $E_{0}=0$ and another with energy $E_{1}=E$. The partition function for this single-particle system is
