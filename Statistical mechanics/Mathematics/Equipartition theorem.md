@@ -34,5 +34,5 @@ $$\langle H \rangle =3Nk_{B}T,\qquad C_{V}=3Nk_{B},\qquad c_{N}=3k_{B}$$
 Twice as much as in the no-potential case.
 #### Crystalline solids
 Crystalline solids are subject to elastic potential between atoms. In this case we get
-$$C_{V}=3Nk_{B}=3R$$
+$$U=3Nk_{B}T,\qquad C_{V}=3Nk_{B}=3R$$
 where $R$ is the [[ideal gas constant]]. This is called the [[Dulong-Petit law]], which is true for temperatures large enough that quantum oscillations are not relevant. Note how the ideal gas constant appears here despite talking about solids. This is actually true for any monatomic metal.

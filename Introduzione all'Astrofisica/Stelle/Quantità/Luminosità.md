@@ -4,7 +4,7 @@ dove $d$ è la distanza dell'astro e $f_{banda}$ è il [[flusso energetico]] eme
 
 Per avere una misura corretta della luminosità bolometrica, è necessario avere dati sulla luminosità in tutte le fasce dello [[Spettro elettromagnetico]], cosa che in alcuni casi, come quello degli [[Nucleo galattico attivo|AGN]], non è per nulla semplice. Si può definire la luminosità con un'approssimazione dell'energia prodotta dalla [[Stella|stella]] considerata come un [[corpo nero]]. Questa luminosità è "oggettiva", nel senso che non dipende da osservazioni "visive". Si calcola a partire dalla [[legge di Stefan-Boltzmann]] con
 $$L=4\pi R^{2}\sigma T^{4}_{e}$$
-dove $R$ è il raggio della stella, $T_{e}$ è la [[temperatura efficace]] e $\sigma$ è la [[costante di Stefan-Boltzmann]].
+dove $R$ è il raggio della stella, $T_{e}$ è la [[temperatura efficace]] e $\sigma$ è la [[Stefan-Boltzmann constant]].
 
 Si trova che per le stella sulla [[sequenza principale]], la luminosità dipende dalla loro massa
 $$L\propto M^{3.5}_{\star}$$

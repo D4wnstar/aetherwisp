@@ -5,7 +5,7 @@ $$\beta=\frac{1}{k_{B}T}$$
 e $k_{B}$ la [[Boltzmann constant]]. $E$ è l'energia del sistema, generalmente descritta come il valore dell'[[Hamiltoniana]] $E=H(q,p)$. In questo caso, abbiamo
 $$e^{-\beta H(q,p)}$$
 ### Oscillatore armonico
-Nel caso dell'[[oscillatore armonico]], l'Hamiltoniana vale
+Nel caso dell'[[Oscillatore armonico]], l'Hamiltoniana vale
 $$H(q,p)=\frac{p^{2}}{2m}+ \frac{m\omega ^{2}}{2}q^{2}$$
 con $m$ massa della [[particella]] e $\omega$ la frequenza angolare. Allora il fattore di Boltzmann è
 $$e^{-\beta((p^{2}/2m) + (m\omega^{2}/2)q^{2})}$$

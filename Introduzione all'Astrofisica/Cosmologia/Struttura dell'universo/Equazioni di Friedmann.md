@@ -72,7 +72,7 @@ dove abbiamo definito $\Omega_{r}$ il **parametro di densità di radiazione** al
 $$\frac{H^{2}}{H_{1}^{2}}\simeq\frac{1}{a^{4}}$$
 quindi l'universo è circa piatto ($\Omega\sim1$). La soluzione di questa equazione dà
 $$a(t)=\left(\frac{t}{t_{1}}\right)^{1/2} \quad \Rightarrow \quad \rho_{\gamma}\propto a(t)^{-2}$$
-Se i fotoni sono in equilibrio termico e hanno lo [[Spettro (astrofisica)|spettro]] di un [[corpo nero]], allora $\rho_{\gamma}c^{2}=\sigma T_{\gamma}^{4}$ con $\sigma$ [[Costante di Stefan-Boltzmann]], quindi $T_{\gamma}\propto t^{-1/2}$ e $T_{\gamma}\propto a(t)^{-1}$:
+Se i fotoni sono in equilibrio termico e hanno lo [[Spettro (astrofisica)|spettro]] di un [[corpo nero]], allora $\rho_{\gamma}c^{2}=\sigma T_{\gamma}^{4}$ con $\sigma$ [[Stefan-Boltzmann constant]], quindi $T_{\gamma}\propto t^{-1/2}$ e $T_{\gamma}\propto a(t)^{-1}$:
 ### Terza equazione
 Torniamo all'inizio, con l'osservazione di una galassia tracciante. Deve valere il [[Principi della termodinamica#Primo principio|primo principio della termodinamica]]:
 $$dU+PdV=dE$$

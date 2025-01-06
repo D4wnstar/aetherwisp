@@ -81,7 +81,7 @@ Il grafico ha un limite destro *relativistico*. Ad una certa massa, la pressione
 #### Pressione di radiazione
 Un'ulteriore forma di pressione verso l'esterno è data dalla [[pressione di radiazione]], che vale
 $$P_{rad}=\frac{1}{3}\sigma T^{4}$$
-con $\sigma$ la [[costante di Stefan-Boltzmann]]. L'effetto di questa pressione è quello di destabilizzare la stella, espellendo gli strati esterni (i più leggeri) e quindi rimuovendo massa dalla stella. A sua volta, questo porta ad una diminuzione della pressione.
+con $\sigma$ la [[Stefan-Boltzmann constant]]. L'effetto di questa pressione è quello di destabilizzare la stella, espellendo gli strati esterni (i più leggeri) e quindi rimuovendo massa dalla stella. A sua volta, questo porta ad una diminuzione della pressione.
 
 Rispetto ad un gas perfetto, il rapporto di pressioni vale
 $$\frac{P_{rad}}{P_{gas\ perf.}}\propto M^{2}$$

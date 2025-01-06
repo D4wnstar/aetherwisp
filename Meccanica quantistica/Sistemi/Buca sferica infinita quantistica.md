@@ -15,7 +15,7 @@ dove
 $$k\equiv \frac{\sqrt{2mE}}{\hbar}$$
 Vogliamo risolvere questa equazione, con la condizione al contorno $u(a)=0$.
 ### Caso $l=0$
-Il caso $l=0$ è l'[[oscillatore armonico]]:
+Il caso $l=0$ è l'[[Oscillatore armonico]]:
 $$\frac{d^{2}u}{dr^{2}}=-k^{2}u \Rightarrow u(r)=A\sin(kr)+B\cos(kr)$$
 L'effettiva [[Funzione d'onda]] radiale è $R(r)=u/r$ quindi
 $$R(r)=A \frac{\sin(kr)}{r}+ B \frac{\cos(kr)}{r}$$
