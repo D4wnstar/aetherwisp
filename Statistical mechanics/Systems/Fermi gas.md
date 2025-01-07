@@ -17,7 +17,7 @@ Meanwhile, a fermion ideal gas is
 $$\boxed{\frac{PV}{Nk_{B}T}=1+ \frac{1}{2^{5/2}} \frac{\lambda_{T}^{3}}{v}+\ldots}$$
 We have an expansion with many terms beyond 1. The term beyond one is called the **second virial coefficient**. This normally occurs when you extend an ideal gas to also have internal interactions between particles. But there are no interactions here, it's just fermions. What this is, is the manifestation of the [[Pauli exclusion principle|Pauli exclusion principle]], which can be interpreted as a sort of repulsive interaction between fermions that prevents them from occupying the same [[stato|state]]. It's not *really* a potential, but it behaves like one.
 :::
-### Behavior
+### Zero temperature and Fermi energy
 In the low-temperature limit $T\to 0$ and due to the exclusion principle, the [[Fermi-Dirac distribution]] approximately becomes
 $$\langle n_{p} \rangle =\frac{1}{e^{\beta(\varepsilon_{p}-\mu)}+1}\to \begin{cases}
 0 & \text{ if }\varepsilon_{p}>\mu \\
@@ -25,8 +25,89 @@ $$\langle n_{p} \rangle =\frac{1}{e^{\beta(\varepsilon_{p}-\mu)}+1}\to \begin{ca
 \end{cases}$$
 What this means is that all states with energy lower than $\mu$ will be occupied, and all states with higher energy will be vacant. We can use the [[theta di Heaviside|Heaviside step function]] $\Theta$ to represent this symbolically:
 $$\lim_{ T \to 0 } \langle n_{p} \rangle=\Theta(\mu-\varepsilon_{p})$$
-The specific energy threshold is known as the [[Fermi energy]] $\varepsilon_{F}$ or $E_{F}$. This energy leads to a momentum called the **Fermi momentum** $p_{F}=\sqrt{ 2m\varepsilon_{F} }$. In [[phase space]], this momentum occupies a spherical region, which contains all the occupied states discussed before. This odd state is known as [[quantum degeneracy]] (not to be confused with state [[Degenerazione|degeneracy]], although the two are closely related).
+The specific energy threshold is known as the [[Fermi energy]] $E_{F}$. This energy leads to a momentum called the Fermi momentum $p_{F}=\sqrt{ 2mE_{F} }$. In [[phase space]], this momentum occupies a spherical region, which contains all the occupied states discussed before. The [[Superficie|surface]] of this sphere is known as the [[Fermi surface]]. This odd state is known as [[quantum degeneracy]] (not to be confused with state [[Degenerazione|degeneracy]], although the two are closely related).
 
+Fermi energy can be calculated purely from knowledge of the exclusion principle, that fermions are non-interacting and by choosing some appropriate boundary conditions.
+#### 1D
+Consider a one dimensional [[Physical system|system]] composed in a length $L$ of space.
+##### Open boundary conditions
+Starting from the [[Equazione di Schrödinger|time-independent Schrödinger equation]], we have
+$$H\psi_{n}=E\psi_{n}$$
+The solution depends on the boundary. If we set open boundary conditions (that is, the edges of the system are impassable, so $\psi(x=0)=\psi(x=L)=0$), our system turns into a [[Buca infinita quantistica|infinite square well]], so the solution is $\psi_{n}\propto \sin kx$. We also have $kL=n\pi$, which means
+$$\psi_{n}(x)\propto \sin \frac{n\pi x}{L},\qquad E_{n}=\frac{\hbar^{2}k^{2}_{n}}{2m}=\frac{\hbar^{2}n^{2}\pi ^{2}}{2mL^{2}}=- \frac{h^{2}}{2m} \left( \frac{n}{2L} \right)^{2}$$
+The [[Hamiltonian]] is the usual [[Particella libera (quantistica)|free particle]] one:
+$$\hat{H}=- \frac{\hbar^{2}}{2m}\frac{ \partial ^{2} }{ \partial x^{2} } $$
+If our $N$ fermions have two possible [[spin]] eigenvalues, $N/2$ will be spin up and $N/2$ will be spin down due to the exclusion principle. (For the rest of the article, we'll only consider fermions with two possible spins, which are by far the most common, but it is possible to trivially generalize to $\ell$ spins by multiplying all formulas directly dependent on spin count by $\ell$.) Since each state has precisely one fermion in it, the highest occupied state must be $N/2$. Thus the Fermi energy is found at $n=N/2$:
+$$\boxed{E_{F}=\frac{h^{2}}{2m}\left( \frac{N}{4L} \right)^{2}}$$
+##### Periodic boundary conditions
+With periodic boundary conditions, our system becomes a looping ring defined by $\psi(x=0)=\psi(x=L)$. Since fermions are free, their [[Equazione agli autovalori|eigenfunctions]] are [[plane wave|plane waves]] $\propto e^{ikx}$, so this is like saying $e^{ikx}=e^{ik(x+L)}$ and therefore $e^{ikL}=1$. This is true when $2\pi n=kL$, where $n=0,\pm 1, \pm 2,\ldots$. Since the energy is given by the wave vector, we get
+$$k=\frac{2\pi}{L}n\quad\to \quad E_{k}=\frac{\hbar^{2}k^{2}}{2m}$$
+The Fermi energy is
+$$E_{F}=\frac{\hbar^{2}}{2m}k^{2}_\text{last occupied}=\frac{\hbar^{2}}{2m} \left( \frac{2\pi}{L} \frac{N}{2\cdot 2} \right)^{2}=\boxed{\frac{h^{2}}{2m}\left( \frac{N}{4L} \right)^{2}}$$
+since $n_\text{last occupied}=N/4$, unlike in the open boundary case. This is because, beyond spin [[Degenerazione|degeneracy]], here we have to consider both signs of $n$, whereas in the square well we drop the negative $n$'s. This is balanced out by the additional $2$ in the periodic condition (before it was $\pi n=kL$, now it is $2\pi n=kL$).
+##### Density of states
+We can also use a density of state (DOS) function through the [[Thomas-Fermi approximation]]. The state counting function for momentum is
+$$G(E)=\frac{\frac{4\pi}{3}p^{3}}{\left( \frac{2\pi \hbar}{L} \right)^{3}}=\frac{\frac{4\pi}{3}(2mE)^{3/2}}{\left( \frac{2\pi \hbar}{L} \right)^{3}}$$
+This counts the number of states up to an energy $E$. In one dimension, this becomes
+$$G(E)=\frac{2p}{\left( \frac{2\pi \hbar}{L} \right)}=\frac{2L\sqrt{ 2mE }}{h}$$
+since the [[measure]] in 1D is the length of the interval, which in our case is the diameter of the sphere, i.e. $2p$. The state count at Fermi energy *for each spin* is given as before by the number of particles, divided by $2$:
+$$\boxed{G(E_{F})=\frac{N}{2}}$$
+The single spin Fermi energy returns the previous result:
+$$\boxed{E_{F}=\frac{h^{2}}{2m}\left( \frac{N}{4L} \right)^{2}}$$
+The DOS for both spins is
+$$\boxed{g(E)=2\frac{ \partial G }{ \partial E } =\frac{4L}{h}\sqrt{ \frac{m}{2E} }}$$
+where the $2$ is due to considering both spins. Due to the one state = one particle clause, we can find the Fermi energy exclusively from the DOS, if we somehow have access to it directly:
+$$N=\int_{0}^{E_{F}}g(E)\ dE=\int_{0}^{E_{F}} \frac{4L}{h}\sqrt{ \frac{m}{2} }\frac{1}{\sqrt{ E }}\ dE=\frac{8L}{h}\sqrt{ \frac{m}{2} }\sqrt{ E_{F} }$$
+Reversing the formula gives the familiar result
+$$E_{F}=\frac{h^{2}}{2m}\left( \frac{N}{4L} \right)^{2}$$
+##### Zero temperature internal energy
+The total [[internal energy]] of a Fermi gas at zero temperature, denoted $E_{0}$, can be found from the Fermi energy. The internal energy is just the sum of the energies of each occupied state. For doubly-degenerate spins in open boundary conditions, that is
+$$E_{0}=2\sum_{n=1}^{N/2} \frac{h^{2}n^{2}}{2m(2L)^{2}}=2 \frac{h^{2}}{2m(2L)^{2}}\sum_{i=1}^{N/2} n^{2}$$
+We know the sum
+$$\sum_{n=1}^{s} n=\frac{s(s+1)}{2}$$
+The square is
+$$\sum_{n=1}^{s} n^{2}=\frac{s(2s^{2}+3s+1)}{6}\simeq \frac{s^{3}}{3}$$
+where the approximation holds at large $s$ (proven by taking an integral instead of a sum, which are essentially the same for large enough numbers). Back to the energy, we have
+$$\boxed{E_{0}\simeq \frac{2h^{2}}{2m(2L)^{2}} \frac{1}{3}\left( \frac{N}{2} \right)^{2}=\frac{1}{3}NE_{F}}$$
+The $1/3$ factor depends on the dimension, but $N$ and $E_{F}$ are always the same.
+
+The same result can be found from the DOS by energy:
+$$E_{0}=\int_{0}^{E_{F}}E\ g(E)\ dE=\frac{N}{3}E_{F}$$
+#### 3D
+We now move on to 3D, in a volume $V=L^{3}$.
+##### Open boundary conditions
+Using open boundary conditions in 3D is more challenging. The [[Hamiltonian]] is
+$$\hat{H}=- \frac{\hbar^{2}}{2m}\nabla ^{2}$$
+and we're still in an infinite square well, just a 3D one (an infinite square box?). Our position [[Equazione agli autovalori|eigenfunctions]] are
+$$\psi_{n}\propto \sin \frac{\pi n_{x}}{L}\sin \frac{\pi n_{y}}{L}\sin \frac{\pi n_{z}}{L}$$
+where $n_{x,y,z}=1,2,3,\ldots$. Our energy eigenvalues are
+$$E_{n_{x},n_{y},n_{z}}=\frac{\hbar^{2}}{2m} \frac{\pi^{2}}{L^{2}}(n_{x}^{2}+n_{y}^{2}+n_{z}^{2})$$
+Reasonable enough so far. The issue is now finding what the last occupied value is. In 1D it was easy: the number of particles divided by $2$. But here it's complicated, as there are three separate degrees of freedom. For instance, a singly-excited state can be any of $(1,0,0)$, $(0,1,0)$ or $(0,0,1)$. At higher excitations, there are more and more [[combination|combinations]]. In fact, this is a combinatorics problem that we'd need to solve. It's easier to just pick another set of boundary conditions in which this does not happen.
+##### Periodic boundary conditions
+Using periodic boundary conditions and with wavefunctions $\psi_{\mathbf{k}}(\mathbf{r})=\frac{1}{\sqrt{ V }}e^{i\mathbf{k}\cdot \mathbf{r}}$ for a direction $\mathbf{k}=\frac{2\pi}{L}\hat{\mathbf{n}}$, the Schrödinger equation
+$$\hat{H}\psi_{\mathbf{k}}=E_{\mathbf{k}}\psi_{\mathbf{k}}$$
+is solved by
+$$E_{\mathbf{k}}=\frac{\hbar^{2}}{2m}(k_{x}^{2}+k_{y}^{2}+k_{z}^{2})$$
+Again, now we need to figure out what the last occupied $\mathbf{k}$ is, which is the same problem as before since $k\propto n$. Our best bet is to just go with density of states directly.
+##### Density of states
+The state function is given by the usual [[Thomas-Fermi approximation]] method. For each spin, we have:
+$$\boxed{G(E)=\frac{\frac{4\pi}{3}p^{3}}{\left( \frac{2\pi \hbar}{L} \right)^{3}}=\frac{\sqrt{ 2 }V(mE)^{3/2}}{3\pi^{2}\hbar^{3}}}$$
+At Fermi energy, the state count *per spin* is still
+$$G(E_{F})=\frac{N}{2}$$
+This is the saving grace. The Pauli exclusion principle doesn't care about dimensionality and will give the same number of states regardless. The only thing that matters is the number of states for each energy level, i.e. the degeneracy, i.e. the number of spin states. If we compare the two equations, we find
+$$\boxed{E_{F}=\frac{\hbar^{2}k_{F}^{2}}{2m}}$$
+where we defined the Fermi wave vector as
+$$\boxed{k_{F}\equiv\left( 3\pi ^{2} \frac{N}{V} \right)^{1/3}}$$
+The DOS function for both spins can be found to be
+$$\boxed{g(E)=\frac{2Vm^{3/2}\sqrt{ E }}{\sqrt{ 2 }\pi^{2}\hbar ^{3}}}$$
+We can find the number of particles from the DOS:
+$$N=G_\text{both spins}(E)=\int_{0}^{E_{F}}g(E)\ dE=\frac{2\sqrt{ 2 }Vm^{3/2}E_{F}^{3/2}}{3\pi ^{2}\hbar^{3}}$$
+##### Zero temperature internal energy
+The zero temperature internal energy is
+$$E_{0}=\int_{0}^{E_{F}}E\ g(E)\ dE=2 \frac{Vm^{3/2}}{\sqrt{ 2 }\pi ^{2}\hbar ^{3}}\int_{0}^{E_{F}}E^{3/2}dE=2 \frac{Vm^{3/2}}{\sqrt{ 2 }\pi ^{2}\hbar ^{3}} \frac{2}{5}E^{5/2}_{F}$$
+By using $E_{F}^{5/2}=E_{F}^{3/2}+E_{F}$ and substituting the previous formula for $E_{F}$ in $E_{F}^{3/2}$ we get
+$$\boxed{E_{0}=\frac{3}{5}NE_{F}}$$
+As we can see, only the numerical factor changed from the 1D version.
 ### Behavior
 Consider a fermion [[ideal gas]]. From the [[equation of state]] we get
 $$\begin{align}
@@ -72,7 +153,7 @@ $$\begin{align}
 U&=\sum_{\mathbf{p}}\varepsilon_{\mathbf{p}}\langle n_{\mathbf{p}} \rangle  \\
 &=\frac{V}{h^{3}} \frac{4\pi}{2m}\int_{0}^{\infty} p^{4}\langle n_{\mathbf{p}} \rangle dp \\
 &=\frac{V}{4\pi ^{2}m\hbar ^{3}}\int_{0}^{\infty} \frac{p^{5}}{5}\left( -\frac{ \partial  }{ \partial p } \langle n_{\mathbf{p}} \rangle  \right) \\
-&=\frac{\beta V}{20\pi ^{2}m^{2}\hbar ^{2}}\int_{0}^{\infty} \frac{p^{6}e^{\beta \varepsilon_{\mathbf{p}}-v}}{(e^{\beta \varepsilon_{\mathbf{p}}+1})^{2}}
+&=\frac{\beta V}{20\pi ^{2}m^{2}\hbar ^{2}}\int_{0}^{\infty} \frac{p^{6}e^{\beta \varepsilon_{\mathbf{p}}-v}}{(e^{\beta \varepsilon_{\mathbf{p}}}+1)^{2}}
 \end{align}$$
 That said, this integral is a mess. It's much easier to use something like a [[quantum grand canonical ensemble]] and use its [[partition function]]:
 $$\frac{PV}{k_{B}T}=\ln \mathcal{Z}$$
@@ -95,74 +176,3 @@ U&=\frac{3}{2}Nk_{B}T \frac{2}{5}\ln z \left[ \frac{1+ \frac{5\pi ^{2}}{8} \frac
 &\simeq \frac{3}{2}Nk_{B}T\ln z\left( 1- \frac{\pi ^{2}}{2} \frac{1}{(\ln z)^{2}} \right)
 \end{align}$$
 From this, we can find other thermodynamic quantities.
-### Dimensions
-### Fermi surface
-The common property of all fermions is the existence of the **Fermi surface**, which is the surface that divides occupied [[stato|states]] from unoccupied states at zero [[temperature]].
-#### 1D
-To study it, we start with a one dimensional [[Physical system|system]] composed of a length $L$ of space. There are several methods for solving the system.
-##### Open boundary conditions
-Using open boundary conditions (that is, $\psi(x=0)=\psi(x=L)=0$) and starting from the [[Equazione di Schrödinger|time-independent Schrödinger equation]], we have
-$$H\psi_{n}=E\psi_{n}$$
-The boundary conditions make our system into a [[Buca infinita quantistica|infinite square well]], so the solution is $\psi_{n}\propto \sin kx$. We also have $kL=n\pi$, which means
-$$\psi_{n}(x)\propto \sin \frac{n\pi x}{L},\qquad E_{n}=\frac{\hbar^{2}k^{2}}{2m}=\frac{h^{2}}{2m} \left( \frac{n\pi}{L} \right)^{2}=- \frac{h^{2}}{2m} \left( \frac{n}{2L} \right)^{2}$$
-$$H=- \frac{h^{2}}{2m}\frac{ \partial ^{2} }{ \partial x^{2} } $$
-By the [[Pauli exclusion principle|Pauli exclusion principle]], fermions will be coupled in spin pairs. If we have $N$ fermions in the space, $N/2$ will be spin up and $N/2$ will be spin down. The highest occupied state is therefore $N/2$. Thus our **Fermi energy** (the energy of the last occupied state) is
-$$E_{F}=\frac{h^{2}}{2m}\left( \frac{N}{4L} \right)^{2}$$
-##### Periodic boundary conditions
-If we use periodic boundary conditions, we have $\psi(x=0)=\psi(x=L)$, or $e^{ikx}=e^{ik(x+L)}$ and $e^{ikL}=1$. Our periodic condition is $2\pi n=kL$, where $n=0,\pm 1, \pm 2,\ldots$, so
-$$k=\frac{2\pi}{L}n\quad\to \quad E_{k}=\frac{\hbar^{2}k^{2}}{2m}$$
-The Fermi energy is
-$$E_{F}=\frac{\hbar^{2}}{2m}K^{2}_\text{last occupied}=\frac{\hbar^{2}}{2m} \left( \frac{2\pi}{L} \frac{N}{2\cdot2} \right)^{2}=\frac{h^{2}}{2m}\left( \frac{N}{4L} \right)^{2}$$
-The twos at the denominator are due to spin [[Degenerazione|degeneracy]].
-##### Density of states
-We can also use a density of state (DOS) function. Consider the [[phase space]]. We'll define the state counting function as
-$$G(E)=\frac{\frac{4\pi}{3}p^{3}(E)}{\left( \frac{2\pi \hbar}{L} \right)^{2}}=\frac{\frac{4\pi}{3}\sqrt{ 2mE }}{\left( \frac{2\pi \hbar}{L} \right)^{2}}$$
-This counts the number of states up to the Fermi energy. Due to Pauli exclusion, this is the same as counting the number of particles, as no more than one fermion can occupy the same state. If we consider only one spin, we get
-$$G(E)=\frac{2p}{\left( \frac{2\pi \hbar}{L} \right)}=\frac{2L\sqrt{ 2mE }}{h}$$
-At Fermi energy, this is
-$$G(E_{F})=\frac{N}{l}$$
-where $l$ is the degeneracy of spin states. From this we can derive
-$$E_{F}=\frac{h^{2}}{2m}\left( \frac{N}{4L} \right)^{2}$$
-The DOS for both spins is
-$$g(E)=2\frac{ \partial G }{ \partial E } =\frac{4L}{h}\sqrt{ \frac{m}{2E} }$$
-Since one state is one particle, we can find the particle number exclusively from the DOS, if we have access to it:
-$$N=\int_{0}^{E_{F}}g(E)\ dE=\int_{0}^{E_{F}} \frac{4L}{h}\sqrt{ \frac{m}{2} }\frac{1}{\sqrt{ E }}\ dE=\frac{8L}{h}\sqrt{ \frac{m}{2} }\sqrt{ E_{F} }$$
-By reversing the formula we get
-$$E_{F}=\frac{h^{2}}{2m}\left( \frac{N}{4L} \right)^{2}$$
-This way, we can also find the ground state per-particle energy:
-$$E_{0}=2\sum_{n=1}^{N/2} \frac{h^{2}n^{2}}{2m(2L)^{2}}=2 \frac{h^{2}}{2m(2L)^{2}}\sum_{i=1}^{N/2} n^{2}$$
-$$E_{0}\simeq???=\frac{N}{3}E_{F}$$
-The $N/3$ factor depends on the dimension. The same result can also be derived from the DOS function directly:
-$$E_{0}=\int_{0}^{E_{F}}Eg(E)dE=???=\frac{N}{3}E_{F}$$
-#### 3D
-The fermi surface can be derive in higher dimensions with more general methods.
-(TODO: Check how much of this actually refers to 3D and not other dimensions. 11/12 at about 1:10-1:20 in)
-##### Open boundary conditions
-Using open boundary conditions in 3D is more challenging, but still doable. The [[Hamiltonian]] is
-$$\hat{H}=- \frac{\hbar^{2}}{2m}\nabla ^{2}$$
-Our position [[Equazione agli autovalori|eigenfunctions]] are
-$$\psi_{n}\propto \sin \frac{\pi n_{x}}{L}\sin \frac{\pi n_{y}}{L}\sin \frac{\pi n_{z}}{L}$$
-where $n_{x,y,z}=1,2,3,\ldots$. Our energy eigenvalues are
-$$E_{n_{x},n_{y},n_{z}}=\frac{\hbar^{2}}{2m} \frac{\pi^{2}}{L^{2}}(n_{x}^{2}+n_{y}^{2}+n_{z}^{2})$$
-##### Periodic boundary conditions
-Using periodic boundary conditions and using the [[Funzione d'onda|wavefunction]] $\psi_{\mathbf{k}}(\mathbf{r})=\frac{1}{\sqrt{ V }}e^{i\mathbf{k}\cdot \mathbf{r}}$ on a direction $\mathbf{k}=\frac{2\pi}{L}\hat{\mathbf{n}}$, our equation is
-$$\hat{H}\psi_{\mathbf{k}}=E_{\mathbf{k}}\psi_{\mathbf{k}}$$
-Its solution is
-$$E_{\mathbf{k}}=\frac{\hbar^{2}}{2m}(k_{x}^{2}+k_{y}^{2}+k_{z}^{2})$$
-???
-##### Density of states
-If we start with the state counting function for each spin state
-$$G(E)=\frac{\frac{4\pi}{3}p^{3}(E)}{\left( \frac{2\pi \hbar}{L} \right)^{3}}=\frac{\sqrt{ 2 }V(mE)^{3/2}}{3\pi^{2}\hbar^{3}}$$
-At the Fermi energy, it becomes
-$$G(E=E_{F})=\frac{N}{2}=2 \frac{4\pi V 2\sqrt{ 2 }m^{3/2}E_{F}^{3/2}}{3\cdot 8\pi^{3}\hbar ^{3}}$$
-The Fermi energy itself is
-$$E_{F}=\frac{\hbar^{2}k_{F}^{2}}{2m}$$
-where we defined the **Fermi wavevector**
-$$k_{F}\equiv3\pi ^{2} \frac{N}{V}$$
-Since it is a wavevector, we can also find the **Fermi velocity** $v_{F}=\hbar k_{F}/m$ and the **Fermi momentum** $p_{F}=\hbar k_{F}$. The DOS function for both spins can be found to be
-$$g(E)=\frac{2Vm^{3/2}\sqrt{ E }}{\sqrt{ 2 }\pi^{2}\hbar ^{3}}$$
-We can find the number of particles from the DOS:
-$$N=G_\text{both spins}(E)=\int_{0}^{E_{F}}g(E)\ dE=\frac{2\sqrt{ 2 }Vm^{3/2}E_{F}^{3/2}}{3\pi ^{2}\hbar^{3}}$$
-
-
-[^1]: See Kerson Huang's Introduction to Statistical Physics (*not* Statistical Mechanics). For something more general, see Pathria-Beale Statistical Physics.
