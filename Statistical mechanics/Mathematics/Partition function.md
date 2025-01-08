@@ -10,7 +10,7 @@ The first case is the classical one, where integration happens over all [[phase 
 It is usually denoted using $Z$, which comes from German "Zustandsumme", or $Q_{N}$ (in Huang's). The most common partition functions are the **canonical partition function** of the [[canonical ensemble]] $Q_{N}$ and the **grand canonical partition function** of the [[grand canonical ensemble]] $\mathcal{Z}$. Their expressions change depending on whether we are consider the classical or quantum ensemble and whether [[Particella|particles]] are [[Identical particles|distinguishable]] or not.
 ### Properties
 The probability of a state in an ensemble is given by the density function normalized by the partition function
-$$p(n)=\frac{\rho}{Z}$$
+$$p(n)=\frac{\rho(n)}{Z}$$
 For independent [[Physical system|systems]], partition functions multiply. That is, the partition function of two systems that do not interact is
 $$Z=Z_{1}Z_{2}$$
 This is because the [[energy]] of the combined system is just the sum of the energy of each system:
