@@ -11,11 +11,15 @@ $$\int_{-\infty}^{\infty} e^{-ax^{2}} \ dx=\sqrt{ \frac{\pi}{a} } ,\qquad\int_{-
 ### Constants
 $$k_{B}=1.38\cdot10^{-23}\text{ J/K}$$
 ### Entropy
-$$S_\text{inf}=-\sum_{x}p(x)\log p(x),\qquad W\text{ equiprobable events} \to S=\log W$$
 Equilibrium state is highest entropy state. In the microcanonical
 $$S=k_{B}\log \Gamma(E)$$
 From thermodynamics
 $$S=\int_{0}^{T} \frac{C_{V}}{T}dT$$
+### Information theory
+Entropy
+$$S_\text{inf}=-\sum_{x}p(x)\log p(x),\qquad W\text{ equiprobable events} \to S=\log W$$
+KL-divergence
+$$D(q||p)=\sum_{x \in \mathcal{X}} q(x)\log \frac{p(x)}{q(x)},\qquad D(q||p)\geq 0,\qquad D(q||p)\neq D(p||q) $$
 ### Common quantities
 $$A=U-TS,\qquad G=A+PV,\qquad C_{V}=\frac{ \partial U }{ \partial T },\qquad \frac{1}{\lambda ^{3}}=\left( \frac{2\pi m}{\beta h^{2}} \right)^{3/2} $$
 ### Maxwell relations
@@ -38,5 +42,7 @@ $$U=-\left( \frac{ \partial  }{ \partial \beta } \ln \mathcal{Z} \right)_{N,V},\
 ### Particle statistics
 $$\langle n_{\varepsilon} \rangle =\frac{1}{e^{\beta(\varepsilon-\mu)}\pm 1}=\frac{1}{z^{-1}e^{\beta \varepsilon}\pm 1}$$
 $+$ for Fermi-Dirac, $-$ for Bose-Einstein. Condensation happens when $\mu= 0$ and $\varepsilon\to 0$. Classical particles (Maxwell-Boltzmann) remove $\pm 1$.
+### Averages
+
 ## Esercizi
 Uno degli esercizi dell'esame è sicuramente "gas di fermioni/bosoni in 1/2/3/4 dimensioni con distribuzione in $p$/$p^{2}$". Sono 16 possibili combinazioni.
