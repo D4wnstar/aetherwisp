@@ -22,7 +22,7 @@ $$A=U-TS,\qquad G=A+PV,\qquad C_{V}=\frac{ \partial U }{ \partial T },\qquad \fr
 $$T=\left( \frac{ \partial U }{ \partial S }  \right)_{V}\qquad P=\left( \frac{ \partial U }{ \partial V }  \right)_{S},\qquad T=\left( \frac{ \partial H }{ \partial S }  \right)_{P}\qquad V=\left( \frac{ \partial H }{ \partial P }  \right)_{S}$$
 $$P=-\left( \frac{ \partial A }{ \partial V }  \right)_{T}\qquad S=-\left( \frac{ \partial A }{ \partial T }  \right)_{V},\qquad S=-\left( \frac{ \partial G }{ \partial T }  \right)_{P}\qquad V=\left( \frac{ \partial G }{ \partial P }  \right)_{T}$$
 #### Adjacent relations
-$$P=T \frac{ \partial S }{ \partial V } ,\qquad\mu=\left( \frac{ \partial E }{ \partial N }  \right)_{S,V}=-T\left( \frac{ \partial S }{ \partial N }  \right)_{E,V}=\left( \frac{ \partial A }{ \partial N }  \right)_{V,T}=\left( \frac{ \partial G }{ \partial N }  \right)_{P,T}$$
+$$P=T \frac{ \partial S }{ \partial V } ,\qquad\mu=\left( \frac{ \partial U }{ \partial N }  \right)_{S,V}=-T\left( \frac{ \partial S }{ \partial N }  \right)_{E,V}=\left( \frac{ \partial A }{ \partial N }  \right)_{V,T}=\left( \frac{ \partial G }{ \partial N }  \right)_{P,T}$$
 ### Ensemble density/partition functions
 Microcanonical density function
 $$\rho(\mathbf{q},\mathbf{p})=\begin{cases}
