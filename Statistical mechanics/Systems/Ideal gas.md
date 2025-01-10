@@ -195,7 +195,7 @@ $$\boxed{\frac{P}{k_{B}T}=\frac{1}{\lambda ^{3}}g_{5/2}(z)- \frac{1}{V}\ln(1-z)}
 $$\boxed{n=\frac{1}{\lambda ^{3}}g_{3/2}(z)+ \frac{1}{V} \frac{z}{1-z}}$$
 In fact, we can use this to describe how the occupation number blows up:
 $$\langle n_{p=0} \rangle =nV=\frac{z}{1-z}$$
-$z$ blows up at low temperatures, and this does too.
+$z$ blows up at low temperatures, and this does too. In fact, in the condensed phase, $z$ is locked at $1$.
 #### Internal energy
 The grand canonical [[internal energy]] $U$ is given by
 $$U(z,V,T)=-\left( \frac{ \partial  }{ \partial \beta } \ln \mathcal{Z} \right)_{P,V}=-\frac{ \partial  }{ \partial \beta }  \frac{PV}{k_{B}T}$$

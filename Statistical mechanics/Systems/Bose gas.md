@@ -27,7 +27,7 @@ $$\begin{align}
 &=\zeta(\alpha)\Gamma(\alpha)
 \end{align} $$
 using both the [[Riemann Zeta function]] and the [[Gamma function]]. Back to $N$, we have
-$$N=(k_{B}T_{C})^{\alpha}\Gamma(\alpha)\zeta(\alpha)$$
+$$N=(k_{B}T_{C})^{\alpha}\Gamma(\alpha)\zeta(\alpha)\simeq N_\text{exc}$$
 Curious selection of functions aside, we can invert the formula to find the critical temperature
 $$\boxed{T_{C}=\frac{1}{k_{B}}\left[ \frac{N}{C_{\alpha}\Gamma(\alpha)\zeta(\alpha)} \right]^{1/\alpha}}$$
 In the 3D case $d=3\to \alpha=3/2$ we get
@@ -35,6 +35,13 @@ $$T_{C}=\frac{1}{k_{B}} \frac{N^{2/3}}{\left[ \frac{Vm^{3/2}}{\sqrt{ 2 }\pi ^{2}
 using the density $n=N/V$. This is a finite number, which proves that a free boson gas can condense. With realistic numbers for an [[Atomo|atomic]] gas, we get a value of around $\sim 100$ nanokelvins[^3].
 
 In both the 1D and 2D case, this gives $T_{C}=0$, which shows that bosons cannot condense in those dimensions.
+#### Condensed to not condensed ratio
+It is interesting to look at the ratio of bosons that are in the condensed phase compared to ones that aren't, i.e. the number $N_{0}/N$. The number of uncondensed particles at the critical temperature $N_\text{exc}$ can be found as we did above. Then, the number of condensed ones is just $N_{0}=N-N_\text{exc}$. However, an easier way to find the ratio is to calculate the number uncondensed particles at *or below* the critical temperature. This leads to the same result, except not dependent on the critical temperature:
+$$N_\text{exc}(T\leq T_{C})=C_{\alpha}\Gamma(\alpha)\zeta(\alpha)(k_{B}T)^{\alpha}$$
+so the ratio of excited particles below the critical temperature is
+$$\frac{N_\text{exc}}{N}=\frac{C_{\alpha}\Gamma(\alpha)\zeta(\alpha)(k_{B}T)^{\alpha}}{C_{\alpha}\Gamma(\alpha)\zeta(\alpha)(k_{B}T_{C})^{\alpha}}=\left( \frac{T}{T_{C}} \right)^{\alpha}$$
+The ground state particles are then
+$$\boxed{\frac{N_{0}}{N}=1-\left( \frac{T}{T_{C}} \right)^{\alpha}}$$
 
 [^1]: Also see Chapter 1 of Feynman's *Statistical Mechanics*.
 [^2]: Remember that $\mu <\varepsilon_{p}$ for all $p$, so if $\varepsilon_{p}\to 0$ then $\mu\to 0$.

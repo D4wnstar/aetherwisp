@@ -1,9 +1,11 @@
-**Liouville's theorem** proves that the density of [[Statistical mechanics/Ensemble/Ensemble|representative points]] near a point in [[phase space]] is constant and that the points behave like an incompressible fluid, in that their density does not change in time. In other words, state density is stationary.
+**Liouville's theorem** provides a local conservation law for [[Phase space|representative points]] in [[phase space]] of a [[dynamical system]]. It states that the density of representative points near a point in phase space is constant in time. In other words, state density is stationary and representative points behave like an incompressible fluid, in that their density does not change in time.
 
 > [!info] Liouville's theorem
 > Consider an [[ensemble]] with density function $\rho(q,p,t)$. The density function obeys the following equality:
-> $$\frac{ \partial \rho }{ \partial t } +\sum_{i=1}^{3N} \left( \frac{ \partial \rho }{ \partial p_{i} } \dot{p}_{i}+ \frac{ \partial \rho }{ \partial q_{i} } \dot{q}_{i} \right)=\frac{ \partial \rho }{ \partial t } +\{ \rho,H \}=0=\frac{d\rho}{dt}$$
+> $$\frac{d\rho}{dt}=\frac{ \partial \rho }{ \partial t } +\sum_{i=1}^{3N} \left( \frac{ \partial \rho }{ \partial p_{i} } \dot{p}_{i}+ \frac{ \partial \rho }{ \partial q_{i} } \dot{q}_{i} \right)=\frac{ \partial \rho }{ \partial t } +\{ \rho,H \}=0$$
 > where the curly braces are [[Parentesi di Poisson|Poisson brackets]] between $\rho$ and the [[Hamiltoniana|Hamiltonian]]. This means that the number of representative points in [[Phase space|phase space]] is conserved, both globally and in a given volume.
+
+This theorem only holds in [[conservative system|conservative systems]], i.e. systems where the phase space [[measure]] is constant over time.
 ### Proof
 (TODO: Finish this) Calling $\mathbf{v}=(\dot{p}_{1},\ldots,\dot{p}_{3N},\dot{q}_{1},\ldots,\dot{q}_{3N})$, we have, by the continuity equation,
 $$- \frac{d}{dt}\int_{\omega}\rho\ d\omega=\int_{S}\mathbf{\hat{n}}\cdot \mathbf{v}\ \rho\ dS$$

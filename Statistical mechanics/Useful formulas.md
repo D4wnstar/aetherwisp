@@ -6,6 +6,8 @@ Stirling's approximation
 $$\ln n! =n\ln n-n+O(\ln n)$$
 Logarithm Taylor series about $0$:
 $$\log(1+z)=\sum_{n=1}^{\infty} \frac{(-1)^{n+1}z^{n}}{n},\qquad \log(1-z)=-\sum_{n=1}^{\infty} \frac{z^{n}}{n}$$
+Taylor series of $\tanh x$:
+$$\tanh x=x- \frac{x^{3}}{3}+\ldots$$
 Partial derivatives under constraints:
 $$\left( \frac{ \partial x }{ \partial y }  \right)_{z}\left( \frac{ \partial y }{ \partial z }  \right)_{x}\left( \frac{ \partial z }{ \partial x }  \right)_{y}=-1\quad\to \quad\left( \frac{ \partial x }{ \partial y }  \right)_{z}=-\left( \frac{ \partial z }{ \partial y }  \right)_{x}\left( \frac{ \partial x }{ \partial z }  \right)_{y}$$
 Useful to change constraints on a quantity (like chemical potential). Number of states in a boolean (occupied/unoccupied) lattice of $n$ sites where $k$ are occupied is the binomial coefficient $\begin{pmatrix}n \\ k\end{pmatrix}$. Gaussian integrals:

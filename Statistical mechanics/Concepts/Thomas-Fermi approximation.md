@@ -26,7 +26,7 @@ The intended use case for this approximation is turning sums over quantum states
 $$N=\sum_{\varepsilon} \frac{1}{z^{-1}e^{\beta \varepsilon}\pm 1}$$
 In the Thomas-Fermi approximation, this becomes
 $$N=\int_{0}^{\infty} \frac{g(\varepsilon)}{z^{-1}e^{\beta \varepsilon}\pm 1}d\varepsilon=C_{\alpha}\int_{0}^{\infty} \frac{\varepsilon^{\alpha-1}}{z^{-1}e^{\beta \varepsilon}\pm 1}d\varepsilon$$
-This integral can't be solved, but the [[Sommerfeld expansion]] provides a strong approximation for high $z$. A more general notation could be
+This integral can't be solved, but the [[Sommerfeld expansion]] provides a strong approximation for high $z$. They can be analytically written using [[Fermi and Bose functions]]. A more general notation could be
 $$\sum_{\varepsilon} \langle n_{\varepsilon} \rangle \to \int_{0}^{\infty}g(\varepsilon)\langle n_{\varepsilon} \rangle d\varepsilon $$
 
 > [!warning] Integration variable

@@ -4,6 +4,8 @@ Consider a [[lattice]] of $N$ sites (i.e. atoms).  Each atom is given a discrete
 $$H=-J\sum_{\langle i,j \rangle}S_{i}S_{j}-h\sum_{i=1}^{N}S_{i}$$
 where $\langle i,j \rangle$ denotes a sum over adjacent atoms. This is the simplest case, in which we have a constant interaction and a constant magnetic field. It possible for these to change for every site, in which case we'd have
 $$H=-\sum_{\langle i,j \rangle}J_{ij}S_{i}S_{j}-\sum_{i=1}^{N}h_{i}S_{i}$$
+The total magnetization of an Ising system is
+$$M=\sum_{i=1}^{N} S_{i}$$
 ### Applications
 The Ising model has been used as the basis of a number of physical descriptions.
 #### Lattice gas
@@ -28,8 +30,8 @@ $$Q_{N}=\sum_{\{ S_{i} \}}e^{-\beta H}$$
 Consider a square lattice with $N$ cells where each cell can be $S_{i}=\pm 1$. The number of possible configurations goes like $2^{N}$. In order to find the partition function, we need to sum over every possible combination, which is to say
 $$Q_{N}=\underbrace{ \sum_{S_{1}=\pm_{1} }\sum_{S_{2}\pm 2}\ldots\sum_{S_{N}\pm 1} }_{ N\text{ times} }e^{-\beta H(S_{1},\ldots,S_{N})}$$
 Just to give a sense of scale, $N$ is usually in the order of the [[Avogadro number]], so $\sim 10^{23}$, which makes the number of possible combinations so large it becomes completely unreasonable to calculate any of this directly, even on the greatest supercomputer in the world. Realistically speaking, there's only two ways forward: an ingenious analytical solution through combinatorics, or an approximate method to simplify things. For the one dimensional case, there is a general solution by Ising himself from 1925. For the two dimensional case, there is a solution for interacting atoms ($J\neq 0$) but under no external field ($h=0$) by Onsager from 1944. For the three dimensional case, there is no known solution in any case. Thus, let's find some approximation.
-#### Mean field
-The **mean field approximation** is arguably one of the most common approximations in statistical mechanics. In it, we simply have $J=0$. The Hamiltonian therefore becomes
+#### No interaction
+If we take the particles to be non-interacting, we simply have $J=0$. The Hamiltonian therefore becomes
 $$H=-h\sum_{i}S_{i}=\sum_{i}H_{i}$$
 where $H_{i}=-hS_{i}$. In plain terms, we just ignore inter-particle interactions and split the solution in independent, single-body Hamiltonians. Thus, the partition function is
 $$\begin{align}
@@ -37,6 +39,33 @@ Q_{N}&=\sum_{\{ S_{i} \}}e^{-\beta H}=\sum_{S_{1}\pm 1}\ldots\sum_{S_{N}=\pm 1}e
 &=\left( \sum_{S_{1}\pm 1}e^{\beta hS_{1}} \right)\left( \sum_{S_{2}\pm 1}e^{\beta hS_{2}} \right)\ldots\left( \sum_{S_{N}\pm 1}e^{\beta hS_{N}} \right) \\
 &=(2\cosh(\beta h))^{N}
 \end{align}$$
+#### Mean field approximation
+The **mean field approximation** is arguably one of the most common approximations in statistical mechanics. In it, we do not ignore the interactions themselves ($J\neq 0$), but we do ignore the cross terms caused by the interaction. To see this, consider the quantity
+$$S_{i}=\langle S_{i} \rangle +\underbrace{ S_{i}-\langle S_{i} \rangle }_{ \delta S_{i} }=\langle S_{i} \rangle -\delta S_{i} =m-\delta S_{i}$$
+where we renamed $\langle S_{i} \rangle=m$ as the average [[magnetic dipole moment]]. If we substitute this in the Hamiltonian, we get
+$$H=-J\sum_{\langle i,j \rangle }(m -\delta S_{i})(m -\delta S_{j} )-h\sum_{i=1}^{N} S_{i}$$
+We now have cross-terms in the first sum. The essence of the interaction is more or less hidden within the term $\delta S_{i}\delta S_{j}$, and it contains all the complexity of the system. The mean field approximation is making this term vanish: $\delta S_{i}\delta S_{j}=0$. This leaves only independent terms for each lattice point, which lead to independent Hamiltonians and a solution very similar to the "no interaction" case above, just with some additional terms due to the interaction. If we actually compute the product step by step for a $d$-dimensional system we find
+$$H\simeq-Jm^{2}N_{B}-Jm\sum_{\langle i,j \rangle }(\delta S_{i}+\delta S_{j})-h\sum_{i=1}^{N} S_{i}=\ldots$$
+where $N_{B}$ is a constant known as the **number of bonds**. Continuing
+$$\begin{align}
+\ldots&=-Jm^{2}N_{B}-Jm\underbrace{ 2d }_{ z }\sum_{i=1}^{N} \delta S_{i}-h\sum_{i=1}^{N} S_{i} \\
+&=-Jm^{2}N_{B}-Jmz\sum_{i=1}^{N} (S_{i}-m)-h\sum_{i=1}^{N} S_{i} \\
+&=-Jm^{2}N_{B}-Jmz\sum_{i=1}^{N} m-\sum_{i=1}^{N}(Jmz+h) S_{i} \\
+&=\text{const.}+\sum_{i=1}^{N} H_{i}
+\end{align}$$
+where we $H_{i}=(Jmz+h)S_{i}$ and the rest was hidden away in a generic constant. Knowing the Hamiltonians, we can calculate the [[partition function]]:
+$$Z=\sum_{S=\pm 1} e^{-\beta H_{i}}=2\cosh(\beta(Jmz+h)) $$
+and then the average spin:
+$$m=\langle S_{i} \rangle =\frac{1}{Z}\sum_{S=\pm 1}S_{i}e^{-\beta H_{i}}=\frac{2\sinh(\beta(Jmz+h))}{2\cosh(\beta(Jmz+h))}=\tanh(Jmz+h)$$
+Specifically, we get
+$$\boxed{m=\tanh(H_{i})=\tanh(\beta(Jmz+h))}$$
+where $z=2d$ is twice the dimension of the lattice. Note that this is a trascendental equation, so the best we can do is show it numerically or graphically.
+
+![[Plot Ising model magnetic moment|center]]
+
+This plot is the phase diagram of the model. The diagonal line is the $m=0$ case. The phase transition occurs when this line is crossed. Proving that a phase transition occurs just means proving that there are temperature for which non-trivial $m=0$ solutions are possible (that is, $m=0$ outside of the origin). These solution can be found using, for instance, the hyperbolic tangent [[Serie di Taylor|Taylor series]] $\tanh x=x-x^{3}/3+\ldots$.
+
+When the temperature is $T>T_{C}$, the only solution is at the origin. When $T<T_{C}$, we have three solutions: one at the origin and two somewhere else, shown in as red crosses in the plot. This is an important fact: the magnetization *must* have two solutions for it to make sense, as it must be symmetrical. A phase transition is fundamentally the [[symmetry break|breaking of a symmetry]].
 ### Quantum model
 The Ising model can be rewritten in quantum mechanical terms. The classical Ising Hamiltonian is
 $$H=-J\sum_{\langle i,j \rangle }S_{i}S_{j}-h\sum_{i}S_{i},\quad S_{i}=\pm 1$$
