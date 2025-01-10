@@ -92,11 +92,11 @@ which is the [[Sackur-Tetrode equation]], as expected.
 It is possible to derive the behavior of an ideal gas using the [[quantum microcanonical ensemble]]. Consider a cube of side $L$ and volume $V=L^{3}$ filled with the ideal gas.
 ### In the quantum canonical ensemble
 In the [[quantum canonical ensemble]], analytic calculation is actually not possible. The reason is that the quantum canonical partition function $Q_{N}$ cannot be solved. In fact, given the sets of [[Occupation number|occupation numbers]] $\{ n \}$ identified by some quantity (say, momentum $\mathbf{p}$), we have
-$$Q_{N}(V,T)=\text{Tr}\hat{\rho}=\sum_{\{ n \}}e^{-\beta E(\{ n \})}$$
+$$Q_{N}(V,T)=\text{Tr}\hat{\rho}=\sum_{\{ n \},\sum_{p}n_{p}=N}e^{-\beta E(\{ n \})}$$
 where the sum happens over all sets $\{ n \}$ where $\sum_{\mathbf{p}}n_{\mathbf{p}}=N$. The state energy is $E(\{ n \})=\sum_{\mathbf{p}}\varepsilon_{\mathbf{p}}n_{\mathbf{p}}$, where $\varepsilon_{\mathbf{p}}$ is the energy of a single particle of momentum $\mathbf{p}$, so $\varepsilon_{\mathbf{p}}=\lvert \mathbf{p} \rvert^{2}/2m$. This constraint makes it impossible to calculate the sum explicitly, along with all thermodynamic quantities.
 ### In the quantum grand canonical ensemble
 The [[quantum grand canonical ensemble]] works just fine however. The quantum grand partition function is
-$$\mathcal{Z}(z,V,T)=\sum_{N=0}^{\infty} z^{N}Q_{N}(V,T)=\sum_{N=0}^{\infty} \sum_{\{ n \}}z^{N}e^{-\beta E(\{ n \})}$$
+$$\mathcal{Z}(z,V,T)=\sum_{N=0}^{\infty} z^{N}Q_{N}(V,T)=\sum_{N=0}^{\infty} \sum_{\{ n \},\sum_{p}n_{p}=N}z^{N}e^{-\beta E(\{ n \})}$$
 where the inner sum satisfies $\sum_{\mathbf{p}}n_{\mathbf{p}}=N$ (see quantum canonical ensemble above). The important part in this equation is that the two sums can be merged, removing the inner sum's constraint:
 $$\sum_{N=0}^{\infty}\ \sum_{\{ n \},\sum_{p}n_{p}=N}\equiv \sum_{\{ n \}}$$
 This is because constraining to a specific $N$ no longer matters when you are summing over all possible $N$'s, leaving us with the same sum as the canonical ensemble, but over every possible set, not just ones whose total is $N$. As such, representing the sums as separate or single is just a matter of preference over how you group the terms. Thus
@@ -170,10 +170,10 @@ $$\begin{align}
 \end{align}$$
 This is pleasantly compact, but the derivative is an eyesore. Thankfully, now that we know that we are working with $f_{5/2}$, we can compute its derivative:
 $$\begin{align}
-\frac{ \partial  }{ \partial z } f_{5/2}(z)&=\frac{ \partial  }{ \partial z } \sum_{i=1}^{\infty} \frac{(-1)^{j}z^{j}}{j^{5/2}} \\
-&=\sum_{j=1}^{\infty} \frac{(-1)^{j}}{j^{5/2}}\frac{ \partial  }{ \partial z } z^{j} \\
-&=\sum_{j=1}^{\infty} \frac{(-1)^{j}}{j^{5/2}}jz^{j-1} \\
-&=\frac{1}{z}\sum_{j=1}^{\infty} \frac{(-1)^{j}z^{j}}{j^{3/2}}=\frac{1}{z}f_{3/2}(z)
+\frac{ \partial  }{ \partial z } f_{5/2}(z)&=\frac{ \partial  }{ \partial z } \sum_{j=1}^{\infty} \frac{(-1)^{j+1}z^{j}}{j^{5/2}} \\
+&=\sum_{j=1}^{\infty} \frac{(-1)^{j+1}}{j^{5/2}}\frac{ \partial  }{ \partial z } z^{j} \\
+&=\sum_{j=1}^{\infty} \frac{(-1)^{j+1}}{j^{5/2}}jz^{j-1} \\
+&=\frac{1}{z}\sum_{j=1}^{\infty} \frac{(-1)^{j+1}z^{j}}{j^{3/2}}=\frac{1}{z}f_{3/2}(z)
 \end{align}$$
 This result is actually a specific case of a more general recurrence relation among Fermi (and Bose) functions. It inverts to $f_{3/2}(z)=z\frac{ \partial  }{ \partial z }f_{5/2}(z)$, which very nicely exists in our previous result as-is. As such, our final formula is
 $$\boxed{n=\frac{1}{\lambda ^{3}}f_{3/2}(z)}$$

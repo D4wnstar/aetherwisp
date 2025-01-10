@@ -18,7 +18,9 @@ $$\begin{align}
 Z&=\sum_{n}\sum_{m}e^{-\beta(E_{n}^{(1)}+E_{m}^{(2)})}=\sum_{n}\sum_{m}e^{-\beta E_{n}^{(1)}}e^{-\beta E_{m}^{(n)}} =\sum_{n}e^{-\beta E_{n}^{(1)}}\sum_{m}e^{-\beta E_{m}^{(2)}}=Z_{1}Z_{2}
 \end{align}$$
 ### Derived quantities
-The [[internal energy]] of a system is
+In general, the [[ensemble average]] of a quantity $O$ can be derived as
+$$\langle O \rangle=\sum Op(O)=\frac{1}{Z}\sum O\rho(O) $$
+where summation (or integration, if continuous) happens over all states. The [[internal energy]] of a system is
 $$U=-\frac{ \partial  }{ \partial \beta } \ln Z$$
 where $\beta=1/k_{B}T$ with $k_{B}$ the [[Boltzmann constant]] and $T$ the [[temperature]]. The [[Helmholtz free energy]] is
 $$Z=e^{-\beta A}\quad\Rightarrow \quad A=- \frac{1}{\beta} \ln Z$$

@@ -4,6 +4,8 @@ $$(x+y)^{n}=\sum_{k=0}^{n}\begin{pmatrix}n \\ k\end{pmatrix}x^{n-k}y^{k}=\sum_{k
 $$\Gamma\left( \frac{1}{2} \right)=\sqrt{ \pi },\quad \Gamma(1)=1,\quad \Gamma(z+1)=n\Gamma(z),\quad \Gamma(n)=(n-1)!$$
 Stirling's approximation
 $$\ln n! =n\ln n-n+O(\ln n)$$
+Logarithm Taylor series about $0$:
+$$\log(1+z)=\sum_{n=1}^{\infty} \frac{(-1)^{n+1}z^{n}}{n},\qquad \log(1-z)=-\sum_{n=1}^{\infty} \frac{z^{n}}{n}$$
 Partial derivatives under constraints:
 $$\left( \frac{ \partial x }{ \partial y }  \right)_{z}\left( \frac{ \partial y }{ \partial z }  \right)_{x}\left( \frac{ \partial z }{ \partial x }  \right)_{y}=-1\quad\to \quad\left( \frac{ \partial x }{ \partial y }  \right)_{z}=-\left( \frac{ \partial z }{ \partial y }  \right)_{x}\left( \frac{ \partial x }{ \partial z }  \right)_{y}$$
 Useful to change constraints on a quantity (like chemical potential). Number of states in a boolean (occupied/unoccupied) lattice of $n$ sites where $k$ are occupied is the binomial coefficient $\begin{pmatrix}n \\ k\end{pmatrix}$. Gaussian integrals:
@@ -38,11 +40,19 @@ $$\rho(\mathbf{q},\mathbf{p})=e^{-\beta H(\mathbf{q},\mathbf{p})},\qquad Q_{N}(V
 $$U=-\frac{ \partial  }{ \partial \beta } \ln Q_{N},\qquad A=- \frac{1}{\beta}\ln Q_{N}$$
 Grand canonical density function and partition function
 $$\rho(z,V,T)=z^{N}Q_{N}(V,T),\qquad\mathcal{Z}(z,V,T)\equiv \sum_{N=0}^{\infty} z^{N}Q_{N}(V,T)$$
-$$U=-\left( \frac{ \partial  }{ \partial \beta } \ln \mathcal{Z} \right)_{N,V},\qquad \frac{PV}{k_{B}T}=\ln \mathcal{Z}\text{ (ideal gas)}$$
+$$U=-\left( \frac{ \partial  }{ \partial \beta } \ln \mathcal{Z} \right)_{N,V},\qquad\langle N \rangle =z\frac{ \partial  }{ \partial z } \ln \mathcal{Z}, \qquad \frac{PV}{k_{B}T}=\ln \mathcal{Z}\text{ (ideal gas)}$$
 ### Particle statistics
 $$\langle n_{\varepsilon} \rangle =\frac{1}{e^{\beta(\varepsilon-\mu)}\pm 1}=\frac{1}{z^{-1}e^{\beta \varepsilon}\pm 1}$$
 $+$ for Fermi-Dirac, $-$ for Bose-Einstein. Condensation happens when $\mu= 0$ and $\varepsilon\to 0$. Classical particles (Maxwell-Boltzmann) remove $\pm 1$.
+$$\frac{P}{k_{B}T}=\frac{1}{\lambda ^{3}}f_{5/2}(z),\qquad \frac{P}{k_{B}T}=\frac{1}{\lambda ^{3}}g_{5/2}(z)- \frac{1}{V}\ln(1-z)$$
+$$n=\frac{1}{\lambda ^{3}}f_{3/2}(z),\qquad n=\frac{1}{\lambda ^{3}}g_{3/2}(z)+ \frac{1}{V} \frac{z}{1-z}$$
+### Fermi/Bose functions
+$$f_{k}(z)\equiv \sum_{l=1}^{\infty}(-1)^{l+1} \frac{z^{l}}{l^{k}},\qquad g_{k}(z)\equiv \sum_{l=1}^{\infty} \frac{z^{l}}{l^{k}}$$
+$$z \frac{d}{dz}f_{k}(z)=f_{k-1}(z),\qquad z \frac{d}{dz}g_{k}(z)=g_{k-1}(z)$$
+Approximation for low $z$ (Taylor series) and high $z$ (Sommerfeld expansion)
+$$f_{k}(z)=z- \frac{z^{2}}{2^{k}}+ \frac{z^{3}}{3^{k}}-\ldots,\qquad f_{3/2}(z)\simeq \frac{4}{3\sqrt{ \pi }}\left[ (\ln z)^{3/2}+ \frac{\pi ^{2}}{8} \frac{1}{\sqrt{ \ln z }}+\ldots \right]$$
 ### Averages
-
+Ensemble average
+$$\langle O \rangle=\frac{1}{Q_{N}}\int O\rho\ dq\ dp,\qquad \langle \hat{O} \rangle =\frac{\text{Tr}(\hat{O}\hat{\rho})}{\text{Tr}(\hat{\rho})}=\frac{1}{Q_{N}}\sum_{n}\hat{\rho}_{nn}\braket{ n | \hat{O} | n }  $$
 ## Esercizi
 Uno degli esercizi dell'esame è sicuramente "gas di fermioni/bosoni in 1/2/3/4 dimensioni con distribuzione in $p$/$p^{2}$". Sono 16 possibili combinazioni.

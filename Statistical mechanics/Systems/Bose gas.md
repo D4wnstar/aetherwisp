@@ -1,4 +1,6 @@
-A **Bose gas** is a model for a [[Physical system|system]] of many non-interacting [[Boson|bosons]], the simplest example of which is a bosonic [[ideal gas]]. A notable property is that three-dimensional Bose gases exhibit a phenomenon known as [[Bose-Einstein condensation]] at near-zero [[Temperature|temperatures]].
+A **Bose gas** is a model for a [[Physical system|system]] of many non-interacting [[Boson|bosons]], the simplest example of which is a bosonic [[ideal gas]]. A notable property is that three-dimensional Bose gases exhibit a phenomenon known as [[Bose-Einstein condensation]] at near-zero [[Temperature|temperatures]]. The [[equation of state]] of a Bose gas is
+$$\frac{P}{k_{B}T}=\frac{1}{\lambda ^{3}}g_{5/2}(z)- \frac{1}{V}\ln(1-z)$$
+where $g_{5/2}(z)$ is a [[Fermi and Bose functions|Bose function]].
 
 Unlike [[Fermion|fermions]], there exist massless bosons on top of [[mass|massive]] ones. A Bose gas of massless bosons has somewhat different properties to a gas of massive bosons, since [[Ensemble|ensembles]] of massless particles always have zero [[chemical potential]]. For an example of a [[photon]] gas, see [[Black body cavity]].
 ### Critical condensation temperature
