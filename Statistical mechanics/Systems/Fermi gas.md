@@ -1,22 +1,4 @@
 A **Fermi gas** is a model for a [[Physical system|system]] of many non-interacting [[Fermion|fermions]], the simplest example of which is a fermionic [[ideal gas]]. The key property is that fermions are subject to the [[Pauli exclusion principle]] and can't simultaneously occupy the same [[stato|state]], which leads to a "pseudo-[[Potenziale|potential]]" that pushes fermions away from each other.
-:::hidden
-### Equation of state
-The [[equation of state]] of a fermion ideal gas can be found through a quantum [[ensemble]], with the [[quantum grand canonical ensemble]] being the most convenient. For a derivation, see [[Ideal gas#Equation of state]]. The equation is
-$$\frac{P}{k_{B}T}=\frac{1}{\lambda ^{3}}f_{5/2}(z)$$
-where $k_{B}$ is the [[Boltzmann constant]], $T$ is the [[temperature]], $\lambda$ is the [[Formula di de Broglie|de Broglie thermal wavelength]] and $f_{5/2}(z)$ is a [[Fermi and Bose functions|Fermi function]]. We can approximate it by using its series representation:
-$$\begin{align}
-\frac{PV}{Nk_{B}T}&=\frac{1}{n} \frac{P}{k_{B}T} \\
-&=\frac{1}{n\lambda ^{3}}f_{5/2}(z) \\
-&= \frac{1}{n\lambda ^{3}}\left( z- \frac{z^{2}}{2^{5/2}}+\ldots \right) \\
-&\simeq \frac{1}{\lambda ^{3}}\left[ n\lambda ^{3}- \frac{1}{2^{5/2}}\left( n\lambda ^{3} \right)-\left(n\lambda ^{3} + \frac{1}{2^{3/2}}\left( n\lambda ^{3} \right)^{2} \right)^{5/2} \frac{1}{2^{5/2}}+\ldots \right] \\
-&=1+ \frac{n\lambda ^{3}}{2^{3/2}} - \frac{n\lambda ^{3}}{2^{5/2}} +\ldots
-\end{align}$$
-Note the consequence here. The classical ideal gas is
-$$\frac{PV}{Nk_{B}T}=1$$
-Meanwhile, a fermion ideal gas is
-$$\boxed{\frac{PV}{Nk_{B}T}=1+ \frac{1}{2^{5/2}} \frac{\lambda_{T}^{3}}{v}+\ldots}$$
-We have an expansion with many terms beyond 1. The term beyond one is called the **second virial coefficient**. This normally occurs when you extend an ideal gas to also have internal interactions between particles. But there are no interactions here, it's just fermions. What this is, is the manifestation of the [[Pauli exclusion principle|Pauli exclusion principle]], which can be interpreted as a sort of repulsive interaction between fermions that prevents them from occupying the same [[stato|state]]. It's not *really* a potential, but it behaves like one.
-:::
 ### Zero temperature and Fermi energy
 In the low-temperature limit $T\to 0$ and due to the exclusion principle, the [[Fermi-Dirac distribution]] approximately becomes
 $$\langle n_{p} \rangle =\frac{1}{e^{\beta(\varepsilon_{p}-\mu)}+1}\to \begin{cases}
@@ -108,8 +90,10 @@ $$E_{0}=\int_{0}^{E_{F}}E\ g(E)\ dE=2 \frac{Vm^{3/2}}{\sqrt{ 2 }\pi ^{2}\hbar ^{
 By using $E_{F}^{5/2}=E_{F}^{3/2}+E_{F}$ and substituting the previous formula for $E_{F}$ in $E_{F}^{3/2}$ we get
 $$\boxed{E_{0}=\frac{3}{5}NE_{F}}$$
 As we can see, only the numerical factor changed from the 1D version.
-### Behavior
-Consider a fermion [[ideal gas]]. From the [[equation of state]] we get
+### Nonzero temperature and equation of state
+The [[equation of state]] of a fermion ideal gas can be found through a quantum [[ensemble]], with the [[quantum grand canonical ensemble]] being the most convenient. For a derivation, see [[Ideal gas#Equation of state]]. The equation is
+$$\frac{P}{k_{B}T}=\frac{1}{\lambda ^{3}}f_{5/2}(z)$$
+where $k_{B}$ is the [[Boltzmann constant]], $T$ is the [[temperature]], $\lambda$ is the [[Formula di de Broglie|de Broglie thermal wavelength]] and $f_{5/2}(z)$ is a [[Fermi and Bose functions|Fermi function]]. We can approximate it by using its series representation:
 $$\begin{align}
 \frac{PV}{Nk_{B}T}&=\frac{Pv}{k_{B}T} \\
 &=\frac{v}{\lambda ^{3}_{T}}f_{3/2}(z) \\
