@@ -3,7 +3,9 @@
 > [!info] Liouville's theorem
 > Consider an [[ensemble]] with density function $\rho(q,p,t)$. The density function obeys the following equality:
 > $$\frac{d\rho}{dt}=\frac{ \partial \rho }{ \partial t } +\sum_{i=1}^{3N} \left( \frac{ \partial \rho }{ \partial p_{i} } \dot{p}_{i}+ \frac{ \partial \rho }{ \partial q_{i} } \dot{q}_{i} \right)=\frac{ \partial \rho }{ \partial t } +\{ \rho,H \}=0$$
-> where the curly braces are [[Parentesi di Poisson|Poisson brackets]] between $\rho$ and the [[Hamiltoniana|Hamiltonian]]. This means that the number of representative points in [[Phase space|phase space]] is conserved, both globally and in a given volume.
+> where the curly braces are [[Parentesi di Poisson|Poisson brackets]] between $\rho$ and the [[Hamiltoniana|Hamiltonian]]. Alternatively, we can write
+> $$\frac{ \partial \rho }{ \partial t } =\{ H,\rho \}$$
+> This means that the number of representative points in [[Phase space|phase space]] is conserved, both globally and in a given volume.
 
 This theorem only holds in [[conservative system|conservative systems]], i.e. systems where the phase space [[measure]] is constant over time.
 ### Proof

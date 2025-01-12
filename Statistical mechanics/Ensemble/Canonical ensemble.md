@@ -1,5 +1,5 @@
 The **canonical ensemble** is an [[ensemble]] that is not [[Physical system|isolated]] from the environment, but is in [[thermal equilibrium]] with a larger [[Physical system|system]] that acts as a [[heat reservoir]] (i.e., the environment). The [[energy]] is subject to fluctuation, but the number of [[Particella|particles]] is constant. Its density function is
-$$\rho(\mathbf{q},\mathbf{p})=\frac{1}{Q_{N}}e^{-\beta H(\mathbf{q},\mathbf{p})}$$
+$$\rho(\mathbf{q},\mathbf{p})=e^{-\beta H(\mathbf{q},\mathbf{p})}$$
 where $\beta=1/k_{B}T$, $H$ is the [[Hamiltonian]], $k_{B}$ is the [[Boltzmann constant]] and $T$ is the [[temperature]]. The [[Normalizzazione|normalization]] factor is the [[partition function]][^1]
 $$Q_{N}(V,T)=\int \frac{e^{-\beta H(\mathbf{q},\mathbf{p})}}{h^{3N}N!} \ d^{3N}q\,d^{3N}p$$
 Here, $h$ is a constant to make the function dimensionless. It is usually assumed to be the [[Costante di Planck|Planck constant]].

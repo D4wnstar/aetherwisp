@@ -1,7 +1,6 @@
 ---
 aliases:
   - legge di Hooke
-  - phonon
 ---
 Un **oscillatore armonico** è un sistema dotato di un [[punto di equilibrio]] che, dopo aver subito una perturbazione, sperimenta una forza di ritorno $F$ proporzionale alla distanza di spostamento $x$ secondo la **legge di Hooke**:
 $$\vec{F}=-k\vec{x}$$
@@ -139,7 +138,7 @@ $$U=3Nk_{B}T$$
 ###### Heat capacity
 We can recover [[heat capacity]] as
 $$\frac{C_{V}}{Nk_{B}}=\frac{1}{Nk_{B}}\frac{ \partial U }{ \partial T } =3D(\lambda)+3T \frac{ \partial D(\lambda) }{ \partial T }=3\left[ 4D(\lambda)- \frac{3\lambda}{e^{\lambda}-1} \right] $$
-In the basic high temperature approximation, we get the classical [[Dulong-Petit law]]:
+At high temperatures, we get the classical [[Dulong-Petit law]]:
 $$C_{V}=\frac{ \partial U }{ \partial T } =3Nk_{B}$$
 which shows that all crystalline solids more ore less have the same heat capacity at high enough temperatures. What "high enough" means depends on the Debye temperature, which depends on the material. For example, lead has $T_{D}=95\text{ K}$, gold has $T_{D}=215\text{ K}$, copper has $T_{D}=309\text{ K}$ and aluminum has $T_{D}=396\text{ K}$. Most of these are near or below room temperature, which is why it appears to us that all solids have the same 
 

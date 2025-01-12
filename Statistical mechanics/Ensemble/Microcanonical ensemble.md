@@ -102,5 +102,7 @@ Consider the definition of entropy in function of [[Entropy (information theory)
 > $$U=\frac{NE}{e^{\beta E}+1}$$
 > or alternatively, using $n_{1}=U/E$, the fraction of particles in the $n_{1}$ state:
 > $$\frac{n_{1}}{N}=\frac{1}{e^{\beta E}+1}$$
-> This is the [[Fermi-Dirac distribution]] for a system with no [[chemical potential]]. It is interesting to see how we managed to find a strictly quantum property from a purely classical treatment. The reason is that a two state system is inherently a quantum idea as requires discretization of energy. We can also derive the [[heat capacity]] from its definition:
-> $$C(T)=\frac{dU}{dT}=\frac{NE^{2}}{k_{B}T^{2}} \frac{e^{\beta E}}{e^{\beta E}+1}$$
+> This is the [[Fermi-Dirac distribution]] for a system with no [[chemical potential]]. It is interesting to see how we managed to find a strictly quantum property from a purely classical treatment. The reason is that a two state system is inherently a quantum idea as it requires the discretization of energy.
+> 
+> We can also derive the [[heat capacity]] from its definition:
+> $$C(T)=\frac{\partial U}{\partial T}=\frac{NE^{2}}{k_{B}T^{2}} \frac{e^{\beta E}}{e^{\beta E}+1}$$

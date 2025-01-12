@@ -17,8 +17,8 @@ $$k_{B}=1.38\cdot10^{-23}\text{ J/K}$$
 ### Entropy
 Equilibrium state is highest entropy state. In the microcanonical
 $$S=k_{B}\log \Gamma(E)$$
-From thermodynamics
-$$S=\int_{0}^{T} \frac{C_{V}}{T}dT$$
+From thermodynamics, Sackur-Tetrode
+$$S=\int_{0}^{T} \frac{C_{V}}{T}dT,\qquad \frac{S}{k_{B}N}=\frac{5}{2}-\ln(n\lambda ^{3})$$
 ### Information theory
 Entropy
 $$S_\text{inf}=-\sum_{x}p(x)\log p(x),\qquad W\text{ equiprobable events} \to S=\log W$$
@@ -31,6 +31,8 @@ $$T=\left( \frac{ \partial U }{ \partial S }  \right)_{V}\qquad P=\left( \frac{ 
 $$P=-\left( \frac{ \partial A }{ \partial V }  \right)_{T}\qquad S=-\left( \frac{ \partial A }{ \partial T }  \right)_{V},\qquad S=-\left( \frac{ \partial G }{ \partial T }  \right)_{P}\qquad V=\left( \frac{ \partial G }{ \partial P }  \right)_{T}$$
 #### Adjacent relations
 $$P=T \frac{ \partial S }{ \partial V } ,\qquad\mu=\left( \frac{ \partial U }{ \partial N }  \right)_{S,V}=-T\left( \frac{ \partial S }{ \partial N }  \right)_{E,V}=\left( \frac{ \partial A }{ \partial N }  \right)_{V,T}=\left( \frac{ \partial G }{ \partial N }  \right)_{P,T}$$
+### Equipartition theorem
+$$\left\langle  x_{i}\frac{ \partial H }{ \partial x_{j} }   \right\rangle=\delta_{ij}k_{B}T $$
 ### Ensemble density/partition functions
 Microcanonical density function
 $$\rho(\mathbf{q},\mathbf{p})=\begin{cases}
@@ -42,12 +44,19 @@ $$\rho(\mathbf{q},\mathbf{p})=e^{-\beta H(\mathbf{q},\mathbf{p})},\qquad Q_{N}(V
 $$U=-\frac{ \partial  }{ \partial \beta } \ln Q_{N},\qquad A=- \frac{1}{\beta}\ln Q_{N}$$
 Grand canonical density function and partition function
 $$\rho(z,V,T)=z^{N}Q_{N}(V,T),\qquad\mathcal{Z}(z,V,T)\equiv \sum_{N=0}^{\infty} z^{N}Q_{N}(V,T)$$
-$$U=-\left( \frac{ \partial  }{ \partial \beta } \ln \mathcal{Z} \right)_{N,V},\qquad\langle N \rangle =z\frac{ \partial  }{ \partial z } \ln \mathcal{Z}, \qquad \frac{PV}{k_{B}T}=\ln \mathcal{Z}\text{ (ideal gas)}$$
+$$U=-\left( \frac{ \partial  }{ \partial \beta } \ln \mathcal{Z} \right)_{N,V},\qquad\langle N \rangle =z\frac{ \partial  }{ \partial z } \ln \mathcal{Z}, \qquad \frac{PV}{k_{B}T}=\ln \mathcal{Z}$$
 ### Particle statistics
 $$\langle n_{\varepsilon} \rangle =\frac{1}{e^{\beta(\varepsilon-\mu)}\pm 1}=\frac{1}{z^{-1}e^{\beta \varepsilon}\pm 1}$$
 $+$ for Fermi-Dirac, $-$ for Bose-Einstein. Condensation happens when $\mu= 0$ and $\varepsilon\to 0$. Classical particles (Maxwell-Boltzmann) remove $\pm 1$.
 $$\frac{P}{k_{B}T}=\frac{1}{\lambda ^{3}}f_{5/2}(z),\qquad \frac{P}{k_{B}T}=\frac{1}{\lambda ^{3}}g_{5/2}(z)- \frac{1}{V}\ln(1-z)$$
-$$n=\frac{1}{\lambda ^{3}}f_{3/2}(z),\qquad n=\frac{1}{\lambda ^{3}}g_{3/2}(z)+ \frac{1}{V} \frac{z}{1-z}$$
+$$n=\frac{1}{\lambda ^{3}}f_{3/2}(z),\qquad n=\underbrace{ \frac{1}{\lambda ^{3}}g_{3/2}(z) }_{ \text{excited} }+ \underbrace{ \frac{1}{V} \frac{z}{1-z} }_{ \text{condensed} }$$
+$$\mathcal{Z}(z,V,T)=\left\{\begin{align}
+\prod_{\mathbf{p}} (1+ze^{-\beta \varepsilon_{p}})&\quad\text{(Fermions)} \\
+\prod_{\mathbf{p}} \frac{1}{1-ze^{-\beta \varepsilon_{p}}}&\quad\text{(Bosons)}
+\end{align}\right.$$
+### Condensation
+For an ideal gas
+$$T_{C}=\frac{1}{k_{B}}\left[ \frac{N}{C_{\alpha}\Gamma(\alpha)\zeta(\alpha)} \right]^{1/\alpha}\underbrace{ = }_{ \text{in }3D }\left( \frac{n c}{g_{3/2}(1)} \right)^{2/3}\qquad(\lambda^{3}=cT^{-3/2})$$
 ### Fermi/Bose functions
 $$f_{k}(z)\equiv \sum_{l=1}^{\infty}(-1)^{l+1} \frac{z^{l}}{l^{k}},\qquad g_{k}(z)\equiv \sum_{l=1}^{\infty} \frac{z^{l}}{l^{k}}$$
 $$z \frac{d}{dz}f_{k}(z)=f_{k-1}(z),\qquad z \frac{d}{dz}g_{k}(z)=g_{k-1}(z)$$
@@ -56,5 +65,13 @@ $$f_{k}(z)=z- \frac{z^{2}}{2^{k}}+ \frac{z^{3}}{3^{k}}-\ldots,\qquad f_{3/2}(z)\
 ### Averages
 Ensemble average
 $$\langle O \rangle=\frac{1}{Q_{N}}\int O\rho\ dq\ dp,\qquad \langle \hat{O} \rangle =\frac{\text{Tr}(\hat{O}\hat{\rho})}{\text{Tr}(\hat{\rho})}=\frac{1}{Q_{N}}\sum_{n}\hat{\rho}_{nn}\braket{ n | \hat{O} | n }  $$
+### Boundary conditions
+Open boundary conditions: hard wall, like infinite square well, $\psi(0)=\psi(L)=0$. Same quantization $kL=n\pi$ where $n\in \mathbb{N}$ and eigenvalues: $E_{n}=\frac{\hbar^{2}k_{n}^{2}}{2m}=\frac{\hbar^{2}n^{2}\pi^{2}}{2mL^{2}}=\frac{h^{2}}{2m}\left( \frac{n}{2L} \right)^{2}$.
+
+Periodic boundary conditions: Pacman loop, $\psi(0)=\psi(L)$. If particles are plane waves, condition is because $e^{ikx}=e^{ik(x+L)}\Rightarrow e^{ikL}=1\Rightarrow kL=2n\pi$ with $n\in \mathbb{Z}$.
+
+For Fermi energy, need to count highest $n$ or $k$ through exclusion principle.
+### Lagrange multipliers
+Constraints: $g_{1}(x)=1-\sum_{x}p(x)$ and $g_{2}(x)=U-\sum_{x}E(x)p(x)$. Find Lagrangian, take derivative, find zero, extract quantity.
 ## Esercizi
 Uno degli esercizi dell'esame è sicuramente "gas di fermioni/bosoni in 1/2/3/4 dimensioni con distribuzione in $p$/$p^{2}$". Sono 16 possibili combinazioni.

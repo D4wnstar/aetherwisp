@@ -105,11 +105,12 @@ Note the consequence here. The classical ideal gas is
 $$\frac{PV}{Nk_{B}T}=1$$
 Meanwhile, a fermion ideal gas is
 $$\boxed{\frac{PV}{Nk_{B}T}=1+ \frac{1}{2^{5/2}} \frac{\lambda_{T}^{3}}{v}+\ldots}$$
-We have an expansion with many terms beyond 1. The term beyond one is called the **second virial coefficient**. This normally occurs when you extend an ideal gas to also have internal interactions between particles. But there are no interactions here, it's just fermions. What this is, is the manifestation of the [[Pauli exclusion principle|Pauli exclusion principle]], which can be interpreted as a sort of repulsive interaction between fermions that prevents them from occupying the same [[stato|state]]. It's not *really* a potential, but it behaves like one.
+This expansion is known as the [[virial expansion]] and the terms are called **virial coefficients**. Specifically, the term after $1$ is the **second virial coefficient** and is usually  the most relevant one. This series isn't a new thing in statistical mechanics: the virial expansion normally occurs when you generalize an ideal gas to an [[imperfect gas]], which also has internal interactions. But there are no interactions here, it's just inert fermions. What this is, is the manifestation of the [[Pauli exclusion principle|Pauli exclusion principle]], which can be interpreted as a sort of repulsive interaction between fermions that prevents them from occupying the same [[stato|state]]. It's not *really* a potential, but it certainly behaves like one.
 
-$$\frac{1}{v}\lambda ^{3}_{T}=\frac{1}{v}\left( \frac{2\pi \hbar^{2}}{mk_{B}T} \right)^{3/2}= \frac{4}{3\sqrt{ \pi }}(\ln z)^{3/2}$$
+These terms must evidently only be relevant at very low temperatures; after all, if they didn't, we'd see their effects at room temperature and that certainly does not happen. Since we are at low temperature anyway, we might as well use the [[Sommerfeld expansion]] for $f_{3/2}(z)$. Starting from the density equation
+$$n\lambda ^{3}_{T}=\frac{1}{v}\lambda ^{3}_{T}=f_{3/2}(z)\quad \to \quad\frac{1}{v}\left( \frac{2\pi \hbar^{2}}{mk_{B}T} \right)^{3/2}\simeq \frac{4}{3\sqrt{ \pi }}(\ln z)^{3/2}$$
 The logarithm is
-$$\ln z=\frac{3^{2/3}(\sqrt{ \pi })^{2/3}2\pi \hbar^{2}}{4^{2/3}v^{2/3}mk_{B}T}$$
+$$\ln z=\left( \frac{3\sqrt{ \pi }}{4v} \right)^{2/3} \frac{2\pi \hbar^{2}}{mk_{B}T}$$
 But we also have
 $$z\simeq e^{\beta E_{F}}\quad\to \quad \beta E_{F}\simeq \ln z$$
 As such, the Fermi energy is
@@ -125,7 +126,7 @@ $$g\sum_{\mathbf{p}} \langle n_{\mathbf{p}} \rangle_{T=0} =N$$
 A $g$-degenerate gas of $N$ fermions behaves like $g$ independent ideal gases stacked on top of each other. In this case, the Fermi energy is
 $$\frac{g}{2\pi \hbar} \frac{4\pi}{3}p_{F}^{3}=\frac{N}{V}\quad\to \quad E_{F}=\frac{\hbar^{2}K_{F}^{2}}{2m}=\frac{\hbar^{2}}{2m}\left( \frac{6\pi ^{2}}{gv} \right)^{2/3}$$
 $$\frac{\lambda ^{3}_{T}}{v}=f_{3/2}(z)=\frac{4}{3\sqrt{ \pi }}\left[ (\ln z)^{3/2}+ \frac{\pi^{2}}{8}(\ln z)^{-1/2}+\ldots \right]$$
-$$(\ln z)^{3/2}+ \frac{\pi^{2}}{8}(\ln z)^{-1/2}\simeq \frac{3\sqrt{ \pi }\lambda_{T}^{3}}{4v}$$
+$$(\ln z)^{3/2}+ \frac{\pi^{2}}{8}(\ln z)^{-1/2}\simeq \frac{3\sqrt{ \pi }}{4v}\lambda_{T}^{3}$$
 Higher degeneracy reduces the Fermi energy. For $T=0$, we have $\mu=E_{F}$. However, for non-zero temperature we must take some terms from the expansion:
 $$\boxed{\mu=E_{F}\left[ 1- \frac{\pi^{2}}{12}\left( \frac{k_{B}T}{E_{F}} \right)^{2}+\ldots \right]=E_{F}\left[ 1- \frac{\pi^{2}}{12}\left( \frac{T}{T_{F}} \right)^{2}+\ldots \right]}$$
 where $T_{F}=E_{F}/k_{B}$ is the so-called Fermi temperature. The impact of these corrections is dependent on the ratio between temperature and Fermi temperature, which means that "high" or "low" temperature here is entirely define with respect to the Fermi temperature. The latter is found on a material-by-material basis. For instance, in metals it is $T_{F}\sim 10^{4}\text{ K}$, which means that for room temperature metals ($T\sim 300\text{ K}$), all corrections are tiny expect at most the first. In [[Stella di neutroni|neutron stars]], $T_{F}> 10^{7}\text{ K}$.
@@ -142,21 +143,23 @@ U&=\sum_{\mathbf{p}}\varepsilon_{\mathbf{p}}\langle n_{\mathbf{p}} \rangle  \\
 That said, this integral is a mess. It's much easier to use something like a [[quantum grand canonical ensemble]] and use its [[partition function]]:
 $$\frac{PV}{k_{B}T}=\ln \mathcal{Z}$$
 and use the relation
-$$U=-\left( \frac{ \partial  }{ \partial \beta } \ln \mathcal{Z} \right)_{Z,V}=-V\frac{ \partial  }{ \partial \beta } \frac{1}{V}\ln \mathcal{Z}=-V\frac{ \partial  }{ \partial \beta }  \frac{P}{k_{B}T}=-V\left( \frac{ \partial  }{ \partial \beta } \frac{f_{5/2}(z)}{\lambda ^{3}_{T}} \right)_{Z,V}$$
+$$U=-\left( \frac{ \partial  }{ \partial \beta } \ln \mathcal{Z} \right)_{Z,V}=-V\frac{ \partial  }{ \partial \beta }  \frac{P}{k_{B}T}=-V\left( \frac{ \partial  }{ \partial \beta } \frac{f_{5/2}(z)}{\lambda ^{3}_{T}} \right)_{Z,V}$$
 The $f_{5/2}(z)$ function is independent from $\beta$, so we only need
 $$\frac{ \partial  }{ \partial \beta } \frac{1}{\lambda ^{3}_{T}}=\frac{ \partial  }{ \partial \beta } \left( 2\pi \hbar ^{2} \frac{\beta}{m} \right)^{-3/2}=- \frac{3}{2\beta}\left( 2\pi \hbar ^{2} \frac{\beta}{m} \right)^{-3/2}=- \frac{3}{2}k_{B}T \frac{1}{\lambda ^{3}_{T}}$$
 We can finally write
-$$U=\frac{3}{2}Nk_{B}T \frac{f_{5/2}(z)}{f_{3/2}(z)}$$
+$$\boxed{U=\frac{3}{2}Nk_{B}T \frac{f_{5/2}(z)}{f_{3/2}(z)}}$$
 This is essentially an extended [[equipartition theorem]]. Unfortunately, actually calculating the two $f$ function is complicated or straight-up impossible. We can however use a [[Sommerfeld expansion]] for both of them at $z\gg 1$. The $f_{3/2}$ expansion is above. The $f_{5/2}$ expansion is
-$$z\gg 1\qquad f_{5/2}(z)=\frac{8}{15\sqrt{ \pi }}(\ln z)^{5/2}\left[ 1+ \frac{5\pi^{2}}{8} \frac{1}{(\ln z)^{2}}+\ldots \right]$$
-Substituting them with only the first term, we get
+$$f_{5/2}(z)=\frac{8}{15\sqrt{ \pi }}(\ln z)^{5/2}\left[ 1+ \frac{5\pi^{2}}{8} \frac{1}{(\ln z)^{2}}+\ldots \right]$$
+Using the first term of each we get
 $$U=\frac{3}{2}Nk_{B}T\left[  \frac{\frac{8}{15\sqrt{ \pi }}(\ln z)^{5/2}}{\frac{4}{3\sqrt{ \pi }}(\ln z)^{3/2}} \right]=\frac{3}{2}Nk_{B}T \frac{2}{5}\ln z$$
 For $T=0$ we can see $k_{B}T\ln z=\mu=E_{F}$ and we have
 $$\boxed{U=\frac{3}{5} NE_{F}}$$
-If we add more terms we get
+which proves that this is a self-consistent description. If we add more terms we get
 $$\begin{align}
 U&=\frac{3}{2}Nk_{B}T \frac{2}{5}\ln z \left[ \frac{1+ \frac{5\pi ^{2}}{8} \frac{1}{(\ln z)^{2}}}{1+ \frac{\pi ^{2}}{8} \frac{1}{(\ln z)^{2}}} \right] \\
 &\simeq\frac{3}{2}Nk_{B}T \frac{2}{5}\ln z\left( 1+ \frac{5\pi ^{2}}{8} \frac{1}{(\log z)^{2}} \right)\left( 1- \frac{\pi ^{2}}{8} \frac{1}{(\ln z)^{2}} \right) \\
-&\simeq \frac{3}{2}Nk_{B}T\ln z\left( 1- \frac{\pi ^{2}}{2} \frac{1}{(\ln z)^{2}} \right)
+&\simeq \frac{3}{5}Nk_{B}T\ln z\left( 1- \frac{\pi ^{2}}{2} \frac{1}{(\ln z)^{2}} \right)
 \end{align}$$
+and so
+$$\boxed{U=\frac{3}{5}NE_{F}\left( 1- \frac{\pi ^{2}}{2} \frac{1}{(\ln z)}^{2} \right)}$$
 From this, we can find other thermodynamic quantities.

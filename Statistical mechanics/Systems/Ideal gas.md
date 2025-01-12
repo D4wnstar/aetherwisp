@@ -4,7 +4,7 @@ aliases:
 ---
 An **ideal gas** is an approximate model of the behavior of a gas that holds for low density gases. It is sparse and has weak internal interactions that limit [[information]] exchange. The dynamics are determined by the **ideal gas law**:
 $$PV=Nk_{B}T=nRT=\frac{2}{3}U$$
-where $P$ is the [[pressure]], $V$ is the volume occupied by the gas, $N$ is the number of [[particella|particles]] composing the gas, $k_{B}$ is the [[Boltzmann constant]], $T$ is the [[temperature]], $n$ is the number of [[mole|moles]], $R$ is the [[ideal gas constant]] and $U$ is the [[internal energy]][^1]. The first and second forms apply only to classical gases, whereas the third is also valid for quantum gases.
+where $P$ is the [[pressure]], $V$ is the volume occupied by the gas, $N$ is the number of [[particella|particles]] composing the gas, $k_{B}$ is the [[Boltzmann constant]], $T$ is the [[temperature]], $n$ is the number of [[mole|moles]], $R$ is the [[ideal gas constant]] and $U$ is the [[internal energy]][^1]. The first and second forms apply only to classical gases, whereas the third is also valid for quantum gases (if the particles have [[mass]]).
 
 An ideal gas is a [[Physical system|system]] of free particles enclosed in a finite enclosure with rigid, perfectly elastic walls. The system [[Hamiltonian]] is
 $$H=\sum_{i=1}^{N} \frac{\mathbf{p}^{2}_{i}}{2m}$$

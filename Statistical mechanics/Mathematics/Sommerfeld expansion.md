@@ -30,5 +30,8 @@ In practice, we only care about the first few terms, which are
 $$f_{3/2}(z)\simeq \frac{4}{3\sqrt{ \pi }}\left[ (\ln z)^{3/2}+ \frac{\pi ^{2}}{8} \frac{1}{\sqrt{ \ln z }}+\ldots \right]$$
 since $\nu=\ln z$.
 
+In a similar manner, we can find the expansion for $f_{5/2}(z)$:
+$$f_{5/2}(z)=\frac{8}{15\sqrt{ \pi }}(\ln z)^{5/2}\left[ 1+ \frac{5\pi^{2}}{8} \frac{1}{(\ln z)^{2}}+\ldots \right]$$
+
 [^1]: This is due to the [[Pauli exclusion principle]], which constrains [[Occupation number|occupation numbers]] to be $0$ or $1$ for fermions.
 [^2]: As it happens, these integrals have another nice form: $I_{n}=(n-1)!(2n)(1-2^{1-n})\zeta(n)$. Here, $\zeta(n)$ is the [[Riemann zeta function]].

@@ -46,7 +46,7 @@ con $*$ l'elemento di volume e $**$ il volume occupato da un modo. Allora la den
 $$\rho_{k}dk=\frac{k^{2}dk}{\pi^{2}}$$
 da cui l'energia dei [[Photon|fotoni]] in funzione della frequenza $\nu$
 $$U(\nu)d\nu=\frac{8\pi}{c^{3}}\nu^{2}d\nu k_{B}T$$
-con $c$ la [[velocità della luce]] e $k_{B}$ la [[Boltzmann constant]]. Questa si chiama **legge di Riley-Jeans** ed è la spiegazione classica dell'emissione di fotoni in funzione della lunghezza d'onda. Tuttavia, aumenta quadraticamente con la frequenza, il che significa che diverge per frequenze alte, fatto sperimentalmente falso conosciuto come **catastrofe del ferro**. Per correggere la legge si è dovuto ricorrere alla fisica quantistica, specificamente alla quantizzazione dell'energia. Allora prendendo
+con $c$ la [[velocità della luce]] e $k_{B}$ la [[Boltzmann constant]]. Questa si chiama **legge di Riley-Jeans** ed è la spiegazione classica dell'emissione di fotoni in funzione della lunghezza d'onda. Tuttavia, aumenta quadraticamente con la frequenza, il che significa che diverge per frequenze alte, fatto sperimentalmente falso conosciuto come **catastrofe ultravioletta**. Per correggere la legge si è dovuto ricorrere alla fisica quantistica, specificamente alla quantizzazione dell'energia. Allora prendendo
 $$E_{n}=nh\nu$$
 abbiamo la probabilità che il fotone sia eccitato allo stato $n$-esimo
 $$P_{n}=\frac{e^{-E_{n}/k_{B}T}}{\sum\limits_{n}e^{-E_{n}/kt}}=\frac{U^{n}}{\sum\limits_{n}U^{n}}=(1-U)U^{n}\text{ con }U=e^{-h\nu/kT}$$

@@ -11,7 +11,7 @@ $$N=\int_{0}^{\infty}g(\varepsilon) \frac{1}{e^{\beta(\varepsilon-\mu)}-1}d\vare
 We can find an approximate solution for this integral[^1], for instance with the [[Sommerfeld expansion]]. The more interesting question is:  is there a nonzero critical temperature $T_{C}$ where the [[chemical potential]] vanishes, that is $\mu=\min\varepsilon_{p}=0$[^2]? To check this, we try to solve the integral with $\mu=0$ and see where that leads us, if it's even possible.
 
 The original solution is due to Einstein. Since at the condensation point the number of particles in the ground [[stato|state]] blows up, we can split $N$ into $N_\text{exc}$ and $N_\text{ground}=\langle n_{p=0} \rangle$. The sum of these two makes $N$. For most temperatures, $N_\text{ground}\simeq0$ and $\text{N}_\text{exc}\simeq N$, which is why this split makes little sense in most conditions. The integral to solve is
-$$N_\text{exc}(T=T_{C},\mu=0)\int_{0}^{\infty} \frac{C_{\alpha}\varepsilon^{\alpha-1}}{e^{\beta_{C} \varepsilon_{p}}-1}d\varepsilon=N$$
+$$N_\text{exc}(T=T_{C},\mu=0)=\int_{0}^{\infty} \frac{C_{\alpha}\varepsilon^{\alpha-1}}{e^{\beta_{C} \varepsilon_{p}}-1}d\varepsilon=N$$
 where $\beta_{C}=1/k_{B}T_{C}$. If there is a solution to this, then $T_{C}$ exists and is not zero.
 
 To start, we make the substitution $\beta_{C}\varepsilon=x$. This turns the integral into
