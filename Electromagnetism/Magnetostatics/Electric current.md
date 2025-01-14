@@ -7,7 +7,7 @@ $$\text{A}\equiv \frac{\text{C}}{\text{s}}$$
 By convention, negative charges moving to the left count the same as positive charges moving to the right. This is to reflect the physical fact that almost all laws regarding charge movement depend on the product of charge and velocity, so if you reverse the signs of both, the phenomenon doesn't change. For an example, see the [[Lorentz force]]. In practice, it's usually [[Elettrone|electrons]] that move and they do so in the opposite direction of the current.
 
 A current is said to be **steady** or **stationary** if it does not vary with time:
-$$\frac{d\mathbf{J}}{dt}=0$$
+$$\frac{\partial \mathbf{J}}{\partial t}=0$$
 This are of major important as they constitute the basis of the entirety of magnetostatics.  In fact, a temporally constant current produces only constant magnetic fields and is the magnetic equivalent of a stationary charge for electrostatics. They are also good approximations of household currents.
 ### Linear current
 The most common case of current is one going through a wire. In this case, we can represent the charge as a line density:

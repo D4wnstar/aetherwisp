@@ -8,13 +8,13 @@ It can also be expressed in terms of the [[magnetic vector potential]] $\mathbf{
 $$\nabla ^{2}\mathbf{A}=-\mu_{0}\mathbf{J}$$
 which are three [[Poisson's equation]], one for each coordinate.
 ### Symmetries
-There are three symmetries that work well for Ampere's law:
+There are four symmetries that work well for Ampere's law:
 - a *loop around* an infinite straight wire
 - a *loop across* an infinite flat surface charge density
 - an infinite *solenoid*
-- a toroid
+- a *toroid*
 #### Loop around a wire
-Consider a wire carrying a steady current $I$. We want to find the current at a distance $s$ from it. We know the magnetic field goes around the wire, so the magnitude of $\mathbf{B}$ is constant on a loop around that wire. So, Ampere's law gives
+Consider a wire carrying a steady current $I$. We want to find the magnetic field at a distance $s$ from it. We know the field goes around the wire, so the magnitude of $\mathbf{B}$ is constant on a loop around that wire. So, Ampere's law gives
 $$\oint \mathbf{B}\cdot d\mathbf{r}=B\oint dl=B 2\pi s=\mu_{0}I_{enc}=\mu_{0}I$$
 or
 $$B=\frac{\mu_{0}I}{2\pi s}$$
