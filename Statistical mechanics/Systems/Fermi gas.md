@@ -96,10 +96,19 @@ $$\frac{P}{k_{B}T}=\frac{1}{\lambda ^{3}}f_{5/2}(z)$$
 where $k_{B}$ is the [[Boltzmann constant]], $T$ is the [[temperature]], $\lambda$ is the [[Formula di de Broglie|de Broglie thermal wavelength]] and $f_{5/2}(z)$ is a [[Fermi and Bose functions|Fermi function]]. We can approximate it by using its series representation:
 $$\begin{align}
 \frac{PV}{Nk_{B}T}&=\frac{Pv}{k_{B}T} \\
-&=\frac{v}{\lambda ^{3}_{T}}f_{3/2}(z) \\
-&\simeq \frac{v}{\lambda ^{3}_{T}}\left( z- \frac{z^{2}}{2^{3/2}}+\ldots \right) \\
-&\simeq \frac{v}{\lambda ^{3}_{T}}\left[ \frac{\lambda ^{3}_{T}}{v}+ \frac{1}{2^{3/2}}\left( \frac{\lambda ^{3}_{T}}{v} \right)-\left(\frac{\lambda ^{3}_{T}}{v} + \frac{1}{2^{3/2}}\left( \frac{\lambda ^{3}_{T}}{v} \right)^{2} \right)^{5/2} \frac{1}{2^{5/2}}+\ldots \right] \\
-&=1+ \frac{1}{2^{3/2}} \frac{\lambda_{T}^{3}}{v}- \frac{1}{2^{5/2}}\frac{\lambda ^{3}_{T}}{v} +\ldots
+&=\frac{v}{\lambda ^{3}_{T}}f_{5/2}(z) \\
+&\simeq \frac{v}{\lambda ^{3}_{T}}\left( z- \frac{z^{2}}{2^{5/2}}+\ldots \right) \\
+&=\ldots
+\end{align}$$
+We know that
+$$\frac{\lambda ^{3}_{T}}{v}=f_{3/2}(z)=z- \frac{z^{2}}{2^{3/2}}+\ldots\quad\Rightarrow \quad z=\frac{\lambda ^{3}_{T}}{v}+ \frac{z^{2}}{2^{3/2}}-\ldots$$
+If we substitute $z$ with its first order approximation $\lambda ^{3}_{T}/v$ (???) we get
+$$z=\frac{\lambda ^{3}}{v}+ \frac{1}{2^{3/2}} \left( \frac{\lambda ^{3}}{v} \right)^{2}-\ldots$$
+and if we put this back in the equation of state we get
+$$\begin{align}
+\ldots&\simeq \frac{v}{\lambda ^{3}_{T}}\left[ \frac{\lambda ^{3}_{T}}{v}+ \frac{1}{2^{3/2}}\left( \frac{\lambda ^{3}_{T}}{v} \right)^{2}-\ldots +\left(\frac{\lambda ^{3}_{T}}{v} + \frac{1}{2^{3/2}}\left( \frac{\lambda ^{3}_{T}}{v} \right)^{2}-\ldots \right)^{2} \frac{1}{2^{5/2}}+\ldots \right] \\
+&=1+ \frac{1}{2^{3/2}} \frac{\lambda_{T}^{3}}{v}- \frac{1}{2^{5/2}}\frac{\lambda ^{3}_{T}}{v} +\ldots \\
+&=1+ \frac{1}{2^{5/2}} \frac{\lambda ^{3}_{T}}{v}+\ldots
 \end{align}$$
 Note the consequence here. The classical ideal gas is
 $$\frac{PV}{Nk_{B}T}=1$$
@@ -124,7 +133,7 @@ $$g=2s+1$$
 and the following condition must hold:
 $$g\sum_{\mathbf{p}} \langle n_{\mathbf{p}} \rangle_{T=0} =N$$
 A $g$-degenerate gas of $N$ fermions behaves like $g$ independent ideal gases stacked on top of each other. In this case, the Fermi energy is
-$$\frac{g}{2\pi \hbar} \frac{4\pi}{3}p_{F}^{3}=\frac{N}{V}\quad\to \quad E_{F}=\frac{\hbar^{2}K_{F}^{2}}{2m}=\frac{\hbar^{2}}{2m}\left( \frac{6\pi ^{2}}{gv} \right)^{2/3}$$
+$$\frac{g}{2\pi \hbar} \frac{4\pi}{3}p_{F}^{3}=\frac{N}{V}\quad\to \quad E_{F}=\frac{\hbar^{2}k_{F}^{2}}{2m}=\frac{\hbar^{2}}{2m}\left( \frac{6\pi ^{2}}{gv} \right)^{2/3}$$
 $$\frac{\lambda ^{3}_{T}}{v}=f_{3/2}(z)=\frac{4}{3\sqrt{ \pi }}\left[ (\ln z)^{3/2}+ \frac{\pi^{2}}{8}(\ln z)^{-1/2}+\ldots \right]$$
 $$(\ln z)^{3/2}+ \frac{\pi^{2}}{8}(\ln z)^{-1/2}\simeq \frac{3\sqrt{ \pi }}{4v}\lambda_{T}^{3}$$
 Higher degeneracy reduces the Fermi energy. For $T=0$, we have $\mu=E_{F}$. However, for non-zero temperature we must take some terms from the expansion:

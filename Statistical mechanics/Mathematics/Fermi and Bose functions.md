@@ -3,7 +3,7 @@ aliases:
   - Fermi functions
   - Bose functions
 ---
-The **Fermi and Bose functions** or **complete Fermi and Bose integrals** are classes of functions that make quantum [[ensemble|ensembles]] easier to manager mathematically. The Fermi functions $f_{k}$ and Bose functions $g_{k}$ are defined as
+The **Fermi and Bose functions** or **complete Fermi and Bose integrals** are classes of functions that make quantum [[ensemble|ensembles]] easier to manage mathematically. The Fermi functions $f_{k}$ and Bose functions $g_{k}$ are defined as
 $$f_{k}(z)\equiv \sum_{l=1}^{\infty}(-1)^{l+1} \frac{z^{l}}{l^{k}},\qquad g_{k}(z)\equiv \sum_{l=1}^{\infty} \frac{z^{l}}{l^{k}}$$
 where $k$ is a real number. Both of these are specific forms of the [[polylogarithm]]:
 $$f_{k}(z)=-\text{Li}_{k+1}(-e^{z}),\qquad G_{k}(z)=\text{Li}_{k+1}(e^{z})$$
