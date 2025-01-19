@@ -1,3 +1,3 @@
 A **Markov chain** is a stateless statistical process. A Markov chain is fully defined by the state at the start of each step and does not need to "remember" any previous state. In a Markov chain, the [[probability]] that a [[random variable]] $X$ will take on all the values in a sequence $(x_{1},\ldots,x_{N})$ in $N$ steps is
-$$P_{N}(x_{1},\ldots,x_{N})=p_{1}(x_{1})\prod_{t=1}^{N+1} W(x_{t}\to x_{t+1})$$
+$$P_{N}(x_{1},\ldots,x_{N})=p_{1}(x_{1})\prod_{t=1}^{N-1} W(x_{t}\to x_{t+1})$$
 where $p_{1}(x_{1})$ is the probability of starting at state $x_{1}$ and $W$ is called the **transition probability function**, which changes a random variable's state. Note how the process is run by $W$ and how $W$ only needs the current state to determine the next one: there is no "memory". A stateless process is generally said to be **Markovian**.
