@@ -13,7 +13,7 @@ They have an integral representation through the [[Gamma function]]:
 $$\left.\begin{align}
 f_{k}(z) \\
 g_{k}(z)
-\end{align}\ \right\}= \frac{2^{2k-1}}{\sqrt{ \pi }} \frac{\Gamma\left( k- \frac{1}{2} \right)}{\Gamma(2k-1)}\int_{0}^{\infty} \frac{x^{2k-1}}{z^{-1}e^{x^{2}}\pm 1}dx$$
+\end{align}\ \right\}= \frac{1}{\Gamma(k)}\int_{0}^{\infty} \frac{x^{k-1}}{z^{-1}e^{x}\pm 1}dx$$
 where $+$ is for Fermi functions and $-$ for Bose functions. In a physical context, $z$ is the [[fugacity]] and the integration variable is typically momentum. The [[Fermi-Dirac distribution|Fermi-Dirac]] and [[Bose-Einstein distribution]] appear in the integral.
 ### Origin
 These functions are convenience functions defined from integrals that occur in [[quantum statistical mechanics]] when dealing with [[Fermion|fermions]] and [[Boson|bosons]]. They appear, for instance, in the [[equation of state]] of a quantum [[ideal gas]] in both the [[quantum microcanonical ensemble]] and the [[quantum grand canonical ensemble]] derivations. For example, in the latter, they come up when taking the derivative of the [[Partition function|grand canonical partition function]] $\mathcal{Z}$ in the [[thermodynamic limit]]:

@@ -15,9 +15,9 @@ This shows that there is a [[Parità|parity]] phenomenon going on. Sometimes, in
 
 This has the remarkable outcome that fermions just can't occupy the same state as another fermion in the same system simultaneously, whereas bosons can. In fact, if $a=b$, the fermion mixed state would be
 $$\ket{\psi} =\ket{aa} -\ket{aa} =0$$
-Meaning, there is no such state. The two fermions *must* end up in different states $\ket{a}$ and $\ket{b}$. It doesn't matter which goes where, but it is necessary for the two to differ. Meanwhile for bosons, we get
+Meaning, there is no such state. The two fermions *must* end up in different states $\ket{a}$ and $\ket{b}$. It doesn't matter which goes where, but it is necessary for the two to differ.  This odd property is called the [[Pauli exclusion principle]]. Meanwhile for bosons, we get
 $$\ket{\psi} =\ket{aa} +\ket{aa} =2\ket{aa} $$
-so not only does the state exists, it is simply a rescaling of the original. As such, it is perfectly fine for two bosons to end up in the same state. This odd property is called the [[Pauli exclusion principle]].
+so not only does the state exists, it is simply a rescaling of the original. As such, it is perfectly fine for two bosons to end up in the same state.
 
 > [!example] $N$ particles
 > This can be readily generalized to any number of particles. Consider $N$ of them. The position [[Funzione d'onda|wavefunction]] of the system is $\psi(\mathbf{r}_{1},\mathbf{r}_{2},\ldots,\mathbf{r}_{N})$, where $\mathbf{r}_{i}$ is the position of the $i$-th particle. We can define the particle [[Operatore di scambio|switch operator]] $P$ as
