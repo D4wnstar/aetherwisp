@@ -42,6 +42,15 @@ so the ratio of excited particles below the critical temperature is
 $$\frac{N_\text{exc}}{N}=\frac{C_{\alpha}\Gamma(\alpha)\zeta(\alpha)(k_{B}T)^{\alpha}}{C_{\alpha}\Gamma(\alpha)\zeta(\alpha)(k_{B}T_{C})^{\alpha}}=\left( \frac{T}{T_{C}} \right)^{\alpha}$$
 The ground state particles are then
 $$\boxed{\frac{N_{0}}{N}=1-\left( \frac{T}{T_{C}} \right)^{\alpha}}$$
+which is valid only when $T_{C}\leq T$. In three dimensions it goes like this:
+```mathpad
+%$1:=-T+1
+%$2:=-T^3+1
+%$3:=-T^(3/2)+1
+f(T):=1- (T/1)^(3/2)
+plot(f(T), [0,1.3], [0,1])==?
+```
+
 
 [^1]: Also see Chapter 1 of Feynman's *Statistical Mechanics*.
 [^2]: Remember that $\mu <\varepsilon_{p}$ for all $p$, so if $\varepsilon_{p}\to 0$ then $\mu\to 0$.
