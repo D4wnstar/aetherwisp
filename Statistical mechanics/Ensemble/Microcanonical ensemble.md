@@ -1,13 +1,13 @@
-The **microcanonical ensemble** is an [[ensemble]] whose density function is
+The **microcanonical ensemble** is an [[ensemble]] whose [[probability density function]] is
 $$\rho(\mathbf{q},\mathbf{p})=\begin{cases}
 \text{constant} & E<H(\mathbf{q},\mathbf{p})<E+\Delta \\
 0&\text{otherwise}
 \end{cases}$$
-where $H$ is the [[Hamiltoniana|Hamiltonian]] of the [[Physical system|system]] and $E$ is its total [[energy]]. Basically, the density is non-zero only in a tiny bracket of energy $[E,E+\Delta]$, and constant within that bracket. $\Delta$ is a small constant ($\Delta\ll E$) that allows for some uncertainty in the energy measurements and for qualitative purposes can be seen as zero. This means that the microcanonical ensemble describes a system whose energy is a well defined constant (within an uncertainty margin $\Delta$).
+where $H$ is the [[Hamiltoniana|Hamiltonian]] of the [[Physical system|system]] and $E$ is its total [[energy]]. It represents an [[Physical system|isolated system]] in [[thermal equilibrium]] whose energy $E$ is precisely defined and conserved. Given this definition, the [[equal a priori probability hypothesis]] applies to it directly, hence the constant density function.
 
-Since the density function describes the [[probability]] that the system will be in a given [[Stato|microstate]] and it is constant, all allowed microstates of a microcanonical ensemble are equally likely, which satisfies the [[equal a priori probability hypothesis]].
+In practice, we instead consider the system energy to be in an interval $[E,E+\Delta]$ to account for practical uncertainties in measurement, since our understanding of energy is never going to be without error. Nevertheless, $\Delta$ is to be seen as a tiny constant with respect to the energy ($\Delta\ll E$) and likewise $[E,E+\Delta]$ is a tiny interval.
 
-It differs from the [[Canonical ensemble|canonical]] and [[Grand canonical ensemble|grand canonical ensembles]], which both have energy fluctuations.
+It differs from the [[Canonical ensemble|canonical]] and [[Grand canonical ensemble|grand canonical ensembles]], both of which are not isolated and have energy fluctuations.
 ### Expectation values
 Given some [[variabile dinamica|dynamical variable]] $f(\mathbf{q},\mathbf{p})$, its most likely value (the [[mode]]) is the one that $f$ takes in the largest number of systems. The [[mean]] on the other hand is the usual [[ensemble average]]:
 $$\langle f \rangle = \frac{\int f(\mathbf{q},\mathbf{p})\rho(\mathbf{q},\mathbf{p})\,d^{3N}q\,d^{3N}p}{\int \rho(\mathbf{q},\mathbf{p})\,d^{3N}q\,d^{3N}p}$$
