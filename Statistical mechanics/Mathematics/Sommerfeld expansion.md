@@ -1,4 +1,4 @@
-The **Sommerfeld expansion** is an approximation method for a certain class of integrals related to the [[Fermi-Dirac distribution]]. It leads to a [[serie di potenze|power series]] representation where each term contains an integral. The general form of the integral that can be expanded with this method is
+The **Sommerfeld expansion** is an approximation method to solve a certain class of integrals related to the [[Fermi-Dirac distribution]]. It leads to a [[serie di potenze|power series]] representation where each term contains an integral. The general form of the integral that can be expanded with this method is
 $$\int_{-\infty}^{\infty} \frac{H(\varepsilon)}{z^{-1}e^{\beta\varepsilon}
 +1} \ d\varepsilon $$
 where the integrand is the Fermi-Dirac distribution multiplied by some factor $H(\varepsilon)$, which must vanish when $\varepsilon\to-\infty$ and rise no faster than a polynomial when $\varepsilon\to \infty$. This approximation is accurate for high $z$, which means for low [[temperature]].
@@ -9,7 +9,8 @@ If we take $z$ to be the fugacity $e^{\beta \mu}$, we can write $z^{-1}e^{x^{2}}
 $$f_{3/2}(z)=\frac{4}{\sqrt{ \pi }}\int_{0}^{\infty} \frac{x^{2}}{e^{x^{2}-\nu}+1}dx=\frac{4}{2\sqrt{ \pi }}\int_{0}^{\infty} \frac{\sqrt{ y }}{e^{y-\nu}+1}dy=\ldots$$
 For $\nu$, the the factor $\frac{1}{e^{y-\nu}+1}$ (the Fermi-Dirac distribution) is almost a [[theta di Heaviside|Heaviside step function]][^1], the derivative of which would more or less be akin to a [[Delta di Dirac|Dirac delta]]. If we can rework the integral to have that derivative, then we could solve it by approximating it around the neighborhood of $\nu$ with little error. A good way of manifesting a derivative out of thin air is [[Integrazione per parti|integration by parts]], which we'll do on the distribution and the numerator $\sqrt{ y }$:
 $$\begin{align}
-\ldots=\frac{2}{\sqrt{ \pi }}\int_{0}^{\infty} \frac{\sqrt{ y }}{e^{y-\nu}+1}dy&=\frac{2}{\sqrt{ \pi }}\left[ \frac{2}{3}\left( \frac{y^{3/2}}{e^{y-\nu}+1} \right)_{0}^{\infty}- \frac{2}{3}\int_{0}^{\infty} y^{3/2}\frac{ \partial  }{ \partial y } \frac{1}{e^{y-\nu}+1} \right] \\
+\ldots&=\frac{2}{\sqrt{ \pi }}\int_{0}^{\infty} \frac{\sqrt{ y }}{e^{y-\nu}+1}dy \\
+&=\frac{2}{\sqrt{ \pi }}\left[ \frac{2}{3}\left( \frac{y^{3/2}}{e^{y-\nu}+1} \right)_{0}^{\infty}- \frac{2}{3}\int_{0}^{\infty} y^{3/2}\frac{ \partial  }{ \partial y } \frac{1}{e^{y-\nu}+1} \right] \\
 &=\frac{4}{3\sqrt{ \pi }}\int_{0}^{\infty} y^{3/2} \frac{e^{y-\nu}}{(e^{y-\nu}+1)^{2}}dy
 \end{align}$$
 As the above discussion, this integral is now peaked around $\nu$ due to the derivative. This justifies an accurate approximation around $\nu$. First, we make the substitution $y=\nu+t$, which yields
