@@ -9,7 +9,7 @@ $$g(\varepsilon)=\frac{ \partial G(\varepsilon) }{ \partial \varepsilon } $$
 This is known as the **density of states (DOS)**, and it is particularly useful as it can be used to turn integrals in three momentum dimensions into integrals of one energy dimension.
 
 A set value of $\varepsilon$ defines a [[palla|sphere]] in momentum space (it is the locus of all points for which $p^{2}/2m\leq\varepsilon$). All momentum values contained in the sphere are $\varepsilon_{p}<\varepsilon$. We want to count these. Thankfully, we know both the volume of a sphere and the volume of each state, so the number of states is the ratio of these (i.e. how many state volumes fit inside the eligible sphere):
-$$G(\varepsilon)=\frac{\frac{4\pi}{3}p^{3}}{\left( \frac{2\pi \hbar}{L} \right)^{3}}=\frac{\frac{4\pi}{3}(2m\varepsilon)^{3/2}}{(2\pi \hbar)^{3}}V= \frac{\sqrt{ 2 }}{3\pi ^{2}} \frac{(m\varepsilon)^{3/2}}{\hbar ^{3}}$$
+$$G(\varepsilon)=\frac{\frac{4\pi}{3}p^{3}}{\left( \frac{2\pi \hbar}{L} \right)^{3}}=\frac{\frac{4\pi}{3}(2m\varepsilon)^{3/2}}{(2\pi \hbar)^{3}}V= \frac{\sqrt{ 2 }}{3\pi ^{2}} \frac{(m\varepsilon)^{3/2}}{\hbar ^{3}}V$$
 If we take the derivative of $\varepsilon$ we get
 $$\boxed{g(\varepsilon)=\frac{Vm^{3/2}}{\sqrt{ 2 }\pi ^{2}\hbar ^{3}}\sqrt{ \varepsilon }}$$
 This leads to the conclusion that the density of states is proportional to the square root of energy. This is a fact that is seen in several [[Physical system|systems]], from [[Atomo|atoms]] to [[Stella|stars]].

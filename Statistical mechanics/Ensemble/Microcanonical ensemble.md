@@ -15,7 +15,7 @@ The mean and mode tend to coincide if the [[mean squared error]] of $f$ tends to
 ### Entropy
 To find the [[entropy]] function for the ensemble, let's introduce a function $\Gamma(E)$ which counts the number of states whose energy is between $E$ and $E+\Delta$:
 $$\Gamma(E)=\int\limits_{E<H(\mathbf{q},\mathbf{p})<E+\Delta}d^{3N}q\,d^{3N}p$$
-This function explicitly depends on $E$, but also on the number of particles $N$ (the integration variables) and the volume $V$ (in the integration limits due to $\mathbf{q}$). $\Gamma$ returns a volume in [[phase space]], which is a finite spherical shell bounded by two hypersurfaces of energies $E$ and $E+\Delta$.
+This function explicitly depends on $E$, but also on the number of particles $N$ (the integration variables) and the volume $V$ (in the integration limits due to $\mathbf{q}$). $\Gamma$ returns a volume in [[phase space]], which is a finite spherical shell bounded by two [[hypersurface|hypersurfaces]] of energies $E$ and $E+\Delta$.
 
 Let's introduce another function $\Sigma(E)$ that counts all states with energy below $E$:
 $$\Sigma(E)=\int\limits_{H(\mathbf{q},\mathbf{p})<E}d^{3N}q\,d^{3N}p$$
@@ -23,46 +23,47 @@ This is the volume of a sphere of radius $E$. Of course, a spherical shell is ju
 $$\Gamma(E)=\Sigma(E+\Delta)-\Sigma(E)$$
 
 Since the thickness $\Delta$ of the shell is small compared to the radius ($\Delta\ll E$), the volume of the shell can be well approximated as
-$$\Gamma(E)=\Delta \cdot\omega(E)=\Delta\cdot\frac{ \partial \Sigma(E) }{ \partial E }$$
+$$\Gamma(E)=\Delta\cdot\frac{ \partial \Sigma(E) }{ \partial E }=\Delta \cdot\omega(E)$$
 
 Since $\Gamma$ is a number of states, we can reasonably assume the entropy comes from [[Entropy (information theory)#Boltzmann's entropy|Boltzmann's definition of entropy]]:
 $$S(E,V)=k\log \Gamma(E,V)$$
 where $k$ is some constant (presumably the [[Boltzmann constant]]). However, in order to definitively prove this is entropy we need to prove that
 1. $S$ is [[Extensive property|extensive]];
 2. $S$ obeys the [[Laws of thermodynamics|second law of thermodynamics]].
-
+#### Extensiveness
 Let's start from the first. Consider some chamber divided in two volumes $V_{1}$ and $V_{2}$, respectively containing $N_{1}$ and $N_{2}$ particles.
 
 ![[Schema Microcanonical entropy proof|center]]
 
-If entropy is extensive, then the total entropy of the system must be the sum of the entropies of the subsystems. The entropy measures disorder, so if the two systems heavily interact with each other, that'll increase entropy by a lot. For this proof, let's assume that the energy of interaction $E_\text{int}$ between the two systems is much smaller than the energy of each system, $E_\text{int}<E_{1}$ and $E_\text{int}<E_{2}$. This removes the interaction-entropy term and leaves us with just the internal entropies. For the interaction to be negligible we need two things:
+If entropy is extensive, then the total entropy must be given as the combination of the entropy of each subsystem[^1]. Entropy measures disorder, so if the two systems heavily interact with each other, that'll increase entropy by a lot. For this proof, let's assume that the energy of interaction $E_\text{int}$ between 1 and 2 is much smaller than the energy of each system, $E_\text{int}<E_{1}$ and $E_\text{int}<E_{2}$. This allows us to consider the two as non-interacting and leaves us with just the internal entropies. For the interaction to be negligible we need two things:
 1. the range of interaction between particles must be finite (we'll send the volume to infinity later so any finite value is fine). This excludes long-range interactions like [[Interazione gravitazionale|gravity]] from this proof;
-2. the contact-surface-to-volume ratio must be negligible as the volume goes infinite. This excludes weird contact surface from this proof.
+2. the contact-surface-to-volume ratio must be negligible as the volume goes infinite. This excludes weird, possibly nonphysical contact surfaces from this proof.
 
-If these are true, then the Hamiltonian is extensive: $H(\mathbf{q},\mathbf{p})=H_{1}(\mathbf{q}_{1},\mathbf{p}_{1})+H(\mathbf{q}_{2},\mathbf{p}_{2})$. To continue, let's define the entropies separately as $S_{1}=k\log \Gamma_{1}(E_{1})$ and $S_{2}=k\log \Gamma_{2}(E_{2})$. $\Gamma_{1}$ and $\Gamma_{2}$ are volumes in the phase spaces $(\mathbf{q}_{1},\mathbf{p}_{1})$ and $(\mathbf{q}_{2},\mathbf{p}_{2})$. Now back to the collective system, the total energy must be between $E$ and $E+2\Delta$, but it must also be equal to the sum of the subsystems, so
-$$E<E_{1}+E_{2}<E+2\Delta$$
-Meanwhile, the product $\Gamma_{1}(E_{1})\Gamma_{2}(E_{2})$ is the number of total states whose energy is between $E_{1}+E_{2}$ and $E_{1}+E_{2}+2\Delta$ (it's a product and not a sum because we want all possible combinations of states of 1 and 2). To join these two clearly related quantities we divide $E_{1}$ and $E_{2}$ into infinitesimal intervals of width $\Delta$, starting from zero. This division requires there to be an energy minimum. Then, we can sum the number of states from each interval like so:
+If these are true, then the Hamiltonian is separable: $H(\mathbf{q},\mathbf{p})=H_{1}(\mathbf{q}_{1},\mathbf{p}_{1})+H_{2}(\mathbf{q}_{2},\mathbf{p}_{2})$. To continue, let's define the entropies separately as $S_{1}=k\log \Gamma_{1}(E_{1})$ and $S_{2}=k\log \Gamma_{2}(E_{2})$. $\Gamma_{1}$ and $\Gamma_{2}$ are volumes in the respective phase spaces $(\mathbf{q}_{1},\mathbf{p}_{1})$ and $(\mathbf{q}_{2},\mathbf{p}_{2})$. We'd like to find the total entropy. Our simplest option is to just sum the two:
+$$S=k(\log \Gamma_{1}(E_{1})+\log \Gamma_{2}E_{2})=k\log(\Gamma_{1}(E_{1})\Gamma_{2}(E_{2}))$$
+ The product $\Gamma_{1}(E_{1})\Gamma_{2}(E_{2})$ is the number of total states whose energy is between $E_{1}+E_{2}$ and $E_{1}+E_{2}+2\Delta$[^2]. However, we'd be wrong. The reason is that $E_{1}$ and $E_{2}$ are, as it stands, undefined. They are just one possible subdivision of the total energy, which leads to only possible set of states. What we need to do is, on top of merging the states with this product, we also need to consider every possible pair of $E_{1}$ and $E_{2}$ that we split the system into (there's nothing preventing any combination, so they are all valid states that need to be counted)[^3]. To count the pairs, we divide $E_{1}$ and $E_{2}$ into intervals of width $\Delta$, starting from zero. This division requires there to be an energy minimum. Now, by way of energy conservation, an energy pair can be written as $E_{i}$ and $E-E_{i}$, where $i$ is the label for a given interval. With this, we can find the total number of states by summing over every interval:
 $$\Gamma(E)=\sum_{i=1}^{E/\Delta} \Gamma_{1}(E_{i})\Gamma_{2}(E-E_{i})$$
 If we plug this back in the Boltzmann entropy we get
-$$\boxed{S=k\log \sum_{i=1}^{E/\Delta} \Gamma_{1}(E_{i})\Gamma_{2}(E-E_{i})}$$
-
-Now, let $\Gamma_{1}(\bar{E}_{1})\Gamma_{2}(\bar{E}_{2})$ with $\bar{E}_{1}+\bar{E}_{2}=E$ be the largest contribution in the sum for $S$. We want to see what happens at different $N$. We have
+$$S=k\log \left[ \sum_{i=1}^{E/\Delta} \Gamma_{1}(E_{i})\Gamma_{2}(E-E_{i}) \right]$$
+Let $\Gamma_{1}(\bar{E}_{1})\Gamma_{2}(\bar{E}_{2})$ with $\bar{E}_{1}+\bar{E}_{2}=E$ be the largest term in this sum. We must have
 $$\Gamma_{1}(\bar{E}_{1})\Gamma_{2}(\bar{E}_{2})\leq \Gamma(E)\leq \frac{E}{\Delta}\Gamma_{1}(\bar{E}_{1})\Gamma_{2}(\bar{E}_{2})$$
-The first inequality is true because $\Gamma_{1}(\bar{E}_{1})\Gamma_{2}(\bar{E}_{2})$ is just a term in the sum for $\Gamma(E)$. The second is true because $E/\Delta$ is arbitrarily large (since $\Delta$ is small). If we transition to entropies we get
+The first inequality is true because $\Gamma_{1}(\bar{E}_{1})\Gamma_{2}(\bar{E}_{2})$ is just one term in the sum for $\Gamma(E)$. The second is true because $E/\Delta$ is arbitrarily large (since $\Delta$ is arbitrarily small). If we make the switch to entropies, the inequalities become
 $$k\log [\Gamma_{1}(\bar{E}_{1})\Gamma_{2}(\bar{E}_{2})]\leq S(E,V)\leq k\log[\Gamma_{1}(\bar{E}_{1})\Gamma_{2}(\bar{E}_{2})]+k\log \frac{E}{\Delta}$$
-Since the number of states is proportional to the number of particles, we have $\log\Gamma_{1}\propto N_{1}$, $\log\Gamma_{2}\propto N_{2}$. Also $E\propto N_{1}+N_{2}=N$, which means $\log E/\Delta \sim \log N$. But see how the only difference in between the sides of the inequality is given by $k\log E/\Delta$, so if we were to remove this corrective term, then the entropy $S(E,V)$ would exactly be $k\log[\Gamma_{1}(\bar{E}_{1})\Gamma_{2}(\bar{E}_{2})]$. But this is the entropy of the largest contribution alone, which means that outside of the $\sim \log N$ correction, the only term that matters is the largest one. So in the case of $\log N=0$ we are left with
-$$S(E,V)=k\log[\Gamma_{1}(\bar{E}_{1})\Gamma_{2}(\bar{E}_{2})]=k\log \Gamma_{1}(\bar{E}_{1})+k\log \Gamma_{2}(\bar{E}_{2})=S_{1}+S_{2}$$
-and so we proved that $S$ is additive over subsystems, i.e. it is extensive.
-
-In other words, there is a single state with energies $(\bar{E}_{1},\bar{E}_{2})$ with an entropy so large it overwhelms all other terms. So the values $\bar{E}_{1}$ and $\bar{E}_{2}$ are such that they maximize $\Gamma_{1}(E_{1})\Gamma_{2}(E_{2})$ under the constraint $E_{1}+E_{2}=E$. Being a maximum, $(\bar{E}_{1},\bar{E}_{2})$ is a [[Punto critico|stationary point]], for which
-$$\delta(\Gamma_{1}(E_{1})\Gamma_{2}(E_{2}))=0,\qquad \delta E_{1}+\delta E_{2}=0$$
+See how the only difference in between the outer inequalities is the $k\log E/\Delta$ term. If it were to vanish, the entropy $S(E,V)$ would exactly be $k\log[\Gamma_{1}(\bar{E}_{1})\Gamma_{2}(\bar{E}_{2})]$. To proceed, note how $\log \Gamma_{i}(E_{i})\sim N_{i}$[^4], but also how $E\propto N_{1}+N_{2}=N$ and therefore $\log E/\Delta \sim \log N$. Clearly, the sum goes something like
+$$k\log \Gamma_{1}\Gamma_{2}+k\log \frac{E}{\Delta}\sim N+\log N$$
+$N$ is something massive, like $\sim 10^{23}$ type massive, so this sum looks like $10^{23}+23$ (here using $\log_{10}$, but the point stands for any basis). Evidently, the second term is completely insignificant and we might as well set it to zero. But if we do this, we are left with
+$$S(E,V)\simeq k\log[\Gamma_{1}(\bar{E}_{1})\Gamma_{2}(\bar{E}_{2})]=k\log \Gamma_{1}(\bar{E}_{1})+k\log \Gamma_{2}(\bar{E}_{2})=S_{1}+S_{2}$$
+And so we proved that $S$ is (approximately) additive over subsystems, i.e. it is extensive. Furthermore, the only term that we are left with is the largest contribution alone, which means that the only term that matters in the sum is the one with highest entropy.
+#### Second law
+To prove that $S$ obeys the second law of thermodynamics, we'll need to check if the state with maximum entropy is also the most likely. In other words, the state we found above, with energies $(\bar{E}_{1},\bar{E}_{2})$, must be so overwhelmingly likely as to make every other state look impossibly rare. Since the state density is uniform (because we said so in the definition of the microcanonical ensemble), being the most likely [[Stato|macrostate]] is the same as having the largest count of equivalent microstates. As such, $\bar{E}_{1}$ and $\bar{E}_{2}$ must be such that they maximize $\Gamma_{1}(E_{1})\Gamma_{2}(E_{2})$ under the constraint $E_{1}+E_{2}=E$. We can use [[Entropy from Lagrange multipliers|Lagrange multipliers]] to find the maximum under this bounded set. $(\bar{E}_{1},\bar{E}_{2})$ is a [[Punto critico|stationary point]], for which
+$$\nabla(\Gamma_{1}(E_{1})\Gamma_{2}(E_{2}))=0,\qquad \partial E_{1}+\partial E_{2}=0$$
 From this we have
 $$\left.\frac{ \partial  }{ \partial E_{1} } \log \Gamma_{1}(E_{1})\right|_{\bar{E}_{1}}-\left.\frac{ \partial  }{ \partial E_{2} } \log \Gamma_{2}(E_{2})\right|_{\bar{E}_{2}}=0$$
 and so
 $$\left.\frac{ \partial S_{1}(E_{1}) }{ \partial E_{1} }\right|_{E_{1}=\bar{E}_{1}}=\left.\frac{ \partial S_{2}(E_{2}) }{ \partial E_{2} }\right|_{E_{2}=\bar{E}_{2}}$$
 If we introduce the [[temperature]] through the [[Maxwell relations]] like
 $$T=\left( \frac{ \partial U }{ \partial S }  \right)_{V}$$
-we can define the inverse buy inverting the above relation (and calling $U\to E$)
+we can define the inverse by inverting the above relation (and calling $U\to E$)
 $$\frac{1}{T}=\frac{ \partial S(E,V) }{ \partial E } $$
 and substituting it above we get
 $$T_{1}=T_{2}$$
@@ -96,7 +97,7 @@ Consider the definition of entropy in function of [[Entropy (information theory)
 > $$\frac{1}{T}=\frac{k_{B}}{E} \log\left( \frac{NE-U}{U} \right)$$
 > So
 > $$T=\frac{E}{k_{B}\log\left( \frac{NE-U}{U} \right)}$$
-> Note that this temperature could very well be negative. This, of course, is non-physical, but it's happening here regardless. The reason why it happens is that the system is being bounded in energy from above, that is, there is a maximum energy that the system cannot cross. The unphysical nature of negative temperature implies that systems with an energy maximum cannot exist, or at most exist as approximation of unbounded systems. This is the case for [[Sistema a due livelli|two-level systems]], which in practice do exist, but only within a short period of time. For instance, a [[qubit]] is a two-level system during the short period of its measurement, but if we were to observe one over long periods of time, it would not remain so as that would imply the possibility of negative temperature.
+> Note that this temperature could very well be negative. This, of course, is non-physical, but it's happening here regardless. The reason why it happens is that the system is being bounded in energy from above, that is, there is a maximum energy that the system cannot cross. The unphysical nature of negative temperature implies that systems with an energy maximum cannot exist, or at most exist as approximation of unbounded systems. This is the case for [[Sistema a due livelli|two-level systems]], which in practice do exist, but only within a short period of time. For instance, a [[qubit]] is a two-level system during the short period of its measurement, but if we were to observe one over long periods of time, it would not remain bounded to two levels, as that would imply the possibility of negative temperature.
 > 
 > We can also invert the last equation to find the internal energy of the system:
 > $$U=\frac{NE}{e^{\beta E}+1}$$
@@ -106,3 +107,8 @@ Consider the definition of entropy in function of [[Entropy (information theory)
 > 
 > We can also derive the [[heat capacity]] from its definition:
 > $$C(T)=\frac{\partial U}{\partial T}=\frac{NE^{2}}{k_{B}T^{2}} \frac{e^{\beta E}}{e^{\beta E}+1}$$
+
+[^1]: It doesn't necessarily need to be a simple sum (e.g. due to interactions), but it needs to combine so that the total has terms for each subsystem.
+[^2]: It's a product and not a sum because we want all possible combinations of states of 1 and 2. For example, if 1 and 2 both have 3 states each, there are $3\times 3=9$ combinations, not $3+3=6$. If we call the states $a,b,c$ for 1 and $x,y,z$ for 2, the combinations are $ax,ay,az,bx,by,bz,cx,cy,cz$.
+[^3]: At this point it's useful to remember that our original division into two systems is completely arbitrary. Systems 1 and 2 don't exists, they're fictitious, they're just a tool to count possible states, so any pair of these is eligible.
+[^4]: This is because $\Gamma$ counts combinations, which are given by $N!$, so $\Gamma \sim N!$. [[Stirling's approximation]] then yields $\log \Gamma\sim N$.

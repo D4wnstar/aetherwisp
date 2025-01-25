@@ -4,11 +4,11 @@ where $\beta=1/k_{B}T$, $H$ is the [[Hamiltonian]], $k_{B}$ is the [[Boltzmann c
 $$Q_{N}(V,T)=\int \frac{e^{-\beta H(\mathbf{q},\mathbf{p})}}{h^{3N}N!} \ d^{3N}q\,d^{3N}p$$
 Here, $h$ is a constant to make the function dimensionless. It is usually assumed to be the [[Costante di Planck|Planck constant]].
 
-It differs from the [[microcanonical ensemble]], which has constant energy with no fluctuations, and the [[grand canonical ensemble]], which has fluctuations in both energy and particle number. For most solid and liquid systems, the canonical ensemble is the most convenient description, as it takes the interaction with the environment into account. Compared to the microcanonical, energy is derived from the equilibrium temperature instead of the other way around. In fact, in the canonical ensemble, temperature serves much of the same role as energy does in the microcanonical, being the quantity that's guaranteed to remain static in time.
+It differs from the [[microcanonical ensemble]], which has constant energy with no fluctuations, and the [[grand canonical ensemble]], which has fluctuations in both energy and particle number. For most solid and liquid systems, the canonical ensemble is the most convenient description, as it takes the interaction with the environment into account. Compared to the microcanonical, energy is derived from the equilibrium temperature instead of the other way around. In fact, in the canonical ensemble, temperature serves much of the same role as energy does in the microcanonical, being the quantity that's conserved.
 ### Density function
 Let's consider the system (1) and the reservoir (2) separately, each with a large and constant number of particles $N_{1}\gg 1$ and $N_{2}\gg 1$. Combined, they make up an [[Physical system|isolated system]] which can be described by a [[microcanonical ensemble]][^2] of energy $E_{1} + E_{2}$ that obeys
 $$E_\text{total}<E_{1}+E_{2}<E_\text{total}+2\Delta$$
-where $E_\text{total}$ is the energy of the system + reservoir and $\Delta$ is a small amount of energy (to account for uncertainty). For clarity: $E_\text{total}$ is approximately constant, but $E_{1}$ and $E_{2}$ are *not*. We ignore the interaction between the two system beyond the transfer of energy so that the total Hamiltonian is just a sum
+where $E_\text{total}$ is the energy of the system + reservoir and $\Delta$ is a small amount of energy (to account for uncertainty). For clarity: $E_\text{total}$ is constant, but $E_{1}$ and $E_{2}$ are *not*. We ignore the interaction between the two system beyond the transfer of energy, so that the total Hamiltonian is separable:
 $$H=H_{1}+H_{2}$$
 The reservoir's energy and number of particle is taken to be much larger than that of the system, so $E_{2}\gg E_{1}$ and $N_{2}\gg N_{1}$.
 
@@ -16,7 +16,7 @@ Now, we really only care about the state of system 1, regardless of what reservo
 $$\propto\Gamma_{2}(E_{2})d\mathbf{q}_{1}d\mathbf{p}_{1}=\Gamma_{2}(E_\text{total}-E_{1})d\mathbf{q}_{1}d\mathbf{p}_{1}$$
 since $E_{2}$ is the only state the reservoir is likely to be in at equilibrium. The density function of system 1 is going to be determined by its most likely state
 $$\rho_{1}(\mathbf{q}_{1},\mathbf{p}_{1})=\Gamma_{2}(E_\text{total}-E_{1})=\Gamma_{2}(E_\text{total}-H_{1}(\mathbf{q}_{1},\mathbf{p}_{1}))$$
-We want to find the number of [[Stato|microstates]] for which $E_{1}$ is true, and to do so we can start from the [[Entropy (information theory)|Boltzmann entropy]] formula $S(E_\text{total}-E_{1})=k_{B}\log \Gamma(E_\text{total}-E_{1})$. Remember that $E_{2}\gg E_{1}$, so we can approximate $S(E_\text{total}-E_{1})$ using a [[serie di Taylor|Taylor series]] in $E_\text{total}-E_{1}=E_{2}$ centered in $E_\text{total}$ and truncate at the first order without much error:
+We want to find the number of [[Stato|microstates]] at energy $E_{1}$, and to do so we can start from the [[Entropy (information theory)|Boltzmann entropy]] formula $S(E_\text{total}-E_{1})=k_{B}\log \Gamma(E_\text{total}-E_{1})$. Remember that $E_{2}\gg E_{1}$, so we can approximate $S(E_\text{total}-E_{1})$ using a [[serie di Taylor|Taylor series]] in $E_\text{total}-E_{1}=E_{2}$ centered in $E_\text{total}$ and truncate at the first order without much error:
 $$\begin{align}
 k_{B}\log \Gamma_{2}(E_\text{total}-E_{1})&=S_{2}(E_\text{total}-E_{1}) \\
 &=S_{2}(E_\text{total})-E_{1}\left.\frac{ \partial S_{2} }{ \partial E_{2} } \right|_{E_{2}=E_\text{total}} +\ldots\\
@@ -35,9 +35,6 @@ $$\boxed{Q_{N}(V,T)=\int \frac{e^{-\beta H(\mathbf{q},\mathbf{p})}}{h^{3N}N!} \ 
 The $N!$ comes from correct Boltzmann counting[^1], meanwhile $h^{3N}$ keeps the function dimensionless by canceling the dimensions of $d^{3N}q\,d^{3N}p$. Integration happens over the entire phase space. The following important result also holds:
 $$\boxed{Q_{N}(V,T)=e^{-\beta A(V,T)}}$$
 where $A=U-TS$ is the [[Helmholtz free energy]] (needs to be proven; see below). Since $A$ is an [[equation of state]], it encodes all information about the system. If one can calculate the partition function, the free energy can be extracted from it, and from the free energy we get everything about the system.
-
-> [!success] The partition function
-> The partition function contains all information about the system. Finding it is equivalent to solving the system completely.
 
 > [!example] $A$ is the Helmholtz free energy
 > To prove that $A$ in $Q_{N}=e^{-\beta A}$ is the Helmholtz free energy, let's write it explicitly
