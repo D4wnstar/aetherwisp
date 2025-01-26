@@ -59,21 +59,24 @@ The [[internal energy]] of the system is the [[ensemble average]] of the Hamilto
 $$U=\langle H \rangle = \frac{\int He^{-\beta H}d\mathbf{q}\,d\mathbf{p}}{\int e^{-\beta H}d\mathbf{q}\,d\mathbf{p}}$$
 as $H$ is variable due to fluctuations. We also have
 $$\boxed{U=-\frac{ \partial  }{ \partial \beta } \ln Q_{N}}$$
-#### Canonical-microcanonical ensemble
+#### Energy fluctuations
 The difference between the canonical ensemble and the [[microcanonical ensemble]] is that in the former, energy is allowed to fluctuate, whereas in the latter it is fixed and has no communication with the outside environment.
 
-Let's find how the energy fluctuates by computing its [[variance]] (up to a constant):
-$$\text{var}(H)=\langle (U-H)^{2} \rangle =\frac{\int e^{-\beta H}(U-H)^{2} dq\,dp}{Q_{N}}$$
-(???)
-$$\frac{ \partial U }{ \partial \beta } +\langle (U-H)^{2} \rangle =0$$
-$$\langle H^{2} \rangle -\langle H \rangle ^{2}=-\frac{ \partial U }{ \partial \beta }=-\frac{ \partial U }{ \partial T } \frac{ \partial T }{ \partial \beta } =-C_{V} \frac{1}{k_{B}} \frac{-1}{\beta}=k_{B}C_{V}T^{2} $$
-This connects the energy of a system with its constant-volume [[heat capacity]]. But the right hand side goes like $N$ for large particle numbers, as $k_{B}$ is constant and $T$ is [[Intensive property|intensive]], so only $C_{V}\sim N$ contributes. As such, the variance goes like $N$ asymptotically. If we compare it to the square [[mean]] of the energy $\langle H \rangle^{2}$, which goes like $N^{2}$, we can see that
-$$\boxed{\frac{\langle H^{2} \rangle -\langle H \rangle ^{2}}{\langle H \rangle ^{2}}\sim \frac{N}{N^{2}}\sim \frac{1}{N}}$$
-So in the [[Thermodynamic limit]], for large $N$, the fluctuations tend to zero, which means that the energy of the system is essentially defined up to a tiny margin of error. But that's just the definition of the microcanonical ensemble, which confirms that for macroscopic systems, they are equivalent. In fact, for canonical ensembles with a realistic number of particles $(\sim 10^{23})$, we might as well write $\text{var}(H)=0$ and $\langle H \rangle=H$.
+Let's find how the energy fluctuates by computing its [[variance]] (up to a constant). Start by differentiating the internal energy:
+$$\frac{ \partial U }{ \partial \beta }=\frac{ \partial  }{ \partial \beta }  \frac{\int He^{-\beta H}d\mathbf{q}\,d\mathbf{p}}{\int e^{-\beta H}d\mathbf{q}\,d\mathbf{p}}=- \frac{\int H^{2}e^{-\beta H}d\mathbf{q}\,d\mathbf{p}}{\int e^{-\beta H}d\mathbf{q}\,d\mathbf{p}}+\left( \frac{\int He^{-\beta H}d\mathbf{q}\,d\mathbf{p}}{\int e^{-\beta H}d\mathbf{q}\,d\mathbf{p}} \right)^{2}=-\langle H^{2} \rangle +\langle H \rangle^{2} $$
+So the variance is just another derivative, with an additional minus in front:
+$$\boxed{\text{var}(H)=-\frac{ \partial U }{ \partial \beta } =\frac{ \partial  }{ \partial \beta ^{2} } \ln Q_{N}}$$
+We can rewrite this to be
+$$\text{var}(H)=-\frac{ \partial U }{ \partial \beta }=-\frac{ \partial U }{ \partial T } \frac{ \partial T }{ \partial \beta } =- \frac{1}{k_{B}} \frac{-1}{\beta ^{2}}\frac{ \partial U }{ \partial T } =k_{B}T^{2} \frac{ \partial U }{ \partial T } $$
+Using the definition of [[heat capacity]] we can see that fluctuations are connected to it:
+$$\boxed{\text{var}(H)=k_{B}T^{2}C_{V}}$$
+The right hand side goes like $N$ for large particle numbers, as $k_{B}$ is constant and $T$ is [[Intensive property|intensive]], so only $C_{V}\sim N$ contributes. As such, the variance goes like $N$ asymptotically. If we compare it to the square [[mean]] of the energy $\langle H \rangle^{2}$, which goes like $N^{2}$, we can see that it gets nullified:
+$$\boxed{\frac{\langle H^{2} \rangle -\langle H \rangle ^{2}}{\langle H \rangle ^{2}}\sim \frac{N}{N^{2}}\sim \frac{1}{N}\to 0}$$
+So, in the [[thermodynamic limit]], energy fluctuations tend to vanish or, better, they increase but become insignificant with respect to the total energy. This makes the internal energy basically constant up to a tiny margin of uncertainty. But that's just what the definition of the microcanonical ensemble is, and so in the thermodynamic limit, the two are equivalent. For canonical ensembles with a realistic number of particles $(\sim 10^{23})$, we might as well write $\text{var}(H)=0$ and therefore $\langle H \rangle=H$.
 
-Another point that can be derived from variance equation is that the energy fluctuations are seemingly directly correlated with the heat capacity of a system. Though it might seem a bit odd at first, think of it like this: the heat capacity is the ability of a system to absorb and dissipate energy without large change in temperature. If an energy fluctuation occurs, a system with large heat capacity will scarcely respond it, whereas one with small heat capacity will feel it much more. As such, it's pretty natural to see that the system's fluctuations are dependent on how "good" it is at absorbing and dissipating energy. The bigger the heat capacity, the bigger the fluctuations are allowed to be without "breaking" the system. This is a specific case of a more universal result known as the [[fluctuation-dissipation theorem]].
-##### Alternative argument
-Another possible argument for equivalence starts from the partition function
+Another thing that can we can see from variance equation is that the energy fluctuations are seemingly directly correlated with the heat capacity of a system. Though it might seem a bit odd at first, think of it like this: the heat capacity is the ability of a system to absorb and dissipate energy without large change in temperature. If an energy fluctuation occurs, a system with large heat capacity will scarcely respond it, whereas one with small heat capacity will feel it much more. As such, it's pretty natural to see that the system's fluctuations are dependent on how "good" it is at absorbing and dissipating energy. The bigger the heat capacity, the bigger the fluctuations are allowed to be without having a tangible effect. This is a specific case of a more universal result known as the [[fluctuation-dissipation theorem]].
+##### Alternative argument for equivalence
+Another possible argument for equivalence starts from the partition function, using the $\omega(E)$ function defined in the [[#Minimization of free energy]] section below.
 $$Q_{N}(V,T)=\int e^{-\beta H(\mathbf{q},\mathbf{p})}dq\,dp=\int_{0}^{\infty} \omega(E)e^{-\beta E} \ dE=\int _{0}^{\infty}e^{-\beta E+\log \omega(E)} \ dE  =$$
 $$=\int_{0}^{\infty} e^{\beta(TS(E)-E)}dE=\ldots$$
 We can use [[Laplace's method]] here. Since $T\left( \frac{ \partial S }{ \partial E } \right)_{E}=1$.
@@ -90,9 +93,9 @@ $$\ldots=\int_{-U}^{\infty}e^{-x^{2}/2k_{B}T^{2}C_{V}}dx \simeq \int_{-\infty}^{
 
 A third argument for equivalence is purely qualitative. Consider a body in thermal equilibrium. Necessarily, the temperature of any piece of it has to be equal to the average temperature, as if it weren't, it wouldn't be in equilibrium. More generally, a body at equilibrium with the Universe must have the same temperature of the Universe. (TODO: Finish this discussion)
 ### Minimization of free energy
-In thermodynamics, a system will spontaneously converge the state of lowest free energy. This can be derived from the canonical partition function using the Helmholtz free energy. The partition function can be rewritten
+In thermodynamics, a system will spontaneously converge to the state of lowest free energy. This can be derived from the canonical partition function using the Helmholtz free energy. The partition function can be rewritten
 $$Q_{N}(V,T)=\int_{0}^{\infty} e^{-\beta E}dE\int \frac{\delta(H(\mathbf{q},\mathbf{p})-E)}{h^{3N}N!}d^{3N}q\ d^{3N}p$$
-We use a [[Delta di Dirac|Dirac delta]] to select only the states with energy $E$ and split the integral into two. Since the Dirac delta only permits integrals where $H(\mathbf{q},\mathbf{p})=E$, this simplifies back into the original form. The integral with the delta is a density of states (DOS) function:
+We use a [[Delta di Dirac|Dirac delta]] to select only the states with energy $E$ and split the integral into two. Since the Dirac delta only permits integrals where $E=H(\mathbf{q},\mathbf{p})$, the left integral evaluates to $e^{-\beta H}$, which returns the original form. The integral with the delta is a density of states (DOS) function with respect to $E$:
 $$\omega(E)=\int \frac{\delta(H(\mathbf{q},\mathbf{p})-E)}{h^{3N}N!}d^{3N}q\ d^{3N}p$$
 Since it counts states, we can get its [[Entropy (information theory)|Boltzmann entropy]]:
 $$S=k_{B}\ln \omega(E)$$
@@ -100,13 +103,15 @@ which we can invert to express the states as a function of entropy:
 $$\omega(E)=e^{S(E)/k_{B}}=e^{\beta TS(E)}$$
 With this, the partition function becomes
 $$Q_{N}(V,T)=\int_{0}^{\infty} e^{-\beta E}\omega (E)dE=\int_{0}^{\infty}e^{-\beta[E-TS(E)]}\ dE=\int_{0}^{\infty}e^{-\beta A(E)}\ dE$$
-The most impactful contribution to the integral is given by the region of lowest free energy, so we want to find the minimum of $A(E)$. Let's assume this minimum exists and let's call $\bar{E}$ the energy value at which it occurs. We can use [[Laplace's method]] to approximate the integral. $A(\bar{E})$ is a [[Punto critico|stationary point]] for which
+by using the definition of Helmholtz free energy. Mathematically, the most impactful contribution to the integral is given by the highest exponent, which occurs when $\beta A(E)$ is lowest. Since $\beta$ is constant, we're left with a minimization problem for $A(E)$.
+
+This kind of integral is well suited for approximation with [[Laplace's method]]. Under the assumption that this minimum exists, we call call the energy value at which it occurs $\bar{E}$. Thus, $A(\bar{E})$ is a [[Punto critico|stationary point]]:
 $$\frac{ \partial A }{ \partial E } (\bar{E})=0$$
 Unpacking the definition $A=E-TS$, we get
 $$\left( 1-T\frac{ \partial S }{ \partial E }  \right)(\bar{E})=0$$
 which gives us the well-known entropy-temperature relation
 $$\frac{ \partial S }{ \partial E } (\bar{E})=\frac{1}{T}$$
-This proves that the equilibrium temperature $T$ is determined exclusively by the energy state $\bar{E}$ at which free energy is minimized. With the same procedure, we can also find the second derivative
+The neat part of this specific relation is that it shows that the equilibrium temperature $T$ is determined exclusively by the energy state $\bar{E}$ at which free energy is minimized. We can also examine the second derivative:
 $$\frac{ \partial ^{2}A }{ \partial E^{2} } (\bar{E})=-T \frac{ \partial ^{2}S }{ \partial E^{2} }=-T\frac{ \partial  }{ \partial E } \frac{1}{T}= -T \left( -\frac{1}{T^{2}} \right)\frac{ \partial T }{ \partial E }  =\frac{1}{TC_{V}}$$
 since the [[heat capacity]] is $C_{V}=\frac{ \partial E }{ \partial T }$. Since [[absolute temperature]] and heat capacity are both strictly positive, this is also a strictly positive quantity, which guarantees that $A(\bar{E})$ is a minimum. We can expand $A$ in a [[Serie di Taylor|Taylor series]] about $\bar{E}$ up to the second order:
 $$\begin{align}
@@ -119,8 +124,9 @@ Since the integrand is very sharply peaked around $\bar{E}$, we can extend the l
 $$Q_{N}\simeq \sqrt{ 2\pi k_{B}T^{2}C_{V} }e^{-\beta A(\bar{E})}$$
 and the natural logarithm, for convenience, is
 $$\ln Q_{N}=- \frac{A(\bar{E})}{k_{B}T}+ \frac{1}{2}\ln(2\pi k_{B}T^{2}C_{V})$$
-In the [[Thermodynamic limit]], the first term is of order $N$ (due to $A$), whereas the second is of order $\ln N$ (due to $\ln T$). Thus, the second term is vanishingly small and we can write
+In the [[thermodynamic limit]], the first term is of order $N$ (since $\bar{E}\sim N$ inside of $A$), whereas the second is of order $\ln N$ (since $C_{V}\sim N$). Thus, when $N$ is large, the second term becomes vanishingly small in comparison to the first and can be neglected without error. In this case, we finally find:
 $$\ln Q_{N}=-\beta A(\bar{E})\quad\Rightarrow \quad Q_{N}=e^{-\beta A(\bar{E})}$$
+The only term left is the minimum energy state.
 
 > [!success] Result
 > All of the relevant information about the system can be deduced just from the state of lowest free energy. Though it is technically an approximation, just like the [[Laws of thermodynamics|second law of thermodynamics]] it is so exceedingly unlikely for the system to stabilize in any other state that we might as well consider it to a be a perfect, non-approximate result.

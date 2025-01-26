@@ -1,22 +1,27 @@
 The **grand canonical ensemble** is an [[ensemble]] that is not [[Physical system|isolated]] from the environment, but is in [[Thermal equilibrium|thermal]] and [[chemical equilibrium]] with a much larger [[Heat reservoir|heat]] and particle reservoir. As such, both [[energy]] and number of [[Particella|particles]] can fluctuate. The conserved quantities are the [[temperature]] $T$ and the [[chemical potential]] $\mu$. Its density function is
-$$\rho(Z,V,T)=Z^{N}Q_{N}(V,T)$$
-where $Z=e^{\beta \mu}$ and $Q_{N}$ is the [[Partition function|canonical partition function]]. Its [[partition function]] is
-$$\mathcal{Z}(Z,V,T)\equiv \sum_{N=0}^{\infty} Z^{N}Q_{N}(V,T)$$
+$$\rho(z,V,T)=z^{N}Q_{N}(V,T)$$
+where $z=e^{\beta \mu}$ is the [[fugacity]] and $Q_{N}$ is the [[Partition function|canonical partition function]]. Its [[partition function]] is
+$$\mathcal{Z}(z,V,T)\equiv \sum_{N=0}^{\infty} z^{N}Q_{N}(V,T)$$
 ### Density function derivation
-Let's consider two gases of particle numbers $N_{1}$ and $N_{2}$ bound by $N_{2}=N-N_{1}$ and volumes $V_{1}$ and $V_{2}$. Let's assume $V_{2}\gg V_{1}$ and $N_{2}\gg N_{1}$ and that the [[Hamiltonian]] is additive:
-$$H(\mathbf{q},\mathbf{p},N)=H(\mathbf{q}_{1},\mathbf{p}_{1},N_{1})+H(\mathbf{q}_{2},\mathbf{p}_{2},N_{2})$$
-This implicitly means that we are neglecting interactions between the gases, which generally means that the interaction range is short.
+Let's consider a system and a particle and [[heat reservoir]] of particle numbers $N_{1}$ and $N_{2}$ bound by $N_{2}=N-N_{1}$ and volumes $V_{1}$ and $V_{2}=V-V_{1}$. Let's assume $V_{2}\gg V_{1}$ and $N_{2}\gg N_{1}$ and their [[Hamiltonian|Hamiltonians]] are separable:
+$$H(\mathbf{q},\mathbf{p},N)=H_{1}(\mathbf{q}_{1},\mathbf{p}_{1},N_{1})+H_{2}(\mathbf{q}_{2},\mathbf{p}_{2},N_{2})$$
+This implicitly means that we are neglecting interactions between the systems beyond the bare minimum required to exchange particles and [[heat]], which generally means that the interaction range is short.
 
-Note how the grand canonical is just an extended version of the [[canonical ensemble]], so let's start from that [[partition function]]:
-$$Q_{N}=\int \frac{e^{\beta H(\mathbf{q},\mathbf{p},N)}}{h^{3N}N!}dq\,dp$$
-$N$ becomes variable in time so
+Note how the grand canonical is just an extended version of the [[canonical ensemble]], so let's start from the [[Partition function|canonical partition function]]:
+$$Q_{N}=\int \frac{e^{\beta H(\mathbf{q},\mathbf{p},N)}}{h^{3N}N!}d\mathbf{q}\,d\mathbf{p}$$
+$N$ is now a variable, so we also need to take every possible combination of $N_{1}$ and $N_{2}$ into account. At a fixed $N_{1}$, the number of states due to $N$ is given by the [[binomial theorem]] as
+$$\begin{pmatrix}N \\ N_{1}\end{pmatrix}=\frac{N!}{N_{1}!(N-N_{1})!}=\frac{N!}{N_{1}!N_{2}!}$$
+but $N_{1}$ can go anywhere between $0$ and $N$, so the actual total is
+$$\sum_{N_{1}=0}^{N}\begin{pmatrix}N \\ N_{1}\end{pmatrix} =\sum_{N_{1}=0}^{N} \frac{N!}{N_{1}!N_{2}!}$$
+Since state combinations are found by multiplying, our new partition function looks as follows:
 $$\begin{align}
-Q_{N}(V,T)&=\frac{1}{h^{3N}N!}\int dq_{1}dp_{1}\sum_{N_{1}=0}^{N} \frac{N!}{N_{1}!N_{2}!}\int_{V_{1}}dq_{1}\int_{V_{2}}dq_{2}\ e^{-\beta[H(\mathbf{q}_{1},\mathbf{p}_{1},B_{1})+H(\mathbf{q}_{2},\mathbf{p}_{2},N_{2})]} \\
-&=\sum_{N_{1}=0}^{N} \frac{1}{h^{3N}N!}\int dp_{1}\int_{V_{1}} dq_{1}\ \frac{e^{-\beta H(\mathbf{q}_{1},\mathbf{p}_{1},N_{1})}}{h^{3N_{1}}N_{1}!} \frac{1}{h^{3N_{2}}N_{2}!}\int dp_{2}\int_{V_{2}} dq_{2}\ e^{-\beta H(\mathbf{q}_{2},\mathbf{p}_{2},N_{2})} \\
-&=\ldots
+\mathcal{Q}_{N}(V,T)&=\sum_{N_{1}=0}^{N} \frac{N!}{N_{1}!N_{2}!}Q_{N} \\
+&=\sum_{N_{1}=0}^{N} \frac{\cancel{ N! }}{N_{1}!N_{2}!}\frac{1}{h^{3N}\cancel{ N! }}\int\ e^{-\beta[H_{1}(\mathbf{q}_{1},\mathbf{p}_{1},B_{1})+H_{2}(\mathbf{q}_{2},\mathbf{p}_{2},N_{2})]}d\mathbf{q}d\mathbf{p} \\
+&=\sum_{N_{1}=0}^{N}\int\frac{e^{-\beta H_{1}(\mathbf{q}_{1},\mathbf{p}_{1},N_{1})}}{h^{3N_{1}}N_{1}!} d\mathbf{q}_{1}d\mathbf{p}_{1}\int \frac{e^{-\beta H_{2}(\mathbf{q}_{2},\mathbf{p}_{2},N_{2})}}{h^{3N_{2}}N_{2}!} d\mathbf{q}_{2}d\mathbf{p}_{2}\\
+&=\sum_{N_{1}=0}^{N} Q_{N_{1}}Q_{N_{2}}=\ldots
 \end{align}$$
 Note that
-$$\sum_{N_{1}=0}^{N} \int dp_{1}\int_{V_{1}}dq_{1}\rho(\mathbf{q}_{1},\mathbf{p}_{1},N_{1})=1\tag{1}$$
+$$\sum_{N_{1}=0}^{N} \int  \rho(\mathbf{q}_{1},\mathbf{p}_{1},N_{1})d\mathbf{q}_{1}d\mathbf{p}_{1}=1 \tag{1}$$
 We can get
 $$\begin{align}
 \ldots&=\frac{Q_{N_{2}}(V_{2},T)}{Q_{N}(V,T)} \frac{e^{-\beta H(\mathbf{q}_{1},\mathbf{p}_{1},N_{1})}}{h^{3N_{1}}N_{1}!}
