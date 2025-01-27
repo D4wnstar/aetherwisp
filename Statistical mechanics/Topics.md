@@ -12,7 +12,7 @@
 - [[Gibbs paradox]]
 - [[Sackur-Tetrode equation]]
 - [[Ideal gas]] (classical)
-- [[Imperfect gas]]
+- [[Interacting gas]]
 - [[Ising model]]
 ### Quantum classical mechanics
 - [[Quantum statistical mechanics]]

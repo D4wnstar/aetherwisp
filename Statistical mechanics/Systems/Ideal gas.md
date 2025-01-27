@@ -34,7 +34,7 @@ $$S(V,T_{0})=C_{0}+Nk_{B}\ln V$$
  $$S(V,T)=C_{0}+Nk_{B}\ln V+C_{V}\ln T$$
  This depends on the nature of the gas itself, because of $C_{V}$. For a monatomic ideal gas, we have
 $$S(V,T)=C_{0}+Nk_{B}\ln(VT^{3/2})$$
-### Pressure
+#### Pressure
 The pressure of an ideal gas is the average force per unit area that it exerts on the wall of its container. By calculating the energy transferred from each particle collision on the walls per unit time, we can derive the pressure directly from particle mechanics.
 
 Take the wall to be normal to the $x$ axis and assume the wall is perfectly reflecting. When a particle of velocity $v_{x}$ hits the wall, it transfers $2p_{x}=2mv_{x}$ momentum to the wall. The total force on the wall is given by this momentum transfer multiplied by the amount of particles hitting a unit area of the wall, i.e. the particle [[flux]].
@@ -51,35 +51,48 @@ and so
 $$P=\frac{1}{3m}\int _{v_{x}} \lvert \mathbf{p} \rvert ^{2}f(\mathbf{p})d\mathbf{p}=\frac{2}{3} \frac{U}{V}$$
 which is solved with a [[Gaussian integral]]. $U$ is the [[internal energy]].
 ### In the classical microcanonical ensemble
-The entropy can also be calculated by modeling an ideal gas as a [[microcanonical ensemble]]. We use the entropy given by the sigma function $S=k_{B}\log \Sigma(E)$ where
+The ideal gas is a simple enough system that it can be solved exactly using as the [[microcanonical ensemble]].
+#### Entropy
+We use the entropy given by the sigma function $S=k_{B}\log \Sigma(E)$ where
 $$\Sigma(E)=\frac{1}{h^{3N}}\int\limits_{H(\mathbf{q},\mathbf{p})<E}d^{3}q_{1}\ldots d^{3}q_{N}\,d^{3}p_{1}\ldots d^{3}p_{N}$$
-and $h$ is a dimensionally appropriate constant, specifically $\text{impulse}\times\text{length}$, which gives $\text{energy}\times\text{seconds}$. We can develop this as
+and $h$ is a dimensionally appropriate constant, specifically $\text{impulse}\times\text{length}$, which gives $\text{energy}\times\text{seconds}$. We put no restrictions on position, so all those integrals just amount to $V^{N}$:
 $$\Sigma(E)=\left( \frac{V}{h^{3}} \right)^{N}\int\limits_{H(\mathbf{q},\mathbf{p})<E}d^{3}p_{1}\ldots d^{3}p_{N}$$
-Since the energy of a particle under no potential is $E=p^{2}/2m$, the momentum is $p=\sqrt{ 2mE }$. This momentum describes a $n$-[[palla|ball]] of radius $R=p=\sqrt{ 2mE }$ in the momentum-only [[phase space]], but the integral finds the volume of that ball in phase space (by finding the representative points contained therein), so we can rename the integral as a function $\Omega_{3N}(R)$ which finds the volume of a $3N$-dimensional ball of radius $R$:
+Since the energy of a free particle is $E=p^{2}/2m$, the momentum is $p=\sqrt{ 2mE }$. This momentum describes a $n$-[[palla|ball]] of radius $R=p=\sqrt{ 2mE }$ in the momentum-only [[phase space]], but the integral finds the volume of that ball in phase space (by finding the representative points contained therein), so we can rename the integral as a function $\Omega_{3N}(R)$ which finds the volume of a $3N$-dimensional ball of radius $R$:
 $$\Sigma(R)=\left( \frac{V}{h^{3}} \right)^{N}\Omega_{3N}(R)$$
 In general, $\Omega_{3N}$ is
 $$\Omega_{3N}(R)=\int\limits_{x_{1}^{2}+x_{2}^{2}+\ldots+x_{n}^{2}<R^{2}}dx_{1}\ldots dx_{n}$$
 (in our case, $x\equiv p$). We know both $V$ and $h$ ($h$ just needs to have the correct dimensions, so might as well be $h=1 \text{ Js}$ in this case), so in order to find $\Sigma$ and therefore $S$, we just need to solve $\Omega$ in $3N$ dimensions. Thankfully, $\Omega$ can be solved generally for any integer $N$ (see [[Volume of an n-ball]]), which gives
 $$\Omega_{3N}=\frac{\pi^{3N/2}}{\Gamma\left( \frac{3N}{2}+1 \right)}R^{3N}$$
 where $\Gamma$ is the [[Gamma function]]. Thus, we have
-$$\Sigma(R)=\left( \frac{V}{h^{3}} \right)^{N} \underbrace{ \frac{\pi^{3N/2}}{\Gamma\left( \frac{3N}{2}+1 \right)} }_{ c_{n} }R^{3N}=\left( \frac{V}{h^{3}} \right)^{N}c_{3N} (2mE)^{3N/2}$$
+$$\Sigma(R)=\left( \frac{V}{h^{3}} \right)^{N} \frac{\pi^{3N/2}}{\Gamma\left( \frac{3N}{2}+1 \right)}R^{3N}$$
 and entropy
 $$S=k_{B}\log \Sigma(R)$$
-We can use the fact that $\Gamma(n+1)=n!$ and [[Stirling's approximation]] $\log n!=n\log n-n+O(\log n)$ to get [[Steps Entropy microcanonical ideal gas]].
+We can use the fact that $\Gamma(n+1)=n!$ and [[Stirling's approximation]] $\log n!=n\log n-n$ to get ([[Steps Entropy microcanonical ideal gas]])
+$$\boxed{S=k_{B}N\left[ \frac{3}{2}\ln\left( \frac{4\pi mE}{3Nh^{2}} \right)+\ln V+ \frac{3}{2} \right]}$$
+This equation is simultaneously two things: the entropy of a classical gas, and also profoundly *wrong*. Alas, this is not the entropy we were hoping for, and not because the math or the ensemble are wrong. It is wrong because the term $\ln V$ causes this entropy to not be [[Extensive property|extensive]], despite by definition needing to be so. The culprit is to be found in quantum effects, namely the [[Identical particles|indistinguishability]] of particles, which makes many (most) states equivalent to each other and therefore not appear in the entropy. In other words, our $\Sigma(E)$ function greatly overcounts states by not taking this into account. But we're working with a classical ensemble, why do quantum effects matter? See, the issue is that despite working with a classical framework, the components here are [[Atomo|atoms]], [[molecule|molecules]], subatomic particles, you name it, whatever makes up the gas, and as it happens, these *are* quantum objects by themselves and *are* subject to quantum effects. Their individual quantum quirks end up being seen at a macroscopic level too because while the whole gas isn't quantum, it's made of quantum particles. Problems like these are in the nature of statistical mechanics: if we are to derive the macroscopic from the microscopic, we cannot ignore the quirks of the microscopic world. By the way, this wrong result is generally referred to as the [[Gibbs paradox]].
 ### In the classical canonical ensemble
-An ideal gas can also be describe by a [[canonical ensemble]]. The partition function is
+As usual, the [[canonical ensemble]] is a simpler way to obtain the same results as the microcanonical above.
+#### Partition function
+Let's find the [[partition function]]:
+$$Q_{N}=\int \frac{e^{-\beta(\mathbf{p}_{1}^{2}+\ldots+\mathbf{p}_{N}^{2})/2m}}{h^{3N}N!} \ d^{3N}q\ d^{3N}p=\ldots$$
+The [[Hamiltonian]] of the ideal gas is separable ($H=\sum_{i=1}^{N}H_{i}$), which allows us to solve the split the integral into $2N$ integrals, each in three dimensions.
 $$\begin{align}
-Q_{N}&=\int \frac{e^{-\beta(\mathbf{p}_{1}^{2}+\ldots+\mathbf{p}_{N}^{2})/2m}}{h^{3N}N!} \ d^{3N}q\ d^{3N}p \\ \\
-&= \frac{1}{N!} \int d^{3N}q\int \frac{e^{-\beta(\mathbf{p}_{1}^{2}+\ldots+\mathbf{p}_{N}^{2})/2m}}{h^{3N}}d^{3N}p \\
-&= \frac{V^{N}}{N!}\left( \int_{-\infty}^{\infty} \frac{e^{-\beta p^{2}/2m}}{h} \ dp  \right)^{3N}
-\end{align} $$
-Solving the [[Gaussian integral]] and using the [[Formula di de Broglie|de Broglie thermal wavelength]] $\lambda$, we write
-$$Q_{N}=\frac{1}{N!}\left( \frac{V}{\lambda ^{3}} \right)^{N}$$
-and its logarithm is
+\ldots&= \frac{1}{h^{3N}N!} \int d^{3N}q\int e^{-\beta(\mathbf{p}_{1}^{2}+\ldots+\mathbf{p}_{N}^{2})/2m}d^{3N}p \\
+&= \frac{1}{N!} \left( \int_{V} d^{3}q \right)^{N}\left( \int e^{-\beta \mathbf{p}^{2}/2m}d^{3}p \right)^{N}=\ldots
+\end{align}$$
+The first integral is just the volume $V$. The second integral can be rewritten in [[spherical coordinates]] by noticing that there is no angular dependency, and so the two angle integrals just evaluate to $4\pi$:
+$$\ldots= \frac{V^{N}}{h^{3N}N!}\left( 4\pi\int_{0}^{\infty} p^{2}e^{-\beta p^{2}/2m} \ dp  \right)^{N}=\ldots$$
+This is a [[Gaussian integral]], which solves to
+$$\ldots=\frac{V^{N}}{h^{3N}N!} \left( \frac{2m\pi}{\beta} \right)^{3N/2}$$
+Using the [[Formula di de Broglie|de Broglie thermal wavelength]] $\lambda$, we can simplify to
+$$\boxed{Q_{N}=\frac{1}{N!}\left( \frac{V}{\lambda ^{3}} \right)^{N}}$$
+#### Helmholtz free energy
+The partition function's logarithm is
 $$\ln Q_{N}=-\ln N!+N\ln \frac{V}{\lambda ^{3}}\simeq N-N\ln N+N\ln \frac{V}{\lambda ^{3}}=N(1-\ln n\lambda ^{3})$$
-where we defined the particle density $n=N/V$. Now that we have the partition function, thermodynamics follows suit naturally. The Helmholtz free energy is
+where we used [[Stirling's approximation]] and the particle density $n=N/V$. The [[Helmholtz free energy]] is
 $$A=- \frac{1}{\beta}\ln Q_{N}\simeq- \frac{1}{\beta}N(1-\ln (n\lambda ^{3}))=k_{B}TN[\ln(n\lambda ^{3})-1]$$
-and the entropy
+#### Entropy
+The entropy comes from the [[Maxwell relations]] connecting it to the Helmholtz free energy:
 $$\begin{align}
 S&=-\left( \frac{ \partial A }{ \partial T }  \right)_{V} \\
 &=-k_{B}N\frac{ \partial  }{ \partial T } [T(\ln(n\lambda ^{3})-1)] \\

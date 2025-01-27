@@ -1,6 +1,6 @@
-An **imperfect gas** is a generalization of an [[ideal gas]] which also includes a two-body interaction term. The [[Hamiltonian]] of the [[Physical system|system]] is
+An **interacting gas** is a generalization of an [[ideal gas]] which also includes a two-body interaction term. The [[Hamiltonian]] of the [[Physical system|system]] is
 $$H=\sum_{i=1}^{N} \frac{\mathbf{p}_{i}^{2}}{2m}+\sum_{i<j}^{N} v_{ij}$$
-The second sum is the interaction term. Normally, the interaction depends on the distance between [[Particella|particles]]: $v_{ij}=v(|\mathbf{r}_{i}-\mathbf{r}_{j}|)$.
+The second sum represents the interaction as a sum of interparticle [[Potenziale|potentials]]. Normally, the interaction depends on the distance between [[Particella|particles]]: $v_{ij}\propto |\mathbf{r}_{i}-\mathbf{r}_{j}|$.
 ### In the canonical ensemble
 As with the ideal gas, using the [[canonical ensemble]] is convenient. As usual, we want the [[Helmholtz free energy]], which we extract from the [[partition function]] as
 $$A=-k_{B}T\ln Z$$

@@ -1,4 +1,4 @@
-The **equipartition theorem** is a result in statistical mechanics that equates the [[temperature]] of a [[Physical system|system]] to the average [[energy]] of its components. The name comes from the fact that at [[thermal equilibrium]], total system energy is equally divided among all its components, such as translational, rotational, elastic, etc..
+The **equipartition theorem** is a result in statistical mechanics that equates the [[temperature]] of a [[Physical system|system]] to the average [[energy]] of its components. The name comes from the fact that at [[thermal equilibrium]] and sufficiently high temperatures, total system energy is equally divided among all its components, such as translational, rotational, elastic, etc..
 
 In the most general form, it states the following:
 
@@ -8,21 +8,34 @@ In the most general form, it states the following:
 > where $\delta$ is the [[Delta di Kronecker|Kronecker delta]], $k_{B}$ is the [[Boltzmann constant]] and $T$ is the temperature. The brackets represent an [[ensemble average]]. The degrees of freedom are coordinates in [[phase space]].
 
 For $i=j$ and $x_{i}=p_{i}$ or $x_{i}=q_{i}$ we get
-$$\left\langle  p_{i}\frac{ \partial H }{ \partial p_{i} }   \right\rangle =k_{B}T\quad,\quad \left\langle  q_{i}\frac{ \partial H }{ \partial q_{i} }   \right\rangle =k_{B}T$$
+$$\left\langle  p_{i}\frac{ \partial H }{ \partial p_{i} }   \right\rangle =k_{B}T\qquad \left\langle  q_{i}\frac{ \partial H }{ \partial q_{i} }   \right\rangle =k_{B}T$$
 Notably this means that, universally, $\langle p^{2} \rangle \propto k_{B}T$.
 ### Proof
-Proof can be found by way of integration over the phase space. It can be found using the formalism of both the [[microcanonical ensemble]] and the [[canonical ensemble]]. The following proof uses the microcanonical phase space with the $\Gamma(E)$ state counting function:
-$$\left\langle  x_{i}\frac{ \partial H }{ \partial x_{j} }   \right\rangle=\frac{1}{\Gamma(E)}\int\limits_{E<H<E+\Delta} x_{j}\frac{ \partial H }{ \partial x_{j} }\,dp\,dq= \frac{1}{\Gamma(E)}\Delta \frac{ \partial  }{ \partial E } \int\limits_{H<E}x_{j}\frac{ \partial H }{ \partial E }\,dp\,dq=$$
-$$\frac{\Delta}{\Gamma(E)}\frac{ \partial  }{ \partial E } \int\limits_{E<H}x_{i}\frac{ \partial  }{ \partial x_{j} } (H-E)=\frac{\Delta}{\Gamma(E)}\frac{ \partial  }{ \partial E } \left\{ \int\limits_{H<E} \frac{ \partial  }{ \partial x_{j} } [x_{i}(H-E)]\,dp\,dq-\delta _{ij}\int H-E\,dp\,dq \right\}$$
-The first integral in the curly brackets cancels out because it is the integral of a derivative (?). and defining $\Gamma(E)=\omega(E)\cdot\Delta$ and $\omega(E)=\frac{ \partial \Sigma(E) }{ \partial E }$.
-$$\left\langle  x_{i}, \frac{ \partial H }{ \partial x_{j} }   \right\rangle = \frac{1}{\omega(E)}\delta_{ij}\frac{ \partial  }{ \partial E } \int\limits_{H<E}(E-H)\,dp\,dq=\frac{\delta_{ij}}{\omega(E)}\int\limits_{H<E}dp\,dq=\frac{\delta_{ij}}{\omega(E)}\Sigma(E)=$$
-$$=\frac{\delta_{ij}}{\frac{ \partial \Sigma(E) }{ \partial E } }\Sigma(E)=\delta_{ij} \frac{1}{\frac{ \partial  }{ \partial E } \log \Sigma(E)}$$
-Since the [[entropy]] is $S=k_{B}\log \Sigma(E)$ and $\frac{1}{T}=\frac{ \partial S }{ \partial E }$ we get
-$$\left\langle  x_{i}\frac{ \partial H }{ \partial x_{j} }   \right\rangle=\delta_{ij}k_{B}T $$
-
-
-
-$$\frac{ \partial E }{ \partial x_{j} } =0$$
+Proof can be found by way of integration over the phase space. It can be found using the formalism of both the [[microcanonical ensemble]] and the [[canonical ensemble]], and both of them revolve around calculating the [[ensemble average]] in different ways.
+#### Microcanonical
+The following proof uses the microcanonical phase space. Our ensemble average for a quantity $O$ is given by
+$$\langle O \rangle =\frac{1}{\Gamma(E)} \int\limits_{E<H<E+\Delta}Od\mathbf{q}d\mathbf{p}$$
+$\Gamma(E)$ is the state counting function in a thin spherical shell of radii $E$ and $E+\Delta$, with $\Delta\ll E$. We can therefore state
+$$\left\langle  x_{i}\frac{ \partial H }{ \partial x_{j} }   \right\rangle=\frac{1}{\Gamma(E)}\int\limits_{E<H<E+\Delta} x_{i}\frac{ \partial H }{ \partial x_{j} }\,d\mathbf{q}\,d\mathbf{p}=\ldots$$
+Since the spherical shell is very thin, $\Gamma(E)$ is well approximated as
+$$\Gamma(E)=\Delta \cdot \frac{ \partial \Sigma(E) }{ \partial E } =\Delta\cdot \omega(E)$$
+where $\Sigma(E)$ is the function that counts states inside the sphere of radius $E$ and $\omega(E)$ is its derivative. This yields
+$$\ldots= \frac{1}{\Gamma(E)}\Delta \frac{ \partial  }{ \partial E } \int\limits_{H<E}x_{i}\frac{ \partial H }{ \partial x_{j} }\,d\mathbf{q}\,d\mathbf{p}=\ldots$$
+where we changed our integration bounds from the shell $E<H<E+\Delta$ to the sphere $H<E$. The quantity $\Gamma(E)/\Delta$ is the function $\omega(E)$. Moreover, we can substitute $H$ with $H-E$ in the derivative since $E$ is constant and vanishes either way. Thus
+$$\ldots=\frac{1}{\omega(E)}\frac{ \partial  }{ \partial E } \int\limits_{H<E} x_{i}\frac{ \partial (H-E) }{ \partial x_{j} } d\mathbf{q}d\mathbf{p}=\ldots$$
+We can now use [[Integrazione per parti|integration by parts]]:
+$$\ldots=\frac{1}{\omega(E)}\frac{ \partial  }{ \partial E } \left[ \int\limits_{H<E}\frac{ \partial  }{ \partial x_{j} }(x_{i}(H-E))d\mathbf{q}d\mathbf{p}- \int\limits_{H<E} \delta_{ij}(H-E)d\mathbf{q}d\mathbf{p} \right]=\ldots$$
+since $\partial x_{i}/\partial x_{j}=\delta_{ij}$. The first integral vanishes because it can be rewritten as an integral of $H-E$ on the [[hypersurface]] defined by $H=E$. We are now left with
+$$\ldots=\frac{\delta_{ij} }{\omega(E)}\frac{ \partial  }{ \partial E } \int\limits_{H<E}(E-H)d\mathbf{q}d\mathbf{p}=\frac{\delta_{ij}}{\omega(E)}\int\limits_{H<E}d\mathbf{q}d\mathbf{p}=\frac{\delta_{ij}}{\omega(E)}\Sigma(E)$$
+We have
+$$\frac{\Sigma(E)}{\omega(E)}=\left( \frac{1}{\Sigma (E)}\frac{ \partial \Sigma(E) }{ \partial E }  \right)^{-1}=\left( \frac{ \partial \ln \Sigma (E) }{ \partial E }  \right)^{-1}$$
+Microcanonical [[entropy]] is given as $S=k_{B}\ln \Sigma(E)$. Its derivative is
+$$\frac{1}{T}=\frac{ \partial S }{ \partial E } =k_{B}\frac{ \partial \ln \Sigma(E) }{ \partial E } $$
+so
+$$\frac{\Sigma(E)}{\omega(E)}=k_{B}T$$
+If we substitute this, we get
+$$\left\langle  x_{i}\frac{ \partial H }{ \partial x_{j} }   \right\rangle =\delta_{ij}k_{B}T$$
+which completes our proof.
 ### Specific forms
 #### Harmonic oscillators
 For the specific case of a [[Oscillatore armonico|harmonic oscillator]], the equipartition theorem becomes

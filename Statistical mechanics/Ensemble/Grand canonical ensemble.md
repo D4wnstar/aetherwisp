@@ -16,7 +16,7 @@ $$\sum_{N_{1}=0}^{N}\begin{pmatrix}N \\ N_{1}\end{pmatrix} =\sum_{N_{1}=0}^{N} \
 Since state combinations are found by multiplying, our new partition function looks as follows:
 $$\begin{align}
 \mathcal{Q}_{N}(V,T)&=\sum_{N_{1}=0}^{N} \frac{N!}{N_{1}!N_{2}!}Q_{N} \\
-&=\sum_{N_{1}=0}^{N} \frac{\cancel{ N! }}{N_{1}!N_{2}!}\frac{1}{h^{3N}\cancel{ N! }}\int\ e^{-\beta[H_{1}(\mathbf{q}_{1},\mathbf{p}_{1},B_{1})+H_{2}(\mathbf{q}_{2},\mathbf{p}_{2},N_{2})]}d\mathbf{q}d\mathbf{p} \\
+&=\sum_{N_{1}=0}^{N} \frac{\cancel{ N! }}{N_{1}!N_{2}!}\frac{1}{h^{3(N_{1}+N_{2})}\cancel{ N! }}\int\ e^{-\beta[H_{1}(\mathbf{q}_{1},\mathbf{p}_{1},N_{1})+H_{2}(\mathbf{q}_{2},\mathbf{p}_{2},N_{2})]}d\mathbf{q}d\mathbf{p} \\
 &=\sum_{N_{1}=0}^{N}\int\frac{e^{-\beta H_{1}(\mathbf{q}_{1},\mathbf{p}_{1},N_{1})}}{h^{3N_{1}}N_{1}!} d\mathbf{q}_{1}d\mathbf{p}_{1}\int \frac{e^{-\beta H_{2}(\mathbf{q}_{2},\mathbf{p}_{2},N_{2})}}{h^{3N_{2}}N_{2}!} d\mathbf{q}_{2}d\mathbf{p}_{2}\\
 &=\sum_{N_{1}=0}^{N} Q_{N_{1}}Q_{N_{2}}=\ldots
 \end{align}$$
@@ -37,13 +37,13 @@ $$P=- \left( \frac{ \partial A(N_{2},V_{2},T) }{ \partial V_{2} }  \right)_{V_{2
 Putting things together we get a density function
 $$\rho(\mathbf{q}_{1},\mathbf{p}_{1},N_{1})=\frac{e^{-\beta(P_{1}V-N_{1}\mu)}}{h^{3N}N_{1}!} e^{-\beta H(\mathbf{q}_{1},\mathbf{p}_{1},N_{1})}$$
 Now let's only consider system 1 (and drop the subscript for simplicity) and let's define [[fugacity]] as
-$$Z\equiv e^{\beta \mu}$$
+$$z\equiv e^{\beta \mu}$$
 The density function becomes
-$$\boxed{\rho(\mathbf{q},\mathbf{p},N)=\frac{Z^{N}}{h^{3N}N!}e^{-\beta PV-\beta H(\mathbf{q},\mathbf{p},N)}}$$
-This is dependent on three variables: [[temperature]] $T$ (hidden in $\beta$), pressure $P$ and chemical potential $\mu$ (hidden in $Z$).
+$$\boxed{\rho(\mathbf{q},\mathbf{p},N)=\frac{z^{N}}{h^{3N}N!}e^{-\beta PV-\beta H(\mathbf{q},\mathbf{p},N)}}$$
+This is dependent on three variables: [[temperature]] $T$ (hidden in $\beta$), pressure $P$ and chemical potential $\mu$ (hidden in $z$).
 ### Partition function
 Using what we found when deriving the density function, we can write the **grand canonical partition function**:
-$$\boxed{\mathcal{Z}(Z,V,T)\equiv \sum_{N=0}^{\infty} Z^{N}Q_{N}(V,T)}$$
+$$\boxed{\mathcal{Z}(z,V,T)\equiv \sum_{N=0}^{\infty} z^{N}Q_{N}(V,T)}$$
 which is an extended form of the canonical partition function, weighed by the fugacity.
 ### Ensemble average
 The [[ensemble average]] in the grand canonical ensemble is the canonical ensemble average weighted by the fugacity:
