@@ -14,7 +14,7 @@
 - [[Ideal gas]] (classical)
 - [[Interacting gas]]
 - [[Ising model]]
-### Quantum classical mechanics
+### Quantum statistical mechanics
 - [[Quantum statistical mechanics]]
 - [[Random phase hypothesis]]
 - [[Identical particles]]

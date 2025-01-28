@@ -41,18 +41,20 @@ Q_{N}&=\sum_{\{ S_{i} \}}e^{-\beta H}=\sum_{S_{1}=\pm 1}\ldots\sum_{S_{N}=\pm 1}
 \end{align}$$
 #### Mean field approximation
 The **mean field approximation** is arguably one of the most common approximations in statistical mechanics. In it, we do not ignore the interactions themselves ($J\neq 0$), but we do ignore the cross terms caused by the interaction. To see this, consider the quantity
-$$S_{i}=\langle S_{i} \rangle +\underbrace{ S_{i}-\langle S_{i} \rangle }_{ \delta S_{i} }=\langle S_{i} \rangle -\delta S_{i} =m-\delta S_{i}$$
+$$S_{i}=\langle S_{i} \rangle +\underbrace{ S_{i}-\langle S_{i} \rangle }_{ -\delta S_{i} }=\langle S_{i} \rangle -\delta S_{i} =m-\delta S_{i}$$
 where we renamed $\langle S_{i} \rangle=m$ as the average [[magnetic dipole moment]]. If we substitute this in the Hamiltonian, we get
 $$H=-J\sum_{\langle i,j \rangle }(m -\delta S_{i})(m -\delta S_{j} )-h\sum_{i=1}^{N} S_{i}$$
-We now have cross-terms in the first sum. The essence of the interaction is more or less hidden within the term $\delta S_{i}\delta S_{j}$, and it contains all the complexity of the system. The mean field approximation is making this term vanish: $\delta S_{i}\delta S_{j}=0$. This leaves only independent terms for each lattice point, which lead to independent Hamiltonians and a solution very similar to the "no interaction" case above, just with some additional terms due to the interaction. If we actually compute the product step-by-step for a generic $d$-dimensional lattice we find
+We now have cross-terms in the first sum. The essence of the interaction is more or less hidden within the term $\delta S_{i}\delta S_{j}$. It also contains all the complexity of the system, so our best bet to solving it is to just pretend it doesn't exist: $\delta S_{i}\delta S_{j}=0$. This is the mathematical statement of the mean field approximation.
+
+This leaves only independent terms for each lattice point, which lead to independent Hamiltonians and a solution very similar to the "no interaction" case above, just with some additional terms due to the interaction. If we actually compute the product step-by-step for a generic $d$-dimensional lattice we find
 $$\begin{align}
-H&\simeq-Jm^{2}N-Jm\sum_{\langle i,j \rangle }(\delta S_{i}+\delta S_{j})-h\sum_{i=1}^{N} S_{i} \\
+H&\simeq-Jm^{2}N_{B}-Jm\sum_{\langle i,j \rangle }(\delta S_{i}+\delta S_{j})-h\sum_{i=1}^{N} S_{i} \\
 &=-Jm^{2}N_{B}-Jmz\sum_{i=1}^{N} \delta S_{i}-h\sum_{i=1}^{N} S_{i} \\
 &=-Jm^{2}N_{B}-Jmz\sum_{i=1}^{N} (S_{i}-m)-h\sum_{i=1}^{N} S_{i} \\
 &=-Jm^{2}N_{B}+Jmz\sum_{i=1}^{N} m-\sum_{i=1}^{N}(Jmz+h) S_{i} \\
 &=\text{const.}+\sum_{i=1}^{N} H_{i}
 \end{align}$$
-where we set $H_{i}=(Jmz+h)S_{i}$ and the rest was hidden away in a generic constant. The term $z$ is the [[coordination number]], the number of other sites each site interacts with. For example, in a hypercubic lattice it is twice the dimension, $z=2d$. Knowing the Hamiltonians, we can calculate the [[partition function]]:
+where we set $H_{i}=(Jmz+h)S_{i}$ and the rest was hidden away in a generic constant. $N_{B}$ is the number of bonds, the total number of "connections" there are between sites. The term $z$ is the [[coordination number]], the number of other sites each site interacts with. For example, in a hypercubic lattice it is twice the dimension, $z=2d$. Knowing the Hamiltonians, we can calculate the [[partition function]]:
 $$Z=\sum_{S=\pm 1} e^{-\beta H_{i}}=2\cosh(\beta(Jmz+h)) $$
 and then the average spin:
 $$m=\langle S_{i} \rangle =\frac{1}{Z}\sum_{S=\pm 1}S_{i}e^{-\beta H_{i}}=\frac{2\sinh(\beta(Jmz+h))}{2\cosh(\beta(Jmz+h))}=\tanh(\beta(Jmz+h))$$
@@ -64,7 +66,7 @@ Note that this is a transcendental equation, so the best we can do is show it nu
 
 This plot is the phase diagram of the model. The diagonal line is the $m=0$ case. The phase transition occurs when this line is crossed. Proving that a phase transition occurs just means proving that there are temperature for which non-trivial $m=0$ solutions are possible (that is, $m=0$ outside of the origin). These solution can be found using, for instance, the hyperbolic tangent [[Serie di Taylor|Taylor series]] $\tanh x=x-x^{3}/3+\ldots$.
 
-When the temperature is $T>T_{C}$, the only solution is at the origin. When $T<T_{C}$, we have three solutions: one at the origin and two somewhere else, shown in as red crosses in the plot. This is an important fact: the magnetization *must* have two solutions for it to make sense, as it must be symmetrical. A phase transition is fundamentally the [[symmetry break|breaking of a symmetry]].
+When the temperature is $T>T_{C}$, the only solution is at the origin. When $T<T_{C}$, we have three solutions: one at the origin and two somewhere else, shown in the figure as red crosses. This is an important fact: the magnetization *must* have two solutions for it to make sense, as it must be symmetrical. A phase transition is fundamentally the [[symmetry break|breaking of a symmetry]].
 ### Quantum model
 The Ising model can be rewritten in quantum mechanical terms. The classical Ising Hamiltonian is
 $$H=-J\sum_{\langle i,j \rangle }S_{i}S_{j}-h\sum_{i}S_{i},\quad S_{i}=\pm 1$$
