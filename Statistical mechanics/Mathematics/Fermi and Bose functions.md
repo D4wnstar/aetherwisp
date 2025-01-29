@@ -6,15 +6,17 @@ aliases:
 The **Fermi and Bose functions** or **complete Fermi and Bose integrals** are classes of functions that make quantum [[ensemble|ensembles]] easier to manage mathematically. The Fermi functions $f_{k}$ and Bose functions $g_{k}$ are defined as
 $$f_{k}(z)\equiv \sum_{l=1}^{\infty}(-1)^{l+1} \frac{z^{l}}{l^{k}},\qquad g_{k}(z)\equiv \sum_{l=1}^{\infty} \frac{z^{l}}{l^{k}}$$
 where $k$ is a real number. Both of these are specific forms of the [[polylogarithm]]:
-$$f_{k}(z)=-\text{Li}_{k+1}(-e^{z}),\qquad G_{k}(z)=\text{Li}_{k+1}(e^{z})$$
+$$f_{k}(z)=-\text{Li}_{k}(-z),\qquad g_{k}(z)=\text{Li}_{k}(z)$$
 They obey the recurrence relations
 $$z \frac{d}{dz}f_{k}(z)=f_{k-1}(z),\qquad z \frac{d}{dz}g_{k}(z)=g_{k-1}(z)$$
-They have an integral representation through the [[Gamma function]]:
+They have integral representations through the [[Gamma function]]:
 $$\left.\begin{align}
 f_{k}(z) \\
 g_{k}(z)
-\end{align}\ \right\}= \frac{1}{\Gamma(k)}\int_{0}^{\infty} \frac{x^{k-1}}{z^{-1}e^{x}\pm 1}dx$$
+\end{align}\ \right\}= \frac{1}{\Gamma(k)}\int_{0}^{\infty} \frac{x^{k-1}}{z^{-1}e^{x}\pm 1}dx=\frac{2^{2k-1}}{\sqrt{ \pi }} \frac{\Gamma\left( k- \frac{1}{2} \right)}{\Gamma(2k-1)}\int_{0}^{\infty} \frac{x^{2k-1}}{z^{-1}e^{x^{2}}\pm 1}dx$$
 where $+$ is for Fermi functions and $-$ for Bose functions. In a physical context, $z$ is the [[fugacity]] and the integration variable is typically momentum. The [[Fermi-Dirac distribution|Fermi-Dirac]] and [[Bose-Einstein distribution]] appear in the integral.
+
+Although it does not appear in the definition, due to the physical constraints imposed by [[Boson|bosons]], $g_{k}(z)$ is defined only in $0\leq z\leq 1$. It is therefore bounded both below, where it is $g_{k}(0)=0$, and above, where it is $g_{k}(1)=\zeta(k)$, where $\zeta(k)$ is the [[Riemann Zeta function]].
 ### Origin
 These functions are convenience functions defined from integrals that occur in [[quantum statistical mechanics]] when dealing with [[Fermion|fermions]] and [[Boson|bosons]]. They appear, for instance, in the [[equation of state]] of a quantum [[ideal gas]] in both the [[quantum microcanonical ensemble]] and the [[quantum grand canonical ensemble]] derivations. For example, in the latter, they come up when taking the derivative of the [[Partition function|grand canonical partition function]] $\mathcal{Z}$ in the [[thermodynamic limit]]:
 $$\ln \mathcal{Z}=\frac{4\pi V}{h^{3}}\int_{0}^{\infty}p^{2}\ln(1+ze^{-\beta \varepsilon_{p}})dp$$
@@ -29,7 +31,7 @@ We can see the Fermi function $f_{5/2}(z)$. From this we can retroactively state
 $$f_{5/2}(z)=\frac{4}{\sqrt{ \pi }} \left( \frac{\beta}{2m} \right)^{3/2}\int_{0}^{\infty}p^{2}\ln(1+ze^{-\beta \varepsilon_{p}})dp$$
 ### Sommerfeld expansion
 Fermi functions have an alternative [[serie di potenze|power series]] representation known as a [[Sommerfeld expansion]] that comes in handy in physical applications. It is accurate for high $z$. For $f_{3/2}(z)$ and $f_{5/2}(z)$ it yields
-$$f_{3/2}(z)\simeq \frac{4}{3\sqrt{ \pi }}\left[ (\ln z)^{3/2}+ \frac{\pi ^{2}}{8} \frac{1}{\sqrt{ \ln z }}+\ldots \right]$$
+$$f_{3/2}(z)\simeq \frac{4}{3\sqrt{ \pi }}(\ln z)^{3/2}\left[ 1+ \frac{\pi ^{2}}{8} \frac{1}{(\ln z)^{2}}+\ldots \right]$$
 $$f_{5/2}(z)=\frac{8}{15\sqrt{ \pi }}(\ln z)^{5/2}\left[ 1+ \frac{5\pi^{2}}{8} \frac{1}{(\ln z)^{2}}+\ldots \right]$$
 The full proof is in the Sommerfeld expansion page.
 ### Low $z$ approximation

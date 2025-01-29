@@ -2,7 +2,7 @@
 aliases:
   - lunghezza d'onda di de Broglie
   - lunghezza d'onda di De Broglie ridotta
-  - lunghezza termica di de Broglie
+  - de Broglie thermal wavelength
 ---
 La **formula di de Broglie** lega la quantità di moto $q$ di una [[Particella]] alla sua lunghezza d'onda $\lambda$, intesa come la lunghezza dell'onda di materia quantistica. La formula è
 $$p=\frac{h}{\lambda}=\frac{2\pi\hbar}{\lambda}$$

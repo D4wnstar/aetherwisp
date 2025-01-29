@@ -102,11 +102,269 @@ S&=-\left( \frac{ \partial A }{ \partial T }  \right)_{V} \\
 \end{align}$$
 which is the [[Sackur-Tetrode equation]], as expected.
 ### In the quantum microcanonical ensemble
-It is possible to derive the behavior of an ideal gas using the [[quantum microcanonical ensemble]]. Consider a cube of side $L$ and volume $V=L^{3}$ filled with the ideal gas.
+It is possible to derive the behavior of an ideal gas using the [[quantum microcanonical ensemble]]. Consider a cube of side $L$ and volume $V=L^{3}$ filled with the ideal gas. Like all quantum statistical systems, there are two cases: a [[Fermion|fermion]] gas and a [[Boson|boson]] gas (actually, there's third, secret option called a Boltzmann gas, where all [[Equazione agli autovalori|eigenfunctions]] are [[Stato totalsimmetrico|symmetric]], like for bosons, but counted using correct Boltzmann counting. This essentially gives the classical results starting from the quantum description).
+#### Occupation numbers
+Let's consider $N$ non-interacting particles. We wish to know the [[occupation number|occupation numbers]] $\{ n_{\mathbf{p}} \}$ of the momentum states, which are the number of particles in the momentum state $\ket{\mathbf{p}}$ at a given time. Since the particles are non-interacting, these are equivalent to [[Stato stazionario|energy eigenstates]] $\ket{E}$. The total number of particles is of course $N=\sum_{\mathbf{p}} n_{\mathbf{p}}$, whereas the total system energy is $E=\sum_{\mathbf{p}} n_{\mathbf{p}}\varepsilon_{\mathbf{p}}$. The energy of each state is purely [[kinetic energy|kinetic]]: $\varepsilon_{\mathbf{p}}=\lvert \mathbf{p} \rvert^{2}/2m$.
+
+The number of possible states is reliant on the energy/momentum [[Spettro|spectrum]] of the system (which is assumed to be discrete). However, for a large number of particles (and in the [[thermodynamic limit]]), the number of states is so high and dense that it is approximately continuous. As such, to aid the counting of the states, we can divide the quasi-continuous spectrum in clearly discrete cells identified by an index $i$. Each cell contains a large number $g_{i}$ of states. $g_{i}$ should be large, but still small enough that each cell remains unresolved at a macroscopic scale. This is because these cells are just a mental construct to make the counting easier, and should in theory disappear by the time we are done with the derivation. We name these temporary values $\varepsilon_{i}$ the energy of the cell and $g_{i}$ the cell [[Degenerazione|degeneracy]].
+
+![[Spectrum_cell_division.png]]
+
+We call $n_{i}$ the sum of all occupation numbers present in cell $i$, which is just the sum of all single-state occupation number $n_{\mathbf{p}}$ in the cell: $n_{i}=\sum_{\text{in cell}} n_{\mathbf{p}}$. Since this is just a regrouping of the same states, these also satisfy the constraints $N=\sum_{i}n_{i}$ and $E=\sum_{i}\varepsilon_{i}n_{i}$.
+
+We call $\{ n_{i} \}$ the cell occupation, which is the set of all cell occupation numbers. Cell occupation describes how the system's microstate is distributed based on the cells, instead of on each individual state (which would've been $\{ n_{\mathbf{p}} \}$). It gives us information on which cells contain the most particles and which contain the fewest. As usual, there is a huge number of ways $\{ n_{i} \}$ can be arranged and, similarly to the classical microcanonical ensemble, we should expect there to be a most probable set $\{ \bar{n}_{i} \}$ which describes [[thermal equilibrium]]. The highest probability set should be the highest [[entropy]] set, as per the [[Laws of thermodynamics|second law of thermodynamics]].
+
+Let's call $W(\{ n_{i} \})$ the number of possible combinations of $\{ n_{i} \}$. Cells are fictitious objects, so what cell each particle resides in has no real physical meaning. Thus, all cells are independent of each other and the number of total combinations is just the product of each individual cell's combinations:
+$$W(\{ n_{i} \})=\prod_{j}w_{j}(n_{_{j}})$$
+where $w_{j}(n_{j})$ represents the possible state arrangements of the $n_{j}$ particles of the $j$-th cell. Finally, the state counting function for a certain system energy $E$ is
+$$\Gamma(E)=\sum_{\{ n_{i} \}}W(\{ n_{i} \})$$
+What we need to solve the ensemble is to find all the $W(\{ n_{i} \})$, and for that we need to find all the possible $w_{j}(n_{j})$.
+
+Realistically though, we only care about the highest-entropy state $\{ \bar{n}_{i} \}$, so
+$$\Gamma=\sum_{\{ n_{i} \}}W(\{ n_{i} \})\quad\to \quad \Gamma=W(\{ \bar{n}_{i} \})$$
+so what we actually need is just $W(\{ \bar{n}_{i} \})$.
+##### Boltzmann gas
+Let's start from the unrealistic-but-useful Boltzmann system. Here, particles are neither fermions nor bosons. They are entirely classical particles with no quantum-derived constraints on their wavefunction. As such, the method of counting their possible arrangements in the cells in immediate. Since we are trying to find how many ways there are of arranging $N$ objects (particles) into some amount of boxes (cells), the number of [[combination|combinations]] is given by the [[multinomial theorem|multinomial coefficient]]:
+$$W(\{ n_{j} \})=\frac{N!}{n_{1}!n_{2}!\ldots}g_{1}^{n_{1}}g_{2}^{n_{2}}\ldots=\prod_{j}\frac{N!}{n_{j}!}g_{j}^{n_{j}}$$
+$g_{j}^{n_{j}}$ is the number of possible ways we can arrange $n_{j}$ particles in $g_{j}$ states. This number is here because we are counting combinations of *cells*, but each cell internally has its own number of combinations of *particles* therein. Since we have $n_{j}$ particles in the cell and we need to be distribute them over $g_{j}$ states, this yields $w_{j}(n_{j})=g_{j}^{n_{j}}$.
+
+Unfortunately, this formula leads to a wrong result. The problem is the classical [[Gibbs paradox]], we would lead us to [[Intensive property|intensive]] entropy due to us failing to consider the [[Identical particles|indistinguishability]] of particles. The solution, as proven in [[Identical particles#Correct Boltzmann counting]], is to divide by $N!$. As such, the correct state count is
+$$W(\{ n_{j} \})=\prod_{j} \frac{g_{j}^{n_{j}}}{n_{j}!}$$
+We now want the [[Entropy (information theory)|Boltzmann entropy]] $S=k_{B}\ln W$, so we need the logarithm:
+$$\ln W(\{ n_{j} \})=\ln\left( \prod_{j} \frac{g_{j}^{n_{j}}}{n_{j}!}\right)=\sum_{j}[\ln g_{j}^{n_{j}}-\ln n_{j}!]=\sum_{j}[n_{j}\ln g_{j}-\ln n_{j}!]$$
+For large $n_{j}$ and $g_{j}$, we can use [[Stirling's approximation]]:
+$$\ln W(\{ n_{j} \})\simeq \sum_{j}[n_{j}\ln g_{j}-n_{j}\ln n_{j}+n_{j}]$$
+The highest entropy state is found by maximizing this function. To do this, we can use [[Moltiplicatori di Lagrange|Lagrange multipliers]] (for a similar derivation, see [[Entropy from Lagrange multipliers]])[^2]. Our constraints $\gamma_{1}$ and $\gamma_{2}$ are particle number conservation and the energy conservation:
+$$\gamma_{1}=N-\sum_{j}n_{j},\qquad \gamma_{2}=E-\sum_{j}\varepsilon_{j}n_{j}$$
+With this information, the [[Lagrangian]] to work on is
+$$\begin{align}
+\mathcal{L}&=\ln W+\alpha \gamma_{1}+\beta \gamma_{2} \\
+&=\sum_{i}[n_{i}\ln g_{i}-n_{i}\ln n_{i}+n_{i}]+\alpha\left(N- \sum_{i} n_{i} \right)+\beta\left( E-\sum_{i}\varepsilon_{i}n_{i} \right)
+\end{align}$$
+To find the maximum, we look for the stationary point
+$$\begin{align}
+0&=\nabla \mathcal{L}(n_{i})=\frac{d}{dn_{i}}\mathcal{L}(n_{i}) \\
+&=\sum_{i}\left[ \frac{d}{dn_{i}}n_{i}\ln g_{i}- \frac{d}{dn_{i}}n_{i}\ln n_{i}+ \frac{d}{dn_{i}}n_{i} \right]-\alpha \sum_{i} \frac{d}{dn_{i}}n_{i}-\beta \sum_{i} \varepsilon_{i} \frac{d}{dn_{i}}n_{i} \\
+&=\sum_{i}[\ln g_{i}-\ln n_{i}-1+1]-\alpha \sum_{i}1-\beta \sum_{i}\varepsilon_{i} \\
+&=\sum_{i}\left[ \ln \frac{g_{i}}{n_{i}}-\alpha-\beta \varepsilon_{i} \right]
+\end{align}$$
+Terms are independent from each other, so the only way the sum can be zero is if each terms is individually zero:
+$$\ln \frac{g_{i}}{n_{i}}-\alpha-\beta \varepsilon_{i}=0$$
+which we can rearrange to get $n_{i}$:
+$$\bar{n}_{i}=\frac{g_{i}}{e^{\alpha+\beta \varepsilon_{i}}}$$
+where the bar over $n_{i}$ was added to remember that this is specifically the most likely/highest entropy $n_{i}$. If we can figure out what $\alpha$ and $\beta$ are, we can then substitute this back in $\ln W$ and use that to finally find the entropy. Right away, we can see a connection: this just the [[Maxwell-Boltzmann statistic]], multiplied by $g_{i}$ and with $\alpha=-\beta \mu$ and $\beta=\beta$. In fact, if we make this substitution, we get
+$$\bar{n}_{i}=\frac{g_{i}}{e^{\beta(\varepsilon_{i}-\mu)}}$$
+More evidence of this can be found below.
+##### Fermions
+A system of [[Fermion|fermions]] is solved by exploiting the fact that $n_{j}\in \{ 0,1 \}$. Inside of a given cell $j$, to place $n_{j}$ fermions in $g_{j}$ states, we choose $n_{j}$ elements out of a set of $g_{j}$ elements. What we are looking for is the number of [[combination|combinations]], which is given by the [[Binomial theorem|binomial coefficient]]:
+$$w_{j}(n_{j})=\begin{pmatrix} g_{j} \\ n_{j}\end{pmatrix}=\frac{g_{j}!}{n_{j}!(g_{j}-n_{j})!}$$
+Compared to the Boltzmann system, there are far fewer states, by a factor of $(g_{j}-n_{j})!$. This is the consequence of constraining the wavefunction to be [[Stato total-antisimmetrico|antisymmetric]]. Then
+$$W(\{ n_{i} \})=\prod_{j} \frac{g_{j}!}{n_{j}!(g_{j}-n_{j})!}$$
+We now want the [[Entropy (information theory)|Boltzmann entropy]] $S=k_{B}\ln W$, so we need the logarithm:
+$$\begin{align}
+\ln W(\{ n_{i} \})&=\sum_{j}\ln\left( \frac{g_{j}!}{n_{j}!(g_{j}-n_{j})!} \right) \\
+&=\sum_{j}[\ln g_{j}!-\ln n_{j}!-\ln(g_{j}-n_{j})!] \\
+\text{(Stirling's appr.)}&\simeq \sum_{j}[g_{j}\ln g_{j}-n_{j}\ln n_{j}-(g_{j}-n_{j})\ln(g_{j}-n_{j})]
+\end{align}$$
+We define our Lagrangian in the same way as before.
+$$\begin{align}
+\mathcal{L}&=\ln W+\alpha \gamma_{1}+\beta \gamma_{2} \\
+&=\sum_{j}[g_{j}\ln g_{j}-n_{j}\ln n_{j}-(g_{j}-n_{j})\ln(g_{j}-n_{j})]+\alpha\left(N- \sum_{j} n_{j} \right)+\beta\left( E-\sum_{j}\varepsilon_{j}n_{j} \right)
+\end{align}$$
+Then we look for the stationary point
+$$\begin{align}
+0&=\nabla \mathcal{L}(n_{j})=\frac{d}{dn_{j}}\mathcal{L}(n_{j}) \\
+&=-\sum_{j} \frac{d}{dn_{j}}(n_{j}\ln n_{j})-\sum_{j} \frac{d}{dn_{j}}[(g_{j}-n_{j})\ln(g_{j}-n_{j})]-\alpha \sum_{j} \frac{d}{dn_{j}}n_{j}-\beta \sum_{j}\varepsilon_{j} \frac{d}{dn_{j}}n_{j} \\
+&=-\sum_{j}(\ln n_{j}+1)+\sum_{j}[\ln(g_{j}-n_{j})+1]-\alpha \sum_{j}1-\beta \sum_{j}\varepsilon_{j} \\
+&=\sum_{j}[-\ln n_{j}-1+\ln(g_{j}-n_{j})+1-\alpha-\beta \varepsilon_{j}]
+\end{align}
+$$
+From this we get
+$$-\ln n_{j}+\ln(g_{j}-n_{j})-\alpha-\beta \varepsilon_{j}=0$$
+which we can rearrange to extract $n_{j}$:
+$$\bar{n}_{j}=\frac{g_{j}}{e^{\alpha+\beta \varepsilon_{j}}+1}$$
+Similarly to before, this is the [[Fermi-Dirac distribution]] with $\alpha=-\beta \mu$ and $\beta=\beta$.
+##### Bosons
+Bosons require more attention than fermions because we can't rely on the exclusion principle. To figure out how many possible arrangements each cell can be put in, notice how the presences of $g_{j}$ distinct energy levels creates $g_{j}-1$ partitions in each cell. While we can't modify the energy levels themselves, we can order them however we want to rearrange the partitions, keeping the particles where they are. This is a way of cycling through every possible arrangement of particle numbers. The number of ways to populate the cell with $n_{j}$ bosons is to throw them into the cell in any order (they will distribute themselves in the partitions) and then count the number of possible arrangements obtainable by [[permutazione|permutations]] of $n_{j}$ bosons with $g_{j}-1$ partitions[^3]. These are
+$$w_{j}(n_{j})=\frac{(n_{j}+g_{j}-1)!}{n_{j}!(g_{j}-1)!}$$
+We need the logarithm
+$$\begin{align}
+\ln W&=\ln\left[  \prod_{j}\frac{(n_{j}+g_{j}-1)!}{n_{j}!(g_{j}-1)!} \right] \\
+&=\sum_{j}\ln\left[ \frac{(n_{j}+g_{j}-1)!}{n_{j}!(g_{j}-1)!} \right] \\
+&=\sum_{j}[\ln(n_{j}+g_{j}-1)!-\ln n_{j}!-\ln(g_{j}-1)!] \\
+\text{(Stirling's appr.)}&\simeq\sum_{j}[(n_{j}+g_{j}-1 )\ln(n_{j}+g_{j}-1)-n_{j}\ln n_{j}-(g_{j}-1)\ln(g_{j_{1}}-1)] \\
+(g_{j}-1\simeq g_{j})&\simeq \sum_{j}[(n_{j}+g_{j})\ln(n_{j}+g_{j})-n_{j}\ln n_{j}-g_{j}\ln g_{j}]
+\end{align}$$
+We maximize with Lagrange multipliers again under the same constraints.
+$$\begin{align}
+\mathcal{L}&=\ln W+\alpha \gamma_{1}+\beta \gamma_{2} \\
+&=\sum_{j}[(n_{j}+g_{j})\ln(n_{j}+g_{j})-n_{j}\ln n_{j}-g_{j}\ln g_{j}]+\alpha\left( N-\sum_{j}n_{j} \right)+\beta\left( E-\sum_{j}\varepsilon_{j}n_{j} \right)
+\end{align}$$
+$$\begin{align}
+\frac{d\mathcal{L}}{dn_{j}}&=0 \\
+&=\sum_{j}\left[ \frac{d}{dn_{j}}(n_{j}+g_{j})\ln(n_{j}+g_{j})- \frac{d}{dn_{j}}n_{j}\ln n_{j} \right]-\alpha \sum_{j} \frac{d}{dn_{j}}n_{j}-\beta \sum_{j}\varepsilon_{j} \frac{d}{dn_{j}}n_{j} \\
+&=\sum_{j}[\ln(n_{j}+g_{j})+1-\ln n_{j}-1]-\alpha \sum_{j}1-\beta \sum_{j}\varepsilon_{j} \\
+&=\sum_{j}\left[ \ln\left( \frac{n_{j}+g_{j}}{n_{j}} \right)-\alpha-\beta \varepsilon_{j} \right]
+\end{align}$$
+All terms are independent of each other, so
+$$\ln\left( \frac{n_{j}+g_{j}}{n_{j}} \right)-\alpha-\beta \varepsilon_{j}=0$$
+Extracting the $n_{j}$ we get
+$$\bar{n}_{j}=\frac{g_{j}}{e^{\alpha+\beta \varepsilon_{j}}-1}$$
+Similarly to before, this is the [[Bose-Einstein distribution]] with $\alpha=-\beta \mu$ and $\beta=\beta$.
+#### Determining the parameters
+Now we want to determine what $\alpha$ and $\beta$ are. Since the two quantum distributions differ only by a sign, we can deal with both of them together by writing
+$$n_{j}=\frac{g_{j}}{e^{\alpha+\beta \varepsilon_{j}}\pm 1}$$
+$+$ is for fermions, $-$ is for bosons. The total number of particles is
+$$N=\sum_{j}n_{j}=\sum_{j} \frac{g_{j}}{e^{\alpha+\beta \varepsilon_{j}}\pm 1}$$
+Here we finally drop the cell notation. Remember that each cell contains $g_{j}$ states $\ket{\mathbf{p}}$. Thus, a sum over cells weighed by $g_{j}$ is the same as a sum over the states themselves
+$$\sum_{j}g_{j}\equiv \sum_{\mathbf{p}}$$
+where $\mathbf{p}$ is the momentum that identifies the state. Thus we can say
+$$N=\sum_{\mathbf{p}} \frac{1}{e^{\alpha+\beta \varepsilon_{p}}\pm 1}$$
+where $p=\lvert \mathbf{p} \rvert$. Remember that we've known $\varepsilon_{\mathbf{p}}$ since the very beginning: $\varepsilon_{\mathbf{p}}=\lvert \mathbf{p} \rvert^{2}/2m$.
+
+To determine $\alpha$ and $\beta$, we can move to the [[thermodynamic limit]], in which we look for the particle density $n=N/V$ and the sum becomes an integral. Since integration changes the dimensions, we add a constant $h$ with the dimensions of an [[angular momentum]] to correct them[^4]:
+$$\begin{align}
+n&=\int \frac{1}{h^{3}} \frac{1}{e^{\alpha+\beta \varepsilon_{p}}\pm 1} \ d^{3}p \\
+\text{(Spherical coords.)}&=\frac{1}{h^{3}}\int _{0}^{2\pi} \ d\theta \int_{0}^{\pi}\sin \phi\ d\phi \int_{0}^{\infty} \frac{1}{e^{\alpha+\beta \varepsilon_{p}}\pm 1} p^{2}\ dp \\
+&=\frac{4\pi}{h^{3}}\int_{0}^{\infty} \frac{p^{2}}{e^{\alpha+\beta \varepsilon_{p}}\pm 1} dp
+\end{align}$$
+To understand the change to [[spherical coordinates]], consider this: the previous sum occurs over all of the momenta in the ensemble. When we change to integration, we integrate over all momenta in the ensemble. But the integral tells us the number of particles (well, density) in a certain range of momenta, so if we integrate over a range that no particle is in, we get zero. So, we can trivially extend the integral from all momenta in the ensemble to all space. Anything that's not present will cancel out anyway. Integration over all space can be easily done with an infinite-radius [[palla|sphere]].
+
+We now make the substitution $\beta \varepsilon_{p}=x^{2}$, which gives us $p=x\sqrt{ 2m/\beta }$. The integral becomes
+$$n=\frac{4\pi}{h^{3}}\left( \frac{2m}{\beta} \right)^{3/2} \int_{0}^{\infty} \frac{x^{2}}{e^{\alpha+x^{2}}\pm 1}dx$$
+To make physical sense, the density needs to remain finite even when $\beta\to 0$, despite $\beta$ being at the denominator. For that to be true, the integral needs to go to zero, which means the denominator needs to go to infinity:
+$$\lim_{ \beta \to 0 } e^{\alpha+x^{2}}=\lim_{ \beta \to 0 } e^{\alpha}=\infty$$
+where we omitted the $\pm 1$ since it makes no difference. The second term is because $\lim_{ \beta \to 0 }x^{2}=\lim_{ \beta \to 0 }\beta \varepsilon_{p}=0$. In this limit we have
+$$\lim_{ \beta \to 0 } n_{\mathbf{p}}=\frac{1}{e^{\alpha+x^{2}}}=\frac{1}{e^{\alpha+\beta \varepsilon_{p}}}$$
+But this is precisely the [[Maxwell-Boltzmann statistic]]. So we found that our system (this time the whole system, not just an imaginary cell) is correctly described by the classical statistic for state occupation. Thus, we can definitively state that $\alpha=-\beta \mu$ and $\beta=1/k_{B}T$, with $\mu$ the [[chemical potential]], $k_{B}$ the [[Boltzmann constant]] and $T$ the [[temperature]]. We can also define the [[fugacity]] as $z=e^{-\alpha}=e^{\beta \mu}$. With this, we can write the final distribution
+$$\boxed{n_{\mathbf{p}}=\frac{1}{z^{-1}e^{\beta \varepsilon_{p}}+c}\quad\text{where}\quad c=\begin{cases}
++1\quad&\text{fermions} \\
+-1\quad&\text{bosons} \\
+0\quad&\text{classical/high temperature}
+\end{cases}}$$
+
+Notice how both quantum distributions converge to the same classical distribution at low $\beta$/high temperatures. This is because the higher the temperature gets, the more excited states become available, but the particle number remains the same. This means that the average occupation of the states becomes progressively lower and lower until it is so low that the [[Pauli exclusion principle]] does not even need to apply (there are so many available states compared to fermions that they don't need to compete on which occupies a state). With the principle gone, bosons and fermions end up behaving the same, which is why we get the same distribution for both.
+#### Pressure
+For pressure, we can use a similar discussion as in the classical ideal gas (see [[Ideal gas#Pressure]]). The pressure is given the momentum transferred by a collision between a particle and a wall, times the [[flux]] of those particles on the wall. We found that to be
+$$P=\int_{v_{x}>0}2mv_{x}\ v_{x}f(\mathbf{p})d\mathbf{p}=m\int_{v_{x}>0}v_{x}^{2}f(\mathbf{p})d\mathbf{p}$$
+where $f(\mathbf{p})$ is the [[Maxwell-Boltzmann distribution]] for momentum, scaled by the particle density. We can instead express this distribution through the appropriate statistics by stating
+$$f(\mathbf{p})=\frac{n_{\mathbf{p}}}{h^{3}}$$
+If motion is isotropic, we can say
+$$v_{x}^{2}=\frac{1}{3}(v_{x}^{2}+v_{y}^{2}+v_{z}^{2})=\frac{1}{3}\lvert \mathbf{v} \rvert^{2} $$
+which means
+$$P=\frac{2}{3}\int \frac{1}{h^{3}} \frac{\varepsilon_{\mathbf{p}}}{z^{-1}e^{\beta \varepsilon_{\mathbf{p}}}\pm 1} \ d\mathbf{p}=\frac{8\pi}{3h^{3}}\int_{0}^{\infty} \frac{p^{2}\varepsilon_{\mathbf{p}}}{z^{-1}e^{\beta \varepsilon_{p}}\pm 1}dp$$
+using spherical coordinates. With the substitution $\beta \varepsilon_{p}=x^{2}$ we get $p=x\sqrt{ 2m/\beta }$ and $dp=\sqrt{ 2m/\beta }\ dx$. Plugging this in we see
+$$P=\frac{8\pi}{3h^{3}}\left( \frac{2m\pi}{\beta} \right)^{3/2} \frac{1}{\beta}\int_{0}^{\infty} \frac{x^{4}}{z^{-1}e^{x^{2}}\pm 1}dx=\frac{8}{3\sqrt{ \pi }} \frac{1}{\lambda ^{3}\beta}\int_{0}^{\infty} \frac{x^{4}}{z^{-1}e^{x^{2}}\pm 1}dx$$
+Unfortunately, this cannot be solved analytically, but this expression is still useful in some instances.
+#### Internal energy
+The internal energy is given by
+$$U=\sum_{\mathbf{p}}\varepsilon_{p}n_{p}=\sum_{\mathbf{p}} \frac{\varepsilon_{p}}{z^{-1}e^{\beta\varepsilon_{p}}\pm 1}\quad \to \quad \frac{V}{h^{3}}\int \frac{\varepsilon_{p}}{z^{-1}e^{\beta \varepsilon_{p}}\pm 1} \ d\mathbf{p} $$
+We also cannot solve this, but we can do the usual spherical-coordinates-into-$\beta \varepsilon_{p}=x^{2}$-substitution procedure to end up with an integral that we can directly compare to the pressure above. Doing so leads us this remarkable result:
+$$\boxed{PV=\frac{2}{3}U}$$
+This is the ideal gas law, the classical one. It might be in a somewhat unfamiliar form, but if we use the classical [[equipartition theorem]] (or the Boltzmann gas, see below) we can state $U=3N/2\beta$, which when put in returns $PV=N/\beta=Nk_{B}T$. Of course, *this* form does not apply in the quantum case, as the equipartition theorem is for classical gases only, but the more generic, internal-energy-based one *does* apply. This is a fascinating result because it's one of the few cases where a quantum system directly inherits classical behavior. The reason it remains the same is that the only physical dependency behind this law is for 3D motion to satisfy $\varepsilon_{p}\propto \mathbf{p}^{2}$, which is true for all free particles, regardless of them being classical or quantum.
+#### Entropy
+Now that we have the distributions, we can use them to find the $\ln W$ and then $S=k_{B}\ln W$ for both fermions and bosons. For brevity, we call $z^{-1}e^{\beta \varepsilon_{p}}=\xi$, which makes the distributions into
+$$n_{\mathbf{p}}=\frac{1}{\xi\pm 1}$$
+The fermion $\ln W$ is
+$$\ln W(\{ n_{i} \})\simeq \sum_{j}[g_{j}\ln g_{j}-n_{j}\ln n_{j}-(g_{j}-n_{j})\ln(g_{j}-n_{j})]$$
+We are now working with the states themselves instead of the cells, so we can swap the sum over cells to a sum over states, in which $g_{j}=1$:
+$$\begin{align}
+\ln W(\{ n_{\mathbf{p}} \})&=\sum_{\mathbf{p}}[-n_{\mathbf{p}}\ln n_{\mathbf{p}}-(1-n_{\mathbf{p}})\ln(1-n_{\mathbf{p}})] \\
+&=\sum_{\mathbf{p}}\left[ \frac{1}{\xi+1}\ln(\xi+1)- \frac{\xi}{\xi+1}\ln\left( \frac{\xi}{\xi+1} \right) \right]
+\end{align}$$
+For bosons we have
+$$\ln W(\{ n_{i} \})=\sum_{j}[(n_{j}+g_{j})\ln(n_{j}+g_{j})-n_{j}\ln n_{j}-g_{j}\ln g_{j}]$$
+which becomes
+$$\begin{align}
+\ln W(\{ n_{i} \})&=\sum_{\mathbf{p}}[(n_{j}+1)\ln(n_{j}+1)-n_{j}\ln n_{j}] \\
+&=\sum_{\mathbf{p}}\left[ \frac{1}{\xi-1}\ln(\xi-1)+ \frac{\xi}{\xi-1}\ln\left( \frac{\xi}{\xi-1} \right) \right]
+\end{align}$$
+We can combine them to write
+$$\ln W(\{ n_{i} \})=\sum_{\mathbf{p}}\left[ \frac{1}{\xi\pm 1}\ln(\xi\pm 1)\mp \frac{\xi}{\xi\pm 1}\ln\left( \frac{\xi}{\xi \pm 1} \right) \right]$$
+Our entropy therefore is
+$$\boxed{S=k_{B}\sum_{\mathbf{p}}\left[ \frac{1}{\xi\pm 1}\ln(\xi\pm 1)\mp \frac{\xi}{\xi\pm 1}\ln\left( \frac{\xi}{\xi \pm 1} \right) \right]}$$
+#### Boltzmann gas properties
+Despite being inaccurate at a quantum level, a Boltzmann gas can still give us useful results at high temperatures. We can follow a similar procedure as we did when determining the parameters.
+##### Particle density
+We can calculate the number of particles in the Boltzmann system as
+$$N=\sum_{\mathbf{p}}n_{p}$$
+Using the Maxwell-Boltzmann statistic that we found yields
+$$N=\sum_{\mathbf{p}} \frac{1}{z^{-1}e^{\beta \varepsilon_{p}}}=\sum_{\mathbf{p}}ze^{-\beta \varepsilon_{p}}$$
+The deceptively important part here is the second step. Since there is no $\pm 1$, we can bring everything up to the numerator. When we jump into the thermodynamic limit to get the particle density, the integral can now be solved pretty easily:
+$$\begin{align}
+n&=\frac{z}{h ^{3}}\int e^{-\beta \varepsilon_{p}}d^{3}p \\
+\text{(spherical coords.)}&=\frac{4\pi z}{h ^{3}}\int_{0}^{\infty}p^{2}e^{-\beta \varepsilon_{p}}dp \\
+(\beta \varepsilon_{p}=x^{2})&=\frac{4\pi z}{h ^{3}}\int_{0}^{\infty}\sqrt{ \frac{2m}{\beta} } \frac{2m}{\beta}x^{2}e^{-x^{2}}dx \\
+&=\frac{4\pi z}{h ^{3}}\left( \frac{2m}{\beta} \right)^{3/2} \int_{0}^{\infty}x^{2}e^{-x^{2}}dx \\
+\end{align}$$
+The remaining integral is (half of) a [[Gaussian integral]], the solution of which is $\sqrt{ \pi }/4$, so we get
+$$n=\frac{4\pi z}{h^{3}}\left( \frac{2m}{\beta} \right)^{3/2} \frac{\sqrt{ \pi }}{4}$$
+This can be expressed in a much simpler form using the [[Formula di de Broglie|de Broglie thermal wavelength]] $\lambda$:
+$$\boxed{n=\frac{z}{\lambda ^{3}}}$$
+Notice that in the boson/fermion cases, we never actually solved the integral. Here on the other hand, it ended up being pretty straight-forward. Using the quantum grand canonical ensemble (see [[Ideal gas#In the quantum grand canonical ensemble|below]]), one can prove that this is actually the leading order approximation of the quantum ideal gas density for both fermions and bosons.
+##### Internal energy
+In a similar fashion, we can find the energy:
+$$U=\sum_{\mathbf{p}}\varepsilon_{p}n_{p}=\sum_{\mathbf{p}}\varepsilon_{p}ze^{-\beta\varepsilon_{p}}$$
+In the thermodynamic limit, we temporarily use the volume $V$ to find the energy:
+$$\begin{align}
+U&=\frac{Vz}{h^{3}}\int \varepsilon_{p}e^{-\beta \varepsilon_{p}}\ d^{3}p \\
+\text{(sperhical coords.)}&=\frac{4\pi Vz}{h^{3}}\int_{0}^{\infty}p^{2}\varepsilon_{p}e^{-\beta \varepsilon_{p}}\ dp \\
+&= \frac{4\pi Vz}{2mh^{3}}\int_{0}^{\infty}p^{4}e^{-\beta p^{2}/2m}\ dp \\
+\text{(Gaussian integral)}&=\frac{4\pi Vz}{2mh^{3}} \frac{1}{2}\left( \frac{\beta}{2m} \right)^{5/2}\Gamma\left( \frac{5}{2} \right)\\
+&=\frac{\pi Vz}{mh^{3}}\left( \frac{2m}{\beta} \right)^{5/2} \frac{3\sqrt{ \pi }}{4} \\
+&=\frac{3Vz}{\cancelto{ 2 }{ 4m }} \underbrace{ \frac{\pi^{3/2}}{h^{3}}\left( \frac{2m}{\beta} \right)^{3/2} }_{ 1/\lambda^{3} } \frac{\cancel{2 m }}{\beta} \\
+&=\frac{3Vz}{2\lambda ^{3}\beta} \\
+\left( N=nV=\frac{zV}{\lambda ^{3}} \right)&=\frac{3N}{2\beta}
+\end{align}$$
+Since $1/\beta=k_{B}T$, this returns the well-known result regarding the average energy of a particle in a three dimensional ideal gas, as given by the [[equipartition theorem]]:
+$$\boxed{u=\frac{U}{N}=\frac{3}{2}k_{B}T}$$
+##### Entropy
+Using the Boltzmann gas $\ln W$, the entropy is
+$$\begin{align}
+S&=k_{B}\ln W \\
+&=k_{B}\sum_{i}[n_{i}\ln g_{i}-n_{i}\ln n_{i}+n_{i}] \\
+&=k_{B}\sum_{i}n_{i}[\ln g_{i}-\ln n_{i}+1]
+\end{align}$$
+The distribution is
+$$n_{i}=g_{i}ze^{-\beta \varepsilon_{i}}=g_{i}\varphi$$
+where $\varphi=ze^{-\beta \varepsilon_{i}}$ for convenience. We get
+$$\begin{align}
+S&=k_{B}\sum_{i}g_{i}\varphi[\ln g_{i}-\ln(g_{i}\varphi)+1] \\
+&=k_{B}\sum_{i}g_{i}\varphi[\cancel{ \ln g_{i} }-\cancel{ \ln g_{i} }-\ln \varphi+1] \\
+\left( \sum_{i}g_{i}\equiv \sum_{\mathbf{p}} \right)&=k_{B}\sum_{\mathbf{p}}\varphi[1-\ln \varphi] \\
+&=k_{B}\sum_{\mathbf{p}}ze^{-\beta \varepsilon_{p}}[1-\ln z+\beta \varepsilon_{p}] \\
+&=k_{B}\sum_{\mathbf{p}}ze^{-\beta \varepsilon_{p}}[\beta \varepsilon_{p}-\ln z]+k_{B}\sum_{\mathbf{p}}\underbrace{ ze^{-\beta \varepsilon_{p}} }_{ n_{p} } \\
+&=k_{B}z\sum_{\mathbf{p}}e^{-\beta \varepsilon_{p}}[\beta \varepsilon_{p}-\ln z]+k_{B}N
+\end{align}$$
+This isn't very meaningful in the current form, but we can divide by $k_{B}N$ to find an old acquaintance:
+$$\begin{align}
+\frac{S}{k_{B}N}&=\frac{z}{N}\sum_{\mathbf{p}}e^{-\beta \varepsilon_{p}}[\beta \varepsilon_{p}-\ln z]+1 \\
+(z=n\lambda ^{3})&=\frac{z}{N}\sum_{\mathbf{p}}\beta \varepsilon_{p}e^{-\beta \varepsilon_{p}}- \frac{z}{N}\sum_{\mathbf{p}}\ln (n\lambda ^{3})e^{-\beta \varepsilon_{p}}+1 \\
+&=\frac{\beta}{N}\sum_{\mathbf{p}}\varepsilon_{p}\underbrace{ ze^{-\beta \varepsilon_{p}} }_{ n_{p} }- \frac{\ln(n\lambda ^{3})}{N}\sum_{\mathbf{p}}\underbrace{ ze^{-\beta \varepsilon_{p}} }_{ n_{p} }+1 \\
+&=\frac{\beta}{N}U- \frac{\ln(n\lambda ^{3})}{N}N+1 \\
+\left( U=\frac{3N}{2\beta} \right)&=\frac{\beta}{N} \frac{3N}{2\beta}-\ln(n\lambda ^{3})+1 \\
+&=-\ln(n\lambda ^{3})+ \frac{5}{2}
+\end{align}$$
+This is the [[Sackur-Tetrode equation]], just as we should expect from a classical ideal gas.
+
+:::hidden
+We just need to substitute the correct $\bar{n}_{i}$ in the correct state count $W(\{ \bar{n}_{i} \})$:
+$$\frac{S}{k_{B}}=\log W=\begin{align}
+&\text{(Bosons) }\sum_{i} \frac{\log(\bar{n}_{i}+g_{i}-1)!}{\bar{n}_{i}(g_{i}-1)!}=\sum_{i}g_{i}\left[ \frac{\beta E_{i}-\log Z}{Z^{-1}e^{\beta E_{i}}-1} - \log(1-Ze^{-\beta E_{i}}) \right] \\
+&\text{(Fermions) }\sum_{i} \frac{g_{i}!}{\bar{n}_{i}!(g_{i}-\bar{n}_{i})!} = \sum_{i}g_{i}\left[ \frac{\beta E_{i}-\log Z}{Z^{-1}e^{\beta E_{i}}+1}+ \log(1+Ze^{-\beta E_{i}}) \right]\\
+&\text{(Boltzmann) } \sum_{i} \frac{g_{i}^{n_{i}}}{n_{i}!}=Z\sum_{i}g_{i}e^{-\beta E_{i}}(\beta E_{i}-\log Z)+N
+\end{align}$$
+If $\log g_{i}\gg 1$, the $+N$ term in the Boltzmann system can be safely ignored. It can be found that the $g_{i}$ functions are
+$$\begin{align}
+\text{(Bosons)}\quad g_{i}&=1 \\
+\text{(Fermions)}\quad g_{i}&=1 \\
+\text{(Boltzmann)}\quad g_{i}&=\frac{1}{N!} \frac{N!}{\sum_{i}n_{i}!}=\frac{1}{\sum_{i}n_{i}!}
+\end{align}$$
+:::
 ### In the quantum canonical ensemble
-In the [[quantum canonical ensemble]], analytic calculation is actually not possible. The reason is that the quantum canonical partition function $Q_{N}$ cannot be solved. In fact, given the sets of [[Occupation number|occupation numbers]] $\{ n \}$ identified by some quantity (say, momentum $\mathbf{p}$), we have
+In the [[quantum canonical ensemble]], analytic calculation is actually often not possible. The reason is that the summation in the quantum canonical partition function $Q_{N}$ is tough to solve. In fact, given the sets of [[Occupation number|occupation numbers]] $\{ n \}$ identified by some quantity (say, momentum $\mathbf{p}$), we have
 $$Q_{N}(V,T)=\text{Tr}\hat{\rho}=\sum_{\{ n \},\sum_{p}n_{p}=N}e^{-\beta E(\{ n \})}$$
-where the sum happens over all sets $\{ n \}$ where $\sum_{\mathbf{p}}n_{\mathbf{p}}=N$. The state energy is $E(\{ n \})=\sum_{\mathbf{p}}\varepsilon_{\mathbf{p}}n_{\mathbf{p}}$, where $\varepsilon_{\mathbf{p}}$ is the energy of a single particle of momentum $\mathbf{p}$, so $\varepsilon_{\mathbf{p}}=\lvert \mathbf{p} \rvert^{2}/2m$. This constraint makes it impossible to calculate the sum explicitly, along with all thermodynamic quantities.
+where the sum happens over all sets $\{ n \}$ constrained by $\sum_{\mathbf{p}}n_{\mathbf{p}}=N$. It is this constraint that makes the sum so hard to manage, along with all thermodynamic quantities. That said, it is possible in some cases where the states are cleanly ordered and labeled, such as in a [[Oscillatore armonico quantistico|quantum harmonic oscillator]]. In that case, one must make sure to abide by the wavefunction constraints and their effects on state counting. More discussion on this in the [[Partition function#Properties]] page.
 ### In the quantum grand canonical ensemble
 The [[quantum grand canonical ensemble]] works just fine however. The quantum grand partition function is
 $$\mathcal{Z}(z,V,T)=\sum_{N=0}^{\infty} z^{N}Q_{N}(V,T)=\sum_{N=0}^{\infty} \sum_{\{ n \},\sum_{p}n_{p}=N}z^{N}e^{-\beta E(\{ n \})}$$
@@ -204,11 +462,17 @@ $$\boxed{n=\frac{1}{\lambda ^{3}}g_{3/2}(z)}$$
 
 A more precise result can be reached by taking [[Bose-Einstein condensation]] into consideration. Condensation occurs at minimal temperatures, which in turn implies minimal particle energies, $\varepsilon_{p}\to 0$. In this state, the occupation number blows up and causes a [[Singolarità isolata|singularity]], making it technically impossible to calculate the integral at the lower bound $p=0$. Because of this, we can extract the term $p=\varepsilon_{p}=0$ from the equation of state sum *before* going to integral notation, which leaves us with
 $$\boxed{\frac{P}{k_{B}T}=\frac{1}{\lambda ^{3}}g_{5/2}(z)- \frac{1}{V}\ln(1-z)}$$
-(a single point is a [[Insiemi a misura trascurabile|negligible set]] in a 1D integral, so it still evaluates to $g_{5/2}(z)$). Similarly, the particle density is
+Similarly, the particle density is
 $$\boxed{n=\frac{1}{\lambda ^{3}}g_{3/2}(z)+ \frac{1}{V} \frac{z}{1-z}}$$
-In fact, we can use this to describe how the occupation number blows up:
-$$\langle n_{p=0} \rangle =nV=\frac{z}{1-z}$$
-$z$ blows up at low temperatures, and this does too. In fact, in the condensed phase, $z$ is locked at $1$.
+Both of these terms behave like $\sim N$ when $z\ll 1$, so in the classical limit they spontaneously disappear. That said, only the additional density term is relevant. When $z$ rises towards its limiting value of $1$, the additional density term tends to blow up. At first glance, the equation of state term appears to do so too. However, notice how the number of particles in the ground state can be expressed in terms of $z$:
+$$N_{0}=\langle n_{p=0} \rangle =n_{0}V=\frac{z}{1-z}$$
+This is because $\lambda\to \infty$ when $p=0$[^5], so we only keep the latter term. Conversely, the other term is excited boson number
+$$N_\text{exc}=\langle n_{p>0} \rangle =\frac{1}{\lambda ^{3}}g_{3/2}(z)$$
+Typically, $N_\text{exc}\gg N_{0}$, but near condensation temperature, this no longer holds true. Invert the ground state number and we get
+$$z=\frac{N_{0}}{N_{0}+1}$$
+Among other things, this shows how closely tied ground state particle number and fugacity are in a boson gas. If we substitute this in the additional equation of state term we see
+$$-\frac{1}{V}\ln\left( 1- \frac{N_{0}}{N_{0}+1} \right)=\frac{1}{V}\ln(N_{0}+1)$$
+Since $V\propto N$, this entire term is $\sim \frac{1}{N}\ln N$, which disappears for large $N$.
 #### Internal energy
 The grand canonical [[internal energy]] $U$ is given by
 $$U(z,V,T)=-\left( \frac{ \partial  }{ \partial \beta } \ln \mathcal{Z} \right)_{P,V}=-\frac{ \partial  }{ \partial \beta }  \frac{PV}{k_{B}T}$$
@@ -227,3 +491,9 @@ This is identical to the classical result, which is what we want.
 Since the equation of state of bosons is identical to that of fermions, but with Bose functions instead of Fermi functions, the internal energy is itself identical, derived in the same way as above. It should be noted that the additional term due to condensation in the equation of state does not make a difference.
 
 [^1]: The form $PV=nRT$ exists because, besides being convenient in a laboratory setting, thermodynamics was historically developed at a time where the existence of the [[atomo|atom]] had yet to be proven and with it, the [[Particella|particle]] division of matter. In fact, classical thermodynamics as a whole does not strictly require the existence of particles like atoms.
+[^2]: Note that we are technically maximizing $\ln W$ here, not $S$. However, since $S=k_{B}\ln W$, they share maxima, so the result is the same.
+
+[^3]: Think of it like this. Imagine you have four buckets and some marbles. You throw the marbles in the buckets randomly. Now each bucket contains some number of marbles, say $n_{1}$, $n_{2}$, $n_{3}$ and $n_{4}$. You want to know how many other outcomes you could have had if those same marbles counts ended up in different buckets. Like for example, if instead of $(n_{1},n_{2},n_{3},n_{4})$ you ended up with $(n_{2},n_{1},n_{3},n_{4})$. The amounts in the buckets are the same, they're just ordered differently. This time, the amounts in bucket 1 and 2 are reversed. (Crucially, the $n$'s themselves are the same. You didn't throw them in again, you just moved the already existing amounts from one bucket to another.) There's two ways you can go about counting these possibilities. One way is to empty out two buckets and fill them back, just with reversed amounts. But here's a simpler way: just move the buckets. Instead of emptying and refilling them, just swap the actual buckets. The result is the same. Now go ahead and count in how many distinct ways you can reorder those buckets. And this is all just for one outcome of randomly throwing the marbles in, $n_{1},n_{2},n_{3},n_{4}$. You can repeat this reordering count for every single possible set of $n_{1},n_{2},n_{3},n_{4}$. But what you're doing here is finding every possible [[permutazione|permutation]] of marbles in four buckets. Now just call them bosons instead of marbles and cell partitions instead of buckets and you're good.
+
+[^4]: $n$ has dimensions of inverse cubic length ($1/L^{3}$). The integral gives a cubic momentum. So $h$, if used at the denominator, has to be length times momentum, which is angular momentum.
+[^5]: If you are not convinced, remember that temperature is tied to kinetic energy. If you remove the momentum, and so the kinetic energy, you remove the temperature too. Since $\lambda\propto T^{-1/2}$, if $T\to0$ then $\lambda\to \infty$. In other words, ground state bosons (and particles in general, really) are "stuck" at zero temperature.

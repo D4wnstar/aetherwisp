@@ -11,19 +11,20 @@ It is usually denoted using $Z$, which comes from German "Zustandsumme", or $Q_{
 ### Properties
 The probability of a state in an ensemble is given by the density function normalized by the partition function
 $$p(n)=\frac{\rho(n)}{Z}$$
-For independent and classical [[Physical system|systems]], partition functions multiply. That is, the partition function of two systems that do not interact is
+For independent and classical [[Physical system|systems]], canonical partition functions multiply. That is, the partition function of two systems that do not interact is
 $$Z=Z_{1}Z_{2}$$
 This is because the [[energy]] of the combined system is just the sum of the energy of each system:
 $$\begin{align}
 Z&=\sum_{n}\sum_{m}e^{-\beta(E_{n}^{(1)}+E_{m}^{(2)})}=\sum_{n}\sum_{m}e^{-\beta E_{n}^{(1)}}e^{-\beta E_{m}^{(n)}} =\sum_{n}e^{-\beta E_{n}^{(1)}}\sum_{m}e^{-\beta E_{m}^{(2)}}=Z_{1}Z_{2}
 \end{align}$$
-where we used the canonical partition function.
+More generally, for $N$ independent components equipped with the same partition function $Z_{1}$, we have
+$$Z=Z_{1}^{N}$$
 
-In quantum systems however, this is no longer true due to the [[Funzione d'onda|wavefunction]] constraints of [[Fermion|fermions]] and [[Boson|bosons]] and, more specifically, their [[Identical particles|indistinguishability]]. For bosons, every combination states is permitted, but we don't want to overcount states that only differ by a [[permutation]]. To express this mathematically, nested sums now begin at the previous index:
+In quantum systems however, this is no longer true due to the [[Funzione d'onda|wavefunction]] constraints of [[Fermion|fermions]] and [[Boson|bosons]] and, more specifically, their [[Identical particles|indistinguishability]]. For bosons, every combination of states is permitted, but we don't want to overcount states that only differ by a [[permutation]]. To express this mathematically, nested sums now begin at the previous index:
 $$Z=\sum_{n}\sum_{m\geq n}e^{-\beta(E_{n}^{(1)}+E_{m}^{(2)})}\quad\text{(Bosons)}$$
-This makes the sums no longer independent, so we cannot solve them separately like in the classical case. For fermions, particles also cannot simultaneously occupy the same state due to the [[Pauli exclusion principle]], so the greater-or-equals becomes a simple greater:
+The sums are no longer independent, so we cannot solve them separately like in the classical case. The solution now depends on the shape of $E_{n}$. For fermions, particles also cannot simultaneously occupy the same state due to the [[Pauli exclusion principle]], so the greater-or-equals becomes a simple greater:
 $$Z=\sum_{n}\sum_{m>n}e^{-\beta(E_{n}^{(1)}+E_{m}^{(2)})}\quad\text{(Fermions)}$$
-Because of these constraints, solving quantum partition functions can be much more involved than classical ones. In practice, it shows that quantum systems are effectively never independent from each other, even if there are no formal interactions between components.
+Because of these constraints, solving quantum partition functions can be much more involved than classical ones. In practice, it shows that quantum systems are effectively never independent from each other, even if there are no formal interactions between components. For an abstract exercise on quantum state counting, see [[Occupation number#Average occupation]].
 
 To compute these sums, it is typically useful to consider the [[Serie geometrica|geometric series]] and some simple generalizations:
 $$\sum_{n=1}^{\infty} x^{n}=\frac{1}{1-x},\qquad \sum_{n\geq m}^{\infty} x^{n}=\frac{x^{m}}{1-x},\qquad \sum_{x>m}^{\infty} \frac{x^{m+1}}{1-x}$$

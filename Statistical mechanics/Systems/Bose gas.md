@@ -1,8 +1,10 @@
 A **Bose gas** is a model for a [[Physical system|system]] of many non-interacting [[Boson|bosons]], the simplest example of which is a bosonic [[ideal gas]]. A notable property is that three-dimensional Bose gases exhibit a phenomenon known as [[Bose-Einstein condensation]] at near-zero [[Temperature|temperatures]]. The [[equation of state]] of a Bose gas is
-$$\frac{P}{k_{B}T}=\frac{1}{\lambda ^{3}}g_{5/2}(z)- \frac{1}{V}\ln(1-z)$$
-where $g_{5/2}(z)$ is a [[Fermi and Bose functions|Bose function]].
+$$\frac{P}{k_{B}T}=\frac{1}{\lambda ^{3}}g_{5/2}(z)$$
+where $g_{5/2}(z)$ is a [[Fermi and Bose functions|Bose function]]. Meanwhile, the particle density is
+$$n=\frac{g_{3/2}(z)}{\lambda ^{3}}+ \frac{1}{V}\frac{z}{1-z}$$
+The additional term is found by extracting the $p=0$ term from $N=\sum_{p}n_{p}$ before committing to integration. This is done because Bose-Einstein condensation causes a significant buildup of particle density at the ground state and this term (being a single point) would be neglected by the integral, causing a wrong result. For a derivation of these equations, see [[Ideal gas#In the quantum grand canonical ensemble]].
 
-Unlike [[Fermion|fermions]], there exist massless bosons on top of [[mass|massive]] ones. A Bose gas of massless bosons has somewhat different properties to a gas of massive bosons, since [[Ensemble|ensembles]] of massless particles always have zero [[chemical potential]]. For an example of a [[photon]] gas, see [[Black body cavity]].
+Unlike [[Fermion|fermions]], there exist massless bosons alongside [[mass|massive]] ones. A Bose gas of massless bosons has somewhat different properties to a gas of massive bosons, since [[Ensemble|ensembles]] of massless particles always have zero [[chemical potential]]. For an example of a [[photon]] gas, see [[Black body cavity]].
 ### Critical condensation temperature
 Condensation can be illustrated through an gas of $N$ bosons. Assume this gas is enclosed in a cubic volume $V=L^{3}$, where
 $$N=\sum_{\mathbf{p}}\langle n_{\mathbf{p}} \rangle =\sum_{\mathbf{p}} \frac{1}{e^{\beta(\varepsilon_{\mathbf{p}}-\mu)}-1}$$
@@ -10,7 +12,7 @@ and $\varepsilon_{\mathbf{p}}=\mathbf{p}^{2}/2m$. In the [[Thomas-Fermi approxim
 $$N=\int_{0}^{\infty}g(\varepsilon) \frac{1}{e^{\beta(\varepsilon-\mu)}-1}d\varepsilon=\int_{0}^{\infty} \frac{C_{\alpha}\varepsilon^{\alpha-1}}{e^{\beta(\varepsilon-\mu)}-1}$$
 We can find an approximate solution for this integral[^1], for instance with the [[Sommerfeld expansion]]. The more interesting question is:  is there a nonzero critical temperature $T_{C}$ where the [[chemical potential]] vanishes, that is $\mu=\min\varepsilon_{p}=0$[^2]? To check this, we try to solve the integral with $\mu=0$ and see where that leads us, if it's even possible.
 
-The original solution is due to Einstein. Since at the condensation point the number of particles in the ground [[stato|state]] blows up, we can split $N$ into $N_\text{exc}$ and $N_\text{ground}=\langle n_{p=0} \rangle$. The sum of these two makes $N$. For most temperatures, $N_\text{ground}\simeq0$ and $\text{N}_\text{exc}\simeq N$, which is why this split makes little sense in most conditions. The integral to solve is
+The original solution is due to Einstein. Since at the condensation point the number of particles in the ground [[stato|state]] blows up, we can split $N$ into $N_\text{exc}=\langle n_{p>0} \rangle$ and $N_\text{ground}=\langle n_{p=0} \rangle$. The sum of these two makes $N$. For most temperatures, $N_\text{ground}\simeq0$ and $\text{N}_\text{exc}\simeq N$, which is why this split makes little sense in most conditions. The integral to solve is
 $$N_\text{exc}(T=T_{C},\mu=0)=\int_{0}^{\infty} \frac{C_{\alpha}\varepsilon^{\alpha-1}}{e^{\beta_{C} \varepsilon_{p}}-1}d\varepsilon=N$$
 where $\beta_{C}=1/k_{B}T_{C}$. If there is a solution to this, then $T_{C}$ exists and is not zero.
 
@@ -43,14 +45,9 @@ $$\frac{N_\text{exc}}{N}=\frac{C_{\alpha}\Gamma(\alpha)\zeta(\alpha)(k_{B}T)^{\a
 The ground state particles are then
 $$\boxed{\frac{N_{0}}{N}=1-\left( \frac{T}{T_{C}} \right)^{\alpha}}$$
 which is valid only when $T_{C}\leq T$. In three dimensions it goes like this:
-```mathpad
-%$1:=-T+1
-%$2:=-T^3+1
-%$3:=-T^(3/2)+1
-f(T):=1- (T/1)^(3/2)
-plot(f(T), [0,1.3], [0,1])==?
-```
 
+![[BE Condensation boson ratios.png]]
+*From Pathria & Beale's Statistical Mechanics, 3rd Ed., page 185*
 
 [^1]: Also see Chapter 1 of Feynman's *Statistical Mechanics*.
 [^2]: Remember that $\mu <\varepsilon_{p}$ for all $p$, so if $\varepsilon_{p}\to 0$ then $\mu\to 0$.
