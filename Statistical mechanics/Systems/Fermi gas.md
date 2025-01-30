@@ -7,7 +7,7 @@ $$\langle n_{p} \rangle =\frac{1}{e^{\beta(\varepsilon_{p}-\mu)}+1}\to \begin{ca
 \end{cases}$$
 What this means is that all states with energy lower than $\mu$ will be occupied, and all states with higher energy will be vacant. We can use the [[theta di Heaviside|Heaviside step function]] $\Theta$ to represent this symbolically:
 $$\lim_{ T \to 0 } \langle n_{p} \rangle=\Theta(\mu-\varepsilon_{p})$$
-The specific energy threshold is known as the [[Fermi energy]] $E_{F}$. This energy leads to a momentum called the Fermi momentum $p_{F}=\sqrt{ 2mE_{F} }$. In [[phase space]], this momentum occupies a spherical region, which contains all the occupied states discussed before. The [[Superficie|surface]] of this sphere is known as the [[Fermi surface]]. This odd state is known as [[quantum degeneracy]] (not to be confused with state [[Degenerazione|degeneracy]], although the two are closely related).
+The specific energy threshold is known as the [[Fermi energy]] $E_{F}$. This energy leads to a momentum called the Fermi momentum $p_{F}=\sqrt{ 2mE_{F} }$. In [[phase space]], this momentum occupies a spherical region, which contains all the occupied states discussed before. The [[Superficie|surface]] of this sphere is known as the [[Fermi surface]]. This odd state is known as [[quantum degeneracy]] (not to be confused with state [[Degenerazione|degeneracy]], although the two are closely related). Despite being under no potential, fermions in this state are subject to an effective [[pressure]], known as [[degenerate pressure]], which prevents them for compacting further. This pressure is a considerable factor for fermionic systems in extreme environments, such as [[Nana bianca|white dwarfs]], which rely on [[Elettrone|electron]] degeneracy pressure, and [[Stella di neutroni|neutron stars]], which rely on [[neutrone|neutron]] degeneracy pressure.
 
 Fermi energy can be calculated purely from knowledge of the exclusion principle, that fermions are non-interacting and by choosing some appropriate boundary conditions.
 #### 1D
@@ -16,10 +16,10 @@ Consider a one dimensional [[Physical system|system]] composed in a length $L$ o
 Starting from the [[Equazione di Schrödinger|time-independent Schrödinger equation]], we have
 $$H\psi_{n}=E\psi_{n}$$
 The solution depends on the boundary. If we set open boundary conditions (that is, the edges of the system are impassable, so $\psi(x=0)=\psi(x=L)=0$), our system turns into a [[Buca infinita quantistica|infinite square well]], so the solution is $\psi_{n}\propto \sin kx$. We also have $kL=n\pi$, which means
-$$\psi_{n}(x)\propto \sin \frac{n\pi x}{L},\qquad E_{n}=\frac{\hbar^{2}k^{2}_{n}}{2m}=\frac{\hbar^{2}n^{2}\pi ^{2}}{2mL^{2}}=- \frac{h^{2}}{2m} \left( \frac{n}{2L} \right)^{2}$$
+$$\psi_{n}(x)\propto \sin \frac{n\pi x}{L},\qquad E_{n}=\frac{\hbar^{2}k^{2}_{n}}{2m}=\frac{\hbar^{2}n^{2}\pi ^{2}}{2mL^{2}}=\frac{h^{2}}{2m} \left( \frac{n}{2L} \right)^{2}$$
 The [[Hamiltonian]] is the usual [[Particella libera (quantistica)|free particle]] one:
 $$\hat{H}=- \frac{\hbar^{2}}{2m}\frac{ \partial ^{2} }{ \partial x^{2} } $$
-If our $N$ fermions have two possible [[spin]] eigenvalues, $N/2$ will be spin up and $N/2$ will be spin down due to the exclusion principle. (For the rest of the article, we'll only consider fermions with two possible spins, which are by far the most common, but it is possible to trivially generalize to $\ell$ spins by multiplying all formulas directly dependent on spin count by $\ell$.) Since each state has precisely one fermion in it, the highest occupied state must be $N/2$. Thus the Fermi energy is found at $n=N/2$:
+If our $N$ fermions have two possible [[spin]] eigenvalues, $N/2$ will be spin up and $N/2$ will be spin down due to the exclusion principle. (For the rest of the article, we'll only consider fermions with two possible spins, which are by far the most common, but it is possible to generalize to $\ell$ spins by multiplying all formulas directly dependent on spin count by $\ell$.) Since each state has precisely one fermion in it, the highest occupied state must be $N/2$. Thus the Fermi energy is found at $n=N/2$:
 $$\boxed{E_{F}=\frac{h^{2}}{2m}\left( \frac{N}{4L} \right)^{2}}$$
 ##### Periodic boundary conditions
 With periodic boundary conditions, our system becomes a looping ring defined by $\psi(x=0)=\psi(x=L)$. Since fermions are free, their [[Equazione agli autovalori|eigenfunctions]] are [[plane wave|plane waves]] $\propto e^{ikx}$, so this is like saying $e^{ikx}=e^{ik(x+L)}$ and therefore $e^{ikL}=1$. This is true when $2\pi n=kL$, where $n=0,\pm 1, \pm 2,\ldots$. Since the energy is given by the wave vector, we get
@@ -90,7 +90,8 @@ $$E_{0}=\int_{0}^{E_{F}}E\ g(E)\ dE=2 \frac{Vm^{3/2}}{\sqrt{ 2 }\pi ^{2}\hbar ^{
 By using $E_{F}^{5/2}=E_{F}^{3/2}+E_{F}$ and substituting the previous formula for $E_{F}$ in $E_{F}^{3/2}$ we get
 $$\boxed{E_{0}=\frac{3}{5}NE_{F}}$$
 As we can see, only the numerical factor changed from the 1D version.
-### Nonzero temperature and equation of state
+### Nonzero temperature
+#### Virial expansion of the equation of state
 The [[equation of state]] of a fermion ideal gas can be found through a quantum [[ensemble]], with the [[quantum grand canonical ensemble]] being the most convenient. For a derivation, see [[Ideal gas#Equation of state]]. The equation is
 $$\frac{P}{k_{B}T}=\frac{1}{\lambda ^{3}}f_{5/2}(z)$$
 where $k_{B}$ is the [[Boltzmann constant]], $T$ is the [[temperature]], $\lambda$ is the [[Formula di de Broglie|de Broglie thermal wavelength]] and $f_{5/2}(z)$ is a [[Fermi and Bose functions|Fermi function]]. We can approximate it by using its series representation:
@@ -100,7 +101,7 @@ $$\begin{align}
 &\simeq \frac{v}{\lambda ^{3}_{T}}\left( z- \frac{z^{2}}{2^{5/2}}+\ldots \right) \\
 &=\ldots
 \end{align}$$
-We know that
+($v=V/N$ is the volume per particle). We know that
 $$\frac{\lambda ^{3}_{T}}{v}=f_{3/2}(z)=z- \frac{z^{2}}{2^{3/2}}+\ldots\quad\Rightarrow \quad z=\frac{\lambda ^{3}_{T}}{v}+ \frac{z^{2}}{2^{3/2}}-\ldots$$
 If we substitute $z$ with its first order approximation $\lambda ^{3}_{T}/v$ (???) we get
 $$z=\frac{\lambda ^{3}}{v}+ \frac{1}{2^{3/2}} \left( \frac{\lambda ^{3}}{v} \right)^{2}-\ldots$$
@@ -114,33 +115,33 @@ Note the consequence here. The classical ideal gas is
 $$\frac{PV}{Nk_{B}T}=1$$
 Meanwhile, a fermion ideal gas is
 $$\boxed{\frac{PV}{Nk_{B}T}=1+ \frac{1}{2^{5/2}} \frac{\lambda_{T}^{3}}{v}+\ldots}$$
-This expansion is known as the [[virial expansion]] and the terms are called **virial coefficients**. Specifically, the term after $1$ is the **second virial coefficient** and is usually  the most relevant one. This series isn't a new thing in statistical mechanics: the virial expansion normally occurs when you generalize an ideal gas to an [[Interacting gas]], which also has internal interactions. But there are no interactions here, it's just inert fermions. What this is, is the manifestation of the [[Pauli exclusion principle|Pauli exclusion principle]], which can be interpreted as a sort of repulsive interaction between fermions that prevents them from occupying the same [[stato|state]]. It's not *really* a potential, but it certainly behaves like one.
+This expansion is a form of the [[virial expansion]] and the terms are called **virial coefficients**. Specifically, the term after $1$ is the **second virial coefficient** and is usually  the most relevant one. This series isn't a new thing in statistical mechanics: the virial expansion normally occurs when you generalize an ideal gas to an [[interacting gas]], which also includes internal interactions. But there are no interactions here, it's just inert fermions. The pseudo-interaction is the manifestation of the [[Pauli exclusion principle|Pauli exclusion principle]], which can be interpreted as a sort of repulsive force between fermions that prevents them from occupying the same [[stato|state]]. It's not *really* a potential, but it certainly behaves like one.
+#### Fermi energy
+All virial coefficients except the first are only relevant at temperatures that are low compared to the [[Fermi energy|Fermi temperature]]. Far above and the Fermi-Dirac distribution converges to the [[Maxwell-Boltzmann statistic]], which gives the classical results. But since we are at low temperature anyway, we might as well use the [[Sommerfeld expansion]]. This lets us explore the behavior of the Fermi energy at low-but-not-zero temperatures.
 
-These terms must evidently only be relevant at very low temperatures; after all, if they didn't, we'd see their effects at room temperature and that certainly does not happen. Since we are at low temperature anyway, we might as well use the [[Sommerfeld expansion]] for $f_{3/2}(z)$. Starting from the density equation
+Starting from the density equation and using only the first term of the expansion
 $$n\lambda ^{3}_{T}=\frac{1}{v}\lambda ^{3}_{T}=f_{3/2}(z)\quad \to \quad\frac{1}{v}\left( \frac{2\pi \hbar^{2}}{mk_{B}T} \right)^{3/2}\simeq \frac{4}{3\sqrt{ \pi }}(\ln z)^{3/2}$$
 The logarithm is
 $$\ln z=\left( \frac{3\sqrt{ \pi }}{4v} \right)^{2/3} \frac{2\pi \hbar^{2}}{mk_{B}T}$$
 But we also have
 $$z\simeq e^{\beta E_{F}}\quad\to \quad \beta E_{F}\simeq \ln z$$
 As such, the Fermi energy is
-$$E_{F}=k_{B}T\ln z=\frac{\hbar^{2}}{2m}\left( \frac{6\pi^{2}}{v} \right)^{2/3}=\frac{\hbar^{2}}{2m}\left( \frac{6\pi^{2}N}{V} \right)^{2/3}$$
+$$E_{F}=k_{B}T\ln z\simeq\frac{\hbar^{2}}{2m}\left( \frac{6\pi^{2}}{v} \right)^{2/3}=\frac{\hbar^{2}}{2m}\left( \frac{6\pi^{2}N}{V} \right)^{2/3}$$
 The average [[occupation number]] is
 $$\langle n_{\mathbf{p}} \rangle \simeq \frac{1}{e^{\beta(\varepsilon_{\mathbf{p}}-E_{F})}+1}$$
-If $\varepsilon_{\mathbf{p}}<E_{F}$ we get $\langle n_{\mathbf{p}} \rangle=1$, otherwise $\langle n_{\mathbf{p}} \rangle=0$.
+If $\varepsilon_{\mathbf{p}}<E_{F}$ we get $\langle n_{\mathbf{p}} \rangle\simeq1$, otherwise $\langle n_{\mathbf{p}} \rangle\simeq0$.
 
-Up until now, we've ignored the presence of [[spin]]. If we call the spin $s$, the [[Degenerazione|degeneracy]] is going to be
+Up until now, we've ignored the presence of [[spin]]. If we call the spin $s$, the spin [[Degenerazione|degeneracy]] is going to be
 $$g=2s+1$$
 and the following condition must hold:
 $$g\sum_{\mathbf{p}} \langle n_{\mathbf{p}} \rangle_{T=0} =N$$
-A $g$-degenerate gas of $N$ fermions behaves like $g$ independent ideal gases stacked on top of each other. In this case, the Fermi energy is
+A $g$-degenerate gas of $N$ fermions behaves like $g$ independent Fermi gases stacked on top of each other. In this case, the Fermi energy is
 $$\frac{g}{2\pi \hbar} \frac{4\pi}{3}p_{F}^{3}=\frac{N}{V}\quad\to \quad E_{F}=\frac{\hbar^{2}k_{F}^{2}}{2m}=\frac{\hbar^{2}}{2m}\left( \frac{6\pi ^{2}}{gv} \right)^{2/3}$$
 $$\frac{\lambda ^{3}_{T}}{v}=f_{3/2}(z)=\frac{4}{3\sqrt{ \pi }}\left[ (\ln z)^{3/2}+ \frac{\pi^{2}}{8}(\ln z)^{-1/2}+\ldots \right]$$
 $$(\ln z)^{3/2}+ \frac{\pi^{2}}{8}(\ln z)^{-1/2}\simeq \frac{3\sqrt{ \pi }}{4v}\lambda_{T}^{3}$$
-Higher degeneracy reduces the Fermi energy. For $T=0$, we have $\mu=E_{F}$. However, for non-zero temperature we must take some terms from the expansion:
+Higher degeneracy reduces the Fermi energy. For $T=0$, we still have $\mu=E_{F}$. However, for non-zero temperature we must take some terms from the expansion:
 $$\boxed{\mu=E_{F}\left[ 1- \frac{\pi^{2}}{12}\left( \frac{k_{B}T}{E_{F}} \right)^{2}+\ldots \right]=E_{F}\left[ 1- \frac{\pi^{2}}{12}\left( \frac{T}{T_{F}} \right)^{2}+\ldots \right]}$$
-where $T_{F}=E_{F}/k_{B}$ is the so-called Fermi temperature. The impact of these corrections is dependent on the ratio between temperature and Fermi temperature, which means that "high" or "low" temperature here is entirely define with respect to the Fermi temperature. The latter is found on a material-by-material basis. For instance, in metals it is $T_{F}\sim 10^{4}\text{ K}$, which means that for room temperature metals ($T\sim 300\text{ K}$), all corrections are tiny expect at most the first. In [[Stella di neutroni|neutron stars]], $T_{F}> 10^{7}\text{ K}$.
-
-More generally, when $T\ll T_{F}$, every particle moves to the lowest energy levels, so we get degeneration. Because of this, $T_{F}$ is also known as the **degeneracy temperature**, which is particularly important in later stages of [[Evoluzione stellare|stellar evolution]].
+where $T_{F}=E_{F}/k_{B}$ is the Fermi temperature. The impact of these corrections is dependent on the ratio between temperature and Fermi temperature, which means that "high" or "low" temperature here is entirely define with respect to the Fermi temperature. The latter is found on a material-by-material basis. For instance, in metals it is $T_{F}\sim 10^{4}\text{ K}$, which means that for room temperature metals ($T\sim 300\text{ K}$), all corrections are tiny expect at most the first. In [[Stella di neutroni|neutron stars]], $T_{F}> 10^{7}\text{ K}$.
 #### Internal energy
 The [[internal energy]] $U$ of the gas could be derived by direct integration:
 $$\begin{align}
