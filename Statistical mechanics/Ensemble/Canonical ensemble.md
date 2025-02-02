@@ -18,11 +18,11 @@ since $E_{2}$ is the only state the reservoir is likely to be in at equilibrium.
 $$\rho_{1}(\mathbf{q}_{1},\mathbf{p}_{1})=\Gamma_{2}(E_\text{total}-E_{1})=\Gamma_{2}(E_\text{total}-H_{1}(\mathbf{q}_{1},\mathbf{p}_{1}))$$
 We want to find the number of [[Stato|microstates]] at energy $E_{1}$, and to do so we can start from the [[Entropy (information theory)|Boltzmann entropy]] formula $S(E_\text{total}-E_{1})=k_{B}\log \Gamma(E_\text{total}-E_{1})$. Remember that $E_{2}\gg E_{1}$, so we can approximate $S(E_\text{total}-E_{1})$ using a [[serie di Taylor|Taylor series]] in $E_\text{total}-E_{1}=E_{2}$ centered in $E_\text{total}$ and truncate at the first order without much error:
 $$\begin{align}
-k_{B}\log \Gamma_{2}(E_\text{total}-E_{1})&=S_{2}(E_\text{total}-E_{1}) \\
-&=S_{2}(E_\text{total})-E_{1}\left.\frac{ \partial S_{2} }{ \partial E_{2} } \right|_{E_{2}=E_\text{total}} +\ldots\\
-&\simeq S_{2}(E_{2})- E_{1} \frac{1}{T}
+k_{B}\log \Gamma_{2}(E_\text{total}-E_{1})&=S_{1}(E_\text{total}-E_{1}) \\
+&=S_{1}(E_\text{total})-E_{1}\left.\frac{ \partial S_{1} }{ \partial E_{2} } \right|_{E_{2}=E_\text{total}} +\ldots\\
+&\simeq S_{1}(E_{\text{total}})- E_{1} \frac{1}{T}
 \end{align}$$
-where we used the [[Maxwell relations|Maxwell relation]] $\frac{ \partial S_{2} }{ \partial E_{2} }=\frac{1}{T_{2}}$, the fact that $T_{1}=T_{2}=T$ always because that's how reservoirs work and that $E_\text{total}\simeq E_{2}$ since $E_{1}$ is comparatively small. If we pull $\Gamma_{2}$ out we get
+where we used the [[Maxwell relations|Maxwell relation]] $\frac{ \partial S_{2} }{ \partial E_{2} }=\frac{1}{T_{2}}$, the fact that $T_{1}=T_{2}=T$ always because that's how reservoirs work. If we pull $\Gamma_{2}$ out we get
 $$\Gamma_{2}(E_\text{total}-E_{1})=e^{S_{2}(E_\text{total})/k_{B}}e^{-E_{1}/k_{B}T}=\rho_{1}(\mathbf{q}_{1},\mathbf{p_{1}})$$
 The first exponential is a constant, so we can drop it by redefining the normalization constant. By writing $E_{1}=H_{1}(\mathbf{q}_{1},\mathbf{p}_{1})$, using the inverse temperature $\beta=1/k_{B}T$ and dropping the index 1, we can write the density function:
 $$\boxed{\rho(\mathbf{q},\mathbf{p})=e^{-\beta H(\mathbf{q},\mathbf{p})}}$$

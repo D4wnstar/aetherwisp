@@ -158,7 +158,7 @@ The $f_{5/2}(z)$ function is independent from $\beta$, so we only need
 $$\frac{ \partial  }{ \partial \beta } \frac{1}{\lambda ^{3}_{T}}=\frac{ \partial  }{ \partial \beta } \left( 2\pi \hbar ^{2} \frac{\beta}{m} \right)^{-3/2}=- \frac{3}{2\beta}\left( 2\pi \hbar ^{2} \frac{\beta}{m} \right)^{-3/2}=- \frac{3}{2}k_{B}T \frac{1}{\lambda ^{3}_{T}}$$
 We can finally write
 $$\boxed{U=\frac{3}{2}Nk_{B}T \frac{f_{5/2}(z)}{f_{3/2}(z)}}$$
-This is essentially an extended [[equipartition theorem]]. Unfortunately, actually calculating the two $f$ function is complicated or straight-up impossible. We can however use a [[Sommerfeld expansion]] for both of them at $z\gg 1$. The $f_{3/2}$ expansion is above. The $f_{5/2}$ expansion is
+This is essentially an extended [[equipartition theorem]]. Unfortunately, actually calculating the two $f$ function in closed form is not impossible. We can however use a [[Sommerfeld expansion]] for both of them at $z\gg 1$. The $f_{3/2}$ expansion is above. The $f_{5/2}$ expansion is
 $$f_{5/2}(z)=\frac{8}{15\sqrt{ \pi }}(\ln z)^{5/2}\left[ 1+ \frac{5\pi^{2}}{8} \frac{1}{(\ln z)^{2}}+\ldots \right]$$
 Using the first term of each we get
 $$U=\frac{3}{2}Nk_{B}T\left[  \frac{\frac{8}{15\sqrt{ \pi }}(\ln z)^{5/2}}{\frac{4}{3\sqrt{ \pi }}(\ln z)^{3/2}} \right]=\frac{3}{2}Nk_{B}T \frac{2}{5}\ln z$$

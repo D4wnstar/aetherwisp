@@ -23,7 +23,7 @@ $$H_{X,Y}=-\sum_{x \in \mathcal{X}}\sum _{y \in \mathcal{Y}}p_{X,Y}(x,y)[\log p_
 - It is non-negative: $H_{X}\geq 0$. It is zero only if $X$ is certain (i.e. it only has one possible outcome).
 - If $X$ has more than one possible outcome, then $H_{X}$ is maximized when all those outcomes are equiprobable.
 - Joint entropy is generally less than the sum of the single entropies: $H_{X,Y}\leq H_{X}+H_{Y}$. It is equal only if $X$ and $Y$ are independent.
-- Entropy is additive across non-interacting [[Physical system|systems]] (*not* across variables; see previous property): $S=S_{1}+S_{2}$. The entropy of a system is equal to the sum of entropies of disjoint subsystems (keyword being disjoint: if they are interacting, this is not true: $S\geq S_{1}+S_{2}$).
+- Entropy is additive across non-interacting [[Physical system|systems]] (*not* across variables; see previous property): $H=H_{1}+H_{2}$. The entropy of a system is equal to the sum of entropies of disjoint subsystems (keyword being disjoint: if they are interacting, this is not true: $H\geq H_{1}+H_{2}$).
 ### Boltzmann's entropy
 In the specific case that all outcomes are equally likely, $p(x)$ is a constant. If there are $W$ possible outcomes, we have $p=1/W$, in which case the entropy reduces to
 $$H=\log W$$

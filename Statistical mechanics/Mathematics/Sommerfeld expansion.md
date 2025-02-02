@@ -36,7 +36,7 @@ since $\nu=\ln z$.
 
 In a similar manner, we can find the expansion for $f_{5/2}(z)$:
 $$\boxed{f_{5/2}(z)=\frac{8}{15\sqrt{ \pi }}(\ln z)^{5/2}\left[ 1+ \frac{5\pi^{2}}{8} \frac{1}{(\ln z)^{2}}+\ldots \right]}$$
-and more generally for a generic $f_{k}(z)$:
+and more generally for some $f_{k}(z)$:
 $$\boxed{f_{k}(z)=\frac{(\ln z)^{k}}{\Gamma(k+1)}\left[ 1+ \frac{\pi ^{2}}{6} \frac{k(k-1)}{(\ln z)^{2}} +\ldots\right]}$$
 
 [^1]: This is due to the [[Pauli exclusion principle]], which constrains [[Occupation number|occupation numbers]] to be $0$ or $1$ for fermions. Recall that at low temperatures, where random thermal forces are small, fermions pile up at the lowest state they can, up until the [[Fermi energy]]. At exactly zero temperature, there is a perfect cutoff between all states below this energy being occupied, and no state above being occupied. As the temperature increases, thermal fluctuations blur this cutoff, but if they are weak enough, it's still very close to a straight vertical line, making the distribution almost a Heaviside step function.

@@ -46,7 +46,7 @@ $$\begin{align}
 \text{(geometric series)}&=\int_{0}^{\infty}\omega ^{3}e^{-\beta \omega}\sum_{n=0}^{\infty}(e^{-\beta \omega})^{n}d\omega \\
 (\text{Gamma})&=\sum_{n=1}^{\infty} \int_{0}^{\infty}\omega ^{3}e^{-\beta \omega n}d\omega \\
 &=\sum_{n=1}^{\infty} \left( -\frac{ \partial ^{3} }{ \partial (\beta n) ^{3}  }  \right)\int_{0}^{\infty}e^{-\beta \omega n}d\omega \\
-(n\beta \omega=\xi)&=\sum_{n=1}^{\infty} \left( -\frac{ \partial ^{3} }{ \partial (\beta n) } ^{3} \right)\frac{1}{\beta}\underbrace{ \int_{0}^{\infty} e^{-\xi}d\xi }_{ 1 } \\
+(n\beta \omega=\xi)&=\sum_{n=1}^{\infty} \left( -\frac{ \partial ^{3} }{ \partial (\beta n)^{3} }  \right)\frac{1}{\beta n}\underbrace{ \int_{0}^{\infty} e^{-\xi}d\xi }_{ 1 } \\
 &=- \frac{1}{\beta^{4}}\sum_{n=1}^{\infty} \frac{ \partial ^{3} }{ \partial n^{3} } \frac{1}{n} \\
 &=\frac{6}{\beta^{4}}\sum_{n=1}^{\infty} \frac{1}{n^{4}} \\
 &=\frac{6}{\beta^{4}}\zeta(4)=\frac{6}{\beta^{4}}\frac{\pi^{4}}{90}
@@ -79,7 +79,6 @@ We solved this integral before, so our final result is
 $$\boxed{I(T)=\frac{\pi ^{2}k_{B}^{4}}{60\hbar ^{3}c^{2}}T^{4}=\sigma T^{4}}$$
 This is known as the [[Stefan-Boltzmann law]] for [[irradiazione|irradiation]], where $\sigma$ is the [[Stefan-Boltzmann constant|Stefan-Boltzmann constant]].
 
-[1]: This might seem weird as photons are being added and removed all the time. The real reason is that photons have no [[mass]] and only carry [[kinetic energy]], so when they are absorbed, they give away their energy and vanish. As such, the energy increases, but the particles do not (since the photon vanished). Photons really just move energy around and once they deliver their energy, the disappear. In fact, all ensembles of massless particles have zero chemical potential.
-
+[^1]: This might seem weird as photons are being added and removed all the time. The real reason is that photons have no [[mass]] and only carry [[kinetic energy]], so when they are absorbed, they give away their energy and vanish. As such, the energy increases, but the particles do not (since the photon vanished). Photons really just move energy around and once they deliver their energy, the disappear. In fact, all ensembles of massless particles have zero chemical potential.
 [^2]: If the photon had more than two polarizations, the factor would be different. However, all experimental tests point to there being only two. This is one way of proving theoretically that a photon can only have two polarizations. (Consider that at the time this derivation was first made, the number of photon polarizations was still a matter of debate.)
 [^3]: It's like taking the average of both sides. However, do be careful of the factor 2 from the sum over polarization states.
