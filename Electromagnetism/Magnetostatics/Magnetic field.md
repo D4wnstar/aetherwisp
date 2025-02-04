@@ -4,7 +4,7 @@ The magnetic field's [[curl]] is manifestly nonzero as it rotates around the cur
 $$\oint \mathbf{B}\cdot d\mathbf{r}=\oint \frac{\mu_{0}I}{2\pi s}dl=\frac{\mu_{0}I}{2\pi s}\oint dl=\frac{\mu_{0}I}{2\pi s}2\pi s=\mu_{0}I$$
 The answer is independent of the radius. In fact, it's independent of the shape of the loop too, the circle was just a convenient choice. Now, say you have several wires arranged in any way. Only the ones passing through the loop make a difference, and the ones that do all end up providing $\mu_{0}I_{i}$, so the total is just the sum of currents that pass through:
 $$\oint \mathbf{B}\cdot d\mathbf{r}=\mu_{0}I_\text{enc}$$
-If the flow of charge is described by a volume current density
+This is known as [[Ampere's law]]. If the flow of charge is described by a volume current density
 $$I_\text{enc}=\int \mathbf{J}\cdot d\mathbf{a}$$
 where the integral is taken over any surface bounded by the loop. Here we can apply the [[Teorema del rotore|curl theorem]]:
 $$\int (\nabla\times\mathbf{B})\cdot d\mathbf{a}=\mu_{0}\int \mathbf{J}\cdot d\mathbf{a}$$
