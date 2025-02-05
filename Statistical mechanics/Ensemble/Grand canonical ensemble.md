@@ -24,7 +24,7 @@ Note that
 $$\sum_{N_{1}=0}^{N} \int  \rho(\mathbf{q}_{1},\mathbf{p}_{1},N_{1})d\mathbf{q}_{1}d\mathbf{p}_{1}=1 \tag{1}$$
 We can get
 $$\begin{align}
-\ldots&=\frac{Q_{N_{2}}(V_{2},T)}{Q_{N}(V,T)} \frac{e^{-\beta H(\mathbf{q}_{1},\mathbf{p}_{1},N_{1})}}{h^{3N_{1}}N_{1}!}
+\ldots&=\frac{Q_{N_{2}}(V_{2},T)}{Q_{N}(V,T)} \frac{e^{-\beta H_{1}(\mathbf{q}_{1},\mathbf{p}_{1},N_{1})}}{h^{3N_{1}}N_{1}!}
 \end{align}$$
 The ratio of partition functions is
 $$\frac{Q_{N_{2}}(V_{2},T)}{Q_{N}(V,T)}=e^{-\beta[A(N-N_{1},V-V_{1},T)-A(N,V,T)]}$$
@@ -53,25 +53,23 @@ Just like in the canonical ensemble, the energy is
 $$U=\langle H \rangle =-\frac{ \partial  }{ \partial \beta } \ln \mathcal{Z}(Z,V,T)$$
 ### Particle number fluctuations
 Since $N$ varies, we can express the [[mean]] number of particles as the [[ensemble average]]
-$$\langle N \rangle =\frac{\sum_{N=0}^{\infty}NZ^{N}Q_{N}(V,T)}{\sum_{N=0}^{\infty} Z^{N}Q_{N}(V,T)}$$
-The trick is to take the $Z$ derivative of $\ln Z$:
-$$\frac{ \partial  }{ \partial Z } \ln \mathcal{Z}=\frac{1}{\sum_{N=0}^{\infty} Z^{N}Q_{N}}\frac{ \partial  }{ \partial Z } \mathcal{Z}=\ldots$$
-The $Z$ derivative of the partition function reduces to
-$$\frac{ \partial  }{ \partial Z } \mathcal{Z}=\sum_{N=0}^{\infty} \left( \frac{ \partial  }{ \partial Z } Z^{N} \right)Q_{N}=\sum_{N=0}^{\infty} NZ^{N-1}Q_{N}=\frac{1}{Z}\sum_{N=0}^{\infty} NZ^{N}Q_{N}$$
-and so we have
-$$\ldots=\frac{1}{Z} \frac{\sum_{N=0}^{\infty} NZ^{N}Q_{N}}{\sum_{N=0}^{\infty} Z^{N}Q_{N} }=\frac{1}{Z}\langle N \rangle $$
-By inverting the equation, can get
-$$\boxed{\langle N \rangle =Z\frac{ \partial  }{ \partial Z } \log \mathcal{Z}(Z,V,T)}\tag{2}$$
-Now that we have the mean, we can also find the [[variance]]. The trick is the same as before. If doing $Z\frac{ \partial  }{ \partial Z }$ gave us $\langle N \rangle$, doing it twice should give us $\langle N^{2} \rangle$:
+$$\langle N \rangle =\frac{1}{\mathcal{Z}}\sum_{N=0}^{\infty}Nz^{N}Q_{N}(V,T)$$
+We employ the common method using a derivative to make a quantity (here $N$) disappear:
+$$Nz^{N}=z\frac{ \partial  }{ \partial z } z^{N}$$
+so
+$$\langle N \rangle =\frac{1}{\mathcal{Z}}\sum_{N=0}^{\infty} z\frac{ \partial  }{ \partial z } z^{N}Q_{N}(V,T)=\frac{z}{\mathcal{Z}}\frac{ \partial  }{ \partial z } \sum_{N=0}^{\infty} z^{N}Q_{N}(V,T)=\frac{z}{\mathcal{Z}}\frac{ \partial  }{ \partial z } \mathcal{Z}=z\frac{ \partial  }{ \partial z } \ln \mathcal{Z}$$
+And so
+$$\boxed{\langle N \rangle =z\frac{ \partial  }{ \partial z } \ln \mathcal{Z}(z,V,T)}\tag{2}$$
+Now that we have the mean, we can also find the [[variance]]. The trick is the same as before. If doing $z\frac{ \partial  }{ \partial z }$ gave us $\langle N \rangle$, doing it twice should give us $\langle N^{2} \rangle$:
 $$\begin{align}
-Z\frac{ \partial  }{ \partial Z } Z\frac{ \partial  }{ \partial Z } \ln \mathcal{Z}&=Z\frac{ \partial  }{ \partial Z } \frac{\sum_{N=0}^{\infty}NZ^{N}Q_{N}}{\mathcal{Z}} \\
-&=Z\left[ \frac{1}{\mathcal{Z}}\sum_{N=0}^{\infty} N\left( \frac{ \partial  }{ \partial Z } Z^{N} \right)Q_{N}+ \left( \frac{ \partial  }{ \partial Z } \frac{1}{\mathcal{Z}} \right)\sum_{N=0}^{\infty} NZ^{N}Q_{N} \right] \\
-&=Z\left[ \frac{1}{\mathcal{Z}} \frac{1}{Z}\sum_{N=0}^{\infty} N^{2}Z^{N}Q_{N}- \frac{1}{\mathcal{Z}^{2}} \frac{1}{Z}\left( \sum_{N=0}^{\infty} NZ^{N}Q_{N} \right)\left( \sum_{N=0}^{\infty} NZ^{N}Q_{N} \right) \right]= \\
-&=\frac{\sum_{N=0}^{\infty}N^{2}Z^{N}Q_{N}}{\mathcal{Z}}- \left( \frac{\sum_{N=0}^{\infty}NZ^{N}Q_{N}}{\mathcal{Z}} \right)^{2} \\
+z\frac{ \partial  }{ \partial z } z\frac{ \partial  }{ \partial z } \ln \mathcal{Z}&=z\frac{ \partial  }{ \partial z } \frac{1}{\mathcal{Z}} \sum_{N=0}^{\infty}Nz^{N}Q_{N} \\
+&=z\left[ \frac{1}{\mathcal{Z}}\sum_{N=0}^{\infty} N\left( \frac{ \partial  }{ \partial z } z^{N} \right)Q_{N}+ \left( \frac{ \partial  }{ \partial z } \frac{1}{\mathcal{Z}} \right)\sum_{N=0}^{\infty} Nz^{N}Q_{N} \right] \\
+&=z\left[ \frac{1}{\mathcal{Z}} \frac{1}{z}\sum_{N=0}^{\infty} N^{2}z^{N}Q_{N}- \frac{1}{\mathcal{Z}^{2}} \frac{1}{z}\left( \sum_{N=0}^{\infty} Nz^{N}Q_{N} \right)\left( \sum_{N=0}^{\infty} Nz^{N}Q_{N} \right) \right]= \\
+&=\frac{\sum_{N=0}^{\infty}N^{2}z^{N}Q_{N}}{\mathcal{Z}}- \left( \frac{\sum_{N=0}^{\infty}Nz^{N}Q_{N}}{\mathcal{Z}} \right)^{2} \\
 &=\langle N^{2} \rangle -\langle N \rangle ^{2}
 \end{align}$$
 which is precisely the variance. However, though we understand what the variance is, the left hand side of the equation is still cryptic. To find the physics in it, we can express the $Z$ derivative in terms of the chemical potential as
-$$Z\frac{ \partial  }{ \partial Z } =Z\frac{ \partial \mu }{ \partial Z } \frac{ \partial }{ \partial \mu } =Z\left( \frac{ \partial  }{ \partial Z } k_{B}T\ln Z \right)\frac{ \partial  }{ \partial \mu } =k_{B}T\frac{ \partial  }{ \partial \mu } $$
+$$z\frac{ \partial  }{ \partial z } =z\frac{ \partial \mu }{ \partial z } \frac{ \partial }{ \partial \mu } =z\left( \frac{ \partial  }{ \partial z } k_{B}T\ln z \right)\frac{ \partial  }{ \partial \mu } =k_{B}T\frac{ \partial  }{ \partial \mu } $$
 Plugging this back into the previous equation gives us a more interesting look on particle number fluctuations:
 $$\boxed{\text{var}(N)=\langle N^{2} \rangle -\langle N \rangle ^{2}=k_{B}^{2}T^{2}\frac{ \partial ^{2}  }{ \partial \mu ^{2} } \ln \mathcal{Z}}$$
 Unsurprisingly, higher temperatures mean higher variances.
@@ -81,11 +79,11 @@ $$\langle n^{2} \rangle -\langle n \rangle ^{2}=\frac{k_{B}^{2}T^{2}}{V^{2}}\fra
 When $V\to \infty$ in the limit, this equation goes to zero, which means that particle density fluctuations nullify, which in turn also means that particle number fluctuations are also zero.
 ### Thermodynamics
 To derive thermodynamics relations in the grand canonical, we can do something similar to keeping only the highest [[entropy]] state in the [[microcanonical ensemble]]. The grand canonical partition function is a sum:
-$$\mathcal{Z}=\sum_{N=0}^{\infty} Z^{N}Q_{N}$$
+$$\mathcal{Z}=\sum_{N=0}^{\infty} z^{N}Q_{N}$$
 If one term (call it $\langle N \rangle$) is considerably larger than all the others, we can keep only that one and approximate the sum away. This happens if the number variance is vanishingly small, which is to say in the thermodynamic limit. In this case, we can state
-$$\mathcal{Z}=\sum_{N=0}^{\infty} Z^{N}Q_{N}\simeq Z^{\langle N \rangle}Q_{\langle N \rangle}$$
+$$\mathcal{Z}=\sum_{N=0}^{\infty} z^{N}Q_{N}\simeq z^{\langle N \rangle}Q_{\langle N \rangle}$$
 The logarithm simplifies considerably:
-$$\ln \mathcal{Z}\simeq \ln(Z^{\langle N \rangle}Q_{\langle N \rangle})=\langle N \rangle\ln Z+\ln Q_{\langle N \rangle}=\langle N \rangle\beta\mu-\beta A_{\langle N \rangle}$$
+$$\ln \mathcal{Z}\simeq \ln(z^{\langle N \rangle}Q_{\langle N \rangle})=\langle N \rangle\ln z+\ln Q_{\langle N \rangle}=\langle N \rangle\beta\mu-\beta A_{\langle N \rangle}$$
 where $A_{\langle N \rangle}$ is the [[Helmholtz free energy]] in state $\langle N \rangle$. We can state $A_{N}=Na(v,T)$ by defining $a$ as the free energy per particle, using $v=V/N$ as the specific volume of the ensemble. Doing this, we get
 $$\ln \mathcal{Z}\simeq \langle N \rangle\beta\mu-\beta\langle N \rangle a(\langle v \rangle,T)=\langle N \rangle\beta(\mu-a(\langle v \rangle,T))$$
 where $\langle v \rangle=V/\langle N \rangle$. Unfortunately, $a(\langle v \rangle,T)$ is a somewhat cryptic quantity and it would be nice to express it in terms of better understood ones. Fortunately, this is possible by calculating a couple of thermodynamic quantities. [[Pressure]] is

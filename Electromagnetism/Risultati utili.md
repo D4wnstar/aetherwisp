@@ -14,10 +14,10 @@ Legge di Coulomb
 $$\mathbf{E}(\mathbf{r})=\frac{1}{4\pi\varepsilon_{0}}\sum\limits_{i=1}^{n} \frac{q_{i}}{\mathfrak{r}_{i}^{2}}\hat{\mathfrak{r}}_{i},\qquad\mathbf{E}(\mathbf{r})=\frac{1}{4\pi\varepsilon_{0}}\int_{\gamma} \frac{\lambda(\mathbf{r}')}{\mathfrak{r}^{2}}\hat{\mathfrak{r}}\ dt'$$
 $$\mathbf{E}(\mathbf{r})=\frac{1}{4\pi\varepsilon_{0}}\int_{\Phi}\frac{\sigma(\mathbf{r}')}{\mathfrak{r}^{2}}\hat{\mathfrak{r}}\ da',\qquad\mathbf{E}(\mathbf{r})=\frac{1}{4\pi\varepsilon_{0}}\int_{V}\frac{\rho(\mathbf{r}')}{\mathfrak{r}^{2}}\hat{\mathfrak{r}}\ d\tau'$$
 Discontinuità, interamente normale alla superficie:
-$$E_{\text{above}}^{\perp}-E_{\text{below}}^{\perp}=\frac{\sigma}{\varepsilon_{0}},\qquad\mathbf{E}_\text{above}^{\parallel}=\mathbf{E}_\text{below}^{\parallel},\qquad\mathbf{E}_\text{above}-\mathbf{E}_\text{below}=\frac{\sigma}{\varepsilon_{0}}\hat{\mathbf{n}}$$
-Piano infinito
-$$\mathbf{E}=\frac{\sigma}{2\varepsilon_{0}}\hat{\mathbf{z}}$$
-Carica puntiforme, sfera o palla da fuori
+$$E_{\text{above}}^{\perp}-E_{\text{below}}^{\perp}=\frac{\sigma}{\varepsilon_{0}},\qquad \mathbf{E}_\text{above}^{\parallel}=\mathbf{E}_\text{below}^{\parallel},\qquad\mathbf{E}_\text{above}-\mathbf{E}_\text{below}=\frac{\sigma}{\varepsilon_{0}}\hat{\mathbf{n}}$$
+Piano infinito, cavo/cilindro fine
+$$\mathbf{E}=\frac{\sigma}{2\varepsilon_{0}}\hat{\mathbf{z}},\qquad \mathbf{E}=\frac{\lambda}{2\pi \varepsilon_{0}s}\hat{\mathbf{s}}$$
+Carica puntiforme, sfera o palla di raggio $R$ da fuori
 $$\mathbf{E}=\frac{1}{4\pi\varepsilon_{0}} \frac{Q}{r^{2}}\hat{\mathbf{r}} \qquad \text{se }r>R,\qquad\mathbf{E}=0 \qquad \text{se }r<R\text{ (solo sfera)}$$
 Palla da dentro ($r<R$)
 $$\mathbf{E}=\frac{1}{4\pi\varepsilon_{0}} \frac{r}{R^{3}}Q\hat{\mathbf{r}} \qquad \text{se }r<R$$
@@ -106,7 +106,7 @@ e con esse
 $$\mathbf{A}(\mathbf{r})=\frac{\mu_{0}}{4\pi}\int_{\mathcal{V}} \frac{\mathbf{J}_{b}}{\mathfrak{r}}\ d\tau'+ \frac{\mu_{0}}{4\pi}\int_{\mathcal{S}} \frac{\mathbf{K}_{b}}{\mathfrak{r}}\ da'$$
 Se sono lineari vale
 $$\mathbf{M}=\chi_{m}\mathbf{H},\quad \mathbf{B}=\mu_{0}(1+\chi_{m})=\mu \mathbf{H}$$
-Se il dielettrico è lineare e omogeneo vale anche
+Se il diamagnete/paramagnete è lineare e omogeneo vale anche
 $$\mathbf{J}_{b}=\nabla\times\mathbf{M}=\nabla \times(\chi_{m}\mathbf{H})=\chi_{m}\mathbf{J}_{f}$$
 ## Circuiti
 ### Equazioni di Maxwell
@@ -127,9 +127,9 @@ $$\underbrace{ \frac{1}{C}=\sum_{i=1}^{N} \frac{1}{C_{i}} }_{ \text{serie} },\qq
 Energia immagazzinata
 $$W=\frac{1}{2}CV^{2}$$
 Carica in circuito RC:
-$$q(t)=C\mathcal{E}(1-e^{ -t/RC }),\qquad I=\frac{\mathcal{E}}{R}e^{-t/RC}$$
+$$q(t)=C\mathcal{E}(1-e^{ -t/RC }),\qquad I(t)=\frac{ \partial q(t) }{ \partial t } =\frac{\mathcal{E}}{R}e^{-t/RC}$$
 Scarica in circuito RC:
-$$q(t)=C\mathcal{E}e^{-t/RC},\qquad I(t)=- \frac{\mathcal{E}}{R}e^{-t/RC}$$
+$$q(t)=C\mathcal{E}e^{-t/RC},\qquad I(t)=\frac{ \partial q(t) }{ \partial t } =- \frac{\mathcal{E}}{R}e^{-t/RC}$$
 ### Legge di Ohm
 Forma generale per correnti, forma pratica per circuiti. La forza per unità di carica $\mathbf{f}$ si riduce al campo elettrico $\mathbf{E}$ al di fuori dell'elettrodinamica relativistica.
 $$\mathbf{J}=\sigma_{C}\mathbf{f}=\sigma_{C}\mathbf{E},\qquad \Delta V=RI$$

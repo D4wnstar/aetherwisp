@@ -7,6 +7,8 @@ The **Fermi and Bose functions** or **complete Fermi and Bose integrals** are cl
 $$f_{k}(z)\equiv \sum_{l=1}^{\infty}(-1)^{l+1} \frac{z^{l}}{l^{k}},\qquad g_{k}(z)\equiv \sum_{l=1}^{\infty} \frac{z^{l}}{l^{k}}$$
 where $k$ is a real number. Both of these are specific forms of the [[polylogarithm]]:
 $$f_{k}(z)=-\text{Li}_{k}(-z),\qquad g_{k}(z)=\text{Li}_{k}(z)$$
+and so
+$$g_{k}(z)=-f_{k}(-z)$$
 They obey the recurrence relations
 $$z \frac{d}{dz}f_{k}(z)=f_{k-1}(z),\qquad z \frac{d}{dz}g_{k}(z)=g_{k-1}(z)$$
 They have integral representations through the [[Gamma function]]:

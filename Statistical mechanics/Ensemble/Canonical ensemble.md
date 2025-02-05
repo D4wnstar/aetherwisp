@@ -15,7 +15,7 @@ The reservoir's energy and number of particle is taken to be much larger than th
 Now, we really only care about the state of system 1, regardless of what reservoir 2 is doing. The [[probability]] of system 1 being in a volume element $d\mathbf{q}_{1}d\mathbf{p}_{1}$ centered on $(\mathbf{q}_{1},\mathbf{p}_{1})$ in its own [[phase space]] is proportional to
 $$\propto\Gamma_{2}(E_{2})d\mathbf{q}_{1}d\mathbf{p}_{1}=\Gamma_{2}(E_\text{total}-E_{1})d\mathbf{q}_{1}d\mathbf{p}_{1}$$
 since $E_{2}$ is the only state the reservoir is likely to be in at equilibrium. The density function of system 1 is going to be determined by its most likely state
-$$\rho_{1}(\mathbf{q}_{1},\mathbf{p}_{1})=\Gamma_{2}(E_\text{total}-E_{1})=\Gamma_{2}(E_\text{total}-H_{1}(\mathbf{q}_{1},\mathbf{p}_{1}))$$
+$$\rho_{1}(\mathbf{q}_{1},\mathbf{p}_{1})=\Gamma_{2}(E_\text{total}-E_{1})$$
 We want to find the number of [[Stato|microstates]] at energy $E_{1}$, and to do so we can start from the [[Entropy (information theory)|Boltzmann entropy]] formula $S(E_\text{total}-E_{1})=k_{B}\log \Gamma(E_\text{total}-E_{1})$. Remember that $E_{2}\gg E_{1}$, so we can approximate $S(E_\text{total}-E_{1})$ using a [[serie di Taylor|Taylor series]] in $E_\text{total}-E_{1}=E_{2}$ centered in $E_\text{total}$ and truncate at the first order without much error:
 $$\begin{align}
 k_{B}\log \Gamma_{2}(E_\text{total}-E_{1})&=S_{1}(E_\text{total}-E_{1}) \\

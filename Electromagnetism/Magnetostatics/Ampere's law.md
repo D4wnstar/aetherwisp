@@ -69,11 +69,11 @@ Say I want to use this law on a loop right after a capacitor, beyond the second 
 
 What's the enclosed current? Well, it's whatever current is passing through the surface of the loop. But what is the surface of the loop? It's any surface bounded by it. The obvious choice here is just the flat space within the loop (blue in the image), but it just as well be the amorphous green one, similar to a balloon. The issue here is that, while in the blue surface the current passing through is obvious, in the green one there is *no* current passing through. This makes no sense: Ampere's law must hold for every possible surface bounded by the loop, it can't be picky. There's clearly something wrong here.
 
-The problem arises in electrodynamics: this never occurred in magnetostatics because steady current don't pile [[electric charge]] up somewhere, whereas with non-steady currents it's possible that happens. Since in order to charge a capacitor you need a non-steady current (to stockpile charge on the capacitor plates), this occurs only now. In fact, in all of electrodynamics, the concept of "current enclosed by the loop" is ill-defined, as it predicates on the notion that the current is constant in time.
+The problem arises in electrodynamics: this never occurred in magnetostatics because steady current don't cause a buildup of [[electric charge]] anywhere, whereas non-steady currents do. Since in order to charge a capacitor you need a non-steady current (to stockpile charge on the capacitor plates), this occurs only now. In fact, in all of electrodynamics, the concept of "current enclosed by the loop" is ill-defined, as it predicates on the notion that the current is constant in time.
 
 To find the missing link, apply the current continuity equation and Gauss' law to the problematic side of Ampere's law
 $$\nabla\cdot\mathbf{J}=- \frac{ \partial \rho }{ \partial t } =-\frac{ \partial  }{ \partial t } (\varepsilon_{0}\nabla\cdot\mathbf{E})=-\nabla \cdot\left( \varepsilon_{0}\frac{ \partial \mathbf{E} }{ \partial t }  \right)$$
-So, if we added the term in brackets to Ampere's law, it would exactly cancel out the divergence of the right hand side and fix the law. Thus, we get
+So, if we add the term in brackets to Ampere's law, it would exactly cancel out the divergence of the right hand side and fix the law. Thus, we get
 $$\boxed{\nabla\times\mathbf{B}=\mu_{0}\mathbf{J}+\mu_{0}\varepsilon_{0}\frac{ \partial \mathbf{E} }{ \partial t }}$$
 This new terms vanishes in magnetostatics, where $\mathbf{E}$ is constant in time, but it cannot be ignored in electrodynamics, where it has the fundamental consequence:
 
@@ -85,4 +85,4 @@ where $Q$ is the charge on the plate and $A$ is its area. We thus have
 $$\frac{ \partial E }{ \partial t } =\frac{1}{\varepsilon_{0}A}\frac{dQ}{dt} =\frac{1}{\varepsilon_{0}A}I$$
 Substituting this in the fixed Ampere's law gives us
 $$\oint \mathbf{B}\cdot d\mathbf{r}=\mu_{0}I_\text{enc}+\mu_{0}\varepsilon_{0}\int\left( \frac{ \partial \mathbf{E} }{ \partial t }  \right)\cdot d\mathbf{a}$$
-If we choose the flat surface, then $E=0$ and $I_\text{enc}=I$, but if we choose the pathological balloon-like surface instead, then $I_\text{enc}=$ and $\int \frac{ \partial \mathbf{E} }{ \partial t }\cdot d\mathbf{a}=I/\varepsilon_{0}$, which again gives us the correct result.
+If we choose the flat surface, then $E=0$ and $I_\text{enc}=I$, but if we choose the pathological balloon-like surface instead, then $I_\text{enc}=0$ and $\int \frac{ \partial \mathbf{E} }{ \partial t }\cdot d\mathbf{a}=I/\varepsilon_{0}$, which again gives us the correct result.

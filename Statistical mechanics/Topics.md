@@ -19,6 +19,7 @@
 - [[Random phase hypothesis]]
 - [[Identical particles]]
 - [[Boson|Bosons]] and [[Fermion|fermions]]
+- Correct Boltzmann counting
 - [[Pauli exclusion principle]]
 - [[Occupation number]]
 - [[Fermi-Dirac distribution]], [[Bose-Einstein distribution]], [[Maxwell-Boltzmann statistic]]
@@ -27,6 +28,7 @@
 - [[Ideal gas]] (quantum), [[Fermi gas]] and [[Bose gas]]
 - [[Bose-Einstein condensation]]
 - [[Black body cavity]]
+- [[Oscillatore armonico#1D crystal|Phonons]]
 ### Mathematics
 - [[Laplace's method]] (i.e. saddle point method)
 - [[Volume of an n-ball]]
