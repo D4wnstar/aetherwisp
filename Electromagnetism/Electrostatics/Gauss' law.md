@@ -3,6 +3,8 @@ $$\oint_{S}\mathbf{E}\cdot d\mathbf{S}=\frac{Q_{\text{enc}}}{\varepsilon_{0}}$$
 where $Q_{enc}$ is the total charge enclosed within the surface and $d\mathbf{S}$ is the normal vector on the surface element $dS$. This is true for any surface and and any charge distribution therein. It can be expressed in differential form through the divergence of the field:
 $$\nabla\cdot\mathbf{E}=\frac{\rho}{\varepsilon_{0}}$$
 where $\rho$ is the volume charge density.
+
+Gauss' law holds even for changing electric fields and moving charges, which may be subject to [[electromagnetic induction]].
 ### Derivation
 Consider a point charge $q$ within a sphere of radius $R$. The outgoing flux is going to be
 $$\oint_{S}\mathbf{E}\cdot d\mathbf{S}=\int \frac{1}{4\pi\varepsilon_{0}}\left(\frac{q}{r^{2}}\hat{\mathbf{r}}\right)\cdot(r^{2}\sin\theta d\theta d\phi \hat{\mathbf{r}})=\frac{q}{\varepsilon_{0}}$$

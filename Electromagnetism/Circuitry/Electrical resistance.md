@@ -2,7 +2,7 @@
 aliases:
   - resistor
 ---
-The **electrical resistance** $R$ of a material is the amount of [[electric current]] running through it per unit [[electric potential]]. For metals, it can be calculated with [[Ohm's laws|Ohm's first law]]. It is measured in ohms, $\Omega$, which are volts per ampere. The resistance of a material is also dependent on its temperature.
+The **electrical resistance** $R$ of a material is the amount of [[electric current]] running through it per unit [[electric potential]]. For metals, it can be calculated with [[Ohm's law|Ohm's first law]]. It is measured in ohms, $\Omega$, which are volts per ampere. The resistance of a material is also dependent on its temperature.
 
 Mechanically, resistance is added to a circuit by adding a component with very high resistance called a **resistor** or **resistance**.
 ### Behavior in series and parallel
@@ -21,7 +21,7 @@ Consider two resistances $R_{1}$ and $R_{2}$ in a circuit of total potential dif
 \end{document}
 ```
 
-The difference caused by the first one is given by [[Ohm's laws|Ohm's first law]] as $\Delta V_{1}=R_{1}I$ and the second is $\Delta V_{2}=R_{2}I$. It must be that $\Delta V=\Delta V_{1}+\Delta V_{2}$ so
+The difference caused by the first one is given by [[Ohm's law|Ohm's first law]] as $\Delta V_{1}=R_{1}I$ and the second is $\Delta V_{2}=R_{2}I$. It must be that $\Delta V=\Delta V_{1}+\Delta V_{2}$ so
 $$\Delta V=R_{1}I+R_{2}I=(R_{1}+R_{2})I$$
 Resistances therefore *sum* in series. More generally, for $n$ resistances:
 $$\boxed{R=\sum_{i=1}^{n}R_{i}}$$

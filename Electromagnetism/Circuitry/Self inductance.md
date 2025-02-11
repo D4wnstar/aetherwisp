@@ -26,7 +26,7 @@ where $L$ is the constant of proportionality called **self inductance**. The [[E
 $$\mathcal{E}=-L \frac{dI}{dt}$$
 which is known as the **back emf**, because it tries to push back against any change. The larger the inductance, the harder it gets to change a circuit's current.
 ### RL circuit
-An **RL circuit** is a circuit made of a [[Electrical resistance|resistor]] $R$ and an inductor $L$. If we attach a generator of emf $\mathcal{E}_{0}$ and no internal resistance, [[Ohm's laws|Ohm's first law]] says
+An **RL circuit** is a circuit made of a [[Electrical resistance|resistor]] $R$ and an inductor $L$. If we attach a generator of emf $\mathcal{E}_{0}$ and no internal resistance, [[Ohm's law|Ohm's first law]] says
 $$\mathcal{E}_{0}-L \frac{dI}{dt}=IR$$
 which is a first order [[equazione differenziale ordinaria|ordinary differential equation]]. It can be solved by integration:
 $$I(t)=\frac{\mathcal{E}_{0}}{R}[1-e^{ -(R/L)t }]$$
