@@ -1,7 +1,7 @@
 > [!success] Esame
 > Questo esperimento può essere fatto per l'esame di Lab 2.
 
-The idea is that we have a circuit with a [[Electrical resistance|resistance]] $R$, a [[capacitor]] $C$, a diode and a variable [[electric potential]]. The circuit is
+The idea is that we have a circuit with a [[Electrical resistance|resistance]] $R$, a [[Capacitor]] $C$, a diode and a variable [[electric potential]]. The circuit is
 
 ```tikz
 \usepackage{circuitikz}

@@ -95,7 +95,7 @@ $$C=C_{1}+C_{2}$$
 and more generally, for $n$ capacitors,
 $$\boxed{C=\sum_{i=1}^{n} C_{i}}$$
 ### Charge and discharge process
-The process of charging and discharging a capacitor is of course not an electrostatics problem. That said, if the capacitor is (dis)charging *slowly*, then we can approximate the [[electric current]] in the circuit to be mostly constant in time as the propagation of change happens much faster than the (dis)charging[^1]. It's not *actually*, but if the (dis)charge is slow enough, we can consider it as if it were a (quasi-)steady current. In this regime, we can apply [[Kirchhoff's laws|Kirchhoff's hoop law]].
+The process of charging and discharging a capacitor is of course not an electrostatics problem. That said, if the capacitor is (dis)charging *slowly*, then we can approximate the [[electric current]] in the circuit to be mostly constant in time as the propagation of change happens much faster than the (dis)charging[^1]. It's not *actually*, but if the (dis)charge is slow enough, we can consider it as if it were a (quasi-)steady current. In this regime, we can apply [[Kirchhoff's laws|Kirchhoff's loop law]].
 #### Charge
 Consider a circuit of this shape, composed of an [[electrical resistance]] $R$, a capacitor $C$ and a generator with [[electromotive force]] $\mathcal{E}$:
 
@@ -161,12 +161,12 @@ I(t,tau):=e^(-t/tau)
 plot(I(t, tau_1), I(t, tau_2), [0,4], [0,1])==?
 ```
 
-If we express work in terms of the current as $dW=\mathcal{E}dq=\mathcal{E}Idt$. We can integrate this over an infinite time period to find the total work required to charge a capacitor:
+If we express [[work]] in terms of the current as $dW=\mathcal{E}dq=\mathcal{E}Idt$. We can integrate this over an infinite time period to find the total work required to charge a capacitor:
 $$W=\int_{0}^{\infty} \mathcal{E}Idt=\int_{0}^{\infty} \frac{\mathcal{E}^{2}}{R}e^{-t/RC}dt=C\mathcal{E}^{2}$$
-Curiously, this is twice as much as what we found before when integrating over the charge directly. What's going on? The issue is that this is not the work required to charge the capacitor. This is the *total* work required to be applied onto the *circuit* in order for the capacitor to be charged. This is important because unlike the previous result, this also takes into account the very relevant issue of the [[Joule effect]], which "wastes" energy by turning it into heat, and the energy wasted into heat exactly the same as the energy put into the capacitor. In fact, we can even find this by going through the Joule effect itself. The resistance does work outputting heat dependent on the Joule effect: $dW=Pdt=RI^{2}dt$, so
+Curiously, this is twice as much as what we found before when integrating over the charge directly. What's going on? The issue is that this is not the work required to charge the capacitor. This is the *total* work required to be applied onto the *circuit* in order for the capacitor to be charged. This is important because unlike the previous result, this also takes into account the very relevant issue of the [[Joule effect]], which "wastes" [[energy]] by turning it into heat, and the energy wasted into [[heat]] exactly the same as the energy put into the capacitor. In fact, we can even find this by going through the Joule effect itself. The resistance does work outputting heat dependent on the Joule effect: $dW=Pdt=RI^{2}dt$, so
 $$W=\int_{0}^{\infty}RI^{2}dt=\int_{0}^{\infty} \frac{\mathcal{E}^{2}}{R}e^{-2t/RC}=\frac{C\mathcal{E}^{2}}{2}$$
 #### Discharge
-To discharge a capacitor, we just remove the generator from the circuit:
+To discharge a capacitor, we just remove the generator from the circuit (realistically we probably have a switch that causes a short-circuit or that redirects to ground):
 
 ```tikz
 \usepackage{circuitikz}

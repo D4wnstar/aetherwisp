@@ -1,7 +1,4 @@
----
-aliases: []
----
-**Ohm's law** is an experimentally-determined law that describes the [[electric potential]] difference and [[electrical resistance]] of a closed circuit made of thin wires:
+**Ohm's law** is a law that describes the [[electric potential]] difference and [[electrical resistance]] of a closed circuit made of thin wires:
 $$\Delta V=RI \quad\text{where }\quad R=\rho\frac{l}{S}=\rho \int_{0}^{l} \frac{1}{S(s)}ds$$
 $\Delta V$ is the potential difference calculated between the point of highest and lowest potential. In a circuit, these would be the connections to a battery or generator. $R$ is the resistance and $I$ is the [[electric current]] running through the wire. Specifically, it is a free current, not a bound current.
 

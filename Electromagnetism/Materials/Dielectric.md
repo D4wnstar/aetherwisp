@@ -76,7 +76,7 @@ and in terms of potential
 $$\varepsilon _\text{above}\frac{ \partial V_\text{above} }{ \partial n } -\varepsilon _\text{below}\frac{ \partial V_\text{below} }{ \partial n } =-\sigma_{f}$$
 ### Energy
 #### In capacitors
-From the fact that a [[capacitor]] filled with dielectric has a higher [[capacitance]], and from the formula
+From the fact that a [[Capacitor]] filled with dielectric has a higher [[capacitance]], and from the formula
 $$W=\frac{1}{2}CV^{2}$$
 we can recognize that it must take more work to charge a dielectric-filled capacitor than a vacuum one. The reason here is because part of the field is cancelled out by the bound charges that occur in a material, thus it takes more free charge to achieve the same potential.
 #### In linear dielectrics

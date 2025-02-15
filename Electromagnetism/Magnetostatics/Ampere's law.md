@@ -61,7 +61,7 @@ There is an internal issue with how Ampere's law is formulated. In differential 
 $$\nabla\cdot(\nabla\times\mathbf{B})=\mu_{0}(\nabla\cdot\mathbf{J})$$
 which is, in general, not zero. It *is* zero in magnetostatics, when using steady currents, but beyond magnetostatics (when dealing with electrodynamics), it cannot be correct. Truth is, Ampere's law is actually missing a piece, as Maxwell discovered.
 
-For a thought experiment, imagine we are charging a [[capacitor]]. The integral from of Ampere's law is
+For a thought experiment, imagine we are charging a [[Capacitor]]. The integral from of Ampere's law is
 $$\oint \mathbf{B}\cdot d\mathbf{r}=\mu_{0}I_\text{enc}$$
 Say I want to use this law on a loop right after a capacitor, beyond the second plate.
 

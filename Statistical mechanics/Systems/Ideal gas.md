@@ -389,9 +389,9 @@ where the first is directly obtained and the second is from the [[Serie geometri
 #### Particle number
 The average particle number is
 $$\langle N \rangle =z\frac{ \partial  }{ \partial z } \mathcal{Z}(z,V,T)=\left\{\begin{align}
-\sum_{\mathbf{p}} \frac{1}{z^{-1}e^{\beta \varepsilon_{\mathbf{p}}}+1} &\quad \text{(Fermions)} \\
-\sum_{\mathbf{p}} \frac{1}{z^{-1}e^{\beta \varepsilon_{\mathbf{p}}}-1} & \quad\text{(Bosons)}
-\end{align}\right\}=\sum_{\mathbf{p}}\langle n_{\mathbf{p}} \rangle $$
+\left( \prod_{\mathbf{p}}(1+ze^{-\beta \varepsilon_{\mathbf{p}}}) \right)\sum_{\mathbf{p}} \frac{1}{z^{-1}e^{\beta \varepsilon_{\mathbf{p}}}+1} &\quad \text{(Fermions)} \\
+\left( \prod_{\mathbf{p}} \frac{1}{1-ze^{-\beta \varepsilon_{\mathbf{p}}}} \right)\sum_{\mathbf{p}} \frac{1}{z^{-1}e^{\beta \varepsilon_{\mathbf{p}}}-1} & \quad\text{(Bosons)}
+\end{align}\right\}=\mathcal{Z}\sum_{\mathbf{p}}\langle n_{\mathbf{p}} \rangle $$
 found using the generalized [[product rule]] and $e^{\sum n}=\prod_{n}e^{n}$.
 #### Equation of state
 The [[equation of state]] can be expressed with the grand [[partition function]] $\mathcal{Z}$ as
@@ -464,7 +464,7 @@ A more precise result can be reached by taking [[Bose-Einstein condensation]] in
 $$\boxed{\frac{P}{k_{B}T}=\frac{1}{\lambda ^{3}}g_{5/2}(z)- \frac{1}{V}\ln(1-z)}$$
 Similarly, the particle density is
 $$\boxed{n=\frac{1}{\lambda ^{3}}g_{3/2}(z)+ \frac{1}{V} \frac{z}{1-z}}$$
-Both of these terms behave like $\sim 1/N$ when $z\ll 1$, so in the classical limit they spontaneously disappear. That said, only the additional density term is relevant. When $z$ rises towards its limiting value of $1$, the additional density term tends to blow up. At first glance, the equation of state term appears to do so too. However, notice how the number of particles in the ground state can be expressed in terms of $z$:
+Both of these terms behave like $\sim N$ when $z\ll 1$, so in the classical limit they spontaneously disappear. That said, only the additional density term is relevant. When $z$ rises towards its limiting value of $1$, the additional density term tends to blow up. At first glance, the equation of state term appears to do so too. However, notice how the number of particles in the ground state can be expressed in terms of $z$:
 $$N_{0}=\langle n_{p=0} \rangle =n_{0}V=\frac{z}{1-z}$$
 This is because $\lambda\to \infty$ when $p=0$[^5], so we only keep the latter term. Conversely, the other term is excited boson number
 $$N_\text{exc}=\langle n_{p>0} \rangle =\frac{1}{\lambda ^{3}}g_{3/2}(z)$$
@@ -488,7 +488,7 @@ If we move $V$ over to the right side, we get
 $$\boxed{U=\frac{3}{2}PV-\mu N}$$
 This is identical to the classical result, which is what we want.
 ##### Bosons
-Since the equation of state of bosons is identical to that of fermions, but with Bose functions instead of Fermi functions, the internal energy is itself identical, derived in the same way as above. It should be noted that the additional term due to condensation in the equation of state does not make a difference for the reasons given above.
+Since the equation of state of bosons is identical to that of fermions, but with Bose functions instead of Fermi functions, the internal energy is itself identical, derived in the same way as above. It should be noted that the additional term due to condensation in the equation of state does not make a difference.
 
 [^1]: The form $PV=nRT$ exists because, besides being convenient in a laboratory setting, thermodynamics was historically developed at a time where the existence of the [[atomo|atom]] had yet to be proven and with it, the [[Particella|particle]] division of matter. In fact, classical thermodynamics as a whole does not strictly require the existence of particles like atoms.
 [^2]: Note that we are technically maximizing $\ln W$ here, not $S$. However, since $S=k_{B}\ln W$, they share maxima, so the result is the same.
