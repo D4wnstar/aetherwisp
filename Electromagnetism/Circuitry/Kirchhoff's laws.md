@@ -12,3 +12,11 @@ By directed we mean that the sign of each current is plus if it is ingoing and n
 **Kirchhoff's second law**, or **Kirchhoff's loop law**, states that the total directed sums of potential differences over a closed loop is always zero:
 $$\sum_{i=1}^{N} \Delta V_{i}=0$$
 By directed we mean that $\Delta V$ is positive if $V$ increases across a point or component and negative if it decreases.
+## In magnetic circuits
+Similar laws hold in magnetic circuits too, where the current is replaced by the [[flux]] of the [[magnetic field]].
+### First law
+The total directed sum of the magnetic fluxes passing through a junction is always zero:
+$$\sum_{i=1}^{N} \Phi_{B}=0$$
+### Second law
+The total directed sum of [[magnetic potential]] differences $\Delta V_{M}$ over a closed loop is always zero:
+$$\sum_{i=1}^{N} \Delta V_{M}=0$$
