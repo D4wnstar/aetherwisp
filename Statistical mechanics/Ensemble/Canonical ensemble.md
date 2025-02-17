@@ -105,7 +105,7 @@ With this, the partition function becomes
 $$Q_{N}(V,T)=\int_{0}^{\infty} e^{-\beta E}\omega (E)dE=\int_{0}^{\infty}e^{-\beta[E-TS(E)]}\ dE=\int_{0}^{\infty}e^{-\beta A(E)}\ dE$$
 by using the definition of Helmholtz free energy. Mathematically, the most impactful contribution to the integral is given by the highest exponent, which occurs when $\beta A(E)$ is lowest. Since $\beta$ is constant, we're left with a minimization problem for $A(E)$.
 
-This kind of integral is well suited for approximation with [[Laplace's method]]. Under the assumption that this minimum exists, we call call the energy value at which it occurs $\bar{E}$. Thus, $A(\bar{E})$ is a [[Punto critico|stationary point]]:
+This kind of integral is well suited for approximation with [[Laplace's method]]. Under the assumption that this minimum exists, we call the energy value at which it occurs $\bar{E}$. Thus, $A(\bar{E})$ is a [[Punto critico|stationary point]]:
 $$\frac{ \partial A }{ \partial E } (\bar{E})=0$$
 Unpacking the definition $A=E-TS$, we get
 $$\left( 1-T\frac{ \partial S }{ \partial E }  \right)(\bar{E})=0$$

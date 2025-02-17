@@ -2,7 +2,7 @@
 aliases:
   - ideal gas law
 ---
-An **ideal gas** is an approximate model of the behavior of a gas that holds for low density gases. It is sparse and has weak internal interactions that limit [[information]] exchange. The dynamics are determined by the **ideal gas law**:
+An **ideal gas** is an approximate model of the behavior of a gas that holds for low density gases. It is sparse and has weak internal interactions. The dynamics are determined by the **ideal gas law**:
 $$PV=Nk_{B}T=nRT=\frac{2}{3}U$$
 where $P$ is the [[pressure]], $V$ is the volume occupied by the gas, $N$ is the number of [[particella|particles]] composing the gas, $k_{B}$ is the [[Boltzmann constant]], $T$ is the [[temperature]], $n$ is the number of [[mole|moles]], $R$ is the [[ideal gas constant]] and $U$ is the [[internal energy]][^1]. The first and second forms apply only to classical gases, whereas the third is also valid for quantum gases (if the particles have [[mass]]).
 
@@ -68,7 +68,7 @@ $$\Sigma(R)=\left( \frac{V}{h^{3}} \right)^{N} \frac{\pi^{3N/2}}{\Gamma\left( \f
 and entropy
 $$S=k_{B}\log \Sigma(R)$$
 We can use the fact that $\Gamma(n+1)=n!$ and [[Stirling's approximation]] $\log n!=n\log n-n$ to get ([[Steps Entropy microcanonical ideal gas]])
-$$\boxed{S=k_{B}N\left[ \frac{3}{2}\ln\left( \frac{4\pi mE}{3Nh^{2}} \right)+\ln V+ \frac{3}{2} \right]}$$
+$$\boxed{S=k_{B}N\left[ \frac{3}{2}\ln\left( \frac{4\pi m}{3h^{2}} \frac{E}{N}\right)+\ln V+ \frac{3}{2} \right]}$$
 This equation is simultaneously two things: the entropy of a classical gas, and also profoundly *wrong*. Alas, this is not the entropy we were hoping for, and not because the math or the ensemble are wrong. It is wrong because the term $\ln V$ causes this entropy to not be [[Extensive property|extensive]], despite by definition needing to be so. The culprit is to be found in quantum effects, namely the [[Identical particles|indistinguishability]] of particles, which makes many (most) states equivalent to each other and therefore not appear in the entropy. In other words, our $\Sigma(E)$ function greatly overcounts states by not taking this into account. But we're working with a classical ensemble, why do quantum effects matter? See, the issue is that despite working with a classical framework, the components here are [[Atomo|atoms]], [[molecule|molecules]], subatomic particles, you name it, whatever makes up the gas, and as it happens, these *are* quantum objects by themselves and *are* subject to quantum effects. Their individual quantum quirks end up being seen at a macroscopic level too because while the whole gas isn't quantum, it's made of quantum particles. Problems like these are in the nature of statistical mechanics: if we are to derive the macroscopic from the microscopic, we cannot ignore the quirks of the microscopic world. By the way, this wrong result is generally referred to as the [[Gibbs paradox]].
 ### In the classical canonical ensemble
 As usual, the [[canonical ensemble]] is a simpler way to obtain the same results as the microcanonical above.

@@ -30,6 +30,9 @@ $$S(E,V)=k\log \Gamma(E,V)$$
 where $k$ is some constant (presumably the [[Boltzmann constant]]). However, in order to definitively prove this is entropy we need to prove that
 1. $S$ is [[Extensive property|extensive]];
 2. $S$ obeys the [[Laws of thermodynamics|second law of thermodynamics]].
+
+It can be proven that the entropy can be calculated from any of $\Gamma$, $\omega$ and $\Sigma$, and that they are all equal up to an additive constant:
+$$S=k_{B}\log \Gamma(E)\qquad S=k_{B}\log \omega(E)\qquad S=k_{B}\log \Sigma(E)$$
 #### Extensiveness
 Let's start from the first. Consider some chamber divided in two volumes $V_{1}$ and $V_{2}$, respectively containing $N_{1}$ and $N_{2}$ particles.
 
@@ -54,7 +57,7 @@ $$k\log \Gamma_{1}\Gamma_{2}+k\log \frac{E}{\Delta}\sim N+\log N$$
 $N$ is something massive, like $\sim 10^{23}$ type massive, so this sum looks like $10^{23}+23$ (here using $\log_{10}$, but the point stands for any basis). Evidently, the second term is completely insignificant and we might as well set it to zero. But if we do this, we are left with
 $$S(E,V)\simeq k\log[\Gamma_{1}(\bar{E}_{1})\Gamma_{2}(\bar{E}_{2})]=k\log \Gamma_{1}(\bar{E}_{1})+k\log \Gamma_{2}(\bar{E}_{2})=S_{1}+S_{2}$$
 And so we proved that $S$ is (approximately) additive over subsystems, i.e. it is extensive. Furthermore, the only term that we are left with is the largest contribution alone, which means that the only term that matters in the sum is the one with highest entropy.
-#### Second law
+#### Equilibrium temperature
 To prove that $S$ obeys the second law of thermodynamics, we'll need to check if the state with maximum entropy is also the most likely. In other words, the state we found above, with energies $(\bar{E}_{1},\bar{E}_{2})$, must be so overwhelmingly likely as to make every other state look impossibly rare. Since the state density is uniform (because we said so in the definition of the microcanonical ensemble), being the most likely [[Stato|macrostate]] is the same as having the largest count of equivalent microstates. As such, $\bar{E}_{1}$ and $\bar{E}_{2}$ must be such that they maximize $\Gamma_{1}(E_{1})\Gamma_{2}(E_{2})$ under the constraint $E_{1}+E_{2}=E$. We can use [[Entropy from Lagrange multipliers|Lagrange multipliers]] to find the maximum under this bounded set. $(\bar{E}_{1},\bar{E}_{2})$ is a [[Punto critico|stationary point]], for which
 $$\nabla(\Gamma_{1}(E_{1})\Gamma_{2}(E_{2}))=0,\qquad \partial E_{1}+\partial E_{2}=0$$
 From this we have
@@ -70,10 +73,7 @@ $$T_{1}=T_{2}$$
 which is exactly what we should expect as we are studying the system in the context of [[thermal equilibrium]]. But the definition of temperature we used comes from [[absolute temperature]], which inherently relies on the Boltzmann constant. Therefore, $k$ has to be precisely the Boltzmann constant $k_{B}$, else the definition of $T$ would no longer hold.
 
 As a side note, $T_{1}=T_{2}$ holds for any two subsystems, which means that the global temperature of a [[Physical system|isolated system]] described by the microcanonical ensemble also regulates the temperature (and therefore thermal equilibrium) of all of its components.
-
-It can be proven that the entropy can be calculated from any of $\Gamma$, $\omega$ and $\Sigma$, and that they are all equal up to an additive constant:
-$$\boxed{S=k_{B}\log \Gamma(E)\qquad S=k_{B}\log \omega(E)\qquad S=k_{B}\log \Sigma(E)}$$
-
+#### Second law
 The only thing left to prove is that $S$ obeys the second law of thermodynamics. Thankfully this is straight-forward: the second law says that when a thermodynamic systems goes from one state to another through a [[Thermodynamic transformation|transformation]], the entropy does not decrease. In a microcanonical ensemble, entropy is a function of $E$, $N$ and $V$. But $E$ and $N$ are constant, so the only thing we can change to vary the state is $V$. But if $V$ is increased, then $\Sigma(E)$ must also increase as we are integrating over more states (recall that the integration bounds are affected by $V$). But since $S=k_{B}\log \Sigma(E)$, and $\Sigma(E)$ can only increase, then $S$ can also only increase. Thus, the second law is preserved, and with that we proved that $S$ is formally entropy.
 #### Connection to information theory
 Consider the definition of entropy in function of [[Entropy (information theory)|information-theoretical entropy]], $S=k_{B}S_\text{inf}$. Note that this has the same form as the above three, just with $S_\text{inf}$ instead of the $\log$ of $\Gamma$, $\omega$ or $\Sigma$. This suggests that all three of these are formally types of information-theoretical entropy, which then gets converted into physical entropy by the Boltzmann constant.
