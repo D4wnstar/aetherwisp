@@ -282,7 +282,19 @@ $$\begin{align}
 We can combine them to write
 $$\ln W(\{ n_{i} \})=\sum_{\mathbf{p}}\left[ \frac{1}{\xi\pm 1}\ln(\xi\pm 1)\mp \frac{\xi}{\xi\pm 1}\ln\left( \frac{\xi}{\xi \pm 1} \right) \right]$$
 Our entropy therefore is
-$$\boxed{S=k_{B}\sum_{\mathbf{p}}\left[ \frac{1}{\xi\pm 1}\ln(\xi\pm 1)\mp \frac{\xi}{\xi\pm 1}\ln\left( \frac{\xi}{\xi \pm 1} \right) \right]}$$
+$$S=k_{B}\sum_{\mathbf{p}}\left[ \frac{1}{\xi\pm 1}\ln(\xi\pm 1)\mp \frac{\xi}{\xi\pm 1}\ln\left( \frac{\xi}{\xi \pm 1} \right) \right]$$
+This can be proven to lead to the following results:
+$$\boxed{\frac{S}{k_{B}}=\log W=\begin{align}
+&\text{(Boson) }\sum_{i} \frac{\log(\bar{n}_{i}+g_{i}-1)!}{\bar{n}_{i}(g_{i}-1)!}=\sum_{i}g_{i}\left[ \frac{\beta E_{i}-\log z}{z^{-1}e^{\beta E_{i}}-1} - \log(1-ze^{-\beta E_{i}}) \right] \\
+&\text{(Fermion) }\sum_{i} \frac{g_{i}!}{\bar{n}_{i}!(g_{i}-\bar{n}_{i})!} = \sum_{i}g_{i}\left[ \frac{\beta E_{i}-\log z}{Z^{-1}e^{\beta E_{i}}+1}+ \log(1+ze^{-\beta E_{i}}) \right]\\
+&\text{(Boltzmann) } \sum_{i} \frac{g_{i}^{n_{i}}}{n_{i}!}=z\sum_{i}g_{i}e^{-\beta E_{i}}(\beta E_{i}-\log z)+N
+\end{align}}$$
+If $\log g_{i}\gg 1$, the $+N$ term in the Boltzmann system can be safely ignored. It can be found that the $g_{i}$ functions are
+$$\begin{align}
+\text{(Boson)}\quad g_{i}&=1 \\
+\text{(Fermion)}\quad g_{i}&=1 \\
+\text{(Boltzmann)}\quad g_{i}&=\frac{1}{N!} \frac{N!}{\sum_{i}n_{i}!}=\frac{1}{\sum_{i}n_{i}!}
+\end{align}$$
 #### Boltzmann gas properties
 Despite being inaccurate at a quantum level, a Boltzmann gas can still give us useful results at high temperatures. We can follow a similar procedure as we did when determining the parameters.
 ##### Particle density
@@ -346,21 +358,6 @@ $$\begin{align}
 &=-\ln(n\lambda ^{3})+ \frac{5}{2}
 \end{align}$$
 This is the [[Sackur-Tetrode equation]], just as we should expect from a classical ideal gas.
-
-:::hidden
-We just need to substitute the correct $\bar{n}_{i}$ in the correct state count $W(\{ \bar{n}_{i} \})$:
-$$\frac{S}{k_{B}}=\log W=\begin{align}
-&\text{(Bosons) }\sum_{i} \frac{\log(\bar{n}_{i}+g_{i}-1)!}{\bar{n}_{i}(g_{i}-1)!}=\sum_{i}g_{i}\left[ \frac{\beta E_{i}-\log Z}{Z^{-1}e^{\beta E_{i}}-1} - \log(1-Ze^{-\beta E_{i}}) \right] \\
-&\text{(Fermions) }\sum_{i} \frac{g_{i}!}{\bar{n}_{i}!(g_{i}-\bar{n}_{i})!} = \sum_{i}g_{i}\left[ \frac{\beta E_{i}-\log Z}{Z^{-1}e^{\beta E_{i}}+1}+ \log(1+Ze^{-\beta E_{i}}) \right]\\
-&\text{(Boltzmann) } \sum_{i} \frac{g_{i}^{n_{i}}}{n_{i}!}=Z\sum_{i}g_{i}e^{-\beta E_{i}}(\beta E_{i}-\log Z)+N
-\end{align}$$
-If $\log g_{i}\gg 1$, the $+N$ term in the Boltzmann system can be safely ignored. It can be found that the $g_{i}$ functions are
-$$\begin{align}
-\text{(Bosons)}\quad g_{i}&=1 \\
-\text{(Fermions)}\quad g_{i}&=1 \\
-\text{(Boltzmann)}\quad g_{i}&=\frac{1}{N!} \frac{N!}{\sum_{i}n_{i}!}=\frac{1}{\sum_{i}n_{i}!}
-\end{align}$$
-:::
 ### In the quantum canonical ensemble
 In the [[quantum canonical ensemble]], analytic calculation is actually often not possible. The reason is that the summation in the quantum canonical partition function $Q_{N}$ is tough to solve. In fact, given the sets of [[Occupation number|occupation numbers]] $\{ n \}$ identified by some quantity (say, momentum $\mathbf{p}$), we have
 $$Q_{N}(V,T)=\text{Tr}\hat{\rho}=\sum_{\{ n \},\sum_{p}n_{p}=N}e^{-\beta E(\{ n \})}$$

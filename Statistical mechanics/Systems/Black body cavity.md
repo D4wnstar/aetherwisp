@@ -1,6 +1,6 @@
 A **black body cavity** is a hollow [[corpo nero|black body]] with a pinhole dug into the surface. The cavity emits [[radiazione elettromagnetica|electromagnetic radiation]] from within. If the cavity is large enough, the system approximately looses the dependency on boundary conditions. It was the [[physical system]] that spurred the start of quantum mechanics, as classical results differ massively from reality due to the **ultraviolet catastrophe**.
 ### Quantum description
-Since electromagnetic radiation is the exchange of [[Photon|photons]], the whole cavity can be described as a [[canonical ensemble]]. Specifically, it is a [[Bose gas]] of [[mass|massless]] [[boson|bosons]]. Since photons are absorbed and emitted, the total number of photons is not conserved. The [[chemical potential]] is zero[^1].
+Since electromagnetic radiation is the exchange of [[Photon|photons]], the whole cavity can be described as an [[ensemble]]. Specifically, it is a [[Bose gas]] of [[mass|massless]] [[boson|bosons]]. Since photons are absorbed and emitted, the total number of photons $N$ is not conserved. As such, we'll use a [[quantum grand canonical ensemble]]. The [[chemical potential]] is therefore zero[^1], so the [[fugacity]] is $z=1$.
 
 As with all photons, their properties are
 $$E=\hbar \omega,\qquad \mathbf{p}=\hbar \mathbf{k},\qquad \lvert \mathbf{k} \rvert =\frac{\omega}{c}$$
@@ -8,14 +8,16 @@ where $\hbar$ is the [[Costante di Planck|reduced Planck constant]], $\omega$ is
 #### Partition function
 Each state can be indexed like $n_{\mathbf{k},\hat{\varepsilon}}=0,1,2,\ldots$ and they represent [[normal mode|normal modes]] of oscillation. The particle number is variable, so we can't rely on it like we can with massive particles. The total [[energy]] on the other had is always conserved, so we can use
 $$E(\{ n_{\mathbf{k},\hat{\varepsilon}} \})=\sum_{\mathbf{k},\hat{\varepsilon}}\hbar \omega n_{\mathbf{k},\hat{\varepsilon}}\tag{1}$$
-We'll use a [[quantum canonical ensemble]]. The [[Partition function|canonical partition function]] is
-$$Q_{N}=\sum_{\{ n_{\mathbf{k},\hat{\varepsilon}} \}}\exp\left( -\beta \sum_{\mathbf{k},\hat{\varepsilon}}\hbar \omega n_{\mathbf{k},\hat{\varepsilon}} \right)=\prod_{\mathbf{k},\hat{\varepsilon}}\sum_{n=0}^{\infty} (e^{-\beta \hbar \omega})^{n}=\prod_{\mathbf{k},\hat{\varepsilon}} \frac{1}{1-e^{-\beta \hbar \omega}}$$
+Since $z=1$, the [[Partition function|grand canonical partition function]] reduces itself to just the [[Partition function|canonical partition function]], except with a solvable sum since the constraint $\sum_{i}n_{i}=N$ is lifted:
+$$\mathcal{Z}(z=1)=\sum_{N=0}^{\infty} Q_{N}=\sum_{N=0}^{\infty}\sum_{\substack{\{ n_{\mathbf{k},\hat{\varepsilon}} \} \\ \sum_{i}n_{i}=N}}e^{-\beta E(\{ n_{\mathbf{k},\hat{\varepsilon}} \})}=\sum_{\{ n_{\mathbf{k},\hat{\varepsilon}} \}}e^{-\beta E(\{ n_{\mathbf{k},\hat{\varepsilon}} \})}$$
+This is solved as
+$$\sum_{\{ n_{\mathbf{k},\hat{\varepsilon}} \}}e^{-\beta \sum_{\mathbf{k},\hat{\varepsilon}}\hbar \omega n_{\mathbf{k},\hat{\varepsilon}} }=\prod_{\mathbf{k},\hat{\varepsilon}}\sum_{n=0}^{\infty} (e^{-\beta \hbar \omega})^{n}=\prod_{\mathbf{k},\hat{\varepsilon}} \frac{1}{1-e^{-\beta \hbar \omega}}$$
 since $e^{\sum n}=\prod_{n}e^{n}$ and using the [[Serie geometrica|geometric series]]. See [[Ideal gas#In the quantum grand canonical ensemble]] for steps on how to invert sum and product. The logarithm is then
 $$\log Q_{N}=-\sum_{\mathbf{k},\hat{\varepsilon}}\log(1-e^{-\beta \hbar \omega})=-2\sum_{\mathbf{k}}\log(1-e^{-\beta \hbar \omega})$$
 since there are only two possible $\hat{\varepsilon}$ states[^2].
 #### Occupation numbers
 Now that we know $Q_{N}$, we can calculate everything else. The average [[occupation number]] is
-$$\langle n_{\mathbf{k}} \rangle =- \frac{1}{\beta}\frac{ \partial  }{ \partial (\hbar \omega) } \log Q_{N}=\frac{2}{\beta} \frac{\beta e^{\hbar \omega \beta}}{1-e^{-\beta \hbar \omega}}=\frac{2}{e ^{\beta \hbar \omega}-1}$$
+$$\langle n_{\mathbf{k}} \rangle =- \frac{1}{\beta}\frac{ \partial  }{ \partial (\hbar \omega) } \log Q_{N}=\frac{2}{\beta} \frac{\beta e^{-\hbar \omega \beta}}{1-e^{-\beta \hbar \omega}}=\frac{2}{e ^{\beta \hbar \omega}-1}$$
 which is a [[Bose-Einstein distribution]] multiplied by the polarization factor, as we should expect.
 ### Internal energy
 The [[internal energy]] is
@@ -33,7 +35,7 @@ $$U=\sum_{\mathbf{k},\hat{\varepsilon}}\hbar \omega \langle n_{\mathbf{k}} \rang
 Again, don't miss the $2$ from the polarization. The state density is given by
 $$G(k)=\frac{\frac{4}{3}\pi k^{3}}{\left( \frac{2\pi}{L} \right)^{3}}=\frac{k^{3}}{6\pi ^{2}}V,\qquad g(k)=\frac{ \partial G }{ \partial k } =\frac{k^{2}}{2\pi ^{2}}V$$
 Substituting yields
-$$\ldots= 2\hbar \int_{0}^{\infty} \frac{\omega k^{2}}{2\pi ^{2}}V \frac{1}{e^{\beta \hbar ck}-1}dk=\frac{\hbar V}{\pi ^{2}} \int_{0}^{\infty} \frac{\omega ^{2}}{c^{2}} \frac{\omega}{e^{\beta \hbar \omega}-1} \frac{d\omega}{c}$$
+$$\ldots= 2\hbar \int_{0}^{\infty} \frac{\omega k^{2}}{2\pi ^{2}}V \frac{1}{e^{\beta \hbar \omega}-1}dk=\frac{\hbar V}{\pi ^{2}} \int_{0}^{\infty} \frac{\omega ^{2}}{c^{2}} \frac{\omega}{e^{\beta \hbar \omega}-1} \frac{d\omega}{c}$$
 The energy density by volume is
 $$\frac{U}{V}=\int_{0}^{\infty}u(\omega,T)\ d\omega \quad\text{where}\quad \boxed{u(\omega,T)=\frac{\hbar}{\pi ^{2}c^{3}} \frac{\omega ^{3}}{e^{\beta \hbar \omega}-1}}$$
 This is called the [[Planck radiation law]].

@@ -15,7 +15,7 @@ Consider a one dimensional [[Physical system|system]] composed in a length $L$ o
 ##### Open boundary conditions
 Starting from the [[Equazione di Schrödinger|time-independent Schrödinger equation]], we have
 $$H\psi_{n}=E\psi_{n}$$
-The solution depends on the boundary. If we set open boundary conditions (that is, the edges of the system are impassable, so $\psi(x=0)=\psi(x=L)=0$), our system turns into a [[Buca infinita quantistica|infinite square well]], so the solution is $\psi_{n}\propto \sin kx$. We also have $kL=n\pi$, which means
+The solution depends on the boundary. If we set open boundary conditions (also known as a hard wall, that is, the edges of the system are impassable, so $\psi(x=0)=\psi(x=L)=0$), our system turns into a [[Buca infinita quantistica|infinite square well]], so the solution is $\psi_{n}\propto \sin kx$. We also have $kL=n\pi$, which means
 $$\psi_{n}(x)\propto \sin \frac{n\pi x}{L},\qquad E_{n}=\frac{\hbar^{2}k^{2}_{n}}{2m}=\frac{\hbar^{2}n^{2}\pi ^{2}}{2mL^{2}}=\frac{h^{2}}{2m} \left( \frac{n}{2L} \right)^{2}$$
 The [[Hamiltonian]] is the usual [[Particella libera (quantistica)|free particle]] one:
 $$\hat{H}=- \frac{\hbar^{2}}{2m}\frac{ \partial ^{2} }{ \partial x^{2} } $$

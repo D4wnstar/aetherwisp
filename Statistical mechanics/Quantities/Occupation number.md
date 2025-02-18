@@ -10,7 +10,7 @@ where $i$ is some label used to distinguish the states (usually a [[Numero quant
 For an example, consider a system with a discrete energy [[Spettro|spectrum]] $\{ \varepsilon_{k} \}_{k}$. There are infinite discrete energy [[Equazione agli autovalori|eigenstates]], each labelled by a quantum number $k$. Each energy state $\ket{\varepsilon_{k}}$ is simultaneously occupied by a number of particles $n_{k}$. Due to the Pauli exclusion principle, this is 0 or 1 for fermions and any natural number for bosons.
 
 If we take the particles to be non-interacting, the [[Partition function|canonical partition function]] of the system can be calculated as follows[^1]:
-$$Z=\sum_{n_{k}}e^{-\beta \sum_{k}\varepsilon_{k}n_{k}}=\prod_{k}\sum_{n_{k}}e^{-\beta\varepsilon_{k}n_{k}}$$
+$$Z=\sum_{\{ n_{k} \}}e^{-\beta \sum_{k}\varepsilon_{k}n_{k}}=\prod_{k}\sum_{n_{k}}e^{-\beta\varepsilon_{k}n_{k}}$$
 What values $n_{k}$ can take depends on the kind of particle:
 $$Z_{F}=\prod_{k}\sum_{n_{k}=0}^{1}e^{-\beta \varepsilon_{k} n_{k}}=\prod_{k}(1+e^{-\beta \varepsilon_{k}})$$
 $$Z_{B}=\prod_{k}\sum_{n_{k}=0}^{\infty} e^{-\beta \varepsilon_{k}n_{k}}=\prod_{k} \frac{1}{1+e^{-\beta \varepsilon_{k}}}$$
@@ -23,9 +23,8 @@ $$\langle n_{k} \rangle =\frac{e^{-\beta \varepsilon_{k}}}{1+e^{-\beta \varepsil
 This is the [[Fermi-Dirac distribution]]. For bosons, it becomes
 $$\begin{align}
 \langle n_{k} \rangle &=\frac{1}{\frac{1}{1-e^{\beta \varepsilon_{k}}}} \sum_{n_{k}=0}^{\infty} n_{k}e^{-\beta n_{k}\varepsilon_{k}} \\
-&=\frac{1}{\frac{1}{1-e^{\beta \varepsilon_{k}}}} \frac{ \partial  }{ \partial (\beta \varepsilon_{k}) } \sum_{n_{k}=0}^{\infty} e^{-\beta n_{k}\varepsilon_{k}} \\
-&=\frac{1}{\frac{1}{1-e^{\beta \varepsilon_{k}}}} \frac{ \partial  }{ \partial (\beta \varepsilon_{k}) } \sum_{n_{k}=0}^{\infty} e^{-\beta n_{k}\varepsilon_{k}} \\
-&=1-e^{\beta \varepsilon_{k}}\frac{ \partial  }{ \partial (\beta \varepsilon_{k}) } \frac{1}{1+e^{-\beta \varepsilon_{k}}} \\
+&=(1-e^{\beta \varepsilon_{k}}) \frac{ \partial  }{ \partial (\beta \varepsilon_{k}) } \sum_{n_{k}=0}^{\infty} e^{-\beta n_{k}\varepsilon_{k}} \\
+&=(1-e^{\beta \varepsilon_{k}}) \frac{ \partial  }{ \partial (\beta \varepsilon_{k}) } \frac{1}{1+e^{-\beta \varepsilon_{k}}} \\
 &=\frac{1}{e^{\beta \varepsilon_{k}}-1}
 \end{align}$$
 This is the [[Bose-Einstein distribution]] respectively. Combined, we can write

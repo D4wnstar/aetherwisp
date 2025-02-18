@@ -32,11 +32,11 @@ A system made of a chain of harmonic oscillators can be solved analytically by u
 #### 1D crystal
 The simplest case is that of a 1D crystal. Consider a series of $N$ particles (likely [[Atomo|atoms]]) on a one dimensional line, each equally spaced by a distance $a$. We define the position vector $\mathbf{n}=n\mathbf{a}$, where $n=0,1,2\ldots,N$ is the label of each atom. Each point is subject to oscillations. If we call $\xi_{\mathbf{n}}$ the distance from the [[equilibrium point]] for the particle in $\mathbf{n}$, we can write the total [[kinetic energy]] as
 $$K=\frac{m}{2}\sum_{\mathbf{n}}\dot{\xi}_{\mathbf{n}}^{2}$$
-and potential energy
+using dot notation to represent the time derivative. The [[potential energy]] is
 $$U=\frac{\gamma}{2}\sum_{\mathbf{n}}(\xi_{\mathbf{n}}-\xi_{\mathbf{n}-\mathbf{a}})^{2}$$
-with $\gamma \in \mathbb{R}$.  This is essentially an elastic potential, which encodes that atoms are coupled and moving one "pulls" other atoms nearby with it, similarly to a spring. The potential gets lower if the distance $a$ is increased because atomic interaction in [[Interazione elettromagnetica|electromagnetic ]] and falls off with distance. It's a simplistic model of course, but it works as a first approximation. This "springiness" of the atomic lattice is what allows waves to propagate through a solid.
+with $\gamma \in \mathbb{R}$ the elastic constant.  This is essentially an elastic potential, which encodes the idea that atoms are coupled and that moving one "pulls"  nearby atoms with it, like an elastic net. The potential gets lower if the distance $a$ is increased because atomic interaction is [[Interazione elettromagnetica|electromagnetic]] and falls off with distance. It's a simplistic model of course, but it works as a first approximation. This "springiness" of the atomic lattice is what allows waves to propagate through a solid.
 
-The distance $\xi$ has the periodic boundary condition $\xi_{\mathbf{n}}=\xi_{\mathbf{n}+N\mathbf{a}}$, which means that the ends of the material are connected like a ring. If we describe the oscillation across all particles as a traveling [[plane wave]] of condition $e^{i\mathbf{k}\cdot \mathbf{x}}\to e^{-i\mathbf{k}\cdot (\mathbf{x}+\mathbf{L})}$ where $L=Na$ is the length of the ring, we can write our [[wave vector]] as
+The distance $\xi$ has the periodic boundary condition $\xi_{\mathbf{n}}=\xi_{\mathbf{n}+N\mathbf{a}}$, which means that the ends of the material are connected like a ring. If we describe the oscillation across all particles as a traveling [[plane wave]] of condition $e^{i\mathbf{k}\cdot \mathbf{x}}= e^{-i\mathbf{k}\cdot (\mathbf{x}+\mathbf{L})}$ where $L=Na$ is the length of the ring, we can write our [[wave vector]] as
 $$k=\frac{2\pi \mu}{L},\qquad\mathbf{k}=\frac{2\pi \mu}{Na^{2}}\mathbf{a}$$
 where $\mu \in \mathbb{N}$ determines the number of possible oscillation states. This is the major difference between the crystal lattice and a continuum: there are only a discrete amount of possible oscillation states, determined by the number of atoms (i.e. nodes) in the lattice. This is similar to what happens in the [[Oscillatore armonico quantistico|quantum harmonic oscillator]]. Specifically, for a lattice of $N$ atoms, we have[^1]
 $$\mu=- \frac{N}{2},\ldots, \frac{N}{2}-1$$
@@ -46,7 +46,7 @@ Since the shift $\xi$ is position, we can Fourier transform it to get the recipr
 $$\xi_{\mathbf{n}}=\frac{1}{\sqrt{ N }}\sum_{\mathbf{k}}A_{\mathbf{k}}e^{i\mathbf{k}\cdot \mathbf{n}},\qquad A_{\mathbf{k}}=\frac{1}{\sqrt{ N }}\sum_{\mathbf{n}}\xi_{\mathbf{n}}e^{-i\mathbf{k}\cdot \mathbf{n}}$$
 where the sum happens only over the $N$ values of $\mathbf{k}$ within $[-\pi,\pi]$, i.e. in the first Brillouin zone. In fact, this is a [[Serie di Fourier|Fourier series]]. We also have
 $$\frac{1}{N}\sum_{\mathbf{k}}e^{i\mathbf{k}\cdot(\mathbf{n}-\mathbf{n}')}=\delta_{\mathbf{n}\mathbf{n'}},\qquad\frac{1}{N}\sum_{\mathbf{n}}e^{i(\mathbf{k}-\mathbf{k}')\cdot\mathbf{n}}=\delta_{\mathbf{k}\mathbf{k'}}$$
-and $A_{\mathbf{k}}=A_{-\mathbf{k}}^{*}$.
+using the [[Delta di Kronecker|Kronecker delta]], and $A_{\mathbf{k}}=A_{-\mathbf{k}}^{*}$.
 
 Our goal is to go from position space, where oscillation modes are coupled, to momentum space, where they are independent and form the set of [[normal mode|normal modes]] of oscillations.
 
