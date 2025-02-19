@@ -17,8 +17,6 @@ Starting from the [[Equazione di Schrödinger|time-independent Schrödinger equa
 $$H\psi_{n}=E\psi_{n}$$
 The solution depends on the boundary. If we set open boundary conditions (also known as a hard wall, that is, the edges of the system are impassable, so $\psi(x=0)=\psi(x=L)=0$), our system turns into a [[Buca infinita quantistica|infinite square well]], so the solution is $\psi_{n}\propto \sin kx$. We also have $kL=n\pi$, which means
 $$\psi_{n}(x)\propto \sin \frac{n\pi x}{L},\qquad E_{n}=\frac{\hbar^{2}k^{2}_{n}}{2m}=\frac{\hbar^{2}n^{2}\pi ^{2}}{2mL^{2}}=\frac{h^{2}}{2m} \left( \frac{n}{2L} \right)^{2}$$
-The [[Hamiltonian]] is the usual [[Particella libera (quantistica)|free particle]] one:
-$$\hat{H}=- \frac{\hbar^{2}}{2m}\frac{ \partial ^{2} }{ \partial x^{2} } $$
 If our $N$ fermions have two possible [[spin]] eigenvalues, $N/2$ will be spin up and $N/2$ will be spin down due to the exclusion principle. (For the rest of the article, we'll only consider fermions with two possible spins, which are by far the most common, but it is possible to generalize to $\ell$ spins by multiplying all formulas directly dependent on spin count by $\ell$.) Since each state has precisely one fermion in it, the highest occupied state must be $N/2$. Thus the Fermi energy is found at $n=N/2$:
 $$\boxed{E_{F}=\frac{h^{2}}{2m}\left( \frac{N}{4L} \right)^{2}}$$
 ##### Periodic boundary conditions
@@ -153,7 +151,7 @@ U&=\sum_{\mathbf{p}}\varepsilon_{\mathbf{p}}\langle n_{\mathbf{p}} \rangle  \\
 That said, this integral is a mess. It's much easier to use something like a [[quantum grand canonical ensemble]] and use its [[partition function]]:
 $$\frac{PV}{k_{B}T}=\ln \mathcal{Z}$$
 and use the relation
-$$U=-\left( \frac{ \partial  }{ \partial \beta } \ln \mathcal{Z} \right)_{Z,V}=-V\frac{ \partial  }{ \partial \beta }  \frac{P}{k_{B}T}=-V\left( \frac{ \partial  }{ \partial \beta } \frac{f_{5/2}(z)}{\lambda ^{3}_{T}} \right)_{Z,V}$$
+$$U=-\left( \frac{ \partial  }{ \partial \beta } \ln \mathcal{Z} \right)_{z,V}=-V\frac{ \partial  }{ \partial \beta }  \frac{P}{k_{B}T}=-V\left( \frac{ \partial  }{ \partial \beta } \frac{f_{5/2}(z)}{\lambda ^{3}_{T}} \right)_{z,V}$$
 The $f_{5/2}(z)$ function is independent from $\beta$, so we only need
 $$\frac{ \partial  }{ \partial \beta } \frac{1}{\lambda ^{3}_{T}}=\frac{ \partial  }{ \partial \beta } \left( 2\pi \hbar ^{2} \frac{\beta}{m} \right)^{-3/2}=- \frac{3}{2\beta}\left( 2\pi \hbar ^{2} \frac{\beta}{m} \right)^{-3/2}=- \frac{3}{2}k_{B}T \frac{1}{\lambda ^{3}_{T}}$$
 We can finally write
@@ -167,9 +165,9 @@ $$\boxed{U=\frac{3}{5} NE_{F}}$$
 which proves that this is a self-consistent description. If we add more terms we get
 $$\begin{align}
 U&=\frac{3}{2}Nk_{B}T \frac{2}{5}\ln z \left[ \frac{1+ \frac{5\pi ^{2}}{8} \frac{1}{(\ln z)^{2}}}{1+ \frac{\pi ^{2}}{8} \frac{1}{(\ln z)^{2}}} \right] \\
-&\simeq\frac{3}{2}Nk_{B}T \frac{2}{5}\ln z\left( 1+ \frac{5\pi ^{2}}{8} \frac{1}{(\log z)^{2}} \right)\left( 1- \frac{\pi ^{2}}{8} \frac{1}{(\ln z)^{2}} \right) \\
+&\simeq\frac{3}{2}Nk_{B}T \frac{2}{5}\ln z\left( 1+ \frac{5\pi ^{2}}{8} \frac{1}{(\ln z)^{2}} \right)\left( 1- \frac{\pi ^{2}}{8} \frac{1}{(\ln z)^{2}} \right) \\
 &\simeq \frac{3}{5}Nk_{B}T\ln z\left( 1- \frac{\pi ^{2}}{2} \frac{1}{(\ln z)^{2}} \right)
 \end{align}$$
 and so
-$$\boxed{U=\frac{3}{5}NE_{F}\left( 1- \frac{\pi ^{2}}{2} \frac{1}{(\ln z)}^{2} \right)}$$
+$$\boxed{U=\frac{3}{5}NE_{F}\left( 1- \frac{\pi ^{2}}{2} \frac{1}{(\ln z)^{2}} \right)}$$
 From this, we can find other thermodynamic quantities.

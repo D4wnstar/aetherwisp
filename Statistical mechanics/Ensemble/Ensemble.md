@@ -21,4 +21,4 @@ The total number of microstates in an ensemble is conserved (as is the number of
 
 The [[probability]] per unit phase space of finding the system in $dp\,dq$ at time $t$ is
 $$\text{Prob}=\frac{\rho(\mathbf{q},\mathbf{p},t)}{\int \rho(\mathbf{q},\mathbf{p},t)\,d^{3N}p\,d^{3N}q}=\frac{\rho(\mathbf{q},\mathbf{p},t)}{Z}$$
-where $Z$ is the aforementioned partition function.
+where $Z$ is the aforementioned partition function. If [[Liouville's theorem]] holds, which happens when the system is [[conservative system|conservative]], this becomes time-independent.

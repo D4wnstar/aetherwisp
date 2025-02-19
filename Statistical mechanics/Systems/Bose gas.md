@@ -4,7 +4,7 @@ where $g_{5/2}(z)$ is a [[Fermi and Bose functions|Bose function]]. Meanwhile, t
 $$n=\frac{g_{3/2}(z)}{\lambda ^{3}}+ \frac{1}{V}\frac{z}{1-z}$$
 The additional term is found by extracting the $p=0$ term from $N=\sum_{p}n_{p}$ before committing to integration. This is done because Bose-Einstein condensation causes a significant buildup of particle density at the ground state and this term (being a single point) would be neglected by the integral, causing a wrong result. For a derivation of these equations, see [[Ideal gas#In the quantum grand canonical ensemble]].
 
-Unlike [[Fermion|fermions]], there exist massless bosons alongside [[mass|massive]] ones. A Bose gas of massless bosons has somewhat different properties to a gas of massive bosons, since [[Ensemble|ensembles]] of massless particles always have zero [[chemical potential]]. For an example of a [[photon]] gas, see [[Black body cavity]].
+Unlike [[Fermion|fermions]], there exist massless bosons on top [[mass|massive]] ones (although electronic [[neutrino|neutrinos]] are good approximations of massless fermions). A Bose gas of massless bosons has somewhat different properties to a gas of massive bosons, since [[Ensemble|ensembles]] of massless particles always have zero [[chemical potential]]. For an example of a [[photon]] gas, see [[Black body cavity]]. For an example a massless boson [[quasiparticle]], see [[Oscillatore armonico#Phonons]].
 ### Critical condensation temperature
 Condensation can be illustrated through an gas of $N$ bosons. Assume this gas is enclosed in a cubic volume $V=L^{3}$, where
 $$N=\sum_{\mathbf{p}}\langle n_{\mathbf{p}} \rangle =\sum_{\mathbf{p}} \frac{1}{e^{\beta(\varepsilon_{\mathbf{p}}-\mu)}-1}$$
@@ -36,9 +36,9 @@ In the 3D case $d=3\to \alpha=3/2$ we get
 $$T_{C}=\frac{1}{k_{B}} \frac{N^{2/3}}{\left[ \frac{Vm^{3/2}}{\sqrt{ 2 }\pi ^{2}\hbar ^{3}}\Gamma\left( \frac{3}{2} \right)\zeta\left( \frac{3}{2} \right) \right]^{2/3}}=\frac{1}{k_{B}}\frac{2\pi}{\left[ \zeta\left( \frac{3}{2} \right) \right]^{2/3}} \frac{\hbar^{2}n^{2/3}}{m}$$
 using the density $n=N/V$. This is a finite number, which proves that a free boson gas can condense. With realistic numbers for an [[Atomo|atomic]] gas, we get a value of around $\sim 100$ nanokelvins[^3].
 
-In both the 1D and 2D case, this gives $T_{C}=0$, which shows that bosons cannot condense in those dimensions.
+In both the 1D and 2D case, $\alpha\leq 1$ and since $\zeta(\alpha)\to \infty$ for $\alpha\leq 1$, this gives $T_{C}\to0$ for these dimensions. Evidently, bosons cannot condense in 1 or 2 dimensions.
 #### Condensed to not condensed ratio
-It is interesting to look at the ratio of bosons that are in the condensed phase compared to ones that aren't, i.e. the number $N_{0}/N$. The number of uncondensed particles at the critical temperature $N_\text{exc}$ can be found as we did above. Then, the number of condensed ones is just $N_{0}=N-N_\text{exc}$. However, an easier way to find the ratio is to calculate the number uncondensed particles at *or below* the critical temperature. This leads to the same result, except not dependent on the critical temperature:
+It is interesting to look at the ratio of bosons that are in the condensed phase compared to ones that aren't, i.e. the number $N_{0}/N$. The number of uncondensed particles at the critical temperature $N_\text{exc}$ can be found as we did above. Then, the number of condensed ones is just $N_{0}=N-N_\text{exc}$. However, an easier way to find the ratio is to calculate the number of uncondensed particles at *or below* the critical temperature. This leads to the same result, except not dependent on the critical temperature:
 $$N_\text{exc}(T\leq T_{C})=C_{\alpha}\Gamma(\alpha)\zeta(\alpha)(k_{B}T)^{\alpha}$$
 so the ratio of excited particles below the critical temperature is
 $$\frac{N_\text{exc}}{N}=\frac{C_{\alpha}\Gamma(\alpha)\zeta(\alpha)(k_{B}T)^{\alpha}}{C_{\alpha}\Gamma(\alpha)\zeta(\alpha)(k_{B}T_{C})^{\alpha}}=\left( \frac{T}{T_{C}} \right)^{\alpha}$$

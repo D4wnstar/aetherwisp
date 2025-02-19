@@ -29,7 +29,7 @@ $$V(x)\simeq \frac{1}{2}V''(x_{0})(x-x_{0})^{2}$$
 che ha la stessa forma di $(1)$. $V''(x_{0})>0$ perché $x_{0}$ è un minimo per costruzione. Ciò significa che, per piccole oscillazioni, ogni moto oscillatorio può essere trattato come se fosse un oscillatore armonico.
 ### Oscillator chains
 A system made of a chain of harmonic oscillators can be solved analytically by using the fact that all quadratic forms can [[diagonalizzazione|diagonalized]]. These are commonly employed in atomic and solid state physics, especially in the study of crystals or as approximate models to more complicated states.
-#### 1D crystal
+#### Phonons
 The simplest case is that of a 1D crystal. Consider a series of $N$ particles (likely [[Atomo|atoms]]) on a one dimensional line, each equally spaced by a distance $a$. We define the position vector $\mathbf{n}=n\mathbf{a}$, where $n=0,1,2\ldots,N$ is the label of each atom. Each point is subject to oscillations. If we call $\xi_{\mathbf{n}}$ the distance from the [[equilibrium point]] for the particle in $\mathbf{n}$, we can write the total [[kinetic energy]] as
 $$K=\frac{m}{2}\sum_{\mathbf{n}}\dot{\xi}_{\mathbf{n}}^{2}$$
 using dot notation to represent the time derivative. The [[potential energy]] is
@@ -83,9 +83,10 @@ The derivative of the potential gives us the velocity of the phonon, usually den
 
 An atom can oscillate in 3 dimensions. Accordingly, a crystal of $N$ atoms has $3N$ modes of oscillations. These modes are bound by the condition
 $$\int_{0}^{\omega_{\text{max}}}f(\omega)d\omega=3N$$
-where $\omega _\text{max}$ is known as the **Debye frequency** and $f(\omega)$ is the frequency [[Probability distribution|distribution]]. The nature of this upper limit is due to the discrete structure of atomic matter. Remember that the waves that we are not actually continuous, they are essentially the interpolating curve between atoms as the shift and vibrate. As such, this wave can only be as frequent as the atoms are dense. Any more frequent than that and there won't be any atoms to actually oscillate. The Debye frequency is the limit.
+where $\omega _\text{max}$ is known as the **Debye frequency** and $f(\omega)$ is the frequency [[Probability distribution|distribution]][^2]. The nature of this upper limit is due to the discrete structure of atomic matter. Remember that the waves that we are not actually continuous, they are essentially the interpolating curve between atoms as the shift and vibrate. As such, this wave can only be as frequent as the atoms are dense. Any more frequent than that and there won't be any atoms to actually oscillate. The Debye frequency is the limit.
 
 ![[Phonon max frequency.png]]
+*From Kerson Huang's Statistical Mechanics*
 
 The frequency distribution can be determined by the possible quantum states of $\mathbf{k}$ in a volume $L^{3}=V$ (similarly to the [[Thomas-Fermi approximation]]; after all, $f(\omega)$ is a just the density of frequency states):
 $$f(\omega)d\omega=3\frac{1}{\left( \frac{2\pi}{L} \right)^{3}} 4\pi k^{2}dk=\frac{3V\omega ^{2}}{2\pi^{2}c^{3}}d\omega$$
@@ -95,17 +96,17 @@ with $v=V/N$ the "specific volume" of each atom. The speed of sound thus is
 $$c=\frac{\lambda_{\text{max}}}{2\pi} \frac{2\pi}{T}=\frac{\lambda _\text{max}\omega}{2\pi}$$
 where we called $\lambda _\text{max}$ the maximum wavelength defined as $\lambda _\text{max}=2\pi c/\omega _\text{max}$. This is an alternative way of thinking of the frequency limit: if this wavelength is shorter than the average distance between atoms, the very idea of a mechanical wave stops making any sense, so there is a limit. Another interesting fact is that, just like the speed of light determines limits in [[electromagnetic wave|electromagnetic waves]], the speed of sound can be used to determine limits in the mechanical waves. In fact, using the expression for $\omega _\text{max}$ we can see that $\lambda _\text{max}\sim v^{1/3}\sim\text{space between atoms}$.
 ##### Canonical ensemble
-We have now described mechanical oscillations as the action of phonons "moving" through the medium. We can use statistical mechanics to describe the medium as a whole as an [[ensemble]] of phonons. We'll use a [[quantum canonical ensemble]]. If $n_{i}$ is the [[occupation number]] of the state with frequency $\omega_{i}$, the total energy is
+We have now described mechanical oscillations as the action of phonons "moving" through the medium. We can use statistical mechanics to describe the medium as a whole as an [[ensemble]] of phonons. Since the particle number of phonons is not conserved and they are [[mass|massless]], we'll use a [[quantum grand canonical ensemble]] with $z=1$, which functionally reduces to a solvable [[quantum canonical ensemble]]. If $n_{i}$ is the [[occupation number]] of the state with frequency $\omega_{i}$, the total energy is
 $$E(\{ n_{i} \})=\sum_{i=1}^{3N} n_{i}\varepsilon_{i}=\sum_{i=1}^{3N} n_{i}\hbar \omega_{i}$$
 ###### Partition function
-The [[Partition function|canonical partition function]] is
-$$Q_{N}=\sum_{\{ n_{i} \}}e^{-\beta E(\{ n_{i} \})}=\prod_{i=1}^{3N} \frac{1}{1-e^{-\beta \hbar \omega_{i}}}$$
+The [[partition function]] is
+$$Q=\sum_{N=0}^{\infty}Q_{N}=\sum_{\{ n_{i} \}}e^{-\beta E(\{ n_{i} \})}=\prod_{i=1}^{3N} \frac{1}{1-e^{-\beta \hbar \omega_{i}}}$$
 using $e^{\sum_{n}n}=\prod_{n}e^{n}$ and the [[Serie geometrica|geometric series]]. Its logarithm is
 $$\log Q=-\sum_{i=1}^{3N} \log(1-e^{-\beta \hbar \omega_{i}})$$
 ###### Average occupation
 The average occupation number is
 $$\langle n_{i} \rangle =- \frac{1}{\beta }\frac{ \partial  }{ \partial (\hbar \omega) }\log Q=\frac{1}{e^{\beta \hbar \omega}-1}$$
-This is the [[Bose-Einstein distribution]]. Evidently, phonons behave like [[boson|bosons]][^2] and a phonon ensemble is a [[Bose gas]].
+This is the [[Bose-Einstein distribution]]. Evidently, phonons behave like [[boson|bosons]][^3] and a phonon ensemble is a [[Bose gas]].
 ###### Internal energy
 The [[internal energy]] is
 $$U=-\frac{ \partial  }{ \partial \beta } \log Q=\sum_{i=1}^{3N} \hbar \omega_{i}\langle n_{i} \rangle =\sum_{i=1}^{3N} \frac{\hbar \omega_{i}}{e^{\beta \hbar \omega_{i}}-1}$$
@@ -149,4 +150,5 @@ When plotted numerically, the heat capacity goes something like this:
 When the ratio of temperature and Debye temperature approaches one, heat capacity plateaus at $\sim 3$. This model actually works really well for a large class of solids. However, it only works for solids: if the temperature is so high that the material melts, this model stops working.
 
 [^1]: We are assuming $N$ is even. If $N$ were odd, we'd have $\frac{N}{2}-1$ in each term instead.
-[^2]: In hindsight, they could've never been [[Fermion|fermions]]. Why would mechanical oscillations be constrained by the [[Pauli exclusion principle]]?
+[^2]: Actually, there's another, earlier, distribution due to Einstein (who was the first to investigate this model) which claims that all oscillation modes are equally likely. This makes for an easier solution, but the end result is not very accurate at low temperature. The Debye distribution is instead very accurate at these temperatures.
+[^3]: In hindsight, they could've never been [[Fermion|fermions]]. Why would mechanical oscillations be constrained by the [[Pauli exclusion principle]]?
