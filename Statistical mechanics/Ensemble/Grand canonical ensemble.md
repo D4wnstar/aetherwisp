@@ -2,7 +2,7 @@ The **grand canonical ensemble** is an [[ensemble]] that is not [[Physical syste
 $$\rho(z,V,T)=z^{N}Q_{N}(V,T)$$
 where $z=e^{\beta \mu}$ is the [[fugacity]] and $Q_{N}$ is the [[Partition function|canonical partition function]]. Its [[partition function]] is
 $$\mathcal{Z}(z,V,T)\equiv \sum_{N=0}^{\infty} z^{N}Q_{N}(V,T)$$
-### Density function derivation
+### Derivation from the canonical ensemble
 Let's consider a system and a particle and [[heat reservoir]] of particle numbers $N_{1}$ and $N_{2}$ bound by $N_{2}=N-N_{1}$ and volumes $V_{1}$ and $V_{2}=V-V_{1}$. Let's assume $V_{2}\gg V_{1}$ and $N_{2}\gg N_{1}$ and their [[Hamiltonian|Hamiltonians]] are separable:
 $$H(\mathbf{q},\mathbf{p},N)=H_{1}(\mathbf{q}_{1},\mathbf{p}_{1},N_{1})+H_{2}(\mathbf{q}_{2},\mathbf{p}_{2},N_{2})$$
 This implicitly means that we are neglecting interactions between the systems beyond the bare minimum required to exchange particles and [[heat]], which generally means that the interaction range is short.
@@ -13,41 +13,50 @@ $N$ is now a variable, so we also need to take every possible combination of $N_
 $$\begin{pmatrix}N \\ N_{1}\end{pmatrix}=\frac{N!}{N_{1}!(N-N_{1})!}=\frac{N!}{N_{1}!N_{2}!}$$
 but $N_{1}$ can go anywhere between $0$ and $N$, so the actual total is
 $$\sum_{N_{1}=0}^{N}\begin{pmatrix}N \\ N_{1}\end{pmatrix} =\sum_{N_{1}=0}^{N} \frac{N!}{N_{1}!N_{2}!}$$
-Since state combinations are found by multiplying, our new partition function looks as follows:
+Since state combinations are found by multiplying, we can now state what our new [[ensemble average]] over the whole system looks like for a quantity regarding system 1:
 $$\begin{align}
-\mathcal{Q}_{N}(V,T)&=\sum_{N_{1}=0}^{N} \frac{N!}{N_{1}!N_{2}!}Q_{N} \\
-&=\sum_{N_{1}=0}^{N} \frac{\cancel{ N! }}{N_{1}!N_{2}!}\frac{1}{h^{3(N_{1}+N_{2})}\cancel{ N! }}\int\ e^{-\beta[H_{1}(\mathbf{q}_{1},\mathbf{p}_{1},N_{1})+H_{2}(\mathbf{q}_{2},\mathbf{p}_{2},N_{2})]}d\mathbf{q}d\mathbf{p} \\
-&=\sum_{N_{1}=0}^{N}\int\frac{e^{-\beta H_{1}(\mathbf{q}_{1},\mathbf{p}_{1},N_{1})}}{h^{3N_{1}}N_{1}!} d\mathbf{q}_{1}d\mathbf{p}_{1}\int \frac{e^{-\beta H_{2}(\mathbf{q}_{2},\mathbf{p}_{2},N_{2})}}{h^{3N_{2}}N_{2}!} d\mathbf{q}_{2}d\mathbf{p}_{2}\\
-&=\sum_{N_{1}=0}^{N} Q_{N_{1}}Q_{N_{2}}=\ldots
-\end{align}$$
-Note that
-$$\sum_{N_{1}=0}^{N} \int  \rho(\mathbf{q}_{1},\mathbf{p}_{1},N_{1})d\mathbf{q}_{1}d\mathbf{p}_{1}=1 \tag{1}$$
-We can get
-$$\begin{align}
-\ldots&=\frac{Q_{N_{2}}(V_{2},T)}{Q_{N}(V,T)} \frac{e^{-\beta H_{1}(\mathbf{q}_{1},\mathbf{p}_{1},N_{1})}}{h^{3N_{1}}N_{1}!}
+\langle O_{1}(H_{1},N_{1}) \rangle &=\frac{1}{Q_{N}} \sum_{N_{1}=0}^{N} \frac{N!}{N_{1}!N_{2}!}Q_{N}O(H_{1},N_{1}) \\
+(\text{expand } Q_{N})&=\frac{1}{Q_{N}}\sum_{N_{1}=0}^{N} \frac{\cancel{ N! }}{N_{1}!N_{2}!}\frac{1}{h^{3(N_{1}+N_{2})}\cancel{ N! }}\int\ e^{-\beta[H_{1}(\mathbf{q}_{1},\mathbf{p}_{1},N_{1})+H_{2}(\mathbf{q}_{2},\mathbf{p}_{2},N_{2})]}O(H_{1},N_{1}) \ d\mathbf{q}d\mathbf{p} \\
+&=\sum_{N_{1}=0}^{N}\int\frac{e^{-\beta H_{1}(\mathbf{q}_{1},\mathbf{p}_{1},N_{1})}O(H_{1},N_{1})}{h^{3N_{1}}N_{1}!} d\mathbf{q}_{1}d\mathbf{p}_{1}\underbrace{ \int \frac{e^{-\beta H_{2}(\mathbf{q}_{2},\mathbf{p}_{2},N_{2})}}{h^{3N_{2}}N_{2}!} d\mathbf{q}_{2}d\mathbf{p}_{2} }_{ Q_{N_{2}} }\\
+&=\sum_{N_{1}=0}^{N} \frac{Q_{N_{2}}}{Q_{N}}\int\frac{e^{-\beta H_{1}(\mathbf{q}_{1},\mathbf{p}_{1},N_{1})}O(H_{1},N_{1})}{h^{3N_{1}}N_{1}!} d\mathbf{q}_{1}d\mathbf{p}_{1}=\ldots
 \end{align}$$
 The ratio of partition functions is
 $$\frac{Q_{N_{2}}(V_{2},T)}{Q_{N}(V,T)}=e^{-\beta[A(N-N_{1},V-V_{1},T)-A(N,V,T)]}$$
-where $A$ is the [[Helmholtz free energy]]
-$$A(N-N_{1},V-V_{1},T)-A(N,V,T)\simeq-N_{1}\mu+PV$$
-where $\mu$ is the [[chemical potential]]:
-$$\mu=\left( \frac{ \partial A(N_{1},V_{1},T) }{ \partial N_{2} }  \right)_{N_{2}=N}$$
-which is the rate of change of free energy with respect to number of particles. Also [[pressure]] $P$ from the [[Maxwell relations]]:
-$$P=- \left( \frac{ \partial A(N_{2},V_{2},T) }{ \partial V_{2} }  \right)_{V_{2}=V}$$
-Putting things together we get a density function
-$$\rho(\mathbf{q}_{1},\mathbf{p}_{1},N_{1})=\frac{e^{-\beta(P_{1}V-N_{1}\mu)}}{h^{3N}N_{1}!} e^{-\beta H(\mathbf{q}_{1},\mathbf{p}_{1},N_{1})}$$
-Now let's only consider system 1 (and drop the subscript for simplicity) and let's define [[fugacity]] as
-$$z\equiv e^{\beta \mu}$$
-The density function becomes
-$$\boxed{\rho(\mathbf{q},\mathbf{p},N)=\frac{z^{N}}{h^{3N}N!}e^{-\beta PV-\beta H(\mathbf{q},\mathbf{p},N)}}$$
-This is dependent on three variables: [[temperature]] $T$ (hidden in $\beta$), pressure $P$ and chemical potential $\mu$ (hidden in $z$).
-### Partition function
-Using what we found when deriving the density function, we can write the **grand canonical partition function**:
-$$\boxed{\mathcal{Z}(z,V,T)\equiv \sum_{N=0}^{\infty} z^{N}Q_{N}(V,T)}$$
-which is an extended form of the canonical partition function, weighed by the fugacity.
-### Ensemble average
-The [[ensemble average]] in the grand canonical ensemble is the canonical ensemble average weighted by the fugacity:
-$$\langle O \rangle =\frac{\sum_{N=0}^{\infty}O\,Z^{N}Q_{N}}{\sum_{N=0}^{\infty} Z^{N}Q_{N}}$$
+where $A$ is the [[Helmholtz free energy]]. Using the fact that $N_{1}\ll N_{2}$ and $V_{1}\ll V_{2}$, which means $N_{2}\simeq N$ and $V_{2}\simeq V$, we can use a [[Serie di Taylor|Taylor series]] in two dimensions to approximate $A$ around $N$ and $V$, so that we get a first order approximation
+$$\begin{align}
+A(N-N_{1},V-V_{1},T)&\simeq A(N,V,T)+\left.\frac{ \partial A }{ \partial N }\right|_{V,T} (N-N_{1}-N)+ \left.{\frac{ \partial A }{ \partial V } }\right|_{N,T}(V-V_{1}-V) \\
+&=A(N,V,T)-\mu N_{1}+PV_{1}
+\end{align}$$
+where we got the [[chemical potential]] $\mu$ from:
+$$\mu=\left.{ \frac{ \partial A(N-N_{1},V-V_{1},T) }{ \partial N }  }\right|_{N_{2}=N}$$
+which is the rate of change of free energy with respect to number of particles, and the [[pressure]] $P$ from the [[Maxwell relations]]:
+$$P=- \left. \frac{ \partial A(N-N_{2},V-V_{2},T) }{ \partial V }  \right|_{V_{2}=V}$$
+Through this, our ratio looks like
+$$\frac{Q_{N_{2}}(V_{2},T)}{Q_{N}(V,T)}=e^{\beta(\mu N_{1}-PV_{1})}$$
+Back to the ensemble average
+$$\begin{align}
+\ldots&=\sum_{N_{1}=0}^{N} e^{\beta(\mu N_{1}-PV_{1})} \int\frac{e^{-\beta H_{1}(\mathbf{q}_{1},\mathbf{p}_{1},N_{1})}O(H_{1},N_{1})}{h^{3N_{1}}N_{1}!} d\mathbf{q}_{1}d\mathbf{p}_{1} \\
+&=e^{-\beta PV_{1}}\sum_{N_{1}=0}^{N} e^{\beta\mu N_{1}} Q_{N_{1}} \frac{1}{Q_{N_{1}}} \int\ldots d\mathbf{q}_{1}d\mathbf{p}_{1} \\
+&=\ldots
+\end{align}$$
+The integral and the denominator $Q_{N_{1}}$ now make a canonical ensemble average:
+$$\begin{align}
+\ldots&=e^{-\beta PV_{1}}\sum_{N_{1}=0}^{N} e^{\beta \mu N_{1}}Q_{N_{1}}\langle O_{1} \rangle_\text{canon}
+\end{align}$$
+Note how there no longer is any mention of the second system. It is either system 1 or the total $N$. This justifies a [[thermodynamic limit]], for which $N\to \infty$:
+$$\langle O_{1}(H_{1},N_{1}) \rangle =e^{-\beta PV_{1}}\sum_{N_{1}=0}^{\infty} e^{\beta \mu N_{1}}Q_{N_{1}}\langle O_{1} \rangle_\text{canon}$$
+Now that we only have mentions $N_{1}$ and $V_{1}$, we can safely drop the index $1$, since it is longer relevant, and define the [[fugacity]] as $z\equiv e^{\beta \mu}$:
+$$\boxed{\langle O(H,N) \rangle_\text{grand} =e^{-\beta PV}\sum_{N=0}^{\infty} z^{N}Q_{N}\langle O \rangle_\text{canon}}$$
+This is the ensemble average of the grand canonical ensemble. By comparing this to the discrete definition of ensemble average, we see
+$$\langle O \rangle =\frac{1}{Z}\sum \rho\ O =\frac{1}{e^{\beta PV}}\sum_{N=0}^{\infty} z^{N}Q_{N}\ O$$
+We intuit that the **grand canonical density function** must be
+$$\boxed{\rho(\mathbf{q},\mathbf{p},N)=z^{N}Q_{N}}$$
+and that the **grand canonical partition function** must be
+$$\mathcal{Z}=e^{\beta PV}$$
+There is a better statement for this. It can be found by taking $O$ to be the constant $1$, which reduces the ensemble average to
+$$\langle 1 \rangle _\text{grand}=1=e^{-\beta PV}\sum_{N=0}^{\infty} z^{N}Q_{N}\qquad\Rightarrow \qquad \sum_{N=0}^{\infty} z^{N}Q_{N}=e^{\beta PV}$$
+So evidently, the partition function must be
+$$\boxed{\mathcal{Z}(z,V,T)=\sum_{N=0}^{\infty} z^{N}Q_{N}}$$
 ### Energy
 Just like in the canonical ensemble, the energy is
 $$U=\langle H \rangle =-\frac{ \partial  }{ \partial \beta } \ln \mathcal{Z}(Z,V,T)$$
@@ -59,7 +68,7 @@ $$Nz^{N}=z\frac{ \partial  }{ \partial z } z^{N}$$
 so
 $$\langle N \rangle =\frac{1}{\mathcal{Z}}\sum_{N=0}^{\infty} z\frac{ \partial  }{ \partial z } z^{N}Q_{N}(V,T)=\frac{z}{\mathcal{Z}}\frac{ \partial  }{ \partial z } \sum_{N=0}^{\infty} z^{N}Q_{N}(V,T)=\frac{z}{\mathcal{Z}}\frac{ \partial  }{ \partial z } \mathcal{Z}=z\frac{ \partial  }{ \partial z } \ln \mathcal{Z}$$
 And so
-$$\boxed{\langle N \rangle =z\frac{ \partial  }{ \partial z } \ln \mathcal{Z}(z,V,T)}\tag{2}$$
+$$\boxed{\langle N \rangle =z\frac{ \partial  }{ \partial z } \ln \mathcal{Z}(z,V,T)}$$
 Now that we have the mean, we can also find the [[variance]]. The trick is the same as before. If doing $z\frac{ \partial  }{ \partial z }$ gave us $\langle N \rangle$, doing it twice should give us $\langle N^{2} \rangle$:
 $$\begin{align}
 z\frac{ \partial  }{ \partial z } z\frac{ \partial  }{ \partial z } \ln \mathcal{Z}&=z\frac{ \partial  }{ \partial z } \frac{1}{\mathcal{Z}} \sum_{N=0}^{\infty}Nz^{N}Q_{N} \\
@@ -89,11 +98,11 @@ $$\ln \mathcal{Z}\simeq \langle N \rangle\beta\mu-\beta\langle N \rangle a(\lang
 where $\langle v \rangle=V/\langle N \rangle$. Unfortunately, $a(\langle v \rangle,T)$ is a somewhat cryptic quantity and it would be nice to express it in terms of better understood ones. Fortunately, this is possible by calculating a couple of thermodynamic quantities. [[Pressure]] is
 $$P=-\left( \frac{ \partial A }{ \partial V } \right)_{N,T}=-N\frac{ \partial a\left( \frac{V}{T},T \right) }{ \partial V } =-\frac{ \partial a }{ \partial v } $$
 and the chemical potential is
-$$\mu=\left( \frac{ \partial A }{ \partial N }  \right)_{V,T}=\frac{ \partial N }{ \partial N } a+N\frac{ \partial a\left( \frac{V}{N},T \right) }{ \partial N } =a-N \frac{V}{N^{2}}\frac{ \partial a }{ \partial v }=a-v\frac{ \partial a }{ \partial v } =a+vP\tag{2}$$
+$$\mu=\left( \frac{ \partial A }{ \partial N }  \right)_{V,T}=\frac{ \partial N }{ \partial N } a+N\frac{ \partial a\left( \frac{V}{N},T \right) }{ \partial N } =a-N \frac{V}{N^{2}}\frac{ \partial a }{ \partial v }=a-v\frac{ \partial a }{ \partial v } =a+vP\tag{1}$$
 Inverting this relation gives us $a=\mu-vP$. If we put this back in the partition function, we find
 $$\ln \mathcal{Z}\simeq \langle N \rangle\beta(\mu-\mu+\langle v \rangle P)=\langle N \rangle\beta \langle v \rangle P=\langle N \rangle\beta \frac{V}{\langle N \rangle}P=\beta PV=\frac{PV}{k_{B}T}$$
 Thus, in thermodynamic limit, we find an [[equation of state]]:
-$$\boxed{\ln \mathcal{Z}=\frac{PV}{k_{B}T}}\tag{3}$$
+$$\boxed{\ln \mathcal{Z}=\frac{PV}{k_{B}T}}\tag{2}$$
 Note that it is independent from the number of particles $\langle N \rangle$. Since $\langle N \rangle$ is also the only state that matters for the number of particles (as long as we are in the thermodynamic limit), we can write $\langle N \rangle=N$ without much loss.
 #### Number fluctuations, again
 Now that we have a sensible expression for $\ln \mathcal{Z}$, we can give a more satisfactory description of particle number fluctuations. In fact, we get
@@ -108,10 +117,10 @@ where we defined the [[Compressibility|isothermal compressibility]] $\kappa_{T}$
 $$\frac{\langle n^{2} \rangle -\langle n \rangle ^{2}}{\langle n \rangle ^{2}}=\frac{k_{B}T\kappa_{T}}{V}$$
 In the thermodynamic limit, these again vanish.
 ### Virial expansion
-The equation of state $(3)$ can be rewritten using $(2)$ as
-$$n=\frac{1}{V}Z\frac{ \partial  }{ \partial Z } \ln \mathcal{Z}(Z,V,T)$$
-If the temperature is sufficiently high and the particle density is sufficiently low, the equation in both forms can be expanded as a [[serie di potenze|power series]] in $Z$:
-$$\frac{P}{k_{B}T}=\frac{1}{\lambda ^{3}}\sum_{l=1}^{\infty} b_{l}Z^{l},\qquad n=\frac{1}{\lambda ^{3}}\sum_{l=1}^{\infty} lb_{l}Z^{l}$$
+The equation of state $(2)$ can be rewritten using $(1)$ as
+$$n=\frac{1}{V}z\frac{ \partial  }{ \partial z } \ln \mathcal{Z}(z,V,T)$$
+If the temperature is sufficiently high and the particle density is sufficiently low, the equation in both forms can be expanded as a [[serie di potenze|power series]] in $z$:
+$$\frac{P}{k_{B}T}=\frac{1}{\lambda ^{3}}\sum_{l=1}^{\infty} b_{l}z^{l},\qquad n=\frac{1}{\lambda ^{3}}\sum_{l=1}^{\infty} lb_{l}z^{l}$$
 using the [[Formula di de Broglie|de Broglie thermal wavelength]] $\lambda$. The coefficients $b_{l}$ are known as **cluster integrals** and represents the internal correlation of a group of $l$ particles due to interactions. By definition, $b_{1}\equiv1$.
 
 [^1]: Note how, unlike the [[microcanonical ensemble]], entropy is derived last.

@@ -360,14 +360,14 @@ $$\begin{align}
 This is the [[Sackur-Tetrode equation]], just as we should expect from a classical ideal gas.
 ### In the quantum canonical ensemble
 In the [[quantum canonical ensemble]], analytic calculation is actually often not possible. The reason is that the summation in the quantum canonical partition function $Q_{N}$ is tough to solve. In fact, given the sets of [[Occupation number|occupation numbers]] $\{ n \}$ identified by some quantity (say, momentum $\mathbf{p}$), we have
-$$Q_{N}(V,T)=\text{Tr}\hat{\rho}=\sum_{\{ n \},\sum_{p}n_{p}=N}e^{-\beta E(\{ n \})}$$
+$$Q_{N}(V,T)=\text{Tr}\hat{\rho}=\sum_{\substack{\{ n \} \\ \sum_{p}n_{p}=N}}e^{-\beta E(\{ n \})}$$
 where the sum happens over all sets $\{ n \}$ constrained by $\sum_{\mathbf{p}}n_{\mathbf{p}}=N$. It is this constraint that makes the sum so hard to manage, along with all thermodynamic quantities. That said, it is possible in some cases where the states are cleanly ordered and labeled, such as in a [[Oscillatore armonico quantistico|quantum harmonic oscillator]]. In that case, one must make sure to abide by the wavefunction constraints and their effects on state counting. More discussion on this in the [[Partition function#Properties]] page.
 ### In the quantum grand canonical ensemble
 The [[quantum grand canonical ensemble]] works just fine however. The quantum grand partition function is
-$$\mathcal{Z}(z,V,T)=\sum_{N=0}^{\infty} z^{N}Q_{N}(V,T)=\sum_{N=0}^{\infty} \sum_{\{ n \},\sum_{p}n_{p}=N}z^{N}e^{-\beta E(\{ n \})}$$
+$$\mathcal{Z}(z,V,T)=\sum_{N=0}^{\infty} z^{N}Q_{N}(V,T)=\sum_{N=0}^{\infty} \sum_{\substack{\{ n \} \\ \sum_{p}n_{p}=N}}z^{N}e^{-\beta E(\{ n \})}$$
 where the inner sum satisfies $\sum_{\mathbf{p}}n_{\mathbf{p}}=N$ (see quantum canonical ensemble above). The important part in this equation is that the two sums can be merged, removing the inner sum's constraint:
-$$\sum_{N=0}^{\infty}\ \sum_{\{ n \},\sum_{p}n_{p}=N}\equiv \sum_{\{ n \}}$$
-This is because constraining to a specific $N$ no longer matters when you are summing over all possible $N$'s, leaving us with the same sum as the canonical ensemble, but over every possible set, not just ones whose total is $N$. As such, representing the sums as separate or single is just a matter of preference over how you group the terms. Thus
+$$\sum_{N=0}^{\infty}\ \sum_{\substack{\{ n \} \\ \sum_{p}n_{p}=N}}\equiv \sum_{\{ n \}}$$
+This is because constraining to a specific $N$ no longer matters when you are summing over all possible $N$'s, leaving us with the same sum as the canonical ensemble, but over every possible set, not just ones whose total is $N$. As such, representing the sums as separate or single is just a matter of preference over how you group the terms, just like how $a+b+c+d$ is the same as $(a+b)+(c+d)$. Thus
 $$\mathcal{Z}(z,V,T)=\sum_{\{ n \}}z^{N}e^{-\beta E(\{ n \})}=\ldots$$
 with no constraint. We can use the property $e^{\sum n}=\prod_{n}e^{n}$ to rewrite both terms, since both $N$ and $E(\{ n \})$ are sums:
 $$\begin{align}

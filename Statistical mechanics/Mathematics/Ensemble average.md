@@ -1,6 +1,8 @@
 The **ensemble average** of a [[dynamical variable]] $O(\mathbf{q},\mathbf{p})$ over an [[ensemble]] is the weighted average over all possible [[stato|microstates]] of the [[Physical system|system]] in the [[thermodynamic limit]]:
 $$\langle O \rangle =\frac{\int\rho(\mathbf{q},\mathbf{p},t)O(\mathbf{q},\mathbf{p})\,dp\,dq}{\int \rho(\mathbf{q},\mathbf{p},t)\,dp\,dq}=\frac{1}{Z}\int O\rho\ dpdq$$
-where $\rho$ is the density function of the ensemble and $Z$ is the [[partition function]],
+where $\rho$ is the density function of the ensemble and $Z$ is the [[partition function]]. For discrete states, this becomes
+$$\langle O \rangle =\frac{\sum \rho(t)O }{\sum \rho(t)}=\frac{1}{Z}\sum O\rho$$
+where the sums go over some label to index the states.
 
 In the quantum case, the average in a system state $\ket{\psi}$ for an [[Osservabile|observable]] $\hat{O}$, expressed in a [[base|basis]] of [[Equazione agli autovalori|eigenstates]] $\{ \ket{n} \}_{n\in \mathbb{N}}$, is
 $$\langle \hat{O} \rangle=\frac{\text{Tr}(\hat{O}\hat{\rho})}{\text{Tr}(\hat{\rho})} =\sum_{n}p(n)\braket{ n | \hat{O}| n }$$

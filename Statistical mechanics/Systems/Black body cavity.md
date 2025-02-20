@@ -16,7 +16,7 @@ since $e^{\sum n}=\prod_{n}e^{n}$ and using the [[Serie geometrica|geometric ser
 $$\log Q_{N}=-\sum_{\mathbf{k},\hat{\varepsilon}}\log(1-e^{-\beta \hbar \omega})=-2\sum_{\mathbf{k}}\log(1-e^{-\beta \hbar \omega})$$
 since there are only two possible $\hat{\varepsilon}$ states[^2].
 #### Occupation numbers
-Now that we know $Q_{N}$, we can calculate everything else. The average [[occupation number]] is
+Now that we know $Q_{N}$, we can calculate everything else. The average [[occupation number]] for a given $\mathbf{k}$ is
 $$\langle n_{\mathbf{k}} \rangle =- \frac{1}{\beta}\frac{ \partial  }{ \partial (\hbar \omega) } \log Q_{N}=\frac{2}{\beta} \frac{\beta e^{-\hbar \omega \beta}}{1-e^{-\beta \hbar \omega}}=\frac{2}{e ^{\beta \hbar \omega}-1}$$
 which is a [[Bose-Einstein distribution]] multiplied by the polarization factor, as we should expect.
 ### Internal energy
@@ -28,7 +28,7 @@ The [[pressure]] is from the [[Maxwell relations]] on [[Helmholtz free energy]]:
 $$P=-\frac{ \partial A }{ \partial V } =\frac{1}{\beta}\frac{ \partial  }{ \partial V } \log Q_{N}=\frac{1}{\beta}\frac{ \partial  }{ \partial V } \left( -2\sum_{\mathbf{k}}\log(1-e^{-\beta \hbar c\ 2\pi \lvert \hat{\mathbf{n}} \rvert /V^{1/3}}) \right)=\frac{1}{3V}\sum_{\mathbf{k}}\hbar \omega \langle n_{\mathbf{k}} \rangle $$
 where we used $\omega=c\lvert \mathbf{k} \rvert$ and $\lvert \mathbf{k} \rvert=\frac{2\pi}{L}\lvert \mathbf{n} \rvert=\frac{2\pi}{V^{1/3}}\lvert \mathbf{n} \rvert$ since quantum states of an ideal gas can be counted directly from phase space in a volume $V=L^{3}$ (see start of [[Thomas-Fermi approximation]]). Noticing the internal energy, we can state the [[equation of state]] of a photon gas
 $$\boxed{PV=\frac{1}{3}U}$$
-It differs from a "normal" (i.e. massive) ideal gas by a factor of $2$. However, this relation can be found to also apply to massive particles *if* they move at speeds close to the speed of light. Clearly, relativity plays a role in the equation of state.
+It differs from a "normal" (i.e. massive) ideal gas by a factor of $2$. However, this relation can be found to also apply to massive particles *if* they move at speeds close to the speed of light. Clearly, relativity plays a role in the equation of state[^4].
 ### Internal energy
 We can calculate $U$ more explicitly in the [[Thomas-Fermi approximation]]:
 $$U=\sum_{\mathbf{k},\hat{\varepsilon}}\hbar \omega \langle n_{\mathbf{k}} \rangle \simeq 2\int_{0}^{\infty}\hbar \omega g(k)\langle n_{k} \rangle dk=\ldots$$
@@ -84,3 +84,4 @@ This is known as the [[Stefan-Boltzmann law]] for [[irradiazione|irradiation]], 
 [^1]: This might seem weird as photons are being added and removed all the time. The real reason is that photons have no [[mass]] and only carry [[kinetic energy]], so when they are absorbed, they give away their energy and vanish. As such, the energy increases, but the particles do not (since the photon vanished). Photons really just move energy around and once they deliver their energy, the disappear. In fact, all ensembles of massless particles have zero chemical potential.
 [^2]: If the photon had more than two polarizations, the factor would be different. However, all experimental tests point to there being only two. This is one way of proving theoretically that a photon can only have two polarizations. (Consider that at the time this derivation was first made, the number of photon polarizations was still a matter of debate.)
 [^3]: It's like taking the average of both sides. However, do be careful of the factor 2 from the sum over polarization states.
+[^4]: This is due to the energy dispersion relation: massive non-relativistic particles possess kinetic energy $E=p^{2}/2m$, so $\propto p^{2}$, but relativistic particles behave like $E=cp$, so $\propto p$. This drops the $2/3$ to a $1/3$. More generally, if $E\propto p^{s}$, then $PV=(s/3)U$.
