@@ -1,4 +1,4 @@
-**Thomson's experiment** is a method of calculating the [[Elettrone|electron]]'s charge-to-mass ration. It won Thomson the Nobel prize in physics.
+**Thomson's experiment** is a method of calculating the [[Elettrone|electron]]'s charge-to-mass ratio. It won Thomson the Nobel prize in physics.
 ### Setup
 Consider a vacuum tube (a cathode ray tube) equipped with an electron cannon. In front of the cannon there are two parallel charged (distance $D$) plates that produce a local [[electric field]] ($E=V_{d}/D$). The entire tube is under the effect of a uniform [[magnetic field]] that is perpendicular to the electric field. The two fields deviates the path of the electrons shot from the cannon according to the [[Lorentz force]]
 $$\mathbf{F}=e\mathbf{E}+e(\mathbf{v}\times \mathbf{B})$$

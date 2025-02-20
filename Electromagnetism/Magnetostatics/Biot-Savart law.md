@@ -7,4 +7,4 @@ $$\mathbf{B}(\mathbf{r})=\frac{\mu_{0}}{4\pi}\int \frac{\mathbf{K}(\mathbf{r}')\
 and for a volume current density $\mathbf{J}$ it is
 $$\mathbf{B}(\mathbf{r})=\frac{\mu_{0}}{4\pi}\int \frac{\mathbf{J}(\mathbf{r}')\times \hat{\boldsymbol{\mathfrak{r}}}}{\mathfrak{r}^{2}}\ d\tau'$$
 
-As with the electric field, the superposition principle applies.
+As with the [[electric field]], the [[superposition principle]] applies.

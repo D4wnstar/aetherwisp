@@ -20,4 +20,4 @@ This is called the **Neumann formula for mutual inductance**. Though it's unwiel
 
 Furthermore, if the magnetic field changes in loop 1, this prompts a change in flux in loop 2. But we know that a change in magnetic flux induces an [[Electromotive force|emf]] by the [[Electromotive force|flux rule]], so
 $$\mathcal{E}_{2}=- \frac{d\Phi_{2}}{dt}=-M \frac{dI_{1}}{dt}$$
-This is a remarkable result: it states that we can change the current in loop 2 by acting only on loop 1, even though the two loops are completely detached from each other. In simple terms, you can "telepathically" change currents on a loop just by having *another* loop whose current you can manipulate.
+This is a remarkable result: it states that we can change the current in loop 2 by acting only on loop 1, even though the two loops are completely detached from each other. In simple terms, you can "telepathically" change currents on a loop just by having *another* loop whose current you can manipulate, as long as the two can communicate magnetically.

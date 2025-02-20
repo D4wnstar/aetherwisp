@@ -2,7 +2,9 @@
 $$\oint_{S}\mathbf{E}\cdot d\mathbf{S}=\frac{Q_{\text{enc}}}{\varepsilon_{0}}$$
 where $Q_{enc}$ is the total charge enclosed within the surface and $d\mathbf{S}$ is the normal vector on the surface element $dS$. This is true for any surface and and any charge distribution therein. It can be expressed in differential form through the divergence of the field:
 $$\nabla\cdot\mathbf{E}=\frac{\rho}{\varepsilon_{0}}$$
-where $\rho$ is the volume charge density.
+where $\rho$ is the volume charge density. Alternatively, using $\mathbf{E}=-\nabla V$:
+$$\nabla ^{2}V=- \frac{\rho}{\epsilon_{0}}$$
+which is [[Poisson's equation]].
 
 Gauss' law holds even for changing electric fields and moving charges, which may be subject to [[electromagnetic induction]].
 ### Derivation
