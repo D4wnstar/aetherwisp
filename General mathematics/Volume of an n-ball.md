@@ -9,5 +9,5 @@ $$\begin{align}
 \end{align}$$
 The trick is to see the following integral:
 $$\int_{-\infty}^{\infty} e^{-(x_{1}^{2}+x_{2}^{2}+\ldots+x_{n}^{2})} \ dx_{1}\ldots dx_{n}=\pi^{n/2}=\int_{0}^{\infty}e^{-R^{2}}S_{n}(R)\ dR=nc_{n}\int_{0}^{\infty}e^{-R^{2}}R^{n-1}\ dR$$
-The $\pi^{n/2}$ comes by just solving the integral normally. The equality with the second integral comes from doing a coordinate shift to [[polar coordinates]], introducing the variable $R^{2}=x_{1}^{2}+\ldots+x_{n}^{2}$ and finding that the coordinate change function is exactly $S_{n}(R)$. To determine $c_{n}$, we just need to recognize that the last integral is a [[Gaussian integral]] and, by substituting $R^{2}=t$ and expressing it as a [[Gamma function]], we get
+The $\pi^{n/2}$ comes by just solving the integral normally. The equality with the second integral comes from doing a coordinate shift to [[Polar coordinates]], introducing the variable $R^{2}=x_{1}^{2}+\ldots+x_{n}^{2}$ and finding that the coordinate change function is exactly $S_{n}(R)$. To determine $c_{n}$, we just need to recognize that the last integral is a [[Gaussian integral]] and, by substituting $R^{2}=t$ and expressing it as a [[Gamma function]], we get
 $$V_{n}(R)=\frac{\pi^{n/2}}{\Gamma\left( \frac{n}{2}+1 \right)}R^{n}$$

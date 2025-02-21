@@ -32,7 +32,7 @@ $$i\hbar \frac{ \partial \rho }{ \partial t } =[\hat{H},\hat{\rho}]$$
 where $[\cdot,\cdot]$ is the [[Commutatore|commutator]] and $\hbar$ is the [[Costante di Planck|reduced Planck constant]]. This follows from the  [[Poisson bracket|Poisson bracket]] conversion $\{ \cdot,\cdot \}\to \frac{1}{i\hbar} [\cdot,\cdot]$.
 ### Examples
 > [!example] Damped harmonic oscillator
-> We know that Liouville's theorem only holds for conservatives systems. As a counterpoint, let's examine a non-conservative system to see what happens. Consider a [[Oscillatore armonico|damped harmonic oscillator]] (like a pendulum). It is described by $\dot{q}=p/m$ and $\dot{p}=-\gamma p-k\sin q$, where $\gamma$ is the dampening constant. We have
+> We know that Liouville's theorem only holds for conservatives systems. As a counterpoint, let's examine a non-conservative system to see what happens. Consider a [[Harmonic oscillator|damped harmonic oscillator]] (like a pendulum). It is described by $\dot{q}=p/m$ and $\dot{p}=-\gamma p-k\sin q$, where $\gamma$ is the dampening constant. We have
 > $$-\gamma=\frac{ \partial \dot{p} }{ \partial p } +\frac{ \partial \dot{q} }{ \partial q } =0 $$
 > and the [[Hamilton equations]]
 > $$\dot{p}=-\frac{ \partial H }{ \partial q } ,\qquad \dot{q}=-\frac{ \partial H }{ \partial p }$$

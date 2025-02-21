@@ -36,7 +36,7 @@ che è la [[legge di Planck]].
 ### Oscillazione di un corpo nero
 Consideriamo i modi di oscillazione di un [[corpo nero]]
 $$k_{x,y,z}=\frac{\pi n_{x,y,z}}{L}$$
-ottenuti da un [[Oscillatore armonico]] tridimensionale per un oggetto cubico di lato $L$.
+ottenuti da un [[Harmonic oscillator]] tridimensionale per un oggetto cubico di lato $L$.
 
 ![[Schema modi di oscillazione corpo nero|90%|center]]
 

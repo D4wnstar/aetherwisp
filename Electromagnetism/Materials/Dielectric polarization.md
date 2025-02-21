@@ -24,7 +24,7 @@ $$\boxed{V=\frac{1}{4\pi\varepsilon_{0}}\oint_{\mathcal{S}} \frac{\sigma_{b}}{\m
 Clearly, then, the potential of a polarized material is the result of both a surface charge and a volume charge. Since these charges are in a dielectric and therefore not free to move, they are called **bound charges**. If we can find the bound charges, we can get the potential and then the field.
 
 > [!example] Uniformly polarized sphere
-> For a uniformly polarized sphere of radius $R$, the volume charge density is zero as the gradient of a constant polarization is zero. The surface charge is $\sigma_{b}=\mathbf{P}\cdot \hat{\mathbf{n}}=P\cos \theta$, where $\theta$ is the usual coordinate in [[spherical coordinates]]. We might as well put the $z$ axis on the axis of polarization to make $\theta$ have its usual meaning. Thus, we're looking for the field of a sphere with surface charge density $P\cos \theta$. This can be found by solving [[Laplace's equation]] through [[separation of variables]]. We get
+> For a uniformly polarized sphere of radius $R$, the volume charge density is zero as the gradient of a constant polarization is zero. The surface charge is $\sigma_{b}=\mathbf{P}\cdot \hat{\mathbf{n}}=P\cos \theta$, where $\theta$ is the usual coordinate in [[Spherical coordinates]]. We might as well put the $z$ axis on the axis of polarization to make $\theta$ have its usual meaning. Thus, we're looking for the field of a sphere with surface charge density $P\cos \theta$. This can be found by solving [[Laplace's equation]] through [[separation of variables]]. We get
 > $$V(\mathbf{r})=\begin{cases}
 \frac{P}{3\varepsilon_{0}}r\cos \theta \qquad &r\leq R \\
 \frac{P}{3\varepsilon_{0}} \frac{R^{3}}{r^{2}}\cos \theta \qquad &r\geq R

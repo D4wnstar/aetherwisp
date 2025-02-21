@@ -1,32 +1,32 @@
 ---
 aliases:
-  - legge di Hooke
+  - Hooke's law
 ---
-Un **oscillatore armonico** è un sistema dotato di un [[punto di equilibrio]] che, dopo aver subito una perturbazione, sperimenta una forza di ritorno $F$ proporzionale alla distanza di spostamento $x$ secondo la **legge di Hooke**:
-$$\vec{F}=-k\vec{x}$$
-con $k$ una costante positiva detta **costante elastica**.
-### Moto armonico semplice
-Se la forza $F$ è l'unica che agisce sul sistema, esso prende il nome di **oscillatore armonico semplice** e l'oggetto in movimento descrive un **moto armonico semplice**. In questo caso, possiamo usare la [[Newton's laws|seconda legge del moto]] per analizzare il sistema:
+A **harmonic oscillator** is a system with an [[equilibrium point]] that, after undergoing a perturbation, experiences a restoring force $\mathbf{F}$ proportional to the displacement distance $\mathbf{x}$ according to **Hooke's law**:
+$$\mathbf{F}=-k\mathbf{x}$$
+with $k$ being a positive constant called the **spring constant**.
+### Simple harmonic motion
+If the force $F$ is the only one acting on the system, it is called a **simple harmonic oscillator**, and the moving object describes a **simple harmonic motion**. In this case, we can use [[Newton's laws|Newton's second law of motion]] to analyze the system:
 $$F=ma=m\ddot{x}=-kx$$
-che ci dà un'equazione differenziale lineare di secondo ordine
+which gives us a second-order linear differential equation
 $$\ddot{x}=- \frac{k}{m}x=-\omega^{2}x$$
-dove $\omega=\sqrt{k/m}$ è la frequenza angolare. La soluzione generale è della forma
+where $\omega=\sqrt{k/m}$ is the angular frequency. The general solution is of the form
 $$x(t)=A\cos(\omega t)+B\sin(\omega t)=C\cos(\omega t+\varphi)$$
-con le costanti determinate dalle condizioni al contorno, come di norma. Questo moto è periodico e il periodo è $T=2\pi/\omega$.
+with the constants determined by the boundary conditions, as usual. This motion is periodic and the period is $T=2\pi/\omega$.
 
-La velocità e l'accelerazione oscillano con la stessa frequenza, ma hanno fase diversa dalla posizione. In particolare, la velocità è minima quando lo spostamento è massimo e viceversa.
+The velocity and acceleration oscillate with the same frequency, but have a different phase from the position. In particular, the velocity is minimal when the displacement is maximal, and vice versa.
 
-L'oscillatore ha energia [[potenziale]] in posizione $x$ pari a
+The oscillator has [[potenziale|potential]] energy in position $x$ equal to
 $$V=\frac{1}{2}kx^{2}\tag{1}$$
-e la forza è conservativa.
-### Approssimazioni
-L'oscillatore armonico è estremamente importante perché *qualunque* potenziale $V(x)$ associato ad un moto oscillatorio può essere approssimato come una parabola della forma $(1)$ fintantoché l'oscillazione è piccola. Per dimostrarlo, espandiamo $V(x)$ in [[Serie di Taylor|serie di Taylor]] centrata in un minimo locale $x_{0}$:
+and the force is conservative.
+### Approximations
+The harmonic oscillator is extremely important because _any_ potential $V(x)$ associated with an oscillatory motion can be approximated as a parabola of the form $(1)$ as long as the oscillation is small. To demonstrate this, we expand $V(x)$ in a [[serie di Taylor|Taylor series]] centered at a local minimum $x_{0}$:
 $$V(x)=V(x_{0})+V'(x_{0})(x-x_{0})+ \frac{1}{2}V''(x_{0})(x-x_{0})^{2}+O(x^{3})$$
-Dato che la costante $V(x_{0})$ si annulla derivando per ottenere la forza, possiamo sottrarla senza perdita di generalità. Inoltre, dato che $x_{0}$ è un [[punto critico]], $V'(x_{0})=0$. Dunque ci rimane la forma esatta
+Since the constant $V(x_{0})$ vanishes by deriving to obtain the force, we can subtract it without loss of generality. Furthermore, since $x_{0}$ is a [[critical point]], $V'(x_{0})=0$. Thus, we are left with the exact form
 $$V(x)=\frac{1}{2}V''(x_{0})(x-x_{0})^{2}+O(x^{3})$$
-che possiamo approssimare troncando tutti i termini di terzo ordine e superiore, che sono piccoli se anche le oscillazioni lo sono:
+which we can approximate by truncating all terms of third order and higher, which are small if the oscillations are also small:
 $$V(x)\simeq \frac{1}{2}V''(x_{0})(x-x_{0})^{2}$$
-che ha la stessa forma di $(1)$. $V''(x_{0})>0$ perché $x_{0}$ è un minimo per costruzione. Ciò significa che, per piccole oscillazioni, ogni moto oscillatorio può essere trattato come se fosse un oscillatore armonico.
+which has the same form as $(1)$. $V''(x_{0})>0$ because $x_{0}$ is a minimum by construction. This means that, for small oscillations, every oscillatory motion can be treated as if it were a harmonic oscillator.
 ### Oscillator chains
 A system made of a chain of harmonic oscillators can be solved analytically by using the fact that all quadratic forms can [[diagonalizzazione|diagonalized]]. These are commonly employed in atomic and solid state physics, especially in the study of crystals or as approximate models to more complicated states.
 #### Phonons

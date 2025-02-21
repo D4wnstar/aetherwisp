@@ -14,7 +14,7 @@ where $r$ in this case is the distance from the infinitesimal mass element $dm$ 
 $$I=\int_{L}r^{2}\lambda(x)\ dx, \quad I=\iint_{S}||\vec{r}||^{2}\sigma(x,y)\ dxdy, \quad I=\iiint_{V}||\vec{r}||^{2}\rho(x,y,z)\ dxdydz$$
 where $L$, $S$ and $V$ represent a length of wire, a surface and a volume.
 
-The moment of inertia around the [[center of mass]] $\vec{r}_{C}$ is
+The moment of inertia around the [[Center of mass]] $\vec{r}_{C}$ is
 $$I_{C}=\sum\limits_{i=1}^{N}m_{i}||\vec{r}_{i}-\vec{r}_{C}||^{2}; \quad I_{C}=\int_{M}||\vec{r}-\vec{r}_{C}||^{2}\ dm$$
 ### Huygens-Steiner theorem
 The **Huygens-Steiner theorem** states that any moment of inertia around a given axis can be expressed as the sum of two parts:
@@ -58,7 +58,7 @@ Being a matrix, it's possible to set up an [[Equazione agli autovalori|eigenvalu
 $$J\vec{e}=\mu\vec{e}$$
 The eigenvalues $\mu$ are known as the **principal moments of inertia** and the eigenvectors $\vec{e}$ are knows as the **principal directions of inertia**. We can [[diagonalizzazione|diagonalize]] the matrix like so:
 $$P=R^{T}JR$$
-where $P$ is the diagonal representation of $J$. As usual, its columns are the eigenvectors $\vec{e}$. Now, let's consider the moment of force is [[body coordinates]]:
+where $P$ is the diagonal representation of $J$. As usual, its columns are the eigenvectors $\vec{e}$. Now, let's consider the moment of force is [[Body coordinates]]:
 $$\vec{M}=\frac{d\vec{L}}{dt}=\frac{D\vec{L}}{Dt}+\vec{w}\times\vec{L}=\frac{D(J\vec{w})}{Dt}+\vec{w}\times(J\vec{w})=J \frac{D\vec{w}}{Dt}+\vec{w}\times(J\vec{w})=$$
 $$=J \frac{d\vec{w}}{dt}+\vec{w}\times(J\vec{w})$$
 In the specific case the body axes are equal to the [[base|basis]] in which $J$ is diagonal (i.e. the principal directions of inertia), then we can write

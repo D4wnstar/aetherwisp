@@ -1,4 +1,4 @@
-The **simple pendulum** is an approximate model of a pendulum, comprised of a zero-dimensional point mass hanging at the end of a mass-less wire attached with no [[friction]] to a fixed point. The mass is only subject to [[Interazione gravitazionale|gravity]] and ignores other forces like air drag. It is a specific case of the [[Foucault pendulum]] where the angle $\theta$ is constant and angular speed $\omega$ can be taken to be zero. This makes the pendulum swing on a plane and the system simplifies to a two-dimensional problem.
+The **simple pendulum** is an approximate model of a pendulum, comprised of a zero-dimensional point mass hanging at the end of a mass-less wire attached with no [[Friction]] to a fixed point. The mass is only subject to [[Interazione gravitazionale|gravity]] and ignores other forces like air drag. It is a specific case of the [[Foucault pendulum]] where the angle $\theta$ is constant and angular speed $\omega$ can be taken to be zero. This makes the pendulum swing on a plane and the system simplifies to a two-dimensional problem.
 
 Starting from the Foucault pendulum equations of motion, equation $(1)$ becomes trivial when $\theta=\text{const.}$ and $\omega=0$. Equation $(2)$ becomes
 $$\ddot{\phi}+ \frac{g}{L}\sin\phi=0\tag{1}$$
@@ -6,7 +6,7 @@ which is a second order, non-linear differential equation in $\phi$.
 ### Small swings
 For small swings, where the angle $\phi$ of oscillation is small, we can approximate $\sin\phi\simeq\phi$. This leaves us with
 $$\ddot{\phi}+ \frac{g}{L}\phi=0$$
-which is the [[Oscillatore armonico|harmonic oscillator]] equation, for which we know the solution. $g$ is the gravitational acceleration and $L$ is the length of the wire. If we call $\omega_{0}=\sqrt{g/L}$ the angular frequency of oscillation, the general solution is
+which is the [[Harmonic oscillator|harmonic oscillator]] equation, for which we know the solution. $g$ is the gravitational acceleration and $L$ is the length of the wire. If we call $\omega_{0}=\sqrt{g/L}$ the angular frequency of oscillation, the general solution is
 $$\phi(t)=\phi_{0}\cos(\omega_{0}t+\psi_{0})$$
 where $\phi_{0}$ is the amplitude of the oscillations. The period of oscillation is
 $$T=\frac{2\pi}{\omega_{0}}=2\pi\sqrt{\frac{L}{g}}$$

@@ -12,7 +12,7 @@ Given a trajectory [[curva|curve]] $s(t)$, a tangent unit vector an be defined f
 $$\mathbf{T}(t)=\frac{\mathbf{v}}{|\mathbf{v}|}=(\cos(\phi(t)), \ \sin(\phi(t)))$$
 and also a normal vector by differentiating each component
 $$\mathbf{N}(t)=(-\sin(\phi(t)),\ \cos(\phi(t)))$$
-Since differentiating the components of a unit vector is equivalent to [[rotation|rotating]] it 90° counterclockwise, the normal vector is $\pi/2$ from the tangent vector, as expected[^1]. The tangent and normal vectors form a Cartesian basis that moves with the particle, with its origin determined by the origin vector $\mathbf{r}(t)$. These three vectors form a [[moving frame]]
+Since differentiating the components of a unit vector is equivalent to [[Rotation|rotating]] it 90° counterclockwise, the normal vector is $\pi/2$ from the tangent vector, as expected[^1]. The tangent and normal vectors form a Cartesian basis that moves with the particle, with its origin determined by the origin vector $\mathbf{r}(t)$. These three vectors form a [[Moving frame]]
 $$\{\mathbf{r}(t), \mathbf{T}(t),\mathbf{N}(t)\}$$
 
 ![[Graph 2D Cartesian coordinates|center]]

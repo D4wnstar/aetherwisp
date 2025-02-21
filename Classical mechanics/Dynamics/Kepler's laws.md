@@ -20,7 +20,7 @@ $$\begin{align*}
 &=- \frac{GM}{r^{3}}\vec{r}\times(r\vec{r}\times\dot{\hat{R}})=-GM\hat{R}\times(\hat{R}\times\dot{\hat{R}})=-GM((\hat{R}\cdot\dot{\hat{R}})\hat{R}-(\hat{R}\cdot\hat{R})\hat{R})=\\
 &=GM\dot{\hat{R}}
 \end{align*}$$
-where we used the expression for velocity in [[polar coordinates]]. We can now integrate this easily to get $\vec{v}\times\vec{C}=GM\hat{R}+\vec{K}$ with $\vec{K}$ some other constant vector. We can see
+where we used the expression for velocity in [[Polar coordinates]]. We can now integrate this easily to get $\vec{v}\times\vec{C}=GM\hat{R}+\vec{K}$ with $\vec{K}$ some other constant vector. We can see
 $$|\vec{C}|^{2}=\vec{r}\times\vec{v}\cdot\vec{C}=\vec{r}\cdot\vec{v}\times\vec{C}=\vec{r}\cdot(GM\hat{R}+\vec{K})=GMr+\vec{r}\cdot\vec{K}=GMr+r|\vec{K}|\cos\theta$$
 with $\theta$ the angle between $\vec{r}$ and $\vec{K}$. In polar coordinates, then, the equation can be solved for $r$ as a function of $\theta$:
 $$r(\theta)=\frac{|\vec{C}|^{2}}{GM+|\vec{K}|\cos\theta}=\frac{e\rho}{1+e\cos\theta}$$

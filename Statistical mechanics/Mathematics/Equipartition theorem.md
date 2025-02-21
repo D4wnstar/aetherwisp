@@ -38,7 +38,7 @@ $$\left\langle  x_{i}\frac{ \partial H }{ \partial x_{j} }   \right\rangle =\del
 which completes our proof.
 ### Specific forms
 #### Harmonic oscillators
-For the specific case of a [[Oscillatore armonico|harmonic oscillator]], the equipartition theorem becomes
+For the specific case of a [[Harmonic oscillator|harmonic oscillator]], the equipartition theorem becomes
 $$\langle H \rangle =\frac{f}{2}k_{B}T$$
 where $f$ is the number of oscillators. Each harmonic term contributes $\frac{k_{B}T}{2}$ to the total.
 #### Ideal gas
@@ -55,4 +55,4 @@ Twice as much as in the no-potential case.
 #### Crystalline solids
 Crystalline solids are subject to elastic potential between atoms. In this case we get
 $$U=3Nk_{B}T,\qquad C_{V}=3Nk_{B}=3R$$
-where $R$ is the [[ideal gas constant]]. This is called the [[Dulong-Petit law]], which is true for temperatures large enough that quantum oscillations are not relevant. Note how the ideal gas constant appears here despite talking about solids. This is actually true for any monatomic metal. For a more detailed understanding of this phenomenon, see [[Oscillatore armonico#Oscillator chains]], where we find a more general, quantum version of this law through the use of [[phonon|phonons]].
+where $R$ is the [[ideal gas constant]]. This is called the [[Dulong-Petit law]], which is true for temperatures large enough that quantum oscillations are not relevant. Note how the ideal gas constant appears here despite talking about solids. This is actually true for any monatomic metal. For a more detailed understanding of this phenomenon, see [[Harmonic oscillator#Oscillator chains]], where we find a more general, quantum version of this law through the use of [[phonon|phonons]].

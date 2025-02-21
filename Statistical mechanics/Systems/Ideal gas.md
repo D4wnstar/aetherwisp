@@ -80,7 +80,7 @@ $$\begin{align}
 \ldots&= \frac{1}{h^{3N}N!} \int d^{3N}q\int e^{-\beta(\mathbf{p}_{1}^{2}+\ldots+\mathbf{p}_{N}^{2})/2m}d^{3N}p \\
 &= \frac{1}{N!} \left( \int_{V} d^{3}q \right)^{N}\left( \int e^{-\beta \mathbf{p}^{2}/2m}d^{3}p \right)^{N}=\ldots
 \end{align}$$
-The first integral is just the volume $V$. The second integral can be rewritten in [[spherical coordinates]] by noticing that there is no angular dependency, and so the two angle integrals just evaluate to $4\pi$:
+The first integral is just the volume $V$. The second integral can be rewritten in [[Spherical coordinates]] by noticing that there is no angular dependency, and so the two angle integrals just evaluate to $4\pi$:
 $$\ldots= \frac{V^{N}}{h^{3N}N!}\left( 4\pi\int_{0}^{\infty} p^{2}e^{-\beta p^{2}/2m} \ dp  \right)^{N}=\ldots$$
 This is a [[Gaussian integral]], which solves to
 $$\ldots=\frac{V^{N}}{h^{3N}N!} \left( \frac{2m\pi}{\beta} \right)^{3N/2}$$
@@ -228,7 +228,7 @@ n&=\int \frac{1}{h^{3}} \frac{1}{e^{\alpha+\beta \varepsilon_{p}}\pm 1} \ d^{3}p
 \text{(Spherical coords.)}&=\frac{1}{h^{3}}\int _{0}^{2\pi} \ d\theta \int_{0}^{\pi}\sin \phi\ d\phi \int_{0}^{\infty} \frac{1}{e^{\alpha+\beta \varepsilon_{p}}\pm 1} p^{2}\ dp \\
 &=\frac{4\pi}{h^{3}}\int_{0}^{\infty} \frac{p^{2}}{e^{\alpha+\beta \varepsilon_{p}}\pm 1} dp
 \end{align}$$
-To understand the change to [[spherical coordinates]], consider this: the previous sum occurs over all of the momenta in the ensemble. When we change to integration, we integrate over all momenta in the ensemble. But the integral tells us the number of particles (well, density) in a certain range of momenta, so if we integrate over a range that no particle is in, we get zero. So, we can trivially extend the integral from all momenta in the ensemble to all space. Anything that's not present will cancel out anyway. Integration over all space can be easily done with an infinite-radius [[palla|sphere]].
+To understand the change to [[Spherical coordinates]], consider this: the previous sum occurs over all of the momenta in the ensemble. When we change to integration, we integrate over all momenta in the ensemble. But the integral tells us the number of particles (well, density) in a certain range of momenta, so if we integrate over a range that no particle is in, we get zero. So, we can trivially extend the integral from all momenta in the ensemble to all space. Anything that's not present will cancel out anyway. Integration over all space can be easily done with an infinite-radius [[palla|sphere]].
 
 We now make the substitution $\beta \varepsilon_{p}=x^{2}$, which gives us $p=x\sqrt{ 2m/\beta }$. The integral becomes
 $$n=\frac{4\pi}{h^{3}}\left( \frac{2m}{\beta} \right)^{3/2} \int_{0}^{\infty} \frac{x^{2}}{e^{\alpha+x^{2}}\pm 1}dx$$
@@ -404,7 +404,7 @@ $$\begin{align}
 &=\frac{4\pi}{h^{3}}\int_{0}^{\infty}p^{2}\ln(1+ze^{-\beta p^{2}/2m})\ dp \\
 &=\ldots
 \end{align}$$
-where we used [[spherical coordinates]] (see [[Ideal gas#Determining the parameters]] for more info). We can't solve this integral directly, but we can introduce a class of functions $f_{k}(z)$ called [[Fermi and Bose functions|Fermi functions]]. Expanding $\ln(1+x)$ in [[Serie di Taylor|Taylor series]] we find
+where we used [[Spherical coordinates]] (see [[Ideal gas#Determining the parameters]] for more info). We can't solve this integral directly, but we can introduce a class of functions $f_{k}(z)$ called [[Fermi and Bose functions|Fermi functions]]. Expanding $\ln(1+x)$ in [[Serie di Taylor|Taylor series]] we find
 $$\begin{align}
 \ldots&=\frac{4\pi}{h^{3}}\int_{0}^{\infty}p^{2}\sum_{j=1}^{\infty} \frac{(-1)^{j+1}z^{j}e^{-j\beta\varepsilon_{p}}}{j} \\
 &=\frac{4\pi}{h^{3}}\sum_{j=1}^{\infty} \frac{(-1)^{j+1}z^{j}}{j}\int_{0}^{\infty}p^{2}e^{-j\beta p^{2}/2m} \\

@@ -2,7 +2,7 @@
 $$\nabla^{2}\psi=0$$
 where $\nabla^{2}$ is the [[laplaciano|Laplacian]]. A solution to this equation is said to be a **harmonic function**. It is a particular case of the [[Poisson's equation|Poisson's equation]], where $f=0$.
 
-It is useful to solve the Laplace equation in coordinate systems other than Cartesian, for example, in [[spherical coordinates]]. In many coordinates, it is possible to solve the equation using the method of [[separation of variables]].
+It is useful to solve the Laplace equation in coordinate systems other than Cartesian, for example, in [[Spherical coordinates]]. In many coordinates, it is possible to solve the equation using the method of [[separation of variables]].
 ### One-dimensional case
 In one dimension, using [[Cartesian coordinates]], the equation simplifies to a [[equazione differenziale ordinaria|ordinary differential equation]]:
 $$\frac{ d^{2} \psi }{ d x^{2} } =0$$
@@ -32,7 +32,7 @@ This permits us to write
 $$\frac{1}{\phi}\frac{ \partial ^{2}\phi }{ \partial x^{2} } =C_{1},\qquad \frac{1}{\theta}\frac{ \partial ^{2} \theta }{ \partial y^{2} } =C_{2}$$
 and thus $C_{1}=-C_{2}$. Renaming them to $k^{2}$, we get
 $$\frac{ \partial ^{2}\phi }{ \partial x^{2} } =k^{2}\phi,\qquad \frac{ \partial ^{2}\theta }{ \partial y^{2} } =-k^{2}\theta$$
-Since these are just [[Oscillatore armonico|harmonic oscillators]], we have the solution
+Since these are just [[Harmonic oscillator|harmonic oscillators]], we have the solution
 $$\psi(x,y)=(Ae^{kx}+Be^{-kx})(C\sin ky+D\cos ky)$$
 Determining the constants $A$, $B$, $C$ and $D$ requires knowing the boundary conditions, which depends on the problem. The important part is that the solution is not expressible in closed form, as solving this equation gives us an infinite number of possibilities. Each solution individually is likely not the description of the system at hand, but they possess the important property of linearity, that is, the sum of several solutions is still a solution. Thus, it is possible to [[combinazione lineare|linearly combine]] several solutions (an infinite number, actually), to describe the state of the system. As an example, it may take the form
 $$\psi(x,y)=\sum_{n=1}^{\infty} c_{n}e^{-n\pi x/a}\sin\left( \frac{n\pi x}{a} \right)$$
@@ -40,7 +40,7 @@ where $n$ is a nonzero integer and $a$ is a constant. This is a [[Serie di Fouri
 $$c_{n}=(\psi_{n},\ \psi)=\left( e^{-n\pi x/a}\sin\left( \frac{n\pi x}{a} \right),\ \psi \right)$$
 As is always the case for separable solutions, the set formed by $\{\psi_{n}\}_{n\in \mathbb{N}}$ is a [[Sistema ortonormale completo|complete orthonormal set]] and thus $\psi_{n}\psi_{m}=\delta_{nm}$ with the [[Delta di Kronecker|Kronecker delta]] and $\psi=\sum_{n}^{\infty}c_{n}\psi_{n}$ is always true.
 
-We can also find a solution in [[spherical coordinates]] by starting in three-dimensions and then assuming *azimuthal symmetry*, which states that $\psi$ is independent from the azimuthal angle. This removes one variable, leaving a two-dimensional solution. The most general solution found that is compatible with minimum physical requirements is
+We can also find a solution in [[Spherical coordinates]] by starting in three-dimensions and then assuming *azimuthal symmetry*, which states that $\psi$ is independent from the azimuthal angle. This removes one variable, leaving a two-dimensional solution. The most general solution found that is compatible with minimum physical requirements is
 $$\psi(r,\theta)=\sum_{l=0}^{\infty} \left( A_{l}r^{l}+ \frac{B_{l}}{r^{l+1}} \right)P_{l}(\cos \theta)$$
 where $P_{l}(\cos \theta)$ are the [[Polinomi di Legendre|Legendre polynomials]].
 ### Three-dimensional case

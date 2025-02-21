@@ -6,7 +6,7 @@
 Point 2. is necessary to give precise number to point 3., and point 3. is necessary in order to handle polyhedra with arbitrary face polygons, such as squares or hexagons. In case the face polygons are triangles (which is always the case for computer meshes), then points 2. and 3. are redundant and the algorithm can be greatly simplified.
 ### Algorithm
 #### Reduction of volume integrals
-Calculation of the mass, [[center of mass]] and [[Moment of inertia|inertia tensor]] all require a volume integral of the form
+Calculation of the mass, [[Center of mass]] and [[Moment of inertia|inertia tensor]] all require a volume integral of the form
 $$\int_{V}P(x,y,z)\ dV$$
 where $V$ is the volume of the polyhedron and $P$ is a polynomial among: 1, $x$, $y$, $z$, $x^{2}$, $y^{2}$, $z^{2}$, $xy$, $xz$ and $yz$. This integral may be converted to a [[Integrale su una superficie|surface integral]] by use of the divergence theorem:
 $$\int_{V}P(x,y,z)\ dV=\int_{V}\nabla\cdot\vec{F}\ dV=\int_{S}\vec{N}\cdot\vec{F}\ dS$$

@@ -46,7 +46,7 @@ The [[curl]] is easier to derive than the divergence. Consider the electric fiel
 $$\mathbf{E}=\frac{1}{4\pi\varepsilon_{0}} \frac{q}{r^{2}}\hat{\mathbf{r}}$$
 Let's calculate the line integral of this from point $\mathbf{a}$ to point $\mathbf{b}$:
 $$\int_{\mathbf{a}}^{\mathbf{b}} \mathbf{E}\cdot d\mathbf{r}$$
-In [[spherical coordinates]] we have $d\mathbf{r}=dr\hat{\mathbf{r}}+rd\theta\hat{\mathbf{\theta}}+r\sin\phi d\phi\hat{\mathbf{\phi}}$, so
+In [[Spherical coordinates]] we have $d\mathbf{r}=dr\hat{\mathbf{r}}+rd\theta\hat{\mathbf{\theta}}+r\sin\phi d\phi\hat{\mathbf{\phi}}$, so
 $$\mathbf{E}\cdot d\mathbf{r}=\frac{1}{4\pi\varepsilon_{0}} \frac{q}{r^{2}}dr$$
 therefore
 $$\int_{\mathbf{a}}^{\mathbf{b}}\mathbf{E}\cdot d\mathbf{r}=\frac{1}{4\pi\varepsilon_{0}}\int_{\mathbf{a}}^{\mathbf{b}} \frac{q}{r^{2}}dr=\frac{1}{4\pi\varepsilon_{0}}\left(\frac{q}{r_{a}}- \frac{q}{r_{b}}\right)$$

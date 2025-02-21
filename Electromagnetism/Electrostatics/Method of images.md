@@ -27,7 +27,7 @@ we get
 $$\sigma(x,y)=\frac{-qd}{2\pi(x^{2}+y^{2}+d^{2})^{3/2}}$$
 which gives us a negative charge, as expected. Notably, it's not uniform and it's denser near the charge and tapers off to infinity. We can also compute the total charge
 $$Q=\underset{ xy\text{-plane} }{ \int }\sigma\ da$$
-We can use [[polar coordinates]] for an easier integral
+We can use [[Polar coordinates]] for an easier integral
 $$\sigma(r)=\frac{-qd}{2\pi(r^{2}+d^{2})^{3/2}}$$
 so
 $$Q=\int_{0}^{2\pi}\int_{0}^{\infty} \frac{-qd}{2\pi(r^{2}+d^{2})^{3/2}}r\ drd\phi=\left.\frac{qd}{\sqrt{ r^{2}+d^{2} }}\right|_{0}^{\infty}=-q$$

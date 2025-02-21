@@ -3,7 +3,7 @@ aliases:
   - dynamic friction
   - static friction
 ---
-**Friction** is a [[dissipative force]] between two objects that occurs when one objects slides over the surface of the other. Typically, the second object is static. This force is tangent to the surface and opposes motion. Its magnitude is assumed to be proportional to the normal force between the objects (usually weight) and independent of both the area of contact and the velocity of the moving object once it is in motion.
+**Friction** is a [[Dissipative force]] between two objects that occurs when one objects slides over the surface of the other. Typically, the second object is static. This force is tangent to the surface and opposes motion. Its magnitude is assumed to be proportional to the normal force between the objects (usually weight) and independent of both the area of contact and the velocity of the moving object once it is in motion.
 
 Mathematically, **dynamic friction** can be described as
 $$\mathbf{F}=\begin{cases}

@@ -7,7 +7,7 @@ The Earth's magnetic field is on the order of $\sim 10^{-5}\text{ T}$.
 
 ![[Schema Earth magnetic field|center]]
 
-Locally, the magnetic field is $\mathbf{B}_{L}$. It can be decomposed into two components in [[polar coordinates]], $\mathbf{B}_{\theta}$ and $\mathbf{B}_{r}$. These have formal expressions
+Locally, the magnetic field is $\mathbf{B}_{L}$. It can be decomposed into two components in [[Polar coordinates]], $\mathbf{B}_{\theta}$ and $\mathbf{B}_{r}$. These have formal expressions
 $$B_{r}=\frac{\mu_{0}}{4\pi} \frac{2m\cos\theta}{R^{3}_{T}},\qquad B_{\theta}=\frac{\mu_{0}}{4\pi} \frac{2m\sin\theta}{R^{3}_{T}}$$
 where $R_{T}$ is the radius of the Earth, $\mu_{0}$ is the [[permeability of free space]] and $m$ is the [[magnetic dipole moment]] of the Earth.
 ### Apparatus

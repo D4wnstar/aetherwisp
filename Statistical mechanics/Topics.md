@@ -28,7 +28,7 @@
 - [[Ideal gas]] (quantum), [[Fermi gas]] and [[Bose gas]]
 - [[Bose-Einstein condensation]]
 - [[Black body cavity]]
-- [[Oscillatore armonico#Phonons|Phonons]]
+- [[Harmonic oscillator#Phonons|Phonons]]
 ### Mathematics
 - [[Laplace's method]] (i.e. saddle point method)
 - [[Volume of an n-ball]]

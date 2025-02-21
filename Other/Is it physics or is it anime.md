@@ -1,3 +1,19 @@
 - Stellar stream
 - Antimatter annihilation
 - London penetration depth
+- Killing horizon
+- Null hypersurface
+- Phasor
+- Time reversal symmetry
+- Bremmstrahlung
+- Essential singularity
+- Spherical harmonics
+- Recombination era
+- Forbidden spectral line
+- Termination shock
+- Degenerate star
+- Helium flash
+- Cosmic ray
+- Primordial universe
+- Energy straggling
+- Annihilation operator
