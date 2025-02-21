@@ -414,7 +414,7 @@ $$\begin{align}
 \end{align}$$
 where we used the [[Formula di de Broglie|de Broglie thermal wavelength]]. This gives us the equation of state of a fermion ideal gas
 $$\boxed{\frac{P\lambda ^{3}}{k_{B}T}=f_{5/2}(z)}$$
-This equation substitutes (and extends) the well-known classical $PV=Nk_{B}T$. Notice that volume does not make an appearance here, instead substituted by the cube of the thermal wavelength. Clearly then, a quantum gas depends not on the size of its enclosure (at least, not directly), but rather on the wave properties of its components.
+This equation substitutes (and extends) the well-known classical $PV=Nk_{B}T$. Notice that volume does not make an appearance here, instead substituted by the cube of the thermal wavelength. Clearly then, a quantum gas depends not on the size of its enclosure (actually it does, just not directly), but rather on the wave properties of its components.
 
 From the previous steps we can retroactively state
 $$\int_{0}^{\infty}p^{2}\ln(1+ze^{-\beta \varepsilon_{p}})dp=\frac{\sqrt{ \pi }}{4} \left( \frac{2m}{\beta} \right)^{3/2} f_{5/2}(z)$$

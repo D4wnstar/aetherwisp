@@ -44,15 +44,17 @@ There are exactly $N$ modes of oscillation. Mathematically, this is because the 
 
 Since the shift $\xi$ is position, we can Fourier transform it to get the reciprocal pair
 $$\xi_{\mathbf{n}}=\frac{1}{\sqrt{ N }}\sum_{\mathbf{k}}A_{\mathbf{k}}e^{i\mathbf{k}\cdot \mathbf{n}},\qquad A_{\mathbf{k}}=\frac{1}{\sqrt{ N }}\sum_{\mathbf{n}}\xi_{\mathbf{n}}e^{-i\mathbf{k}\cdot \mathbf{n}}$$
-where the sum happens only over the $N$ values of $\mathbf{k}$ within $[-\pi,\pi]$, i.e. in the first Brillouin zone. In fact, this is a [[Serie di Fourier|Fourier series]]. We also have
+where the sum happens only over the $N$ values of $\mathbf{k}$ within $[-\pi,\pi]$, i.e. in the first Brillouin zone. Since $\xi_{n}\in \mathbb{R}$ it must be $A_{\mathbf{k}}=A_{-\mathbf{k}}^{*}$. In fact, this is a [[Serie di Fourier|Fourier series]]. We also have [[Ortonormalità|orthonormality]] between modes.
 $$\frac{1}{N}\sum_{\mathbf{k}}e^{i\mathbf{k}\cdot(\mathbf{n}-\mathbf{n}')}=\delta_{\mathbf{n}\mathbf{n'}},\qquad\frac{1}{N}\sum_{\mathbf{n}}e^{i(\mathbf{k}-\mathbf{k}')\cdot\mathbf{n}}=\delta_{\mathbf{k}\mathbf{k'}}$$
-using the [[Delta di Kronecker|Kronecker delta]], and $A_{\mathbf{k}}=A_{-\mathbf{k}}^{*}$.
+using the [[Delta di Kronecker|Kronecker delta]].
 
 Our goal is to go from position space, where oscillation modes are coupled, to momentum space, where they are independent and form the set of [[normal mode|normal modes]] of oscillations.
 
-By substituting the Fourier series of $\xi$ into the definitions of $K$ and $U$ from before, we get
+By substituting the Fourier series of $\xi$ into the definitions of $K$ and $U$ from before, and seeing
+$$\xi_n - \xi_{n-1} \propto \sum_k A_k (1 - e^{-ik}) e^{ikn}$$
+we get
 $$K=\frac{m}{2}\sum_{\mathbf{n}}\dot{A}_{\mathbf{k}}\dot{A}_{-\mathbf{k}},\qquad U=\frac{m}{2}\sum_{\mathbf{k}}\Omega^{2}(\mathbf{k})A_{\mathbf{k}}A_{-\mathbf{k}}$$
-where $\Omega$ is given by
+where the cross-terms vanish due to being [[Ortogonalità|orthogonal]] and $\Omega$ is given by
 $$m\Omega ^{2}(\mathbf{k})=m\Omega ^{2}(-\mathbf{k})\quad\to \quad \Omega(\mathbf{k})=4\gamma \sin ^{2} \frac{\mathbf{k}\cdot \mathbf{a}}{2}$$
 The [[Lagrangian]] is
 $$L=K-U=\frac{m}{2}\sum_{\mathbf{k}}(\dot{A}_{\mathbf{k}}\dot{A}_{-\mathbf{k}}-\Omega ^{2}(\mathbf{K})A_{\mathbf{k}}A_{-\mathbf{k}})$$
