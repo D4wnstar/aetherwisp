@@ -11,9 +11,7 @@ When an external electric field $\mathbf{E}_{0}$ is applied to the conductor, th
 
 Using [[Gauss' law]], we have $\nabla\cdot\mathbf{E}=\rho/\varepsilon_{0}$, so if $\mathbf{E}$ is zero inside, so is $\rho$ (property 2). Since charges cannot be created or destroyed and cannot stay on the inside, they must "migrate" to the surface, leading to a surface charge distribution (property 3). In fact, this can be seen as a consequence of the [[least action principle]], as the energy of the system needs to be at its lowest for the system to come to rest. As it happens the electrostatic energy of a solid is always lowest when all charge is distributed at the boundary surface, when keeping charge and shape constant.
 
-The difference in electric potential is given by definition as
-$$\Delta V=-\int_{\mathbf{a}}^{\mathbf{b}}\mathbf{E}\cdot d\mathbf{r}$$
-but if $\mathbf{E}=0$ internally, then $\Delta V=0$ and the whole object (at least the inside) is equipotential (property 4).
+The electric field is given by $\mathbf{E}=-\nabla V$, so if $\mathbf{E}=0$ then $V$ must be a constant (property 4).
 
 Any component $\mathbf{E}$ not perpendicular to the surface would cause a shift in the underlying charges for the same reasons an outside field does, meaning that charges reassess constantly in such a way that any tangential component $\mathbf{E}$ is removed (property 5).
 ### Cavity and internal charges

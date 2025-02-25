@@ -39,6 +39,16 @@ Some capacitor configurations are more common than others.
 > $$V=-\int_{b}^{a}\mathbf{E}\cdot d\mathbf{r}=- \frac{Q}{4\pi \varepsilon_{0}}\int_{b}^{a} \frac{1}{r^{2}}\ dr=\frac{Q}{4\pi \varepsilon_{0}}\left( \frac{1}{a}- \frac{1}{b} \right)$$
 > and the capacitance is
 > $$C=\frac{Q}{V}=4\pi \varepsilon_{0} \frac{ab}{b-a}$$
+
+> [!example] Coaxial cylinders
+> Consider two coaxial cylinders of radii $a$ and $b$ and length $L$. The charge is $Q$ on the inner one and $-Q$ on the outer one. The field between the cylinders is
+> $$\mathbf{E}=\frac{1}{2\pi \varepsilon_{0}} \frac{1}{rL}\hat{\mathbf{r}}$$
+> so the potential difference is
+> $$V=-\int_{b}^{a}\mathbf{E}\cdot d\mathbf{r}=\frac{Q}{2\pi \varepsilon_{0}L}\int_{a}^{b} \frac{1}{r}dr=\frac{Q}{2\pi \varepsilon_{0}L}\ln\left( \frac{b}{a} \right)$$
+> and the capacitance is
+> $$C=\frac{Q}{V}=\frac{2\pi\varepsilon_{0}L}{\ln(b/a)}$$
+> The field used is a valid approximation when $L$ is very large compared to the radii, so the capacitance is also an approximation. It becomes correct when $L\to \infty$, in which case it is more useful to talk about the capacitance per unit length
+> $$c=\frac{2\pi \varepsilon_{0}}{\ln(b/a)}$$
 ### Behavior in series and parallel
 Consider two capacitors $C_{1}$ and $C_{2}$ in a circuit of total potential difference $\Delta V$. Say they are in series one after another:
 
@@ -193,3 +203,5 @@ $$\boxed{I(t)=- \frac{\mathcal{E}}{R}e^{-t/RC}}$$
 which is just the current in the charging case with the sign reversed. This means that when a capacitor is discharging, it'll elicit a current going in the *opposite* direction as the charging current.
 
 [^1]: This is pretty much the same thought process used to call slow [[thermodynamic transformation|thermodynamic transformations]] (quasi-)[[adiabatic transformation|adiabatic]].
+
+$$\phi(\mathbf{r})=\frac{q}{4\pi \varepsilon_{0}} \left( \frac{1}{\lvert \mathbf{r}- \mathbf{s}/2 \rvert} - \frac{1}{\lvert \mathbf{r}+ \mathbf{s}/2 \rvert } \right)=\frac{q}{4\pi \varepsilon_{0}} \frac{\mathbf{s}\cdot\mathbf{r}}{r^{3}}$$

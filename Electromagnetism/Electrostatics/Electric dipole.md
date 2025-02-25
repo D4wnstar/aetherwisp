@@ -64,6 +64,12 @@ E_{\phi} & =- \frac{1}{r\sin \theta}\frac{ \partial V }{ \partial \phi } =0
 \end{align}$$
 Thus
 $$\boxed{\mathbf{E}_\text{dip}(r,\theta)=\frac{1}{4\pi\varepsilon_{0}} \frac{p}{r^{3}}(2\cos \theta\ \hat{\mathbf{r}}+\sin \theta\ \hat{\boldsymbol{\theta}})}$$
-A more general, coordinate-free form can be proven to be
+A more general, coordinate-free form can be derived by taking the gradient of the dipole potential directly:
+$$\mathbf{E}_\text{dip}(\mathbf{r})=-\nabla V_\text{dip}(\mathbf{r})=- \frac{1}{4\pi \varepsilon_{0}} \nabla\left( \frac{\mathbf{p}\cdot \mathbf{r}}{r^{3}} \right)=- \frac{1}{4\pi \varepsilon_{0}}\left[ \frac{\nabla(\mathbf{p\cdot \mathbf{r}})}{r^{3}}-(\mathbf{p}\cdot \mathbf{r})\nabla\left( \frac{1}{r^{3}} \right) \right]$$
+The first gradient is trivial, as $\mathbf{p}$ is constant and $\mathbf{r}=(x,y,z)$ is just what we are taking the derivative of, so $\nabla(\mathbf{p}\cdot \mathbf{r})=\mathbf{p}$[^1]. The second gradient is also easy, provided we use spherical coordinates:
+$$\nabla\left( \frac{1}{r^{3}} \right)=\left( \frac{ \partial }{ \partial r } \frac{1}{r^{3}},0,0 \right)=\left( - \frac{3}{r^{4}},0,0 \right)=-3 \frac{\hat{\mathbf{r}}}{r^{4}}=-3 \frac{\mathbf{r}}{r^{5}}$$
+Putting it all together yields
 $$\boxed{\mathbf{E}_\text{dip}(\mathbf{r})=\frac{1}{4\pi\varepsilon_{0}} \frac{1}{r^{3}}[3(\mathbf{p}\cdot \hat{\mathbf{r}})\hat{\mathbf{r}}-\mathbf{p}]}$$
 Just like how the dipole term of potential goes like $\sim 1/r^{2}$ instead of $\sim 1/r$, the field goes like $\sim 1/r^{3}$ instead of $\sim 1/r^{2}$. Higher terms can be proven to go like $\sim 1/r^{4}$, $\sim 1/r^{5}$ and so on, since taking the derivative of an inverse power decreases it by one, like $r^{-n}\to r^{-n-1}=r^{-(n+1)}$.
+
+[^1]: Proof: $\nabla(\mathbf{p}\cdot \mathbf{r})=\nabla(p_{x}x+p_{y}y+p_{z}z)=\left( p_{x}\frac{ \partial x }{ \partial x }+p_{y}\frac{ \partial y }{ \partial y }+p_{z}\frac{ \partial z }{ \partial z } \right)=(p_{x},p_{y},p_{z})=\mathbf{p}$.
