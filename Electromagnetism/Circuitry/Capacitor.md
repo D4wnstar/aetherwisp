@@ -67,7 +67,7 @@ Consider two capacitors $C_{1}$ and $C_{2}$ in a circuit of total potential diff
 
 The charge $Q$ remains constant across all them (it just flips sign across plates), so
 $$C_{1}=\frac{Q}{V_{1}},\quad C_{2}=\frac{Q}{V_{2}}$$
-From [[Kirchhoff's laws|Kirchhoff's hoop law]], we know that each potential must sum to the total:
+From [[Kirchhoff's laws|Kirchhoff's loop law]], we know that each potential must sum to the total:
 $$\Delta V=V_{1}+V_{2}=QC_{1}+QC_{2}=Q(C_{1}+C_{2})$$
 and inverting the relation
 $$\frac{1}{C_{1}+C_{2}}=\frac{\Delta V}{Q}$$

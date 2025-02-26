@@ -10,6 +10,10 @@ $$\nabla\times\mathbf{F}=\begin{vmatrix}
 \frac{ \partial  }{ \partial x }  & \frac{ \partial  }{ \partial y }  & \frac{ \partial  }{ \partial z }  \\
 F_{x} & F_{y} & F_{z}
 \end{vmatrix}=\left( \frac{ \partial F_{z} }{ \partial y } - \frac{ \partial F_{y} }{ \partial z }  \right)\mathbf{\hat{x}}+\left( \frac{ \partial F_{x} }{ \partial z } -\frac{ \partial F_{z} }{ \partial x }  \right)\mathbf{\hat{y}}+\left( \frac{ \partial F_{y} }{ \partial x } -\frac{ \partial F_{x} }{ \partial y }  \right)\mathbf{\hat{z}}$$
+### Useful results
+Given a generic position vector $\mathbf{r}$, the following useful results hold:
+$$\nabla\times\mathbf{r}=0,\qquad \nabla\times\left( \frac{\mathbf{r}}{r^{n}} \right)=0,\qquad \nabla\times(\mathbf{r}f(r))=0$$
+for any $f(\mathbf{r})$.
 ### In curvilinear coordinates
 To find the curvilinear form of the curl, we need to evaluate the circulation
 $$\oint_{\gamma}\mathbf{F}\cdot d\mathbf{r}$$

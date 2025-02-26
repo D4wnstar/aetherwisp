@@ -73,6 +73,8 @@ which must also obey Laplace's equation:
 $$\nabla ^{2}\psi_{3}=\nabla ^{2}\psi_{1}-\nabla ^{2}\psi_{2}=0$$
 This takes the value *zero* on all boundaries, since $\psi_{1}$ and $\psi_{2}$ have the same value there. But we know there are no maxima and minima outside of the boundary, thus all other points must be themselves zero, so $\psi_{3}=0$, which means $\psi_{1}=\psi_{2}$.
 
+$$F(r)=- \frac{q^{2}r_{0}r}{4\pi \varepsilon_{0}(r^{2}-r_{0}^{2})^{2}}$$
+
 The same can be proven for Poisson's equation, as the function $f$ cancels out either way. We can express this as a sort of corollary:
 
 > [!info] Corollary, first uniqueness theorem

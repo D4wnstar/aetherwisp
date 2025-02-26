@@ -9,6 +9,9 @@ This is related to the [[total differential]] $df$, as they are [[transposition|
 $$df=(\nabla f)^{T}$$
 In [[Notazione braket|braket notation]], they are the ket and bra of the same vector:
 $$\nabla f=\ket{\partial_{x} f},\quad df=\bra{\partial_{x}f} $$
+### Useful results
+Given a generic position vector $\mathbf{r}=r\hat{\mathbf{r}}$, the following useful results hold:
+$$\nabla r=\hat{\mathbf{r}},\quad \nabla r^{n}=nr^{n-1}\hat{\mathbf{r}},\quad \nabla\left( \frac{1}{r} \right)=- \frac{\hat{\mathbf{r}}}{r^{2}},\quad \nabla\left( \frac{1}{r^{n}} \right)=- \frac{n\hat{\mathbf{r}}}{r^{n+1}}$$
 ### In curvilinear coordinates
 The most generic form of the gradient is given in curvilinear coordinates. Consider a three-dimensional system with coordinates $u$, $v$ and $w$. If you move an object from point $(u,v,w)$ to point $(u+du,v+dv,w+dw)$ in an infinitesimal motion, a scalar function $t(u,v,w)$ changes by an amount
 $$dt=\nabla t\cdot d\mathbf{r}=(\nabla t)_{u}f\ du+(\nabla t)_{v}g\ dv+(\nabla t)_{w}h\ dw$$

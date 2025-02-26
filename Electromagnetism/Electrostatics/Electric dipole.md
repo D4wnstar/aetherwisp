@@ -1,21 +1,7 @@
 A **(physical) electric dipole** is a system of two equal and opposite [[Electric charge|electric charges]] separated by a distance $d$.
 
-```tikz
-\begin{document}
-\begin{tikzpicture}[domain=-4:4]
-\draw[red!60!white] (-2,-2) circle (5pt) node[anchor=north east] {$+q$};
-\draw[blue!60!white] (2,2) circle (5pt) node[anchor=north west] {$-q$};
-\draw (-2,-2) -- (2,2);
-\draw (-2,-2) .. controls (1,-1) .. (2,2);
-\draw (-2,-2) .. controls (-1,1) .. (2,2);
-\draw (-2,-2) .. controls (2,-2) .. (2,2);
-\draw (-2,-2) .. controls (-2,2) .. (2,2);
-\draw (-2,-2) .. controls (4,-4) .. (2,2);
-\draw (-2,-2) .. controls (-4,4) .. (2,2);
-\end{tikzpicture}
-\end{document}
-```
-
+![[VFPt_dipoles_electric.svg|400]]
+*By Geek3 - Own work, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=85815210*
 ### Potential
 We can approximate the [[electric potential]] of an electric dipole for points far from it. Let $\mathfrak{r}_{-}$ be the distance from $-q$ and $\mathfrak{r}_{+}$ the distance from $+q$. Then
 $$V(\mathbf{r})=\frac{1}{4\pi\varepsilon_{0}}\left( \frac{q}{\mathfrak{r}_{+}}- \frac{q}{\mathfrak{r}_{-}} \right)$$
@@ -52,7 +38,7 @@ so the potential of a dipole goes like $\sim1/r^{2}$ at large enough distances a
 
 A better description requires the use of [[multipole expansion]], in which terms beyond the dipole potential exist. The dipole term is
 $$V_\text{dip}(\mathbf{r})=\frac{1}{4\pi\varepsilon_{0}} \frac{\mathbf{p}\cdot\hat{\mathbf{r}}}{r^{2}}\tag{2}$$
-where $\mathbf{p}$ is the [[Electric dipole moment]]. For a physical dipole, it's simply $\mathbf{p}=q\mathbf{d}$, with $\mathbf{d}$ the vector that points from the negative pole to the positive one. The expansion reduces to $(1)$ when the distance $r$ is very high, but also when the distance $d$ between the poles is very small. In fact, to obtain a dipole whose potential is described exactly by $(2)$ and has no other terms, $d$ needs to approach zero. This scenario is called **perfect dipole** or **point dipole**. Of course, if $d$ goes to zero, then so does the entire potential. To retain the potential, the charge needs to go to infinity as $d$ goes down to counteract that.
+where $\mathbf{p}$ is the [[electric dipole moment]]. For a physical dipole, it's simply $\mathbf{p}=q\mathbf{d}$, with $\mathbf{d}$ the vector that points from the negative pole to the positive one. The expansion reduces to $(1)$ when the distance $r$ is very high, but also when the distance $d$ between the poles is very small. In fact, to obtain a dipole whose potential is described exactly by $(2)$ and has no other terms, $d$ needs to approach zero. This scenario is called **perfect dipole** or **point dipole**. Of course, if $d$ goes to zero, then so does the entire potential. To retain the potential, the charge needs to go to infinity as $d$ goes down to counteract that.
 ### Electric field
 Knowing the potential (mostly), we can now find the [[electric field]], at least that of a perfect dipole. Due to the origin-dependency of the dipole moment, we choose coordinates so that $\mathbf{p}$ is at the origin and points in the $z$ direction. This way, the potential is $(2)$. In [[Spherical coordinates]] it reads
 $$V_\text{dip}(r,\theta)=\frac{1}{4\pi\varepsilon_{0}}\frac{\hat{\mathbf{r}}\cdot \mathbf{p}}{r^{2}}=\frac{1}{4\pi\varepsilon_{0}}\frac{p\cos \theta}{r^{2}}$$
@@ -71,5 +57,27 @@ $$\nabla\left( \frac{1}{r^{3}} \right)=\left( \frac{ \partial }{ \partial r } \f
 Putting it all together yields
 $$\boxed{\mathbf{E}_\text{dip}(\mathbf{r})=\frac{1}{4\pi\varepsilon_{0}} \frac{1}{r^{3}}[3(\mathbf{p}\cdot \hat{\mathbf{r}})\hat{\mathbf{r}}-\mathbf{p}]}$$
 Just like how the dipole term of potential goes like $\sim 1/r^{2}$ instead of $\sim 1/r$, the field goes like $\sim 1/r^{3}$ instead of $\sim 1/r^{2}$. Higher terms can be proven to go like $\sim 1/r^{4}$, $\sim 1/r^{5}$ and so on, since taking the derivative of an inverse power decreases it by one, like $r^{-n}\to r^{-n-1}=r^{-(n+1)}$.
+### Energy and torque
+When subject to an external source field, we can calculate the stored [[potential energy]] of a *rigid* dipole. The distinction here is important: a non-rigid dipole would move to adapt to the source field, ending up in the point of lowest potential energy. Given a dipole of charges $-q$ and $q$ set a distance $d\mathbf{s}$ apart, respectively in $\mathbf{r}$ and $\mathbf{r}+d\mathbf{s}$, we find the potential energy as
+$$\mathbf{U}(\mathbf{r})=q[V(\mathbf{r}+d\mathbf{s})-V(\mathbf{r})]=q(d\mathbf{s}\cdot \nabla V(\mathbf{r}))=-\mathbf{p}\cdot \mathbf{E}(\mathbf{r})$$
+where we used the fact that the infinitesimal difference of potential is given by the projection of the [[gradient]] over the $d\mathbf{s}$ axis (i.e. the [[directional derivative]])[^2]. Using the same argument, the [[moment of force]] (or torque) is given by
+$$\begin{align}
+\tau(\mathbf{r})&=-q\mathbf{r}\times \mathbf{E}(\mathbf{r})+q(\mathbf{r}+d\mathbf{s})\times \mathbf{E}(\mathbf{r}+d\mathbf{s}) \\
+&=-q\mathbf{r}\times \mathbf{E}(\mathbf{r})+q\mathbf{r}\times \mathbf{E}(\mathbf{r}+d\mathbf{s})+qd\mathbf{s}\times \mathbf{E}(\mathbf{r}+d\mathbf{s}) \\
+&=q\mathbf{r}[\mathbf{E}(\mathbf{r}+d\mathbf{s})-\mathbf{E}(\mathbf{r})]+\mathbf{p}\times \mathbf{E}(\mathbf{r}+d\mathbf{s}) \\
+&=q\mathbf{r}[d\mathbf{s}\cdot \nabla \mathbf{E}(\mathbf{r})]+\mathbf{p}\times[\mathbf{E}(\mathbf{r})+d\mathbf{s}\cdot \nabla \mathbf{E}(\mathbf{r})] \\
+&\simeq \mathbf{p}\times \mathbf{E}(\mathbf{r})
+\end{align}$$
+The last step is a valid approximation when $d\mathbf{s}\cdot \nabla \mathbf{E}(\mathbf{r})\simeq 0$. This is true if the separation distance $d\mathbf{s}$ is zero (we have a perfect dipole) or if the gradient is zero (the field is uniform). We can see that the torque is zero when $\mathbf{p}$ and $\mathbf{E}$ are parallel. Thus, if the dipole isn't rigid, it will rotate until its axis is set in the direction of the field, then come to rest. This has the important consequence that all dipoles under an electric field become collectively aligned in the same direction and therefore combine their individual dipole moments to form a single massive (physical) dipole. At heart, this is the mechanism behind [[dielectric polarization]], where the dipoles are all of the [[atomo|atoms]] and [[molecule|molecules]] that comprise the material.
+
+Also, pay close attention to the directions: while the torque tells us the orientation, it gives us no information on the direction of $\mathbf{p}$. Thankfully, that's given by its definition: since we defined $\mathbf{p}$ to go from the negative to the positive pole ("countercurrent", if you would, since the electric field does the exact opposite), and electric forces attract opposite charges, then $\mathbf{p}$ must be directed *alongside* the source field.
+
+![[Schema Dipole alignment|100%]]
+
+When the dipole rotates due to the torque, it does [[work]]. In the most extreme case (the dipole is perpendicular to the field), calling $\theta$ the angle between $\mathbf{E}$ and $\mathbf{p}$, it does work
+$$W=\int_{\pi}^{0}\tau(\mathbf{r})d\theta=\int_{\pi}^{0}\mathbf{p}\times \mathbf{E}(\mathbf{r})d\theta=pE\int_{\pi}^{0}\sin \theta d\theta=2pE$$
+The potential energy, of course, diminishes by the same amount to preserve conservation of energy.
 
 [^1]: Proof: $\nabla(\mathbf{p}\cdot \mathbf{r})=\nabla(p_{x}x+p_{y}y+p_{z}z)=\left( p_{x}\frac{ \partial x }{ \partial x }+p_{y}\frac{ \partial y }{ \partial y }+p_{z}\frac{ \partial z }{ \partial z } \right)=(p_{x},p_{y},p_{z})=\mathbf{p}$.
+
+[^2]: The keyword here is infinitesimal: it is reliant on the fact that we specifically have $d\mathbf{s}$ and not any $\mathbf{s}$. In other words, this is only exact for an ideal dipole, and is a good approximation for physical dipoles with small separation $\mathbf{s}$.
