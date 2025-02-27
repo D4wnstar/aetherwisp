@@ -5,7 +5,7 @@ aliases:
 ---
 **Self inductance** is the phenomenon where changing the [[electric current]] within a loop induces an additional current within the loop itself counteracting the change. If the current is increased, the induced current will run in reverse, thereby trying to reduce the current back to its original value. Likewise, decreasing the current will prompt the loop to try to increase its own current. This can be thought of as an inertial phenomenon, as a sort of [[Newton's laws|Newton's first law]] for currents.
 
-It is quantified by a constant also called the **self inductance** (or simply **inductance**) and denoted $L$. Like its sibling quantity [[mutual inductance]], it is a purely geometric quantity, determined by the size and shape of the loop. It is measured in henries $\text{H}$, which are volt-second per ampere. In circuits, inductance is added through high self inductance components called **inductors** and are represented as
+It is quantified by a constant also called the **self inductance** (or simply **inductance**) and denoted $L$. Like its sibling quantity [[mutual inductance]], it is a purely geometric quantity, determined by the size and shape of the loop. It is measured in henries $\text{H}$, which are volt-second per ampere. In circuits, inductance is added through high self inductance components called **[[inductor|inductors]]** and are represented as
 
 ```tikz
 \usepackage{circuitikz}
@@ -28,9 +28,9 @@ which is known as the **back emf**, because it tries to push back against any ch
 ### RL circuit
 An **RL circuit** is a circuit made of a [[Electrical resistance|resistor]] $R$ and an inductor $L$. If we attach a generator of emf $\mathcal{E}_{0}$ and no internal resistance, [[Ohm's law|Ohm's first law]] says
 $$\mathcal{E}_{0}-L \frac{dI}{dt}=IR$$
-which is a first order [[equazione differenziale ordinaria|ordinary differential equation]]. It can be solved by integration:
+which is a first order [[equazione differenziale ordinaria|ordinary differential equation]]. It can be solved by [[separation of variables]] followed by integration:
 $$I(t)=\frac{\mathcal{E}_{0}}{R}[1-e^{ -(R/L)t }]$$
-We can call $L/R=\tau$ the **time constant** of the circuit. The function and has a shape of this sort
+We can call $L/R=\tau$ the **inductive time constant** of the circuit. Its inverse, $\Gamma=R/L$ is also called the **dampening frequency**. The function and has a shape of this sort
 
 ```mathpad
 %$1:=-e^(-t*tau^(-1))+1

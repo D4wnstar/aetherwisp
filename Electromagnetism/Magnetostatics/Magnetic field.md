@@ -20,9 +20,9 @@ This is a simple, yet restrictive way of finding the curl of $\mathbf{B}$. Unfor
 The Biot-Savart law, for a volume current, reads
 $$\mathbf{B}(\mathbf{r})=\frac{\mu_{0}}{4\pi}\int \frac{\mathbf{J}(\mathbf{r}')\times \hat{\boldsymbol{\mathfrak{r}}}}{\mathfrak{r}^{2}}\ d\tau'$$
 Here in particular, it's important to note that $\mathbf{B}$ is a function of the point $\mathbf{r}$ unprimed coordinates, whereas $\mathbf{J}$ is a function of the primed source coordinate, as is the volume element $d\tau'$. $\mathfrak{r}$ is, as usual, the difference between the two. Applying the [[divergence]] we get
-$$\nabla\cdot\mathbf{B}=\frac{\mu_{0}}{4\pi}\int \nabla \cdot\left( \mathbf{J}\times \frac{\hat{\boldsymbol{\mathfrak{r}}}}{\mathfrak{r}^{2}} \right)\ d\tau'$$
+$$\nabla\cdot\mathbf{B}=\frac{\mu_{0}}{4\pi}\int \nabla \cdot\left( \mathbf{J}(\mathbf{r}')\times \frac{\hat{\boldsymbol{\mathfrak{r}}}}{\mathfrak{r}^{2}} \right)\ d\tau'$$
 The divergence of [[Prodotto vettoriale|cross product]] can be developed like
-$$\nabla \cdot\left( \mathbf{J}\times \frac{\hat{\boldsymbol{\mathfrak{r}}}}{\mathfrak{r}^{2}} \right)=\frac{\hat{\boldsymbol{\mathfrak{r}}}}{\mathfrak{r}^{2}}\cdot(\nabla\times\mathbf{J})-\mathbf{J}\cdot\left( \nabla\times \frac{\hat{\boldsymbol{\mathfrak{r}}}}{\mathfrak{r}^{2}} \right)$$
+$$\nabla \cdot\left( \mathbf{J}(\mathbf{r}')\times \frac{\hat{\boldsymbol{\mathfrak{r}}}}{\mathfrak{r}^{2}} \right)=\frac{\hat{\boldsymbol{\mathfrak{r}}}}{\mathfrak{r}^{2}}\cdot(\nabla\times\mathbf{J}(\mathbf{r}'))-\mathbf{J}(\mathbf{r}')\cdot\left( \nabla\times \frac{\hat{\boldsymbol{\mathfrak{r}}}}{\mathfrak{r}^{2}} \right)$$
 The derivation $\nabla$ is over the unprimed coordinates and since $\mathbf{J}$ doesn't depend on them, it's derivative is zero: $\nabla\times\mathbf{J}=0$. The curl of $\hat{\boldsymbol{\mathfrak{r}}}/\mathfrak{r}^{2}$ is also zero. Thus
 $$\boxed{\nabla\cdot\mathbf{B}=0}$$
 ### Curl, again

@@ -6,7 +6,7 @@ where $\langle t \rangle=\tau$ is the average time between collisions. Because t
 
 As a whole, the electrons are sufficiently many to constitute a volume charge density $\rho$ moving at a velocity $\langle \mathbf{v} \rangle_\text{drift}$, which produces a volume [[Electric current|current]] density
 $$\mathbf{J}=-Nq\langle \mathbf{v} \rangle_\text{drift}=\frac{Nq^{2}\tau}{m}\mathbf{E} \simeq\rho \langle \mathbf{v} \rangle_\text{drift} $$
-where $N$ is the total number of electrons. But this is just [[Ohm's law|Ohm's first law]] in differential form, so we can express the [[electrical conductivity]] of a metallic conductor as
+where $N$ is the total number of electrons. But this is just [[Ohm's law]] in differential form, so we can express the [[electrical conductivity]] of a metallic conductor as
 $$\sigma_{C}=\frac{Nq^{2}\tau}{m}$$
 We know empirically that $\sigma_{C}$ is mostly constant, so since $N$, $q$ and $m$ are all themselves constant, $\tau$ too must be constant[^1], at least within the same limits as $\sigma_{C}$.
 
