@@ -7,7 +7,16 @@ $$\boxed{\begin{align}
 \end{align}}$$
 and together with the boundary conditions $\mathbf{E}\to 0$ and $\mathbf{B}\to  0$ approaching infinity, they uniquely determine the two fields. $\rho$ is a volume [[electric charge]] density and $\mathbf{J}$ is a volume [[electric current]] density. $\varepsilon_{0}$ and $\mu_{0}$ are the [[Costante dielettrica del vuoto|permittivity]] and [[permeability of free space]] respectively.
 
-They are equivalent to using [[Interazione elettromagnetica|Coulomb's law]] and the superposition principle (electrostatics) and the [[Biot-Savart law]] and the superposition principle (magnetostatics) combined. These laws, alongside the [[Lorentz force]], explain the entirety of electromagnetic phenomena. Maxwell's equations tell you how *charges* produces *fields*, whereas the Lorentz force tells you how *fields* affect *charges*. With both, the circle is complete.
+These laws, alongside the [[Lorentz force]], explain the entirety of electromagnetic phenomena. Maxwell's equations tell you how *charges* produces *fields*, whereas the Lorentz force tells you how *fields* affect *charges*. With both, the circle is complete. This is true in both electro/magnetostatics and electrodynamics.
+### In the vacuum
+The laws above are correct in the vacuum. However, in the special case of a "true" vacuum, that is, there is truly nothing in that region of space, not even charges, they become
+$$\begin{align}
+\nabla\cdot\mathbf{E} & =0 &
+\nabla\times\mathbf{E} & = -\frac{ \partial \mathbf{B} }{ \partial t } \\
+\nabla\cdot\mathbf{B} & =\mathbf{0} &
+\nabla\times\mathbf{B} &=\mu_{0}\varepsilon_{0}\frac{ \partial \mathbf{E} }{ \partial t } 
+\end{align}$$
+This is particularly interesting since it shows that, in a way, the electric and magnetic fields are one and the same. In fact, [[Faraday's law]] shows that the space derivative of an electric field is the time derivative of a magnetic field, and [[Ampere's law]] (the corrected form) shows that the space derivative of a magnetic field is the time derivative of an electric field. The only differences are the signs and the constants $\mu_{0}\varepsilon_{0}$ (which only appear in SI units).
 ### In matter
 It is possible to rewrite Maxwell's equation in a more convenient manner when dealing with [[Dielectric polarization|polarized]] and [[Magnetization|magnetized]] matter. We already know that polarization produces a bound charge density $\rho_{b}$ and magnetization a bound current density $\mathbf{J}_{b}$. The only thing we're missing is to consider what happens when polarization and magnetization change in time. A changing magnetization, at most, changes $\mathbf{J}_{b}$, so it doesn't add any new pieces, but a changing polarization moves the $\rho_{b}$, which is to say it *produces a current*. This is emphatically *not* part of $\mathbf{J}_{b}$: it is a completely new piece of the puzzle. See, when polarization occurs, a certain amount of charges are moved such that they are plastered over a surface[^1] on one end ($\sigma_{b}$) and some on the other ($-\sigma_{b}$). When the polarization $\mathbf{P}$ changes, these charges increase or decrease depending on the intensity of polarization, giving a net current
 $$dI=\frac{ \partial \sigma_{b} }{ \partial t } da_{\perp}=\frac{ \partial P }{ \partial t } da_{\perp}$$

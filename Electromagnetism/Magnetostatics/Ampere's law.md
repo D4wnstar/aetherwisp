@@ -73,7 +73,7 @@ The problem arises in electrodynamics: this never occurred in magnetostatics bec
 
 To find the missing link, apply the current continuity equation and Gauss' law to the problematic side of Ampere's law
 $$\nabla\cdot\mathbf{J}=- \frac{ \partial \rho }{ \partial t } =-\frac{ \partial  }{ \partial t } (\varepsilon_{0}\nabla\cdot\mathbf{E})=-\nabla \cdot\left( \varepsilon_{0}\frac{ \partial \mathbf{E} }{ \partial t }  \right)$$
-So, if we add the term in brackets to Ampere's law, it would exactly cancel out the divergence of the right hand side and fix the law. Thus, we get the **Ampere-Maxwell law**:
+where we brought the time derivative inside the [[divergence]] because the $\mathbf{E}$ function is "well-behaved", i.e. continuous and [[Differenziabilità|differentiable]]. So, if we add the term in brackets to Ampere's law, it would exactly cancel out the divergence of the right hand side and fix the law. Thus, we get the **Ampere-Maxwell law**:
 $$\boxed{\nabla\times\mathbf{B}=\mu_{0}\mathbf{J}+\mu_{0}\varepsilon_{0}\frac{ \partial \mathbf{E} }{ \partial t }}$$
 The new terms vanishes in magnetostatics, where $\mathbf{E}$ is constant in time, but it cannot be ignored in electrodynamics, where it has the fundamental consequence:
 
