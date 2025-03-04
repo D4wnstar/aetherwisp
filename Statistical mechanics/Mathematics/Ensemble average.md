@@ -11,7 +11,7 @@ $$\ket{\psi} =\sum_{n}c_{n}\ket{n} \quad\to \quad p(n)=\lvert c_{n} \rvert ^{2}$
 ### Time independence
 Note how $\langle O \rangle$ is in general time dependent, as it depends on $\rho(\mathbf{q},\mathbf{p},t)$. When $\langle O \rangle$ does not depend on time, the system is in [[thermal equilibrium]]. Knowing when $\langle O \rangle$ isn't time dependent can be useful. For instance, if $\rho$ is itself time independent ($\rho(\mathbf{q},\mathbf{p})$ instead of $\rho(\mathbf{q},\mathbf{p},t)$), then it follows that $\langle O \rangle$ is itself independent. But then the question is, when does $\rho$ not depend on time? One such case is when
 $$\rho(\mathbf{q},\mathbf{p})=\rho'(H(\mathbf{q},\mathbf{p}))$$
-where $H$ is the [[Hamiltoniana|Hamiltonian]] of the system. In this case the prime means [[Differenziabilità|differentiation]]. In fact, if this is true then
+where $H$ is the [[Hamiltoniana|Hamiltonian]] of the system. In this case the prime means [[Differential|differentiation]]. In fact, if this is true then
 $$\frac{ d \rho }{ d t } =-\sum_{i=1}^{3N} \left( \frac{ \partial \rho' }{ \partial H } \frac{ \partial H }{ \partial q_{i} } \frac{ \partial H }{ \partial p_{i} } -\frac{ \partial \rho' }{ \partial H } \frac{ \partial H }{ \partial p_{i} } \frac{ \partial H }{ \partial q_{i} }  \right)=0$$
 This verifies [[Liouville's theorem]].
 

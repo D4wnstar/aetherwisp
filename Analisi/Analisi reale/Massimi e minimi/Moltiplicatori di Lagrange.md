@@ -2,7 +2,7 @@
 tags:
   - massimi-minimi
 ---
-Siano $F:A\subseteq \mathbb{R}^{N}\rightarrow\mathbb{R}^{M}$ con $1\leq M\leq N$ e $f:A\subseteq\mathbb{R}^{N}\rightarrow\mathbb{R}^{M}$. Definiamo **insieme vincolato** l'insieme $C=\{P\in A\;|\;F(P)=0\}\subseteq A$, ossia l'insieme di tutti i punti che annullano la funzione $F$. Prendiamo un punto $P_{0}\in C$. Supponiamo che $F$ sia di classe $C^1$ su $A$ con [[Jacobian|Jacobiana]] $J_{F}(P_{0})$ di rango massimo e che $f$ sia [[Differenziabilità|differenziabile]] in $P_{0}$.
+Siano $F:A\subseteq \mathbb{R}^{N}\rightarrow\mathbb{R}^{M}$ con $1\leq M\leq N$ e $f:A\subseteq\mathbb{R}^{N}\rightarrow\mathbb{R}^{M}$. Definiamo **insieme vincolato** l'insieme $C=\{P\in A\;|\;F(P)=0\}\subseteq A$, ossia l'insieme di tutti i punti che annullano la funzione $F$. Prendiamo un punto $P_{0}\in C$. Supponiamo che $F$ sia di classe $C^1$ su $A$ con [[Jacobian|Jacobiana]] $J_{F}(P_{0})$ di rango massimo e che $f$ sia [[Differential|differenziabile]] in $P_{0}$.
 
 Se $P_{0}$ è punto di estremo locale per $f$ relativo al vincolo $C$, allora esistono $\lambda_{1},\cdots,\lambda_{M}$ coefficienti reali detti **moltiplicatori di Lagrange** tali che
 $$\nabla f(P_{0})=\lambda_{1}\nabla F_{1}(P_{0})+\cdots+\lambda_{M}F_{M}(P_{0})$$

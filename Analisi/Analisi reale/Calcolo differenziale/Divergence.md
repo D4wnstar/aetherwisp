@@ -1,4 +1,4 @@
-The **divergence** $\nabla\cdot\mathbf{F}$ of a [[Differenziabilità|differentiable]] vector function $\mathbf{F}$ is a [[scalar field]] that represents the volume density of the outgoing [[flux]] of $\mathbf{F}$ from an infinitesimal volume around a given point. In simpler terms, it represents how $\mathbf{F}$ "emanates" from a point. Positive divergence means the function emanates outwards from a source, negative divergence means the function compresses inwards towards a sink.
+The **divergence** $\nabla\cdot\mathbf{F}$ of a [[Differential|differentiable]] vector function $\mathbf{F}$ is a [[scalar field]] that represents the volume density of the outgoing [[flux]] of $\mathbf{F}$ from an infinitesimal volume around a given point. In simpler terms, it represents how $\mathbf{F}$ "emanates" from a point. Positive divergence means the function emanates outwards from a source, negative divergence means the function compresses inwards towards a sink.
 
 It is linked to the flux by the [[Teorema della divergenza|divergence theorem]].
 

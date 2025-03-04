@@ -1,6 +1,6 @@
 L'**ortonormalizzazione di Gram-Schmidt** è un algoritmo per trovare un sistema ortonormale di vettori a partire da un sistema di vettori [[lineare indipendenza|linearmente indipendenti]].
 
-Questo metodo è applicabile in qualunque [[spazio vettoriale]], anche in quelli di dimensione infinita come gli [[Spazio di Hilbert|spazi di Hilbert]].
+Questo metodo è applicabile in qualunque [[Vector space]], anche in quelli di dimensione infinita come gli [[Spazio di Hilbert|spazi di Hilbert]].
 ### Procedimento
 Sia $\{v_{1},v_{2},\ldots,v_{n},\ldots\}$ un sistema possibilmente infinito di vettori linearmente indipendenti. Allora prendiamo il primo vettore $v_{1}$ e poniamo
 $$e_{1}=\frac{v_{1}}{||v_{1}||}$$

@@ -1,4 +1,4 @@
-Il **laplaciano** $\nabla^{2}$ è un [[Operatore]] differenziale definito come la [[divergence|divergenza]] del [[gradient|gradiente]] di una funzione a valori scalari in uno spazio euclideo. La forma canonica è definita in coordinate cartesiane ed è, presa una funzione $f$ che manda da $\mathbb{R}^{3}$ in $\mathbb{R}$ due volte [[Differenziabilità|differenziabile]],
+Il **laplaciano** $\nabla^{2}$ è un [[Operatore]] differenziale definito come la [[divergence|divergenza]] del [[gradient|gradiente]] di una funzione a valori scalari in uno spazio euclideo. La forma canonica è definita in coordinate cartesiane ed è, presa una funzione $f$ che manda da $\mathbb{R}^{3}$ in $\mathbb{R}$ due volte [[Differential|differenziabile]],
 $$\nabla^{2}f=\nabla\cdot\nabla f=\left(\frac{\partial ^{2}}{\partial x^{2}} + \frac{\partial ^{2}}{\partial y^{2}} + \frac{\partial ^{2}}{\partial z^{2}}\right)f$$
 che è la somma di tutte le derivate seconde non miste della funzione $f$. Per uno spazio a dimensione finita arbitraria $N$ si ha
 $$\nabla^{2}f=\sum\limits_{i=1}^{N}\frac{\partial ^{2}f}{\partial x_{i}^{2}}$$

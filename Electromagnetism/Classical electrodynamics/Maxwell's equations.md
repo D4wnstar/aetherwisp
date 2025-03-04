@@ -2,7 +2,7 @@
 $$\boxed{\begin{align}
 \nabla\cdot\mathbf{E} & =\frac{\rho}{\varepsilon_{0}} &
 \nabla\times\mathbf{E} & = -\frac{ \partial \mathbf{B} }{ \partial t } \\
-\nabla\cdot\mathbf{B} & =\mathbf{0} &
+\nabla\cdot\mathbf{B} & =0 &
 \nabla\times\mathbf{B} &= \mu_{0}\mathbf{J}+\mu_{0}\varepsilon_{0}\frac{ \partial \mathbf{E} }{ \partial t } 
 \end{align}}$$
 and together with the boundary conditions $\mathbf{E}\to 0$ and $\mathbf{B}\to  0$ approaching infinity, they uniquely determine the two fields. $\rho$ is a volume [[electric charge]] density and $\mathbf{J}$ is a volume [[electric current]] density. $\varepsilon_{0}$ and $\mu_{0}$ are the [[Costante dielettrica del vuoto|permittivity]] and [[permeability of free space]] respectively.
@@ -13,7 +13,7 @@ The laws above are correct in the vacuum. However, in the special case of a "tru
 $$\begin{align}
 \nabla\cdot\mathbf{E} & =0 &
 \nabla\times\mathbf{E} & = -\frac{ \partial \mathbf{B} }{ \partial t } \\
-\nabla\cdot\mathbf{B} & =\mathbf{0} &
+\nabla\cdot\mathbf{B} & =0 &
 \nabla\times\mathbf{B} &=\mu_{0}\varepsilon_{0}\frac{ \partial \mathbf{E} }{ \partial t } 
 \end{align}$$
 This is particularly interesting since it shows that, in a way, the electric and magnetic fields are one and the same. In fact, [[Faraday's law]] shows that the space derivative of an electric field is the time derivative of a magnetic field, and [[Ampere's law]] (the corrected form) shows that the space derivative of a magnetic field is the time derivative of an electric field. The only differences are the signs and the constants $\mu_{0}\varepsilon_{0}$ (which only appear in SI units).

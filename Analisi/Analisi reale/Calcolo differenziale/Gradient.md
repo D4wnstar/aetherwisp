@@ -1,4 +1,4 @@
-The **gradient** $\nabla f$ of a [[Differenziabilità|differentiable]] scalar function $f$ is the [[Campo vettoriale|vector field]] whose values describe the direction and magnitude of fastest increase at any given point in $f$'s domain. In a generic coordinate system with [[base|basis]] vectors $(x_{1},x_{2},\ldots,x_{n})$, the gradient can be written as the column vector whose components are the partial derivatives in that component:
+The **gradient** $\nabla f$ of a [[Differential|differentiable]] scalar function $f$ is the [[Campo vettoriale|vector field]] whose values describe the direction and magnitude of fastest increase at any given point in $f$'s domain. In a generic coordinate system with [[basis]] vectors $(x_{1},x_{2},\ldots,x_{n})$, the gradient can be written as the column vector whose components are the partial derivatives in that component:
 $$\nabla f=\begin{pmatrix}
 \frac{ \partial f }{ \partial x_{1} } \\
 \frac{ \partial f }{ \partial x_{2} } \\

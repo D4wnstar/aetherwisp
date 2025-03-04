@@ -4,7 +4,7 @@ aliases:
 ---
 **Laplace's method** is a technique used to approximate integrals of the form
 $$\int_{a}^{b}e^{Mf(x)}\ dx$$
-where $M$ is a large constant and $f(x)$ is a twice-[[Differenziabilità|differentiable]] function with a unique global maximum. $a$ and $b$ may be infinite.
+where $M$ is a large constant and $f(x)$ is a twice-[[Differential|differentiable]] function with a unique global maximum. $a$ and $b$ may be infinite.
 
 Laplace's method can be generalized to work on [[Integrale su una curva|path integrals]] over the complex plane. This generalization is known as the **saddle point method**.
 ### Theory

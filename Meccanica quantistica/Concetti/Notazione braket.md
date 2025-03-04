@@ -6,7 +6,7 @@ aliases:
 ---
 La **notazione braket** è una notazione utilizzata per rappresentare vettori e [[Operatore|operatori]] in algebra lineare, specificamente per la meccanica quantistica, in spazi vettoriali complessi.
 ### Dimensione finita
-Prendo un vettore $v$ in uno [[spazio vettoriale]] $\mathbb{C}^{N}$. Allora chiamo **bra** il vettore *riga* dei coniugati $\langle v|$ e **ket** il vettore *colonna* $|v\rangle$
+Prendo un vettore $v$ in uno [[Vector space]] $\mathbb{C}^{N}$. Allora chiamo **bra** il vettore *riga* dei coniugati $\langle v|$ e **ket** il vettore *colonna* $|v\rangle$
 $$v_{\text{riga}}\equiv\langle v|=(v_{1}^{*},v_{2}^{*},\ldots,v_{N}^{*})\quad;\quad v_{\text{colonna}}\equiv|v\rangle=\pmatrix{v_{1} \\ v_{2} \\ \vdots \\ v_{N}}$$
 Si usa la seguente notazione per rappresentare il [[prodotto scalare]] hermitiano
 $$(v_{1},v_{2})\equiv\langle v_{1}|v_{2}\rangle=(v_{11}^\ast,v_{12}^\ast,\ldots,v_{1N}^\ast)\left(\matrix{v_{12}\\v_{22}\\\vdots\\v_{N2}}\right)=\sum\limits_{i=1}^{N}v_{1i}^{\ast}v_{i2}$$

@@ -1,4 +1,4 @@
-Preso uno [[prodotto scalare]] $(v,w)$ in uno [[spazio vettoriale]] $V$, si chiama **disuguaglianza di Cauchy-Schwarz** la seguente espressione
+Preso uno [[prodotto scalare]] $(v,w)$ in uno [[Vector space]] $V$, si chiama **disuguaglianza di Cauchy-Schwarz** la seguente espressione
 $$|(v,w)|\leq||v||\;||w||$$
 con $||\cdot||$ la [[norma]] derivata dal prodotto scalare, valida per qualunque $v,w\in V$. La disuguaglianza è satura se un vettore è multiplo dell'altro, ossia $w=\gamma v$ con $\gamma \in \mathbb{R}$. In altre parole, devono essere paralleli, $v\parallel w$.
 

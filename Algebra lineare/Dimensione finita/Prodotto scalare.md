@@ -2,7 +2,7 @@
 aliases:
   - prodotto hermitiano
 ---
-Si denota $(v,w)$, $v\cdot w$ o $\langle v|w \rangle$ (in [[notazione braket]]) il **prodotto scalare** tra due variabili $v$ e $w$ appartenenti ad uno [[spazio vettoriale]]. Se le variabili $v$ e $w$ sono complesse, si dice anche **prodotto hermitiano**.
+Si denota $(v,w)$, $v\cdot w$ o $\langle v|w \rangle$ (in [[notazione braket]]) il **prodotto scalare** tra due variabili $v$ e $w$ appartenenti ad uno [[Vector space]]. Se le variabili $v$ e $w$ sono complesse, si dice anche **prodotto hermitiano**.
 
 In spazi vettoriali a dimensione finita, come $\mathbb{R}^{N}$ o $\mathbb{C}^{N}$, il prodotto scalare è definito come una somma di prodotti delle componenti dei vettori. Siano $v,w$ due vettori dello spazio, allora il prodotto scalare tra i due è
 $$\langle v|w\rangle=\sum\limits_{i=0}^{N}v_{i}w_{i}$$
@@ -20,15 +20,18 @@ Ha le seguenti proprietà:
 3. è distributivo, ossia $\langle v|w+u\rangle=\langle v|w\rangle+\langle v|z\rangle$
 4. $\langle v|v\rangle\geq0\;\forall\;|v\rangle\in\mathbb{C}^{n}$
 5. $\langle v|v\rangle=0\Leftrightarrow|v\rangle=0$
-6. $\langle w|v\rangle\leq||w||\;||v||$ (detta **disuguaglianza di Cauchy-Schwarz**)
+6. $\langle w|v\rangle\leq||w||\;||v||$ (detta [[disuguaglianza di Cauchy-Schwarz]])
 7. $\langle v|w\rangle=\overline{\langle w|v\rangle}$
-8. è continuo, ossia presa una successione $\{x_{n}\}$ convergente a $x\in H$ con $H$ uno [[Spazio di Hilbert]], vale che per ogni $y\in H$ si ha $\lim\limits_{n \rightarrow \infty}(y,x_{n})=(y,x)$
-
-La continuità vale anche in spazi a dimensione infinita, ossia
-$$\int_{I}\overline{\phi(x)}\psi_{n}(x)dx \rightarrow \int_{I}\overline{\phi(x)}\psi(x)dx$$
-Se l'intervallo $I$ è misurabile si può prendere $\phi(x)=1$ e si ha
-$$\int_{I}\psi_{n}(x)dx\rightarrow\int_{I}\psi(x)dx$$
-
+8. è continuo, ossia presa una successione $\{x_{n}\}$ convergente a $x\in \mathcal{H}$ con $\mathcal{H}$ uno [[Spazio di Hilbert]], vale che per ogni $y\in \mathcal{H}$ si ha $\lim\limits_{n \rightarrow \infty}(y,x_{n})=(y,x)$
+### In basis expression
+Consider the vectors $\mathbf{v}_{1}$ and $\mathbf{v}_{2}$ in some vector space $V$ equipped with a [[basis]] $\{ \mathbf{e}_{1},\ldots,\mathbf{e}_{n} \}$. They can be expressed as a [[linear combination]] of basis vectors as $\mathbf{v}_{1}=\sum_{i=1}^{n}\alpha_{i}\mathbf{e}_{i}$ and $\mathbf{v}_{2}=\sum_{j=1}^{n}\beta_{j}\mathbf{e}_{j}$, using suitable values $\alpha_{i}$ and $\beta_{i}$. The scalar product between these two is
+$$\begin{align}
+\mathbf{v}_{1}\cdot \mathbf{v}_{2}&=\left( \sum_{i=1}^{n} \alpha_{i}\mathbf{e}_{i} \right)\cdot\left( \sum_{j=1}^{n} \beta_{j}\mathbf{e}_{j} \right)=\sum_{i=1}^{n} \alpha_{i}\mathbf{e}_{i}\cdot\left( \sum_{j=1}^{n} \beta_{j}\mathbf{e}_{j} \right)= \\
+&=\sum_{i=1}^{n} \alpha_{i}\sum_{j=1}^{n} \beta_{j}(\mathbf{e}_{i}\cdot \mathbf{e}_{j})=\sum_{i=1}^{n}\sum_{j=1}^{n} \alpha_{i}\beta_{j}\delta_{ij}= \\
+&=\sum_{i=1}^{n} \alpha_{i}\underbrace{ (\beta_{1}\delta_{i1}+\ldots+\beta_{n}\delta_{in}) }_{ \beta_{i}\delta_{ii} }=\sum_{i=1}^{n} \alpha_{i}\beta_{i}
+\end{align}$$
+using the [[Delta di Kronecker]].
+### Su matrici
 Il prodotto scalare può anche essere applicato su matrici. Prendiamo $\hat{A},\hat{B}\in M_{2}(\mathbb{C})$ matrici $2\times2$. Considero la *traccia* della matrice $Tr(\hat{A})=\sum\limits_{i=1}^{n}A_{ii}$. E' importante notare che la traccia è *unica* e non cambia *in base alla rappresentazione* della matrice (ossia la base rispetto al quale è espressa):
 $$Tr\hat{A}=\sum\limits_{i=1}^{n}\langle\psi_{i}|\hat{A}\psi_{i}\rangle\;\forall\;\mbox{base o.n.}\{|\psi_{i}\rangle\}_{i=1}^{n}\in\mathbb{C}^{n}$$
 La matrice $\hat{U}=[\langle \psi_{k}|\phi_{i}\rangle]$ è unitaria, ossia $\hat{U}\hat{U}^{\dagger}=\hat{\mathbb{1}}=\hat{U}^{\dagger}\hat{U}$.

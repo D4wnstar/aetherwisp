@@ -3,7 +3,7 @@ aliases:
   - autoproiettore
   - relazione di completezza
 ---
-Si chiama **proiettore** $\hat{P}_{\psi}$ l'[[operatore lineare]] che, applicato ad un elemento di uno [[spazio vettoriale]], risulta nella componente di quell'elemento che giace sulla direzione $\psi$ di una [[base]] [[Ortonormalità|ortonormale]]. Usando la [[notazione braket]], si scrive
+Si chiama **proiettore** $\hat{P}_{\psi}$ l'[[operatore lineare]] che, applicato ad un elemento di uno [[Vector space]], risulta nella componente di quell'elemento che giace sulla direzione $\psi$ di una [[base]] [[Ortonormalità|ortonormale]]. Usando la [[notazione braket]], si scrive
 $$\hat{P}_\psi=|\psi\rangle\langle\psi|$$
 e applicato ad un vettore $|\phi\rangle$ si scrive
 $$\hat{P}_{\psi}|\phi\rangle=\langle\psi|\phi\rangle|\psi\rangle$$

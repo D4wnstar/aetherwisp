@@ -1,4 +1,4 @@
-Si dice **spazio di Schwartz**, indicato con $\mathcal{S}$, lo [[spazio vettoriale]] costituito dalle funzioni $\varphi$ infinitamente derivabili e a *decrescenza rapida* in tutte le derivate, ovvero tali che, per ogni $h,k\in\mathbb{N}$ si ha
+Si dice **spazio di Schwartz**, indicato con $\mathcal{S}$, lo [[Vector space]] costituito dalle funzioni $\varphi$ infinitamente derivabili e a *decrescenza rapida* in tutte le derivate, ovvero tali che, per ogni $h,k\in\mathbb{N}$ si ha
 $$\sup\limits_{x\in\mathbb{R}}\left|x^{h} \frac{d^{k}\varphi}{dx^{k}}\right|<+\infty$$
 In altre parole, la funzione e tutte le sue derivate decrescono *più velocemente* di qualunque potenza. Le funzioni $\varphi$ si dicono **funzioni test** o **funzioni di Schwartz**.
 

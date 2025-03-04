@@ -15,7 +15,7 @@ dove $\lambda$ è l'**autovalore** e $x$ è l'**autovettore**. Nel caso di spazi
 $$\hat{T}\ket{\psi} =t\ket{\psi} $$
 con $\hat{T}$ l'operatore, $t$ l'autovalore e $\ket{\psi}$ l'autostato/autoket.
 
-A ciascun autovalore è associato uno [[spazio vettoriale]] detto **autospazio**, generato da una [[base]] costituita dal suo autovettore. È possibile che più autovettori condividano lo stesso autovalore: in questi casi si dice che sono **[[Degenerazione|degeneri]]** e l'autospazio associato a quell'autovalore ha dimensione pari al suo grado di degenerazione.  La sua base diventa costituita da tutti gli autovettori degeneri.
+A ciascun autovalore è associato uno [[Vector space]] detto **autospazio**, generato da una [[base]] costituita dal suo autovettore. È possibile che più autovettori condividano lo stesso autovalore: in questi casi si dice che sono **[[Degenerazione|degeneri]]** e l'autospazio associato a quell'autovalore ha dimensione pari al suo grado di degenerazione.  La sua base diventa costituita da tutti gli autovettori degeneri.
 ### Soluzione
 Un'equazione agli autovalori può essere risolta risolvendo il cosiddetto **polinomio caratteristico** definito come
 $$P[\lambda]=\det(\mathbf{1}\lambda-T)\equiv \det(T-\mathbf{1}\lambda)$$

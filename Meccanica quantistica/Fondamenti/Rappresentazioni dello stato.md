@@ -3,7 +3,7 @@ aliases:
   - rappresentazione della posizione
   - rappresentazione del momento
 ---
-In meccanica quantistica, lo [[stato]] di un [[Physical system|sistema]] è un concetto che può essere descritto in diverse forme, in base all'[[osservabile]] che si vuole considerare. Questa è una conseguenza del fatto che un vettore può essere rappresentato in forme diverse, tutte equivalenti, a dipendenza della [[base]] che si sceglie nello [[spazio vettoriale]] di definizione.
+In meccanica quantistica, lo [[stato]] di un [[Physical system|sistema]] è un concetto che può essere descritto in diverse forme, in base all'[[osservabile]] che si vuole considerare. Questa è una conseguenza del fatto che un vettore può essere rappresentato in forme diverse, tutte equivalenti, a dipendenza della [[base]] che si sceglie nello [[Vector space]] di definizione.
 
 Dato che i sistemi quantistici sono descritti dalla meccanica hamiltoniana, le due rappresentazioni più comuni dello stato sono quelle della posizione e del momento (lineare).
 ### Rappresentazione della posizione
