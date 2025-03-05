@@ -2,7 +2,7 @@
 aliases:
   - differentiable
 ---
-Given a function $f:A\subset \mathbb{R}^{N}\to \mathbb{R}^{M}$ where $A$ is an open subset, and a point $x_{0}\in A$, the function is said to be **differentiable** in $x_{0}$ if there exist a linear map $Df(x_{0}):\mathbb{R}^{N}\to \mathbb{R}^{M}$, called the **differential**, such that
+Given a function $f:A\subset \mathbb{R}^{N}\to \mathbb{R}^{M}$ where $A$ is an open subset, and a point $x_{0}\in A$, the function is said to be **differentiable** in $x_{0}$ if there exist a linear map[^1] $Df(x_{0}):\mathbb{R}^{N}\to \mathbb{R}^{M}$, called the **differential**, such that
 $$\lim\limits_{h \to 0} \frac{f(x_{0}+h) - f(x_{0})-Df(h)}{\lVert h \rVert } = 0\in\mathbb{R}^M$$
 where $h\in V$. The differential is
 $$Df(x_{0})[v]\equiv \lim_{ h \to 0 } \frac{f(x_{0}-hv)-f(x_{0})}{\lVert h \rVert },\qquad v\in \mathbb{R}^{N}$$
@@ -22,3 +22,5 @@ using the [[Delta di Kronecker]].
 Consider an invertible function $\varphi:\mathbb{R}^{N}\to \mathbb{R}^{N}$. These are particularly useful for coordinates changes. The differential $D\varphi(x_{0})$ of such a function is a square $N\times N$ matrix. The [[Jacobian]] in some basis $\{ e_{k} \}$ is a square matrix given by the elements
 $$J_{ki}=e_{k}\cdot D\varphi[e_{k}]=e_{k}\cdot \frac{ \partial \varphi }{ \partial x_{i} }=\frac{ \partial \varphi_{k} }{ \partial x_{i} }$$
 where $\varphi_{k}$ is the $k$-th component of $\varphi$.
+
+[^1]: Here linear map does *not* mean linear function. It is a general operation which obeys the general linear property $f(\alpha v+\beta w)=\alpha f(v)+\beta f(w)$.
