@@ -4,7 +4,7 @@ aliases:
   - funzione di Legendre associata
   - polinomi di Legendre associati
 ---
-I **polinomi di Legendre** sono le soluzioni all'[[equazione differenziale di Legendre]]. Sono anche chiamati **funzioni di Legendre del primo tipo**, dato che più correttamente i polinomi di Legendre sono un caso specifico. Le funzioni di Legendre sono definite in funzione di un indice continuo $n$ e sono funzioni complesse.
+I **polinomi di Legendre** sono le soluzioni all'[[Equazione differenziale di Legendre]]. Sono anche chiamati **funzioni di Legendre del primo tipo**, dato che più correttamente i polinomi di Legendre sono un caso specifico. Le funzioni di Legendre sono definite in funzione di un indice continuo $n$ e sono funzioni complesse.
 
 Possono essere definite usando l'[[integrale su una curva]]
 $$P_{n}(z)=\frac{1}{2\pi i}\oint_{\gamma}(1-2tz+t^{2})^{-1/2}t^{-n-1}dt$$

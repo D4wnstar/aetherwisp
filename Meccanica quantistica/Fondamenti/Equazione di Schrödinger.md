@@ -124,7 +124,7 @@ $$\int|\psi|^{2}d\tau=\int|\psi|^{2}r^{2}\sin\theta drd\theta d\phi=\int|R|^{2}r
 Normalizziamo parte radiale e angolare separatamente, cioè
 $$\int_{0}^{\infty}|R|^{2}r^{2}dr=1, \quad \int_{0}^{2\pi}\int_{0}^{\pi}|Y|^{2}\sin\theta d\theta d\phi=1$$
 
-La parte angolare normalizzata non è altro che la $l$-$m$-esima [[armoniche sferiche|armonica sferica]] e vale
+La parte angolare normalizzata non è altro che la $l$-$m$-esima [[Armoniche sferiche|armonica sferica]] e vale
 $$Y_{l}^{m}(\theta,\phi)=\epsilon\sqrt{\frac{2l+1}{4\pi} \frac{(l-|m|)!}{(l+|m|)!}}e^{im\phi}P_{l}^{m}(\cos\theta)$$
 dove $\epsilon$ è $(-1)^{m}$ per $m\geq0$ e $1$ per $m\leq0$. Nel contesto della meccanica quantistica, $l$ è detto *numero quantico di momento angolare* e $m$ *numero quantico magnetico*.
 

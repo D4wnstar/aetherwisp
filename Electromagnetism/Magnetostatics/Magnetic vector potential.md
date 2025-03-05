@@ -45,7 +45,7 @@ $$\mathbf{B}_\text{dip}(\mathbf{r})=\nabla\times\mathbf{A}=\frac{\mu_{0}m}{4\pi 
 in [[Cartesian coordinates]]. It can be rewritten in coordinate-free form as
 $$\boxed{\mathbf{B}_\text{dip}(\mathbf{r})=\frac{\mu_{0}}{4\pi} \frac{1}{r^{3}}[3(\mathbf{m}\cdot \hat{\mathbf{r}})\hat{\mathbf{r}}-\mathbf{m}]}$$
 ### Energy of a system
-Making a current run through a wire is not free. It requires pushing (i.e. doing work) against the [[Self inductance|back emf]] induced by the changing current. This work is, unlike the heat expelled by the [[Joule effect]] *recoverable*. When the current is removed from the wire, the back emf will do the same amount of work it did originally, just in the opposite direction. In the meantime, you can think of it as being "stored" within the wire.
+Making a current run through a wire is not free. It requires pushing (i.e. doing work) against the [[Self inductance|back emf]] induced by the changing current. This work is, unlike the [[heat]] expelled by the [[Joule effect]], *recoverable*. When the current is removed from the wire, the back emf will do the same amount of work it did originally, just in the opposite direction. In the meantime, you can think of it as being "stored" within the wire.
 
 The work done per unit charge against the back emf of value $\mathcal{E}$ is simply $-\mathcal{E}$. We also know the current $I$, which is the amount of charge passing through the wire per unit time. The work done per unit time then is
 $$\frac{dW}{dt}=-\mathcal{E}I=LI \frac{dI}{dt}$$

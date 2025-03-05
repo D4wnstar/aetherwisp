@@ -28,7 +28,7 @@ $$\boxed{\psi_{n00}(r)=R(r)Y_{0}^{0}(\theta,\phi)=\frac{1}{\sqrt{2\pi a}} \frac{
 ### Caso generale
 La soluzione generica per un $l$ intero qualsiasi è molto più complicata:
 $$u(r)=Arj_{l}(kr)+Brn_{l}(kr)$$
-dove $j_{l}(x)$ è la [[funzioni di Bessel sferiche|funzione di Bessel sferica del primo tipo]] e $n_{l}(x)$ è quella del secondo tipo. $n_{l}$ va all'infinito all'origine, quindi deve essere $B=0$. Allora, sostituendo per $R$, si ha
+dove $j_{l}(x)$ è la [[Funzioni di Bessel sferiche|funzione di Bessel sferica del primo tipo]] e $n_{l}(x)$ è quella del secondo tipo. $n_{l}$ va all'infinito all'origine, quindi deve essere $B=0$. Allora, sostituendo per $R$, si ha
 $$R(r)=Aj_{l}(kr)$$
 
 La condizione al contorno $R(a)=0$ obbliga ad avere una $k$ tale che
@@ -38,7 +38,7 @@ $$k=\frac{1}{a}\beta_{nl}$$
 con $\beta_{nl}$ l'$n$-esimo zero della funzione sferica di $l$-esimo ordine. Dunque, le energie permesse sono date da
 $$\boxed{E_{nl}=\frac{\hbar^{2}}{2ma^{2}}\beta^{2}_{nl}}$$
 
-Combinando la parte radiale con le [[armoniche sferiche]] si ottiene la funzione d'onda
+Combinando la parte radiale con le [[Armoniche sferiche]] si ottiene la funzione d'onda
 $$\boxed{\psi_{nlm}(r,\theta,\phi)=A_{nl}\,j_{l}\left(\frac{\beta_{nl}}{a}r\right)Y_{l}^{m}(\theta,\phi)}$$
 con $A_{nl}$ la costante di normalizzazione. Ciascuno livello energetico è $(2l+1)$ volte degenere, dato che ci sono $(2l+1)$ valori di $m$ per ogni $l$.
 

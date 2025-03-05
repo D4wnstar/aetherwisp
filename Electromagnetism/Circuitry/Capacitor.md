@@ -131,7 +131,7 @@ using its capacitance $C$ and the total charge on its surfaces $q$. The current 
 $$I=\frac{dq}{dt}$$
 and if we put those together we get
 $$\mathcal{E}-R \frac{dq}{dt}- \frac{q}{C}=0$$
-which is a first order [[equazione differenziale ordinaria|ordinary differential equation]]. It can be easily solved by integration
+which is a first order [[Ordinary differential equation|ordinary differential equation]]. It can be easily solved by integration
 $$\frac{1}{C\mathcal{E}-q}dq=\frac{1}{RC}dt$$
 which, when integrated, gives us
 $$\ln\left( \frac{C\mathcal{E}-q}{C\mathcal{E}} \right)=- \frac{t}{RC}\quad\Rightarrow \quad C\mathcal{E}-q=C\mathcal{E}e^{ -t/RC }$$

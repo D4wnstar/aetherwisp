@@ -104,7 +104,7 @@ Per $L_{z}$ si trova
 $$L_{z}f_{lm}=\frac{\hbar}{i}\frac{\partial }{\partial \phi}f_{lm}=\hbar m f_{lm}$$
 ma ancora, questa è l'equazione azimutale in $\Phi$ della parte angolare cui sopra.
 
-In altre parole, queste equazioni sono già state risolte nel caso generale dell'equazione di Schrödinger tempo-indipendente in coordinate sferiche. Ciò significa che le autofunzioni di $\hat{L}^{2}$ e $\hat{L}_{z}$ sono le [[armoniche sferiche]]. Infatti, risolvendo quel caso generale non si è fatto altro che creare autofunzioni simultanee per gli operatori $\hat{H}$, $\hat{L}^{2}$ e $\hat{L}_{z}$, con equazioni
+In altre parole, queste equazioni sono già state risolte nel caso generale dell'equazione di Schrödinger tempo-indipendente in coordinate sferiche. Ciò significa che le autofunzioni di $\hat{L}^{2}$ e $\hat{L}_{z}$ sono le [[Armoniche sferiche]]. Infatti, risolvendo quel caso generale non si è fatto altro che creare autofunzioni simultanee per gli operatori $\hat{H}$, $\hat{L}^{2}$ e $\hat{L}_{z}$, con equazioni
 $$\hat{H}\psi=E\psi , \quad \hat{L}^{2}\psi=\hbar^{2}l(l+1)\psi, \quad \hat{L}_{z}\psi=\hbar m\psi$$
 
 È anche possibile usare $\hat{L}^{2}$ per esprimere l'equazione di Schrödinger in coordinate sferiche in un modo più conciso:

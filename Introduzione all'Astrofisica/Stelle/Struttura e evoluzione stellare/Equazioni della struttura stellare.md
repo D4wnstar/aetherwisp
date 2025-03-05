@@ -90,7 +90,7 @@ Dato che i fotoni vengono emessi e riassorbiti di continuo, un singolo fotone[^5
 
 Studiando il moto medio dei fotoni (per una derivazione formale vedi [[Trasporto radiativo stellare]]), si trova una relazione che descrive l'andamento della temperatura di una stella in funzione della distanza dal centro, detta **equazione di trasporto radiativo**:
 $$\frac{dT(r)}{dr}=- \frac{3}{4\sigma c} \frac{\kappa\rho(r)L(r)}{4\pi r^{2}T^{3}(r)}$$
-dove $\kappa=1/\rho l$ è l'opacità del gas, con $l$ il cammino libero medio dei fotoni, e $\sigma$ è la [[Stefan-Boltzmann constant]]. Si tratta di un'[[equazione differenziale ordinaria]] di primo ordine che, fortunatamente, non introduce nessuna nuova variabile. Il sistema, quindi, è chiuso e risolvibile.
+dove $\kappa=1/\rho l$ è l'opacità del gas, con $l$ il cammino libero medio dei fotoni, e $\sigma$ è la [[Stefan-Boltzmann constant]]. Si tratta di un'[[Ordinary differential equation]] di primo ordine che, fortunatamente, non introduce nessuna nuova variabile. Il sistema, quindi, è chiuso e risolvibile.
 ## Conseguenze
 ### Temperatura nel nucleo solare
 Dall'equazione di equilibrio idrostatico possiamo ottenere una stima della pressione interna del Sole. Sapendo che la densità centrale è approssimativamente 110 volte superiore a quella media, possiamo usare l'equazione dei gas perfetti per stimare la temperatura:

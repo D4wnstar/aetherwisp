@@ -14,7 +14,7 @@ Consideriamo anzitutto il caso in cui avviene solo un tipo di decadimento.
 
 Il numero $dN$ di nuclei che decade in un certo tempo $dt$ è proporzionale al numero di atomi $N$ nell'oggetto. Dato che il tasso di decadimento $dN/dt$ deve essere costante e $N$ è anch'esso costante, il loro rapporto
 $$\lambda=- \frac{1}{N}\frac{dN}{dt}$$
-è a sua volta una costante, detta **costante di decadimento**. Questo risultato è sostenuto da evidenza sperimentale. Questa è un'[[equazione differenziale ordinaria]] di primo ordine, quindi possiamo risolverla per quadratura. Integrando si ha
+è a sua volta una costante, detta **costante di decadimento**. Questo risultato è sostenuto da evidenza sperimentale. Questa è un'[[Ordinary differential equation]] di primo ordine, quindi possiamo risolverla per quadratura. Integrando si ha
 $$\boxed{N(t)=N_{0}e^{-\lambda t}}$$
 che è la **legge esponenziale del decadimento radioattivo**, con $N_{0}$ il numero di nuclei a $t=0$, ossia il numero di nuclei che compongono l'oggetto all'inizio delle osservazioni.
 

@@ -22,7 +22,7 @@ $$\begin{align}
 \end{align}$$
 allora tornando indietro abbiamo
 $$\ldots=i\omega \hat{U}_{t}^{+}\underbrace{ [\hat{a}^{+}\hat{a},\hat{a}] }_{ -\hat{a} }\hat{U}_{t}=-i\omega \hat{a}_{t}$$
-Questo ci lascia con un'[[equazione differenziale ordinaria]]:
+Questo ci lascia con un'[[Ordinary differential equation]]:
 $$\frac{d}{dt}\hat{a}_{t}=-i\omega \hat{a}_{t}$$
 con condizione al contorno $\hat{a}_{t=0}=\hat{a}$. Questa è immediatamente risolvibile come
 $$\boxed{\hat{a}_{t}=e^{-i\omega t}\hat{a}}$$

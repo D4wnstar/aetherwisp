@@ -100,6 +100,24 @@ $$B_\text{above}^{\parallel}-B_\text{below}^{\parallel}=\mu_{0}K$$
 This component is parallel to the surface, by perpendicular to the current. A similar loop running parallel to the current instead gives us that the component parallel to the current is instead continuous. Thus, what we have above is the only discontinuity in the field, which we can put into vector form as
 $$\mathbf{B}_\text{above}-\mathbf{B}_\text{below}=\mu_{0}(\mathbf{K}\times \hat{\mathbf{n}})$$
 with $\hat{\mathbf{n}}$ being the normal vector to the surface.
+#### Transmission angle
+The presence of a discontinuity implies that the field incident on a surface changes direction as it passes through the surface (i.e. it is transmitted).
+
+![[Schema Magnetic field transmission|90%]]
+
+When a magnetic field passes through the surface, the component perpendicular to the surface is conserved. We can use this to connect the incidence angle $\alpha_{\text{ext}}$ and the transmission angle $\alpha_{\text{int}}$. We can express the perpendicular components in terms of the sines of these two angles:
+$$B_\text{ext}\sin \alpha _\text{ext}=B_\text{int}\sin \alpha _\text{int}$$
+Since we're working in materials, we can employ the [[auxiliary field]] $\mathbf{H}$, which instead conserves the parallel component to the surface, which means the cosines:
+$$H_\text{ext}\cos \alpha _\text{ext}=H_\text{int}\cos \alpha _\text{int}$$
+We can divide the first equation by the second:
+$$\frac{B_\text{ext}}{H_\text{ext}}\tan \alpha _\text{ext}=\frac{B_\text{int}}{H_\text{int}}\tan \alpha _\text{int}$$
+This is a general relation that applies for most [[Paramagnet|paramagnets]] and [[Diamagnet|diamagnets]][^3]. If we specifically say that we are working with linear and isotropic materials, we can claim that $\mathbf{H}=\mathbf{B}/\mu_{0}\mu_{r}$, using the [[permeability]] of the materials. If we make the substitution we find
+$$\boxed{\mu_{r,\text{ext}}\tan \alpha _\text{ext}=\mu_{r,\text{int}}\tan \alpha _\text{int}}$$
+In general, the bigger the difference between permeabilities, the larger the difference in angle will be. If the internal permeability is higher than the external one, the field will tend to align flush to the surface. This is a key aspect of a [[magnetic circuit]], where very high permeability ($\mu\gg 1000$) materials are used to the keep the internal field aligned and prevent it from being dispersed into the external environment.
+
+Given the relative permeabilities of the materials and one of the two angles, we can find the other. We can also measure the angles themselves to figure out the permeability of one the materials, if we know the other.
 
 [^1]: In fact, for a general function $f(x-x')$, the partial derivatives go like$$\frac{ \partial  }{ \partial x } f(x-x')=-\frac{ \partial  }{ \partial x' } f(x-x')$$
 [^2]: If the current extends to infinity, such as for a straight wire, more care needs to be taken, though it's still common for it to go to zero anyway.
+
+[^3]: This equation assumes that the fields $\mathbf{B}$ and $\mathbf{H}$ do not reverse direction when passing through the surface. In these cases, more care should be taken to keep the signs consistent.

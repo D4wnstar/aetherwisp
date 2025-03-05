@@ -17,7 +17,7 @@ Come per il momento angolare orbitale, si trova che valgono le equazioni
 $$S^{2}|sm_{s}\rangle=\hbar^{2}s(s+1)|sm_{s}\rangle, \quad S_{z}|sm_{s}\rangle=\hbar m_{s} |sm_{s}\rangle\tag{1}$$
 dove si usano i [[Notazione braket|ket]] per ricordare che gli autostati dello spin *non sono funzioni* e quindi non dovrebbero essere rappresentati come tali[^2]. Gli [[operatori di creazione e distruzione]] usati nella dimostrazione sono
 $$S_{\pm}|sm\rangle=\hbar\sqrt{s(s+1)-m(m\pm1)}|s(m\pm1)\rangle$$
-con $S_{\pm}=S_{x}\pm iS_{y}$. In questo caso le autofunzioni non sono le [[armoniche sferiche]] (di fatto, non c'è neanche una dipendenza da $\theta$ e $\phi$) e non c'è alcuna ragione per escludere valori di mezzo intero per $s$ e $m_{s}$, che possono quindi avere valori
+con $S_{\pm}=S_{x}\pm iS_{y}$. In questo caso le autofunzioni non sono le [[Armoniche sferiche]] (di fatto, non c'è neanche una dipendenza da $\theta$ e $\phi$) e non c'è alcuna ragione per escludere valori di mezzo intero per $s$ e $m_{s}$, che possono quindi avere valori
 $$s=0,\frac{1}{2},1,\frac{3}{2},\ldots; \quad m_{s}=-s,-s+1,\ldots,0,\ldots,s-1,s$$
 $s$ è detto il **[[numero quantico]] di spin** e si trova che ogni singola particella elementare ha un valore costante e immutabile di $s$, che si dice essere lo spin della particella. Questo è diverso dal momento orbitale, che invece dipende dallo [[stato]] in cui si trova la particella.
 
@@ -145,5 +145,5 @@ $$\psi(x_{1},x_{2},\ldots,x_{i},\ldots,x_{j},\ldots,x_{N})=-\psi(x_{1},x_{2},\ld
 dove c'è un segno meno rispetto a quella dei bosoni.
 
 [^1]: Per esempio, lo spin della Terra può essere pensato come la somma di tutti i momenti orbitali di ciascun pezzetto di roccia, metallo, terra, albero, ecc. che compone il pianeta.
-[^2]: Se lo fosse, $|sm_{s}\rangle$ rappresenterebbe una funzione determinata dai numeri $s$ e $m_{s}$. Per esempio, le [[armoniche sferiche]] $Y_{l}^{m}$ potrebbero essere scritte come $|lm\rangle$.
+[^2]: Se lo fosse, $|sm_{s}\rangle$ rappresenterebbe una funzione determinata dai numeri $s$ e $m_{s}$. Per esempio, le [[Armoniche sferiche]] $Y_{l}^{m}$ potrebbero essere scritte come $|lm\rangle$.
 [^3]: Per essere più precisi, il rapporto giromagnetico può essere espresso in funzione del [[magnetone di Bohr]] $\mu_{B}=e\hbar/2mc$, scalato per un fattore detto *fattore g* pari a $g=2.0023$. Così facendo, il momento di dipolo magnetico è $\gamma=-g\mu_{B}$. Se si approssima $g\simeq2$ e si esprime $\mu_{B}$ in [[unità naturali]] si ottiene $\gamma=-e/m$.

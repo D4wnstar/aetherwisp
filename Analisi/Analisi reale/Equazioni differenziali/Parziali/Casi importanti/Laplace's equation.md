@@ -4,7 +4,7 @@ where $\nabla^{2}$ is the [[laplaciano|Laplacian]]. A solution to this equation 
 
 It is useful to solve the Laplace equation in coordinate systems other than Cartesian, for example, in [[Spherical coordinates]]. In many coordinates, it is possible to solve the equation using the method of [[separation of variables]].
 ### One-dimensional case
-In one dimension, using [[Cartesian coordinates]], the equation simplifies to a [[equazione differenziale ordinaria|ordinary differential equation]]:
+In one dimension, using [[Cartesian coordinates]], the equation simplifies to a [[Ordinary differential equation|ordinary differential equation]]:
 $$\frac{ d^{2} \psi }{ d x^{2} } =0$$
 and the general solution is simply
 $$\psi(x)=mx+b$$

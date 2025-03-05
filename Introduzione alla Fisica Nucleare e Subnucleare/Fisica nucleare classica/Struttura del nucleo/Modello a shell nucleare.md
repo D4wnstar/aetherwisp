@@ -15,7 +15,7 @@ Le predizioni compiute da questo modello sono corrette solo se nella shell più 
 ### Potenziale gaussiano
 Per nuclei piccoli ($A\leq7$), la distribuzione dei nucleoni nel nucleo è circa gaussiana, quindi possiamo approssimare il potenziale con distribuzione spaziale gaussiana. In altre parole, abbiamo un [[oscillatore armonico quantistico]] tridimensionale, che ha potenziale
 $$V(r)=\frac{1}{2}kr^{2}$$
-che dipende solo dalla coordinata radiale. La parte angolare dipende dagli angoli $\theta$ e $\phi$ e ha soluzione costante con le [[armoniche sferiche]] $Y_{l,m_{l}}(\theta,\phi)$ con $l=0,1,2,\ldots=s,p,d,f,\ldots$ [[numero quantico]] di momento angolare orbitale e $m_{l}=0,\pm1,\pm2,\ldots,\pm l$ numero quantico magnetico. Gli [[Equazione agli autovalori|autovalori]] di energia sono
+che dipende solo dalla coordinata radiale. La parte angolare dipende dagli angoli $\theta$ e $\phi$ e ha soluzione costante con le [[Armoniche sferiche]] $Y_{l,m_{l}}(\theta,\phi)$ con $l=0,1,2,\ldots=s,p,d,f,\ldots$ [[numero quantico]] di momento angolare orbitale e $m_{l}=0,\pm1,\pm2,\ldots,\pm l$ numero quantico magnetico. Gli [[Equazione agli autovalori|autovalori]] di energia sono
 $$E_{N}=\hbar \omega_{0}\left(N + \frac{3}{2}\right)$$
 con $N=0,1,2,\ldots$ il numero di livelli energetici (*non è* il numero quantico principale!). Vale $l\leq N$. Introducendo $n$ il numero di nodi, possiamo scrivere i livelli come
 $$N=2(n-1)+l$$

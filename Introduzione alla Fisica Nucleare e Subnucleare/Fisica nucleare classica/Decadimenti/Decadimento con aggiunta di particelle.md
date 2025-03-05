@@ -6,7 +6,7 @@ Considerato un flusso di particelle incidenti $I$ (particelle/s$\times$cm$^{2}$)
 $$R=N_{0}\sigma I$$
 Consideriamo ora gli $N_{1}$ nuclei radioattivi formati, che decadono con [[Legge di decadimento radioattivo|costante di decadimento]] $\lambda_{1}$ in $N_{2}$ nuclei stabili. Gli $N_{1}$, oltre a diminuire per il loro decadimento, aumentano a causa delle interazioni con il fascio di particelle incidente. La loro variazione è
 $$dN_{1}=Rdt-\lambda_{1}N_{1}dt$$
-che è un'[[equazione differenziale ordinaria]], risolta da
+che è un'[[Ordinary differential equation]], risolta da
 $$N_{1}(t)=\frac{R}{\lambda_{1}}(1-e^{-\lambda_{1}t})$$
 che l'[[attività]] associata è
 $$A_{1}(t)=\lambda_{1}N_{1}(t)=R(1-e^{-\lambda_{1}t})$$
