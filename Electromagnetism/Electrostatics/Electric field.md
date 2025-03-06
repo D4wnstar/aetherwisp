@@ -5,6 +5,14 @@ $$\mathbf{F}=Q\mathbf{E}$$
 If the charges are allowed to move, as in materials, the electric field of the [[Physical system|system]] can become quite complicated. This is because electric fields change the distribution of charges around them by moving them around, and this change tends to render systems that are normally neutral no longer neutral, which in turn makes them produce an electric field of their own. The original field is called the **source** or **stimulus field** and the one generated as consequence is called the **response field**. It is also possible in some particular structures (like semiconductors) for there to be a permanent electric field due to the conformation of the material (kind of like how permanent magnets have a permanent [[magnetic field]]). These are generally known as **built-in fields** and also play a role[^1]. In the most general case, using the superposition principle, an electric field is a linear combination of all three of these:
 $$\mathbf{E}_\text{total}=\mathbf{E}_\text{source}+\mathbf{E}_\text{response}+\mathbf{E}_\text{built-in}$$
 If dealing with response fields, it is typically easiest to work with [[electric displacement]]. If dealing specifically with [[Dielectric|dielectrics]], this amounts to using [[dielectric polarization]].
+### Field lines
+The typical textbook electric field is perfectly radial, being emitted from a point charge and emanating in all directions evenly (outwards for a positive charge, inwards for a negative one).
+
+![[Diagram Electric field lines|80%]]
+
+For a charge in motion, things differ a bit. Namely, the field lines are enhanced in the direction perpendicular to motion and dampened in the direction of motion.
+
+![[Diagram Moving charge electric field lines]]
 ### Point charges
 Given a system of source point charges $q_{1}$, $q_{2}$, ..., the electric field is the quantity
 $$\mathbf{E}(\mathbf{r})=\frac{1}{4\pi\varepsilon_{0}}\sum\limits_{i=1}^{n} \frac{q_{i}}{\mathfrak{r}_{i}^{2}}\hat{\mathfrak{r}}_{i}\quad \left[\frac{\text{N}}{\text{C}}\right]$$

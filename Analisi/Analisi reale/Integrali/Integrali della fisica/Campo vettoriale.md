@@ -3,7 +3,7 @@ tags:
   - integrali
   - integrali-fisica
 ---
-Definiamo **campo vettoriale** una funzione continua $F : A ⊂ \mathbb{R}^3 → \mathbb{R}^3$. Un campo vettoriale si dice di classe $C^k$ se è una funzione di classe $C^k$.
+Definiamo **campo vettoriale** una funzione continua $F : A ⊂ \mathbb{R}^N → \mathbb{R}^N$, tipicamente con $N=3$. Un campo vettoriale si dice di classe $C^k$ se è una funzione di classe $C^k$.
 
 Il rotore di un campo vettoriale di classe $C^1$ è definito come
 $$\nabla\times F = \left(\frac{\partial F_3}{\partial y} - \frac{\partial F_2}{\partial z}, \frac{\partial F_1}{\partial z} - \frac{\partial F_1}{\partial x}, \frac{\partial F_2}{\partial x} - \frac{\partial F_1}{\partial y}\right)$$

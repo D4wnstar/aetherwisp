@@ -1,3 +1,7 @@
+---
+aliases:
+  - Ampere-Maxwell law
+---
 **Ampere's law** relates the circulation of a [[magnetic field]] $\mathbf{B}$ around a closed loop to the [[electric current]] passing through the loop. In differential form it reads
 $$\nabla\times\mathbf{B}=\mu_{0}\mathbf{J}$$
 where $\mu_{0}$ is the [[permeability of free space]] and $\mathbf{J}$ is the volume current density. It can be converted to integral form by application of the [[Teorema del rotore|curl theorem]]:
