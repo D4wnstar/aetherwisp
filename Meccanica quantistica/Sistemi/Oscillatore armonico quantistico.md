@@ -1,6 +1,6 @@
 L'**oscillatore armonico quantistico** è l'analogo quantistico dell'[[Harmonic oscillator]] classico, ossia un sistema quantistico con un [[punto di equilibrio]] soggetto ad una forza di ritorno $F$ una volta perturbato.
 ### Soluzione
-Il caso dell'oscillatore armonico consiste nel risolvere l'[[equazione di Schrödinger]] per una [[particella]] immersa nel [[potenziale]]
+Il caso dell'oscillatore armonico consiste nel risolvere l'[[equazione di Schrödinger]] per una [[particella]] immersa nel [[Potenziale]]
 $$V(x)=\frac{1}{2}m\omega^{2}x^{2}$$
 Partiamo dunque dall'equazione indipendente dal tempo, che prende la forma
 $$- \frac{\hbar^{2}}{2m} \frac{d^{2}\psi}{dx^{2}}+ \frac{1}{2}m\omega^{2}x^{2}\psi=E\psi\tag{1}$$
@@ -50,7 +50,7 @@ $$\hbar\omega\left(a_{\pm}a_{\mp}\pm \frac{1}{2}\right)\psi_{0}=E_{0}\psi_{0} \q
 $$\psi_{n}(x)=A_{n}(a_{+})^{n}\psi_{0}(x)\quad\text{con}\quad E_{n}=\left(n+ \frac{1}{2}\right)\hbar\omega$$
 con $A_{n}$ la costante di normalizzazione dell'$n$-esimo stato.
 
-In realtà è anche possibile derivare le costanti $A_{n}$ algebricamente, usando gli operatori scaletta. Consideriamo il fatto che i due operatori scaletta sono l'[[Operatore aggiunto|aggiunto]] l'un dell'altro, quindi $(\psi,a_{\pm}\varphi,a_{\mp}\psi,\varphi)$, usando il [[Prodotto scalare|prodotto hermitiano]] $\langle \cdot|\cdot\rangle$. Sappiamo che $a_{\pm}\psi_{n}$ è proporzionale a $\psi_{n+1}$ tramite le relazioni
+In realtà è anche possibile derivare le costanti $A_{n}$ algebricamente, usando gli operatori scaletta. Consideriamo il fatto che i due operatori scaletta sono l'[[Operatore aggiunto|aggiunto]] l'un dell'altro, quindi $(\psi,a_{\pm}\varphi,a_{\mp}\psi,\varphi)$, usando il [[Scalar product|prodotto hermitiano]] $\langle \cdot|\cdot\rangle$. Sappiamo che $a_{\pm}\psi_{n}$ è proporzionale a $\psi_{n+1}$ tramite le relazioni
 $$a_{+}\psi_{n}=c_{n}\psi_{n+1}, \quad a_{-}\psi_{n}=d_{n}\psi_{n-1}\tag{4}$$
 Vogliamo conoscere le costanti $c_{n}$ e $d_{n}$. Vale
 $$\langle a_{\pm}\psi_{n}|a_{\pm}\psi_{n}\rangle=\langle a_{\mp}a_{\pm}\psi_{n}|\psi_{n}\rangle$$
@@ -107,7 +107,7 @@ L'operatore numero agisce su un autostato $\ket{\lambda}$ di autovalore $\lambda
 $$\hat{a}^{+}\hat{a}\ket{\lambda} =\lambda \ket{\lambda} $$
 quindi l'Hamiltoniana su un autostato è
 $$\hat{H}\ket{\lambda} =\hbar \omega \hat{a}^{+}\hat{a}\ket{\lambda} + \frac{\hbar \omega}{2}\ket{\lambda} =\hbar \omega \left( \lambda+ \frac{1}{2} \right)\ket{\lambda}  $$
-La cosa comoda è che ora per trovare gli autostati di $\hat{H}$, ossia il suo [[spettro]], basta trovare lo spettro dell'operatore numero. Ora bisogna capire cosa sono $\lambda$ e $\ket{\lambda}$. Intanto, vediamo un po' di algebra di commutatori. Naturalmente vale
+La cosa comoda è che ora per trovare gli autostati di $\hat{H}$, ossia il suo [[Spettro]], basta trovare lo spettro dell'operatore numero. Ora bisogna capire cosa sono $\lambda$ e $\ket{\lambda}$. Intanto, vediamo un po' di algebra di commutatori. Naturalmente vale
 $$[\hat{a},\hat{a}^{n}]=0,\qquad [\hat{a}^{+},(\hat{a}^{+})^{n}]=0$$
 Ma è interessante
 $$[\hat{a},(\hat{a}^{+})^{n}]=[\hat{a},\hat{a}^{+}(\hat{a}^+)^{n-1}]=\ldots$$
@@ -136,7 +136,7 @@ $$\hat{a}^{+}\hat{a}\hat{a}\ket{n} =(n-1)\hat{a}\ket{n} $$
 Vogliamo vedere se $\hat{a}\ket{n}\propto \ket{n-1}$. Se questo è vero, allora posso applicare $\hat{a}$ a catena fino a che non raggiungo $\ket{0}$, pesato per qualche costante. (TODO: Rivedi lezione 07/11/2024 circa 15-20 minuti seconda parte).
 
 $$\hat{a}^{+}\hat{a}\hat{a}^{+}\ket{n}=\hat{a}^{+}\hat{a}^{+}\hat{a}\ket{n}+[\hat{a}^{+}\hat{a},\hat{a}]\ket{n} =n \hat{a}^{+}\ket{n} +\hat{a}^{+}\ket{n} =(n+1)\hat{a}^{+}\ket{n} $$
-Abbiamo/vogliamo che $\hat{a}^{+}\ket{n}\propto \ket{n+1}$. Quindi con consecutive applicazione di $\hat{a}^{+}$ su $\ket{0}$ possiamo alzare l'autostato a qualunque $\ket{n}$. Controlliamo dunque la [[norma]] di questo valore
+Abbiamo/vogliamo che $\hat{a}^{+}\ket{n}\propto \ket{n+1}$. Quindi con consecutive applicazione di $\hat{a}^{+}$ su $\ket{0}$ possiamo alzare l'autostato a qualunque $\ket{n}$. Controlliamo dunque la [[Norma]] di questo valore
 $$\lvert \ket{(\hat{a}^{+})^{n}0}  \rvert ^{2}=\braket{ (\hat{a}^{+})^{n}0 | (\hat{a}^{+})^{n}0 } =\braket{ 0 | \hat{a}^{n}(\hat{a}^{+})^{n}0 }=\ldots$$
 Per districare questa equazione vogliamo sfruttare il fatto che $\ket{0}$ è annichilito da $\hat{a}$, quindi idealmente vogliamo trovare un modo per spostare almeno un $\hat{a}$ da sinistra dei $(\hat{a}^{+})^{n}$ a destra, in modo che possa essere applicato a $\ket{0}$ e che quindi cancelli tutto. Allora
 $$\ldots=\braket{ 0 | \hat{a}^{n-1}\hat{a}(\hat{a}^{+})^{n}0 }=\cancel{ \braket{ 0 | \hat{a}^{n-1}(\hat{a}^{+})^{n}\hat{a} |0 } } +\braket{ 0 | \hat{a}^{n-1}[\hat{a},(\hat{a}^{+})^{n}]|0 } = n\braket{ 0 | \hat{a}^{n-1}(\hat{a}^{+})^{n-1}|0 } =\ldots$$
@@ -146,13 +146,13 @@ Quindi da questo possiamo concludere che l'$n$-esima azione di $\hat{a}^{+}$ su 
 $$(\hat{a}^{+})^{n}\ket{0} =\sqrt{ n! }\ket{n}$$
 Possiamo invertire questa forma per trovare una formula per gli autostati dell'oscillatore armonico in funzione di $\ket{0}$:
 $$\boxed{\ket{n} =\frac{(\hat{a}^{+})^{n}\ket{0}}{\sqrt{ n! }}}\tag{1}$$
-per ogni $n\in \mathbb{N}$. Dobbiamo però dimostrare che siano tutti [[Ortonormalità|ortonormali]]. Allora presi $n\neq m\in \mathbb{N}$ vogliamo l'ortogonalità
+per ogni $n\in \mathbb{N}$. Dobbiamo però dimostrare che siano tutti [[Orthonormality|ortonormali]]. Allora presi $n\neq m\in \mathbb{N}$ vogliamo l'ortogonalità
 $$\braket{ n | m } =\frac{\braket{ 0 | \hat{a}^{n}(\hat{a}^{+})^{m}|0 }}{\sqrt{ n!m! }} =0$$
 Questo è vero, infatti per iterazione abbiamo
 $$\braket{ 0 | \hat{a}^{n-1} \hat{a}(\hat{a}^{+})^{m}|0}=\braket{ 0 | \hat{a}^{n-1}[\hat{a},(\hat{a}^{+})^{m}]|0 } =m\braket{ 0 | \hat{a}^{n-1}(\hat{a}^{+})^{m-1}|0 }  $$
-Ora, supponiamo che $n>m$. Dato che $n$ e $m$ diminuiscono in unisono, quando $m$ arriva a zero, sarà rimasto almeno un $\hat{a}$ davanti al $\ket{0}$, quindi va tutto a zero. Se invece $n<m$ rimarrà almeno un $\hat{a}^{+}$, che possiamo spostare dall'altra parte del prodotto scalare per comunque trovare un $\hat{a}$ che agisce su $\ket{0}$, di nuovo annullando tutto. L'unico caso con risultato non nullo è quello in cui $n=m$, in qual caso rimane $\braket{ 0 | 0 }=1$. Ma questa non è altro che una [[delta di Kronecker]], quindi $\braket{ n | m }=\delta_{nm}$, che prova l'ortonormalità. Questo prova definitivamente che $\{ \ket{n} \}_{n\in \mathbb{N}}$ è la [[base]] ortonormale degli autostati dell'oscillatore armonico, ed è equivalente all'insieme dei modi di oscillazione normale del [[Harmonic oscillator|caso classico]].
+Ora, supponiamo che $n>m$. Dato che $n$ e $m$ diminuiscono in unisono, quando $m$ arriva a zero, sarà rimasto almeno un $\hat{a}$ davanti al $\ket{0}$, quindi va tutto a zero. Se invece $n<m$ rimarrà almeno un $\hat{a}^{+}$, che possiamo spostare dall'altra parte del prodotto scalare per comunque trovare un $\hat{a}$ che agisce su $\ket{0}$, di nuovo annullando tutto. L'unico caso con risultato non nullo è quello in cui $n=m$, in qual caso rimane $\braket{ 0 | 0 }=1$. Ma questa non è altro che una [[Kronecker delta]], quindi $\braket{ n | m }=\delta_{nm}$, che prova l'ortonormalità. Questo prova definitivamente che $\{ \ket{n} \}_{n\in \mathbb{N}}$ è la [[base]] ortonormale degli autostati dell'oscillatore armonico, ed è equivalente all'insieme dei modi di oscillazione normale del [[Harmonic oscillator|caso classico]].
 
-Ora che sappiamo la statica del sistema, vogliamo trovarne l'evoluzione temporale. Preso l'[[evolutore]] $\hat{U}_{t}=e^{-i \hat{H}t/\hbar}$. Avendo la base degli autostati, un generico stato $\ket{\psi_{t}}$ è rappresentato in [[serie di Fourier]] da
+Ora che sappiamo la statica del sistema, vogliamo trovarne l'evoluzione temporale. Preso l'[[evolutore]] $\hat{U}_{t}=e^{-i \hat{H}t/\hbar}$. Avendo la base degli autostati, un generico stato $\ket{\psi_{t}}$ è rappresentato in [[Serie di Fourier]] da
 $$\ket{\psi_{t}} =\hat{U}_{t}\ket{\psi} =\sum_{n=0}^{\infty} \braket{ n | \psi } \hat{U}_{t}\ket{n} =\sum_{n=0}^{\infty} \braket{ n | \psi } e^{-it\hbar \omega(n+ 1/2)/\hbar}\ket{n} $$
 Ci interessa la [[Rappresentazioni dello stato|rappresentazione della posizione]] $\psi_{n}(x)=\braket{ x | n }$. (TODO: Rivedi lezione 07/11/24 verso la fine). Lo stato fondamentale è
 $$\boxed{\psi_{0}(x)=\sqrt[4]{ \frac{m\omega}{\hbar \pi} }e^{-(m\omega/2\hbar)x^{2}}}$$
@@ -180,7 +180,7 @@ Quindi in conclusione abbiamo
 $$\boxed{\hat{a}\ket{n} =\sqrt{ n }\ket{n-1} ,\qquad \hat{a}^{+}\ket{n} =\sqrt{ n+1 }\ket{n+1}}$$
 Troviamo anche i valori medi negli autostati:
 $$\braket{ m | \hat{a} | n } =\sqrt{ n }\braket{ m | n-1 } =\sqrt{ n }\delta_{m,n-1},\qquad \braket{ m | \hat{a}^{+} | n } =\sqrt{ n+1 }\braket{ m | n+1 } =\sqrt{ n+1 }\delta_{m,n+1}$$
-con $\delta$ la [[delta di Kronecker]].
+con $\delta$ la [[Kronecker delta]].
 #### Evoluzione temporale
 Dato che conosciamo l'evoluzione temporale di $\hat{a}$ e $\hat{a}^{+}$ e che possiamo esprimere posizione e momento dell'oscillatore rispetto a questi due, possiamo anche trovare la loro evoluzione temporale. Infatti, dato che
 $$\hat{q}=\sqrt{\frac{\hbar}{2m\omega}}(\hat{a}^{+}+\hat{a}),\quad \hat{p}=i\sqrt{\frac{\hbar m\omega}{2}}(\hat{a}^{+}-\hat{a})$$
@@ -215,7 +215,7 @@ Sfruttiamo l'[[Lagrange-Euler equation|equazione di Lagrange-Eulero]]
 $$\frac{d}{dt}\frac{ \partial \mathcal{L} }{ \partial \mathbf{v} } =\frac{ \partial \mathcal{L} }{ \partial \mathbf{r} } $$
 con $\mathcal{L}$ la [[Lagrangiana]] della particella. Ricordiamo le [[Maxwell's equations|equazioni di Maxwell]]:
 $$\nabla\cdot\mathbf{B}=0,\qquad \nabla\times\mathbf{E}=- \frac{1}{c}\frac{ \partial \mathbf{B} }{ \partial t } $$
-Usando il [[Magnetic vector potential|potenziale vettore]] $\mathbf{A}$ abbiamo anche $\nabla\times\mathbf{B}=\mathbf{A}$. Il [[curl|rotore]] di $\mathbf{E}$ mediante il potenziale vettore è
+Usando il [[Magnetic vector potential|potenziale vettore]] $\mathbf{A}$ abbiamo anche $\nabla\times\mathbf{B}=\mathbf{A}$. Il [[Curl|rotore]] di $\mathbf{E}$ mediante il potenziale vettore è
 $$\nabla\times\mathbf{E}=- \frac{1}{c}\frac{ \partial  }{ \partial t } \nabla\times\mathbf{A}=-\nabla\times\mathbf{\left( \frac{1}{c}\frac{ \partial \mathbf{A} }{ \partial t } \right) }$$
 Dunque
 $$\nabla\times\mathbf{\left( \mathbf{E}+ \frac{1}{c}\frac{ \partial \mathbf{A} }{ \partial t }  \right)}=0\quad\Rightarrow \quad \mathbf{E}+ \frac{1}{c}\frac{ \partial \mathbf{A} }{ \partial t } =-\nabla \Phi$$

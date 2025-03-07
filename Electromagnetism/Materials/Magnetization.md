@@ -7,7 +7,7 @@ The [[magnetic vector potential]] of a [[Magnetic dipole]] of [[magnetic dipole 
 $$\mathbf{A}(\mathbf{r})=\frac{\mu_{0}}{4\pi} \frac{\mathbf{m}\times \hat{\boldsymbol{\mathfrak{r}}}}{\mathfrak{r}^{2}}$$
 In the magnetized object, each volume element $d\tau'$ carries a moment $\mathbf{m}=\mathbf{M}d\tau'$ so
 $$\mathbf{A}(\mathbf{r})=\frac{\mu_{0}}{4\pi}\int \frac{\mathbf{M}(\mathbf{r}')\times \hat{\boldsymbol{\mathfrak{r}}}}{\mathfrak{r}^{2}}\ d\tau'$$
-We could find the [[curl]] of this and get the field itself, but we can use
+We could find the [[Curl]] of this and get the field itself, but we can use
 $$\nabla'\left( \frac{1}{\mathfrak{r}} \right)=\frac{\hat{\boldsymbol{\mathfrak{r}}}}{\mathfrak{r}^{2}}$$
 to cast this integral in a more illuminating form. We get
 $$\mathbf{A}(\mathbf{r})=\frac{\mu_{0}}{4\pi}\int\left[ \mathbf{M}(\mathbf{r}')\times\nabla'\left( \frac{1}{\mathfrak{r}} \right) \right]\ d\tau'$$
@@ -36,7 +36,7 @@ The currents $\mathbf{J}_{b}$ and $\mathbf{K}_{b}$ are called the **bound curren
 ### Bound currents
 Analogously to dielectric polarization, bound currents arise as the collective excitation of many atoms and molecules, each of which acts as a magnetic dipole. Each, then, is a tiny loop of current perpendicular to the axis of magnetization, bordering all the other loops next to it. An edge of a loop will have current flowing in the opposite direction of the adjacent loop. In the case of uniform magnetization, the intensity of this dipole current is identical for all dipoles, so they cancel out. This occurs across the entire chunk of material, except at the edges. There, there is no adjacent dipole, so some of the current is not cancelled out. When you take every single edge dipole into consideration, this creates an effective ring or ribbon of current traversing the sides of the material, with the same intensity as that of a singular dipole.
 
-Say each of the loops has area $a$ and thickness $t$, under a magnetization $\mathbf{M}$. It's magnetic dipole moment is $m=Mat$. The circulating current is $m=Ia$, so together we get $I=Mt$, so the surface current is $K_{b}=\frac{Mt}{t}=M$. In vector form, this current revolves around the dipole moment vector, which is easily expressed by taking the normal vector $\mathbf{\hat{n}}$ from the area $a$ and using the [[Prodotto vettoriale|cross product]]:
+Say each of the loops has area $a$ and thickness $t$, under a magnetization $\mathbf{M}$. It's magnetic dipole moment is $m=Mat$. The circulating current is $m=Ia$, so together we get $I=Mt$, so the surface current is $K_{b}=\frac{Mt}{t}=M$. In vector form, this current revolves around the dipole moment vector, which is easily expressed by taking the normal vector $\mathbf{\hat{n}}$ from the area $a$ and using the [[Vector product|cross product]]:
 $$\mathbf{K}_{b}=\mathbf{M}\times \mathbf{\hat{n}}$$
 
 > [!info] Bound surface current origin
@@ -50,7 +50,7 @@ Similarly, a non-uniform magnetization on the $y$ axis would create add a curren
 $$J_{b,x}=\frac{ \partial M_{z} }{ \partial y } -\frac{ \partial M_{y} }{ \partial z } $$
 The same can be applied on each edge, which returns the familiar formula for the cross product components. Thus
 $$\mathbf{J}_{b}=\nabla\times\mathbf{M}$$
-Notably, this abides by charge conservation $\nabla \cdot\mathbf{J}_{b}=0$ as the [[divergence]] of curl is always zero.
+Notably, this abides by charge conservation $\nabla \cdot\mathbf{J}_{b}=0$ as the [[Divergence]] of curl is always zero.
 
 > [!info] Bound volume current origin
 > The bound volume current comes from the incomplete cancellation of the internal dipole currents, which leads to stray currents existing within the material too.

@@ -89,7 +89,7 @@ $$\begin{cases}
 |10 \rangle= \frac{1}{\sqrt{2}}(|\uparrow\downarrow\;\rangle + |\downarrow\uparrow\;\rangle) \\
 |1 -1\rangle=|\downarrow\downarrow\;\rangle
 \end{cases}$$
-Questa si chiama **combinazione a tripletto**. Nel mentre, lo stato [[Ortogonalità|ortogonale]] con $m=0$ ha $s=0$:
+Questa si chiama **combinazione a tripletto**. Nel mentre, lo stato [[Orthogonality|ortogonale]] con $m=0$ ha $s=0$:
 $$|00\rangle=\frac{1}{\sqrt{2}}(|\uparrow\downarrow\;\rangle - |\downarrow\uparrow\;\rangle)$$
 detto **singoletto**.
 

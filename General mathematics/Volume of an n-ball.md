@@ -1,4 +1,4 @@
-An [[n-ball]] is the $n$-dimensional analog of a [[palla|ball]]. In one dimension, it is a segment. In two, it is a disk. In three it is a proper ball. The volume of an $n$-ball can be calculated generically for any dimension $n$. One way to do so is to recognize that the volume must be proportional to the radius $R$ of the ball to the $n$-th power (for dimensional constraints):
+An [[n-ball]] is the $n$-dimensional analog of a [[Palla|ball]]. In one dimension, it is a segment. In two, it is a disk. In three it is a proper ball. The volume of an $n$-ball can be calculated generically for any dimension $n$. One way to do so is to recognize that the volume must be proportional to the radius $R$ of the ball to the $n$-th power (for dimensional constraints):
 $$V_{n}=c_{n}R^{n}$$
 where $c_{n}$ is some scaling constant. The [[Superficie|surface]] of such a ball will be
 $$S_{n}=\frac{ \partial V_{n} }{ \partial R } =nc_{n}R^{n-1}$$

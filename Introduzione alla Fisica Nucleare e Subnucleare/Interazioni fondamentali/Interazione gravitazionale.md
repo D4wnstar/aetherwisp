@@ -7,7 +7,7 @@ aliases:
   - energia gravitazionale
   - campo gravitazionale
 ---
-L'**interazione gravitazionale** è l'[[interazione fondamentale]] che governa l'attrazione tra corpi massivi. Nella descrizione classica newtoniana, considerati due oggetti con masse $m_{1}$ e $m_{2}$ a distanza $r$ fra loro, il [[potenziale]] gravitazionale che li lega è
+L'**interazione gravitazionale** è l'[[interazione fondamentale]] che governa l'attrazione tra corpi massivi. Nella descrizione classica newtoniana, considerati due oggetti con masse $m_{1}$ e $m_{2}$ a distanza $r$ fra loro, il [[Potenziale]] gravitazionale che li lega è
 $$V=G \frac{m_{1}m_{2}}{r}$$
 dove $G$ è la [[Costante gravitazionale]]. La forza gravitazionale dunque è
 $$F=-\frac{dV}{dr}=G \frac{m_{1}m_{2}}{r^{2}}$$

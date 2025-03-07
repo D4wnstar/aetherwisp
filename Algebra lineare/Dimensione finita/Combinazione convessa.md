@@ -1,2 +1,0 @@
-Una **combinazione convessa** è una [[combinazione lineare]] di punti (che possono essere scalari o vettori) dove tutti i coefficienti sono non negativi e la cui somma è 1. In generale hanno la forma
-$$\lambda_{1}x_{1}+\ldots+\lambda_{n}x_{n}\quad\text{con}\quad\lambda_{1},\ldots,\lambda_{n}\geq0 \quad\text{e}\quad\lambda_{1}+\ldots+\lambda_{n}=1$$

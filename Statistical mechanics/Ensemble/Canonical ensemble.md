@@ -1,6 +1,6 @@
 The **canonical ensemble** is an [[ensemble]] that is not [[Physical system|isolated]] from the environment, but is in [[thermal equilibrium]] with a larger [[Physical system|system]] that acts as a [[heat reservoir]] (i.e., the environment). The [[energy]] is subject to fluctuation, but the number of [[Particella|particles]] is constant. Its density function is
 $$\rho(\mathbf{q},\mathbf{p})=e^{-\beta H(\mathbf{q},\mathbf{p})}$$
-where $\beta=1/k_{B}T$, $H$ is the [[Hamiltonian]], $k_{B}$ is the [[Boltzmann constant]] and $T$ is the [[temperature]]. The [[Normalizzazione|normalization]] factor is the [[partition function]][^1]
+where $\beta=1/k_{B}T$, $H$ is the [[Hamiltonian]], $k_{B}$ is the [[Boltzmann constant]] and $T$ is the [[temperature]]. The [[Normalization|normalization]] factor is the [[partition function]][^1]
 $$Q_{N}(V,T)=\int \frac{e^{-\beta H(\mathbf{q},\mathbf{p})}}{h^{3N}N!} \ d^{3N}q\,d^{3N}p$$
 Here, $h$ is a constant to make the function dimensionless. It is usually assumed to be the [[Costante di Planck|Planck constant]] when working with quantum objects like [[Atomo|atoms]] and [[molecule|molecules]], but it should be emphasized that there is no a priori reason why it should be precisely that. Its value depends on the what is being considered as components of the system.
 
@@ -16,7 +16,7 @@ Now, we really only care about the state of system 1, regardless of what reservo
 $$\propto\Gamma_{2}(E_{2})d\mathbf{q}_{1}d\mathbf{p}_{1}=\Gamma_{2}(E_\text{total}-E_{1})d\mathbf{q}_{1}d\mathbf{p}_{1}$$
 since $E_{2}$ is the only state the reservoir is likely to be in at equilibrium. The density function of system 1 is going to be determined by its most likely state
 $$\rho_{1}(\mathbf{q}_{1},\mathbf{p}_{1})=\Gamma_{2}(E_\text{total}-E_{1})$$
-We want to find the number of [[Stato|microstates]] at energy $E_{1}$, and to do so we can start from the [[Entropy (information theory)|Boltzmann entropy]] formula $S(E_\text{total}-E_{1})=k_{B}\log \Gamma(E_\text{total}-E_{1})$. Remember that $E_{2}\gg E_{1}$, so we can approximate $S(E_\text{total}-E_{1})$ using a [[serie di Taylor|Taylor series]] in $E_\text{total}-E_{1}=E_{2}$ centered in $E_\text{total}$ and truncate at the first order without much error:
+We want to find the number of [[Stato|microstates]] at energy $E_{1}$, and to do so we can start from the [[Entropy (information theory)|Boltzmann entropy]] formula $S(E_\text{total}-E_{1})=k_{B}\log \Gamma(E_\text{total}-E_{1})$. Remember that $E_{2}\gg E_{1}$, so we can approximate $S(E_\text{total}-E_{1})$ using a [[Serie di Taylor|Taylor series]] in $E_\text{total}-E_{1}=E_{2}$ centered in $E_\text{total}$ and truncate at the first order without much error:
 $$\begin{align}
 k_{B}\log \Gamma_{2}(E_\text{total}-E_{1})&=S_{1}(E_\text{total}-E_{1}) \\
 &=S_{1}(E_\text{total})-E_{1}\left.\frac{ \partial S_{1} }{ \partial E_{2} } \right|_{E_{2}=E_\text{total}} +\ldots\\
@@ -81,7 +81,7 @@ $$Q_{N}(V,T)=\int e^{-\beta H(\mathbf{q},\mathbf{p})}dq\,dp=\int_{0}^{\infty} \o
 $$=\int_{0}^{\infty} e^{\beta(TS(E)-E)}dE=\ldots$$
 We can use [[Laplace's method]] here. Since $T\left( \frac{ \partial S }{ \partial E } \right)_{E}=1$.
 $$\left( \frac{ \partial ^{2}S }{ \partial E^{2} }  \right)_{E=E}=\left( \frac{ \partial  }{ \partial E } \frac{1}{T} \right)_{E=E}=- \frac{1}{T^{2}}\left.\frac{ \partial T }{ \partial E }\right|_{E=E}=- \frac{1}{T^{2}C_{V}} $$
-with $C_{V}>0$. But the fact that the specific heat must be positive (it would break conservation of energy if it weren't), implies that there is a maximum of entropy in $E$. Expanding in [[serie|series]]
+with $C_{V}>0$. But the fact that the specific heat must be positive (it would break conservation of energy if it weren't), implies that there is a maximum of entropy in $E$. Expanding in [[Serie|series]]
 $$TS(E)-E=[TS(E)-E]+ \frac{1}{2}(E-E)T\left( \frac{ \partial ^{2}S }{ \partial E^{2} }  \right)_{E=E}+\ldots=$$
 $$=TS(U)-U- \frac{1}{2TC_{V}}(E-U)^{2}$$
 So back to the integral we get

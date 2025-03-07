@@ -1,6 +1,6 @@
 
 
-Consideriamo un [[potenziale]] descritto da una [[theta di Heaviside]]:
+Consideriamo un [[Potenziale]] descritto da una [[theta di Heaviside]]:
 $$V(q)=\begin{cases}
 0\quad &q<0 \\
 V_{0}\quad &q\geq 0

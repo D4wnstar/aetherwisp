@@ -1,4 +1,4 @@
-**Mirtich's algorithm** is a mathematical method to calculate the mass and [[Moment of inertia|inertia tensor]] for a solid polyhedron of constant mass density. It uses the [[Teorema della divergenza|divergence theorem]] to reduce a volume integrals into a [[Superficie|surface]] integrals and then again [[Teorema del rotore|Green's theorem]] to reduce the surface integrals into [[curva|line]] integrals. Some important things to note are:
+**Mirtich's algorithm** is a mathematical method to calculate the mass and [[Moment of inertia|inertia tensor]] for a solid polyhedron of constant mass density. It uses the [[Teorema della divergenza|divergence theorem]] to reduce a volume integrals into a [[Superficie|surface]] integrals and then again [[Teorema del rotore|Green's theorem]] to reduce the surface integrals into [[Curva|line]] integrals. Some important things to note are:
 1. The polyhedron is composed of flat faces, which means that the surface integrals are just two-dimensional integrals on a plane. The same can be said for the line integrals at the edges of the faces.
 2. Consequently, the faces can and should be projected onto a plane in order to avoid numerical problems.
 3. The reduction to line integrals returns known integrals, which can be manually calculated for a considerable improvement in speed.
@@ -10,7 +10,7 @@ Calculation of the mass, [[Center of mass]] and [[Moment of inertia|inertia tens
 $$\int_{V}P(x,y,z)\ dV$$
 where $V$ is the volume of the polyhedron and $P$ is a polynomial among: 1, $x$, $y$, $z$, $x^{2}$, $y^{2}$, $z^{2}$, $xy$, $xz$ and $yz$. This integral may be converted to a [[Integrale su una superficie|surface integral]] by use of the divergence theorem:
 $$\int_{V}P(x,y,z)\ dV=\int_{V}\nabla\cdot\vec{F}\ dV=\int_{S}\vec{N}\cdot\vec{F}\ dS$$
-where $S$ the boundary [[superficie|surface]] of the polyhedron, a union of triangular surfaces and $\vec{F}:\mathbb{R}^{3} \rightarrow\mathbb{R}^{3}$ is chosen so that $\vec{N}\cdot\vec{F}=P$. $\vec{N}$ is outgoing normal vector from the surface. There is only one possible choice for $\vec{F}$ for any one polynomial. The full list is:
+where $S$ the boundary [[Superficie|surface]] of the polyhedron, a union of triangular surfaces and $\vec{F}:\mathbb{R}^{3} \rightarrow\mathbb{R}^{3}$ is chosen so that $\vec{N}\cdot\vec{F}=P$. $\vec{N}$ is outgoing normal vector from the surface. There is only one possible choice for $\vec{F}$ for any one polynomial. The full list is:
 
 | $P$   | $\vec{F}$      |
 | ----- | -------------- |

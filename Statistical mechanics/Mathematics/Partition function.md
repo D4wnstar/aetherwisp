@@ -3,7 +3,7 @@ aliases:
   - canonical partition function
   - grand canonical partition function
 ---
-The **partition function** of an [[ensemble]] is the [[Normalizzazione|normalization]] factor of the [[probability density function]] $\rho$ for the [[stato|states]]. It includes the statistical properties of a system in [[thermal equilibrium]] and most thermodynamic variables, like [[temperature]] and [[entropy]], can be derived from it directly or from its derivatives. It is the sum of the density function over all possible states:
+The **partition function** of an [[ensemble]] is the [[Normalization|normalization]] factor of the [[probability density function]] $\rho$ for the [[stato|states]]. It includes the statistical properties of a system in [[thermal equilibrium]] and most thermodynamic variables, like [[temperature]] and [[entropy]], can be derived from it directly or from its derivatives. It is the sum of the density function over all possible states:
 $$Z=\int\rho(\mathbf{q},\mathbf{p})\ d^{3N}q\ d^{3N}p,\qquad Z=\sum_{n}\hat{\rho}(\hat{q},\hat{p})=\text{Tr}(\hat{\rho})$$
 The first case is the classical one, where integration happens over all [[phase space]]. The second is the quantum case, which instead uses the [[Matrice di densità|density matrix]] and its [[Traccia|trace]].
 

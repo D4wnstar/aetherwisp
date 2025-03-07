@@ -1,4 +1,4 @@
-Si dice **energia del centro di massa** di un sistema relativistico la [[norma]] dell'impulso totale:
+Si dice **energia del centro di massa** di un sistema relativistico la [[Norma]] dell'impulso totale:
 $$||p_{tot}||=\sqrt{\left(\sum\limits_{k}E_{k}\right)^{2}-\left(\sum\limits_{k}\vec{p}\right)^{2}}=\sqrt{s}$$
 È la radice della [[massa invariante]] ed è un'[[invariante relativistica]].
 ### Esempi

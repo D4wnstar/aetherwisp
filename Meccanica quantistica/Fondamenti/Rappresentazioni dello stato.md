@@ -23,7 +23,7 @@ $$\begin{align}
 \end{align}$$
 dove $c_{i}$ sono i [[Serie di Fourier|coefficienti di Fourier]] rispetto alla base e autovalori di $\hat{T}$ e $\psi_{i}(x)$ sono le autofunzioni associate.
 ### Equivalenza
-La scelta della rappresentazione è una questione di convenienza. Tutte le rappresentazioni contengono la stessa quantità di informazioni e sono del tutto equivalenti l'un l'altra. È possibile convertire da le rappresentazioni senza perdita di generalità. Per passare da posizione a momento, per esempio, basta compiere una [[trasformata di Fourier]]:
+La scelta della rappresentazione è una questione di convenienza. Tutte le rappresentazioni contengono la stessa quantità di informazioni e sono del tutto equivalenti l'un l'altra. È possibile convertire da le rappresentazioni senza perdita di generalità. Per passare da posizione a momento, per esempio, basta compiere una [[Trasformata di Fourier]]:
 $$\phi(p)=\mathscr{F}[\psi(x)](p)= \int_{-\infty}^{\infty} \frac{e^{-ipx/\hbar}}{\sqrt{ 2\pi \hbar }}\psi (x) \ dx$$
 e da momento a posizione un'antitrasformata:
 $$\psi(x)=\mathscr{F}^{-1}[\phi(p)](x)=\int_{-\infty}^{+\infty}\frac{e^{ipx/\hbar}}{\sqrt{2\pi\hbar}} \phi(p)\ dp$$

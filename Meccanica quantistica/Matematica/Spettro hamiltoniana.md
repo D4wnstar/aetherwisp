@@ -1,5 +1,5 @@
 > [!info] Teorema
-> In una dimensione, lo [[spettro]] discreto di una [[Hamiltoniana]] (ossia un insieme di [[Equazione agli autovalori|autostati]] [[Normalizzazione|normalizzati]], o funzioni [[Spazi Lp|L^2]]) è non-[[Degenerazione|degenere]].
+> In una dimensione, lo [[Spettro]] discreto di una [[Hamiltoniana]] (ossia un insieme di [[Equazione agli autovalori|autostati]] [[Normalization|normalizzati]], o funzioni [[Spazi Lp|L^2]]) è non-[[Degenerazione|degenere]].
 #### Dimostrazione
 Considero una Hamiltoniana $\hat{H}$ e una [[funzione d'onda]] $\psi$. Per l'[[Equazione di Schrödinger]] vale
 $$(\hat{H}\psi)(x)=- \frac{\hbar^{2}}{2m}\psi''(x)+V(x)\psi(x)$$

@@ -6,7 +6,7 @@ $$\hat{D}(\alpha)=e^{\alpha \hat{a}^{+}-\alpha^{*}\hat{a}}$$
 > [!example] Dimostrazione
 > Partendo da
 > $$e^{\alpha \hat{a}^{+}-\alpha^{*}\hat{a}}\ket{0} =e^{-\lvert \alpha \rvert^{2}/2}e^{\alpha \hat{a}^{+}}e^{-\alpha^{+}\hat{a}}\ket{0} =\ldots$$
-> Possiamo scoprire l'azione dell'esponenziale espandendolo in [[serie esponenziale]]:
+> Possiamo scoprire l'azione dell'esponenziale espandendolo in [[Serie esponenziale]]:
 > $$e^{-\alpha^{*}\hat{a}}\ket{0} =\sum_{k=0}^{\infty} \frac{(-\alpha^{*})^{k}}{k!} \hat{a}^{k}\ket{0} =\ket{0} $$
 > Dato che $\hat{a}^{k}\ket{0}=0$, rimane solo il primo termine con $k=0$. Allora
 > $$\ldots=e^{-\lvert \alpha \rvert ^{2}/2}e^{\alpha \hat{a}^{+}}\ket{0} =\ldots$$

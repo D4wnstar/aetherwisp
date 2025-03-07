@@ -26,7 +26,7 @@ L'insieme di tutti gli operatori limitati in uno spazio di Hilbert $\mathcal{H}$
 ### Equivalenza
 Si dimostra che continuità e limitatezza sono proprietà equivalenti, ossia un operatore lineare continuo è anche limitato e viceversa.
 ### Forma matriciale
-Scegliamo per semplicità $H=H'$ e prendiamo un [[sistema ortonormale completo]] $\{e_{i}\}$ in $H$. I [[Prodotto scalare|prodotti scalari]] $(e_{i},Te_{j})=\langle e_{i}|T|e_{j}\rangle=T_{ij}$ sono gli elementi della matrice rappresentativa dell'operatore lineare $T$. Nel caso $T$ sia limitato, è possibile calcolare le componenti del vettore trasformato usando questi elementi. Posto $x'=Tx$, le componenti $x_{i}'$ di $x'$ sono
+Scegliamo per semplicità $H=H'$ e prendiamo un [[sistema ortonormale completo]] $\{e_{i}\}$ in $H$. I [[Scalar product|prodotti scalari]] $(e_{i},Te_{j})=\langle e_{i}|T|e_{j}\rangle=T_{ij}$ sono gli elementi della matrice rappresentativa dell'operatore lineare $T$. Nel caso $T$ sia limitato, è possibile calcolare le componenti del vettore trasformato usando questi elementi. Posto $x'=Tx$, le componenti $x_{i}'$ di $x'$ sono
 $$x'_{i}=\sum\limits_{j}T_{ij}x_{j}$$
 Ciò non è necessariamente vero se $T$ non è limitato. Naturalmente, se l'operatore è infinito-dimensionale, la matrice diventa un concetto più astratto, specialmente se su un sistema continuo e non discreto.
 ### Decomposizione spettrale

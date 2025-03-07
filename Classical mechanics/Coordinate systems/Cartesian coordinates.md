@@ -1,4 +1,4 @@
-**Cartesian coordinates** are a system of coordinates defined by an [[Ortogonalità|orthonormal]] [[base|basis]] where any given point in space is determined by a set of real numbers, called **coordinates**, that represent the distance between the point and a basis vector.
+**Cartesian coordinates** are a system of coordinates defined by an [[Orthogonality|orthonormal]] [[basis]] where any given point in space is determined by a set of real numbers, called **coordinates**, that represent the distance between the point and a basis vector.
 ### Motion
 #### Planar motion (2D)
 Motion of a [[Particella|particle]] in two dimensional Cartesian coordinates can be represented like
@@ -8,7 +8,7 @@ $$\mathbf{v}(t)=\dot{\mathbf{r}}=\dot{x}\hat{i}+\dot{y}\hat{j}$$
 and acceleration
 $$\mathbf{a}(t)=\dot{v}=\ddot{r}=\ddot{x}\hat{i}+\ddot{y}\hat{j}$$
 
-Given a trajectory [[curva|curve]] $s(t)$, a tangent unit vector an be defined for each point as
+Given a trajectory [[Curva|curve]] $s(t)$, a tangent unit vector an be defined for each point as
 $$\mathbf{T}(t)=\frac{\mathbf{v}}{|\mathbf{v}|}=(\cos(\phi(t)), \ \sin(\phi(t)))$$
 and also a normal vector by differentiating each component
 $$\mathbf{N}(t)=(-\sin(\phi(t)),\ \cos(\phi(t)))$$
@@ -42,7 +42,7 @@ The curvature can also be computed as
 $$\kappa=\sigma \frac{|\mathbf{v}\times\mathbf{a}|}{|\mathbf{v}|^{3}}$$
 where $\sigma=\pm1$ is a sign parameter designed to keep the normal vector continuous. Thus, we can write
 $$\mathbf{N}=\frac{\sigma(\mathbf{v}\times\mathbf{a})\times\mathbf{v}}{|\mathbf{v}\times\mathbf{a}||\mathbf{v}|}$$
-The third and final basis vector can be taken as the [[prodotto vettoriale|cross product]] of tangent and normal like
+The third and final basis vector can be taken as the [[Vector product|cross product]] of tangent and normal like
 $$\mathbf{B}=\mathbf{T}\times\mathbf{N}$$
 called the **binormal vector**. These three, plus the position vector, make a moving frame:
 $$\{\mathbf{r}(t);\mathbf{T}(t),\mathbf{N}(t),\mathbf{B}(t)\}$$

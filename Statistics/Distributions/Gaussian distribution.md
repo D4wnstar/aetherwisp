@@ -45,7 +45,7 @@ and the coefficients are
 1. $\gamma_{1}=0$ ([[skewness]], it is symmetrical around the mean)
 2. $\gamma_{2}=0$ ([[kurtosis]])
 ### Properties
-- It is [[Normalizzazione|normalized]]: $\frac{1}{\sqrt{ 2\pi \sigma ^{2} }}\int_{-\infty}^{\infty} e^{(x-\mu)^{2}/2\sigma ^{2}} \ dx=1$.
+- It is [[Normalization|normalized]]: $\frac{1}{\sqrt{ 2\pi \sigma ^{2} }}\int_{-\infty}^{\infty} e^{(x-\mu)^{2}/2\sigma ^{2}} \ dx=1$.
 ### As sum of normal variables
 A sum of [[independent variables]] $X_{i}$ that are normally distributed is itself a normal distribution:
 $$Y=\sum_{i=1}^{n} X_{i}$$

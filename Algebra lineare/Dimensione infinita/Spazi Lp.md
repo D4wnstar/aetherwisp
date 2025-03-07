@@ -12,7 +12,7 @@ Lo spazio $L^{1}$ è [[Spazio metrico completo|completo]] rispetto alla [[Norma#
 ### Spazio $L^{2}$
 Si definisce **spazio** $L^{2}(I)$ l'insieme di tutte le funzioni **a quadrato sommabile** o **a quadrato integrabile** su un intervallo $I$, ovvero le funzioni $f$ tali per cui vale
 $$\int_{I}|f(x)|^{2}dx<+\infty$$
-Lo spazio $L^{2}(I)$ è anche uno [[Vector space]] con uno [[Prodotto scalare]] definito come
+Lo spazio $L^{2}(I)$ è anche uno [[Vector space]] con uno [[Scalar product]] definito come
 $$(f,g)=\int_{I}f^{*}(x)g(x)dx$$
 e l'integrale esiste finito per qualunque coppia di funzione $L^{2}(I)$. Solo nel caso in cui $I$ è un intervallo finito, vale che se $f\in L^{2}(I)$ allora vale anche $f\in L^{1}(I)$, ma non vale il viceversa. Lo spazio $L^{2}(I)$ è anche completo rispetto alla [[Norma#Norme canoniche|norma]] $L^{2}$ in dimensione infinita (**teorema di Riesz-Fischer**). In particolare, è la chiusura dello spazio $C^{\infty}(I)$ delle funzioni regolari su $I$ rispetto a tale norma.
 

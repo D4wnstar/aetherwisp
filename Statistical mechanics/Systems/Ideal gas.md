@@ -57,7 +57,7 @@ We use the entropy given by the sigma function $S=k_{B}\log \Sigma(E)$ where
 $$\Sigma(E)=\frac{1}{h^{3N}}\int\limits_{H(\mathbf{q},\mathbf{p})<E}d^{3}q_{1}\ldots d^{3}q_{N}\,d^{3}p_{1}\ldots d^{3}p_{N}$$
 and $h$ is a dimensionally appropriate constant, specifically $\text{impulse}\times\text{length}$, which gives $\text{energy}\times\text{seconds}$. We put no restrictions on position, so all those integrals just amount to $V^{N}$:
 $$\Sigma(E)=\left( \frac{V}{h^{3}} \right)^{N}\int\limits_{H(\mathbf{q},\mathbf{p})<E}d^{3}p_{1}\ldots d^{3}p_{N}$$
-Since the energy of a free particle is $E=p^{2}/2m$, the momentum is $p=\sqrt{ 2mE }$. This momentum describes a $n$-[[palla|ball]] of radius $R=p=\sqrt{ 2mE }$ in the momentum-only [[phase space]], but the integral finds the volume of that ball in phase space (by finding the representative points contained therein), so we can rename the integral as a function $\Omega_{3N}(R)$ which finds the volume of a $3N$-dimensional ball of radius $R$:
+Since the energy of a free particle is $E=p^{2}/2m$, the momentum is $p=\sqrt{ 2mE }$. This momentum describes a $n$-[[Palla|ball]] of radius $R=p=\sqrt{ 2mE }$ in the momentum-only [[phase space]], but the integral finds the volume of that ball in phase space (by finding the representative points contained therein), so we can rename the integral as a function $\Omega_{3N}(R)$ which finds the volume of a $3N$-dimensional ball of radius $R$:
 $$\Sigma(R)=\left( \frac{V}{h^{3}} \right)^{N}\Omega_{3N}(R)$$
 In general, $\Omega_{3N}$ is
 $$\Omega_{3N}(R)=\int\limits_{x_{1}^{2}+x_{2}^{2}+\ldots+x_{n}^{2}<R^{2}}dx_{1}\ldots dx_{n}$$
@@ -228,7 +228,7 @@ n&=\int \frac{1}{h^{3}} \frac{1}{e^{\alpha+\beta \varepsilon_{p}}\pm 1} \ d^{3}p
 \text{(Spherical coords.)}&=\frac{1}{h^{3}}\int _{0}^{2\pi} \ d\theta \int_{0}^{\pi}\sin \phi\ d\phi \int_{0}^{\infty} \frac{1}{e^{\alpha+\beta \varepsilon_{p}}\pm 1} p^{2}\ dp \\
 &=\frac{4\pi}{h^{3}}\int_{0}^{\infty} \frac{p^{2}}{e^{\alpha+\beta \varepsilon_{p}}\pm 1} dp
 \end{align}$$
-To understand the change to [[Spherical coordinates]], consider this: the previous sum occurs over all of the momenta in the ensemble. When we change to integration, we integrate over all momenta in the ensemble. But the integral tells us the number of particles (well, density) in a certain range of momenta, so if we integrate over a range that no particle is in, we get zero. So, we can trivially extend the integral from all momenta in the ensemble to all space. Anything that's not present will cancel out anyway. Integration over all space can be easily done with an infinite-radius [[palla|sphere]].
+To understand the change to [[Spherical coordinates]], consider this: the previous sum occurs over all of the momenta in the ensemble. When we change to integration, we integrate over all momenta in the ensemble. But the integral tells us the number of particles (well, density) in a certain range of momenta, so if we integrate over a range that no particle is in, we get zero. So, we can trivially extend the integral from all momenta in the ensemble to all space. Anything that's not present will cancel out anyway. Integration over all space can be easily done with an infinite-radius [[Palla|sphere]].
 
 We now make the substitution $\beta \varepsilon_{p}=x^{2}$, which gives us $p=x\sqrt{ 2m/\beta }$. The integral becomes
 $$n=\frac{4\pi}{h^{3}}\left( \frac{2m}{\beta} \right)^{3/2} \int_{0}^{\infty} \frac{x^{2}}{e^{\alpha+x^{2}}\pm 1}dx$$
@@ -389,7 +389,7 @@ $$\langle N \rangle =z\frac{ \partial  }{ \partial z } \mathcal{Z}(z,V,T)=\left\
 \left( \prod_{\mathbf{p}}(1+ze^{-\beta \varepsilon_{\mathbf{p}}}) \right)\sum_{\mathbf{p}} \frac{1}{z^{-1}e^{\beta \varepsilon_{\mathbf{p}}}+1} &\quad \text{(Fermions)} \\
 \left( \prod_{\mathbf{p}} \frac{1}{1-ze^{-\beta \varepsilon_{\mathbf{p}}}} \right)\sum_{\mathbf{p}} \frac{1}{z^{-1}e^{\beta \varepsilon_{\mathbf{p}}}-1} & \quad\text{(Bosons)}
 \end{align}\right\}=\mathcal{Z}\sum_{\mathbf{p}}\langle n_{\mathbf{p}} \rangle $$
-found using the generalized [[product rule]] and $e^{\sum n}=\prod_{n}e^{n}$.
+found using the generalized [[Product rule]] and $e^{\sum n}=\prod_{n}e^{n}$.
 #### Equation of state
 The [[equation of state]] can be expressed with the grand [[partition function]] $\mathcal{Z}$ as
 $$\frac{PV}{k_{B}T}=\ln \mathcal{Z}(z,V,T)=\pm\sum_{\mathbf{p}} \ln(1\pm ze^{-\beta \varepsilon_{\mathbf{p}}})$$

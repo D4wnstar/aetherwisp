@@ -16,6 +16,6 @@ $$\dot{q}_{t}=\frac{i}{\hbar}[\hat{H},q_{t}]\quad; \quad \dot{p}_{t}=\frac{i}{\h
 
 L'evoluzione di Heisenberg entra le potenze
 $$\hat{X}_{t}=\hat{U}_{t}^{+}\hat{X}\hat{U}_{t},\quad (\hat{X}^{n})_{t}=(\hat{X}_{t})^{n}$$
-e entra anche nelle funzioni sufficientemente lisce da essere espresse in [[serie esponenziale]]
+e entra anche nelle funzioni sufficientemente lisce da essere espresse in [[Serie esponenziale]]
 $$\hat{U}_{t}^{+}f(\hat{X})\hat{U}_{t}=f(\hat{U}_{t}^{+}\hat{X}\hat{U}_{t})=f(\hat{X}_{t})$$
 Questo deriva dall'unitarietà del generatore di trasformazione.

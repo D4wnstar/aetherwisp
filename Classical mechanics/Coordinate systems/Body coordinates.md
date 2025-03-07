@@ -1,4 +1,4 @@
-**Body coordinates** are a set of coordinates that measure the position of a point on a body from the perspective of the body itself, as opposed to the origin used in [[World coordinates]]. Given a point [[particella|particle]] $\mathcal{P}$, its body coordinates are $\mathcal{B}(t;\mathcal{P})$. The perspective used is here is called the **body observer**, which stands at the **body origin** with its own set of axes called the **body axes**, which are assumed to form a right-handed [[Ortonormalità|orthonormal]] set. Assuming the body is in motion, the body axes are a [[Moving frame]].
+**Body coordinates** are a set of coordinates that measure the position of a point on a body from the perspective of the body itself, as opposed to the origin used in [[World coordinates]]. Given a point [[particella|particle]] $\mathcal{P}$, its body coordinates are $\mathcal{B}(t;\mathcal{P})$. The perspective used is here is called the **body observer**, which stands at the **body origin** with its own set of axes called the **body axes**, which are assumed to form a right-handed [[Orthonormality|orthonormal]] set. Assuming the body is in motion, the body axes are a [[Moving frame]].
 
 For a [[Rigid body]], the vector $\mathcal{B}(t;\mathcal{P})$ is time-independent.
 ### Relation to world coordinates
@@ -14,7 +14,7 @@ Note that the rotation acts as a basis change between body and world.
 
 Consider a time-varying vector in the body system $\mathbf{\xi}(t)=R(t)\mathbf{s}(t)$. The body coordinates $\mathbf{s}(t)$ vary with time because $\mathbf{\xi}(t)$ does. The time derivative is
 $$\frac{d\mathbf{\xi}}{dt}=R \frac{d\mathbf{s}}{dt}+\dot{R}\mathbf{s}=R \frac{d\mathbf{s}}{dt}+\dot{R}R^{T}\mathbf{\xi}=\frac{D\mathbf{\xi}}{Dt}+\mathbf{w}\times\mathbf{\xi}\tag{2}$$
-where $\dot{R}R^{T}$ is the matrix representation of the [[Prodotto vettoriale|cross product]] for the angular velocity, $C(\mathbf{w})$. We also define
+where $\dot{R}R^{T}$ is the matrix representation of the [[Vector product|cross product]] for the angular velocity, $C(\mathbf{w})$. We also define
 $$\frac{D\mathbf{\xi}}{Dt}=R \frac{d\mathbf{s}}{dt}$$
 which measure the rate of change of $\mathbf{\xi}$ relative to body coordinates. The usage of $D$ instead of $d$ for the derivative is meant to show the difference in [[frame of reference]]. $d\mathbf{\xi}/dt$ is change for the world observer, $D\mathbf{\xi}/Dt$ is change for the body observer. The difference between the two is the term $\mathbf{w}\times\mathbf{\xi}$, which goes unseen by the body observer as it rotates alongside the object.
 

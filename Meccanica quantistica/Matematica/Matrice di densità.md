@@ -1,11 +1,11 @@
-La **matrice di densità** o **densità statistica** $\hat{\rho}$ è una matrice con [[traccia]] unitaria definita come la forma matriciale di un [[operatore lineare]] [[Operatore semidefinito positivo|semidefinito positivo]] detto **operatore densità**. Essa descrive un sistema quantistico con più possibili [[stato|stati]] e permette di calcolare la [[probability|probabilità]] di riduzione del pacchetto d'onda in ogni possibile [[Equazione agli autovalori|autostato]] a seguito di una misura. È una forma più generale della rappresentazione in forma vettoriale, che è limitata agli stati puri. Le matrici di densità possono invece anche descrivere stati misti, e sono generalmente usata per questo[^1].
+La **matrice di densità** o **densità statistica** $\hat{\rho}$ è una matrice con [[Traccia]] unitaria definita come la forma matriciale di un [[operatore lineare]] [[Operatore semidefinito positivo|semidefinito positivo]] detto **operatore densità**. Essa descrive un sistema quantistico con più possibili [[stato|stati]] e permette di calcolare la [[probability|probabilità]] di riduzione del pacchetto d'onda in ogni possibile [[Equazione agli autovalori|autostato]] a seguito di una misura. È una forma più generale della rappresentazione in forma vettoriale, che è limitata agli stati puri. Le matrici di densità possono invece anche descrivere stati misti, e sono generalmente usata per questo[^1].
 
 Preso uno stato qualunque $\ket{\psi}$ e una [[sistema ortonormale completo]] $\{ \phi_{i} \}_{i}$ nello [[spazio di Hilbert]] di $\psi$, vale
 $$\hat{\rho}=\sum_{i=1}^{n} p_{i}\ket{\phi_{i}} \bra{\phi_{i}} =\sum_{i=1}^{n} \lvert \braket{ \phi_{i} | \psi } \rvert ^{2}\hat{P}_{\phi_{i}} =\sum_{i=1}^{n} \hat{P}_{\phi_{i}}\hat{P}_{\psi}\hat{P}_{\phi_{i}}$$
-dove $\hat{P}$ sono [[proiettore|proiettori]]. I coefficienti $p_{i}=\lvert \braket{ \phi_{i} | \psi } \rvert^{2}$ sono probabilità, quindi la somma è una [[combinazione convessa]]:
+dove $\hat{P}$ sono [[proiettore|proiettori]]. I coefficienti $p_{i}=\lvert \braket{ \phi_{i} | \psi } \rvert^{2}$ sono probabilità, quindi la somma è una [[Convex combination]]:
 $$\sum_{i=1}^{n} \lvert \braket{ \phi_{i} | \psi } \rvert ^{2}=1\qquad \lvert \braket{ \phi_{i} | \psi } \rvert ^{2}\geq 0$$
 ### Proprietà
-La matrice di densità ha [[traccia]] unitaria, ossia
+La matrice di densità ha [[Traccia]] unitaria, ossia
 $$\text{Tr}(\hat{\rho})=1$$
 La matrice di densità è [[Matrice hermitiana|autoaggiunta]]:
 $$\hat{\rho}=\overline{\hat{\rho}^{T}}$$
@@ -40,13 +40,13 @@ Se non vale la $||\vec{r}||^{2}=1$, allora la scrittura precedente non è valida
 $$\hat{\rho}=\frac{1+r}{2} \frac{1+\hat{r}\cdot\vec{\sigma}}{2}+ \frac{1-r}{2} \frac{1-\hat{r}\cdot\vec{\sigma}}{2}$$
 che è la decomposizione spettrale di $\hat{\rho}$ se
 $$P_{\rho_{1,2}}=\frac{1\pm\vec{r}\cdot\sigma}{2}$$
-sono due proiettori ortogonali fra loro. Perché ciò sia vero, deve essere $P_{\rho_{1}}P_{\rho_{2}}=0$ e $P^{2}_{\rho_{1,2}}=P_{\rho_{1,2}}$. Dimostriamo l'[[ortogonalità]]:
+sono due proiettori ortogonali fra loro. Perché ciò sia vero, deve essere $P_{\rho_{1}}P_{\rho_{2}}=0$ e $P^{2}_{\rho_{1,2}}=P_{\rho_{1,2}}$. Dimostriamo l'[[Orthogonality]]:
 $$P_{\rho_{1}}P_{\rho_{2}}=\frac{1+\hat{r}\cdot\vec{\sigma}}{2}\frac{1-\hat{r}\cdot\vec{\sigma}}{2}=\frac{1}{4}[1-(\hat{r}\cdot\vec{\sigma})(\hat{r}\cdot\vec{\sigma})]=\ldots$$
 Si dimostra che $(\hat{r}\cdot\vec{\sigma})(\hat{r}\cdot\vec{\sigma})=(\hat{r}\cdot\hat{r}+i(\hat{r}\times\hat{r})\cdot\vec{\sigma})$, quindi
 $$\ldots=\frac{1}{4}[1-(\hat{r}\cdot\hat{r}+i(\hat{r}\times\hat{r})\cdot\vec{\sigma})]=0$$
 dato che $\hat{r}\cdot\hat{r}=1$ e $\hat{r}\times\hat{r}=0$. Per l'idempotenza si ha
 $$P^{2}_{\rho_{1,2}}=\frac{1}{4}[1\pm2\hat{r}\cdot\vec{\sigma}+(\hat{r}\cdot\vec{\sigma})^{2}]=\frac{1}{4}(2\pm2\hat{r}\cdot\vec{\sigma})=\frac{1}{2}(1\pm\hat{r}\cdot\vec{\sigma})=P_{\rho_{1,2}}$$
-dato che $(\hat{r}\cdot\vec{\sigma})^{2}=1$. Abbiamo quindi dimostrato che $\hat{\rho}$ è una combinazione di proiettori, in particolare una con coefficienti positivi la cui somma è unitaria. Questo particolare tipo di combinazione si dice [[combinazione convessa]].
+dato che $(\hat{r}\cdot\vec{\sigma})^{2}=1$. Abbiamo quindi dimostrato che $\hat{\rho}$ è una combinazione di proiettori, in particolare una con coefficienti positivi la cui somma è unitaria. Questo particolare tipo di combinazione si dice [[Convex combination]].
 
 Possiamo ora cercare i vettori associati a questi proiettori. Questi sono, in generale, del tipo
 $$|\rho_{1},\rho_{2}\rangle=\pmatrix{a_{\pm} \\ b_{\pm}}$$

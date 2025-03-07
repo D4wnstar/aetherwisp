@@ -22,7 +22,7 @@ For continues charges, the field is derived by integration as
 $$\mathbf{E}(\mathbf{r})=\frac{1}{4\pi\varepsilon_{0}}\int \frac{1}{\mathfrak{r}^{2}}\hat{\mathfrak{r}}\ dq$$
 where the domain of integration is the charge distribution in space. This is expressed in one, two and three dimensions as [[Integrale su una curva|line integrals]], [[Integrale su una superficie|surface integrals]] and volume integrals. 
 
-For a linear charge distribution $dq=\lambda dt'$, with $\lambda$ the linear charge density and $dt'$ the line element onto the charge [[curva|curve]] $\gamma$, we have
+For a linear charge distribution $dq=\lambda dt'$, with $\lambda$ the linear charge density and $dt'$ the line element onto the charge [[Curva|curve]] $\gamma$, we have
 $$\mathbf{E}(\mathbf{r})=\frac{1}{4\pi\varepsilon_{0}}\int_{\gamma} \frac{\lambda(\mathbf{r}')}{\mathfrak{r}^{2}}\hat{\mathfrak{r}}\ dt'$$
 For a surface charge distribution $dq=\sigma da'$ with $\sigma$ the surface charge density and $da'$ the area element onto the [[Superficie|surface]] $\Phi$, we have
 $$\mathbf{E}(\mathbf{r})=\frac{1}{4\pi\varepsilon_{0}}\int_{\Phi}\frac{\sigma(\mathbf{r}')}{\mathfrak{r}^{2}}\hat{\mathfrak{r}}\ da'$$
@@ -30,7 +30,7 @@ For a volume charge distribution $dq=\rho d\tau'$ with $\rho$ the volume charge 
 $$\mathbf{E}(\mathbf{r})=\frac{1}{4\pi\varepsilon_{0}}\int_{V}\frac{\rho(\mathbf{r}')}{\mathfrak{r}^{2}}\hat{\mathfrak{r}}\ d\tau'$$
 In all of the above, $\mathfrak{r}$ is the distance between the test charge and the charge object element.
 ### Divergence
-We can calculate the [[divergence]] of the electric field starting from the volume charge. The volume $V$ may be extended to cover all space as $\rho$ is zero outside the charged object anyway, so it makes no difference. The divergence then is
+We can calculate the [[Divergence]] of the electric field starting from the volume charge. The volume $V$ may be extended to cover all space as $\rho$ is zero outside the charged object anyway, so it makes no difference. The divergence then is
 $$\nabla\cdot\mathbf{E}=\frac{1}{4\pi\varepsilon_{0}}\int\nabla\cdot\left(\frac{\hat{\mathfrak{r}}}{\mathfrak{r}^{2}}\right)\rho(\mathbf{r}')\ d\tau'$$
 (the divergence "targets" $\mathbf{r}$, so $\mathfrak{r}$ is part of the calculation, but $\rho$ is not). We therefore need to find the divergence of $\hat{r}/r^{2}$.
 #### Divergence of $\hat{r}/r^{2}$
@@ -50,7 +50,7 @@ Knowing this, we can go back to the electric field. We then get
 $$\boxed{\nabla\cdot\mathbf{E}=\frac{1}{4\pi\varepsilon_{0}}\int4\pi\delta^{3}(\mathfrak{r})\rho(\mathbf{r}')d\tau'=\frac{1}{\varepsilon_{0}}\rho(\mathbf{r})}$$
 which is just [[Gauss' law]] in differential form, here calculated explicitly.
 ### Curl
-The [[curl]] is easier to derive than the divergence. Consider the electric field of a point charge
+The [[Curl]] is easier to derive than the divergence. Consider the electric field of a point charge
 $$\mathbf{E}=\frac{1}{4\pi\varepsilon_{0}} \frac{q}{r^{2}}\hat{\mathbf{r}}$$
 Let's calculate the line integral of this from point $\mathbf{a}$ to point $\mathbf{b}$:
 $$\int_{\mathbf{a}}^{\mathbf{b}} \mathbf{E}\cdot d\mathbf{r}$$

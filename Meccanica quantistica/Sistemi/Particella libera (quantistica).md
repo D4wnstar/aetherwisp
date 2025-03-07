@@ -37,7 +37,7 @@ In questa forma, $\phi(k)/\sqrt{2\pi}$ prende il ruolo dei coefficienti $c_{n}$ 
 
 A tempo zero, la funzione d'onda iniziale ha la forma
 $$\Psi(x,0)=\frac{1}{\sqrt{2\pi}}\int_{-\infty}^{+\infty}\phi(k)e^{ixk}dk=F[\phi(k)](x)$$
-Ma questa non è altro che la [[trasformata di Fourier]] dal dominio delle frequenze spaziali $k$ a quello delle posizioni $x$. Per estrarre $\phi(k)$, basta applicare l'antitrasformata:
+Ma questa non è altro che la [[Trasformata di Fourier]] dal dominio delle frequenze spaziali $k$ a quello delle posizioni $x$. Per estrarre $\phi(k)$, basta applicare l'antitrasformata:
 $$\boxed{\phi(k)=\frac{1}{\sqrt{2\pi}}\int_{-\infty}^{+\infty}\Psi(x,0)e^{-ikx}dx=F^{-1}[\Psi(x,0)](k)}$$
 È giusto menzionare che gli integrali per $\phi(k)$ e soprattutto per $\Psi(x,t)$ sono raramente risolvibili analiticamente.
 #### Paradosso della velocità

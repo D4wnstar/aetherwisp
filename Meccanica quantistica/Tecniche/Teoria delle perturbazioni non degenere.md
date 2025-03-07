@@ -30,11 +30,11 @@ $$H^{0}\psi_{n}^{1}+H'\psi_{n}^{0}=E_{n}^{0}\psi_{n}^{1}+E_{n}^{1}\psi_{n}^{0}\t
 Al secondo ordine:
 $$H^{0}\psi_{n}^{2}+ H'\psi_{n}^{1}=E_{n}^{0}\psi_{n}^{2}+E^{1}_{n}\psi_{n}^{1}+E_{n}^{2}\psi_{n}^{0}\tag{3}$$
 #### Primo ordine
-Compiendo il [[prodotto scalare]] tra la $(2)$ e $\psi_{n}^{0}$ (ossia moltiplicando per $(\psi_{n}^{0})^{*}$ e poi integrando) si ha
+Compiendo il [[Scalar product]] tra la $(2)$ e $\psi_{n}^{0}$ (ossia moltiplicando per $(\psi_{n}^{0})^{*}$ e poi integrando) si ha
 $$\langle \psi_{n}^{0}|H^{0}\psi_{n}^{1}\rangle+\langle \psi_{n}^{0}|H'\psi_{n}^{0}\rangle=E_{n}^{0}\langle \psi_{n}^{0}|\psi_{n}^{1}\rangle+E_{n}^{1}\langle \psi_{n}^{0}|\psi_{n}^{0}\rangle$$
 Ricordando che $H$ qui è l'[[operatore]] Hamiltoniana e che è [[Operatore autoaggiunto|autoaggiunto]], vale
 $$\langle \psi_{n}^{0}|H^{0}\psi_{n}^{1}\rangle=\langle H^{0}\psi_{n}^{0}|\psi_{n}^{1}\rangle=E_{n}^{0}\langle \psi_{n}^{0}|\psi_{n}^{1}\rangle=0$$
-per [[ortogonalità]]. Inoltre, $\langle \psi_{n}^{0}|\psi_{n}^{0}\rangle=1$ per [[normalizzazione]]. Allora
+per [[Orthogonality]]. Inoltre, $\langle \psi_{n}^{0}|\psi_{n}^{0}\rangle=1$ per [[Normalization]]. Allora
 $$\boxed{E_{n}^{1}=\langle \psi_{n}^{0}|H'|\psi_{n}^{0}\rangle}$$
 Questo è il risultato principale della teoria delle perturbazioni non degenere di primo ordine.
 
@@ -55,7 +55,7 @@ da cui (rinominando $l$ a $m$)
 $$c_{m}^{(n)}=\frac{\langle \psi_{m}^{0}|H'|\psi_{n}^{0}\rangle}{E_{n}^{0}-E_{m}^{0}}$$
 e quindi
 $$\boxed{\psi_{n}^{1}=\sum\limits_{m\neq n} \frac{\langle \psi_{m}^{0}|H'|\psi_{n}^{0}\rangle}{E_{n}^{0}-E_{m}^{0}}\psi_{m}^{0}}$$
-Questa equazione ci dà la correzione di primo ordine alla funzione d'onda. C'è un dettaglio importante: è valida solo se lo [[spettro]] di energia non perturbato è *non degenere*. Se fosse degenere, dovremmo dividere per zero per ottenere l'espressione per i coefficienti. Infatti, qui stiamo supponendo che $E_{n}^{0}\neq E_{m}^{0}$ per ogni $n$, $m$, che è equivalente a chiedere la non degenerazione.
+Questa equazione ci dà la correzione di primo ordine alla funzione d'onda. C'è un dettaglio importante: è valida solo se lo [[Spettro]] di energia non perturbato è *non degenere*. Se fosse degenere, dovremmo dividere per zero per ottenere l'espressione per i coefficienti. Infatti, qui stiamo supponendo che $E_{n}^{0}\neq E_{m}^{0}$ per ogni $n$, $m$, che è equivalente a chiedere la non degenerazione.
 ##### Perturbazione costante
 Consideriamo una perturbazione costante del tipo
 $$H'=V_{0}$$

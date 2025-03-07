@@ -8,7 +8,7 @@ There is also a much more general and physically meaningful form that applies to
 $$\mathbf{J}=\sigma\mathbf{f}=\frac{1}{\rho}\mathbf{f}$$
 where $\mathbf{f}$ is the force per unit charge, $\sigma$ is the [[electrical conductivity]] of the material and $\rho=1/\sigma$ is the [[electrical resistivity]]. For most electromagnetic forces, $\mathbf{f}$ is just the [[electric field]] $\mathbf{E}$:
 $$\mathbf{J}=\sigma\mathbf{E}=\frac{1}{\rho} \mathbf{E}$$
-This reduces to the above simpler form at the start when $\mathbf{E}$ is time-independent. If it is not, the [[curl]] of $\mathbf{E}$ is not zero and the field is no longer uniform inside the wire, which in turn means that the resistance becomes dependent on the frequency of $\mathbf{E}$.
+This reduces to the above simpler form at the start when $\mathbf{E}$ is time-independent. If it is not, the [[Curl]] of $\mathbf{E}$ is not zero and the field is no longer uniform inside the wire, which in turn means that the resistance becomes dependent on the frequency of $\mathbf{E}$.
 
 A material that obeys Ohm's laws is said to be ohmic. Non-ohmic materials behave differently, namely their currents $\mathbf{J}$ typically do not point in the same direction as their produced field $\mathbf{E}$.
 ### Differential form of first law
@@ -31,7 +31,7 @@ It just so happens that usually the electric field is the only *relevant* field 
 $$\boxed{\mathbf{J}=\sigma(\mathbf{E}+\mathbf{v}\times \mathbf{B})}$$
 The reason the former formula is still mostly correct is because the charges are often moving rather slowly within circuitry, which makes the magnetic forces minimal in comparison to the electric ones. In [[plasma|plasmas]] however, the second term is usually not negligible.
 #### Consequences
-Say you have a piece of ohmic material that's being traversed by a *steady* current. We know that the [[divergence]] of the electric field is zero, so
+Say you have a piece of ohmic material that's being traversed by a *steady* current. We know that the [[Divergence]] of the electric field is zero, so
 $$\nabla\cdot\mathbf{E}=\frac{1}{\sigma}\nabla\cdot\mathbf{J}=0$$
 As expected, Ohm's law obeys the continuity equation $\nabla\cdot\mathbf{J}=-\frac{ \partial \rho }{ \partial t }=0$. This is true only if the conductivity is constant, that is, uniform over the material. What this means is that, *inside* of a material of uniform conductivity subject to a steady current, [[Laplace's equation]] still holds and may be used to calculate the potential. It is not in general true *outside* and especially not on the interface between materials.
 
@@ -46,7 +46,7 @@ Since we know $\sigma$, we know that $\sigma/\epsilon_{0}\simeq 10^{18}\text{ Hz
 ### Relation to temperature
 Most materials, when heated, expand in size (some materials shrink, but the discussion applies to them too). Since the second law is dependent on the geometry of the material, it is indirectly dependent on temperature too. When a material expands, $l$ increases, but so does the cross-section $S$. In the specific case of a wire, the ratio $l/S$ tends to remain constant (or approximately so), which means Ohm's second law is mostly temperature-independent for wires. This does not hold for other shapes.
 
-The exact expression of resistivity with respect to temperature is extremely complicated and the domain of statistical mechanics. At a high level, we can use a [[serie|series expansion]] like
+The exact expression of resistivity with respect to temperature is extremely complicated and the domain of statistical mechanics. At a high level, we can use a [[Serie|series expansion]] like
 $$\rho(\theta)\simeq\rho_{\theta_{0}}[1+\alpha(\theta-\theta_{0})]$$
 where $\rho_{\theta_{0}}$ is the resistivity at reference temperature $\theta_{0}$. $\alpha$ is a constant that depends on the material. The scale of temperature is generally arbitrary, but Celsius is the usual (Kelvins are asymmetric as there is no negative absolute temperature, which makes them harder to work with). The reference temperature is also arbitrary: in physics choosing 0°C is common, whereas in chemistry and engineering 20°C is more typical.
 

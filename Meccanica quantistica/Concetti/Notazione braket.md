@@ -8,7 +8,7 @@ La **notazione braket** è una notazione utilizzata per rappresentare vettori e 
 ### Dimensione finita
 Prendo un vettore $v$ in uno [[Vector space]] $\mathbb{C}^{N}$. Allora chiamo **bra** il vettore *riga* dei coniugati $\langle v|$ e **ket** il vettore *colonna* $|v\rangle$
 $$v_{\text{riga}}\equiv\langle v|=(v_{1}^{*},v_{2}^{*},\ldots,v_{N}^{*})\quad;\quad v_{\text{colonna}}\equiv|v\rangle=\pmatrix{v_{1} \\ v_{2} \\ \vdots \\ v_{N}}$$
-Si usa la seguente notazione per rappresentare il [[prodotto scalare]] hermitiano
+Si usa la seguente notazione per rappresentare il [[Scalar product]] hermitiano
 $$(v_{1},v_{2})\equiv\langle v_{1}|v_{2}\rangle=(v_{11}^\ast,v_{12}^\ast,\ldots,v_{1N}^\ast)\left(\matrix{v_{12}\\v_{22}\\\vdots\\v_{N2}}\right)=\sum\limits_{i=1}^{N}v_{1i}^{\ast}v_{i2}$$
 Un operatore $\hat{A}$ applicato ad un bra o ket può essere scritto dentro o fuori
 $$\hat{A}|\psi\rangle=|\hat{A}\psi\rangle$$
@@ -23,4 +23,4 @@ e $\langle f|$ può essere visto come un'istruzione ad integrare su un certo vet
 
 ---
 
-La rappresentazione come vettore riga/colonna e come prodotto matriciale sussiste in spazi a dimensione finita, ma è facilmente estensibile, perlomeno intuitivamente, a spazi di dimensione infinita. Lo stesso vale nel caso, onnipresente in meccanica quantistica, dove i vettori in realtà sono funzioni $|f\rangle$ e per i quali la notazione vettoriale (rappresentante le componenti in [[serie di Fourier]]) sarebbe scomoda.
+La rappresentazione come vettore riga/colonna e come prodotto matriciale sussiste in spazi a dimensione finita, ma è facilmente estensibile, perlomeno intuitivamente, a spazi di dimensione infinita. Lo stesso vale nel caso, onnipresente in meccanica quantistica, dove i vettori in realtà sono funzioni $|f\rangle$ e per i quali la notazione vettoriale (rappresentante le componenti in [[Serie di Fourier]]) sarebbe scomoda.

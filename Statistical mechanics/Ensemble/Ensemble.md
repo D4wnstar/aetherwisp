@@ -15,7 +15,7 @@ The system as a whole, when subject to known macroscopic conditions, is set in a
 
 Each ensemble is characterized by a **density function** $\rho(\mathbf{q},\mathbf{p},t)$, with $\mathbf{q}=(q_{1},\ldots,q_{3N})$ and $\mathbf{p}=(p_{1},\ldots,p_{3N})$. Integration of this function over a region of the [[phase space]] (i.e. over $d^{3N}q\,d^{3N}p$) returns the number of [[Phase space|representative points]] (i.e. microstates) found in that region at a time $t$. In the probability theory description, $\rho$ is the [[probability density function]] associated with the microstate random variable.
 
-Finding this density function fully determines all the properties of the ensemble. In the simplest case, it is the [[uniform distribution]], which is the case of the [[microcanonical ensemble]]. The [[Normalizzazione|normalizing]] factor of the density function is known as the [[partition function]].
+Finding this density function fully determines all the properties of the ensemble. In the simplest case, it is the [[uniform distribution]], which is the case of the [[microcanonical ensemble]]. The [[Normalization|normalizing]] factor of the density function is known as the [[partition function]].
 ### Properties
 The total number of microstates in an ensemble is conserved (as is the number of representative points).
 

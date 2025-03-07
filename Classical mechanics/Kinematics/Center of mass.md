@@ -19,7 +19,7 @@ which is the midpoint of the wire.
 A two-dimensional mass continuum can be thought of as a plate of area $A$. Give this plate a surface mass density $\sigma(x,y)$. The center of mass $\vec{r}_{C}$ is
 $$\vec{r}_{C}=\frac{\iint_{A}\sigma(x,y)\vec{r}\ dxdy}{\iint_{A}\sigma(x,y)\ dxdy}$$
 #### Two dimensions (wire)
-It's possible to have a one-dimensional wire in two-dimensional space. In this case, we can extend the one dimensional case by parameterizing the [[curva|curve]] it sits on. Consider the wire as a continuous and differentiable curve $s(t)=(x(t),y(t))$, with $t\in[a,b]$. The linear density is expressed in terms of the arc length $\lambda(s)$ or, alternatively, in terms of the parameter $\bar{\lambda}(t)$. The unit of arc length $ds$ is expressed in terms of the rate of change of position on the arc
+It's possible to have a one-dimensional wire in two-dimensional space. In this case, we can extend the one dimensional case by parameterizing the [[Curva|curve]] it sits on. Consider the wire as a continuous and differentiable curve $s(t)=(x(t),y(t))$, with $t\in[a,b]$. The linear density is expressed in terms of the arc length $\lambda(s)$ or, alternatively, in terms of the parameter $\bar{\lambda}(t)$. The unit of arc length $ds$ is expressed in terms of the rate of change of position on the arc
 $$ds=\left|\left|\frac{d\vec{s}}{dt}\right|\right|dt=\sqrt{\left(\frac{dx}{dt}\right)^{2}+\left(\frac{dy}{dt}\right)^{2}}dt=\sqrt{\dot{x}^{2}+\dot{y}^{2}}\ dt$$
 which means that the center of mass is
 $$\vec{r}_{C}=\frac{(\int x(t)\lambda(t)ds, \int y(t)\lambda(t)ds)}{\int \lambda(t)ds}$$

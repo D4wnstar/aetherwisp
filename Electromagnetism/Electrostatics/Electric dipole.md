@@ -42,7 +42,7 @@ where $\mathbf{p}$ is the [[electric dipole moment]]. For a physical dipole, it'
 ### Electric field
 Knowing the potential (mostly), we can now find the [[electric field]], at least that of a perfect dipole. Due to the origin-dependency of the dipole moment, we choose coordinates so that $\mathbf{p}$ is at the origin and points in the $z$ direction. This way, the potential is $(2)$. In [[Spherical coordinates]] it reads
 $$V_\text{dip}(r,\theta)=\frac{1}{4\pi\varepsilon_{0}}\frac{\hat{\mathbf{r}}\cdot \mathbf{p}}{r^{2}}=\frac{1}{4\pi\varepsilon_{0}}\frac{p\cos \theta}{r^{2}}$$
-(in these choice of coordinates, we have azimuthal symmetry). The negative [[gradient]] is
+(in these choice of coordinates, we have azimuthal symmetry). The negative [[Gradient]] is
 $$\begin{align}
 E_{r} & =-\frac{ \partial V }{ \partial r } =\frac{1}{4\pi\varepsilon_{0}} \frac{2\pi \cos \theta}{r^{3}} \\
 E_{\theta} &= - \frac{1}{r}\frac{ \partial V }{ \partial \theta } =- \frac{1}{4\pi\varepsilon_{0}} \frac{p \sin \theta}{r^{3}} \\
@@ -60,7 +60,7 @@ Just like how the dipole term of potential goes like $\sim 1/r^{2}$ instead of $
 ### Energy and torque
 When subject to an external source field, we can calculate the stored [[potential energy]] of a *rigid* dipole. The distinction here is important: a non-rigid dipole would move to adapt to the source field, ending up in the point of lowest potential energy. Given a dipole of charges $-q$ and $q$ set a distance $d\mathbf{s}$ apart, respectively in $\mathbf{r}$ and $\mathbf{r}+d\mathbf{s}$, we find the potential energy as
 $$\mathbf{U}(\mathbf{r})=q[V(\mathbf{r}+d\mathbf{s})-V(\mathbf{r})]=q(d\mathbf{s}\cdot \nabla V(\mathbf{r}))=-\mathbf{p}\cdot \mathbf{E}(\mathbf{r})$$
-where we used the fact that the infinitesimal difference of potential is given by the projection of the [[gradient]] over the $d\mathbf{s}$ axis (i.e. the [[directional derivative]])[^2]. Using the same argument, the [[moment of force]] (or torque) is given by
+where we used the fact that the infinitesimal difference of potential is given by the projection of the [[Gradient]] over the $d\mathbf{s}$ axis (i.e. the [[directional derivative]])[^2]. Using the same argument, the [[moment of force]] (or torque) is given by
 $$\begin{align}
 \tau(\mathbf{r})&=-q\mathbf{r}\times \mathbf{E}(\mathbf{r})+q(\mathbf{r}+d\mathbf{s})\times \mathbf{E}(\mathbf{r}+d\mathbf{s}) \\
 &=-q\mathbf{r}\times \mathbf{E}(\mathbf{r})+q\mathbf{r}\times \mathbf{E}(\mathbf{r}+d\mathbf{s})+qd\mathbf{s}\times \mathbf{E}(\mathbf{r}+d\mathbf{s}) \\

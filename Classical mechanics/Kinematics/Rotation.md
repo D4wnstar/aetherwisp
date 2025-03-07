@@ -27,7 +27,7 @@ A couple of useful vectors are
 $$\mathbf{d}\times\mathbf{v}=-\beta\mathbf{a}+\alpha\mathbf{b}, \quad \mathbf{d}\times(\mathbf{d}\times\mathbf{v})=-\alpha\mathbf{a}-\beta\mathbf{b}$$
 The first one can be written as a matrix multiplied by a vector
 $$\mathbf{d}\times\mathbf{v}=\begin{pmatrix}d_{1} \\ d_{2} \\ d_{3}\end{pmatrix}\times\begin{pmatrix}v_{1} \\ v_{2} \\ v_{3}\end{pmatrix}=\begin{pmatrix}d_{2}v_{3}-d_{3}v_{2} \\ d_{3}v_{1}-d_{1}v_{3} \\ d_{1}v_{2}-d_{2}v_{1}\end{pmatrix}=\begin{pmatrix}0 & -d_{3} & d_{2} \\ d_{3} & 0 & -d_{1} \\ -d_{2} & d_{1} & 0\end{pmatrix}\begin{pmatrix}v_{1} \\ v_{2} \\ v_{3}\end{pmatrix}=D\mathbf{v}\tag{3}$$
-The matrix $D$ is [[Matrice simmetrica|antisymmetric]]. We can then also say $\mathbf{d}\times(\mathbf{d}\times\mathbf{v})=D^{2}\mathbf{v}$. This is (one of) the matrix representation(s) of the [[prodotto vettoriale|cross product]].
+The matrix $D$ is [[Matrice simmetrica|antisymmetric]]. We can then also say $\mathbf{d}\times(\mathbf{d}\times\mathbf{v})=D^{2}\mathbf{v}$. This is (one of) the matrix representation(s) of the [[Vector product|cross product]].
 
 Using $(2)$ and the unitary matrix $I$ we can find
 $$I\mathbf{v}=\mathbf{v}=\ldots=(\mathbf{a}\mathbf{a}^{T}+\mathbf{b}\mathbf{b}^{T}+\mathbf{d}\mathbf{d}^{T})\mathbf{v}$$
@@ -49,7 +49,7 @@ $$R_{1}\mathbf{v}=I\mathbf{v}+sD\mathbf{v}+(1-c)D^{2}\mathbf{v}=\mathbf{v}+s\mat
 ### Circular motion
 If the axis $\mathbf{D}$ is fixed and the distance is a constant $r_{0}$, the coordinate system can be chosen to be [[Polar coordinates]] or [[Cylindrical coordinates]] depending on dimensions. If cylindrical, the plane of rotation should be the plane of reference, with the axis of rotation being the $z$-axis.
 
-A set of [[Ortonormalità|orthonormal]] axes can be chosen with the [[Cartesian coordinates|Cartesian]] tangent-normal [[Moving frame]]. Call $\mathbf{\xi}$ and $\mathbf{\eta}$ these two axes, potentially with $\mathbf{D}$ as the third if in 3D. Therefore, the position unit vector of the rotating object is $\mathbf{R}=\mathbf{\xi}\sin\theta+\mathbf{\eta}\sin\theta$. In this system, **angular speed** is $\sigma(t)=\dot{\theta}(t)$, **angular velocity** is $\mathbf{w}(t)=\sigma(t)\mathbf{D}=\dot{\theta}(t)\mathbf{D}$ and **angular acceleration** is $\mathbf{\alpha}(t)=\dot{\sigma}(t)\mathbf{D}=\ddot{\theta}(t)\mathbf{D}$.
+A set of [[Orthonormality|orthonormal]] axes can be chosen with the [[Cartesian coordinates|Cartesian]] tangent-normal [[Moving frame]]. Call $\mathbf{\xi}$ and $\mathbf{\eta}$ these two axes, potentially with $\mathbf{D}$ as the third if in 3D. Therefore, the position unit vector of the rotating object is $\mathbf{R}=\mathbf{\xi}\sin\theta+\mathbf{\eta}\sin\theta$. In this system, **angular speed** is $\sigma(t)=\dot{\theta}(t)$, **angular velocity** is $\mathbf{w}(t)=\sigma(t)\mathbf{D}=\dot{\theta}(t)\mathbf{D}$ and **angular acceleration** is $\mathbf{\alpha}(t)=\dot{\sigma}(t)\mathbf{D}=\ddot{\theta}(t)\mathbf{D}$.
 
 The position therefore changes like
 $$\boxed{\mathbf{r}(t)=r_{0}\mathbf{R}(t)+h_{0}\mathbf{D}}$$
@@ -61,7 +61,7 @@ where $-r_{0}\sigma^{2}\mathbf{R}$ is the **centripetal acceleration** and $\mat
 ### Moving axis
 If the axis $\mathbf{D}(t)$ is moving, let's consider the static axis case in a bit more detail before. We can define an antisymmetric matrix for any vector $\mathbf{u}$ as
 $$C(\mathbf{u})=\begin{pmatrix}0 & -u_{3} & u_{2} \\ u_{3} & 0 & -u_{1} \\ -u_{2} & u_{1} & 0\end{pmatrix}$$
-This is the matrix representation of the [[Prodotto vettoriale|cross product]], $C(\mathbf{u})\mathbf{r}=\mathbf{u}\times\mathbf{r}$ thanks to $(3)$, and thanks to $(4)$ we can say[^1]
+This is the matrix representation of the [[Vector product|cross product]], $C(\mathbf{u})\mathbf{r}=\mathbf{u}\times\mathbf{r}$ thanks to $(3)$, and thanks to $(4)$ we can say[^1]
 $$R(t)=I+C(\mathbf{D})\sin(\theta(t))+C(\mathbf{D})^{2}(1-\cos(\theta(t)))$$
 Linear velocity is worked out as
 $$\dot{\mathbf{r}}=\mathbf{v}=\mathbf{w}(t)\times \mathbf{r}(t)=C(\mathbf{w}(t))\mathbf{r}(t)$$

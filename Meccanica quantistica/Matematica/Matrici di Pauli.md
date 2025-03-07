@@ -48,7 +48,7 @@ I [[Commutatore|commutatori]] tra le matrici sono
 $$[\sigma_{1},\sigma_{2}]=2i\sigma_{3}, \quad [\sigma_{2},\sigma_{3}]=2i\sigma_{1}, \quad [\sigma_{3},\sigma_{1}]=2i\sigma_{2}$$
 o più in generale
 $$[\sigma_{i},\sigma_{j}]=2i\epsilon_{ijk}\sigma_{k}$$
-dove $\epsilon_{ijk}$ è il [[tensore di Levi-Civita]]. Le tre relazioni precedenti si ritrovano quando $i$, $j$ e $k$ sono diversi fra loro o se c'è un numero pari di scambi fra loro. Inoltre, le matrici anticommutano
+dove $\epsilon_{ijk}$ è il [[Tensore di Levi-Civita]]. Le tre relazioni precedenti si ritrovano quando $i$, $j$ e $k$ sono diversi fra loro o se c'è un numero pari di scambi fra loro. Inoltre, le matrici anticommutano
 $$\{\sigma_{i},\sigma_{j}\}=2\delta_{ij}$$
 
 Dai commutatori si ottengono anche le relazioni
@@ -59,14 +59,14 @@ Considera un generico versore in spazio tridimensionale:
 $$\hat{\mathbf{n}}=(n_{x},n_{y},n_{z})\in \mathbb{R}^{3}$$
 Questa denota una qualche direzione nello spazio. Introduciamo dunque la matrice $\hat{\sigma}_{n}$ come
 $$\hat{\sigma}_{n}=\hat{\mathbf{n}}\cdot \hat{\boldsymbol{\sigma}}=n_{x}\hat{\sigma}_{x}+n_{y}\hat{\sigma}_{y}+n_{z}\hat{\sigma}_{z}$$
-dove $\hat{\boldsymbol{\sigma}}$ è il vettore $(\hat{\sigma}_{x},\hat{\sigma}_{y},\hat{ \sigma}_{z})$ e $\cdot$ è il [[prodotto scalare]]. In rappresentazione standard questo dà
+dove $\hat{\boldsymbol{\sigma}}$ è il vettore $(\hat{\sigma}_{x},\hat{\sigma}_{y},\hat{ \sigma}_{z})$ e $\cdot$ è il [[Scalar product]]. In rappresentazione standard questo dà
 $$\hat{\sigma}_{n}=\begin{pmatrix}
  n_{z} & n_{x}-in_{y} \\
 n_{x}+in_{y}  & -n_{z}
 \end{pmatrix}$$
 Questa è la forma generica proiettata sulla direzione $\hat{\mathbf{n}}$ delle matrici di Pauli. Se aggiungiamo un $\hbar/2$ davanti a $\hat{\boldsymbol{\sigma}}$, questo diventa il vettore momento angolare della particella (a spin 1/2) e $(\hbar/2)\hat{\sigma}_{n}$ è la proiezione di quel momento angolare sulla direzione $\hat{\mathbf{n}}$. Naturalmente, se $\hat{\mathbf{n}}$ è pari ad uno degli assi cartesiani, $\hat{\sigma}_{n}$ diventa uguale a $\hat{\sigma}_{x}$, $\hat{\sigma}_{y}$ o $\hat{\sigma}_{z}$ e ritorna la componente del momento angolare intrinseco su quell'asse.
 
-La matrice $\hat{\sigma}_{n}$ è importante per poter trattare momenti angolari non disposti su un asse. Se si trovassero altri due versori [[Ortonormalità|ortonormali]] ad $\hat{\mathbf{n}}$ (per esempio mediante [[ortonormalizzazione di Gram-Schmidt]]), si costruirebbe una nuova terna di assi ortonormali [[Rotation|ruotata]] rispetto a quella standard cartesiana.
+La matrice $\hat{\sigma}_{n}$ è importante per poter trattare momenti angolari non disposti su un asse. Se si trovassero altri due versori [[Orthonormality|ortonormali]] ad $\hat{\mathbf{n}}$ (per esempio mediante [[Ortonormalizzazione di Gram-Schmidt]]), si costruirebbe una nuova terna di assi ortonormali [[Rotation|ruotata]] rispetto a quella standard cartesiana.
 
 > [!example] Due versori
 > Consideriamo due versori $\hat{\mathbf{n}}_{1}$ e $\hat{\mathbf{n}}_{2}$ in $\mathbb{R}^{3}$. Le componenti di un momento angolare su questi due assi saranno rispettivamente $\hat{\sigma}_{n_{1}}=\hat{\mathbf{n}}_{1}\cdot \hat{\boldsymbol{\sigma}}$ e $\hat{\sigma}_{n_{2}}=\hat{\mathbf{n}}_{2}\cdot \hat{\boldsymbol{\sigma}}$. Vogliamo trovare il prodotto delle matrici $\hat{\sigma}_{n_{1}}$ e $\hat{\sigma}_{n_{2}}$.
@@ -79,7 +79,7 @@ La matrice $\hat{\sigma}_{n}$ è importante per poter trattare momenti angolari 
 > $$\ldots=\hat{\mathbf{n}}_{1}\cdot\hat{\mathbf{n}}_{2}+\sum_{j\neq k} \hat{\sigma}_{j}\hat{\sigma}_{k}n_{1,j}n_{2,k}=\ldots$$
 > dove è stata omessa la matrice identica per semplicità (più correttamente, il primo termine dovrebbe essere $(\hat{\mathbf{n}}_{1}\cdot \hat{\mathbf{n}}_{2})\hat{\mathbf{1}}$). Per il secondo termine possiamo usare la relazione con il tensore di Levi-Civita
 > $$\ldots=\hat{\mathbf{n}}_{1}\cdot \hat{\mathbf{n}}_{2}+i\sum_{i=j}\epsilon_{ijk}n_{i}n_{j}\hat{\sigma}_{k}=\ldots$$
-> ma i termini della somma sono solo [[prodotto vettoriale|prodotti vettoriali]] in forma tensoriale:
+> ma i termini della somma sono solo [[Vector product|prodotti vettoriali]] in forma tensoriale:
 > $$\ldots=\hat{\mathbf{n}}_{1}\cdot \hat{\mathbf{n}}_{2}+\sum_{i=x,y,z}(\hat{\mathbf{n}}_{1}\times \hat{\mathbf{n}}_{2})\hat{\sigma}_{i}$$
 > ma la seconda somma adesso è un prodotto scalare, quindi ci rimane
 > $$\hat{\sigma}_{n_{1}}\hat{\sigma}_{n_{2}}=\hat{\mathbf{n}}_{1}\cdot \hat{\mathbf{n}}_{2}+(\hat{\mathbf{n}}_{1}\times \hat{\mathbf{n}}_{2})\cdot \hat{\boldsymbol{\sigma}}$$
@@ -95,7 +95,7 @@ $$\begin{cases}
 \hat{P}_{+n}=\frac{\hat{\mathbf{1}}+\hat{\sigma}_{n}}{2} \\
 \hat{P}_{-n}=\frac{\hat{\mathbf{1}}-\hat{\sigma}_{n}}{2}
 \end{cases}$$
-Per essere sicuri che questi siano effettivamente gli autoproiettori di $\hat{\sigma}_{n}$, dobbiamo verificare che siano [[idempotence|idempotenti]] e [[Ortogonalità|ortogonali]] fra loro. Per l'idempotenza
+Per essere sicuri che questi siano effettivamente gli autoproiettori di $\hat{\sigma}_{n}$, dobbiamo verificare che siano [[idempotence|idempotenti]] e [[Orthogonality|ortogonali]] fra loro. Per l'idempotenza
 $$\hat{P}_{\pm n}^{2}=\frac{1}{4} (\hat{\mathbf{1}}+\hat{\mathbf{1}} \pm2\hat{\sigma}_{n})=\frac{\hat{\mathbf{1}}\pm\hat{\sigma}_{n}}{2}=\hat{P}_{\pm n}$$
 che dimostra siano proiettori, e per l'ortogonalità
 $$\hat{P}_{+n}\hat{P}_{-n}=\frac{1}{4}(\hat{\mathbf{1}}-\hat{\mathbf{1}}-\hat{\sigma}_{n}+\hat{\sigma}_{n})=0$$
@@ -110,7 +110,7 @@ che dimostra siano autoproiettori.
 >
 > Ci interessa trovare come questo sistema evolve nel tempo. Possiamo trovare l'[[evolutore]] dell'Hamiltoniana quantistica:
 > $$\hat{U}_{t}=e^{-i \hat{H}t/\hbar}=e^{i (\hbar/2)\omega \hat{\sigma}_{n}t/\hbar}=e^{i\omega t\hat{\sigma}_{n}/2}$$
-> Usando la [[serie esponenziale]] abbiamo
+> Usando la [[Serie esponenziale]] abbiamo
 > $$e^{i\omega t \hat{\sigma}_{n}/2}=\sum_{n=1}^{\infty} \frac{\left( i \frac{\omega t}{2} \hat{ \sigma}_{n} \right)^{n}}{n!}=\sum_{n=1}^{\infty} \frac{\left( i \frac{\omega t}{2} \right)^{2n}}{(2n)!}\hat{\mathbf{1}}+\sum_{n=1}^{\infty} \frac{\left( i \frac{\omega t}{2} \right)^{2n+1}}{(2n+1)!} \hat{\sigma}_{n}=\ldots$$
 > dato che $\hat{\sigma}_{n}^{2}=\hat{\mathbf{1}}$ e dividendo la serie in due serie, una in indici pari e una in indici dispari. Ricordando che $i^{2n}=(i^{2})^{n}=(-1)^{n}$ e $i^{2n+1}=ii^{2n}=i(-1)^{n}$ abbiamo
 > $$\ldots=\hat{\mathbf{1}}\sum_{n=1}^{\infty} \frac{(-1)^{n}}{(2n)!} \left( \frac{\omega t}{2} \right)^{2n}+\hat{\sigma}_{n}i\sum_{n=1}^{\infty} \frac{(-1)^{n}}{(2n+1)!}\left( \frac{\omega t}{2} \right)^{2n}$$

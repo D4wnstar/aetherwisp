@@ -3,9 +3,9 @@ $$\hat{a}\ket{\alpha} =\alpha \ket{\alpha} $$
 con $\alpha \in \mathbb{C}$. Si trova che l'autostato è correlato allo stato fondamentale da
 $$\ket{\alpha}=e^{-|\alpha|^{2}/2} \sum\limits_{n=0}^{\infty} \frac{\alpha^{n}}{\sqrt{n!}}|n\rangle$$
 ### Proprietà
-Gli stati coerenti, sebbene siano [[Normalizzazione|normalizzati]], non sono [[Ortogonalità|ortogonali]] fra loro:
+Gli stati coerenti, sebbene siano [[Normalization|normalizzati]], non sono [[Orthogonality|ortogonali]] fra loro:
 $$\braket{  \alpha_{1} | \alpha_{2} } =\exp\left(- \frac{1}{2}(|\alpha_{1}|^{2}+|\alpha_{2}|^{2})+ \alpha_{1}^{*}\alpha_{2}\right)$$
-La loro [[norma]] vale
+La loro [[Norma]] vale
 $$\braket{  \alpha_{1} | \alpha_{2} } ^{2}=e^{-|\alpha_{1}-\alpha_{2}|^{2}}$$
 Può essere ottenuto dallo stato fondamentale di un [[oscillatore armonico quantistico]] mediante l'[[Operatore di displacement]]:
 $$\ket{\alpha} =e^{\alpha \hat{a}^{+}-\alpha^{*}\hat{a}}\ket{0} =\hat{D}(\alpha)\ket{0} $$
@@ -40,7 +40,7 @@ e invertendo, per ricorsione
 $$c_{p+1}=\frac{\alpha}{\sqrt{ p+1 }}c_{p}=\frac{\alpha ^{2}}{\sqrt{ (p+1)p }}c_{p-1}=\frac{\alpha^{p+1}}{\sqrt{ (p+1)! }}c_{0}$$
 e sostituendo
 $$\ket{\alpha} =c_{0}\sum_{n=0}^{\infty} \frac{\alpha^{n}}{\sqrt{ n! }}\ket{n} =c_{0}\sum_{n=0}^{\infty} \frac{\alpha^{n}}{\sqrt{ n! }} \frac{(\hat{a}^{+})^{n}}{\sqrt{ n! }}\ket{0} =c_{0}\sum_{n=0}^{\infty} \frac{\alpha^{n}}{n!}(\hat{a}^{+})^{n}\ket{0} $$
-che è l'espressione per uno stato coerente. Va notato che non abbiamo posto alcuna condizione su $\alpha$: $\hat{a}$ non è autoaggiunto quindi $\alpha$ può essere qualunque numero complesso. Ci manca solo da determinare la costante di [[normalizzazione]] $c_{0}$. Allora troviamo la [[norma]] quadra di $\ket{\alpha}$:
+che è l'espressione per uno stato coerente. Va notato che non abbiamo posto alcuna condizione su $\alpha$: $\hat{a}$ non è autoaggiunto quindi $\alpha$ può essere qualunque numero complesso. Ci manca solo da determinare la costante di [[Normalization]] $c_{0}$. Allora troviamo la [[Norma]] quadra di $\ket{\alpha}$:
 $$1=\lvert \lvert \ket{\alpha}  \rvert  \rvert ^{2}=\braket{ \alpha | \alpha } =|c_{0}|^{2}\sum_{n,m=0}^{\infty} \frac{(\alpha^{*})^{n}}{\sqrt{ n! }} \frac{\alpha^{m}}{\sqrt{ m! }}\underbrace{ \braket{ n | m } }_{ \delta_{nm} }=|c_{0}|^{2} \sum_{n=0}^{\infty} \frac{(\lvert \alpha \rvert ^{2})^{n}}{n!}=\lvert c_{0} \rvert ^{2}e^{\lvert \alpha \rvert^{2} } $$
 Allora
 $$\lvert c_{0} \rvert =e^{-\lvert \alpha \rvert ^{2}/2}$$

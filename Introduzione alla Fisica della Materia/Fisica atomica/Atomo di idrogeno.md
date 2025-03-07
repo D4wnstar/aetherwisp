@@ -2,7 +2,7 @@ L'**atomo di idrogeno** consiste in un [[protone]] sostanzialmente fermo di [[ca
 ### Formulazione di Schrödinger
 Consideriamo l'[[Hamiltoniana]]
 $$H=- \frac{\hbar^{2}}{2M}\nabla^{2}_{R}- \frac{\hbar^{2}}{2m}\nabla^{2}_{r_{e}}- \frac{Ze^{2}}{4\pi\epsilon_{0}|R-r_{e}|}$$
-dove $M$ è la massa del nucleo, $m$ la masse dell'[[Elettrone]], $Z$ è il numero atomico e $|R-r_{e}|$ la distanza orbitale dell'elettrone. I tre termini rappresentano, in ordine, l'energia cinetica dei nuclei, quella degli elettroni e l'energia [[potenziale]].
+dove $M$ è la massa del nucleo, $m$ la masse dell'[[Elettrone]], $Z$ è il numero atomico e $|R-r_{e}|$ la distanza orbitale dell'elettrone. I tre termini rappresentano, in ordine, l'energia cinetica dei nuclei, quella degli elettroni e l'energia [[Potenziale]].
 
 ![[Schema modello idrogeno|center]]
 
@@ -86,12 +86,12 @@ dove $R_{\infty}$ è la [[costante di Rydberg]]. Si nota che sono presenti stati
 $$d=\underbrace{2}\limits_{m_{s}}\sum\limits_{l=0}^{n-1}\underbrace{2l+1}\limits_{m}=2n^{2}$$
 che racchiude tutti i numeri quantici: abbiamo che $l$ varia da $0$ a $n-1$, per ogni $l$ sono possibili $2l+1$ valori di $m$ e tutto è possibile per entrambi i numeri di [[spin]] $m_{s}=\pm\frac{1}{2}$.
 ### Trattamento di Griffiths
-Anzitutto, determiniamo il [[potenziale]]. Dalla [[legge di Coulomb]] abbiamo il potenziale (in unità SI)
+Anzitutto, determiniamo il [[Potenziale]]. Dalla [[legge di Coulomb]] abbiamo il potenziale (in unità SI)
 $$V(r)=- \frac{e^{2}}{4\pi\epsilon_{0}} \frac{1}{r}$$
 quindi l'equazione radiale da risolvere per trovare la [[Funzione d'onda]] è
 $$- \frac{\hbar^{2}}{2m}\frac{d^{2}u}{dr^{2}}+ \left[- \frac{e^{2}}{4\pi\epsilon_{0}} \frac{1}{r}+\frac{\hbar^{2}}{2m} \frac{l(l+1)}{r^{2}} \right]u(r)=Eu(r)\tag{1}$$
 
-Il potenziale Coulombiano ammette sia stati con [[spettro]] continuo con $E>0$ (che rappresentano la [[Diffusione di particelle|diffusione]] protone-elettrone), sia con spettro discreto con $E<0$, i cui [[Stato stazionario|stati stazionari]] rappresentano i livelli di energia dell'elettrone legato. A noi interessano questi ultimi.
+Il potenziale Coulombiano ammette sia stati con [[Spettro]] continuo con $E>0$ (che rappresentano la [[Diffusione di particelle|diffusione]] protone-elettrone), sia con spettro discreto con $E<0$, i cui [[Stato stazionario|stati stazionari]] rappresentano i livelli di energia dell'elettrone legato. A noi interessano questi ultimi.
 #### Funzione d'onda radiale
 Consideriamo la costante
 $$\kappa\equiv \frac{\sqrt{-2mE}}{\hbar} $$
@@ -194,9 +194,9 @@ $$\boxed{R_{nl}(r)=\frac{1}{na_{0}}\left(\frac{r}{na_{0}}\right)^{l}e^{-r/(na_{0
 
 Possiamo anche normalizzare la funzione d'onda nel suo caso più generico. Così facendo si trova la funzione d'onda di un qualsiasi stato dell'atomo di idrogeno
 $$\boxed{\psi_{nlm}(r,\theta,\phi)=\sqrt{\left(\frac{2}{na_{0}}\right)^{3} \frac{(n-l-1)!}{2n[(n+l)!]^{3}}}e^{-r/na_{0}} \left(\frac{2r}{na_{0}}\right)^{l}\left[L_{n-l-1}^{2l+1}\left(\frac{2r}{na_{0}}\right)\right]Y_{l}^{m}(\theta,\phi)}$$
-Questa è una delle pochissime funzioni d'onda di casi realistici che possono essere risolte in forma chiusa. Le diverse funzioni d'onda sono fra loro [[Ortogonalità|ortogonali]]:
+Questa è una delle pochissime funzioni d'onda di casi realistici che possono essere risolte in forma chiusa. Le diverse funzioni d'onda sono fra loro [[Orthogonality|ortogonali]]:
 $$\int \psi_{nlm}^{*}\psi_{n'l'm'}r^{2}\sin\theta dr d\theta d\phi=\delta_{nn'}\delta_{ll'}\delta_{mm'}$$
-usando la [[delta di Kronecker]]. Questo segue dall'ortogonalità delle armoniche sferiche e dal fatto che sono [[Equazione agli autovalori|autofunzioni]] di $\hat{H}$ con autovalori distinti.
+usando la [[Kronecker delta]]. Questo segue dall'ortogonalità delle armoniche sferiche e dal fatto che sono [[Equazione agli autovalori|autofunzioni]] di $\hat{H}$ con autovalori distinti.
 ### Transizioni
 Dato che gli [[Stato stazionario|stati stazionari]] sono ben noti, è possibile calcolare facilmente l'energia assorbita o emessa dall'elettrone durante una [[transizione di stato]]. L'energia di transizione è
 $$E_{\gamma}=E_{i}-E_{f}=-13.6\text{ eV }\left( \frac{1}{n_{i}^{2}}- \frac{1}{n_{f}^{2}}\right)$$

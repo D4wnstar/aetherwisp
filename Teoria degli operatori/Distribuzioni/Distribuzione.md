@@ -7,4 +7,4 @@ esiste per ogni $\varphi\in\mathcal{S}$ ed è un funzionale lineare di $\mathcal
 $$T_{u}(\varphi)=\int_{-\infty}^{+\infty}u(x)\varphi(x)dx=\langle T_{u},\varphi\rangle\tag{1}$$
 e chiamiamo $T_u$ la distribuzione *associata alla funzione $u(x)$* o distribuzione con *densità $u(x)$*. Una distribuzione che non è associata a nessuna funzione si dice *singolare*.
 
-Ogni funzione $L^{1}(\mathbb{R})$ individua una distribuzione tramite la (1). Lo stesso vale per $L^{2}(\mathbb{R})$, dove la (1) è proprio il [[Prodotto scalare]] in $L^{2}$ (più correttamente sarebbe $(u^{*},\varphi)$).
+Ogni funzione $L^{1}(\mathbb{R})$ individua una distribuzione tramite la (1). Lo stesso vale per $L^{2}(\mathbb{R})$, dove la (1) è proprio il [[Scalar product]] in $L^{2}$ (più correttamente sarebbe $(u^{*},\varphi)$).

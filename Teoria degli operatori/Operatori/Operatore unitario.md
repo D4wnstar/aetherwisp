@@ -2,7 +2,7 @@
 aliases:
   - unitario
 ---
-Si dice **operatore unitario** $U:H \rightarrow H$ un [[Operatore]] con la caratteristica di conservare il [[Prodotto scalare]], ovvero
+Si dice **operatore unitario** $U:H \rightarrow H$ un [[Operatore]] con la caratteristica di conservare il [[Scalar product]], ovvero
 $$(Ux,Uy)=(x,y)$$
 o equivalentemente (grazie alla linearità)
 $$||Ux||=||x||$$
@@ -55,7 +55,7 @@ Quindi gli autovalori rimangono gli stessi sotto trasformazione unitaria (???).
 > $$\ldots=e^{iq\hat{p}/\hbar}(\hat{q}-q)\ket{x} =e^{iq\hat{p}/\hbar}(x-q)\ket{x} =(x-q)e^{iq\hat{p}/\hbar}\ket{x} $$
 > $e^{iq\hat{p}/\hbar}\ket{x}$ deve essere proporzionale a $\ket{x-q}$:
 > $$e^{iq\hat{p}/\hbar}\ket{x}=c\ket{x-q} $$
-> Possiamo sfruttare l'[[Ortonormalità|ortonormalità di Dirac]] degli autostati
+> Possiamo sfruttare l'[[Orthonormality|ortonormalità di Dirac]] degli autostati
 > $$\delta(y-x)=\braket{ e^{iq\hat{p}/\hbar}y |e^{iq\hat{p}/\hbar}x  }=\braket{ c(y-q) | c(x-q) } =\lvert c \rvert ^{2}\braket{ y-q | x-q } =\lvert c \rvert ^{2}\delta (y-x) $$
 > e quindi $\lvert c \rvert^{2}=1$, da cui $c=1$. Allora vale $e^{iq\hat{p}/\hbar}\ket{x}=\ket{x-q}$. Tornando quindi indietro si ha
 > $$\braket{ x | \psi_{n}^{q} }=\braket{ x | e^{-iq\hat{p}/\hbar}\psi_{n} }  =\braket{ e^{iq\hat{p}/\hbar}x | \psi_{n} } =\braket{ x-q | \psi_{n} } $$

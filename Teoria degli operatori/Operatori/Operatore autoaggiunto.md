@@ -16,6 +16,6 @@ Si definisce operatore **antiautoaggiunto** l'operatore che è uguale all'oppost
 $$T^{+}=-T$$
 ### Proprietà
 - Un operatore hermitiano il cui dominio è l'intero [[spazio di Hilbert]] è [[Operatore lineare|limitato]].
-- Per il [[spectral theorem|teorema spettrale]], ogni operatore autoaggiunto in $\mathbb{C}^{n}$ ha $n$ autovettori [[Ortonormalità|ortonormali]] e $n$ autovalori reali, che formano una [[base]] di $H$.
+- Per il [[spectral theorem|teorema spettrale]], ogni operatore autoaggiunto in $\mathbb{C}^{n}$ ha $n$ autovettori [[Orthonormality|ortonormali]] e $n$ autovalori reali, che formano una [[base]] di $H$.
 - Gli autovalori di un operatore autoaggiunto sono tutti positivi.
 - La somma di operatori hermitiani è hermitiana.

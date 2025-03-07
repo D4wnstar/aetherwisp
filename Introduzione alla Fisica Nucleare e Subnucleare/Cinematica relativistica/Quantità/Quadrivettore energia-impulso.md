@@ -7,7 +7,7 @@ $$p=\left(\frac{E}{c},\; \vec{p}\right)$$
 con energia $E=\gamma mc^{2}$ e impulso $\vec{p}=\gamma m\vec{v}$. In forma completa
 $$p=(\gamma mc,\;\gamma m\vec{v})$$
 ### Energia relativistica
-La sua [[norma]] è
+La sua [[Norma]] è
 $$\sqrt{p\cdot p}=\sqrt{\frac{E^{2}}{c^{2}}-|\vec{p}|^{2}}=\sqrt{\frac{\gamma^{2}m^{2}c^{4}}{c^{2}}-\gamma^{2}m^{2}\vec{v}^{2}}=\sqrt{m^{2}\gamma^{2}(c^{2}-v^{2})}=m\gamma\sqrt{c^{2}-v^{2}}=$$
 $$=\frac{m}{\sqrt{1- \frac{v^{2}}{c^{2}}}}\sqrt{c^{2}-v^{2}}=\frac{m\sqrt{c^{2}\left(1 - \frac{v^{2}}{c^{2}}\right)}}{\sqrt{1 - \frac{v^{2}}{c^{2}}}}=mc$$
 Dunque si ha

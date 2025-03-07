@@ -4,7 +4,7 @@ aliases:
 ---
 Il **modello a shell** è un modello del [[nucleo atomico]]. Da non confondere con il modello a shell dell'[[atomo]] stesso, che tratta degli [[Elettrone|elettroni]]. Ha i seguenti presupposti:
 1. ogni [[nucleone]] occupa un livello di energia ben preciso all'interno di una *shell*.
-2. i nucleoni si muovono nel nucleo sottoposti ad un [[potenziale]] *medio*.
+2. i nucleoni si muovono nel nucleo sottoposti ad un [[Potenziale]] *medio*.
 3. il potenziale medio ha origine dagli altri nucleoni.
 
 Lo stato di un nucleo ([[spin]] $\pm1/2$ e [[parità]] $(-1)^{l}$) è poi determinato unicamente dai nucleoni **spaiati**, ossia quelli disaccoppiati, un po' come sono gli elettroni di valenza a determinare lo stato di un atomo nella shell elettronica. Un nucleone mancante in una shell è detto **buco**.

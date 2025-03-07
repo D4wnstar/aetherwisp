@@ -9,7 +9,7 @@ $$x=r\cos\theta, \quad y=r\sin\theta, \quad z=z$$
 To convert an integral from Cartesian to cylindrical, we find the [[determinant]] of the [[Jacobian]] of the conversion [[diffeomorphism]] $\sigma(x,y,z)=(r\cos \theta,r \sin \theta,z)$, which is $\det J\sigma=r$. As such
 $$\iiint dxdydz=\iiint r\ drd\theta dz$$
 ### Motion
-A unit vector in the $xy$-plane is $\mathbf{R}=(\cos\theta,\sin\theta,0)$. A perpendicular vector is simply $\mathbf{P}=(-\sin\theta,\cos\theta,0)$, a [[Rotation]] by $\pi/2$. The vertical direction $\mathbf{k}=(0,0,1)$ is the last vector in the [[base|basis]], which means that the [[Moving frame]] is
+A unit vector in the $xy$-plane is $\mathbf{R}=(\cos\theta,\sin\theta,0)$. A perpendicular vector is simply $\mathbf{P}=(-\sin\theta,\cos\theta,0)$, a [[Rotation]] by $\pi/2$. The vertical direction $\mathbf{k}=(0,0,1)$ is the last vector in the [[basis]], which means that the [[Moving frame]] is
 $$\{\mathbf{r}(t);\mathbf{R}(t),\mathbf{P}(t),\mathbf{k}\}$$
 (note that $\mathbf{k}$ is constant).
 

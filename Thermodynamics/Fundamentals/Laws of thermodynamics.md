@@ -16,7 +16,7 @@ This is a form of conservation of energy and shows that heat is "just another ty
 
 It can also be expressed in differential form as
 $$dU=\delta Q-\delta W$$
-$dU$ is an [[exact differential]], which is useful as it proves that $\int dU$ is independent of the path taken and is uniquely determined by the boundaries[^1]. The boundaries in this case are system [[stato|states]], so $U$ is uniquely determined by the state(s) of the system. This makes $U$ an [[equation of state]], $U(P,V,T)$, where $P$ is [[pressure]], $V$ is volume and $T$ is [[temperature]].
+$dU$ is an [[Exact differential]], which is useful as it proves that $\int dU$ is independent of the path taken and is uniquely determined by the boundaries[^1]. The boundaries in this case are system [[stato|states]], so $U$ is uniquely determined by the state(s) of the system. This makes $U$ an [[equation of state]], $U(P,V,T)$, where $P$ is [[pressure]], $V$ is volume and $T$ is [[temperature]].
 
 The first law can be used by itself to determine three equations for the variation of heat called [[heat equations]].
 ### Second law

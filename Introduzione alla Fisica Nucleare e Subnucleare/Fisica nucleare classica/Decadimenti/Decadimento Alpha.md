@@ -14,7 +14,7 @@ che ha un [[Legge di decadimento radioattivo|tempo di dimezzamento]] di 1600 ann
 ## Meccanismo
 Protoni e neutroni hanno [[energia di legame]] attorno agli 8 MeV, quindi non possono scappare dal nucleo se non in condizioni particolare. Può però succedere che l'emissione di un gruppo di nucleoni sotto forma di un sistema legato $^{4}\text{He}$ sia energeticamente favorita.
 
-Studiamo l'energia [[potenziale]] $V(r)$ di una particella $\alpha$ in funzione della distanza $r$ dal nucleo
+Studiamo l'energia [[Potenziale]] $V(r)$ di una particella $\alpha$ in funzione della distanza $r$ dal nucleo
 
 ![[Grafico Decadimento Alpha|80%|center]]
 A piccole distanze, l'interazione forte domina e si forma una buca di potenziale profonda $-V_{0}$.

@@ -2,7 +2,7 @@ Consider the integral of some univariate function $g(x)$ of a continuous [[rando
 $$I=\int _{a}^{b}g(x) \ dx $$
 The trick is to multiply and divide by a function $f(x)$ like so:
 $$I=\int _{a}^{b} \frac{g(x)}{f(x)}f(x) \ dx =E\left[ \frac{g(X)}{f(X)} \right]$$
-using the [[expected value]]. $f(x)$ must be [[Normalizzazione|normalized]] over $[a,b]$, so that $\int_{a}^{b}f(x)\ dx=1$, and non-negative, which essentially makes it a [[probability density function]].
+using the [[expected value]]. $f(x)$ must be [[Normalization|normalized]] over $[a,b]$, so that $\int_{a}^{b}f(x)\ dx=1$, and non-negative, which essentially makes it a [[probability density function]].
 
 We know how to estimate an expectation by sampling a large [[sample]] of $N$ numbers $x_{1},\ldots,x_{N}$ from $f(x)$. Therefore our estimate $\hat{I}$ of $I$ is
 $$\hat{I}=\frac{1}{N}\sum_{i=1}^{N} \frac{g(x_{i})}{f(x_{i})}$$

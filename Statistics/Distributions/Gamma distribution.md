@@ -11,4 +11,4 @@ $$E[X]=\alpha \beta$$
 and the [[variance]] is
 $$\text{var}(X)=\alpha \beta ^{2}$$
 ### Properties
-It is [[Normalizzazione|normalized]] with a constant of $c=1$.
+It is [[Normalization|normalized]] with a constant of $c=1$.

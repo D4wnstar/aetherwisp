@@ -10,12 +10,12 @@ $$\hat{H}\psi_{n}=E_{n}\psi_{n}\tag{1}$$
 #### Due volte degenere
 Supponiamo che
 $$H^{0}\psi_{a}^{0}=E^{0}\psi_{a}^{0}, \quad H^{0}\psi_{b}^{0}=E^{0}\psi_{b}^{0}, \quad \langle \psi_{a}^{0}|\psi_{b}^{0} \rangle=0$$
-dove $\psi_{a}^{0}$ e $\psi_{b}^{0}$ sono [[Normalizzazione|normalizzati]] e fra loro degeneri. Dato che autostati degeneri formano una [[base]] del loro autospazio, una loro combinazione lineare è sempre un autostato
+dove $\psi_{a}^{0}$ e $\psi_{b}^{0}$ sono [[Normalization|normalizzati]] e fra loro degeneri. Dato che autostati degeneri formano una [[base]] del loro autospazio, una loro combinazione lineare è sempre un autostato
 $$\psi^{0}=\alpha \psi_{a}^{0}+\beta \psi_{b}^{0}\tag{2}$$
 con lo stesso autovalore, a modo che valga
 $$H^{0}\psi^{0}=E^{0}\psi^{0}$$
 
-Tipicamente, la perturbazione $\hat{V}$ "rompe" la degenerazione, creando due stati diversi con autovalori di energia diversi. Man mano che $\lambda$ aumenta, l'autostato non perturbato $E^{0}$ si divide in due: uno ad energia più alta, uno ad energia più bassa. Al contrario, se rimuoviamo la perturbazione, lo stato più energetico ritorna ad essere una *specifica* combinazione lineare di due stati $\psi_{a}^{0}$ e $\psi_{b}^{0}$, mentre quello meno energetico diventa una combinazione lineare [[Ortogonalità|ortogonale]]. Il problema sta nel fatto che, a priori, noi non sappiamo quali sono questi stati specifici.
+Tipicamente, la perturbazione $\hat{V}$ "rompe" la degenerazione, creando due stati diversi con autovalori di energia diversi. Man mano che $\lambda$ aumenta, l'autostato non perturbato $E^{0}$ si divide in due: uno ad energia più alta, uno ad energia più bassa. Al contrario, se rimuoviamo la perturbazione, lo stato più energetico ritorna ad essere una *specifica* combinazione lineare di due stati $\psi_{a}^{0}$ e $\psi_{b}^{0}$, mentre quello meno energetico diventa una combinazione lineare [[Orthogonality|ortogonale]]. Il problema sta nel fatto che, a priori, noi non sappiamo quali sono questi stati specifici.
 
 ![[Divisione autostati in perturbazione.png]]
 *Da Introduction to Quantum Mechanics di Griffiths, p. 260*
@@ -35,7 +35,7 @@ per il $k$-esimo ordine.
 ##### Primo ordine
 Il primo ordine è
 $$H^{0}\psi^{1}+\hat{V}\psi^{0}=E^{0}\psi^{1}+E^{1}\psi^{0}$$
-Prendendo il [[prodotto scalare]] con $\psi_{a}^{0}$ troviamo
+Prendendo il [[Scalar product]] con $\psi_{a}^{0}$ troviamo
 $$\langle \psi_{a}^{0}|H^{0}\psi^{1}\rangle+\langle \psi_{a}^{0}|\hat{V}\psi^{0}\rangle=E^{0}\langle \psi_{a}^{0}|\psi^{1}\rangle+E^{1}\langle \psi_{a}^{0}|\psi^{0}\rangle$$
 Usando l'[[Operatore autoaggiunto|autoaggiuntezza]] di $H^{0}$, il primo termine a sinistra si semplifica con il primo a destra, lasciando
 $$\langle \psi_{a}^{0}|\hat{V}\psi^{0}\rangle=E^{1}\langle \psi_{a}^{0}|\psi^{0}\rangle$$

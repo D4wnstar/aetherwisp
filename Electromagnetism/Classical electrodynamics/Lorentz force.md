@@ -10,7 +10,7 @@ This is the force density. The amount $\mathbf{f}dV$ is the Lorentz force applie
 ### Work done
 The Lorentz force does do [[work]], but only the electric part does. Magnetic forces do no work. In fact, the work per unit distance $d\mathbf{s}$ is
 $$dW=\mathbf{F}\cdot d\mathbf{s}=q(\mathbf{E}+\mathbf{v}\times \mathbf{B})\cdot d\mathbf{s}=q\mathbf{E}\cdot d\mathbf{s}+q(\mathbf{v}\times \mathbf{B})\cdot d\mathbf{s}$$
-The electric field can be in any direction, so $\mathbf{E}\cdot d\mathbf{s}$ gives *something*. Meanwhile, the (instantaneous) velocity has at any moment the same direction as $d\mathbf{s}$, since it's defined as $\mathbf{v}=d\mathbf{s}/dt$. But remember that the [[Prodotto vettoriale|vector product]] is always perpendicular to both of its arguments, so $\mathbf{v}\times \mathbf{B}$ has to be perpendicular to $d\mathbf{s}=\mathbf{v}dt$, which means that the [[Prodotto scalare|scalar product]] is always zero: $(\mathbf{v}\times \mathbf{B})\cdot d\mathbf{s}=0$. So what we're left with is
+The electric field can be in any direction, so $\mathbf{E}\cdot d\mathbf{s}$ gives *something*. Meanwhile, the (instantaneous) velocity has at any moment the same direction as $d\mathbf{s}$, since it's defined as $\mathbf{v}=d\mathbf{s}/dt$. But remember that the [[Vector product|vector product]] is always perpendicular to both of its arguments, so $\mathbf{v}\times \mathbf{B}$ has to be perpendicular to $d\mathbf{s}=\mathbf{v}dt$, which means that the [[Scalar product|scalar product]] is always zero: $(\mathbf{v}\times \mathbf{B})\cdot d\mathbf{s}=0$. So what we're left with is
 $$dW=q\mathbf{E}\cdot d\mathbf{s}$$
 The total work is then given by integrating this over any path.
 
@@ -18,7 +18,7 @@ The work is always carried out by the electric part of the force due to the char
 ### Poynting's theorem
 We can also express work through the [[electric current]] density. If we take an infinitesimal volume $dV$, the charge inside is $dq=\rho dV$:
 $$dq\mathbf{E}\cdot \mathbf{v}dt=\rho dV\ \mathbf{E}\cdot \mathbf{v}dt=\mathbf{E}\cdot \rho \mathbf{v}\ dVdt=\mathbf{E}\cdot \mathbf{J}\ dVdt=d^{2}W$$
-(the square on the work [[differential]] is because there are two infinitesimals now). If we pull "divide" by $dt$ and integrate over the volume we get the power:
+(the square on the work [[Differential]] is because there are two infinitesimals now). If we pull "divide" by $dt$ and integrate over the volume we get the power:
 $$P=\frac{dW}{dt}=\int_{V}\mathbf{E}\cdot \mathbf{J}\ dV$$
 We can elaborate on $\mathbf{E}\cdot \mathbf{J}$:
 $$\begin{align}
@@ -50,7 +50,7 @@ $$\mathbf{f}=\varepsilon_{0}(\nabla\cdot\mathbf{E})\mathbf{E}+ \frac{1}{\mu_{0}}
 Using the antisymmetric property of the vector product, we can write $(\nabla\times\mathbf{B})\times \mathbf{B}=-\mathbf{B}\times(\nabla\times\mathbf{B})$, so that the magnetic term is symmetrical to the electric one (the last one).
 
 > [!tip] Gradient of a scalar product
-> The [[gradient]] of a [[Prodotto scalare|scalar product]] is
+> The [[Gradient]] of a [[Scalar product|scalar product]] is
 > $$\nabla(\mathbf{A}\cdot \mathbf{B})=\mathbf{A}\times(\nabla\times\mathbf{B})+\mathbf{B}\times(\nabla\times\mathbf{A})+(\mathbf{A}\cdot \nabla)\mathbf{B}+(\mathbf{B}\cdot \nabla)\mathbf{A}$$
 > If $\mathbf{A}=\mathbf{B}=\mathbf{E}$ we find
 > $$\nabla(E^{2})=2\mathbf{E}\times(\nabla\times\mathbf{E})+2(\mathbf{E}\cdot \nabla)\mathbf{E}\quad\Rightarrow \quad \mathbf{E}\times(\nabla\times\mathbf{E})=\frac{1}{2}\nabla(E^{2})-(\mathbf{E}\cdot \nabla)\mathbf{E}$$
@@ -64,4 +64,4 @@ $$\begin{align}
 \end{align}$$
 This is a very lengthy equation, with seven total terms. That said, we can very easily spot a symmetry between the electric and magnetic fields: in fact, if it weren't for the constants $\varepsilon_{0}$ and $1/\mu_{0}$, the terms would be identical, just with $\mathbf{E}$ changed to $\mathbf{B}$. Physically speaking, this is not random chance, and mathematically it can be exploited to express the equation in a much simpler form. To do so, we introduce the [[Maxwell stress tensor]] $T$, defined by its elements
 $$T_{ij}=\varepsilon_{0}\left( E_{i}E_{j}- \frac{1}{2}\delta_{ij}E^{2} \right)+ \frac{1}{\mu_{0}}\left( B_{i}B_{j}- \frac{1}{2}\delta_{ij}B^{2} \right)$$
-where $\delta_{ij}$ is the [[Delta di Kronecker]].
+where $\delta_{ij}$ is the [[Kronecker delta]].

@@ -13,7 +13,7 @@ $$\begin{align}
 \end{align}$$
 where $k_{B}$ is the [[Boltzmann constant]]. The Lagrange multiplier theorem tells us that if some value $\bar{x}$ is a maximum of $S$, then there exist specific values of $\lambda_{1}$ and $\lambda_{2}$ such that $\bar{x}$ is a [[Punto critico|stationary point]] for $\mathcal{L}$:
 $$\text{If }S(\bar{x})\text{ is a maximum}\quad\Rightarrow \quad \nabla \mathcal{L}(\bar{x};\lambda_{1},\lambda_{2})=0$$
-In our case, $\mathcal{L}$ is univariate, so the [[gradient]] is just the derivative in $p$:
+In our case, $\mathcal{L}$ is univariate, so the [[Gradient]] is just the derivative in $p$:
 $$\begin{align}
 \frac{d\mathcal{L}}{d p}&=0 \\
 &=\frac{d}{dp}\left( -k_{B}\sum_{x}p(x)\log p(x) \right)+ \lambda_{1}\frac{d}{dp}\left(1 -\sum p(x) \right)+ \lambda_{2}\frac{d}{dp}\left( U-\sum_{x}p(x)E(x) \right) \\
@@ -27,7 +27,7 @@ Extracting $\log p(x)$ we get
 $$\log p(x)=\frac{k_{B}+\lambda_{1}+\lambda_{2}E(x)}{-k_{B}}= \frac{-k_{B}-\lambda_{1}-\lambda_{2}E(x)}{k_{B}}$$
 Therefore
 $$p(x)=e^{(-k_{B}-\lambda_{1}-\lambda_{2}E(x))/k_{B}}$$
-This equation must satisfy probability [[Normalizzazione|normalization]]:
+This equation must satisfy probability [[Normalization|normalization]]:
 $$\sum_{x}p(x)=1=\sum_{x}e^{(-k_{B}-\lambda_{1})/k_{B}}e^{-\lambda_{2}E(x)/k_{B}}=e^{(-k_{B}-\lambda_{1})/k_{B}}Z$$
 where we introduced the [[partition function]] $Z$
 $$Z\equiv\sum_{x}e^{-\lambda_{2}E(x)/k_{B}}$$

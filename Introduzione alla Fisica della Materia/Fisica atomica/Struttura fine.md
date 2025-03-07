@@ -62,7 +62,7 @@ quindi l'energia potenziale vera diventa
 $$\tilde{V}(\vec{r})=\underbrace{\int\rho_{0}(\vec{u})d^{3}\vec{u}}\limits_{0}+\sum\limits_{i}^{\infty}\left.\frac{\partial V}{\partial x_{i}}\right|_{\vec{r}}\int \rho_{0}(\vec{u})u_{i}d^{3}\vec{u}+ \frac{1}{2}\sum\limits_{i,j}^{\infty}\left.\frac{\partial ^{2}V}{\partial x_{i}\partial x_{j}}\right|_{\vec{r}} \underbrace{\int \rho_{0}(\vec{u})u_{i}u_{j}d^{3}\vec{u}}\limits_{*}$$
 dove $*$ diventa
 $$\delta_{ij}\frac{1}{3}\int \rho_{0}(\vec{u})u^{2}d^{3}\vec{u}$$
-con $\delta_{ij}$ la [[Delta di Kronecker]]. Rimangono allora solo gli indici uguali $i=j$, il che rende la somma di derivate seconde un [[Laplaciano]]. Dunque possiamo scrivere
+con $\delta_{ij}$ la [[Kronecker delta]]. Rimangono allora solo gli indici uguali $i=j$, il che rende la somma di derivate seconde un [[Laplaciano]]. Dunque possiamo scrivere
 $$\tilde{V}(\vec{r})=V(\vec{r})+ \frac{1}{6}\nabla^{2}V(\vec{r})\int \rho_{0}(\vec{u})u^{2}d^{3}\vec{u}$$
 Si può modellare $\rho_{0}$ come
 $$\newcommand\lambdabar{

@@ -1,0 +1,17 @@
+---
+tags:
+  - integrali
+  - integrali-fisica
+---
+Il **teorema della divergenza** è un risultato che permette di trasformare l'integrale della [[divergenza]] di un [[Campo vettoriale]] su un volume in un integrale sulla [[Superficie]] che racchiude il volume, passando quindi da tre a due dimensioni.
+
+Sia dato un campo vettoriale $F : U ⊂ \mathbb{R}^{3} → \mathbb{R}^{3}$ . Consideriamo un dominio chiuso $D ⊂ U$ avente come frontiera $∂^+D = \Sigma$ il sostegno di una superficie chiusa e orientata con un campo $\hat{\nu}$ uscente. Allora
+$$\iiint_{D}(\nabla\cdot F)(x,y,z)\ dxdydz=\iint_{\partial^+D}F\cdot\hat{\nu}\;dS$$
+Vale anche nel piano, nel cui caso si passa da una superficie ad una [[Curva]] chiusa racchiudente la superficie. Nel caso unidimensionale diventa l'integrazione per parti.
+
+Vale anche
+$$\iiint_{D}(\nabla\times F)(x,y,z)dxdydz=-\iint_{\partial^+D}F\times\hat{\nu}\;dS$$
+Nel caso di una funzione a valori scalari $\phi:U\subset \mathbb{R}^{3}\rightarrow \mathbb{R}$
+$$\iiint_{D}(\nabla\phi)(x,y,z)dxdydz=\iint_{\partial^+D}\phi\hat{\nu}\;dS$$
+
+Nel caso bidimensionale, è equivalente al [[Teorema del rotore|teorema di Green]].

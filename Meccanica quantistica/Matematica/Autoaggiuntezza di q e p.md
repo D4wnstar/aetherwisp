@@ -2,13 +2,13 @@ Gli [[operatore|operatori]] $\hat{q}$ e $\hat{p}$ sono gli operatori più import
 ### Autoaggiuntezza di $\hat{p}$
 Consideriamo due funzioni generiche $\psi$ e $\phi$. Ricordiamo che vale
 $$(\hat{p}\psi)(x)=-i\hbar \psi(x)\tag{1}$$
-Allora partiamo dalla definizione di autoaggiuntezza e sviluppiamo il [[prodotto scalare]]
+Allora partiamo dalla definizione di autoaggiuntezza e sviluppiamo il [[Scalar product]]
 $$\begin{align}
 \braket{ \psi | \hat{p}\phi }&=\int_{-\infty}^{\infty} \overline{\psi(x)}\left( -i\hbar \partial_{x}  \phi(x) \right) \, dx  \\
 &=-i\hbar \overline{\psi(x)}\phi(x)|_{-\infty}^{\infty}+i\hbar \int_{-\infty}^{\infty} \overline{\partial_{x}  \psi (x)}\phi(x) \, dx \\
 &=\int_{-\infty}^{\infty} \overline{-i\hbar \partial_{x}  \psi(x)}\phi(x) \, dx =\braket{ \hat{p}\psi | \phi } 
 \end{align}$$
-usando l'[[integrazione per parti]]. Quindi vale $\braket{ \psi | \hat{p}\phi }=\braket{ \hat{p}\psi | \phi }$. È possibile dimostrare come $\hat{p}$ sia in realtà solo [[Operatore autoaggiunto|hermitiano]] e non propriamente autoaggiunto e che quindi non valga $\hat{p}=\hat{p}^{+}$. Per le necessità della meccanica quantistica, questo non fa differenza.
+usando l'[[Integrazione per parti]]. Quindi vale $\braket{ \psi | \hat{p}\phi }=\braket{ \hat{p}\psi | \phi }$. È possibile dimostrare come $\hat{p}$ sia in realtà solo [[Operatore autoaggiunto|hermitiano]] e non propriamente autoaggiunto e che quindi non valga $\hat{p}=\hat{p}^{+}$. Per le necessità della meccanica quantistica, questo non fa differenza.
 ### Autoaggiuntezza di $\hat{q}$
 Consideriamo due funzioni generiche $\psi$ e $\phi$. Ricordiamo che vale
 $$(\hat{q}\psi)(x)=x\psi(x)\tag{2}$$

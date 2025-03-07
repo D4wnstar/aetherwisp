@@ -19,7 +19,7 @@ Combining $1$ and $2$ we get
 $$\frac{ \partial  }{ \partial t } \int_{\omega}\rho\ d\omega=-\int_{\omega}\nabla\cdot\mathbf{(\rho \mathbf{v})}\ d\omega \quad\to \quad \int_{\omega}\left( \frac{ \partial \rho }{ \partial t } +\nabla\cdot\mathbf{(\rho \mathbf{v})} \right)\ d\omega=0$$
 Recall that $\omega$ was completely arbitrary. We have proven that this integral vanishes for $\omega$, and so it must vanish for *any* $\omega$, and therefore anywhere in phase space. But for an integral to vanish anywhere, in any subset of space, it must be the integral of zero. So
 $$\frac{ \partial \rho }{ \partial t } +\nabla\cdot\mathbf{(\rho \mathbf{v})=0}\tag{3}$$
-This is the continuity equation for representative points. The [[divergence]], when written explicitly in this space, reads
+This is the continuity equation for representative points. The [[Divergence]], when written explicitly in this space, reads
 $$\nabla\cdot\mathbf{(\rho \mathbf{v})}=\sum_{i=1}^{3N} \left[ \frac{ \partial  }{ \partial q_{i} } (\rho \dot{q}_{i})+ \frac{ \partial  }{ \partial p_{i} } (\rho \dot{p}_{i}) \right]=\underbrace{ \sum_{i=1}^{3N} \left[ \frac{ \partial \rho }{ \partial q_{i} }\dot{q}_{i} +\frac{ \partial \rho }{ \partial p_{i} }\dot{p}_{i}  \right] }_{ \{ \rho,H \} }+\rho\sum_{i=1}^{3N} \left[ \underbrace{ \frac{ \partial \dot{q}_{i} }{ \partial q_{i} } +\frac{ \partial \dot{p}_{i} }{ \partial p_{i} } }_{ 0 }  \right]$$
 The second step is by and expanding the derivatives. By the [[Hamilton equations]] of motion, the terms in the second sum are all zero, while the first is the [[Poisson bracket]] of $\rho$ and $H$. Using this knowledge in $(3)$ we can state
 $$\frac{ \partial \rho }{ \partial t } +\{ \rho,H \}=0$$

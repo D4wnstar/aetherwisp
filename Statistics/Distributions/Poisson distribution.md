@@ -22,7 +22,7 @@ The coefficients are
 1. $\gamma_{1}=1/\sqrt{ n }$ ([[skewness]], tends to become symmetrical when the number of sample events is very high)
 2. $\gamma_{2}=1/\nu$ ([[kurtosis]], tends to flatten the tails for a high number of events)
 ### Properties
-- It is [[Normalizzazione|normalized]], with normalization constant $c=1$
+- It is [[Normalization|normalized]], with normalization constant $c=1$
 ### As limit of the binomial distribution
 Let's consider the binomial distribution's MGF
 $$M_{kB}^{*}(t)=(e^{t}p+q)^{n}=[(e^{t}-1)p+1]^{n}$$

@@ -35,6 +35,6 @@ The coefficients are
 1. $\gamma_{1}=2$ ([[skewness]], it asymmetrical around the mean)
 2. $\gamma_{2}=6$ ([[kurtosis]])
 ### Properties
-It is [[Normalizzazione|normalized]] with a constant of $c=1$.
+It is [[Normalization|normalized]] with a constant of $c=1$.
 ### Relation to other distributions
 The sum of several exponential random variables, all with the same parameter $\tau$, is an [[Erlang distribution]].

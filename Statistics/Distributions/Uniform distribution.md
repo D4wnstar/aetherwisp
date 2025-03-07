@@ -28,4 +28,4 @@ The coefficients are
 1. $\gamma_{1}=0$ ([[skewness]], it is symmetrical around the mean)
 2. $\gamma_{2}=- 6/5$ ([[kurtosis]])
 ### Properties
-It is [[Normalizzazione|normalized]] by $c=\frac{1}{b-a}$.
+It is [[Normalization|normalized]] by $c=\frac{1}{b-a}$.

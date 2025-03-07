@@ -6,7 +6,7 @@ Nel caso in cui $|\psi\rangle$ siano un [[Equazione agli autovalori|autostato]] 
 $$|\psi_{t}\rangle=\hat{U}_{t}|\psi\rangle=e^{-iEt/\hbar}|\psi\rangle$$
 
 > [!example] Dimostrazione
-> Considerato uno stato generico $\ket{\psi}$, applicandogli l'evolutore, possiamo espanderlo in [[serie di Fourier]] dato che appartiene ad un [[sistema ortonormale completo]], ricordando che i coefficienti di Fourier sono $c_{E}=\braket{ \psi_{E} | \psi }$:
+> Considerato uno stato generico $\ket{\psi}$, applicandogli l'evolutore, possiamo espanderlo in [[Serie di Fourier]] dato che appartiene ad un [[sistema ortonormale completo]], ricordando che i coefficienti di Fourier sono $c_{E}=\braket{ \psi_{E} | \psi }$:
 > $$\begin{align}
 > \hat{U}_{t}\ket{\psi} &=\hat{U}_{t}\left( \sum_{E}\braket{ \psi_{E} | \psi } \ket{\psi_{E}}  \right) \\
 > &=\sum_{E}\braket{ \psi_{E} | \psi } \hat{U}_{t}\ket{\psi_{E}}  \\
@@ -22,7 +22,7 @@ $$\Psi(x,t+t_{0})=\Psi(x,t)e^{-\frac{i}{\hbar}\hat{H}t_{0}}=\Psi(x,t)\hat{U}_{t_
 ### Proprietà
 L'evolutore è reversibile ed è un [[operatore unitario]], ossia
 $$\hat{U}_{t}^{\dagger}\hat{U}_{t}=\hat{U}_{t}\hat{U}_{t}^{\dagger}=\mathbf{\hat{1}} \;\Rightarrow\; \hat{U}^{\dagger}_{t}=\hat{U}^{-1}_{t}$$
-che è valido *solo* perché $\frac{i}{\hbar}t\hat{H}$ e $-\frac{i}{\hbar}t\hat{H}$ [[Commutatore|commutano]]. Questo è perché, esprimendo due esponenziali come [[serie esponenziale]], si trova
+che è valido *solo* perché $\frac{i}{\hbar}t\hat{H}$ e $-\frac{i}{\hbar}t\hat{H}$ [[Commutatore|commutano]]. Questo è perché, esprimendo due esponenziali come [[Serie esponenziale]], si trova
 $$e^{\hat{A}}e^{\hat{B}}\neq e^{\hat{A}+\hat{B}}$$
 in generale. Ciò è vero solo se $\hat{A}$ e $\hat{B}$ commutano.
 ### Spin

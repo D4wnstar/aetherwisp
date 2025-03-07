@@ -1,4 +1,4 @@
-**Maxwell's equations** are four equations that determine the [[divergence]] and [[curl]] of the [[Electric field|electric]] and [[magnetic field]]. In the vacuum they are
+**Maxwell's equations** are four equations that determine the [[Divergence]] and [[Curl]] of the [[Electric field|electric]] and [[magnetic field]]. In the vacuum they are
 $$\boxed{\begin{align}
 \nabla\cdot\mathbf{E} & =\frac{\rho}{\varepsilon_{0}} &
 \nabla\times\mathbf{E} & = -\frac{ \partial \mathbf{B} }{ \partial t } \\
@@ -46,7 +46,7 @@ $$\begin{align}
 \oint_{\mathcal{S}}\mathbf{D}\cdot d\mathbf{a} & =Q_{f,enc} & \oint_{\gamma}\mathbf{E}\cdot d\mathbf{r} & =- \frac{d}{dt} \int_{\mathcal{S}}\mathbf{B}\cdot d\mathbf{a} \\
 \oint_{\mathcal{S}}\mathbf{B}\cdot d\mathbf{a} & =0 & \oint_{\gamma}\mathbf{H}\cdot d\mathbf{r} & =I_{f,enc}+\frac{d}{dt} \int_{\mathcal{S}}\mathbf{D}\cdot d\mathbf{a}
 \end{align}$$
-where the two left ones are integrated over any closed [[Superficie|surface]] $\mathbf{S}$ and the two right ones are for any closed surface bounded by a closed [[curva|line]] $\gamma$.
+where the two left ones are integrated over any closed [[Superficie|surface]] $\mathbf{S}$ and the two right ones are for any closed surface bounded by a closed [[Curva|line]] $\gamma$.
 ### Boundary conditions
 In general, all the fields used in Maxwell's equations will be discontinuous over a surface charge or current. We can find the boundary conditions by applying the integral equations in matter.
 

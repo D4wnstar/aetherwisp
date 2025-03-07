@@ -52,6 +52,6 @@ e anche la condizione iniziale può essere trovata allo stesso modo:
 $$\boxed{\Psi(x,0)=\sum\limits_{n=1}^{\infty}c_{n}\psi(x)=\sum\limits_{n=1}^{\infty}c_{n}\sqrt{\frac{2}{a}}\sin\left(\frac{n\pi}{a}x\right)}$$
 I coefficienti per $\Psi(x,t)$ o $\Psi(x,0)$ possono essere calcolati come di norma
 $$c_{n}=(\psi_{n},\Psi(x,t))\quad\text{ oppure }\quad c_{n}=(\psi_{n},\Psi(x,0))$$
-dove la notazione intende il [[Prodotto scalare]]. La [[Norma]] di questi coefficienti, $|c_{n}|^{2}$, rappresentano la probabilità che la misura dell'energia della particella dia come risultato un certo $E_{n}$ più che un altro. La misura, inoltre, può *solo* ritornare uno degli $E_{n}$ e *mai* un valore al di fuori, al di là di errori di misura o strumentali.
+dove la notazione intende il [[Scalar product]]. La [[Norma]] di questi coefficienti, $|c_{n}|^{2}$, rappresentano la probabilità che la misura dell'energia della particella dia come risultato un certo $E_{n}$ più che un altro. La misura, inoltre, può *solo* ritornare uno degli $E_{n}$ e *mai* un valore al di fuori, al di là di errori di misura o strumentali.
 
 [^1]: È interessante notare come la quantizzazione dell'energia è nata da un obbligo matematico (le condizioni al contorno), non uno fisico.

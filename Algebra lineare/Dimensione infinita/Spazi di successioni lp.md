@@ -14,7 +14,7 @@ Si ha che se una successione è $\ell^{1}$, è anche $\ell^{2}$, ma non vicevers
 ### Spazio $\ell^{2}$
 Si definisce **spazio** $\ell^{2}$ lo spazio di tutte le successioni $\{a_{i}\}$ tali che
 $$\sum\limits_{i=1}^{\infty}|a_{i}|^{2}<+\infty$$
-È uno [[Spazio di Hilbert]] con definito il seguente [[Prodotto scalare]]: prese due successioni $a\equiv\{a_{n}\}$ e $b\equiv\{b_{n}\}$ di $\ell^{2}$, il prodotto scalare fra le due è
+È uno [[Spazio di Hilbert]] con definito il seguente [[Scalar product]]: prese due successioni $a\equiv\{a_{n}\}$ e $b\equiv\{b_{n}\}$ di $\ell^{2}$, il prodotto scalare fra le due è
 $$(a,b)=\sum\limits_{i=1}^{\infty}a_{i}^{*}b_{n}$$
 Questo spazio è particolarmente importante per un motivo: preso un vettore $v$ di uno spazio di Hilbert separabile, si ha che può essere rappresentato univocamente in una successione di coefficienti di Fourier, e questa successione appartiene a $\ell^{2}$. Esiste dunque un *isomorfismo biunivoco* tra un qualunque spazio di Hilbert separabile $H$ e $\ell^{2}$, quindi un qualunque vettore individua una successione unica in $\ell^{2}$ e viceversa. Vale inoltre, grazie all'[[Identità di Parseval]], che la [[Norma]] calcolata in $H$ è sempre uguale alla norma calcolata in $\ell^{2}$ usando la successione associata.
 

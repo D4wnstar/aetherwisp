@@ -1,4 +1,4 @@
-Il **modello di Bohr** è un modello classico della struttura dell'[[atomo di idrogeno]]. Esso afferma che gli atomi si muovono nel [[potenziale]] centrale del [[Nucleo atomico|nucleo]] su orbite circolari. Descrive con buona precisione il comportamento sperimentale dell'idrogeno e dei suoi [[Isotopo|isotopi]], ma non è un modello quantistico e non è in grado di risolvere sistemi con più elettroni.
+Il **modello di Bohr** è un modello classico della struttura dell'[[atomo di idrogeno]]. Esso afferma che gli atomi si muovono nel [[Potenziale]] centrale del [[Nucleo atomico|nucleo]] su orbite circolari. Descrive con buona precisione il comportamento sperimentale dell'idrogeno e dei suoi [[Isotopo|isotopi]], ma non è un modello quantistico e non è in grado di risolvere sistemi con più elettroni.
 ### Postulati
 Il modello di Bohr ha tre postulati:
 1. Sono permessi solo un insieme discreto di orbite e si chiamano *stati stazionari*.

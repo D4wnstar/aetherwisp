@@ -33,7 +33,7 @@ quindi
 $$\langle f|g\rangle-\langle g|f\rangle=\langle [\hat{A},\hat{B}] \rangle$$
 che è il valor medio del [[Commutatore]] delle due osservabili. Allora, scrivendo la media in forma estesa e notando $(1/2i)^{2}=-1/4$, possiamo scrivere la disuguaglianza di Heisenberg in uno stato $\psi$ come
 $$\boxed{\sigma_{A}^{2}\sigma_{B}^{2}\geq -\frac{1}{4} \left(\bra{\psi} [\hat{A},\hat{B}]\ket{\psi} \right)^{2}}\tag{3}$$
-Il commutatore di due operatori autoaggiunti ha valore di aspettazione immaginario, quindi la $i$ al denominatore si semplifica e il valore è reale e positivo, come ci si aspetta. Allora il principio di indeterminazione è un concetto più generale che si applica a *tutte le coppie di osservabili che hanno commutatore non nullo*. Queste coppie si dicono **osservabili incompatibili**. Se invece il commutatore è nullo, non si applica il principio di indeterminazione e si dicono **osservabili compatibili**. Osservabili compatibili ammettono un [[sistema completo]] di [[Equazione agli autovalori|autofunzioni]] condivise, mentre quelle incompatibili no.[^1]
+Il commutatore di due operatori autoaggiunti ha valore di aspettazione immaginario, quindi la $i$ al denominatore si semplifica e il valore è reale e positivo, come ci si aspetta. Allora il principio di indeterminazione è un concetto più generale che si applica a *tutte le coppie di osservabili che hanno commutatore non nullo*. Queste coppie si dicono **osservabili incompatibili**. Se invece il commutatore è nullo, non si applica il principio di indeterminazione e si dicono **osservabili compatibili**. Osservabili compatibili ammettono un [[Sistema completo]] di [[Equazione agli autovalori|autofunzioni]] condivise, mentre quelle incompatibili no.[^1]
 
 Se decidiamo $A=q$ e $B=p$ si ha che il commutatore fra le due è $[\hat{q},\hat{p}]=i\hbar$ e quindi la $(3)$ diventa
 $$\sigma_{p}^{2}\sigma_{q}^{2}\geq \frac{\hbar^{2}}{4}$$
@@ -72,7 +72,7 @@ $$\begin{align}
 \end{align}$$
 Quindi sostituendo questo nell'equazione precedente troviamo
 $$p\psi(p)-\langle \hat{p} \rangle _{\psi}\psi(p)=-\mu \hbar \partial_{p}\psi(p)-i\mu \langle \hat{p} \rangle _{\psi}$$
-Questa si può risolvere allo stesso modo della posizione. Le due funzioni $\psi(p)$ e $\psi(x)$ sono come al solito legate dalla [[trasformata di Fourier]] come $\mathcal{F}[\psi(p)]=\psi(x)$.
+Questa si può risolvere allo stesso modo della posizione. Le due funzioni $\psi(p)$ e $\psi(x)$ sono come al solito legate dalla [[Trasformata di Fourier]] come $\mathcal{F}[\psi(p)]=\psi(x)$.
 ### Disuguaglianza tempo-energia
 Dalla forma generale del principio di indeterminazione possiamo ottenere la legge per la coppia tempo-energia, che ha un significato fisico particolare. Allora partiamo cercando una misura di quanto in fretta un sistema stia cambiano calcolando la derivata temporale del valor medio di un'osservabile $Q(x,p,t)$:
 $$\frac{d}{dt}\left\langle Q \right\rangle=\frac{d}{dt}\langle \psi|\hat{Q}\psi\rangle=\left\langle \frac{\partial \psi}{\partial t}|\hat{Q}\psi\right\rangle+\left\langle \psi| \frac{\partial \left\langle Q \right\rangle}{\partial t}\psi\right\rangle + \left\langle \psi|\hat{Q}\frac{\partial \psi}{\partial t}\right\rangle$$

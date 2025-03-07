@@ -23,7 +23,7 @@ $$\oint \mathbf{B}\cdot d\mathbf{r}=B\oint dl=B 2\pi s=\mu_{0}I_{enc}=\mu_{0}I$$
 or
 $$B=\frac{\mu_{0}I}{2\pi s}$$
 #### Loop across a surface
-Consider a uniform surface current density $\mathbf{K}=K \hat{\mathbf{x}}$ flowing over the $xy$ plane. The magnetic field cannot have an $x$ component since the [[Prodotto vettoriale|cross product]] between the current and the position vector in the [[Biot-Savart law]] must be on the $yz$ plane. But it also cannot have a $z$ component as the $z$ component of the field cannot possibly depend on the direction of the current in the $xy$ plane. Another way of looking at this is to imagine a wire in the direction of the current density. This creates a loop of magnetic field around it. If you add another wire right next to it, it'll create a second loop, but the left side of the second loop cancels out the right side of the first loop because of the superposition principle. The only parts that don't cancel out are the horizontal ones at the top and bottom. This way, the leftmost and rightmost parts remains circular, but the center is now stretched out a little. If you keep adding wires, the central flat field gets stretched out even more, until it either goes to infinity or you just pretend the surface current you just made is large enough you can only consider the central portion. Thus, the field of a flat current density is parallel to the surface and perpendicular to the current and the only direction that can be is the $y$ axis.
+Consider a uniform surface current density $\mathbf{K}=K \hat{\mathbf{x}}$ flowing over the $xy$ plane. The magnetic field cannot have an $x$ component since the [[Vector product|cross product]] between the current and the position vector in the [[Biot-Savart law]] must be on the $yz$ plane. But it also cannot have a $z$ component as the $z$ component of the field cannot possibly depend on the direction of the current in the $xy$ plane. Another way of looking at this is to imagine a wire in the direction of the current density. This creates a loop of magnetic field around it. If you add another wire right next to it, it'll create a second loop, but the left side of the second loop cancels out the right side of the first loop because of the superposition principle. The only parts that don't cancel out are the horizontal ones at the top and bottom. This way, the leftmost and rightmost parts remains circular, but the center is now stretched out a little. If you keep adding wires, the central flat field gets stretched out even more, until it either goes to infinity or you just pretend the surface current you just made is large enough you can only consider the central portion. Thus, the field of a flat current density is parallel to the surface and perpendicular to the current and the only direction that can be is the $y$ axis.
 
 Thus, we draw an Amperian square loop across the surface with a side of $l$, with the current passing through the loop (i.e. on the $yz$ plane). Applying Ampere's law
 $$\oint \mathbf{B}\cdot \mathbf{r}=2Bl=\mu_{0}I_\text{enc}=\mu_{0}Kl$$
@@ -53,7 +53,7 @@ Consider any magnetized object upon which is set a free current $\mathbf{J}_{f}$
 $$\mathbf{J}=\mathbf{J}_{b}+\mathbf{J}_{f}$$
 From Ampere's law we get
 $$\frac{1}{\mu_{0}}(\nabla\times\mathbf{B})=\mathbf{J}=\mathbf{J}_{b}+\mathbf{J}_{f}=\mathbf{J}_{f}+(\nabla\times\mathbf{M})$$
-if we collect the [[curl|curls]] we get
+if we collect the [[Curl|curls]] we get
 $$\nabla \times\left( \frac{1}{\mu_{0}}\mathbf{B}-\mathbf{M} \right)=\nabla\times\mathbf{H}=\mathbf{J}_{f}$$
 where $\mathbf{H}$ is the [[auxiliary field]]. Thus Ampere's law in magnetized matter is
 $$\nabla\times\mathbf{H}=\mathbf{J}_{f}$$
@@ -61,7 +61,7 @@ and in integral form
 $$\oint \mathbf{H}\cdot d\mathbf{r}=I_{f,\text{enc}}$$
 where $I_{f,enc}$ is the free current enclosed in the Amperian loop.
 ### In electrodynamics
-There is an internal issue with how Ampere's law is formulated. In differential form, it is the curl of the magnetic field and from calculus we know that the [[divergence]] of curl is always zero. And yet, if we apply the divergence to Ampere's law we get
+There is an internal issue with how Ampere's law is formulated. In differential form, it is the curl of the magnetic field and from calculus we know that the [[Divergence]] of curl is always zero. And yet, if we apply the divergence to Ampere's law we get
 $$\nabla\cdot(\nabla\times\mathbf{B})=\mu_{0}(\nabla\cdot\mathbf{J})$$
 which is, in general, not zero. It *is* zero in magnetostatics, when using steady currents, but beyond magnetostatics (when dealing with electrodynamics), it cannot be correct. Truth is, Ampere's law is actually missing a piece, as Maxwell discovered.
 
@@ -77,7 +77,7 @@ The problem arises in electrodynamics: this never occurred in magnetostatics bec
 
 To find the missing link, apply the current continuity equation and Gauss' law to the problematic side of Ampere's law
 $$\nabla\cdot\mathbf{J}=- \frac{ \partial \rho }{ \partial t } =-\frac{ \partial  }{ \partial t } (\varepsilon_{0}\nabla\cdot\mathbf{E})=-\nabla \cdot\left( \varepsilon_{0}\frac{ \partial \mathbf{E} }{ \partial t }  \right)$$
-where we brought the time derivative inside the [[divergence]] because the $\mathbf{E}$ function is "well-behaved", i.e. continuous and [[Differential|differentiable]]. So, if we add the term in brackets to Ampere's law, it would exactly cancel out the divergence of the right hand side and fix the law. Thus, we get the **Ampere-Maxwell law**:
+where we brought the time derivative inside the [[Divergence]] because the $\mathbf{E}$ function is "well-behaved", i.e. continuous and [[Differential|differentiable]]. So, if we add the term in brackets to Ampere's law, it would exactly cancel out the divergence of the right hand side and fix the law. Thus, we get the **Ampere-Maxwell law**:
 $$\boxed{\nabla\times\mathbf{B}=\mu_{0}\mathbf{J}+\mu_{0}\varepsilon_{0}\frac{ \partial \mathbf{E} }{ \partial t }}$$
 The new terms vanishes in magnetostatics, where $\mathbf{E}$ is constant in time, but it cannot be ignored in electrodynamics, where it has the fundamental consequence:
 

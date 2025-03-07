@@ -3,7 +3,7 @@ aliases:
   - autoproiettore
   - relazione di completezza
 ---
-Si chiama **proiettore** $\hat{P}_{\psi}$ l'[[operatore lineare]] che, applicato ad un elemento di uno [[Vector space]], risulta nella componente di quell'elemento che giace sulla direzione $\psi$ di una [[base]] [[Ortonormalità|ortonormale]]. Usando la [[notazione braket]], si scrive
+Si chiama **proiettore** $\hat{P}_{\psi}$ l'[[operatore lineare]] che, applicato ad un elemento di uno [[Vector space]], risulta nella componente di quell'elemento che giace sulla direzione $\psi$ di una [[base]] [[Orthonormality|ortonormale]]. Usando la [[notazione braket]], si scrive
 $$\hat{P}_\psi=|\psi\rangle\langle\psi|$$
 e applicato ad un vettore $|\phi\rangle$ si scrive
 $$\hat{P}_{\psi}|\phi\rangle=\langle\psi|\phi\rangle|\psi\rangle$$
@@ -18,14 +18,14 @@ usando che $\braket{ \psi | \psi }=1$ ($\psi$ è componente di una base ortonorm
 È [[Operatore autoaggiunto|hermitiano]], infatti
 $$\langle \phi|\hat{P}_{x}\psi\rangle=\langle \hat{P}_{x}\phi+\phi-\tilde{\phi}|\hat{P}_{x}\psi\rangle=\langle \hat{P}_{x}\phi|\hat{P}_{x}\psi\rangle=\langle \hat{P}_{x}\phi|\hat{P}_{x}\psi+\psi-\tilde{\psi}\rangle=\langle \hat{P}_{x}\phi|\psi\rangle$$
 
-Sono [[Ortogonalità|ortogonali]] fra loro, ossia presi due proiettori su vettori ortogonali $\phi_{1}$ e $\phi_{2}$, si ha
+Sono [[Orthogonality|ortogonali]] fra loro, ossia presi due proiettori su vettori ortogonali $\phi_{1}$ e $\phi_{2}$, si ha
 $$\braket{ \phi_{1} | \phi_{2} } =0\quad\Rightarrow \quad \hat{P}_{\phi_{1}}\hat{P}_{\phi_{2}}=0$$
 infatti
 $$\hat{P}_{\phi_{1}}\hat{P}_{\phi_{2}}\ket{\psi} =\braket{ \phi_{1} | \hat{P}_{\phi_{2}}\psi }\ket{\phi_{1}} =\braket{ \phi_{1} | \braket{ \phi_{2} | \psi } \phi_{2} }\ket{\phi_{1}} =\braket{ \phi_{2} | \psi } \underbrace{ \braket{ \phi_{1} | \phi_{2} } }_{ 0 } \ket{\phi_{1}} =0  $$
 e più in generale si può scrivere
 $$\hat{P}_{\phi_{i}}\hat{P}_{\phi _{j}}=\delta_{ij}\hat{P}_{\phi_{i}}$$
 
-Ha [[traccia]] unitaria
+Ha [[Traccia]] unitaria
 $$\text{Tr}(\hat{P}_{\psi})=1$$
 e gli [[Equazione agli autovalori|autovalori]] sono sempre 0 e 1.
 
@@ -37,7 +37,7 @@ Per dimostrare che un operatore è un proiettore bisogna dimostrare
 ### Relazione di completezza
 La **relazione di completezza** è una relazione particolarmente utile associata ai proiettori. Si verifica sia su sistemi ortonormali discreti che continui.
 #### Caso discreto
-Presa una base ortonormale discreta costituita da $\{|\phi_{i}\rangle\}^{n}_{i=1}$ definita su uno [[spazio di Hilbert]] $\mathcal{H}$, ogni vettore generico $\ket{\psi}$ di $\mathcal{H}$ può essere rappresentato come una combinazione lineare degli elementi della base in [[serie di Fourier]]:
+Presa una base ortonormale discreta costituita da $\{|\phi_{i}\rangle\}^{n}_{i=1}$ definita su uno [[spazio di Hilbert]] $\mathcal{H}$, ogni vettore generico $\ket{\psi}$ di $\mathcal{H}$ può essere rappresentato come una combinazione lineare degli elementi della base in [[Serie di Fourier]]:
 $$\ket{\psi} =\sum_{i=1}^{n} \braket{ \phi_{i} | \psi } \ket{\phi_{i}} $$
 dove $\braket{ \phi_{i} | \psi }$ sono i [[Serie di Fourier|coefficienti di Fourier]]. Dovrebbe essere evidente il parallelo con il proiettore. Se definiamo il proiettore sulla direzione  come
 $$\hat{P}_{\phi_{i}}=\ket{\phi_{i}} \bra{\phi_{i}} $$
@@ -51,11 +51,11 @@ Il caso continuo richiede degli accorgimenti. Possiamo dimostrare la relazione p
 $$\psi(x)=\braket{ x | \psi }=\int_{-\infty}^{\infty} \delta(y-x)\psi(y) \ dy=\ldots$$
 usando la [[delta di Dirac]]. È anche vero che $\braket{ x | y }=\delta(x-y)$, allora
 $$\ldots=\int_{-\infty}^{\infty} \braket{ x | y } \braket{ y | \psi }  \ dx =\bra{x} \left( \int_{-\infty}^{\infty} \underbrace{ \ket{y} \bra{y} }_{ \hat{P}_{y} }  \ dy  \right)\ket{\psi} $$
-che possiamo fare per la linearità dell'integrale. Dato che gli autostati di posizione sono continui e non discreti (e quindi non [[Normalizzazione|normalizzabili]]), l'argomento dell'integrale $\hat{P}_{y}$ non può essere un proiettore, e viene invece detto **pseudoproiettore**, in quanto condivide diverse proprietà di un proiettore, ma non è idempotente. Infatti, il quadrato di una delta di Dirac non esiste, neanche come distribuzione, quindi il quadrato di un pseudoproiettore è anch'esso indefinito.
+che possiamo fare per la linearità dell'integrale. Dato che gli autostati di posizione sono continui e non discreti (e quindi non [[Normalization|normalizzabili]]), l'argomento dell'integrale $\hat{P}_{y}$ non può essere un proiettore, e viene invece detto **pseudoproiettore**, in quanto condivide diverse proprietà di un proiettore, ma non è idempotente. Infatti, il quadrato di una delta di Dirac non esiste, neanche come distribuzione, quindi il quadrato di un pseudoproiettore è anch'esso indefinito.
 
 Detto questo, si può vedere subito che l'integrale non può avere alcun'azione sul $\ket{\psi}$, altrimenti non potrebbe essere uguale a $\braket{ x | \psi }$. Ci ritroviamo nella stessa situazione del caso discreto e allo stesso modo possiamo affermare
 $$\boxed{\int_{-\infty}^{\infty} \hat{P}_{x} \ dx=\int_{-\infty}^{\infty} \ket{x} \bra{x}  \ dx  =\hat{\mathbf{1}}}$$
-Questo risultato vale su un [[sistema ortonormale completo]], con l'ortonormalità intesa [[Ortonormalità|nel senso della delta di Dirac]].
+Questo risultato vale su un [[sistema ortonormale completo]], con l'ortonormalità intesa [[Orthonormality|nel senso della delta di Dirac]].
 ### Risultati utili
 Un vettore proiettato su sé stesso dà sé stesso:
 $$\hat{P}_{\psi}|\psi\rangle=\langle \psi|\psi\rangle|\psi\rangle=|\psi\rangle$$
@@ -65,4 +65,4 @@ $$\braket{ \phi | \psi } =0 \quad\Rightarrow \quad\hat{P}_{\psi}|\phi\rangle=\la
 
 L'esponenziale di un proiettore ha una forma particolare per merito dell'idempotenza
 $$e^{\hat{P}_{\psi}}=\sum\limits_{n=0}^{\infty} \frac{1}{n!}(\hat{P}_{\psi})^{n}=\hat{\mathbf{1}}+\left(\sum\limits_{n=1}^{\infty} \frac{1}{n!}\right)\hat{P}_{\psi}=\hat{\mathbf{1}}+(e-1)\hat{P}_{\psi}$$
-usando la [[serie esponenziale]].
+usando la [[Serie esponenziale]].

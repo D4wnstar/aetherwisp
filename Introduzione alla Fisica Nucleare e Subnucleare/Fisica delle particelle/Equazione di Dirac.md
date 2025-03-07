@@ -39,7 +39,7 @@ $$\begin{align}
 \{\alpha_{i},\alpha_{j}\}&=2\delta_{ij} \\
 \alpha_{i}^{2}=\beta^{2}&=1
 \end{align}$$
-con $\delta_{ij}$ la [[delta di Kronecker]]. Si trova che le uniche matrici che soddisfano queste condizioni sono
+con $\delta_{ij}$ la [[Kronecker delta]]. Si trova che le uniche matrici che soddisfano queste condizioni sono
 $$\alpha_{i}=\pmatrix{0 & \sigma_{i} \\ -\sigma_{i} & 0},\quad \beta=\pmatrix{\mathbb{1} & 0 \\ 0 & -\mathbb{1}}$$
 con $\sigma_{i}$ le [[matrici di Pauli]]. Evidentemente, sono una sorta di loro estensione in spazio $4\times4$.
 

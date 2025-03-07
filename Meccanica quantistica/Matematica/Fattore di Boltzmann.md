@@ -43,7 +43,7 @@ Da qui possiamo derivare l'energia associata ad una certa temperatura
 $$E(T)=\int_{0}^{\infty} \frac{\omega ^{2}}{2\pi ^{2}c^{3}}\langle H_{\omega} \rangle_{\beta}\, d\omega=k_{B}T\int_{0}^{\infty} \frac{\omega ^{2}}{2\pi ^{2}c^{3}}\,d\omega=+\infty$$
 Purtroppo l'integrale diverge, quindi è impossibile integrare l'energia per alte frequenze. Questo fatto, chiaramente falso dato che in energia le alte frequenze esistono senza divergere, è detto **catastrofe ultravioletta**. La soluzione è venuta originariamente da Planck modificando l'espressione dell'energia media dello stato affermando che gli stati di energia non sono in realtà continui, bensì discreti e pesati da una nuova costante $h$:
 $$E_{n}=h\nu n=\hbar \omega n,\quad n=0,1,2,\ldots,\quad \hbar=\frac{h}{2\pi}$$
-L'integrale dunque diventa una [[serie]], in particolare una [[serie geometrica]]:
+L'integrale dunque diventa una [[Serie]], in particolare una [[Serie geometrica]]:
 $$\sum_{h=0}^{\infty}e^{-\beta h\omega n}=\frac{1}{1-e^{-\beta h\omega}}=Z_{\beta}$$
 La costante $h$ è detta [[costante di Planck]] e $\hbar$ è la [[Costante di Planck|forma ridotta]]. Il calcolo del valor medio diventa dunque
 $$\begin{align}

@@ -5,7 +5,7 @@ In the most general form, it states the following:
 > [!info] Equipartition theorem
 > For a physical system with [[Hamiltonian]] $H$ and $N$ [[degree of freedom|degrees of freedom]] $x_{i}$, the following equality holds for all $i,j=1,\ldots,N$:
 > $$\left\langle  x_{i}\frac{ \partial H }{ \partial x_{j} }   \right\rangle=\delta_{ij}k_{B}T $$
-> where $\delta$ is the [[Delta di Kronecker|Kronecker delta]], $k_{B}$ is the [[Boltzmann constant]] and $T$ is the temperature. The brackets represent an [[ensemble average]]. The degrees of freedom are coordinates in [[phase space]].
+> where $\delta$ is the [[Kronecker delta|Kronecker delta]], $k_{B}$ is the [[Boltzmann constant]] and $T$ is the temperature. The brackets represent an [[ensemble average]]. The degrees of freedom are coordinates in [[phase space]].
 
 For $i=j$ and $x_{i}=p_{i}$ or $x_{i}=q_{i}$ we get
 $$\left\langle  p_{i}\frac{ \partial H }{ \partial p_{i} }   \right\rangle =k_{B}T\qquad \left\langle  q_{i}\frac{ \partial H }{ \partial q_{i} }   \right\rangle =k_{B}T$$

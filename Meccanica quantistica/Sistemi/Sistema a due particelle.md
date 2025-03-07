@@ -4,7 +4,7 @@ con $\nabla^{2}_{i}$ il [[Laplaciano]] rispetto alle coordinate della prima o se
 
 Una funzione d'onda così definita si comporta come ogni altra: vale l'interpretazione statistica
 $$|\Psi(\vec{r}_{1},\vec{r}_{2},t)|^{2}d\tau_{1}d\tau_{2}$$
-che rappresenta la probabilità di trovare simultaneamente la particella uno nell'elemento di volume $d\tau_{1}$ e la particella due in $d\tau_{2}$. Deve essere [[Normalizzazione|normalizzata]]:
+che rappresenta la probabilità di trovare simultaneamente la particella uno nell'elemento di volume $d\tau_{1}$ e la particella due in $d\tau_{2}$. Deve essere [[Normalization|normalizzata]]:
 $$\iint|\Psi(\vec{r}_{1},\vec{r}_{2},t)|^{2}d\tau_{1}d\tau_{2}=1$$
 La dipendenza temporale si ottiene sempre per [[separazione di variabili]] e un [[sistema ortonormale completo]] di soluzioni tempo-indipendenti $\psi$:
 $$\Psi(\vec{r}_{1},\vec{r}_{2},t)=\psi(\vec{r}_{1},\vec{r}_{2})e^{-i E t/\hbar}$$
@@ -12,7 +12,7 @@ dove le $\psi$ si ottengono dall'usuale equazione di Schrödinger indipendente d
 $$- \frac{\hbar^{2}}{2m_{1}}\nabla^{2}_{1}\psi- \frac{\hbar^{2}}{2m_{2}}\nabla^{2}_{2}\psi+ V \psi=E\psi$$
 e $E$ è l'energia totale del sistema.
 ### Particelle interagenti
-Nel caso il [[potenziale]] di interazione fra le due particelle dipenda solo dalla distanza reciproca $\vec{r}\equiv\vec{r}_{1}-\vec{r}_{2}$, possiamo risolvere l'equazione di Schrödinger per separazione di variabili, compiendo la sostituzione
+Nel caso il [[Potenziale]] di interazione fra le due particelle dipenda solo dalla distanza reciproca $\vec{r}\equiv\vec{r}_{1}-\vec{r}_{2}$, possiamo risolvere l'equazione di Schrödinger per separazione di variabili, compiendo la sostituzione
 $$\vec{r}_{1},\quad\vec{r}_{2} \quad \rightarrow \quad \vec{r}\equiv\vec{r}_{1}-\vec{r}_{2},\quad\vec{R}\equiv\frac{m_{1}\vec{r}_{1}+m_{2}\vec{r}_{2}}{m_{1}+m_{2}}$$
 dove $\vec{R}$ è il [[centro di massa]]. Con queste sostituzioni, e definendo la massa ridotta come $\mu\equiv\frac{m_{1}m_{2}}{m_{1}+m_{2}}$, si trova che l'equazione indipendente dal tempo diventa
 $$- \frac{\hbar^{2}}{2(m_{1}+m_{2})}\nabla^{2}_{R}\psi- \frac{\hbar^{2}}{2\mu}\nabla^{2}_{r}\psi+V(\vec{r})\psi=E\psi$$

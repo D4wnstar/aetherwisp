@@ -1,9 +1,9 @@
-The **magnetic vector potential** $\mathbf{A}$ is a [[Potenziale vettore|vector potential]] function whose [[curl]] is the [[magnetic field]] $\mathbf{B}$:
+The **magnetic vector potential** $\mathbf{A}$ is a [[Potenziale vettore|vector potential]] function whose [[Curl]] is the [[magnetic field]] $\mathbf{B}$:
 $$\nabla\times\mathbf{A}=\mathbf{B}$$
 ### Divergence and curl
-The curl of the magnetic vector potential is obvious: it's just the definition. The [[divergence]] is more interesting. A vector potential remains such even after another function with no curl is added onto it
+The curl of the magnetic vector potential is obvious: it's just the definition. The [[Divergence]] is more interesting. A vector potential remains such even after another function with no curl is added onto it
 $$\tilde{\mathbf{A}}=\mathbf{A}+\mathbf{F}\quad\text{where}\quad \nabla\times\mathbf{F}=0$$
-but a function whose curl is zero is always the [[gradient]] of a scalar function
+but a function whose curl is zero is always the [[Gradient]] of a scalar function
 $$\mathbf{F}=\nabla V$$
 This allows us to state that the divergence of the vector potential is always zero:
 $$\nabla\cdot\mathbf{A}=0$$

@@ -11,6 +11,6 @@ $$f(v)=\frac{m}{k_{B}T} ve^{-mv^{2}/2k_{B}T}$$
 ### $N$-dimensional generalization
 The distribution can be generalized to an arbitrary number of dimensions as
 $$f(v)=A\left( \frac{m}{2\pi k_{B}T} \right)^{N/2}v^{N-1}e^{-mv ^{2}/2k_{B}T}$$
-where $A$ is a [[Normalizzazione|normalization]] constant.
+where $A$ is a [[Normalization|normalization]] constant.
 ### Relation to other distributions
 It is a specific case of the [[chi-square distribution]], with 3 degrees of freedom (representing the components of the velocity vector).

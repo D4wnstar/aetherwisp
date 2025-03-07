@@ -6,11 +6,11 @@ Consider any magnetized object upon which is set a free current $\mathbf{J}_{f}$
 $$\mathbf{J}=\mathbf{J}_{b}+\mathbf{J}_{f}$$
 From [[Ampere's law]] we get
 $$\frac{1}{\mu_{0}}(\nabla\times\mathbf{B})=\mathbf{J}=\mathbf{J}_{b}+\mathbf{J}_{f}=\mathbf{J}_{f}+(\nabla\times\mathbf{M})$$
-if we collect the [[curl|curls]] we get
+if we collect the [[Curl|curls]] we get
 $$\nabla \times\left( \frac{1}{\mu_{0}}\mathbf{B}-\mathbf{M} \right)=\mathbf{J}_{f}$$
 The quantity in parenthesis is defined as the auxiliary field $\mathbf{H}$.
 ### Boundary conditions
-The auxiliary field inherits $\mathbf{B}$'s discontinuities over a surface current density. We know from the definition that the [[divergence]] of $\mathbf{H}$ is $\nabla\cdot\mathbf{H}=-\nabla\cdot\mathbf{M}$, so
+The auxiliary field inherits $\mathbf{B}$'s discontinuities over a surface current density. We know from the definition that the [[Divergence]] of $\mathbf{H}$ is $\nabla\cdot\mathbf{H}=-\nabla\cdot\mathbf{M}$, so
 $$H_\text{above}^{\perp}-H_\text{below}^{\perp}=-(M_\text{above}^{\perp}-M_\text{below}^{\perp})$$
 whereas from the curl of $\mathbf{H}$ derived from [[Ampere's law]], $\nabla\times\mathbf{H}=\mathbf{J}_{f}$, we get
 $$\mathbf{H}^{\parallel}_\text{above}-\mathbf{H}^{\parallel}_\text{below}=\mathbf{K}_{f}\times \hat{\mathbf{n}}$$

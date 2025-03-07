@@ -4,7 +4,7 @@ aliases:
 ---
 Lo **spaziotempo** è un modello matematico per descrivere simultaneamente le tre dimensioni spaziali e l'una temporale dell'Universo, rendendolo quindi uno spazio in quattro dimensioni.
 
-In assenza di [[Interazione gravitazionale|gravitazione]], lo spaziotempo è descritto da uno **spazio di Minkowski**, che è uno [[spazio metrico]] che ammette un [[prodotto scalare]], detto [[tensore metrico]], usato per descrivere il concetto di distanza nello spaziotempo. In presenza di gravitazione, bisogna fare uso della relatività generale.
+In assenza di [[Interazione gravitazionale|gravitazione]], lo spaziotempo è descritto da uno **spazio di Minkowski**, che è uno [[spazio metrico]] che ammette un [[Scalar product]], detto [[tensore metrico]], usato per descrivere il concetto di distanza nello spaziotempo. In presenza di gravitazione, bisogna fare uso della relatività generale.
 
 Un evento accaduto in qualche momento della storia in qualche luogo dello spazio è semplicemente un punto nello spaziotempo. Tutti gli oggetti si muovono nello spaziotempo, se non altro per l'inesorabile avanzare del tempo. La traiettoria formata da un oggetto nello spaziotempo è detta [[linea di universo]].
 ### Causalità

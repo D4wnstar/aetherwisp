@@ -13,10 +13,10 @@ Moments are interesting values because the (infinite) set of all moments for a f
 ### For random variables
 Moments are particularly useful to calculate for [[random variable|random variables]] in order to gain information on the distribution they follow. In this context, the moments gain specific interpretations.
 
-Consider a random variable $X$ (here continuous; discrete just uses [[serie|series]] instead of integrals). The moments about zero take the name of **algebraic** or **raw moments** of order $k$ and are defined as
+Consider a random variable $X$ (here continuous; discrete just uses [[Serie|series]] instead of integrals). The moments about zero take the name of **algebraic** or **raw moments** of order $k$ and are defined as
 $$\mu^{*}_{k}=E[X^{k}]=\int_{\Omega}x^{k}f_{X}(x)\ dx$$
 where $E$ is the [[expected value]] operator and $f_{X}(x)$ is the [[probability density function]]. The first few moments are:
-0. $\mu^{*}_{0}=\int_{\Omega}f_{X}(x)\ dx$ is the [[Normalizzazione|normalization condition]] for $f_{X}(x)$.
+0. $\mu^{*}_{0}=\int_{\Omega}f_{X}(x)\ dx$ is the [[Normalization|normalization condition]] for $f_{X}(x)$.
 1. $\mu^{*}_{1}=\int_{\Omega}xf_{X}(x)\ dx=\mu_{X}$ is the [[mean]] of $X$, an index of position.
 2. ...
 

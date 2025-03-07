@@ -8,7 +8,7 @@ The **electromotive force** (or **emf** for short) $\mathcal{E}$ is the transfer
 
 Given any non-[[conservative force]] per unit charge $\mathbf{f}$ inside of a generator, it is defined as
 $$\mathcal{E}=\int_{A}^{B}\mathbf{f}\cdot d\mathbf{r}=\oint_{\gamma} \mathbf{f}\cdot d\mathbf{r}$$
-where the first integral is calculated between the terminals $A$ and $B$ of the generator, whereas the second is over the entire [[curva|closed loop]] of the circuit $\gamma$. The two integrals are the same because $\mathbf{f}=0$ outside the generator anyway, so the extension to the whole circuit is free. Since $\mathbf{f}$ has to be non-conservative, it cannot be an [[Electric field|electrostatic field]].
+where the first integral is calculated between the terminals $A$ and $B$ of the generator, whereas the second is over the entire [[Curva|closed loop]] of the circuit $\gamma$. The two integrals are the same because $\mathbf{f}=0$ outside the generator anyway, so the extension to the whole circuit is free. Since $\mathbf{f}$ has to be non-conservative, it cannot be an [[Electric field|electrostatic field]].
 ### Flux rule
 In the specific case of a loop of [[electric current]] moving through a static [[magnetic field]], an emf is produced by the work done by whatever is pulling the loop being converted into a push of the charges by the magnetic field. This form of emf is called **motional emf** and is the basis of generators, which transform mechanical energy into electrical one. The amount of motional emf can be found with a straightforward law called the **flux rule**:
 $$\mathcal{E}=- \frac{d\Phi}{dt}$$

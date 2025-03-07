@@ -6,7 +6,7 @@ Given a discrete random variable $X$ with a finite set of possible outcomes $\{ 
 $$E[X]=x_{1}p_{X}(x_{1})+\ldots+x_{n}p_{X}(x_{n})=\sum_{i=1}^{n} x_{i}p_{X}(x_{i})$$
 which is just the average weighted by the probability of an outcome.
 ### Discrete variable with infinite countable outcome
-In the same conditions as above, but with a countably infinite set of outcomes $\{ x_{i} \}_{i}$, the expected value can be easily defined by extending the sum as an infinite [[serie|series]]:
+In the same conditions as above, but with a countably infinite set of outcomes $\{ x_{i} \}_{i}$, the expected value can be easily defined by extending the sum as an infinite [[Serie|series]]:
 $$E[X]=\sum_{i=1}^{\infty} x_{i}p_{X}(x_{i})$$
 The [[Riemann series theorem]] states that the convergence value of some series with both positive and negative terms depends on the order in which the terms are given in. Since random variables are just that, random, it isn't possible to determine what order the terms are given in. Thus, this definition only holds if the series [[Absolute convergence|converges absolutely]], in which case the order is not important. If the series is not absolutely convergent, this definition may not hold. If it doesn't (i.e. the series diverges), it is said that the variable does not have finite expectation.
 ### Continuous variable

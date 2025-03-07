@@ -11,7 +11,7 @@ che è non limitato nello [[Spazi Lp#Spazio $L {2}$|spazio]] $L^{2}(\alpha,\beta
 Supponiamo che le funzioni $p,q,\rho$ verifichino le seguenti condizioni
 $$p(x)>0\text{, classe }C^{1}$$
 $$q(x)\geq0,\;\rho(x)>0\text{ entrambe continue}$$
-Grazie alla positività di $\rho(x)$ possiamo definire il [[Prodotto scalare]] pesato
+Grazie alla positività di $\rho(x)$ possiamo definire il [[Scalar product]] pesato
 $$(f,g)_{\rho}=\int_{\alpha}^{\beta}\rho(x)f^{*}(x)g(x)dx\tag{3}$$
 Si trova che $T$ è [[Operatore autoaggiunto|simmetrico]] rispetto a questo prodotto scalare nel sottoinsieme [[Spazio denso|denso]] in $L^{2}(\alpha,\beta)$ delle funzioni due volte derivabili in $L^{2}$ e soddisfacenti la $(2)$. Allora se $u_{1}(x)$ e $u_{2}(x)$ sono autofunzioni di $T$, e dunque soluzioni della $(1)$, sono ortogonali a $\rho(x)$
 $$(u_{1},u_{2})_{\rho}=\int_{\alpha}^{\beta}u_{1}^{*}(x)u_{2}(x)\rho(x)dx$$

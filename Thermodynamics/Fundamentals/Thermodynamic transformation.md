@@ -9,7 +9,7 @@ aliases:
   - cyclical transformation
   - thermodynamic cycle
 ---
-A **thermodynamic transformation** or **process** is a change to a [[physical system]]'s [[thermodynamic state]], going from one state of [[thermal equilibrium]] to another. They can be represented as [[curva|paths]] taken in [[Phase space|phase space]]. They may be *reversible* or *irreversible*: a transformation is said to be reversible if the system will retrace the exact path, only in reverse, if the external forces causing the transformation are themselves reversed. An irreversible one will instead not retrace the exact path, thus causing a permanent change in the system.
+A **thermodynamic transformation** or **process** is a change to a [[physical system]]'s [[thermodynamic state]], going from one state of [[thermal equilibrium]] to another. They can be represented as [[Curva|paths]] taken in [[Phase space|phase space]]. They may be *reversible* or *irreversible*: a transformation is said to be reversible if the system will retrace the exact path, only in reverse, if the external forces causing the transformation are themselves reversed. An irreversible one will instead not retrace the exact path, thus causing a permanent change in the system.
 
 If the system transforms very slowly, it is possible to consider it as if it were in equilibrium throughout the transformation itself. This type of transformation is said to be **quasi-static**. Quasi-static transformation are *usually* reversible.
 ### Types

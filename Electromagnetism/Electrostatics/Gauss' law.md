@@ -34,7 +34,7 @@ Gauss' law is most useful when in a system under specific kinds of symmetries. T
 
 \2. and 3. technically require a infinite cylinder and an infinite plane to work, but can be used to good effect as approximations for very long cylinders and very large planes.
 ##### Spherical
-Consider a ball of radius $R$ and total charge $q$. Imagine a sphere of radius $r>R$ (often called a **Gaussian surface**). In this case, $Q_{enc}=q$. Symmetry allows us extract $\mathbf{E}$ out of the integral. In fact, $\mathbf{E}$ is always perpendicular to surface element (i.e. it's radial)[^1], as is the surface normal, so the [[Prodotto scalare|dot product]] between the two can be dropped
+Consider a ball of radius $R$ and total charge $q$. Imagine a sphere of radius $r>R$ (often called a **Gaussian surface**). In this case, $Q_{enc}=q$. Symmetry allows us extract $\mathbf{E}$ out of the integral. In fact, $\mathbf{E}$ is always perpendicular to surface element (i.e. it's radial)[^1], as is the surface normal, so the [[Scalar product|dot product]] between the two can be dropped
 $$\int \mathbf{E}\cdot d\mathbf{a}=\int |\mathbf{E}|\ da$$
 The magnitude of the electric fields depends on the distance, but the distance is constant over a sphere centered on the charge, so we can pull it out of the integral
 $$\int|\mathbf{E}|\ da=|\mathbf{E}|\int da=|\mathbf{E}|4\pi R^{2}$$
