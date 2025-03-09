@@ -1,4 +1,7 @@
 **Polar coordinates** are a two-dimensional set of coordinates where each point on the plane is determined by its distance from a reference point called the **pole** and its angle from a reference direction called the **polar axis**. The distance is called the **radial coordinate**, while the angle is called **angular coordinate** or sometimes **azimuth**.
+### Relation to Cartesian coordinates
+Polar coordinates $(r,\theta)$ can be converted to [[Cartesian coordinates]] $(x,y)$ by using the [[coordinate transformation]]
+$$\varphi:\mathbb{R}^{2}\to \mathbb{R}^{2},\qquad \varphi(r,\theta)=(r\cos \theta,r\sin \theta)=(x,y)$$
 ### Motion
 The distance from the origin is represented as vector $\mathbf{r}$, with a unit vector $\mathbf{R}=\mathbf{r}/|\mathbf{r}|$ representing its axis. As a unit vector, $\mathbf{R}$ can be written like $\mathbf{R}=(\cos\theta,\sin\theta)$. $\mathbf{P}=(-\sin\theta,\cos\theta)$ is perpendicular to $\mathbf{R}$ and is just a [[Rotation]] by $\pi/2$ of it. The two vectors constitute a [[basis]], and with the position vector they form the [[Moving frame]]
 $$\{\mathbf{r(t)};\mathbf{R}(t),\mathbf{P}(t)\}$$

@@ -12,7 +12,7 @@ Notably, the electric potential does *not* measure potential *energy*. There is 
 ### Divergence and curl of $\mathbf{E}$
 The [[Divergence]] of $E$ is readily calculated with respect to $V$:
 $$\nabla\cdot \mathbf{E}=\nabla\cdot(-\nabla V)=-\nabla^{2}V$$
-using the [[Laplaciano|Laplacian]]. Applying [[Gauss' law]], we get
+using the [[Laplacian|Laplacian]]. Applying [[Gauss' law]], we get
 $$\boxed{\nabla^{2}V=- \frac{\rho}{\varepsilon_{0}}}$$
 for a volume [[electric charge|charge]] density $\rho$. This is a specific form of [[Poisson's equation]], where $\psi=V$ and $f=-\rho/\varepsilon_{0}$.
 

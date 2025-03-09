@@ -3,7 +3,7 @@
 ![[Graph Spherical coordinates|50%|center]]
 
 ### Relation to Cartesian coordinates
-[[Cartesian coordinates]] can be converted to spherical coordinates by doing
+Spherical coordinates $(\rho,\theta,\phi)$ can be converted to [[Cartesian coordinates]] $(x,y,z)$ by doing
 $$x=\rho\cos\theta\sin\phi, \quad y=\rho\sin\theta\sin\phi, \quad z=\rho\cos\phi$$
 and viceversa
 $$r=\sqrt{ x^{2}+y^{2}+z^{2} },\quad y=\arctan\left( \frac{\sqrt{x^{2}+y^{2} }}{z} \right),\quad z=\arctan\left( \frac{y}{x} \right)$$

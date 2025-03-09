@@ -21,4 +21,4 @@ $$\hat{q}\equiv q, \quad \hat{p}\equiv \frac{\hbar}{i} \frac{\partial }{\partial
 con $V(x)$ un [[Potenziale]]. In tre dimensioni hanno invece la forma
 $$\hat{\vec{q}}\equiv\vec{q}, \quad \hat{p}_{x}\equiv \frac{\hbar}{i}\frac{\partial }{\partial x}, \quad \hat{p}_{y}\equiv \frac{\hbar}{i}\frac{\partial }{\partial y}, \quad \hat{p}_{z}\equiv \frac{\hbar}{i}\frac{\partial }{\partial z}, \quad \hat{\vec{p}}=\frac{\hbar}{i}\nabla$$
 $$\hat{H}\equiv - \frac{\hbar^{2}}{2m}\left(\frac{\partial^{2} }{\partial x^{2}}+\frac{\partial^{2} }{\partial y^{2}}+\frac{\partial^{2} }{\partial z^{2}}\right)+V(\vec{q})=- \frac{\hbar^{2}}{2m}\nabla^{2} + V(\vec{q})$$
-con $\nabla^{2}$ il [[Laplaciano]].
+con $\nabla^{2}$ il [[Laplacian]].

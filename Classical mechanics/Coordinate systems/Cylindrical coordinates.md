@@ -4,7 +4,7 @@
 
 
 ### Relation to Cartesian coordinates
-[[Cartesian coordinates]] can be converted to cylindrical coordinates by doing
+Cylindrical coordinates $(r,\theta,z)$ can be converted to [[Cartesian coordinates]] $(x,y,z)$ by doing
 $$x=r\cos\theta, \quad y=r\sin\theta, \quad z=z$$
 To convert an integral from Cartesian to cylindrical, we find the [[determinant]] of the [[Jacobian]] of the conversion [[diffeomorphism]] $\sigma(x,y,z)=(r\cos \theta,r \sin \theta,z)$, which is $\det J\sigma=r$. As such
 $$\iiint dxdydz=\iiint r\ drd\theta dz$$

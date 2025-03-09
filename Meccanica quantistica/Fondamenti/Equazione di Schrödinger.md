@@ -2,7 +2,7 @@ L'**equazione di Schrödinger** è un'[[equazione differenziale parziale]] di se
 $$i\hbar \frac{\partial \Psi}{\partial t}=- \frac{\hbar^{2}}{2m} \frac{\partial ^{2}\Psi}{\partial x^{2}}+V\Psi\tag{1D}$$
 dove $\hbar$ è la [[costante di Planck]] ridotta, $m$ è la massa della [[Particella]], $\Psi(x,t)$ è la [[funzione d'onda]] della [[particella]] in esame e $V$ è la funzione energia [[Potenziale]] della particella. In tre dimensioni ha la forma
 $$i\hbar \frac{\partial \Psi}{\partial t}=- \frac{\hbar^{2}}{2m}\nabla^{2}\Psi+V\Psi\tag{3D}$$
-con $\nabla^{2}$ il [[Laplaciano]].
+con $\nabla^{2}$ il [[Laplacian]].
 
 Risolvere l'equazione di Schrödinger, trovando quindi l'equazione d'onda, ci permette di conoscere l'evoluzione temporale del sistema quantistico.
 

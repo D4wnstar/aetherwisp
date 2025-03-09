@@ -6,7 +6,7 @@ An **ordinary differential equation**, or **ODE** for short, is an equation wher
 $$f^{(n)}(t)=g(f,f^{(1)},\ldots,f^{(n-1)},t)$$
 where $g$ is some function.
 
-An ODE is said to be **autonomous** if the ODE has no explicit dependence on $t$ (although all the $f(t)$ still do). In this case, $g$ is not dependent on $t$.
+An ODE is said to be **autonomous** if it has no explicit dependence on $t$ (although all the $f(t)$ still do). In this case, $g$ is not dependent on $t$.
 $$f^{(n)}(t)=g(f,f^{(1)},\ldots,f^{(n-1)})$$
 If $g$ is a linear function, the ODE can be written as
 $$f^{(n)}(t)=c_{0}(t)f(t)+c_{1}(t)f^{(1)}(t)+\ldots+c_{n-1}(t)f^{(n-1)}(t)+k(t)$$
@@ -22,31 +22,40 @@ In general, the number of first-order ODEs is equal to the order of the original
 The benefit of doing things this way is that first-order ODEs have a large amount of theorems and results that make them far easier to solve and much more reliable to work with. For an example, the following theorem underlies much of the study of these equations.
 
 > [!info] Existence and uniqueness theorem
-> Given a first-order ODE $\dot{x}=f(x,t)$ and a starting condition $x(t_{0})=x_{0}$, there exists a solution $x(t)$ and that solution is unique.
+> Given a first-order ODE $\dot{x}=f(x,t)$ and a starting condition $x(t_{0})=x_{0}$, there exists a solution $x(t)$ to the equation and that solution is unique.
 #### Autonomous systems
-A particularly pleasant case of ODE system is an **autonomous system**, which is a system of first-order ODEs, one for each component of a [[Campo vettoriale|vector field]]. Given a vector field $f(\mathbf{x})$, they are written as
+A particularly pleasant case of ODE system is an **autonomous system**, which is a system of autonomous first-order ODEs. These usually arise from as equations for individual components of a [[Campo vettoriale|vector field]]. Given a vector field $f(\mathbf{x})$, they are written as
 $$\dot{\mathbf{x}}=f(\mathbf{x})\tag{1}$$
-If a system is autonomous, the following theorem holds:
+where bold font is used to remark the fact that $\mathbf{x}$ is a [[Vector space|vector]]. For these kinds of systems, the following theorem holds:
 
 > [!info] Time-shift invariance
-> Given an autonomous system, if $x(t)$ is a solution of $(1)$ then $x'(t)\equiv x(t-t_{0})$ is also a solution.
+> Given an autonomous system, if $\mathbf{x}(t)$ is one of its solutions then $\mathbf{x}'(t)\equiv \mathbf{x}(t-t_{0})$ is also a solution.
 > 
-> **Proof.** Call $x(t)$ a solution. Since the system is autonomous, $\dot{x}(t)=f(x(t))$ (there is no explicit $t$ in $f$). The derivative is
-> $$\dot{x}'(t)=\frac{d}{dx}x'(t)=\dot{x}(t-t_{0})=f(x(t-t_{0}))=f(x'(t))$$
+> **Proof.** Call $\mathbf{x}(t)$ a solution. Since the system is autonomous, $\dot{\mathbf{x}}(t)=f(\mathbf{x}(t))$ (there is no explicit $t$ in $f$). The derivative is
+> $$\dot{\mathbf{x}}'(t)=\frac{d}{dt}\mathbf{x}'(t)=\dot{\mathbf{x}}(t-t_{0})=f(\mathbf{x}(t-t_{0}))=f(\mathbf{x}'(t))$$
 
 The name comes from the physical interpretation of $t$ as time. Furthermore, we can also make a strong statement on trajectories:
 
 > [!info] Non-intersection
 > The solutions of an autonomous system never intersect.
 > 
-> **Proof.** Assume that there exists two trajectories $\mathbf{x}_{1}(t)$ and $\mathbf{x}_{2}(t)$ that are both solutions of $(1)$ such that they intersect at some point $\mathbf{x}_{0}$. For instance, $\mathbf{x}_{1}(0)=\mathbf{x}_{0}$ and $\mathbf{x}_{2}(t_{0})=\mathbf{x}_{0}$. If this is true, then there must exist some third trajectory $\mathbf{x}_{3}(t)=\mathbf{x}_{2}(t+t_{0})$ that's also a solution of $(1)$ due to time-shift invariance. But then there would be two distinct solutions $\mathbf{x}_{1}(t)$ and $\mathbf{x}_{2}(t)$ such that $\mathbf{x}_{1}(0)=\mathbf{x}_{0}$ and $\mathbf{x_{3}}(0)=\mathbf{x}_{0}$. But this can't be, as it violates the theorem of existence and uniqueness. Therefore $\mathbf{x}_{1}(t)$ and $\mathbf{x}_{2}(t)$ cannot simultaneously exist.
+> **Proof.** Assume that there exists two trajectories $\mathbf{x}_{1}(t)$ and $\mathbf{x}_{2}(t)$ that are both solutions of $(1)$ and that they intersect at some point $\mathbf{x}_{0}$. For instance, $\mathbf{x}_{1}(0)=\mathbf{x}_{0}$ and $\mathbf{x}_{2}(t_{0})=\mathbf{x}_{0}$ for some $t_{0}$. If this is true, then there must exist some third trajectory $\mathbf{x}_{3}(t)=\mathbf{x}_{2}(t+t_{0})$ that's also a solution of $(1)$ due to time-shift invariance, for which $\mathbf{x}_{3}(0)=\mathbf{x}_{0}$. But then there would be two distinct solutions $\mathbf{x}_{1}(t)$ and $\mathbf{x}_{3}(t)$ with the same initial condition. But this can't be, as it violates the existence and uniqueness theorem. Therefore $\mathbf{x}_{1}(t)$ and $\mathbf{x}_{2}(t)$ cannot simultaneously exist.
 
-> [!info] Flux of the vector field
-> Given some point $\mathbf{x}_{0}\in \mathbb{R}^{N}$, there exists one and only one solution $\mathbf{x}(t;\mathbf{x}_{0})$ such that $\mathbf{x}(0;\mathbf{x_{0}})=\mathbf{x}_{0}$.
+Equation $(1)$ also has the important property that it forces the derivative of the solution $\dot{\mathbf{x}}(t)$ to always be tangent to the solution $\mathbf{x}(t)$. This can, for example, be seen geometrically by using the definition of derivative:
+$$\dot{\mathbf{x}}(t)=\lim_{ \delta t \to 0 } \frac{\mathbf{x}(t+\delta t)-\mathbf{x}(t)}{\delta t}$$
+If we draw the vectors manually, we see
 
-Given some $\mathbf{x_{0}}$, the solution of $(1)$ traces a [[Curva|curve]] in $\mathbb{R}^{N}$ parameterized by $t$. Meanwhile, given some $t$, $\mathbf{x}(t;\mathbf{x}_{0})$ is a function of $\mathbf{x}_{0}$ and it describes a map $\varphi^{t}:\mathbb{R}^{N}\to \mathbb{R}^{N},\ \mathbf{x}_{0}\to \varphi^{t}(\mathbf{x}_{0})=\mathbf{x}(t;\mathbf{x}_{0})$. Such a map exists for any $t$. In fact, the set of all $\varphi^{t}$ for all $t$ is known in mathematics as a **family** of maps $\{ \varphi^{t} \}_{t\in \mathbb{R}}$ from $\mathbb{R}^{N}$ to $\mathbb{R}^{N}$. This specific family is known as the **flux of the vector field**. This is not quite the same as the more typical flux, i.e. the [[Integrale su una superficie|surface integral]] of the vector field over some surface. They are named the same because they both embody the idea of "thing moving through surface", but they describe in different ways. Namely, this flux-as-a-family uses the number of trajectory lines passing through a region of space.
+![[Diagram Derivative of position vector is tangent|100%]]
 
-The equation $(1)$ also has the important property that it forces the derivative of the solution $\dot{\mathbf{x}}(t)$ to always be tangent to the solution $\mathbf{x}(t)$.
+If we send $\delta t\to0$, the displacement between the white and red vector become minuscule, which leads $\dot{\mathbf{x}}(t)$ to become tangent. A non-visual proof can for instance be found by taking the derivative of the unit vector of $\mathbf{x}(t)$ and prove that it is always perpendicular to the unit vector itself.
+##### Flux of a vector field
+Now, given some autonomous system like $(1)$, it is legitimate to ask the following questions: since the solution for a given starting condition is unique, what does that solution look like over all $t$? What if instead of selecting a starting condition, we instead select a specific time; what do all of the possible solutions look at that time?
+
+Answering the first question is rather easy. Since $\mathbf{x}(t)$ is a $\mathbb{R}\to \mathbb{R}^{N}$, it represents a [[curva|curve]] in $\mathbb{R}^{N}$. It's just the definition of a curve of parameter $t$. This makes sense: intuitively, the trajectory of an object is a curve in space that the object follows, so it's not surprising that this is also the case for all possible dimensions.
+
+Answering the second question is harder. Once we set $t$, we are left with an infinite number of solutions, one for all infinite starting conditions. For a given $t$, we can say that this defines a [[linear map]][^1] $\varphi^{t}:\mathbb{R}^{N}\to \mathbb{R}^{N}$ which takes a starting condition and transforms it into its correlated solution, evaluated at our time $t$. We can write this as $\mathbf{x}_{0}\to \varphi^{t}(\mathbf{x}_{0})\equiv \mathbf{x}(t;\mathbf{x}_{0})$. Thus, for any time $t$, we have a linear map. For all $t$, therefore, we have a *family* of maps, which we can write as $\{ \varphi^{t} \}_{t\in \mathbb{R}}$. This [[set]] is known as the **flux of a vector field**[^2].
+
+Despite the similar name, this is not quite the same as the better known [[flux]], i.e. the [[Integrale su una superficie|surface integral]] of a vector field over some surface. They are named the same because they both embody the idea of "thing moving through a surface", but they describe it in different ways. Namely, the flux defined in the ODE sense uses the number of trajectory lines passing through a region of space.
 ## Examples
 Well known cases of ODEs appear in physics frequently. The best known example is [[Newton's laws|Newton's second law]], $\mathbf{F}=m\mathbf{a}$. We call the position vector $\mathbf{r}(t)$, the velocity $\mathbf{v}=\dot{\mathbf{r}}$ and the acceleration $\mathbf{a}=\ddot{\mathbf{r}}$, where we used dot notation to represent the derivative in $t$. A typical form of ODE, for a velocity-dependent force (e.g. [[drag]]), is
 $$\mathbf{F}(\mathbf{r},\dot{\mathbf{r}},t)=m \ddot{\mathbf{r}}(t)$$
@@ -94,34 +103,34 @@ Some example trajectories look like this:
 ![[Plot 1D Harmonic oscillator phase space trajectories]]
 #### Harmonic repulsor
 A [[harmonic repulsor]] is
-$$\ddot{x}=\omega ^{2}t$$
+$$\ddot{x}=\omega ^{2}x$$
 which resolves to
 $$x(t)=a\cosh(\omega t)+b\sinh(\omega t)=Ce^{\omega t}+C^{*}e^{-\omega t}$$
 #### Generic linear non-homogeneous
 Linear non-homogeneous ODEs sometimes arise with the form
-$$\ddot{x}=-g(x)$$
-The [[general solution]] is the sum of the [[partial solution]] of the associated homogeneous equation (where $\ddot{x}=0$). The partials are
+$$\ddot{x}=-g$$
+where $g$ is some constant. The [[general solution]] is the sum of the [[partial solution]] of the associated homogeneous equation (where $\ddot{x}=0$). The partial is
 $$x_\text{part}=- \frac{1}{2}gt^{2}$$
 The general, homogeneous solution is
-$$x_\text{general,hom}=at+b$$
-The final result is
+$$x_\text{gen,hom}=at+b$$
+The final result is the sum of the two:
 $$x(t)=- \frac{1}{2}gt^{2}+at+b$$
 #### Pendulum
 The [[simple pendulum]] is
 $$\ddot{x}=-\omega ^{2}\sin(x)$$
-This is a non-linear ODE and is therefore very difficult (if possible) to solve. Typically this is solved by noting that for small $x$, $\sin(x)\simeq x$. In this case, it becomes linear and can be solved exactly.
+This is a non-linear ODE and is therefore very difficult to solve (but can be solved using [[elliptic functions]]). Typically this is solved by noting that for small $x$, $\sin(x)\simeq x$. In this case, it becomes a usual harmonic oscillator and can be solved exactly.
 #### Dampened fall
 Falling through a material with nonzero [[viscosity]] leads to
 $$\ddot{x}=-\beta \dot{x}-g$$
-for some $\beta>0$. The partial is $x_\text{part}(t)=-gt/\beta$. The associated general solution ($\ddot{x}=0$) is
+for some $\beta>0$ and $g$ is the (constant) gravitational acceleration. The partial is $x_\text{part}(t)=-gt/\beta$. The associated general solution ($\ddot{x}=0$) is
 $$x_\text{gen}=- \frac{\alpha}{\beta}e^{-\beta t}+b$$
 with derivative
 $$\dot{x}_\text{gen}=\alpha e^{-\beta t}$$
 If we call $-\alpha/\beta=a$ and $-g/\beta=v_{\infty}$, the final solution is
 $$x(t)=v_{\infty}t+ae^{-\beta t}+b$$
 where $v_{\infty}$ represents the terminal velocity, reached asymptotically after an infinite amount of time falling.
-#### Oscillator under external force
-A harmonic oscillator under an external force $g$ is
+#### Oscillator under external constant force
+A harmonic oscillator under a constant external force leading to a constant acceleration $g$ (e.g. [[Interazione gravitazionale|gravity]]) is
 $$\ddot{x}=-\omega ^{2}x-g$$
 The partial is $x_{p}(t)=-g/\omega$. The associated general is $x_\text{gen}=A\cos(\omega t+\varphi)$. The final solution is
 $$x(t)=A\cos(\omega t+\varphi)- \frac{g}{\omega}$$
@@ -134,12 +143,12 @@ leads to
 $$\frac{\Delta}{4}=\mu ^{2}-\omega ^{2}$$
 where $\Delta$ is the discriminant. This is not necessarily real. We identify three cases.
 
-If $\mu>\omega$ (i.e. the dampening is very strong), we have
+If $\mu>\omega$ (the dampening is very strong), we have
 $$\lambda_{1,2}=-\mu\pm \sqrt{ \mu ^{2}-\omega ^{2} }<0$$
 Our solution is
 $$x(t)=ae^{\lambda_{1}t}+be^{\lambda_{2}t}$$
 
-If $\mu<\omega$ (i.e. the dampening is weak), we have
+If $\mu<\omega$ (the dampening is weak), we have
 $$\lambda_{1,2}=-\mu\pm i\sqrt{ \omega ^{2}-\mu ^{2} }$$
 and the solution is
 $$x(t)=(a\cos (\sigma t)+b\sin(\sigma t))e^{-\mu t}$$
@@ -147,3 +156,7 @@ where $\sigma=\sqrt{ \omega ^{2}-\mu ^{2} }$.
 
 If $\mu=\omega$, the oscillator is said to be critically dampened, in which case $\sigma=0$ and the solution can be seen from the weak dampening case as
 $$x(t)=(a+bt)e^{-\mu t}$$
+
+[^1]: Specifically an [[automorphism]].
+
+[^2]: More specifically, this is a [[group]]. The identity is $\varphi^{0}$. The inverse of an element $\varphi^{t}$ is found by flipping the sign of $t$, so $\varphi^{-t}$. The composition rule is given by the sum of times: $\varphi^{t}\circ\varphi^{s}=\varphi^{t+s}$.
