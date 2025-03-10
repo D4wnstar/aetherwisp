@@ -1,6 +1,6 @@
 L'**oscillatore armonico quantistico** è l'analogo quantistico dell'[[Harmonic oscillator]] classico, ossia un sistema quantistico con un [[punto di equilibrio]] soggetto ad una forza di ritorno $F$ una volta perturbato.
 ### Soluzione
-Il caso dell'oscillatore armonico consiste nel risolvere l'[[equazione di Schrödinger]] per una [[particella]] immersa nel [[Potenziale]]
+Il caso dell'oscillatore armonico consiste nel risolvere l'[[equazione di Schrödinger]] per una [[particella]] immersa nel [[Potential]]
 $$V(x)=\frac{1}{2}m\omega^{2}x^{2}$$
 Partiamo dunque dall'equazione indipendente dal tempo, che prende la forma
 $$- \frac{\hbar^{2}}{2m} \frac{d^{2}\psi}{dx^{2}}+ \frac{1}{2}m\omega^{2}x^{2}\psi=E\psi\tag{1}$$

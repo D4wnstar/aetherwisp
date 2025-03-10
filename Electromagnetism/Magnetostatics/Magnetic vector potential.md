@@ -1,4 +1,4 @@
-The **magnetic vector potential** $\mathbf{A}$ is a [[Potenziale vettore|vector potential]] function whose [[Curl]] is the [[magnetic field]] $\mathbf{B}$:
+The **magnetic vector potential** $\mathbf{A}$ is a [[Vector potential|vector potential]] function whose [[Curl]] is the [[magnetic field]] $\mathbf{B}$:
 $$\nabla\times\mathbf{A}=\mathbf{B}$$
 ### Divergence and curl
 The curl of the magnetic vector potential is obvious: it's just the definition. The [[Divergence]] is more interesting. A vector potential remains such even after another function with no curl is added onto it

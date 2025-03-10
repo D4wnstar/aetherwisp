@@ -24,7 +24,7 @@ The benefit of doing things this way is that first-order ODEs have a large amoun
 > [!info] Existence and uniqueness theorem
 > Given a first-order ODE $\dot{x}=f(x,t)$ and a starting condition $x(t_{0})=x_{0}$, there exists a solution $x(t)$ to the equation and that solution is unique.
 #### Autonomous systems
-A particularly pleasant case of ODE system is an **autonomous system**, which is a system of autonomous first-order ODEs. These usually arise from as equations for individual components of a [[Campo vettoriale|vector field]]. Given a vector field $f(\mathbf{x})$, they are written as
+A particularly pleasant case of ODE system is an **autonomous system**, which is a system of autonomous first-order ODEs. These usually arise from as equations for individual components of a [[Vector field|vector field]]. Given a vector field $f(\mathbf{x})$, they are written as
 $$\dot{\mathbf{x}}=f(\mathbf{x})\tag{1}$$
 where bold font is used to remark the fact that $\mathbf{x}$ is a [[Vector space|vector]]. For these kinds of systems, the following theorem holds:
 

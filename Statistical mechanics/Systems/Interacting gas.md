@@ -4,7 +4,7 @@ aliases:
 ---
 An **interacting gas** is a generalization of an [[ideal gas]] which also includes a two-body interaction term. The [[Hamiltonian]] of the [[Physical system|system]] is
 $$H=\sum_{i=1}^{N} \frac{\mathbf{p}_{i}^{2}}{2m}+\sum_{i<j} u_{ij}$$
-The second sum represents the interaction as a sum of interparticle [[Potenziale|potentials]] $u_{ij}$. Normally, the interaction depends on the distance between [[Particella|particles]]: $u_{ij}\propto |\mathbf{r}_{i}-\mathbf{r}_{j}|$.
+The second sum represents the interaction as a sum of interparticle [[Potential|potentials]] $u_{ij}$. Normally, the interaction depends on the distance between [[Particella|particles]]: $u_{ij}\propto |\mathbf{r}_{i}-\mathbf{r}_{j}|$.
 ### Using cluster integrals
 Our goal is to find an [[equation of state]] similar to the ideal gas one, that is $PV=Nk_{B}T$, so that we can compare the two. We'll do this by using a [[canonical ensemble]], for which
 $$\frac{PV}{Nk_{B}T}=v \frac{ \partial  }{ \partial v } \ln Q_{N}\tag{1}$$

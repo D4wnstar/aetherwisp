@@ -1,4 +1,4 @@
-The **electric field** $\mathbf{E}$ is the [[conservative force|conservative]] [[Campo vettoriale|vector field]] that describes the action of an [[electric charge]] onto other charges. For a test charge $Q$, the force applied to it by another charged object is determined through the electric field as
+The **electric field** $\mathbf{E}$ is the [[conservative force|conservative]] [[Vector field|vector field]] that describes the action of an [[electric charge]] onto other charges. For a test charge $Q$, the force applied to it by another charged object is determined through the electric field as
 $$\mathbf{F}=Q\mathbf{E}$$
  Electric fields obey the [[superposition principle]]. If there are two charges producing fields $\mathbf{E}_{1}$ and $\mathbf{E}_{2}$, their combined field is simply $\mathbf{E}=\mathbf{E}_{1}+\mathbf{E}_{2}$.
 

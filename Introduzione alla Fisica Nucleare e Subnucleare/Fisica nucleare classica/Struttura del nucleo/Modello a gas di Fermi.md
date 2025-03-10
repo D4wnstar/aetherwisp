@@ -4,7 +4,7 @@ Il **modello a gas di Fermi** è un modello del [[Nucleo atomico|nucleo]] nello 
 
 Al di là del nucleo atomico, è utile per spiegare il comportamento di materia neutronica a scala macroscopica, principalmente il nucleo delle [[Stella di neutroni|stelle di neutroni]].
 ### Formulazione
-Il [[Potenziale]] a cui ciascun [[nucleone]] è soggetto è una sovrapposizione di tutti gli altri potenziali prodotti da altri nucleoni. Per il gas di Fermi, *assumiamo che il potenziale risultante sia una [[Buca finita quantistica|buca finita]] rettangolare*:
+Il [[Potential]] a cui ciascun [[nucleone]] è soggetto è una sovrapposizione di tutti gli altri potenziali prodotti da altri nucleoni. Per il gas di Fermi, *assumiamo che il potenziale risultante sia una [[Buca finita quantistica|buca finita]] rettangolare*:
 
 ![[Grafico Buca di potenziale rettangolare|70%|center]]
 

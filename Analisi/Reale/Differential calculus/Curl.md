@@ -1,4 +1,4 @@
-The **curl** $\nabla\times\mathbf{F}$ of a [[Differential|differentiable]] vector function $\mathbf{F}$ is a [[Campo vettoriale|vector field]] that represents the [[circulation]] of $\mathbf{F}$ around a point. In simpler terms, it describes how much $\mathbf{F}$ curls or wraps around a point, like a whirlpool.
+The **curl** $\nabla\times\mathbf{F}$ of a [[Differential|differentiable]] vector function $\mathbf{F}$ is a [[Vector field|vector field]] that represents the [[circulation]] of $\mathbf{F}$ around a point. In simpler terms, it describes how much $\mathbf{F}$ curls or wraps around a point, like a whirlpool.
 
 By definition, the curl is the limit of circulation over the boundary $\gamma$ of an infinitesimal area $dS$:
 $$\nabla\times\mathbf{F}=\lim_{ dS \to 0 } \frac{1}{dS}\oint_{\gamma}\mathbf{F}\cdot d\mathbf{r}$$

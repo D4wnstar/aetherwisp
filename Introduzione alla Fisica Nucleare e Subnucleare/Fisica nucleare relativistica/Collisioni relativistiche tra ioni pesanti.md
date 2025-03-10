@@ -7,4 +7,4 @@ Sperimentale, i risultati puntano alla seconda ipotesi.
 ### Transizione di fase della QCD
 Si utilizza la [[cromodinamica quantistica]] a reticolo, che è utile per compiere calcoli numerici in sistemi molto complicati che non sono risolvibili analiticamente.
 
-Ho che l'impulso trasferito $Q^{2}$ è piccolo e $\alpha_{S}$ è grande, quindi non posso espandere in [[Potenziale|potenziali]] di $\alpha_{S}$. Ho anche un gran numero di campi.
+Ho che l'impulso trasferito $Q^{2}$ è piccolo e $\alpha_{S}$ è grande, quindi non posso espandere in [[Potential|potenziali]] di $\alpha_{S}$. Ho anche un gran numero di campi.

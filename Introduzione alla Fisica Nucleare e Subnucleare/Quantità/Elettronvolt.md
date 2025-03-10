@@ -6,7 +6,7 @@ aliases:
   - GeV
   - TeV
 ---
-L'**elettronvolt**, scritto *eV*, è un unità di misura di energia pari a $1\text{ eV}=1.6\times10^{-19}$ J. È definita come l'energia che acquista una [[Particella]] di [[carica]] $e$ quando attraversa una differenza di [[Potenziale]] di $1\;V$. Grazie alla [[equivalenza massa-energia]] $E=mc^{2}$, all'energia è associata una massa a riposo. In fisica nucleare e delle particelle è comune usare l'elettronvolt come unità di massa, sottintendendo che ci si sta riferendo all'energia di massa a riposo. Correttamente, andrebbe riportata sempre la dipendenza da $c^{2}$, come
+L'**elettronvolt**, scritto *eV*, è un unità di misura di energia pari a $1\text{ eV}=1.6\times10^{-19}$ J. È definita come l'energia che acquista una [[Particella]] di [[carica]] $e$ quando attraversa una differenza di [[Potential]] di $1\;V$. Grazie alla [[equivalenza massa-energia]] $E=mc^{2}$, all'energia è associata una massa a riposo. In fisica nucleare e delle particelle è comune usare l'elettronvolt come unità di massa, sottintendendo che ci si sta riferendo all'energia di massa a riposo. Correttamente, andrebbe riportata sempre la dipendenza da $c^{2}$, come
 $$m=1 eV/c^{2}$$
 ma in [[unità naturali]] $c=1$, quindi in genere la si omette, scrivendo semplicemente
 $$m=1eV$$

@@ -2,7 +2,7 @@ L'**atomo di idrogeno** consiste in un [[protone]] sostanzialmente fermo di [[ca
 ### Formulazione di Schrödinger
 Consideriamo l'[[Hamiltoniana]]
 $$H=- \frac{\hbar^{2}}{2M}\nabla^{2}_{R}- \frac{\hbar^{2}}{2m}\nabla^{2}_{r_{e}}- \frac{Ze^{2}}{4\pi\epsilon_{0}|R-r_{e}|}$$
-dove $M$ è la massa del nucleo, $m$ la masse dell'[[Elettrone]], $Z$ è il numero atomico e $|R-r_{e}|$ la distanza orbitale dell'elettrone. I tre termini rappresentano, in ordine, l'energia cinetica dei nuclei, quella degli elettroni e l'energia [[Potenziale]].
+dove $M$ è la massa del nucleo, $m$ la masse dell'[[Elettrone]], $Z$ è il numero atomico e $|R-r_{e}|$ la distanza orbitale dell'elettrone. I tre termini rappresentano, in ordine, l'energia cinetica dei nuclei, quella degli elettroni e l'energia [[Potential]].
 
 ![[Schema modello idrogeno|center]]
 
@@ -86,7 +86,7 @@ dove $R_{\infty}$ è la [[costante di Rydberg]]. Si nota che sono presenti stati
 $$d=\underbrace{2}\limits_{m_{s}}\sum\limits_{l=0}^{n-1}\underbrace{2l+1}\limits_{m}=2n^{2}$$
 che racchiude tutti i numeri quantici: abbiamo che $l$ varia da $0$ a $n-1$, per ogni $l$ sono possibili $2l+1$ valori di $m$ e tutto è possibile per entrambi i numeri di [[spin]] $m_{s}=\pm\frac{1}{2}$.
 ### Trattamento di Griffiths
-Anzitutto, determiniamo il [[Potenziale]]. Dalla [[legge di Coulomb]] abbiamo il potenziale (in unità SI)
+Anzitutto, determiniamo il [[Potential]]. Dalla [[legge di Coulomb]] abbiamo il potenziale (in unità SI)
 $$V(r)=- \frac{e^{2}}{4\pi\epsilon_{0}} \frac{1}{r}$$
 quindi l'equazione radiale da risolvere per trovare la [[Funzione d'onda]] è
 $$- \frac{\hbar^{2}}{2m}\frac{d^{2}u}{dr^{2}}+ \left[- \frac{e^{2}}{4\pi\epsilon_{0}} \frac{1}{r}+\frac{\hbar^{2}}{2m} \frac{l(l+1)}{r^{2}} \right]u(r)=Eu(r)\tag{1}$$

@@ -6,7 +6,7 @@ $$\int_{a}^{b}f \frac{dg}{dx}dx=fg|_{a}^{b}-\int_{a}^{b} \frac{df}{dx}gdx$$
 ### Forma vettoriale
 Questo metodo è estensibile anche al calcolo di quantità vettoriali. Per esempio, consideriamo il prodotto
 $$\nabla\cdot f\mathbf{A}=f(\nabla\cdot\mathbf{A})+\mathbf{A}\cdot(\nabla f)$$
-dove $f$ è una funzione a valori reali e $\mathbf{A}$ è un [[Campo vettoriale]]. Allora integrando su un volume abbiamo
+dove $f$ è una funzione a valori reali e $\mathbf{A}$ è un [[Vector field]]. Allora integrando su un volume abbiamo
 $$\int \nabla\cdot(f\mathbf{A})d\tau=\int f(\nabla\cdot\mathbf{A})d\tau+\int\mathbf{A}\cdot(\nabla f)d\tau=\oint f\mathbf{A}\cdot d\mathbf{a}$$
 dove abbiamo usato il [[Divergence theorem]]. Allora
 $$\int_{V}f(\nabla\cdot\mathbf{A})=-\int_{V}\mathbf{A}\cdot(\nabla f)d\tau+\oint_{S}f\mathbf{A}\cdot d\mathbf{a}$$

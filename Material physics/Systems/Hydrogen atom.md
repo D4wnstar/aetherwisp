@@ -14,7 +14,7 @@ Since we have a central potential, it is best to rewrite the equation in [[spher
 $$\mu=\frac{Mm}{M+m}$$
 Using $\mu$ and shifting the [[Laplacian]] to use the coordinates of the center of mass, the equation becomes
 $$\hat{H}\psi(r)=\left[ - \frac{\hbar^{2}}{2\mu} \nabla ^{2}- \frac{Ze^{2}}{4\pi \varepsilon_{0}r}\right]\psi(r)=E\psi(r)$$
-The spherical [[coordinate transformation]] to [[Cartesian coordinates]] is
+The spherical [[Coordinate transformation]] to [[Cartesian coordinates]] is
 $$\begin{cases}
 x=r\sin \theta \cos \phi \\
 y=r\sin \theta \sin \phi \\

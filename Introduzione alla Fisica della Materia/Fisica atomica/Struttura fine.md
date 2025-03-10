@@ -52,7 +52,7 @@ Il termine di Darwin è
 $$\boxed{H_{D}'=\frac{\pi\hbar^{2}}{2m^{2}c^{2}} \left(\frac{Ze^{2}}{4\pi\epsilon_{0}}\right)\delta(r)}$$
 Considero un [[protone]] al centro del mio sistema di riferimento. L'elettrone dista $\vec{r}$ da esso. Allora l'energia potenziale Coulombiana è
 $$V(\vec{r})=-e\phi(\vec{r})\propto -e\left( \frac{e}{r}\right)\simeq- \frac{e^{2}}{r}$$
-con $\phi(\vec{r})$ il potenziale Coulombiano. Introduciamo un [[Campo vettoriale]] $\vec{u}$ che definisce una regione di carica attorno all'elettrone. Allora un qualunque punto nello spazio (in particolare attorno all'elettrone) può essere espresso come $\vec{r}+\vec{u}$.
+con $\phi(\vec{r})$ il potenziale Coulombiano. Introduciamo un [[Vector field]] $\vec{u}$ che definisce una regione di carica attorno all'elettrone. Allora un qualunque punto nello spazio (in particolare attorno all'elettrone) può essere espresso come $\vec{r}+\vec{u}$.
 ![[Schema Termine di Darwin|60%|center]]
 Chiamo $\tilde{V}(\vec{r})$ l'energia potenziale "vera", pari a $\tilde{V}(\vec{r})=\int\phi dq$, integrando sul volume dell'elettrone[^1]. Definisco $\rho(\vec{u})=-e\rho_{0}(\vec{u})$ la densità di carica, tramite $\rho_{0}$ la densità di carica "a meno delle unità di misura". Deve valere $\int\rho_{0}(\vec{u})d^{3}\vec{u}$, sempre sul volume. Allora si ha
 $$\tilde{V}(\vec{r})=\int_{elettrone}\rho(\vec{u})\phi(\vec{r}+\vec{u})d^{3}\vec{u}=\int \rho_{0}(\vec{u})V(\vec{r}+\vec{u})d^{3}\vec{u}$$

@@ -49,7 +49,7 @@ $$C_{V}=\frac{3}{2}Nk_{B}$$
 and [[specific heat]] by [[Atomo|atom]]
 $$c_{N}=\frac{C_{V}}{N}=\frac{3}{2}k_{B}$$
 
-If the ideal gas is subject to a harmonic [[Potenziale|potential]], the equations become
+If the ideal gas is subject to a harmonic [[Potential|potential]], the equations become
 $$\langle H \rangle =3Nk_{B}T,\qquad C_{V}=3Nk_{B},\qquad c_{N}=3k_{B}$$
 Twice as much as in the no-potential case.
 #### Crystalline solids

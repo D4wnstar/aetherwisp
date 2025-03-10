@@ -3,7 +3,7 @@ aliases:
   - Stokes theorem
   - Gauss-Green theorem
 ---
-The **curl theorem** or **Stokes-Kelvin theorem** states that the integral of the [[curl]] of a three-dimensional [[vector field]] in a [[Surface]] is equal to the integral of the field itself projected over the bounding [[Curve]] of the surface. For a generic vector field $\mathbf{F}$ on a surface $S$ of bounding curve $\gamma$, the theorem states:
+The **curl theorem** or **Stokes-Kelvin theorem** states that the integral of the [[curl]] of a three-dimensional [[vector field]] in a [[surface]] is equal to the integral of the field itself projected over the bounding [[curve]] of the surface. For a generic vector field $\mathbf{F}$ on a surface $S$ of bounding curve $\gamma$, the theorem states:
 $$\int_{S}(\nabla\times\mathbf{F})\cdot d\mathbf{a}=\oint_{\gamma}\mathbf{F}\cdot d\mathbf{s}$$
 where $d\mathbf{a}=\hat{\mathbf{n}}\ da$ is the area element projected with the normal unit vector $\hat{\mathbf{n}}$ and $d\mathbf{s}=\hat{\boldsymbol{\tau}}\ ds$ is the line element projected with the tangent unit vector $\hat{\boldsymbol{\tau}}$.
 ### Mathematical treatment

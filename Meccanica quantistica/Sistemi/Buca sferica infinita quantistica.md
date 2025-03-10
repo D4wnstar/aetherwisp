@@ -2,7 +2,7 @@
 aliases:
   - buca sferica infinita
 ---
-La **buca sferica infinita** è un sistema quantistico definito da una [[Particella]] immersa nel [[Potenziale]]
+La **buca sferica infinita** è un sistema quantistico definito da una [[Particella]] immersa nel [[Potential]]
 $$V(r)=\begin{cases}
 0 \quad &\text{se }r<a \\
 \infty \quad &\text{se }r>a

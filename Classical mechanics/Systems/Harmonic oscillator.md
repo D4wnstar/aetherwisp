@@ -16,7 +16,7 @@ with the constants determined by the boundary conditions, as usual. This motion 
 
 The velocity and acceleration oscillate with the same frequency, but have a different phase from the position. In particular, the velocity is minimal when the displacement is maximal, and vice versa.
 
-The oscillator has [[Potenziale|potential]] energy in position $x$ equal to
+The oscillator has [[Potential|potential]] energy in position $x$ equal to
 $$V=\frac{1}{2}kx^{2}\tag{1}$$
 and the force is conservative.
 ### Approximations

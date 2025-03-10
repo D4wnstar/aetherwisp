@@ -1,4 +1,4 @@
-The **magnetic field** $\mathbf{B}$ is the [[Campo vettoriale|vector field]] that describes the action of an [[electric current]] onto other [[Electric charge|electric charges]]. It is measured in either Teslas $\text{T}$ or Gauss $\text{G}$. It is given by the [[Biot-Savart law]].
+The **magnetic field** $\mathbf{B}$ is the [[Vector field|vector field]] that describes the action of an [[electric current]] onto other [[Electric charge|electric charges]]. It is measured in either Teslas $\text{T}$ or Gauss $\text{G}$. It is given by the [[Biot-Savart law]].
 
 Magnetic fields obey the [[superposition principle]]. If there are two currents producing fields $\mathbf{B}_{1}$ and $\mathbf{B}_{2}$, their combined field is simply $\mathbf{B}=\mathbf{B}_{1}+\mathbf{B}_{2}$.
 

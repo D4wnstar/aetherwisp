@@ -1,4 +1,4 @@
-Consideriamo il [[campo elettromagnetico]] espresso tramite il [[Potenziale vettore]] $\vec{A}$
+Consideriamo il [[campo elettromagnetico]] espresso tramite il [[Vector potential]] $\vec{A}$
 $$\nabla^{2}\vec{A}(r,t)- \frac{1}{c^{2}}\frac{\partial ^{2}}{\partial t^{2}}\vec{A}(r,t)=-N_{0}J_{T}=0$$
 dove $J_{T}$ è la [[corrente]] trasversa alla direzione di propagazione $\vec{k}$, che consideriamo nulla. Il campo elettrico (trasverso) e magnetico si trovano con
 $$\vec{E}_{T}=-\frac{\partial \vec{A}}{\partial t}\quad;\quad\vec{B}=\vec{\nabla}\times\vec{A}\tag{1}$$

@@ -1,4 +1,4 @@
-The **auxiliary field** $\mathbf{H}$ is a [[Campo vettoriale|vector field]] that combines the effect of both free [[Electric current|currents]] added externally and bound currents induced by [[magnetization]]. It is
+The **auxiliary field** $\mathbf{H}$ is a [[Vector field|vector field]] that combines the effect of both free [[Electric current|currents]] added externally and bound currents induced by [[magnetization]]. It is
 $$\mathbf{H}=\frac{1}{\mu_{0}}\mathbf{B}-\mathbf{M}\qquad\left[ \frac{\text{A}}{\text{m}^{2}} \right]$$
 where $\mathbf{B}$ is the [[magnetic field]] due to free currents and $\mathbf{M}$ is the magnetization.
 ### Derivation
