@@ -38,7 +38,7 @@ The integral is defined as the [[electric dipole moment]] $\mathbf{p}$ of the di
 $$\mathbf{p}\equiv \int \mathbf{r}'\rho(\mathbf{r}')\ d\tau'$$
 In this notation, the dipole potential becomes
 $$\boxed{V_\text{dip}(\mathbf{r})=\frac{1}{4\pi\varepsilon_{0}} \frac{\mathbf{p}\cdot\hat{\mathbf{r}}}{r^{2}}}$$
-Since the dipole moment and potentials depend directly on $\rho$, they carry a geometric dependence from the shape, size and density of the source charge. Of course, the same can be defined for point charges, [[Curva|lines]] and [[Superficie|surfaces]]. For example, for a system of point charges:
+Since the dipole moment and potentials depend directly on $\rho$, they carry a geometric dependence from the shape, size and density of the source charge. Of course, the same can be defined for point charges, [[Curve|lines]] and [[Surface|surfaces]]. For example, for a system of point charges:
 $$\mathbf{p}=\sum_{i=1}^{n} q_{i}\mathbf{r}_{i}'$$
 For a *physical* dipole specifically (i.e. both charges are equal and opposite $q$ and $-q$) it becomes
 $$\mathbf{p}=q\mathbf{r}'_{+}-q\mathbf{r}'_{-}=q(r'_{+}-r'_{-})=q\mathbf{d}$$

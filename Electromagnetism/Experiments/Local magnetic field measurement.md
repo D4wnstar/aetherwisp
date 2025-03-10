@@ -9,7 +9,7 @@ The Earth's magnetic field is on the order of $\sim 10^{-5}\text{ T}$.
 
 Locally, the magnetic field is $\mathbf{B}_{L}$. It can be decomposed into two components in [[Polar coordinates]], $\mathbf{B}_{\theta}$ and $\mathbf{B}_{r}$. These have formal expressions
 $$B_{r}=\frac{\mu_{0}}{4\pi} \frac{2m\cos\theta}{R^{3}_{T}},\qquad B_{\theta}=\frac{\mu_{0}}{4\pi} \frac{2m\sin\theta}{R^{3}_{T}}$$
-where $R_{T}$ is the radius of the Earth, $\mu_{0}$ is the [[permeability of free space]] and $m$ is the [[magnetic dipole moment]] of the Earth.
+where $R_{T}$ is the radius of the Earth, $\mu_{0}$ is the [[Vacuum permeability]] and $m$ is the [[magnetic dipole moment]] of the Earth.
 ### Apparatus
 The apparatus is a copper wire coiled many times in a loop mounted on an axis that can rotated manually through a crank. The construction is mostly made of plastic and non-magnetic metals, with only a few iron screws. The wire is coated in an insulator to make sure each loop of the wire does not conduct to the adjacent loops.
 

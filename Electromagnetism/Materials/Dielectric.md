@@ -48,7 +48,7 @@ $$\mathbf{N}=\mathbf{p}\times \mathbf{E}+\mathbf{r}\times \mathbf{F}$$
 #### Linear dielectrics
 At a macroscopic level, we can estimate the behavior of materials by their behavior at a microscopic level. From the study of [[dielectric polarization]], we know that it comes from the alignment of atoms and molecules around the electric field. We also know that the intensity of their dipole moment is dependent on the strength of the field, so long it's not large enough to break the molecules. Thus, we can (qualitatively) assume that the polarization of a dielectric is dependent on the electric field that is applied onto it. In fact, many material not only exhibit this dependence, but specifically a linear dependence:
 $$\mathbf{P}=\varepsilon_{0}\chi_{e}\mathbf{E}$$
-where $\varepsilon_{0}$ is the [[Costante dielettrica del vuoto|vacuum permittivity]] and $\chi_{e}$ is the [[electric susceptibility]], whose value depends on the microscopic structure of the material and external factors like temperature. $\mathbf{E}$ is the total field, including the one caused by polarization itself. Materials that obey this relation are known as **linear dielectrics**.
+where $\varepsilon_{0}$ is the [[Vacuum permittivity|vacuum permittivity]] and $\chi_{e}$ is the [[electric susceptibility]], whose value depends on the microscopic structure of the material and external factors like temperature. $\mathbf{E}$ is the total field, including the one caused by polarization itself. Materials that obey this relation are known as **linear dielectrics**.
 
 The dependence on the *total* field, as opposed to the external field, can cause problems: say you apply a field to a dielectric. It gets polarized and starts producing a field of its own, which adds on top of the external one, which in turn causes a variation in the polarization, which changes the material's field, which changes the total field, which changes the polarization, which— you get the point. Logically, it goes on to infinity, though it eventually comes to rest. Breaking out of the infinite loop can be done, for instance, by examining the [[electric displacement]] instead:
 $$\mathbf{D}=\varepsilon_{0}\mathbf{E}+\mathbf{P}=\varepsilon_{0}\mathbf{E}+\varepsilon_{0}\chi_{e}\mathbf{E}=\varepsilon_{0}(1+\chi_{e})\mathbf{E}$$
@@ -90,7 +90,7 @@ Now
 $$\nabla \cdot[(\Delta \mathbf{D})V]=[\nabla \cdot(\Delta \mathbf{D})]V+\Delta \mathbf{D}\cdot(\nabla V)$$
 and using [[Integrazione per parti|integration by parts]] we get
 $$\Delta W=\int \nabla \cdot[(\Delta \mathbf{D})V]\ d\tau+\int(\Delta \mathbf{D})\cdot \mathbf{E}\ d\tau$$
-The [[Teorema della divergenza|divergence theorem]] turns the first integral into a surface integral, which vanishes if we integrate over  all space. Thus, only the second term remains
+The [[Divergence theorem|divergence theorem]] turns the first integral into a surface integral, which vanishes if we integrate over  all space. Thus, only the second term remains
 $$\Delta W=\int(\Delta \mathbf{D})\cdot \mathbf{E}\ d\tau$$
 This is universal and applies to all dielectrics. Now suppose it is linear. We can substitute the displacement like
 $$(\Delta \mathbf{D})\cdot \mathbf{E}=\varepsilon(\Delta \mathbf{E})\cdot \mathbf{E}=\frac{1}{2}\Delta(\varepsilon E^{2})=\frac{1}{2}\Delta(\mathbf{D}\cdot \mathbf{E})$$

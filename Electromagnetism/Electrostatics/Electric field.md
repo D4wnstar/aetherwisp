@@ -16,15 +16,15 @@ For a charge in motion, things differ a bit. Namely, the field lines are enhance
 ### Point charges
 Given a system of source point charges $q_{1}$, $q_{2}$, ..., the electric field is the quantity
 $$\mathbf{E}(\mathbf{r})=\frac{1}{4\pi\varepsilon_{0}}\sum\limits_{i=1}^{n} \frac{q_{i}}{\mathfrak{r}_{i}^{2}}\hat{\mathfrak{r}}_{i}\quad \left[\frac{\text{N}}{\text{C}}\right]$$
-where $\epsilon_{0}$ is the [[Costante dielettrica del vuoto|permittivity of free space]] and $\mathfrak{r}_{i}=|\mathbf{r}-\mathbf{r}'|$ is the distance between the $i$-th source charge (at position $\mathbf{r}'$) and the test charge (at position $\mathbf{r}$). $\hat{\mathfrak{r}}$ is the unit vector that points from that charge to the test charge.
+where $\epsilon_{0}$ is the [[Vacuum permittivity|permittivity of free space]] and $\mathfrak{r}_{i}=|\mathbf{r}-\mathbf{r}'|$ is the distance between the $i$-th source charge (at position $\mathbf{r}'$) and the test charge (at position $\mathbf{r}$). $\hat{\mathfrak{r}}$ is the unit vector that points from that charge to the test charge.
 ### Continuous charges
 For continues charges, the field is derived by integration as
 $$\mathbf{E}(\mathbf{r})=\frac{1}{4\pi\varepsilon_{0}}\int \frac{1}{\mathfrak{r}^{2}}\hat{\mathfrak{r}}\ dq$$
 where the domain of integration is the charge distribution in space. This is expressed in one, two and three dimensions as [[Integrale su una curva|line integrals]], [[Integrale su una superficie|surface integrals]] and volume integrals. 
 
-For a linear charge distribution $dq=\lambda dt'$, with $\lambda$ the linear charge density and $dt'$ the line element onto the charge [[Curva|curve]] $\gamma$, we have
+For a linear charge distribution $dq=\lambda dt'$, with $\lambda$ the linear charge density and $dt'$ the line element onto the charge [[Curve|curve]] $\gamma$, we have
 $$\mathbf{E}(\mathbf{r})=\frac{1}{4\pi\varepsilon_{0}}\int_{\gamma} \frac{\lambda(\mathbf{r}')}{\mathfrak{r}^{2}}\hat{\mathfrak{r}}\ dt'$$
-For a surface charge distribution $dq=\sigma da'$ with $\sigma$ the surface charge density and $da'$ the area element onto the [[Superficie|surface]] $\Phi$, we have
+For a surface charge distribution $dq=\sigma da'$ with $\sigma$ the surface charge density and $da'$ the area element onto the [[Surface|surface]] $\Phi$, we have
 $$\mathbf{E}(\mathbf{r})=\frac{1}{4\pi\varepsilon_{0}}\int_{\Phi}\frac{\sigma(\mathbf{r}')}{\mathfrak{r}^{2}}\hat{\mathfrak{r}}\ da'$$
 For a volume charge distribution $dq=\rho d\tau'$ with $\rho$ the volume charge density and $d\tau'$ the area element onto the volume $V$, we have
 $$\mathbf{E}(\mathbf{r})=\frac{1}{4\pi\varepsilon_{0}}\int_{V}\frac{\rho(\mathbf{r}')}{\mathfrak{r}^{2}}\hat{\mathfrak{r}}\ d\tau'$$
@@ -38,7 +38,7 @@ The divergence of $\hat{r}/r^{2}$ explodes in 0, so the divergence cannot be cal
 $$\oint_{S} \frac{\hat{r}}{r^{2}}\cdot d\mathbf{a}=\int_{S}\left(\frac{1}{R^{2}}\hat{r}\right)\cdot(R^{2}\sin\theta d\theta d\phi\hat{r})=\left(\int_{0}^{\pi}\sin\theta d\theta\right)\left(\int_{0}^{2\pi}d\phi\right) =4\pi$$
 but the divergence itself is *zero*:
 $$\nabla\cdot \left(\frac{\hat{r}}{r^{2}}\right)=\frac{1}{r^{2}}\frac{\partial }{\partial r}\left(r^{2} \frac{1}{r^{2}}\right)=0$$
-If we apply the [[Teorema della divergenza|divergence theorem]], we get
+If we apply the [[Divergence theorem|divergence theorem]], we get
 $$\int_{V}\nabla\cdot\left(\frac{\hat{r}}{r^{2}}\right)=\oint_{S} \frac{\hat{r}}{r^{2}}\cdot d\mathbf{a}=4\pi$$
 which seems paradoxical. How can the integral of something we calculate as zero be $4\pi$? The only way this can be true is if the divergence contains the (three-dimensional) [[delta di dirac|Dirac delta]] [[Distribuzione|distribution]], as its integral over all space is one. Thus
 $$\nabla\cdot\left(\frac{\hat{r}}{r^{2}}\right)=4\pi\delta^{3}(\mathbf{r})$$
@@ -60,7 +60,7 @@ therefore
 $$\int_{\mathbf{a}}^{\mathbf{b}}\mathbf{E}\cdot d\mathbf{r}=\frac{1}{4\pi\varepsilon_{0}}\int_{\mathbf{a}}^{\mathbf{b}} \frac{q}{r^{2}}dr=\frac{1}{4\pi\varepsilon_{0}}\left(\frac{q}{r_{a}}- \frac{q}{r_{b}}\right)$$
 For a closed integral we have $r_{a}=r_{b}$, so
 $$\oint \mathbf{E}\cdot d\mathbf{r}=0$$
-and using the [[Teorema del rotore|curl theorem]] we find
+and using the [[Curl theorem|curl theorem]] we find
 $$\boxed{\nabla\times \mathbf{E}=0}$$
 So the electric field of a point charge is irrotational, which means, among other things, that the force caused by it is conservative. In fact, due to the superposition principle, this holds for *any* distribution of charge, be it discrete or continuous.
 ### Notable cases

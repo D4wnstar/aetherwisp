@@ -5,7 +5,7 @@ $$\boxed{\begin{align}
 \nabla\cdot\mathbf{B} & =0 &
 \nabla\times\mathbf{B} &= \mu_{0}\mathbf{J}+\mu_{0}\varepsilon_{0}\frac{ \partial \mathbf{E} }{ \partial t } 
 \end{align}}$$
-and together with the boundary conditions $\mathbf{E}\to 0$ and $\mathbf{B}\to  0$ approaching infinity, they uniquely determine the two fields. $\rho$ is a volume [[electric charge]] density and $\mathbf{J}$ is a volume [[electric current]] density. $\varepsilon_{0}$ and $\mu_{0}$ are the [[Costante dielettrica del vuoto|permittivity]] and [[permeability of free space]] respectively.
+and together with the boundary conditions $\mathbf{E}\to 0$ and $\mathbf{B}\to  0$ approaching infinity, they uniquely determine the two fields. $\rho$ is a volume [[electric charge]] density and $\mathbf{J}$ is a volume [[electric current]] density. $\varepsilon_{0}$ and $\mu_{0}$ are the [[Vacuum permittivity|permittivity]] and [[Vacuum permeability]] respectively.
 
 These laws, alongside the [[Lorentz force]], explain the entirety of electromagnetic phenomena. Maxwell's equations tell you how *charges* produces *fields*, whereas the Lorentz force tells you how *fields* affect *charges*. With both, the circle is complete. This is true in both electro/magnetostatics and electrodynamics.
 ### In the vacuum
@@ -46,7 +46,7 @@ $$\begin{align}
 \oint_{\mathcal{S}}\mathbf{D}\cdot d\mathbf{a} & =Q_{f,enc} & \oint_{\gamma}\mathbf{E}\cdot d\mathbf{r} & =- \frac{d}{dt} \int_{\mathcal{S}}\mathbf{B}\cdot d\mathbf{a} \\
 \oint_{\mathcal{S}}\mathbf{B}\cdot d\mathbf{a} & =0 & \oint_{\gamma}\mathbf{H}\cdot d\mathbf{r} & =I_{f,enc}+\frac{d}{dt} \int_{\mathcal{S}}\mathbf{D}\cdot d\mathbf{a}
 \end{align}$$
-where the two left ones are integrated over any closed [[Superficie|surface]] $\mathbf{S}$ and the two right ones are for any closed surface bounded by a closed [[Curva|line]] $\gamma$.
+where the two left ones are integrated over any closed [[Surface|surface]] $\mathbf{S}$ and the two right ones are for any closed surface bounded by a closed [[Curve|line]] $\gamma$.
 ### Boundary conditions
 In general, all the fields used in Maxwell's equations will be discontinuous over a surface charge or current. We can find the boundary conditions by applying the integral equations in matter.
 

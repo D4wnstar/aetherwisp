@@ -8,7 +8,7 @@ I **polinomi di Legendre** sono le soluzioni all'[[Equazione differenziale di Le
 
 Possono essere definite usando l'[[Integrale su una curva]]
 $$P_{n}(z)=\frac{1}{2\pi i}\oint_{\gamma}(1-2tz+t^{2})^{-1/2}t^{-n-1}dt$$
-con $\gamma$ una [[Curva]] centrata attorno all'origine percorsa in senso antiorario e $n$ è un numero naturale.
+con $\gamma$ una [[Curve]] centrata attorno all'origine percorsa in senso antiorario e $n$ è un numero naturale.
 
 Alternativamente, si può usare la **formula di Rodrigues**
 $$P_{l}(z)=\frac{1}{2^{l}l!} \left(\frac{d}{dx}\right)^{l}(x^{2}-1)^{l}$$

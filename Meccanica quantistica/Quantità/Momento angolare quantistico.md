@@ -8,7 +8,7 @@ $$\hat{L}_{x}=\frac{\hbar y}{i}\frac{\partial }{\partial z}- \frac{\hbar z}{i}\f
 Per trovare gli [[Equazione agli autovalori|autovalori]] di questi operatori, anzitutto calcoliamo il loro [[Commutatore]]:
 $$[L_{x},L_{y}]=[yp_{z}-zp_{y}, zp_{x}-xp_{z}]=[yp_{z},zp_{x}]-[yp_{z},xp_{z}]-[zp_{y},zp_{x}]+[zp_{y},xp_{z}]=\ldots$$
 Gli unici commutatori che non commutano sono $x$ con $p_{x}$, $y$ con $p_{y}$ e $z$ con $p_{z}$, quindi
-$$\ldots=[yp_{z},zp_{x}]-[zp_{y},xp_{z}]=yp_{x}[p_{z},z]+xp_{y}[z,p_{z}]=i\hbar(xp_{yu}-yp_{x})=i\hbar L_{z}$$
+$$\ldots=[yp_{z},zp_{x}]-[zp_{y},xp_{z}]=yp_{x}[p_{z},z]+xp_{y}[z,p_{z}]=i\hbar(xp_{y}-yp_{x})=i\hbar L_{z}$$
 Quindi il commutatore di $L_{x}$ e $L_{y}$ dipende da $L_{z}$. Invero, per ottenere tutti i commutatori è sufficiente compiere una permutazione ciclica nell'indice delle variabili:
 $$[L_{x},L_{y}]=i\hbar L_{z}, \quad [L_{y},L_{z}]=i\hbar L_{x}, \quad [L_{z},L_{x}]=i\hbar L_{y}$$
 Ciò significa le coppie di momenti angolari sono [[Disuguaglianza di Heisenberg|osservabili incompatibili]]. Secondo il principio di indeterminazione generalizzato si ha

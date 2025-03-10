@@ -4,7 +4,7 @@ aliases:
 ---
 **Ampere's law** relates the circulation of a [[magnetic field]] $\mathbf{B}$ around a closed loop to the [[electric current]] passing through the loop. In differential form it reads
 $$\nabla\times\mathbf{B}=\mu_{0}\mathbf{J}$$
-where $\mu_{0}$ is the [[permeability of free space]] and $\mathbf{J}$ is the volume current density. It can be converted to integral form by application of the [[Teorema del rotore|curl theorem]]:
+where $\mu_{0}$ is the [[Vacuum permeability]] and $\mathbf{J}$ is the volume current density. It can be converted to integral form by application of the [[Curl theorem|curl theorem]]:
 $$\oint_{\gamma} \mathbf{B}\cdot d\mathbf{r}=\mu_{0}I_\text{enc}$$
 where $I_\text{enc}$ is the enclosed current passing through the surface. This law can be thought of as the magnetic counterpart of [[Gauss' law]] and just like it, it makes solving some problems trivial, provided symmetry allows.
 

@@ -7,6 +7,6 @@ $$df=\sum_{i=1}^{N} \frac{ \partial f }{ \partial x_{i} }dx_{i} $$
 
 $df$ is exact if and only if $f$ is a multivariate function whose arguments are independent of each other, that is, changing one has no effect on the others.
 
-The benefit of an exact differential is that any integral over it is independent of the [[Curva|path]] chosen, such that for any two paths $\gamma_{1}$ and $\gamma_{2}$ defined in $f$'s domain we have
+The benefit of an exact differential is that any integral over it is independent of the [[Curve|path]] chosen, such that for any two paths $\gamma_{1}$ and $\gamma_{2}$ defined in $f$'s domain we have
 $$\int_{\gamma_{1}}df=\int_{\gamma_{2}}df$$
 In thermodynamics, a function that has an exact differential and determines the [[stato|state]] of a [[physical system]] is called an [[equation of state]].

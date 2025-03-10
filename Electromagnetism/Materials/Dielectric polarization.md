@@ -13,7 +13,7 @@ we have
 $$V(\mathbf{r})=\frac{1}{4\pi\varepsilon_{0}}\int_{\mathcal{V}}\mathbf{P}(\mathbf{r}')\cdot \nabla'\left( \frac{1}{\mathfrak{r}} \right)\ d\tau'$$
 Using [[Integrazione per parti|integration by parts]] we have
 $$V=\frac{1}{4\pi\varepsilon_{0}}\left[ \int_{\mathcal{V}}\nabla'\cdot \left( \frac{\mathbf{P}}{\mathfrak{r}} \right)\ d\tau'-\int_{\mathcal{V}} \frac{1}{\mathfrak{r}}(\nabla'\cdot \mathbf{P})\ d\tau' \right]$$
-The first integral obeys the [[Teorema della divergenza|divergence theorem]], so
+The first integral obeys the [[Divergence theorem|divergence theorem]], so
 $$V=\frac{1}{4\pi\varepsilon_{0}}\oint_{\mathcal{S}} \frac{1}{\mathfrak{r}}\mathbf{P}\cdot d\mathbf{a}'- \frac{1}{4\pi\varepsilon_{0}}\int_{\mathcal{V}} \frac{1}{\mathfrak{r}}(\nabla'\cdot \mathbf{P})\ d\tau'$$
 The first terms has the form of the potential of a surface charge
 $$\boxed{\sigma_{b}=\mathbf{P}\cdot \hat{\mathbf{n}}}$$

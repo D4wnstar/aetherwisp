@@ -108,7 +108,7 @@ in the region between the conductors and
 $$\oint \mathbf{E}_{3}\cdot d\mathbf{a}=0$$
 over each boundary surface. Since conductors are equipotential volumes, we know that the potential $V_{3}$ associated with $\mathbf{E}_{3}$ has to be a constant for all conductor surfaces (it doesn't need to be the *same* constant for all of them). The trick is to use the product rule
 $$\nabla \cdot(V_{3}\mathbf{E}_{3})=V_{3}(\nabla\cdot\mathbf{E}_{3})+\mathbf{E}_{3}\cdot(\nabla V_{3})=-(E_{3})^{2}$$
-Integrating over $\mathcal{V}$ and applying the [[Teorema della divergenza|divergence theorem]] to the left side we get
+Integrating over $\mathcal{V}$ and applying the [[Divergence theorem|divergence theorem]] to the left side we get
 $$\int_{\mathcal{V}}\nabla\cdot (V_{3}\mathbf{E_{3}})\ d\tau=\oint_{\mathcal{S}}V_{3}\mathbf{E}_{3}\cdot d\mathbf{a}=-\int_{\mathcal{V}}E_{3}^{2}\ d\tau$$
 The surface $\mathcal{S}$ covers all boundaries of the region in question, i.e. the conductors and outer boundary. Since $V_{3}$ is constant over each surface, it comes out of the integrals and what remains is zero. Thus we're left with
 $$\int_{\mathcal{V}}E_{3}^{2}\ d\tau=0$$

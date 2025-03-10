@@ -23,7 +23,7 @@ The benefit of finding constants of motion is that they add bindings to the para
 > 
 > ![[Plot 1D Harmonic oscillator constant energy surfaces|70%]]
 > 
-> As you can see, we reduced a two-dimensional problem (solving for all phase space) into a one-dimensional one (solving only for the constant energy [[curva|curve]]).
+> As you can see, we reduced a two-dimensional problem (solving for all phase space) into a one-dimensional one (solving only for the constant energy [[Curve|curve]]).
 
 > [!example] 1D conservative system
 > In a [[conservative system]] (here given with one degree of freedom), the total force $F(x)$ can be given as the derivative of a [[potential energy]] $V(x)$:

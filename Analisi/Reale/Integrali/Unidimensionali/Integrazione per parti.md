@@ -8,9 +8,9 @@ Questo metodo è estensibile anche al calcolo di quantità vettoriali. Per esemp
 $$\nabla\cdot f\mathbf{A}=f(\nabla\cdot\mathbf{A})+\mathbf{A}\cdot(\nabla f)$$
 dove $f$ è una funzione a valori reali e $\mathbf{A}$ è un [[Campo vettoriale]]. Allora integrando su un volume abbiamo
 $$\int \nabla\cdot(f\mathbf{A})d\tau=\int f(\nabla\cdot\mathbf{A})d\tau+\int\mathbf{A}\cdot(\nabla f)d\tau=\oint f\mathbf{A}\cdot d\mathbf{a}$$
-dove abbiamo usato il [[Teorema della divergenza]]. Allora
+dove abbiamo usato il [[Divergence theorem]]. Allora
 $$\int_{V}f(\nabla\cdot\mathbf{A})=-\int_{V}\mathbf{A}\cdot(\nabla f)d\tau+\oint_{S}f\mathbf{A}\cdot d\mathbf{a}$$
-dove $V$ è un volume e $S$ è la [[Superficie]] di frontiera di quel volume. In modo analogo si trovano anche
+dove $V$ è un volume e $S$ è la [[Surface]] di frontiera di quel volume. In modo analogo si trovano anche
 $$\int_{S}f(\nabla\times\mathbf{A})\cdot d\mathbf{a}=\int_{S}[\mathbf{A}\times(\nabla f)]\cdot d\mathbf{a}+\oint_{\gamma}f\mathbf{A}\cdot d\mathbf{r}$$
-dove $\gamma$ è la [[Curva]] di frontiera della superficie $S$, e anche
+dove $\gamma$ è la [[Curve]] di frontiera della superficie $S$, e anche
 $$\int_{V}\mathbf{B}\cdot(\nabla\times\mathbf{A})d\tau=\int_{V}\mathbf{A}\cdot(\nabla\times\mathbf{B})d\tau+\oint_{S}(\mathbf{A}\times\mathbf{B})\cdot d\mathbf{a}$$

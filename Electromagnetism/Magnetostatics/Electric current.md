@@ -40,7 +40,7 @@ $$\mathbf{F}_\text{mag}=\int(\mathbf{v}\times \mathbf{B})\rho\ d\tau=\int(\mathb
 ### Continuity equation
 The volume current density allows us to reach a fundamental result for currents. Rewrite the linear current in terms of the volume density
 $$I=\int_{S}Jda_{\perp}=\int_{S}\mathbf{J}\cdot d\mathbf{a}$$
-We can then apply the [[Teorema della divergenza|divergence theorem]] to get
+We can then apply the [[Divergence theorem|divergence theorem]] to get
 $$\oint_{S}\mathbf{J}\cdot d\mathbf{a}=\int_{V}\nabla\cdot\mathbf{J}\ d\tau$$
 which is the the charge per unit time leaving the surface $S$. But charge is always conserved, so the charge the exits must leave a deficit of charge behind:
 $$\int_{V}\nabla\cdot\mathbf{J}\ d\tau=- \frac{d}{dt}\int_{V}\rho\ d\tau=-\int_{V}\frac{ \partial \rho }{ \partial t }\ d\tau$$

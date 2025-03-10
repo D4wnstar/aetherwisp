@@ -7,7 +7,7 @@ aliases:
 ---
 The **Fermi energy** $E_{F}$ is the [[energy]] of the highest occupied [[stato|state]] of a [[Physical system|system]] of [[Fermion|fermions]] at zero [[temperature]]. It corresponds to the zero-temperature [[chemical potential]] of the system, so that $\mu=E_{F}$ when $T=0$. At nonzero temperatures, thermal effects add energy to the fermions, so the Fermi energy is no longer well-defined. However, for temperatures far below the Fermi temperature (see below), it remains a good approximation, $\mu\simeq E_{F}$.
 
-Since energy determines a [[Superficie|surface]] in [[phase space]], the Fermi energy surface divides occupied states (inside) from unoccupied ones (outside). It is known as the [[Fermi surface]].
+Since energy determines a [[Surface|surface]] in [[phase space]], the Fermi energy surface divides occupied states (inside) from unoccupied ones (outside). It is known as the [[Fermi surface]].
 ### Explanation
 The [[Pauli exclusion principle]] prevents multiple fermions from occupying the same state. This causes the fermions to be "pushed apart" in different states, despite there not being any repulsive [[Potenziale|potential]]. This inherent repulsive behavior is characteristic of fermions. Because of this repulsion, even at zero temperature, most fermions will be in excited states, as there can only be one in the ground state. This gives fermionic systems a certain irreducible amount of energy that cannot be removed even at zero temperature. The energy of the highest occupied state at zero temperature is known as the **Fermi energy**. This quantity can be derived from purely mathematical considerations.
 ### Related quantities

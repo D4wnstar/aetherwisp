@@ -70,8 +70,8 @@ In una dimensione, non esistono [[Stati in meccanica quantistica|stati legati]] 
 Per uno spazio tridimensionale, si giunge ad una simile conclusione. L'equazione indipendente dal tempo in tre dimensioni è
 $$\boxed{- \frac{\hbar^{2}}{2m}\nabla^{2}\psi+V\psi=E\psi}$$
 e la soluzione all'equazione tempo-dipendente è
-$$\boxed{\Psi(\vec{r},t)=\sum\limits_{n=1}^{\infty}c_{n}\psi_{n}(\vec{r})e^{-iE_{n}t/\hbar}=\sum\limits_{n=1}^{\infty}c_{n}\Psi_{n}(\vec{r},t)}$$
-#### Separazione delle variabili
+$$\boxed{\Psi(\mathbf{r},t)=\sum\limits_{n=1}^{\infty}c_{n}\psi_{n}(\mathbf{r})e^{-iE_{n}t/\hbar}=\sum\limits_{n=1}^{\infty}c_{n}\Psi_{n}(\mathbf{r},t)}$$
+#### Coordinate sferiche
 A differenza del caso unidimensionale, possiamo ripetere di nuovo la separazione delle variabili per suddividere ancora la funzione d'onda in due componenti: una radiale e una angolare. Allora chiediamo che la funzione d'onda tempo-indipendente abbia soluzioni della forma
 $$\psi(r,\theta,\phi)=R(r)Y(\theta,\phi)\tag{4}$$
 Esprimo l'equazione di Schrödinger tempo-indipendente in coordinate sferiche, dato che molti sistemi quantistici hanno potenziale a simmetrica sferica (come i modelli di [[atomo]]):

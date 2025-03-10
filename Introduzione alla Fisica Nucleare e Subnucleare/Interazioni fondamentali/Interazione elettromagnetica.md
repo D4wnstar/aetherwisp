@@ -7,7 +7,7 @@ aliases:
 ---
 L'**interazione elettromagnetica** è l'[[interazione fondamentale]] che governa l'attrazione e repulsione tra oggetti dotati di carica elettrica. Considerato un oggetto di carica $q$ a distanza $r$ da un altro oggetto carico, il [[Potenziale]] Coulombiano che li lega è
 $$V=\frac{1}{4\pi\varepsilon_{0}}\frac{q}{r}$$
-dove $\epsilon_{0}$ è la [[costante dielettrica del vuoto]]. La forza invece è determinata dalla **legge di Coulomb**
+dove $\epsilon_{0}$ è la [[Vacuum permittivity]]. La forza invece è determinata dalla **legge di Coulomb**
 $$\vec{F}=\frac{1}{4\pi\varepsilon_{0}}\frac{q_{1}q_{2}}{r^{2}}\hat{r}$$
 dove $q_{1}$ e $q_{2}$ sono le cariche delle [[Particella|particelle]] puntiformi che stanno interagendo a distanza $r$ una dall'altra. $\hat{r}$ è il versore che punta da $q_{1}$ a $q_{2}$.
 
@@ -19,7 +19,7 @@ dove
 - $e$ è la carica dell'[[Elettrone]].
 - $\hbar$ è la [[costante di Planck]].
 - $c$ è la [[velocità della luce]].
-- $\varepsilon$ è la [[costante dielettrica del vuoto]].
+- $\varepsilon$ è la [[Vacuum permittivity]].
 
 È importante il fatto che questa costante sia universale: ogni singolo processo elettromagnetico dell'Universo è regolato da questa costante. È anche piccola abbastanza da giustificare l'utilizzo della teoria perturbativa.
 ### Interazione con la materia

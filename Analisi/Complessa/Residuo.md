@@ -1,6 +1,6 @@
 Il **residuo** di una [[Singolarità isolata]] in $z_{0}$ di una [[Funzione analitica]] $f(z)$ in un intorno di $z_{0}\;\backslash\;\{z_{0}\}$ è definito come
 $$\text{Res}_{f}(z_{0})=\frac{1}{2\pi i}\oint_{\gamma}f(z)dz$$
-dove $\gamma$ è una qualsiasi [[Curva]] semplice chiusa percorsa in senso antiorario contenuta nel campo di analiticità di $f$ e contenente $z_{0}$ e nessun altra singolarità. Il residuo di $f(z)$ in $z_{0}$ è il coefficiente di $(z-z_{0})^{-1}$ nello sviluppo in [[serie di Laurent]] centrata in $z_{0}$. In particolare, se $z_{0}$ è un [[Singolarità isolata#Poli|polo]] di ordine $n$, si ha
+dove $\gamma$ è una qualsiasi [[Curve]] semplice chiusa percorsa in senso antiorario contenuta nel campo di analiticità di $f$ e contenente $z_{0}$ e nessun altra singolarità. Il residuo di $f(z)$ in $z_{0}$ è il coefficiente di $(z-z_{0})^{-1}$ nello sviluppo in [[serie di Laurent]] centrata in $z_{0}$. In particolare, se $z_{0}$ è un [[Singolarità isolata#Poli|polo]] di ordine $n$, si ha
 $$\text{Res}_{f}(z_{0})=\frac{1}{(n-1)!} \lim\limits_{z \rightarrow z_{0}} \left(\frac{d}{dz}\right)^{n-1}(z-z_{0})^{n}f(z)$$
 nel caso $n=1$ diventa
 $$\text{Res}_{f}(z_{0})=\lim\limits_{z \rightarrow z_{0}}(z-z_{0})f(z)$$

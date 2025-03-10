@@ -8,6 +8,6 @@ dove
 - $e$ è la carica dell'[[Elettrone]].
 - $\hbar$ è la [[costante di Planck]].
 - $c$ è la [[velocità della luce]].
-- $\varepsilon$ è la [[costante dielettrica del vuoto]].
+- $\varepsilon$ è la [[Vacuum permittivity]].
 
 L'esatto valore della costante non è un intero, ma a meno che non serva la precisione, si usa $\alpha=1/137$.

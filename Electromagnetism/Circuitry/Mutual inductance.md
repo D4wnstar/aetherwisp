@@ -6,7 +6,7 @@ and thus
 $$\Phi_{2}=M_{21}I_{1}$$
 where $M_{21}$ is a constant of proportionality called the **mutual inductance**.
 
-This constant can be derived by expressing the flux in terms of the [[magnetic vector potential]] and the using [[Teorema del rotore|Stokes' theorem]]:
+This constant can be derived by expressing the flux in terms of the [[magnetic vector potential]] and the using [[Curl theorem|Stokes' theorem]]:
 $$\Phi_{2}=\int \mathbf{B}_{1}\cdot d\mathbf{a}_{2}=\int(\nabla\times\mathbf{A}_{1})\cdot d\mathbf{a}_{2}=\oint \mathbf{A}_{1}\cdot d\mathbf{I}_{2}$$
 Now, the vector potential for a line current is
 $$\mathbf{A}_{1}=\frac{\mu_{0}I_{1}}{4\pi}\oint \frac{1}{\mathfrak{r}}d\mathbf{I}_{1}$$

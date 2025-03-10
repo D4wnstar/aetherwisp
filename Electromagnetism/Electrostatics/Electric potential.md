@@ -48,7 +48,7 @@ For a continuous distribution, we can just integrate
 $$V(\mathbf{r})=\frac{1}{4\pi\varepsilon_{0}}\int \frac{1}{\mathfrak{r}}dq$$
 For a volume distribution $\rho$ we have
 $$\boxed{V(\mathbf{r})=\frac{1}{4\pi\varepsilon_{0}}\int\frac{\rho(\mathbf{r}')}{\mathfrak{r}}d\tau'}$$
-This is the general equation that can be used to derive the potential field of an arbitrary charge distribution, assuming the point of reference is at infinity. Compared to the electric field formula for $\rho$, it is only dependent on $1/\mathfrak{r}$ instead of $1/\mathfrak{r}^{2}$ and, most importantly, does not include $\hat{\mathfrak{r}}$. Of course, equivalent equations for [[Curva|linear]] and [[Superficie|surface]] charge densities exist.
+This is the general equation that can be used to derive the potential field of an arbitrary charge distribution, assuming the point of reference is at infinity. Compared to the electric field formula for $\rho$, it is only dependent on $1/\mathfrak{r}$ instead of $1/\mathfrak{r}^{2}$ and, most importantly, does not include $\hat{\mathfrak{r}}$. Of course, equivalent equations for [[Curve|linear]] and [[Surface|surface]] charge densities exist.
 ### Discontinuities
 The potential is continuous over boundaries. In fact, since it's defined by a path integral, we can shrink the path going through the surface to be arbitrarily small, thereby making the integral also arbitrarily small. Thus
 $$V_\text{above}-V_\text{below}=-\int_{\gamma}\mathbf{E}\cdot d\mathbf{r} \underset{ \gamma \to 0 }{ \to } 0 \quad \Rightarrow \quad V_\text{above}=V_\text{below}$$

@@ -1,4 +1,4 @@
-**Mirtich's algorithm** is a mathematical method to calculate the mass and [[Moment of inertia|inertia tensor]] for a solid polyhedron of constant mass density. It uses the [[Teorema della divergenza|divergence theorem]] to reduce a volume integrals into a [[Superficie|surface]] integrals and then again [[Teorema del rotore|Green's theorem]] to reduce the surface integrals into [[Curva|line]] integrals. Some important things to note are:
+**Mirtich's algorithm** is a mathematical method to calculate the mass and [[Moment of inertia|inertia tensor]] for a solid polyhedron of constant mass density. It uses the [[Divergence theorem|divergence theorem]] to reduce a volume integrals into a [[Surface|surface]] integrals and then again [[Curl theorem|Green's theorem]] to reduce the surface integrals into [[Curve|line]] integrals. Some important things to note are:
 1. The polyhedron is composed of flat faces, which means that the surface integrals are just two-dimensional integrals on a plane. The same can be said for the line integrals at the edges of the faces.
 2. Consequently, the faces can and should be projected onto a plane in order to avoid numerical problems.
 3. The reduction to line integrals returns known integrals, which can be manually calculated for a considerable improvement in speed.
@@ -10,7 +10,7 @@ Calculation of the mass, [[Center of mass]] and [[Moment of inertia|inertia tens
 $$\int_{V}P(x,y,z)\ dV$$
 where $V$ is the volume of the polyhedron and $P$ is a polynomial among: 1, $x$, $y$, $z$, $x^{2}$, $y^{2}$, $z^{2}$, $xy$, $xz$ and $yz$. This integral may be converted to a [[Integrale su una superficie|surface integral]] by use of the divergence theorem:
 $$\int_{V}P(x,y,z)\ dV=\int_{V}\nabla\cdot\vec{F}\ dV=\int_{S}\vec{N}\cdot\vec{F}\ dS$$
-where $S$ the boundary [[Superficie|surface]] of the polyhedron, a union of triangular surfaces and $\vec{F}:\mathbb{R}^{3} \rightarrow\mathbb{R}^{3}$ is chosen so that $\vec{N}\cdot\vec{F}=P$. $\vec{N}$ is outgoing normal vector from the surface. There is only one possible choice for $\vec{F}$ for any one polynomial. The full list is:
+where $S$ the boundary [[Surface|surface]] of the polyhedron, a union of triangular surfaces and $\vec{F}:\mathbb{R}^{3} \rightarrow\mathbb{R}^{3}$ is chosen so that $\vec{N}\cdot\vec{F}=P$. $\vec{N}$ is outgoing normal vector from the surface. There is only one possible choice for $\vec{F}$ for any one polynomial. The full list is:
 
 | $P$   | $\vec{F}$      |
 | ----- | -------------- |
@@ -44,7 +44,7 @@ where $i$ is any of $x$, $y$ or $z$ and $Q$ is a polynomial among $x$, $x^{2}$, 
 #### Reduction of surface integrals
 The integrals can be further simplified by transforming them into a [[Integrale su una curva|line integral]]. For an example, consider the simplest possible case $Q=1$. Here, $\int_{\mathcal{F}}dS$ is just the [[misura|measure]] of the face, that is, its area. The surface is in 3D space, so we must compute it as a 3D quantity:
 $$A=\int_{\mathcal{F}}dS=\frac{1}{2}\vec{N}_{\mathcal{F}}\cdot\sum\limits_{i=0}^{N-1}\vec{P}_{i}\times\vec{P}_{i+1}$$
-where $N$ is the number of vertices of the face and $\vec{P}_{i}=(x_{i},y_{i},z_{i})$ are their coordinates. The vertices are ordered counterclockwise relative to the normal vector. This form is derive from [[Teorema del rotore|Stokes' theorem]]. Unfortunately, this is not a very efficient way of doing the calculations.
+where $N$ is the number of vertices of the face and $\vec{P}_{i}=(x_{i},y_{i},z_{i})$ are their coordinates. The vertices are ordered counterclockwise relative to the normal vector. This form is derive from [[Curl theorem|Stokes' theorem]]. Unfortunately, this is not a very efficient way of doing the calculations.
 
 A more efficient way is to project the polygon onto a coordinate plane, compute the area in two dimensions and adjust the result based on the projection. The plane the polygon face sits on is $\hat{\eta}_{x}+\hat{\eta}_{y}+\hat{\eta}_{z}+w=0$, where $w=-\vec{N}_{\mathcal{F}}\cdot\vec{P_{0}}$. As long as $\hat{\eta}_{z}\neq0$, we may just project on the $xy$-plane, which in this case is defined by
 $$z=f(x,y)=-(w+\hat{\eta}_{x}x+\hat{\eta}_{y}y)/\hat{\eta}_{z}$$
@@ -57,7 +57,7 @@ dS&=\left|\frac{\partial f}{\partial x}\times\frac{\partial f}{\partial y}\right
 \end{align*}$$
 since $|\vec{N}_{\mathcal{F}}|=1$. We therefore have
 $$A=\int_{\mathcal{F}}dS=\frac{1}{|\hat{\eta}_{z}|}\int_{R}dxdy$$
-where $R$ is the region bounded by the projected polygon. Call this polygon's vertices $\vec{Q}_{i}=(x_{i},y_{i})$. This integral may be converted to a line integral by [[Teorema del rotore|Green's theorem]]:
+where $R$ is the region bounded by the projected polygon. Call this polygon's vertices $\vec{Q}_{i}=(x_{i},y_{i})$. This integral may be converted to a line integral by [[Curl theorem|Green's theorem]]:
 $$\int_{R}P(x,y)dxdy=\int_{R}\nabla\cdot\vec{G}\ dxdy=\int_{L}\vec{M}\cdot\vec{G}\ ds$$
 where $L$ is the 1D boundary of $R$, $ds$ is the arc length element $\vec{G}$ is a function such that $\nabla\cdot\vec{G}=P$ and $\vec{M}$ is the outgoing curve normal vector. In this example, $P=1$ and $L$ is a polygon. As in the previous section, there a several choices for $\vec{G}$, one of which is $\vec{G}=(x,0)$. Let's describe $L$ as the union of polygon edges $\mathcal{E}$: $L=\bigcup\mathcal{E}$. Each edge has its own curve normal $\vec{M}_{\mathcal{E}}$. Thus, the integral decomposes to
 $$\int_{L}\vec{M}\cdot\vec{G}\ ds=\sum\limits_{\mathcal{E}\in L}\int_{\mathcal{E}}\vec{M}_{\mathcal{E}}\cdot\vec{G}\ ds$$

@@ -11,7 +11,7 @@ The answer is independent of the radius. In fact, it's independent of the shape 
 $$\oint \mathbf{B}\cdot d\mathbf{r}=\mu_{0}I_\text{enc}$$
 This is known as [[Ampere's law]]. If the flow of charge is described by a volume current density
 $$I_\text{enc}=\int \mathbf{J}\cdot d\mathbf{a}$$
-where the integral is taken over any surface bounded by the loop. Here we can apply the [[Teorema del rotore|curl theorem]]:
+where the integral is taken over any surface bounded by the loop. Here we can apply the [[Curl theorem|curl theorem]]:
 $$\int (\nabla\times\mathbf{B})\cdot d\mathbf{a}=\mu_{0}\int \mathbf{J}\cdot d\mathbf{a}$$
 and we can extract the integrands
 $$\nabla\times\mathbf{B}=\mu_{0}\mathbf{J}$$

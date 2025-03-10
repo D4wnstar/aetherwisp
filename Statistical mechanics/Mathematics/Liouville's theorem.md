@@ -13,7 +13,7 @@ Consider an arbitrary volume $\omega$ in some region of phase space. Call $\sigm
 $$\frac{ \partial  }{ \partial t } \int_{\omega}\rho\ d\omega$$
 where the number is given by integrating the number density over $\omega$ and $d\omega=d^{3N}qd^{3N}p$. Calling $\mathbf{v}=(\dot{p}_{1},\ldots,\dot{p}_{3N},\dot{q}_{1},\ldots,\dot{q}_{3N})$ the velocity of a representative point, we have, by the [[continuity equation]],
 $$- \frac{ \partial  }{ \partial t } \int_{\omega}\rho\ d\omega=\int_{\sigma}\mathbf{\hat{n}}\cdot \mathbf{v}\ \rho\ d\sigma\tag{1}$$
-where $\hat{\mathbf{n}}$ is the normal vector from the surface. This is the outflow of representative points from $\omega$ (the decrease in contained points is equal to the number of points passing through the boundary). Then, using the [[Teorema della divergenza|divergence theorem]], we get
+where $\hat{\mathbf{n}}$ is the normal vector from the surface. This is the outflow of representative points from $\omega$ (the decrease in contained points is equal to the number of points passing through the boundary). Then, using the [[Divergence theorem|divergence theorem]], we get
 $$\int_{\sigma}\hat{\mathbf{n}}\cdot \mathbf{v}\ \rho\ d\sigma =\int_{\omega}\nabla\cdot\mathbf{(\rho \mathbf{v})}\ d\omega\tag{2}$$
 Combining $1$ and $2$ we get
 $$\frac{ \partial  }{ \partial t } \int_{\omega}\rho\ d\omega=-\int_{\omega}\nabla\cdot\mathbf{(\rho \mathbf{v})}\ d\omega \quad\to \quad \int_{\omega}\left( \frac{ \partial \rho }{ \partial t } +\nabla\cdot\mathbf{(\rho \mathbf{v})} \right)\ d\omega=0$$

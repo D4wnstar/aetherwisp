@@ -1,6 +1,6 @@
 **Faraday's law** gives a mathematical quantification of [[electromagnetic induction]]. It states
 $$\nabla\times\mathbf{E}=- \frac{ \partial \mathbf{B} }{ \partial t } $$
-so the [[Curl]] of an [[electric field]] depends on the rate of change of a [[magnetic field]]. In the magnetostatic case, where $\frac{ \partial \mathbf{B} }{ \partial t }=0$, this reduces to the well known fact that electrostatic fields have no curl. In integral form (using [[Teorema del rotore|Stokes' theorem]]) it reads
+so the [[Curl]] of an [[electric field]] depends on the rate of change of a [[magnetic field]]. In the magnetostatic case, where $\frac{ \partial \mathbf{B} }{ \partial t }=0$, this reduces to the well known fact that electrostatic fields have no curl. In integral form (using [[Curl theorem|Stokes' theorem]]) it reads
 $$\mathcal{E}=\oint \mathbf{E}\cdot d\mathbf{r}=-\int \frac{ \partial \mathbf{B} }{ \partial t }\cdot d\mathbf{a} $$
 where $\mathcal{E}$ is the induced [[Electromotive force|emf]].
 ### Discovery

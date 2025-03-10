@@ -6,7 +6,7 @@ aliases:
   - path integral
 ---
 ## Prima specie
-Siano $\gamma:[a,b]\rightarrow\mathbb{R}^N$ una [[Curva]] regolare e $f:A\subset\mathbb{R}^N\rightarrow\mathbb{R}$ una funzione continua con $A$ aperto. Supponiamo che il sostegno di $\gamma$ sia contenuto in $A$, allora l'**integrale di prima specie di $f$ lungo $\gamma$** risulta
+Siano $\gamma:[a,b]\rightarrow\mathbb{R}^N$ una [[Curve]] regolare e $f:A\subset\mathbb{R}^N\rightarrow\mathbb{R}$ una funzione continua con $A$ aperto. Supponiamo che il sostegno di $\gamma$ sia contenuto in $A$, allora l'**integrale di prima specie di $f$ lungo $\gamma$** risulta
 $$\int_{\gamma}fds:=\int_a^bf(\gamma(t))||\gamma'(t)||dt$$
 Se $f(t)=1$ allora si ha la misura (cioè la lunghezza) di $\gamma$. Questo integrale è *invariante* per curve equivalenti. Per provarlo, basti trovare un $C^1$-diffeomorfismo $\varphi$ tale che $\eta(t)=\varphi(\gamma(t))$, con $\gamma(t)$ e $\eta(t)$ le due curve e calcolare l'integrale.
 ## Seconda specie

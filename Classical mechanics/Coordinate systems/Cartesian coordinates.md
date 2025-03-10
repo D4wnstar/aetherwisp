@@ -8,7 +8,7 @@ $$\mathbf{v}(t)=\dot{\mathbf{r}}=\dot{x}\hat{i}+\dot{y}\hat{j}$$
 and acceleration
 $$\mathbf{a}(t)=\dot{v}=\ddot{r}=\ddot{x}\hat{i}+\ddot{y}\hat{j}$$
 
-Given a trajectory [[Curva|curve]] $s(t)$, a tangent unit vector an be defined for each point as
+Given a trajectory [[Curve|curve]] $s(t)$, a tangent unit vector an be defined for each point as
 $$\mathbf{T}(t)=\frac{\mathbf{v}}{|\mathbf{v}|}=(\cos(\phi(t)), \ \sin(\phi(t)))$$
 and also a normal vector by differentiating each component
 $$\mathbf{N}(t)=(-\sin(\phi(t)),\ \cos(\phi(t)))$$
