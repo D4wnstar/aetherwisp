@@ -1,6 +1,6 @@
 The **exact differential** of a multivariate function $f(x,y):\mathbb{R}^{N}\to \mathbb{R}$ is defined as the [[differential form]]
 $$df=\frac{ \partial f }{ \partial x } dx+\frac{ \partial f }{ \partial y } dy$$
-where the arguments $x$ and $y$ are independent of each other. This is a specific case of the general differential form
+where the arguments $x$ and $y$ are independent of each other. It is a specific form of the [[differential]] for a [[scalar field]]. This is a specific case of the general differential form
 $$df=g(x,y)dx+h(x,y)dy$$
 where $g=\frac{ \partial f }{ \partial x }$ and $h=\frac{ \partial f }{ \partial y }$. The definition can be extended to an arbitrary $N$-dimensional function $f(x_{1},\ldots,x_{n})$ as
 $$df=\sum_{i=1}^{N} \frac{ \partial f }{ \partial x_{i} }dx_{i} $$

@@ -1,0 +1,1 @@
+Consider a *linear*, first order [[Ordinary differential equation|ODE]] $\dot{\mathbf{x}}=f(\mathbf{x})=A\mathbf{x}$, where $f:\mathbb{R}^{N}\to \mathbb{R}^{N}$ and $A$ is an $N\times N$ matrix and $\mathbf{x}\in \mathbb{R}^{N}$. As usual, $f(\mathbf{c})=0$. We want to analyze the behavior of the system near an [[equilibrium point]] $\mathbf{c}$.
