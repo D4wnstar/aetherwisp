@@ -5,7 +5,7 @@ $$\boxed{\begin{align}
 \nabla\cdot\mathbf{B} & =0 &
 \nabla\times\mathbf{B} &= \mu_{0}\mathbf{J}+\mu_{0}\varepsilon_{0}\frac{ \partial \mathbf{E} }{ \partial t } 
 \end{align}}$$
-and together with the boundary conditions $\mathbf{E}\to 0$ and $\mathbf{B}\to  0$ approaching infinity, they uniquely determine the two fields. $\rho$ is a volume [[electric charge]] density and $\mathbf{J}$ is a volume [[electric current]] density. $\varepsilon_{0}$ and $\mu_{0}$ are the [[Vacuum permittivity|permittivity]] and [[Vacuum permeability]] respectively.
+and together with the boundary conditions $\mathbf{E}\to 0$ and $\mathbf{B}\to  0$ approaching infinity, they uniquely determine the two fields. $\rho$ is a volume [[electric charge]] density and $\mathbf{J}$ is a volume [[electric current]] density. $\varepsilon_{0}$ and $\mu_{0}$ are the [[vacuum permittivity]] and [[vacuum permeability]] respectively.
 
 These laws, alongside the [[Lorentz force]], explain the entirety of electromagnetic phenomena. Maxwell's equations tell you how *charges* produces *fields*, whereas the Lorentz force tells you how *fields* affect *charges*. With both, the circle is complete. This is true in both electro/magnetostatics and electrodynamics.
 ### In the vacuum
@@ -17,6 +17,14 @@ $$\begin{align}
 \nabla\times\mathbf{B} &=\mu_{0}\varepsilon_{0}\frac{ \partial \mathbf{E} }{ \partial t } 
 \end{align}$$
 This is particularly interesting since it shows that, in a way, the electric and magnetic fields are one and the same. In fact, [[Faraday's law]] shows that the space derivative of an electric field is the time derivative of a magnetic field, and [[Ampere's law]] (the corrected form) shows that the space derivative of a magnetic field is the time derivative of an electric field. The only differences are the signs and the constants $\mu_{0}\varepsilon_{0}$ (which only appear in SI units).
+
+This symmetry can be explored further by looking for the [[Laplacian]] of $\mathbf{E}$ and $\mathbf{B}$. Recall that $\nabla ^{2}\mathbf{A}=(\nabla\cdot \nabla A_{x},\nabla\cdot \nabla A_{y},\nabla\cdot \nabla A_{z})$. Using the Maxwell equations, specifically by taking the curl of the curl on both $\mathbf{E}$ and $\mathbf{B}$, we can compute these quantities to be
+$$\boxed{\nabla ^{2}\mathbf{E}=\varepsilon_{0}\mu_{0}\frac{ \partial ^{2}\mathbf{E} }{ \partial t^{2} } ,\qquad \nabla ^{2}\mathbf{B}=\varepsilon_{0}\mu_{0}\frac{ \partial ^{2}\mathbf{B} }{ \partial t^{2} }}$$
+These are very clearly symmetrical. In fact, they are *identical* in everything except the name of the vector. The greatest consequence of these is that they are exactly [[Wave equation|wave equations]]; they must admit oscillatory solutions, that is, solutions dependent on sines and cosines (or complex exponentials, if you prefer). But oscillatory solutions in space represent *waves*, and so what these equations are telling us is that when electromagnetic fields vary in time, they always make waves: we call these [[electromagnetic wave|electromagnetic waves]] and they form the bulk of electrodynamic theory, optics and really any form of signal transfer you are used to from day to day, like Wi-Fi, Bluetooth, radio, wireless charging and everything else.
+
+One might question the velocity of these waves: as it happens, their speed in entirely determined by the permittivity and permeability by
+$$c=\frac{1}{\sqrt{ \varepsilon_{0}\mu_{0} }}$$
+This is the [[speed of light]], derived entirely from fundamental physical constants. This does certainly lead to a very legitimate question: *why?* What does light have to do with electricity and magnets? Well, at this point the connection is hard to deny: if $c$ is the speed of a wave, and that wave is derived exclusively from the laws of electromagnetism, then surely *light must be an electromagnetic wave*.
 ### In matter
 It is possible to rewrite Maxwell's equation in a more convenient manner when dealing with [[Dielectric polarization|polarized]] and [[Magnetization|magnetized]] matter. We already know that polarization produces a bound charge density $\rho_{b}$ and magnetization a bound current density $\mathbf{J}_{b}$. The only thing we're missing is to consider what happens when polarization and magnetization change in time. A changing magnetization, at most, changes $\mathbf{J}_{b}$, so it doesn't add any new pieces, but a changing polarization moves the $\rho_{b}$, which is to say it *produces a current*. This is emphatically *not* part of $\mathbf{J}_{b}$: it is a completely new piece of the puzzle. See, when polarization occurs, a certain amount of charges are moved such that they are plastered over a surface[^1] on one end ($\sigma_{b}$) and some on the other ($-\sigma_{b}$). When the polarization $\mathbf{P}$ changes, these charges increase or decrease depending on the intensity of polarization, giving a net current
 $$dI=\frac{ \partial \sigma_{b} }{ \partial t } da_{\perp}=\frac{ \partial P }{ \partial t } da_{\perp}$$
@@ -47,6 +55,12 @@ $$\begin{align}
 \oint_{\mathcal{S}}\mathbf{B}\cdot d\mathbf{a} & =0 & \oint_{\gamma}\mathbf{H}\cdot d\mathbf{r} & =I_{f,enc}+\frac{d}{dt} \int_{\mathcal{S}}\mathbf{D}\cdot d\mathbf{a}
 \end{align}$$
 where the two left ones are integrated over any closed [[Surface|surface]] $\mathbf{S}$ and the two right ones are for any closed surface bounded by a closed [[Curve|line]] $\gamma$.
+
+In the same way as the vacuum laws, we can find Laplacians for matter laws too. However, these depend on the kind of material you are measuring fields. In linear, homogeneous and isotropic materials however, they look almost identical to the vacuum ones:
+$$\boxed{\nabla ^{2}\mathbf{E}=\varepsilon\mu\frac{ \partial ^{2}\mathbf{E} }{ \partial t^{2} } ,\qquad \nabla ^{2}\mathbf{B}=\varepsilon\mu\frac{ \partial ^{2}\mathbf{B} }{ \partial t^{2} }}$$
+The only difference is that we are using general [[permittivity]] and [[permability]] instead of the vacuum one. One interesting difference is that speed also changes accordingly:
+$$c=\frac{1}{\sqrt{ \varepsilon \mu }}=\frac{1}{\sqrt{ \varepsilon_{0}\varepsilon_{r}\mu_{0}\mu_{r} }}=\underbrace{ \frac{1}{\sqrt{ \varepsilon_{0} \mu_{0} }} }_{ c } \underbrace{ \frac{1}{\sqrt{ \varepsilon_{r}\mu_{r} }} }_{ 1/n }=\frac{c}{n}$$
+Clearly then, since both $\varepsilon_{r}>1$ and $\mu_{r}>1$, our quantity $n$, which we call the [[refractive index]], must itself be $n>1$. As such, the speed of light is *always diminished* when in matter, by some quantity characteristic of the material itself. It must be, then, that the speed of light is the vacuum is the upper limit: even before the dawn of special relativity, the speed of light could not be surpassed by electrodynamics alone[^2].
 ### Boundary conditions
 In general, all the fields used in Maxwell's equations will be discontinuous over a surface charge or current. We can find the boundary conditions by applying the integral equations in matter.
 
@@ -79,3 +93,5 @@ B_{1}^{\perp}-B_{2}^{\perp} & =0 & \frac{1}{\mu_{1}}\mathbf{B}_{1}^{\parallel}- 
 \end{align}}$$
 
 [^1]: For correctness' sake, the charges themselves only *align* with the polarization, but don't move much. If they did all actually move to the surface, we'd be working with [[conductor|conductors]] and not with polarized [[dielectric|dielectrics]]. Still, this alignment motion is sufficient to produce a small current.
+
+[^2]: Of course, Galilean relativity would still claim that the speed of light could be a universal speed limit since it could always be summed with the speed of the [[frame of reference]], at least in inertial frame, which we now know is wrong. But this is a problem about *mechanics*; *electromagnetism*, on the other hand, was always right.

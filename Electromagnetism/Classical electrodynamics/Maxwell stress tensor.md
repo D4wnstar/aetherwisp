@@ -48,7 +48,7 @@ $$\begin{align}
 &+\frac{1}{\mu_{0}}\left[(\nabla\cdot\mathbf{B})\mathbf{B}+(\mathbf{B}\cdot \nabla)\mathbf{B} -\frac{1}{2}\nabla(B^{2}) \right] \\
 &-\varepsilon_{0}\varepsilon_{0}\frac{ \partial \mathbf{S} }{ \partial t } 
 \end{align}$$
-As foreshadowed, this is a very lengthy equation, with seven total terms. That said, as we had hoped, we can very easily spot a symmetry between the electric and magnetic fields: in fact, if it weren't for the constants $\varepsilon_{0}$ and $1/\mu_{0}$, the terms would be identical, just with $\mathbf{E}$ changed to $\mathbf{B}$. Physically speaking, this is not random chance, and mathematically it can be exploited to express the equation in a much simpler form. To do so, we introduce the **Maxwell stress tensor** $T$, defined by its elements
+As foreshadowed, this is a very lengthy equation, with seven total terms. That said, as we had hoped, we can very easily spot a symmetry between the electric and magnetic fields: in fact, if it weren't for the constants $\varepsilon_{0}$ and $1/\mu_{0}$, the terms would be identical, just with $\mathbf{E}$ changed to $\mathbf{B}$. Physically speaking, this is not random chance, and mathematically it can be exploited to express the equation in a much simpler form. To do so, we introduce the **Maxwell stress tensor** $\mathrm{T}$, defined by its elements
 $$T_{ij}=\varepsilon_{0}\left( E_{i}E_{j}- \frac{1}{2}\delta_{ij}E^{2} \right)+ \frac{1}{\mu_{0}}\left( B_{i}B_{j}- \frac{1}{2}\delta_{ij}B^{2} \right)$$
 where $\delta_{ij}$ is the [[Kronecker delta]].
 #### Divergence

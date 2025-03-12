@@ -47,7 +47,7 @@ If we draw the vectors manually, we see
 
 ![[Diagram Derivative of position vector is tangent|100%]]
 
-If we send $\delta t\to0$, the displacement between the white and red vector become minuscule, which leads $\dot{\mathbf{x}}(t)$ to become tangent. A non-visual proof can for instance be found by taking the derivative of the unit vector of $\mathbf{x}(t)$ and prove that it is always perpendicular to the unit vector itself.
+If we send $\delta t\to0$, the displacement between the white and red vector become minuscule, which leads $\dot{\mathbf{x}}(t)$ to become tangent. A non-visual proof can for instance be found by taking the derivative of the unit vector of $\mathbf{x}(t)$ and proving that it is always perpendicular to the unit vector itself.
 ##### Flux of a vector field
 Now, given some autonomous system like $(1)$, it is legitimate to ask the following questions: since the solution for a given starting condition is unique, what does that solution look like over all $t$? What if instead of selecting a starting condition, we instead select a specific time; what do all of the possible solutions look at that time?
 
