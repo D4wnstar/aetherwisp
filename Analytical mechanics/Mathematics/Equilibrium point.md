@@ -4,7 +4,7 @@ An **equilibrium point**, in mathematics, is a constant solution to a differenti
 - An equilibrium point $\mathbf{c}$ is **stable** if for every neighborhood $U$ of $\mathbf{c}$, there exists another neighborhood $V$ of $\mathbf{c}$ such that any motion $\mathbf{x}(t;\mathbf{x}_{0})$ that starts in $V$ ($\mathbf{x}_{0}\in V$) remains in $U$ for all $t$. An equilibrium point that doesn't meet this condition is **unstable**.
 - A less binding property is being stable **in the future** and **in the past**. These have the same definition, but motion only remains in $U$ for all $t>0$ (future) or $t<0$ (past).
 ### Search
-In practice, given an ODE, finding its equilibrium points is just a matter of finding the zeros $f(\mathbf{x}(t))$. More complicated is determining if a given equilibrium point is stable or not. Nevertheless, this can be done through [[Ljapunov's theorem]].
+In practice, given an ODE, finding its equilibrium points is just a matter of finding the zeros of $f(\mathbf{x}(t))$. More complicated is determining if a given equilibrium point is stable or not. This can be done through [[Ljapunov's theorem]].
 ### Linearization near equilibrium points
 It is possible to make statements about the behavior of differential equations near equilibrium points. Consider a first order autonomous system $\dot{\mathbf{x}}=f(\mathbf{x})$, where $f:\mathbb{R}^{N}\to \mathbb{R}^{N}$. As usual, $f(\mathbf{c})=0$. We want to analyze the behavior of the system near an equilibrium point $\mathbf{c}$, that is, for $\mathbf{x}$ in a neighborhood $\lVert \mathbf{x}-\mathbf{c} \rVert\ll 1$.
 

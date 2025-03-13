@@ -1,0 +1,1 @@
+The **wavelength** $\lambda$ of a [[wave]] is the distance over which the wave completes a full cycle. More specifically, it is the distance between points of the wave at the same [[phase]]. It is related to the [[wavenumber]] by $\lambda=2\pi/k$.

@@ -1,0 +1,1 @@
+The **period** $T$ of an oscillatory phenomenon is the time it takes to complete a full cycle. More specifically, it is the distance in time between points at the same [[phase]]. It is related to the [[frequency]] by $T=1/\nu=2\pi/\omega$.

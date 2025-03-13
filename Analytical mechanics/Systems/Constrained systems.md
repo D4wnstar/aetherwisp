@@ -1,4 +1,6 @@
-Consider a [[point mass]] of [[mass]] $m$ present at some point $\mathbf{r}$ in space.
+Many mechanical [[Physical system|systems]] are subject to one or more [[Constraint|constraints]] that reduce the degree to which the system is allowed to move. This information is often known in advance of solving the system, such as the length of the wire of a [[simple pendulum]], and can be used to diminish the amount of variables that we need to describe the motion of the system. Most of what's necessary to make use of these constraint comes from differential geometry, which allows us to manipulate the [[Vector space|vector spaces]] of the system and restrict them to only the things that we strictly need.
+
+To start, consider a [[point mass]] of [[mass]] $m$ present at some point $\mathbf{r}$ in space.
 
 ![[Plot Point mass system|50%]]
 
@@ -67,8 +69,8 @@ The same argument about tangent spaces, tangents on a point, etc. works just as 
 Why stop at surfaces and curves? In this entire discussion there has never really been a reason to start from 3D space. We just did so because it's the space we live in and the one that's easiest to imagine. But really, any number of dimensions will do and we can constrain our motion to a lesser dimensional space. Say then we are in an $n$-dimensional space. Our position vector is determined by $\mathbf{r}(q_{1},\ldots,q_{n})$. In this context, the number $n$ is called the **number of degrees of freedom** and it represents the number of separate axes we can move on in space[^2]. The binding we introduce defines a lesser dimensional space $Q$ that we call **[[configuration space]]**, which is a subset of $\mathbb{R}^{n}$ that filters only the coordinates which are actually reachable by the system, deleting all the other ones since they are unnecessary. It is really the configuration space that does all the heavy lifting in describing motion in the most efficient way possible. Of course, motion still "really" happens in $\mathbb{R}^{n}$, but *mathematically* we can show the same thing using configuration space. This makes for way easier solutions for systems we already understand intuitively by getting the most out of our *a priori* knowledge. Once we solve motion in configuration space, it's only a matter of converting back to $\mathbb{R}^{n}$ to get the answer.
 ### Moving
 For now we've only talked about describing where a point is in space. It's not moving yet, so let's give it the push it needs. Since it's the most intuitive, we'll go back to $\mathbb{R}^{3}$ from now on, but it all works for $n$ dimension too. The **velocity** of a point mass is a vector in $\mathbb{R}^{3}$. If the point is bound to $Q$, then the velocity is specifically found in $T_{P}Q$. We can therefore interpret $T_{P}Q$ in the following way:
-$$T_{P}Q=\{ \text{set of all possible velocities that a point found in }P\text{ and bound to }Q\text{ can have} \}$$
+$$T_{P}Q=\{ \text{set of all possible velocities that a mass found in }P\text{ and bound to }Q\text{ can have} \}$$
 
-[^1]: Or rows, although columns are easier to work with here.
+[^1]: Or rows, although columns are much more meaningful here.
 
 [^2]: Of course, this is literally just the definition of an $n$-dimensional space and basis. It's just a difference in terminology that's a bit more intuitive for physics as opposed to pure mathematics.

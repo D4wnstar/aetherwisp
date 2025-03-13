@@ -1,4 +1,4 @@
-A **binding** is a constraint put on a [[Physical system|system]] that prevents it from moving in certain locations in space. Applying a binding to a system reduces the number of unknowns of that systems, leading to a simplified description. A bound system can only move in a subset of the space it would have otherwise had access to: this space is called [[configuration space]] and denoted $Q$.
+A **constraint** is a limitation put on a [[Physical system|system]] that prevents it from moving in certain locations in space. Applying a binding to a system reduces the number of unknowns of that systems, leading to a simplified description. A bound system can only move in a subset of the space it would have otherwise had access to: this space is called [[configuration space]] and denoted $Q$.
 
 Most mechanical bindings can be described as [[force|forces]] with [[Newton's laws|Newton's second law]]:
 $$m\mathbf{a}=\mathbf{F}+\Phi$$
