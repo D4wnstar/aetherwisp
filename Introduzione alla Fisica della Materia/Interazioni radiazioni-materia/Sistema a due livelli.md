@@ -1,7 +1,7 @@
 Consideriamo un sistema con due livelli di energia 1 e 2; l'esatta natura del sistema non è importante. Questo sistema è immerso in un bagno di fotoni, quindi interagisce continuamente con questi. Accadono due processi fondamentali mediati da fotoni.
 1. Il fotone può essere **assorbito**, aumentando il livello di energia da 1 a 2.
 2. Un fotone può essere **spontaneamente emesso**, diminuendo il livello da 2 a 1.
-In entrambi i casi, l'energia del fotone è $h\nu=E_{2}-E_{1}=\Delta E$, con $h$ la [[costante di Planck]] e $\nu$ la frequenza.
+In entrambi i casi, l'energia del fotone è $h\nu=E_{2}-E_{1}=\Delta E$, con $h$ la [[Planck constant]] e $\nu$ la frequenza.
 
 Chiamiamo $N_{2}(t)$ il numero di atomi nello stato eccitato. La derivata temporale è
 $$\frac{dN_{2}(t)}{dt}=-A_{21}N_{2}(t)$$

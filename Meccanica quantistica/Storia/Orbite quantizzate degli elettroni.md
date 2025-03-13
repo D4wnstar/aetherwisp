@@ -1,10 +1,10 @@
 Osservando l'assorbimento della luce da parte di un gas di idrogeno, si è notata la presenza di [[Riga spettrale|righe di assorbimento]] ad intervalli discreti e ben spaziati, anziché continui come ci si aspettava. Inoltre, una carica come un [[elettrone]] in rotazione attorno al [[nucleo atomico]] è in perpetua accelerazione centripeta, e una carica in accelerazione emette [[radiazione]] per [[bremmstrahlung]]. Per quale motivo l'elettrone non cadeva sul nucleo non era noto, però era chiaro che per qualche ragione, l'elettrone non perdeva energia come di norma.
 
-Bohr ha assunto che solo certe orbite fossero permesse, nelle quali l'elettrone non emetteva energia. Ha supposto che il momento angolare associato a queste orbite fosse un multiplo della [[costante di Planck]] a modo che valesse
+Bohr ha assunto che solo certe orbite fossero permesse, nelle quali l'elettrone non emetteva energia. Ha supposto che il momento angolare associato a queste orbite fosse un multiplo della [[Planck constant]] a modo che valesse
 $$mvr=pr=\hbar n$$
 L'elettromagnetismo classico di consiglia di usare la [[Interazione elettromagnetica|legge di Coulomb]] (qui in unità Gaussiane senza $4\pi \epsilon_{0}$) per ottenere
 $$\frac{e^{2}}{r^{2}} = \frac{mv^{2}}{r}$$
-con $e$ la [[Carica elementare|carica dell'elettrone]]. Riordinando, trovo l'energia dell'orbita che è quella cinetica più il potenziale Coulombiano
+con $e$ la [[Elementary charge|carica dell'elettrone]]. Riordinando, trovo l'energia dell'orbita che è quella cinetica più il potenziale Coulombiano
 $$mv^{2}=\frac{e^{2}}{r}\quad\Rightarrow \quad E=\frac{mv^{2}}{2}- \frac{e^{2}}{2}=- \frac{e^{2}}{2r}$$
 che è l'energia cinetica associata all'orbita a distanza $r$. Posso anche trovare
 $$m^{2}v^{2}r^{2}=m \frac{e^{2}}{r}r^{2}=\hbar^{2}n^{2}\quad\Rightarrow \quad \boxed{r_{n}=\frac{\hbar^{2}}{me^{2}}n^{2}}$$

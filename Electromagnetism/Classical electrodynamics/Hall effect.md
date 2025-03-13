@@ -6,7 +6,7 @@ Consider a rectangular pillbox-shaped solid object (called a **Hall sensor**) be
 
 Due to the [[Lorentz force]], the current will be deflected by the magnetic field as it travels through the object. This will cause a centrifugal force applied onto the charges, which makes the charges get pushed from (in this case) the bottom to the top[^1]. This makes the current no longer uniform and makes the current towards the top (slightly) more intense than the one towards the bottom. But since there is now a difference in charges, an [[electric potential]] $V_{H}$ is produced between the plate, which in turn creates an [[electric field]]
 $$E=\frac{V_{H}}{e}$$
-where $e$ is the [[Carica elementare|electron charge]] (or more generally the charge of whatever charge carrier is being considered). The Lorentz force here is
+where $e$ is the [[Elementary charge|electron charge]] (or more generally the charge of whatever charge carrier is being considered). The Lorentz force here is
 $$\mathbf{F}=e\mathbf{E}+e(\mathbf{v}_{y}\times \mathbf{B}_{z})$$
 The total force needs to be zero (???)
 $$F=0\quad\Rightarrow \quad\frac{eV_{H}}{e}=ev_{y}B_{z}$$

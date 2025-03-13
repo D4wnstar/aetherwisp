@@ -44,7 +44,7 @@ Vale anche per $e^{A}f(B)e^{-A}$ dato che $e^{A}f(B)e^{-A}=f(e^{A}Be^{-A})$.
 ### In meccanica quantistica
 Il commutatore è di importanza primaria nella meccanica quantistica, dove permette di esprimere numerosi concetti relativi al [[Disuguaglianza di Heisenberg|principio di indeterminazione]]. La relazione commutativa più importante della materia è la cosiddetta **relazione commutativa canonica**, che dimostra che l'operatore posizione e l'operatore quantità di moto non commutano:
 $$[\hat{q},\hat{p}]=i\hbar$$
-con $\hbar$ la [[Costante di Planck|costante di Planck ridotta]]. Più correttamente si ha
+con $\hbar$ la [[Planck constant|costante di Planck ridotta]]. Più correttamente si ha
 $$[\hat{q},\hat{p}]=i\hbar \mathbf{\hat{1}}$$
 dove $\mathbf{\hat{1}}$ è l'operatore identità, di solito omesso per comodità ma necessario perché un operatore deve essere pari ad un altro operatore, non uno scalare.
 

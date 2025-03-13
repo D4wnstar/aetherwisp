@@ -4,7 +4,7 @@ Since electromagnetic radiation is the exchange of [[Photon|photons]], the whole
 
 As with all photons, their properties are
 $$E=\hbar \omega,\qquad \mathbf{p}=\hbar \mathbf{k},\qquad \lvert \mathbf{k} \rvert =\frac{\omega}{c}$$
-where $\hbar$ is the [[Costante di Planck|reduced Planck constant]], $\omega$ is the [[angular frequency]], $\mathbf{k}$ is the [[wave vector]] and $c$ is the [[speed of light]]. They also all possess a polarization unit vector $\hat{\varepsilon}$ that is [[Orthogonality|orthogonal]] to $\mathbf{k}$.
+where $\hbar$ is the [[Planck constant|reduced Planck constant]], $\omega$ is the [[angular frequency]], $\mathbf{k}$ is the [[wave vector]] and $c$ is the [[speed of light]]. They also all possess a polarization unit vector $\hat{\varepsilon}$ that is [[Orthogonality|orthogonal]] to $\mathbf{k}$.
 #### Partition function
 Each state can be indexed like $n_{\mathbf{k},\hat{\varepsilon}}=0,1,2,\ldots$ and they represent [[normal mode|normal modes]] of oscillation. The particle number is variable, so we can't rely on it like we can with massive particles. The total [[energy]] on the other had is always conserved, so we can use
 $$E(\{ n_{\mathbf{k},\hat{\varepsilon}} \})=\sum_{\mathbf{k},\hat{\varepsilon}}\hbar \omega n_{\mathbf{k},\hat{\varepsilon}}\tag{1}$$

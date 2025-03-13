@@ -34,7 +34,7 @@ Nel contesto di stelle, o comunque gas ad una certa temperatura $T$, possiamo as
 $$P_{maxwell}\propto\exp\left(- \frac{mv^{2}}{2k_{B}T}\right)$$
 con $k_{B}$ la [[Boltzmann constant]]. La probabilità di fusione totale è dunque il prodotto $P_{tunnel}P_{maxwell}$. Si dimostra che la probabilità è massimizzata per velocità
 $$v=\left(\frac{2\pi q_{1}q_{2}k_{B}T}{\hbar m}\right)^{1/3}$$
-con $\hbar$ la [[Costante di Planck|costante di Planck ridotta]]. Le condizioni minime per accendere il reattore a fusione nel nucleo allora sono
+con $\hbar$ la [[Planck constant|costante di Planck ridotta]]. Le condizioni minime per accendere il reattore a fusione nel nucleo allora sono
 $$\boxed{P_{reaz}\propto \exp\left(- \left( \frac{T}{T_{0}} \right)^{-1/3}\right)}$$
 $$ T_{0} = \left( \frac{3}{2} \right)^{3}\left( \frac{4\pi^{2}q_{1}q_{2}}{h} \right)^{2}\left( \frac{m}{k_{B}} \right)$$
 dove $T_{0}$ è una temperatura di scala. $m$ in questo caso è la massa ridotta $m=m_{1}m_{2}/m_{1}+m_{2}$, dato che il nucleo è composto da particelle diverse (idrogeno, elio, etc...).

@@ -1,6 +1,6 @@
 The **Sackur-Tetrode equation** gives the [[entropy]] of a 3D classical monatomic [[ideal gas]]. Given a gas of $N$ [[Particella|particles]], it reads
 $$\frac{S}{k_{B}N}=\ln\left[ \frac{V}{N}\left( \frac{4\pi m}{3h^{2}} \frac{U}{N} \right)^{3/2} \right]+ \frac{5}{2}=\ln\left( \frac{V}{N\lambda ^{3}} \right)+ \frac{5}{2}=-\ln(n\lambda ^{3})+ \frac{5}{2}$$
-written in increasingly compact ways. $k_{B}$ is the [[Boltzmann constant]], $V$ is the volume, $m$ is the [[mass]] of the particles, $h$ is a constant that is usually taken to be the [[Costante di Planck|Planck constant]], $U$ is the [[internal energy]], $\lambda$ is the [[Formula di de Broglie|de Broglie thermal wavelength]] and $n=N/V$ is the particle density.
+written in increasingly compact ways. $k_{B}$ is the [[Boltzmann constant]], $V$ is the volume, $m$ is the [[mass]] of the particles, $h$ is a constant that is usually taken to be the [[Planck constant|Planck constant]], $U$ is the [[internal energy]], $\lambda$ is the [[Formula di de Broglie|de Broglie thermal wavelength]] and $n=N/V$ is the particle density.
 
 The Sackur-Tetrode equation requires correct Boltzmann counting to be derived. Without it, the [[Gibbs paradox]] arises. Since this is a classical equation, it stops being valid when quantum phenomena are no longer negligible. This means that it is valid when
 $$\frac{V}{N\lambda ^{3}}\gg 1\quad\text{or equivalently}\quad n\lambda ^{3}\ll 1$$

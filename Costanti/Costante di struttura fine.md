@@ -6,7 +6,7 @@ La **costante di struttura fine** $\alpha$, anche detta **costante di accoppiame
 $$\alpha=\frac{e^{2}}{4\varepsilon_{0}\hbar c}=\frac{1}{137.03\ldots}$$
 dove
 - $e$ è la carica dell'[[Elettrone]].
-- $\hbar$ è la [[costante di Planck]].
+- $\hbar$ è la [[Planck constant]].
 - $c$ è la [[velocità della luce]].
 - $\varepsilon$ è la [[Vacuum permittivity]].
 

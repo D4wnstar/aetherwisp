@@ -45,7 +45,7 @@ Purtroppo l'integrale diverge, quindi è impossibile integrare l'energia per alt
 $$E_{n}=h\nu n=\hbar \omega n,\quad n=0,1,2,\ldots,\quad \hbar=\frac{h}{2\pi}$$
 L'integrale dunque diventa una [[Serie]], in particolare una [[Serie geometrica]]:
 $$\sum_{h=0}^{\infty}e^{-\beta h\omega n}=\frac{1}{1-e^{-\beta h\omega}}=Z_{\beta}$$
-La costante $h$ è detta [[costante di Planck]] e $\hbar$ è la [[Costante di Planck|forma ridotta]]. Il calcolo del valor medio diventa dunque
+La costante $h$ è detta [[Planck constant]] e $\hbar$ è la [[Planck constant|forma ridotta]]. Il calcolo del valor medio diventa dunque
 $$\begin{align}
 \langle H_{\omega} \rangle _{\beta}&=(1-e^{-\beta \hbar \omega})\sum_{n=0}^{\infty} \hbar \omega ne^{-\beta \hbar \omega n} \\
 &=\hbar \omega(1-e^{-\beta \hbar \omega n})\sum_{n=0}^{\infty} ne^{-\beta \hbar \omega n} \\

@@ -24,7 +24,7 @@ $$\begin{align}
 &\psi(x,t)=A\sin(k(x\pm vt))&\psi(x,t)=A\sin\left( 2\pi\left( \frac{x}{\lambda}\pm \frac{t}{\tau} \right) \right) \\
 &\psi(x,t)=A\sin(2\pi(hx\pm \nu t))&\psi(x,t)=A\sin(kx\pm \omega t)
 \end{align}$$
-We've already seen the wavenumber $k$, which is also called the **angular spatial frequency**. $\lambda$ is the **wavelength** of the wave, $\tau$ is the **oscillation period**, $h$ is the **spatial frequency**, $\nu$ is the **frequency** (in time) and $\omega$ is the **angular frequency**. These are all interconnected and the choice of parameters is just a matter of convenience; the most typical is the last one, with $k$ and $\omega$. The formulas for these are
+We've already seen the wavenumber $k$, which is also called the **angular spatial frequency**. $\lambda$ is the **[[wavelength]]** of the wave, $\tau$ is the **oscillation period**, $h$ is the **spatial frequency**, $\nu$ is the **[[frequency]]** (in time) and $\omega$ is the **[[Frequency|angular frequency]]**. These are all interconnected and the choice of parameters is just a matter of convenience; the most typical is the last one, with $k$ and $\omega$. The formulas for these are
 $$\lambda=\frac{2\pi}{k},\quad h=\frac{k}{2\pi}=\frac{1}{\lambda},\quad \nu=\frac{1}{\tau}=\frac{\omega}{2\pi},\quad \omega=\frac{2\pi}{\tau}=2\pi \nu$$
 
 [^1]: This is assuming $\psi$ is a real-valued function. It if is complex-valued, as is the case for all quantum mechanical [[Funzione d'onda|wavefunctions]], then the square modulo $\lvert \psi \rvert^{2}$ is the amplitude.

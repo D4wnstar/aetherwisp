@@ -1,4 +1,4 @@
-L'**atomo di idrogeno** consiste in un [[protone]] sostanzialmente fermo di [[carica elementare]] $e$ legato dall'[[Interazione fondamentale|interazione elettromagnetica]] con un [[Elettrone]] di carica $-e$. È l'[[atomo]] dalla struttura più semplice e l'unico ad essere risolvibile analiticamente (assieme a tutti gli atomi *idrogenoidi*, ossia con un solo elettrone, che si riconducono a quello di idrogeno).
+L'**atomo di idrogeno** consiste in un [[protone]] sostanzialmente fermo di [[Elementary charge]] $e$ legato dall'[[Interazione fondamentale|interazione elettromagnetica]] con un [[Elettrone]] di carica $-e$. È l'[[atomo]] dalla struttura più semplice e l'unico ad essere risolvibile analiticamente (assieme a tutti gli atomi *idrogenoidi*, ossia con un solo elettrone, che si riconducono a quello di idrogeno).
 ### Formulazione di Schrödinger
 Consideriamo l'[[Hamiltoniana]]
 $$H=- \frac{\hbar^{2}}{2M}\nabla^{2}_{R}- \frac{\hbar^{2}}{2m}\nabla^{2}_{r_{e}}- \frac{Ze^{2}}{4\pi\epsilon_{0}|R-r_{e}|}$$
