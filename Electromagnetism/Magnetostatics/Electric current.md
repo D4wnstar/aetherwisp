@@ -1,6 +1,7 @@
 ---
 aliases:
   - steady current
+  - continuity equation
 ---
 The **electric current** $\mathbf{I}$ is the rate of change of [[electric charge]] in a given point. In other words, it's how much charge is passing through a location. It is measured in Amperes, which are Coulombs per second:
 $$\text{A}\equiv \frac{\text{C}}{\text{s}}$$
