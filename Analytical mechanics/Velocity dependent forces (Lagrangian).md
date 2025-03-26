@@ -105,7 +105,7 @@ $$\nabla\times \mathbf{A}=\det\begin{pmatrix}
 B
 \end{pmatrix}$$
 The Lagrangian is
-$$L=\frac{m}{2}(\dot{x}^{2}+\dot{y}^{2}+\dot{z}^{2})+ \frac{e}{2}B(x \dot{y}-y \dot{x})=\frac{m}{2}(\dot{r}^{2}+r^{2}\dot{\varphi}^{2}+\zeta ^{2})+ \frac{e}{2}B^{2}\dot{\varphi}$$
+$$L=\frac{m}{2}(\dot{x}^{2}+\dot{y}^{2}+\dot{z}^{2})+ \frac{e}{2}B(x \dot{y}-y \dot{x})=\frac{m}{2}(\dot{r}^{2}+r^{2}\dot{\varphi}^{2}+\zeta ^{2})+ \frac{e}{2}B^{2}r^{2}\dot{\varphi}$$
 where we also switched to [[cylindrical coordinates]].
 
 
