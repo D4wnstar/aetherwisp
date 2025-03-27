@@ -1,5 +1,5 @@
 The **Maxwell stress tensor** is a three-dimensional symmetrical second-order [[tensor]] used to simplify the equations of electrodynamics into shorter forms. In plain terms, it's a $3\times3$ matrix. It exploits the symmetries found between the [[electric field]] $\mathbf{E}$ and the [[magnetic field]] $\mathbf{B}$. It is defined through its components as
-$$T_{ij}=\varepsilon_{0}\left( E_{i}E_{j}- \frac{1}{2}\delta_{ij}E^{2} \right)+ \frac{1}{\mu_{0}}\left( B_{i}B_{j}- \frac{1}{2}\delta_{ij}B^{2} \right)$$
+$$T_{ij}=\varepsilon_{0}\left( E_{i}E_{j}- \frac{1}{2}\delta_{ij}E^{2} \right)+ \frac{1}{\mu_{0}}\left( B_{i}B_{j}- \frac{1}{2}\delta_{ij}B^{2} \right)\tag{1}$$
 where $\varepsilon_{0}$ is the [[vacuum permittivity]], $\mu_{0}$ is the [[vacuum permeability]] and $\delta_{ij}$ is the [[Kronecker delta]]. Being symmetrical, $T_{ij}=T_{ji}$ for all $i$ and $j$.
 
 Physically, the Maxwell stress tensor binds [[Lorentz force|electromagnetic forces]] to [[Linear momentum|momentum]]. Each component $ij$ has the units of a force per unit area, i.e. a [[pressure]] (negative pressure, to be exact). Each component can be interpreted as the negative pressure parallel to the $i$-th axis applied onto a surface that is normal to the $j$-th axis. For instance, the $T_{xx}$ component is a pressure directed on the $x$ applied on a surface perpendicular to the $x$ axis. The easiest cases to imagine are the ones on the diagonals, $T_{xx}$, $T_{yy}$ and $T_{zz}$, since the forces are perpendicular to the surfaces. Off-diagonal elements like $T_{xy}$ and $T_{zx}$ instead represent [[shear]], a force parallel to the surface. Note that the pressure is negative: these forces *pull* the surface, not push it (though of course it depends on the signs of the electric and magnetic fields, but the force is always reversed, so to speak).
@@ -56,6 +56,44 @@ As ti stands, it is unclear how $T_{ij}$ can help us in simplifying anything, mu
 
 Unfortunately, tensors are very complicated objects and calculating their divergence is everything but straightforward. What we can do is calculate the divergence for each axis $j$. In this context, the divergence is defined as
 $$(\nabla\cdot T)_{j}=\sum_{i=1}^{3} \nabla_{i}\left[ \varepsilon_{0}\left( E_{i}E_{j}- \frac{1}{2}\delta_{ij}E^{2} \right) + \frac{1}{\mu_{0}}\left( B_{i}B_{j}- \frac{1}{2}\delta_{ij}B^{2} \right)\right]$$
-where we are taking the [[gradient]] of each $ij$ component and then summing over all of them[^1].
+where we are taking the [[gradient]] of each $ij$ component and then summing over all of them[^1]. (TODO: Finish this)
+### Examples
+The stress tensor is primarily used to determine forces acting on charges.
+
+> [!example] Equal charges between plane (Griffiths Problem 8.4)
+> The easiest case is, as always, two point charges. Of course, this would be easier to solve using [[Interazione elettromagnetica|Coulomb's law]] directly, but for the sake of example, we'll solve it using the stress tensor also. Consider two electric charges $q$ on the $z$ axis at an equal distance $2a$ from the origin. Find the Maxwell stress tensor and integrate over it to find the force of one charge over another.
+>
+>![[Exercise Maxwell stress tensor equal charges]]
+> 
+> We can start from [[Newton's laws|Newton's second law]]:
+> $$\frac{d\mathbf{p}}{dt}=\mathbf{F}=\oint_{S} T\cdot d\mathbf{a}-\cancel{ \mu_{0}\varepsilon_{0} \frac{d}{dt} \int _{V}\mathbf{S}\ d\tau }$$
+> The second term vanishes because the Poynting vector is constant. There is no magnetic field, so the stress tensor is just $(1)$ without the magnetic term
+> $$T_{ij}=\varepsilon_{0}\left( E_{i}E_{j}- \frac{1}{2}\delta_{ij}E^{2} \right)$$
+> We can also understand from the configuration of the charges that the force between the two is on the $z$ axis, so we only need to find the $z$ component:
+> $$F_{z}=\oint _{S}(T\cdot d\mathbf{a})_{z}=\oint_{S}T_{iz}da_{i}$$
+> written in both standard notation and Einstein notation. This scalar product is
+> $$(T\cdot d\mathbf{a})_{z}=T_{iz}da_{i}=(T_{xz}da_{x}+T_{yz}da_{y}+T_{zz}da_{z})=T_{zz}da_{z}=\varepsilon_{0}\left( E_{z}^{2}- \frac{1}{2}E^{2} \right)(-rdrd\varphi)$$
+> where we recognized that all terms off the $z$ axis vanish when evaluating on the $xy$ plane and then wrote $da$ in [[polar coordinates]]. We now need the electric field, specifically over $xy$. We can find using usual trigonometry:
+> $$\mathbf{E}=\frac{q}{4\pi \varepsilon_{0}} \frac{1}{\mathfrak{r}^{2}}2\cos \theta\ \hat{\boldsymbol{\mathfrak{r}}}$$
+> where $\theta$ is the angle between $\hat{\boldsymbol{\mathfrak{r}}}$ and the plane. Since $\cos \theta=r/\mathfrak{r}$ and $\mathfrak{r}=\sqrt{ r^{2}+a^{2}}$ we get
+> $$\lvert \mathbf{E} \rvert=E =\frac{q}{4\pi \varepsilon_{0}} \frac{1}{\mathfrak{r}^{2}}2 \frac{r}{\mathfrak{r}}=\frac{q}{2\pi \varepsilon_{0}} \frac{r}{\mathfrak{r}^{3}}=\frac{q}{2\pi \varepsilon_{0}} \frac{r}{(r^{2}+a^{2})^{3/2}}$$
+> Also note that $E_{z}=0$ for any point on the $xy$ plane since the above and below charges cancel out $z$ components exactly. With this, we just need to solve the integral:
+> $$\begin{align}
+> F_{z}&=-\oint_{S} \frac{\varepsilon_{0}}{2}E^{2}rdrd\varphi \\
+> &=-\frac{\varepsilon_{0}}{2} \left( \frac{q}{2\pi \varepsilon_{0}} \right)^{2}2\pi \int_{0}^{\infty} \frac{r^{3}}{(r^{2}+a^{2})^{3}}dr \\
+> (r^{2}= u)&=\frac{q^{2}}{8\pi \varepsilon_{0}}\int_{0}^{\infty} \frac{u}{(u+a^{2})^{3}}du \\
+> &=\frac{q^{2}}{8\pi \varepsilon_{0}}\left[ - \frac{1}{u+a^{2}}+ \frac{a^{2}}{2(u+a^{2})^{3}} \right]_{0}^{\infty} \\
+> &=\frac{q^{2}}{8\pi \varepsilon_{0}}\left[ 0+ \frac{1}{a^{2}}- \frac{a^{2}}{2a^{4}} \right] \\
+> &=\frac{q^{2}}{4\pi \varepsilon_{0}} \frac{1}{(2a)^{2}}
+> \end{align}$$
+> (We could have avoided using a known integral by substituting $u+a^{2}=v$ and solving that instead.)
+> 
+> If the charges are opposite, $q$ and $-q$, the fields don't cancel on the plane; they double, and do so specifically on the $z$ axis, oriented towards the negative side of the plane. For the same reason, the field on the plane is now *exclusively* on the $z$ axis, which means $E^{2}=E_{z}^{2}$ and so $E^{2}- \frac{1}{2}E_{z}^{2}=\frac{1}{2}E_{z}^{2}$. We now solve
+> $$\begin{align}
+> F_{z}&=\frac{\varepsilon_{0}}{2} \left( \frac{qa}{2\pi \varepsilon_{0}} \right)^{2}2\pi \int_{0}^{\infty} \frac{r}{(r^{2}+a^{2})^{3}}dr \\
+> &=- \frac{q^{2}a^{2}}{4\pi \varepsilon_{0}}\left[ - \frac{1}{4} \frac{1}{(r^{2}+a^{2})}^{2} \right]_{0}^{\infty} \\
+> &=- \frac{q^{2}a^{2}}{4\pi \varepsilon_{0}}\left[ 0+ \frac{1}{4a^{4}} \right] \\
+> &=- \frac{q^{2}}{4\pi \varepsilon_{0}} \frac{1}{(2a)^{2}}
+> \end{align}$$
 
 [^1]: This is not using Einstein notation. If it did, the sum $\sum_{i=1}^{3}$ would be implicit, relying on the fact that the index $i$ appears on both $\nabla_{i}$ and the terms inside the square brackets.

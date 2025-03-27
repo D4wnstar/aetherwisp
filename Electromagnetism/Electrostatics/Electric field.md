@@ -1,6 +1,6 @@
-The **electric field** $\mathbf{E}$ is the [[conservative force|conservative]] [[Vector field|vector field]] that describes the action of an [[electric charge]] onto other charges. For a test charge $Q$, the force applied to it by another charged object is determined through the electric field as
+The **electric field** $\mathbf{E}$ is the [[vector field]] that describes the action of an [[electric charge]] onto other charges. For a test charge $Q$, the force applied to it by another charged object is determined through the electric field as
 $$\mathbf{F}=Q\mathbf{E}$$
- Electric fields obey the [[superposition principle]]. If there are two charges producing fields $\mathbf{E}_{1}$ and $\mathbf{E}_{2}$, their combined field is simply $\mathbf{E}=\mathbf{E}_{1}+\mathbf{E}_{2}$.
+ Electric fields obey the [[superposition principle]]. If there are two charges producing fields $\mathbf{E}_{1}$ and $\mathbf{E}_{2}$, their combined field is simply $\mathbf{E}=\mathbf{E}_{1}+\mathbf{E}_{2}$. When the source charges are static, it is also [[Vector field|conservative]].
 
 If the charges are allowed to move, as in materials, the electric field of the [[Physical system|system]] can become quite complicated. This is because electric fields change the distribution of charges around them by moving them around, and this change tends to render systems that are normally neutral no longer neutral, which in turn makes them produce an electric field of their own. The original field is called the **source** or **stimulus field** and the one generated as consequence is called the **response field**. It is also possible in some particular structures (like semiconductors) for there to be a permanent electric field due to the conformation of the material (kind of like how permanent magnets have a permanent [[magnetic field]]). These are generally known as **built-in fields** and also play a role[^1]. In the most general case, using the superposition principle, an electric field is a linear combination of all three of these:
 $$\mathbf{E}_\text{total}=\mathbf{E}_\text{source}+\mathbf{E}_\text{response}+\mathbf{E}_\text{built-in}$$
@@ -33,19 +33,20 @@ In all of the above, $\mathfrak{r}$ is the distance between the test charge and 
 We can calculate the [[Divergence]] of the electric field starting from the volume charge. The volume $V$ may be extended to cover all space as $\rho$ is zero outside the charged object anyway, so it makes no difference. The divergence then is
 $$\nabla\cdot\mathbf{E}=\frac{1}{4\pi\varepsilon_{0}}\int\nabla\cdot\left(\frac{\hat{\mathfrak{r}}}{\mathfrak{r}^{2}}\right)\rho(\mathbf{r}')\ d\tau'$$
 (the divergence "targets" $\mathbf{r}$, so $\mathfrak{r}$ is part of the calculation, but $\rho$ is not). We therefore need to find the divergence of $\hat{r}/r^{2}$.
-#### Divergence of $\hat{r}/r^{2}$
-The divergence of $\hat{r}/r^{2}$ explodes in 0, so the divergence cannot be calculated directly without making a mistake. The flux of $\hat{r}/r^{2}$ is $4\pi$ for any surface $S$:
-$$\oint_{S} \frac{\hat{r}}{r^{2}}\cdot d\mathbf{a}=\int_{S}\left(\frac{1}{R^{2}}\hat{r}\right)\cdot(R^{2}\sin\theta d\theta d\phi\hat{r})=\left(\int_{0}^{\pi}\sin\theta d\theta\right)\left(\int_{0}^{2\pi}d\phi\right) =4\pi$$
-but the divergence itself is *zero*:
-$$\nabla\cdot \left(\frac{\hat{r}}{r^{2}}\right)=\frac{1}{r^{2}}\frac{\partial }{\partial r}\left(r^{2} \frac{1}{r^{2}}\right)=0$$
-If we apply the [[Divergence theorem|divergence theorem]], we get
-$$\int_{V}\nabla\cdot\left(\frac{\hat{r}}{r^{2}}\right)=\oint_{S} \frac{\hat{r}}{r^{2}}\cdot d\mathbf{a}=4\pi$$
-which seems paradoxical. How can the integral of something we calculate as zero be $4\pi$? The only way this can be true is if the divergence contains the (three-dimensional) [[delta di dirac|Dirac delta]] [[Distribuzione|distribution]], as its integral over all space is one. Thus
-$$\nabla\cdot\left(\frac{\hat{r}}{r^{2}}\right)=4\pi\delta^{3}(\mathbf{r})$$
-and since
-$$\iiint \delta^{3}(\mathbf{r})\ d\mathbf{r}=1$$
-this makes the previous statements not paradoxical.
-#### Divergence of the electric field
+
+> [!tip] Divergence of $\hat{r}/r^{2}$
+> The divergence of $\hat{r}/r^{2}$ explodes in 0, so the divergence cannot be calculated directly without making a mistake. The flux of $\hat{r}/r^{2}$ is $4\pi$ for any surface $S$:
+> $$\oint_{S} \frac{\hat{r}}{r^{2}}\cdot d\mathbf{a}=\int_{S}\left(\frac{1}{R^{2}}\hat{r}\right)\cdot(R^{2}\sin\theta d\theta d\phi\hat{r})=\left(\int_{0}^{\pi}\sin\theta d\theta\right)\left(\int_{0}^{2\pi}d\phi\right) =4\pi$$
+> but the divergence itself is *zero*:
+> $$\nabla\cdot \left(\frac{\hat{r}}{r^{2}}\right)=\frac{1}{r^{2}}\frac{\partial }{\partial r}\left(r^{2} \frac{1}{r^{2}}\right)=0$$
+> If we apply the [[Divergence theorem|divergence theorem]], we get
+> $$\int_{V}\nabla\cdot\left(\frac{\hat{r}}{r^{2}}\right)=\oint_{S} \frac{\hat{r}}{r^{2}}\cdot d\mathbf{a}=4\pi$$
+> which seems paradoxical. How can the integral of something we calculate as zero be $4\pi$? The only way this can be true is if the divergence contains the (three-dimensional) [[delta di dirac|Dirac delta]] [[Distribuzione|distribution]], as its integral over all space is one. Thus
+> $$\nabla\cdot\left(\frac{\hat{r}}{r^{2}}\right)=4\pi\delta^{3}(\mathbf{r})$$
+> and since
+> $$\iiint \delta^{3}(\mathbf{r})\ d\mathbf{r}=1$$
+> this makes the previous statements not paradoxical.
+
 Knowing this, we can go back to the electric field. We then get
 $$\boxed{\nabla\cdot\mathbf{E}=\frac{1}{4\pi\varepsilon_{0}}\int4\pi\delta^{3}(\mathfrak{r})\rho(\mathbf{r}')d\tau'=\frac{1}{\varepsilon_{0}}\rho(\mathbf{r})}$$
 which is just [[Gauss' law]] in differential form, here calculated explicitly.

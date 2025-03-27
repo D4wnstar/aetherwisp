@@ -39,3 +39,45 @@ The benefit of finding constants of motion is that they add bindings to the para
 > and so
 > $$\ldots=V'(x(t))v(t)+mv(t)f(x(t))=-F(x(t))v(t)+v(t)F(x(t))=0$$
 > which proves our point.
+### In Lagrangian mechanics
+Within the context of a Lagrangian system of $n$ [[degree of freedom|degrees of freedom]], a constant of motion is a function $I:\mathbb{R}^{2n+1}\to \mathbb{R},(q,\dot{q},t)\to I(q,\dot{q},t)$ for which $\frac{d}{dt}I(q(t),\dot{q}(t),t)=0$ that solves the [[Lagrange-Euler equation]].
+
+If we know a constant of motion $I(q,\dot{q},t)$ and, then we can write the following equation:
+$$I(q(t),\dot{q}(t),t)=I_{0}$$
+where $I_{0}$ is some constant. This is a first order [[Ordinary differential equation|ODE]] in $q(t)$ (technically a family of ODEs). If we solve this equation, we can find the motion $q(t)$ just from the constant of motion.
+
+Let's consider the [[dynamical variable]] for a [[Lagrangian]] $L$:
+$$E(q,\dot{q},t)=\sum_{i=1}^{n} \dot{q}_{i}\frac{ \partial L }{ \partial \dot{q}_{i} }(q,\dot{q},t)-L(q,\dot{q},t) $$
+The derivative of this is
+$$\begin{align}
+\frac{d}{dt} E(q,\dot{q},t)&=\sum_{i=1}^{n} \left( \ddot{q}_{i}\frac{ \partial L }{ \partial \dot{q}_{i} }+\dot{q}_{i} \frac{d}{dt} \frac{ \partial L }{ \partial \dot{q}_{i} }   \right)-\sum_{i=1}^{n} \left( \frac{ \partial L }{ \partial q_{i} } \dot{q}_{i} + \frac{ \partial L }{ \partial \dot{q}_{i} }\ddot{q}_{i} \right)-\frac{ \partial L }{ \partial t } \\
+&=\sum_{i=1}^{n} \dot{q}_{i}\left( \frac{d}{dt} \frac{ \partial L }{ \partial \dot{q}_{i} } -\frac{ \partial L }{ \partial q_{i} }   \right) - \frac{ \partial L }{ \partial t }  \\
+(\text{if }q(t)\text{ solves Lag. eq.})&=-\frac{ \partial L }{ \partial t } 
+\end{align} $$
+Clearly then, if $\frac{ \partial L }{ \partial t }=0$, then $E$ is a constant of motion. This occurs when $L$ does not explicitly depend on time, that is, $L\equiv L(q,\dot{q})$, and in these cases, the quantity $E$ can always be used as a constant of motion. This property is known as the **time-shift invariance** of $L$. In plain terms, $L$ does not change in time: the dynamics of the system *now* are the same as they were in the past and will always be the same in the future.
+#### Examples
+> [!example] Mechanical system with purely positional forces
+> For a mechanical system with purely positional forces, if the Lagrangian is explicitly time independent, $L\equiv L(q,\dot{q})$, then we can write
+> $$L(q,\dot{q})=\frac{1}{2}\sum_{n,k} a_{nk}(q)\dot{q}_{n}\dot{q}_{k}-V(q)=T_{2}-V$$
+> $a$ is a [[homogeneous function]] of degree $2$ in $\dot{q}$ and $V$ is a homogeneous function of degree $0$ in $\dot{q}$. The quantity $E$ is
+> $$E=\sum_{k=1}^{n} \dot{q}_{k}\frac{ \partial L }{ \partial \dot{q}_{k} } -L=\underbrace{ \sum_{k=1}^{n} \dot{q}_{k}\frac{ \partial T_{2} }{ \partial \dot{q}_{k} } }_{ 2T_{2} } -T_{2}+V=T_{2}+V$$
+> We can see that $E$ is the *total* mechanical energy of the system, given by the sum of [[kinetic energy]] and [[potential energy]].
+
+> [!example] 2D harmonic oscillator
+> We now imagine a two-dimension [[harmonic oscillator]] of Lagrangian
+ >$$L=\frac{m}{2}(\dot{x}^{2}+\dot{y}^{2})- \frac{m\omega ^{2}}{2}(x^{2}+y^{2})$$
+> where $\omega ^{2}=k/m$. Think of it a spring being pushed and pulled away and towards the origin. It is not rotating. We can find the motion pretty easily from each term of $E$:
+> $$\frac{d}{dt} \frac{ \partial L }{ \partial x } -\frac{ \partial L }{ \partial x } =0\quad\to \quad \ddot{x}=-\omega ^{2}x$$
+> $$\frac{d}{dt} \frac{ \partial L }{ \partial y } -\frac{ \partial L }{ \partial y } =0\quad\to \quad \ddot{y}=-\omega ^{2}y$$
+> These are simple second order ODEs that solve to
+> $$x(t)=A_{x}\cos(\omega t+\varphi_{x}),\qquad y(t)=A_{y}\cos(\omega t+\varphi_{y})$$
+> We could have also solved this in [[polar coordinates]]. If we use the [[coordinate transformation]] $r=\cos \varphi,\ y=r\sin \varphi$, the Lagrangian becomes
+> $$L=\frac{m}{2}(\dot{r}^{2}+r^{2}\dot{\varphi}^{2})- \frac{m\omega ^{2}}{2}r^{2}$$
+> This Lagrangian does not explicitly depend on $\varphi$. The terms of $E$ are
+> $$0=\frac{d}{dt} \frac{ \partial L }{ \partial \dot{r} } -\frac{ \partial L }{ \partial r } =m \ddot{r}-mr \dot{\varphi}^{2}+m \omega ^{2}r\quad\to \quad \ddot{r}=-\omega ^{2}r+r \dot{\varphi}^{2}$$
+> $$0=\frac{d}{dt} \frac{ \partial L }{ \partial \dot{\varphi} }\quad\to \quad \frac{ \partial L }{ \partial \dot{\varphi} } =mr^{2}\dot{\varphi}$$
+> The latter equation is a constant of motion. If we set $mr^{2}\dot{\varphi}=\ell$, we can invert to get $\dot{\varphi}=\ell/mr^{2}$. If we plug this into $\ddot{r}$ we get
+> $$\ddot{r}=-\omega ^{2}r+ \frac{\ell^{2}}{m^{2}r^{3}}$$
+> This is an ODE in $r(t)$ of the form $\ddot{r}=f(r)$ and can therefore be solved generally. We can also plug $\dot{\varphi}$ in the polar Lagrangian to get
+> $$L_\text{eff}(r,\dot{r},\ell)=\frac{m\dot{r}^{2}}{2}- \frac{m\omega ^{2}r^{2}}{2}- \frac{\ell^{2}}{2mr^{2}}$$
+> This isn't the original Lagrangian and does not even depend on the same variables, but it nonetheless contains the same information to the original. This *effective* Lagrangian uses the fact that the oscillator is not rotating, so the angular dependency in polar coordinates collapses to a constant of motion and we can get all the information about the system by just solving a single ODE, $\ddot{r}$, instead of two, $\ddot{x}$ and $\ddot{y}$.
