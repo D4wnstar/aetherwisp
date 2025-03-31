@@ -20,7 +20,7 @@ $$\ket{\psi} =\ket{aa} +\ket{aa} =2\ket{aa} $$
 so not only does the state exists, it is simply a rescaling of the original. As such, it is perfectly fine for two bosons to end up in the same state.
 
 > [!example] $N$ particles
-> This can be readily generalized to any number of particles. Consider $N$ of them. The position [[Funzione d'onda|wavefunction]] of the system is $\psi(\mathbf{r}_{1},\mathbf{r}_{2},\ldots,\mathbf{r}_{N})$, where $\mathbf{r}_{i}$ is the position of the $i$-th particle. We can define the particle [[Operatore di scambio|switch operator]] $P$ as
+> This can be readily generalized to any number of particles. Consider $N$ of them. The position [[Funzione d'onda|wavefunction]] of the system is $\psi(\mathbf{r}_{1},\mathbf{r}_{2},\ldots,\mathbf{r}_{N})$, where $\mathbf{r}_{i}$ is the position of the $i$-th particle. We can define the particle [[permutation operator]] $P$ as
 >$$P\psi(\mathbf{r}_{1},\ldots,\mathbf{r}_{i},\ldots,\mathbf{r}_{j},\ldots,\mathbf{r}_{N})=\psi(\mathbf{r}_{1},\ldots,\mathbf{r}_{j},\ldots,\mathbf{r}_{i},\ldots,\mathbf{r}_{N})$$
 > Of course, switching particles gets us back to the original wavefunction, so $P$ is [[Operatore unitario|unitary]] ($PP=P^{2}=1$). As with all unitary operators, applying them to a state won't change the [[Equazione agli autovalori|eigenvalues]]:
 > $$H\psi=E\psi \quad\to \quad H(P\psi)=E(P\psi)$$
