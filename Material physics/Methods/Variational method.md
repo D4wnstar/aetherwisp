@@ -1,13 +1,13 @@
 The **variational method** is a method of finding approximate solution to quantum problems, typically finding [[Equazione agli autovalori|eigenvalues]] and [[Equazione agli autovalori|eigenfunctions]] of a time-independent [[Hamiltonian]].
 ### Method
-Consider some time-independent Hamiltonian $H$ of a function $\phi$ which can vary freely. We define the [[functional]]:
+Consider some time-independent Hamiltonian $H$ of a function $\phi$ which can vary freely, called a **trial function**. We define the [[functional]]:
 $$E(\phi)=\frac{\braket{ \phi | H|\phi }}{\braket{ \phi | \phi } } $$
 This is the [[mean]] value of $E$ in the state $\ket{\phi}$. As usual, if $\ket{\phi}$ is an eigenstate, then $E(\phi)$ is an [[Stato stazionario|energy eigenvalue]]. The heart of the method is this:
 
 > [!info] Variational principle
 > Every function for which $E(\phi)$ is stationary, that is, $dE(\phi)/d\phi=0$, is an eigenfunction of $H$.
 
-To prove this, let's consider a variation $\delta \phi$  of $\phi$. We now look for the eigenvalues of $E$ for the varied function:
+To prove this, let's consider a small variation $\delta \phi$ of $\phi$. We now look for the eigenvalues of $E$ for the varied function:
 $$E(\phi+\delta \phi)\braket{ \phi+\delta \phi | \phi+\delta \phi } =\braket{ \phi+\delta \phi | H|\phi+\delta \phi } $$
 $$\begin{align}
 \delta E\int \phi^{*}\phi d\tau&=-E\int \delta\phi^{*}\phi d\tau-E\int  \phi^{*}\delta\phi d\tau+\int \delta \phi^{*}H\phi d\tau +\int \phi^{*}H\delta \phi d\tau \\
