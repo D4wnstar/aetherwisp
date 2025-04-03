@@ -2,6 +2,8 @@
 aliases:
   - conservative field
   - conservative force
+  - irrotational
+  - solenoidal
 ---
 A **vector field** is a function $\mathbf{F} : S \subseteq \mathbb{R}^N → \mathbb{R}^N$ defined in a [[vector space]] $S$ that assigns a vector to each point in space.
 ### Properties

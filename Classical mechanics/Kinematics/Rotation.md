@@ -1,13 +1,25 @@
-A **rotation** is a [[Rigid body]] movement that maintains at least one point fixed. It is the circular movement of an object around a central line, known as the **axis of rotation**. A rotation where the axis passes through an object's [[Center of mass]] is called a [[spin]] rotation, whereas a rotation around an axis completely outside of the body is called a [[revolution]] (or *orbit*). In this case, the axis is called the **axis of revolution**.
-## Matrix representation
-Rotations can be represented through square matrices. This is a particularly convenient form in more theoretical math, especially when [[Operatore|operator]] theory can be used. Given a vector $(x,y)$ in a plane, a rotation about the origin by an angle $\theta>0$ is the vector $(x',y')$ given by
+A **rotation** is a circular movement of an object around a central line, known as the **axis of rotation**. A rotation $R(\alpha)$ in $\mathbb{R}^{N}$ is a [[Operatore lineare|linear operator]] parameterized by a real value, typically interpreted as the angle of rotation and denoted $\theta$ or $\alpha$.
+
+Rotations form a [[group]] with interesting properties. Since rotations are, geometrically speaking, planar operations, the most fundamental group is the one in $\mathbb{R}^{2}$. Here they form a group known as
+$$SO(2)=\{ R\in M_{2}(\mathbb{R})\ | \ RR^{T}=R^{T}R=\hat{\mathbf{1}} \text{ and } \det R=1\}$$
+where $M_{2}(\mathbb{R})$ is the [[set]] of all real $2\times 2$ matrices. It is called the (two-dimensional) [[special orthogonal group]][^1]. It can also be written as $SO(2)=\{ R(\alpha)\ |\ \alpha \in[0,2\pi[\  \}$ and is the group of all [[Matrice simmetrica|antisymmetric matrices]] in $\mathbb{R}^{2}$.. For rotations in $\mathbb{R}^{N}$, they form the group
+$$SO(N)=\{ R\in M_{N}(\mathbb{R})\ | \ RR^{T}=R^{T}R=\hat{\mathbf{1}} \text{ and } \det R=1\}$$
+
+In the context of a [[rigid body]], it is a movement that maintains at least one point fixed. A rotation where the axis passes through an object's [[center of mass]] is called a *spin* rotation, whereas a rotation around an axis completely outside of the body is called a *revolution* (or *orbit*). In this case, the axis is called the **axis of revolution**.
+### Properties
+- They are [[Operatore lineare|linear operators]].
+- They are [[Matrice simmetrica|antisymmetric]]: $R(\alpha)^{T}R(\alpha)=R(\alpha)R^{T}(\alpha)=\hat{\mathbf{1}}$, where $\hat{\mathbf{1}}$ is the unit operator.
+- The [[determinant]] of a rotation is $\det R(\alpha)=1$.
+- Given a vector $\mathbf{v}\in \mathbb{R}^{N}$, $R(\alpha)\mathbf{v}$ is rotated by an angle $\alpha$ with respect to $\mathbf{v}$.
+### Matrix representation
+Being linear operators, rotations can be represented through square matrices. This is a particularly convenient form in more theoretical math, especially when [[Operatore|operator]] theory can be used. Given a vector $(x,y)$ in a plane, a rotation about the origin by an angle $\theta>0$ is the vector $(x',y')$ given by
 $$x'=\cos(\theta)x-\sin(\theta)y, \quad y'=\sin(\theta)x+\cos(\theta)y$$
 which can be derived using plain trigonometry. The rotation is counterclockwise. These equations can be written in matrix form as
 $$\boxed{\begin{pmatrix}x' \\ y'\end{pmatrix}=\begin{pmatrix}\cos\theta & -\sin\theta \\ \sin\theta & \cos\theta\end{pmatrix}\begin{pmatrix}x \\ y\end{pmatrix}}$$
 In three dimensions, the rotation about an axis can be trivially extended as
 $$\boxed{\begin{pmatrix}x' \\ y' \\ z'\end{pmatrix}=\begin{pmatrix}\cos\theta & -\sin\theta & 0 \\ \sin\theta & \cos\theta & 0 \\ 0 & 0 & 1\end{pmatrix}\begin{pmatrix}x \\ y \\ z\end{pmatrix}}$$
 
-The 3D rotation matrix columns can be represented in the standard $\mathbb{R}^{3}$ [[base|basis]] $\{\mathbf{i},\mathbf{j},\mathbf{k}\}$:
+The 3D rotation matrix columns can be represented in the standard $\mathbb{R}^{3}$ [[basis]] $\{\mathbf{i},\mathbf{j},\mathbf{k}\}$:
 $$R_{0}\mathbf{i}=\begin{pmatrix}c \\ s \\ 0\end{pmatrix}=c\mathbf{i}+s\mathbf{j}, \quad R_{0}\mathbf{j}=\begin{pmatrix}-s \\ c \\ 0\end{pmatrix}=-s\mathbf{i}+c\mathbf{j}, \quad R_{0}\mathbf{k}=\begin{pmatrix}0 \\ 0 \\ 1\end{pmatrix}=\mathbf{k}$$
 where $c=\cos\theta$ and $s=\sin\theta$. Consider a right-handed orthonormal set $\{\mathbf{a},\mathbf{b},\mathbf{d}\}$. $R_{0}$ is a rotation in this basis. The matrix $R_{1}$ that represents a rotation in the standard basis will transform $\mathbf{a}$, $\mathbf{b}$ and $\mathbf{d}$ with
 $$R_{1}\mathbf{a}=c\mathbf{a}+s\mathbf{b}, \quad R_{1}\mathbf{b}=-s\mathbf{a}+c\mathbf{b}, \quad R_{1}\mathbf{d}=\mathbf{d}$$
@@ -45,8 +57,88 @@ We can combine all these relations to find $R_{1}$ from $(1)$:
 $$\boxed{R_{1}=I+\sin\theta D+(1-\cos\theta)D^{2}}\tag{4}$$
 In this form, the rotation matrix is independent from the choice of $\mathbf{a}$ and $\mathbf{b}$ when applied to a vector. In fact
 $$R_{1}\mathbf{v}=I\mathbf{v}+sD\mathbf{v}+(1-c)D^{2}\mathbf{v}=\mathbf{v}+s\mathbf{d}\times\mathbf{v}+(1-c)\mathbf{d}\times(\mathbf{d}\times\mathbf{v})$$
-## Specific cases
-### Circular motion
+### Exponentiation
+It is possible to take the exponential of a matrix by using the [[serie|series]] definition
+$$\exp(x)=\sum_{n=0}^{\infty} \frac{x^{n}}{n!}$$
+This has some interesting effects in the context of rotations. Consider the most general antisymmetric $2\times 2$ matrix:
+$$\mathrm{A}=\begin{pmatrix}
+0 & -\alpha \\
+\alpha & 0
+\end{pmatrix}=\alpha \begin{pmatrix}
+0 & -1 \\
+1 & 0
+\end{pmatrix}$$
+The exponential is
+$$\exp \mathrm{A}=\hat{1}+\sum_{n=1}^{\infty} \frac{\mathrm{A}^{n}}{n!}=\sum_{n=0}^{\infty} \frac{\mathrm{A}^{2m}}{(2m)!}+\sum_{m=0}^{\infty} \frac{\mathrm{A}^{2m+1}}{(2m+1)!}=\hat{1}\underbrace{ \sum_{m=0}^{\infty} \frac{(-1)\alpha^{2m}}{(2m)!} }_{ \cos \alpha }+\mathrm{E}\underbrace{ \sum_{m=0}^{\infty} \frac{(-1)^{m}\alpha^{2m-1}}{(2m+1)!} }_{ \sin \alpha }$$
+where we used that $\mathrm{A}^{2m}=(-1)^{m}\alpha^{2m}\hat{1}$ and $\mathrm{A}^{2m+1}=\mathrm{A}^{2m}\mathrm{A}=(-1)^{m}\alpha^{2m+1}\mathrm{E}$ and the series definitions of sine and cosine. As such, in the most general case, the exponential of an antisymmetric matrix is
+$$\exp \mathrm{A}=\cos \alpha \ \hat{1}+\sin \alpha\  \mathrm{E}=\begin{pmatrix}
+\cos \alpha & -\sin \alpha \\
+\sin \alpha & \cos \alpha
+\end{pmatrix}=R(\alpha)$$
+Evidently, all finite rotations are exponentials of the antisymmetric matrix $\mathrm{E}$, weighed by some factor $\alpha$. We can therefore represent them as
+$$\boxed{R(\alpha)=e^{\alpha \mathrm{E}}}$$
+Since all rotations are exponentials of $\mathrm{E}$, we say that $\mathrm{E}$ is the **generator** of $SO(2)$. In fact, antisymmetric matrices form a [[vector space]] (sum and scalar multiplication are both defined and closed) and $\mathrm{E}$ forms a [[basis]] of this space. Thus, any rotation is also a [[linear combination]] of basis elements. In 2D this is just $\mathrm{E}$, but this provides straight-forward extensions to $N$-dimensional rotations by extending the basis so that it generates $SO(N)$.
+
+The number of generators, that is elements in the basis, is $N(N-1)/2$. In $N=3$ we have $3$ generators and these are
+$$\mathrm{E}_{1}=\begin{pmatrix}
+0 & 0 & 0 \\
+0 & 0 & -1 \\
+0 & 1 & 0
+\end{pmatrix},\quad \mathrm{E}_{2}=\begin{pmatrix}
+0 & 0 & 1 \\
+0 & 0 & 0 \\
+-1 & 0 & 0
+\end{pmatrix},\quad \mathrm{E}_{3}=\begin{pmatrix}
+0 & -1 & 0 \\
+1 & 0 & 0 \\
+0 & 0 & 0
+\end{pmatrix}$$
+A generic infinitesimal rotation $\Omega$ is given by
+$$\Omega=\sum_{i=1}^{3} \omega_{i}\mathrm{E}_{i}=\begin{pmatrix}
+0 & -\omega_{3} & \omega_{2} \\
+\omega_{3} & 0 & -\omega_{1} \\
+-\omega_{2} & \omega_{1} & 0
+\end{pmatrix}$$
+For example, the third rotation $R_{3}$ is
+$$R_{3}=\exp(\omega_{3}\mathrm{E}_{3})=\exp\begin{pmatrix}
+0 & -\omega_{3} & 0 \\
+\omega_{3} & 0 & 0 \\
+0 & 0 & 0
+\end{pmatrix}=\begin{pmatrix}
+\cos \omega_{3} & -\sin \omega_{3} & 0 \\
+\sin \omega_{3} & \cos \omega_{3} & 0 \\
+0 & 0 & 1
+\end{pmatrix}$$
+But this is just a 2D rotation around an axis, specifically the third axis. We can find the same thing for $R_{1}$ and $R_{2}$ too. Evidently, then, $R_{i}$ is the rotation around the $i$-th axis and any rotation is a combination of rotations around the axes. Intuitively, this makes sense: rotating something on a "diagonal" is like rotating it "horizontally" and then "vertically".
+
+By noticing that the $\mathrm{E}_{i}$ is defined by the [[Tensore di Levi-Civita|Levi-Civita tensor]] $\epsilon_{ijk}$ as $(\mathrm{E}_{i})_{jk}=-\epsilon_{ijk}$ , it is possible to define a 2D infinitesimal rotation in 3D space as
+$$\Omega_{ij}=-\sum_{k=1}^{3} \epsilon_{ijk}\omega_{k}$$
+The infinitesimal variation of a vector subject to this rotation is
+$$\delta v_{i}=\sum_{j=1}^{3} \Omega_{ij}v_{j}=-\sum_{j,k=1}^{3} \epsilon_{ijk}v_{j}\omega_{k}=\sum_{j,k=1}^{3} \epsilon_{ikj}\omega_{k}v_{j}=(\boldsymbol{\omega}\times \mathbf{v})_{i}$$
+Putting components together, we can say that in general, $\boldsymbol{\omega}\times \mathbf{v}$ is the variation of $\mathbf{v}$ under an infinitesimal rotation of angle $\lvert \boldsymbol{\omega} \rvert$ around an axis parallel to $\boldsymbol{\omega}$. The [[norm]] of this variation is
+$$\lvert \delta \mathbf{v} \rvert =\lvert \boldsymbol{\omega}\times \mathbf{v} \rvert =\lvert \boldsymbol{\omega} \rvert \lvert \mathbf{v} \rvert \sin \theta=\lvert \boldsymbol{\omega} \rvert \lvert \mathbf{v}_{\perp} \rvert $$
+
+To further analyze $\mathrm{E}_{i}$, we can calculate the [[Commutatore]] between the $\mathrm{E}_{i}$ and $\mathrm{E}_{j}$:
+$$[\mathrm{E}_{i},\mathrm{E}_{j}]=\mathrm{E}_{i}\mathrm{E}_{j}-\mathrm{E}_{j}\mathrm{E}_{i}$$
+We need to figure out the product between these matrices:
+$$(\mathrm{E}_{i}\mathrm{E}_{j})_{mn}=\sum_{p=1}^{3} (\mathrm{E}_{i})_{mp}(\mathrm{E}_{j})_{pn}=\sum_{p=1}^{3} \epsilon_{imp}\epsilon_{ipn}=-\sum_{p=1}^{3} \epsilon_{imp}\epsilon_{jnp}=-[\delta_{ij}\delta_{mn}-\delta_{in}\delta_{mj}]$$
+using the [[Delta di Dirac|Dirac delta]]. The commutator components then are
+$$([\mathrm{E}_{i},\mathrm{E}_{j}])_{mn}=\ldots=(\mathrm{E}_{k})_{mn}$$
+(TODO: Finish this; end of lesson 03/04/2025)
+The whole commutator then is
+$$[\mathrm{E}_{i},\mathrm{E}_{j}]=\sum_{k=1}^{3} \epsilon_{ijk}\mathrm{E}_{k}$$
+### Conservation
+Consider a 3D rotation around an axis parallel to $\boldsymbol{\omega}$. We can write this is as the exponential of a linear combination of generators:
+$$\exp\left( \alpha \sum_{i=1}^{3} \hat{\boldsymbol{\omega}}_{i}\mathrm{E}_{i} \right)$$
+where $\hat{\boldsymbol{\omega}}=\boldsymbol{\omega}/\lvert \boldsymbol{\omega} \rvert$ We define the [[coordinate transformation]]
+$$\varphi(q,\alpha)=e^{\alpha \sum_{i=1}^{3} \hat{\boldsymbol{\omega}}_{i}\mathrm{E}_{i}}\mathbf{q}$$
+We can take the derivative of this in $\alpha$ to find
+$$\frac{ \partial \varphi }{ \partial \alpha }(q,\alpha)=\left( \sum_{i=1}^{3} \hat{\boldsymbol{\omega}}_{i}\mathrm{E}_{i} \right)e^{\alpha \sum_{i=1}^{3} \hat{\boldsymbol{\omega}}_{i}\mathrm{E}_{i}}\mathbf{q} $$
+When evaluated in $\alpha=0$ we get
+$$\frac{ \partial \varphi }{ \partial \alpha } (q,0)=\left( \sum_{i=1}^{3} \hat{\boldsymbol{\omega}}_{i}\mathrm{E}_{i} \right)\mathbf{q}$$
+(TODO: Finish this end of lesson 03/04/2025, there's an application of [[Nöther's theorem]] here somewhere later)
+### Specific cases
+#### Circular motion
 If the axis $\mathbf{D}$ is fixed and the distance is a constant $r_{0}$, the coordinate system can be chosen to be [[Polar coordinates]] or [[Cylindrical coordinates]] depending on dimensions. If cylindrical, the plane of rotation should be the plane of reference, with the axis of rotation being the $z$-axis.
 
 A set of [[Orthonormality|orthonormal]] axes can be chosen with the [[Cartesian coordinates|Cartesian]] tangent-normal [[Moving frame]]. Call $\mathbf{\xi}$ and $\mathbf{\eta}$ these two axes, potentially with $\mathbf{D}$ as the third if in 3D. Therefore, the position unit vector of the rotating object is $\mathbf{R}=\mathbf{\xi}\sin\theta+\mathbf{\eta}\sin\theta$. In this system, **angular speed** is $\sigma(t)=\dot{\theta}(t)$, **angular velocity** is $\mathbf{w}(t)=\sigma(t)\mathbf{D}=\dot{\theta}(t)\mathbf{D}$ and **angular acceleration** is $\mathbf{\alpha}(t)=\dot{\sigma}(t)\mathbf{D}=\ddot{\theta}(t)\mathbf{D}$.
@@ -58,10 +150,10 @@ $$\boxed{\mathbf{v}(t)=\mathbf{w}\times\mathbf{r}}$$
 so the tangential velocity can be derived from the angular velocity if the position is known. The acceleration then is $\mathbf{a}(t)=-r_{0}\sigma^{2}\mathbf{R}+r_{0}\ddot{\theta}\mathbf{P}=-r_{0}\sigma^{2}\mathbf{R}+r_{0}\dot{\sigma}\mathbf{D}\times\mathbf{R}=-r_{0}\sigma^{2}\mathbf{R}+\alpha\times\mathbf{r}$, so
 $$\boxed{\mathbf{a}(t)=-r_{0}\sigma^{2}\mathbf{R}+\alpha\times\mathbf{r}}$$
 where $-r_{0}\sigma^{2}\mathbf{R}$ is the **centripetal acceleration** and $\mathbf{\alpha}\times\mathbf{r}$ is the **tangential acceleration**.
-### Moving axis
+#### Moving axis
 If the axis $\mathbf{D}(t)$ is moving, let's consider the static axis case in a bit more detail before. We can define an antisymmetric matrix for any vector $\mathbf{u}$ as
 $$C(\mathbf{u})=\begin{pmatrix}0 & -u_{3} & u_{2} \\ u_{3} & 0 & -u_{1} \\ -u_{2} & u_{1} & 0\end{pmatrix}$$
-This is the matrix representation of the [[Vector product|cross product]], $C(\mathbf{u})\mathbf{r}=\mathbf{u}\times\mathbf{r}$ thanks to $(3)$, and thanks to $(4)$ we can say[^1]
+This is the matrix representation of the [[Vector product|cross product]], $C(\mathbf{u})\mathbf{r}=\mathbf{u}\times\mathbf{r}$ thanks to $(3)$, and thanks to $(4)$ we can say[^2]
 $$R(t)=I+C(\mathbf{D})\sin(\theta(t))+C(\mathbf{D})^{2}(1-\cos(\theta(t)))$$
 Linear velocity is worked out as
 $$\dot{\mathbf{r}}=\mathbf{v}=\mathbf{w}(t)\times \mathbf{r}(t)=C(\mathbf{w}(t))\mathbf{r}(t)$$
@@ -87,4 +179,5 @@ The angular velocity can be calculated using $R(t)$ from $(7)$ and then calculat
 $$\boxed{\mathbf{w}=\dot{\theta}\mathbf{D}+\sin\theta\dot{\mathbf{D}}+(\cos\theta-1)\dot{\mathbf{D}}\times\mathbf{D}}$$
 As $\mathbf{D}$ is a unit vector, the triad $\{\mathbf{D},\dot{\mathbf{D}},\dot{\mathbf{D}}\times\mathbf{D}\}$ forms an orthonormal basis. The angular velocity is expressed in this basis.
 
-[^1]: Here $\mathbf{D}$, which is a unit vector, should not be confused with $D$ from $(4)$, which is a matrix. The usage of the same letter is an unfortunate coincidence.
+[^1]: Technically, $SO(2)$ is a specification for matrices in general, but the only matrices that satisfy these conditions are rotations.
+[^2]: Here $\mathbf{D}$, which is a unit vector, should not be confused with $D$ from $(4)$, which is a matrix. The usage of the same letter is an unfortunate coincidence.

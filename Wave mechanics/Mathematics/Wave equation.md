@@ -6,6 +6,12 @@ The **wave equation** is a second order linear [[partial differential equation]]
 $$\frac{ \partial ^{2} \psi(x,t) }{ \partial x^{2} }=\frac{1}{v^{2}}\frac{ \partial ^{2}\psi (x,t) }{ \partial t^{2} } \tag{1}$$
 $\psi(x,t)$ is the [[scalar field]] solution to the equation and it is called the **wavefunction**, whereas the parameter $v$ is generally interpreted in physics as the **speed of the wave** (although the concept of wave speed is more complicated). The value of $\psi$ for any $x$ and $t$ is called the **amplitude** of the wave in that place and time[^1]. In multiple spatial dimensions, the equation quickly generalizes using the [[Laplacian]]:
 $$\nabla ^{2}\psi(\mathbf{x},t)=\frac{1}{v^{2}}\frac{ \partial ^{2} \psi(\mathbf{x},t) }{ \partial t^{2} } \tag{2}$$
+It can also be written in an extremely terse manner using using the [[d'Alembertian]]:
+$$\square ^{2} \psi(\mathbf{x},t)=0\tag{3}$$
+This form in particular makes it easy to see that, in a way, the wave equation is a generalized form [[Laplace's equation]]. Just like Laplace's equation is extended to [[Poisson's equation]], the wave equation above, known as the **homogeneous** wave equation, can be extended to the **inhomogeneous** wave equation
+$$\square ^{2}\psi(\mathbf{x},t)=f\tag{4}$$
+for some real-valued function $f$.
+
 The wave equation finds numerous applications in physics, primarily in the study of [[electromagnetic wave|electromagnetic waves]] in electrodynamics and the study of [[Funzione d'onda|wavefunctions]] of the [[Equazione di Schrödinger|Schrödinger equation]] in quantum mechanics.
 ### Properties
 Wavefunctions are complicated objects and there myriad variations in their behavior in different conditions. Say for simplicity we remain in one dimension, where $\psi(x,t)$ is our wave function.

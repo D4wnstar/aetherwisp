@@ -91,6 +91,34 @@ $$\boxed{\begin{align}
 \varepsilon_{1}E_{1}^{\perp}-\varepsilon_{2}E_{2}^{\perp} & =\sigma_{f} & \mathbf{E}_{1}^{\parallel}-\mathbf{E}_{2}^{\parallel} & =\mathbf{0} \\
 B_{1}^{\perp}-B_{2}^{\perp} & =0 & \frac{1}{\mu_{1}}\mathbf{B}_{1}^{\parallel}- \frac{1}{\mu_{2}}\mathbf{B}_{2}^{\parallel}&=\mathbf{0}
 \end{align}}$$
+### Potential form
+Maxwell's equations can also be rewritten so that they are instead dependent on the [[electric potential]] $V$ and the [[magnetic vector potential]] $\mathbf{A}$. The benefit of this formulation is that it reduces a six-variable problem (three electric and three magnetic components) to a four-variable problem (one electric potential and three vector potential components). The issue here is that $V$ cannot exist in electrodynamics as we know it normally. This is because Faraday's law cannot be ignored when we introduce a time dependence and $\mathbf{E}$ ceases to be [[Vector field|irrotational]]. What we can do is move things around until we get something that's still irrotational even when considering time:
+$$\nabla\times \mathbf{E}=-\frac{ \partial  }{ \partial t } (\nabla\times \mathbf{A})\quad\to \quad \nabla\times\left( \mathbf{E}+\frac{ \partial \mathbf{A} }{ \partial t } \right)=0$$
+Now *this* is irrotational, and thus we can will a potential into existence:
+$$\mathbf{E}+\frac{ \partial \mathbf{A} }{ \partial t } =-\nabla V$$
+or, isolating the field:
+$$\boxed{\mathbf{E}=-\nabla V-\frac{ \partial \mathbf{A} }{ \partial t } }\tag{1}$$
+This is the time-dependent electric field in terms of potentials. Mix it with the fact that the magnetic field still has no divergence and is still $\mathbf{B}=\nabla\times \mathbf{A}$ and we have all our cards on the table to shed fields in favor of potentials. Next step: check for consequences.
+
+The equation $\nabla\cdot \mathbf{B}=0$ is trivially satisfied: we haven't changed anything on the magnetic field. Similarly, $\nabla\times \mathbf{E}=-\frac{ \partial \mathbf{A} }{ \partial t }$ is still true because that's how we got to $(1)$ in the first place. We want to check what becomes of $\nabla\cdot \mathbf{E}$ and $\nabla\times \mathbf{B}$, i.e. Gauss' law and Ampere-Maxwell's law. When we substitute $(1)$ in Gauss' law we get
+$$\nabla ^{2}V+\frac{ \partial  }{ \partial t } (\nabla\cdot \mathbf{A})=- \frac{\rho}{\varepsilon_{0}}$$
+Simple enough; take away time dependence and it goes back to the usual form. Ampere-Maxwell's law is a little clunkier:
+$$\nabla\times (\nabla\times \mathbf{A})=\mu_{0}\mathbf{J}-\mu_{0}\varepsilon_{0}\nabla\left( \frac{ \partial V }{ \partial t }  \right)-\mu_{0}\varepsilon_{0}\frac{ \partial ^{2}\mathbf{A} }{ \partial t^{2} } $$
+Using the vector identity $\nabla\times(\nabla\times \mathbf{A})=\nabla(\nabla\cdot \mathbf{A})-\nabla ^{2}\mathbf{A}$ and with some rearrangements we get
+$$\left( \nabla ^{2}\mathbf{A}-\mu_{0}\varepsilon_{0}\frac{ \partial ^{2}\mathbf{A} }{ \partial t^{2} }  \right)-\nabla\left( \nabla\cdot \mathbf{A}+\mu_{0}\varepsilon_{0}\frac{ \partial V }{ \partial t }  \right)=-\mu_{0}\mathbf{J}$$
+On paper, this is the potential form of Maxwell's equation. It is also horribly confusing compared to the field form, so it begs the question of why you'd ever do this to yourself. The answer to that, beyond the already very enticing proposition of reducing variables from six to four, is that potentials come packaged with a certain degree of freedom. Recall that a [[potential]] is defined up to a constant (the gradient of a constant always vanishes) and that a [[vector potential]] is defined up to the gradient of a [[scalar field]] (since the curl of a gradient always vanishes). This is the *soul* of these two equation, and it is important enough to warrant a name of its own: **[[gauge freedom]]**.
+#### Gauge freedom
+You may yet be wondering the significance of this. Instead of explaining it words, let's just let the equations talk for themselves. Call $\nabla \lambda=\boldsymbol{\alpha}$ the gradient of a scalar field we add onto $\mathbf{A}$. Call $\beta$ the constant we add onto $V$. Our variant potentials are then $\mathbf{A}'=\mathbf{A}+\boldsymbol{\alpha}$ and $V'=V+\beta$. The two are not independent of each other: for $(1)$ to give the old field with the new potentials we must have
+$$-\nabla V-\frac{ \partial \mathbf{A} }{ \partial t } =-\nabla V'-\frac{ \partial \mathbf{A}' }{ \partial t } $$
+which gives
+$$\nabla \beta+\frac{ \partial \boldsymbol{\alpha} }{ \partial t } =\nabla\left( \beta+\frac{ \partial \lambda }{ \partial t }  \right)=0$$
+Call the term in parenthesis $k(t)$; its gradient is zero so it must be not vary with coordinates. Our $\beta$ then is
+$$\beta=-\frac{ \partial \lambda }{ \partial t } +k(t)$$
+However, since $\beta$ is a constant, we may as well redefine $\lambda$ so that it also contains $\int_{0}^{t}k(t')dt'$. The gradient of $\lambda$ won't change (which, remember, is $\boldsymbol{\alpha}$) and it makes life easier. Our $\beta$ then is
+$$\beta=-\frac{ \partial \lambda }{ \partial t } \quad(\text{new }\lambda)$$
+But wait, now both $\boldsymbol{\alpha}$ and $\beta$ are uniquely determined by this one scalar field $\lambda$:
+$$\mathbf{A}'=\mathbf{A}+\nabla \lambda,\quad V'=V-\frac{ \partial \lambda  }{ \partial t } $$
+Evidently, given *any* $\lambda(\mathbf{r},t)$, Maxwell's equation do not change. Changing from one $\lambda$ to another is called a **gauge transformation**. Our duty, then, is to figure how to make the best of this freedom to make our life easier. We've already seen one case of this, in a way: in magnetostatics it's generally convenient to set $\nabla\cdot \mathbf{A}=0$ and we are allowed to do this because $\mathbf{A}$ is is part determined by $\lambda$ and we can just invent a $\lambda$ for which $\nabla\cdot \mathbf{A}=0$. In electrodynamics, this condition is not always the best and historically many choices — called **gauges** — have been explored and studied, and the ultimate choice depends to some extent on the system at hand. In most situation, the best choice is known as the [[Lorenz gauge]]. The $\nabla\cdot \mathbf{A}=0$ gauge that we unknowingly chose in magnetostatics is instead known as the [[Coulomb gauge]].
 
 [^1]: For correctness' sake, the charges themselves only *align* with the polarization, but don't move much. If they did all actually move to the surface, we'd be working with [[conductor|conductors]] and not with polarized [[dielectric|dielectrics]]. Still, this alignment motion is sufficient to produce a small current.
 
