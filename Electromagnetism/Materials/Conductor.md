@@ -42,7 +42,7 @@ $$\begin{align}
 \nabla\times\mathbf{B} &=\mu\sigma \mathbf{E} +\mu \sigma \frac{ \partial \mathbf{E} }{ \partial t } 
 \end{align}$$
 #### As electromagnetic waves
-Like the general case, we can rewrite these equations to find a [[wave equation]] for [[electromagnetic wave|electromagnetic waves]]. To do so, we use the usual vector calculus methods:
+Like the general case, we can rewrite these equations to find a [[Wave equation]] for [[electromagnetic wave|electromagnetic waves]]. To do so, we use the usual vector calculus methods:
 $$\begin{align}
 \nabla \times(\nabla\times\mathbf{E})&=-\nabla\times \frac{ \partial \mathbf{B} }{ \partial t } =-\frac{ \partial  }{ \partial t } (\nabla\times \mathbf{B})=-\frac{ \partial  }{ \partial t } \left( \varepsilon \mu \frac{ \partial \mathbf{E} }{ \partial t } +\mu \sigma \mathbf{E} \right) \\
 &=-\varepsilon \mu \frac{ \partial ^{2}\mathbf{E} }{ \partial t^{2} } -\mu \sigma \frac{ \partial \mathbf{E} }{ \partial t }
@@ -53,9 +53,9 @@ Meanwhile, $\nabla\times(\nabla\times \mathbf{B})$ leads to
 $$\nabla ^{2}\mathbf{B}=\varepsilon \mu \frac{ \partial ^{2}\mathbf{B} }{ \partial t^{2} } +\mu \sigma \frac{ \partial \mathbf{B} }{ \partial t } \tag{2}$$
 Unlike the vacuum case, there's a new term dependent on the *first* derivative of time. If the typical electromagnetic wave equation was analogous to the [[harmonic oscillator]], this is analogous to a *dampened* harmonic oscillator: the conductor counteracts the wave and suppresses it.
 
-Solving these equations is (unsurprisingly) more difficult than the vacuum counterpart. That said, the equation still admits a [[plane wave]] solutions. The usual method of finding the physics here is to introduce *complex* electric and magnetic fields:
+Solving these equations is (unsurprisingly) more difficult than the vacuum counterpart. That said, the equation still admits a [[Plane wave]] solutions. The usual method of finding the physics here is to introduce *complex* electric and magnetic fields:
 $$\mathbf{E}(z,t)=\mathbf{E}_{0}e^{i(\tilde{k}z-\omega t)},\qquad \mathbf{B}(z,t)=\mathbf{B}_{0}e^{i(\tilde{k}z-\omega t)}$$
-where $\mathbf{E}_{0}$, $\mathbf{B}_{0}$ and $\tilde{k}$ are complex constants, $\tilde{k}$ is the (complex) [[wavenumber]] and $\omega$ is the [[Frequency|angular frequency]]. These are the plane waves that solve the equation. Our task is now to find what these actually mean.
+where $\mathbf{E}_{0}$, $\mathbf{B}_{0}$ and $\tilde{k}$ are complex constants, $\tilde{k}$ is the (complex) [[Wavenumber]] and $\omega$ is the [[Frequency|angular frequency]]. These are the plane waves that solve the equation. Our task is now to find what these actually mean.
 
 With these definitions, our wave equations become (here using the electric field):
 $$\nabla ^{2}\mathbf{E}=\nabla ^{2}[\mathbf{E}_{0}e^{i(\tilde{k}z-\omega t)}]=-\tilde{k}^{2}\mathbf{E}$$
@@ -111,7 +111,7 @@ where $n_{R}$ and $n_{I}$ are the real and imaginary parts of a complex refracti
 #### Irradiance
 The [[irradiance]] of an electromagnetic wave on a conductor can be found to be
 $$I\propto \langle E^{2} \rangle _{T}=\frac{E_{0}^{2}}{2}e^{-2\kappa t}$$
-where $\langle E^{2} \rangle_{T}$ is the time average over a [[period]] $T$. So
+where $\langle E^{2} \rangle_{T}$ is the time average over a [[Period]] $T$. So
 $$I(z)=I_{0}e^{-2\kappa z}=I_{0}e^{-z/\alpha}$$
 $\alpha=1/2\kappa$ is the called the **penetration depth** of the wave. It is the characteristic length of suppression of irradiance when moving through a conductor; it's basically the skin depth of irradiance. Just like skin depth, it is usually less than or a few millimeters. For UV waves, it's around $0.6\text{ mm}$ and for infrared waves it's about $6\text{ mm}$.
 #### Reflection off a conductor
@@ -121,7 +121,7 @@ where $i$ and $t$ denote "incident" and "transmitted", that is, the indexes of t
 $$R=\lvert \tilde{r} \rvert ^{2}=\left( \frac{\tilde{n}-1}{\tilde{n}+1} \right)^{*}\left( \frac{\tilde{n}-1}{\tilde{n}+1} \right)=\frac{(n_{R}-1)^{2}+n_{I}^{2}}{(n_{R}+1)^{2}+n_{I}^{2}}$$
 Remember that $n_{R}$ and $n_{I}$ are related to $k$ and $\kappa$ as found above. For a perfect conductor, where $\sigma\to \infty$, the imaginary component becomes massive, $n_{I}\gg n_{R}$. This means that $\kappa\gg k$, and that's exactly what we want: the higher $\kappa$ is, them more the wave transmitted inside the conductor gets suppressed, leaving only the reflection. For a terrible conductor (i.e. a perfect [[dielectric]]), where $\sigma\to0$, the opposite happens. $n_{I}=0$ and $n_{R}=c/v$. There is no suppression at all: it's just a normal, undampened plane wave.
 
-A key detail to notice is that, since $k$ and $\kappa$ are both dependent on $\omega$, so are $n_{R}$ and $n_{I}$. In other words, the reflection/transmission angle (and the reflectivity/transmittivity in general) is dependent on the [[wavelength]]/[[frequency]] of the wave. This is one case of a broader phenomenon known as [[dispersion]].
+A key detail to notice is that, since $k$ and $\kappa$ are both dependent on $\omega$, so are $n_{R}$ and $n_{I}$. In other words, the reflection/transmission angle (and the reflectivity/transmittivity in general) is dependent on the [[Wavelength]]/[[Frequency]] of the wave. This is one case of a broader phenomenon known as [[dispersion]].
 
 
 

@@ -2,7 +2,7 @@ A **constant of motion** is a quantity that does not change over time and over a
 
 The locus of points in $\mathbb{R}^{N}$ that satisfies the equation $I(\mathbf{x})=\rho$, where $\rho$ is a constant, is a [[hypersurface]] in $\mathbb{R}^{N}$, specifically a [[Insieme di livello|level set]]. For example, in $\mathbb{R}^{3}$, the quantity $I(\mathbf{x})=x^{2}+y^{2}+z^{2}=\rho=R^{2}$ is a sphere. The constant of motion $I$ defines a family of *disjoint* (i.e. non-intersecting) hypersurfaces dependent on the parameter $\rho$. The union of all of these hypersurfaces is $\mathbb{R}^{N}$. Formally, such a family is known in differential geometry as a **[[foliation]]** of $\mathbb{R}^{N}$.
 
-The benefit of finding constants of motion is that they add bindings to the parameters of a system. Specifically, each constant reduces the [[degree of freedom|degrees of freedom]], and therefore the dimensionality of the system, by one. The more constants of motion are known beforehand, the fewer parameters need to be solved to find a trajectory. For instance, a three-dimensional system with two known constants of motion simplifies down to a one dimensional system.
+The benefit of finding constants of motion is that they add bindings to the parameters of a system. Specifically, each constant reduces the [[degrees of freedom]], and therefore the dimensionality of the system, by one. The more constants of motion are known beforehand, the fewer parameters need to be solved to find a trajectory. For instance, a three-dimensional system with two known constants of motion simplifies down to a one dimensional system.
 ### Examples
 > [!example] Harmonic oscillator
 > A typical constant of motion is the total mechanical [[energy]] of a body, defined as the sum of its [[kinetic energy|kinetic]] and [[potential energy]]. A common case is, as always, the [[harmonic oscillator]]. We consider a [[point mass]] in oscillation, with unit [[mass]] $m=1$ for simplicity. The solution is well known and is the set
@@ -40,7 +40,7 @@ The benefit of finding constants of motion is that they add bindings to the para
 > $$\ldots=V'(x(t))v(t)+mv(t)f(x(t))=-F(x(t))v(t)+v(t)F(x(t))=0$$
 > which proves our point.
 ### In Lagrangian mechanics
-Within the context of a Lagrangian system of $n$ [[degree of freedom|degrees of freedom]], a constant of motion is a function $I:\mathbb{R}^{2n+1}\to \mathbb{R},(q,\dot{q},t)\to I(q,\dot{q},t)$ for which $\frac{d}{dt}I(q(t),\dot{q}(t),t)=0$ that solves the [[Lagrange-Euler equation]].
+Within the context of a Lagrangian system of $n$ [[degrees of freedom]], a constant of motion is a function $I:\mathbb{R}^{2n+1}\to \mathbb{R},(q,\dot{q},t)\to I(q,\dot{q},t)$ for which $\frac{d}{dt}I(q(t),\dot{q}(t),t)=0$ that solves the [[Lagrange-Euler equation]].
 
 If we know a constant of motion $I(q,\dot{q},t)$ and, then we can write the following equation:
 $$I(q(t),\dot{q}(t),t)=I_{0}$$

@@ -99,7 +99,7 @@ Allora se integriamo $\psi''_{E}$ in un intervallo $[-\varepsilon,\varepsilon]$ 
 $$\int _{-\varepsilon}^{\varepsilon}\psi''_{E}(x) \ dx =\psi'_{E}(\varepsilon)-\psi'_{E}(-\varepsilon)=\frac{2m\gamma}{\hbar ^{2}}\psi_{E}(0)- \frac{2mE}{\hbar ^{2}}\int_{-\varepsilon}^{\varepsilon}\psi_{E}(x)\ dx$$
 usando il [[fundamental theorem of calculus|teorema fondamentale del calcolo]]. Andando al limite $\varepsilon\to 0^{+}$ e $-\varepsilon\to 0^{-}$, l'integrale svanisce e rimane
 $$\psi_{E}'(0^{+})-\psi'_{E}(0^{-})=\frac{2m\gamma}{\hbar ^{2}}\psi_{E}(0)$$
-Questa è una condizione di discontinuità sulla derivata. La soluzione generale di un'equazione differenziale lineare è una combinazione lineare di esponenziali complessi, che in termini fisici è una somma di [[plane wave|onde piane]], una a destra e una a sinistra della barriera di potenziale. A sinistra
+Questa è una condizione di discontinuità sulla derivata. La soluzione generale di un'equazione differenziale lineare è una combinazione lineare di esponenziali complessi, che in termini fisici è una somma di [[Plane wave|onde piane]], una a destra e una a sinistra della barriera di potenziale. A sinistra
 $$\psi_{E}^{L}(x)=A_{L}e^{ikx}+B_{L}e^{-ikx}$$
 
 Dove un'onda piana arriva da $-\infty$ e collide con la barriera (l'onda entrante) e che parte dalla barriera e va in direzione opposta, verso $-\infty$ (l'onda riflessa). A destra è analogo

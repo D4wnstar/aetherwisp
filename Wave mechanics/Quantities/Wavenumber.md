@@ -2,7 +2,7 @@
 aliases:
   - wavevector
 ---
-The **wavenumber** of a [[wave]] is its spatial frequency. It can be seen as the number of peaks (or valleys) the wave has per unit distance. It is the spatial equivalent of temporal [[Frequency]]. It can be given in two different forms:
+The **wavenumber** of a [[Wave]] is its spatial frequency. It can be seen as the number of peaks (or valleys) the wave has per unit distance. It is the spatial equivalent of temporal [[Frequency]]. It can be given in two different forms:
 - the **ordinary wavenumber** is measured in $\text{cycles}/\text{m}$ (or other unit of distance) and is denoted $\tilde{\nu}$ or $h$;
 - the **angular wavenumber** is measured in $\text{rad}/\text{m}$ (or other unit of distance) and is denoted $k$.
 

@@ -1,0 +1,14 @@
+---
+aliases:
+  - configuration
+  - free coordinates
+---
+The **generalized coordinates** of a [[Physical system|system]] are a set of variables that describe the position of the system. A specific set of values of these coordinates is called a **configuration**. In mechanical systems, a configuration is easily interpreted as the literal position in space, but as the name suggests, these coordinates are more general. Instead, they represent position in the space of possible positions, known as the [[configuration space]].
+
+Generalized coordinates are denoted with $\mathbf{q}=(q_{1},\ldots,q_{N})$. Their time derivatives, $\dot{\mathbf{q}}=(\dot{q}_{1},\ldots,\dot{q}_{N})$, are known as **generalized velocities**. The expression is
+$$\dot{\mathbf{q}}=\sum_{i=1}^{N} \frac{ \partial \mathbf{q} }{ \partial q_{i} } (q_{1}(t),\ldots,q_{N}(t))\dot{q}_{i}(t)$$
+If a [[Lagrangian]] or [[Hamiltonian]] is given, it is also possible to defined the [[Linear momentum|linear momenta]] of these coordinates, which are known as [[conjugate momenta]].
+
+It is perhaps more fruitful to explain by example. Consider a singular [[free particle]]. Its coordinates in three dimensions are described by the vector $\mathbf{r}=(x,y,z)$. In this simple case, these coordinates *are* the generalized coordinates. Since there are no [[Constraint|constraints]], the configuration space, which we'll call $Q$, is $Q=\mathbb{R}^{3}$. Say now we have two free particles. The positions of the particles are $\mathbf{r}_{1}=(x_{1},y_{1},z_{1})$ and $\mathbf{r}_{2}=(x_{2},y_{2},z_{2})$, but the *generalized* coordinates are $\mathbf{q}=(x_{1},x_{2},y_{1},y_{2},z_{1},z_{2})$. This is because the generalized coordinates described the system as a whole. The configuration space is now $Q=\mathbb{R}^{6}$.
+
+Say now we have a [[simple pendulum]]. The [[point mass]] is constrained to swing at a fixed distance $R$ from the joint, which means that most of $\mathbb{R}^{3}$ is now inaccessible to it. The coordinates of the point mass are still $\mathbf{r}=(x,y,z)$, but the configuration space is much smaller: it is the circumference of radius $R$ centered at the joint, a two dimensional space. Notice that one constraint reduced the dimension of $Q$ by one: this is the value of constraints. They can delete variables from a problem, making it considerably easier to solve. In this case, despite being in 3D, we only need two variables to solve the system. The coordinates that are necessary to define $Q$ are called **free coordinates**, whereas any remaining ones are **constrained** or **cyclical coordinates**. The number of free coordinates is called the [[degrees of freedom]] of the system and is also the dimension of $Q$. Free coordinates can then be converted to generalized coordinates through a [[coordinate transformation]].

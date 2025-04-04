@@ -83,31 +83,29 @@ $$V(q,\dot{q})=e\phi-e \dot{\mathbf{q}}\cdot \mathbf{A}$$
 > which is a [[Lagrange equation]] of the form $m \ddot{q}=\mathbf{F}$.
 > 
 > If $\mathbf{B}=0$, then $\nabla\times \mathbf{A}=0$ and $\mathbf{E}=-\nabla \phi$. Since the vector potential is now irrotational, it can also be expressed by a potential, say $\chi$, as $\mathbf{A}=\nabla \chi$. (TODO: Finish this, end of lesson 26/03/2025; gauge transformation).
-
-If $\mathbf{B}$ is constant, then we want to find what kind of $\mathbf{A}$ leads to a constant $\nabla\times \mathbf{A}$. If $\mathbf{B}$ is entirely on the $z$ axis, we have
-$$\mathbf{B}=\begin{pmatrix}
-0 \\
-0 \\
-B
-\end{pmatrix},\qquad \mathbf{A}=\frac{1}{2}\begin{pmatrix}
--B_{y} \\
-B_{x} \\
-0
-\end{pmatrix}$$
-In fact, the curl of $\mathbf{A}$ is
-$$\nabla\times \mathbf{A}=\det\begin{pmatrix}
-\mathbf{e}_{1} & \partial_{x} & - \frac{B_{y}}{2} \\
-\mathbf{e}_{2} & \partial_{y} &  \frac{B_{x}}{2} \\
-\mathbf{e}_{3} & \partial_{z} & 0
-\end{pmatrix}=\left( \frac{B}{2}+ \frac{B}{2} \right)\mathbf{e}_{3}=\begin{pmatrix}
-0 \\
-0 \\
-B
-\end{pmatrix}$$
-The Lagrangian is
-$$L=\frac{m}{2}(\dot{x}^{2}+\dot{y}^{2}+\dot{z}^{2})+ \frac{e}{2}B(x \dot{y}-y \dot{x})=\frac{m}{2}(\dot{r}^{2}+r^{2}\dot{\varphi}^{2}+\zeta ^{2})+ \frac{e}{2}B^{2}r^{2}\dot{\varphi}$$
-where we also switched to [[cylindrical coordinates]].
-
-
+> 
+> If $\mathbf{B}$ is constant, then we want to find what kind of $\mathbf{A}$ leads to a constant $\nabla\times \mathbf{A}$. If $\mathbf{B}$ is entirely on the $z$ axis, we have
+> $$\mathbf{B}=\begin{pmatrix}
+> 0 \\
+> 0 \\
+> B
+> \end{pmatrix},\qquad \mathbf{A}=\frac{1}{2}\begin{pmatrix}
+> -B_{y} \\
+> B_{x} \\
+> 0
+> \end{pmatrix}$$
+> In fact, the curl of $\mathbf{A}$ is
+> $$\nabla\times \mathbf{A}=\det\begin{pmatrix}
+> \mathbf{e}_{1} & \partial_{x} & - \frac{B_{y}}{2} \\
+> \mathbf{e}_{2} & \partial_{y} &  \frac{B_{x}}{2} \\
+> \mathbf{e}_{3} & \partial_{z} & 0
+> \end{pmatrix}=\left( \frac{B}{2}+ \frac{B}{2} \right)\mathbf{e}_{3}=\begin{pmatrix}
+> 0 \\
+> 0 \\
+> B
+> \end{pmatrix}$$
+> The Lagrangian is
+> $$L=\frac{m}{2}(\dot{x}^{2}+\dot{y}^{2}+\dot{z}^{2})+ \frac{e}{2}B(x \dot{y}-y \dot{x})=\frac{m}{2}(\dot{r}^{2}+r^{2}\dot{\varphi}^{2}+\zeta ^{2})+ \frac{e}{2}B^{2}r^{2}\dot{\varphi}$$
+> where we also switched to [[cylindrical coordinates]].
 
 [^1]: For instance, for a centrifugal force we have $V(q)=- \frac{1}{2}m\omega ^{2}d^{2}(q)$. 

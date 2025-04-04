@@ -27,14 +27,14 @@ $$\frac{ \partial ^{2}\psi }{ \partial t^{2} }=\pm v\frac{ \partial  }{ \partial
 ### Harmonic waves
 An incredibly useful set of wavefunctions are the **harmonic waves**, or just **harmonics**. They are purely sinusoidal nondispersive waves:
 $$\psi(x,t)=A\sin(k(x\pm vt))$$
-for some constant $A>0$ representing the maximum amplitude of the wave and $k>0$, called the **[[wavenumber]]**, representing the spatial frequency of the wave (if you prefer, how many peaks there are per unit space at a fixed time). The true benefit of these waves isn't that they are common in nature (in fact, these are extremely theoretical objects), but that by way of a [[Serie di Fourier|Fourier series]], *any wave can be decomposed into a sum of harmonics*. Take literally any phenomenon you can describe as a wave and that phenomenon can be described as an infinite sum of harmonics. This works for truly anything: a complex quantum system is solved, at least in principle, in the same way as the waves of an ocean or a chord played of a piano.
+for some constant $A>0$ representing the maximum amplitude of the wave and $k>0$, called the **[[Wavenumber]]**, representing the spatial frequency of the wave (if you prefer, how many peaks there are per unit space at a fixed time). The true benefit of these waves isn't that they are common in nature (in fact, these are extremely theoretical objects), but that by way of a [[Serie di Fourier|Fourier series]], *any wave can be decomposed into a sum of harmonics*. Take literally any phenomenon you can describe as a wave and that phenomenon can be described as an infinite sum of harmonics. This works for truly anything: a complex quantum system is solved, at least in principle, in the same way as the waves of an ocean or a chord played of a piano.
 
 Common examples of ways harmonics may be written are
 $$\begin{align}
 &\psi(x,t)=A\sin(k(x\pm vt))&\psi(x,t)=A\sin\left( 2\pi\left( \frac{x}{\lambda}\pm \frac{t}{\tau} \right) \right) \\
 &\psi(x,t)=A\sin(2\pi(hx\pm \nu t))&\psi(x,t)=A\sin(kx\pm \omega t)
 \end{align}$$
-We've already seen the **(angular) wavenumber** $k$. $h$ is the **(ordinary) wavenumber**, $\nu$ is the **(ordinary) [[frequency]]** and $\omega$ is the **[[Frequency|angular frequency]]**, $\lambda$ is the **[[wavelength]]** of the wave, $\tau$ is the **[[period]]**. These are all interconnected and the choice of parameters is just a matter of convenience; the most typical is the last one, with $k$ and $\omega$. The formulas for these are
+We've already seen the **(angular) wavenumber** $k$. $h$ is the **(ordinary) wavenumber**, $\nu$ is the **(ordinary) [[Frequency]]** and $\omega$ is the **[[Frequency|angular frequency]]**, $\lambda$ is the **[[Wavelength]]** of the wave, $\tau$ is the **[[Period]]**. These are all interconnected and the choice of parameters is just a matter of convenience; the most typical is the last one, with $k$ and $\omega$. The formulas for these are
 $$\lambda=\frac{2\pi}{k},\quad h=\frac{k}{2\pi}=\frac{1}{\lambda},\quad \nu=\frac{1}{\tau}=\frac{\omega}{2\pi},\quad \omega=\frac{2\pi}{\tau}=2\pi \nu$$
 
 [^1]: This is assuming $\psi$ is a real-valued function. It if is complex-valued, as is the case for all quantum mechanical [[Funzione d'onda|wavefunctions]], then the square modulo $\lvert \psi \rvert^{2}$ is the amplitude.
