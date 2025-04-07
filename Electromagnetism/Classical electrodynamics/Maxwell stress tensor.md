@@ -47,16 +47,36 @@ $$\begin{align}
 \mathbf{f}&=\varepsilon_{0}\left[ (\nabla\cdot\mathbf{E})\mathbf{E}+(\mathbf{E}\cdot \nabla)\mathbf{E}- \frac{1}{2}\nabla(E^{2}) \right] \\
 &+\frac{1}{\mu_{0}}\left[(\nabla\cdot\mathbf{B})\mathbf{B}+(\mathbf{B}\cdot \nabla)\mathbf{B} -\frac{1}{2}\nabla(B^{2}) \right] \\
 &-\varepsilon_{0}\varepsilon_{0}\frac{ \partial \mathbf{S} }{ \partial t } 
-\end{align}$$
+\end{align}\tag{1}$$
 As foreshadowed, this is a very lengthy equation, with seven total terms. That said, as we had hoped, we can very easily spot a symmetry between the electric and magnetic fields: in fact, if it weren't for the constants $\varepsilon_{0}$ and $1/\mu_{0}$, the terms would be identical, just with $\mathbf{E}$ changed to $\mathbf{B}$. Physically speaking, this is not random chance, and mathematically it can be exploited to express the equation in a much simpler form. To do so, we introduce the **Maxwell stress tensor** $\mathrm{T}$, defined by its elements
 $$T_{ij}=\varepsilon_{0}\left( E_{i}E_{j}- \frac{1}{2}\delta_{ij}E^{2} \right)+ \frac{1}{\mu_{0}}\left( B_{i}B_{j}- \frac{1}{2}\delta_{ij}B^{2} \right)$$
 where $\delta_{ij}$ is the [[Kronecker delta]].
 #### Divergence
 As ti stands, it is unclear how $T_{ij}$ can help us in simplifying anything, much less $\mathbf{f}$. The reason why it is useful is hidden behind the [[divergence]] of $T$ as a whole. The divergence is usually only defined on [[Vector space|vectors]], but can be defined more broadly over tensors as a whole, as an operation that reduces the order of the tensor by one. Since vectors are first order tensors, their divergence is a zero order tensor, i.e. a [[scalar]]. The divergence of a second order tensor like $T$ therefore must be a first order tensor, i.e. a vector.
 
-Unfortunately, tensors are very complicated objects and calculating their divergence is everything but straightforward. What we can do is calculate the divergence for each axis $j$. In this context, the divergence is defined as
-$$(\nabla\cdot T)_{j}=\sum_{i=1}^{3} \nabla_{i}\left[ \varepsilon_{0}\left( E_{i}E_{j}- \frac{1}{2}\delta_{ij}E^{2} \right) + \frac{1}{\mu_{0}}\left( B_{i}B_{j}- \frac{1}{2}\delta_{ij}B^{2} \right)\right]$$
-where we are taking the [[gradient]] of each $ij$ component and then summing over all of them[^1]. (TODO: Finish this)
+Unfortunately, tensors are very complicated objects and calculating their divergence is everything but straightforward. What we can do is calculate the divergence for each axis $j$. In this context, the divergence over the $j$-th axis is given by $(\nabla\cdot T)_{j}=\sum_{i=1}^{3}\partial_{i}T_{ij}$, which means[^1]
+$$(\nabla\cdot T)_{j}=\sum_{i=1}^{3} \partial_{i}\left[ \varepsilon_{0}\left( E_{i}E_{j}- \frac{1}{2}\delta_{ij}E^{2} \right) + \frac{1}{\mu_{0}}\left( B_{i}B_{j}- \frac{1}{2}\delta_{ij}B^{2} \right)\right]$$
+The electric and magnetic components behave identically, so we'll just cover the electric part here. The first term yields
+$$\begin{align}
+\sum_{i=1}^{3} \partial_{i}(E_{i}E_{j})&=\sum_{i=1}^{3} [(\partial_{i}E_{i})E_{j}+E_{i}(\partial_{i}E_{j})] \\
+&=\left( \sum_{i=1}^{3} \partial_{i}E_{i} \right)E_{j}+\left( \sum_{i=1}^{3} E_{i}\partial_{i} \right)E_{j} \\
+&=(\nabla\cdot \mathbf{E})E_{j}+(\mathbf{E}\cdot \nabla)E_{j}
+\end{align}$$
+Recalling that $E^{2}=E^{2}_{x}+E^{2}_{y}+E^{2}_{z}=\sum_{i=1}^{3}E^{2}_{i}$, the second term goes like
+$$\sum_{i=1}^{3} \partial_{i}\left( - \frac{1}{2}\delta_{ij}E^{2} \right)=- \frac{1}{2} \partial_{j}E^{2}$$
+The usage of the partial derivative symbols $\partial_{i}$ works well so long we are in [[Cartesian coordinates]] (since we use the definition of divergence in those coordinates), but in other systems ([[Polar coordinates|polar]], [[Cylindrical coordinates|cylindrical]], etc.), we can't rely on them since axes can move. To generalize the result to curvilinear coordinates, it is common to use the nabla symbol $\nabla _i$ instead[^2]. In Cartesian coordinates, $\nabla_{i}=\partial_{i}$, but this not true elsewhere. Still, the result we got is correct either way.
+
+Knowing this, the divergence finally is
+$$\begin{align}
+(\nabla\cdot T)_{j}&=\varepsilon_{0}\left[ (\nabla\cdot \mathbf{E})E_{j}+(\mathbf{E}\cdot \nabla)E_{j}- \frac{1}{2}\nabla_{j}E^{2} \right] \\
+&+ \frac{1}{\mu_{0}}\left[ (\nabla\cdot \mathbf{B})B_{j}+(\mathbf{B}\cdot \nabla)B_{j}- \frac{1}{2}\nabla_{j}B^{2} \right]
+\end{align}$$
+Quite conveniently then, if we combine the three $j$ components into a vector $\nabla\cdot T$ we get precisely the first two lines of $(1)$. Armed with this knowledge, we can state the Lorentz force by area is
+$$\boxed{\mathbf{f}=\nabla\cdot T-\varepsilon_{0} \mu_{0} \frac{ \partial \mathbf{S} }{ \partial t } }$$
+Integration over a volume and usage of the [[divergence theorem]] gives us the force itself:
+$$\boxed{\mathbf{F}=\oint_{\mathcal{S}}T\cdot d\mathbf{a}-\varepsilon_{0}\mu_{0}\frac{d}{dt} \int_{\mathcal{V}}\mathbf{S}\ d\tau}$$
+If we are in static conditions, the time derivative cancels and we are left with
+$$\mathbf{F}=\oint_{\mathcal{S}}T\cdot d\mathbf{a}$$
 ### Examples
 The stress tensor is primarily used to determine forces acting on charges.
 
@@ -96,4 +116,6 @@ The stress tensor is primarily used to determine forces acting on charges.
 > &=- \frac{q^{2}}{4\pi \varepsilon_{0}} \frac{1}{(2a)^{2}}
 > \end{align}$$
 
-[^1]: This is not using Einstein notation. If it did, the sum $\sum_{i=1}^{3}$ would be implicit, relying on the fact that the index $i$ appears on both $\nabla_{i}$ and the terms inside the square brackets.
+[^1]: A couple of notes. Firstly, we are using the definition of divergence in Cartesian coordinates because it's easier and equivalent to other coordinates. Secondly, this is not using Einstein notation. If it did, the sum $\sum_{i=1}^{3}$ would be implicit, relying on the fact that the index $i$ appears on both $\nabla_{i}$ and the terms inside the square brackets.
+
+[^2]: Actually, this also sets up the formula to be used in the **covariant formulation of electromagnetism**, a more advanced way of writing the Maxwell equations that also works in special and general relativity with curved [[Spaziotempo|spacetime]]. This is because $\nabla_{i}$ represent the more complicated [[covariant derivative|covariant derivatives]] in those contexts. Of course, none of this is significant outside of relativity, where $\nabla_{i}=\partial_{i}$.

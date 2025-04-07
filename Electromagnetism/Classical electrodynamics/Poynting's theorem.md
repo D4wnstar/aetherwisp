@@ -1,13 +1,15 @@
-**Poynting's theorem** is a result expressing conservation of [[energy]] in electrodynamics. It states that in a given volume $V$, the stored electromagnetic energy $U$ changes at a [[power|rate]] $P$ given by the [[work]] done on the [[electric charge|charges]] within the volume, minus the rate at which energy leaves the volume. In integral form it reads
+**Poynting's theorem** is a result expressing conservation of [[energy]] in electrodynamics. It states that in a given volume $V$, the stored electromagnetic energy $U$ changes at a [[power|rate]] $P$ given by the [[work]] done on the [[electric charge|charges]] within the volume, minus the rate at which energy leaves the volume. It is equivalent in nature to the mechanical [[work-energy theorem]] and binds *stored* energy to *transported* energy as a consequence of energy conservation: if something goes out, it must be removed from what's inside. In integral form it reads
 $$P=\frac{ \partial U }{ \partial t } =-\frac{ \partial  }{ \partial t } \int_{V}u(\mathbf{r})\ d\tau-\oint_{S}\mathbf{S}\cdot d\mathbf{a}$$
 where $u(\mathbf{r})$ is the electromagnetic energy density, $S$ is the bounding [[Surface|surface]] of $V$ and $\mathbf{S}$ is the [[Poynting vector]]. It is closely related to the continuity equation for [[electric current]] $\nabla\cdot\mathbf{J}=-\frac{ \partial \rho }{ \partial t }$.
+
+These two integrals can be interpreted individually, as the first is the *stored* energy[^1] and the second is the *transfer* of energy from inside the volume $\mathcal{V}$ to outside, as determined by checking what goes through the boundary $\mathcal{S}$.
 
 Knowing that $P=\int_{V}\mathbf{E}\cdot \mathbf{J}\ dV$, using the [[Divergence theorem|divergence theorem]] and reordering the terms in a more significant order, we can also rewrite the statement in differential form as
 $$-\frac{ \partial u(\mathbf{r}) }{ \partial t }=\mathbf{E}\cdot \mathbf{J} -\nabla\cdot\mathbf{S}$$
 ### Derivation
 We can express work through the electric current density. Starting from the work done by the Lorentz force $dW=q\mathbf{E}\cdot d\mathbf{s}$ over a line element $d\mathbf{s}$, if we take an infinitesimal volume $dV$, the charge inside is $dq=\rho dV$. If it moves at a velocity $\mathbf{v}$, the work over a time $dt$ is
 $$dq\mathbf{E}\cdot \mathbf{v}dt=\rho dV\ \mathbf{E}\cdot \mathbf{v}dt=\mathbf{E}\cdot \rho \mathbf{v}\ dVdt=\mathbf{E}\cdot \mathbf{J}\ dVdt=d^{2}W$$
-(the square on the work [[differential]] is because there are two infinitesimals now, and as such it is a second-order differential). If we "divide" by $dt$[^1] and integrate over the volume we get the power
+(the square on the work [[differential]] is because there are two infinitesimals now, and as such it is a second-order differential). If we "divide" by $dt$[^2] and integrate over the volume we get the power
 $$P=\frac{dW}{dt}=\int_{V}\mathbf{E}\cdot \mathbf{J}\ dV$$
 We can elaborate on $\mathbf{E}\cdot \mathbf{J}$:
 $$\begin{align}
@@ -26,4 +28,6 @@ $$P=-\frac{ \partial  }{ \partial t } \int_{V}u\ d\tau-\int_{V}\nabla\cdot\mathb
 where we used the [[Divergence theorem|divergence theorem]]. This final expression in commonly known as **Poynting's theorem**:
 $$\boxed{P=-\frac{ \partial  }{ \partial t } \int_{V}u(\mathbf{r})\ d\tau-\oint_{S}\mathbf{S}\cdot d\mathbf{a}}$$
 
-[^1]: Please do not say this in front of a mathematician if you value your life.
+[^1]: *Where* the energy is stored is a whole other problem. Electrodynamics alone does not give a really satisfactory answer and you could realistically place it anywhere, be it in fields, matter or charges, but since field theory relies on this, it is best to think of it as being stored in the fields.
+
+[^2]: Please do not say this in front of a mathematician if you value your life.

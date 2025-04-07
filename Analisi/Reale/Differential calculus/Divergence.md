@@ -3,7 +3,8 @@ The **divergence** $\nabla\cdot\mathbf{F}$ of a [[Differential|differentiable]] 
 It is linked to the flux by the [[Divergence theorem|divergence theorem]].
 
 In [[Cartesian coordinates]], the divergence can be written as
-$$\nabla\cdot\mathbf{F}=\left( \frac{ \partial  }{ \partial x } +\frac{ \partial  }{ \partial y } + \frac{ \partial  }{ \partial z }  \right)\cdot(F_{x},F_{y},F_{z})=\frac{ \partial F_{x} }{ \partial x } +\frac{ \partial F_{y} }{ \partial y } +\frac{ \partial F_{z} }{ \partial z } $$
+$$\nabla\cdot\mathbf{F}=\left( \frac{ \partial  }{ \partial x } +\frac{ \partial  }{ \partial y } + \frac{ \partial  }{ \partial z }  \right)\cdot(F_{x},F_{y},F_{z})=\frac{ \partial F_{x} }{ \partial x } +\frac{ \partial F_{y} }{ \partial y } +\frac{ \partial F_{z} }{ \partial z }=\sum_{i=1}^{3} \frac{ \partial  F_{i} }{ \partial i }$$
+where $i=x,y,z$ denotes the axis in the last expression.
 ### Useful results
 Given a generic position vector $\mathbf{r}=r \hat{\mathbf{r}}$, the following useful results hold:
 $$\nabla\cdot\mathbf{r}=3,\quad \nabla\cdot\left( \frac{\mathbf{r}}{r} \right)=\frac{2}{r},\quad \nabla\cdot\left( \frac{\mathbf{r}}{r^{2}} \right)=\frac{1}{r^{2}},\quad \nabla\cdot\left( \frac{\mathbf{r}}{r^{3}} \right)=4\pi \delta^{3}(\mathbf{r}),\quad \nabla\cdot\left( \frac{\mathbf{r}}{r^{4}} \right)=- \frac{1}{r^{4}}$$
