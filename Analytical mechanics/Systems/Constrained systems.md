@@ -75,6 +75,74 @@ Everything we've said up until now is in reference to a single point mass. What 
 
 The coordinates of the points are $\mathbf{r}_{1},\ldots,\mathbf{r}_{N}$, for a total of $3N$ unconstrained degrees of freedom (we're assuming the particles are in $\mathbb{R}^{3}$ here, i.e. the "real world"). Given $r$ constraints, the constrained degrees of freedom are $n=3N-r$. Our system is then solved by only $n$ equations, not $3N$. Our goal is to find a parameterization (i.e. a coordinate transformation) such that we can solve the $n$ constrained equations and then convert them to the full $3N$ unconstrained coordinates.
 
+> [!example] Circular constraint
+> We'll start with a simple example with just two point masses, $P_{1}$ and $P_{2}$. $P_{1}$ is constrained to a circumference of radius $R$ on the $xy$ plane and $P_{2}$ is constrained to $P_{1}$ by a rigid rod of length $L$ so that when $P_{1}$ moves, $P_{2}$ gets dragged along with it. The rod is attached to $P_{1}$ in such a way that's free to swivel, so while the length of the rod is constant, its direction is not.
+> ![[Plot Two bound point masses]]
+> We have six coordinates here to solve, $(x_{1},y_{1},z_{1},x_{2},y_{2},z_{2})$. So what are our constraints? Well, we know $P_{1}$ is stuck on the $xy$ plane, so $f^{(1)}:z_{1}=0$ and $f^{(2)}:x_{1}^{2}+y_{1}^{2}-R^{2}=0$ everywhere. Similarly, since $P_{1}$ and $P_{2}$ are joint, their coordinates are bound by $f^{(3)}:(x_{1}-x_{2})^{2}+(y_{1}-y_{2})^{2}+(z_{1}-z_{2})^{2}-L^{2}=0$. We have three (holonomic) constraints then, which means that we only need to solve for $n=3N-r=6-3=3$ free coordinates.
+> 
+> We can check if the constraints are really independent from each other by looking for the gradients of the constraints:
+> $$\nabla f^{(1)}=\begin{pmatrix}
+> 2x_{1} \\
+> 2y_{1} \\
+> 0 \\
+> 0 \\
+> 0 \\
+> 0
+> \end{pmatrix}\qquad \nabla f^{(2)}=\begin{pmatrix}
+> 0 \\
+> 0 \\
+> 1 \\
+> 0 \\
+ 0 \\
+> 0
+> \end{pmatrix}\qquad \nabla f^{(3)}=\begin{pmatrix}
+> 2(x_{1}-x_{2}) \\
+> 2(y_{1}-y_{2}) \\
+> 2(z_{1}-z_{2}) \\
+> 2(x_{2}-x_{1}) \\
+> 2(y_{2}-y_{1}) \\
+> 2(z_{2}-z_{1})
+> \end{pmatrix}$$
+> These are [[Linear independence|linearly independent]], which confirms that these are three distinct constraints. Now that we know for fact that we only need $n=3$ free coordinates, we attempt to look for a valid parameterization. The logic here is that we only need to know the angle of $P_{1}$ on its circumference to know where it is (the radius is constant so angle is sufficient), and then we can use the remaining two to locate $P_{2}$. $P_{2}$ is shifted from $P_{1}$ and since we are in three dimensions, we need three coordinates to determine this shift. Luckily we already know one, $L$, and the conveniently have two free coordinates that we can assign the other two. What we make these coordinates represent is a bit arbitrary so long it works, but since we're already using angles for $P_{1}$, we may as well use angles for $P_{2}$. In fact, since the length of the rod is constant, $P_{2}$ always lies on a sphere of radius $L$ centered on $P_{1}$. We can therefore use the angular part of [[spherical coordinates]] to uniquely identify the location of $P_{2}$, if we know $P_{1}$. We now have our three coordinates $q_{1},q_{2},q_{3}$, which are shown in the figure below:
+> ![[Plot Two bound point masses 2]]
+> Armed with this knowledge, we want to convert this geometric reasoning into formulas. Fortunately, it's just a matter of using [[polar coordinates]] for $P_{1}$ and summing spherical coordinates on top of them for $P_{2}$:
+> $$\begin{align}
+> x_{1}&=R\cos q_{1} \\
+> y_{1}&=R\sin q_{1} \\
+> z_{1}&=0 \\
+> x_{2}&=R\cos q_{1}+L\sin q_{2}\cos q_{3} \\
+> y_{2}&=R\sin q_{1}+L\sin q_{2}\sin q_{3} \\
+> z_{2}&=l\cos q_{2}
+> \end{align}$$
+> That's it. We reduced a six variable problem into a three variable one by using three separate constraints. We have developed a coordinate transformation from $(q_{1},q_{2},q_{3})$ to $(x_{1},y_{1},z_{1},x_{2},y_{2},z_{2})$. Now it's "just" a matter of solving motion for $q_{1},q_{2},q_{3}$ and the plug in the transformation. That's not to say that it's necessarily *easy*, but it's certainly *easier*.
+> 
+> One last thing we can do is figure out the velocity, although for $\mathbf{w}=(q_{1},q_{2},q_{3})$. Mind you, this velocity is not in "real space", it is in configuration space. The components are the partial derivatives in each coordinate:
+> $$\frac{ \partial \mathbf{w} }{ \partial q_{1} } =\begin{pmatrix}
+> -R\sin q_{1} \\
+> R\cos q_{1} \\
+> 0 \\
+> -R\sin q_{1} \\
+> R\cos q_{1} \\
+> 0
+> \end{pmatrix}\qquad \frac{ \partial \mathbf{w} }{ \partial q_{2} } =\begin{pmatrix}
+> 0 \\
+> 0 \\
+> 0 \\
+> L\cos q_{2}\cos q_{3} \\
+> L\cos q_{2}\sin q_{3} \\
+> -L\sin q_{2}
+> \end{pmatrix}\qquad \frac{ \partial \mathbf{w} }{ \partial q_{3} } =\begin{pmatrix}
+> 0 \\
+> 0 \\
+> 0 \\
+> -L\sin q_{2}\sin q_{3} \\
+> L\sin q_{2}\cos q_{3} \\
+> 0
+> \end{pmatrix}$$
+> 
+> The trajectories of $P_{1}$ and $P_{2}$ now are fully determined as functions of the constrained coordinates: $\mathbf{r}_{1}(q_{1}(t),q_{2}(t),q_{3}(t))$ and $\mathbf{r}_{2}(q_{1}(t),q_{2}(t),q_{3}(t))$. The real velocities are then the time [[Differential|total derivatives]] of these: $\mathbf{v}_{1}(t)=\dot{\mathbf{r}}_{1}(t)=\frac{d}{dt}\mathbf{r}_{1}(q_{1}(t),q_{2}(t),q_{3}(t))$ and $\mathbf{v}_{2}(t)=\dot{\mathbf{r}}_{2}(t)=\frac{d}{dt}\mathbf{r}_{2}(q_{1}(t),q_{2}(t),q_{3}(t))$. The [[stato|state]] of the system is fully determined by $\mathbf{r}_{1}$, $\mathbf{r}_{2}$, $\mathbf{v}_{1}$ and $\mathbf{v}_{2}$.
+
+
 [^1]: Or rows, although columns are much more meaningful here.
 
 [^2]: Of course, this is literally just the definition of an $n$-dimensional vector space and basis. The difference is a bit more refined, in that differentiable manifolds behave like vector spaces only *locally*, not *globally*.

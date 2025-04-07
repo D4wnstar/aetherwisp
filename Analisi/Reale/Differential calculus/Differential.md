@@ -1,12 +1,13 @@
 ---
 aliases:
   - differentiable
+  - total derivative
 ---
 Given a function $f:A\subset \mathbb{R}^{N}\to \mathbb{R}^{M}$ where $A$ is an open subset, and a point $x_{0}\in A$, the function is said to be **differentiable** in $x_{0}$ if there exist a [[linear map]][^1] $Df(x_{0}):\mathbb{R}^{N}\to \mathbb{R}^{M}$, called the **differential**, such that
 $$\lim\limits_{h \to 0} \frac{f(x_{0}+h) - f(x_{0})-Df(h)}{\lVert h \rVert } = 0\in\mathbb{R}^M$$
 where $h\in V$. The differential is
 $$Df(x_{0})[v]\equiv \lim_{ h \to 0 } \frac{f(x_{0}-hv)-f(x_{0})}{\lVert h \rVert },\qquad v\in \mathbb{R}^{N}$$
-and represents a generalized form of the idea of "rate of change" that the normal derivative represents. This rate of change is evaluated in a certain point $x_{0}$ in space and in the direction given by $v$.
+and represents a generalized form of the idea of "rate of change" that the normal derivative represents. This rate of change is evaluated in a certain point $x_{0}$ in space and in the direction given by $v$. The differential is also called **total derivative**, especially for real-valued functions.
 
 When evaluated on a [[basis]] vector $e_{i}$ in a [[vector space]] $V$, the differential becomes a [[partial derivative]] over that coordinate:
 $$Df(x_{0})[e_{i}]=\frac{ \partial f }{ \partial x_{i} } (x_{0})$$
@@ -16,7 +17,7 @@ $$df(x_{0})[e_{i}]=\frac{ \partial f }{ \partial x_{i} } (x_{0})$$
 
 If we specifically take the functions $x_{1},\ldots,x_{n}:\mathbb{R}^{N}\to \mathbb{R}$ that extract the $i$-th component of a vector $v=(v_{1},\ldots,v_{n})\in V$, so that $x_{i}(v)=v_{i}$, the differentials of these functions $\{ dx_{i} \}_{i=1,\ldots,N}$ make a [[Dual vector space|dual basis]] of $\{ e_{i} \}_{i=1,\ldots,N}$. $df(x)$ can be expressed in this basis as
 $$df(x_{0})=\sum_{i=1}^{N} \frac{ \partial f }{ \partial x_{i} } (x_{0})dx_{i}$$
-In this form, it is also known as the **[[exact differential]]**. It is related to the [[gradient]] by
+It is related to the [[gradient]] by
 $$\begin{align}
 df(x_{0})[v]&=\sum_{i=1}^{N} \frac{ \partial f }{ \partial x_{i} } (x_{0})dx_{i}\ v=\sum_{i=1}^{N} \frac{ \partial f }{ \partial x_{i} } (x_{0})dx_{i}\sum_{j=1}^{N} v_{i}e_{i}=\sum_{i=1}^{N} \frac{ \partial f }{ \partial x_{i} } \sum_{j=1}^{N} v_{j}\underbrace{ dx_{i}[e_{j}] }_{ \delta_{ij} }= \\
 &=\sum_{i=1}^{N} \frac{ \partial f }{ \partial x_{i} } v_{i}=\nabla f\cdot v

@@ -6,7 +6,8 @@ $m$ is [[mass]], $\mathbf{a}$ is acceleration, $\mathbf{F}$ is an **active force
 ### Properties
 A constraint is said to be **ideal** if the configuration space is "smooth", that is, if the constraint reaction in any point $P$ is always [[Orthogonality|orthogonal]] to $Q$. Mathematically, this is like saying that the [[scalar product]] of $\Phi$ and any tangent element $\delta \mathbf{r}$ is always zero:
 $$\Phi\cdot \delta\mathbf{r}=0\quad\forall P\in \mathbb{R}^{n}\text{ and }\forall \delta \mathbf{r}\in T_{P}Q\quad\Leftrightarrow\quad \Phi\cdot \frac{ \partial \mathbf{r} }{ \partial q_{i} } \text{ where }i=1\ldots,n$$
-where $T_{P}Q$ is the [[tangent space]] of $Q$ in the point $P$.
+where $T_{P}Q$ is the [[tangent space]] of $Q$ in the point $P$. If the constraint applies to $N$ point masses, only the total reaction needs to be orthogonal:
+$$\sum_{i=1}^{N} \Phi\cdot d\mathbf{r}_{i}=0\quad \forall \delta \mathbf{r}_{i}\in T_{P}Q$$
 
 A constraint is said to be **scleronomous** (or **mobile**) if it changes in time, otherwise it is **rheonomous** (or **fixed**). In other words, the equation of a scleronomous constraint is explicitly dependent on time, whereas a rheonomous one isn't. An example of scleronomous constraint would be an object attached to an elevator: the object is always attached but the elevator, and thus the constraint, moves, pulling the object with it.
 
