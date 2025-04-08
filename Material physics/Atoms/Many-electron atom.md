@@ -1,4 +1,4 @@
-The **many-electron atom** is a [[physical system]] modeling an [[atom]] with an arbitrary number of [[elettrone|electrons]] around and arbitrary [[Nucleo atomico|nucleus]]. It is an extension of the [[two electron atom]] and the [[hydrogen atom]]. The [[Hamiltonian]] of the system is
+The **many-electron atom** is a [[physical system]] modeling an [[atom]] with an arbitrary number of [[elettrone|electrons]] around and arbitrary [[Nucleo atomico|nucleus]]. It is an extension of the [[Two electron atom]] and the [[Hydrogen atom]]. The [[Hamiltonian]] of the system is
 $$H=\sum_{i=1}^{N}\left[  - \frac{\hbar^{2}}{2m}\nabla ^{2}_{\mathbf{r}_{i}}- \frac{Ze^{2}}{4\pi \varepsilon_{0}r_{i}} \right]+\sum_{i>j} \frac{e^{2}}{4\pi \varepsilon_{0}r_{ij}} $$
 where the sum over $i>j$ is indexed that way to avoid double-counting [[interazione elettromagnetica|electromagnetic interactions]] between electrons.
 ### Central field approximation
@@ -35,3 +35,5 @@ u_{\alpha}(q_{2}) & u_{\beta}(q_{2}) & \ldots & u_{v}(q_{2}) \\
 \vdots \\
 u_{\alpha}(q_{N}) & u_{\beta}(q_{N}) & \ldots & u_{v}(q_{N})
 \end{vmatrix}$$
+#### Thomas-Fermi model
+The Thomas-Fermi model of the many-electron atom uses a [[Fermi gas]] to represent the system in the context of a central potential. It is a relatively simple model, but does not provide particularly good results.
