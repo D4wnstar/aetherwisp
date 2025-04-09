@@ -21,7 +21,7 @@ Now, it would be great if there were a universal solution to this approximation.
 $$\text{The partial solution of }\boldsymbol{\xi}(t)\text{ is }\rho(t)\mathbf{u}\text{ where }\mathbf{u}\in \mathbb{R}^{N}$$
 (???)
 $$\dot{\rho}\mathbf{u}=\rho(\mathrm{A}\mathbf{u})\quad\Rightarrow \quad \mathbf{u}\text{ is a solution if }\exists \alpha |\mathrm{A}\mathbf{u}=\alpha \mathbf{u}$$
-Basically, we want to [[diagonalization|diagonalize]] $\mathrm{A}$ and find the [[Equazione agli autovalori|eigenvalues]]. In this case, we get
+Basically, we want to [[Diagonalization|diagonalize]] $\mathrm{A}$ and find the [[Equazione agli autovalori|eigenvalues]]. In this case, we get
 $$\dot{\rho}\mathbf{u}=\rho(\mathrm{A}\mathbf{u})=\rho \alpha \mathbf{u}\quad\to \quad \dot{\rho}=\alpha \rho \quad\to \quad \rho (t)=Ce^{\alpha t}$$
 $\rho(t)\mathbf{u}$ is a solution when $\mathbf{u}$ is an eigenvector of $\mathrm{A}$ and when $\rho(t)=Ce^{\alpha t}$, where $\alpha$ is the eigenvalue of $\mathrm{A}$ for $\mathbf{u}$.
 ### Examples

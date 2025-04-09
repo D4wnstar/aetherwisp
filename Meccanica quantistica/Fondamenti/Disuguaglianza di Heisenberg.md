@@ -106,5 +106,5 @@ Questo risultato resiste anche al caso limite di uno stato stazionario, dove l'e
 
 Questa trattazione dell'indeterminazione tempo-energia è detta **formulazione di Mandelstam-Tamm**.
 
-[^1]: L'equivalente finito-dimensionale di questa affermazione è che due [[Matrice hermitiana|matrici autoaggiunte]] che non commutano fra loro ($\mathbf{A}\mathbf{B}\neq \mathbf{B}\mathbf{A}$) non possono essere [[diagonalizzazione|diagonalizzate]] simultaneamente dalla stessa trasformazione simile.
+[^1]: L'equivalente finito-dimensionale di questa affermazione è che due [[Matrice hermitiana|matrici autoaggiunte]] che non commutano fra loro ($\mathbf{A}\mathbf{B}\neq \mathbf{B}\mathbf{A}$) non possono essere [[Diagonalization|diagonalizzate]] simultaneamente dalla stessa trasformazione simile.
 [^2]: Gli operatori che hanno una dipendenza esplicita dal tempo sono piuttosto rari. Un esempio sarebbe un oscillatore armonico la cui costante elastica dipende dal tempo, per qualche ragione.

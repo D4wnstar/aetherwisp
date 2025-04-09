@@ -4,7 +4,7 @@ where $\hat{H}$ is the [[Hamiltonian]] of the [[Physical system|system]] and $\b
 ### Partition function
 The [[partition function]] is
 $$Q_{N}=\text{Tr}(\hat{\rho})=\sum_{n}e^{-\beta E_{n}}$$
-The sum notation holds only if we represent $\hat{\rho}$ in the energy eigenstate [[base|basis]], which is generally a bad choice as it's almost never possible to [[diagonalizzazione|diagonalize]] $\hat{H}$. It is possible in an [[ideal gas]], however.
+The sum notation holds only if we represent $\hat{\rho}$ in the energy eigenstate [[base|basis]], which is generally a bad choice as it's almost never possible to [[Diagonalization|diagonalize]] $\hat{H}$. It is possible in an [[ideal gas]], however.
 
 All properties derived from the partition function have identical expressions to the classical canonical.
 ### Internal energy

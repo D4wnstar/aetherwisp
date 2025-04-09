@@ -5,9 +5,14 @@ aliases:
 ---
 The **generalized coordinates** of a [[Physical system|system]] are a set of variables that describe the position of the system. A specific set of values of these coordinates is called a **configuration**. In mechanical systems, a configuration is easily interpreted as the literal position in space, but as the name suggests, these coordinates are more general. Instead, they represent position in the space of possible positions, known as the [[configuration space]].
 
-Generalized coordinates are denoted with $\mathbf{q}=(q_{1},\ldots,q_{N})$. Their time derivatives, $\dot{\mathbf{q}}=(\dot{q}_{1},\ldots,\dot{q}_{N})$, are known as **generalized velocities**. The expression is
-$$\dot{\mathbf{q}}=\sum_{i=1}^{N} \frac{ \partial \mathbf{q} }{ \partial q_{i} } (q_{1}(t),\ldots,q_{N}(t))\dot{q}_{i}(t)$$
+Generalized coordinates are denoted with $\mathbf{q}\equiv(q_{1},\ldots,q_{N})$. Their time derivatives, $\dot{\mathbf{q}}\equiv(\dot{q}_{1},\ldots,\dot{q}_{N})$, are known as **generalized velocities**. They are simply the [[Differential|total derivative]] in time of the coordinates:
+$$\dot{\mathbf{q}}=\frac{d\mathbf{q}}{dt}=\sum_{i=1}^{N} \frac{ \partial \mathbf{q} }{ \partial q_{i} } (q_{1}(t),\ldots,q_{N}(t))\ \dot{q}_{i}(t)$$
+Notably, the velocity $\dot{\mathbf{q}}$ may also explicitly depend on time like $\dot{\mathbf{q}}(q_{1}(t),\ldots,q_{N}(t),t)$ as opposed to only implicitly like $\dot{\mathbf{q}}(q_{1}(t),\ldots,q_{N}(t))$. In such as case, an additional time derivative $\partial \mathbf{q}/ \partial t$ appears on top of the sum above.
+
 If a [[Lagrangian]] or [[Hamiltonian]] is given, it is also possible to defined the [[Linear momentum|linear momenta]] of these coordinates, which are known as [[conjugate momenta]].
+
+> [!question] A note on notation
+> The notations $(q_{1},\ldots,q_{N})$ and especially $(q_{1},\ldots,q_{N},\dot{q}_{1},\ldots,\dot{q}_{N})$ are ubiquitous in analytical mechanics, but are also quite lengthy and verbose. Since they'll come up very often throughout these notes, it pays to have a shorthand notation for these. Namely, the coordinates will be packaged in the vector $\mathbf{q}=(q_{1},\ldots,q_{N})$ and the velocities in the vector $\dot{\mathbf{q}}=(\dot{q}_{1},\ldots,\dot{q}_{N})$. Together, they'll often show up as $(\mathbf{q},\dot{\mathbf{q}})$. In some cases, the vector bold font may also be omitted inside of function arguments. For instance, $f(q,\dot{q})\equiv f(q_{1},\ldots,q_{N},\dot{q}_{1},\ldots,\dot{q}_{N})$.
 
 It is perhaps more fruitful to explain by example. Consider a singular [[free particle]]. Its coordinates in three dimensions are described by the vector $\mathbf{r}=(x,y,z)$. In this simple case, these coordinates *are* the generalized coordinates. Since there are no [[Constraint|constraints]], the configuration space, which we'll call $Q$, is $Q=\mathbb{R}^{3}$. Say now we have two free particles. The positions of the particles are $\mathbf{r}_{1}=(x_{1},y_{1},z_{1})$ and $\mathbf{r}_{2}=(x_{2},y_{2},z_{2})$, but the *generalized* coordinates are $\mathbf{q}=(x_{1},x_{2},y_{1},y_{2},z_{1},z_{2})$. This is because the generalized coordinates described the system as a whole. The configuration space is now $Q=\mathbb{R}^{6}$.
 

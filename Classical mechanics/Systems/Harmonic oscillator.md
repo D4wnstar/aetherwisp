@@ -28,7 +28,7 @@ which we can approximate by truncating all terms of third order and higher, whic
 $$V(x)\simeq \frac{1}{2}V''(x_{0})(x-x_{0})^{2}$$
 which has the same form as $(1)$. $V''(x_{0})>0$ because $x_{0}$ is a minimum by construction. This means that, for small oscillations, every oscillatory motion can be treated as if it were a harmonic oscillator.
 ### Oscillator chains
-A system made of a chain of harmonic oscillators can be solved analytically by using the fact that all quadratic forms can [[diagonalizzazione|diagonalized]]. These are commonly employed in atomic and solid state physics, especially in the study of crystals or as approximate models to more complicated states.
+A system made of a chain of harmonic oscillators can be solved analytically by using the fact that all quadratic forms can [[Diagonalization|diagonalized]]. These are commonly employed in atomic and solid state physics, especially in the study of crystals or as approximate models to more complicated states.
 #### Phonons
 The simplest case is that of a 1D crystal. Consider a series of $N$ particles (likely [[Atomo|atoms]]) on a one dimensional line, each equally spaced by a distance $a$. We define the position vector $\mathbf{n}=n\mathbf{a}$, where $n=0,1,2\ldots,N$ is the label of each atom. Each point is subject to oscillations. If we call $\xi_{\mathbf{n}}$ the distance from the [[equilibrium point]] for the particle in $\mathbf{n}$, we can write the total [[kinetic energy]] as
 $$K=\frac{m}{2}\sum_{\mathbf{n}}\dot{\xi}_{\mathbf{n}}^{2}$$

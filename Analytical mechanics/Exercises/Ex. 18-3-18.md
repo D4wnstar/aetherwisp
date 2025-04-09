@@ -60,7 +60,7 @@ The second derivative is always positive, so there is a global minimum, and that
 $$\frac{P_{\theta}^{2}}{mr^{3}_{\star}}=Mg\quad\to \quad r_{\star}^{3}=\frac{P_{\theta}^{2}}{mMg}\quad\to \quad r_{\star}=\left( \frac{P_{\theta}^{2}}{mMg} \right)^{1/3}$$
 This is an [[equilibrium point]] for the *effective Lagrangian* (but not for the complete one!). We'll now study some small oscillations around this point, and to do so we'll try to change the Lagrangian until it is in the form of a [[harmonic oscillator]]. The linearized Lagrangian must be of some form
 $$\mathcal{L}_\text{lin}=\frac{1}{2}A \dot{r}^{2}-B(r-r_{\star})^{2}$$
-$A$ and $B$ would normally be matrices, but since we only have one degree of freedom, they are $1\times1$, so just [[scalar|scalars]]. We'll want to [[diagonalization|diagonalize]] the motion "matrices" by solving
+$A$ and $B$ would normally be matrices, but since we only have one degree of freedom, they are $1\times1$, so just [[scalar|scalars]]. We'll want to [[Diagonalization|diagonalize]] the motion "matrices" by solving
 $$\det(B-\lambda A)=0$$
 Again, since $A$ and $B$ are scalars, this is just
 $$B=\lambda A\quad\to \quad \lambda=\frac{B}{A}=???=\frac{V''(r_{\star})}{M+m}=\frac{3P^{2}_{\theta}}{mr_{\star}^{4}} \frac{1}{M+m}$$

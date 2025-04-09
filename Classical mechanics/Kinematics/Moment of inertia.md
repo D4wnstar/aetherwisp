@@ -56,7 +56,7 @@ $$\begin{align}
 ### Eigenvalues of the inertia tensor
 Being a matrix, it's possible to set up an [[Equazione agli autovalori|eigenvalue equation]] for $J$:
 $$J\vec{e}=\mu\vec{e}$$
-The eigenvalues $\mu$ are known as the **principal moments of inertia** and the eigenvectors $\vec{e}$ are knows as the **principal directions of inertia**. We can [[diagonalizzazione|diagonalize]] the matrix like so:
+The eigenvalues $\mu$ are known as the **principal moments of inertia** and the eigenvectors $\vec{e}$ are knows as the **principal directions of inertia**. We can [[Diagonalization|diagonalize]] the matrix like so:
 $$P=R^{T}JR$$
 where $P$ is the diagonal representation of $J$. As usual, its columns are the eigenvectors $\vec{e}$. Now, let's consider the moment of force is [[Body coordinates]]:
 $$\vec{M}=\frac{d\vec{L}}{dt}=\frac{D\vec{L}}{Dt}+\vec{w}\times\vec{L}=\frac{D(J\vec{w})}{Dt}+\vec{w}\times(J\vec{w})=J \frac{D\vec{w}}{Dt}+\vec{w}\times(J\vec{w})=$$
