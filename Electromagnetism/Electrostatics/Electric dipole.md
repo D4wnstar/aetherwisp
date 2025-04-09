@@ -77,6 +77,29 @@ Also, pay close attention to the directions: while the torque tells us the orien
 When the dipole rotates due to the torque, it does [[work]]. In the most extreme case (the dipole is perpendicular to the field), calling $\theta$ the angle between $\mathbf{E}$ and $\mathbf{p}$, it does work
 $$W=\int_{\pi}^{0}\tau(\mathbf{r})d\theta=\int_{\pi}^{0}\mathbf{p}\times \mathbf{E}(\mathbf{r})d\theta=pE\int_{\pi}^{0}\sin \theta d\theta=2pE$$
 The potential energy, of course, diminishes by the same amount to preserve conservation of energy.
+### Radiation
+Like all static configurations, a standing dipole does not emit [[electromagnetic radiation]]. However, it does make for a very convenient foundation to produce controlled and analytically solvable radiation. To do so, say now that the charges are time-dependent, $q(t)$ and $-q(t)$, and that we drive the charge back and forth between one end and the other (through, say, a fine wire). This exchange is periodic and has an [[Frequency|angular frequency]] $\omega$. Each charge simply changes according to:
+$$q(t)=q_{0}\cos \omega t$$
+The dipole moment then changes according to this
+$$\mathbf{p}(t)=p_{0}\cos (\omega t)\ \hat{\mathbf{z}}$$
+where $p_{0}\equiv q_{0}d$ is the maximum value of the moment (and we set the moment on the $\hat{\mathbf{z}}$ axis because we may as well). The retarded potential is
+$$V(\mathbf{r},t)=\frac{1}{4\pi \varepsilon_{0}}\left[ \frac{q_{0}\cos[\omega(t-\mathfrak{r}_{+}/c)]}{\mathfrak{r}_{+}} - \frac{q_{0}\cos[\omega(t-\mathfrak{r}_{-}/c)]}{\mathfrak{r}_{-}} \right]$$
+$\mathfrak{r}_{\pm}$ are defined as at the top of this article.
+
+It would make our life a lot easier if we could revert back to a perfect dipole. We can't just set $d=0$, as then there is no dipole and no potential, but we can approximate it to the first order if $d\ll r$ in the same way we did just below the definition. With this equation for $1/\mathfrak{r}_{\pm}$ we can say
+$$\begin{align}
+\cos[\omega(t-\mathfrak{r}_{\pm}/c)]&\simeq \cos\left[ \omega(t-r/c)\pm \frac{\omega d}{2c}\cos \theta \right] \\
+&=\cos[\omega(t-r/c)]\cos\left( \frac{\omega d}{2c}\cos \theta \right) \\
+&\mp \sin[\omega(t-r/c)]\sin\left( \frac{\omega d}{2c}\cos \theta \right) \\
+&=\ldots
+\end{align}$$
+This is... verbose. Thankfully, in the perfect dipole limit we have a second approximation to rely on: $d\ll c/\omega$. This is born off the fact that [[wave|waves]] of frequency $\omega$ have a [[wavelength]] $\lambda=2\pi c/\omega$, which amounts to $d\ll \lambda$. With this we can say
+$$\ldots\simeq[\omega(t-r/c)]\mp \frac{\omega d}{2c}\cos \theta \sin[\omega(t-r/c)]$$
+Using this cosine and the approximate $1/\mathfrak{r}_{\pm}$ we can claim our potential is approximately
+$$V(r,\theta,t)=\frac{p_{0}\cos\theta}{4\pi \varepsilon_{0}r}\left[ - \frac{\omega}{c}\sin\left[ \omega\left( t- \frac{r}{c} \right) \right] + \frac{1}{r}\cos\left[ \omega\left( t- \frac{r}{c} \right) \right] \right]$$
+This is correct and, in fact, if we send $\omega\to0$ (and thereby stop the oscillation), we go back to the usual static potential $(1)$. However, we are more interested in the fields that survive large distances from the source, in the so-called **radiation zone**, where $r\gg c/\omega$ or equivalently $r\gg \lambda$. Here, the potential reduces to a single term:
+$$\boxed{V(r,\theta,t)=- \frac{p_{0}\omega}{4\pi \varepsilon c}\left( \frac{\cos\theta}{r} \right)\sin\left[ \omega\left( t- \frac{r}{c} \right) \right]}$$
+
 
 [^1]: Proof: $\nabla(\mathbf{p}\cdot \mathbf{r})=\nabla(p_{x}x+p_{y}y+p_{z}z)=\left( p_{x}\frac{ \partial x }{ \partial x }+p_{y}\frac{ \partial y }{ \partial y }+p_{z}\frac{ \partial z }{ \partial z } \right)=(p_{x},p_{y},p_{z})=\mathbf{p}$.
 
