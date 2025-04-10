@@ -11,5 +11,27 @@ The area of the sphere goes like $\sim r^{2}$, so for the power not to vanish at
 Let's see what happens with static fields: [[Interazione elettromagnetica|Coulomb's law]] says that electrostatic fields go like $\sim r^{-2}$ and the [[Biot-Savart law]] says the same for magnetostatic fields. Their product, then, is $\sim r^{-4}$; way too fast for what we need. Clearly then, it is *impossible* for a static configuration to radiate: it just cuts out too fast.
 
 When we add in *time-dependent* pieces to the sources, [[Jefimenko's equations]] tell us that these pieces go like $\sim r^{-1}$. Multiply them together and you get something that satisfies our condition of not decreasing faster than $\sim r^{-2}$. It is these that are responsible for all electromagnetic radiation; everything else does not matter and can be safely ignored.
+### Radiation from an arbitrary source
+In an ideal world, we'd be able to determine the exact radiation at any point from any source analytically. This is a bit of a dream scenario and in practice it's not at all possible to solve for most source distributions. That said, not all hope is lost. While we can't solve *everything*, we can do some truly general considerations.
+
+To start, let's consider some generic charge distribution of any shape whatsoever, with our only prerequisite being that it's a finite volume near the origin.
+
+![[Diagram Electromagnetic radiation from arbitrary source|50%]]
+
+The retarded [[electric potential|scalar potential]] is
+$$V(\mathbf{r},t)=\frac{1}{4\pi \varepsilon_{0}}\int \frac{\rho(\mathbf{r}',t- \mathfrak{r}/c)}{\mathfrak{r}}d\tau' $$
+where $\mathfrak{r}=\sqrt{ r^{2}+r'^{2}-2\mathbf{r}\cdot \mathbf{r}' }$. As in most situations, we care about radiation far from the source, in the **radiation zone**. Here, we can do approximation 1: $r\gg r'$, where we mean that $r'$ is always small compared to $r$ throughout integration. This is the mathematical statement of "the source object is really small compared to how far we are from it". In this approximation we get
+$$\mathfrak{r}\simeq r\left( 1- \frac{\mathbf{r}\cdot\mathbf{r}'}{r^{2}} \right)$$
+from which using the first order [[Serie di Taylor|Taylor series]] $(1-x)^{-1}\simeq1+x$ when $\lvert x \rvert\ll1$:
+$$\frac{1}{\mathfrak{r}}\simeq \frac{1}{r}\left( 1+ \frac{\mathbf{r}\cdot\mathbf{r}'}{r^{2}} \right)$$
+and so
+$$\rho\left( \mathbf{r}',t- \frac{\mathfrak{r}}{c} \right)\simeq \rho\left( \mathbf{r}',t- \frac{r}{c}+ \frac{\hat{\mathbf{r}}\cdot\mathbf{r}'}{c} \right)$$
+Another Taylor series, this time of $t$ in about the [[retarded time]] at the origin
+$$t_{0}\equiv t- \frac{r}{c}$$
+yields
+$$\rho\left( \mathbf{r}',t- \frac{\mathfrak{r}}{c} \right)\simeq \rho(\mathbf{r}',t_{0})+\dot{\rho}(\mathbf{r}',t_{0})\left( \frac{\hat{\mathbf{r}}\cdot\mathbf{r}'}{c} \right)+\ldots$$
+We can afford to truncate at the first order if we accept approximation 2:
+$$r'\ll \frac{c}{\lvert \ddot{\rho}/\dot{\rho} \rvert },\ldots$$
+and other further terms.
 
 [^1]: For nonlocalized sources like infinite shapes (infinite wire, infinite plane, etc.) this definition does not apply, nor make sense.

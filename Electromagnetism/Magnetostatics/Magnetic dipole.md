@@ -20,3 +20,14 @@ If the field is uniform, the force over the current loop is zero:
 $$\mathbf{F}=I\oint d\mathbf{I}\times \mathbf{B}=I\left( \oint \mathbf{dI} \right)\times \mathbf{B}=\mathbf{0}$$
 but if the field is non-uniform, for a perfect dipole of magnetic moment $\mathbf{m}$ we have
 $$\boxed{\mathbf{F}=\nabla(\mathbf{m}\cdot \mathbf{B})}$$
+### Radiation
+If the current going through the dipole loop is alternating, the dipole moment becomes variable. The magnetic field starts to vary, induces and [[electric field]] and we get the emission of [[electromagnetic wave|electromagnetic waves]].
+
+For a simple model, let's assume the dipole is a circular loop of radius $b$ that the current is alternating in a sinusoidal fashion:
+$$I(t)=I_{0}\cos(\omega t)$$
+The dipole moment becomes
+$$\mathbf{m}(t)=\pi b^{2}I(t)\hat{\mathbf{z}}=m_{0}\cos(\omega t)\hat{\mathbf{z}}$$
+by setting the dipole axis on the $z$ axis and calling $m_{0}\equiv \pi b^{2}I_{0}$.
+
+![[Diagram Magnetic dipole radiation]]
+

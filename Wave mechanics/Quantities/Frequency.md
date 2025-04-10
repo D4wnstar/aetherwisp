@@ -6,4 +6,4 @@ The **frequency** of an oscillatory phenomenon is the amount of oscillations it 
 - the **ordinary frequency** is measured in $\text{cycles}/\text{s}$ or $\text{Hz}$ (or other unit of time) and is denoted $\nu$ or $f$;
 - the **angular frequency** is measured in $\text{rad}/\text{s}$ (or other unit of time) and is denoted $\omega$.
 
-The two are related by $\omega=\nu/2\pi$.
+The two are related by $\omega=\nu/2\pi$. A [[wave]] is said to be **monochromatic** if it has a constant frequency.

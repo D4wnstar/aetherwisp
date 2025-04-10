@@ -1,3 +1,7 @@
+---
+aliases:
+  - ultraviolet catastrophe
+---
 A **black body cavity** is a hollow [[corpo nero|black body]] with a pinhole dug into the surface. The cavity emits [[radiazione elettromagnetica|electromagnetic radiation]] from within. If the cavity is large enough, the system approximately looses the dependency on boundary conditions. It was the [[physical system]] that spurred the start of quantum mechanics, as classical results differ massively from reality due to the **ultraviolet catastrophe**.
 ### Quantum description
 Since electromagnetic radiation is the exchange of [[Photon|photons]], the whole cavity can be described as an [[ensemble]]. Specifically, it is a [[Bose gas]] of [[mass|massless]] [[boson|bosons]]. Since photons are absorbed and emitted, the total number of photons $N$ is not conserved. As such, we'll use a [[quantum grand canonical ensemble]]. The [[chemical potential]] is therefore zero[^1], so the [[fugacity]] is $z=1$.
