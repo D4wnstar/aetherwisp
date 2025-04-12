@@ -1,3 +1,10 @@
+---
+aliases:
+  - positive definite
+  - positive semidefinite
+  - negative semdefinite
+  - negative definite
+---
 An $n\times n$ [[matrix]] $\mathrm{A}$ takes on one of the following definitions if, for any [[Vector space|vector]] $\mathbf{v}\in \mathbb{R}^{n}$, the following holds:
 - it is **positive definite** if $\mathbf{v}\cdot \mathrm{A}\mathbf{v}=\mathbf{v}^{T}\mathrm{A}\mathbf{v}>0$
 - it is **positive semidefinite** if $\mathbf{v}\cdot \mathrm{A}\mathbf{v}=\mathbf{v}^{T}\mathrm{A}\mathbf{v}\geq0$

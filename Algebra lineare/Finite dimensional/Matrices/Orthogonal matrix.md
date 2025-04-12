@@ -9,5 +9,5 @@ Any one of the following properties is sufficient to identify an orthogonal matr
 - $\mathrm{A}^{T}=\mathrm{A}^{-1}$ where $\mathrm{A}^{-1}$ is the [[invertible matrix|inverse matrix]].
 ### Properties
 - It is invertible with inverse $\mathrm{A}^{-1}=\mathrm{A}^{T}$.
-- It is [[unitary matrix]] $\mathrm{A}^{-1}=\mathrm{A}^{*}$ where $\mathrm{A}^{*}$ denotes the [[conjugate transpose]].
+- It is [[Identity matrix]] $\mathrm{A}^{-1}=\mathrm{A}^{*}$ where $\mathrm{A}^{*}$ denotes the [[conjugate transpose]].
 - The [[determinant]] $\det \mathrm{A}$ is either $+1$ or $-1$.
