@@ -1,0 +1,1 @@
+An $N$-body system is a [[Physical system|system]] made up of $N$ components, considered to be [[point mass|point masses]] or similarly idealized objects.

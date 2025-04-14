@@ -11,7 +11,7 @@ The sum of kinetic and [[potential energy]] is called the **mechanical energy** 
 ### In analytical mechanics
 Kinetic energy naturally comes up quite often in analytical mechanics. In this context, a few additional details are useful to know:
 - it depends on the [[stato|state]] of the body, that is, it is a function of both [[generalized coordinates]], their velocities and (possibly) time: $(q_{1},\ldots,q_{n},\dot{q}_{1},\ldots,\dot{q}_{n},t)\equiv(q,\dot{q},t)$ where $n$ is the number of [[degrees of freedom]] the body has;
-- it is a [[dynamical variable]] of the form $I:\mathbb{R}^{2n+1}\to \mathbb{R},\ (q,\dot{q},t)\to I(q,\dot{q},t)$.
+- it is a [[dynamical variable]] of the form $T:\mathbb{R}^{2n+1}\to \mathbb{R},\ (q,\dot{q},t)\to T(q,\dot{q},t)$.
 
 For consistency with typical notation, we'll use $\mathbf{r}_{i}(q,t)$ and $\mathbf{v}_{i}(q,\dot{q},t)$ as the position and velocity of the $i$-th point mass in a system of $N$ of them, each with $n$ degrees of freedom. Generalized velocities are given as the [[Differential|total derivative]] of $\mathbf{r}$ in time:
 $$\mathbf{v}_{i}(q,\dot{q},t)=\sum_{j=1}^{n} \frac{ \partial \mathbf{r}_{i} }{ \partial q_{j} }(q,t) \dot{q}_{j}+\frac{ \partial \mathbf{r}_{i} }{ \partial t } (q,t) $$

@@ -4,7 +4,8 @@ The inclined plane can be analyzed in a more modern manner by using analytical m
 
 ![[Diagram Inclined plane|80%]]
 
-The surface of the plane is of course our [[constraint]] of reaction $\Phi$. Since the point mass can only move up and down the surface, we really only need one [[Generalized coordinates|generalized coordinate]], $q$, to describe this motion. The [[coordinate transformation]] from $\mathbb{R}^{2}$ to our [[configuration space]] (which is just the line the inclined plane stands on) is then simply given by
+#### Frictionless plane
+It is easiest to start by ignoring friction. The surface of the plane is of course our [[constraint]] of reaction $\Phi$. Since the point mass can only move up and down the surface, we really only need one [[Generalized coordinates|generalized coordinate]], $q$, to describe this motion. The [[coordinate transformation]] from $\mathbb{R}^{2}$ to our [[configuration space]] (which is just the line the inclined plane stands on) is then simply given by
 $$x=q\cos \theta,\quad y=h-q\sin \theta\tag{1}$$
 We can immediately find the derivative of $\mathbf{r}=(x,y)=(q\cos \theta,h-q\sin \theta)$:
 $$\frac{ \partial \mathbf{r} }{ \partial q } =(\cos \theta,-\sin \theta)$$
