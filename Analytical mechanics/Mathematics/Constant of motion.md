@@ -40,7 +40,7 @@ The benefit of finding constants of motion is that they add bindings to the para
 > $$\ldots=V'(x(t))v(t)+mv(t)f(x(t))=-F(x(t))v(t)+v(t)F(x(t))=0$$
 > which proves our point.
 ### In Lagrangian mechanics
-Within the context of a Lagrangian system of $n$ [[degrees of freedom]], a constant of motion is a function $I:\mathbb{R}^{2n+1}\to \mathbb{R},(q,\dot{q},t)\to I(q,\dot{q},t)$ for which $\frac{d}{dt}I(q(t),\dot{q}(t),t)=0$ that solves the [[Lagrange-Euler equation]].
+Within the context of a Lagrangian system of $n$ [[degrees of freedom]], a constant of motion is a function $I:\mathbb{R}^{2n+1}\to \mathbb{R},(q,\dot{q},t)\to I(q,\dot{q},t)$ for which $\frac{d}{dt}I(q(t),\dot{q}(t),t)=0$ that solves the [[Lagrange equation]].
 
 If we know a constant of motion $I(q,\dot{q},t)$ and, then we can write the following equation:
 $$I(q(t),\dot{q}(t),t)=I_{0}$$

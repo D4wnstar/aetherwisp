@@ -13,7 +13,7 @@ and represents a generalized form of the idea of "rate of change" that the norma
 When evaluated on a [[basis]] vector $e_{i}$ in a [[vector space]] $V$, the differential becomes a [[partial derivative]] over that coordinate:
 $$Df(x_{0})[e_{i}]=\frac{ \partial f }{ \partial x_{i} } (x_{0})$$
 ### For real-valued functions
-If we set $M=1$, $f$ is instead a real-valued function $f:A\subset \mathbb{R}^{N}\to \mathbb{R}$. Its differential is a [[linear functional]] and is typically denoted as $df:\mathbb{R}^{N}\to \mathbb{R}$ such that $v\to df(x_{0})[v]$. Being a linear function, it is a member of the [[dual vector space]] of $V$. Like before,
+If we set $M=1$, $f$ is instead a real-valued function $f:A\subset \mathbb{R}^{N}\to \mathbb{R}$. Its differential is a linear [[functional]] and is typically denoted as $df:\mathbb{R}^{N}\to \mathbb{R}$ such that $v\to df(x_{0})[v]$. Being a linear function, it is a member of the [[dual vector space]] of $V$. Like before,
 $$df(x_{0})[e_{i}]=\frac{ \partial f }{ \partial x_{i} } (x_{0})$$
 
 If we specifically take the functions $x_{1},\ldots,x_{n}:\mathbb{R}^{N}\to \mathbb{R}$ that extract the $i$-th component of a vector $v=(v_{1},\ldots,v_{n})\in V$, so that $x_{i}(v)=v_{i}$, the differentials of these functions $\{ dx_{i} \}_{i=1,\ldots,N}$ make a [[Dual vector space|dual basis]] of $\{ e_{i} \}_{i=1,\ldots,N}$. $df(x)$ can be expressed in this basis as

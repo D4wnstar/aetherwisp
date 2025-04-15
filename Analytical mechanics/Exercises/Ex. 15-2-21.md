@@ -21,7 +21,7 @@ V&=-mgR(\cos \theta+\cos \varphi)+ \frac{1}{2}k\ 4R^{2}\sin ^{2}\left( \frac{\th
 \end{align}$$
 where we used $\sin ^{2}\left( \theta/2 \right)=(1-\cos\theta)/2$. Our Lagrangian finally is
 $$L=T-V=\frac{1}{2}mR^{2}(\dot{\theta}^{2}+\dot{\varphi}^{2})+mgR(\cos \theta+\cos \varphi)+ kR^{2}\cos (\theta-\varphi)$$
-We'll solve the [[Lagrange-Euler equation]], which means we'll need to solve derivatives for all the coordinates and their velocities.
+We'll solve the [[Lagrange equation]], which means we'll need to solve derivatives for all the coordinates and their velocities.
 $$\begin{align}
 \frac{ \partial L }{ \partial \theta }&=-mgR\sin \theta-kR^{2}\sin(\theta-\varphi) \\
 \frac{ \partial L }{ \partial \varphi } &=-mgR\sin \varphi-kR^{2}\sin(\theta-\varphi) \\

@@ -26,7 +26,7 @@ One way to solve the system is to use the [[variational method]], letting the di
 $$\psi_{100}(r)=\frac{1}{\sqrt{ \pi a^{3} }}e^{-r/a}$$
 For brevity we'll write $\psi_{100}\equiv \psi_{0}$. We'll use what's called a **Linear Combination of Atomic Orbitals** (or **LCAO** for short):
 $$\psi=S[\psi_{100}(r)+\psi_{100}(\mathfrak{r})]$$
-where $\mathfrak{r}=\sqrt{ r^{2}+R^{2}-2rR\cos \theta }$. For this wave function to be a realizable state, it must be [[Normalization|normalized]], so
+where $\mathfrak{r}=\sqrt{ r^{2}+R^{2}-2rR\cos \theta }$. We are taking a [[linear combination]] of atomic [[orbital|orbitals]]. It is not the most accurate or general solutions, but the benefit is that it is quick and easy to set up: it's just a sum. For this wave function to be a realizable state, it must be [[Normalization|normalized]], so
 $$1=\int \lvert \psi \rvert ^{2}d\tau=\lvert S\rvert ^{2}\int \psi_{0}(r)^{2}d\tau \int \psi_{0}(\mathfrak{r})d\tau+2\int \psi_{0}(r)\psi_{0}(\mathfrak{r})d\tau$$
 These integrals can be solved by substituting the definition of $\psi$ above. The mixed integral
 $$I=\frac{1}{\pi a^{3}}\int e^{-r/a}e^{-\sqrt{ r^{2}+R^{2}-2rR\cos \theta }/a}R^{2}\sin \theta drd\theta d\phi$$
@@ -38,6 +38,27 @@ With a known wave function, we can now evaluate the energy in that state:
 $$\braket{ \psi | H | \psi } =E_{1}-2\lvert S\rvert ^{2}\left( \frac{e^{2}}{4\pi \varepsilon_{0}} \right)\left[ \underbrace{ \left\langle  \psi_{0}(r)\left| \frac{1}{\mathfrak{r}}\right| \psi_{0}(r)  \right\rangle }_{ \text{Direct} }+ \underbrace{ \left\langle  \psi_{0}(r)\left| \frac{1}{\mathfrak{r}}\right| \psi_{0}(\mathfrak{r}) \right\rangle }_{ \text{Swap} }  \right]$$
 The factor of $2$ in the second terms comes from the fact that the interaction is symmetric and indexes can be switched, leading to the same term twice. There are two terms dependent on position. We call the first the "Direct" term or integral (symbol: $C$), and it comes from the electromagnetic interaction between an electron on a nucleus with the *other* nucleus. We call the second term the "Swap" integral (symbol: $D$) and it relies on the superposition of wave functions of $r$ and $\mathfrak{r}$, hence "Swap". All in all, the state energy is
 $$E=\langle H \rangle =\left[ 1+ 2 \frac{C+D}{1+I} \right]E_{1}$$
+### Bonding and antibonding orbitals
+[[Permutation operator|Symmetric]] wave functions have an intrinsic attraction between them[^2]. (???)
+
+...
+
+We get two equations in two unknowns:
+$$\begin{align}
+(-\Delta E+C)c_{1}+(-\Delta E\cdot S+D)c_{2}&=0 \\
+(-\Delta\cdot S+D)c_{1}+(-\Delta E+C)c_{2}&=0
+\end{align}$$
+This is a linear system of equations. To enforce non-trivial solutions, we need to state that the [[determinant]] of the system must be nonzero:
+$$(-\Delta+C)^{2}-(-\Delta E\cdot S+D)^{2}=0\quad\to \quad E=E^{0}+\Delta E=E^{0}+ \frac{C\pm D}{1\pm S}$$
+The minus case gives $c_{2}=c_{1}=c$ and so $\psi_{+}=c(\phi_{a}+\phi_{b})$. The plus case gives $c_{2}=-c_{1}\equiv-c$ and so $\psi_{-}=c(\phi_{a}-\phi_{b})$. We call the former $\psi$ a **bonding orbital**, which is a [[Permutation operator|symmetric state]], and the latter an **antibonding orbital**, which is an [[Permutation operator|antisymmetric state]]. These are kinds of [[molecular orbital|molecular orbitals]].
+
+In the bonding orbital, the wavefunctions of the individual atoms show constructive [[interference]] in between them and, as a consequence, there is a nonzero charge density between the nuclei, which means that the electrons bond the nuclei. There is an energy minimum at a certain distance between the nuclei in which the system falls into. This is the distance between the nuclei of the atoms that make up the molecule.
+
+In the antibonding orbital, interference is destructive and the charge density is *zero*. There is no energy minimum to let the atoms bond, so it does not happen and the molecule is not constructed. Thus, only bonding orbitals lead to molecules.
+
+Populating the bonding orbital increase the bond energy, whereas populating the antibonding one diminishes it. A full shell is "neutral" towards bonding, as there are always just as many electrons in the bonding orbital as there are in the antibonding one.
 
 
 [^1]: See, for instance, *Introduction to Quantum Mechanics, David. J. Griffiths*.
+
+[^2]: This can be seen, for instance, in a [[Bose gas]].

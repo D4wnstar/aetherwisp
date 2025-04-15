@@ -1,0 +1,2 @@
+$$\frac{d}{dt} \frac{ \partial L }{ \partial \dot{q}_{i} }(q(t),\dot{q}(t),t)-\frac{ \partial L }{ \partial q_{i} } (q(t),\dot{q}(t),t)=0 $$
+This equation is correct *point-wise*, for each $t\in \mathbb{R}^{+}$, and for this reason it is said that the Lagrange equation describes motion **locally** (as opposed to globally).

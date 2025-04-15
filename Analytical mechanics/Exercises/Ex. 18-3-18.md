@@ -27,7 +27,7 @@ The potential energy is just standard gravitational potential
 $$V=Mgz_{2}=Mgr-MgL$$
 Our Lagrangian then is
 $$\boxed{\mathcal{L}=T-V=\frac{1}{2}(m+M)\dot{r}^{2}+ \frac{1}{2}mr^{2}\dot{\theta}^{2}-Mgr+mgL}$$
-We now need to solve the [[Lagrange-Euler equation]]
+We now need to solve the [[Lagrange equation]]
 $$\frac{ \partial \mathcal{L} }{ \partial q } -\frac{d}{dt} \left( \frac{ \partial \mathcal{L} }{ \partial \dot{q} }  \right)=0$$
 We'll do the derivatives for each coordinate:
 $$\begin{align}

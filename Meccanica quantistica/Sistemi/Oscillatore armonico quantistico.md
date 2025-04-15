@@ -211,7 +211,7 @@ che sono identiche alle [[Hamilton equations|equazioni di Hamilton]] classiche. 
 ### Forza di Lorentz
 Un'applicazione diretta dell'oscillatore armonico quantistico è per descrivere una [[particella]] [[Electric charge|elettricamente carica]] soggetta alla [[Lorentz force|forza di Lorentz]]. Questa può essere espressa come
 $$m \frac{d\mathbf{v}}{dt}=\frac{q}{c}\mathbf{v}\times \mathbf{B}(\mathbf{r},t)+q\mathbf{E}(\mathbf{r},t)$$
-Sfruttiamo l'[[Lagrange-Euler equation|equazione di Lagrange-Eulero]]
+Sfruttiamo l'[[Lagrange equation|equazione di Lagrange-Eulero]]
 $$\frac{d}{dt}\frac{ \partial \mathcal{L} }{ \partial \mathbf{v} } =\frac{ \partial \mathcal{L} }{ \partial \mathbf{r} } $$
 con $\mathcal{L}$ la [[Lagrangiana]] della particella. Ricordiamo le [[Maxwell's equations|equazioni di Maxwell]]:
 $$\nabla\cdot\mathbf{B}=0,\qquad \nabla\times\mathbf{E}=- \frac{1}{c}\frac{ \partial \mathbf{B} }{ \partial t } $$

@@ -23,7 +23,7 @@ More correctly, $\varphi$ and $\psi$ are single-parameter families of [[diffeomo
 > \frac{d}{d\alpha}L(\varphi(q,\alpha),\psi(q,\dot{q},\alpha),t)&=\left.{\sum_{k=1}^{n} \left[ \frac{ \partial L }{ \partial q_{k} }(\varphi,\psi,t)\frac{ \partial \varphi_{k} }{ \partial \alpha } +\frac{ \partial L }{ \partial \dot{q}_{k} } (\varphi,\psi,t)\frac{ \partial \psi_{k} }{ \partial \alpha }  \right]}\right|_{\alpha=0} \\
 > &=\sum_{k=1}^{n} \left[ \frac{ \partial L }{ \partial q_{k} } (q,\dot{q},t)\frac{ \partial \varphi_{k} }{ \partial \alpha } (q,0)+\frac{ \partial L }{ \partial \dot{q}_{k} } (q,\dot{q},t)\frac{ \partial \psi_{k} }{ \partial \alpha } (q,\dot{q},0) \right]
 > \end{align}$$
-> We evaluate the functions of $q$ and $\dot{q}$ on solutions of the [[Lagrange-Euler equation]]. We get
+> We evaluate the functions of $q$ and $\dot{q}$ on solutions of the [[Lagrange equation]]. We get
 > $$\begin{align}
 > 0&=\sum_{k=1}^{n} \left[ \frac{ \partial L }{ \partial q_{k} } (q(t),\dot{q}(t),t)\frac{ \partial \varphi_{k} }{ \partial \alpha } (q(t),0)+\frac{ \partial L }{ \partial \dot{q}_{k} } (q(t),\dot{q}(t),t)\frac{ \partial \psi_{k} }{ \partial \alpha } (q(t),\dot{q}(t),t) \right]
 > \end{align}$$
