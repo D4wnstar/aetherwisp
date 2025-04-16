@@ -11,3 +11,4 @@
 ### Lagrangian mechanics
 - [[Virtual displacement]], [[Virtual work]] and [[Generalized force]]
 - [[Kinetic energy]] and matrix
+- [[Functional]]
