@@ -1,0 +1,1 @@
+An **event**, in relativity, is a point in [[Spaziotempo|spacetime]]. It is identified by a [[Quadrivettore|four-vector]] of three spatial coordinates and one time one as $(x,y,z,t)$ or $(\mathbf{r},t)$.

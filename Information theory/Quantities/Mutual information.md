@@ -5,4 +5,4 @@ $$I_{X,Y}=\sum_{x \in \mathcal{X}}\sum_{y\in \mathcal{Y}} p_{X,Y}(x,y)\log_{2} \
 where $p_{X}$ and $p_{Y}$ are the [[Probability mass function|probability mass functions]] of the random variables and $p_{X,Y}$ is their [[joint distribution function]].
 ### Properties
 - It is non-negative: $I_{X,Y}\geq 0$. It is zero only if $X$ and $Y$ are independent.
-- It is related to [[Entropy (information theory)|information-theoretical entropy]] and [[conditional entropy]] by $I_{X,Y}=H_{Y}-H_{Y|X}$.
+- It is related to [[Entropy (information theory)|information-theoretical entropy]] and [[Conditional entropy]] by $I_{X,Y}=H_{Y}-H_{Y|X}$.
