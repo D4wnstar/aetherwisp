@@ -25,7 +25,7 @@ dove $k_{B}$ è la [[Boltzmann constant]]. Questa è la quantità di stati a dis
 Da qui si trova che la temperatura sotto il quale il gas può essere degenere dipende dalla densità
 $$\boxed{T_{deg}\propto n_{Q}^{2/3}\propto \rho^{2/3}}$$
 #### Caso non relativistico
-Ora che abbiamo una stima del momento, possiamo giungere ad una stima della pressione. Nel caso non [[Trasformazioni di Lorentz|relativistico]], possiamo usare la teoria cinetica dei gas, che ci dice che la pressione è $P=nv_{x}p_{x}$. Usando le stime di indeterminatezza come valori in sé abbiamo
+Ora che abbiamo una stima del momento, possiamo giungere ad una stima della pressione. Nel caso non [[Lorentz transformation|relativistico]], possiamo usare la teoria cinetica dei gas, che ci dice che la pressione è $P=nv_{x}p_{x}$. Usando le stime di indeterminatezza come valori in sé abbiamo
 $$P_{deg}\simeq \frac{h^{2}n_{e}^{5/3}}{m_{e}}$$
 con $m_{e}$ la massa dell'elettrone.
 #### Caso generale

@@ -1,9 +1,7 @@
 ---
 aliases:
-  - limite relativisitico
-  - regime ultrarelativistico
-  - relativistico
-  - ultrarelativistico
+  - relativistic
+  - ultrarelativistic
 ---
 Le **trasformazioni di Lorentz** sono un insieme di trasformazioni poste ad un sistema di riferimento per le quali le [[equazioni di Maxwell]] non variano. Sono una generalizzazione delle [[trasformazioni di Newton]], per le quali le [[leggi di Newton]] erano invarianti, ma quelle di Maxwell no.
 
@@ -15,7 +13,7 @@ z'=z \\
 t'=\frac{t-vx/c^{2}}{\sqrt{1-v^{2}/c^{2}}}
 \end{cases}$$
 o, definendo
-$$\beta=\frac{v}{c}\quad;\quad\gamma= \frac{1}{\sqrt{1-\beta^{2}}}$$
+$$\beta=\frac{v}{c}\in[0,1[\quad;\quad\gamma= \frac{1}{\sqrt{1-\beta^{2}}}\geq1$$
 si ha
 $$\begin{cases}
 x'=\gamma(x-\beta ct) \\
@@ -27,14 +25,14 @@ Nel caso non relativistico $v\ll c$, queste si riducono alle trasformazioni di N
 
 In forma [[tensore|tensoriale]], le trasformazioni di Lorentz sono
 $$\Lambda(\beta)=\begin{pmatrix}\gamma & -\beta \gamma & 0 & 0 \\ -\beta \gamma & \gamma & 0 & 0 \\ 0 & 0 & 1 & 0 \\ 0 & 0 & 0 & 1\end{pmatrix}$$
-applicate ad un [[quadrivettore]] come
+applicate ad un [[Four-vector]] come
 $$a'_{\mu}=\Lambda(\beta)a_{\mu}$$
 ### Limite relativistico
 Gli effetti relativistici diventano importanti solo quando la velocità di un oggetto si avvicina a quella della luce. Si dice **limite relativistico** il limite oltre il quale bisogna usare la relatività per evitare errori grandi. Matematicamente, il limite equivale ad avere $\beta\sim1$ e $\gamma>1$. Si dice **regime ultrarelativistico** le condizioni $\beta\sim1$ e $\gamma\gg1$.
 ### Formalismo matematico
-Dal punto di vista matematico, una trasformazione di Lorentz non è altro che una [[rotazione]] iperbolica nello [[spaziotempo]], il cui angolo di rotazione è detto [[rapidità]]. Le rotazioni sono [[Operatore unitario|unitarie]], quindi la [[Norma]] è conservata:
+Dal punto di vista matematico, una trasformazione di Lorentz non è altro che una [[rotazione]] iperbolica nello [[Spacetime]], il cui angolo di rotazione è detto [[Rapidity]]. Le rotazioni sono [[Operatore unitario|unitarie]], quindi la [[Norma]] è conservata:
 $$(x')^{2}+(y')^{2}+(z')^{2}-(ct')^{2}=x^{2}+y^{2}+z^{2}-(ct)^{2}$$
-Ciò significa che la distanza spaziotemporale è un'[[invariante relativistica]].
+Ciò significa che la distanza spaziotemporale è un'[[Relativistic invariant]].
 
 Il determinante del tensore di Lorentz vale
 $$\det\Lambda=\gamma^{2}-\beta^{2}\gamma^{2}=1$$

@@ -12,7 +12,7 @@ Le linee di assorbimento accadono quando ho una sorgente calda che sto osservand
 
 Può succedere anche l'effetto contrario, ossia *linee di emissione*, per le stesse ragioni, ma al contrario. Inoltre, le linee di emissione possono anche essere causate da **fluorescenza**. Questo è tipico delle [[Regione H II|regioni H II]].
 
-Il centro di una riga spettrale coincide con una transizione atomica ben precisa, traslata di una certa quantità $\Delta\lambda$. Tale spostamento è spiegabile in funzione dell'[[effetto Doppler]]. Nel caso di velocità non [[Trasformazioni di Lorentz|relativistiche]] ($v\ll c$) si ha
+Il centro di una riga spettrale coincide con una transizione atomica ben precisa, traslata di una certa quantità $\Delta\lambda$. Tale spostamento è spiegabile in funzione dell'[[effetto Doppler]]. Nel caso di velocità non [[Lorentz transformation|relativistiche]] ($v\ll c$) si ha
 $$z=\frac{\Delta\lambda}{\lambda}\simeq\frac{v}{c}\tag{1}$$
 La quantità $z$ viene chiamata **[[Redshift]]** nel caso lo spostamento sia verso il rosso (aumento di $\lambda$) o **blueshift** nel caso contrario.
 ### Larghezza

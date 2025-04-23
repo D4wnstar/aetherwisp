@@ -14,7 +14,7 @@ L'approccio più logico è semplicemente mettere la $E$ relativistica nell'equaz
 $$E\Psi=\sqrt{p^{2}+m^{2}}\Psi=H\Psi$$
 Allora
 $$\sqrt{(-i\nabla)^{2}+m^{2}}\Psi=i \frac{\partial \Psi}{\partial t}$$
-Tuttavia, lo spazio e il tempo sono ancora oggetti separati e, per via della radice, non permette di includere l'elettromagnetismo in forma [[Invariante relativistica|invariante]].
+Tuttavia, lo spazio e il tempo sono ancora oggetti separati e, per via della radice, non permette di includere l'elettromagnetismo in forma [[Relativistic invariant|invariante]].
 
 Usando l'[[operatore di d'Alembert]] $\Box=\frac{\partial ^{2}}{\partial t^{2}}-\nabla^{2}$ e un po' di algebra, posso riscriverla come
 $$(\Box+m^{2})\Psi=0$$
@@ -45,7 +45,7 @@ con $\sigma_{i}$ le [[matrici di Pauli]]. Evidentemente, sono una sorta di loro 
 
 Dirac introdusse le [[matrici gamma]]:
 $$\gamma^{0}=\beta,\quad \gamma^{i}=\gamma^{0}\alpha_{i}$$
-e da esse il [[quadrivettore]] $\gamma^{\mu}=(\gamma^{0},\gamma^{1},\gamma^{2},\gamma^{3})$. Con esse posso riscrive l'equazione di Schrödinger come
+e da esse il [[Four-vector]] $\gamma^{\mu}=(\gamma^{0},\gamma^{1},\gamma^{2},\gamma^{3})$. Con esse posso riscrive l'equazione di Schrödinger come
 $$i \frac{\partial \Psi}{\partial t}=(\alpha_{i}p_{i}+\beta m)\Psi$$
 moltiplicando per $\beta$
 $$i\beta \frac{\partial \Psi}{\partial t}=(\beta\alpha_{i}p_{i}+\beta^{2}m)\Psi$$
@@ -56,7 +56,7 @@ Introduciamo la derivata delle matrici gamma
 $$\partial_{\mu}\gamma^{\mu}=\partial_{0}\gamma^{0}+\partial_{i}\gamma^{i}$$
 possiamo infine scrivere
 $$\boxed{(i\partial_{\mu}\gamma^{\mu}-m)\Psi=0}$$
-che è l'**equazione di Dirac** e descrive l'evoluzione temporale di un sistema quantistico tenendo conto dell'energia relativistica. Le soluzioni di questa equazione sono soluzioni anche dell'equazione di Klein-Gordon ed è un [[invariante relativistica]].
+che è l'**equazione di Dirac** e descrive l'evoluzione temporale di un sistema quantistico tenendo conto dell'energia relativistica. Le soluzioni di questa equazione sono soluzioni anche dell'equazione di Klein-Gordon ed è un [[Relativistic invariant]].
 ### Osservazioni
 Come l'equazione di Klein-Gordon, anche quella di Dirac tratta simultaneamente spazio e tempo e permette l'invarianza dell'elettromagnetismo. Inoltre, dato che include implicitamente le matrici di Pauli, tiene automaticamente conto dello [[spin]] semi-intero.
 

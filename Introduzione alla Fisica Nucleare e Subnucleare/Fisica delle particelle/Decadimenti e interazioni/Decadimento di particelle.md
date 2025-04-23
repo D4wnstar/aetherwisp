@@ -61,7 +61,7 @@ E_{2}=\frac{E_{\pi}}{2}
 \end{cases}$$
 quindi l'energia è equipartita fra le particelle figlie.
 
-L'energia differisce tra sistemi di riferimento. È quindi utile vedere come cambia l'energia nel laboratorio rispetto al centro di massa. Chiamiamo la direzione di moto del pione $x$ e compiamo una [[Trasformazioni di Lorentz|trasformazioni di Lorentz]] su quell'asse:
+L'energia differisce tra sistemi di riferimento. È quindi utile vedere come cambia l'energia nel laboratorio rispetto al centro di massa. Chiamiamo la direzione di moto del pione $x$ e compiamo una [[Lorentz transformation|trasformazioni di Lorentz]] su quell'asse:
 $$\begin{cases}
 E_{\gamma,1}&=\gamma(E_{\gamma,1}^{*}+\beta)=\gamma(E_{\gamma,1}^{*}-\beta p^{*}\cos\theta^{*}) \\
 p_{1,x}&=\gamma(p_{1,x}^{*}+\beta E_{\gamma,1}^{*})=\gamma(p^{*}\cos\theta^{*}+\beta E_{\gamma,1}^{*}) \\

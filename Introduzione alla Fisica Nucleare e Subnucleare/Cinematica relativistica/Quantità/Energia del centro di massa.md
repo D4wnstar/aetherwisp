@@ -1,6 +1,6 @@
 Si dice **energia del centro di massa** di un sistema relativistico la [[Norma]] dell'impulso totale:
 $$||p_{tot}||=\sqrt{\left(\sum\limits_{k}E_{k}\right)^{2}-\left(\sum\limits_{k}\vec{p}\right)^{2}}=\sqrt{s}$$
-È la radice della [[massa invariante]] ed è un'[[invariante relativistica]].
+È la radice della [[massa invariante]] ed è un'[[Relativistic invariant]].
 ### Esempi
 #### Particella su bersaglio fisso
 Consideriamo una targhetta fissa con [[Quadrivettore energia-impulso|quadri-impulso]] $(M_{2},0)$ che viene colpita da un proiettile $(E_{1},\vec{p}_{1})$ perpendicolarmente. Allora

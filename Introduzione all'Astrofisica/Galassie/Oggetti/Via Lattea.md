@@ -8,7 +8,7 @@ La struttura della Via Lattea viene in genere descritta definendo quattro sue co
 
 ![[Schema Struttura della Via Lattea|80%|center]]
 ### Magnetismo
-Osservando la [[polarizzazione]] della luce, si scopre che la Via Lattea è permeata da un debole campo magnetico di intensità nei microgauss. Questo ha importanti conseguenze, come la presenza di [[radiazione da sincrotrone]] presente per qualunque [[Photon]] [[Trasformazioni di Lorentz|relativistico]] della Galassia, osservabili nel radio.
+Osservando la [[polarizzazione]] della luce, si scopre che la Via Lattea è permeata da un debole campo magnetico di intensità nei microgauss. Questo ha importanti conseguenze, come la presenza di [[radiazione da sincrotrone]] presente per qualunque [[Photon]] [[Lorentz transformation|relativistico]] della Galassia, osservabili nel radio.
 ### Distribuzione di stelle
 È possibile sfruttare la distribuzione di stelle nel cielo nella Via Lattea per creare un modello della sua struttura. Assumiamo anzitutto che le stelle sia distribuite uniformemente nello spazio e che la loro [[luminosità]] non dipenda dalla loro posizione nella Galassia. Definiamo la **funzione di luminosità delle stelle** $n(L)dL$ che rappresenta la densità (in numero) di stelle in un certo intervallo di luminosità $[L, L+dL]$. Allora, osservando ad un [[flusso energetico|flusso]] limite $f_{0}$ (ossia sotto quel flusso non si capta nulla) riusciremo a vedere stelle di luminosità $L$ fino ad una distanza $r=\sqrt{L/4\pi f_{0}}$; oltre di essa, stelle di tale luminosità saranno troppo tenui per essere risolte. In tutto il cielo, vedremo dunque un numero di stelle pari a
 $$N_{L}(f>f_{0})=\frac{4}{3}\pi r^{3}n(L)dL=\frac{L^{3/2}n(L)dL}{3\sqrt{4\pi}}f_{0}^{-3/2}$$

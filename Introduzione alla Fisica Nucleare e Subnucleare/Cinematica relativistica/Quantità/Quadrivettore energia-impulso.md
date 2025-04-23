@@ -2,7 +2,7 @@
 aliases:
   - quadri-impulso
 ---
-Il **quadrivettore energia-impulso**, o **quadri-impulso**, è il [[quadrivettore]]
+Il **quadrivettore energia-impulso**, o **quadri-impulso**, è il [[Four-vector]]
 $$p=\left(\frac{E}{c},\; \vec{p}\right)$$
 con energia $E=\gamma mc^{2}$ e impulso $\vec{p}=\gamma m\vec{v}$. In forma completa
 $$p=(\gamma mc,\;\gamma m\vec{v})$$
@@ -48,4 +48,4 @@ Da cui si ottiene
 $$p'\sin\theta=p\sin\theta$$
 che si chiama **impulso trasverso** e vale
 $$p'_{T}=p_{T}$$
-ed è un'[[invariante relativistica]]. Dalla stessa equazione si trova anche $\phi'=\phi$, quindi anche l'angolo azimutale è un'invariante relativistica.
+ed è un'[[Relativistic invariant]]. Dalla stessa equazione si trova anche $\phi'=\phi$, quindi anche l'angolo azimutale è un'invariante relativistica.

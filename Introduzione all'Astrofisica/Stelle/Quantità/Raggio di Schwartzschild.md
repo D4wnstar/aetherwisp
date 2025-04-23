@@ -1,3 +1,3 @@
 Il **raggio di Schwartzschild** $R_{Sch}$ è una quantità associata ad un qualunque corpo massivo che definisce il raggio dell'[[orizzonte degli eventi]]. Esso vale
 $$R_{Sch}=\frac{2GM}{c^{2}}$$
-con $G$ la [[costante gravitazionale]], $M$ la massa del corpo e $c$ la [[velocità della luce]]. Se un oggetto si comprime al punto di avere un raggio inferiore a quello di Schwartzschild, la distorsione dello [[spaziotempo]] sarà tale da impedire alla luce emessa dall'oggetto di uscire dal raggio: l'oggetto diventa un [[Buco nero]].
+con $G$ la [[costante gravitazionale]], $M$ la massa del corpo e $c$ la [[velocità della luce]]. Se un oggetto si comprime al punto di avere un raggio inferiore a quello di Schwartzschild, la distorsione dello [[Spacetime]] sarà tale da impedire alla luce emessa dall'oggetto di uscire dal raggio: l'oggetto diventa un [[Buco nero]].
