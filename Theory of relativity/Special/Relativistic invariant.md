@@ -6,4 +6,4 @@ with $g^{\mu\nu}$ the [[metric tensor]].
 
 The [[norm]] of a four-vector $|a|^{2}=g_{\mu\nu}a^{\mu}a^{\nu}$ is invariant.
 
-The transverse momentum of a [[particle]], its azimuthal angle in spherical coordinates, and the [[rapidity]] are other invariants.
+The transverse momentum of a [[particle]], its azimuthal angle in [[spherical coordinates]], and the [[rapidity]] are other invariants.

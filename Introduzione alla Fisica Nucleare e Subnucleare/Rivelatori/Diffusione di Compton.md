@@ -24,7 +24,7 @@ Ne risulta che l'energia trasferita all'elettrone nell'urto è:
 $$E_{e}=E_{\gamma} \frac{\frac{E_{\gamma}}{m_{e}c^{2}}(1-\cos\theta)}{1+\frac{E_{\gamma}}{m_{e}c^{2}}(1-\cos\theta)}$$
 che varia tra 0 e un valore massimo quando $\theta=\pi$, che vale
 $$E_{e,max}=E_{\gamma} \frac{\frac{2E_{\gamma}}{m_{e}c^{2}}}{1+\frac{2E_{\gamma}}{m_{e}c^{2}}}<E_{\gamma}$$
-detto **fronte Compton**. Il fatto che l'energia assorbita debba essere minore dell'energia del fotone differenzia la diffusione Compton dall'[[effetto fotoelettrico]], infatti violerebbe la conservazione della [[massa invariante]].
+detto **fronte Compton**. Il fatto che l'energia assorbita debba essere minore dell'energia del fotone differenzia la diffusione Compton dall'[[effetto fotoelettrico]], infatti violerebbe la conservazione della [[Invariant mass]].
 
 Purtroppo, l'angolo di diffusione non può essere predetto in quanto, per quanto ne sappiamo, è interamente casuale. Di conseguenza, anche l'energia dell'elettrone liberato sarà casuale, entro un intervallo noto $0<E_{e}<E_{e,max}<E_{\gamma}$. Dal punto di vista sperimentale, questo significa che la diffusione Compton può al meglio dare un limite inferiore all'energia del fotone incidente, ma non un valore esatto. Il meglio che si può fare è misurare il risultato di un fascio di fotoni monocromatico e ottenere una buona statistica che ci dà il fronte Compton e da lì avere stime più precise.
 

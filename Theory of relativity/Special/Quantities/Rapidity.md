@@ -1,6 +1,6 @@
 The **rapidity** $y$ is an alternative quantity to represent the speed of a [[particle]], typically in the context of relativity. Given the relativistic speed coefficient $\beta=v/c$, where $c$ is the [[speed of light]], the rapidity is defined as its hyperbolic arctangent:
 $$y=\text{arctanh } \beta$$
-Rapidity, by construction, is a [[relativistic invariant]].
+Rapidity, by construction, is a [[relativistic invariant]]. The benefit of rapidity is that, since it is defined from a hyperbolic arctangent, it possesses an asymptote to which it converges when $\beta\to 1$ (and therefore $v\to c$). This mathematical behavior innately matches physical behavior in that speed can never exceed that of light.
 ### Derivation
 The rapidity is the value for which the following relations hold:
 $$\begin{cases}

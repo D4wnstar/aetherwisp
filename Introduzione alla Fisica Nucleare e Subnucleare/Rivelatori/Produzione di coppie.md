@@ -4,7 +4,7 @@ aliases:
 ---
 La **produzione di coppie** è un fenomeno ad altissima energia osservato nel quale si genera una coppia di una [[particella]] e la sua [[Antiparticella|antiparticella]].
 ### Produzione di coppie elettrone-positrone
-Un caso noto è la produzione di coppie [[elettrone]]-[[Elettrone|positrone]] da parte di un [[Photon]]. Questo fenomeno avviene quando l'energia cinetica del fotone è almeno maggiore del doppio della massa dell'elettrone, quindi $E_{\gamma}>2m_{e}c^{2}$. Per generare la coppia, il fotone deve essere assorbito da qualche altra particella; non può avvenire nel vuoto dato che la [[massa invariante]] del fotone è nulla. Chiamando la particella assorbente $X$, il processo è
+Un caso noto è la produzione di coppie [[elettrone]]-[[Elettrone|positrone]] da parte di un [[Photon]]. Questo fenomeno avviene quando l'energia cinetica del fotone è almeno maggiore del doppio della massa dell'elettrone, quindi $E_{\gamma}>2m_{e}c^{2}$. Per generare la coppia, il fotone deve essere assorbito da qualche altra particella; non può avvenire nel vuoto dato che la [[Invariant mass]] del fotone è nulla. Chiamando la particella assorbente $X$, il processo è
 $$\gamma X\to Xe^{-}e^{+}$$
 
 ![[Schema Produzione elettrone-positrone|center]]

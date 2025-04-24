@@ -83,7 +83,7 @@ In un esperimento, si usano due sistemi di riferimento fondamentali:
 1. Il sistema di riferimento del laboratorio è solidale all'osservatore (e ai [[Rivelatore|rivelatori]]). È quello che si usa quando si fa collidere una [[Particella]] con un bersaglio fisso.
 2. Il sistema di riferimento del [[centro di massa]] è il sistema tale per cui la somma degli impulsi delle particelle che collidono è nulla: $\sum\vec{p}=0$.
 
-Considerando i [[Quadrivettore energia-impulso|quadri-impulsi]] per due particelle (o un bersaglio), si ha per il laboratorio
+Considerando i [[Four-momentum|quadri-impulsi]] per due particelle (o un bersaglio), si ha per il laboratorio
 $$\begin{cases}
 p_{1} = (E_{1},\vec{p}_{1})  \\
 p_{2} = (M_{2},0)
@@ -93,7 +93,7 @@ $$\begin{cases}
 p_{1}=(E_{1},\vec{p})  \\
 p_{2}=(E_{2},-\vec{p})
 \end{cases} \quad \Rightarrow \quad p_{tot,CM}=(E_{1}+E_{2},0)$$
-Nel caso di $n$ particelle, si ha $p_{tot,CM}=(\sum E_{i},0)$. In particolare, si ha $p_{tot,CM}=(\sqrt{s},0)$, dove $\sqrt{s}$ è l'[[energia del centro di massa]].
+Nel caso di $n$ particelle, si ha $p_{tot,CM}=(\sum E_{i},0)$. In particolare, si ha $p_{tot,CM}=(\sqrt{s},0)$, dove $\sqrt{s}$ è l'[[Center-of-mass energy]].
 
 Applicando le [[Lorentz transformation]] al sistema del laboratorio, possiamo trovare come sono legate energia e impulso. Ad esempio, trasformando lungo $x$ da lab a CM:
 $$\begin{pmatrix}\sqrt{s} \\ 0 \\ 0 \\ 0 \end{pmatrix}=g_{\mu\nu}\begin{pmatrix}\sum\limits_{k}E_{k} \\ \sum\limits_{k}p_{k} \\ 0 \\ 0\end{pmatrix} \quad \Rightarrow \quad \beta=\frac{\sum\limits_{k}p_{k}}{\sum\limits_{k}E_{k}}= \frac{p_{tot,lab}}{E_{tot,lab}};\quad \gamma=\frac{E_{tot,lab}}{\sqrt{s}}$$

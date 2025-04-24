@@ -37,7 +37,7 @@ La collisione avviene a regime relativistico, quindi usiamo la notazione [[Four-
 $$x=(x_{0},x_{1},x_{2},x_{3}),\quad p=(p_{0},p_{1},p_{2},p_{3})=\left( \frac{E}{c}, \vec{p}\right)$$
 Sappiamo che $p^{2}$ è una [[Relativistic invariant]] e quindi
 $$p^{2}=pp=\frac{E}{c} \frac{E}{c}-p_{1}p_{1}-p_{2}p_{2}-p_{3}p_{3}=\frac{E^{2}}{c^{2}}-\vec{p}^{2}$$
-ma anche $p^{2}=m^{2}c^{4}$ nel sistema di riferimento a riposo con $\vec{p}=0$ e $E=mc^{2}$. Allora definisco [[massa invariante]] $m=|\vec{p}|/c$. A riposo ho $E^{2}-\vec{p}^{2}c^{2}=m^{2}c^{4}$, ma per energie relativistiche posso fare l'approssimazione
+ma anche $p^{2}=m^{2}c^{4}$ nel sistema di riferimento a riposo con $\vec{p}=0$ e $E=mc^{2}$. Allora definisco [[Invariant mass]] $m=|\vec{p}|/c$. A riposo ho $E^{2}-\vec{p}^{2}c^{2}=m^{2}c^{4}$, ma per energie relativistiche posso fare l'approssimazione
 $$\text{se }E\gg mc^{2} \Rightarrow E\sim|\vec{p}|c$$
 ![[Schema Diffusione di Rutherford|80%|center]]
 I quadrivettori impulso-energia iniziali sono $p=(E/c, \vec{p})$ e $P=(Mc^{2}/c,0)$ per elettrone e nucleo rispettivamente. Conservo energia ed impulso

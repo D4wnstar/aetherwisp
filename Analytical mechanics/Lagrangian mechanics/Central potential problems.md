@@ -161,7 +161,25 @@ $$\frac{l^{2}}{r}=km+ a(\cos \theta \cos \theta_{0}+\sin \theta \sin \theta_{0})
 and finally
 $$r(\theta)=\frac{\eta}{1+ \frac{a\eta}{l^{2}}\cos(\theta-\theta_{0})}$$
 This is our conic equation that we found by "brute force" above, except we did not have to solve a singular ODE this time around. This is the benefit of using constants: they turn complicated differential equations into linear algebraic equations that can be solved with usual linear algebra.
+### Solving for motion in time
+For now, we've essentially solved a problem of geometry. We found that the trajectory is conic and by tracing the values of $r(\theta)$ for all $\theta \in[0,2\pi[$ we can draw the plot. This is useful in its own right, but often what we are looking for is the movement itself: we need dynamics. Basically, we are looking for $r(t)$ and $\theta(t)$ instead of $r(\theta)$ or $\theta(r)$. There's some ways we can go about this. To start, we know that
+$$\dot{r}=\sqrt{ \frac{2}{m}(E-V_\text{eff}(r)) }$$
+This leads to
+$$t(r)=\sqrt{ \frac{m}{2} }\int_{r_{0}}^{r} \frac{dr'}{\sqrt{ \frac{k}{r'}- \frac{l^{2}}{2mr'^{2}} +E}}$$
+which we can (at least in principle) invert to get $r(t)$. Another way to go about this is starting from
+$$\dot{\theta}=\frac{d\theta}{dt}=\frac{l}{mr^{2}}\quad\to \quad \frac{dt}{d\theta}=\frac{mr(\theta)^{2}}{l} $$
+(this is assuming that $\theta$ is smooth enough to permit this kind of inversion, but realistically any function $\theta$ not smooth enough for it yields unphysical motion (read: teleportation or infinite acceleration), so we allow it). This leads to
+$$t(\theta)=\frac{m}{l}\int_{\theta_{0}}^{\theta} \frac{\eta ^{2}}{(1+e\cos(\theta'-\theta_{0}))^{2}}d\theta'$$
+for some constant $\theta_{0}$. This can again be inverted to yield $\theta(t)$.
 
+> [!example] Parabola dynamics
+> To illustrate this problem, we'll consider the simple case of a parabola, for which $e=1$ and $\theta_{0}=0$. We'll solve for $\theta(t)$, and so we start from $t(\theta)$.
+> $$\begin{align}
+> t(\theta)&=\frac{l^{3}}{mk^{2}}\int_{0}^{\theta} \frac{1}{4} \frac{d\theta'}{(1+\cos \theta')^{2}}=\frac{l^{3}}{4mk^{2}}\int_{0}^{\theta} \frac{d\theta'}{\left( \cos \frac{\theta'}{2} \right)^{2}\left( \cos \frac{\theta'}{2} \right)^{2}} \\
+> &=\frac{l^{3}}{2mk^{2}}\int_{0}^{\tan \theta/2}(1+x^{2})dx=\frac{l^{3}}{2mk^{2}}\left.{\left( x+ \frac{x^{3}}{3} \right)}\right|_{0}^{\tan \theta/2} \\
+> &=\frac{l^{3}}{2mk^{2}}\left( \tan \frac{\theta}{2}+ \frac{1}{3}\tan ^{3} \frac{\theta}{2}\right)
+> \end{align}$$
+> where we substituted $x=\tan \theta'/2$, which leads to $dx=\frac{1}{\cos ^{2} \frac{\theta'}{2}} \frac{d\theta'}{2}=\left( 1+\tan \frac{\theta'}{2} \right) \frac{d\theta'}{2}$. At angle $\theta=0$, we get $t=0$, so the system starts there. At $\theta\to \pm \pi$, we go to infinite times, $t\to\pm \infty$, so $\pm \pi$ are asymptotes. We can correctly gather that our object starts at "the bottom" of the parabola, started off at one extremum far back in time, and will end up at the other edge far in the future. As for the motion itself, we would need to invert $t(\theta)$ into $\theta(t)$, but needless to say, that's not really doable manually. Get a computer to do it numerically for you.
 
 [^1]: Unfortunately, both common letters for angular momentum, $L$ and $M$, are taken here so we'll use the less orthodox $\mathbf{A}$ here (it stands for "angular").
 

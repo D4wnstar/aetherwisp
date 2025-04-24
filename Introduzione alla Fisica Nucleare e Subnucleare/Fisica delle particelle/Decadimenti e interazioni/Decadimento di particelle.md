@@ -54,7 +54,7 @@ $$\begin{align}
 &=\sqrt{ E_{\gamma,1}^{2}+E_{\gamma,2}^{2}+2E_{\gamma,1}E_{\gamma,2}-(|\vec{p}_{\gamma,1}|^{2}+|\vec{p}_{\gamma,2}|^{2}+2|\vec{p}_{\gamma,1}|^{2}|\vec{p}_{\gamma,2}|^{2}\cos \theta) } \\
 &=\sqrt{ 2E_{\gamma,1}E_{\gamma,2}(1-\cos \theta) }=\sqrt{4E_{\gamma,1}E_{\gamma,2}\sin^{2}\frac{\theta}{2}}
 \end{align}$$
-(usando $E^{2}_{\gamma}=p^{2}_{\gamma}$ e $1-\cos \theta=2\sin^{2} \frac{\theta}{2}$) che significa che la [[massa invariante]] dipende dall'angolo a cui sono emessi i fotoni nel laboratorio. A questo punto ci chiediamo quale possa essere l'angolo minimo. Invertendo la formula sopra
+(usando $E^{2}_{\gamma}=p^{2}_{\gamma}$ e $1-\cos \theta=2\sin^{2} \frac{\theta}{2}$) che significa che la [[Invariant mass]] dipende dall'angolo a cui sono emessi i fotoni nel laboratorio. A questo punto ci chiediamo quale possa essere l'angolo minimo. Invertendo la formula sopra
 $$\sin\frac{\theta}{2}= \frac{M_{\pi^{0}}}{2\sqrt{E_{1}E_{2}}} \quad \Rightarrow \quad \begin{cases}
 E_{1}=\frac{E_{\pi}}{2} \\
 E_{2}=\frac{E_{\pi}}{2}
@@ -69,16 +69,16 @@ p_{1,y}&=p_{1,y}^{*}=p^{*}\sin\theta \\
 p_{1,z}&=p_{1,z}
 \end{cases}$$
 #### Decadimento in tre corpi
-Nel caso di un decadimento in tre corpi, lo spettro in impulso non è completamente determinato dalla conservazione del [[Quadrivettore energia-impulso|quadri-impulso]], quindi ci sono infinite possibili soluzioni per il sistema
+Nel caso di un decadimento in tre corpi, lo spettro in impulso non è completamente determinato dalla conservazione del [[Four-momentum|quadri-impulso]], quindi ci sono infinite possibili soluzioni per il sistema
 $$\begin{cases}
 \vec{p}_{1}+\vec{p}_{2}+\vec{p}_{3}=0 \\
 E_{1}+E_{2}+E_{3}=M
 \end{cases}$$
 in quanto abbiamo tre incognite in due equazioni. Per risolvere il sistema, poniamo ulteriori limiti sulla cinematica.
 
-Un trucco utile è quello di considerare la [[massa invariante]] di due corpi come una sola[^1], ossia
+Un trucco utile è quello di considerare la [[Invariant mass]] di due corpi come una sola[^1], ossia
 $$M=m_{12}+m_{3} \quad\text{anziché} \quad M=m_{1}+m_{2}+m_{3}$$
-e quindi il loro [[Quadrivettore energia-impulso|quadri-impulso]] è
+e quindi il loro [[Four-momentum|quadri-impulso]] è
 $$p_{12}=p_{1}+p_{2}=(E_{1}+E_{2},\vec{p}_{1}+\vec{p}_{2})$$
 Usando il decadimento in due corpi come sopra
 $$M_{12}^{2}=(M-E_{3})^{2}-\vec{p}_{3}=M^{2}+m_{3}^{2}-2ME_{3}$$

@@ -4,7 +4,7 @@ Il processo può essere schematizzato come
 $$\gamma+X \rightarrow X^{+}+e^{-}$$
 con $X$ la specie atomica soggetta. Il fotone incidente deve avere energia maggiore dell'[[energia di legame]] dell'atomo, a modo che quando l'elettrone assorbe il fotone, ottiene energia sufficiente per liberarsi, lasciando l'atomo in uno stato ionizzato. L'elettrone emesso avrà energia cinetica pari alla differenza tra energia del fotone e energia di legame
 $$E_{e^{-}}=E_{\gamma}-E_{b}$$
-L'assorbimento del fotone, e quindi l'effetto fotoelettrico, può avvenire solo per elettroni legati, non liberi, perché ciò violerebbe la conservazione della [[massa invariante]] (diminuirebbe dopo l'assorbimento).
+L'assorbimento del fotone, e quindi l'effetto fotoelettrico, può avvenire solo per elettroni legati, non liberi, perché ciò violerebbe la conservazione della [[Invariant mass]] (diminuirebbe dopo l'assorbimento).
 
 Si trova che la [[sezione d'urto]] fotoelettrica di un materiale omogeneo è
 $$\sigma_{FE}\simeq\left(\frac{m_{e}c^{2}}{E_{\gamma}}\right)^{3}Z^{5}$$
