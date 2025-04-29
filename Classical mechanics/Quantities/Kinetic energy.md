@@ -4,9 +4,10 @@ aliases:
 ---
 **Kinetic energy** is a form of [[energy]] that an object gains due to motion. For a [[point mass]] of [[mass]] $m$, velocity $\mathbf{v}$ and [[linear momentum]] $\mathbf{p}=m\mathbf{v}$, it is
 $$K=\frac{1}{2}m\lvert \mathbf{v} \rvert^{2} =\frac{\lvert \mathbf{p} \rvert ^{2}}{2m}$$
-If the object is extended, such as a [[rigid body]], the kinetic energy also likely includes other contributions, such as rotational energy, vibrational energy and so on. In a system of $N$ point masses, it is simply the sum of all individual kinetic energies:
+In many cases, such as an extended object like a [[rigid body]], the kinetic energy also likely includes other contributions, such as rotational energy, vibrational energy and so on. For instance, if the point mass it also [[Rotation|rotating]] around an axis, it also gains additional rotational kinetic energy, which is described in the simplest form through the [[Moment of inertia|inertia tensor]] $\mathcal{I}$ as
+$$T=\frac{1}{2}\boldsymbol{\omega}\times \mathcal{I}\boldsymbol{\omega}$$
+ In a system of $N$ point masses, it is simply the sum of all individual kinetic energies:
 $$K=\frac{1}{2}\sum_{i=1}^{N} m_{i}\lvert \mathbf{v}_{i} \rvert ^{2}$$
-
 The sum of kinetic and [[potential energy]] is called the **mechanical energy** of the body or [[Physical system|system]].
 ### In analytical mechanics
 Kinetic energy naturally comes up quite often in analytical mechanics. In this context, a few additional details are useful to know:

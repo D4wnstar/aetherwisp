@@ -12,8 +12,8 @@ and graphically it looks like the following figure:
 ![[Schema Diffusione Compton|center]]
 
 For photon energies much greater than the [[binding energy]] of the electron, the electron can be considered free and interact with the photon elastically, where the electron absorbs part of the photon's energy and varies its frequency. It is found that
-$$\Delta \lambda=\lambda'-\lambda=\frac{h}{m_{e}c}(1-\cos\theta)=\lambda_{C}(1-\cos\theta)$$
-where $\lambda_{C}$ is the **Compton wavelength** of the electron. The greater the scattering angle $\theta$, the greater the energy transferred.
+$$\Delta \lambda=\lambda-\lambda_{0}=\frac{h}{m_{e}c}(1-\cos\theta)=\lambda_{C}(1-\cos\theta)$$
+where $\lambda_{0}$ is the original, pre-scattering wavelength, $\lambda$ is the new one post-scattering and $\lambda_{C}$ is the **Compton wavelength** of the electron. The greater the scattering angle $\theta$, the greater the energy transferred.
 
 > [!info] Result
 > The frequency change in the photon is greater the closer the frequency of the photon is to the Compton wavelength $\lambda_{C}$ of the electron. This happens when the energy of the photon is $E_{\gamma}=h\nu\simeq hc/\lambda_{C}=m_{e}c^{2}=0.51$ MeV. For much larger values, the frequency change is substantially zero.
