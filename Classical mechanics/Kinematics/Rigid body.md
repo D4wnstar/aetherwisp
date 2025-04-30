@@ -38,3 +38,6 @@ Hence
 $$\boldsymbol{\omega}=\frac{1}{2}\dot{\theta}(\mathbf{e}_{1}\times \mathbf{e}_{2}-\mathbf{e}_{2}\times \mathbf{e}_{1})=\dot{\theta}\mathbf{e}_{1}\times \mathbf{e}_{2}=\dot{\theta}\mathbf{e}_{3}$$
 But $\mathbf{e}_{3}$ is constant, so the direction of the angular velocity does not change (of course). With this, we can find the [[kinetic energy]] of rotation:
 $$T=\frac{1}{2}\boldsymbol{\omega}\cdot \mathcal{I}\boldsymbol{\omega}=\frac{1}{2}\dot{\theta}^{2}\mathbf{e}_{3}\cdot \mathcal{I}\mathbf{e}_{3}=\frac{1}{2}I_{3}\dot{\theta}^{2}$$
+Mix it with a potential energy of choice and you have a [[Lagrangian]] to solve for motion.
+
+(TODO: Finish this, lesson 30/04/2025)

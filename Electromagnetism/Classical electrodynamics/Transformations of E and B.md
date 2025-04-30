@@ -71,17 +71,57 @@ In theory, this is it. Equations $(4)$, $(5)$ and $(6)$ uniquely describe all of
 
 On paper, at least. In practice, figuring out what $F^{\mu \nu}$ or $G^{\mu \nu}$ are is everything but easy and oftentimes not even that rewarding: most real-world phenomena are already very well described by existing methods, using electric and magnetic fields as separate (but interdependent) objects, which end up being much simpler to solve than trying to tackle the can of worms that relativity is. However, if you cannot ignore relativistic effects, then $(4)$, $(5)$ and $(6)$ are what you reach for.
 ##### Deriving known equations
-It's fair to expect to a confirmation that what we found even works. To do so, we'll just analyze $(5)$ piece-by-piece. Take $\mu=1$ for example. In that case, we get
+It's fair to expect to a confirmation that what we found even works. To do so, we'll just analyze $(5)$ piece-by-piece. Take $\mu=0$ for example
 $$\begin{align}
-\frac{ \partial F^{0\nu} }{ \partial x^{\nu} } &=\frac{ \partial F^{00} }{ \partial x^{0} } +\frac{ \partial F^{01} }{ \partial x^{0} } +\frac{ \partial F^{02} }{ \partial x^{0} } +\frac{ \partial F^{03} }{ \partial x^{0} } \\
+\frac{ \partial F^{0\nu} }{ \partial x^{\nu} } &=\frac{ \partial F^{00} }{ \partial x^{0} } +\frac{ \partial F^{01} }{ \partial x^{1} } +\frac{ \partial F^{02} }{ \partial x^{2} } +\frac{ \partial F^{03} }{ \partial x^{3} } \\
+&=\frac{1}{c}\frac{ \partial E_{x} }{ \partial t } +\frac{ \partial E_{y} }{ \partial y } -\frac{ \partial E_{z} }{ \partial z }  \\
+&=\frac{1}{c}\left( \nabla\cdot \mathbf{E} \right) \\
+&=\mu_{0}J^{0} \\
+&=\mu_{0}c\rho
+\end{align}$$
+By using $c^{2}=1/\varepsilon_{0}\mu_{0}$ we find a familiar form:
+$$\boxed{\nabla\cdot \mathbf{E}=\frac{\rho}{\varepsilon_{0}}}$$
+This is [[Gauss' law]]. Now take $\mu=1$ for example. In that case, we get
+$$\begin{align}
+\frac{ \partial F^{1\nu} }{ \partial x^{\nu} } &=\frac{ \partial F^{10} }{ \partial x^{0} } +\frac{ \partial F^{11} }{ \partial x^{1} } +\frac{ \partial F^{12} }{ \partial x^{2} } +\frac{ \partial F^{13} }{ \partial x^{3} } \\
 &=- \frac{1}{c^{2}}\frac{ \partial E_{x} }{ \partial t } +\frac{ \partial B_{z} }{ \partial y } -\frac{ \partial B_{y} }{ \partial z }  \\
 &=\left( - \frac{1}{c^{2}}\frac{ \partial \mathbf{E} }{ \partial t } +\nabla\times \mathbf{B} \right)_{x} \\
 &=\mu_{0}J^{1} \\
 &=\mu_{0}J_{x}
 \end{align}$$
-Similar results come up for $\mu=1$ and $\mu=2$, which we can combine in vector notation to read
-$$\nabla\times \mathbf{B}=\mu_{0}\mathbf{J}+\mu_{0}\varepsilon_{0}\frac{ \partial \mathbf{E} }{ \partial t } $$
-This is the [[Ampere's law|Ampere-Maxwell law]]. Meanwhile, $\mu=0$ on the $G^{\mu \nu}$ equation gives us (TODO: Finish this)
+Similar results come up for $\mu=2$ and $\mu=3$, which we can combine in vector notation to read
+$$\boxed{\nabla\times \mathbf{B}=\mu_{0}\mathbf{J}+\mu_{0}\varepsilon_{0}\frac{ \partial \mathbf{E} }{ \partial t } }$$
+This is the [[Ampere's law|Ampere-Maxwell law]]. Similarly, $\mu=0$ on the $G^{\mu \nu}$ equation gives us
+$$\begin{align}
+\frac{ \partial G^{0\nu} }{ \partial x^{\nu} } &=\frac{ \partial G^{00} }{ \partial x^{0} } +\frac{ \partial G^{01} }{ \partial x^{1} } +\frac{ \partial G^{02} }{ \partial x^{2} } +\frac{ \partial G^{03} }{ \partial x^{3} } \\
+&=\frac{ \partial B_{x} }{ \partial x } +\frac{ \partial B_{y} }{ \partial y } +\frac{ \partial B_{z} }{ \partial z }   \\
+&=\boxed{\nabla\cdot \mathbf{B}=0}
+\end{align}$$
+This is the unnamed Maxwell equation. Finally, for $\mu=1$:
+$$\begin{align}
+\frac{ \partial G^{1\nu} }{ \partial x^{\nu} } &=\frac{ \partial G^{10} }{ \partial x^{0} } +\frac{ \partial G^{11} }{ \partial x^{1} } +\frac{ \partial G^{12} }{ \partial x^{2} } +\frac{ \partial G^{13} }{ \partial x^{3} } \\
+&=- \frac{1}{c}\frac{ \partial B_{x} }{ \partial t } - \frac{1}{c}\frac{ \partial E_{z} }{ \partial y } + \frac{1}{c}\frac{ \partial E_{y} }{ \partial z }  \\
+&=- \frac{1}{c}\left( \frac{ \partial \mathbf{B} }{ \partial t } +\nabla\times \mathbf{E} \right)_{x} \\
+&=0
+\end{align}$$
+Combine it with the results for $\mu=2$ and $\mu=3$ to get
+$$\boxed{\nabla\times \mathbf{E}=-\frac{ \partial \mathbf{B} }{ \partial t } }$$
+[[Faraday's law]].
+
+The [[Lorentz force]] can be found from the [[Minkowski force]] caused by the field tensor $F^{\mu \nu}$ at a proper velocity $\eta^{\mu}$ on a charge $q$:
+$$K^{\mu}=q\eta_{\nu}F^{\mu \nu}$$
+The spatial components of these are given by $\mu=1,2,3$. For $\mu=1$:
+$$\begin{align}
+K^{1}&=aq\eta_{\nu}F^{1\nu} \\
+&=q(-\eta^{0}F^{10}+\eta^{1}F^{11}+\eta^{2}F^{12}+\eta^{3}F^{13}) \\
+&=q\left[ \frac{-c}{\sqrt{ 1-u^{2}/c^{2} }}\left( - \frac{E_{x}}{c} \right) + \frac{u_{y}}{\sqrt{ 1-u^{2}/c^{2} }}B_{z}+  \frac{u_{z}}{\sqrt{ 1-u^{2}/c^{2} }}(-B_{y})\right] \\
+&=\frac{q}{\sqrt{ 1-u^{2}/c^{2} }}[\mathbf{E}+(\mathbf{u}\times \mathbf{B})]_{x}
+\end{align}$$
+Thus, with the other two components we get
+$$\mathbf{K}=\frac{q}{\sqrt{ 1-u^{2}/c^{2} }}[\mathbf{E}+(\mathbf{u}\times \mathbf{B})]$$
+and since the spatial component of a Minkowski force are related to the ordinary force by $\mathbf{K}=\mathbf{F}/\sqrt{ 1-u^{2}/c^{2} }$ we get
+$$\boxed{\mathbf{F}=\mathbf{E}+(\mathbf{u}\times \mathbf{B})}$$
+
 
 [^1]: Quantum physics notwithstanding.
 

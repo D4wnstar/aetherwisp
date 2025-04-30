@@ -119,6 +119,12 @@ $$\beta=-\frac{ \partial \lambda }{ \partial t } \quad(\text{new }\lambda)$$
 But wait, now both $\boldsymbol{\alpha}$ and $\beta$ are uniquely determined by this one scalar field $\lambda$:
 $$\mathbf{A}'=\mathbf{A}+\nabla \lambda,\quad V'=V-\frac{ \partial \lambda  }{ \partial t } $$
 Evidently, given *any* $\lambda(\mathbf{r},t)$, Maxwell's equation do not change. Changing from one $\lambda$ to another is called a **gauge transformation**. Our duty, then, is to figure how to make the best of this freedom to make our life easier. We've already seen one case of this, in a way: in magnetostatics it's generally convenient to set $\nabla\cdot \mathbf{A}=0$ and we are allowed to do this because $\mathbf{A}$ is is part determined by $\lambda$ and we can just invent a $\lambda$ for which $\nabla\cdot \mathbf{A}=0$. In electrodynamics, this condition is not always the best and historically many choices — called **gauges** — have been explored and studied, and the ultimate choice depends to some extent on the system at hand. In most situation, the best choice is known as the [[Lorenz gauge]]. The $\nabla\cdot \mathbf{A}=0$ gauge that we unknowingly chose in magnetostatics is instead known as the [[Coulomb gauge]].
+#### Relativistic potentials
+When we view Maxwell's equations through the relativistic lens, a lot of things compress into a combined form, since the symmetry of electric and magnetic fields is more than manifest in that context. This is true also for potentials. In fact, when combined, the electric and magnetic vector potentials make up a [[four-vector]]:
+$$A^{\mu}=\left( \frac{V}{c},A_{x},A_{y},A_{z} \right)$$
+We call it (very creatively) the **potential four-vector**. In terms of it, the field tensor can be rewritten as
+$$\boxed{F^{\mu \nu}=\frac{ \partial A^{\nu} }{ \partial x_{\mu} } -\frac{ \partial A^{\mu} }{ \partial x_{\nu} } }$$
+where we are taking derivatives using covariant four-vectors.
 
 [^1]: For correctness' sake, the charges themselves only *align* with the polarization, but don't move much. If they did all actually move to the surface, we'd be working with [[conductor|conductors]] and not with polarized [[dielectric|dielectrics]]. Still, this alignment motion is sufficient to produce a small current.
 
