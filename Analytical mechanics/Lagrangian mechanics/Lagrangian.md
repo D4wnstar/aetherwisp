@@ -2,7 +2,9 @@
 aliases:
   - cyclical coordinates
 ---
-The **Lagrangian** is ???
+The **Lagrangian** $L$ is the difference between the [[Kinetic energy|kinetic]] $T$ and [[potential]] $V$ energy of a [[Physical system|system]]:
+$$L(q,\dot{q},t)=T(q,\dot{q},t)-V(q,t)$$
+where $q$ refers to the [[generalized coordinates]].
 ### Cyclical coordinates
 Consider the case of a Lagrangian with $n$ degrees of freedom that does not explicitly depend on some coordinates $q_{m+1},\ldots,q_{n}$, such that $L\equiv L(q_{1},\ldots,q_{m},\dot{q}_{1},\ldots,\dot{q}_{m},t)$. These are known as **cyclical coordinates**. These have special properties that make them useful to study and isolated. For one, $L$ is invariant over shifts of cyclical coordinates. If we send $q_{l}$ to $q_{l}+c$ for some constant $c$ and $l=m+1,\ldots,n$, the Lagrangian does not change[^1].  Also, $\frac{ \partial L }{ \partial q_{l} }=0$ and therefore $\frac{d}{dt}\frac{ \partial L }{ \partial \dot{q}_{l} }=0$. This means that all [[conjugate momenta]] $P_{l}$ of cyclical coordinates are [[Constant of motion|constants of motion]]. This is very useful, as it means we can knock out $n-m$ variables and just solve the remaining $m$; the rest will follow suit.
 
