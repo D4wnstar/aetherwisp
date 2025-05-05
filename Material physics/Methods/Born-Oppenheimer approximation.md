@@ -1,3 +1,7 @@
+---
+aliases:
+  - adiabatic approximation
+---
 The **Born-Oppenheimer approximation**, also called the **adiabatic approximation**, is a computational method to solve the quantum [[Funzione d'onda|wave function]] of a diatomic [[molecule]]. It is based on the following simplification: the motion of the [[Nucleo atomico|nuclei]] is considerably slower than that of the [[Elettrone|electrons]] and can thus be considered stationary, removing the nuclear kinetic terms from the [[Hamiltonian]]. The positions of the nuclei are then constant parameters and not variables.
 
 The Hamiltonian becomes
