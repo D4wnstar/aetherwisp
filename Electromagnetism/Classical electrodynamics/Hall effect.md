@@ -2,7 +2,7 @@ The **Hall effect** is the formation of an [[electric potential]] between two su
 ### Explanation
 Consider a rectangular pillbox-shaped solid object (called a **Hall sensor**) being traversed uniformly by a [[Electric current|steady current]] $I$ in the $y$ direction ($I=I_{y}$) and by a [[magnetic field]] in the $z$ direction $(B=B_{z})$.
 
-![[Diagram Hall effect|center]]
+![[Diagram Hall effect]]
 
 Due to the [[Lorentz force]], the current will be deflected by the magnetic field as it travels through the object. This will cause a centrifugal force applied onto the charges, which makes the charges get pushed from (in this case) the bottom to the top[^1]. This makes the current no longer uniform and makes the current towards the top (slightly) more intense than the one towards the bottom. But since there is now a difference in charges, an [[electric potential]] $V_{H}$ is produced between the plate, which in turn creates an [[electric field]]
 $$E=\frac{V_{H}}{e}$$
