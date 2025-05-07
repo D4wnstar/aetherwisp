@@ -207,7 +207,7 @@ $$\begin{cases}
 \frac{d}{dt}\hat{q}_{t}=\frac{\hat{p}_{t}}{m} \\
 \frac{d}{dt}\hat{p}_{t}=-m\omega ^{2}\hat{q}_{t}
 \end{cases}$$
-che sono identiche alle [[Hamilton equations|equazioni di Hamilton]] classiche. Questo è dovuto al fatto che $\hat{H}$ qui è quadratica sia in $\hat{q}$ che $\hat{p}$.
+che sono identiche alle [[Hamilton equation|equazioni di Hamilton]] classiche. Questo è dovuto al fatto che $\hat{H}$ qui è quadratica sia in $\hat{q}$ che $\hat{p}$.
 ### Forza di Lorentz
 Un'applicazione diretta dell'oscillatore armonico quantistico è per descrivere una [[particella]] [[Electric charge|elettricamente carica]] soggetta alla [[Lorentz force|forza di Lorentz]]. Questa può essere espressa come
 $$m \frac{d\mathbf{v}}{dt}=\frac{q}{c}\mathbf{v}\times \mathbf{B}(\mathbf{r},t)+q\mathbf{E}(\mathbf{r},t)$$

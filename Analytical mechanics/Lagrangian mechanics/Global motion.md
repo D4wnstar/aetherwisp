@@ -40,7 +40,7 @@ $$S[u]=\int_{x_\text{start}}^{x_\text{end}}L(u(x),u'(x),x)\ dx$$
 and describes motion globally. We should first reflavor our variables to be more familiar. Firstly, let's definitively call $L$ the Lagrangian of our system. Then, in one dimensions, we can just rename $u(x)$ to be the more familiar $q(t)$ and get
 $$S[q]=\int_{t_{1}}^{t_{2}}L(q(t),q'(t),t)\ dt$$
 This functional is called **[[action]]** and the functions $q(t)$ that minimize it fully determine motion and solve the [[Lagrange equation]], a fact known as the [[least action principle]]. This can be trivially extended to multiple dimensions by adding more variables: if $L:\mathbb{R}^{2n+1}\to \mathbb{R}$, the action is
-$$S[q_{1},\ldots,q_{n}]=\int_{t_{1}}^{t_{2}}L(q_{1}(t),\ldots,q_{n}(t),\dot{q}_{1}(t),\ldots,\dot{q}_{n}(t))\ t$$
+$$S[q_{1},\ldots,q_{n}]=\int_{t_{1}}^{t_{2}}L(q_{1}(t),\ldots,q_{n}(t),\dot{q}_{1}(t),\ldots,\dot{q}_{n}(t))\ dt$$
 which is sometimes called the **Hamiltonian action**.
 
 [^1]: Such as trajectory is called a [[geodetic curve]] and is very important in general relativity.

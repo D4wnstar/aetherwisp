@@ -13,3 +13,7 @@
 - [[Kinetic energy]] and matrix
 - [[Functional]]
 - [[Rigid body]]
+- [[Central potential problems]]
+- Spinning top
+### Hamiltonian mechanics
+- [[Hamilton equation]] (Hamiltonian least action principle not in exam)
