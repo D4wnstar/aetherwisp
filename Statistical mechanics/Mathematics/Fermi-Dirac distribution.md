@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 The **Fermi-Dirac distribution** is a [[probability distribution]] that describes the behavior of a [[Physical system|system]] of $N$ non-interacting [[Fermion|fermions]] in [[thermal equilibrium]]. Its [[probability density function]] is
 $$\langle n_{i} \rangle =\frac{1}{e^{\beta(\varepsilon_{i}-\mu)}+1}=\frac{1}{z^{-1}e^{\beta \varepsilon_{i}}+1}$$
 $\langle n_{i} \rangle$ is the average number of fermions in the $i$-th single-[[Particella|particle]] [[stato|state]] of energy $\varepsilon_{i}$, $\mu$ is the system's [[chemical potential]], $\beta=1/k_{B}T$ is the inverse temperature, with $k_{B}$ the [[Boltzmann constant]] and $T$ the [[temperature]], and $z$ is the [[fugacity]]. The [[Normalization|normalization]] constant is

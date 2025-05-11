@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 L'**equazione di Dirac** è un'equazione d'onda relativistica che descrive la dinamica di tutti i [[Fermion|fermioni]] massivi, come [[Elettrone|elettroni]] e [[quark]]. L'equazione è
 $$(i\partial_{\mu}\gamma^{\mu}-m)\Psi=0$$
 dove $\gamma^{\mu}$ sono le [[matrici gamma]]. La [[funzione d'onda]] $\Psi$ che la risolve è un oggetto a quattro componenti, a differenza della funzione a valori complessi dell'[[equazione di Schrödinger]], e questo viene detto [[bispinore]] o [[spinore di Dirac]].

@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 La **traccia** è un numero e operazione definita su una matrice o un [[operatore]].
 - Nel caso di una matrice $A$, la traccia è la somma dei valori sulla sua diagonale. Vale $\mbox{Tr}(A)=\sum\limits_{i=1}^{n}a_{ii}$.
 - Nel caso di un operatore $\hat{A}$, la traccia è vale $\mbox{Tr}(\hat{A})=\sum\limits_{i=1}^{n}\langle \phi_{i}|\hat{A}\phi_{i}\rangle$ dove $\phi_{i}$ sono i vettori di un [[sistema ortonormale completo]] $\{ \phi_{i} \}_{i=1}^{n}$ dello [[spazio di Hilbert]] $\mathcal{H}$ in cui risiede $\hat{A}$. (In realtà questa formula vale anche per le matrici sulla loro [[base]], ma è più facile sommare la diagonale.)

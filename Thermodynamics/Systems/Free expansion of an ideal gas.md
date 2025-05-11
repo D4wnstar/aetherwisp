@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 The **free expansion of an ideal gas** is particularly simple [[physical system]] to analyze the thermodynamics of.
 ### Mechanics
 Consider an [[Ideal gas]] that's contained in a sealed, thermodynamically [[Physical system|isolated]] box by insulating walls. In the real world, this can be approximated by thick walls made of a material with very high [[heat capacity]], such as water (see the figure below).

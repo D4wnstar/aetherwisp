@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 Il **potenziale di Woods-Saxon** è un [[Potential]] di campo medio per i [[nucleone|nucleoni]] del [[nucleo atomico]] nato dall'osservazione che i nuclei non sono sfere con superficie definita con modulo costante. All'interno del nucleo, la densità di carica è costante, mentre si annulla gradualmente avvicinandosi alla superficie.
 
 Si basa su una distribuzione radiale di carica descritta da una [[Distribuzione di Fermi-Dirac]]a due parametri

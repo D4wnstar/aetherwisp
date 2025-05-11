@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 Within the context of relativity and through the knowledge that the [[electric field]] $\mathbf{E}$ and the [[magnetic field]] $\mathbf{B}$ are interrelated, it is fair to ask how these two transform due to relativity, specifically under a [[Lorentz transformation]]. To start,  we need to lay the groundwork, which is to say we need to make some assumptions about how this *might* work and then check if it's true (experimentally or theoretically). We need to claim two things:
 1. the [[electric charge]] is a [[relativistic invariant]]. It does not change under Lorentz transformation. A charge is a charge everywhere and anywhere.
 2. the sources are independent on the fields themselves. It does not matter how a field was created: stationary charge, straight moving charge, random motion in the core of the Sun, spinning particles in a cyclotron; it makes no difference. All fields transform the same.

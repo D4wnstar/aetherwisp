@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 The **electric potential** $V$ or $\phi$ is a [[Potential|potential]] function whose derivative is the [[electric field]]. It is defined in integral form as
 $$V(\mathbf{r})=-\int_{\mathcal{O}}^{\mathbf{r}}\mathbf{E}\cdot d\mathbf{r}' \qquad [\text{V}]\equiv\left[\frac{\text{J}}{\text{C}}\right]$$
 where $\mathbf{r}'$ is the integration variable, not to be confused with the point $\mathbf{r}$ where the potential is calculated, $\mathbf{E}$ is the electric field and $\mathcal{O}$ is a reference point that is arbitrary but must remain consistent for all calculations of $V$. In differential form it reads

@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 
 
 Consideriamo un [[Potential]] descritto da una [[theta di Heaviside]]:

@@ -1,4 +1,5 @@
 ---
+wiki-publish: true
 aliases:
   - fascia Riccioli d'Oro
 ---

@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 A **magnetic dipole** is a tiny [[electric current]] loop. If the size of the loop is infinitesimal, the dipole is said to be **perfect**, otherwise it is **physical**. They are characterized by a [[magnetic dipole moment]]. It is the magnetic analog of the [[electric dipole]].
 ### Under a magnetic field
 Consider a rectangular magnetic dipole of sides $a$ and $b$ subject to a uniform [[magnetic field]] $\mathbf{B}$. Any loop can be built up from an infinite number of arbitrarily small rectangles (a [[Riemann sum]]), so this discussion can be extended without loss of generality to any shape of the loop. For simplicity, center the loop at the origin and, using [[Cartesian coordinates]], tilt the loop by an angle $\theta$ from the $z$ axis towards the $y$ axis. Let $\mathbf{B}$ be in the $z$ direction.

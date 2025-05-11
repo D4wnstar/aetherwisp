@@ -1,1 +1,4 @@
+---
+wiki-publish: true
+---
 Il **raggio effettivo** di una [[Galassia]] è il raggio entro il quale metà della luce totale della galassia è emessa. Per essere un vero e proprio raggio, bisogna assumere che la galassia abbia simmetria sferica o che perlomeno sia simmetrica nell'immagine nel quale la si osserva. Se questa simmetria non è vera, si può invece usare l'[[Isofota]] entro il quale viene emessa metà luce.

@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 The **chain rule** is a formula that expresses the derivative of the composition of two functions. Given two real univariate functions $f(t)$ and $g(x)$, their composition is $h(t)=g(f(t))=(g\circ f)(t)$. The derivative of $h$ is
 $$h'(t)=g'(f(t))f'(t)$$
 This can be extended to arbitrary dimensions. Say now that $f$ and $g$ are defined as $f:\mathbb{R}^{N}\to \mathbb{R}^{M}$ and $g:\mathbb{R}^{M}\to \mathbb{R}^{L}$. The composition is now $h:\mathbb{R}^{N}\to \mathbb{R}^{L}$. The [[differential]] of $h$ is given by

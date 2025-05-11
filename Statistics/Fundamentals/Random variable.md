@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 A **random variable** is a physical quantity whose value cannot be known before measurement due to a dependency on random events. What can be known is the [[probability distribution]] that the variable follows, which gives us no information on what the value *is*, but does gives us information on what the value *is likely to be*.
 
 Generally speaking, it is assumed that a random variable is associated with a "true value", that is, the actual, errorless physical quantity that an object or phenomenon possesses and that we then take measurements of. Our measurements are realizations of the random variable associated with the true value, with an error being introduced by our measurement process. It is also possible that no true value even exists and that a quantity is fundamentally statistical even on a physical level. This is paramount in quantum physics, where systems are described by intrinsically probabilistic [[Funzione d'onda|wave functions]], but it may also be something as simple as a die roll.

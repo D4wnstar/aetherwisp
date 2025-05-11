@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 La [[legge di decadimento radioattivo]] descrive con buona precisione il decadimento di un oggetto esteso composto da [[Nuclide|radionuclidi]]. Perde di validità, tuttavia, una volta che vengono aggiunti [[Nucleo atomico|nuclei]] esternamente al campione. In questo caso, va considerata anche l'aggiunta di [[Particella|particelle]] esterne.
 
 Si definisce **tasso di produzione** $R$ la quantità di conversioni da nucleo stabile ad instabile che accadono quando un bersaglio stabile viene bombardato da un fascio di particelle. Tipicamente è molto basso, quindi il numero di [[atomo|atomi]] stabili che compongono il bersaglio non varia sensibilmente. 

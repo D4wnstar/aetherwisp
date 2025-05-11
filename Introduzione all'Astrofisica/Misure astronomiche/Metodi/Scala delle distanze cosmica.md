@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 La **scala delle distanze cosmica** è la successione di metodi usati in astronomia per misurare le distanze di corpi celesti. La misura diretta della distanza di un oggetto è possibile sono per oggetti molto vicini alla Terra (in scala cosmica), il che vale a dire meno di $\sim1000$ [[parsec]] grazie al telescopio Gaia.
 
 Al di là di questo raggio, si devono usare [[Candela standard|candele standard]] o [[Regolo standard|regoli standard]]. Alternativamente, le distanze sono in genere misurate a partire da relazioni che collegano due quantità osservate: una dipendente dalla distanza, come [[Luminosità]] o diametro, e una indipendente, come [[Colore]] o periodo di oscillazione (per stelle variabili). Queste relazioni agiscono di fatto come candele e regoli standard e sono preferite, dato che è più facile usare una relazione che cercare un oggetto di proprietà note a priori e perché può essere usata su numerosi oggetti, diminuendo l'errore sulla misura.

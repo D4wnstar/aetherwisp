@@ -1,4 +1,5 @@
 ---
+wiki-publish: true
 aliases:
   - supernova di tipo I
   - supernova di tipo Ia

@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 L'**operatore di traslazione** o di **displacement** $\hat{D}(\alpha)$ è un [[operatore]] che tipicamente compare in ottica quantistica che trasforma lo [[stato]] fondamentale $\ket{0}$ di un [[oscillatore armonico quantistico]] in uno [[stato coerente]] $\ket{\alpha}$ di [[Equazione agli autovalori|autovalore]] $\alpha \in \mathbb{C}$. In simboli
 $$\hat{D}(\alpha)\ket{0} =\ket{\alpha} $$
 Ha una forma chiusa data da

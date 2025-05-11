@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 A **(physical) electric dipole** is a system of two equal and opposite [[Electric charge|electric charges]] separated by a distance $d$.
 
 ![[VFPt_dipoles_electric.svg|400]]

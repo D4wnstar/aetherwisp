@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 The **angular momentum** $\mathbf{L}$ of an object at position $\mathbf{r}$ moving about a point $O$ with [[linear momentum]] $\mathbf{p}$ is the [[Vector product|cross product]]
 $$\mathbf{L}=\mathbf{r}\times \mathbf{p}$$
 $\mathbf{r}$ is the vector connecting $O$ with the object.

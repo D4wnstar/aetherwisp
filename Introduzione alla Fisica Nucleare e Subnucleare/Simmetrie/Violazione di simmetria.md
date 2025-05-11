@@ -1,1 +1,4 @@
+---
+wiki-publish: true
+---
 Si parla di **violazione di simmetria** quando, avendo applicato una [[Trasformazione di simmetria]] ad un sistema, si ottiene un sistema diverso da quello iniziale, con fenomenologia diversa. Se la [[simmetria]] fosse rispettata, il sistema sarebbe lo stesso, solo con certi valori trasformati.

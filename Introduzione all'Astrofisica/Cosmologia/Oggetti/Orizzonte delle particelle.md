@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 L'**orizzonte delle particelle** è il confine oltre il quale due osservatori, data l'età dell'universo, non possono più interagire fra loro. Questo accade perché la [[velocità della luce]] è finita e una [[particella]] che su muove con tale velocità raggiunge distanze finite in tempi finiti. Assumendo l'isotropia dell'universo, l'orizzonte delle particelle è una sfera di raggio $vt_{0}$, dove $t_{0}$ è l'età dell'universo e $v$ è la velocità più alta che una particella può mediamente avere su lunghe distanze (paragonabili alla grandezza dell'universo osservabile).
 
 In genere $v=c$, ma prima dell'[[era della ricombinazione]] i [[Photon|fotoni]] non potevano muoversi lontano prima di essere assorbiti, quindi in questo caso la velocità massima su grande scala è quella del suono in un plasma [[ionizzazione|ionizzato]], pari a $c/\sqrt{3}$.

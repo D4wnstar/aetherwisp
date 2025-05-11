@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 Un **sistema di coordinate celesti** è un sistema matematico che si usa per determinare in modo numerico la posizione di un corpo celeste nel cielo. Ne esistono diversi e a livello di ricerca ne vengono usati 2/3, in base alle necessità. Geometricamente, sono sistemi di coordinate sferiche a tre coordinate: una è sempre la distanza, mentre le due coordinate angolari dipendono dal sistema. Per definire un sistema di coordinate celesti si seguono tre passi:
 1. definiamo un osservatore al centro della sfera celeste
 2. definiamo un piano passante per il centro della sfera, la cui intersezione con la sfera viene chiamata *orizzonte* e l'intersezione con la verticale definisce i poli

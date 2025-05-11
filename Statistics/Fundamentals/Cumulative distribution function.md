@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 A **cumulative distribution function** (**CDF**) is a function associated with a [[random variable]] that gives the [[probability]] that the variable will take a value less than or equal to some value $x$.
 
 Formally, for a random variable $X$, its cumulative density function $F_{X}(x)$ is

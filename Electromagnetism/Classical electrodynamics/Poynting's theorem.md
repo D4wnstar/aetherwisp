@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 **Poynting's theorem** is a result expressing conservation of [[energy]] in electrodynamics. It states that in a given volume $V$, the stored electromagnetic energy $U$ changes at a [[power|rate]] $P$ given by the [[work]] done on the [[electric charge|charges]] within the volume, minus the rate at which energy leaves the volume. It is equivalent in nature to the mechanical [[work-energy theorem]] and binds *stored* energy to *transported* energy as a consequence of energy conservation: if something goes out, it must be removed from what's inside. In integral form it reads
 $$P=\frac{ \partial U }{ \partial t } =-\frac{ \partial  }{ \partial t } \int_{V}u(\mathbf{r})\ d\tau-\oint_{S}\mathbf{S}\cdot d\mathbf{a}$$
 where $u(\mathbf{r})$ is the electromagnetic energy density, $S$ is the bounding [[Surface|surface]] of $V$ and $\mathbf{S}$ is the [[Poynting vector]]. It is closely related to the continuity equation for [[electric current]] $\nabla\cdot\mathbf{J}=-\frac{ \partial \rho }{ \partial t }$.

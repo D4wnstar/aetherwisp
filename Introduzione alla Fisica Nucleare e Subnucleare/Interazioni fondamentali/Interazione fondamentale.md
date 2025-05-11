@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 Le **interazioni fondamentali** sono le "forze" più elementari dell'Universo. Nell'Universo moderno ne esistono quattro:
 1. [[interazione gravitazionale]]
 2. [[interazione elettromagnetica]]

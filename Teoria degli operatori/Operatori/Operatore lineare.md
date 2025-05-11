@@ -1,4 +1,5 @@
 ---
+wiki-publish: true
 aliases:
   - decomposizione spettrale
   - operatore continuo

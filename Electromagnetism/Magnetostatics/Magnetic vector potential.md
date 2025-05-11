@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 The **magnetic vector potential** $\mathbf{A}$ is a [[Vector potential|vector potential]] function whose [[Curl]] is the [[magnetic field]] $\mathbf{B}$:
 $$\nabla\times\mathbf{A}=\mathbf{B}$$
 ### Divergence and curl

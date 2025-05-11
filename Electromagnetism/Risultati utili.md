@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 ## Campi
 ### Equazioni di Maxwell
 Nel vuoto:

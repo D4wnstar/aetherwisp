@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 **Laplace's equation** is a second order linear [[partial differential equation]]
 $$\nabla^{2}\psi=0$$
 where $\nabla^{2}$ is the [[Laplacian|Laplacian]]. A solution to this equation is said to be a **harmonic function**. It is a particular case of the [[Poisson's equation|Poisson's equation]], where $f=0$.

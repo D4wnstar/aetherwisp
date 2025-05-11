@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 > [!success] Esame
 > Questo esperimento può essere fatto per l'esame di Lab 2.
 

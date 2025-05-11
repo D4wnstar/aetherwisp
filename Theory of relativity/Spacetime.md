@@ -1,4 +1,5 @@
 ---
+wiki-publish: true
 aliases:
   - Minkowski space
   - space-like

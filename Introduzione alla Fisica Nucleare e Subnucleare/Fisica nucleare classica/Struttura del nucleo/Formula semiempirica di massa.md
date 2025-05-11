@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 La **formula semiempirica di massa**, anche conosciuta come **formula di Weizsacker**, è una formula per stimare la massa e l'[[energia di legame]] di un [[atomo]]:
 $$m(Z,A)=Nm_{n}+Zm_{p}+Zm_{e}- \frac{B(Z,A)}{c^{2}}$$
 con

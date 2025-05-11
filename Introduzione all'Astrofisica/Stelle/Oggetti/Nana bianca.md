@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 Una **nana bianca** è un [[relitto stellare]], il nucleo di una [[stella]] di massa non supermassiva (minore di 8 [[massa solare|masse solari]]) che è rimasto esposto dopo l'eiezione dell'inviluppo sotto forma di una [[nebulosa planetaria]]. Si stima che circa il 95% delle stelle dell'universo diventerà una nana bianca al termine della sua [[Evoluzione stellare|evoluzione]].
 
 Hanno masse di circa 0.6 masse solari e hanno raggi di circa 0.02 [[Raggio solare|raggi solari]], dimensioni paragonabili a quelle della Terra. La loro densità è, di conseguenza, estremamente alte, con stime nell'ordine dei 1000 kg/cm$^{3}$.

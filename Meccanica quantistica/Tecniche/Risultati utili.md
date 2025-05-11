@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 ## Postulati
 1. Gli stati puri di un sistema quantistico sono tutti i vettori normalizzati di un dato spazio di Hilbert $\mathcal{H}$, detti vettori di stato. Tutte le combinazioni convesse di vettori di stato, risultanti in matrici di densità, sono ancora vettori di stato.
 2. Le osservabili quantistiche sono i tutti e soli operatori autoaggiunti su $\mathcal{H}$. Ad oggi, è sempre stato possibile associare ad ogni osservabile un apparato sperimentale per misurarla. Allo stesso modo, ad ogni apparato sperimentale è stata associata un'osservabile di cui si misurano gli autostati.

@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 Il **teorema di Noether** è un risultato fondamentale che associa trasformazioni della dinamica di un sistema con leggi di conservazione.
 
 Consideriamo un'Hamiltoniana $\hat{H}$ definita nell'[[algebra]] dei [[operatore|operatori]] unitari $\mathcal{B}(\mathcal{H})$, con $\mathcal{H}$ uno [[spazio di Hilbert]]. Consideriamo anche un operatore $\hat{G}:\mathcal{H}\to \mathcal{H}$ definita nella stessa algebra che genera una trasformazione di $\hat{H}$ in $\alpha$. Allora, l'evoluzione temporale di $\hat{G}$ e $\hat{H}$ sono

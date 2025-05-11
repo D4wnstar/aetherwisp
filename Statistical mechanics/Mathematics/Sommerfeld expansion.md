@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 The **Sommerfeld expansion** is an approximation used to solve a certain class of integrals related to the [[Fermi-Dirac distribution]]. It leads to a [[serie di potenze|power series]] representation where each term contains an integral. The general form of the integral that can be expanded with this method is
 $$\int_{-\infty}^{\infty} \frac{H(\varepsilon)}{z^{-1}e^{\beta\varepsilon}
 +1} \ d\varepsilon $$

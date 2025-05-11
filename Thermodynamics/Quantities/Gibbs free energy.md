@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 The **Gibbs free energy** or **Gibbs thermodynamic potential** $G$ is a measure of energy of a system. It is defined as
 $$G=A+PV=U-TS+PV$$
 where $A$ is the [[Helmholtz theorem]], $P$ is the [[pressure]], $V$ is the volume, $U$ is the [[internal energy]], $T$ is the [[temperature]] and $S$ is the [[entropy]].

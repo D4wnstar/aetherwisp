@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 La **formula di Breit-Wigner** è una [[probability distribution|distribuzione di probabilità]] che modella la [[risonanza nucleare]]
 $$P(E)=\frac{1}{2\pi} \frac{\Gamma}{(E-E_{n})^{2}+ \frac{\Gamma^{2}}{4}}$$
 dove $\Gamma$ è la *larghezza di decadimento*, misurata in [[Elettronvolt|GeV]], pari a $\Gamma=\hbar/\tau$ con $\tau$ la [[Legge di decadimento radioattivo|vita media]] della [[particella]] che [[Decadimento nucleare|decade]]. Vale

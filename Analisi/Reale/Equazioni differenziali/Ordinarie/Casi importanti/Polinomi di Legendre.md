@@ -1,4 +1,5 @@
 ---
+wiki-publish: true
 aliases:
   - funzione di Legendre
   - funzione di Legendre associata

@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 Una [[Distribuzione]] si dice **temperata** se è un *funzionale* lineare e continuo definito sullo [[Spazio di Schwartz]] in $\mathbb{C}$. In altre parole, $T:\mathcal{S}\rightarrow C$ è una distribuzione temperata se è lineare rispetto alla struttura di [[Vector space]] di $\mathcal{S}$ e continua nella convergenza ivi definita, ovvero
 $$T(\varphi_{n})\rightarrow T(\varphi)\quad\text{se}\quad\varphi_{n} \rightarrow\varphi\text{ in }\mathcal{S}$$
 Lo spazio delle distribuzioni temperate si indica con $\mathcal{S}'$ ed è lo [[spazio duale]] di $\mathcal{S}$.

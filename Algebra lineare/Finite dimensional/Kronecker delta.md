@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 The **Kronecker delta** $\delta_{ij}$ is a function of two discrete variables, typically integer indexes, such that is equal to zero if the indexes are different and to one if they are the same:
 $$\delta_{ij}=\begin{cases}
 1 & \text{if }i=j \\

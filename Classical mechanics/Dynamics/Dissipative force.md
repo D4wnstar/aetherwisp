@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 A **dissipative force** is a force for which the [[energy]] of the [[Physical system|system]] is reduced when the force takes place. The energy is transferred outside of the system and typically transformed in a different form of energy, the most common type being [[heat]]. Common examples are [[Friction]] and [[Viscosity]].
 
 A simple model for a generic dissipative force is

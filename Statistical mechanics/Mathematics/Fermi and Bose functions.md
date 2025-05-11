@@ -1,4 +1,5 @@
 ---
+wiki-publish: true
 aliases:
   - Fermi functions
   - Bose functions

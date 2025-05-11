@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 L'**interazione debole** è l'[[interazione fondamentale]] che governa il [[Decadimento nucleare|decadimento]] delle [[Particella|particelle]] elementari.
 
 L'interazione debole agisce mediante lo scambio di un [[bosone W]] o di un [[bosone Z]].

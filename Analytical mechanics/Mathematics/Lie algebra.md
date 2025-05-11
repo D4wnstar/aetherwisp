@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 A **Lie algebra** is a [[vector space]] equipped with a product $\cdot$ with the following properties:
 1. It is bilinear: $a\cdot(\beta b\cdot \gamma c)=\beta a\cdot b+\gamma a\cdot c$.
 2. It is antisymmetric: $a\cdot b=-b\cdot a$.

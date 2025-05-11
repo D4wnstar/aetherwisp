@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 La **serie esponenziale** è la [[Serie]] che definisce la funzione esponenziale $e^{x}$:
 $$\sum\limits_{n=0}^{\infty} \frac{x^n}{n!}=e^x$$
 Converge con $x=1$. I primi termini sono

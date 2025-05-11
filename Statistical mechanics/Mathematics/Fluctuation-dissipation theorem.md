@@ -1,1 +1,4 @@
+---
+wiki-publish: true
+---
 The **fluctuation-dissipation theorem** provides a way to predict the response of a system to an external output.

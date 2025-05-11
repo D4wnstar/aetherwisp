@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 La **delta di Dirac** $\delta(x)$ è una [[distribuzione temperata]]. Ha le dimensione dell'inverso dell'argomento. È definita come
 $$\delta(x)=\begin{cases}
 0 & \text{se }x\neq0 \\

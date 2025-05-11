@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 Le **equazioni di Friedmann** sono un insieme di equazioni che spiegano l'[[espansione dell'universo]] in un modello cosmologico che obbedisce al [[principio cosmologico]]. Derivano da una soluzione dipendente dal tempo dell'[[equazione di Einstein]].
 ## Derivazione dalle leggi di Newton
 Sebbene non sia un modo efficace di studiare l'universo, è possibile derivare le equazioni di Friedmann dalle [[leggi di Newton]]. È necessario tuttavia usare un risultato della relatività generale: il [[teorema di Birkhoff]], che è una generalizzazione [[Lorentz transformation|relativistica]] del [[teorema di Gauss]]. In sostanza, dice che in una sfera di distribuzione di massa omogenea e isotropa, l'evoluzione all'interno della sfera non è influenzato da quella all'esterno della sfera.

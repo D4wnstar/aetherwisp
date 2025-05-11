@@ -1,1 +1,4 @@
+---
+wiki-publish: true
+---
 Sia $f(z)$ una [[Funzione intera]] e limitata, ovvero esiste $M\in\mathbb{R}$ costante tale che $|f(z)|\leq M\;\forall z\in \mathbb{C}$. Allora la funzione è costante.

@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 Consider the integral of some univariate function $g(x)$ of a continuous [[random variable]] $X$ in the interval $[a,b]$:
 $$I=\int _{a}^{b}g(x) \ dx $$
 The trick is to multiply and divide by a function $f(x)$ like so:

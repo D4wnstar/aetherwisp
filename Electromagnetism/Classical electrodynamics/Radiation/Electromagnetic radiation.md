@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 **Electromagnetic radiation** is [[radiation]] due to [[electromagnetic wave|electromagnetic waves]]. It occurs when [[Electric charge|charged particles]] accelerate, which causes them to emit [[energy]] that is carried off to infinity.
 ### Definition
 Consider a localized source[^1] near the origin. To determine the energy radiated from the source at some time $t_{0}$, we encase the source in a sphere of of massive radius $r$, large enough that the source looks like a point. The energy passing through the surface is given by integrating the [[Poynting vector]] over the surface

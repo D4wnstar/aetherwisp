@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 The **retarded time** is the time at which a signal was produced, as opposed to the time at which it is received. For an [[electromagnetic wave]], which travels at the [[speed of light]], it is
 $$t_{r}\equiv t- \frac{\mathfrak{r}}{c}$$
 where $t$ is the time of arrival and $\mathfrak{r}$ is the distance between the source and the receiver, under the assumption that it travels in a straight line.

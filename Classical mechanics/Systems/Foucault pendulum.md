@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 The **Foucault pendulum** is a type of pendulum designed to prove the rotation of the Earth. It consists of a mass $m$ attached to a wire of length $L$ of negligible mass. The other end of the wire is attached to some point $\mathcal{O}$, which is assumed to be [[Friction|frictionless]]. The only forces that act on the pendulum are [[Interazione gravitazionale|gravity]] and wire tension.
 
 ![[Focault Pendulum Schema.png]]

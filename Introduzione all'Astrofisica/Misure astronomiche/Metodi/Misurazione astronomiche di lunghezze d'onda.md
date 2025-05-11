@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 Diverse regioni, o bande, dello [[Spettro elettromagnetico]] interagiscono in modo diverso con la materia e quindi con i nostri [[telescopi]]. Si usano dunque metodi diverse per bande diverse.
 
 Ciascuna categoria di lunghezze d'onda ha le sue caratteristiche:

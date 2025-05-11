@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 Il **fattore di Boltzmann** è un termine che compare in meccanica statistica. Vale
 $$e^{-\beta E}$$
 con $\beta$ la **temperatura inversa**

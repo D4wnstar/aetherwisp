@@ -1,4 +1,5 @@
 ---
+wiki-publish: true
 aliases:
   - relazione di Faber-Jackson
 ---

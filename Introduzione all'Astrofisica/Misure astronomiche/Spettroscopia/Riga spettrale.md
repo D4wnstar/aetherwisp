@@ -1,4 +1,5 @@
 ---
+wiki-publish: true
 aliases:
   - riga di assorbimento
   - riga di emissione

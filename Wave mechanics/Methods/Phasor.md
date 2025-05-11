@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 A **phasor** is a complex function representing a sinusoidal function through [[Euler's formula]]. In general, it is the constant part of a function of the form
 $$\psi(t)=Ae^{i(\omega t+\varphi)}=\underbrace{ Ae^{i\varphi} }_{ \text{phasor} }\ \cdot e^{i\omega t}$$
 for some real constant $A$. The [[real and imaginary parts|real part]] of this function is the sinusoid:

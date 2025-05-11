@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 **Electromagnetic induction** is a phenomenon occurring in electrodynamics that can be summarized as follows:
 
 > **A changing magnetic field induces an electric field.**

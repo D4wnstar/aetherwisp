@@ -1,4 +1,5 @@
 ---
+wiki-publish: true
 tags:
   - equazioni-differenziali-ordinarie
 ---

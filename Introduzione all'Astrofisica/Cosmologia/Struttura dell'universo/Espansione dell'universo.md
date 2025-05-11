@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 L'**espansione dell'universo** è l'aumento delle distanze tra oggetti non [[Stati in meccanica quantistica|legati]] [[Interazione gravitazionale|gravitazionalmente]] nell'universo osservabile nel tempo.
 ### Differenze materia-radiazione
 L'espansione non influenza [[materia]] e [[radiazione]] allo stesso modo. La densità massa-energia della materia, se non è [[Lorentz transformation|ultrarelativistica]] decresce con il [[fattore di scala]] come $\propto a(t)^{-3}$, cioè va come

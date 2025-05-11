@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 The **simple pendulum** is an approximate model of a pendulum, comprised of a zero-dimensional point mass hanging at the end of a mass-less wire attached with no [[Friction]] to a fixed point. The mass is only subject to [[Interazione gravitazionale|gravity]] and ignores other forces like air drag. It is a specific case of the [[Foucault pendulum]] where the angle $\theta$ is constant and angular speed $\omega$ can be taken to be zero. This makes the pendulum swing on a plane and the system simplifies to a two-dimensional problem.
 
 Starting from the Foucault pendulum equations of motion, equation $(1)$ becomes trivial when $\theta=\text{const.}$ and $\omega=0$. Equation $(2)$ becomes

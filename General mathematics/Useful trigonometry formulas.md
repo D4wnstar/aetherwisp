@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 $$\sin^{2}(x)+\cos^{2}(x)=1$$
 $$\sin(\arctan(x))=\frac{x}{\sqrt{x^{2}+1}}$$
 $$\tan^{2}(x)+1=\frac{1}{\cos^{2}(x)}=\sec^{2}(x)$$

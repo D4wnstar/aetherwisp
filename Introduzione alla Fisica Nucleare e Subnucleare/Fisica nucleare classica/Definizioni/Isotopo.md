@@ -1,1 +1,4 @@
+---
+wiki-publish: true
+---
 Due [[Nuclide|nuclidi]] si dicono **isotopi** se hanno numero di [[protone|protoni]] $Z$ uguale, ma numero di [[neutrone|neutroni]] $N$ diverso. Per esempio, il cloro ha due isotopi stabili $^{35}\text{Cl}$ e $^{37}\text{Cl}$ e numerosi isotopi instabili. Un isotopo si dice **stabile** se ha una [[Legge di decadimento radioattivo|vita media]] considerevolmente più lunga della vita media del Sistema Solare.

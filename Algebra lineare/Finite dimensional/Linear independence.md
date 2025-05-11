@@ -1,4 +1,5 @@
 ---
+wiki-publish: true
 aliases:
   - linearly independent
   - linear dependence

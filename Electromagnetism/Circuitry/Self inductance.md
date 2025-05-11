@@ -1,4 +1,5 @@
 ---
+wiki-publish: true
 aliases:
   - back emf
   - RL circuit

@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 Una funzione reale $f(x)$ si dice **integrabile secondo Lebesgue** se la parte positiva
 $$f^{+}(x)=\begin{cases}
 f(x) & \text{ se } f(x)>0 \\

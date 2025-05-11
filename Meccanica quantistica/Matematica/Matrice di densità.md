@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 La **matrice di densità** o **densità statistica** $\hat{\rho}$ è una matrice con [[Traccia]] unitaria definita come la forma matriciale di un [[operatore lineare]] [[Operatore semidefinito positivo|semidefinito positivo]] detto **operatore densità**. Essa descrive un sistema quantistico con più possibili [[stato|stati]] e permette di calcolare la [[probability|probabilità]] di riduzione del pacchetto d'onda in ogni possibile [[Equazione agli autovalori|autostato]] a seguito di una misura. È una forma più generale della rappresentazione in forma vettoriale, che è limitata agli stati puri. Le matrici di densità possono invece anche descrivere stati misti, e sono generalmente usata per questo[^1].
 
 Preso uno stato qualunque $\ket{\psi}$ e una [[sistema ortonormale completo]] $\{ \phi_{i} \}_{i}$ nello [[spazio di Hilbert]] di $\psi$, vale
@@ -49,11 +52,11 @@ $$P^{2}_{\rho_{1,2}}=\frac{1}{4}[1\pm2\hat{r}\cdot\vec{\sigma}+(\hat{r}\cdot\vec
 dato che $(\hat{r}\cdot\vec{\sigma})^{2}=1$. Abbiamo quindi dimostrato che $\hat{\rho}$ è una combinazione di proiettori, in particolare una con coefficienti positivi la cui somma è unitaria. Questo particolare tipo di combinazione si dice [[Convex combination]].
 
 Possiamo ora cercare i vettori associati a questi proiettori. Questi sono, in generale, del tipo
-$$|\rho_{1},\rho_{2}\rangle=\pmatrix{a_{\pm} \\ b_{\pm}}$$
+$$|\rho_{1},\rho_{2}\rangle=\begin{pmatrix}a_{\pm\end{pmatrix} \\ b_{\pm}}$$
 e quindi i proiettori in generale sono
-$$P_{\rho_{1,2}}=|\rho_{1},\rho_{2}\rangle\langle \rho_{1},\rho_{2}|=\pmatrix{|a_{\pm}|^{2} & a_{\pm}b_{\pm} \\ a^{*}_{\pm}b_{\pm} & |b_{\pm}|^{2}}$$
+$$P_{\rho_{1,2}}=|\rho_{1},\rho_{2}\rangle\langle \rho_{1},\rho_{2}|=\begin{pmatrix}|a_{\pm\end{pmatrix}|^{2} & a_{\pm}b_{\pm} \\ a^{*}_{\pm}b_{\pm} & |b_{\pm}|^{2}}$$
 ma questa matrice deve avere la forma
-$$P_{\rho_{1,2}}=\frac{1\pm\vec{r}\cdot\vec{\sigma}}{2}=\pmatrix{1\pm \frac{r_{1}}{r} & \pm \frac{r_{1}-ir_{2}}{2r} \\ \pm \frac{r_{1}+ir_{2}}{2r} & 1\mp \frac{r_{3}}{r}}$$
+$$P_{\rho_{1,2}}=\frac{1\pm\vec{r}\cdot\vec{\sigma}}{2}=\begin{pmatrix}1\pm \frac{r_{1\end{pmatrix}}{r} & \pm \frac{r_{1}-ir_{2}}{2r} \\ \pm \frac{r_{1}+ir_{2}}{2r} & 1\mp \frac{r_{3}}{r}}$$
 Confrontando i termini della diagonale si trovano due condizioni sui moduli:
 $$a_{\pm}=e^{i\phi_{\pm}}\sqrt{\frac{1}{2}\left(1\pm \frac{r_{3}}{r}\right)}, \quad b_{\pm}=e^{i\psi_{\pm}}\sqrt{\frac{1}{2}\left(1\mp \frac{r_{3}}{r}\right)}$$
 e una differenza di fase confrontando i termini non diagonali:
@@ -65,7 +68,7 @@ $$e^{i(\phi_{\pm}-\psi_{\pm})}=\pm e^{-i\arctan(r_{2}/r_{1})}$$
 e allora
 $$e^{i\psi_{\pm}}=\pm e^{i(\phi_{\pm}+\arctan(r_{2}/r_{1}))}$$
 e infine, esplicitando i vettori generici, si ha
-$$\pmatrix{a_{\pm} \\ b_{\pm}}=e^{i\phi_{\pm}}\pmatrix{\sqrt{\frac{1}{2}\left(1\pm \frac{r_{3}}{r}\right)} \\ \pm e^{i\arctan(r_{2}/r_{1})}\sqrt{\frac{1}{2}\left(1\mp \frac{r_{3}}{r}\right)}}$$
+$$\begin{pmatrix}a_{\pm\end{pmatrix} \\ b_{\pm}}=e^{i\phi_{\pm}}\begin{pmatrix}\sqrt{\frac{1\end{pmatrix}{2}\left(1\pm \frac{r_{3}}{r}\right)} \\ \pm e^{i\arctan(r_{2}/r_{1})}\sqrt{\frac{1}{2}\left(1\mp \frac{r_{3}}{r}\right)}}$$
 La fase totale $e^{i\arctan(r_{2}/r_{1})}$ non dà alcuna informazione, in quanto scompare nel calcolo della matrice del proiettore essendo moltiplicata per la sua coniugata, quindi è trascurabile. Questi due vettori sono effettivamente gli autovettori del proiettore.
 
 [^1]: Va notato che le matrici di densità per stati misti dovuti da un [[ensemble]] di stati puri e matrici per stati misti dovuti ad [[entanglement quantistico]] sono in genere diverse. Ad esempio, la matrice di densità per un ensemble composto in parti uguali da stati puri $\ket{\psi_{1}}$ e $\ket{\psi_{2}}$ sarà diversa da quella per un sistema intrecciato tra $\ket{\psi_{1}}$ e $\ket{\psi_{2}}$ con [[ampiezza di probabilità|ampiezze di probabilità]] uguali. La ragione è che la causa dell'incertezza in questi due casi è diversa: nel caso di un ensemble, proviene dalla nostra ignoranza riguardo alle specifiche del sistema; nel caso di entanglement, proviene da una legge fondamentale dell'Universo.

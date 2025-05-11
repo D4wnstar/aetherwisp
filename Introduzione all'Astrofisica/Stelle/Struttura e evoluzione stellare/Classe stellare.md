@@ -1,4 +1,5 @@
 ---
+wiki-publish: true
 aliases:
   - classe spettrale
   - classe di luminosità

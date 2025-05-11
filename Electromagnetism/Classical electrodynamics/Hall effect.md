@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 The **Hall effect** is the formation of an [[electric potential]] between two surfaces of a solid material when [[electric charge|electric charges]] move through it while under a perpendicular [[magnetic field]].
 ### Explanation
 Consider a rectangular pillbox-shaped solid object (called a **Hall sensor**) being traversed uniformly by a [[Electric current|steady current]] $I$ in the $y$ direction ($I=I_{y}$) and by a [[magnetic field]] in the $z$ direction $(B=B_{z})$.

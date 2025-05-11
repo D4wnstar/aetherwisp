@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 Consideriamo una [[Particella]] immersa in un [[Potential]] della forma
 $$V(x)=-\alpha \delta(x)$$
 con $\alpha$ una costante positiva e $\delta(x)$ la [[delta di Dirac]]. Questo potenziale è una [[Buca infinita quantistica|buca infinita]] localizzata interamente nell'origine, a differenza della buca infinita vera e propria, che ha un'estensione spaziale. L'[[equazione di Schrödinger]] diventa

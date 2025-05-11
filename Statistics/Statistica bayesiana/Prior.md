@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 La **distribuzione a priori** o **prior** è una distribuzione di probabilità assunta che rappresenta la conoscenza pregressa che si nei rispetti di un processo. In altre parole, è la distribuzione di probabilità che si assume in mancanza di dati sul problema.
 
 È un componente fondamentale del [[Teorema di Bayes per la stima dei parametri]], dove è pesata dalla funzione di [[Likelihood]] dei parametri del modello statistico per ottenere il [[Posterior]].

@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 One-dimensional mechanical [[Physical system|systems]] are of particular interest in physics. Their general [[ordinary differential equation]] is
 $$m\ddot{x}=F(x,\dot{x},t)$$
 where $m$ is the [[mass]], $x$ is the position, $\dot{x}=v$ is velocity, $\ddot{x}=a$ is acceleration, $t$ is time and $F$ is a [[force]].

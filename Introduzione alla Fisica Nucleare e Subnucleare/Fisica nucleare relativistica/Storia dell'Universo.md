@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 La storia fisica dell'[[Universo]] è l'ambito della cosmologia, ma anche la fisica nucleare relativistica e delle particelle è necessaria per capirla a pieno.
 
 All'inizio, a $t=0$, è accaduto il [[Big Bang]]. Le fasi successive accadono tutte nel giro di frazioni infinitesime di secondo. In particolare, si divide l'universo in epoche:

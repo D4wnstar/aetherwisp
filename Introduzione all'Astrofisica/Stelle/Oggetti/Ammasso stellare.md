@@ -1,4 +1,5 @@
 ---
+wiki-publish: true
 aliases:
   - ammasso aperto
   - ammasso globulare

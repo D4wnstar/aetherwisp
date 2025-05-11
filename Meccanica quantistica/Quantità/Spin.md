@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 Lo **spin** $\hat{S}$ è l'equivalente quantistico del momento angolare di spin di un corpo. È rappresentato da un [[operatore semidefinito positivo]] vettoriale in tre dimensioni
 $$\hat{S}=(\hat{S}_{x},\hat{S}_{y},\hat{S}_{z})$$
 
@@ -26,31 +29,31 @@ Dato che le componenti sono intercambiabili fra loro con una permutazione ciclic
 Il caso dello spin $s=1/2$ è di gran lunga il più importante, dato che tutte le particelle che compongono la materia ordinaria ([[protone]], [[neutrone]], [[Elettrone]]) hanno spin 1/2, così come tutti i [[quark]] e tutti i [[Leptone|leptoni]].
 
 Ha anche la fortuna di essere il caso più facile possibile, grazie al fatto che esistono solo due possibili autostati per $s$ e $m_{s}$: $| \frac{1}{2},\frac{1}{2}\rangle$ e $| \frac{1}{2}, -\frac{1}{2}\rangle$. Questi due stati vengono comunemente chiamati **spin up** $\uparrow$ e **spin down** $\downarrow$. I vettori che rappresentano questi due stati compongono una [[base]] in $\mathbb{C}^{2}$ e possono dunque essere combinati linearmente per creare stati misti espressi come vettori colonna bidimensionali (ossia degli [[spinore|spinori]]):
-$$\chi=\pmatrix{a \\ b}=a |\uparrow\;\rangle+b |\downarrow\;\rangle$$
+$$\chi=\begin{pmatrix}a \\ b\end{pmatrix}=a |\uparrow\;\rangle+b |\downarrow\;\rangle$$
 con
-$$|\uparrow\;\rangle=\pmatrix{1 \\0 }, \quad |\downarrow\;\rangle=\pmatrix{0 \\ 1}$$
+$$|\uparrow\;\rangle=\begin{pmatrix}1 \\0 \end{pmatrix}, \quad |\downarrow\;\rangle=\begin{pmatrix}0 \\ 1\end{pmatrix}$$
 $\chi$ è anche detto [[qubit]], dato che generalizza il concetto di bit classico.
 
 In questo spazio, gli operatori di spin non sono altro che matrici $2\times 2$, che possiamo esprimere tramite il loro effetto su $|\uparrow\;\rangle$ e $|\downarrow\;\rangle$. Dalla $(1)$ si trova
 $$\mathbf{S}^{2}|\uparrow\;\rangle=\frac{3}{4}\hbar^{2}|\uparrow\;\rangle, \quad \mathbf{S}^{2}|\downarrow\;\rangle=\frac{3}{4}\hbar^{2}|\downarrow\;\rangle$$
 Se scriviamo $\mathbf{S}^{2}$ come una matrice di incognite abbiamo
-$$\mathbf{S}^{2}=\pmatrix{c & d \\ e & f}$$
+$$\mathbf{S}^{2}=\begin{pmatrix}c & d \\ e & f\end{pmatrix}$$
 e calcolando esplicitamente le equazioni sopra
-$$\pmatrix{c & d \\ e & f}\pmatrix{1 \\ 0}=\frac{3}{4}\hbar^{2}\pmatrix{1 \\ 0}\quad \Rightarrow \quad \pmatrix{c \\ e}=\pmatrix{\frac{3}{4}\hbar^{2} \\ 0}$$
-$$\pmatrix{c & d \\ e & f}\pmatrix{0 \\ 1}=\frac{3}{4}\hbar^{2}\pmatrix{0 \\ 1}\quad \Rightarrow \quad \pmatrix{d \\ f}=\pmatrix{0 \\ \frac{3}{4}\hbar^{2}}$$
+$$\begin{pmatrix}c & d \\ e & f\end{pmatrix}\begin{pmatrix}1 \\ 0\end{pmatrix}=\frac{3}{4}\hbar^{2}\begin{pmatrix}1 \\ 0\end{pmatrix}\quad \Rightarrow \quad \begin{pmatrix}c \\ e\end{pmatrix}=\begin{pmatrix}\frac{3\end{pmatrix}{4}\hbar^{2} \\ 0}$$
+$$\begin{pmatrix}c & d \\ e & f\end{pmatrix}\begin{pmatrix}0 \\ 1\end{pmatrix}=\frac{3}{4}\hbar^{2}\begin{pmatrix}0 \\ 1\end{pmatrix}\quad \Rightarrow \quad \begin{pmatrix}d \\ f\end{pmatrix}=\begin{pmatrix}0 \\ \frac{3\end{pmatrix}{4}\hbar^{2}}$$
 Allora vale
-$$\mathbf{S}^{2}=\frac{3}{4}\hbar^{2}\pmatrix{1 & 0 \\ 0 & 1}$$
+$$\mathbf{S}^{2}=\frac{3}{4}\hbar^{2}\begin{pmatrix}1 & 0 \\ 0 & 1\end{pmatrix}$$
 
 Con lo stesso procedimento si trova
 $$\mathbf{S}_{z}|\uparrow\;\rangle=\frac{\hbar}{2}|\uparrow\;\rangle, \quad \mathbf{S}_{z}|\downarrow\;\rangle=-\frac{\hbar}{2}|\downarrow\;\rangle$$
 e quindi
-$$\mathbf{S}_{z}=\frac{\hbar}{2}\pmatrix{1 & 0 \\ 0 & -1}$$
+$$\mathbf{S}_{z}=\frac{\hbar}{2}\begin{pmatrix}1 & 0 \\ 0 & -1\end{pmatrix}$$
 Anche per gli operatori $S_{\pm}$ si ha
 $$\mathbf{S}_{+}|\downarrow\;\rangle=\hbar |\uparrow\;\rangle, \quad \mathbf{S}_{-}|\uparrow\;\rangle=\hbar |\downarrow\;\rangle, \quad \mathbf{S}_{+}|\uparrow\;\rangle=\mathbf{S}_{-}|\downarrow\;\rangle=0$$
 da cui
-$$\mathbf{S}_{+}=\hbar\pmatrix{0 & 1 \\ 0 & 0}, \quad \mathbf{S}_{-}=\hbar\pmatrix{0 & 0 \\ 1 & 0}$$
+$$\mathbf{S}_{+}=\hbar\begin{pmatrix}0 & 1 \\ 0 & 0\end{pmatrix}, \quad \mathbf{S}_{-}=\hbar\begin{pmatrix}0 & 0 \\ 1 & 0\end{pmatrix}$$
 da cui si possono estrarre
-$$\mathbf{S}_{x}=\frac{\hbar}{2}\pmatrix{0 & 1 \\ 1 & 0}, \quad \mathbf{S}_{y}=\frac{\hbar}{2}\pmatrix{0 & -i \\ i & 0}$$
+$$\mathbf{S}_{x}=\frac{\hbar}{2}\begin{pmatrix}0 & 1 \\ 1 & 0\end{pmatrix}, \quad \mathbf{S}_{y}=\frac{\hbar}{2}\begin{pmatrix}0 & -i \\ i & 0\end{pmatrix}$$
 
 Capita che $\mathbf{S}_{x}$, $\mathbf{S}_{y}$ e $\mathbf{S}_{z}$ hanno tutte un fattore di $\hbar/2$, quindi è possibile esprimere l'operatore di spin nella forma compatta
 $$\boxed{\hat{\mathbf{S}}=\frac{\hbar}{2}\hat{\sigma}}$$

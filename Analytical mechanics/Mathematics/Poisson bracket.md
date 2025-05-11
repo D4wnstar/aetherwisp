@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 The **Poisson brackets** map a pair of functions in [[phase space]] to another function in phase space:
 $$f(q,p,t),\ g(q,p,t)\quad\to \quad \{ f,g \}(q,p,t)=\sum_{i=1}^{n} \left( \frac{ \partial f }{ \partial q_{i} } \frac{ \partial g }{ \partial p_{i} } - \frac{ \partial f }{ \partial p_{i} } \frac{ \partial g }{ \partial q_{i} }  \right)$$
 They can be written in a more compact form as follows:

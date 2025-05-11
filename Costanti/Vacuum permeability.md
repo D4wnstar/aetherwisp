@@ -1,4 +1,5 @@
 ---
+wiki-publish: true
 aliases:
   - permeability of free space
 ---

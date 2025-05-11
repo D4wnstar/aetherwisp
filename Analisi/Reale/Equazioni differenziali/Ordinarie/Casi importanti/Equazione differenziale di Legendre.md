@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 L'**equazione differenziale di Legendre** è l'[[Ordinary differential equation]] di secondo ordine
 $$(1-x^{2}) \frac{d^{2}y}{dx^{2}}-2x \frac{dy}{dx}+l(l+1)y=0$$
 o anche scritta

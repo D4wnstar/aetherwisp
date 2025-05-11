@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 La **luminosità** di un astro è definita come l'energia emessa isotropicamente dall'astro in una certa banda per unità di tempo, misurata in fotoni che cadono in quella banda. Matematicamente
 $$L_{banda}=f_{banda}4\pi d^{2}$$
 dove $d$ è la distanza dell'astro e $f_{banda}$ è il [[flusso energetico]] emesso in una certa banda. Bisogna dunque conoscere la distanza dell'oggetto per poterne misurare correttamente la luminosità. Date le difficoltà delle misure di distanza, le misure di luminosità sono notoriamente impegnative. Si definisce inoltre **luminosità bolometrica** la luminosità emessa in tutte le bande.

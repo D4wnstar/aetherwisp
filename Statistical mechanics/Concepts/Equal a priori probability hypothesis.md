@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 The **equal *a priori* probability hypothesis** (also called a postulate) states that an [[Physical system|isolated system]] can be in any [[Stato|microstate]] that satisfies the macroscopic conditions, all with equal [[probability]]. In other words, there is no "privileged" microscopic state. In a single sentence:
 
 > [!info] Equal a priori probability hypothesis

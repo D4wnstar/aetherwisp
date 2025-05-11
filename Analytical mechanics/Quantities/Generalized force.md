@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 The **generalized forces** $Q_{i}$ acting on a systems are coefficients that, when multiplied with [[virtual displacement|virtual displacements]] $\delta q_{i}$ over the axes of the [[configuration space]], give the [[virtual work]] of a [[Physical system|system]]:
 $$\delta W=\sum_{i=1}^{n} Q_{i}\delta q_{i}$$
 $n$ is the number of [[degrees of freedom]] of the system. If the system is made up of $N$ [[point mass|point masses]], each of which has a [[force]] $\mathbf{F}_{i}$ applied onto it, they are given by

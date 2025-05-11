@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 A **coordinate transformation** is an invertible [[linear map]], specifically a [[diffeomorphism]], between a real [[vector space]] and itself, defined in general as $\varphi:\mathbb{R}^{N}\to \mathbb{R}^{N}$, $x\to x'=f(x)$. The vectors $x$ and $x'$ are different sets of coordinates for the same space.
 
 They are primarily used to change between different systems of coordinates

@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 **Chebyshev's inequality** is an inequality that puts an upper limit to the [[probability]] of a [[random variable]] $X$ taking on a certain value or range of values, depending on its (finite) [[variance]]. It reads
 $$P(\lvert X-\mu \rvert \geq \lambda \sigma_{X})\leq \frac{1}{\lambda ^{2}}$$
 where $\lambda$ is some positive real number, $\mu$ is the [[expected value]] of $X$ and $\sigma_{X}$ is the [[standard deviation]] of $X$. $\lambda$ is taken to be greater than 1 as cases where $\lambda<1$ are trivial (all probabilities are $<1$ anyway). This result is independent of $X$'s [[probability distribution]].

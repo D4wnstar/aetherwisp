@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 The **Joule effect** is the phenomenon whereby an [[electric current]] $I$ traversing a material of nonzero [[electrical resistance]] $R$ dissipates [[heat]], the amount of which is dependent on the intensity of the current. For a material subject to an [[electric potential]] difference $\Delta V$,  the power output in heat is
 $$P=I\Delta V=RI^{2}=\frac{\Delta V^{2}}{R}$$
 The last two forms are derived with [[Ohm's law]] and work in the context of ohmic materials of electrical resistance $R$. Meanwhile, the first form, $P(t)=I(t)V(t)$, is absolutely universal and applicable in materials of all kinds, regardless of whether Ohm's law applies, if they are homogeneous, have a constant cross-section or what their conduction mechanism is. Moreover, the presence of a [[magnetic field]] makes no difference since magnetic forces do no work.

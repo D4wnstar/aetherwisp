@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 La distribuzione di uranio sulla terra è di circa 0.7% $^{235}\text{U}$ e 99.28% di $^{238}\text{U}$. La fissione di $^{238}\text{U}$ produce $\left\langle n \right\rangle=2.5$ [[neutrone|neutroni]]. Bisogna moderare la velocità dei neutroni prodotti per riutilizzarli nella catena: per fare ciò si usa un moderatore. Il carburante nucleare è posto all'interno di barre contenenti materiale moderatore. Queste barre sono alternate con barre di controllo che non contengono carburante e sono fatte di un altro materiale che assorbe neutroni. Questo design si chiama **pila di Fermi**. Nel RMBK il moderatore era grafite e le barre di controllo erano di boro. Tutto quanto è immerso nell'acqua, che agisce come refrigerante, ma assorbe anche neutroni, il che è un problema per tenere l'equilibrio della reazione, anche perché l'assorbimento cambia in base alla temperatura dell'acqua.
 
 Considero $k$ il *fattore di riproduzione* di $n$. Se considero $N$ neutroni a $t$ e $kN$ neutroni a $t+T$. Allora $dN=(kN-N) dt/T$, quindi $N(t)=N_{0}e^{(k-1) t/T}$. Ho tre casi

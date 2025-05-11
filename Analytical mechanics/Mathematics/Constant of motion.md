@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 A **constant of motion** is a quantity that does not change over time and over a trajectory of motion. Formally, a constant of motion is defined as a function $I:\mathbb{R}^{N}\to \mathbb{R}$, $\mathbf{x}\to I(\mathbf{x})$, for which, given an autonomous system of [[Ordinary differential equation|ODEs]] $\dot{\mathbf{x}}=f(\mathbf{x})$ and a starting condition $\mathbf{x}_{0}$, we have $I(\mathbf{x}(t;\mathbf{x}_{0}))=I(\mathbf{x}_{0})$ for all $t$ and all solutions $\mathbf{x}(t;\mathbf{x}_{0})$ of the system. Its time derivative is zero everywhere: $\frac{d}{dt}I(\mathbf{x}(t;\mathbf{x}_{0}))=0$.
 
 The locus of points in $\mathbb{R}^{N}$ that satisfies the equation $I(\mathbf{x})=\rho$, where $\rho$ is a constant, is a [[hypersurface]] in $\mathbb{R}^{N}$, specifically a [[Insieme di livello|level set]]. For example, in $\mathbb{R}^{3}$, the quantity $I(\mathbf{x})=x^{2}+y^{2}+z^{2}=\rho=R^{2}$ is a sphere. The constant of motion $I$ defines a family of *disjoint* (i.e. non-intersecting) hypersurfaces dependent on the parameter $\rho$. The union of all of these hypersurfaces is $\mathbb{R}^{N}$. Formally, such a family is known in differential geometry as a **[[foliation]]** of $\mathbb{R}^{N}$.

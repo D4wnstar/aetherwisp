@@ -1,4 +1,5 @@
 ---
+wiki-publish: true
 aliases:
   - potenziale Coulombiano
   - legge di Coulomb

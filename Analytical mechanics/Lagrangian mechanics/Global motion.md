@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 Motion as described from the [[Lagrange equation]] is said to be **local**, as it evaluates motion point-wise in time. The opposite is **global** motion, which is determined from global properties of the entire [[Physical system|system]] instead of local ones. It is easiest to explain by example.
 
 In $\mathbb{R}^{2}$, we can say that an object, like a [[point mass]], begins its motion in $x_{\text{start}}$ and ends it in $x_{\text{end}}$. Its coordinates $x$ and $y$ are bound by some function $u(x)=y$, which describes a locus of points in $\mathbb{R}^{2}$ that says where the particle can be found. This space can be described as a [[curve]] $\gamma$, its *trajectory*. The length of $u$ is its [[measure]] and can be found through a [[functional]]:

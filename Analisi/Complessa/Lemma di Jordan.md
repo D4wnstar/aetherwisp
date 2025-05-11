@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 Considera l'integrale
 $$\int_{-\infty}^{+\infty}f(x)e^{i\nu x}dx$$
 con $\nu$ un numero reale diverso da zero. Assumi che la funzione $f(x)$ sia estendibile ad una funzione complessa $f(z)$ [[Funzione meromorfa|meromorfa]] senza [[Singolarità isolata|singolarità]] sull'asse reale. Allora si prenda $\nu>0$ (o $\nu<0$). Considerando $\Gamma$ una semicirconferenza centrata nell'origine, di raggio $R$, posta nel semipiano complesso superiore (o inferiore), se vale la seguente condizione

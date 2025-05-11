@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 Si chiama **evolutore** di un sistema quantistico l'[[operatore lineare]] $\hat{U}_{t}$ definito come
 $$\hat{U}_{t}=e^{- \frac{i}{\hbar}\hat{H}t}=\sum\limits_{i=1}^{\infty}e^{- \frac{i}{\hbar}E_{i}t}|E_{i}\rangle\langle E_{i}|=\sum\limits_{i=1}^{\infty}e^{- \frac{i}{\hbar}E_{i}t}\hat{P}_{E_{i}}$$
 con $\hat{H}$ la [[Hamiltoniana]] del sistema e $\hat{P}$ è l'[[operatore]] [[proiettore]]. L'evolutore genera l'evoluzione temporale (*time evolution*) di un sistema quantistico. Esso risolve l'[[equazione di Schrödinger]] dipendente dal tempo. Ci permette di trovare lo [[stato]] del sistema ad un tempo $t$ semplicemente applicandolo allo stato $|\psi\rangle$ iniziale

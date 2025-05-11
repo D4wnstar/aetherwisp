@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 ### General mechanics
 - Calculus setup
 - [[Ordinary differential equation]]

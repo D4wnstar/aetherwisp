@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 **Kepler's laws** are a set of three laws that describe the motion of the Earth around the Sun in terms of classical [[Interazione gravitazionale|gravitation]]:
 $$\vec{F}=- \frac{GMm}{r^{2}}\hat{R}$$
 Using [[Newton's laws]] $\vec{F}=m\vec{a}$:

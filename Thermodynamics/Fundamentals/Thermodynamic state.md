@@ -1,1 +1,4 @@
+---
+wiki-publish: true
+---
 The **thermodynamic state** is the macroscopic [[stato|state]] of a thermodynamic system, described in full by a number of thermodynamic variables, like [[pressure]], volume, [[temperature]] or others. These variables can be either [[Intensive property|intensive]] or [[Extensive property|extensive]]. Thermodynamic state is most commonly described in function of pressure $P$, volume $V$ and temperature $T$.

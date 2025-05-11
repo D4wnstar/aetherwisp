@@ -1,1 +1,4 @@
+---
+wiki-publish: true
+---
 Lo **spettro di energia** di una [[Particella]] è il numero di particelle di un fascio in funzione dell'energia della particella.

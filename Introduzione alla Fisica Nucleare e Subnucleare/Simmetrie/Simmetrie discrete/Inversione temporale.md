@@ -1,1 +1,4 @@
+---
+wiki-publish: true
+---
 L'**inversione temporale** $\hat{T}$ è una [[trasformazione]] che inverte la dimensione temporale. L'universo, almeno a scala macroscopica, non mostra [[simmetria]] sotto inversione temporale.

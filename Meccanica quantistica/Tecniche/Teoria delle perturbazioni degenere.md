@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 La **teoria delle perturbazioni degenere** è una forma della [[Meccanica quantistica/Tecniche/Teoria delle perturbazioni]] indipendente dal tempo nella quale gli [[Equazione agli autovalori|autovalori]] dell'[[Hamiltoniana]] imperturbata sono [[degenerazione|degeneri]]. Ciò vale a dire che, presi due o più [[stato|stati]] distinti del sistema non perturbato $\psi_{a}^{0}$ e $\psi_{b}^{0}$, questi hanno la stessa energia. In questo caso, la forma [[Teoria delle perturbazioni non degenere|non degenere]] della teoria fallisce, dato che il denominatore $E_{n}^{0}-E_{m}^{0}$ è zero per $n=a$ e $m=b$.
 
 Consideriamo un'Hamiltoniana del tipo
@@ -65,15 +68,19 @@ $$\boxed{E_{+}^{1}=W_{aa}=\langle \psi_{a}^{0}|\hat{V}|\psi_{a}^{0}\rangle, \qua
 che sono proprio le correzioni date dalle teoria non degenere, solo per gli stati "buoni". Allora, se avessimo un modo per scoprire quali sono gli stati "buoni" a priori, potremmo semplicemente usare la teoria non degenere nei due casi per trovare le correzioni. Questo modo esiste e si enuncia con il seguente teorema:
 
 > [!info] Teorema
-> Sia $\hat{A}$ un [[operatore autoaggiunto]] che [[Commutatore|commuta]] con $\hat{H}^{0}$ e $\hat{H}'$ (ossia è una [[costante del moto]]). Se $\psi_{a}^{0}$ e $\psi_{b}^{0}$ sono [[Equazione agli autovalori|autofunzioni]] [[Degenerazione|degeneri]] di $\hat{H}^{0}$ e sono anche autofunzioni di $\hat{A}$ con autovalori distinti$$\hat{A}\psi_{a}^{0}=\mu \psi_{a}^{0},\quad \hat{A}\psi_{b}^{0}=\nu\psi_{b}^{0},\quad \text{con }\mu\neq\nu$$allora $W_{ab}=0$ e vale la $(6)$.
+> Sia $\hat{A}$ un [[operatore autoaggiunto]] che [[Commutatore|commuta]] con $\hat{H}^{0}$ e $\hat{H}'$ (ossia è una [[costante del moto]]). Se $\psi_{a}^{0}$ e $\psi_{b}^{0}$ sono [[Equazione agli autovalori|autofunzioni]] [[Degenerazione|degeneri]] di $\hat{H}^{0}$ e sono anche autofunzioni di $\hat{A}$ con autovalori distinti
+> $$\hat{A}\psi_{a}^{0}=\mu \psi_{a}^{0},\quad \hat{A}\psi_{b}^{0}=\nu\psi_{b}^{0},\quad \text{con }\mu\neq\nu$$
+> allora $W_{ab}=0$ e vale la $(6)$.
 > 
-> **Dimostrazione.** Per assunzione, vale $[\hat{A},\hat{H}']=0$, quindi$$\begin{align}
-\langle \psi_{a}^{0}|[\hat{A},\hat{H}']|\psi_{b}^{0}\rangle &= 0 \\
-&= \langle \psi_{a}^{0}|\hat{A}\hat{H}'\psi_{b}^{0}\rangle-\langle \psi_{a}^{0}|\hat{H}'\hat{A}\rangle \\
-&=\langle \hat{A}\psi_{a}^{0}|\hat{H}'\psi_{b}^{0}\rangle-\langle \psi_{a}^{0}|\hat{H}'\nu \psi_{b}^{0}\rangle\\
-&=(\mu-\nu)\langle \psi_{a}^{0}|\hat{H}'\psi_{b}^{0}\rangle \\
-&=(\mu-\nu)W_{ab}
-\end{align}$$ma $\mu\neq\nu$ per definizione, quindi $W_{ab}=0$.
+> **Dimostrazione.** Per assunzione, vale $[\hat{A},\hat{H}']=0$, quindi
+> $$\begin{align}
+> \langle \psi_{a}^{0}|[\hat{A},\hat{H}']|\psi_{b}^{0}\rangle &= 0 \\
+> &= \langle \psi_{a}^{0}|\hat{A}\hat{H}'\psi_{b}^{0}\rangle-\langle \psi_{a}^{0}|\hat{H}'\hat{A}\rangle \\
+> &=\langle \hat{A}\psi_{a}^{0}|\hat{H}'\psi_{b}^{0}\rangle-\langle \psi_{a}^{0}|\hat{H}'\nu \psi_{b}^{0}\rangle\\
+> &=(\mu-\nu)\langle \psi_{a}^{0}|\hat{H}'\psi_{b}^{0}\rangle \\
+> &=(\mu-\nu)W_{ab}
+> \end{align}$$
+> ma $\mu\neq\nu$ per definizione, quindi $W_{ab}=0$.
 
 > [!success] Risultato
 > Se si hanno stati degeneri, conviene cercare un operatore autoaggiunto $\hat{A}$ che commuta con $\hat{H}^{0}$ e $\hat{H}'$ e poi scegliere come stati non perturbati $\psi_{a}^{0}$ e $\psi_{b}^{0}$ due che sono simultaneamente autofunzioni di $\hat{A}$ e $\hat{H}^{0}$. In questo modo, si può usare direttamente la $(6)$. Altrimenti, è necessario fare tutti i calcoli per la $(5)$, che è universalmente valida.
@@ -82,7 +89,7 @@ Per trovare la correzione per un grado di degenerazione qualunque, conviene risc
 $$\mathbf{W}\begin{pmatrix}
 \alpha \\
 \beta
-\end{pmatrix}=\pmatrix{W_{aa} & W_{ab} \\ W_{ba} & W_{bb}}\pmatrix{\alpha \\ \beta}=E^{1}\pmatrix{\alpha \\ \beta}$$
+\end{pmatrix}=\begin{pmatrix}W_{aa} & W_{ab} \\ W_{ba} & W_{bb}\end{pmatrix}\begin{pmatrix}\alpha \\ \beta\end{pmatrix}=E^{1}\begin{pmatrix}\alpha \\ \beta\end{pmatrix}$$
 Le correzioni di primo ordine all'energia non sono altro che gli autovalori della matrice $\mathbf{W}$ e i parametri delle combinazioni lineari "buone" sono gli autovettori ad essi associati. La $(5)$ è solo la soluzione dell'[[Equazione agli autovalori|equazione caratteristica]] di $\mathbf{W}$.
 
 Per uno stato $n$-volte degenere, dobbiamo cercare gli autovalori della matrice $n\times n$ definita dagli elementi

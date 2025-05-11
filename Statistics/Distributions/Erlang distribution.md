@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 The **Erlang distribution** is a continuous [[probability distribution]] over non-negative reals $[0,\infty)$. For a [[random variable]] $T$, the [[probability density function]] is
 $$f_{T}(t)=\mu\frac{(\mu t)^{k-1}e^{-\mu t}}{(k-1)!}$$
 where $\mu$ is the rate parameter and $k$ is the shape parameter. Another common parameterization is using $\tau=1/\mu$.

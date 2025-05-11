@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 The **d'Alembertian** or **d'Alembert operator** $\square ^{2}$ is a differential [[operatore|operator]] that can be seen as an extension to the [[Laplacian]] operator. It is defined as
 $$\square ^{2}\equiv \nabla ^{2}- \frac{1}{v^{2}}\frac{ \partial ^{2} }{ \partial t^{2} } $$
 where $v\in \mathbb{R}$. It appears commonly in the physics, where $t$ is interpreted as time, and specifically in [[Wave]] phenomena, where it defines the [[Wave equation]] $\square ^{2}\psi=0$ and $v$ is interpreted as wave propagation speed. In the context of special relativity, the d'Alembertian readily works as a [[Spacetime|spacetime]] Laplacian.

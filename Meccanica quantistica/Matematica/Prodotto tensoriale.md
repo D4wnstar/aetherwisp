@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 Il **prodotto tensoriale** è un'operazione tra due [[Vector space|spazi vettoriali]] $V$ e $W$ denotata con $V\otimes W$ che ha come risultato un terzo spazio vettoriale a cui è associata una funzione bilineare $V\times W \rightarrow V\otimes W$ che trasforma una coppia di elementi $(v,w)\in V\times W$ ad un elemento di $V\otimes W$, scritto $v\otimes w$. Solitamente ci si riferisce a $v\otimes w$ stesso come il prodotto tensoriale.
 
 In meccanica quantistica, uno spazio vettoriale rappresenta un sistema, generato dalla [[base]] degli [[Equazione agli autovalori|autostati]]. Allora il prodotto tensoriale ci dà un metodo matematico per esprimere la combinazione di due sistemi. Presi due sistemi $S_{1}:|\psi_{1}\rangle\in H$ e $S_{2}:|\psi_{2}\rangle\in H$ in uno [[spazio di Hilbert]], la somma dei due sistemi è
@@ -5,14 +8,14 @@ $$S_{1}+S_{2}:|\psi_{1}\otimes\psi_{2}\rangle\equiv |\psi_{1}\rangle\otimes |\ps
 detto [[stato]] accoppiato.
 ### Tra vettori
 Tra spazi a dimensione finita, e quindi tra due vettori $v$ e $w$, il prodotto tensoriale può essere rappresentato in due modi (prendendo $\mathbb{C}^{2}\otimes\mathbb{C}^{2}=\mathbb{C}^{4}$ come esempio):
-$$v\otimes w=\pmatrix{v_{1}\\ v_{2}}\otimes\pmatrix{w_{1} \\ w_{2}}=\pmatrix{v_{1} & \pmatrix{w_{1} \\ w_{2}} \\ v_{2} & \pmatrix{w_{1} \\ w_{2}}}=\pmatrix{v_{1}w_{1} \\ v_{1}w_{2} \\ v_{2}w_{1} \\ v_{2}w_{2}}$$
+$$v\otimes w=\begin{pmatrix}v_{1\end{pmatrix}\\ v_{2}}\otimes\begin{pmatrix}w_{1\end{pmatrix} \\ w_{2}}=\begin{pmatrix}v_{1\end{pmatrix} & \begin{pmatrix}w_{1\end{pmatrix} \\ w_{2}} \\ v_{2} & \begin{pmatrix}w_{1\end{pmatrix} \\ w_{2}}}=\begin{pmatrix}v_{1\end{pmatrix}w_{1} \\ v_{1}w_{2} \\ v_{2}w_{1} \\ v_{2}w_{2}}$$
 oppure
-$$v\otimes w=\pmatrix{v_{1}\\ v_{2}}\otimes\pmatrix{w_{1} \\ w_{2}}=\pmatrix{w_{1} & \pmatrix{v_{1} \\ v_{2}} \\ w_{2} & \pmatrix{v_{1} \\ v_{2}}}=\pmatrix{w_{1}v_{1} \\ w_{1}v_{2} \\ w_{2}v_{1} \\ w_{2}v_{2}}$$
+$$v\otimes w=\begin{pmatrix}v_{1\end{pmatrix}\\ v_{2}}\otimes\begin{pmatrix}w_{1\end{pmatrix} \\ w_{2}}=\begin{pmatrix}w_{1\end{pmatrix} & \begin{pmatrix}v_{1\end{pmatrix} \\ v_{2}} \\ w_{2} & \begin{pmatrix}v_{1\end{pmatrix} \\ v_{2}}}=\begin{pmatrix}w_{1\end{pmatrix}v_{1} \\ w_{1}v_{2} \\ w_{2}v_{1} \\ w_{2}v_{2}}$$
 ossia invertendo quale vettore "va prima". Le due rappresentazioni sono equivalenti, fintantoché non le si mischia.
 
 A livello pratico, un prodotto tensoriale è il vettore contente i termini di un prodotto tra polinomi. Infatti
 $$(v_{1}+v_{2})(w_{1}+w_{2})=v_{1}w_{1}+v_{1}w_{2}+v_{2}w_{1}+v_{2}w_{2}$$
-$$\pmatrix{v_{1}\\ v_{2}}\otimes\pmatrix{w_{1} \\ w_{2}}=\pmatrix{v_{1}w_{1} \\ v_{1}w_{2} \\ v_{2}w_{1} \\ v_{2}w_{2}}$$
+$$\begin{pmatrix}v_{1\end{pmatrix}\\ v_{2}}\otimes\begin{pmatrix}w_{1\end{pmatrix} \\ w_{2}}=\begin{pmatrix}v_{1\end{pmatrix}w_{1} \\ v_{1}w_{2} \\ v_{2}w_{1} \\ v_{2}w_{2}}$$
 #### Proprietà
 E' lineare, nel senso che la combinazione lineare di prodotti tensoriale è essa stessa un prodotto tensoriale nello stesso spazio. Presi $v_{1},v_{2}\in V$ e $w_{1},w_{2}\in W$, vale
 $$v_{1}\otimes w_{1}\in V\otimes W$$
@@ -41,21 +44,21 @@ Il prodotto tensoriale elemento per elemento di una [[base]] di $V$ con una base
 I tensori ottenuti dal prodotto tensoriale non sono necessariamente descrivibili come due oggetti separati. Per esempio, considerato un tensore $|\psi_{12}\rangle\in V\otimes W$, esso viene detto **separabile** se può essere espresso come $|\psi_{12}\rangle=|\psi_{1}\rangle\otimes |\psi_{2}\rangle$. Se non è possibile, lo stato viene detto **intrecciato** (**entangled**). L'[[entanglement quantistico]] è descritto come stati quantistici tra loro inseparabili e quindi non descrivibili mediante un prodotto tensoriale tra due stati indipendenti.
 
 Per esempio, consideriamo un sistema con due [[Particella|particelle]] con [[spin#Spin 1/2|spin 1/2]]. Per ciascuna particella, gli autostati sono solo due, lo spin up e lo spin down, e lo stato generico $\chi$ può essere espresso come
-$$\chi=\pmatrix{a \\ b}=a |\uparrow\;\rangle+b |\downarrow\;\rangle$$
+$$\chi=\begin{pmatrix}a \\ b\end{pmatrix}=a |\uparrow\;\rangle+b |\downarrow\;\rangle$$
 con
-$$|\uparrow\;\rangle=\pmatrix{1 \\0 }, \quad |\downarrow\;\rangle=\pmatrix{0 \\ 1}$$
+$$|\uparrow\;\rangle=\begin{pmatrix}1 \\0 \end{pmatrix}, \quad |\downarrow\;\rangle=\begin{pmatrix}0 \\ 1\end{pmatrix}$$
 L'accoppiamento delle due particelle si mostra compiendo il prodotto tensoriale tra gli autostati. Per esempio, si può avere
-$$|\uparrow\otimes\downarrow\;\rangle+|\downarrow\otimes\uparrow\;\rangle=\pmatrix{1 \\ 0}\otimes\pmatrix{0 \\ 1}+\pmatrix{0 \\ 1}\otimes\pmatrix{1 \\ 0}=\pmatrix{0 \\ 1 \\ 1 \\ 0}$$
+$$|\uparrow\otimes\downarrow\;\rangle+|\downarrow\otimes\uparrow\;\rangle=\begin{pmatrix}1 \\ 0\end{pmatrix}\otimes\begin{pmatrix}0 \\ 1\end{pmatrix}+\begin{pmatrix}0 \\ 1\end{pmatrix}\otimes\begin{pmatrix}1 \\ 0\end{pmatrix}=\begin{pmatrix}0 \\ 1 \\ 1 \\ 0\end{pmatrix}$$
 Vogliamo idealmente ridurre la precedente equazione ad un singolo prodotto tensoriale, anziché una combinazione lineare di prodotti. Per fare ciò, prendiamo i vettori generici
-$$|\chi_{1}\rangle=\pmatrix{a_{1} \\ a_{2}}, \quad |\chi_{2}\rangle=\pmatrix{b_{1} \\ b_{2}}$$
+$$|\chi_{1}\rangle=\begin{pmatrix}a_{1\end{pmatrix} \\ a_{2}}, \quad |\chi_{2}\rangle=\begin{pmatrix}b_{1\end{pmatrix} \\ b_{2}}$$
 quindi nello spazio prodotto tensoriale
-$$|\chi_{1}\otimes\chi_{2}\rangle=\pmatrix{a_{1}b_{1} \\ a_{1}b_{2} \\ a_{2}b_{1} \\ a_{2}b_{2}}=\pmatrix{0 \\ 1 \\ 1 \\ 0}$$
+$$|\chi_{1}\otimes\chi_{2}\rangle=\begin{pmatrix}a_{1\end{pmatrix}b_{1} \\ a_{1}b_{2} \\ a_{2}b_{1} \\ a_{2}b_{2}}=\begin{pmatrix}0 \\ 1 \\ 1 \\ 0\end{pmatrix}$$
 ma non esiste alcun insieme di $a_{1}$, $a_{2}$, $b_{1}$, $b_{2}$ che può soddisfare questa relazione. L'accoppiamento è dunque intrecciato e lo stato delle due particelle è legato fra loro per effetto quantistico.
 ### Tra matrici e operatori
 È possibile compiere un prodotto tensoriale anche tra matrici quadrate e [[Operatore lineare|operatori lineari]]. Come per i vettori, esistono due rappresentazioni. Prendendo per esempio $\mathbf{A}$ e $\mathbf{B}$ matrici $2\times2$ con elementi in $\mathbb{C}$ abbiamo
-$$\mathbf{A}\otimes\mathbf{B}=\pmatrix{a_{11}\mathbf{B} & a_{12}\mathbf{B} \\ a_{21}\mathbf{B} & a_{22}\mathbf{B}}$$
+$$\mathbf{A}\otimes\mathbf{B}=\begin{pmatrix}a_{11\end{pmatrix}\mathbf{B} & a_{12}\mathbf{B} \\ a_{21}\mathbf{B} & a_{22}\mathbf{B}}$$
 oppure
-$$\mathbf{A}\otimes\mathbf{B}=\pmatrix{b_{11}\mathbf{A} & b_{12}\mathbf{A} \\ b_{21}\mathbf{A} & b_{22}\mathbf{A}}$$
+$$\mathbf{A}\otimes\mathbf{B}=\begin{pmatrix}b_{11\end{pmatrix}\mathbf{A} & b_{12}\mathbf{A} \\ b_{21}\mathbf{A} & b_{22}\mathbf{A}}$$
 #### Proprietà
 La dimensione dello spazio risultante è
 $$\dim V=n\times n, \quad \dim W=m\times m, \quad \dim(V\otimes W)=nm\times nm$$

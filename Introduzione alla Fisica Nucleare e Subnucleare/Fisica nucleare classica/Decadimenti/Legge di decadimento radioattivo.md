@@ -1,4 +1,5 @@
 ---
+wiki-publish: true
 aliases:
   - costante di decadimento
   - tempo di dimezzamento

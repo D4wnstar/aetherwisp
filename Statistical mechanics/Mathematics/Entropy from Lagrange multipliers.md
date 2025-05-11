@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 The [[Laws of thermodynamics|second law of thermodynamics]] can be described by using the [[Moltiplicatori di Lagrange|Lagrange multipliers]] method to maximize [[entropy]].
 
 Consider an [[ensemble]] with [[Entropy (information theory)|information-theoretical entropy]] $S=-k_{B}\sum_{x}p(x)\log p(x)$, where $p(x)$ is the [[probability]] that the ensemble is in [[Stato|state]] $x$. As usual, $\sum_{x}p(x)=1$. Its [[internal energy]] is $U=\langle E \rangle =\sum_{x}E(x)p(x)$[^1]. The constraint functions are

@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 Il **limite di Hayashi** è un limite teorico sulla temperatura superficiale minima di una [[stella]] in equilibrio idrostatico, pari a circa 3000 K.
 
 Stelle in equilibrio idrostatico con masse basse (sotto una [[massa solare]]) spostano molto del calore del loro centro mediante [[convezione]]. I modelli matematici di stelle convettive danno soluzioni soltanto per stelle con temperatura superficiale superiore ai 3000 K. Le osservazioni sperimentali che si trovano sul [[Diagramma Hertzsprung-Russell|diagramma HR]] confermano questi modelli.

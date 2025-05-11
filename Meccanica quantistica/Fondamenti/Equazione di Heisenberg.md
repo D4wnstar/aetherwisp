@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 L'**equazione di Heisenberg** è un'[[Ordinary differential equation]] che descrive l'evoluzione temporale delle [[Osservabile|osservabili]] nella [[Rappresentazioni della meccanica quantistica|rappresentazione di Heisenberg]] della meccanica quantistica. Preso un'[[operatore autoaggiunto]] $\hat{A}$ associato ad un osservabile $A$ in un sistema che segue l'[[Hamiltoniana]] $\hat{H}$, l'equazione di Heisenberg è
 $$\frac{d}{dt}\hat{A}_{t}=\frac{i}{\hbar}[\hat{H},\hat{A}_{t}]+\frac{\partial }{\partial t}\hat{A}$$
 dove $[\cdot,\cdot]$ è il [[commutatore]]. L'operatore $\hat{A}_{t}$ è l'evoluzione temporale di quello a tempo zero:

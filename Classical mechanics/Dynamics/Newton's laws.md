@@ -1,4 +1,5 @@
 ---
+wiki-publish: true
 aliases:
   - Newton's first law
   - Newton's second law

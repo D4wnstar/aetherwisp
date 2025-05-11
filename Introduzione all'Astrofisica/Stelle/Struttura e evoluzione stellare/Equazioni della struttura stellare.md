@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 Che le [[stella|stelle]] siano in un qualche forma equilibrio è evidente dal fatto che osserviamo stelle con età stimate nei miliardi di anni. Per una prova più rigorosa, si può calcolare il [[tempo dinamico]] di una stella e notare quanto minuscolo sia in confronto alla sua aspettativa di vita. Per conoscere, quindi, le proprietà strutturali di una [[stella]] è necessario comprendere che tipo di equilibrio tiene le stelle stabili e come possiamo formare un modello matematico per descriverlo.
 
 Dato che una stella, in fondo, è un sistema relativamente semplice[^1] (una "palla" di gas estremamente calda), siamo in grado di costruire un modello che ne descrive completamente lo [[stato]] usando cinque equazioni in cinque variabili. Queste sono:

@@ -1,4 +1,5 @@
 ---
+wiki-publish: true
 aliases:
   - anticommutatore
   - formula di Baker-Campbell-Hausdorff

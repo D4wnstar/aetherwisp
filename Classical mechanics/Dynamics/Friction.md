@@ -1,4 +1,5 @@
 ---
+wiki-publish: true
 aliases:
   - dynamic friction
   - static friction

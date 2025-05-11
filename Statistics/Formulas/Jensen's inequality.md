@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 **Jensen's inequality** is an inequality that characterizes convex functions. In the context of probability theory, it states that, given a function $f$ of a [[random variable]] $X$, if $f$ is [[convexity|convex]], then
 $$E[f(X)]\geq f(E[X])$$
 where $E$ is the [[expected value]].

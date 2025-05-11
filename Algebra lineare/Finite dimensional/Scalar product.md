@@ -1,4 +1,5 @@
 ---
+wiki-publish: true
 aliases:
   - hermitian product
   - dot product

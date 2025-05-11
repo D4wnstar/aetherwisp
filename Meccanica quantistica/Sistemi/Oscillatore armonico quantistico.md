@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 L'**oscillatore armonico quantistico** è l'analogo quantistico dell'[[Harmonic oscillator]] classico, ossia un sistema quantistico con un [[punto di equilibrio]] soggetto ad una forza di ritorno $F$ una volta perturbato.
 ### Soluzione
 Il caso dell'oscillatore armonico consiste nel risolvere l'[[equazione di Schrödinger]] per una [[particella]] immersa nel [[Potential]]

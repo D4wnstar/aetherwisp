@@ -1,4 +1,5 @@
 ---
+wiki-publish: true
 aliases:
   - coefficienti di Fourier
 ---

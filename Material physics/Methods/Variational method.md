@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 The **variational method** is a method of finding approximate solution to quantum problems, typically finding [[Equazione agli autovalori|eigenvalues]] and [[Equazione agli autovalori|eigenfunctions]] of a time-independent [[Hamiltonian]].
 ### Method
 Consider some time-independent Hamiltonian $H$ of a function $\phi$ which can vary freely, called a **trial function**. We define the [[Functional]]:

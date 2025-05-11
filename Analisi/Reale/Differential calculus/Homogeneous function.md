@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 A multivariate function $f(x_{1},\ldots,x_{n})$ is said to be **homogeneous** of degree $\alpha$ if for all $\lambda>0$ and all points $(x_{1},\ldots,x_{n})$ the following equality holds:
 $$f(\lambda x_{1},\ldots,\lambda x_{n})=\lambda^{\alpha}f(x_{1},\ldots,x_{n})$$
 ### Properties

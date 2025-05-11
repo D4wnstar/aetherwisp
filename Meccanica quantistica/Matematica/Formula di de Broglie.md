@@ -1,4 +1,5 @@
 ---
+wiki-publish: true
 aliases:
   - lunghezza d'onda di de Broglie
   - lunghezza d'onda di De Broglie ridotta
@@ -9,10 +10,7 @@ $$p=\frac{h}{\lambda}=\frac{2\pi\hbar}{\lambda}$$
 con $h$ e $\hbar$ la [[Planck constant]] normale e ridotta. È una generalizzazione per le onde di materia della [[formula di Planck]]. Ciò significa che ogni particella è simultaneamente anche un'onda di **lunghezza d'onda di de Broglie**
 $$\lambda=\frac{h}{p}=\frac{2\pi\hbar}{p}$$
 Occasionalmente si usa anche la **lunghezza d'onda di de Broglie ridotta**
-$$\newcommand\lambdabar{
-\raise1.5pt{\moveright2.0pt\unicode{0x0335}}\moveleft1pt\lambda
-}
-\lambdabar=\frac{\lambda}{2\pi}=\frac{\hbar}{p}$$
+$$\bar{\lambda}=\frac{\lambda}{2\pi}=\frac{\hbar}{p}$$
 Si può anche definire la **lunghezza d'onda termica di de Broglie** come
 $$\lambda=\sqrt{ \frac{h^{2}}{2\pi mk_{B}T} }=\sqrt{\frac{2\pi\hbar^{2}}{mk_{B}T} }$$
 dove $k_{B}$ è la [[Boltzmann constant|costante di Boltzmann]], $m$ è la massa e $T$ è la [[Temperature|temperatura]]. Questa è utile perché quando la distanza media tra le particelle di un [[Physical system|sistema]] diventa dell'ordine della lunghezza termica, gli effetti quantistici non sono più trascurabili.

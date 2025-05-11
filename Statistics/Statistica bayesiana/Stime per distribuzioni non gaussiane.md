@@ -1,1 +1,4 @@
+---
+wiki-publish: true
+---
 Usando distribuzioni non-analitiche, non abbiamo stimatori oggettivamente buoni come in una gaussiana, dove si può trovare una situazione analitica. La scelta di uno stimatore e di un intervallo è tutto sommato arbitraria; scelte comuni per stimatori sono media, mediana e moda, mentre per l'intervallo si prende un l'intervallo tra il 16° e l'84° percentile della distribuzione, in quanto una deviazione standard rappresenta una probabilità del 68%, che centrata in 50% ci da un intervallo tra quelle due percentili.

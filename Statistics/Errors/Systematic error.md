@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 A **systematic error** is a type of measurement error that occurs consistently across measurements and is due to a repeatable, non-random process. It has non-zero [[mean]] and it does not reduce over large numbers of measurements.
 
 Systematic errors can be corrected by deriving the magnitude of the error and subtracting it from the measurements. However, the derivation of the systematic error is itself prone to error, which propagates to the corrected measurements, making it impossible to fully remove the error. In fact, the term "systematic error" generally refers to the uncertainty on the correction, rather than the error itself.

@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 Le [[Equazione agli autovalori|autofunzioni]] di [[Operatore autoaggiunto|operatori autoaggiunti]] svolgono un ruolo cruciale nella meccanica quantistica, dato che corrispondono a [[Stato determinato|stati determinati]] di un'[[osservabile]] e quindi ci permettono di "bypassare" il [[Disuguaglianza di Heisenberg|principio di indeterminazione]].
 
 Prendiamo un'osservabile $Q$ con operatore associato $\hat{Q}$. Se lo [[Spettro]] di $\hat{Q}$ è discreto, le autofunzioni esistono in [[Spazi Lp#Spazio $L {2}$|L^2]] e corrispondono a stati fisicamente realizzabili. Se lo spettro è continuo, le autofunzioni non sono normalizzabili e non rappresentano alcuna [[funzione d'onda]], anche se una loro combinazione lineare forse sì.

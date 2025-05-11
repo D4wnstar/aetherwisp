@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 L'**equazione di Schrödinger** è un'[[equazione differenziale parziale]] di secondo grado che descrive lo [[stato]] di un sistema quantistico in un dato tempo $t$. Nel caso unidimensionale in [[Rappresentazioni dello stato|rappresentazione della posizione]], si esprime come
 $$i\hbar \frac{\partial \Psi}{\partial t}=- \frac{\hbar^{2}}{2m} \frac{\partial ^{2}\Psi}{\partial x^{2}}+V\Psi\tag{1D}$$
 dove $\hbar$ è la [[Planck constant]] ridotta, $m$ è la massa della [[Particella]], $\Psi(x,t)$ è la [[funzione d'onda]] della [[particella]] in esame e $V$ è la funzione energia [[Potential]] della particella. In tre dimensioni ha la forma

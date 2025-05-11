@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 The **Maxwell relations** are a set of four equations in thermodynamics regarding a system's energy when subject to a reversible [[thermodynamic transformation]]. They exist for several [[Equation of state|equations of state]]: [[internal energy]] $U$, [[enthalpy]] $H$, [[Helmholtz free energy]] $A$ and [[Gibbs free energy]] $G$. These shouldn't be confused with [[Maxwell's equations]], which are the description of electromagnetism. There are many forms for Maxwell relations, depending on which system energy is chosen.
 
 $$\begin{align}

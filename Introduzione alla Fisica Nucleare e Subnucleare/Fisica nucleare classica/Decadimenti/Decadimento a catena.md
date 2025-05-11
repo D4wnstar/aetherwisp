@@ -1,4 +1,5 @@
 ---
+wiki-publish: true
 aliases:
   - catena di decadimento
   - equazione di Bateman

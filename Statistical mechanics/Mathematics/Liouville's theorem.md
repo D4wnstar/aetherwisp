@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 **Liouville's theorem** provides a local conservation law for [[Phase space|representative points]] in [[phase space]] of a [[dynamical system]]. It states that the density of representative points near a point in phase space is constant in time. In other words, state density is stationary and representative points behave like an incompressible fluid, in that their density does not change in time.
 
 > [!info] Liouville's theorem

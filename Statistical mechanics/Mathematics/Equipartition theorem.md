@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 The **equipartition theorem** is a result in statistical mechanics that equates the [[temperature]] of a [[Physical system|system]] to the average [[energy]] of its components. The name comes from the fact that at [[thermal equilibrium]] and sufficiently high temperatures, total system energy is equally divided among all its components, such as translational, rotational, elastic, etc..
 
 In the most general form, it states the following:

@@ -1,4 +1,5 @@
 ---
+wiki-publish: true
 aliases:
   - magnitudine apparente
   - magnitudine assoluta

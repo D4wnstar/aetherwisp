@@ -1,1 +1,4 @@
+---
+wiki-publish: true
+---
 Una **cometa** è un oggetto non stellare con orbite ad ellitticità estrema. In generale le comete hanno una o più code. Quando una cometa si avvicina al Sole, il bombardamento di fotoni strappa materiale alla cometa e lo scaraventa nello spazio; questa si chiama **coda ionica** ed è opposta al Sole. L'altra coda segue il moto della stella ed nasce dal semplice riscaldamento ed evaporazione o sublimazione del materiale della cometa.

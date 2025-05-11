@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 The **Helmholtz free energy** $A$ or $F$ is a measure of the energy of a system. It is defined as
 $$A=U-TS$$
 where $U$ is the [[internal energy]], $T$ is the [[temperature]] and $S$ is the [[entropy]]. Helmholtz free energy is particularly useful in systems that a constant temperature.

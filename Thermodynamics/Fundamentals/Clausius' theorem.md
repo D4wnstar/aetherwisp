@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 **Clausius' theorem** states
 
 > [!info] Clausius' theorem

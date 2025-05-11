@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 The **mutual inductance** $M$ of two [[electric current]] loops is the quantity that describes the amount of current that is induced from one loop to the other. It is a purely geometric quantity that relies on the size and shape of the loops.
 ### Derivation
 Say you have two loops of wire, run through by currents $I_{1}$ and $I_{2}$. The current on loop 1 produces a [[magnetic field]] $\mathbf{B}_{1}$ whose field lines pass through loop 2 with a flux of $\Phi_{2}$. We know by way of the [[Biot-Savart law]] that the $\mathbf{B}_{1}$'s intensity is proportional to the intensity of the current $I_{1}$. This is not surprising, but what is surprising is that this means that the flux $\Phi_{2}$ through loop 2 is *also* dependent on $I_{1}$ as

@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 **Carnot's theorem** gives the maximum possible [[thermal efficiency]] of a [[heat engine]], by proving that the [[Carnot engine]] is the most theoretically efficient heat engine. In other words, it states that any irreversible engine is less efficient than a reversible one.
 
 > [!info] Carnot's theorem

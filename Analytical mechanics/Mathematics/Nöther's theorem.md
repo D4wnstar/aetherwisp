@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 **Nöther's theorem** is a fundamental result is physics that relates conserved quantities and [[Simmetria|symmetries]]. It is given in one several statements, depending on the field of physics that one is working in. Most commonly, it is given in the [[Lagrangian]] and [[Hamiltonian]] formalisms of mechanics.
 
 The benefit Nöther's theorem is very practical: constants of motion make solving mechanical systems easier, but they are really difficult to find. Symmetries, on the other hand, are usually readily apparent. Thus, the theorem gives us a *much* easier way to identify constants of motion, which in turn can *greatly* simplify the differential equations that we must solve to find the motion. At heart, the value of Nöther's theorem is that it makes really hard math a little less hard.

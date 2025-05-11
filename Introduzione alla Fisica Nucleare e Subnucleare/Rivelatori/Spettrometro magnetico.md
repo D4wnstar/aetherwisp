@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 Uno **spettrometro magnetico** è uno strumento utilizzato per misurare la quantità di moto di una [[particella]] [[Electric charge|carica]] mediante la curvatura indotta da un [[Magnetic field|campo magnetico]]. Consiste tipicamente in un magnete ed una serie di [[Rivelatore|rivelatori]] per tracciare il moto della particella.
 
 Il moto è determinato dalla [[Lorentz force|forza di Lorentz]] e dalla [[Newton's laws|seconda legge di Newton]] nel caso del [[Rotation#Circular motion|moto circolare uniforme]]:

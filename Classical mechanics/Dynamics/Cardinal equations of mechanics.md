@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 The **cardinal equations of mechanics** are a system of two equations that fully determine the dynamics of a system. They are
 $$\begin{cases}
 \vec{F}^{(e)}=\frac{d\vec{Q}}{dt} \\

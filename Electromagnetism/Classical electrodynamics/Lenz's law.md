@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 **Lenz's law** is a rule to predict the orientation and sign of an induced [[electric field]]. It states:
 
 > [!info] Lenz' law

@@ -1,4 +1,5 @@
 ---
+wiki-publish: true
 aliases:
   - collasso della funzione d'onda
 ---

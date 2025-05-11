@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 È comune usare il prodotto tra costante di Planck e [[velocità della luce]] $\hbar\cdot c=200$ MeV fm per avere un'idea della scala lunghezza/energia.
 
 In modo simile, vale anche una relazione tra energia e temperatura per avere un senso di quanto calda o fredda sia una [[Particella]]: $E=k_{b}T$ con $k_{B}$ la [[Boltzmann constant]]. Il legame atomico è estremamente caldo: $E\sim13eV \rightarrow 1.6\times10^{5}$ K.

@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 Un **problema di Sturm-Liouville** è un'[[Equazione agli autovalori]] associata all'equazione
 $$\frac{1}{\rho(x)}\left[\frac{d}{dx}\left(p(x) \frac{d}{dx}\right)-q(x)\right]u(x)+\lambda u(x)=0\tag{1}$$
 per la funzione $u(x)$, dove $p(x),q(x)$ e $\rho(x)$ sono funzioni "abbastanza regolari" in un intervallo finito $[\alpha,\beta]$. La $u(x)$ deve anche soddisfare una condizione agli estremi, come l'annullamento agli estremi

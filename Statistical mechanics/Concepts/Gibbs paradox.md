@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 The **Gibbs paradox** is a paradox regarding a non-quantum derivation of [[entropy]] that does not consider the [[Identical particles|indistinguishability]] of [[Particella|particles]]. The paradox revolves around how the entropy as derived from classical [[Ensemble|ensembles]] is [[Intensive property|intensive]], despite entropy by definition needing to be [[Extensive property|extensive]]. It is resolved by taking the indistinguishability of particles into account when counting the number of states.
 ### Description
 Stating that entropy is intensive is, in a way, the same as saying that the entropy of a system is not equal to the sum of its parts, which makes little sense. Gibbs sought to describe this phenomenon by taking two [[Ideal gas|ideal gases]], mixing them and seeing the results.

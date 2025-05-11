@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 ### Riferimenti
 Hagai Netzer (2015) [Revisiting the Unified Model of Active Galactic Nuclei](https://www.annualreviews.org/doi/pdf/10.1146/annurev-astro-082214-122302)
 - Modello di unificazione ancora impreciso.

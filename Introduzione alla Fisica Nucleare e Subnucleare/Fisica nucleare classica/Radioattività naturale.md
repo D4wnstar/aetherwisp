@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 Alcuni elementi radioattivi prodotti dopo il [[Big Bang]] sono già decaduti, ma altri con tempi di dimezzamento sufficientemente lunghi sono ancora presenti sulla terra e costituiscono la **radioattività naturale**.
 
 I [[Nuclide|nuclidi]] radioattivi decadono [[Decadimento Alpha|alpha]] e [[Decadimento Beta|beta]]. Esistono quattro catene di [[Decadimento nucleare|decadimento]] indipendenti.

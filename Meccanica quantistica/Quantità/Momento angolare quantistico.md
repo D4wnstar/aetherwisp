@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 Classicamente, il momento angolare è dato dalla formula vettoriale
 $$\mathbf{L}=\mathbf{r}\times\mathbf{p}$$
 che suddiviso nelle sue componenti dà

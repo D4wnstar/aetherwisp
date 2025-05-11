@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 (TODO: Maybe move this in  [[Lagrange equation]])
 
 An $N$-body system is a [[Physical system|system]] made up of $N$ components, considered to be [[point mass|point masses]] or similarly idealized objects. Assuming each body is in 3 dimensions (in total, $\mathbb{R}^{3N}$), and with $r$ (possibly zero) [[Constraint|constaints]], the system has $n=3N-r$ [[degrees of freedom]]. We are interested in known how the [[Generalized coordinates|configuration]] $Q$ of the system varies over time, from which we can get how the real coordinates vary in time. We start with only time (and boundary conditions), which resides in $\mathbb{R}^{+}$. From that we move to $Q$, and from that we move to $\mathbb{R}^{3N}$. The chain is as follows:

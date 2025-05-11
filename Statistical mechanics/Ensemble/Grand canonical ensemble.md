@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 The **grand canonical ensemble** is an [[ensemble]] that is not [[Physical system|isolated]] from the environment, but is in [[Thermal equilibrium|thermal]] and [[chemical equilibrium]] with a much larger [[Heat reservoir|heat]] and particle reservoir. As such, both [[energy]] and number of [[Particella|particles]] can fluctuate. The conserved quantities are the [[temperature]] $T$ and the [[chemical potential]] $\mu$. Its density function is
 $$\rho(z,V,T)=z^{N}Q_{N}(V,T)$$
 where $z=e^{\beta \mu}$ is the [[fugacity]] and $Q_{N}$ is the [[Partition function|canonical partition function]]. Its [[partition function]] is

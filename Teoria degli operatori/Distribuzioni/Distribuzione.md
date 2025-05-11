@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 Una **distribuzione** o **funzione generalizzata** è un oggetto matematico che generalizza il concetto di funzione. Una distribuzione agisce non su un punto del suo dominio, come una funzione, bensì per integrazione su una **funzione di test**. Una distribuzione $T$ agisce su una funzione di test $\varphi$ con
 $$\int_{I}T\varphi(x) dx$$
 ### Esempi

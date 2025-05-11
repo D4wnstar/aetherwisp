@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 The **Poynting vector** $\mathbf{S}$ is a vector that points in the direction of the flow of electromagnetic [[energy]]. It is defined as
 $$\mathbf{S}\equiv \frac{1}{\mu_{0}}\mathbf{E}\times \mathbf{B}$$
 where $\mathbf{E}$ is the [[electric field]] and $\mathbf{B}$ is the [[magnetic field]]. An interesting phenomenon to notice is that even static fields can lead to a movement of energy.

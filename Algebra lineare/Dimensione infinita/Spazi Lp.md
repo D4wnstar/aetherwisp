@@ -1,4 +1,5 @@
 ---
+wiki-publish: true
 aliases:
   - L^2
   - L^1

@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 Un **raggio cosmico** è una [[Particella]] ad alta energia che proviene dallo spazio profondo, ossia al di fuori del Sistema Solare. L'energia dei raggi cosmici è altamente variabile, dallo sperimentalmente accessibile ($10^{9}$ [[Elettronvolt|eV]]), all'irraggiungibile ($10^{21}$ eV).
 ### Scoperta dei pioni
 La scoperta del [[pione]] è dovuta ai raggi cosmici. L'atmosfera terrestre è composta in diversi strati. L'alta atmosfera è composta al 90% di [[protone|protoni]] (idrogeno ionizzato) e elio. Raggi di protoni dallo spazio [[Interazione fondamentale|interagiscono forte]] con i protoni nell'alta atmosfera e questa interazione deve essere mediata. Allora Hesse & Co. hanno organizzato un esperimento nel 1912 dove, con un pallone aerostatico, sono saliti nell'alta atmosfera per misurare l'ionizzazione di idrogeno in funzione dell'altezza e hanno scoperto che aumentava con l'altezza. La risposta era che provenivano raggi che interagivano forte dallo spazio. Per confermare che i raggi non fossero la luce solare, compirono l'esperimento di nuovo durante un'eclissi solare, ottenendo lo stesso risultato.

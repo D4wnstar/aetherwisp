@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 Il **flusso energetico** $\Phi$, o semplicemente **flusso**, è la quantità di energia $E$ che passa attraverso una superficie $S$ per unità di tempo $t$:
 $$\Phi=\frac{1}{S} \frac{dE}{dt} \quad \left[\frac{W}{m^{2}}\right]$$
 Il flusso energetico trova applicazione in diversi ambiti della fisica e solitamente prende nomi diversi in ciascuno di essi.

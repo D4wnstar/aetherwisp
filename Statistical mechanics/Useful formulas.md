@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 ### Mathematics
 Binomial theorem and Gamma function
 $$(x+y)^{n}=\sum_{k=0}^{n}\begin{pmatrix}n \\ k\end{pmatrix}x^{n-k}y^{k}=\sum_{k=0}^{n}\begin{pmatrix}n \\ k\end{pmatrix}x^{k}y^{n-k},\qquad\Gamma(z)=\int_{0}^{\infty}w^{z-1}e^{-w}dw$$

@@ -1,4 +1,5 @@
 ---
+wiki-publish: true
 aliases:
   - autostato di energia
   - autoket di energia

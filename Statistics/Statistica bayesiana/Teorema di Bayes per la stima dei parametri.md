@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 Il **teorema di Bayes** per la stima dei parametri afferma che la *distribuzione a posteriori*, o semplicemente *posteriore*, vale
 $$P(p|dM)=\frac{P(d|pM)P(p|M)}{P(d|M)}$$
 dove $d$ si riferisce ai dati misurati, $M$ al modello in uso (una distribuzione statistica) e $p$ sono i parametri di quel modello (della distribuzione, come valor medio e varianza). 

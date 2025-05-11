@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 The **gamma distribution** is a real continuous [[probability distribution]] defined by two parameters, $\alpha$ and $\beta$. For a [[random variable]] $X$, the [[probability density function]] is
 $$f_{X}(x;\alpha,\beta)=\frac{1}{\beta^{\alpha}\Gamma(\alpha)}x^{\alpha-1}e^{-x/\beta}$$
 where $\Gamma$ is the [[Gamma function]].

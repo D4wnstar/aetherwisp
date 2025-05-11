@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 Una **particella** è un oggetto fisico che occupa uno spazio-tempo localizzato che ha certi attributi intrinsechi, come
 - massa
 - carica

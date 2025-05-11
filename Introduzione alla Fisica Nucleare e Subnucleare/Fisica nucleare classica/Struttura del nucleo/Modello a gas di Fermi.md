@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 Il **modello a gas di Fermi** è un modello del [[Nucleo atomico|nucleo]] nello stato fondamentale di un [[atomo]] o debolmente eccitato. Si basa su alcune supposizioni:
 1. [[protone|protoni]] e [[neutrone|neutroni]] sono sistemi indipendenti.
 2. i nucleoni si muovono liberamente nel nucleo.

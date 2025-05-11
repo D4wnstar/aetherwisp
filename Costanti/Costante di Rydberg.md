@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 La **costante di Rydberg** $R$ è una costante che compare in fisica nucleare e atomica, in particolare nel [[modello di Bohr]] dell'atomo. Si tratta della profondità della buca di [[Potential]] in cui si trova un [[elettrone]] nello [[stato]] fondamentale dell'[[atomo di idrogeno]]. Vale
 $$R=\frac{m}{4\pi c\hbar^{3}}\left(\frac{e^{2}}{4\pi\epsilon_{0}}\right)^{2}  =109737\text{ cm}^{-1}\simeq13.6\text{ eV}$$
 L'equivalenza tra energia e lunghezza si ottiene grazie al fatto che una l'energia di un [[Photon]] è associata ad una lunghezza d'onda secondo la [[Formula di Planck]]. Questa lunghezza d'onda è detta [[limite di Lyman]].

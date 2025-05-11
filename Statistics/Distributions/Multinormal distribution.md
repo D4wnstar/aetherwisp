@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 The **multinormal distribution** is a real, multivariate [[probability distribution]] that [[Gaussian distribution]] to multiple dimensions. For $n$ [[independent variable|independent]], normally-distributed [[Random variable|random variables]] $X_{1},\ldots,X_{n}$, it is simply the [[joint distribution function]] of $n$ Gaussians:
 $$f(x_{1},\ldots,x_{n})=f_{1}(x_{1})\ldots f_{n}(x_{n})=\frac{1}{(2\pi)^{n/2}\sigma_{1}\ldots\sigma_{n}}e^{-\sum_{i=1}^{n} (x_{i}-\mu_{i})^{2}/2\sigma_{i}^{2}}$$
 where $\mu_{i}$ and $\sigma_{i}^{2}$ are the [[mean]] and [[variance]] of the $i$-th variable. In terms of the [[Covariance|covariance matrix]], it can be written in a more general form that also works for dependent variables:

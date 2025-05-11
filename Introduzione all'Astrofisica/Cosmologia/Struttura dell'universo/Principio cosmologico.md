@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 Il **principio cosmologico** afferma che non vi siano osservatori privilegiati nell'Universo e che non ci sia un centro da cui tutto fluisce. In altre parole, qualunque punto dell'universo può essere considerato come il suo centro senza perdita di coerenza. Formalmente, il principio cosmologico può essere enunciato così:
 
 > Non esistono osservatori privilegiati nell'Universo. Una volta appiattite le fluttuazioni locali, l'Universo appare omogeneo e isotropo su grande scala da qualsiasi punto venga osservato.

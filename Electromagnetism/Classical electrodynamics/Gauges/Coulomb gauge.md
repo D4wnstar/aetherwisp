@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 The **Coulomb gauge** is an electrodynamic [[gauge]] for [[Maxwell's equations]] in which we set the [[divergence]] of the [[magnetic vector potential]] to zero:
 $$\nabla\cdot \mathbf{A}=0$$
 In this gauge, the [[electric potential]] becomes the well known [[Gauss' law]]:

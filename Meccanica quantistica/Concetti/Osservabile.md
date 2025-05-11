@@ -1,1 +1,4 @@
+---
+wiki-publish: true
+---
 Un'**osservabile** è una quantità che si può osservare e quindi misurare. In meccanica classica, sono funzioni reali nello [[Phase space|spazio delle fasi]]. In meccanica quantistica, sono [[Operatore autoaggiunto|operatori hermitiani]] i cui [[Equazione agli autovalori|autovalori]] danno i valori possibili di una misura.

@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 The **Laplacian** $\nabla^{2}$ is a differential [[operatore|operator]] defined as the [[divergence]] of the [[gradient]] of a scalar-valued function in Euclidean space. The canonical form is defined in [[Cartesian coordinates]] and, given a twice [[Differential|differentiable]] function $f:\mathbb{R}^{3}\to\mathbb{R}$, is:
 $$\nabla^{2}f=\nabla\cdot\nabla f=\left(\frac{\partial ^{2}}{\partial x^{2}} + \frac{\partial ^{2}}{\partial y^{2}} + \frac{\partial ^{2}}{\partial z^{2}}\right)f$$
 which is the sum of all non-mixed second derivatives of the function $f$. In an arbitrary dimensional space of (finite) dimension $N$ we have

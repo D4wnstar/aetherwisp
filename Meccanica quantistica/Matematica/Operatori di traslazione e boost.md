@@ -1,4 +1,5 @@
 ---
+wiki-publish: true
 aliases:
   - operatore di traslazione
   - operatore di boost

@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 The **magnetic reluctance** $\mathcal{R}$ is the magnetic analog of the [[electrical resistance]], as used in [[magnetic circuit|magnetic circuits]]. It represents resistance against magnetic [[flux]], just like how electrical resistance represent resistance against [[electric current]]. It is measured in inverse henries, $\text{H}^{-1}$. The reluctance of a uniform magnetic circuit of cross-section $A$, length $l$, [[permeability]] $\mu_{r}$ is
 $$\mathcal{R}=\frac{l}{\mu_{0}\mu_{r} A}$$
 where $\mu_{0}$ is the [[Vacuum permeability]].

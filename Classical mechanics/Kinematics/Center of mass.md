@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 The **center of mass** is the imaginary point in space related to a system of $n$ [[Particella|particles]] defined by the position vector
 $$\mathbf{r}_{C}=\frac{\sum\limits_{i=1}^{n}m_{i}\mathbf{r}_{i}}{\sum\limits_{i=1}^{n}m_{i}}=\frac{1}{M}\sum\limits_{i=1}^{n}m_{i}\mathbf{r}_{i}$$
 with $M=\sum\limits_{i} m_{i}$ the total mass of the system. In case of a mass continuum, it is defined as

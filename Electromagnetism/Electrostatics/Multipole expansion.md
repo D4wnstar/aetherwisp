@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 **Multipole expansion** is a way of approximating the [[electric potential]] of an arbitrary [[electric charge]] distribution using a [[serie di potenze|power series]] in $1/r$, with $r$ being the distance from the distribution. It exploits the fact that the potential of multipole systems depends on higher and higher inverse powers of the distance as more charges are added, starting from $\sim 1/r$ for a point charge and going to $\sim 1/r^{2}$ for an [[electric dipole]] and so on.
 
 The formula for the potential multipole expansion of a charge distribution $\rho$ is

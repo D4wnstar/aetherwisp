@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 The **many-electron atom** is a [[physical system]] modeling an [[atom]] with an arbitrary number of [[elettrone|electrons]] around and arbitrary [[Nucleo atomico|nucleus]]. It is an extension of the [[Two electron atom]] and the [[Hydrogen atom]]. The [[Hamiltonian]] of the system is
 $$H=\sum_{i=1}^{N}\left[  - \frac{\hbar^{2}}{2m}\nabla ^{2}_{\mathbf{r}_{i}}- \frac{Ze^{2}}{4\pi \varepsilon_{0}r_{i}} \right]+\sum_{i>j} \frac{e^{2}}{4\pi \varepsilon_{0}r_{ij}} $$
 where the sum over $i>j$ is indexed that way to avoid double-counting [[interazione elettromagnetica|electromagnetic interactions]] between electrons.

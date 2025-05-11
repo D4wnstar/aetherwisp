@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 The **variance** $\sigma ^{2}$ of a [[random variable]] $X$ is a measure of its [[dispersion]]. It is defined as the [[expected value]] of the square of the deviation from the [[mean]] $E[X]=\mu$:
 $$\text{var}(X)\equiv\sigma ^{2}_{X}=E[(X-\mu)^{2}]$$
 The variance can also be expressed as

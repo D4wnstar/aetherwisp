@@ -1,4 +1,5 @@
 ---
+wiki-publish: true
 aliases:
   - canonical partition function
   - grand canonical partition function

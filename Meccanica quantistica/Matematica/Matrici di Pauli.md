@@ -1,5 +1,8 @@
+---
+wiki-publish: true
+---
 Le **matrici di Pauli** sono un insieme di tre matrici $2\times2$ in $\mathbb{C}^{2}$ che, date nella rappresentazione standard, sono
-$$\hat{\sigma}_{x}=\pmatrix{0 & 1 \\ 1 & 0},\quad\hat{\sigma}_{y}=\pmatrix{0 & -i \\ i & 0},\quad\hat{\sigma}_{z}=\pmatrix{1 & 0 \\ 0 & -1}$$
+$$\hat{\sigma}_{x}=\begin{pmatrix}0 & 1 \\ 1 & 0\end{pmatrix},\quad\hat{\sigma}_{y}=\begin{pmatrix}0 & -i \\ i & 0\end{pmatrix},\quad\hat{\sigma}_{z}=\begin{pmatrix}1 & 0 \\ 0 & -1\end{pmatrix}$$
 Sono tutte e tre [[Operatore autoaggiunto|autoaggiunte]], ossia $\hat{\sigma}_{i}^{\dagger}=\hat{\sigma}_{i}$, e [[Operatore unitario|unitarie]]. Questo è un fatto importante e necessario dato che queste matrici sono derivate dallo studio dello [[Spin#Spin 1/2|spin 1/2]] delle [[Particella|particelle]]. Infatti, dato che lo spin è un [[osservabile]], l'[[operatore]] associato ad esso deve essere autoaggiunto. In rappresentazione standard, $\hat{\sigma}_{z}$ è diagonale, mentre le altre due no.
 
 È comune anche usare gli indici $(1,2,3)$ anziché $(x,y,z)$.
@@ -7,7 +10,7 @@ Sono tutte e tre [[Operatore autoaggiunto|autoaggiunte]], ossia $\hat{\sigma}_{i
 I quadrati sono tutti unitari:
 $$\hat{\sigma}_{x}^{2}=\left(\matrix{0 & 1 \\ 1 & 0}\right)\left(\matrix{0 & 1 \\ 1 & 0}\right)=\left(\matrix{1 & 0 \\ 0 & 1}\right)=\hat{\mathbf{1}}$$
 $$\hat{\sigma}_{y}^{2}=\left(\matrix{0 & -i \\ i & 0}\right)\left(\matrix{0 & -i \\ i & 0}\right)=\left(\matrix{1 & 0 \\ 0 & 1}\right)=\hat{\mathbf{1}}$$
-$$\hat{\sigma}_{z}^{2}=\pmatrix{1 & 0 \\ 0 & -1}\pmatrix{1 & 0 \\ 0 & -1}=\pmatrix{1 & 0 \\ 0 & 1}=\hat{\mathbf{1}}$$
+$$\hat{\sigma}_{z}^{2}=\begin{pmatrix}1 & 0 \\ 0 & -1\end{pmatrix}\begin{pmatrix}1 & 0 \\ 0 & -1\end{pmatrix}=\begin{pmatrix}1 & 0 \\ 0 & 1\end{pmatrix}=\hat{\mathbf{1}}$$
 ### Matrice $\hat{\sigma}_{z}$
 Tutte le matrici hanno una rappresentazione nella [[base]] dei propri [[Equazione agli autovalori|autovettori]]. Per la matrice $\hat{\sigma}_{z}$, gli [[Equazione agli autovalori|autostati]] spin up e down sull'asse $z$ sono
 $$|\uparrow z\rangle=\left(\matrix{1 \\ 0}\right)\qquad|\downarrow z\rangle=\left(\matrix{0 \\ 1}\right)$$

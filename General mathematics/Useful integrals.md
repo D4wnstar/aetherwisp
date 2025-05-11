@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 $$\int_{a}^{b} \frac{1}{\sqrt{ x^{2}+y^{2} }} \, dx =\left.{\ln(x+\sqrt{ x^{2}+y^{2} })}\right|_{a}^{b}$$
 $$\int_{a}^{b} \frac{1}{(x^{2}+z^{2})^{3/2}} \ dx =\left.{\frac{x}{ z^{2}\sqrt{ x^{2}+z^{2} }}}\right|_{a}^{b}$$
 $$\int_{a}^{b} \frac{x}{(x^{2}+z^{2})^{3/2}} \ dx =\left.{-\frac{1}{ \sqrt{ x^{2}+z^{2} }}}\right|_{a}^{b}$$

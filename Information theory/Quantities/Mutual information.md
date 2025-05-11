@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 The **mutual information** $I$ measures the reduction of uncertainty of a [[probability distribution]] due to the knowledge of another distribution. It is called "mutual information" because it quantifies how much information one distribution gives about the other. This inherently means that two distributions must be correlated for there to be (nonzero) mutual information, as if they are [[independent variables|independent]], one cannot give information about the other; in this case, $I=0$.
 
 Given two correlated [[random variable|random variables]] $X$ and $Y$ defined over [[sample space|sample spaces]] $\mathcal{X}$ and $\mathcal{Y}$, their mutual information is

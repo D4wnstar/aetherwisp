@@ -1,4 +1,5 @@
 ---
+wiki-publish: true
 aliases:
   - distanza comovente
   - distanza di luminosità

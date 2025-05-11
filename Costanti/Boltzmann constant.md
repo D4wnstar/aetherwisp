@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 The **Boltzmann constant** $k_{B}$ is a physical constant that commonly appears in thermodynamics and relates energy and temperature:
 $$\begin{align}
 k_{B}=\frac{R}{N_{A}}&=1.38\cdot10^{-23}\text{ J/K}\\

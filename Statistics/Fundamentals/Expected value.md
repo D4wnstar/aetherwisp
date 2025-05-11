@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 The **expected value** or **expectation** $E[X]$ of a [[random variable]] $X$ is a generalization of a weighted average over all possible values the variable can take. Despite the name, the expected value is strictly theoretical and may not even be achievable in the real world: for instance, the expected value of a fair six-sided die is 3.5, which is not even on the die itself. It does *not* represent the most *likely* value to occur: that would be the [[mode]]. The name "expectation" refers to both the value $E[X]$ itself and the [[operatore|operator]] $E$ that is applied onto $X$.
 
 The definition differs between discrete and continuous variables, and also between countable and uncountable outcomes.

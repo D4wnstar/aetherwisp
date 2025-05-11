@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 A **Gaussian integral** is an integral of the form
 $$\int_{-\infty}^{\infty} e^{-a(x+b)^{2}} \ dx=\sqrt{ \frac{\pi}{a} } $$
 Strictly speaking, *the* Gaussian integral is the one with $a=b=1$:

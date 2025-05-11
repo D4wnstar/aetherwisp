@@ -78,7 +78,7 @@
   "keepInSync": true,
   "autoexportSVG": true,
   "autoexportPNG": false,
-  "autoExportLightAndDark": true,
+  "autoExportLightAndDark": false,
   "autoexportExcalidraw": false,
   "embedType": "excalidraw",
   "embedMarkdownCommentLinks": true,

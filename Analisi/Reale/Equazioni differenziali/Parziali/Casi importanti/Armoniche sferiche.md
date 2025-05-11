@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 Le **armoniche sferiche** $Y_{l}^{m}(\theta,\phi)$ sono la parte angolare della soluzione dell'[[Laplace's equation]] in [[Spherical coordinates|coordinate sferiche]] e valgono
 $$Y_{l}^{m}(\theta,\phi)=\sqrt{\frac{2l+1}{4\pi} \frac{(l-m)!}{(l+m)!}}e^{im\phi}P_{l}^{m}(\cos\theta)$$
 dove $\theta$ è l'angolo polare con $\theta\in[0,\pi]$ e $\phi$ è l'angolo azimutale con $\phi\in[0,2\pi[$. $P_{l}^{m}(\cos\theta)$ è il $lm$-esimo [[Polinomi di Legendre#Polinomi associati di Legendre|polinomio di Legendre associato]].

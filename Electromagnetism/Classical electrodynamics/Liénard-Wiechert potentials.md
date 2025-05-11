@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 The **Liénard-Wiechert potentials** are *retarded* [[Electric potential|electric]] and [[Magnetic vector potential|magnetic vector potentials]] for a [[Electric charge|point charge]] $q$ moving on a specific trajectory. They are
 $$V(\mathbf{r},t)=\frac{1}{4\pi \varepsilon_{0}} \frac{qc}{(\mathfrak{r}c-\boldsymbol{\mathfrak{r}}\cdot \mathbf{v})}$$
 and

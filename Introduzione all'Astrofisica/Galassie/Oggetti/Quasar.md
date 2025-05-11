@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 Un **quasar**, abbreviazione di **quasi-stellar radio source**, è un [[Nucleo galattico attivo]] (AGN) estremamente luminoso. Convenzionalmente, un quasar è una radiogalassia la cui controparte ottica è un [[Quasi-Stellar Object|QSO]], anche se tipicamente si chiamano quasar tutti i QSO, anche se non sono radiogalassie. Un quasar si considera tale se ha $M_{V}<-23$ e $L_{X}>10^{44}$ erg/s.
 
 Sono i secondi oggetti più luminosi dell'universo: gli unici eventi che superano la loro luminosità sono i [[lampo gamma|lampi gamma]], e questi sono attivi solo per una frazione di secondo. I quasar, invece, hanno tempi scala di $4\times10^{7}$ anni (detto **tempo di Eddington** $t_{Ed}$).

@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 The **divergence theorem** states that the integral of the [[divergence]] of a three-dimensional [[vector field]] in a volume is equal to the integral of the field itself projected over the bounding [[surface]] of the volume. For a generic vector field $\mathbf{F}$ in a volume $V$ of bounding surface $S$, the theorem states:
 $$\int_{V}\nabla\cdot\mathbf{F}=\oint_{S}\mathbf{F}\cdot d\mathbf{a}$$
 where $d\mathbf{a}=\hat{\mathbf{n}}\ da$ is the area element projected with the normal unit vector $\hat{\mathbf{n}}$.

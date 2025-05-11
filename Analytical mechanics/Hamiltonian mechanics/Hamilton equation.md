@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 The [[Lagrange equation]] is a second order differential equation of the form $\ddot{\mathbf{q}}=f(q,\dot{q},t)$, which can be also written in as a linear system of first order equations:
 $$\begin{cases}
 \dot{\mathbf{q}}=\boldsymbol{\eta} \\

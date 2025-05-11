@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 Let $T(q,\dot{q},t)$ be the [[kinetic energy]] and $V(q,\dot{q},t)$ a [[potential energy]]. Then
 $$\frac{d}{dt} \frac{ \partial T }{ \partial \dot{q}_{n} } (q(t),\dot{q}(t),t)-\frac{ \partial T }{ \partial q_{n} } (q(t),\dot{q}(t),t)=Q_{n}(q(t),\dot{q}(t),t)$$
 where $Q_{n}$ is a [[generalized force]] equal to

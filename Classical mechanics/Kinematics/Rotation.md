@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 A **rotation** is a circular movement of an object around a central line, known as the **axis of rotation**. A rotation $R(\alpha)$ in $\mathbb{R}^{N}$ is a [[Operatore lineare|linear operator]] parameterized by a real value, typically interpreted as the angle of rotation and denoted $\theta$ or $\alpha$.
 
 Rotations form a [[group]] with interesting properties. Since rotations are, geometrically speaking, planar operations, the most fundamental group is the one in $\mathbb{R}^{2}$. Here they form a group known as

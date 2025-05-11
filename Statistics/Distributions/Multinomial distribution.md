@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 The **multinomial distribution** is a real, multivariate [[probability distribution]] which describes the probability of an event occurring in different ways, such as a $n$-sided dice landing on each of its face. It is the multivariate extension of the [[binomial distribution]], which only handles events with boolean outcomes, like a coin toss. For $m$ [[random variable|random variables]] $K_{1},\ldots,K_{n}$, the [[probability mass function]] of having $n$ total outcomes, divided exactly in $k_{i}$ occurrences per type (such as a specific dice roll), each with probability $p_{i}$ of occurring, is
 $$P(k_{1},\ldots,k_{n})= \frac{n!}{k_{1}!\ldots k_{m}!}p_{1}^{k_{1}}\ldots p_{m}^{k_{m}}=\frac{n!}{\prod_{i=1}^{m} k_{i}!}\prod_{i=1}^{m} p_{m}^{k_{m}}$$
 ### Moments

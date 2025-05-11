@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 In meccanica quantistica, uno [[stato]] si dice **determinato** se misure compiute su sistemi identicamente preparati conduce sempre allo stesso risultato. Un esempio sono gli stati stazionari di un'[[Hamiltoniana]], che danno sempre l'esatto valore di energia $E_{n}$ di quello stato.
 
 Chiamiamo $q$ il risultato della misura di un'[[osservabile]] $Q$. Uno stato determinato si costruisce cercando uno stato in cui la varianza è nulla. Ciò significa

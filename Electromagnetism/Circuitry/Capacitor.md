@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 A **capacitor** is an electronic component that consists of two [[Conductor|conducting]] surfaces designed to have high [[capacitance]]. It is represented in circuit diagrams with the symbol
 
 ```tikz

@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 The **product rule** for derivatives states that
 $$\frac{d}{dx}(f(x)+g(x))=\frac{d}{dx}f(x)+ \frac{d}{dx}g(x)=f'(x)+g'(x)$$
 The same applies to partial derivatives. The general case for a product of $n$ functions is

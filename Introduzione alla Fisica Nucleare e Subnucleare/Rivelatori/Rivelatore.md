@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 Un **rivelatore** è un strumento il cui scopo è rivelare il passaggio di una determinata [[particella]], come un [[Photon]] o un [[muone]].
 ### Funzionamento
 L'esatto meccanismo di un rivelatore dipende dal tipo specifico di sensore che viene utilizzato, ma certi concetti sono universali. È sempre vero che la probabilità di rivelare una particella è inversamente proporzionale alla sua energia: più bassa è l'energia, più è probabile che la particella interagisca con il sensore. Infatti, sarebbe l'ideale che la particella la minima energia possibile nell'interazione con il rivelatore, a modo di un perturbarla troppo.

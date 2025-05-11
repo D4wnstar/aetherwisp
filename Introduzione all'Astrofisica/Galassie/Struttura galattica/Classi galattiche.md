@@ -1,4 +1,5 @@
 ---
+wiki-publish: true
 aliases:
   - Hubble Tuning Fork
   - galassia a spirale

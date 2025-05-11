@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 Il **sistema equatoriale** è un [[sistema di coordinate celesti]] molto usato in astrofisica. Il nome viene dal fatto che il piano orizzontale è definito dall'equatore terrestre, estendendolo a tutta la sfera celeste. L'orizzonte così trovato si chiama *equatore celeste*. Le due coordinate angolari che usa sono
 1. la **declinazione** $\delta$, che va tra i -90° e i 90°, ottenuta misurando l'altezza angolare dell'oggetto rispetto all'equatore celeste.
 2. l'**ascensione retta** $\gamma$, che va tra i 0° e i 360°. In realtà lo si misura in ore, tra 0 e 24 ore. Per misurarla, dividiamo l'equatore celeste in 24 segmenti, uno per ciascun'ora. Scegliamo un punto di riferimento arbitrario: l'eclittica del sole interseca il piano equatoriale due volte all'anno, agli equinozi. Questi sono comodi punti di riferimento e si sceglie l'equinozio di primavera del 21 marzo per convenzione. L'angolo descritto dal Sole con la Terra nell'equinozio di primavera è l'angolo (o ora) zero. 

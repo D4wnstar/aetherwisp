@@ -1,8 +1,11 @@
+---
+wiki-publish: true
+---
 Consideriamo un'[[Osservabile]] $A$ e il suo [[Operatore autoaggiunto]] associato $\hat{A}$. Prendo un [[Notazione braket|ket]] $|\psi\rangle\in\mathcal{H}$ con $\mathcal{H}$ uno [[Spazio di Hilbert]] e $\psi$ una [[Funzione d'onda]] che rappresenta lo [[Stato]] del mio sistema. Dato che la meccanica quantistica è una teoria statistica, è conveniente trovare il valor medio di un'osservabile:
 $$\boxed{\langle A\rangle_{\psi}=\langle \psi|\hat{A}|\psi\rangle}$$
 Per dimostrarlo, ricordiamo che se $\hat{A}$ è autoaggiunto, i suoi autovettori formano una base dello spazio. Abbiamo $\hat{A}|a_{i}\rangle=a_{i}|a_{i}\rangle$ con $a_{i}\in\mathbb{R}$. Riscriviamo l'espressione esprimendo $\psi$ in questa base
 $$|\psi\rangle=\sum\limits_{i=1}^{n}\psi_{i}|a_{i}\rangle$$
-$$\langle \psi|\hat{A}\psi\rangle=\sum\limits_{i,j=1}^{n}\psi_{i}\psi_{j}^{\ast}\langle a_{j}|\hat{A}|a_{i}\rangle=\sum\limits_{i,j=1}^{n}\psi_{i}\psi_{j}^{\ast}a_{j}\underbrace{\langle a_{j}|a_{i}\rangle}\limits_{\delta_{ij}}$$
+$$\langle \psi|\hat{A}\psi\rangle=\sum\limits_{i,j=1}^{n}\psi_{i}\psi_{j}^{\ast}\langle a_{j}|\hat{A}|a_{i}\rangle=\sum\limits_{i,j=1}^{n}\psi_{i}\psi_{j}^{\ast}a_{j}\underbrace{\langle a_{j}|a_{i}\rangle}_{\delta_{ij}}$$
 Quindi ci rimane
 $$\sum\limits_{i=1}^{n}a_{i}|\psi_{i}|^{2}$$
 Ma per la normalizzazione è anche vero che

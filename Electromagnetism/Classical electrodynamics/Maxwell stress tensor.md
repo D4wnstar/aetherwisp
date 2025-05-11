@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 The **Maxwell stress tensor** is a three-dimensional symmetrical second-order [[tensor]] used to simplify the equations of electrodynamics into shorter forms. In plain terms, it's a $3\times3$ matrix. It exploits the symmetries found between the [[electric field]] $\mathbf{E}$ and the [[magnetic field]] $\mathbf{B}$. It is defined through its components as
 $$T_{ij}=\varepsilon_{0}\left( E_{i}E_{j}- \frac{1}{2}\delta_{ij}E^{2} \right)+ \frac{1}{\mu_{0}}\left( B_{i}B_{j}- \frac{1}{2}\delta_{ij}B^{2} \right)\tag{1}$$
 where $\varepsilon_{0}$ is the [[vacuum permittivity]], $\mu_{0}$ is the [[vacuum permeability]] and $\delta_{ij}$ is the [[Kronecker delta]]. Being symmetrical, $T_{ij}=T_{ji}$ for all $i$ and $j$.

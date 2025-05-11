@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 **Hamilton's principle** is a formulation of the [[least action principle]] that states that the dynamics of a [[physical system]] are fully determined by the minimization of a [[functional]], known as the [[action]], of the [[Lagrangian]]. The functions for which the functional is minimized uniquely determine the motion of the system.
 ### Equivalence with the differential solution of motion
 Hamilton's principle is a fundamental result from which the entirety of mechanics can be derived. This can be seen by the following statement:

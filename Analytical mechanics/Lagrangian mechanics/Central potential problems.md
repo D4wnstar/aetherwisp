@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 Consider two bodies of [[mass|masses]] $m_{1}$ and $m_{2}$ moving in $\mathbb{R}^{3}$, for a total of $n=6$ [[degrees of freedom]]. Each position vector is $\mathbf{r}_{i}=(x_{i},y_{i},z_{i})$ for $i=1,2$. The [[kinetic energy]] is
 $$T=\frac{1}{2}m_{1} \dot{\mathbf{r}}_{1}^{2}+ \frac{1}{2}m_{2}\dot{\mathbf{r}}_{2}^{2}$$
 The [[potential energy]] is dependent on the distance between the bodies, $V\equiv V(\mathbf{r}_{1}-\mathbf{r}_{2})=V(\mathbf{r})$, where we defined $\mathbf{r}\equiv \mathbf{r}_{1}-\mathbf{r}_{2}$ for the sake of brevity. Like in most $N$-body systems, we use the [[center of mass]] frame to simplify our treatment. Call $M\equiv m_{1}+m_{2}$ the total mass. The center of mass is located by

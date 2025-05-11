@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 **Maxwell's equations** are four equations that determine the [[Divergence]] and [[Curl]] of the [[Electric field|electric]] and [[magnetic field]]. In the vacuum they are
 $$\boxed{\begin{align}
 \nabla\cdot\mathbf{E} & =\frac{\rho}{\varepsilon_{0}} &

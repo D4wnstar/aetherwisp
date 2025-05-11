@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 Il **fattore di forma** $F$ è la [[Trasformata di Fourier]] della distribuzione di carica. Esso contiene le informazioni sulla distribuzione di carica del bersaglio.
 $$F(\vec{q})=\int \rho(\vec{r'}) e^{i\vec{q}\cdot\vec{r}/\hbar}d\vec{r'}$$
 Esistono diversi fattori di forma per diversi casi d'uso.

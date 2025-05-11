@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 La meccanica quantistica è sostanzialmente un'applicazione dell'algebra lineare a dimensioni infinita e della teoria degli [[Operatore|operatori]]. Si usa quindi una certa notazione che porta a semplificare la parte grafica della matematica necessaria per i calcoli.
 
 La [[notazione braket]] è la base su cui si costruisce tutta la meccanica quantistica. Serve a rappresentare vettori e funzioni, finiti o infiniti, assieme ai loro [[Scalar product|prodotti scalari]] in modo conciso.

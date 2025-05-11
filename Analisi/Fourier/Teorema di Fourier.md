@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 Il **teorema di Fourier** ci dà delle condizioni entro le quali la [[Serie di Fourier]] converge.
 
 Sia $f(x)$ una funzione [[Spazi Lp#Spazio $L {2}$|a quadrato sommabile]] in $L^{2}(-L,L)$ con $L>0$. Siano $a_{n}$ i [[Scalar product|prodotti scalari]] $(f_{n},f)$ tra $f$ e le funzioni $f_{n}$ dell'insieme

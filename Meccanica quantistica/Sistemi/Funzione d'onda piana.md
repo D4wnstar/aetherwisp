@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 In generale, la descrizione di un sistema quantistico parte dalla scelta della funzione [[Potential]] che fa parte dell'[[equazione di Schrödinger]], che poi si risolve per trovare la [[funzione d'onda]] associata. Può essere interessante anche andare a ritroso, annullando il potenziale (e quindi considerando una [[particella libera (quantistica)]]) e decidendo a priori la funzione d'onda d'interesse, vedendo poi cosa ne deriva. Per questo caso, consideriamo il sistema di una particella libera $V=0$ con una funzione d'onda descritta da una [[Plane wave|onda piana]] della forma
 $$\psi_{p}(x)=A_{p}e^{(i/\hbar)px}$$
 dove $A_{p}$ è un coefficiente di [[Normalization]].

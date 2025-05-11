@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 Una **candela standard** è un oggetto astronomico di cui è nota la [[Luminosità]]. Sapendo questa, è possibile misurarne la distanza usando l'equazione del flusso $f=L/4\pi d^{2}$. Un esempio sono le [[supernova|supernove]] di tipo Ia, la cui luminosità è costante al loro apice.
 
 Un tipo di candela standard sono le **cefeidi**, in cui la luminosità è legata al periodo di pulsazione della stella da una relazione empirica. Esistono cefeidi *di tipo 1* e cefeidi *di tipo 2*.

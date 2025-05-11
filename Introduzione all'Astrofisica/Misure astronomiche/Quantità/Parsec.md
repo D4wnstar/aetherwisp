@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 I **parsec** sono l'unità di distanza fondamentale usata in astrofisica. Presa un'[[Unità astronomica]], si definisce un parsec come la distanza a cui 1 AU *sottende* un arcosecondo. In altre parole, è la distanza a cui un oggetto avrebbe un parallasse di un arcosecondo. Corrisponde a circa 3.26 anni luce. Il nome è un portmanteau di "**par**allasse di un arco**sec**ondo".
 
 ![[Schema Definizione di Parsec|center]]

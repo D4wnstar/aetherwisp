@@ -1,4 +1,5 @@
 ---
+wiki-publish: true
 aliases:
   - ISM
   - polvere interstellare

@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 Un **numero quantico** è una quantità che caratterizza un certo [[stato]] quantistico e dà informazioni su quale stati sono possibili. Quali e quanti sono i numeri quantici in sé dipendono dal sistema in esame. Un insieme di tutti i numeri quantici del sistema costituiscono una [[base]] e possono essere usati per determinare univocamente uno stato.
 
 Ad esempio, nell'[[atomo di idrogeno]], si trovano quattro numeri quantici:

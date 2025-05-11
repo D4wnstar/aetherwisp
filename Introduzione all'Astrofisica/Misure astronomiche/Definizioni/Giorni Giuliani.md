@@ -1,1 +1,4 @@
+---
+wiki-publish: true
+---
 I giorni vengono divisi alla mezzanotte. Ciò è fastidioso perché, dato che le misure astronomiche sono fatte di notte, è molto possibile che una misura venga divisa a metà. In astronomia si usa un sistema chiamato **Giorni Giuliani** (*Julian Days*). Si basa su una convenzione antica e oggi modernizzata. Si divide i giorni al mezzogiorno anziché alla mezzanotte, e invece di avere un calendario ciclico, semplicemente si conta il numero di giorni da un punto definito per convenzione. Questo punto è definito come il 1° gennaio a mezzogiorno di oltre 4000 anni fa per via di una convenzione antica. Dunque la data di misurazione è definita in *Julian Days*, o JD, che è un numero enorme. Si usano anche i *Modified Julian Days*, o MJD, che sono una semplice traslazione dei JD per rendere i numeri più piccoli.

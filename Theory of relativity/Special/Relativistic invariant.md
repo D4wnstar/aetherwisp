@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 A **relativistic invariant** is a quantity that does not change under a [[Lorentz transformation]].
 ### Examples
 The product of two [[Four-vector|four-vectors]] is a relativistic invariant:

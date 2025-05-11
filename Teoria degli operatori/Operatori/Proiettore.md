@@ -1,4 +1,5 @@
 ---
+wiki-publish: true
 aliases:
   - autoproiettore
   - relazione di completezza

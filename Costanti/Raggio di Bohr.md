@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 Il **raggio di Bohr** $a_{0}$ è una costante di distanza pari alla distanza dal [[Nucleo atomico|nucleo]] di un [[atomo]] di idrogeno alla quale la [[funzione d'onda]] di un [[elettrone]] nello [[stato]] fondamentale ha [[probability|probabilità]] massima.
 
 È definito come

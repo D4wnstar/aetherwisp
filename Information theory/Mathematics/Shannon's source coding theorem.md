@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 **Shannon's source coding theorem** provides a lower bound for the minimum average length of a message for a given [[source code]]. This lower bound is the [[Entropy (information theory)|Shannon entropy]].
 
 > [!info] Source coding theorem

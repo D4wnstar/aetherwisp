@@ -1,4 +1,5 @@
 ---
+wiki-publish: true
 aliases:
   - operatori scaletta
   - operatore di creazione

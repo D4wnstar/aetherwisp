@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 A **vector potential** is a [[Vector field]] $\mathbf{A}:S\subseteq \mathbb{R}^{N}\to \mathbb{R}^{N}$ associated with another vector field $\mathbf{F}:S\subseteq \mathbb{R}^{N}\to \mathbb{R}^{N}$  such that its [[curl]] is the vector field:
 $$\nabla\times\mathbf{A}=\mathbf{F}$$
 The vector potential is defined up to the gradient of a [[scalar field]], which means that given any scalar field $S$, the function $\tilde{\mathbf{A}}=\mathbf{A}+\nabla S$ is itself the vector potential of the same field. This is because the curl of a [[gradient]] is always zero:

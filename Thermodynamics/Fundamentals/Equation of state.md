@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 The **equation of state** of a [[physical system]] in [[thermal equilibrium]] is a function that takes a system's thermodynamic, macroscopic variables as arguments and constrains them. This is usually [[pressure]], volume and [[temperature]]:
 $$f(P,V,T)=0$$
 The actual form of $f$ depends on the substance. $f$ is regarded as continuous and [[Differential|differentiable]], expect at most at special points.

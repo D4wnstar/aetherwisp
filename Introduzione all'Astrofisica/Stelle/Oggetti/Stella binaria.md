@@ -1,4 +1,5 @@
 ---
+wiki-publish: true
 aliases:
   - sistema binario
   - coppia ottica

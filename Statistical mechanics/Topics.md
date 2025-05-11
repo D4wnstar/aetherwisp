@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 ### Classical statistical mechanics
 - [[Equal a priori probability hypothesis]]
 - [[Ergodic hypothesis]]

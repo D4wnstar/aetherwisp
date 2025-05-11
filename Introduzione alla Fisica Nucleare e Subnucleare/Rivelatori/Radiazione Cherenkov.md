@@ -1,4 +1,5 @@
 ---
+wiki-publish: true
 aliases:
   - effetto Cherenkov
   - angolo di emissione di Cherenkov

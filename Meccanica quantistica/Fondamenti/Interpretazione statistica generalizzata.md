@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 L'**interpretazione statistica generalizzata** è una spiegazione probabilistica della meccanica quantistica e dei suoi meccanismi.
 
 Consideriamo un'[[osservabile]] $Q(x,p)$ per una [[Particella]] nello [[Stato]] denotato dalla [[funzione d'onda]] $\Psi(x,t)$. Se compiamo una misura, siamo certi di ottenere uno degli [[Equazione agli autovalori|autovalori]] dell'[[operatore autoaggiunto]] $\hat{Q}\left(x,-i\hbar \frac{d}{dx}\right)$.

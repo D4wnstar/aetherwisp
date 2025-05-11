@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 The **center-of-mass energy** of a relativistic system is the [[norm]] of the total momentum:
 $$\lvert p_{tot}^{\mu} \rvert=\sqrt{s} =\sqrt{\left(\sum\limits_{k}E_{k}\right)^{2}-\left(\sum\limits_{k}\mathbf{p}\right)^{2}}$$
 It is the square root of the [[invariant mass]] and is a [[relativistic invariant]].

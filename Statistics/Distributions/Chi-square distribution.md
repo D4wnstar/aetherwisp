@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 The **chi-square distribution** or **$\chi ^{2}$ distribution** is a real, continuous [[probability distribution]]. For a [[random variable]] $X$, the [[probability density function]] is
 $$f_{X}(x;k)=\frac{1}{2^{k/2}\Gamma\left( \frac{k}{2} \right)}x^{k/2 -1}e^{-x/2}$$
 where $k$ is a positive parameter called the *degrees of freedom* of the distribution and $\Gamma$ is the [[Gamma function]]. Though not strictly necessary by definition, $k$ is usually taken to be integer, as $\Gamma$ has closed form solutions for integer $k$.

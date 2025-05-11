@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 In information theory, a **source code** is the collection of strings expressed in a predetermined set of symbols called an alphabet that encode some or all of the possible outcomes of a random event.
 ### Definitions
 Let's define a [[random variable]] $X$ in a [[sample space]] $\mathcal{X}$ which defines a sequence of variables $\underline{X}=(X_{1},X_{2},\ldots,X_{n})$. Another function $w:\mathcal{X}\to D^{*}$ converts the outcomes of the variable into an **alphabet** $D$, where $D$ is a set of known values used to encode the outcomes. Typically, this is the binary set $D=\{ 0,1 \}$. The asterisk $D^{*}$ denotes that the output of $w$ is a finite sequence of elements of $D$. An element of $D^{*}$ is called a **string**, and $D^{*}$ is the set of all possible strings. If the element is given by $w$ specifically, it is called a **codeword**. For instance, if $D$ is the binary set, a code in $D^{*}$ might be $01010011$. The collection of all possible strings (one for each outcome) is the **source code**, or just **code**.

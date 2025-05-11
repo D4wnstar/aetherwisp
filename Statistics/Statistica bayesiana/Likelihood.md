@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 La **funzione di verosimiglianza** o **likelihood** è la probabilità di osservare un dato condizionata dai parametri del modello utilizzato per stimarlo. Se consideriamo una variabile casuale $X$ e un modello con parametri $\theta$, la probabilità di una realizzazione $x$ di $X$ condizionata da tali parametri è
 $$x \rightarrow P(x|\theta)$$
 e la likelihood dei parametri condizionata da $x$ è

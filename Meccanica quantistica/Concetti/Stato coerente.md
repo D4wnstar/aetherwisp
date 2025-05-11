@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 Uno **stato coerente** è un qualunque [[Equazione agli autovalori|autostato]] dell'[[Operatori di creazione e distruzione|operatore di distruzione]] $\hat{a}$ e ha la forma
 $$\hat{a}\ket{\alpha} =\alpha \ket{\alpha} $$
 con $\alpha \in \mathbb{C}$. Si trova che l'autostato è correlato allo stato fondamentale da

@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 **Polar coordinates** are a two-dimensional set of coordinates where each point on the plane is determined by its distance from a reference point called the **pole** and its angle from a reference direction called the **polar axis**. The distance is called the **radial coordinate**, while the angle is called **angular coordinate** or sometimes **azimuth**.
 ### Relation to Cartesian coordinates
 Polar coordinates $(r,\theta)$ can be converted to [[Cartesian coordinates]] $(x,y)$ by using the [[Coordinate transformation]]

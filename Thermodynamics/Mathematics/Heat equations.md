@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 The **heat equations** or **$dQ$ equations** (not to be confused with the [[heat equation|heat]] [[partial differential equation]]) are a set of equations for the infinitesimal variation of [[heat]] $dQ$ in a [[physical system]]. They are equations of two thermodynamic variable chosen among [[pressure]] $P$, volume $V$ and [[temperature]] $T$, with the third constrained by the system's [[equation of state]].
 
 The equations are

@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 The **exact differential** of a multivariate function $f(x,y):\mathbb{R}^{2}\to \mathbb{R}$ is defined as the [[differential form]]
 $$df=\frac{ \partial f }{ \partial x } dx+\frac{ \partial f }{ \partial y } dy$$
 where the arguments $x$ and $y$ are independent of each other. It is a specific form of the [[differential]] for a [[scalar field]]. This is a specific case of the general differential form

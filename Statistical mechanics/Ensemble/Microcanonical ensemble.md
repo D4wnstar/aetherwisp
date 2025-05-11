@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 The **microcanonical ensemble** is an [[ensemble]] whose [[probability density function]] is
 $$\rho(\mathbf{q},\mathbf{p})=\begin{cases}
 \text{constant} & E<H(\mathbf{q},\mathbf{p})<E+\Delta \\

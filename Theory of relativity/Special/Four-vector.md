@@ -1,4 +1,5 @@
 ---
+wiki-publish: true
 aliases:
   - covariant four-vector
   - contravariant four-vector

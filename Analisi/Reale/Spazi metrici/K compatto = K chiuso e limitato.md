@@ -1,4 +1,5 @@
 ---
+wiki-publish: true
 tags:
   - spazi-metrici
 ---

@@ -1,4 +1,5 @@
 ---
+wiki-publish: true
 aliases:
   - rappresentazione della posizione
   - rappresentazione del momento

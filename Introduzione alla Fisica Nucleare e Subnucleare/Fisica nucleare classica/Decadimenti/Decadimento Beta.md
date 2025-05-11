@@ -1,4 +1,5 @@
 ---
+wiki-publish: true
 aliases:
   - processo beta
   - processo beta inverso

@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 **Entropy** $S$ is a measurement of uniformity and disorder of a system. In Clausius' words, it is the "amount of transformation of a system". In differential form it is defined as
 $$dS=\frac{\delta Q_{\text{rev}}}{T}=k_{B}\ dS_\text{it}$$
 where $Q_\text{rev}$ is the [[heat]] exchanged by a reversible [[thermodynamic transformation]] and $T$ is [[temperature]]. $S_\text{it}$ is the [[Entropy (information theory)|information theory entropy]], which becomes thermodynamic entropy when weighed by the [[Boltzmann constant|Boltzmann constant]] $k_{B}$. Notably, $dS$ is an [[Exact differential]], unlike $\delta Q$, which usually isn't.

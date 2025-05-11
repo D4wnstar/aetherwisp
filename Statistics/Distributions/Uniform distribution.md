@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 The **uniform distribution** is a continuous [[probability distribution]] with constant [[probability]] over an interval. For an interval $(a,b)$, the [[probability density function]] of a uniform [[random variable]] $X$ is
 $$f_{X}(x)=\begin{cases}
 c & \text{se }x\in (a,b) \\

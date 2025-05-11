@@ -1,4 +1,5 @@
 ---
+wiki-publish: true
 aliases:
   - correlation coefficient
   - covariance matrix

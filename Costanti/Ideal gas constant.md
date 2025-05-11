@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 The **ideal gas constant** is a constant found in the [[Ideal gas|ideal gas law]]:
 $$\begin{align}
 R=N_{A}k_{B}&=8.315\ \text{K/J} \\

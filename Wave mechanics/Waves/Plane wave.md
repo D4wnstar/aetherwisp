@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 A **plane wave** is a [[Wave]] whose [[Wavefront]] is a plane everywhere. It is the most basic kind of wave and any wave can be seen as being locally plane at small enough scales.
 ### Conditions
 The condition that the wavefront must be a plane at any given time gives us the mathematical backing to describe the wave with an equation. To start, consider a plane [[surface]] oriented in no particular way in three dimensional space. Call $\mathbf{k}$ the normal vector to the surface, $\mathbf{r}$ and $\mathbf{r}_{0}$ two vectors pointing to two points on the surface.

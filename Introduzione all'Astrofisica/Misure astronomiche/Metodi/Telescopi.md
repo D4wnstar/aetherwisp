@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 I telescopi più antichi sono **telescopi rifrattori**, hanno la forma di un cannocchiale e cercano di assorbire tutta la luce in arrivo sulla superficie più ampia possibile e poi concentrarla sull'occhio. Il [[flusso energetico]] che arriva all'occhio è
 $$\frac{f_{tele}}{f_{occhio}}=\frac{S_{tele}}{S_{occhio}}$$
 con $S$ la superficie.

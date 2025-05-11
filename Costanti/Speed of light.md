@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 The **speed of light** $c$ is the speed of a ray of light in the vacuum. In SI units it is exactly equal to
 $$c=299\ 792\ 458\text{ m/s}$$
 by definition. What a "ray of light" constitutes depends on the branch of physics, but in general it is the speed at which [[Interazione elettromagnetica|electromagnetic interaction]] is communicated between different objects. In classical physics, it is the propagation speed of an [[electromagnetic wave]]. In quantum physics, it is the velocity of a [[photon]].

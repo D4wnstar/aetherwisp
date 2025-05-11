@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 La **materia oscura** è una forma ipotetica di [[Materia]] che non [[Interazione elettromagnetica|interagisce elettromagneticamente]] ed è quindi invisibile. L'unica sua forma di interazione osservabile è quella [[Interazione gravitazionale|gravitazionale]].
 ### Evidenza
 La materia oscura non è mai stata osservata direttamente. La sua esistenza deriva originariamente da anomalie nella velocità di rotazione nel disco delle [[Galassia|galassie]] [[Classi galattiche|a spirale]]. Infatti, la velocità misurata in queste galassie (inclusa la [[Via Lattea]]) in funzione della distanza dal centro galattico differisce da quanto è previsto dalla relatività generale con la sola massa visibile. La presenza di una forma aggiuntiva, non visibile, di massa corregge le misure.
