@@ -1,4 +1,4 @@
 ---
 wiki-publish: true
 ---
-La **distribuzione a posteriori** o **posterior** è la distribuzione di probabilità che si ottiene *aggiornando* il [[Prior]] con nuove informazioni espresse dalla [[Likelihood]] mediante il [[Teorema di Bayes per la stima dei parametri]]. Il posterior contiene tutte le informazioni riguardanti una proposta, come una ipotesi scientifica o i parametri di un modello. Specificamente nell'inferenza bayesiana, il posterior rappresenta la distribuzione di probabilità dei parametri che si stanno stimando e l'argomento della moda di questa distribuzione è la migliore stima di questi parametri.
+The **posterior distribution** or **posterior** is the probability distribution obtained by _updating_ the [[prior]] with new information expressed by the [[likelihood]] through [[Bayes' theorem]]. The posterior contains all the information regarding a proposition, such as a scientific hypothesis or the parameters of a model. Specifically in Bayesian inference, the posterior represents the probability distribution of the parameters being estimated, and the mode of this distribution is the best estimate of these parameters.

@@ -1,8 +1,8 @@
 ---
 wiki-publish: true
 ---
-La **distribuzione a priori** o **prior** è una distribuzione di probabilità assunta che rappresenta la conoscenza pregressa che si nei rispetti di un processo. In altre parole, è la distribuzione di probabilità che si assume in mancanza di dati sul problema.
+The **prior distribution** or **prior** is an assumed probability distribution that represents existing knowledge about a process. In other words, it is the probability distribution assumed in the absence of data about the problem.
 
-È un componente fondamentale del [[Teorema di Bayes per la stima dei parametri]], dove è pesata dalla funzione di [[Likelihood]] dei parametri del modello statistico per ottenere il [[Posterior]].
+It is a fundamental component of [[Bayes' theorem]], where it is weighted by the [[likelihood]] function of the statistical model's parameters to obtain the [[posterior]].
 
-I prior possono contenere più o meno informazione: spesso non si hanno molte conoscenze pregresse riguardo al problema in esame e in tal caso si sceglie un prior generico e poco informativo. L'esempio più semplice è dato dal [[principio di indifferenza]], che afferma che, in mancanza di evidenza rilevante sulla distribuzione di un evento, si possa considerare la distribuzione dell'evento come uniforme.
+Priors can contain varying degrees of information: often, there is little prior knowledge about the problem at hand, in which case a generic, weakly informative prior is chosen. The simplest example is given by the [[principle of indifference]], which states that, in the absence of relevant evidence about an event's distribution, the event can be assumed to follow a uniform distribution.

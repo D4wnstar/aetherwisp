@@ -1,10 +1,9 @@
 ---
 wiki-publish: true
 ---
-La **funzione di verosimiglianza** o **likelihood** è la probabilità di osservare un dato condizionata dai parametri del modello utilizzato per stimarlo. Se consideriamo una variabile casuale $X$ e un modello con parametri $\theta$, la probabilità di una realizzazione $x$ di $X$ condizionata da tali parametri è
+The **likelihood function** or **likelihood** is the probability of observing data given the parameters of the model used to estimate it. If we consider a random variable $X$ and a model with parameters $\theta$, the probability of an outcome $x$ of $X$ given those parameters is
 $$x \rightarrow P(x|\theta)$$
-e la likelihood dei parametri condizionata da $x$ è
+and the likelihood of the parameters given $x$ is
 $$\theta \rightarrow P(\theta|x):= L(\theta|x)$$
-che si può interpretare come il livello di fiducia che si ha nei parametri $\theta$ avendo osservato $x$.
-
-La likelihood è una componente fondamentale del [[Teorema di Bayes per la stima dei parametri]], dove viene moltiplicato per il [[Prior]] per ottenere il [[Posterior]].
+which can be interpreted as the confidence level in the parameters $\theta$ after observing $x$.  
+The likelihood is a key component of [[Bayes' theorem]], where it is multiplied by the [[prior]] to obtain the [[posterior]].
