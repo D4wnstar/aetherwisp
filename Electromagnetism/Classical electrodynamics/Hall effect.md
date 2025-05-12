@@ -29,6 +29,6 @@ We can measure the Hall potential be connecting the two sides of the sensor to a
 
 The error $\Delta y$ appears in
 $$\Delta V_{H}=\frac{I_{y}\rho \Delta y}{ac}$$
-Since $V_{H}$ is usually small even for considerable currents (in the Amperes) and magnetic fields (in the Teslas), even small errors on $y$ (even fractions of a millimeter) can cause massive errors (like, >100% kind of error), so the measurement itself is very precise.
+Since $V_{H}$ is usually small even for considerable currents (in the Amperes) and magnetic fields (in the Teslas), even small errors on $y$ (even fractions of a millimeter) can cause massive errors (like, >100% kind of error), so the measurement itself is very precise. This is great for physicists (very precise measurements), bad for engineers (too precise to use $\pi=e=3$) and awful for research institutions (they're not going to like the bill).
 
 [^1]: The electron being pushed by the Lorentz force will follow a circular trajectory as it moves up, but due the [[Drude model|drift velocity]] of an charge carrier in matter being so small, this trajectory is small enough ($\sim\mu m$) that it is negligible with respect to the size of the Hall sensor. This means that we can consider the effect to be applied to the entire sensor if the sensor is large enough.
