@@ -33,8 +33,8 @@ Presi due [[operatori locali]] $\hat{A}_{1}:H_{1} \rightarrow H_{1}$ e $\hat{A}_
 $$\hat{A}_{1}\otimes\hat{A}_{2}\;|\psi_{1}\otimes\psi_{2}\rangle=\hat{A}_{1}|\psi_{1}\rangle\otimes\hat{A}_{2}|\psi_{2}\rangle$$
 
 La media di un prodotto tensoriale di due operatori è la sua [[Traccia]]
-$$\langle \hat{A}_{1}\otimes \hat{A}_{2} \rangle=\mbox{Tr}(\hat{A}_{1}\otimes\hat{A}_{2})=\sum\limits_{mn}(\langle \phi_{m}|\otimes \langle \varphi_{n}|)(\hat{A}_{1}\otimes\hat{A}_{2})(|\phi_{n}\rangle\otimes |\varphi_{n}\rangle)=$$
-$$=\sum\limits_{mn}\langle \phi_{m}|\hat{A}_{1}|\phi_{n}\rangle \langle \varphi_{n}|\hat{A}_{2}|\varphi_{n}\rangle=\sum\limits_{m}\langle \phi_{m}|\hat{A}_{1}|\phi_{m}\rangle \sum\limits_{n}\langle \varphi_{n}|\hat{A}_{2}|\varphi_{n}\rangle=\mbox{Tr}^{(1)}\hat{A}_{1}\mbox{Tr}^{(2)}\hat{A}_{2}$$
+$$\langle \hat{A}_{1}\otimes \hat{A}_{2} \rangle=\text{Tr}(\hat{A}_{1}\otimes\hat{A}_{2})=\sum\limits_{mn}(\langle \phi_{m}|\otimes \langle \varphi_{n}|)(\hat{A}_{1}\otimes\hat{A}_{2})(|\phi_{n}\rangle\otimes |\varphi_{n}\rangle)=$$
+$$=\sum\limits_{mn}\langle \phi_{m}|\hat{A}_{1}|\phi_{n}\rangle \langle \varphi_{n}|\hat{A}_{2}|\varphi_{n}\rangle=\sum\limits_{m}\langle \phi_{m}|\hat{A}_{1}|\phi_{m}\rangle \sum\limits_{n}\langle \varphi_{n}|\hat{A}_{2}|\varphi_{n}\rangle=\text{Tr}^{(1)}\hat{A}_{1}\text{Tr}^{(2)}\hat{A}_{2}$$
 
 La dimensione dello spazio risultante è la somma degli spazi iniziali, ossia
 $$\dim(V\otimes W)=\dim V+\dim W$$

@@ -42,7 +42,7 @@ using the [[Kronecker delta]].
 
 ### Su matrici
 Il prodotto scalare può anche essere applicato su matrici. Prendiamo $\hat{A},\hat{B}\in M_{2}(\mathbb{C})$ matrici $2\times2$. Considero la *traccia* della matrice $Tr(\hat{A})=\sum\limits_{i=1}^{n}A_{ii}$. E' importante notare che la traccia è *unica* e non cambia *in base alla rappresentazione* della matrice (ossia la base rispetto al quale è espressa):
-$$Tr\hat{A}=\sum\limits_{i=1}^{n}\langle\psi_{i}|\hat{A}\psi_{i}\rangle\;\forall\;\mbox{base o.n.}\{|\psi_{i}\rangle\}_{i=1}^{n}\in\mathbb{C}^{n}$$
+$$Tr\hat{A}=\sum\limits_{i=1}^{n}\langle\psi_{i}|\hat{A}\psi_{i}\rangle\;\forall\;\text{base o.n.}\{|\psi_{i}\rangle\}_{i=1}^{n}\in\mathbb{C}^{n}$$
 La matrice $\hat{U}=[\langle \psi_{k}|\phi_{i}\rangle]$ è unitaria, ossia $\hat{U}\hat{U}^{\dagger}=\hat{\mathbb{1}}=\hat{U}^{\dagger}\hat{U}$.
 
 Prendendo $|\psi\rangle,|\phi\rangle\in\mathbb{C}^{N}$. Il prodotto scalare possiamo scriverlo come

@@ -16,4 +16,4 @@ quindi la differenza in massa tra galassie è meno pronunciata di quella di lumi
 
 Possiamo misurare l'irradianza di tutta la galassia come integrale di luminosità per "anelli" della galassia
 $$I(r)=\int_{0}^{\infty}I(0)2\pi rdr$$
-da questo possiamo affermare che vale $L\propto R^{2}$. Se assumo che il rapporto massa-luminosità sia costante $M/L=\mbox{cost.}$ ho che $L\propto Rv^{2}$. Invertendo ho $R\propto\sqrt{L}$ che diventa $L\propto v^{4}$.
+da questo possiamo affermare che vale $L\propto R^{2}$. Se assumo che il rapporto massa-luminosità sia costante $M/L=\text{cost.}$ ho che $L\propto Rv^{2}$. Invertendo ho $R\propto\sqrt{L}$ che diventa $L\propto v^{4}$.

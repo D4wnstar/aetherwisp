@@ -62,7 +62,7 @@ Posso riscriverlo per trovare l'**equazione di continuità della massa**:
 $$\boxed{\frac{dM(r)}{dr}=4\pi r^{2}\rho(r)}$$
 ### Equazione di stato dei gas perfetti
 Una stella è, su grande scala, considerabile come un gas perfetto. Possiamo quindi sfruttare l'[[equazione di stato dei gas perfetti]]:
-$$\boxed{P(r)=n(r)k_{B}T(r)\mbox{ con }n(r)=\frac{\rho(r)}{\mu m_{p}}}$$
+$$\boxed{P(r)=n(r)k_{B}T(r)\text{ con }n(r)=\frac{\rho(r)}{\mu m_{p}}}$$
 con $k_{B}$ la [[Boltzmann constant]]. $n(r)$ è la densità di particelle per volume, ma non è una nuova variabile in quanto è ottenibile dalla densità di massa $\rho(r)$ con $n(r)=\rho(r)/\mu m_{p}$, con $m_{p}$ la massa del protone.
 
 $\mu$ è il peso molecolare medio del gas, abbastanza simile a quella dell'[[atomo di idrogeno]] in questa approssimazione. $\mu$ dipende dalla composizione del gas: per idrogeno completamente [[ionizzazione|ionizzato]], vale $\mu=0.5$; per una composizione solare altamente ionizzata si ha $\mu\simeq0.6$ nella maggior parte della stella, tranne nel centro dove l'idrogeno è parzialmente fuso con l'elio e vale $\mu\simeq1$.
@@ -133,9 +133,9 @@ $$U= \frac{3}{2}Nk_{B}T= \frac{1}{2} \frac{GM^{2}_{\odot}}{r_{\odot}}\simeq \fra
 dove abbiamo semplificato una massa solare come massa delle particelle che lo compongono: $\bar{m}$ è la massa media delle particelle, in questo caso protoni e elettroni (cioè quella dell'idrogeno) e $N$ è il numero di particelle. Dato che la massa dell'elettrone è minuscola in paragone a quella del protone, si ha
 $$\bar{m}= \frac{m_{p}+m_{e}}{2}= \frac{m_{H}}{2}\simeq 1.7\cdot10^{-24}$$
 con $m_{H}$ la massa dell'idrogeno.
-$$kT_{vir}\simeq \frac{GM_{\odot}m_{H}}{6r_{\odot}}=5.4\times10^{-10}\mbox{erg}$$
+$$kT_{vir}\simeq \frac{GM_{\odot}m_{H}}{6r_{\odot}}=5.4\times10^{-10}\text{erg}$$
 estraendo la temperatura si trova la temperatura (media)
-$$T_{vir}=4\times10^{6}\mbox{ K}$$
+$$T_{vir}=4\times10^{6}\text{ K}$$
 
 
 [^1]: Qui si parla di stelle tipiche, prive di peculiarità come estrema velocità di rotazione o campi magnetici forti, come si vedrebbe ad esempio in una [[stella di neutroni]]. Per stelle più esotiche, bisogna avere modelli ad hoc.

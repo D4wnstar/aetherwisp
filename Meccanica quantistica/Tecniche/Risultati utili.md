@@ -233,7 +233,7 @@ Per $n$-volte degeneri basta aumentare la dimensione della matrice e del vettore
 - Usa i risultati dell'algebra lineare, anche al di là di quantistica. Vedi:
 	- Disuguaglianza di Schwarz: $\langle v|w\rangle\leq||v||\,||w||$.
 	- Decomposizione spettrale (vedi sopra)
-	- Traccia: $\mbox{Tr}(\hat{A})=\sum\limits_{n}^{\infty}\langle\phi_{n}| \hat{A}|\phi_{n}\rangle$, con $\phi_{n}$ autovettori di $\hat{A}$.
+	- Traccia: $\text{Tr}(\hat{A})=\sum\limits_{n}^{\infty}\langle\phi_{n}| \hat{A}|\phi_{n}\rangle$, con $\phi_{n}$ autovettori di $\hat{A}$.
 - Conviene sempre controllare la forma delle equazioni prima di usare formule fatte e finite (ad es. sostituire la perturbazione nell'Hamiltoniana prima di cercare le correzioni). Le sostituzioni aiutano a ritrovare forme note.
 - L'integrazione per parti è utile casomai si debba risolvere un integrale: $\int_{a}^{b} fg'=fg|_{a}^{b}-\int_{a}^{b}f'g$.
 - Cambiare forma all'equazione è utile per vedere nuove relazioni (ad es. prendere la norma di qualcosa, specialmente un operatore su un vettore).

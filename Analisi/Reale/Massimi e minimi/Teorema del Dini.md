@@ -6,7 +6,7 @@ tags:
 Il **Teorema del Dini** ci dice che, sotto opportune condizioni, possiamo vedere un [[Insieme di livello]] come il grafico di una funzione.
 
 Sia $F:A\subset\mathbb{R}^{2}\rightarrow\mathbb{R}$ con $A$ aperto, di classe $C^1$ su $A$. Sia $(x_{0},y_{0})\in A$ tale che
-$$F(x_0,y_0)=0\;\mbox{e}\;\frac{\partial F}{\partial y}(x_0,y_0)\neq0$$
+$$F(x_0,y_0)=0\;\text{e}\;\frac{\partial F}{\partial y}(x_0,y_0)\neq0$$
 allora esistono
 1. un intorno aperto $U$ di $x_0$
 2. un intorno aperto $V$ di $y_0$
