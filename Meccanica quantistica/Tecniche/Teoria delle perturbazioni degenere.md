@@ -68,7 +68,7 @@ $$\boxed{E_{+}^{1}=W_{aa}=\langle \psi_{a}^{0}|\hat{V}|\psi_{a}^{0}\rangle, \qua
 che sono proprio le correzioni date dalle teoria non degenere, solo per gli stati "buoni". Allora, se avessimo un modo per scoprire quali sono gli stati "buoni" a priori, potremmo semplicemente usare la teoria non degenere nei due casi per trovare le correzioni. Questo modo esiste e si enuncia con il seguente teorema:
 
 > [!info] Teorema
-> Sia $\hat{A}$ un [[operatore autoaggiunto]] che [[Commutatore|commuta]] con $\hat{H}^{0}$ e $\hat{H}'$ (ossia è una [[costante del moto]]). Se $\psi_{a}^{0}$ e $\psi_{b}^{0}$ sono [[Equazione agli autovalori|autofunzioni]] [[Degenerazione|degeneri]] di $\hat{H}^{0}$ e sono anche autofunzioni di $\hat{A}$ con autovalori distinti
+> Sia $\hat{A}$ un [[operatore autoaggiunto]] che [[Commutator|commuta]] con $\hat{H}^{0}$ e $\hat{H}'$ (ossia è una [[costante del moto]]). Se $\psi_{a}^{0}$ e $\psi_{b}^{0}$ sono [[Equazione agli autovalori|autofunzioni]] [[Degenerazione|degeneri]] di $\hat{H}^{0}$ e sono anche autofunzioni di $\hat{A}$ con autovalori distinti
 > $$\hat{A}\psi_{a}^{0}=\mu \psi_{a}^{0},\quad \hat{A}\psi_{b}^{0}=\nu\psi_{b}^{0},\quad \text{con }\mu\neq\nu$$
 > allora $W_{ab}=0$ e vale la $(6)$.
 > 

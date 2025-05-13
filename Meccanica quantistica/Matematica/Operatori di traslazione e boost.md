@@ -9,4 +9,4 @@ $$e^{-iq \hat{p}/\hbar} \text{ (traslazione)},\qquad e^{-ip \hat{q}/\hbar}\text{
 Se si applica la traslazione all'[[operatore]] $\hat{q}$ o il boost a $\hat{p}$ si hanno
 $$e^{iq \hat{p}/\hbar}\hat{q}e^{-iq \hat{p}/\hbar}=q+ \frac{i}{\hbar}[\hat{p},\hat{q}]=\hat{q}+q$$
 $$e^{i p\hat{q}/\hbar}\hat{p}e^{-ip \hat{q}/\hbar}=\hat{p}+ \frac{i}{\hbar}[\hat{q},\hat{p}]=\hat{p}-p$$
-ottenute usando i [[Commutatore|commutatori annidati]].
+ottenute usando i [[Commutator|commutatori annidati]].

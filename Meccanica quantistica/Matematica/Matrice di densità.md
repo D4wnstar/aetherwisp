@@ -16,7 +16,7 @@ Se $\hat{\rho}$ può essere scritto come un semplice [[proiettore]] su uno stato
 $$\hat{\rho}=\hat{P}_{\psi}=\ket{\psi} \bra{\psi} $$
 allora $\ket{\psi}$ è uno stato puro. Altrimenti, $\ket{\psi}$ è uno stato misto. La probabilità di trovarsi in uno stato $\ket{\psi}$ dopo una misura è
 $$\text{Prob}(\psi)=\braket{ \psi | \hat{\rho} | \psi } $$
-La matrice di densità non [[Commutatore|commuta]] con l'[[Hamiltoniana]]:
+La matrice di densità non [[Commutator|commuta]] con l'[[Hamiltoniana]]:
 $$[\hat{H},\hat{\rho}]=i\hbar \frac{ \partial \rho }{ \partial t }$$
 Questo risultato è detto [[Liouville's theorem|teorema di Liouville]].
 ### Rappresentazione di Bloch

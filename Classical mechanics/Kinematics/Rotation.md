@@ -121,7 +121,7 @@ $$\delta v_{i}=\sum_{j=1}^{3} \Omega_{ij}v_{j}=-\sum_{j,k=1}^{3} \epsilon_{ijk}v
 Putting components together, we can say that in general, $\boldsymbol{\omega}\times \mathbf{v}$ is the variation of $\mathbf{v}$ under an infinitesimal rotation of angle $\lvert \boldsymbol{\omega} \rvert$ around an axis parallel to $\boldsymbol{\omega}$. The [[norm]] of this variation is
 $$\lvert \delta \mathbf{v} \rvert =\lvert \boldsymbol{\omega}\times \mathbf{v} \rvert =\lvert \boldsymbol{\omega} \rvert \lvert \mathbf{v} \rvert \sin \theta=\lvert \boldsymbol{\omega} \rvert \lvert \mathbf{v}_{\perp} \rvert $$
 
-To further analyze $\mathrm{E}_{i}$, we can calculate the [[Commutatore]] between the $\mathrm{E}_{i}$ and $\mathrm{E}_{j}$:
+To further analyze $\mathrm{E}_{i}$, we can calculate the [[Commutator]] between the $\mathrm{E}_{i}$ and $\mathrm{E}_{j}$:
 $$[\mathrm{E}_{i},\mathrm{E}_{j}]=\mathrm{E}_{i}\mathrm{E}_{j}-\mathrm{E}_{j}\mathrm{E}_{i}$$
 We need to figure out the product between these matrices:
 $$(\mathrm{E}_{i}\mathrm{E}_{j})_{mn}=\sum_{p=1}^{3} (\mathrm{E}_{i})_{mp}(\mathrm{E}_{j})_{pn}=\sum_{p=1}^{3} \epsilon_{imp}\epsilon_{ipn}=-\sum_{p=1}^{3} \epsilon_{imp}\epsilon_{jnp}=-[\delta_{ij}\delta_{mn}-\delta_{in}\delta_{mj}]$$

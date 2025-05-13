@@ -4,7 +4,7 @@ aliases:
   - hermitian product
   - dot product
 ---
- The **scalar product**, also called **dot product**, is an operation between two [[Vector space|vectors]] that produces a scalar. If the vectors are complex, it is also called the **Hermitian product**. It is denoted in a variety of ways: $(v,w)$, $v\cdot w$ or $\braket{ v | w }$ (in [[notazione braket|braket notation]]).
+ The **scalar product**, also called **dot product**, is an operation between two [[Vector space|vectors]] that produces a [[scalar]], hence the name. If the vectors are complex, it is also called the **Hermitian product**. It is denoted in a variety of ways: $(v,w)$, $v\cdot w$ or $\braket{ v | w }$ (in [[notazione braket|braket notation]]).
 
 In finite-dimensional vector spaces, such as $\mathbb{R}^{N}$ or $\mathbb{C}^{N}$, the scalar product is defined as a sum of products of the vector components. Let $v,w$ be two vectors in the space, then the scalar product between the two is
 $$(v,w)\equiv\sum\limits_{i=0}^{N}v_{i}^{*}w_{i}$$
@@ -12,13 +12,13 @@ where $v_{i}$ and $w_{i}$ are the $i$-th component of the vectors and the $*$ sy
 $$(v,w)\equiv\lVert v \rVert \lVert w \rVert \cos\theta$$
 where $\theta$ is the angle between the two vectors and $\lVert \cdot \rVert$ refers to the [[norm]] of a vector.
 
-The scalar product of an element with itself satisfies all of the properties of a norm and is called the **norm induces by the scalar product**, and denoted as usual: $(v,v)=\lVert v \rVert$.
+The scalar product of an element with itself satisfies all of the properties of a norm and is called the **norm induced by the scalar product**, and denoted as usual: $(v,v)=\lVert v \rVert$.
 
-The scalar product can also be defined on infinite-dimensional spaces, such as [[Spazio di Hilbert|Hilbert spaces]] or [[Spazi Lp|L^p spaces]], by converting sums to integrals. Then taking two functions $f(x)$ and $g(x)$ in such a space, we have
+The scalar product can also be defined on infinite-dimensional spaces, such as [[Spazio di Hilbert|Hilbert spaces]] or [[Spazi Lp|L^p spaces]], by converting sums to integrals. Then taking two functions $f(x)$ and $g(x)$ in such a space, the scalar product between them is
 $$(f,g)\equiv\int_{-\infty}^{+\infty}f^{*}(x)g(x)\ dx,\qquad( f, f)=\int_{-\infty}^{+\infty}|f(x)|^{2}\ dx$$
 
 > [!question] A note on notation
-> These notes employ all of the three shown notations for the scalar product, each in the context they are most likely to be found in in literature. Round brackets $(v,w)$ are used in pure mathematics, the dot $v\cdot w$, especially using bold font $\mathbf{v}\cdot \mathbf{w}$, is commonplace in physics in general, and [[Notazione braket|braket notation]] $\braket{ v | w }$ is standard in quantum physics.
+> These notes employ all of the three shown notations for the scalar product, each in the context they are most likely to be found in in literature. Round brackets $(v,w)$ are used in mathematics, the dot $v\cdot w$, especially using bold font $\mathbf{v}\cdot \mathbf{w}$, is commonplace in physics in general, and [[Notazione braket|braket notation]] $\braket{ v | w }$ is standard in quantum physics.
 ### Properties
 The scalar product satisfies the following properties:
 1. It is linear in the right-hand member[^1]. Given $\alpha,\beta \in \mathbb{C}$, $( v, \alpha w + \beta z)=\alpha ( v, w)+\beta ( v, z)$. 

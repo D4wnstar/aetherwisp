@@ -8,6 +8,7 @@ wiki-publish: true
 - [[Nöther's theorem]]
 - [[Equilibrium point]] and [[Equilibrium configuration]]
 - [[Generalized coordinates]], [[Conjugate momenta]], [[Configuration space]], [[tangent space]], [[tangent bundle]], [[Degrees of freedom]]
+- [[Coordinate transformation]]
 - [[Rotation]]
 - [[Constraint]] and [[Constrained systems]]
 - [[Inclined plane]]
@@ -20,3 +21,4 @@ wiki-publish: true
 - Spinning top
 ### Hamiltonian mechanics
 - [[Hamilton equation]] (Hamiltonian least action principle not in exam)
+- [[Canonical transformation]]

@@ -22,4 +22,4 @@ $$\partial_{t}\hat{x}_{t}=\frac{i}{\hbar}\left[ \frac{\hat{\bar{p}}^{2}}{2m}, \h
 usando che $[\hat{p}^{2}_{x}, \hat{x}]=\hat{p}_{x}[\hat{p}_{x},\hat{x}]+[\hat{p}_{x},\hat{x}]\hat{p}_{x}=-2i\hbar \hat{p}_{x}$ e
 $$\hat{U}_{t}^{\dagger}\hat{p}_{x}=e^{\frac{it}{\hbar} \frac{\hat{\bar{p}}^{2}}{2m}}\hat{p}_{x}=\sum\limits_{i=0}^{\infty}\left( \frac{it}{2\hbar m} \right)\ldots$$
 $$\partial_{t}\hat{p}_{x,t}=\left[ \hat{\bar{p}}^{2},\hat{p}^{2}_{x} \right]=0$$
-per le proprietà del [[Commutatore]].
+per le proprietà del [[Commutator]].

@@ -66,7 +66,7 @@ $$P_{\mathbf{k}}=\frac{1}{\sqrt{ N }}\sum_{\mathbf{n}} p_{\mathbf{n}}e^{i\mathbf
 With this
 $$H=K+U=\frac{1}{2}\sum_{\mathbf{k}}\left( \frac{1}{m}P_{\mathbf{k}}P_{-\mathbf{k}}+m\Omega ^{2}(\mathbf{k})A_{\mathbf{k}}A_{-\mathbf{k}} \right)$$
 ##### Quantization
-This is a classical Hamiltonian. Since we are working with a discrete lattice, not a continuum, we can quantize the quantities by using the [[Commutatore|commutation]] relation
+This is a classical Hamiltonian. Since we are working with a discrete lattice, not a continuum, we can quantize the quantities by using the [[Commutator|commutation]] relation
 $$[\hat{\xi}_{\mathbf{n}},\hat{p}_{\mathbf{n}}]=i\hbar \delta_{\mathbf{n}\mathbf{n}'}$$
 This relation implies
 $$[\hat{A}_{\mathbf{k}},\hat{P}_{\mathbf{k}}]=i\hbar \delta_{\mathbf{k}\mathbf{k}'}$$

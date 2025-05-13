@@ -10,7 +10,7 @@ Despite being organized in a very similar manner, I am by no means making an att
 #### FAQ
 **Q.** Who are you?
 
-**A.** I am Samuele Vignoli, a physics student at the University of Trieste. I have a website [here](https://personal-website-one-topaz-29.vercel.app/) if you're curious about me, and a [Github profile](https://github.com/D4wnstar) if you want to know the things that I spend my time with instead of studying like a responsible student.
+**A.** I am Samuele Vignoli, a physics student at the University of Trieste. I have a website [here](https://personal-website-one-topaz-29.vercel.app/) if you're curious about me, and a [Github profile](https://github.com/D4wnstar) if you want to know more about the things that I spend my time with instead of studying like a responsible student.
 
 **Q.** Why publish these?
 
@@ -26,4 +26,4 @@ Despite being organized in a very similar manner, I am by no means making an att
 
 **Q.** LaTeX/Code/Formatting is broken!
 
-**A.** As I said above, I continuously generate this website from my Obsidian notes using my own plugin. There's bound to be some bugs in the process and some things that work well in Obsidian don't work so well here, so they tend to go by unseen. I tend to iron these out once I see them.
+**A.** As I said above, I continuously generate this website from my Obsidian notes using my own plugin. There's bound to be some bugs in the process, and some things that work well in Obsidian don't work so well here, so they tend to go unseen. I iron these out once I see them.

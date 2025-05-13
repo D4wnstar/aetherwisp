@@ -7,7 +7,7 @@ The **vector product**, also called **cross product**, is an operation between t
 $$\mathbf{a}\times\mathbf{b}\equiv \lVert \mathbf{a} \rVert \ \lVert \mathbf{b} \rVert \sin\theta\ \hat{\mathbf{n}}$$
 where $\lVert \cdot \rVert$ denotes the [[norm]] of a vector, $\theta$ is the angle between the vectors and $\hat{\mathbf{n}}$ is the unit vector perpendicular to both $\mathbf{a}$ and $\mathbf{b}$. The direction of $\hat{\mathbf{n}}$ can be inferred using the right-hand rule. For other forms, see below.
 
-The vector product is defined in a satisfactory manner only in three dimensional spaces, typically $\mathbb{R}^{3}$. Although there exist generalizations to $N$-dimensional vector spaces, none of them meet all of the properties below are consequently not used.
+The vector product is defined in a satisfactory manner only in three dimensional spaces, typically $\mathbb{R}^{3}$. Although there exist generalizations to $N$-dimensional vector spaces, none of them meet all of the properties below and are consequently not used.
 
 > [!question] A note on notation
 > The vector product is almost always denoted using the cross symbol $\times$. In some texts, especially older ones, it is denoted as $\mathbf{a}\wedge \mathbf{b}$. This notation is never used throughout these notes.

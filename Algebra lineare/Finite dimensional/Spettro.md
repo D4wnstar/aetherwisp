@@ -9,4 +9,4 @@ Si dice **risolvente** di $T$ l'insieme complementare dello spettro, ovvero se $
 
 Si dimostra anche che lo spettro è un insieme chiuso e quindi il risolvente è aperto.
 ### Proprietà
-- Presi due operatori $T_{1}$ e $T_{2}$, lo spettro della somma $\text{Sp}(T_{1}+T_{2})$ è pari alla somma degli spettri $\text{Sp}(T_{1})+\text{Sp}(T_{2})$ se e solo se $T_{1}$ e $T_{2}$ [[Commutatore|commutano]].
+- Presi due operatori $T_{1}$ e $T_{2}$, lo spettro della somma $\text{Sp}(T_{1}+T_{2})$ è pari alla somma degli spettri $\text{Sp}(T_{1})+\text{Sp}(T_{2})$ se e solo se $T_{1}$ e $T_{2}$ [[Commutator|commutano]].

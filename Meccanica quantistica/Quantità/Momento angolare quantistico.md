@@ -1,14 +1,14 @@
 ---
 wiki-publish: true
 ---
-Classicamente, il momento angolare è dato dalla formula vettoriale
+Classicamente, il [[angular momentum|momento angolare]] è dato dalla formula vettoriale
 $$\mathbf{L}=\mathbf{r}\times\mathbf{p}$$
 che suddiviso nelle sue componenti dà
 $$L_{x}=yp_{z}-zp_{y}, \quad L_{y}=zp_{x}-xp_{z}, \quad L_{z}=xp_{y}-yp_{x}$$
 Quantizzando queste quantità con l'[[operatore]] quantità di moto si trova
 $$\hat{L}_{x}=\frac{\hbar y}{i}\frac{\partial }{\partial z}- \frac{\hbar z}{i}\frac{\partial }{\partial y}, \quad \hat{L}_{y}=\frac{\hbar z}{i}\frac{\partial }{\partial x}- \frac{\hbar x}{i}\frac{\partial }{\partial z}, \quad \hat{L}_{z}=\frac{\hbar x}{i}\frac{\partial }{\partial y}- \frac{\hbar y}{i}\frac{\partial }{\partial x}$$
 ### Commutatività
-Per trovare gli [[Equazione agli autovalori|autovalori]] di questi operatori, anzitutto calcoliamo il loro [[Commutatore]]:
+Per trovare gli [[Equazione agli autovalori|autovalori]] di questi operatori, anzitutto calcoliamo il loro [[Commutator]]:
 $$[L_{x},L_{y}]=[yp_{z}-zp_{y}, zp_{x}-xp_{z}]=[yp_{z},zp_{x}]-[yp_{z},xp_{z}]-[zp_{y},zp_{x}]+[zp_{y},xp_{z}]=\ldots$$
 Gli unici commutatori che non commutano sono $x$ con $p_{x}$, $y$ con $p_{y}$ e $z$ con $p_{z}$, quindi
 $$\ldots=[yp_{z},zp_{x}]-[zp_{y},xp_{z}]=yp_{x}[p_{z},z]+xp_{y}[z,p_{z}]=i\hbar(xp_{y}-yp_{x})=i\hbar L_{z}$$
@@ -71,8 +71,10 @@ $$l=0,\;1/2,\;1,\;3/2,\;2,\ldots\quad; \quad m=-l,-l+1,\ldots,0,\ldots,l-1,l$$
 
 È possibile mostrare graficamente i valori accettabili momento angolare sull'asse $z$ in questo modo.
 
+:::image
 ![[Stati di momento angolare.png]]
-*Da Introduction to Quantum Mechanics di Griffiths, p. 167*
+Da Introduction to Quantum Mechanics di Griffiths, p. 167
+:::
 
 I vettori sono (o meglio, dovrebbero essere) $\vec{L}$, tutti di lunghezza $\sqrt{l(l+1)}$ (in unità di $\hbar$). Allora è fisicamente impossibile che il momento angolare sia allineato proprio sull'asse $z$ e la spiegazione è, come al solito, il [[Disuguaglianza di Heisenberg|principio di indeterminazione]]. Per far sì che $L_{z}$ sia ben definito, allora dobbiamo accettare che $L_{x}$ e $L_{y}$ saranno completamente indeterminati dato che le tre componenti *non commutano*. Infatti, non è solo impossibile che il momento angolare sia su un certo asse, ma il *vettore stesso* del momento angolare non è definibile dato che fare ciò richiede tutte e tre le componenti, che *non possono* essere definite simultaneamente. Di fatto, i vettori mostrati nell'immagine sopra sono fuorvianti, dato che stiamo definendo $L_{z}$ e quindi $L_{x}$ e $L_{y}$ non sono definibili. Una rappresentazione più corretta sarebbe "spalmare" i vettori su tutto la linea latitudinale a modo che sia chiara l'indeterminatezza.
 

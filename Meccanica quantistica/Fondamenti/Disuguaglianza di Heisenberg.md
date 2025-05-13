@@ -32,7 +32,7 @@ usando la normalizzazione della funzione d'onda $\langle \psi|\psi\rangle=1$. Co
 $$\langle g|f\rangle=\langle \hat{B}\hat{A}\rangle - \left\langle A \right\rangle \left\langle B \right\rangle$$
 quindi
 $$\langle f|g\rangle-\langle g|f\rangle=\langle [\hat{A},\hat{B}] \rangle$$
-che è il valor medio del [[Commutatore]] delle due osservabili. Allora, scrivendo la media in forma estesa e notando $(1/2i)^{2}=-1/4$, possiamo scrivere la disuguaglianza di Heisenberg in uno stato $\psi$ come
+che è il valor medio del [[Commutator]] delle due osservabili. Allora, scrivendo la media in forma estesa e notando $(1/2i)^{2}=-1/4$, possiamo scrivere la disuguaglianza di Heisenberg in uno stato $\psi$ come
 $$\boxed{\sigma_{A}^{2}\sigma_{B}^{2}\geq -\frac{1}{4} \left(\bra{\psi} [\hat{A},\hat{B}]\ket{\psi} \right)^{2}}\tag{3}$$
 Il commutatore di due operatori autoaggiunti ha valore di aspettazione immaginario, quindi la $i$ al denominatore si semplifica e il valore è reale e positivo, come ci si aspetta. Allora il principio di indeterminazione è un concetto più generale che si applica a *tutte le coppie di osservabili che hanno commutatore non nullo*. Queste coppie si dicono **osservabili incompatibili**. Se invece il commutatore è nullo, non si applica il principio di indeterminazione e si dicono **osservabili compatibili**. Osservabili compatibili ammettono un [[Sistema completo]] di [[Equazione agli autovalori|autofunzioni]] condivise, mentre quelle incompatibili no.[^1]
 
@@ -87,7 +87,8 @@ Questa equazione, detta [[equazione di Heisenberg]], forma la base della [[Rappr
 
 Nel caso comune[^2] di un operatore $\hat{Q}$ che non dipende dal tempo, $\partial \hat{Q}/\partial t=0$, quindi la derivata temporale di un'osservabile è direttamente proporzionale al suo commutatore con l'Hamiltoniana del sistema.
 
-> **Risultato.** Se un'osservabile $\hat{Q}$ commuta con $\hat{H}$, ossia $[\hat{Q},\hat{H}]=0$, allora $Q$ è una [[costante del moto]].
+> [!success] Commutazione = costante del moto
+> Se un'osservabile $\hat{Q}$ commuta con $\hat{H}$, ossia $[\hat{Q},\hat{H}]=0$, allora $Q$ è una [[constant of motion|costante del moto]].
 
 Ora consideriamo il principio d'incertezza. Se $Q$ non dipende dal tempo, abbiamo
 $$\sigma_{H}^{2}\sigma_{Q}^{2}\geq\left(\frac{1}{2i}\langle[\hat{H},\hat{Q}]\rangle\right)^{2}=\left(\frac{1}{2i} \frac{\hbar}{i} \frac{d}{dt} \left\langle Q \right\rangle\right)^{2}=\left(\frac{\hbar}{2}\right)^{2}\left(\frac{d}{dt} \left\langle Q \right\rangle\right)^{2}$$

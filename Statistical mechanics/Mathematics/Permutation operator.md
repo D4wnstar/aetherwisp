@@ -4,7 +4,7 @@ aliases:
   - symmetric state
   - antisymmetric state
 ---
-The **permutation operator** $P_{ij}$ is an [[operatore|operator]] that permutes the variables $q_{i}$ and $q_{j}$. It [[Commutatore|commutes]] with the [[Hamiltonian]]: $[P_{ij},H]=0$. For some [[funzione d'onda|wave function]] $\psi(q_{1},\ldots,q_{N})$ of $N$ [[generalized coordinate|generalized coordinates]], the permutation operator acts on it as
+The **permutation operator** $P_{ij}$ is an [[operatore|operator]] that permutes the variables $q_{i}$ and $q_{j}$. It [[Commutator|commutes]] with the [[Hamiltonian]]: $[P_{ij},H]=0$. For some [[funzione d'onda|wave function]] $\psi(q_{1},\ldots,q_{N})$ of $N$ [[generalized coordinate|generalized coordinates]], the permutation operator acts on it as
 $$P_{ij}\psi(q_{1},\ldots,q_{i},\ldots,q_{j},\ldots,q_{N})=\psi(q_{1},\ldots,q_{j},\ldots,q_{i},\ldots,q_{N})$$
 The is a [[Operatore unitario|unitary operator]] since $P_{ij}^{2}=\hat{\mathbf{1}}$ and hence its [[Equazione agli autovalori|eigenvalues]] are $\epsilon=\pm1$. $\epsilon=1$ represents a symmetry, $\epsilon=-1$ an antisymmetry.
 

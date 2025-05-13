@@ -19,7 +19,7 @@ ma bisogna fare particolare attenzione, dato che $x$ e $p$ *non* sono numeri, be
 $$a_{\pm}\equiv \frac{1}{\sqrt{2\hbar m\omega}}(\mp ip+m\omega x)$$
 Il fattore di scala iniziale è solo per comodità. Controlliamo il prodotto $a_{-}a_{+}$:
 $$a_{-}a_{+}=\frac{1}{2\hbar m \omega}(-ip+m\omega x)(ip+m\omega x)=\frac{1}{2\hbar m\omega}[p^{2}+(m\omega x)^{2}-im\omega(xp-px)]$$
-dove ritroviamo il [[Commutatore]] di $x$ e $p$ al terzo termine nelle parentesi. Estraendo l'ultimo termine e esplicitando il commutatore otteniamo
+dove ritroviamo il [[Commutator]] di $x$ e $p$ al terzo termine nelle parentesi. Estraendo l'ultimo termine e esplicitando il commutatore otteniamo
 $$a_{-}a_{+}=\frac{1}{2\hbar m\omega}[p^{2}+(m\omega x)^{2}] - \frac{i}{2\hbar}[x,p]\tag{2}$$
 Calcoliamo allora il commutatore tra $x$ e $p$, aggiungendo una funzione di test dato che sono operatori:
 $$[x,p]\varphi(x)=\left[x \frac{\hbar}{i} \frac{d\varphi}{dx}- \frac{\hbar}{i} \frac{d}{dx} (x\varphi)\right]=\frac{\hbar}{i}\left(x \frac{d\varphi}{dx}-x \frac{d\varphi}{dx}-\varphi\right)=i\hbar\varphi$$
@@ -86,7 +86,7 @@ L'equazione che vogliamo risolvere, indipendente dal tempo è
 $$\hat{H}\ket{\psi_{E}} =E\ket{\psi_{E}} $$
 dove gli stati $\ket{\psi_{E}}$ sono [[Stati in meccanica quantistica|stati legati]] ad [[energy|energia]] $E$. L'[[equazione di Schrödinger]] completa in [[Rappresentazioni dello stato|rappresentazione della posizione]] allora è
 $$- \frac{\hbar^{2}}{2m}\psi''_{E}(x)+ \frac{m\omega ^{2}}{2}x^{2}\psi_{E}(x)=E\psi_{E}(x)$$
-Risolvere questa equazione diventa molto più gestibile introducendo gli [[operatori di creazione e distruzione]] $\hat{a}$ e $\hat{a}^{+}$. Usando l'algebra degli [[Operatore|operatori]] ed in particolare quella dei [[Commutatore|commutatori]], è possibile trovare $\psi_{E}$ senza nemmeno risolvere un'equazione differenziale. Per definizione, gli operatori sono
+Risolvere questa equazione diventa molto più gestibile introducendo gli [[operatori di creazione e distruzione]] $\hat{a}$ e $\hat{a}^{+}$. Usando l'algebra degli [[Operatore|operatori]] ed in particolare quella dei [[Commutator|commutatori]], è possibile trovare $\psi_{E}$ senza nemmeno risolvere un'equazione differenziale. Per definizione, gli operatori sono
 $$\hat{a}=\alpha \hat{q}+i\beta \hat{p},\qquad \alpha,\beta \in \mathbb{R}$$
 Le due costanti sono
 $$\alpha=\sqrt{ \frac{m\omega}{2\hbar} },\qquad \beta=\frac{1}{\sqrt{ 2m\omega \hbar }}$$

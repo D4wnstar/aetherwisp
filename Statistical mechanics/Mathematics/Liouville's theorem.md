@@ -32,7 +32,7 @@ which is the most straight-forward form of the theorem.
 ### Quantum form
 In quantum physics, the Liouville theorem takes on a similar form. Given a [[Hamiltonian]] $\hat{H}$ and a [[Matrice di densità|density matrix]] $\hat{\rho}$, an equivalent statement is
 $$i\hbar \frac{ \partial \rho }{ \partial t } =[\hat{H},\hat{\rho}]$$
-where $[\cdot,\cdot]$ is the [[Commutatore|commutator]] and $\hbar$ is the [[Planck constant|reduced Planck constant]]. This follows from the  [[Poisson brackets|Poisson brackets]] conversion $\{ \cdot,\cdot \}\to \frac{1}{i\hbar} [\cdot,\cdot]$.
+where $[\cdot,\cdot]$ is the [[Commutator|commutator]] and $\hbar$ is the [[Planck constant|reduced Planck constant]]. This follows from the  [[Poisson brackets|Poisson brackets]] conversion $\{ \cdot,\cdot \}\to \frac{1}{i\hbar} [\cdot,\cdot]$.
 ### Examples
 > [!example] Damped harmonic oscillator
 > We know that Liouville's theorem only holds for conservatives systems. As a counterpoint, let's examine a non-conservative system to see what happens. Consider a [[Harmonic oscillator|damped harmonic oscillator]] (like a pendulum). It is described by $\dot{q}=p/m$ and $\dot{p}=-\gamma p-k\sin q$, where $\gamma$ is the dampening constant. We have

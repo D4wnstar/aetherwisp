@@ -24,7 +24,7 @@ Valgono in tal caso
 3. se $T$ è un [[proiettore]] che proietta su un sottospazio $H_{1}$, anche $T'$ è un proiettore e proietta sul sottospazio $UH_{1}$ dei vettori trasformati $Ux\;\forall x\in H_{1}$
 4. se $S$ è un operatore invertibile, si può considerare la trasformazione $T \rightarrow T''=STS^{-1}$. Se $T$ ammette un autovettore $x$ con autovalore $\lambda$, allora $T''$ ammette l'autovettore $Sx$ con autovalore $\lambda$. Se $T$ soddisfa un'equazione algebrica $a_{n}T^{n}+\ldots+a_{0}I=0$, anche $T''$ la soddisfa. Va notato che questa trasformazione non conserva l'ortonormalità dei sistemi né le proprietà di autoaggiuntezza degli operatori.
 ### Parentesi di commutazione
-Gli operatori unitari non cambiano il [[commutatore]]. Infatti, presi due operatori $X$ e $Y$ e un operatore unitario $U$ che applichiamo ad essi, vale
+Gli operatori unitari non cambiano il [[Commutator]]. Infatti, presi due operatori $X$ e $Y$ e un operatore unitario $U$ che applichiamo ad essi, vale
 $$\begin{align}
 [X_{U},Y_{U}]&=[U^{+}XU,U^{+}YU] \\
 &=U^{+}XUU^{+}YU-U^{+}YUU^{+}XU \\

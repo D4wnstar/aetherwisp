@@ -47,7 +47,7 @@ La rappresentazione formale di $\hat{\sigma}_{z}$ è nella base degli autostati 
 $$\hat{\tilde{\sigma}}_{z}=\left(\matrix{\langle\uparrow x|\hat{\sigma}_{z}|\uparrow x\rangle & \langle\uparrow x|\hat{\sigma}_{z}|\downarrow x\rangle \\ \langle\downarrow x|\hat{\sigma}_{z}|\uparrow x\rangle & \langle\downarrow x|\hat{\sigma}_{z}|\downarrow x\rangle}\right)=\left(\matrix{0 & 1 \\ 1 & 0}\right)$$
 nella quale non è più diagonale.
 ### Commutatori
-I [[Commutatore|commutatori]] tra le matrici sono
+I [[Commutator|commutatori]] tra le matrici sono
 $$[\sigma_{1},\sigma_{2}]=2i\sigma_{3}, \quad [\sigma_{2},\sigma_{3}]=2i\sigma_{1}, \quad [\sigma_{3},\sigma_{1}]=2i\sigma_{2}$$
 o più in generale
 $$[\sigma_{i},\sigma_{j}]=2i\epsilon_{ijk}\sigma_{k}$$

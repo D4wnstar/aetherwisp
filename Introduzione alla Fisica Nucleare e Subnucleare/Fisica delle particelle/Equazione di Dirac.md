@@ -35,7 +35,7 @@ $$E^{2}=p^{2}+m^{2}=(\alpha_{i}p_{i}+m\beta)^{2}$$
 Calcolando il quadrato al terzo membro si ha
 $$\alpha_{i}p_{i}\alpha_{j}p_{j}+(\alpha_{i}p_{j}m\beta+m\beta \alpha_{j}p_{i})+m^{2}\beta^{2}=\alpha_{i}p_{i}\alpha_{j}p_{j}+(\alpha_{i}\beta+\beta\alpha_{i})mp_{i}+m^{2}\beta^{2}=$$
 $$=\alpha_{i}p_{i}\alpha_{j}p_{j}+\{\beta,\alpha_{i}\}mp_{i}+m^{2}\beta^{2}= \frac{1}{2}(\{\alpha_{i},\alpha_{j}\}+[\alpha_{i},\alpha_{j}])p_{i}p_{j}+\{\beta,\alpha_{i}\}mp_{i}+m^{2}\beta^{2}$$
-usando il [[Commutatore]] e anticommutatore. Affinché la precedente equazione sia pari a $p^{2}+m^{2}$, devono valere le seguenti condizioni
+usando il [[Commutator]] e anticommutatore. Affinché la precedente equazione sia pari a $p^{2}+m^{2}$, devono valere le seguenti condizioni
 $$\begin{align}
 \{\beta,\alpha_{i}\}&=0 \\
 [\alpha_{i},\alpha_{j}]p_{i}p_{j}&=0 \\
