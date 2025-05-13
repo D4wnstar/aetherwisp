@@ -46,6 +46,8 @@ $$k=\frac{2\pi N}{\lambda_{0}}$$
 where $N=n+i\kappa$ is the complex [[refractive index]]. Using Maxwell's relation for refractive index, we have $N=\sqrt{ \varepsilon }=\sqrt{ \varepsilon_{r}+i\varepsilon_{i} }$, where $\varepsilon$ is the complex [[permittivity]]. The wave then is
 $$\mathbf{E}(z,t)=\mathbf{E}_{0}e^{i((2\pi N/\lambda_{0})z-\omega t)}=\mathbf{E}_{0}e^{i((\omega \sqrt{ \varepsilon }/c)z-\omega t)}$$
 (TODO: Finish this with PDF for Drude model results)
+### Limitations
+The Drude model fails in several situations. For instance, it fails to predict the conductivity of alloys. It also fails when temperatures become very low, such as metals bathed in liquid nitrogen. Nevertheless, the fact that the model can even produce good results at all is quite staggering given that the assumptions it is based on are completely *wrong*. It assumes that electrons neither interact with each other, nor with ions, which sounds nonsensical on paper, and yet it still provides reasonably correct values in many common conditions. This, in a way, is the key takeaway of the Drude model. Free electron behavior is weird and does not work as one would intuitively expect, but to fully understand why, we need more advanced models. Historically, the next step after the Drude model is the [[Sommerfeld model]], which is an actually quantum-native description that uses a [[Fermi gas]] to model the electrons.
 
 
 [^1]: The actual value is, unsurprisingly, tiny. For copper, it's in the ballpark of $2.5\times10^{-14}$ seconds.

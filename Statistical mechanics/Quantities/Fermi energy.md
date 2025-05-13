@@ -16,7 +16,9 @@ Several quantities can be derived from the Fermi energy. The **Fermi momentum** 
 
 The **Fermi temperature** is defined as $T_{F}=E_{F}/k_{B}$, where $k_{B}$ is the [[Boltzmann constant]]. It can be thought of as the temperature at which thermal effects become significant compared to quantum effects (specifically the Pauli exclusion principle). It is a useful metric to determine how "sharp" the [[Fermi-Dirac distribution]] is. At $T\ll T_{F}$, it is almost a [[Heaviside step function]] across $E_{F}$, but when $T\gg T_{F}$, it broadens to the point that there is no clear boundary and becomes indistinguishable from the [[Maxwell-Boltzmann statistic]].
 
+:::image
 ![[Fermi-Dirac distribution at low temperatures.png]]
-*The Fermi-Dirac distribution at zero and low temperatures. From David Tong's lecture notes on statistical physics.*
+The Fermi-Dirac distribution at zero and low temperatures. From David Tong's lecture notes on statistical physics.
+:::
 
 Since the Pauli exclusion principles causes zero- and low-temperature fermions to be subject to [[degenerate pressure]], $T_{F}$ is also sometimes known as the **degeneracy temperature**, which is particularly important in later stages of [[Evoluzione stellare|stellar evolution]] when [[stella|stars]] collapse into [[Nana bianca|white dwarfs]] (degenerate [[Elettrone|electron]] gas) or [[Stella di neutroni|neutron stars]] (degenerate [[neutron]] gas). This temperature is not necessarily very low: for instance, for electrons in metals, it is typically in the range of $\sim 10^{4}$ kelvins. In neutron stars, it is $>10^{7}$ kelvins.

@@ -6,7 +6,7 @@ wiki-publish: true
 > [!info] Liouville's theorem
 > Consider an [[ensemble]] with density function $\rho(q,p,t)$. The density function obeys the following equality:
 > $$\frac{d\rho}{dt}=\frac{ \partial \rho }{ \partial t } +\sum_{i=1}^{3N} \left( \frac{ \partial \rho }{ \partial p_{i} } \dot{p}_{i}+ \frac{ \partial \rho }{ \partial q_{i} } \dot{q}_{i} \right)=\frac{ \partial \rho }{ \partial t } +\{ \rho,H \}=0$$
-> where the curly braces are [[Poisson bracket|Poisson bracket]] between $\rho$ and the [[Hamiltoniana|Hamiltonian]]. Alternatively, we can write
+> where the curly braces are [[Poisson brackets|Poisson brackets]] between $\rho$ and the [[Hamiltoniana|Hamiltonian]]. Alternatively, we can write
 > $$\frac{ \partial \rho }{ \partial t } =\{ H,\rho \}$$
 > This means that the number of representative points in [[Phase space|phase space]] is conserved, both globally and in a given volume.
 
@@ -24,7 +24,7 @@ Recall that $\omega$ was completely arbitrary. We have proven that this integral
 $$\frac{ \partial \rho }{ \partial t } +\nabla\cdot\mathbf{(\rho \mathbf{v})=0}\tag{3}$$
 This is the continuity equation for representative points. The [[Divergence]], when written explicitly in this space, reads
 $$\nabla\cdot\mathbf{(\rho \mathbf{v})}=\sum_{i=1}^{3N} \left[ \frac{ \partial  }{ \partial q_{i} } (\rho \dot{q}_{i})+ \frac{ \partial  }{ \partial p_{i} } (\rho \dot{p}_{i}) \right]=\underbrace{ \sum_{i=1}^{3N} \left[ \frac{ \partial \rho }{ \partial q_{i} }\dot{q}_{i} +\frac{ \partial \rho }{ \partial p_{i} }\dot{p}_{i}  \right] }_{ \{ \rho,H \} }+\rho\sum_{i=1}^{3N} \left[ \underbrace{ \frac{ \partial \dot{q}_{i} }{ \partial q_{i} } +\frac{ \partial \dot{p}_{i} }{ \partial p_{i} } }_{ 0 }  \right]$$
-The second step is by and expanding the derivatives. By the [[Hamilton equation]] of motion, the terms in the second sum are all zero, while the first is the [[Poisson bracket]] of $\rho$ and $H$. Using this knowledge in $(3)$ we can state
+The second step is by and expanding the derivatives. By the [[Hamilton equation]] of motion, the terms in the second sum are all zero, while the first is the [[Poisson brackets]] of $\rho$ and $H$. Using this knowledge in $(3)$ we can state
 $$\frac{ \partial \rho }{ \partial t } +\{ \rho,H \}=0$$
 which completes the proof. As an additional statement, since $\rho=\rho(q,p;t)$, we can merge the former statement into the [[Teorema del differenziale totale|total differential]] of $\rho$ and state:
 $$\frac{d\rho}{dt}=0$$
@@ -32,7 +32,7 @@ which is the most straight-forward form of the theorem.
 ### Quantum form
 In quantum physics, the Liouville theorem takes on a similar form. Given a [[Hamiltonian]] $\hat{H}$ and a [[Matrice di densità|density matrix]] $\hat{\rho}$, an equivalent statement is
 $$i\hbar \frac{ \partial \rho }{ \partial t } =[\hat{H},\hat{\rho}]$$
-where $[\cdot,\cdot]$ is the [[Commutatore|commutator]] and $\hbar$ is the [[Planck constant|reduced Planck constant]]. This follows from the  [[Poisson bracket|Poisson bracket]] conversion $\{ \cdot,\cdot \}\to \frac{1}{i\hbar} [\cdot,\cdot]$.
+where $[\cdot,\cdot]$ is the [[Commutatore|commutator]] and $\hbar$ is the [[Planck constant|reduced Planck constant]]. This follows from the  [[Poisson brackets|Poisson brackets]] conversion $\{ \cdot,\cdot \}\to \frac{1}{i\hbar} [\cdot,\cdot]$.
 ### Examples
 > [!example] Damped harmonic oscillator
 > We know that Liouville's theorem only holds for conservatives systems. As a counterpoint, let's examine a non-conservative system to see what happens. Consider a [[Harmonic oscillator|damped harmonic oscillator]] (like a pendulum). It is described by $\dot{q}=p/m$ and $\dot{p}=-\gamma p-k\sin q$, where $\gamma$ is the dampening constant. We have

@@ -56,7 +56,7 @@ $$\{\sigma_{i},\sigma_{j}\}=2\delta_{ij}$$
 
 Dai commutatori si ottengono anche le relazioni
 $$\sigma_{1}\sigma_{2}=-\sigma_{2}\sigma_{1}, \quad \sigma_{2}\sigma_{3}=-\sigma_{3}\sigma_{2}, \quad \sigma_{1}\sigma_{3}=-\sigma_{3}\sigma_{1}$$
-Questa ciclicità è molto simile a quello che accade con le [[Poisson bracket]] del momento angolare in meccanica classica. Non per altro, le matrici di Pauli rappresentano lo spin di un sistema quantistico.
+Questa ciclicità è molto simile a quello che accade con le [[Poisson brackets]] del momento angolare in meccanica classica. Non per altro, le matrici di Pauli rappresentano lo spin di un sistema quantistico.
 ### Forma in assi arbitrari
 Considera un generico versore in spazio tridimensionale:
 $$\hat{\mathbf{n}}=(n_{x},n_{y},n_{z})\in \mathbb{R}^{3}$$
