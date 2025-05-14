@@ -2,6 +2,7 @@
 wiki-publish: true
 aliases:
   - conjugate Hamiltonian
+  - symplectic transformation
 ---
 A **canonical transformation** is a [[coordinate transformation]] that transforms a set of coordinates that satisfy the [[Hamilton equation|Hamilton equations]] of a [[Physical system|system]] into another set that also satisfies the Hamilton equations.
 
@@ -52,7 +53,7 @@ If $c=1$, the transformation is said to be **univalent**. This equation allows u
 Remember that $J$ is the Jacobian of the transformation. What the first canonicity criterion says is that if the Jacobian of the transformation is $cJ\mathrm{E}J^{T}=\mathrm{E}$, then it's canonical. But what does $cJ\mathrm{E}J^{T}=\mathrm{E}$ *mean*? Well, if you remove the $c$, you get $J\mathrm{E}J^{T}=\mathrm{E}$. As it happens, this is the definition of a [[Matrice simmetrica|symmetric matrix]], a set of [[matrix|matrices]] which form a [[group]] with useful properties. It would be nice if the criterion could simplify to "if the transformation's Jacobian is symmetric, then it's canonical". Alas, the $c$ makes things harder. Now, if $c=1$, then $J$ is certainly symmetric. But in general, we need to analyze things further.
 
 If we take the [[determinant]] of $cJ\mathrm{E}J^{T}=\mathrm{E}$ we get $c^{2n}\det \mathrm{E}(\det J)^{2}=\det \mathrm{E}$ and so
-$$c^{n}=\frac{1}{\lvert \det J \rvert }$$
+$$c^{n}=\frac{1}{\lvert \det J \rvert }\tag{3}$$
 Now take a *canonical* transformation with Jacobian $J'$. We have $cJ'\mathrm{E}J'^{T}=\mathrm{E}$ for some $c$. We compose it with the *canonical* transformation[^2] $x=\sqrt{ \lvert c \rvert }\ x'$, so $p=\sqrt{ \lvert c \rvert }\ p'$ and $q=\sqrt{ \lvert c \rvert }\ q'$. Our original transformation $w'(\tilde{x},t)$ now is $w(\tilde{x},t)=\sqrt{ \lvert c \rvert }\ w'(\tilde{x},t)$. It's Jacobian is
 $$J_{ij}=\frac{ \partial w_{i} }{ \partial x_{j} } =\sqrt{ \lvert k \rvert  }\ \frac{ \partial w'_{i} }{ \partial x_{j} } =\sqrt{ \lvert c \rvert  }\ J'_{ij}$$
 So
@@ -68,6 +69,8 @@ and so we go back to our canonicity criterion, up to a composition. In fact, thi
 
 > [!success] Symplectic transformations
 > All canonical transformations can be reduced to symplectic ones (that is, univalent canonical ones) by composing them with other appropriate canonical transformations. 
+
+As a bonus point, note $(3)$. Since $c=1$ for all univalent transformations, then $\lvert \det J \rvert=1$ too. This is sometimes important, since $\lvert \det J \rvert$ appears when doing coordinate changes inside of integrals. For a relevant example, see for instance [[Liouville's theorem#Proof (analytical mechanics)]].
 ### Poisson bracket preservation
 A transformation $w$ is said to **preserve the [[Poisson brackets]]** if for all $f(x,t)$ and $g(x,t)$ we have
 $$\{ f,g \}(w(\tilde{x},t),t)=\{ F,G \}(\tilde{x},t)$$
@@ -92,6 +95,21 @@ The following characterizations are valid:
 
 > [!info] Second canonicity criterion
 > A transformation $x=w(\tilde{x},t)$ is univalent canonical if and only if it preserves the Poisson brackets.
+### Infinitesimal transformations
+An interesting case is that of infinitesimal transformations, which are
+$$\begin{cases}
+\tilde{q}_{i}=q_{i}+\delta q_{i} \\
+\tilde{p}_{i}=p_{i}+\delta p_{i}
+\end{cases}$$
+where $\delta q_{i}$ and $\delta p_{i}$ are intended as "small" compared to the rest of the coordinates. Alternatively, in compact form, $\tilde{x}_{j}=x_{j}+\delta x_{j}(x,t)$. We want to see if these are canonical. For that to be true, $\delta x_{j}$ needs to satisfy the fundamental Poisson brackets
+$$\mathrm{E}_{ij}=\{ \tilde{w}_{i},\tilde{w}_{j} \}=\{ x_{i}+\delta x_{i},x_{j}+\delta x_{j} \}=\underbrace{ \{ x_{i},x_{j} \} }_{ \mathrm{E}_{ij} }+\{ x_{i},\delta x_{j} \}+\{ \delta x_{i},x_{j} \}+\{ \delta x_{i},\delta x_{j} \}$$
+(TODO: Finish this, end of lesson 14/05/2025)
+
+$$\begin{cases}
+\delta p_{k}=-\varepsilon \frac{ \partial G }{ \partial q_{k} }  \\
+\delta q_{k}=\varepsilon \frac{ \partial G }{ \partial p_{k} } 
+\end{cases}$$
+The function $G(x,t)$ is known as the **generator** of the infinitesimal canonical transformation.
 ### Examples
 > [!example]
 > Take this coordinate transformation:

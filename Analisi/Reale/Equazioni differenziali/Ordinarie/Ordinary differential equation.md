@@ -2,6 +2,7 @@
 wiki-publish: true
 aliases:
   - ODE
+  - flux of a vector field
 ---
 An **ordinary differential equation**, or **ODE** for short, is an equation where a function and one or more its derivatives appear simultaneously. The highest derivative of the function is said to be the **order** of the ODE. If we denote the function as $f(t)$ and its $i$-th derivative as $f^{(i)}(t)$, a generic ODE written in **normal form** (with the highest derivative isolated) is
 $$f^{(n)}(t)=g(f,f^{(1)},\ldots,f^{(n-1)},t)$$

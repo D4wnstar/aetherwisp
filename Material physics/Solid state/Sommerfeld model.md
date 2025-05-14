@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 The **Sommerfeld model** is a quantum treatment of free [[electron|electrons]] in metals. It can be seen as a quantum rework of the [[Drude model]]. It is based on three approximations:
 1. The $N$ electrons are confined in a cubic volume $V=L^{3}$.
 2. The electrons are independent. There is no interaction between electrons.

@@ -3,15 +3,22 @@ wiki-publish: true
 ---
 **Liouville's theorem** provides a local conservation law for [[Phase space|representative points]] in [[phase space]] of a [[dynamical system]]. It states that the density of representative points near a point in phase space is constant in time. In other words, state density is stationary and representative points behave like an incompressible fluid, in that their density does not change in time.
 
-> [!info] Liouville's theorem
+> [!info] Liouville's theorem (statistical mechanics)
 > Consider an [[ensemble]] with density function $\rho(q,p,t)$. The density function obeys the following equality:
 > $$\frac{d\rho}{dt}=\frac{ \partial \rho }{ \partial t } +\sum_{i=1}^{3N} \left( \frac{ \partial \rho }{ \partial p_{i} } \dot{p}_{i}+ \frac{ \partial \rho }{ \partial q_{i} } \dot{q}_{i} \right)=\frac{ \partial \rho }{ \partial t } +\{ \rho,H \}=0$$
 > where the curly braces are [[Poisson brackets|Poisson brackets]] between $\rho$ and the [[Hamiltoniana|Hamiltonian]]. Alternatively, we can write
 > $$\frac{ \partial \rho }{ \partial t } =\{ H,\rho \}$$
 > This means that the number of representative points in [[Phase space|phase space]] is conserved, both globally and in a given volume.
 
-This theorem only holds in [[conservative system|conservative systems]], i.e. systems where the phase space [[measure]] is constant over time.
-### Proof
+This theorem only holds in [[conservative system|conservative systems]], i.e. systems where the phase space [[measure]] is constant over time
+
+An alternative and equivalent statement from analytical mechanics goes as follows:
+
+> [!info] Liouville's theorem (analytical mechanics)
+> Univalent [[Canonical transformation|canonical transformations]], and among them specifically the [[Hamilton equation|Hamiltonian flux]] $\Phi^{t}$, preserve the Euclidean volume.
+> 
+> If $A_{1}$ is the original phase space and $A_{2}=\Phi^{t}(A_{1})$ is the phase space modified by the transformation, we have $\text{vol}(A_{1})=\text{vol}(A_{2})$.
+### Proof (statistical mechanics)
 Consider an arbitrary volume $\omega$ in some region of phase space. Call $\sigma$ the surface bounding this volume. Then, the rate at which the number of representative points contained in $\omega$ varies is given by the time derivative of the number:
 $$\frac{ \partial  }{ \partial t } \int_{\omega}\rho\ d\omega$$
 where the number is given by integrating the number density over $\omega$ and $d\omega=d^{3N}qd^{3N}p$. Calling $\mathbf{v}=(\dot{p}_{1},\ldots,\dot{p}_{3N},\dot{q}_{1},\ldots,\dot{q}_{3N})$ the velocity of a representative point, we have, by the [[continuity equation]],
@@ -29,6 +36,10 @@ $$\frac{ \partial \rho }{ \partial t } +\{ \rho,H \}=0$$
 which completes the proof. As an additional statement, since $\rho=\rho(q,p;t)$, we can merge the former statement into the [[Teorema del differenziale totale|total differential]] of $\rho$ and state:
 $$\frac{d\rho}{dt}=0$$
 which is the most straight-forward form of the theorem.
+### Proof (analytical mechanics)
+Start from the volume of $A_{1}$, then the [[Canonical transformation|univalent canonical]] [[coordinate transformation]] to change system:
+$$\text{vol}(A_{1})=\int_{A_{1}}\underbrace{ dp_{1}\ldots dp_{n}dq_{1}\ldots dq_{n} }_{ dx_{1}\ldots dx_{2n} }=\int_{A_{2}}\lvert \det J \rvert d\tilde{x}_{1}\ldots d\tilde{x}_{2n}=\int_{A_{2}}d\tilde{x}_{1}\ldots d\tilde{x}_{2n}=\text{vol}(A_{2})$$
+The [[determinant]] is of the [[Jacobian]] of the coordinate we use to go from $\mathbf{x}$ to $\tilde{\mathbf{x}}$. However, all univalent canonical transformations have $\det J=1$, so the step holds trivially.
 ### Quantum form
 In quantum physics, the Liouville theorem takes on a similar form. Given a [[Hamiltonian]] $\hat{H}$ and a [[Matrice di densità|density matrix]] $\hat{\rho}$, an equivalent statement is
 $$i\hbar \frac{ \partial \rho }{ \partial t } =[\hat{H},\hat{\rho}]$$
