@@ -19,6 +19,7 @@ wiki-publish: true
 - [[Rigid body]]
 - [[Central potential problems]]
 - Spinning top
+- [[Hamilton's principle]]
 ### Hamiltonian mechanics
 - [[Hamilton equation]] (Hamiltonian least action principle not in exam)
 - [[Canonical transformation]]
