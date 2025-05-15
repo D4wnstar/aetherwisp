@@ -1,11 +1,11 @@
 {
   "collapse-filter": true,
-  "search": "-tag:#excalidraw -path:\"Meccanica Statistica/Altro\"  -path:\"Meccanica Quantistica/Altro\"  -path:\"Meccanica statistica (Senatore)\"  ",
+  "search": "-path:Other -path:Psi -tag:#excalidraw",
   "showTags": true,
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": true,
+  "collapse-color-groups": false,
   "colorGroups": [
     {
       "query": "path:\"Introduzione all'Astrofisica\"",
@@ -57,13 +57,6 @@
       }
     },
     {
-      "query": "path:\"Metodi di Trattamento delle Immagini\"  ",
-      "color": {
-        "a": 1,
-        "rgb": 2338995
-      }
-    },
-    {
       "query": "path:\"Algebra lineare\"  ",
       "color": {
         "a": 1,
@@ -71,7 +64,7 @@
       }
     },
     {
-      "query": "path:\"Introduzione alla Fisica della Materia\"  ",
+      "query": "path:\"Material physics\"  ",
       "color": {
         "a": 1,
         "rgb": 13652819
@@ -81,7 +74,7 @@
       "query": "path:\"Introduzione alla Fisica Nucleare e Subnucleare\"  ",
       "color": {
         "a": 1,
-        "rgb": 10010411
+        "rgb": 2867091
       }
     },
     {
@@ -106,10 +99,31 @@
       }
     },
     {
-      "query": "path:\"Meccanica classica\"  ",
+      "query": "path:\"Classical mechanics\"  ",
       "color": {
         "a": 1,
         "rgb": 13920529
+      }
+    },
+    {
+      "query": "path:\"Wave mechanics\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 6902496
+      }
+    },
+    {
+      "query": "path:\"Theory of relativity\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 4374993
+      }
+    },
+    {
+      "query": "path:\"Analytical mechanics\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 10605397
       }
     }
   ],
@@ -123,6 +137,6 @@
   "repelStrength": 12.0003255208333,
   "linkStrength": 0.950276692708333,
   "linkDistance": 250,
-  "scale": 0.03578813820040788,
+  "scale": 0.18803809413127862,
   "close": false
 }
