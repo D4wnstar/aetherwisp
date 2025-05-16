@@ -22,7 +22,7 @@ Delle distanze, questa è la più comoda.
 Si definisce **distanza di diametro** la distanza per la quale vale la relazione $\Delta \theta=D_{0}/d_{D}$, derivata dal fatto che l'espansione causi l'allontanamento della sorgente di $a(t_{0})/a(t)=(1+z)$ e dal fatto che l'espansione lasci gli angoli invariati. Si trova
 $$d_{D}=\frac{r(z)}{1+z}$$
 ### Espansione della distanza di luminosità
-Possiamo espandere in [[Serie di Taylor|serie di Taylor]] la funzione $d_{L}(z)$. Al primo termine ritroviamo la legge di Hubble-Lemaitre. Dal secondo in poi abbiamo i termini non lineari, che diventano rilevanti per redshift molto alto ($z>1$). Infatti, per [[Candela standard|candele standard]] molto lontane, il diagramma di Hubble comincia a pendere. Al secondo termine troviamo
+Possiamo espandere in [[Taylor series|serie di Taylor]] la funzione $d_{L}(z)$. Al primo termine ritroviamo la legge di Hubble-Lemaitre. Dal secondo in poi abbiamo i termini non lineari, che diventano rilevanti per redshift molto alto ($z>1$). Infatti, per [[Candela standard|candele standard]] molto lontane, il diagramma di Hubble comincia a pendere. Al secondo termine troviamo
 $$d_{L}=\frac{1}{H_{0}}c\left(z- \frac{1-q_{0}}{2}z^{2}+\ldots\right)$$
 dove $q_{0}$ è un parametro detto **parametro di decelerazione**. È legato alla derivata seconda del fattore di scala come
 $$q_{0}=- \frac{d^{2}a}{dt^{2}}(t_{0})\left[\frac{da}{dt}(t_{0})\right]^{-2}$$

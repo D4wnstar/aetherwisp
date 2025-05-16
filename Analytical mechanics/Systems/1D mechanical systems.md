@@ -66,7 +66,7 @@ If we manage to solve this integral and then invert $t(x)$ to $x(t)$, we will ha
 #### Behavior around maxima
 Interesting behavior happens near maxima of $x$. Call one such maximum $x_\text{max}$. Then our energy is $E=V(x_\text{max})$ and our integral looks like
 $$t(x_\text{max})=t(x_{0})+\int_{x_{0}}^{x_\text{max}} \frac{dx'}{\sqrt{ \frac{2}{m}(E-V(x')) }}\simeq t(x_{0})+\int_{\xi_{0}}^{0} \frac{d\xi}{\sqrt{ \frac{2V'(x_\text{max})}{m} \xi}}$$
-where $\lvert x_\text{max}-x_{0} \rvert\ll 1$ and so $\lvert x_\text{max}-x' \rvert\ll 1$. We can approximate the potential with a [[Serie di Taylor|Taylor series]]:
+where $\lvert x_\text{max}-x_{0} \rvert\ll 1$ and so $\lvert x_\text{max}-x' \rvert\ll 1$. We can approximate the potential with a [[Taylor series|Taylor series]]:
 $$V(x')=\underbrace{ V(x_\text{max}) }_{ E }+ V'(x_\text{max})_{ 0 }(x'-x_\text{max})+\ldots$$
 If we truncate at the first order and plug this in the square root we see
 $$\sqrt{ \frac{2}{m}(E-V(x)) }\simeq \sqrt{ \frac{2}{m} }\sqrt{ V'(x_\text{max}) }\sqrt{ x_\text{max}-x' }$$

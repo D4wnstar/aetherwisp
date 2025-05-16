@@ -1,7 +1,5 @@
 ---
 wiki-publish: true
-tags:
-  - serie
 ---
 Data una successione di numeri reali $\{a_n\}_{n\in \mathbb{N}}$ di numeri reali, definisco per ogni $n\in \mathbb{N}$ la **somma parziale**
 

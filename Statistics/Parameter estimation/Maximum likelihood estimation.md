@@ -15,7 +15,7 @@ $$\left\{\begin{align}
 
 Since $\mathcal{L}$ and $\ln \mathcal{L}$ share maxima, it is common to attempt to maximize $\ln \mathcal{L}$ instead since it makes the expression easier to solve.
 ### Approximation
-The behavior of the logarithm can be shown through a [[Serie di Taylor|Taylor series]] around the best point estimate:
+The behavior of the logarithm can be shown through a [[Taylor series|Taylor series]] around the best point estimate:
 $$\ln \mathcal{L}(\theta)=\ln \mathcal{L}(\theta^{*})+ \frac{d\ln \mathcal{L}}{d\theta}(\theta^{*})(\theta-\theta^{*})+ \frac{1}{2} \frac{d^{2}\ln \mathcal{L}}{d\theta}(\theta^{*})(\theta-\theta^{*})^{2}+\ldots$$
 The first terms is the maximum, whereas the second vanishes due to being a [[Punto critico|stationary point]]. The third term can be expressed using a inverted, saturated [[Kramer-Rao-Frechet inequality]] so that we're left with
 $$\ln \mathcal{L}(\theta)\simeq \ln \mathcal{L}_{\text{max}}- \frac{1}{2} \frac{(\theta-\theta^{*})^{2}}{\sigma^{2}_{\theta^{*}}}$$

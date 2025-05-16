@@ -59,7 +59,7 @@ $$\begin{align}
 \end{align}$$
 Allora tornando all'energia per temperatura si ha
 $$E(T)=\int_{0}^{\infty} \frac{\hbar\omega ^{3}}{2\pi ^{2}c^{3}} \frac{1}{e^{\beta \hbar \omega}-1}$$
-La seconda frazione è approssimabile con una [[Serie di Taylor|serie di Taylor]] come
+La seconda frazione è approssimabile con una [[Taylor series|serie di Taylor]] come
 $$\frac{1}{e^{\beta \hbar \omega}}\simeq\begin{cases}
 e^{-\beta \hbar \omega}\quad &\omega\gg 1 \\
 \frac{1}{\beta \hbar \omega}\quad &\omega\ll 1

@@ -1,10 +1,13 @@
 ---
 wiki-publish: true
+aliases:
+  - Euler's homogeneous function theorem
 ---
-A multivariate function $f(x_{1},\ldots,x_{n})$ is said to be **homogeneous** of degree $\alpha$ if for all $\lambda>0$ and all points $(x_{1},\ldots,x_{n})$ the following equality holds:
-$$f(\lambda x_{1},\ldots,\lambda x_{n})=\lambda^{\alpha}f(x_{1},\ldots,x_{n})$$
+A multivariate function $f(\mathbf{x})$ is said to be **homogeneous** of degree $\alpha$ if for all $\lambda>0$ and all points $\mathbf{x}$ the following equality holds:
+$$f(\lambda \mathbf{x})=\lambda^{\alpha}f(\mathbf{x})$$
+Here, $\mathbf{x}=(x_{1},\ldots,x_{n})\in \mathbb{R}^{N}$ and $\alpha$ may be any real number, though integers are more common.
 ### Properties
-For a homogeneous function of degree $\alpha$, the following is true:
+For a homogeneous function of degree $\alpha$, the following result, called **Euler's homogeneous function theorem**, is true:
 $$\sum_{i=1}^{N} x_{i}\frac{ \partial f }{ \partial x_{i} } =\alpha f$$
 In fact:
 $$\begin{align}

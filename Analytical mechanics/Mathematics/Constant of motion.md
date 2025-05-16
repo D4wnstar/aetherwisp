@@ -5,7 +5,7 @@ A **constant of motion** is a quantity that does not change over time and over a
 
 The locus of points in $\mathbb{R}^{N}$ that satisfies the equation $I(\mathbf{x})=\rho$, where $\rho$ is a constant, is a [[hypersurface]] in $\mathbb{R}^{N}$, specifically a [[Insieme di livello|level set]]. For example, in $\mathbb{R}^{3}$, the quantity $I(\mathbf{x})=x^{2}+y^{2}+z^{2}=\rho=R^{2}$ is a sphere. The constant of motion $I$ defines a family of *disjoint* (i.e. non-intersecting) hypersurfaces dependent on the parameter $\rho$. The union of all of these hypersurfaces is $\mathbb{R}^{N}$. Formally, such a family is known in differential geometry as a **[[foliation]]** of $\mathbb{R}^{N}$.
 
-The benefit of finding constants of motion is that they add bindings to the parameters of a system. Specifically, each constant reduces the [[degrees of freedom]], and therefore the dimensionality of the system, by one. The more constants of motion are known beforehand, the fewer parameters need to be solved to find a trajectory. For instance, a three-dimensional system with two known constants of motion simplifies down to a one dimensional system.
+The benefit of finding constants of motion is that they add [[constraint|constraints]] to the parameters of a system. Specifically, each constant reduces the [[degrees of freedom]], and therefore the dimensionality of the system, by one. The more constants of motion are known beforehand, the fewer parameters need to be solved to find a trajectory. For instance, a three-dimensional system with two known constants of motion simplifies down to a one dimensional system.
 ### Examples
 > [!example] Harmonic oscillator
 > A typical constant of motion is the total mechanical [[energy]] of a body, defined as the sum of its [[kinetic energy|kinetic]] and [[potential energy]]. A common case is, as always, the [[harmonic oscillator]]. We consider a [[point mass]] in oscillation, with unit [[mass]] $m=1$ for simplicity. The solution is well known and is the set
@@ -22,7 +22,7 @@ The benefit of finding constants of motion is that they add bindings to the para
 > \end{align}$$
 > It is dependent only on the starting conditions.
 > 
-> For an even simpler form, let's now set $\omega=1$. The energy therefore becomes $I(x,v)=\frac{1}{2}(x^{2}+v^{2})$. If we set an arbitrary energy quantity $E$, then the system will maintain this total energy throughout its entire motion. The formula for $I$ is well-known: it is a circle. In fact, each value $E$ describes a circle in $(x,v)$-space (i.e. [[phase space]]). Lower energies make for smaller circles and viceversa.
+> For an even simpler form, let's now set $\omega=1$. The energy therefore becomes $I(x,v)=\frac{1}{2}(x^{2}+v^{2})$. If we set an arbitrary energy quantity $E$, then the system will maintain this total energy throughout its entire motion. The formula for $I$ is well-known: it is a [[circle]]. In fact, each value $E$ describes a circle in $(x,v)$-space (i.e. [[phase space]]). Lower energies make for smaller circles and viceversa.
 > 
 > ![[Plot 1D Harmonic oscillator constant energy surfaces|70%]]
 > 
@@ -49,7 +49,7 @@ If we know a constant of motion $I(q,\dot{q},t)$ and, then we can write the foll
 $$I(q(t),\dot{q}(t),t)=I_{0}$$
 where $I_{0}$ is some constant. This is a first order [[Ordinary differential equation|ODE]] in $q(t)$ (technically a family of ODEs). If we solve this equation, we can find the motion $q(t)$ just from the constant of motion.
 
-Let's consider the [[dynamical variable]] for a [[Lagrangian]] $L$:
+Let's consider the following [[dynamical variable]] for a [[Lagrangian]] $L$:
 $$E(q,\dot{q},t)=\sum_{i=1}^{n} \dot{q}_{i}\frac{ \partial L }{ \partial \dot{q}_{i} }(q,\dot{q},t)-L(q,\dot{q},t) $$
 The derivative of this is
 $$\begin{align}
@@ -67,9 +67,9 @@ Clearly then, if $\frac{ \partial L }{ \partial t }=0$, then $E$ is a constant o
 > We can see that $E$ is the *total* mechanical energy of the system, given by the sum of [[kinetic energy]] and [[potential energy]].
 
 > [!example] 2D harmonic oscillator
-> We now imagine a two-dimension [[harmonic oscillator]] of Lagrangian
+> We now imagine a two-dimensional [[harmonic oscillator]] of Lagrangian
  >$$L=\frac{m}{2}(\dot{x}^{2}+\dot{y}^{2})- \frac{m\omega ^{2}}{2}(x^{2}+y^{2})$$
-> where $\omega ^{2}=k/m$. Think of it a spring being pushed and pulled away and towards the origin. It is not rotating. We can find the motion pretty easily from each term of $E$:
+> where $\omega ^{2}=k/m$. Think of it a spring being pushed and pulled away and towards the origin, passing through it every half cycle. It is not rotating. We can find the motion pretty easily from each term of $L$:
 > $$\frac{d}{dt} \frac{ \partial L }{ \partial x } -\frac{ \partial L }{ \partial x } =0\quad\to \quad \ddot{x}=-\omega ^{2}x$$
 > $$\frac{d}{dt} \frac{ \partial L }{ \partial y } -\frac{ \partial L }{ \partial y } =0\quad\to \quad \ddot{y}=-\omega ^{2}y$$
 > These are simple second order ODEs that solve to

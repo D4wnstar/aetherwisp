@@ -137,7 +137,7 @@ $$K_{0}(\tilde{x})=\Lambda(\tilde{x})=\varepsilon \frac{ \partial G }{ \partial 
 Substituting this back in $(4)$ yields
 $$\delta H=\varepsilon \left( \{ H,G \}- \frac{ \partial G }{ \partial t }  \right)$$
 #### Finite transformation from a differential equation
-Consider a usual, finite transformation $\tilde{x}=\tilde{w}(x,t)$. If expand it in a [[Serie di Taylor|Taylor series]] as
+Consider a usual, finite transformation $\tilde{x}=\tilde{w}(x,t)$. If expand it in a [[Taylor series|Taylor series]] as
 $$\tilde{x}(\varepsilon)=\tilde{w}(x,t,\varepsilon)\simeq x+ \underbrace{ \varepsilon \frac{d\tilde{w}}{d\varepsilon}(x,t,0) }_{ \delta x }+\ldots$$
 If $\varepsilon \ll1$, the transformation becomes infinitesimal, $\delta x$, that is, there exists some generator $G$ for which $\delta x=\varepsilon \{ x,G \}=\varepsilon \mathrm{E}\nabla_{x}G$. Dividing through by $\varepsilon$ gives us
 $$\frac{\tilde{x}-x}{\varepsilon}=\mathrm{E}\nabla_{x}G\quad\to \quad \frac{d\tilde{x}}{d\varepsilon}(0)=\mathrm{E}\nabla_{x}G(\tilde{x}(0),t)\quad\to \quad \frac{d\tilde{x}}{d\varepsilon}(\varepsilon)=\mathrm{E}\nabla_{x}G(\tilde{x}(\varepsilon),t)$$

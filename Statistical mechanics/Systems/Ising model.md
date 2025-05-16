@@ -67,7 +67,7 @@ Note that this is a transcendental equation, so the best we can do is show it nu
 
 ![[Plot Ising model magnetic moment|center]]
 
-This plot is the phase diagram of the model. The diagonal line is the $m=0$ case. The phase transition occurs when this line is crossed. Proving that a phase transition occurs just means proving that there are temperature for which non-trivial $m=0$ solutions are possible (that is, $m=0$ outside of the origin). These solution can be found using, for instance, the hyperbolic tangent [[Serie di Taylor|Taylor series]] $\tanh x=x-x^{3}/3+\ldots$.
+This plot is the phase diagram of the model. The diagonal line is the $m=0$ case. The phase transition occurs when this line is crossed. Proving that a phase transition occurs just means proving that there are temperature for which non-trivial $m=0$ solutions are possible (that is, $m=0$ outside of the origin). These solution can be found using, for instance, the hyperbolic tangent [[Taylor series|Taylor series]] $\tanh x=x-x^{3}/3+\ldots$.
 
 When the temperature is $T>T_{C}$, the only solution is at the origin. When $T<T_{C}$, we have three solutions: one at the origin and two somewhere else, shown in the figure as red crosses. This is an important fact: the magnetization *must* have two solutions for it to make sense, as it must be symmetrical. A phase transition is fundamentally the [[symmetry break|breaking of a symmetry]].
 ### Quantum model

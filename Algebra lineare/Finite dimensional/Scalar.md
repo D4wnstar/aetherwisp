@@ -1,4 +1,4 @@
-A **scalar** is a quantity that can be described by a single number and is invariant under [[coordinate transformation]], as opposed to other objects like [[Vector space|vectors]] or [[matrix|matrices]] which are described by multiple numbers and do transform alongside coordinates.
+A **scalar** is a quantity that can be described by a single number and is invariant under [[coordinate transformation]], as opposed to other objects like [[Vector space|vectors]] or [[matrix|matrices]] which are described by multiple numbers and do transform when coordinates change.
 
 > [!warning] Some clarification
 > The definition of "scalar" is somewhat nebulous in physics. In practice, physicists often use it as shorthand for "some real or complex number" and view scalars as 1-to-1 with physical quantities. For instance, time and [[mass]] are both considered scalars (the unit of measurement is not part of the scalar), whereas position (being a vector) is not.

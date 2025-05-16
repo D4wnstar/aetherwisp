@@ -15,7 +15,7 @@ Queste tre si sommano per darci l'[[Hamiltoniana]] corretta.
 ### Correzione relativistica dell'energia cinetica
 Possiamo sostituire l'energia cinetica classica $p^{2}/2m_{e}$ con l'energia cinetica relativistica
 $$T=\sqrt{p^{2}c^{2}+m_{e}^{2}c^{4}}-m_{e}^{2}c^{2}=m_{e}c^{2}\sqrt{1+ \frac{p^{2}}{m_{e}c^{2}}}-m_{e}c^{2}=\ldots$$
-con $m_{e}$ la [[massa dell'elettrone]]. Possiamo espandere in [[Serie di Taylor|serie di Taylor]] la radice quadrata della forma $\sqrt{1+x}$ con
+con $m_{e}$ la [[massa dell'elettrone]]. Possiamo espandere in [[Taylor series|serie di Taylor]] la radice quadrata della forma $\sqrt{1+x}$ con
 $$\ldots=m_{e}c^{2}\left(1+ \frac{1}{2} \frac{p^{2}}{m_{e}^{2}c^{2}} - \frac{p^{4}}{8m_{e}^{4}c^{4}}+\ldots\right)=m_{e}c^{2}+ \underbrace{\frac{p^{2}}{2m_{e}}}\limits_{E_{cin}} - \frac{p^{4}}{8m_{e}^{3}c^{2}}+\ldots$$
 dove $E_{cin}$ è l'energia classica e i termini ulteriori sono termini correttivi. Questa correzione è proporzionale a $(Z\alpha)^{2}$, con $Z$ la carica nucleare e $\alpha$ è la [[costante di struttura fine]]. Dunque, le correzioni diventano prevalenti per atomi grandi.
 

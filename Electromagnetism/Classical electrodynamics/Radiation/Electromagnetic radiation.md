@@ -25,7 +25,7 @@ The retarded [[electric potential|scalar potential]] is
 $$V(\mathbf{r},t)=\frac{1}{4\pi \varepsilon_{0}}\int \frac{\rho(\mathbf{r}',t- \mathfrak{r}/c)}{\mathfrak{r}}d\tau' $$
 where $\mathfrak{r}=\sqrt{ r^{2}+r'^{2}-2\mathbf{r}\cdot \mathbf{r}' }$. As in most situations, we care about radiation far from the source, in the **radiation zone**. Here, we can do approximation 1: $r\gg r'$, where we mean that $r'$ is always small compared to $r$ throughout integration. This is the mathematical statement of "the source object is really small compared to how far we are from it". In this approximation we get
 $$\mathfrak{r}\simeq r\left( 1- \frac{\mathbf{r}\cdot\mathbf{r}'}{r^{2}} \right)$$
-from which using the first order [[Serie di Taylor|Taylor series]] $(1-x)^{-1}\simeq1+x$ when $\lvert x \rvert\ll1$:
+from which using the first order [[Taylor series|Taylor series]] $(1-x)^{-1}\simeq1+x$ when $\lvert x \rvert\ll1$:
 $$\frac{1}{\mathfrak{r}}\simeq \frac{1}{r}\left( 1+ \frac{\mathbf{r}\cdot\mathbf{r}'}{r^{2}} \right)$$
 and so
 $$\rho\left( \mathbf{r}',t- \frac{\mathfrak{r}}{c} \right)\simeq \rho\left( \mathbf{r}',t- \frac{r}{c}+ \frac{\hat{\mathbf{r}}\cdot\mathbf{r}'}{c} \right)$$

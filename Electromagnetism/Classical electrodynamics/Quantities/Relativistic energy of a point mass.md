@@ -12,7 +12,7 @@ Thus, the energy a photon in the lab frame must be
 $$E^{\pm}=2\pi \hbar \nu^{\pm}=2\pi \hbar \nu_{0} \frac{1\pm v/c}{\sqrt{ 1-v^{2}/c^{2} }}=E_{0} \frac{1\pm v/c}{\sqrt{ 1-v^{2}/c^{2} }}$$
 By conservation of energy, this is total lab frame electron-positron energy too
 $$E_{e^{+}e^{-}}=\frac{E_{0}(1+v/c)}{\sqrt{ 1-v^{2}/c^{2} }}+ \frac{E_{0}(1-v/c)}{\sqrt{ 1-v^{2}/c^{2} }}=\frac{2E_{0}}{\sqrt{ 1-v^{2}/c^{2} }}=\frac{E^{0}_{e^{+}e^{-}}}{\sqrt{ 1-v^{2}/c^{2} }}\equiv E_{e^{+}e_{-}}(v)$$
- We can see how the energy is a function of velocity. To further analyze this function, we'll make a [[Serie di Taylor|Taylor series]] in $(v/c)^{2}$ centered in zero:
+ We can see how the energy is a function of velocity. To further analyze this function, we'll make a [[Taylor series|Taylor series]] in $(v/c)^{2}$ centered in zero:
 $$E_{e^{+}e^{-}}(v)=E^{0}_{e^{+}e^{+}}+ \frac{1}{2}E^{0}_{e^{+}e^{-}}\left( \frac{v}{c} \right)^{2}+O\left( \left( \frac{v}{c} \right)^{4} \right)$$
 The first term is independent of speed. It's some constant amount of energy that is intrinsic to the particles. This is the **rest energy**. The second term is quadratically dependent on velocity. Since $E^{0}_{e^{+}e^{-}}/c^{2}$ has the units of mass, we can interpret this as just the classical kinetic energy $\frac{1}{2}mv^{2}$, with the mass being determined by this now very famous formula for the rest energy due to Einstein:
 $$\boxed{E^{0}_{e^{+}e^{-}}=m_{e^{+}e^{-}}c^{2}}$$

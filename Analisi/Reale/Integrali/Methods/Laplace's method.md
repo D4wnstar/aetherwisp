@@ -9,7 +9,7 @@ where $M$ is a large constant and $f(x)$ is a twice-[[Differential|differentiabl
 
 Laplace's method can be generalized to work on [[Integrale su una curva|path integrals]] over the complex plane. This generalization is known as the **saddle point method**.
 ### Theory
-Call $x_{0}$ the global maximum of $f(x)$. We can [[Serie di Taylor|Taylor expand]] $f(x)$ around that point and stop at the second order
+Call $x_{0}$ the global maximum of $f(x)$. We can [[Taylor series|Taylor expand]] $f(x)$ around that point and stop at the second order
 $$f(x)\simeq f(x_{0})+f'(x_{0})(x-x_{0})+ \frac{1}{2}f''(x_{0})(x-x_{0})^{2}$$
 but since $x_{0}$ is a [[Punto critico|stationary point]], $f'(x_{0})=0$, so we get
 $$f(x)\simeq f(x_{0})+ \frac{1}{2}f''(x_{0})(x-x_{0})^{2}$$

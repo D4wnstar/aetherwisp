@@ -25,7 +25,7 @@ The boundary integral on the left of the second step vanishes at both bounds bec
 $$\ldots=\frac{4\nu^{3/2}}{3\sqrt{ \pi }}\int_{-\nu}^{\infty} \left( 1+ \frac{t}{\nu} \right)^{3/2} \frac{e^{t}}{(e^{t}+1)^{2}}dt=\ldots$$
 Recall that we care only about high $z$ and so high $\ln z=\nu$. This means that the lower bounds approaches negative infinity. We can therefore safely set the lower bound to $-\infty$:
 $$\ldots\simeq\frac{4\nu^{3/2}}{3\sqrt{ \pi }}\int_{-\infty}^{\infty} \left( 1+ \frac{t}{\nu} \right)^{3/2} \frac{e^{t}}{(e^{t}+1)^{2}}dt=\ldots$$
-To get a power series, we use the [[Serie di Taylor|Taylor series]] expansion about $0$ of $t/\nu$ for
+To get a power series, we use the [[Taylor series|Taylor series]] expansion about $0$ of $t/\nu$ for
 $$\left( 1+ \frac{t}{\nu} \right)^{3/2}=\sum_{n=0}^{\infty} \frac{1}{n!}\left( \frac{t}{\nu} \right)^{n} \frac{d^{n}}{d(t/\nu)^{n}}\left( 1+ \frac{t}{\nu} \right)^{3/2}= 1+ \frac{3}{2} \frac{t}{\nu}+ \frac{3}{8} \frac{t^{2}}{\nu ^{2}}+\ldots$$
 With this, we have
 $$\ldots= \frac{4\nu^{3/2}}{3\sqrt{ \pi }}\int_{-\infty}^{\infty}\left( 1+ \frac{3}{2} \frac{t}{\nu} + \frac{3}{8} \frac{t^{2}}{\nu ^{2}}+ \ldots \right) \frac{e^{t}}{(e^{t}+1)^{2}}dt=\ldots$$

@@ -37,7 +37,7 @@ Since the motion is periodic, we only need to solve for one period and then we c
 
 By looking at the integral, we can see that it is improper, as the integrand shoots up to infinity when $\psi \rightarrow \phi_{0}$. For such an integral, we can use the [[Parte principale di Cauchy|Cauchy principal part]]:
 $$\int_{0}^{\phi_{0}-\varepsilon} \frac{d\psi}{\sqrt{\cos\psi-\cos\phi_{0}}}+\int_{\phi_{0}-\varepsilon}^{\phi_{0}} \frac{d\psi}{\sqrt{\cos\psi-\cos\phi_{0}}}$$
-(without stating the limit $\varepsilon \rightarrow 0$ as it doesn't make much sense on a computer. $\varepsilon$ is nevertheless very small). The first term can be numerically solve as usual, as it has no discontinuities. In the second, we can expand the cosine in a [[Serie di Taylor|Taylor series]] about $\phi_{0}$ like
+(without stating the limit $\varepsilon \rightarrow 0$ as it doesn't make much sense on a computer. $\varepsilon$ is nevertheless very small). The first term can be numerically solve as usual, as it has no discontinuities. In the second, we can expand the cosine in a [[Taylor series|Taylor series]] about $\phi_{0}$ like
 $$\cos\psi=\cos\phi_{0}-\sin\phi_{0}(\psi-\phi_{0})- \frac{1}{2}\cos\phi_{0}(\psi-\phi_{0})^{2}+\mathcal{O}(\psi^{3})$$
 Changing variable to $z=(\phi_{0}-\psi)$ we get
 $$\int_{\phi_{0}-\varepsilon}^{\phi_{0}} \frac{d\psi}{\sqrt{\cos\psi-\cos\phi_{0}}}=\int_{0}^{\varepsilon} \frac{dz}{\sqrt{\sin\phi_{0}\ z- \cos\phi_{0}\ \frac{z^{2}}{2}}}=\ldots$$

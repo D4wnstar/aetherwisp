@@ -94,7 +94,7 @@ In one dimension, where $\mathbf{r}\to x$, we have many interesting examples.
 > $$\mathbf{x}(t;x_{0})=\begin{pmatrix}
 > x_{0}\cos t+v_{0}\sin t \\
 > -x_{0}\sin t+v_{0}\cos t
-> \end{pmatrix}=\varphi^{t}((x_{0},v_{0}))$$
+> \end{pmatrix}=\varphi^{t}(x_{0},v_{0})$$
 > where $x_{0}$ and $v_{0}$ are our starting conditions and $\varphi^{t}$ is a function from $\mathbb{R}^{2}$ to $\mathbb{R}^{2}$. The vector field is
 > $$f=\begin{pmatrix}
 > v \\

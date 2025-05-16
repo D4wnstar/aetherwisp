@@ -19,7 +19,7 @@ Now, we really only care about the state of system 1, regardless of what reservo
 $$\propto\Gamma_{2}(E_{2})d\mathbf{q}_{1}d\mathbf{p}_{1}=\Gamma_{2}(E_\text{total}-E_{1})d\mathbf{q}_{1}d\mathbf{p}_{1}$$
 since $E_{2}$ is the only state the reservoir is likely to be in at equilibrium. The density function of system 1 is going to be determined by its most likely state
 $$\rho_{1}(\mathbf{q}_{1},\mathbf{p}_{1})=\Gamma_{2}(E_\text{total}-E_{1})$$
-We want to find the number of [[Stato|microstates]] at energy $E_{1}$, and to do so we can start from the [[Entropy (information theory)|Boltzmann entropy]] formula $S(E_\text{total}-E_{1})=k_{B}\log \Gamma(E_\text{total}-E_{1})$. Remember that $E_{2}\gg E_{1}$, so we can approximate $S(E_\text{total}-E_{1})$ using a [[Serie di Taylor|Taylor series]] in $E_\text{total}-E_{1}=E_{2}$ centered in $E_\text{total}$ and truncate at the first order without much error:
+We want to find the number of [[Stato|microstates]] at energy $E_{1}$, and to do so we can start from the [[Entropy (information theory)|Boltzmann entropy]] formula $S(E_\text{total}-E_{1})=k_{B}\log \Gamma(E_\text{total}-E_{1})$. Remember that $E_{2}\gg E_{1}$, so we can approximate $S(E_\text{total}-E_{1})$ using a [[Taylor series|Taylor series]] in $E_\text{total}-E_{1}=E_{2}$ centered in $E_\text{total}$ and truncate at the first order without much error:
 $$\begin{align}
 k_{B}\log \Gamma_{2}(E_\text{total}-E_{1})&=S_{1}(E_\text{total}-E_{1}) \\
 &=S_{1}(E_\text{total})-E_{1}\left.\frac{ \partial S_{1} }{ \partial E_{2} } \right|_{E_{2}=E_\text{total}} +\ldots\\
@@ -116,7 +116,7 @@ which gives us the well-known entropy-temperature relation
 $$\frac{ \partial S }{ \partial E } (\bar{E})=\frac{1}{T}$$
 The neat part of this specific relation is that it shows that the equilibrium temperature $T$ is determined exclusively by the energy state $\bar{E}$ at which free energy is minimized. We can also examine the second derivative:
 $$\frac{ \partial ^{2}A }{ \partial E^{2} } (\bar{E})=-T \frac{ \partial ^{2}S }{ \partial E^{2} }=-T\frac{ \partial  }{ \partial E } \frac{1}{T}= -T \left( -\frac{1}{T^{2}} \right)\frac{ \partial T }{ \partial E }  =\frac{1}{TC_{V}}$$
-since the [[heat capacity]] is $C_{V}=\frac{ \partial E }{ \partial T }$. Since [[absolute temperature]] and heat capacity are both strictly positive, this is also a strictly positive quantity, which guarantees that $A(\bar{E})$ is a minimum. We can expand $A$ in a [[Serie di Taylor|Taylor series]] about $\bar{E}$ up to the second order:
+since the [[heat capacity]] is $C_{V}=\frac{ \partial E }{ \partial T }$. Since [[absolute temperature]] and heat capacity are both strictly positive, this is also a strictly positive quantity, which guarantees that $A(\bar{E})$ is a minimum. We can expand $A$ in a [[Taylor series|Taylor series]] about $\bar{E}$ up to the second order:
 $$\begin{align}
 A(E)&\simeq A(\bar{E})+\frac{ \partial A }{ \partial E } (\bar{E})(E-\bar{E})+ \frac{1}{2}\frac{ \partial ^{2}A }{ \partial E^{2} } (\bar{E})(E-\bar{E})^{2} \\
 &=A(\bar{E})+ \frac{1}{2TC_{V}}(E-\bar{E})^{2}

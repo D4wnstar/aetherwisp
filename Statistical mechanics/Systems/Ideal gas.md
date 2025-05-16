@@ -405,7 +405,7 @@ $$\begin{align}
 &=\frac{4\pi}{h^{3}}\int_{0}^{\infty}p^{2}\ln(1+ze^{-\beta p^{2}/2m})\ dp \\
 &=\ldots
 \end{align}$$
-where we used [[Spherical coordinates]] (see [[Ideal gas#Determining the parameters]] for more info). We can't solve this integral directly, but we can introduce a class of functions $f_{k}(z)$ called [[Fermi and Bose functions|Fermi functions]]. Expanding $\ln(1+x)$ in [[Serie di Taylor|Taylor series]] we find
+where we used [[Spherical coordinates]] (see [[Ideal gas#Determining the parameters]] for more info). We can't solve this integral directly, but we can introduce a class of functions $f_{k}(z)$ called [[Fermi and Bose functions|Fermi functions]]. Expanding $\ln(1+x)$ in [[Taylor series|Taylor series]] we find
 $$\begin{align}
 \ldots&=\frac{4\pi}{h^{3}}\int_{0}^{\infty}p^{2}\sum_{j=1}^{\infty} \frac{(-1)^{j+1}z^{j}e^{-j\beta\varepsilon_{p}}}{j} \\
 &=\frac{4\pi}{h^{3}}\sum_{j=1}^{\infty} \frac{(-1)^{j+1}z^{j}}{j}\int_{0}^{\infty}p^{2}e^{-j\beta p^{2}/2m} \\

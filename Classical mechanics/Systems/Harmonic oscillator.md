@@ -12,16 +12,18 @@ $$F=ma=m\ddot{x}=-kx$$
 which gives us a second-order linear differential equation
 $$\ddot{x}=- \frac{k}{m}x=-\omega^{2}x$$
 where $\omega=\sqrt{k/m}$ is the angular frequency. The general solution is of the form
-$$x(t)=A\cos(\omega t)+B\sin(\omega t)=C\cos(\omega t+\varphi)$$
-with the constants determined by the boundary conditions, as usual. This motion is periodic and the period is $T=2\pi/\omega$.
-
+$$x(t)=a\cos(\omega t)+b\sin(\omega t)=A\cos(\omega t+\varphi)$$
+with the constants determined by the boundary conditions, as usual. The constants $a$ and $b$ are interpreted as the starting position $a=x_{0}$ and the starting velocity divided by the angular velocity $b=v_{0}/\omega$. $A$ on the other hands is the [[Wave equation|amplitude]] of oscillation and $\varphi$ is the starting [[phase]]. With more meaningful notation, we can write
+$$\boxed{x(t)=x_{0}\cos(\omega t)+ \frac{v_{0}}{\omega}\sin(\omega t)=A\cos(\omega t+\varphi)}$$
+This motion is periodic and the period is $T=2\pi/\omega$. Taking the derivative, we also get the speed
+$$\boxed{v(t)=-\omega x_{0}\sin \omega t+v_{0}\cos \omega t}$$
 The velocity and acceleration oscillate with the same frequency, but have a different phase from the position. In particular, the velocity is minimal when the displacement is maximal, and vice versa.
 
-The oscillator has [[Potential|potential]] energy in position $x$ equal to
-$$V=\frac{1}{2}kx^{2}\tag{1}$$
-and the force is conservative.
+The oscillator has elastic [[Potential|potential]] energy in position $x$ equal to
+$$V=\frac{1}{2}kx^{2}=\frac{1}{2}m\omega ^{2}x^{2}\tag{1}$$
+and the force is [[Vector field|conservative]].
 ### Approximations
-The harmonic oscillator is extremely important because _any_ potential $V(x)$ associated with an oscillatory motion can be approximated as a parabola of the form $(1)$ as long as the oscillation is small. To demonstrate this, we expand $V(x)$ in a [[Serie di Taylor|Taylor series]] centered at a local minimum $x_{0}$:
+The harmonic oscillator is extremely important because _any_ potential $V(x)$ associated with an oscillatory motion can be approximated as a parabola of the form $(1)$ as long as the oscillation is small. To demonstrate this, we expand $V(x)$ in a [[Taylor series|Taylor series]] centered at a local minimum $x_{0}$:
 $$V(x)=V(x_{0})+V'(x_{0})(x-x_{0})+ \frac{1}{2}V''(x_{0})(x-x_{0})^{2}+O(x^{3})$$
 Since the constant $V(x_{0})$ vanishes by deriving to obtain the force, we can subtract it without loss of generality. Furthermore, since $x_{0}$ is a [[critical point]], $V'(x_{0})=0$. Thus, we are left with the exact form
 $$V(x)=\frac{1}{2}V''(x_{0})(x-x_{0})^{2}+O(x^{3})$$

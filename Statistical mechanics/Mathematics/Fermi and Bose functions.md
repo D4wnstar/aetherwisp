@@ -23,7 +23,7 @@ Although it does not appear in the definition, due to the physical constraints i
 ### Origin
 These functions are convenience functions defined from integrals that occur in [[quantum statistical mechanics]] when dealing with [[Fermion|fermions]] and [[Boson|bosons]]. They appear, for instance, in the [[equation of state]] of a quantum [[ideal gas]] in both the [[quantum microcanonical ensemble]] and the [[quantum grand canonical ensemble]] derivations. For example, in the latter, they come up when taking the derivative of the [[Partition function|grand canonical partition function]] $\mathcal{Z}$ in the [[thermodynamic limit]]:
 $$\ln \mathcal{Z}=\frac{4\pi V}{h^{3}}\int_{0}^{\infty}p^{2}\ln(1+ze^{-\beta \varepsilon_{p}})dp$$
-This integral can't be solved analytically, but we can expand $\ln(1+x)$ in a [[Serie di Taylor|Taylor series]] about $0$ to find
+This integral can't be solved analytically, but we can expand $\ln(1+x)$ in a [[Taylor series|Taylor series]] about $0$ to find
 $$\begin{align}
 \frac{1}{V}\ln \mathcal{Z}&=\frac{4\pi}{h^{3}}\int_{0}^{\infty}p^{2}\sum_{j=1}^{\infty} \frac{(-1)^{j+1}z^{j}e^{-j\beta\varepsilon_{p}}}{j} \\
 &=\frac{4\pi}{h^{3}}\sum_{j=1}^{\infty} \frac{(-1)^{j+1}z^{j}}{j}\int_{0}^{\infty}p^{2}e^{-j\beta p^{2}/2m} \\

@@ -25,7 +25,7 @@ $$\begin{align}
 \end{align}$$
 The ratio of partition functions is
 $$\frac{Q_{N_{2}}(V_{2},T)}{Q_{N}(V,T)}=e^{-\beta[A(N-N_{1},V-V_{1},T)-A(N,V,T)]}$$
-where $A$ is the [[Helmholtz free energy]]. Using the fact that $N_{1}\ll N_{2}$ and $V_{1}\ll V_{2}$, which means $N_{2}\simeq N$ and $V_{2}\simeq V$, we can use a [[Serie di Taylor|Taylor series]] in two dimensions to approximate $A$ around $N$ and $V$, so that we get a first order approximation
+where $A$ is the [[Helmholtz free energy]]. Using the fact that $N_{1}\ll N_{2}$ and $V_{1}\ll V_{2}$, which means $N_{2}\simeq N$ and $V_{2}\simeq V$, we can use a [[Taylor series|Taylor series]] in two dimensions to approximate $A$ around $N$ and $V$, so that we get a first order approximation
 $$\begin{align}
 A(N-N_{1},V-V_{1},T)&\simeq A(N,V,T)+\left.\frac{ \partial A }{ \partial N }\right|_{V,T} (N-N_{1}-N)+ \left.{\frac{ \partial A }{ \partial V } }\right|_{N,T}(V-V_{1}-V) \\
 &=A(N,V,T)-\mu N_{1}+PV_{1}
