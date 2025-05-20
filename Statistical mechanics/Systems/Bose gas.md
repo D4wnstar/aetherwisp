@@ -37,7 +37,7 @@ Curious selection of functions aside, we can invert the formula to find the crit
 $$\boxed{T_{C}=\frac{1}{k_{B}}\left[ \frac{N}{C_{\alpha}\Gamma(\alpha)\zeta(\alpha)} \right]^{1/\alpha}}$$
 In the 3D case $d=3\to \alpha=3/2$ we get
 $$T_{C}=\frac{1}{k_{B}} \frac{N^{2/3}}{\left[ \frac{Vm^{3/2}}{\sqrt{ 2 }\pi ^{2}\hbar ^{3}}\Gamma\left( \frac{3}{2} \right)\zeta\left( \frac{3}{2} \right) \right]^{2/3}}=\frac{1}{k_{B}}\frac{2\pi}{\left[ \zeta\left( \frac{3}{2} \right) \right]^{2/3}} \frac{\hbar^{2}n^{2/3}}{m}$$
-using the density $n=N/V$. This is a finite number, which proves that a free boson gas can condense. With realistic numbers for an [[Atomo|atomic]] gas, we get a value of around $\sim 100$ nanokelvins[^3].
+using the density $n=N/V$. This is a finite number, which proves that a free boson gas can condense. With realistic numbers for an [[Atom|atomic]] gas, we get a value of around $\sim 100$ nanokelvins[^3].
 
 In both the 1D and 2D case, $\alpha\leq 1$ and since $\zeta(\alpha)\to \infty$ for $\alpha\leq 1$, this gives $T_{C}\to0$ for these dimensions. Evidently, bosons cannot condense in 1 or 2 dimensions.
 #### Condensed to not condensed ratio

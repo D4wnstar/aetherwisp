@@ -9,7 +9,7 @@ Esistono tre tipi principali di decadimento:
 - **decadimento $\alpha$**
 - **decadimento $\beta$**
 - **decadimento $\gamma$**
-Nei decadimenti $\alpha$ e $\beta$, un [[nuclide]] emette una particella $\alpha$ o $\beta$ per diventare più stabile, ossia avvicinarsi all'[[isobaro]] più stabile del [[Atomo|numero di massa atomica]] risultante. Nel decadimento $\gamma$, uno stato eccitato emette radiazione $\gamma$ per tornare allo stato fondamentale, senza cambiare la specie nucleare. Vedi le loro pagine: [[Decadimento Alpha]], [[Decadimento Beta]], [[Decadimento Gamma]].
+Nei decadimenti $\alpha$ e $\beta$, un [[nuclide]] emette una particella $\alpha$ o $\beta$ per diventare più stabile, ossia avvicinarsi all'[[isobaro]] più stabile del [[Atom|numero di massa atomica]] risultante. Nel decadimento $\gamma$, uno stato eccitato emette radiazione $\gamma$ per tornare allo stato fondamentale, senza cambiare la specie nucleare. Vedi le loro pagine: [[Decadimento Alpha]], [[Decadimento Beta]], [[Decadimento Gamma]].
 ### Fissione spontanea
 Esiste un quarto tipo di decadimento, un po' diverso dagli altri, detto **[[fissione spontanea]]** che accade per nuclei molto pesanti ($Z\geq110$). Questi nuclei fissionano spontaneamente senza che la reazione sia indotta. Un nucleo pesante, come l'uranio, si divide in due più leggeri che, a differenza degli altri decadimenti non sono ben determinati. I nuclei in cui si può rompere sono un intero intervallo centrato attorno ad un peso medio, di cui si può misurare la distribuzione di probabilità.
 

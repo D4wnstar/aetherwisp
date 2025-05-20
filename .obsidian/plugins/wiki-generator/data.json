@@ -12,13 +12,16 @@
     "Psicologia"
   ],
   "localExport": false,
-  "ignoreUsers": false,
+  "cloneRemoteUsers": false,
   "githubUsername": "",
   "githubRepoName": "",
   "githubRepoToken": "",
   "githubAutoapplyUpdates": true,
-  "githubCheckUpdatesOnStartup": false,
+  "githubCheckUpdatesOnStartup": true,
+  "lastTemplateUpdate": "",
   "dbUrl": "libsql://physics-notes-d4wnstar.aws-eu-west-1.turso.io",
   "dbToken": "eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJhIjoicnciLCJpYXQiOjE3NDY4MTY3MjcsImlkIjoiYjJkNjViYjYtNDgwOS00OTM1LWI5OTktOTRlY2EzNTg2YmIyIiwicmlkIjoiN2EzMWIzMTAtYmY3My00YTQ1LWIwM2QtMWIwY2JkYjAxNDYxIn0._gh-P_0_RzBcnzq4a8Zo-bwfS07D8e8BgAu119T-IvmhVEzgrvt6paFcAp0t6iECLstVGSDPakuTS_712goGDg",
-  "deployHook": "https://api.vercel.com/v1/integrations/deploy/prj_a6HlSUeiHLn2LAquCj7XAYbbIhNN/6gda8RXhG8"
+  "deployHook": "https://api.vercel.com/v1/integrations/deploy/prj_a6HlSUeiHLn2LAquCj7XAYbbIhNN/6gda8RXhG8",
+  "deployOnSync": true,
+  "ignoreUsers": false
 }

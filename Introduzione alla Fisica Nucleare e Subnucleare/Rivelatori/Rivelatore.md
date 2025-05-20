@@ -7,6 +7,6 @@ L'esatto meccanismo di un rivelatore dipende dal tipo specifico di sensore che v
 
 La proprietà più comune e utile per rivelare le particelle è la carica. In caso di particelle neutre, come i [[neutrone|neutroni]], è necessario usare l'[[interazione forte]] o quella [[Interazione debole|debole]] e poi trasferire quell'energia a particelle cariche per saranno a loro volta rivelate.
 
-In generale, i metodi di interazione radiazione-materia che costituiscono la perdita di energia sono la ionizzazione, ossia l'eccitazione degli [[Atomo|atomi]] descritta dalla [[Potere frenante|formula di Bethe-Bloch]], e il [[Bremmstrahlung]], specialmente nel caso di particelle molto leggere, come l'[[elettrone]].
+In generale, i metodi di interazione radiazione-materia che costituiscono la perdita di energia sono la ionizzazione, ossia l'eccitazione degli [[Atom|atomi]] descritta dalla [[Potere frenante|formula di Bethe-Bloch]], e il [[Bremmstrahlung]], specialmente nel caso di particelle molto leggere, come l'[[elettrone]].
 
 Il rivelatore interagisce anche in altri modi che, sebbene non siano molto rilevanti nel calcolo della perdita di energia, sono utili per avere altre informazioni sulle proprietà della particella. I due più importanti sono la [[radiazione Cherenkov]] (per la velocità) e la [[radiazione di transizione]].

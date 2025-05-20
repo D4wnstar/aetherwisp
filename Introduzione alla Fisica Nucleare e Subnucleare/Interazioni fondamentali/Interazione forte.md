@@ -1,7 +1,7 @@
 ---
 wiki-publish: true
 ---
-L'**interazione forte** è l'[[interazione fondamentale]] che lega i [[quark]] fra di loro per creare [[Particella|particelle]] composite come gli [[adrone|adroni]]. Dato che la materia è composta da [[atomo|atomi]], i cui [[Nucleo atomico|nuclei]] sono composti da [[Protone|protoni]] e [[neutrone|neutroni]], che a loro volta sono composti da quark, l'interazione forte è responsabile della stabilità di tutta la materia nucleare dell'Universo.
+L'**interazione forte** è l'[[interazione fondamentale]] che lega i [[quark]] fra di loro per creare [[Particella|particelle]] composite come gli [[adrone|adroni]]. Dato che la materia è composta da [[Atom|atomi]], i cui [[Nucleo atomico|nuclei]] sono composti da [[Protone|protoni]] e [[neutrone|neutroni]], che a loro volta sono composti da quark, l'interazione forte è responsabile della stabilità di tutta la materia nucleare dell'Universo.
 
 L'interazione forte agisce mediante lo scambio di un [[gluone]].
 ### Costante di accoppiamento

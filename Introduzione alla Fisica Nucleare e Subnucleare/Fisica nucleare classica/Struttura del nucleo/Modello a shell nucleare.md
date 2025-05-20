@@ -3,7 +3,7 @@ wiki-publish: true
 aliases:
   - shell
 ---
-Il **modello a shell** è un modello del [[nucleo atomico]]. Da non confondere con il modello a shell dell'[[atomo]] stesso, che tratta degli [[Elettrone|elettroni]]. Ha i seguenti presupposti:
+Il **modello a shell** è un modello del [[nucleo atomico]]. Da non confondere con il modello a shell dell'[[Atom]] stesso, che tratta degli [[Elettrone|elettroni]]. Ha i seguenti presupposti:
 1. ogni [[nucleone]] occupa un livello di energia ben preciso all'interno di una *shell*.
 2. i nucleoni si muovono nel nucleo sottoposti ad un [[Potential]] *medio*.
 3. il potenziale medio ha origine dagli altri nucleoni.
@@ -82,7 +82,7 @@ Per nuclidi con $Z$ e $N$ dispari, lo spin totale si ottiene come da norma per u
 Ad esempio, $^{6}_{3}Li_{3}$ ha sia un protone che un neutrone spaiato in $1p_{3/2}$, quindi ha $l_{1}=l_{2}=l=1$. Allora la parità sarà $(-1)^{1+1}=1$. Lo spin invece è tra $|3/2-3/2|=0$ e $3/2+3/2=3$, quindi può avere i valori di 0, 1, 2 o 3. In totale, gli stati possibili sono
 $$J^{P}=0^{+},\,1^{+},\,2^{+},\,3^{+}$$
 ### Transizione di stato
-Così come per gli elettroni, anche i nucleoni possono compiere una [[transizione di stato]] per salire o scendere di shell. Un nucleone può salire ad uno stato eccitato in due modi:
+Così come per gli elettroni, anche i nucleoni possono compiere una [[State transition]] per salire o scendere di shell. Un nucleone può salire ad uno stato eccitato in due modi:
 1. per eccitazione del nucleone spaiato nella sottoshell successiva.
 2. per accoppiamento di questo nucleone con un altro che provenga da una sottoshell più interna.
 

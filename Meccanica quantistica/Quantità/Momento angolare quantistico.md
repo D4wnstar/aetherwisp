@@ -28,7 +28,7 @@ $$\begin{align}
 \end{align}$$
 (per le altre componenti basta compiere una permutazione ciclica come sopra). In una forma più compatta, si ha
 $$[L^{2},\vec{L}]=0$$
-Ciò significa che è possibile trovare [[Stato stazionario|autostati]] simultanei di $L^{2}$ e (per esempio) $L_{z}$.
+Ciò significa che è possibile trovare [[Stationary state|autostati]] simultanei di $L^{2}$ e (per esempio) $L_{z}$.
 ### Autovalori
 Per trovare gli autovalori, usiamo un approccio simile a quello dell'[[oscillatore armonico quantistico]], usando degli [[operatori di creazione e distruzione]]. Definiamo
 $$L_{\pm}\equiv L_{x}\pm iL_{y}$$

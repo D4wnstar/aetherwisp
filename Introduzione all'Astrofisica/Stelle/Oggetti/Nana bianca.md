@@ -18,7 +18,7 @@ Nel caso teorico di una nana bianca da stella poco massiva, si avrebbe invece un
 
 È possibile ottenere una stima del raggio di una nana bianca risolvendo tre delle [[equazioni della struttura stellare]]: equilibrio idrostatico, continuità di massa e equazione di stato dei gas perfetti. Le altre due, produzione energetica e trasporto radiativo, non sono rilevanti dato che la stella non produce più energia e dissipa e basta. La stima è
 $$R=0.114 \frac{h^{2}}{Gm_{e}(\mu_{e}m_{p})^{5/3}}M_{\star}^{-1/3}$$
-con $G$ la [[costante gravitazionale]], $m_{e}$ e $m_{p}$ la massa dell'[[elettrone]] e del [[protone]], $M_{\star}$ la massa della nana bianca. $\mu_{e}$ è il peso molecolare medio del gas, che possiamo assumere pari a due dato che i metalli hanno un numero di elettroni circa pari alla metà del loro [[Atomo|numero di massa atomica]]. In forma puramente numerica si ha
+con $G$ la [[costante gravitazionale]], $m_{e}$ e $m_{p}$ la massa dell'[[elettrone]] e del [[protone]], $M_{\star}$ la massa della nana bianca. $\mu_{e}$ è il peso molecolare medio del gas, che possiamo assumere pari a due dato che i metalli hanno un numero di elettroni circa pari alla metà del loro [[Atom|numero di massa atomica]]. In forma puramente numerica si ha
 $$R=\left(\frac{M_{\star}}{M_{\odot}}\right)^{-1/3}8.9\times10^{8}\text{ cm}$$
 
 Il tempo di raffreddamento di una nana bianca è dato dal rapporto tra energia termica totale $K$ e la sua [[luminosità]] $L$:

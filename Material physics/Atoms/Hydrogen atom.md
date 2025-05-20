@@ -9,7 +9,7 @@ The **hydrogen atom** is the [[atom]] of the element hydrogen, a quantum [[physi
 
 The [[Hamiltonian]] for the [[Equazione di Schrödinger|Schrödinger equation]] of the hydrogen atom is
 $$\hat{H}=- \frac{\hbar^{2}}{2M}\nabla ^{2}_{R}- \frac{\hbar^{2}}{2m}\nabla^{2}_{r}- \frac{Ze^{2}}{4\pi \varepsilon_{0}r}$$
-where $M$ is the [[mass]] of the nucleus, $m$ is the mass of the electron, $\hbar$ is the [[Planck constant|reduced Planck constant]], $Z$ is the [[Atomo|atomic number]] (the number of protons), $\varepsilon_{0}$ is the [[Vacuum permittivity|electric permittivity of the vacuum]] and $r$ is the distance of the electron from the nucleus. The last term is the [[potential energy]] due to [[Interazione elettromagnetica|electromagnetic attraction]]. This Hamiltonian is not explicitly dependent on the [[spin]] of the electron.
+where $M$ is the [[mass]] of the nucleus, $m$ is the mass of the electron, $\hbar$ is the [[Planck constant|reduced Planck constant]], $Z$ is the [[Atom|atomic number]] (the number of protons), $\varepsilon_{0}$ is the [[Vacuum permittivity|electric permittivity of the vacuum]] and $r$ is the distance of the electron from the nucleus. The last term is the [[potential energy]] due to [[Interazione elettromagnetica|electromagnetic attraction]]. This Hamiltonian is not explicitly dependent on the [[spin]] of the electron.
 ### In spherical coordinates
 Since we have a central potential, it is best to rewrite the equation in [[spherical coordinates]], as we have a general solution for the equation in this form. We can do so by introducing the [[Momento angolare quantistico|quantum angular momentum]] $\hat{L}=\hat{r}\times \hat{p}=-i\hbar (\hat{r}\times \nabla)$[^1] and rewriting in the [[frame of reference]] of the [[center of mass]]. We define the reduced mass as
 $$\mu=\frac{Mm}{M+m}$$
@@ -82,7 +82,7 @@ This ratio is the same as that of the series for $\rho^{p}e^{\rho}$ for some $p 
 $$n\equiv n_{r}+l+1$$
 and of course $n=\lambda$.
 #### Eigenvalues
-Since we know what $\lambda$ is, we can extract $E$ out of it, substitute $\lambda$ for $n$ and get the [[Stato stazionario|energy eigenvalues]]:
+Since we know what $\lambda$ is, we can extract $E$ out of it, substitute $\lambda$ for $n$ and get the [[Stationary state|energy eigenvalues]]:
 $$E_{n}=- \frac{1}{2n^{2}}\left( \frac{Ze^{2}}{4\pi \varepsilon_{0}} \right) \frac{\mu}{\hbar ^{2}}=- \frac{e^{2}}{4\pi \varepsilon_{0}a_{0}} \frac{\mu}{m} \frac{Z^{2}}{2n^{2}}=- \frac{e^{2}}{4\pi \varepsilon_{0}a_{\mu}} \frac{Z^{2}}{2n^{2}}$$
 where we defined $a_{0}$ as the [[Bohr radius]] and $a_{\mu}=a_{0} (m/\mu)$ as the modified Bohr radius. Notably, the energy eigenvalues are *not* (directly) dependent on $l$. This means that the energy eigenstates are [[Degenerazione|degenerate]] in $l$ too, no just $m$. Notably, these are identical to semiclassical Bohr model of the atom. Next stop: eigenstates.
 #### Eigenstates

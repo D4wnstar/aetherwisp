@@ -49,7 +49,7 @@ This can be applied to an [[ideal gas]]. A homogeneous, ideal gas in three dimen
 $$\langle H \rangle =\frac{3N}{2}k_{B}T$$
 and has constant-volume [[heat capacity]]
 $$C_{V}=\frac{3}{2}Nk_{B}$$
-and [[specific heat]] by [[Atomo|atom]]
+and [[specific heat]] by [[Atom|atom]]
 $$c_{N}=\frac{C_{V}}{N}=\frac{3}{2}k_{B}$$
 
 If the ideal gas is subject to a harmonic [[Potential|potential]], the equations become

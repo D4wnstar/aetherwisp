@@ -43,7 +43,7 @@ $$p_{e}^{2}c^{2}=(E_{0}-E_{\gamma}\cos \theta )^{2}+E_{\gamma}^{2}\sin ^{2}\thet
 $$E_{0}+mc^{2}=E_{\gamma}+E_{e}=E_{\gamma}+\sqrt{ m^{2}c^{4}+E_{0}^{2}-2E_{0}E_{\gamma}\cos \theta+E_{\gamma}^{2} }$$
 Extracting the energy of the photon we find
 $$E_{\gamma}=\frac{1}{\frac{1-\cos\theta}{mc^{2}}+ \frac{1}{E_{0}}}$$
-and by applying [[Formula di Planck|Planck's formula]] $E_{\gamma}=h\nu=hc/\lambda$ (since the [[wavelength]] is $\lambda=c/\nu$) we get
+and by applying [[Planck formula|Planck's formula]] $E_{\gamma}=h\nu=hc/\lambda$ (since the [[wavelength]] is $\lambda=c/\nu$) we get
 $$\frac{hc}{\lambda}=\frac{1}{\frac{1-\cos\theta}{mc^{2}}+ \frac{1}{E_{0}}}$$
 where we also found the initial, pre-scattering wavelength $\lambda_{0}=E_{0}/hc$ with the same formula. With some rearrangement we can extract the wavelength
 $$\lambda=hc\left( \frac{1-\cos\theta}{mc^{2}}+ \frac{\lambda_{0}}{hc} \right)$$

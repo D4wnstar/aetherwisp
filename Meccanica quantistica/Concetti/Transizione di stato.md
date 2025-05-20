@@ -1,5 +1,0 @@
----
-wiki-publish: true
----
-Una **transizione di stato**, in meccanica quantistica, è lo spostamento di una [[Particella]] da uno [[stato stazionario]] di energia ad un altro, che può essere superiore o inferiore. Durante una transizione ad uno stato ad energia superiore, la particella deve assorbire energia da una fonte (per esempio un [[Photon]]); viceversa, transitando ad uno stato ad energia inferiore la particella emette energia, solitamente sotto forma di un fotone. L'energia assorbita o emessa è sempre pari alla differenza di energia tra i due stati, ossia chiamando $E_{i}$ e $E_{f}$ l'energia dello stato iniziale e finale, l'energia emessa è
-$$E_{\text{trasmissione}}=-\Delta E=E_{i}-E_{f}$$

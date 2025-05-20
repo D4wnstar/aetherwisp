@@ -77,7 +77,7 @@ $$\boxed{\Psi(\mathbf{r},t)=\sum\limits_{n=1}^{\infty}c_{n}\psi_{n}(\mathbf{r})e
 #### Coordinate sferiche
 A differenza del caso unidimensionale, possiamo ripetere di nuovo la separazione delle variabili per suddividere ancora la funzione d'onda in due componenti: una radiale e una angolare. Allora chiediamo che la funzione d'onda tempo-indipendente abbia soluzioni della forma
 $$\psi(r,\theta,\phi)=R(r)Y(\theta,\phi)\tag{4}$$
-Esprimo l'equazione di Schrödinger tempo-indipendente in coordinate sferiche, dato che molti sistemi quantistici hanno potenziale a simmetrica sferica (come i modelli di [[atomo]]):
+Esprimo l'equazione di Schrödinger tempo-indipendente in coordinate sferiche, dato che molti sistemi quantistici hanno potenziale a simmetrica sferica (come i modelli di [[Atom]]):
 $$- \frac{\hbar^{2}}{2m}\left[\frac{1}{r^{2}}\frac{\partial }{\partial r}\left(r^{2}\frac{\partial \psi}{\partial r}\right)+ \frac{1}{r^{2}\sin\theta}\frac{\partial }{\partial \theta}\left(\sin\theta \frac{\partial \psi}{\partial \theta}\right)+ \frac{1}{r^{2}\sin^{2}\theta}\left(\frac{\partial ^{2}\psi}{\partial \phi^{2}}\right)\right] + V\psi=E\psi$$
 e sostituendo la $(4)$ troviamo
 $$- \frac{\hbar^{2}}{2m}\left[\frac{Y}{r^{2}}\frac{\partial }{\partial r}\left(r^{2}\frac{\partial R}{\partial r}\right)+ \frac{R}{r^{2}\sin\theta}\frac{\partial }{\partial \theta}\left(\sin\theta \frac{\partial Y}{\partial \theta}\right)+ \frac{R}{r^{2}\sin^{2}\theta}\left(\frac{\partial ^{2}Y}{\partial \phi^{2}}\right)\right] + VRY=ERY$$

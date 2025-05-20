@@ -4,7 +4,7 @@ aliases:
   - insulator
   - linear dielectric
 ---
-A **dielectric** or **insulator** is a material in which all [[Electric charge|electric charges]] are bound to a specific [[Atomo|atom]] or [[molecule]] and cannot move far from it. There are no free charges.
+A **dielectric** or **insulator** is a material in which all [[Electric charge|electric charges]] are bound to a specific [[Atom|atom]] or [[molecule]] and cannot move far from it. There are no free charges.
 ### Behavior under an electric field
 #### Atoms
 The simplest possible dielectric is a single atom, with a positively charged [[Nucleo atomico|atomic nucleus]] and a negatively charged [[Elettrone|electron]] cloud surrounding it. When subject to an [[electric field]], the nucleus and electron cloud move in opposite direction, as one is attracted by the field and the other is repelled. With a strong enough field, the electrons can be ripped from the nucleus, thus [[ionizzazione|ionizing]] the atom, but for milder fields, a state of equilibrium is reached.

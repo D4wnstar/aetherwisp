@@ -1,7 +1,7 @@
 ---
 wiki-publish: true
 ---
-La **fusione nucleare** è il processo per il quale i [[Nucleo atomico|nuclei]] di due [[atomo|atomi]] si fondono fra loro, creando un nuovo atomo combinato. Per accadere richiede temperature e pressioni estremamente alte. Il nucleo delle [[Stella|stelle]], ad esempio, ha le condizioni adatte per far avvenire la reazione, sebbene siano poco efficienti.
+La **fusione nucleare** è il processo per il quale i [[Nucleo atomico|nuclei]] di due [[Atom|atomi]] si fondono fra loro, creando un nuovo atomo combinato. Per accadere richiede temperature e pressioni estremamente alte. Il nucleo delle [[Stella|stelle]], ad esempio, ha le condizioni adatte per far avvenire la reazione, sebbene siano poco efficienti.
 
 La fusione nucleare non produce sempre un surplus di energia. Il processo è energeticamente vantaggioso finché l'[[energia di legame]] per [[nucleone]] del nucleo figlia è superiore a quello dei nuclei madri. Questo è vero fino al ferro ($A=56$). Oltre ad esso, è un deficit netto di energia e dunque non è auto-sostenibile. Ciò significa che la fusione nucleare può produrre spontaneamente elementi solo fino al ferro, mentre per tutti gli elementi più pesanti c'è bisogno di qualche altro processo che produce quantità di energia considerevolmente più grandi.
 ## Processi
@@ -43,7 +43,7 @@ $$ T_{0} = \left( \frac{3}{2} \right)^{3}\left( \frac{4\pi^{2}q_{1}q_{2}}{h} \ri
 dove $T_{0}$ è una temperatura di scala. $m$ in questo caso è la massa ridotta $m=m_{1}m_{2}/m_{1}+m_{2}$, dato che il nucleo è composto da particelle diverse (idrogeno, elio, etc...).
 ### Considerazioni
 Da questa equazione si possono fare alcune considerazioni:
-- $T_{0}$ cresce come $m(q_{1}q_{2})^{2}$, il che vale a dire che il cresce come $AZ^{4}$ in termini di [[Atomo|numero di massa atomica]] e [[Atomo|numero atomico]]. La temperatura minima cresce molto rapidamente usando atomi più pesanti dell'idrogeno.
+- $T_{0}$ cresce come $m(q_{1}q_{2})^{2}$, il che vale a dire che il cresce come $AZ^{4}$ in termini di [[Atom|numero di massa atomica]] e [[Atom|numero atomico]]. La temperatura minima cresce molto rapidamente usando atomi più pesanti dell'idrogeno.
 - Anche per l'idrogeno $T_{0}$ è molto alta: con $q_{1}=q_{2}=e$ e $m=m_{p}/2$ si ha $T_{0}=3.8\times10^{10}$ K. Poche stelle hanno temperature interne così alte. Il Sole, ad esempio, ha temperatura intera di $1.5\times10^{7}$ K. La fusione nucleare accade quindi con probabilità molto bassa e, dunque, molto lentamente.
 - L'efficienza della reazione cresce molto rapidamente con la temperatura. Reattori a temperatura più alta produrranno esponenzialmente più energia che reattori a temperatura più bassa.
 ## Creazione di elementi

@@ -1,7 +1,7 @@
 ---
 wiki-publish: true
 ---
-La **spettroscopia di massa** è una tecnica per misure ad alta precisione ($\sim10^{-6}u$, con $u$ unità di massa atomica) della massa atomica di un [[atomo]]. Lo strumento in sé è detto **spettrometro di massa**.
+La **spettroscopia di massa** è una tecnica per misure ad alta precisione ($\sim10^{-6}u$, con $u$ unità di massa atomica) della massa atomica di un [[Atom]]. Lo strumento in sé è detto **spettrometro di massa**.
 ### Funzionamento
 Uno spettrometro di massa è tradizionalmente composto da tre componenti: una *sorgente di ioni* e due *selettori*.
 

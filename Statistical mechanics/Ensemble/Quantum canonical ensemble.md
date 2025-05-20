@@ -3,7 +3,7 @@ wiki-publish: true
 ---
 The **quantum canonical ensemble** is the quantum extension of the [[canonical ensemble]]. It is defined through the [[Matrice di densità|density matrix]]
 $$\hat{\rho}=e^{-\beta \hat{H}}$$
-where $\hat{H}$ is the [[Hamiltonian]] of the [[Physical system|system]] and $\beta=1/k_{B}T$, with $k_{B}$ the [[Boltzmann constant]] and $T$ the [[temperature]]. The elements of the matrix in the [[Stato stazionario|energy eigenstate]] [[base|basis]] are $\rho_{n}=e^{-\beta E_{n}}$, where $E_{n}$ are the energy [[Equazione agli autovalori|eigenvalues]].
+where $\hat{H}$ is the [[Hamiltonian]] of the [[Physical system|system]] and $\beta=1/k_{B}T$, with $k_{B}$ the [[Boltzmann constant]] and $T$ the [[temperature]]. The elements of the matrix in the [[Stationary state|energy eigenstate]] [[base|basis]] are $\rho_{n}=e^{-\beta E_{n}}$, where $E_{n}$ are the energy [[Equazione agli autovalori|eigenvalues]].
 ### Partition function
 The [[partition function]] is
 $$Q_{N}=\text{Tr}(\hat{\rho})=\sum_{n}e^{-\beta E_{n}}$$

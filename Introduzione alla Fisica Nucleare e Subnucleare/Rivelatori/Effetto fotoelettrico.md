@@ -1,7 +1,7 @@
 ---
 wiki-publish: true
 ---
-L'**effetto fotoelettrico** è un fenomeno di assorbimento di [[radiazione elettromagnetica]] da parte di un materiale con seguente [[ionizzazione]] di un [[atomo]] ed emissione di un [[elettrone]] libero. Un [[Photon]] incidente su un mezzo viene assorbito da uno degli elettroni di un atomo, il quale ottiene sufficiente energia da poter uscire dallo [[Stati in meccanica quantistica|stato legato]] attorno al [[Nucleo atomico|nucleo]].
+L'**effetto fotoelettrico** è un fenomeno di assorbimento di [[radiazione elettromagnetica]] da parte di un materiale con seguente [[ionizzazione]] di un [[Atom]] ed emissione di un [[elettrone]] libero. Un [[Photon]] incidente su un mezzo viene assorbito da uno degli elettroni di un atomo, il quale ottiene sufficiente energia da poter uscire dallo [[Stati in meccanica quantistica|stato legato]] attorno al [[Nucleo atomico|nucleo]].
 ### Meccanismo
 Il processo può essere schematizzato come
 $$\gamma+X \rightarrow X^{+}+e^{-}$$
@@ -11,7 +11,7 @@ L'assorbimento del fotone, e quindi l'effetto fotoelettrico, può avvenire solo 
 
 Si trova che la [[sezione d'urto]] fotoelettrica di un materiale omogeneo è
 $$\sigma_{FE}\simeq\left(\frac{m_{e}c^{2}}{E_{\gamma}}\right)^{3}Z^{5}$$
-con $Z$ il [[Atomo|numero atomico]] del materiale. Si nota subito l'estrema dipendenza dal numero atomico. Di atomi pesanti sono dunque più soggetti a effetto fotoelettrico di diversi ordini di grandezza. Dalla dipendenza inversa dall'energia del fotone possiamo dedurre che l'effetto sia più importante per fotoni a bassa energia.
+con $Z$ il [[Atom|numero atomico]] del materiale. Si nota subito l'estrema dipendenza dal numero atomico. Di atomi pesanti sono dunque più soggetti a effetto fotoelettrico di diversi ordini di grandezza. Dalla dipendenza inversa dall'energia del fotone possiamo dedurre che l'effetto sia più importante per fotoni a bassa energia.
 ### In meccanica quantistica
 La scoperta e spiegazione di Einstein dell'effetto fotoelettrico ha avuto un profondo effetto nel confermare la teoria quantistica di Planck. Nell'ipotesi che l'energia del fotone sia effettivamente $\hbar \omega$, con $\hbar$ la [[Planck constant|costante di Planck ridotta]], è possibile misurare il [[Electric potential|potenziale elettrico]] necessario in un circuito (simile ad un LED) per impedire che un elettrone venga scambiato dal polo negativo al polo positivo (anodo e catodo). Vale la relazione
 $$\hbar \omega-W=-eV_\text{stop}$$

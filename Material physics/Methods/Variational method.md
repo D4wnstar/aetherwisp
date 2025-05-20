@@ -5,7 +5,7 @@ The **variational method** is a method of finding approximate solution to quantu
 ### Method
 Consider some time-independent Hamiltonian $H$ of a function $\phi$ which can vary freely, called a **trial function**. We define the [[Functional]]:
 $$E(\phi)=\frac{\braket{ \phi | H|\phi }}{\braket{ \phi | \phi } } $$
-This is the [[mean]] value of $E$ in the state $\ket{\phi}$. As usual, if $\ket{\phi}$ is an eigenstate, then $E(\phi)$ is an [[Stato stazionario|energy eigenvalue]]. The heart of the method is this:
+This is the [[mean]] value of $E$ in the state $\ket{\phi}$. As usual, if $\ket{\phi}$ is an eigenstate, then $E(\phi)$ is an [[Stationary state|energy eigenvalue]]. The heart of the method is this:
 
 > [!info] Variational principle
 > Every function for which $E(\phi)$ is stationary, that is, $dE(\phi)/d\phi=0$, is an eigenfunction of $H$.

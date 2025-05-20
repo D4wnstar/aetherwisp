@@ -10,6 +10,6 @@ $$V(r)=- \frac{V_{0}}{1+e^{(r-R)/a}}$$
 dove
 - $V_{0}$ è la profondità della buca di potenziale, misurata tipicamente a $\sim50$ [[Elettronvolt|MeV]].
 - $a$ è lo spessore della superficie del nucleo, misurata a $\sim0.5$ fm.
-- $R$ è il raggio medio del nucleo, misurato a $\sim1.25A^{1/3}$, con $A$ il [[Atomo|numero di massa atomica]].
+- $R$ è il raggio medio del nucleo, misurato a $\sim1.25A^{1/3}$, con $A$ il [[Atom|numero di massa atomica]].
 
 ![[Grafico Potenziale di Wood-Saxon|center]]

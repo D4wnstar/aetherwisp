@@ -1,7 +1,7 @@
 ---
 wiki-publish: true
 ---
-Il **modello a gas di Fermi** è un modello del [[Nucleo atomico|nucleo]] nello stato fondamentale di un [[atomo]] o debolmente eccitato. Si basa su alcune supposizioni:
+Il **modello a gas di Fermi** è un modello del [[Nucleo atomico|nucleo]] nello stato fondamentale di un [[Atom]] o debolmente eccitato. Si basa su alcune supposizioni:
 1. [[protone|protoni]] e [[neutrone|neutroni]] sono sistemi indipendenti.
 2. i nucleoni si muovono liberamente nel nucleo.
 
@@ -19,7 +19,7 @@ Ricordando il [[Pauli exclusion principle]], abbiamo che uno stato può contener
 $$n=2 \frac{Vp_{F}^{3}}{6\pi^{2}\hbar^{2}}$$
 e il numero di neutroni e protoni è dato da
 $$N=\frac{V(p_{F}^{n})^{3}}{3\pi^{2}\hbar^{3}}\quad;\quad Z=\frac{V(p_{F}^{p})^{3}}{3\pi^{2}\hbar^{3}}\quad\tag{1}$$
-*Assumendo* che il raggio del nucleo sia quello sperimentalmente determinato $R=R_{0}A^{1/3}$ (con $A$ [[Atomo|numero di massa atomica]] e $R_{0}=121$ fm), vale anche
+*Assumendo* che il raggio del nucleo sia quello sperimentalmente determinato $R=R_{0}A^{1/3}$ (con $A$ [[Atom|numero di massa atomica]] e $R_{0}=121$ fm), vale anche
 $$V=\frac{4}{3}\pi R^{3}=\frac{4}{3}\pi R_{0}^{3}A\tag{2}$$
 *Assumo* che le buche di potenziale abbiano lo stesso raggio sia per protoni che neutroni e che l'atomo sia neutro, ossia $N=Z=A/2$. Utilizzando $(1)$ e $(2)$ posso calcolare l'impulso di Fermi
 $$\boxed{p_{F}=p_{F}^{n}=p_{F}^{p}=\frac{\hbar}{R_{0}}\left(\frac{9\pi}{8}\right)^\frac{1}{3}\simeq250\text{ MeV/c}}$$

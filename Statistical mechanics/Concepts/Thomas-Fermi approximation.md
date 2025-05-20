@@ -15,7 +15,7 @@ A set value of $\varepsilon$ defines a [[Palla|sphere]] in momentum space (it is
 $$G(\varepsilon)=\frac{\frac{4\pi}{3}p^{3}}{\left( \frac{2\pi \hbar}{L} \right)^{3}}=\frac{\frac{4\pi}{3}(2m\varepsilon)^{3/2}}{(2\pi \hbar)^{3}}V= \frac{\sqrt{ 2 }}{3\pi ^{2}} \frac{(m\varepsilon)^{3/2}}{\hbar ^{3}}V$$
 If we take the derivative of $\varepsilon$ we get
 $$\boxed{g(\varepsilon)=\frac{Vm^{3/2}}{\sqrt{ 2 }\pi ^{2}\hbar ^{3}}\sqrt{ \varepsilon }}$$
-This leads to the conclusion that the density of states in three dimensions is proportional to the square root of energy. This is a fact that is seen in several [[Physical system|systems]], from [[Atomo|atoms]] to [[Stella|stars]].
+This leads to the conclusion that the density of states in three dimensions is proportional to the square root of energy. This is a fact that is seen in several [[Physical system|systems]], from [[Atom|atoms]] to [[Stella|stars]].
 #### $N$ dimensions
 More generally, an $N$ dimensional ideal gas behaves like
 $$G(\varepsilon)\propto p^{d}\propto (\sqrt{ \varepsilon })^{d}\propto \varepsilon^{d/2},\qquad g(\varepsilon)\propto \varepsilon^{d/2-1}$$

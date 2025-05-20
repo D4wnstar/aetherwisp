@@ -30,7 +30,7 @@ e quello elettrico
 $$\vec{E}=\frac{\vec{F}}{-e}=\frac{1}{er} \frac{dV}{dr}\vec{r}$$
 Allora
 $$\vec{B}=- \frac{1}{c^{2}}\vec{v}\times\vec{E}=- \frac{1}{c^{2}} \frac{1}{er} \frac{dV}{dr} \vec{v}\times\vec{r}=\frac{1}{mc^{2}er} \frac{dV}{dr}\vec{L}$$
-Se associamo allo spin un momento magnetico intrinseco $\mu_{S}=- \frac{e}{m}\vec{S}$, spiegato dall'[[esperimento di Stern-Gerlach]], possiamo ricavare la Hamiltoniana semplicemente con
+Se associamo allo spin un momento magnetico intrinseco $\mu_{S}=- \frac{e}{m}\vec{S}$, spiegato dall'[[Stern-Gerlach experiment]], possiamo ricavare la Hamiltoniana semplicemente con
 $$H_{so}=- \vec{\mu_{S}}\cdot\vec{B}= \frac{1}{m^{2}c^{2}r} \frac{dV}{dr}\vec{L}\cdot\vec{S}$$
 In realtà il termine correttivo giusto ha un termine 2 iniziale, detto *fattore di Thomas*, che si è perso nelle approssimazioni fatte (il trattamento con elettrodinamica classica e non quantistica):
 $$\boxed{H_{so}=- \frac{1}{2}\vec{\mu_{S}}\cdot\vec{B}= \frac{1}{2m^{2}c^{2}r} \frac{dV}{dr}\vec{L}\cdot\vec{S}}$$

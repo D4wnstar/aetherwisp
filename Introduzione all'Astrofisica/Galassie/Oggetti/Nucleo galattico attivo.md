@@ -16,7 +16,7 @@ dove si trovano tre componenti principali
 - una salita nell'ottico e UV, detta Big Blue Bump, dovuta al disco di accrescimento, molto complicata da modellare
 - una salita nel hard X e nei gamma, dovuta a [[radiazione da sincrotrone]] di [[elettrone|elettroni]] [[Lorentz transformation|ultrarelativistici]] vicino al centro
 
-La regione in UV estremi e raggi X soft è largamente inosservabile a causa dell'assorbimento dell'idrogeno neutro sotto il [[limite di Lyman]]. Inoltre, la SED nucleare non tiene conto dei lobi radio, che hanno energie enormi e sarebbero una quarta componente a parte.
+La regione in UV estremi e raggi X soft è largamente inosservabile a causa dell'assorbimento dell'idrogeno neutro sotto il [[Lyman limit]]. Inoltre, la SED nucleare non tiene conto dei lobi radio, che hanno energie enormi e sarebbero una quarta componente a parte.
 #### Linee spettrali
 Tra le linee spettrali più importanti abbiamo la $H\alpha$, la $[O\ III]$ e le $K\alpha$ e $K\beta$ di fluorescenza del $\text{Fe}$. Più in generale, troviamo:
 - La [[serie di Balmer]], da $H\alpha\ \lambda6563$ in poi. Utili per tracciare il moto di ISM ionizzato, dato che è composto principalmente da idrogeno.
@@ -64,7 +64,7 @@ $$v_{opp}=\frac{\delta}{T_{1}-T_{0}}=\frac{v\sin\theta}{1-\frac{v}{c}\cos\theta}
 Se $\theta$ è piccolo e $v\sim c$, allora $v_{app}\simeq 2c/\theta$, che è di molto superiore a $c$.
 ### Raggi X
 Nei raggi X, l'AGN è la sorgente più potente della galassia, tipicamente molto più brillante di tutto il resto. Il suo spettro nei raggi X è anche sbilanciato verso le alte energie (gli *hard X*), diversamente dal resto dell'emissione, dominata da sistemi di [[Stella binaria|stelle binarie]], che è più *soft*. Il tipico spettro X di un AGN mostra un forte assorbimento [[Effetto fotoelettrico|fotoelettrico]] nella banda *soft X*.  Questo permette di stimare la [[densità di colonna di gas]] responsabile per l'attenuazione (in densità di idrogeno $N_{H}$) e questa si usa per classificare gli AGN X[^1]:
-1. Gli **AGN X di tipo 1** hanno $N_{H}<10^{21}$ [[atomo|atomi]]/cm$^{-2}$.
+1. Gli **AGN X di tipo 1** hanno $N_{H}<10^{21}$ [[Atom|atomi]]/cm$^{-2}$.
 2. Gli **AGN X di tipo 2** hanno $N_{H}>10^{21}$ atomi/cm$^{-2}$.
 3. Un AGN con luminosità intrinseca X superiori ai $10^{44}$ erg/s è definito quasar.
 4. Un AGN definito quasar che ha anche $N_{H}>10^{21}$ cm$^{-2}$ è definito **quasar di tipo 2**. Ne sono noti solo pochi nell'universo.

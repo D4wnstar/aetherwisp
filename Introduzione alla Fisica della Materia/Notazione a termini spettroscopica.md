@@ -2,7 +2,7 @@
 aliases:
   - notazione a termini
 ---
-È comune descrivere lo stato quantistico di un [[Elettrone]] attorno ad un [[atomo]] usando una notazione detta **notazione a termini**. Presi i [[numero quantico|numeri quantici]] $n$, $l$ e $j$, si descrive uno stato come
+È comune descrivere lo stato quantistico di un [[Elettrone]] attorno ad un [[Atom]] usando una notazione detta **notazione a termini**. Presi i [[numero quantico|numeri quantici]] $n$, $l$ e $j$, si descrive uno stato come
 $$\text{stato: }nl_{j}$$
 e si usano lettere (termini) al posto di numeri per $l$
 $$\begin{align}

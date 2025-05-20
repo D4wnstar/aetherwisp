@@ -39,8 +39,8 @@ $$\mathbf{S}^{2}|\uparrow\;\rangle=\frac{3}{4}\hbar^{2}|\uparrow\;\rangle, \quad
 Se scriviamo $\mathbf{S}^{2}$ come una matrice di incognite abbiamo
 $$\mathbf{S}^{2}=\begin{pmatrix}c & d \\ e & f\end{pmatrix}$$
 e calcolando esplicitamente le equazioni sopra
-$$\begin{pmatrix}c & d \\ e & f\end{pmatrix}\begin{pmatrix}1 \\ 0\end{pmatrix}=\frac{3}{4}\hbar^{2}\begin{pmatrix}1 \\ 0\end{pmatrix}\quad \Rightarrow \quad \begin{pmatrix}c \\ e\end{pmatrix}=\begin{pmatrix}\frac{3\end{pmatrix}{4}\hbar^{2} \\ 0}$$
-$$\begin{pmatrix}c & d \\ e & f\end{pmatrix}\begin{pmatrix}0 \\ 1\end{pmatrix}=\frac{3}{4}\hbar^{2}\begin{pmatrix}0 \\ 1\end{pmatrix}\quad \Rightarrow \quad \begin{pmatrix}d \\ f\end{pmatrix}=\begin{pmatrix}0 \\ \frac{3\end{pmatrix}{4}\hbar^{2}}$$
+$$\begin{pmatrix}c & d \\ e & f\end{pmatrix}\begin{pmatrix}1 \\ 0\end{pmatrix}=\frac{3}{4}\hbar^{2}\begin{pmatrix}1 \\ 0\end{pmatrix}\quad \Rightarrow \quad \begin{pmatrix}c \\ e\end{pmatrix}=\begin{pmatrix} \frac{3}{4}\hbar^{2} \\ 0\end{pmatrix}$$
+$$\begin{pmatrix}c & d \\ e & f\end{pmatrix}\begin{pmatrix}0 \\ 1\end{pmatrix}=\frac{3}{4}\hbar^{2}\begin{pmatrix}0 \\ 1\end{pmatrix}\quad \Rightarrow \quad \begin{pmatrix}d \\ f\end{pmatrix}=\begin{pmatrix}0 \\ \frac{3}{4}\hbar^{2}\end{pmatrix}$$
 Allora vale
 $$\mathbf{S}^{2}=\frac{3}{4}\hbar^{2}\begin{pmatrix}1 & 0 \\ 0 & 1\end{pmatrix}$$
 
@@ -128,7 +128,7 @@ dove $\gamma$ è il cosiddetto **rapporto giromagnetico**. Per l'elettrone, la t
 $$H=-\vec{\mu}\cdot\vec{B}$$
 e quindi l'[[Hamiltoniana]] di una particella carica con spin non-zero a riposo in un campo magnetico $\vec{B}$ è
 $$H=-\gamma\vec{B}\cdot\vec{S}$$
-Queste relazioni sono molto utili non solo per studiare la meccanica di una particella con spin noto, ma anche perché è possibile invertire queste relazioni per studiare lo spin a partire dal campo magnetico, molto più facile da manipolare. L'[[esperimento di Stern-Gerlach]] sfrutta proprio questa interazione.
+Queste relazioni sono molto utili non solo per studiare la meccanica di una particella con spin noto, ma anche perché è possibile invertire queste relazioni per studiare lo spin a partire dal campo magnetico, molto più facile da manipolare. L'[[Stern-Gerlach experiment]] sfrutta proprio questa interazione.
 
 ---
 

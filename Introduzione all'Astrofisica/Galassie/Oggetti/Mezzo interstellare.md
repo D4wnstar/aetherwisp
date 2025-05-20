@@ -5,7 +5,7 @@ aliases:
   - polvere interstellare
   - gas interstellare
 ---
-Il **mezzo interstellare** (ISM, *Interstellar Medium*) è la materia che si trova nello spazio interstellare in una [[galassia]], ossia lo spazio oltre l'[[eliopausa]] di tutte le [[Stella|stelle]] vicine. E' principalmente composto da [[atomo|atomi]] liberi, polvere e gas.
+Il **mezzo interstellare** (ISM, *Interstellar Medium*) è la materia che si trova nello spazio interstellare in una [[galassia]], ossia lo spazio oltre l'[[eliopausa]] di tutte le [[Stella|stelle]] vicine. E' principalmente composto da [[Atom|atomi]] liberi, polvere e gas.
 ### Formazione
 La polvere interstellare viene prodotta in ambienti molto densi e a temperature relativamente basse, principalmente nelle zone esterne delle [[gigante asintotica|giganti asintotiche]] e nei resti raffreddati di una [[supernova]]. Più in generale, sono massimamente abbondanti in [[Regione starburst|regioni starburst]].
 

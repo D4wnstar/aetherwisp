@@ -1,7 +1,7 @@
 ---
 wiki-publish: true
 ---
-The **Ising model** is a simplified model of [[ferromagnetism]] through statistical mechanics. It represents the total [[magnetization]] of a material by denoting each [[Atomo|atom]] as being either [[spin]] up or down, with nearby atoms possessing an interaction that tends to move them to the same spin. The total magnetization arises from the collective arrangement of nearby atoms in the same spin. The model also shows a [[phase transition]].
+The **Ising model** is a simplified model of [[ferromagnetism]] through statistical mechanics. It represents the total [[magnetization]] of a material by denoting each [[Atom|atom]] as being either [[spin]] up or down, with nearby atoms possessing an interaction that tends to move them to the same spin. The total magnetization arises from the collective arrangement of nearby atoms in the same spin. The model also shows a [[phase transition]].
 
 Consider a [[lattice]] of $N$ sites (i.e. atoms).  Each atom is given a discrete variable $S=\pm 1$ representing whether it is spin up or down. The set of all spins describes the [[stato|state]] of the [[Physical system|system]] and is denoted $\{ S_{i} \}_{i\in N}$. Adjacent atoms have an interaction $J\in \mathbb{R}$ and the system is subject to an external [[magnetic field]] $h$. The [[Hamiltonian]] of the Ising model is therefore
 $$H=-J\sum_{\langle i,j \rangle}S_{i}S_{j}-h\sum_{i=1}^{N}S_{i}$$

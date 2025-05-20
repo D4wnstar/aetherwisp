@@ -39,7 +39,7 @@ Extracting $\omega$ gives[^2]
 $$\omega(k)=\sqrt{ \frac{2\gamma(1-\cos(ka))}{M} }=2\sqrt{ \frac{\gamma}{M} }\left\lvert  \sin\left( \frac{ka}{2} \right)  \right\rvert $$
 This is the **dispersion relation** of the 1D, spring modeled, ideal crystal, which tells us the [[Frequency|angular frequency]] of the [[wave]] that carries a perturbation through the chain of oscillators. With it, it's fair to analyze the speed of the wave itself. Since it's a wave, we need both the phase speed and the group speed.
 
-In the $k\ll \pi/a$ case, the [[wavelength]] of the vibration is much larger than the lattice distance $a$, so [[atomo|atoms]] next to each other essentially move with the same phase. Moreover,
+In the $k\ll \pi/a$ case, the [[wavelength]] of the vibration is much larger than the lattice distance $a$, so [[Atom|atoms]] next to each other essentially move with the same phase. Moreover,
 $$\sin \frac{ka}{2}\simeq \frac{ka}{2}\quad\to \quad \omega(k)=2\sqrt{ \frac{\gamma}{M} } \frac{ka}{2}=vk\quad\text{with }v=\sqrt{ \frac{\gamma}{M} }a$$
 In this case, $v=\omega/k=\frac{ \partial \omega }{ \partial k }$. The phase and group speeds coincide and neither depends on $k$. This happens when the wave is [[stationary wave|stationary]], so $v$ corresponds to sound speed in the crystal.
 

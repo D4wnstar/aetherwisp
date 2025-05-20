@@ -7,7 +7,7 @@ aliases:
 ---
 La **formula di de Broglie** lega la quantità di moto $q$ di una [[Particella]] alla sua lunghezza d'onda $\lambda$, intesa come la lunghezza dell'onda di materia quantistica. La formula è
 $$p=\frac{h}{\lambda}=\frac{2\pi\hbar}{\lambda}$$
-con $h$ e $\hbar$ la [[Planck constant]] normale e ridotta. È una generalizzazione per le onde di materia della [[formula di Planck]]. Ciò significa che ogni particella è simultaneamente anche un'onda di **lunghezza d'onda di de Broglie**
+con $h$ e $\hbar$ la [[Planck constant]] normale e ridotta. È una generalizzazione per le onde di materia della [[Planck formula]]. Ciò significa che ogni particella è simultaneamente anche un'onda di **lunghezza d'onda di de Broglie**
 $$\lambda=\frac{h}{p}=\frac{2\pi\hbar}{p}$$
 Occasionalmente si usa anche la **lunghezza d'onda di de Broglie ridotta**
 $$\bar{\lambda}=\frac{\lambda}{2\pi}=\frac{\hbar}{p}$$
