@@ -106,7 +106,7 @@ The real amplitudes $E_{0}$ and $B_{0}$ are instead related by
 $$\frac{B_{0}}{E_{0}}=\frac{K}{\omega}=\sqrt{ \varepsilon \mu \sqrt{ 1+\left( \frac{\sigma}{\varepsilon \omega} \right)^{2} } }$$
 This can also be written as
 $$B_{0}=\frac{E_{0}}{\omega}K=\frac{E_{0}}{v}=\frac{nE_{0}}{c}$$
-where $v$ is the speed of propagation, $n$ is the [[refractive index]] and $c$ is the [[speed of light]]. Inverting the equation, we get
+where $v$ is the speed of propagation, $n$ is the [[refractive index]] and $c$ is the [[Speed of light]]. Inverting the equation, we get
 $$n=\frac{c}{\omega}K=\sqrt{ n_{R}^{2}+n_{I}^{2} }$$
 where $n_{R}$ and $n_{I}$ are the real and imaginary parts of a complex refractive index $\tilde{n}$ defined as $\tilde{n}=n_{R}+in_{I}$. Each part is $n_{R}=ck/\omega$ and $n_{I}=c\kappa/\omega$.
 #### Irradiance

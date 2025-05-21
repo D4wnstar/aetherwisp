@@ -12,6 +12,6 @@ $$\epsilon_{F}=\sqrt{\frac{(\hbar c)^{3}}{G_{F}}}\simeq300\text{ GeV}$$
 $$\lambda_{F}=\sqrt{\frac{G_{F}}{\hbar c}}\simeq0.6\times10^{-16}\text{ m}$$
 Definiamo una *costante di accoppiamento debole effettiva* $\alpha_{deb}$ come
 $$\alpha_{deb}(\epsilon_{F}^{2})=\alpha=\frac{1}{137}$$
-eguagliandola alla [[costante di struttura fine]]. Prendendo l'energia a riposo di un protone $m_{p}\sim1$ GeV troviamo che vale
+eguagliandola alla [[Fine-structure constant]]. Prendendo l'energia a riposo di un protone $m_{p}\sim1$ GeV troviamo che vale
 $$\alpha_{deb}(\sim1\text{ GeV}^{2})=10^{-7}$$
 che dimostra che l'interazione debole è, appunto, debole a scala nucleare.

@@ -111,7 +111,7 @@ Se $b\sim0$ e l'energia del proiettile è molto elevata, risento della forza for
 Per trovare la sezione d'urto di Rutherford tramite la meccanica quantistica, consideriamo
 - il rinculo del nucleo come trascurabile.
 - inizialmente si ha una carica puntiforme che incide sul nucleo atomico.
-- l'*approssimazione di Born*: $Z\alpha\ll1$, dove $\alpha=1/137$ è la [[costante di struttura fine]].
+- l'*approssimazione di Born*: $Z\alpha\ll1$, dove $\alpha=1/137$ è la [[Fine-structure constant]].
 Le [[Funzione d'onda|funzioni d'onda]] entranti e uscenti dall'elettrone sono [[onda piana|onde piane]] e valgono
 $$\psi_{i}=\frac{1}{\sqrt{V}}e^{i \vec{p}\cdot\vec{r}/\hbar},\quad \psi_{f}=\frac{1}{\sqrt{V}}e^{i \vec{p}'\cdot\vec{r}'/\hbar}$$
 con $V$ il volume del nucleo. Gli elettroni sono liberi a 0 e a $+\infty$.

@@ -17,7 +17,7 @@ Consideriamo una galassia a spirale, come la Via Lattea. Osservativamente, notia
 
 La velocità di rotazione $v$ ad un certo raggio $r$ ci permette di calcolare indirettamente la sua massa. Usando la [[leggi di Newton|seconda legge di Newton]], la [[Interazione gravitazionale|legge di gravitazione universale]] e assumendo moto circolare si ha:
 $$\frac{v^{2}}{r}=a=\frac{F}{m_{ogg}}=G \frac{Mm_{ogg}}{r^{2}} \frac{1}{m_{ruota}}=G \frac{M}{r^{2}}$$
-dove $M$ è la massa della galassia entro il raggio $r$ (si assume la simmetria sferica) e $G$ è la [[costante gravitazionale]]. Riordinando
+dove $M$ è la massa della galassia entro il raggio $r$ (si assume la simmetria sferica) e $G$ è la [[Gravitational constant]]. Riordinando
 $$v(r)=\sqrt{\frac{GM(r)}{r}} \quad \Rightarrow \quad M(r)=\frac{rv^{2}(r)}{G}\tag{1}$$
 che è la velocità di rotazione di una galassia nell'approssimazione di campo debole della relatività generale o, in altre parole, la gravità newtoniana. Compiendo molte misure di massa (anche con ampi errori), è possibile fare un grafico con la velocità misurata sperimentalmente sovrapposte alla stima di velocità data dalla formula sopra. Si trova che, a quasi tutte le velocità al di fuori di quelle molto basse, la stima della formula è sempre minore del valore misurato. Dev'esserci dunque qualcosa che è stato mancato. Ad oggi ci sono due possibilità riconosciute:
 1. **MOND**, Modified Newtonian Dynamics. In altre parole, assumiamo che la migliore teoria della gravitazione che abbiamo oggi, la relatività generale, sia imperfetta e che non funzioni in queste condizioni. Bisogna dunque modificare la teoria per sistemare questa discrepanza.

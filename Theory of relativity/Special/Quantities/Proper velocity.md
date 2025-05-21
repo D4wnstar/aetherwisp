@@ -10,7 +10,7 @@ where $\gamma$ is the [[Lorentz factor]] and $v^{\mu}$ is the ordinary (four-)ve
 | Ordinary velocity | $v^{\mu}$    | Observer frame | Observer frame clock time             |
 | Proper velocity   | $\eta^{\mu}$ | Observer frame | Object frame clock time (Proper time) |
 
-The time component is given by the [[speed of light]] as
+The time component is given by the [[Speed of light]] as
 $$\eta^{0}=\gamma c=\frac{c}{\sqrt{ 1- v^{2}/c^{2} }}$$
 and the space component is
 $$\boldsymbol{\eta}=\gamma \mathbf{v}=\frac{\mathbf{v}}{\sqrt{ 1-v^{2}/c^{2} }}$$

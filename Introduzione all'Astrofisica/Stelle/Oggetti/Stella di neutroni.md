@@ -29,7 +29,7 @@ con
 $$c=\frac{3\hbar^{2}}{10M_{n}} \left(\frac{9}{4}\pi N\right)^{2/3}$$
 L'energia [[Potential]] (gravitazionale) media di un singolo neutrone, a partire dal potenziale gravitazionale di una stella a densità costante, è
 $$\left\langle \frac{E_{pot}}{N} \right\rangle=- \frac{3}{5} \frac{GNM_{n}^{2}}{R}$$
-con $G$ la [[Costante gravitazionale]] (il termine 3/5 deriva dall'integrale per la media). Allora la stella è all'equilibrio quando l'energia per [[nucleone]] è minima, ossia cerco il [[Punto critico|punto stazionario]]:
+con $G$ la [[Gravitational constant]] (il termine 3/5 deriva dall'integrale per la media). Allora la stella è all'equilibrio quando l'energia per [[nucleone]] è minima, ossia cerco il [[Punto critico|punto stazionario]]:
 $$\frac{d}{dR} \left\langle \frac{E}{N} \right\rangle= \frac{d}{dR}\left[ \left\langle \frac{E_{cin}}{N} \right\rangle + \left\langle \frac{E_{pot}}{N} \right\rangle\right]=0$$
 da cui possiamo stimare il raggio della stella
 $$R=\frac{\hbar^{2}(\frac{9}{4}\pi)^{2/3}}{GM_{n}^{3}N^{1/3}}\sim12\text{ km}$$

@@ -17,6 +17,6 @@ Sebbene possa sembrare un concetto puramente filosofico, questo principio è sta
 ### Spiegazione fisica
 La teoria della gravità di Newton ci dà pochi strumenti per capire questo principio. Possiamo provare ad usare l'[[equazione di Poisson]] del [[Interazione gravitazionale|campo gravitazionale]] classico
 $$\nabla^{2}\phi(\vec{r})=4\pi G\rho(\vec{r})$$
-dove $G$ è la [[Costante gravitazionale]] e $\rho$ è la densità di massa. In un universo omogeneo, il potenziale deve essere costante, ma ciò ci da un [[Laplacian]] nullo e quindi una densità di massa nulla, ossia un universo vuoto. Allo stesso modo, in uno spazio veramente isotropo non possono esistere vettori (ci sarebbe una direzione privilegiata per quella cosa) quindi deve essere $\vec{g}=0$, ossia non c'è gravità, ossia di nuovo l'universo è vuoto.
+dove $G$ è la [[Gravitational constant]] e $\rho$ è la densità di massa. In un universo omogeneo, il potenziale deve essere costante, ma ciò ci da un [[Laplacian]] nullo e quindi una densità di massa nulla, ossia un universo vuoto. Allo stesso modo, in uno spazio veramente isotropo non possono esistere vettori (ci sarebbe una direzione privilegiata per quella cosa) quindi deve essere $\vec{g}=0$, ossia non c'è gravità, ossia di nuovo l'universo è vuoto.
 
 Per capire l'[[Espansione dell'universo]] e il principio cosmologico dobbiamo attendere la relatività generale e le [[Equazioni di Friedmann]].

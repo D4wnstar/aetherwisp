@@ -17,7 +17,7 @@ Possiamo sostituire l'energia cinetica classica $p^{2}/2m_{e}$ con l'energia cin
 $$T=\sqrt{p^{2}c^{2}+m_{e}^{2}c^{4}}-m_{e}^{2}c^{2}=m_{e}c^{2}\sqrt{1+ \frac{p^{2}}{m_{e}c^{2}}}-m_{e}c^{2}=\ldots$$
 con $m_{e}$ la [[massa dell'elettrone]]. Possiamo espandere in [[Taylor series|serie di Taylor]] la radice quadrata della forma $\sqrt{1+x}$ con
 $$\ldots=m_{e}c^{2}\left(1+ \frac{1}{2} \frac{p^{2}}{m_{e}^{2}c^{2}} - \frac{p^{4}}{8m_{e}^{4}c^{4}}+\ldots\right)=m_{e}c^{2}+ \underbrace{\frac{p^{2}}{2m_{e}}}\limits_{E_{cin}} - \frac{p^{4}}{8m_{e}^{3}c^{2}}+\ldots$$
-dove $E_{cin}$ è l'energia classica e i termini ulteriori sono termini correttivi. Questa correzione è proporzionale a $(Z\alpha)^{2}$, con $Z$ la carica nucleare e $\alpha$ è la [[costante di struttura fine]]. Dunque, le correzioni diventano prevalenti per atomi grandi.
+dove $E_{cin}$ è l'energia classica e i termini ulteriori sono termini correttivi. Questa correzione è proporzionale a $(Z\alpha)^{2}$, con $Z$ la carica nucleare e $\alpha$ è la [[Fine-structure constant]]. Dunque, le correzioni diventano prevalenti per atomi grandi.
 
 È diagonale in $L^{2}$, $S^{2}$, $L_{z}$ e $S_{z}$, quindi la correzione è data al primo ordine perturbativo da $-\frac{1}{2m_{e}c^{2}}\langle \psi_{nlm}|T^{2}|\psi_{nlm}\rangle$ da cui la differenza di energia
 $$\boxed{\Delta E_{1}=-E_{n} \frac{(Z\alpha)^{2}}{n^{2}} \left[\frac{3}{4} - \frac{n}{l-\frac{1}{2}} \right]}$$

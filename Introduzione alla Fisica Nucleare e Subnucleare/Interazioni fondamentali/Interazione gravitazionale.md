@@ -10,7 +10,7 @@ aliases:
 ---
 L'**interazione gravitazionale** è l'[[interazione fondamentale]] che governa l'attrazione tra corpi massivi. Nella descrizione classica newtoniana, considerati due oggetti con masse $m_{1}$ e $m_{2}$ a distanza $r$ fra loro, il [[Potential]] gravitazionale che li lega è
 $$V=G \frac{m_{1}m_{2}}{r}$$
-dove $G$ è la [[Costante gravitazionale]]. La forza gravitazionale dunque è
+dove $G$ è la [[Gravitational constant]]. La forza gravitazionale dunque è
 $$F=-\frac{dV}{dr}=G \frac{m_{1}m_{2}}{r^{2}}$$
 ### Costante di accoppiamento
 A partire dalla costante gravitazionale possiamo determinare massa, lunghezza e tempo di Planck:
@@ -21,6 +21,6 @@ Paragonando la massa di Planck con, per esempio, la massa del [[protone]] $m_{p}
 
 Definiamo la *costante di accoppiamento gravitazionale* $\alpha_{G}(\mathcal{M}^{2})$ usando una massa di riferimento $\mathcal{M}$. Nel caso di $\mathcal{M}=M_{Pl}$ vale
 $$\alpha_{G}(M_{Pl}^{2})=\alpha=\frac{1}{137}$$
-eguagliando alla [[costante di struttura fine]]. Se invece consideriamo la massa del protone si ha
+eguagliando alla [[Fine-structure constant]]. Se invece consideriamo la massa del protone si ha
 $$\alpha_{G}(\sim1\text{ GeV})=\alpha_{G}(m_{p}^{2})=\frac{m_{p}^{2}}{M^{2}_{Pl}}\alpha_{G}(M_{Pl}^{2})\simeq10^{-40}$$
 che è un valore minuscolo. Infatti, per masse piccole come quella di una [[Particella]], l'interazione gravitazionale è completamente trascurabile.

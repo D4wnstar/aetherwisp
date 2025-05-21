@@ -11,7 +11,7 @@ $$K+\Omega<0$$
 
 Consideriamo una nube di [[gas perfetto]], per semplicità uniforme, con un volume sferico di raggio $R$, $V=4\pi R^{3}/3$, densità $\rho=M/V$ e peso molecolare $\mu$. L'energia termica $K$ e quella gravitazionale $\Omega$ sono
 $$K=\frac{3}{2}k_{B} \frac{TM}{\mu m_{p}}\quad;\quad \Omega=-\frac{GM^{2}}{R}$$
-con $k_B$ la [[Boltzmann constant]], $m_{p}$ la massa del [[protone]] e $G$ la [[costante gravitazionale]]. Dunque, per il collasso deve essere
+con $k_B$ la [[Boltzmann constant]], $m_{p}$ la massa del [[protone]] e $G$ la [[Gravitational constant]]. Dunque, per il collasso deve essere
 $$\frac{3}{2}k_{B} \frac{TM}{\mu m_{p}}- \frac{GM^{2}}{R}<0$$
 Il raggio è
 $$R=\left( \frac{3V}{4\pi} \right)^\frac{1}{3}=\left( \frac{3M}{4\pi \rho } \right)^{\frac{1}{3}}$$

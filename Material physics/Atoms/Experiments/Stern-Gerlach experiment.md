@@ -1,3 +1,6 @@
+---
+wiki-publish: true
+---
 The **Stern-Gerlach experiment** is an experiment that almost accidentally discovered the [[spin]] of the [[electron]]. The true purpose of the experiment was to measure whether [[Particle|particles]] have an intrinsic [[angular momentum]] or not.
 ### Theory
 The idea behind the Stern-Gerlach experiment starts from the [[Bohr model]] of the [[hydrogen atom]], which suggests that, since electrons orbit the [[Nucleo atomico|nucleus]], and rotating [[Electric charge|electric charges]] produce a [[magnetic field]], then hydrogen atoms should, at least in principle, be a naturally occurring [[magnetic dipole]] with [[magnetic dipole moment]] determined exactly by the motion of the electron.
@@ -12,7 +15,7 @@ where $\lambda$ is the linear charge density due to the charge particle. Of cour
 $$\mu=IA=\frac{q}{2\pi R}v\pi R^{2}=\frac{1}{2}qvR$$
 If the rotating charge has [[mass]] $M$, then it must have angular momentum $L=MvR$. We can invert this to find the velocity $v=L/MR$ and by plugging this into the formula above
 $$\mu=\frac{q}{2M}L$$
-This is a general relationship between magnetic dipole moment and angular momentum of a rotating charge. As it stands, we haven't used anything specific to atomic physics at all. This is just run of the mill electromagnetism. To make the connection to the hydrogen atom, we set the mass $M$ to be that of the electron $m_{e}$ and the charge to the [[elementary charge]] $e$[^2], but more importantly, we invoke the Bohr model. According to the third postulate of that model, the electron's angular momentum is discrete, so $L$ can't be any real number. We're "stuck" with a set of choices determined by an integer as $L=n\hbar$, where $\hbar$ is the [[Planck constant|reduced Planck constant]]. Substituting this in $\mu$ leads to
+This is a general relationship between magnetic dipole moment and angular momentum of a rotating charge. As it stands, we haven't used anything specific to atomic physics at all. This is just run of the mill electromagnetism. To make the connection to the hydrogen atom, we set the mass $M$ to be that of the electron $m_{e}$ and the charge to the [[Elementary charge]] $e$[^2], but more importantly, we invoke the Bohr model. According to the third postulate of that model, the electron's angular momentum is discrete, so $L$ can't be any real number. We're "stuck" with a set of choices determined by an integer as $L=n\hbar$, where $\hbar$ is the [[Planck constant|reduced Planck constant]]. Substituting this in $\mu$ leads to
 $$\mu=\frac{e}{2m}n\hbar$$
 This leads to the natural conclusion that all possible dipole moments of the hydrogen atom are in units of
 $$\boxed{\mu_{B}=\frac{e\hbar}{2m}}$$

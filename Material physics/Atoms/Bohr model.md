@@ -12,18 +12,20 @@ The Bohr model is a fundamentally classical description, which describes [[elect
 
 The origin of these postulates is the discrepancy between experiment and theory of the time regarding electron radiation. It was well known that accelerating [[Electric charge|charges]] emit [[electromagnetic radiation]], but it was also a fact that stable atoms presented no radiation whatsoever. Since orbiting electrons must have *some* acceleration (at least centripetal acceleration), the lack of radiation was concerning and highlighted some flaw in the theory. Moreover, the frequencies of light that were seen being emitted by the hydrogen atom were very specific discrete values. These issues would eventually be solved by quantum theory, but before then, Bohr set these postulates up to enforce the undeniable experimental evidence.
 ### Derivation
-The model is essentially one charged particle (the electron) being attracted by [[Interazione elettromagnetica|Coulomb's law]] to another (the nucleus). The electron charge is the [[elementary charge]] $-e$ and the nucleus has atomic number $Z$ (in case of actual hydrogen $Z=1$). Assuming the electron, of mass $m_{e}$, is orbiting at a distance $r$ with tangential speed $v$, the Coulomb force must match the centrifugal force[^2]:
-$$\underbrace{\frac{Ze^{2}}{4\pi\varepsilon_{0}r^{2}}}\limits_{\text{potential}}=\underbrace{\frac{m_{e}v^{2}}{r}}\limits_{\text{kinematics}}$$
+The model is essentially one charged particle (the electron) being attracted by [[Interazione elettromagnetica|Coulomb's law]] to another (the nucleus). The electron charge is the [[Elementary charge]] $-e$ and the nucleus has atomic number $Z$ (in case of actual hydrogen $Z=1$). Assuming the electron, of mass $m_{e}$, is orbiting at a distance $r$ with tangential speed $v$, the Coulomb force must match the centrifugal force[^2]:
+$$\underbrace{\frac{Ze^{2}}{4\pi\varepsilon_{0}r^{2}}}_{\text{potential}}=\underbrace{\frac{m_{e}v^{2}}{r}}_{\text{kinematics}}$$
 This is only true if the mass of the electron is much less than that of the nucleus, $m_{e}\ll m_\text{nucleus}$. This is because in this context, the electron is so light we can ignore its effects on the nucleus, which we assume to be stationary and unmoving (with respect to some [[frame of reference]]).
 
 Postulate three says $L=m_{e}vr=n\hbar$, so with some rearrangement we can find the electrons speeds in the allowed orbits:
 $$v=\frac{Ze^{2}}{4\pi\varepsilon_{0}n\hbar}$$
 Substitute this back into the force equation above and we can extract the allowed radii $r$ for the orbits too:
 $$\boxed{r=\frac{4\pi \varepsilon_{0}n^{2}\hbar ^{2}}{Ze^{2}m_{e}}}$$
+For hydrogen ($Z=1$) in the ground state ($n=1$), the value we get is known as the **[[Bohr radius]]**:
+$$\boxed{a_{0}=\frac{4\pi \varepsilon_{0}\hbar ^{2}}{e^{2}m_{e}}}$$
 Knowing these, we can find the [[kinetic energy|kinetic]] and [[potential energy]] $T$ and $V$:
 $$T=\frac{1}{2}m_{e}v^{2}=\frac{m_{e}}{2\hbar^{2}} \left(\frac{Ze^{2}}{4\pi\epsilon_{0}}\right)^{2}\left(\frac{1}{n^{2}}\right),\qquad V=- \frac{Ze^{2}}{4\pi \varepsilon_{0}r}=- \frac{m_{e}}{\hbar^{2}}\left(\frac{Ze^{2}}{4\pi\epsilon_{0}}\right)^{2}\left(\frac{1}{n^{2}}\right)$$
 Sum these two and we get the total energy, called the **Bohr energy**:
-$$\boxed{E=T+V=- \underbrace{\frac{m_{e}}{2\hbar^{2}}\left(\frac{Ze^{2}}{4\pi\epsilon_{0}}\right)^{2}}\limits_{\text{Rydberg energy}}\left(\frac{1}{n^{2}}\right)=-\frac{E_\text{Ryd}}{n^{2}}}$$
+$$\boxed{E=T+V=- \underbrace{\frac{m_{e}}{2\hbar^{2}}\left(\frac{Ze^{2}}{4\pi\epsilon_{0}}\right)^{2}}_{\text{Rydberg energy}}\left(\frac{1}{n^{2}}\right)=-\frac{E_\text{Ryd}}{n^{2}}}$$
 The constant $E_\text{Ryd}$ is known as the [[Rydberg constant|Rydberg energy]]. In fact, this constant was discovered decades before by [[Parameter estimation|fitting]] purely experimental data and one immediate success of the Bohr model was exactly this: explaining precisely where the Rydberg constant comes from. Using this fact, we can find a theoretical expression for the Rydberg constant (setting $Z=1$ because it's only valid for hydrogen):
 $$E_\text{Ryd}=hcR_{\infty}\quad\Rightarrow \quad R_{\infty}=\frac{E_\text{Ryd}}{hc}=\frac{1}{2\pi\hbar c} \frac{m_{e}}{2\hbar ^{2}} \left( \frac{e^{2}}{4\pi \varepsilon_{0}} \right)^{2}=\frac{m_{e}}{4\pi c\hbar ^{3}} \left( \frac{e^{2}}{4\pi \varepsilon_{0}} \right)^{2}$$
 We call this version of the constant $R_{\infty}$, where the infinity symbol denotes that we are in the approximation of $m_{e}\ll m_\text{nucleus}$, which is like saying $m_\text{nucleus}\to \infty$ if we keep $m_{e}$ fixed. This is already a very good approximation of the real value, but we can do better by shedding the infinite nuclear mass.

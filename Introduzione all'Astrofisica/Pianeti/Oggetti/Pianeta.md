@@ -17,7 +17,7 @@ Osservare un sistema stella-pianeta non è facile, dato che il pianeta è molto 
 $$\Omega^{2}=\frac{GM_{\star}}{r^{3}}$$
 $$v_{\star}\sin i=\Omega r \frac{M_{P}}{M_{\star}}\sin i$$
 $$\frac{M_{P}}{M_{\star}}=\frac{v_{\star}}{v_{P}}$$
-con $G$ la [[costante gravitazionale]], $i$ l'inclinazione dell'orbita, $r$ il suo raggio e $\Omega$ la frequenza orbitale (non il [[Interazione gravitazionale|potenziale gravitazionale]]!).
+con $G$ la [[Gravitational constant]], $i$ l'inclinazione dell'orbita, $r$ il suo raggio e $\Omega$ la frequenza orbitale (non il [[Interazione gravitazionale|potenziale gravitazionale]]!).
 
 Il modo più facile per individuare il pianeta è osservare la velocità $v_{\star}\sin i$ sulla linea di vista. Sostituendo la massa nella seconda equazione dalla prima troviamo
 $$M_{P}\sin i=\frac{\Omega r^{2}}{G} v_{\star}\sin i$$

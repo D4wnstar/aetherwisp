@@ -76,7 +76,7 @@ le cui soluzioni sono dei [[polinomi di Laguerre]]
 $$L_{q}^{p}(\rho)=\frac{d^{p}}{d\rho^{p}}L_{q}(\rho)\quad;\quad L_{q}(\rho)=e^{\rho} \frac{d^{q}}{d\rho^{q}}(\rho^{q}e^{-\rho})$$
 Di fatto si giunge alla soluzione
 $$R_{n,l}(r)=N_{n,l}e^{-\rho/2}L_{n+l}^{2l+1}(\rho)\text{ con }\rho=\frac{2Zr}{na_{\mu}}\text{ e }n=1,2,\ldots;\;l=0,\ldots,n-1$$
-dove $a_{\mu}$ è una correzione del [[raggio di Bohr]].
+dove $a_{\mu}$ è una correzione del [[Bohr radius]].
 
 La funzione d'onda risolta diventa quindi dipendente dai tre numeri quantici $n,l,m$ e ha la forma semplice
 $$\Psi(r,\theta,\phi)=R_{n,l}(r)Y_{l,m}(\theta,\phi)$$
@@ -162,7 +162,7 @@ Se invece combiniamo la definizione di $\rho_{0}$ con $\rho_{0}=2n$ possiamo tro
 $$\kappa=\left( \frac{me^{2}}{4\pi\epsilon_{0}\hbar^{2}}\right) \frac{1}{n}= \frac{1}{a_{0}n}$$
 dove abbiamo definito
 $$a_{0}\equiv \frac{4\pi\epsilon_{0}\hbar^{2}}{me^{2}}=0.529\times10^{-10}\text{m}$$
-il cosiddetto **[[raggio di Bohr]]**. Dalla definizione $\rho\equiv\kappa r$ abbiamo
+il cosiddetto **[[Bohr radius]]**. Dalla definizione $\rho\equiv\kappa r$ abbiamo
 $$\rho= \frac{r}{a_{0}n}$$
 Possiamo infine trovare la forma della funzione d'onda, che sarà determinata da tre [[numero quantico|numeri quantici]] ($n$, $l$, $m$):
 $$\psi_{nlm}(r,\theta,\phi)=R_{nl}(r)Y_{l}^{m}(\theta,\phi)$$

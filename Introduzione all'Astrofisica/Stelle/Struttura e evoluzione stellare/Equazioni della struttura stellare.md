@@ -24,7 +24,7 @@ e le variabili sono:
 
 assieme a:
 - la distanza dal centro della stella $r$
-- la [[costante gravitazionale]] $G$
+- la [[Gravitational constant]] $G$
 - la [[Boltzmann constant]] $k_{B}$
 - la densità di [[particella|particelle]] per unità di volume $n$, con $\mu$ il peso molecolare medio e $m_{p}$ la massa del [[protone]]
 - l'energia generata per unità di massa $\epsilon$

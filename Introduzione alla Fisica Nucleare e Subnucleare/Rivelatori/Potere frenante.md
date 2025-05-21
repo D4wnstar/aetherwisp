@@ -87,7 +87,7 @@ $$L_{R}^{-1}=\ln\left(\frac{183}{Z^{\frac{1}{3}}}\right) \frac{4 r_{0}^{2}N_{A}Z
 dove
 - $r_{0}$ è il raggio classico dell'elettrone.
 - $N_A$ è il [[Avogadro number]].
-- $\alpha$ è la [[costante di struttura fine]].
+- $\alpha$ è la [[Fine-structure constant]].
 - $\rho$ è la densità del materiale.
 - $Z$ è il numero atomico del materiale.
 - $A$ è il numero di massa atomica del materiale.

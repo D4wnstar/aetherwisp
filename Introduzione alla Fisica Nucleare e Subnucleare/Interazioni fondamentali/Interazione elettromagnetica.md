@@ -14,7 +14,7 @@ dove $q_{1}$ e $q_{2}$ sono le cariche delle [[Particella|particelle]] puntiform
 
 L'interazione elettromagnetica agisce mediante lo scambio di un [[Photon]], il quanto elettromagnetico.
 ### Costante di accoppiamento
-A differenza delle altre costanti di accoppiamento, quella elettromagnetica, detta [[costante di struttura fine]], è stata misurata sperimentalmente diverse volte (motivo per cui le altre sono definite su di essa). Può essere determinata in funzione di altre costanti fisiche e vale
+A differenza delle altre costanti di accoppiamento, quella elettromagnetica, detta [[Fine-structure constant]], è stata misurata sperimentalmente diverse volte (motivo per cui le altre sono definite su di essa). Può essere determinata in funzione di altre costanti fisiche e vale
 $$\alpha=\frac{e^{2}}{4\varepsilon_{0}\hbar c}=\frac{1}{137.03\ldots}$$
 dove
 - $e$ è la carica dell'[[Elettrone]].

@@ -8,7 +8,7 @@ $$\boxed{\begin{align}
 \nabla\cdot\mathbf{B} & =0 &
 \nabla\times\mathbf{B} &= \mu_{0}\mathbf{J}+\mu_{0}\varepsilon_{0}\frac{ \partial \mathbf{E} }{ \partial t } 
 \end{align}}$$
-and together with the boundary conditions $\mathbf{E}\to 0$ and $\mathbf{B}\to  0$ approaching infinity, they uniquely determine the two fields. $\rho$ is a volume [[electric charge]] density and $\mathbf{J}$ is a volume [[electric current]] density. $\varepsilon_{0}$ and $\mu_{0}$ are the [[vacuum permittivity]] and [[vacuum permeability]] respectively.
+and together with the boundary conditions $\mathbf{E}\to 0$ and $\mathbf{B}\to  0$ approaching infinity, they uniquely determine the two fields. $\rho$ is a volume [[electric charge]] density and $\mathbf{J}$ is a volume [[electric current]] density. $\varepsilon_{0}$ and $\mu_{0}$ are the [[Vacuum permittivity]] and [[Vacuum permeability]] respectively.
 
 These laws, alongside the [[Lorentz force]], explain the entirety of electromagnetic phenomena. Maxwell's equations tell you how *charges* produces *fields*, whereas the Lorentz force tells you how *fields* affect *charges*. With both, the circle is complete. This is true in both electro/magnetostatics and electrodynamics.
 ### In the vacuum
@@ -27,7 +27,7 @@ These are very clearly symmetrical. In fact, they are *identical* in everything 
 
 One might question the velocity of these waves: as it happens, by comparing the above equations with wave equation, their speed in entirely determined by the permittivity and permeability by
 $$c=\frac{1}{\sqrt{ \varepsilon_{0}\mu_{0} }}$$
-This is the [[speed of light]], derived entirely from fundamental physical constants. This does certainly lead to a very legitimate question: *why?* What does light have to do with electricity and magnets? Well, at this point the connection is hard to deny: if $c$ is the speed of a wave, and that wave is derived exclusively from the laws of electromagnetism, then surely *light must be an electromagnetic wave*.
+This is the [[Speed of light]], derived entirely from fundamental physical constants. This does certainly lead to a very legitimate question: *why?* What does light have to do with electricity and magnets? Well, at this point the connection is hard to deny: if $c$ is the speed of a wave, and that wave is derived exclusively from the laws of electromagnetism, then surely *light must be an electromagnetic wave*.
 ### In matter
 It is possible to rewrite Maxwell's equation in a more convenient manner when dealing with [[Dielectric polarization|polarized]] and [[Magnetization|magnetized]] matter. We already know that polarization produces a bound charge density $\rho_{b}$ and magnetization a bound current density $\mathbf{J}_{b}$. The only thing we're missing is to consider what happens when polarization and magnetization change in time. A changing magnetization, at most, changes $\mathbf{J}_{b}$, so it doesn't add any new pieces, but a changing polarization moves the $\rho_{b}$, which is to say it *produces a current*. This is emphatically *not* part of $\mathbf{J}_{b}$: it is a completely new piece of the puzzle. See, when polarization occurs, a certain amount of charges are moved such that they are plastered over a surface[^1] on one end ($\sigma_{b}$) and some on the other ($-\sigma_{b}$). When the polarization $\mathbf{P}$ changes, these charges increase or decrease depending on the intensity of polarization, giving a net current
 $$dI=\frac{ \partial \sigma_{b} }{ \partial t } da_{\perp}=\frac{ \partial P }{ \partial t } da_{\perp}$$

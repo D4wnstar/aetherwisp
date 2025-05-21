@@ -5,7 +5,7 @@ wiki-publish: true
 ### Definition
 Consider a localized source[^1] near the origin. To determine the energy radiated from the source at some time $t_{0}$, we encase the source in a sphere of of massive radius $r$, large enough that the source looks like a point. The energy passing through the surface is given by integrating the [[Poynting vector]] over the surface
 $$P(r,t)=\oint \mathbf{S}\cdot d\mathbf{a}=\frac{1}{\mu_{0}}\oint(\mathbf{E}\times \mathbf{B})\cdot d\mathbf{a}$$
-Since electromagnetic waves travel at the [[speed of light]], thus causing the fields $\mathbf{E}$ and $\mathbf{B}$ to depend not on current time but on [[retarded time]], the energy is itself emitted at the retarded time $t_{0}=t-r/c$. The power radiated is then
+Since electromagnetic waves travel at the [[Speed of light]], thus causing the fields $\mathbf{E}$ and $\mathbf{B}$ to depend not on current time but on [[retarded time]], the energy is itself emitted at the retarded time $t_{0}=t-r/c$. The power radiated is then
 $$P_\text{rad}(t_{0})=\lim_{ r \to \infty } P\left( r,t_{0}+ \frac{r}{c} \right)$$
 where $t_{0}$ is held constant. This is the energy that is radiated from the source in a spherical fashion up to infinity.
 

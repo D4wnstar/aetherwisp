@@ -60,7 +60,7 @@ As always, the system is [[Stati in meccanica quantistica|bound]] if $E<0$ and [
 
 For convenience, we introduce a few variables
 $$\rho\equiv\left( - \frac{8\mu E}{\hbar ^{2}} \right)^{1/2}r,\qquad \lambda=\frac{Ze^{2}}{4\pi \varepsilon_{0}\hbar}\left( - \frac{\mu}{2E} \right)^{1/2}=Z\alpha\left( - \frac{\mu c^{2}}{2E} \right)^{1/2}$$
-where $\alpha$ is the [[fine structure constant]] and $c$ is the [[speed of light]]. If we substitute these in the equation, we get
+where $\alpha$ is the [[fine-structure constant]] and $c$ is the [[speed of light]]. If we substitute these in the equation, we get
 $$\left[ \frac{d^{2}}{d\rho ^{2}} - \frac{l(l+1)}{\rho ^{2}}+ \frac{\lambda}{\rho}- \frac{1}{4}\right]u_{E,l}(\rho)=0\tag{1}$$
 A much simpler form, but still quite abstract. Instead of diving head-first into solving it, we can start by analyzing asymptotic behavior. When $\rho\to \infty$, the equations greatly simplifies to
 $$\left[ \frac{d^{2}}{d\rho ^{2}}- \frac{1}{4} \right]u(\rho)=0$$

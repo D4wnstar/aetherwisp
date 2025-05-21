@@ -9,7 +9,7 @@ in the approximation of an infinitely massive [[Nucleo atomico|atomic nucleus]].
 $$R_{M}=\frac{\mu}{m_{e}}R_{\infty}$$
 Depending on the form it is given in, the Rydberg constant can be interpreted in one of a few ways. In inverse length ($\text{cm}^{-1}$), it represents the inverse [[wavelength]] (i.e. [[wavenumber]]) that all [[Riga spettrale|spectral lines]] of the [[hydrogen atom]] are a multiple of. The inverse of $R$ in this form is known as the [[Lyman limit]]:
 $$\frac{1}{R}\simeq 911\ \mathring{\mathrm{A}}$$
-In this sense, it can also be given as a [[frequency]] by multiplying by the [[speed of light]] $c$:
+In this sense, it can also be given as a [[frequency]] by multiplying by the [[Speed of light]] $c$:
 $$\bar{R}=cR=3.288\cdot10^{15}\text{ Hz}$$
 Recognizing that $hcR$ is an energy (because of the [[Planck formula]]) we can write the **Rydberg energy**
 $$E_\text{Ryd}=hcR\simeq13.6\text{ eV}$$

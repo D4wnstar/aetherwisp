@@ -21,7 +21,7 @@ where $m$ is the [[mass]] of the electron, $k_{B}$ is the [[Boltzmann constant]]
 
 This is what happens in gas (i.e. metal) at rest. If we apply an electric field $\mathbf{E}$, things change as the electrons are pushed or pulled by it. Beyond the thermal velocity, we get another term added which is due to the electric field. A [[Lorentz force]] mixed with [[Newton's laws|Newton's second law]] on an electron is
 $$\mathbf{F}=-e\mathbf{E}=m\mathbf{a}\quad\Rightarrow \quad \mathbf{a}=-\frac{e}{m}\mathbf{E}\quad\Rightarrow \quad \mathbf{v}_{el}=-\frac{et}{m}\mathbf{E}+\mathbf{v}_{0}$$
-where $e$ is the [[elementary charge]]. Now, in total we get
+where $e$ is the [[Elementary charge]]. Now, in total we get
 $$\mathbf{v}=\mathbf{v}_{t}+\mathbf{v}_{el}$$
 This is an inherently random quantity due to $\mathbf{v}_{t}$ being a [[random variable]]. It is then more useful to consider the mean:
 $$\mathbf{v}_{avg}=\langle \mathbf{v} \rangle =\langle \mathbf{v}_{t} \rangle +\langle \mathbf{v}_{el} \rangle =- \frac{e\tau}{m}\mathbf{E}$$

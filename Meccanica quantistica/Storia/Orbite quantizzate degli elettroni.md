@@ -13,7 +13,7 @@ che è l'energia cinetica associata all'orbita a distanza $r$. Posso anche trova
 $$m^{2}v^{2}r^{2}=m \frac{e^{2}}{r}r^{2}=\hbar^{2}n^{2}\quad\Rightarrow \quad \boxed{r_{n}=\frac{\hbar^{2}}{me^{2}}n^{2}}$$
 Ciò significa che, in questa ipotesi, le orbite permesse sono quantizzate, a intervalli interi pesati dalla costante di Planck con energia ben nota. Il primo raggio possibile è
 $$r_{B}=\frac{\hbar^{2}}{me^{2}}$$
-detto [[raggio di Bohr]]. Trovando la derivata parziale dell'energia potenziale $U(r)=- \frac{e^{2}}{r}$ si ha $F(r)=- \frac{e^{2}}{r^{2}}$ cioè una forza *repulsiva*, come deve essere. Il segno meno nella formula dell'energia deriva da questo. Sostituendo il raggio con quelli quantizzati abbiamo le energie possibili
+detto [[Bohr radius]]. Trovando la derivata parziale dell'energia potenziale $U(r)=- \frac{e^{2}}{r}$ si ha $F(r)=- \frac{e^{2}}{r^{2}}$ cioè una forza *repulsiva*, come deve essere. Il segno meno nella formula dell'energia deriva da questo. Sostituendo il raggio con quelli quantizzati abbiamo le energie possibili
 $$E_{n}=- \frac{e^{2}}{2r_{n}}=- \frac{me^{4}}{2\hbar^{2}}\frac{1}{n^{2}}$$
 
 Questo spiega ragionevolmente la presenza di righe spettrali: il gas (o meglio, gli elettroni) assorbono la luce solo se la luce trasporta *esattamente* la differenza di energia tra un'orbita e un'altra. A livello sperimentale, le energie trovate empiricamente combaciano con questa teoria solo quanto $h$ vale esattamente lo stesso valore trovato inizialmente nella teoria del [[corpo nero]] e poi quella dell'[[effetto fotoelettrico]].
