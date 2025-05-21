@@ -5,7 +5,7 @@
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": false,
+  "collapse-color-groups": true,
   "colorGroups": [
     {
       "query": "path:\"Introduzione all'Astrofisica\"",
@@ -137,6 +137,6 @@
   "repelStrength": 12.0003255208333,
   "linkStrength": 0.950276692708333,
   "linkDistance": 250,
-  "scale": 0.18803809413127862,
+  "scale": 0.16933845723824076,
   "close": false
 }
