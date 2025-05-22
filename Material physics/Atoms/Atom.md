@@ -11,8 +11,8 @@ An atom is composed of two parts: a central [[Nucleo atomico|atomic nucleus]] an
 1. The **atomic nucleus** is the center of the system. It is an approximately spherical object composed **[[proton|protons]]** and **[[neutron|neutrons]]** bound to each other through [[Interazione forte|strong interaction]]. It is positively [[Electric charge|charged]] and has a radius of approximately $\sim10^{-13}$ cm or $\sim1$ fm.
 2. The **electron cloud** surrounds the nucleus. It is a collection of one or more negatively charged electrons bound by [[Interazione elettromagnetica|electromagnetic interaction]] to the nucleus. The radius of the electron cloud depends on the amount of electrons and their energy level, but roughly speaking, it is on the order of $\sim10^{-8}$ cm or $\sim0.1$ nm. The Angstrom is also commonly used, $1\ \mathring{\mathrm{A}}\equiv 0.1\text{ nm}$.
 
-This shape was proven by the [[Rutherford experiment]].
-
+This shape was proven empirically in 1911 by the [[Rutherford experiment]].
+### Notation
 Atoms conventionally use then notation $_{Z}^{A}\mathrm{X}_{N}$, where:
 - $\mathrm{X}$ is the chemical symbol.
 - $Z$ is the number of protons, called the **atomic number** or **nuclear charge**. In a neutral atom, it is also the number of electrons.
@@ -20,5 +20,3 @@ Atoms conventionally use then notation $_{Z}^{A}\mathrm{X}_{N}$, where:
 - $N$ is the **number of neutrons**. It is equal to $A - Z$.
 
 For example, uranium (at least, the most common [[isotopo|isotope]]) is written as $_{92}^{238}\mathrm{U}_{146}$, which means that uranium has a mass of (approximately) 238 atomic masses, has 92 protons, and 146 neutrons.
-
-[^1]: Definition by Haken & Wolf.

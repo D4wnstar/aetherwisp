@@ -3,35 +3,35 @@ wiki-publish: true
 aliases:
   - hydrogenoid atom
 ---
-The **hydrogen atom** is the [[atom]] of the element hydrogen, a quantum [[physical system]] made up of a central positive [[Electric charge|charge carrier]] (a [[proton]]) and a negative charge carrier (an [[Elettrone|electron]]) surrounding it. It is the simplest case of a broader class of objects called **hydrogenoid atoms** which may possess more central charges, that is, a full atomic [[Nucleo atomico|nucleus]].
+The **hydrogen atom** is the [[atom]] of the element hydrogen, a quantum [[physical system]] made up of a central positive [[Electric charge|charge carrier]] (a [[proton]]) and a negative charge carrier (an [[Elettrone|electron]]) surrounding it. It is the simplest case of a broader class of objects called **hydrogenoid atoms** which may possess a stronger central charge, that is, a full atomic [[Nucleo atomico|nucleus]].
 
 ![[Schema modello idrogeno|center]]
 
 The [[Hamiltonian]] for the [[Equazione di Schrödinger|Schrödinger equation]] of the hydrogen atom is
-$$\hat{H}=- \frac{\hbar^{2}}{2M}\nabla ^{2}_{R}- \frac{\hbar^{2}}{2m}\nabla^{2}_{r}- \frac{Ze^{2}}{4\pi \varepsilon_{0}r}$$
-where $M$ is the [[mass]] of the nucleus, $m$ is the mass of the electron, $\hbar$ is the [[Planck constant|reduced Planck constant]], $Z$ is the [[Atom|atomic number]] (the number of protons), $\varepsilon_{0}$ is the [[Vacuum permittivity|electric permittivity of the vacuum]] and $r$ is the distance of the electron from the nucleus. The last term is the [[potential energy]] due to [[Interazione elettromagnetica|electromagnetic attraction]]. This Hamiltonian is not explicitly dependent on the [[spin]] of the electron.
-### In spherical coordinates
-Since we have a central potential, it is best to rewrite the equation in [[spherical coordinates]], as we have a general solution for the equation in this form. We can do so by introducing the [[Momento angolare quantistico|quantum angular momentum]] $\hat{L}=\hat{r}\times \hat{p}=-i\hbar (\hat{r}\times \nabla)$[^1] and rewriting in the [[frame of reference]] of the [[center of mass]]. We define the reduced mass as
+$$\hat{H}=- \frac{\hbar^{2}}{2M}\nabla ^{2}_{R}- \frac{\hbar^{2}}{2m}\nabla^{2}_{r_{e}}- \frac{Ze^{2}}{4\pi \varepsilon_{0}r_{e}}$$
+where $M$ is the [[mass]] of the nucleus, $m$ is the mass of the electron, $\hbar$ is the [[Planck constant|reduced Planck constant]], $Z$ is the [[Atom|atomic number]] (the number of protons), $\varepsilon_{0}$ is the [[Vacuum permittivity|electric permittivity of the vacuum]] and $r_{e}$ is the distance of the electron from the nucleus. The last term is the [[potential energy]] due to [[Interazione elettromagnetica|electromagnetic attraction]]. This Hamiltonian is not explicitly dependent on the [[spin]] of the electron.
+### Derivation
+Since we have a central potential, the system lends itself well to be rewritten in [[spherical coordinates]], as the Schrödinger equation has a general solution in this form. To do so, we make a first [[coordinate transformation]] to the [[frame of reference]] of the [[center of mass]]. We define the reduced mass as usual:
 $$\mu=\frac{Mm}{M+m}$$
-Using $\mu$ and shifting the [[Laplacian]] to use the coordinates of the center of mass, the equation becomes
-$$\hat{H}\psi(r)=\left[ - \frac{\hbar^{2}}{2\mu} \nabla ^{2}- \frac{Ze^{2}}{4\pi \varepsilon_{0}r}\right]\psi(r)=E\psi(r)$$
-The spherical [[Coordinate transformation]] to [[Cartesian coordinates]] is
+Then, using $\mu$ and expressing the [[Laplacian]] in the relative coordinate $\mathbf{r}=\mathbf{r}_{e}-\mathbf{R}$, the equation becomes
+$$\hat{H}\psi(r)=\left[ - \frac{\hbar^{2}}{2\mu} \nabla ^{2}_{r}- \frac{Ze^{2}}{4\pi \varepsilon_{0}r}\right]\psi(r)=E\psi(r)$$
+Then, the spherical coordinate transformation from [[Cartesian coordinates]] is
 $$\begin{cases}
 x=r\sin \theta \cos \phi \\
 y=r\sin \theta \sin \phi \\
 z=r\cos \theta
 \end{cases},\quad-\pi\leq \theta\leq \pi,\quad 0\leq \phi\leq 2\pi$$
-With this we can express the Laplacian in spherical coordinates. Hiding the potential behind $V(r)$ for brevity, the equation becomes
+With this we can express the Laplacian in spherical coordinates. Hiding the potential behind $V(r)$ for brevity, the Hamiltonian operator in spherical coordinates is
 $$\begin{align}
 \hat{H}&=- \frac{\hbar^{2}}{2\mu}\left[ \frac{1}{r^{2}}\frac{ \partial  }{ \partial r } \left( r^{2}\frac{ \partial  }{ \partial r }  \right)+ \frac{1}{r^{2}\sin \theta}\frac{ \partial  }{ \partial \theta } \left( \sin \theta \frac{ \partial  }{ \partial \theta }  \right)+ \frac{1}{r^{2}\sin ^{2}\theta}\frac{ \partial ^{2}  }{ \partial \phi ^{2} }  \right]+V(r) \\
 \end{align}$$
-Expressing the [[gradient]] in spherical coordinates, we similarly get
+We now introduce what is arguably the key component of the system: the [[Momento angolare quantistico|quantum angular momentum]] $\hat{L}=\hat{r}\times \hat{p}=-i\hbar (\hat{r}\times \nabla)$[^1]. It is so important because if we express the [[gradient]] in spherical coordinates, then take the square, we get the equation
 $$\hat{L}^{2}=-\hbar^{2}\left[ \frac{1}{\sin \theta}\frac{ \partial  }{ \partial \theta } \left( \sin \theta \frac{ \partial  }{ \partial \theta }\right) + \frac{1}{\sin ^{2} \theta}\frac{ \partial ^{2} }{ \partial \phi ^{2} }  \right]$$
-We can see $\hat{L}^{2}$ come up in the Hamiltonian, so we substitute it to get
+We can see that $\hat{L}^{2}$ comes up perfectly in the Hamiltonian, so with a simple substitution we find
 $$\hat{H}=- \frac{\hbar^{2}}{2\mu}\left[ \frac{1}{r^{2}}\frac{ \partial  }{ \partial r } \left( r^{2}\frac{ \partial  }{ \partial r }  \right)- \frac{\hat{L}^{2}}{\hbar^{2}r^{2}} \right]+V(r)$$
 With this, the spherical Schrödinger equation for the hydrogen atom is
 $$\boxed{\left[ - \frac{\hbar^{2}}{2\mu r^{2}}\frac{ \partial  }{ \partial r } \left( r^{2}\frac{ \partial  }{ \partial r }  \right)+ \frac{\hat{L}^{2}}{2\mu r^{2}}- \frac{Ze^{2}}{4\pi \varepsilon_{0}r} \right]\psi(r,\theta,\phi)=E\psi(r,\theta,\phi)}$$
-where the angular dependence of the system was grouped inside of the angular momentum. As usual, the square angular momentum, the momentum on one axis ($z$) and the Hamiltonian all commute, $[\hat{L}^{2},\hat{L}_{z}]=[\hat{L}^{2},\hat{H}]=[\hat{L}_{z},\hat{H}]=0$, so they all share simultaneous eigenstates.
+where the angular dependence of the system is entirely contained inside the angular momentum. As usual, the square angular momentum, the momentum on one axis ($z$) and the Hamiltonian all commute, $[\hat{L}^{2},\hat{L}_{z}]=[\hat{L}^{2},\hat{H}]=[\hat{L}_{z},\hat{H}]=0$, so they all share simultaneous eigenstates. This sets the foundation of our final solution.
 
 For a general solution of this equation in spherical coordinates, using a generic potential $V$, see [[Equazione di Schrödinger#Soluzione tridimensionale]]. In there, we set $\psi(r,\theta,\phi)=R(r)Y(\theta,\phi)$, find that the angular component $Y(\theta,\phi)$ of the solution is universal and completely independent on the potential. The radial component instead depends on $V$ and we must solve it uniquely for each the potential. As such, our next challenge is solving the radial component for our $V$.
 #### Angular part

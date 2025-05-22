@@ -6,7 +6,7 @@ aliases:
 ---
 Il **nucleo atomico** è la regione centrale di un [[Atom]], composta da [[protone|protoni]] e [[neutrone|neutroni]] (detti [[Nucleone|nucleoni]] in questo contesto) legati fra loro dall'[[Interazione fondamentale#Interazione forte|interazione forte]]. Il nucleo contiene quasi tutta la massa dell'atomo e ha carica netta positiva.
 ### Scoperta
-La presenza di un nucleo denso presente al centro dell'atomo fu scoperto da Rutherford nel 1911 con l'[[Esperimento di Rutherford]].
+La presenza di un nucleo denso presente al centro dell'atomo fu scoperto da Rutherford nel 1911 con l'[[Rutherford experiment]].
 ### Stabilità
 Non tutti i nuclei sono ugualmente stabili. Il numero di [[Nuclide|nuclidi]] stabili è molto minore di quello di rispetto a quello di nuclidi instabili, fatto che si può vedere nel piano $Z$-$N$ ove i nuclei stabili occupano solo una stretta fascia, con i più stabili che sono il $^{56}Fe$ e il $^{58}Ni$.
 

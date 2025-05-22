@@ -1,5 +1,5 @@
 ### Atomic physics
-- [[Atom]]
+- [[Atom]], [[Rutherford experiment]]
 - [[Momento angolare quantistico]], [[Stern-Gerlach experiment]]
 - [[Hydrogen atom]], [[Spin]], [[Struttura fine]]
 - [[Laser]]
