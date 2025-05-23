@@ -7,12 +7,12 @@ Sono tutte e tre [[Operatore autoaggiunto|autoaggiunte]], ossia $\hat{\sigma}_{i
 
 È comune anche usare gli indici $(1,2,3)$ anziché $(x,y,z)$.
 ### Proprietà
-I quadrati sono tutti unitari:
-$$\hat{\sigma}_{x}^{2}=\left(\matrix{0 & 1 \\ 1 & 0}\right)\left(\matrix{0 & 1 \\ 1 & 0}\right)=\left(\matrix{1 & 0 \\ 0 & 1}\right)=\hat{\mathbf{1}}$$
-$$\hat{\sigma}_{y}^{2}=\left(\matrix{0 & -i \\ i & 0}\right)\left(\matrix{0 & -i \\ i & 0}\right)=\left(\matrix{1 & 0 \\ 0 & 1}\right)=\hat{\mathbf{1}}$$
-$$\hat{\sigma}_{z}^{2}=\begin{pmatrix}1 & 0 \\ 0 & -1\end{pmatrix}\begin{pmatrix}1 & 0 \\ 0 & -1\end{pmatrix}=\begin{pmatrix}1 & 0 \\ 0 & 1\end{pmatrix}=\hat{\mathbf{1}}$$
+I quadrati sono tutti la [[Identity matrix|matrice identica]] in due dimensioni:
+$$\hat{\sigma}_{x}^{2}=\left(\matrix{0 & 1 \\ 1 & 0}\right)\left(\matrix{0 & 1 \\ 1 & 0}\right)=\left(\matrix{1 & 0 \\ 0 & 1}\right)=\mathrm{I}_{2}$$
+$$\hat{\sigma}_{y}^{2}=\left(\matrix{0 & -i \\ i & 0}\right)\left(\matrix{0 & -i \\ i & 0}\right)=\left(\matrix{1 & 0 \\ 0 & 1}\right)=\mathrm{I}_{2}$$
+$$\hat{\sigma}_{z}^{2}=\begin{pmatrix}1 & 0 \\ 0 & -1\end{pmatrix}\begin{pmatrix}1 & 0 \\ 0 & -1\end{pmatrix}=\begin{pmatrix}1 & 0 \\ 0 & 1\end{pmatrix}=\mathrm{I}_{2}$$
 ### Matrice $\hat{\sigma}_{z}$
-Tutte le matrici hanno una rappresentazione nella [[base]] dei propri [[Equazione agli autovalori|autovettori]]. Per la matrice $\hat{\sigma}_{z}$, gli [[Equazione agli autovalori|autostati]] spin up e down sull'asse $z$ sono
+Tutte le matrici hanno una rappresentazione nella [[basis|base]] dei propri [[Equazione agli autovalori|autovettori]]. Per la matrice $\hat{\sigma}_{z}$, gli [[Equazione agli autovalori|autostati]] spin up e down sull'asse $z$ sono
 $$|\uparrow z\rangle=\left(\matrix{1 \\ 0}\right)\qquad|\downarrow z\rangle=\left(\matrix{0 \\ 1}\right)$$
 e possiamo trovare i loro autovalori rispetto alla matrici $z$
 $$\hat{\sigma}_{z}|\uparrow z\rangle=|\uparrow z\rangle,\qquad\hat{\sigma}_{z}|\downarrow z\rangle=-|\downarrow z\rangle$$
@@ -77,31 +77,31 @@ La matrice $\hat{\sigma}_{n}$ è importante per poter trattare momenti angolari 
 > Usiamo la definizione di prodotto riga per colonna
 > $$\hat{\sigma}_{n_{1}}\hat{\sigma}_{n_{2}}=\sum_{j=x,y,z;\ k=x,y,z} \hat{\sigma}_{j}n_{1,j}\hat{\sigma}_{k}n_{2,k}=\ldots$$
 > Distinguiamo questa somma in due somme, una quando gli indici sono uguali e una quando gli indici sono diversi
-> $$\ldots=\sum_{j=k} \underbrace{ \hat{\sigma}_{j}\hat{\sigma}_{j} }_{ \hat{\mathbf{1}} }n_{1,j}n_{2,j}+\sum_{j\neq k} \hat{\sigma}_{j}\hat{\sigma}_{k}n_{1,j}n_{2,k}=\ldots$$
+> $$\ldots=\sum_{j=k} \underbrace{ \hat{\sigma}_{j}\hat{\sigma}_{j} }_{ \mathrm{I}_{2} }n_{1,j}n_{2,j}+\sum_{j\neq k} \hat{\sigma}_{j}\hat{\sigma}_{k}n_{1,j}n_{2,k}=\ldots$$
 > dato che il quadrato di una matrice di Pauli è la matrice identica. Ma allora il primo termine diventa
 > $$\ldots=\hat{\mathbf{n}}_{1}\cdot\hat{\mathbf{n}}_{2}+\sum_{j\neq k} \hat{\sigma}_{j}\hat{\sigma}_{k}n_{1,j}n_{2,k}=\ldots$$
-> dove è stata omessa la matrice identica per semplicità (più correttamente, il primo termine dovrebbe essere $(\hat{\mathbf{n}}_{1}\cdot \hat{\mathbf{n}}_{2})\hat{\mathbf{1}}$). Per il secondo termine possiamo usare la relazione con il tensore di Levi-Civita
+> dove è stata omessa la matrice identica per semplicità (più correttamente, il primo termine dovrebbe essere $(\hat{\mathbf{n}}_{1}\cdot \hat{\mathbf{n}}_{2})\mathrm{I}_{2}$). Per il secondo termine possiamo usare la relazione con il tensore di Levi-Civita
 > $$\ldots=\hat{\mathbf{n}}_{1}\cdot \hat{\mathbf{n}}_{2}+i\sum_{i=j}\epsilon_{ijk}n_{i}n_{j}\hat{\sigma}_{k}=\ldots$$
 > ma i termini della somma sono solo [[Vector product|prodotti vettoriali]] in forma tensoriale:
 > $$\ldots=\hat{\mathbf{n}}_{1}\cdot \hat{\mathbf{n}}_{2}+\sum_{i=x,y,z}(\hat{\mathbf{n}}_{1}\times \hat{\mathbf{n}}_{2})\hat{\sigma}_{i}$$
 > ma la seconda somma adesso è un prodotto scalare, quindi ci rimane
 > $$\hat{\sigma}_{n_{1}}\hat{\sigma}_{n_{2}}=\hat{\mathbf{n}}_{1}\cdot \hat{\mathbf{n}}_{2}+(\hat{\mathbf{n}}_{1}\times \hat{\mathbf{n}}_{2})\cdot \hat{\boldsymbol{\sigma}}$$
-> Questa matrice continua ad essere hermitiana e con quadrato unitario $(\hat{\sigma}_{n_{1}}\hat{\sigma}_{n_{2}})^{2}=\hat{\mathbf{1}}$.
+> Questa matrice continua ad essere hermitiana e con quadrato unitario $(\hat{\sigma}_{n_{1}}\hat{\sigma}_{n_{2}})^{2}=\mathrm{I}_{2}$.
 
 È interessare studiare quali sono i due [[Proiettore|proiettori]] di $\hat{\sigma}_{n}$, $\hat{P}_{+n}$ e $\hat{P}_{-n}$. Dato che gli autovalori di $\hat{\sigma}_{n}$ sono sempre $1$ e $-1$, possiamo usare la [[rappresentazione spettrale]]:
 $$\hat{\sigma}_{n}=\hat{P}_{+n}-\hat{P}_{-n}$$
-Vogliamo quindi trovare che forma hanno i proiettori. Intanto, vale la relazione di completezza $\hat{P}_{+n}+\hat{P}_{-n}=\hat{\mathbf{1}}$ e sappiamo che $\hat{\sigma}_{n}$ è la differenza tra due proiettori. Ora abbiamo due equazioni che possiamo risolvere:
+Vogliamo quindi trovare che forma hanno i proiettori. Intanto, vale la relazione di completezza $\hat{P}_{+n}+\hat{P}_{-n}=\mathrm{I}_{2}$ e sappiamo che $\hat{\sigma}_{n}$ è la differenza tra due proiettori. Ora abbiamo due equazioni che possiamo risolvere:
 $$\begin{cases}
 \hat{\sigma}_{n}=\hat{P}_{+n}-\hat{P}_{-n} \\
-\hat{\mathbf{1}}=\hat{P}_{+n}+\hat{P}_{-n}
+\mathrm{I}_{2}=\hat{P}_{+n}+\hat{P}_{-n}
 \end{cases}\quad\Rightarrow \quad \begin{cases}
-\hat{P}_{+n}=\frac{\hat{\mathbf{1}}+\hat{\sigma}_{n}}{2} \\
-\hat{P}_{-n}=\frac{\hat{\mathbf{1}}-\hat{\sigma}_{n}}{2}
+\hat{P}_{+n}=\frac{\mathrm{I}_{2}+\hat{\sigma}_{n}}{2} \\
+\hat{P}_{-n}=\frac{\mathrm{I}_{2}-\hat{\sigma}_{n}}{2}
 \end{cases}$$
 Per essere sicuri che questi siano effettivamente gli autoproiettori di $\hat{\sigma}_{n}$, dobbiamo verificare che siano [[idempotence|idempotenti]] e [[Orthogonality|ortogonali]] fra loro. Per l'idempotenza
-$$\hat{P}_{\pm n}^{2}=\frac{1}{4} (\hat{\mathbf{1}}+\hat{\mathbf{1}} \pm2\hat{\sigma}_{n})=\frac{\hat{\mathbf{1}}\pm\hat{\sigma}_{n}}{2}=\hat{P}_{\pm n}$$
+$$\hat{P}_{\pm n}^{2}=\frac{1}{4} (\mathrm{I}_{2}+\mathrm{I}_{2} \pm2\hat{\sigma}_{n})=\frac{\mathrm{I}_{2}\pm\hat{\sigma}_{n}}{2}=\hat{P}_{\pm n}$$
 che dimostra siano proiettori, e per l'ortogonalità
-$$\hat{P}_{+n}\hat{P}_{-n}=\frac{1}{4}(\hat{\mathbf{1}}-\hat{\mathbf{1}}-\hat{\sigma}_{n}+\hat{\sigma}_{n})=0$$
+$$\hat{P}_{+n}\hat{P}_{-n}=\frac{1}{4}(\mathrm{I}_{2}-\mathrm{I}_{2}-\hat{\sigma}_{n}+\hat{\sigma}_{n})=0$$
 che dimostra siano autoproiettori.
 ### Esempi fisici
 > [!example] Magnetone di Bohr
@@ -114,13 +114,13 @@ che dimostra siano autoproiettori.
 > Ci interessa trovare come questo sistema evolve nel tempo. Possiamo trovare l'[[evolutore]] dell'Hamiltoniana quantistica:
 > $$\hat{U}_{t}=e^{-i \hat{H}t/\hbar}=e^{i (\hbar/2)\omega \hat{\sigma}_{n}t/\hbar}=e^{i\omega t\hat{\sigma}_{n}/2}$$
 > Usando la [[Serie esponenziale]] abbiamo
-> $$e^{i\omega t \hat{\sigma}_{n}/2}=\sum_{n=1}^{\infty} \frac{\left( i \frac{\omega t}{2} \hat{ \sigma}_{n} \right)^{n}}{n!}=\sum_{n=1}^{\infty} \frac{\left( i \frac{\omega t}{2} \right)^{2n}}{(2n)!}\hat{\mathbf{1}}+\sum_{n=1}^{\infty} \frac{\left( i \frac{\omega t}{2} \right)^{2n+1}}{(2n+1)!} \hat{\sigma}_{n}=\ldots$$
-> dato che $\hat{\sigma}_{n}^{2}=\hat{\mathbf{1}}$ e dividendo la serie in due serie, una in indici pari e una in indici dispari. Ricordando che $i^{2n}=(i^{2})^{n}=(-1)^{n}$ e $i^{2n+1}=ii^{2n}=i(-1)^{n}$ abbiamo
-> $$\ldots=\hat{\mathbf{1}}\sum_{n=1}^{\infty} \frac{(-1)^{n}}{(2n)!} \left( \frac{\omega t}{2} \right)^{2n}+\hat{\sigma}_{n}i\sum_{n=1}^{\infty} \frac{(-1)^{n}}{(2n+1)!}\left( \frac{\omega t}{2} \right)^{2n}$$
+> $$e^{i\omega t \hat{\sigma}_{n}/2}=\sum_{n=1}^{\infty} \frac{\left( i \frac{\omega t}{2} \hat{ \sigma}_{n} \right)^{n}}{n!}=\sum_{n=1}^{\infty} \frac{\left( i \frac{\omega t}{2} \right)^{2n}}{(2n)!}\mathrm{I}_{2}+\sum_{n=1}^{\infty} \frac{\left( i \frac{\omega t}{2} \right)^{2n+1}}{(2n+1)!} \hat{\sigma}_{n}=\ldots$$
+> dato che $\hat{\sigma}_{n}^{2}=\mathrm{I}_{2}$ e dividendo la serie in due serie, una in indici pari e una in indici dispari. Ricordando che $i^{2n}=(i^{2})^{n}=(-1)^{n}$ e $i^{2n+1}=ii^{2n}=i(-1)^{n}$ abbiamo
+> $$\ldots=\mathrm{I}_{2}\sum_{n=1}^{\infty} \frac{(-1)^{n}}{(2n)!} \left( \frac{\omega t}{2} \right)^{2n}+\hat{\sigma}_{n}i\sum_{n=1}^{\infty} \frac{(-1)^{n}}{(2n+1)!}\left( \frac{\omega t}{2} \right)^{2n}$$
 > Ma queste sono le [[sine and cosine series|serie del seno e del coseno]], quindi
-> $$\hat{U}_{t}=e^{i\omega t \hat{ \sigma}_{n}/2}=\cos \frac{\omega t}{2}\hat{\mathbf{1}}+i \hat{\sigma}_{n}\sin \frac{\omega t}{2}$$
+> $$\hat{U}_{t}=e^{i\omega t \hat{ \sigma}_{n}/2}=\cos \frac{\omega t}{2}\mathrm{I}_{2}+i \hat{\sigma}_{n}\sin \frac{\omega t}{2}$$
 > Allora, se partiamo dallo [[stato]] $\ket{\psi}$, al tempo $t$ saremo nello stato
-> $$\ket{\psi_{t}}=\left(\cos \frac{\omega t}{2}\hat{\mathbf{1}}+i \hat{\sigma}_{n}\sin \frac{\omega t}{2}\right)\ket{\psi} $$
+> $$\ket{\psi_{t}}=\left(\cos \frac{\omega t}{2}\mathrm{I}_{2}+i \hat{\sigma}_{n}\sin \frac{\omega t}{2}\right)\ket{\psi} $$
 > Essendo un sistema a spin 1/2, ci sono solo due possibili autostati, $\ket{\uparrow n}$ e $\ket{\downarrow n}$. Vogliamo sapere che [[Probability|probabilità]] abbiamo di trovarci nell'uno o nell'altro al tempo $t$. Assumendo che lo spin sia sull'asse $z$ e che si parta dallo stato $\ket{\uparrow z}$, la probabilità di essere in $\ket{\uparrow z}$ dopo del tempo $t$ è
 > $$\text{Prob}(\uparrow z|\uparrow z)=\lvert \braket{ \uparrow z | \hat{U}_{t} \uparrow z } \rvert^{2} $$
 > che rappresenta la [[Conditional distribution function|probabilità condizionata]] di avere lo stato $\ket{\uparrow z}$ al tempo $t$ sapendo di partire dallo stato $\ket{\uparrow z}$. Analogamente per ogni altra combinazione di spin up o down.

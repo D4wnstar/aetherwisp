@@ -20,19 +20,19 @@ Come per il momento angolare orbitale, si trova che valgono le equazioni
 $$S^{2}|sm_{s}\rangle=\hbar^{2}s(s+1)|sm_{s}\rangle, \quad S_{z}|sm_{s}\rangle=\hbar m_{s} |sm_{s}\rangle\tag{1}$$
 dove si usano i [[Notazione braket|ket]] per ricordare che gli autostati dello spin *non sono funzioni* e quindi non dovrebbero essere rappresentati come tali[^2]. Gli [[operatori di creazione e distruzione]] usati nella dimostrazione sono
 $$S_{\pm}|sm\rangle=\hbar\sqrt{s(s+1)-m(m\pm1)}|s(m\pm1)\rangle$$
-con $S_{\pm}=S_{x}\pm iS_{y}$. In questo caso le autofunzioni non sono le [[Armoniche sferiche]] (di fatto, non c'è neanche una dipendenza da $\theta$ e $\phi$) e non c'è alcuna ragione per escludere valori di mezzo intero per $s$ e $m_{s}$, che possono quindi avere valori
+con $S_{\pm}=S_{x}\pm iS_{y}$. In questo caso le autofunzioni non sono le [[Spherical harmonics]] (di fatto, non c'è neanche una dipendenza da $\theta$ e $\phi$) e non c'è alcuna ragione per escludere valori di mezzo intero per $s$ e $m_{s}$, che possono quindi avere valori
 $$s=0,\frac{1}{2},1,\frac{3}{2},\ldots; \quad m_{s}=-s,-s+1,\ldots,0,\ldots,s-1,s$$
 $s$ è detto il **[[numero quantico]] di spin** e si trova che ogni singola particella elementare ha un valore costante e immutabile di $s$, che si dice essere lo spin della particella. Questo è diverso dal momento orbitale, che invece dipende dallo [[stato]] in cui si trova la particella.
 
-Dato che le componenti sono intercambiabili fra loro con una permutazione ciclica, gli autovalori sono gli stessi per tutte le componenti. Quindi, per esempio, sapendo gli autovalori di $S_{z}$ si sanno automaticamente anche quelli di $S_{x}$ e $S_{y}$.
+Dato che le componenti sono intercambiabili fra loro con una permutazione ciclica, l'equazione per gli autovalori è la stessa per tutte le componenti.
 ### Spin 1/2
 Il caso dello spin $s=1/2$ è di gran lunga il più importante, dato che tutte le particelle che compongono la materia ordinaria ([[protone]], [[neutrone]], [[Elettrone]]) hanno spin 1/2, così come tutti i [[quark]] e tutti i [[Leptone|leptoni]].
 
-Ha anche la fortuna di essere il caso più facile possibile, grazie al fatto che esistono solo due possibili autostati per $s$ e $m_{s}$: $| \frac{1}{2},\frac{1}{2}\rangle$ e $| \frac{1}{2}, -\frac{1}{2}\rangle$. Questi due stati vengono comunemente chiamati **spin up** $\uparrow$ e **spin down** $\downarrow$. I vettori che rappresentano questi due stati compongono una [[base]] in $\mathbb{C}^{2}$ e possono dunque essere combinati linearmente per creare stati misti espressi come vettori colonna bidimensionali (ossia degli [[spinore|spinori]]):
+Ha anche la fortuna di essere il caso più facile possibile, grazie al fatto che esistono solo due possibili autostati per $s$ e $m_{s}$: $| \frac{1}{2},\frac{1}{2}\rangle$ e $| \frac{1}{2}, -\frac{1}{2}\rangle$. Questi due stati vengono comunemente chiamati **spin up** $\uparrow$ e **spin down** $\downarrow$. I vettori che rappresentano questi due stati compongono una [[basis|base]] in $\mathbb{C}^{2}$ e possono dunque essere combinati linearmente per creare stati misti espressi come vettori colonna bidimensionali (ossia degli [[spinore|spinori]]):
 $$\chi=\begin{pmatrix}a \\ b\end{pmatrix}=a |\uparrow\;\rangle+b |\downarrow\;\rangle$$
 con
 $$|\uparrow\;\rangle=\begin{pmatrix}1 \\0 \end{pmatrix}, \quad |\downarrow\;\rangle=\begin{pmatrix}0 \\ 1\end{pmatrix}$$
-$\chi$ è anche detto [[qubit]], dato che generalizza il concetto di bit classico.
+$\chi$ è anche detto [[qubit]], dato che generalizza il concetto di bit classico aggiungendo anche tutti i possibili stati intermedi fra 0 e 1.
 
 In questo spazio, gli operatori di spin non sono altro che matrici $2\times 2$, che possiamo esprimere tramite il loro effetto su $|\uparrow\;\rangle$ e $|\downarrow\;\rangle$. Dalla $(1)$ si trova
 $$\mathbf{S}^{2}|\uparrow\;\rangle=\frac{3}{4}\hbar^{2}|\uparrow\;\rangle, \quad \mathbf{S}^{2}|\downarrow\;\rangle=\frac{3}{4}\hbar^{2}|\downarrow\;\rangle$$
@@ -42,12 +42,31 @@ e calcolando esplicitamente le equazioni sopra
 $$\begin{pmatrix}c & d \\ e & f\end{pmatrix}\begin{pmatrix}1 \\ 0\end{pmatrix}=\frac{3}{4}\hbar^{2}\begin{pmatrix}1 \\ 0\end{pmatrix}\quad \Rightarrow \quad \begin{pmatrix}c \\ e\end{pmatrix}=\begin{pmatrix} \frac{3}{4}\hbar^{2} \\ 0\end{pmatrix}$$
 $$\begin{pmatrix}c & d \\ e & f\end{pmatrix}\begin{pmatrix}0 \\ 1\end{pmatrix}=\frac{3}{4}\hbar^{2}\begin{pmatrix}0 \\ 1\end{pmatrix}\quad \Rightarrow \quad \begin{pmatrix}d \\ f\end{pmatrix}=\begin{pmatrix}0 \\ \frac{3}{4}\hbar^{2}\end{pmatrix}$$
 Allora vale
-$$\mathbf{S}^{2}=\frac{3}{4}\hbar^{2}\begin{pmatrix}1 & 0 \\ 0 & 1\end{pmatrix}$$
+$$\mathbf{S}^{2}=\frac{3}{4}\hbar^{2}\begin{pmatrix}1 & 0 \\ 0 & 1\end{pmatrix}=\frac{3}{4}\hbar ^{2}\mathrm{I}_{2}$$
+dove $\mathrm{I}_{2}$ non è altro che la [[Identity matrix|matrice identica]] in due dimensioni. Allora, gli autovalori e autovettori di $\mathbf{S}^{2}$ per spin 1/2 sono quelli della matrice identica, scalati per $\frac{3}{4}\hbar ^{2}$:
+$$\boxed{(\hat{S}^{2})\quad\text{autovalori}:\frac{3}{4}\hbar ^{2},\quad\text{autovettori}:\begin{pmatrix}
+1 \\
+0
+\end{pmatrix},\quad \begin{pmatrix}
+0 \\
+1
+\end{pmatrix}}$$
+dove l'autovalore è unico con molteplicità 2 (sia algebrica che geometrica). Come per la matrice identica, tutti i vettori in $\mathbb{R}^{2}$ sono autovettori: la scelta di base qui sopra è convenzionale dato che è la base canonica.
 
 Con lo stesso procedimento si trova
 $$\mathbf{S}_{z}|\uparrow\;\rangle=\frac{\hbar}{2}|\uparrow\;\rangle, \quad \mathbf{S}_{z}|\downarrow\;\rangle=-\frac{\hbar}{2}|\downarrow\;\rangle$$
 e quindi
 $$\mathbf{S}_{z}=\frac{\hbar}{2}\begin{pmatrix}1 & 0 \\ 0 & -1\end{pmatrix}$$
+Dato che la matrice è già [[Diagonalization|diagonale]], gli autovalori vengono dai termini della diagonale e gli autovettori sono qualunque multiplo dei vettori della base canonica:
+$$\boxed{(\hat{S}_{z})\quad\text{autovalori}: \pm\frac{\hbar}{2},\quad\text{autovettori}:\begin{pmatrix}
+1 \\
+0
+\end{pmatrix},\quad \begin{pmatrix}
+0 \\
+1
+\end{pmatrix}}$$
+Alternativamente, è possibile scegliere ad esempio $(0,-1)$ anziché $(0,1)$ come secondo autovettore, come accade ad esempio nello studio dell'[[Hydrogen atom|atomo di idrogeno]]; la scelta è puramente convenzionale.
+
 Anche per gli operatori $S_{\pm}$ si ha
 $$\mathbf{S}_{+}|\downarrow\;\rangle=\hbar |\uparrow\;\rangle, \quad \mathbf{S}_{-}|\uparrow\;\rangle=\hbar |\downarrow\;\rangle, \quad \mathbf{S}_{+}|\uparrow\;\rangle=\mathbf{S}_{-}|\downarrow\;\rangle=0$$
 da cui
@@ -58,8 +77,8 @@ $$\mathbf{S}_{x}=\frac{\hbar}{2}\begin{pmatrix}0 & 1 \\ 1 & 0\end{pmatrix}, \qua
 Capita che $\mathbf{S}_{x}$, $\mathbf{S}_{y}$ e $\mathbf{S}_{z}$ hanno tutte un fattore di $\hbar/2$, quindi è possibile esprimere l'operatore di spin nella forma compatta
 $$\boxed{\hat{\mathbf{S}}=\frac{\hbar}{2}\hat{\sigma}}$$
 dove $\hat{\sigma}$ sono le matrici delle tre componenti, dette [[matrici di Pauli]]. È anche notevole il fatto che $\mathbf{S}_{+}$ e $\mathbf{S}_{-}$ non siano [[Operatore autoaggiunto|autoaggiunte]], il che significa che non sono [[osservabile|osservabili]].
-
-Gli autovettori (tecnicamente autospinori) di $\mathbf{S}_{z}$ sono $|\uparrow\;\rangle$ e $|\downarrow\;\rangle$, con autovalori rispettivamente $\pm \hbar/2$. Se si andasse a misurare $S_{z}$ su una particella nello stato $\chi$, si avrebbe la probabilità $|a|^{2}$ di ottenere $\hbar/2$ e $|b|^{2}$ di ottenere $-\hbar/2$. Dato che sono gli unici casi permessi e la probabilità deve essere normalizzata, vale
+#### Misure
+Gli autovalori di $\mathbf{S}_{z}$ sono $\pm \hbar/2$. Se si andasse a misurare $S_{z}$ su una particella nello stato misto $\chi$, si avrebbe la probabilità $|a|^{2}$ di ottenere $\hbar/2$ e $|b|^{2}$ di ottenere $-\hbar/2$. Dato che sono gli unici casi permessi e la probabilità deve essere normalizzata, vale
 $$|a|^{2}+|b|^{2}=1$$
 In altre parole, $|a|^{2}$ è la probabilità che la [[funzione d'onda]] della particella collassi in $|\uparrow\;\rangle$, mentre $|b|^{2}$ è la probabilità che collassi in $|\downarrow\;\rangle$.
 
@@ -148,5 +167,5 @@ $$\psi(x_{1},x_{2},\ldots,x_{i},\ldots,x_{j},\ldots,x_{N})=-\psi(x_{1},x_{2},\ld
 dove c'è un segno meno rispetto a quella dei bosoni.
 
 [^1]: Per esempio, lo spin della Terra può essere pensato come la somma di tutti i momenti orbitali di ciascun pezzetto di roccia, metallo, terra, albero, ecc. che compone il pianeta.
-[^2]: Se lo fosse, $|sm_{s}\rangle$ rappresenterebbe una funzione determinata dai numeri $s$ e $m_{s}$. Per esempio, le [[Armoniche sferiche]] $Y_{l}^{m}$ potrebbero essere scritte come $|lm\rangle$.
-[^3]: Per essere più precisi, il rapporto giromagnetico può essere espresso in funzione del [[magnetone di Bohr]] $\mu_{B}=e\hbar/2mc$, scalato per un fattore detto *fattore g* pari a $g=2.0023$. Così facendo, il momento di dipolo magnetico è $\gamma=-g\mu_{B}$. Se si approssima $g\simeq2$ e si esprime $\mu_{B}$ in [[unità naturali]] si ottiene $\gamma=-e/m$.
+[^2]: Se lo fosse, $|sm_{s}\rangle$ rappresenterebbe una funzione determinata dai numeri $s$ e $m_{s}$. Per esempio, le [[Spherical harmonics]] $Y_{l}^{m}$ potrebbero essere scritte come $|lm\rangle$.
+[^3]: Per essere più precisi, il rapporto giromagnetico può essere espresso in funzione del [[Bohr magneton|magnetone di Bohr]] $\mu_{B}=e\hbar/2mc$, scalato per un fattore detto *fattore g* pari a $g=2.0023$. Così facendo, il momento di dipolo magnetico è $\gamma=-g\mu_{B}$. Se si approssima $g\simeq2$ e si esprime $\mu_{B}$ in [[unità naturali]] si ottiene $\gamma=-e/m$.

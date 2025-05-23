@@ -39,7 +39,7 @@ $$k=\frac{1}{a}\beta_{nl}$$
 con $\beta_{nl}$ l'$n$-esimo zero della funzione sferica di $l$-esimo ordine. Dunque, le energie permesse sono date da
 $$\boxed{E_{nl}=\frac{\hbar^{2}}{2ma^{2}}\beta^{2}_{nl}}$$
 
-Combinando la parte radiale con le [[Armoniche sferiche]] si ottiene la funzione d'onda
+Combinando la parte radiale con le [[Spherical harmonics]] si ottiene la funzione d'onda
 $$\boxed{\psi_{nlm}(r,\theta,\phi)=A_{nl}\,j_{l}\left(\frac{\beta_{nl}}{a}r\right)Y_{l}^{m}(\theta,\phi)}$$
 con $A_{nl}$ la costante di normalizzazione. Ciascuno livello energetico è $(2l+1)$ volte degenere, dato che ci sono $(2l+1)$ valori di $m$ per ogni $l$.
 

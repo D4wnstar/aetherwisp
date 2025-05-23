@@ -178,7 +178,7 @@ La $(4)$ ci dice che la serie termine appena dopo il primo termine, quindi $v(\r
 $$R_{10}(r)=\frac{c_{0}}{a_{0}}e^{-r/a_{0}}$$
 Normalizzandola si trova
 $$\int_{0}^{\infty}|R_{10}|^{2}r^{2}dr= \frac{|c_{0}|^{2}}{a_{0}^{2}}\int_{0}^{\infty} e^{-2r/a_{0}} r^{2}dr=|c_{0}|^{2} \frac{a_{0}}{4}=1$$
-che significa $c_{0}=2/\sqrt{a_{0}}$. L'[[Armoniche sferiche|armonica sferica]] con $l=0$ e $m=0$ è $Y_{0}^{0}=1/\sqrt{4\pi}$, quindi la funzione d'onda dello stato fondamentale dell'atomo di idrogeno è
+che significa $c_{0}=2/\sqrt{a_{0}}$. L'[[Spherical harmonics|armonica sferica]] con $l=0$ e $m=0$ è $Y_{0}^{0}=1/\sqrt{4\pi}$, quindi la funzione d'onda dello stato fondamentale dell'atomo di idrogeno è
 $$\boxed{\psi_{100}(r,\theta,\phi)=\frac{1}{\sqrt{\pi a^{3}}}e^{-r/a_{0}}}$$
 Livelli di energia più alti ($n\geq2$) presentano degenerazione pari a
 $$d(n)=\sum\limits_{l=0}^{n-1}(2l+1)=n^{2}$$

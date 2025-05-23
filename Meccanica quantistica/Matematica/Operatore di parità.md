@@ -12,7 +12,8 @@ $$\hat{H}=\frac{\hat{p}^{2}}{2m}+ \frac{m\omega ^{2}}{2}\hat{q}^{2}\quad\to \qua
 Usando l'unitarietà e l'autoaggiuntezza
 $$\hat{\pi}\left( \frac{\hat{p}^{2}}{2m}+ \frac{m\omega ^{2}}{2}\hat{q}^{2} \right)\hat{\pi}=\frac{(\hat{\pi}\hat{p}\hat{\pi})^{2}}{2m}+ \frac{m\omega ^{2}}{2}(\hat{\pi}\hat{q}\hat{\pi})^{2}$$
 Calcolando gli operatori separatamente in [[Rappresentazioni dello stato|rappresentazione della posizione]]
-$$(\hat{\pi}\hat{q}\hat{\pi}\psi)(x)=(\hat{q}\hat{\pi}\psi)(-x)=-x(\hat{\pi}\psi)(-x)=-x\psi(x)\quad \forall \psi \in L^{2}(\mathbb{R})$$ossia
+$$(\hat{\pi}\hat{q}\hat{\pi}\psi)(x)=(\hat{q}\hat{\pi}\psi)(-x)=-x(\hat{\pi}\psi)(-x)=-x\psi(x)\quad \forall \psi \in L^{2}(\mathbb{R})$$
+ossia
 $$\hat{\pi}\hat{q}\hat{\pi}=-\hat{q}$$
 e sfruttando l'[[Oscillatore armonico quantistico#Evoluzione temporale|evoluzione temporale]] degli operatori $\hat{q}$ e $\hat{p}$ nell'oscillatore abbiamo immediatamente
 $$\hat{\pi}\hat{p}\hat{\pi}=-\hat{p}$$

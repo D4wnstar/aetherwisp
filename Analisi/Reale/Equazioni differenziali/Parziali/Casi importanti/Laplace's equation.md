@@ -5,7 +5,7 @@ wiki-publish: true
 $$\nabla^{2}\psi=0$$
 where $\nabla^{2}$ is the [[Laplacian|Laplacian]]. A solution to this equation is said to be a **harmonic function**. It is a particular case of the [[Poisson's equation|Poisson's equation]], where $f=0$.
 
-It is useful to solve the Laplace equation in coordinate systems other than Cartesian, for example, in [[Spherical coordinates]]. In many coordinates, it is possible to solve the equation using the method of [[separation of variables]].
+It is useful to solve the Laplace equation in coordinate systems other than Cartesian, for example, in [[spherical coordinates]] where the [[spherical harmonics]] appear. In many coordinate systems, it is possible to solve the equation using [[separation of variables]].
 ### One-dimensional case
 In one dimension, using [[Cartesian coordinates]], the equation simplifies to a [[Ordinary differential equation|ordinary differential equation]]:
 $$\frac{ d^{2} \psi }{ d x^{2} } =0$$
