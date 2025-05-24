@@ -1,5 +1,7 @@
 ---
 wiki-publish: true
+aliases:
+  - modified Bohr radius
 ---
 The **Bohr radius** $a_{0}$ is a constant representing the distance from the [[Nucleo atomico|nucleus]] of a [[hydrogen atom]] at which the [[funzione d'onda|wave function]] of an [[electron]] in the ground state has maximum [[probability]].
 
@@ -13,4 +15,6 @@ where
 - $c$ is the [[speed of light]]
 - $\alpha$ is the [[fine-structure constant]]
 
-It was originally discovered through the [[Bohr model]] of the hydrogen atom as the orbit radius of an electron in the ground state.
+It was originally discovered through the [[Bohr model]] of the hydrogen atom as the orbit radius of an electron in the ground state. A more precise value can be obtained by solving the Bohr model without assuming that the nucleus is stationary. This leads to the **modified Bohr radius**
+$$a_{\mu}=\frac{m_{e}}{\mu}a_{0}$$
+where $\mu=m_\text{nucleus}m_{e}/(m_\text{nucleus}+m_{e})$ is the reduced mass of the hydrogen atom.

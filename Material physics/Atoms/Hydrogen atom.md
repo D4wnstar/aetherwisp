@@ -11,7 +11,7 @@ The [[Hamiltonian]] for the [[Equazione di Schrödinger|Schrödinger equation]] 
 $$\hat{H}=- \frac{\hbar^{2}}{2M}\nabla ^{2}_{R}- \frac{\hbar^{2}}{2m}\nabla^{2}_{r_{e}}- \frac{Ze^{2}}{4\pi \varepsilon_{0}r_{e}}$$
 where $M$ is the [[mass]] of the nucleus, $m$ is the mass of the electron, $\hbar$ is the [[Planck constant|reduced Planck constant]], $Z$ is the [[Atom|atomic number]] (the number of protons), $\varepsilon_{0}$ is the [[vacuum permittivity]] and $r_{e}$ is the distance of the electron from the origin. The last term is the [[potential energy]] due to [[Interazione elettromagnetica|electromagnetic attraction]].
 ## Derivation
-First things first, the end goal is finding the [[Funzione d'onda|wavefunction]] of the system. This wavefunction is of course dependent on the spatial coordinates, but since the electron carries [[spin]] ($s=1/2$ and $m_{s}=\pm1/2$ specifically), this will also be parameter. If we call $q$ the [[generalized coordinates]] of the wavefunction, we can write it as $\psi\equiv \psi(q)=\psi(r_{e},R,s,m_{s})$.
+First things first, the end goal is finding the [[Funzione d'onda|wavefunction]] of the system. We'll solve it in [[Rappresentazioni dello stato|position representation]], $\psi(r)=\braket{ r | \psi }$. This wavefunction is of course dependent on the spatial coordinates, but since the electron carries [[spin]] ($s=1/2$ and $m_{s}=\pm1/2$ specifically), this will also be parameter. If we call $q$ the [[generalized coordinates]] of the wavefunction, we can write it as $\psi\equiv \psi(q)=\psi(r_{e},R,s,m_{s})$.
 
 However, the Hamiltonian has no spin term. $s$ and $m_{s}$ never appear. This suggests that the wavefunction that we get by solving $\hat{H}\psi=E\psi$ is actually just the spatial part, with the spin part being a separate piece. Using [[separation of variables]], we can split the two:
 $$\psi(q)\equiv \chi_{s,m_{s}}\psi(r_{e},R)$$
@@ -31,7 +31,7 @@ Since we have a central potential, the system lends itself well to be rewritten 
 $$\mu=\frac{Mm}{M+m}$$
 Then, using $\mu$ and expressing the [[Laplacian]] in the relative coordinate $\mathbf{r}=\mathbf{r}_{e}-\mathbf{R}$, the equation becomes
 $$\hat{H}\psi(r)=\left[ - \frac{\hbar^{2}}{2\mu} \nabla ^{2}_{r}- \frac{Ze^{2}}{4\pi \varepsilon_{0}r}\right]\psi(r)=E\psi(r)$$
-The benefit is that now we only depend on one [[Degrees of freedom|degree of freedom]] ($r$) instead of two ($r_{e},R$). (The frame follows the center of mass, so its coordinates are the origin; we don't need another variable for that). Then, the spherical coordinate transformation from [[Cartesian coordinates]] is
+The benefit is that now we only depend on one [[Degrees of freedom|degree of freedom]] ($r$) instead of two ($r_{e},R$). (Effectively, it's a single particle located in $r$ of mass $\mu$ subject to the potential). Then, the spherical coordinate transformation from [[Cartesian coordinates]] is
 $$\begin{cases}
 x=r\sin \theta \cos \phi \\
 y=r\sin \theta \sin \phi \\
@@ -55,7 +55,7 @@ The angular components depend on the eigenstates of $\hat{L}^{2}$ and $\hat{L}_{
 $$\boxed{\hat{L}^{2}Y_{l,m}(\theta,\phi)=l(l+1)\hbar^{2}Y_{l,m}(\theta,\phi)}\qquad\hat{L}_{z}Y_{l,m}(\theta,\phi)=m\hbar Y_{l,m}(\theta,\phi)$$
 Using spherical harmonics on $\hat{L}_{z}$ is a bit overkill, since it's really only dependent on $\phi$. In the general derivation, one finds that the harmonics themselves can go through [[separation of variables]] as $Y_{l,m}(\theta,\phi)=\Theta_{l,m}(\theta)\Phi_{m}(\phi)$. The $\Phi_{m}(\phi)$ function is pretty easy to solve and is found to be $\Phi_{m}(\phi)=e^{im\phi}$. The $\Theta_{l,m}(\theta)$ function is more complicated is requires invoking the [[Polinomi di Legendre|associated Legendre functions]] $P_{l,m}(\cos \theta)$ to get $\Theta(\theta)=AP_{l,m}(\cos \theta)$ ($A$ is some constant). As such, we can rewrite the $\hat{L}_{z}$ eigenstates as
 $$\boxed{\hat{L}_{z}\Phi_{m}(\phi)=m\hbar \Phi_{m}(\phi)}$$
-In the context of the hydrogen atom, the numbers $l$ and $m$ are given special names: $l$ is the **angular momentum [[Numero quantico|quantum number]]** and $m$ is the **magnetic angular momentum quantum number**.
+In the context of the hydrogen atom, the numbers $l$ and $m$ are given special names: $l$ is the **azimuthal [[Numero quantico|quantum number]]** and $m$ is the **magnetic azimuthal quantum number**.
 
 Still, spherical harmonics are generally complex functions. We know very well that only real numbers can be measured from a system, so we need to bridge the gap. We do the usual: take the square modulus
 $$\lvert Y_{l,m}(\theta,\phi) \rvert^{2} =\lvert \Theta_{l,m}(\theta) \rvert^{2}\lvert \Phi_{m}(\phi) \rvert^{2}  $$
@@ -71,39 +71,100 @@ Notice how there is a term dependent on the angular momentum number $l$ even in 
 $$\boxed{V_\text{eff}=-\frac{Ze^{2}}{4\pi \varepsilon_{0}r}+ \frac{\hbar^{2}l(l+1)}{2\mu r^{2}}}$$
 which reduces the equation even further to
 $$\left[ - \frac{\hbar^{2}}{2\mu}\frac{d^{2}}{dr^{2}}+ V_\text{eff}\right]u(r)=Eu(r)$$
+or equivalently
+$$\frac{d^{2}u(r)}{dr^{2}}+ \frac{2\mu}{\hbar ^{2}}[E-V_\text{eff}]u(r)=0$$
 This potential looks something like this:
 
 ![[Plot Effective spherical Schrodinger potential]]
 
-Note that for $l=0$, the potential is purely attractive: nothing is stopping the electron from falling and crashing into the nucleus. But if we add a rotation ($l>0$), suddenly there is a spike of potential beyond a certain point which explains why electrons don't just collide with the nucleus. The value of $r$ at each potential well for $l>0$ should, in principle at least, correspond to the "allowed orbits" that the [[Bohr model]] identified. As always, the system is [[Stati in meccanica quantistica|bound]] if $E<0$ and [[Stati in meccanica quantistica|scattering]] if $E>0$.
+Note that for $l=0$, the potential is purely attractive: nothing is stopping the electron from falling and crashing into the nucleus. But if we add a rotation ($l>0$), suddenly there is a spike of potential beyond a certain point which explains why electrons don't just collide with the nucleus. The value of $r$ at the bottom of each potential well for $l>0$ should, in principle at least, correspond to the "allowed orbits" that the [[Bohr model]] identified. As always, the system is [[Stati in meccanica quantistica|bound]] if $E<0$ and [[Stati in meccanica quantistica|scattering]] if $E>0$.
 
-Now, solving the radial part is not exactly trivial. For convenience, we introduce a few variables
-$$\rho\equiv\sqrt{ - \frac{8\mu E}{\hbar ^{2}} } r,\qquad \lambda\equiv\frac{Ze^{2}}{4\pi \varepsilon_{0}\hbar}\sqrt{ - \frac{\mu}{2E} } =Z\alpha \sqrt{ - \frac{\mu c^{2}}{2E} }$$
-where $\alpha$ is the [[fine-structure constant]] and $c$ is the [[speed of light]]. If we substitute these in the equation, we get
-$$\left[ \frac{d^{2}}{d\rho ^{2}} - \frac{l(l+1)}{\rho ^{2}}+ \frac{\lambda}{\rho}- \frac{1}{4}\right]u_{E,l}(\rho)=0\tag{1}$$
+Now, solving the radial part is not exactly trivial. First, to solve a (1D) differential equation like the Schrödinger equation we need a boundary condition, which we have not set up until now. We'll set $u(0)=0$, as that prevents the wavefunction from blowing up to infinity when $r=0$[^3].
+
+For convenience, we introduce a couple of dimensionless variables
+$$\rho\equiv\sqrt{ - \frac{8\mu E}{\hbar ^{2}} } r,\qquad \lambda\equiv\frac{Ze^{2}}{4\pi \varepsilon_{0}\hbar}\sqrt{ - \frac{\mu}{2E} }$$
+This leads to
+$$\frac{d}{dr}=\frac{d}{d\rho} \frac{d\rho}{dr}=\frac{d}{d\rho} \sqrt{ - \frac{8\mu E}{\hbar ^{2}} } \frac{dr}{dr}=\sqrt{ - \frac{8\mu E}{\hbar ^{2}} } \frac{d}{d\rho}$$
+and so
+$$\frac{d^{2}}{dr^{2}}=- \frac{8\mu E}{\hbar ^{2}} \frac{d^{2}}{d\rho ^{2}}$$
+If we substitute these in the equation (with $V_\text{eff}$ expanded), we get
+$$\begin{align}
+&- \frac{8\mu E}{\hbar ^{2}} \frac{d^{2}u(\rho)}{d\rho ^{2}}+ \frac{2\mu}{\hbar ^{2}}\left[ E- \frac{Ze^{2}}{4\pi \varepsilon_{0}\rho}\sqrt{ - \frac{8\mu E}{\hbar ^{2}} } + \frac{\hbar^{2}l(l+1)}{2\mu \rho ^{2}}\left( - \frac{8\mu E}{\hbar ^{2}} \right) \right]u(\rho)=0 \\
+&\left[ - \frac{8\mu E}{\hbar ^{2}} \frac{d^{2}}{d\rho ^{2}}+ \frac{2\mu}{\hbar ^{2}}E- \frac{2\mu}{\hbar ^{2}} \frac{Ze^{2}}{4\pi \varepsilon_{0} \rho}\sqrt{ - \frac{8\mu E}{\hbar ^{2}} }+ \frac{2\mu}{\hbar ^{2}} \frac{4El(l+1)}{\rho ^{2}} \right] u(\rho)=0 \\
+&- \frac{8\mu E}{\hbar ^{2}}\left[ \frac{d^{2}}{d\rho ^{2}}- \frac{1}{4} + \frac{2\mu}{\hbar ^{2}} \frac{Ze^{2}}{4\pi \varepsilon_{0}\rho}\sqrt{ - \frac{\hbar^{2}}{8\mu E} }- \frac{1}{4} \frac{4l(l+1)}{\rho ^{2}} \right]u(\rho)=0 \\
+&\left[ \frac{d^{2}}{d\rho ^{2}}- \frac{1}{4}+ \frac{Ze^{2}}{4\pi \varepsilon_{0}\hbar\rho} \sqrt{ - \frac{\mu}{2E} }- \frac{l(l+1)}{\rho ^{2}} \right]u(\rho)=0
+\end{align}$$
+Noticing $\lambda$ in the middle leads us to
+$$\left[ \frac{d^{2}}{d\rho ^{2}} - \frac{l(l+1)}{\rho ^{2}}+ \frac{\lambda}{\rho}- \frac{1}{4}\right]u(\rho)=0$$
 A much simpler form, but still quite abstract. Instead of diving head-first into solving it, we can start by analyzing asymptotic behavior. When $\rho\to \infty$, the equations greatly simplifies to
 $$\left[ \frac{d^{2}}{d\rho ^{2}}- \frac{1}{4} \right]u(\rho)=0$$
-This a second order [[Ordinary differential equation|ODE]] of the form $\ddot{u}- \frac{1}{4}u=0$ and the solution is an exponential. Thus, for high $\rho$, we have
-$$u(\rho)\simeq e^{\pm \rho/2}$$
-Since we have an asymptotic solution, we can claim that the general solution behaves in the same manner as the asymptote, but scaled by some other function $f(\rho)$. Thus, in general, in and out of the asymptote:
-$$u(\rho)=f(\rho)e^{-\rho/2}\tag{2}$$
-By definition, $f(\rho)$ contains all of the information about $E$ and $l$, since those are lost at the asymptote, $f(\rho)\equiv f_{E,l}(\rho)$. Our next problem is finding $f(\rho)$.
+This a linear second order [[Ordinary differential equation|ODE]] of the form $\ddot{u}- \frac{1}{4}u=0$ and the solution is an exponential. Thus, for high $\rho$, we have
+$$u(\rho)\sim e^{\pm \rho/2}$$
+Using the fact that $u(\rho)$ must be bounded everywhere, we keep only the negative sign. Since we have an asymptotic solution, we can claim that the general solution behaves in the same manner as the asymptote, but scaled by some other function $f(\rho)$. Thus, in general, in and out of the asymptote:
+$$u(\rho)=f(\rho)e^{-\rho/2}$$
+By definition, $f(\rho)$ must contain all of the information about $E$ and $l$, since those are not present in the asymptotic term: $f(\rho)\equiv f_{E,l}(\rho)$. Thus, since
+$$\frac{d^{2}}{d\rho ^{2}}(f(\rho)e^{-\rho/2})=e^{-\rho/2}\left[ \frac{d^{2}}{d\rho ^{2}}- \frac{d}{d\rho}+ \frac{1}{4} \right]f(\rho)$$
+our new equation to solve is
+$$\left[ \frac{d^{2}}{d\rho ^{2}}- \frac{d}{d\rho} - \frac{l(l+1)}{\rho ^{2}}+ \frac{\lambda}{\rho}\right]f(\rho)=0\tag{1}$$
+Our next problem is finding $f(\rho)$.
 #### Finding $f(\rho)$
-To start, we make the ansatz $f(\rho)=\rho^{l+1}g(\rho)$ where $g(\rho)$ is a function defined by its [[power series]]
-$$g(\rho)=\sum_{k=0}^{\infty} c_{k}\rho^{k}$$
-where $c_{0}\neq0$. We now substitute $(2)$ in $(1)$ to get
-$$\left[ \rho \frac{d^{2}}{d\rho ^{2}}+ (2l+2-\rho) \frac{d}{d\rho}+ (\lambda-l-1) \right]g(\rho)$$
-This equation can be solved analytically by expanding $g(\rho)$ and solving for the coefficients (see e.g. Bransden). We find the recurrence relation
-$$c_{k+1}=\left[ \frac{k+l-1-\lambda}{(k+1)(k+2l+2)} \right]c_{k}$$
+To start, we again look at asymptotic behavior:
+$$\lim_{ \rho \to 0 } \left[ \frac{d^{2}}{d\rho ^{2}}- \frac{d}{d\rho}- \frac{l(l+1)}{\rho ^{2}} + \frac{\lambda}{\rho}\right]f(\rho)=0$$
+This can only be true if $f(\rho)\sim \rho^{l+1}$. In fact, using the definition of $f(\rho)\sim \rho^{s+1}$:
+$$(s+1)s \rho^{s-1}- (s+1)\rho^{s}-l(l+1)\rho^{s-1}+\lambda \rho^{s}\to0$$
+But only the dominant term $\rho^{s-1}$ matters in the limit so this is like saying
+$$(s+1)s\rho^{s-1}-l(l+1)\rho^{s-1}=[s(s+1)-l(l+1)]\rho^{s-1}\to 0$$
+Since $\rho^{s-1}>0$ for all $\rho$, this is true only if $s=l$, which proves that $f(\rho)\sim \rho^{l+1}$.
+
+Outside of the asymptote, $f(\rho)$ must behave something like $f(\rho)=\rho^{l+1}g(\rho)$ where $g(\rho)$ is some function. As an added note, this means that our current understanding of $u(\rho)$ is $u(\rho)=e^{-\rho/2}\rho^{l+1}g(\rho)$. We now substitute this in $(1)$ to get
+$$\left[ \rho \frac{d^{2}}{d\rho ^{2}}+ (2l+2-\rho) \frac{d}{d\rho}+ (\lambda-l-1) \right]g(\rho)=0$$
+This equation can be solved analytically by expanding $g(\rho)$ in its [[power series]]
+$$g(\rho)=\sum_{k=0}^{\infty} c_{k}\rho^{k}\quad\text{for }c_{0}\neq 0$$
+Taking the derivatives of this power series yields
+$$\sum_{k=0}^{\infty}\left[ k(k-1)c_{k}\rho^{k-1}+ (2l+2-\rho)kc_{k}\rho^{k-1}+(\lambda-l-1)c_{k}\rho^{k} \right]=0$$
+Split the sum like so
+$$\sum_{k=0}^{\infty} [k(k-1)c_{k}\rho^{k-1}+(2l+2-\rho)kc_{k}\rho^{k-1}]+\sum_{k=0}^{\infty}(\lambda-l-1)c_{k}\rho^{k} =0$$
+and the first sum is further split as
+$$\sum_{k=0}^{\infty} [k(k-1)c_{k}\rho^{k-1}+(2l+2)kc_{k}\rho^{k-1}]+\sum_{k=0}^{\infty} [-kc_{k}\rho^{k}]+\sum_{k=0}^{\infty}(\lambda-l-1)c_{k}\rho^{k} =0$$
+Changing the index from $k$ to $k+1$ in the first yields the equivalent form
+$$\sum_{k=0}^{\infty} [k(k+1)+(2l+2)(k+1)]c_{k+1}\rho^{k}$$
+Plug this in, combine the sums again and collect $\rho^{k}$ to get
+$$\sum_{k=0}^{\infty} [(k(k+1)+(2l+2)(k+1))c_{k+1}+(\lambda-l-1-k)c_{k}]\rho^{k}=0$$
+This is true for all $\rho$, which means that each component must be zero termwise:
+$$(k(k+1)+(2l+2)(k+1))c_{k+1}+(\lambda-l-1-k)c_{k}=0$$
+which yields the recurrence relation
+$$c_{k+1}=\left[ \frac{k+l+1-\lambda}{(k+1)(k+2l+2)} \right]c_{k}$$
 For large $k$, the ratio is approximately
-$$\frac{c_{k+1}}{c_{k}}\simeq \frac{1}{k}$$
-This ratio is the same as that of the series for $\rho^{p}e^{\rho}$ for some $p \in \mathbb{R}$. This, alongside $(2)$ and our ansatz $f(\rho)=\rho^{l+1}g(\rho)$, suggests that the asymptotic behavior is something of the form $u_{E,l}(\rho)\sim\rho^{l+1-p}e^{-\rho/2}$. But this can't be, so the $g(\rho)$ series must terminate early to some $n_{r}$ terms, which means that it is a polynomial of rank $n_{r}$. We call $n_{r}$ the **radial quantum number** and it is a positive integer. Thus, any $c_{k}=0$ if $k>n_{r}$ and using the recurrence relation, we have $\lambda=n_{r}+l+1$.  We can further define the **principal quantum number**
+$$\frac{c_{k+1}}{c_{k}}\sim \frac{1}{k}$$
+As it happens, this ratio is the same as that of the series for $\rho^{p}e^{\rho}$ with $p \in \mathbb{R}$. This implies that $g(\rho)$ has this very behavior
+$$g(\rho)\sim \rho^{p}e^{\rho}\quad\text{for some }p \in \mathbb{R}$$
+Combined with our previous result $u(\rho)=e^{-\rho/2}\rho^{l+1}g(\rho)$, this implies that the asymptotic behavior of $u(\rho)$ is something of the form $u(\rho)\sim\rho^{l+1+p}e^{\rho/2}$. But this can't be, for it would break our previous assumption of $u(\rho)\sim e^{-\rho/2}$ (and by extension the normalizability of the wavefunction). Thus the series must terminate early, which is to say that it must be a polynomial in $\rho$. We shall call $n_{r}$ the rank of the polynomial, the **radial quantum number**, and it is a nonnegative integer (possibly zero). This means that any terms of index $k>n_{r}$ must be zero and that the highest term is $c_{n_{r}}\rho^{n_{r}}$.
+
+Using the recurrence relation we can state
+$$c_{n_{r}+1}=0=\frac{n_{r}+l+1-\lambda}{(n_{r}+1)(n_{r}+2l+2)}c_{n_{r}}$$
+Multiply both sides by the denominator to get
+$$(n_{r}+l+1-\lambda)c_{n_{r}}=0$$
+but we know that $c_{n_{r}}\neq 0$, so it must be that
+$$\lambda=n_{r}+l+1$$
+We'll rename this to $n$
 $$n\equiv n_{r}+l+1$$
-and of course $n=\lambda$.
+and we shall call it the **principal quantum number**. Since $n_{r}=0,1,2,\ldots$ and $l=0,1,2,\ldots$, we have $n=1,2,3,\ldots$.
 #### Eigenvalues
-Since we know what $\lambda$ is, we can extract $E$ out of it, substitute $\lambda$ for $n$ and get the [[Stationary state|energy eigenvalues]]:
-$$E_{n}=- \frac{1}{2n^{2}}\left( \frac{Ze^{2}}{4\pi \varepsilon_{0}} \right) \frac{\mu}{\hbar ^{2}}=- \frac{e^{2}}{4\pi \varepsilon_{0}a_{0}} \frac{\mu}{m} \frac{Z^{2}}{2n^{2}}=- \frac{e^{2}}{4\pi \varepsilon_{0}a_{\mu}} \frac{Z^{2}}{2n^{2}}$$
-where we defined $a_{0}$ as the [[Bohr radius]] and $a_{\mu}=a_{0} (m/\mu)$ as the modified Bohr radius. Notably, the energy eigenvalues are *not* (directly) dependent on $l$. This means that the energy eigenstates are [[Degenerazione|degenerate]] in $l$ too, no just $m$. Notably, these are identical to semiclassical Bohr model of the atom. Next stop: eigenstates.
+Now that we finally know what $\lambda$ is, we can invert its definition to extract $E$, substitute $\lambda$ for $n$ and get the [[Stationary state|energy eigenvalues]]:
+$$E_{n}=- \frac{1}{2n^{2}}\left( \frac{Ze^{2}}{4\pi \varepsilon_{0}} \right)^{2} \frac{\mu}{\hbar ^{2}}=- \frac{e^{2}}{4\pi \varepsilon_{0}a_{0}} \frac{\mu}{m} \frac{Z^{2}}{2n^{2}}=- \frac{e^{2}}{4\pi \varepsilon_{0}a_{\mu}} \frac{Z^{2}}{2n^{2}}$$
+where we used the [[Bohr radius]] $a_{0}$ and modified Bohr radius $a_{\mu}=a_{0} (m/\mu)$. Thus, after all this derivation, we have the expression for the allowed energy levels of the hydrogen atom:
+$$\boxed{E_{n}=- \frac{e^{2}}{4\pi \varepsilon_{0}a_{\mu}} \frac{Z^{2}}{2n^{2}}}$$
+
+:::image
+![[Hydrogen atom energy levels.png]]
+A plot depicting the energy levels of the hydrogen atom for different $n$ and $l$. Notice how the variation of $l$ makes no difference due to degeneracy. From *Bransden & Joachain - Physics of atoms and molecules*.
+:::
+
+Notably, the energy eigenvalues are *not* dependent on $l$ (not directly, at least). This means that the energy eigenstates are [[Degenerazione|degenerate]] in $l$ too, not just $m$. For each $n$ there are $n-1$ values of $l$, and for each $l$ there are $2l+1$ values of $m$, which leads to a total eigenvalue degeneracy of
+$$d=\sum_{l=0}^{n-1} (2l+1)=2 \frac{n(n-1)}{2}+n=n^{2}$$
+The degeneracy with respect to $m$ is universal for all central potentials, however the degeneracy in $l$ is actually specific to the Coulomb potential, or rather potentials that go like $V\sim 1/r$. In fact, were the potential to behave somewhat, the $l$ degeneracy would be lifted and we'd have $n$ distinct states for each principal level $n$. This happens, for instance, in the outer electrons of an atom with more than one [[electron shell model|electron shell]], which are also subject to the repulsion of inner electrons, changing the effective potential to a different shape than $\sim1/r$.
+
+Furthermore, these energy levels are *identical* to those obtained from the Bohr model of the atom. Despite being a (semi)classical model, it already got the quantum levels correct down to the equation. But what it couldn't do, however, are the eigenstates themselves.
 #### Eigenstates
 What the Bohr model does *not* give are the [[Funzione d'onda|wavefunctions]] of the quantum states of the atom. Luckily, the hydrogen atom is one of the very few systems that can be solved analytically, although the solution isn't exactly simple. Invoking the [[Laguerre polynomials|associated Laguerre polynomials]] $L_{i}^{j}(\rho)$, the solution to the radial part in its most general case is
 $$R_{nl}(r)=-\left[ \left( \frac{2z}{na_{\mu}} \right)^{3} \frac{(n-l-1)!}{2n[(n+l)!]^{3}} \right]^{1/2}e^{-\rho/2}\rho^{l}L_{n+l-1}^{2l+1}(\rho)$$
@@ -116,3 +177,5 @@ Of course, as is, the wavefunctions have limited intepretability. But as with al
 [^1]: The angular momentum operator is found by quantizing the classical quantities of $r$ and $p$, which become $\hat{r}$ and $-i\hbar \nabla$ respectively ($\nabla$ is the [[gradient]]). So, we get $\hat{L}=-i\hbar(\hat{r}\times \nabla)$.
 
 [^2]: If you recall the general solution, this extra term is known as the "centrifugal term". It represent the fact that more intense rotations (high $l$) tend to "push" outwards more. It's to quantum mechanics what the centrifugal force is to classical mechanics.
+
+[^3]: Strictly speaking, the finiteness of the wavefunction is not mandatory. What is mandatory is that all possible physical states are described by a complete orthogonal set of wavefunctions. However, for many potentials, including the central electromagnetic one, this condition can be proven to simplify down to $u(0)=0$.

@@ -33,10 +33,11 @@ We call this version of the constant $R_{\infty}$, where the infinity symbol den
 If we instead claim that the nucleus has finite mass, we have to accept that it also (slightly) moves due to the attraction of the electron. As usual for many body systems, we look at the [[center of mass]], with reduced mass
 $$\mu=\frac{m_{e}m_\text{nucleus}}{m_{e}+m_\text{nucleus}}$$
 The proof won't be given here, but the system can be solved again with both bodies moving to find that the only difference between $R_{\infty}$ and this more precise $R_{M}$ is
-$$R_{M}=\frac{\mu}{m_{e}}R_{\infty}$$
-Basically, we just exchanged $m_{e}$ for $\mu$ is the formula. When setting $m_\text{nucleus}$ to the mass of the [[proton]], the value we get for $R_{M}$ is essentially perfect: just $0.003$% shy of the experimental value. 
+$$R_{\mu}=\frac{\mu}{m_{e}}R_{\infty}$$
+Basically, we just exchanged $m_{e}$ for $\mu$ is the formula. When setting $m_\text{nucleus}$ to the mass of the [[proton]], the value we get for $R_{\mu}$ is essentially perfect: just $0.003$% shy of the experimental value. Similarly, we get the **modified Bohr radius** in the same way:
+$$a_{\mu}=\frac{m_{e}}{\mu}a_{0}$$
 
-The discovery of this origin for the Rydberg constant led to many more questions: why are the orbits and their energy quantized with an integer $n$? The answer would have to wait the development of quantum mechanics and the quantum model of the [[hydrogen atom]].
+The discovery of the origin of the Rydberg constant led to many more questions: why are the orbits and their energy quantized with an integer $n$? The answer would have to wait the development of quantum mechanics and the quantum model of the [[hydrogen atom]].
 
 [^1]: I want to make it very clear here that this is *not* a quantum model. The fact that all of these postulates talk about (and link to) quantum concepts is entirely because Niels Bohr saw something that no one else in his time did. In fact, concepts such as "stationary state" and "discrete angular momentum" have been *coined* by Bohr specifically through this very model.
 
