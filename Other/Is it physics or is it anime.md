@@ -19,3 +19,5 @@
 - Annihilation operator
 - Magic angle twisted bilayer graphene
 - Stellar aberration
+- Umbral calculus
+- Bernoulli umbra

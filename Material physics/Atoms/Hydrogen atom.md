@@ -3,7 +3,7 @@ wiki-publish: true
 aliases:
   - hydrogenoid atom
 ---
-The **hydrogen atom** is the [[atom]] of the element hydrogen, a quantum [[physical system]] made up of a central positive [[Electric charge|charge carrier]] (a [[proton]]) and a negative charge carrier (an [[Elettrone|electron]]) surrounding it. It is the simplest case of a broader class of objects called **hydrogenoid atoms** which may possess a stronger central charge, that is, a full atomic [[Nucleo atomico|nucleus]].
+The **hydrogen atom** is the [[atom]] of the element hydrogen, a quantum [[physical system]] made up of a central positive [[Electric charge|charge carrier]] (a [[proton]]) and a negative charge carrier (an [[Elettrone|electron]]) surrounding it. It is the simplest case of a broader class of objects called **hydrogenic atoms** (or **hydrogen-like atoms**) which may possess a stronger central charge, that is, a full atomic [[Nucleo atomico|nucleus]].
 
 ![[Schema modello idrogeno|center]]
 
@@ -14,11 +14,11 @@ where $M$ is the [[mass]] of the nucleus, $m$ is the mass of the electron, $\hba
 First things first, the end goal is finding the [[Funzione d'onda|wavefunction]] of the system. We'll solve it in [[Rappresentazioni dello stato|position representation]], $\psi(r)=\braket{ r | \psi }$. This wavefunction is of course dependent on the spatial coordinates, but since the electron carries [[spin]] ($s=1/2$ and $m_{s}=\pm1/2$ specifically), this will also be parameter. If we call $q$ the [[generalized coordinates]] of the wavefunction, we can write it as $\psi\equiv \psi(q)=\psi(r_{e},R,s,m_{s})$.
 
 However, the Hamiltonian has no spin term. $s$ and $m_{s}$ never appear. This suggests that the wavefunction that we get by solving $\hat{H}\psi=E\psi$ is actually just the spatial part, with the spin part being a separate piece. Using [[separation of variables]], we can split the two:
-$$\psi(q)\equiv \chi_{s,m_{s}}\psi(r_{e},R)$$
+$$\psi(q)\equiv \chi_{sm_{s}}\psi(r_{e},R)$$
 We can now solve these separately.
 ### The spin part
 Since the Hamiltonian does not affect or depend on spin in any way, the spin part is just the eigenstates of the generic spin operator $\hat{S}$:
-$$\hat{S}^{2}\chi_{s,m_{s}}=\hbar ^{2} s(s+1)\chi_{s,m_{s}},\quad S_{z}\chi_{s,m_{s}}=\hbar m_{s}\chi_{s,m_{s}}$$
+$$\hat{S}^{2}\chi_{sm_{s}}=\hbar ^{2} s(s+1)\chi_{sm_{s}},\quad S_{z}\chi_{sm_{s}}=\hbar m_{s}\chi_{sm_{s}}$$
 Thankfully, we know the spin: it's $s=1/2$, and this is the special case that is already solved in [[Spin#Spin 1/2]]. We know the eigenvectors of both $\hat{S}^{2}$ and $\hat{S}_{z}$ in spin 1/2: they're somewhat up to preference, so we'll choose
 $$\chi_{1/2,+1/2}=\begin{pmatrix}
 1 \\ 0
@@ -117,7 +117,7 @@ $$(s+1)s\rho^{s-1}-l(l+1)\rho^{s-1}=[s(s+1)-l(l+1)]\rho^{s-1}\to 0$$
 Since $\rho^{s-1}>0$ for all $\rho$, this is true only if $s=l$, which proves that $f(\rho)\sim \rho^{l+1}$.
 
 Outside of the asymptote, $f(\rho)$ must behave something like $f(\rho)=\rho^{l+1}g(\rho)$ where $g(\rho)$ is some function. As an added note, this means that our current understanding of $u(\rho)$ is $u(\rho)=e^{-\rho/2}\rho^{l+1}g(\rho)$. We now substitute this in $(1)$ to get
-$$\left[ \rho \frac{d^{2}}{d\rho ^{2}}+ (2l+2-\rho) \frac{d}{d\rho}+ (\lambda-l-1) \right]g(\rho)=0$$
+$$\left[ \rho \frac{d^{2}}{d\rho ^{2}}+ (2l+2-\rho) \frac{d}{d\rho}+ (\lambda-l-1) \right]g(\rho)=0\tag{2}$$
 This equation can be solved analytically by expanding $g(\rho)$ in its [[power series]]
 $$g(\rho)=\sum_{k=0}^{\infty} c_{k}\rho^{k}\quad\text{for }c_{0}\neq 0$$
 Taking the derivatives of this power series yields
@@ -162,20 +162,98 @@ A plot depicting the energy levels of the hydrogen atom for different $n$ and $l
 
 Notably, the energy eigenvalues are *not* dependent on $l$ (not directly, at least). This means that the energy eigenstates are [[Degenerazione|degenerate]] in $l$ too, not just $m$. For each $n$ there are $n-1$ values of $l$, and for each $l$ there are $2l+1$ values of $m$, which leads to a total eigenvalue degeneracy of
 $$d=\sum_{l=0}^{n-1} (2l+1)=2 \frac{n(n-1)}{2}+n=n^{2}$$
-The degeneracy with respect to $m$ is universal for all central potentials, however the degeneracy in $l$ is actually specific to the Coulomb potential, or rather potentials that go like $V\sim 1/r$. In fact, were the potential to behave somewhat, the $l$ degeneracy would be lifted and we'd have $n$ distinct states for each principal level $n$. This happens, for instance, in the outer electrons of an atom with more than one [[electron shell model|electron shell]], which are also subject to the repulsion of inner electrons, changing the effective potential to a different shape than $\sim1/r$.
+The degeneracy with respect to $m$ is universal for spherically symmetric systems, but the degeneracy in $l$ is actually specific to the Coulomb potential, or rather potentials that go like $V\sim 1/r$. In fact, were the potential to behave differently, the $l$ degeneracy would be lifted and we'd have $n$ distinct states for each principal level $n$. This happens, for instance, in the outer electrons of an atom with more than one [[electron shell model|electron shell]], which are also subject to the repulsion of inner electrons, changing the effective potential to a different shape than $\sim1/r$. You can see this in the [[Many-electron atom]] article. In a sense, the $l$ degeneracy has little to do with the shape of an atom specifically: anything around a point charge would work the same.
+
+The levels themselves are infinite and tend towards zero as you get further from the nucleus: this shouldn't be surprising considering that the electromagnetic potential of a point charge (the thing that is responsible for keeping the electron anchored to the nucleus) falls off with distance. They also get progressively closer to one another for larger $n$. The difference between $n=1$ and $n=2$ is bigger than that between $n=2$ and $n=3$ and so on.
 
 Furthermore, these energy levels are *identical* to those obtained from the Bohr model of the atom. Despite being a (semi)classical model, it already got the quantum levels correct down to the equation. But what it couldn't do, however, are the eigenstates themselves.
 #### Eigenstates
-What the Bohr model does *not* give are the [[Funzione d'onda|wavefunctions]] of the quantum states of the atom. Luckily, the hydrogen atom is one of the very few systems that can be solved analytically, although the solution isn't exactly simple. Invoking the [[Laguerre polynomials|associated Laguerre polynomials]] $L_{i}^{j}(\rho)$, the solution to the radial part in its most general case is
-$$R_{nl}(r)=-\left[ \left( \frac{2z}{na_{\mu}} \right)^{3} \frac{(n-l-1)!}{2n[(n+l)!]^{3}} \right]^{1/2}e^{-\rho/2}\rho^{l}L_{n+l-1}^{2l+1}(\rho)$$
+To compute the eigenstate, we look back at $(2)$. Earlier, we looked only at the asymptotic behavior, which led us to the definition of the radial and principal quantum numbers and $\lambda=n$. We now want to find the actual solutions themselves. This is a second order [[ordinary differential equation]] in $\rho$ and luckily, a similar equation has already been solved in the past.
+
+The (generalized) [[Laguerre's differential equation]] is the following second order [[Ordinary differential equation|ODE]]:
+$$\left[ \rho \frac{d^{2}}{d\rho^{2}}+(p+1-\rho) \frac{d}{d\rho}+q \right]L_{q}^{p}(\rho)=0$$
+whose solutions $L_{q}^{p}(\rho)$ are the [[Laguerre polynomials|associated Laguerre polynomials]]
+$$L_{q}^{p}(\rho)\equiv \frac{x^{-p}e^{\rho}}{q!} \frac{d^{q}}{d\rho^{q}}(\rho^{q+p}e^{-\rho})$$
+for some nonnegative integers $q$ and $p$. This should ring a bell: it is basically just $(2)$ with slightly different variables. In fact, if we equate the differences we get
+$$\begin{cases}
+p+1-\rho=2l+2-\rho \\
+q=n-l-1 \\
+g(\rho)=L_{q}^{p}(\rho)
+\end{cases}\quad\Rightarrow \quad \begin{cases}
+p=2l+1 \\
+q=n-l-1 \\
+g(\rho)=L_{q}^{p}(\rho)
+\end{cases}$$
+Thus, the physically valid solutions of $(2)$ are
+$$g(\rho)=AL_{n-l-1}^{2l+1}(\rho)$$
+where $A$ is some [[normalization]] constant. Substituting $r$ for $\rho$ and substituting $g(\rho)$ into $R(r)$ (after unwinding all the functions we've added)
+$$R_{nl}(r)=\frac{u(r)}{r}=\frac{na_{\mu}}{2Z} \frac{f(\rho)e^{-\rho/2}}{\rho}=\frac{na_{\mu}}{2Z}\frac{g(\rho)\rho^{l+1}e^{-\rho/2}}{\rho}=A\rho^{l}e^{-\rho/2}L_{n-l-1}^{2l+1}(\rho)$$
+where in the last step we have absorbed $na_{\mu}/2Z$ inside $A$ since they are both constants. Calculating the constant (see below) yields the radial wavefunction:
+$$\boxed{R_{nl}(\rho)=- \sqrt{ \left( \frac{2Z}{na_{\mu}} \right)^{3} \frac{(n-l-1)!}{2n[(n+l)!]^{3}} }\rho^{l}e^{-\rho/2}L_{n-l-1}^{2l+1}(\rho)}$$
+#### Spatial wavefunction
+This completes our proof: we've assembled all the pieces we need to determine the spatial wavefunction of the hydrogenic atom, which is the product of the the radial part and the angular part:
+$$\boxed{\psi_{nlm}(r,\theta,\phi)=- \sqrt{ \left( \frac{2Z}{na_{\mu}} \right)^{3} \frac{(n-l-1)!}{2n[(n+l)!]^{3}} }\left( \frac{2Z}{na_{\mu}} \right)^{l}e^{-Z/na_{\mu}}L_{n-l-1}^{2l+1}\left( \frac{2Z}{na_{\mu}} \right)Y_{lm}(\theta,\phi)}$$
 where
-$$\rho=\frac{2zr}{na_{\mu}}=\frac{2zr}{na_{0}} \frac{M}{m}$$
-Now that we now both the angular part $Y_{lm}$ and the radial part $R_{nl}$, the eigenfunction for the eigenstate determined by the numbers $(n,l,m)$ is
-$$\psi(r,\theta,\phi)=R_{nl}(r)Y_{lm}(\theta,\phi)=\ldots$$
-Of course, as is, the wavefunctions have limited intepretability. But as with all quantum mechanical system, the square modulus of $\psi$ gives the [[probability]] of finding the system in a given state. Specifically, $\lvert \psi(r,\theta,\phi) \rvert^{2}d\mathbf{r}$ is the probability of finding an [[electric charge]] (the electron) in an infinitesimal volume element $d\mathbf{r}$. The probability of finding the electron at a set distance $r$ from the nucleus is found by integrating $\lvert \psi(r,\theta,\phi) \rvert^{2}$ over all angles.
+$$\rho=\frac{2Z}{na_{\mu}}r=\frac{2Z}{na_{0}} \frac{M}{m}r$$
+
+> [!tip] Wavefunction normalization
+> To normalize the wavefunction, start as usual
+> $$\begin{align}
+> 1=\int_{\mathbb{R}^{3}}\lvert \psi_{nlm}(\rho,\theta,\phi) \rvert ^{2}d^{3}r & =\int_{\mathbb{R}^{3}} \lvert R_{nl}(\rho)Y_{lm}(\theta,\phi) \rvert r^{2}\sin \theta \ dr d\theta d\phi \\
+> &=\int_{0}^{\infty}\lvert R_{nl}(\rho) \rvert ^{2}r^{2}\ dr\underbrace{ \int_{0}^{2\pi}\int_{0}^{\pi}\lvert Y_{lm}(\theta,\phi) \rvert ^{2} \sin \theta  d\phi d\theta }_{ 1 } \\
+> &=\int_{0}^{\infty}\lvert R_{nl}(\rho) \rvert ^{2}r^{2}\ dr
+> \end{align}$$
+> since spherical harmonics are already normalized. Then
+> $$1=\lvert A \rvert^{2} \int_{0}^{\infty} \rho^{2l}e^{-\rho}[L_{n-l-1}^{2l+1}(\rho)]^{2} r^{2} dr$$
+> Use the definition of $\rho$ to substitute
+> $$dr=\frac{na_{\mu}}{2Z}d\rho,\quad r^{2}=\left( \frac{na_{\mu}}{2Z} \right)^{2}\rho ^{2}$$
+> and get
+> $$1=\lvert A \rvert^{2} \left( \frac{na_{\mu}}{2Z} \right)^{3}\int_{0}^{\infty}\rho^{2l}e^{-\rho}[L_{n-l-1}^{2l+1}(\rho)]^{2}\rho ^{2}d\rho$$
+> Now, this integral is *very hard*[^4]. Fortunately, someone else did the math already: in the [Mathematical Handbook of Formulas and Tables](http://mcb111.org/w01/Mathematical_Handbook_of_Formulas_and_Ta.pdf), a special result for the associated Laguerre polynomials (Eq. 30.50) precisely solves this integral. After due substitutions[^5], the result is
+> $$\begin{align}
+> \int_{0}^{\infty}\rho^{2l+2}e^{-\rho}[L_{n-l-1}^{2l+1}(\rho)]^{2}d\rho&=\frac{[2(n-l-1)+2l+2](n-l-1+2l+1)!}{(n-l-1)!} \\
+> &=\frac{2n(n+l)!}{(n-l-1)!}
+> \end{align}$$
+> If we plug this in the former equation, extract $\lvert A \rvert^{2}$, take the square root and choose the negative solution, we get
+> $$A=-\sqrt{ \left( \frac{2Z}{na_{\mu}} \right)^{3} \frac{(n-l-1)!}{2n(n+l)!} }$$
+
+##### Results
+Each of these wavefunctions represents a possible state of the electron around the nucleus, bringing along the baggage of all the probabilities of *where* it might be at any given time while "orbiting" the nucleus. In fact, this classical concept of "orbit" remained so prevalent throughout the years that it gave the special name we use to refer to these wavefunctions: **[[orbital|orbitals]]**. Common in chemistry too, we use a specific naming scheme to specify which orbital we are talking about, called [[spectroscopic notation]].
+
+As is, the orbitals have limited intepretability. But as with all quantum mechanical system, the square modulus of $\psi_{nlm}$ gives the [[probability]] of finding the system in a given state. Specifically, $\lvert \psi_{nlm}(r,\theta,\phi) \rvert^{2}d\mathbf{r}$ is the probability of finding the electron in an infinitesimal volume element $d\mathbf{r}$ and is thus effectively the (shape of the) *volume charge distribution* of the hydrogen atom. Meanwhile, the probability of finding it at a distance $r$ anywhere around the nucleus is found by integrating $\lvert \psi_{nlm}(r,\theta,\phi) \rvert^{2}$ over all angles. This leads to what's known as a **density function**
+$$\boxed{D_{nl}(r)=r^{2}\lvert R_{nl}(r) \rvert ^{2}}$$
+since $Y_{lm}(\theta,\phi)$ are normalized. The first few radial wavefunction and their corresponding densities look like this.
+
+:::image
+![[Hydrogen atom radial distribution.png]]
+From *Bransden & Joachain - Physics of atoms and molecules*
+:::
+
+Other visualizations of the wavefunctions are the $xy$-plane section plot below, where you can see the black lines representing the nodes (i.e. the zeros) of the wavefunctions. Each wavefunction has
+
+:::image
+![[Hydrogen atom orbitals.png]]
+Unknown author - Originally uploaded by FlorianMarquardt, 14 Oct 2002., CC BY-SA 3.0, from [Wikipedia](https://commons.wikimedia.org/w/index.php?curid=75046)
+:::
+
+Also see this website, which provides an interactive simulation of the orbitals: https://www.falstad.com/qmatom/.
+### Total wavefunction
+Now that we painstakingly solved both the spin and spatial parts, we can put them together to officially have the full wavefunction of the hydrogen atom:
+$$\boxed{\psi_{nlm_{l}sm_{s}}(r,\theta,\phi)=\chi_{sm_{s}}R_{nl}(r)Y_{lm_{l}}(\theta,\phi)}$$
+where $m$ was renamed to $m_{l}$ to better distinguish it from the spin magnetic number $m_{s}$. It is dependent on five quantum numbers, of which four variable:
+- $n$ is the principal quantum number ($n=1,2,3,\ldots$)
+- $l$ is the azimuthal quantum number ($l< n$)
+- $m_{l}$ is the magnetic azimuthal quantum number ($-l\leq m_{l}\leq l$)
+- $s$ is the spin quantum number ($s=1/2$ for electrons)
+- $m_{s}$ is the magnetic spin quantum number ($s=\pm 1$ for electrons)
+
 
 [^1]: The angular momentum operator is found by quantizing the classical quantities of $r$ and $p$, which become $\hat{r}$ and $-i\hbar \nabla$ respectively ($\nabla$ is the [[gradient]]). So, we get $\hat{L}=-i\hbar(\hat{r}\times \nabla)$.
 
 [^2]: If you recall the general solution, this extra term is known as the "centrifugal term". It represent the fact that more intense rotations (high $l$) tend to "push" outwards more. It's to quantum mechanics what the centrifugal force is to classical mechanics.
 
 [^3]: Strictly speaking, the finiteness of the wavefunction is not mandatory. What is mandatory is that all possible physical states are described by a complete orthogonal set of wavefunctions. However, for many potentials, including the central electromagnetic one, this condition can be proven to simplify down to $u(0)=0$.
+
+[^4]: It can be solved using the generating function of the Laguerre polynomials. See for instance Bransden & Joachaim Appendix 3. Be careful with definitions, as Bransden uses the alternative definition of the polynomials which omits $1/q!$, whereas this article includes it.
+
+[^5]: We have $x\to\rho$, $m\to2l+1$ and $n\to n-l-1$. Be careful of the definition: the handbook's definition of the polynomials omits $1/n!$ whereas we include it, so we need to do two things before anything else: divide the polynomial by $n!$ (which becomes $(n!)^{2}$ due to the square) and convert $n\to n+m$. Then do the substitutions above.
