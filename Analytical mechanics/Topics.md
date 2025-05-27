@@ -24,3 +24,7 @@ wiki-publish: true
 - [[Hamilton equation]] (Hamiltonian least action principle not in exam)
 - [[Canonical transformation]]
 - [[Liouville's theorem]] (the analytical mechanics statement)
+### Quantum mechanics
+- [[Particella libera (quantistica)]]
+- [[Buca infinita quantistica]]
+- [[Oscillatore armonico quantistico]]

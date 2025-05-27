@@ -9,7 +9,7 @@ Partiamo come al solito dall'[[Equazione di Schrödinger#Potenziale indipendente
 $$- \frac{\hbar^{2}}{2m} \frac{d^{2}\psi}{dx^{2}}=E\psi$$
 che ha potenziale nullo. Come per la [[Buca infinita quantistica|buca infinita]], scriviamola in una forma più compatta
 $$\frac{d^{2}\psi}{dx^{2}}=-k^{2}\psi,\quad\text{con }k\equiv \frac{\sqrt{2mE}}{\hbar}$$
-la cui soluzione generale è
+Ma questo non è altro che un [[Harmonic oscillator]] classico, la cui soluzione generale è
 $$\psi(x)=Ae^{ikx}+Be^{-ikx}$$
 qui scritta in forma esponenziale complessa.
 

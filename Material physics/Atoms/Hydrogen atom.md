@@ -247,6 +247,16 @@ where $m$ was renamed to $m_{l}$ to better distinguish it from the spin magnetic
 - $s$ is the spin quantum number ($s=1/2$ for electrons)
 - $m_{s}$ is the magnetic spin quantum number ($s=\pm 1$ for electrons)
 
+Notably, the spatial part of the wavefunction is a usual complex valued function. However, the spin part is a *vector*, with two components. This means that the operation we're doing here is scalar multiplication of the spin vector by the spatial wavefunction: in other words, the total wavefunction is a two-dimensional vector, not a number.
+
+For the curious, this is what the wavefunction looks like with all nested functions written out explicitly
+$$\begin{align}
+\psi_{nlm_{l}sm_{s}}(r,\theta,\phi)=&-\chi_{sm_{s}} \sqrt{ \left( \frac{2Z}{na_{\mu}} \right)^{3} \frac{(n-l-1)!}{2n[(n+l)!]^{3}} }\left( \frac{2Z}{na_{\mu}} \right)^{l}e^{-Z/na_{\mu}} \\
+&\left( \frac{2Z}{na_{\mu}} \right)^{-2l-1}\frac{e^{ 2Z/na\mu }}{(n-l-1)!} \frac{d^{n-l-1}}{d\left( \frac{2Z}{na_{\mu}} \right)^{n-l-1}} \\
+&\left[ \left( \frac{2Z}{na_{\mu}} \right)^{n+l}e^{-2Z/na_{\mu}} \right]\sqrt{\frac{2l+1}{4\pi} \frac{(l-m_{l})!}{(l+m_{l})!}}e^{im_{l}\phi}(1-\cos^{2}\theta)^{|m_{l}|/2}  \\
+&\frac{d^{\lvert m \rvert }}{d\cos \theta^{\lvert m \rvert }}\left[ \frac{1}{2^{l}l!} \left(\frac{d}{d\cos \theta}\right)^{l}(\cos^{2}\theta-1)^{l} \right]
+\end{align}$$
+
 
 [^1]: The angular momentum operator is found by quantizing the classical quantities of $r$ and $p$, which become $\hat{r}$ and $-i\hbar \nabla$ respectively ($\nabla$ is the [[gradient]]). So, we get $\hat{L}=-i\hbar(\hat{r}\times \nabla)$.
 
