@@ -30,7 +30,7 @@ wiki-publish: true
 - [[Sommerfeld expansion]]
 - [[Ideal gas]] (quantum), [[Fermi gas]] and [[Bose gas]]
 - [[Bose-Einstein condensation]]
-- [[Black body cavity]]
+- [[Black body]]
 - [[Harmonic oscillator#Phonons|Phonons]]
 ### Mathematics
 - [[Laplace's method]] (i.e. saddle point method)

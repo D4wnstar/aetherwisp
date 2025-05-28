@@ -38,7 +38,7 @@ Consideriamo i modi di oscillazione di un [[corpo nero]]
 $$k_{x,y,z}=\frac{\pi n_{x,y,z}}{L}$$
 ottenuti da un [[Harmonic oscillator]] tridimensionale per un oggetto cubico di lato $L$.
 
-![[Schema modi di oscillazione corpo nero|90%|center]]
+![[Diagram Black body wavenumber shell|90%|center]]
 
 Prendiamo il volume occupato da un modo (un cubo di lato $\pi/L$)
 $$\frac{1}{8}\underbrace{4\pi k^{2}dk}\limits_{*}\underbrace{\left(\frac{\pi}{L}\right)^{-3}}\limits_{**}2$$

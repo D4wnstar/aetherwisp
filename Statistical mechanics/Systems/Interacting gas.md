@@ -25,8 +25,10 @@ Where we defined the **Mayer function** $f_{ij}(r)=e^{-\beta u_{ij}}-1$. The int
 
 When the particles do interact, the Mayer function describes how they do so. Its utility lies in the fact that at high [[temperature|temperatures]], it is a very small number and can therefore be expressed in an approximate form with little error. The following is a typical shape for an interparticle potential of effective range $r_{0}$.
 
+:::image
 ![[Mayer function and distance.png]]
-*From Pathria & Beale's Statistical Mechanics, 3rd ed., page 301*
+From Pathria & Beale's Statistical Mechanics, 3rd ed., page 301
+:::
 
 We can modify the partition function as follows:
 $$Q_{N}=\frac{V^{N}}{\lambda^{3N}N!}\int\frac{1}{V^{N}} \prod_{i=1}^{N} \prod_{i<j}(1+f_{ij})d\mathbf{r}=\frac{V^{N}}{\lambda ^{3N}N!}Z_{N}$$

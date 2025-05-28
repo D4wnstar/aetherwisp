@@ -119,7 +119,7 @@ In the [[Thomas-Fermi approximation]] it becomes
 $$U=\frac{3V}{2\pi ^{2}c^{3}}\int_{0}^{\omega _\text{max}}\omega ^{2} \frac{1}{e^{\beta \hbar \omega}-1}d\omega$$
 Note that unlike in the vacuum, the energy is capped by the maximum frequency, which is itself capped by the density. This makes sense: denser materials stockpile more energy because there's just more *stuff* in them. The energy density by particle is
 $$\frac{U}{N}=\frac{g(k_{B}T)^{4}}{(\hbar \omega _\text{max})^{3}}\int_{0}^{\beta \hbar \omega _\text{max}} \frac{t^{3}}{e^{t}-1}dt$$
-Notice how this equation is almost identical to the [[Planck radiation law]] for a [[black body cavity]]. This shouldn't be surprising: both are Bose gases in a finite volume, so it makes sense that their energy density would be described by similar equations. The major difference is that [[photon|photons]] in the cavity could have any frequency, but phonons in a medium have frequencies only up to a maximum.
+Notice how this equation is almost identical to the [[Planck radiation law]] for a [[Black body]]. This shouldn't be surprising: both are Bose gases in a finite volume, so it makes sense that their energy density would be described by similar equations. The major difference is that [[photon|photons]] in the cavity could have any frequency, but phonons in a medium have frequencies only up to a maximum.
 
 Unfortunately, we don't really have an analytical solution for this. However, we can nevertheless get a parametric result.
 ###### Equation of state

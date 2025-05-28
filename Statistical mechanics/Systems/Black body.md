@@ -2,10 +2,33 @@
 wiki-publish: true
 aliases:
   - ultraviolet catastrophe
+  - Raileigh-Jeans law
+  - Planck radiation law
 ---
-A **black body cavity** is a hollow [[corpo nero|black body]] with a pinhole dug into the surface. The cavity emits [[radiazione elettromagnetica|electromagnetic radiation]] from within. If the cavity is large enough, the system approximately looses the dependency on boundary conditions. It was the [[physical system]] that spurred the start of quantum mechanics, as classical results differ massively from reality due to the **ultraviolet catastrophe**.
-### Quantum description
-Since electromagnetic radiation is the exchange of [[Photon|photons]], the whole cavity can be described as an [[ensemble]]. Specifically, it is a [[Bose gas]] of [[mass|massless]] [[boson|bosons]]. Since photons are absorbed and emitted, the total number of photons $N$ is not conserved. As such, we'll use a [[quantum grand canonical ensemble]]. The [[chemical potential]] is therefore zero[^1], so the [[fugacity]] is $z=1$.
+A **black body** is an idealized body that absorbs all incident [[radiation]]. It is a good approximation for many bodies that only (or mostly) exhibit thermal radiation, such as [[stella|stars]] and the human body.
+
+A hollow spherical object with the inner surface painted black and a pinhole dug into it is an accurate real world representation of a black body. The cavity emits [[electromagnetic radiation]] from the pinhole due to thermal excitation. If the cavity is large enough, the system approximately looses the dependency on boundary conditions.
+
+It was the [[physical system]] that spurred the start of quantum mechanics, as the classical result for the emission spectrum differs massively from reality in the higher frequencies, such as ultraviolet: this discrepancy has been called the **ultraviolet catastrophe**.
+### Classical description
+Let's assume our body is made up of many little [[Electric dipole|electric dipoles]] (imagine [[atom|atoms]] moving around and reorienting). These dipoles are organized in such a manner as to possess a translational symmetry, which allows us to use periodic boundary conditions. Namely, if we take a cubic box of side $L$ as our "periodicity cell" (the single volume element that gets periodically repeated), our [[wavenumber]] will look like
+$$k_{i}=\frac{\pi n_{i}}{L}$$
+where $i=x,y,z$ and $n\in \mathbb{N}$. This comes from the [[harmonic oscillator]]. Mind you, this is *not* quantization: we have not quantized fields, matter, light or anything else. The number of possible oscillation modes can be calculated in the space of wavenumbers. Let's consider an infinitesimally thick (thickness $dk$) spherical shell in this space, and let's cut out only the octant where all components $k_{x},k_{y}$ and $k_{z}$ are positive.
+
+![[Diagram Black body wavenumber shell]]
+
+
+Remember that the modes are discrete, as they depend on a natural number $n$, so the density of oscillation modes in this infinitesimal "volume" (which is more of a 3D grid of points due to discreteness) is given by
+$$\rho_{k}^{dK}=\frac{N_{k}}{V}=\frac{1}{8}4\pi k^{2}dk\ \underbrace{ \left( \frac{\pi}{L} \right)^{-3} }_{ \text{"volume"} }\ \underbrace{ 2 }_{ \text{polarizations} } \frac{1}{V}=\frac{k^{2}}{\pi ^{2}}dk$$
+From here we can obtain the density of modes as a function of the [[frequency]] $\nu$ remembering that
+$$k=\frac{2\pi}{\lambda}=\frac{2\pi \nu}{c}\quad\Rightarrow \quad dk=\frac{2\pi}{c}d\nu \quad\Rightarrow \quad d\nu=\frac{4\pi ^{2}\nu ^{2}}{\pi ^{2}c^{2}} \frac{2\pi}{c}d\nu=\frac{8\pi \nu ^{2}}{c^{3}}$$
+The energy density will thus be
+$$u(\nu) \bar{\varepsilon}=\frac{8\pi \nu ^{2}}{c^{3}}\bar{\varepsilon}\quad\text{where}\quad \bar{\varepsilon}=\frac{\int_{0}^{\infty}\varepsilon e^{-\beta \varepsilon}d\varepsilon}{\int_{0}^{\infty}e^{-\beta \varepsilon}d\varepsilon}=\frac{1}{\beta}$$
+The relation
+$$\boxed{\rho(\nu)=\frac{8\pi \nu ^{2}}{\beta c^{3}}}$$
+is known as the **Rayleigh-Jeans law**. It is the classical description of the emission of a black body, and unfortunately it fails miserably as soon as you try to apply it: being a quadratic law in $\nu$, it just keeps getting higher and higher as the frequencies climb up. In theory, extremely high frequencies like gamma rays would have to carry near infinite energy! This is quite obviously nonsensical, but the solutions are much less evident. In fact, they require claiming something almost just as nonsensical: that energy is quantized.
+### Quantum ensemble
+To fix the Rayleigh-Jeans law, we must shed classical descriptions and move on to a fully quantized world, where radiation is not just a [[wave]], but also a [[particle]], namely a [[photon]]. Since electromagnetic radiation is the exchange of photons, the whole cavity can be described as an [[ensemble]] of them. Specifically, it is a [[Bose gas]] of [[mass|massless]] [[boson|bosons]]. Since photons are absorbed and emitted, the total number of photons $N$ is not conserved. As such, we'll use a [[quantum grand canonical ensemble]]. The [[chemical potential]] is therefore zero[^1], so the [[fugacity]] is $z=1$.
 
 As with all photons, their properties are
 $$E=\hbar \omega,\qquad \mathbf{p}=\hbar \mathbf{k},\qquad \lvert \mathbf{k} \rvert =\frac{\omega}{c}$$
@@ -43,7 +66,7 @@ Substituting yields
 $$\ldots= 2\hbar \int_{0}^{\infty} \frac{\omega k^{2}}{2\pi ^{2}}V \frac{1}{e^{\beta \hbar \omega}-1}dk=\frac{\hbar V}{\pi ^{2}} \int_{0}^{\infty} \frac{\omega ^{2}}{c^{2}} \frac{\omega}{e^{\beta \hbar \omega}-1} \frac{d\omega}{c}$$
 The energy density by volume is
 $$\frac{U}{V}=\int_{0}^{\infty}u(\omega,T)\ d\omega \quad\text{where}\quad \boxed{u(\omega,T)=\frac{\hbar}{\pi ^{2}c^{3}} \frac{\omega ^{3}}{e^{\beta \hbar \omega}-1}}$$
-This is called the [[Planck radiation law]].
+This is called the **Planck radiation law**.
 
 ![[Black_body.svg]]
 

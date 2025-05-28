@@ -1,6 +1,7 @@
 ### Atomic physics
 - [[Atom]], [[Rutherford experiment]]
 - [[Momento angolare quantistico]], [[Stern-Gerlach experiment]]
+- [[Black body#Classical description]]
 - [[Hydrogen atom]], [[Spin]], [[Struttura fine]]
 - [[Laser]]
 - [[Quantizzazione del campo elettromagnetico]]
