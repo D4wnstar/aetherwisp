@@ -1,7 +1,7 @@
 ---
 wiki-publish: true
 aliases:
-  - hydrogenoid atom
+  - hydrogenic atom
 ---
 The **hydrogen atom** is the [[atom]] of the element hydrogen, a quantum [[physical system]] made up of a central positive [[Electric charge|charge carrier]] (a [[proton]]) and a negative charge carrier (an [[Elettrone|electron]]) surrounding it. It is the simplest case of a broader class of objects called **hydrogenic atoms** (or **hydrogen-like atoms**) which may possess a stronger central charge, that is, a full atomic [[Nucleo atomico|nucleus]].
 
@@ -196,7 +196,7 @@ $$\boxed{\psi_{nlm}(r,\theta,\phi)=- \sqrt{ \left( \frac{2Z}{na_{\mu}} \right)^{
 where
 $$\rho=\frac{2Z}{na_{\mu}}r=\frac{2Z}{na_{0}} \frac{M}{m}r$$
 
-> [!tip] Wavefunction normalization
+> [!tip]- Wavefunction normalization
 > To normalize the wavefunction, start as usual
 > $$\begin{align}
 > 1=\int_{\mathbb{R}^{3}}\lvert \psi_{nlm}(\rho,\theta,\phi) \rvert ^{2}d^{3}r & =\int_{\mathbb{R}^{3}} \lvert R_{nl}(\rho)Y_{lm}(\theta,\phi) \rvert r^{2}\sin \theta \ dr d\theta d\phi \\
@@ -229,7 +229,7 @@ since $Y_{lm}(\theta,\phi)$ are normalized. The first few radial wavefunction an
 From *Bransden & Joachain - Physics of atoms and molecules*
 :::
 
-Other visualizations of the wavefunctions are the $xy$-plane section plot below, where you can see the black lines representing the nodes (i.e. the zeros) of the wavefunctions. Each wavefunction has
+Other visualizations of the wavefunctions are the $xy$-plane section plot below, where you can see the black lines representing the nodes (i.e. the zeros) of the wavefunctions.
 
 :::image
 ![[Hydrogen atom orbitals.png]]
@@ -256,6 +256,120 @@ $$\begin{align}
 &\left[ \left( \frac{2Z}{na_{\mu}} \right)^{n+l}e^{-2Z/na_{\mu}} \right]\sqrt{\frac{2l+1}{4\pi} \frac{(l-m_{l})!}{(l+m_{l})!}}e^{im_{l}\phi}(1-\cos^{2}\theta)^{|m_{l}|/2}  \\
 &\frac{d^{\lvert m \rvert }}{d\cos \theta^{\lvert m \rvert }}\left[ \frac{1}{2^{l}l!} \left(\frac{d}{d\cos \theta}\right)^{l}(\cos^{2}\theta-1)^{l} \right]
 \end{align}$$
+## The fine structure
+Although the wavefunction above provides good results, it still uses the Schrödinger equation as its starting point. The issue with this is that the Schrödinger equation does not consider the effects of relativity, and since electrons move with average speeds in the order of 1% of the [[speed of light]], this leads to minor, but still significant discrepancies when comparing theory with experiment.
+
+The formally correct way of handling this would be to start from relativistic quantum mechanics and the [[Dirac equation]]. However, that is beyond the scope of this section, and it is also historically misplaced. Before the Dirac equation was even developed, relativistic corrections to the hydrogen atom were already discovered and calculated by using [[Teoria delle perturbazioni|perturbation theory]], specifically time-independent perturbation theory. Namely, three corrections were developed: **relativistic kinetic energy**, **spin-orbit coupling** and the **Darwin term**. Each of these made the eigenvalues just a little closer to reality, matching the differences that we see in the laboratory. Together, these corrections are known as the **fine structure** of the hydrogen atom.
+
+This is a very qualitative description of the fine structure. Please refer to e.g. Appendix 7 of Bransden & Joachaim for a rigorous derivation.
+
+Our perturbed Hamiltonian will be
+$$H=H_{0}+H'$$
+where
+$$H_{0}=\frac{p^{2}}{2m}- \frac{Ze^{2}}{4\pi \varepsilon_{0}r}$$
+is our usual Hamiltonian (the quantity, not the operator, note the lack of hat on $H$) for a charged particle (our electron) in a central Coulomb potential and
+$$H'\equiv H_{1}'+H_{2}'+H_{3}'$$
+will be the perturbation due to the three aforementioned corrections.
+### Relativistic kinetic energy
+In relativity, the energy of the body is not just [[Kinetic energy|kinetic]]. We must use the full [[relativistic energy]] $E=\sqrt{ p^{2}c^{2}+m^{2}c^{4} }$, from which we get the kinetic energy as
+$$K=E-E_{0}=\sqrt{ p^{2}c^{2}+m^{2}c^{4} }-mc^{2}=mc^{2}\sqrt{ 1+ \frac{p^{2}}{m^{2}c^{2}} }-mc^{2}$$
+If $p^{2}/mc^{2}\ll 1$, which is our case, we can expand the square root in a [[Taylor series]] of $p^{2}/mc^{2}$:
+$$\sqrt{ 1+ \frac{p^{2}}{m^{2}c^{2}} }\simeq1+ \frac{1}{2} \frac{p^{2}}{m^{2}c^{2}}- \frac{1}{8} \frac{p^{4}}{m^{4}c^{4}}$$
+Plugging this into the previous equation gives an approximate kinetic energy of
+$$K\simeq \frac{p^{2}}{2m}- \frac{1}{8} \frac{p^{4}}{m^{3}c^{2}}$$
+The first term is very clearly the classical kinetic energy, whereas the second is a term that is unique to relativity. This is the **relativistic correction to kinetic energy**:
+$$\boxed{H_{1}'=- \frac{1}{8} \frac{p^{4}}{m^{3}c^{2}}}$$
+The correction to the eigenvalues is given by the average of the perturbation in the generic orbital (i.e. the eigenstates of $H_{0}$)
+$$\begin{align}
+\Delta E_{1}&=\braket{ \psi_{nlm_{l}m_{s}} | - \frac{p^{4}}{8m^{3}c^{2}} | \psi_{nlm_{l}m_{s}} }  \\
+&=- \frac{1}{2mc^{2}}\braket{ \psi_{nlm_{l}} | \left( \frac{p^{2}}{2m} \right)^{2} | \psi_{nlm_{l}}  }  \\
+&=- \frac{1}{2mc^{2}}\braket{ \psi_{nlm_{l}} | \left( H_{0}+ \frac{Ze^{2}}{4\pi \varepsilon r} \right)^{2} | \psi_{nlm_{l}}  } \\
+\end{align}$$
+This equation can be further developed to get
+$$\boxed{\Delta E_{1}=- E_{n} \frac{(Z\alpha)^{2}}{n^{2}}\left[ \frac{3}{4}- \frac{n}{l+1/2} \right]}$$
+where $\alpha$ is a constant aptly known as the **[[fine-structure constant]]**.
+### Spin-orbit correction
+The spin-orbit term takes the effect of the interaction between spin and angular momentum of the electron into account. The easiest way to reach it is by considering the [[frame of reference]] in which the electron is not moving and the nucleus is rotating around it. In such a frame, the [[Electric field|electric]] and [[Magnetic field|magnetic fields]] are
+$$\mathbf{E}=- \frac{dV}{dr}\hat{\mathbf{r}},\quad\mathbf{B}=- \frac{1}{c^{2}}\mathbf{v}\times \mathbf{E}$$
+The magnetic field can be developed as
+$$\mathbf{B}=- \frac{1}{c^{2}}\mathbf{v}\times\left( - \frac{1}{r} \frac{dV}{dr} \right)\mathbf{r}=- \frac{1}{c^{2}r} \frac{dV}{dr}(\mathbf{r}\times \mathbf{v})=- \frac{1}{mc^{2}r} \frac{dV}{dr}\mathbf{L}$$
+The intrinsic [[magnetic dipole moment]] of the electron is the [[Bohr magneton]]:
+$$\boldsymbol{\mu}_{B}=- \frac{e}{m}\mathbf{S}$$
+Thus, the energy is given by the usual formula for a [[magnetic dipole]]:
+$$H_{2}'=-\boldsymbol{\mu}_{B}\cdot \mathbf{B}=- \frac{1}{mc^{2}} \frac{e}{r} \frac{dV}{dr} \mathbf{L}\cdot \mathbf{S}$$
+Evaluating the derivative gives the **spin-orbit correction**:
+$$\boxed{H_{2}'=\frac{Ze^{2}}{8m^{2}c^{2}\pi \varepsilon_{0}r^{3}}\mathbf{L}\cdot \mathbf{S}}$$
+This correction does not commute with neither $L_{z}$ nor $S_{z}$, so to find the eigenvalue correction we must first identify some states that [[Diagonalization|diagonalize]] $H_{2}'$. To do so, we introduce the total angular momentum
+$$\mathbf{J}\equiv \mathbf{L}+\mathbf{S}$$
+which associated quantum numbers $j$ and $m_{j}$. This allows us to write the [[scalar product]] as
+$$\mathbf{L}\cdot \mathbf{S}=\frac{1}{2}(\mathbf{J}-\mathbf{L}^{2}-\mathbf{S}^{2})$$
+A good [[basis]] is the one given by the states
+$$\ket{\psi_{nlm_{l}m_{s}}} \equiv \sum_{m_{l},m_{s}}\braket{ \frac{1}{2}lm_{l}m_{s} | jm_{j} } \ket{\chi_{m_{s}}\psi_{nlm_{l}}} $$
+The scalar product in the sum are a well-known set of numbers called the [[Clebsch-Gordan coefficients]] for $s=1/2$. In these states we have the eigenvalue equations
+$$\begin{cases}
+\mathbf{L}^{2}\ket{\psi_{nljm_{j}}} =\hbar l(l+1)\ket{\psi_{nljm_{j}}}  \\
+\mathbf{S}^{2}\ket{\psi_{nljm_{j}}} =\hbar s(s+1)\ket{\psi_{nljm_{j}}} =\frac{3}{4}\hbar \ket{\psi_{nljm_{j}}}  \\
+\mathbf{J}^{2}\ket{\psi_{nljm_{j}}} =\hbar j(j+1)\ket{\psi_{nljm_{j}}} \\
+J_{z}\ket{\psi_{nljm_{j}}} =\hbar m_{j}\ket{\psi_{nljm_{j}}}  \\
+H_{0}\ket{\psi_{nljm_{j}}} =E_{n}\ket{\psi_{nljm_{j}}} 
+\end{cases}$$
+Since $s=1/2$, the values for $j$ are $j=s\pm1/2$, while $m_{j}=-j,-j+1,\ldots,j-1,j$ as with all magnetic spin numbers. The energy correction can now be calculated:
+$$\Delta E_{2}=\braket{ \psi_{nljm_{j}} | H_{2}'|\psi_{nljm_{j}} } =\frac{\hbar^{2}}{2}\left[ j(j+1)-l(l+1)- \frac{3}{4} \right]\braket{ \psi_{nljm_{j}} | \frac{Ze^{2}}{4m^{2}c^{2}\pi \varepsilon_{0}r^{3}}| \psi_{nljm_{j}} } $$
+It can be proved that
+$$\braket{ \psi_{nljm_{j}} | \frac{1}{r^{3}} |\psi_{nljm_{j}} }=\frac{Z^{3}}{a_{0}^{3}n^{3}l\left( l+ \frac{1}{2} \right)(l+1)}$$
+Using
+$$E_{n}=- \frac{mc^{2}}{2} \frac{(Z\alpha)^{2}}{n^{2}}$$
+this leads to three possible values:
+$$\boxed{\Delta E_{2}=\left\{\begin{align}
+&-\frac{E_{n}}{2}\frac{(Z\alpha)^{2}}{ nl\left( l+ \frac{1}{2} \right)(l+1) }&\text{if }j=l+ \frac{1}{2} \\
+&\frac{E_{n}}{2}\frac{(Z\alpha)^{2}}{ nl\left( l+ \frac{1}{2} \right)(l+1) }&\text{if }j=l- \frac{1}{2} \\
+&0&\text{if }j=\frac{1}{2}
+\end{align}\right.}$$
+### Darwin term
+The last correction is due to the [[Disuguaglianza di Heisenberg|Heisenberg inequality]]. Since the concept of "size" is not well-defined in quantum mechanics, the electron is non-localized and is not very well described by a point charge. The Darwin term consists of treating the electron as a cloud of charge described by a volume charge distribution. To do so, we starting by recalling that the usual [[electric potential]] for a point charge $e$ goes like
+$$\phi(r)\sim \frac{e}{r}$$
+We now introduce a new vector $\mathbf{u}$ which identifies the position of a point in the cloud, starting from the center of the cloud. If $\mathbf{r}$ is the center of the cloud, then $\mathbf{r}+\mathbf{u}$ is a point $\mathbf{u}$ away from the center. The corrected potential energy $\tilde{V}$ will then be a function of $\mathbf{r}+\mathbf{u}$:
+$$\tilde{V}(\mathbf{r}+\mathbf{u})=\int_{q_{e}}\phi(\mathbf{r}+\mathbf{u})dq_{e}$$
+where we are integrating over the entire charge. We introduce the volume charge distribution we mentioned before as
+$$\rho(\mathbf{u})\equiv-e\rho_{0}(\mathbf{u})\quad\text{where}\quad \rho_{0}(\mathbf{u})\text{ such that }\int_{V_{e}} \rho_{0}(\mathbf{u})dq=1$$
+This makes our corrected potential energy into
+$$\tilde{V}(\mathbf{r}+\mathbf{u})=\int_{V_{e}} \rho(\mathbf{u})\phi(\mathbf{r}+\mathbf{u})d^{3}u=\int_{V_{e}} \rho_{0}(\mathbf{u})V(\mathbf{r}+\mathbf{u})d^{3}u$$
+We can expand $\tilde{V}$ in a Taylor series in $\mathbf{r}+\mathbf{u}$ around $\mathbf{r}$ to get
+$$V(\mathbf{r}+\mathbf{u})\simeq V(\mathbf{r})+\sum_{i} \frac{ \partial V }{ \partial x_{i} } (\mathbf{r})u_{i}+ \frac{1}{2}\sum_{ij} \frac{ \partial ^{2}V }{ \partial x_{i}\partial x_{j} }(\mathbf{r}) u_{i}u_{j}$$
+We can plug this into the equation for $\tilde{V}$ to get
+$$\begin{align}
+\tilde{V}(\mathbf{r})&\simeq\int_{V_{e}} \rho_{0}(\mathbf{u})V(\mathbf{r})d^{3}u+ \int_{V_{e}} \rho_{0}(\mathbf{u})\sum_{i} \frac{ \partial V }{ \partial x_{i} } (\mathbf{r})u_{i}d^{3}u+\int_{V_{e}} \rho_{0}(\mathbf{u})\frac{1}{2}\sum_{ij} \frac{ \partial ^{2}V }{ \partial x_{i}\partial x_{j} }(\mathbf{r}) u_{i}u_{j}d^{3}u \\
+&=V(\mathbf{r})+ \frac{1}{6}\nabla ^{2}V(\mathbf{r})\int_{V_{e}}\rho_{0}(\mathbf{u})u^{2}du
+\end{align}$$
+Let's assume that the potentials takes the shape given by
+$$\rho_{0}(u)=\begin{cases}
+\left( \frac{4}{3}\pi \frac{\lambda}{2\pi} \right)^{-1}&\text{if }u\leq \frac{\lambda}{2\pi} \\
+0&\text{if }u> \frac{\lambda}{2\pi}
+\end{cases}$$
+In other words, it fades off spherically, with a radius given by the reduced wavelength $\lambda/2\pi$. We also know that the [[Laplacian]] of $1/r$ is
+$$\nabla ^{2}\left( \frac{1}{r} \right)=\delta(\mathbf{r})$$
+so, a three-dimensional [[Delta di Dirac|Dirac delta]]. Putting this together and solving results in the **Darwin term**:
+$$\boxed{H_{3}'=\frac{\pi \hbar^{2}}{2m^{2}c^{2}}\left( \frac{Ze^{2}}{4\pi \varepsilon_{0}} \right)\delta(\mathbf{r})}$$
+The presence of a Dirac delta here is critical: since the delta kills every value outside of $\mathbf{r}=0$, the only time this correction matters is, well, when we are evaluating $\mathbf{r}=0$. This is significant because if you go back to look at the wavefunction we've derived above, the *only* ones which are nonzero in the origin are the $s$ orbitals, so when $l=0$. Everything else is zero in the origin, which means that this correction does *not* matter to them. The Darwin term is just an $s$ orbital correction.
+
+Using this knowledge allows us to calculate the eigenvalue difference in just the $s$ orbitals, which is to say when $l=0,m=0$:
+$$\begin{align}
+\Delta E_{3}&=\frac{\pi \hbar^{2}}{2m^{2}c^{2}} \frac{Ze^{2}}{4\pi \varepsilon_{0}}\braket{ \psi_{n00} | \delta(\mathbf{r}) | \psi_{n00} }  \\
+&=\frac{\pi \hbar^{2}}{2m^{2}c^{2}} \frac{Ze^{2}}{4\pi \varepsilon_{0}}\lvert \psi_{n00}(\mathbf{r}) \rvert ^{2} \\
+&=\frac{mc^{2}}{2} \frac{(Z\alpha)^{2}}{n^{2}} \frac{(Z\alpha)^{2}}{n}
+\end{align}$$
+And hence
+$$\boxed{\Delta E_{3}=-E_{n} \frac{(Z\alpha)^{2}}{n}\quad\text{if }l=0}$$
+### Putting it all together
+Now that we have all three corrections, we can put the together to find the total correction to the energy eigenvalues:
+$$\boxed{\Delta E=\Delta E_{1}+\Delta E_{2}+\Delta E_{3}=E_{n} \frac{(Z\alpha)^{2}}{n^{2}}\left( \frac{n}{j+ \frac{1}{2}}- \frac{3}{4} \right)}$$
+and adding this to the energy eigenvalues themselves we get the fine structure energy states:
+$$\boxed{E_{nj}=E_{n}\left[ 1+ \frac{(Z\alpha)^{2}}{n^{2}}\left( \frac{n}{j+ \frac{1}{2}}- \frac{3}{4} \right) \right]}$$
+As we can see, there is no direct dependence on the azimuthal angular momentum: the only thing that matters is the total angular momentum. As such, despite the fine structure leading to a great deal of splitting in the energy spectrum, it does not fully eliminate the degeneracy in $l$.
+
+We can see that, since $\alpha \simeq 1/137$, its square is $\alpha ^{2}\sim10^{-4}$. As such, when $Z=1$ (so, when dealing with hydrogen), the correction is quite small, in the order of $10^{-4}\text{ eV}$. Recalling that the ground state energy is the [[Rydberg constant|Rydberg energy]], at about $-13.6\text{ eV}$, it's quite a small contribution indeed. However, do note the dependence on $Z$. This derivation is not just for the hydrogen atom, but rather all *hydrogenic* atoms. This includes any atom with just a single valence electron, which for instance includes all alkali metals. Thus, while the fine structure may not be all that significant for hydrogen outside of high-precision experiments or extreme conditions, it may be quite relevant for heavier hydrogenic atoms, such as cesium (symbol: $^{55}\text{Cs}$) for which $Z^{2}=55^{2}=3025\sim 10^{3}$, thus causing the whole term to be $\sim0.1\text{ eV}$.
+
+Also, the relativistic correction is strictly positive, which means that the corrected states are *more strongly bound* (since $E_{n}$ is negative). In a sense, relativity makes it harder to break an electron off its atom. This becomes progressively less and less relevant as you climb the states, due to the $n^{-2}$ dependence, which means that the ground state ($n=1$) is the most affected.
 
 
 [^1]: The angular momentum operator is found by quantizing the classical quantities of $r$ and $p$, which become $\hat{r}$ and $-i\hbar \nabla$ respectively ($\nabla$ is the [[gradient]]). So, we get $\hat{L}=-i\hbar(\hat{r}\times \nabla)$.

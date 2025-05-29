@@ -15,7 +15,7 @@ Nella sua formulazione originale di questo sistema, Einstein postulò la presenz
 $$\frac{dN_{2}(t)}{dt}=-B_{21}N_{2}(t)u(\omega)$$
 che, come l'assorbimento, dipende dalla densità di energia $u(\omega)$, oltre che dalla probabilità di emissione stimolata $B_{21}$.
 
-![[Schema processi sistema a due livelli|80%|center]]
+![[Diagram Two-level system processes|80%|center]]
 
 Possiamo imporre una condizione di stazionarietà: vale a dire che per ogni fotone che assorbito, statisticamente parlando uno ne viene emesso.
 $$B_{12}N_{1}u(\omega)=B_{21}N_{2}u(\omega)+A_{21}N_{2}$$

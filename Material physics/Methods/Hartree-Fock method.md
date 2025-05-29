@@ -10,5 +10,5 @@ $$\begin{align}
 \braket{ \phi | \hat{H}_{2} | \phi } &=\frac{1}{2}\sum_{\lambda}\sum_{\mu}\left[ \left\langle  u_{\lambda}(q_{i})u_{\mu}(q_{j})| \frac{1}{r_{ij}} | u_{\lambda}(q_{i})u_{\mu}(q_{j})  \right\rangle \right. \quad&(\text{direct term }\mathcal{F}_{\lambda \mu})\\
  &\left.- \left\langle  u_{\lambda}(q_{i})u_{\mu}(q_{j})| \frac{1}{r_{ij}} | u_{\mu}(q_{i})u_{\lambda}(q_{j})  \right\rangle  \right]&(\text{exchange term } \mathcal{K}_{\lambda \mu})
 \end{align}$$
-The direct/exchange term division is similar to what happens in the [[two electron atom]]. The total energy is
+The direct/exchange term division is similar to what happens in the [[Two-electron atom]]. The total energy is
 $$E[\phi]=\sum_{\lambda}\mathcal{I}_{\lambda}+ \frac{1}{2}\sum_{\lambda}\sum_{\mu}[\mathcal{F}_{\lambda \mu}-\mathcal{K}_{\lambda \mu}]$$

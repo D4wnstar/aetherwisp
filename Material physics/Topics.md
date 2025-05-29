@@ -7,7 +7,7 @@
 - [[Quantizzazione del campo elettromagnetico]]
 - [[Fermion]], [[Boson]]
 - [[Fermi gas]]
-- [[Two electron atom]]
+- [[Two-electron atom]]
 - [[Many-electron atom]], [[Hartree-Fock method]]
 ### Molecular physics
 - [[Molecule]]

@@ -1,5 +1,7 @@
 ---
 wiki-publish: true
+aliases:
+  - chance
 ---
 A **probability** is a mathematical value or function that represents a variety of concepts, most commonly the likelihood of a given event occurring, but has been interpreted in many different ways, such as a measure of confidence. Formally, a probability is
 - defined in $[0,1]$ and therefore both limited and non-negative;
