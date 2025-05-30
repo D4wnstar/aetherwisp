@@ -315,7 +315,7 @@ H_{0}\ket{\psi_{nljm_{j}}} =E_{n}\ket{\psi_{nljm_{j}}}
 \end{cases}$$
 Since $s=1/2$, the values for $j$ are $j=s\pm1/2$, while $m_{j}=-j,-j+1,\ldots,j-1,j$ as with all magnetic spin numbers. The energy correction can now be calculated:
 $$\Delta E_{2}=\braket{ \psi_{nljm_{j}} | H_{2}'|\psi_{nljm_{j}} } =\frac{\hbar^{2}}{2}\left[ j(j+1)-l(l+1)- \frac{3}{4} \right]\braket{ \psi_{nljm_{j}} | \frac{Ze^{2}}{4m^{2}c^{2}\pi \varepsilon_{0}r^{3}}| \psi_{nljm_{j}} } $$
-It can be proved that
+It can be proven that
 $$\braket{ \psi_{nljm_{j}} | \frac{1}{r^{3}} |\psi_{nljm_{j}} }=\frac{Z^{3}}{a_{0}^{3}n^{3}l\left( l+ \frac{1}{2} \right)(l+1)}$$
 Using
 $$E_{n}=- \frac{mc^{2}}{2} \frac{(Z\alpha)^{2}}{n^{2}}$$
@@ -367,10 +367,71 @@ and adding this to the energy eigenvalues themselves we get the fine structure e
 $$\boxed{E_{nj}=E_{n}\left[ 1+ \frac{(Z\alpha)^{2}}{n^{2}}\left( \frac{n}{j+ \frac{1}{2}}- \frac{3}{4} \right) \right]}$$
 As we can see, there is no direct dependence on the azimuthal angular momentum: the only thing that matters is the total angular momentum. As such, despite the fine structure leading to a great deal of splitting in the energy spectrum, it does not fully eliminate the degeneracy in $l$.
 
+:::image
+![[Hydrogen_fine_structure_energy_2.png]]
+The last column to the right shows an additional effect, the [[Zeeman effect]], which is not covered here.
+
+By ReyHahn - Own work, CC BY-SA 4.0, from [Wikipedia](https://commons.wikimedia.org/w/index.php?curid=92060559). Altered to have a white background.
+:::
+
 We can see that, since $\alpha \simeq 1/137$, its square is $\alpha ^{2}\sim10^{-4}$. As such, when $Z=1$ (so, when dealing with hydrogen), the correction is quite small, in the order of $10^{-4}\text{ eV}$. Recalling that the ground state energy is the [[Rydberg constant|Rydberg energy]], at about $-13.6\text{ eV}$, it's quite a small contribution indeed. However, do note the dependence on $Z$. This derivation is not just for the hydrogen atom, but rather all *hydrogenic* atoms. This includes any atom with just a single valence electron, which for instance includes all alkali metals. Thus, while the fine structure may not be all that significant for hydrogen outside of high-precision experiments or extreme conditions, it may be quite relevant for heavier hydrogenic atoms, such as cesium (symbol: $^{55}\text{Cs}$) for which $Z^{2}=55^{2}=3025\sim 10^{3}$, thus causing the whole term to be $\sim0.1\text{ eV}$.
 
 Also, the relativistic correction is strictly positive, which means that the corrected states are *more strongly bound* (since $E_{n}$ is negative). In a sense, relativity makes it harder to break an electron off its atom. This becomes progressively less and less relevant as you climb the states, due to the $n^{-2}$ dependence, which means that the ground state ($n=1$) is the most affected.
+## State transitions
+Once the stationary states themselves are determined, it's fair to ask how the electron goes from one to another. After all, there's little point in knowing all possible states if the electron is perpetually confined to the ground state. As such, we now take on the investigation of [[State transition|state transitions]] of the electron.
+### Electromagnetic field
+Of course, since stationary states are stable, we need some external influence to trigger a state transition. We will choose the application of an external [[electric field]] $\boldsymbol{\mathcal{E}}$ and [[magnetic field]] $\boldsymbol{\mathcal{B}}$ for this section, respectively determined by an [[electric potential]] $\phi$ and a [[magnetic vector potential]] $\mathbf{A}$. The Hamiltonian of an [[Electric charge|point charge]] $q$ of mass $m$ in these fields is
+$$H=\frac{1}{2m}(\mathbf{p}-q\mathbf{A})^{2}+q\phi$$
+(ignoring small spin-dependent terms.) Changing $q\to-e$ and plugging this into the time-dependent Schrödinger equation yields
+$$i\hbar \frac{ \partial  }{ \partial t } \psi(\mathbf{r},t)=\left[ \frac{1}{2m}(-i\hbar \nabla+e\mathbf{A})^{2}- \frac{Ze^{2}}{4\pi \varepsilon_{0} r} \right]\psi(\mathbf{r},t)$$
+Before we move on: the entirety of electrodynamics hinges on an arbitrary choice, which we called [[gauge freedom]]. Though proof won't be given here, the Schrödinger equation is **gauge invariant**, which means that regardless of the gauge we choose, the equation does not change. The only thing that changes is that the resulting wavefunction acquires a [[phase]], and different gauges lead to different phases. However, since phases vanish when taking the square modulus $\lvert \psi(\mathbf{r},t) \rvert^{2}$, it makes no physical difference. For this section, we choose to fix the gauge to $\nabla\cdot \mathbf{A}=0$, known as the [[Coulomb gauge]].
 
+Theoretical calculation of the transition [[Probability|probabilities]] is arduous and only a surface level analysis will be reported here. See Bransden & Joachaim Chapters 4.1 and 4.2 for more discussion.
+
+We'll assume that the incident perturbation is a nearly monochromatic pulse of radiation peaked about some [[Frequency|angular frequency]] $\omega_{0}$ and nonzero only in a small region of width $\Delta \omega$. As usual, a generic pulse can be represented as a superposition of [[Plane wave|plane waves]] of frequency $\omega$, which we assume to all share the same [[Wavenumber|wavevector]] $\hat{\mathbf{k}}$ and (linear) polarization vector $\hat{\varepsilon}$ (the two are [[Orthogonality|orthogonal]], $\hat{\mathbf{k}}\cdot \hat{\varepsilon}=0$). A plane wave is solved by the real vector potential
+$$\mathbf{A}(\omega;\mathbf{r},t)=\mathbf{A}_{0}(\omega)[e^{i(\mathbf{k}\cdot \mathbf{r}-\omega t+\delta_{\omega})}-e^{-i(\mathbf{k}\cdot \mathbf{r}-\omega t+\delta_{\omega})}]$$
+with $\mathbf{A}_{0}(\omega)=A_{0}(\omega)\hat{\varepsilon}$. $\delta_{\omega}$ is a real phase term. The superposition in therefore
+$$\mathbf{A}(\omega;\mathbf{r},t)=\int_{\Delta \omega}A_{0}(\omega)\hat{\varepsilon}[e^{i(\mathbf{k}\cdot \mathbf{r}-\omega t+\delta_{\omega})}-e^{-i(\mathbf{k}\cdot \mathbf{r}-\omega t+\delta_{\omega})}]d\omega$$
+Since we're looking for the state transition caused by this perturbation, we set the time-dependent wavefunction to be generated by the usual superposition
+$$\Psi(\mathbf{r},t)=\sum_{k}c_{k}(t)\psi_{k}(\mathbf{t})e^{-iE_{k}t/\hbar}$$
+where $c_{k}(t)$ are the coefficients of the expansion, $\psi_{k}$ are the stationary states and $E_{k}$ are the eigenstates. We already know the $\psi_{k}$ and $E_{k}$, so to find the time evolution, we need to solve for the $c_{k}(t)$. We do this with [[time-dependent perturbation theory]] and by ignoring the $\mathbf{A}^{2}$ terms, which leaves a perturbation of
+$$H'(t)=- \frac{i\hbar e}{m}\mathbf{A}(t)\cdot \nabla$$
+The coefficients satisfy
+$$\dot{c}_{b}(t)=- \frac{i}{\hbar}\sum_{k}\braket{ \psi_{b} | H'(t) | \psi_{k} } c_{k}(t)e^{i\omega_{bk}t}$$
+where $\omega_{bk}=(E_{b}-E_{k})/\hbar$. If we take the system to initially be in the stationary state $\ket{\psi_{a}}$ of energy $E_{a}$, to first order, the coefficients are
+$$c_{b}^{(1)}(t)=- \frac{i}{\hbar}\int_{0}^{t}\braket{ \psi_{b} | H'|\psi_{a} } e^{i\omega_{ba}t'}dt'$$
+Solving this for the $\mathbf{A}(t)$ above yields
+$$\begin{align}
+c_{b}^{(1)}(t)=- \frac{e}{m}\int_{\Delta \omega}A_{0}(\omega)&\Big[ e^{i\delta_{\omega}}\braket{ \psi_{b} | e^{i\mathbf{k}\cdot \mathbf{r}}\hat{\varepsilon}\cdot \nabla| \psi_{a} }\int_{0}^{t}e^{i(\omega_{ba}-\omega)t'}dt'+ \\
+&+e^{-i\delta_{\omega}}\braket{ \psi_{b} | e^{-i\mathbf{k}\cdot \mathbf{r}}\hat{\varepsilon}\cdot \nabla|\psi_{a} }\int_{0}^{t}e^{i(\omega_{ba}+\omega)t'}dt'   \Big]d\omega
+\end{align}$$
+The square brackets contain two terms: the first is the *absorption* term, which is nonzero only if $E_{b}=E_{a}+\hbar \omega$, and the second is the *emission* term, which is nonzero only if $E_{b}=E_{a}-\hbar \omega$. This is because the first integral over $dt'$ vanishes in realistic scenarios where the duration of the pulse is far larger than the periodic time $2\pi/\omega_{ba}$, thus leading that integral to be negligible unless $\omega \simeq \omega_{ba}$, which happens precisely when $E_{b}=E_{a}+\hbar \omega$. Similarly, the second integral is negligible unless $\omega \simeq-\omega_{ba}$ and so $E_{b}=E_{a}-\hbar \omega$.
+
+This shouldn't come as a surprise: after all, energy is conserved, so the state transition must absorb or emit precisely the difference in energy between the states.
+
+In an absorption process, when only the first half of the square brackets is nonzero, the probability that an atom will be found in a certain state upon measurement goes like
+$$\lvert c_{b}^{(1)}(t) \rvert ^{2}\sim \int_{\Delta \omega}\left[ \frac{eA_{0}(\omega)}{m} \right]^{2}\lvert M_{ba}(\omega) \rvert ^{2}$$
+where $M_{ba}$ is an element of the **transition matrix** $\mathrm{M}$, and is given by
+$$M_{ba}=\braket{ \psi_{b} | e^{i\mathbf{k}\cdot \mathbf{r}}\hat{\varepsilon}\cdot \nabla|\psi_{a} }=\int \psi_{b}^{*}(\mathbf{r})e^{i\mathbf{k}\cdot \mathbf{r}}\hat{\varepsilon}\cdot \nabla \psi_{a}(\mathbf{r})d\mathbf{r} $$
+This allows us to define the **absorption transition probability**
+$$W_{ba}=\frac{4\pi ^{2}}{m^{2}c}\left( \frac{e^{2}}{4\pi \varepsilon_{0}} \right) \frac{I(\omega_{ba})}{\omega ^{2}_{ba}}\lvert M_{ba}(\omega_{ba}) \rvert^{2} $$
+where
+$$I(\omega)=\int_{\Delta \omega}I_{0}(\omega)d\omega=\int_{\Delta \omega}2\varepsilon_{0}\omega ^{2}cA_{0}^{2}(\omega)d\omega$$
+The transition probability is also bound to its absorption **[[cross-section]]** by dividing the rate at which energy is absorbed by the atom, $\hbar \omega_{ba}W_{ba}$ by the intensity $I(\omega_{ba})$ to get
+$$\sigma_{ba}=\frac{4\pi ^{2}\alpha \hbar^{2}}{m^{2}\omega_{ba}}\lvert M_{ba}(\omega_{ba}) \rvert ^{2}$$
+Emission is complicated by the fact that there are two kinds of emission: stimulated and spontaneous. For stimulated emission, the transition rate is
+$$W_{ab}=\frac{4\pi ^{2}}{m^{2}c}\left( \frac{e^{2}}{4\pi \varepsilon_{0}} \right) \frac{I(\omega_{ab})}{\omega ^{2}_{ba}}\lvert M_{ab}(\omega_{ba}) \rvert ^{2}$$
+and similarly
+$$\sigma_{ab}=\frac{4\pi ^{2}\alpha \hbar^{2}}{m^{2}\omega_{ab}}\lvert M_{ab}(\omega_{ba}) \rvert ^{2}$$
+Spontaneous emission is more difficult to explain due to the inherent quantum nature of it, requiring quantum electrodynamics to properly solve. In fact, spontaneous emission is actually not a "real" process, in that it is actually stimulated emission, where the stimulating field is the vacuum quantum field, which is always present.
+#### The dipole approximation
+The calculation of the matrix element $M_{ba}=\braket{ \psi_{b} | e^{i\mathbf{k}\cdot \mathbf{r}}\hat{\varepsilon}\cdot \nabla|\psi_{a} }$ can be greatly simplified by making an assumption on how the field looks like. Namely, we ask that the field is essentially uniform at atomic scales, so that the field does not change in space over the volume of the atom (but still changes in time of course). The characteristic size of the atom is on the order of $\sim10^{-10}\text{ m}$, so we ask that the [[wavelength]] of the incoming radiation is considerably larger than this[^6]. In so doing, we allow ourselves to expand the $e^{i\mathbf{k}\cdot\mathbf{r}}$ in the matrix element in its [[Serie esponenziale|exponential series]]:
+$$e^{i\mathbf{k}\cdot \mathbf{r}}=1+i\mathbf{k}\cdot \mathbf{r}+ \frac{1}{2}(i\mathbf{k}\cdot \mathbf{r})^{2}+\ldots$$
+For large enough wavelengths, and thus small enough $\mathbf{k}$ compared to $\mathbf{r}$, we might as well say $e^{i\mathbf{k}\cdot \mathbf{r}}\simeq 1$. The expression for a transition probability can thus be expressed in terms of $\mathbf{r}_{ba}=\braket{ \psi_{b} | \mathbf{r} | \psi_{a} }$, where we wrote the nabla operator through its first order equation of motion. This yields
+$$W_{ba}=\frac{4\pi ^{2}}{c\hbar ^{2}}\left( \frac{e^{2}}{4\pi \varepsilon_{0}} \right)I(\omega_{ba})\lvert \hat{\varepsilon}\cdot \mathbf{r}_{ba} \rvert ^{2}$$
+Now, this new term $\mathbf{r}_{ba}$ can be shown to be not null only in very specific scenarios, which are when the new and old state satisfy the following two conditions:
+$$\boxed{\Delta l=l_{b}-l_{a}=\pm 1,\quad \Delta m=m_{b}-m_{a}=0,\pm 1}$$
+But then the transition probability must follow these conditions: we call these **selection rules**, as they allow us to determine which transitions are allowed and which aren't, for if these rules are not met, then $W_{ba}=0$ and the transition is impossible. These rules actually happen to be quite general, despite having derived them from a specific approximation in a specific kind of field and specifically for electrons. These even function, for instance, in transitions between vibrational states of [[molecule|molecules]], so keep these rules on hand, as they might very well reappear later.
 
 [^1]: The angular momentum operator is found by quantizing the classical quantities of $r$ and $p$, which become $\hat{r}$ and $-i\hbar \nabla$ respectively ($\nabla$ is the [[gradient]]). So, we get $\hat{L}=-i\hbar(\hat{r}\times \nabla)$.
 
@@ -381,3 +442,5 @@ Also, the relativistic correction is strictly positive, which means that the cor
 [^4]: It can be solved using the generating function of the Laguerre polynomials. See for instance Bransden & Joachaim Appendix 3. Be careful with definitions, as Bransden uses the alternative definition of the polynomials which omits $1/q!$, whereas this article includes it.
 
 [^5]: We have $x\to\rho$, $m\to2l+1$ and $n\to n-l-1$. Be careful of the definition: the handbook's definition of the polynomials omits $1/n!$ whereas we include it, so we need to do two things before anything else: divide the polynomial by $n!$ (which becomes $(n!)^{2}$ due to the square) and convert $n\to n+m$. Then do the substitutions above.
+
+[^6]: What "considerably" means is clearly quite arbitrary. It depends, as always, on how precise one wants to be. Most everyday radiation, such as visible light is well over the threshold, as its wavelength is around $\sim 10^{-6}\text{ m}$.
