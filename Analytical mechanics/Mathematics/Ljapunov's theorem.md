@@ -7,6 +7,7 @@ wiki-publish: true
 > Let $\mathbf{c}$ be an equilibrium point for an ODE $\dot{\mathbf{x}}(t)=f(\mathbf{x}(t))$. If there exists a [[dynamical variable]] $W:\mathbb{R}^{N}\to \mathbb{R}$ in a neighborhood $U_{c}$ of $\mathbf{c}$ (called a **Lyapunov function**) such that
 > 1. $W$ as a strict minimum in $\mathbf{c}$, i.e. $W(\mathbf{x})>W(\mathbf{c})$ for all $\mathbf{x}\in U_{c}\setminus \{ \mathbf{c} \}$;
 > 2. its [[Lie derivative]] is always non-positive, i.e. $\mathcal{L}_{f}W\leq 0$;
+> 
 > then $\mathbf{c}$ is a stable equilibrium point in the future.
 
 There is also a corollary that applies to [[conservative system|conservative systems]] which states that isolated minima of the [[potential energy]] are always stable equilibrium points.

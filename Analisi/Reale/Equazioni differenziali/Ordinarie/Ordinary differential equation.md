@@ -24,7 +24,9 @@ In general, the number of first-order ODEs is equal to the order of the original
 The benefit of doing things this way is that first-order ODEs have a large amount of theorems and results that make them far easier to solve and much more reliable to work with. For an example, the following theorem underlies much of the study of these equations.
 
 > [!info] Existence and uniqueness theorem
-> Given a first-order ODE $\dot{x}=f(x,t)$ and a starting condition $x(t_{0})=x_{0}$, there exists a solution $x(t)$ to the equation and that solution is unique.
+> Consider a first-order ODE $\dot{x}=f(x)$ and a starting condition $x(t_{0})=x_{0}$. If $f$ and its derivative $f'$ are continuous on an open interval of $x$, and $x_{0}$ is in that interval, then there exists a solution $x(t)$ to the equation in some interval around $t_{0}$ and that solution is unique.
+
+Numerous generalizations are available to include time dependence, multiple coordinates or both.
 #### Autonomous systems
 A particularly pleasant case of ODE system is an **autonomous system**, which is a system of autonomous first-order ODEs. These usually arise from equations for individual components of a [[Vector field|vector field]]. Given a vector field $f(\mathbf{x})$, they are written as
 $$\dot{\mathbf{x}}=f(\mathbf{x})\tag{1}$$

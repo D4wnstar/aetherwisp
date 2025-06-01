@@ -10,7 +10,7 @@ which is a second order, non-linear differential equation in $\phi$.
 For small swings, where the angle $\phi$ of oscillation is small, we can approximate $\sin\phi\simeq\phi$. This leaves us with
 $$\ddot{\phi}+ \frac{g}{L}\phi=0$$
 which is the [[Harmonic oscillator|harmonic oscillator]] equation, for which we know the solution. $g$ is the gravitational acceleration and $L$ is the length of the wire. If we call $\omega_{0}=\sqrt{g/L}$ the angular frequency of oscillation, the general solution is
-$$\phi(t)=\phi_{0}\cos(\omega_{0}t+\psi_{0})$$
+$$\boxed{\phi(t)=\phi_{0}\cos(\omega_{0}t+\psi_{0})}$$
 where $\phi_{0}$ is the amplitude of the oscillations. The period of oscillation is
 $$T=\frac{2\pi}{\omega_{0}}=2\pi\sqrt{\frac{L}{g}}$$
 Since the frequency is constant, the period is also constant. This means that small oscillations are *isochronal*. It is also independent of the mass of the object.

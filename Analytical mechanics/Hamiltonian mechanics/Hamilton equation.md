@@ -35,7 +35,7 @@ With this said, we can make the following proposition.
 > \end{cases}$$
 > is equivalent to the **Hamilton equations**
 > $$\begin{cases}
-> \dot{q}_{i}=\frac{ \partial H }{ \partial q_{i} }(p,q,t) \\
+> \dot{q}_{i}=\frac{ \partial H }{ \partial p_{i} }(p,q,t) \\
 > \dot{p}_{i}=-\frac{ \partial H }{ \partial q_{i} } (p,q,t)
 > \end{cases}$$ 
 > where

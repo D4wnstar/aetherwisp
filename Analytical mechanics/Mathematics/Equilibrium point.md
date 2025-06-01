@@ -16,10 +16,16 @@ $$\begin{align}
 f_{i}(\mathbf{x})&=\underbrace{ f_{i}(\mathbf{c}) }_{ 0 }+\sum_{j=1}^{N} \frac{ \partial f_{i} }{ \partial x_{j} } (\mathbf{c})(x_{j}-\mathbf{c})+\mathcal{O}(\lVert \mathbf{x}-\mathbf{c} \rVert^{2} ) \\
 &\simeq\sum_{j=1}^{N} \frac{ \partial f_{i} }{ \partial x_{j} } (\mathbf{c})(x_{j}-\mathbf{c})
 \end{align}$$
-In order to approximate the equation to a practical state, we claim that the ODE can locally approximated as a *linear* ODE $\dot{\mathbf{x}}=\mathrm{A}\mathbf{x}$, where $\mathrm{A}$ is an $N\times N$ matrix. Specifically, our matrix is going to be made of all of the first derivatives that are left in the equation above and we will evaluate it in $\mathbf{x}-\mathbf{c}$:
+This assumes that the derivatives of $f$ in the equilibrium point $\mathbf{c}$ are nonzero. If they are, then this approximation would claim that $f_{i}(\mathbf{x})=0$ everywhere, which is manifestly false and in the entire approximation fails. In such a case, we wouldn't be able to stop at the first term and we'd require the quadratic terms too (the second derivatives) which, in other words, means that we'd be stuck with nonlinear analysis.
+
+When working with linearization, we need to assume (or ideally, prove) that the derivatives are nonzero in $\mathbf{c}$. In order to approximate the equation to a practical state, we claim that the ODE can be locally[^1] approximated as a *linear* ODE $\dot{\mathbf{x}}=\mathrm{A}\mathbf{x}$, where $\mathrm{A}$ is an $N\times N$ [[matrix]]. Specifically, our matrix is going to be made of all of the first derivatives that are left in the equation above and we will evaluate it in $\mathbf{x}-\mathbf{c}$:
 $$\dot{\mathbf{x}}=f(\mathbf{x})\simeq \mathrm{A}(\mathbf{x}-\mathbf{c})\quad\text{where}\quad A_{ij}=\frac{ \partial f_{i} }{ \partial x_{j} } $$
-If we set $\boldsymbol{\xi}(t)=\mathbf{x}(t)-\mathbf{c}$, its derivative is $\dot{\boldsymbol{\xi}}=\dot{\mathbf{x}}=f(\mathbf{x})\simeq \mathrm{A}(\mathbf{x}-\mathbf{c})=\mathrm{A}\boldsymbol{\xi}$. As such, within a small enough neighborhood of an equilibrium point, any mechanical system can be **linearized** to the form
-$$\boxed{\dot{\boldsymbol{\xi}}=\mathrm{A}\boldsymbol{\xi}}$$
+But this matrix is precisely the [[Jacobian]] $\mathrm{J}$ of the function $f$, and so $\mathrm{A}\equiv \mathrm{J}$. If we set $\boldsymbol{\xi}(t)=\mathbf{x}(t)-\mathbf{c}$, its derivative is $\dot{\boldsymbol{\xi}}=\dot{\mathbf{x}}=f(\mathbf{x})\simeq \mathrm{J}(\mathbf{x}-\mathbf{c})=\mathrm{J}\boldsymbol{\xi}$. As such, within a small enough neighborhood of an equilibrium point, any mechanical system with nonzero derivatives in $\mathbf{c}$ can be **linearized** to the form
+$$\boxed{\dot{\boldsymbol{\xi}}=\mathrm{J}\boldsymbol{\xi}}$$
+In the simplest scenario of a one-dimensional system $\dot{x}=f(x)$, with $\xi(t)=x(t)-c$ , the Jacobian simplifies down to the only derivative of $f$, $\frac{df}{dx}(x)\equiv f'(x)$. In such a case, then
+$$\boxed{\dot{\xi}=f'(c)\xi}$$
+This is a one-dimensional, linear ODE in $\xi$. It's solution is easy: it's an exponential. Moreover, $f'(c)$ provides useful information on the behavior around the point. If the sign is negative, and thus the slope of $f(c)$ is downwards, then the point is stable. Else, it isn't. Either way, the *magnitude* of $f'(c)$ tells us *how* stable the point is, and its reciprocal $1/\lvert f'(c) \rvert$ is the **characteristic time scale** of the system, which gives a ballpark number of how long the system takes to vary significantly in the neighborhood of $c$.
+
 Now, it would be great if there were a universal solution to this approximation. That way, we'd have a good-enough universal solution to all mechanical systems near equilibrium. Turns out, there actually is one. To find it, we make the following ansatz:
 $$\text{The partial solution of }\boldsymbol{\xi}(t)\text{ is }\rho(t)\mathbf{u}\text{ where }\mathbf{u}\in \mathbb{R}^{N}$$
 (???)
@@ -49,3 +55,5 @@ $\rho(t)\mathbf{u}$ is a solution when $\mathbf{u}$ is an eigenvector of $\mathr
 
 > [!example] Simple pendulum
 > The ODE of a [[simple pendulum]] is $f(x,v)=-\sin x$. It has exactly two equilibrium points, $x=0$ and $x=\pi$. The former is stable, the latter is unstable.
+
+[^1]: By "locally" we're talking about the neighborhood of $\mathbf{c}$.
