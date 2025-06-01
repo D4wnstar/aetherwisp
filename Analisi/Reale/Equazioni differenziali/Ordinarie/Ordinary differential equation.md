@@ -21,6 +21,13 @@ $$\begin{cases}
 \end{cases}$$
 In general, the number of first-order ODEs is equal to the order of the original one.
 
+$$\begin{cases}
+\dot{x}_{1}=f_{1}(x_{1},\ldots,x_{N}) \\
+\dot{x}_{2}=f_{2}(x_{1},\ldots,x_{N}) \\
+\vdots \\
+\dot{x}_{N}=f_{N}(x_{1},\ldots,x_{N}) \\
+\end{cases}$$
+
 The benefit of doing things this way is that first-order ODEs have a large amount of theorems and results that make them far easier to solve and much more reliable to work with. For an example, the following theorem underlies much of the study of these equations.
 
 > [!info] Existence and uniqueness theorem

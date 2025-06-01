@@ -9,7 +9,7 @@ with $k$ being a positive constant called the **spring constant**.
 ### Simple harmonic motion
 If the force $F$ is the only one acting on the system, it is called a **simple harmonic oscillator**, and the moving object describes a **simple harmonic motion**. In this case, we can use [[Newton's laws|Newton's second law of motion]] to analyze the system:
 $$F=ma=m\ddot{x}=-kx$$
-which gives us a second-order linear differential equation
+which gives us a second-order linear [[ordinary differential equation]]
 $$\ddot{x}=- \frac{k}{m}x=-\omega^{2}x$$
 where $\omega=\sqrt{k/m}$ is the angular frequency. The general solution is of the form
 $$x(t)=a\cos(\omega t)+b\sin(\omega t)=A\cos(\omega t+\varphi)$$
