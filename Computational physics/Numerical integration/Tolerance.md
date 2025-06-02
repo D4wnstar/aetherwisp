@@ -1,0 +1,6 @@
+---
+wiki-publish: true
+---
+**Tolerance** refers to the degree of precision that is accepted within a numerical integration method. It is typically split in two components: **absolute tolerance** (`atol`), which defines an arbitrary degree of precision, and **relative tolerance** (`rtol`), which defines precision with respect to the magnitude of what is being evaluated, typically as a percentage.
+
+By default, good values of `atol` and `rtol` are some small, equal value, such as $\text{atol}=\text{rtol}=10^{-6}$. Alternatively, if you are simultaneously dealing with multiple equations of vastly different scales, then `atol` can be harmful since it can only be reasonable for one of the two. In such a case, set $\text{atol}=0$ and $\text{rtol}=10^{-6}$. Alternatively, it's always possible to define `atol` and `rtol` as vectors, with different values for each [[Ordinary differential equation|ODE]] of the system. You can then use the components individually and adapt your formulas or use the [[norm]] of the whole vector the same as you'd use a constant.
