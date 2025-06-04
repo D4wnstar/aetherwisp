@@ -1,5 +1,8 @@
 ---
 wiki-publish: true
+aliases:
+  - Runge-Kutta 4
+  - Dormand-Prince 5(4)
 ---
 The **Runge-Kutta methods** (**RK** for short) are a family of numerical integration methods of a variety of orders, the most popular of which is the **fourth-order Runge-Kutta method**. They are essentially evolutions of [[Euler's method]], using specifically chosen quantities and points to estimate to increase the order of the method (and thus the precision) in some instances at the cost of more computation.
 
@@ -101,6 +104,35 @@ $$\alpha=\frac{0.7}{k},\quad \beta=\frac{0.4}{k}$$
 There exists a trick to improve the precision of the methods for "free", and it is to choose the coefficients $k_{1},\ldots,k_{n}$ such that the *last* coefficient $k_{n}$ is the same as the *first* coefficient $\hat{k}_{1}$ of the step *after*. This way, it can be reused without necessitating another evaluation. Mathematically, FSAL states that
 $$k_{n}=f(t_{n}+c_{n}\Delta t,x_{n}+a_{n1}k_{1}+\ldots+a_{n(n-1)}k_{n-1})=f(t_{n+1},x_{n+1})=\hat{k}_{1}$$
 Usage of FSAL is a strict improvement, since it's "free" performance, but it is not universal, as this condition is not always met by methods. For an example, the Dormand-Prince 5(4) method above uses FSAL.
+### Interpolation
+RK methods come packaged, at least in principle, with an associated [[interpolation]] method that makes use of the points, derivatives *and* intermediate trial steps $k_{1},\ldots,k_{7}$ that are evaluated by the method. This provides all RK methods with a [[dense output]] method of equal order to the method itself (or the less precise method for embedded RK).
+
+The idea of this is to consider the method-specific parameters $b_{i}$ not as constants, but as *[[polynomial|polynomials]]* in some parameter $\theta \in[0,1]$. Here $\theta$ represents the "percentage progress" from one evaluated point $x_{n}$ to the next $x_{n+1}$, and varying $\theta$ continuously allows the calculation of arbitrarily many points between each step. In general, the interpolating polynomial will be of the form
+$$x(t_{n}+\theta \Delta t)=x_{n}+\sum_{i} b_{i}(\theta)k_{i}$$
+for however many $b$ and $k$ values there are in a method. Since the $k_{i}$ values are functionally derivatives, this is a kind of [[Hermite interpolation]]. It requires four pieces of information: $x_{n},x_{n+1},\dot{x}_{n}=f(t_{n},x_{n}),\dot{x}_{n+1}=f(t_{n+1},x_{n+1})$.
+#### Dormand-Prince 5(4)
+For Dormand-Prince 5(4) specifically, the polynomial can be rewritten in a different form using another set of coefficients $d_{1},\ldots,d_{7}$. For a step $\mathbf{x}_{n}\to \mathbf{x}_{n+1}$ with stepsize $\Delta t_{n}$, we define the normalized independent variable as
+$$s(t)=\frac{t-t_{n}}{\Delta t}\in[0,1]$$
+for $t\in[t_{n},t_{n}+\Delta t]$. This will more or less play the part of $\theta$ from before. Now, the interpolation polynomial *in this step specifically* is
+$$\mathbf{x}(s)=\mathbf{r}_{1}+s \mathbf{r}_{2}+s(1-s)\mathbf{r}_{3}+s^{2}(1-s)\mathbf{r}_{4}+s^{2}(1-s)^{2}\mathbf{r}_{5}$$
+where
+$$\begin{align}
+\mathbf{r}_{1}&=\mathbf{x}_{n} \\
+\mathbf{r}_{2}&=\mathbf{x}_{n+1}-\mathbf{x}_{n} \\
+\mathbf{r}_{3}&=\mathbf{k}_{1}- \mathbf{r}_{2} \\
+\mathbf{r}_{4}&=\mathbf{r}_{2}- \mathbf{r}_{3}-\mathbf{k}_{7} \\
+\mathbf{r}_{5}&=d_{1}\mathbf{k}_{1}+d_{3}\mathbf{k}_{3}+d_{4}\mathbf{k}_{4}+d_{5}\mathbf{k}_{5}+d_{6}\mathbf{k}_{6}+d_{7}\mathbf{k}_{7}
+\end{align}$$
+The coefficients $d_{1},\ldots,d_{7}$ are
+$$\begin{align}
+d_{1}&=-\frac{12715105075}{11282082432}\\
+d_{2}&=0 \\
+d_{3}&=\frac{87487479700}{32700410799} \\
+d_{4}&=-\frac{10690763975}{1880347072} \\
+d_{5}&=\frac{701980252875}{199316789632} \\
+d_{6}&=-\frac{1453857185}{822651844} \\
+d_{7}&=\frac{69997945}{29380423}
+\end{align}$$
 
 [^1]: This kind of procedure is known as **[[local extrapolation]]**.
 
