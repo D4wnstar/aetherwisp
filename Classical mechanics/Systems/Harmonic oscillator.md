@@ -2,6 +2,7 @@
 wiki-publish: true
 aliases:
   - Hooke's law
+  - spring constant
 ---
 A **harmonic oscillator** is a system with an [[equilibrium point]] that, after undergoing a perturbation, experiences a restoring force $\mathbf{F}$ proportional to the displacement distance $\mathbf{x}$ according to **Hooke's law**:
 $$\mathbf{F}=-k\mathbf{x}$$
