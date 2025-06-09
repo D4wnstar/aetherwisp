@@ -1,7 +1,7 @@
 ---
 wiki-publish: true
 ---
-An **ideal crystal** is a solid-state structure with a periodic, perfectly geometric, rigid lattice. The [[Hamiltonian]] is
+An **ideal crystal** is a solid-state material with a periodic, perfectly geometric, rigid lattice. It is the simplest mathematical description of a [[crystal]], much like how an [[ideal gas]] is the simplest description of a gas. The [[Hamiltonian]] is
 $$H=\underbrace{ \sum_{i} \frac{p_{i}^{2}}{2m_{i}}+ \sum_{j} \frac{p_{j}^{2}}{2m_{j}} }_{ \text{Kinetic terms} }+ \underbrace{ \frac{1}{2}\sum_{j,j'} \frac{Z_{j}Z_{j'}e^{2}}{\lvert R_{j}-R_{j'} \rvert } }_{ \text{Ion-ion interaction} }+ \underbrace{ \frac{1}{2}\sum_{i,i'} \frac{e^{2}}{\lvert r_{i}-r_{i'} \rvert } }_{ \text{Electron-electron interaction} }-\underbrace{ \sum_{i,j} \frac{Z_{j}e^{2}}{\lvert r_{j}-R_{j} \rvert } }_{ \text{Ion-electron interaction} }$$
 This is an $N$-body Hamiltonian that's certainly not analytically solvable. It can be solved in an approximate manner by combining two assumptions:
 1. **Core and valence electrons**. We split electrons in two categories: core electrons (inner electron shells) and valence electrons (outermost electron shell). Only the valence electrons are significant when it comes to interactions.

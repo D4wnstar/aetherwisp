@@ -19,4 +19,4 @@ We can regroup the terms as
 $$\underbrace{ xk_{x} \hat{\mathbf{x}}+yk_{y} \hat{\mathbf{y}}+zk_{z}\hat{\mathbf{z}} }_{ \mathbf{r}\cdot \mathbf{k} }-\underbrace{ (x_{0}k_{x} \hat{\mathbf{x}}+y_{0}k_{y} \hat{\mathbf{y}}+z_{0}k_{z} \hat{\mathbf{z}}) }_{ \mathbf{r}_{0}\cdot \mathbf{k}\equiv a }=0$$
 With this, we get
 $$\boxed{\mathbf{r}\cdot \mathbf{k}=a=\text{constant}}$$
-If we interpret $\mathbf{k}$ to be the [[wave vector]] of a plane wave with wavefront determined by the surface, the [[scalar product]] of the position vector and the wave vector must be constant everywhere.
+If we interpret $\mathbf{k}$ to be the [[Wavenumber|wavevector]] of a plane wave with wavefront determined by the surface, the [[scalar product]] of the position vector and the wave vector must be constant everywhere.
