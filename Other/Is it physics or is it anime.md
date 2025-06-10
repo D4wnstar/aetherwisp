@@ -21,3 +21,5 @@
 - Stellar aberration
 - Umbral calculus
 - Bernoulli umbra
+- Ewald sphere
+- Sea of quarks

@@ -411,7 +411,7 @@ This shouldn't come as a surprise: after all, energy is conserved, so the state 
 
 In an absorption process, when only the first half of the square brackets is nonzero, the probability that an atom will be found in a certain state upon measurement goes like
 $$\lvert c_{b}^{(1)}(t) \rvert ^{2}\sim \int_{\Delta \omega}\left[ \frac{eA_{0}(\omega)}{m} \right]^{2}\lvert M_{ba}(\omega) \rvert ^{2}$$
-where $M_{ba}$ is an element of the **transition matrix** $\mathrm{M}$, and is given by
+where $M_{ba}$ is a **[[matrix element]]** and is given by
 $$M_{ba}=\braket{ \psi_{b} | e^{i\mathbf{k}\cdot \mathbf{r}}\hat{\varepsilon}\cdot \nabla|\psi_{a} }=\int \psi_{b}^{*}(\mathbf{r})e^{i\mathbf{k}\cdot \mathbf{r}}\hat{\varepsilon}\cdot \nabla \psi_{a}(\mathbf{r})d\mathbf{r} $$
 This allows us to define the **absorption transition probability**
 $$W_{ba}=\frac{4\pi ^{2}}{m^{2}c}\left( \frac{e^{2}}{4\pi \varepsilon_{0}} \right) \frac{I(\omega_{ba})}{\omega ^{2}_{ba}}\lvert M_{ba}(\omega_{ba}) \rvert^{2} $$
@@ -431,7 +431,7 @@ For large enough wavelengths, and thus small enough $\mathbf{k}$ compared to $\m
 $$W_{ba}=\frac{4\pi ^{2}}{c\hbar ^{2}}\left( \frac{e^{2}}{4\pi \varepsilon_{0}} \right)I(\omega_{ba})\lvert \hat{\varepsilon}\cdot \mathbf{r}_{ba} \rvert ^{2}$$
 Now, this new term $\mathbf{r}_{ba}$ can be shown to be not null only in very specific scenarios, which are when the new and old state satisfy the following two conditions:
 $$\boxed{\Delta l=l_{b}-l_{a}=\pm 1,\quad \Delta m=m_{b}-m_{a}=0,\pm 1}$$
-But then the transition probability must follow these conditions: we call these **selection rules**, as they allow us to determine which transitions are allowed and which aren't, for if these rules are not met, then $W_{ba}=0$ and the transition is impossible. These rules actually happen to be quite general, despite having derived them from a specific approximation in a specific kind of field and specifically for electrons. These even function, for instance, in transitions between vibrational states of [[molecule|molecules]], so keep these rules on hand, as they might very well reappear later.
+But then the transition probability must follow these conditions: we call these **selection rules**, as they allow us to determine which transitions are allowed and which aren't, for if these rules are not met, then $W_{ba}=0$ and the transition is impossible. These rules actually happen to be quite general, despite having derived them from a specific approximation in a specific kind of field and specifically for electrons. These even function, for instance, in transitions between vibrational states of [[molecule|molecules]].
 
 [^1]: The angular momentum operator is found by quantizing the classical quantities of $r$ and $p$, which become $\hat{r}$ and $-i\hbar \nabla$ respectively ($\nabla$ is the [[gradient]]). So, we get $\hat{L}=-i\hbar(\hat{r}\times \nabla)$.
 
@@ -443,4 +443,4 @@ But then the transition probability must follow these conditions: we call these 
 
 [^5]: We have $x\to\rho$, $m\to2l+1$ and $n\to n-l-1$. Be careful of the definition: the handbook's definition of the polynomials omits $1/n!$ whereas we include it, so we need to do two things before anything else: divide the polynomial by $n!$ (which becomes $(n!)^{2}$ due to the square) and convert $n\to n+m$. Then do the substitutions above.
 
-[^6]: What "considerably" means is clearly quite arbitrary. It depends, as always, on how precise one wants to be. Most everyday radiation, such as visible light is well over the threshold, as its wavelength is around $\sim 10^{-6}\text{ m}$.
+[^6]: What "considerably" means is clearly quite arbitrary. It depends, as always, on how precise one wants to be. Most everyday radiation, such as visible light is well over the threshold, as its wavelength is around $\sim 10^{-6}\text{ m}$. As such, the dipole approximation is suitable for quantum optics.

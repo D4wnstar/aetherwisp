@@ -5,7 +5,7 @@ aliases:
   - number of neutrons
 wiki-publish: true
 ---
-The **atom** is the [[physical system]] that acts as the building block of matter. Outside of exotic or extreme physics, all matter is composed of atoms, either individually or bound together to form [[molecule|molecules]].
+The **atom** is the [[physical system]] that acts as the building block of matter. Outside of exotic or extreme physics, all matter is composed of atoms, either individually or bound together to form [[molecule|molecules]], [[crystal|crystals]] or other forms of matter.
 
 An atom is composed of two parts: a central [[Nucleo atomico|atomic nucleus]] and an [[electron]] cloud surrounding it.
 1. The **atomic nucleus** is the center of the system. It is an approximately spherical object composed **[[proton|protons]]** and **[[neutron|neutrons]]** bound to each other through [[Interazione forte|strong interaction]]. It is positively [[Electric charge|charged]] and has a radius of approximately $\sim10^{-13}$ cm or $\sim1$ fm.

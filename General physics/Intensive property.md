@@ -3,7 +3,7 @@ wiki-publish: true
 aliases:
   - intensive
 ---
-A property of a [[physical system]] is said to be **intensive** if it is not dependent on the amount of stuff present in the system[^1]. "Stuff" can be any quantity of interest, like number of [[Atom|atoms]], [[mass]], [[electric charge]], etc. For instance, mass or charge density are intensive because they do not depend on *how many* atoms there are in an object, only how spatially frequent they are.
+A property of a [[physical system]] is said to be **intensive** if it is not dependent on the amount of "stuff" present in the system[^1]. "Stuff" can be any quantity of interest, like number of [[Atom|atoms]], [[mass]], [[electric charge]], etc. For instance, mass or charge density are intensive because they do not depend on *how many* atoms there are in an object, only how spatially frequent they are.
 
 The opposite of an intensive property is an [[extensive property]].
 

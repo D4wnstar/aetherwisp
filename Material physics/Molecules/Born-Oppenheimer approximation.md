@@ -36,7 +36,7 @@ The Hamiltonian is
 $$H=\frac{\hbar^{2}}{2m}\nabla_{r}^{2}- \frac{e^{2}}{4\pi \varepsilon_{0}}\left( \frac{1}{r}+ \frac{1}{\mathfrak{r}} \right)$$
 where $\mathfrak{r}=\sqrt{ r^{2}+R^{2}-2rR\cos \theta }$ and we ignored the interaction between nuclei since it's constant and we only need a variational analysis. The ground state wavefunction of an electron in the hydrogen atom is
 $$\psi_{100}(r)=\frac{1}{\sqrt{ \pi a^{3} }}e^{-r/a}$$
-This will be our trial function. For brevity we'll write $\psi_{100}\equiv \psi_{0}$. We'll use what's called a **Linear Combination of Atomic Orbitals** (or **LCAO** for short):
+This will be our trial function. For brevity we'll write $\psi_{100}\equiv \psi_{0}$. We'll use what's called a **[[Linear Combination of Atomic Orbitals]]** (or **LCAO** for short):
 $$\psi=S[\psi_{100}(r)+\psi_{100}(\mathfrak{r})]$$
  where $S$ is a [[normalization]] constant. We are taking a [[linear combination]] of atomic [[orbital|orbitals]]. It is not the most accurate or general solutions, but the benefit is that it is quick and easy to set up: it's just a sum. For this wave function to be a realizable state, it must be [[Normalization|normalized]], so
 $$1=\int \lvert \psi \rvert ^{2}d\tau=\lvert S\rvert ^{2}\left[ \underbrace{ \int \psi_{0}(r)^{2}d\tau }_{ 1 }+ \underbrace{ \int \psi_{0}(\mathfrak{r})^{2}d\tau }_{ 1 }+2\int \psi_{0}(r)\psi_{0}(\mathfrak{r})d\tau \right]$$

@@ -17,7 +17,7 @@
 - Vibrational, rotational and electronic excitations
 - [[Frank-Condon principle]]
 ### Solid state physics
-- [[Lattice]], [[diffraction]], [[reciprocal space]]
+- [[Bravais lattice]], [[diffraction]], [[reciprocal space]]
 - Bonds in solid matter
 - Vibrations in solid matter, acoustic and optical [[phonon|phonons]], [[Heat capacity]]
 - [[Drude model]] (quantitative approach)
