@@ -3,7 +3,7 @@ wiki-publish: true
 aliases:
   - amplitude
 ---
-The **wave equation** is a second order linear [[partial differential equation]] in space and time. In one spatial dimension $x$, it reads
+The **wave equation** is a second-order linear [[partial differential equation]] in space and time that describes [[wave]] phenomena. In one spatial dimension $x$, it reads
 $$\frac{ \partial ^{2} \psi(x,t) }{ \partial x^{2} }=\frac{1}{v^{2}}\frac{ \partial ^{2}\psi (x,t) }{ \partial t^{2} } \tag{1}$$
 $\psi(x,t)$ is the [[scalar field]] solution to the equation and it is called the **wavefunction**, whereas the parameter $v$ is generally interpreted in physics as the **speed of the wave** (although the concept of wave speed is more complicated). The value of $\psi$ for any $x$ and $t$ is called the **amplitude** of the wave in that place and time[^1]. In multiple spatial dimensions, the equation quickly generalizes using the [[Laplacian]]:
 $$\nabla ^{2}\psi(\mathbf{x},t)=\frac{1}{v^{2}}\frac{ \partial ^{2} \psi(\mathbf{x},t) }{ \partial t^{2} } \tag{2}$$
