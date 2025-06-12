@@ -1,7 +1,7 @@
 ---
 wiki-publish: true
 ---
-The **cohesion energy** of a solid is the [[energy]] required to disassemble it into its constituent parts. It is a form of [[binding energy]]. It is the difference in the total energy of each individual [[atom]] of the solid and the energy of the solid itself.
+The **cohesive energy** of a solid is the [[energy]] required to disassemble it into its constituent parts. It is a form of [[binding energy]]. It is the difference in the total energy of each individual [[atom]] of the solid and the energy of the solid itself.
 $$\text{cohesive energy}=\text{energy of atoms}-\text{energy of solid}$$
 Like all binding energies, it is useful to determine the stability of a solid. It is essentially the ground-state energy of the solid, which is why it is strictly applicable only in zero-[[temperature]] environments (it does not consider thermal excitations). If the cohesive energy is positive in sign, then the creation of chemical bonds between atoms is discouraged since it would lead to an increase in energy: the solid is therefore unstable. Conversely, if it is negative, then bonds are energetically advantageous and the solid is stable. The more negative it is, the more strongly bound the material structure is.
 
