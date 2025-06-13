@@ -1,7 +1,7 @@
 ---
 wiki-publish: true
 ---
-La **teoria delle perturbazioni degenere** è una forma della [[Meccanica quantistica/Tecniche/Teoria delle perturbazioni]] indipendente dal tempo nella quale gli [[Equazione agli autovalori|autovalori]] dell'[[Hamiltoniana]] imperturbata sono [[degenerazione|degeneri]]. Ciò vale a dire che, presi due o più [[stato|stati]] distinti del sistema non perturbato $\psi_{a}^{0}$ e $\psi_{b}^{0}$, questi hanno la stessa energia. In questo caso, la forma [[Teoria delle perturbazioni non degenere|non degenere]] della teoria fallisce, dato che il denominatore $E_{n}^{0}-E_{m}^{0}$ è zero per $n=a$ e $m=b$.
+La **teoria delle perturbazioni degenere** è una forma della [[teoria delle perturbazioni]] indipendente dal tempo nella quale gli [[Equazione agli autovalori|autovalori]] dell'[[Hamiltonian|Hamiltoniana]] imperturbata sono [[degenerazione|degeneri]]. Ciò vale a dire che, presi due o più [[stato|stati]] distinti del sistema non perturbato $\psi_{a}^{0}$ e $\psi_{b}^{0}$, questi hanno la stessa energia. In questo caso, la forma [[Teoria delle perturbazioni non degenere|non degenere]] della teoria fallisce, dato che il denominatore $E_{n}^{0}-E_{m}^{0}$ è zero per $n=a$ e $m=b$.
 
 Consideriamo un'Hamiltoniana del tipo
 $$\hat{H}=\hat{H}^{0}+\lambda \hat{V}$$
@@ -20,8 +20,10 @@ $$H^{0}\psi^{0}=E^{0}\psi^{0}$$
 
 Tipicamente, la perturbazione $\hat{V}$ "rompe" la degenerazione, creando due stati diversi con autovalori di energia diversi. Man mano che $\lambda$ aumenta, l'autostato non perturbato $E^{0}$ si divide in due: uno ad energia più alta, uno ad energia più bassa. Al contrario, se rimuoviamo la perturbazione, lo stato più energetico ritorna ad essere una *specifica* combinazione lineare di due stati $\psi_{a}^{0}$ e $\psi_{b}^{0}$, mentre quello meno energetico diventa una combinazione lineare [[Orthogonality|ortogonale]]. Il problema sta nel fatto che, a priori, noi non sappiamo quali sono questi stati specifici.
 
+:::image
 ![[Divisione autostati in perturbazione.png]]
-*Da Introduction to Quantum Mechanics di Griffiths, p. 260*
+Da *Introduction to Quantum Mechanics di Griffiths, p. 260*
+:::
 
 Per ora, scriviamo gli stati "buoni" nella forma generica, senza pensare a $\alpha$ e $\beta$. Vogliamo risolvere l'[[equazione di Schrödinger]]
 $$H\psi=E\psi$$
@@ -68,7 +70,7 @@ $$\boxed{E_{+}^{1}=W_{aa}=\langle \psi_{a}^{0}|\hat{V}|\psi_{a}^{0}\rangle, \qua
 che sono proprio le correzioni date dalle teoria non degenere, solo per gli stati "buoni". Allora, se avessimo un modo per scoprire quali sono gli stati "buoni" a priori, potremmo semplicemente usare la teoria non degenere nei due casi per trovare le correzioni. Questo modo esiste e si enuncia con il seguente teorema:
 
 > [!info] Teorema
-> Sia $\hat{A}$ un [[operatore autoaggiunto]] che [[Commutator|commuta]] con $\hat{H}^{0}$ e $\hat{H}'$ (ossia è una [[costante del moto]]). Se $\psi_{a}^{0}$ e $\psi_{b}^{0}$ sono [[Equazione agli autovalori|autofunzioni]] [[Degenerazione|degeneri]] di $\hat{H}^{0}$ e sono anche autofunzioni di $\hat{A}$ con autovalori distinti
+> Sia $\hat{A}$ un [[operatore autoaggiunto]] che [[Commutator|commuta]] con $\hat{H}^{0}$ e $\hat{H}'$ (ossia è una [[constant of motion|costante del moto]]). Se $\psi_{a}^{0}$ e $\psi_{b}^{0}$ sono [[Equazione agli autovalori|autofunzioni]] [[Degenerazione|degeneri]] di $\hat{H}^{0}$ e sono anche autofunzioni di $\hat{A}$ con autovalori distinti
 > $$\hat{A}\psi_{a}^{0}=\mu \psi_{a}^{0},\quad \hat{A}\psi_{b}^{0}=\nu\psi_{b}^{0},\quad \text{con }\mu\neq\nu$$
 > allora $W_{ab}=0$ e vale la $(6)$.
 > 
@@ -86,10 +88,10 @@ che sono proprio le correzioni date dalle teoria non degenere, solo per gli stat
 > Se si hanno stati degeneri, conviene cercare un operatore autoaggiunto $\hat{A}$ che commuta con $\hat{H}^{0}$ e $\hat{H}'$ e poi scegliere come stati non perturbati $\psi_{a}^{0}$ e $\psi_{b}^{0}$ due che sono simultaneamente autofunzioni di $\hat{A}$ e $\hat{H}^{0}$. In questo modo, si può usare direttamente la $(6)$. Altrimenti, è necessario fare tutti i calcoli per la $(5)$, che è universalmente valida.
 #### Degenerazione qualunque
 Per trovare la correzione per un grado di degenerazione qualunque, conviene riscrivere la $(3)$ e la $(4)$ come un'unica equazione matriciale
-$$\mathbf{W}\begin{pmatrix}
+$$\boxed{\mathbf{W}\begin{pmatrix}
 \alpha \\
 \beta
-\end{pmatrix}=\begin{pmatrix}W_{aa} & W_{ab} \\ W_{ba} & W_{bb}\end{pmatrix}\begin{pmatrix}\alpha \\ \beta\end{pmatrix}=E^{1}\begin{pmatrix}\alpha \\ \beta\end{pmatrix}$$
+\end{pmatrix}=\begin{pmatrix}W_{aa} & W_{ab} \\ W_{ba} & W_{bb}\end{pmatrix}\begin{pmatrix}\alpha \\ \beta\end{pmatrix}=E^{1}\begin{pmatrix}\alpha \\ \beta\end{pmatrix}}$$
 Le correzioni di primo ordine all'energia non sono altro che gli autovalori della matrice $\mathbf{W}$ e i parametri delle combinazioni lineari "buone" sono gli autovettori ad essi associati. La $(5)$ è solo la soluzione dell'[[Equazione agli autovalori|equazione caratteristica]] di $\mathbf{W}$.
 
 Per uno stato $n$-volte degenere, dobbiamo cercare gli autovalori della matrice $n\times n$ definita dagli elementi

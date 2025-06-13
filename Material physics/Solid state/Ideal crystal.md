@@ -174,7 +174,184 @@ $$\varepsilon+d\varepsilon=\varepsilon+\lvert \nabla_{\mathbf{k}}\varepsilon_{n}
 Plugging this into the integral yields
 $$g_{n}(\varepsilon)=\int_{S_{n}(\varepsilon)} \frac{1}{4\pi ^{3}} \frac{dS}{\lvert \nabla_{\mathbf{k}}\varepsilon_{n} \rvert }$$
 This goes to show that the density of states in an energy band is dependent on the geometry of the constant energy surface $S_{n}(\varepsilon)$. It increases when the gradient is small (the states are tightly packed and with little separation) and decreases when it's large (the levels are far apart).
+#### Weak potential
+Intuitively, given the large nuclear charges of the atoms that make up matter, you'll probably assume that the periodic potential that applies onto the electrons would be rather intense. But for many metals, you'd be *wrong*. As it turns out, modern theoretical and experimental studies on metals of the I, II, III and IV group of the periodic table indicate that their electrons are hardly affected by this potential which, while nonzero, is *almost* constant. These metals are referred to as **nearly free electron** metals and their study begins from the [[Sommerfeld model]] of free electrons to which we add a weak periodic potential.
 
+Firstly, though, we should talk about *why* the potential is so weak. After all, it's quite counter-intuitive. There are two reasons why:
+1. Ion-electron interaction falls off with distance due to being electromagnetic. Only the outermost electrons are conduction electrons and they are forbidden by the [[Pauli exclusion principle]] from going near the ion since they cannot cross the already completed inner shells. Thus, conduction electrons are consistently far from ions.
+2. The potential felt by the conduction electron is weaker than imagined. This is because core electron shells screen the ion potential. Moreover, the high mobility of conduction electrons further screens and diminishes the net potential that is felt by them.
+
+These are qualitative reasons of course, but the point remains. The potential in most metals is quite weak and almost constant. We can use this to our advantage to get some results about metallic electronic structure.
+
+We start from the single-electron Schrödinger equation that can be found in [[Bloch's theorem#Fourier series proof]][^6]:
+$$\left( \frac{\hbar^{2}k^{2}}{2m}-\varepsilon \right)c_{\mathbf{k}}+\sum_{\mathbf{K}}U_{\mathbf{K}}c_{\mathbf{k}-\mathbf{K}}=0$$
+We need to solve these equations. To do so, we need the coefficients $c_{\mathbf{k}},c_{\mathbf{k}-\mathbf{K}},c_{\mathbf{k}-\mathbf{K}'},\ldots$, assuming we know the potential $U$. We will start in the free electron limit. Then, we'll add a potential later. We are legitimized in doing this because, since the potential is so weak, we can treat it as a perturbation using [[Teoria delle perturbazioni|perturbation theory]].
+
+To start, we'll use a 1D crystal like we did for vibrations. We'll express the potential in a [[Fourier series]]
+$$U(x)=\sum_{n}U_{n}e^{inKx}$$
+We will use the arbitrary constant of the potential to set $U_{0}=0$. Assuming [[parità|parity]] [[symmetry]] for the crystal, we also have $U_{n}=U_{-n}$. We require that only $c_{k},c_{k-K},c_{k+K}$ are nonzero, with all other terms vanishing. Consequently, we also only retain $U_{0}$ (which is zero anyway) and $U_{1}=U_{-1}=U$. This decision cannot be justified at this stage, but varying the number of coefficients that are kept has consequences on the predicted behavior. We'll return to this in a moment when it's easier to explain. Keeping only three coefficients leads to a system of three equations, with means three solutions (energy bands) for each $k$. The equations are
+$$\begin{align}
+\left( \frac{\hbar^{2}(k-K)^{2}}{2m} -\varepsilon\right)c_{k-K}+Uc_{k}&=0 \\
+\left( \frac{\hbar^{2}k^{2}}{2m} -\varepsilon\right)c_{k}+Uc_{k-K}+Uc_{k+K}&=0 \\
+\left( \frac{\hbar^{2}(k+K)^{2}}{2m} -\varepsilon\right)c_{k+K}+Uc_{k}&=0
+\end{align}$$
+
+We start in the free electron limit, so $U(x)=0$ for all $x$. That's like saying $U_{n}=0$ for all $n$, so in the equations above $U=0$. This leaves us with
+$$\begin{align}
+\left( \frac{\hbar^{2}(k-K)^{2}}{2m} -\varepsilon\right)c_{k-K}&=0 \\
+\left( \frac{\hbar^{2}k^{2}}{2m} -\varepsilon\right)c_{k}&=0 \\
+\left( \frac{\hbar^{2}(k+K)^{2}}{2m} -\varepsilon\right)c_{k+K}+&=0
+\end{align}$$
+These equations are effectively just squares of $k$ multiplied and shifted by a constant and then set to zero. In other words, these are all [[parabola|parabolas]] ([[convex]]/concave up specifically).
+
+![[Weak periodic potential coefficients.png]]
+
+Here we can see what the solution looks like in arbitrary units. Due to periodicity arguments, only the part inside the first Brillouin zone (1BZ) really matters, since we just copy and paste that solution throughout the entire solid. We can see that the each coefficient that we retain adds one more parabola to represent the potential *outside* of the 1BZ. These are not insignificant though, as the outer potentials cross into the 1BZ and therefore affect it too. This is the mathematical statement that each electron is not only affected by its closest ion, but also by nearby ions too, just to a lesser extent. The more coefficients we keep, the more ions we consider in the interaction. As we can see by the right graph in the figure, the further the ions are, the higher the energy is when they cross over to the 1BZ. This means that outer ions only really matter in high-energy scenarios.
+
+This is what happens for free electrons in a periodic lattice. Now let's take another step and turn on the potential. We start from a free electron [[Hamiltonian]] $H_{0}=p^{2}/2m$. These are [[Particella libera (quantistica)|free particles]] so their (continuous, delocalized, not physically valid) eigenstates are [[Plane wave|plane waves]] $\ket{\mathbf{k}}$ with eigenvalues $\varepsilon_{0}(\mathbf{k})=\hbar^{2}\lvert \mathbf{k} \rvert^{2}/2m$. Now consider a weak perturbation to this Hamiltonian — our potential — so that we get $H=H_{0}+U(\mathbf{r})$.
+
+Adding a perturbation to an otherwise stable system always adds a form of quantum dynamics, that is the possibility of a [[state transition]]. The [[matrix element]] of a transition from the state $\ket{\mathbf{k}}$ to $\ket{\mathbf{k}'}$ is
+$$\braket{ \mathbf{k}' | U | \mathbf{k} } =\frac{1}{V}\int_{\mathbb{R}^{3}} e^{i(\mathbf{k}-\mathbf{k}')\cdot \mathbf{r}}U(\mathbf{r})d\mathbf{r}\equiv U_{\mathbf{k}'-\mathbf{k}}$$
+This is zero unless $\mathbf{k}-\mathbf{k}'$ is a reciprocal lattice vector $\mathbf{K}$. Thus, a plane wave $\ket{\mathbf{k}}$ can be transitioned to another one $\ket{\mathbf{k}'}$ only if they differ by a reciprocal lattice vector.
+
+Let's apply [[Teoria delle perturbazioni non degenere|non-degenerate perturbation theory]] at the first order:
+$$\varepsilon(\mathbf{k})=\varepsilon_{0}(\mathbf{k})+\braket{ \mathbf{k} | U | \mathbf{k} } =\varepsilon_{0}(\mathbf{k})+U_{0}$$
+The first order correction is a constant, so we'll set $U_{0}=0$ since potentials are always defined up to as constant. With the second order correction we get
+$$\varepsilon(\mathbf{k})=\varepsilon_{0}(\mathbf{k})+\sum_{\mathbf{k}'=\mathbf{k}+\mathbf{K}}^{\mathbf{K}\neq0} \frac{\lvert \braket{ \mathbf{k}' | U | \mathbf{k} }  \rvert^{2}}{\varepsilon_{0}(\mathbf{k})-\varepsilon_{0}(\mathbf{k}')}$$
+The sum occurs only over $\mathbf{K}\neq 0$, which means over transitions between plane waves with a different wavevector than the unperturbed case (basically, only between states permitted by the perturbation). Of course, we're assuming non-degeneracy here. If for any reason any two states that are summed over have the same energy level ($\varepsilon_{0}(\mathbf{k})=\varepsilon_{0}(\mathbf{k}')$) then the correction diverges. So, when does degeneracy occur?
+
+Of course the condition above, $\varepsilon_{0}(\mathbf{k})=\varepsilon_{0}(\mathbf{k}')$, must apply, but also $\mathbf{k}'=\mathbf{k}+\mathbf{K}$. In the 1D case we know that $K=2\pi n/a$ and $\varepsilon_{0}(k)\sim k^{2}$. If we impose these two conditions we get
+$$\begin{align}
+\varepsilon_{0}(k)&=\varepsilon_{0}(k+K) \\
+k^{2}&=(k+K)^{2} \\
+k^{2}&=k^{2}+2kK+K^{2} \\
+2kK+K^{2}&=0
+\end{align}$$
+Dividing by $K\neq0$ we get $2k+K=0$ which means
+$$k=- \frac{K}{2}=- \frac{n\pi}{a}\quad\Rightarrow \quad k'=k+K = \frac{n\pi}{a}$$
+Degeneracy happens when the wavevectors are precisely at the edges of the 1BZ (*of course*, it's periodic, that's the entire point). If this happens, we can't rely on non-degenerate perturbation theory and we need to upgrade to the [[Teoria delle perturbazioni degenere|degenerate version]]. The [[matrix element|matrix elements]] are
+$$\begin{align}
+\braket{ \mathbf{k} | H | \mathbf{k} } &=\varepsilon_{0}(\mathbf{k}) \\
+\braket{ \mathbf{k}' | H | \mathbf{k}' } &= \varepsilon_{0}(\mathbf{k}')=\varepsilon_{0}(\mathbf{k}+\mathbf{K}) \\
+\braket{ \mathbf{k} | H | \mathbf{k}' } &= U_{\mathbf{k}-\mathbf{k}'}=U_{\mathbf{K}}^{*} \\
+\braket{ \mathbf{k}' | H | \mathbf{k} } &= U_{\mathbf{k}'-\mathbf{k}}=U_{\mathbf{K}}
+\end{align}$$
+Since the potential is a real function, $U_{-\mathbf{K}}=U_{\mathbf{K}}^{*}$. The degenerate states $\ket{\mathbf{k}}$ and $\ket{\mathbf{k}+\mathbf{K}}$ form a two-dimensional [[vector space]] where each state is a [[linear combination]] of the two:
+$$\ket{\psi} =\alpha \ket{\mathbf{k}} +\beta \ket{\mathbf{k}+\mathbf{K}} $$
+Applying degenerate perturbation theory gives the [[eigenvalue equation]]
+$$\begin{pmatrix}
+\varepsilon_{0}(\mathbf{k}) & U_{\mathbf{K}}^{*} \\
+U_{\mathbf{K}} & \varepsilon_{0}(\mathbf{k}+\mathbf{K})
+\end{pmatrix}\begin{pmatrix}
+\alpha \\
+\beta
+\end{pmatrix}=E\begin{pmatrix}
+\alpha \\
+\beta
+\end{pmatrix}$$
+$E$ is determined by
+$$\boxed{(\varepsilon_{0}(\mathbf{k})-E)(\varepsilon_{0}(\mathbf{k}+\mathbf{K})-E)-\lvert U_{\mathbf{K}} \rvert ^{2}=0}$$
+As an example, let's see what happens if both $\mathbf{k}$ and $\mathbf{k}'=\mathbf{k}+\mathbf{K}$ are on the edges of the Brillouin zone. Since $\varepsilon_{0}(\mathbf{k})=\varepsilon_{0}(\mathbf{k}+\mathbf{K})$ the above equation becomes
+$$(\varepsilon_{0}(\mathbf{k})-E)^{2}=\lvert U_{\mathbf{K}} \rvert ^{2}\quad\Rightarrow \quad E_{\pm}=\varepsilon_{0}(\mathbf{k})\pm \lvert U_{\mathbf{K}} \rvert $$
+This creates an energy interval of space between the top of a lower energy band ($E_{-}$) and the bottom of higher one ($E_{+}$) that is exactly the size of $2\lvert U_{\mathbf{K}} \rvert$. This interval is called a **gap**. There are no valid electron states in the gap: an electron must either stay in the lower band or jump to the higher one, requiring a state transition of *at least* $2\lvert U_{\mathbf{K}} \rvert$ in distance.
+
+![[Energy gaps.png]]
+
+Let's see what this entails in 1D. Consider a periodic potential like
+$$U(x)=\tilde{U}\cos\left( \frac{2\pi x}{a} \right)\quad\text{where }\tilde{U}>0$$
+The edges of the Brillouin zone are at $k=\pm \pi/a$. To cause the above degeneracy, we pick wavevectors at the edges, so $k=\pi/a$ and $k'=-k=-\pi/a$. From the eigenvalue equation we see that the degenerate eigenstates are
+$$\ket{\psi_{\pm}} =\frac{\ket{k} \pm \ket{k'} }{\sqrt{ 2 }}$$
+Using [[Rappresentazioni dello stato|position representation]] $\psi(x)=\braket{ x | k }$, we get two plane waves like $\ket{k}\to e^{i\pi x/a}$ and $\ket{k'}\to e^{-i\pi x/a}$. The position representation of the degenerate states is
+$$\psi_{+}(x)\simeq e^{i\pi x/a}+e^{-i\pi x/a}\propto \cos\left( \frac{\pi x}{a} \right),\quad \psi_{-}(x)\simeq e^{i\pi x/a}-e^{-i\pi x/a}\propto \sin\left( \frac{\pi x}{a} \right)$$
+$\lvert \psi_{+} \rvert^{2}$ has maxima at the potential maxima. Similarly, $\lvert \psi_{-} \rvert^{2}$ has maxima at the potential minima. As such, $\psi_{+}$ is higher energy than $\psi_{-}$. The energy gap can be found by solving for the coefficients of the potential $U_{n}$ of the potential $U(x)=\sum_{n}U_{n}e^{inKx}$ and then squaring them.
+
+![[Band gap in 1D.png]]
+
+The result is something like this. The left plot shows three coefficients, $U_{-1},U_{0},U_{1}$ and the right plot shows five, $U_{-2},U_{-1},U_{0},U_{1},U_{2}$. Where the lines here would have been parabola in the zero-potential case, we can see that they now split at the edges of the 1BZ, creating energy gaps. Also, we can see another effect of solving the equations with more or less coefficients: the three-coefficient solution missed the band higher band gap since it had $\lvert U_{\pm2} \rvert^{2}=\lvert 0 \rvert^{2}=0$, whereas the five-coefficient shows it. This is another reason why more coefficients provide better results.
+
+:::image
+![[Energy gap schemes.png]]
+Another plot showing the new energy bands. There is more than one convention to display the energy bands. The left method, called the **extended zone scheme**, shows the new bands (solid line) over the original band (dashed lines in the gaps) across multiple Brillouin zones. The right method, called the **reduced zone scheme**, uses the fact that wavevectors can always be reduced to the 1BZ by translating them by $\mathbf{K}$. The resulting plot hence only includes the 1BZ with multiple bands stacked on top of each other. The bottom band is in the 1BZ, the band above is in the 2BZ, etc.
+:::
+
+Another interesting detail is that, since we're dealing with quantum waves, we can use the [[Planck formula]] for energy, $E=\hbar \omega$. That might sound irrelevant, but the [[group velocity]] of a wave (read: electron) is
+$$v_{g}=\frac{d\omega(k)}{dk}=\frac{1}{\hbar} \frac{dE(k)}{dk}$$
+But we *do* have the energy $E(k)$, it's the energy band itself. Thus, the group velocity of an electron is determined by the slope of the energy band. Since bands with a gap flatten out at the edges of the 1BZ, waves with wavevectors on the edges have zero group velocity: they are [[standing wave|standing waves]].
+
+Also due to the Planck formula, energy and [[Frequency|angular frequency]] are interchangeable. Since energy bands are functions of $k$ to $E$, they can also be seen as functions of $k$ to $\omega$. But a function $\omega(k)$ of a wave is a [[dispersion|dispersion relation]]. Thus, the energy bands are the dispersion relations of the Bloch electrons.
+
+Ultimately, the takeaway here is this.
+
+> [!success] Periodic potential effect
+> Applying a periodic potential to a free-electron model causes the parabolic energy curves to distort at the edges of the first Brillouin zone and loop, a phenomenon called **backfolding**. The potential breaks the singular energy band into multiple ones, each divided by a **gap**. Electrons are no longer allowed to reach every energy state: states inside a gap are prohibited. The energy spectrum of electrons is therefore no longer (almost) continuous. It has discontinuities in the gaps. In the weak potential case, the size of the gaps is linearly dependent on the magnitude of the potential.
+
+### Tight-binding
+The **tight-binding** model attempts a different kind of description as the weak periodic potential. Whereas the weak potential started with free electrons and added a small but significant potential to the mix, the tight-binding model works from the other side. It starts with free *atoms* and then pushes them closer and closer until the effects of vicinity start to become relevant, namely the superposition of [[atomic orbital|atomic orbitals]]. The actual superposition might be small or large, and it really depends on the energy level of the electrons themselves. The tight-binding model attempts to explain cases in which the superposition of atomic orbitals is small but still significant.
+
+Whereas the weak potential described electrons that were largely free to move, tight-binding describes electrons that are largely unable to move and tightly bound to their ion, hence the name. This makes it well-positioned to explain the behavior of [[Dielectric|insulators]] instead of [[Conductor|conductors]], where electron movement is scarce.
+
+We start from the single-electron Hamiltonian for an isolated atom, under the assumption that the solid is entirely made of one type of atom (an pure elemental solid):
+$$\hat{H}_\text{atom}=- \frac{\hbar^{2}\nabla ^{2}}{2m}+U_\text{atom}(\mathbf{r})$$
+$U_\text{atom}(\mathbf{r})$ is the potential that each electron feels with respect to the atom that it is bound to. Now, let's combine all of the atoms to make a solid in a manner similar to [[Linear Combination of Atomic Orbitals|LCAO]] for [[Molecule|molecules]]. For example, imagine sodium, which only has one valence electron in $3s$, with energy $E_{3s}$ and eigenstate $\ket{3s}$. If each sodium atom is exactly on a Bravais lattice point $\mathbf{R}$ then we get
+$$\begin{align}
+\hat{H}_\text{solid}&=- \frac{\hbar^{2}\nabla^{2}}{2m}+\sum_{\mathbf{R}}U_\text{atom}(\mathbf{r}-\mathbf{R}) \\
+&=- \frac{\hbar^{2}\nabla^{2}}{2m}+U_\text{atom}(\mathbf{r})+\sum_{\mathbf{R}\neq 0}U_\text{atom}(\mathbf{r}-\mathbf{R})
+\end{align}$$
+The three terms are the [[kinetic energy]] of the electron, the potential due to the atom the electron is bound to and the potential due to every other atom. We'll group the first two in the single-atom Hamiltonian $\hat{H}_\text{atom}$ and call the third $\mathcal{U}(\mathbf{r})$ to distinguish it:
+$$\hat{H}_\text{solid}=\hat{H}_\text{atom}+\mathcal{U}(\mathbf{r})$$
+We now have the Hamiltonian of the solid as seen from an electron of an atom, with a corrective term $\mathcal{U}$ added onto it. This same idea an be applied to every electron.
+
+Now imagine that the atoms farther away from each other. Each single-atom eigenfunction $\phi_{n}(r)$ has eigenvalue $E_{n}$. We can write the energy eigenvalues of the solid as
+$$\langle H \rangle _{\phi_{n}}=\int \phi_{n}^{*}(\mathbf{r})H_\text{solid}\phi_{n}(\mathbf{r})d\mathbf{r}=E_{n}+\int \phi_{n}^{*}(\mathbf{r})\mathcal{U}(\mathbf{r})\phi_{n}(\mathbf{r})d\mathbf{r}=E_{n}-\beta$$
+The $\beta$ term depends highly on how superimposed the various wavefunctions are and is zero if they do not superimpose. The eigenfunctions $\phi_{n}$ go to zero before the potential does. For a solid made of $N$ atoms, we get $N$ degenerate solutions for each of the Hamiltonian eigenvalues. We expect this because there is no atom-atom interaction.
+
+Let's see what happens with we include the interaction. We'll use an ansatz to declare the form of the wavefunction of each electron as
+$$\psi_{\mathbf{k}}(\mathbf{r})=\frac{1}{\sqrt{ N }}\sum_{\mathbf{R}}c_{\mathbf{k},\mathbf{R}}\phi_{n}(\mathbf{r}-\mathbf{R})$$
+This is a linear combination of atomic wavefunctions $\phi_{n}$ on the Bravais lattice. The coefficients are unknown and the thing we need to determine. For this to make sense in a lattice context, it needs to be a Bloch wave, so the coefficients will have to be exponentials:
+$$\psi_{\mathbf{k}}(\mathbf{r})=\frac{1}{\sqrt{ N }}\sum_{\mathbf{R}}e^{i\mathbf{k}\cdot \mathbf{r}}\phi_{n}(\mathbf{r}-\mathbf{R})$$
+The values $\mathbf{k}$ are those allowed by the boundary conditions. These wavefunctions satisfy [[Bloch's theorem]]:
+$$\begin{align}
+\psi_{\mathbf{k}}(\mathbf{r}+\mathbf{R}')&=\frac{1}{\sqrt{ N }}\sum_{\mathbf{R}}e^{i\mathbf{k}\cdot \mathbf{R}}\phi_{n}(\mathbf{r}-\mathbf{R}+\mathbf{R}') \\
+&=\frac{1}{\sqrt{ N }}e^{i\mathbf{k}\cdot \mathbf{R}'}\sum_{\mathbf{R}}e^{i\mathbf{k}\cdot(\mathbf{R}-\mathbf{R}')}\phi_{n}(\mathbf{r}-(\mathbf{R}-\mathbf{R}')) \\
+(\mathbf{R}\to \mathbf{R}''=\mathbf{R}-\mathbf{R}')&=\frac{1}{\sqrt{ N }}e^{i\mathbf{k}\cdot \mathbf{R}'}\sum_{\mathbf{R}''}e^{i\mathbf{k}\cdot \mathbf{R}''}\phi_{n}(\mathbf{r}-\mathbf{R}'') \\
+&=e^{i\mathbf{k}\cdot \mathbf{R}'}\psi_{\mathbf{k}}(\mathbf{r})
+\end{align}$$
+The energy eigenvalues are calculated similarly to the [[Born-Oppenheimer approximation#The hydrogen-hydrogen molecule|hydrogen molecule]].
+$$\begin{align}
+E(\mathbf{k})&=\int \psi_{\mathbf{k}}^{*}(\mathbf{r})\hat{H}_\text{solid}\psi_{\mathbf{k}}(\mathbf{r})d\mathbf{r} \\
+&=\frac{1}{N}\sum_{\mathbf{R},\mathbf{R}'}e^{i\mathbf{k}\cdot(\mathbf{R}-\mathbf{R}')}\int \phi_{n}^{*}(\mathbf{r}-\mathbf{R}')\hat{H}_\text{solid}\phi_{n}(\mathbf{r}-\mathbf{R})d\mathbf{r} \\
+&=\ldots
+\end{align}$$
+Considering periodic boundary conditions, we can remove the dependency on $\mathbf{R}$ and merge the sums
+$$\ldots=\sum_{\mathbf{R}}e^{i\mathbf{k}\cdot \mathbf{R}}\int \phi_{n}^{*}(\mathbf{r})\hat{H}_\text{solid}\phi_{n}(\mathbf{r}-\mathbf{R})d\mathbf{r}$$
+The total energy eigenvalue must be the sum of this piece and the one we found before for the individual atoms:
+$$E(\mathbf{k})=E_{n}-\beta+\sum_{\mathbf{R}\neq 0}e^{i\mathbf{k}\cdot \mathbf{R}}\int \phi_{n}^{*}(\mathbf{r})\hat{H}_\text{solid}\phi_{n}(\mathbf{r}-\mathbf{R})d\mathbf{r}$$
+The integral is the real problem here. Let's see what we can do with it:
+$$\int \phi_{n}^{*}(\mathbf{r})\hat{H}_\text{solid}\phi_{n}(\mathbf{r}-\mathbf{R})d\mathbf{r}=E_{n}\int \phi_{n}^{*}(\mathbf{r})\phi_{n}(\mathbf{r}-\mathbf{R})d\mathbf{r}+\int \phi_{n}^{*}(\mathbf{r})\mathcal{U}(\mathbf{r})\phi_{n}(\mathbf{r}-\mathbf{R})d\mathbf{r}$$
+The first integral on the right is largely inconsequential: it measures the overlap of wavefunctions evaluated at different sites on the lattice, so it's never going to be significant. The second integral however cannot be ignored: the presence of $\mathcal{U}(\mathbf{r})$ makes $\mathcal{U}(\mathbf{r})\phi_{n}(\mathbf{r}-\mathbf{R})$ nontrivial even in the region it overlaps $\phi_{n}^{*}(\mathbf{r})$ so we can't drop it. Instead, we'll add a minus sign and call it $t=-\int \phi_{n}^{*}(\mathbf{r})\mathcal{U}(\mathbf{r})\phi_{n}(\mathbf{r}-\mathbf{R})d\mathbf{r}$. This term is known as the **hopping term** and measures the [[state transition]] [[probability]] of an electron from its own orbital to an orbital of nearby atom.
+
+The energy band function, or the electron dispersion relation depending on how you want to see it, then is
+$$\boxed{E(\mathbf{k})=E_{n}-\beta-\sum_{\mathbf{R}\neq 0}t(\mathbf{R})e^{i\mathbf{k}\cdot \mathbf{R}}}$$
+This shows the change of an energy level from an independent atom one $E_{n}$ to a lattice one $E(\mathbf{k})$. $\beta$ measures transition probabilities from an orbital to an orbital of the same atom. $t$ measures the same, but to orbitals of other atoms.
+
+Let's a run a simple calculation in a 1D crystal of lattice parameter $a$ for $s$-orbital valence electrons. Each electron has energy eigenvalue $E_{s}$ in the free atom limit. Normally, we'd need to sum over all other atoms, but $s$ wavefunctions decay fast, so in practice only the nearest neighbor matters, which are at $\pm a$. Moreover, $s$ orbitals are spherically symmetric, so $t(-a)=t(a)=t_{s}$. All in all, we get
+$$E_{s}(k)=E_{s}-\beta_{s}-t_{s}(e^{ika}+e^{-ika})=E_{s}-\beta_{s}-2t_{s}\cos (ka)$$
+$\beta_{s}$ is the value of $\beta$ calculated in the $s$ orbital. Both $E_{s}$ and $\beta_{s}$ are constant, so maxima and minima are chosen by the cosine. The minimum energy is for $k=0$ and the maximum is at the Brillouin zone edge at $k=\pi/a$. The center of the energy band is shifted by $-\beta_{s}$ compared to $E_{s}$ (typically a small shift). These are the edges of the band. The width of the band is $4t_{s}$, as seen by the fact that the cosine term goes from $-2t_{s}$ to $2t_{s}$. This shows that it's the hopping term that determines how wide a band is in the tight-binding model. Hopping depends on the distance, increasing for small distances, so the closer the atoms are, the wider the bands are; this is logical, as closer atoms make transferring electrons easier and therefore conductivity higher.
+
+:::image
+![[Tight-binding s-band 1D.png]]
+The $s$-band of a 1D crystal in tight-binding in the first Brillouin zone.
+:::
+
+You could then solve this same problem using $p$ orbitals instead. Then $d$, then $f$, and so on. Each orbital will give a brand new, separate bands, and because of that, the bands inherit the names of the orbitals: $s$-band, $p$-band, $d$-band... The bottom of each band, the lowest energy level, corresponds to the energy of the bonding [[molecular orbital|molecular orbitals]] of that type ($\sigma$ for $s$-band, $\pi$ for $p$-band...), whereas the top corresponds to the energy of the antibonding one.
+
+![[Tight-binding s- and p-band 1D.png]]
+
+One thing that is very interesting to look at is that the bands look quite similar to the ones in the weak potential limit. They're not *identical* of course, but we can see that at the bottom of each period of the wave, the band looks more or less parabolic. In fact, for small $k$ around the minimum, the dispersion is, to first order, $E(k)=E_{0}+ta^{2}k^{2}$ for some constant $E_{0}$. A shifted parabola basically, just like for free electrons. This lends itself to describing electrons with $k$ near the minimum as *free electrons* with an *effective mass* $m^{*}$ such that their energy satisfies
+$$\frac{\hbar^{2}k^{2}}{2m^{*}}=ta^{2}k^{2}\quad\Rightarrow \quad \boxed{m^{*}=\frac{\hbar^{2}}{2ta^{2}}}$$
+So, if for whatever reason you only need to consider electrons near the band minimum, you can actually just dispense with the entire tight-binding model (except for $t$, you need $t$) and treat them as free electrons with a mass given the formula above. This is a *weird result*, because tight-binding is useful for *insulators* of all things. We somehow managed to describe an insulator, a material defined by its *lack of freedom* on electrons, with a *free electron model*. To quote A. Wilson:
+
+> We have the rather curious result that not only is it possible to obtain conduction with bound electrons, but it is also possible to obtain non-conduction with free electrons.
 
 [^1]: They start to matter in high-energy conditions when the crystal starts to break down, such as a [[phase transition]] (think melting).
 
@@ -185,3 +362,5 @@ This goes to show that the density of states in an energy band is dependent on t
 [^4]: For more discussion on this, it's fascinating to notice a historical parallel here. Back in the late 1800s, physicists were hunting for the "luminiferous ether", this assumed substance that permeated the vacuum (thus not making it *really vacuum*) that allowed for electromagnetic radiation to occur. At the time, the idea of a wave was inconceivable without a medium. The wave is a distortion of the medium! And yet try as they might, they would be proved wrong by Millikan & Morley's experiment. Physicists needed to accept that some wave just exist without a medium. Well, this is it. This is the difference. We're now accustomed to photons being their own thing, so light traveling wherever it wants is perfectly normal. It's its own object that at most passes *through* other media. Meanwhile, the phonon discussion is just going through history in reverse. Now it's weird to think of a particle that *can't* exist on its own, even though historically that was always the "obviously correct" one. It's just an odd little consequence of the wave-particle duality. In fact, any wave of any kind could have this kind of treatment applied to it, regardless of whether it's medium-locked or not. The key takeaway here is that quasiparticles are "fake" and are really just a useful mathematical trick.
 
 [^5]: This section is not particularly well-developed or well-explained. See *Solid State Physics, Ashcroft & Mermin, Chapter 8, § Density of levels* for a proper treatment.
+
+[^6]: We are using $\mathbf{q}\to \mathbf{k}$ and $\mathbf{K}'\to \mathbf{K}$. It's a purely aesthetic change.

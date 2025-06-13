@@ -38,6 +38,44 @@ $$c(\mathbf{R})=e^{i\mathbf{k}\cdot \mathbf{R}}$$
 where $\mathbf{k}=x_{1}\mathbf{b}_{1}+x_{2}\mathbf{b}_{2}+x_{3}\mathbf{b}_{3}$ using the [[reciprocal lattice]] primitive vectors where $\mathbf{b}_{i}\cdot \mathbf{a}_{j}=2\pi \delta_{ij}$. Now that we know the form of the eigenvalues, we can state
 $$\hat{T}_{\mathbf{R}}\psi(\mathbf{r})=\psi(\mathbf{r}+\mathbf{R})=c(\mathbf{R})\psi(\mathbf{r})=e^{i\mathbf{k}\cdot \mathbf{R}}\psi(\mathbf{r})$$
 which completes our proof.
+### Fourier series proof
+This proof assumes [[Born-von Karman boundary conditions]] (also see below). Any function $\psi$ that satisfies these boundary conditions can be expressed as a sum of a finite, discrete set of [[plane wave|plane waves]] over the allowed wavevectors $\mathbf{q}$:
+$$\psi(\mathbf{r})=\sum_{\mathbf{q}}c_{\mathbf{q}}e^{i\mathbf{q}\cdot \mathbf{r}}\tag{4}$$
+where summation occurs over all allowed wavevectors. Since the potential is periodic with equal periodicity to the lattice, its plane wave expansion will only contain plane waves with the periodicity of the lattice and therefore vectors that reciprocal lattice vectors:
+$$U(\mathbf{r})=\sum_{\mathbf{K}}U_{\mathbf{K}}e^{i\mathbf{K}\cdot \mathbf{r}}\tag{5}$$
+where summation occurs over all reciprocal lattice vectors. Both of these are [[Fourier series]] of components $c_{\mathbf{q}}$ and $U_{\mathbf{K}}$. The $U_{\mathbf{K}}$ coefficients are given by
+$$U_{\mathbf{K}}=\frac{1}{v}\int _\text{cell}U(\mathbf{r})e^{-i\mathbf{K}\cdot \mathbf{r}}d\mathbf{r}$$
+where $v=V/N$ is the volume of the primitive cell in real space. A [[potential]] is only defined up to a constant and we are free to choose this constant as we wish. We shall select it such that the spatial average $U_{0}$ of the potential over a primitive cell vanishes:
+$$U_{0}=\frac{1}{v}\int _\text{cell}U(\mathbf{r})d\mathbf{r}=0$$
+Since $U(\mathbf{r})$ is real, the coefficients must satisfy $U_{-\mathbf{K}}=U_{\mathbf{K}}^{*}$ where $^{*}$ is the [[complex conjugate]]. If the crystal also has inversion symmetry[^1], that is, it is invariant under [[parità|parity]] $\mathbf{r}\to-\mathbf{r}$, then the coefficients must also be real: $U_{-\mathbf{K}}=U_{\mathbf{K}}$.
+
+We can now put the Fourier series $(4)$ and $(5)$ in the [[Equazione di Schrödinger|Schrödinger equation]] given by the Hamiltonian of the theorem
+$$\hat{H}\psi=- \frac{\hbar^{2}}{2m}\nabla ^{2}\psi+U(\mathbf{r})\psi=\varepsilon\psi$$
+The kinetic part gives
+$$- \frac{\hbar^{2}}{2m}\nabla ^{2}\psi=\sum_{\mathbf{q}} \frac{\hbar^{2}}{2m}q^{2}c_{\mathbf{q}}e^{i\mathbf{q}\cdot \mathbf{r}}$$
+The potential part gives
+$$U(\mathbf{r})\psi=\left( \sum_{\mathbf{K}}U_{\mathbf{K}}e^{i\mathbf{K}\cdot \mathbf{r}} \right)\left( \sum_{\mathbf{q}}c_{\mathbf{q}}e^{i\mathbf{q}\cdot \mathbf{r}} \right)=\sum_{\mathbf{K}\mathbf{q}}U_{\mathbf{K}}c_{\mathbf{q}}e^{i(\mathbf{K}+\mathbf{q})\cdot \mathbf{r}}=\ldots$$
+We can substitute $\mathbf{K}+\mathbf{q}=\mathbf{q}'$ (and so $\mathbf{q}=\mathbf{q}'-\mathbf{K}$) and change the sum from being over $\mathbf{q}$ to being over $\mathbf{q}'$. $\mathbf{K}$ is a reciprocal lattice vector, so it doesn't care about which wavevectors it sums over so long it's over all of them and they all only differ by the periodicity $\mathbf{K}$.
+$$\ldots=\sum_{\mathbf{K}\mathbf{q}'}U_{\mathbf{K}}c_{\mathbf{q}'-\mathbf{K}}e^{i\mathbf{q}'\cdot \mathbf{r}}$$
+We rename the indices as $\mathbf{q}'\to \mathbf{q}$ and $\mathbf{K}\to \mathbf{K}'$. This is a purely aesthetic change to make it clear that the sum in the potential part and the sum in the kinetic part are over the same $\mathbf{q}$ and can be merged. With this, the Schrödinger equation becomes
+$$\sum _{\mathbf{q}} \frac{\hbar^{2}}{2m}q^{2}c_{\mathbf{q}}e^{i\mathbf{q}\cdot \mathbf{r}}+\sum_{\mathbf{K}'\mathbf{q}}U_{\mathbf{K}'}c_{\mathbf{q}-\mathbf{K}'}e^{i\mathbf{q}'\cdot \mathbf{r}}=\varepsilon \sum_{\mathbf{q}}c_{\mathbf{q}}e^{i\mathbf{q}\cdot \mathbf{r}}$$
+Rearranged it looks like
+$$\sum_{\mathbf{q}}e^{i\mathbf{q}\cdot \mathbf{r}}\left[ \left( \frac{\hbar^{2}}{2m}q^{2} -\varepsilon\right)c_{\mathbf{q}}+\sum_{\mathbf{K}'}U_{\mathbf{K}'}c_{\mathbf{q}-\mathbf{K}'} \right]=0$$
+The plane waves derived from the boundary conditions are all [[Orthogonality|orthogonal]], so in order for the whole sum to be zero, then each individual term must be zero, which is to say that the coefficients (the square brackets) must all be zero:
+$$\boxed{\left( \frac{\hbar^{2}}{2m}q^{2} -\varepsilon\right)c_{\mathbf{q}}+\sum_{\mathbf{K}'}U_{\mathbf{K}'}c_{\mathbf{q}-\mathbf{K}'}=0}$$
+For the sake of convenience, it's useful to express the wavevector $\mathbf{q}$ in terms of a wavevector $\mathbf{k}$ that is guaranteed to be in the first [[Brillouin zone]], which we do as $\mathbf{q}=\mathbf{k}-\mathbf{K}$ where $\mathbf{K}$ is a reciprocal lattice vector that chosen so that $\mathbf{k}$ is in the first Brillouin zone.
+$$\left( \frac{\hbar^{2}}{2m}q^{2}-\varepsilon \right)c_{\mathbf{k}-\mathbf{K}}+\sum_{\mathbf{K}'}U_{\mathbf{K}'}c_{\mathbf{k}-\mathbf{K}-\mathbf{K}'}=0$$
+Changing summation variable from $\mathbf{K}'$ to $\mathbf{K}'-\mathbf{K}$ yields
+$$\boxed{\left( \frac{\hbar^{2}}{2m}q^{2}-\varepsilon \right)c_{\mathbf{k}-\mathbf{K}}+\sum_{\mathbf{K}'}U_{\mathbf{K}'-\mathbf{K}}c_{\mathbf{k}-\mathbf{K}'}=0}\tag{6}$$
+which is true for all $\mathbf{q}$ (and $\mathbf{k}$) that is allowed by the boundary conditions. This equation has the same validity as the original Schrödinger equation that we started with, but it's rewritten in the domain of the wavevectors, simplified by the fact that the potential is nonzero only for $\mathbf{K}$ that are reciprocal lattice vectors. For any $\mathbf{k}$ in the first Brillouin zone, the equation above only couples the coefficients $c_{\mathbf{k}},c_{\mathbf{k}-\mathbf{K}},c_{\mathbf{k}-\mathbf{K}'},\ldots$, whose plane waves only differ from $\mathbf{k}$ by a reciprocal lattice vector. Thus, the original problem is broken down into $N$ independent problems: one for each allowed value of $\mathbf{k}$ in first Brillouin zone. Each of these problems has solutions that are superpositions of plane waves containing only the wavevector $\mathbf{k}$ and wavevectors differing from $\mathbf{k}$ only by a reciprocal lattice vector.
+
+We can use this information to notice that the original expansion $(4)$ of the wavefunction now reads
+$$\psi_{\mathbf{k}}(\mathbf{r})=\sum_{\mathbf{K}}c_{\mathbf{k}-\mathbf{K}}e^{i(\mathbf{k}-\mathbf{K})\cdot \mathbf{r}}$$
+since $\mathbf{q}=\mathbf{k}-\mathbf{K}$. If we extract $e^{i\mathbf{k}\cdot \mathbf{r}}$ we get
+$$\psi_{\mathbf{k}}(\mathbf{r})=e^{i\mathbf{k}\cdot \mathbf{r}}\left( \sum_{\mathbf{K}}c_{\mathbf{k}-\mathbf{K}}e^{-i\mathbf{k}\cdot \mathbf{r}} \right)$$
+but since the term in parenthesis is periodic with the lattice, this is precisely the statement of Bloch's theorem, with
+$$u(\mathbf{k})=\sum_{\mathbf{K}}c_{\mathbf{k}-\mathbf{K}}e^{-i\mathbf{k}\cdot \mathbf{r}}$$
+The band index $n$ appears to index the infinitely many solutions of $(6)$ for any given $\mathbf{k}$.
 ## Boundary conditions
 Generally speaking, the wavevector $\mathbf{k}$ is some complex-valued vector. However, certain specific boundary conditions work in such a way as to make it real, and also restrict its allowed values.
 
@@ -69,7 +107,7 @@ Thanks to the boundary condition $u_{\mathbf{k}}(\mathbf{r})=u_{\mathbf{k}}(\mat
 $$\psi_{n,\mathbf{k}+\mathbf{K}}(\mathbf{r})=\psi_{n\mathbf{k}}(\mathbf{r}),\quad \varepsilon_{n,\mathbf{k}+\mathbf{K}}=\varepsilon_{n\mathbf{k}}$$
 Solving the Schrödinger equation for in the periodic potential leads to an infinite set of functions $\varepsilon_{n}(\mathbf{k})$, indexed by $n$ and all periodic in the reciprocal lattice, which represent the energy levels that are accessible to the electrons. For each $n$, the set of all energy levels given by $\varepsilon_{n}(\mathbf{k})$ is called an **energy band** and collectively, they form the **band structure** of the crystal.
 
-It can be proven[^1] that the [[mean]] velocity of an electron in a band $n$ with wavevector $\mathbf{k}$ is
+It can be proven[^2] that the [[mean]] velocity of an electron in a band $n$ with wavevector $\mathbf{k}$ is
 $$\boxed{\mathbf{v}_{n}(\mathbf{k})=\frac{1}{\hbar}\nabla_{\mathbf{k}}\varepsilon_{n}(\mathbf{k})}$$
 This is the [[phase velocity]] of the electron and, critically, it is *not* zero. This is a striking result, because it implies that the electron, despite in theory being constantly subject to collisions with ions, never has its mean velocity degraded. This allows the electron to move indefinitely throughout the entire crystal. This fact, in striking contrast to the old [[Drude model]] that assumed (reasonably so) that each electron-ion collision would degrade velocity, is of fundamental importance to the conductivity of crystals and metals especially.
 
@@ -82,4 +120,6 @@ That said, $\hbar \mathbf{k}$ is still *some* potential, it's just not the elect
 An example of a periodic potential $V(\mathbf{r})$ and a Bloch wave $\psi(\mathbf{k},\mathbf{r})$ for some function $u(\mathbf{k},\mathbf{r})$.
 :::
 
-[^1]: See Appendix E of *Solid State Physics, Ashcroft & Mermin*.
+[^1]: This proof is valid even for crystals that do not exhibit inversion symmetry. It is assumed here for simplicity.
+
+[^2]: See Appendix E of *Solid State Physics, Ashcroft & Mermin*.
