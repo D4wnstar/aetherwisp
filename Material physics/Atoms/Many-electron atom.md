@@ -38,7 +38,7 @@ where we combined the central potential with the nuclear attraction term into $V
 $$\psi_{C}=u_{a_{1}}(\mathbf{r}_{1})u_{a_{2}}(\mathbf{r}_{2})\ldots u_{a_{N}}(\mathbf{r}_{N})$$
 where each $u_{a_{i}}(\mathbf{r}_{1})$ are the individual electron wavefunctions, corresponding to their [[orbital|orbitals]]. Each orbital is, in [[spherical coordinates]] and like in the [[Hydrogen atom|hydrogenic atom]], a mix of a radial and angular part like
 $$u_{nlm}(\mathbf{r})=R_{nl}(r)Y_{lm}(\theta,\phi)$$
-where $m\equiv m_{l}$. The meaning of the [[Numero quantico|quantum numbers]] is the same as the ones in the hydrogenic atom. The angular part is as always independent from the potential, so it's just the same old [[spherical harmonics]]. The radial part is, however, not the same and needs to be solved again, according to
+where $m\equiv m_{l}$. The meaning of the [[Numero quantico|quantum numbers]] is the same as the ones in the hydrogenic atom. The angular part is as always independent from a central potential, so it's just the same old [[spherical harmonics]]. The radial part is, however, not the same and needs to be solved again, according to
 $$\left[ - \frac{\hbar^{2}}{2m}\left( \frac{1}{r^{2}} \frac{d}{dr}\left( r^{2} \frac{d}{dr} \right)- \frac{l(l+1)}{r^{2}} \right)- V_{C}(r) \right]R_{nl}(r)=E_{nl}R_{nl}(r)$$
 Note how the energy eigenvalues now depend on $l$ too, not just $n$. To get the total energy of all electrons, just sum the individual ones:
 $$E_{C}=\sum_{i=1}^{N} E_{n_{i}l_{i}}$$
@@ -80,7 +80,7 @@ The potential produced by this electron distribution can be shown to be
 $$V(r)=- \frac{Ze^{2}}{4\pi \varepsilon_{0}r}\chi(r)$$
 where $\chi(r)$ is a dimensionless function that is the solution to the non-linear [[Ordinary differential equation|ordinary differential equations]]
 $$\frac{d^{2}\chi}{dr^{2}}=\frac{1}{\sqrt{ r }}\chi^{3/2}\quad\text{if }\chi\geq 0,\qquad \frac{d^{2}\chi}{dr^{2}}=0\quad\text{if }\chi< 0$$
-The function is actually entirely determined by the left equation, called the **Thomas-Fermi equation**. It has boundary condition $\chi(0)=1$. It has at most one other zero between $0$ and $+\infty$ found at a point $r_{0}$, which we can interpret as the "edge" of the atom in this description. The lack of a second boundary condition means that there are actually infinite functions $\chi$ that can satisfy the Thomas-Fermi equation, and these can be classified in three types: $\chi$ for neutral atoms, $\chi$ for positive ions ($N<Z$)[^1] and $\chi$ for neutral atoms under [[pressure]]. See *Bransden & Joachaim § 7.3* for an actual proof and discussion.
+The function is actually entirely determined by the left equation, called the **Thomas-Fermi equation**. It has boundary condition $\chi(0)=1$. It has at most one other zero between $0$ and $+\infty$ found at a point $r_{0}$, which we can interpret as the "edge" of the atom in this description. The lack of a second boundary condition means that there are actually infinite functions $\chi$ that can satisfy the Thomas-Fermi equation, and these can be classified in three types: $\chi$ for neutral atoms, $\chi$ for positive ions ($N<Z$)[^1] and $\chi$ for neutral atoms under [[pressure]]. See *Bransden & Joachaim, Chapter 7.3* for an actual proof and discussion.
 
 The Thomas-Fermi model provides good results for intermediate $r$ and can be useful to estimate atomic properties which only depend on the average distance $r$ from the nucleus.
 ### Hartree-Fock method

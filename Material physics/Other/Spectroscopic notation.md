@@ -26,8 +26,8 @@ Some examples are
 When an atom has two or more electrons, it's necessary to differentiate the atomic state from the electronic state. To do so, an extension to the notation is used to represent the overall state of the atom, which uses different quantum numbers. The format is
 $$n^{2S+1}L_{J}$$
 - $n$ is the principal quantum number of the most energetic electron (the outermost electron).
-- $S$ is the total spin quantum number of the atom. $2S+1$ is the spin degeneracy. Useful to easily differentiate between, for example, singlet and triplet states.
-- $L$ is the total orbital angular momentum of the atom. Like in atomic orbitals, it uses the same letters, but uppercase.
+- $S$ is the total spin quantum number of the atom, given by $S=\sum_{i}m_{s,i}$. $2S+1$ is the spin degeneracy. Useful to easily differentiate between, for example, singlet and triplet states.
+- $L$ is the total orbital angular momentum of the atom, given by $L=\sum_{i}m_{l,i}$. Like in atomic orbitals, it uses the same letters, but uppercase.
 - $J$ is the total angular momentum of the atom. It is sometimes omitted if it is unnecessary. It is equal to $L+S$.
 
 | Number | Letter |
