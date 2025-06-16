@@ -5,12 +5,12 @@ wiki-publish: true
 
 > [!info] Ljapunov's theorem
 > Let $\mathbf{c}$ be an equilibrium point for an ODE $\dot{\mathbf{x}}(t)=f(\mathbf{x}(t))$. If there exists a [[dynamical variable]] $W:\mathbb{R}^{N}\to \mathbb{R}$ in a neighborhood $U_{c}$ of $\mathbf{c}$ (called a **Lyapunov function**) such that
-> 1. $W$ as a strict minimum in $\mathbf{c}$, i.e. $W(\mathbf{x})>W(\mathbf{c})$ for all $\mathbf{x}\in U_{c}\setminus \{ \mathbf{c} \}$;
+> 1. $W$ has a strict minimum in $\mathbf{c}$, i.e. $W(\mathbf{x})>W(\mathbf{c})$ for all $\mathbf{x}\in U_{c}\setminus \{ \mathbf{c} \}$;
 > 2. its [[Lie derivative]] is always non-positive, i.e. $\mathcal{L}_{f}W\leq 0$;
 > 
 > then $\mathbf{c}$ is a stable equilibrium point in the future.
 
-There is also a corollary that applies to [[conservative system|conservative systems]] which states that isolated minima of the [[potential energy]] are always stable equilibrium points.
+There is also a corollary that applies to [[conservative system|conservative systems]] which states that isolated minima of the [[potential energy]] are always stable equilibrium points. An isolated minimum is a minimum that is a single point (a non-isolated minimum would be an entire interval).
 
 > [!info] Corollary
 > Consider the conservative mechanical system
@@ -36,6 +36,6 @@ There is also a corollary that applies to [[conservative system|conservative sys
 > v \\
 > -\omega ^{2}x-2\mu v
 > \end{pmatrix}$$
-> To have $f=\begin{pmatrix}0 \\ 0\end{pmatrix}$ we just need $\mathbf{c}=(x,v)=(0,0)$, which is our equilibrium point. We just need to apply Ljapunov's theorem in a neighborhood of $\mathbf{c}$ using the total energy. We already know that $E$ is a constant of motion, so we just need to check that the Lie derivative is always non-positive:
+> To have $f=\begin{pmatrix}0 \\ 0\end{pmatrix}$ we just need $\mathbf{c}=(x,v)=(0,0)$, which is our equilibrium point. We just need to apply Ljapunov's theorem in a neighborhood of $(0,0)$ using the total energy. We already know that $E$ is a constant of motion, so we just need to check that the Lie derivative is always non-positive:
 > $$\mathcal{L}_{f}E=\frac{ \partial E }{ \partial x } f_{1}+\frac{ \partial E }{ \partial v } f_{2}=m\omega ^{2}xv+mv(-\omega ^{2}x-2\mu v)=-2m\mu v^{2}\leq 0$$
 > This verifies the theorem, so $\mathbf{c}$ is stable in the future.

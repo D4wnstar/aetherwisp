@@ -1,10 +1,10 @@
 ---
 wiki-publish: true
 ---
-The **Lie derivative** is a derivative [[Operatore|operator]] defined on a [[dynamical variable]] $G:\mathbb{R}^{N}\to \mathbb{R}$ and a [[vector field]] $f(\mathbf{x})$ as
+The **Lie derivative** is a derivative [[Operatore|operator]] defined on a [[dynamical variable]] $G:\mathbb{R}^{N}\mapsto \mathbb{R}$ and a [[vector field]] $f(\mathbf{x})$ as
 $$\begin{align}
-&\mathcal{L}_{f}G:\mathbb{R}^{N}\to \mathbb{R} \\
-&\mathbf{x}\to \sum_{i=1}^{N} \frac{ \partial G }{ \partial x_{i} } (\mathbf{x})f_{i}(\mathbf{x})=\nabla G\cdot f=dG[f]
+&\mathcal{L}_{f}G:\mathbb{R}^{N}\mapsto \mathbb{R} \\
+&\mathbf{x}\mapsto \sum_{i=1}^{N} \frac{ \partial G }{ \partial x_{i} } (\mathbf{x})f_{i}(\mathbf{x})=\nabla G\cdot f=dG[f]
 \end{align}$$
 where $\nabla G$ is the [[gradient]] of $G$ and $dG[f]$ is the [[exact differential]] of $G$.
 

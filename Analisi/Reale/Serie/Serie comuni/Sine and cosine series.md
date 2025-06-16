@@ -9,4 +9,3 @@ $$\begin{align}
 \sin x&=\sum_{n=0}^{\infty} \frac{(-1)^{n}x^{2n+1}}{(2n+1)!}=x- \frac{x^{3}}{3!}+ \frac{x^{5}}{5!}+\ldots
 \end{align}$$
 Both series are [[Absolute convergence|absolutely convergent]] for all $x$.
-$$\sum_{n=0}^{\infty} \frac{x^{2n}}{(2n)!}I+\sum_{n=0}^{\infty} \frac{x^{2n+1}}{(2n+1)!}A$$

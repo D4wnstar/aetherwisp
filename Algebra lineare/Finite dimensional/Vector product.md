@@ -31,7 +31,7 @@ $$\mathbf{a}\times\mathbf{b}=(a_{2}b_{3}-a_{3}b_{2})\hat{\mathbf{i}}+(a_{3}b_{1}
 which gives the same result as above.
 ### Tensor representation
 The vector product can also be represented by the [[Tensore di Levi-Civita|Levi-Civita tensor]] $\epsilon$. The $i$-th component of the vector product is
-$$(\mathbf{a}\times \mathbf{b})_{i}=\sum_{i,j=1,2,3} \epsilon_{ijk}a_{i}b_{j} $$
+$$(\mathbf{a}\times \mathbf{b})_{i}=\sum_{j,k=1,2,3} \epsilon_{ijk}a_{j}b_{k} $$
 ### Interaction with rotations
 The vector product is distributive with respect to a [[rotation]] $R$:
 $$(R\mathbf{a})\times(R\mathbf{b})=R(\mathbf{a}\times\mathbf{b})$$

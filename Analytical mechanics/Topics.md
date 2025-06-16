@@ -4,10 +4,10 @@ wiki-publish: true
 ### General mechanics
 - Calculus setup
 - [[Ordinary differential equation]]
-- [[Dynamical variable]], [[Constant of motion]], [[Lie derivative]], [[Ljapunov's theorem]]
+- [[Dynamical variable]], [[Constant of motion]], [[Lie derivative]]
 - [[Nöther's theorem]]
-- [[Equilibrium point]] and [[Equilibrium configuration]]
-- [[Generalized coordinates]], [[Conjugate momenta]], [[Configuration space]], [[tangent space]], [[tangent bundle]], [[Degrees of freedom]]
+- [[Equilibrium point]], [[Ljapunov's theorem]] and [[Equilibrium configuration]]
+- [[Generalized coordinates]], [[Conjugate momenta]], [[Configuration space]], [[Degrees of freedom]]
 - [[Coordinate transformation]]
 - [[Rotation]]
 - [[Constraint]] and [[Constrained systems]]

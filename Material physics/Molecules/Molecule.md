@@ -31,7 +31,7 @@ The real value of symmetries is that, broadly speaking, only atomic orbitals of 
 When it comes to diatomic molecules, there's a useful rule regarding symmetries that relies on the fact that the electronic terms only rely on the internuclear distance $R$.
 
 > [!info] von Neumann-Wigner non-crossing rule
-> Electronic states, represented by their potentials $E(R)$, that have the same symmetries never cross when varying internuclear distance $R$. In other words, given two distinct electronic states $E_{1}(R)$ and $E_{2}(R)$, there does *not* exist an $R_{C}$ for which $E_{1}(R_{C})=E_{2}(R_{C})$.
+> Electronic states, represented by their potentials $E(R)$, that have the same symmetries never cross when varying internuclear distance $R$. In other words, given two distinct electronic states $E_{1}(R)$ and $E_{2}(R)$ with the same symmetries, there does *not* exist a distance $R^{*}$ for which $E_{1}(R^{*})=E_{2}(R^{*})$.
 #### Examples
 > [!example] Lithium hydride
 > Lithium hydride $\text{LiH}$ is a heteronuclear molecule with four total electron, three from lithium and one from hydrogen. An isolated, neutral lithium atom has ground state $1s^{2}2s$. The ground state of hydrogen is as usual $1s$. The $1s^{2}$ shell in lithium is complete, so we can imagine it will not bond in any way. The technical reason is that only orbitals of similar energy are likely to bond. The energies involved here are

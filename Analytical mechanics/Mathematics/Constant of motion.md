@@ -69,18 +69,18 @@ Clearly then, if $\frac{ \partial L }{ \partial t }=0$, then $E$ is a constant o
 > [!example] 2D harmonic oscillator
 > We now imagine a two-dimensional [[harmonic oscillator]] of Lagrangian
  >$$L=\frac{m}{2}(\dot{x}^{2}+\dot{y}^{2})- \frac{m\omega ^{2}}{2}(x^{2}+y^{2})$$
-> where $\omega ^{2}=k/m$. Think of it a spring being pushed and pulled away and towards the origin, passing through it every half cycle. It is not rotating. We can find the motion pretty easily from each term of $L$:
+> where $\omega ^{2}=k/m$. Think of it a spring being pushed and pulled away and towards the origin, passing through it every half cycle. It is not rotating, it's just a harmonic oscillator moving diagonally on the plane. This makes it just a harmonic oscillator on a specific axis in 2D. We can find the motion pretty easily from each term of $L$:
 > $$\frac{d}{dt} \frac{ \partial L }{ \partial x } -\frac{ \partial L }{ \partial x } =0\quad\to \quad \ddot{x}=-\omega ^{2}x$$
 > $$\frac{d}{dt} \frac{ \partial L }{ \partial y } -\frac{ \partial L }{ \partial y } =0\quad\to \quad \ddot{y}=-\omega ^{2}y$$
 > These are simple second order ODEs that solve to
 > $$x(t)=A_{x}\cos(\omega t+\varphi_{x}),\qquad y(t)=A_{y}\cos(\omega t+\varphi_{y})$$
-> We could have also solved this in [[polar coordinates]]. If we use the [[coordinate transformation]] $r=\cos \varphi,\ y=r\sin \varphi$, the Lagrangian becomes
+> For an illustrating example, we should also solve this in [[polar coordinates]]. If we use the [[coordinate transformation]] $r=\cos \varphi,\ y=r\sin \varphi$, the Lagrangian becomes
 > $$L=\frac{m}{2}(\dot{r}^{2}+r^{2}\dot{\varphi}^{2})- \frac{m\omega ^{2}}{2}r^{2}$$
-> This Lagrangian does not explicitly depend on $\varphi$. The terms of $E$ are
+> This Lagrangian does not explicitly depend on $\varphi$; this is your hint that there's a constant of motion somewhere in here. The terms of $E$ are
 > $$0=\frac{d}{dt} \frac{ \partial L }{ \partial \dot{r} } -\frac{ \partial L }{ \partial r } =m \ddot{r}-mr \dot{\varphi}^{2}+m \omega ^{2}r\quad\to \quad \ddot{r}=-\omega ^{2}r+r \dot{\varphi}^{2}$$
-> $$0=\frac{d}{dt} \frac{ \partial L }{ \partial \dot{\varphi} }\quad\to \quad \frac{ \partial L }{ \partial \dot{\varphi} } =mr^{2}\dot{\varphi}$$
+> $$0=\frac{d}{dt} \frac{ \partial L }{ \partial \dot{\varphi} }- \cancel{ \frac{ \partial L }{ \partial \varphi } } \quad\to \quad \frac{ \partial L }{ \partial \dot{\varphi} } =mr^{2}\dot{\varphi}$$
 > The latter equation is a constant of motion. If we set $mr^{2}\dot{\varphi}=\ell$, we can invert to get $\dot{\varphi}=\ell/mr^{2}$. If we plug this into $\ddot{r}$ we get
 > $$\ddot{r}=-\omega ^{2}r+ \frac{\ell^{2}}{m^{2}r^{3}}$$
 > This is an ODE in $r(t)$ of the form $\ddot{r}=f(r)$ and can therefore be solved generally. We can also plug $\dot{\varphi}$ in the polar Lagrangian to get
-> $$L_\text{eff}(r,\dot{r},\ell)=\frac{m\dot{r}^{2}}{2}- \frac{m\omega ^{2}r^{2}}{2}- \frac{\ell^{2}}{2mr^{2}}$$
+> $$L_\text{eff}(r,\dot{r})=\frac{m\dot{r}^{2}}{2}- \frac{m\omega ^{2}r^{2}}{2}- \frac{\ell^{2}}{2mr^{2}}$$
 > This isn't the original Lagrangian and does not even depend on the same variables, but it nonetheless contains the same information to the original. This *effective* Lagrangian uses the fact that the oscillator is not rotating, so the angular dependency in polar coordinates collapses to a constant of motion and we can get all the information about the system by just solving a single ODE, $\ddot{r}$, instead of two, $\ddot{x}$ and $\ddot{y}$.

@@ -1,25 +1,25 @@
 ---
 wiki-publish: true
 ---
-A **rotation** is a circular movement of an object around a central line, known as the **axis of rotation**. A rotation $R(\alpha)$ in $\mathbb{R}^{N}$ is a [[Operatore lineare|linear operator]] parameterized by a real value, typically interpreted as the angle of rotation and denoted $\theta$ or $\alpha$.
+A **rotation** is a circular movement of an object around a central line, known as the **axis of rotation**. A rotation $R(\alpha)$ in $\mathbb{R}^{N}$ is a [[Operatore lineare|linear operator]] parameterized by a real value, typically interpreted as the angle of rotation and denoted $\theta$ or $\alpha$. It is also a [[transformation]].
+
+In the context of a [[rigid body]], it is a movement that maintains at least one point fixed. A rotation where the axis passes through an object's [[center of mass]] is called a *spin* rotation, whereas a rotation around an axis completely outside of the body is called a *revolution* (or *orbit*). In this case, the axis is called the **axis of revolution**.
 
 Rotations form a [[group]] with interesting properties. Since rotations are, geometrically speaking, planar operations, the most fundamental group is the one in $\mathbb{R}^{2}$. Here they form a group known as
 $$SO(2)=\{ R\in M_{2}(\mathbb{R})\ | \ RR^{T}=R^{T}R=\hat{\mathbf{1}} \text{ and } \det R=1\}$$
-where $M_{2}(\mathbb{R})$ is the [[set]] of all real $2\times 2$ matrices. It is called the (two-dimensional) [[special orthogonal group]][^1]. It can also be written as $SO(2)=\{ R(\alpha)\ |\ \alpha \in[0,2\pi[\  \}$ and is the group of all [[Matrice simmetrica|antisymmetric matrices]] in $\mathbb{R}^{2}$.. For rotations in $\mathbb{R}^{N}$, they form the group
+where $M_{2}(\mathbb{R})$ is the [[set]] of all real $2\times 2$ matrices. It is called the (two-dimensional) [[special orthogonal group]][^1]. It can also be written as $SO(2)=\{ R(\alpha)\ |\ \alpha \in[0,2\pi[\  \}$ and is the group of all [[Matrice simmetrica|antisymmetric matrices]] in $\mathbb{R}^{2}$. For rotations in $\mathbb{R}^{N}$, they form the group
 $$SO(N)=\{ R\in M_{N}(\mathbb{R})\ | \ RR^{T}=R^{T}R=\hat{\mathbf{1}} \text{ and } \det R=1\}$$
-
-In the context of a [[rigid body]], it is a movement that maintains at least one point fixed. A rotation where the axis passes through an object's [[center of mass]] is called a *spin* rotation, whereas a rotation around an axis completely outside of the body is called a *revolution* (or *orbit*). In this case, the axis is called the **axis of revolution**.
 ### Properties
 - They are [[Operatore lineare|linear operators]].
-- They are [[Matrice simmetrica|antisymmetric]]: $R(\alpha)^{T}R(\alpha)=R(\alpha)R^{T}(\alpha)=\hat{\mathbf{1}}$, where $\hat{\mathbf{1}}$ is the unit operator.
-- The [[determinant]] of a rotation is $\det R(\alpha)=1$.
-- Given a vector $\mathbf{v}\in \mathbb{R}^{N}$, $R(\alpha)\mathbf{v}$ is rotated by an angle $\alpha$ with respect to $\mathbf{v}$.
+- They are [[Matrice simmetrica|antisymmetric]]: $R(\alpha)^{T}R(\alpha)=R(\alpha)R^{T}(\alpha)=\mathrm{I}$, where $\mathrm{I}$ is the [[identity matrix]].
+- They have unit [[determinant]]: $\det R(\alpha)=1$.
+- Given a vector $\mathbf{v}\in \mathbb{R}^{N}$, the application of a rotation $R(\alpha)$ rotates it by an angle $\alpha$ with respect to its previous orientation.
 ### Matrix representation
 Being linear operators, rotations can be represented through square matrices. This is a particularly convenient form in more theoretical math, especially when [[Operatore|operator]] theory can be used. Given a vector $(x,y)$ in a plane, a rotation about the origin by an angle $\theta>0$ is the vector $(x',y')$ given by
 $$x'=\cos(\theta)x-\sin(\theta)y, \quad y'=\sin(\theta)x+\cos(\theta)y$$
-which can be derived using plain trigonometry. The rotation is counterclockwise. These equations can be written in matrix form as
+which can be derived using plain trigonometry. The rotation is counterclockwise (by convention). These equations can be written in matrix form as
 $$\boxed{\begin{pmatrix}x' \\ y'\end{pmatrix}=\begin{pmatrix}\cos\theta & -\sin\theta \\ \sin\theta & \cos\theta\end{pmatrix}\begin{pmatrix}x \\ y\end{pmatrix}}$$
-In three dimensions, the rotation about an axis can be trivially extended as
+In three dimensions, a rotation about the $z$ axis can be trivially defined as
 $$\boxed{\begin{pmatrix}x' \\ y' \\ z'\end{pmatrix}=\begin{pmatrix}\cos\theta & -\sin\theta & 0 \\ \sin\theta & \cos\theta & 0 \\ 0 & 0 & 1\end{pmatrix}\begin{pmatrix}x \\ y \\ z\end{pmatrix}}$$
 
 The 3D rotation matrix columns can be represented in the standard $\mathbb{R}^{3}$ [[basis]] $\{\mathbf{i},\mathbf{j},\mathbf{k}\}$:
@@ -36,7 +36,7 @@ which gives us
 $$R_{1}=c(\mathbf{a}\mathbf{a}^{T}+\mathbf{b}\mathbf{b}^{T})+s(\mathbf{b}\mathbf{a}^{T}-\mathbf{a}\mathbf{b}^{T})+\mathbf{d}\mathbf{d}^{T}\tag{1}$$
 where all the $\mathbf{x}\mathbf{x}^{T}$ are $3\times3$ matrices. This allows us to calculate $R_{1}$, though at the cost of having to define $\mathbf{a}$ and $\mathbf{b}$. Still, there is a more convenient form that can be derived to remove this dependency as, intuitively, a rotation is independent of which vectors on the plane you refer it to.
 
-The vector $\mathbf{v}$ that's being rotated is represented in $\{\mathbf{a},\mathbf{b},\mathbf{d}\}$ as linear combination of the basis vectors:
+The vector $\mathbf{v}$ that's being rotated is represented in $\{\mathbf{a},\mathbf{b},\mathbf{d}\}$ as a [[linear combination]] of the basis vectors:
 $$\mathbf{v}=(\mathbf{a}\cdot \mathbf{v})\mathbf{a}+(\mathbf{b}\cdot\mathbf{v})\mathbf{b}+(\mathbf{d}\cdot\mathbf{v})\mathbf{d}=\alpha\mathbf{a}+\beta\mathbf{b}+\delta\mathbf{d}\tag{2}$$
 A couple of useful vectors are
 $$\mathbf{d}\times\mathbf{v}=-\beta\mathbf{a}+\alpha\mathbf{b}, \quad \mathbf{d}\times(\mathbf{d}\times\mathbf{v})=-\alpha\mathbf{a}-\beta\mathbf{b}$$
@@ -60,7 +60,7 @@ We can combine all these relations to find $R_{1}$ from $(1)$:
 $$\boxed{R_{1}=I+\sin\theta D+(1-\cos\theta)D^{2}}\tag{4}$$
 In this form, the rotation matrix is independent from the choice of $\mathbf{a}$ and $\mathbf{b}$ when applied to a vector. In fact
 $$R_{1}\mathbf{v}=I\mathbf{v}+sD\mathbf{v}+(1-c)D^{2}\mathbf{v}=\mathbf{v}+s\mathbf{d}\times\mathbf{v}+(1-c)\mathbf{d}\times(\mathbf{d}\times\mathbf{v})$$
-### Exponentiation
+### Rotation vector spaces
 It is possible to take the exponential of a matrix by using the [[serie|series]] definition
 $$\exp(x)=\sum_{n=0}^{\infty} \frac{x^{n}}{n!}$$
 This has some interesting effects in the context of rotations. Consider the most general antisymmetric $2\times 2$ matrix:
@@ -70,19 +70,23 @@ $$\mathrm{A}=\begin{pmatrix}
 \end{pmatrix}=\alpha \begin{pmatrix}
 0 & -1 \\
 1 & 0
-\end{pmatrix}$$
+\end{pmatrix}=\alpha \mathrm{E}$$
 The exponential is
-$$\exp \mathrm{A}=\hat{1}+\sum_{n=1}^{\infty} \frac{\mathrm{A}^{n}}{n!}=\sum_{n=0}^{\infty} \frac{\mathrm{A}^{2m}}{(2m)!}+\sum_{m=0}^{\infty} \frac{\mathrm{A}^{2m+1}}{(2m+1)!}=\hat{1}\underbrace{ \sum_{m=0}^{\infty} \frac{(-1)\alpha^{2m}}{(2m)!} }_{ \cos \alpha }+\mathrm{E}\underbrace{ \sum_{m=0}^{\infty} \frac{(-1)^{m}\alpha^{2m-1}}{(2m+1)!} }_{ \sin \alpha }$$
-where we used that $\mathrm{A}^{2m}=(-1)^{m}\alpha^{2m}\hat{1}$ and $\mathrm{A}^{2m+1}=\mathrm{A}^{2m}\mathrm{A}=(-1)^{m}\alpha^{2m+1}\mathrm{E}$ and the series definitions of sine and cosine. As such, in the most general case, the exponential of an antisymmetric matrix is
-$$\exp \mathrm{A}=\cos \alpha \ \hat{1}+\sin \alpha\  \mathrm{E}=\begin{pmatrix}
+$$\begin{align}
+\exp \mathrm{A}&=\mathrm{I}+\sum_{n=1}^{\infty} \frac{\mathrm{A}^{n}}{n!} \\
+&=\sum_{n=0}^{\infty} \frac{\mathrm{A}^{2m}}{(2m)!}+\sum_{m=0}^{\infty} \frac{\mathrm{A}^{2m+1}}{(2m+1)!} \\
+&=\mathrm{I}\underbrace{ \sum_{m=0}^{\infty} \frac{(-1)^{m}\alpha^{2m}}{(2m)!} }_{ \cos \alpha }+\mathrm{E}\underbrace{ \sum_{m=0}^{\infty} \frac{(-1)^{m}\alpha^{2m+1}}{(2m+1)!} }_{ \sin \alpha }
+\end{align}$$
+where we used that $\mathrm{A}^{2m}=(-1)^{m}\alpha^{2m}\mathrm{I}$ and $\mathrm{A}^{2m+1}=\mathrm{A}^{2m}\mathrm{A}=(-1)^{m}\alpha^{2m+1}\mathrm{E}$ and the [[sine and cosine series]]. As such, in the most general case, the exponential of an antisymmetric matrix is
+$$\exp \mathrm{A}=\cos \alpha \ \mathrm{I}+\sin \alpha\  \mathrm{E}=\begin{pmatrix}
 \cos \alpha & -\sin \alpha \\
 \sin \alpha & \cos \alpha
 \end{pmatrix}=R(\alpha)$$
-Evidently, all finite rotations are exponentials of the antisymmetric matrix $\mathrm{E}$, weighed by some factor $\alpha$. We can therefore represent them as
+Evidently, all (finite) rotations are exponentials of the antisymmetric matrix $\mathrm{E}$, weighed by some factor $\alpha$. We can therefore represent them as
 $$\boxed{R(\alpha)=e^{\alpha \mathrm{E}}}$$
-Since all rotations are exponentials of $\mathrm{E}$, we say that $\mathrm{E}$ is the **generator** of $SO(2)$. In fact, antisymmetric matrices form a [[vector space]] (sum and scalar multiplication are both defined and closed) and $\mathrm{E}$ forms a [[basis]] of this space. Thus, any rotation is also a [[linear combination]] of basis elements. In 2D this is just $\mathrm{E}$, but this provides straight-forward extensions to $N$-dimensional rotations by extending the basis so that it generates $SO(N)$.
+Since all rotations are exponentials of $\mathrm{E}$, we say that $\mathrm{E}$ is the **generator** of $SO(2)$. In fact, antisymmetric matrices form a [[vector space]] (sum and scalar multiplication are both defined and closed) and $\mathrm{E}$ forms a [[basis]] of this space. Thus, any rotation is also a [[linear combination]] of basis elements. In 2D the basis is just $\{ \mathrm{E} \}$, but in $N$-dimensional spaces this provides an easy extension of the definition of rotation: just add more elements to the basis so that it generates $SO(N)$.
 
-The number of generators, that is elements in the basis, is $N(N-1)/2$. In $N=3$ we have $3$ generators and these are
+The number of generators, that is elements in the basis, is found to be $N(N-1)/2$. In $N=3$ we have $3$ generators and these are
 $$\mathrm{E}_{1}=\begin{pmatrix}
 0 & 0 & 0 \\
 0 & 0 & -1 \\
@@ -97,13 +101,13 @@ $$\mathrm{E}_{1}=\begin{pmatrix}
 0 & 0 & 0
 \end{pmatrix}$$
 A generic infinitesimal rotation $\Omega$ is given by
-$$\Omega=\sum_{i=1}^{3} \omega_{i}\mathrm{E}_{i}=\begin{pmatrix}
+$$\boxed{\Omega=\sum_{i=1}^{3} \omega_{i}\mathrm{E}_{i}=\begin{pmatrix}
 0 & -\omega_{3} & \omega_{2} \\
 \omega_{3} & 0 & -\omega_{1} \\
 -\omega_{2} & \omega_{1} & 0
-\end{pmatrix}$$
-For example, the third rotation $R_{3}$ is
-$$R_{3}=\exp(\omega_{3}\mathrm{E}_{3})=\exp\begin{pmatrix}
+\end{pmatrix}}$$
+For example, the rotation $R_{3}$ is given by the exponential of $\mathrm{E}_{3}$
+$$R_{3}=e^{ \omega_{3}\mathrm{E}_{3} }=\exp\begin{pmatrix}
 0 & -\omega_{3} & 0 \\
 \omega_{3} & 0 & 0 \\
 0 & 0 & 0
@@ -112,34 +116,58 @@ $$R_{3}=\exp(\omega_{3}\mathrm{E}_{3})=\exp\begin{pmatrix}
 \sin \omega_{3} & \cos \omega_{3} & 0 \\
 0 & 0 & 1
 \end{pmatrix}$$
-But this is just a 2D rotation around an axis, specifically the third axis. We can find the same thing for $R_{1}$ and $R_{2}$ too. Evidently, then, $R_{i}$ is the rotation around the $i$-th axis and any rotation is a combination of rotations around the axes. Intuitively, this makes sense: rotating something on a "diagonal" is like rotating it "horizontally" and then "vertically".
+But this is just a 2D rotation around an axis, specifically around the $z$ axis. The same can be found for $R_{1}$ and $R_{2}$ too, which end up being rotations around the $x$ and $y$ axes. Evidently, then, $R_{i}$ is the rotation around the $i$-th axis. A *generic* rotation can then be described as a [[linear combination]] of basis rotations, just like how a vector is a linear combination of basis vectors (again, rotations constitute a vector space).
+$$\boxed{R=e^{ \sum_{i=1}^{N}\omega_{i}\mathrm{E}_{i} }=\prod_{i=1}^{N} e^{\omega_{i}\mathrm{E}_{i}}}$$
+Intuitively, this makes sense: rotating something on a "diagonal" is like rotating it "horizontally" and then "vertically".
 
-By noticing that the $\mathrm{E}_{i}$ is defined by the [[Tensore di Levi-Civita|Levi-Civita tensor]] $\epsilon_{ijk}$ as $(\mathrm{E}_{i})_{jk}=-\epsilon_{ijk}$ , it is possible to define a 2D infinitesimal rotation in 3D space as
-$$\Omega_{ij}=-\sum_{k=1}^{3} \epsilon_{ijk}\omega_{k}$$
-The infinitesimal variation of a vector subject to this rotation is
-$$\delta v_{i}=\sum_{j=1}^{3} \Omega_{ij}v_{j}=-\sum_{j,k=1}^{3} \epsilon_{ijk}v_{j}\omega_{k}=\sum_{j,k=1}^{3} \epsilon_{ikj}\omega_{k}v_{j}=(\boldsymbol{\omega}\times \mathbf{v})_{i}$$
-Putting components together, we can say that in general, $\boldsymbol{\omega}\times \mathbf{v}$ is the variation of $\mathbf{v}$ under an infinitesimal rotation of angle $\lvert \boldsymbol{\omega} \rvert$ around an axis parallel to $\boldsymbol{\omega}$. The [[norm]] of this variation is
+Look for a moment at the $\mathrm{E}$ basis matrices. They all have the same blueprint: antisymmetric, all zeros on the diagonal and exactly a single pair of $1$ and $-1$, with one matrix for every entry outside of the diagonal. For one, this gives proof on why the number of basis elements is what it is: the number of nondiagonal entries in an $N\times N$ matrix is precisely $N(N-1)/2$. But more than that, it gives us a way to formalize how this basis is built, which is through the [[Tensore di Levi-Civita|Levi-Civita tensor]] $\epsilon_{ijk}$. For instance, in 3D each basis matrix $i$ is defined by its elements $(\mathrm{E}_{i})_{jk}=-\epsilon_{ijk}$. A generic rotation basis then is just the application of the Levi-Civita tensor in whatever dimension you need.
+
+Infinitesimal rotations are hence defined in a similar manner. In 3D:
+$$\boxed{\Omega_{ij}=-\sum_{k=1}^{3} \epsilon_{ijk}\omega_{k}}$$
+This permits a more refined analysis of what infinitesimal rotations even do. The variation of a vector $v$ subject to such a rotation must then be
+$$\delta v_{i}=\sum_{j=1}^{3} \Omega_{ij}v_{j}=-\sum_{j,k=1}^{3} \epsilon_{ijk}\omega_{k}v_{j}=\sum_{j,k=1}^{3} \epsilon_{ikj}\omega_{k}v_{j}=(\boldsymbol{\omega}\times \mathbf{v})_{i}$$
+using $\epsilon_{ijk}=-\epsilon_{ikj}$ and the tensor definition of the [[vector product#Tensor representation|vector product]]. Putting components together we can say that, in general, $\boldsymbol{\omega}\times \mathbf{v}$ is the variation of $\mathbf{v}$ under an infinitesimal rotation of angle $\lvert \boldsymbol{\omega} \rvert$ around an axis parallel to $\boldsymbol{\omega}$. The [[norm]] of this variation is
 $$\lvert \delta \mathbf{v} \rvert =\lvert \boldsymbol{\omega}\times \mathbf{v} \rvert =\lvert \boldsymbol{\omega} \rvert \lvert \mathbf{v} \rvert \sin \theta=\lvert \boldsymbol{\omega} \rvert \lvert \mathbf{v}_{\perp} \rvert $$
 
-To further analyze $\mathrm{E}_{i}$, we can calculate the [[Commutator]] between the $\mathrm{E}_{i}$ and $\mathrm{E}_{j}$:
+To further analyze $\mathrm{E}_{i}$, we can calculate the [[commutator]] between the $\mathrm{E}_{i}$ and $\mathrm{E}_{j}$:
 $$[\mathrm{E}_{i},\mathrm{E}_{j}]=\mathrm{E}_{i}\mathrm{E}_{j}-\mathrm{E}_{j}\mathrm{E}_{i}$$
 We need to figure out the product between these matrices:
-$$(\mathrm{E}_{i}\mathrm{E}_{j})_{mn}=\sum_{p=1}^{3} (\mathrm{E}_{i})_{mp}(\mathrm{E}_{j})_{pn}=\sum_{p=1}^{3} \epsilon_{imp}\epsilon_{ipn}=-\sum_{p=1}^{3} \epsilon_{imp}\epsilon_{jnp}=-[\delta_{ij}\delta_{mn}-\delta_{in}\delta_{mj}]$$
+$$(\mathrm{E}_{i}\mathrm{E}_{j})_{mn}=\sum_{k=1}^{3} (\mathrm{E}_{i})_{mk}(\mathrm{E}_{j})_{kn}=\sum_{k=1}^{3} \epsilon_{imk}\epsilon_{ikn}=-\sum_{k=1}^{3} \epsilon_{imk}\epsilon_{jnk}=-(\delta_{ij}\delta_{mn}-\delta_{in}\delta_{mj})$$
 using the [[Delta di Dirac|Dirac delta]]. The commutator components then are
-$$([\mathrm{E}_{i},\mathrm{E}_{j}])_{mn}=\ldots=(\mathrm{E}_{k})_{mn}$$
-(TODO: Finish this; end of lesson 03/04/2025)
-The whole commutator then is
-$$[\mathrm{E}_{i},\mathrm{E}_{j}]=\sum_{k=1}^{3} \epsilon_{ijk}\mathrm{E}_{k}$$
-### Conservation
-Consider a 3D rotation around an axis parallel to $\boldsymbol{\omega}$. We can write this is as the exponential of a linear combination of generators:
-$$\exp\left( \alpha \sum_{i=1}^{3} \hat{\boldsymbol{\omega}}_{i}\mathrm{E}_{i} \right)$$
-where $\hat{\boldsymbol{\omega}}=\boldsymbol{\omega}/\lvert \boldsymbol{\omega} \rvert$ We define the [[coordinate transformation]]
+$$([\mathrm{E}_{i},\mathrm{E}_{j}])_{mn} = (\mathrm{E}_{i}\mathrm{E}_{j})_{mn} - (\mathrm{E}_{j}\mathrm{E}_{i})_{mn} = -\left(\delta_{ij}\delta_{mn} - \delta_{in}\delta_{mj}\right) + \left(\delta_{ji}\delta_{mn} - \delta_{jn}\delta_{mi}\right)$$
+Simplify:
+$$
+[\mathrm{E}_{i},\mathrm{E}_{j}]_{mn} = \delta_{in}\delta_{mj} - \delta_{jn}\delta_{mi} = \sum_{k=1}^{3} \epsilon_{ijk} (\mathrm{E}_k)_{mn}
+$$
+You can verify that each component $[\mathrm{E}_i, \mathrm{E}_j]_{mn}$ is actually an entry of $\mathrm{E}_k$ weighted by $\epsilon_{ijk}$. In particular, the commutator simplifies to:
+$$\boxed{[\mathrm{E}_{i},\mathrm{E}_{j}] = \sum_{k=1}^{3} \epsilon_{ijk} \mathrm{E}_{k}}$$
+This gives a compact formula for the commutator of the generators of rotation. This might seem insignificant, but the fact is that we now have a well-behaved commutator in the vector space of rotations. This means that it's not any old vector space, but specifically it's a [[Lie algebra]]. This provides access to all of the machinery specific to Lie algebras and helps to study the special orthogonal groups such as $SO(3)$.
+### Conservation of angular momentum
+Rotations have a connection of fundamental importance to the conservation of [[angular momentum]]. We'll use the [[Lagrangian]] formalism for this proof, but this fact is true in general regardless of formalism.
+
+Consider a 3D rotation $R$ around an axis parallel to $\boldsymbol{\omega}$ and write it as the exponential of a linear combination of generators as above:
+$$R=\exp\left( \alpha \sum_{i=1}^{3} \hat{\boldsymbol{\omega}}_{i}\mathrm{E}_{i} \right)$$
+where $\hat{\boldsymbol{\omega}}=\boldsymbol{\omega}/\lvert \boldsymbol{\omega} \rvert$. We define the [[coordinate transformation]]
 $$\varphi(q,\alpha)=e^{\alpha \sum_{i=1}^{3} \hat{\boldsymbol{\omega}}_{i}\mathrm{E}_{i}}\mathbf{q}$$
 We can take the derivative of this in $\alpha$ to find
-$$\frac{ \partial \varphi }{ \partial \alpha }(q,\alpha)=\left( \sum_{i=1}^{3} \hat{\boldsymbol{\omega}}_{i}\mathrm{E}_{i} \right)e^{\alpha \sum_{i=1}^{3} \hat{\boldsymbol{\omega}}_{i}\mathrm{E}_{i}}\mathbf{q} $$
-When evaluated in $\alpha=0$ we get
+$$\frac{ \partial \varphi }{ \partial \alpha }(q,\alpha)=\left( \sum_{i=1}^{3} \hat{\boldsymbol{\omega}}_{i}\mathrm{E}_{i} \right)e^{\alpha \sum_{i=1}^{3} \hat{\boldsymbol{\omega}}_{i}\mathrm{E}_{i}}\mathbf{q}$$
+The sum in parenthesis is an infinitesimal rotation. When evaluated in $\alpha=0$ we get
 $$\frac{ \partial \varphi }{ \partial \alpha } (q,0)=\left( \sum_{i=1}^{3} \hat{\boldsymbol{\omega}}_{i}\mathrm{E}_{i} \right)\mathbf{q}$$
-(TODO: Finish this end of lesson 03/04/2025, there's an application of [[Nöther's theorem]] here somewhere later)
+Now, assuming the Lagrangian $\mathcal{L}(\mathbf{q}, \dot{\mathbf{q}})$ is [[Transformation invariance|invariant]] under this rotation, we can invoke [[Nöther's theorem]] to guarantee the existence of a [[constant of motion]]:
+$$\sum_j \frac{\partial \mathcal{L}}{\partial \dot{q}_j}\frac{\partial \varphi_j}{\partial \alpha} (q, 0)$$
+Substituting $\frac{ \partial \varphi }{ \partial \alpha } (q,0)$ gives
+$$\sum_{j, k}  \frac{\partial \mathcal{L}}{\partial \dot{q}_j}  \left( \sum_{i=1}^{3} \hat{\boldsymbol{\omega}}_i  (\mathrm{E}_i)_{jk} q_k \right)$$
+This can be rearranged as
+$$\sum_{i=1}^{3} \hat{\boldsymbol{\omega}}_i  \sum_{j, k}  p_j (\mathrm{E}_i)_{jk} q_k$$
+Here, $p_j = \frac{\partial \mathcal{L}}{\partial \dot{q}_j}$ is the [[Conjugate momenta|conjugate momentum]] and $(\mathrm{E}_i)_{jk}$ is the $j, k$-th component of the $i$-th rotation generator.
+
+In vector form, recognize that
+$$\sum_{j, k} p_j (\mathrm{E}_i)_{jk} q_k = \mathbf{p}^T \mathrm{E}_i \mathbf{q} = (\mathbf{p} \times \mathbf{q})_i = (\mathbf{L})_i$$
+where $\mathbf{L}$ is the angular momentum. The conserved quantity becomes:
+$$\sum_{i=1}^{3} \hat{\boldsymbol{\omega}}_i L_i = \hat{\boldsymbol{\omega}} \cdot \mathbf{L} = L_\omega$$
+which is the projection of the total angular momentum onto the rotation axis $\hat{\boldsymbol{\omega}}$.
+
+This is an universally important fact: if the Lagrangian (or [[Hamiltonian]] for that matter) is invariant under rotation on an axis, then angular moment is conserved on that axis. This is true *always* as long as rotation invariance persists and in fact, for [[Physical system|isolated systems]], there is no restriction on what the axis is, which means that *all* angular momentum is conserved in such a system. This is one of the several important manifestations of Nöther's theorem.
 ### Specific cases
 #### Circular motion
 If the axis $\mathbf{D}$ is fixed and the distance is a constant $r_{0}$, the coordinate system can be chosen to be [[Polar coordinates]] or [[Cylindrical coordinates]] depending on dimensions. If cylindrical, the plane of rotation should be the plane of reference, with the axis of rotation being the $z$-axis.
@@ -171,7 +199,7 @@ $(5)$ and $(6)$ equations tell us the rate of change for the rotation in terms o
 Equipped with these, let's consider an actually moving axis $\mathbf{D}(t)$. Using $(4)$, the rotation matrix corresponding to this vector for angle of rotation $\theta(t)$ is
 $$R(t)=I+C(\mathbf{D}(t))\sin(\theta(t))+C(\mathbf{D}(t))^{2}(1-\cos(\theta(t)))\tag{7}$$
 which acts like
-$$\boxed{\mathbf{r(t)}=R(t)\mathbf{r}_{0}}$$
+$$\boxed{\mathbf{r}(t)=R(t)\mathbf{r}_{0}}$$
 The linear velocity is given by $(5)$.
 
 For a rotation matrix, $I=RR^{T}$, so taking the time derivative
