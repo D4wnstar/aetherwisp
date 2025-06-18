@@ -15,7 +15,7 @@ The benefit of using a set of Lagrange equations over a set of [[Newton's laws|N
 ### Validity
 This equation is correct *point-wise*, for each $t\in \mathbb{R}^{+}$, and for this reason it is said that the Lagrange equation describes motion **locally** (as opposed to globally). See [[Global motion]].
 ### Velocity-dependent forces
-Many [[force|forces]] do not depend on velocity. Examples including the force applied by gravity or the spring pullback force. In these cases, the generalized forces, which inherits arguments from the regular forces, also do not. In other cases though, such as [[friction]] or the [[Lorentz force]], the forces depend explicitly on velocity and the signature becomes $Q_{j}\equiv Q_{j}(q(t),\dot{q}(t),t)$ with the force itself being
+Many [[force|forces]] do not depend on velocity. Examples including the force applied by gravity or the spring pullback force. In these cases, the generalized forces, which inherits arguments from the regular forces, also do not. In other cases though, such as [[friction]] or the [[Lorentz force]], the forces depend explicitly on velocity and the function signature becomes $Q_{j}\equiv Q_{j}(q(t),\dot{q}(t),t)$ with the force itself being
 $$Q_{j}=\frac{d}{dt} \frac{ \partial V }{ \partial \dot{q}_{j} } (q,t)-\frac{ \partial V }{ \partial q_{j} } (q,t)$$
 See the examples below on the Coriolis force, inertial frames and electromagnetic forces for practical results on this.
 ### Kinetic energy
@@ -27,7 +27,7 @@ As for the other derivative, it's a little more complicated:
 $$\frac{ \partial T }{ \partial \dot{q}_{m} } =\frac{1}{2}\sum_{j,k=1}^{n} a_{jk}\underbrace{ \frac{ \partial \dot{q}_{j} }{ \partial \dot{q}_{m} } }_{ \delta_{jm} }\dot{q}_{k}+ \frac{1}{2}\sum_{j,k=1}^{n} a_{jk}\dot{q}_{j}\underbrace{ \frac{ \partial \dot{q}_{k} }{ \partial \dot{q}_{m} } }_{ \delta_{km} } +\sum_{l=1}^{n} b_{l}\underbrace{ \frac{ \partial \dot{q}_{l} }{ \partial \dot{q}_{m} } }_{ \delta_{lm} } =\ldots$$
 where we used [[Kronecker delta|Kronecker deltas]]. These allows us to cut down on the sums:
 $$\ldots=\frac{1}{2}\sum_{k=1}^{n} a_{mk}\dot{q}_{k}+ \frac{1}{2}\sum_{j=1}^{n} a_{jm}\dot{q}_{j}+b_{m}=\ldots$$
-If we rename the second sum's index from $j$ to $k$ and remember that the [[matrix]] $a$ is [[Matrice simmetrica|symmetric]], we can write $a_{jm}\to a_{km}=a_{mk}$, which leads to the exact same sum as the first. Summing the two we get
+If we rename the second sum's index from $j$ to $k$ and remember that the [[matrix]] $\mathrm{a}$ is [[Matrice simmetrica|symmetric]], we can write $a_{jm}\to a_{km}=a_{mk}$, which leads to the exact same sum as the first. Summing the two we get
 $$\ldots=\sum_{k=1}^{n} a_{mk}(q,t)\dot{q}_{k}+b_{m}(q,t)$$
 We now need to take the time derivative:
 $$\frac{d}{dt} \frac{ \partial T }{ \partial \dot{q}_{m} } =\sum_{k,h=1}^{n} \frac{ \partial a_{mk} }{ \partial q_{h} } \dot{q}_{h}\dot{q}_{k}+\sum_{k=1}^{n} a_{mk}\ddot{q}_{k}+\sum_{h=1}^{n} \frac{ \partial b_{m} }{ \partial q_{h} } \dot{q}_{h}$$
@@ -37,17 +37,17 @@ All of the partial derivatives of $a$, $b$ and $c$, alongside the generalized fo
 $$\sum_{k=1}^{n} a_{mk}(q(t),t)\ddot{q}_{k}(t)=f_{m}(q(t),\dot{q}(t),t)$$
 where $f_{m}$ is a function that includes everything other than the $a_{mk}$ term. This is still a second order differential equation, just implicitly so since $\ddot{q}$ is "trapped" inside the sum. The left hand side now reads as a matrix product between the matrix $\mathrm{a}$ and the vector $\ddot{\mathbf{q}}$, so we can write
 $$\mathrm{a}\ddot{\mathbf{q}}=f$$
-To continue, we'll apply the [[Invertible matrix|inverse matrix]] of $\mathrm{a}$ on both sides: $\mathrm{a}^{-1}\mathrm{a}\ddot{\mathbf{q}}=\mathrm{a}^{-1}f$. Since $\mathrm{a}^{-1}\mathrm{a}=1$, we get
+To continue, we'll apply the [[Invertible matrix|inverse matrix]] of $\mathrm{a}$ on both sides: $\mathrm{a}^{-1}\mathrm{a}\ddot{\mathbf{q}}=\mathrm{a}^{-1}f$. Since $\mathrm{a}^{-1}\mathrm{a}=\mathrm{I}$, we get
 $$\boxed{\ddot{\mathbf{q}}=\mathrm{a}^{-1}f(q,\dot{q},t)}$$
 We now have the same equation in explicit form. What this tells us is that we can, at least in principle, find the motion from the inverse of the kinetic matrix applied onto a (vector-valued) function $f$. Our next step then is to better understand what $f$ is.
 ### Examples
 > [!example] Harmonic oscillator
 > As always, the [[harmonic oscillator]] is the test bench for everything, and we'll use it to check if the Lagrange equation really works. The kinetic energy is simply $T(q,\dot{q},t)=\frac{1}{2}m \dot{q}^{2}$. The potential is also well known to be $V(q,t)=\frac{1}{2}m\omega ^{2}q^{2}$. The Lagrangian then is
 > $$L(q,\dot{q},t)=\frac{1}{2}m\dot{q}^{2}- \frac{1}{2}m\omega ^{2}q^{2}$$
-> If the Lagrange equation is to be believed, this quantity contains the entire dynamics of the system, which we can extract by solving its Lagrange equations. To find it, we'll need some derivatives:
+> If the Lagrange equation is to be believed, this quantity contains the entire dynamics of the system, which we can extract by solving its Lagrange equations. To find it, we'll need the derivatives
 > $$\frac{ \partial L }{ \partial q } =-m\omega ^{2}q,\quad \frac{ \partial L }{ \partial \dot{q} } =m \dot{q}$$
-> We now need to compose these with motion and take the time derivative of the second:
-> $$\frac{ \partial L }{ \partial q } (q(t),\dot{q}(t),t)=-m\omega ^{2}q(t),\quad\frac{d}{dt} \frac{ \partial L }{ \partial \dot{q} }(q(t),\dot{q}(t),t) =\frac{d}{dt} (m\dot{q}(t))=m\ddot{q}(t)$$
+> We now need to take the time derivative of the second:
+> $$\frac{d}{dt} \frac{ \partial L }{ \partial \dot{q} }=\frac{d}{dt} (m\dot{q})=m\ddot{q}$$
 > Hence the equation
 > $$\frac{d}{dt} \frac{ \partial L }{ \partial \dot{q} } -\frac{ \partial L }{ \partial q }=0 \quad\Rightarrow \quad m\ddot{q}+m\omega ^{2}q=0\quad\Rightarrow \quad \ddot{q}=-\omega ^{2}q$$
 > which is the well known harmonic oscillator equation.
@@ -153,7 +153,7 @@ $$V(q,\dot{q})=e\phi-e \dot{\mathbf{q}}\cdot \mathbf{A}$$
 > where we also switched to [[cylindrical coordinates]].
 
 > [!example] Spherical pendulum
-> We'll now use another oscillating system: a spherical pendulum, which is a [[simple pendulum]] that's constrained to remain on a sphere, instead of a circle. In plain English, it's a pendulum that swings in 2D. The position vector $\mathbf{r}(q)$ only needs two free coordinates, as that's the minimum to identify a point on a [[surface]] (which a sphere is). We'll use the angles $\theta$ and $\phi$ on a sphere of radius $R$.
+> We'll now use another oscillating system: a spherical pendulum, which is a [[simple pendulum]] that's constrained to remain on a [[sphere]], instead of a [[circle]]. In plain English, it's a pendulum that swings in 3D. The position vector $\mathbf{r}(q)$ only needs two free coordinates, as that's the minimum to identify a point on a [[surface]] (which a sphere is). We'll use the angles $\theta$ and $\phi$ on a sphere of radius $R$.
 > ![[Diagram Spherical pendulum]]
 > 
 > We want to express $x,y,z$ in terms of $\theta,\phi$. This is just the usual [[coordinate transformation]] from [[spherical coordinates]]:
@@ -186,17 +186,17 @@ $$V(q,\dot{q})=e\phi-e \dot{\mathbf{q}}\cdot \mathbf{A}$$
 > which leads to
 > $$mR^{2}\ddot{\theta}=mR^{2}\sin \theta \cos \theta \phi ^{2}+mgR\sin \theta$$
 > Dividing through by $mR^{2}$ we get
-> $$\ddot{\theta}=\sin \theta \cos \theta \phi ^{2}+ \frac{g}{R}\sin \theta$$
+> $$\boxed{\ddot{\theta}=\sin \theta \cos \theta \phi ^{2}+ \frac{g}{R}\sin \theta}$$
 > Doing the same thing for $\phi$ gives
 > $$\frac{ \partial L }{ \partial \phi } =0,\quad \frac{ \partial L }{ \partial \dot{\phi} } =mR^{2}\sin ^{2}\theta \dot{\phi},\quad \frac{d}{dt} \frac{ \partial L }{ \partial \dot{\phi} } =2mR^{2}\sin \theta \cos \theta \dot{\theta}\dot{\phi}+mR^{2}\sin ^{2}\theta \ddot{\phi}$$
 > and so
 > $$mR^{2}\sin ^{2}\theta \ddot{\phi}=-2mR^{2}\sin \theta \cos \theta \dot{\theta}\dot{\phi}$$
 > Dividing through by $mR^{2}\sin ^{2}\theta$ gives
-> $$\ddot{\phi}=-2\cot \theta \dot{\theta}\dot{\phi}$$
-> When solved, these two equations provide the motion in both coordinates. We can then use the coordinate transformation to convert to $x,y,z$.
+> $$\boxed{\ddot{\phi}=-2\cot \theta \dot{\theta}\dot{\phi}}$$
+> When solved, these two equations provide the motion in both coordinates. We can then use the coordinate transformation to convert to $x,y,z$. Note how these equations depend on each other, since $\phi$ appears in the $\ddot{\theta}$ equation and $\theta$ appears in $\ddot{\phi}$. These are so-called *coupled* equations and they are generally very difficult, if possible, to solve by hand. A [[numerical integration]] method is often needed.
 
-> [!example] Spring pendulum
-> In this example, we'll analyze how a spring interacts with gravity. Consider a point mass attached to the $x$ axis by a spring of some elastic constant that always remains exactly vertical. Gravity pulls the mass down. Crucially, the spring is allowed to slide over the $x$ axis: thing of it like a clothes hanger on a metal pipe of sorts.
+> [!example] Pendulum with a spring joint
+> In this example, we'll analyze how a spring interacts with gravity. Consider a point mass attached to the $x$ axis by a spring of some elastic constant that always remains exactly vertical. Gravity pulls the mass down. Crucially, the spring is allowed to slide over the $x$ axis: thing of it like a coat hanger on a metal pipe of sorts.
 > 
 > ![[Diagram Spring pendulum]]
 > 
@@ -240,7 +240,7 @@ $$V(q,\dot{q})=e\phi-e \dot{\mathbf{q}}\cdot \mathbf{A}$$
 > 
 > ![[Plot Spring pendulum equilibrium points|80%]]
 > 
-> The two $q^{*}$ points split in the middle as the parameter $mg/kl$ goes lower. This shape is called a **bifurcation** and this graph allows us to get an idea of how the potential looks like by tracing a vertical line anywhere in the graph to fix any one $mg/kl$. Since stable points are potential minima and unstable ones are potential maxima, our potential has two behaviors. When $mg/kl\geq1$, it's a rather typical parabola, with maxima at $q=\pm \pi$ and minima at $q=0$; about what you'd expect from the usual pendulum. But when the spring gets rigid enough, $mg/kl<1$ and we start to see the characteristic behavior of this pendulum. The vertical is no longer a stable equilibrium point, so the two new "oblique" equilibrium points $\pm q^{*}$ come in as the "replacement" minima. This gives the potential *two* valleys with an additional central peak at $q=0$.
+> The two $q^{*}$ points split in the middle as the parameter $mg/kl$ goes lower. This shape is called a **[[bifurcation]]** and this graph allows us to get an idea of how the potential looks like by tracing a vertical line anywhere in the graph to fix any one $mg/kl$. Since stable points are potential minima and unstable ones are potential maxima, our potential has two behaviors. When $mg/kl\geq1$, it's a rather typical parabola, with maxima at $q=\pm \pi$ and minima at $q=0$; about what you'd expect from the usual pendulum. But when the spring gets rigid enough, $mg/kl<1$ and we start to see the characteristic behavior of this pendulum. The vertical is no longer a stable equilibrium point, so the two new "oblique" equilibrium points $\pm q^{*}$ come in as the "replacement" minima. This gives the potential *two* valleys with an additional central peak at $q=0$.
 
 [^1]: $q(t)$ and $\dot{q}(t)$ are implicit in $T$, whereas $\ddot{q}(t)$ appears when taking the time derivative in the first term.
 [^2]: For instance, for a centrifugal force we have $V(q)=- \frac{1}{2}m\omega ^{2}d^{2}(q)$. 

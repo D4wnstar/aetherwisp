@@ -1,4 +1,4 @@
-Il **metodo variazionale** è un metodo usato spesso per trovare le energie e autofunzioni di un'[[Hamiltoniana]] $H$ indipendente dal tempo. Consideriamo una funzione $\phi$ che può variare liberamente. Allora definiamo il funzionale
+Il **metodo variazionale** è un metodo usato spesso per trovare le energie e autofunzioni di un'[[Hamiltonian]] $H$ indipendente dal tempo. Consideriamo una funzione $\phi$ che può variare liberamente. Allora definiamo il funzionale
 $$E(\phi)=\frac{\langle \phi|E |\phi\rangle}{\langle \phi|\phi\rangle}$$
 che è il valore di aspettazione di $E$ nello stato $\phi$ normalizzato per $\langle \phi|\phi\rangle=|\phi|^{2}$. Se $\phi$ è un [[autostato]], $E(\phi)$ è un autovalore di energia. Ogni funzione per cui $E(\phi)$ è stazionaria, ossia $dE(\phi)/d\phi=0$, è un'autofunzione di $H$.
 

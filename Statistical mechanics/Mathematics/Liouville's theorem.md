@@ -6,7 +6,7 @@ wiki-publish: true
 > [!info] Liouville's theorem (statistical mechanics)
 > Consider an [[ensemble]] with density function $\rho(q,p,t)$. The density function obeys the following equality:
 > $$\frac{d\rho}{dt}=\frac{ \partial \rho }{ \partial t } +\sum_{i=1}^{3N} \left( \frac{ \partial \rho }{ \partial p_{i} } \dot{p}_{i}+ \frac{ \partial \rho }{ \partial q_{i} } \dot{q}_{i} \right)=\frac{ \partial \rho }{ \partial t } +\{ \rho,H \}=0$$
-> where the curly braces are [[Poisson brackets|Poisson brackets]] between $\rho$ and the [[Hamiltoniana|Hamiltonian]]. Alternatively, we can write
+> where the curly braces are [[Poisson brackets|Poisson brackets]] between $\rho$ and the [[Hamiltonian|Hamiltonian]]. Alternatively, we can write
 > $$\frac{ \partial \rho }{ \partial t } =\{ H,\rho \}$$
 > This means that the number of representative points in [[Phase space|phase space]] is conserved, both globally and in a given volume.
 
@@ -15,7 +15,7 @@ This theorem only holds in [[conservative system|conservative systems]], i.e. sy
 An alternative and equivalent statement from analytical mechanics goes as follows:
 
 > [!info] Liouville's theorem (analytical mechanics)
-> Univalent [[Canonical transformation|canonical transformations]], and among them specifically the [[Hamilton equation|Hamiltonian flux]] $\Phi^{t}$, preserve the Euclidean volume.
+> Univalent [[Canonical transformation|canonical transformations]], and among them specifically the [[Hamilton equations|Hamiltonian flux]] $\Phi^{t}$, preserve the Euclidean volume.
 > 
 > If $A_{1}$ is the original phase space and $A_{2}=\Phi^{t}(A_{1})$ is the phase space modified by the transformation, we have $\text{vol}(A_{1})=\text{vol}(A_{2})$.
 ### Proof (statistical mechanics)
@@ -31,7 +31,7 @@ Recall that $\omega$ was completely arbitrary. We have proven that this integral
 $$\frac{ \partial \rho }{ \partial t } +\nabla\cdot\mathbf{(\rho \mathbf{v})=0}\tag{3}$$
 This is the continuity equation for representative points. The [[Divergence]], when written explicitly in this space, reads
 $$\nabla\cdot\mathbf{(\rho \mathbf{v})}=\sum_{i=1}^{3N} \left[ \frac{ \partial  }{ \partial q_{i} } (\rho \dot{q}_{i})+ \frac{ \partial  }{ \partial p_{i} } (\rho \dot{p}_{i}) \right]=\underbrace{ \sum_{i=1}^{3N} \left[ \frac{ \partial \rho }{ \partial q_{i} }\dot{q}_{i} +\frac{ \partial \rho }{ \partial p_{i} }\dot{p}_{i}  \right] }_{ \{ \rho,H \} }+\rho\sum_{i=1}^{3N} \left[ \underbrace{ \frac{ \partial \dot{q}_{i} }{ \partial q_{i} } +\frac{ \partial \dot{p}_{i} }{ \partial p_{i} } }_{ 0 }  \right]$$
-The second step is by and expanding the derivatives. By the [[Hamilton equation]] of motion, the terms in the second sum are all zero, while the first is the [[Poisson brackets]] of $\rho$ and $H$. Using this knowledge in $(3)$ we can state
+The second step is by and expanding the derivatives. By the [[Hamilton equations]] of motion, the terms in the second sum are all zero, while the first is the [[Poisson brackets]] of $\rho$ and $H$. Using this knowledge in $(3)$ we can state
 $$\frac{ \partial \rho }{ \partial t } +\{ \rho,H \}=0$$
 which completes the proof. As an additional statement, since $\rho=\rho(q,p;t)$, we can merge the former statement into the [[Teorema del differenziale totale|total differential]] of $\rho$ and state:
 $$\frac{d\rho}{dt}=0$$
@@ -48,7 +48,7 @@ where $[\cdot,\cdot]$ is the [[Commutator|commutator]] and $\hbar$ is the [[Plan
 > [!example] Damped harmonic oscillator
 > We know that Liouville's theorem only holds for conservatives systems. As a counterpoint, let's examine a non-conservative system to see what happens. Consider a [[Harmonic oscillator|damped harmonic oscillator]] (like a pendulum). It is described by $\dot{q}=p/m$ and $\dot{p}=-\gamma p-k\sin q$, where $\gamma$ is the dampening constant. We have
 > $$-\gamma=\frac{ \partial \dot{p} }{ \partial p } +\frac{ \partial \dot{q} }{ \partial q } =0 $$
-> and the [[Hamilton equation]]
+> and the [[Hamilton equations]]
 > $$\dot{p}=-\frac{ \partial H }{ \partial q } ,\qquad \dot{q}=-\frac{ \partial H }{ \partial p }$$
 > We want to check if the Liouville theorem holds and what $d\rho/dt$ is. To do so, we want to see if there exist a Hamiltonian for which the following holds:
 > $$\frac{ \partial ^{2}H }{ \partial q\partial p } =\frac{ \partial \dot{q} }{ \partial q } ,\qquad \frac{ \partial ^{2}H }{ \partial q\partial p } =\frac{ \partial \dot{p} }{ \partial p } $$

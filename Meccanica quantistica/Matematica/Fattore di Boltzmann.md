@@ -5,7 +5,7 @@ Il **fattore di Boltzmann** è un termine che compare in meccanica statistica. V
 $$e^{-\beta E}$$
 con $\beta$ la **temperatura inversa**
 $$\beta=\frac{1}{k_{B}T}$$
-e $k_{B}$ la [[Boltzmann constant]]. $E$ è l'energia del sistema, generalmente descritta come il valore dell'[[Hamiltoniana]] $E=H(q,p)$. In questo caso, abbiamo
+e $k_{B}$ la [[Boltzmann constant]]. $E$ è l'energia del sistema, generalmente descritta come il valore dell'[[Hamiltonian]] $E=H(q,p)$. In questo caso, abbiamo
 $$e^{-\beta H(q,p)}$$
 ### Oscillatore armonico
 Nel caso dell'[[Harmonic oscillator]], l'Hamiltoniana vale

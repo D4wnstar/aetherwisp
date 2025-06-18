@@ -5,7 +5,7 @@ $$\vec{E}_{T}=-\frac{\partial \vec{A}}{\partial t}\quad;\quad\vec{B}=\vec{\nabla
 Allora il potenziale vettore, risolvendo questa equazione, è
 $$A(r,t)=\sum\limits_{k,\lambda}[A_{k,\lambda}(\omega)\hat{e}_{\lambda}e^{i(kr-\omega t)}+\hat{e}A^{*}_{k,\lambda}(\omega)e^{-i(kr-\omega t)}]\tag{2}$$
 Noi vogliamo pensare al campo come una serie di fotoni discreti. Dobbiamo quindi quantizzare il campo. Per fare ciò bisogna:
-1. trovare l'[[Hamiltoniana]] $H(A(r,t))$
+1. trovare l'[[Hamiltonian]] $H(A(r,t))$
 2. trovare le variabili canoniche del campo $q$ e $p$
 3. "promuovere" variabili a [[Operatore|operatori]] e imporre regole di commutazione
 

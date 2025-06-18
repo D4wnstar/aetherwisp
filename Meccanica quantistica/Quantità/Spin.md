@@ -145,7 +145,7 @@ Una particella carica in rotazione costituisce un dipolo magnetico. Il suo [[mom
 $$\vec{\mu}=\gamma\vec{S}$$
 dove $\gamma$ è il cosiddetto **rapporto giromagnetico**. Per l'elettrone, la teoria quantistica relativistica ci dice che è (circa) $\gamma=-e/m$[^3]. Quando un dipolo magnetico è piazzato in un campo magnetico $\vec{B}$, sperimenta un momento di forza $\vec{\mu}\times\vec{B}$ che tende a orientarlo parallelamente alle linee di campo (come una bussola). L'energia dovuta a questo momento di forza è
 $$H=-\vec{\mu}\cdot\vec{B}$$
-e quindi l'[[Hamiltoniana]] di una particella carica con spin non-zero a riposo in un campo magnetico $\vec{B}$ è
+e quindi l'[[Hamiltonian]] di una particella carica con spin non-zero a riposo in un campo magnetico $\vec{B}$ è
 $$H=-\gamma\vec{B}\cdot\vec{S}$$
 Queste relazioni sono molto utili non solo per studiare la meccanica di una particella con spin noto, ma anche perché è possibile invertire queste relazioni per studiare lo spin a partire dal campo magnetico, molto più facile da manipolare. L'[[Stern-Gerlach experiment]] sfrutta proprio questa interazione.
 

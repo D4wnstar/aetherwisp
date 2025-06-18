@@ -11,7 +11,7 @@ Risolvere l'equazione di Schrödinger, trovando quindi l'equazione d'onda, ci pe
 
 La forma più generale dell'equazione di Schrödinger è
 $$i\hbar \frac{\partial }{\partial t}|\psi_{t}\rangle=\hat{H}|\psi_{t}\rangle$$
-dove $\hat{H}$ è l'[[operatore]] [[Hamiltoniana|Hamiltoniano]] del sistema e $|\psi_{t}\rangle$ è lo stato al tempo $t$. Essa è risolta dall'[[evolutore]] e grazie a esso si trova che è *reversibile*. Quindi la dinamica descritta dall'equazione di Schrödinger è reversibile. Questo è un fatto molto importante dato che la dinamica descritta dal collasso di un pacchetto d'onda è *irreversibile*. Come sia possibile che queste due dinamiche coesistano è un problema aperto della fisica.
+dove $\hat{H}$ è l'[[operatore]] [[Hamiltonian|Hamiltoniano]] del sistema e $|\psi_{t}\rangle$ è lo stato al tempo $t$. Essa è risolta dall'[[evolutore]] e grazie a esso si trova che è *reversibile*. Quindi la dinamica descritta dall'equazione di Schrödinger è reversibile. Questo è un fatto molto importante dato che la dinamica descritta dal collasso di un pacchetto d'onda è *irreversibile*. Come sia possibile che queste due dinamiche coesistano è un problema aperto della fisica.
 ## Potenziale indipendente dal tempo
 Per risolvere l'equazione di Schrödinger bisogna determinare un certo potenziale $V(x,t)$. Possiamo restringere il set di potenziali a quelli indipendenti dal tempo, a modo tale che valga $V(x)$ e non $V(x,t)$.
 ### Soluzione unidimensionale

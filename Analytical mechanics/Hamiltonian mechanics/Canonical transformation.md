@@ -2,13 +2,16 @@
 wiki-publish: true
 aliases:
   - conjugate Hamiltonian
-  - symplectic transformation
 ---
-A **canonical transformation** is a [[coordinate transformation]] that transforms a set of coordinates that satisfy the [[Hamilton equation|Hamilton equations]] of a [[Physical system|system]] into another set that also satisfies the Hamilton equations.
+A **canonical transformation** is a [[coordinate transformation]] that transforms a set of coordinates that satisfy the [[Hamilton equations|Hamilton equations]] into another set that also satisfies them.
 
-Mathematically, the transformation $q_{i}=u_{i}(\tilde{q},\tilde{p},t)$, $p_{i}=v_{i}(\tilde{q},\tilde{p},t)$ is canonical if for all [[Hamiltonian|Hamiltonians]] $H(q,p,t)$, there exists a function $K(\tilde{q},\tilde{p},t)$ such that, if the equations of motion in coordinates $(q,p)$ have the form of Hamilton equations ($\dot{p}_{i}=-\frac{ \partial H }{ \partial q_{i} }$ and $\dot{q}_{i}=\frac{ \partial H }{ \partial p_{i} }$), then the equations in $(\tilde{q},\tilde{p})$ also have the form of Hamilton equations, with $K$ as the Hamiltonian ($\dot{\tilde{p}}_{i}=-\frac{ \partial K }{ \partial \tilde{q}_{i} }$ and $\dot{\tilde{q}}_{i}=\frac{ \partial K }{ \partial \tilde{p}_{i} }$). The solutions are related by the functions $u$ and $v$ as $q_{i}(t)=u_{i}(\tilde{q}(t),\tilde{p}(t),t)$ and $p_{i}(t)=v_{i}(\tilde{q}(t),\tilde{p}(t),t)$. The Hamiltonians $H$ and $K$ are said to be **conjugate**.
+Mathematically, the transformation $q_{i}=u_{i}(\tilde{q},\tilde{p},t)$, $p_{i}=v_{i}(\tilde{q},\tilde{p},t)$ is canonical if for all [[Hamiltonian|Hamiltonians]] $H(q,p,t)$, there exists a function $K(\tilde{q},\tilde{p},t)$ called the **conjugate Hamiltonian** such that, if the equations of motion in coordinates $(q,p)$ obey the Hamilton equations
+$$\dot{p}_{i}=-\frac{ \partial H }{ \partial q_{i} },\quad  \dot{q}_{i}=\frac{ \partial H }{ \partial p_{i} }$$
+then the equations in $(\tilde{q},\tilde{p})$ also obey the Hamilton equations, with $K$ as the Hamiltonian:
+$$\dot{\tilde{p}}_{i}=-\frac{ \partial K }{ \partial \tilde{q}_{i} },\quad\dot{\tilde{q}}_{i}=\frac{ \partial K }{ \partial \tilde{p}_{i} }$$
+The solutions are related by the functions $u$ and $v$ as $q_{i}(t)=u_{i}(\tilde{q}(t),\tilde{p}(t),t)$ and $p_{i}(t)=v_{i}(\tilde{q}(t),\tilde{p}(t),t)$.
 ### Canonicity criteria
-Determining if a transformation is canonical can be arduous: you have to prove that it is canonical for *all* possible Hamiltonians, and there's infinite of them. Sometimes it's possible, such as in the examples below, but there is a better method to ensuring canonicity. For a transformation to be canonical, it must satisfy the so-called **canonicity criteria**.
+Determining if a transformation is canonical can be arduous: you have to prove that it is canonical for *all* possible Hamiltonians, and there's infinite of them. Sometimes this brute force way is a valid approach, such as in some of the examples below, but there is a better method to ensuring canonicity. For a transformation to be canonical, it must satisfy the so-called **canonicity criteria**.
 
 Consider a generic coordinate transformation $x_{i}=w_{i}(\tilde{x},t)$. The inverse is $\tilde{x}=\tilde{w}_{i}(x,t)$. Motion in [[phase space]] is described by the either the functions $x_{i}(t)$ or $\tilde{x}_{i}(t)$, linked by the aforementioned equations as $x_{i}(t)=w(\tilde{x}(t),t)$ and $\tilde{x}_{i}(t)=\tilde{w}(x(t),t)$. The derivative is
 $$\dot{\tilde{x}}_{i}=\sum_{j=1}^{n} \underbrace{ \frac{ \partial \tilde{w}_{i} }{ \partial x_{j} } }_{ \tilde{J}_{ij} } (x(t),t)\dot{x}_{j}(t)+\frac{ \partial \tilde{w} }{ \partial t } (x(t),t)$$
@@ -65,7 +68,7 @@ So, if $c>0$, the first canonicity criterion seems to hold. If $c<0$, we can com
 $$\mathbf{x}''=\begin{pmatrix}0 & \mathrm{I} \\ \mathrm{I} & 0\end{pmatrix}\mathbf{x}=\mathcal{I}\mathbf{x}$$
 which leads to
 $$J''\mathrm{E}J''^{T}=\mathcal{I}J\mathrm{E}J^{T}\mathcal{I}=-\mathcal{I}\mathrm{E}\mathcal{I}=\mathrm{E}$$
-and so we go back to our canonicity criterion, up to a composition. In fact, this is fully general. We can *always* do this. What we just found is that we can always compose a generic canonical transformation with a specific canonical transformation such that the composition has $c=1$. In other words, all canonical transformations can be reduced down to univalent ones with the correct compositions. But recall our previous point: if $c=1$, the Jacobian is symmetric. Thus, the Jacobian of all univalent transformations is symmetric. These are such an important group of functions that they are found to be part of a specific set: all univalent canonical transformations are **symplectic transformations**, which are transformations whose Jacobian is a **[[symplectic matrix]]**.
+and so we go back to our canonicity criterion, up to a composition. In fact, this is fully general. We can *always* do this. What we just found is that we can always compose a generic canonical transformation with a specific canonical transformation such that the composition has $c=1$. In other words, all canonical transformations can be reduced down to univalent ones with the correct compositions. But recall our previous point: if $c=1$, the Jacobian is symmetric. Thus, the Jacobian of all univalent transformations is symmetric. These are such an important group of functions that they are found to be part of a specific set: all univalent canonical transformations are **[[symplectic transformation|symplectic transformations]]**, which are transformations whose Jacobian is a **[[symplectic matrix]]**.
 
 > [!success] Symplectic transformations
 > All canonical transformations can be reduced to symplectic ones (that is, univalent canonical ones) by composing them with other appropriate canonical transformations. 

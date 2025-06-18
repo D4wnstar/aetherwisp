@@ -3,7 +3,7 @@ wiki-publish: true
 ---
 La **teoria delle perturbazioni** è un metodo sistematico che per ottenere soluzioni approssimate a sistemi quantistici perturbati, ossia sistemi di cui si conosce la soluzione esatta non perturbata a cui si aggiunge un termine di perturbazione *a posteriori*.
 
-Matematicamente, possiamo considerare un sistema mediante la sua [[Hamiltoniana]] e la sua dinamica mediante l'[[Equazione di Schrödinger#Potenziale indipendente dal tempo|equazione di Schrödinger indipendente dal tempo]] come
+Matematicamente, possiamo considerare un sistema mediante la sua [[Hamiltonian]] e la sua dinamica mediante l'[[Equazione di Schrödinger#Potenziale indipendente dal tempo|equazione di Schrödinger indipendente dal tempo]] come
 $$H^{0}\psi_{n}^{0}=E_{n}^{0}\psi_{n}^{0}$$
 Assumiamo che questa possa essere risolta analiticamente, come ad esempio la [[Buca infinita quantistica|buca infinita]]. Ora vogliamo aggiungere la nostra perturbazione: questo ci dà una nuova Hamiltoniana (perturbata) che risolve l'equazione
 $$H\psi_{n}=E_{n}\psi_{n}$$

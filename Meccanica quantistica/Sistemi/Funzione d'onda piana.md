@@ -32,7 +32,7 @@ che, non essendo una funzione, non può essere trattata in modo normale.
 Va notato che la rappresentazione in posizione $(\hat{q}\psi)(x)=x\psi(x)$, in questo caso, *non è* un'equazione agli autovalori.
 
 ### Evoluzione temporale
-Ora che abbiamo la descrizione dello stato, possiamo occuparci della dinamica, almeno in un modo euristico. Vogliamo evolvere lo stato $\ket{\psi}$ nello stato $\ket{\psi_{t}}$ nel tempo secondo un'[[Hamiltoniana]]. Questo viene fatto attraverso l'[[equazione di Schrödinger]]:
+Ora che abbiamo la descrizione dello stato, possiamo occuparci della dinamica, almeno in un modo euristico. Vogliamo evolvere lo stato $\ket{\psi}$ nello stato $\ket{\psi_{t}}$ nel tempo secondo un'[[Hamiltonian]]. Questo viene fatto attraverso l'[[equazione di Schrödinger]]:
 $$i\hbar \partial_{t} \ket{\psi_{t}} =\hat{H}\ket{\psi_{t}} $$
 Per una particella libera, l'Hamiltoniana è
 $$H=\frac{p^{2}}{2m}\quad\to \quad \hat{H}=\frac{\hat{p}^{2}}{2m}$$

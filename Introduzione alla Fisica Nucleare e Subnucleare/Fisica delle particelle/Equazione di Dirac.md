@@ -25,7 +25,7 @@ che si chiama [[equazione di Klein-Gordon]]. Ora, grazie al d'Alembertiano, spaz
 
 Purtroppo, questo porta ad un nuovo problema: essendo un'equazione di secondo grado, ci dà due soluzioni: una positiva e una negativa. Ma la soluzione (ad energia) negativa non ha senso, perché implicherebbe probabilità negative, quindi non ha alcun senso fisico. Questa equazione ha comunque utilizzi in qualche ambito della fisica delle particelle, ma non è generale.
 
-Un ragionamento più generale viene da Dirac. Scrivo l'[[Hamiltoniana]] come combinazione lineare di energia e impulso:
+Un ragionamento più generale viene da Dirac. Scrivo l'[[Hamiltonian]] come combinazione lineare di energia e impulso:
 $$H=-i\alpha\nabla+\beta m$$
 quindi l'equazione di Schrödinger diventa
 $$E\Psi=i \frac{\partial \Psi}{\partial t}=(-i\alpha\nabla+\beta m)\Psi$$

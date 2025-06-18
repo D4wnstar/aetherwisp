@@ -3,13 +3,13 @@ wiki-publish: true
 ---
 Given a space of functions $U$, a **functional** defined on $U$ is a map $F$ that maps a function $u\in U$ to a [[scalar]] number:
 $$\begin{align}
-F:\;&U\to \mathbb{R} \\
-&u\to F[u]\in \mathbb{R}
+F:\;&U\mapsto \mathbb{R} \\
+&u\mapsto F[u]\in \mathbb{R}
 \end{align}$$
 where we chose real numbers. Functionals can also be dependent on multiple functions:
 $$\begin{align}
-F:\;&U\times U\times\ldots\times U\to \mathbb{R} \\
-&(u_{1},\ldots,u_{n})\to F[u_{1},\ldots,u_{n}]\in \mathbb{R}
+F:\;&U\times U\times\ldots\times U\mapsto \mathbb{R} \\
+&(u_{1},\ldots,u_{n})\mapsto F[u_{1},\ldots,u_{n}]\in \mathbb{R}
 \end{align}$$
 ### Properties
 - A functional is linear if $F[\alpha u+\beta v]=\alpha F[u]+\beta F[v]$.
@@ -21,16 +21,18 @@ $$\delta F(\mathbf{x},\delta \mathbf{x})=\left.{\frac{d}{d\alpha}F(\mathbf{x}+\d
 
 Similarly to usual derivatives, the functional $F$ is said to be **stationary** in $u_{0}$ if $\delta F[u_{0},\delta u]=0$. More formally, we say that $u_{0}$ is a **stationary point** for $F$ for variations $\delta u$ null at the boundaries ($\delta u(x_\text{start})=\delta u(x_\text{end})=0$) if and only if $u_{0}$ satisfies the equation
 $$f(x)=\frac{d}{dx}\frac{ \partial L }{ \partial u' } (u_{0}(x),u_{0}'(x),x)-\frac{ \partial L }{ \partial u } (u_{0}(x),u_{0}'(x),x)=0\tag{1}$$
+This equation is the [[Lagrange equation]].
+
 > [!info] Proof
 > $(\Leftarrow)$: Immediate.
-> $(\Rightarrow)$: We need to prove that if $\delta F[u_{0},\delta u]=0$ for all $\delta u$, then $(1)$ is true. We'll claim that $f(x)$ is actually $\neq 0$ for some $\tilde{x}\in[x_\text{start},x_\text{end}]$. If that's true, by continuity $f(x)\neq 0$ for all $x$ in a neighborhood of $\tilde{x}$, which we'll call $I_{\tilde{x}}$. If $I_{\tilde{x}}$ is sufficiently small, $f(x)$ has defined sign in it, and thus there exists some $\delta u$ such that $\delta F[u_{0},\delta u]\neq 0$. This is because $\delta u(x)=0$ if $x\not\in I_{\tilde{x}}$ and $\delta u(x)\geq 0$ if $x \in I_{\tilde{x}}$. (???)
+> $(\Rightarrow)$: We need to prove that if $\delta F[u_{0},\delta u]=0$ for all $\delta u$, then $(1)$ is true. We'll claim that $f(x)$ is actually $\neq 0$ for some $\tilde{x}\in[x_\text{start},x_\text{end}]$. If that's true, by continuity $f(x)\neq 0$ for all $x$ in a neighborhood of $\tilde{x}$, which we'll call $I_{\tilde{x}}$. If $I_{\tilde{x}}$ is sufficiently small, $f(x)$ always has the same sign in it, and thus there exists some $\delta u$ such that $\delta F[u_{0},\delta u]\neq 0$. This is because $\delta u(x)=0$ if $x\not\in I_{\tilde{x}}$ and $\delta u(x)\geq 0$ if $x \in I_{\tilde{x}}$. But this contradicts the hypothesis that $\delta F[u_{0},\delta u]=0$ for all $\delta u$. Thus, $f(x)$ cannot be nonzero, concluding the proof.
 
 Furthermore, if we define $\Delta F=F[u+\delta u]-F[u]$ for some *small* $\delta u$, $\delta F$ is the **linear part** of $\delta u$ of the increase $\Delta F$.
 ### Examples
 Let $U=\{ \text{smooth functions}:[0,1]\to \mathbb{R} \}$.
 
 > [!example] Integral over set extrema
-> An example of a function from $U$ to $\mathbb{R}$ is
+> An example of a functional from $U$ to $\mathbb{R}$ is
 > $$F[u]=\int_{0}^{1}u(t)dt$$
 > If for instance $u(t)=\sin \pi t$, the functional would give us
 > $$F[\sin \pi t]=\int_{0}^{1}\sin \pi t\ dt=\frac{1}{\pi}\int_{0}^{\pi}\sin \xi\ d\xi=\frac{2}{\pi}$$

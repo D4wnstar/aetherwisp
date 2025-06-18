@@ -31,7 +31,7 @@ $$\begin{align}
 &=U^{+}XYU-U^{+}YXU \\
 &=U^{+}[X,Y]U
 \end{align}$$
-Questo genere di trasformazioni $X_{U}=U^{+}XU$, dette unitarie, sono l'equivalente quantistico delle [[canonical transformation|trasformazioni canoniche]] che preservano l'[[Hamiltoniana]] in meccanica classica. Per esse vale dunque il [[teorema di Noether]].
+Questo genere di trasformazioni $X_{U}=U^{+}XU$, dette unitarie, sono l'equivalente quantistico delle [[canonical transformation|trasformazioni canoniche]] che preservano l'[[Hamiltonian]] in meccanica classica. Per esse vale dunque il [[teorema di Noether]].
 
 Più in generale, questo fatto è importante perché la traslazione per operatori unitari non varia gli [[Equazione agli autovalori|autovalori]]. Infatti, consideriamo un'equazione agli autovalori
 $$H\ket{\psi_{a}} =E_{a}\ket{\psi_{a}} $$

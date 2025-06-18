@@ -5,7 +5,7 @@ La meccanica quantistica è sostanzialmente un'applicazione dell'algebra lineare
 
 La [[notazione braket]] è la base su cui si costruisce tutta la meccanica quantistica. Serve a rappresentare vettori e funzioni, finiti o infiniti, assieme ai loro [[Scalar product|prodotti scalari]] in modo conciso.
 
-Le [[Osservabile|osservabili]] sono proprietà di un oggetto quantistico che possono essere misurate. Queste sono rappresentate come variabili nel senso classico. In particolare, si usano le convenzioni della meccanica razionale e in particolare quella [[Hamiltoniana]]:
+Le [[Osservabile|osservabili]] sono proprietà di un oggetto quantistico che possono essere misurate. Queste sono rappresentate come variabili nel senso classico. In particolare, si usano le convenzioni della meccanica razionale e in particolare quella [[Hamiltonian]]:
 - la posizione generalizzata è rappresentata con una $q$ (o $\vec{q}$ o $\vec{r}$ in più dimensioni)
 - la quantità di moto è rappresentata con una $p$
 

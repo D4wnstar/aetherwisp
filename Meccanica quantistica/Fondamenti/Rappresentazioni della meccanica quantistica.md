@@ -27,7 +27,7 @@ La matrice densità $\rho$ è invece costante nel tempo.
 ### Rappresentazione di interazione
 La rappresentazione di interazione, anche detta rappresentazione di Dirac, è una via di mezzo tra le due rappresentazioni precedenti, dove la dipendenza temporale e suddivisa tra stato e operatori. È particolarmente utile per descrivere l'effetto di perturbazioni al sistema (ossia interazioni, da cui il nome) nel tempo nella [[teoria delle perturbazione dipendente dal tempo]].
 
-Presa un'[[Hamiltoniana]] $H$ descritta dalla rappresentazione di Schrödinger, essa può essere divisa in due pezzi:
+Presa un'[[Hamiltonian]] $H$ descritta dalla rappresentazione di Schrödinger, essa può essere divisa in due pezzi:
 $$H=H_{0}+H_{1}$$
 $H_{0}$ e $H_{1}$ possono essere una qualunque suddivisione e la rappresentazione di interazione funzionerà per tutte quante, ma per avere utilità pratica, $H_{0}$ si assume risolvibile facilmente, mentre $H_{1}$ è un'interazione difficile da risolvere. Questa non è altro che la suddivisione usata in [[Meccanica quantistica/Tecniche/Teoria delle perturbazioni|teoria delle perturbazioni]], a meno di una costante. In genere, $H_{0}$ dovrebbe essere indipendente dal tempo.
 

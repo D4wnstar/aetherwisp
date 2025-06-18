@@ -16,7 +16,7 @@ A parole si può enunciare anche come
 > [!info] Teorema di Noether
 > Il generatore di una [[Trasformazione di simmetria|trasformazione continua di simmetria]] è una quantità conservata (cioè una [[costante del moto]]). Ogni costante del moto genera una trasformazione continua di simmetria.
 ### In meccanica quantistica
-Consideriamo due [[operatore|operatori]], l'[[Hamiltoniana]] $\hat{H}$ e $\hat{\pi}$, che [[Commutator|commutano]]: $[\hat{H},\hat{\pi}]=0$, e l'[[equazione di Schrödinger]] indipendente dal tempo
+Consideriamo due [[operatore|operatori]], l'[[Hamiltonian]] $\hat{H}$ e $\hat{\pi}$, che [[Commutator|commutano]]: $[\hat{H},\hat{\pi}]=0$, e l'[[equazione di Schrödinger]] indipendente dal tempo
 $$\hat{H}\ket{\psi_{E}} =E\ket{\psi_{E}} $$
 ma se i due operatori commutano possiamo scrivere
 $$\hat{H}\hat{\pi}\ket{\psi_{E} }=\hat{\pi}\hat{H}\ket{\psi_{E}} =\hat{\pi}(E\ket{\psi_{E}} )=E \hat{\pi}\ket{\psi_{E}}$$

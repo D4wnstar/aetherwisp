@@ -3,9 +3,9 @@ wiki-publish: true
 ---
 Si chiama **evolutore** di un sistema quantistico l'[[operatore lineare]] $\hat{U}_{t}$ definito come
 $$\hat{U}_{t}=e^{- \frac{i}{\hbar}\hat{H}t}=\sum\limits_{i=1}^{\infty}e^{- \frac{i}{\hbar}E_{i}t}|E_{i}\rangle\langle E_{i}|=\sum\limits_{i=1}^{\infty}e^{- \frac{i}{\hbar}E_{i}t}\hat{P}_{E_{i}}$$
-con $\hat{H}$ la [[Hamiltoniana]] del sistema e $\hat{P}$ è l'[[operatore]] [[proiettore]]. L'evolutore genera l'evoluzione temporale (*time evolution*) di un sistema quantistico. Esso risolve l'[[equazione di Schrödinger]] dipendente dal tempo. Ci permette di trovare lo [[stato]] del sistema ad un tempo $t$ semplicemente applicandolo allo stato $|\psi\rangle$ iniziale
+con $\hat{H}$ la [[Hamiltonian]] del sistema e $\hat{P}$ è l'[[operatore]] [[proiettore]]. L'evolutore genera l'evoluzione temporale (*time evolution*) di un sistema quantistico. Esso risolve l'[[equazione di Schrödinger]] dipendente dal tempo. Ci permette di trovare lo [[stato]] del sistema ad un tempo $t$ semplicemente applicandolo allo stato $|\psi\rangle$ iniziale
 $$|\psi_{t}\rangle=\hat{U}_{t}|\psi\rangle=\sum\limits_{i=1}^{\infty}e^{- \frac{i}{\hbar}E_{i}t} \langle E_{i}|\psi\rangle |E_{i}\rangle$$
-Nel caso in cui $|\psi\rangle$ siano un [[Equazione agli autovalori|autostato]] dell'[[Hamiltoniana]] con autovalore $E$, l'evolutore si semplifica a
+Nel caso in cui $|\psi\rangle$ siano un [[Equazione agli autovalori|autostato]] dell'[[Hamiltonian]] con autovalore $E$, l'evolutore si semplifica a
 $$|\psi_{t}\rangle=\hat{U}_{t}|\psi\rangle=e^{-iEt/\hbar}|\psi\rangle$$
 
 > [!example] Dimostrazione

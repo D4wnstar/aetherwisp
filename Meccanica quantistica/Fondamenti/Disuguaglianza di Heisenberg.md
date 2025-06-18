@@ -79,7 +79,7 @@ Dalla forma generale del principio di indeterminazione possiamo ottenere la legg
 $$\frac{d}{dt}\left\langle Q \right\rangle=\frac{d}{dt}\langle \psi|\hat{Q}\psi\rangle=\left\langle \frac{\partial \psi}{\partial t}|\hat{Q}\psi\right\rangle+\left\langle \psi| \frac{\partial \left\langle Q \right\rangle}{\partial t}\psi\right\rangle + \left\langle \psi|\hat{Q}\frac{\partial \psi}{\partial t}\right\rangle$$
 L'[[Equazione di Schrödinger]] ha la forma
 $$i\hbar \frac{\partial \psi}{\partial t}=\hat{H}\psi$$
-dove l'[[Hamiltoniana]] è $H=p^{2}/2m+V$. Allora
+dove l'[[Hamiltonian]] è $H=p^{2}/2m+V$. Allora
 $$\frac{d}{dt}\left\langle Q \right\rangle=- \frac{1}{i\hbar}\langle \hat{H}\psi|\hat{Q}\psi\rangle+ \frac{1}{i\hbar}\langle \psi|\hat{Q}\hat{H}\psi\rangle+\left\langle \frac{\partial \hat{Q}}{\partial t} \right\rangle$$
 Ma $\hat{H}$ è autoaggiunto, quindi $\langle \hat{H}\psi|\hat{Q}\psi\rangle=\langle \psi|\hat{H}\hat{Q}\psi\rangle$ e allora
 $$\boxed{\frac{d}{dt}\left\langle Q \right\rangle=\frac{i}{\hbar}\left\langle [\hat{H},\hat{Q}] \right\rangle+\left\langle \frac{\partial \hat{Q}}{\partial t} \right\rangle}$$

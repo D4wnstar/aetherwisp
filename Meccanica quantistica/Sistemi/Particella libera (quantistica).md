@@ -64,7 +64,7 @@ Nel nostro caso, valgono
 $$v_{\text{fase}}=\frac{\omega}{k}=\frac{\hbar k}{2m},\quad v_{\text{gruppo}}=\frac{d\omega}{dk}=\frac{\hbar k}{m}=2v_{\text{fase}}$$
 che il paradosso: la teoria classica ci dà la velocità di gruppo dell'onda quantistica, non la velocità degli stati stazionari.
 ### Soluzione nel tempo
-L'[[Hamiltoniana]] di un particella libera è
+L'[[Hamiltonian]] di un particella libera è
 $$\hat{H}=\frac{\hat{p}^{2}}{2m}$$
 Usiamo l'equazione di Schrödinger generale
 $$i\hbar \partial_{t} \ket{\psi_{t}} =\hat{H}\ket{\psi_{t}}$$

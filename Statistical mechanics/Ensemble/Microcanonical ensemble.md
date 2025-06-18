@@ -6,7 +6,7 @@ $$\rho(\mathbf{q},\mathbf{p})=\begin{cases}
 \text{constant} & E<H(\mathbf{q},\mathbf{p})<E+\Delta \\
 0&\text{otherwise}
 \end{cases}$$
-where $H$ is the [[Hamiltoniana|Hamiltonian]] of the [[Physical system|system]] and $E$ is its total [[energy]]. It represents an [[Physical system|isolated system]] in [[thermal equilibrium]] whose energy $E$ is precisely defined and conserved. Given this definition, the [[equal a priori probability hypothesis]] applies to it directly, hence the constant density function.
+where $H$ is the [[Hamiltonian|Hamiltonian]] of the [[Physical system|system]] and $E$ is its total [[energy]]. It represents an [[Physical system|isolated system]] in [[thermal equilibrium]] whose energy $E$ is precisely defined and conserved. Given this definition, the [[equal a priori probability hypothesis]] applies to it directly, hence the constant density function.
 
 In practice, we instead consider the system energy to be in an interval $[E,E+\Delta]$ to account for practical uncertainties in measurement, since our understanding of energy is never going to be without error. Nevertheless, $\Delta$ is to be seen as a tiny constant with respect to the energy ($\Delta\ll E$) and likewise $[E,E+\Delta]$ is a tiny interval.
 

@@ -16,12 +16,15 @@ wiki-publish: true
 - [[Virtual displacement]], [[Virtual work]] and [[Generalized force]]
 - [[Kinetic energy]] and matrix
 - [[Functional]]
+- [[Lagrange equation]] and [[Lagrangian]]
 - [[Rigid body]]
 - [[Central potential problems]]
 - Spinning top
 - [[Hamilton's principle]]
 ### Hamiltonian mechanics
-- [[Hamilton equation]] (Hamiltonian least action principle not in exam)
+- [[Hamilton equations]] (Hamiltonian least action principle not in exam)
+- [[Poisson brackets]]
+- [[Phase space]]
 - [[Canonical transformation]]
 - [[Liouville's theorem]] (the analytical mechanics statement)
 ### Quantum mechanics

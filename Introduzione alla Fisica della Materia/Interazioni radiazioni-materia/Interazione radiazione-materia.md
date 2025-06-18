@@ -9,7 +9,7 @@ con cui possiamo esprimere le leggi del moto
 $$\frac{d}{dt}\left(\frac{\partial L}{\partial v_{x}}\right)- \frac{\partial L}{\partial x}=0$$
 Vale
 $$p_{x}=\frac{\partial L}{\partial v_{x}}=mv_{x}+qA_{x}$$
-da cui l'[[Hamiltoniana]] di una [[Particella]] in un campo
+da cui l'[[Hamiltonian]] di una [[Particella]] in un campo
 $$H=\vec{v}\cdot\vec{p}-L=\frac{(p-q\vec{A})^{2}}{2m}+qV$$
 e l'[[Equazione di Schrödinger]]
 $$i\hbar \frac{\partial }{\partial t}\Psi(\vec{r},t)=\left[\frac{1}{2m}(-i\hbar\nabla+e\vec{A})^{2}- \frac{Ze^{2}}{(4\pi\epsilon_{0})r}\right]\Psi(\vec{r},t)$$

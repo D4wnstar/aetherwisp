@@ -11,7 +11,7 @@ La **struttura fine** è la struttura ottenuta applicando correzioni relativisti
 1. correzione relativistica dell'energia cinetica
 2. correzione spin-orbita
 3. termine di Darwin
-Queste tre si sommano per darci l'[[Hamiltoniana]] corretta.
+Queste tre si sommano per darci l'[[Hamiltonian]] corretta.
 ### Correzione relativistica dell'energia cinetica
 Possiamo sostituire l'energia cinetica classica $p^{2}/2m_{e}$ con l'energia cinetica relativistica
 $$T=\sqrt{p^{2}c^{2}+m_{e}^{2}c^{4}}-m_{e}^{2}c^{2}=m_{e}c^{2}\sqrt{1+ \frac{p^{2}}{m_{e}c^{2}}}-m_{e}c^{2}=\ldots$$

@@ -50,7 +50,7 @@
       }
     },
     {
-      "query": "path:Costanti  ",
+      "query": "path:Constants  ",
       "color": {
         "a": 1,
         "rgb": 14131916
@@ -129,14 +129,14 @@
   ],
   "collapse-display": true,
   "showArrow": false,
-  "textFadeMultiplier": -0.2,
+  "textFadeMultiplier": -0.5,
   "nodeSizeMultiplier": 1,
-  "lineSizeMultiplier": 0.4409423828125,
+  "lineSizeMultiplier": 0.195703125,
   "collapse-forces": true,
   "centerStrength": 0.518713248970312,
   "repelStrength": 12.0003255208333,
   "linkStrength": 0.950276692708333,
   "linkDistance": 250,
-  "scale": 0.16933845723824076,
+  "scale": 0.11327439907466574,
   "close": false
 }

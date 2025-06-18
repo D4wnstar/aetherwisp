@@ -4,7 +4,7 @@ aliases:
   - invertible
   - inverse matrix
 ---
-A square [[matrix]] is said to be **invertible** if there exists another square matrix that, when multiplied with it, yields the [[Identity matrix]]. In symbols, $\mathrm{A}$ is invertible $n\times n$ matrix if there exists another $n\times n$ matrix $\mathrm{A}^{-1}$ such that
+A square [[matrix]] is said to be **invertible** if there exists another square matrix that, when multiplied with it, yields the [[identity matrix]]. In symbols, $\mathrm{A}$ is invertible $n\times n$ matrix if there exists another $n\times n$ matrix $\mathrm{A}^{-1}$ such that
 $$\mathrm{A}\mathrm{A}^{-1}=\mathrm{A}^{-1}\mathrm{A}=\mathrm{I}_{n}$$
 $\mathrm{A}^{-1}$ is known as the **inverse** of $\mathrm{A}$.
 ### Characterization

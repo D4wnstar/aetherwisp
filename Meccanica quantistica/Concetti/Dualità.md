@@ -16,7 +16,7 @@ $$\left\langle Q \right\rangle=\langle \psi|\hat{Q}_{t}|\psi\rangle$$
 I due valori medi *sono uguali*, come si dimostra
 $$\langle \psi_{t}|\hat{A}\psi_{t}\rangle=\langle \hat{U}_{t}\psi|\hat{A}\hat{U}_{t}\psi\rangle=\langle \psi|\hat{U}_{t}^{\dagger}\hat{A}\hat{U}_{t}\psi\rangle=\langle \psi|\hat{A}_{t}\psi\rangle$$
 
-Prendo l'[[Hamiltoniana]] della dinamica libera $\hat{H}=\frac{\hat{\bar{p}}^{2}}{2m}= \frac{\hat{p}^{2}_{x}+\hat{p}^{2}_{y}+\hat{p}^{2}_{z}}{2m}$.
+Prendo l'[[Hamiltonian]] della dinamica libera $\hat{H}=\frac{\hat{\bar{p}}^{2}}{2m}= \frac{\hat{p}^{2}_{x}+\hat{p}^{2}_{y}+\hat{p}^{2}_{z}}{2m}$.
 $$\hat{x}_{t}=e^{\frac{i}{\hbar} \frac{\hat{\bar{p}}^{2}}{2m}t}\quad;\quad\hat{x}=e^{-\frac{i}{\hbar} \frac{\hat{\bar{p}}^{2}}{2m}t}$$
 $$\partial_{t}\hat{x}_{t}=\frac{i}{\hbar}\left[ \frac{\hat{\bar{p}}^{2}}{2m}, \hat{U}^{\dagger}_{t}\hat{x}\hat{U}_{t} \right]=\frac{i}{\hbar}\hat{U}^{\dagger}_{t}\left[ \frac{\hat{\bar{p}}^{2}}{2m}, \hat{x} \right]\hat{U}_{t}= \frac{i}{2m\hbar}\hat{U}^{\dagger}_{t}\left[ \hat{p}^{2}_{x}, \hat{x} \right]\hat{U}_{t}=\frac{1}{m}\hat{U}^{\dagger}_{t}\hat{p}_{x}\hat{U}_{t}=\frac{\hat{p}_{x}}{m}$$
 usando che $[\hat{p}^{2}_{x}, \hat{x}]=\hat{p}_{x}[\hat{p}_{x},\hat{x}]+[\hat{p}_{x},\hat{x}]\hat{p}_{x}=-2i\hbar \hat{p}_{x}$ e

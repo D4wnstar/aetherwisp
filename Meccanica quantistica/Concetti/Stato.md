@@ -20,7 +20,7 @@ e per la quantità di moto
 $$\Phi(p,t)=\langle p|S(t)\rangle$$
 dove $|x\rangle$ e $|p\rangle$ rappresentano l'autofunzione di $\hat{x}$ e $\hat{p}$ associata all'autovalore $x$ e $p$. Come ci si aspetta, otteniamo un coefficiente continuo. Nel caso di un'osservabile con [[Spettro]] discreto, come l'energia, troviamo coefficienti discreti:
 $$c_{n}(t)=\langle n|\mathcal{S}(t)\rangle$$
-con $|n\rangle$ l'$n$-esima autofunzione dell'[[operatore]] [[Hamiltoniana]] $\hat{H}$. La cosa più importante qui è che *sono tutti completamente equivalenti*. La funzione d'onda in posizione, quella in momento e i coefficienti dell'energia contengono tutti le stesse identiche informazioni; cambia solo il modo in cui vengono espressi. Infatti, è assolutamente possibile convertire tra queste quantità senza alcuna perdita di informazione:
+con $|n\rangle$ l'$n$-esima autofunzione dell'[[operatore]] [[Hamiltonian]] $\hat{H}$. La cosa più importante qui è che *sono tutti completamente equivalenti*. La funzione d'onda in posizione, quella in momento e i coefficienti dell'energia contengono tutti le stesse identiche informazioni; cambia solo il modo in cui vengono espressi. Infatti, è assolutamente possibile convertire tra queste quantità senza alcuna perdita di informazione:
 $$\Psi(x,t)=\int_{-\infty}^{+\infty}\Psi(y,t)\delta(x-y)dy=\int_{-\infty}^{+\infty}\Phi(p,t) \frac{1}{\sqrt{2\pi\hbar}}e^{ipx/\hbar}dp=\sum\limits_{n=1}^{\infty}c_{n}e^{-iE_{n}t/\hbar}\psi_{n}(x)$$
 ### Rappresentazione proiettiva
 I termini di operatori, gli stati puri corrispondono ad un [[proiettore]] che proietta su quello stato. Per esempio, uno stato puro $\psi$ è associato al proiettore

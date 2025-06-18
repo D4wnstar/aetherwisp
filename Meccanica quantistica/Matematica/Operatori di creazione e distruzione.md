@@ -12,7 +12,7 @@ Gli **operatori di creazione e distruzione** $\hat{a}^{+}$ e $\hat{a}$ sono una 
 - Non sono [[Operatore autoaggiunto|autoaggiunti]].
 - Non [[Commutator|commutano]]: $[\hat{a},\hat{a}^{+}]=1$. Si può usare la [[Commutator|formula di Baker-Campbell-Hausdorff]]: $e^{\alpha \hat{a}^{+}-\alpha^{*}\hat{a}}=e^{-\lvert \alpha \rvert^{2}/2}e^{\alpha \hat{a}^{+}}e^{-\alpha^{+}\hat{a}}$.
 ### Evoluzione temporale
-Possiamo cercare l'evoluzione temporale nella [[Rappresentazioni della meccanica quantistica|rappresentazione di Heisenberg]] $\hat{a}\to \hat{U}_{t}^{+}\hat{a}\hat{U}_{t}$. Per risolvere questa equazione, possiamo notare che è la soluzione dell'[[equazione di Heisenberg]]. Infatti, presa l'[[Hamiltoniana]] dell'oscillatore armonico quantistico $\hat{H}=\hbar \omega\left( \hat{a}^{+}\hat{a}+ \frac{1}{2} \right)$
+Possiamo cercare l'evoluzione temporale nella [[Rappresentazioni della meccanica quantistica|rappresentazione di Heisenberg]] $\hat{a}\to \hat{U}_{t}^{+}\hat{a}\hat{U}_{t}$. Per risolvere questa equazione, possiamo notare che è la soluzione dell'[[equazione di Heisenberg]]. Infatti, presa l'[[Hamiltonian]] dell'oscillatore armonico quantistico $\hat{H}=\hbar \omega\left( \hat{a}^{+}\hat{a}+ \frac{1}{2} \right)$
 $$\frac{d}{dt}\hat{a}_{t}=\frac{i}{\hbar}[\hat{H},\hat{a}_{t}]=\frac{i}{\hbar}\left[ \hbar \omega\left( \hat{a}^{+}\hat{a}+ \frac{1}{2} \right), \hat{a}_{t} \right]=i\omega[\hat{a}^{+}\hat{a},\hat{a}_{t}]=\ldots$$
 Naturalmente noi non sappiamo cos'è $\hat{a}_{t}$, quindi sembra che questo risultato sia inutile. Tuttavia, sappiamo cos'è $\hat{U}_{t}$ dato che conosciamo $\hat{H}$:
 $$\hat{U}_{t}=e^{-i\omega t(\hat{a}^{+}\hat{a}+1/2)}$$
