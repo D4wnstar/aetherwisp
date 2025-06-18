@@ -34,7 +34,7 @@ which has the same form as $(1)$. $V''(x_{0})>0$ because $x_{0}$ is a minimum by
 ### Oscillator chains
 A system made of a chain of harmonic oscillators can be solved analytically by using the fact that all quadratic forms can [[Diagonalization|diagonalized]]. These are commonly employed in atomic and solid state physics, especially in the study of crystals or as approximate models to more complicated states.
 #### Phonons
-The simplest case is that of a 1D crystal. Consider a series of $N$ particles (likely [[Atom|atoms]]) on a one dimensional line, each equally spaced by a distance $a$. We define the position vector $\mathbf{n}=n\mathbf{a}$, where $n=0,1,2\ldots,N$ is the label of each atom. Each point is subject to oscillations. If we call $\xi_{\mathbf{n}}$ the distance from the [[equilibrium point]] for the particle in $\mathbf{n}$, we can write the total [[kinetic energy]] as
+The simplest case is that of a 1D [[ideal crystal]]. Consider a series of $N$ particles (likely [[Atom|atoms]]) on a one dimensional line, each equally spaced by a distance $a$. We define the position vector $\mathbf{n}=n\mathbf{a}$, where $n=0,1,2\ldots,N$ is the label of each atom. Each point is subject to oscillations. If we call $\xi_{\mathbf{n}}$ the distance from the [[equilibrium point]] for the particle in $\mathbf{n}$, we can write the total [[kinetic energy]] as
 $$K=\frac{m}{2}\sum_{\mathbf{n}}\dot{\xi}_{\mathbf{n}}^{2}$$
 using dot notation to represent the time derivative. The [[potential energy]] is
 $$U=\frac{\gamma}{2}\sum_{\mathbf{n}}(\xi_{\mathbf{n}}-\xi_{\mathbf{n}-\mathbf{a}})^{2}$$
@@ -62,7 +62,7 @@ where the cross-terms vanish due to being [[Orthogonality|orthogonal]] and $\Ome
 $$m\Omega ^{2}(\mathbf{k})=m\Omega ^{2}(-\mathbf{k})\quad\to \quad \Omega(\mathbf{k})=4\gamma \sin ^{2} \frac{\mathbf{k}\cdot \mathbf{a}}{2}$$
 The [[Lagrangian]] is
 $$L=K-U=\frac{m}{2}\sum_{\mathbf{k}}(\dot{A}_{\mathbf{k}}\dot{A}_{-\mathbf{k}}-\Omega ^{2}(\mathbf{K})A_{\mathbf{k}}A_{-\mathbf{k}})$$
-Here we have essentially diagonalized the matrix. But we can make the switch to a [[Hamiltonian]] by defining the [[canonical momentum]]
+Here we have essentially diagonalized the matrix. But we can make the switch to a [[Hamiltonian]] by defining the [[conjugate momenta]]
 $$P_{\mathbf{k}}=\frac{ \partial L }{ \partial \dot{A}_{\mathbf{k}} } =m \dot{A}_{-\mathbf{k}}$$
 which can also be expressed as the antitransform of "normal" momentum $p_{\mathbf{n}}=m \dot{\xi}_{\mathbf{n}}$
 $$P_{\mathbf{k}}=\frac{1}{\sqrt{ N }}\sum_{\mathbf{n}} p_{\mathbf{n}}e^{i\mathbf{k}\cdot \mathbf{n}}$$
@@ -85,14 +85,16 @@ $\Omega(\mathbf{k})$ can be interpreted as the potential energy associated with 
 
 ![[Plot Phonon potential|center]]
 
-The derivative of the potential gives us the velocity of the phonon, usually denoted as $c$ and called the **speed of sound** (again, for acoustic phonons). Note that it's not the [[velocità della luce|speed of light]], despite using the same letter. As is expected out of a harmonic oscillator, it is almost linear for small oscillations (i.e. small $\Omega$). Unlike the speed of light, which is governed directly by the laws of physics, the value of the speed of sound depends on the properties of the material.
+The derivative of the potential gives us the velocity of the phonon, usually denoted as $c$ and called the **speed of sound** (again, for acoustic phonons). Note that it's not the [[speed of light]], despite using the same letter. As is expected out of a harmonic oscillator, it is almost linear for small oscillations (i.e. small $\Omega$). Unlike the speed of light, which is governed directly by the laws of physics, the value of the speed of sound depends on the properties of the material.
 
 An atom can oscillate in 3 dimensions. Accordingly, a crystal of $N$ atoms has $3N$ modes of oscillations. These modes are bound by the condition
 $$\int_{0}^{\omega_{\text{max}}}f(\omega)d\omega=3N$$
 where $\omega _\text{max}$ is known as the **Debye frequency** and $f(\omega)$ is the frequency [[Probability distribution|distribution]][^2]. The nature of this upper limit is due to the discrete structure of atomic matter. Remember that the waves that we are not actually continuous, they are essentially the interpolating curve between atoms as the shift and vibrate. As such, this wave can only be as frequent as the atoms are dense. Any more frequent than that and there won't be any atoms to actually oscillate. The Debye frequency is the limit.
 
+:::image
 ![[Phonon max frequency.png]]
-*From Kerson Huang's Statistical Mechanics*
+From *Kerson Huang's Statistical Mechanics, Chapter 17*
+:::
 
 The frequency distribution can be determined by the possible quantum states of $\mathbf{k}$ in a volume $L^{3}=V$ (similarly to the [[Thomas-Fermi approximation]]; after all, $f(\omega)$ is a just the density of frequency states):
 $$f(\omega)d\omega=3\frac{1}{\left( \frac{2\pi}{L} \right)^{3}} 4\pi k^{2}dk=\frac{3V\omega ^{2}}{2\pi^{2}c^{3}}d\omega$$
@@ -153,7 +155,7 @@ When plotted numerically, the heat capacity goes something like this:
 
 ![[Plot Phonon crystal heat capacity|center]]
 
-When the ratio of temperature and Debye temperature approaches one, heat capacity plateaus at $\sim 3$. This model actually works really well for a large class of solids. However, it only works for solids: if the temperature is so high that the material melts, this model stops working.
+When the ratio of temperature and Debye temperature approaches one, heat capacity plateaus at $\sim 3$. This model actually works really well for a large class of solids. However, it only works for solids: if the temperature is so high that the material melts, this model breaks.
 
 [^1]: We are assuming $N$ is even. If $N$ were odd, we'd have $\frac{N}{2}-1$ in each term instead.
 [^2]: Actually, there's another, earlier, distribution due to Einstein (who was the first to investigate this model) which claims that all oscillation modes are equally likely. This makes for an easier solution, but the end result is not very accurate at low temperature. The Debye distribution is instead very accurate at these temperatures.

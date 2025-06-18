@@ -56,6 +56,6 @@ If the ideal gas is subject to a harmonic [[Potential|potential]], the equations
 $$\langle H \rangle =3Nk_{B}T,\qquad C_{V}=3Nk_{B},\qquad c_{N}=3k_{B}$$
 Twice as much as in the no-potential case.
 #### Crystalline solids
-Crystalline solids are subject to elastic potential between atoms. In this case we get
+[[Crystal|Crystalline solids]] are subject to elastic potential between atoms. In this case we get
 $$U=3Nk_{B}T,\qquad C_{V}=3Nk_{B}=3R$$
 where $R$ is the [[Ideal gas constant]]. This is called the [[Dulong-Petit law]], which is true for temperatures large enough that quantum oscillations are not relevant. Note how the ideal gas constant appears here despite talking about solids. This is actually true for any monatomic metal. For a more detailed understanding of this phenomenon, see [[Harmonic oscillator#Oscillator chains]], where we find a more general, quantum version of this law through the use of [[phonon|phonons]].

@@ -44,18 +44,18 @@ $$N=\int_{0}^{E_{F}}g(E)\ dE=\int_{0}^{E_{F}} \frac{4L}{h}\sqrt{ \frac{m}{2} }\f
 Reversing the formula gives the familiar result
 $$E_{F}=\frac{h^{2}}{2m}\left( \frac{N}{4L} \right)^{2}$$
 #### Zero temperature internal energy
-The total [[internal energy]] of a Fermi gas at zero temperature, denoted $E_{0}$, can be found from the Fermi energy. The internal energy is just the sum of the energies of each occupied state. For doubly-degenerate spins in open boundary conditions, that is
-$$E_{0}=2\sum_{n=1}^{N/2} \frac{h^{2}n^{2}}{2m(2L)^{2}}=2 \frac{h^{2}}{2m(2L)^{2}}\sum_{i=1}^{N/2} n^{2}$$
+The total [[internal energy]] of a Fermi gas at zero temperature, denoted $U_{0}$, can be found from the Fermi energy. The internal energy is just the sum of the energies of each occupied state. For doubly-degenerate spins in open boundary conditions, that is
+$$U_{0}=2\sum_{n=1}^{N/2} \frac{h^{2}n^{2}}{2m(2L)^{2}}=2 \frac{h^{2}}{2m(2L)^{2}}\sum_{i=1}^{N/2} n^{2}$$
 We know the sum
 $$\sum_{n=1}^{s} n=\frac{s(s+1)}{2}$$
 The square is
 $$\sum_{n=1}^{s} n^{2}=\frac{s(2s^{2}+3s+1)}{6}\simeq \frac{s^{3}}{3}$$
 where the approximation holds at large $s$ (proven by taking an integral instead of a sum, which are essentially the same for large enough numbers). Back to the energy, we have
-$$\boxed{E_{0}\simeq \frac{2h^{2}}{2m(2L)^{2}} \frac{1}{3}\left( \frac{N}{2} \right)^{2}=\frac{1}{3}NE_{F}}$$
+$$\boxed{U_{0}\simeq \frac{2h^{2}}{2m(2L)^{2}} \frac{1}{3}\left( \frac{N}{2} \right)^{2}=\frac{1}{3}NE_{F}}$$
 The $1/3$ factor depends on the dimension, but $N$ and $E_{F}$ are always the same.
 
 The same result can be found from the DOS by energy:
-$$E_{0}=\int_{0}^{E_{F}}E\ g(E)\ dE=\frac{N}{3}E_{F}$$
+$$U_{0}=\int_{0}^{E_{F}}E\ g(E)\ dE=\frac{N}{3}E_{F}$$
 ### 3D
 We now move on to 3D, in a volume $V=L^{3}$.
 #### Open boundary conditions
@@ -79,7 +79,7 @@ At Fermi energy, the state count *per spin* is still
 $$G(E_{F})=\frac{N}{2}$$
 This is the saving grace. The Pauli exclusion principle doesn't care about dimensionality and will give the same number of states regardless. The only thing that matters is the number of states for each energy level, i.e. the degeneracy, i.e. the number of spin states. If we compare the two equations, we find
 $$\boxed{E_{F}=\frac{\hbar^{2}k_{F}^{2}}{2m}}$$
-where we defined the Fermi wave vector as
+where we defined the Fermi wavevector as
 $$\boxed{k_{F}\equiv\left( 3\pi ^{2} \frac{N}{V} \right)^{1/3}}$$
 The DOS function for both spins can be found to be
 $$\boxed{g(E)=\frac{2Vm^{3/2}\sqrt{ E }}{\sqrt{ 2 }\pi^{2}\hbar ^{3}}}$$
@@ -87,9 +87,9 @@ We can find the number of particles from the DOS:
 $$N=G_\text{both spins}(E)=\int_{0}^{E_{F}}g(E)\ dE=\frac{2\sqrt{ 2 }Vm^{3/2}E_{F}^{3/2}}{3\pi ^{2}\hbar^{3}}$$
 #### Zero temperature internal energy
 The zero temperature internal energy is
-$$E_{0}=\int_{0}^{E_{F}}E\ g(E)\ dE=2 \frac{Vm^{3/2}}{\sqrt{ 2 }\pi ^{2}\hbar ^{3}}\int_{0}^{E_{F}}E^{3/2}dE=2 \frac{Vm^{3/2}}{\sqrt{ 2 }\pi ^{2}\hbar ^{3}} \frac{2}{5}E^{5/2}_{F}$$
+$$U_{0}=\int_{0}^{E_{F}}E\ g(E)\ dE=2 \frac{Vm^{3/2}}{\sqrt{ 2 }\pi ^{2}\hbar ^{3}}\int_{0}^{E_{F}}E^{3/2}dE=2 \frac{Vm^{3/2}}{\sqrt{ 2 }\pi ^{2}\hbar ^{3}} \frac{2}{5}E^{5/2}_{F}$$
 By using $E_{F}^{5/2}=E_{F}^{3/2}+E_{F}$ and substituting the previous formula for $E_{F}$ in $E_{F}^{3/2}$ we get
-$$\boxed{E_{0}=\frac{3}{5}NE_{F}}$$
+$$\boxed{U_{0}=\frac{3}{5}NE_{F}}$$
 As we can see, only the numerical factor changed from the 1D version.
 ## Nonzero temperature
 ### Virial expansion of the equation of state
@@ -166,7 +166,7 @@ The $f_{5/2}(z)$ function is independent from $\beta$, so we only need
 $$\frac{ \partial  }{ \partial \beta } \frac{1}{\lambda ^{3}_{T}}=\frac{ \partial  }{ \partial \beta } \left( 2\pi \hbar ^{2} \frac{\beta}{m} \right)^{-3/2}=- \frac{3}{2\beta}\left( 2\pi \hbar ^{2} \frac{\beta}{m} \right)^{-3/2}=- \frac{3}{2}k_{B}T \frac{1}{\lambda ^{3}_{T}}$$
 We can finally write
 $$\boxed{U=\frac{3}{2}Nk_{B}T \frac{f_{5/2}(z)}{f_{3/2}(z)}}$$
-This is essentially an extended [[equipartition theorem]]. Unfortunately, actually calculating the two $f$ function in closed form is not impossible. We can however use a [[Sommerfeld expansion]] for both of them at $z\gg 1$. The $f_{3/2}$ expansion is above. The $f_{5/2}$ expansion is
+This is essentially an extended [[equipartition theorem]]. Unfortunately, actually calculating the two $f$ function in closed form is not possible. We can however use a [[Sommerfeld expansion]] for both of them at $z\gg 1$. The $f_{3/2}$ expansion is above. The $f_{5/2}$ expansion is
 $$f_{5/2}(z)=\frac{8}{15\sqrt{ \pi }}(\ln z)^{5/2}\left[ 1+ \frac{5\pi^{2}}{8} \frac{1}{(\ln z)^{2}}+\ldots \right]$$
 Using the first term of each we get
 $$U=\frac{3}{2}Nk_{B}T\left[  \frac{\frac{8}{15\sqrt{ \pi }}(\ln z)^{5/2}}{\frac{4}{3\sqrt{ \pi }}(\ln z)^{3/2}} \right]=\frac{3}{2}Nk_{B}T \frac{2}{5}\ln z$$
@@ -176,10 +176,10 @@ which proves that this is a self-consistent description. If we add more terms we
 $$\begin{align}
 U&=\frac{3}{2}Nk_{B}T \frac{2}{5}\ln z \left[ \frac{1+ \frac{5\pi ^{2}}{8} \frac{1}{(\ln z)^{2}}}{1+ \frac{\pi ^{2}}{8} \frac{1}{(\ln z)^{2}}} \right] \\
 &\simeq\frac{3}{2}Nk_{B}T \frac{2}{5}\ln z\left( 1+ \frac{5\pi ^{2}}{8} \frac{1}{(\ln z)^{2}} \right)\left( 1- \frac{\pi ^{2}}{8} \frac{1}{(\ln z)^{2}} \right) \\
-&\simeq \frac{3}{5}Nk_{B}T\ln z\left( 1- \frac{\pi ^{2}}{2} \frac{1}{(\ln z)^{2}} \right)
+&\simeq \frac{3}{5}Nk_{B}T\ln z\left( 1- \frac{\pi ^{2}}{12} \frac{1}{(\ln z)^{2}} \right)
 \end{align}$$
 and so
-$$\boxed{U=\frac{3}{5}NE_{F}\left( 1- \frac{\pi ^{2}}{2} \frac{1}{(\ln z)^{2}} \right)}$$
+$$\boxed{U=\frac{3}{5}NE_{F}\left( 1- \frac{\pi ^{2}}{12} \frac{1}{(\ln z)^{2}} \right)}$$
 From this, we can find other thermodynamic quantities.
 
 [^1]: Though this may look odd, this is a valid method for inverting series expansions. It comes from perturbation theory and is based off the fact that it is legitimate to approximate higher-order terms using lower-order terms (here using a first-order term to approximate the second-order one). It works when $\lambda ^{3}_{T}/v=n\lambda ^{3}_{T}$ is small, but since $n\lambda ^{3}_{T}\ll 1$ is precisely the working definition of "quantum effects region", it certainly works here.

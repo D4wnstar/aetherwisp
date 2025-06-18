@@ -302,7 +302,7 @@ $$\boxed{H_{2}'=\frac{Ze^{2}}{8m^{2}c^{2}\pi \varepsilon_{0}r^{3}}\mathbf{L}\cdo
 This correction does not commute with neither $L_{z}$ nor $S_{z}$, so to find the eigenvalue correction we must first identify some states that [[Diagonalization|diagonalize]] $H_{2}'$. To do so, we introduce the total angular momentum
 $$\mathbf{J}\equiv \mathbf{L}+\mathbf{S}$$
 which associated quantum numbers $j$ and $m_{j}$. This allows us to write the [[scalar product]] as
-$$\mathbf{L}\cdot \mathbf{S}=\frac{1}{2}(\mathbf{J}-\mathbf{L}^{2}-\mathbf{S}^{2})$$
+$$\mathbf{L}\cdot \mathbf{S}=\frac{1}{2}(\mathbf{J}^{2}-\mathbf{L}^{2}-\mathbf{S}^{2})$$
 A good [[basis]] is the one given by the states
 $$\ket{\psi_{nlm_{l}m_{s}}} \equiv \sum_{m_{l},m_{s}}\braket{ \frac{1}{2}lm_{l}m_{s} | jm_{j} } \ket{\chi_{m_{s}}\psi_{nlm_{l}}} $$
 The scalar product in the sum are a well-known set of numbers called the [[Clebsch-Gordan coefficients]] for $s=1/2$. In these states we have the eigenvalue equations

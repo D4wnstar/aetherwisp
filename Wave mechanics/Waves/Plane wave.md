@@ -1,7 +1,17 @@
 ---
 wiki-publish: true
 ---
-A **plane wave** is a [[Wave]] whose [[Wavefront]] is a plane everywhere. It is the most basic kind of wave and any wave can be seen as being locally plane at small enough scales.
+A **plane wave** is a [[wave]] whose [[wavefront]] is a [[plane]] everywhere. It is the most basic kind of wave and any wave can be seen as being locally plane at small enough scales. The simplest form is the **monochromatic** or **sinusoidal plane wave**, whose general equation is
+$$u(\mathbf{r},t)=A\sin(\mathbf{k}\cdot \mathbf{r}-\omega t+\varphi)$$
+where
+- $A$ is constant interpreted as the [[Wave equation|amplitude]] of the wave.
+- $\mathbf{k}$ is the [[Wavenumber|wavevector]]. This is constant in a monochromatic wave.
+- $\omega$ is the [[Frequency|angular frequency]]. This is constant in a monochromatic wave.
+- $\varphi$ is the [[phase]].
+
+Often, the wave is given as a complex wave using a complex exponentials:
+$$\tilde{u}(\mathbf{r},t)=Ae^{i[\mathbf{k}\cdot \mathbf{r}-\omega t+\varphi]}$$
+The [[real and imaginary parts|real part]] of the complex wave is the previous equation: $\text{Re}[\tilde{u}(\mathbf{r},t)]=u(\mathbf{r},t)$. The reason for this is that it's often a lot easier to work with complex exponentials that it is to deal with sines and cosines.
 ### Conditions
 The condition that the wavefront must be a plane at any given time gives us the mathematical backing to describe the wave with an equation. To start, consider a plane [[surface]] oriented in no particular way in three dimensional space. Call $\mathbf{k}$ the normal vector to the surface, $\mathbf{r}$ and $\mathbf{r}_{0}$ two vectors pointing to two points on the surface.
 

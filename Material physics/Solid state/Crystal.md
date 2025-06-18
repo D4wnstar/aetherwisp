@@ -5,7 +5,7 @@ aliases:
 ---
 A **crystal** is a material that exhibits a periodic structure at a microscopic level, called the **crystal structure**. If the periodicity is extended through the entire specimen, it is simply called a crystal or a **monocrystalline** material. Otherwise, if the specimen is made up of many smaller pieces, each with their own crystalline structure, then it is said to be a **polycrystalline** material. Polycrystalline specimens are much more common in nature.
 
-Mathematically, a crystal can be described by giving its underlying [[Bravais lattice]] alongside a description of the arrangements of its [[atom|atoms]], [[Molecule|molecules]], [[ion|ions]], etc. within a particular primitive cell of the lattice. This arrangement is known as the **basis** of the lattice. The crystal structure then consists of copying each cell alongside its basis to fill space, using the lattice points as markers on where to place the cells[^1].
+Mathematically, a crystal can be described by giving its underlying [[Bravais lattice]] alongside a description of the arrangements of its [[atom|atoms]], [[Molecule|molecules]], [[ion|ions]], etc. within a particular primitive cell of the lattice. This arrangement is known as the **basis** of the lattice. The crystal structure then consists of copying each cell alongside its basis to fill space, using the lattice points as markers on where to place the cells[^1]. A model of great theoretical importance is the [[ideal crystal]].
 
 :::image
 ![[Bravais lattice basis.png]]

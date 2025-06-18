@@ -76,5 +76,3 @@ Periodic boundary conditions: Pacman loop, $\psi(0)=\psi(L)$. If particles are p
 For Fermi energy, need to count highest $n$ or $k$ through exclusion principle.
 ### Lagrange multipliers
 Constraints: $g_{1}(x)=1-\sum_{x}p(x)$ and $g_{2}(x)=U-\sum_{x}E(x)p(x)$. Find Lagrangian, take derivative, find zero, extract quantity.
-## Esercizi
-Uno degli esercizi dell'esame è sicuramente "gas di fermioni/bosoni in 1/2/3/4 dimensioni con distribuzione in $p$/$p^{2}$". Sono 16 possibili combinazioni.

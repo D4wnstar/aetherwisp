@@ -3,7 +3,7 @@ wiki-publish: true
 ---
 The **reciprocal lattice** of a [[Bravais lattice]] is, loosely speaking, the lattice formed by its [[Wavenumber|wavevectors]] in [[reciprocal space]]. In this context, the original Bravais lattice is said to be the **direct lattice** (or **real lattice**).
 
-Mathematically, consider a Bravais lattice of points $\mathbf{R}$ and a [[plane wave]] $e^{i\mathbf{k}\cdot \mathbf{r}}$. The set of all wavevectors $\mathbf{K}$ that yield plane waves with the same periodicity of the Bravais lattice identify another lattice known as the reciprocal lattice. The vectors $\mathbf{K}$ are those that satisfy
+Mathematically, consider a Bravais lattice of points $\mathbf{R}$ and a [[plane wave]] $e^{i\mathbf{k}\cdot \mathbf{r}}$. The set of all wavevectors $\mathbf{K}$ that yield plane waves with the same periodicity of the Bravais lattice identifies another lattice known as the reciprocal lattice. The vectors $\mathbf{K}$ are those that satisfy
 $$e^{i\mathbf{K}\cdot (\mathbf{r}+\mathbf{R})}=e^{i\mathbf{K}\cdot \mathbf{r}}\quad \Rightarrow\quad e^{i\mathbf{K}\cdot \mathbf{R}}=1\quad\Rightarrow \quad \mathbf{K}\cdot \mathbf{R}=2\pi n\quad\text{where }n\in \mathbb{Z}$$
 for all points $\mathbf{R}$. To visualize this, think of a 1D lattice (a line of equally spaced points). Now imagine a plane wave that passes through all of those points. The $\mathbf{K}$ that defines that wave, alongside all its periodic multiples ($2\pi \mathbf{K}$) makes the 1D reciprocal lattice.
 

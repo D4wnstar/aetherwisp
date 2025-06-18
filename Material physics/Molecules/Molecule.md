@@ -7,7 +7,7 @@ Compared to the study of [[atom|atoms]], the study of molecules is greatly compl
 
 Moreover, not all electrons are bound to the nucleus with the same strength. Electrons in complete [[electron shell model|shells]] are bound to the nucleus much more strongly than electrons in the incomplete outermost shell, broadly speaking difference between $\sim 10\text{ eV}$ and $\sim 1\text{ eV}$. As such, only the outer electrons, the *valence* electrons, are assumed to take part in molecular bonding.
 
-Some nomenclature: molecular orbitals are generally abbreviated as **MO**, while atomic ones as **AO**. The highest-energy occupied molecular orbital is called **HOMO** and the lowest-energy unoccupied molecular orbital is called **LUMO**. The **excitation energy** of a molecule is given by the energy difference between LUMO and HOMO: $\Delta E\equiv E_{\text{LUMO}}-E_\text{HOMO}$.
+Some nomenclature: molecular orbitals are generally abbreviated as **MO**, while atomic ones as **AO**. The highest-energy occupied molecular orbital is called **HOMO**, the lowest-energy unoccupied molecular orbital is called **LUMO** and a singly-occupied molecular orbital is called **SOMO**. The **excitation energy** of a molecule is given by the energy difference between LUMO and HOMO: $\Delta E\equiv E_{\text{LUMO}}-E_\text{HOMO}$.
 ### Symmetries in diatomic molecules
 Diatomic homonuclear[^1] molecules are certainly the easiest case to deal with, in part due to the [[symmetry|symmetries]] that they present. To illustrate these, call $z$ the axis defined by the line between the two nuclei (the **bond axis**) and $\mathbf{L}$ the [[Momento angolare quantistico|quantum angular momentum]] of [[electron|electrons]] in a certain state. The projection of $\mathbf{L}$ on the $z$ axis and more so its [[Equazione agli autovalori|eigenvalues]] $M_{z}$
 $$L_{z}\psi=\hbar M_{z}\psi,\quad M_{z}=0,\pm1,\pm2,\ldots$$
@@ -31,7 +31,7 @@ The real value of symmetries is that, broadly speaking, only atomic orbitals of 
 When it comes to diatomic molecules, there's a useful rule regarding symmetries that relies on the fact that the electronic terms only rely on the internuclear distance $R$.
 
 > [!info] von Neumann-Wigner non-crossing rule
-> Electronic states, represented by their potentials $E(R)$, that have the same symmetries never cross when varying internuclear distance $R$. In other words, given two distinct electronic states $E_{1}(R)$ and $E_{2}(R)$, there does *not* exist an $R_{C}$ for which $E_{1}(R_{C})=E_{2}(R_{C})$.
+> Electronic states, represented by their potentials $E(R)$, that have the same symmetries never cross when varying internuclear distance $R$. In other words, given two distinct electronic states $E_{1}(R)$ and $E_{2}(R)$ with the same symmetries, there does *not* exist a distance $R^{*}$ for which $E_{1}(R^{*})=E_{2}(R^{*})$.
 #### Examples
 > [!example] Lithium hydride
 > Lithium hydride $\text{LiH}$ is a heteronuclear molecule with four total electron, three from lithium and one from hydrogen. An isolated, neutral lithium atom has ground state $1s^{2}2s$. The ground state of hydrogen is as usual $1s$. The $1s^{2}$ shell in lithium is complete, so we can imagine it will not bond in any way. The technical reason is that only orbitals of similar energy are likely to bond. The energies involved here are
