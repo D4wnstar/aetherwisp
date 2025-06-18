@@ -1,9 +1,9 @@
 ---
 wiki-publish: true
 ---
-Many mechanical [[Physical system|systems]] are subject to one or more [[Constraint|constraints]] that reduce the degree to which the system is allowed to move. This information is often known in advance of solving the system, such as the length of the wire of a [[simple pendulum]], and can be used to diminish the amount of variables that we need to describe the motion of the system. Most of what's necessary to make use of these constraint comes from differential geometry, which allows us to manipulate the [[Vector space|vector spaces]] of the system and restrict them to only the things that we strictly need.
+Many mechanical [[Physical system|systems]] are subject to one or more [[Constraint|constraints]] that reduce the degree to which the system is allowed to move. This information is often known in advance of solving the system, such as the length of the rod of a [[simple pendulum]], and can be used to diminish the amount of variables that we need to describe the motion of the system. Most of what's necessary to make use of these constraint comes from differential geometry, which allows us to manipulate the [[Vector space|vector spaces]] of the system to restrict them to only the things that we strictly need.
 
-To start, consider a [[point mass]] of [[mass]] $m$ present at some point $\mathbf{r}$ in space.
+To start, consider a [[point mass]] of [[mass]] $m$ at some point $\mathbf{r}$ in space.
 
 ![[Plot Point mass system|50%]]
 
@@ -19,9 +19,9 @@ x(t) \\
 y(t) \\
 z(t)
 \end{pmatrix}$$
-which is now a [[curve]] function $\mathbf{r}:\mathbb{R}\to \mathbb{R}^{3}$ that sends $t$ to $\mathbf{r}(t)$.
+which is now a [[curve]] function $\mathbf{r}:\mathbb{R}\mapsto \mathbb{R}^{3}$ that sends $t$ to $\mathbf{r}(t)$.
 
-The coordinate transformation that we would need to convert between coordinates is a function from $\mathbb{R}^{3}$ to $\mathbb{R}^{3}$ that sends $(x,y,z)$ to $(q_{1},q_{2},q_{3})$. Importantly, it  must be invertible, which is like saying that the [[determinant]] of its [[Jacobian]] is nonzero:
+The coordinate transformation that we would need to convert between coordinates is a function from $\mathbb{R}^{3}$ to $\mathbb{R}^{3}$ that sends $(x,y,z)$ to $(q_{1},q_{2},q_{3})$. Importantly, it must be invertible, which is like saying that the [[determinant]] of its [[Jacobian]] must be nonzero:
 $$\det \begin{pmatrix}
 \frac{ \partial x }{ \partial q_{1} } & \frac{ \partial x }{ \partial q_{2} } & \frac{ \partial x }{ \partial q_{3} }   \\
 \frac{ \partial y }{ \partial q_{1} } & \frac{ \partial y }{ \partial q_{2} } & \frac{ \partial y }{ \partial q_{3} }   \\
@@ -29,18 +29,17 @@ $$\det \begin{pmatrix}
 \end{pmatrix}\neq 0$$
 For this to be true, the three columns[^1] must be [[Linear independence|linearly independent]]. The columns are given by
 $$\frac{ \partial \mathbf{r} }{ \partial q_{1} }, \quad \frac{ \partial \mathbf{r} }{ \partial q_{2} } ,\quad \frac{ \partial \mathbf{r} }{ \partial q_{3} } $$
-But three linearly independent vectors always form a basis of $\mathbb{R}^{3}$. Also, recall that derivatives can be geometrically interpreted as the tangent line at any point on the graph of the thing you are taking the derivative of. So, what we have here is a basis made up of tangents to the position vector.
+But three linearly independent vectors always form a basis of $\mathbb{R}^{3}$, which makes this a basis. Also, recall that derivatives can be geometrically interpreted as the tangents to the function you are taking the derivative of. So what we have here is a basis made up of tangents to the position vector.
 
-The main benefit of using such an odd basis is that it comes in very handy in so called **constrained systems**, systems that are constrained to move only in a very particular part of space. Next up is showing why this is true.
+The main benefit of using such an odd basis is that it comes in very handy in so called **constrained systems**, systems that are constrained to move only in a very particular part of space. Let's see why this is true.
 ### Surfaces
 A [[surface]] $Q$ can be described in one of two ways.
+1. One way is, given a [[vector field]] $f(x,y,z)$, the surface is the locus of all points where $f(x,y,z)=0$. $f$ must be smooth and such that the [[gradient]] $\nabla f\neq 0$ for all points on the surface.
+2. The other way is using a parameterization of two parameters, which are coordinates on the surface. The coordinates $\mathbf{r}$ in $\mathbb{R}^{3}$ may be given by the $\mathbb{R}^{2}$ coordinates on the surface $(q_{1},q_{2})$ by
+$$x\equiv x(q_{1},q_{2}),\quad y\equiv y(q_{1},q_{2}),\quad z\equiv z(q_{1},q_{2})$$
 
-One way is, given a [[vector field]] $f(x,y,z)$, the surface is the locus of all points where $f(x,y,z)=0$. $f$ must be smooth and such that the [[gradient]] $\nabla f\neq 0$ for all points on the surface.
-
-The other way is using a parameterization of two parameters, which are coordinates on the surface. The coordinates $\mathbf{r}$ in $\mathbb{R}^{3}$ may be given by the $\mathbb{R}^{2}$ coordinates on the surface $(q_{1},q_{2})$ by
-$$x=x(q_{1},q_{2}),\quad y=y(q_{1},q_{2}),\quad z=z(q_{1},q_{2})$$
-For instance, a [[palla|ball]] of unit radius in $\mathbb{R}^{3}$  is defined with method 1 by $x^{2}+y^{2}+z^{2}=1$. With method 2, since we know the radius, we can use angular dependencies in [[spherical coordinates]] to state:
-$$x=x(\theta,\phi)=\cos \theta \sin \phi,\quad y=y(\theta,\phi)=\sin \theta \sin \phi,\quad z=z(\theta,\phi)=\cos \phi$$
+For instance, a [[palla|ball]] of unit radius in $\mathbb{R}^{3}$  is defined with method 1 by $x^{2}+y^{2}+z^{2}-1=0$. With method 2, since we know the radius, we can use angular part of [[spherical coordinates]] to state:
+$$x\equiv x(\theta,\phi)=\cos \theta \sin \phi,\quad y\equiv y(\theta,\phi)=\sin \theta \sin \phi,\quad z\equiv z(\theta,\phi)=\cos \phi$$
 
 We have successfully reduced the dimensions we work with from 3 to 2 by relying on knowledge about the problem at hand. We want to describe how things move on this surface. To do so, we need the tangents to any point so we can express the idea of movement in a given direction. For a start, take some point on the surface, say $P=(q_{1}^{*},q_{2}^{*})$. There are infinite possible tangents passing through this point and as a whole they form a set that we call **[[tangent space]]**, denoted $T_{P}Q$, which is a two-dimensional [[vector space]]. Great, now what? Well, remember that before we found a universal basis made of tangents. Since that applies anywhere in space, the same argument works just as well over this surface, just instead of ending up with three vectors we only need two:
 $$\frac{ \partial \mathbf{r} }{ \partial q_{1} } ,\quad \frac{ \partial \mathbf{r} }{ \partial q_{2} } $$
