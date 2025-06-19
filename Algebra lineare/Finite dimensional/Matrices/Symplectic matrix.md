@@ -2,6 +2,7 @@
 wiki-publish: true
 aliases:
   - standard symplectic matrix
+  - symplectic
 ---
 A **symplectic matrix** $\mathrm{M}$ is a $2n\times2n$ [[matrix]] which satisfies the following condition:
 $$\mathrm{M}\mathrm{E}\mathrm{M}^{T}=\mathrm{E}$$

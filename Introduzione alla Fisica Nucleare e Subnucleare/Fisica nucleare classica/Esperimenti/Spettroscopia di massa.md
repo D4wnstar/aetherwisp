@@ -35,4 +35,4 @@ Uno spettrometro di massa permette anche di misurare le abbondanze relative dei 
 
 ![[Schema Abbondanze isotopiche Sistema Solare|center]]
 
-[^1]: In realtà qui manca l'[[energia di legame]], ma tra atomi è talmente piccola da essere trascurabile anche entro il margine di errore $\mathcal{O}(10^{-9}u)$.
+[^1]: In realtà qui manca l'[[Binding energy]], ma tra atomi è talmente piccola da essere trascurabile anche entro il margine di errore $\mathcal{O}(10^{-9}u)$.

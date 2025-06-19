@@ -1,7 +1,7 @@
 ---
 wiki-publish: true
 ---
-The **Hamiltonian** $H$ of a [[conservative system]] is the [[Laplace transform]] of the [[Lagrangian]] $L$:
+The **Hamiltonian** $H$ of a [[conservative system]] is the [[Legendre transform]] of the [[Lagrangian]] $L$:
 $$H(p,q,t)\equiv\left.{(\mathbf{p}\cdot \dot{\mathbf{q}}-L(q,\dot{q},t))}\right|_{\dot{q}_{i}=u_{i}(p,q,t)}$$
 $\mathbf{q}$ are the [[generalized coordinates]] and $\mathbf{p}$ are the [[conjugate momenta]]. In mechanical systems, it coincides with the total [[energy]]:
 $$H=T+V$$

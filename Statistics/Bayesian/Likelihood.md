@@ -6,4 +6,4 @@ $$x \rightarrow P(x|\theta)$$
 and the likelihood of the parameters given $x$ is
 $$\theta \rightarrow P(\theta|x):= L(\theta|x)$$
 which can be interpreted as the confidence level in the parameters $\theta$ after observing $x$.  
-The likelihood is a key component of [[Bayes' theorem]], where it is multiplied by the [[prior]] to obtain the [[posterior]].
+The likelihood is a key component of [[Bayes' theorem]], where it is multiplied by the [[Prior]] to obtain the [[Posterior]].

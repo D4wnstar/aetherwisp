@@ -4,7 +4,7 @@ aliases:
   - MLE
   - binned maximum likelihood
 ---
-**Maximum likelihood estimation** (**MLE**) is a [[parameter estimation]] method that uses the [[likelihood]] function to determine the most accurate [[Estimator|point estimate]], specifically by finding the maximum of the likelihood.
+**Maximum likelihood estimation** (**MLE**) is a [[parameter estimation]] method that uses the [[Likelihood]] function to determine the most accurate [[Estimator|point estimate]], specifically by finding the maximum of the likelihood.
 
 Given a likelihood function $\mathcal{L}(x_{1},\ldots,x_{n};\theta_{1},\ldots,\theta_{m})$ for a set of parameter $\theta_{1},\ldots,\theta_{m}$ and a [[sample]] $\{ x_{i} \}_{i\in \mathbb{N}}$, the most accurate point estimates $\theta_{1}^{*},\ldots,\theta_{m}^{*}$ are the values for which the following system of derivatives is verified:
 $$\left\{\begin{align}

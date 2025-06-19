@@ -5,7 +5,7 @@ L'**effetto fotoelettrico** è un fenomeno di assorbimento di [[radiazione elett
 ### Meccanismo
 Il processo può essere schematizzato come
 $$\gamma+X \rightarrow X^{+}+e^{-}$$
-con $X$ la specie atomica soggetta. Il fotone incidente deve avere energia maggiore dell'[[energia di legame]] dell'atomo, a modo che quando l'elettrone assorbe il fotone, ottiene energia sufficiente per liberarsi, lasciando l'atomo in uno stato ionizzato. L'elettrone emesso avrà energia cinetica pari alla differenza tra energia del fotone e energia di legame
+con $X$ la specie atomica soggetta. Il fotone incidente deve avere energia maggiore dell'[[Binding energy]] dell'atomo, a modo che quando l'elettrone assorbe il fotone, ottiene energia sufficiente per liberarsi, lasciando l'atomo in uno stato ionizzato. L'elettrone emesso avrà energia cinetica pari alla differenza tra energia del fotone e energia di legame
 $$E_{e^{-}}=E_{\gamma}-E_{b}$$
 L'assorbimento del fotone, e quindi l'effetto fotoelettrico, può avvenire solo per elettroni legati, non liberi, perché ciò violerebbe la conservazione della [[Invariant mass]] (diminuirebbe dopo l'assorbimento).
 

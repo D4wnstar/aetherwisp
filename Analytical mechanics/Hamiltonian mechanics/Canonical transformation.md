@@ -3,7 +3,7 @@ wiki-publish: true
 aliases:
   - conjugate Hamiltonian
 ---
-A **canonical transformation** is a [[coordinate transformation]] that transforms a set of coordinates that satisfy the [[Hamilton equations|Hamilton equations]] into another set that also satisfies them.
+A **canonical transformation** is a [[coordinate transformation]] that transforms a set of [[canonical coordinates]] that satisfy the [[Hamilton equations|Hamilton equations]] into another set that also satisfies them. It is said that canonical transformations **preserve the form** of the Hamilton equations.
 
 Mathematically, the transformation $q_{i}=u_{i}(\tilde{q},\tilde{p},t)$, $p_{i}=v_{i}(\tilde{q},\tilde{p},t)$ is canonical if for all [[Hamiltonian|Hamiltonians]] $H(q,p,t)$, there exists a function $K(\tilde{q},\tilde{p},t)$ called the **conjugate Hamiltonian** such that, if the equations of motion in coordinates $(q,p)$ obey the Hamilton equations
 $$\dot{p}_{i}=-\frac{ \partial H }{ \partial q_{i} },\quad  \dot{q}_{i}=\frac{ \partial H }{ \partial p_{i} }$$
@@ -13,54 +13,73 @@ The solutions are related by the functions $u$ and $v$ as $q_{i}(t)=u_{i}(\tilde
 ### Canonicity criteria
 Determining if a transformation is canonical can be arduous: you have to prove that it is canonical for *all* possible Hamiltonians, and there's infinite of them. Sometimes this brute force way is a valid approach, such as in some of the examples below, but there is a better method to ensuring canonicity. For a transformation to be canonical, it must satisfy the so-called **canonicity criteria**.
 
-Consider a generic coordinate transformation $x_{i}=w_{i}(\tilde{x},t)$. The inverse is $\tilde{x}=\tilde{w}_{i}(x,t)$. Motion in [[phase space]] is described by the either the functions $x_{i}(t)$ or $\tilde{x}_{i}(t)$, linked by the aforementioned equations as $x_{i}(t)=w(\tilde{x}(t),t)$ and $\tilde{x}_{i}(t)=\tilde{w}(x(t),t)$. The derivative is
-$$\dot{\tilde{x}}_{i}=\sum_{j=1}^{n} \underbrace{ \frac{ \partial \tilde{w}_{i} }{ \partial x_{j} } }_{ \tilde{J}_{ij} } (x(t),t)\dot{x}_{j}(t)+\frac{ \partial \tilde{w} }{ \partial t } (x(t),t)$$
-where $\tilde{J}$ is the [[Jacobian]] of $\tilde{w}$. If $\dot{x}_{j}=f_{j}(x,t)$, then
-$$\dot{\tilde{x}}_{i}=\sum_{j=1}^{2n} \tilde{J}_{ij}(w(\tilde{x}(t),t),t)f_{j}(w(\tilde{x}(t),t),t)+\frac{ \partial \tilde{w} }{ \partial t } (w(\tilde{x}(t),t),t)$$
-Let's say that $\dot{\mathbf{x}}=\mathrm{E}\nabla_{x}H$, with individual components $\dot{x}_{i}=\sum_{l}\mathrm{E}_{ij}\frac{ \partial H }{ \partial x_{l} }=f_{i}(x,t)$. Thus
+Assume we're working for some [[dynamical system]] $\dot{\mathbf{x}}=f(\mathbf{x},t)$. Consider a generic coordinate transformation $x_{i}=w_{i}(\tilde{\mathbf{x}},t)$. The inverse is $\tilde{x}_{i}=\tilde{w}_{i}(\mathbf{x},t)$. Motion in [[phase space]] is described by either $x_{i}(t)$ or $\tilde{x}_{i}(t)$, linked by the aforementioned equations as $x_{i}(t)=w(\tilde{\mathbf{x}}(t),t)$ and $\tilde{x}_{i}(t)=\tilde{w}(\mathbf{x}(t),t)$. The [[Differential|total time derivative]] is
+$$\dot{\tilde{x}}_{i}=\sum_{j=1}^{n} \underbrace{ \frac{ \partial \tilde{w}_{i} }{ \partial x_{j} } }_{ \tilde{J}_{ij} } (\mathbf{x}(t),t)\dot{x}_{j}(t)+\frac{ \partial \tilde{w} }{ \partial t } (\mathbf{x}(t),t)$$
+where $\tilde{J}$ is the [[Jacobian]] of $\tilde{w}$. Since $\dot{x}_{j}=f_{j}(\mathbf{x},t)$, then
+$$\dot{\tilde{x}}_{i}=\sum_{j=1}^{2n} \tilde{J}_{ij}(w(\tilde{\mathbf{x}}(t),t),t)f_{j}(w(\tilde{\mathbf{x}}(t),t),t)+\frac{ \partial \tilde{w} }{ \partial t } (w(\tilde{\mathbf{x}}(t),t),t)$$
+There's a lot of function composition going on here. To avoid making the notation even more cluttered, we'll suppress the function argument in future steps. Still, you should remember that we're working with functions, not constants. The previous step becomes
+$$\dot{\tilde{x}}_{i}=\sum_{j=1}^{2n} \tilde{J}_{ij}f_{j}+\frac{ \partial \tilde{w} }{ \partial t } $$
+Let's say that our coordinates solve the Hamilton equations $\dot{\mathbf{x}}=\mathrm{E}\nabla_{\mathbf{x}}H=f(\mathbf{x},t)$, with individual components $\dot{x}_{i}=\sum_{l}\mathrm{E}_{il}\frac{ \partial H }{ \partial x_{l} }=f_{i}(\mathbf{x},t)$. Then,
 $$\dot{\tilde{x}}_{i}=\sum_{j=1}^{2n} \tilde{J}_{ij}\sum_{l}\mathrm{E}_{il}\frac{ \partial H }{ \partial x_{l} } +\frac{ \partial \tilde{w}_{i} }{ \partial t } $$
-In vector form, $\dot{\tilde{\mathbf{x}}}=\tilde{J}\mathrm{E}\nabla_{x}H+\frac{ \partial \tilde{\mathbf{w}} }{ \partial t }$. If the transformation is canonical, then this must also be equal to $\dot{\tilde{\mathbf{x}}}=\mathrm{E}\nabla_{\tilde{x}}K$. This provides an initial criterion for canonicity[^1].
+Or in vector form,
+$$\dot{\tilde{\mathbf{x}}}=\tilde{J}\mathrm{E}\nabla_{\mathbf{x}}H+\frac{ \partial \tilde{\mathbf{w}} }{ \partial t }$$
+If the transformation is canonical, then this must also be equal to $\dot{\tilde{\mathbf{x}}}=\mathrm{E}\nabla_{\tilde{\mathbf{x}}}K$. This provides an initial criterion for canonicity[^1].
 
 > [!info] Canonicity lemma
-> A transformation is canonical if, for all $H(x,t)$, there exists a conjugate Hamiltonian $K(\tilde{x},t)$ such that
-> $$\tilde{J}\mathrm{E}\nabla_{x}H+\frac{ \partial \tilde{w} }{ \partial t } =\mathrm{E}\nabla_{\tilde{x}}K$$
+> A transformation is canonical if, for all $H(\mathbf{x},t)$, there exists a conjugate Hamiltonian $K(\tilde{\mathbf{x}},t)$ such that
+> $$\tilde{J}\mathrm{E}\nabla_{\mathbf{x}}H+\frac{ \partial \tilde{\mathbf{w}} }{ \partial t } =\mathrm{E}\nabla_{\tilde{\mathbf{x}}}K$$
 > In particular, we call $K_{0}$ the conjugate Hamiltonian when $H=0$, that is
-> $$\mathrm{E}\nabla_{\tilde{x}}K_{0}=\frac{ \partial \tilde{w} }{ \partial t } $$
+> $$\frac{ \partial \tilde{\mathbf{w}} }{ \partial t }=\mathrm{E}\nabla_{\tilde{\mathbf{x}}}K_{0} $$
 
-$$\mathrm{E}\nabla_{\tilde{x}}K=\tilde{J}\mathrm{E}\nabla_{x}H+\frac{ \partial \tilde{w} }{ \partial t } =\mathrm{E}^{-1}\mathrm{E}\tilde{J}\mathrm{E}\tilde{J}^{T}(\tilde{J}^{T})^{-1}\nabla_{x}H+\frac{ \partial \tilde{w} }{ \partial t }=\ldots$$
-$$(\underbrace{ (\tilde{J}^{T})^{-1} }_{ =(\tilde{J}^{-1})^{T} }\nabla_{x}H)_{i}=\sum_{j}J_{ij}^{T}\frac{ \partial H }{ \partial x_{j} } =\sum_{j}J_{ji}\frac{ \partial H }{ \partial x_{j} } =\sum_{j}\frac{ \partial w_{j} }{ \partial \tilde{x}_{i} } \frac{ \partial H }{ \partial x_{j} } =\sum_{j}\frac{ \partial H }{ \partial x_{j} } \frac{ \partial w_{j} }{ \partial \tilde{x}_{i} } =\frac{ \partial \tilde{H} }{ \partial \tilde{x}_{i} } $$
-where $\tilde{H}(\tilde{x},t)\equiv H(w(\tilde{x},t),t)$. Then
-$$\ldots=-\mathrm{E}\mathrm{E}\tilde{J}\mathrm{E}\tilde{J}^{T}\nabla_{\tilde{x}}\tilde{H}+\mathrm{E}\nabla_{\tilde{x}}K_{0}$$
-By applying $\mathrm{E}^{-1}$ on the left on both sides of the equation we get
-$$-\mathrm{E}\tilde{J}\mathrm{E}\tilde{J}^{T}\nabla_{\tilde{x}}\tilde{H}=\nabla_{\tilde{x}}(K-K_{0})$$
-This won't be proven here, but $-\mathrm{E}\tilde{J}\mathrm{E}\tilde{J}^{T}\nabla_{\tilde{x}}\tilde{H}$ is [[Vector field|irrotational]] for all $H$. Hence, we can write
+The issue now is that we don't really know what $K$ *is*. We'll start from $\mathrm{E}\nabla_{\mathbf{x}}K$ and see what we can do.
+$$\mathrm{E}\nabla_{\tilde{\mathbf{x}}}K=\tilde{J}\mathrm{E}\nabla_{\mathbf{x}}H+\frac{ \partial \tilde{\mathbf{w}} }{ \partial t } =\tilde{J}\mathrm{E}\tilde{J}^{T}(\tilde{J}^{T})^{-1}\nabla_{\mathbf{x}}H+\mathrm{E}\nabla_{\tilde{\mathbf{x}}}K_{0}=\ldots$$
+In the first step, we used the first part of the canonicity lemma. In the second, we used the second part of the lemma and we arbitrarily added $\tilde{J}^{T}(\tilde{J}^{T})^{-1}$ since a [[matrix]] multiplied by its [[Invertible matrix|inverse]] is the [[identity matrix]] and doesn't change anything. It's a weird step, but it allows us to use the following equality. First, notice that, since $\tilde{J}^{-1}=J$, $(\tilde{J}^{T})^{-1}=(\tilde{J}^{-1})^{T}=J^{T}$. Then
+$$\begin{align}
+((\tilde{J}^{T})^{-1} \nabla_{\mathbf{x}}H)_{i}&=\sum_{j}J_{ij}^{T}\frac{ \partial H }{ \partial x_{j} } \\
+(\text{symmetric: }J^{T}_{ij}=J_{ji})&=\sum_{j}J_{ji}\frac{ \partial H }{ \partial x_{j} } \\
+\left( \text{def: }J_{ij}=\frac{ \partial w_{j} }{ \partial \tilde{x}_{i} }  \right)&=\sum_{j}\frac{ \partial w_{j} }{ \partial \tilde{x}_{i} } \frac{ \partial H }{ \partial x_{j} } \\
+(\text{def: }H(w(\tilde{x},t),t)\equiv\tilde{H}(\tilde{x},t))&=\frac{ \partial \tilde{H} }{ \partial \tilde{x}_{i} } 
+\end{align}$$
+The last step uses the [[chain rule]]. In vector form:
+$$(\tilde{J}^{T})^{-1}\nabla_{\mathbf{x}}H=\nabla_{\tilde{\mathbf{x}}}\tilde{H}$$
+The meaning of this is that we can use the Jacobian of the transformation to transform from the [[gradient]] in $\mathbf{x}$ of $H$ to the one in $\tilde{\mathbf{x}}$ of $\tilde{H}$ (basically, we use the derivatives of the transformation to transform the *gradient's* coordinates). Plugging this into our previous equation yields
+$$\begin{align}
+\ldots&=\tilde{J}\mathrm{E}\tilde{J}^{T}\nabla_{\tilde{\mathbf{x}}}\tilde{H}+\mathrm{E}\nabla_{\tilde{\mathbf{x}}}K_{0} \\
+\end{align}$$
+We can see that we have a gradient of $K$ and of $K_{0}$. We can move the one with $K_{0}$ on the other side to get
+$$\tilde{J}\mathrm{E}\tilde{J}^{T}\nabla_{\tilde{\mathbf{x}}}\tilde{H}=\mathrm{E}\nabla_{\tilde{\mathbf{x}}}(K-K_{0})$$
+By applying $\mathrm{E}^{-1}=-\mathrm{E}$ on the left on both sides of the equation we get
+$$-\mathrm{E}\tilde{J}\mathrm{E}\tilde{J}^{T}\nabla_{\tilde{\mathbf{x}}}\tilde{H}=\nabla_{\tilde{\mathbf{x}}}(K-K_{0})$$
+The [[vector field]] $-\mathrm{E}\tilde{J}\mathrm{E}\tilde{J}^{T}\nabla_{\tilde{\mathbf{x}}}\tilde{H}$ is [[Vector field|irrotational]] for all $\tilde{H}$. This is because it is equal to a gradient, and the [[curl]] of a gradient is always zero. This means that there exists some [[potential]] whose gradient is the field itself. This won't be proven here, but knowing this, we can write
 $$-\mathrm{E}\tilde{J}\mathrm{E}\tilde{J}^{T}=c\mathrm{I}_{2n}\tag{1}$$
-where $\mathrm{I}_{2n}$ is the $2n$-dimensional [[identity matrix]]. With one last substitution we state
-$$c\nabla_{\tilde{x}}\tilde{H}=\nabla_{\tilde{x}}(K-K_{0})$$
-and so
+where $\mathrm{I}_{2n}$ is the $2n$-dimensional [[identity matrix]] and $c$ is some real constant. With one last substitution we see
+$$c\nabla_{\tilde{\mathbf{x}}}\tilde{H}=\nabla_{\tilde{\mathbf{x}}}(K-K_{0})$$
+and so, matching the gradient arguments and rearranging:
 $$\boxed{K=c \tilde{H}+K_{0}}\tag{2}$$
-If $c=1$, the transformation is said to be **univalent**. This equation allows us to state another canonicity criterion.
+This is the *general* shape of the conjugate Hamiltonian. In the special case where $c=1$, the transformation is said to be **univalent**. This equation allows us to state another canonicity criterion.
 
 > [!info] First canonicity criterion
-> A transformation $x_{i}=w_{i}(\tilde{x},t)$ is canonical if and only if there exists some $c\neq 0$ such that $cJ\mathrm{E}J^{T}=\mathrm{E}$.
-> 
-> **Proof.** $(\Rightarrow)$ If the transformation is canonical, then the $c\neq 0$ must exist such that $\mathrm{E}=cJ\mathrm{E}\tilde{J}$. Using $(1)$ we can apply $\mathrm{E}$ to the right on both sides
-> $$-\tilde{J}\mathrm{E}\tilde{J}\mathrm{E}\mathrm{E}=cI_{2n}\mathrm{E}\quad\Rightarrow \quad \tilde{J}\mathrm{E}\tilde{J}^{T}=c\mathrm{E}$$
+> A transformation $\mathbf{x}=\mathbf{w}(\tilde{\mathbf{x}},t)$ is **canonical** if and only if there exists some $c\neq 0$ for which its Jacobian $J$ satisfies $cJ\mathrm{E}J^{T}=\mathrm{E}$. If $c=1$, the transformation is **univalent canonical** and its Jacobian is [[Symplectic matrix|symplectic]].
+
+> [!quote]- Proof
+> $(\Rightarrow)$ If the transformation is canonical, the $c\neq 0$ must exist such that $cJ\mathrm{E}\tilde{J}=\mathrm{E}$. Starting from $(1)$ we can apply $\mathrm{E}$ to the right on both sides
+> $$-\tilde{J}\mathrm{E}\tilde{J}\mathrm{E}\mathrm{E}=c\mathrm{I}_{2n}\mathrm{E}\quad\Rightarrow \quad \tilde{J}\mathrm{E}\tilde{J}^{T}=c\mathrm{E}$$
 > We now apply $J$ to the left and $J^{T}$ to the right on both sides
 > $$J\tilde{J}\mathrm{E}\tilde{J}^{T}J^{T}=cJ\mathrm{E}J^{T}\quad\Rightarrow \quad \mathrm{E}=cJ\mathrm{E}\tilde{J}$$
-> since $J\tilde{J}=\tilde{J}^{T}J^{T}=\mathrm{I}$.
-> $(\Leftarrow)$ If $c\neq 0$ exists, then the transformation must be canonical, that is, for all $H$ there exists some $K$ such that $E\nabla_{\tilde{x}}K=\tilde{J}\mathrm{E}\nabla_{x}H+\frac{ \partial \tilde{ w} }{ \partial t }$ (the canoncity lemma). We already know that $\nabla_{x}H=\tilde{J}^{T}\nabla_{\tilde{x}}\tilde{H}$ so
-> $$\tilde{J}\mathrm{E}\nabla_{x}H=\tilde{J}\mathrm{E}\tilde{J}^{T}\nabla_{\tilde{x}}\tilde{H}=c\mathrm{E}\nabla_{\tilde{x}}\tilde{H}$$
-> With two lemmas, that won't be covered here, one can prove that if $K_{0}$ exists such that $\mathrm{E}\nabla_{\tilde{x}}K_{0}=\frac{ \partial \tilde{w} }{ \partial t }$, then there exists a $K$ such that the canonicity lemma is valid and thus the transformation is canonical.
+> since $J=\tilde{J}^{-1}$ and so $J\tilde{J}=\tilde{J}^{T}J^{T}=\mathrm{I}_{2n}$.
+> 
+> $(\Leftarrow)$ If $c\neq 0$ exists, then the transformation must be canonical, that is, for all $H$ there exists some $K$ such that $E\nabla_{\tilde{\mathbf{x}}}K=\tilde{J}\mathrm{E}\nabla_{\mathbf{x}}H+\frac{ \partial \tilde{ \mathbf{w}} }{ \partial t }$ (part 1 of canonicity lemma). We already know that $\nabla_{\mathbf{x}}H=\tilde{J}^{T}\nabla_{\tilde{\mathbf{x}}}\tilde{H}$ so
+> $$\tilde{J}\mathrm{E}\nabla_{\mathbf{x}}H=\tilde{J}\mathrm{E}\tilde{J}^{T}\nabla_{\tilde{\mathbf{x}}}\tilde{H}=c\mathrm{E}\nabla_{\tilde{\mathbf{x}}}\tilde{H}$$
+> With two more lemmas that won't be covered here, one can prove that if $K_{0}$ exists such that $\mathrm{E}\nabla_{\tilde{\mathbf{x}}}K_{0}=\frac{ \partial \tilde{\mathbf{w}} }{ \partial t }$ (part 2 of canonicity lemma), then there exists a $K$ such that the canonicity lemma is valid and thus the transformation is canonical.
 
-Remember that $J$ is the Jacobian of the transformation. What the first canonicity criterion says is that if the Jacobian of the transformation is $cJ\mathrm{E}J^{T}=\mathrm{E}$, then it's canonical. But what does $cJ\mathrm{E}J^{T}=\mathrm{E}$ *mean*? Well, if you remove the $c$, you get $J\mathrm{E}J^{T}=\mathrm{E}$. As it happens, this is the definition of a [[Matrice simmetrica|symmetric matrix]], a set of [[matrix|matrices]] which form a [[group]] with useful properties. It would be nice if the criterion could simplify to "if the transformation's Jacobian is symmetric, then it's canonical". Alas, the $c$ makes things harder. Now, if $c=1$, then $J$ is certainly symmetric. But in general, we need to analyze things further.
+We should stop for a moment to think about this result. What does $cJ\mathrm{E}J^{T}=\mathrm{E}$ *mean*? Well, if you set $c=1$, you get $J\mathrm{E}J^{T}=\mathrm{E}$. This is the definition of a [[symplectic matrix]], a set of [[matrix|matrices]] which form a [[group]] with useful properties that is *very* important in Hamiltonian mechanics[^2]. Unfortunately, the $c$ makes things harder. In general, we need to analyze things further. Spoilers: while $J$ may not be symplectic when $c\neq 1$, everything else regarding Hamilton's equations stays the same (up to some scaling).
 
-If we take the [[determinant]] of $cJ\mathrm{E}J^{T}=\mathrm{E}$ we get $c^{2n}\det \mathrm{E}(\det J)^{2}=\det \mathrm{E}$ and so
-$$c^{n}=\frac{1}{\lvert \det J \rvert }\tag{3}$$
-Now take a *canonical* transformation with Jacobian $J'$. We have $cJ'\mathrm{E}J'^{T}=\mathrm{E}$ for some $c$. We compose it with the *canonical* transformation[^2] $x=\sqrt{ \lvert c \rvert }\ x'$, so $p=\sqrt{ \lvert c \rvert }\ p'$ and $q=\sqrt{ \lvert c \rvert }\ q'$. Our original transformation $w'(\tilde{x},t)$ now is $w(\tilde{x},t)=\sqrt{ \lvert c \rvert }\ w'(\tilde{x},t)$. It's Jacobian is
-$$J_{ij}=\frac{ \partial w_{i} }{ \partial x_{j} } =\sqrt{ \lvert k \rvert  }\ \frac{ \partial w'_{i} }{ \partial x_{j} } =\sqrt{ \lvert c \rvert  }\ J'_{ij}$$
+If we take the [[determinant]] of $cJ\mathrm{E}J^{T}=\mathrm{E}$, remember that $\det(\mathrm{A}\mathrm{B})=\det \mathrm{A}\det \mathrm{B}$ and that $\det \mathrm{E}=1$, we get $c^{2n}(\det J)^{2}=1$ and so
+$$\boxed{c^{n}=\frac{1}{\lvert \det J \rvert }}\tag{3}$$
+Now take a *canonical* transformation $w'(\tilde{\mathbf{x}},t)$ of Jacobian $J'$. We have $cJ'\mathrm{E}J'^{T}=\mathrm{E}$ for some $c$. We compose it with the *canonical* transformation[^3] $\mathbf{x}=\sqrt{ \lvert c \rvert }\ \mathbf{x}'$. Our original transformation $w'(\tilde{\mathbf{x}},t)$ now becomes $w(\tilde{\mathbf{x}},t)=\sqrt{ \lvert c \rvert }\ w'(\tilde{\mathbf{x}},t)$. Its Jacobian is
+$$J_{ij}=\frac{ \partial w_{i} }{ \partial x_{j} } =\sqrt{ \lvert c \rvert  }\ \frac{ \partial w'_{i} }{ \partial x_{j} } =\sqrt{ \lvert c \rvert  }\ J'_{ij}$$
 So
-$$J\mathrm{E}J^{T}=\lvert c \rvert J'\mathrm{E}J'^{T}=\text{sgn}(c)cJ'\mathrm{E}J'^{T}=\text{sgn}(c)\mathrm{E}\quad\to \quad\begin{cases}
+$$J\mathrm{E}J^{T}=\lvert c \rvert J'\mathrm{E}J'^{T}=\text{sign}(c)cJ'\mathrm{E}J'^{T}=\text{sign}(c)\mathrm{E}\quad\to \quad\begin{cases}
 c>0\quad J\mathrm{E}J^{T}=\mathrm{E} \\
 c<0\quad J\mathrm{E}J^{T}=-\mathrm{E}
 \end{cases}$$
@@ -68,12 +87,14 @@ So, if $c>0$, the first canonicity criterion seems to hold. If $c<0$, we can com
 $$\mathbf{x}''=\begin{pmatrix}0 & \mathrm{I} \\ \mathrm{I} & 0\end{pmatrix}\mathbf{x}=\mathcal{I}\mathbf{x}$$
 which leads to
 $$J''\mathrm{E}J''^{T}=\mathcal{I}J\mathrm{E}J^{T}\mathcal{I}=-\mathcal{I}\mathrm{E}\mathcal{I}=\mathrm{E}$$
-and so we go back to our canonicity criterion, up to a composition. In fact, this is fully general. We can *always* do this. What we just found is that we can always compose a generic canonical transformation with a specific canonical transformation such that the composition has $c=1$. In other words, all canonical transformations can be reduced down to univalent ones with the correct compositions. But recall our previous point: if $c=1$, the Jacobian is symmetric. Thus, the Jacobian of all univalent transformations is symmetric. These are such an important group of functions that they are found to be part of a specific set: all univalent canonical transformations are **[[symplectic transformation|symplectic transformations]]**, which are transformations whose Jacobian is a **[[symplectic matrix]]**.
+and so we go back to our canonicity criterion, up to a composition. In fact, this is fully general. We can *always* do this. What we just found is that we can always compose a generic canonical transformation with a specific canonical transformation such that the composition has $c=1$. In other words, all canonical transformations can be reduced to univalent ones, provided we figure out the correct compositions.
+
+Univalent transformations are such an important group of functions that a lot of study has gone into them. Most importantly, they are a part of a more general set of transformations called **[[symplectic transformation|symplectic transformations]]**, which are all the transformations whose Jacobian is symplectic. Since by the first canonicity criterion all univalent canonical transformations have a symplectic Jacobian, they are automatically all symplectic transformations.
 
 > [!success] Symplectic transformations
-> All canonical transformations can be reduced to symplectic ones (that is, univalent canonical ones) by composing them with other appropriate canonical transformations. 
+> A canonical transformation can always be reduced to a symplectic one by composing it with a different, appropriate canonical transformation. 
 
-As a bonus point, note $(3)$. Since $c=1$ for all univalent transformations, then $\lvert \det J \rvert=1$ too. This is sometimes important, since $\lvert \det J \rvert$ appears when doing coordinate changes inside of integrals. For a relevant example, see for instance [[Liouville's theorem#Proof (analytical mechanics)]].
+As a bonus property, note $(3)$. Since $c=1$ for all univalent transformations, then $\lvert \det J \rvert=1$ for them too. This is sometimes important, since $\lvert \det J \rvert$ appears when doing coordinate changes inside of integrals. For a relevant example, see for instance [[Liouville's theorem#Proof (analytical mechanics)]].
 ### Poisson bracket preservation
 A transformation $w$ is said to **preserve the [[Poisson brackets]]** if for all $f(x,t)$ and $g(x,t)$ we have
 $$\{ f,g \}(w(\tilde{x},t),t)=\{ F,G \}(\tilde{x},t)$$
@@ -253,4 +274,6 @@ $$\begin{align}
 
 [^1]: "Canonicity lemma" is a name I made up, but I haven't found any standard name for this proposition. Since it's used to prove the actual criteria, I chose to call it a lemma.
 
-[^2]: It's canonical because any transformation like $p=\alpha \tilde{p}$, $q=\beta \tilde{q}$ is canonical. See the examples.
+[^2]: So important in fact that the entire field of symplectic geometry spawned as a consequence of the development of Hamiltonian mechanics.
+
+[^3]: It's canonical because any transformation like $\mathbf{p}=\alpha \tilde{\mathbf{p}}$, $\mathbf{q}=\beta \tilde{\mathbf{q}}$ is canonical, and this one is $\mathbf{p}=\sqrt{ \lvert c \rvert }\ \mathbf{p}'$ and $\mathbf{q}=\sqrt{ \lvert c \rvert }\ \mathbf{q}'$. See the examples.

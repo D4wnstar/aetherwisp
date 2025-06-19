@@ -31,7 +31,6 @@ using the [[Kronecker delta]] $\delta_{ij}$.
 
 When $dx_{i}$ is applied onto the basis vector $e_{j}$ of $V$ we get
 $$dx_{i}[e_{j}]=\frac{ \partial x_{i} }{ \partial x_{j} } =\delta_{ij}$$
-using the [[Kronecker delta]].
 ### Matrix representation
 If the differential is a [[Operatore lineare|linear operator]] from $\mathbb{R}^{N}$ to $\mathbb{R}^{M}$, it can be represented as an $N\times M$ square matrix. This matrix is exactly the [[Jacobian]] matrix of $f$. In fact, for a linear operator, its matrix elements in a given basis $\{ e_{i} \}_{i=1,\ldots,N}$ are given by
 $$J_{ij}=e_{i}\cdot Df(x_{0})[e_{j}]=e_{i}\cdot \frac{ \partial f }{ \partial x_{j} } =\frac{ \partial f_{i} }{ \partial x_{j} } $$

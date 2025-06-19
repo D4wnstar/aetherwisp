@@ -97,7 +97,7 @@ L'energia totale rilasciata dal decadimento è
 $$Q_{\beta^{-}}=[m_{n}(_{Z}^{A}X)-m_{n}(_{Z+1}^{A}X')-m_{e}]c^{2}$$
 con $m_{n}$ la massa del neutrone. Converto per masse atomiche
 $$m(^{A}X)c^{2}=m_{n}(^{A}X)c^{2}+Zm_{e}- \sum\limits_{i=1}^{Z}B_{i}$$
-dove l'[[energia di legame]] $B_{i}$ viene dal legame dell'$i$-esimo elettrone. Allora ho
+dove l'[[Binding energy]] $B_{i}$ viene dal legame dell'$i$-esimo elettrone. Allora ho
 $$Q_{\beta^{-}}=\{[m(^{A}X)-Zm_{e}]-[m(^{A}X')-(Z+1)m_{e}]-m_{e}\}c^{2}+ \sum\limits_{i=1}^{Z}B_{i}-\sum\limits_{i=1}^{Z+1}B_{i}$$
 dove le differenze di energie di legame (le sommatorie) sono trascurabili. Dunque si ha
 $$Q_{\beta^{-}}=[m(^{A}X)-m(^{A}X')]c^{2}$$

@@ -16,7 +16,7 @@ Inoltre, possiamo convertire tra energia cinetica e temperatura mediante la [[Bo
 - temperatura ambiente: $20°C=293K \Rightarrow 2.5\times10^{-5}eV$
 - temperatura della superficie del Sole: $6000K \Rightarrow 0.5eV$
 - temperatura del centro del Sole: $10^{7}K \Rightarrow 0.9keV$
-- [[energia di legame]] atomico: $13 eV \Rightarrow 1.6\times10^{5}K$
+- [[Binding energy]] atomico: $13 eV \Rightarrow 1.6\times10^{5}K$
 
 È comodo per mostrare quanto alte le energie sono rispetto ad altri fenomeni naturali (il legame atomico è molto caldo, ad esempio).
 

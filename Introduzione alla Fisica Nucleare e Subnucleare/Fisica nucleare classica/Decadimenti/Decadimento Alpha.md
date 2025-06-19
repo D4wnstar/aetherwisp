@@ -13,7 +13,7 @@ Una reazione tipo è
 $$_{88}^{226}\text{Ra}_{138}\rightarrow\, _{86}^{222}\text{Rn}_{136}+\,_{2}^{4}\text{He}_{2}$$
 che ha un [[Legge di decadimento radioattivo|tempo di dimezzamento]] di 1600 anni e la particella $\alpha$ ha un'energia cinetica di $4.8$ MeV.
 ## Meccanismo
-Protoni e neutroni hanno [[energia di legame]] attorno agli 8 MeV, quindi non possono scappare dal nucleo se non in condizioni particolare. Può però succedere che l'emissione di un gruppo di nucleoni sotto forma di un sistema legato $^{4}\text{He}$ sia energeticamente favorita.
+Protoni e neutroni hanno [[Binding energy]] attorno agli 8 MeV, quindi non possono scappare dal nucleo se non in condizioni particolare. Può però succedere che l'emissione di un gruppo di nucleoni sotto forma di un sistema legato $^{4}\text{He}$ sia energeticamente favorita.
 
 Studiamo l'energia [[Potential]] $V(r)$ di una particella $\alpha$ in funzione della distanza $r$ dal nucleo
 

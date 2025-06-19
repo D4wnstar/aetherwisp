@@ -3,7 +3,7 @@ wiki-publish: true
 ---
 La **fissione spontanea** è un tipo di [[Decadimento nucleare|decadimento]] nel quale un [[Nucleo atomico|nucleo]] pesante (con $A$ grande) compie [[fissione nucleare]] spontaneamente, senza l'ausilio di [[Particella|particelle]] esterne.
 
-Per esempio, prendiamo il $^{238}\text{U}$ che ha un'[[energia di legame]] pari a circa $\sim7.6$ MeV/[[Nucleone]]. Se si scinde a metà, l'uranio si divide in due atomi con $A=119$, che dai dati sperimentale ha energia di legame maggiore: $\sim8.5$ MeV/nucleone.
+Per esempio, prendiamo il $^{238}\text{U}$ che ha un'[[Binding energy]] pari a circa $\sim7.6$ MeV/[[Nucleone]]. Se si scinde a metà, l'uranio si divide in due atomi con $A=119$, che dai dati sperimentale ha energia di legame maggiore: $\sim8.5$ MeV/nucleone.
 
 Considero $R_{0}$ il raggio dell'atomo madre e $R_{1}$ e $R_{2}$ il raggio dei due frammenti. Assumendo $R_{1}\sim R_{2}\sim R_{0}A^{1/3}\sim1.3\times(119)^{1/3}\sim6$ fm.
 

@@ -30,7 +30,7 @@ P_{6}(x)&=\frac{1}{16}(231x^{6}-315x^{4}+105x^{2}-5)
 
 :::image
 ![[Polinomi di Legendre.png]]
-Da Introduction to Quantum Mechanics di Griffiths, p.139
+Da *Introduction to Quantum Mechanics di Griffiths, p.139*
 :::
 ### Polinomi associati di Legendre
 I **polinomi di Legendre associati**, anche chiamati **funzione di Legendre associata del primo tipo**, sono una generalizzazione dei polinomi di Legendre. Risultano come soluzione dell'equazione differenziale di Legendre associata. Presi un numero naturale $l$ e uno intero $m$, i polinomi associati sono
@@ -67,5 +67,5 @@ P_{3}^{3}(\cos\theta)&=15\sin^{3}\theta
 
 :::image
 ![[Polinomi di Legendre associati.png]]
-Da Introduction to Quantum Mechanics di Griffiths, p. 140
+Da *Introduction to Quantum Mechanics di Griffiths, p. 140*
 :::
