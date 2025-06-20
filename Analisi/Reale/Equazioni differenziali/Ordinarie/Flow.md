@@ -1,0 +1,6 @@
+---
+wiki-publish: true
+---
+A **flow** is a mathematical abstraction that describes the physical idea of the flow of a fluid. It can be seen as the continuous motion of all points in the fluid in time.
+
+Flows often arise from the study of an [[ordinary differential equation]] and its associated [[vector field]]. An an example, say we are working with an autonomous system of ODEs $\dot{\mathbf{x}}=f(\mathbf{x})$. This solves to a motion $\mathbf{x}(t)$ dependent on the starting condition $\mathbf{x}(t_{0})=\mathbf{x}_{0}$. If we were to set the independent variable to some value $t$, then we would get a [[set]] of points $\{ \mathbf{x}(t) \}$, one for each possible solution (i.e. starting condition) evaluated in $t$. We therefore have a set (family) of [[linear map|linear maps]] $\{ \varphi^{t}(\mathbf{x}_{0}) \}$, each taking a starting condition, extracting the solution and evaluating it in $t$. Each can be defined as $\mathbf{x}_{0}\mapsto \varphi^{t}(\mathbf{x}_{0})\equiv \mathbf{x}(t;\mathbf{x}_{0})$. This set is known as the **flow of the vector field $f$**.

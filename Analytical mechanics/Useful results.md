@@ -125,3 +125,19 @@ $$\dot{p}_{i}=-\frac{ \partial H }{ \partial q_{i} },\quad  \dot{q}_{i}=\frac{ \
 then the equations in $(\tilde{q},\tilde{p})$ also obey the Hamilton equations, with $K$ as the Hamiltonian:
 $$\dot{\tilde{p}}_{i}=-\frac{ \partial K }{ \partial \tilde{q}_{i} },\quad\dot{\tilde{q}}_{i}=\frac{ \partial K }{ \partial \tilde{p}_{i} }$$
 The solutions are related by the functions $u$ and $v$ as $q_{i}(t)=u_{i}(\tilde{q}(t),\tilde{p}(t),t)$ and $p_{i}(t)=v_{i}(\tilde{q}(t),\tilde{p}(t),t)$.
+
+**Canonicity criteria**
+1. A transformation can be proven to be canonical by seeing if satisfies the first canonicity criterion.
+2. The constant $c$ can be found by taking the determinant of the Jacobian of the transformation, as per $c^{n}=1/\lvert \det J \rvert$.
+3. If $c=1$, the Jacobian and the transformation are symplectic.
+4. A nonunivalent canonical transformation can always be turned into a univalent one by composing it with a different, appropriate canonical transformation.
+
+**First canonicity criterion**
+A transformation $\mathbf{x}=\mathbf{w}(\tilde{\mathbf{x}},t)$ is **canonical** if and only if there exists some $c\neq 0$ for which its Jacobian $J$ satisfies $cJ\mathrm{E}J^{T}=\mathrm{E}$. If $c=1$, the transformation is **univalent canonical** and its Jacobian is symplectic.
+
+**Second canonicity criterion**
+A transformation $\mathbf{x}=w(\tilde{\mathbf{x}},t)$ is univalent canonical if and only if it preserves the Poisson brackets.
+
+**Poisson bracket preservation**
+$$\{ f,g \}(w(\tilde{\mathbf{x}},t),t)=\{ \tilde{f},\tilde{g} \}(\tilde{\mathbf{x}},t)$$
+where $\tilde{f}(\tilde{\mathbf{x}},t)\equiv f(w(\tilde{\mathbf{x}},t),t)$ and $\tilde{g}(\tilde{\mathbf{x}},t)\equiv g(w(\tilde{\mathbf{x}},t),t)$. Basically, the order of operations doesn't matter ("brackets first transform after" is the same as "transform first brackets after").

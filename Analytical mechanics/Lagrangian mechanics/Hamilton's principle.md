@@ -12,7 +12,7 @@ Consider two Lagrangians $L(q,\dot{q},t)$ and $\tilde{L}(\tilde{q},\dot{\tilde{q
 $$L(\tilde{q},\dot{\tilde{q}},t)=L(q(\tilde{q},t),\dot{q}(\tilde{q},\dot{\tilde{q}},t),t)$$
 The motion $\tilde{q}(t)$ satisfies the Lagrange equation for $\tilde{L}$ if and only if the motion $q(t)\equiv q(\tilde{q}(t),t)$ satisfies the Lagrange equation for $L$.
 
-> [!info] Proof
+> [!quote]- Proof
 > Since both are valid motions, they must both minimize action, and so
 > $$\int_{t_{1}}^{t_{2}}\tilde{L}(\tilde{q}(t),\dot{\tilde{q}}(t),t)dt=\int_{t_{1}}^{t_{2}}L(q(t),\dot{q}(t),t)dt$$
 > The left hand side is stationary in $\tilde{q}(t)$ if and only if $\tilde{q}(t)$ solves the Lagrange equation for $\tilde{L}$. Similarly, the right hand side is stationary in $q(t)$ if and only if $q(t)$ solves the Lagrange equation for $L$. But because the actions are equal, these statements are equivalent and must be simultaneously true.

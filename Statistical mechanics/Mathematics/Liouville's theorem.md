@@ -10,36 +10,43 @@ wiki-publish: true
 > $$\frac{ \partial \rho }{ \partial t } =\{ H,\rho \}$$
 > This means that the number of representative points in [[Phase space|phase space]] is conserved, both globally and in a given volume.
 
+> [!quote]- Proof
+> Consider an arbitrary volume $\omega$ in some region of phase space. Call $\sigma$ the surface bounding this volume. Then, the rate at which the number of representative points contained in $\omega$ varies is given by the time derivative of the number:
+> $$\frac{ \partial  }{ \partial t } \int_{\omega}\rho\ d\omega$$
+> where the number is given by integrating the number density over $\omega$ and $d\omega=d^{3N}qd^{3N}p$. Calling $\mathbf{v}=(\dot{p}_{1},\ldots,\dot{p}_{3N},\dot{q}_{1},\ldots,\dot{q}_{3N})$ the velocity of a representative point, we have, by the [[continuity equation]],
+> $$- \frac{ \partial  }{ \partial t } \int_{\omega}\rho\ d\omega=\int_{\sigma}\mathbf{\hat{n}}\cdot \mathbf{v}\ \rho\ d\sigma\tag{1}$$
+> where $\hat{\mathbf{n}}$ is the normal vector from the surface. This is the outflow of representative points from $\omega$ (the decrease in contained points is equal to the number of points passing through the boundary). Then, using the [[Divergence theorem|divergence theorem]], we get
+> $$\int_{\sigma}\hat{\mathbf{n}}\cdot \mathbf{v}\ \rho\ d\sigma =\int_{\omega}\nabla\cdot\mathbf{(\rho \mathbf{v})}\ d\omega\tag{2}$$
+> Combining $1$ and $2$ we get
+> $$\frac{ \partial  }{ \partial t } \int_{\omega}\rho\ d\omega=-\int_{\omega}\nabla\cdot\mathbf{(\rho \mathbf{v})}\ d\omega \quad\to \quad \int_{\omega}\left( \frac{ \partial \rho }{ \partial t } +\nabla\cdot\mathbf{(\rho \mathbf{v})} \right)\ d\omega=0$$
+> Recall that $\omega$ was completely arbitrary. We have proven that this integral vanishes for $\omega$, and so it must vanish for *any* $\omega$, and therefore anywhere in phase space. But for an integral to vanish anywhere, in any subset of space, it must be the integral of zero. So
+> $$\frac{ \partial \rho }{ \partial t } +\nabla\cdot\mathbf{(\rho \mathbf{v})=0}\tag{3}$$
+> This is the continuity equation for representative points. The [[divergence]], when written explicitly in this space, reads
+> $$\nabla\cdot\mathbf{(\rho \mathbf{v})}=\sum_{i=1}^{3N} \left[ \frac{ \partial  }{ \partial q_{i} } (\rho \dot{q}_{i})+ \frac{ \partial  }{ \partial p_{i} } (\rho \dot{p}_{i}) \right]=\underbrace{ \sum_{i=1}^{3N} \left[ \frac{ \partial \rho }{ \partial q_{i} }\dot{q}_{i} +\frac{ \partial \rho }{ \partial p_{i} }\dot{p}_{i}  \right] }_{ \{ \rho,H \} }+\rho\sum_{i=1}^{3N} \left[ \underbrace{ \frac{ \partial \dot{q}_{i} }{ \partial q_{i} } +\frac{ \partial \dot{p}_{i} }{ \partial p_{i} } }_{ 0 }  \right]$$
+> The second step is by and expanding the derivatives. By the [[Hamilton equations]] of motion, the terms in the second sum are all zero, while the first is the [[Poisson brackets]] of $\rho$ and $H$. Using this knowledge in $(3)$ we can state
+> $$\frac{ \partial \rho }{ \partial t } +\{ \rho,H \}=0$$
+> which completes the proof. As an additional statement, since $\rho=\rho(q,p;t)$, we can merge the former statement into the [[Differential|total derivative]] of $\rho$ and state:
+> $$\frac{d\rho}{dt}=0$$
+> which is the most straight-forward form of the theorem.
+
 This theorem only holds in [[conservative system|conservative systems]], i.e. systems where the phase space [[measure]] is constant over time
 
 An alternative and equivalent statement from analytical mechanics goes as follows:
 
 > [!info] Liouville's theorem (analytical mechanics)
-> Univalent [[Canonical transformation|canonical transformations]], and among them specifically the [[Hamilton equations|Hamiltonian flux]] $\Phi^{t}$, preserve the Euclidean volume.
+> [[Canonical transformation|Univalent canonical transformations]] $\mathbf{w}$ preserve the Euclidean volume.
 > 
-> If $A_{1}$ is the original phase space and $A_{2}=\Phi^{t}(A_{1})$ is the phase space modified by the transformation, we have $\text{vol}(A_{1})=\text{vol}(A_{2})$.
-### Proof (statistical mechanics)
-Consider an arbitrary volume $\omega$ in some region of phase space. Call $\sigma$ the surface bounding this volume. Then, the rate at which the number of representative points contained in $\omega$ varies is given by the time derivative of the number:
-$$\frac{ \partial  }{ \partial t } \int_{\omega}\rho\ d\omega$$
-where the number is given by integrating the number density over $\omega$ and $d\omega=d^{3N}qd^{3N}p$. Calling $\mathbf{v}=(\dot{p}_{1},\ldots,\dot{p}_{3N},\dot{q}_{1},\ldots,\dot{q}_{3N})$ the velocity of a representative point, we have, by the [[continuity equation]],
-$$- \frac{ \partial  }{ \partial t } \int_{\omega}\rho\ d\omega=\int_{\sigma}\mathbf{\hat{n}}\cdot \mathbf{v}\ \rho\ d\sigma\tag{1}$$
-where $\hat{\mathbf{n}}$ is the normal vector from the surface. This is the outflow of representative points from $\omega$ (the decrease in contained points is equal to the number of points passing through the boundary). Then, using the [[Divergence theorem|divergence theorem]], we get
-$$\int_{\sigma}\hat{\mathbf{n}}\cdot \mathbf{v}\ \rho\ d\sigma =\int_{\omega}\nabla\cdot\mathbf{(\rho \mathbf{v})}\ d\omega\tag{2}$$
-Combining $1$ and $2$ we get
-$$\frac{ \partial  }{ \partial t } \int_{\omega}\rho\ d\omega=-\int_{\omega}\nabla\cdot\mathbf{(\rho \mathbf{v})}\ d\omega \quad\to \quad \int_{\omega}\left( \frac{ \partial \rho }{ \partial t } +\nabla\cdot\mathbf{(\rho \mathbf{v})} \right)\ d\omega=0$$
-Recall that $\omega$ was completely arbitrary. We have proven that this integral vanishes for $\omega$, and so it must vanish for *any* $\omega$, and therefore anywhere in phase space. But for an integral to vanish anywhere, in any subset of space, it must be the integral of zero. So
-$$\frac{ \partial \rho }{ \partial t } +\nabla\cdot\mathbf{(\rho \mathbf{v})=0}\tag{3}$$
-This is the continuity equation for representative points. The [[Divergence]], when written explicitly in this space, reads
-$$\nabla\cdot\mathbf{(\rho \mathbf{v})}=\sum_{i=1}^{3N} \left[ \frac{ \partial  }{ \partial q_{i} } (\rho \dot{q}_{i})+ \frac{ \partial  }{ \partial p_{i} } (\rho \dot{p}_{i}) \right]=\underbrace{ \sum_{i=1}^{3N} \left[ \frac{ \partial \rho }{ \partial q_{i} }\dot{q}_{i} +\frac{ \partial \rho }{ \partial p_{i} }\dot{p}_{i}  \right] }_{ \{ \rho,H \} }+\rho\sum_{i=1}^{3N} \left[ \underbrace{ \frac{ \partial \dot{q}_{i} }{ \partial q_{i} } +\frac{ \partial \dot{p}_{i} }{ \partial p_{i} } }_{ 0 }  \right]$$
-The second step is by and expanding the derivatives. By the [[Hamilton equations]] of motion, the terms in the second sum are all zero, while the first is the [[Poisson brackets]] of $\rho$ and $H$. Using this knowledge in $(3)$ we can state
-$$\frac{ \partial \rho }{ \partial t } +\{ \rho,H \}=0$$
-which completes the proof. As an additional statement, since $\rho=\rho(q,p;t)$, we can merge the former statement into the [[Teorema del differenziale totale|total differential]] of $\rho$ and state:
-$$\frac{d\rho}{dt}=0$$
-which is the most straight-forward form of the theorem.
-### Proof (analytical mechanics)
-Start from the volume of $A_{1}$, then the [[Canonical transformation|univalent canonical]] [[coordinate transformation]] to change system:
-$$\text{vol}(A_{1})=\int_{A_{1}}\underbrace{ dp_{1}\ldots dp_{n}dq_{1}\ldots dq_{n} }_{ dx_{1}\ldots dx_{2n} }=\int_{A_{2}}\lvert \det J \rvert d\tilde{x}_{1}\ldots d\tilde{x}_{2n}=\int_{A_{2}}d\tilde{x}_{1}\ldots d\tilde{x}_{2n}=\text{vol}(A_{2})$$
-The [[determinant]] is of the [[Jacobian]] of the coordinate we use to go from $\mathbf{x}$ to $\tilde{\mathbf{x}}$. However, all univalent canonical transformations have $\det J=1$, so the step holds trivially.
+> If $A_{1}$ is the original phase space and $A_{2}=\mathbf{w}(A_{1})$ is the phase space modified by the transformation, then we have $\text{vol}(A_{1})=\text{vol}(A_{2})$.
+
+> [!quote]- Proof
+> Start from the volume of $A_{1}$, then apply the transformation to change system:
+> $$\begin{align}
+> \text{vol}(A_{1})&=\int_{A_{1}}\underbrace{ dp_{1}\ldots dp_{n}dq_{1}\ldots dq_{n} }_{ dx_{1}\ldots dx_{2n} } \\
+> &=\int_{A_{2}}\lvert \det J \rvert d\tilde{x}_{1}\ldots d\tilde{x}_{2n} \\
+> &=\int_{A_{2}}d\tilde{x}_{1}\ldots d\tilde{x}_{2n} \\
+> &=\text{vol}(A_{2})
+> \end{align}$$
+> $J$ is the [[Jacobian]] of the transformation. The [[determinant]] of the Jacobian of a univalent canonical transformation is always one.
 ### Quantum form
 In quantum physics, the Liouville theorem takes on a similar form. Given a [[Hamiltonian]] $\hat{H}$ and a [[Matrice di densità|density matrix]] $\hat{\rho}$, an equivalent statement is
 $$i\hbar \frac{ \partial \rho }{ \partial t } =[\hat{H},\hat{\rho}]$$

@@ -22,3 +22,4 @@ It appears frequently in areas that deal with [[rotation|rotations]] and symplec
 ### Properties
 - Symplectic matrices form a [[group]].
 - $\mathrm{E}$ has unit [[determinant]]: $\det \mathrm{E}=1$.
+- The identity matrix is symplectic, since $\mathrm{I}\mathrm{E}\mathrm{I}=\mathrm{E}$.

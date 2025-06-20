@@ -2,7 +2,6 @@
 wiki-publish: true
 aliases:
   - ODE
-  - flux of a vector field
 ---
 An **ordinary differential equation**, or **ODE** for short, is an equation where a function and one or more its derivatives appear simultaneously. The highest derivative of the function is said to be the **order** of the ODE. If we denote the function as $f(t)$ and its $i$-th derivative as $f^{(i)}(t)$, a generic ODE written in **normal form** (with the highest derivative isolated) is
 $$f^{(n)}(t)=g(f,f^{(1)},\ldots,f^{(n-1)},t)$$
@@ -59,12 +58,12 @@ If we draw the vectors manually, we see
 ![[Diagram Derivative of position vector is tangent|100%]]
 
 If we send $\delta t\to0$, the displacement between the white and red vector become minuscule, which leads $\dot{\mathbf{x}}(t)$ to become tangent. A non-visual proof can for instance be found by taking the derivative of the unit vector of $\mathbf{x}(t)$ and proving that it is always perpendicular to the unit vector itself. In fact, the derivative of any unit vector is perpendicular to the original.
-##### Flux of a vector field
+##### Flow of a vector field
 Now, given some autonomous system like $(1)$, it is legitimate to ask the following questions: since the solution for a given starting condition is unique, what does that solution look like over all $t$? What if instead of selecting a starting condition, we instead select a specific time; what do all of the possible solutions look at that time?
 
-Answering the first question is rather easy. Since $\mathbf{x}(t)$ is a $\mathbb{R}\to \mathbb{R}^{N}$, it represents a [[Curve|curve]] in $\mathbb{R}^{N}$. It's just the definition of a curve of parameter $t$. This makes sense: intuitively, the trajectory of an object is a curve in space that the object follows, so it's not surprising that this is also the case for all possible dimensions.
+Answering the first question is rather easy. Since $\mathbf{x}(t)$ is a $\mathbb{R}\mapsto \mathbb{R}^{N}$, it represents a [[Curve|curve]] in $\mathbb{R}^{N}$. It's just the definition of a curve of parameter $t$. This makes sense: intuitively, the trajectory of an object is a curve in space that the object follows, so it's not surprising that this is also the case for all possible dimensions.
 
-Answering the second question is harder. Once we set $t$, we are left with an infinite number of solutions, one for all infinite starting conditions. For a given $t$, we can say that this defines a [[linear map]][^1] $\varphi^{t}:\mathbb{R}^{N}\to \mathbb{R}^{N}$ which takes a starting condition and transforms it into its correlated solution, evaluated at our time $t$. We can write this as $\mathbf{x}_{0}\to \varphi^{t}(\mathbf{x}_{0})\equiv \mathbf{x}(t;\mathbf{x}_{0})$. Thus, for any time $t$, we have a linear map. For all $t$, therefore, we have a *family* of maps, which we can write as $\{ \varphi^{t} \}_{t\in \mathbb{R}}$. This [[set]] is known as the **flux** or **flow of a vector field**[^2].
+Answering the second question is harder. Once we set $t$, we are left with an infinite number of solutions, one for all infinite starting conditions. For a given $t$, we can say that this defines a [[linear map]][^1] $\varphi^{t}:\mathbb{R}^{N}\mapsto \mathbb{R}^{N}$ which takes a starting condition and transforms it into its correlated solution, evaluated at our time $t$. We can write this as $\mathbf{x}_{0}\mapsto \varphi^{t}(\mathbf{x}_{0})\equiv \mathbf{x}(t;\mathbf{x}_{0})$. Thus, for any time $t$, we have a linear map. For all $t$, therefore, we have a *family* of maps, which we can write as $\{ \varphi^{t} \}_{t\in \mathbb{R}}$. This [[set]] is known as the **[[flow]] of a vector field**[^2].
 
 Despite the similar name, this is not quite the same as the better known [[flux]], i.e. the [[Integrale su una superficie|surface integral]] of a vector field over some surface. They are named the same because they both embody the idea of "thing moving through a surface", but they describe it in different ways. Namely, the flux in the ODE sense uses the number of trajectory lines passing through a region of space.
 ## Examples

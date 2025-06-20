@@ -3,7 +3,7 @@ wiki-publish: true
 ---
 ### General mechanics
 - Calculus setup
-- [[Ordinary differential equation]]
+- [[Ordinary differential equation]], [[Flow]]
 - [[Dynamical variable]], [[Constant of motion]], [[Lie derivative]]
 - [[Nöther's theorem]]
 - [[Equilibrium point]], [[Ljapunov's theorem]] and [[Equilibrium configuration]]
@@ -22,10 +22,11 @@ wiki-publish: true
 - Spinning top
 - [[Hamilton's principle]]
 ### Hamiltonian mechanics
-- [[Hamilton equations]] (Hamiltonian least action principle not in exam)
+- [[Hamilton equations]] and [[Hamiltonian]] (Hamiltonian least action principle not in exam)
+- [[Canonical coordinates]]
 - [[Poisson brackets]]
 - [[Phase space]]
-- [[Canonical transformation]]
+- [[Canonical transformation]], [[Hamiltonian flow]]
 - [[Liouville's theorem]] (the analytical mechanics statement)
 ### Quantum mechanics
 - [[Particella libera (quantistica)]]

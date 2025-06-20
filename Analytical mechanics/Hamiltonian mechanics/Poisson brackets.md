@@ -2,7 +2,7 @@
 wiki-publish: true
 ---
 The **Poisson brackets** map a pair of functions in [[phase space]] to another function in phase space:
-$$f(q,p,t),\ g(q,p,t)\quad\mapsto \quad \{ f,g \}(q,p,t)=\sum_{i=1}^{n} \left( \frac{ \partial f }{ \partial q_{i} } \frac{ \partial g }{ \partial p_{i} } - \frac{ \partial f }{ \partial p_{i} } \frac{ \partial g }{ \partial q_{i} }  \right)$$
+$$f(\mathbf{q},\mathbf{p},t),\ g(\mathbf{q},\mathbf{p},t)\quad\mapsto \quad \{ f,g \}(\mathbf{q},\mathbf{p},t)=\sum_{i=1}^{n} \left( \frac{ \partial f }{ \partial q_{i} } \frac{ \partial g }{ \partial p_{i} } - \frac{ \partial f }{ \partial p_{i} } \frac{ \partial g }{ \partial q_{i} }  \right)$$
 They can be written in a more compact form as follows:
 $$\{ f,g \}(\mathbf{x},t)=\sum_{i,j=1}^{2n} \frac{ \partial f }{ \partial x_{i} } E_{ij}\frac{ \partial g }{ \partial x_{j} } =\nabla_{\mathbf{x}}f\cdot \mathrm{E}\nabla_{\mathbf{x}}g$$
 where $\mathbf{x}=(\mathbf{q},\mathbf{p})=(q_{1},\ldots,q_{n},p_{1},\ldots,p_{n})$ are the [[canonical coordinates]] and $\mathrm{E}$ is the [[Symplectic matrix|standard symplectic matrix]].
