@@ -53,7 +53,7 @@ If $\mathbf{v}$ is not explicitly dependent on $t$, then $T_{1}=T_{0}=0$ and $T=
 Antisymmetric matrices in $SO(N)$ with unit determinant. They make a vector space (actually: Lie algebra) and can be seen as a sum of basis rotations $\mathrm{E}_{i}$ called generators. In general, $R(\omega)=e^{\omega \mathrm{E}}$ for a rotation on the axis of the generator $\mathrm{E}$. A generic rotation is
 $$R=\prod_{i=1}^{N}e^{\omega_{i}\mathrm{E}_{i}}$$
 An infinitesimal rotation is a rotation for an infinitesimal angle. In terms of generators it is a simple sum
-$$\Omega=\sum_{i=1}^{3} \omega_{i}\mathrm{E}_{i}=\Omega_{ij}=-\sum_{k=1}^{3} \epsilon_{ijk}\omega_{k}$$
+$$\Omega=\sum_{i=1}^{3} \omega_{i}\mathrm{E}_{i},\qquad\Omega_{ij}=-\sum_{k=1}^{3} \epsilon_{ijk}\omega_{k}$$
 ### Lagrangian mechanics
 **Lagrange equation (general)**
 $$\frac{d}{dt} \frac{ \partial T }{ \partial \dot{q}_{j} }(q(t),\dot{q}(t),t)- \frac{ \partial T }{ \partial q_{j} } (q(t),\dot{q}(t),t)=Q_{j} $$
@@ -92,7 +92,7 @@ $\varphi_{n}(q,\alpha)$ must be continuous and differentiable in a neighborhood 
 $$\mathcal{P}(q,\dot{q},t)=\sum_{m=1}^{n} \frac{ \partial \varphi_{m} }{ \partial \alpha } (q,0)P_{m}(q,\dot{q},t)$$
 is a constant of motion.
 ### Hamiltonian mechanics
-**Hamilton equations (conservative system)**
+**Hamilton equations**
 $$\dot{q}_{i}=\frac{ \partial H }{ \partial p_{i} },\quad \dot{p}_{i}=-\frac{ \partial H }{ \partial q_{i} }  $$
 
 **Hamilton equations (compact)**
@@ -106,6 +106,14 @@ $$H(p,q,t)\equiv\left.{(\mathbf{p}\cdot \dot{\mathbf{q}}-L(q,\dot{q},t))}\right|
 $$\{ f,g \}(q,p,t)=\sum_{i=1}^{n} \left( \frac{ \partial f }{ \partial q_{i} } \frac{ \partial g }{ \partial p_{i} } - \frac{ \partial f }{ \partial p_{i} } \frac{ \partial g }{ \partial q_{i} }  \right)$$
 **Poisson brackets (compact)**
 $$\{ f,g \}(\mathbf{x},t)=\sum_{i,j=1}^{2n} \frac{ \partial f }{ \partial x_{i} } E_{ij}\frac{ \partial g }{ \partial x_{j} } =\nabla_{\mathbf{x}}f\cdot \mathrm{E}\nabla_{\mathbf{x}}g$$
+
+**Poisson brackets (properties)**
+- The brackets are **bilinear**: $\{ f,\alpha g+\beta h \}=\alpha \{ f,g \}+\beta \{ f,h \}$.
+- They are **antisymmetric**: $\{ f,g \}=-\{ g,f \}$.
+- They obey the **Jacobi identity**: $\{ f,\{ g,h \} \}+\{ g, \{ h,f \} \}+\{ h, \{ f,g \} \}=0$
+- $\{ f,g\cdot h \}=g\{ f,h \}+\{ f,g \}h$.
+- $\{f,f\}=0$ (due to antisymmetry).
+- $\{f(x),x\}=0$.
 
 **Poisson brackets (fundamental)**
 $$\{ q_{i},q_{j} \}=0,\qquad \{ p_{i},p_{j} \}=0,\qquad \{ q_{i},p_{j} \}=\delta_{ij}$$
@@ -141,3 +149,39 @@ A transformation $\mathbf{x}=w(\tilde{\mathbf{x}},t)$ is univalent canonical if 
 **Poisson bracket preservation**
 $$\{ f,g \}(w(\tilde{\mathbf{x}},t),t)=\{ \tilde{f},\tilde{g} \}(\tilde{\mathbf{x}},t)$$
 where $\tilde{f}(\tilde{\mathbf{x}},t)\equiv f(w(\tilde{\mathbf{x}},t),t)$ and $\tilde{g}(\tilde{\mathbf{x}},t)\equiv g(w(\tilde{\mathbf{x}},t),t)$. Basically, the order of operations doesn't matter ("brackets first transform after" is the same as "transform first brackets after").
+
+Showing that a transformation preserves the fundamental Poisson brackets is enough to prove canonicity.
+
+**Infinitesimal canonical transformation generator**
+$$\delta \mathbf{x}=\mathrm{E}\nabla_{\mathbf{x}}(\varepsilon G)=\varepsilon \{ \mathbf{x},G \},\qquad \delta p_{k}=-\varepsilon \frac{ \partial G }{ \partial q_{k} },\qquad\delta q_{k}=\varepsilon \frac{ \partial G }{ \partial p_{k} } $$
+For any dynamical variable $f$
+$$\delta f=\varepsilon \{ f,G \}$$
+
+**Finite transformations**
+- Every generator $G(\mathbf{p},\mathbf{q},t)$ can be interpreted as a Hamiltonian whose flow is the finite canonical transformations it generates. In this sense, $G$ is also called a **moment map** and denoted $\mu$.
+- The angular momentum is the generator of $SO(3)$ rotations.
+
+**Hamiltonian flow**
+$\Phi^{t}:T^{*}Q\mapsto T^{*}Q$. Flow of $\mathrm{E}\nabla_{\mathbf{x}}H(\mathbf{x},t)$. Is a univalent canonical transformation. Moves a point forwards in time (or the axes backwards in time). It's the time evolver of the system. Conjugates $H$ to $K=0$.
+
+**Generating functions**
+Function whose partial derivatives define the dynamics by determining a canonical transformation. The Hamiltonian is a generating function. Four kinds: $F_{1},F_{2},F_{3},F_{4}$. Most important is $F_{2}$ because it makes most interesting translation and also appears in the Hamilton-Jacobi equation.
+
+If a coordinate transformation in phase space is defined by the derivatives of a function $F_{2}(\tilde{\mathbf{p}},\mathbf{q},t)$ whose Hessian has nonzero determinant, in the form
+ $$\left\{\begin{align}
+p_{i}&=\frac{ \partial F_{2} }{ \partial q_{i} } (\tilde{\mathbf{p}},\mathbf{q},t) \\
+\tilde{q}_{j}&=\frac{ \partial F_{2} }{ \partial \tilde{p}_{j} } (\tilde{\mathbf{p}},\mathbf{q},t)
+\end{align}\right.$$
+the transformation is canonical and the conjugate Hamiltonian is
+$$K=\tilde{H}+\frac{ \partial F_{2} }{ \partial t } $$
+
+**Hamilton-Jacobi equation**
+$$H\left( \frac{ \partial F_{2} }{ \partial q } (\tilde{\mathbf{p}},\mathbf{q},t),\mathbf{q},t \right)+\frac{ \partial F_{2} }{ \partial t } (\tilde{\mathbf{p}},\mathbf{q})=0$$
+Finding $F_{2}$ gives a canonical transformation that conjugates $H$ to $K=0$. But if $K=0$ the Hamilton equations in those coordinates are trivial and $(\tilde{\mathbf{p}},\tilde{\mathbf{q}})$ are constants of motion.
+
+**Integrable system**
+A Hamiltonian system of $n$ degrees of freedom is said to be **integrable** if there exists a canonical transformation $p_{i}=u_{i}(J,\psi)$ and $q_{j}=v_{j}(J,\psi)$ with functions $u$ and $v$ periodic in the coordinates $\psi_{i}$ and $(J,\psi)\equiv(J_{1},\ldots,J_{n},\psi_{1},\ldots,\psi_{n})\in \mathbb{R}^{n}\times T^{n}$ such that the conjugate Hamiltonian of $H(\mathbf{p},\mathbf{q})$ is a function $K$ that depends only on $J$, that is $K\equiv K(J)$. $(J,\psi)$ are known as the **action-angle variables** and $T^{n}$ is an $n$-dimensional torus.
+
+The variables $J_{i}(t)=J_{i}^{0}$ are constants of motion and are said to be **in involution**, which means $\{ J_{i},J_{j} \}=0$ for all $i,j$. The variables $\psi_{i}(t)=\omega_{i}(J^{0})t+\psi_{0}$ are cyclical coordinates.
+
+Examples: central potential in 3D (constants: $H$, $L^{2}$, $L_{z}$), spinning top in 3D ($H$, $p_{\varphi}$, $p_{\psi}$), all 1D systems with time-independent Hamiltonian (constant: $H$).

@@ -205,7 +205,7 @@ $$\ldots=\sum_{i=1}^{2n} \frac{ \partial f }{ \partial x_{i} }(\mathbf{x},t)\del
 and applying $(4)$
 $$\ldots=\sum_{i=1}^{2n} \frac{ \partial f }{ \partial x_{i} } \varepsilon \sum_{j=1}^{2n} E_{ij}\frac{ \partial G }{ \partial x_{j} } =\varepsilon \sum_{i,j=1}^{2n} \frac{ \partial f }{ \partial x_{i} } E_{ij}\frac{ \partial G }{ \partial x_{j} } =\varepsilon \{ f,G \}$$
 Basically, if we know the generator $G$, we also know the variation of $f$:
-$$\boxed{\delta f=\varepsilon \{ f,G \}}$$
+$$\boxed{\delta f=\varepsilon \{ f,G \}}\tag{5}$$
 Among other things, this is used to prove the Hamiltonian variant of [[Nöther's theorem]].
 #### Infinitesimal transformations of the Hamiltonian
 We can analyze what happens to the variation of $H$ during a time-independent coordinate change:
@@ -251,45 +251,65 @@ Knowing this, we can look at it in reverse. We now that the usual Hamiltonian ha
 > [!success] Time translations
 > The Hamiltonian is the generator of time translations.
 #### Infinitesimal rotations
-[[rotation|Rotations]] are a particularly important and ubiquitous kind of transformation. Infinitesimal rotations specifically appear quite a few times in analytical mechanics. It's fair to ask if the infinitesimal rotations are also canonical transformations. To prove if they are, let's start with some rotation
-$$R(\alpha)=\mathrm{I}+\Omega(\alpha)$$
-where $R(\alpha)\in SO(3)$ is a rotation on the $\hat{\omega}$ axis of angle $\alpha$, $\mathrm{I}$ is the [[identity matrix]] and $\Omega(\alpha)$ is the infinitesimal rotation defined by its components as
-$$\Omega(\alpha)_{ij}=-\alpha \sum_{k}\epsilon_{ijk}\hat{\omega}_{k}$$
-where $\epsilon_{ijk}$ is the [[Tensore di Levi-Civita|Levi-Civita tensor]]. The angular speed is $\boldsymbol{\omega}=\alpha\hat{\omega}$. We want to see how this rotation affects coordinates and momentum.
-$$\tilde{p}_{j}=\sum_{k}R_{jk}p_{k},\quad \tilde{q}_{i}=\sum_{m}R_{im}q_{m}$$
-We'll look at the fundamental Poisson brackets:
-$$\{ \tilde{p}_{j},\tilde{p}_{l} \}=\sum_{k,s}R_{jk}R_{ls}\underbrace{ \{ p_{k},p_{s} \} }_{ 0 }=0$$
-$$\{ \tilde{q}_{j},\tilde{q}_{l} \}=0$$
-$$\{ \tilde{q}_{i},\tilde{p}_{j} \}=\sum_{k,m}R_{im}R_{jk}\underbrace{ \{ q_{m},p_{k} \} }_{ \delta_{mk} }=\sum_{k}R_{ik}R_{jk}=\sum_{k}R_{ik}R_{kj}^{T}=(\underbrace{ RR^{T} }_{ \mathrm{I} })_{ij}=\delta_{ij}$$
-So the fundamental brackets are unchanged.
+[[rotation|Rotations]] are a particularly important and ubiquitous kind of transformation. Infinitesimal rotations specifically appear quite a few times in analytical mechanics. It's fair to ask: are they canonical? What is the generator of infinitesimal rotations?
 
-$$\delta \mathbf{p}=\{ \mathbf{p},\alpha\hat{\omega}\cdot \mathbf{M} \}$$
+Let's define some rotation
+$$R(\alpha)=\mathrm{I}+\Omega(\alpha)$$
+where $R(\alpha)\in SO(3)$ is a rotation on the $\hat{\omega}$ axis of angle $\alpha$ (which must be infinitesimal for this approximation to hold), $\mathrm{I}$ is the [[identity matrix]] and $\Omega(\alpha)$ is the infinitesimal rotation defined by its components as
+$$\Omega(\alpha)_{ij}=-\alpha \sum_{k}\epsilon_{ijk}\hat{\omega}_{k}$$
+where $\epsilon_{ijk}$ is the [[Tensore di Levi-Civita|Levi-Civita tensor]] and $\boldsymbol{\omega}=\alpha\hat{\omega}$ is the angular speed.
+
+We'll prove canonicity by showing that the Poisson brackets are preserved (second canonicity criterion) and we'll do so by showing that the fundamental Poisson brackets of the transformed coordinates are the same, which is a sufficient proof of canonicity. Speaking of, the transformed coordinates are
+$$\tilde{p}_{j}=\sum_{k}R_{jk}p_{k},\quad \tilde{q}_{i}=\sum_{m}R_{im}q_{m}$$
+The fundamental Poisson brackets then are:
+$$\{ \tilde{q}_{j},\tilde{q}_{l} \}=0,\qquad\{ \tilde{p}_{j},\tilde{p}_{l} \}=\sum_{k,s}R_{jk}R_{ls}\underbrace{ \{ p_{k},p_{s} \} }_{ 0 }=0$$
+$$\{ \tilde{q}_{i},\tilde{p}_{j} \}=\sum_{k,m}R_{im}R_{jk}\underbrace{ \{ q_{m},p_{k} \} }_{ \delta_{mk} }=\sum_{k}R_{ik}R_{jk}=\sum_{k}R_{ik}R_{kj}^{T}=(\underbrace{ RR^{T} }_{ \mathrm{I} })_{ij}=\delta_{ij}$$
+So all the fundamental brackets are [[Transformation invariance|invariant]] under rotation. This proves our point: *all rotations are canonical*.
+
+Now that that's done, we want to answer the second question. To find the generator, we'll use $(5)$ for some generator and see if that leads to the infinitesimal rotation. Before that, we need to check what the infinitesimal variation is due to the rotation itself. We know that $\tilde{q}_{i}=q_{i}+\delta q_{i}$ and $\tilde{p}_{j}=p_{j}+\delta p_{j}$, so comparing with the above
+$$p_{j}+\delta p_{j}=\tilde{p}_{j}=\sum_{k}R_{jk}p_{k}=\sum_{k}(\delta_{jk}+\Omega_{jk})p_{k}=p_{j}+\sum_{k}\Omega_{jk}p_{k}$$
+and so
+$$\delta p_{j}=\sum_{k}\Omega_{jk}p_{k}$$
+The same can be done for $\tilde{q}_{i}$. This is our ground truth: we want to find the generator $G$ that leads to the same variation $\delta p_{j}$.
+
+We already have a very clear candidate for rotation generation: the [[angular momentum]] $\mathbf{L}=\mathbf{q}\times \mathbf{p}$. The variation of $\mathbf{p}$ as per $(5)$ due to $\mathbf{L}$ projected over the axis of rotation $\hat{\omega}$ then is:
+$$\delta \mathbf{p}=\alpha\{ \mathbf{p},\hat{\omega}\cdot \mathbf{L} \}$$
 On the $i$-th axis we get
 $$\begin{align}
-\{ p_{i},\alpha \hat{\omega}\cdot \mathbf{M} \}&=\left\{  p_{i},\alpha \sum_{j}\hat{\omega}_{j}M_{j}  \right\}=\alpha \sum_{j}\hat{\omega}_{j}\{ p_{i},M_{j} \}=\alpha \sum_{j}\hat{\omega}_{j}\sum_{k}\epsilon_{ijk}p_{k} \\
-&=\sum_{k}\left( -\alpha \sum_{j}\epsilon_{ikj}\hat{\omega}_{j} \right)p_{j}=\sum_{k}\Omega(\alpha)_{ij}p_{k}
+\delta p_{i}=\alpha\{ p_{i},\hat{\omega}\cdot \mathbf{L} \}&=\alpha\left\{  p_{i},\sum_{j}\hat{\omega}_{j}L_{j}  \right\}=\alpha \sum_{j}\hat{\omega}_{j}\{ p_{i},L_{j} \}=\alpha \sum_{j}\hat{\omega}_{j}\sum_{k}\epsilon_{ijk}p_{k} \\
+&=\sum_{k}\left( -\alpha \sum_{j}\epsilon_{ikj}\hat{\omega}_{j} \right)p_{j}=\sum_{k}\Omega_{ij}p_{k}
 \end{align}$$
-Let's consider a function $f(\mathbf{p},\mathbf{q})$ that is invariant under rotation, that is, $f(R\mathbf{p},R\mathbf{q})=f(\mathbf{p},\mathbf{q})$. In this case, we can write
-$$f(\mathbf{p},\mathbf{q})=g(\lvert \mathbf{p} \rvert ^{2},\lvert \mathbf{q} \rvert ^{2},\mathbf{p}\cdot \mathbf{q})$$
-This is because $\lvert \mathbf{p} \rvert^{2}$, $\lvert \mathbf{q} \rvert^{2}$ and $\mathbf{p}\cdot \mathbf{q}$ are all invariant under rotation, therefore for $f$ to be invariant, it must exclusively depend on these. In fact,
-$$\{ M_{k},\lvert \mathbf{p} \rvert ^{2} \}=\sum_{i}\{ M_{i},p_{i}^{2} \}=\sum_{i}2p_{i}\{ M_{i},p_{i} \}=\sum_{i,j}2\epsilon_{kij}p_{j}p_{i}=0$$
-since $\epsilon_{kij}$ is antisymmetric and $p_{j}p_{i}$ is symmetric. Similarly for $\lvert \mathbf{q} \rvert^{2}$. Then
-$$\begin{align}
-\{ M_{k},\mathbf{p}\cdot \mathbf{q} \}&=\sum_{i}\{ M_{k},p_{i}q_{i} \}=\sum_{i}(p_{i}\{ M_{k},q_{i} \}+\{ M_{k},p_{i} \}q_{i}) \\
-&=\sum_{i,j}(\epsilon_{kij}q_{j}p_{i}+\epsilon_{kij}p_{i}q_{j})=\sum_{i,j}\epsilon_{kij}(q_{j}p_{i}+p_{i}q_{j})=0
-\end{align}$$
-because again, $e_{kij}$ is antisymmetric and the term in brackets is symmetric. As further confirmation, we can prove that $f$ is invariant by calculating the Poisson brackets directly:
-$$\begin{align}
-\{ M_{k},f \}&=\sum_{i}\left( \frac{ \partial M_{k} }{ \partial q_{i} } \frac{ \partial f }{ \partial p_{i} } -\frac{ \partial M_{k} }{ \partial p_{i} } \frac{ \partial f }{ \partial q_{i} }  \right) \\
-&=\sum_{i}\left( \frac{ \partial M_{k} }{ \partial q_{i} } \sum_{j=1}^{3}\frac{ \partial g }{ \partial \alpha_{j} } \frac{ \partial \alpha_{j} }{ \partial p_{i} } -\frac{ \partial M_{k} }{ \partial p_{i} } \sum_{j=1}^{3} \frac{ \partial g }{ \partial \alpha_{j} } \frac{ \partial \alpha_{j} }{ \partial q_{i} }  \right) \\
-&=\sum_{j=1}^{3} \frac{ \partial g }{ \partial \alpha_{j} } \underbrace{ \sum_{i}\left( \frac{ \partial M_{k} }{ \partial q_{i} } \frac{ \partial \alpha_{j} }{ \partial p_{i} } -\frac{ \partial M_{k} }{ \partial p_{i} } \frac{ \partial \alpha_{j} }{ \partial q_{i} }  \right) }_{ \{ M_{k},\alpha_{j} \}=0 } \\
-&=0
-\end{align}$$
+where we used that $L_{j}=(\mathbf{q}\times \mathbf{p})_{j}$ which can be expressed with the Levi-Civita definition of the [[vector product]] $L_{j}=\sum_{jkm}\epsilon_{jkm}q_{k}p_{m}$ and then explicitly calculated the brackets. This matches our previous variation, so it confirms our suspicion: *the projection of the angular momentum over the rotation axis generates the rotation*. The same can be proven for $\delta q_{i}$ to complete the proof.
 
-> [!success] Rotation generator
-> The angular momentum is the generator of $SO(3)$ rotations.
+> [!success] Rotations
+> 1. Infinitesimal rotations are canonical transformations.
+> 2. The angular momentum is the generator of $SO(3)$ rotations. The projection of the angular momentum over an axis generates an infinitesimal rotation over that axis.
+
+Here's a useful fact about rotation invariance. Consider a function $f(\mathbf{p},\mathbf{q})$ that is invariant under rotation, that is, $f(R\mathbf{p},R\mathbf{q})=f(\mathbf{p},\mathbf{q})$. In this case, the function can be written as
+$$\boxed{f(\mathbf{p},\mathbf{q})=g(\lvert \mathbf{p} \rvert ^{2},\lvert \mathbf{q} \rvert ^{2},\mathbf{p}\cdot \mathbf{q})}$$
+This is because $\lvert \mathbf{p} \rvert^{2}$, $\lvert \mathbf{q} \rvert^{2}$ and $\mathbf{p}\cdot \mathbf{q}$ are all invariant under rotation, therefore for $f$ to be invariant, it must exclusively depend on these.
+
+> [!quote]- Proof
+> Just check for Poisson brackets on all three quantities.
+> $$\{ L_{k},\lvert \mathbf{p} \rvert ^{2} \}=\sum_{i}\{ L_{i},p_{i}^{2} \}=\sum_{i}2p_{i}\{ L_{i},p_{i} \}=\sum_{i,j}2\epsilon_{kij}p_{j}p_{i}=0$$
+> since $\epsilon_{kij}$ is antisymmetric and $p_{j}p_{i}$ is symmetric, and the contraction of the product of a antisymmetric and symmetric [[tensor]] is always zero. Similarly for $\lvert \mathbf{q} \rvert^{2}$. Then
+> $$\begin{align}
+> \{ L_{k},\mathbf{p}\cdot \mathbf{q} \}&=\sum_{i}\{ L_{k},p_{i}q_{i} \}=\sum_{i}(p_{i}\{ L_{k},q_{i} \}+\{ L_{k},p_{i} \}q_{i}) \\
+> &=\sum_{i,j}(\epsilon_{kij}q_{j}p_{i}+\epsilon_{kij}p_{i}q_{j})=\sum_{i,j}\epsilon_{kij}(q_{j}p_{i}+p_{i}q_{j})=0
+> \end{align}$$
+> because again, $e_{kij}$ is antisymmetric and the term in brackets is symmetric.
+> 
+> Since $\{ L_{k},\lvert \mathbf{p} \rvert^{2} \}=\{ L_{k},\lvert \mathbf{q} \rvert^{2} \}=\{ L_{k},\mathbf{p}\cdot \mathbf{q} \}=0$, all three of these are invariant under rotation and completes our proof.
+> 
+> As further confirmation, we can also prove that $f$ is invariant by calculating the Poisson brackets directly using the chain rule:
+> $$\begin{align}
+> \{ L_{k},f \}&=\sum_{i}\left( \frac{ \partial L_{k} }{ \partial q_{i} } \frac{ \partial f }{ \partial p_{i} } -\frac{ \partial L_{k} }{ \partial p_{i} } \frac{ \partial f }{ \partial q_{i} }  \right) \\
+> &=\sum_{i}\left( \frac{ \partial L_{k} }{ \partial q_{i} } \sum_{j=1}^{3}\frac{ \partial g }{ \partial \alpha_{j} } \frac{ \partial \alpha_{j} }{ \partial p_{i} } -\frac{ \partial L_{k} }{ \partial p_{i} } \sum_{j=1}^{3} \frac{ \partial g }{ \partial \alpha_{j} } \frac{ \partial \alpha_{j} }{ \partial q_{i} }  \right) \\
+> &=\sum_{j=1}^{3} \frac{ \partial g }{ \partial \alpha_{j} } \underbrace{ \sum_{i}\left( \frac{ \partial L_{k} }{ \partial q_{i} } \frac{ \partial \alpha_{j} }{ \partial p_{i} } -\frac{ \partial L_{k} }{ \partial p_{i} } \frac{ \partial \alpha_{j} }{ \partial q_{i} }  \right) }_{ \{ L_{k},\alpha_{j} \}=0 } \\
+> &=0
+> \end{align}$$
 ### Examples
-> [!example]
+> [!example]- Check from definition
 > Take this coordinate transformation:
 > $$q=\frac{\tilde{p}}{m\omega}\sin \tilde{q},\quad p=\tilde{p}\cos \tilde{q}$$
 > with Hamiltonian $H=p^{2}/2m$, that yields the equations of motion
@@ -299,7 +319,7 @@ $$\begin{align}
 > \end{cases}$$
 > The derivatives of the transformation are
 > $$\dot{q}=\frac{\dot{\tilde{p}}}{m\omega}\sin \tilde{q}+ \frac{\tilde{p}\dot{\tilde{q}}}{m\omega}\cos \tilde{q},\quad \dot{p}=\dot{\tilde{p}}\cos \tilde{q}-\tilde{p}\dot{\tilde{q}}\sin \tilde{q}$$
-> If we plug this in the equations of motion we get
+> If we plug these in the equations of motion and invert we get
 > $$\begin{cases}
 > \dot{\tilde{p}}=\omega \tilde{p}\cos \tilde{q}\sin \tilde{q} \\
 > \dot{\tilde{q}}=\omega \cos ^{2}\tilde{q}
@@ -309,14 +329,14 @@ $$\begin{align}
 > \dot{\tilde{p}}=\omega \tilde{p}\cos \tilde{q}\sin \tilde{q}=-\frac{ \partial K }{ \partial \tilde{q} }  \\
 > \dot{\tilde{q}}=\omega \cos ^{2}\tilde{q}=\frac{ \partial K }{ \partial \tilde{p} } 
 > \end{cases}\quad(?)\tag{1}$$
-> We need some property to verify that such a $K$ can exist. Since we're working with derivatives, we may as well use the [[Teorema di Schwarz]] as a check. The following must be true:
+> We need some property to verify that such a $K$ can exist. Since we're working with derivatives, we may as well use the [[Schwarz theorem]] as a check. The following must be true:
 > $$\frac{ \partial  }{ \partial \tilde{p} } \frac{ \partial K }{ \partial \tilde{q} } =\frac{ \partial  }{ \partial \tilde{q} } \frac{ \partial K }{ \partial \tilde{p} } $$
 > but doing the math with the values we are hoping for in $(1)$ leads to
 > $$-\omega \cos \tilde{q}\sin \tilde{q}=-2\omega \cos \tilde{q}\sin \tilde{q}$$
 > This is impossibile, so $K$ cannot exists. As such, this transformation is not canonical.
 
-> [!example]
-> Here's another transformation
+> [!example]- Scalings
+> Here's a scaling transformation
 > $$p_{i}=\alpha \tilde{p}_{i},\quad q_{i}=\beta \tilde{q}_{i}$$
 > with derivatives
 > $$\dot{p}_{i}=\alpha \dot{\tilde{p}}_{i},\quad \dot{q}_{i}=\beta \dot{\tilde{q}}_{i}$$
@@ -326,7 +346,7 @@ $$\begin{align}
 > $$\dot{\tilde{p}}_{i}=-\frac{ \partial K }{ \partial q_{i} } (\tilde{p},\tilde{q},t),\quad \dot{\tilde{q}}_{i}=\frac{ \partial K }{ \partial p_{i} } (\tilde{p},\tilde{q},t)\qquad \text{for }K=\frac{1}{\alpha \beta}H(\alpha \tilde{p},\beta \tilde{q},t)$$
 > Thus, this is a canonical transformation of conjugate Hamiltonian $K$.
 
-> [!example]
+> [!example]-
 > Consider the transformation $p_{i}=\tilde{p}_{i}$ and $q_{i}=\tilde{q}_{i}+\alpha t \tilde{p}_{i}$.
 > $$K(\tilde{p},\tilde{q},t)=H(\tilde{p},\tilde{q}+\alpha t \tilde{p})- \frac{\alpha}{2}\tilde{\mathbf{p}}^{2}$$
 > $$H(p,q)=\frac{\mathbf{p}^{2}}{2m}\quad\to \quad \dot{p}=0,\quad \dot{q}=\frac{p}{m}$$
@@ -334,7 +354,7 @@ $$\begin{align}
 > $$\tilde{K}=\frac{\tilde{\mathbf{p}}^{2}}{2m}- \frac{1}{2m}\tilde{\mathbf{p}}^{2}=0\quad\to \quad \dot{\tilde{p}}=0,\quad \dot{\tilde{q}}=0$$
 > So, in the modified coordinate systems, the equations of motion become trivial: $\tilde{p}$ and $\tilde{q}$ are just constants. Of course, the issue was getting here, i.e. knowing what transformation to do in the first place. (TODO: Fix this, 08/05/2025)
 
-> [!example] Proving canonicity
+> [!example]- Canonicity criteria
 > Let's prove that $p=\tilde{p}$, $q=\tilde{q}+\alpha t\tilde{p}$ is a canonical transformation. In compact form it is $x=w(\tilde{x},t)$ where $x_{1}=\tilde{x}_{1}$ and $x_{2}=\tilde{x}_{2}+\alpha t\tilde{x}_{1}$. We'll use the first canonicity criterion, so we need the Jacobian:
 > $$J=\begin{pmatrix}1 & 0 \\ \alpha t & 1\end{pmatrix},\quad J^{T}=\begin{pmatrix}1 & \alpha t \\ 0 & 1\end{pmatrix}$$
 > By the criterion we calculate

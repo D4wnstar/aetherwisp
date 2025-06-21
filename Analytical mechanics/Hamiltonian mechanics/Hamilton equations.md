@@ -1,13 +1,15 @@
 ---
 wiki-publish: true
 aliases:
-  - Hamiltonian flow
+  - Hamiltonian system
 ---
 The **Hamilton equations** are a set of equations that derive the motion of a [[physical system]] from its [[Hamiltonian]] $H$:
 $$\dot{q}_{i}=\frac{ \partial H }{ \partial p_{i} },\quad \dot{p}_{i}=-\frac{ \partial H }{ \partial q_{i} }  $$
 $q_{i}$ are the [[generalized coordinates]] and $p_{i}$ are their [[conjugate momenta]]. Just like the [[Lagrange equation]], in a system of $n$ [[degrees of freedom]], there are $2n$ Hamilton equations. Solving all of them determines the trajectory of the system. The $2n$ equations can be written in compact form as
 $$\dot{\mathbf{x}}=\mathrm{E}\nabla_{\mathbf{x}}H(\mathbf{x},t)=\{ \mathbf{x},H \}$$
 where $\mathbf{x}=(\mathbf{q},\mathbf{p})$ are [[canonical coordinates]] and $\mathrm{E}$ is the $2n$-dimensional [[Symplectic matrix|standard symplectic matrix]]. $\nabla_{\mathbf{x}}$ represents the [[gradient]] as computed in canonical coordinates, which is the to say the [[phase space]] gradient. The curly braces are the [[Poisson brackets]].
+
+A system whose dynamics are governed by the Hamilton equations is called a **Hamiltonian system**.
 ### Derivation from the Lagrange equation
 The [[Lagrange equation]] is a second order differential equation of the form $\ddot{\mathbf{q}}=f(q,\dot{q},t)$, which can be also written in as a linear system of first order equations:
 $$\begin{cases}

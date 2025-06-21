@@ -5,7 +5,7 @@ The **Hamiltonian flow** is the [[flow]] of the [[Hamiltonian]] [[vector field]]
 
 The [[Hamilton equations]] can be written in compact form as
 $$\dot{\mathbf{x}}=\mathrm{E}\nabla_{\mathbf{x}}H(\mathbf{x},t)$$
-which is a first order [[ordinary differential equation]]. As with other differential equations, we can look for the flow. We'll denote it $\Phi^{t}:T^{*}Q\to T^{*}Q$ and its application is $\mathbf{x}_{0}\to \Phi^{t}(\mathbf{x}_{0})\equiv \mathbf{x}(t;\mathbf{x}_{0})$. As usual, this isn't a single map, but rather a family of maps parameterized by $t$. We call this the Hamiltonian flow.
+which is a first order [[ordinary differential equation]]. As with other differential equations, we can look for the flow. We'll denote it $\Phi^{t}:T^{*}Q\mapsto T^{*}Q$ and its application is $\mathbf{x}_{0}\mapsto \Phi^{t}(\mathbf{x}_{0})\equiv \mathbf{x}(t;\mathbf{x}_{0})$. As usual, this isn't a single map, but rather a family of maps parameterized by $t$. We call this the Hamiltonian flow.
 ### As a canonical transformation
 Given $n$ [[degrees of freedom]], the Hamiltonian flow is an invertible function with domains $\mathbb{R}^{2n}\to \mathbb{R}^{2n}$. This qualifies it as a [[coordinate transformation]], so we can use $\Phi^{t}$ to change coordinates. We'll define the transformation as $\mathbf{x}\equiv \mathbf{w}(\tilde{\mathbf{x}},t)=\Phi^{t}(\tilde{\mathbf{x}})$, and it isn't just a generic transformation.
 
