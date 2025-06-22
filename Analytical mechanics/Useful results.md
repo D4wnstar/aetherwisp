@@ -54,6 +54,11 @@ Antisymmetric matrices in $SO(N)$ with unit determinant. They make a vector spac
 $$R=\prod_{i=1}^{N}e^{\omega_{i}\mathrm{E}_{i}}$$
 An infinitesimal rotation is a rotation for an infinitesimal angle. In terms of generators it is a simple sum
 $$\Omega=\sum_{i=1}^{3} \omega_{i}\mathrm{E}_{i},\qquad\Omega_{ij}=-\sum_{k=1}^{3} \epsilon_{ijk}\omega_{k}$$
+
+**Kinetic matrix**
+$$a_{jk}=\sum_{i=1}^{N} m_{i} \frac{ \partial \mathbf{r}_{i} }{ \partial q_{j} } \cdot \frac{ \partial \mathbf{r}_{i} }{ \partial q_{k} }$$
+$\mathbf{r}\equiv\mathbf{r}(\mathbf{q},t)$ is the "real world" position. May coincide with $\mathbf{q}$, otherwise there's a coordinate transformation between the two. Summation is over all point masses. If only one point mass
+$$a_{jk}=m \frac{ \partial \mathbf{r} }{ \partial q_{j} } \cdot \frac{ \partial \mathbf{r} }{ \partial q_{k} }$$
 ### Lagrangian mechanics
 **Lagrange equation (general)**
 $$\frac{d}{dt} \frac{ \partial T }{ \partial \dot{q}_{j} }(q(t),\dot{q}(t),t)- \frac{ \partial T }{ \partial q_{j} } (q(t),\dot{q}(t),t)=Q_{j} $$
@@ -81,6 +86,11 @@ $$P_{l}(q,\dot{q},t)\equiv \frac{ \partial L }{ \partial \dot{q}_{l} } (q,\dot{q
 
 **Equilibrium configuration**
 An equilibrium configuration is a configuration that leaves the system at rest. $\mathbf{q}^{*}$ is an equilibrium configuration if $\mathbf{c}=(\mathbf{q}^{*},0)$ is an equilibrium point for a Lagrangian system $(\mathbf{q},\dot{\mathbf{q}})$.
+
+**Linearization around minima**
+$$L(\mathbf{q},\dot{\mathbf{q}})\simeq\frac{1}{2}\dot{\mathbf{q}}\cdot \mathrm{A}\dot{\mathbf{q}}- \frac{1}{2}\mathbf{q}\cdot \mathrm{B}\mathbf{q},\qquad\mathrm{A} \ddot{\mathbf{q}}+\mathrm{B}\mathbf{q}=0$$
+$$\mathrm{A}\equiv \left.{\mathrm{a}}\right|_{\text{minimum}},\qquad B_{ij}=\left.{\frac{ \partial ^{2}V }{ \partial q_{i}\partial q_{j} }}\right|_{\text{minimum}}$$
+Solve $\det(\mathrm{B}-\lambda \mathrm{A})$ to find $\lambda$. $\lambda_{i}\equiv \omega_{i}$ are small oscillation frequencies. $L$ can be calculated explicitly by using $\mathrm{A}$ and $\mathrm{B}$ and doing the vector-matrix products in $L$ for generic $\mathbf{q}$ and $\dot{\mathbf{q}}$. The motion $q_{i}(t)$ is a harmonic oscillator of frequency $\omega_{i}$ like $\ddot{q}_{i}=-\omega ^{2}_{i}q_{i}$. Solution is always $q_{i}(t)=A_{i}u_{i}\cos(\omega_{i}t+\varphi_{i})$, where $A_{i}$ and $\varphi_{i}$ are the usual quantities and $u_{i}$ is the $i$-th vector in the basis of the kernel of $\mathrm{B}-\lambda \mathrm{A}$. The kernel is the space of all vectors $\mathbf{v}$ such that $(\mathrm{B}-\lambda \mathrm{A})\mathbf{v}=0$ and is nontrivial only if $\det(\mathrm{B}-\lambda \mathrm{A})=0$ (otherwise it is $\{ (0,0) \}$).
 
 **Total energy in a Lagrangian system**
 $$E(q,\dot{q},t)=\sum_{i=1}^{n} \dot{q}_{i}\frac{ \partial L }{ \partial \dot{q}_{i} }(q,\dot{q},t)-L(q,\dot{q},t) $$

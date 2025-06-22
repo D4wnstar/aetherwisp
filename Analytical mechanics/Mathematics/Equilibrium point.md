@@ -9,7 +9,7 @@ An **equilibrium point**, in mathematics, is a constant solution to a differenti
 ### Search
 In practice, given an ODE, finding its equilibrium points is just a matter of finding the zeros of $f(\mathbf{x}(t))$. More complicated is determining if a given equilibrium point is stable or not. This can be done through [[Ljapunov's theorem]].
 ### Linearization near equilibrium points
-It is possible to make statements about the behavior of differential equations near equilibrium points. Consider a first order autonomous system $\dot{\mathbf{x}}=f(\mathbf{x})$, where $f:\mathbb{R}^{N}\to \mathbb{R}^{N}$, and an equilibrium point $\mathbf{c}$. As usual, $f(\mathbf{c})=0$. We want to analyze the behavior of the system near $\mathbf{c}$, that is, for $\mathbf{x}$ in a neighborhood $\lVert \mathbf{x}-\mathbf{c} \rVert\ll 1$.
+It is possible to make statements about the behavior of differential equations near equilibrium points. Consider a first order autonomous system $\dot{\mathbf{x}}=f(\mathbf{x})$, where $f:\mathbb{R}^{N}\to \mathbb{R}^{N}$, and an equilibrium point $\mathbf{c}$. As usual, $f(\mathbf{c})=0$. We want to analyze the behavior of the system near $\mathbf{c}$, that is, for $\mathbf{x}$ in a neighborhood $\lVert \mathbf{x}-\mathbf{c} \rVert\ll 1$. We assume it stays this way for the entirety of motion, so that $\lVert \mathbf{x}(t)-\mathbf{c} \rVert\ll1$ for all $t$ (if it doesn't, this still applies to the intervals of $t$ where it does).
 
 To do so, we start with a [[Taylor series]] of each $i$ component of $f$ centered in $\mathbf{c}$, truncating to first order:
 $$\begin{align}

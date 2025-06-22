@@ -10,7 +10,7 @@ wiki-publish: true
 > 
 > then $\mathbf{c}$ is a stable equilibrium point in the future.
 
-There is also a corollary that applies to [[conservative system|conservative systems]] which states that isolated minima of the [[potential energy]] are always stable equilibrium points. An isolated minimum is a minimum that is a single point (a non-isolated minimum would be an entire interval).
+There is also a corollary, called the [[Lagrange-Dirichlet theorem]], that applies to [[conservative system|conservative systems]] which states that isolated minima of the [[potential energy]] are always stable equilibrium points. An isolated minimum is a minimum that is a single point (a non-isolated minimum would be an entire interval).
 
 > [!info] Corollary
 > Consider the conservative mechanical system

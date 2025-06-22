@@ -35,7 +35,7 @@ Of the three, $T_{2}$ is the most interesting, because if $\mathbf{r}$ is not ex
 $$T=T_{2}\qquad(\text{if }\mathbf{r}=\mathbf{r}(q))$$
 This occurs, for instance, if motion is subject to fixed [[Constraint|constraints]], which are a common and useful situation in mechanics.
 
-> [!example] Cylindrical motion
+> [!example]- Cylindrical motion
 > As an example of how to find the kinetic energy in different coordinate systems, we'll consider a point mass in [[cylindrical coordinates]] for which
 > $$x=r\cos \theta,\quad y=r\sin \theta,\quad z=\zeta$$
 > (we use $\zeta$ instead of $z$ in cylindrical coordinates just for clarity). We'll want to find velocity in terms of cylindrical ones, so we use
@@ -61,7 +61,9 @@ This occurs, for instance, if motion is subject to fixed [[Constraint|constraint
 #### The kinetic matrix
 Let's now focus our attention to just the term $T_{2}$ and more specifically $a_{jk}(q,t)$. This quantity is known as the **kinetic matrix**, because it is, in fact, a matrix. If we write $T_{2}$ as
 $$T_{2}=\sum_{j=1}^{n} \dot{q}_{j}\sum_{k=1}^{n}a_{jk}\dot{q}_{k} =\dot{\mathbf{q}}_{j}\cdot \mathrm{a}\,\dot{\mathbf{q}}_{k}$$
-we can see that $\mathrm{a}$ has the shape of a matrix and $a_{jk}$ are its components. It has a few interesting properties:
+we can see that $\mathrm{a}$ has the shape of a matrix and $a_{jk}$ are its components. It is defined as
+$$a_{jk}=\sum_{i=1}^{N} m_{i} \frac{ \partial \mathbf{r}_{i} }{ \partial q_{j} } \cdot \frac{ \partial \mathbf{r}_{i} }{ \partial q_{k} }$$
+It has a few interesting properties:
 - it is [[Matrice simmetrica|symmetric]], $a_{jk}=a_{kj}$. This follows from being defined by a real scalar product.
 - it is [[Matrix sign definitions|positive definite]], that is, $\mathbf{v}\cdot \mathrm{a}\,\mathbf{v}>0$ for all $\mathbf{v}\neq 0\in \mathbb{R}^{n}$.
 - it is [[Invertible matrix|invertible]], since it is positive definite.

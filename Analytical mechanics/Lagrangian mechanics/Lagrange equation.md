@@ -3,7 +3,7 @@ wiki-publish: true
 aliases:
   - Lagrangian system
 ---
-The **Lagrange equation** is a second order[^1] differential equation that finds the motion of a [[Physical system|system]] from its [[energy]]:
+The **Lagrange equation** is a second order[^1] [[differential equation]] that finds the motion of a [[Physical system|system]] from its [[energy]]:
 $$\frac{d}{dt} \frac{ \partial T }{ \partial \dot{q}_{j} }(q(t),\dot{q}(t),t)- \frac{ \partial T }{ \partial q_{j} } (q(t),\dot{q}(t),t)=Q_{j} $$
 Here $T$ is the [[kinetic energy]], $q(t)$ is the motion in [[generalized coordinates]] $q_{j}$ and $Q_{j}$ are the [[generalized force|generalized forces]]. The value $j=1,\ldots,n$ depends on the [[degrees of freedom]] $n$ of the system.
 
@@ -40,8 +40,42 @@ $$\mathrm{a}\ddot{\mathbf{q}}=f$$
 To continue, we'll apply the [[Invertible matrix|inverse matrix]] of $\mathrm{a}$ on both sides: $\mathrm{a}^{-1}\mathrm{a}\ddot{\mathbf{q}}=\mathrm{a}^{-1}f$. Since $\mathrm{a}^{-1}\mathrm{a}=\mathrm{I}$, we get
 $$\boxed{\ddot{\mathbf{q}}=\mathrm{a}^{-1}f(q,\dot{q},t)}$$
 We now have the same equation in explicit form. What this tells us is that we can, at least in principle, find the motion from the inverse of the kinetic matrix applied onto a (vector-valued) function $f$. Our next step then is to better understand what $f$ is.
+### Linearization
+Like other differential equations, we can linearize the Lagrange equation near an [[equilibrium point]] in the approximation of small movement near that point. More correctly, it's not the Lagrange equation itself that we linearize, as much as the general form of the equation for $q(t)$ that we do.
+
+We assume that the motion $q(t)$ is always near our equilibrium point $\mathbf{q}^{*}$ for all time, so that $\lvert \mathbf{q}(t)-\mathbf{q}^{*} \rvert\ll 1$ for all $t$. This also implies that the velocity must be small: $\lvert \dot{\mathbf{q}}(t) \rvert\ll 1$ (otherwise the moving object could not possibly remain near the equilibrium point). Also, this of course requires $\mathbf{q}^{*}$ to be stable, otherwise the object would diverge from it as soon as it starts moving, making it impossible for motion to be small.
+
+We'll use a [[coordinate transformation]] to set the equilibrium point in $(0,0)$; this just makes the treatment easier and no less general, as motion cannot possibly depend on the choice of coordinates. In these coordinates, $\lvert \mathbf{q}(t) \rvert\ll 1$ and $\lvert \dot{\mathbf{q}}(t) \rvert\ll 1$. We are now going to expand the Lagrangian in a [[Taylor series]] about $(0,0)$:
+$$\begin{align}
+L(\mathbf{q},\dot{\mathbf{q}})&=L(0,0) \\
+&+\sum_{i=1}^{n} \frac{ \partial L }{ \partial q_{i} } (0,0)q_{i}+\sum_{i=1}^{n} \frac{ \partial L }{ \partial \dot{q}_{i}}(0,0)\dot{q}_{i} \\
+&+\frac{1}{2}\sum_{i,j}\left( \frac{ \partial ^{2}L }{ \partial q_{i}q_{j} } (0,0) q_{i}q_{j}+\frac{ \partial ^{2}L }{ \partial q_{i}\dot{q}_{j} } (0,0)q_{i}\dot{q}_{j}+\frac{ \partial ^{2}L }{ \partial \dot{q}_{i}\dot{q}_{j} } (0,0)\dot{q}_{i}\dot{q}_{j}\right) \\
+&+O(q^{3},q^{2}\dot{q},q\dot{q}^{2},\dot{q}^{3})
+\end{align}$$
+We'll ignore anything third order and above since motion is small. We now substitute $L=T-V$:
+$$L(\mathbf{q},\dot{\mathbf{q}})\simeq-V(0)-\cancel{ \sum_{i=1}^{n} \frac{ \partial V }{ \partial q_{i} } (0)q_{i} }- \frac{1}{2}\sum_{i,j=1}^{n} \frac{ \partial ^{2}V }{ \partial q_{i}\partial q_{j} } (0)q_{i}q_{j}+ \frac{1}{2}\sum_{i,j=1}^{n} a_{ij}(0)\dot{q}_{i}\dot{q}_{j}$$
+where most terms vanish in the equilibrium point. $V(0)$ is also constants, so we may as well redefine $V$ so that $V(0)=0$. This leaves us with
+$$L(\mathbf{q},\dot{\mathbf{q}})\simeq\frac{1}{2}\sum_{i,j=1}^{n} a_{ij}(0)\dot{q}_{i}\dot{q}_{j}- \frac{1}{2}\sum_{i,j=1}^{n} \frac{ \partial ^{2}V }{ \partial q_{i}\partial q_{j} } (0)q_{i}q_{j}$$
+or
+$$\boxed{L(\mathbf{q},\dot{\mathbf{q}})\simeq\frac{1}{2}\dot{\mathbf{q}}\cdot \mathrm{A}\dot{\mathbf{q}}- \frac{1}{2}\mathbf{q}\cdot \mathrm{B}\mathbf{q}}$$
+where $\mathrm{A}\equiv \mathrm{a}(0)$ is the kinetic matrix evaluated in the minimum and $\mathrm{B}$ is the "potential" matrix
+$$B_{ij}=\frac{ \partial ^{2}V }{ \partial q_{i}q_{j} }(0) $$
+Plugging this into the Lagrange equation yields
+$$\boxed{\mathrm{A} \ddot{\mathbf{q}}+\mathrm{B}\mathbf{q}=0}$$
+which is a fully general, *linearized* form of the equation of motion for the approximate Lagrangian above[^2].
+
+This is a homogeneous, linear, second-order ODE, so the solution isn't too difficult. There are $2n$ independent solutions and the general solution is the [[linear combination]] of all of them. Following the guidance of the general theory (see [[Equilibrium point#Linearization near equilibrium points]]), we ansatz
+$$\mathbf{q}(t)=\rho(t)\mathbf{u}$$
+so
+$$\ddot{\rho}(t)\mathrm{A}\mathbf{u}+\rho(t)\mathrm{B}\mathbf{u}=0$$
+This equation only has $n$ nontrivial independent solutions if $\mathrm{A}\mathbf{u}$ and $\mathrm{B}\mathbf{u}$ are parallel vectors, which is to say one is a scalar multiple of the other: $\mathrm{B}\mathbf{u}=\lambda \mathrm{A}\mathbf{u}$. Plug this in and you get
+$$\ddot{\rho}(t)=-\lambda \rho(t)$$
+This has two independent solutions.
+
+> [!warning] Work in progress
+> This section is unfinished. Please see [here](https://moodle2.units.it/pluginfile.php/765123/mod_resource/content/0/IFT%2013%20-%20Soluz%20d%E2%80%99equilibrio%2C%20stabilit%C3%A0%2C%20linearizzazione.pdf) for the rest of the derivation (in Italian).
 ### Examples
-> [!example] Harmonic oscillator
+> [!example]- Harmonic oscillator
 > As always, the [[harmonic oscillator]] is the test bench for everything, and we'll use it to check if the Lagrange equation really works. The kinetic energy is simply $T(q,\dot{q},t)=\frac{1}{2}m \dot{q}^{2}$. The potential is also well known to be $V(q,t)=\frac{1}{2}m\omega ^{2}q^{2}$. The Lagrangian then is
 > $$L(q,\dot{q},t)=\frac{1}{2}m\dot{q}^{2}- \frac{1}{2}m\omega ^{2}q^{2}$$
 > If the Lagrange equation is to be believed, this quantity contains the entire dynamics of the system, which we can extract by solving its Lagrange equations. To find it, we'll need the derivatives
@@ -52,10 +86,10 @@ We now have the same equation in explicit form. What this tells us is that we ca
 > $$\frac{d}{dt} \frac{ \partial L }{ \partial \dot{q} } -\frac{ \partial L }{ \partial q }=0 \quad\Rightarrow \quad m\ddot{q}+m\omega ^{2}q=0\quad\Rightarrow \quad \ddot{q}=-\omega ^{2}q$$
 > which is the well known harmonic oscillator equation.
 
-> [!example] Coriolis force
+> [!example]- Coriolis force
 > The Coriolis force is defined as $\mathbf{F}=2m \dot{\mathbf{q}}\times \boldsymbol{\omega}$. $\boldsymbol{\omega}$ is assumed to be constant. The $j$-th component is determined by the potential by
 > $$F_{j}=\frac{d}{dt} \frac{ \partial V }{ \partial \dot{q}_{j} } -\frac{ \partial V }{ \partial q_{j} } $$
-> The potential is $V(q,\dot{q})=-m(\dot{\mathbf{q}}\times \boldsymbol{\omega})\cdot \mathbf{q}$[^2]. Before we take the derivatives, we should expand the mixed product. The [[scalar product]] of a [[cross product]] in general is
+> The potential is $V(q,\dot{q})=-m(\dot{\mathbf{q}}\times \boldsymbol{\omega})\cdot \mathbf{q}$[^3]. Before we take the derivatives, we should expand the mixed product. The [[scalar product]] of a [[cross product]] in general is
 > $$\begin{align}
 > (\mathbf{a}\times \mathbf{b})\cdot \mathbf{c}&=\left( \sum_{i,j,k=1}^{3} \epsilon_{ijk}a_{i}b_{j}\mathbf{e}_{k} \right)\cdot\left( \sum_{l}c_{l}\mathbf{e}_{l}  \right) \\
 > &=\sum_{i,j,k=1}^{3} \epsilon_{ijk}a_{i}b_{j}c_{l}\underbrace{ \mathbf{e}_{k}\cdot \mathbf{e}_{j} }_{ \delta_{kj} } \\
@@ -73,7 +107,7 @@ We now have the same equation in explicit form. What this tells us is that we ca
 > $$F_{j}=2m(\dot{\mathbf{q}}\times \boldsymbol{\omega})_{j}$$
 > which is exactly our Coriolis force.
 
-> [!example] 3D free particle in an inertial frame of reference
+> [!example]- 3D free particle in an inertial frame of reference
 > Another typical case of velocity dependence is a [[free particle]] in an inertial [[frame of reference]]. Since there is no potential, Lagrangian is just the kinetic energy:
 > $$L(x,y,z,\dot{x},\dot{y},\dot{z})=\frac{m}{2}(\dot{x}^{2}+\dot{y}^{2}+\dot{z}^{2})$$
 > The issue here figuring out the motion relative to the moving frame. Normally, this would require a lot of imagination and lengthy mathematics to try to understand the relative motion. The benefit of Lagrangian mechanics is that no such thing is needed: since frame changes lead to apparent forces, the process of figuring this out is identical to any other force and is just a matter of applying the usual mathematical algorithm; no fancy methods required.
@@ -93,7 +127,7 @@ We now have the same equation in explicit form. What this tells us is that we ca
 > The final result is
 > $$L(\dot{x},\dot{y},\dot{z})=\frac{m}{2}(\dot{q}^{2}_{1}+\dot{q}^{2}_{2}+\dot{q}^{2}_{3})+ \frac{m}{2}\omega ^{2}(q_{1}^{2}+q_{2}^{2})-m\omega(\mathbf{q}\times \dot{\mathbf{q}})$$
 
-> [!example] Electromagnetic forces
+> [!example]- Electromagnetic forces
 > The [[Lorentz force]] is dependent on speed when an [[electric charge]] moves through a [[magnetic field]] is present. The force is
 > $$\mathbf{F}=e(\mathbf{E}+\dot{\mathbf{q}}\times \mathbf{B})$$
 > for a charge $e$ (we're not using $q$ to avoid overwriting the generalized coordinate). The [[electric field]] is in general
@@ -152,7 +186,7 @@ $$V(q,\dot{q})=e\phi-e \dot{\mathbf{q}}\cdot \mathbf{A}$$
 > $$L=\frac{m}{2}(\dot{x}^{2}+\dot{y}^{2}+\dot{z}^{2})+ \frac{e}{2}B(x \dot{y}-y \dot{x})=\frac{m}{2}(\dot{r}^{2}+r^{2}\dot{\varphi}^{2}+\zeta ^{2})+ \frac{e}{2}B^{2}r^{2}\dot{\varphi}$$
 > where we also switched to [[cylindrical coordinates]].
 
-> [!example] Spherical pendulum
+> [!example]- Spherical pendulum
 > We'll now use another oscillating system: a spherical pendulum, which is a [[simple pendulum]] that's constrained to remain on a [[sphere]], instead of a [[circle]]. In plain English, it's a pendulum that swings in 3D. The position vector $\mathbf{r}(q)$ only needs two free coordinates, as that's the minimum to identify a point on a [[surface]] (which a sphere is). We'll use the angles $\theta$ and $\phi$ on a sphere of radius $R$.
 > ![[Diagram Spherical pendulum]]
 > 
@@ -195,7 +229,7 @@ $$V(q,\dot{q})=e\phi-e \dot{\mathbf{q}}\cdot \mathbf{A}$$
 > $$\boxed{\ddot{\phi}=-2\cot \theta \dot{\theta}\dot{\phi}}$$
 > When solved, these two equations provide the motion in both coordinates. We can then use the coordinate transformation to convert to $x,y,z$. Note how these equations depend on each other, since $\phi$ appears in the $\ddot{\theta}$ equation and $\theta$ appears in $\ddot{\phi}$. These are so-called *coupled* equations and they are generally very difficult, if possible, to solve by hand. A [[numerical integration]] method is often needed.
 
-> [!example] Pendulum with a spring joint
+> [!example]- Pendulum with a spring joint
 > In this example, we'll analyze how a spring interacts with gravity. Consider a point mass attached to the $x$ axis by a spring of some elastic constant that always remains exactly vertical. Gravity pulls the mass down. Crucially, the spring is allowed to slide over the $x$ axis: thing of it like a coat hanger on a metal pipe of sorts.
 > 
 > ![[Diagram Spring pendulum]]
@@ -243,4 +277,5 @@ $$V(q,\dot{q})=e\phi-e \dot{\mathbf{q}}\cdot \mathbf{A}$$
 > The two $q^{*}$ points split in the middle as the parameter $mg/kl$ goes lower. This shape is called a **[[bifurcation]]** and this graph allows us to get an idea of how the potential looks like by tracing a vertical line anywhere in the graph to fix any one $mg/kl$. Since stable points are potential minima and unstable ones are potential maxima, our potential has two behaviors. When $mg/kl\geq1$, it's a rather typical parabola, with maxima at $q=\pm \pi$ and minima at $q=0$; about what you'd expect from the usual pendulum. But when the spring gets rigid enough, $mg/kl<1$ and we start to see the characteristic behavior of this pendulum. The vertical is no longer a stable equilibrium point, so the two new "oblique" equilibrium points $\pm q^{*}$ come in as the "replacement" minima. This gives the potential *two* valleys with an additional central peak at $q=0$.
 
 [^1]: $q(t)$ and $\dot{q}(t)$ are implicit in $T$, whereas $\ddot{q}(t)$ appears when taking the time derivative in the first term.
-[^2]: For instance, for a centrifugal force we have $V(q)=- \frac{1}{2}m\omega ^{2}d^{2}(q)$. 
+[^2]: We could have reached the same result by linearizing the ODEs of a generic Lagrangian system $\dot{\mathbf{q}}=\mathbf{v},\dot{\mathbf{v}}=f(\mathbf{q},\boldsymbol{\eta})$.
+[^3]: For instance, for a centrifugal force we have $V(q)=- \frac{1}{2}m\omega ^{2}d^{2}(q)$. 
