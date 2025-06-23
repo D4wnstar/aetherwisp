@@ -59,6 +59,11 @@ $$\Omega=\sum_{i=1}^{3} \omega_{i}\mathrm{E}_{i},\qquad\Omega_{ij}=-\sum_{k=1}^{
 $$a_{jk}=\sum_{i=1}^{N} m_{i} \frac{ \partial \mathbf{r}_{i} }{ \partial q_{j} } \cdot \frac{ \partial \mathbf{r}_{i} }{ \partial q_{k} }$$
 $\mathbf{r}\equiv\mathbf{r}(\mathbf{q},t)$ is the "real world" position. May coincide with $\mathbf{q}$, otherwise there's a coordinate transformation between the two. Summation is over all point masses. If only one point mass
 $$a_{jk}=m \frac{ \partial \mathbf{r} }{ \partial q_{j} } \cdot \frac{ \partial \mathbf{r} }{ \partial q_{k} }$$
+The diagonals are
+$$a_{jj}=m\left\lvert  \frac{ \partial \mathbf{r} }{ \partial q_{j} }   \right\rvert ^{2}$$
+- it is symmetric, $a_{jk}=a_{kj}$. This follows from being defined by a real scalar product.
+- it is positive definite, that is, $\mathbf{v}\cdot \mathrm{a}\,\mathbf{v}>0$ for all $\mathbf{v}\neq 0\in \mathbb{R}^{n}$.
+- it is invertible, since it is positive definite.
 ### Lagrangian mechanics
 **Lagrange equation (general)**
 $$\frac{d}{dt} \frac{ \partial T }{ \partial \dot{q}_{j} }(q(t),\dot{q}(t),t)- \frac{ \partial T }{ \partial q_{j} } (q(t),\dot{q}(t),t)=Q_{j} $$
@@ -71,9 +76,9 @@ $$L=T-V$$
 
 **Effective Lagrangian**
 1. See if there's any cyclical coordinates $q_{l}$ (any that does not appear in the Lagrangian).
-2. Find the conjugate momenta $\tilde{P}_{l}$ to those. They are all constants of motion.
+2. Find the conjugate momenta $P_{l}$ to those. They are all constants of motion.
 3. Invert them to get the (also constant) velocity $\dot{q}_{l}$.
-4. Substitute the velocities in the Lagrangian while also subtracting $\sum_{l=m+1}^{n} \tilde{P}_{l}\dot{q}_{l}$.
+4. Substitute the velocities in the Lagrangian while also subtracting $\sum_{l=m+1}^{n} P_{l}\dot{q}_{l}$.
 5. You now have the effective Lagrangian.
 
 **Generalized forces**
@@ -89,7 +94,7 @@ An equilibrium configuration is a configuration that leaves the system at rest. 
 
 **Linearization around minima**
 $$L(\mathbf{q},\dot{\mathbf{q}})\simeq\frac{1}{2}\dot{\mathbf{q}}\cdot \mathrm{A}\dot{\mathbf{q}}- \frac{1}{2}\mathbf{q}\cdot \mathrm{B}\mathbf{q},\qquad\mathrm{A} \ddot{\mathbf{q}}+\mathrm{B}\mathbf{q}=0$$
-$$\mathrm{A}\equiv \left.{\mathrm{a}}\right|_{\text{minimum}},\qquad B_{ij}=\left.{\frac{ \partial ^{2}V }{ \partial q_{i}\partial q_{j} }}\right|_{\text{minimum}}$$
+$$\mathrm{A}\equiv \left.{\mathrm{a}}\right|_{\text{minimum}},\qquad B_{ij}=\left.{(\partial ^{2}V)_{ij}}\right|_{\text{minimum}}=\left.{\frac{ \partial ^{2}V }{ \partial q_{i}\partial q_{j} }}\right|_{\text{minimum}}$$
 Solve $\det(\mathrm{B}-\lambda \mathrm{A})$ to find $\lambda$. $\lambda_{i}\equiv \omega_{i}$ are small oscillation frequencies. $L$ can be calculated explicitly by using $\mathrm{A}$ and $\mathrm{B}$ and doing the vector-matrix products in $L$ for generic $\mathbf{q}$ and $\dot{\mathbf{q}}$. The motion $q_{i}(t)$ is a harmonic oscillator of frequency $\omega_{i}$ like $\ddot{q}_{i}=-\omega ^{2}_{i}q_{i}$. Solution is always $q_{i}(t)=A_{i}u_{i}\cos(\omega_{i}t+\varphi_{i})$, where $A_{i}$ and $\varphi_{i}$ are the usual quantities and $u_{i}$ is the $i$-th vector in the basis of the kernel of $\mathrm{B}-\lambda \mathrm{A}$. The kernel is the space of all vectors $\mathbf{v}$ such that $(\mathrm{B}-\lambda \mathrm{A})\mathbf{v}=0$ and is nontrivial only if $\det(\mathrm{B}-\lambda \mathrm{A})=0$ (otherwise it is $\{ (0,0) \}$).
 
 **Total energy in a Lagrangian system**
@@ -101,6 +106,14 @@ $$q_{n}\mapsto\varphi_{n}(q,\alpha),\qquad\dot{q}_{n}\mapsto \psi(q,\dot{q},\alp
 $\varphi_{n}(q,\alpha)$ must be continuous and differentiable in a neighborhood of $\alpha=0$. Also, $\varphi_{n}(q,0)=q_{n}$. $\psi(q,\dot{q},\alpha)$ must be continuous. If a Lagrangian $L$ with conjugate momenta $P_{k}$ is invariant under the transformation $(q,\dot{q},t)\mapsto(\varphi(q,\alpha),\psi(q,\dot{q},\alpha),t)$, then
 $$\mathcal{P}(q,\dot{q},t)=\sum_{m=1}^{n} \frac{ \partial \varphi_{m} }{ \partial \alpha } (q,0)P_{m}(q,\dot{q},t)$$
 is a constant of motion.
+
+**Hamilton's principle**
+> The dynamics of the system are fully determined by the Lagrangian that minimizes the action functional.
+
+It is equivalent to Newtonian mechanics: the motion $q(t)$ in a period of time $t_{1}\leq t\leq t_{2}$ makes the action functional $S[q]$ stationary for the variations $\delta q_{1},\ldots,\delta q_{n}$ null at the boundaries $t_{1},t_{2}$ if and only if the functions $q_{i}(t)$ satisfy the Lagrange equation.
+
+**Action functional**
+$$S[q]=\int_{t_{1}}^{t_{2}}L(q(t),q'(t),t)\ dt$$
 ### Hamiltonian mechanics
 **Hamilton equations**
 $$\dot{q}_{i}=\frac{ \partial H }{ \partial p_{i} },\quad \dot{p}_{i}=-\frac{ \partial H }{ \partial q_{i} }  $$

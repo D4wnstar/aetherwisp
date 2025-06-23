@@ -32,18 +32,18 @@ $$\begin{align}
 &=\left.{\frac{ \partial L }{ \partial u' } \delta u}\right|_{x_{\text{start}}}^{x_{\text{end}}}-\int_{x_{\text{start}}}^{x_{\text{end}}}\left(  \frac{d}{dx}\frac{ \partial L }{ \partial u' } - \frac{ \partial L }{ \partial u }  \right)\delta udx \\
 &=\ldots
 \end{align}$$
-The [[Lagrange equation]] spontaneously came up in the integral there. Before we move on, let's better defined what $u$ even is by giving a solid definition of its space $U$:
-$$U=\{ \text{functions }[x_{\text{start}},x_{\text{end}}]\to \mathbb{R}\text{ such that }u(x_\text{start})=y_\text{start},\ u(x_{f_\text{end}})=y_\text{end} \}$$
+The [[Lagrange equation]] spontaneously came up in the integral there. Before we move on, let's better define what $u$ even is by giving a solid definition of its space $U$:
+$$U=\{ \text{functions }[x_{\text{start}},x_{\text{end}}]\to \mathbb{R}\text{ such that }u(x_\text{start})=y_\text{start},\ u(x_{\text{end}})=y_\text{end} \}$$
 $\delta u$ is defined such that $u$ and $u+\delta u$ are both in $U$ and it vanishes at the boundaries:
 $$\delta u(x_\text{start})=0, \quad \delta u(x_\text{end})=0$$
 We can use these boundary conditions to state that the first term in our calculation is *zero*, which leaves us with:
 $$\ldots=-\int_{x_\text{start}}^{x_\text{end}}\left( \frac{d}{dx}\frac{ \partial L }{ \partial u' } -\frac{ \partial L }{ \partial u }  \right)\delta udx$$
-(TODO: Finish this, end of lesson 15/04/25) We know from the theory of functionals that a function $u_{0}$ for which the argument of this integral is zero is a stationary point. Thus, we can state from this that a function $u$ is a stationary point for the functional
+(TODO: Finish this, end of lesson 15/04/25) We know from the theory of functionals that a function $u_{0}$ for which the argument of this integral is zero is a stationary point. Thus, we can state that if a function $u$ is a stationary point for the functional
 $$S[u]=\int_{x_\text{start}}^{x_\text{end}}L(u(x),u'(x),x)\ dx$$
-and describes motion globally. We should first reflavor our variables to be more familiar. Firstly, let's definitively call $L$ the Lagrangian of our system. Then, in one dimensions, we can just rename $u(x)$ to be the more familiar $q(t)$ and get
-$$S[q]=\int_{t_{1}}^{t_{2}}L(q(t),q'(t),t)\ dt$$
+it describes motion, and it is defined from the global properties of motion. We should first reflavor our variables to be more familiar. Firstly, let's definitively call $L$ the Lagrangian of our system. Then, in one dimensions, we can just rename $u(x)$ to be the more familiar $q(t)$ and get
+$$\boxed{S[q]=\int_{t_{1}}^{t_{2}}L(q(t),q'(t),t)\ dt}$$
 This functional is called **[[action]]** and the functions $q(t)$ that minimize it fully determine motion and solve the [[Lagrange equation]], a fact known as the [[least action principle]]. This can be trivially extended to multiple dimensions by adding more variables: if $L:\mathbb{R}^{2n+1}\to \mathbb{R}$, the action is
-$$S[q_{1},\ldots,q_{n}]=\int_{t_{1}}^{t_{2}}L(q_{1}(t),\ldots,q_{n}(t),\dot{q}_{1}(t),\ldots,\dot{q}_{n}(t))\ dt$$
+$$\boxed{S[q_{1},\ldots,q_{n}]=\int_{t_{1}}^{t_{2}}L(q_{1}(t),\ldots,q_{n}(t),\dot{q}_{1}(t),\ldots,\dot{q}_{n}(t))\ dt}$$
 which is sometimes called the **Hamiltonian action**.
 
 [^1]: Such as trajectory is called a [[geodetic curve]] and is very important in general relativity.

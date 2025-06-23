@@ -7,7 +7,7 @@ The locus of points in $\mathbb{R}^{N}$ that satisfies the equation $I(\mathbf{x
 
 The benefit of finding constants of motion is that they add [[constraint|constraints]] to the parameters of a system. Specifically, each constant reduces the [[degrees of freedom]], and therefore the dimensionality of the system, by one. The more constants of motion are known beforehand, the fewer parameters need to be solved to find a trajectory. For instance, a three-dimensional system with two known constants of motion simplifies down to a one dimensional system.
 ### Examples
-> [!example] Harmonic oscillator
+> [!example]- Harmonic oscillator
 > A typical constant of motion is the total mechanical [[energy]] of a body, defined as the sum of its [[kinetic energy|kinetic]] and [[potential energy]]. A common case is, as always, the [[harmonic oscillator]]. We consider a [[point mass]] in oscillation, with unit [[mass]] $m=1$ for simplicity. The solution is well known and is the set
 > $$x(t)=x_{0}\cos \omega t+ \frac{v_{0}}{\omega}\sin \omega t$$
 > $$v(t)=-\omega x_{0}\sin \omega t+v_{0}\cos \omega t$$
@@ -28,7 +28,7 @@ The benefit of finding constants of motion is that they add [[constraint|constra
 > 
 > As you can see, we reduced a two-dimensional problem (solving for all phase space) into a one-dimensional one (solving only for the constant energy [[Curve|curve]]).
 
-> [!example] 1D conservative system
+> [!example]- 1D conservative system
 > In a [[conservative system]] (here given with one degree of freedom), the total force $F(x)$ can be given as the derivative of a [[potential energy]] $V(x)$:
 > $$\frac{F(x)}{m}=f(x)=- \frac{V'(x)}{m}$$
 > where $m$ is the mass. $f(x)$ is an acceleration, $f(x)=a=\ddot{x}$. The total energy therefore is
@@ -49,24 +49,27 @@ If we know a constant of motion $I(q,\dot{q},t)$ and, then we can write the foll
 $$I(q(t),\dot{q}(t),t)=I_{0}$$
 where $I_{0}$ is some constant. This is a first order [[Ordinary differential equation|ODE]] in $q(t)$ (technically a family of ODEs). If we solve this equation, we can find the motion $q(t)$ just from the constant of motion.
 
-Let's consider the following [[dynamical variable]] for a [[Lagrangian]] $L$:
-$$E(q,\dot{q},t)=\sum_{i=1}^{n} \dot{q}_{i}\frac{ \partial L }{ \partial \dot{q}_{i} }(q,\dot{q},t)-L(q,\dot{q},t) $$
-The derivative of this is
-$$\begin{align}
-\frac{d}{dt} E(q,\dot{q},t)&=\sum_{i=1}^{n} \left( \ddot{q}_{i}\frac{ \partial L }{ \partial \dot{q}_{i} }+\dot{q}_{i} \frac{d}{dt} \frac{ \partial L }{ \partial \dot{q}_{i} }   \right)-\sum_{i=1}^{n} \left( \frac{ \partial L }{ \partial q_{i} } \dot{q}_{i} + \frac{ \partial L }{ \partial \dot{q}_{i} }\ddot{q}_{i} \right)-\frac{ \partial L }{ \partial t } \\
-&=\sum_{i=1}^{n} \dot{q}_{i}\left( \frac{d}{dt} \frac{ \partial L }{ \partial \dot{q}_{i} } -\frac{ \partial L }{ \partial q_{i} }   \right) - \frac{ \partial L }{ \partial t }  \\
-(\text{if }q(t)\text{ solves Lag. eq.})&=-\frac{ \partial L }{ \partial t } 
-\end{align} $$
-Clearly then, if $\frac{ \partial L }{ \partial t }=0$, then $E$ is a constant of motion. This occurs when $L$ does not explicitly depend on time, that is, $L\equiv L(q,\dot{q})$, and in these cases, the quantity $E$ can always be used as a constant of motion. This property is known as the **time-shift invariance** of $L$. In plain terms, $L$ does not change in time: the dynamics of the system *now* are the same as they were in the past and will always be the same in the future.
+In systems with multiple coordinates, the constant of motion only finds the motion of one coordinate. For instance, in a system with coordinates $(r,\theta)$ and zero [[angular momentum]], the angle $\theta$ likely does not appear in the [[Lagrangian]]. In such a case, it is a [[Lagrangian|cyclical coordinate]] and its [[Conjugate momenta|conjugate momentum]] $P_{\theta}=mr^{2}\dot{\theta}$ is a constant of motion, leading to a first-order ODE for $\dot{\theta}$ which can be solved for $\theta(t)$. $r(t)$ would still need be solved manually as usual.
+
+> [!example]- Energy
+> Let's consider the following [[dynamical variable]] for a [[Lagrangian]] $L$:
+> $$E(q,\dot{q},t)=\sum_{i=1}^{n} \dot{q}_{i}\frac{ \partial L }{ \partial \dot{q}_{i} }(q,\dot{q},t)-L(q,\dot{q},t) $$
+> The derivative of this is
+> $$\begin{align}
+> \frac{d}{dt} E(q,\dot{q},t)&=\sum_{i=1}^{n} \left( \ddot{q}_{i}\frac{ \partial L }{ \partial \dot{q}_{i} }+\dot{q}_{i} \frac{d}{dt} \frac{ \partial L }{ \partial \dot{q}_{i} }   \right)-\sum_{i=1}^{n} \left( \frac{ \partial L }{ \partial q_{i} } \dot{q}_{i} + \frac{ \partial L }{ \partial \dot{q}_{i} }\ddot{q}_{i} \right)-\frac{ \partial L }{ \partial t } \\
+> &=\sum_{i=1}^{n} \dot{q}_{i}\left( \frac{d}{dt} \frac{ \partial L }{ \partial \dot{q}_{i} } -\frac{ \partial L }{ \partial q_{i} }   \right) - \frac{ \partial L }{ \partial t }  \\
+> (\text{if }q(t)\text{ solves Lag. eq.})&=-\frac{ \partial L }{ \partial t } 
+> \end{align} $$
+> Clearly then, if $\frac{ \partial L }{ \partial t }=0$, then $E$ is a constant of motion. This occurs when $L$ does not explicitly depend on time, that is, $L\equiv L(q,\dot{q})$, and in these cases, the quantity $E$ can always be used as a constant of motion. This property is known as the **time-shift invariance** of $L$. In plain terms, $L$ does not change in time: the dynamics of the system *now* are the same as they were in the past and will always be the same in the future.
 #### Examples
-> [!example] Mechanical system with purely positional forces
+> [!example]- Mechanical system with purely positional forces
 > For a mechanical system with purely positional forces, if the Lagrangian is explicitly time independent, $L\equiv L(q,\dot{q})$, then we can write
 > $$L(q,\dot{q})=\frac{1}{2}\sum_{n,k} a_{nk}(q)\dot{q}_{n}\dot{q}_{k}-V(q)=T_{2}-V$$
 > $a$ is a [[homogeneous function]] of degree $2$ in $\dot{q}$ and $V$ is a homogeneous function of degree $0$ in $\dot{q}$. The quantity $E$ is
 > $$E=\sum_{k=1}^{n} \dot{q}_{k}\frac{ \partial L }{ \partial \dot{q}_{k} } -L=\underbrace{ \sum_{k=1}^{n} \dot{q}_{k}\frac{ \partial T_{2} }{ \partial \dot{q}_{k} } }_{ 2T_{2} } -T_{2}+V=T_{2}+V$$
 > We can see that $E$ is the *total* mechanical energy of the system, given by the sum of [[kinetic energy]] and [[potential energy]].
 
-> [!example] 2D harmonic oscillator
+> [!example]- 2D harmonic oscillator
 > We now imagine a two-dimensional [[harmonic oscillator]] of Lagrangian
  >$$L=\frac{m}{2}(\dot{x}^{2}+\dot{y}^{2})- \frac{m\omega ^{2}}{2}(x^{2}+y^{2})$$
 > where $\omega ^{2}=k/m$. Think of it a spring being pushed and pulled away and towards the origin, passing through it every half cycle. It is not rotating, it's just a harmonic oscillator moving diagonally on the plane. This makes it just a harmonic oscillator on a specific axis in 2D. We can find the motion pretty easily from each term of $L$:

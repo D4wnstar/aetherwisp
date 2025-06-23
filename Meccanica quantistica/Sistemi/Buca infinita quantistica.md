@@ -43,9 +43,7 @@ Dunque le soluzioni formano un [[Sistema ortonormale completo]] e una qualunque 
 $$f(x)=\sum\limits_{n=1}^{\infty}c_{n}\psi_{n}(x)=\sqrt{\frac{2}{a}}\sum\limits_{n=1}^{\infty}c_{n}\sin\left(\frac{n\pi}{a}x\right)$$
 Queste proprietà valgono *spesso*, ma non *sempre*.
 1. vale solo se $V$ è simmetrico
-2. vale sempre
-3. vale quasi sempre
-4. vale per quasi tutti i potenziali effettivamente incontrati in fisica
+2. vale per quasi tutti i potenziali effettivamente incontrati in fisica
 
 Aggiungendo la dipendenza temporale alle soluzioni e sommandole tutte, troviamo la soluzione all'equazione di Schrödinger dipendente dal tempo:
 $$\boxed{\Psi(x,t)=\sum\limits_{n=1}^{\infty}c_{n}\psi(x)\varphi(t)=\sum\limits_{n=1}^{\infty}c_{n}\sqrt{\frac{2}{a}}\sin\left(\frac{n\pi}{a}x\right)e^{-i(n^{2}\pi^{2}\hbar/2ma^{2})t}}$$

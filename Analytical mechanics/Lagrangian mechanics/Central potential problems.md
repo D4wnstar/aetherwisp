@@ -14,13 +14,13 @@ T&=\frac{1}{2}m_{1}\left( \dot{\mathbf{R}}^{2}+ \cancel{ \frac{2m_{2}}{M}\dot{\m
 \end{align}$$
 We now defined the reduced mass $\mu\equiv m_{1}m_{2}/M$, with which we can comfortably write
 $$T=\frac{1}{2}M \dot{\mathbf{R}}^{2}+ \frac{1}{2}\mu \dot{\mathbf{r}}^{2}$$
-The kinetic energy has gone from the sums if kinetic energy of the bodies to the sums of kinetic energy of the "center of mass" and of another terms that evidently takes up "everything else". With the kinetic energy known, we are ready to write the [[Lagrangian]] of this system:
+The kinetic energy has gone from the sum of kinetic energy of the bodies to the sum of kinetic energy of the "center of mass" and of another terms that evidently takes up "everything else". With the kinetic energy known, we are ready to write the [[Lagrangian]] of this system:
 $$L=\frac{1}{2}M \dot{\mathbf{R}}^{2}+ \frac{1}{2}\mu \dot{\mathbf{r}}^{2}- V(\mathbf{r})$$
 for some potential energy $V$. Note that this does not depend on *where* the center of mass is, as there is no mention of $\mathbf{R}$ (only its derivative $\dot{\mathbf{R}}$).
 
 We can interpret this equation as the sum of a free particle of mass $M$ and a particle of mass $\mu$ subject to a potential $V(\mathbf{r})$. In this light, we'll split the Lagrangian in two. Specifically, the latter part is
 $$L(\mathbf{r},\dot{\mathbf{r}})=\frac{1}{2}\mu \lvert \dot{\mathbf{r}} \rvert ^{2}-V(\lvert \mathbf{r} \rvert )$$
-As with all Lagrangians, our priority should be to sniff out [[Constant of motion|constants of motion]], as each and every one we find makes our problem easier. This Lagrangian of $\mathbf{r}$, for instance, is invariant to [[Rotation|rotations]] (in $SO(3)$). Invoking [[Nöther's theorem]], this means that the [[angular momentum]] $\mathbf{A}$[^1] is a constant of motion (all three components actually, so $A_{x}$, $A_{y}$ and $A_{z}$). Let's analyze what this invariance implies. The momentum is $\mathbf{A}=\mu \mathbf{r}\times \dot{\mathbf{r}}$. If it's constant over $\mathbf{r}(t)$, then $\mu \mathbf{r}(t)\times \dot{\mathbf{r}}(t)=\mathbf{A}_\text{const}$, but for a [[vector product]] to give an angle-independent constant we must have both $\mathbf{r}(t)$ and $\dot{\mathbf{r}}(t)$ lying [[Orthogonality|orthogonal]] to $\mathbf{A}_\text{const}$. In other words, both $\mathbf{r}(t)$ and $\dot{\mathbf{r}}(t)$ (and by extension the whole motion) lie on a plane perpendicular to $\mathbf{A}_\text{const}$.
+As with all Lagrangians, our priority should be to sniff out [[Constant of motion|constants of motion]], as each and every one we find makes our problem easier. This Lagrangian of $\mathbf{r}$, for instance, is invariant to [[Rotation|rotations]] (in $SO(3)$). Invoking [[Nöther's theorem]], this means that the [[angular momentum]] $\mathbf{A}$[^1] is a constant of motion (all three components actually, so $A_{x}$, $A_{y}$ and $A_{z}$). Let's analyze what this invariance implies. The momentum is $\mathbf{A}=\mu \mathbf{r}\times \dot{\mathbf{r}}$. If it's constant over $\mathbf{r}(t)$, then $\mu \mathbf{r}(t)\times \dot{\mathbf{r}}(t)=\mathbf{A}_\text{const}$, but for a [[vector product]] to give an angle-independent constant we must have both $\mathbf{r}(t)$ and $\dot{\mathbf{r}}(t)$ lying [[Orthogonality|orthogonal]] to $\mathbf{A}_\text{const}$. In other words, both $\mathbf{r}(t)$ and $\dot{\mathbf{r}}(t)$ (and by extension the whole motion) lie on a [[plane]] perpendicular to $\mathbf{A}_\text{const}$.
 
 This bit of geometry gives us the information that we need to simplify our coordinates. We'll then pick a [[frame of reference]] in which $(A_\text{const})_{x}=(A_\text{const})_{y}=0$[^2]. In this frame, we can pick the canonical [[basis]] $\{ \mathbf{e}_{x} ,\mathbf{e}_{y}\}$ and express $\mathbf{r}$ and $\dot{\mathbf{r}}$ as a [[linear combination]] of these:
 $$\mathbf{r}=x\mathbf{e}_{x}+y\mathbf{e}_{y},\qquad \dot{\mathbf{r}}=\dot{x}\mathbf{e}_{x}+\dot{y}\mathbf{e}_{y}$$
@@ -30,7 +30,7 @@ Since we're on a plane, we might as well move to [[polar coordinates]]. The appr
 $$x=r\cos \theta,\qquad y=r\sin \theta$$
 for which
 $$L=\frac{1}{2}\mu(\dot{r}^{2}+r^{2}\dot{\theta}^{2})-V(r)$$
-You might be wondering why the switch: the answer is that our "$\mu$" particle is moving in a straight line. Of course: there's no angular momentum, it can't be rotating! So our angular coordinate must be *[[Lagrangian|cyclical]]* and, as such, its [[Conjugate momenta|conjugate momentum]] is another constant of motion:
+You might be wondering why the switch: the answer is that our "$\mu$" particle is moving in a straight line. But in hindsight that's *obvious*: we hand-picked the frame of reference so that there would be no angular momentum, of course it can't be rotating! So our angular coordinate must be *[[Lagrangian|cyclical]]* and, as such, its [[Conjugate momenta|conjugate momentum]] is another constant of motion:
 $$p_{\theta}=\frac{ \partial L }{ \partial \theta } =mr^{2}\dot{\theta}\equiv l=\text{constant}$$
 As usual, this leads to an easy first order [[Ordinary differential equation|ODE]]:
 $$\dot{ \theta}=\frac{l}{mr^{2}}$$
@@ -45,28 +45,28 @@ where
 $$V_\text{eff}(r)=V(r)+\frac{l^{2}}{2mr^{2}}$$
 Solving the [[Lagrange equation]] yields $r(t)$, which we can put into $\dot{\theta}$ to get
 $$\dot{\theta}(t)=\frac{l}{mr(t)^{2}}$$
-which we can solve to find $\theta(t)$. More importantly, $\theta(t)$ is invertible so we can find $t(\theta)$. Since $r(\theta(t)))$ is a composite function, we can use the [[chain rule]]:
-$$\dot{r}(t)=\frac{d}{d\theta}r(\theta(t))\dot{\theta }(t)=\frac{dr}{d\theta} \frac{l}{mr^{2}}=- \frac{l}{m} \left.{\frac{d}{d\theta}\left( \frac{1}{r} \right)}\right|_{\theta=\theta(t)}$$
+which we can solve to find $\theta(t)$. More importantly, $\theta(t)$ is invertible so we can also find $t(\theta)$. Since $r(\theta(t)))$ is a composite function, we can use the [[chain rule]]:
+$$\dot{r}(t)=\frac{dr(\theta(t))}{d\theta}\dot{\theta }(t)=\frac{dr}{d\theta} \frac{l}{mr^{2}}=- \frac{l}{m} \left.{\frac{d}{d\theta}\left( \frac{1}{r} \right)}\right|_{\theta=\theta(t)}$$
 and
 $$\ddot{r}(t)=- \frac{l}{m} \frac{d^{2}}{d\theta ^{2}}\left( \frac{1}{r} \right)\dot{\theta}=- \frac{l^{2}}{m^{2}r^{2}} \left.{\frac{d^{2}}{d\theta ^{2}}\left( \frac{1}{r} \right)}\right|_{\theta=\theta(t)}$$
 Specifically when $\ddot{r}(t(\theta))$ we have
 $$\ddot{r}(t(\theta))=- \frac{l^{2}}{m^{2}r^{2}} \frac{d^{2}}{d\theta ^{2}}\left( \frac{1}{r} \right)$$
 ### Keplerian potential
-This is about as far as we get without knowing the specifics of the system. Everything up until now is perfectly general, provided the system matches our specifications. We now need some form of potential to keep going: we'll use a Keplerian potential to analyze gravitationally bound (or unbound) systems like [[Pianeta|planets]] around a [[stella|star]]. We start with a qualitative analysis of the one dimensional analog of potential
+This is about as far as we get without knowing the specifics of the system. Everything up until now is perfectly general, provided the system matches our specifications. We now need some form of potential to keep going: we'll use a Keplerian (gravity-like) potential to analyze gravitationally bound (or unbound) systems like [[Pianeta|planets]] around a [[stella|star]]. We start with a qualitative analysis of the potential
 $$V(r)=- \frac{k}{r}$$
 for some constant $k>0\in \mathbb{R}$. Our effective potential then is
 $$V_\text{eff}(r)=- \frac{k}{r}+ \frac{l^{2}}{2mr^{2}}$$
-There's a few cases of interest here that are already well known from classical mechanics depending on the total energy $E$ of the system.
+There's a few cases of interest here that are already well-known from classical mechanics depending on the total energy $E$ of the system.
 
 ![[Diagram Gravitational system]]
 
-$E_{1}$ is the circular orbit case. In that case
+$E_{1}$ is the [[circle|circular]] orbit case. In that case
 $$\dot{\theta}(t)=\frac{l}{mr(t)^{2}}=\frac{l}{mr_{0}^{2}}\quad\to \quad \theta(t)=\frac{l}{mr_{0}^{2}}t+\theta_{0}$$
 where $r_{0}$ is the constant orbit distance and $\theta_{0}$ is the starting angle.
 
-$E_{2}$ is the elliptic orbit case. Here, the solution is similar to $E_{1}$ but $r(t)$ is no longer constant.
+$E_{2}$ is the [[ellipse|elliptic]] orbit case. Here, the solution is similar to $E_{1}$ but $r(t)$ is no longer constant.
 
-$E_{3}$ and $E_{4}$ are known as **collision events**. This is because the orbits may end up passing through the source point of the potential (the "star" so to speak) and collide with it. It doesn't necessarily need to happen however, and they may also described open orbits that only do a single pass near the star and then leave forever. $E_{3}$ is the specific case where the orbit is exactly parabolic.
+$E_{3}$ and $E_{4}$ are free states. They do not orbit the object creating the potential as they have too much energy to be trapped. The represent the open-ended orbit that is bent by the potential, but not so much as to start looping into a stable orbit. $E_{4}$ is a [[hyperbola]], whereas $E_{3}$ is the specific case in which the orbit is precisely a [[parabola]].
 #### Solving for distance
 Now, to actually quantitatively solve for the motion itself, we need to tackle the Lagrange equation. The actual equation to solve is
 $$\frac{d}{dt} \frac{ \partial L_\text{eff} }{ \partial \dot{r} } =m \ddot{r}\quad\to \quad \ddot{r}=- \frac{k}{mr^{2}}+ \frac{l^{2}}{m^{2}r^{3}}$$
@@ -82,7 +82,7 @@ This leads to the solution
 $$u(\theta)=\frac{1}{\eta}+ \frac{e}{\eta}\cos(\theta-\theta_{0})$$
 for some value $e$. If we put $1/r(\theta)$ back in we finally get our orbit:
 $$\boxed{r(\theta)=\frac{\eta}{1+e\cos(\theta-\theta_{0})}}$$
-This is the general expression for a [[conic]] (the geometric shape), where $e$ is the eccentricity. When $0\leq e< 1$ we get an ellipse ($E_{1}$ and $E_{2}$), when $e=1$ we get a parabola ($E_{3}$) and for $e>1$ we get a hyperbole ($E_{4}$).
+This is the general expression for a [[conic]] (the geometric shape), where $e$ is the eccentricity. When $0\leq e< 1$ we get an ellipse ($E_{1}$ and $E_{2}$), when $e=1$ we get a parabola ($E_{3}$) and for $e>1$ we get a hyperbola ($E_{4}$).
 #### Periodicity
 Assume the orbit is periodic, like that of Earth around the same or something more complicated. One can ask if the motion $r(t)$ draws a closed curve or not. The curve is closed if, after one or more full rotations, the object goes back to its starting point. The way we define it mathematically is by calling $\Delta \theta$ the variation of $\theta$ over a full rotation (or [[period]] if you prefer). For the curve to be closed, $\Delta \theta$ must eventually be a full $360°\ (2\pi)$ rotation, at which point it will have completed its cycle. For this to be true, $2\pi$ must be a multiple of $\Delta \theta$, which is the same as asking that their ratio is rational:
 $$\text{An orbit is closed if } \frac{2\pi}{\Delta \theta}\in \mathbb{Q}$$
@@ -116,7 +116,7 @@ $$\begin{align}
 There is yet another way of solving for motion in this system, and it requires finding out a constant of motion. We already know of angular momentum, which is constant in *any* central potential problem, but in the specific case of a Keplerian potential, we have another[^3]:
 $$\mathbf{C}=\mathbf{p}\times \mathbf{A}-mk \frac{\mathbf{r}}{r}\qquad\left( \text{constant when }V(r)=- \frac{k}{r} \right)$$
 
-> [!info] Proof
+> [!quote]- Proof
 > We want to write $\mathbf{C}$ in a way that we can analyze. Recall that $\mathbf{p}=m \dot{\mathbf{r}}$, so we should start by looking for $\dot{\mathbf{r}}$. The position vector of a body is given by $\mathbf{r}(t)=r(t)\mathbf{e}_{r}(t)$ in some basis where $\mathbf{e}_{r}$ is a unit vector that always follows the body (like, say, polar coordinates). In terms of Cartesian coordinates, this vector is $\mathbf{e}_{r}=\cos \theta\ \mathbf{e}_{x}+\sin \theta\ \mathbf{e}_{y}$, for some time-dependent angle $\theta\equiv \theta(t)$. It varies in time as
 > $$\begin{align}
 > \dot{\mathbf{e}}_{r}&=- \dot{\theta}\sin \theta\ \mathbf{e}_{x}+ \dot{\theta}\cos \theta\ \mathbf{e}_{y} \\
@@ -142,7 +142,9 @@ $$\mathbf{C}=\mathbf{p}\times \mathbf{A}-mk \frac{\mathbf{r}}{r}\qquad\left( \te
 > \end{align}$$
 > As hoped, $\mathbf{C}$ does not change.
 
-Our system then has not one, but *two* constants of motion, $\mathbf{A}(r,\theta,\dot{r},\dot{\theta})\equiv \mathbf{A}_{0}$ and $\mathbf{C}(r,\theta,\dot{r},\dot{\theta})\equiv \mathbf{C}_{0}$. We'll choose a frame of reference in which $\mathbf{A}_{0}=l\mathbf{e}_{z}$ and $\mathbf{C}_{0}=a\cos \theta_{0}\ \mathbf{e}_{x}+a\sin \theta_{0}\ \mathbf{e}_{y}$. In this frame, we have three equations in four variables:
+This pretty specific object is known as the **[[Laplace-Runge-Lenz vector]]** and its utility comes from being a universal constant of motion for *any* central potential[^4].
+
+Our system then has not one, but *two* constants of motion, $\mathbf{A}(r,\theta,\dot{r},\dot{\theta})\equiv \mathbf{A}_{0}$ and $\mathbf{C}(r,\theta,\dot{r},\dot{\theta})\equiv \mathbf{C}_{0}$ (well, *six* actually, since these are two vectors of three components). We'll choose a frame of reference in which $\mathbf{A}_{0}=l\mathbf{e}_{z}$ and $\mathbf{C}_{0}=a\cos \theta_{0}\ \mathbf{e}_{x}+a\sin \theta_{0}\ \mathbf{e}_{y}$. In this frame, we have three equations in four variables:
 $$\begin{cases}
 A_{z}(r,\theta,\dot{r},\dot{\theta})&=l \\
 C_{x}(r,\theta,\dot{r},\dot{\theta})&=a\cos \theta_{0} \\
@@ -182,10 +184,12 @@ for some constant $\theta_{0}$. This can again be inverted to yield $\theta(t)$.
 > &=\frac{l^{3}}{2mk^{2}}\int_{0}^{\tan \theta/2}(1+x^{2})dx=\frac{l^{3}}{2mk^{2}}\left.{\left( x+ \frac{x^{3}}{3} \right)}\right|_{0}^{\tan \theta/2} \\
 > &=\frac{l^{3}}{2mk^{2}}\left( \tan \frac{\theta}{2}+ \frac{1}{3}\tan ^{3} \frac{\theta}{2}\right)
 > \end{align}$$
-> where we substituted $x=\tan \theta'/2$, which leads to $dx=\frac{1}{\cos ^{2} \frac{\theta'}{2}} \frac{d\theta'}{2}=\left( 1+\tan \frac{\theta'}{2} \right) \frac{d\theta'}{2}$. At angle $\theta=0$, we get $t=0$, so the system starts there. At $\theta\to \pm \pi$, we go to infinite times, $t\to\pm \infty$, so $\pm \pi$ are asymptotes. We can correctly gather that our object starts at "the bottom" of the parabola, started off at one extremum far back in time, and will end up at the other edge far in the future. As for the motion itself, we would need to invert $t(\theta)$ into $\theta(t)$, but needless to say, that's not really doable manually. Get a computer to do it numerically for you.
+> where we substituted $x=\tan \theta'/2$, which leads to $dx=\frac{1}{\cos ^{2} \frac{\theta'}{2}} \frac{d\theta'}{2}=\left( 1+\tan \frac{\theta'}{2} \right) \frac{d\theta'}{2}$. At angle $\theta=0$, we get $t=0$, so the system starts there. At $\theta\to \pm \pi$, we go to infinite times, $t\to\pm \infty$, so $\pm \pi$ are asymptotes. We can correctly gather that our object starts at "the bottom" of the parabola, started off at one extremum far back in time, and will end up at the other edge far in the future. As for the motion itself, we would need to invert $t(\theta)$ into $\theta(t)$, but needless to say, that's not really doable manually. Get a computer to do it [[numerical integration|numerically]] for you.
 
 [^1]: Unfortunately, both common letters for angular momentum, $L$ and $M$, are taken here so we'll use the less orthodox $\mathbf{A}$ here (it stands for "angular").
 
 [^2]: Mathematically, this is a [[level set]] of codimension $2$.
 
 [^3]: I am truly running out of letters here. Remember that $\mathbf{A}$ was angular momentum. I'll use $\mathbf{C}$ now because it's the initial of **C**onstant.
+
+[^4]: Including more complicated stuff, like the quantum treatment of the [[hydrogen atom]] (although it's no longer used to solve that system in particular).

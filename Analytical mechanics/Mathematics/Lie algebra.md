@@ -7,3 +7,5 @@ A **Lie algebra** is a [[vector space]] equipped with a product $\cdot$ with the
 3. It satisfies the Jacobi identity: $a\cdot(b\cdot c)+b\cdot(c\cdot a)+c\cdot(a\cdot b)=0$.
 
 Generally speaking, this operation is either the [[Poisson brackets]] or the [[commutator]].
+### Examples
+The space of all [[Rotation|rotations]] is a Lie algebra.

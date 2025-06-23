@@ -12,4 +12,4 @@ Antisymmetric matrices (a.m.) are rather special. The sum of two a.ms is itself 
 
 Actually, it's something more than this. If we invoke the [[Commutator]] and take two a.ms $\Omega_{1}$ and $\Omega_{2}$, we can calculate
 $$([\Omega_{1},\Omega_{2}])^{T}=(\Omega_{1}\Omega_{2}-\Omega_{2}\Omega_{1})^{T}=\underbrace{ \Omega_{2}^{T} }_{ -\Omega_{2} }\underbrace{ \Omega_{1}^{T} }_{ -\Omega_{1} }-\Omega_{1}^{T}\Omega_{2}^{T}=\Omega_{2}\Omega_{1}-\Omega_{1}\Omega_{2}=-[\Omega_{1},\Omega_{2}]$$
-From this we can claim that the commutator of two a.ms is itself an a.m. This, combined with the vector space nature we found above, is sufficient to state that the space of antisymmetric matrices is a [[Lie algebra]].
+From this we can claim that the commutator of two a.ms is itself an a.m, which means that the commutator is a closed operation in the a.m. vector space. This, combined with the vector space nature we found above, is sufficient to state that the space of antisymmetric matrices is a [[Lie algebra]].

@@ -49,7 +49,7 @@ Now, to find the Lagrange equation for $\theta$, we just apply the definition
 $$\frac{d}{dt} \frac{ \partial L }{ \partial \dot{\theta} } -\frac{ \partial L }{ \partial \theta }=0 $$
 So
 $$\begin{align}
-\frac{d}{dt} \frac{ \partial L }{ \partial \dot{\theta} } &=\frac{d}{dt} (m\ell ^{2}\theta+\dot{\varphi}mR\ell[\cos(\varphi-\theta)-\cos \theta]) \\
+\frac{d}{dt} \frac{ \partial L }{ \partial \dot{\theta} } &=\frac{d}{dt} (m\ell ^{2}\dot{\theta}+\dot{\varphi}mR\ell[\cos(\varphi-\theta)-\cos \theta]) \\
 &=m\ell ^{2}\ddot{\theta}+\ddot{\varphi}mR\ell[\cos(\theta-\varphi)-\cos \theta]+\dot{\varphi}mR\ell[-(\dot{\theta}-\dot{\varphi})\sin(\theta-\varphi)+\dot{\theta}\sin \theta]
 \end{align}$$
 and
@@ -70,7 +70,6 @@ These solve to
 $$\sin \varphi=- \frac{kR}{mg}\varphi+ \frac{kR}{mg}\pi,\quad \theta=0,\pi$$
 
 ![[Diagram Ex. 18-7-22 Part 5|80%]]
-
 We can use the [[Hessian]] of the potential to determine stability:
 $$\partial ^{2}V=\begin{pmatrix}
 \frac{ \partial ^{2}V }{ \partial \varphi ^{2} }  & 0 \\

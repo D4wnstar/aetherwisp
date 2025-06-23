@@ -13,7 +13,7 @@ A [[dynamical system]] whose equations of motion can be written in this form is 
 
 The benefit of using a set of Lagrange equations over a set of [[Newton's laws|Newton's second laws]] is that they allow picking a parameterization of the [[Constraint|constraints]] such that the constraint forces vanish. The equations that are left can then be solved algorithmically by [[Differential|differentiation]], which is typically far easier than what would be necessary with Newton's laws and can also be offloaded to a computer for numerical differentiation.
 ### Validity
-This equation is correct *point-wise*, for each $t\in \mathbb{R}^{+}$, and for this reason it is said that the Lagrange equation describes motion **locally** (as opposed to globally). See [[Global motion]].
+This equation is correct *point-wise*, for each $t\in \mathbb{R}^{+}$, and for this reason it is said that the Lagrange equation describes motion **locally** (as opposed to globally). See [[Globally-determined motion]].
 ### Velocity-dependent forces
 Many [[force|forces]] do not depend on velocity. Examples including the force applied by gravity or the spring pullback force. In these cases, the generalized forces, which inherits arguments from the regular forces, also do not. In other cases though, such as [[friction]] or the [[Lorentz force]], the forces depend explicitly on velocity and the function signature becomes $Q_{j}\equiv Q_{j}(q(t),\dot{q}(t),t)$ with the force itself being
 $$Q_{j}=\frac{d}{dt} \frac{ \partial V }{ \partial \dot{q}_{j} } (q,t)-\frac{ \partial V }{ \partial q_{j} } (q,t)$$
