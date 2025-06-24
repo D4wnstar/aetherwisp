@@ -51,7 +51,7 @@ Nöther's theorem is truly general and can be applied to any continuous transfor
 
 The first two are axis-dependent: linear momentum is conserved over the axis of the shift, and angular momentum is conserved over the axis of rotation. Time is one dimensional and only has one axis: if a system is time-invariant, it conserves energy. The critical point here is, I suppose, the reverse. We know that the Universe as a whole abides by conservation of energy: clearly, then, it must be time-invariant.
 ### Examples
-> [!example] Harmonic oscillator
+> [!example]- Harmonic oscillator
 > We know the [[harmonic oscillator]] has a constant of motion, so let's test the theorem out on it. The Lagrangian is
 > $$L(q_{1},q_{2},\dot{q}_{1},\dot{q}_{2})=\frac{m}{2}(\dot{q}_{1}^{2}+\dot{q}_{2}^{2})- \frac{m\omega ^{2}}{2}(q_{1}^{2}+q_{2}^{2})$$
 > The transformations we choose are the rotations in the plane of motion:

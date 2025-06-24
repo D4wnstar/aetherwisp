@@ -85,7 +85,7 @@ f^{(r)}(q_{1},\ldots,q_{N},t)=0
 
 The coordinates of the points are $\mathbf{r}_{1},\ldots,\mathbf{r}_{N}$, for a total of $3N$ unconstrained degrees of freedom (we're assuming the particles are in $\mathbb{R}^{3}$ here, i.e. the "real world"). Given $r$ constraints, the degrees of freedom are $n=3N-r$. Our system is then solved by only $n$ equations, not $3N$. Our goal is to find a parameterization (i.e. a coordinate transformation) such that we can solve the $n$ constrained equations and then convert them to the full $3N$ unconstrained coordinates.
 
-> [!example] Circular constraint
+> [!example]- Circular constraint
 > We'll start with a simple example with just two point masses, $P_{1}$ and $P_{2}$. $P_{1}$ is constrained to a circumference of radius $R$ on the $xy$ plane and $P_{2}$ is constrained to $P_{1}$ by a rigid rod of length $L$ so that when $P_{1}$ moves, $P_{2}$ gets dragged along with it. The rod is attached to $P_{1}$ in such a way that's free to swivel, so while the length of the rod is constant, its direction is not.
 > ![[Plot Two bound point masses]]
 > We have six coordinates here to solve, $(x_{1},y_{1},z_{1},x_{2},y_{2},z_{2})$. So what are our constraints? Well, we know $P_{1}$ is stuck on the $xy$ plane, so $f^{(1)}:z_{1}=0$ and $f^{(2)}:x_{1}^{2}+y_{1}^{2}-R^{2}=0$ everywhere. Similarly, since $P_{1}$ and $P_{2}$ are joint, their coordinates are bound by $f^{(3)}:(x_{1}-x_{2})^{2}+(y_{1}-y_{2})^{2}+(z_{1}-z_{2})^{2}-L^{2}=0$. We have three (holonomic) constraints then, which means that we only need to solve for $n=3N-r=6-3=3$ free coordinates.
@@ -151,7 +151,6 @@ The coordinates of the points are $\mathbf{r}_{1},\ldots,\mathbf{r}_{N}$, for a 
 > \end{pmatrix}$$
 > 
 > The trajectories of $P_{1}$ and $P_{2}$ now are fully determined as functions of the constrained coordinates: $\mathbf{r}_{1}(q_{1}(t),q_{2}(t),q_{3}(t))$ and $\mathbf{r}_{2}(q_{1}(t),q_{2}(t),q_{3}(t))$. The real velocities are then the time [[Differential|total derivatives]] of these: $\mathbf{v}_{1}(t)=\dot{\mathbf{r}}_{1}(t)=\frac{d}{dt}\mathbf{r}_{1}(q_{1}(t),q_{2}(t),q_{3}(t))$ and $\mathbf{v}_{2}(t)=\dot{\mathbf{r}}_{2}(t)=\frac{d}{dt}\mathbf{r}_{2}(q_{1}(t),q_{2}(t),q_{3}(t))$. The [[stato|state]] of the system is fully determined by $\mathbf{r}_{1}$, $\mathbf{r}_{2}$, $\mathbf{v}_{1}$ and $\mathbf{v}_{2}$.
-
 
 [^1]: Or rows, although columns are much more meaningful here.
 

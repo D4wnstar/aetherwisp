@@ -28,6 +28,7 @@ wiki-publish: true
 - [[Phase space]]
 - [[Canonical transformation]], [[Hamiltonian flow]]
 - [[Liouville's theorem]] (the analytical mechanics statement)
+- [[Generating function (physics)]], [[Hamilton-Jacobi equation]], [[Integrable system]]
 ### Quantum mechanics
 - [[Particella libera (quantistica)]]
 - [[Buca infinita quantistica]]

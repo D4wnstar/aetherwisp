@@ -135,8 +135,7 @@ $$\{ f,g \}(w(\tilde{\mathbf{x}},t),t)=\{ \tilde{f},\tilde{g} \}(\tilde{\mathbf{
 where $\tilde{f}(\tilde{\mathbf{x}},t)\equiv f(w(\tilde{\mathbf{x}},t),t)$ and $\tilde{g}(\tilde{\mathbf{x}},t)\equiv g(w(\tilde{\mathbf{x}},t),t)$ are the compositions of $f$ and $g$ with the transformation $w$. Basically, the brackets are preserved if it doesn't matter if you apply the transformation before or after calculating the brackets.
 
 > [!info] Characterization 1
-> The Poisson brackets are preserved for all $f$ and $g$ if and only if they are also preserved for the elementary functions $\mathrm{E}_{ij}=\{ w_{i},w_{j} \}$.
->
+> The Poisson brackets are preserved for all $f$ and $g$ if and only if they are also preserved for the elementary functions $E_{ij}=\{ w_{i},w_{j} \}$, that is to say, the fundamental Poisson brackets with the transformed coordinates: $\{ \tilde{q}_{i},\tilde{q}_{j} \}=0$, $\{ \tilde{p}_{i},\tilde{p}_{j} \}=0$ and $\{ \tilde{q}_{i},\tilde{p}_{j} \}=\delta_{ij}$.
 
 > [!quote]- Proof
 > Apply the chain rule to $\tilde{f}$ and $\tilde{g}$ and rearrange. The rest follows.
@@ -146,7 +145,7 @@ where $\tilde{f}(\tilde{\mathbf{x}},t)\equiv f(w(\tilde{\mathbf{x}},t),t)$ and $
 > \end{align}$$
 
 > [!info] Characterization 2
-> $\mathbf{x}=w(\tilde{\mathbf{x}},t)$ preserves the Poisson brackets if and only its Jacobian is symplectic.
+> $\mathbf{x}=w(\tilde{\mathbf{x}},t)$ preserves the Poisson brackets if and only its Jacobian is symplectic. In other words, only symplectic transformations preserve the Poisson brackets.
 
 > [!quote]- Proof
 > Take the brackets of the components of $w$.

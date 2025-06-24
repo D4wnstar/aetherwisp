@@ -24,7 +24,7 @@ This can be done as long as we have some way to find $F_{2}$, the transformation
 $$\boxed{H\left( \frac{ \partial F_{2} }{ \partial q } (\tilde{\mathbf{p}},\mathbf{q},t),\mathbf{q},t \right)+\frac{ \partial F_{2} }{ \partial t } (\tilde{\mathbf{p}},\mathbf{q})=0}$$
 If $F_{2}$ satisfies this equation, then it conjugates $H$ into $K=0$ and we basically solved the system. This equation is called the **Hamilton-Jacobi equation**.
 ### Examples
-> [!example] Harmonic oscillator
+> [!example]- Harmonic oscillator
 > As usual, we solve the [[harmonic oscillator]]. The Hamiltonian is
 > $$H=\frac{1}{2m}(p^{2}+m^{2}\omega ^{2}q^{2})$$
 > which makes the HJ equation into
@@ -52,4 +52,3 @@ If $F_{2}$ satisfies this equation, then it conjugates $H$ into $K=0$ and we bas
 > The conjugate Hamiltonian for $F_{2}$ is $K=0$ so as we said $\tilde{p}(t)=\tilde{p}_{0}$ and $\tilde{q}(t)=\tilde{q}_{0}$. Put these in $p$ and $q$ to get the motion $p(t)$ and $q(t)$:
 > $$p(t)=\sqrt{ 2m\omega \tilde{p}_{0} }\cos(\omega t+\tilde{q}_{0}'),\quad q(t)=\sqrt{ \frac{2\tilde{p}_{0}}{m\omega} }\sin(\omega t+\tilde{q}_{0}')$$
 > where $\tilde{q}_{0}'\equiv \tilde{q}_{0}+\tilde{q}_{c}$. These are the usual harmonic oscillator solutions.
-
