@@ -178,7 +178,7 @@ $$\Omega \mathrm{E}+\mathrm{E}\Omega^{T}=0$$
 This can use the following lemma:
 
 > [!info] Lemma
-> Given a vector field $\mathbf{f}(\mathbf{x},t)$, this can be written as $\mathbf{f}=\mathrm{E}\nabla_{\mathbf{x}}F$ for some $F(\mathbf{x},t)$ if and only if $\Omega\equiv \frac{ \partial f_{i} }{ \partial x_{j} }$ satisfies $\Omega^{T}\mathrm{E}+\mathrm{E}\Omega=0$ ($\mathrm{E}\Omega$ must be [[Matrice simmetrica|antisymmetric]]).
+> Given a vector field $\mathbf{f}(\mathbf{x},t)$, this can be written as $\mathbf{f}=\mathrm{E}\nabla_{\mathbf{x}}F$ for some $F(\mathbf{x},t)$ if and only if $\Omega\equiv \frac{ \partial f_{i} }{ \partial x_{j} }$ satisfies $\Omega^{T}\mathrm{E}+\mathrm{E}\Omega=0$ ($\mathrm{E}\Omega$ must be [[Symmetric matrix|antisymmetric]]).
 
 > [!quote]- Proof
 > ($\Rightarrow$). Start from $\Omega$:

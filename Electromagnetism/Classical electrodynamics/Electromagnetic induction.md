@@ -2,10 +2,8 @@
 wiki-publish: true
 ---
 **Electromagnetic induction** is a phenomenon occurring in electrodynamics that can be summarized as follows:
-
-> **A changing magnetic field induces an electric field.**
-
-> **A changing electric field induces a magnetic field.**
+- A changing magnetic field induces an electric field.
+- A changing electric field induces a magnetic field.
 ### Induced electric field
 This [[electric field]] is determined much in the same way as the magnetostatic field, by way of its [[Curl]]:
 $$\nabla\cdot\mathbf{E}=0,\quad \nabla\times\mathbf{E}=- \frac{ \partial \mathbf{B} }{ \partial t } $$

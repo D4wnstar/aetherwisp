@@ -64,6 +64,6 @@ $$T_{2}=\sum_{j=1}^{n} \dot{q}_{j}\sum_{k=1}^{n}a_{jk}\dot{q}_{k} =\dot{\mathbf{
 we can see that $\mathrm{a}$ has the shape of a matrix and $a_{jk}$ are its components. It is defined as
 $$a_{jk}=\sum_{i=1}^{N} m_{i} \frac{ \partial \mathbf{r}_{i} }{ \partial q_{j} } \cdot \frac{ \partial \mathbf{r}_{i} }{ \partial q_{k} }$$
 It has a few interesting properties:
-- it is [[Matrice simmetrica|symmetric]], $a_{jk}=a_{kj}$. This follows from being defined by a real scalar product.
+- it is [[Symmetric matrix|symmetric]], $a_{jk}=a_{kj}$. This follows from being defined by a real scalar product.
 - it is [[Matrix sign definitions|positive definite]], that is, $\mathbf{v}\cdot \mathrm{a}\,\mathbf{v}>0$ for all $\mathbf{v}\neq 0\in \mathbb{R}^{n}$.
 - it is [[Invertible matrix|invertible]], since it is positive definite.

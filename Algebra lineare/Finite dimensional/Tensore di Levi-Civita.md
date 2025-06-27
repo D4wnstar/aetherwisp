@@ -5,7 +5,7 @@ aliases:
 ---
 Il **tensore di Levi-Civita** o **tensore antisimmetrico** $\epsilon_{i_{1}i_{2}\ldots i_{n}}$ è un oggetto definito dal segno di una [[permutazione]] di numeri naturali. Dato che vi sono $n^{n}$ possibili permutazioni di $n$ numeri interi, può essere rappresentato come un tensore quadrato $n\times n\times\ldots \times n$.
 ### Proprietà
-Il tensore di Levi-Civita è [[Matrice simmetrica|antisimmetrico]], ossia scambiati due indici, si inverte il segno:
+Il tensore di Levi-Civita è [[Symmetric matrix|antisimmetrico]], ossia scambiati due indici, si inverte il segno:
 $$\epsilon_{\ldots i\ldots j\ldots} = -\epsilon_{\ldots j\ldots i\ldots}$$
 Se due indici sono uguali, vale zero:
 $$\epsilon_{\ldots i \ldots i \ldots}=0$$

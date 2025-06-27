@@ -11,7 +11,7 @@ $$\{\mathbf{r(t)};\mathbf{R}(t),\mathbf{P}(t)\}$$
 
 ![[Graph Polar coordinates|center]]
 
-The derivatives of the frame are, in [[Matrice simmetrica|antisymmetric]] matrix form,
+The derivatives of the frame are, in [[Symmetric matrix|antisymmetric]] matrix form,
 $$\begin{pmatrix}\dot{\mathbf{R}} \\ \dot{\mathbf{P}}\end{pmatrix}=\begin{pmatrix}0 & \dot{\theta} \\ -\dot{\theta} & 0\end{pmatrix}\begin{pmatrix}\mathbf{R} \\ \mathbf{P}\end{pmatrix}$$
 The velocity is
 $$\mathbf{v}=\dot{\mathbf{r}}=\frac{d}{dt}(r\mathbf{R})=\dot{r}\mathbf{R}+r\dot{\mathbf{R}}=\dot{r}\mathbf{R}+r\dot{\theta}\mathbf{P}$$

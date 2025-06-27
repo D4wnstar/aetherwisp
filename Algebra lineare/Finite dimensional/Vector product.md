@@ -19,7 +19,7 @@ The vector product has the following properties:
 2. It is anticommutative: $\mathbf{a}\times\mathbf{b}=-\mathbf{b}\times\mathbf{a}$.
 3. The vector product of a vector with itself is always zero: $\mathbf{a}\times\mathbf{a}=0$.
 ### Matrix representation
-Given two vectors $\mathbf{a}$ and $\mathbf{b}$, the vector product $\mathbf{a}\times\mathbf{b}$ can be represented in matrix form. Firstly, define the [[Matrice simmetrica|antisymmetric matrix]] of $\mathbf{a}$:
+Given two vectors $\mathbf{a}$ and $\mathbf{b}$, the vector product $\mathbf{a}\times\mathbf{b}$ can be represented in matrix form. Firstly, define the [[Symmetric matrix|antisymmetric matrix]] of $\mathbf{a}$:
 $$C(\mathbf{a})\equiv\begin{pmatrix}0 & -a_{3} & a_{2} \\ a_{3} & 0 & -a_{1} \\ -a_{2} & a_{1} & 0\end{pmatrix}$$
 Then, the vector product is the matrix multiplication with $\mathbf{b}$:
 $$\mathbf{a}\times\mathbf{b}\equiv C(\mathbf{a})\mathbf{b}=\begin{pmatrix}0 & -a_{3} & a_{2} \\ a_{3} & 0 & -a_{1} \\ -a_{2} & a_{1} & 0\end{pmatrix}\begin{pmatrix}b_{1} \\ b_{2} \\ b_{3}\end{pmatrix}=\begin{pmatrix}a_{2}b_{3}-a_{3}b_{2} \\ a_{3}b_{1}-a_{1}b_{3} \\ a_{1}b_{2}-a_{2}b_{1}\end{pmatrix}$$

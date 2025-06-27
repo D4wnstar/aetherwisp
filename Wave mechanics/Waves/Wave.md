@@ -2,3 +2,5 @@
 wiki-publish: true
 ---
 A **wave** is an oscillation of a physical quantity around a rest value over a region of space and over time. The wave may move across space like a radio wave, in which case it is known as a [[traveling wave]], or oscillate in place like a guitar string, in which case it is known as a [[standing wave]]. The most common kinds of waves are [[mechanical wave|mechanical waves]], deformations of a medium by repeated compression and decompression like sound waves or water waves, and [[electromagnetic wave|electromagnetic waves]], coupled oscillating [[Electric field|electric]] and [[Magnetic field|magnetic fields]] like light or radio waves.
+
+The behavior of a wave is modeled by the [[wave equation]].

@@ -19,5 +19,5 @@ This is known as the **eigendecomposition** of $\mathrm{A}$.
 
 The value of diagonalization is that many calculation can be solved either trivially or with much greater ease when a matrix is in diagonal form as compared to its general form. One example is the [[determinant]] of a diagonal matrix, which is just the product of its diagonal entries.
 ### Properties
-- If $\mathrm{A}$ is a [[Matrice simmetrica|symmetric matrix]], then $\mathrm{D}$ is [[orthogonal matrix|orthogonal]], $\mathrm{D}^{-1}=\mathrm{D}^{+}$.
+- If $\mathrm{A}$ is a [[Symmetric matrix|symmetric matrix]], then $\mathrm{D}$ is [[orthogonal matrix|orthogonal]], $\mathrm{D}^{-1}=\mathrm{D}^{+}$.
 - $\det \mathrm{A}=\sum_{i=1}^{n}\mathrm{D}_{ii}$ where $\mathrm{D}_{ii}$ is the $i$-th element on the diagonal of $\mathrm{D}$.

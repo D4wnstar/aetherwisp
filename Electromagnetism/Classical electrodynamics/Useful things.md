@@ -1,1 +1,0 @@
-- Fields superimpose due to Maxwell equations linearity. Irradiance/intensity does not.

@@ -1,7 +1,7 @@
 ---
 wiki-publish: true
 ---
-Diverse regioni, o bande, dello [[Spettro elettromagnetico]] interagiscono in modo diverso con la materia e quindi con i nostri [[telescopi]]. Si usano dunque metodi diverse per bande diverse.
+Diverse regioni, o bande, dello [[Electromagnetic radiation|electromagnetic spectrum]] interagiscono in modo diverso con la materia e quindi con i nostri [[telescopi]]. Si usano dunque metodi diverse per bande diverse.
 
 Ciascuna categoria di lunghezze d'onda ha le sue caratteristiche:
 - I **raggi gamma** sono hanno la lunghezza d'onda più piccola, minore di 0.02 $\mathring{A}$. Sono estremamente energetici e passano attraverso ogni forma di materia, dunque creare dei sensori diretti è impossibile. Si possono fare sensori indiretti che misurano particelle di fotoni generate dall'impatto dei raggi gamma, ma sono estremamente imprecisi. Alcuni telescopi che tentano di misurare questi raggi sono *SWIFT*, *INTEGRAL* e *MAGIC* (telescopio Cherenkov).

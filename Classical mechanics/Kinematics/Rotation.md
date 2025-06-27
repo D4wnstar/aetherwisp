@@ -7,11 +7,11 @@ In the context of a [[rigid body]], it is a movement that maintains at least one
 
 Rotations form a [[group]] with interesting properties. Since rotations are, geometrically speaking, planar operations, the most fundamental group is the one in $\mathbb{R}^{2}$. Here they form a group known as
 $$SO(2)=\{ R\in M_{2}(\mathbb{R})\ | \ RR^{T}=R^{T}R=\hat{\mathbf{1}} \text{ and } \det R=1\}$$
-where $M_{2}(\mathbb{R})$ is the [[set]] of all real $2\times 2$ matrices. It is called the (two-dimensional) [[special orthogonal group]][^1]. It can also be written as $SO(2)=\{ R(\alpha)\ |\ \alpha \in[0,2\pi[\  \}$ and is the group of all [[Matrice simmetrica|antisymmetric matrices]] in $\mathbb{R}^{2}$. For rotations in $\mathbb{R}^{N}$, they form the group
+where $M_{2}(\mathbb{R})$ is the [[set]] of all real $2\times 2$ matrices. It is called the (two-dimensional) [[special orthogonal group]][^1]. It can also be written as $SO(2)=\{ R(\alpha)\ |\ \alpha \in[0,2\pi[\  \}$ and is the group of all [[Symmetric matrix|antisymmetric matrices]] in $\mathbb{R}^{2}$. For rotations in $\mathbb{R}^{N}$, they form the group
 $$SO(N)=\{ R\in M_{N}(\mathbb{R})\ | \ RR^{T}=R^{T}R=\hat{\mathbf{1}} \text{ and } \det R=1\}$$
 ### Properties
 - They are [[Operatore lineare|linear operators]].
-- They are [[Matrice simmetrica|antisymmetric]]: $R(\alpha)^{T}R(\alpha)=R(\alpha)R^{T}(\alpha)=\mathrm{I}$, where $\mathrm{I}$ is the [[identity matrix]].
+- They are [[Symmetric matrix|antisymmetric]]: $R(\alpha)^{T}R(\alpha)=R(\alpha)R^{T}(\alpha)=\mathrm{I}$, where $\mathrm{I}$ is the [[identity matrix]].
 - They have unit [[determinant]]: $\det R(\alpha)=1$.
 - Given a vector $\mathbf{v}\in \mathbb{R}^{N}$, the application of a rotation $R(\alpha)$ rotates it by an angle $\alpha$ with respect to its previous orientation.
 ### Matrix representation
@@ -42,7 +42,7 @@ A couple of useful vectors are
 $$\mathbf{d}\times\mathbf{v}=-\beta\mathbf{a}+\alpha\mathbf{b}, \quad \mathbf{d}\times(\mathbf{d}\times\mathbf{v})=-\alpha\mathbf{a}-\beta\mathbf{b}$$
 The first one can be written as a matrix multiplied by a vector
 $$\mathbf{d}\times\mathbf{v}=\begin{pmatrix}d_{1} \\ d_{2} \\ d_{3}\end{pmatrix}\times\begin{pmatrix}v_{1} \\ v_{2} \\ v_{3}\end{pmatrix}=\begin{pmatrix}d_{2}v_{3}-d_{3}v_{2} \\ d_{3}v_{1}-d_{1}v_{3} \\ d_{1}v_{2}-d_{2}v_{1}\end{pmatrix}=\begin{pmatrix}0 & -d_{3} & d_{2} \\ d_{3} & 0 & -d_{1} \\ -d_{2} & d_{1} & 0\end{pmatrix}\begin{pmatrix}v_{1} \\ v_{2} \\ v_{3}\end{pmatrix}=D\mathbf{v}\tag{3}$$
-The matrix $D$ is [[Matrice simmetrica|antisymmetric]]. We can then also say $\mathbf{d}\times(\mathbf{d}\times\mathbf{v})=D^{2}\mathbf{v}$. This is (one of) the matrix representation(s) of the [[Vector product|cross product]].
+The matrix $D$ is [[Symmetric matrix|antisymmetric]]. We can then also say $\mathbf{d}\times(\mathbf{d}\times\mathbf{v})=D^{2}\mathbf{v}$. This is (one of) the matrix representation(s) of the [[Vector product|cross product]].
 
 Using $(2)$ and the unitary matrix $I$ we can find
 $$I\mathbf{v}=\mathbf{v}=\ldots=(\mathbf{a}\mathbf{a}^{T}+\mathbf{b}\mathbf{b}^{T}+\mathbf{d}\mathbf{d}^{T})\mathbf{v}$$

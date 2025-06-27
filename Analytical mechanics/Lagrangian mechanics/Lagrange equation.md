@@ -27,7 +27,7 @@ As for the other derivative, it's a little more complicated:
 $$\frac{ \partial T }{ \partial \dot{q}_{m} } =\frac{1}{2}\sum_{j,k=1}^{n} a_{jk}\underbrace{ \frac{ \partial \dot{q}_{j} }{ \partial \dot{q}_{m} } }_{ \delta_{jm} }\dot{q}_{k}+ \frac{1}{2}\sum_{j,k=1}^{n} a_{jk}\dot{q}_{j}\underbrace{ \frac{ \partial \dot{q}_{k} }{ \partial \dot{q}_{m} } }_{ \delta_{km} } +\sum_{l=1}^{n} b_{l}\underbrace{ \frac{ \partial \dot{q}_{l} }{ \partial \dot{q}_{m} } }_{ \delta_{lm} } =\ldots$$
 where we used [[Kronecker delta|Kronecker deltas]]. These allows us to cut down on the sums:
 $$\ldots=\frac{1}{2}\sum_{k=1}^{n} a_{mk}\dot{q}_{k}+ \frac{1}{2}\sum_{j=1}^{n} a_{jm}\dot{q}_{j}+b_{m}=\ldots$$
-If we rename the second sum's index from $j$ to $k$ and remember that the [[matrix]] $\mathrm{a}$ is [[Matrice simmetrica|symmetric]], we can write $a_{jm}\to a_{km}=a_{mk}$, which leads to the exact same sum as the first. Summing the two we get
+If we rename the second sum's index from $j$ to $k$ and remember that the [[matrix]] $\mathrm{a}$ is [[Symmetric matrix|symmetric]], we can write $a_{jm}\to a_{km}=a_{mk}$, which leads to the exact same sum as the first. Summing the two we get
 $$\ldots=\sum_{k=1}^{n} a_{mk}(q,t)\dot{q}_{k}+b_{m}(q,t)$$
 We now need to take the time derivative:
 $$\frac{d}{dt} \frac{ \partial T }{ \partial \dot{q}_{m} } =\sum_{k,h=1}^{n} \frac{ \partial a_{mk} }{ \partial q_{h} } \dot{q}_{h}\dot{q}_{k}+\sum_{k=1}^{n} a_{mk}\ddot{q}_{k}+\sum_{h=1}^{n} \frac{ \partial b_{m} }{ \partial q_{h} } \dot{q}_{h}$$

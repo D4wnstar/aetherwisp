@@ -7,16 +7,16 @@ where $\mathbf{v}$ is the velocity of the test charge $q$. These fields refer to
 ### As a force density
 It is possible to rewrite the Lorentz force as a force density over a volume. To do so, first notice that $q\mathbf{v}=I\mathbf{s}$, where $\mathbf{s}$ is a length of space in which the [[electric current]] $I$ runs. So
 $$\mathbf{F}=q\mathbf{E}+I\mathbf{s}\times \mathbf{B}$$
-If we divide by volume $V$ and notice that $I\mathbf{s}/V=\mathbf{J}$, being the volume current density, and using $q/V=\rho$ the volume charge density, we have
+If we divide by volume $\mathcal{V}$ and notice that $I\mathbf{s}/\mathcal{V}=\mathbf{J}$, being the volume current density, and using $q/\mathcal{V}=\rho$ the volume charge density, we have
 $$\mathbf{f}=\rho \mathbf{E}+\mathbf{J}\times \mathbf{B}$$
-This is the force density. The amount $\mathbf{f}dV$ is the Lorentz force applied to the volume element $dV$.
+This is the force density. The amount $\mathbf{f}d\tau$ is the Lorentz force applied to the volume element $d\tau$.
 ### Using the Maxwell stress tensor
-The Lorentz force can also be written in an extremely general and manifestly time-dependent form using the [[Maxwell stress tensor]] $T$ and the [[Poynting vector]] $\mathbf{S}$. The force is
-$$\mathbf{F}=\oint_{\mathcal{S}}T\cdot d\mathbf{a}-\varepsilon_{0}\mu_{0}\frac{d}{dt} \int_{\mathcal{V}}\mathbf{S}\ d\tau$$
+The Lorentz force can also be written in an extremely general and manifestly time-dependent form using the [[Maxwell stress tensor]] $\mathrm{T}$ and the [[Poynting vector]] $\mathbf{S}$. The force is
+$$\mathbf{F}=\oint_{\mathcal{S}}\mathrm{T}\cdot d\mathbf{a}-\varepsilon_{0}\mu_{0}\frac{d}{dt} \int_{\mathcal{V}}\mathbf{S}\ d\tau$$
 which reduces to
-$$\mathbf{F}=\oint_{\mathcal{S}}T\cdot d\mathbf{a}$$
+$$\mathbf{F}=\oint_{\mathcal{S}}\mathrm{T}\cdot d\mathbf{a}$$
 in static, time-independent contexts. Here, $\mathcal{V}$ is some volume and $\mathcal{S}$ is the bounding [[surface]] of that volume. The force density instead reads
-$$\mathbf{f}=\nabla\cdot T-\varepsilon_{0} \mu_{0} \frac{ \partial \mathbf{S} }{ \partial t } $$
+$$\mathbf{f}=\nabla\cdot \mathrm{T}-\varepsilon_{0} \mu_{0} \frac{ \partial \mathbf{S} }{ \partial t } $$
 ### Work done
 The Lorentz force does do [[work]], but only the electric part does. Magnetic forces do no work. In fact, the work per unit distance $d\mathbf{s}$ is
 $$dW=\mathbf{F}\cdot d\mathbf{s}=q(\mathbf{E}+\mathbf{v}\times \mathbf{B})\cdot d\mathbf{s}=q\mathbf{E}\cdot d\mathbf{s}+q(\mathbf{v}\times \mathbf{B})\cdot d\mathbf{s}$$
@@ -39,3 +39,5 @@ Meanwhile, the momentum [[flux]] transported by the fields must be $-T$.
 If we keep the momentum static, such as when we are in empty space, we find
 $$\frac{d\mathbf{g}}{dt}=\nabla\cdot T$$
 This is the momentum continuity equation for electrodynamics. Just like energy, charges and fields constantly exchange momentum.
+### Conservation of angular momentum
+(TODO)

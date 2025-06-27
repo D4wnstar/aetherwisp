@@ -7,7 +7,7 @@ aliases:
 ---
 Un **nucleo galattico attivo** (AGN, *Active Galactic Nucleus*) è un nucleo di una [[Galassia]] che presenta uno [[Spettro (astrofisica)|spettro]] ottico estremamente energetico con [[Riga spettrale|linee di emissione]] molto pronunciate che non possono essere ricondotte a semplici fenomeni di [[formazione stellare]].
 ## Manifestazione
-La presenza di un AGN comporta l'osservazione di forti righe di emissioni in tutto lo [[Spettro elettromagnetico]]. L'esatta manifestazione dipende da che tipo di AGN si considera. Una [[spectral energy decomposition|SED]] media per un AGN è
+La presenza di un AGN comporta l'osservazione di forti righe di emissioni in tutto lo [[Electromagnetic radiation|electromagnetic spectrum]]. L'esatta manifestazione dipende da che tipo di AGN si considera. Una [[spectral energy decomposition|SED]] media per un AGN è
 
 ![[AGN SED model.png]]
 

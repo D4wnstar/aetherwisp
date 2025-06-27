@@ -9,7 +9,7 @@ We can treat a rigid body in a more formal, accurate manner through analytical m
 
 The change in position is pretty straight-forward. The change of orientation is a little more complicated. In an infinitesimal time $\delta t$, the moving triad $\{ \mathbf{e}_{1},\mathbf{e}_{2},\mathbf{e}_{3} \}$ is subject to an infinitesimal [[rotation]] $\Omega$. For any given vector $\mathbf{u}$ moving alongside the body, its variation in time due to the rotation is
 $$\delta \mathbf{u}=\Omega \mathbf{u}\delta t$$
-Since $\Omega$ is an [[Matrice simmetrica|antisymmetric matrix]], this operation is equivalent to claiming that there exists some vector $\boldsymbol{\omega}$ such that $\delta \mathbf{u}=\boldsymbol{\omega}\times \mathbf{u}\ \delta t$. By """dividing""" through with $\delta t$, we can find the time derivative of $\mathbf{u}$:
+Since $\Omega$ is an [[Symmetric matrix|antisymmetric matrix]], this operation is equivalent to claiming that there exists some vector $\boldsymbol{\omega}$ such that $\delta \mathbf{u}=\boldsymbol{\omega}\times \mathbf{u}\ \delta t$. By """dividing""" through with $\delta t$, we can find the time derivative of $\mathbf{u}$:
 $$\dot{\mathbf{u}}=\boldsymbol{\omega}\times \mathbf{u}$$
 The vector $\boldsymbol{\omega}$ is, of course, interpreted as the angular velocity of rotation. Since $\mathbf{u}$ is any vector attached to the object, the [[basis]] $\{ \mathbf{e}_{1},\mathbf{e}_{2},\mathbf{e}_{3} \}$ also changes according to this equation
 $$\dot{\mathbf{e}}_{i}=\boldsymbol{\omega}\times \mathbf{e}_{i},\quad i=1,2,3$$

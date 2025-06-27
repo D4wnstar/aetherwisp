@@ -24,5 +24,5 @@ and the acceleration
 $$\mathbf{a}=\dot{\mathbf{v}}=[(\rho\ddot{\theta}+2\dot{\rho}\dot{\theta})\sin\phi+2\rho\dot{\theta}\dot{\phi}\cos\phi]\mathbf{P}+[\rho(\dot{\theta}^{2}\sin\phi\cos\phi-\ddot{\phi})-2\dot{\rho}\dot{\phi}]\mathbf{Q}+\ $$
 $$+\ [\ddot{\rho}-\rho(\dot{\phi}^{2}+\dot{\theta}^{2}\sin^{2}\phi)
 ]\mathbf{R}$$
-The [[Matrice simmetrica|antisymmetric]] derivative matrix is
+The [[Symmetric matrix|antisymmetric]] derivative matrix is
 $$\begin{pmatrix}\dot{\mathbf{P}} \\ \dot{\mathbf{Q}} \\ \dot{\mathbf{R}}\end{pmatrix}=\begin{pmatrix}0 & \dot{\theta}\cos\phi & -\dot{\theta}\sin\phi \\ -\dot{\theta}\cos\theta & 0 & \dot{\phi} \\ \dot{\theta}\sin\phi & -\dot{\phi} & 0\end{pmatrix}\begin{pmatrix}\mathbf{P} \\ \mathbf{Q} \\ \mathbf{R}\end{pmatrix}$$

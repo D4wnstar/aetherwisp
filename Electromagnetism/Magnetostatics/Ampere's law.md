@@ -5,7 +5,7 @@ aliases:
 ---
 **Ampere's law** relates the circulation of a [[magnetic field]] $\mathbf{B}$ around a closed loop to the [[electric current]] passing through the loop. In differential form it reads
 $$\nabla\times\mathbf{B}=\mu_{0}\mathbf{J}$$
-where $\mu_{0}$ is the [[Vacuum permeability]] and $\mathbf{J}$ is the volume current density. It can be converted to integral form by application of the [[Curl theorem|curl theorem]]:
+where $\mu_{0}$ is the [[vacuum permeability]] and $\mathbf{J}$ is the volume current density. It can be converted to integral form by application of the [[Curl theorem|curl theorem]]:
 $$\oint_{\gamma} \mathbf{B}\cdot d\mathbf{r}=\mu_{0}I_\text{enc}$$
 where $I_\text{enc}$ is the enclosed current passing through the surface. This law can be thought of as the magnetic counterpart of [[Gauss' law]] and just like it, it makes solving some problems trivial, provided symmetry allows.
 
@@ -64,25 +64,26 @@ where $I_{f,enc}$ is the free current enclosed in the Amperian loop.
 ### In electrodynamics
 There is an internal issue with how Ampere's law is formulated. In differential form, it is the curl of the magnetic field and from calculus we know that the [[Divergence]] of curl is always zero. And yet, if we apply the divergence to Ampere's law we get
 $$\nabla\cdot(\nabla\times\mathbf{B})=\mu_{0}(\nabla\cdot\mathbf{J})$$
-which is, in general, not zero. It *is* zero in magnetostatics, when using steady currents, but beyond magnetostatics (when dealing with electrodynamics), it cannot be correct. Truth is, Ampere's law is actually missing a piece, as Maxwell discovered.
+which is, in general, not zero. It *is* zero in magnetostatics, when using steady currents, but beyond magnetostatics (in electrodynamics), it cannot be correct. Truth is, Ampere's law is actually missing a piece, as Maxwell discovered.
 
-For a thought experiment, imagine we are charging a [[Capacitor]]. The integral from of Ampere's law is
+For a thought experiment, imagine we are charging a [[capacitor]]. The integral from of Ampere's law is
 $$\oint \mathbf{B}\cdot d\mathbf{r}=\mu_{0}I_\text{enc}$$
 Say I want to use this law on a loop right after a capacitor, beyond the second plate.
 
 ![[Circuit Ampere's law inconsistency|60%|center]]
 
-What's the enclosed current? Well, it's whatever current is passing through the surface of the loop. But what is the surface of the loop? It's any surface bounded by it. The obvious choice here is just the flat space within the loop (blue in the image), but it just as well be the amorphous green one, similar to a balloon. The issue here is that, while in the blue surface the current passing through is obvious, in the green one there is *no* current passing through. This makes no sense: Ampere's law must hold for every possible surface bounded by the loop, it can't be picky. There's clearly something wrong here.
+What's the enclosed current? Well, it's whatever current is passing through the surface of the loop. But what is the surface of the loop? It's any surface bounded by it. The obvious choice here is just the flat space within the loop (blue in the image), but it could just as well be the amorphous green one, similar to a balloon, passing through the space in between the conductor's armatures. The issue here is that, while in the blue surface the current passing through is obvious, in the green one there is *no* current passing through. This makes no sense: Ampere's law must hold for every possible surface bounded by the loop, it can't be picky. There's clearly something wrong here.
 
 The problem arises in electrodynamics: this never occurred in magnetostatics because steady current don't cause a buildup of [[electric charge]] anywhere, whereas non-steady currents do. Since in order to charge a capacitor you need a non-steady current (to stockpile charge on the capacitor plates), this occurs only now. In fact, in all of electrodynamics, the concept of "current enclosed by the loop" is ill-defined, as it predicates on the notion that the current is constant in time.
 
 To find the missing link, apply the current continuity equation and Gauss' law to the problematic side of Ampere's law
 $$\nabla\cdot\mathbf{J}=- \frac{ \partial \rho }{ \partial t } =-\frac{ \partial  }{ \partial t } (\varepsilon_{0}\nabla\cdot\mathbf{E})=-\nabla \cdot\left( \varepsilon_{0}\frac{ \partial \mathbf{E} }{ \partial t }  \right)$$
-where we brought the time derivative inside the [[Divergence]] because the $\mathbf{E}$ function is "well-behaved", i.e. continuous and [[Differential|differentiable]]. So, if we add the term in brackets to Ampere's law, it would exactly cancel out the divergence of the right hand side and fix the law. Thus, we get the **Ampere-Maxwell law**:
+where we brought the time derivative inside the [[Divergence]] because the $\mathbf{E}$ function is "well-behaved", i.e. continuous and [[Differential|differentiable]]. So, if we add the term in brackets to Ampere's law, it exactly cancels out the divergence we found before and fix the law. Thus, we get the **Ampere-Maxwell law**:
 $$\boxed{\nabla\times\mathbf{B}=\mu_{0}\mathbf{J}+\mu_{0}\varepsilon_{0}\frac{ \partial \mathbf{E} }{ \partial t }}$$
 The new terms vanishes in magnetostatics, where $\mathbf{E}$ is constant in time, but it cannot be ignored in electrodynamics, where it has the fundamental consequence:
 
-> **Changing electric fields induce magnetic fields.**
+> [!success] Induction
+> A changing electric field [[Electromagnetic induction|induces]] a magnetic field.
 
 The additional term $\varepsilon_{0}\frac{ \partial \mathbf{E} }{ \partial t }\equiv \mathbf{J}_{d}$ is called the **displacement current** (as opposed to the **conduction current** $\mathbf{J}$), though it has nothing to do with the actual current beyond adding to its value. To see why this fixes the law physically, beyond mathematically, let's go back to the capacitor problem. If the capacitor plates are close to each other, the field between them is
 $$E=\frac{\sigma}{\varepsilon_{0}}=\frac{1}{\varepsilon_{0}} \frac{Q}{A}$$

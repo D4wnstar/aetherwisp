@@ -34,7 +34,7 @@ as opposed to the moments of inertia about $x$ and $y$, which would be
 $$I_{xx}=mr_{x}^{2}, \quad I_{yy}=mr_{y}^{2}$$
 which shows that the moment of inertia is really just a special case of the product of inertia. The products are calculated using sums and integrals for extended systems in the same way as the moments.
 
-It is possible to collect all of these in a [[Matrice simmetrica|symmetric matrix]] called the **inertia tensor**. In three dimensions, it is
+It is possible to collect all of these in a [[Symmetric matrix|symmetric matrix]] called the **inertia tensor**. In three dimensions, it is
 $$J=\begin{pmatrix}I_{xx} & -I_{xy} & -I_{xz} \\ -I_{xy} & I_{yy} & -I_{yz} \\ -I_{xz} & -I_{yz} & I_{zz}\end{pmatrix}$$
 This matrix is also [[Matrix sign definitions|positive definite]]. Its value lies in the fact that it allows for the calculation of moment of inertia around any arbitrarily oriented axis, not just the [[frame of reference]] axes. In fact, given an axis sitting on a generic direction determined by the unit vector $\hat{d}$, the moment of inertia around that axis is
 $$I_{d}=\hat{d}^{T}J\hat{d}$$

@@ -1,12 +1,12 @@
 ---
 wiki-publish: true
 aliases:
-  - matrice antisimmetrica
+  - antisymmetric matrix
 ---
-Si dice **matrice simmetrica** una [[matrice]] quadrata che è uguale alla propria trasposta, ovvero chiamando $M$ la matrice si ha
-$$A=A^{T}$$
-Si dice invece **antisimmetrica** se è invece uguale all'opposto della sua trasposta, cioè
-$$A=-A^{T}$$
+A square [[matrix]] $M$ is said to be **symmetric** if its [[transposition|transpose]] is equal to itself:
+$$M=M^{T}\quad\text{or equivalently}\quad M_{ij}=M_{ji}$$
+It is said to be **antisymmetric** if its transpose is equal to the opposite of itself:
+$$M=-M^{T}\quad\text{or equivalently}\quad M_{ij}=-M_{ji}$$
 ### Properties
 Antisymmetric matrices (a.m.) are rather special. The sum of two a.ms is itself an a.m., and the product between a [[scalar]] and an a.m. is again an a.m. This means that the sum and scalar product operations between a.ms are closed: this is sufficient condition to state that the space of all a.ms is a [[vector space]]. More info on this can be found in [[Rotation#Exponentiation]].
 
