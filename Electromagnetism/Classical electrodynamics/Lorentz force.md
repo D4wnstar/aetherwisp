@@ -30,14 +30,18 @@ According to the general form [[Newton's laws|Newton's second law]], the force o
 $$\mathbf{F}=\frac{d\mathbf{p}_\text{mech}}{dt}$$
 Here we are specifically calling the momentum "mechanical": you'll see why in a moment. Since we know $\mathbf{F}$, we can see where this leads. We'll use the stress tensor form:
 $$\frac{d\mathbf{p}_\text{mech}}{dt}=-\varepsilon_{0}\mu_{0}\frac{d}{dt} \int_{\mathcal{V}}\mathbf{S}\ d\tau+\oint_{\mathcal{S}}T\cdot d\mathbf{a}$$
-This expression is remarkably similar to [[Poynting's theorem]] and it is sensible to interpret it in a similar manner. The volume integral must then be the momentum "stored" in the fields and the surface integral must be the momentum flowing in through the surface. This equation expresses conservation of momentum due to electromagnetic forces: if momentum "enters" through the surface, then the total "stored" momentum must increase.
+This expression is remarkably similar to [[Poynting's theorem]] and it is sensible to interpret it in a similar manner. The volume integral must then be the momentum "stored" in the fields
+$$\mathbf{p}_\text{field}=\mu_{0}\varepsilon_{0}\int_{\mathcal{V}}\mathbf{S}d\tau$$
+and the surface integral must be the momentum flowing in through the surface. The mechanical momentum must be the total of these two. This equation expresses conservation of momentum due to electromagnetic forces: if momentum "enters" through the surface, then the total "stored" momentum must increase.
 
-Just like in Poynting's theorem, it is interesting to express the same statement using a density instead, in this case the **momentum density** $\mathbf{g}$. Dividing the first term by volume (and ignoring the sign) we get
-$$\mathbf{g}=\varepsilon_{0}\mu_{0}\mathbf{S}=\varepsilon_{0}(\mathbf{E}\times \mathbf{B})$$
+Just like in Poynting's theorem, it is interesting to express the same statement using a density instead, in this case the **momentum density** $\mathbf{g}$. Dividing the field momentum by volume we get
+$$\boxed{\mathbf{g}=\varepsilon_{0}\mu_{0}\mathbf{S}=\varepsilon_{0}(\mathbf{E}\times \mathbf{B})}$$
 Meanwhile, the momentum [[flux]] transported by the fields must be $-T$.
 
-If we keep the momentum static, such as when we are in empty space, we find
+If we keep the mechanical momentum static, such as when we are in empty space, the time derivative vanishes and we can rearrange the conservation law to read
 $$\frac{d\mathbf{g}}{dt}=\nabla\cdot T$$
-This is the momentum continuity equation for electrodynamics. Just like energy, charges and fields constantly exchange momentum.
+This is the momentum continuity equation for electrodynamics. Just like with energy and electric charge, individual charges and their fields constantly exchange momentum, with the *total* momentum being conserved.
 ### Conservation of angular momentum
-(TODO)
+Just like how fields carry angular momentum, they also carry [[angular momentum]]. By definition $\mathbf{L}=\mathbf{r}\times \mathbf{p}$, so the **angular momentum density** $\boldsymbol{\ell}$ must be
+$$\boxed{\boldsymbol{\ell}=\mathbf{r}\times \mathbf{g}=\varepsilon_{0}[\mathbf{r}\times(\mathbf{E}\times \mathbf{B})]}$$
+This is interpreted in the same way as above: it's not just charges that induce an angular momentum, fields themselves also carry it and this amount is mandatory for the conservation law to be upheld.

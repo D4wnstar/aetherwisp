@@ -24,5 +24,5 @@ Se $\ket{\psi}$ è normalizzato, deve valere
 $$\lvert \psi \rvert ^{2}=\lvert \alpha \rvert ^{2}+\lvert \beta \rvert ^{2}=1$$
 e quindi $\lvert  \alpha \rvert^{2}$ e $\lvert  \beta \rvert^{2}$ devono essere compresi fra 0 e 1, ossia possono essere interpretati come probabilità.
 
-> [!result] Probabilità e spazi di Hilbert
+> [!success] Probabilità e spazi di Hilbert
 > Le norme quadre dei componenti di un vettore normalizzato su un spazio di Hilbert possono essere interpretate come probabilità.

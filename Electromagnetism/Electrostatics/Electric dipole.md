@@ -96,7 +96,7 @@ $$\begin{align}
 &\mp \sin[\omega(t-r/c)]\sin\left( \frac{\omega d}{2c}\cos \theta \right) \\
 &=\ldots
 \end{align}$$
-This is... verbose. Thankfully, in the perfect dipole limit we have a second approximation to rely on: $d\ll c/\omega$. This is born off the fact that [[wave|waves]] of frequency $\omega$ have a [[wavelength]] $\lambda=2\pi c/\omega$, which amounts to $d\ll \lambda$. With this we can say
+This is... verbose. Thankfully, in the perfect dipole limit we have a second approximation to rely on: $d\ll c/\omega$. This is born off the fact that [[Wave|waves]] of frequency $\omega$ have a [[wavelength]] $\lambda=2\pi c/\omega$, which amounts to $d\ll \lambda$. With this we can say
 $$\ldots\simeq[\omega(t-r/c)]\mp \frac{\omega d}{2c}\cos \theta \sin[\omega(t-r/c)]$$
 Using this cosine and the approximate $1/\mathfrak{r}_{\pm}$ we can claim our potential is approximately
 $$V(r,\theta,t)=\frac{p_{0}\cos\theta}{4\pi \varepsilon_{0}r}\left[ - \frac{\omega}{c}\sin\left[ \omega\left( t- \frac{r}{c} \right) \right] + \frac{1}{r}\cos\left[ \omega\left( t- \frac{r}{c} \right) \right] \right]$$
@@ -128,7 +128,7 @@ $$\begin{align}
 Where again we used $r\gg c/\omega$ to eliminate the second term. The magnetic field then is exactly this:
 $$\boxed{\mathbf{B}=- \frac{\mu_{0}p_{0}\omega ^{2}}{4\pi c}\left( \frac{\sin\theta}{r} \right)\cos\left[ \omega\left( t- \frac{r}{c} \right) \right]\hat{\boldsymbol{\phi}}}\tag{6}$$
 #### Electromagnetic waves
-Now that we have the fields, we can go another step further and analyze the [[wave|waves]] themselves. $(5)$ and $(6)$ represent monochromatic [[electromagnetic wave|electromagnetic waves]] of [[Frequency|angular frequency]] $\omega$ traveling at the [[Speed of light]]. The fields are in phase, mutually perpendicular and transverse. The ratio of their amplitudes is exactly the speed of light: $E_{0}/B_{0}=c$. This should all be expected: after all, this is the behavior of electromagnetic waves in the vacuum. Since they are created from a point source, these are [[spherical wave|spherical waves]] and, like all of waves of this kind, they are approximately [[plane wave|plane]] at large distance $r$, at least locally.
+Now that we have the fields, we can go another step further and analyze the [[Wave|waves]] themselves. $(5)$ and $(6)$ represent monochromatic [[electromagnetic wave|electromagnetic waves]] of [[Frequency|angular frequency]] $\omega$ traveling at the [[Speed of light]]. The fields are in phase, mutually perpendicular and transverse. The ratio of their amplitudes is exactly the speed of light: $E_{0}/B_{0}=c$. This should all be expected: after all, this is the behavior of electromagnetic waves in the vacuum. Since they are created from a point source, these are [[spherical wave|spherical waves]] and, like all of waves of this kind, they are approximately [[Plane wave|plane]] at large distance $r$, at least locally.
 
 We can quantify the energy emitted by the oscillating dipole by starting from the [[Poynting vector]]:
 $$\mathbf{S}(\mathbf{r},t)=\frac{1}{\mu_{0}}(\mathbf{E}\times \mathbf{B})=\frac{\mu_{0}}{c}\left[ \frac{p_{0}\omega ^{2}}{4\pi} \left( \frac{\sin\theta}{r} \right)\cos\left[ \omega\left( t- \frac{r}{c} \right) \right] \right]^{2}\hat{\mathbf{r}}$$

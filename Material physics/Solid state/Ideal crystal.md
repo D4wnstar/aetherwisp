@@ -58,7 +58,7 @@ Let's start from a 1D crystal, so an (effectively) infinite chain of oscillators
 $$U_\text{harmonic}=\frac{1}{2}\phi''(a)\sum_{n}[u(na)-u([n+1]a)]^{2}$$
 The [[ordinary differential equation|differential equation]] of motion then is
 $$M\ddot{u}(na)=-\frac{ \partial U_\text{harmonic} }{ \partial u(na) }=-\phi''(a)[2u(na)-u([n-1]a)-u([n+1]a)] \tag{1}$$
-This is the equation of motion of a [[point mass]] $M$ attached with two massless springs of elastic constant $\gamma=\phi''(a)$. It is a [[wave equation]], so we'll choose the solution for $u(na,t)\equiv u_{n}(t)$ to be a [[plane wave]]
+This is the equation of motion of a [[point mass]] $M$ attached with two massless springs of elastic constant $\gamma=\phi''(a)$. It is a [[wave equation]], so we'll choose the solution for $u(na,t)\equiv u_{n}(t)$ to be a [[Plane wave]]
 $$u_{n}(t)=ue^{i(kna-\omega t)}\tag{2}$$
 for some constant $u$. 
 
@@ -69,7 +69,7 @@ M\omega ^{2}&=\gamma[2-e^{-ika}-e^{ika}]
 \end{align}$$
 Extracting $\omega$, using $e^{ix}+e^{-ix}=2\cos x$ and  $(1-\cos ^{2}x)/2=\sin ^{2}x$ gives
 $$\omega(k)=\sqrt{ \frac{2\gamma(1-\cos(ka))}{M} }=2\sqrt{ \frac{\gamma}{M} }\left\lvert  \sin\left( \frac{ka}{2} \right)  \right\rvert $$
-This is the **[[dispersion|dispersion relation]]** of the 1D, spring-modeled, ideal crystal, which tells us the [[Frequency|angular frequency]] of the [[wave]] that carries a perturbation through the chain of ions. The wave, as usual, moves with two different velocities: the [[phase velocity]] $c=\omega/k$ and the [[group velocity]] $v_{g}=\partial \omega/\partial k$.
+This is the **[[dispersion|dispersion relation]]** of the 1D, spring-modeled, ideal crystal, which tells us the [[Frequency|angular frequency]] of the [[Wave]] that carries a perturbation through the chain of ions. The wave, as usual, moves with two different velocities: the [[phase velocity]] $c=\omega/k$ and the [[group velocity]] $v_{g}=\partial \omega/\partial k$.
 
 ![[1D monatomic lattice crystal dispersion.png]]
 

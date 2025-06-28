@@ -1,0 +1,8 @@
+---
+wiki-publish: true
+---
+The **phase** of a [[Wave]] is, intuitively speaking, the point of its periodic cycle it is in. At the start of a cycle, the phase is zero. It then increases until the cycle reaches its end, at which point the phase resets to zero and the cycle starts all over.
+
+The phase is generally given in radians and occupies the range between $0$ and $2\pi$. It is most apparent when using trigonometric functions such as a the sine and cosine. For instance, in a generic [[Plane wave|monochromatic plane wave]] $\psi(x,t)=A\sin(kx+vt+\varphi)$, the argument of the sine $kx+vt+\varphi$ is the phase and it is defined in $[0,2\pi]$.
+
+It is common to see a constant parameter inside of a phase, which is often denoted $\varphi$. This is called the **phase constant** and it serves as the "starting point" of the phase, in the sense that it is the value that the phase will have when the rest of the phase is zero. For instance, in the wave above, $\varphi$ is the phase of the wave at position $x=0$ and time $t=0$. It is also useful when converting between different representation of an oscillatory phenomenon. For instance, we know that $\cos(x)=\sin(x\pm \pi/2)$. The $\pm \pi/2$ can be seen as a phase constant, and so the cosine is really just a phase-shifted sine, $\cos(x)=\sin(x+\varphi)$. Thus, any wave that is being expressed as a sine or cosine can be rewritten as the other only at the cost of having to add a constant to the phase.

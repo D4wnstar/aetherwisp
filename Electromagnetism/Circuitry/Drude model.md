@@ -49,7 +49,7 @@ The theory is valid for metals and homogeneous semiconductors (like $\mathrm{Si}
 ### Results
 Being a basic theory of conductivity, the Drude model can be used to derive several other effects. One of them is the Hall effect, which has its own article at [[Hall effect]]. Another is the reflectivity of metals, which is described below here.
 #### Reflectivity of metals
-When an [[electromagnetic wave]] hits a material, it splits between a reflected and transmitted wave, as described by the [[Fresnel coefficients]]. We'll use a generic [[plane wave]] of equation $\mathbf{E}(z,t)=\mathbf{E}_{0}e^{i(kz-\omega t)}$ for this discussion. The [[wavenumber]] $k$ can be written in terms of the [[wavelength]] $\lambda_{0}$ as
+When an [[electromagnetic wave]] hits a material, it splits between a reflected and transmitted wave, as described by the [[Fresnel coefficients]]. We'll use a generic [[Plane wave]] of equation $\mathbf{E}(z,t)=\mathbf{E}_{0}e^{i(kz-\omega t)}$ for this discussion. The [[wavenumber]] $k$ can be written in terms of the [[wavelength]] $\lambda_{0}$ as
 $$k=\frac{2\pi N}{\lambda_{0}}$$
 where $N=n+i\kappa$ is the complex [[refractive index]]. Using Maxwell's relation for refractive index, we have $N=\sqrt{ \varepsilon }=\sqrt{ \varepsilon_{r}+i\varepsilon_{i} }$, where $\varepsilon$ is the complex [[permittivity]]. The wave then is
 $$\mathbf{E}(z,t)=\mathbf{E}_{0}e^{i((2\pi N/\lambda_{0})z-\omega t)}=\mathbf{E}_{0}e^{i((\omega \sqrt{ \varepsilon }/c)z-\omega t)}$$
