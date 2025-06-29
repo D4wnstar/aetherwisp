@@ -9,7 +9,7 @@ where $\rho$ is the volume charge density. Alternatively, using $\mathbf{E}=-\na
 $$\nabla ^{2}V=- \frac{\rho}{\epsilon_{0}}$$
 which is [[Poisson's equation]].
 
-Gauss' law holds even for changing electric fields and moving charges, which may be subject to [[electromagnetic induction]].
+Gauss' law holds even for changing electric fields and moving charges, which may be subject to [[Electromagnetic induction]].
 ### Derivation
 Consider a point charge $q$ within a sphere of radius $R$. The outgoing flux is going to be
 $$\oint_{S}\mathbf{E}\cdot d\mathbf{S}=\int \frac{1}{4\pi\varepsilon_{0}}\left(\frac{q}{r^{2}}\hat{\mathbf{r}}\right)\cdot(r^{2}\sin\theta d\theta d\phi \hat{\mathbf{r}})=\frac{q}{\varepsilon_{0}}$$

@@ -12,7 +12,7 @@ $$\gamma X\to Xe^{-}e^{+}$$
 
 Il [[Legge di Beer-Lambert|coefficiente di assorbimento]] associato a questo fenomeno è
 $$\mu _\text{PC}=\frac{7}{9} \frac{1}{L_{R}}$$
-dove $L_{R}$ è la [[Potere frenante|lunghezza di radiazione]]. Questo lo rende quasi uguale al coefficiente di assorbimento del [[bremmstrahlung]], pari a $\mu _\text{PC}=L_{R}^{-1}$ (cambia solo di $7/9$).
+dove $L_{R}$ è la [[Potere frenante|lunghezza di radiazione]]. Questo lo rende quasi uguale al coefficiente di assorbimento del [[Bremmstrahlung]], pari a $\mu _\text{PC}=L_{R}^{-1}$ (cambia solo di $7/9$).
 #### Processi a cascata
 Tipicamente, per fotoni ad energia abbastanza alta da compiere produzione di coppie, l'impatto con un materiale innesca un processo a cascata: mediamente ogni $L_{R}$, i fotoni creano una coppia elettrone-positrone, che a loro volta saranno deflessi per bremmstrahlung emettendo fotoni ad alta energia, che a loro volta possono creare coppie, e via avanti, moltiplicando i processi finché l'energia media non è sufficientemente diluita. Questo fenomeno è noto come **sciame elettromagnetico**.
 

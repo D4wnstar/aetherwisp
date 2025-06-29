@@ -9,8 +9,9 @@ wiki-publish: true
 - [[Lorentz force#Using the Maxwell stress tensor]] and momenta conservations
 ### Waves
 - [[Wave]], [[Wave equation]], [[phase velocity]] and [[group velocity]]
-- [[Harmonic wave]] and [[Phasor]] method
+- [[Harmonic]] and [[phasor]] method
 - [[Plane wave]], [[spherical wave]]
+- [[Polarization]]
 ### Wave optics
 - Media interfaces, [[law of reflection]], [[Snell's law]], [[refractive index]]
 - [[Frensel formulas]], polarization angle, polarization by reflection, critical angle, total internal reflection
@@ -20,8 +21,8 @@ wiki-publish: true
 - Mentions of dispersion in conductors and plasma frequency
 - [[Wave guide]]
 ### Electrodynamics proper
+- [[Maxwell's equations#In the vacuum]] (wave part)
 - [[Electromagnetic wave]]
-- [[Polarization]]
 - [[Irradiance]], [[radiation pressure]]
 - [[Maxwell's equations#In matter]] (wave part)
 - Electromagnetic waves in conductors

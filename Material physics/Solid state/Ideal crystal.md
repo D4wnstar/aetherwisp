@@ -108,7 +108,7 @@ On further analysis, these solutions have *very* different behaviors. Collective
 
 ![[1D diatomic lattice crystal dispersion.png]]
 
-The lower branch behaves like before, with vanishing frequency at the edges and a dispersion relation of the form $\omega=ck$. This is called the **acoustic branch** of dispersion. The upper branch however has much higher frequencies and never vanishes. This is called the **optical branch** of dispersion because the higher frequencies can actually interact and couple with commonly encountered [[electromagnetic radiation]], thus defining the crystal's optical behavior.
+The lower branch behaves like before, with vanishing frequency at the edges and a dispersion relation of the form $\omega=ck$. This is called the **acoustic branch** of dispersion. The upper branch however has much higher frequencies and never vanishes. This is called the **optical branch** of dispersion because the higher frequencies can actually interact and couple with commonly encountered [[Electromagnetic radiation]], thus defining the crystal's optical behavior.
 #### Energy spectrum
 The above discussion is adequate for the general solution to the wave equation, but in practice, we need some boundary conditions to fully solve it. If there are $N$ total ions in the crystal, then we can use periodic boundary conditions[^3] to state that the crystal is actually a looping ring, so $u(0)=u(Na)$.
 
@@ -124,7 +124,7 @@ A phonon behaves in many ways like a [[particle]]. In fact, it is the particle a
 
 Phonons are useful because they are technically [[Boson|bosons]], so if we put a lot of them together (i.e. cause some vibrations in the crystal), we get a [[Bose gas]] that obeys the [[Bose-Einstein distribution]]. We can then use the whole machinery of statistical mechanics to describe the crystal with a quantum [[ensemble]] and derive macroscopically relevant thermodynamic properties about it by knowing the microscopic behavior. See [[Harmonic oscillator#Oscillator chains]] for more.
 ## Electronic structure
-The electronic structure of a crystalline solid is a rather complicated topic, but it serves to explain a considerable portion of the nature of the material itself. Electrons are mobile and somewhat prone to being dislodged from individual ions, so they tend to be the cause of most behavior of the crystal when interacting with other materials or [[electromagnetic radiation]].
+The electronic structure of a crystalline solid is a rather complicated topic, but it serves to explain a considerable portion of the nature of the material itself. Electrons are mobile and somewhat prone to being dislodged from individual ions, so they tend to be the cause of most behavior of the crystal when interacting with other materials or [[Electromagnetic radiation]].
 
 The complication arises from trying to understand how the electrons interact with the lattice of ions they are in. There's two extremes to this interaction: on one side, the atoms are so far away that all electrons exclusively interact with their nucleus (**free atom limit**); on the other, the electrons are so weakly bound to any one nucleus in particular that they end up roaming around freely, disregarding the ions completely (**free electron limit**). The truth is, as usual, somewhere in the middle, and the real question is: how do we get there?
 

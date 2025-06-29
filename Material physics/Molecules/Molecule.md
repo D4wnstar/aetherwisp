@@ -65,7 +65,7 @@ In the [[Born-Oppenheimer approximation]], the nuclei are assumed to be stationa
 $$\left[ - \frac{\hbar^{2}}{2\mu}\nabla ^{2}_{R}+E_{q}(\mathbf{R}) \right]F(\mathbf{R})=E_\text{tot}F(\mathbf{R})$$
 where $\mu$ is the reduced mass of the system and $E_{q}(\mathbf{R})$ is the central potential. $F(\mathbf{R})$ is the wavefunction we're looking for. Now, outside of breaking the bond itself, there's only two things that nuclei can do: rotate and oscillate. Rotations must have their own angular quantum number $J$, whereas oscillations, referred to as *vibrations* in this context, will have a quantum number $v$. If we break $F(\mathbf{R})$ up into [[spherical coordinates]]
 $$F(\mathbf{R})=\frac{\mathscr{F}_{vJ}(R)}{R}Y_{Jm_{J}}(\theta,\phi)$$
-where $Y_{Jm_{J}}(\theta,\phi)$ are the [[spherical harmonics]], we find ourselves in a central symmetry problem, whose radial part is determined by
+where $Y_{Jm_{J}}(\theta,\phi)$ are the [[Spherical harmonics]], we find ourselves in a central symmetry problem, whose radial part is determined by
 $$\left[ - \frac{\hbar^{2}}{2\mu} \frac{d^{2}}{dR^{2}}+ \frac{\hbar^{2}}{2\mu R^{2}}J(J+1)+E_{q}(R) \right]\mathscr{F}_{vJ}(R)=E_{svJ}\mathscr{F}_{vJ}(R)$$
 The additional $s$ quantum number in $E_{svJ}$ is because of electron repulsion. If the molecule is stable, we can expand the electron repulsion energy $E_{s}$ in a [[Taylor series]] about its minimum $R_{0}$:
 $$E_{s}(R)\simeq E_{s}(R_{0})+ \frac{1}{2}k(R-R_{0})^{2}$$

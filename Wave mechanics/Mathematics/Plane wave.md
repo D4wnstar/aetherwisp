@@ -5,7 +5,7 @@ aliases:
   - sinusoidal plane wave
   - sine wave
 ---
-A **plane wave** is a [[wave]] whose [[wavefront]] is a [[plane]] everywhere. The simplest and most important form of plane wave is a **monochromatic** or **sinusoidal plane wave** (often just called a **sine wave**), whose general equation is
+A **plane wave** is a [[wave]] whose [[wavefront]] is a [[plane]] everywhere. These occur when the [[Wave equation|wavefunction]] is only dependent on the coordinate the wave propagates in. The simplest and most important form of plane wave is a **monochromatic** or **sinusoidal plane wave** (often just called a **sine wave**), whose general equation is
 $$u(\mathbf{r},t)=A\sin(\mathbf{k}\cdot \mathbf{r}-\omega t+\varphi)$$
 where
 - $A$ is constant interpreted as the [[Wave equation|amplitude]] of the wave.
@@ -13,9 +13,11 @@ where
 - $\omega$ is the [[Frequency|angular frequency]]. This is constant in a monochromatic wave.
 - $\varphi$ is the [[phase]].
 
+Moreover, a [[dispersion|nondispersive]] sine wave has dispersion relation $\omega=\lvert \mathbf{k} \rvert v$ and therefore a [[phase velocity]] of $v=\omega/\lvert \mathbf{k} \rvert$.
+
 Often, the sine wave is given as a complex wave using complex exponentials:
-$$\tilde{u}(\mathbf{r},t)=Ae^{i[\mathbf{k}\cdot \mathbf{r}-\omega t+\varphi]}$$
-This is achieved by adding a new imaginary term to the sine wave and then using [[Euler's formula]]. The [[real and imaginary parts|real part]] of the complex wave is the previous equation: $\text{Re}[\tilde{u}(\mathbf{r},t)]=u(\mathbf{r},t)$. The benefit of this formulation is that it's often a lot easier to work with complex exponentials that it is to deal with sines and cosines. The constant part of this representation, $Ae^{i\varphi}$, is called a [[phasor]].
+$$\tilde{u}(\mathbf{r},t)=\tilde{A}e^{i[\mathbf{k}\cdot \mathbf{r}-\omega t+\varphi]}$$
+This is achieved by adding a new imaginary term to the sine wave and then using [[Euler's formula]]. The [[real and imaginary parts|real part]] of the complex wave is the previous equation: $\text{Re}[\tilde{u}(\mathbf{r},t)]=u(\mathbf{r},t)$. The benefit of this formulation is that it's often a lot easier to work with complex exponentials that it is to deal with sines and cosines. The constant part of this representation, $\tilde{A}e^{i\varphi}$, is called a [[phasor]].
 
 The importance of plane waves comes from the fact that every wave can be seen as being locally plane at small enough scales, due to any geometric [[surface]] being approximately plane for small enough regions. The importance of *sine waves* in particular is different though. It comes from the field of Fourier analysis, where the [[Fourier series]] guarantees that, under some conditions, almost any function can be represented as a (possibly infinite) sum of sines. As such, pretty much any wave can be rewritten as a big sum of sine waves and so, by just knowing how these work, we know in principle how *any* wave works.
 ### Definition

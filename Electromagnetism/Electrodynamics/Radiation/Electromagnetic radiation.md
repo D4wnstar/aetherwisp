@@ -16,7 +16,7 @@ Electromagnetic waves can be of any [[frequency]]. Since this leads to a massive
 ### Definition
 Consider a localized source[^1] near the origin. To determine the energy radiated from the source at some time $t_{0}$, we encase the source in a sphere of of massive radius $r$, large enough that the source looks like a point. The energy passing through the surface is given by integrating the [[Poynting vector]] over the surface
 $$P(r,t)=\oint \mathbf{S}\cdot d\mathbf{a}=\frac{1}{\mu_{0}}\oint(\mathbf{E}\times \mathbf{B})\cdot d\mathbf{a}$$
-Since electromagnetic waves travel at the [[Speed of light]], thus causing the fields $\mathbf{E}$ and $\mathbf{B}$ to depend not on current time but on [[retarded time]], the energy is itself emitted at the retarded time $t_{0}=t-r/c$. The power radiated is then
+Since electromagnetic waves travel at the [[Speed of light]], thus causing the fields $\mathbf{E}$ and $\mathbf{B}$ to depend not on current time but on [[Retarded time]], the energy is itself emitted at the retarded time $t_{0}=t-r/c$. The power radiated is then
 $$P_\text{rad}(t_{0})=\lim_{ r \to \infty } P\left( r,t_{0}+ \frac{r}{c} \right)$$
 where $t_{0}$ is held constant. This is the energy that is radiated from the source in a spherical fashion up to infinity.
 
@@ -40,7 +40,7 @@ from which using the first order [[Taylor series|Taylor series]] $(1-x)^{-1}\sim
 $$\frac{1}{\mathfrak{r}}\simeq \frac{1}{r}\left( 1+ \frac{\mathbf{r}\cdot\mathbf{r}'}{r^{2}} \right)$$
 and so
 $$\rho\left( \mathbf{r}',t- \frac{\mathfrak{r}}{c} \right)\simeq \rho\left( \mathbf{r}',t- \frac{r}{c}+ \frac{\hat{\mathbf{r}}\cdot\mathbf{r}'}{c} \right)$$
-Another Taylor series, this time of $t$ in about the [[retarded time]] at the origin
+Another Taylor series, this time of $t$ in about the [[Retarded time]] at the origin
 $$t_{0}\equiv t- \frac{r}{c}$$
 yields
 $$\rho\left( \mathbf{r}',t- \frac{\mathfrak{r}}{c} \right)\simeq \rho(\mathbf{r}',t_{0})+\dot{\rho}(\mathbf{r}',t_{0})\left( \frac{\hat{\mathbf{r}}\cdot\mathbf{r}'}{c} \right)+\ldots$$

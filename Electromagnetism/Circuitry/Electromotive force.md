@@ -15,7 +15,7 @@ In the specific case of a loop of [[electric current]] moving through a static [
 $$\mathcal{E}=- \frac{d\Phi}{dt}$$
 This tells us that the motional emf $\mathcal{E}$ is equal to the opposite of the change in the magnetic flux $\Phi$ through the loop. If you pull a loop out of a magnetic field, the flux reduces in time and the derivative is negative, which correctly yields a positive emf. It is the integral form of [[Faraday's law]].
 
-In fact, by studying [[electromagnetic induction]], we can generalize the flux rule to state that whenever a magnetic field going through a loop changes (for *any* reason, be it movement of the loop, of the flux, variation in the generating current, etc.), a emf equal to
+In fact, by studying [[Electromagnetic induction]], we can generalize the flux rule to state that whenever a magnetic field going through a loop changes (for *any* reason, be it movement of the loop, of the flux, variation in the generating current, etc.), a emf equal to
 $$\mathcal{E}=- \frac{d\Phi}{dt}$$
 will be found in the loop.
 ### Origin

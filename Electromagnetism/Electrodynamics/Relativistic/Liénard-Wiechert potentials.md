@@ -5,7 +5,7 @@ The **Liénard-Wiechert potentials** are *retarded* [[Electric potential|electri
 $$V(\mathbf{r},t)=\frac{1}{4\pi \varepsilon_{0}} \frac{qc}{(\mathfrak{r}c-\boldsymbol{\mathfrak{r}}\cdot \mathbf{v})}$$
 and
 $$\mathbf{A}(\mathbf{r},t)=\frac{\mu_{0}}{4\pi} \frac{qc\mathbf{v}}{(\mathfrak{r}c+\boldsymbol{\mathfrak{r}}\cdot \mathbf{v})}=\frac{\mathbf{v}}{c^{2}}V(\mathbf{r},t)$$
-$\mathbf{v}$ is the velocity of the charge at the [[retarded time]] and $\boldsymbol{\mathfrak{r}}$ is the distance between the retarded position (the position at the retarded time) to the field point $\mathbf{r}$.
+$\mathbf{v}$ is the velocity of the charge at the [[Retarded time]] and $\boldsymbol{\mathfrak{r}}$ is the distance between the retarded position (the position at the retarded time) to the field point $\mathbf{r}$.
 ### Derivation
 The proof begins from the general for form of retarded potentials. The electric potential is
 $$V(\mathbf{r},t)=\frac{1}{4\pi \varepsilon_{0}}\int \frac{\rho(\mathbf{r}',t_{r})}{\mathfrak{r}}\ d\tau'\tag{1}$$

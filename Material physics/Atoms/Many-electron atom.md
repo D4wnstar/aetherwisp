@@ -38,7 +38,7 @@ where we combined the central potential with the nuclear attraction term into $V
 $$\psi_{C}=u_{a_{1}}(\mathbf{r}_{1})u_{a_{2}}(\mathbf{r}_{2})\ldots u_{a_{N}}(\mathbf{r}_{N})$$
 where each $u_{a_{i}}(\mathbf{r}_{1})$ are the individual electron wavefunctions, corresponding to their [[orbital|orbitals]]. Each orbital is, in [[spherical coordinates]] and like in the [[Hydrogen atom|hydrogenic atom]], a mix of a radial and angular part like
 $$u_{nlm}(\mathbf{r})=R_{nl}(r)Y_{lm}(\theta,\phi)$$
-where $m\equiv m_{l}$. The meaning of the [[Numero quantico|quantum numbers]] is the same as the ones in the hydrogenic atom. The angular part is as always independent from a central potential, so it's just the same old [[spherical harmonics]]. The radial part is, however, not the same and needs to be solved again, according to
+where $m\equiv m_{l}$. The meaning of the [[Numero quantico|quantum numbers]] is the same as the ones in the hydrogenic atom. The angular part is as always independent from a central potential, so it's just the same old [[Spherical harmonics]]. The radial part is, however, not the same and needs to be solved again, according to
 $$\left[ - \frac{\hbar^{2}}{2m}\left( \frac{1}{r^{2}} \frac{d}{dr}\left( r^{2} \frac{d}{dr} \right)- \frac{l(l+1)}{r^{2}} \right)- V_{C}(r) \right]R_{nl}(r)=E_{nl}R_{nl}(r)$$
 Note how the energy eigenvalues now depend on $l$ too, not just $n$. To get the total energy of all electrons, just sum the individual ones:
 $$E_{C}=\sum_{i=1}^{N} E_{n_{i}l_{i}}$$

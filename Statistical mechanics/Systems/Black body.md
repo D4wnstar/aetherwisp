@@ -7,7 +7,7 @@ aliases:
 ---
 A **black body** is an idealized body that absorbs all incident [[radiation]]. It is a good approximation for many bodies that only (or mostly) exhibit thermal radiation, such as [[stella|stars]] and the human body.
 
-A hollow spherical object with the inner surface painted black and a pinhole dug into it is an accurate real world representation of a black body. The cavity emits [[electromagnetic radiation]] from the pinhole due to thermal excitation. If the cavity is large enough, the system approximately looses the dependency on boundary conditions.
+A hollow spherical object with the inner surface painted black and a pinhole dug into it is an accurate real world representation of a black body. The cavity emits [[Electromagnetic radiation]] from the pinhole due to thermal excitation. If the cavity is large enough, the system approximately looses the dependency on boundary conditions.
 
 It was the [[physical system]] that spurred the start of quantum mechanics, as the classical result for the emission spectrum differs massively from reality in the higher frequencies, such as ultraviolet: this discrepancy has been called the **ultraviolet catastrophe**.
 ### Classical description
