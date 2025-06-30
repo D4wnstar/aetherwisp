@@ -42,4 +42,12 @@ $$\begin{align}
 Also
 $$B_{0}=\frac{k}{\omega}E_{0}=\frac{1}{c}E_{0}$$
 
+**Averaged quantities**
+$$\langle u \rangle =\frac{\varepsilon_{0}}{2}E_{0}^{2},\quad \langle \mathbf{S} \rangle\equiv I =\frac{\varepsilon_{0}c}{2}E_{0}^{2}\ \hat{\mathbf{n}},\quad \langle \mathbf{g} \rangle =\frac{\varepsilon_{0}}{2c}E_{0}^{2}\ \hat{\mathbf{n}}$$
+Multiply by $2$ for non-averages.
+
+**Radiation pressure**
+$$P=\frac{1}{A} \frac{\Delta \lvert \mathbf{p} \rvert }{\Delta t}=\frac{\varepsilon_{0}}{2}E_{0}^{2}=\frac{I}{c}$$
+
+
 - Fields superimpose due to Maxwell equations linearity. Irradiance/intensity does not.
