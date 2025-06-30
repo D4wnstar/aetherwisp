@@ -42,12 +42,19 @@ $$\begin{align}
 Also
 $$B_{0}=\frac{k}{\omega}E_{0}=\frac{1}{c}E_{0}$$
 
-**Averaged quantities**
-$$\langle u \rangle =\frac{\varepsilon_{0}}{2}E_{0}^{2},\quad \langle \mathbf{S} \rangle\equiv I =\frac{\varepsilon_{0}c}{2}E_{0}^{2}\ \hat{\mathbf{n}},\quad \langle \mathbf{g} \rangle =\frac{\varepsilon_{0}}{2c}E_{0}^{2}\ \hat{\mathbf{n}}$$
+**Averaged quantities (vacuum)**
+$$\langle u \rangle =\frac{\varepsilon_{0}}{2}E_{0}^{2},\quad \langle \mathbf{S} \rangle=\frac{\varepsilon_{0}c}{2}E_{0}^{2}\ \hat{\mathbf{n}},\quad I\equiv \lvert \langle \mathbf{S} \rangle  \rvert \quad \langle \mathbf{g} \rangle =\frac{\varepsilon_{0}}{2c}E_{0}^{2}\ \hat{\mathbf{n}}$$
+Multiply by $2$ for non-averages.
+
+**Averaged quantities (matter)**
+$$\langle u \rangle =\frac{\varepsilon}{2}E_{0}^{2},\quad \langle \mathbf{S} \rangle=\frac{\varepsilon c}{2n}E_{0}^{2}\ \hat{\mathbf{n}}$$
 Multiply by $2$ for non-averages.
 
 **Radiation pressure**
 $$P=\frac{1}{A} \frac{\Delta \lvert \mathbf{p} \rvert }{\Delta t}=\frac{\varepsilon_{0}}{2}E_{0}^{2}=\frac{I}{c}$$
+
+**Reflection and transmission coefficients (normal incidence)**
+$$R\equiv \frac{I_{R}}{I_{I}}=\left( \frac{E_{0,R}}{E_{0,I}} \right)^{2}=\left( \frac{n_{1}-n_{2}}{n_{1}+n_{2}} \right)^{2},\qquad T\equiv \frac{I_{T}}{I_{I}}=\frac{\varepsilon_{2}n_{1}}{\varepsilon_{1}n_{2}}\left( \frac{E_{0,T}}{E_{0,I}} \right)^{2}=\frac{4n_{1}n_{2}}{(n_{1}+n_{2})^{2}}$$
 
 
 - Fields superimpose due to Maxwell equations linearity. Irradiance/intensity does not.
