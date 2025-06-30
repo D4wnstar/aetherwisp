@@ -23,3 +23,7 @@
 - Bernoulli umbra
 - Ewald sphere
 - Sea of quarks
+- Ewald-Oseen extinction theorem
+- [Photonic time crystal](https://arxiv.org/pdf/2404.04899)
+- Hyperbolic umbilic catastrophe
+- Confluent hypergeometric function

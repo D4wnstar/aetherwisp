@@ -20,7 +20,7 @@ $$\begin{align}
 \nabla\times\mathbf{B} &=\mu_{0}\varepsilon_{0}\frac{ \partial \mathbf{E} }{ \partial t } 
 \end{align}$$
 This is particularly interesting since it shows that, in a way, the electric and magnetic fields are one and the same. In fact, Faraday's law shows that the space derivative (curl, in this case) of an electric field is the time derivative of a magnetic field, and Ampere's law (the corrected form) shows that the space derivative of a magnetic field is the time derivative of an electric field. The only differences are the signs and the constants $\mu_{0}\varepsilon_{0}$ (which only appear in SI units).
-
+#### Waves
 This symmetry can be explored further by looking for the [[Laplacian]] of $\mathbf{E}$ and $\mathbf{B}$. Recall that $\nabla ^{2}\mathbf{A}=(\nabla\cdot \nabla A_{x},\nabla\cdot \nabla A_{y},\nabla\cdot \nabla A_{z})$. Using the Maxwell equations, specifically by taking the curl of the curl on both $\mathbf{E}$ and $\mathbf{B}$, we can compute these quantities to be
 $$\boxed{\nabla ^{2}\mathbf{E}=\varepsilon_{0}\mu_{0}\frac{ \partial ^{2}\mathbf{E} }{ \partial t^{2} } ,\qquad \nabla ^{2}\mathbf{B}=\varepsilon_{0}\mu_{0}\frac{ \partial ^{2}\mathbf{B} }{ \partial t^{2} }}$$
 These are very clearly symmetrical. In fact, they are *identical* in everything except the name of the vector. The greatest importance of these is that they are exactly [[Wave equation|wave equations]]; they must admit oscillatory solutions, that is, solutions dependent on sines and cosines (or complex exponentials, if you prefer). But oscillatory solutions in space represent *waves*, and so what these equations are telling us is that when electromagnetic fields vary in time, they always make waves: we call these **[[electromagnetic wave|electromagnetic waves]]** and they form the bulk of electrodynamic theory, optics and really any form of signal transfer you are used to from everyday life, like Wi-Fi, Bluetooth, radio, wireless charging and everything else.
@@ -58,12 +58,12 @@ $$\begin{align}
 \oint_{\mathcal{S}}\mathbf{B}\cdot d\mathbf{a} & =0 & \oint_{\gamma}\mathbf{H}\cdot d\mathbf{r} & =I_{f,enc}+\frac{d}{dt} \int_{\mathcal{S}}\mathbf{D}\cdot d\mathbf{a}
 \end{align}$$
 where the two left ones are integrated over any closed [[Surface|surface]] $\mathbf{S}$ and the two right ones are for any closed surface bounded by a closed [[Curve|line]] $\gamma$.
-
-In the same way as the vacuum laws, we can find Laplacians for matter laws too. However, these depend on the kind of material you are measuring fields. In linear, homogeneous and isotropic materials however, they look almost identical to the vacuum ones:
+#### Waves
+In the same way as the vacuum laws, we can find Laplacians for matter laws too. Just set $\rho_{f}=0$ and $\mathbf{J}_{f}=0$ and redo the curl of the curl. However, these end up depending on the kind of material you are measuring the fields in. In linear, homogeneous and isotropic materials however, they look almost identical to the vacuum ones:
 $$\boxed{\nabla ^{2}\mathbf{E}=\varepsilon\mu\frac{ \partial ^{2}\mathbf{E} }{ \partial t^{2} } ,\qquad \nabla ^{2}\mathbf{B}=\varepsilon\mu\frac{ \partial ^{2}\mathbf{B} }{ \partial t^{2} }}$$
 The only difference is that we are using general [[permittivity]] and [[permability]] instead of the vacuum one. One interesting difference is that speed also changes accordingly:
-$$c=\frac{1}{\sqrt{ \varepsilon \mu }}=\frac{1}{\sqrt{ \varepsilon_{0}\varepsilon_{r}\mu_{0}\mu_{r} }}=\underbrace{ \frac{1}{\sqrt{ \varepsilon_{0} \mu_{0} }} }_{ c } \underbrace{ \frac{1}{\sqrt{ \varepsilon_{r}\mu_{r} }} }_{ 1/n }=\frac{c}{n}$$
-Clearly then, since both $\varepsilon_{r}>1$ and $\mu_{r}>1$, our quantity $n$, which we call the [[refractive index]], must itself be $n>1$. As such, the speed of light is *always diminished* when in matter, by some quantity characteristic of the material itself. It must be, then, that the speed of light is the vacuum is the upper limit: even before the dawn of special relativity, the speed of light could not be surpassed by electrodynamics alone[^2].
+$$v=\frac{1}{\sqrt{ \varepsilon \mu }}=\frac{1}{\sqrt{ \varepsilon_{0}\varepsilon_{r}\mu_{0}\mu_{r} }}=\underbrace{ \frac{1}{\sqrt{ \varepsilon_{0} \mu_{0} }} }_{ c } \underbrace{ \frac{1}{\sqrt{ \varepsilon_{r}\mu_{r} }} }_{ 1/n }=\frac{c}{n}$$
+Clearly then, since both $\varepsilon_{r}\geq1$ and $\mu_{r}\geq1$, our quantity $n$, which we call the **[[refractive index]]**, must itself be $n\geq1$. As such, the speed of light is *always diminished* when in matter, by some quantity characteristic of the material itself. It must be, then, that the speed of light is the vacuum is the upper limit: even before the dawn of special relativity, the speed of light could not be surpassed by electrodynamics alone[^2].
 ### Boundary conditions
 In general, all the fields used in Maxwell's equations will be discontinuous over a surface charge or current. We can find the boundary conditions by applying the integral equations in matter.
 
@@ -94,6 +94,7 @@ $$\boxed{\begin{align}
 \varepsilon_{1}E_{1}^{\perp}-\varepsilon_{2}E_{2}^{\perp} & =\sigma_{f} & \mathbf{E}_{1}^{\parallel}-\mathbf{E}_{2}^{\parallel} & =\mathbf{0} \\
 B_{1}^{\perp}-B_{2}^{\perp} & =0 & \frac{1}{\mu_{1}}\mathbf{B}_{1}^{\parallel}- \frac{1}{\mu_{2}}\mathbf{B}_{2}^{\parallel}&=\mathbf{0}
 \end{align}}$$
+These boundary conditions are particularly important, as they lay the foundation for the study of electromagnetic wave reflection and transmission.
 ### Potential form
 Maxwell's equations can also be rewritten so that they are instead dependent on the [[electric potential]] $V$ and the [[magnetic vector potential]] $\mathbf{A}$. The benefit of this formulation is that it reduces a six-variable problem (three electric and three magnetic components) to a four-variable problem (one electric potential and three vector potential components). The issue here is that $V$ cannot exist in electrodynamics as we know it normally. This is because Faraday's law cannot be ignored when we introduce a time dependence and $\mathbf{E}$ ceases to be [[Vector field|irrotational]]. What we can do is move things around until we get something that's still irrotational even when considering time:
 $$\nabla\times \mathbf{E}=-\frac{ \partial  }{ \partial t } (\nabla\times \mathbf{A})\quad\to \quad \nabla\times\left( \mathbf{E}+\frac{ \partial \mathbf{A} }{ \partial t } \right)=0$$
@@ -131,4 +132,4 @@ where we are taking derivatives using covariant four-vectors.
 
 [^1]: For correctness' sake, the charges themselves only *align* with the polarization, but don't move much. If they did all actually move to the surface, we'd be working with [[conductor|conductors]] and not with polarized [[dielectric|dielectrics]]. Still, this alignment motion is sufficient to produce a small current.
 
-[^2]: Of course, Galilean relativity would still claim that the speed of light could be a universal speed limit since it could always be summed with the speed of the [[frame of reference]], at least in inertial frame, which we now know is wrong. But this is a problem about *mechanics*; *electromagnetism*, on the other hand, was always right.
+[^2]: Of course, Galilean relativity would still debate that the speed of light cannot be a universal speed limit since it can always be summed with the speed of the [[frame of reference]] (at least in an inertial frame), thus always being able to achieve a faster speed by just changing perspective. Of course we now know this is wrong, but this problem is about *mechanics*; *electromagnetism*, on the other hand, was always right.
