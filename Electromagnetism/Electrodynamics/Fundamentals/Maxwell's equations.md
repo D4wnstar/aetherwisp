@@ -58,12 +58,36 @@ $$\begin{align}
 \oint_{\mathcal{S}}\mathbf{B}\cdot d\mathbf{a} & =0 & \oint_{\gamma}\mathbf{H}\cdot d\mathbf{r} & =I_{f,enc}+\frac{d}{dt} \int_{\mathcal{S}}\mathbf{D}\cdot d\mathbf{a}
 \end{align}$$
 where the two left ones are integrated over any closed [[Surface|surface]] $\mathbf{S}$ and the two right ones are for any closed surface bounded by a closed [[Curve|line]] $\gamma$.
-#### Waves
-In the same way as the vacuum laws, we can find Laplacians for matter laws too. Just set $\rho_{f}=0$ and $\mathbf{J}_{f}=0$ and redo the curl of the curl. However, these end up depending on the kind of material you are measuring the fields in. In linear, homogeneous and isotropic materials however, they look almost identical to the vacuum ones:
+#### Waves in dielectrics
+In the same way as the vacuum laws, we can find Laplacians for matter laws too. It is much easier in [[Dielectric|dielectrics]], where we can just set $\rho_{f}=0$ and $\mathbf{J}_{f}=0$ and redo the curl of the curl. However, these end up depending on the kind of material you are measuring the fields in. In linear, homogeneous and isotropic materials however, they look almost identical to the vacuum ones:
 $$\boxed{\nabla ^{2}\mathbf{E}=\varepsilon\mu\frac{ \partial ^{2}\mathbf{E} }{ \partial t^{2} } ,\qquad \nabla ^{2}\mathbf{B}=\varepsilon\mu\frac{ \partial ^{2}\mathbf{B} }{ \partial t^{2} }}$$
 The only difference is that we are using general [[permittivity]] and [[permability]] instead of the vacuum one. One interesting difference is that speed also changes accordingly:
 $$v=\frac{1}{\sqrt{ \varepsilon \mu }}=\frac{1}{\sqrt{ \varepsilon_{0}\varepsilon_{r}\mu_{0}\mu_{r} }}=\underbrace{ \frac{1}{\sqrt{ \varepsilon_{0} \mu_{0} }} }_{ c } \underbrace{ \frac{1}{\sqrt{ \varepsilon_{r}\mu_{r} }} }_{ 1/n }=\frac{c}{n}$$
 Clearly then, since both $\varepsilon_{r}\geq1$ and $\mu_{r}\geq1$, our quantity $n$, which we call the **[[refractive index]]**, must itself be $n\geq1$. As such, the speed of light is *always diminished* when in matter, by some quantity characteristic of the material itself. It must be, then, that the speed of light is the vacuum is the upper limit: even before the dawn of special relativity, the speed of light could not be surpassed by electrodynamics alone[^2].
+#### Waves in conductors
+Outside of dielectrics, things get tricky. Free charges are near-infinite, so certainly cannot afford to state that they are approximately zero. We must therefore tackle Maxwell's equations head-on. We'll start by invoking [[Ohm's law]], which means reducing ourselves to linear, homogeneous and isotropic media:
+$$\mathbf{J}_{f}=\sigma \mathbf{E}$$
+With these the equations become
+$$\begin{align}
+\nabla\cdot\mathbf{E} & =\frac{\rho_{f}}{\varepsilon} &
+\nabla\times\mathbf{E} & = -\frac{ \partial \mathbf{B} }{ \partial t } \\
+\nabla\cdot\mathbf{B} & =0 &
+\nabla\times\mathbf{B} &=\mu\sigma \mathbf{E} +\mu \sigma \frac{ \partial \mathbf{E} }{ \partial t } 
+\end{align}$$
+The [[Electric current|continuity equation]] for free current, $\nabla\cdot \mathbf{J}_{f}=-\partial \rho_{f}/\partial t$, combined with Ohm's law and then Gauss' law gives
+$$\frac{ \partial \rho_{f} }{ \partial t } =-\nabla\cdot \mathbf{J}_{f}=-\nabla\cdot(\sigma \mathbf{E})=- \frac{\sigma}{\varepsilon}\rho_{f}$$
+This is a rather simple first-order [[partial differential equation]] that solves to
+$$\rho_{f}(t)=\rho_{f}(0)e^{-(\sigma/\varepsilon)t}$$
+This explains the redistribution of charge over the surface of a conductor. $\sigma/\varepsilon\equiv \tau$ is the characteristic time of the conductor, which is a constant similar to the [[electrical conductivity]]. In perfect conductors ($\sigma\to \infty$) it is more or less zero, meaning the charge redistribution is instant[^3]. This isn't that important though: what is important is that free charges disappears *fast*, and when they do, we are back to $\rho_{f}=0$.
+$$\begin{align}
+\nabla\cdot\mathbf{E} & =0 &
+\nabla\times\mathbf{E} & = -\frac{ \partial \mathbf{B} }{ \partial t } \\
+\nabla\cdot\mathbf{B} & =0 &
+\nabla\times\mathbf{B} &=\mu\sigma \mathbf{E} +\mu \sigma \frac{ \partial \mathbf{E} }{ \partial t } 
+\end{align}$$
+The difference here is that we have the additional nonzero "Ohm's law" term in the curl of $\mathbf{B}$. When working with dielectrics, $\sigma \simeq 0$, so it checks out with what we had before. Taking the curl of the curl now leads to
+$$\boxed{\nabla ^{2}\mathbf{E}=\varepsilon \mu \frac{ \partial ^{2}\mathbf{E} }{ \partial t^{2} }+\mu \sigma \frac{ \partial \mathbf{E} }{ \partial t },\qquad\nabla ^{2}\mathbf{B}=\varepsilon \mu \frac{ \partial ^{2}\mathbf{B} }{ \partial t^{2} }+\mu \sigma \frac{ \partial \mathbf{B} }{ \partial t }}$$
+The presence of a new, first-order term causes quite a number of differences compared to the dielectric case, chiefly the presence of very fast dampening in the [[amplitude]] of the wave. If the typical electromagnetic wave equation was analogous to the [[harmonic oscillator]], this is analogous to a *damped* harmonic oscillator: the conductor counteracts the wave and suppresses it.
 ### Boundary conditions
 In general, all the fields used in Maxwell's equations will be discontinuous over a surface charge or current. We can find the boundary conditions by applying the integral equations in matter.
 
@@ -133,3 +157,5 @@ where we are taking derivatives using covariant four-vectors.
 [^1]: For correctness' sake, the charges themselves only *align* with the polarization, but don't move much. If they did all actually move to the surface, we'd be working with [[conductor|conductors]] and not with polarized [[dielectric|dielectrics]]. Still, this alignment motion is sufficient to produce a small current.
 
 [^2]: Of course, Galilean relativity would still debate that the speed of light cannot be a universal speed limit since it can always be summed with the speed of the [[frame of reference]] (at least in an inertial frame), thus always being able to achieve a faster speed by just changing perspective. Of course we now know this is wrong, but this problem is about *mechanics*; *electromagnetism*, on the other hand, was always right.
+
+[^3]: In practice, it actually isn't, not just because that would be physically impossible but because Ohm's law is a rather high-level approximation and starts to break down around the mean time between [[electron]] collisions, which is $\tau_{C} \simeq 10^{-14}$. Coincidentally, this is also the order of magnitude of time it takes for charges to redistribute. The *actual* theory of conduction is a lot more complicated; see for instance [[Ideal crystal#Electronic structure]] for a quantum-mechanical approach for crystalline solids.

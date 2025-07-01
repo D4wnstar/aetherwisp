@@ -11,4 +11,4 @@ If we choose the directions of the fields cleverly, we can ignore the minus sign
 $$\frac{V_{d}}{D}=vB$$
 If we take the square we get
 $$\frac{V_{d}^{2}}{D^{2}}=v^{2}B^{2}=B^{2} \frac{2eV_{e}}{m_{e}}$$
-From which we can extract the charge-to-mass ration $e/m_{e}$.
+From which we can extract the charge-to-mass ratio $e/m_{e}$.

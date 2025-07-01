@@ -23,3 +23,5 @@ Some conventions:
 Visual guide to radiometric quantities. The red quantities are the significant ones. (The purple ones are *photometric*, that is, weighed by what the human eye can see).
 By Cmglee - Own work, CC BY-SA 4.0, from [Wikipedia](https://commons.wikimedia.org/w/index.php?curid=121743159).
 :::
+
+One last note. I could not find specific terms for the "intensity" of reflected and transmitted radiation specifically, since radiant exitance is technically only for *emitted* waves, which are distinct from reflected and transmitted ones. Since these come up all the time when dealing with material interfaces, I'll call them **reflected exitance** and **transmitted exitance**, with hopefully clear meaning.

@@ -14,7 +14,7 @@ wiki-publish: true
 - [[Polarization]]
 ### Wave optics
 - Media interfaces, [[law of reflection]], [[Snell's law]], [[refractive index]]
-- [[Frensel formulas]], polarization angle, polarization by reflection, critical angle, total internal reflection
+- [[Fresnel's equations]], polarization angle, polarization by reflection, critical angle, total internal reflection
 - [[Evanescent wave]] in total internal reflection, [[reflectivity]] and [[transmissivity]]
 - [[Dispersion]] in linear media
 - Complex refractive index, [[absorption]], normal and anomalous dispersion
