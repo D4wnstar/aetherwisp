@@ -100,5 +100,76 @@ $$\Delta W=\Delta\left( \frac{1}{2}\int \mathbf{D}\cdot \mathbf{E}\ d\tau \right
 The total work done to build up the charge all the way from zero to the end result, then, is
 $$\boxed{W=\frac{1}{2}\int \mathbf{D}\cdot \mathbf{E}\ d\tau}$$
 This formula ends up differing from the original one, but not because either are wrong, they just represent different energies. The general one dependent on the square of the field represents the energy required to assemble all charges in the system, both free *and* bound, by moving each one independently from infinity (or whatever point of reference). This *does not*, however, include the energy spent when rotating and stretching the molecules and atoms of the dielectric to actually get the charges into their expected geometry, as you are moving the charges one by one. The second formula, dependent on the displacement, instead represents the energy required to move *only* the free charge, but *does* include the elastic "spring" energy contained in the atoms and molecules due to, well, their displacement. The difference here is that the first energy is about moving charges as if they were independent, while the second involves moving only the free ones and figuring out how bound charges respond. The latter is always higher (as it also includes the elastic energy) and generally the one you want, as free charges are usually artificially controlled, but bound ones are not.
+### Electromagnetic wave dispersion
+[[Dispersion]] is the [[frequency]] dependence of a [[wave|wave]]'s [[phase velocity]]. It is a known phenomenon in optics, where light scattering from a piece of glass disperses into a rainbow. This section attempts to explain *why* an [[electromagnetic wave]] disperses in a dielectric.
+
+A correct model of dispersion requires a quantum mechanical model of [[electron|electronic]] structure, but a qualitative model can be developed even with classical physics alone.
+Our end goal is to explain why the [[permittivity]] $\varepsilon$ of a dielectric is dependent on the [[Frequency|angular frequency]] $\omega$ of an electromagnetic wave. We will do so through a simplified model of electrons in matter.
+
+Each electron in a dielectric is, generally speaking, bound to a specific [[molecule]]. We'll say that there is a binding [[force]] $F_{\text{binding}}$ keeping the electron attached to the molecule against the displacement of imposed by the wave (which we assume to be propagating on the $x$ axis and [[Polarization|polarized]] on the $y$ axis as usual) and we'll say that this force is elastic and described by [[Harmonic oscillator|Hooke's law]]:
+$$F_\text{binding}=-kx=-m\omega_{0}^{2}y$$
+where $k=m\omega_{0}^{2}$ is the spring constant, $m$ is the [[mass]] of the electron and $\omega_{0}=\sqrt{ k/m }$ is the *natural oscillation frequency*. We claim this is a valid approximation since any [[potential]] (and thus force) can be approximated by the [[harmonic oscillator]] for small enough displacements around an [[equilibrium point]], which the electron's stable orbit around the molecule is.
+
+This electron is likely also subject to a damping force $F_\text{damping}$, which we'll assume to be a generic [[dissipative force]]
+$$F_\text{damping}=-m\gamma \frac{dy}{dt}$$
+for some damping coefficient $\gamma>0$. As for *why* this is here, that's beyond the scope of this model. There are reasons, such as [[Radiation reaction|radiation damping]], but they aren't relevant here.
+
+Finally, when the wave passes by, it will enact a driving force $F_\text{driving}$ on the electron as per the [[electric field]] $E$:
+$$F_\text{driving}=qE=qE_{0}\cos (\omega t)$$
+where $q$ is the [[elementary charge]] and $E_{0}$ is the [[amplitude]] of the electric part of the wave at the coordinates of the electron. Of course, the full force would be a [[Lorentz force]] including the [[magnetic field]], but magnetic forces are tiny compared to electric ones in the vacuum, so we can ignore without loss of much generality.
+
+Combine all of these with [[Newton's laws|Newton's second law]] and you get
+$$F_\text{tot}=m \frac{d^{2}y}{dt^{2}}=F_\text{binding}+F_\text{damping}+F_\text{driving}$$
+so
+$$m \frac{d^{2}y}{dt^{2}}+m\gamma \frac{dy}{dt}+m\omega_{0}^{2}y=qE_{0}\cos (\omega t)$$
+This is an inhomogeneous second-order linear [[ordinary differential equation]] in $x$, representing a damped harmonic oscillator driven at frequency $\omega$. This becomes easier to handle if we regard it as the real part of a complex differential equation in $\tilde{x}$:
+$$\frac{d^{2}\tilde{y}}{dt^{2}}+\gamma \frac{d\tilde{y}}{dt}+\omega_{0}^{2}\tilde{y}=\frac{q}{m}E_{0}e^{-i\omega t}$$
+where we used [[Euler's formula]] to see the cosine as the real part of a complex exponential. In a steady state, the system oscillates at the driving frequency
+$$\tilde{x}(t)=\tilde{x}_{0}e^{-i\omega t}$$
+Plugging this into the ODE and solving for $\tilde{x}_{0}$ gives
+$$\tilde{x}_{0}=\frac{q}{m}\frac{1}{\omega_{0}^{2}-\omega ^{2}-i\gamma \omega}E_{0}$$
+An oscillating charge act as an [[electric dipole]] of [[electric dipole moment]]
+$$\tilde{p}(t)=q\tilde{x}(t)=\frac{q^{2}}{m}\frac{1}{\omega_{0}^{2}-\omega ^{2}-i\gamma \omega}E_{0}e^{-i\omega t}$$
+Note the presence of an imaginary term $i\gamma \omega$ at the denominator. This causes a [[phase]] shift in $p$ compared to $E$, leaving it $\arctan(\gamma m/(\omega_{0}^{2}-\omega ^{2}))$ behind. This angle is tiny when $\omega\ll \omega_{0}$ and grows asymptotically to $\pi$ when $\omega\gg \omega_{0}$.
+
+The exact values for $\omega$, $\omega_{0}$ and $\gamma$ depend on the position of electron in the molecule and its orbit in the system. Suppose there are $f_{j}$ electrons with natural frequency $\omega_{j}$ and damping coefficient $\gamma_{j}$. If there are $N$ molecules per unit volume, the [[dielectric polarization]] $\mathbf{P}$ is the real part of
+$$\tilde{\mathbf{P}}=\frac{Nq^{2}}{m}\left( \sum_{j} \frac{f_{j}}{\omega_{j}^{2}-\omega ^{2}-i\gamma_{j}\omega}  \right)\tilde{\mathbf{E}}$$
+Now, $\mathbf{P}$ (the real part) is not currently linearly proportional to $\mathbf{E}$ since there is a phase difference between (all due to that pesky $i\gamma_{j}\omega$ at the denominator), so technically this is not a linear medium. However, the complex $\tilde{\mathbf{P}}$ is linearly proportional to the complex $\tilde{\mathbf{E}}$, so in an odd way, we can see this as a linear medium with *complex* [[electric susceptibility]] $\tilde{\chi}_{e}$ such that
+$$\tilde{\mathbf{P}}=\varepsilon_{0}\tilde{\chi}_{e}\tilde{\mathbf{E}}$$
+Similarly, we can define a *complex* permittivity $\tilde{\varepsilon}$ and a *complex* relative permittivity
+$$\tilde{\varepsilon}_{r}=\frac{\tilde{\varepsilon}}{\varepsilon_{0}}=1+ \frac{Nq^{2}}{m\varepsilon_{0}}\sum_{j} \frac{f_{j}}{\omega_{j}^{2}-\omega ^{2}-i\gamma_{j}\omega}\tag{1}$$
+Now, in most cases the imaginary term is negligible, stamped out by $\omega ^{2}_{j}-\omega ^{2}$. However, when $\omega$ gets closer to $\omega_{j}$, that difference approaches zero and the imaginary term is the only thing that is left. This has some major consequences, though before we examine them, let's discuss what we ended up with.
+
+In a dispersive medium, the wave equation now reads
+$$\nabla ^{2}\tilde{\mathbf{E}}=\tilde{\varepsilon}\mu_{0}\frac{ \partial ^{2}\tilde{\mathbf{E}} }{ \partial t^{2} } $$
+of [[plane wave]] solution
+$$\tilde{\mathbf{E}}(x,t)=\tilde{\mathbf{E}}_{0}e^{i(\tilde{k}x-\omega t)}$$
+and complex [[wavenumber]] $\tilde{k}=\sqrt{ \tilde{\varepsilon}\mu_{0} }\ \omega$. We can split this in real and imaginary parts $\tilde{k}=k+i\kappa$ to write
+$$\tilde{\mathbf{E}}(x,t)=\tilde{\mathbf{E}}_{0}e^{-\kappa x}e^{i(kx-\omega t)}$$
+which is an attenuated wave. This is a logical consequence of us adding a damping force. The [[irradiance]] of the wave is proportional to the square of the electric field, $I\propto E^{2}$, so it is attenuated like $I\propto e^{-2\kappa x}$. Because of this, we call $\alpha\equiv2\kappa$ the **absorption coefficient**. It's reciprocal, $1/\alpha$, is called the **penetration depth** of the wave. It is a characteristic length for the suppression of the wave, similar to skin depth, but for the irradiance. The [[phase velocity]] is $v_{p}=\omega/k$ and the [[refractive index]] is $n=ck/\omega$. This is all quite similar to what happens to a wave incident on a perfect [[conductor]], although the interpretation of the coefficients is different since the dampening here is due to some arbitrary force instead of rearrangement of free charge.
+
+For most materials, there's not much else we can say without diving deeper into the nature of electronic structure. However, for gases the second term in $(1)$ is small; not enough to delete it completely, but enough to justify approximating the square root in $\tilde{k}=\sqrt{ \tilde{\varepsilon}\mu_{0} }\ \omega=\sqrt{ \varepsilon_{0}\tilde{\varepsilon}_{r}\mu_{0} }\ \omega$ with the first couple of terms in its [[Binomial theorem|binomial expansion]]:
+$$\sqrt{ 1+x }\simeq1+ \frac{x}{2}$$
+This means, since $\mu_{0}=1/\varepsilon_{0}c^{2}$,
+$$\tilde{k}=\sqrt{ \frac{\tilde{\varepsilon}}{\varepsilon_{0}c^{2}} }\ \omega=\frac{\omega}{c}\sqrt{ \tilde{\varepsilon}_{r} }\simeq \frac{\omega}{c}\left[ 1+ \frac{Nq^{2}}{2m\varepsilon_{0}}\sum_{j} \frac{f_{j}}{\omega_{j}^{2}-\omega ^{2}-i\gamma_{j}\omega} \right]$$
+and so
+$$n=\frac{ck}{\omega}\simeq 1+ \frac{Nq^{2}}{2m\varepsilon_{0}}\sum_{j} \frac{f_{j}(\omega ^{2}_{j}-\omega ^{2})}{(\omega_{j}^{2}-\omega ^{2})^{2}+\gamma ^{2}_{j}\omega ^{2}}$$
+and
+$$\alpha=2\kappa \simeq \frac{Nq^{2}\omega ^{2}}{m\varepsilon_{0}c}\sum_{j} \frac{f_{j}\gamma_{j}}{(\omega_{j}^{2}-\omega ^{2})^{2}+\gamma ^{2}_{j}\omega ^{2}}$$
+These quantities, $n$ and $\alpha$, generally behave pretty nicely, with $n$ increasing monotonically with frequency. However, as we've hinted at before, $\omega_{j}^{2}-\omega ^{2}$ cancels out when $\omega_{j}\simeq \omega$, leaving only the damping term. When oscillations frequencies of different objects match, we get a **[[resonance]]**, which in general causes some weird behavior to crop up. This is the case here also, as when these two frequencies match, the refractive index crashes down immediately to the point it goes below 1. Simultaneously, the absorption coefficients spikes up, as you can see in the figure.
+
+:::image
+![[AnomalousDispersion.png]]
+Note that the plot shows $n-1$, not $n$. From *Introduction to Electrodynamics 4th ed., Griffiths*
+:::
+
+This resonant behavior is called **[[anomalous dispersion]]**. When light is shining on a material at precisely resonant frequency, it will almost entirely be absorbed, as seen by the high $\alpha$ value. This is a consequence of how a driven oscillator works, where the "efficiency" is maximized when the driving frequency is equal to the damping frequency. In this case, the maximum amount of energy is dissipated, as seen by the peak of $\alpha$ in $\omega_{j}=\omega$. Also, the fact that $n$ falls below one in this range implies that the phase speed of the wave $v_{p}=c/n$ is *greater than lightspeed*. At first glance, this is unacceptable. The speed of light is one of the few untouchable tenets of physics alongside the conservation of [[energy]]. However, it's not actually a problem. The reason is the the "speed" of a wave isn't really a speed. Or rather, it is, but the definition is largely invented. There's nothing actually physical moving at the phase speed, since the very concept of speed for something like a wave doesn't even make that much sense. *What* is moving anyway? Waves are delocalized, spread out over a large region of space and without a clear center or "core". All concepts of "speed" on a wave are fundamentally just a suggestion, because they don't relate to any real physical object. As such, it's not really a problem for the phase speed to the exceed lightspeed. The root cause is that the actual physical object, the *energy* transported by the wave, does *not* move at phase speed[^2].
+
+Outside of resonances, behavior is pretty typical. We can ignore the damping term to get
+$$n=1+ \frac{Nq^{2}}{2m\varepsilon_{0}}\sum_{j} \frac{f_{j}}{\omega_{j}^{2}-\omega ^{2}}$$
+
+Resonance frequencies are therefore "landmines" in the field of the electromagnetic spectrum. These appear pretty randomly throughout the spectrum, as the logic behind them is not at all easy to understand. For most transparent materials, the resonant frequency nearest to the visible spectrum is in the ultraviolet.
 
 [^1]: Actually, only the space where the field is nonzero needs to be like this. We don't really care about whether the susceptibility is constant or not if there is no field at all. If the field is created within the dielectric and becomes negligible before coming out of the surface, we might as well call all space homogeneous.
+
+[^2]: You might assume that [[group velocity]] must be the "correct one", then. You'd also be wrong, though, as group velocity can *also* exceed the speed of light near a resonance.

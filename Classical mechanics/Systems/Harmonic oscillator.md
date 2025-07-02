@@ -24,9 +24,9 @@ The oscillator has elastic [[Potential|potential]] energy in position $x$ equal 
 $$V=\frac{1}{2}kx^{2}=\frac{1}{2}m\omega ^{2}x^{2}\tag{1}$$
 and the force is [[Vector field|conservative]].
 ### Approximations
-The harmonic oscillator is extremely important because _any_ potential $V(x)$ associated with an oscillatory motion can be approximated as a parabola of the form $(1)$ as long as the oscillation is small. To demonstrate this, we expand $V(x)$ in a [[Taylor series|Taylor series]] centered at a local minimum $x_{0}$:
+The harmonic oscillator is extremely important because _any_ potential $V(x)$ associated with an oscillatory motion around an [[equilibrium point]] can be approximated as a parabola of the form $(1)$ as long as the oscillation is small. To demonstrate this, we expand $V(x)$ in a [[Taylor series|Taylor series]] centered at a local minimum $x_{0}$:
 $$V(x)=V(x_{0})+V'(x_{0})(x-x_{0})+ \frac{1}{2}V''(x_{0})(x-x_{0})^{2}+O(x^{3})$$
-Since the constant $V(x_{0})$ vanishes by deriving to obtain the force, we can subtract it without loss of generality. Furthermore, since $x_{0}$ is a [[critical point]], $V'(x_{0})=0$. Thus, we are left with the exact form
+Since the constant $V(x_{0})$ vanishes by deriving to obtain the force, we can subtract it without loss of generality. Furthermore, since $x_{0}$ is an equilibrium point, $V'(x_{0})=0$. Thus, we are left with the exact form
 $$V(x)=\frac{1}{2}V''(x_{0})(x-x_{0})^{2}+O(x^{3})$$
 which we can approximate by truncating all terms of third order and higher, which are small if the oscillations are also small:
 $$V(x)\simeq \frac{1}{2}V''(x_{0})(x-x_{0})^{2}$$

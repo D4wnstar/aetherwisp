@@ -1,8 +1,5 @@
 ---
 wiki-publish: true
-aliases:
-  - skin depth
-  - skin effect
 ---
 A **conductor** is a material that contains a large (ideally infinite) number of free [[electric charge|electric charges]], typically [[Elettrone|electrons]] or [[ione|ions]].
 ### Properties
@@ -32,15 +29,7 @@ so the force per unit area is
 $$\mathbf{f}=\frac{\sigma}{2}\mathbf{E}_\text{above}=\frac{\sigma^{2}}{2\varepsilon_{0}}\hat{\mathbf{n}}$$
 where we used the fact that the discontinuity of the field over a surface is always $(\sigma/\varepsilon_{0})\hat{\mathbf{n}}$. This amounts to an outwards [[electrostatic pressure]] on the surface, tending to draw the conductor into the field, regardless of the sign of $\sigma$. Just outside the surface, the pressure is
 $$P=\frac{\varepsilon_{0}}{2}E^{2}$$
-### Maxwell's equations
-(Derivation goes here)
-
-In conductors, the [[Electric current|continuity equation]] and [[Ohm's law]] can be used to rewrite [[Maxwell's equations]] in a form specific to conductors. They read
-$$\begin{align}
-\nabla\cdot\mathbf{E} & =0 &
-\nabla\times\mathbf{E} & = -\frac{ \partial \mathbf{B} }{ \partial t } \\
-\nabla\cdot\mathbf{B} & =0 &
-\nabla\times\mathbf{B} &=\mu\sigma \mathbf{E} +\mu \sigma \frac{ \partial \mathbf{E} }{ \partial t } 
-\end{align}$$
+### Modelling dispersion
+The near-infinite free charges in conductors cause them to exhibit very special behavior when subject to [[electromagnetic wave|electromagnetic waves]]. A discussion on the reflection and transmission behavior can be found in [[Electromagnetic wave#In conductors]]. There, it is found that conductors suppress incoming waves within a very short distance, a phenomenon called the [[skin effect]], and that conductors universally cause [[dispersion]] in the wave. 
 
 [^1]: It's important to stress that this property only applies to a 3D volume. A 2D conductor such as a disk does not have all its charges on the perimeter circle and a 1D line conductor does not have its charges only at its ends.

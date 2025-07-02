@@ -1,7 +1,7 @@
 ---
 wiki-publish: true
 ---
-A **dissipative force** is a force for which the [[energy]] of the [[Physical system|system]] is reduced when the force takes place. The energy is transferred outside of the system and typically transformed in a different form of energy, the most common type being [[heat]]. Common examples are [[friction]] and [[viscosity]]. Forces that are not dissipative are said to be [[Vector field|conservative]].
+A **dissipative force** is a [[force]] for which the [[energy]] of the [[Physical system|system]] is reduced when the force takes place. The energy is transferred outside of the system and typically transformed in a different form of energy, the most common type being [[heat]]. Common examples are [[friction]] and [[viscosity]]. Forces that are not dissipative are said to be [[Vector field|conservative]].
 
 A simple model for a generic dissipative force is
 $$F_{dissipative}=c|\mathbf{v}|^{n}$$

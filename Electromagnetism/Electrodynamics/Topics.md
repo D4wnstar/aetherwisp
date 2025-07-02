@@ -13,11 +13,8 @@ wiki-publish: true
 - [[Plane wave]], [[spherical wave]]
 - [[Polarization]]
 ### Wave optics
-- Media interfaces, [[law of reflection]], [[Snell's law]], [[refractive index]]
-- [[Fresnel's equations]], polarization angle, polarization by reflection, critical angle, total internal reflection
-- [[Evanescent wave]] in total internal reflection, [[reflectivity]] and [[transmissivity]]
-- [[Dispersion]] in linear media
-- Complex refractive index, [[absorption]], normal and anomalous dispersion
+- [[Electromagnetic wave]]
+- [[Dielectric#Electromagnetic wave dispersion]]
 - Mentions of dispersion in conductors and plasma frequency
 - [[Wave guide]]
 ### Electrodynamics proper

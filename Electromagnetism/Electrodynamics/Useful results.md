@@ -43,7 +43,7 @@ Also
 $$B_{0}=\frac{k}{\omega}E_{0}=\frac{1}{c}E_{0}$$
 
 **Averaged quantities (vacuum)**
-$$\langle u \rangle =\frac{\varepsilon_{0}}{2}E_{0}^{2},\quad \langle \mathbf{S} \rangle=\frac{\varepsilon_{0}c}{2}E_{0}^{2}\ \hat{\mathbf{n}},\quad I\equiv \lvert \langle \mathbf{S} \rangle  \rvert \quad \langle \mathbf{g} \rangle =\frac{\varepsilon_{0}}{2c}E_{0}^{2}\ \hat{\mathbf{n}}$$
+$$\langle u \rangle =\frac{\varepsilon_{0}}{2}E_{0}^{2},\quad \langle \mathbf{S} \rangle=\frac{\varepsilon_{0}c}{2}E_{0}^{2}\ \hat{\mathbf{n}},\quad I\equiv \lvert \langle \mathbf{S} \rangle  \rvert ,\quad \langle \mathbf{g} \rangle =\frac{\varepsilon_{0}}{2c}E_{0}^{2}\ \hat{\mathbf{n}}$$
 Multiply by $2$ for non-averages.
 
 **Averaged quantities (matter)**
@@ -52,10 +52,11 @@ Multiply by $2$ for non-averages.
 
 **Radiation pressure**
 $$P=\frac{1}{A} \frac{\Delta \lvert \mathbf{p} \rvert }{\Delta t}=\frac{\varepsilon_{0}}{2}E_{0}^{2}=\frac{I}{c}$$
+
 **Irradiances (normal incidence)**
 $$I_{I}=\frac{\varepsilon c}{2n_{1}}E_{0,I}^{2},\qquad I_{R}=\frac{\varepsilon c}{2n_{1}}E_{0,R}^{2},\qquad I_{T}=\frac{\varepsilon c}{2n_{2}}E_{0,T}^{2}$$
 
-**Reflection and transmission coefficients (normal incidence)**
+**Reflection and transmission coefficients (normal incidence + nonmagnetic material)**
 $$R\equiv \frac{I_{R}}{I_{I}}=\left( \frac{E_{0,R}}{E_{0,I}} \right)^{2}=\left( \frac{n_{1}-n_{2}}{n_{1}+n_{2}} \right)^{2},\qquad T\equiv \frac{I_{T}}{I_{I}}=\frac{\varepsilon_{2}n_{1}}{\varepsilon_{1}n_{2}}\left( \frac{E_{0,T}}{E_{0,I}} \right)^{2}=\frac{4n_{1}n_{2}}{(n_{1}+n_{2})^{2}}$$
 
 **Irradiances (oblique incidence)**

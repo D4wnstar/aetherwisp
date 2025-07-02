@@ -5,9 +5,7 @@ The **phase velocity** of a [[wave]] is one of two definitions of its velocity, 
 
 The phase velocity is only well-defined on waves with a single frequency component, that is monochromatic waves. Consider a [[Plane wave|monochromatic plane wave]] of [[Frequency|angular frequency]] $\omega$ and [[wavenumber]] $k$ (equivalently, [[Wavenumber|wavevector]] $\mathbf{k}$ of [[norm]] $\lvert \mathbf{k} \rvert\equiv k$). Its phase velocity is
 $$v_{p}=\frac{\omega}{k}=\frac{\lambda}{T}$$
-where $\lambda$ and $T$ are the [[wavelength]] and [[period]]. If the wave is composed of multiple layered frequencies, each of them will have its own phase velocity. The speed of the wave as a whole is then described by [[group velocity]].
-
-Generally speaking, the phase velocity is equal to the group velocity only in monochromatic, [[dispersion|nondispersive]] waves.
+where $\lambda$ and $T$ are the [[wavelength]] and [[period]]. If the wave is composed of multiple layered frequencies, each of them will have its own phase velocity. The speed of the wave as a whole is then described by [[group velocity]]. This is important when dealing with [[Dispersion|dispersive]] media, where the two do not match.
 
 :::image
 ![[Wave_group.gif]]

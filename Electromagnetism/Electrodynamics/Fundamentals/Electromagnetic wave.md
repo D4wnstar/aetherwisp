@@ -195,13 +195,18 @@ A plot of the real amplitudes ratios of incident, reflected an transmitted waves
 From *Introduction to Electrodynamics 4th ed., Griffiths*.
 :::
 
-Actually, there is yet *another* interesting angle to talk about, although it is not universal. When a wave moves from an "optically dense" material to an "optically thin" one, that is $n_{1}>n_{2}$, the transmitted wavevector tends to move away form the normal and towards the being flush with the interface. This isn't asymptotic: the wavevector becomes exactly parallel with the surface ($\theta_{T}=\pi/2$ or 90°) at the **critical angle**
+Actually, there is yet *another* interesting angle to talk about, although it is not universal. When a wave moves from an "optically dense" material (say, water) to an "optically thin" one (say, air), that is $n_{1}>n_{2}$, the transmitted wavevector tends to move away form the normal and towards the being flush with the interface. This isn't asymptotic: the wavevector becomes exactly parallel with the surface ($\theta_{T}=\pi/2$ or 90°) at the **critical angle**
 $$\theta_{C}\equiv \arcsin\left( \frac{n_{2}}{n_{1}} \right)$$
 Incidence at any angle greater than the critical one ($\theta_{I}>\theta_{C}$) and *there is no transmission*, just like normally when reaching 90°. Since air is quite optically thin, this typically happens when a ray of light attempts to leave a material (almost certainly optically denser) and move into the air. As such, in some conditions, it's possible that a ray of light might remain "trapped" inside the material if it only ever bounces at angles greater than the critical one. This is the idea behind **total internal reflection**, a technique used to transfer light beams from one place to another without energy loss by making sure all internal incidence is at an angle greater than critical (if you have fiber optics somewhere in your house, this is how they work).
 
 This said, while the wave is fully reflected, the fields are actually *not* zero in material 2. They form a so-called **[[evanescent wave]]**, a wave that attenuates extremely rapidly and transports no energy into material 2. It can be constructed by setting $k_{T}=\omega n_{2}/c$ and $\mathbf{k}_{T}=k_{T}(\sin \theta_{T}\ \hat{\mathbf{y}}+\cos \theta_{T}\ \hat{\mathbf{z}})$. This causes Snell's law
 $$\sin \theta_{T}=\frac{n_{1}}{n_{2}}\sin \theta_{I}$$
 to report an *imaginary* transmission angle when $\theta_{I}>\theta_{C}$. Of course, it no longer makes sense as an angle (at least a real one).
+
+:::image
+![[DenseToThinEMWaveReflection.svg]]
+By Josell7 - Own work, CC BY-SA 3.0, from [Wikipedia](https://commons.wikimedia.org/w/index.php?curid=21670922).
+:::
 
 Finally, we close this off with the irradiance of the incident wave is
 $$\boxed{I_{I}=\langle \mathbf{S} \rangle\cdot \hat{\mathbf{x}}=\frac{\varepsilon_{1}c}{2n_{1}}E_{0,I}^{2}\cos \theta_{I}}$$
@@ -236,29 +241,32 @@ k^{2}-\kappa ^{2}=\mu \varepsilon \omega ^{2} \\
 \end{cases}$$
 The real and imaginary wavenumbers end up being
 $$
-\boxed{k=\omega \sqrt{ \frac{\varepsilon \mu}{2} }\sqrt{ \sqrt{ 1+\left( \frac{\sigma}{\omega \varepsilon} \right)^{2} }+1 },\qquad \kappa=\omega \sqrt{ \frac{\varepsilon \mu}{2} }\sqrt{ \sqrt{ 1+\left( \frac{\sigma}{\omega \varepsilon} \right)^{2} }-1 }}
+\boxed{k=\omega \sqrt{ \frac{\varepsilon \mu}{2} }\sqrt{ \sqrt{ 1+\left( \frac{\sigma}{\omega \varepsilon} \right)^{2} }+1 },\qquad \kappa=\omega \sqrt{ \frac{\varepsilon \mu}{2} }\sqrt{ \sqrt{ 1+\left( \frac{\sigma}{\omega \varepsilon} \right)^{2} }-1 }}\tag{4}
 $$
-(The only difference between the two is the plus or minus at the end). These are significant results, especially the imaginary part. In fact, if we go back to the oscillating fields
-$$\mathbf{E}(x,t)=\mathbf{E}_{0}e^{i[(k+i\kappa)]x-\omega t}=\mathbf{E}_{0}e^{i(kx-\omega t)}e^{-\kappa x}\tag{4}$$
+(The only difference between the two is the plus or minus at the end). These are significant results for a couple of reasons, especially the imaginary part. In fact, if we go back to the oscillating fields
+$$\mathbf{E}(x,t)=\mathbf{E}_{0}e^{i[(k+i\kappa)]x-\omega t}=\mathbf{E}_{0}e^{i(kx-\omega t)}e^{-\kappa x}\tag{5}$$
 (the same goes for $\mathbf{B}$). We have the usual plane wave with a *real* wavenumber $k$, but now it's weighed by $e^{-\kappa x}$. Specifically, this term says that as $x$ grows larger (i.e. the wave propagates), it is *suppressed*, with a larger $\kappa$ incurring a more significant suppression; this phenomenon is known as the **skin effect**:
 
-> [!success] Skin effect
+> [!info] Skin effect
 > An electromagnetic wave incident on a conductor gets suppressed in the direction in propagates in. The distance it takes for the [[Wave equation|amplitude]] to be reduced by a factor of $1/e$ is called the **skin depth** $d\equiv 1/\kappa$.
 
 $1/e$ is qualitatively around one third, so the wave's amplitude cuts down by a third every skin depth. This leads to a very fast suppression of the wave, doubly so since skin depths are typically very small, generally millimeters or fractions of millimeters. Lower frequencies have higher skin depths and viceversa[^4].
 
-Equation $(4)$ is universally correct for the conductor wave equations. Maxwell's equations impose further constraints on which waves are permitted; this is the same argument as in the beginning of [[#Sine plane waves]]. Assuming the wave propagates on $x$, due to $\nabla\cdot \mathbf{E}=0$ and $\nabla\cdot \mathbf{B}=0$, there can be no $x$ component to the fields. Similarly, using the curls we get that the fields are perpendicular to each other at all times. For instance, setting the electric field as polarized over $\hat{\mathbf{y}}$ and using its curl we find
-$$\tilde{\mathbf{E}}(x,t)=\tilde{E}_{0}e^{i(kx-\omega t)}e^{-\kappa x}\hat{\mathbf{y}},\qquad \tilde{\mathbf{B}}(x,t)=\frac{\tilde{k}}{\omega}\tilde{E}_{0}e^{i(kx-\omega t)}e^{-\kappa x}\hat{\mathbf{z}}\tag{5}$$
+Moreover, we see that the wavevector is dependent on $\omega$ multiplied by a factor made up of $\varepsilon$, $\mu$ and $\sigma$. These three parameters determine the materials behavior against incoming electromagnetic waves. You could consider them constants, but you'd be slightly wrong. These are actually known and measured to be mildly *frequency-dependent*: $\varepsilon\equiv \varepsilon(\omega)$, $\mu\equiv \mu(\omega)$ and $\sigma\equiv \sigma(\omega)$. As such, $\tilde{k}$ is *nonlinearly* dependent on $\omega$. This leads to a phenomenon known as **[[dispersion]]**, which occurs when the [[phase velocity]] of the wave in the material is dependent on the frequency, $v_{p}\equiv v_{p}(\omega)$. The relation $k\equiv k(\omega)$ is called the **dispersion relation**. In our case, since $v_{p}=c/n$, this is like saying that dispersion occurs when the refractive index depends on frequency, $n\equiv n(\omega)$.
+
+Equation $(5)$ is universally correct for the conductor wave equations. Maxwell's equations impose further constraints on which waves are permitted; this is the same argument as in the beginning of [[#Sine plane waves]]. Assuming the wave propagates on $x$, due to $\nabla\cdot \mathbf{E}=0$ and $\nabla\cdot \mathbf{B}=0$, there can be no $x$ component to the fields. Similarly, using the curls we get that the fields are perpendicular to each other at all times. For instance, setting the electric field as polarized over $\hat{\mathbf{y}}$ and using its curl we find
+$$\tilde{\mathbf{E}}(x,t)=\tilde{E}_{0}e^{i(kx-\omega t)}e^{-\kappa x}\hat{\mathbf{y}},\qquad \tilde{\mathbf{B}}(x,t)=\frac{\tilde{k}}{\omega}\tilde{E}_{0}e^{i(kx-\omega t)}e^{-\kappa x}\hat{\mathbf{z}}\tag{6}$$
 We can further analyze the complex wavenumber $\tilde{k}$ by expressing it in polar form:
 $$\tilde{k}=\lvert \tilde{k} \rvert e^{i\phi}=Ke^{i\phi}$$
 The modulus is
 $$K=\sqrt{ k^{2}+\kappa ^{2} }=\omega \sqrt{ \varepsilon \mu \sqrt{ 1+\left( \frac{\sigma}{\varepsilon \omega} \right)^{2} } }$$
 and the angle is
 $$\phi=\arctan\left( \frac{\kappa}{k} \right)$$
-Using $(5)$, we see that the complex amplitudes $\tilde{E}_{0}=E_{0}e^{i\delta_{E}}$ and $\tilde{B}_{0}=B_{0}e^{i\delta_{B}}$ are related by
+Using $(6)$, we see that the complex amplitudes $\tilde{E}_{0}=E_{0}e^{i\delta_{E}}$ and $\tilde{B}_{0}=B_{0}e^{i\delta_{B}}$ are related by
 $$\tilde{B}_{0}=\frac{\tilde{k}\tilde{E}_{0}}{\omega}\quad\to \quad B_{0}e^{i\delta_{B}}=\frac{Ke^{i\phi}}{\omega}E_{0}e^{i\delta_{E}}=\frac{KE_{0}}{\omega}e^{i(\delta_{E}+\phi)}$$
 Evidently, the phase is shifted by an angle $\phi$ determined by the wavevector and the fields are no longer in phase by precisely this angle: $\delta_{B}-\delta_{E}=\phi$. Specifically, the magnetic field is lagging behind the electric one.
 
+:::hidden
 The real amplitudes $E_{0}$ and $B_{0}$ are instead related by
 $$\frac{B_{0}}{E_{0}}=\frac{K}{\omega}=\sqrt{ \varepsilon \mu \sqrt{ 1+\left( \frac{\sigma}{\varepsilon \omega} \right)^{2} } }$$
 This can also be written as
@@ -266,6 +274,7 @@ $$B_{0}=\frac{E_{0}}{\omega}K=\frac{nE_{0}}{c}$$
 Inverting the equation, we get
 $$n=\frac{c}{\omega}K=\sqrt{ n_{re}^{2}+n_{im}^{2} }$$
 where $n_{re}$ and $n_{im}$ are the real and imaginary parts of a **complex refractive index** $\tilde{n}$ defined as $\tilde{n}=n_{re}+in_{im}$. The parts are $n_{re}=ck/\omega$ and $n_{im}=c\kappa/\omega$.
+:::
 
 The real parts of waves incident on a conductor are
 $$\boxed{\mathbf{E}(x,t)=E_{0}e^{-\kappa x}\cos(kx-\omega t+\delta_{E})\hat{\mathbf{y}},\qquad \mathbf{B}(x,t)=B_{0}e^{-\kappa x}\cos(kx-\omega t+\delta_{E}+\phi)\hat{\mathbf{z}}}$$
@@ -275,13 +284,44 @@ where $\langle E^{2} \rangle_{T}$ is the time average over a period $T$, and
 $$I(x)=\frac{k}{2\mu \omega}e^{-2\kappa x}=\frac{k}{2\mu \omega}e^{-x/\alpha}$$
 $\alpha=1/2\kappa$ is the called the **penetration depth** of the wave. It is the characteristic length of suppression of irradiance when moving through a conductor; it's basically the skin depth of irradiance. Just like skin depth, it is usually less than or a few millimeters. For UV waves on a typical conductor, it's around $0.6\text{ mm}$ and for infrared waves, it's about $6\text{ mm}$.
 #### Interface reflection and transmission
-Like all surfaces, an electromagnetic wave can be reflected by a conducting surface too. We start by investigating normal incidence, where the incidence angle $\theta_{I}$ is zero. As with previous reflection/transmission analysis, we invoke the Fresnel coefficients $r_{\perp}$ and $r_{\parallel}$. In this scenario, we have
+Like all surfaces, an electromagnetic wave can be reflected by a conducting surface too. Unlike dielectrics however, conductors show some remarkable behavior due to their near-immediate reallocation of charge. The boundary conditions of a conductor are the general ones
+$$\begin{align}
+\varepsilon_{1}E_{1}^{\perp}-\varepsilon_{2}E_{2}^{\perp} & =\sigma_{f} & \mathbf{E}_{1}^{\parallel}-\mathbf{E}_{2}^{\parallel} & =\mathbf{0} \\
+B_{1}^{\perp}-B_{2}^{\perp} & =0 & \frac{1}{\mu_{1}}\mathbf{B}_{1}^{\parallel}- \frac{1}{\mu_{2}}\mathbf{B}_{2}^{\parallel}&=\mathbf{K}_{f}\times \hat{\mathbf{n}}
+\end{align}$$
+since we cannot arbitrarily choose for $\sigma_{f}$ and $\mathbf{K}_{f}$ to be zero (don't confuse $\sigma_{f}$, free surface charge, with $\sigma$, conductivity, and $\hat{\mathbf{n}}$, the surface normal, with the polarization vector!).
+
+We'll work with ohmic conductors. These work with Ohm's law $\mathbf{J}_{f}=\sigma \mathbf{E}$ and therefore implies $\mathbf{K}_{f}=0$ since if if were nonzero, we'd need an infinite electric current at the boundary. In fact, consider a slice of infinitesimal thickness $l$ of the material right on the surface. The surface current is approximately $\mathbf{K}_{f}=\mathbf{J}_{f}l=\sigma l\mathbf{E}$. For this to be exact we need $l\to 0$, which implies $\mathbf{K}_{f}\to 0$ unless $\mathbf{E}\to \infty$, which is of course unphysical, so $\mathbf{K}_{f}=0$.
+##### Normal incidence
+We start by investigating normal incidence, $\theta_{I}=0$. As usual, we pick a wave traveling forwards on $\hat{\mathbf{x}}$ with the conductor's surface on the $yz$ plane. We polarize the wave on $\hat{\mathbf{y}}$. The coupled fields are
+$$\tilde{\mathbf{E}}_{I}(x,t)=\tilde{E}_{0,I}e^{i(k_{1}x-\omega t)}\hat{\mathbf{y}},\qquad \tilde{\mathbf{B}}_{I}(x,t)=\frac{n_{1}}{c} \tilde{E}_{0,I}e^{i(k_{1}x-\omega t)}\hat{\mathbf{z}}$$
+The reflected wave will be
+$$\tilde{\mathbf{E}}_{R}(x,t)=\tilde{E}_{0,R}e^{i(-k_{1}x-\omega t)}\hat{\mathbf{y}},\qquad \tilde{\mathbf{B}}_{R}(x,t)=-\frac{n_{1}}{c} \tilde{E}_{0,R}e^{i(-k_{1}x-\omega t)}\hat{\mathbf{z}}$$
+and the transmitted one
+$$\tilde{\mathbf{E}}_{T}(x,t)=\tilde{E}_{0,T}e^{i(\tilde{k}_{2}x-\omega t)}\hat{\mathbf{y}},\qquad \tilde{\mathbf{B}}_{T}(x,t)=\frac{\tilde{k}_{2}}{\omega} \tilde{E}_{0,T}e^{i(\tilde{k}_{2}x-\omega t)}\hat{\mathbf{z}}$$
+The complex wavevector $\tilde{k}_{2}$ denotes the attenuation of the wave. At $x=0$, the waves must abide by the boundary conditions. $E^{\perp}=0$ on both sides since we are at normal incidence, which implies $\rho_{f}=0$ by the top left condition. Top right becomes
+$$\tilde{E}_{0,I}+\tilde{E}_{0,R}=\tilde{E}_{0,T}$$
+$B^{\perp}=0$ is also true on both sides for the same reason, so bottom left becomes trivial. Bottom right becomes
+$$\frac{n_{1}}{\mu_{1}c}(\tilde{E}_{0,I}-\tilde{E}_{0,R})- \frac{\tilde{k}_{2}}{\mu_{2}\omega}\tilde{E}_{0,T}=0$$
+or, if we define
+$$\tilde{\beta}\equiv \frac{\mu_{1}c}{\mu_{2}n_{2}\omega}\tilde{k}_{2}$$
+we get
+$$\tilde{E}_{0,I}-\tilde{E}_{0,R}=\tilde{\beta}\tilde{E}_{0,T}$$
+Solving these yields
+$$\boxed{\tilde{E}_{0,R}=\left( \frac{1-\tilde{\beta}}{1+\tilde{\beta}} \right)\tilde{E}_{0,I},\qquad \tilde{E}_{0,T}=\left( \frac{2}{1+\tilde{\beta}} \right)\tilde{E}_{0,I}}$$
+The coefficients maintain the same shape as the dielectric case, but the $\beta$ parameter is now *complex* to take the attenuation into account. In case of a perfect conductor, $\sigma=\infty$, so $k_{2}=\kappa_{2}=\infty$ using $(4)$, so $\tilde{\beta}=\infty$ (in the complex sense). In this case we get
+$$\tilde{E}_{0,R}=-\tilde{E}_{0,I},\qquad \tilde{E}_{0,T}=0$$
+The wave is totally reflected with an accompanying 180° phase flip. In other words, the conductor is a perfect mirror. If you've ever wondered why metal is so shiny, this is why!
+
+:::hidden
+As with previous reflection/transmission analysis, we invoke the Fresnel coefficients $r_{\perp}$ and $r_{\parallel}$. In this scenario, we have
 $$[r_{\parallel}]_{\theta_{I}=0}=[r_{\perp}]_{\theta_{I}=0}=\frac{n_{2}-n_{1}}{n_{2}+n_{1}}$$
 where $2$ and $1$ denote the indexes of the outer and inner materials respectively. The reflection coefficient is
 $$R=\lvert \tilde{r} \rvert ^{2}=\left( \frac{\tilde{n}-1}{\tilde{n}+1} \right)^{*}\left( \frac{\tilde{n}-1}{\tilde{n}+1} \right)=\frac{(n_{re}-1)^{2}+n_{im}^{2}}{(n_{re}+1)^{2}+n_{im}^{2}}$$
 Remember that $n_{re}$ and $n_{im}$ are related to $k$ and $\kappa$ as found above. For a perfect conductor, where $\sigma\to \infty$, the imaginary component becomes massive, $n_{im}\gg n_{re}$. This means that $\kappa\gg k$, and that's exactly what we want: the higher $\kappa$ is, them more the transmitted wave is suppressed, leaving only the reflection. For a terrible conductor (i.e. a perfect [[dielectric]]), where $\sigma\to0$, the opposite happens. $n_{im}=0$ and $n_{re}=c/v$. There is no suppression at all: it's just a normal, undamped plane wave.
 
 An important detail to notice is that, since $k$ and $\kappa$ are both dependent on $\omega$ and so are $n_{re}$ and $n_{im}$. In other words, the reflection/transmission angle (and coefficients) in conductors is dependent on the wavelength or frequency of the wave. This is one case of a broader phenomenon known as **[[dispersion]]**.
+:::
 
 [^1]: The magnetic's field contribution being entirely determined by the electric field is a recurring theme in electrodynamics and it is no coincidence. However, the explanation must wait until relativistic electrodynamics to make any semblance of sense.
 
