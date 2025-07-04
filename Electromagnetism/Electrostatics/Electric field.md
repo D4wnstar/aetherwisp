@@ -19,7 +19,9 @@ For a charge in motion, things differ a bit. Namely, the field lines are enhance
 
 ![[Diagram Moving charge electric field lines]]
 ### Point charges
-Given a system of source point charges $q_{1}$, $q_{2}$, ..., the electric field is the quantity
+The field of an individual, unmoving point charge $q$ is
+$$\mathbf{E}(\mathbf{r},t)= \frac{1}{4\pi \varepsilon_{0}} \frac{q}{\mathfrak{r}^{2}}\hat{\boldsymbol{\mathfrak{r}}}$$
+This is also called Coulomb's law sometimes, although that's not really correct since Coulomb's law is specifically the force law $\mathbf{F}=Q\mathbf{E}$. Given a system of unmoving source point charges $q_{1}$, $q_{2}$, ..., the electric field is the quantity
 $$\mathbf{E}(\mathbf{r})=\frac{1}{4\pi\varepsilon_{0}}\sum\limits_{i=1}^{n} \frac{q_{i}}{\mathfrak{r}_{i}^{2}}\hat{\mathfrak{r}}_{i}\quad \left[\frac{\text{N}}{\text{C}}\right]$$
 where $\epsilon_{0}$ is the [[Vacuum permittivity|permittivity of free space]] and $\mathfrak{r}_{i}=|\mathbf{r}-\mathbf{r}'|$ is the distance between the $i$-th source charge (at position $\mathbf{r}'$) and the test charge (at position $\mathbf{r}$). $\hat{\mathfrak{r}}$ is the unit vector that points from that charge to the test charge.
 ### Continuous charges

@@ -81,11 +81,11 @@ When the dipole rotates due to the torque, it does [[work]]. In the most extreme
 $$W=\int_{\pi}^{0}\tau(\mathbf{r})d\theta=\int_{\pi}^{0}\mathbf{p}\times \mathbf{E}(\mathbf{r})d\theta=pE\int_{\pi}^{0}\sin \theta d\theta=2pE$$
 The potential energy, of course, diminishes by the same amount to preserve conservation of energy.
 ### Radiation
-Like all static configurations, a standing dipole does not emit [[Electromagnetic radiation]]. However, it does make for a very convenient foundation to produce controlled and analytically solvable radiation. To do so, say now that the charges are time-dependent, $q(t)$ and $-q(t)$, and that we drive the charge back and forth between one end and the other (through, say, a fine wire). This exchange is periodic and has an [[Frequency|angular frequency]] $\omega$. Each charge simply changes according to:
-$$q(t)=q_{0}\cos \omega t$$
-The dipole moment then changes according to this
+Like all static configurations, a standing dipole does not emit [[electromagnetic radiation]]. However, it does make for a very convenient foundation to produce controlled and analytically solvable radiation when we making the dipole *oscillate*. To do so, say now that the charges of the dipole are time-dependent, $q(t)$ and $-q(t)$, and that we drive the charge back and forth between one end and the other (through, say, a fine wire that doesn't otherwise affect the system). This exchange is periodic and has an [[Frequency|angular frequency]] $\omega$. Each charge changes according to:
+$$q(t)=q_{0}\cos (\omega t)$$
+The dipole moment then changes according to
 $$\mathbf{p}(t)=p_{0}\cos (\omega t)\ \hat{\mathbf{z}}$$
-where $p_{0}\equiv q_{0}d$ is the maximum value of the moment (and we set the moment on the $\hat{\mathbf{z}}$ axis because we may as well). The retarded potential is
+where $p_{0}\equiv q_{0}d$ is the maximum value of the moment (and we set the moment on the $\hat{\mathbf{z}}$ axis because we may as well). The [[retarded potentials|retarded potential]] is
 $$V(\mathbf{r},t)=\frac{1}{4\pi \varepsilon_{0}}\left[ \frac{q_{0}\cos[\omega(t-\mathfrak{r}_{+}/c)]}{\mathfrak{r}_{+}} - \frac{q_{0}\cos[\omega(t-\mathfrak{r}_{-}/c)]}{\mathfrak{r}_{-}} \right]$$
 $\mathfrak{r}_{\pm}$ are defined as at the top of this article.
 
