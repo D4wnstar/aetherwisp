@@ -90,11 +90,28 @@ $$\mathbf{B}(\mathbf{r},t)=\frac{\mu_{0}}{4\pi}\int_{\mathcal{V}}\frac{\mathbf{J
 
 **Liénard-Wiechert potentials**
 Retarded potentials of a point charge
-$$V(\mathbf{r},t)=\frac{1}{4\pi \varepsilon_{0}} \frac{qc}{(\mathfrak{r}c-\boldsymbol{\mathfrak{r}}\cdot \mathbf{v})}$$
-$$\mathbf{A}(\mathbf{r},t)=\frac{\mu_{0}}{4\pi} \frac{qc\mathbf{v}}{(\mathfrak{r}c+\boldsymbol{\mathfrak{r}}\cdot \mathbf{v})}=\frac{\mathbf{v}}{c^{2}}V(\mathbf{r},t)$$
+$$V(\mathbf{r},t)=\frac{1}{4\pi \varepsilon_{0}} \frac{qc}{(\mathfrak{r}c-\boldsymbol{\mathfrak{r}}\cdot \mathbf{v})},\qquad\mathbf{A}(\mathbf{r},t)=\frac{\mu_{0}}{4\pi} \frac{qc\mathbf{v}}{(\mathfrak{r}c+\boldsymbol{\mathfrak{r}}\cdot \mathbf{v})}=\frac{\mathbf{v}}{c^{2}}V(\mathbf{r},t)$$
 
 **Fields of a point charge**
 Derived from the Liénard-Wiechert potentials
 $$\mathbf{E}(\mathbf{r},t)=\frac{q}{4\pi \varepsilon_{0}} \frac{\mathfrak{r}}{(\boldsymbol{\mathfrak{r}}\cdot \mathbf{u})^{3}}
-[(c^{2}-v^{2})\mathbf{u}+\boldsymbol{\mathfrak{r}}\times(\mathbf{u}\times \mathbf{a})]$$
-$$\mathbf{B}(\mathbf{r},t)=\frac{1}{c}\hat{\boldsymbol{\mathfrak{r}}}\times \mathbf{E}(\mathbf{r},t)$$
+[(c^{2}-v^{2})\mathbf{u}+\boldsymbol{\mathfrak{r}}\times(\mathbf{u}\times \mathbf{a})],\qquad\mathbf{B}(\mathbf{r},t)=\frac{1}{c}\hat{\boldsymbol{\mathfrak{r}}}\times \mathbf{E}(\mathbf{r},t)$$
+### Radiation
+**Oscillating electric dipole (far field)**
+$$V(r,\theta,t)=- \frac{p_{0}\cos\theta}{4\pi \varepsilon r}\frac{\omega}{c} \sin\left[ \omega\left( t- \frac{r}{c} \right) \right],\qquad\mathbf{A}(r,\theta,t)=- \frac{\mu_{0}p_{0}\omega}{4\pi r}\sin\left[ \omega\left( t- \frac{r}{c} \right) \right]\hat{\mathbf{z}}$$
+$$\mathbf{E}=- \frac{\mu_{0}p_{0}\omega ^{2}}{4\pi r}\sin \theta\cos\left[ \omega\left( t- \frac{r}{c} \right) \right]\hat{\boldsymbol{\theta}},\qquad\mathbf{B}=- \frac{\mu_{0}p_{0}\omega ^{2}}{4\pi c}\left( \frac{\sin\theta}{r} \right)\cos\left[ \omega\left( t- \frac{r}{c} \right) \right]\hat{\boldsymbol{\phi}}$$
+$$\mathbf{S}(\mathbf{r},t) =\frac{\mu_{0}}{c}\left[ \frac{p_{0}\omega ^{2}}{4\pi r} \sin\theta\cos\left[ \omega\left( t- \frac{r}{c} \right) \right] \right]^{2}\hat{\mathbf{r}},\qquad I=\frac{\mu_{0}p_{0}^{2}\omega^{4}}{32\pi ^{2}c} \frac{\sin^{2}\theta}{r^{2}},\qquad\langle P \rangle =\frac{\mu_{0}p_{0}^{2}\omega^{4}}{12\pi c}$$
+
+**Oscillating magnetic dipole (far field)**
+$$V=0,\qquad\mathbf{A}(r,\theta,t)=- \frac{\mu_{0}m_{0}\omega}{4\pi cr}\sin \theta \sin\left[ \omega\left( t- \frac{r}{c} \right) \right]\hat{\boldsymbol{\phi}}$$
+$$\mathbf{E}(r,t)=\frac{\mu_{0}m_{0}\omega ^{2}}{4\pi cr}\sin \theta \cos\left[ \omega\left( t- \frac{r}{c} \right) \right]\hat{\boldsymbol{\phi}}$$
+$$\mathbf{B}(r,t)=- \frac{\mu_{0}m_{0}\omega ^{2}}{4\pi c^{2}r}\sin \theta \cos\left[ \omega\left( t- \frac{r}{c} \right) \right]\hat{\boldsymbol{\theta}}=- \frac{1}{c}\hat{\mathbf{r}}\times \mathbf{E}$$
+$$\mathbf{S}(\mathbf{r},t)=\frac{\mu_{0}}{c}\left[ \frac{m_{0}\omega ^{2}}{4\pi cr} \sin\theta\cos\left[ \omega\left( t- \frac{r}{c} \right) \right] \right]^{2}\hat{\mathbf{r}},\quad I=\frac{\mu_{0}m_{0}^{2}\omega^{4}}{32\pi ^{2}c^{3}} \frac{\sin^{2}\theta}{r^{2}},\quad\langle P \rangle =\frac{\mu_{0}m_{0}^{2}\omega^{4}}{12\pi c^{3}}$$
+
+**Small arbitrary source (far field)**
+$$V(\mathbf{r},t)\simeq \frac{1}{4\pi \varepsilon_{0}}\left[ \frac{Q}{r}+ \frac{\hat{\mathbf{r}}\cdot \mathbf{p}(t_{0})}{r^{2}}+ \frac{\hat{\mathbf{r}}\cdot \dot{\mathbf{p}}(t_{0})}{rc} \right],\qquad\mathbf{A}(\mathbf{r},t)\simeq \frac{\mu_{0}}{4\pi r}\dot{\mathbf{p}}(t_{0})$$
+Coordinate-free
+$$\mathbf{E}(\mathbf{r},t)\simeq \frac{\mu_{0}}{4\pi r}[(\hat{\mathbf{r}}\cdot \ddot{\mathbf{r}})\hat{\mathbf{r}}-\ddot{\mathbf{p}}]=\frac{\mu_{0}}{4\pi r}\hat{\mathbf{r}}\times(\hat{\mathbf{r}}\times \ddot{\mathbf{p}}),\qquad\mathbf{B}(\mathbf{r},t)\simeq - \frac{\mu_{0}}{4\pi cr}\hat{\mathbf{r}}\times \ddot{\mathbf{p}}=- \frac{1}{c}\hat{\mathbf{r}}\times \mathbf{E}$$
+Spherical coordinates
+$$\mathbf{E}(r,\theta,t)\simeq \frac{\mu_{0}\ddot{p}(t_{0})}{4\pi r}\sin \theta\ \hat{\boldsymbol{\theta}},\qquad \mathbf{B}(r,\theta,t)\simeq \frac{\mu_{0}\ddot{p}(t_{0})}{4\pi cr} \sin \theta\ \hat{\boldsymbol{\phi}}$$
+$$\mathbf{S}(\mathbf{r},t)\simeq \frac{\mu_{0}}{16\pi ^{2}cr^{2}}[\ddot{p}(t_{0})]^{2}\sin ^{2}\theta\ \hat{\mathbf{r}},\qquad P_\text{rad}(t_{0})\simeq \frac{\mu_{0}}{6\pi c}[\ddot{p}(t_{0})]^{2}$$

@@ -5,9 +5,9 @@ aliases:
   - Raileigh-Jeans law
   - Planck radiation law
 ---
-A **black body** is an idealized body that absorbs all incident [[radiation]]. It is a good approximation for many bodies that only (or mostly) exhibit thermal radiation, such as [[stella|stars]] and the human body.
+A **black body** is an idealized body that absorbs all incident [[radiation]]. It is a good approximation for many bodies that only (or mostly) exhibit [[thermal radiation]], such as [[stella|stars]] and the human body.
 
-A hollow spherical object with the inner surface painted black and a pinhole dug into it is an accurate real world representation of a black body. The cavity emits [[Electromagnetic radiation]] from the pinhole due to thermal excitation. If the cavity is large enough, the system approximately looses the dependency on boundary conditions.
+A hollow spherical object with the inner surface painted black and a pinhole dug into it is an accurate real world representation of a black body. The cavity emits [[electromagnetic radiation]] from the pinhole due to thermal excitation. If the cavity is large enough, the system approximately looses the dependency on boundary conditions.
 
 It was the [[physical system]] that spurred the start of quantum mechanics, as the classical result for the emission spectrum differs massively from reality in the higher frequencies, such as ultraviolet: this discrepancy has been called the **ultraviolet catastrophe**.
 ### Classical description
@@ -26,9 +26,9 @@ The energy density will thus be
 $$u(\nu) \bar{\varepsilon}=\frac{8\pi \nu ^{2}}{c^{3}}\bar{\varepsilon}\quad\text{where}\quad \bar{\varepsilon}=\frac{\int_{0}^{\infty}\varepsilon e^{-\beta \varepsilon}d\varepsilon}{\int_{0}^{\infty}e^{-\beta \varepsilon}d\varepsilon}=\frac{1}{\beta}$$
 The relation
 $$\boxed{\rho(\nu)=\frac{8\pi \nu ^{2}}{\beta c^{3}}}$$
-is known as the **Rayleigh-Jeans law**. It is the classical description of the emission of a black body, and unfortunately it fails miserably as soon as you try to apply it: being a quadratic law in $\nu$, it just keeps getting higher and higher as the frequencies climb up. In theory, extremely high frequencies like gamma rays would have to carry near infinite energy! This is quite obviously nonsensical, but the solutions are much less evident. In fact, they require claiming something almost just as nonsensical: that energy is quantized.
+is known as the **Rayleigh-Jeans law**. It is the classical description of the emission of a black body, and unfortunately it fails miserably as soon as you try to apply it: being a quadratic law in $\nu$, it just keeps getting higher and higher as the frequencies climb up. In theory, extremely high frequencies like gamma rays would have to carry near infinite energy! This is quite obviously nonsensical, but the solutions are much less evident. In fact, they require claiming something almost just as nonsensical: that [[energy]] is quantized.
 ### Quantum ensemble
-To fix the Rayleigh-Jeans law, we must shed classical descriptions and move on to a fully quantized world, where radiation is not just a [[Wave]], but also a [[particle]], namely a [[photon]]. Since electromagnetic radiation is the exchange of photons, the whole cavity can be described as an [[ensemble]] of them. Specifically, it is a [[Bose gas]] of [[mass|massless]] [[boson|bosons]]. Since photons are absorbed and emitted, the total number of photons $N$ is not conserved. As such, we'll use a [[quantum grand canonical ensemble]]. The [[chemical potential]] is therefore zero[^1], so the [[fugacity]] is $z=1$.
+To fix the Rayleigh-Jeans law, we must shed classical descriptions and move on to a fully quantized world, where radiation is not just a [[wave]], but also a [[particle]], namely a [[photon]]. Since electromagnetic radiation is the exchange of photons, the whole cavity can be described as an [[ensemble]] of them. Specifically, it is a [[Bose gas]] of [[mass|massless]] [[boson|bosons]]. Since photons are absorbed and emitted, the total number of photons $N$ is not conserved. As such, we'll use a [[quantum grand canonical ensemble]]. The [[chemical potential]] is therefore zero[^1], so the [[fugacity]] is $z=1$.
 
 As with all photons, their properties are
 $$E=\hbar \omega,\qquad \mathbf{p}=\hbar \mathbf{k},\qquad \lvert \mathbf{k} \rvert =\frac{\omega}{c}$$

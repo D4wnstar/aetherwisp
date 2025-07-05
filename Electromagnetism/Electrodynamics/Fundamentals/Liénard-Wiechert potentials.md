@@ -11,11 +11,11 @@ $$V(\mathbf{r},t)=\frac{1}{4\pi \varepsilon_{0}} \frac{qc}{(\mathfrak{r}c-\bolds
 $$\mathbf{A}(\mathbf{r},t)=\frac{\mu_{0}}{4\pi} \frac{qc\mathbf{v}}{(\mathfrak{r}c+\boldsymbol{\mathfrak{r}}\cdot \mathbf{v})}=\frac{\mathbf{v}}{c^{2}}V(\mathbf{r},t)$$
 $\mathbf{v}$ is the velocity of the charge at the [[retarded time]] and $\boldsymbol{\mathfrak{r}}$ is the distance between the retarded position (the position at the retarded time) to the field point $\mathbf{r}$.
 
-This potentials lead to the general [[Electric field|electric]] and [[magnetic field]] of a moving point charge:
+These potentials lead to the general [[Electric field|electric]] and [[magnetic field]] of a moving point charge:
 $$\mathbf{E}(\mathbf{r},t)=\frac{q}{4\pi \varepsilon_{0}} \frac{\mathfrak{r}}{(\boldsymbol{\mathfrak{r}}\cdot \mathbf{u})^{3}}
 [(c^{2}-v^{2})\mathbf{u}+\boldsymbol{\mathfrak{r}}\times(\mathbf{u}\times \mathbf{a})]$$
 $$\mathbf{B}(\mathbf{r},t)=\frac{1}{c}\hat{\boldsymbol{\mathfrak{r}}}\times \mathbf{E}(\mathbf{r},t)$$
-The first term of the electric field is known as the **velocity field** (or **generalized Coulomb field**) and the second as the **acceleration field** (or **radiation field**).
+where $\mathbf{u}\equiv c \hat{\mathfrak{r}}-\mathbf{v}$. The first term of the electric field is known as the **velocity field** (or **generalized Coulomb field**) and the second as the **acceleration field** (or **radiation field**).
 
 In case of a point charge moving with constant velocity, these reduce to
 $$\mathbf{E}(\mathbf{r},t)=\frac{q}{4\pi \varepsilon_{0}} \frac{1- v^{2}/c^{2}}{(1-(v^{2}/c^{2})\sin ^{2}\theta)^{3/2}} \frac{\hat{\mathbf{R}}}{R^{2}}$$
