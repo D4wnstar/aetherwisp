@@ -15,7 +15,6 @@ wiki-publish: true
 ### Wave optics
 - [[Electromagnetic wave]]
 - [[Dielectric#Electromagnetic wave dispersion]]
-- Mentions of dispersion in conductors and plasma frequency
 - [[Wave guide]]
 ### Electrodynamics proper
 - [[Maxwell's equations#Potential form]], [[Gauge freedom]], [[Coulomb gauge]], [[Lorenz gauge]]
@@ -25,11 +24,11 @@ wiki-publish: true
 - [[Electromagnetic radiation#Sources]]
 - [[Electric dipole#Radiation]] and [[Magnetic dipole#Radiation]]
 - [[Electromagnetic radiation#Radiation from an arbitrary source]]
-- [[Larmor formula]] and Liénard generalization
-- [[Bremmstrahlung]], [[synchrotron radiation]]
+- [[Larmor formula]]
+- [[Bremmstrahlung]]
 - [[Radiation reaction]]
-- [[Michelson and Morley experiment]]
 ### Special relativity
+- [[Michelson and Morley experiment]]
 - [[Postulates of special relativity]]
 - [[Relativity of simultaneousness]], [[time dilation]], [[distance contraction]]
 - [[Lorentz transformation]], [[Four-vector]], [[Rapidity]]

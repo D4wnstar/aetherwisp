@@ -115,3 +115,6 @@ $$\mathbf{E}(\mathbf{r},t)\simeq \frac{\mu_{0}}{4\pi r}[(\hat{\mathbf{r}}\cdot \
 Spherical coordinates
 $$\mathbf{E}(r,\theta,t)\simeq \frac{\mu_{0}\ddot{p}(t_{0})}{4\pi r}\sin \theta\ \hat{\boldsymbol{\theta}},\qquad \mathbf{B}(r,\theta,t)\simeq \frac{\mu_{0}\ddot{p}(t_{0})}{4\pi cr} \sin \theta\ \hat{\boldsymbol{\phi}}$$
 $$\mathbf{S}(\mathbf{r},t)\simeq \frac{\mu_{0}}{16\pi ^{2}cr^{2}}[\ddot{p}(t_{0})]^{2}\sin ^{2}\theta\ \hat{\mathbf{r}},\qquad P_\text{rad}(t_{0})\simeq \frac{\mu_{0}}{6\pi c}[\ddot{p}(t_{0})]^{2}$$
+
+**Larmor formula and Liénard generalization**
+$$P=\frac{\mu_{0}q^{2}a^{2}}{6\pi c},\qquad P_\text{charge}=\frac{\mu_{0}q^{2}\gamma^{6}}{6\pi c}\left( a^{2}- \left\lvert  \frac{\mathbf{v}\times \mathbf{a}}{c}  \right\rvert ^{2} \right)$$
