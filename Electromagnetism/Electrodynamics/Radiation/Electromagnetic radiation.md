@@ -50,7 +50,7 @@ $$t_{0}\equiv t- \frac{r}{c}$$
 yields
 $$\rho\left( \mathbf{r}',t- \frac{\mathfrak{r}}{c} \right)\simeq \rho(\mathbf{r}',t_{0})+\dot{\rho}(\mathbf{r}',t_{0})\left( \frac{\hat{\mathbf{r}}\cdot\mathbf{r}'}{c} \right)+ \frac{1}{2}\ddot{\rho}\left( \frac{\hat{\mathbf{r}}\cdot \mathbf{r}'}{c} \right)^{2}+ \frac{1}{3!}\dddot{\rho}\, \left( \frac{\hat{\mathbf{r}}\cdot \mathbf{r}'}{c} \right)^{3}+\ldots$$
 using dot notation for time derivatives. We do this because we wish to truncate to first order, but to do so must accept a second approximation:
-$$r'\ll \frac{c}{\lvert \ddot{\rho}/\dot{\rho} \rvert }, \frac{c}{\lvert \dddot{\rho},\dot{\rho }\rvert^{1/2} }, \frac{c}{\lvert \ \ddddot{\rho}\ ,\rho \rvert^{1/3} }\ldots\tag{Approximation 2}$$
+$$r'\ll \frac{c}{\lvert \ddot{\rho}/\dot{\rho} \rvert }, \frac{c}{\lvert \dddot{\rho},\dot{\rho }\rvert^{1/2} }, \frac{c}{\lvert \ \ddddot{\rho}\ ,\dot{\rho} \rvert^{1/3} }\ldots\tag{Approximation 2}$$
 and other further terms. Now, interpreting this is not an easy task, as we have a priori idea what $\rho$. For oscillating systems, like the electric and magnetic dipole, these all end up being $c/\omega$, with $\omega$ the [[Frequency|angular frequency]] of oscillation, which is directly proportional to the [[wavelength]] $\lambda$. As such, this approximation is to keep the size of the dipole small compared to the wavelength. But in general, we can't be so precise. In practice, this approximation, alongside the small source approximation, really just mean "keep only the first-order terms in $r'$, that is, $(r')^{\pm1}$".
 
 We now put the expansion of $\rho$, to first order only, alongside

@@ -4,7 +4,7 @@ aliases:
   - orthonormal basis
 ---
 Given a [[vector space]] $V$, a **basis** is a [[set]] of [[Vector space|linearly independent]] vectors $\{ \mathbf{e}_{1},\ldots,\mathbf{e}_{n} \}$ such that for each vector $\mathbf{v}$ in $V$, there exist one and only one set of constants $\{ \alpha_{1},\ldots,\alpha_{n} \}\in \mathbb{R}^{n}$ for which the [[linear combination]] of basis vectors using these values is exactly $\mathbf{v}$. In symbols:
-$$\{ \mathbf{e}_{1},\ldots,\mathbf{e}_{n} \}\in V\text{ such that }\forall \mathbf{v}\in V,\exists!\{ \alpha_{1},\ldots,\alpha_{n} \}\text{ such that }\mathbf{v}=\sum_{i=1}^{n} \alpha_{i}\mathbf{e}_{i}$$
+$$\{ \mathbf{e}_{1},\ldots,\mathbf{e}_{n} \}\in V\text{ such that }\forall \mathbf{v}\in V,\ \exists!\ \{ \alpha_{1},\ldots,\alpha_{n} \}\text{ such that }\mathbf{v}=\sum_{i=1}^{n} \alpha_{i}\mathbf{e}_{i}$$
 The numbers $\alpha_{i}$ are said to be the **components** of $\mathbf{v}$ with respect to this basis.
 
 All vectors in $V$ can be expressed as a linear combination of the basis vectors, given a suitable set of values. The [[scalar product]] between a vector $\mathbf{v}$ and the $i$-th basis vector $\mathbf{e}_{i}$ gives the $i$-th component of $\mathbf{v}$:

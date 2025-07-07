@@ -4,25 +4,55 @@ aliases:
   - relativistic
   - ultrarelativistic
 ---
-Le **trasformazioni di Lorentz** sono un insieme di trasformazioni poste ad un sistema di riferimento per le quali le [[equazioni di Maxwell]] non variano. Sono una generalizzazione delle [[trasformazioni di Newton]], per le quali le [[leggi di Newton]] erano invarianti, ma quelle di Maxwell no.
+A **Lorentz transformation** is a [[coordinate transformation]] between [[Frame of reference|inertial frames]] in [[spacetime]]. A transformation between a [[frame of reference]] $(x,y,z,t)$ to $(x',y',z',t')$ states
+$$\left\{\begin{align}
+&x'=\gamma(x-\beta ct) \\
+&y'=y \\
+&z'=z \\
+&t'=\gamma\left( t- \frac{\beta}{c}x \right)
+\end{align}\right.$$
+with parameters
+$$\gamma\equiv \frac{1}{\sqrt{ 1-\beta ^{2} }},\qquad \beta\equiv\frac{v}{c}$$
+### Derivation
+Say we have an [[event]] $E$ at coordinates $(x,y,z,t)$ in some inertial system $\mathcal{S}$. We want to express this event in another inertial frame $\mathcal{S}'$, where it'll have coordinates $(x',y',z',t')$. We are looking for the coordinate transformation that will convert between the two. This space is four dimensional, so a complete visualization is not possible. However, think of it like this: since we have inertial frames, the origins can move at some constant velocity. Let's say that at time $t=0$, both $\mathcal{S}$ and $\mathcal{S}'$ coincide. As time goes on, the two systems will in general move away from each other, at some constant velocity $\mathbf{v}$. Say this velocity is on the $x$ axis (if it's not, rotate everything until it is). Then, over some time $t$, the origin of $\mathcal{S}'$ will move a distance $vt$ away from the origin of $\mathcal{S}$ on the $x$ axis (the other coordinates don't change). The event coordinates will *of course* be connected by
+$$x=x'+vt$$
+and so the coordinate transformation is
+$$\begin{cases}
+x'=x-vt \\
+y'=y \\
+z'=z \\
+t'=t
+\end{cases}$$
+These are the old [[Galilean transformation|Galilean transformations]] that applied to [[Galilean relativity]]. As you may guess from this nomenclature, these start to collapse when introducing special relativity and a finite [[speed of light|top speed]] in the universe and the cause is due to the consequences of the [[postulates of special relativity]]. [[Relativity of simultaneity]] and [[time dilation]] must have some sort of effect on $t'=t$ and [[distance contraction]] certainly invalidates the snarky "*of course*" regarding $x=x'+vt$. On the other hand, $y'=y$ and $z'=z$ are safe since distance contraction occurs only on the axis of motion.
 
-Preso un sistema con coordinate spazio-temporali $x$, $y$, $z$ e $t$, le trasformazioni danno un nuovo sistema di riferimento $x'$, $y'$, $z'$, $t'$ tale per cui
-$$\begin{cases}
-x'=\frac{x-vt}{\sqrt{1-v^2/c^{2}}} \\
-y'=y \\
-z'=z \\
-t'=\frac{t-vx/c^{2}}{\sqrt{1-v^{2}/c^{2}}}
-\end{cases}$$
-o, definendo
-$$\beta=\frac{v}{c}\in[0,1[\quad;\quad\gamma= \frac{1}{\sqrt{1-\beta^{2}}}\geq1$$
-si ha
-$$\begin{cases}
-x'=\gamma(x-\beta ct) \\
-y'=y \\
-z'=z \\
-ct'=\gamma(ct-\beta x)
-\end{cases}$$
-Nel caso non relativistico $v\ll c$, queste si riducono alle trasformazioni di Newton.
+The issue in the previous derivation is in being a little too sure that $x=x'+vt$. More generally, say we have $x=d+vt$, where $d$ is the distance measured between the origin of $\mathcal{S}'$ and the $x$-component of $E$. If distance contraction weren't a thing, $d$ would certainly be $x'$ and our results above would hold. But distance contraction is indeed a thing, so we must take it into account:
+$$d=\frac{x'}{\gamma}\quad\Rightarrow \quad x=d+vt=\frac{x'}{\gamma}+vt\quad\Rightarrow \quad x'=\gamma(x-vt)$$
+The same argument could be done in reverse to go from $\mathcal{S}'$ to $\mathcal{S}$, just this time we'll have $x'=d'-vt'$, where $d'$ is the distance between the origin of $\mathcal{S}$ and the $x$ component of $E$. In classical physics, this is again $d'=x$, but in relativity, we must consider contraction, so
+$$d'=\frac{x}{\gamma}\quad\Rightarrow \quad x'=d'-vt=\frac{x}{\gamma}-vt\quad\Rightarrow \quad x=\gamma(x'+vt)$$
+which shouldn't be surprising, since relativistic effects are symmetrical between observer. We can now substitute these results into the Galilean transformations and solve for $t'$ to obtain
+$$\boxed{\left\{\begin{align}
+&x'=\gamma(x-vt) \\
+&y'=y \\
+&z'=z \\
+&t'=\gamma\left( t- \frac{v}{c^{2}}x \right)
+\end{align}\right.}$$
+These are the **Lorentz transformations** for spacetime coordinates (or a singular Lorentz transformation if you are talking the change as a whole). The reverse transformation is just a matter of changing the primes and inverting the minuses into pluses:
+$$\left\{\begin{align}
+&x=\gamma(x'+vt') \\
+&y=y' \\
+&z=z' \\
+&t=\gamma\left( t'+ \frac{v}{c^{2}}x' \right)
+\end{align}\right.$$
+Defining $\beta\equiv v/c$, they can also be written as
+$$\left\{\begin{align}
+&x'=\gamma(x-\beta ct) \\
+&y'=y \\
+&z'=z \\
+&t'=\gamma\left( t- \frac{\beta}{c}x \right)
+\end{align}\right.$$
+Note how when $v\ll c$, then $\gamma\to 1$ and $\beta\to 0$ and these go back to being the usual Galilean transformations.
+
+
 
 In forma [[tensore|tensoriale]], le trasformazioni di Lorentz sono
 $$\Lambda(\beta)=\begin{pmatrix}\gamma & -\beta \gamma & 0 & 0 \\ -\beta \gamma & \gamma & 0 & 0 \\ 0 & 0 & 1 & 0 \\ 0 & 0 & 0 & 1\end{pmatrix}$$
