@@ -13,6 +13,24 @@ $$\left\{\begin{align}
 \end{align}\right.$$
 with parameters
 $$\gamma\equiv \frac{1}{\sqrt{ 1-\beta ^{2} }},\qquad \beta\equiv\frac{v}{c}$$
+In the language of [[proper velocity]], $v$ would be the *ordinary* velocity. Alternatively, in common [[four-vector]] notation $(ct,x,y,z)\equiv(x^{0},x^{1},x^{2},x^{3})$:
+$$\left\{\begin{align}
+&\bar{x}^{0}=\gamma(x^{0}-\beta x^{1}) \\
+&\bar{x}^{1}=\gamma\left(x^{1}- \beta x^{0} \right) \\
+&\bar{x}^{2}=x^{2} \\
+&\bar{x}^{3}=x^{3}
+\end{align}\right.$$
+where the overbar now denotes the new frame. Here, time is expressed in units of $ct$ instead of $t$, meaning that it is measured in meters and interpreted as the time it takes for light to travel that many meters. In matrix notation we have
+$$\bar{x}=\Lambda x$$
+where
+$$\Lambda=\begin{pmatrix}\gamma & -\beta \gamma & 0 & 0 \\ -\beta \gamma & \gamma & 0 & 0 \\ 0 & 0 & 1 & 0 \\ 0 & 0 & 0 & 1\end{pmatrix},\qquad x=\begin{pmatrix}
+x^{0} \\ x^{1} \\ x^{2} \\ x^{3}
+\end{pmatrix},\qquad \bar{x}=\begin{pmatrix}
+\bar{x}^{0} \\ \bar{x}^{1} \\ \bar{x}^{2} \\ \bar{x}^{3}
+\end{pmatrix}$$
+$\Lambda$ is known as the **Lorentz transformation matrix**. The convenience of this form lies in that, besides being more compact, it also makes it easier to handle transformations that are not on a common $x,\bar{x}$ axis, as you'd just change the matrix accordingly. Each individual component is then written
+$$\bar{x}^{\mu}=\sum_{\nu=0}^{3} \Lambda_{\nu}^{\mu}x^{\nu}\equiv \Lambda_{\nu}^{\mu}x^{\nu}$$
+where the second equality is using [[Einstein notation]] for implicit summation.
 ### Derivation
 Say we have an [[event]] $E$ at coordinates $(x,y,z,t)$ in some inertial system $\mathcal{S}$. We want to express this event in another inertial frame $\mathcal{S}'$, where it'll have coordinates $(x',y',z',t')$. We are looking for the coordinate transformation that will convert between the two. This space is four dimensional, so a complete visualization is not possible. However, think of it like this: since we have inertial frames, the origins can move at some constant velocity. Let's say that at time $t=0$, both $\mathcal{S}$ and $\mathcal{S}'$ coincide. As time goes on, the two systems will in general move away from each other, at some constant velocity $\mathbf{v}$. Say this velocity is on the $x$ axis (if it's not, rotate everything until it is). Then, over some time $t$, the origin of $\mathcal{S}'$ will move a distance $vt$ away from the origin of $\mathcal{S}$ on the $x$ axis (the other coordinates don't change). The event coordinates will *of course* be connected by
 $$x=x'+vt$$
@@ -51,13 +69,6 @@ $$\left\{\begin{align}
 &t'=\gamma\left( t- \frac{\beta}{c}x \right)
 \end{align}\right.$$
 Note how when $v\ll c$, then $\gamma\to 1$ and $\beta\to 0$ and these go back to being the usual Galilean transformations.
-
-
-
-In forma [[tensore|tensoriale]], le trasformazioni di Lorentz sono
-$$\Lambda(\beta)=\begin{pmatrix}\gamma & -\beta \gamma & 0 & 0 \\ -\beta \gamma & \gamma & 0 & 0 \\ 0 & 0 & 1 & 0 \\ 0 & 0 & 0 & 1\end{pmatrix}$$
-applicate ad un [[Four-vector]] come
-$$a'_{\mu}=\Lambda(\beta)a_{\mu}$$
 ### Limite relativistico
 Gli effetti relativistici diventano importanti solo quando la velocità di un oggetto si avvicina a quella della luce. Si dice **limite relativistico** il limite oltre il quale bisogna usare la relatività per evitare errori grandi. Matematicamente, il limite equivale ad avere $\beta\sim1$ e $\gamma>1$. Si dice **regime ultrarelativistico** le condizioni $\beta\sim1$ e $\gamma\gg1$.
 ### Formalismo matematico
@@ -67,13 +78,3 @@ Ciò significa che la distanza spaziotemporale è un'[[Relativistic invariant]].
 
 Il determinante del tensore di Lorentz vale
 $$\det\Lambda=\gamma^{2}-\beta^{2}\gamma^{2}=1$$
-### Contrazione e dilatazione dello spaziotempo
-Le trasformazioni di Lorentz hanno due importanti conseguenze: all'avvicinarsi alla [[velocità della luce]], gli spazi si contraggono e il tempo si dilata.
-
-Consideriamo due sistema di riferimento cartesiani, $O$ e $O'$. $O$ ha un osservatore fermo, $O'$ è in moto lungo la direzione $x$. Se misuriamo la distanza $L'$ nel sistema in moto, usando le trasformazioni di Lorentz, troviamo
-$$L'=x_{2}'-x_{1}'=\gamma(x_{2}-x_{1})-\beta\gamma c(t_{2}-t_{1})=\gamma(x_{2}-x_{1})=\gamma L$$
-dato che la misura è compiuta in simultanea al tempo $t_{1}=t_{2}$. La distanza è quindi contratta di un fattore $\gamma$.
-
-Se invece diciamo che due eventi accadono nello stesso luogo $x_{1}'=x_{2}'$ in tempi diversi $t_{1}'\neq t_{2}'$ nel sistema fermo (ora diciamo che $O'$ è fermo per comodità di notazione), osservando gli eventi dal sistema in moto $O$ misuro una differenza di tempo
-$$\Delta t=\gamma \Delta t'+ \frac{\beta\gamma}{c}\Delta x'=\gamma \Delta t'$$
-dato che $\Delta x'=0$. Il tempo è quindi dilatato di un fattore $\gamma$.

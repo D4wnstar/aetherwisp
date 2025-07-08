@@ -3,6 +3,7 @@ wiki-publish: true
 aliases:
   - Einstein's first postulate
   - Einstein's second postulate
+  - Einstein velocity addition rule
 ---
 The theory of special relativity is based on two fundamentals claims, known as the **postulates of special relativity**:
 1. The laws of physics are the same in all inertial [[frame of reference|frames of reference]].

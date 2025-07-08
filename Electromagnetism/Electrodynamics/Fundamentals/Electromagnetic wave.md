@@ -57,6 +57,10 @@ Generally speaking though, electromagnetic wave [[Frequency|frequencies]] are *f
 $$\langle \cos ^{2}(\ldots) \rangle = \frac{1}{T}\int_{0}^{T}\cos ^{2}\left( \mathbf{k}\cdot \mathbf{r}- \frac{2\pi}{T} t+\varphi \right)dt=\frac{1}{2}$$
 Thus, the average energy density, Poynting vector and momentum density are
 $$\boxed{\langle u \rangle =\frac{\varepsilon_{0}}{2}E_{0}^{2},\quad \langle \mathbf{S} \rangle =\frac{\varepsilon_{0}c}{2}E_{0}^{2}\ \hat{\mathbf{n}},\quad \langle \mathbf{g} \rangle =\frac{\varepsilon_{0}}{2c}E_{0}^{2}\ \hat{\mathbf{n}}}$$
+Notably, energy density and momentum density (and by extension energy and momentum themselves) are related by
+$$\langle u \rangle =\langle g \rangle c\quad\Rightarrow \quad E=\int_{\mathcal{V}}\langle u \rangle d\tau=c\int_{\mathcal{v}}\langle g \rangle d\tau=pc$$
+The energy of a wave is given by the momentum it carries weighed by the speed of light. "Neat," you might say, but keep this in mind if you go on to study quantum physics, as it might just reappear somewhere else (and if you've already studied quantum physics, you might recognize a sneaky first appearance of the [[Planck formula]] and the [[Formula di de Broglie|de Broglie formula]]).
+
 In the context of electromagnetic waves, the **[[irradiance]]** of the wave is the time average of the Poynting vector:
 $$I\equiv\langle S \rangle =\frac{\varepsilon_{0}c}{2}E_{0}^{2}$$
 Since momentum is conserved, whenever light collides with sometimes, a part of its momentum must be transferred to it. If light lands perpendicularly (normal incidence) and the receiver is a so-called "perfect absorber" (meaning, it absorbs 100% of the momentum that hits it), we can give a mathematical expression of this transfer. In a time $\Delta t$, the transfer is determined by the momentum density as $\Delta \mathbf{p}=\langle \mathbf{g} \rangle Ac\Delta t$. But remember that by [[Newton's laws|Newton's second law]], a variation in momentum is a [[force]], so when spread over the area $A$ that's being lit up, we get a [[pressure]]:

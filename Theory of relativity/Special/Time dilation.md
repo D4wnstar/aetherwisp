@@ -1,7 +1,7 @@
 ---
 wiki-publish: true
 ---
-**Time dilation** is the phenomenon where the duration of an event increases if the event occurs while moving with respect to the observer. For instance, if a stationary (with respect to the observer) kettle takes one minute to boil water, a moving kettle will take more than a minute to boil the water.
+**Time dilation** is the phenomenon where the duration of an event increases if the event occurs while moving with respect to the observer. In other words, time passes slower for things in motion. For instance, if a stationary (with respect to the observer) kettle takes one minute to boil water, a moving kettle will take more than a minute to boil the water.
 ### Thought experiment
 Imagine a train cart traveling at some constant speed along a smooth, straight track. In the center of the cart, a light bulb is attached to the ceiling, initially off. Imagine someone turns on the bulb. The light takes some time to reach the floor of the cart. What is this time? For someone on the train, everything is at rest, so the time is exactly the amount of time $\Delta \tilde{t}$ it takes for the light, traveling at the [[speed of light]] $c$, to traverse the height $h$ of the cart,
 $$\Delta \tilde{t}=\frac{h}{c}$$

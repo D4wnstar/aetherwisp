@@ -1,9 +1,11 @@
 ---
 wiki-publish: true
 ---
-The **rapidity** $y$ is an alternative quantity to represent the speed of a [[particle]], typically in the context of relativity. Given the relativistic speed coefficient $\beta=v/c$, where $c$ is the [[Speed of light]], the rapidity is defined as its hyperbolic arctangent:
+The **rapidity** $y$ is an alternative quantity to represent the speed of a [[particle]], typically in the context of relativity. Given the relativistic speed coefficient $\beta=v/c$, where $c$ is the [[speed of light]], the rapidity is defined as its hyperbolic arctangent:
 $$y=\text{arctanh } \beta$$
-Rapidity, by construction, is a [[relativistic invariant]]. The benefit of rapidity is that, since it is defined from a hyperbolic arctangent, it possesses an asymptote to which it converges when $\beta\to 1$ (and therefore $v\to c$). This mathematical behavior innately matches physical behavior in that speed can never exceed that of light.
+Rapidity, by construction, is a [[relativistic invariant]].
+
+The benefit of rapidity is that, since it is defined from a hyperbolic arctangent, it goes from $-\infty$ to $+\infty$ as $v\to \pm c$. Moreover, rapidities add like in classical physics ($y_{1}+y_{2}=y_\text{total}$) instead of having to follow the [[Postulates of special relativity|Einstein velocity addition rule]]. These facts combined make rapidity quite similar to how velocity works in classical physics, which can make it a more intuitive way of describing movement.
 ### Derivation
 The rapidity is the value for which the following relations hold:
 $$\begin{cases}
@@ -24,7 +26,7 @@ $$\begin{cases}
 and putting them together
 $$\beta=\tanh(y)$$
 ### As a hyperbolic rotation
-Then we can interpret [[Lorentz transformation|Lorentz transformations]] as hyperbolic rotations in spacetime, with rapidity representing the angle of rotation:
+Then we can interpret a [[Lorentz transformation]] as a hyperbolic [[rotation]] in [[spacetime]], with rapidity representing the angle of rotation:
 $$\pmatrix{ct' \\ x' \\ y' \\ z'}=\pmatrix{\cosh y & -\sinh y & 0 & 0 \\ -\sinh y & \cosh y & 0 & 0 \\ 0 & 0 & 1 & 0 \\ 0 & 0 & 0 & 1}\pmatrix{ct \\ x \\ y \\ z}$$
 We can invert the above relation to define $y$
-$$y=\text{arctanh}\left(\frac{|\vec{p}|c}{E}\right)=\frac{1}{2}\ln\left(\frac{E-|\vec{p}|c}{E+|\vec{p}|c}\right)$$
+$$y=\text{arctanh}\left(\frac{pc}{E}\right)=\frac{1}{2}\ln\left(\frac{E-pc}{E+pc}\right)$$
