@@ -71,8 +71,8 @@ Normal incidence when $\theta_{I}=\theta_{R}=0$.
 $$R=\frac{I_{R}}{I_{I}}=\left( \frac{\alpha-\beta}{\alpha+\beta} \right)^{2},\qquad T=\frac{I_{T}}{I_{I}}=\alpha \beta\left( \frac{2}{\alpha+\beta} \right)^{2}$$
 Normal incidence when $\alpha=1$.
 ### Potentials
-**Electrodynamic electric field**
-$$\mathbf{E}=-\nabla V-\frac{ \partial \mathbf{A} }{ \partial t } $$
+**Electrodynamic electric and magnetic fields**
+$$\mathbf{E}=-\nabla V-\frac{ \partial \mathbf{A} }{ \partial t },\qquad \mathbf{B}=\nabla\times \mathbf{A} $$
 
 **Maxwell's equation (potential form, unspecified gauge)**
 $$\square ^{2}V+\frac{ \partial L }{ \partial t } =- \frac{\rho}{\varepsilon_{0}},\qquad\square ^{2}\mathbf{A}-\nabla L=-\mu_{0}\mathbf{J}$$
@@ -81,8 +81,8 @@ where $L\equiv \nabla\cdot \mathbf{A}+\mu_{0}\varepsilon_{0}\ \partial V/\partia
 **Maxwell's equation (potential form, Lorenz gauge)**
 $$\square ^{2}V=- \frac{\rho}{\varepsilon_{0}},\qquad\square ^{2}\mathbf{A}=-\mu_{0}\mathbf{J}$$
 
-**Lorenz gauge**
-$$\nabla\cdot \mathbf{A}=-\mu_{0}\varepsilon_{0}\frac{ \partial V }{ \partial t} $$
+**Coulomb and Lorenz gauges**
+$$\nabla\cdot \mathbf{A}=0,\qquad\nabla\cdot \mathbf{A}=-\mu_{0}\varepsilon_{0}\frac{ \partial V }{ \partial t} $$
 
 **Jefimenko's equations**
 $$\mathbf{E}(\mathbf{r},t)=\frac{1}{4\pi \varepsilon_{0}}\int_{\mathcal{V}}\frac{\rho(\mathbf{r}',t)}{\mathfrak{r}^{2}}\hat{\boldsymbol{\mathfrak{r}}}+ \frac{\dot{\rho}(\mathbf{r}',t)}{c\mathfrak{r}}\hat{\boldsymbol{\mathfrak{r}}}- \frac{\dot{\mathbf{J}}(\mathbf{r}',t)}{c^{2}\mathfrak{r}}d\tau'$$
@@ -96,6 +96,11 @@ $$V(\mathbf{r},t)=\frac{1}{4\pi \varepsilon_{0}} \frac{qc}{(\mathfrak{r}c-\bolds
 Derived from the Liénard-Wiechert potentials
 $$\mathbf{E}(\mathbf{r},t)=\frac{q}{4\pi \varepsilon_{0}} \frac{\mathfrak{r}}{(\boldsymbol{\mathfrak{r}}\cdot \mathbf{u})^{3}}
 [(c^{2}-v^{2})\mathbf{u}+\boldsymbol{\mathfrak{r}}\times(\mathbf{u}\times \mathbf{a})],\qquad\mathbf{B}(\mathbf{r},t)=\frac{1}{c}\hat{\boldsymbol{\mathfrak{r}}}\times \mathbf{E}(\mathbf{r},t)$$
+where $\mathbf{u}\equiv c \hat{\boldsymbol{\mathfrak{r}}}-\mathbf{v}$.
+
+**Fields of a point charge (constant velocity)**
+$$\mathbf{E}(\mathbf{r},t)=\frac{q}{4\pi \varepsilon_{0}} \frac{1- v^{2}/c^{2}}{(1-(v^{2}/c^{2})\sin ^{2}\theta)^{3/2}} \frac{\hat{\mathbf{R}}}{R^{2}},\qquad\mathbf{B}(\mathbf{r},t)=\frac{1}{c^{2}}(\mathbf{v}\times \mathbf{E})$$
+where $\mathbf{R}\equiv \mathbf{r}-\mathbf{v}t$ is the vector from the present location of the charge to $\mathbf{r}$ and $\theta$ is the angle between $\mathbf{R}$ and $\mathbf{v}$.
 ### Radiation
 **Oscillating electric dipole (far field)**
 $$V(r,\theta,t)=- \frac{p_{0}\cos\theta}{4\pi \varepsilon r}\frac{\omega}{c} \sin\left[ \omega\left( t- \frac{r}{c} \right) \right],\qquad\mathbf{A}(r,\theta,t)=- \frac{\mu_{0}p_{0}\omega}{4\pi r}\sin\left[ \omega\left( t- \frac{r}{c} \right) \right]\hat{\mathbf{z}}$$
@@ -118,4 +123,55 @@ $$\mathbf{S}(\mathbf{r},t)\simeq \frac{\mu_{0}}{16\pi ^{2}cr^{2}}[\ddot{p}(t_{0}
 
 **Larmor formula and Liénard generalization**
 $$P=\frac{\mu_{0}q^{2}a^{2}}{6\pi c},\qquad P_\text{charge}=\frac{\mu_{0}q^{2}\gamma^{6}}{6\pi c}\left( a^{2}- \left\lvert  \frac{\mathbf{v}\times \mathbf{a}}{c}  \right\rvert ^{2} \right)$$
-  
+### Relativity
+**Postulates**
+1. The laws of physics are the same in all inertial [[frame of reference|frames of reference]].
+2. Light moves in the vacuum at a constant [[Speed of light|speed]] in all inertial frames of reference, and it is the maximum speed at which [[energy]] can propagate.
+
+**Einstein velocity addition rule**
+$$v_{AC}=\frac{v_{AB}+v_{BC}}{1+v_{AB}v_{BC}/c^{2}}$$
+where A, B and C are three objects moving in relation to each other.
+
+**Lorentz transformation**
+$$\left\{\begin{align}
+&x'=\gamma(x-\beta ct) \\
+&y'=y \\
+&z'=z \\
+&t'=\gamma\left( t- \frac{\beta}{c}x \right)
+\end{align}\right.,\qquad\gamma\equiv \frac{1}{\sqrt{ 1-\beta ^{2} }},\qquad \beta\equiv\frac{v}{c}$$
+$$\bar{x}=\Lambda x,\qquad\Lambda=\begin{pmatrix}\gamma & -\beta \gamma & 0 & 0 \\ -\beta \gamma & \gamma & 0 & 0 \\ 0 & 0 & 1 & 0 \\ 0 & 0 & 0 & 1\end{pmatrix},\qquad x=\begin{pmatrix}
+x^{0} \\ x^{1} \\ x^{2} \\ x^{3}
+\end{pmatrix}$$
+
+**Time dilation and distance contraction**
+$$\Delta t_\text{moving}=\gamma\Delta t_\text{rest},\qquad\Delta x_\text{moving} = \frac{\Delta x_\text{rest}}{\gamma}$$
+
+**Proper time, proper velocity**
+$$d\tau=\sqrt{ 1- \frac{u^{2}}{c^{2}} }dt=\frac{dt}{\gamma},\qquad\eta^{\mu}=\frac{dx^{\mu}}{d\tau}=(\eta^{0},\boldsymbol{\eta}),\qquad\boldsymbol{\eta}=\gamma \mathbf{v}$$
+
+**Four-momentum, relativistic energy**
+$$p^{\mu}=m\eta^{\mu}=\left(\frac{E}{c},\;\mathbf{p}\right)=(\gamma mc,\gamma m\mathbf{v}),\qquad E=\sqrt{ p^{2}c^{2}+m^{2}c^{4} }=\gamma mc^{2}$$
+
+**Minkowski force**
+$$K^{\mu}\equiv \frac{dp^{\mu}}{d\tau},\qquad\mathbf{K}=\gamma\mathbf{F}$$
+
+**Transformation rules of E and B**
+$$\begin{align}
+&E'_{x}=E_{x},&E'_{y}&=\gamma(E_{y}-vB_{z}),&E'_{z}&=\gamma(E_{z}+vB_{y}) \\
+&B'_{x}=B_{x},&B'_{y}&=\gamma\left( B_{y}+ \frac{v}{c^{2}}E_{z} \right),&B'_{z}&=\gamma\left( B_{z}- \frac{v}{c^{2}}E_{y} \right)
+\end{align}$$
+If either field is zero in the original frame, their corresponding field in the new frame is
+$$\mathbf{E}'=\mathbf{v}\times \mathbf{B}',\quad \mathbf{B}'=- \frac{1}{c^{2}}(\mathbf{v}\times \mathbf{E}')$$
+
+**Field and dual tensors**
+$$F^{\mu \nu}\equiv \begin{pmatrix}
+0 & E_{x}/c & E_{y}/c & E_{z}/c \\
+-E_{x}/c & 0 & B_{z} & -B_{y} \\
+-E_{y}/c & -B_{z} & 0 & B_{x} \\
+-E_{z}/c & B_{y} & -B_{x} & 0
+\end{pmatrix},\qquad G^{\mu \nu}\equiv \begin{pmatrix}
+0 & B_{x} & B_{y} & B_{z} \\
+-B_{x} & 0 & -E_{z}/c & -E_{y}/c \\
+-B_{y} & E_{z}/c & 0 & -E_{x}/c \\
+-B_{z} & -E_{y}/c & E_{x}/c & 0
+\end{pmatrix}$$

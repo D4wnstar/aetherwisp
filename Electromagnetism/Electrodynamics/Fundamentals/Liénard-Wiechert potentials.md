@@ -19,7 +19,7 @@ where $\mathbf{u}\equiv c \hat{\mathfrak{r}}-\mathbf{v}$. The first term of the 
 
 In case of a point charge moving with constant velocity, these reduce to
 $$\mathbf{E}(\mathbf{r},t)=\frac{q}{4\pi \varepsilon_{0}} \frac{1- v^{2}/c^{2}}{(1-(v^{2}/c^{2})\sin ^{2}\theta)^{3/2}} \frac{\hat{\mathbf{R}}}{R^{2}}$$
-$$\mathbf{B}(\mathbf{r},t)=\frac{1}{c^{2}}=(\mathbf{v}\times \mathbf{E})$$
+$$\mathbf{B}(\mathbf{r},t)=\frac{1}{c^{2}}(\mathbf{v}\times \mathbf{E})$$
 where $\mathbf{R}\equiv \mathbf{r}-\mathbf{v}t$ is the vector from the *present* location $\mathbf{v}t$ of the charge to $\mathbf{r}$, and $\theta$ is the angle between $\mathbf{R}$ and $\mathbf{v}$.
 ### Derivation
 The proof begins from the general form of retarded potentials. The electric potential is

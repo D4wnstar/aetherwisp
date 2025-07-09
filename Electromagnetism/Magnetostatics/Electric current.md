@@ -50,3 +50,14 @@ Since there is no requirement on the volume chosen, we can extract the integrand
 $$\boxed{\nabla\cdot\mathbf{J}=- \frac{ \partial \rho }{ \partial t } }$$
 This is the mathematical statement that encapsulates local charge conservation. In the magnetostatic case, it becomes
 $$\nabla\cdot\mathbf{J}=0$$
+which states that the current must be [[Vector field|solenoidal]] (divergenceless).
+#### Relativity
+The continuity equation takes on a very simple form when using the [[four-current]]
+$$J^{\mu}=\rho_{0}\eta^{\mu}=(c\rho,J_{x},J_{y},J_{z})$$
+With the definition of [[divergence]] the old three-current says:
+$$\nabla\cdot \mathbf{J}=\sum_{i=1}^{3} \frac{ \partial J^{i} }{ \partial x^{i} } $$
+By looking at the definition of four-current we can see
+$$\frac{ \partial \rho }{ \partial t } =\frac{1}{c}\frac{ \partial J^{0} }{ \partial t } =\frac{ \partial J^{0} }{ \partial x^{0} } $$
+As it happens, the continuity equation is just the sum of all the [[partial derivative|partial derivatives]] of $J^{\mu}$ set to zero:
+$$\boxed{\frac{ \partial J^{\mu} }{ \partial x^{\mu} } =0}$$
+This is the relativistic continuity equation for electric charge (in [[Einstein notation]]). It states that the four-current is always solenoidal (divergenceless), as opposed to the three-current, which solenoidal only in magnetostatics.

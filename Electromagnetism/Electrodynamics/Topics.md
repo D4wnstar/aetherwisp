@@ -3,7 +3,7 @@ wiki-publish: true
 ---
 ### Preparatory topics
 - [[Maxwell's equations]] from electromagnetism
-- Maxwell's correction to [[Ampere's law]]
+- [[Ampere's law#In electrodynamics]]
 - [[Poynting's theorem]] and the [[Poynting vector]]
 - [[Maxwell stress tensor]]
 - [[Lorentz force#Using the Maxwell stress tensor]] and momenta conservations
@@ -28,17 +28,14 @@ wiki-publish: true
 - [[Bremmstrahlung]]
 - [[Radiation reaction]]
 ### Special relativity
-- [[Michelson and Morley experiment]]
 - [[Postulates of special relativity]]
-- [[Relativity of simultaneousness]], [[time dilation]], [[distance contraction]]
+- [[Relativity of simultaneity]], [[time dilation]], [[distance contraction]]
 - [[Lorentz transformation]], [[Four-vector]], [[Rapidity]]
-- Invariant intervals, [[spacetime]] diagrams and light cone, [[proper time]], [[proper velocity]]
+- [[Spacetime]], invariant intervals, Minkowski diagrams and light cones
+- [[Proper time]], [[proper velocity]]
 - [[Four-momentum]], [[Relativistic invariant]], [[Relativistic energy]]
 - [[Compton scattering]]
 - [[Minkowski force]]
-- Magnetism as a relativistic effect
-- [[Transformations of E and B]], [[electromagnetic field tensor]], covariant formulation
-- [[Four-current]], [[Four-potential]], [[Maxwell's equations#Relativistic potentials]]
-- Transformation laws of components of E and B between inertial [[frame of reference|frames]]
-- Direct derivation of Lorentz transformations from postulates
-- Phase invariance, [[Doppler effect#Relativistic Doppler effect]], [[Stellar aberration]]
+- [[Magnetism as a relativistic phenomenon]]
+- [[Transformations of E and B]], [[field tensor]]
+- [[Maxwell's equations#Relativistic form]]

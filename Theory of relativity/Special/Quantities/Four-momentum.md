@@ -4,7 +4,7 @@ aliases:
   - energy-momentum four-vector
 ---
 The **four-momentum**, or **energy-momentum four-vector**, of an object of [[mass]] $m$ is a [[four-vector]] that extends the concept of [[linear momentum]] to special relativity:
-$$p=m\eta=\left(\frac{E}{c},\;\mathbf{p}\right)=(\gamma mc,\gamma m\mathbf{v})$$
+$$p^{\mu}=m\eta^{\mu}=\left(\frac{E}{c},\;\mathbf{p}\right)=(\gamma mc,\gamma m\mathbf{v})$$
 where $\eta$ is the [[proper velocity|proper four-velocity]], $E$ is the [[relativistic energy]] and $\mathbf{p}$ is the **relativistic momentum**, which differs from the ordinary momentum in that it uses proper velocity instead of ordinary velocity: $\mathbf{p}=m\boldsymbol{\eta}$.
 
 The total four-momentum of a [[Physical system|system]] is a conserved quantity. This does not mean it is a [[relativistic invariant]] (it's not even a [[scalar]]); conservation has nothing to do with [[Frame of reference|frames of reference]], it just means that the quantity remains the same before and after a process.

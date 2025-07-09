@@ -25,8 +25,14 @@ $$dW=q\mathbf{E}\cdot d\mathbf{s}$$
 The total work is then given by integrating this over any path.
 
 The work is always carried out by the electric part of the force due to the charges having to move "counter-current" against the magnetic field. In this sense, a magnetic force just redirects an electric force, but it does no work itself, in the same way a normal force over a sloped surface redirects a force to push an object up against gravity but doesn't do work itself.
-### Conservation of linear momentum
-According to the general form [[Newton's laws|Newton's second law]], the force on an object is the time derivative of its [[Linear momentum|momentum]]:
+### Newton's third law
+Consider a point charge $q$ going at speed $v$ down the $x$ axis. Its electric and magnetic fields emit radially, as per the [[Liénard-Wiechert potentials]]. Say then that another charge $q$ travels down the $y$ axis. They would repel each other off the axes of course, but assume they are forced to remain on them through tracks or something of the sort. The electric force between them is clearly repulsive, so let's look at the magnetic one.
+
+![[Diagram Broken Newton 3rd law|80%]]
+
+The magnetic field of the particle 1 goes into the page ($-\hat{\mathbf{z}}$) at the position of particle 2. The force, by right hand rule, is to the right ($\hat{\mathbf{x}}$). Similarly, the magnetic field of 2 goes out of the page ($\hat{\mathbf{z}}$) at the position of 1, so the force is up ($\hat{\mathbf{y}}$). These are manifestly *not* opposites, so they do not cancel out. The action, so to say, does not result in an equal and opposite reaction. There's something very wrong with [[Newton's laws|Newton's third law]] here, because it clearly does not hold in electrodynamics. But that's a problem: the conservation of [[Linear momentum|momentum]] relies on the third law! So how do we fix it? Well, we fix it by saying that it's not just the particles that carry momentum, but also the *fields* themselves.
+#### Conservation of linear momentum
+According to the general form [[Newton's laws|Newton's second law]], the force on an object is the time derivative of its momentum:
 $$\mathbf{F}=\frac{d\mathbf{p}_\text{mech}}{dt}$$
 Here we are specifically calling the momentum "mechanical": you'll see why in a moment. Since we know $\mathbf{F}$, we can see where this leads. We'll use the stress tensor form:
 $$\frac{d\mathbf{p}_\text{mech}}{dt}=-\varepsilon_{0}\mu_{0}\frac{d}{dt} \int_{\mathcal{V}}\mathbf{S}\ d\tau+\oint_{\mathcal{S}}T\cdot d\mathbf{a}$$
@@ -39,9 +45,25 @@ $$\boxed{\mathbf{g}=\varepsilon_{0}\mu_{0}\mathbf{S}=\varepsilon_{0}(\mathbf{E}\
 Meanwhile, the momentum [[flux]] transported by the fields must be $-T$.
 
 If we keep the mechanical momentum static, such as when we are in empty space, the time derivative vanishes and we can rearrange the conservation law to read
-$$\frac{d\mathbf{g}}{dt}=\nabla\cdot T$$
+$$\frac{\partial \mathbf{g}}{\partial t}=\nabla\cdot T$$
 This is the momentum continuity equation for electrodynamics. Just like with energy and electric charge, individual charges and their fields constantly exchange momentum, with the *total* momentum being conserved.
-### Conservation of angular momentum
+#### Conservation of angular momentum
 Just like how fields carry angular momentum, they also carry [[angular momentum]]. By definition $\mathbf{L}=\mathbf{r}\times \mathbf{p}$, so the **angular momentum density** $\boldsymbol{\ell}$ must be
 $$\boxed{\boldsymbol{\ell}=\mathbf{r}\times \mathbf{g}=\varepsilon_{0}[\mathbf{r}\times(\mathbf{E}\times \mathbf{B})]}$$
 This is interpreted in the same way as above: it's not just charges that induce an angular momentum, fields themselves also carry it and this amount is mandatory for the conservation law to be upheld.
+### Relativity
+The Lorentz force has a relativistic expression as a [[Minkowski force]] in [[spacetime]] caused by the [[field tensor]] $F^{\mu \nu}$. A charge $q$ moving at [[proper velocity]] $\eta^{\mu}=(\gamma c,\mathbf{v})$ will be subject to a relativistic Lorentz force
+$$\boxed{K^{\mu}=q\eta_{\nu}F^{\mu \nu}}$$
+
+> [!quote]- Deriving the classical Lorentz force
+> The spatial components of $K^{\mu}$ are given by $\mu=1,2,3$. For $\mu=1$:
+> $$\begin{align}
+> K^{1}&=q\eta_{\nu}F^{1\nu} \\
+> &=q(-\eta^{0}F^{10}+\eta^{1}F^{11}+\eta^{2}F^{12}+\eta^{3}F^{13}) \\
+> &=q\left[ \frac{-c}{\sqrt{ 1-v^{2}/c^{2} }}\left( - \frac{E_{x}}{c} \right) + \frac{u_{y}}{\sqrt{ 1-v^{2}/c^{2} }}B_{z}+  \frac{v_{z}}{\sqrt{ 1-v^{2}/c^{2} }}(-B_{y})\right] \\
+> &=\frac{q}{\sqrt{ 1-v^{2}/c^{2} }}[\mathbf{E}+(\mathbf{u}\times \mathbf{B})]_{x}
+> \end{align}$$
+> Thus, with the other two components we get
+> $$\mathbf{K}=\frac{q}{\sqrt{ 1-v^{2}/c^{2} }}[\mathbf{E}+(\mathbf{v}\times \mathbf{B})]=\gamma q[\mathbf{E}+(\mathbf{v}\times \mathbf{B})]$$
+> and since the spatial component of a Minkowski force are related to the ordinary force by $\mathbf{K}=\gamma\mathbf{F}$ we get
+> $$\mathbf{F}=q[\mathbf{E}+(\mathbf{v}\times \mathbf{B})]$$

@@ -1,7 +1,11 @@
 ---
 wiki-publish: true
 ---
-
+A **Minkoski force** is the relativistic generalization of a [[force]]. It is defined from the [[four-momentum]] as
+$$K^{\mu}\equiv \frac{dp^{\mu}}{d\tau}$$
+where $d\tau$ is the [[proper time]]. This is the relativistic form of [[Newton's laws|Newton's second law]]. The spatial part of a Minkowski force is related to the ordinary force by
+$$\mathbf{K}=\gamma\mathbf{F}$$
+where $\gamma$ is the [[Lorentz transformation|relativistic]] gamma.
 ### Dynamics and derivation
 Relativistic dynamics are essentially just a question of how many of [[Newton's laws]] survive the pilgrimage to relativity. The first law is built into the [[postulates of special relativity]], so that's easy enough. The second also survives as long as we use the relativistic momentum:
 $$\mathbf{F}=\frac{d\mathbf{p}}{dt}$$
@@ -49,7 +53,7 @@ which is to say that the component of $F$ parallel to the motion of $\bar{\mathc
 The mention of similarity to the ordinary velocity before was not random. In fact, just like how we "fixed" ordinary velocity by introducing proper velocity, we can do the same thing by defining a "proper force":
 $$\boxed{K^{\mu}\equiv \frac{dp^{\mu}}{d\tau}}$$
 This is called a **Minkowski force**. It is related to the ordinary force in the spatial part by
-$$\mathbf{K}=\frac{d\mathbf{p}}{d\tau}=\frac{dt}{d\tau} \frac{d\mathbf{p}}{dt}=\frac{\mathbf{F}}{\gamma}$$
+$$\mathbf{K}=\frac{d\mathbf{p}}{d\tau}=\frac{dt}{d\tau} \frac{d\mathbf{p}}{dt}=\gamma\mathbf{F}$$
 The zeroth component is
 $$K^{0}=\frac{dp^{0}}{dt}=\frac{1}{c} \frac{dE}{d\tau}$$
 with $dE/d\tau$ being a sort of "proper [[power]]" applied onto the force. Relativistic dynamics can be developed with both kinds of forces, each with their own benefits. The Minkowski force leads to much nicer calculations, but the ordinary force is what we actually control and what we want to end up with in our equations. As such, the ordinary force is often preferred despite the challenge.

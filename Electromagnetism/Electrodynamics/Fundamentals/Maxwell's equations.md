@@ -156,14 +156,85 @@ $$\nabla\cdot \mathbf{A}=-\mu_{0}\varepsilon_{0}\frac{ \partial V }{ \partial t 
 and is designed to make the middle term of $(2)$ vanish. This yields
 $$\nabla ^{2}V-\mu_{0}\varepsilon_{0}\frac{ \partial ^{2}V }{ \partial t^{2} } =- \frac{\rho}{\varepsilon_{0}},\qquad\nabla ^{2}\mathbf{A}-\mu_{0}\varepsilon_{0}\frac{ \partial ^{2}\mathbf{A} }{ \partial t^{2} } =-\mu_{0}\mathbf{J}$$
 or, using the d'Alembertian:
-$$\boxed{\square ^{2}V=- \frac{\rho}{\varepsilon_{0}},\quad\square ^{2}\mathbf{A}=-\mu_{0}\mathbf{J}}$$
+$$\boxed{\square ^{2}V=- \frac{\rho}{\varepsilon_{0}},\quad\square ^{2}\mathbf{A}=-\mu_{0}\mathbf{J}}\tag{3}$$
 The Lorenz gauge turns the potentials themselves into waves, although their wave equations are *inhomogeneous*.
-#### Relativistic potentials
-When we view Maxwell's equations through the relativistic lens, a lot of things compress into a combined form, since the symmetry of electric and magnetic fields is more than manifest in that context. This is true also for potentials. In fact, when combined, the electric and magnetic vector potentials make up a [[four-vector]]:
+### Relativistic form
+Maxwell's equations can be written in a complete, unified form using what we know about the theory of relativity. To start, consider some arbitrarily shaped electric charge $\rho$ For the sake of generality, we focus only on an infinitesimal volume $V$ containing total charge $Q$, so that the density is $Q/V$ and is moving at some velocity $\mathbf{v}$. For the sake of simplicity we assume that $\rho$ only contains charges of the same sign (if it contained both, the argument is the same but we'd have to have both a positive and negative term). The current density is $\mathbf{J}=\rho \mathbf{v}$.
+
+The volume of $\rho$ depends on the observer due to [[distance contraction]]. We'll call $\rho_{0}$ the **proper charge density**, which is the density in the rest frame of the charge:
+$$\rho_{0}=\frac{Q}{V_{0}}$$
+where $V_{0}$ is the volume in the rest system (charge in [[Relativistic invariant|relativistically invariant]] so it never changes). But we can go further: only one dimension is contracted (the one the charge is moving on, i.e. the direction of $\mathbf{v}$), so we can readily write the transformation rule:
+$$V=\frac{V_{0}}{\gamma}=\sqrt{ 1-v^{2}/c^{2} }\ V_{0}$$
+and thus
+$$\rho=\gamma \rho_{0}=\frac{\rho_{0}}{\sqrt{ 1-u^{2}/c^{2} }},\quad \mathbf{J}=\gamma \rho_{0}\mathbf{v}=\rho_{0} \frac{\mathbf{v}}{\sqrt{ 1-v^{2}/c^{2} }}$$
+But $\gamma \mathbf{v}$ is just the spatial part of the [[proper velocity]]! So we can extend $\mathbf{J}=\rho \mathbf{v}$ to a [[four-vector]] by saying
+$$J^{\mu}=\rho_{0}\eta^{\mu}=(c\rho,J_{x},J_{y},J_{z})$$
+This is known as the **[[four-current]]**. The **relativistic Maxwell's equations** then are
+$$\boxed{\frac{ \partial F^{\mu \nu} }{ \partial x^{\nu} } =\mu_{0}J^{\mu},\qquad \frac{ \partial G^{\mu \nu} }{ \partial x^{\nu} } =0}$$
+in both [[field tensor]] and [[Field tensor|dual tensor]] formalisms (summation over $\nu$ implied). Each of these equations have *four* components. This is because the values of $\mu=0,1,2,3$ each lead to one component. Combined, these two provide the same information as the classical Maxwell's equations.
+
+> [!quote]- Deriving the old equations
+> To prove that these are actually correct, we will derive the classical Maxwell's equations from just these two. Start from $\mu=0$:
+> $$\begin{align}
+> \frac{ \partial F^{0\nu} }{ \partial x^{\nu} } &=\frac{ \partial F^{00} }{ \partial x^{0} } +\frac{ \partial F^{01} }{ \partial x^{1} } +\frac{ \partial F^{02} }{ \partial x^{2} } +\frac{ \partial F^{03} }{ \partial x^{3} } \\
+> &=\frac{1}{c}\frac{ \partial E_{x} }{ \partial t } +\frac{ \partial E_{y} }{ \partial y } -\frac{ \partial E_{z} }{ \partial z }  \\
+> &=\frac{1}{c}\left( \nabla\cdot \mathbf{E} \right) \\
+> &=\mu_{0}J^{0} \\
+> &=\mu_{0}c\rho
+> \end{align}$$
+> By using $c^{2}=1/\varepsilon_{0}\mu_{0}$ we find
+> $$\nabla\cdot \mathbf{E}=\frac{\rho}{\varepsilon_{0}}$$
+> This is [[Gauss' law]]. Now take $\mu=1$ for example. In that case, we get
+> $$\begin{align}
+> \frac{ \partial F^{1\nu} }{ \partial x^{\nu} } &=\frac{ \partial F^{10} }{ \partial x^{0} } +\frac{ \partial F^{11} }{ \partial x^{1} } +\frac{ \partial F^{12} }{ \partial x^{2} } +\frac{ \partial F^{13} }{ \partial x^{3} } \\
+> &=- \frac{1}{c^{2}}\frac{ \partial E_{x} }{ \partial t } +\frac{ \partial B_{z} }{ \partial y } -\frac{ \partial B_{y} }{ \partial z }  \\
+> &=\left( - \frac{1}{c^{2}}\frac{ \partial \mathbf{E} }{ \partial t } +\nabla\times \mathbf{B} \right)_{x} \\
+> &=\mu_{0}J^{1} \\
+> &=\mu_{0}J_{x}
+> \end{align}$$
+> Similar results come up for $\mu=2$ and $\mu=3$, just for $J_{y}$ and $J_{z}$, which we can combine in vector notation to read
+> $$\nabla\times \mathbf{B}=\mu_{0}\mathbf{J}+\mu_{0}\varepsilon_{0}\frac{ \partial \mathbf{E} }{ \partial t }$$
+> This is the [[Ampere's law|Ampere-Maxwell law]].
+> 
+> We've exhausted the field tensor. Now let's use the dual tensor. Similarly, $\mu=0$ on $G^{\mu \nu}$ gives
+> $$\begin{align}
+> \frac{ \partial G^{0\nu} }{ \partial x^{\nu} } &=\frac{ \partial G^{00} }{ \partial x^{0} } +\frac{ \partial G^{01} }{ \partial x^{1} } +\frac{ \partial G^{02} }{ \partial x^{2} } +\frac{ \partial G^{03} }{ \partial x^{3} } \\
+> &=\frac{ \partial B_{x} }{ \partial x } +\frac{ \partial B_{y} }{ \partial y } +\frac{ \partial B_{z} }{ \partial z }   \\
+> &=\nabla\cdot \mathbf{B}=0
+> \end{align}$$
+> This is the unnamed Maxwell equation. Finally, for $\mu=1$:
+> $$\begin{align}
+> \frac{ \partial G^{1\nu} }{ \partial x^{\nu} } &=\frac{ \partial G^{10} }{ \partial x^{0} } +\frac{ \partial G^{11} }{ \partial x^{1} } +\frac{ \partial G^{12} }{ \partial x^{2} } +\frac{ \partial G^{13} }{ \partial x^{3} } \\
+> &=- \frac{1}{c}\frac{ \partial B_{x} }{ \partial t } - \frac{1}{c}\frac{ \partial E_{z} }{ \partial y } + \frac{1}{c}\frac{ \partial E_{y} }{ \partial z }  \\
+> &=- \frac{1}{c}\left( \frac{ \partial \mathbf{B} }{ \partial t } +\nabla\times \mathbf{E} \right)_{x} \\
+> &=0
+> \end{align}$$
+> Combine it with the results for $\mu=2$ and $\mu=3$ to get
+> $$\nabla\times \mathbf{E}=-\frac{ \partial \mathbf{B} }{ \partial t }$$
+> which is [[Faraday's law]].
+
+But why stop here? We already know that Maxwell's equations can be express in potential form, so let's look for the *relativistic* potential form. When combined, the electric and magnetic vector potentials make up a [[four-vector]]:
 $$A^{\mu}=\left( \frac{V}{c},A_{x},A_{y},A_{z} \right)$$
-We call it (very creatively) the **potential four-vector**. In terms of it, the field tensor can be rewritten as
-$$\boxed{F^{\mu \nu}=\frac{ \partial A^{\nu} }{ \partial x_{\mu} } -\frac{ \partial A^{\mu} }{ \partial x_{\nu} } }$$
-where we are taking derivatives using covariant four-vectors.
+We call it (very creatively) the **[[four-vector potential]]**. In its terms, the field tensor can be rewritten as
+$$\boxed{F^{\mu \nu}=\frac{ \partial A^{\nu} }{ \partial x_{\mu} } -\frac{ \partial A^{\mu} }{ \partial x_{\nu} }}$$
+where we are taking derivatives using covariant four-vectors (important! You'd get a wrong sign if used contravariant ones).
+
+> [!quote]- Finding the fields
+> This definition of the field tensor leads to the same field-from-potentials equations
+> $$\mathbf{E}=-\nabla V- \frac{ \partial \mathbf{A} }{ \partial t } ,\qquad \mathbf{B}=\nabla\times \mathbf{A}$$
+> For $\mu=0$ and $\nu=1$ we get
+> $$F^{01}=\frac{ \partial A^{1} }{ \partial x_{0} }- \frac{ \partial A^{0} }{ \partial x_{1} } =-\frac{ \partial A_{x} }{ \partial (ct) } - \frac{1}{c}\frac{ \partial V }{ \partial x } =- \frac{1}{c}\left( \frac{ \partial \mathbf{A} }{ \partial t } +\nabla V \right)_{x}=\frac{E_{x}}{c} $$
+> and match $E_{x}$ with the parenthesis. Do the same for $\nu=2,3$ and you get the electric field. Similarly, for $\mu=1$ and $\nu=2$ we get
+> $$F^{12}=\frac{ \partial A^{2} }{ \partial x_{1} } -\frac{ \partial A^{1} }{ \partial x_{2} }=\frac{ \partial A_{y} }{ \partial x } -\frac{ \partial A_{x} }{ \partial y } =(\nabla\times \mathbf{A})_{z}=B_{z} $$
+> Do the same for $F^{23}$ and $F^{31}$ and you get the magnetic field.
+
+If you put this field tensor in its Maxwell equation, you get
+$$\frac{ \partial  }{ \partial x_{\mu} } \left( \frac{ \partial A^{\nu} }{ \partial x^{\nu} }  \right)-\frac{ \partial  }{ \partial x_{\nu} } \left( \frac{ \partial A^{\mu} }{ \partial x^{\nu} }  \right)=\mu_{0}J^{\mu}$$
+which is not really solvable. But notice how if you add the gradient of a scalar function $\lambda$ to $A^{\mu}$, nothing changes in $F^{\mu \nu}$. This is gauge invariance, so we can invoke the [[Lorenz gauge]] again to state, in relativistic form:
+$$\nabla\cdot \mathbf{A}=- \frac{1}{c^{2}}\frac{ \partial V }{ \partial t } \quad\Rightarrow \quad \frac{ \partial A^{\mu} }{ \partial x^{\mu} } =0$$
+and with this definition, the previous equation simplifies to
+$$\boxed{\square ^{2}A^{\mu}=-\mu_{0}J^{\mu}}$$
+using the relativistic [[d'Alembertian]]. This equation contains the entirety of the electromagnetic field, all of it packaged in a single inhomogeneous wave equation in spacetime as the combined form of $(3)$.
 
 [^1]: For correctness' sake, the charges themselves only *align* with the polarization, but don't move much. If they did all actually move to the surface, we'd be working with [[conductor|conductors]] and not with polarized [[dielectric|dielectrics]]. Still, this alignment motion is sufficient to produce a small current.
 
