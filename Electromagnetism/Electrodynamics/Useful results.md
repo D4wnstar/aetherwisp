@@ -26,6 +26,9 @@ $$\mathbf{F}=\oint_{\mathcal{S}}\mathrm{T}\cdot d\mathbf{a}-\varepsilon_{0}\mu_{
 **d'Alembertian**
 $$\square ^{2}\equiv \nabla ^{2}- \frac{1}{v^{2}}\frac{ \partial ^{2} }{ \partial t^{2} } $$
 ### Electromagnetic waves
+**General relations**
+$$k=\frac{2\pi}{\lambda},\quad \omega=\frac{2\pi}{T},\quad\omega=\frac{c}{n(\omega)}k,\quad v_{p}=\frac{\omega}{k(n)}=\frac{c}{n},\quad v_{g}=\frac{ \partial \omega }{ \partial k } $$
+
 **Monochromatic plane wave (real and complex)**
 $$u(\mathbf{r},t)=A\sin(\mathbf{k}\cdot \mathbf{r}-\omega t+\varphi)$$
 $$\tilde{u}(\mathbf{r},t)=Ae^{i[\mathbf{k}\cdot \mathbf{r}-\omega t+\varphi]}\quad \text{where}\quad u(\mathbf{r},t)=\mathrm{Re}(\tilde{u}(\mathbf{r},t))$$
@@ -106,6 +109,7 @@ where $\mathbf{R}\equiv \mathbf{r}-\mathbf{v}t$ is the vector from the present l
 $$V(r,\theta,t)=- \frac{p_{0}\cos\theta}{4\pi \varepsilon r}\frac{\omega}{c} \sin\left[ \omega\left( t- \frac{r}{c} \right) \right],\qquad\mathbf{A}(r,\theta,t)=- \frac{\mu_{0}p_{0}\omega}{4\pi r}\sin\left[ \omega\left( t- \frac{r}{c} \right) \right]\hat{\mathbf{z}}$$
 $$\mathbf{E}=- \frac{\mu_{0}p_{0}\omega ^{2}}{4\pi r}\sin \theta\cos\left[ \omega\left( t- \frac{r}{c} \right) \right]\hat{\boldsymbol{\theta}},\qquad\mathbf{B}=- \frac{\mu_{0}p_{0}\omega ^{2}}{4\pi c}\left( \frac{\sin\theta}{r} \right)\cos\left[ \omega\left( t- \frac{r}{c} \right) \right]\hat{\boldsymbol{\phi}}$$
 $$\mathbf{S}(\mathbf{r},t) =\frac{\mu_{0}}{c}\left[ \frac{p_{0}\omega ^{2}}{4\pi r} \sin\theta\cos\left[ \omega\left( t- \frac{r}{c} \right) \right] \right]^{2}\hat{\mathbf{r}},\qquad I=\frac{\mu_{0}p_{0}^{2}\omega^{4}}{32\pi ^{2}c} \frac{\sin^{2}\theta}{r^{2}},\qquad\langle P \rangle =\frac{\mu_{0}p_{0}^{2}\omega^{4}}{12\pi c}$$
+(Tip: Fields superimpose due to Maxwell's equations' linearity. Irradiance is quadratic so it doesn't.)
 
 **Oscillating magnetic dipole (far field)**
 $$V=0,\qquad\mathbf{A}(r,\theta,t)=- \frac{\mu_{0}m_{0}\omega}{4\pi cr}\sin \theta \sin\left[ \omega\left( t- \frac{r}{c} \right) \right]\hat{\boldsymbol{\phi}}$$
@@ -149,8 +153,9 @@ $$\Delta t_\text{moving}=\gamma\Delta t_\text{rest},\qquad\Delta x_\text{moving}
 **Proper time, proper velocity**
 $$d\tau=\sqrt{ 1- \frac{u^{2}}{c^{2}} }dt=\frac{dt}{\gamma},\qquad\eta^{\mu}=\frac{dx^{\mu}}{d\tau}=(\eta^{0},\boldsymbol{\eta}),\qquad\boldsymbol{\eta}=\gamma \mathbf{v}$$
 
-**Four-momentum, relativistic energy**
+**Four-momentum, relativistic energy, rest energy, relativistic kinetic energy**
 $$p^{\mu}=m\eta^{\mu}=\left(\frac{E}{c},\;\mathbf{p}\right)=(\gamma mc,\gamma m\mathbf{v}),\qquad E=\sqrt{ p^{2}c^{2}+m^{2}c^{4} }=\gamma mc^{2}$$
+$$E^{2}=E_{0}^{2}+K^{2},\qquad E_{0}=mc^{2},\qquad K=(\gamma-1)mc^{2}=E-E_{0}$$
 
 **Minkowski force**
 $$K^{\mu}\equiv \frac{dp^{\mu}}{d\tau},\qquad\mathbf{K}=\gamma\mathbf{F}$$

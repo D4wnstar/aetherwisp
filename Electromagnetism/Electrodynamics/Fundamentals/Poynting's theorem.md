@@ -24,12 +24,14 @@ wiki-publish: true
 > $$\begin{align}
 > \mathbf{E}\cdot \mathbf{J}&=\mathbf{E}\cdot \frac{\nabla\times\mathbf{B}}{\mu_{0}}-\varepsilon_{0}\mathbf{E}\cdot\frac{ \partial \mathbf{E} }{ \partial t } \\
 > \left( \mathbf{E}\cdot \frac{ \partial \mathbf{E} }{ \partial t } =\frac{1}{2}\frac{ \partial E^{2} }{ \partial t }  \right)&=\frac{1}{\mu_{0}} \mathbf{E}\cdot(\nabla\times\mathbf{B})- \frac{\varepsilon_{0}}{2}\frac{ \partial E^{2} }{ \partial t }  \\
-> &=-\frac{1}{\mu_{0}} [\mathbf{B}\cdot(\nabla\times\mathbf{E})- \nabla\cdot(\mathbf{E}\times \mathbf{B})]- \frac{\varepsilon_{0}}{2} \frac{ \partial E^{2} }{ \partial t }  \\
-> &=- \frac{1}{\mu_{0}} \left[ \mathbf{B}\cdot \frac{ \partial \mathbf{B} }{ \partial t } - \nabla \cdot(\mathbf{E}\times \mathbf{B}) \right]- \frac{\varepsilon_{0}}{2}\frac{ \partial E^{2} }{ \partial t } \\
+> &=\frac{1}{\mu_{0}} [\mathbf{B}\cdot(\nabla\times\mathbf{E})- \nabla\cdot(\mathbf{E}\times \mathbf{B})]- \frac{\varepsilon_{0}}{2} \frac{ \partial E^{2} }{ \partial t }  \\
+> &=\frac{1}{\mu_{0}} \left[ -\mathbf{B}\cdot \frac{ \partial \mathbf{B} }{ \partial t } - \nabla \cdot(\mathbf{E}\times \mathbf{B}) \right]- \frac{\varepsilon_{0}}{2}\frac{ \partial E^{2} }{ \partial t } \\
 > \left( \mathbf{B}\cdot \frac{ \partial \mathbf{B} }{ \partial t } =\frac{1}{2}\frac{ \partial B^{2} }{ \partial t }  \right)&=- \frac{1}{2\mu_{0}}\frac{ \partial B^{2} }{ \partial t } - \frac{\varepsilon_{0}}{2}\frac{ \partial E^{2} }{ \partial t } -\nabla\cdot \mathbf{S}
 > \end{align}$$
 > where we expanded
-> $$\mathbf{E}\cdot (\nabla\times\mathbf{B})=\nabla\cdot(\mathbf{B}\times \mathbf{E})=-\nabla\cdot(\mathbf{E}\times \mathbf{B})=-[\mathbf{B}\cdot(\nabla\times \mathbf{E})-\nabla\cdot(\mathbf{E}\times \mathbf{B})]$$
+> $$\mathbf{E}\cdot(\nabla\times \mathbf{B})=\nabla\cdot(\mathbf{B}\times \mathbf{E})=-\nabla\cdot(\mathbf{E}\times \mathbf{B})=-\mathbf{B}\cdot(\nabla\times \mathbf{E})+\mathbf{E}\cdot(\nabla\times \mathbf{B})$$
+> and so
+> $$\mathbf{E}\cdot(\nabla\times \mathbf{B})=\mathbf{B}\cdot(\nabla\times \mathbf{E})-\nabla\cdot(\mathbf{E}\times \mathbf{B})$$
 > using vector calculus, used [[Faraday's law]] and defined the [[Poynting vector]]
 > $$\mathbf{S}=\frac{1}{\mu_{0}}\mathbf{E}\times \mathbf{B}$$
 > If we extract and merge the time derivative from the first two terms, we are left with the electromagnetic energy density by volume $u$:

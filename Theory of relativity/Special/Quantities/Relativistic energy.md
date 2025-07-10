@@ -22,12 +22,12 @@ which gives
 $$E^{2}-p^{2}c^{2}=m^{2}c^{4}$$
 When reordered, we find what's known as the **relativistic energy** of a body:
 $$\boxed{E^{2}=p^{2}c^{2}+m^{2}c^{4}}$$
-In the simplest case of an object with no momentum, $p^{2}=0$, we find the well-known formula due to Einstein for **rest mass energy**:
+In the simplest case of an object with no momentum, $p^{2}=0$, we find the well-known formula due to Einstein for **rest energy** (or **rest mass energy**):
 $$\boxed{E_{0}=mc^{2}}$$
 This is the energy an object holds exclusively due to its mass. This stands in contrast with [[kinetic energy]] $K$, which is given by the motion. With this in mind, the relativistic energy is
 $$E^{2}=E_{0}^{2}+K^{2}$$
 We can also rewrite $\beta$ and $\gamma$ as
-$$\gamma=\frac{E}{mc^{2}},\qquad\beta=\frac{|\mathbf{p}|c}{E}$$
+$$\gamma=\frac{E}{mc^{2}},\qquad\beta=\frac{pc}{E}$$
 #### Connection to classical energy
 We can see how the relativistic energy falls back to classical energy in the low velocity limit. If we extract the kinetic part of the energy
 $$K=E-mc^{2}=\gamma mc^{2} -mc^{2}=mc^{2}(\gamma-1)$$
