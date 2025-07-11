@@ -29,4 +29,4 @@ in time also determined by the transformation on $t'$:
 $$dt'=\gamma\left( dt- \frac{v}{c^{2}}dx \right)$$
 The velocity in $\mathcal{S}'$ will therefore be
 $$u'=\frac{dx'}{dt'}=\frac{\gamma (dx-vdt)}{\gamma(dt-v/c^{2}dx)}=\frac{dx/dt-v}{1-(v/c^{2}) dx/dt}=\frac{u-v}{1-uv/c^{2}}$$
-This is Einstein's velocity addition rule. It matches the previous statement when $A$ is the particle, $B$ is $\mathcal{S}$ and $C$ is $\mathcal{S}'$. In that case, $u=v_{AB}$, $u'=v_{AC}$ and $v=v_{CB}=-v_{BC}$.
+This is Einstein's velocity addition rule. It matches the previous statement when $A$ is the object, $B$ is $\mathcal{S}$ and $C$ is $\mathcal{S}'$. In that case, $u=v_{AB}$, $u'=v_{AC}$ and $v=v_{CB}=-v_{BC}$.

@@ -27,7 +27,8 @@ $$\mathbf{F}=\oint_{\mathcal{S}}\mathrm{T}\cdot d\mathbf{a}-\varepsilon_{0}\mu_{
 $$\square ^{2}\equiv \nabla ^{2}- \frac{1}{v^{2}}\frac{ \partial ^{2} }{ \partial t^{2} } $$
 ### Electromagnetic waves
 **General relations**
-$$k=\frac{2\pi}{\lambda},\quad \omega=\frac{2\pi}{T},\quad\omega=\frac{c}{n(\omega)}k,\quad v_{p}=\frac{\omega}{k(n)}=\frac{c}{n},\quad v_{g}=\frac{ \partial \omega }{ \partial k } $$
+$$k=\frac{2\pi}{\lambda},\quad \omega=\frac{2\pi}{T},\quad\omega=\frac{c}{n(\omega)}k,\quad v_{p}=\frac{\omega}{k(n)}=\frac{c}{n},\quad v_{g}=\frac{ \partial \omega }{ \partial k },\quad I=\lvert \psi \rvert ^{2}=\frac{P}{4\pi d^{2}}$$
+where $\psi$ is a wave. The other form of $I$ is for a spherical wave with $P$ emitted power at distance $d$.
 
 **Monochromatic plane wave (real and complex)**
 $$u(\mathbf{r},t)=A\sin(\mathbf{k}\cdot \mathbf{r}-\omega t+\varphi)$$
@@ -72,7 +73,27 @@ Normal incidence when $\theta_{I}=\theta_{R}=0$.
 
 **Reflection and transmission coefficients (oblique incidence)**
 $$R=\frac{I_{R}}{I_{I}}=\left( \frac{\alpha-\beta}{\alpha+\beta} \right)^{2},\qquad T=\frac{I_{T}}{I_{I}}=\alpha \beta\left( \frac{2}{\alpha+\beta} \right)^{2}$$
+where
+$$\alpha=\frac{\cos \theta_{T}}{\cos \theta_{I}},\qquad\beta=\frac{\mu_{1}n_{2}}{\mu_{2}n_{1}}$$
 Normal incidence when $\alpha=1$.
+
+**Laws of geometrical optics**
+1. Incident, reflected and transmitted waves are coplanar.
+2. Reflection angle is identical to incident angle, $\theta_{I}=\theta_{R}$.
+3. Transmitted angle is given by Snell's law
+$$\frac{\sin\theta_{T}}{\sin \theta_{I}}=\frac{n_{1}}{n_{2}}$$
+
+**Brewster's angle**
+Angle at which there is no reflection, $R=0$.
+$$\theta_{B}\simeq\arctan\left( \frac{n_{2}}{n_{1}} \right)$$
+
+**Critical angle**
+Angle after which total internal reflection occurs. Only when going from optically dense to thin, $n_{1}>n_{2}$. When $n_{1}<n_{2}$, critical angle is $\pi/2$, so orthogonal incidence, i.e. total reflection occurs when the wave hits the surface from the side.
+$$\theta_{C}\equiv \arcsin\left( \frac{n_{2}}{n_{1}} \right)$$
+
+**Etendue (acceptance)**
+Etendue (or acceptance) is a measure of how spread out light is in area and angle. The angle of maximum etendue is
+$$\theta_{e}=\arcsin(\sqrt{ n_{1}^{2}-n_{2}^{2} })$$
 ### Potentials
 **Electrodynamic electric and magnetic fields**
 $$\mathbf{E}=-\nabla V-\frac{ \partial \mathbf{A} }{ \partial t },\qquad \mathbf{B}=\nabla\times \mathbf{A} $$
@@ -133,8 +154,8 @@ $$P=\frac{\mu_{0}q^{2}a^{2}}{6\pi c},\qquad P_\text{charge}=\frac{\mu_{0}q^{2}\g
 2. Light moves in the vacuum at a constant [[Speed of light|speed]] in all inertial frames of reference, and it is the maximum speed at which [[energy]] can propagate.
 
 **Einstein velocity addition rule**
-$$v_{AC}=\frac{v_{AB}+v_{BC}}{1+v_{AB}v_{BC}/c^{2}}$$
-where A, B and C are three objects moving in relation to each other.
+$$v_{AC}=\frac{v_{AB}+v_{BC}}{1+v_{AB}v_{BC}/c^{2}},\qquad u'=\frac{u-v}{1-uv/c^{2}}$$
+where A, B and C are three objects (including frames of reference) moving in relation to each other. All of these are absolute values. Alternatively, the second form uses actual signs depending on the direction of motion. They are equivalent.
 
 **Lorentz transformation**
 $$\left\{\begin{align}
@@ -151,7 +172,7 @@ x^{0} \\ x^{1} \\ x^{2} \\ x^{3}
 $$\Delta t_\text{moving}=\gamma\Delta t_\text{rest},\qquad\Delta x_\text{moving} = \frac{\Delta x_\text{rest}}{\gamma}$$
 
 **Proper time, proper velocity**
-$$d\tau=\sqrt{ 1- \frac{u^{2}}{c^{2}} }dt=\frac{dt}{\gamma},\qquad\eta^{\mu}=\frac{dx^{\mu}}{d\tau}=(\eta^{0},\boldsymbol{\eta}),\qquad\boldsymbol{\eta}=\gamma \mathbf{v}$$
+$$d\tau=\sqrt{ 1- \frac{v^{2}}{c^{2}} }dt=\frac{dt}{\gamma},\qquad\eta^{\mu}=\frac{dx^{\mu}}{d\tau}=(\eta^{0},\boldsymbol{\eta}),\qquad\boldsymbol{\eta}=\gamma \mathbf{v}$$
 
 **Four-momentum, relativistic energy, rest energy, relativistic kinetic energy**
 $$p^{\mu}=m\eta^{\mu}=\left(\frac{E}{c},\;\mathbf{p}\right)=(\gamma mc,\gamma m\mathbf{v}),\qquad E=\sqrt{ p^{2}c^{2}+m^{2}c^{4} }=\gamma mc^{2}$$
