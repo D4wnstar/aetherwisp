@@ -37,18 +37,15 @@ $$\begin{align}
 &+ \frac{1}{\mu_{0}}(\nabla\cdot\mathbf{B})\mathbf{B}- \frac{1}{\mu_{0}}\mathbf{B}\times(\nabla\times\mathbf{B}) \\
 &-\varepsilon_{0}\frac{ \partial  }{ \partial t } (\mathbf{E}\times \mathbf{B})
 \end{align}$$
-
-> [!tip] Gradient of a scalar product
-> The [[gradient]] of a [[Scalar product|scalar product]] is
-> $$\nabla(\mathbf{V}\cdot \mathbf{W})=\mathbf{V}\times(\nabla\times\mathbf{W})+\mathbf{W}\times(\nabla\times\mathbf{V})+(\mathbf{V}\cdot \nabla)\mathbf{W}+(\mathbf{W}\cdot \nabla)\mathbf{V}$$
-> If $\mathbf{V}=\mathbf{W}=\mathbf{E}$ we find
-> $$\nabla(E^{2})=2\mathbf{E}\times(\nabla\times\mathbf{E})+2(\mathbf{E}\cdot \nabla)\mathbf{E}$$
-> and so
-> $$\mathbf{E}\times(\nabla\times\mathbf{E})=\frac{1}{2}\nabla(E^{2})-(\mathbf{E}\cdot \nabla)\mathbf{E}$$
-> Similarly, if $\mathbf{V}=\mathbf{W}=\mathbf{B}$ we get the same result:
-> $$\mathbf{B}\times(\nabla\times\mathbf{B})=\frac{1}{2}\nabla(B^{2})-(\mathbf{B}\cdot \nabla)\mathbf{B}$$
-
-With the above box and the definition of the [[Poynting vector]] $\mathbf{S}$, we now have pretty much everything to rewrite the force density in three major terms:
+The [[gradient]] of a [[Scalar product|scalar product]] is
+$$\nabla(\mathbf{V}\cdot \mathbf{W})=\mathbf{V}\times(\nabla\times\mathbf{W})+\mathbf{W}\times(\nabla\times\mathbf{V})+(\mathbf{V}\cdot \nabla)\mathbf{W}+(\mathbf{W}\cdot \nabla)\mathbf{V}$$
+If $\mathbf{V}=\mathbf{W}=\mathbf{E}$ we find
+$$\nabla(E^{2})=2\mathbf{E}\times(\nabla\times\mathbf{E})+2(\mathbf{E}\cdot \nabla)\mathbf{E}$$
+and so
+$$\mathbf{E}\times(\nabla\times\mathbf{E})=\frac{1}{2}\nabla(E^{2})-(\mathbf{E}\cdot \nabla)\mathbf{E}$$
+Similarly, if $\mathbf{V}=\mathbf{W}=\mathbf{B}$ we get the same result:
+$$\mathbf{B}\times(\nabla\times\mathbf{B})=\frac{1}{2}\nabla(B^{2})-(\mathbf{B}\cdot \nabla)\mathbf{B}$$
+With this and the definition of the [[Poynting vector]] $\mathbf{S}$, we now have pretty much everything to rewrite the force density in three major terms:
 $$\begin{align}
 \mathbf{f}&=\varepsilon_{0}\left[ (\nabla\cdot\mathbf{E})\mathbf{E}+(\mathbf{E}\cdot \nabla)\mathbf{E}- \frac{1}{2}\nabla(E^{2}) \right] \\
 &+\frac{1}{\mu_{0}}\left[(\nabla\cdot\mathbf{B})\mathbf{B}+(\mathbf{B}\cdot \nabla)\mathbf{B} -\frac{1}{2}\nabla(B^{2}) \right] \\

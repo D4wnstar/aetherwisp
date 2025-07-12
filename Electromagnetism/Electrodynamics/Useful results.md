@@ -144,6 +144,7 @@ Coordinate-free
 $$\mathbf{E}(\mathbf{r},t)\simeq \frac{\mu_{0}}{4\pi r}[(\hat{\mathbf{r}}\cdot \ddot{\mathbf{r}})\hat{\mathbf{r}}-\ddot{\mathbf{p}}]=\frac{\mu_{0}}{4\pi r}\hat{\mathbf{r}}\times(\hat{\mathbf{r}}\times \ddot{\mathbf{p}}),\qquad\mathbf{B}(\mathbf{r},t)\simeq - \frac{\mu_{0}}{4\pi cr}\hat{\mathbf{r}}\times \ddot{\mathbf{p}}=- \frac{1}{c}\hat{\mathbf{r}}\times \mathbf{E}$$
 Spherical coordinates
 $$\mathbf{E}(r,\theta,t)\simeq \frac{\mu_{0}\ddot{p}(t_{0})}{4\pi r}\sin \theta\ \hat{\boldsymbol{\theta}},\qquad \mathbf{B}(r,\theta,t)\simeq \frac{\mu_{0}\ddot{p}(t_{0})}{4\pi cr} \sin \theta\ \hat{\boldsymbol{\phi}}$$
+-
 $$\mathbf{S}(\mathbf{r},t)\simeq \frac{\mu_{0}}{16\pi ^{2}cr^{2}}[\ddot{p}(t_{0})]^{2}\sin ^{2}\theta\ \hat{\mathbf{r}},\qquad P_\text{rad}(t_{0})\simeq \frac{\mu_{0}}{6\pi c}[\ddot{p}(t_{0})]^{2}$$
 
 **Larmor formula and Liénard generalization**
