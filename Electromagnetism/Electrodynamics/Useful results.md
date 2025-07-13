@@ -88,12 +88,12 @@ Angle at which there is no reflection, $R=0$.
 $$\theta_{B}\simeq\arctan\left( \frac{n_{2}}{n_{1}} \right)$$
 
 **Critical angle**
-Angle after which total internal reflection occurs. Only when going from optically dense to thin, $n_{1}>n_{2}$. When $n_{1}<n_{2}$, critical angle is $\pi/2$, so orthogonal incidence, i.e. total reflection occurs when the wave hits the surface from the side.
+Angle after which there is no transmission, $T=0$ (total internal reflection). Only when going from optically dense to thin, $n_{1}>n_{2}$. When $n_{1}<n_{2}$, critical angle is $\pi/2$, so orthogonal incidence, i.e. total reflection occurs when the wave is parallel to the surface.
 $$\theta_{C}\equiv \arcsin\left( \frac{n_{2}}{n_{1}} \right)$$
 
 **Etendue (acceptance)**
 Etendue (or acceptance) is a measure of how spread out light is in area and angle. The angle of maximum etendue is
-$$\theta_{e}=\arcsin(\sqrt{ n_{1}^{2}-n_{2}^{2} })$$
+$$\theta_{e}=\arcsin\left(\sqrt{ n_{1}^{2}-n_{2}^{2} } \right)$$
 ### Potentials
 **Electrodynamic electric and magnetic fields**
 $$\mathbf{E}=-\nabla V-\frac{ \partial \mathbf{A} }{ \partial t },\qquad \mathbf{B}=\nabla\times \mathbf{A} $$
@@ -128,7 +128,7 @@ where $\mathbf{R}\equiv \mathbf{r}-\mathbf{v}t$ is the vector from the present l
 ### Radiation
 **Oscillating electric dipole (far field)**
 $$V(r,\theta,t)=- \frac{p_{0}\cos\theta}{4\pi \varepsilon r}\frac{\omega}{c} \sin\left[ \omega\left( t- \frac{r}{c} \right) \right],\qquad\mathbf{A}(r,\theta,t)=- \frac{\mu_{0}p_{0}\omega}{4\pi r}\sin\left[ \omega\left( t- \frac{r}{c} \right) \right]\hat{\mathbf{z}}$$
-$$\mathbf{E}=- \frac{\mu_{0}p_{0}\omega ^{2}}{4\pi r}\sin \theta\cos\left[ \omega\left( t- \frac{r}{c} \right) \right]\hat{\boldsymbol{\theta}},\qquad\mathbf{B}=- \frac{\mu_{0}p_{0}\omega ^{2}}{4\pi c}\left( \frac{\sin\theta}{r} \right)\cos\left[ \omega\left( t- \frac{r}{c} \right) \right]\hat{\boldsymbol{\phi}}$$
+$$\mathbf{E}=- \frac{\mu_{0}p_{0}\omega ^{2}}{4\pi r}\sin \theta\cos\left[ \omega\left( t- \frac{r}{c} \right) \right]\hat{\boldsymbol{\theta}},\qquad\mathbf{B}=- \frac{\mu_{0}p_{0}\omega ^{2}}{4\pi cr}\sin\theta\cos\left[ \omega\left( t- \frac{r}{c} \right) \right]\hat{\boldsymbol{\phi}}$$
 $$\mathbf{S}(\mathbf{r},t) =\frac{\mu_{0}}{c}\left[ \frac{p_{0}\omega ^{2}}{4\pi r} \sin\theta\cos\left[ \omega\left( t- \frac{r}{c} \right) \right] \right]^{2}\hat{\mathbf{r}},\qquad I=\frac{\mu_{0}p_{0}^{2}\omega^{4}}{32\pi ^{2}c} \frac{\sin^{2}\theta}{r^{2}},\qquad\langle P \rangle =\frac{\mu_{0}p_{0}^{2}\omega^{4}}{12\pi c}$$
 (Tip: Fields superimpose due to Maxwell's equations' linearity. Irradiance is quadratic so it doesn't.)
 
@@ -147,8 +147,15 @@ $$\mathbf{E}(r,\theta,t)\simeq \frac{\mu_{0}\ddot{p}(t_{0})}{4\pi r}\sin \theta\
 -
 $$\mathbf{S}(\mathbf{r},t)\simeq \frac{\mu_{0}}{16\pi ^{2}cr^{2}}[\ddot{p}(t_{0})]^{2}\sin ^{2}\theta\ \hat{\mathbf{r}},\qquad P_\text{rad}(t_{0})\simeq \frac{\mu_{0}}{6\pi c}[\ddot{p}(t_{0})]^{2}$$
 
+**Radiation resistance**
+$$R_\text{rad}=\frac{\langle P_\text{rad} \rangle}{\langle I \rangle ^{2}}$$
+where $I$ is the current that powers the source.
+
 **Larmor formula and Liénard generalization**
 $$P=\frac{\mu_{0}q^{2}a^{2}}{6\pi c},\qquad P_\text{charge}=\frac{\mu_{0}q^{2}\gamma^{6}}{6\pi c}\left( a^{2}- \left\lvert  \frac{\mathbf{v}\times \mathbf{a}}{c}  \right\rvert ^{2} \right)$$
+
+**Radiation reaction (periodic motion)**
+$$\mathbf{F}_\text{rad}=\frac{\mu_{0}q^{2}}{6\pi c}\dot{\mathbf{a}}$$
 ### Relativity
 **Postulates**
 1. The laws of physics are the same in all inertial [[frame of reference|frames of reference]].
@@ -178,6 +185,7 @@ $$d\tau=\sqrt{ 1- \frac{v^{2}}{c^{2}} }dt=\frac{dt}{\gamma},\qquad\eta^{\mu}=\fr
 **Four-momentum, relativistic energy, rest energy, relativistic kinetic energy**
 $$p^{\mu}=m\eta^{\mu}=\left(\frac{E}{c},\;\mathbf{p}\right)=(\gamma mc,\gamma m\mathbf{v}),\qquad E=\sqrt{ p^{2}c^{2}+m^{2}c^{4} }=\gamma mc^{2}$$
 $$E^{2}=E_{0}^{2}+K^{2},\qquad E_{0}=mc^{2},\qquad K=(\gamma-1)mc^{2}=E-E_{0}$$
+$$\gamma=\frac{E}{mc^{2}},\qquad\beta=\frac{pc}{E}$$
 
 **Minkowski force**
 $$K^{\mu}\equiv \frac{dp^{\mu}}{d\tau},\qquad\mathbf{K}=\gamma\mathbf{F}$$

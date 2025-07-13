@@ -3,7 +3,7 @@ wiki-publish: true
 ---
 A **Gaussian integral** is an integral of the form
 $$\int_{-\infty}^{\infty} e^{-a(x+b)^{2}} \ dx=\sqrt{ \frac{\pi}{a} } $$
-Strictly speaking, *the* Gaussian integral is the one with $a=b=1$:
+where the integrand is reminiscent of a [[Gaussian distribution|standard normal distribution]], hence the name. Strictly speaking, *the* Gaussian integral is the one with $a=b=1$:
 $$\int_{-\infty}^{\infty} e^{-x^{2}} \ dx =\sqrt{ \pi }$$
 This integral commonly occurs in quantum mechanics (e.g. in the [[Oscillatore armonico quantistico|quantum harmonic oscillator]] [[Stationary state|energy eigenstates]]), statistical mechanics (e.g. in [[Canonical ensemble|canonical]] and [[Grand canonical ensemble|grand canonical]] [[Partition function|partition functions]]) and statistics (e.g. in calculating [[function moments]]).
 ### Solution

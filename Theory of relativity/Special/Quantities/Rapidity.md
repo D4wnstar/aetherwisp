@@ -28,5 +28,3 @@ $$\beta=\tanh(y)$$
 ### As a hyperbolic rotation
 Then we can interpret a [[Lorentz transformation]] as a hyperbolic [[rotation]] in [[spacetime]], with rapidity representing the angle of rotation:
 $$\pmatrix{ct' \\ x' \\ y' \\ z'}=\pmatrix{\cosh y & -\sinh y & 0 & 0 \\ -\sinh y & \cosh y & 0 & 0 \\ 0 & 0 & 1 & 0 \\ 0 & 0 & 0 & 1}\pmatrix{ct \\ x \\ y \\ z}$$
-We can invert the above relation to define $y$
-$$y=\text{arctanh}\left(\frac{pc}{E}\right)=\frac{1}{2}\ln\left(\frac{E-pc}{E+pc}\right)$$

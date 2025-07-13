@@ -69,8 +69,6 @@ $$\left\{\begin{align}
 &t'=\gamma\left( t- \frac{\beta}{c}x \right)
 \end{align}\right.$$
 Note how when $v\ll c$, then $\gamma\to 1$ and $\beta\to 0$ and these go back to being the usual Galilean transformations.
-### Limite relativistico
-Gli effetti relativistici diventano importanti solo quando la velocità di un oggetto si avvicina a quella della luce. Si dice **limite relativistico** il limite oltre il quale bisogna usare la relatività per evitare errori grandi. Matematicamente, il limite equivale ad avere $\beta\sim1$ e $\gamma>1$. Si dice **regime ultrarelativistico** le condizioni $\beta\sim1$ e $\gamma\gg1$.
 ### As a hyperbolic rotation
 A Lorentz transformation is a hyperbolic [[rotation]] in spacetime, the angle of which is called the [[rapidity]] $y$:
 $$\pmatrix{ct' \\ x' \\ y' \\ z'}=\pmatrix{\cosh y & -\sinh y & 0 & 0 \\ -\sinh y & \cosh y & 0 & 0 \\ 0 & 0 & 1 & 0 \\ 0 & 0 & 0 & 1}\pmatrix{ct \\ x \\ y \\ z}$$
