@@ -63,7 +63,7 @@ In the same way as the vacuum laws, we can find Laplacians for matter laws too. 
 $$\boxed{\nabla ^{2}\mathbf{E}=\varepsilon\mu\frac{ \partial ^{2}\mathbf{E} }{ \partial t^{2} } ,\qquad \nabla ^{2}\mathbf{B}=\varepsilon\mu\frac{ \partial ^{2}\mathbf{B} }{ \partial t^{2} }}$$
 The only difference is that we are using general [[permittivity]] and [[permability]] instead of the vacuum one. One interesting difference is that speed also changes accordingly:
 $$v=\frac{1}{\sqrt{ \varepsilon \mu }}=\frac{1}{\sqrt{ \varepsilon_{0}\varepsilon_{r}\mu_{0}\mu_{r} }}=\underbrace{ \frac{1}{\sqrt{ \varepsilon_{0} \mu_{0} }} }_{ c } \underbrace{ \frac{1}{\sqrt{ \varepsilon_{r}\mu_{r} }} }_{ 1/n }=\frac{c}{n}$$
-Clearly then, since both $\varepsilon_{r}\geq1$ and $\mu_{r}\geq1$, our quantity $n$, which we call the **[[refractive index]]**, must itself be $n\geq1$. As such, the speed of light is *always diminished* when in matter, by some quantity characteristic of the material itself. It must be, then, that the speed of light is the vacuum is the upper limit: even before the dawn of special relativity, the speed of light could not be surpassed by electrodynamics alone[^2].
+Clearly then, since both $\varepsilon_{r}\geq1$ and $\mu_{r}\geq1$, our quantity $n$, which we call the **[[refractive index]]**, must itself be $n\geq1$. As such, the speed of light is *always diminished* when in matter, by some quantity characteristic of the material itself. It must be, then, that the speed of light is the vacuum is the upper limit: even before the dawn of special relativity, the speed of light could not be surpassed with just electrodynamics[^2].
 #### Waves in conductors
 Outside of dielectrics, things get tricky. Free charges are near-infinite, so certainly cannot afford to state that they are approximately zero. We must therefore tackle Maxwell's equations head-on. We'll start by invoking [[Ohm's law]], which means reducing ourselves to linear, homogeneous and isotropic media:
 $$\mathbf{J}_{f}=\sigma \mathbf{E}$$
@@ -78,7 +78,7 @@ The [[Electric current|continuity equation]] for free current, $\nabla\cdot \mat
 $$\frac{ \partial \rho_{f} }{ \partial t } =-\nabla\cdot \mathbf{J}_{f}=-\nabla\cdot(\sigma \mathbf{E})=- \frac{\sigma}{\varepsilon}\rho_{f}$$
 This is a rather simple first-order [[partial differential equation]] that solves to
 $$\rho_{f}(t)=\rho_{f}(0)e^{-(\sigma/\varepsilon)t}$$
-This explains the redistribution of charge over the surface of a conductor. $\sigma/\varepsilon\equiv \tau$ is the characteristic time of the conductor, which is a constant similar to the [[electrical conductivity]]. In perfect conductors ($\sigma\to \infty$) it is more or less zero, meaning the charge redistribution is instant[^3]. This isn't that important though: what is important is that free charges disappears *fast*, and when they do, we are back to $\rho_{f}=0$.
+This explains the redistribution of charge over the surface of a conductor. $\varepsilon/\sigma\equiv \tau$ is the characteristic time of the conductor, which is a constant similar to the [[electrical conductivity]]. In perfect conductors ($\sigma\to \infty$) it is more or less zero, meaning the charge redistribution is instant[^3]. This isn't that important though: what is important is that free charges disappears *fast*, and when they do, we are back to $\rho_{f}=0$.
 $$\begin{align}
 \nabla\cdot\mathbf{E} & =0 &
 \nabla\times\mathbf{E} & = -\frac{ \partial \mathbf{B} }{ \partial t } \\
@@ -126,7 +126,7 @@ Now *this* is irrotational and we can thus will a potential into existence:
 $$\mathbf{E}+\frac{ \partial \mathbf{A} }{ \partial t } =-\nabla V$$
 or, isolating the field
 $$\boxed{\mathbf{E}=-\nabla V-\frac{ \partial \mathbf{A} }{ \partial t } }\tag{1}$$
-This is the time-dependent electric field in terms of potentials[^4]. Mix it with the fact that the magnetic field still has no divergence and is still $\mathbf{B}=\nabla\times \mathbf{A}$ and we have all our cards on the table to shed fields in favor of potentials. Next step: actually do that.
+This is the time-dependent electric field in terms of potentials. Mix it with the fact that the magnetic field still has no divergence and is still $\mathbf{B}=\nabla\times \mathbf{A}$ and we have all our cards on the table to shed fields in favor of potentials. Next step: actually do that.
 
 The equation $\nabla\cdot \mathbf{B}=0$ is trivially satisfied: we haven't changed anything on the magnetic field. Similarly, $\nabla\times \mathbf{E}=-\frac{ \partial \mathbf{A} }{ \partial t }$ is still true because that's how we got to $(1)$ in the first place. We need to check what becomes of $\nabla\cdot \mathbf{E}$ and $\nabla\times \mathbf{B}$, i.e. Gauss' law and Ampere-Maxwell's law. When we substitute $(1)$ in Gauss' law we get
 $$\nabla ^{2}V+\frac{ \partial  }{ \partial t } (\nabla\cdot \mathbf{A})=- \frac{\rho}{\varepsilon_{0}}$$
@@ -139,7 +139,7 @@ On paper, this is the potential form of Maxwell's equation. It is also horribly 
 As a side note, if we define $L\equiv \nabla\cdot \mathbf{A}+\mu_{0}\varepsilon_{0}\ \partial V/\partial t$ and invoke the [[d'Alembertian]] operator, we can write Maxwell's equations in potential form as
 $$\boxed{\square ^{2}V+\frac{ \partial L }{ \partial t } =- \frac{\rho}{\varepsilon_{0}},\qquad\square ^{2}\mathbf{A}-\nabla L=-\mu_{0}\mathbf{J}}$$
 #### Gauge freedom
-You may yet be wondering gauge freedom matters. Instead of explaining it with words, let's just do the math directly. Call $\nabla \lambda=\boldsymbol{\alpha}$ the gradient of a scalar field we add onto $\mathbf{A}$. Call $\beta$ the constant we add onto $V$. Our new potentials are then $\mathbf{A}'=\mathbf{A}+\boldsymbol{\alpha}$ and $V'=V+\beta$. The two are not independent of each other: for $(1)$ to give the old field with the new potentials we must have
+You may be wondering why gauge freedom matters. Instead of explaining it with words, let's just do the math directly. Call $\nabla \lambda=\boldsymbol{\alpha}$ the gradient of a scalar field we add onto $\mathbf{A}$. Call $\beta$ the constant we add onto $V$. Our new potentials are then $\mathbf{A}'=\mathbf{A}+\boldsymbol{\alpha}$ and $V'=V+\beta$. The two are not independent of each other: for $(1)$ to give the old field with the new potentials we must have
 $$-\nabla V-\frac{ \partial \mathbf{A} }{ \partial t } =-\nabla V'-\frac{ \partial \mathbf{A}' }{ \partial t } $$
 which gives
 $$\nabla \beta+\frac{ \partial \boldsymbol{\alpha} }{ \partial t } =\nabla\left( \beta+\frac{ \partial \lambda }{ \partial t }  \right)=0$$
@@ -238,8 +238,6 @@ using the relativistic [[d'Alembertian]]. This equation contains the entirety of
 
 [^1]: For correctness' sake, the charges themselves only *align* with the polarization, but don't move much. If they did all actually move to the surface, we'd be working with [[conductor|conductors]] and not with polarized [[dielectric|dielectrics]]. Still, this alignment motion is sufficient to produce a small current.
 
-[^2]: Of course, Galilean relativity would still debate that the speed of light cannot be a universal speed limit since it can always be summed with the speed of the [[frame of reference]] (at least in an inertial frame), thus always being able to achieve a faster speed by just changing perspective. Of course we now know this is wrong, but this problem is about *mechanics*; *electromagnetism*, on the other hand, was always right.
+[^2]: Of course, [[Galilean relativity]] would still debate that the speed of light cannot be a universal speed limit since it can always be summed with the speed of the [[frame of reference]] (at least in an inertial frame), thus always being able to achieve a faster speed by just changing perspective. Of course we now know this is wrong, but this problem is about *mechanics*; *electromagnetism*, on the other hand, was always right.
 
 [^3]: In practice, it actually isn't, not just because that would be physically impossible but because Ohm's law is a rather high-level approximation and starts to break down around the mean time between [[electron]] collisions, which is $\tau_{C} \simeq 10^{-14}$. Coincidentally, this is also the order of magnitude of time it takes for charges to redistribute. The *actual* theory of conduction is a lot more complicated; see for instance [[Ideal crystal#Electronic structure]] for a quantum-mechanical approach for crystalline solids.
-
-[^4]: The presence of both a scalar and vector potentials points to this being an example of the [[Helmholtz theorem]].

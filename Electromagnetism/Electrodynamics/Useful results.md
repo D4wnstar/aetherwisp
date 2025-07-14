@@ -88,8 +88,8 @@ Angle at which there is no reflection, $R=0$.
 $$\theta_{B}\simeq\arctan\left( \frac{n_{2}}{n_{1}} \right)$$
 
 **Critical angle**
-Angle after which there is no transmission, $T=0$ (total internal reflection). Only when going from optically dense to thin, $n_{1}>n_{2}$. When $n_{1}<n_{2}$, critical angle is $\pi/2$, so orthogonal incidence, i.e. total reflection occurs when the wave is parallel to the surface.
-$$\theta_{C}\equiv \arcsin\left( \frac{n_{2}}{n_{1}} \right)$$
+Angle after which there is no transmission, $T=0$ (total internal reflection). Only when going from optically dense to thin, $n_\text{inner}>n_\text{outer}$. When $n_\text{inner}<n_\text{outer}$, critical angle is $\pi/2$, so orthogonal incidence, i.e. total reflection occurs when the wave is parallel to the surface.
+$$\theta_{C}\equiv \arcsin\left( \frac{n_\text{outer}}{n_\text{inner}} \right)$$
 
 **Etendue (acceptance)**
 Etendue (or acceptance) is a measure of how spread out light is in area and angle. The angle of maximum etendue is
@@ -114,7 +114,7 @@ $$\mathbf{B}(\mathbf{r},t)=\frac{\mu_{0}}{4\pi}\int_{\mathcal{V}}\frac{\mathbf{J
 
 **Liénard-Wiechert potentials**
 Retarded potentials of a point charge
-$$V(\mathbf{r},t)=\frac{1}{4\pi \varepsilon_{0}} \frac{qc}{(\mathfrak{r}c-\boldsymbol{\mathfrak{r}}\cdot \mathbf{v})},\qquad\mathbf{A}(\mathbf{r},t)=\frac{\mu_{0}}{4\pi} \frac{qc\mathbf{v}}{(\mathfrak{r}c+\boldsymbol{\mathfrak{r}}\cdot \mathbf{v})}=\frac{\mathbf{v}}{c^{2}}V(\mathbf{r},t)$$
+$$V(\mathbf{r},t)=\frac{1}{4\pi \varepsilon_{0}} \frac{qc}{(\mathfrak{r}c-\boldsymbol{\mathfrak{r}}\cdot \mathbf{v})},\qquad\mathbf{A}(\mathbf{r},t)=\frac{\mu_{0}}{4\pi} \frac{qc\mathbf{v}}{(\mathfrak{r}c-\boldsymbol{\mathfrak{r}}\cdot \mathbf{v})}=\frac{\mathbf{v}}{c^{2}}V(\mathbf{r},t)$$
 
 **Fields of a point charge**
 Derived from the Liénard-Wiechert potentials
@@ -144,7 +144,7 @@ Coordinate-free
 $$\mathbf{E}(\mathbf{r},t)\simeq \frac{\mu_{0}}{4\pi r}[(\hat{\mathbf{r}}\cdot \ddot{\mathbf{r}})\hat{\mathbf{r}}-\ddot{\mathbf{p}}]=\frac{\mu_{0}}{4\pi r}\hat{\mathbf{r}}\times(\hat{\mathbf{r}}\times \ddot{\mathbf{p}}),\qquad\mathbf{B}(\mathbf{r},t)\simeq - \frac{\mu_{0}}{4\pi cr}\hat{\mathbf{r}}\times \ddot{\mathbf{p}}=- \frac{1}{c}\hat{\mathbf{r}}\times \mathbf{E}$$
 Spherical coordinates
 $$\mathbf{E}(r,\theta,t)\simeq \frac{\mu_{0}\ddot{p}(t_{0})}{4\pi r}\sin \theta\ \hat{\boldsymbol{\theta}},\qquad \mathbf{B}(r,\theta,t)\simeq \frac{\mu_{0}\ddot{p}(t_{0})}{4\pi cr} \sin \theta\ \hat{\boldsymbol{\phi}}$$
--
+where $t_{0}$ is the time of radiation emission.
 $$\mathbf{S}(\mathbf{r},t)\simeq \frac{\mu_{0}}{16\pi ^{2}cr^{2}}[\ddot{p}(t_{0})]^{2}\sin ^{2}\theta\ \hat{\mathbf{r}},\qquad P_\text{rad}(t_{0})\simeq \frac{\mu_{0}}{6\pi c}[\ddot{p}(t_{0})]^{2}$$
 
 **Radiation resistance**

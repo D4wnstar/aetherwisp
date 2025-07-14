@@ -8,7 +8,7 @@ aliases:
 ---
 The **Liénard-Wiechert potentials** are the [[retarded potentials]] of a [[Electric charge|point charge]] $q$ moving on a specific trajectory:
 $$V(\mathbf{r},t)=\frac{1}{4\pi \varepsilon_{0}} \frac{qc}{(\mathfrak{r}c-\boldsymbol{\mathfrak{r}}\cdot \mathbf{v})}$$
-$$\mathbf{A}(\mathbf{r},t)=\frac{\mu_{0}}{4\pi} \frac{qc\mathbf{v}}{(\mathfrak{r}c+\boldsymbol{\mathfrak{r}}\cdot \mathbf{v})}=\frac{\mathbf{v}}{c^{2}}V(\mathbf{r},t)$$
+$$\mathbf{A}(\mathbf{r},t)=\frac{\mu_{0}}{4\pi} \frac{qc\mathbf{v}}{(\mathfrak{r}c-\boldsymbol{\mathfrak{r}}\cdot \mathbf{v})}=\frac{\mathbf{v}}{c^{2}}V(\mathbf{r},t)$$
 $\mathbf{v}$ is the velocity of the charge at the [[retarded time]] and $\boldsymbol{\mathfrak{r}}$ is the distance between the retarded position (the position at the retarded time) to the field point $\mathbf{r}$.
 
 These potentials lead to the general [[Electric field|electric]] and [[magnetic field]] of a moving point charge:
