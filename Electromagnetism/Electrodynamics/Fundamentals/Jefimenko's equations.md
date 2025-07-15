@@ -10,7 +10,7 @@ Given the [[retarded potentials]]
 $$V(\mathbf{r},t)=\frac{1}{4\pi \varepsilon_{0}}\int \frac{\rho(\mathbf{r}',t_{r})}{\mathfrak{r}} \ d\tau',\qquad \mathbf{A}(\mathbf{r},t)=\frac{\mu_{0}}{4\pi}\int \frac{\mathbf{J}(\mathbf{r}',t_{r})}{\mathfrak{r}} \ d\tau'  $$
 for retarded time $t_{r}$, the electric and magnetic fields can be obtained from
 $$\mathbf{E}=-\nabla V-\frac{ \partial \mathbf{A} }{ \partial t } ,\qquad \mathbf{B}=\nabla\times \mathbf{A}$$
-The calculation itself is not complicated by the fact that the retarded time is itself dependent on position and complicates the derivatives. The [[gradient]] of $V$ can be found in the retarded potentials article and is
+The calculation itself is complicated by the fact that the retarded time is itself dependent on position and complicates the derivatives. The [[gradient]] of $V$ can be found in the retarded potentials article and is
 $$\nabla V=\frac{1}{4\pi \varepsilon_{0}}\int_{\mathcal{V}}\left[ - \frac{\dot{\rho}}{c} \frac{\hat{\boldsymbol{\mathfrak{r}}}}{\mathfrak{r}}-\rho \frac{\hat{\boldsymbol{\mathfrak{r}}}}{\mathfrak{r}^{2}} \right]d\tau'$$
 The time derivative of $\mathbf{A}$ is
 $$\frac{ \partial \mathbf{A} }{ \partial t } =\frac{\mu_{0}}{4\pi}\int_{\mathcal{V}}\frac{\dot{\mathbf{J}}}{\mathfrak{r}}d\tau'$$

@@ -16,8 +16,12 @@ assuming the propagate on the $x$ axis. The real fields can be recovered by taki
 Maxwell's equation determine the fields, so the conditions must be applied to $\tilde{\mathbf{E}}_{0}$ and $\tilde{\mathbf{B}}_{0}$. These conditions are the values of the [[divergence]] and [[curl]]. The divergence of these fields in a vacuum is zero, so it must be that
 $$\tilde{E}_{0,x}=\tilde{B}_{0,x}=0$$
 Intuitively, this is because the divergence in a way represents propagation. As such, if it must be zero, then the field cannot possibly extend in the direction of propagation (we choose $x$ as this direction). But if the oscillation of field cannot be in the direction of propagation, then *all electromagnetic waves must be transverse*! That's it for divergence. The curls on the other hand tell us that the fields induce each other, so clearly there has to be some connection between electric waves and magnetic waves. The curl of $\mathbf{E}$ ([[Faraday's law]]) gives one connection (by looking at the components of the [[vector product]] directly):
-$$-k\tilde{E}_{0,y}=\omega \tilde{B}_{0,z},\qquad-k\tilde{E}_{0,z}=\omega \tilde{B}_{0,y}$$
-or with the vector product
+$$\nabla\times \tilde{\mathbf{E}}=-\frac{ \partial \tilde{E}_{z} }{ \partial x } \hat{\mathbf{y}}+\frac{ \partial \tilde{E}_{y} }{ \partial x } \hat{\mathbf{z}}=-\tilde{E}_{0,z}ike^{i(kx-\omega t)}\hat{\mathbf{y}}+\tilde{E}_{0,y}ike^{i(kx-\omega t)}\hat{\mathbf{z}}=ik(-\tilde{E}_{z}\hat{\mathbf{y}}+\tilde{E}_{y}\hat{\mathbf{z}})$$
+and also
+$$\nabla\times \tilde{\mathbf{E}}=-\frac{ \partial \tilde{\mathbf{B}} }{ \partial t }=\tilde{\mathbf{B}}_{0}i\omega e^{i(kx-\omega t)}=i\omega \tilde{\mathbf{B}}=i\omega(B_{y}\hat{\mathbf{y}}+B_{z}\hat{\mathbf{z}})$$
+(since the $x$ component is guaranteed zero). So, comparing the two:
+$$-k\tilde{E}_{0,z}=\omega \tilde{B}_{0,y},\qquad k\tilde{E}_{0,y}=\omega \tilde{B}_{0,z}$$
+which is equivalent to the vector product
 $$\tilde{\mathbf{B}}_{0}=\frac{k}{\omega}(\hat{\mathbf{x}}\times \tilde{\mathbf{E}}_{0})$$
 The curl of $\mathbf{B}$ provides nothing new: it just recreates this formula starting from the other side. This should be enough to convince you that the electric and magnetic parts of the wave not only are symmetric, but also *strongly* linked to each other, for they must be both in [[phase]] and mutually [[Orthogonality|perpendicular]] (due to the vector product). Their real [[Amplitude|amplitudes]] must be related by
 $$B_{0}=\frac{k}{\omega}E_{0}=\frac{1}{c}E_{0}\tag{1}$$
@@ -106,13 +110,13 @@ We can solve these to express reflected and transmitted amplitude in terms of th
 $$\boxed{\tilde{E}_{0,R}=\left( \frac{1-\beta}{1+\beta} \right)\tilde{E}_{0,I},\qquad \tilde{E}_{0,T}=\left( \frac{2}{1+\beta} \right)\tilde{E}_{0,T}}$$
 These are the amplitudes we were looking for. These are true in general for electromagnetic sine waves at normal incidence. We can however squeeze more physical significance out of these. This is because in most materials, the relative permeability is *essentially* one, and so $\mu \simeq \mu_{0}$. Thus, $\beta$ simplifies down to $\beta \simeq n_{2}/n_{1}$ and our amplitudes become
 $$\tilde{E}_{0,R}\simeq\left( \frac{n_{1}-n_{2}}{n_{1}+n_{2}} \right)\tilde{E}_{0,I},\qquad \tilde{E}_{0,T}\simeq\left( \frac{2n_{1}}{n_{1}+n_{2}} \right)\tilde{E}_{0,I}$$
-Don't let the approximate equals sign fool you: these are perfectly valid equations in most materials. These of course fail when $\mu_{r}\gg1$, as is the case in many metals and generally all strong magnetic amplifiers, but most other materials have quite negligible relative permeabilities, so these are safe to use. The real parts are
-$$E_{0,R}\simeq \left\lvert  \frac{n_{1}-n_{2}}{n_{1}+n_{2}}  \right\rvert E_{0,I},\qquad E_{0,T}\simeq \left\lvert  \frac{2n_{1}}{n_{1}+n_{2}}  \right\rvert E_{0,I}$$
-The amplitudes themselves are theoretically important, but in practice one generally cares about the irradiance of the wave. Since the amplitude uniquely determines the irradiance according to
+Don't let the approximate equals sign fool you: these are perfectly valid equations in most materials. These of course fail when $\mu_{r}\gg1$, as is the case in many metals and generally all strong magnetic amplifiers, but most other materials have quite negligible relative permeabilities, so these are safe to use. If $n_{1}<n_{2}$, the reflected wave is flipped upside down compared to the incident wave (a minus sign on complex amplitude corresponds to a $\pi$ [[phase]] shift). If $n_{1}>n_{2}$, then the phase is the same. The real parts are
+$$E_{0,R}\simeq \left\lvert  \frac{n_{1}-n_{2}}{n_{1}+n_{2}}  \right\rvert E_{0,I},\qquad E_{0,T}\simeq \left(  \frac{2n_{1}}{n_{1}+n_{2}}   \right) E_{0,I}$$
+The amplitudes themselves are theoretically important, but in practice one generally cares about the irradiance of the wave. The amplitude uniquely determines the irradiance according to
 $$\boxed{I_{I}=\frac{\varepsilon c}{2n_{1}}E_{0,I}^{2},\qquad I_{R}=\frac{\varepsilon c}{2n_{1}}E_{0,R}^{2},\qquad I_{T}=\frac{\varepsilon c}{2n_{2}}E_{0,T}^{2}}$$
 More so than the irradiances themselves though, it's interesting to see how they change after reflection or transmission. We do this by finding the ratios between incident and reflected/transmitted irradiance:
 $$\boxed{R\equiv \frac{I_{R}}{I_{I}}=\left( \frac{E_{0,R}}{E_{0,I}} \right)^{2}=\left( \frac{n_{1}-n_{2}}{n_{1}+n_{2}} \right)^{2},\qquad T\equiv \frac{I_{T}}{I_{I}}=\frac{\varepsilon_{2}n_{1}}{\varepsilon_{1}n_{2}}\left( \frac{E_{0,T}}{E_{0,I}} \right)^{2}=\frac{4n_{1}n_{2}}{(n_{1}+n_{2})^{2}}}$$
-These are known as the **Fresnel coefficients** (also called **reflection** and **transmission coefficients** or **reflectance** and **transmittance**) and represent the fraction of the irradiance that is transferred to the reflected and transmitted waves on interface interaction. Note that, since energy must be conserved, these coefficients abide by
+These are known as the **reflection** and **transmission coefficients** (or **reflectance** and **transmittance**) and represent the fraction of the irradiance that is transferred to the reflected and transmitted waves on interface interaction. The ratios of the electric fields are instead called the **Fresnel coefficients**, and the reflectance and transmittance are their squares. Note that, since energy must be conserved, these coefficients abide by
 $$R+T=1$$
 as can be shown by doing the math directly.
 
@@ -134,8 +138,20 @@ The wavevectors are all connected by
 $$\frac{k_{I}}{n_{1}}=\frac{k_{R}}{n_{1}}=\frac{k_{T}}{n_{2}}=\omega \quad\Rightarrow \quad k_{I}=k_{R}=\frac{n_{1}}{n_{2}}k_{T}\tag{1}$$
 These waves must obey the boundary conditions, so $\tilde{\mathbf{E}}_{I}+\tilde{\mathbf{E}}_{R}$ and $\tilde{\mathbf{B}}_{I}+\tilde{\mathbf{B}}_{R}$ must be joined with $\tilde{\mathbf{E}}_{T}$ and $\tilde{\mathbf{B}}_{T}$ in a way that satisfies the conditions. Altogether we get
 $$ae^{i(\mathbf{k}_{I}\cdot \mathbf{r}-\omega t)}+be^{i(\mathbf{k}_{R}\cdot \mathbf{r}-\omega t)}=ce^{i(\mathbf{k}_{T}\cdot \mathbf{r}-\omega t)}$$
-where $a,b$ and $c$ are some values that we'll determine later. Right now we care about the exponentials: notice how the time-frequency part is trivially equal already, since the angular frequency is shared across all waves. Thus, the only part of the exponentials that needs to match is
-$$\mathbf{k}_{I}\cdot \mathbf{r}=\mathbf{k}_{R}\cdot \mathbf{r}=\mathbf{k}_{T}\cdot \mathbf{r}\quad\text{with }x=0\tag{2}$$
+where $a,b$ and $c$ are some values that we'll determine later. Right now we care about the exponentials. For this equality to be true, we need
+$$a+b=c,\quad \mathbf{k}_{I}\cdot \mathbf{r}-\omega t=\mathbf{k}_{R}\cdot \mathbf{r}-\omega t =\mathbf{k}_{T}\cdot \mathbf{r}-\omega t$$
+
+> [!quote]- Proof
+> Say you have the equation $Ae^{iax}+Be^{ibx}=Ce^{ icx }$ where $A,B,C,a,b,c$ are all nonzero. For $x=0$, we have $A+B=C$. For any $x$, take the derivative
+> $$iaAe^{ iax }+ibBe^{ ibx }=icCe^{ icx }$$
+> Divide by $i$ to get
+> $$aAe^{ iax }+bBe^{ ibx }=cCe^{icx}$$
+> Notice how the right hand side is the same as the starting equation, just multiplied by $c$. So, we can say
+> $$aAe^{ iax }+bBe^{ ibx }=c(Ae^{ iax }+Be^{ ibx })\quad\Rightarrow \quad (a-c)Ae^{ iax }+(b-c)Be^{ ibx }=0$$
+> Since $A,B\neq 0$ and $e^{iax},e^{ ibx }$ are nonzero for all $x$, the only way this is true is if $a=b=c$.
+
+The time-frequency part is trivially equal already and drops out, so the only part that the exponentials need to match is
+$$\mathbf{k}_{I}\cdot \mathbf{r}=\mathbf{k}_{R}\cdot \mathbf{r}=\mathbf{k}_{T}\cdot \mathbf{r}\quad\text{on the surface}\tag{2}$$
 Writing the components out gives us
 $$yk_{I,y}+zk_{I,z}=yk_{R,y}+zk_{R,z}=yk_{T,y}+zk_{T,z}$$
 This is true only if the components are individually equal, so when $y=0$ we get
@@ -172,9 +188,9 @@ $$\begin{align}
 \varepsilon_{1}(\tilde{\mathbf{E}}_{0,I}+\tilde{\mathbf{E}}_{0,R})_{x}& =\varepsilon_{2}(\tilde{\mathbf{E}}_{0,T})_{x} & (\tilde{\mathbf{E}}_{0,I}+\tilde{\mathbf{E}}_{0,R})_{y,z} & =(\tilde{\mathbf{E}}_{0,T})_{y,z} \\
 (\tilde{\mathbf{B}}_{0,I}+\tilde{\mathbf{B}}_{0,R})_{x} & =(\tilde{\mathbf{B}}_{0,T})_{x} & \frac{1}{\mu_{1}}(\tilde{\mathbf{B}}_{0,I}+\tilde{\mathbf{B}}_{0,R})_{y,z}&=\frac{1}{\mu_{2}}(\tilde{\mathbf{B}}_{0,T})_{y,z}
 \end{align}$$
-Suppose that the incident wave is polarized in parallel to the plane of incidence. Then, the reflected and transmitted waves must themselves be polarized in the same plane[^3]. In this case, we get
+Suppose that the incident wave is polarized parallel to the plane of incidence. Then, the reflected and transmitted waves must themselves be polarized in the same plane[^3]. In this case, we get
 $$\begin{align}
-\varepsilon_{1}(-\tilde{E}_{0,I}\sin \theta_{I}+\tilde{E}_{0,R}) & =\varepsilon_{2}(-\tilde{E}_{0,T}\sin \theta_{T}) & \tilde{E}_{0,I}\cos \theta_{I}+\tilde{E}_{0,R}\cos \theta_{R} & =\tilde{E}_{0,T}\cos \theta_{T} \\
+\varepsilon_{1}(-\tilde{E}_{0,I}\sin \theta_{I}+\tilde{E}_{0,R}\sin \theta_{R}) & =\varepsilon_{2}(-\tilde{E}_{0,T}\sin \theta_{T}) & \tilde{E}_{0,I}\cos \theta_{I}+\tilde{E}_{0,R}\cos \theta_{R} & =\tilde{E}_{0,T}\cos \theta_{T} \\
 0 & =0 & \frac{n_{1}}{\mu_{1}}(\tilde{E}_{0,I}+\tilde{E}_{0,R})&=\frac{n_{2}}{\mu_{2}}\tilde{E}_{0,T}
 \end{align}$$
 Using the law of reflection and Snell's law, top left and bottom right both become
@@ -216,7 +232,7 @@ Finally, we close this off with the irradiance of the incident wave is
 $$\boxed{I_{I}=\langle \mathbf{S} \rangle\cdot \hat{\mathbf{x}}=\frac{\varepsilon_{1}c}{2n_{1}}E_{0,I}^{2}\cos \theta_{I}}$$
 and the reflected and transmitted exitances
 $$\boxed{I_{R}=\frac{\varepsilon_{1}c}{2n_{1}}E_{0,I}^{2}\cos \theta_{R},\qquad I_{R}=\frac{\varepsilon_{2}c}{2n_{2}}E_{0,I}^{2}\cos \theta_{T}}$$
-The Fresnel coefficients hence end up as
+The reflectance and transmittance hence end up as
 $$\boxed{R=\frac{I_{R}}{I_{I}}=\left( \frac{\alpha-\beta}{\alpha+\beta} \right)^{2},\qquad T=\frac{I_{T}}{I_{I}}=\alpha \beta\left( \frac{2}{\alpha+\beta} \right)^{2}}$$
 ### In conductors
 Now that we're done with dielectrics, we move on to [[conductor|conductors]]. Maxwell's wave equations for conductors are
@@ -248,7 +264,7 @@ $$
 \boxed{k=\omega \sqrt{ \frac{\varepsilon \mu}{2} }\sqrt{ \sqrt{ 1+\left( \frac{\sigma}{\omega \varepsilon} \right)^{2} }+1 },\qquad \kappa=\omega \sqrt{ \frac{\varepsilon \mu}{2} }\sqrt{ \sqrt{ 1+\left( \frac{\sigma}{\omega \varepsilon} \right)^{2} }-1 }}\tag{4}
 $$
 (The only difference between the two is the plus or minus at the end). These are significant results for a couple of reasons, especially the imaginary part. In fact, if we go back to the oscillating fields
-$$\mathbf{E}(x,t)=\mathbf{E}_{0}e^{i[(k+i\kappa)]x-\omega t}=\mathbf{E}_{0}e^{i(kx-\omega t)}e^{-\kappa x}\tag{5}$$
+$$\mathbf{E}(x,t)=\mathbf{E}_{0}e^{i[(k+i\kappa)x-\omega t]}=\mathbf{E}_{0}e^{i(kx-\omega t)}e^{-\kappa x}\tag{5}$$
 (the same goes for $\mathbf{B}$). We have the usual plane wave with a *real* wavenumber $k$, but now it's weighed by $e^{-\kappa x}$. Specifically, this term says that as $x$ grows larger (i.e. the wave propagates), it is *suppressed*, with a larger $\kappa$ incurring a more significant suppression; this phenomenon is known as the **skin effect**:
 
 > [!info] Skin effect
@@ -256,9 +272,9 @@ $$\mathbf{E}(x,t)=\mathbf{E}_{0}e^{i[(k+i\kappa)]x-\omega t}=\mathbf{E}_{0}e^{i(
 
 $1/e$ is qualitatively around one third, so the wave's amplitude cuts down by a third every skin depth. This leads to a very fast suppression of the wave, doubly so since skin depths are typically very small, generally millimeters or fractions of millimeters. Lower frequencies have higher skin depths and viceversa[^4].
 
-Moreover, we see that the wavevector is dependent on $\omega$ multiplied by a factor made up of $\varepsilon$, $\mu$ and $\sigma$. These three parameters determine the materials behavior against incoming electromagnetic waves. You could consider them constants, but you'd be slightly wrong. These are actually known and measured to be mildly *frequency-dependent*: $\varepsilon\equiv \varepsilon(\omega)$, $\mu\equiv \mu(\omega)$ and $\sigma\equiv \sigma(\omega)$. As such, $\tilde{k}$ is *nonlinearly* dependent on $\omega$. This leads to a phenomenon known as **[[dispersion]]**, which occurs when the [[phase velocity]] of the wave in the material is dependent on the frequency, $v_{p}\equiv v_{p}(\omega)$. The relation $k\equiv k(\omega)$ is called the **dispersion relation**. In our case, since $v_{p}=c/n$, this is like saying that dispersion occurs when the refractive index depends on frequency, $n\equiv n(\omega)$.
+Moreover, we see that the wavevector is dependent on $\omega$ multiplied by a factor made up of $\varepsilon$, $\mu$ and $\sigma$. These three parameters determine the materials behavior against incoming electromagnetic waves. You could consider them constants, but you'd be slightly wrong. These are actually measured to be mildly *frequency-dependent*: $\varepsilon\equiv \varepsilon(\omega)$, $\mu\equiv \mu(\omega)$ and $\sigma\equiv \sigma(\omega)$. As such, $\tilde{k}$ is *nonlinearly* dependent on $\omega$. This leads to a phenomenon known as **[[dispersion]]**, which occurs when the [[phase velocity]] of the wave in the material is dependent on the frequency, $v_{p}\equiv v_{p}(\omega)$. The relation $k\equiv k(\omega)$ is called the **dispersion relation**. In our case, since $v_{p}=c/n$, this is like saying that dispersion occurs when the refractive index depends on frequency, $n\equiv n(\omega)$.
 
-Equation $(5)$ is universally correct for the conductor wave equations. Maxwell's equations impose further constraints on which waves are permitted; this is the same argument as in the beginning of [[#Sine plane waves]]. Assuming the wave propagates on $x$, due to $\nabla\cdot \mathbf{E}=0$ and $\nabla\cdot \mathbf{B}=0$, there can be no $x$ component to the fields. Similarly, using the curls we get that the fields are perpendicular to each other at all times. For instance, setting the electric field as polarized over $\hat{\mathbf{y}}$ and using its curl we find
+Equation $(5)$ is universally correct for the conductor wave equations. Maxwell's equations impose further constraints on which waves are permitted; this is the same argument as in the beginning of [[#In the vacuum]]. Assuming the wave propagates on $x$, due to $\nabla\cdot \mathbf{E}=0$ and $\nabla\cdot \mathbf{B}=0$, there can be no $x$ component to the fields. Similarly, using the curls we get that the fields are perpendicular to each other at all times. For instance, setting the electric field as polarized over $\hat{\mathbf{y}}$ and using its curl we find
 $$\tilde{\mathbf{E}}(x,t)=\tilde{E}_{0}e^{i(kx-\omega t)}e^{-\kappa x}\hat{\mathbf{y}},\qquad \tilde{\mathbf{B}}(x,t)=\frac{\tilde{k}}{\omega}\tilde{E}_{0}e^{i(kx-\omega t)}e^{-\kappa x}\hat{\mathbf{z}}\tag{6}$$
 We can further analyze the complex wavenumber $\tilde{k}$ by expressing it in polar form:
 $$\tilde{k}=\lvert \tilde{k} \rvert e^{i\phi}=Ke^{i\phi}$$

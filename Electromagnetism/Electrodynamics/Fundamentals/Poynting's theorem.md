@@ -28,12 +28,12 @@ wiki-publish: true
 > &=\frac{1}{\mu_{0}} \left[ -\mathbf{B}\cdot \frac{ \partial \mathbf{B} }{ \partial t } - \nabla \cdot(\mathbf{E}\times \mathbf{B}) \right]- \frac{\varepsilon_{0}}{2}\frac{ \partial E^{2} }{ \partial t } \\
 > \left( \mathbf{B}\cdot \frac{ \partial \mathbf{B} }{ \partial t } =\frac{1}{2}\frac{ \partial B^{2} }{ \partial t }  \right)&=- \frac{1}{2\mu_{0}}\frac{ \partial B^{2} }{ \partial t } - \frac{\varepsilon_{0}}{2}\frac{ \partial E^{2} }{ \partial t } -\nabla\cdot \mathbf{S}
 > \end{align}$$
-> where we expanded
-> $$\mathbf{E}\cdot(\nabla\times \mathbf{B})=\nabla\cdot(\mathbf{B}\times \mathbf{E})=-\nabla\cdot(\mathbf{E}\times \mathbf{B})=-\mathbf{B}\cdot(\nabla\times \mathbf{E})+\mathbf{E}\cdot(\nabla\times \mathbf{B})$$
-> and so
-> $$\mathbf{E}\cdot(\nabla\times \mathbf{B})=\mathbf{B}\cdot(\nabla\times \mathbf{E})-\nabla\cdot(\mathbf{E}\times \mathbf{B})$$
-> using vector calculus, used [[Faraday's law]] and defined the [[Poynting vector]]
+> where used [[Faraday's law]], defined the [[Poynting vector]]
 > $$\mathbf{S}=\frac{1}{\mu_{0}}\mathbf{E}\times \mathbf{B}$$
+> and expanded
+> $$\mathbf{E}\cdot(\nabla\times \mathbf{B})=\nabla\cdot(\mathbf{B}\times \mathbf{E})=-\nabla\cdot(\mathbf{E}\times \mathbf{B})=-\mathbf{B}\cdot(\nabla\times \mathbf{E})+\mathbf{E}\cdot(\nabla\times \mathbf{B})$$
+> Equating the last two steps
+> $$\mathbf{E}\cdot(\nabla\times \mathbf{B})=\mathbf{B}\cdot(\nabla\times \mathbf{E})-\nabla\cdot(\mathbf{E}\times \mathbf{B})$$
 > If we extract and merge the time derivative from the first two terms, we are left with the electromagnetic energy density by volume $u$:
 > $$- \frac{1}{2\mu_{0}}\frac{ \partial B^{2} }{ \partial t } - \frac{\varepsilon_{0}}{2}\frac{ \partial E^{2} }{ \partial t }=- \frac{1}{2}\frac{ \partial  }{ \partial t } \left( \frac{1}{\mu_{0}}B^{2} + \varepsilon_{0}E^{2} \right)=-\frac{ \partial u }{ \partial t }$$
 > Which means

@@ -28,7 +28,7 @@ where, critically, $\rho$ is dependent on the retarded time $t_{r}$. This form i
 $$\frac{1}{4\pi \varepsilon_{0}} \frac{q}{\mathfrak{r}}$$
 with the caveat that $\mathfrak{r}$ is now the distance from the *retarded* position instead of the current one. But that would be wrong, for the $t_{r}$ dependency in $\rho$ fundamentally changes what $\int \rho(\mathbf{r}',t_{r})d\tau'$ *is*. Whereas without $t_{r}$, $\rho(\mathbf{r}')$ refers to the charge distribution at *one instant*, with $t_{r}$ it is the charge distribution spread not just in space but also throughout time, as the retardation leads to a distorted charge depending on how far you are from the origin.
 
-It pays to describe this phenomenon with a more easily imagined object: a train. Say you're looking at a train that's coming towards you[^1]. Though you will not notice in the real world because it's so tiny, you will see the train as *longer* than if were standing to the side, or behind it. This is a fundamentally geometric effect due to the finite speed of light. The light from the back of the train was emitted earlier than the one we receive at the same time from the front, since the train is moving towards you. If the train were still, the difference in distance covered by light from the front and back would be exactly the length of the train, but since it's moving, the light from the front has to cover less distance because it's moving towards. By the time the light from the back reaches, the train moved forward and the light you receive simultaneously from the front is *after* the motion, since the train covered space that the light would've had to cover itself. This means that you see the *current* front of the train, but the *past* back.
+It pays to describe this phenomenon with a more easily imagined object: a train. Say you're looking at a train that's coming right towards you[^1]. Though you will not notice in the real world because it's so tiny, you will see the train as *longer* than if were standing to the side, or behind it. This is a fundamentally geometric effect due to the finite speed of light. The light from the back of the train was emitted earlier than the one we receive at the same time from the front, since the train is moving towards you. If the train were still, the difference in distance covered by light from the front and back would be exactly the length of the train, but since it's moving, the light from the front has to cover less distance because it's moving towards. By the time the light from the back reaches, the train moved forward and the light you receive simultaneously from the front is *after* the motion, since the train covered space that the light would've had to cover itself. This means that you see the *current* front of the train, but the *past* back.
 
 :::image
 ![[Figure Retarded train length.png]]
@@ -155,7 +155,7 @@ The field also depends on the ratio between particle speed and light speed, with
 As for the magnetic field, we have
 $$\hat{\boldsymbol{\mathfrak{r}}}=\frac{\mathbf{r}-\mathbf{v}t_{r}}{\mathfrak{r}}=\frac{(\mathbf{r}-\mathbf{v}t)+(t-t_{r})\mathbf{v}}{\mathfrak{r}}=\frac{\mathbf{R}}{\mathfrak{r}}+ \frac{\mathbf{v}}{c}$$
 and so
-$$\boxed{\mathbf{B}(\mathbf{r},t)=\frac{1}{c^{2}}=(\mathbf{v}\times \mathbf{E})}$$
+$$\boxed{\mathbf{B}(\mathbf{r},t)=\frac{1}{c^{2}}(\mathbf{v}\times \mathbf{E})}$$
 The magnetic field inherits the orientation dependence from $\mathbf{E}$, being strongest when at a 90° angle from the particle.
 
 When $v^{2}\ll c^{2}$, these approximately reduce to
