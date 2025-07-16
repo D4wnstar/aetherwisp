@@ -89,7 +89,7 @@ The dipole moment then changes according to
 $$\mathbf{p}(t)=p_{0}\cos (\omega t)\ \hat{\mathbf{z}}$$
 where $p_{0}\equiv q_{0}d$ is the maximum value of the moment (and we set the moment on the $\hat{\mathbf{z}}$ axis because we may as well).
 #### Potentials
-The charges are not moving, so the [[retarded potentials|retarded potential]] is
+The charges are not moving, so the [[retarded potentials|retarded potential]] is the [[Liénard-Wiechert potentials|Liénard-Wiechert potential]] with $\mathbf{v}=0$:
 $$V(\mathbf{r},t)=\frac{1}{4\pi \varepsilon_{0}}\left[ \frac{q_{0}\cos[\omega(t-\mathfrak{r}_{+}/c)]}{\mathfrak{r}_{+}} - \frac{q_{0}\cos[\omega(t-\mathfrak{r}_{-}/c)]}{\mathfrak{r}_{-}} \right]$$
 $\mathfrak{r}_{\pm}$ are defined as at the top of this article as
 $$\mathfrak{r}_{\pm}=\sqrt{ r^{2}\mp rd\cos \theta+ \left( \frac{d}{2} \right)^{2} }$$
@@ -124,7 +124,7 @@ $$\boxed{V(r,\theta,t)=- \frac{p_{0}\cos\theta}{4\pi \varepsilon r}\frac{\omega}
 The [[magnetic vector potential]] induced by this oscillation starts from the [[electric current]]
 $$\mathbf{I}(t)=\frac{dq}{dt}\hat{\mathbf{z}}=-q_{0}\omega \sin(\omega t)\hat{\mathbf{z}}$$
 which leads to the integral
-$$\mathbf{A}(\mathbf{r},t)=\frac{\mu_{0}}{4\pi}\int_{-d/2}^{d/2} \frac{\mathbf{I}(t)}{\mathfrak{r}}dz=\frac{\mu_{0}}{4\pi}\int_{-d/2}^{d/2} \frac{-q_{0}\omega \sin[\omega(t-\mathfrak{r}/c)]\hat{\mathbf{z}}}{\mathfrak{r}}dz$$
+$$\mathbf{A}(\mathbf{r},t)=\frac{\mu_{0}}{4\pi}\int_{-d/2}^{d/2} \frac{\mathbf{I}(t_{r})}{\mathfrak{r}}dz=\frac{\mu_{0}}{4\pi}\int_{-d/2}^{d/2} \frac{-q_{0}\omega \sin[\omega(t-\mathfrak{r}/c)]\hat{\mathbf{z}}}{\mathfrak{r}}dz$$
 where integration happens over the line that connects that two charges of the dipole (which we set on the $z$ axis) and $\mathfrak{r}$ is the distance from the element $dz$ and the point $\mathbf{r}$. Because integration introduces a factor of $d$ we can, to first order, replace the integrand by its value at the center, where $\mathfrak{r}=r$ :
 $$\boxed{\mathbf{A}(r,\theta,t)=- \frac{\mu_{0}p_{0}\omega}{4\pi r}\sin\left[ \omega\left( t- \frac{r}{c} \right) \right]\hat{\mathbf{z}}}\tag{4}$$
 #### Fields

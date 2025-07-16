@@ -13,7 +13,7 @@ $$F^{\mu \nu}\equiv \begin{pmatrix}
 It is a second-rank antisymmetric [[tensor]]. It plays the part of the [[Lorentz transformation]] matrix in relativity. An alternative and equivalent formulation is the **dual tensor**
 $$G^{\mu \nu}\equiv \begin{pmatrix}
 0 & B_{x} & B_{y} & B_{z} \\
--B_{x} & 0 & -E_{z}/c & -E_{y}/c \\
+-B_{x} & 0 & -E_{z}/c & E_{y}/c \\
 -B_{y} & E_{z}/c & 0 & -E_{x}/c \\
 -B_{z} & -E_{y}/c & E_{x}/c & 0
 \end{pmatrix}$$

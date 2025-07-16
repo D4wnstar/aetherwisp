@@ -11,7 +11,7 @@ The theory of special relativity is based on two fundamentals claims, known as t
 
 Compared to [[Galilean relativity]], special relativity extends the equivalence of inertial frames to *all* of physics instead of only classical mechanics, essentially stating that there is no such thing as a "universal rest frame". The second postulates adds an ulterior constraint, denying the existence of an "ether frame" that the speed of light is relative to.
 
-These postulates lead to all the other phenomena that special relativity explains, namely [[relativity of simultaneity]], [[time dilation]] and [[distance contraction]].
+These postulates lead to all the other phenomena that special relativity explains, namely [[relativity of simultaneity]], [[time dilation]] and [[Length contraction]].
 ### Relativistic velocity addition rule
 The second postulate essentially generalizes the old velocity addition rule of Galileo:
 $$v_{AC}=v_{AB}+v_{BC}$$

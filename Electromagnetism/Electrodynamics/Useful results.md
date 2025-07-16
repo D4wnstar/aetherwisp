@@ -11,11 +11,8 @@ $$\mathbf{S}\equiv \frac{1}{\mu_{0}}\mathbf{E}\times \mathbf{B}$$
 **Electromagnetic energy density**
 $$u=\frac{1}{2}\left( \varepsilon_{0}E^{2}+ \frac{1}{\mu_{0}}B^{2} \right)$$
 
-**Momentum density**
-$$\mathbf{g}=\varepsilon_{0}\mu_{0}\mathbf{S}=\varepsilon_{0}(\mathbf{E}\times \mathbf{B})=\frac{1}{c^{2}}\mathbf{S}$$
-
-**Angular momentum density**
-$$\boldsymbol{\ell}=\mathbf{r}\times \mathbf{g}=\varepsilon_{0}[\mathbf{r}\times(\mathbf{E}\times \mathbf{B})]$$
+**Momentum density and angular momentum density**
+$$\mathbf{g}=\varepsilon_{0}\mu_{0}\mathbf{S}=\varepsilon_{0}(\mathbf{E}\times \mathbf{B})=\frac{1}{c^{2}}\mathbf{S},\qquad\boldsymbol{\ell}=\mathbf{r}\times \mathbf{g}=\varepsilon_{0}[\mathbf{r}\times(\mathbf{E}\times \mathbf{B})]$$
 
 **Maxwell stress tensor**
 $$T_{ij}=\varepsilon_{0}\left( E_{i}E_{j}- \frac{1}{2}\delta_{ij}E^{2} \right)+ \frac{1}{\mu_{0}}\left( B_{i}B_{j}- \frac{1}{2}\delta_{ij}B^{2} \right)$$
@@ -55,7 +52,7 @@ Multiply by $2$ for non-averages.
 
 **Averaged quantities (matter)**
 $$\langle u \rangle =\frac{\varepsilon}{2}E_{0}^{2},\quad \langle \mathbf{S} \rangle=\frac{\varepsilon c}{2n}E_{0}^{2}\ \hat{\mathbf{n}}$$
-Multiply by $2$ for non-averages.
+Multiply by $2$ for non-averages. $\langle \mathbf{g} \rangle$ is still debated.
 
 **Radiation pressure**
 $$P=\frac{1}{A} \frac{\Delta \lvert \mathbf{p} \rvert }{\Delta t}=\frac{\varepsilon_{0}}{2}E_{0}^{2}=\frac{I}{c}$$
@@ -158,8 +155,8 @@ $$P=\frac{\mu_{0}q^{2}a^{2}}{6\pi c},\qquad P_\text{charge}=\frac{\mu_{0}q^{2}\g
 $$\mathbf{F}_\text{rad}=\frac{\mu_{0}q^{2}}{6\pi c}\dot{\mathbf{a}}$$
 ### Relativity
 **Postulates**
-1. The laws of physics are the same in all inertial [[frame of reference|frames of reference]].
-2. Light moves in the vacuum at a constant [[Speed of light|speed]] in all inertial frames of reference, and it is the maximum speed at which [[energy]] can propagate.
+1. The laws of physics are the same in all inertial frames of reference.
+2. Light moves in the vacuum at a constant speed in all inertial frames of reference, and it is the maximum speed at which energy can propagate.
 
 **Einstein velocity addition rule**
 $$v_{AC}=\frac{v_{AB}+v_{BC}}{1+v_{AB}v_{BC}/c^{2}},\qquad u'=\frac{u-v}{1-uv/c^{2}}$$

@@ -14,7 +14,9 @@ To tackle the situation, we are to check how these two transform under a Lorentz
 1. the [[electric charge]] is a [[relativistic invariant]]. It does not change under Lorentz transformation. A charge is a charge everywhere and anywhere.
 2. the transformation rules are the same regardless of the origin of the fields. It does not matter how a field was created: stationary charge, straight moving charge, random motion in the core of the Sun, spinning particles in a cyclotron; it makes no difference. All fields should transform the same. If they don't, the field theory formulation must be dispensed with, as the fields are supposed to carry *all* information about electromagnetism on their own, without additional information (such as their origin).
 
-Say now we are observing the situation while at rest from a frame $\mathcal{S}_{0}$ in which the capacitor is also at rest. The Lorentz transformation moves the capacitor to [[frame of reference]] $\mathcal{S}$ moving on the $x$ axis at a constant speed $v_{0}$ (relative to $\mathcal{S}_{0}$). We'll use a [[capacitor]] as a test bench since it makes for rather simple electric fields (we'll assume that it is lying on its side so that its length $l$ lies on the $x$ axis).
+We'll use a [[capacitor]] with surface charge densities $\pm \sigma_{0}$ as a test bench since it makes for rather simple electric fields (we'll assume that it is lying on its side so that its length $l$ lies on the $x$ axis). Assume we are observing the situation while at rest from a frame $\mathcal{S}_{0}$ in which the capacitor is also at rest. In this frame, its electric field is
+$$E_{y}=\frac{\sigma_{0}}{\varepsilon_{0}}$$
+The Lorentz transformation moves the capacitor to [[frame of reference]] $\mathcal{S}$ moving on the $x$ axis at a constant speed $v_{0}$ (relative to $\mathcal{S}_{0}$).
 
 :::image
 ![[Diagram Moving capacitor relativity|80%]]
@@ -23,7 +25,7 @@ Note how the velocity $v_{0}$ moves the frame of reference to the *left*, which 
 
 In fact, in $\mathcal{S}$, it makes a field
 $$E_{y}=\frac{\sigma}{\varepsilon_{0}}$$
-where $\sigma$ is the surface charge density on the plates of the capacitor. Actually, there's two densities, $\pm \sigma$, depending on whether you're looking at the top or bottom plate. Since $\mathcal{S}$ is moving, the length $l$ will be [[Distance contraction|contracted]] by a factor $\gamma_{0}=1/\sqrt{ 1-v_{0}^{2}/c^{2} }$ compared to $\mathcal{S}_{0}$, in which the density (at rest) is $\sigma_{0}$, so $\sigma=\gamma_{0}\sigma_{0}$. Also due to the frame's motion, the charges are moving with speed $v_{0}$, so they'll create a surface [[Electric current|current]] density $\mathbf{K}_{\pm}$ and produce a magnetic field
+where $\sigma$ is the surface charge density on the plates of the capacitor. Actually, there's two densities, $\pm \sigma$, depending on whether you're looking at the top or bottom plate. Since $\mathcal{S}$ is moving, the length $l$ will be [[Length contraction|contracted]] by a factor $\gamma_{0}=1/\sqrt{ 1-v_{0}^{2}/c^{2} }$ compared to $\mathcal{S}_{0}$, in which the density (at rest) is $\sigma_{0}$, so $\sigma=\gamma_{0}\sigma_{0}$. Also due to the frame's motion, the charges are moving with speed $v_{0}$, so they'll create a surface [[Electric current|current]] density $\mathbf{K}_{\pm}$ and produce a magnetic field
 $$\mathbf{K}_{\pm}=\mp \sigma v_{0}\hat{\mathbf{x}}$$
 The field points in the negative $z$ direction (use the right hand rule!) and has magnitude
 $$B_{z}=-\mu_{0}\sigma v_{0}$$
@@ -70,10 +72,3 @@ The fields are only transformed in directions [[Orthogonality|perpendicular]] to
 Interestingly, even we observe *no* fields at a given point in $\mathcal{S}$, $\mathbf{E}=0$ and $\mathbf{B}=0$ in $\mathcal{S}$, we *still* observe something at that same point in $\mathcal{S}'$:
 $$\boxed{\mathbf{E}'=\mathbf{v}\times \mathbf{B}',\quad \mathbf{B}'=- \frac{1}{c^{2}}(\mathbf{v}\times \mathbf{E}')}$$
 The fields "exist" for one observer but not for another, and in the new system they are related by these [[Vector product|vector products]].
-
-#### Electrodynamics through tensors
-
-
-[^1]: Quantum physics notwithstanding.
-
-[^2]: Again, quantum physics notwithstanding.

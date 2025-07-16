@@ -41,12 +41,12 @@ y'=y \\
 z'=z \\
 t'=t
 \end{cases}$$
-These are the old [[Galilean transformation|Galilean transformations]] that applied to [[Galilean relativity]]. As you may guess from this nomenclature, these start to collapse when introducing special relativity and a finite [[speed of light|top speed]] in the universe and the cause is due to the consequences of the [[postulates of special relativity]]. [[Relativity of simultaneity]] and [[time dilation]] must have some sort of effect on $t'=t$ and [[distance contraction]] certainly invalidates the snarky "*of course*" regarding $x=x'+vt$. On the other hand, $y'=y$ and $z'=z$ are safe since distance contraction occurs only on the axis of motion.
+These are the old [[Galilean transformation|Galilean transformations]] that applied to [[Galilean relativity]]. As you may guess from this nomenclature, these start to collapse when introducing special relativity and a finite [[speed of light|top speed]] in the universe and the cause is due to the consequences of the [[postulates of special relativity]]. [[Relativity of simultaneity]] and [[time dilation]] must have some sort of effect on $t'=t$ and [[Length contraction]] certainly invalidates the snarky "*of course*" regarding $x=x'+vt$. On the other hand, $y'=y$ and $z'=z$ are safe since distance contraction occurs only on the axis of motion.
 
 The issue in the previous derivation is in being a little too sure that $x=x'+vt$. More generally, say we have $x=d+vt$, where $d$ is the distance measured between the origin of $\mathcal{S}'$ and the $x$-component of $E$. If distance contraction weren't a thing, $d$ would certainly be $x'$ and our results above would hold. But distance contraction is indeed a thing, so we must take it into account:
 $$d=\frac{x'}{\gamma}\quad\Rightarrow \quad x=d+vt=\frac{x'}{\gamma}+vt\quad\Rightarrow \quad x'=\gamma(x-vt)$$
 The same argument could be done in reverse to go from $\mathcal{S}'$ to $\mathcal{S}$, just this time we'll have $x'=d'-vt'$, where $d'$ is the distance between the origin of $\mathcal{S}$ and the $x$ component of $E$. In classical physics, this is again $d'=x$, but in relativity, we must consider contraction, so
-$$d'=\frac{x}{\gamma}\quad\Rightarrow \quad x'=d'-vt=\frac{x}{\gamma}-vt\quad\Rightarrow \quad x=\gamma(x'+vt)$$
+$$d'=\frac{x}{\gamma}\quad\Rightarrow \quad x'=d'-vt'=\frac{x}{\gamma}-vt'\quad\Rightarrow \quad x=\gamma(x'+vt')$$
 which shouldn't be surprising, since relativistic effects are symmetrical between observer. We can now substitute these results into the Galilean transformations and solve for $t'$ to obtain
 $$\boxed{\left\{\begin{align}
 &x'=\gamma(x-vt) \\

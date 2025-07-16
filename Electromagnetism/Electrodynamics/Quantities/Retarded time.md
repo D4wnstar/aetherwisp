@@ -1,5 +1,7 @@
 ---
 wiki-publish: true
+aliases:
+  - advanced time
 ---
 The **retarded time** is the time at which a signal was produced, as opposed to the time at which it is received. For an [[electromagnetic wave]], which travels at the [[Speed of light]], it is
 $$t_{r}\equiv t- \frac{\mathfrak{r}}{c}$$

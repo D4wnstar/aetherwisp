@@ -29,7 +29,7 @@ wiki-publish: true
 - [[Radiation reaction]]
 ### Special relativity
 - [[Postulates of special relativity]]
-- [[Relativity of simultaneity]], [[time dilation]], [[distance contraction]]
+- [[Relativity of simultaneity]], [[time dilation]], [[Length contraction]]
 - [[Lorentz transformation]], [[Four-vector]], [[Rapidity]]
 - [[Spacetime]], invariant intervals, Minkowski diagrams and light cones
 - [[Proper time]], [[proper velocity]]

@@ -26,7 +26,7 @@ Seeing how $\gamma\geq 1$, we can make we can see that the ground time $\Delta t
 ### From Lorentz transformations
 Time dilation can be seen by applying a [[Lorentz transformation]]. Say an observer in a frame of reference $\mathcal{S}$ at time $t=0$ reads several clocks moving in a different frame of reference $\mathcal{S}'$. The observer finds that the clocks all read different times, depending on their location. The Lorentz transformation in time is
 $$t'=-\gamma \frac{v}{c^{2}}x$$
-Evidently, the clocks at positive $x$ will be behind, whereas those at negative $x$ will be ahead. Only the clock at $t'=0$ matches the time of the stationary clocks in $\mathcal{S}$. Thus, moving clocks becomes desynchronized from each other and only stationary clocks can be trusted to share correctness. You can do the same exact argument in the reverse direction by doing the inversion transformation
+Evidently, the clocks at positive $x$ will be behind, whereas those at negative $x$ will be ahead. Only the clock at $x=0$ (and so $t'=0$) matches the time of the stationary clocks in $\mathcal{S}$. Thus, moving clocks becomes desynchronized from each other and only stationary clocks can be trusted to share correctness. You can do the same exact argument in the reverse direction by doing the inversion transformation
 $$t=\gamma \frac{v}{c^{2}}x'$$
 only now the time discrepancy works in reverse due to the change in sign.
 

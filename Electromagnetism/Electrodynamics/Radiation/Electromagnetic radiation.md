@@ -24,7 +24,7 @@ The area of the sphere goes like $\sim r^{2}$, so for the power not to vanish at
 
 Let's see what happens with static fields: [[Electric field|Coulomb's law]] says that electrostatic fields go like $\sim r^{-2}$ and the [[Biot-Savart law]] says the same for magnetostatic fields. Their product, then, is $\sim r^{-4}$; way too fast for what we need. Clearly then, it is *impossible* for a static configuration to radiate: it just cuts out too fast.
 
-When we add in a *time-dependent* source, it's [[Jefimenko's equations]] that tell us the fields. These include our previous static terms, but also include terms that go like $\sim r^{-1}$. Multiply them together and you get something that satisfies our condition of not decreasing faster than $\sim r^{-2}$. It is these terms alone that are responsible for all electromagnetic radiation; everything else is not and can be safely ignored.
+When we add in a *time-dependent* source, it's [[Jefimenko's equations]] that tell us the fields. These include our previous static terms, but also include terms that go like $\sim r^{-1}$. Multiply them together and you get something that satisfies our condition of not decreasing faster than $\sim r^{-2}$. It is these terms alone that are responsible for all electromagnetic radiation; everything else cuts out too fast and can be safely ignored.
 
 A discussion on the physics of radiation from an arbitrary source can be found below. That said, starting from the general case is probably not a good idea; [[Electric dipole#Radiation]] and [[Magnetic dipole#Radiation]] are probably a better choice.
 ### Radiation from an arbitrary source

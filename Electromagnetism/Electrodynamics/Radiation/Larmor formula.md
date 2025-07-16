@@ -5,7 +5,7 @@ The **Larmor formula** gives the [[electromagnetic radiation|radiated]] [[radian
 $$P=\frac{\mu_{0}q^{2}a^{2}}{6\pi c}$$
 where $a$ is the acceleration of the charge. This is an approximation that is exact when the speed of the particle is zero and generally works quite well in all [[Lorentz transformation|nonrelativistic]] scenarios. When the speed starts to approach the [[speed of light]], we can use the **Liénard generalization**:
 $$P_\text{charge}=\frac{\mu_{0}q^{2}\gamma^{6}}{6\pi c}\left( a^{2}- \left\lvert  \frac{\mathbf{v}\times \mathbf{a}}{c}  \right\rvert ^{2} \right)$$
-where $\mathbf{v}$ is the velocity of the charge and $\gamma=(1-\beta ^{2})^{-1/2}$ is the usual relativistic coefficient.
+where $\mathbf{v}$ is the velocity of the charge and $\gamma=1/\sqrt{ 1-v^{2}/c^{2} }$ is the usual relativistic coefficient.
 ### Derivation
 We start from the [[Electric field|electric]] and [[magnetic field]] of an accelerating point charge $q$, as given by the [[Liénard-Wiechert potentials]]:
 $$\mathbf{E}(\mathbf{r},t)=\frac{q}{4\pi \varepsilon_{0}} \frac{\mathfrak{r}}{(\boldsymbol{\mathfrak{r}}\cdot \mathbf{u})^{3}}
@@ -44,12 +44,10 @@ dP_\text{charge}&=\left( \frac{\boldsymbol{\mathfrak{r}}\cdot \mathbf{u}}{\mathf
 \end{align}$$
 so
 $$\frac{dP_\text{charge}}{d\Omega}=\left( \frac{\boldsymbol{\mathfrak{r}}\cdot \mathbf{u}}{\mathfrak{r}c} \right)S_\text{rad}\mathfrak{r}^{2}=\left( \frac{\boldsymbol{\mathfrak{r}}\cdot \mathbf{u}}{\mathfrak{r}c} \right) \frac{1}{\mu_{0}c}E_\text{rad}^{2}\mathfrak{r}^{2}=\frac{q^{2}}{16\pi ^{2}\varepsilon_{0}} \frac{\lvert \hat{\boldsymbol{\mathfrak{r}}}\times(\mathbf{u}\times \mathbf{a}) \rvert ^{2}}{(\hat{\boldsymbol{\mathfrak{r}}}\cdot \mathbf{u})^{5}}$$
-If the integration over all solid angles looks painful, don't worry: it is. The answer is
+If you're wondering if the integration over all solid angles looks painful, don't worry: it is. The answer is
 $$\boxed{P_\text{charge}=\frac{\mu_{0}q^{2}\gamma^{6}}{6\pi c}\left( a^{2}- \left\lvert  \frac{\mathbf{v}\times \mathbf{a}}{c}  \right\rvert ^{2} \right)}$$
 where
 $$\gamma=\frac{1}{\sqrt{ 1- v^{2}/c^{2} }}$$
 This is known as **Liènard's generalization** to the Larmor formula and it is the absolutely general result. Notice the presence of a *sixth* (!) power on $\gamma$. When $v/c$ is small (i.e. any nonrelativistic situation), it remains quite small, $\gamma \simeq 1$, and when $\mathbf{v}=0$, we can see $\gamma=0$ and the old Larmor formula. However, when $v$ starts to approach the [[speed of light]], the $\gamma^{6}$ term increases *immensely*, radiating massive amounts of energy when the charges moves at near light speed.
-
-
 
 [^1]: This is important. The radiation doesn't care about where the charge is *going*, it cares about where it's accelerating. Say a charge is going straight through space, then it starts being pushed sideways by, say, the magnetic field of a [[Stella di neutroni|neutron star]]. The acceleration will not be on the line of motion, so the axis of the radiation torus will not follow the trajectory.

@@ -5,7 +5,7 @@ wiki-publish: true
 $$\frac{dP}{d\Omega}=\frac{\mu_{0}q^{2}a^{2}}{16\pi ^{2}c} \frac{\sin ^{2}\theta}{(1-\beta \cos \theta)^{5}}$$
 and the total radiant power emitted is
 $$P=\frac{\mu_{0}q^{2}a^{2}\gamma^{6}}{6\pi c}$$
-where $\gamma=(1-\beta ^{2})^{-1/2}$ is the usual [[Lorentz transformation|relativistic]] coefficient.
+where $\gamma=1/\sqrt{ 1-v^{2}/c^{2} }$ is the usual [[Lorentz transformation|relativistic]] coefficient.
 ### Derivation
 Consider a point charge moving in the same direction it is accelerating in, such that $\mathbf{v}$ and $\mathbf{a}$ are collinear at some [[retarded time]] $t_{r}$. We care about the angular distribution of the [[radiant power]] emitted, so use the [[Larmor formula]] in the Liénard generalization, specifically its [[solid angle]]
 $$\frac{dP}{d\Omega}=\frac{q^{2}}{16\pi ^{2}\varepsilon_{0}} \frac{\lvert \hat{\boldsymbol{\mathfrak{r}}}\times(\mathbf{u}\times \mathbf{a}) \rvert ^{2}}{(\hat{\boldsymbol{\mathfrak{r}}}\cdot \mathbf{u})^{5}}$$
