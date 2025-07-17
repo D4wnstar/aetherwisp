@@ -3,7 +3,7 @@ wiki-publish: true
 ---
 The **Doppler effect** or **Doppler shift** is the change in [[frequency]] of a [[Wave]] due to its motion with respect to an observer. The frequency is increased if the wave is moving towards the observer or reduced otherwise. Being a relative effect, its description depends on whether we are using Galilean relativity or Einstein relativity. It is a consequences of the invariance of a [[phase]] across [[frame of reference|frames of reference]].
 ### Classical Doppler effect
-Conside two frames of reference, $S$ and $S'$, and a wave of [[Frequency|angular frequency]] $\omega$ and $\omega'$ depending on which frame you are measuring it in. The frame $S$ is attached to the observer, whereas the $S'$ is the source frame, so $\omega$ will be the observed frequency and $\omega'$ will be the "emission" frequency.
+Consider two frames of reference, $S$ and $S'$, and a wave of [[Frequency|angular frequency]] $\omega$ and $\omega'$ depending on which frame you are measuring it in. The frame $S$ is attached to the observer, whereas $S'$ is the source frame, so $\omega$ will be the observed frequency and $\omega'$ will be the "emission" frequency.
 
 ...
 

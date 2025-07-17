@@ -69,7 +69,7 @@ $$I_{I}=\langle \mathbf{S} \rangle\cdot \hat{\mathbf{x}}=\frac{\varepsilon_{1}c}
 Normal incidence when $\theta_{I}=\theta_{R}=0$.
 
 **Reflection and transmission coefficients (oblique incidence)**
-$$R=\frac{I_{R}}{I_{I}}=\left( \frac{\alpha-\beta}{\alpha+\beta} \right)^{2},\qquad T=\frac{I_{T}}{I_{I}}=\alpha \beta\left( \frac{2}{\alpha+\beta} \right)^{2}$$
+$$R=\frac{I_{R}}{I_{I}}=\left( \frac{\alpha-\beta}{\alpha+\beta} \right)^{2},\qquad T=\frac{I_{T}}{I_{I}}=\frac{4\alpha \beta}{(\alpha+\beta)^{2}}$$
 where
 $$\alpha=\frac{\cos \theta_{T}}{\cos \theta_{I}},\qquad\beta=\frac{\mu_{1}n_{2}}{\mu_{2}n_{1}}$$
 Normal incidence when $\alpha=1$.

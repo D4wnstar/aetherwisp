@@ -13,7 +13,7 @@ The total relativistic energy of a [[Physical system|system]] is a conserved qua
 ### From four-momentum
 In the same way as classical [[Linear momentum|momentum]] correlates quite directly with kinetic energy, so too does the [[four-momentum]] correlate with relativistic energy. Inspired by the fact that to get the classical energy we need to take the square [[norm]] of momentum (since $E=\lvert \mathbf{p} \rvert^{2}/2m$), we'll take the norm of the four-momentum (we'll use $\lvert \mathbf{p} \rvert\equiv p$ for simplicity):
 $$\begin{align}
-p^{\mu}p_{\mu}&=-(p^{0})^{2}+\mathbf{p}\cdot \mathbf{p}=-(p^{0})^{2}+p^{2}=- \gamma ^{2}m^{2}c^{2}+ \gamma ^{2}m^{2}v^{2}= \\
+p^{\mu}p_{\mu}&=-p^{0}p^{0}+\mathbf{p}\cdot \mathbf{p}=-(p^{0})^{2}+p^{2}=- \gamma ^{2}m^{2}c^{2}+ \gamma ^{2}m^{2}v^{2}= \\
 &=\frac{m^{2}}{1- v^{2}/c^{2}}(-c^{2}+v^{2})=-\frac{m^{2}c^{2}}{c^{2}-v^{2}}(c^{2}-v^{2})=-m^{2}c^{2}
 \end{align}$$
 But also

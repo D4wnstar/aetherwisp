@@ -17,7 +17,7 @@ $$P=\frac{ \partial U }{ \partial t } =-\frac{ \partial  }{ \partial t } \int_{\
 3. Newton's second law says $\mathbf{F}=d\mathbf{p}_\text{mech}/dt$.
 4. Tensor form of Lorentz law says $d\mathbf{p}_\text{mech}/dt=-\varepsilon_{0}\mu_{0}\int_{\mathcal{V}}\mathbf{S}d\tau+\oint_{\mathcal{S}}T\cdot d\mathbf{a}$.
 5. Looks a lot like Poynting's theorem: $\mathbf{S}$ integral is momentum stored in the fields, tensor integral is momentum exiting and entering.
-6. Divide $\mathbf{S}$ integral by density to get $\mathbf{g}=\varepsilon_{0}\mu_{0}\mathbf{S}=\varepsilon_{0}(\mathbf{E}\times \mathbf{B})$.
+6. Divide $\mathbf{S}$ integral by volume to get $\mathbf{g}=\varepsilon_{0}\mu_{0}\mathbf{S}=\varepsilon_{0}(\mathbf{E}\times \mathbf{B})$.
 7. Angular momentum is usual: $\boldsymbol{\ell}=\mathbf{r}\times \mathbf{g}=\varepsilon_{0}[\mathbf{r}\times(\mathbf{E}\times \mathbf{B})]$.
 
 **Vacuum Maxwell equations**
