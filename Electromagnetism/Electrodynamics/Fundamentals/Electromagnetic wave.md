@@ -137,9 +137,9 @@ all at the same frequency $\omega$.
 The wavevectors are all connected by
 $$\frac{k_{I}}{n_{1}}=\frac{k_{R}}{n_{1}}=\frac{k_{T}}{n_{2}}=\omega \quad\Rightarrow \quad k_{I}=k_{R}=\frac{n_{1}}{n_{2}}k_{T}\tag{1}$$
 These waves must obey the boundary conditions, so $\tilde{\mathbf{E}}_{I}+\tilde{\mathbf{E}}_{R}$ and $\tilde{\mathbf{B}}_{I}+\tilde{\mathbf{B}}_{R}$ must be joined with $\tilde{\mathbf{E}}_{T}$ and $\tilde{\mathbf{B}}_{T}$ in a way that satisfies the conditions. Altogether we get
-$$ae^{i(\mathbf{k}_{I}\cdot \mathbf{r}-\omega t)}+be^{i(\mathbf{k}_{R}\cdot \mathbf{r}-\omega t)}=ce^{i(\mathbf{k}_{T}\cdot \mathbf{r}-\omega t)}$$
-where $a,b$ and $c$ are some values that we'll determine later. Right now we care about the exponentials. For this equality to be true, we need
-$$a+b=c,\quad \mathbf{k}_{I}\cdot \mathbf{r}-\omega t=\mathbf{k}_{R}\cdot \mathbf{r}-\omega t =\mathbf{k}_{T}\cdot \mathbf{r}-\omega t$$
+$$Ae^{i(\mathbf{k}_{I}\cdot \mathbf{r}-\omega t)}+Be^{i(\mathbf{k}_{R}\cdot \mathbf{r}-\omega t)}=Ce^{i(\mathbf{k}_{T}\cdot \mathbf{r}-\omega t)}$$
+where $A,B$ and $C$ are some values that we'll determine later. Right now we care about the exponentials. For this equality to be true, we need
+$$A+B=C,\quad \mathbf{k}_{I}\cdot \mathbf{r}-\omega t=\mathbf{k}_{R}\cdot \mathbf{r}-\omega t =\mathbf{k}_{T}\cdot \mathbf{r}-\omega t$$
 
 > [!quote]- Proof
 > Say you have the equation $Ae^{iax}+Be^{ibx}=Ce^{ icx }$ where $A,B,C,a,b,c$ are all nonzero. For $x=0$, we have $A+B=C$. For any $x$, take the derivative
@@ -154,7 +154,7 @@ The time-frequency part is trivially equal already and drops out, so the only pa
 $$\mathbf{k}_{I}\cdot \mathbf{r}=\mathbf{k}_{R}\cdot \mathbf{r}=\mathbf{k}_{T}\cdot \mathbf{r}\quad\text{on the surface}\tag{2}$$
 Writing the components out gives us
 $$yk_{I,y}+zk_{I,z}=yk_{R,y}+zk_{R,z}=yk_{T,y}+zk_{T,z}$$
-This is true only if the components are individually equal, so when $y=0$ we get
+where the $x$ components are zero because we are on the surface $x=0$. This is true only if the components are individually equal, so when $y=0$ we get
 $$zk_{I,z}=zk_{R,z}=zk_{T,z}$$
 and when $z=0$ we get
 $$yk_{I,y}=yk_{R,y}=yk_{T,y}\tag{3}$$
