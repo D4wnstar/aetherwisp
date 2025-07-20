@@ -1,4 +1,4 @@
 ---
-wiki-publish: true
+wiki-publish: false
 ---
 - **Dense output**. During regular execution, an ODE solver will calculate the value of the function at the steps determined by the starting point and the stepsize. The stepsize is often adaptive, so the evaluated points can be unevenly spaced. "Dense" output actually does not refer to output at all, but to a convenience method to interpolate between the actual output to get any desired intermediate point. For instance, if you solve an ODE in $x \in[0.0,1.0]$, the solver might give you values of $f(x)$ for $x$ in $[0.0,0.1,0.3,0.6,0.8,1.0]$. This is the "regular" output. But, perhaps you want evenly spaced points at every $0.1$ interval. Dense output refers to interpolating between the solved values to find $f(x)$ even in places where the solver did not directly compute values.
