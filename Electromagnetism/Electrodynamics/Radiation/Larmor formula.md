@@ -11,7 +11,7 @@ We start from the [[Electric field|electric]] and [[magnetic field]] of an accel
 $$\mathbf{E}(\mathbf{r},t)=\frac{q}{4\pi \varepsilon_{0}} \frac{\mathfrak{r}}{(\boldsymbol{\mathfrak{r}}\cdot \mathbf{u})^{3}}
 [(c^{2}-v^{2})\mathbf{u}+\boldsymbol{\mathfrak{r}}\times(\mathbf{u}\times \mathbf{a})]$$
 $$\mathbf{B}(\mathbf{r},t)=\frac{1}{c}\hat{\boldsymbol{\mathfrak{r}}}\times \mathbf{E}(\mathbf{r},t)$$
-where $\mathbf{u}=c \hat{\mathfrak{r}}-\mathbf{v}$. Recall that the first term is known as the velocity field and the second as the acceleration field due to their dynamical origin. The transfer of [[energy]] is given by the [[Poynting vector]]:
+where $\mathbf{u}=c \hat{\boldsymbol{\mathfrak{r}}}-\mathbf{v}$. Recall that the first term is known as the velocity field and the second as the acceleration field due to their dynamical origin. The transfer of [[energy]] is given by the [[Poynting vector]]:
 $$\mathbf{S}=\frac{1}{\mu_{0}}(\mathbf{E}\times \mathbf{B})= \frac{1}{\mu_{0}c}[\mathbf{E}\times(\hat{\boldsymbol{\mathfrak{r}}}\times \mathbf{E})]=\frac{1}{\mu_{0}c}[E^{2}\hat{\boldsymbol{\mathfrak{r}}}-(\hat{\boldsymbol{\mathfrak{r}}}\cdot \mathbf{E})\mathbf{E}]$$
 using the triple product rule. This is energy that's moved, but it does not necessarily represent radiated energy. It might be energy that's carried with the charge as it moves inside its fields. We only care about the part that leaves the point charge and is launched elsewhere, that is, radiation. To calculate this, we imagine a large [[sphere]] of radius $\mathfrak{r}$ centered on our point charge at the [[retarded time]] $t_{r}$, then imagine waiting for the [[Electromagnetic wave|electromagnetic waves]] to reach the sphere an interval of time given by
 $$t-t_{r}=\frac{\mathfrak{r}}{c}$$
