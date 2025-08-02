@@ -1,12 +1,11 @@
 {
   "firstUpload": true,
-  "wikiTitle": "Quantum Scribbles",
+  "wikiTitle": "Aetherwisp",
   "allowLogins": false,
   "autopublishNotes": true,
   "restrictFolders": true,
   "publicFolders": [],
   "privateFolders": [
-    "Introduzione alla Fisica della Materia",
     "Other",
     "Psicologia"
   ],

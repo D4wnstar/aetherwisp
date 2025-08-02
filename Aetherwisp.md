@@ -2,7 +2,7 @@
 wiki-home: true
 wiki-publish: true
 ---
-Hello, welcome to Quantum Scribbles! This is a large (currently >300.000 words) collection of all of the notes that I take for my courses in university. It's mostly physics, but there might be adjacent topics and in the future there will likely be a considerable amount of computer science and HPC-related topics once I get to my master's degree.
+Hello, welcome to Aetherwisp! This is a large (currently >300.000 words) collection of all of the notes that I take for my courses in university. It's mostly physics, but there might be adjacent topics and in the future there will likely be a considerable amount of computer science and HPC-related topics once I get to my master's degree.
 
 As of writing this, there are over 700 articles organized in an ideally understandable manner. The quality of the notes progressively got better and better over time, as I learnt to write proper educational text in real time while simultaneously listening to professors and reading the many equations on the blackboard. Also, writing LaTeX in real time is hard even with tons of automation. Many of the articles that you read here are essentially still first drafts. I of course go back on my notes when studying and do edit my writing to be better, but it's time consuming and it's often not my priority when exams are coming up, so mistakes can absolutely be present!
 
@@ -19,6 +19,10 @@ Despite being organized in a very similar manner, I am by no means making an att
 **Q.** How do you write these?
 
 **A.** These notes are all written in [Obsidian](https://obsidian.md/). I use the [latex-suite](https://github.com/artisticat1/obsidian-latex-suite) plugin to make writing LaTeX 100 times easier, which is what allows me to write it in real time. I make the plots and diagrams with [obsidian-excalidraw](https://github.com/zsviczian/obsidian-excalidraw-plugin) when they are not taken from books, professor's notes or Wikipedia. The website is kept updated using my aforementioned [wiki-generator](https://github.com/D4wnstar/wiki-generator) plugin.
+
+**Q.** Why is it even called Aetherwisp?
+
+**A.** I maintain a [repository](https://github.com/D4wnstar/wisp) of programming projects on simulations and games called *WISP* (meaning, the World Is a Simulation, Probably). Since these projects could not exist without my university education and since I like the sound of "wisp", I figured I would connect these notes to WISP by referencing it in the name. Wisps (a.k.a. will-o'-wisps) in European folklore are ethereal bodies of light, so what better medium for these to be in than the (luminiferous) aether? And so you get *Aetherwisp*. It think it checks all the boxes: physics history? Check. Fantasy/mythology? Check. Layered etymology? Check. Sounds good? Check.
 
 **Q.** I found a mistake!
 
