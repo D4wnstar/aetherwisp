@@ -28,19 +28,18 @@ wiki-publish: true
 > &=\frac{1}{\mu_{0}} \left[ -\mathbf{B}\cdot \frac{ \partial \mathbf{B} }{ \partial t } - \nabla \cdot(\mathbf{E}\times \mathbf{B}) \right]- \frac{\varepsilon_{0}}{2}\frac{ \partial E^{2} }{ \partial t } \\
 > \left( \mathbf{B}\cdot \frac{ \partial \mathbf{B} }{ \partial t } =\frac{1}{2}\frac{ \partial B^{2} }{ \partial t }  \right)&=- \frac{1}{2\mu_{0}}\frac{ \partial B^{2} }{ \partial t } - \frac{\varepsilon_{0}}{2}\frac{ \partial E^{2} }{ \partial t } -\nabla\cdot \mathbf{S}
 > \end{align}$$
-> where used [[Faraday's law]], defined the [[Poynting vector]]
+> where we expanded
+> $$\nabla \cdot(\mathbf{E}\times \mathbf{B})=\mathbf{B}\cdot(\nabla\times \mathbf{E})-\mathbf{E}\cdot(\nabla\times \mathbf{B})$$
+> and rearranged to find $\mathbf{E}\cdot(\nabla\times \mathbf{B})$, used [[Faraday's law]] and defined the [[Poynting vector]]
 > $$\mathbf{S}=\frac{1}{\mu_{0}}\mathbf{E}\times \mathbf{B}$$
-> and expanded
-> $$\mathbf{E}\cdot(\nabla\times \mathbf{B})=\nabla\cdot(\mathbf{B}\times \mathbf{E})=-\nabla\cdot(\mathbf{E}\times \mathbf{B})=-\mathbf{B}\cdot(\nabla\times \mathbf{E})+\mathbf{E}\cdot(\nabla\times \mathbf{B})$$
-> Equating the last two steps
-> $$\mathbf{E}\cdot(\nabla\times \mathbf{B})=\mathbf{B}\cdot(\nabla\times \mathbf{E})-\nabla\cdot(\mathbf{E}\times \mathbf{B})$$
+> 
 > If we extract and merge the time derivative from the first two terms, we are left with the electromagnetic energy density by volume $u$:
 > $$- \frac{1}{2\mu_{0}}\frac{ \partial B^{2} }{ \partial t } - \frac{\varepsilon_{0}}{2}\frac{ \partial E^{2} }{ \partial t }=- \frac{1}{2}\frac{ \partial  }{ \partial t } \left( \frac{1}{\mu_{0}}B^{2} + \varepsilon_{0}E^{2} \right)=-\frac{ \partial u }{ \partial t }$$
 > Which means
 > $$\mathbf{E}\cdot \mathbf{J}=-\frac{ \partial u }{ \partial t } -\nabla\cdot \mathbf{S}$$
 > which is the differential expression of the theorem. If we plug this back into $(1)$, we get
 > $$P=-\frac{ \partial  }{ \partial t } \int_{V}u\ d\tau-\int_{V}\nabla\cdot\mathbf{S}=-\frac{ \partial  }{ \partial t } \int_{V}u\ d\tau-\oint_{S}\mathbf{S}\cdot d\mathbf{a}$$
-where we used the [[Divergence theorem|divergence theorem]]. This completes the proof.
+> where we used the [[Divergence theorem|divergence theorem]]. This completes the proof.
 
 The two integrals can be interpreted individually: the first is the *stored* energy[^1], of which we take the time derivative of, whereas the second is the *transfer* of energy from inside the volume $\mathcal{V}$ to outside, as determined by checking what goes through the boundary $\mathcal{S}$.
 
