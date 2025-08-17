@@ -5,20 +5,20 @@ aliases:
 ---
 The **polarization** of a [[transverse wave]] is the set of independent axes that it can oscillate in. It may also refer to the individual axis the wave oscillates on, or even just the property of having such an axis.
 
-Polarization arises because real space is three-dimensional, but the direction of propagation is only one axis. As such, there are always two remaining axes that are always [[Orthogonality|orthogonal]] to the direction of propagation and the space in which the transverse wave can oscillate in is therefore a [[plane]]. The direction of oscillation is a [[Vector space|vector]] in this two-dimensional space and may thus be expressed as a [[linear combination]] of the [[basis]] vectors of this space. These basis vectors are called the **polarization states** of the wave and their ([[Normalization|normalized]]) linear combination is the **polarization vector** $\hat{\mathbf{n}}$ (also $\hat{\varepsilon}$ sometimes). The polarization vector uniquely determines the axis of oscillation.
+Polarization arises because real space is three-dimensional, but the direction of propagation is only one axis. As such, there are always two remaining axes that are always [[Orthogonality|orthogonal]] to the direction of propagation and the space in which the transverse wave can oscillate in is therefore a [[plane]]. The direction of oscillation is a [[Vector space|vector]] in this two-dimensional space and may thus be expressed as a [[linear combination]] of the [[basis]] vectors of this plane. These basis vectors are called the **polarization states** of the wave and their ([[Normalization|normalized]]) linear combination is the **polarization vector** $\hat{\mathbf{n}}$ (also $\hat{\varepsilon}$ sometimes). The polarization vector uniquely determines the axis of oscillation.
 
-The polarization vector can be used to define the plane of oscillation using the orthogonality condition. Say the wave is traveling on an axis determined by its [[Wavenumber|wavevector]] $\mathbf{k}$. The wave must therefore oscillate on the plane perpendicular to $\mathbf{k}$, identified by the condition
+The polarization vector can be used to define the plane of oscillation using the orthogonality condition. Say the wave is traveling on an axis determined by its [[Wavenumber|wavevector]] $\mathbf{k}$. The wave oscillates on the plane perpendicular to $\mathbf{k}$, identified by
 $$\hat{\mathbf{n}}\cdot \hat{\mathbf{k}}=0$$
 
 The polarization of a transverse wave is not guaranteed. It may be possible for the polarization vector of the wave to vary extremely fast and show chaotic behavior, so that it may as well be considered completely [[Random variable|random]]. This is the case for sunlight and more generally [[thermal radiation]]. In this case, the wave is said to be **unpolarized**.
 ### Polarization bases
-The polarization states are vectors that act as a basis of the oscillation plane. As such, *any* such basis works well for describing polarization. In practice, there's some pretty clear choices in what to use, namely two of them.
+The polarization states form the basis of the oscillation plane. As such, *any* such basis works well for describing polarization. In practice, some bases are better than others, namely two of them.
 
 On one hand, you can use [[Cartesian coordinates]]. Just pick the canonical basis $\{ \hat{\mathbf{x}},\hat{\mathbf{y}} \}=\{ (1,0),(0,1) \}$ and you get what's called **linear polarization**, called so because it is most convenient to describe oscillations in a straight line (think of a rope going up and down: that's linear polarization). The polarization vector then is
 $$\hat{\mathbf{n}}=\cos \theta\ \hat{\mathbf{x}}+\sin \theta\ \hat{\mathbf{y}}$$
 where $\theta$ is called the **polarization angle**.
 
-On the other hand, you can describe oscillations as something closer to rotations. If this seems weird, imagine the wave as a corkscrew moving forward with the pointy end aimed forward. Instead of going up or down, you follow the surface of the corkscrew, which makes you *rotate*. Alternatively, it's like walking up a spiral staircase. You are "propagating" upwards, but also rotating around the direction of propagation (the column at the center of the stairs). That's circular polarization.
+On the other hand, you can describe oscillations as something closer to rotations. If this seems weird, imagine the wave as a corkscrew moving forward with the pointy end aimed forward. Instead of going up or down, you follow the surface of the corkscrew, which makes you *rotate*. Alternatively, it's like walking up a spiral staircase. You are "propagating" upwards, but also rotating around the direction of propagation (the column at the center of the stairs). This is called **circular polarization**.
 
 :::image
 ![[CircularPolarization.gif]]

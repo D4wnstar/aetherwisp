@@ -1,7 +1,7 @@
 ---
 wiki-publish: true
 ---
-The **Poynting vector** $\mathbf{S}$ is a vector that points in the direction of the flow of electromagnetic [[energy]]. It is defined as
+The **Poynting vector** $\mathbf{S}$ is a vector that points in the direction of the flow of electromagnetic [[energy]]. It is a surface [[power]] density, measured in $\text{W/m}^{2}$ in SI units. It is defined as
 $$\mathbf{S}\equiv \frac{1}{\mu_{0}}\mathbf{E}\times \mathbf{B}$$
 where $\mathbf{E}$ is the [[electric field]] and $\mathbf{B}$ is the [[magnetic field]]. Even static fields can lead to a movement of energy.
 ### Examples

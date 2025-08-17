@@ -3,27 +3,29 @@ wiki-publish: true
 ---
 An **electromagnetic wave** is a [[wave]] produced by the periodic variation and mutual [[Electromagnetic induction|induction]] of an [[Electric field|electric]] and a [[magnetic field]]. It is a [[transverse wave]], which means that the fields are always [[Orthogonality|orthogonal]] to the direction of propagation.
 
-Electromagnetic waves are a consequence of [[Maxwell's equations]]. In the vacuum, with no [[Electric charge|charges]] whatsoever, the equations can be decoupled to read
+Electromagnetic waves are described through [[Maxwell's equations]]. In the vacuum, with no [[Electric charge|charges]] whatsoever, the equations can be decoupled to read
 $$\nabla ^{2}\mathbf{E}=\varepsilon_{0}\mu_{0}\frac{ \partial ^{2}\mathbf{E} }{ \partial t^{2} } ,\qquad \nabla ^{2}\mathbf{B}=\varepsilon_{0}\mu_{0}\frac{ \partial ^{2}\mathbf{B} }{ \partial t^{2} } $$
-Both of these are examples of the [[wave equation]] and thus $\mathbf{E}$ and $\mathbf{B}$ accept wave solutions. Being solutions to the wave equations, their [[phase velocity]] must be
+Both of these are examples of the [[wave equation]] and thus $\mathbf{E}$ and $\mathbf{B}$ accept wave solutions. Their [[phase velocity]] must be
 $$c=\frac{1}{\sqrt{ \varepsilon_{0}\mu_{0} }}$$
 which is the [[speed of light]].
 ### In the vacuum
-Let's start by analyzing the behavior of electromagnetic [[Plane wave|sine waves]]. These are, as always, of paramount importance since all waves can be decomposed into a [[Fourier series]] of sine waves. In complex notation, these read
+Let's start by analyzing the behavior of electromagnetic [[Plane wave|sine waves]]. These are, as always, of paramount importance since all waves can be decomposed into a [[Fourier series]] of sine waves. Thus, understanding sine waves in theory means that you understand all other waves. In complex notation, they read
 $$\tilde{\mathbf{E}}=\tilde{\mathbf{E}}_{0}e^{i(kx-\omega t)},\qquad \tilde{\mathbf{B}}=\tilde{\mathbf{B}}_{0}e^{i(kx-\omega t)}$$
-assuming the propagate on the $x$ axis. The real fields can be recovered by taking the [[real and imaginary parts|real part]] of the complex field. Now, this equation is entirely determined from the wave equation. However, as it is, it cannot be correct. This is because Maxwell's equation impose specific constraints on the possible functions that $\mathbf{E}$ and $\mathbf{B}$ can be. Here we bypassed all of that by arbitrarily picking a known solution to the wave equation. While it is true that all vacuum solutions of Maxwell's equation obey the wave equation, the converse is not necessarily true: not all solutions to the wave equation obey Maxwell's equations. As such, we must reintroduce these obligations back into the fields manually.
+assuming propagation on the $x$ axis. The real fields can be found by taking the [[real and imaginary parts|real part]] of the complex field. Now, this equation is entirely determined from the wave equation. However, as it is, it cannot be correct. This is because Maxwell's equation impose specific constraints on the possible functions that $\mathbf{E}$ and $\mathbf{B}$ can be. Here we bypassed all of that by arbitrarily picking a known solution to the wave equation. While it is true that all vacuum solutions of Maxwell's equation obey the wave equation, the converse is not necessarily true: not all solutions to the wave equation obey Maxwell's equations. In light of this, we should analyze Maxwell's equation to figure out what these additional constraints are.
 
 Maxwell's equation determine the fields, so the conditions must be applied to $\tilde{\mathbf{E}}_{0}$ and $\tilde{\mathbf{B}}_{0}$. These conditions are the values of the [[divergence]] and [[curl]]. The divergence of these fields in a vacuum is zero, so it must be that
 $$\tilde{E}_{0,x}=\tilde{B}_{0,x}=0$$
-Intuitively, this is because the divergence in a way represents propagation. As such, if it must be zero, then the field cannot possibly extend in the direction of propagation (we choose $x$ as this direction). But if the oscillation of field cannot be in the direction of propagation, then *all electromagnetic waves must be transverse*! That's it for divergence. The curls on the other hand tell us that the fields induce each other, so clearly there has to be some connection between electric waves and magnetic waves. The curl of $\mathbf{E}$ ([[Faraday's law]]) gives one connection (by looking at the components of the [[vector product]] directly):
+Intuitively, this is because the divergence in a way represents propagation. As such, if it must be zero, then the field cannot possibly extend in the direction of propagation. But if the oscillation cannot be in the direction of propagation, then *all electromagnetic waves must be transverse*!
+
+That's it for divergence. The curls on the other hand tell us that the fields induce each other, so clearly there has to be some connection between electric waves and magnetic waves. The curl of $\mathbf{E}$ ([[Faraday's law]]) gives one connection (by looking at the components of the [[vector product]] directly):
 $$\nabla\times \tilde{\mathbf{E}}=-\frac{ \partial \tilde{E}_{z} }{ \partial x } \hat{\mathbf{y}}+\frac{ \partial \tilde{E}_{y} }{ \partial x } \hat{\mathbf{z}}=-\tilde{E}_{0,z}ike^{i(kx-\omega t)}\hat{\mathbf{y}}+\tilde{E}_{0,y}ike^{i(kx-\omega t)}\hat{\mathbf{z}}=ik(-\tilde{E}_{z}\hat{\mathbf{y}}+\tilde{E}_{y}\hat{\mathbf{z}})$$
 and also
-$$\nabla\times \tilde{\mathbf{E}}=-\frac{ \partial \tilde{\mathbf{B}} }{ \partial t }=\tilde{\mathbf{B}}_{0}i\omega e^{i(kx-\omega t)}=i\omega \tilde{\mathbf{B}}=i\omega(B_{y}\hat{\mathbf{y}}+B_{z}\hat{\mathbf{z}})$$
+$$\nabla\times \tilde{\mathbf{E}}=-\frac{ \partial \tilde{\mathbf{B}} }{ \partial t }=\tilde{\mathbf{B}}_{0}i\omega e^{i(kx-\omega t)}=i\omega \tilde{\mathbf{B}}=i\omega(\tilde{B}_{y}\hat{\mathbf{y}}+\tilde{B}_{z}\hat{\mathbf{z}})$$
 (since the $x$ component is guaranteed zero). So, comparing the two:
 $$-k\tilde{E}_{0,z}=\omega \tilde{B}_{0,y},\qquad k\tilde{E}_{0,y}=\omega \tilde{B}_{0,z}$$
 which is equivalent to the vector product
 $$\tilde{\mathbf{B}}_{0}=\frac{k}{\omega}(\hat{\mathbf{x}}\times \tilde{\mathbf{E}}_{0})$$
-The curl of $\mathbf{B}$ provides nothing new: it just recreates this formula starting from the other side. This should be enough to convince you that the electric and magnetic parts of the wave not only are symmetric, but also *strongly* linked to each other, for they must be both in [[phase]] and mutually [[Orthogonality|perpendicular]] (due to the vector product). Their real [[Amplitude|amplitudes]] must be related by
+The curl of $\mathbf{B}$ provides the same result. This should be enough to convince you that the electric and magnetic parts of the wave not only are symmetric, but also *strongly* coupled, for they must be both in [[phase]] and [[Orthogonality|perpendicular]] (due to the vector product). Their real [[Amplitude|amplitudes]] must be related by
 $$B_{0}=\frac{k}{\omega}E_{0}=\frac{1}{c}E_{0}\tag{1}$$
 where $c=\omega/k$ is the [[phase velocity]] of the wave, coinciding with the [[speed of light]].
 
@@ -33,7 +35,9 @@ Apply the previous conditions to get
 $$\tilde{\mathbf{E}}(x,t)=\tilde{E}_{0}e^{i(kx-\omega t)}\hat{\mathbf{y}},\qquad \tilde{\mathbf{B}}(x,t)=\frac{1}{c}\tilde{E}_{0}e^{i(kx-\omega t)}\hat{\mathbf{z}}$$
 Take the real part and finally you have a electromagnetic sine wave on the $x$ axis:
 $$\mathbf{E}(x,t)=E_{0}\cos(kx-\omega t+\varphi)\hat{\mathbf{y}},\qquad \mathbf{B}(x,t)=\frac{1}{c}E_{0}\cos(kx-\omega t+\varphi)\hat{\mathbf{z}}$$
-This is an electromagnetic wave propagating over $\hat{\mathbf{x}}$ that is [[Polarization|polarized]] in the $\hat{\mathbf{y}}$ direction (by convention, it is the direction of $\mathbf{E}$ that specifies the polarization). Of course, electromagnetic waves can propagate in any direction, so we can generalize to a truly general purpose electromagnetic sine wave by introducing the [[Wavenumber|wavevector]] $\mathbf{k}$ and the polarization vector $\hat{\mathbf{n}}$:
+This is an electromagnetic wave propagating over $\hat{\mathbf{x}}$ that is [[Polarization|polarized]] on $\hat{\mathbf{y}}$ (by convention, it is the direction of $\mathbf{E}$ that specifies the polarization). The magnetic field needs to be orthogonal to both propagation and $\mathbf{E}$, so it ends up on $\hat{\mathbf{z}}$.
+
+Of course, electromagnetic waves can propagate in any direction, so we can generalize further by introducing the [[Wavenumber|wavevector]] $\mathbf{k}$ and the polarization vector $\hat{\mathbf{n}}$:
 $$\boxed{\begin{align}
 \tilde{\mathbf{E}}(\mathbf{r},t)&=\tilde{E}_{0}e^{i(\mathbf{k}\cdot \mathbf{r}-\omega t)}\hat{\mathbf{n}} \\
 \tilde{\mathbf{B}}(\mathbf{r},t)&=\frac{1}{c}\tilde{E}_{0}e^{i(\mathbf{k}\cdot \mathbf{r}-\omega t)}(\hat{\mathbf{k}}\times \hat{\mathbf{n}})=\frac{1}{c}\hat{\mathbf{k}}\times \tilde{\mathbf{E}}
@@ -44,7 +48,7 @@ $$\boxed{\begin{align}
 \mathbf{B}(\mathbf{r},t)&=\frac{1}{c}E_{0}\cos(\mathbf{k}\cdot \mathbf{r}-\omega t+\varphi)(\hat{\mathbf{k}}\times \hat{\mathbf{n}})=\frac{1}{c}\hat{\mathbf{k}}\times \mathbf{E}
 \end{align}}$$
 ### Transported quantities
-Electromagnetic waves are essentially traveling electromagnetic fields. As such, they carry all quantities that the fields themselves do, chiefly [[energy]] and [[Linear momentum|momentum]].
+Electromagnetic waves are really just traveling electromagnetic fields. As such, they carry all quantities that the fields themselves do, chiefly [[energy]] and [[Linear momentum|momentum]].
 
 The energy density of an electromagnetic field is
 $$u=\frac{1}{2}\left( \varepsilon_{0}E^{2}+ \frac{1}{\mu_{0}}B^{2} \right)$$
@@ -57,7 +61,7 @@ $$\mathbf{S}=c\varepsilon_{0}E_{0}^{2}\cos ^{2}(\mathbf{k}\cdot \mathbf{r}-\omeg
 Perhaps unsurprisingly, the energy moves in the exact direction of the wave. Finally, the momentum density carried by the field is
 $$\mathbf{g}=\frac{u}{c}\hat{\mathbf{n}}$$
 
-Generally speaking though, electromagnetic wave [[Frequency|frequencies]] are *fast*. So fast in fact that any measurement done at a macroscopic level will surely encompass a large number of cycles of oscillation. As such, a reading of any of these quantities is going to be smeared across so many cycles it essentially just becomes the time average of the quantity. As such, it's in our interest to take a look at the mathematical predictions of these averages. Since the only variable part in these quantities is the square cosine, we just need its  average over a full cycle of [[period]] $T$:
+Generally speaking though, electromagnetic wave [[Frequency|frequencies]] are *fast*. So fast in fact that any measurement done at a macroscopic level will surely encompass a large number of cycles of oscillation. As such, a reading of any of these quantities is going to be smeared across so many cycles it essentially just becomes the time average of the quantity. As such, it's in our interest to take a look at the mathematical predictions of these averages. Since the only time-variable part in these quantities is the square cosine, we just need its  average over a full cycle of [[period]] $T$:
 $$\langle \cos ^{2}(\ldots) \rangle = \frac{1}{T}\int_{0}^{T}\cos ^{2}\left( \mathbf{k}\cdot \mathbf{r}- \frac{2\pi}{T} t+\varphi \right)dt=\frac{1}{2}$$
 Thus, the average energy density, Poynting vector and momentum density are
 $$\boxed{\langle u \rangle =\frac{\varepsilon_{0}}{2}E_{0}^{2},\quad \langle \mathbf{S} \rangle =\frac{\varepsilon_{0}c}{2}E_{0}^{2}\ \hat{\mathbf{n}},\quad \langle \mathbf{g} \rangle =\frac{\varepsilon_{0}}{2c}E_{0}^{2}\ \hat{\mathbf{n}}}$$

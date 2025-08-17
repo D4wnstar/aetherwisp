@@ -35,7 +35,7 @@ The magnetic field of the particle 1 goes into the page ($-\hat{\mathbf{z}}$) at
 According to the general form [[Newton's laws|Newton's second law]], the force on an object is the time derivative of its momentum:
 $$\mathbf{F}=\frac{d\mathbf{p}_\text{mech}}{dt}$$
 Here we are specifically calling the momentum "mechanical": you'll see why in a moment. Since we know $\mathbf{F}$, we can see where this leads. We'll use the stress tensor form:
-$$\frac{d\mathbf{p}_\text{mech}}{dt}=-\varepsilon_{0}\mu_{0}\frac{d}{dt} \int_{\mathcal{V}}\mathbf{S}\ d\tau+\oint_{\mathcal{S}}T\cdot d\mathbf{a}$$
+$$\frac{d\mathbf{p}_\text{mech}}{dt}=-\varepsilon_{0}\mu_{0}\frac{d}{dt} \int_{\mathcal{V}}\mathbf{S}\ d\tau+\oint_{\mathcal{S}}\mathrm{T}\cdot d\mathbf{a}$$
 This expression is remarkably similar to [[Poynting's theorem]] and it is sensible to interpret it in a similar manner. The volume integral must then be the momentum "stored" in the fields
 $$\mathbf{p}_\text{field}=\mu_{0}\varepsilon_{0}\int_{\mathcal{V}}\mathbf{S}d\tau$$
 and the surface integral must be the momentum flowing in through the surface. The mechanical momentum must be the total of these two. This equation expresses conservation of momentum due to electromagnetic forces: if momentum "enters" through the surface, then the total "stored" momentum must increase.
@@ -45,7 +45,7 @@ $$\boxed{\mathbf{g}=\varepsilon_{0}\mu_{0}\mathbf{S}=\varepsilon_{0}(\mathbf{E}\
 Meanwhile, the momentum [[flux]] transported by the fields must be $-T$.
 
 If we keep the mechanical momentum static, such as when we are in empty space, the time derivative vanishes and we can rearrange the conservation law to read
-$$\frac{\partial \mathbf{g}}{\partial t}=\nabla\cdot T$$
+$$\frac{\partial \mathbf{g}}{\partial t}=\nabla\cdot \mathrm{T}$$
 This is the momentum continuity equation for electrodynamics. Just like with energy and electric charge, individual charges and their fields constantly exchange momentum, with the *total* momentum being conserved.
 #### Conservation of angular momentum
 Just like how fields carry angular momentum, they also carry [[angular momentum]]. By definition $\mathbf{L}=\mathbf{r}\times \mathbf{p}$, so the **angular momentum density** $\boldsymbol{\ell}$ must be

@@ -9,8 +9,8 @@ wiki-publish: true
 - [[Lorentz force#Using the Maxwell stress tensor]] and momenta conservations
 ### Waves
 - [[Wave]], [[Wave equation]], [[phase velocity]] and [[group velocity]]
-- [[Harmonic]] and [[phasor]] method
-- [[Plane wave]], [[spherical wave]]
+- [[Plane wave]], [[Harmonic]], [[spherical wave]]
+- [[Phasor]] method
 - [[Polarization]]
 ### Wave optics
 - [[Electromagnetic wave]]
