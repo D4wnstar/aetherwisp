@@ -111,20 +111,20 @@ $$\beta\equiv \frac{\mu_{1}n_{2}}{\mu_{2}n_{1}}$$
 this simplifies to
 $$\tilde{E}_{0,I}-\tilde{E}_{0,R}=\beta \tilde{E}_{0,T}$$
 We can solve these to express reflected and transmitted amplitude in terms of the incident one:
-$$\boxed{\tilde{E}_{0,R}=\left( \frac{1-\beta}{1+\beta} \right)\tilde{E}_{0,I},\qquad \tilde{E}_{0,T}=\left( \frac{2}{1+\beta} \right)\tilde{E}_{0,T}}$$
+$$\boxed{\tilde{E}_{0,R}=\left( \frac{1-\beta}{1+\beta} \right)\tilde{E}_{0,I},\qquad \tilde{E}_{0,T}=\left( \frac{2}{1+\beta} \right)\tilde{E}_{0,I}}$$
 These are the amplitudes we were looking for. These are true in general for electromagnetic sine waves at normal incidence. We can however squeeze more physical significance out of these. This is because in most materials, the relative permeability is *essentially* one, and so $\mu \simeq \mu_{0}$. Thus, $\beta$ simplifies down to $\beta \simeq n_{2}/n_{1}$ and our amplitudes become
 $$\tilde{E}_{0,R}\simeq\left( \frac{n_{1}-n_{2}}{n_{1}+n_{2}} \right)\tilde{E}_{0,I},\qquad \tilde{E}_{0,T}\simeq\left( \frac{2n_{1}}{n_{1}+n_{2}} \right)\tilde{E}_{0,I}$$
 Don't let the approximate equals sign fool you: these are perfectly valid equations in most materials. These of course fail when $\mu_{r}\gg1$, as is the case in many metals and generally all strong magnetic amplifiers, but most other materials have quite negligible relative permeabilities, so these are safe to use. If $n_{1}<n_{2}$, the reflected wave is flipped upside down compared to the incident wave (a minus sign on complex amplitude corresponds to a $\pi$ [[phase]] shift). If $n_{1}>n_{2}$, then the phase is the same. The real parts are
 $$E_{0,R}\simeq \left\lvert  \frac{n_{1}-n_{2}}{n_{1}+n_{2}}  \right\rvert E_{0,I},\qquad E_{0,T}\simeq \left(  \frac{2n_{1}}{n_{1}+n_{2}}   \right) E_{0,I}$$
 The amplitudes themselves are theoretically important, but in practice one generally cares about the irradiance of the wave. The amplitude uniquely determines the irradiance according to
-$$\boxed{I_{I}=\frac{\varepsilon c}{2n_{1}}E_{0,I}^{2},\qquad I_{R}=\frac{\varepsilon c}{2n_{1}}E_{0,R}^{2},\qquad I_{T}=\frac{\varepsilon c}{2n_{2}}E_{0,T}^{2}}$$
+$$\boxed{I_{I}=\frac{\varepsilon_{1} c}{2n_{1}}E_{0,I}^{2},\qquad I_{R}=\frac{\varepsilon_{1} c}{2n_{1}}E_{0,R}^{2},\qquad I_{T}=\frac{\varepsilon_{2} c}{2n_{2}}E_{0,T}^{2}}$$
 More so than the irradiances themselves though, it's interesting to see how they change after reflection or transmission. We do this by finding the ratios between incident and reflected/transmitted irradiance:
 $$\boxed{R\equiv \frac{I_{R}}{I_{I}}=\left( \frac{E_{0,R}}{E_{0,I}} \right)^{2}=\left( \frac{n_{1}-n_{2}}{n_{1}+n_{2}} \right)^{2},\qquad T\equiv \frac{I_{T}}{I_{I}}=\frac{\varepsilon_{2}n_{1}}{\varepsilon_{1}n_{2}}\left( \frac{E_{0,T}}{E_{0,I}} \right)^{2}=\frac{4n_{1}n_{2}}{(n_{1}+n_{2})^{2}}}$$
 These are known as the **reflection** and **transmission coefficients** (or **reflectance** and **transmittance**) and represent the fraction of the irradiance that is transferred to the reflected and transmitted waves on interface interaction. The ratios of the electric fields are instead called the **Fresnel coefficients**, and the reflectance and transmittance are their squares. Note that, since energy must be conserved, these coefficients abide by
 $$R+T=1$$
 as can be shown by doing the math directly.
 
-Now, to be a little pedantic, calling $I_{R}$ and $I_{T}$ "irradiances" is *technically* wrong here because both reflected and transmitted waves are *outgoing*, not *ingoing*. Irradiance is specifically the energy flux *incident* on a surface. Flux that is exiting a surface is called **[[radiant exitance]]**[^2]. For correctness, $I_{R}$ is **reflected exitance** and $I_{T}$ is **transmitted exitance**. If you are confused at the nomenclature, don't worry, radiometry (the study of electromagnetic radiation) is confusing. I have written a [[Radiometric nomenclature survival guide]] to help.
+Now, to be a little pedantic, calling $I_{R}$ and $I_{T}$ "irradiances" is *technically* wrong here because both reflected and transmitted waves are *outgoing*, not *ingoing*. Irradiance is specifically the energy flux *incident* on a surface. Flux that is exiting a surface is called **[[radiant exitance]]**[^2]. For correctness, we can call $I_{R}$ **reflected exitance** and $I_{T}$ **transmitted exitance**. If you are confused at the nomenclature, don't worry, radiometry (the study of electromagnetic radiation) is confusing. I have written a [[Radiometric nomenclature survival guide]] to help.
 ##### Oblique incidence
 Now that we have developed a theory in normal incidence, let's twist the surface a bit so that it is no longer perpendicular to the radiation. We call $\theta_{I}$ the angle of incidence, the angle between the wavevector and the surface normal. Normal incidence is when $\theta_{I}=0$. The reflected and transmitted waves then emanate at their own angles of reflection $\theta_{R}$ and transmission $\theta_{T}$ (also called angle of refraction).
 
@@ -154,7 +154,7 @@ $$A+B=C,\quad \mathbf{k}_{I}\cdot \mathbf{r}-\omega t=\mathbf{k}_{R}\cdot \mathb
 > $$aAe^{ iax }+bBe^{ ibx }=c(Ae^{ iax }+Be^{ ibx })\quad\Rightarrow \quad (a-c)Ae^{ iax }+(b-c)Be^{ ibx }=0$$
 > Since $A,B\neq 0$ and $e^{iax},e^{ ibx }$ are nonzero for all $x$, the only way this is true is if $a=b=c$.
 
-The time-frequency part is trivially equal already and drops out, so the only part that the exponentials need to match is
+The time-frequency part is equal and drops out, so the only part that the exponentials need to match is
 $$\mathbf{k}_{I}\cdot \mathbf{r}=\mathbf{k}_{R}\cdot \mathbf{r}=\mathbf{k}_{T}\cdot \mathbf{r}\quad\text{on the surface}\tag{2}$$
 Writing the components out gives us
 $$yk_{I,y}+zk_{I,z}=yk_{R,y}+zk_{R,z}=yk_{T,y}+zk_{T,z}$$
@@ -195,7 +195,7 @@ $$\begin{align}
 Suppose that the incident wave is polarized parallel to the plane of incidence. Then, the reflected and transmitted waves must themselves be polarized in the same plane[^3]. In this case, we get
 $$\begin{align}
 \varepsilon_{1}(-\tilde{E}_{0,I}\sin \theta_{I}+\tilde{E}_{0,R}\sin \theta_{R}) & =\varepsilon_{2}(-\tilde{E}_{0,T}\sin \theta_{T}) & \tilde{E}_{0,I}\cos \theta_{I}+\tilde{E}_{0,R}\cos \theta_{R} & =\tilde{E}_{0,T}\cos \theta_{T} \\
-0 & =0 & \frac{n_{1}}{\mu_{1}}(\tilde{E}_{0,I}+\tilde{E}_{0,R})&=\frac{n_{2}}{\mu_{2}}\tilde{E}_{0,T}
+0 & =0 & \frac{n_{1}}{\mu_{1}}(\tilde{E}_{0,I}-\tilde{E}_{0,R})&=\frac{n_{2}}{\mu_{2}}\tilde{E}_{0,T}
 \end{align}$$
 Using the law of reflection and Snell's law, top left and bottom right both become
 $$\tilde{E}_{0,I}-\tilde{E}_{0,R}=\beta \tilde{E}_{0,T}$$
@@ -219,9 +219,9 @@ A plot of the real amplitudes ratios of incident, reflected an transmitted waves
 From *Introduction to Electrodynamics 4th ed., Griffiths*.
 :::
 
-Actually, there is yet *another* interesting angle to talk about, although it is not universal. When a wave moves from an "optically dense" material (say, water) to an "optically thin" one (say, air), that is $n_{1}>n_{2}$, the transmitted wavevector tends to move away form the normal and towards the being flush with the interface. This isn't asymptotic: the wavevector becomes exactly parallel with the surface ($\theta_{T}=\pi/2$ or 90°) at the **critical angle**
+Actually, there is yet *another* interesting angle to talk about, although it is not universal. When a wave moves from an "optically dense" material (say, water) to an "optically thin" one (say, air), which is to say when $n_{1}>n_{2}$, the transmitted wavevector tends to move away from the normal and tends to become parallel to the interface. This isn't asymptotic: the wavevector becomes exactly parallel with the surface ($\theta_{T}=\pi/2$ or 90°) at the **critical angle**
 $$\theta_{C}\equiv \arcsin\left( \frac{n_{2}}{n_{1}} \right)$$
-by using Snell's law. Incidence at any angle greater than the critical one ($\theta_{I}>\theta_{C}$) and *there is no transmission*, just like normally when reaching 90°. Since air is quite optically thin, this typically happens when a ray of light attempts to leave a material (almost certainly optically denser) and move into the air. As such, in some conditions, it's possible that a ray of light might remain "trapped" inside the material if it only ever bounces at angles greater than the critical one. This is the idea behind **total internal reflection**, a technique used to transfer light beams from one place to another without energy loss by making sure all internal incidence is at an angle greater than critical (if you have fiber optics somewhere in your house, this is how they work).
+as per Snell's law. On incidence at any angle greater than the critical one ($\theta_{I}>\theta_{C}$), *there is no transmission*, just like normally when reaching 90°. Since air is quite optically thin, this typically happens when a ray of light attempts to leave a material (almost certainly optically denser) and move into the air. As such, in some conditions, it's possible that a ray of light might remain "trapped" inside the material if it only ever bounces at angles greater than the critical one. This is the idea behind **total internal reflection**, a technique used to transfer light beams from one place to another without energy loss by making sure all internal incidence is at an angle greater than critical (if you're familiar with fiber optics, this is how it works).
 
 This said, while the wave is fully reflected, the fields are actually *not* zero in material 2. They form a so-called **[[evanescent wave]]**, a wave that attenuates extremely rapidly and transports no energy into material 2. It can be constructed by setting $k_{T}=\omega n_{2}/c$ and $\mathbf{k}_{T}=k_{T}(\sin \theta_{T}\ \hat{\mathbf{y}}+\cos \theta_{T}\ \hat{\mathbf{z}})$. This causes Snell's law
 $$\sin \theta_{T}=\frac{n_{1}}{n_{2}}\sin \theta_{I}$$
@@ -232,11 +232,11 @@ to report an *imaginary* transmission angle when $\theta_{I}>\theta_{C}$. Of cou
 By Josell7 - Own work, CC BY-SA 3.0, from [Wikipedia](https://commons.wikimedia.org/w/index.php?curid=21670922).
 :::
 
-Finally, we close this off with the irradiance of the incident wave is
+Finally, we close this off with the irradiance of the incident wave:
 $$\boxed{I_{I}=\langle \mathbf{S} \rangle\cdot \hat{\mathbf{x}}=\frac{\varepsilon_{1}c}{2n_{1}}E_{0,I}^{2}\cos \theta_{I}}$$
-and the reflected and transmitted exitances
-$$\boxed{I_{R}=\frac{\varepsilon_{1}c}{2n_{1}}E_{0,I}^{2}\cos \theta_{R},\qquad I_{R}=\frac{\varepsilon_{2}c}{2n_{2}}E_{0,I}^{2}\cos \theta_{T}}$$
-The reflectance and transmittance hence end up as
+The reflected and transmitted exitances:
+$$\boxed{I_{R}=\frac{\varepsilon_{1}c}{2n_{1}}E_{0,I}^{2}\cos \theta_{R},\qquad I_{T}=\frac{\varepsilon_{2}c}{2n_{2}}E_{0,I}^{2}\cos \theta_{T}}$$
+And the reflectance and transmittance:
 $$\boxed{R=\frac{I_{R}}{I_{I}}=\left( \frac{\alpha-\beta}{\alpha+\beta} \right)^{2},\qquad T=\frac{I_{T}}{I_{I}}=\alpha \beta\left( \frac{2}{\alpha+\beta} \right)^{2}}$$
 ### In conductors
 Now that we're done with dielectrics, we move on to [[conductor|conductors]]. Maxwell's wave equations for conductors are
@@ -247,15 +247,13 @@ You'll notice an unfamiliar tilde over the $k$: this is because in order for a p
 
 Substituting the plane wave, our wave equations become (we'll use the electric field, but the magnetic field is identical):
 $$\nabla ^{2}\mathbf{E}=\nabla ^{2}[\mathbf{E}_{0}e^{i(\tilde{k}z-\omega t)}]=-\tilde{k}^{2}\mathbf{E}$$
-Be careful with $\tilde{k}^{2}$! It's a complex value, not a real one, so the square is a little more complicated. When plugging this Laplacian in, the wave equation enforces
+Be careful with $\tilde{k}^{2}$! It's a complex value, not a real one, so the square is a little more complicated. When plugging this Laplacian in the wave equation, we get
 $$\tilde{k}^{2}=\mu \varepsilon \omega ^{2}+i\mu \sigma \omega$$
-We'll split the real and imaginary parts:
-$$\tilde{k}=k+i\kappa$$
-so that the square is
+We'll split the real and imaginary parts into $\tilde{k}=k+i\kappa$ so that the square is
 $$\tilde{k}^{2}=(k+i\kappa)(k-i\kappa)=k^{2}+2ik\kappa-\kappa ^{2}$$
 We now have two results for $\tilde{k}^{2}$ that we can compare to get:
 $$k^{2}+2ik\kappa-\kappa ^{2}=\mu \varepsilon \omega ^{2}+i\mu \sigma \omega$$
-This can equivalently be shown as
+Solving for real and imaginary parts separately gives us
 $$\begin{cases}
 k^{2}-\kappa ^{2}=\mu \varepsilon \omega ^{2} \\
 2k\kappa=\mu \sigma \omega
@@ -269,14 +267,14 @@ $$
 $$
 (The only difference between the two is the plus or minus at the end). These are significant results for a couple of reasons, especially the imaginary part. In fact, if we go back to the oscillating fields
 $$\mathbf{E}(x,t)=\mathbf{E}_{0}e^{i[(k+i\kappa)x-\omega t]}=\mathbf{E}_{0}e^{i(kx-\omega t)}e^{-\kappa x}\tag{5}$$
-(the same goes for $\mathbf{B}$). We have the usual plane wave with a *real* wavenumber $k$, but now it's weighed by $e^{-\kappa x}$. Specifically, this term says that as $x$ grows larger (i.e. the wave propagates), it is *suppressed*, with a larger $\kappa$ incurring a more significant suppression; this phenomenon is known as the **skin effect**:
+we have the usual plane wave with a *real* wavenumber $k$, but now it's weighed by $e^{-\kappa x}$. Specifically, this term says that as $x$ grows larger (i.e. the wave propagates), it is *suppressed*, with a larger $\kappa$ incurring a more significant suppression; this phenomenon is known as the **skin effect**:
 
 > [!info] Skin effect
 > An electromagnetic wave incident on a conductor gets suppressed in the direction in propagates in. The distance it takes for the [[Wave equation|amplitude]] to be reduced by a factor of $1/e$ is called the **skin depth** $d\equiv 1/\kappa$.
 
 $1/e$ is qualitatively around one third, so the wave's amplitude cuts down by a third every skin depth. This leads to a very fast suppression of the wave, doubly so since skin depths are typically very small, generally millimeters or fractions of millimeters. Lower frequencies have higher skin depths and viceversa[^4].
 
-Moreover, we see that the wavevector is dependent on $\omega$ multiplied by a factor made up of $\varepsilon$, $\mu$ and $\sigma$. These three parameters determine the materials behavior against incoming electromagnetic waves. You could consider them constants, but you'd be slightly wrong. These are actually measured to be mildly *frequency-dependent*: $\varepsilon\equiv \varepsilon(\omega)$, $\mu\equiv \mu(\omega)$ and $\sigma\equiv \sigma(\omega)$. As such, $\tilde{k}$ is *nonlinearly* dependent on $\omega$. This leads to a phenomenon known as **[[dispersion]]**, which occurs when the [[phase velocity]] of the wave in the material is dependent on the frequency, $v_{p}\equiv v_{p}(\omega)$. The relation $k\equiv k(\omega)$ is called the **dispersion relation**. In our case, since $v_{p}=c/n$, this is like saying that dispersion occurs when the refractive index depends on frequency, $n\equiv n(\omega)$.
+Moreover, we see that the wavevector is dependent on $\omega$ multiplied by a factor made up of $\varepsilon$, $\mu$ and $\sigma$. These three parameters determine the materials behavior against incoming electromagnetic waves. You could consider them constants, but you'd be slightly wrong. These are actually measured to be mildly *frequency-dependent*: $\varepsilon\equiv \varepsilon(\omega)$, $\mu\equiv \mu(\omega)$ and $\sigma\equiv \sigma(\omega)$. As such, $\tilde{k}$ is *nonlinearly* dependent on $\omega$. This leads to a phenomenon known as **[[dispersion]]**, which occurs when the [[phase velocity]] of the wave in the material is dependent on the frequency, $v_{p}\equiv v_{p}(\omega)$. The relation $k\equiv k(\omega)$ is called the **dispersion relation**. In our case, since $v_{p}=c/n$, this is like saying that dispersion occurs when the refractive index depends on frequency, $n\equiv n(\omega)$. (And in fact, remember that $n=\sqrt{ \varepsilon_{r}\mu_{r} }\simeq \sqrt{  \varepsilon_{r} }$, so if $\varepsilon_{r}$ depends on $\omega$, as we've claimed, so does $n$.)
 
 Equation $(5)$ is universally correct for the conductor wave equations. Maxwell's equations impose further constraints on which waves are permitted; this is the same argument as in the beginning of [[#In the vacuum]]. Assuming the wave propagates on $x$, due to $\nabla\cdot \mathbf{E}=0$ and $\nabla\cdot \mathbf{B}=0$, there can be no $x$ component to the fields. Similarly, using the curls we get that the fields are perpendicular to each other at all times. For instance, setting the electric field as polarized over $\hat{\mathbf{y}}$ and using its curl we find
 $$\tilde{\mathbf{E}}(x,t)=\tilde{E}_{0}e^{i(kx-\omega t)}e^{-\kappa x}\hat{\mathbf{y}},\qquad \tilde{\mathbf{B}}(x,t)=\frac{\tilde{k}}{\omega}\tilde{E}_{0}e^{i(kx-\omega t)}e^{-\kappa x}\hat{\mathbf{z}}\tag{6}$$
@@ -288,7 +286,7 @@ and the angle is
 $$\phi=\arctan\left( \frac{\kappa}{k} \right)$$
 Using $(6)$, we see that the complex amplitudes $\tilde{E}_{0}=E_{0}e^{i\delta_{E}}$ and $\tilde{B}_{0}=B_{0}e^{i\delta_{B}}$ are related by
 $$\tilde{B}_{0}=\frac{\tilde{k}\tilde{E}_{0}}{\omega}\quad\to \quad B_{0}e^{i\delta_{B}}=\frac{Ke^{i\phi}}{\omega}E_{0}e^{i\delta_{E}}=\frac{KE_{0}}{\omega}e^{i(\delta_{E}+\phi)}$$
-Evidently, the phase is shifted by an angle $\phi$ determined by the wavevector and the fields are no longer in phase by precisely this angle: $\delta_{B}-\delta_{E}=\phi$. Specifically, the magnetic field is lagging behind the electric one.
+Evidently, the phase is shifted by an angle $\phi$ determined by the wavevector and the fields are out of phase by precisely this angle: $\delta_{B}-\delta_{E}=\phi$. Specifically, the magnetic field is lagging behind the electric one.
 
 :::hidden
 The real amplitudes $E_{0}$ and $B_{0}$ are instead related by
