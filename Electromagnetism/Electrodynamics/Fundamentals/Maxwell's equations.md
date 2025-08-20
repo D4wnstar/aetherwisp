@@ -111,7 +111,7 @@ $$\mathbf{H}_{1}^{\parallel}-\mathbf{H}_{2}^{\parallel}=\mathbf{K}_{f}\times \ha
 Summarized, these are
 $$\boxed{\begin{align}
 D_{1}^{\perp}-D_{2}^{\perp} & =\sigma_{f} & \mathbf{E}_{1}^{\parallel} -\mathbf{E}_{2}^{\parallel} & =\mathbf{0} \\
-B_{1}^{\parallel}-B_{2}^{\parallel} & =0 & \mathbf{H}_{1}^{\parallel}-\mathbf{H}_{2}^{\parallel} & =\mathbf{K}_{f}\times \hat{\mathbf{n}}
+B_{1}^{\perp}-B_{2}^{\perp} & =0 & \mathbf{H}_{1}^{\parallel}-\mathbf{H}_{2}^{\parallel} & =\mathbf{K}_{f}\times \hat{\mathbf{n}}
 \end{align}}$$
 In the case of linear media, these can be expressed in terms of $\mathbf{E}$ and $\mathbf{B}$ alone:
 $$\boxed{\begin{align}
@@ -151,7 +151,9 @@ But wait, now both $\boldsymbol{\alpha}$ and $\beta$ are uniquely determined by 
 $$\mathbf{A}'=\mathbf{A}+\nabla \lambda,\quad V'=V-\frac{ \partial \lambda  }{ \partial t } $$
 Evidently, given *any* scalar function $\lambda(\mathbf{r},t)$ and adding it onto the potentials as above, Maxwell's equation *do not change*. Choosing a $\lambda$, or moving from one to another, is called a **gauge transformation** and the function itself is called a **gauge**. Our duty, then, is to figure how to exploit this freedom to make the potential equations as nice as possible.
 
-Actually, we've already seen a gauge, even though not explicitly: in magnetostatics it's generally convenient to set $\nabla\cdot \mathbf{A}=0$ by just invent a $\lambda$ for which for which this is true. This is known as the [[Coulomb gauge]] and it is typical in static scenarios as it makes sets the electric potential into Poisson's equation. In electrodynamics, however, what gauge to pick is not always clear and historically many choices have been explored and studied. Ultimately, the best choice depends on the system at hand. That said, we do have a "default choice", which we call the [[Lorenz gauge]], which states
+Actually, we've already seen a gauge, even though not explicitly: in magnetostatics it's generally convenient to set $\nabla\cdot \mathbf{A}=0$, which we can do by choosing a $\lambda$ for which this is true (which always exists thanks to the proof above). In fact, you pretty much never choose the $\lambda$ directly: in practice you choose a value *dependent* on $\lambda$ and then just claim that there exists some $\lambda$ for which that is true and then never speak of $\lambda$ ever again. This specific choice is known as the [[Coulomb gauge]] and it is typical in static scenarios as it makes the electric potential into a Poisson's equation.
+
+In electrodynamics, however, what gauge to pick is not always clear and historically several choices have been explored and studied. Ultimately, the best choice depends on the system at hand. That said, there does exist a "default choice" that you use when you don't really have specific needs, which we call the [[Lorenz gauge]], which states
 $$\nabla\cdot \mathbf{A}=-\mu_{0}\varepsilon_{0}\frac{ \partial V }{ \partial t } $$
 and is designed to make the middle term of $(2)$ vanish. This yields
 $$\nabla ^{2}V-\mu_{0}\varepsilon_{0}\frac{ \partial ^{2}V }{ \partial t^{2} } =- \frac{\rho}{\varepsilon_{0}},\qquad\nabla ^{2}\mathbf{A}-\mu_{0}\varepsilon_{0}\frac{ \partial ^{2}\mathbf{A} }{ \partial t^{2} } =-\mu_{0}\mathbf{J}$$

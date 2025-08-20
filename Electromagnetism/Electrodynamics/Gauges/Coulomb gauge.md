@@ -9,4 +9,4 @@ The upside of this gauge is that $V$ is relatively easy to calculate, since it i
 $$V(\mathbf{r},t)=\frac{1}{4\pi \varepsilon_{0}}\int_{\mathcal{V}} \frac{\rho(\mathbf{r}',t)}{\mathfrak{r}}d\tau'$$
 for $V$. There is no general solution for $\mathbf{A}$, which would be the solution to
 $$\nabla ^{2}\mathbf{A}-\mu_{0}\varepsilon_{0}\frac{ \partial ^{2}\mathbf{A} }{ \partial t^{2} } =-\mu_{0}\mathbf{J}+\mu_{0}\varepsilon_{0}\nabla\left( \frac{ \partial V }{ \partial t }  \right)$$
-a second-order differential equation.
+a second-order [[differential equation]].
