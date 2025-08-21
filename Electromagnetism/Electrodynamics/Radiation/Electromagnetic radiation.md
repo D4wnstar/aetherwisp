@@ -42,7 +42,7 @@ $$r'\ll r\tag{Small source approximation}$$
 Since $r'$ is a variable of integration, this means that $r'\ll r$ at all points during the integration, i.e. the entire source is small. In this approximation we get
 $$\mathfrak{r}=r^{2}\sqrt{ 1\pm \frac{2}{r}\mathbf{r}\cdot \mathbf{r}'+ \frac{r'^{2}}{r^{2}}}$$
 $r'^{2}/r^{2}$ is second-order and therefore negligible in the small source approximation. The rest of the root can use the [[Binomial theorem|binomial expansion]] to first order:
-$$\mathfrak{r}\simeq r\left( 1- \frac{\mathbf{r}\cdot\mathbf{r}'}{r^{2}} \right)$$
+$$\mathfrak{r}\simeq r\left( 1- \frac{\hat{\mathbf{r}}\cdot\mathbf{r}'}{r} \right)$$
 and so our distribution is actually dependent on
 $$\rho\left( \mathbf{r}',t- \frac{\mathfrak{r}}{c} \right)\simeq \rho\left( \mathbf{r}',t- \frac{r}{c}+ \frac{\hat{\mathbf{r}}\cdot\mathbf{r}'}{c} \right)$$
 Expanding $\rho$ in a [[Taylor series]] in $t$ about the [[retarded time]] at the origin
@@ -51,10 +51,10 @@ yields
 $$\rho\left( \mathbf{r}',t- \frac{\mathfrak{r}}{c} \right)\simeq \rho(\mathbf{r}',t_{0})+\dot{\rho}(\mathbf{r}',t_{0})\left( \frac{\hat{\mathbf{r}}\cdot\mathbf{r}'}{c} \right)+ \frac{1}{2}\ddot{\rho}\left( \frac{\hat{\mathbf{r}}\cdot \mathbf{r}'}{c} \right)^{2}+ \frac{1}{3!}\dddot{\rho}\, \left( \frac{\hat{\mathbf{r}}\cdot \mathbf{r}'}{c} \right)^{3}+\ldots$$
 using dot notation for time derivatives. We do this because we wish to truncate to first order, but to do so must accept a second approximation:
 $$r'\ll \frac{c}{\lvert \ddot{\rho}/\dot{\rho} \rvert }, \frac{c}{\lvert \dddot{\rho},\dot{\rho }\rvert^{1/2} }, \frac{c}{\lvert \ \ddddot{\rho}\ ,\dot{\rho} \rvert^{1/3} }\ldots\tag{Approximation 2}$$
-and other further terms. Now, interpreting this is not an easy task, as we have a priori idea what $\rho$. For oscillating systems, like the electric and magnetic dipole, these all end up being $c/\omega$, with $\omega$ the [[Frequency|angular frequency]] of oscillation, which is directly proportional to the [[wavelength]] $\lambda$. As such, this approximation is to keep the size of the dipole small compared to the wavelength. But in general, we can't be so precise. In practice, this approximation, alongside the small source approximation, really just mean "keep only the first-order terms in $r'$, that is, $(r')^{\pm1}$".
+and other further terms. Now, interpreting this is not an easy task, as we do not have an a priori idea of what $\rho$ is, besides some charge distribution. To gather some insight, recall that in simple oscillating systems, like electric and magnetic dipoles, these all end up being $c/\omega$, with $\omega$ the [[Frequency|angular frequency]] of oscillation, which is directly proportional to the [[wavelength]] $\lambda$. In those cases, we call it the large wavelength approximation, as it expects us to keep the wavelength larger than the size of the dipole. We can generalize this idea to mean "keep the size of *whatever* distribution small compared to the wavelength that's being emitted", with "size" being a vague, qualitative term more so than a precise quantity. But in general, we can't be so precise. In practice, this approximation, alongside the small source approximation, really just means "only keep the first-order terms in $r'$, that is, $(r')^{\pm1}$".
 
 We now put the expansion of $\rho$, to first order only, alongside
-$$\frac{1}{\mathfrak{r}}\simeq \frac{1}{r}\left( 1+ \frac{\mathbf{r}\cdot\mathbf{r}'}{r^{2}} \right)$$
+$$\frac{1}{\mathfrak{r}}\simeq \frac{1}{r}\left( 1+ \frac{\hat{\mathbf{r}}\cdot\mathbf{r}'}{r} \right)=\frac{1}{r}\left( 1+ \frac{\mathbf{r}\cdot \mathbf{r}'}{r^{2}} \right)$$
 in the formula for the retarded potential:
 $$\begin{align}
 V(\mathbf{r},t)&\simeq\frac{1}{4\pi \varepsilon_{0}}\int_{\mathcal{V}} \frac{1}{r}\left( 1+ \frac{\mathbf{r}\cdot \mathbf{r}'}{r^{2}} \right)\left[ \rho(\mathbf{r}',t_{0})+ \dot{\rho}(\mathbf{r}',t_{0})\left( \frac{\hat{\mathbf{r}}\cdot \mathbf{r}'}{c} \right) \right]d\tau' \\
@@ -64,7 +64,7 @@ V(\mathbf{r},t)&\simeq\frac{1}{4\pi \varepsilon_{0}}\int_{\mathcal{V}} \frac{1}{
 \end{align}$$
 The last term in the integral drops out because it is second order in $\mathbf{r}'$ (since we have $(\hat{\mathbf{r}}\cdot \mathbf{r}')(\hat{\mathbf{r}}\cdot \mathbf{r}')$). We are left with
 $$V(\mathbf{r},t)\simeq \frac{1}{4\pi \varepsilon_{0}r}\left[ \int_{\mathcal{V}}\rho(\mathbf{r}',t_{0})d\tau'+ \frac{\hat{\mathbf{r}}}{r}\cdot \int_{\mathcal{V}}\mathbf{r}'\rho(\mathbf{r}',t_{0})d\tau'+  \frac{\hat{\mathbf{r}}}{c}\cdot \frac{d}{dt} \int_{\mathcal{V}}\mathbf{r}'\rho(\mathbf{r}',t_{0})d\tau' \right]$$
-The first integral is just the total charge $Q$ at time $t_{0}$, and since charge is a conserved quantity, it is also the charge at all times. The other two integrals are the [[electric dipole moment]] $\mathbf{p}(t_{0})$ at time $t_{0}$, so
+The first integral is just the total charge $Q$ at time $t_{0}$, and since charge is a conserved quantity, it remains the same at all times. The other two integrals are the [[electric dipole moment]] $\mathbf{p}(t_{0})$ at time $t_{0}$, so
 $$\boxed{V(\mathbf{r},t)\simeq \frac{1}{4\pi \varepsilon_{0}}\left[ \frac{Q}{r}+ \frac{\hat{\mathbf{r}}\cdot \mathbf{p}(t_{0})}{r^{2}}+ \frac{\hat{\mathbf{r}}\cdot \dot{\mathbf{p}}(t_{0})}{rc} \right]}$$
 What we got here is basically an extended [[multipole expansion]], truncated at the first order. The first term is the monopole term, the second is the dipole term, and the third is a new term that does not appear in the multipole expansion. That is because the multipole expansion is considered in static scenarios where $\dot{\mathbf{p}}=0$.
 
@@ -79,7 +79,7 @@ $$\boxed{\mathbf{A}(\mathbf{r},t)\simeq \frac{\mu_{0}}{4\pi r}\dot{\mathbf{p}}(t
 This is why we could accept a zeroth order approximation $\mathfrak{r}\simeq r$, since $\mathbf{p}$ is already first order in $r'$. A first order approximation of $\mathfrak{r}$ would've ended up becoming a second (or higher) order one.
 #### Fields
 As for the fields, we only really care about the radiation zone, so
-$$r^{-2}\text{ term are negligible}\tag{Far field approximation}$$
+$$r^{-2}\text{ terms and below are negligible}\tag{Far field approximation}$$
 In the [[electric field]], we need to take the [[gradient]] of $V$. Because of the far field approximation, the first term drops out ($\nabla r^{-1}\propto r^{-2}$). The second term is already second order on its own so it also drops out. The third term requires us to take the gradient of $t_{0}$:
 $$\nabla t_{0}=- \frac{1}{c}\nabla r=- \frac{1}{c}\hat{\mathbf{r}}$$
 and hence
@@ -103,7 +103,7 @@ $$P(r,t)=\oint_{\mathcal{S}}\mathbf{S}(\mathbf{r},t)\cdot d\mathbf{a}=\frac{\mu_
 and the total radiated power is
 $$P_\text{rad}(t_{0})=\lim_{ r \to \infty } P(r,t)\simeq \frac{\mu_{0}}{6\pi c}[\ddot{p}(t_{0})]^{2}$$
 
-We can see that if $p(t)=p_{0}\cos(\omega t)$, we get $\ddot{p}(t)=-\omega ^{2}p_{0}\cos(\omega t)$. Substitute this in the formulas above to get the electric dipole radiation again. More generally, set $\mathbf{p}(t)=q\mathbf{d}(t)$, where $q$ is an electric charge and $\mathbf{d}(t)$ is the distance of $q$ from the origin. Then $\ddot{\mathbf{p}}(t)=q\mathbf{a}(t)$, where $\mathbf{a}(t)$ is the acceleration of the charge, so the power is
+We can see that if $p(t)=p_{0}\cos(\omega t)$, we get $\ddot{p}(t)=-\omega ^{2}p_{0}\cos(\omega t)$. Substitute this in the formulas above to get the electric dipole radiation again. More generally, set $\mathbf{p}(t)=q\mathbf{r}(t)$, where $q$ is an electric charge and $\mathbf{r}(t)$ is the distance of $q$ from the origin. Then $\ddot{\mathbf{p}}(t)=q\mathbf{a}(t)$, where $\mathbf{a}(t)$ is the acceleration of the charge, so the power is
 $$P_\text{rad}(t_{0})=\frac{\mu_{0}q^{2}a^{2}}{6\pi c}$$
 This is known as the **[[Larmor formula]]**, which gives the radiant power of an accelerating point charge. Notice how it is dependent on the *square* of the acceleration.
 
