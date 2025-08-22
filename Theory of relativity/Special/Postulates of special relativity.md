@@ -11,7 +11,7 @@ The theory of special relativity is based on two fundamentals claims, known as t
 
 Compared to [[Galilean relativity]], special relativity extends the equivalence of inertial frames to *all* of physics instead of only classical mechanics, essentially stating that there is no such thing as a "universal rest frame". The second postulates adds an ulterior constraint, denying the existence of an "ether frame" that the speed of light is relative to.
 
-These postulates lead to all the other phenomena that special relativity explains, namely [[relativity of simultaneity]], [[time dilation]] and [[Length contraction]].
+These postulates lead to all the other phenomena that special relativity explains, namely [[relativity of simultaneity]], [[time dilation]] and [[length contraction]].
 ### Relativistic velocity addition rule
 The second postulate essentially generalizes the old velocity addition rule of Galileo:
 $$v_{AC}=v_{AB}+v_{BC}$$
@@ -21,6 +21,8 @@ which is of course greater than $c$. The new special relativistic velocity addit
 $$\boxed{v_{AC}=\frac{v_{AB}+v_{BC}}{1+v_{AB}v_{BC}/c^{2}}}$$
 which is the same as the previous one, but weighed by a factor $(1+v_{AB}v_{BC}/c^{2})^{-1}$. The benefit is that this satisfies the universality of the speed of light, for if $v_{AB}=c$, then
 $$v_{AC}=\frac{c+v_{BC}}{1+cv_{BC}/c^{2}}=c \frac{1+v_{BC}/c}{1+v_{BC}/c}=c$$
+The same goes for $v_{BC}=c$.
+
 This rule is found by applying a [[Lorentz transformation]] on a moving object. Say this object moves some small distance $dx$ on the $x$ axis of an inertial frame of reference $\mathcal{S}$. Its velocity in that frame will be
 $$u=\frac{dx}{dt}$$
 In another inertial frame $\mathcal{S}'$, it will have moved a distance determined by the Lorentz transformation on $x'$

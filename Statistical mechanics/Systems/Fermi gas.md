@@ -182,4 +182,4 @@ and so
 $$\boxed{U=\frac{3}{5}NE_{F}\left( 1- \frac{\pi ^{2}}{12} \frac{1}{(\ln z)^{2}} \right)}$$
 From this, we can find other thermodynamic quantities.
 
-[^1]: Though this may look odd, this is a valid method for inverting series expansions. It comes from perturbation theory and is based off the fact that it is legitimate to approximate higher-order terms using lower-order terms (here using a first-order term to approximate the second-order one). It works when $\lambda ^{3}_{T}/v=n\lambda ^{3}_{T}$ is small, but since $n\lambda ^{3}_{T}\ll 1$ is precisely the working definition of "quantum effects region", it certainly works here.
+[^1]: Though this may look odd, this is a valid method for inverting series expansions. It comes from perturbation theory and is based off the fact that it is legitimate to approximate higher-order terms using lower-order terms (here using a first-order term to approximate the second-order one). It works when $\lambda ^{3}_{T}/v=n\lambda ^{3}_{T}$ is small, but since $n\lambda ^{3}_{T}\ll 1$ is precisely the working definition of "quantum effects region", it works just fine here.

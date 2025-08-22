@@ -54,7 +54,7 @@ $T$ is determined by the retarded time condition
 $$(cT)^{2}=l^{2}+d^{2}$$
 so that
 $$d=\sqrt{ (cT)^{2}-l^{2} }=cT\sqrt{ 1- \left( \frac{aT}{2c}+ \frac{\dot{a}T^{2}}{6c}+\ldots \right)^{2} }=cT- \frac{a^{2}}{8c}T^{3}+(\ldots)T^{4}+\ldots$$
-where we omitted the coefficient of $T^{4}$ since we won't need it. This equation is $d(T)$, but we want $T(d)$. We need to invert the [[series]] to do so, a process formally known as **reversion of series**. That's a bit complicated for the very simplistic model we're using, so we'll use more heuristic argument just to prove the point. We'll use something that comes in [[Teoria delle perturbazioni|perturbation theory]] a few times, which is to replace $d$ with its first order approximation. To first order, $d\simeq cT$ and so $T\simeq d/c$. Then, replacing this $T$ in the cubic term
+where we omitted the coefficient of $T^{4}$ since we won't need it. This equation is $d(T)$, but we want $T(d)$. We need to invert the [[series]] to do so, a process formally known as **reversion of series**. That's a bit complicated for the very simplistic model we're using, so we'll use more heuristic argument just to prove the point. We'll use something that comes in [[Teoria delle perturbazioni|perturbation theory]] a few times, which is to replace $d$ with its first order approximation[^3]. To first order, $d\simeq cT$ and so $T\simeq d/c$. Then, replacing this $T$ in the cubic term
 $$d\simeq cT- \frac{a^{2}d^{3}}{8c^{4}}\quad\Rightarrow \quad T\simeq \frac{d}{c}+ \frac{a^{2}d^{3}}{8c^{5}}$$
 and so on. Thus
 $$T= \frac{1}{c}d- \frac{a^{2}}{8c^{5}}d^{3}+(\ldots)d^{4}+\ldots$$
@@ -79,3 +79,5 @@ In conclusion, the radiation reaction is a force that manifests itself due to un
 [^1]: Technically, there's three energy "storage locations". The electric field is $\mathbf{E}=\mathbf{E}_\text{vel}+\mathbf{E}_\text{accel}$, but the energy depends on the square $E^{2}=E^{2}_\text{vel}+2\mathbf{E}_\text{vel}\cdot \mathbf{E}_\text{accel}+E^{2}_\text{accel}$. The cross term is, for simplicity, considered to be part of the velocity field, as it goes like $\sim \mathfrak{r}^{-3}$ and therefore does not affect radiation.
 
 [^2]: If you're trying to solve for position, then it's third order since $a=\ddot{x}$ and $\dot{a}=\dddot{x}$, but we don't care about position here.
+
+[^3]: For a real-world example, see [[Fermi gas#Virial expansion of the equation of state]].

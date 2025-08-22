@@ -14,4 +14,4 @@ The relativity of simultaneity can be seen quite easily by applying a [[Lorentz 
 ### Ordering
 Due to this phenomenon, it is possible for the order in which two events occur to differ depending on the frame of reference. This is not always possible. For this to be allowed, the events must be [[Spacetime|spacelike]]. Timelike events have their ordering set in stone, as by definition they must occur at different times. Reordering them would require them to be simultaneous in some frame (the one in which they "cross over"): no Lorentz transformation will allow that. This obligation essentially holds the entirety of [[causality]] on its back, as if *all* events could be reordered, no one could ever say that "this happened before that", as there would always be someone in a different frame that could prove you wrong. In other words, only timelike events are causally linked to each other. Spacelike events are not.
 
-[^1]: Since they happen at the same time, they must be [[Spacetime|spacelike]].
+[^1]: Since they happen at the same time, they must be [[Spacetime|spacelike]]. Also see the [[#Ordering]] section.

@@ -16,7 +16,7 @@ $$\gamma\equiv \frac{1}{\sqrt{ 1-\beta ^{2} }},\qquad \beta\equiv\frac{v}{c}$$
 In the language of [[proper velocity]], $v$ would be the *ordinary* velocity. Alternatively, in common [[four-vector]] notation $(ct,x,y,z)\equiv(x^{0},x^{1},x^{2},x^{3})$:
 $$\left\{\begin{align}
 &\bar{x}^{0}=\gamma(x^{0}-\beta x^{1}) \\
-&\bar{x}^{1}=\gamma\left(x^{1}- \beta x^{0} \right) \\
+&\bar{x}^{1}=\gamma(x^{1}- \beta x^{0} ) \\
 &\bar{x}^{2}=x^{2} \\
 &\bar{x}^{3}=x^{3}
 \end{align}\right.$$
