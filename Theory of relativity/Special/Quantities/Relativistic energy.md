@@ -17,8 +17,8 @@ p^{\mu}p_{\mu}&=-p^{0}p^{0}+\mathbf{p}\cdot \mathbf{p}=-(p^{0})^{2}+p^{2}=- \gam
 &=\frac{m^{2}}{1- v^{2}/c^{2}}(-c^{2}+v^{2})=-\frac{m^{2}c^{2}}{c^{2}-v^{2}}(c^{2}-v^{2})=-m^{2}c^{2}
 \end{align}$$
 But also
-$$p^{\mu}p_{\mu}= \frac{E^{2}}{c^{2}}+p^{2}=-m^{2}c^{2}$$
-which gives
+$$p^{\mu}p_{\mu}= -\frac{E^{2}}{c^{2}}+p^{2}$$
+Equate the two and multiply by $-c^{2}$ to get
 $$E^{2}-p^{2}c^{2}=m^{2}c^{4}$$
 When reordered, we find what's known as the **relativistic energy** of a body:
 $$\boxed{E^{2}=p^{2}c^{2}+m^{2}c^{4}}$$

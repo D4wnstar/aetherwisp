@@ -8,7 +8,7 @@ $$\begin{align}
 \end{align}$$
 where $v$ is the velocity of the new [[frame of reference]] with respect to the old one.
 ### Derivation
-Within the context of relativity, through the knowledge that the electric field $\mathbf{E}$ and the magnetic field $\mathbf{B}$ are interrelated and of [[magnetism as a relativistic phenomenon]], we want to take the final step and explain $\mathbf{E}$ and $\mathbf{B}$ themselves in terms of relativity. Like most things in relativity, $\mathbf{E}$ and $\mathbf{B}$ are just the spatial parts of their respective [[Four-vector|four-vectors]] — or, that's what you'd hope, as that is *not* the case and the relativistic generalizations of the fields is quite a bit more complex.
+Within the context of relativity, through the knowledge that the electric field $\mathbf{E}$ and the magnetic field $\mathbf{B}$ are interrelated and of [[magnetism as a relativistic phenomenon]], we want to take the final step and explain $\mathbf{E}$ and $\mathbf{B}$ themselves in terms of relativity. Like most things in relativity, $\mathbf{E}$ and $\mathbf{B}$ are just the spatial parts of their respective [[Four-vector|four-vectors]] — or, that's what you'd hope. In truth, that is *not* the case and the relativistic generalizations of the fields is quite a bit more complex.
 
 To tackle the situation, we are to check how these two transform under a Lorentz transformation. To start, we need to lay the groundwork, which is to say we need to make some assumptions about how this *might* work and then check if it's true (experimentally or theoretically). We need to claim two things:
 1. the [[electric charge]] is a [[relativistic invariant]]. It does not change under Lorentz transformation. A charge is a charge everywhere and anywhere.
