@@ -9,7 +9,7 @@ Una nana bianca nasce dopo la fase da [[gigante asintotica]] di una stella di ma
 
 Alternativamente, stelle molto poco massive ($<0.5M_{\odot}$) diventano nane bianche senza creare mai diventare giganti, in quanto il loro nucleo non fonde mai elio. Nessun oggetto di questo genere è mai stato individuato, in quanto stelle con massa così bassa hanno aspettative di vita superiori all'età dell'universo.
 ### Struttura
-Per via della [[Interazione gravitazionale|forza gravitazionale]] molto alta, la struttura di una nana bianca è molto stratificata. La tipica nana bianca ha due o tre strati, dal centro verso fuori:
+Per via della [[Gravity|forza gravitazionale]] molto alta, la struttura di una nana bianca è molto stratificata. La tipica nana bianca ha due o tre strati, dal centro verso fuori:
 1. Un nucleo (che in realtà è la maggior parte della stella) di carbonio e ossigeno (raramente neon) [[Pressione degenere|degenere]].
 2. Uno strato di elio non degenere.
 3. In rari casi, uno strato di idrogeno non degenere.

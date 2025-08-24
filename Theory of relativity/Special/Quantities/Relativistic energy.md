@@ -1,7 +1,7 @@
 ---
 wiki-publish: true
 aliases:
-  - rest mass energy
+  - rest energy
 ---
 **Relativistic energy** is a term used to refer to the [[energy]] of a body when taking [[Lorentz transformation|relativistic]] effects into account. It is given by
 $$E=\sqrt{ p^{2}c^{2}+m^{2}c^{4} }=\gamma mc^{2}$$

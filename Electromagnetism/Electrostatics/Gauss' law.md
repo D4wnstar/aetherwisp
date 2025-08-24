@@ -13,7 +13,7 @@ Gauss' law holds even for changing electric fields and moving charges, which may
 ### Derivation
 Consider a point charge $q$ within a sphere of radius $R$. The outgoing flux is going to be
 $$\oint_{S}\mathbf{E}\cdot d\mathbf{S}=\int \frac{1}{4\pi\varepsilon_{0}}\left(\frac{q}{r^{2}}\hat{\mathbf{r}}\right)\cdot(r^{2}\sin\theta d\theta d\phi \hat{\mathbf{r}})=\frac{q}{\varepsilon_{0}}$$
-The important thing to note here is that this occurs only because [[Interazione elettromagnetica|Coulomb's law]] goes like $\sim 1/r^{2}$, as this cancels out perfectly with the area that goes like $\sim r^{2}$. Any more or less and the flux would depend on the chosen area, but it does not. This can be easily extended to any number of [[particella|particles]] by principle of superposition. Consider $N$ charges, all within the surface. The total field is
+The important thing to note here is that this occurs only because [[Electromagnetism|Coulomb's law]] goes like $\sim 1/r^{2}$, as this cancels out perfectly with the area that goes like $\sim r^{2}$. Any more or less and the flux would depend on the chosen area, but it does not. This can be easily extended to any number of [[particella|particles]] by principle of superposition. Consider $N$ charges, all within the surface. The total field is
 $$\mathbf{E}=\sum\limits_{i=1}^{N}\mathbf{E}_{i}$$
 so the previous statement becomes
 $$\oint_{S}\mathbf{E}\cdot d\mathbf{S}=\sum\limits_{i=1}^{N}\left(\oint\mathbf{E}_{i}\cdot d\mathbf{S}\right)=\sum\limits_{i=1}^{N} \frac{q_{i}}{\varepsilon_{0}}$$

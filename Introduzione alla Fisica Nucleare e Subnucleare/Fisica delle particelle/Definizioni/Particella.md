@@ -8,7 +8,7 @@ Una **particella** è un oggetto fisico che occupa uno spazio-tempo localizzato 
 - etc...
 Alcune di questi attributi non sono predicibili quantitativamente (come massa o carica di un elettrone), mentre altri sì (lo spin o l'esistenza del [[Elettrone|positrone]]).
 
-Una particella si dice **elementare** se non è divisibile in altre particelle. Idealmente, le particelle obbediscono direttamente alle [[Interazione fondamentale|interazioni fondamentali]], senza necessità di astrazioni.
+Una particella si dice **elementare** se non è divisibile in altre particelle. Idealmente, le particelle obbediscono direttamente alle [[Fundamental interaction|interazioni fondamentali]], senza necessità di astrazioni.
 
 L'elementarietà di un oggetto lineare, di lunghezza $d$, è provata sperimentalmente. Questo è fatto illuminando l'oggetto con onde elettromagnetiche o di materia con una lunghezza d'onda $\lambda$ determinata da
 $$\frac{\lambda}{2\pi}=\frac{1}{k}\leq d$$

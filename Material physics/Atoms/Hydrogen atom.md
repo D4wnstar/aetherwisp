@@ -9,7 +9,7 @@ The **hydrogen atom** is the [[atom]] of the element hydrogen, a quantum [[physi
 
 The [[Hamiltonian]] for the [[Equazione di Schrödinger|Schrödinger equation]] of the hydrogen atom is
 $$\hat{H}=- \frac{\hbar^{2}}{2M}\nabla ^{2}_{R}- \frac{\hbar^{2}}{2m}\nabla^{2}_{r_{e}}- \frac{Ze^{2}}{4\pi \varepsilon_{0}r_{e}}$$
-where $M$ is the [[mass]] of the nucleus, $m$ is the mass of the electron, $\hbar$ is the [[Planck constant|reduced Planck constant]], $Z$ is the [[Atom|atomic number]] (the number of protons), $\varepsilon_{0}$ is the [[vacuum permittivity]] and $r_{e}$ is the distance of the electron from the origin. The last term is the [[potential energy]] due to [[Interazione elettromagnetica|electromagnetic attraction]].
+where $M$ is the [[mass]] of the nucleus, $m$ is the mass of the electron, $\hbar$ is the [[Planck constant|reduced Planck constant]], $Z$ is the [[Atom|atomic number]] (the number of protons), $\varepsilon_{0}$ is the [[vacuum permittivity]] and $r_{e}$ is the distance of the electron from the origin. The last term is the [[potential energy]] due to [[Electromagnetism|electromagnetic attraction]].
 ## Derivation
 First things first, the end goal is finding the [[Funzione d'onda|wavefunction]] of the system. We'll solve it in [[Rappresentazioni dello stato|position representation]], $\psi(r)=\braket{ r | \psi }$. This wavefunction is of course dependent on the spatial coordinates, but since the electron carries [[spin]] ($s=1/2$ and $m_{s}=\pm1/2$ specifically), this will also be parameter. If we call $q$ the [[generalized coordinates]] of the wavefunction, we can write it as $\psi\equiv \psi(q)=\psi(r_{e},R,s,m_{s})$.
 

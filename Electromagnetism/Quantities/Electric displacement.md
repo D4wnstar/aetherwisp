@@ -5,7 +5,7 @@ wiki-publish: true
 $$\mathbf{D}=\varepsilon_{0}\mathbf{E}+\mathbf{P}$$
 where $\varepsilon_{0}$ is the [[Vacuum permittivity|vacuum permittivity]], $\mathbf{E}$ is the external field and $\mathbf{P}$ is the polarization. Like polarization, it has the units of a surface [[electric charge|charge]] distribution.
 
-Unlike $\mathbf{E}$, there is no "[[Interazione elettromagnetica|Coulomb's law]]" for displacement as the [[Curl]] of $\mathbf{D}$ is not necessarily zero:
+Unlike $\mathbf{E}$, there is no "[[Electromagnetism|Coulomb's law]]" for displacement as the [[Curl]] of $\mathbf{D}$ is not necessarily zero:
 $$\nabla\times\mathbf{D}=\nabla\times\mathbf{P}$$
 It is only zero if the polarization is irrotational, and it usually isn't. An example of irrotational polarization is when the external charge density is zero, that is, there is no external field.
 ### Gauss' law

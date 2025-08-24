@@ -146,7 +146,7 @@ In one dimension, where $\mathbf{r}\to x$, we have many interesting examples.
 > where $v_{\infty}$ represents the terminal velocity, reached asymptotically after an infinite amount of time falling.
 
 > [!example] Oscillator under external constant force
-> A harmonic oscillator under a constant external force leading to a constant acceleration $g$ (e.g. [[Interazione gravitazionale|gravity]]) is
+> A harmonic oscillator under a constant external force leading to a constant acceleration $g$ (e.g. [[Gravity|gravity]]) is
 > $$\ddot{x}=-\omega ^{2}x-g$$
 > The partial is $x_{p}(t)=-g/\omega$. The associated general is $x_\text{gen}=A\cos(\omega t+\varphi)$. The final solution is
 > $$x(t)=A\cos(\omega t+\varphi)- \frac{g}{\omega}$$

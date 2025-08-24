@@ -7,7 +7,7 @@ Se l'energia potenziale è della forma $V(r)=ar^{n}$, con $r$ la distanza tra le
 $$2K+n\Omega=0$$
 dove $K$ è l'energia cinetica totale di tutte le particelle e $\Omega$ è l'energia potenziale totale.
 
-Per il [[Interazione gravitazionale|potenziale gravitazionale]], si ha $\Omega\sim r^{-1}$, quindi vale
+Per il [[Gravity|potenziale gravitazionale]], si ha $\Omega\sim r^{-1}$, quindi vale
 $$2K+\Omega=0$$
 ### Derivazione
 Consideriamo una sfera composta da un grande numero di particelle sottoposta ad una certa pressione che dipende dal raggio (per esempio, una stella). Partiamo dall'[[Equazioni della struttura stellare#Equilibrio idrostatico|equazione di equilibrio idrostatico]]:

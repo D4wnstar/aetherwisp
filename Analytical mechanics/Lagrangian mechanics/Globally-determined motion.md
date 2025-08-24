@@ -14,7 +14,7 @@ where the velocity is dependent on the position of the particle. This comes up a
 > [!example] 2D conservative system
 > A 2D [[conservative system]] has velocity given by
 > $$v(x,y)=\sqrt{ \frac{2}{m}(E-V(x,y)) }$$
-> Say the [[potential energy]] is given by [[Interazione gravitazionale|gravity]], we get velocity $v=\sqrt{ 2gy }$. Our functional becomes
+> Say the [[potential energy]] is given by [[Gravity|gravity]], we get velocity $v=\sqrt{ 2gy }$. Our functional becomes
 > $$T[u]=\int_{x_{\text{start}}}^{x_{\text{end}}}\sqrt{ \frac{1+u'(x)^{2}}{2gu(x)} }dx$$
 Finding the minimum gives us the correct trajectory.
 

@@ -3,8 +3,8 @@ wiki-publish: true
 ---
 La **sezione d'urto** $\sigma$ è definita come la probabilità che avvenga una reazione tra due [[Particella|particelle]], come per esempio una particella che impatta su un bersaglio in un acceleratore. È una misura di superficie e generalmente si misura in *barn* (b). 1 b  = $10^{-28}$ m$^{2}$. La sezione d'urto varia in funzione dell'energia delle particelle incidenti.
 ### Valori tipici
-La sezione d'urto varia di sistema in sistema e in base all'energia delle particelle interagenti, ma gli ordini di grandezza sono grosso modo determinati dal tipo di [[interazione fondamentale]] che si va considerando:
-- [[interazione forte]]: $\sigma\sim10^{-24}$ cm$^{2}$.
+La sezione d'urto varia di sistema in sistema e in base all'energia delle particelle interagenti, ma gli ordini di grandezza sono grosso modo determinati dal tipo di [[Fundamental interaction]] che si va considerando:
+- [[Strong interaction]]: $\sigma\sim10^{-24}$ cm$^{2}$.
 
 In casi di particelle comuni si ha
 - $\sigma_{pp}(10\text{ GeV})\sim40\text{ mb }=4\times10^{-26}\text{ cm}^{2}$ per la [[Diffusione di particelle|diffusione]] [[protone]] protone (interazione forte)

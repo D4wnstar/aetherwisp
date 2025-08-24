@@ -13,7 +13,7 @@ La carica elettrica totale a sinistra e a destra del diagramma deve essere ugual
 ### Proprietà
 Il propagatore è una [[particella virtuale]] (o meglio, la funzione che descrive la particella virtuale) che trasporta informazione sull'interazione. Sebbene non siano misurabili, le particelle virtuali contribuiscono al calcolo della ampiezza di probabilità di un sistema.
 
-- I vertici a cui si incontrano le linee sono proporzionali a $\sqrt{\alpha}$, con $\alpha$ la costante di interazione. Questa è una delle costanti di accoppiamento delle [[Interazione fondamentale|interazioni fondamentali]].
+- I vertici a cui si incontrano le linee sono proporzionali a $\sqrt{\alpha}$, con $\alpha$ la costante di interazione. Questa è una delle costanti di accoppiamento delle [[Fundamental interaction|interazioni fondamentali]].
 - In questi in [[Numero quantico|numeri quantici]] sono conservati.
 - Il propagatore è inversamente proporzionale al quadrato dell'impulso trasferito.
 - La [[sezione d'urto]] è proporzionale al modulo quadro del propagatore $\sigma\propto|\sim|^{2}$.

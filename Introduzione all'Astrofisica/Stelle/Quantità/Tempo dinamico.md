@@ -9,7 +9,7 @@ con $G$ la [[Gravitational constant]] e $\bar{\rho}$ la densità media della ste
 
 Esistono diverse definizioni del tempo dinamico, ma tutte sono della forma $\text{cost.}/\sqrt{G\bar{\rho}}$. Con questa definizione, il tempo dinamico del Sole è di circa mezz'ora.
 ### Derivazione
-Cominciamo considerando l'energia [[Interazione gravitazionale|potenziale gravitazionale]] $U$ di una stella in forma differenziale:
+Cominciamo considerando l'energia [[Gravity|potenziale gravitazionale]] $U$ di una stella in forma differenziale:
 $$dU=- \frac{GM(r_{0})}{r_{0}}dm$$
 dove $M(r_{0})$ è la massa della [[Stella|stella]] entro il raggio $r_{0}$ e $dm$ è l'elemento di massa che compone la stella. In questa formula stiamo implicitamente assumendo che la massa sia contenuta tutta in un punto al centro della stella, che è una buona approssimazione per quanto riguarda la forza gravitazionale.
 

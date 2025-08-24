@@ -3,7 +3,7 @@ wiki-publish: true
 aliases:
   - materia degenere
 ---
-In una [[stella]], due processi principali determinano il suo stato: l'[[irradiazione]] termica verso lo spazio vuoto attorno e il collasso [[Interazione gravitazionale|gravitazionale]] che fa comprimere la stella in risposta. Il [[teorema del viriale]] ci dice che queste due azioni si equilibrano, nel senso che ad ogni perdita di energia per irradiazione segue una contrazione della stella che aumenta l'energia interna. Questo porta ad un progressivo rimpicciolimento della stella.
+In una [[stella]], due processi principali determinano il suo stato: l'[[irradiazione]] termica verso lo spazio vuoto attorno e il collasso [[Gravity|gravitazionale]] che fa comprimere la stella in risposta. Il [[teorema del viriale]] ci dice che queste due azioni si equilibrano, nel senso che ad ogni perdita di energia per irradiazione segue una contrazione della stella che aumenta l'energia interna. Questo porta ad un progressivo rimpicciolimento della stella.
 
 Questo processo, tuttavia, non può andare avanti all'infinito. Eventualmente, la massa di una stella sufficientemente massiva ($>0.5M_{\odot}$) sarà così compressa dalla sua gravità da non poter esistere in uno stato plasmatico. In queste condizioni estreme, interviene un effetto quantistico detto **pressione degenere**, in genere da parte dagli [[elettrone|elettroni]].
 ### Derivazione

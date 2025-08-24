@@ -6,7 +6,7 @@ aliases:
 La **formazione stellare** è il processo per cui il [[Mezzo interstellare]] si aggrega per formare una [[stella]]. Ad oggi, è il punto meno compreso dell'[[evoluzione stellare]] e si basa principalmente sulla fisica dell'ISM e delle sue fasi.
 ## Fasi di formazione
 ### Inizio del collasso
-La formazione stellare inizia in una [[Nube molecolare]], una nuvola di ISM in fase molecolare. Se il [[Interazione gravitazionale|potenziale gravitazionale]] $\Omega$ di questa nube è sufficiente da superare la sua energia termica $K$, la nube comincia a contrarsi. In altre parole, l'energia totale della nube deve essere negativa (dato che il [[Potential]] è convenzionalmente negativo):
+La formazione stellare inizia in una [[Nube molecolare]], una nuvola di ISM in fase molecolare. Se il [[Gravity|potenziale gravitazionale]] $\Omega$ di questa nube è sufficiente da superare la sua energia termica $K$, la nube comincia a contrarsi. In altre parole, l'energia totale della nube deve essere negativa (dato che il [[Potential]] è convenzionalmente negativo):
 $$K+\Omega<0$$
 
 Consideriamo una nube di [[gas perfetto]], per semplicità uniforme, con un volume sferico di raggio $R$, $V=4\pi R^{3}/3$, densità $\rho=M/V$ e peso molecolare $\mu$. L'energia termica $K$ e quella gravitazionale $\Omega$ sono

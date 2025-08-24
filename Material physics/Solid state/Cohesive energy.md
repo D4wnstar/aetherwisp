@@ -7,7 +7,7 @@ Like all binding energies, it is useful to determine the stability of a solid. I
 
 It is typically given as an energy density to make it [[Intensive property|intensive]], often in $\text{kJ}/\text{mol}$.
 ### Components
-A solid is kept together by two kinds of forces: the first is an attractive interaction that keeps [[electron|electrons]] bound to the [[Nucleo atomico|nuclei]], whereas the second is repulsive and prevents [[ion|ions]] from colliding with one another. The attractive force is [[Interazione elettromagnetica|electromagnetic]], whereas the repulsive one is a consequence of the [[Pauli exclusion principle]][^1]. The sum of these two makes for a [[potential energy]] well where the atoms are stable.
+A solid is kept together by two kinds of forces: the first is an attractive interaction that keeps [[electron|electrons]] bound to the [[Nucleo atomico|nuclei]], whereas the second is repulsive and prevents [[ion|ions]] from colliding with one another. The attractive force is [[Electromagnetism|electromagnetic]], whereas the repulsive one is a consequence of the [[Pauli exclusion principle]][^1]. The sum of these two makes for a [[potential energy]] well where the atoms are stable.
 
 
 [^1]: Since if two electron clouds begin to superimpose, their [[Funzione d'onda|wavefunctions]] must change to maintain the total wavefunction [[Permutation operator|antisymmetric]], remain [[Orthogonality|orthogonal]] to one another and generally avoid having more than one electron in the same [[stato|state]]. Changing wavefunctions on an electron cloud is a very energy-expensive process, so it is strongly discouraged.

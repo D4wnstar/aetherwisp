@@ -28,3 +28,4 @@
 - Hyperbolic umbilic catastrophe
 - Confluent hypergeometric function
 - Four-dimensional hyperbolic rotation
+- Quantum flavordynamics

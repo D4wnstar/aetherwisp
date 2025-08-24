@@ -6,7 +6,7 @@ aliases:
 ---
 Un **pianeta** è un corpo non [[stella|stellare]] con le seguenti proprietà
 1. orbita attorno ad una stella
-2. ha una massa sufficientemente alta da essere schiacciato in una forma sferica dalla sua stessa [[Interazione gravitazionale|forza gravitazionale]] (quindi sono in equilibrio idrostatico), ma non così alta da diventare una [[nana bruna]]
+2. ha una massa sufficientemente alta da essere schiacciato in una forma sferica dalla sua stessa [[Gravity|forza gravitazionale]] (quindi sono in equilibrio idrostatico), ma non così alta da diventare una [[nana bruna]]
 3. deve essere l'oggetto dominante nella sua orbita o, in altre parole, aver assorbito tutti gli altri oggetti di grandezza simile nella sua orbita
 
 Un oggetto non stellare che verifica le prime due condizioni ma non la terza è definito come **pianeta nano**. Plutone è un pianeta nano, così come numerosi oggetti con orbite molto ellittiche che intersecano la sua orbita.
@@ -17,7 +17,7 @@ Osservare un sistema stella-pianeta non è facile, dato che il pianeta è molto 
 $$\Omega^{2}=\frac{GM_{\star}}{r^{3}}$$
 $$v_{\star}\sin i=\Omega r \frac{M_{P}}{M_{\star}}\sin i$$
 $$\frac{M_{P}}{M_{\star}}=\frac{v_{\star}}{v_{P}}$$
-con $G$ la [[Gravitational constant]], $i$ l'inclinazione dell'orbita, $r$ il suo raggio e $\Omega$ la frequenza orbitale (non il [[Interazione gravitazionale|potenziale gravitazionale]]!).
+con $G$ la [[Gravitational constant]], $i$ l'inclinazione dell'orbita, $r$ il suo raggio e $\Omega$ la frequenza orbitale (non il [[Gravity|potenziale gravitazionale]]!).
 
 Il modo più facile per individuare il pianeta è osservare la velocità $v_{\star}\sin i$ sulla linea di vista. Sostituendo la massa nella seconda equazione dalla prima troviamo
 $$M_{P}\sin i=\frac{\Omega r^{2}}{G} v_{\star}\sin i$$

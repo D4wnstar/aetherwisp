@@ -5,7 +5,7 @@ Osservando l'assorbimento della luce da parte di un gas di idrogeno, si è notat
 
 Bohr ha assunto che solo certe orbite fossero permesse, nelle quali l'elettrone non emetteva energia. Ha supposto che il momento angolare associato a queste orbite fosse un multiplo della [[Planck constant]] a modo che valesse
 $$mvr=pr=\hbar n$$
-L'elettromagnetismo classico di consiglia di usare la [[Interazione elettromagnetica|legge di Coulomb]] (qui in unità Gaussiane senza $4\pi \epsilon_{0}$) per ottenere
+L'elettromagnetismo classico di consiglia di usare la [[Electromagnetism|legge di Coulomb]] (qui in unità Gaussiane senza $4\pi \epsilon_{0}$) per ottenere
 $$\frac{e^{2}}{r^{2}} = \frac{mv^{2}}{r}$$
 con $e$ la [[Elementary charge|carica dell'elettrone]]. Riordinando, trovo l'energia dell'orbita che è quella cinetica più il potenziale Coulombiano
 $$mv^{2}=\frac{e^{2}}{r}\quad\Rightarrow \quad E=\frac{mv^{2}}{2}- \frac{e^{2}}{2}=- \frac{e^{2}}{2r}$$

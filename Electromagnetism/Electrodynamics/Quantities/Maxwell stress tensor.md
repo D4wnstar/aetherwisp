@@ -84,7 +84,7 @@ $$\mathbf{F}=\oint_{\mathcal{S}}\mathrm{T}\cdot d\mathbf{a}$$
 The stress tensor is primarily used to determine forces acting on charges.
 
 > [!example] Equal charges between plane
-> The easiest case is, as always, two point charges. Of course, this would be easier to solve using [[Interazione elettromagnetica|Coulomb's law]] directly, but for the sake of example, we'll solve it using the stress tensor also. Consider two electric charges $q$ on the $z$ axis at an equal distance $2a$ from the origin. Find the Maxwell stress tensor and integrate over it to find the force of one charge over another.
+> The easiest case is, as always, two point charges. Of course, this would be easier to solve using [[Electromagnetism|Coulomb's law]] directly, but for the sake of example, we'll solve it using the stress tensor also. Consider two electric charges $q$ on the $z$ axis at an equal distance $2a$ from the origin. Find the Maxwell stress tensor and integrate over it to find the force of one charge over another.
 >
 >![[Exercise Maxwell stress tensor equal charges]]
 > 

@@ -163,7 +163,7 @@ The Lorenz gauge turns the potentials themselves into waves, although their wave
 ### Relativistic form
 Maxwell's equations can be written in a complete, unified form using what we know about the theory of relativity. To start, consider some arbitrarily shaped electric charge $\rho$ For the sake of generality, we focus only on an infinitesimal volume $V$ containing total charge $Q$, so that the density is $Q/V$ and is moving at some velocity $\mathbf{v}$. For the sake of simplicity we assume that $\rho$ only contains charges of the same sign (if it contained both, the argument is the same but we'd have to have both a positive and negative term). The current density is $\mathbf{J}=\rho \mathbf{v}$.
 
-The volume of $\rho$ depends on the observer due to [[Length contraction]]. We'll call $\rho_{0}$ the **proper charge density**, which is the density in the rest frame of the charge:
+The volume of $\rho$ depends on the observer due to [[length contraction]]. We'll call $\rho_{0}$ the **proper charge density**, which is the density in the rest frame of the charge:
 $$\rho_{0}=\frac{Q}{V_{0}}$$
 where $V_{0}$ is the volume in the rest system (charge in [[Relativistic invariant|relativistically invariant]] so it never changes). But we can go further: only one dimension is contracted (the one the charge is moving on, i.e. the direction of $\mathbf{v}$), so we can readily write the transformation rule:
 $$V=\frac{V_{0}}{\gamma}=\sqrt{ 1-v^{2}/c^{2} }\ V_{0}$$

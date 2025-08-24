@@ -3,15 +3,15 @@ wiki-publish: true
 aliases:
   - pulsar
 ---
-Una **stella di neutroni** è un [[relitto stellare]] formato quando una [[stella]] il cui nucleo supera il [[limite di Chandrasekhar]], ma non quello di [[limite di Tolman-Oppenheimer-Volkoff|Tolman-Oppenheimer-Volkoff]], collassa [[interazione gravitazionale|gravitazionalmente]] in un oggetto principalmente composto da [[Pressione degenere|materia degenere]] di [[neutrone|neutroni]].
+Una **stella di neutroni** è un [[relitto stellare]] formato quando una [[stella]] il cui nucleo supera il [[limite di Chandrasekhar]], ma non quello di [[limite di Tolman-Oppenheimer-Volkoff|Tolman-Oppenheimer-Volkoff]], collassa [[Gravity|gravitazionalmente]] in un oggetto principalmente composto da [[Pressione degenere|materia degenere]] di [[neutrone|neutroni]].
 
 Le stelle di neutroni sono in rotazione molto rapida, con periodi dai pochi secondi fino anche ai millisecondi. Questo fatto, assieme al getto di radiazioni che viene eiettato ai poli della stella per [[radiazione da sincrotrone]] che non è perfettamente allineato all'asse di rotazione, rende alcune stelle di neutroni delle [[stella variabile|stelle variabili]] con periodo molto basso e luminosità molto alta: questi oggetti sono detti **pulsar**.
 
 Il motivo per cui i neutroni non [[Decadimento Beta#$ beta {-}$ nel vuoto|decadono]] $\beta^{-}$ è dovuto all'occupazione di tutti gli [[stato|stati]] quantistici possibili degli [[elettrone|elettroni]]. La densità del nucleo stellare è talmente alta che anche solo pochi decadimenti $\beta^{-}$ sono sufficienti per saturare i pochi stati disponibili. Per gli altri neutroni, il decadimento non è energeticamente viabile e quindi rimangono stabili come se fossero in un [[nucleo atomico]]. La percentuale di neutroni che decadono $\beta^{-}$ è circa il 0.5%.
 ### Formazione del nucleo
 La presenza di soli neutroni ha conseguenze particolari:
-- non c'è [[Interazione elettromagnetica|repulsione Coulombiana]].
-- c'è solo [[interazione gravitazionale]].
+- non c'è [[Electromagnetism|repulsione Coulombiana]].
+- c'è solo [[Gravity]].
 
 La densità neutronica è $\sim10\rho_{N}$ (ottenuta da massa e volume della stella). Dato che sono create da [[supernova|supernove]], il nucleo contiene quasi esclusivamente $^{56}Fe$, di massa tra le 1 e 2 masse solari. A causa dell'enorme forza gravitazionale, il nucleo collassa in un volume molto piccolo e l'energia di Fermi degli elettroni aumenta a tal punto da permettere il [[Decadimento Beta|cattura elettronica]] $p+e^{-} \rightarrow n+\nu_{e}$. Applicato al ferro si ha
 $$^{56}_{26}Fe+26e^{-}\rightarrow56n+26\nu_{e}$$

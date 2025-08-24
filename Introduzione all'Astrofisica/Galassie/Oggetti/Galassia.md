@@ -1,7 +1,7 @@
 ---
 wiki-publish: true
 ---
-Una **galassia** è un sistema di [[Stella|stelle]], [[Relitto stellare|relitti stellari]], [[Mezzo interstellare]] e (teoricamente) [[Materia oscura]] legati fra loro dalla gravità. Tali oggetti orbitano attorno ad un nucleo luminoso costituito da un [[Buco nero]] particolarmente massivo, la cui [[Interazione gravitazionale|gravità]] è sufficiente per mantenerli in orbita stabile.
+Una **galassia** è un sistema di [[Stella|stelle]], [[Relitto stellare|relitti stellari]], [[Mezzo interstellare]] e (teoricamente) [[Materia oscura]] legati fra loro dalla gravità. Tali oggetti orbitano attorno ad un nucleo luminoso costituito da un [[Buco nero]] particolarmente massivo, la cui [[Gravity|gravità]] è sufficiente per mantenerli in orbita stabile.
 
 Le galassie vengono categorizzate in [[Classi galattiche]] in base alla loro morfologia apparente. Diverse classi hanno diverse caratteristiche morfologiche, ma tutte hanno una rigonfiamento centrale chiamato *bulge*.
 
@@ -15,7 +15,7 @@ La rotazione di una galassia è una parte molto importante e informativa della s
 #### Galassie a spirale
 Consideriamo una galassia a spirale, come la Via Lattea. Osservativamente, notiamo che è affetta da rotazione differenziale, quindi la velocità angolare aumenta man mano che ci si avvicina al nucleo galattico. Per una discussione più completa, vedi [[Via Lattea#Rotazione]].
 
-La velocità di rotazione $v$ ad un certo raggio $r$ ci permette di calcolare indirettamente la sua massa. Usando la [[leggi di Newton|seconda legge di Newton]], la [[Interazione gravitazionale|legge di gravitazione universale]] e assumendo moto circolare si ha:
+La velocità di rotazione $v$ ad un certo raggio $r$ ci permette di calcolare indirettamente la sua massa. Usando la [[leggi di Newton|seconda legge di Newton]], la [[Gravity|legge di gravitazione universale]] e assumendo moto circolare si ha:
 $$\frac{v^{2}}{r}=a=\frac{F}{m_{ogg}}=G \frac{Mm_{ogg}}{r^{2}} \frac{1}{m_{ruota}}=G \frac{M}{r^{2}}$$
 dove $M$ è la massa della galassia entro il raggio $r$ (si assume la simmetria sferica) e $G$ è la [[Gravitational constant]]. Riordinando
 $$v(r)=\sqrt{\frac{GM(r)}{r}} \quad \Rightarrow \quad M(r)=\frac{rv^{2}(r)}{G}\tag{1}$$

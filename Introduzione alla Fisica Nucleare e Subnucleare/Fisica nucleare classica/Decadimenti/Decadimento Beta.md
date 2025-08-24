@@ -14,7 +14,7 @@ che "promuove" un protone ad un neutrone catturando un elettrone vicino al nucle
 
 È importante ricordare che il protone decade $\beta$ *solo nel nucleo*, non nel vuoto, dato che il $\beta^{+}$ termina in una massa superiore (da 938 MeV a ~939.5 MeV) ed c'è quindi bisogno di interazione esterna.
 
-Il decadimento $\beta$ è mediato dall'[[interazione debole]].
+Il decadimento $\beta$ è mediato dall'[[Weak interaction]].
 
 Queste reazioni nucleari sono dette *interazioni di contatto a 4 [[Fermion|fermioni]]*.
 

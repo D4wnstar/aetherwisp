@@ -12,7 +12,7 @@ The spin wavefunction $\chi(1,2)$ can be constructed from the individual spin wa
 
 The total spin is $\mathbf{S}=\mathbf{S}_{1}+\mathbf{S}_{2}$ and the total $z$ component is $S_{z}=(S_{1})_{z}+(S_{2})_{z}$. The square of the total is
 $$\mathbf{S}^{2}=\mathbf{S}_{1}^{2}+\mathbf{S}_{2}^{2}+2\mathbf{S}_{1}\cdot \mathbf{S}_{2}=\frac{3}{2}+2\mathbf{S}_{1}\cdot \mathbf{S}_{2}$$
-since $\mathbf{S}_{1}^{2}=\mathbf{S}_{2}^{2}=3/4$. Since the interaction between electrons is purely [[Interazione elettromagnetica|electromagnetic]], it is independent of spin. As such, each electron's spin is simply either up $(\uparrow)$ or down $(\downarrow)$ without reference to the other, which leads to four distinct spin states:
+since $\mathbf{S}_{1}^{2}=\mathbf{S}_{2}^{2}=3/4$. Since the interaction between electrons is purely [[Electromagnetism|electromagnetic]], it is independent of spin. As such, each electron's spin is simply either up $(\uparrow)$ or down $(\downarrow)$ without reference to the other, which leads to four distinct spin states:
 $$\begin{align}
 \chi_{1}(1,2)&=\alpha(1)\alpha(2)&\uparrow\uparrow \\
 \chi_{2}(1,2)&=\alpha(1)\beta(2)&\uparrow\downarrow \\

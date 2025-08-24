@@ -17,4 +17,4 @@ An equivalent theorem also holds for a system of [[Particella|particles]]:
 > [!info] Conservation of the momentum of a system
 > If the total *external* force $\mathbf{F}$ is zero, the total linear momentum is conserved.
 
-External forces are those applied to the particles by external sources and not other particles. An example would be Earth's [[Interazione gravitazionale|gravity]] acting on a basket of balls.
+External forces are those applied to the particles by external sources and not other particles. An example would be Earth's [[Gravity|gravity]] acting on a basket of balls.

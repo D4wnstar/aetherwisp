@@ -34,7 +34,7 @@ dove $b^{*}$ può tornare allo stato fondamentale emettendo [[Decadimento Gamma#
 
 Se da una diffusione anelastica rivelo solo $a'$, si dice **inclusiva**, mentre se rivelo tutti i prodotti di reazione, si dice **esclusiva**. In realtà, il proiettile $a$ può anche scomparire in una diffusione anelastica, emettendo solo nuove particelle o trasferendo l'energia per alzare di stato il bersaglio.
 ## Diffusione di Rutherford
-La diffusione di Rutherford è lo scattering (urto) di particelle $\alpha$ sul nucleo. Le particelle $\alpha$ non sono puntiformi e useremo l'elettrone. La forza tra elettrone e nucleo è l'[[Interazione fondamentale#Interazione elettromagnetica|interazione elettromagnetica]].
+La diffusione di Rutherford è lo scattering (urto) di particelle $\alpha$ sul nucleo. Le particelle $\alpha$ non sono puntiformi e useremo l'elettrone. La forza tra elettrone e nucleo è l'[[Fundamental interaction#Interazione elettromagnetica|interazione elettromagnetica]].
 ### Cinematica della diffusione di $e^{-}$ sul nucleo
 La collisione avviene a regime relativistico, quindi usiamo la notazione [[Four-vector|quadrivettoriale]]. Il quadrivettore spaziotemporale e il quadrivettore energia-impulso sono
 $$x=(x_{0},x_{1},x_{2},x_{3}),\quad p=(p_{0},p_{1},p_{2},p_{3})=\left( \frac{E}{c}, \vec{p}\right)$$

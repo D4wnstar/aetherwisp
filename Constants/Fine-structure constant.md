@@ -3,7 +3,7 @@ wiki-publish: true
 aliases:
   - electromagnetic coupling constant
 ---
-The **fine-structure constant** $\alpha$, also known as the **electromagnetic coupling constant**, is the dimensionless constant that determines the strength of the [[electromagnetic interaction]]. It is given by
+The **fine-structure constant** $\alpha$, also known as the **electromagnetic coupling constant**, is the dimensionless [[coupling constant]] that determines the strength of the [[electromagnetic interaction]]. It is given by
 $$\alpha=\frac{e^{2}}{4\pi\varepsilon_{0}\hbar c}=\frac{1}{137.03\ldots}$$
 where
 - $e$ is the [[elementary charge]].

@@ -41,7 +41,7 @@ This takes care of the $m$ non-cyclical coordinates $q_{1},\ldots,q_{m}$. We now
 > [!example] Harmonic oscillator under gravitational pull
  > Consider the Lagrangian
 > $$L=\frac{m}{2}(\dot{x}^{2}+\dot{y}^{2}+\dot{z}^{2})-mgz$$
-> which is a [[harmonic oscillator]] under a constant force $mg$, interpreted as [[Interazione gravitazionale|gravity]]. $L$ does not depend explicitly on neither $x$ nor $y$, which makes both cyclical coordinates. We should therefore be able to solve the system with just $z$. We find the conjugate momenta of $x$ and $y$ as
+> which is a [[harmonic oscillator]] under a constant force $mg$, interpreted as [[Gravity|gravity]]. $L$ does not depend explicitly on neither $x$ nor $y$, which makes both cyclical coordinates. We should therefore be able to solve the system with just $z$. We find the conjugate momenta of $x$ and $y$ as
 > $$\tilde{P}_{x}=\frac{ \partial L }{ \partial \dot{x} } =m \dot{x}\quad\to \quad \dot{x}=\frac{\tilde{P}_{x}}{m}$$
 > $$\tilde{P}_{y}=\frac{ \partial L }{ \partial \dot{y} } =m \dot{y}\quad\to \quad \dot{y}=\frac{\tilde{P}_{y}}{m}$$
 > The conjugate momenta are constants of motion. We rewrite the Lagrangian as the effective one by substituting $\dot{x}$ and $\dot{y}$ with $\tilde{P}_{x}$ and $\tilde{P}_{y}$:

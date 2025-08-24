@@ -13,7 +13,7 @@ These properties can be seen as being attached to a specific object, like a spec
 - the presence of long-range, non-negligible internal forces
 - the surface-to-volume ratio is heavily slanted in favor of the surface
 
-These do occur even in real systems. For instance, the volume of a star is not cleanly extensive because the [[Interazione gravitazionale|gravitational interaction]] between atoms tends to counteract the increase in size due to adding more atoms, which makes the volume function non-linear.
+These do occur even in real systems. For instance, the volume of a star is not cleanly extensive because the [[Gravity|gravitational interaction]] between atoms tends to counteract the increase in size due to adding more atoms, which makes the volume function non-linear.
 
 :::image
 ![[Extensive properties.png]]

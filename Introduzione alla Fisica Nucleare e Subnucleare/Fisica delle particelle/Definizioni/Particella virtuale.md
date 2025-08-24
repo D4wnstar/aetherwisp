@@ -7,4 +7,4 @@ e quindi se una particella di energia $E$ vive per meno di un intervallo di temp
 
 Per questa ragione, una particella virtuale può violare la conservazione dell'energia durante la sua (presunta) esistenza, fintantoché la conservazione è ristorata al termine dell'intervallo.
 
-Il concetto di particella virtuale nasce dalla [[Rappresentazioni della meccanica quantistica|rappresentazione di interazione]] della meccanica quantistica (QFT in particolare), dove le [[Interazione fondamentale|interazioni fondamentali]] tra particelle ordinarie sono rappresentate tramite scambi (interazioni) di particelle virtuali. Questa interazione può essere visualizzata mediante un [[Diagramma di Feynman]].
+Il concetto di particella virtuale nasce dalla [[Rappresentazioni della meccanica quantistica|rappresentazione di interazione]] della meccanica quantistica (QFT in particolare), dove le [[Fundamental interaction|interazioni fondamentali]] tra particelle ordinarie sono rappresentate tramite scambi (interazioni) di particelle virtuali. Questa interazione può essere visualizzata mediante un [[Diagramma di Feynman]].

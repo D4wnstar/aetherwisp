@@ -8,7 +8,7 @@ aliases:
   - binaria spettroscopica
   - binaria ad eclissi
 ---
-Una **stella binaria** o **sistema binario** è un sistema di due [[Stella|stelle]] che sono [[interazione gravitazionale|gravitazionalmente]] vincolate e orbitano l'una attorno all'altra. I sistemi binari sono molto comuni: si stima che la metà di tutte le stelle dell'universo siano in realtà sistemi binari.
+Una **stella binaria** o **sistema binario** è un sistema di due [[Stella|stelle]] che sono [[Gravity|gravitazionalmente]] vincolate e orbitano l'una attorno all'altra. I sistemi binari sono molto comuni: si stima che la metà di tutte le stelle dell'universo siano in realtà sistemi binari.
 ### Classificazione
 La classificazione di una stella binaria segue dal metodo usato per identificarla.
 1. **Coppie ottiche.** Una coppia ottica è una coppia di stelle visibili, talvolta anche a occhio nudo, apparentemente vicine fra loro. Queste *non* sono sistemi binari, in quanto non sono gravitazionalmente vincolate. Il fatto che appaiano vicine è una coincidenza causata dalla prospettiva.

@@ -27,7 +27,7 @@ Se consideriamo un cilindro infinitamente esteso con asse coincidente alla traie
 $$\Phi(\vec{E})=\int_{S}\vec{E}\cdot d\vec{S}=2\pi b\int\vec{E}_{\perp}dx=\frac{ze}{\varepsilon_{0}}$$
 da cui
 $$|\Delta\vec{p}|=\Delta p=\frac{ze^{2}}{2\pi b\varepsilon_{0}v}=\left(\frac{ze^{2}}{4\pi b^{2}\varepsilon_{0}}\right)\left(\frac{2b}{v}\right)$$
-dove la prima parentesi è la [[Interazione elettromagnetica|forza Coulombiana]] nel punto di massimo avvicinamento e la seconda è il *tempo caratteristico dell'interazione*. L'energia cinetica acquistata dall'elettrone sarà
+dove la prima parentesi è la [[Electromagnetism|forza Coulombiana]] nel punto di massimo avvicinamento e la seconda è il *tempo caratteristico dell'interazione*. L'energia cinetica acquistata dall'elettrone sarà
 $$E_{x}(b)=\frac{\Delta p^{2}}{2m}=\frac{z^{2}e^{4}}{8\pi^{4}\varepsilon_{0}b^{2}mv^{2}}=\frac{2mc^{2}r_{c}^{2}z^{2}}{\beta^{2}b^{2}}$$
 da qui possiamo affermare che:
 - l'energia trasferita diminuisce all'aumentare di $b$.

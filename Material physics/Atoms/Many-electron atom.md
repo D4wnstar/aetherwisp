@@ -3,7 +3,7 @@ wiki-publish: true
 ---
 The **many-electron atom** is a [[physical system]] modeling an [[atom]] with an arbitrary number of [[elettrone|electrons]] around and arbitrary [[Nucleo atomico|nucleus]]. It is an extension of the [[two-electron atom]] and the [[hydrogen atom]]. The [[Hamiltonian]] of the system is
 $$H=\sum_{i=1}^{N}\underbrace{ \left[  - \frac{\hbar^{2}}{2m}\nabla ^{2}_{\mathbf{r}_{i}}- \frac{Ze^{2}}{4\pi \varepsilon_{0}r_{i}} \right] }_{ \text{Individual electrons} }+\sum_{i>j} \underbrace{ \frac{e^{2}}{4\pi \varepsilon_{0}r_{ij}} }_{ e-e\text{ interaction} } $$
-where the sum over $i>j$ is indexed that way to avoid double-counting [[interazione elettromagnetica|electromagnetic interactions]] between electrons.
+where the sum over $i>j$ is indexed that way to avoid double-counting [[Electromagnetism|electromagnetic interactions]] between electrons.
 ## Central field approximation
 With two electrons, the perturbative approximation was rather poor and required a more accurate treatment (namely, the [[variational method]]). As you add more electrons, it becomes even worse. Our approach is to try and enforce a central symmetry and split that Hamiltonian into a central term $H_{C}$ and an "everything else" term $H_{1}$, the latter of which is ideally much smaller and can be ignored:
 $$H=H_{C}+H_{1}$$

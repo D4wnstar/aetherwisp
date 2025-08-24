@@ -7,7 +7,7 @@ Il **decadimento $\alpha$** è un tipo di [[Decadimento nucleare|decadimento]] n
 $$_{Z}^{A}X_{N} \rightarrow\ _{Z-2}^{A-4}X'_{N-2}+\alpha$$
 dove $X$ e $X'$ sono simboli chimici di specie nucleari diverse nello stato iniziale e finale. Il numero di protoni e neutroni deve conservarsi separatamente. L'energia cinetica tipica della particella $\alpha$ emessa è nell'ordine dei [[Elettronvolt|MeV]].
 
-Il decadimento $\alpha$ è mediato dall'[[interazione forte]].
+Il decadimento $\alpha$ è mediato dall'[[Strong interaction]].
 
 Una reazione tipo è
 $$_{88}^{226}\text{Ra}_{138}\rightarrow\, _{86}^{222}\text{Rn}_{136}+\,_{2}^{4}\text{He}_{2}$$
@@ -20,7 +20,7 @@ Studiamo l'energia [[Potential]] $V(r)$ di una particella $\alpha$ in funzione d
 ![[Grafico Decadimento Alpha|80%|center]]
 A piccole distanze, l'interazione forte domina e si forma una buca di potenziale profonda $-V_{0}$.
 
-A grandi distanze, la particella $\alpha$ è soggetta a [[Interazione elettromagnetica|repulsione Coulombiana]] dei protoni, come si vede in $V_{C}$. $Z$ è il [[Atom|numero atomico]] del nucleo, $Z-2$ è il numero dopo il decadimento $\alpha$.
+A grandi distanze, la particella $\alpha$ è soggetta a [[Electromagnetism|repulsione Coulombiana]] dei protoni, come si vede in $V_{C}$. $Z$ è il [[Atom|numero atomico]] del nucleo, $Z-2$ è il numero dopo il decadimento $\alpha$.
 - $Q$ è l'energia di disintegrazione.
 - In $r<a$ si ha una buca di potenziale dovuta all'interazione forte. L'unico modo che la particella $\alpha$ ha per uscirne (o entrarne, nel caso della [[fissione spontanea]]) è mediante [[tunnelling quantistico]].
 - In $a<r<b$ si forma una seconda barriera di potenziale perché l'energia potenziale supera quella disponibile $Q$. $\alpha$ non può entrare in questa regione.
