@@ -3,7 +3,7 @@ wiki-publish: true
 ---
 ### Preparatory topics
 **Poynting's theorem**
-$$P=\frac{ \partial U }{ \partial t } =-\frac{ \partial  }{ \partial t } \int_{\mathcal{V}}u(\mathbf{r})\ d\tau-\oint_{\mathcal{S}}\mathbf{S}\cdot d\mathbf{a},\qquad-\frac{ \partial u(\mathbf{r}) }{ \partial t }=\mathbf{E}\cdot \mathbf{J} -\nabla\cdot\mathbf{S}$$
+$$P=\frac{ \partial U }{ \partial t } =-\frac{ \partial  }{ \partial t } \int_{\mathcal{V}}u(\mathbf{r})\ d\tau-\oint_{\mathcal{S}}\mathbf{S}\cdot d\mathbf{a},\qquad\mathbf{E}\cdot \mathbf{J}=-\frac{ \partial u(\mathbf{r}) }{ \partial t } -\nabla\cdot\mathbf{S}$$
 
 **Poynting vector**
 $$\mathbf{S}\equiv \frac{1}{\mu_{0}}\mathbf{E}\times \mathbf{B}$$
