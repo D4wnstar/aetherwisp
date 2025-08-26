@@ -19,4 +19,4 @@ and the space components are
 $$\boldsymbol{\eta}=\frac{\mathbf{v}}{\sqrt{ 1-v^{2}/c^{2} }}=\gamma \mathbf{v}$$
 When placed under Lorentz transformation, we get
 $$\bar{\eta}^{\mu}=\Lambda_{\nu}^{\mu}\eta^{\nu}$$
-By comparison, ordinary velocity must transform according to the [[Postulates of special relativity|Einstein velocity addition rule]], which are much more verbose.
+By comparison, ordinary velocity must transform according to the [[Postulates of special relativity|Einstein velocity addition rule]], which is much more verbose.

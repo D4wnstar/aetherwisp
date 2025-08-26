@@ -65,5 +65,5 @@ $$\boxed{K^{\mu}=q\eta_{\nu}F^{\mu \nu}}$$
 > \end{align}$$
 > Thus, with the other two components we get
 > $$\mathbf{K}=\frac{q}{\sqrt{ 1-v^{2}/c^{2} }}[\mathbf{E}+(\mathbf{v}\times \mathbf{B})]=\gamma q[\mathbf{E}+(\mathbf{v}\times \mathbf{B})]$$
-> and since the spatial component of a Minkowski force are related to the ordinary force by $\mathbf{K}=\gamma\mathbf{F}$ we get
+> and since the spatial components of a Minkowski force are related to the ordinary force by $\mathbf{K}=\gamma\mathbf{F}$ we get
 > $$\mathbf{F}=q[\mathbf{E}+(\mathbf{v}\times \mathbf{B})]$$
