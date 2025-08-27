@@ -6,7 +6,7 @@ La storia fisica dell'[[Universo]] è l'ambito della cosmologia, ma anche la fis
 All'inizio, a $t=0$, è accaduto il [[Big Bang]]. Le fasi successive accadono tutte nel giro di frazioni infinitesime di secondo. In particolare, si divide l'universo in epoche:
 1. **Universo molto primordiale**:
 	1. **Epoca di Planck**, $0<t<10^{-43}$ secondi, di cui sappiamo molto poco. Si assume dominasse la gravità quantistica.
-	2. **Epoca della grande unificazione**, $10^{-43}<t<10^{-36}$ secondi. Si ipotizza che tutte le [[Fundamental interaction|interazioni fondamentali]] fossero unificate (almeno la forte, debole e elettromagnetica) e tutte le [[Particella|particelle]] subissero tutte le forze.
+	2. **Epoca della grande unificazione**, $10^{-43}<t<10^{-36}$ secondi. Si ipotizza che tutte le [[Fundamental interaction|interazioni fondamentali]] fossero unificate (almeno la forte, debole e elettromagnetica) e tutte le [[Particle|particelle]] subissero tutte le forze.
 	3. **Epoca elettrodebole**, $10^{-36}<t<10^{-32}$ secondi. Qui la forza forte si disaccoppia da quella elettrodebole.
 	4. .L'epoca dell'Universo primordiale termina a circa $10^{-12}$ secondi-
 2. **Universo primordiale**:

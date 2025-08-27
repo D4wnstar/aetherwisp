@@ -21,7 +21,7 @@ Note that this is an *indefinite* integral, not a definite one. The leftover con
 $$\boxed{U=C_{V}T}$$
 Also from the heat equations, we can find the isobaric heat capacity as
 $$C_{P}=\left( \frac{ \partial H }{ \partial T }  \right)_{P}=\left( \frac{ \partial (U+PV) }{ \partial T }  \right)_{P}=\frac{dU}{dT}+ \frac{ \partial (Nk_{B}T) }{ \partial T } =C_{V}+Nk_{B}$$
-where $N$ is the number of [[particella|particles]] in the gas and $k_{B}$ is the [[Boltzmann constant|Boltzmann constant]]. So the difference between constant-volume and isobaric heat capacities for an ideal gas is
+where $N$ is the number of [[Particle|particles]] in the gas and $k_{B}$ is the [[Boltzmann constant|Boltzmann constant]]. So the difference between constant-volume and isobaric heat capacities for an ideal gas is
 $$C_{P}-C_{V}=Nk_{B}$$
 #### Transformations
 We can work out the equation governing a [[Thermodynamic transformation|reversible, adiabatic transformation]]. Since for an adiabatic transformation $dQ=0$ and work is $dW=PdV$, the [[Laws of thermodynamics|first law of thermodynamics]] gives us $dU=-PdV$, but since $dU=C_{V}dT$ is also true, we get

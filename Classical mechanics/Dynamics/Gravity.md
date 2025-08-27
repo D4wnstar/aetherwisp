@@ -9,7 +9,7 @@ aliases:
 $$U=-G \frac{m_{1}m_{2}}{r}$$
 where $m_{1}$ and $m_{2}$ are the masses of the two interacting [[point mass|point masses]], $r$ is the distance between them and $G$ is the [[gravitational constant]]. The gravitational force is therefore
 $$\mathbf{F}=-\nabla U=-G \frac{m_{1}m_{2}}{r^{2}}\hat{\mathbf{r}}$$
-The modern theory of gravity is **general relativity**, which explains how the presence of mass curves [[spacetime]] and how gravitational forces are described through this curvature. It is currently not understood if and how gravity relates to quantum mechanics or if gravity is an exchange interaction mediated by a discrete elementary [[particle]] (a so-called *graviton*).
+The modern theory of gravity is **general relativity**, which explains how the presence of mass curves [[spacetime]] and how gravitational forces are described through this curvature. It is currently not understood if and how gravity relates to quantum mechanics or if gravity is an exchange interaction mediated by a discrete elementary [[Particle]] (a so-called *graviton*).
 
 Gravity has infinite range, meaning it can affect objects at any distance.
 ### Coupling constant  

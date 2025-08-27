@@ -10,7 +10,7 @@ $$e^{-\beta H(q,p)}$$
 ### Oscillatore armonico
 Nel caso dell'[[Harmonic oscillator]], l'Hamiltoniana vale
 $$H(q,p)=\frac{p^{2}}{2m}+ \frac{m\omega ^{2}}{2}q^{2}$$
-con $m$ massa della [[particella]] e $\omega$ la frequenza angolare. Allora il fattore di Boltzmann è
+con $m$ massa della [[Particle]] e $\omega$ la frequenza angolare. Allora il fattore di Boltzmann è
 $$e^{-\beta((p^{2}/2m) + (m\omega^{2}/2)q^{2})}$$
 Integrando su posizione e momento troviamo il valore di normalizzazione
 $$\begin{align}

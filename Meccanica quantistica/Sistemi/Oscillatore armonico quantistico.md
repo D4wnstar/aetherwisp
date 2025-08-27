@@ -3,7 +3,7 @@ wiki-publish: true
 ---
 L'**oscillatore armonico quantistico** è l'analogo quantistico dell'[[Harmonic oscillator]] classico, ossia un sistema quantistico con un [[punto di equilibrio]] soggetto ad una forza di ritorno $F$ una volta perturbato.
 ### Soluzione
-Il caso dell'oscillatore armonico consiste nel risolvere l'[[equazione di Schrödinger]] per una [[particella]] immersa nel [[Potential]]
+Il caso dell'oscillatore armonico consiste nel risolvere l'[[equazione di Schrödinger]] per una [[Particle]] immersa nel [[Potential]]
 $$V(x)=\frac{1}{2}m\omega^{2}x^{2}$$
 Partiamo dunque dall'equazione indipendente dal tempo, che prende la forma
 $$- \frac{\hbar^{2}}{2m} \frac{d^{2}\psi}{dx^{2}}+ \frac{1}{2}m\omega^{2}x^{2}\psi=E\psi\tag{1}$$
@@ -214,7 +214,7 @@ $$\begin{cases}
 \end{cases}$$
 che sono identiche alle [[Hamilton equations|equazioni di Hamilton]] classiche. Questo è dovuto al fatto che $\hat{H}$ qui è quadratica sia in $\hat{q}$ che $\hat{p}$.
 ### Forza di Lorentz
-Un'applicazione diretta dell'oscillatore armonico quantistico è per descrivere una [[particella]] [[Electric charge|elettricamente carica]] soggetta alla [[Lorentz force|forza di Lorentz]]. Questa può essere espressa come
+Un'applicazione diretta dell'oscillatore armonico quantistico è per descrivere una [[Particle]] [[Electric charge|elettricamente carica]] soggetta alla [[Lorentz force|forza di Lorentz]]. Questa può essere espressa come
 $$m \frac{d\mathbf{v}}{dt}=\frac{q}{c}\mathbf{v}\times \mathbf{B}(\mathbf{r},t)+q\mathbf{E}(\mathbf{r},t)$$
 Sfruttiamo l'[[Lagrange equation|equazione di Lagrange-Eulero]]
 $$\frac{d}{dt}\frac{ \partial \mathcal{L} }{ \partial \mathbf{v} } =\frac{ \partial \mathcal{L} }{ \partial \mathbf{r} } $$

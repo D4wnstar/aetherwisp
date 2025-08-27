@@ -6,7 +6,7 @@ aliases:
 ---
 **Compton scattering** is a [[particle scattering]] phenomenon between a [[photon]] and an [[electron]] that involves the absorption and re-emission of a photon by the atomic electron, deflecting it and changing its [[frequency]]. It is a higher energy form of [[Thomson scattering]].
 
-The process can be written as a [[particle]] process as
+The process can be written as a [[Particle]] process as
 $$\gamma e^{-} \rightarrow \gamma e^{-}$$
 and graphically it looks like this:
 

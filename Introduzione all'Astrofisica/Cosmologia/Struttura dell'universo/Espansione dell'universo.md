@@ -10,4 +10,4 @@ $$\rho_{\gamma}=\frac{\rho_{\gamma,0}}{a(t)^{4}}=(1+z)^{4}\rho_{\gamma,0}$$
 ### Non-unicità della distanza
 L'espansione dell'universo implica la non-unicità della definizione di distanza delle sorgenti cosmologiche. Prendiamo una sorgente a redshift $z$. Tra l'emissione di un [[Photon]] e il tempo attuale $t_{0}$, la sorgente si sarà allontanata per l'espansione. Per ovviare a questo problema, si può definire un sistema di coordinate detto di [[Coordinate comoventi]] che si espande con l'universo omogeneo.
 
-[^1]: La densità di energia è equivalente alla densità di massa per l'[[equivalenza massa-energia]]. Se $u$ è la densità di energia, quella di massa è $\rho=u/c^{2}$, che quindi ha senso anche per [[Particella|particelle]] prive di massa.
+[^1]: La densità di energia è equivalente alla densità di massa per l'[[equivalenza massa-energia]]. Se $u$ è la densità di energia, quella di massa è $\rho=u/c^{2}$, che quindi ha senso anche per [[Particle|particelle]] prive di massa.

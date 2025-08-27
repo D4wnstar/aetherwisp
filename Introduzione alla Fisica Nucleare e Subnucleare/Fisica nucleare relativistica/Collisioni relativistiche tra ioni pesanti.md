@@ -1,7 +1,7 @@
 ---
 wiki-publish: true
 ---
-Per **ioni pesanti** si intendono ioni con numero atomico sufficientemente alto. Non c'è una definizione precisa, ma di solito si parla di $A>100$. Come per le altre [[Particella|particelle]], si scontrano due fasci continui, in questo caso di ioni pesanti. Dato che sono pesanti (ossia composti da numerosi [[Nucleone|nucleoni]]), lo scontro genera un gran numero di particelle che vengono lanciate in tutte le direzioni. In altre parole, "esplodono".
+Per **ioni pesanti** si intendono ioni con numero atomico sufficientemente alto. Non c'è una definizione precisa, ma di solito si parla di $A>100$. Come per le altre [[Particle|particelle]], si scontrano due fasci continui, in questo caso di ioni pesanti. Dato che sono pesanti (ossia composti da numerosi [[Nucleone|nucleoni]]), lo scontro genera un gran numero di particelle che vengono lanciate in tutte le direzioni. In altre parole, "esplodono".
 
 Le esatte meccaniche che accadono durante una collisione tra ioni pesanti sono ancora poco chiare. Ci sono due ipotesi:
 1. Dopo la collisione, osservo risultati riproducibili dalla sovrapposizione di interazione nucleone-nucleone.

@@ -43,7 +43,7 @@ Il prodotto tensoriale elemento per elemento di una [[base]] di $V$ con una base
 #### Separabilità
 I tensori ottenuti dal prodotto tensoriale non sono necessariamente descrivibili come due oggetti separati. Per esempio, considerato un tensore $|\psi_{12}\rangle\in V\otimes W$, esso viene detto **separabile** se può essere espresso come $|\psi_{12}\rangle=|\psi_{1}\rangle\otimes |\psi_{2}\rangle$. Se non è possibile, lo stato viene detto **intrecciato** (**entangled**). L'[[entanglement quantistico]] è descritto come stati quantistici tra loro inseparabili e quindi non descrivibili mediante un prodotto tensoriale tra due stati indipendenti.
 
-Per esempio, consideriamo un sistema con due [[Particella|particelle]] con [[spin#Spin 1/2|spin 1/2]]. Per ciascuna particella, gli autostati sono solo due, lo spin up e lo spin down, e lo stato generico $\chi$ può essere espresso come
+Per esempio, consideriamo un sistema con due [[Particle|particelle]] con [[spin#Spin 1/2|spin 1/2]]. Per ciascuna particella, gli autostati sono solo due, lo spin up e lo spin down, e lo stato generico $\chi$ può essere espresso come
 $$\chi=\begin{pmatrix}a \\ b\end{pmatrix}=a |\uparrow\;\rangle+b |\downarrow\;\rangle$$
 con
 $$|\uparrow\;\rangle=\begin{pmatrix}1 \\0 \end{pmatrix}, \quad |\downarrow\;\rangle=\begin{pmatrix}0 \\ 1\end{pmatrix}$$

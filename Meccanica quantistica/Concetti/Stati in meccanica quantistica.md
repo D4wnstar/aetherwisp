@@ -4,7 +4,7 @@ aliases:
   - stato legato
   - stato libero
 ---
-In meccanica classica, preso un [[physical system|sistema]] composto da una [[particella]] ad [[energy|energia]] totale $E$ immersa in un [[Potential]] unidimensionale indipendente dal tempo $V(x)$, si distinguono due tipi di [[stato|stati]] (assumendo la conservazione dell'energia nel sistema, quindi niente motori o attrito):
+In meccanica classica, preso un [[physical system|sistema]] composto da una [[Particle]] ad [[energy|energia]] totale $E$ immersa in un [[Potential]] unidimensionale indipendente dal tempo $V(x)$, si distinguono due tipi di [[stato|stati]] (assumendo la conservazione dell'energia nel sistema, quindi niente motori o attrito):
 1. Gli **stati legati** sono quegli stati nei quali la particella è "bloccata" tra due barriere di potenziale insormontabili ed è quindi destinata a "rimbalzare" tra le barriere senza poter mai uscire. Questo accade quando il potenziale cresce al di sopra dell'energia totale della particella, ossia $V(x)>E$ per qualche $x$.
 2. Gli **stati liberi** sono quegli stati nei quali la particella si muove da un infinito ad un altro, o rimbalza su una barriera e torna all'infinito di partenza. Questo accade quando il potenziale non sale sopra l'energia della particella o lo fa solo una volta, a modo che non crei una "trappola".
 

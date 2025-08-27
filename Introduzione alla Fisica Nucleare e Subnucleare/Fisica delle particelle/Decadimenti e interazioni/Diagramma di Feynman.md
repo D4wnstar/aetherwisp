@@ -1,7 +1,7 @@
 ---
 wiki-publish: true
 ---
-Un **diagramma di Feynman** è una rappresentazione schematica di un'interazione tra [[Particella|particelle]]. Le particelle massive sono rappresentate come linee, mentre le particelle propagatrici dell'[[Rappresentazioni della meccanica quantistica|interazione]] sono rappresentate con un loro simbolo specifico. Le particelle ordinarie usano frecce con direzione concorde al tempo, mentre le antiparticelle usano direzione opposte al tempo.
+Un **diagramma di Feynman** è una rappresentazione schematica di un'interazione tra [[Particle|particelle]]. Le particelle massive sono rappresentate come linee, mentre le particelle propagatrici dell'[[Rappresentazioni della meccanica quantistica|interazione]] sono rappresentate con un loro simbolo specifico. Le particelle ordinarie usano frecce con direzione concorde al tempo, mentre le antiparticelle usano direzione opposte al tempo.
 
 Per esempio, l'[[annichilazione]] tra un [[elettrone]] ed un [[Elettrone|positrone]] è schematizzata come
 

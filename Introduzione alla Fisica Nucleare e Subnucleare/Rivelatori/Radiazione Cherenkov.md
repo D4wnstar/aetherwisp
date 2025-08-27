@@ -4,7 +4,7 @@ aliases:
   - effetto Cherenkov
   - angolo di emissione di Cherenkov
 ---
-La **radiazione Cherenkov** o **effetto Cherenkov** è un fenomeno di [[radiazione]] legato alle proprietà dielettriche del materiale che avviene quando la velocità di propagazione di una [[particella]] [[Electric charge|carica]] in un mezzo è maggiore alla [[velocità della luce]] in quel mezzo. La particella emette radiazione dal colore azzurro in un cono che si espande ad un angolo ben definito attorno alla sua traccia.
+La **radiazione Cherenkov** o **effetto Cherenkov** è un fenomeno di [[radiazione]] legato alle proprietà dielettriche del materiale che avviene quando la velocità di propagazione di una [[Particle]] [[Electric charge|carica]] in un mezzo è maggiore alla [[velocità della luce]] in quel mezzo. La particella emette radiazione dal colore azzurro in un cono che si espande ad un angolo ben definito attorno alla sua traccia.
 
 Causa una perdita ridotta di energia, ma è utile per misurare la velocità delle particelle.
 ### Meccanismo

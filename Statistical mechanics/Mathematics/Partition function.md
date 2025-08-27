@@ -8,7 +8,7 @@ The **partition function** of an [[ensemble]] is the [[Normalization|normalizati
 $$Z=\int\rho(\mathbf{q},\mathbf{p})\ d^{3N}q\ d^{3N}p,\qquad Z=\sum_{n}\hat{\rho}(\hat{q},\hat{p})=\text{Tr}(\hat{\rho})$$
 The first case is the classical one, where integration happens over all [[phase space]]. The second is the quantum case, which instead uses the [[Matrice di densità|density matrix]] and its [[Traccia|trace]].
 
-It is usually denoted using $Z$, which comes from German "Zustandsumme", or $Q_{N}$. The most common partition functions are the **canonical partition function** of the [[canonical ensemble]] $Q_{N}$ and the **grand canonical partition function** of the [[grand canonical ensemble]] $\mathcal{Z}$. Their expressions change depending on whether we are consider the classical or quantum ensemble and whether [[Particella|particles]] are [[Identical particles|distinguishable]] or not.
+It is usually denoted using $Z$, which comes from German "Zustandsumme", or $Q_{N}$. The most common partition functions are the **canonical partition function** of the [[canonical ensemble]] $Q_{N}$ and the **grand canonical partition function** of the [[grand canonical ensemble]] $\mathcal{Z}$. Their expressions change depending on whether we are consider the classical or quantum ensemble and whether [[Particle|particles]] are [[Identical particles|distinguishable]] or not.
 ### Properties
 The probability of a state in an ensemble is given by the density function normalized by the partition function
 $$p(n)=\frac{\rho(n)}{Z}$$

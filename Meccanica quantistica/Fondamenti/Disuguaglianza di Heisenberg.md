@@ -5,7 +5,7 @@ aliases:
   - osservabili compatibili
   - osservabili incompatibili
 ---
-La **disuguaglianza di Heisenberg**, o **principio di indeterminazione**, è una disuguaglianza che mostra come il prodotto tra l'errore sulla posizione $q$ e quello sulla quantità di moto $p$ di una [[particella]] quantistica ha un minimo costante. Ciò implica che le due quantità non possono essere determinate con precisione arbitraria allo stesso tempo e che misurare con precisione una rende la seconda molto imprecisa. Matematicamente, in una dimensione
+La **disuguaglianza di Heisenberg**, o **principio di indeterminazione**, è una disuguaglianza che mostra come il prodotto tra l'errore sulla posizione $q$ e quello sulla quantità di moto $p$ di una [[Particle]] quantistica ha un minimo costante. Ciò implica che le due quantità non possono essere determinate con precisione arbitraria allo stesso tempo e che misurare con precisione una rende la seconda molto imprecisa. Matematicamente, in una dimensione
 $$\Delta q\Delta p\geq\frac{\hbar}{2}$$
 e in tre dimensioni
 $$\Delta x \Delta p_{x}\geq \frac{\hbar}{2}, \quad \Delta y \Delta p_{y}\geq \frac{\hbar}{2}, \quad \Delta z \Delta p_{z}\geq \frac{\hbar}{2}$$

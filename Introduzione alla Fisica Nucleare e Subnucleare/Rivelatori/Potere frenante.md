@@ -9,7 +9,7 @@ aliases:
   - perdita per ionizzazione
   - perdita per radiazione
 ---
-Il **potere frenante** o **stopping power** $S$ è la capacità di un materiale di rallentare una [[particella]] che ci passa attraverso mediante l'interazione con la materia, diminuendo la sua energia. Matematicamente, è la media della diminuzione di energia $E$ della particella per unità di spazio $x$, inteso come lo spazio occupato da materia entro il quale passa la particella:
+Il **potere frenante** o **stopping power** $S$ è la capacità di un materiale di rallentare una [[Particle]] che ci passa attraverso mediante l'interazione con la materia, diminuendo la sua energia. Matematicamente, è la media della diminuzione di energia $E$ della particella per unità di spazio $x$, inteso come lo spazio occupato da materia entro il quale passa la particella:
 $$S(E)=- \left\langle\frac{dE}{dx}\right\rangle$$
 per un sistema del tipo
 

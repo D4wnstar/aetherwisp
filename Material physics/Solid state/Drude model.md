@@ -1,7 +1,7 @@
 ---
 wiki-publish: true
 ---
-The **Drude model** or **Drude-Lorentz model** is an approximate model of electrical conduction within a material, primarily metals. It is a kinetic gas model using [[electron|electrons]] as neutral [[particella|particles]] in metal.
+The **Drude model** or **Drude-Lorentz model** is an approximate model of electrical conduction within a material, primarily metals. It is a kinetic gas model using [[electron|electrons]] as neutral [[Particle|particles]] in metal.
 ### Qualitative description
 Consider a metallic [[conductor]], for which the [[electric charge]] carriers are the valence [[Elettrone|electrons]] of the [[Atom|atoms]]. The mass and charge of the carriers therefore are [[massa dell'elettrone|electron mass]] $m=m_{e}$ and [[Elementary charge|elementary charge]] $q=-e$ respectively. Let's start by representing the electrons in the wire as a [[ideal gas]]. As in all kinetic gas models, the velocity of the electrons $\mathbf{v}_{\text{rand}}$ is completely random and isotropic and its average is zero: $\langle \mathbf{v}_{\text{rand}} \rangle=0$. Say, then, we apply an [[electric field]] $\mathbf{E}$ to the gas. The electrons respond by being attracted or repelled depending on the sign of the field and their velocity changes to
 $$\langle \mathbf{v} \rangle_\text{drift}=\langle \mathbf{v}_{\text{rand}} \rangle + \frac{q\mathbf{E}}{m_{}}\langle t \rangle =\frac{q\mathbf{E}}{m}\tau $$

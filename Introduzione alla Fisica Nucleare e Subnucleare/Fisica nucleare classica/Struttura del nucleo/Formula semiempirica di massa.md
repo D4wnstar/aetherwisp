@@ -4,7 +4,7 @@ wiki-publish: true
 La **formula semiempirica di massa**, anche conosciuta come **formula di Weizsacker**, è una formula per stimare la massa e l'[[Binding energy]] di un [[Atom]]:
 $$m(Z,A)=Nm_{n}+Zm_{p}+Zm_{e}- \frac{B(Z,A)}{c^{2}}$$
 con
-$$B(Z,A)=a_{v}A-a_{s}A^{\frac{2}{3}}-a_{c} \frac{Z(Z-1)}{A^{\frac{1}{3}}}-a_{a} \frac{(N-Z)^{2}}{4A}+\delta$$
+$$\frac{B(Z,A)}{c^{2}}=a_{v}A-a_{s}A^{\frac{2}{3}}-a_{c} \frac{Z(Z-1)}{A^{\frac{1}{3}}}-a_{a} \frac{(N-Z)^{2}}{4A}+\delta$$
 dove
 - $m_{n}$, $m_{p}$ e $m_{e}$ sono masse di [[neutrone]], [[protone]] ed [[elettrone]].
 - $Z$, $N$ e $A$ sono il [[Atom|numero atomico]], il [[Atom|numero di neutroni]] e il [[Atom|numero di massa atomica]].

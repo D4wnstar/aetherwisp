@@ -1,7 +1,7 @@
 ---
 wiki-publish: true
 ---
-La **materia**, in cosmologia, è definita come [[particella|particelle]] massive non [[Lorentz transformation|relativistiche]]. La materia ordinaria è generalmente chiamata **materia barionica**, in quanto è composta da [[Barione|barioni]] e contiene anche gli [[Elettrone|elettroni]] che, seppur essendo [[Leptone|leptoni]], hanno massa talmente bassa da non fare grande differenza, quindi vengono accorpati ai barioni per comodità. Conosciamo anche la **materia di [[neutrino|neutrini]]**, di cui abbiamo provato la massività sperimentalmente, e la **[[materia oscura]]**, di cui conosciamo poco. In parametri cosmologici, queste tre forme della massa sono sommate in $\Omega_{m}$ come
+La **materia**, in cosmologia, è definita come [[Particle|particelle]] massive non [[Lorentz transformation|relativistiche]]. La materia ordinaria è generalmente chiamata **materia barionica**, in quanto è composta da [[Barione|barioni]] e contiene anche gli [[Elettrone|elettroni]] che, seppur essendo [[Leptone|leptoni]], hanno massa talmente bassa da non fare grande differenza, quindi vengono accorpati ai barioni per comodità. Conosciamo anche la **materia di [[neutrino|neutrini]]**, di cui abbiamo provato la massività sperimentalmente, e la **[[materia oscura]]**, di cui conosciamo poco. In parametri cosmologici, queste tre forme della massa sono sommate in $\Omega_{m}$ come
 $$\Omega_{m}=\Omega_{b}+\Omega_{\nu}+\Omega_{DM}$$
 
 Nelle [[Equazioni di Friedmann]], queste materie possono essere considerate equivalenti e i loro effetti sono raggruppati in $\Omega_{m}$. La loro differenza è importante solo in presenza di fluttuazioni, che non sono considerate in un modello di universo omogeneo.

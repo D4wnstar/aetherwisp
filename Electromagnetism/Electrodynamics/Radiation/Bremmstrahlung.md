@@ -28,6 +28,6 @@ $$P=\frac{\mu_{0}q^{2}a^{2}}{8\pi c}\int_{-1}^{1} \frac{1-x^{2}}{(1-\beta x)^{5}
 We then [[integration by parts|integrate by parts]] on numerator and denominator, which results in $\frac{4}{3}(1-\beta ^{2})^{-3}$, and so
 $$P=\frac{\mu_{0}q^{2}a^{2}\gamma^{6}}{6\pi c}$$
 ### In detectors
-For an [[electron]], the [[particle]] process of bremmstrahlung due to some [[atomic nucleus]] $^{A}_{Z}X$ is
+For an [[electron]], the [[Particle]] process of bremmstrahlung due to some [[atomic nucleus]] $^{A}_{Z}X$ is
 $$e^{-}+\ _{Z}^{A}X \rightarrow e^{-}+\gamma+\ _{Z}^{A}X$$
 It consists of the emission of a [[photon]] with no change on the electron or the nucleus. The effects are largely kinematic and cause the deflection of the electron. This is useful in [[detector]] physics, where bremmstrahlung is the primary cause of energy loss for light particles traversing matter (also see [[Stopping power]]).

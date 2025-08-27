@@ -5,7 +5,7 @@ aliases:
 ---
 La **luminosità** $\mathscr{L}$, intesa in ambito della fisica nucleare, è una quantità misurata durante la [[Diffusione di particelle]]. In simboli
 $$\mathscr{L}=\Phi_{a}N_{b}=\dot{N}_{a}n_{b}d=n_{a}v_{a}N_{b}\qquad\left[ \frac{1}{\text{L}^{2}\times \text{T}} \right]$$
-dove $\Phi_{a}=\dot{N}_{a}/A=n_{a}v_{a}$ è il flusso di [[Particella|particelle]] incidenti su una targhetta di area $A$ e $N_{b}$ è il numero di particelle nella targhetta.
+dove $\Phi_{a}=\dot{N}_{a}/A=n_{a}v_{a}$ è il flusso di [[Particle|particelle]] incidenti su una targhetta di area $A$ e $N_{b}$ è il numero di particelle nella targhetta.
 ### Nei collisori
 In un collisore con circonferenza $U$, inietto $j$ pacchetti di particelle costituiti da $N_{a}$ e $N_{b}$ che circolano in senso opposto a velocità $v$. Le particelle collidono in un punto di intersezione per $jv/U$ volte al secondo. La luminosità è
 $$\mathscr{L}=\frac{N_{a}N_{b}j}{A} \frac{v}{c}$$

@@ -1,7 +1,7 @@
 ---
 wiki-publish: true
 ---
-Un **quark** è una [[Particella]] elementare con carica frazionaria e [[spin]] 1/2. Possiedono [[antiparticella|antiparticelle]] con carica elementare inversa.
+Un **quark** è una [[Particle]] elementare con carica frazionaria e [[spin]] 1/2. Possiedono [[antiparticella|antiparticelle]] con carica elementare inversa.
 
 Il nome quark proviene da un passaggio senza senso in *Finnegan's Wake* di James Joyce
 

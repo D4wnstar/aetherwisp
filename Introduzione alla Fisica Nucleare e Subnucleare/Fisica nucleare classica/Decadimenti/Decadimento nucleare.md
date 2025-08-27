@@ -3,7 +3,7 @@ wiki-publish: true
 aliases:
   - decadimento
 ---
-Il **decadimento** è il processo stocastico per il quale un [[nucleo atomico]] instabile perde energia per emissione di [[radiazione]]. Un nucleo decade in una o più specie nucleari o [[Particella|particelle]]. Decadimenti che terminano in un numero maggiore di particelle sono più rari.
+Il **decadimento** è il processo stocastico per il quale un [[nucleo atomico]] instabile perde energia per emissione di [[radiazione]]. Un nucleo decade in una o più specie nucleari o [[Particle|particelle]]. Decadimenti che terminano in un numero maggiore di particelle sono più rari.
 ## Tipi
 Esistono tre tipi principali di decadimento:
 - **decadimento $\alpha$**

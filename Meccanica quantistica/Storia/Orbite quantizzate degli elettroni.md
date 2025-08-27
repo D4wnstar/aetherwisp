@@ -22,7 +22,7 @@ Più avanti, De Broglie ha avuto la seguente intuizione: un [[Photon]] trasporta
 $$p=\frac{E}{c}=\frac{\hbar\omega}{c}=\frac{h}{cT}=\frac{h}{\lambda}$$
 con $T$ il periodo di oscillazione e $\lambda$ la lunghezza d'onda. Allora
 $$\boxed{\lambda=\frac{h}{p}}$$
-detta [[formula di De Broglie]]. Egli colse la conclusione: se la luce si comporta sia come onda (con lunghezza d'onda $\lambda$) ma anche come corpo (con un momento lineare ben definito), perché qualunque altro non può essere anch'esso descritto come onda, con lunghezza d'onda determinata dalla relazione sopra? Da qui è nata l'idea della **dualità corpo-onda**, valida per qualunque [[particella]], non solo i fotoni.
+detta [[formula di De Broglie]]. Egli colse la conclusione: se la luce si comporta sia come onda (con lunghezza d'onda $\lambda$) ma anche come corpo (con un momento lineare ben definito), perché qualunque altro non può essere anch'esso descritto come onda, con lunghezza d'onda determinata dalla relazione sopra? Da qui è nata l'idea della **dualità corpo-onda**, valida per qualunque [[Particle]], non solo i fotoni.
 
 Di fatto, sperimentalmente si è trovato che, lanciando elettroni a due fenditure, essi formano una figura di diffrazione pari a quella che avrebbe la luce con lunghezza d'onda $\lambda = \frac{h}{p}$, con $p$ l'impulso dell'elettrone. Questo era completamente inaspettato: ragionevolmente, ci si aspettava che gli elettroni si accumulassero in concomitanza con le fenditure, come lanciare un sasso attraverso una finestra e trovarlo dall'altra parte della finestra. Eppure il pattern era identico a quello della luce, con tanto di interferenze e diffrazione.
 

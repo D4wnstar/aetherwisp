@@ -3,7 +3,7 @@ wiki-publish: true
 ---
 Le **matrici di Pauli** sono un insieme di tre matrici $2\times2$ in $\mathbb{C}^{2}$ che, date nella rappresentazione standard, sono
 $$\hat{\sigma}_{x}=\begin{pmatrix}0 & 1 \\ 1 & 0\end{pmatrix},\quad\hat{\sigma}_{y}=\begin{pmatrix}0 & -i \\ i & 0\end{pmatrix},\quad\hat{\sigma}_{z}=\begin{pmatrix}1 & 0 \\ 0 & -1\end{pmatrix}$$
-Sono tutte e tre [[Operatore autoaggiunto|autoaggiunte]], ossia $\hat{\sigma}_{i}^{\dagger}=\hat{\sigma}_{i}$, e [[Operatore unitario|unitarie]]. Questo è un fatto importante e necessario dato che queste matrici sono derivate dallo studio dello [[Spin#Spin 1/2|spin 1/2]] delle [[Particella|particelle]]. Infatti, dato che lo spin è un [[osservabile]], l'[[operatore]] associato ad esso deve essere autoaggiunto. In rappresentazione standard, $\hat{\sigma}_{z}$ è diagonale, mentre le altre due no.
+Sono tutte e tre [[Operatore autoaggiunto|autoaggiunte]], ossia $\hat{\sigma}_{i}^{\dagger}=\hat{\sigma}_{i}$, e [[Operatore unitario|unitarie]]. Questo è un fatto importante e necessario dato che queste matrici sono derivate dallo studio dello [[Spin#Spin 1/2|spin 1/2]] delle [[Particle|particelle]]. Infatti, dato che lo spin è un [[osservabile]], l'[[operatore]] associato ad esso deve essere autoaggiunto. In rappresentazione standard, $\hat{\sigma}_{z}$ è diagonale, mentre le altre due no.
 
 È comune anche usare gli indici $(1,2,3)$ anziché $(x,y,z)$.
 ### Proprietà

@@ -3,7 +3,7 @@ wiki-publish: true
 ---
 Una **corrente di probabilità** $\mathbf{J}$ è una quantità che descrive il moto di una [[Probability distribution|distribuzione di probabilità]] nello spazio, analogamente a come una [[Electric current|corrente elettrica]] descrive il moto di una distribuzione di [[Electric charge|carica]] nello spazio. È una quantità vettoriale ottenuta come il prodotto di una distribuzione di probabilità $f$ e una velocità $\mathbf{v}$:
 $$\mathbf{J}=f\mathbf{v}$$
-È comunemente adottata in meccanica quantistica per descrivere il moto di una [[particella]]-onda mediante il modulo quadro della [[funzione d'onda]]. Per una funzione d'onda generica $\psi$, la corrente di probabilità della particella è
+È comunemente adottata in meccanica quantistica per descrivere il moto di una [[Particle]]-onda mediante il modulo quadro della [[funzione d'onda]]. Per una funzione d'onda generica $\psi$, la corrente di probabilità della particella è
 $$\mathbf{J}=\lvert \psi \rvert ^{2}\mathbf{v}$$
 con $\mathbf{v}$ la velocità della particella. Tipicamente, $\mathbf{v}$ è derivata dalla [[formula di de Broglie]].
 

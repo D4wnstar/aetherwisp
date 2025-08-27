@@ -1,7 +1,7 @@
 ---
 wiki-publish: true
 ---
-The **occupation number** $n$ of a quantum [[stato|state]] is the number of [[Particella|particles]] in that state at a given time. Its behavior differs between kinds of quantum particles. For [[Fermion|fermions]], it is either 0 or 1, as the [[Pauli exclusion principle|Pauli exclusion principle]] prevents multiple fermions from occupying the same state. For [[Boson|bosons]], it is can be any natural number, from 0 to infinity. In symbols,
+The **occupation number** $n$ of a quantum [[stato|state]] is the number of [[Particle|particles]] in that state at a given time. Its behavior differs between kinds of quantum particles. For [[Fermion|fermions]], it is either 0 or 1, as the [[Pauli exclusion principle|Pauli exclusion principle]] prevents multiple fermions from occupying the same state. For [[Boson|bosons]], it is can be any natural number, from 0 to infinity. In symbols,
 $$n=\begin{cases}
 0,1\quad&\text{for fermions} \\
 0,1,2,\ldots \quad&\text{for bosons}

@@ -3,7 +3,7 @@ wiki-publish: true
 aliases:
   - camera a diffusione
 ---
-La **camera a nebbia** è un [[rivelatore]] di tracce inventato nel 1912. Consiste in un contenitore riempito di un gas con vapore sovrasaturo che produce goccioline in prossimità di ioni a causa dell'espansione (inizialmente asincrona, poi con trigger esterno). La camera si illumina al passaggio di una [[particella]] e si fotografa la camera subito dopo il passaggio a modo di misurare la traccia.
+La **camera a nebbia** è un [[rivelatore]] di tracce inventato nel 1912. Consiste in un contenitore riempito di un gas con vapore sovrasaturo che produce goccioline in prossimità di ioni a causa dell'espansione (inizialmente asincrona, poi con trigger esterno). La camera si illumina al passaggio di una [[Particle]] e si fotografa la camera subito dopo il passaggio a modo di misurare la traccia.
 
 Ha una risoluzione tipica di $\sim0.5$ mm. Si possono ricostruire molte informazioni dallo spessore della traccia (densità di ionizzazione $dE/dx$) e dalla curvatura della traccia (impulso $p$ della particella e quindi massa $m$) se è presente un [[magnetic field|campo magnetico]]. Dalla lunghezza della traccia si può anche estrarre la massa tramite il [[range]] della particella.
 

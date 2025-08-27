@@ -5,7 +5,7 @@ aliases:
   - picco di Bragg
   - range straggling
 ---
-In fisica delle particelle e dei rivelatori, il **range** o **percorso (medio) residuo** $R$ di una [[particella]] in un certo mezzo è la distanza che questa può percorrere prima di perdere tutta la sua energia. È definito come
+In fisica delle particelle e dei rivelatori, il **range** o **percorso (medio) residuo** $R$ di una [[Particle]] in un certo mezzo è la distanza che questa può percorrere prima di perdere tutta la sua energia. È definito come
 $$R(E)=\int_{0}^{R}dx=-\int_{0}^{E_{0}} \frac{dE}{dE/dx}=\int_{0}^{E_{0}} \frac{1}{S(E)}dE$$
 dove $R$ è il range medio, $E_{0}$ è l'energia iniziale della particella e $S(E)$ il [[potere frenante]].
 

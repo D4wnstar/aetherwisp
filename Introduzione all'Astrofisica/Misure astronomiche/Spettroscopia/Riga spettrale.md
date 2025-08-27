@@ -26,7 +26,7 @@ Un'altra quantità più utile è la **Full-Width Half-Maximum** (FWHM), dove si 
 ![[Schema righe spettrali|80%|center]]
 
 ### Allargamento delle righe
-Come accennato sopra, le misure di righe spettrali danno luogo a picchi e valli con una certa pendenza. Le ragioni sono diverse, ma sono tutte o di natura quantistica, o di natura statistica. Infatti, la riga che vediamo è l'aggregato di innumerevoli [[particella|particelle]] che vanno a formare i corpi celesti. Le lunghezze d'onda di transizione, poi, sono tali nel sistema di riferimento della particella, quindi risulteranno diverse in quello dell'osservatore.
+Come accennato sopra, le misure di righe spettrali danno luogo a picchi e valli con una certa pendenza. Le ragioni sono diverse, ma sono tutte o di natura quantistica, o di natura statistica. Infatti, la riga che vediamo è l'aggregato di innumerevoli [[Particle|particelle]] che vanno a formare i corpi celesti. Le lunghezze d'onda di transizione, poi, sono tali nel sistema di riferimento della particella, quindi risulteranno diverse in quello dell'osservatore.
 
 Dei seguenti, l'allargamento naturale e quello termico sono quelli con effetto maggiore e universale. L'allargamento della maggior parte delle righe spettrali può essere spiegato con buona precisione come la somma di questi due.
 #### Allargamento naturale

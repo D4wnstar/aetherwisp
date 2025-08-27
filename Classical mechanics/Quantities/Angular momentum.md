@@ -12,7 +12,7 @@ also using dot notation for the derivative. From this we can immediately see the
 > [!info] Conservation of angular momentum
 > If the total moment of force $\mathbf{N}$ is zero, then $\dot{\mathbf{L}}=0$ and the angular momentum is conserved. Each components conserves independently, so for example if $N_{z}=0$ then $\dot{L}_{z}=0$.
 
-An equivalent theorem also holds for a system of [[Particella|particles]]:
+An equivalent theorem also holds for a system of [[Particle|particles]]:
 
 > [!info] Conservation of the angular momentum of a system of particles
 > If the total *external* moment of force $\mathbf{N}$ is zero, and all of the internal forces (if present) are applied on the lines connecting each particle, the total angular momentum is conserved.

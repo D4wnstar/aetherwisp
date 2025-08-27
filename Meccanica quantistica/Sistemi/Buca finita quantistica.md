@@ -3,7 +3,7 @@ wiki-publish: true
 aliases:
   - buca finita
 ---
-Consideriamo una [[Particella]] immersa nel [[Potential]]
+Consideriamo una [[Particle]] immersa nel [[Potential]]
 $$V(x)=\begin{cases}
 - V_{0} & \text{se }-a<x<a \\
 0 & \text{altrove}

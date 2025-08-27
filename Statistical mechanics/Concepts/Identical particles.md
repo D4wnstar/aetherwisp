@@ -4,7 +4,7 @@ aliases:
   - indistinguishable
   - distinguishable
 ---
-Two [[Particella|particles]] are said to be **identical** if all their characteristic properties (like [[Numero quantico|quantum numbers]]) are the same. Identical particles are **distinguishable** in classical mechanics, and **indistinguishable** in quantum mechanics.
+Two [[Particle|particles]] are said to be **identical** if all their characteristic properties (like [[Numero quantico|quantum numbers]]) are the same. Identical particles are **distinguishable** in classical mechanics, and **indistinguishable** in quantum mechanics.
 ### Fermions and bosons
 In classical mechanics, two particles may be identical, but can always be distinguished. For instance, consider two pool balls tagged as 1 and 2. They strike each other and scatter, bouncing off. Let's call the balls after the scattering 3 and 4. Of course, these are still the same balls, with $1\to 3$ and $2\to 4$. If 1 and 2 are differently colored, it's trivial to tell which is which after the scattering. If they are colored the same, it's harder to tell but still possible, as we can follow their trajectories instant-by-instant to see where each one goes.
 

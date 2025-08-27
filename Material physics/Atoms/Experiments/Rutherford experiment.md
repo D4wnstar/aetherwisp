@@ -1,7 +1,7 @@
 ---
 wiki-publish: true
 ---
-The **Rutherford experiment** is a 1911 experiment conducted to determine the internal structure of an [[atom]], specifically to determine whether the structure of an atom was *homogeneous* (uniformly distributed [[particella|particles]], Thomson's proposal) or *planetary* (smaller particles orbiting a larger central one, Rutherford's proposal). The planetary model was found to be correct.
+The **Rutherford experiment** is a 1911 experiment conducted to determine the internal structure of an [[atom]], specifically to determine whether the structure of an atom was *homogeneous* (uniformly distributed [[Particle|particles]], Thomson's proposal) or *planetary* (smaller particles orbiting a larger central one, Rutherford's proposal). The planetary model was found to be correct.
 
 ![[Diagram Atomic models|100%]]
 

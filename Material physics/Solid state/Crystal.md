@@ -70,6 +70,6 @@ where $f_{j}(\mathbf{K})$ is a quantity known as the **[[form factor|atomic form
 
 [^1]: In purely mathematical terms, the "crystal structure" would be (quite creatively) called a **lattice with a basis**.
 
-[^2]: It would take much longer to have a fully general description of their nature, at least until the development of [[Particella|particle]] physics; see [[Range]] for more.
+[^2]: It would take much longer to have a fully general description of their nature, at least until the development of [[Particle|particle]] physics; see [[Range]] for more.
 
 [^3]: An approximation, but nonetheless a good one. In practice, the bulk of radiation is elastically scattered.

@@ -1,7 +1,7 @@
 ---
 wiki-publish: true
 ---
-Considero un elemento di volume cilindro pieno di [[Particella|particelle]] ad una temperatura $T$ all'interno di una [[stella]].
+Considero un elemento di volume cilindro pieno di [[Particle|particelle]] ad una temperatura $T$ all'interno di una [[stella]].
 
 ![[Schema Particelle in sezione di gas|center]]
 

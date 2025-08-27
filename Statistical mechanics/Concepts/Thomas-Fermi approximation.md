@@ -3,7 +3,7 @@ wiki-publish: true
 ---
 The **Thomas-Fermi approximation** is an approximation used to express the [[Degenerazione|degeneracy]] of [[Stato|states]] of a nonrelativistic quantum [[ideal gas]] as a [[Differential|differential]] instead of a discrete sequence. This transforms sums into integrals and allows for analytical computation using, for instance, the [[partition function]] of a quantum [[ensemble]].
 
-The approximation holds for a large number of [[Particella|particles]] and high volume, which means that it automatically applies in the [[thermodynamic limit]].
+The approximation holds for a large number of [[Particle|particles]] and high volume, which means that it automatically applies in the [[thermodynamic limit]].
 ### Description
 A quantum ideal gas is composed of [[Particella libera (quantistica)|free particles]] inside of a perfect enclosure of sides $L$, which can be seen as an [[Buca infinita quantistica|infinite square well]] in some number of dimensions. Since the particles are free, their [[Equazione agli autovalori|eigenfunctions]] are [[Plane wave|plane waves]]: $\psi\propto e^{i\mathbf{p}\cdot \mathbf{r}/\hbar}$. Calling $\mathbf{n}=(n_{x},n_{y},n_{z})$ the direction of the momentum $\mathbf{p}$, we get (using periodic boundary conditions, they are necessary for this proof!)
 $$\mathbf{p}=\frac{2\pi \hbar}{L} \mathbf{n}$$

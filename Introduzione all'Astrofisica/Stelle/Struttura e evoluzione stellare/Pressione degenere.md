@@ -17,7 +17,7 @@ Quindi l'incertezza su $\Delta p_{x}$ è
 $$\Delta p_{x}= \frac{h}{\Delta x}\simeq h n_{e}^{1/3}$$
 il che vale a dire che gli elettroni hanno una quantità di moto minima "innata" che tende a respingere gli elettroni circostanti, una sorta di pressione che tende a respingere altri elettroni e che non dipende dalla pressione termica e quindi dalla temperatura. Questo fenomeno si dice **pressione degenere** e la materia che è soggetta a questa pressione è detta **materia degenere**.
 #### Temperatura minima
-Sebbene non sia dipendente dalla temperatura, la pressione degenere può accadere solo all'interno di materia a temperature sufficientemente basse. Questo deriva dal fatto che, se la materia fosse molto calda, le [[particella|particelle]] costituenti avrebbero energia mediamente più alta, in particolare abbastanza alta da compiere [[State transition|transizioni di stato]] a stati eccitati. Questo permette alla materia di avere più stati a disposizione per distribuire le particelle e quindi evitare lo stato di pressione degenere.
+Sebbene non sia dipendente dalla temperatura, la pressione degenere può accadere solo all'interno di materia a temperature sufficientemente basse. Questo deriva dal fatto che, se la materia fosse molto calda, le [[Particle|particelle]] costituenti avrebbero energia mediamente più alta, in particolare abbastanza alta da compiere [[State transition|transizioni di stato]] a stati eccitati. Questo permette alla materia di avere più stati a disposizione per distribuire le particelle e quindi evitare lo stato di pressione degenere.
 
 Cerchiamo allora in che temperature un gas può essere degenere. Definiamo la *densità di stati quantici* come
 $$n_{Q}=\left( \frac{2\pi m_{e}k_{B}T}{h^{2}} \right)^{3/2}$$

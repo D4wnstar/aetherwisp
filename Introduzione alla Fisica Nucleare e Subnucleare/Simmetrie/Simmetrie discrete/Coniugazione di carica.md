@@ -1,7 +1,7 @@
 ---
 wiki-publish: true
 ---
-La **coniugazione di carica** $\hat{C}$ è una [[trasformazione]] che inverte il segno di tutti i [[numero quantico|numeri quantici]] di una [[Particella]]. Si assegna alla particella un valore $C=\pm1$ se sono [[Simmetria|simmetriche]] sotto coniugazione di carica o meno. Per esempio, coniugare la carica di un [[Elettrone]] ci dà un [[positrone]]. Coniugandola di nuovo, si torna all'elettrone. In simboli
+La **coniugazione di carica** $\hat{C}$ è una [[trasformazione]] che inverte il segno di tutti i [[numero quantico|numeri quantici]] di una [[Particle]]. Si assegna alla particella un valore $C=\pm1$ se sono [[Simmetria|simmetriche]] sotto coniugazione di carica o meno. Per esempio, coniugare la carica di un [[Elettrone]] ci dà un [[positrone]]. Coniugandola di nuovo, si torna all'elettrone. In simboli
 $$\hat{C}(e^{-})=e^{+}$$
 Per una generica [[Funzione d'onda]] $\Psi$ si ha
 $$\hat{C}|a,\Psi\rangle=|\bar{a},\Psi\rangle$$

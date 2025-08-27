@@ -26,7 +26,7 @@ assieme a:
 - la distanza dal centro della stella $r$
 - la [[Gravitational constant]] $G$
 - la [[Boltzmann constant]] $k_{B}$
-- la densità di [[particella|particelle]] per unità di volume $n$, con $\mu$ il peso molecolare medio e $m_{p}$ la massa del [[protone]]
+- la densità di [[Particle|particelle]] per unità di volume $n$, con $\mu$ il peso molecolare medio e $m_{p}$ la massa del [[protone]]
 - l'energia generata per unità di massa $\epsilon$
 - l'opacità del gas $\kappa$, con $l$ il cammino libero medio dei [[Photon|fotoni]]
 - la [[Stefan-Boltzmann constant]] $\sigma$

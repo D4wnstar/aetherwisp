@@ -1,7 +1,7 @@
 ---
 wiki-publish: true
 ---
-A **rigid body** is a solid body that cannot be deformed. Given any two points on the object, the distance in between them remains the same at all times. The [[Center of mass]] of a rigid body always remains in the same place with respect to the body's points. A rigid body can be either a system of [[particella|particles]] or a continuum of mass.
+A **rigid body** is a solid body that cannot be deformed. Given any two points on the object, the distance in between them remains the same at all times. The [[Center of mass]] of a rigid body always remains in the same place with respect to the body's points. A rigid body can be either a system of [[Particle|particles]] or a continuum of mass.
 
 If the body is a system of particles, we can describe a rigid body as $N$ [[point mass|point masses]] bound by the condition $\lvert \mathbf{r}_{i}-\mathbf{r}_{j} \rvert=\text{const}$, for any $i,j=1,\ldots,N$ representing a point mass.
 ### Analytical mechanics

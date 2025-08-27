@@ -3,7 +3,7 @@ wiki-publish: true
 aliases:
   - particella libera
 ---
-La **particella libera** è un sistema quantistico costituito da una singola [[Particella]] in assenza di [[Potential]], ovvero $V(x)=0$ ovunque. Nel caso classico, questo sistema è banale e ha soluzioni immediate, dato che la particella compie un semplice moto rettilineo a velocità costante, ma nel caso quantistico compaiono problemi non trascurabili e diventa più complesso dell'[[Oscillatore armonico quantistico]].
+La **particella libera** è un sistema quantistico costituito da una singola [[Particle]] in assenza di [[Potential]], ovvero $V(x)=0$ ovunque. Nel caso classico, questo sistema è banale e ha soluzioni immediate, dato che la particella compie un semplice moto rettilineo a velocità costante, ma nel caso quantistico compaiono problemi non trascurabili e diventa più complesso dell'[[Oscillatore armonico quantistico]].
 ### Soluzione
 Partiamo come al solito dall'[[Equazione di Schrödinger#Potenziale indipendente dal tempo|equazione di Schrödinger indipendente dal tempo]]
 $$- \frac{\hbar^{2}}{2m} \frac{d^{2}\psi}{dx^{2}}=E\psi$$

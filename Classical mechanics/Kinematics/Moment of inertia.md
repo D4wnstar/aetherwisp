@@ -7,7 +7,7 @@ aliases:
   - product of inertia
   - Euler's equation of motion
 ---
-The **moment of inertia** $I$ is a quantity that determines how difficult it is to accelerate or decelerate a body in a [[Rotation|rotational]] motion. It is the rotational analog of mass. For a system of $N$ [[Particella|particles]] of mass $m_{i}$ rotating around the origin at a distance $r_{i}$, it is
+The **moment of inertia** $I$ is a quantity that determines how difficult it is to accelerate or decelerate a body in a [[Rotation|rotational]] motion. It is the rotational analog of mass. For a system of $N$ [[Particle|particles]] of mass $m_{i}$ rotating around the origin at a distance $r_{i}$, it is
 $$I=\sum\limits_{i=1}^{N}m_{i}r_{i}^{2}$$
 and for a continuum of mass
 $$I=\int_{M}r^{2}dm$$

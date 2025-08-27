@@ -14,7 +14,7 @@ It differs from the [[Canonical ensemble|canonical]] and [[Grand canonical ensem
 ### Expectation values
 Given some [[variabile dinamica|dynamical variable]] $f(\mathbf{q},\mathbf{p})$, its most likely value (the [[mode]]) is the one that $f$ takes in the largest number of systems. The [[mean]] on the other hand is the usual [[ensemble average]]:
 $$\langle f \rangle = \frac{\int f(\mathbf{q},\mathbf{p})\rho(\mathbf{q},\mathbf{p})\,d^{3N}q\,d^{3N}p}{\int \rho(\mathbf{q},\mathbf{p})\,d^{3N}q\,d^{3N}p}$$
-The mean and mode tend to coincide if the [[mean squared error]] of $f$ tends to zero. Empirically, the MSE is inversely proportional to the number of [[Particella|particles]] in the system $N$: $\text{MSE}\propto 1/N$. So for large $N$, the mean and the mode coincide.
+The mean and mode tend to coincide if the [[mean squared error]] of $f$ tends to zero. Empirically, the MSE is inversely proportional to the number of [[Particle|particles]] in the system $N$: $\text{MSE}\propto 1/N$. So for large $N$, the mean and the mode coincide.
 ### Entropy
 To find the [[entropy]] function for the ensemble, let's introduce a function $\Gamma(E)$ which counts the number of states whose energy is between $E$ and $E+\Delta$:
 $$\Gamma(E)=\int\limits_{E<H(\mathbf{q},\mathbf{p})<E+\Delta}d^{3N}q\,d^{3N}p$$

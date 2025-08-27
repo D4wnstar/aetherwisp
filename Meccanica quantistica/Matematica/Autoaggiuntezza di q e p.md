@@ -1,7 +1,7 @@
 ---
 wiki-publish: true
 ---
-Gli [[operatore|operatori]] $\hat{q}$ e $\hat{p}$ sono gli operatori più importanti della meccanica quantistica, rappresentando rispettivamente la posizione e il momento della [[particella]] considerata. Come per tutte le [[Osservabile|osservabili]] quantistiche, questi operatori sono [[Operatore autoaggiunto|autoaggiunti]].
+Gli [[operatore|operatori]] $\hat{q}$ e $\hat{p}$ sono gli operatori più importanti della meccanica quantistica, rappresentando rispettivamente la posizione e il momento della [[Particle]] considerata. Come per tutte le [[Osservabile|osservabili]] quantistiche, questi operatori sono [[Operatore autoaggiunto|autoaggiunti]].
 ### Autoaggiuntezza di $\hat{p}$
 Consideriamo due funzioni generiche $\psi$ e $\phi$. Ricordiamo che vale
 $$(\hat{p}\psi)(x)=-i\hbar \psi(x)\tag{1}$$

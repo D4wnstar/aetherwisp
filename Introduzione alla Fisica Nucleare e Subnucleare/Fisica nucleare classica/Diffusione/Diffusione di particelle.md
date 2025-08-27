@@ -1,7 +1,7 @@
 ---
 wiki-publish: true
 ---
-La **diffusione** è un urto, o collisione, tra [[Particella|particelle]]. Quando si usano strutture macroscopiche, come in un collisore, si dice **bersaglio** o **targhetta** l'oggetto colpito da un **fascio di particelle** con una certa energia. Le particelle del fascio sono dette **proiettili**.
+La **diffusione** è un urto, o collisione, tra [[Particle|particelle]]. Quando si usano strutture macroscopiche, come in un collisore, si dice **bersaglio** o **targhetta** l'oggetto colpito da un **fascio di particelle** con una certa energia. Le particelle del fascio sono dette **proiettili**.
 
 La diffusione è utile per studiare la struttura interna dell'oggetto colpito, che può essere una targhetta *fissa* (solida, liquida o gassosa) o una *in movimento*, come un altro fascio di particelle che viaggia in direzione opposta. Questo è quello che accade, per esempio, al LHC del CERN, dove si fanno collidere due fasci di particelle opposti.
 ## Diffusione elastica

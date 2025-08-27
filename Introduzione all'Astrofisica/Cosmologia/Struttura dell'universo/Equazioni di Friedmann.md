@@ -105,4 +105,4 @@ $$\boxed{\frac{\ddot{a}}{a}=- \frac{4\pi G}{3}\left(\rho+3 \frac{P}{c^{2}}\right
 che è la **prima equazione di Friedmann**, che viene dalla componente temporale delle equazioni di Friedmann. Ci dice che la derivata seconda del fattore di scala è sempre negativa, ossia l'universo è in costante decelerazione o, in altre parole, sta cadendo su se stesso.
 
 [^1]: Possiamo immaginare questo oggetto come una [[galassia]], ma è un qualcosa di astratto.
-[^2]: La densità di energia è equivalente alla densità di massa per l'[[equivalenza massa-energia]]. Se $u$ è la densità di energia, quella di massa è $\rho=u/c^{2}$, che quindi ha senso anche per [[Particella|particelle]] prive di massa.
+[^2]: La densità di energia è equivalente alla densità di massa per l'[[equivalenza massa-energia]]. Se $u$ è la densità di energia, quella di massa è $\rho=u/c^{2}$, che quindi ha senso anche per [[Particle|particelle]] prive di massa.

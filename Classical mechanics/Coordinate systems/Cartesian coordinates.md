@@ -4,7 +4,7 @@ wiki-publish: true
 **Cartesian coordinates** are a system of coordinates defined by an [[Orthogonality|orthonormal]] [[basis]] where any given point in space is determined by a set of real numbers, called **coordinates**, that represent the distance between the point and a basis vector.
 ### Motion
 #### Planar motion (2D)
-Motion of a [[Particella|particle]] in two dimensional Cartesian coordinates can be represented like
+Motion of a [[Particle|particle]] in two dimensional Cartesian coordinates can be represented like
 $$\mathbf{r}(t)=x(t)\hat{i}+y(t)\hat{j}$$
 with $\hat{i}$ and $\hat{j}$ being the basis vectors $(1,0)$ and $(0,1)$. The velocity is
 $$\mathbf{v}(t)=\dot{\mathbf{r}}=\dot{x}\hat{i}+\dot{y}\hat{j}$$

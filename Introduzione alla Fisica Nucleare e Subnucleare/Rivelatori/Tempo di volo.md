@@ -4,7 +4,7 @@ aliases:
   - time of flight
   - TOF
 ---
-Il **tempo di volo** (**time of flight**, o **TOF**) è il tempo impiegato da una [[particella]] per spostarsi da un [[rivelatore]] ad un altro. Si tratta di una misura utile per determinare la vita media di una particella, il tempo che ci impiega per coprire la distanza (e dunque la velocità), o anche per discriminare tra due particelle di masse diverse ma pari impulso (che hanno diversa velocità e quindi diverso TOF).
+Il **tempo di volo** (**time of flight**, o **TOF**) è il tempo impiegato da una [[Particle]] per spostarsi da un [[rivelatore]] ad un altro. Si tratta di una misura utile per determinare la vita media di una particella, il tempo che ci impiega per coprire la distanza (e dunque la velocità), o anche per discriminare tra due particelle di masse diverse ma pari impulso (che hanno diversa velocità e quindi diverso TOF).
 
 I due contatori (partenza e arrivo) devono essere posti ad una distanza $L$ tale da rendere l'errore di misura temporale piccolo. Se $TOF=t_{2}-t_{1}$, allora
 $$\frac{\sigma _\text{TOF}}{TOF}=\sigma _\text{TOF} \frac{v}{L}\quad\Rightarrow \quad \frac{\sigma_{v}}{v}=\frac{\sigma _\text{TOF}}{TOF}$$

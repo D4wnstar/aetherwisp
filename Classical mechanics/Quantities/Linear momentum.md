@@ -12,7 +12,7 @@ also using dot notation for the derivative. From this we can immediately see the
 > [!info] Conservation of momentum
 > If the total force $\mathbf{F}$ is zero, then $\dot{\mathbf{p}}=0$ and the linear momentum is conserved.
 
-An equivalent theorem also holds for a system of [[Particella|particles]]:
+An equivalent theorem also holds for a system of [[Particle|particles]]:
 
 > [!info] Conservation of the momentum of a system
 > If the total *external* force $\mathbf{F}$ is zero, the total linear momentum is conserved.

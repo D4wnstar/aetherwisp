@@ -1,11 +1,11 @@
 ---
 wiki-publish: true
 ---
-The **Gibbs paradox** is a paradox regarding a non-quantum derivation of [[entropy]] that does not consider the [[Identical particles|indistinguishability]] of [[Particella|particles]]. The paradox revolves around how the entropy as derived from classical [[Ensemble|ensembles]] is [[Intensive property|intensive]], despite entropy by definition needing to be [[Extensive property|extensive]]. It is resolved by taking the indistinguishability of particles into account when counting the number of states.
+The **Gibbs paradox** is a paradox regarding a non-quantum derivation of [[entropy]] that does not consider the [[Identical particles|indistinguishability]] of [[Particle|particles]]. The paradox revolves around how the entropy as derived from classical [[Ensemble|ensembles]] is [[Intensive property|intensive]], despite entropy by definition needing to be [[Extensive property|extensive]]. It is resolved by taking the indistinguishability of particles into account when counting the number of states.
 ### Description
 Stating that entropy is intensive is, in a way, the same as saying that the entropy of a system is not equal to the sum of its parts, which makes little sense. Gibbs sought to describe this phenomenon by taking two [[Ideal gas|ideal gases]], mixing them and seeing the results.
 
-Consider two ideal gases, with $N_{1}$ and $N_{2}$ [[Particella|particles]] and $V_{1}$ and $V_{2}$ volumes, initially separated from each other. They have the same [[temperature]] $T$. Let's call the total occupied volume $V=V_{1}+V_{2}$. From the [[entropy]] of a classical ideal gas
+Consider two ideal gases, with $N_{1}$ and $N_{2}$ [[Particle|particles]] and $V_{1}$ and $V_{2}$ volumes, initially separated from each other. They have the same [[temperature]] $T$. Let's call the total occupied volume $V=V_{1}+V_{2}$. From the [[entropy]] of a classical ideal gas
 $$S_{i}=k_{B}N_{i}\left[ \frac{3}{2}\ln\left( \frac{2\pi m_{i}k_{B}T}{h^{2}} \right)+\ln V_{i}+ \frac{3}{2} \right]$$
 we can figure out the **entropy of mixing** as the difference between the total final entropy
 $$S_{T}=\sum_{i=1}^{2} k_{B}N_{i}\left[ \frac{3}{2}\ln\left( \frac{2\pi m_{i}k_{B}T}{h^{2}} \right)+\ln V+ \frac{3}{2} \right]$$
