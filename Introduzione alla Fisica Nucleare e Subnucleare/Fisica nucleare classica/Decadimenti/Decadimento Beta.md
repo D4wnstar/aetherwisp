@@ -5,12 +5,12 @@ aliases:
   - processo beta inverso
   - cattura elettronica
 ---
-Il **decadimento $\beta$** è un tipo di [[Decadimento nucleare|decadimento]] nel quale un [[Nucleo atomico|nucleo]] corregge l'eccesso di [[protone|protoni]] o [[neutrone|neutroni]] convertendoli l'uno nell'altro. Esistono infatti due tipi di decadimento $\beta$, in base alla direzione della conversione:
+Il **decadimento $\beta$** è un tipo di [[Decadimento nucleare|decadimento]] nel quale un [[Atomic nucleus|nucleo]] corregge l'eccesso di [[protone|protoni]] o [[neutrone|neutroni]] convertendoli l'uno nell'altro. Esistono infatti due tipi di decadimento $\beta$, in base alla direzione della conversione:
 $$\text{decadimento }\beta^{-}\text{: }\quad n \rightarrow p+e^{-}+\bar{\nu}_{e}$$
 $$\text{decadimento }\beta^{+}\text{: }\quad p \rightarrow n+e^{+}+\nu_{e}$$
 dove $e^{-}$ è un [[Elettrone]] e $e^{+}$ è un [[positrone]]. Vengono emessi anche (anti)[[neutrino|neutrini]] elettronici $\nu_{e}$. Esiste anche una terza reazione, chiamata **cattura elettronica** (o c.e.)
 $$\text{cattura elettronica:}\quad p+e^{-}\rightarrow n+\nu_{e}$$
-che "promuove" un protone ad un neutrone catturando un elettrone vicino al nucleo. Dato che lo scopo del decadimento $\beta$ è convertire protoni e neutroni, tutti i nuclei risultanti sono [[Isobaro|isobari]].
+che "promuove" un protone ad un neutrone catturando un elettrone vicino al nucleo. Dato che lo scopo del decadimento $\beta$ è convertire protoni e neutroni, tutti i nuclei risultanti sono [[Isobar|isobari]].
 
 È importante ricordare che il protone decade $\beta$ *solo nel nucleo*, non nel vuoto, dato che il $\beta^{+}$ termina in una massa superiore (da 938 MeV a ~939.5 MeV) ed c'è quindi bisogno di interazione esterna.
 

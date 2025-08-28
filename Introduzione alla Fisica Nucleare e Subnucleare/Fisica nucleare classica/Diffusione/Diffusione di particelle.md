@@ -24,7 +24,7 @@ $$\lambdabar\simeq\begin{cases}
 \end{cases}$$
 A causa del [[Disuguaglianza di Heisenberg|principio di indeterminazione]], se voglio studiare una risoluzione spaziale $\Delta x$, devo utilizzare $\lambdabar\leq\Delta x$, ossia
 $$p\geq \frac{\hbar}{\Delta x} \quad\rightarrow\quad E= pc\geq \frac{\hbar c}{\Delta x}\sim \frac{200 \text{ MeV fm}}{\Delta x}$$
-Se il raggio del [[nucleo atomico]] è circa 1 fm, allora ho $p\sim$ 10 - 1000 MeV/c. Se è attorno ai 0.8 fm, si ha $p\sim$ 1000 MeV/c, quindi l'energia deve essere nell'ordine dei GeV.
+Se il raggio del [[Atomic nucleus]] è circa 1 fm, allora ho $p\sim$ 10 - 1000 MeV/c. Se è attorno ai 0.8 fm, si ha $p\sim$ 1000 MeV/c, quindi l'energia deve essere nell'ordine dei GeV.
 ## Diffusione anelastica
 La **diffusione anelastica** è un tipo di diffusione dove parte dell'energia cinetica viene trasferita dal proiettile $a$ al bersaglio $b$, che lo porta ad uno stato eccitato $b^{*}$. Questo poi [[Decadimento nucleare|decade]] allo stato fondamentale, emettendo una o più particelle.
 ![[Schema Diffusione anelastica|60%|center]]

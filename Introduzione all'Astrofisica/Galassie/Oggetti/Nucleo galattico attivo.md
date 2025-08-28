@@ -69,7 +69,7 @@ Nei raggi X, l'AGN è la sorgente più potente della galassia, tipicamente molto
 3. Un AGN con luminosità intrinseca X superiori ai $10^{44}$ erg/s è definito quasar.
 4. Un AGN definito quasar che ha anche $N_{H}>10^{21}$ cm$^{-2}$ è definito **quasar di tipo 2**. Ne sono noti solo pochi nell'universo.
 
-In genere le osservazioni degli AGN sono compiute proprio nell'*hard X* dato che l'attenuazione di questi oltre i 2 [[Elettronvolt|keV]] è relativamente piccola, il che la rende una banda affidabile per individuare questi oggetti. È tuttavia possibile che un AGN abbia $N_{H}>10^{23}$ cm$^{-2}$; in questo caso esso è **Compton-thick** e anche le emissioni nel hard X sono oscurate, assieme a quelle nell'ottico. Questo genere di AGN è osservabile solo nel medio infrarosso.
+In genere le osservazioni degli AGN sono compiute proprio nell'*hard X* dato che l'attenuazione di questi oltre i 2 [[Electronvolt|keV]] è relativamente piccola, il che la rende una banda affidabile per individuare questi oggetti. È tuttavia possibile che un AGN abbia $N_{H}>10^{23}$ cm$^{-2}$; in questo caso esso è **Compton-thick** e anche le emissioni nel hard X sono oscurate, assieme a quelle nell'ottico. Questo genere di AGN è osservabile solo nel medio infrarosso.
 ### BL Lac
 Gli AGN di classe **BL Lac** sono caratterizzati da uno spettro continuo nell'ottico privo di righe, da una luminosità molto variabile e un alto grado di [[polarizzazione]] della radiazione. Il nome proviene dall'AGN prototipo BL Lacertae.
 ### Blazar

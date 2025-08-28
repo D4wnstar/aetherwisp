@@ -1,7 +1,7 @@
 ---
 wiki-publish: true
 ---
-Il **modello a gas di Fermi** è un modello del [[Nucleo atomico|nucleo]] nello stato fondamentale di un [[Atom]] o debolmente eccitato. Si basa su alcune supposizioni:
+Il **modello a gas di Fermi** è un modello del [[Atomic nucleus|nucleo]] nello stato fondamentale di un [[Atom]] o debolmente eccitato. Si basa su alcune supposizioni:
 1. [[protone|protoni]] e [[neutrone|neutroni]] sono sistemi indipendenti.
 2. i nucleoni si muovono liberamente nel nucleo.
 
@@ -27,7 +27,7 @@ che è un impulso molto grande per un nucleo. Calcoliamo anche l'energia dello p
 $$\boxed{E_{F}=\frac{p_{F}^{2}}{2M}\simeq33\text{ MeV}}$$
 con $M=m_{n}$ o $m_{p}$.
 
-La profondità nella buca dello stato più alto $B'$ è pari all'[[Binding energy]] medio per nucleone $B/A$ e vale circa $7-8$ [[Elettronvolt|MeV]]/nucleone. Sommato all'energia di Fermi, il fondo della buca è $V_{0}=B'+E_{F}\simeq40$ MeV. Come si vede, è indipendente da $A$.
+La profondità nella buca dello stato più alto $B'$ è pari all'[[Binding energy]] medio per nucleone $B/A$ e vale circa $7-8$ [[Electronvolt|MeV]]/nucleone. Sommato all'energia di Fermi, il fondo della buca è $V_{0}=B'+E_{F}\simeq40$ MeV. Come si vede, è indipendente da $A$.
 
 Lo stato più energetico occupato è lo stesso per protoni e neutroni (dato che $p_{F}^{n}=p_{F}^{p}$), ma l'energia di Fermi (e quindi la profondità della buca), è *leggermente* diversa dato che $m_{n}> m_{p}$ e dunque $E_{F}^{n}>E_{F}^{p}$. Infatti, la buca dei neutroni è un po' più profonda di quella dei protoni e quindi i protoni appaiono meno legati rispetto ai neutroni. Questo può essere causato dal fatto che i protoni sono carichi positivamente e si repellono per [[Electromagnetism]]. Il modello a gas di Fermi ci permette anche di calcolare la dipendenza dall'energia di legame dell'eccesso di neutroni.
 

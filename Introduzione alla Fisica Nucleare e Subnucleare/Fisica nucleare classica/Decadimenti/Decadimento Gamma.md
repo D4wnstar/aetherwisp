@@ -1,7 +1,7 @@
 ---
 wiki-publish: true
 ---
-Il **decadimento $\gamma$** è un tipo di [[Decadimento nucleare|decadimento]] nel quale un [[nucleone]] in uno [[stato]] eccitato decade in uno [[stato]] diseccitato o in quello fondamentale emettendo un [[Photon]] $\gamma$ con energia pari alla differenza di energia tra livelli, meno una piccola componente cinetica dovuta al rinculo del nucleo. Spesso segue il [[decadimento alpha]] o [[Decadimento Beta|beta]] dato che questi di solito lasciano il [[Nucleo atomico|nucleo]] in uno stato eccitato.
+Il **decadimento $\gamma$** è un tipo di [[Decadimento nucleare|decadimento]] nel quale un [[nucleone]] in uno [[stato]] eccitato decade in uno [[stato]] diseccitato o in quello fondamentale emettendo un [[Photon]] $\gamma$ con energia pari alla differenza di energia tra livelli, meno una piccola componente cinetica dovuta al rinculo del nucleo. Spesso segue il [[decadimento alpha]] o [[Decadimento Beta|beta]] dato che questi di solito lasciano il [[Atomic nucleus|nucleo]] in uno stato eccitato.
 ## Bilanciamento energetico
 Prendiamo un nucleo di massa $M$ a riposo che decade $\gamma$ da uno stato eccitato con $E_{i}$ ad uno stato con $E_{f}$. Allora
 1. il momento lineare si conserva.
@@ -17,7 +17,7 @@ Uso l'energia relativistica $E_{\gamma}=cp_{\gamma}$ e chiamo $\Delta E=E_{i}-E_
 $$\Delta E =E_{\gamma}+ \frac{E_{\gamma}^{2}}{2Mc^{2}}\quad\text{ e }\quad E_{\gamma}=\sqrt{m^{2}_\gamma c^{4}+c^{2}p_{\gamma}^{2}}$$
 Il fotone ha massa nulla $m_{\gamma}=0$, quindi ho soluzioni
 $$E_{\gamma}=Mc^{2}\left[-1\pm \sqrt{1 + \frac{2\Delta E}{Mc^{2}} }\right]$$
-L'energia è nell'ordine dei [[Elettronvolt|MeV]] e $Mc^{2}$ è nell'ordine di $A\times10^{3}$ MeV, quindi $\Delta E$ è molto minore di $Mc^{2}$. Approssimo considerando solo i primi tre termini dell'espansione della radice:
+L'energia è nell'ordine dei [[Electronvolt|MeV]] e $Mc^{2}$ è nell'ordine di $A\times10^{3}$ MeV, quindi $\Delta E$ è molto minore di $Mc^{2}$. Approssimo considerando solo i primi tre termini dell'espansione della radice:
 $$E_{\gamma}\sim\Delta E- \frac{(\Delta E)^{2}}{2Mc^{2}} \rightarrow E_{\gamma}\sim\Delta E$$
 perché $\frac{(\Delta E)^{2}}{2Mc^{2}}\sim10^{-5}$, che è il contributo del rinculo. Per $\gamma$ a basse energie si ha energia di rinculo di circa 1 eV, ma per $\gamma$ ad alte energie (5-10 MeV) si ha arriva ai $\sim100$ eV. Energie così alte possono spostare gli atomi nella materia allo stato solido: questo viene detto **danno da radiazione**.
 ## Radiazione elettromagnetica

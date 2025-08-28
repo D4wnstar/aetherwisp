@@ -3,7 +3,7 @@ wiki-publish: true
 ---
 The **Stern-Gerlach experiment** is an experiment that almost accidentally discovered the [[spin]] of the [[electron]]. The true purpose of the experiment was to measure whether [[Particle|particles]] have an intrinsic [[angular momentum]] or not.
 ### Theory
-The idea behind the Stern-Gerlach experiment starts from the [[Bohr model]] of the [[hydrogen atom]], which suggests that, since electrons orbit the [[Nucleo atomico|nucleus]], and rotating [[Electric charge|electric charges]] produce a [[magnetic field]], then hydrogen atoms should, at least in principle, be a naturally occurring [[magnetic dipole]] with [[magnetic dipole moment]] determined exactly by the motion of the electron.
+The idea behind the Stern-Gerlach experiment starts from the [[Bohr model]] of the [[hydrogen atom]], which suggests that, since electrons orbit the [[Atomic nucleus|nucleus]], and rotating [[Electric charge|electric charges]] produce a [[magnetic field]], then hydrogen atoms should, at least in principle, be a naturally occurring [[magnetic dipole]] with [[magnetic dipole moment]] determined exactly by the motion of the electron.
 
 To analyze the situation, consider a circular loop of radius $R$ and area $A=\pi R^{2}$ traversed by an [[electric current]] $I$. This will be our "toy hydrogen atom".
 

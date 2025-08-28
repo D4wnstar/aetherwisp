@@ -3,7 +3,7 @@ wiki-publish: true
 aliases:
   - hydrogenic atom
 ---
-The **hydrogen atom** is the [[atom]] of the element hydrogen, a quantum [[physical system]] made up of a central positive [[Electric charge|charge carrier]] (a [[proton]]) and a negative charge carrier (an [[Elettrone|electron]]) surrounding it. It is the simplest case of a broader class of objects called **hydrogenic atoms** (or **hydrogen-like atoms**) which may possess a stronger central charge, that is, a full atomic [[Nucleo atomico|nucleus]].
+The **hydrogen atom** is the [[atom]] of the element hydrogen, a quantum [[physical system]] made up of a central positive [[Electric charge|charge carrier]] (a [[proton]]) and a negative charge carrier (an [[Elettrone|electron]]) surrounding it. It is the simplest case of a broader class of objects called **hydrogenic atoms** (or **hydrogen-like atoms**) which may possess a stronger central charge, that is, a full atomic [[Atomic nucleus|nucleus]].
 
 ![[Schema modello idrogeno|center]]
 

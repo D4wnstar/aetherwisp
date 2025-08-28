@@ -49,7 +49,7 @@ La fusione del carbonio continua senza intoppi, così come quella del neon, dell
 L'ultima fermata è un nucleo di ferro, che nessuna stella può fondere dato che la fusione del ferro è energeticamente svantaggiosa. Il nucleo quindi si contrae crollando a fase degenere. La massa della stella è però tale che il nucleo può raggiungere il [[limite di Chandrasekhar]]: a questi punti, la pressione degenere degli elettroni non può più resistere alla pressione e crolla ad uno stato ancora più compresso di materia. Qui ci sono due casi: per masse minori, il nucleo crolla in *materia degenere di neutroni*  e il relitto stellare che rimane indietro è detto [[stella di neutroni]]; per masse superiori, non c'è fase di materia capace di resistere alla contrazione gravitazionale e la stella collassa in un [[Buco nero]]. Nel caso di una stella di neutroni, tutto l'inviluppo viene espulso in un evento esplosivo detto [[supernova|supernova di tipo II]].
 
 Durante il collasso avvengono due processi interessanti:
-- la [[fotodisintegrazione]] degli elementi pesanti, che vengono spezzati in [[Nucleo atomico|nuclei]] più piccoli strappando un [[protone]], un [[neutrone]] o una [[Decadimento Alpha|particella alpha]].
+- la [[fotodisintegrazione]] degli elementi pesanti, che vengono spezzati in [[Atomic nucleus|nuclei]] più piccoli strappando un [[protone]], un [[neutrone]] o una [[Decadimento Alpha|particella alpha]].
 - la [[Decadimento Beta|cattura elettronica]] da parte dei protoni, che vengano convertiti in neutroni.
 
 Questi processi sono importanti perché assorbono energia, favorendo ancora di più il collasso. In particolare, la fotodisintegrazione diminuisce il [[Gravity|potenziale gravitazionale]] spostando l'[[Binding energy]] degli [[Atom|atomi]] spezzati ai nuclei stessi. Questo porta ad una diminuzione dei raggi degli oggetti che compongono la stella, con conseguente enorme rilascio di energia ($\Omega\simeq GM_{\star}^{2}/R$). Per esempio, un collasso in una stella di neutroni di raggio $1.44 M_{\odot}$ libera $E_{grav}\sim5\times10^{53}$ erg di energia. Una stella di $10M_{\odot}$ che in tutta la sua esistenza brucia il 10% della sua massa con l'1% di efficienza produce $2\times10^{52}$ erg di energia, più di 10 volte meno.
@@ -58,4 +58,4 @@ C'è un'ultima categoria di stelle per le quali l'evoluzioni è diversa, stelle 
 
 La velocità con cui il nucleo brucia fa sì che la traccia sul diagramma HR sia a temperatura altalenante tra alta e bassa, ma ad una luminosità quasi costante. Infatti, l'inviluppo non fa in tempo a contrarsi ed espandersi per reagire ai cambiamenti della stella.
 
-[^1]: Il carbonio è un risultato diretto della fusione. L'ossigeno proviene da cattura $\alpha$ da parte dei [[Nucleo atomico|nuclei]] di carbonio.
+[^1]: Il carbonio è un risultato diretto della fusione. L'ossigeno proviene da cattura $\alpha$ da parte dei [[Atomic nucleus|nuclei]] di carbonio.

@@ -18,7 +18,7 @@ The linear connection between electric field and *velocity* is noteworthy as the
 The Drude model is an inherently classical system, and although it was developed three years after the discovery of the electron, it does not rely on much of the electron's properties besides its charge and the fact it is a particle. In fact, we won't consider the electron to be a quantum object for this model, as quantum physics was not even thought of at the time.
 
 The Drude model is based on four major assumptions:
-1. The positive charge is localized on stationary [[Nucleo atomico|nuclei]]. Electrons can collide with nuclei and bounce off, but they do so as rigid neutral particles. They do not interact at any range other than with collisions (**free electron assumption**).
+1. The positive charge is localized on stationary [[Atomic nucleus|nuclei]]. Electrons can collide with nuclei and bounce off, but they do so as rigid neutral particles. They do not interact at any range other than with collisions (**free electron assumption**).
 2. Electrons do not collide with each other. They do not interact with each other (**independent electron assumption**).
 3. There exists some time $\tau$ which is the [[mean]] time between collisions. The probability of collision is $1/\tau$.
 4. Electrons reach [[thermal equilibrium]] with their surroundings exclusively through collisions. The velocity that the electron has after a collision is completely random and unrelated to the previous one. This velocity obeys the local [[probability distribution]] of velocities at the point of impact.

@@ -1,7 +1,7 @@
 ---
 wiki-publish: true
 ---
-The **Bohr model** is a classical model of the structure of the [[hydrogen atom]] developed in 1913. It accurately describes the experimental behavior of hydrogen and its [[Isotopo|isotopes]], but it is not a quantum model and is therefore not extendable to more complex systems, such as [[many-electron atom|atoms with more than one electron]].
+The **Bohr model** is a classical model of the structure of the [[hydrogen atom]] developed in 1913. It accurately describes the experimental behavior of hydrogen and its [[Isotope|isotopes]], but it is not a quantum model and is therefore not extendable to more complex systems, such as [[many-electron atom|atoms with more than one electron]].
 
 ![[Schema Modello di Bohr|50%|center]]
 ### Postulates

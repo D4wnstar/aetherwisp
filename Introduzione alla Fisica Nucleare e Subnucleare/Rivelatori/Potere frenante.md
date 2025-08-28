@@ -32,7 +32,7 @@ $$E_{x}(b)=\frac{\Delta p^{2}}{2m}=\frac{z^{2}e^{4}}{8\pi^{4}\varepsilon_{0}b^{2
 da qui possiamo affermare che:
 - l'energia trasferita diminuisce all'aumentare di $b$.
 - le particelle incidenti perdono meno energie più sono veloci.
-- la dipendenza dall'inverso della massa suggerisce che gli impatti con i [[Nucleo atomico|nuclei]] sono trascurabili, dato che sono molto più massivi degli elettroni.
+- la dipendenza dall'inverso della massa suggerisce che gli impatti con i [[Atomic nucleus|nuclei]] sono trascurabili, dato che sono molto più massivi degli elettroni.
 
 Se vogliamo considerare la perdita di energia passando in uno spessore $dx$ di un materiale con $N_{0}$ elettroni per unità di volume, allora dobbiamo considerare il contributo di tutti gli elettroni ad una distanza tra $b$ e $b+db$, che sarà pari alla somma di tutti gli $N_{0}2\pi b\,db\,dx$ contributi, che è
 $$-dE(b)=N_{0}2\pi b\,db\,dx\,E_{x}(b)$$

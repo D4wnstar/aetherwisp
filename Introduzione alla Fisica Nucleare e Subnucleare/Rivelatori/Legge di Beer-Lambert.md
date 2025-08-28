@@ -8,7 +8,7 @@ $$I=I_{0}e^{-\mu x}$$
 dove $I_{0}$ è l'intensità del raggio iniziale, $\mu$ è il **coefficiente di assorbimento** e $x$ è lo spazio percorso entro il materiale.
 ### In fisica delle particelle
 Consideriamo un fascio di [[Particle|particelle]] che attraversa un sottile strato di materia. Si distinguono due casi:
-1. Le particelle subiscono molte interazioni e in ciascuna perdono un po' di energia, oltre ad essere deviate leggermente. In questo caso, il fascio uscente non sarà più monoenergetico, ma avrà una distribuzione di energie e uno sparpagliamento angolare. Questo comportamento è tipico delle particelle pesanti (s'intende qualunque cosa nelle centinaia di [[Elettronvolt|MeV]] e più).
+1. Le particelle subiscono molte interazioni e in ciascuna perdono un po' di energia, oltre ad essere deviate leggermente. In questo caso, il fascio uscente non sarà più monoenergetico, ma avrà una distribuzione di energie e uno sparpagliamento angolare. Questo comportamento è tipico delle particelle pesanti (s'intende qualunque cosa nelle centinaia di [[Electronvolt|MeV]] e più).
 2. Le particelle non interagiscono o, se interagiscono, spariscono dal fascio incidente, per esempio perché sono assorbite. In questo caso, sia l'energia, sia l'angolo del fascio uscente sono uguali a quelle del fascio entrante. Questo comportamento è tipico dei fotoni.
 
 Il primo caso è meglio descritto dalla [[Potere frenante|formula di Bethe-Bloch]]. Nel secondo caso, per ciascun elemento di spessore $dx$ del materiale, il numero di particelle che interagisce è proporzionale al numero di particelle incidenti $N(x)$ su quello spessore:

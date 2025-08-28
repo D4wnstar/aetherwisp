@@ -13,7 +13,7 @@ I [[Nuclide|nuclidi]] radioattivi decadono [[Decadimento Alpha|alpha]] e [[Decad
 | **Attinio**  | $4n+3$ | $^{235}\text{U}$ con $\sim10^{9}$ anni         |
 Dato che l'uranio ha un $t_{1/2}$ più basso dell'età della Terra, oggi non si vedono effetti della catena di decadimento. Le altre catene producono tutte gas radon che è quindi presente nelle pietre e può costituire un rischio per la salute.
 
-L'uranio oggi in natura è un mix di $^{238}\text{U}$ al 99.28% e $^{235}\text{U}$ al 0.72%. Assumiamo che all'origine del [[Sistema Solare]] i 2 [[Isotopo|isotopi]] avessero la stessa abbondanza. Calcoliamo allora l'età della Terra a partire dal rapporto odierno.
+L'uranio oggi in natura è un mix di $^{238}\text{U}$ al 99.28% e $^{235}\text{U}$ al 0.72%. Assumiamo che all'origine del [[Sistema Solare]] i 2 [[Isotope|isotopi]] avessero la stessa abbondanza. Calcoliamo allora l'età della Terra a partire dal rapporto odierno.
 
 Uso la legge esponenziale del decadimento
 $$N(t)=N_{0}e^{-\lambda t}$$

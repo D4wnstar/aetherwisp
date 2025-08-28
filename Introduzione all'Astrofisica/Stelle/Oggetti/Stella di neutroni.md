@@ -7,7 +7,7 @@ Una **stella di neutroni** è un [[relitto stellare]] formato quando una [[stell
 
 Le stelle di neutroni sono in rotazione molto rapida, con periodi dai pochi secondi fino anche ai millisecondi. Questo fatto, assieme al getto di radiazioni che viene eiettato ai poli della stella per [[radiazione da sincrotrone]] che non è perfettamente allineato all'asse di rotazione, rende alcune stelle di neutroni delle [[stella variabile|stelle variabili]] con periodo molto basso e luminosità molto alta: questi oggetti sono detti **pulsar**.
 
-Il motivo per cui i neutroni non [[Decadimento Beta#$ beta {-}$ nel vuoto|decadono]] $\beta^{-}$ è dovuto all'occupazione di tutti gli [[stato|stati]] quantistici possibili degli [[elettrone|elettroni]]. La densità del nucleo stellare è talmente alta che anche solo pochi decadimenti $\beta^{-}$ sono sufficienti per saturare i pochi stati disponibili. Per gli altri neutroni, il decadimento non è energeticamente viabile e quindi rimangono stabili come se fossero in un [[nucleo atomico]]. La percentuale di neutroni che decadono $\beta^{-}$ è circa il 0.5%.
+Il motivo per cui i neutroni non [[Decadimento Beta#$ beta {-}$ nel vuoto|decadono]] $\beta^{-}$ è dovuto all'occupazione di tutti gli [[stato|stati]] quantistici possibili degli [[elettrone|elettroni]]. La densità del nucleo stellare è talmente alta che anche solo pochi decadimenti $\beta^{-}$ sono sufficienti per saturare i pochi stati disponibili. Per gli altri neutroni, il decadimento non è energeticamente viabile e quindi rimangono stabili come se fossero in un [[Atomic nucleus]]. La percentuale di neutroni che decadono $\beta^{-}$ è circa il 0.5%.
 ### Formazione del nucleo
 La presenza di soli neutroni ha conseguenze particolari:
 - non c'è [[Electromagnetism|repulsione Coulombiana]].
@@ -35,6 +35,6 @@ da cui possiamo stimare il raggio della stella
 $$R=\frac{\hbar^{2}(\frac{9}{4}\pi)^{2/3}}{GM_{n}^{3}N^{1/3}}\sim12\text{ km}$$
 che è molto simile a quello misurato sperimentalmente di $\sim10$ km. Per la densità invece ottengo
 $$\rho=\frac{N}{V}=\frac{1.8\times10^{57}}{\frac{4}{3}\pi R^{3}}\simeq0.25\frac{\text{nucleoni}}{\text{fm}^{3}}$$
-che è circa 1.5 volte la densità nucleonica del [[nucleo atomico]], di circa $0.17$ nucleoni/fm$^{3}$.
+che è circa 1.5 volte la densità nucleonica del [[Atomic nucleus]], di circa $0.17$ nucleoni/fm$^{3}$.
 
 In realtà, la situazione è più complicata e la densità non è costante. Si possono giungere a valori fino a $\sim10\rho$, ai quali $R$ sarebbe molto minore. In quei casi, ci sarebbe una forte componente di repulsione neutrone-neutrone che li potrebbe a riallontanarsi. Allora, in conclusione, l'equilibrio della stella contro la forza gravitazionale è dato in egual parti dalla pressione di Fermi e dalla repulsione neutrone-neutrone. La sovrapposizione di neutroni è massima al suo centro, dove le condizioni sono talmente estreme da possibilmente creare una regione di [[plasma di quark e gluoni]].

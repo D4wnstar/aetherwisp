@@ -3,7 +3,7 @@ wiki-publish: true
 ---
 An **ionic bond** is a primary [[chemical bond]] caused by the [[electromagnetic interaction|electromagnetic]] attraction between [[ion|ions]]. These ions are formed by the transfer of an [[electron]] from one stable [[atom]] to another, leaving them both [[Electric charge|electrically charged]]. The reduction in total [[energy]] is due to moving into an [[electric potential]] well.
 
-The [[cohesive energy]] an ionic bond makes are usually in the order of a few [[Elettronvolt|electronvolts]] per bond, and they are most likely to be formed when the atoms involved have either low [[ionization|ionization energy]] or high [[electronic affinity]] (preferably both). They often make simple [[Crystal|crystal structures]].
+The [[cohesive energy]] an ionic bond makes are usually in the order of a few [[Electronvolt|electronvolts]] per bond, and they are most likely to be formed when the atoms involved have either low [[ionization|ionization energy]] or high [[electronic affinity]] (preferably both). They often make simple [[Crystal|crystal structures]].
 
 Since ionic bonds are caused by electromagnetism (a static [[electric field]] in particular), they can be explained quantitatively even without the use of quantum mechanics, at the cost of ending up with somewhat imprecise results.
 ### Examples

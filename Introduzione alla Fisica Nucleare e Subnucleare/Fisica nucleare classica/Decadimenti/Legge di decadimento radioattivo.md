@@ -5,7 +5,7 @@ aliases:
   - tempo di dimezzamento
   - vita media
 ---
-La **legge di decadimento radioattivo** è una legge esponenziale che descrive il [[Decadimento nucleare|decadimento]] di una [[Nucleo atomico|specie nucleare]] nel tempo, indifferentemente dal tipo di decadimento.
+La **legge di decadimento radioattivo** è una legge esponenziale che descrive il [[Decadimento nucleare|decadimento]] di una [[Atomic nucleus|specie nucleare]] nel tempo, indifferentemente dal tipo di decadimento.
 
 Questa legge si basa sull'assunzione che il nucleo non ha "memoria", ossia lo stato di nucleo ad ogni dato tempo è indipendente dai suoi stati precedenti. Ciò significa che il suo tasso di decadimento è una costante nel tempo, ma l'esatto tasso dipende dalla specie nucleare.
 ### Formulazione

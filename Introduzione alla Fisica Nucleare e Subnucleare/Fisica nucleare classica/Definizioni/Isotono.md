@@ -1,4 +1,0 @@
----
-wiki-publish: true
----
-Due [[Nuclide|nuclidi]] si dicono **isotoni** se hanno numero di [[neutrone|neutroni]] $N$ uguale ma numero di [[protone|protoni]] $Z$ diverso. Per esempio, gli isotoni stabili con $N=1$ sono il deuterio $_{1}^{2}H_{1}$ e l'elio-3 $_{2}^{3}He_{1}$.

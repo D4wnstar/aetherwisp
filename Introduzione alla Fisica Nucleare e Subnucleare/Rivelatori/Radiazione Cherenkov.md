@@ -21,7 +21,7 @@ La radiazione Cherenkov è inversamente proporzionale alla lunghezza d'onda dell
 #### Perdita di energia
 La perdita di energia per radiazione Cherenkov dipende dal numero di fotoni emessi per unità di percorso. Questi a loro volta dipendo da $\theta_{C}$ (infatti si ha $dN/dx\propto \sin^{2}\theta_{C}$). Risulta che l'energia persa per unità di percorso è
 $$\frac{dE}{dx}\simeq z^{2}\sin^{2}\theta_{C}$$
-solitamente misurato in [[Elettronvolt|keV]]/cm, mille volte minore della [[Potere frenante|perdita per collisione]]. Per questo, è possibile trascurarla senza grande errore.
+solitamente misurato in [[Electronvolt|keV]]/cm, mille volte minore della [[Potere frenante|perdita per collisione]]. Per questo, è possibile trascurarla senza grande errore.
 ### Rivelatori
 L'angolo di emissione può essere misurato tramite uno schermo fotosensibile su cui "impatta" il cono della radiazione. Dal raggio della circonferenza misurata sullo schermo, possiamo ricondurci all'angolo di emissione.
 

@@ -5,7 +5,7 @@ The **Rutherford experiment** is a 1911 experiment conducted to determine the in
 
 ![[Diagram Atomic models|100%]]
 
-Thomson's model argued that there were elementary [[Electron|electrons]] with charge $e^{-}$ uniformly distributed throughout the atom alongside other particles with positive charges. Rutherford's model argued that the positive charges were concentrated in a single, much larger positive charge carrier called the [[Nucleo atomico|nucleus]]. To test the claims, a thin pure gold foil was bombarded with a beam of $\alpha$ particles ($\mathrm{He}^{2+}$) and their impact points were recorded in an (almost) 360° radius around the foil.
+Thomson's model argued that there were elementary [[Electron|electrons]] with charge $e^{-}$ uniformly distributed throughout the atom alongside other particles with positive charges. Rutherford's model argued that the positive charges were concentrated in a single, much larger positive charge carrier called the [[Atomic nucleus|nucleus]]. To test the claims, a thin pure gold foil was bombarded with a beam of $\alpha$ particles ($\mathrm{He}^{2+}$) and their impact points were recorded in an (almost) 360° radius around the foil.
 
 In Thomson's case, the expectation was that the $\alpha$ particles would have passed straight through the atom (in this case the gold foil) when shot through it, as the homogeneous distribution would have lead to a net zero deviation on average.
 

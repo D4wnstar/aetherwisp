@@ -1,7 +1,7 @@
 ---
 wiki-publish: true
 ---
-L'**effetto fotoelettrico** è un fenomeno di assorbimento di [[radiazione elettromagnetica]] da parte di un materiale con seguente [[ionizzazione]] di un [[Atom]] ed emissione di un [[elettrone]] libero. Un [[Photon]] incidente su un mezzo viene assorbito da uno degli elettroni di un atomo, il quale ottiene sufficiente energia da poter uscire dallo [[Stati in meccanica quantistica|stato legato]] attorno al [[Nucleo atomico|nucleo]].
+L'**effetto fotoelettrico** è un fenomeno di assorbimento di [[radiazione elettromagnetica]] da parte di un materiale con seguente [[ionizzazione]] di un [[Atom]] ed emissione di un [[elettrone]] libero. Un [[Photon]] incidente su un mezzo viene assorbito da uno degli elettroni di un atomo, il quale ottiene sufficiente energia da poter uscire dallo [[Stati in meccanica quantistica|stato legato]] attorno al [[Atomic nucleus|nucleo]].
 ### Meccanismo
 Il processo può essere schematizzato come
 $$\gamma+X \rightarrow X^{+}+e^{-}$$

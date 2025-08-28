@@ -1,7 +1,7 @@
 ---
 wiki-publish: true
 ---
-A **molecule** is a bound [[Physical system|system]] of at least two [[Nucleo atomico|atomic nuclei]] and their [[electron|electrons]]. Molecules containing two nuclei are said to be **diatomic**, whereas ones containing more than two are said to be **polyatomic**. The [[stato|states]] in which the electrons are in are called [[molecular orbital|molecular orbitals]].
+A **molecule** is a bound [[Physical system|system]] of at least two [[Atomic nucleus|atomic nuclei]] and their [[electron|electrons]]. Molecules containing two nuclei are said to be **diatomic**, whereas ones containing more than two are said to be **polyatomic**. The [[stato|states]] in which the electrons are in are called [[molecular orbital|molecular orbitals]].
 
 Compared to the study of [[atom|atoms]], the study of molecules is greatly complicated by the motion and interaction of the nuclei. Luckily however, much of this problem is lifted since the [[mass]] of the nuclei is considerably larger than that of the electrons, thus causing the nuclear states to be less significant overall. A ballpark estimate using the [[Frequency|angular frequencies]] of electron excitations $\omega_{e}$ and nuclear vibrations $\omega_{N}$ (more on this below) leads to a ratio $\omega_{N}/\omega_{e}\sim 10^{-3}\textendash10^{-5}$, several orders of magnitude less. This is the logical basis for the common framework in which much of molecular physics is developed: the [[Born-Oppenheimer approximation]].
 
@@ -78,7 +78,7 @@ $$\boxed{E_{v}=\hbar \sqrt{ \frac{k}{\mu} }\left( v+ \frac{1}{2} \right)}$$
 The rotational energy on the other hand is
 $$\boxed{E_{r}=\frac{\hbar^{2}}{2\mu R_{0}^{2}}J(J+1)}$$
 
-These energies exist at quite different scales. Electron energy is in the order of a few [[Elettronvolt|electronvolts]], $\sim 1\textendash10\text{ eV}$, assuming the electrons are localized, with $R\sim\mathring{\text{A}}$. Vibrational energies are instead *much* higher, in the order of $\sim50\textendash 200\text{ eV}$. Rotational energies on the other hand are *tiny*, at merely $\sim 10^{-4}\text{ eV}$ in general.
+These energies exist at quite different scales. Electron energy is in the order of a few [[Electronvolt|electronvolts]], $\sim 1\textendash10\text{ eV}$, assuming the electrons are localized, with $R\sim\mathring{\text{A}}$. Vibrational energies are instead *much* higher, in the order of $\sim50\textendash 200\text{ eV}$. Rotational energies on the other hand are *tiny*, at merely $\sim 10^{-4}\text{ eV}$ in general.
 
 As $v$ gets higher, the approximations on both the vibrational and rotational energy become progressively worse. To improve this, we can add corrective terms. For the vibrations, since we're assuming their harmonic, we add an extra nonlinear *anharmonic* term:
 $$E_{v}=\omega\left( v+ \frac{1}{2} \right)-\omega \chi\left( v+ \frac{1}{2} \right)^{2}$$

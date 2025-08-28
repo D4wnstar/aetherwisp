@@ -3,7 +3,7 @@ wiki-publish: true
 aliases:
   - decadimento
 ---
-Il **decadimento di particelle** è il processo per il quale una [[Particle]] si divide spontaneamente in una o più particelle più piccole. Si tratta di un processo simile, ma distinto dal [[decadimento nucleare]], che invece accade in [[Nucleo atomico|nuclei]] e usa processi diversi.
+Il **decadimento di particelle** è il processo per il quale una [[Particle]] si divide spontaneamente in una o più particelle più piccole. Si tratta di un processo simile, ma distinto dal [[decadimento nucleare]], che invece accade in [[Atomic nucleus|nuclei]] e usa processi diversi.
 
 In generale, il totale delle masse delle particelle figlie deve essere minore o uguale alla particella originale.
 ### Tipi

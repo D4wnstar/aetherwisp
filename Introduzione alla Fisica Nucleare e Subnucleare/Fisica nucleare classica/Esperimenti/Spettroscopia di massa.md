@@ -31,7 +31,7 @@ se conosciamo le masse di $^{1}H$, $^{14}N$ e $^{3}H$, possiamo ricavare quella 
 $$E_{^{1}H}+E_{^{14}N}=E_{^{12}N}+E_{^{3}H}$$
 dove l'energia è la somma della [[massa a riposo]] e dell'energia cinetica $Mv^{2}/2$. Questo è particolarmente utile per isotopi instabili che non hanno [[vita media]] sufficientemente lunga da sopravvivere per la durata dell'utilizzo dello spettrometro (come appunto il $^{12}N$).
 ### Abbondanze isotopiche
-Uno spettrometro di massa permette anche di misurare le abbondanze relative dei vari [[Isotopo|isotopi]] di un elemento, rimpiazzando il sensore con delle fenditure di uscita e facendo uno scan degli intervalli di massa variando campo elettrico e magnetico. Un uso comune è misurare le abbondanze del Sistema Solare.
+Uno spettrometro di massa permette anche di misurare le abbondanze relative dei vari [[Isotope|isotopi]] di un elemento, rimpiazzando il sensore con delle fenditure di uscita e facendo uno scan degli intervalli di massa variando campo elettrico e magnetico. Un uso comune è misurare le abbondanze del Sistema Solare.
 
 ![[Schema Abbondanze isotopiche Sistema Solare|center]]
 

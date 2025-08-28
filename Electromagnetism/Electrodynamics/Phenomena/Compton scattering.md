@@ -24,9 +24,11 @@ and by applying [[Planck formula|Planck's formula]] $E_{\gamma}=h\nu=hc/\lambda$
 $$\frac{hc}{\lambda}=\frac{1}{\frac{1-\cos\theta}{mc^{2}}+ \frac{1}{E_{0}}}$$
 where we also found the initial, pre-scattering wavelength $\lambda_{0}=E_{0}/hc$ with the same formula. With some rearrangement we can extract the wavelength
 $$\lambda=hc\left( \frac{1-\cos\theta}{mc^{2}}+ \frac{\lambda_{0}}{hc} \right)$$
-If we extract $h/mc$ and call it $\lambda_{C}$ we can further simplify to:
+We extract
+$$\boxed{\lambda_{C}=\frac{h}{mc}}$$
+which is known as the [[Compton wavelength]] (in this case of the electron). Then, we can further simplify to:
 $$\boxed{\lambda=\lambda_{0}+ \lambda_{C}(1-\cos \theta)}$$
-This is the wavelength of the photon *after* the scattering, and $\lambda_{C}$ is known as the **Compton wavelength** of the electron, which is the change in frequency that occurs during a scattering event at an angle $\theta$.
+This is the wavelength of the photon *after* the scattering. The second term is a scaling of the Compton wavelength based on the angle of scattering.
 ### Mechanism
 For photon energies much greater than the [[binding energy]] of the electron, the electron can be considered free and interact with the photon elastically, where the electron absorbs part of the photon's energy and varies its frequency. The greater the scattering angle $\theta$, the greater the energy transferred.
 

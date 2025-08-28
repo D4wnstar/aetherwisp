@@ -3,7 +3,7 @@ wiki-publish: true
 aliases:
   - shell
 ---
-Il **modello a shell** è un modello del [[nucleo atomico]]. Da non confondere con il modello a shell dell'[[Atom]] stesso, che tratta degli [[Elettrone|elettroni]]. Ha i seguenti presupposti:
+Il **modello a shell** è un modello del [[Atomic nucleus]]. Da non confondere con il modello a shell dell'[[Atom]] stesso, che tratta degli [[Elettrone|elettroni]]. Ha i seguenti presupposti:
 1. ogni [[nucleone]] occupa un livello di energia ben preciso all'interno di una *shell*.
 2. i nucleoni si muovono nel nucleo sottoposti ad un [[Potential]] *medio*.
 3. il potenziale medio ha origine dagli altri nucleoni.
@@ -67,7 +67,7 @@ j=\frac{7}{2} \rightarrow \text{ livello } 1f_{7/2}
 \end{cases}$$
 Ciascuno di questi livelli ha una cosiddetta **capacità**, ossia il numero di nucleoni che può ospitare. La somma progressiva delle capacità produce uno ad uno tutti i numeri magici.
 ### Applicazioni
-Consideriamo due [[Isotopo|isotopi]] dell'ossigeno: $^{15}_{8}O$ e $^{17}_{8}O$. Entrambi hanno 8 protoni, ma uno ha 7 neutroni e l'altro 9. Nel primo caso vi è un protone spaiato; nel secondo un neutrone spaiato.
+Consideriamo due [[Isotope|isotopi]] dell'ossigeno: $^{15}_{8}O$ e $^{17}_{8}O$. Entrambi hanno 8 protoni, ma uno ha 7 neutroni e l'altro 9. Nel primo caso vi è un protone spaiato; nel secondo un neutrone spaiato.
 
 ![[Shell ossigeno.png]]
 
@@ -75,7 +75,7 @@ Nel $^{15}_{8}O$, il protone spaiato è nella shell $1p_{1/2}$. Lo stato fondame
 
 Nel $^{17}_{8}O$, c'è un buco nel livello $1d_{5/2}$, quindi lo spin dovrebbe essere 5/2 e la parità $(-1)^{2}=1$, quindi un totale di $J^{P}=\frac{5}{2}^{+}$.
 #### Nuclei pari-pari e dispari-dispari
-Nel caso di [[nuclide|nuclidi]] con $Z$ e $N$ pari, indipendentemente da quali stati sono eccitati, lo stato fondamentale sarà $J^{P}=0^{+}$ e il primo eccitato sarà $J^{P}_{1}=2^{+}$. Siccome sono ordinati a coppie, avranno sempre parità positiva.
+Nel caso di [[Nuclide|nuclidi]] con $Z$ e $N$ pari, indipendentemente da quali stati sono eccitati, lo stato fondamentale sarà $J^{P}=0^{+}$ e il primo eccitato sarà $J^{P}_{1}=2^{+}$. Siccome sono ordinati a coppie, avranno sempre parità positiva.
 
 Per nuclidi con $Z$ e $N$ dispari, lo spin totale si ottiene come da norma per un sistema con due particelle con spin, ossia presi $j_{1}$ e $j_{2}$ gli spin, i valori possibili sono tra $|j_{1}-j_{2}|$ e $j_{1}+j_{2}$ in intervalli interi. La parità sarà $(-1)^{l_{1}+l_{2}}$, con $l_{1}$ e $l_{2}$ i momenti angolari orbitali del protone e neutrone spaiati.
 

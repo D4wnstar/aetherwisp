@@ -14,7 +14,7 @@ Whereas we are aware of a large number of composite particles, there are only fe
 The elementarity of a particle of size[^1] $d$ can be proven experimentally. This is generally done by shining a strong light onto the particle and analyzing its response. More formally, the particle is illuminated with an [[electromagnetic wave]] whose [[wavelength]] $\lambda$ satisfies
 $$\lambda\lesssim d$$
 as in, the wavelength is smaller than the size scale of the object. This allows probing the internal structure of the particle, if there is any. Note the challenge with this: smaller wavelengths are associated with higher [[Frequency|frequencies]]. The [[Planck formula]] says $E=\hbar\omega$, so higher frequencies mean higher [[energy|energies]] and thus the tinier the object to investigate, the more energy will need to be channeled into the wave to study. This poses a not insignificant technical challenge since subatomic particles are generally minuscule, in the range of $10^{-15}\text{ m}$ or even less, so the energies can easily reach
-$$E=\hbar \omega=\hbar ck=\hbar c \frac{2\pi}{\lambda}\simeq \hbar c \frac{2\pi}{d} \sim 1\text{ GeV}$$
-the [[Elettronvolt|gigaelectronvolt]] range.
+$$E=\hbar \omega=\hbar ck=\hbar c \frac{2\pi}{\lambda}\sim \hbar c \frac{2\pi}{d} \sim 1\text{ GeV}$$
+the [[Electronvolt|gigaelectronvolt]] range.
 
 [^1]: The meaning of size is intentionally left unspecified, as "size" at quantum scales is not a well-defined concept.
