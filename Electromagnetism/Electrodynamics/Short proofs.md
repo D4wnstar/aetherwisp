@@ -42,7 +42,7 @@ $$P=\frac{ \partial U }{ \partial t } =-\frac{ \partial  }{ \partial t } \int_{\
 **Potential Maxwell equations**
 1. Faraday's law means electric potential no longer hold. However, express $\mathbf{B}$ as $\nabla\times \mathbf{A}$ and flip Faraday's law to find electrodynamic electric field.
 2. $\nabla\cdot \mathbf{B}=0$ is still valid. Check $\nabla\cdot \mathbf{E}$ and $\nabla\times \mathbf{B}$. Put potential form of $\mathbf{E}$ and $\mathbf{B}$ in both and run the math using $\nabla\times(\nabla\times \mathbf{A})=\nabla(\nabla\cdot \mathbf{A})-\nabla ^{2}\mathbf{A}$.
-3. Result is ugly. Gauge freedom can be used to nuke one term in $\nabla\times \mathbf{B}$ by setting $\nabla\cdot \mathbf{A}$. Write the rest with d'Alembertian $\square ^{2}\equiv \nabla ^{2}-(1/c^{2})\partial^{2}/\partial t^{2}$.
+3. Result is ugly. Gauge freedom can be used to nuke one term in $\nabla\times \mathbf{B}$ by setting $\nabla\cdot \mathbf{A}=-\mu_{0}\varepsilon_{0}\frac{ \partial V }{ \partial t }$. Write the rest with d'Alembertian $\square ^{2}\equiv \nabla ^{2}-(1/c^{2})\partial^{2}/\partial t^{2}$.
 
 **Gauge freedom**
 1. You can add a constant to scalar potential and a gradient of a scalar field to vector potential, like $\mathbf{A}'=\mathbf{A}+\boldsymbol{\alpha}$ and $V'=V+\beta$, where $\boldsymbol{\alpha}=\nabla \lambda$.

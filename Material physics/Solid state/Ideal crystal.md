@@ -284,7 +284,7 @@ Ultimately, the takeaways here are these.
 > Applying a periodic potential to a free-electron model causes the parabolic energy curves to distort at the edges of the first Brillouin zone and loop, a phenomenon called **backfolding**. The potential breaks the singular energy band into multiple ones, each divided by a **gap**. Electrons are no longer allowed to reach every energy state: states inside a gap are prohibited. The energy spectrum of electrons is therefore no longer (almost) continuous. It has discontinuities in the gaps. In the weak potential case, the size of the gaps is linearly dependent on the magnitude of the potential.
 
 ### Tight-binding
-The **tight-binding** model attempts a different kind of description as the weak periodic potential. Whereas the weak potential started with free electrons and added a small but significant potential to the mix, the tight-binding model works from the other side. It starts with free *atoms* and then pushes them closer and closer until the effects of vicinity start to become relevant, namely the superposition of [[atomic orbital|atomic orbitals]]. The actual superposition might be small or large, and it really depends on the energy level of the electrons themselves. The tight-binding model attempts to explain cases in which the superposition of atomic orbitals is small but still significant.
+The **tight-binding** model attempts a different kind of description compared to the weak periodic potential. Whereas the weak potential started with free electrons and added a small but significant potential to the mix, the tight-binding model works the other way around. It starts with free *atoms* and then pushes them closer and closer until the effects of vicinity start to become relevant, namely the superposition of [[atomic orbital|atomic orbitals]]. The actual superposition might be small or large, and it really depends on the energy level of the electrons themselves. The tight-binding model attempts to explain cases in which the superposition of atomic orbitals is small but still significant.
 
 Whereas the weak potential described electrons that were largely free to move, tight-binding describes electrons that are largely unable to move and tightly bound to their ion, hence the name. This makes it well-positioned to explain the behavior of [[Dielectric|insulators]] instead of [[Conductor|conductors]], where electron movement is scarce.
 
@@ -351,7 +351,7 @@ So, if for whatever reason you only need to consider electrons near the band min
 
 > We have the rather curious result that not only is it possible to obtain conduction with bound electrons, but it is also possible to obtain non-conduction with free electrons.
 
-[^1]: They start to matter in high-energy conditions when the crystal starts to break down, such as a [[phase transition]] (think melting).
+[^1]: They start to matter in high-energy conditions when the crystal starts to break down, such as a [[phase transition]] (e.g. melting).
 
 [^2]: In 1D space it can't be any other way, but it does matter for a 1D object in 3D space.
 

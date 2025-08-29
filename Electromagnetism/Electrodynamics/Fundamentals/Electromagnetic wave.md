@@ -57,21 +57,21 @@ $$B^{2}=\frac{E^{2}}{c^{2}}=\mu_{0}\varepsilon_{0}E^{2}$$
 and so
 $$\boxed{u=\varepsilon_{0}E^{2}=\varepsilon_{0}E_{0}^{2}\cos ^{2}(\mathbf{k}\cdot \mathbf{r}-\omega t+\varphi)}$$
 Evidently, only the electric field matters in the energy transfer, as the magnetic field's contribution is identical to that of the electric field[^1]. We can say more about this by looking at the [[Poynting vector]], which represent the energy [[flux]] density (energy per unit area per unit time). Plugging in the previous equation for $B$ gives
-$$\mathbf{S}=c\varepsilon_{0}E_{0}^{2}\cos ^{2}(\mathbf{k}\cdot \mathbf{r}-\omega t+\varphi)\hat{\mathbf{n}}=cu\ \hat{\mathbf{n}}$$
+$$\mathbf{S}=c\varepsilon_{0}E_{0}^{2}\cos ^{2}(\mathbf{k}\cdot \mathbf{r}-\omega t+\varphi)\hat{\mathbf{k}}=cu\ \hat{\mathbf{k}}$$
 Perhaps unsurprisingly, the energy moves in the exact direction of the wave. Finally, the momentum density carried by the field is
-$$\mathbf{g}=\frac{u}{c}\hat{\mathbf{n}}$$
+$$\mathbf{g}=\frac{u}{c}\hat{\mathbf{k}}$$
 
 Generally speaking though, electromagnetic wave [[Frequency|frequencies]] are *fast*. So fast in fact that any measurement done at a macroscopic level will surely encompass a large number of cycles of oscillation. As such, a reading of any of these quantities is going to be smeared across so many cycles it essentially just becomes the time average of the quantity. As such, it's in our interest to take a look at the mathematical predictions of these averages. Since the only time-variable part in these quantities is the square cosine, we just need its  average over a full cycle of [[period]] $T$:
 $$\langle \cos ^{2}(\ldots) \rangle = \frac{1}{T}\int_{0}^{T}\cos ^{2}\left( \mathbf{k}\cdot \mathbf{r}- \frac{2\pi}{T} t+\varphi \right)dt=\frac{1}{2}$$
 Thus, the average energy density, Poynting vector and momentum density are
-$$\boxed{\langle u \rangle =\frac{\varepsilon_{0}}{2}E_{0}^{2},\quad \langle \mathbf{S} \rangle =\frac{\varepsilon_{0}c}{2}E_{0}^{2}\ \hat{\mathbf{n}},\quad \langle \mathbf{g} \rangle =\frac{\varepsilon_{0}}{2c}E_{0}^{2}\ \hat{\mathbf{n}}}$$
+$$\boxed{\langle u \rangle =\frac{\varepsilon_{0}}{2}E_{0}^{2},\quad \langle \mathbf{S} \rangle =\frac{\varepsilon_{0}c}{2}E_{0}^{2}\ \hat{\mathbf{k}},\quad \langle \mathbf{g} \rangle =\frac{\varepsilon_{0}}{2c}E_{0}^{2}\ \hat{\mathbf{k}}}$$
 Notably, energy density and momentum density (and by extension energy and momentum themselves) are related by
 $$\langle u \rangle =\langle g \rangle c\quad\Rightarrow \quad E=\int_{\mathcal{V}}\langle u \rangle d\tau=c\int_{\mathcal{V}}\langle g \rangle d\tau=pc$$
 The energy of a wave is given by the momentum it carries times the speed of light. "Neat," you might say, but keep this in mind when you look at quantum physics, as it might just reappear somewhere else (and if you've already studied quantum physics, you might recognize a sneaky first appearance of the [[Planck formula]] and the [[Formula di de Broglie|de Broglie formula]]).
 
-In the context of electromagnetic waves, the **[[irradiance]]** of the wave is the magnitude of the time average of the Poynting vector:
-$$I\equiv \lvert \langle S \rangle \rvert  =\frac{\varepsilon_{0}c}{2}E_{0}^{2}$$
-Since momentum is conserved, whenever light collides with, sometimes a part of its momentum will be transferred to it. If light lands perpendicularly (normal incidence) and the receiver is a so-called "perfect absorber" (meaning, it absorbs 100% of the momentum that hits it), we can give a mathematical expression of this transfer. In a time $\Delta t$, the transfer is determined by the momentum density as $\Delta \mathbf{p}=\langle \mathbf{g} \rangle Ac\Delta t$. But remember that by [[Newton's laws|Newton's second law]], a variation in momentum is a [[force]], so when spread over the area $A$ that's being lit up, we get a [[pressure]]:
+In the context of electromagnetic waves, the **[[irradiance]]** of the wave is the time average of the Poynting vector on an incident surface. If the surface is perpendicular to the wave, its normal unit vector is $\hat{\mathbf{k}}$, so
+$$I\equiv \langle \mathbf{S} \rangle \cdot \hat{\mathbf{k}} =\frac{\varepsilon_{0}c}{2}E_{0}^{2}$$
+(which coincides with the [[norm]] of the Poynting vector, but it's a useful reminder that irradiance only makes sense when projected over a surface, so orientation matters.) Since momentum is conserved, whenever light collides with, sometimes a part of its momentum will be transferred to it. If light lands perpendicularly (normal incidence) and the receiver is a so-called "perfect absorber" (meaning, it absorbs 100% of the momentum that hits it), we can give a mathematical expression of this transfer. In a time $\Delta t$, the transfer is determined by the momentum density as $\Delta \mathbf{p}=\langle \mathbf{g} \rangle Ac\Delta t$. But remember that by [[Newton's laws|Newton's second law]], a variation in momentum is a [[force]], so when spread over the area $A$ that's being lit up, we get a [[pressure]]:
 $$\boxed{P=\frac{1}{A} \frac{\Delta \lvert \mathbf{p} \rvert }{\Delta t}=\frac{\varepsilon_{0}}{2}E_{0}^{2}=\frac{I}{c}}$$
 This pressure is known as **[[radiation pressure]]** and, in general, it is *extremely* weak. Weak enough that it's fair if you assumed that electromagnetic radiation was simply incapable of applying a force to something. But it *is* there, all because momentum conservation must be preserved. By the way, if the receiver was a "perfect reflector" (meaning, it reflects 100% of the momentum), the pressure would be doubled since the effective $\Delta \lvert \mathbf{p} \rvert$ would itself be doubled (since we'd be sending $\mathbf{p}\mapsto-\mathbf{p}$ instead of $\mathbf{p}\mapsto0$).
 ### In dielectrics
@@ -84,9 +84,9 @@ The quantity $n=\sqrt{ \varepsilon_{r}\mu_{r} }\geq1$ is called the **[[refracti
 The transported quantities of these waves are largely the same and can be found by substituting $\varepsilon_{0}\to \varepsilon$, $\mu_{0}\to \mu$ and $c\to c/n$, so
 $$u=\frac{1}{2}\left( \epsilon E^{2}+ \frac{1}{\mu}B^{2} \right),\quad \mathbf{S}=\frac{1}{\mu}(\mathbf{E}\times \mathbf{B})$$
 In case of a sine wave, we have the same condition as $(1)$, so
-$$u=\varepsilon E_{0}^{2},\quad \mathbf{S}=\varepsilon cE_{0}^{2}\hat{\mathbf{n}}$$
+$$u=\varepsilon E_{0}^{2},\quad \mathbf{S}=\varepsilon cE_{0}^{2}\hat{\mathbf{k}}$$
 and then averaged
-$$\boxed{\langle u \rangle =\frac{\varepsilon}{2}E_{0}^{2},\quad \langle \mathbf{S} \rangle =\frac{\varepsilon c}{2n}E_{0}^{2}\ \hat{\mathbf{n}}}$$
+$$\boxed{\langle u \rangle =\frac{\varepsilon}{2}E_{0}^{2},\quad \langle \mathbf{S} \rangle =\frac{\varepsilon c}{2n}E_{0}^{2}\ \hat{\mathbf{k}}}$$
 You might notice the suspicious lack of momentum density here. That's because the momentum of a wave in matter is, as of today, still a matter of debate, so no formula here.
 #### Interface reflection and transmission
 As all waves, electromagnetic waves too exhibit interesting behavior when they reach the "end of the line", that is, when they collide with an interface between two different materials. Say we've got a wave traveling over the $x$ direction and there's an interface on the $yz$ plane at $x=0$ so that $x<0$ is one material with refractive index $n_{1}$ and $x>0$ is another with refractive index $n_{2}$. Say also for simplicity that the wave is linearly polarized on the $y$ axis and it has an angular frequency of $\omega$ and a wavenumber $k_{1}$. The wave equations are
