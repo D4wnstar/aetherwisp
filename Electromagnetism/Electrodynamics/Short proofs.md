@@ -110,8 +110,8 @@ $$P=\frac{ \partial U }{ \partial t } =-\frac{ \partial  }{ \partial t } \int_{\
 2. The additional term is exponential dampening. The amplitude is reduced by $1/e$ in a skin depth $d=1/\kappa$.
 
 **Dispersion in dielectrics**
-1. $\varepsilon$ is frequency dependent. Assume electrons are bound to molecules by approximately an oscillating force $F_\text{binding}=-kx=-m\omega_{0}^{2}y$ where $\omega_{0}$ is the natural oscillation frequency. Some energy is dissipated by a nonconservative force $F_\text{damping}=\frac{-m\gamma dy}{dt}$ and some is added by an external force $F_\text{driving}=qE=qE_{0}\cos(\omega t)$.
-2. Combine forces and Newton's second law to get
+1. $\varepsilon$ is frequency dependent. Assume electrons are bound to molecules by approximately an oscillating force $F_\text{binding}=-ky=-m\omega_{0}^{2}y$ where $\omega_{0}$ is the natural oscillation frequency. Some energy is dissipated by a nonconservative force $F_\text{damping}=-m\gamma\frac{dy}{dt}$ and some is added by an external force $F_\text{driving}=qE=qE_{0}\cos(\omega t)$.
+2. Combine forces and Newton's second law to get a driven-dampened oscillator
    $$m \frac{d^{2}y}{dt^{2}}+m\gamma \frac{dy}{dt}+m\omega_{0}^{2}y=qE_{0}\cos (\omega t)$$
 3. Regard it as the real part of
    $$\frac{d^{2}\tilde{y}}{dt^{2}}+\gamma \frac{d\tilde{y}}{dt}+\omega_{0}^{2}\tilde{y}=\frac{q}{m}E_{0}e^{-i\omega t}$$

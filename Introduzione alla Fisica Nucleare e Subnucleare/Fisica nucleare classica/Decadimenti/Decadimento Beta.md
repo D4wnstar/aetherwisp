@@ -27,7 +27,7 @@ $$^{54}_{25}Mn_{29} \rightarrow\, ^{54}_{24}Cr_{30}$$
 con tempo di dimezzamento 312 giorni.
 ## Meccanismo
 ### Decadimento $\beta^{\pm}$
-Consideriamo la [[formula semiempirica di massa]]
+Consideriamo la [[Semi-empirical mass formula]]
 $$M(Z,A)=Nm_{n}+Zm_{p}+Zm_{e}- a_{v}A+a_{s}A^{\frac{2}{3}}+a_{c} \frac{Z(Z-1)}{A^{\frac{1}{3}}}+a_{a} \frac{(N-Z)^{2}}{4A}+\delta$$
 che può essere scritta come
 $$M(A,Z)=\alpha A-\beta Z+\gamma Z^{2}+\delta$$

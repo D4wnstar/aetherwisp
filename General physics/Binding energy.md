@@ -7,7 +7,7 @@ The **binding energy** of a [[physical system]] is the [[energy]] required to re
 ## Nuclear binding energy
 The difference between the [[mass]] of the system as a whole (the [[atomic nucleus]]) and that of the individual components (the nucleons), is called the **mass defect**. Using the [[Relativistic energy|mass-energy equivalence]] $E=m_\text{defect}c^{2}$ on the defect gives us the binding energy of the system.
 
-It is convenient to express the nuclear binding energy in terms of [[atom|atomic]] masses, as they are measurable with much better precision ($\sim10^{-6}$) than nuclear masses using [[mass spectrometry]]. This way, the binding energy is
+It is convenient to express the nuclear binding energy in terms of [[atom|atomic]] masses, as they are measurable with much better precision ($\sim10^{-6}$) than nuclear masses using [[Mass spectrometry]]. This way, the binding energy is
 $$B(Z,A)=[Zm(\ce{^{1}H})+Nm_{n}-m(Z,A)]c^{2}$$
 where
 * $A$, $N$ and $Z$ are the [[Atom|atomic mass number]], [[Atom|neutron number]] and [[Atom|atomic number]].
@@ -40,3 +40,5 @@ This plot gives us information on which process is energetically viable to relea
 2. For $A\gtrsim60$, it is more efficient to break nuclei to create smaller ones through [[spontaneous fission]].
 
 The breaking point of these processes is around $A\sim60$. For example, nuclear fusion cannot create nuclei heavier than iron ($A=56$) without external energy input.
+
+A theoretical description of the nuclear binding energy behavior across nuclides is provided by the [[semi-empirical mass formula]].
