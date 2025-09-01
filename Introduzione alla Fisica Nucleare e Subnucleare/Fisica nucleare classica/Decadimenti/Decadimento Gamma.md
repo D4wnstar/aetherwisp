@@ -26,7 +26,7 @@ La radiazione $\gamma$ ha un contributo sia elettrico che magnetico.
 - La radiazione magnetica è causata da una variazione del momento magnetico del nucleo per la ridistribuzione degli [[spin]] e dei momenti angolari orbitali dei nucleoni.
 Il decadimento in generale può essere descritto come sovrapposizione di contributi di diverse polarità, ciascuna caratterizzata da una tipica distribuzione angolare.
 
-La conservazione del momento angolare e della parità determinano le transizioni possibili. La transizione $\gamma$ da un nucleo iniziale con momento angolare $J_{i}$ e parità $\pi_{i}$ ad uno con momento angolare $J_{f}$ e parità $\pi_{f}$. Parità definita in funzione del suo momento angolare come nel [[modello a shell nucleare]]. Per conservazione angolare
+La conservazione del momento angolare e della parità determinano le transizioni possibili. La transizione $\gamma$ da un nucleo iniziale con momento angolare $J_{i}$ e parità $\pi_{i}$ ad uno con momento angolare $J_{f}$ e parità $\pi_{f}$. Parità definita in funzione del suo momento angolare come nel [[Nuclear shell model]]. Per conservazione angolare
 $$\vec{J}_{i}=\vec{J}_{f}+\vec{L}_{\gamma}$$
 con $\vec{L}_{\gamma}$ è il momento angolare del fotone.
 

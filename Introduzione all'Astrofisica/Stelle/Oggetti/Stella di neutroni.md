@@ -21,7 +21,7 @@ La massa è $M\sim1.3-1.5M_{\odot}$ e il raggio è $R\sim10$ km. La struttura in
 
 Secondo questo modello, la crosta della stella è spessa circa 1 km ed è composta da atomi compressi allo stato solido dalla forza gravitazionale.
 
-Cerchiamo di stimare il raggio della stella usando il [[Fermi gas model]].. Per una massa $M=1.5M_{\odot}=3\times10^{30}$ kg sono presenti $N=1.8\times10^{57}$ neutroni (usando $m_{n}\sim1.67\times10^{-27}$ kg). Calcoliamo l'impulso di Fermi
+Cerchiamo di stimare il raggio della stella usando il [[Nuclear Fermi gas model]]. Per una massa $M=1.5M_{\odot}=3\times10^{30}$ kg sono presenti $N=1.8\times10^{57}$ neutroni (usando $m_{n}\sim1.67\times10^{-27}$ kg). Calcoliamo l'impulso di Fermi
 $$p_{F}=\left(\frac{9}{4}\pi N\right)^{1/3} \frac{\hbar}{R}$$
 dato che non ci sono protoni. L'energia cinetica media per ogni neutrone è
 $$\left\langle \frac{E_{cin}}{N} \right\rangle=\frac{3}{5} \frac{p_{F}^{2}}{2M_{n}}=\frac{3\hbar^{2}}{10M_{n}} \left(\frac{9}{4}\pi N\right)^{2/3} \frac{1}{R^{2}}=\frac{c}{R^{2}}$$

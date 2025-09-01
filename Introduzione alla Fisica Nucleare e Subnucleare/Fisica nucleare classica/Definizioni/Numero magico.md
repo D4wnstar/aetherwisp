@@ -1,6 +1,0 @@
----
-wiki-publish: true
----
-I **numeri magici** sono specifici [[Atom|numeri atomici]] $Z$ o [[Atom|di neutroni]] $N$ per il quale si forma un [[Atom]] particolarmente stabile, con [[Binding energy]] chiaramente superiore ad altri atomi con simile [[Atom|numero di massa atomica]]. Essi sono 2, 8, 20, 28, 50, 82 e 126. I [[Atomic nucleus|nuclei]] che hanno $N$, $Z$ o entrambi pari a un numero magico sono particolarmente stabili. Se sia $N$ che $Z$ sono magici si dice che il nucleo sia *doppiamente magico*.
-
-Nuclei magici hanno un gran numero di [[Isotope|isotopi]] e [[Isotone|isotoni]] stabili o molto longevi. La quantità di energia necessaria per rimuovere un [[nucleone]] è molto elevata, così come quella necessaria per elevarne uno ad uno stato eccitato (nel contesto del [[modello a shell nucleare]]). Alcuni esempi di nuclei doppiamente magici, particolarmente stabili, sono $_{2}^{4}He_{2}$, $_{8}^{16}O_{8}$, $_{20}^{40}Ca_{20}$, $_{20}^{48}Ca_{28}$ e $_{82}^{208}Pb_{128}$.

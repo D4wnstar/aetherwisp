@@ -1,0 +1,8 @@
+---
+wiki-publish: true
+---
+A **magic number** is a specific number of [[proton|protons]] or [[neutron|neutrons]] for which an [[atomic nucleus]] is particularly stable, exhibiting [[binding energy]] that is noticeably higher than neighboring nuclei with similar numbers. They are
+$$2,\ 8,\ 20,\ 28,\ 50,\ 82 \text{ and } 126$$
+More formally, the magic numbers refer to specific values of the [[Atom|atomic number]] $Z$ or [[Atom|neutron number]] $N$ of a nucleus. According to the [[nuclear shell model]], these magic numbers correspond to closed protonic or neutronic shells in the nucleus, much like how closed [[electron shell model|electron shells]] in the [[atom]] lead to highly stable [[noble gas|noble gases]]. Since proton and neutron shells are independent of each other, its possible for a nucleus to be magic in one or even both shells. In the latter case, the nucleus is said to be **doubly magic** and these are even more stable than their **singly magic** counterparts.
+
+Magic nuclei possess many stable or very long-lived [[Isotope|isotopes]] and [[Isotone|isotones]]. The energy required to remove a [[Atomic nucleus|nucleon]] from a magic nucleus is high, as is the energy needed to promote one to an excited state. Examples of particularly stable doubly magic nuclei are $\ce{_{2}^{4}He_{2}}$, $\ce{_{8}^{16}O_{8}}$, $\ce{_{20}^{40}Ca_{20}}$, $\ce{_{20}^{48}Ca_{28}}$ and $\ce{_{82}^{208}Pb_{128}}$.

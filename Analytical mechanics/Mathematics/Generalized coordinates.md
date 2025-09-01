@@ -10,7 +10,7 @@ Generalized coordinates are denoted with $\mathbf{q}\equiv(q_{1},\ldots,q_{N})$.
 $$\dot{\mathbf{q}}=\frac{d\mathbf{q}}{dt}=\sum_{i=1}^{N} \frac{ \partial \mathbf{q} }{ \partial q_{i} } (q_{1}(t),\ldots,q_{N}(t))\ \dot{q}_{i}(t)$$
 Notably, the velocity $\dot{\mathbf{q}}$ may also explicitly depend on time like $\dot{\mathbf{q}}(q_{1}(t),\ldots,q_{N}(t),t)$ as opposed to only implicitly like $\dot{\mathbf{q}}(q_{1}(t),\ldots,q_{N}(t))$. In such as case, an additional time derivative $\partial \mathbf{q}/ \partial t$ appears on top of the sum above.
 
-If a [[Lagrangian]] or [[Hamiltonian]] is given, it is also possible to defined the [[Linear momentum|linear momenta]] of these coordinates, which are known as [[conjugate momenta]].
+If a [[Lagrangian]] or [[Hamiltonian]] is given, it is also possible to define the [[Linear momentum|linear momenta]] of these coordinates, which are known as [[conjugate momenta]].
 
 > [!question] A note on notation
 > The notations $(q_{1},\ldots,q_{N})$ and especially $(q_{1},\ldots,q_{N},\dot{q}_{1},\ldots,\dot{q}_{N})$ are ubiquitous in analytical mechanics, but are also quite lengthy and verbose. Since they'll come up very often throughout these notes, it pays to have a shorthand notation for these. Namely, the coordinates will be packaged in the vector $\mathbf{q}=(q_{1},\ldots,q_{N})$ and the velocities in the vector $\dot{\mathbf{q}}=(\dot{q}_{1},\ldots,\dot{q}_{N})$. Together, they'll often show up as $(\mathbf{q},\dot{\mathbf{q}})$. In many cases, the vector bold font may also be omitted inside of function arguments. For instance, $f(q,\dot{q})\equiv f(q_{1},\ldots,q_{N},\dot{q}_{1},\ldots,\dot{q}_{N})$.
