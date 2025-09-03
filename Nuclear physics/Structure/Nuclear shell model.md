@@ -21,7 +21,7 @@ which depends only on the radial coordinate. The [[Schrödinger equation]] is th
 $$E_{N}=\hbar\omega_{0}\left(N+\frac{3}{2}\right)$$
 where $N=0,1,2,\ldots$ is the energy-level [[quantum number]]. Introducing the number of nodes $n=1,2,3\ldots$ (which counts the number of states with the given value of $l$) and the orbital quantum number $l=0,1,2\ldots$ (which satisfies $l\leq N$), the energy levels can be written as
 $$N=2(n-1)+l$$
-The energy-level [[degenerazione|degeneracy]] is $2l+1$, or $2(2l+1)$ when considering [[spin]] 1/2 nucleons. This is important: a shell is a collection of degenerate states, so the degeneracy basically tells us how many nucleons fit inside the shell of energy level $N$. Even more importantly, since magic numbers are associated with filled shells, it's the degeneracy that works as the predictor for magic numbers, the discovery of which is ultimately one of the main goals of the shell model.
+The energy-level [[degenerazione|degeneracy]] is $2l+1$, or $2(2l+1)$ when considering [[spin]] 1/2 nucleons. This is important: a shell is a collection of degenerate states, so the degeneracy basically tells us how many nucleons fit inside the shell of energy level $N$ (it's not one-to-one, there are more states than nucleons; the number of nucleons per shell is called the **capacity**). Even more importantly, since magic numbers are associated with filled shells, it's the degeneracy that works as the predictor for magic numbers, the discovery of which is ultimately one of the main goals of the shell model.
 
 This simple model is quite reminiscent of the [[Hydrogen atom|hydrogenic atom]], so it's common to employ [[spectroscopic notation]] here too, namely the usage of the letters $s$, $p$, $d$, $f$, etc. for the orbital quantum number. For instance, the first three energy levels/shells are:
 - Shell $N=0$ has $n=1$ and $l=0$, hence corresponds to the $1s$ state. It has a degeneracy of 2, meaning it can contain up to two nucleons.
@@ -33,53 +33,59 @@ This simple model is quite reminiscent of the [[Hydrogen atom|hydrogenic atom]],
 A diagram showing the behavior of the first four shells, according to the Gaussian mean potential. The first three shells correctly predict magic numbers (2, 8, 20), but already by the fourth it goes off track (40 is not a magic number, but 28 is).
 :::
 ### Woods–Saxon potential
-A more accurate description requires a better potential. For this purpose one can use the [[Woods–Saxon potential]], which yields more accurate magic numbers.
+For larger nuclei, we'll need a more realistic potential. A far better choice in modern day is the [[Woods-Saxon potential]], which you can see below.
 
-![[Closed shells Woods–Saxon.png|240]]
+![[Plot Woods-Saxon potential]]
 
-Using the Woods–Saxon potential removes the $l$ degeneracy in the shells, because states with the same $N$ but different $nl$ have different energies under this potential. It still does not reproduce all magic numbers exactly, but it is more accurate than the Gaussian potential.
+Calculation of the actual energy levels is a lot more complicated compared to the harmonic oscillator. The idea is still the same however: solve the Schrödinger equation in spherical coordinates with this potential to find the energy eigenstates (shells) and their degeneracy (nucleons admitted by the shell). It should be mentioned that when a lot of splitting is introduced (and therefore many energy levels/shells), magic number stop being plain closed shells, but rather closed shells that are distant in energy from the next one over.
 
-The most accurate shell model ([[Woods–Saxon potential]] with [[Fine structure|spin–orbit coupling]]) is very precise for $A<150$ and $190<A<220$. Outside this range other devices must be used, such as accounting for nuclear deformation (for $150<A<190$ and $A>230$).
-### Spin–orbit coupling
-Improving the model further is complicated because the Woods–Saxon potential already has the physically correct form, and altering it would spoil the physical interpretation of the model. What we can do is add corrections to this potential. One such correction is **spin–orbit coupling**, incidentally one of the [[fine-structure]] corrections of the [[hydrogen atom]].
+:::image
+![[Closed shells Woods-Saxon.png|300]]
+A diagram showing shells according to the Woods-Saxon mean potential. The main difference is the lifting of degeneracy over $l$, which leads to a lot more energy levels (since same $N$ but different $nl$ have different energies). Like the Gaussian distribution, it gets the first magic numbers right, but goes off track by the fourth.
+:::
+#### Spin–orbit coupling
+The Woods-Saxon is known to have a physically accurate form, so why does it not predict the magic numbers? The answer is that while the potential is right, we're neglecting other effects that incur further degeneracy lifting: relativistic effects. Just like in the [[hydrogen atom]], to further refine our model we introduce a **spin-orbit coupling** term[^2]. A spin-orbit term takes the interaction between spin and [[angular momentum]] into account, in this case that of the nucleons.
 
-Denoting the correction potential by $V_{l,s}$, the corrected potential is  
-$$V_{\text{tot}}(r)=V_{\text{cent}}(r)+V_{l,s}(r)\frac{\langle\vec{l}\cdot\vec{s}\rangle}{\hbar^{2}}$$  
-where $\vec{l}$ is the orbital angular momentum (with respect to the nuclear center) and $\vec{s}$ is the nucleon spin.
+The SO term is added on top of our mean Woods-Saxon potential $V_\text{WS}$:
+$$V_{\text{tot}}(r)=V_{\text{WS}}(r)+V_{ls}(r)\frac{\langle\mathbf{L}\cdot\mathbf{S}\rangle}{\hbar^{2}}$$
+where $\mathbf{L}$ is the orbital angular momentum with respect to the nuclear center and $\mathbf{S}$ is the nucleon spin. $l$ and $s$ are their related [[norm]], i.e. their [[quantum number|quantum numbers]].
 
-Nucleons are [[Fermion|fermions]] and therefore have spin $1/2$. We define the total angular momentum $\vec{j}$ as $\vec{j}=\vec{l}+\vec{s}$. Since the spin can take only two values, we have  
-$$j=l\pm\frac{1}{2},$$  
-except for $l=0$, where $j=1/2$. Computing  
-$$j^{2}=(\vec{l}+\vec{s})^{2}=(\vec{l}^{2}+2\vec{l}\cdot\vec{s}+\vec{s}^{2})\quad\Rightarrow\quad\vec{l}\cdot\vec{s}=\frac{1}{2}(\vec{j}^{2}-\vec{l}^{2}-\vec{s}^{2})$$  
-and solving the [[eigenvalue equation]] and inserting the expectation values,  
-$$\langle\vec{l}\cdot\vec{s}\rangle=\frac{\hbar^{2}}{2}\bigl[j(j+1)-l(l+1)-s(s+1)\bigr]=\hbar^{2}\begin{cases}
-j=l+\frac{1}{2}\rightarrow+\frac{l}{2}\\[4pt]
-j=l-\frac{1}{2}\rightarrow-\frac{l+1}{2}.
-\end{cases}$$  
-Hence the energy splitting of the levels increases linearly with angular momentum and is  
-$$\Delta E_{l,s}=\Bigl[\langle\vec{l}\cdot\vec{s}\rangle_{j=l+\frac{1}{2}}-\langle\vec{l}\cdot\vec{s}\rangle_{j=l-\frac{1}{2}}\Bigr]\langle V_{l,s}(r)\rangle=\frac{2l+1}{2}\langle V_{l,s}(r)\rangle.$$  
-Experimentally $V_{l,s}$ is negative, so the $j=l+1/2$ level always lies below the $j=l-1/2$ level.
+Luckily, nucleons are protons and neutrons, which we know to be [[fermion|fermions]] with spin 1/2. As such, $s=1/2$ for all nucleons (though remember both spin directions, $\pm1/2$). We define the total angular momentum as $\mathbf{J}=\mathbf{L}+\mathbf{S}$, with quantum number $j=l\pm 1/2$. There's an exception for $l=0$, where $j=1/2$ is the only allowed value[^3]. The square is
+$$j^{2}=(\mathbf{L}+\mathbf{S})^{2}=(L^{2}+2\mathbf{L}\cdot\mathbf{S}+S^{2})\quad\Rightarrow\quad\mathbf{L}\cdot\mathbf{S}=\frac{1}{2}(J^{2}-L^{2}-S^{2})$$
+Inserting the expectation values for angular momenta square norms ($L^{2}\psi=\hbar^{2}l(l+1)\psi$, etc.):
+$$\langle\mathbf{L}\cdot\mathbf{S}\rangle=\frac{\hbar^{2}}{2}\bigl[j(j+1)-l(l+1)-s(s+1)\bigr]$$
+We know that $j=l\pm 1/2$ is, so
+$$\langle \mathbf{L}\cdot \mathbf{S} \rangle =\hbar^{2}\begin{cases}
+j=l+\frac{1}{2}\quad\Rightarrow \quad+\frac{l}{2}\\
+j=l-\frac{1}{2}\quad\Rightarrow \quad-\frac{l+1}{2}
+\end{cases}$$
+The energy splitting of the levels is given by the difference between these values, multiplied by the average SO potential:
+$$\Delta E_{l,s}=\Bigl[\langle\mathbf{L}\cdot\mathbf{S}\rangle_{j=l+\frac{1}{2}}-\langle\mathbf{L}\cdot\mathbf{S}\rangle_{j=l-\frac{1}{2}}\Bigr]\langle V_{ls}(r)\rangle=\frac{2l+1}{2}\langle V_{ls}(r)\rangle$$
+We can see that the difference increases linearly with angular momentum. Experimentally we find that $V_{ls}(r)$ is negative, so the $j=l+1/2$ level always lies below the $j=l-1/2$ level.
 
-The effect of this correction is very pronounced, and with it the magic numbers are reproduced perfectly.
+The effect of this correction is pronounced, as it makes important changes to the ordering of magic numbers. All levels with nonzero $l$, which are $p,d,f,g\ldots$, are split into two new levels.
 
-![[Closed shells spin–orbit.png|360]]
+:::image
+![[Closed shells spin-orbit.png|400]]
+A diagram showing shells according to the spin-orbit-corrected Woods-Saxon mean potential. The left side shows the shells predicted by uncorrected Woods-Saxon. Notice how all known magic numbers (2, 8, 20, 28, 50, 82, 126) are reproduced, and how much splitting SO coupling introduces. By the way, the number 184 is possibly correct theoretical prediction of a new magic number!
+:::
 
-Now levels with $l>0$ are split into two new levels. The quantum number $j$ is usually specified by an additional subscript on the letter associated with $l$. For example, for the state $n=1$ and $l=3$ ($1f$), which has degeneracy 14, one writes  
+In notation, the quantum number $j$ is usually specified by an additional subscript. For example, for the state $n=1$ and $l=3$ (i.e. the level $1f$), one would write the two possible states as
 $$\begin{cases}
 j=\dfrac{5}{2}\rightarrow\text{level }1f_{5/2}\\[4pt]
-j=\dfrac{7}{2}\rightarrow\text{level }1f_{7/2}.
-\end{cases}$$  
-Each of these levels has a **capacity**, i.e. the number of nucleons it can hold. Summing the capacities progressively reproduces every magic number one by one.
-
-### Applications  
-Consider two [[Isotope|isotopes]] of oxygen: $^{15}_{8}\text{O}$ and $^{17}_{8}\text{O}$. Both have 8 protons, but one has 7 neutrons and the other 9. In the first case there is an unpaired proton; in the second an unpaired neutron.
+j=\dfrac{7}{2}\rightarrow\text{level }1f_{7/2}
+\end{cases}$$
+This model is very precise for $A<150$ and $190<A<220$. Outside this range other methods should be used, such as accounting for nuclear deformation.
+## Applications
+The shell model is quite useful to make predictions regarding the stability of nuclei. To illustrate, consider two [[Isotope|isotopes]] of oxygen: $\ce{^{15}_{8}O}$ and $\ce{^{17}_{8}O}$. Both have 8 protons, but one has 7 neutrons and the other has 9. Recall that 8 is a magic number, so these are both magic nuclei for protons and *almost* magic in neutrons. In the first case there is one too few neutrons; in the second one too many. Recall also that nucleons like to paired: this means that one proton will be unpaired in oxygen-15 and one neutron will be unpaired in oxygen-17. The missing nucleon of a pair is often called a **hole** in the shell.
 
 ![[Oxygen shells.png]]
 
-In $^{15}_{8}\text{O}$ the unpaired proton is in the $1p_{1/2}$ shell. The ground state of the nucleus should therefore have spin $1/2$ and parity $(-1)^{1}=-1$. It is customary to write the nuclear state as $J^{P}$, where $J$ is the angular momentum and $P$ the parity, denoted by $+$ and $-$. In this case we have $J^{P}=\tfrac{1}{2}^{-}$.
+It is customary to write the overall nuclear state as $J^{P}$, where $J$ is the total angular momentum and $P$ is the [[parity]], denoted by $+$ and $-$. The parity of the [[wavefunction]] of a nucleus with a single hole is $(-1)^{l}$, where $l$ is the shell with the hole. Similarly, the total angular momentum is that of the shell with the hole.
 
-In $^{17}_{8}\text{O}$ there is a hole in the $1d_{5/2}$ level, so the spin should be $5/2$ and the parity $(-1)^{2}=+1$, giving $J^{P}=\tfrac{5}{2}^{+}$.
+In $\ce{^{15}_{8}O}$ the unpaired proton is in the $1p_{1/2}$ shell, so there is a hole in the equivalent neutron shell. The ground state of the nucleus should therefore have $J=1/2$ and parity $P=(-1)^{1}=-1$. In proper notation: $J^{P}=\tfrac{1}{2}^{-}$.
 
+In $\ce{^{17}_{8}O}$ the hole is in the $1d_{5/2}$ shell, so the momentum should be $J=5/2$ and the parity should be $P=(-1)^{2}=+1$. In proper notation: $J^{P}=\tfrac{5}{2}^{+}$.
 #### Even–even and odd–odd nuclei  
 For [[Nuclide|nuclides]] with both $Z$ and $N$ even, regardless of which states are excited, the ground state will be $J^{P}=0^{+}$ and the first excited state will be $J^{P}_{1}=2^{+}$. Because they are paired, they always have positive parity.
 
@@ -99,3 +105,7 @@ For example, in $^{7}_{3}\text{Li}_{4}$ ($J^{P}=\tfrac{3}{2}^{+}$) the unpaired 
 Case 2 requires much more energy.
 
 [^1]: This is the main difference with the electron shell model, which has to deal with a primary central potential from the nucleus *and* secondary inter-electron potentials.
+
+[^2]: You can do this with any mean potential. For instance, we could've added an SO term to the quantum harmonic oscillator from before and it would've improved our findings.
+
+[^3]: Combining angular momenta follows the universal triangle rule that the allowed values of a combination are given by $j=\lvert j_{1}-j_{2} \rvert,\lvert j_{1}-j_{2} \rvert+1,\ldots,j_{1}+j_{2}$, where $j_{1}$ and $j_{2}$ are any angular momenta, be it orbital, spin, same particle, different particles, etc. Here we have $j_{1}=l$ and $j_{2}=s$, so for $l=0$, $j=\lvert 0- 1/2 \rvert, 0+ 1/2=1/2$, which leaves only possible value.

@@ -3,7 +3,7 @@ wiki-publish: true
 aliases:
   - dual tensor
 ---
-The **field tensor** is the [[Lorentz transformation|relativistic]] generalization of the [[Electric field|electric]] and [[Magnetic field|magnetic fields]]:
+The **electromagnetic (field) tensor** is the [[Lorentz transformation|relativistic]] generalization of the [[Electric field|electric]] and [[Magnetic field|magnetic fields]]:
 $$F^{\mu \nu}\equiv \begin{pmatrix}
 0 & E_{x}/c & E_{y}/c & E_{z}/c \\
 -E_{x}/c & 0 & B_{z} & -B_{y} \\

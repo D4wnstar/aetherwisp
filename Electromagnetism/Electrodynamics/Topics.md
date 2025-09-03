@@ -37,5 +37,5 @@ wiki-publish: true
 - [[Compton scattering]]
 - [[Minkowski force]]
 - [[Magnetism as a relativistic phenomenon]]
-- [[Transformations of E and B]], [[field tensor]]
+- [[Transformations of E and B]], [[Electromagnetic tensor]]
 - [[Maxwell's equations#Relativistic form]]

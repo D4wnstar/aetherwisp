@@ -52,7 +52,7 @@ Just like how fields carry angular momentum, they also carry [[angular momentum]
 $$\boxed{\boldsymbol{\ell}=\mathbf{r}\times \mathbf{g}=\varepsilon_{0}[\mathbf{r}\times(\mathbf{E}\times \mathbf{B})]}$$
 This is interpreted in the same way as above: it's not just charges that induce an angular momentum, fields themselves also carry it and this amount is mandatory for the conservation law to be upheld.
 ### Relativity
-The Lorentz force has a relativistic expression as a [[Minkowski force]] in [[spacetime]] caused by the [[field tensor]] $F^{\mu \nu}$. A charge $q$ moving at [[proper velocity]] $\eta^{\mu}=(\gamma c,\mathbf{v})$ will be subject to a relativistic Lorentz force
+The Lorentz force has a relativistic expression as a [[Minkowski force]] in [[spacetime]] caused by the [[electromagnetic tensor]] $F^{\mu \nu}$. A charge $q$ moving at [[proper velocity]] $\eta^{\mu}=(\gamma c,\mathbf{v})$ will be subject to a relativistic Lorentz force
 $$\boxed{K^{\mu}=q\eta_{\nu}F^{\mu \nu}}$$
 
 > [!quote]- Deriving the classical Lorentz force

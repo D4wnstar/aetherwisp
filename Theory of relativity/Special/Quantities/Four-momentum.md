@@ -2,6 +2,7 @@
 wiki-publish: true
 aliases:
   - energy-momentum four-vector
+  - relativistic momentum
 ---
 The **four-momentum**, or **energy-momentum four-vector**, of an object of [[mass]] $m$ is a [[four-vector]] that extends the concept of [[linear momentum]] to special relativity:
 $$p^{\mu}=m\eta^{\mu}=\left(\frac{E}{c},\;\mathbf{p}\right)=(\gamma mc,\gamma m\mathbf{v})$$
@@ -9,7 +10,7 @@ where $\eta$ is the [[proper velocity|proper four-velocity]], $E$ is the [[relat
 
 The total four-momentum of a [[Physical system|system]] is a conserved quantity. This does not mean it is a [[relativistic invariant]] (it's not even a [[scalar]]); conservation has nothing to do with [[Frame of reference|frames of reference]], it just means that the quantity remains the same before and after a process.
 
-The [[norm]] $p_{\mu}p^{\mu}=-m^{2}c^{2}$ of the four-momentum is called the [[center-of-mass energy]]. This name comes from nuclear and [[Particle]] physics where it is used in the context of an $N$-body system. This makes the four-momentum related to the relativistic energy by
+The [[norm]] $p_{\mu}p^{\mu}=-m^{2}c^{2}$ of the four-momentum is called the [[center-of-mass energy]]. This name comes from nuclear and [[particle]] physics where it is used in the context of an $N$-body system. This makes the four-momentum related to the relativistic energy by
 $$E^{2}-p^{2}c^{2}=m^{2}c^{4}$$
 ### $N$-body system
 The four-momentum and relativistic energy of a [[Physical system|system]] of $N$ bodies is just the sum of individual momenta and energy:

@@ -40,8 +40,8 @@ $$V(\mathbf{r},t)=\frac{1}{4\pi \varepsilon_{0}}\int_{\mathcal{V}} \frac{\rho(\m
 where $\mathfrak{r}=\sqrt{ r^{2}+r'^{2}-2\mathbf{r}\cdot \mathbf{r}' }$. As in other situations, like [[Electric dipole#Radiation]] and [[Magnetic dipole#Radiation]], we are going to consider the source as very small compared to the distances that we are considering
 $$r'\ll r\tag{Small source approximation}$$
 Since $r'$ is a variable of integration, this means that $r'\ll r$ at all points during the integration, i.e. the entire source is small. In this approximation we get
-$$\mathfrak{r}=r^{2}\sqrt{ 1\pm \frac{2}{r}\mathbf{r}\cdot \mathbf{r}'+ \frac{r'^{2}}{r^{2}}}$$
-$r'^{2}/r^{2}$ is second-order and therefore negligible in the small source approximation. The rest of the root can use the [[Binomial theorem|binomial expansion]] to first order:
+$$\mathfrak{r}=r\sqrt{ 1- 2\frac{\hat{\mathbf{r}}\cdot \mathbf{r}'}{r}+ \frac{r'^{2}}{r^{2}}}$$
+Careful with the change from $\mathbf{r}$ to $\hat{\mathbf{r}}$ in the cross-term! $r'^{2}/r^{2}$ is second-order and therefore negligible in the small source approximation. The rest of the root can use the [[Binomial theorem|binomial expansion]] to first order ($\sqrt{ 1-x }\simeq1-x/2$):
 $$\mathfrak{r}\simeq r\left( 1- \frac{\hat{\mathbf{r}}\cdot\mathbf{r}'}{r} \right)$$
 and so our distribution is actually dependent on
 $$\rho\left( \mathbf{r}',t- \frac{\mathfrak{r}}{c} \right)\simeq \rho\left( \mathbf{r}',t- \frac{r}{c}+ \frac{\hat{\mathbf{r}}\cdot\mathbf{r}'}{c} \right)$$

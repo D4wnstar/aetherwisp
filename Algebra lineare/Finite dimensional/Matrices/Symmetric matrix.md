@@ -8,7 +8,7 @@ $$M=M^{T}\quad\text{or equivalently}\quad M_{ij}=M_{ji}$$
 It is said to be **antisymmetric** if its transpose is equal to the opposite of itself:
 $$M=-M^{T}\quad\text{or equivalently}\quad M_{ij}=-M_{ji}$$
 ### Properties
-Antisymmetric matrices (a.m.) are rather special. The sum of two a.ms is itself an a.m., and the product between a [[scalar]] and an a.m. is again an a.m. This means that the sum and scalar product operations between a.ms are closed: this is sufficient condition to state that the space of all a.ms is a [[vector space]]. More info on this can be found in [[Rotation#Exponentiation]].
+Antisymmetric matrices (a.m.) are rather special. The sum of two a.ms is itself an a.m., and the product between a [[scalar]] and an a.m. is again an a.m. This means that the sum and scalar product operations between a.ms are closed: this is sufficient condition to state that the space of all a.ms is a [[vector space]]. More info on this can be found in [[Rotation#Rotation vector spaces]].
 
 Actually, it's something more than this. If we invoke the [[Commutator]] and take two a.ms $\Omega_{1}$ and $\Omega_{2}$, we can calculate
 $$([\Omega_{1},\Omega_{2}])^{T}=(\Omega_{1}\Omega_{2}-\Omega_{2}\Omega_{1})^{T}=\underbrace{ \Omega_{2}^{T} }_{ -\Omega_{2} }\underbrace{ \Omega_{1}^{T} }_{ -\Omega_{1} }-\Omega_{1}^{T}\Omega_{2}^{T}=\Omega_{2}\Omega_{1}-\Omega_{1}\Omega_{2}=-[\Omega_{1},\Omega_{2}]$$

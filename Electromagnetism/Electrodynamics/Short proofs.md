@@ -8,7 +8,6 @@ wiki-publish: true
 4. Express $\mathbf{E}\cdot \mathbf{J}$ by inverting Ampere-Maxwell's law for $\mathbf{J}$.
 5. Vector calculus magic on $\mathbf{E}\cdot (\nabla\times \mathbf{B})$ and use Poynting vector.
 6. Plug into integral, use divergence theorem. Result:
-
 $$P=\frac{ \partial U }{ \partial t } =-\frac{ \partial  }{ \partial t } \int_{\mathcal{V}}u(\mathbf{r})\ d\tau-\oint_{\mathcal{S}}\mathbf{S}\cdot d\mathbf{a}$$
 
 **Conservation of momentum**

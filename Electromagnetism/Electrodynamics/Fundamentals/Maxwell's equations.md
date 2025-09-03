@@ -173,7 +173,7 @@ But $\gamma \mathbf{v}$ is just the spatial part of the [[proper velocity]]! So 
 $$J^{\mu}=\rho_{0}\eta^{\mu}=(c\rho,J_{x},J_{y},J_{z})$$
 This is known as the **[[four-current]]**. The **relativistic Maxwell's equations** then are
 $$\boxed{\frac{ \partial F^{\mu \nu} }{ \partial x^{\nu} } =\mu_{0}J^{\mu},\qquad \frac{ \partial G^{\mu \nu} }{ \partial x^{\nu} } =0}$$
-in both [[field tensor]] and [[Field tensor|dual tensor]] formalisms (summation over $\nu$ implied). Each of these equations have *four* components. This is because the values of $\mu=0,1,2,3$ each lead to one component. Combined, these two provide the same information as the classical Maxwell's equations.
+in both [[electromagnetic tensor]] and [[Electromagnetic tensor|dual tensor]] formalisms (summation over $\nu$ implied). Each of these equations have *four* components. This is because the values of $\mu=0,1,2,3$ each lead to one component. Combined, these two provide the same information as the classical Maxwell's equations.
 
 > [!quote]- Deriving the old equations
 > To prove that these are actually correct, we will derive the classical Maxwell's equations from just these two. Start from $\mu=0$:
