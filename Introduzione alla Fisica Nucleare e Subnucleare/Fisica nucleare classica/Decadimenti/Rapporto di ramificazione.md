@@ -3,7 +3,7 @@ wiki-publish: true
 aliases:
   - branching ratio
 ---
-La maggior parte dei [[Atomic nucleus|nuclei]] [[Decadimento nucleare|decadono]] in diversi modi ($\alpha$, $\beta$, ecc.) in competizione. I rapporti di intensità relative sono definite dai **rapporti di ramificazione** (*branching ratios*). In generale sono definiti dando le costanti di decadimento parziali e il tempo di decadimento parziale.
+La maggior parte dei [[Atomic nucleus|nuclei]] [[Nuclear decay|decadono]] in diversi modi ($\alpha$, $\beta$, ecc.) in competizione. I rapporti di intensità relative sono definite dai **rapporti di ramificazione** (*branching ratios*). In generale sono definiti dando le costanti di decadimento parziali e il tempo di decadimento parziale.
 
 Per esempio, l'attinio $^{226}Ac$ [[Decadimento Alpha|decade]] $\alpha$ lo 0.006% delle volte, [[Decadimento Beta|decade]] $\beta$ l'83% delle volte, subisce [[Decadimento Beta|cattura elettronica]] il 17% delle volte. L'attinio ha tempo di dimezzamento $t_{1/2}=20$ ore. La costante di decadimento totale è $\lambda_{t}=0.693/t_{1/2}=6.6\times10^{-6}\text{ s}^{-1}$. Ricavo le costanti di decadimento parziali
 $$\begin{align}

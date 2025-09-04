@@ -3,7 +3,7 @@ wiki-publish: true
 aliases:
   - particella alpha
 ---
-Il **decadimento $\alpha$** è un tipo di [[Decadimento nucleare|decadimento]] nel quale un [[Nuclide]] emette una *particella $\alpha$*, ossia un [[Atomic nucleus|nucleo]] di elio $_{2}^{4}\text{He}_{2}$. Il nucleo rilasciato è molto legato (infatti è [[Magic number|doppiamente magico]]), quindi l'energia cinetica rilasciata è massimizzata. Il processo di decadimento è
+Il **decadimento $\alpha$** è un tipo di [[Nuclear decay|decadimento]] nel quale un [[Nuclide]] emette una *particella $\alpha$*, ossia un [[Atomic nucleus|nucleo]] di elio $_{2}^{4}\text{He}_{2}$. Il nucleo rilasciato è molto legato (infatti è [[Magic number|doppiamente magico]]), quindi l'energia cinetica rilasciata è massimizzata. Il processo di decadimento è
 $$_{Z}^{A}X_{N} \rightarrow\ _{Z-2}^{A-4}X'_{N-2}+\alpha$$
 dove $X$ e $X'$ sono simboli chimici di specie nucleari diverse nello stato iniziale e finale. Il numero di protoni e neutroni deve conservarsi separatamente. L'energia cinetica tipica della particella $\alpha$ emessa è nell'ordine dei [[Electronvolt|MeV]].
 
@@ -11,7 +11,7 @@ Il decadimento $\alpha$ è mediato dall'[[Strong interaction]].
 
 Una reazione tipo è
 $$_{88}^{226}\text{Ra}_{138}\rightarrow\, _{86}^{222}\text{Rn}_{136}+\,_{2}^{4}\text{He}_{2}$$
-che ha un [[Legge di decadimento radioattivo|tempo di dimezzamento]] di 1600 anni e la particella $\alpha$ ha un'energia cinetica di $4.8$ MeV.
+che ha un [[Radioactive decay law|tempo di dimezzamento]] di 1600 anni e la particella $\alpha$ ha un'energia cinetica di $4.8$ MeV.
 ## Meccanismo
 Protoni e neutroni hanno [[Binding energy]] attorno agli 8 MeV, quindi non possono scappare dal nucleo se non in condizioni particolare. Può però succedere che l'emissione di un gruppo di nucleoni sotto forma di un sistema legato $^{4}\text{He}$ sia energeticamente favorita.
 
@@ -50,7 +50,7 @@ Con un nucleo possiamo scrivere
 $$k_{2}=\sqrt{\frac{2m}{\hbar^{2}} \frac{1}{2}(C-Q)}$$
 Per un nucleo pesante si ha $Z=90$, $a=7.5$ fm, $C\simeq34$ MeV e usando
 $$b=\frac{1}{4\pi\epsilon_{0}} \frac{zZ'e^{2}}{Q}$$
-possiamo ricavare il raggio a cui lascio la barriera. Per $Q\sim6$ MeV, si ha $b\sim42$ fm. Il valore di $b$ e di $P$ è molto sensibile a quello di $Q$, quindi anche piccole variazioni in questo possono causare cambiamenti di diversi ordini di grandezza del [[Legge di decadimento radioattivo|tempo di dimezzamento]] dei nuclidi che decadono $\alpha$.
+possiamo ricavare il raggio a cui lascio la barriera. Per $Q\sim6$ MeV, si ha $b\sim42$ fm. Il valore di $b$ e di $P$ è molto sensibile a quello di $Q$, quindi anche piccole variazioni in questo possono causare cambiamenti di diversi ordini di grandezza del [[Radioactive decay law|tempo di dimezzamento]] dei nuclidi che decadono $\alpha$.
 ## Conservazione dell'energia
 Se assumo che il nucleo originario $X$ sia a riposo, allora l'energia iniziale del sistema è $m_{X}c^{2}$. Lo stato finale è costituito da $X'$ e $\alpha$, entrambi in moto in modo da conservare l'impulso lineare. L'energia finale è dunque
 $$m_{X'}c^{2}+T_{X'}+m_{\alpha}c^{2}+T_{\alpha}$$

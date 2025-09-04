@@ -11,7 +11,11 @@ The nuclear shell model is based on two basic ideas:
 1. each nucleon is a quantum object with a defined energy eigenstate which occupies a well-defined **shell** inside the nucleus, a shell being a theoretical configuration of nucleons that, when filled, leads to a particularly stable state;
 2. the nucleons are subject to a mean [[potential]], which originates from the other nucleons[^1].
 
-Moreover, the motion of the nucleons is taken to be non-[[Lorentz transformation|relativistic]] to avoid having to invoke relativistic quantum mechanics and the [[Dirac equation]]. Finally, predictions made by this model are only valid if the outermost shell contains exactly one unpaired nucleon, be it one too many or one too few. Shells that are not complete but contain more than one nucleon, such as those in $^{23}_{11}\text{Na}_{12}$, are not correctly described.
+Moreover, a few approximations are made to render the system tenable in a mathematical manner:
+1. the motion of the nucleons is taken to be non-[[Lorentz transformation|relativistic]] to avoid having to invoke relativistic quantum mechanics and the [[Dirac equation]];
+2. nuclei are considered to be spherical.
+
+As a consequence of the latter approximation, the predictions made by this model are only valid if the outermost shell contains exactly one unpaired nucleon, be it one too many or one too few. This is because the spherical approximation is only true for nearly complete shells. Incomplete shells lack the symmetry required for this kind of treatment.
 
 Different versions of the shell models use different potentials. In fact, the choice of potentials is rather complicated compared to the electron shell model as we do not currently have an analytical form for nucleon-nucleon interaction. Whereas the choice in the atom is easy (the central potential is just the [[electric potential]] of a [[Electric charge|point charge]]), with nucleons not so much, as we must consider an $n$-body problem governed by the [[strong interaction]] and therefore go through quantum chromodynamics, which is *much* more complicated.
 ### Gaussian potential
@@ -86,23 +90,27 @@ It is customary to write the overall nuclear state as $J^{P}$, where $J$ is the 
 In $\ce{^{15}_{8}O}$ the unpaired proton is in the $1p_{1/2}$ shell, so there is a hole in the equivalent neutron shell. The ground state of the nucleus should therefore have $J=1/2$ and parity $P=(-1)^{1}=-1$. In proper notation: $J^{P}=\tfrac{1}{2}^{-}$.
 
 In $\ce{^{17}_{8}O}$ the hole is in the $1d_{5/2}$ shell, so the momentum should be $J=5/2$ and the parity should be $P=(-1)^{2}=+1$. In proper notation: $J^{P}=\tfrac{5}{2}^{+}$.
-#### Even–even and odd–odd nuclei  
-For [[Nuclide|nuclides]] with both $Z$ and $N$ even, regardless of which states are excited, the ground state will be $J^{P}=0^{+}$ and the first excited state will be $J^{P}_{1}=2^{+}$. Because they are paired, they always have positive parity.
+## Beyond the shell model
+The shell model isn't capable of giving predictions in all cases. For instance, it lacks predictive capabilities outside nearly complete shells. Some considerations can be made for nuclei beyond this scope.
+### Deformed nuclei
+The shell model expects spherical symmetry to hold. However, if the nucleus is deformed, we need to extend the model to consider the shape of the nucleus too. This is a major factor especially in the ranges $150<A<190$ and $A>230$.
+### Even-even nuclei
+For nuclei with both $Z$ and $N$ even, regardless of which states are occupied, the ground state will always be $J_{0}^{P}=0^{+}$ and the first excited state will always be $J^{P}_{1}=2^{+}$. Because they are paired, they parity is guaranteed to be positive.
+### Odd-odd nuclei  
+For nuclei with both $Z$ and $N$ odd, the total spin is obtained as usual for a two-particle system with spins $j_{1}$ and $j_{2}$: the possible values range from $|j_{1}-j_{2}|$ to $j_{1}+j_{2}$ in integer steps. The parity is $(-1)^{l_{1}+l_{2}}$, with $l_{1}$ and $l_{2}$ the orbital angular momenta of the unpaired proton and neutron.
 
-For nuclides with both $Z$ and $N$ odd, the total spin is obtained as usual for a two-particle system with spins $j_{1}$ and $j_{2}$: the possible values range from $|j_{1}-j_{2}|$ to $j_{1}+j_{2}$ in integer steps. The parity is $(-1)^{l_{1}+l_{2}}$, with $l_{1}$ and $l_{2}$ the orbital angular momenta of the unpaired proton and neutron.
+For example, $^{6}_{3}\text{Li}_{3}$ has both an unpaired proton and an unpaired neutron in $1p_{3/2}$, so $l_{1}=l_{2}=l=1$. The parity is then $(-1)^{1+1}=+1$. The spin ranges from $|3/2-3/2|=0$ to $3/2+3/2=3$, so it can take the values 0, 1, 2, or 3. In total the possible states are
+$$J^{P}=0^{+},\,1^{+},\,2^{+},\,3^{+}$$
+## State transitions  
+Just like electrons, nucleons can undergo a [[state transition]] to move up or down shells. When receiving energy from an external source, a nucleon can reach an excited state in two ways:
+1. by being promoted to the next subshell;
+2. by being coupled with another nucleon from a more inner subshell.
 
-For example, $^{6}_{3}\text{Li}_{3}$ has both an unpaired proton and an unpaired neutron in $1p_{3/2}$, so $l_{1}=l_{2}=l=1$. The parity is then $(-1)^{1+1}=+1$. The spin ranges from $|3/2-3/2|=0$ to $3/2+3/2=3$, so it can take the values 0, 1, 2, or 3. In total the possible states are  
-$$J^{P}=0^{+},\,1^{+},\,2^{+},\,3^{+}.$$
-
-### State transitions  
-Just like electrons, nucleons can undergo a [[State transition]] to move up or down shells. A nucleon can reach an excited state in two ways:  
-1. by exciting the unpaired nucleon to the next subshell;  
-2. by coupling this nucleon with another coming from a deeper subshell.
-
-For example, in $^{7}_{3}\text{Li}_{4}$ ($J^{P}=\tfrac{3}{2}^{+}$) the unpaired neutron is in $1p_{3/2}$ and can  
-1. move up to $1p_{1/2}$, becoming $J^{P}=\tfrac{1}{2}^{-}$;  
-2. couple with the neutron in $1s_{1/2}$, becoming $J^{P}=\tfrac{1}{2}^{+}$.  
 Case 2 requires much more energy.
+
+For example, in $\ce{^{7}_{3}Li_{4}}$ (state: $J^{P}=\tfrac{3}{2}^{+}$) there is one unpaired neutron in $1p_{3/2}$ and it can
+1. move up to $1p_{1/2}$, making the nucleus end up in $J^{P}=\tfrac{1}{2}^{-}$;
+2. couple with the neutron in $1s_{1/2}$, ending up in $J^{P}=\tfrac{1}{2}^{+}$.
 
 [^1]: This is the main difference with the electron shell model, which has to deal with a primary central potential from the nucleus *and* secondary inter-electron potentials.
 

@@ -5,7 +5,7 @@ aliases:
   - processo beta inverso
   - cattura elettronica
 ---
-Il **decadimento $\beta$** è un tipo di [[Decadimento nucleare|decadimento]] nel quale un [[Atomic nucleus|nucleo]] corregge l'eccesso di [[protone|protoni]] o [[neutrone|neutroni]] convertendoli l'uno nell'altro. Esistono infatti due tipi di decadimento $\beta$, in base alla direzione della conversione:
+Il **decadimento $\beta$** è un tipo di [[Nuclear decay|decadimento]] nel quale un [[Atomic nucleus|nucleo]] corregge l'eccesso di [[protone|protoni]] o [[neutrone|neutroni]] convertendoli l'uno nell'altro. Esistono infatti due tipi di decadimento $\beta$, in base alla direzione della conversione:
 $$\text{decadimento }\beta^{-}\text{: }\quad n \rightarrow p+e^{-}+\bar{\nu}_{e}$$
 $$\text{decadimento }\beta^{+}\text{: }\quad p \rightarrow n+e^{+}+\nu_{e}$$
 dove $e^{-}$ è un [[Elettrone]] e $e^{+}$ è un [[positrone]]. Vengono emessi anche (anti)[[neutrino|neutrini]] elettronici $\nu_{e}$. Esiste anche una terza reazione, chiamata **cattura elettronica** (o c.e.)
@@ -20,7 +20,7 @@ Queste reazioni nucleari sono dette *interazioni di contatto a 4 [[Fermion|fermi
 
 Una reazione tipo $\beta^{-}$ è
 $$_{53}^{131}I_{78} \rightarrow _{54}^{131}Xe_{77}$$
-con [[Legge di decadimento radioattivo|tempo di dimezzamento]] di 8.0 giorni. Per $\beta^{+}$ invece si ha
+con [[Radioactive decay law|tempo di dimezzamento]] di 8.0 giorni. Per $\beta^{+}$ invece si ha
 $$^{25}_{13}Al_{12} \rightarrow\, ^{25}_{12}Mg_{13}$$
 con tempo di dimezzamento di 7.2 giorni. Per la cattura elettronica
 $$^{54}_{25}Mn_{29} \rightarrow\, ^{54}_{24}Cr_{30}$$

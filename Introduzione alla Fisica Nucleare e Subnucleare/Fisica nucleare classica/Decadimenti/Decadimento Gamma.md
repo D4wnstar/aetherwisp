@@ -1,7 +1,7 @@
 ---
 wiki-publish: true
 ---
-Il **decadimento $\gamma$** è un tipo di [[Decadimento nucleare|decadimento]] nel quale un [[nucleone]] in uno [[stato]] eccitato decade in uno [[stato]] diseccitato o in quello fondamentale emettendo un [[Photon]] $\gamma$ con energia pari alla differenza di energia tra livelli, meno una piccola componente cinetica dovuta al rinculo del nucleo. Spesso segue il [[decadimento alpha]] o [[Decadimento Beta|beta]] dato che questi di solito lasciano il [[Atomic nucleus|nucleo]] in uno stato eccitato.
+Il **decadimento $\gamma$** è un tipo di [[Nuclear decay|decadimento]] nel quale un [[nucleone]] in uno [[stato]] eccitato decade in uno [[stato]] diseccitato o in quello fondamentale emettendo un [[Photon]] $\gamma$ con energia pari alla differenza di energia tra livelli, meno una piccola componente cinetica dovuta al rinculo del nucleo. Spesso segue il [[decadimento alpha]] o [[Decadimento Beta|beta]] dato che questi di solito lasciano il [[Atomic nucleus|nucleo]] in uno stato eccitato.
 ## Bilanciamento energetico
 Prendiamo un nucleo di massa $M$ a riposo che decade $\gamma$ da uno stato eccitato con $E_{i}$ ad uno stato con $E_{f}$. Allora
 1. il momento lineare si conserva.

@@ -23,7 +23,7 @@ Un processo molto più energetico è il **ciclo** $3\alpha$, che coinvolge tre n
 ### Altri cicli
 Esistono cicli ulteriori per atomi più pesanti, che si innescano se la temperatura della stella è sufficientemente alta. In ordine
 $$\text{idrogeno} \rightarrow \text{elio} \rightarrow \text{carbonio} \rightarrow \text{neon} \rightarrow \text{ossigeno} \rightarrow \text{silicio}$$
-Bruciare il silicio produce nichel, che [[Decadimento nucleare|decade]] in ferro ed è quindi una reazione inefficiente che consuma più energia di quanto ne produce, motivo per cui la catena si ferma lì.
+Bruciare il silicio produce nichel, che [[Nuclear decay|decade]] in ferro ed è quindi una reazione inefficiente che consuma più energia di quanto ne produce, motivo per cui la catena si ferma lì.
 ## Condizioni minime
 Consideriamo due [[Particle|particelle]] cariche $q_{1}$ e $q_{2}$ e massa $m$ che collidono l'un l'altra a velocità $v$. La distanza minima che possono raggiungere a causa delle barriere di [[Potential]] è data dalla [[Electromagnetism|legge di Coulomb]]
 $$r=\frac{2q_{1}q_{2}}{mv^{2}}$$
