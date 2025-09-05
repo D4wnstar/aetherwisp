@@ -80802,6 +80802,12 @@
     "initialized": true,
     "codepoints": [
       {
+        "firstUsed": "2025-09-05T14:01:07.876Z",
+        "lastUsed": "2025-09-05T14:01:16.132Z",
+        "useCount": 2,
+        "codepoint": "→"
+      },
+      {
         "firstUsed": "2025-04-01T10:00:55.721Z",
         "lastUsed": "2025-04-01T10:00:55.721Z",
         "useCount": 1,

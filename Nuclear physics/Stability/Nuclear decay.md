@@ -3,7 +3,7 @@ wiki-publish: true
 aliases:
   - radioactive
 ---
-**Nuclear decay** or **radioactive decay** is the [[random]] process by which an unstable [[atomic nucleus]] loses [[energy]] through emission of [[radiation]] in order to become more stable. A nucleus decays into one or more nuclear nuclei or [[Particle|particles]], with fewer resulting particles being more common. In common terms, it's often called **radioactivity**.
+**Nuclear decay** or **radioactive decay** is the [[random]] process by which an unstable [[atomic nucleus]] loses [[energy]] through emission of [[radiation]] in order to become more stable. A nucleus decays into one or more nuclear nuclei or [[Particle|particles]], called **decay products**, with fewer resulting particles being more common. The property of decaying is often called **radioactivity**. Conventionally, when a nucleus decays into another nucleus, they are called the **mother nucleus** (or **parent nucleus**) and **daughter nucleus** respectively.
 
 For decay to occur at rest (that it, without external influence), it must be energetically favorable. For this to be possible, the mass of the original [[atom]] must be greater than the mass of all resulting particles, which implies an increase in [[binding energy]] and therefore greater stability. In the case of a two-body decay involving loss of nucleons, we can write
 $$M(A,Z)>M(A-A',Z-Z')+M(A',Z')$$

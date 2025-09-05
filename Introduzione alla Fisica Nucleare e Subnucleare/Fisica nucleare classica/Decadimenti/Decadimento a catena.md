@@ -19,11 +19,11 @@ Se $\lambda_{1}\ll \lambda_{2}$, la madre vive talmente a lungo da decadere con 
 $$N_{2}(t)\simeq N_{0} \frac{\lambda_{1}}{\lambda_{2}}(1-e^{-\lambda_{2}t})$$
 e quindi l'attività tende a diventare è costante
 $$A_{2} \rightarrow \lambda_{1}N_{0} \quad \Rightarrow \quad \frac{dN_{2}}{dt}=0$$
-Ciò significa che i nuclei figlie decadono ad un tasso pari a quello con cui sono create ($\lambda_{1}N_{1}=\lambda_{2}N_{2}$), rimanendo quindi in [[equilibrio secolare]]. Questo accade, ad esempio, nel decadimento $^{132}Te(78h) \rightarrow\ ^{132}I(2.28h) \rightarrow\ ^{132}Xe$ dopo circa 12 ore.
+Ciò significa che i nuclei figlie decadono ad un tasso pari a quello con cui sono create ($\lambda_{1}N_{1}=\lambda_{2}N_{2}$), rimanendo quindi in [[Secular equilibrium]]. Questo accade, ad esempio, nel decadimento $^{132}Te(78h) \rightarrow\ ^{132}I(2.28h) \rightarrow\ ^{132}Xe$ dopo circa 12 ore.
 
 Se $\lambda_{1}<\lambda_{2}$, ma non di molto, posso calcolare il rapporto tra le attività:
 $$\frac{\lambda_{2}N_{2}}{\lambda_{1}N_{1}}=\frac{\lambda_{2}}{\lambda_{2}-\lambda_{1}}(1-e^{-(\lambda_{2}-\lambda_{1})t}) \quad \xrightarrow{t \rightarrow \infty} \quad \frac{A_{2}}{A_{1}} \rightarrow \frac{\lambda_{2}}{\lambda_{2}-\lambda_{1}}$$
-quindi col passare del tempo, le attività non diventano costanti, ma il rapporto tra le attività sì. Questo genere di equilibrio si dice [[Equilibrio transiente]].
+quindi col passare del tempo, le attività non diventano costanti, ma il rapporto tra le attività sì. Questo genere di equilibrio si dice [[Transient equilibrium]].
 
 Se $\lambda_{1}>\lambda_{2}$, la madre decade velocemente e $A_{2}(t)$ cresce fino ad un massimo a causa dell'alta produzione di nuclei figlie e poi decade con $\lambda_{2}$. Dopo del tempo, il numero di nuclei $N_{1}$ diventa circa nullo e quindi $e^{-\lambda_{1}t}\rightarrow 0$. Si ha dunque
 $$N_{2}(t)\simeq N_{0} \frac{\lambda_{1}}{\lambda_{1}-\lambda_{2}}e^{-\lambda_{2}t}$$

@@ -17,4 +17,4 @@ Se il tempo di osservazione $t$ è molto minore della [[Radioactive decay law|vi
 $$A_{1}(t)\simeq R\lambda_{1}t \quad\text{con }t\ll t_{1/2}$$
 cioè cresce linearmente con il tempo. Per tempi di osservazione superiori si ha invece
 $$A_{1}(t)\simeq R \quad \text{con }t\gg t_{1/2}$$
-In questo caso, l'attività generata dai nuclei è pari al tasso di produzione del fascio, quindi si bilanciano a vicenda e il numero di nuclei radioattivi rimane costante. Questo è un esempio di [[equilibrio secolare]].
+In questo caso, l'attività generata dai nuclei è pari al tasso di produzione del fascio, quindi si bilanciano a vicenda e il numero di nuclei radioattivi rimane costante. Questo è un esempio di [[Secular equilibrium]].
