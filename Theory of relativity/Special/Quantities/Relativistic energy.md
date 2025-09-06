@@ -6,7 +6,7 @@ aliases:
 ---
 **Relativistic energy** is a term used to refer to the [[energy]] of a body when taking [[Lorentz transformation|relativistic]] effects into account. It is given by
 $$E=\sqrt{ p^{2}c^{2}+m^{2}c^{4} }=\gamma mc^{2}$$
-where $p$ is the [[Linear momentum|momentum]] of the body, $m$ is its [[mass]], $c$ is the [[speed of light]] and $\gamma$ is the relativistic gamma. In the special case of an object with zero momentum, we find what is known as the **rest (mass) energy** of the body:
+where $p$ is the [[Linear momentum|momentum]] of the body, $m$ is its [[mass]], $c$ is the [[speed of light]] and $\gamma$ is the relativistic gamma. In the special case of an object with zero momentum, what energy is left is known as the **rest (mass) energy** of the body:
 $$E_{0}=mc^{2}$$
 More generally, this formula is known as the **mass-energy equivalence**.
 
