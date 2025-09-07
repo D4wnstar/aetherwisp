@@ -50,7 +50,7 @@ L'ultima fermata è un nucleo di ferro, che nessuna stella può fondere dato che
 
 Durante il collasso avvengono due processi interessanti:
 - la [[fotodisintegrazione]] degli elementi pesanti, che vengono spezzati in [[Atomic nucleus|nuclei]] più piccoli strappando un [[protone]], un [[neutrone]] o una [[Alpha decay|particella alpha]].
-- la [[Decadimento Beta|cattura elettronica]] da parte dei protoni, che vengano convertiti in neutroni.
+- la [[Beta decay|cattura elettronica]] da parte dei protoni, che vengano convertiti in neutroni.
 
 Questi processi sono importanti perché assorbono energia, favorendo ancora di più il collasso. In particolare, la fotodisintegrazione diminuisce il [[Gravity|potenziale gravitazionale]] spostando l'[[Binding energy]] degli [[Atom|atomi]] spezzati ai nuclei stessi. Questo porta ad una diminuzione dei raggi degli oggetti che compongono la stella, con conseguente enorme rilascio di energia ($\Omega\simeq GM_{\star}^{2}/R$). Per esempio, un collasso in una stella di neutroni di raggio $1.44 M_{\odot}$ libera $E_{grav}\sim5\times10^{53}$ erg di energia. Una stella di $10M_{\odot}$ che in tutta la sua esistenza brucia il 10% della sua massa con l'1% di efficienza produce $2\times10^{52}$ erg di energia, più di 10 volte meno.
 #### Stelle ultramassive

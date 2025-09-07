@@ -13,4 +13,4 @@ The electronvolt typically doubles as a unit of [[mass]]. According to the [[Rel
 $$1 \frac{\text{ eV}}{c^{2}}=1.7\times 10^{-36}\text{ kg}$$
 Though tiny, this scale of mass/energy is quite common in nuclear and particle physics. Since most processes in this domain rely on [[Lorentz transformation|relativistic]] calculations where energy is frequently exchanged with mass, using electronvolts to refer to rest mass ends up being much more convenient. For instance, the mass of the [[proton]] is $m_{p}=938 \text{ MeV}/c^{2}$.
 
-Note that for electronvolts to measure mass they must be weighed by $c^{2}$. As such, [[natural units]] are quite useful, in which $c\equiv1$. In these units, the $c^{2}$ disappears and mass and energy become truly equivalent. Then, mass can be written in $\text{eV}$ without mistakes, e.g. $m_{p}=938\text{ MeV}$.
+Note that for electronvolts to measure mass they must be weighed by $c^{2}$. As such, [[natural units]] are quite useful, in which $c\equiv1$. In these units, the $c^{2}$ disappears and mass and energy become truly equivalent. Then, mass can be written in $\text{eV}$, e.g. $m_{p}=938\text{ MeV}$.
