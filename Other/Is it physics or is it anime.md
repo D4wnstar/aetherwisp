@@ -20,7 +20,6 @@
 - Magic angle twisted bilayer graphene
 - Stellar aberration
 - Umbral calculus
-- Bernoulli umbra
 - Ewald sphere
 - Sea of quarks
 - Ewald-Oseen extinction theorem
@@ -29,3 +28,5 @@
 - Confluent hypergeometric function
 - Four-dimensional hyperbolic rotation
 - Quantum flavordynamics
+- Nuclear recoil
+- Disintegration energy

@@ -6,10 +6,13 @@ aliases:
 **Kinetic energy** is a form of [[energy]] that an object gains due to motion. For a [[point mass]] of [[mass]] $m$, velocity $\mathbf{v}$ and [[linear momentum]] $\mathbf{p}=m\mathbf{v}$, it is
 $$K=\frac{1}{2}m\lvert \mathbf{v} \rvert^{2} =\frac{\lvert \mathbf{p} \rvert ^{2}}{2m}$$
 In many cases, such as an extended object like a [[rigid body]], the kinetic energy also likely includes other contributions, such as rotational energy, vibrational energy and so on. For instance, if the point mass it also [[Rotation|rotating]] around an axis, it also gains additional rotational kinetic energy, which is described in the simplest form through the [[Moment of inertia|inertia tensor]] $\mathcal{I}$ as
-$$T=\frac{1}{2}\boldsymbol{\omega}\times \mathcal{I}\boldsymbol{\omega}$$
+$$K=\frac{1}{2}\boldsymbol{\omega}\times \mathcal{I}\boldsymbol{\omega}$$
  In a system of $N$ point masses, it is simply the sum of all individual kinetic energies:
 $$K=\frac{1}{2}\sum_{i=1}^{N} m_{i}\lvert \mathbf{v}_{i} \rvert ^{2}$$
 The sum of kinetic and [[potential energy]] is called the **mechanical energy** of the body or [[Physical system|system]].
+
+> [!question] A note on notation
+> Aetherwisp uses both $K$ and $T$ to denote kinetic energy. $K$ is the favored notation because it's more intuitive and avoids overlap with [[temperature]], but some parts of the website like Analytical Mechanics may use $T$ instead.
 ### In analytical mechanics
 Kinetic energy naturally comes up quite often in analytical mechanics. In this context, a few additional details are useful to know:
 - it depends on the [[stato|state]] of the body, that is, it is a function of both [[generalized coordinates]], their velocities and (possibly) time: $(q_{1},\ldots,q_{n},\dot{q}_{1},\ldots,\dot{q}_{n},t)\equiv(q,\dot{q},t)$ where $n$ is the number of [[degrees of freedom]] the body has;

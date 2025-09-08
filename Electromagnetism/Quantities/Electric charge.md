@@ -3,6 +3,7 @@ wiki-publish: true
 aliases:
   - point charge
   - charge carrier
+  - charge
 ---
 **Electric charge**, often simply just **charge**, is the physical property of a [[Particle|particle]] that causes it exhibit [[Electromagnetism|electromagnetic interaction]]. It may be positive, negative or zero. A particle with zero electric charge is said to be electrically neutral. Charges of different type annihilate each other, in the sense that their effects cancel each other out. Charge is quantized and the fundamental unit of charge is the [[Elementary charge|charge of the electron]] $e$.
 ### Conservation

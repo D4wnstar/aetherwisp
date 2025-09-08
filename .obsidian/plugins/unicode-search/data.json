@@ -80802,6 +80802,24 @@
     "initialized": true,
     "codepoints": [
       {
+        "firstUsed": "2025-09-08T15:33:05.922Z",
+        "lastUsed": "2025-09-08T15:33:05.922Z",
+        "useCount": 1,
+        "codepoint": "✕"
+      },
+      {
+        "firstUsed": "2025-09-08T15:32:53.583Z",
+        "lastUsed": "2025-09-08T15:32:53.583Z",
+        "useCount": 1,
+        "codepoint": "✗"
+      },
+      {
+        "firstUsed": "2025-09-08T15:32:37.845Z",
+        "lastUsed": "2025-09-08T15:32:56.678Z",
+        "useCount": 2,
+        "codepoint": "⨯"
+      },
+      {
         "firstUsed": "2025-09-05T14:01:07.876Z",
         "lastUsed": "2025-09-05T14:01:16.132Z",
         "useCount": 2,

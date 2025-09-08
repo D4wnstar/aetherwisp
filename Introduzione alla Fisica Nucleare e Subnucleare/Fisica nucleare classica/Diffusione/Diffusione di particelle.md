@@ -30,7 +30,7 @@ La **diffusione anelastica** è un tipo di diffusione dove parte dell'energia ci
 ![[Schema Diffusione anelastica|60%|center]]
 La diffusione si scrive
 $$a+b \rightarrow a'+b^{*} \rightarrow a'+c+d$$
-dove $b^{*}$ può tornare allo stato fondamentale emettendo [[Decadimento Gamma#Radiazione elettromagnetica|radiazione]] $\gamma$ o può [[Nuclear decay|decadere]] in $c$ e $d$.
+dove $b^{*}$ può tornare allo stato fondamentale emettendo [[Gamma decay#Radiazione elettromagnetica|radiazione]] $\gamma$ o può [[Nuclear decay|decadere]] in $c$ e $d$.
 
 Se da una diffusione anelastica rivelo solo $a'$, si dice **inclusiva**, mentre se rivelo tutti i prodotti di reazione, si dice **esclusiva**. In realtà, il proiettile $a$ può anche scomparire in una diffusione anelastica, emettendo solo nuove particelle o trasferendo l'energia per alzare di stato il bersaglio.
 ## Diffusione di Rutherford

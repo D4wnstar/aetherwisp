@@ -12,7 +12,7 @@ Consider a macroscopic object made up of $N$ radioactive [[Atomic nucleus|nuclei
 
 The number $dN$ of nuclei that decay in a time unit $dt$ is proportional to the number $N$ present. The ratio between decay rate $dN/dt$ and number of nuclei $N$ is
 $$\lambda=-\frac{1}{N}\frac{dN}{dt}$$
-which is known as the **decay constant**. The equation is a first-order [[ordinary differential equation]] in $N$, solved by direct integration:
+which is known as the **decay constant**, measured in inverse seconds. The equation is a first-order [[ordinary differential equation]] in $N$, solved by direct integration:
 $$\boxed{N(t)=N_{0}e^{-\lambda t}}$$
 This is the **radioactive decay law**, where $N_{0}$ is the number of nuclei at the start of the observation. It is an exponential decay law whose rate is determined by the decay constant.
 #### Properties

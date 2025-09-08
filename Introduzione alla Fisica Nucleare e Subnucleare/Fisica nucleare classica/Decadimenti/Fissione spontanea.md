@@ -10,7 +10,7 @@ Considero $R_{0}$ il raggio dell'atomo madre e $R_{1}$ e $R_{2}$ il raggio dei d
 ![[Grafico Fissione nucleare|80%|center]]
 Il meccanismo è simile a quello del [[Alpha decay]]. Nel caso di sopra, per superare la barriera Coulombiana, bisogna avere energie superiori al potenziale
 $$V=\frac{1}{4\pi\epsilon_{0}} \frac{Z_{1}Z_{2}e^{2}}{R}\sim(1.44\text{ MeV fm})\times \frac{(46)^{2}}{12\text{ fm}}\sim250\text{ MeV}$$
-L'energia associata ad un $^{238}\text{U}$ è $E_{i}=238\times7.6\text{ MeV}=1809$ MeV. Quella associata a due atomi di $^{119}\text{Pd}$ è $E_{f}=2\times119\times8.5\text{MeV}=2023$ MeV. Allora $\Delta E=E_{f}-E_{i}=214$ MeV. Per conservare l'energia (quindi $E_{i}=E_{f}$) mancano 214 MeV. Questi MeV mancanti si trovano in altri prodotti della fissione nucleari, come ad esempio [[neutrone|neutroni]], [[Elettrone|elettroni]], [[Decadimento Gamma#Radiazione elettromagnetica|radiazione]] $\gamma$ e altro.
+L'energia associata ad un $^{238}\text{U}$ è $E_{i}=238\times7.6\text{ MeV}=1809$ MeV. Quella associata a due atomi di $^{119}\text{Pd}$ è $E_{f}=2\times119\times8.5\text{MeV}=2023$ MeV. Allora $\Delta E=E_{f}-E_{i}=214$ MeV. Per conservare l'energia (quindi $E_{i}=E_{f}$) mancano 214 MeV. Questi MeV mancanti si trovano in altri prodotti della fissione nucleari, come ad esempio [[neutrone|neutroni]], [[Elettrone|elettroni]], [[Gamma decay#Radiazione elettromagnetica|radiazione]] $\gamma$ e altro.
 
 Durante la fissione, la geometria del nucleo cambia. Da una sfera, le forze Coulombiane deformano il nucleo in un'ellissoide, finché si spacca in due nuclei più piccoli. Nel deformarsi, aumenta la superficie del nucleo, ma diminuisce la repulsione Coulombiana.
 
