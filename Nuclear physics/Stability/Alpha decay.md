@@ -13,7 +13,7 @@ The alpha decay is governed by the opposition of the nuclear attraction due to t
 
 An example alpha decay is for radium-226:
 $$\ce{_{88}^{226}Ra_{138}}\ \rightarrow\ \ce{_{86}^{222}Rn_{136}}+\ \ce{_{2}^{4}He_{2}}$$
-The [[half-life]] of this decay is about 1600 years and the [[kinetic energy]] of the alpha particle is about 4.8 MeV.
+The [[half-life]] of this decay is about 1600 years and the [[kinetic energy]] of the alpha particle is about 4.8 [[Electronvolt|MeV]].
 ### Mechanism
 Within the nucleus, protons and neutrons are subject to binding energies around 8 MeV each. The exact number depends on the nucleus: see [[Semi-empirical mass formula]] for a theoretical prediction. For them to escape, the nucleus must be in a condition where ejecting an alpha particle would leave the nucleus with more binding energy per nucleon than it started. Beyond $A\sim56$, binding energy per nucleon begins to progressively drop. As such, from this point on, it can be energetically favored to eject one or more nucleons, resulting in a smaller, more bound nucleus. It is this condition that makes alpha decay feasible, which is why it occurs primarily in large, heavy nuclei ($A\gtrsim 100$ at least, often $A\gtrsim 200$)[^1].
 

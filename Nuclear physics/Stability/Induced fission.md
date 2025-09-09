@@ -1,0 +1,13 @@
+---
+wiki-publish: true
+---
+**Induced fission** is a mode of [[nuclear decay|decay]] in which a heavy [[Atomic nucleus|nucleus]] is struck by a [[neutron]], causing it [[nuclear fusion|fuse]] with the nucleus and producing a highly unstable excited [[isotope]] which then immediately undergoes [[nuclear fission]].
+
+The nuclear reaction reads
+$$\ce{^{A}X_{N}}+n\to \ce{^{A+1}X^{*}_{N+1}}\to\ce{X'}+\ce{X''}+\nu n$$
+where $\ce{X}$ is the original nuclide, $\ce{^{A+1}X^{*}_{N+1}}$ is its isotope with one more neutron, left in an excited state, $\ce{X'}$ and $\ce{X''}$ are the fission fragments and $\nu n$ are the $\nu$ additional [[neutron|neutrons]] that are emitted as part of the fission. It is a two-step process in which the nucleus is first bombarded with a neutron, then the resulting isotope undergoes [[spontaneous fission]]. As such, induced fission is essentially a brute-force method to make spontaneous fission happen when it can't happen naturally, or when it doesn't happen sufficiently fast for the intended use case. For this reason, the physics behind induced fission are almost the same as the spontaneous case, with the only major difference being the first step.
+
+Since induced fission relies on creating a highly unstable isotope that will spontaneously split, not all [[Nuclide|nuclides]] are a good fit for nuclear fuel. Materials that undergo fission after being struck with a low-energy neutron (**thermal neutron**, $\sim 0.025\text{ eV}$) are called **fissile materials**. The most common fissile materials is $\ce{^{235}U}$. Materials that undergo fission only when struck by a high-energy neutron (**fast neutron**, $\sim 1\text{ MeV}$) are called **fissionable materials**. The most common one is $\ce{^{238}U}$. The big difference is that fissile materials can sustain a thermal-neutron chain reaction, whereas fissionable ones cannot. Finally, materials that don't undergo fission when struck, but produce fissile or fissionable material are called **fertile materials**. The most common are $\ce{^{234}U}$ and, maybe surprisingly, $\ce{^{238}U}$ again. $\ce{^{234}U}$ produces $\ce{^{235}U}$, which we mentioned is a fissile. Meanwhile, $\ce{^{238}U}$ *can* momentarily become $\ce{^{239}U^{*}}$ and then split, but unless the neutron was very energetic, it generally becomes $\ce{^{239}U}$ (not excited) and then [[Beta decay|beta decays]] twice to become $\ce{^{239}Pu}$, which is fissile.
+
+For example, one possible induced fission of $^{235}\text{U}$ reads
+$$\ce{^{235}_{92}U_{143}} + n\to \ce{^{236}_{92}U^{*}_{144}} \rightarrow\ \ce{_{37}^{93}Rb_{56}}+ \ce{_{55}^{141}Cs_{86}}+2n$$

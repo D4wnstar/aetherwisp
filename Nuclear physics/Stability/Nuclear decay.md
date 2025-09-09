@@ -14,8 +14,6 @@ There are three main modes of decay exist:
 - **[[Beta decay]]**, which converts a [[proton]] into a [[neutron]] or vice versa;
 - **[[Gamma decay]]**, which leads to the emission of a high-energy [[photon]].
 
-Another mode, somewhat different, is **[[spontaneous fission]]**, occurring only for very heavy nuclei ($Z\gtrsim110$), where the nucleus splits into two smaller nuclei instead of emitting single particles.
-
-Fermium $^{256}\text{Fm}$ and californium $^{254}\text{Cf}$ are examples exhibiting spontaneous fission.
+Another mode, somewhat different, is **[[spontaneous fission]]**, occurring only for very heavy nuclei ($A\gtrsim230$), where the nucleus splits into two smaller nuclei instead of emitting single particles.
 ### Mechanism
 The exact mechanism depends on the type decay of decay. It is nonetheless possible to create a high-level macroscopic theory that describes the loss of [[mass]] and nuclei in an unstable object due to decay irrespective of type. This common treatment is available via the [[radioactive decay law]].

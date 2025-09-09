@@ -16,7 +16,7 @@ Instability can arise from several factors; the [[semi-empirical mass formula]] 
 :::image(sidebar)
 ![[Isotopes_and_half-life.svg]]
 A table of nuclides containing all known nuclides and their [[Nuclear decay|decay]] [[half-life]].
-By BenRG - Own work, Public Domain, from [Wikipedia](https://commons.wikimedia.org/w/index.php?curid=7900237).
+By BenRG - Own work, Public Domain, from [Wikipedia](https://commons.wikimedia.org/w/index.php?curid=7900237). Also see [NuDat3](https://www.nndc.bnl.gov/nudat3/) for similar plots.
 :::
 
 [^1]: See [IUPAC Gold Book](https://goldbook.iupac.org/terms/view/N04257).
