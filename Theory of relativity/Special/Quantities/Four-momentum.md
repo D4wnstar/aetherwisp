@@ -57,6 +57,6 @@ and is a [[Relativistic invariant]]. From the same equation, we also find $\phi'
 > $$\mathbf{p}=\frac{m\mathbf{v}}{\sqrt{ 1- v^{2}/c^{2} }}$$
 > For $p>0$, we must simultaneously have $m\to0$ and $v\to c$. In this case — and only this case — does $p$ come out to be nonzero and finite. In other words, *all* massless particles *must* move at the speed of light (in the vacuum, at least). This is why "light moves at the speed of light", so to speak. I suppose you can't know this if you haven't studied quantum mechanics, but light is a [[photon]] beam, photons are massless particles, and so photons move (and must move!) at $c$. In fact, I suppose it would be more correct to call $c$ the "speed of massless particles", of which light happens to be made of, but scientists did not know this when they first coined the term "speed of light".
 
-[^1]: The actual experiments are obviously more complicated, usually testing the validity of numerous conservation laws for [[Numero quantico|quantum numbers]]. See for instance, [[Diffusione di particelle]].
+[^1]: The actual experiments are obviously more complicated, usually testing the validity of numerous conservation laws for [[Numero quantico|quantum numbers]]. See for instance, [[Particle scattering]].
 
 [^2]: In practice, what happens is that a random particle process occurs, reassigning quantum numbers around while respecting conservation laws. Either way, the system ends with a different set of objects compared to what it started with.

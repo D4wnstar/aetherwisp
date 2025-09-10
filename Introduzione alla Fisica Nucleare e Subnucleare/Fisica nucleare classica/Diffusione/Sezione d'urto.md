@@ -7,7 +7,7 @@ La sezione d'urto varia di sistema in sistema e in base all'energia delle partic
 - [[Strong interaction]]: $\sigma\sim10^{-24}$ cm$^{2}$.
 
 In casi di particelle comuni si ha
-- $\sigma_{pp}(10\text{ GeV})\sim40\text{ mb }=4\times10^{-26}\text{ cm}^{2}$ per la [[Diffusione di particelle|diffusione]] [[protone]] protone (interazione forte)
+- $\sigma_{pp}(10\text{ GeV})\sim40\text{ mb }=4\times10^{-26}\text{ cm}^{2}$ per la [[Particle scattering|diffusione]] [[protone]] protone (interazione forte)
 - $\sigma_{pp}(13\text{ TeV})\sim110\text{ mb}=1.1\times10^{-25}\text{ cm}^{2}$ per quella protone protone a energie più alte (interazione forte), di cui 30 mb è elastica e 80 mb è anelastica.
 - $\sigma_{\nu p}(10\text{ GeV})\sim70\text{ fb}=7\times10^{-38}\text{ cm}^{2}$ per quella [[neutrino]] protone (interazione debole)
 

@@ -12,6 +12,15 @@ where
 - $c$ is the [[speed of light]].
 - the $a$ parameters and $\delta$ represent different sources of binding energy and are explained below.
 
+The numerical values of the parameters (Povh et al., Particles and Nuclei, 7th ed.) are[^1]
+$$\begin{align}
+a_v &= 15.67\,\tfrac{\text{MeV}}{c^{2}}\\
+a_s &= 17.23\,\tfrac{\text{MeV}}{c^{2}}\\
+a_{C} &= 0.714\,\tfrac{\text{MeV}}{c^{2}}\\
+a_a &= 93.15\,\tfrac{\text{MeV}}{c^{2}}\\
+a_p &= 34\,\tfrac{\text{MeV}}{c^{2}}
+\end{align}$$
+
 This formula is derived from the **liquid drop model** of nuclear structure, which posits that the nucleus behaves like a quantum fluid of neutrons and protons, a [[Fermi liquid]].
 
 Since electronic binding energy is quite negligible compared to nuclear scales of energy, this formula also provides the mass of the atomic nucleus by simply omitting the mass of the electrons.
@@ -29,15 +38,6 @@ $$\begin{aligned}
 \delta &= -a_p A^{-3/4} &&\text{if }A\text{ even and }Z,N\text{ odd}
 \end{aligned}$$
 It should be noted that unlike with other terms, the $-3/4$ exponent of $A$ is purely empirical, obtained from a [[Parameter estimation|fit]]. In fact, there is debate regarding whether $-1/2$ is a more accurate exponent, as modern data seems to suggest so.
-
-The numerical values of the parameters (Povh et al., Particles and Nuclei, 7th ed.) are[^1]
-$$\begin{align}
-a_v &= 15.67\,\tfrac{\text{MeV}}{c^{2}}\\
-a_s &= 17.23\,\tfrac{\text{MeV}}{c^{2}}\\
-a_{C} &= 0.714\,\tfrac{\text{MeV}}{c^{2}}\\
-a_a &= 93.15\,\tfrac{\text{MeV}}{c^{2}}\\
-a_p &= 34\,\tfrac{\text{MeV}}{c^{2}}
-\end{align}$$
 
 :::image
 ![[binding_vs_A.png]]

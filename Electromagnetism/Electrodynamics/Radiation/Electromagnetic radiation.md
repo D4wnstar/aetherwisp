@@ -2,17 +2,18 @@
 wiki-publish: true
 aliases:
   - electromagnetic spectrum
+  - light
 ---
 **Electromagnetic radiation** is [[radiation]] of [[electromagnetic wave|electromagnetic waves]]. It occurs when [[Electric charge|charged particles]] accelerate, which causes them to emit [[energy]] that is carried off to infinity through electromagnetic waves[^1].
 
 Electromagnetic waves can be of any [[frequency]]. Since this leads to a massive (infinite, actually) range of possible waves, called the **electromagnetic spectrum**, they are conventionally categorized in seven "types", from most to least energetic:
-1. Gamma rays
-2. X-rays
-3. Ultraviolet light
-4. Visible light
-5. Infrared light
-6. Microwaves
-7. Radio waves
+1. **Gamma rays**
+2. **X-rays**
+3. **Ultraviolet light**
+4. **Visible light**, or simply just **light**
+5. **Infrared light**
+6. **Microwaves**
+7. **Radio waves**
 ### Sources
 Consider a localized source near the origin. To determine the energy radiated from the source at some time $t_{0}$, we encase the source in a sphere of very large radius $r$, large enough that the source looks like a point at the center of the sphere. The [[radiant power]] passing through the surface is given, according to [[Poynting's theorem]], by integrating the [[Poynting vector]] over the surface
 $$P(r,t)=\oint_{\mathcal{S}} \mathbf{S}\cdot d\mathbf{a}=\frac{1}{\mu_{0}}\oint_{\mathcal{S}}(\mathbf{E}\times \mathbf{B})\cdot d\mathbf{a}$$

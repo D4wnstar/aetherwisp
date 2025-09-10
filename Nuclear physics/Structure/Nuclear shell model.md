@@ -71,7 +71,7 @@ The effect of this correction is pronounced, as it makes important changes to th
 
 :::image
 ![[Closed shells spin-orbit.png|400]]
-A diagram showing shells according to the spin-orbit-corrected Woods-Saxon mean potential. The left side shows the shells predicted by uncorrected Woods-Saxon. Notice how all known magic numbers (2, 8, 20, 28, 50, 82, 126) are reproduced, and how much splitting SO coupling introduces. By the way, the number 184 is possibly correct theoretical prediction of a new magic number!
+A diagram showing shells according to the spin-orbit-corrected Woods-Saxon mean potential. The left side shows the shells predicted by uncorrected Woods-Saxon. Notice how all known magic numbers (2, 8, 20, 28, 50, 82, 126) are reproduced, and how much splitting SO coupling introduces. By the way, the number 184 is a (possibly correct) theoretical prediction of a new magic number!
 :::
 
 In notation, the quantum number $j$ is usually specified by an additional subscript. For example, for the state $n=1$ and $l=3$ (i.e. the level $1f$), one would write the two possible states as

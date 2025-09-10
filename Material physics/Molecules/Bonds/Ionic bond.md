@@ -7,7 +7,7 @@ The [[cohesive energy]] an ionic bond makes are usually in the order of a few [[
 
 Since ionic bonds are caused by electromagnetism (a static [[electric field]] in particular), they can be explained quantitatively even without the use of quantum mechanics, at the cost of ending up with somewhat imprecise results.
 ### Examples
-> [!example] Table salt
+> [!example]- Table salt
 > Table salt ($\text{NaCl}$) is a [[Crystal|crystalline solid]] made up of $\text{Na}^{+}$ and $\text{Cl}^{-}$ ions, which are [[Chemical bond|bonded]] to each other by ionic bonds. The energy gain in an individual $\text{NaCl}$ molecule is given by the difference between the ionization energy of $\text{Na}$ ($5.1\text{ eV}$) and the electronic affinity of $\text{Cl}$ ($3.7\text{ eV}$), which is $1.5\text{ eV}$. The electronic affinity is just  the electric potential energy
 > $$E_\text{Coulomb}=- \frac{e^{2}}{4\pi \varepsilon_{0}a}$$
 > where $a=2.8\ \mathring{\text{A}}$ is the internuclear distance.
