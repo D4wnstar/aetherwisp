@@ -40,7 +40,7 @@ The pressure of an ideal gas is the average force per unit area that it exerts o
 
 Take the wall to be normal to the $x$ axis and assume the wall is perfectly reflecting. When a particle of velocity $v_{x}$ hits the wall, it transfers $2p_{x}=2mv_{x}$ momentum to the wall. The total force on the wall is given by this momentum transfer multiplied by the amount of particles hitting a unit area of the wall, i.e. the particle [[flux]].
 
-The flux is the number of particles crossing a unit area per second. If the particles are moving over $x$, this is equal to a cylinder of unit cross-section and length $v_{x}\Delta t\equiv v_{x}$, since $\Delta t=1\text{ second}$. Thus, the flux is given by
+The flux is the number of particles crossing a unit area per second. If the particles are moving over $x$, this is equal to a cylinder of unit cross section and length $v_{x}\Delta t\equiv v_{x}$, since $\Delta t=1\text{ second}$. Thus, the flux is given by
 $$\Phi=v_{x}f(\mathbf{p})d\mathbf{p}$$
 where $f(\mathbf{p})$ is the [[Maxwell-Boltzmann distribution]] for momentum
 $$f(\mathbf{p})=n\left( \frac{\beta}{2\pi m} \right)^{3/2}e^{-\beta \lvert \mathbf{p} \rvert ^{2}/2m}$$

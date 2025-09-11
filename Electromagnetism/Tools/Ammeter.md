@@ -7,7 +7,7 @@ Consider a circuit element traversed by current $I$ by charges ([[Elettrone|elec
 
 ![[Schema Ammeter|center]]
 
-Say this whole circuit is subject to a [[magnetic field]] $\mathbf{B}$ that is not necessarily aligned with the circuit's cross-section (or even straight or uniform).
+Say this whole circuit is subject to a [[magnetic field]] $\mathbf{B}$ that is not necessarily aligned with the circuit's cross section (or even straight or uniform).
 
 ![[Schema Ammeter Magnetic field|center]]
 

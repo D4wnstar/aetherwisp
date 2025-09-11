@@ -15,7 +15,7 @@ Il primo caso è meglio descritto dalla [[Potere frenante|formula di Bethe-Bloch
 $$dN=-N(x)\mu dx$$
 dove $\mu$ è detto coefficiente di assorbimento. Integrando, si ha
 $$N(x)=N(0)e^{-\mu x}=N(0)e^{- x/\lambda}$$
-dove $\lambda$ è detto **cammino libero medio**. Il coefficiente di assorbimento è la probabilità di interazione per unità di cammino, esprimibile come $\mu=N\sigma$, dove $N$ è il numero di [[Sezione d'urto|centri diffusori]] e $\sigma$ è la [[sezione d'urto]]. $\lambda$ è invece la distanza media percorsa prima di subire una collisione.
+dove $\lambda$ è detto **cammino libero medio**. Il coefficiente di assorbimento è la probabilità di interazione per unità di cammino, esprimibile come $\mu=N\sigma$, dove $N$ è il numero di [[Cross section|centri diffusori]] e $\sigma$ è la [[Cross section]]. $\lambda$ è invece la distanza media percorsa prima di subire una collisione.
 
 > [!info] Risultato
 > Passando attraverso ad un materiale, un fascio di particelle cariche pesanti non subisce variazioni di intensità (numero di particelle), ma viene degradato energeticamente. Un fascio di fotoni non subisce variazioni di energia, ma il numero di fotoni cala esponenzialmente.

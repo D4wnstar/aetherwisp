@@ -5,7 +5,7 @@ wiki-publish: true
 $$\Delta V=RI \quad\text{where }\quad R=\rho\frac{l}{S}=\rho \int_{0}^{l} \frac{1}{S(s)}ds$$
 $\Delta V$ is the potential difference calculated between the point of highest and lowest potential. More correctly, it is the [[electromotive force]] between the points. In a circuit, these would be the connections to a battery or generator. $R$ is the resistance and $I$ is the [[electric current]] running through the wire. Specifically, it is a free current, not a bound current.
 
-The resistance formula works for wires. $l$ is the length of the wire and $S$ is its cross-section. $\rho$ is the [[electrical resistivity]], which depends on the properties of the material it's made of. If the cross-section is constant throughout the length of the wire, it results in a trivial integration. $R$ is the total resistance of the entire wire.
+The resistance formula works for wires. $l$ is the length of the wire and $S$ is its cross section. $\rho$ is the [[electrical resistivity]], which depends on the properties of the material it's made of. If the cross section is constant throughout the length of the wire, it results in a trivial integration. $R$ is the total resistance of the entire wire.
 
 There is also a much more general and physically meaningful form that applies to any linear, homogeneous and isotropic [[conductor]]:
 $$\mathbf{J}=\sigma\mathbf{f}=\frac{1}{\rho}\mathbf{f}$$
@@ -15,7 +15,7 @@ This reduces to the above simpler form at the start when $\mathbf{E}$ is time-in
 
 A material that obeys Ohm's laws is said to be ohmic. Non-ohmic materials behave differently, namely their currents $\mathbf{J}$ typically do not point in the same direction as their produced field $\mathbf{E}$.
 ### Differential form of first law
-Ohm's first law can also be represented in integral form, which has the benefit of being applicable to all ohmic conductors regardless of shape (and so not just wires). Let's consider a [[conductor]] of any shape being traversed by a certain current density $\mathbf{J}$. Let's also consider a tiny cylinder aligned with $\mathbf{J}$ of height $l$ and cross-section $dS$. Using Ohm's second law, the resistance of the cylinder is
+Ohm's first law can also be represented in integral form, which has the benefit of being applicable to all ohmic conductors regardless of shape (and so not just wires). Let's consider a [[conductor]] of any shape being traversed by a certain current density $\mathbf{J}$. Let's also consider a tiny cylinder aligned with $\mathbf{J}$ of height $l$ and cross section $dS$. Using Ohm's second law, the resistance of the cylinder is
 $$R=\rho \frac{dl}{dS}$$
 There's also a potential difference $dV$ between the top and bottom of the cylinder, so we can also apply the first law to it
 $$dV=RdI=\rho \frac{dl}{dS}dI$$
@@ -47,7 +47,7 @@ Since we know $\sigma$, we know that $\sigma/\epsilon_{0}\simeq 10^{18}\text{ Hz
 > [!success] Conductor response times
 > Electromagnetic responses in an ohmic conductor are effectively instant.
 ### Relation to temperature
-Most materials, when heated, expand in size (some materials shrink, but the discussion applies to them too). Since the second law is dependent on the geometry of the material, it is indirectly dependent on temperature too. When a material expands, $l$ increases, but so does the cross-section $S$. In the specific case of a wire, the ratio $l/S$ tends to remain constant (or approximately so), which means Ohm's second law is mostly temperature-independent for wires. This does not hold for other shapes.
+Most materials, when heated, expand in size (some materials shrink, but the discussion applies to them too). Since the second law is dependent on the geometry of the material, it is indirectly dependent on temperature too. When a material expands, $l$ increases, but so does the cross section $S$. In the specific case of a wire, the ratio $l/S$ tends to remain constant (or approximately so), which means Ohm's second law is mostly temperature-independent for wires. This does not hold for other shapes.
 
 The exact expression of resistivity with respect to temperature is extremely complicated and the domain of statistical mechanics. At a high level, we can use a [[Serie|series expansion]] like
 $$\rho(\theta)\simeq\rho_{\theta_{0}}[1+\alpha(\theta-\theta_{0})]$$

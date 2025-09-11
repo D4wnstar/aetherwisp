@@ -33,7 +33,7 @@ The magnetic force on the surface current is
 $$\mathbf{F}_\text{mag}=\int(\mathbf{v}\times \mathbf{B})\sigma\ da=\int(\mathbf{K}\times \mathbf{B})\ da$$
 As with the electric force on a [[conductor]], the magnetic field suffers a discontinuity across the surface and we instead use the average of the fields above and below.
 ### Volume current
-A current may also move in space. Here we define the **volume current density** $\mathbf{J}$. Consider a "tube" of infinitesimal cross-section $da_{\perp}$ running parallel to the flow like an airplane in a wind current. If the current in the tube is $\mathbf{I}$, then the volume current density is
+A current may also move in space. Here we define the **volume current density** $\mathbf{J}$. Consider a "tube" of infinitesimal cross section $da_{\perp}$ running parallel to the flow like an airplane in a wind current. If the current in the tube is $\mathbf{I}$, then the volume current density is
 $$\mathbf{J}\equiv \frac{d\mathbf{I}}{da_{\perp}}$$
 Like the surface density, it's the current per unit area of the volume. If the volume charge $\rho$ is moving at a velocity $\mathbf{v}$, then the current density is
 $$\mathbf{J}=\rho \mathbf{v}$$

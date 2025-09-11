@@ -16,4 +16,4 @@ Il propagatore è una [[particella virtuale]] (o meglio, la funzione che descriv
 - I vertici a cui si incontrano le linee sono proporzionali a $\sqrt{\alpha}$, con $\alpha$ la costante di interazione. Questa è una delle costanti di accoppiamento delle [[Fundamental interaction|interazioni fondamentali]].
 - In questi in [[Numero quantico|numeri quantici]] sono conservati.
 - Il propagatore è inversamente proporzionale al quadrato dell'impulso trasferito.
-- La [[sezione d'urto]] è proporzionale al modulo quadro del propagatore $\sigma\propto|\sim|^{2}$.
+- La [[Cross section]] è proporzionale al modulo quadro del propagatore $\sigma\propto|\sim|^{2}$.

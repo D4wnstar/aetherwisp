@@ -417,7 +417,7 @@ This allows us to define the **absorption transition probability**
 $$W_{ba}=\frac{4\pi ^{2}}{m^{2}c}\left( \frac{e^{2}}{4\pi \varepsilon_{0}} \right) \frac{I(\omega_{ba})}{\omega ^{2}_{ba}}\lvert M_{ba}(\omega_{ba}) \rvert^{2} $$
 where
 $$I(\omega)=\int_{\Delta \omega}I_{0}(\omega)d\omega=\int_{\Delta \omega}2\varepsilon_{0}\omega ^{2}cA_{0}^{2}(\omega)d\omega$$
-The transition probability is also bound to its absorption **[[cross-section]]** by dividing the rate at which energy is absorbed by the atom, $\hbar \omega_{ba}W_{ba}$ by the intensity $I(\omega_{ba})$ to get
+The transition probability is also bound to its absorption **[[cross section]]** by dividing the rate at which energy is absorbed by the atom, $\hbar \omega_{ba}W_{ba}$ by the intensity $I(\omega_{ba})$ to get
 $$\sigma_{ba}=\frac{4\pi ^{2}\alpha \hbar^{2}}{m^{2}\omega_{ba}}\lvert M_{ba}(\omega_{ba}) \rvert ^{2}$$
 Emission is complicated by the fact that there are two kinds of emission: stimulated and spontaneous. For stimulated emission, the transition rate is
 $$W_{ab}=\frac{4\pi ^{2}}{m^{2}c}\left( \frac{e^{2}}{4\pi \varepsilon_{0}} \right) \frac{I(\omega_{ab})}{\omega ^{2}_{ba}}\lvert M_{ab}(\omega_{ba}) \rvert ^{2}$$

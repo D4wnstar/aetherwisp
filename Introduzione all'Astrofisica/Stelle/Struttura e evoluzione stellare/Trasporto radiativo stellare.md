@@ -8,7 +8,7 @@ Considero un elemento di volume cilindro pieno di [[Particle|particelle]] ad una
 $$\sigma ndx \rightarrow \sigma n dx=1$$
 Definisco il [[cammino libero medio]] (*mean free path*) di una particella come
 $$l= \frac{1}{\sigma n}$$
-dove $\sigma$ è lo [[sezione d'urto]] di [[Particle scattering|diffusione]] e $n$ è il numero di particelle. Se consideriamo tutti i possibili modi $\sigma_{i}$ in cui una particella può fare scattering si ha
+dove $\sigma$ è lo [[Cross section]] di [[Particle scattering|diffusione]] e $n$ è il numero di particelle. Se consideriamo tutti i possibili modi $\sigma_{i}$ in cui una particella può fare scattering si ha
 $$l= \frac{1}{\sum\limits_{i}n_{i}\sigma_{i}}=\frac{1}{\rho \kappa}$$
 dove $\rho$ è la densità della stella e $\kappa$ è l'**opacità**, che rappresenta quanto un gas sia "permissivo" al lasciar passare particelle al suo interno.
 

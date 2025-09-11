@@ -62,7 +62,7 @@ $$\boxed{N_{2a}=N_{0}\left(\frac{\lambda_{a}}{\lambda_{t}}\right)\bigl(1-e^{-\la
 #### Production-decay
 Say there is an external source of radioactive nuclei that is constantly adding new unstable nuclei to the material. In many cases, the source is instead *causing* the material's nuclei to become unstable by transferring large amounts of energy to them, but the effect is the same. An example would be a nuclear reactor producing high-energy neutrons that hit an otherwise stable target and get [[neutron capture|captured]] by the nuclei, causing them to become unstable and [[beta decay]].
 
-The rate at which new nuclei are added or rendered unstable is called the **rate of production** $R$. This varies based on the exact process being used, but for destabilization, it is dependent on the number of (stable) nuclei of the target $N_{0}$, the [[flux]] of incident particles $I$ (measured in $\text{particles}/\text{s cm}^{2}$) and the [[cross-section]] of the nuclear reaction $\sigma$:
+The rate at which new nuclei are added or rendered unstable is called the **rate of production** $R$. This varies based on the exact process being used, but for destabilization, it is dependent on the number of (stable) nuclei of the target $N_{0}$, the [[flux]] of incident particles $I$ (measured in $\text{particles}/\text{s cm}^{2}$) and the [[cross section]] of the nuclear reaction $\sigma$:
 $$R=N_{0}\sigma I\quad\text{[particles/s]}$$
 Call $N_{1}$ the number of unstable nuclei created this way. They decay with constant $\lambda_{1}$ into $N_{2}$ stable nuclei. As such, $N_{1}$ *increases* due to the rate of production, but *decreases* due to its natural decay. The unit change of $N_{1}$ per unit time is
 $$dN_{1}=Rdt-\lambda_{1}N_{1}dt$$

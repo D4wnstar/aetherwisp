@@ -9,7 +9,7 @@ con $X$ la specie atomica soggetta. Il fotone incidente deve avere energia maggi
 $$E_{e^{-}}=E_{\gamma}-E_{b}$$
 L'assorbimento del fotone, e quindi l'effetto fotoelettrico, può avvenire solo per elettroni legati, non liberi, perché ciò violerebbe la conservazione della [[Invariant mass]] (diminuirebbe dopo l'assorbimento).
 
-Si trova che la [[sezione d'urto]] fotoelettrica di un materiale omogeneo è
+Si trova che la [[Cross section]] fotoelettrica di un materiale omogeneo è
 $$\sigma_{FE}\simeq\left(\frac{m_{e}c^{2}}{E_{\gamma}}\right)^{3}Z^{5}$$
 con $Z$ il [[Atom|numero atomico]] del materiale. Si nota subito l'estrema dipendenza dal numero atomico. Di atomi pesanti sono dunque più soggetti a effetto fotoelettrico di diversi ordini di grandezza. Dalla dipendenza inversa dall'energia del fotone possiamo dedurre che l'effetto sia più importante per fotoni a bassa energia.
 ### In meccanica quantistica
