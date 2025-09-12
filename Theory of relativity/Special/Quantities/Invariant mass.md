@@ -1,6 +1,12 @@
 ---
 wiki-publish: true
+aliases:
+  - rest mass
 ---
-The **invariant mass** of a relativistic [[Physical system|system]] is the squared [[norm]] of the total [[four-momentum]]:
-$$\lvert p_{tot}^{\mu} \rvert^{2} =s=\left(\sum\limits_{k}E_{k}\right)^{2}-\left(\sum\limits_{k}\mathbf{p}\right)^{2}$$
-As the name suggests, it is a [[relativistic invariant]]. The square root of the invariant mass is known as the [[center-of-mass energy]].
+The **invariant mass** or **rest mass** of a relativistic [[Physical system|system]] is the [[mass]] that is assigned to the system as a whole in the [[center-of-momentum frame]], where the total [[Linear momentum|momentum]] is zero. In that case, the [[Relativistic energy|mass-energy equivalence]] applies and we can state
+$$m_{0}=\frac{E_\text{tot}}{c^{2}}$$
+where $E_\text{tot}$ is the total [[relativistic energy]] of the system in the center-of-momentum frame (its rest energy). In frames with nonzero four-momentum, the invariant mass obeys
+$$m_{0}^{2}c^{2}=\left( \frac{E_\text{tot}}{c} \right)^{2}-\lvert \mathbf{p}_\text{tot} \rvert ^{2}=\lvert p_\text{tot} \rvert ^{2}$$
+where $p$ is the four-momentum. This makes it closely related to the [[center-of-mass energy]]. It is not the mass of any particular object. Rather, it's a property of the system that naturally appears due to the mass-energy equivalence in resting frames. As the name suggests, it is a [[relativistic invariant]].
+
+Rest mass is especially useful in particle physics, as it provides an invariant quantity that stays the same both before and after a [[particle scattering]] or [[particle decay]] event. This is particularly useful in studying the kinematics of these events as, alongside conservation of momentum, it provides a universal statement that is quite useful in solving the equations, even in processes where the particles change.

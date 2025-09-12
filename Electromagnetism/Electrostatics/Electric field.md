@@ -41,7 +41,7 @@ We can calculate the [[Divergence]] of the electric field starting from the volu
 $$\nabla\cdot\mathbf{E}=\frac{1}{4\pi\varepsilon_{0}}\int\nabla\cdot\left(\frac{\hat{\mathfrak{r}}}{\mathfrak{r}^{2}}\right)\rho(\mathbf{r}')\ d\tau'$$
 (the divergence "targets" $\mathbf{r}$, so $\mathfrak{r}$ is part of the calculation, but $\rho$ is not). We therefore need to find the divergence of $\hat{r}/r^{2}$.
 
-> [!tip] Divergence of $\hat{r}/r^{2}$
+> [!tip]- Divergence of $\hat{r}/r^{2}$
 > The divergence of $\hat{r}/r^{2}$ explodes in 0, so the divergence cannot be calculated directly without making a mistake. The flux of $\hat{r}/r^{2}$ is $4\pi$ for any surface $S$:
 > $$\oint_{S} \frac{\hat{r}}{r^{2}}\cdot d\mathbf{a}=\int_{S}\left(\frac{1}{R^{2}}\hat{r}\right)\cdot(R^{2}\sin\theta d\theta d\phi\hat{r})=\left(\int_{0}^{\pi}\sin\theta d\theta\right)\left(\int_{0}^{2\pi}d\phi\right) =4\pi$$
 > but the divergence itself is *zero*:

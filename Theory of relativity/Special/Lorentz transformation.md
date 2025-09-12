@@ -13,7 +13,7 @@ $$\left\{\begin{align}
 \end{align}\right.$$
 with parameters
 $$\gamma\equiv \frac{1}{\sqrt{ 1-\beta ^{2} }},\qquad \beta\equiv\frac{v}{c}$$
-In the language of [[proper velocity]], $v$ would be the *ordinary* velocity. Alternatively, in common [[four-vector]] notation $(ct,x,y,z)\equiv(x^{0},x^{1},x^{2},x^{3})$:
+In the language of [[proper velocity]], $v$ would be the *ordinary* velocity. Conventionally, an object is said to be **relativistic** when $\beta$ is not almost-zero or $\gamma>1$. In other words, the object's speed must be a significant fraction of the [[speed of light]]. Alternatively, in common [[four-vector]] notation $(ct,x,y,z)\equiv(x^{0},x^{1},x^{2},x^{3})$:
 $$\left\{\begin{align}
 &\bar{x}^{0}=\gamma(x^{0}-\beta x^{1}) \\
 &\bar{x}^{1}=\gamma(x^{1}- \beta x^{0} ) \\
@@ -72,3 +72,7 @@ Note how when $v\ll c$, then $\gamma\to 1$ and $\beta\to 0$ and these go back to
 ### As a hyperbolic rotation
 A Lorentz transformation is a hyperbolic [[rotation]] in spacetime, the angle of which is called the [[rapidity]] $y$:
 $$\pmatrix{ct' \\ x' \\ y' \\ z'}=\pmatrix{\cosh y & -\sinh y & 0 & 0 \\ -\sinh y & \cosh y & 0 & 0 \\ 0 & 0 & 1 & 0 \\ 0 & 0 & 0 & 1}\pmatrix{ct \\ x \\ y \\ z}$$
+### Experimental frames
+In experimental physics that deals with special relativity, it's common to reference two well-known frames of reference.
+1. The **laboratory frame** is fixed to the observer (and [[Detector|detectors]]). It shows what the detector or scientist sees when observing the phenomenon. It's particularly useful when the one of the elements of the system is at rest with respect to us, like a stationary target in a [[particle accelerator]]. In that case, its [[Linear momentum|momentum]] vanishes and its [[relativistic energy]] is purely rest energy.
+2. The **center-of-momentum frame** is the frame in which the total [[Linear momentum|momentum]] (but not [[four-momentum]]!) of the system is zero. This provides easy access to the [[invariant mass]] of the system. The **center-of-mass frame** is a special case in which the [[center of mass]] is in the origin.

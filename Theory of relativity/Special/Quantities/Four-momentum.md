@@ -10,49 +10,42 @@ where $\eta$ is the [[proper velocity|proper four-velocity]], $E$ is the [[relat
 
 The total four-momentum of a [[Physical system|system]] is a conserved quantity. This does not mean it is a [[relativistic invariant]] (it's not even a [[scalar]]); conservation has nothing to do with [[Frame of reference|frames of reference]], it just means that the quantity remains the same before and after a process.
 
-The [[norm]] $p_{\mu}p^{\mu}=-m^{2}c^{2}$ of the four-momentum is called the [[center-of-mass energy]]. This name comes from nuclear and [[particle]] physics where it is used in the context of an $N$-body system. This makes the four-momentum related to the relativistic energy by
+The [[norm]] $p_{\mu}p^{\mu}=-m^{2}c^{2}$ is called the [[center-of-mass energy]]. This name comes from nuclear and [[particle]] physics where it is used in the context of an $N$-body system.
+
+The four-momentum is related to relativistic energy by
 $$E^{2}-p^{2}c^{2}=m^{2}c^{4}$$
-### $N$-body system
-The four-momentum and relativistic energy of a [[Physical system|system]] of $N$ bodies is just the sum of individual momenta and energy:
-$$p_{\text{total}}^{\mu}=\sum_{i=1}^{N} p_{i}^{\mu},\qquad E_{\text{total}}=\sum_{i=1}^{N} E_{i}$$
-The norm of the total momentum is
-$$p_{\text{total}}^{\mu}p_{\mu}^{\text{total}}=-m_{I}^{2}c^{2}$$
-Here, $m_{I}$ is not the mass of any particular object, it is known as the **invariant mass** of the system.
-### Under Lorentz transformations
-Let's take a particle $p$ in a reference frame in spherical coordinates.
-
-![[Coordinate Sferiche Particella|center]]
-
-Then
-$$\pmatrix{\frac{E'}{c} \\ p_{x}' \\ p_{y}' \\ p_{z}'}=\pmatrix{\gamma & 0 & 0 & \beta\gamma \\ 0 & 1 & 0 & 0 \\ 0 & 0 & 1 & 0 \\ \beta\gamma & 0 & 0 & \gamma}\pmatrix{\frac{E}{c} \\ p_{x} \\ p_{y} \\ p_{z}}$$
-with
+### Transverse momentum
+Four-momentum secretly contains a second relativistic invariant. To see it, consider a particle $p$ in [[spherical coordinates]]. Its components are
 $$\begin{cases}
 p_{x}=p\sin\theta\cos\phi \\
 p_{y}=p\sin\theta\sin\phi \\
 p_{z}=p\cos\theta
 \end{cases}$$
-Then
+Now, do a [[Lorentz transformation]] on the $z$ axis:
+$$\pmatrix{\frac{E'}{c} \\ p_{x}' \\ p_{y}' \\ p_{z}'}=\pmatrix{\gamma & 0 & 0 & \beta\gamma \\ 0 & 1 & 0 & 0 \\ 0 & 0 & 1 & 0 \\ \beta\gamma & 0 & 0 & \gamma}\pmatrix{\frac{E}{c} \\ p_{x} \\ p_{y} \\ p_{z}}$$
+which can be equivalently written as
 $$\begin{cases}
 E'=\gamma E+\beta\gamma p\cos\theta \\
-p'\cos\theta'\cos\phi'=p\sin\theta\cos\phi \\
+p'\sin\theta'\cos\phi'=p\sin\theta\cos\phi \\
 p'\sin\theta'\sin\phi'=p\sin\theta\sin\phi \\
 p'\cos\theta=\gamma p\cos\theta+\beta\gamma E
 \end{cases}$$
-$$p^{2}\sin^{2}\theta'(\cos^{2}\phi'+\sin^{2}\phi')=p^{2}\sin^{2}\theta(\cos^{2}\phi+\sin^{2}\phi)$$
-From which it is obtained
-$$p'\sin\theta=p\sin\theta$$
-which is called **transverse momentum** and holds
-$$p'_{T}=p_{T}$$
-and is a [[Relativistic invariant]]. From the same equation, we also find $\phi'=\phi$, therefore also the azimuthal angle is a relativistic invariant.
+Square the middle two and sum them to find
+$$p'^{2}\sin^{2}\theta'(\cos^{2}\phi'+\sin^{2}\phi')=p^{2}\sin^{2}\theta(\cos^{2}\phi+\sin^{2}\phi)$$
+and using the fundamental trigonometric identity $\sin ^{2}\theta+\cos ^{2}\theta=1$ we see
+$$p'\sin\theta'=p\sin\theta$$
+This quantity is called the **transverse momentum** $p_{T}$. As you can see, it does not change under a Lorentz transformation on the $z$ axis. This makes it another relativistic invariant. In fact, there's a third one hidden here. From the same equation, while it's trivial, we can state
+$$\cos ^{2}\phi'+\sin ^{2}\phi'=\cos ^{2}\phi+\sin ^{2}\phi$$
+which implies $\phi'=\phi$. Thus, the azimuthal angle is also a relativistic invariant.
 ### Examples
-> [!example] Inelastic collision
-> An interesting and useful example is the [[inelastic collision]] of two [[Particle|particles]] moving at relativistic speeds. This is essentially the end goal of particle colliders such as the LHC at CERN: smash particles together, see what happens[^1]. Assume both particles are moving at $v=\frac{3}{5}c$, in opposite directions, aimed perfectly at each other. Both have the same mass $m$. The total three-momentum (not four-momentum!) before the collision is zero: after all, the individual momenta cancel out in a vector sum. Since momentum is conserved, it must be zero even after the collision: $\mathbf{p}_{\text{bef}}=\mathbf{p}_{\text{aft}}=0$. Energy on the other hand is
+> [!example]- Inelastic collision
+> An interesting and useful example is the [[particle scattering|inelastic collision]] of two [[Particle|particles]] moving at relativistic speeds. This is essentially the end goal of particle colliders such as the LHC at CERN: smash particles together, see what happens[^1]. Assume both particles are moving at $v=\frac{3}{5}c$, in opposite directions, aimed perfectly at each other. Both have the same mass $m$. The total three-momentum (not four-momentum!) before the collision is zero: after all, the individual momenta cancel out in a vector sum. Since momentum is conserved, it must be zero even after the collision: $\mathbf{p}_{\text{bef}}=\mathbf{p}_{\text{aft}}=0$. Energy on the other hand is
 > $$E_\text{bef}=2 \frac{mc^{2}}{\sqrt{ 1- \left( \frac{3}{5} \right)^{2} }}=2 \frac{5}{4}mc^{2}=\frac{5}{2}mc^{2}$$
 > Of course, energy is also conserved, so $E_\text{bef}=E_\text{aft}$. But remember that the collision is inelastic: the particles get "stuck" together, they don't bounce[^2]. You'd expect the total mass $M$ of this object to be the the sum of individual masses, so $M=2m$, but it's not! Since the velocity of this new object is *zero* (momenta cancel, leading to standstill), the only energy it has left is rest energy $E_{0}=Mc^{2}$, which means
 > $$E_\text{bef}=E_\text{end}\quad\Rightarrow \quad \frac{5}{2}mc^{2}=Mc^{2}\quad\Rightarrow \quad M=\frac{5}{2}m>2m$$
 > Evidently, we just "created" mass by transferring kinetic energy to mass energy. This is how we can make heavier particles from smaller, more stable ones like [[Elettrone|electrons]] and [[protone|protons]]: we just need high enough kinetic energies and a strong enough collision.
 
-> [!example] Massless particles
+> [!example]- Massless particles
 > Some [[Particle|particles]] have no mass, yet they still possess some energy when moving. In classical mechanics this is nonsense, as you wouldn't be able to apply a [[force]] ($\mathbf{F}=m\mathbf{a}$) to a massless particle ($m=0$), thus making it inconsequential in physical theory. But massless particles certainly do exist and they can only be appreciated through a quantum viewpoint, although that's not really the point of this example. We just want to see what happens when $m=0$. Of course, the most intuitive thing to say is that $p^{\mu}=0$. After all, how can a massless particle have momentum? Well, you'd be *wrong*, for massless particles *do* have momentum, and as de Broglie showed it depends on the [[wavelength]] of the particle. So, what now? de Broglie "says" that $p>0$ but Einstein "says" $p=0$. The issue here is that we haven't talked about the speed of the particle. Mathematically speaking, it is possible for $p$ to be nonzero even when $m=0$: we just need some term that goes to infinity just as fast as $m$ goes to zero, so that their asymptotic behaviors cancel out and leave us with a finite value. We don't have much to play with, really. The only other non-constant in $\mathbf{p}$ is the speed of the particle:
 > $$\mathbf{p}=\frac{m\mathbf{v}}{\sqrt{ 1- v^{2}/c^{2} }}$$
 > For $p>0$, we must simultaneously have $m\to0$ and $v\to c$. In this case — and only this case — does $p$ come out to be nonzero and finite. In other words, *all* massless particles *must* move at the speed of light (in the vacuum, at least). This is why "light moves at the speed of light", so to speak. I suppose you can't know this if you haven't studied quantum mechanics, but light is a [[photon]] beam, photons are massless particles, and so photons move (and must move!) at $c$. In fact, I suppose it would be more correct to call $c$ the "speed of massless particles", of which light happens to be made of, but scientists did not know this when they first coined the term "speed of light".

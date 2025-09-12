@@ -1,56 +1,73 @@
 ---
 wiki-publish: true
 ---
-**Rutherford scattering** is an elastic [[particle scattering]] process where an [[electron]] scatters from an [[atomic nucleus]]. It is an [[Electromagnetism|electromagnetic]] scattering process. It has both classical and quantum formulations.
-### Kinematics
-The collision occurs in the relativistic regime, so we use the [[Four-vector|four-vector]] notation. The spacetime and energy-momentum four-vectors are
-$$x=(x_{0},x_{1},x_{2},x_{3}),\quad p=(p_{0},p_{1},p_{2},p_{3})=\left( \frac{E}{c}, \mathbf{p}\right)$$
+**Rutherford scattering** is an elastic [[particle scattering]] process where an [[Alpha decay|alpha particle]] scatters off of an [[atomic nucleus]]. It is an [[Electromagnetism|electromagnetic]] scattering process with both classical and quantum formulations. The process is
+$$\alpha+\ce{X}\to \alpha+\ce{X}$$
+where $\ce{X}$ represents the nucleus.
+## Kinematics
+We assume that the scattering happens in [[Lorentz transformation|relativistic]] regime, so we use [[Four-vector|four-vectors]]. The [[four-momentum]] is
+$$p=(p_{0},p_{1},p_{2},p_{3})=\left( \frac{E}{c}, \mathbf{p}\right)$$
 
-We know $p^{2}$ is a [[Relativistic invariant]], so
-$$p^{2}=pp=\frac{E^{2}}{c^{2}}-\mathbf{p}^{2}$$
-and also $p^{2}=m^{2}c^{4}$ in the rest frame where $\mathbf{p}=0$, $E=mc^{2}$. We define the [[Invariant mass]] $m=|\mathbf{p}|/c$. At rest, $E^{2}-\mathbf{p}^{2}c^{2}=m^{2}c^{4}$, but for relativistic energies we can approximate
-$$\text{if }E\gg mc^{2} \Rightarrow E\sim|\mathbf{p}|c$$
+![[Diagram Rutherford scattering]]
 
-![[Schema Diffusione di Rutherford|80%|center]]
+The alpha particle collides with the nucleus elastically, so momentum is conserved. If we use a laboratory [[frame of reference]] in which the nucleus is at rest, the initial four-momenta are
+$$p_{\alpha}=\left( \frac{E_{\alpha}}{c}, \mathbf{p}_{\alpha} \right),\quad p_{N}=\left( \frac{Mc^{2}}{c},0 \right)$$
+for the alpha particle and nucleus, respectively. Then, due to conservation:
+$$p_{\alpha}+p_{N}=p'_{\alpha}+p'_{N}\tag{1}$$
+where we used a prime to denote the state after the scattering. Then
+$$\lvert p_{\alpha}+p_{N}\rvert^{2}=\lvert p_{\alpha} \rvert^{2}+\lvert p_{N} \rvert ^{2}+2p_{\alpha}\cdot p_{N} $$
+Same goes for the primed momenta. The square [[norm|norms]] are related to the [[Invariant mass|rest masses]] of the particles by
+$$\lvert p_{\alpha} \rvert ^{2}=m_{\alpha,0}^{2}c^{2},\qquad \lvert p_{N} \rvert ^{2}=m_{N,0}^{2}c^{2}$$
+Since the scattering is elastic, the particles don't change and so these also don't change, $\lvert p_{\alpha} \rvert^{2}=\lvert p_{\alpha}' \rvert^{2}$ and $\lvert p_{N} \rvert^{2}=\lvert p_{N}' \rvert^{2}$. This allows us to state
+$$p_{\alpha}\cdot p_{N}=p_{\alpha}'\cdot p_{N}'$$
+Now, we can assume that $p_{\alpha}$ and $p_{N}$ are known. $p_{\alpha}'$ can also be measured with a [[detector]]. $p_{N}'$ isn't known, but we can use $(1)$ to express it in terms of all the others:
+$$p_{\alpha}\cdot p_{N}=p_{\alpha}'\cdot(p_{\alpha}+p_{N}-p_{\alpha}')=p_{\alpha}'\cdot p_{\alpha}+p_{\alpha}'\cdot p_{N}-m_{\alpha}^{2}c^{2}\tag{2}$$
+If we place ourselves in the lab frame, where the nucleus is at rest before the collision, we can write the resulting momenta as
+$$p_{\alpha}'=\left( \frac{E'_{\alpha}}{c},\mathbf{p}'_{\alpha} \right),\quad p_{N}'=\left( \frac{E'_{N}}{c},\mathbf{p}'_{N} \right)$$
+We've chosen to write $p_{N}'$ in terms of the other three, so we're not going to need it. Knowing this, if we multiply both sides of $(2)$ by $c^{2}$ we get
+$$\begin{align}
+(p_{\alpha}\cdot p_{N})c^{2}&=(p'_{\alpha}\cdot p_{N}')c^{2} \\
+&=(p'_{\alpha}\cdot p_{\alpha}+p'_{\alpha}\cdot p_{N}-m_{\alpha}^{2}c^{2})c^{2} \\
+&=(p'_{\alpha}\cdot p_{\alpha})c^{2}+(p'_{\alpha}\cdot p_{N})c^{2}-m_{\alpha}^{2}c^{4} \\
+&=E'_{\alpha}E_{\alpha}-(\mathbf{p}'_{\alpha}\cdot\mathbf{p}_{\alpha})c^{2}+E'_{\alpha}Mc^{2}-m_{\alpha}^{2}c^{4}
+\end{align}$$
+If we assume that the energy of the total energies $E_{\alpha}$ and $E_{\alpha}'$ are much higher than the rest energy $m_{\alpha}c^{2}$, then we can ignore the rest energy. The left hand side becomes $(p_{\alpha}\cdot p_{N})c^{2}=E_{\alpha}Mc^{2}$. In the right hand side, we can write the scalar product explicitly as $\mathbf{p}'_{\alpha}\cdot \mathbf{p}_{\alpha}=p'_{\alpha}p_{\alpha}\cos \theta$, where $\theta$ is the angle between the momentum vectors. In the high-energy regime we're in, the energy is approximately $E=\sqrt{ p^{2}c^{2}+m^{2}c^{4} }\simeq \sqrt{ p^{2}c^{2} }=pc$, so $p_{\alpha}'p_{\alpha}\cos \theta \simeq(E_{\alpha}'E_{\alpha}/c^{2})\cos \theta$. Put this in the right hand side to find
+$$E_{\alpha}Mc^{2}=E'_{\alpha}E_{\alpha}(1-\cos\theta)+E'_{\alpha}Mc^{2}$$
+Extract the alpha particle's energy to get
+$$\boxed{E'_{\alpha}=\frac{E_{\alpha}}{1+\frac{E_{\alpha}}{Mc^{2}}(1-\cos\theta)}}$$
+where $\theta$ is the scattering angle. This quantity can be measured through a detector, so it can be useful to invert the relation to find a different quantity in terms of this one.
+## Cross section
+Rutherford scattering involves a particle coming close to a nucleus, then getting pushed or pulled by electromagnetic forces. This of course occurs whenever the trajectory of the particle comes close enough to the nucleus for the repulsion to be significant. When aiming a particle beam at a target, most of the time the incident particles will be too far away from the nucleus to be significantly affected by it. To express the [[probability]] of a particle being scattered by the nucleus, we define the **Rutherford cross section**. There's two paths to reach this value, a classical one a quantum one. Both are presented below.
+### Classical method
+We'll use a generic particle as the projectile. Historically, Rutherford used alpha particles in his first experiments on the subject and today [[electron|electrons]] are especially used in real experiments because, being elementary particles, they don't have an internal structure, which makes some subsequent conclusions easier. This said, the results are largely only dependent on the [[Electric charge|charge]] of the projectile, as long as we assume it's smaller then the nucleus by a good margin. The only major difference is that negatively-charged particles are attracted by the nucleus, not repelled, so the scattering angle flips sign and goes in the opposite direction compared to positively-charged ones. The magnitude, however, stays largely the same.
 
-The initial energy-momentum four-vectors are $p=(E/c, \mathbf{p})$ and $P=(Mc^{2}/c,0)$ for the electron and nucleus, respectively. Energy and momentum are conserved:
-$$p+P=p'+P'=\left(\frac{E'}{c},\mathbf{p}'\right)+\left(\frac{E'_{n}}{c},\mathbf{P}'\right)\tag{*}$$
+Say our projectile has [[Electric charge|charge]] $ze$ and the nucleus has charge $Ze$, where $e$ is the [[elementary charge]]. We shoot the projectile towards the nucleus with initial velocity $\mathbf{v}_{0}$.
 
-Assume elastic scattering. Then $m_{e}$ and $M$ are unchanged after the collision. Thus
-$$p^{2}=p'^{2}=m_{e}^{2}c^{2},\quad P^{2}=P'^{2}=M^{2}c^{2}\quad \rightarrow \quad p\cdot P=p'\cdot P'$$
-$$p\cdot P=p'(p+P-p')=p'\cdot p+p'\cdot P-m_{e}^{2}c^{2}\tag{1}$$
+:::image
+![[Diagram Rutherford scattering classical|100%]]
+A diagram of Rutherford scattering in case of a positively-charge projectile.
+:::
 
-In frame $(*)$, using $(1)$:
-$$(p\cdot P)c^{2}=(p'\cdot p+p'\cdot P-m_{e}c^{2})c^{2}=E'E+\mathbf{p}\cdot\mathbf{p}'+E'Mc^{2}-m_{e}^{2}c^{4}$$
+Our trajectory isn't likely to be head-on. The distance between the trajectory before scattering and the trajectory that would lead to a head-on collision[^1] is known as the **impact parameter** $b$. Once the projectile gets close to the nucleus, it'll be repelled or attracted by [[Electric field|Coulomb's law]][^2]. As in all non-bound trajectories drawn by a [[force]] that goes like $1/r^{2}$, it ends up being [[hyperbola|hyperbolic]].
 
-At relativistic energies, $E\sim|\mathbf{p}|c$, so we neglect $m_{e}^{2}c^{4}$. We are left with
-$$EMc^{2}=E'E(1-\cos\theta)+E'Mc^{2}$$
+To predict the trajectory, we use energy arguments. When far from the nucleus, the projectile experiences no electrostatic force and is a typical [[free particle]]. The [[potential energy]] is $U=0$ and the [[kinetic energy]] is $T=\frac{1}{2}mv_{0}^{2}$. The [[angular momentum]] with respect to the center of the nucleus is $L=|\mathbf{r}\times m\mathbf{v}|=mv_{0}b$.
 
-In the laboratory frame $(*)$:
-$$E'=\frac{E}{\frac{E}{Mc^{2}}(1-\cos\theta)}$$
-where $\theta$ is the scattering angle. This quantity is very important because it is easily measurable.
-
-Consider a collision of an electron with a nucleus of charge $Ze$. We find the Rutherford [[cross section]].
-
-*graph of Rutherford collision here*
-
-#### Classical Method
-
-The electron follows a hyperbolic trajectory ($\propto 1/r^{2}$). When far from the nucleus, it experiences no Coulomb repulsion. The potential is $V=0$, and kinetic energy is $T=\frac{1}{2}mv_{0}^{2}$. The angular momentum is $l=|\mathbf{r}\times m\mathbf{v}|=mv_{0}b$.
-
-Here, $b$ is the impact parameter and $r_{min}$ is the minimum distance between the electron and nucleus. If $b=0$, it is a head-on collision and $r_{min}$ is minimized:
+When the projectile approaches the nucleus, it starts to feel the electrostatic force. It'll reach a point of closest approach, at a distance $r_\text{min}$, and then distance itself. $r_\text{min}$ is dependent on $b$; when $b=0$, you have a head-on collision, which leads to the lowest possible distance $d$. Which can calculate this by using conservation of energy and noting that in $d$, the kinetic energy must be zero (it's inverting direction) and all the energy left is electrostatic potential energy. So
 $$\frac{1}{2}mv_{0}^{2}=\frac{1}{4\pi\epsilon_{0}} \frac{zZe^{2}}{d}$$
-
-Energy is conserved at any point along the trajectory:
+You can extract $d$ by inverting this:
+$$\boxed{d=\frac{1}{2\pi \varepsilon_{0}} \frac{zZe^{2}}{mv_{0}^{2}}}$$
+In most cases, energy conservation will gives us a mixture of kinetic and potential energy:
 $$\frac{1}{2}mv_{0}^{2}=\frac{1}{2}mv^{2}+ \frac{1}{4\pi\epsilon_{0}} \frac{zZe^{2}}{r}$$
 
-*graph of cylindrical symmetry here*
+This interaction inherently has cylindrical symmetry. This is because the only geometrical property that the scattering angle depends on is the impact parameter. This means that it behaves the same regardless of where the projectile's trajectory is around the nucleus.
 
-There is cylindrical symmetry. Particles incident in the ring $b+db$ are distributed into a ring $d\theta$ on a detector at distance $r$. Let $df$ be the fraction of incident particles crossing the ring of area $2\pi bdb$:
-$$df=nx(2\pi bdb)\tag{2}$$
-where $n$ is the number of nuclei and $x$ is the foil thickness.
+![[Diagram Rutherford scattering cylindrical symmetry|90%]]
 
-For impact parameters $<b$, the fraction is $f=nx\pi b^{2}$. The momenta $\mathbf{p}_{i}$ and $\mathbf{p}_{f}$ change direction. Far from the nucleus, $|\mathbf{p}|=mv_{0}$. Assuming a heavy nucleus, recoil is negligible.
+In fact, all particles incident on some ring $[b,b+db]$ around the nucleus are scattered into an angular region $d\theta$. This ring has area $2\pi bdb$. A real target has a large number of nuclei and each of them has this ring around it. Call $df$ be the fraction of all incident particles that are going through this ring around *some* nucleus. To determine it, we need the number of nuclei, specifically their density over the impact surface. If $n$ is the volume density of nuclei and $x$ is the thickness of the target (you can imagine it as a thin foil), the surface density of nuclei will be $nx$. Thus, the fraction will be
+$$df=nx\ 2\pi bdb\tag{3}$$
+The fraction of all particles passing within a ring of radius $b$ (area $\pi b^{2}$) is instead
+$$f=nx\ \pi b^{2}$$
+If we consider the nucleus to be heavy enough with respect to the projectile to ignore recoil, then the initial and final momenta of the projectile, $\mathbf{p}_{i}$ and $\mathbf{p}_{f}$, are the same in magnitude. The only difference is the trajectory. Far from the nucleus, the magnitude is $\lvert \mathbf{p}_{i} \rvert=mv_{0}=\lvert \mathbf{p}_{f} \rvert$.
 
 *another graph here*
 
@@ -165,3 +182,7 @@ $$\frac{d\sigma}{d\Omega}=\left(\frac{zZe^{2}}{8\pi\epsilon_{0}E'}\right)^{2} \f
 In the non-relativistic limit ($p=mv$, $E_{cin}=\frac{1}{2}mv^{2}$, $E'\sim mc^{2}$):
 $$\frac{d\sigma}{d\Omega}=\left(\frac{zZe^{2}}{4\pi\epsilon_{0}}\right)^{2} \frac{1}{(4E_{cin})^{2}} \frac{1}{\sin^{4}(\frac{\theta}{2})}$$
 matching the classical result.
+
+[^1]: If you want to be geometrically precise, the original trajectory is a straight line. This is because before scattering, the projectile is assumed to be a [[free particle]]. Now draw a parallel line to it and make it pass through the center of the nucleus. The distance between these two lines is the impact parameter.
+
+[^2]: We assume that in case it's attracted, such as with an electron, it does not get captured and end up in a bound state. This is a sensible approximation since most interesting collisions involve high energy projectiles, which would require a much stronger pull to be captured. Nevertheless, it is possible, for instance if the projectile electron has low energy and the target is an [[ion]] that's missing one or more electrons.
