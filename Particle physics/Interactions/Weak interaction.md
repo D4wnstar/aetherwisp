@@ -3,7 +3,7 @@ wiki-publish: true
 aliases:
   - weak force
 ---
-The **weak interaction** or **weak force** is the [[fundamental interaction]] that governs the [[Decadimento di particelle|decay]] of elementary [[Particle|particles]] and, by extension, the [[Nuclear decay|decay]] of [[atom|atoms]].
+The **weak interaction** or **weak force** is the [[fundamental interaction]] that governs the [[Particle decay|decay]] of elementary [[Particle|particles]] and, by extension, the [[Nuclear decay|decay]] of [[atom|atoms]].
 
 The modern theory of weak force is **electroweak theory** (EWT), which describes the weak force in conjunction with [[electromagnetism]]. In fact, at sufficiently high [[energy|energies]] ($\sim 246\text{ GeV}$, the **electroweak scale**), the two fundamental forces unify into a singular **[[electroweak interaction]]**. The weak interaction is an exchange interaction mediated by the [[W boson]] or the [[Z boson]], two of the four known [[gauge boson|gauge bosons]].
 

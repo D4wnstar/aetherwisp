@@ -13,7 +13,7 @@ $$\text{cov}(K_{i},K_{j})=-np_{i}p_{j}$$
 and the correlation coefficient is
 $$\rho=- \frac{np_{i}p_{j}}{\sqrt{ np_{i}(1-p_{i})np_{j}(1-p_{j}) }}=-\sqrt{ \frac{p_{i}p_{j}}{(1-p_{i})(1-p_{j})} }$$
 ### Variable $n$
-The above results hold if $n$ is a predefined constant. This is not always true, however: say you have 2 hours of time to take measurements of a random event (i.e. [[Decadimento di particelle|particle decay]], the amount of measurements you'll take, that is $n$, is not defined. Instead, it is [[Poisson distribution|Poisson distributed]], with expected value $\nu$ as
+The above results hold if $n$ is a predefined constant. This is not always true, however: say you have 2 hours of time to take measurements of a random event (i.e. [[Particle decay|particle decay]], the amount of measurements you'll take, that is $n$, is not defined. Instead, it is [[Poisson distribution|Poisson distributed]], with expected value $\nu$ as
 $$P(n)=\frac{e^{-\nu}}{n!}\nu^{n}$$
 We can use the multinomial to find the distribution of the value of $n$ such that there are $k_{1}$ events of type 1, $k_{2}$ events of type 2, etc. The probability distribution is
 $$\begin{align}

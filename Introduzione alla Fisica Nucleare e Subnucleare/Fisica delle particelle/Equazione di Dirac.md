@@ -9,7 +9,7 @@ dove $\gamma^{\mu}$ sono le [[matrici gamma]]. La [[funzione d'onda]] $\Psi$ che
 ### Storia e derivazione
 Quando si trattano particelle e comunque oggetti molto piccoli, è necessario considerare la meccanica quantistica. Ma queste particelle si muovono alla [[velocità della luce]] (o ad una frazione considerevole di essa), quindi bisogna anche utilizzare la relatività ristretta per descrivere il moto. Come queste due teorie possano essere conciliate è un problema considerevole.
 
-Consideriamo la massa relativistica in [[unità naturali]]
+Consideriamo la massa relativistica in [[Natural units]]
 $$E^{2}=p^{2}+m^{2}$$
 e l'equazione di Schrödinger
 $$E\Psi=H\Psi$$

@@ -14,7 +14,7 @@ plot(f(x), [0,5], [0,1])==?
 ```
 
 
-This distribution is commonly used in physics to model the wait times of random independent events, such a [[Nuclear decay|radioactive]] or [[Decadimento di particelle|particle decay]].
+This distribution is commonly used in physics to model the wait times of random independent events, such a [[Nuclear decay|radioactive]] or [[Particle decay|particle decay]].
 ### Moments
 The algebraic and central [[Moment-generating function|moment-generating functions]] are
 $$M^{*}_{X}(t)=\frac{1}{1-t\tau},\qquad M_{X}(t)=\frac{e^{-t\tau}}{1-t\tau}$$

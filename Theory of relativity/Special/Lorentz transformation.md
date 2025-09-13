@@ -3,6 +3,9 @@ wiki-publish: true
 aliases:
   - relativistic
   - ultrarelativistic
+  - laboratory frame
+  - center-of-momentum frame
+  - center-of-mass frame
 ---
 A **Lorentz transformation** is a [[coordinate transformation]] between [[Frame of reference|inertial frames]] in [[spacetime]]. A transformation between a [[frame of reference]] $(x,y,z,t)$ to $(x',y',z',t')$ states
 $$\left\{\begin{align}
