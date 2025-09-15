@@ -4,6 +4,7 @@ aliases:
   - geometric cross section
   - differential cross section
   - Mott cross section
+  - scattering center
 ---
 The **cross section** $\sigma$ is a measure of the [[probability]] that a specific reaction will occur during a [[particle scattering|collision]] between two [[Particle|particles]]. It is *not* the probability itself. The cross section is a surface area, generally measured in [[barn]], that loosely represents the physical size of the target that an incident particle must hit in order for a collision to happen. The bigger the area, the more likely the collision.
 

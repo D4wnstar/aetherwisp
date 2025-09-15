@@ -25,7 +25,7 @@ So far so good. What Stern and Gerlach instead asked is this: we know that an or
 
 In principle, the request makes sense. Any spinning charged object of nonzero radius will cause a charge density to move, thus triggering [[Ampere's law]] and creating a magnetic dipole. What wasn't known was *which* dipole moments could be created. Bohr showed that angular momentum appeared to be quantized, so "any real dipole moment" was no longer a safe bet. Their experiment wanted to answer this question.
 ### Experiment
-The experiment consisted of a source of silver atoms, which are then aimed and fired at through collimators to align the atoms into a thin beam. These atoms are then made to pass through two magnets (one with an exposed north pole, the other a south pole) irregularly shaped such that they create an inhomogeneous magnetic field $\mathbf{B}$. The inhomogeneity produces a net force $\mathbf{F}=\nabla(\boldsymbol{\mu}\cdot \mathbf{B})$ on the atoms passing through[^3]. The atoms then hit a [[Rivelatore|detector]] that reveals their where they hit.
+The experiment consisted of a source of silver atoms, which are then aimed and fired at through collimators to align the atoms into a thin beam. These atoms are then made to pass through two magnets (one with an exposed north pole, the other a south pole) irregularly shaped such that they create an inhomogeneous magnetic field $\mathbf{B}$. The inhomogeneity produces a net force $\mathbf{F}=\nabla(\boldsymbol{\mu}\cdot \mathbf{B})$ on the atoms passing through[^3]. The atoms then hit a [[Detector|detector]] that reveals their where they hit.
 
 :::image
 ![[Stern-Gerlach_experiment.svg]]

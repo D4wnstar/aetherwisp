@@ -21,11 +21,11 @@ La radiazione Cherenkov è inversamente proporzionale alla lunghezza d'onda dell
 #### Perdita di energia
 La perdita di energia per radiazione Cherenkov dipende dal numero di fotoni emessi per unità di percorso. Questi a loro volta dipendo da $\theta_{C}$ (infatti si ha $dN/dx\propto \sin^{2}\theta_{C}$). Risulta che l'energia persa per unità di percorso è
 $$\frac{dE}{dx}\simeq z^{2}\sin^{2}\theta_{C}$$
-solitamente misurato in [[Electronvolt|keV]]/cm, mille volte minore della [[Potere frenante|perdita per collisione]]. Per questo, è possibile trascurarla senza grande errore.
+solitamente misurato in [[Electronvolt|keV]]/cm, mille volte minore della [[Stopping power|perdita per collisione]]. Per questo, è possibile trascurarla senza grande errore.
 ### Rivelatori
 L'angolo di emissione può essere misurato tramite uno schermo fotosensibile su cui "impatta" il cono della radiazione. Dal raggio della circonferenza misurata sullo schermo, possiamo ricondurci all'angolo di emissione.
 
-Per causare la radiazione Cherenkov in sé, qualunque mezzo trasparente può essere usato come [[rivelatore]] Cherenkov, come per esempio acqua o plastica trasparente, dato che l'unica cosa che ci interessa è l'indice di rifrazione. Ciò rende possibile costruire rivelatori Cherenkov molto grandi a basso costo usando, ad esempio, una piscina d'acqua entro il quale si immerge l'emettitore (come anche accade nei reattori nucleari moderati ad acqua).
+Per causare la radiazione Cherenkov in sé, qualunque mezzo trasparente può essere usato come [[Detector]] Cherenkov, come per esempio acqua o plastica trasparente, dato che l'unica cosa che ci interessa è l'indice di rifrazione. Ciò rende possibile costruire rivelatori Cherenkov molto grandi a basso costo usando, ad esempio, una piscina d'acqua entro il quale si immerge l'emettitore (come anche accade nei reattori nucleari moderati ad acqua).
 
 Alla minima velocità per emettere radiazione Cherenkov $\beta_{s}$ vale
 $$\gamma_{s}=\frac{1}{\sqrt{1-\beta_{s}^{2}}}=\frac{n}{\sqrt{n^{2}-1 }}$$

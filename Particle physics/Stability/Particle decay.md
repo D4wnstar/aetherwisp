@@ -7,7 +7,7 @@ Particles decay in order to reduce their [[Relativistic energy|rest energy]], wh
 $$m_\text{parent}>\sum_{i=1}^{N} m_{i\text{-th product}}$$
 The energy difference is converted to kinetic energy.
 
-Particle decay is often explained through [[Diagramma di Feynman|Feynman diagrams]], which are standardized schematic representations of particle scattering. Being entire diagrams, they can carry much more information than a simple mathematical representation, which is sorely needed given the complexity of many-particle interactions.
+Particle decay is often explained through [[Feynman diagram|Feynman diagrams]], which are standardized schematic representations of particle scattering. Being entire diagrams, they can carry much more information than a simple mathematical representation, which is sorely needed given the complexity of many-particle interactions.
 
 It is similar to, but distinct from, [[nuclear decay]], which occurs in [[Atomic nucleus|nuclei]] and involves different mechanisms.
 ## Common situations
@@ -65,14 +65,14 @@ m_{a}=E'_{b}+E'_{c}=\sqrt{ s }
 \end{cases}$$
 which is back-to-back decay. The primes denote that the we are in a different frame, so the values change.
 
-Now consider the lab frame. The invariant mass is:
+:::hidden
+In the COM frame the center-of-mass energy is calculated as
 $$\begin{align}
-\sqrt{s} &= M_{\pi^{0}} = \sqrt{(p_{\gamma,1} + p_{\gamma,2})^2} \\
-&= \sqrt{ (E_{\gamma,1} + E_{\gamma,2})^2 - (\mathbf{p}_{\gamma,1} + \mathbf{p}_{\gamma,2})^2 } \\
-&= \sqrt{ E_{\gamma,1}^2 + E_{\gamma,2}^2 + 2E_{\gamma,1}E_{\gamma,2} - (p_{\gamma,1}^2 + p_{\gamma,2}^2 + 2|\mathbf{p}_{\gamma,1}||\mathbf{p}_{\gamma,2}|\cos\theta) } \\
-&= \sqrt{ 2E_{\gamma,1}E_{\gamma,2}(1 - \cos\theta) } = \sqrt{ 4E_{\gamma,1}E_{\gamma,2} \sin^2\frac{\theta}{2} }
+\sqrt{s} &= m_{a} \\
+&= \sqrt{ (E_{b} + E_{c})^2 - (\mathbf{p}_{b} + \mathbf{p}_{c})^2 } \\
+&= \sqrt{ E_{b}^2 + E_{c}^2 + 2E_{b}E_{c} - (p_{b}^2 + p_{c}^2 + 2|\mathbf{p}_{b}||\mathbf{p}_{c}|\cos\theta) } \\
+&= \sqrt{ 2E_{b}E_{c}(1 - \cos\theta) } = \sqrt{ 4E_{b}E_{c} \sin^2\frac{\theta}{2} }
 \end{align}$$
-
 (using $E_\gamma = |\mathbf{p}_\gamma|$ and $1 - \cos\theta = 2\sin^2(\theta/2)$). Thus, the [[Invariant mass]] depends on the angle between photons in the lab frame.
 
 Now solve for the minimum angle:
@@ -81,10 +81,10 @@ If energies are equal, $E_{1}=E_{2}=E_{\pi}/2$, the angle is minimized.
 
 Energy transforms between frames. Perform a [[Lorentz transformation]] along the pion's direction ($x$-axis):
 $$\begin{cases}
-E_{\gamma,1} = \gamma(E_{\gamma,1}^{*} + \beta p_{\gamma,1}^{*} \cos\theta^{*}) \\
-p_{1,x} = \gamma(p_{\gamma,1}^{*} \cos\theta^{*} + \beta E_{\gamma,1}^{*}) \\
-p_{1,y} = p_{\gamma,1}^{*} \sin\theta^{*} \\
-p_{1,z} = p_{\gamma,1}^{*} \cos\phi^{*} \sin\theta^{*}
+E_{b} = \gamma(E_{b}^{*} + \beta p_{b}^{*} \cos\theta^{*}) \\
+p_{1,x} = \gamma(p_{b}^{*} \cos\theta^{*} + \beta E_{b}^{*}) \\
+p_{1,y} = p_{b}^{*} \sin\theta^{*} \\
+p_{1,z} = p_{b}^{*} \cos\phi^{*} \sin\theta^{*}
 \end{cases}$$
 where $*$ denotes CM frame quantities.
 
@@ -111,4 +111,4 @@ achieved when particles 1 and 2 are collinear and have equal velocities ($\beta_
 
 Then:
 $$E_3^{\text{max}} = \frac{M^2 + m_3^2 - (m_1 + m_2)^2}{2M}$$
-
+:::

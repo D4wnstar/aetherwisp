@@ -17,6 +17,6 @@ La scoperta e spiegazione di Einstein dell'effetto fotoelettrico ha avuto un pro
 $$\hbar \omega-W=-eV_\text{stop}$$
 dove $V_\text{stop}$ è il potenziale necessario per fermare l'elettrone. Si trova che $V_\text{stop}$ è zero fino ad una frequenza di soglia $\omega_{0}$, oltre il quale il potenziale aumenta linearmente, confermando esattamente la formula sopra. Ciò dà conferma che l'energia di un elettrone è correttamente descritta dalla costante di Planck, che si è trovata avere lo stesso identico valore originariamente postulato da Planck.
 ### Nei rivelatori
-L'effetto fotoelettrico può anche essere utile nei [[Rivelatore|rivelatori]]. Quando un fotone viene assorbito, trasferisce quasi tutta la sua energia all'elettrone:
+L'effetto fotoelettrico può anche essere utile nei [[Detector|rivelatori]]. Quando un fotone viene assorbito, trasferisce quasi tutta la sua energia all'elettrone:
 $$E_{e^{-}}=h\nu-E_{b}\simeq h\nu$$
 per energie sufficientemente alte. Se il rivelatore è abbastanza spesso da bloccare l'elettrone liberato, la sua energia può essere trasferita al rivelatore per essere misurata. L'energia misurata dal rivelatore (quella degli elettroni) ha una distribuzione gaussiana con picco attorno a $h\nu$ (a causa del rumore del rivelatore). Ma questa energia è sostanzialmente pari a quella dei fotoni, quindi questo ci permette di compiere misure indirette dell'energia di un fotone.

@@ -11,7 +11,7 @@ Particle scattering is ubiquitous. It's the foundation of many physical phenomen
 
 Particles involved in scattering may be elementary particles like [[electron|electrons]], composite particles like [[proton|protons]] or even entire [[Atomic nucleus|nuclei]], [[atom|atoms]] or [[ion|ions]].
 
-Particle scattering is often explained through [[Diagramma di Feynman|Feynman diagrams]], which are standardized schematic representations of particle scattering. Being entire diagrams, they can carry much more information than a simple mathematical representation, which is sorely needed given the complexity of many-particle interactions.
+Particle scattering is often explained through [[Feynman diagram|Feynman diagrams]], which are standardized schematic representations of particle scattering. Being entire diagrams, they can carry much more information than a simple mathematical representation, which is sorely needed given the complexity of many-particle interactions.
 ### Elastic scattering
 Particle scattering is elastic when [[kinetic energy]] is conserved (but may be redistributed) and the incident particles do not change in the process. A typical elastic process reads
 $$a+b \rightarrow a'+b'$$

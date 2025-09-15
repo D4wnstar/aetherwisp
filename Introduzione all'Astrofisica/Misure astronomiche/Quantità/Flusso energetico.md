@@ -5,7 +5,7 @@ Il **flusso energetico** $\Phi$, o semplicemente **flusso**, è la quantità di 
 $$\Phi=\frac{1}{S} \frac{dE}{dt} \quad \left[\frac{W}{m^{2}}\right]$$
 Il flusso energetico trova applicazione in diversi ambiti della fisica e solitamente prende nomi diversi in ciascuno di essi.
 ### In astrofisica
-Nel contesto di telescopi e misurazioni celesti, è comune usare due tipi di flusso: il flusso in una generica banda è la quantità di energia raccolta da un [[rivelatore]] per unità di tempo sulla sua superficie:
+Nel contesto di telescopi e misurazioni celesti, è comune usare due tipi di flusso: il flusso in una generica banda è la quantità di energia raccolta da un [[Detector]] per unità di tempo sulla sua superficie:
 $$f_{banda}=\frac{1}{S_{rivelatore}} \frac{dE}{dt} \quad \left[\frac{erg}{s\cdot cm^{2}}\right]$$
 Alternativamente, si può anche definire il **flusso monocromatico**, che è il flusso in un piccolo intervallo di lunghezze d'onda $d\lambda$:
 $$f_{\lambda}=\frac{1}{S_{rivelatore}} \frac{dE}{dt\,d\lambda} \quad \left[\frac{erg}{s\cdot cm^{2}\cdot Å}\right]$$

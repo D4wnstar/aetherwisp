@@ -23,10 +23,12 @@ $$\left\{\begin{align}
 &\bar{x}^{2}=x^{2} \\
 &\bar{x}^{3}=x^{3}
 \end{align}\right.$$
-where the overbar now denotes the new frame. Here, time is expressed in units of $ct$ instead of $t$, meaning that it is measured in meters and interpreted as the time it takes for light to travel that many meters. In matrix notation we have
+where the overbar now denotes the new frame. Here, time is expressed in units of $ct$ instead of $t$, meaning that it is measured in meters and interpreted as the time it takes for light to travel that many meters.
+### Matrix form
+Lorentz transformations can also be written in [[matrix]] notation:
 $$\bar{x}=\Lambda x$$
 where
-$$\Lambda=\begin{pmatrix}\gamma & -\beta \gamma & 0 & 0 \\ -\beta \gamma & \gamma & 0 & 0 \\ 0 & 0 & 1 & 0 \\ 0 & 0 & 0 & 1\end{pmatrix},\qquad x=\begin{pmatrix}
+$$\Lambda(\beta)=\begin{pmatrix}\gamma & -\beta \gamma & 0 & 0 \\ -\beta \gamma & \gamma & 0 & 0 \\ 0 & 0 & 1 & 0 \\ 0 & 0 & 0 & 1\end{pmatrix},\qquad x=\begin{pmatrix}
 x^{0} \\ x^{1} \\ x^{2} \\ x^{3}
 \end{pmatrix},\qquad \bar{x}=\begin{pmatrix}
 \bar{x}^{0} \\ \bar{x}^{1} \\ \bar{x}^{2} \\ \bar{x}^{3}
@@ -34,6 +36,11 @@ x^{0} \\ x^{1} \\ x^{2} \\ x^{3}
 $\Lambda$ is known as the **Lorentz transformation matrix**. The convenience of this form lies in that, besides being more compact, it also makes it easier to handle transformations that are not on a common $x,\bar{x}$ axis, as you'd just change the matrix accordingly. Each individual component is then written
 $$\bar{x}^{\mu}=\sum_{\nu=0}^{3} \Lambda_{\nu}^{\mu}x^{\nu}\equiv \Lambda_{\nu}^{\mu}x^{\nu}$$
 where the second equality is using [[Einstein notation]] for implicit summation.
+
+The matrix has a few properties:
+- $\gamma ^{2}-\beta ^{2}\gamma ^{2}=1$.
+- Its [[determinant]] is 1.
+- Its [[Invertible matrix|inverse]] is equal to itself with an inverted argument: $\Lambda^{-1}(\beta)=\Lambda(-\beta)$.
 ### Derivation
 Say we have an [[event]] $E$ at coordinates $(x,y,z,t)$ in some inertial system $\mathcal{S}$. We want to express this event in another inertial frame $\mathcal{S}'$, where it'll have coordinates $(x',y',z',t')$. We are looking for the coordinate transformation that will convert between the two. This space is four dimensional, so a complete visualization is not possible. However, think of it like this: since we have inertial frames, the origins can move at some constant velocity. Let's say that at time $t=0$, both $\mathcal{S}$ and $\mathcal{S}'$ coincide. As time goes on, the two systems will in general move away from each other, at some constant velocity $\mathbf{v}$. Say this velocity is on the $x$ axis (if it's not, rotate everything until it is). Then, over some time $t$, the origin of $\mathcal{S}'$ will move a distance $vt$ away from the origin of $\mathcal{S}$ on the $x$ axis (the other coordinates don't change). The event coordinates will *of course* be connected by
 $$x=x'+vt$$

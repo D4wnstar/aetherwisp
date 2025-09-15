@@ -11,4 +11,4 @@ In Thomson's case, the expectation was that the $\alpha$ particles would have pa
 
 In Rutherford's case, the central nucleus, distributed centrally, would have had a high enough charge to significantly deflect the incoming particles, creating an apparent distortion in the trajectory of the test particles. Most importantly, a test particle that happened to strike the nucleus itself would almost certainly _bounce_ off the nucleus due to gold being much heavier than helium (besides being anchored in a solid foil), thus resulting in trajectories that ended up striking the detector *in front* of the foil instead of behind. Such a measurement would be impossible in Thomson's model.
 
-The empirical results actually did record backwards hits resulting from helium atoms bouncing back, which consequently proved Rutherford right. It also confirmed his formula for [[cross section]].
+The empirical results actually did record backwards hits resulting from helium atoms bouncing back, which consequently proved Rutherford right. It also confirmed his formula for [[Cross section]].

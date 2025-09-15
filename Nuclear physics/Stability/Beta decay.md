@@ -6,10 +6,10 @@ aliases:
   - beta minus decay
 ---
 **Beta decay** is a mode of [[Nuclear decay|decay]] in which a [[Atomic nucleus|nucleus]] corrects an excess of [[proton|protons]] or [[neutron|neutrons]] by converting one into the other. The conversion can occur in both directions, known as $\beta^{+}$ and $\beta^{-}$:
-$$\begin{aligned}
+$$\begin{align}
 \beta^{+}\text{ decay:}\quad &p\to n+e^{+}+\nu_{e}\\
 \beta^{-}\text{ decay:}\quad &n\to p+e^{-}+\bar\nu_{e}
-\end{aligned}$$
+\end{align}$$
 where $e^{-}$ is an [[electron]], $e^{+}$ a [[positron]] and $\nu_{e}$ and $\bar{\nu}_{e}$ are [[neutrino|electron neutrinos]] and antineutrinos respectively.
 
 There exists a third process associated with $\beta$ decay called **electron capture** (**EC** for short):

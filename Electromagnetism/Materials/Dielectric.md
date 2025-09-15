@@ -108,7 +108,7 @@ Our end goal is to explain why the [[permittivity]] $\varepsilon$ of a dielectri
 
 Each electron in a dielectric is, generally speaking, bound to a specific [[molecule]]. We'll say that there is a binding [[force]] $F_{\text{binding}}$ keeping the electron attached to the molecule against the displacement of imposed by the wave (which we assume to be propagating on the $x$ axis and [[Polarization|polarized]] on the $y$ axis as usual) and we'll say that this force is elastic and described by [[Harmonic oscillator|Hooke's law]]:
 $$F_\text{binding}=-kx=-m\omega_{0}^{2}y$$
-where $k=m\omega_{0}^{2}$ is the spring constant, $m$ is the [[mass]] of the electron and $\omega_{0}=\sqrt{ k/m }$ is the *natural oscillation frequency*. We claim this is a valid approximation since any [[potential]] (and thus force) can be approximated by the [[harmonic oscillator]] for small enough displacements around an [[equilibrium point]], which the electron's stable orbit around the molecule is.
+where $k=m\omega_{0}^{2}$ is the spring constant, $m$ is the [[mass]] of the electron and $\omega_{0}=\sqrt{ k/m }$ is the **natural oscillation frequency**. We claim this is a valid approximation since any [[potential]] (and thus force) can be approximated by the [[harmonic oscillator]] for small enough displacements around an [[equilibrium point]], which the electron's stable orbit around the molecule is.
 
 This electron is likely also subject to a damping force $F_\text{damping}$, which we'll assume to be a generic [[dissipative force]]
 $$F_\text{damping}=-m\gamma \frac{dy}{dt}$$

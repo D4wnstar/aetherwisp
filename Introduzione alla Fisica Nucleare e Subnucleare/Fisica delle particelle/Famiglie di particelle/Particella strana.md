@@ -7,4 +7,4 @@ Una **particella strana** è una [[Particle]] che presenta caratteristiche anoma
 
 La stranezza di una particella è conservata da interazioni forti, ma violata da interazioni deboli.
 
-Storicamente venivano chiamate **particelle V** perché venivano identificate da particolari tracce a forma di V nelle [[camera a nebbia|camere a nebbia]] per via della loro produzione a coppie.
+Storicamente venivano chiamate **particelle V** perché venivano identificate da particolari tracce a forma di V nelle [[Cloud chamber|camere a nebbia]] per via della loro produzione a coppie.

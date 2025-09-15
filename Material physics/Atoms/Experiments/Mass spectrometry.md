@@ -15,7 +15,7 @@ so by modulating the ratio of electric-to-magnetic field, one can select for a s
 
 Once the selected few ions make it through, they get into the second selector: the *[[Linear momentum|momentum]] selector*. This consists of a single uniform magnetic field that bends the beam into a circle of radius $r$ dependent on the momentum $p$ of the ion, such that
 $$p=mv=qB_{2}r \quad\Rightarrow\quad m=\frac{qrB_{1}B_{2}}{E}$$
-since $v=E/B_{1}$ from the velocity selector. Thus, if we can measure the curvature radius, we can get an estimate of mass. To do so, a [[Rivelatore]] plate is placed at an angle such that it detects the passing of an ion, from which we can measure the radius of curvature and finally get the mass.
+since $v=E/B_{1}$ from the velocity selector. Thus, if we can measure the curvature radius, we can get an estimate of mass. To do so, a [[Detector]] plate is placed at an angle such that it detects the passing of an ion, from which we can measure the radius of curvature and finally get the mass.
 ### Measurements  
 The high precision stems from using of well-known reference point for atomic mass. This is typically the mass of carbon-12:
 $$m(\ce{^{12}C})=12.000\,000\ \text{u}$$

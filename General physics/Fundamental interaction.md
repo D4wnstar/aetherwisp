@@ -7,7 +7,7 @@ The **fundamental interactions** or **fundamental forces** are the most elementa
 3. [[Strong interaction]]
 4. [[Weak interaction]]
 
-Three of these are said to be **exchange interactions**, which is to say that they act by exchanging discrete quanta in the form of [[Particle|particles]] known as [[gauge boson|gauge bosons]]. These are [[Photon|photons]] for electromagnetism, [[gluon|gluons]] for strong interaction and [[W boson|W]] and [[Z boson|Z bosons]] for weak interaction. As such, these interactions are understood as a part of quantum mechanics.
+Three of these are said to be **exchange interactions**, which is to say that they act by exchanging discrete quanta in the form of [[Particle|particles]] known as **[[force carrier|force carriers]]** or **exchange particles**. All exchange particles we know of are [[boson|bosons]] and in the [[Standard Model]] they are collectively known as [[gauge boson|gauge bosons]]. These are [[Photon|photons]] for electromagnetism, [[gluon|gluons]] for strong interaction and [[W boson|W]] and [[Z boson|Z bosons]] for weak interaction. As such, these interactions are understood as a part of quantum mechanics.
 
 The remaining interaction, gravity, is only understood outside of quantum physics. The modern theory of gravity is Einstein's theory of general relativity, in which it is the curvature of [[spacetime]] that enacts the force. The explanation of gravity as a quantum phenomenon and the potential discovery of the quantum of gravity (the so-called *graviton*) is one of the largest unsolved mysteries of modern physics.
 

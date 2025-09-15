@@ -4,7 +4,7 @@ aliases:
   - luminosity
   - integrated luminosity
 ---
-The **luminosity**, in the context of [[particle scattering]] and [[particle accelerator|particle accelerators]], is the ratio between (detected) scattering events per unit time $\dot{N}$ and the [[cross section]] $\sigma$ of the event:
+The **luminosity**, in the context of [[particle scattering]] and [[particle accelerator|particle accelerators]], is the ratio between (detected) scattering events per unit time $\dot{N}$ and the [[Cross section]] $\sigma$ of the event:
 $$\mathcal{L}=\frac{\dot{N}}{\sigma}\quad\left[ \frac{\text{collisions}}{\text{cm}^{2}\ \text{s}} \right]$$
 If we call $\Phi_{B}$ the [[flux]] of incident particles from a particle beam and $N_{T}$ the number of particles in the target, we can also say
 $$\mathcal{L}=\Phi_{B}N_{T}$$

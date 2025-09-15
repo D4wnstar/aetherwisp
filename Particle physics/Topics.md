@@ -6,3 +6,5 @@ wiki-publish: true
 	- [[Electromagnetism]]
 	- [[Weak interaction]]
 	- [[Strong interaction]]
+
+- [[Dirac equation]]
