@@ -187,7 +187,7 @@ We need to solve these equations. To do so, we need the coefficients $c_{\mathbf
 
 To start, we'll use a 1D crystal like we did for vibrations. We'll express the potential in a [[Fourier series]]
 $$U(x)=\sum_{n}U_{n}e^{inKx}$$
-We will use the arbitrary constant of the potential to set $U_{0}=0$. Assuming [[parità|parity]] [[symmetry]] for the crystal, we also have $U_{n}=U_{-n}$. We require that only $c_{k},c_{k-K},c_{k+K}$ are nonzero, with all other terms vanishing. Consequently, we also only retain $U_{0}$ (which is zero anyway) and $U_{1}=U_{-1}=U$. This decision cannot be justified at this stage, but varying the number of coefficients that are kept has consequences on the predicted behavior. We'll return to this in a moment when it's easier to explain. Keeping only three coefficients leads to a system of three equations, with means three solutions (energy bands) for each $k$. The equations are
+We will use the arbitrary constant of the potential to set $U_{0}=0$. Assuming [[Parity|parity]] [[symmetry]] for the crystal, we also have $U_{n}=U_{-n}$. We require that only $c_{k},c_{k-K},c_{k+K}$ are nonzero, with all other terms vanishing. Consequently, we also only retain $U_{0}$ (which is zero anyway) and $U_{1}=U_{-1}=U$. This decision cannot be justified at this stage, but varying the number of coefficients that are kept has consequences on the predicted behavior. We'll return to this in a moment when it's easier to explain. Keeping only three coefficients leads to a system of three equations, with means three solutions (energy bands) for each $k$. The equations are
 $$\begin{align}
 \left( \frac{\hbar^{2}(k-K)^{2}}{2m} -\varepsilon\right)c_{k-K}+Uc_{k}&=0 \\
 \left( \frac{\hbar^{2}k^{2}}{2m} -\varepsilon\right)c_{k}+Uc_{k-K}+Uc_{k+K}&=0 \\

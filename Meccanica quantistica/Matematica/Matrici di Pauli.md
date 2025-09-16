@@ -105,7 +105,7 @@ $$\hat{P}_{+n}\hat{P}_{-n}=\frac{1}{4}(\mathrm{I}_{2}-\mathrm{I}_{2}-\hat{\sigma
 che dimostra siano autoproiettori.
 ### Esempi fisici
 > [!example] Magnetone di Bohr
-> Un corpo elettricamente [[Electric charge|carico]] in [[Rotation|rotazione]] produce un [[Magnetic field|campo magnetico]] per via del moto delle cariche. Le particelle elementari come l'[[elettrone]] non hanno un'estensione spaziale ben definita per via dell'[[indeterminatezza quantistica]], ma sono comunque cariche e possiedono uno spin. È ragionevole dunque assumere che possano produrre un campo magnetico caratteristico della particella. La [[Hamiltonian|Hamiltoniana]] di una particella di spin 1/2 sull'asse $\hat{\mathbf{n}}$ con pulsazione $\omega$ è
+> Un corpo elettricamente [[Electric charge|carico]] in [[Rotation|rotazione]] produce un [[Magnetic field|campo magnetico]] per via del moto delle cariche. Le particelle elementari come l'[[Electron]] non hanno un'estensione spaziale ben definita per via dell'[[indeterminatezza quantistica]], ma sono comunque cariche e possiedono uno spin. È ragionevole dunque assumere che possano produrre un campo magnetico caratteristico della particella. La [[Hamiltonian|Hamiltoniana]] di una particella di spin 1/2 sull'asse $\hat{\mathbf{n}}$ con pulsazione $\omega$ è
 > $$\hat{H}=- \frac{\hbar}{2}\omega \hat{\sigma}_{n}$$
 > Ricordiamo che l'Hamiltoniana classica di un oggetto carico in rotazione è
 > $$H=-\boldsymbol{\mu}\cdot \mathbf{B}$$

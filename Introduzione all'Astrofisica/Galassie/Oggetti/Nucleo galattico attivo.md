@@ -14,7 +14,7 @@ La presenza di un AGN comporta l'osservazione di forti righe di emissioni in tut
 dove si trovano tre componenti principali
 - una salita nel IR e forse nel radio a dipendenza del tipo di AGN, dovuta all'emissione termica del toro oscurante molto più calda dell'ISM (~100 K)
 - una salita nell'ottico e UV, detta Big Blue Bump, dovuta al disco di accrescimento, molto complicata da modellare
-- una salita nel hard X e nei gamma, dovuta a [[radiazione da sincrotrone]] di [[elettrone|elettroni]] [[Lorentz transformation|ultrarelativistici]] vicino al centro
+- una salita nel hard X e nei gamma, dovuta a [[radiazione da sincrotrone]] di [[Electron|elettroni]] [[Lorentz transformation|ultrarelativistici]] vicino al centro
 
 La regione in UV estremi e raggi X soft è largamente inosservabile a causa dell'assorbimento dell'idrogeno neutro sotto il [[Lyman limit]]. Inoltre, la SED nucleare non tiene conto dei lobi radio, che hanno energie enormi e sarebbero una quarta componente a parte.
 #### Linee spettrali
@@ -51,7 +51,7 @@ Gli AGN radio-loud sono ulteriormente classificati come:
 1. **Faranoff-Riley I** (FR I) se i getti sono entrambi visibili e non ben collimati, e i lobi sono più luminosi al centro (si dice che sono *limb darkened*).
 2. **Faranoff-Riley II** (FR II) se i getti sono più collimati, uno è più visibile dell'altro (a causa del [[beaming relativistico]]), e i lobi sono più luminosi ai bordi (*limb brightened*). Gli FR II sono più luminosi degli FR I.
 
-Le radiogalassie sono sistemi molto interessanti dal punto di vista fisico. Ad esempio, nei lobi dei getti radio è immagazzinata energia che può raggiungere i $10^{61}$ erg ($10^{54}$ J). L'emissione radio è dovuta a [[radiazione da sincrotrone]] emessa da [[elettrone|elettroni]] [[Lorentz transformation|ultrarelativistici]] provenienti dal corpo centrale dell'AGN che si muovono in un campo magnetico.
+Le radiogalassie sono sistemi molto interessanti dal punto di vista fisico. Ad esempio, nei lobi dei getti radio è immagazzinata energia che può raggiungere i $10^{61}$ erg ($10^{54}$ J). L'emissione radio è dovuta a [[radiazione da sincrotrone]] emessa da [[Electron|elettroni]] [[Lorentz transformation|ultrarelativistici]] provenienti dal corpo centrale dell'AGN che si muovono in un campo magnetico.
 #### Moto superluminale
 È successo che nell'osservazione dei getti relativistici degli AGN radio si siano misurate velocità di molto superiori a quelle della luce.  Ciò ha fatto nascere l'idea che esistessero oggetti che superino la velocità della luce, ma è solo un'illusione dovuta a effetti relativistici.
 

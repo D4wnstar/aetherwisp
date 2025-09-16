@@ -26,7 +26,7 @@ $s$ è detto il **[[numero quantico]] di spin** e si trova che ogni singola part
 
 Dato che le componenti sono intercambiabili fra loro con una permutazione ciclica, l'equazione per gli autovalori è la stessa per tutte le componenti.
 ### Spin 1/2
-Il caso dello spin $s=1/2$ è di gran lunga il più importante, dato che tutte le particelle che compongono la materia ordinaria ([[protone]], [[neutrone]], [[Elettrone]]) hanno spin 1/2, così come tutti i [[quark]] e tutti i [[Leptone|leptoni]].
+Il caso dello spin $s=1/2$ è di gran lunga il più importante, dato che tutte le particelle che compongono la materia ordinaria ([[protone]], [[neutrone]], [[Electron]]) hanno spin 1/2, così come tutti i [[Quark]] e tutti i [[Leptone|leptoni]].
 
 Ha anche la fortuna di essere il caso più facile possibile, grazie al fatto che esistono solo due possibili autostati per $s$ e $m_{s}$: $| \frac{1}{2},\frac{1}{2}\rangle$ e $| \frac{1}{2}, -\frac{1}{2}\rangle$. Questi due stati vengono comunemente chiamati **spin up** $\uparrow$ e **spin down** $\downarrow$. I vettori che rappresentano questi due stati compongono una [[basis|base]] in $\mathbb{C}^{2}$ e possono dunque essere combinati linearmente per creare stati misti espressi come vettori colonna bidimensionali (ossia degli [[spinore|spinori]]):
 $$\chi=\begin{pmatrix}a \\ b\end{pmatrix}=a |\uparrow\;\rangle+b |\downarrow\;\rangle$$

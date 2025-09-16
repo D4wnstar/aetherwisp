@@ -1,0 +1,8 @@
+---
+wiki-publish: true
+---
+A **strange particle** is a [[Particle|particle]], specifically a [[hadron]], that exhibits anomalous characteristics: it [[Nuclear decay|decays]] with a [[mean lifetime]] typical of the [[Fundamental interaction|weak interaction]] ($10^{-10}\text{ s}$), but [[Particle scattering|scatters]] with a [[cross section]] typical of the [[Fundamental interaction|strong interaction]] ($\sim10^{-24}\text{ cm}^{2}$). They often decay in a pair of [[Electric charge|charged]] particles, to the point that their first recorded name for them is **V particles**, from the V-shaped tracks their decay products made in [[Cloud chamber|cloud chambers]] from [[Cosmic ray|cosmic rays]].
+
+The **strangeness**, as it is called, is due to the presence of the aptly named [[strange quark]] $s$ present in these hadrons. Strange particles are defined by having a nonzero [[strangeness]] [[quantum number]]. The best known strange particle is the [[kaon]], a ~500 [[Electronvolt|MeV]] [[meson]]. Several more strange particles have been discovered around the same time as the kaon, all of which were [[spin]] 1/2 [[hadron|hadrons]] heavier than the [[neutron]]: they are collectively known as **[[hyperon|hyperons]]**.
+
+The requirement of a nonzero strangeness number leads to the curious case of the [[phi particle]] (quarks: $s \bar{s}$) not being strange despite being entirely made of strange quarks, since the two cancel each other's strangeness.

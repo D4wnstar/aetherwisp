@@ -11,7 +11,7 @@ Il processo più semplice è il **ciclo protone-protone** (o **ciclo PP**) ed av
 $$_{1}^{1}H+\ _{1}^{1}H \rightarrow\ ^{2}_{1}H + e^{+}+\nu_{e}$$
 $$_{1}^{2}H+\ _{1}^{1}H \rightarrow\ ^{3}_{2}He+\gamma$$
 $$^{3}_{2}He+\ _{2}^{3}He \rightarrow\ ^{4}_{2}He + \ _{1}^{1}H +\ _{1}^{1}H$$
-dove $e^{+}$ è un [[Elettrone|positrone]] e $\nu_{e}$ è un [[neutrino]] elettronico. La catena coinvolge neutrini, che hanno [[Cross section|sezioni d'urto]] estremamente piccole e quindi smorzano l'efficienza di tutto il resto del ciclo.
+dove $e^{+}$ è un [[Electron|positrone]] e $\nu_{e}$ è un [[neutrino]] elettronico. La catena coinvolge neutrini, che hanno [[Cross section|sezioni d'urto]] estremamente piccole e quindi smorzano l'efficienza di tutto il resto del ciclo.
 
 Questo è il tipo di processo che usano le stelle per la maggior parte della loro vita, come anche le stelle primordiali create poco dopo il [[Big Bang]]. L'efficienza di conversione massa-energia questo processo è $\epsilon\propto \rho T^{4}$[^1] ed è pari a circa 0.7%.
 ### Ciclo CNO

@@ -54,7 +54,7 @@ $$J=\text{that of the missing shell},\quad P=(-1)^{l}$$
 Even-even: $J^{P}_\text{ground}=0^{+}$, $J^{P}_\text{exc,1}=2^{+}$,...
 Odd-odd: $J=\lvert J_{1}-J_{2} \rvert,\ldots,\lvert J_{1}+J_{2} \rvert$. $P=(-1)^{l_{1}+l_{2}}$.
 ### Particles
-See [[Tabella di proprietà delle particelle]]
+See [[Table of properties]]
 ### Detectors
 **Bethe-Bloch formula**
 $$S(K)=- \frac{dK}{dx} = 4\pi m_{e}c^{2}r^{2}_{e}N_{A} \frac{\rho Z}{A} \frac{z^{2}}{\beta^{2}} \ln\left( \frac{\beta^{2} \gamma^{2}m_{e}c^{2}}{h\nu} \right)$$

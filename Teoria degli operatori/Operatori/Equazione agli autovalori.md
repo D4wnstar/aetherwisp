@@ -1,14 +1,13 @@
 ---
 wiki-publish: true
 aliases:
-  - autovalore
-  - autovettore
-  - autofunzione
-  - autostato
-  - autospazio
   - polinomio caratteristico
   - equazione caratteristica
-  - autoket
+  - eigenvalue
+  - eigenfunction
+  - eigenstate
+  - eigenket
+  - eigenspace
 ---
 Sia $T:H \rightarrow H$ un [[operatore lineare]] su uno [[spazio di Hilbert]]. L'**equazione agli autovalori** associata all'operatore $T$ di dominio $D$ è
 $$Tx=\lambda x;\quad \lambda\in\mathbb{C},\quad x\neq0\in D$$

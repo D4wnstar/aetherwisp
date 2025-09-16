@@ -1,5 +1,8 @@
 ---
 wiki-publish: true
+aliases:
+  - elementary particle
+  - composite particle
 ---
 A **particle** is an object that occupies a localized region of [[spacetime]] and possesses certain intrinsic attributes, such as [[mass]], [[electric charge]] or [[spin]].
 
@@ -7,7 +10,7 @@ Particles are typically used as an idealization within a physical model in order
 ### In particle physics
 In particle physics, the term refers to objects smaller than an [[atom]], so-called **subatomic particles**. These may be of two kinds:
 - **Elementary particles** have no internal components and are not made of other particles. Examples include the [[electron]], any [[neutrino]] or the [[photon]].
-- **Composite particles** are composed of other particles, usually elementary ones. Examples include the [[proton]] and the [[neutron]], both made of three [[quark|quarks]] each.
+- **Composite particles** are composed of other particles, usually elementary ones. Examples include the [[proton]] and the [[neutron]], both made of three [[Quark|quarks]] each.
 
 Whereas we are aware of a large number of composite particles, there are only few elementary ones. Our current understanding of elementary particles is formalized in the **[[Standard Model]]** of particle physics, which is a model containing all 17 known elementary particles, their known properties and how they behave with respect to [[electromagnetism]], the [[weak interaction]] and the [[strong interaction]].
 #### Proof of elementarity

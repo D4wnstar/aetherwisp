@@ -6,7 +6,7 @@ aliases:
 ---
 The **electric current** $\mathbf{I}$ is the rate of change of [[electric charge]] in a given point. In other words, it's how much charge is passing through a location. It is measured in Amperes, which are Coulombs per second:
 $$\text{A}\equiv \frac{\text{C}}{\text{s}}$$
-By convention, negative charges moving to the left count the same as positive charges moving to the right. This is to reflect the physical fact that almost all laws regarding charge movement depend on the product of charge and velocity, so if you reverse the signs of both, the phenomenon doesn't change. For an example, see the [[Lorentz force]]. In practice, it's usually [[Elettrone|electrons]] that move and they do so in the opposite direction of the current.
+By convention, negative charges moving to the left count the same as positive charges moving to the right. This is to reflect the physical fact that almost all laws regarding charge movement depend on the product of charge and velocity, so if you reverse the signs of both, the phenomenon doesn't change. For an example, see the [[Lorentz force]]. In practice, it's usually [[Electron|electrons]] that move and they do so in the opposite direction of the current.
 
 A current is said to be **steady** or **stationary** if it does not vary with time:
 $$\frac{\partial \mathbf{J}}{\partial t}=0$$

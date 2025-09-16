@@ -1,7 +1,7 @@
 ---
 wiki-publish: true
 ---
-The **two-electron atom** is a [[physical system]] modeling an [[atom]] with two [[elettrone|electron]] around and arbitrary [[Atomic nucleus|nucleus]]. It is a generalization of the [[Hydrogen atom|hydrogenic atom]]. The key challenge of the system is the [[Identical particles|indistinguishability]] of electrons and their effective interaction due to the [[Pauli exclusion principle]]. The [[Hamiltonian]] of the system is
+The **two-electron atom** is a [[physical system]] modeling an [[atom]] with two [[Electron|electron]] around and arbitrary [[Atomic nucleus|nucleus]]. It is a generalization of the [[Hydrogen atom|hydrogenic atom]]. The key challenge of the system is the [[Identical particles|indistinguishability]] of electrons and their effective interaction due to the [[Pauli exclusion principle]]. The [[Hamiltonian]] of the system is
 $$\hat{H}=\underbrace{ - \frac{\hbar^{2}}{2m}\nabla ^{2}_{r_{1}}- \frac{Ze^{2}}{4\pi \varepsilon_{0}r_{1}} }_{ \text{Electron 1} }\underbrace{ - \frac{\hbar^{2}}{2m}\nabla ^{2}_{r_{2}}- \frac{Ze^{2}}{4\pi \varepsilon_{0}r_{2}} }_{ \text{Electron 2} }+ \underbrace{ \frac{e^{2}}{4\pi \varepsilon_{0}r_{12}} }_{ e-e\text{ interaction} }$$
 
 ![[Diagram Two electrom atom|50%]]

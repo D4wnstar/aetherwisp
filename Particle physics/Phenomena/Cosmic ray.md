@@ -11,7 +11,7 @@ Cosmic rays originate from outer space. Due to the great number of things in spa
 ### Measurements
 Cosmic rays have been measured with many different [[Detector|detectors]] throughout the last century. A historical device (1930s) is the [[cloud chamber]], a sealed chamber filled with vapor (typically a mixture of alcohol and water) and equipped with a rapid piston. When the piston retracts, the volume expands adiabatically, lowering the [[temperature]] and creating a supersaturated vapor. Charged cosmic rays passing through the chamber [[ionization|ionize]] the gas, causing droplets to condense alongside its trajectory. These droplets form visible tracks, allowing observation of the particle's path.
 ## Discoveries
-Several discoveries can be traced back to experiments done on cosmic rays. The [[Elettrone|positron]], [[muon]], [[pion]] and [[Lambda (particle)|lambda]] particles where all discovered through observation of cosmic rays.
+Several discoveries can be traced back to experiments done on cosmic rays. The [[Electron|positron]], [[muon]], [[pion]] and [[Lambda (particle)|lambda]] particles where all discovered through observation of cosmic rays.
 ### The positron
 Americal physicist Carl Andersen organized and executed an experiment in 1932 using a [[cloud chamber]][^1] to measure secondary cosmic rays. The cloud chamber, under a $B\simeq 15\text{ kG}$ [[magnetic field]], contained a 6 mm lead plate through which particles would pass through, acting as a "speed bump" that allows us to understand where the particle came from. The particle of course loses energy while passing through the lead (see [[Stopping power]]), so the side with the shorter trail must be destination, indicating the particle came from the other side.
 

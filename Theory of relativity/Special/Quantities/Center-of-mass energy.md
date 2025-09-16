@@ -3,9 +3,9 @@ wiki-publish: true
 ---
 The **center-of-mass energy** of a relativistic [[Physical system|system]] is the [[norm]] of the total [[four-momentum]]:
 $$\lvert p_{\text{tot}} \rvert=\sqrt{s} =\sqrt{\left(\sum\limits_{i}E_{i}\right)^{2}-\left(\sum\limits_{i}\mathbf{p}_{i}\right)^{2}}$$
-It is a [[relativistic invariant]].
+It is a [[relativistic invariant]]. It is related to the [[invariant mass]] of the system.
 
-The center-of-mass energy is most commonly used to determine the amount of [[energy]] that is available to a [[particle scattering]] or [[particle decay]] process.
+The center-of-mass energy is most commonly used to determine the amount of [[energy]] that is available to a [[particle scattering]] or [[particle decay]] process, especially as a measure of the power of a [[Particle accelerator|collider]].
 ### Examples
 > [!example]- Particle on a fixed target
 > Consider a fixed target of mass $m_{2}$. We'll use [[natural units]]. Its four-momentum is $p_{2}=(m_{2},0)$. It is hit perpendicularly by a projectile of four-momentum $p_{1}=(E_{1},\mathbf{p}_{1})$. The center-of-mass energy of the impact is

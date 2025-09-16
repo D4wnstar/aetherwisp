@@ -1,0 +1,10 @@
+---
+wiki-publish: true
+---
+A **synchrotron** is a type of circular [[particle accelerator]] that combines an alternating [[electric field]] with an variable [[magnetic field]] to accelerate [[particle|particles]]. The magnetic field is varied in time to synchronize (hence the name) with the increasing [[relativistic energy]] of the particles in order to keep the trajectory under control. Whereas in the older [[cyclotron]] the trajectory was an outgoing spiral, in a synchrotron it is a closed circle, provided the magnetic field's intensity synchronizes with the particles' energy. This allows synchrotrons to have a [[torus]]-shaped construction instead of the [[disk]]-shaped one of cyclotrons. This design geometry allowed for the creation of the first [[Particle accelerator|particle colliders]] and would later go on to be the foundation of [[storage ring|storage rings]].
+
+They were originally invented by Soviet physicist Vladimir Veksler in 1944. The first [[electron]] synchrotron was constructed a year later, in 1945, by American physicist Edwin McMillan, who arrived at the idea independently and was unaware of Veksler's publication. They are suited for accelerator of low-[[mass]] particles (electrons, [[proton|protons]]) and, unlike their [[cyclotron|predecessor]], also for [[ion|ions]].
+
+While the synchrotron itself is circular, large synchrotrons are often paired with an external linear accelerator to give particles an initial burst of speed before they are introduced inside the synchrotron.
+
+Due to the acceleration, [[Electric charge|charged]] particles inside the synchrotron emit [[electromagnetic radiation]], whose shape is characteristic enough to have been called **[[synchrotron radiation]]**. This radiation is emitted when a charged particle is subject to acceleration perpendicular to its velocity.

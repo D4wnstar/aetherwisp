@@ -1,7 +1,7 @@
 ---
 wiki-publish: true
 aliases:
-  - camera a diffusione
+  - diffusion chamber
 ---
 A **cloud chamber** is a track [[Detector|detector]] invented in 1912. It consists of a container filled with supersaturated vapor that produces condensation droplets due to adiabatic expansion, triggered externally with a piston, due to the sudden lowering of the [[temperature]]. This creates a cloud of vapor that is readily [[ionization|ionized]] when a [[Electric charge|charged]] [[Particle|particle]] passes through, leaving a short-lived trail of condensation where the particle passed. The chamber is photographed immediately after the passing to measure the track.
 

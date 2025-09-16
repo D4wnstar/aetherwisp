@@ -1,4 +1,0 @@
----
-wiki-publish: true
----
-L'**isospin** $I$ è il [[numero quantico]] che distingue il [[neutrone]] dal [[protone]]. La coppia neutrone-protone $(n, p)$ è un doppietto con isospin $1/2$, dove il protone è l'elemento con isospin sull'asse $z$ $I_{z}=1/2$ e il neutrone quella con $I_{z}=-1/2$.

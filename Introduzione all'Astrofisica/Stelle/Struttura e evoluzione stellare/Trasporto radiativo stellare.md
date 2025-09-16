@@ -12,7 +12,7 @@ dove $\sigma$ è lo [[Cross section]] di [[Particle scattering|diffusione]] e $n
 $$l= \frac{1}{\sum\limits_{i}n_{i}\sigma_{i}}=\frac{1}{\rho \kappa}$$
 dove $\rho$ è la densità della stella e $\kappa$ è l'**opacità**, che rappresenta quanto un gas sia "permissivo" al lasciar passare particelle al suo interno.
 
-Nel caso del Sole, possiamo fare una grossa approssimazione per trovare un numero. Consideriamo solo lo solo gli [[elettrone|elettroni]] per la [[diffusione di Thompson]], la cui sezione d'urto è
+Nel caso del Sole, possiamo fare una grossa approssimazione per trovare un numero. Consideriamo solo lo solo gli [[Electron|elettroni]] per la [[diffusione di Thompson]], la cui sezione d'urto è
 $$\sigma_{T}= \frac{8\pi}{3} \frac{e^{2}}{m_{e}c^{2}}$$
 e numero di elettroni
 $$n_{e}= \frac{\rho}{m_{H}}$$

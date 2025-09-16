@@ -1,7 +1,7 @@
 ---
 wiki-publish: true
 ---
-The **Dirac equation** is a relativistic [[wave equation]] that describes the dynamics of [[mass|massive]] [[Fermion|fermions]], such as [[Electron|electrons]] and [[quark|quarks]]. The equation is:
+The **Dirac equation** is a relativistic [[wave equation]] that describes the dynamics of [[mass|massive]] [[Fermion|fermions]], such as [[Electron|electrons]] and [[Quark|quarks]]. The equation is:
 $$(i\gamma^{\mu}\partial_{\mu} - m)\psi = 0$$
 where $\gamma^{\mu}$ are the [[gamma matrices]]. The [[wavefunction]] $\psi$ that solves the equation has four components, unlike the complex-valued wavefunction of the [[Schrödinger equation]], and is called a **[[bispinor]]** or **Dirac spinor**. Using [[Feynman slash notation]] it reads
 $$(i\cancel{ \partial }-m)\psi=0$$

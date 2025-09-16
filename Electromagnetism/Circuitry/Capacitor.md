@@ -15,7 +15,7 @@ A **capacitor** is an electronic component that consists of two [[Conductor|cond
 ```
 
 ### Energy required to charge
-Charging a capacitor requires moving [[Elettrone|electrons]] from the positive plate to the negative one, which means going against the [[electric field]]. The energy required to charge a capacitor by an infinitesimal [[electric charge|charge]] $dq$ is
+Charging a capacitor requires moving [[Electron|electrons]] from the positive plate to the negative one, which means going against the [[electric field]]. The energy required to charge a capacitor by an infinitesimal [[electric charge|charge]] $dq$ is
 $$dW=\frac{q}{C}dq$$
 where $q$ is the amount of charge already stored in the conductor. To go up to a charge $Q$ then we must integrate
 $$W=\int_{0}^{Q} \frac{q}{C}dq=\frac{1}{2} \frac{Q^{2}}{C}=\frac{1}{2}CV^{2}$$

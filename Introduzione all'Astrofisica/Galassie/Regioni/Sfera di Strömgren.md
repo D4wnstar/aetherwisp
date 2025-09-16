@@ -7,7 +7,7 @@ Una stella massiva di classe O o B emette grandi quantità di [[Photon|fotoni]] 
 
 Il raggio di questa sfera dipende dal numero di [[ionizzazione|ricombinazioni]] dell'idrogeno. Chiamo
 $$\mathcal{R}=\alpha n_{p}n_{e}$$
-il numero di ricombinazioni per unità di volume e tempo, con $\alpha$ coefficiente di ricombinazione, $n_{p}$ ed $n_{e}$ densità di [[protone|protoni]] ed [[elettrone|elettroni]]. Chiamo $N_{\star}$ il numero di fotoni ionizzanti emessi dalla stella per unità di tempo. Se $n_{p}=n_{e}$, ossia l'idrogeno è neutro, il raggio della stella deve essere tale che $(4/3)\pi R_{Strom}^{3} \mathcal{R}=N_{\star}$, ossia
+il numero di ricombinazioni per unità di volume e tempo, con $\alpha$ coefficiente di ricombinazione, $n_{p}$ ed $n_{e}$ densità di [[protone|protoni]] ed [[Electron|elettroni]]. Chiamo $N_{\star}$ il numero di fotoni ionizzanti emessi dalla stella per unità di tempo. Se $n_{p}=n_{e}$, ossia l'idrogeno è neutro, il raggio della stella deve essere tale che $(4/3)\pi R_{Strom}^{3} \mathcal{R}=N_{\star}$, ossia
 $$R_{Strom}=\left(\frac{3N_{\star}}{4\pi\alpha n_{e}^{2}}\right)^{1/3}$$
 
 Le stelle di classe spettrale inferiore a B hanno $N_{\star}$ troppo basso per creare sfere di Strömgren significative.

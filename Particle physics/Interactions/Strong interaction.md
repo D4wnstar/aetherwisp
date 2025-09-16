@@ -3,7 +3,7 @@ wiki-publish: true
 aliases:
   - strong force
 ---
-The **strong interaction** or **strong force** is the [[fundamental interaction]] that binds [[quark|quarks]] together to create composite [[Particle|particles]] known as [[hadron|hadrons]]. Since [[matter]] is made of [[Atom|atoms]], whose [[Atomic nucleus|nuclei]] are composed of [[Proton|protons]] and [[neutron|neutrons]], which in turn are made of quarks, the strong interaction is responsible for the stability of all atomic matter in the [[Universe]].
+The **strong interaction** or **strong force** is the [[fundamental interaction]] that binds [[Quark|quarks]] together to create composite [[Particle|particles]] known as [[hadron|hadrons]]. Since [[matter]] is made of [[Atom|atoms]], whose [[Atomic nucleus|nuclei]] are composed of [[Proton|protons]] and [[neutron|neutrons]], which in turn are made of quarks, the strong interaction is responsible for the stability of all atomic matter in the [[Universe]].
 
 The modern theory of strong force is **quantum chromodynamics** (QCD), which explains strong force in a manner similar to quantum electrodynamics, but instead of having a singular [[electric charge]], it has three [[color charge|color charges]]. The strong interaction is an exchange interaction mediated by the [[gluon]], one of the four known [[gauge boson|gauge bosons]].
 

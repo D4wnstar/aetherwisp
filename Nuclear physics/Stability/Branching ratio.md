@@ -24,3 +24,5 @@ $$\lambda _\text{partial}=\lambda _\text{total}\cdot\text{BR},\quad t_{1/2,\text
 > t_{1/2,\text{EC}}&=\frac{\ln2}{\lambda_{\text{EC}}}=6.1\times10^{5}\text{ s}=170\text{ h} \\
 > t_{1/2,\alpha}&=\frac{\ln2}{\lambda_{\alpha}}=1.7\times10^{9}\text{ s}=55\text{ yr}
 > \end{align}$$
+
+The term also applies to [[Particle|particles]] and [[particle decay]] modes.

@@ -85,7 +85,7 @@ Purtroppo, anche questa equazione aggiunge una nuova variabile, $L(r)$, che è u
 
 Il processo effettivo con cui le stelle producono energia è la [[fusione nucleare]].
 ### Trasporto energetico
-Abbiamo bisogno di una quinta equazione per chiudere definitivamente il sistema. La termodinamica insegna che il trasporto di calore avviene attraverso tre meccanismi: [[conduzione]], [[convezione]] e [[irradiazione|irraggiamento]]. La conduzione per [[elettrone|elettroni]] è molto inefficiente e trascurabile. La convezione è di maggiore importanza. L'irraggiamento, anche noto come **trasporto radiativo** nel contesto dell'astrofisica, è di gran lunga il più interessante dei tre, per via dell'altissima opacità del gas stellare.
+Abbiamo bisogno di una quinta equazione per chiudere definitivamente il sistema. La termodinamica insegna che il trasporto di calore avviene attraverso tre meccanismi: [[conduzione]], [[convezione]] e [[irradiazione|irraggiamento]]. La conduzione per [[Electron|elettroni]] è molto inefficiente e trascurabile. La convezione è di maggiore importanza. L'irraggiamento, anche noto come **trasporto radiativo** nel contesto dell'astrofisica, è di gran lunga il più interessante dei tre, per via dell'altissima opacità del gas stellare.
 
 Per via dell'altissima densità del gas, i [[Photon|fotoni]] hanno una probabilità molto alta di interagire con gli [[Atom|atomi]] e anche con gli elettroni liberi mediante [[diffusione di Thompson]]. Ciò significa che il percorso medio di un fotone emesso dentro una stella è molto piccolo. Se i fotoni emessi non escono dalla superficie, allora il gas è opaco. In queste condizioni, si raggiunge un equilibrio termodinamico locale, a differenza dello stato globale che sta irradiando verso l'esterno.
 

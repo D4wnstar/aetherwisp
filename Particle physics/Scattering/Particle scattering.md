@@ -1,5 +1,7 @@
 ---
 wiki-publish: true
+aliases:
+  - collision
 ---
 **Particle scattering**, specifically in the context of particle physics, is [[scattering]] that occurs between [[particle|particles]]. Particles are considered to be [[quantum regime|quantum objects]], which makes this a form of quantum scattering, and often they are also considered to be [[Lorentz transformation|relativistic]]. As such, rigorously solving particle scattering behavior can be incredibly complex. Moreover, partly due to quantum physics and partly due to the minuscule scale, particle scattering is a largely [[random]] phenomenon, speaking of the [[probability]] of scattering more so than the certainty of it. Finally, due to [[wave-particle duality]], the participating particles can also be considered [[wave|waves]].
 

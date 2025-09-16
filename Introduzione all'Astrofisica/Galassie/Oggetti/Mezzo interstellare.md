@@ -54,4 +54,4 @@ Perché specificamente una polvere? Se si trattasse di un gas neutro o leggermen
 
 Questo non accade; l'assorbimento misurato è continuo. Un grano di polvere, con diametro paragonabile alle lunghezze d'onda dell'UV, assorbe (o devia) la luce in modo continuo. Questo spiega perfettamente il comportamento osservato.
 
-[^1]: Sia il [[protone]] che l'[[elettrone]] hanno [[spin]] e momento magnetico e la configurazione a spin allineate è meno energeticamente vantaggiosa di quello a spin opposto. Se l'atomo si trova in uno stato misto di spin allineati, allora decade in quello di spin opposto emettendo un [[Photon]]. 
+[^1]: Sia il [[protone]] che l'[[Electron]] hanno [[spin]] e momento magnetico e la configurazione a spin allineate è meno energeticamente vantaggiosa di quello a spin opposto. Se l'atomo si trova in uno stato misto di spin allineati, allora decade in quello di spin opposto emettendo un [[Photon]]. 

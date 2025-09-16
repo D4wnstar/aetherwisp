@@ -1,0 +1,8 @@
+---
+wiki-publish: true
+---
+The **isospin** $I$ is a [[quantum number]] that distinguishes between different [[stato|states]] of the same [[hadron]]. The concept was introduced to express why some hadrons are affected equally strongly by the [[Strong interaction|strong force]] but had different [[electric charge]]. This was especially important for the [[proton]] and the [[neutron]], which are nearly identical in all but a very small difference in [[mass]] when you exclude [[electromagnetism]]. In this context, the proton and neutron were considered to be the same particle, but in two different states. The state was expressed by the value of the isospin.
+
+The "spin" part of the name comes from how [[spin]] is able to couple two different particles together. In fact, isospin was intended as the explanation of why two particles seemed so bound to each other. Just like how a two particles of spin 1/2 could join to a system of total spin 0 or 1, the isospin would behave the same. The name is just a reference to the coupling behavior: it is not a type of spin or [[angular momentum]] in general.
+
+Isospin is commonly reported as the total isospin $I$ and its $z$-axis projection $I_{z}$. The projection is often the important part, as that's the one that distinguishes between particles. The proton and neutron have same total isospin 1/2, but inverted $z$ isospin of 1/2 and -1/2. It is $I_{z}$ that distinguishes proton and neutron. A pair of the two makes a system of isospin 0 or 1.

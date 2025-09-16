@@ -47,7 +47,7 @@ where summation occurs over all reciprocal lattice vectors. Both of these are [[
 $$U_{\mathbf{K}}=\frac{1}{v}\int _\text{cell}U(\mathbf{r})e^{-i\mathbf{K}\cdot \mathbf{r}}d\mathbf{r}$$
 where $v=V/N$ is the volume of the primitive cell in real space. A [[potential]] is only defined up to a constant and we are free to choose this constant as we wish. We shall select it such that the spatial average $U_{0}$ of the potential over a primitive cell vanishes:
 $$U_{0}=\frac{1}{v}\int _\text{cell}U(\mathbf{r})d\mathbf{r}=0$$
-Since $U(\mathbf{r})$ is real, the coefficients must satisfy $U_{-\mathbf{K}}=U_{\mathbf{K}}^{*}$ where $^{*}$ is the [[complex conjugate]]. If the crystal also has inversion symmetry[^1], that is, it is invariant under [[parità|parity]] $\mathbf{r}\to-\mathbf{r}$, then the coefficients must also be real: $U_{-\mathbf{K}}=U_{\mathbf{K}}$.
+Since $U(\mathbf{r})$ is real, the coefficients must satisfy $U_{-\mathbf{K}}=U_{\mathbf{K}}^{*}$ where $^{*}$ is the [[complex conjugate]]. If the crystal also has inversion symmetry[^1], that is, it is invariant under [[Parity|parity]] $\mathbf{r}\to-\mathbf{r}$, then the coefficients must also be real: $U_{-\mathbf{K}}=U_{\mathbf{K}}$.
 
 We can now put the Fourier series $(4)$ and $(5)$ in the [[Equazione di Schrödinger|Schrödinger equation]] given by the Hamiltonian of the theorem
 $$\hat{H}\psi=- \frac{\hbar^{2}}{2m}\nabla ^{2}\psi+U(\mathbf{r})\psi=\varepsilon\psi$$

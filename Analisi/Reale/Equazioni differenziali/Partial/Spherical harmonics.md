@@ -20,6 +20,6 @@ In quantum mechanics, a rather useful property of the harmonics is the following
 $$\sum_{m=-l}^{l} \lvert Y_{l}^{m}(\theta,\phi) \rvert ^{2}$$
 is spherically symmetrical. This is quite useful because any quantity whose shape is given by the harmonics is automatically also spherically symmetrical. For instance, the [[Electric charge|charge]] distribution in the [[hydrogen atom]].
 
-Another useful property is that the harmonics have alternating [[Parità|parity]] $(-1)^{l}$. This means that the harmonic inherits the evenness of $l$:
+Another useful property is that the harmonics have alternating [[Parity|parity]] $(-1)^{l}$. This means that the harmonic inherits the evenness of $l$:
 - if $l$ is even, the harmonic is even, $Y_{l}^{m}(\pi-\theta,\phi+\pi)=Y_{l}^{m}(\theta,\phi)$
 - if $l$ is odd, the harmonic is odd, $Y_{l}^{m}(\pi-\theta,\phi+\pi)=-Y_{l}^{m}(\theta,\phi)$

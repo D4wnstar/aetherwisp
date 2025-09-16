@@ -10,7 +10,7 @@ $$\begin{align}
 \beta^{+}\text{ decay:}\quad &p\to n+e^{+}+\nu_{e}\\
 \beta^{-}\text{ decay:}\quad &n\to p+e^{-}+\bar\nu_{e}
 \end{align}$$
-where $e^{-}$ is an [[electron]], $e^{+}$ a [[positron]] and $\nu_{e}$ and $\bar{\nu}_{e}$ are [[neutrino|electron neutrinos]] and antineutrinos respectively.
+where $e^{-}$ is an [[electron]], $e^{+}$ a [[Electron|positron]] and $\nu_{e}$ and $\bar{\nu}_{e}$ are [[neutrino|electron neutrinos]] and antineutrinos respectively.
 
 There exists a third process associated with $\beta$ decay called **electron capture** (**EC** for short):
 $$\text{EC:}\quad p+e^{-}\to n+\nu_{e}$$

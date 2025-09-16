@@ -1,7 +1,7 @@
 ---
 wiki-publish: true
 ---
-The **Compton wavelength** $\lambda_{c}$ is a conventional [[wavelength]] assigned of a [[particle]] of [[mass]] $m$ and [[electric charge]] $e$:
+The **Compton wavelength** $\lambda_{c}$ is a conventional [[wavelength]] assigned to a [[particle]] of [[mass]] $m$:
 $$\lambda_{C}=\frac{h}{mc}$$
 where $h$ is the [[Planck constant]]. It is the wavelength of a [[photon]] whose [[energy]] is the [[Relativistic energy|rest energy]] of the particle, as per the [[Relativistic energy|mass-energy equivalence]] $E=mc^{2}$. This definition originates from the [[Compton scattering]] phenomenon, where it appears naturally.
 

@@ -3,7 +3,7 @@ wiki-publish: true
 aliases:
   - transform
 ---
-A **transformation** or **transform** is a function $f$ that maps a [[set]] to itself. These functions are often seen in geometry and linear algebra or have geometric interpretations. For instance, a [[rotation]] is a transform.
+A **transformation** or **transform** is a function $f$ that maps a [[set]] to itself. These functions are often seen in geometry and linear algebra or have geometric interpretations. For instance, a [[rotation]] is a transform. More generally, they can also be [[operator|operators]].
 ### Properties
 Since transformations are functions, they inherit all the properties of functions. A particularly important case is continuous transformations. An example of a continuous transformation $\varphi$ is the [[rotation]]
 $$\begin{pmatrix}

@@ -1,7 +1,7 @@
 ---
 wiki-publish: true
 ---
-A **conductor** is a material that contains a large (ideally infinite) number of free [[electric charge|electric charges]], typically [[Elettrone|electrons]] or [[ione|ions]].
+A **conductor** is a material that contains a large (ideally infinite) number of free [[electric charge|electric charges]], typically [[Electron|electrons]] or [[ione|ions]].
 ### Properties
 Conductors have special characteristic properties:
 1. The [[electric field]] $\mathbf{E}$ is zero inside the conductor.

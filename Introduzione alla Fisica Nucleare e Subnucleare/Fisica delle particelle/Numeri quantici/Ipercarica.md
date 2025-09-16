@@ -1,4 +1,0 @@
----
-wiki-publish: true
----
-L'**ipercarica** $Y$ è un [[numero quantico]] ottenuto dalla somma della [[Particella strana|stranezza]] e [[numero barionico]].

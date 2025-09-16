@@ -7,7 +7,7 @@ Mathematically, for a process $a+T\to p_{1}+\ldots+p_{N}$ where $a$ is the proje
 $$K_{a}=\frac{1}{2m_{T}}\left[ \left( \sum_{i=1}^{N} m_{i} \right)^{2}- (m_{a}+m_{T})^{2} \right]$$
 The threshold energy proper is
 $$E_\text{tr}=K_{a}+m_{a}$$
-This definition uses [[natural units]].
+though the kinetic energy is generally the one that matters since that's the one we control. This definition uses [[natural units]].
 
 It is primarily of interest in [[particle scattering]], where the energy can be controlled in experimental settings like [[particle accelerator|particle accelerators]], but it is a valid quantity in [[particle decay]] as well.
 

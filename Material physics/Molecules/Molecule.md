@@ -15,7 +15,7 @@ are a symmetry.
 
 Just like how we use the [[spectroscopic notation]] letters to denote the angular states $l$ of atoms, we also use letters to denote the values of $M_{z}$ for molecular states. For molecular orbitals, we use $\Sigma,\Pi,\Delta$ and $\Phi$. For single-electron orbitals, we use their lowercase equivalents: $\sigma,\pi,\delta$ and $\phi$.
 
-Another symmetry is with respect to the plane passing through the bond axis, such as the $xz$ plane or the $yz$ plane. [[Parità|Parity]] is symmetric about this plane[^2]. For instance, if we consider the $xz$ plane, the parity [[transformation]] $A_{y}:y\mapsto -y$ one the $y$ axis is a symmetry (in other words, the $y$ axis looks the same on both sides of the $xz$ plane; it's mirrored). Note that $L_{z}$ and $A_{y}$ do not commute, $[L_{z},A_{y}]\neq 0$. Specifically, applying $A_{y}$ maps $M_{z}$ to $-M_{z}$. This implies that, for any $M_{z}>0$, the states $\pm M_{z}$ have the same [[energy]].
+Another symmetry is with respect to the plane passing through the bond axis, such as the $xz$ plane or the $yz$ plane. [[Parity|Parity]] is symmetric about this plane[^2]. For instance, if we consider the $xz$ plane, the parity [[transformation]] $A_{y}:y\mapsto -y$ one the $y$ axis is a symmetry (in other words, the $y$ axis looks the same on both sides of the $xz$ plane; it's mirrored). Note that $L_{z}$ and $A_{y}$ do not commute, $[L_{z},A_{y}]\neq 0$. Specifically, applying $A_{y}$ maps $M_{z}$ to $-M_{z}$. This implies that, for any $M_{z}>0$, the states $\pm M_{z}$ have the same [[energy]].
 
 One last symmetry is again parity, but with respect to the coordinate $r$. The transformation $A_{r}:r\mapsto-r$ is a symmetry.
 

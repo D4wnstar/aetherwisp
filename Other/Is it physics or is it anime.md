@@ -30,3 +30,4 @@
 - Quantum flavordynamics
 - Nuclear recoil
 - Disintegration energy
+- Delta resonance

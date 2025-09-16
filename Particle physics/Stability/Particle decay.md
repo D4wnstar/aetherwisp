@@ -1,5 +1,7 @@
 ---
 wiki-publish: true
+aliases:
+  - back-to-back decay
 ---
 **Particle decay** is the [[random]] process by which an unstable [[particle]] spontaneously splits into one or more particles. It is a process that is first and foremost governed by conservation laws. While a particle may decay in a large number of other particles, the outcome of a decay is heavily restricted by the fact that many intrinsic properties of the particle must be conserved. For instance, [[electric charge]] is conserved, so if the decaying particle has charge $+e$, the total charge across all decay products must also be $+e$.
 

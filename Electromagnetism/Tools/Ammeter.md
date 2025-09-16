@@ -3,7 +3,7 @@ wiki-publish: true
 ---
 An **ammeter** is a tool used to measure [[electric current|electric currents]] within a circuit.
 ### Mechanism
-Consider a circuit element traversed by current $I$ by charges ([[Elettrone|electrons]]) of [[electric charge]] $q$ moving at velocity $\mathbf{v}$.
+Consider a circuit element traversed by current $I$ by charges ([[Electron|electrons]]) of [[electric charge]] $q$ moving at velocity $\mathbf{v}$.
 
 ![[Schema Ammeter|center]]
 

@@ -1,5 +1,7 @@
 ---
 wiki-publish: true
+aliases:
+  - distribution
 ---
 A **probability distribution** is a function that gives the [[probability]] of a [[random variable]] taking on a specific value or set of values. If a probability distribution correctly describes the outcomes of a random variable, than it is said that the variable follows that distribution. Probability distributions may be discrete or continuous. Despite being as a function, the term "probability distribution" generally refers to the broader concept of a set of possibilities and their probabilities to happen.
 
