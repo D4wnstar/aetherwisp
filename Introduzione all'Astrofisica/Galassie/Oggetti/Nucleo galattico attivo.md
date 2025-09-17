@@ -63,7 +63,7 @@ Il tempo $T_{0}=t_{0}+ D/c$ è il tempo a cui osserviamo la nube nel punto 0 e $
 $$v_{opp}=\frac{\delta}{T_{1}-T_{0}}=\frac{v\sin\theta}{1-\frac{v}{c}\cos\theta}$$
 Se $\theta$ è piccolo e $v\sim c$, allora $v_{app}\simeq 2c/\theta$, che è di molto superiore a $c$.
 ### Raggi X
-Nei raggi X, l'AGN è la sorgente più potente della galassia, tipicamente molto più brillante di tutto il resto. Il suo spettro nei raggi X è anche sbilanciato verso le alte energie (gli *hard X*), diversamente dal resto dell'emissione, dominata da sistemi di [[Stella binaria|stelle binarie]], che è più *soft*. Il tipico spettro X di un AGN mostra un forte assorbimento [[Effetto fotoelettrico|fotoelettrico]] nella banda *soft X*.  Questo permette di stimare la [[densità di colonna di gas]] responsabile per l'attenuazione (in densità di idrogeno $N_{H}$) e questa si usa per classificare gli AGN X[^1]:
+Nei raggi X, l'AGN è la sorgente più potente della galassia, tipicamente molto più brillante di tutto il resto. Il suo spettro nei raggi X è anche sbilanciato verso le alte energie (gli *hard X*), diversamente dal resto dell'emissione, dominata da sistemi di [[Stella binaria|stelle binarie]], che è più *soft*. Il tipico spettro X di un AGN mostra un forte assorbimento [[Photoelectric effect|fotoelettrico]] nella banda *soft X*.  Questo permette di stimare la [[densità di colonna di gas]] responsabile per l'attenuazione (in densità di idrogeno $N_{H}$) e questa si usa per classificare gli AGN X[^1]:
 1. Gli **AGN X di tipo 1** hanno $N_{H}<10^{21}$ [[Atom|atomi]]/cm$^{-2}$.
 2. Gli **AGN X di tipo 2** hanno $N_{H}>10^{21}$ atomi/cm$^{-2}$.
 3. Un AGN con luminosità intrinseca X superiori ai $10^{44}$ erg/s è definito quasar.

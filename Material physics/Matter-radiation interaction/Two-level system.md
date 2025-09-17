@@ -45,7 +45,7 @@ Thus, the absorption and stimulated emission must be the same, with the temperat
 
 With this knowledge, we can write
 $$\rho(\omega)=\frac{A}{B}\left( \frac{1}{e^{\beta \hbar \omega}-1} \right)$$
-and we need some way to figure out what the ration $A/B$ is. To do so, we'll expand the exponential with its [[Serie esponenziale|series]], up to the first two terms: $e^{\beta \hbar \omega}\simeq1+\beta \hbar \omega$. Then
+and we need some way to figure out what the ration $A/B$ is. To do so, we'll expand the exponential with its [[Exponential series|series]], up to the first two terms: $e^{\beta \hbar \omega}\simeq1+\beta \hbar \omega$. Then
 $$\rho(\omega)\simeq \frac{A}{B} \frac{1}{\beta \hbar \omega}$$
 This is a fine approximation for low frequencies. But another fine approximation for these frequencies is the classical Rayleigh-Jeans law:
 $$\rho(\nu)d\nu=\frac{8\pi \nu ^{2}}{\beta c^{3}}d\nu$$

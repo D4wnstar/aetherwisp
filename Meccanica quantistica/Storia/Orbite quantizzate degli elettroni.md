@@ -16,7 +16,7 @@ $$r_{B}=\frac{\hbar^{2}}{me^{2}}$$
 detto [[Bohr radius]]. Trovando la derivata parziale dell'energia potenziale $U(r)=- \frac{e^{2}}{r}$ si ha $F(r)=- \frac{e^{2}}{r^{2}}$ cioè una forza *repulsiva*, come deve essere. Il segno meno nella formula dell'energia deriva da questo. Sostituendo il raggio con quelli quantizzati abbiamo le energie possibili
 $$E_{n}=- \frac{e^{2}}{2r_{n}}=- \frac{me^{4}}{2\hbar^{2}}\frac{1}{n^{2}}$$
 
-Questo spiega ragionevolmente la presenza di righe spettrali: il gas (o meglio, gli elettroni) assorbono la luce solo se la luce trasporta *esattamente* la differenza di energia tra un'orbita e un'altra. A livello sperimentale, le energie trovate empiricamente combaciano con questa teoria solo quanto $h$ vale esattamente lo stesso valore trovato inizialmente nella teoria del [[corpo nero]] e poi quella dell'[[effetto fotoelettrico]].
+Questo spiega ragionevolmente la presenza di righe spettrali: il gas (o meglio, gli elettroni) assorbono la luce solo se la luce trasporta *esattamente* la differenza di energia tra un'orbita e un'altra. A livello sperimentale, le energie trovate empiricamente combaciano con questa teoria solo quanto $h$ vale esattamente lo stesso valore trovato inizialmente nella teoria del [[corpo nero]] e poi quella dell'[[Photoelectric effect]].
 
 Più avanti, De Broglie ha avuto la seguente intuizione: un [[Photon]] trasporta energia pari a $E=\hbar \omega$ e momento $p=E/c$ (dalla conservazione massa-energia relativistica $E^{2}-p^{2}c^{2}=m^{2}c^{4}$ con $m_{\gamma}=0$). Allora
 $$p=\frac{E}{c}=\frac{\hbar\omega}{c}=\frac{h}{cT}=\frac{h}{\lambda}$$

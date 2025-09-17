@@ -113,7 +113,7 @@ che dimostra siano autoproiettori.
 >
 > Ci interessa trovare come questo sistema evolve nel tempo. Possiamo trovare l'[[evolutore]] dell'Hamiltoniana quantistica:
 > $$\hat{U}_{t}=e^{-i \hat{H}t/\hbar}=e^{i (\hbar/2)\omega \hat{\sigma}_{n}t/\hbar}=e^{i\omega t\hat{\sigma}_{n}/2}$$
-> Usando la [[Serie esponenziale]] abbiamo
+> Usando la [[Exponential series]] abbiamo
 > $$e^{i\omega t \hat{\sigma}_{n}/2}=\sum_{n=1}^{\infty} \frac{\left( i \frac{\omega t}{2} \hat{ \sigma}_{n} \right)^{n}}{n!}=\sum_{n=1}^{\infty} \frac{\left( i \frac{\omega t}{2} \right)^{2n}}{(2n)!}\mathrm{I}_{2}+\sum_{n=1}^{\infty} \frac{\left( i \frac{\omega t}{2} \right)^{2n+1}}{(2n+1)!} \hat{\sigma}_{n}=\ldots$$
 > dato che $\hat{\sigma}_{n}^{2}=\mathrm{I}_{2}$ e dividendo la serie in due serie, una in indici pari e una in indici dispari. Ricordando che $i^{2n}=(i^{2})^{n}=(-1)^{n}$ e $i^{2n+1}=ii^{2n}=i(-1)^{n}$ abbiamo
 > $$\ldots=\mathrm{I}_{2}\sum_{n=1}^{\infty} \frac{(-1)^{n}}{(2n)!} \left( \frac{\omega t}{2} \right)^{2n}+\hat{\sigma}_{n}i\sum_{n=1}^{\infty} \frac{(-1)^{n}}{(2n+1)!}\left( \frac{\omega t}{2} \right)^{2n}$$

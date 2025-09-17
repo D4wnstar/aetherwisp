@@ -12,19 +12,6 @@ Cosmic rays originate from outer space. Due to the great number of things in spa
 Cosmic rays have been measured with many different [[Detector|detectors]] throughout the last century. A historical device (1930s) is the [[cloud chamber]], a sealed chamber filled with vapor (typically a mixture of alcohol and water) and equipped with a rapid piston. When the piston retracts, the volume expands adiabatically, lowering the [[temperature]] and creating a supersaturated vapor. Charged cosmic rays passing through the chamber [[ionization|ionize]] the gas, causing droplets to condense alongside its trajectory. These droplets form visible tracks, allowing observation of the particle's path.
 ## Discoveries
 Several discoveries can be traced back to experiments done on cosmic rays. The [[Electron|positron]], [[muon]], [[pion]] and [[Lambda (particle)|lambda]] particles where all discovered through observation of cosmic rays.
-### The positron
-Americal physicist Carl Andersen organized and executed an experiment in 1932 using a [[cloud chamber]][^1] to measure secondary cosmic rays. The cloud chamber, under a $B\simeq 15\text{ kG}$ [[magnetic field]], contained a 6 mm lead plate through which particles would pass through, acting as a "speed bump" that allows us to understand where the particle came from. The particle of course loses energy while passing through the lead (see [[Stopping power]]), so the side with the shorter trail must be destination, indicating the particle came from the other side.
-
-:::image
-![[PositronTrailAndersen.png]]
-The photograph of the positron trail, from the [original 1933 article](https://journals.aps.org/pr/abstract/10.1103/PhysRev.43.491).
-:::
-
-There were a couple of surprise with this measurement:
-1. The [[range]] of the outgoing particle was way too high. The length of the ionization trail was just over 5 cm, whereas protons were known to generally not go longer than 5 mm, a tenfold decrease. Conveniently, the electron range was known to be around 6 cm or so, just right for this measurement.
-2. The trail was curving the *wrong way*. The direction of the curvature immediately suggested that the particle was positive. The assumption at the time was a proton (the only positive particle known at the time), but due to point 1. it couldn't be.
-
-The combination of these two factors led Andersen to determine that this must be a particle with the mass of the electron, but opposite charge: a **positron**. Beyond being a new particle, this was a striking confirmation of the results from the [[Dirac equation]] and pointed to the [[Dirac sea]] being a real thing (or at least a sound description).
 ### The muon
 The study of cosmic rays was, at the time, motivated in large part by the [[Yukawa hypothesis]] and the search for the pion. Yukawa had claimed a [[mass]] range of 10 to 200 MeV for the pion and cloud chamber detection of cosmic rays often returned particles fit this range just right. The mass was measured to be about 105 MeV and the [[mean lifetime]] was around $2.2\times 10^{-6}\text{ s}$; the particle was named **[[muon]]** (symbol: $\mu$). The question then was: is the muon really the pion we're looking?
 

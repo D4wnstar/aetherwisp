@@ -40,7 +40,7 @@ The photons aren't strictly necessary, but measuring their distribution too help
 :::image
 ![[Wu_Exp_Parity_transformation.png|500]]
 $j$ is the polarization axis. This show emission of an electron, but principle is the same.
-By nagualdesign - Own work, made using reference. CC0, from [Wikipedia](https://commons.wikimedia.org/w/index.php?curid=97671385).
+*By nagualdesign - Own work, made using reference. CC0, from [Wikipedia](https://commons.wikimedia.org/w/index.php?curid=97671385).*
 :::
 
 The nuclei were polarized with a uniform [[magnetic field]] ([[temperature]] was also kept near zero to prevent [[random]] thermal breaking of alignment). In this environment, polarization goes like

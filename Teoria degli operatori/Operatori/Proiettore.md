@@ -66,4 +66,4 @@ $$\braket{ \phi | \psi } =0 \quad\Rightarrow \quad\hat{P}_{\psi}|\phi\rangle=\la
 
 L'esponenziale di un proiettore ha una forma particolare per merito dell'idempotenza
 $$e^{\hat{P}_{\psi}}=\sum\limits_{n=0}^{\infty} \frac{1}{n!}(\hat{P}_{\psi})^{n}=\hat{\mathbf{1}}+\left(\sum\limits_{n=1}^{\infty} \frac{1}{n!}\right)\hat{P}_{\psi}=\hat{\mathbf{1}}+(e-1)\hat{P}_{\psi}$$
-usando la [[Serie esponenziale]].
+usando la [[Exponential series]].

@@ -25,7 +25,7 @@ $$\Psi(x,t+t_{0})=\Psi(x,t)e^{-\frac{i}{\hbar}\hat{H}t_{0}}=\Psi(x,t)\hat{U}_{t_
 ### Proprietà
 L'evolutore è reversibile ed è un [[operatore unitario]], ossia
 $$\hat{U}_{t}^{\dagger}\hat{U}_{t}=\hat{U}_{t}\hat{U}_{t}^{\dagger}=\mathbf{\hat{1}} \;\Rightarrow\; \hat{U}^{\dagger}_{t}=\hat{U}^{-1}_{t}$$
-che è valido *solo* perché $\frac{i}{\hbar}t\hat{H}$ e $-\frac{i}{\hbar}t\hat{H}$ [[Commutator|commutano]]. Questo è perché, esprimendo due esponenziali come [[Serie esponenziale]], si trova
+che è valido *solo* perché $\frac{i}{\hbar}t\hat{H}$ e $-\frac{i}{\hbar}t\hat{H}$ [[Commutator|commutano]]. Questo è perché, esprimendo due esponenziali come [[Exponential series]], si trova
 $$e^{\hat{A}}e^{\hat{B}}\neq e^{\hat{A}+\hat{B}}$$
 in generale. Ciò è vero solo se $\hat{A}$ e $\hat{B}$ commutano.
 ### Spin

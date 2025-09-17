@@ -63,19 +63,19 @@ Plug this into into the stopping power to get
 $$\boxed{S(K)=- \frac{dK}{dx} = 4\pi m_{e}c^{2}r^{2}_{e}N_{A} \frac{\rho Z}{A} \frac{z^{2}}{\beta^{2}} \ln\left( \frac{\beta^{2} \gamma^{2}m_{e}c^{2}}{h\nu} \right)}$$
 This is the **Bohr formula** for stopping power. The quantity $h\nu\equiv I$ is the **mean excitation energy** of the material. It's sometimes expressed in terms of the **mass thickness** $X=\rho x$:
 $$S_{\text{MT}}(K) = - \frac{dK}{dX} = 4\pi m_{e}c^{2}r^{2}_{e}N_{A} \frac{Z}{A} \frac{z^{2}}{\beta^{2}} \ln\left( \frac{\beta^{2} \gamma^{2}m_{e}c^{2} }{h\nu} \right)$$
-Be aware that this version is measured in $\text{MeV}/\text{g cm}$ instead of $\text{MeV}/\text{cm}$ like the normal form. The value of this form is that it makes it apparent that the collisional stopping power is actually quite independent of *both* the type of projectile *and* the material's properties. The only factors left are the value of $Z/A$, which is $\simeq0.5$ for more or less every [[chemical element]] except the superheavy ones, $z^{2}$, which as we've said is pretty much always $\pm 1$, and $\nu$, which does admittedly change a good bit between atoms, but is inside a heavily suppressed logarithmic term which is more or less a constant factor for any velocity beyond ultrarelativistic ones. The rest is all constants, with the exception of $\beta$. Basically, we can see that the mass-thickness stopping power is almost exclusively determined from the velocity of the projectile, regardless of the what the projectile even is or what it's smashing into. This is not true only for the heaviest materials like uranium and for ultrarelativistic particles. Of course, the regular stopping power also has a linear dependence on mass density, so dense materials like lead will stop much more than slim ones like carbon.
+Be aware that this version is measured in $\text{MeV}/\text{g cm}$ instead of $\text{MeV}/\text{cm}$ like the normal form. The value of this form is that it makes it apparent that the collisional stopping power is actually quite independent of *both* the type of projectile *and* the material's properties. The only factors left are the value of $Z/A$, which is $\simeq0.5$ for more or less every [[chemical element]] except the superheavy ones ($Z/A< 0.5$) and hydrogen ($Z/A=1$); $z^{2}$, which as we've said is pretty much always $\pm 1$ outside of twice-or-more ionized atoms; and $\nu$, which does admittedly change a good bit between atoms, but is inside a heavily suppressed logarithmic term which is more or less a constant factor for any velocity beyond ultrarelativistic ones. The rest is all constants, with the exception of $\beta$. Basically, we can see that the mass-thickness stopping power is almost exclusively determined from the velocity of the projectile, regardless of the what the projectile even is or what it's smashing into. This is not true only for the heaviest materials like uranium and for ultrarelativistic particles. Of course, the regular stopping power also has a linear dependence on mass density, so dense materials like lead will stop much more than slim ones like carbon.
 
 In terms of the curve it makes when plotted over speed, it's essentially $1/\beta ^{2}$ for most speeds and then transitions into $\ln(\beta ^{2}\gamma ^{2})$ for relativistic speeds when the logarithm starts dominating. See the plot further below.
 
 > [!success] Stopping power dependence
-> Collisional stopping power is almost entirely determined by the mass density of the target and the speed of the projectile. Other factors only start to matter at the absolute extremes: superheavy elements and ultrarelativistic particles. As such, the stopping power profile with respect to projectile speed is to be considered universal across almost all materials.
+> Collisional stopping power is almost entirely determined by the mass density of the target and the speed of the projectile. Other factors only start to matter at the absolute extremes: superheavy elements, pure hydrogen, heavily ionized atoms and ultrarelativistic particles. As such, the stopping power profile with respect to projectile speed is to be considered universal across almost all materials.
 
 It might be useful to know that the first chunk of the formula is just one big constant:
 $$4\pi m_{e}c^{2}r_{e}^{2}N_{A}\simeq0.3\ \frac{\text{MeV cm}^{2}}{\text{g}}$$
 A more accurate version of the Bohr formula can be derived with quantum-mechanical considerations:
 $$\boxed{S(K) = 4\pi m_{e}c^{2}r^{2}_{e}N_{A} \frac{\rho Z}{A} \frac{z^{2}}{\beta^{2}} \left[ \ln\left( \frac{\beta^{2} \gamma^{2} m_{e}c^{2}}{I} \right) - \beta^{2} - \frac{\delta(\gamma)}{2} \right]}$$
 This is called the **Bethe-Bloch formula**. As you can see, it only differs from the Bohr formula due to the addition of two extra relativistic terms. The first, $-\beta ^{2}$, shows a noticeable stopping power reduction at high relativistic speeds ($\beta \simeq 1$). The second, $-\delta(\gamma)/2$, is dependent on a function $\delta(\gamma)$ of the relativistic $\gamma$. This term represents a density correction due to the [[dielectric polarization]] of the medium and further decreases stopping power at relativistic speeds. There is also a mass thickness variant:
-$$S_\text{MT}(K) = - \frac{dK}{dX} = 4\pi m_{e}c^{2}r^{2}_{e}N_{A} \frac{\rho Z}{A} \frac{z^{2}}{\beta^{2}} \left[ \ln\left( \frac{\beta^{2} \gamma^{2} m_{e}c^{2}}{I} \right) - \beta^{2} - \frac{\delta(\gamma)}{2} \right]$$
+$$S_\text{MT}(K) = - \frac{dK}{dX} = 4\pi m_{e}c^{2}r^{2}_{e}N_{A} \frac{Z}{A} \frac{z^{2}}{\beta^{2}} \left[ \ln\left( \frac{\beta^{2} \gamma^{2} m_{e}c^{2}}{I} \right) - \beta^{2} - \frac{\delta(\gamma)}{2} \right]$$
 All considerations regarding the Bohr formula apply here too, with the difference that the additional terms suppress ultrarelativistic stopping power even more than it already was.
 
 :::image
@@ -83,7 +83,7 @@ All considerations regarding the Bohr formula apply here too, with the differenc
 A plot of Bethe-Bloch stopping power with respect to projectile velocity (expressed as $\beta \gamma$). This profile is mostly universal across materials. The $x$-axis is in log10 scale.
 :::
 
-From the figure we can see that stopping power decreases to a minimum and then rises again due to relativistic effects. A particle whose velocity is just right to be in the local minimum of stopping power ($\beta \gamma \simeq 3$) is called a **minimum ionizing particle** (**MIP**).
+From the figure we can see that stopping power decreases to a minimum and then rises again due to relativistic effects. A particle whose velocity is just right to be in the local minimum of stopping power ($\beta \gamma \simeq 3\textendash4$) is called a **minimum ionizing particle** (**MIP**). The minimum energy loss is also quite universal, hovering in the range $1\textendash 2\text{ MeV cm}^{2}\text{/g}$.
 
 Something interesting (and very useful) appears when we look at stopping power in terms of momentum instead of speed. Actually, it occurs for any variable dependent on speed and mass (e.g. kinetic energy; momentum just happens to be the most used). Since $p=mv$ and $v$ determines the behavior by itself, there's a "push and pull effect" between projectile mass and momentum. What I'm trying to say is that, in a plot of $S(K)$ vs. $p$ (or $S(K)$ vs. $K$), the mass *does* play a role in the profile (it needs to in order to cancel out the mass in the other variable). However, if we do manage to measure and plot $S(K)$ in terms of momentum, that means we get distinctly different curves for different masses.
 
@@ -94,49 +94,51 @@ A stopping power plot in terms of kinetic energy for a [[kaon]] and a [[proton]]
 
 This is extremely useful, because it provides us with a way to discriminate between different particles. Since mass is essentially the only property that's truly unique to each particle, by plotting out these curves experimentally, we can measure the mass of the particle indirectly. If we recognize the mass, then we've identified the particle!
 
-Note that for larger masses, the plot gets [[translation|shifted]] to the right, meaning it generally loses more energy as the minimum gets pushed further into relativistic territory. The difference is biggest in low-energy, nonrelativistic range.
+Note that for larger masses, the plot gets [[translation|shifted]] to the right, meaning it generally loses more energy as the minimum gets pushed further into relativistic territory. The difference is biggest in low-energy, nonrelativistic range. Unfortunately, many particle detections are well into the relativistic range, so the differences actually seen in practice can require a high level of precision to discern. This is especially true since the energy loss given by the Bethe-Bloch formula is a mean: the real loss will be a distribution around it. As such, the actual measurements will not find *curves* but rather *bands* with a certain width around the curve. When two bands are close enough, they tend to overlap, making distinction hard.
+
+:::image
+![[BetheBlochExpBands.png]]
+Theoretical values of the Bethe-Bloch (left) and experimental bands (right).
+:::
 #### Energy straggling
 The energy loss due to many collisions is inherently random. If the incident beam is monoenergetic, meaning all incident particles have the same energy, the energy loss distribution is found to be a [[Poisson distribution]]. As per the [[central limit theorem]], when the number of collisions is large (i.e., the material is sufficiently thick), the energy loss distribution becomes a [[Gaussian distribution|Gaussian]]. This phenomenon is known as **energy straggling**. In thin materials, where the central limit theorem does not apply, we find [[Landau-Vavilov distribution]] instead, which has a high tail for high-energy losses.
 
 If the material is thick enough, the stopping power might cause the particle to lose all of its energy and get "stuck" in the material. Since the energy loss is random, so is the distance at which it happens. We call this the **[[Range]]** of the particle and its randomness is called **range straggling**.
+#### Bragg peaks
+For heavy particles, the energy loss scales as $\sim 1/v^{2} \sim 1/K$. Because of this, the majority of energy lost occurs where the particle is slowest, which means at the end of its travel distance right before it stops. A plot of energy loss versus depth shows a sharp peak around the mean [[range]], a shape known as a **Bragg peak**.
 ### Radiative energy loss  
-The stopping power for [[electron|electrons]] is not well described by the Bethe-Bloch formula. This is because electrons in the beam are identical to those in the target, and their mass is very small. The Bethe-Bloch formula is valid only for heavy particles. For electrons, energy loss is dominated by [[Bremsstrahlung|Bremsstrahlung radiation]]. This loss mechanism is negligible for heavy particles because their deflections are minimal.
+Collisional stopping power is a good measure for all particles of comparable mass to [[electron|electrons]]. For electrons themselves (and all charged particle of same or similar mass, e.g. positrons), however, our assumptions lose validity: this is because electrons tend to be heavily deflected by the fields of atoms due to having quite small mass. Because of this, the main energy loss of electrons is dominated by [[bremmstrahlung]], which is a form of [[electromagnetic radiation]] that occurs when particles decelerate. This loss also happens in heavy particles, but since their deflections are so small, it is minimal compared to collisions and can be safely ignored[^1].
 
-Radiative energy loss for a particle of energy $E_{0}$ follows a form of the [[Beer-Lambert law]]:
+The theory for the radiative energy loss for an electron of kinetic energy $K_{0}$ was developed by Bethe and Heitler in 1934, the result of which is:
+$$\boxed{S_\text{rad}(K)=- \left.\frac{dK}{dx}\right|_{\text{rad}} = \frac{K}{L_{R}}}$$
+The value $L_{R}$ is a constant known as the **radiation length**:
+$$\frac{1}{L_{R}} = \ln\left( \frac{183}{Z^{1/3}} \right) \frac{4 r_{e}^{2} N_{A}^{2} Z^{2} \alpha \rho}{A}$$
+$N_{A}$ is the [[Avogadro number]], $r_{e}$ is the classical electron radius, $\alpha$ is the [[fine-structure constant]], $Z$ and $A$ are the atomic and mass number of the material, and $\rho$ is the density of the material.
 
-$$
-- \left.\frac{dE}{dx}\right|_{\text{rad}} = \frac{E}{L_{R}}
-$$
+This quantity is the distance over which the electron's energy is reduced by a factor of $1/e$ due to bremmstrahlung. Note the important dependence on $Z^{2}$: it means that heavier elements are much, much better than lighter ones at stopping electrons. Some common values are 36 cm for $\ce{H_{2}O}$, 9 cm for $\ce{Al}$, 1.7 cm for $\ce{Fe}$, and 0.56 cm for $\ce{Pb}$. This explains why metals, lead especially, are such effective radiation shields.
 
-leading to:
+Radiative stopping power is a pretty easy first-order *linear* [[ordinary differential equation]], which solves to
+$$K(x) = K_{0} e^{-x / L_{R}}$$
+This is a form reminiscent of the [[Beer-Lambert law]], here for kinetic energy. In fact, $L_{R}$ is essentially the absorption coefficient due to bremmstrahlung. Importantly, the energy loss is *exponential* with distance traveled. As such, when radiative losses dominate, they stop particles far faster than any collision.
 
-$$
-E(x) = E_{0} e^{-x / L_{R}}
-$$
+The photons emitted can in theory carry any energy between 0 and $K_{0}$. Also, as always with bremmstrahlung, the spatial distribution of the photons that are emitted is characteristic and uniquely defined by the electron's speed and deceleration.  Their mean angle of emission with respect to the axis of deceleration is $\langle \theta \rangle\simeq m_{e}c^{2}/K_{0}$.
 
-with
+The energy loss due to bremmstrahlung is exponential, and at high energies, it dominates over ionization. At low energies, ionization is more significant. The larger the mass of the particle, the higher the threshold is for radiation to start dominating. The energy at which both processes contribute equally is known as the **critical energy** $K_C$, which is known to be
+$$K_{C}\simeq \frac{600}{Z}\text{ MeV}$$
 
-$$
-L_{R}^{-1} = \ln\left( \frac{183}{Z^{1/3}} \right) \frac{4 r_{0}^{2} N_{A} Z^{2} \alpha \rho}{A}
-$$
+:::image
+![[Plot Stopping power col vs rad|80%|center]]  
+Comparison of radiative and collisional stopping power. The two cross at the critical energy, after which radiative loss dominates. The $\beta \gamma$ axis is logarithmic.
+:::
 
-where:
-- $r_{0}$ is the classical radius of the electron.
-- $N_A$ is the [[Avogadro number]].
-- $\alpha$ is the [[Fine-structure constant]].
-- $\rho$ is the material's density.
-- $Z$ is the atomic number.
-- $A$ is the atomic mass.
+If electrons are at high energies, the ionization loss can be completely ignored in favor of a pure radiative contribution. However, since radiative loss is proportional to[^2]
+$$\frac{dK}{dx}\propto \frac{Z^{2}}{m_{e}^{2}}K$$
+if we change the particle to something else, the mass $m_{e}$ changes. Thus, we can compare the electron radiative loss to other, heavier particles' radiative loss. For some heavier mass $M>m_{e}$ we have
+$$\frac{dK}{dx}(M)\propto \frac{Z^{2}}{M^{2}}K$$
+We can ask at what kind of energy the heavier particle radiates as much as an electron, which is like asking when the heavier particle's energy loss is overwhelmingly radiative:
+$$\frac{Z^{2}}{m_{e}^{2}}K_{e}=\frac{Z^{2}}{M^{2}}\quad\Rightarrow \quad K=\left( \frac{M}{m_{e}} \right)^{2}K_{e}$$
+where we wrote $K_{e}$ to differentiate the electron's energy from the heavier particle's one. Evidently, the kinetic energy leading to pure radiative loss increases with the square of the ratio of the particle-to-electron mass. Since electrons are quite light, this number is usually enormous; for a proton it is $(938\text{ MeV}/0.51\text{ MeV})^{2}=3.4\times 10^{6}$. So, for a proton to radiate as much energy as an electron, it would need to have energies several million times larger. To radiate as much as a 10 MeV electron, it would need 34 TeV! You can also see this in reverse, as saying that at the same energy, a proton would radiate several million times less than an electron, which is a more useful way of seeing it in practice.
 
-$L_{R}$ is the **radiation length**, the distance over which the electron’s energy decreases to $1/e$ of its initial value. It strongly depends on the atomic number of the material.
+[^1]: Though in extreme ultrarelativistic conditions at TeV-scale particles, it becomes primary for heavy particles too, something that the Bethe-Bloch formula alone misses! There's a number of corrections to Bethe-Bloch at both low and high energy, but this can be see by comparing the two; see below.
 
-The energy loss due to Bremsstrahlung is exponential, and at high energies, it dominates over ionization. At low energies, ionization is more significant. The energy at which both processes contribute equally is known as the **critical energy** $E_C$.
-
-![[Stopping power and radiation|80%|center]]  
-*The $x$-axis is in log10 scale*
-
-Some examples of $L_{R}$ for various materials are: 3.6 cm for $H_{2}O$, 9 cm for $Al$, 1.7 cm for $Fe$, and 0.56 cm for $Pb$. This explains why lead is such an effective shield.
-
-The [[Photon|photon]] [[Energy spectrum|energy spectrum]] emitted via Bremsstrahlung ranges from 0 to $E_{0}$, with an average angular deviation $\left\langle \theta \right\rangle \simeq mc^{2}/E_{0}$, independent of the photon’s energy. The critical energy is approximately $E_C \sim 600/Z$ MeV.
-
-For a particle of mass $M$, the Bremsstrahlung energy loss scales as $\propto 1/M^{2}$. This means that radiative losses are significant only for very light particles (such as electrons) or at extremely high energies (ultrarelativistic regime).
+[^2]: $Z^{2}$ and $K$ are obvious from the Bethe-Heitler formula. The $m_{e}^{-2}$ is hidden inside the classical electron radius $r_{e}^{2}$.
