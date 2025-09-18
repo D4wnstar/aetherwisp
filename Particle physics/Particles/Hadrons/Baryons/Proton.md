@@ -24,7 +24,7 @@ The goal of the experiment was to collide protons with a stationary copper targe
 $$p+p\to p+p+p+\bar{p}$$
 The issue wasn't getting the reaction itself to work (it's not *impossibly* rare): the issue was creating a [[detector]] that could distinguish $p$ and $\bar{p}$. Specifically, proton-proton collisions have a *very* large number of possible outcomes, the most common of which include the pion. For instance, the reaction
 $$p+p\to \pi^{+}+\pi^{+}+\pi^{+}+\pi^{-}$$
-is $10^{5}$ times more [[Probability|probable]] than the one we're looking for. If we were to rely on electric charge alone, then the swarm of $\pi^{-}$ (same charge of $-e$) would get in the way.
+is $10^{5}$ times more [[Probability|probable]] than the one we're looking for. If we were to rely on electric charge alone, then the jet of $\pi^{-}$ (same charge of $-e$) would get in the way.
 
 The solution was exploiting [[threshold energy]]. For the reaction we want, the threshold energy is
 $$K_{p}=\frac{(4m_{p})^{2}-(2m_{p})^{2}}{2m_{p}}=6.53\text{ GeV}$$
@@ -40,7 +40,7 @@ An Italian diagram of the Bevatron apparatus. *Red*: Copper target. *Green*: Def
 :::
 
 Magnets were place in the middle to curve the beam, which automatically took care of getting rid of all positive charges. In short:
-1. Protons hit the lead target and make a ton of noise ($p,\bar{p},\pi^{\pm},\pi^{0}$).
+1. Protons hit the lead target and make a ton of particle noise ($p,\bar{p},\pi^{\pm},\pi^{0}$).
 2. Positive and neutral particles ($p,\pi^{+},\pi^{+}$) are gotten rid of by a magnetic field. This leaves only $\bar{p}$ and $\pi^{-}$.
 3. Time of flight detectors measure the speeds of the two, which we compare to expected values for $\bar{p}$ and $\pi^{-}$.
 4. Cherenkov radiation further determines if incoming particles pass a certain speed  threshold, which only $\pi^{-}$.

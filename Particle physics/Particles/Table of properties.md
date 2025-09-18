@@ -1,17 +1,18 @@
 ---
 wiki-publish: true
 ---
-$Q$ is [[electric charge]]. $B$ is [[baryon number]]. $S$ is [[strangeness]]. $L$ is [[lepton number]], brackets represent the flavor. $J$ is [[spin]] (technically total [[angular momentum]], but orbital momentum is zero in isolation). $P$ is [[parity]].
+$Q$ is [[electric charge]]. $B$ is [[baryon number]]. $S$ is [[strangeness]]. $L$ is [[lepton number]], brackets represent the flavor. $S$ is [[spin]]. $P$ is [[parity]].
 ### Quarks
 
-| Name    | Symbol | Mass (MeV) | Q    | B   | S   | $J^{P}$ |
+| Name    | Symbol | Mass (MeV) | Q    | B   | S   | $S^{P}$ |
 | ------- | ------ | ---------- | ---- | --- | --- | ------- |
 | Up      | $u$    | 2.3        | 2/3  | 1/3 | 0   | 1/2     |
 | Down    | $d$    | 4.8        | -1/3 | 1/3 | 0   | 1/2     |
 | Strange | $s$    | 95         | -1/3 | 1/3 | -1  | 1/2     |
+Note that quarks carry nonzero [[color]] charge and therefore can't be free.
 ### Hadrons
 
-| Name                        | Symbol                            | Mass (MeV) | Quarks                | Q   | B   | S   | $J^{P}$   |
+| Name                        | Symbol                            | Mass (MeV) | Quarks                | Q   | B   | S   | $S^{P}$   |
 | --------------------------- | --------------------------------- | ---------- | --------------------- | --- | --- | --- | --------- |
 | [[Proton]]                  | $p$ ($\bar{p}$)                   | 938        | $uud$                 | 1   | 1   | 0   | $1/2^{+}$ |
 | [[Neutron]]                 | $n$ ($\bar{n}$)                   | 939.5      | $udd$                 | 0   | 1   | 0   | $1/2^{+}$ |
@@ -34,7 +35,7 @@ $Q$ is [[electric charge]]. $B$ is [[baryon number]]. $S$ is [[strangeness]]. $L
 \* $\Sigma^{-}$ is not the [[antiparticle]] of $\Sigma^{+}$.
 ### Leptons
 
-| Name                      | Symbol                            | Mass (MeV) | Q   | L          | $J^{P}$ |
+| Name                      | Symbol                            | Mass (MeV) | Q   | L          | $S^{P}$ |
 | ------------------------- | --------------------------------- | ---------- | --- | ---------- | ------- |
 | [[Electron]]              | $e^{-}$ ($e^{+}$)                 | 0.51       | -1  | 1 ($e$)    | 1/2     |
 | [[Muon]]                  | $\mu^{-}$ ($\mu^{-}$)             | 105        | -1  | 1 ($\mu$)  | 1/2     |
@@ -44,9 +45,10 @@ $Q$ is [[electric charge]]. $B$ is [[baryon number]]. $S$ is [[strangeness]]. $L
 |                           | $\nu_{\tau}$ ($\bar{\nu}_{\tau}$) | <15.5      | 0   | 1 ($\tau$) | 1/2     |
 ### Gauge bosons
 
-| Name        | Symbol   | Interaction     | Mass (MeV) | Q      | $J^{P}$ |
-| ----------- | -------- | --------------- | ---------- | ------ | ------- |
-| [[Photon]]  | $\gamma$ | Elettromagnetic | 0          | 0      | $1^{-}$ |
-| [[W boson]] | $W$      | Weak            | 80377      | $\pm1$ | $1$     |
-| [[Z boson]] | $Z$      | Weak            | 91188      | 0      | $1$     |
-| [[Gluon]]   | $g$      | Strong          | 0          | 0      | $1^{-}$ |
+| Name        | Symbol            | Interaction     | Mass (MeV) | Q      | $S^{P}$ |
+| ----------- | ----------------- | --------------- | ---------- | ------ | ------- |
+| [[Photon]]  | $\gamma$          | Elettromagnetic | 0          | 0      | $1^{-}$ |
+| [[W boson]] | $W^{+}$ ($W^{-}$) | Weak            | 80377      | $\pm1$ | $1$     |
+| [[Z boson]] | $Z$               | Weak            | 91188      | 0      | $1$     |
+| [[Gluon]]   | $g$               | Strong          | 0          | 0      | $1^{-}$ |
+Note that gluons carry nonzero [[color]] charge and therefore can't be free.

@@ -31,3 +31,4 @@
 - Nuclear recoil
 - Disintegration energy
 - Delta resonance
+- Virtual gluonic energy

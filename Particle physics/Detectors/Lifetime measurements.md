@@ -12,7 +12,7 @@ If the lifetime is comparable to the time we can afford to spend measuring it ($
 $$\frac{dN}{dt}=- \frac{N(0)}{\tau}e^{-t/\tau}$$
 from which we can extract $\tau$.
 
-To create the histogram, our instruments require a spatial resolution that's shorter than the lifetime, else we'd just have one big bin with all the measurements. That's not a problem for high lifetimes, in which there's nothing more to talk about, but absolutely is for smaller ones where technology might not be advanced enough to provide good consistent measurements. In the unfortunate latter case, we need to resort to more involved treatment.
+To create the histogram, our instruments require a resolution that's shorter than the lifetime, else we'd just have one big bin with all the measurements. That's not a problem for high lifetimes, in which there's nothing more to talk about, but absolutely is for smaller ones where technology might not be advanced enough to provide good consistent measurements. In the unfortunate latter case, we need to resort to more involved treatment.
 
 What we can do is, instead of trapping the object, we let it move freely for a certain distance before decaying. Then, we construct a histogram as before, but instead of measuring the decay times, we measure the distance covered before decaying. The two quantities are of course related, so if we don't have the tools to measure time we'll measure space instead. As before, the radioactive decay law provides a formula, though we start from decays per unit distance since that's what we binned:
 $$\frac{dN}{dx}=\frac{dN}{dt} \frac{dt}{dx}=- \frac{N(0)}{\tau}e^{-t/\tau} \frac{1}{v}$$
