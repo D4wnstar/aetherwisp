@@ -11,7 +11,7 @@ $$S(K) = - \left\langle \frac{dK}{dx} \right\rangle$$
 The mean is needed because the interaction of particles inside of matter is extremely complex and [[random]], so we can only afford to quantify the average behavior.
 
 This rate was first calculated by Bohr for heavy particles ([[mass]] much bigger than [[electron|electrons]]) in a classical framework. This lead to the **Bohr formula** for stopping power. It was later extended to a quantum mechanical treatment by Bethe and Bloch, who are the namesake of the **Bethe-Bloch formula** for stopping power:
-$$S(K)=- \frac{dK}{dx} = 4\pi m_{e}c^{2}r^{2}_{e}N_{A} \frac{\rho Z}{A} \frac{z^{2}}{\beta^{2}} \ln\left( \frac{\beta^{2} \gamma^{2}m_{e}c^{2}}{h\nu} \right)$$
+$$S(K) = 4\pi m_{e}c^{2}r^{2}_{e}N_{A} \frac{\rho Z}{A} \frac{z^{2}}{\beta^{2}} \left[ \ln\left( \frac{\beta^{2} \gamma^{2} m_{e}c^{2}}{h\nu} \right) - \beta^{2} - \frac{\delta(\gamma)}{2} \right]$$
 This is a complicated formula: see the main body for a proper description. The Bohr formula is the same, but lacks the $\beta ^{2}$ and $\delta(\gamma)/2$ terms, which are relativistic corrections.
 
 For light particles, the behavior comes out to be much simpler and reminiscent of the classical [[Beer-Lambert law]] for [[irradiance]]:
@@ -21,7 +21,7 @@ where $L_{R}$ is the **radiation length**. In fact, if you integrate for $K$, yo
 Stopping power is of great importance in [[detector]] physics, since the detector picks up the energy that the particle loses and uses that to determine the presence of a particle. It's also fundamental to [[radiation protection]] to prevent [[radiation]] damage to humans and objects.
 
 > [!question] A note on notation
-> It's very common to use $E$ instead of $K$ to denote the kinetic energy. I find this notation unnecessary and confusing, since it mixes up kinetic and total energy, not to mention electric fields, so Aetherwisp uses $K$. However, in other texts be aware that $E$ is the more common letter.
+> It's very common to use $E$ instead of $K$ to denote the kinetic energy. I find this notation unnecessary and confusing, since it mixes up kinetic and total energy, not to mention electric fields, so Aetherwisp uses $K$. However, be aware that in other texts $E$ is the more common letter.
 ## Mechanism
 Stopping power is essentially a macroscopic average of microscopic interactions. As such, the stopping power is not just dependent on the incoming energy, but also on the kind of incident particle. Most discussion on stopping power is surrounding [[Electric charge|charged particles]] and their energy loss due to [[electromagnetism]], since that's the most common and most impactful [[fundamental interaction]]. In this context, there's two primary ways a particle can lose energy. [[Particle scattering]] is the obvious one: particles collide and are deflected. This is the main cause of energy loss for heavy particles. [[Bremmstrahlung]] is the other. This is the main cause for light particles. We explore these two independently.
 ### Collisional energy loss  
