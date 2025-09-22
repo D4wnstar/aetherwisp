@@ -13,7 +13,7 @@ An example of radionuclide that undergoes spontaneous fission is $^{238}\text{U}
 ### Mechanism
 Consider some superheavy nucleus ($A\gtrsim 230$). It's binding energy per nucleon is very low compared to much smaller nuclei, generally in the range of $7.5-7.6\text{ MeV/nucleon}$. As such, breaking into smaller nuclei, which generally have binding energies in the range of $8.4-8.5\text{ MeV/nucleon}$, is potentially very energy efficient. In practice, however, the strong attraction creates a deep well of [[potential energy]] in which then nucleus sits comfortably in and electrostatic repulsion creates a major potential barrier that prevents the nuclei from escaping or entering.
 
-![[Grafico Fissione nucleare|80%|center]]
+![[Diagram Spontaneous fission|80%|center]]
 
 Let $R_{0}$ be the radius of the nucleus. If it were to split in two, the fragments would have radii $R_{1}$ and $R_{2}$. At the moment of fission, they would be "touching", so the total "size" of the result would be $R=R_{1}+R_{2}$. This end state would need to have enough energy to overcome the energy barrier for fission to happen. The potential energy at this distance is
 $$U(R)=\frac{1}{4\pi\epsilon_{0}} \frac{Z_{1}Z_{2}e^{2}}{R}$$

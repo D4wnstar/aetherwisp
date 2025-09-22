@@ -5,7 +5,7 @@ aliases:
 ---
 The **pair production** is a high-[[energy]] phenomenon in which an [[Electric charge|electrically neutral]] [[boson]] "decays" to simultaneously generate a [[Particle|particle]] and its [[Antiparticle|antiparticle]]. Though it may look like one, pair production is not a type of [[particle decay]], but rather a [[particle scattering]]. This is because pair production must be "activated": it requires the input of an external field like an [[Electromagnetism|electromagnetic field]] in order to happen, as it is necessary to conserve [[invariant mass]]. As such, it only occurs in matter and is a form of [[radiation-matter interaction]].
 ### Electron-positron pair production
-The most common type of pair production is a [[photon]] scattering into an [[electron]]-[[Electron|positron]] pair. The particle process is
+The most common type of pair production is a [[Photon]] scattering into an [[electron]]-[[Electron|positron]] pair. The particle process is
 $$\ce{X}+\gamma\to \ce{X}+e^{-}+e^{-}$$
 where $\ce{X}$ is an [[atom]], [[Atomic nucleus|nucleus]] or generally some charged object that can provide an electromagnetic field to trigger the production and take some recoil to conserve energy. Assuming the recoil's energy is negligible due to the large [[mass]] of $\ce{X}$, we can say that all of the photon's energy is transferred into the pair. Since electrons are not massless, must at the very least carry two electron [[Relativistic energy|rest energies]] worth of energy to create the two:
 $$E_{\gamma}\geq2m_{e}c^{2}$$

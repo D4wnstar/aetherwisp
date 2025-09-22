@@ -9,7 +9,7 @@ where $r$ is the distance from the charge and $\varepsilon_{0}$ is the [[vacuum 
 $$\mathbf{F}=Q\mathbf{E}=-Q\nabla V=\frac{1}{4\pi\varepsilon_{0}}\frac{qQ}{r^{2}}\hat{\mathbf{r}}$$
 where $Q$ is another charge a distance $r$ from the source charge $q$.
 
-The modern theory of electromagnetism is **quantum electrodynamics** (QED). Electromagnetism is an exchange interaction mediated by the [[photon]], one of the four known [[gauge boson|gauge bosons]].
+The modern theory of electromagnetism is **quantum electrodynamics** (QED). Electromagnetism is an exchange interaction mediated by the [[Photon]], one of the four known [[gauge boson|gauge bosons]].
 
 Electromagnetism has infinite range, meaning it can affect objects at any distance.
 ### Coupling constant
@@ -23,7 +23,7 @@ where
 
 Notably, the fine-structure constant is universal. All electromagnetic interactions are regulated by the same coupling constant.
 ### Exchange particle
-The quantum of the electromagnetic interaction is the [[photon]], a [[mass|massless]] [[gauge boson]] with [[spin]] 1 and no [[electric charge]]. The photon carries the electromagnetic [[force]], whose intensity is determined the electromagnetic coupling constant. Simple examples of electromagnetic exchange are [[proton]]-[[electron]] attraction $e^{-}+p\to e^{-}+p$ and electron-positron attraction $e^{-}+e^{+}\to e^{-}+e^{+}$.
+The quantum of the electromagnetic interaction is the [[Photon]], a [[mass|massless]] [[gauge boson]] with [[spin]] 1 and no [[electric charge]]. The photon carries the electromagnetic [[force]], whose intensity is determined the electromagnetic coupling constant. Simple examples of electromagnetic exchange are [[proton]]-[[electron]] attraction $e^{-}+p\to e^{-}+p$ and electron-positron attraction $e^{-}+e^{+}\to e^{-}+e^{+}$.
 
 In [[Feynman diagram|Feynman diagrams]], a photon carrying the electromagnetic interaction is represented by a wavy line.
 ### Interaction with matter

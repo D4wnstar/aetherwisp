@@ -9,7 +9,7 @@ using [[electron]]/[[Electron|positron]] and [[proton]]/antiproton as examples.
 
 Charge conjugation is a [[unit operator]]: $\hat{C}^{2}=\hat{\mathbf{1}}$. Its [[Equazione agli autovalori|eigenvalues]] are therefore $P=\pm1$.
 ### Intrinsic charge conjugation
-Each particle can be assigned an eigenvalue $C=\pm1$ depending on whether it is [[Symmetry|symmetric]] under charge conjugation or not. For example, conjugating the charge of the electron gives the positron. Because it changes, the electron and positron get $C=-1$. Similarly, the [[photon]] does change, $\hat{C}\ket{\gamma}=-\ket{\gamma}$ ([[polarization]] is flipped) so $C=-1$. Meanwhile, the neutral [[pion]]'s state does not change, so $\hat{C}\ket{\pi^{0}}=\ket{\pi^{0}}$. Then $\pi^{0}$ gets $C=1$.
+Each particle can be assigned an eigenvalue $C=\pm1$ depending on whether it is [[Symmetry|symmetric]] under charge conjugation or not. For example, conjugating the charge of the electron gives the positron. Because it changes, the electron and positron get $C=-1$. Similarly, the [[Photon]] does change, $\hat{C}\ket{\gamma}=-\ket{\gamma}$ ([[polarization]] is flipped) so $C=-1$. Meanwhile, the neutral [[pion]]'s state does not change, so $\hat{C}\ket{\pi^{0}}=\ket{\pi^{0}}$. Then $\pi^{0}$ gets $C=1$.
 
 All particles that are $C=1$ are their own antiparticles (e.g. $\pi^{0}$). The converse is not true (e.g. $\gamma$).
 

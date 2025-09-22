@@ -8,7 +8,7 @@ The **electron** is an [[Particle|elementary particle]] with a negative [[electr
 The [[antiparticle]] of the electron is called the **positron**.
 ## Discoveries
 ### The positron
-Americal physicist Carl Andersen organized and executed an experiment in 1932 using a [[cloud chamber]][^1] to measure secondary [[cosmic ray|cosmic rays]]. The cloud chamber, under a $B\simeq 15\text{ kG}$ [[magnetic field]], contained a 6 mm lead plate through which particles would pass through, acting as a "speed bump" that allows us to understand where the particle came from. The particle of course loses energy while passing through the lead (see [[Stopping power]]), so the side with the shorter trail must be destination, indicating the particle came from the other side.
+American physicist Carl Andersen organized and executed an experiment in 1932 using a [[cloud chamber]] to measure secondary [[cosmic ray|cosmic rays]]. The cloud chamber, under a $B\simeq 15\text{ kG}$ [[magnetic field]], contained a 6 mm lead plate through which particles would pass through, acting as a "speed bump" that allows us to understand where the particle came from. The particle of course loses energy while passing through the lead (see [[Stopping power]]), so the side with the shorter trail must be destination, indicating the particle came from the other side.
 
 :::image
 ![[PositronTrailAndersen.png|500]]

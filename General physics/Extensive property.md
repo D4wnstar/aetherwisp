@@ -7,7 +7,7 @@ A property of a [[physical system]] is said to be **extensive** if it is depende
 
 The opposite of an extensive property is an [[intensive property]].
 
-These properties can be seen as being attached to a specific object, like a specific weight, [[Particle|particle]] or [[stella|star]]. Generally speaking, a property can be reasonably described as extensive when the object is far larger than its constituents (usually atoms) and no other more specific conditions are met. These include
+These properties can be seen as being attached to a specific object, like a specific weight, [[Particle|particle]] or [[Stella|star]]. Generally speaking, a property can be reasonably described as extensive when the object is far larger than its constituents (usually atoms) and no other more specific conditions are met. These include
 - the system being too small compared to its constituents
 - being submerged in a nonuniform [[Potential|potential]]
 - the presence of long-range, non-negligible internal forces

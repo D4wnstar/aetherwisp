@@ -1,6 +1,0 @@
----
-wiki-publish: true
----
-Un **gigante gassoso** è un [[Pianeta]] composto primariamente da idrogeno ed elio. Sono caratterizzati da masse e dimensioni molto elevate (rispetto ad altri pianeti) e tendenzialmente orbite lontane dalla loro [[stella]], anche se ci sono eccezioni.
-
-I giganti gassosi vivono su un continuo con le stelle poco massive e le [[Nana bruna|nane brune]]. Questi sono oggetti principalmente differenziati dalle loro masse, che inducono diversi processi di [[fusione nucleare]]. I giganti gassosi non presentano fusione; le nane brune solo fusione di deuterio e litio in elio, insufficiente a mantenere costante la sua temperatura in [[tempo scala di Kelvin-Helmholtz]]; le stelle fondono idrogeno stabile e quindi possono cominciare il processo di [[evoluzione stellare]]. Il limite di massa tra gigante gassoso e nana bruna è di circa 13 [[Massa gioviana|masse gioviane]].

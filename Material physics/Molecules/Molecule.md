@@ -98,9 +98,9 @@ with $e$, $v$ and $r$ representing the electronic, vibrational and rotational pa
 
 The first state transitions to occur will be the rotational ones, since the energy of those states is so low. In particular, we can find the [[selection rule]]
 $$\Delta J=\pm 1\quad\to \quad \hbar \omega=2B(J+1)$$
-Vibrational transitions instead predict the absorption of a [[photon]] and the creation of a [[phonon]] that causes the vibration.
+Vibrational transitions instead predict the absorption of a [[Photon]] and the creation of a [[phonon]] that causes the vibration.
 
-The emission and absorption spectra due to these effects are therefore quite molecule-dependent. On one hand, this is bad because it makes prediction of these spectra quite difficult. On the other hand, it is very convenient when measuring the spectrum of an existing substance: since the spectra are so unique, having access to one is an excellent way to uniquely identify a substance without even touching it. This is how, for instance, we're able to identify the chemical composition of distant [[stella|stars]] just by looking at them with a telescope.
+The emission and absorption spectra due to these effects are therefore quite molecule-dependent. On one hand, this is bad because it makes prediction of these spectra quite difficult. On the other hand, it is very convenient when measuring the spectrum of an existing substance: since the spectra are so unique, having access to one is an excellent way to uniquely identify a substance without even touching it. This is how, for instance, we're able to identify the chemical composition of distant [[Stella|stars]] just by looking at them with a telescope.
 
 [^1]: Homonuclear: both the nuclei in the diatomic molecule are identical. The opposite is heteronuclear, where they are different.
 

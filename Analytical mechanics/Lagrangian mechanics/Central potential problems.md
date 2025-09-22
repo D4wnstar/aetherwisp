@@ -52,7 +52,7 @@ $$\ddot{r}(t)=- \frac{l}{m} \frac{d^{2}}{d\theta ^{2}}\left( \frac{1}{r} \right)
 Specifically when $\ddot{r}(t(\theta))$ we have
 $$\ddot{r}(t(\theta))=- \frac{l^{2}}{m^{2}r^{2}} \frac{d^{2}}{d\theta ^{2}}\left( \frac{1}{r} \right)$$
 ### Keplerian potential
-This is about as far as we get without knowing the specifics of the system. Everything up until now is perfectly general, provided the system matches our specifications. We now need some form of potential to keep going: we'll use a Keplerian (gravity-like) potential to analyze gravitationally bound (or unbound) systems like [[Pianeta|planets]] around a [[stella|star]]. We start with a qualitative analysis of the potential
+This is about as far as we get without knowing the specifics of the system. Everything up until now is perfectly general, provided the system matches our specifications. We now need some form of potential to keep going: we'll use a Keplerian (gravity-like) potential to analyze gravitationally bound (or unbound) systems like [[Pianeta|planets]] around a [[Stella|star]]. We start with a qualitative analysis of the potential
 $$V(r)=- \frac{k}{r}$$
 for some constant $k>0\in \mathbb{R}$. Our effective potential then is
 $$V_\text{eff}(r)=- \frac{k}{r}+ \frac{l^{2}}{2mr^{2}}$$

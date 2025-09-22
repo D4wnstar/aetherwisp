@@ -9,7 +9,7 @@ A **particle** is an object that occupies a localized region of [[spacetime]] an
 Particles are typically used as an idealization within a physical model in order to simplify treatment. For instance, in statistical mechanics an [[ideal gas]] is described as being composed of numerous particles, irrespective of the shape, size and specifics of the actual atoms and [[Molecule|molecules]] that make up the gas, in order to treat them as a large set of equivalent objects. In general, a particle is assumed to be an object that is much smaller than the scale of the environment that it is in.
 ### In particle physics
 In particle physics, the term refers to objects smaller than an [[atom]], so-called **subatomic particles**. These may be of two kinds:
-- **Elementary particles** have no internal components and are not made of other particles. Examples include the [[electron]], any [[neutrino]] or the [[photon]].
+- **Elementary particles** have no internal components and are not made of other particles. Examples include the [[electron]], any [[neutrino]] or the [[Photon]].
 - **Composite particles** are composed of other particles, usually elementary ones. Examples include the [[proton]] and the [[neutron]], both made of three [[Quark|quarks]] each.
 
 Whereas we are aware of a large number of composite particles, there are only few elementary ones. Our current understanding of elementary particles is formalized in the **[[Standard Model]]** of particle physics, which is a model containing all 17 known elementary particles, their known properties and how they behave with respect to [[electromagnetism]], the [[weak interaction]] and the [[strong interaction]].

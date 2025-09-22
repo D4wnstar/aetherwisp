@@ -4,7 +4,7 @@ aliases:
   - Compton edge
   - Compton wavelength
 ---
-**Compton scattering** is a [[particle scattering]] phenomenon between a [[photon]] and an [[electron]] that involves the absorption and re-emission of a photon by the electron, deflecting it and changing its [[frequency]]. It essentially redirects [[electromagnetic radiation]]. It is a higher energy form of [[Thomson scattering]].
+**Compton scattering** is a [[particle scattering]] phenomenon between a [[Photon]] and an [[electron]] that involves the absorption and re-emission of a photon by the electron, deflecting it and changing its [[frequency]]. It essentially redirects [[electromagnetic radiation]]. It is a higher energy form of [[Thomson scattering]].
 ### Mechanism
 In the language of [[particle]] physics, Compton scattering reads
 $$\gamma+ e^{-} \rightarrow \gamma +e^{-}$$

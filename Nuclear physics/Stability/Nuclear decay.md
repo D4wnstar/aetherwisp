@@ -12,7 +12,7 @@ where $A,Z$ are the [[Atom|mass number]] and [[Atom|atomic number]] of the origi
 There are three main modes of decay exist:
 - **[[Alpha decay]]**, which leads to the emission of a helium nucleus (called an $\alpha$ particle);
 - **[[Beta decay]]**, which converts a [[proton]] into a [[neutron]] or vice versa;
-- **[[Gamma decay]]**, which leads to the emission of a high-energy [[photon]].
+- **[[Gamma decay]]**, which leads to the emission of a high-energy [[Photon]].
 
 Another mode, somewhat different, is **[[spontaneous fission]]**, occurring only for very heavy nuclei ($A\gtrsim230$), where the nucleus splits into two smaller nuclei instead of emitting single particles.
 ### Mechanism

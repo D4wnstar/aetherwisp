@@ -3,7 +3,7 @@ wiki-publish: true
 aliases:
   - gamma ray
 ---
-**Gamma decay** is a [[Nuclear decay|decay]] mode in which an excited [[Atomic nucleus|nucleon]] drops to a less energetic [[stato|state]] by emitting a [[photon]]. It is essentially just a [[state transition]] of a nucleon from a higher [[Stationary state|energy eigenstate]] to a lower one. As such, the [[energy]] of the photon equals the difference in energy between states, however it is reduced by a small [[Atomic nucleus|nucleus]] recoil term. It often follows [[Alpha decay|alpha]] or [[Beta decay|beta]] decay, which generally leave one or more nucleons in an excited state.
+**Gamma decay** is a [[Nuclear decay|decay]] mode in which an excited [[Atomic nucleus|nucleon]] drops to a less energetic [[stato|state]] by emitting a [[Photon]]. It is essentially just a [[state transition]] of a nucleon from a higher [[Stationary state|energy eigenstate]] to a lower one. As such, the [[energy]] of the photon equals the difference in energy between states, however it is reduced by a small [[Atomic nucleus|nucleus]] recoil term. It often follows [[Alpha decay|alpha]] or [[Beta decay|beta]] decay, which generally leave one or more nucleons in an excited state.
 
 The nuclear process is
 $$\ce{X^{*}}\to \ce{X}+\gamma$$

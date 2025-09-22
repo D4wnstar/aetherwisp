@@ -1,7 +1,7 @@
 ---
 wiki-publish: true
 ---
-A **detector**, in the sense of a **particle detector**, is a tool whose purpose is to reveal the presence or activity of a [[particle]], such as a [[photon]] or [[muon]]. Detector physics is the field that deals with the mechanism behind particle detection and the methods that can be employed to this end. Since different particles behave in different ways, there's a wide variety of detector types. For example, photons are generally detected through the use of a [[scintillator]], which is a material that glows visible or UV light when excited by high-[[energy]] photons.
+A **detector**, in the sense of a **particle detector**, is a tool whose purpose is to reveal the presence or activity of a [[particle]], such as a [[Photon]] or [[muon]]. Detector physics is the field that deals with the mechanism behind particle detection and the methods that can be employed to this end. Since different particles behave in different ways, there's a wide variety of detector types. For example, photons are generally detected through the use of a [[scintillator]], which is a material that glows visible or UV light when excited by high-[[energy]] photons.
 
 In many ways, detectors are just applications of material physics and specifically matter-radiation interaction, since individual particles are [[radiation]] colliding with the detectors material.
 ### Operation

@@ -47,7 +47,7 @@ where $N_{C}$ is a constant of proportionality representing the number of colors
 
 The process that generates $q+\bar{q}$ creates a new meson of neutral charge when the quark pair combines. Regardless of the type of meson created, this process is seen experimentally and all data collected from these reactions that is [[Parameter estimation|fit]] with the proportionality factor  ends up returning a value of 3; precisely the number of colors.
 #### Pion decay
-The second way is essentially the first but in reverse. Instead of creating quarks, we're destroying them. Start with a $\pi^{0}$ neutral [[pion]]. This is known to decay in two [[photon|photons]] as per
+The second way is essentially the first but in reverse. Instead of creating quarks, we're destroying them. Start with a $\pi^{0}$ neutral [[pion]]. This is known to decay in two [[Photon|photons]] as per
 $$\pi^{0}\to \gamma+\gamma$$
 This process is deceptively difficult and the [[Feynman diagram]] for it involves some rather confusing physics. Suffice to say that the two quarks that make up $\pi^{0}$ distribute themselves in a time loop of 2 up quarks and a down quark, which will interact electromagnetically to emit two photons.
 

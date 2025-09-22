@@ -1,7 +1,7 @@
 ---
 wiki-publish: true
 ---
-The **photoelectric effect** is a phenomenon in which [[electromagnetic radiation]] is absorbed by a material, leading to the [[ionization]] of an [[atom]] and the emission of a free [[electron]]. The incident [[electromagnetic wave]] ([[photon]]) transfers enough [[kinetic energy]] to a [[electron shell model|valence electron]] to overcome its [[binding energy]] and break it out of the atom's [[potential energy|potential]] well.
+The **photoelectric effect** is a phenomenon in which [[electromagnetic radiation]] is absorbed by a material, leading to the [[ionization]] of an [[atom]] and the emission of a free [[electron]]. The incident [[electromagnetic wave]] ([[Photon]]) transfers enough [[kinetic energy]] to a [[electron shell model|valence electron]] to overcome its [[binding energy]] and break it out of the atom's [[potential energy|potential]] well.
 ### Mechanism
 The photoelectric effect is best explained in the language of [[particle]] physics. The process can be schematized as
 $$\gamma + \ce{X} \rightarrow \ce{X}^{+} + e^{-}$$

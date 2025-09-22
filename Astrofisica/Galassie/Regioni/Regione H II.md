@@ -1,0 +1,12 @@
+---
+wiki-publish: true
+---
+Una **regione H II** è una regione dello spazio da cui si osserva una forte [[Riga spettrale|riga di emissione]] $H\ II$, ossia al riga del primo [[stato]] eccitato dell'[[atomo di idrogeno]]. In altre parole, è una regione dello spazio composta da idrogeno [[ionizzazione|ionizzato]].
+
+Le regioni HII sono comunemente associate a zone di alta [[Formazione stellare]], dette [[Regione starburst|regioni starburst]]. Un esempio sono le [[Sfera di Strömgren|sfere di Strömgren]] o parti di una [[Nube molecolare]].
+###  Spettro
+Lo [[Spettro (astrofisica)|spettro]] di una regione H II è determinato dalla [[fluorescenza]]. La densità di una regione H II è bassa, tra i 10 e 10$^{-3}$ [[Atom|atomi]]/cm$^{-3}$, quindi hanno opacità bassissima se non alle frequenze di [[State transition]]. Quasi tutti gli atomi di idrogeno sono nello stato fondamentale, il che vale a dire che è opaco solo per frequenze solo sotto il [[Lyman limit]]. Lo spettro è quindi ben lontano dall'equilibrio termodinamico e presenta solo linee di emissione.
+
+Una ricombinazione di solito pone l'idrogeno in uno stato eccitato ($n=4$, ad esempio) ed emette un fotone poco energetico. L'atomo poi emette fotoni a cascata nel diseccitarsi. I fotoni che hanno sufficiente energia per eccitare un altro atomo lo fanno quasi immediatamente dopo l'emissione, ripetendo il ciclo. Eventualmente, verranno riemessi in un modo ad energia sufficientemente bassa da non ionizzare l'idrogeno, così "scappano" dalla regione. Altrimenti, possono "scappare" dopo una lunga serie di scattering in modo simile a quanto accade nel nucleo di una [[Stella]].
+
+Un altra peculiarità dello spettro delle regioni H II è la presenza di [[Riga proibita|righe proibite]].

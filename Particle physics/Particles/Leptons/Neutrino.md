@@ -26,7 +26,7 @@ Still, all this math didn't solve the practical problem of discovering the thing
 $$\bar{\nu}+p\to e^{+}+n\tag{1}$$
 so a positron and neutrons needed to be detected simultaneously to confirm presence.
 
-The winning experiment was due to American physicists Clyde Cowan and Frederick Reines (1956), whose idea was to use uranium in a high-[[power]] (megawatt-range) nuclear reactor[^1] which produced some $10^{20}$ antineutrino per second per centimeter. They made these antineutrinos collide with a dense target of two tanks of water and cadmium chloride with [[scintillator|scintillators]] ([[photon]] detectors) in the middle. The process was this
+The winning experiment was due to American physicists Clyde Cowan and Frederick Reines (1956), whose idea was to use uranium in a high-[[power]] (megawatt-range) nuclear reactor[^1] which produced some $10^{20}$ antineutrino per second per centimeter. They made these antineutrinos collide with a dense target of two tanks of water and cadmium chloride with [[scintillator|scintillators]] ([[Photon]] detectors) in the middle. The process was this
 1. The positrons from the reaction would collide with normal electrons in water, [[annihilation|annihilate]] and produce two high-energy photons ($e^{+}+e^{-}\to \gamma+\gamma$).
 2. The neutrons would be captured by the cadmium chloride (cadmium is a very good neutron absorber), which would cause the emission of a photon with an expected delay of about one microsecond.
 

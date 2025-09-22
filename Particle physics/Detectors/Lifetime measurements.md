@@ -23,7 +23,7 @@ $$\frac{dN}{dx}=- \frac{N(0)}{\lambda}e^{-x/\lambda}$$
 Our histogram is now fully converted to spatial data, from which we can extract the mean free path $\lambda$ and from it $\tau$.
 
 > [!example]-
-> Say we know $\lambda=30\ \mu\text{m}$ and the particle is going at the [[speed of light]] (e.g. a [[photon]]), so $\beta=1$. Then, solving for $\gamma \tau$ we get
+> Say we know $\lambda=30\ \mu\text{m}$ and the particle is going at the [[speed of light]] (e.g. a [[Photon]]), so $\beta=1$. Then, solving for $\gamma \tau$ we get
 > $$\gamma \tau=\frac{\lambda}{\beta c}=10^{-4}\text{ ns}=10^{-13}\text{ s}$$
 > This method allows for measuring very small lifetimes if the particle is moving near the speed of light.
 ### Extremely unstable

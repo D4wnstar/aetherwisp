@@ -9,7 +9,7 @@ For example, the [[Electromagnetism|electromagnetic]] attraction of an [[electro
 
 which corresponds to the process
 $$e^{-}+e^{+}\to e^{-}+e^{+}$$
-in which the attraction is mediated by the exchange of a [[photon]] $\gamma$.
+in which the attraction is mediated by the exchange of a [[Photon]] $\gamma$.
 ### Components
 Each diagram is divided in three sections:
 1. The beginning of the time axis represents the initial state of the process.
@@ -20,18 +20,16 @@ How each of these are drawn is highly codified.
 
 The motion of the particles follows a straight line with an arrow on it. The arrow is forward in time for particles and backwards for [[antiparticle|antiparticles]], echoing the fact that antiparticles can, at least mathematically, be interpreted as moving backwards in time.
 
-The interaction is drawn in one of three ways:
-- [[Electromagnetism|electromagnetic interaction]] ([[photon]]) uses a wavy line;
-- [[strong interaction]] ([[gluon]]) uses a coiled line;
-- [[weak interaction]] ([[W boson|W]] and [[Z boson|Z bosons]]) use a straight dashed line.
+The interaction is drawn in one of two ways:
+- [[Electromagnetism|electromagnetic interaction]] ([[Photon]]) uses a wavy line;
+- [[weak interaction]] ([[W boson|W]] and [[Z boson|Z bosons]]) also uses a wavy line[^1];
+- [[strong interaction]] ([[gluon]]) uses a coiled line.
 
 [[Gravity]] is not understood at a particle level, so there is no definition for it.
 
 The point at which the interaction begins and ends is shown with a filled circle and is called a **vertex**. The size of the vertex circle should be proportional to the square root of the [[coupling constant]] of the interaction.
 
-Despite having a clear length on the time axis, the interaction is too short in time for the [[force carrier]] to be perceivable. This is due to the [[Disuguaglianza di Heisenberg|time-energy uncertainty principle]], which states
-$$\Delta E\Delta t\geq \frac{\hbar}{2}$$
-The interpretation of $\Delta t$ is variable, but it does imply some lower bound below which we cannot measure durations. As it happens, interactions fall beneath this range and hence the particles involved in these interactions are [[virtual particle|virtual particles]]. The length of the interaction line should therefore not be assumed to have any meaning.
+Despite having a clear length on the time axis, the interaction is too brief for the [[force carrier]] to be perceivable. Force carriers in Feynman diagrams are always [[virtual particle|virtual particles]] and the visual length of the interaction line should not be assumed to have any meaning.
 
 The time axis should always be drawn explicitly. This is especially true since keeping the time axis horizontal or vertical are both common options. Moreover, it's possible to draw diagrams that show processes in other variables, though time is the most common.
 ### Properties  
@@ -39,3 +37,5 @@ Feynman diagrams are drawings of actual calculations. As such, they hold all the
 - At each vertex, all [[quantum number|quantum numbers]] are conserved. They must also be identical to those of the force carrier.
 - The exchange particle is inversely proportional to the square of the transferred momentum.
 - The [[probability]] of interaction and the [[cross section]] are proportional to the square of the amplitude, represented by the diagram: $\text{Prob}\propto\sigma \propto |\ \ \rangle\!\!\sim\sim\!\!\langle\ \ |^{2}$.
+
+[^1]: This is in reference to the unification of electromagnetism and weak force: the [[electroweak interaction]].

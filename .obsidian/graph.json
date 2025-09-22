@@ -1,14 +1,14 @@
 {
   "collapse-filter": true,
-  "search": "-path:Other -path:Psi -tag:#excalidraw",
+  "search": "-path:Other -path:Psicologia -tag:#excalidraw ",
   "showTags": true,
   "showAttachments": false,
-  "hideUnresolved": false,
-  "showOrphans": true,
+  "hideUnresolved": true,
+  "showOrphans": false,
   "collapse-color-groups": true,
   "colorGroups": [
     {
-      "query": "path:\"Introduzione all'Astrofisica\"",
+      "query": "path:Astrofisica",
       "color": {
         "a": 1,
         "rgb": 5401056
@@ -71,10 +71,10 @@
       }
     },
     {
-      "query": "path:\"Introduzione alla Fisica Nucleare e Subnucleare\"  ",
+      "query": "path:\"Particle physics\"",
       "color": {
         "a": 1,
-        "rgb": 2867091
+        "rgb": 5680343
       }
     },
     {
@@ -116,7 +116,7 @@
       "query": "path:\"Theory of relativity\"  ",
       "color": {
         "a": 1,
-        "rgb": 4374993
+        "rgb": 2332068
       }
     },
     {
@@ -124,6 +124,13 @@
       "color": {
         "a": 1,
         "rgb": 10605397
+      }
+    },
+    {
+      "query": "path:\"Nuclear physics\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 13185402
       }
     }
   ],
@@ -137,6 +144,6 @@
   "repelStrength": 12.0003255208333,
   "linkStrength": 0.950276692708333,
   "linkDistance": 250,
-  "scale": 0.11327439907466574,
+  "scale": 0.1699115986119986,
   "close": false
 }

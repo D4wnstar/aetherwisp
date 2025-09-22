@@ -21,7 +21,7 @@ The definition of cross section is somewhat vague and allows for a number of int
 ### Geometric cross section
 **Geometric cross section** is the most basic kind of cross section. Consider a rectangular target of thickness $d$ and surface area $A$.
 
-![[Schema Sezione d'urto geometrica|center]]
+![[Diagram Cross section geometric|center]]
 
 Now fire a beam at the target. Assume the size of the beam is large enough to cover the whole target. The beam contains point-like particles $a$ moving at velocity $\mathbf{v}_{a}$ with volume density $n_{a}$. Meanwhile, the target is made up of $N_{b}$ particles (say, [[atom|atoms]]) of volume density $n_{b}$. We call them **scattering centers** (the blue circles in the figure, assumed non-overlapping) and they are not point-like: their surface area perpendicular to the beam is called **geometric cross section** $\sigma_{b}$. When a incoming projectile hits a scattering center, it scatters. This section can be determined experimentally by measuring the number of particles being fired and how many of them scatter.
 
@@ -38,7 +38,7 @@ More often than not, due to limitations in the [[detector]] equipment, only a sm
 
 Consider some detector of area $A_{D}$ at a distance $r$ and angle $\theta$ from the beam.
 
-![[Schema Sezione d'urto differenziale|center]]
+![[Diagram Cross section differential|center]]
 
 The detector subtends a [[solid angle]] $\Delta\Omega=A_{D}/r^{2}$. The total count rate $\dot{N}$ depends will depend on the cross section, of course, but specifically for the cross section of an event that leads to the emission of a particle in that solid angle, since those are the only ones that'll be detected. To express this concept, we introduce the **differential cross section**
 $$\frac{d\sigma}{d\Omega}$$

@@ -53,7 +53,7 @@ This scenario is similar to the above, in that it's a particle decaying in two b
 
 In the laboratory frame, at rest with the scientists and [[detector|detectors]], the particle moves at some initial speed. Since momentum is conserved, the decay products will inherit it. This makes them also fly forward, but at an angle, with respect to the original line of motion.
 
-![[Schema Decadimento ad un angolo|80%|center]]
+![[Diagram Particle decay in flight|80%|center]]
 
 Conservation says
 $$\begin{cases}
