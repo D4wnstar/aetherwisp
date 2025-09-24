@@ -2,7 +2,11 @@
 wiki-home: true
 wiki-publish: true
 ---
-Hello, welcome to Aetherwisp! This is a large (currently >300.000 words) collection of all of the notes that I take for my courses in university. It's mostly physics, but there might be adjacent topics and in the future there will likely be a considerable amount of computer science and HPC-related topics once I get to my master's degree.
+Hello, welcome to Aetherwisp! This is a project in science outreach that tries to provide clear, free educational material in science. It is greatly inspired by Wikipedia, but where Wikipedia reads like an *encyclopedia*, Aetherwisp reads like a *textbook*. This means that it tries to explain its results and provide proofs whenever possible.
+
+large, over 350.000 words collection of all of the notes that I take for my courses in university.
+
+It's mostly physics, but there might be adjacent topics and in the future there will likely be a considerable amount of computer science and HPC-related topics once I get to my master's degree.
 
 As of writing this, there are over 700 articles organized in an ideally understandable manner. The quality of the notes progressively got better and better over time, as I learnt to write proper educational text in real time while simultaneously listening to professors and reading the many equations on the blackboard. Also, writing LaTeX in real time is hard even with tons of automation. Many of the articles that you read here are essentially still first drafts. I of course go back on my notes when studying and do edit my writing to be better, but it's time consuming and it's often not my priority when exams are coming up, so mistakes can absolutely be present!
 
