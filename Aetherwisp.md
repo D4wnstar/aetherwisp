@@ -2,36 +2,34 @@
 wiki-home: true
 wiki-publish: true
 ---
-Hello, welcome to Aetherwisp! This is a project in science outreach that tries to provide clear, free educational material in science. It is greatly inspired by Wikipedia, but where Wikipedia reads like an *encyclopedia*, Aetherwisp reads like a *textbook*. This means that it tries to explain its results and provide proofs whenever possible.
+Welcome to Aetherwisp! This is a scientific outreach project that tries to provide free and open educational material in science. It is a large corpus of work totaling over 350,000 words, organized by field and topic, covering an ever-expanding number of fields.
 
-large, over 350.000 words collection of all of the notes that I take for my courses in university.
+Aetherwisp is greatly inspired by Wikipedia, but where Wikipedia reads like an *encyclopedia*, Aetherwisp reads like a *textbook*. The purpose isn't to *share knowledge*, but to *teach science*. If the difference doesn't click right away, then don't worry: it's all about "knowing" versus "understanding". Whereas an encyclopedia is a compendium of factual information, a textbook is a collection of methods, techniques and proofs to reach and understand of that information. Aetherwisp therefore focuses on showing *why* rather than *what* and attempts to provide a rigorous and verifiable scientific background to its statements.
 
-It's mostly physics, but there might be adjacent topics and in the future there will likely be a considerable amount of computer science and HPC-related topics once I get to my master's degree.
+Because of this mentality, much of the content here is likely to be inaccessible to many readers. Articles implicitly expect the reader to have enough background knowledge to understand a proper treatment of the topic. Although being rigorous requires a lot of effort on both the writer and the reader, I believe it is a necessary part of establishing a relationship of trust in science and providing actual proof, instead of accepting facts based on authority.
 
-As of writing this, there are over 700 articles organized in an ideally understandable manner. The quality of the notes progressively got better and better over time, as I learnt to write proper educational text in real time while simultaneously listening to professors and reading the many equations on the blackboard. Also, writing LaTeX in real time is hard even with tons of automation. Many of the articles that you read here are essentially still first drafts. I of course go back on my notes when studying and do edit my writing to be better, but it's time consuming and it's often not my priority when exams are coming up, so mistakes can absolutely be present!
+As it stands, Aetherwisp is primarily about physics and associated math. Further topics in the future will likely be about scientific computing, HPC and other branches of mathematics.
 
-Despite being organized in a very similar manner, I am by no means making an attempt to replace Wikipedia or textbooks, of course. The amount of work needed to do would be enormous, but I still hope that someone might find these pages useful. In the future, I'd like to make bibliography pages containing the sources I've used to write these notes, which are for the most part either established textbooks or my own professors' notes. Most of the articles are in English, as I fully expect my master's degree to be taught in English, but some older sections are still in Italian. I may or may not translate them to English in the future.
+The quality of the writing in Aetherwisp has improved greatly over time, with more recent additions being much more complete, nicer to read and better formatted. This does however mean that I consider older articles to be subpar compared to current standards and are not representative of the current state of the project. Some older sections have been rewritten, but several remain in their original state from when Aetherwisp wasn't even a consideration. For similar reasons, some sections are still written in Italian. These will be translated eventually.
+### About the author
+Hi! I am Samuele Vignoli, currently a physics student at the University of Trieste. Before this project even had a name, it was originally born as just a way to share my notes with other students and help people with their studies. Eventually, ambition kicked in and decided that it was the right platform to turn it into something more, so in the spirit of open source and open science, I put it on the public internet. I've grown weary of the rampant and frankly predatory monetization of academia and figured I would do my part in opposing a system I believe is antithetical to science. My website [Liminal Theater](https://liminaltheater.com/) has more on me if you're curious, and my [Github profile](https://github.com/D4wnstar) has all the code that I write.
 #### FAQ
-**Q.** Who are you?
+**Q.** What do you use to write and publish these?
 
-**A.** I am Samuele Vignoli, a physics student at the University of Trieste. I have a website [here](https://personal-website-one-topaz-29.vercel.app/) if you're curious about me, and a [Github profile](https://github.com/D4wnstar) if you want to know more about the things that I spend my time with instead of studying like a responsible student.
+**A.** These notes are all written in [Obsidian](https://obsidian.md/). I use the [latex-suite](https://github.com/artisticat1/obsidian-latex-suite) plugin to make writing LaTeX 100 times faster, which is what allows me to write in real time during lectures and not spend ages just typesetting math. I make plots and diagrams with [obsidian-excalidraw](https://github.com/zsviczian/obsidian-excalidraw-plugin) when they are not taken from other sources like Wikipedia. These notes are then turned into a website with my personal [wiki-generator](https://github.com/D4wnstar/wiki-generator) Obsidian plugin. The website itself is hosted on [Vercel](https://vercel.com). The Obsidian vault that contains this entire project is also publicly available on GitHub [here](https://github.com/D4wnstar/aetherwisp).
 
-**Q.** Why publish these?
+**Q.** Why is it called Aetherwisp?
 
-**A.** To be honest, mostly because I can. Over time I've grown progressively more and more interested in public-facing work and the popularization of science and while I have no intention of becoming a professor, I figure I would do my part in this regard. I also believe that science should be freely accessible to all, so that's why all of this is on the public internet and not behind a paywall. It's also an excuse to battle-test my currently-undocumented [Obsidian plugin](https://github.com/D4wnstar/wiki-generator) I made and published this whole website with.
-
-**Q.** How do you write these?
-
-**A.** These notes are all written in [Obsidian](https://obsidian.md/). I use the [latex-suite](https://github.com/artisticat1/obsidian-latex-suite) plugin to make writing LaTeX 100 times easier, which is what allows me to write it in real time. I make the plots and diagrams with [obsidian-excalidraw](https://github.com/zsviczian/obsidian-excalidraw-plugin) when they are not taken from books, professor's notes or Wikipedia. The website is kept updated using my aforementioned [wiki-generator](https://github.com/D4wnstar/wiki-generator) plugin.
-
-**Q.** Why is it even called Aetherwisp?
-
-**A.** I maintain a [repository](https://github.com/D4wnstar/wisp) of programming projects on simulations and games called *WISP* (meaning, the World Is a Simulation, Probably). Since these projects could not exist without my university education and since I like the sound of "wisp", I figured I would connect these notes to WISP by referencing it in the name. Wisps (a.k.a. will-o'-wisps) in European folklore are ethereal bodies of light, so what better medium for these to be in than the (luminiferous) aether? And so you get *Aetherwisp*. It think it checks all the boxes: physics history? Check. Fantasy/mythology? Check. Layered etymology? Check. Sounds good? Check.
+**A.** I maintain a [repository](https://github.com/D4wnstar/wisp) of programming projects on simulations and games called *WISP* (stands for "the World Is a Simulation, Probably"). Since these projects are to an extent intertwined and since I like the sound of "wisp", I figured I would use the word as the basis of this project too. Wisps (a.k.a. will-o'-wisps) are ethereal bodies of light found throughout European folklore, so what better medium for these to be in than the (luminiferous) aether? Put the two together and you get *Aetherwisp*. It checks all the boxes: physics? Check. Fantasy and mythology? Check. Etymology? Check. Sounds good to the ear? Check.
 
 **Q.** I found a mistake!
 
-**A.** Yeah, I can imagine. Feel free to send an email to `samvignoli@proton.me` if you want to notify me about it.
+**A.** In a project this large there's bound to be many. The preferred way to notify me is to open an issue on [GitHub](https://github.com/D4wnstar/aetherwisp) since that keeps things nice and organized. If for some reason you can't use GitHub, you can send an email to `samvignoli@proton.me` with \[Aetherwisp\] in the subject, but prefer GitHub if you can.
 
-**Q.** LaTeX/Code/Formatting is broken!
+**Q.** I found broken formatting!
 
-**A.** As I said above, I continuously generate this website from my Obsidian notes using my own plugin. There's bound to be some bugs in the process, and some things that work well in Obsidian don't work so well here, so they tend to go unseen. I iron these out once I have time for them.
+**A.** These notes are converted into a website from plain Markdown text. While I've ironed out *a lot* of bugs, there's bound to be more in the process, some of which I might already be aware of. I try to fix them when I can. As above, you can open an issue on GitHub.
+
+**Q.** Where are the sources?
+
+**A.** Some recent sections have a page containing books and websites I referenced while writing, but most don't. I'll try to add them in the future. Either way, I try to always prove what's written in Aetherwisp from previous results, so that results are based on proof and not authority (to the extent that is possible).

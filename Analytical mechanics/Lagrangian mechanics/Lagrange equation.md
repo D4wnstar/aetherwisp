@@ -227,7 +227,7 @@ $$V(q,\dot{q})=e\phi-e \dot{\mathbf{q}}\cdot \mathbf{A}$$
 > $$mR^{2}\sin ^{2}\theta \ddot{\phi}=-2mR^{2}\sin \theta \cos \theta \dot{\theta}\dot{\phi}$$
 > Dividing through by $mR^{2}\sin ^{2}\theta$ gives
 > $$\boxed{\ddot{\phi}=-2\cot \theta \dot{\theta}\dot{\phi}}$$
-> When solved, these two equations provide the motion in both coordinates. We can then use the coordinate transformation to convert to $x,y,z$. Note how these equations depend on each other, since $\phi$ appears in the $\ddot{\theta}$ equation and $\theta$ appears in $\ddot{\phi}$. These are so-called *coupled* equations and they are generally very difficult, if possible, to solve by hand. A [[numerical integration]] method is often needed.
+> When solved, these two equations provide the motion in both coordinates. We can then use the coordinate transformation to convert to $x,y,z$. Note how these equations depend on each other, since $\phi$ appears in the $\ddot{\theta}$ equation and $\theta$ appears in $\ddot{\phi}$. These are so-called *coupled* equations and they are generally very difficult, if possible, to solve by hand. A [[Numerical integration]] method is often needed.
 
 > [!example]- Pendulum with a spring joint
 > In this example, we'll analyze how a spring interacts with gravity. Consider a point mass attached to the $x$ axis by a spring of some elastic constant that always remains exactly vertical. Gravity pulls the mass down. Crucially, the spring is allowed to slide over the $x$ axis: thing of it like a coat hanger on a metal pipe of sorts.

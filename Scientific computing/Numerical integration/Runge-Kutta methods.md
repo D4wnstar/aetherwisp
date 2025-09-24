@@ -77,7 +77,7 @@ The coefficients for the Dormand-Prince 5(4) method. From *Numerical Recipes § 
 
 Now that we have a $\Delta$, we actually need to make use of it. We'll set the following condition:
 $$\lvert \Delta \rvert =\lvert x_{n+1}-x_{n+1}^{*} \rvert \leq\text{scale}\quad\text{where}\quad\text{scale}=\text{atol}+\lvert x \rvert \text{rtol}$$
-where $\text{atol}$ and $\text{rtol}$ refer to absolute and relative [[tolerance]] respectively[^2]. In practice they can be chosen separately for each component of $\Delta$, which makes them two vectors, but often times they are more easily defined as constants. Since $\lvert \Delta \rvert$ can be all sorts of values, we need some standardized form to determine how to accept or reject the step. We will define the *scaled* error as
+where $\text{atol}$ and $\text{rtol}$ refer to absolute and relative [[Tolerance]] respectively[^2]. In practice they can be chosen separately for each component of $\Delta$, which makes them two vectors, but often times they are more easily defined as constants. Since $\lvert \Delta \rvert$ can be all sorts of values, we need some standardized form to determine how to accept or reject the step. We will define the *scaled* error as
 $$\boxed{\text{error}=\sqrt{ \frac{1}{N}\sum_{i=0}^{N-1} \left( \frac{\Delta_{i}}{\text{scale}_{i}} \right)^{2} }}$$
 where $N$ is the dimension of the system, and define the step acceptance condition as
 $$\boxed{\text{if err}\leq 1\text{ accept, else reject}}$$
