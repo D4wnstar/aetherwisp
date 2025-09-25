@@ -21,7 +21,7 @@ It is often used to model the time it takes for a given number of [[Poisson dist
 The $\mu=1$ is also commonly encountered. The expression for this case is
 $$f_{T}(t)=\frac{1}{(k-1)!}t^{k-1}e^{-t}$$
 ### Moments
-The [[expected value]] and [[variance]] are
+The [[Expected value]] and [[Variance]] are
 $$E[T]=\frac{k}{\mu}=k\tau,\qquad\text{var}(T)=\frac{k}{\mu ^{2}}=k\tau ^{2}$$
 and in the $\mu=1$ case
 $$E[T]=k,\qquad\text{var}(T)=k$$

@@ -4,9 +4,9 @@ aliases:
   - correlation coefficient
   - covariance matrix
 ---
-The **covariance** of two [[random variable|random variables]] is a measure of their correlation and joint variability. For two [[Joint distribution function|jointly-distributed]] variables $X$ and $Y$ with finite [[variance]], their covariance is defined as
+The **covariance** of two [[random variable|random variables]] is a measure of their correlation and joint variability. For two [[Joint distribution function|jointly-distributed]] variables $X$ and $Y$ with finite [[Variance]], their covariance is defined as
 $$\text{cov}(X,Y)=E[(X-E[X])(Y-E[Y])]$$
-where $E[\cdot]$ is the [[expected value]]. Unlike variance, which is strictly positive, covariance may take any real value. High positive values indicate strong correlation, whereas high negative values indicate strong anticorrelation. The **correlation coefficient** or just **correlation** $\rho_{XY}$ is a scale-independent form of the covariance, defined as
+where $E[\cdot]$ is the [[Expected value]]. Unlike variance, which is strictly positive, covariance may take any real value. High positive values indicate strong correlation, whereas high negative values indicate strong anticorrelation. The **correlation coefficient** or just **correlation** $\rho_{XY}$ is a scale-independent form of the covariance, defined as
 $$\rho_{XY}=\frac{\text{cov}(X,Y)}{\sigma_{X}\sigma_{Y}}$$
 which is defined in $[-1,1]$. It has the same meaning as the covariance, but with [[Normalization|normalized]] values. By convention, it is said that two variables with correlation $\lvert \rho_{XY} \rvert\leq 0.3$ are *weakly correlated*, whereas variables with $\lvert \rho_{XY} \rvert\geq 0.7$ are *strongly correlated*.
 
@@ -33,6 +33,6 @@ x_{n}
 \vdots \\
 \mu_{n}
 \end{pmatrix}$$
-where $\mu_{i}$ is the [[expected value]] of the $i$-th measurement, $\mu_{i}=E[x_{i}]$. The **covariance matrix** $\mathrm{V}$ is defined by its elements $\mathrm{V}_{ij}$:
+where $\mu_{i}$ is the [[Expected value]] of the $i$-th measurement, $\mu_{i}=E[x_{i}]$. The **covariance matrix** $\mathrm{V}$ is defined by its elements $\mathrm{V}_{ij}$:
 $$\mathrm{V}_{ij}=\rho_{ij}\sigma_{i}\sigma_{j}$$
 It is a [[Symmetric matrix|symmetrical matrix]], so $\mathrm{V}_{ij}=\mathrm{V}_{ji}$, and the diagonal contains the variance of each measurement: $\mathrm{V}_{ii}=\sigma ^{2}_{i}$.

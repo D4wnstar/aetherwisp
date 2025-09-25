@@ -19,9 +19,9 @@ This distribution is commonly used in physics to model the wait times of random 
 The algebraic and central [[Moment-generating function|moment-generating functions]] are
 $$M^{*}_{X}(t)=\frac{1}{1-t\tau},\qquad M_{X}(t)=\frac{e^{-t\tau}}{1-t\tau}$$
 
-The [[expected value]] is
+The [[Expected value]] is
 $$\mu_{X}=\int_{0}^{\infty}xf_{X}(x)\ dx=\tau$$
-and the [[variance]] is
+and the [[Variance]] is
 $$\sigma ^{2}_{X}=\int_{0}^{\infty}(x-\tau)^{2}f_{X}(x)\ dx=\tau ^{2}$$
 
 The [[Function moments|moments]] are
@@ -30,7 +30,7 @@ The [[Function moments|moments]] are
 
 0. $\mu_{0}=1$
 1. $\mu_{1}=0$
-2. $\mu_{2}=\tau ^{2}$ ([[variance]])
+2. $\mu_{2}=\tau ^{2}$ ([[Variance]])
 3. $\mu_{3}=2\tau ^{3}$
 4. $\mu_{4}=9\tau^{4}$
 

@@ -3,7 +3,7 @@ wiki-publish: true
 ---
 A **function of one or more random variables** is any function that depends on a set of [[random variable|random variables]]. Call $y$ a function dependent on variables $X_{1},\ldots,X_{N}$, it is denoted $y=y(x_{1},\ldots,x_{n})$.
 ### Expectation and variance
-It is generally useful to know the [[expected value]] and [[variance]] of such a function. Assume the expectation and variance of the $i$-th variable are $E[X_{i}]=\mu_{i}$ and $\sigma_{i}^{2}$, and the [[covariance]] of the $ij$ pair is $\text{cov}(x_{i},x_{j})=\rho_{y}\sigma_{i}\sigma_{j}$.
+It is generally useful to know the [[Expected value]] and [[Variance]] of such a function. Assume the expectation and variance of the $i$-th variable are $E[X_{i}]=\mu_{i}$ and $\sigma_{i}^{2}$, and the [[Covariance]] of the $ij$ pair is $\text{cov}(x_{i},x_{j})=\rho_{y}\sigma_{i}\sigma_{j}$.
 
 Let's initially consider just the univariate case $y=y(x)$ and let's call $E[y]=\mu$ the expected value and $\sigma^{2}$ the variance of $y$. We can do a [[Taylor series|Taylor expansion]] of $y$ centered in $\mu$ as
 $$y(x)\simeq y(\mu)+ \underbrace{ \left. \frac{dy}{dx}\right|_{x=\mu}(x-\mu) }_{ 0 }+ \frac{1}{2}\left. \frac{d^{2}y}{dx^{2}}\right|_{x=\mu}(x-\mu)^{2}+\ldots$$

@@ -65,7 +65,7 @@ $$\boxed{U=-\frac{ \partial  }{ \partial \beta } \ln Q_{N}}$$
 #### Energy fluctuations
 The difference between the canonical ensemble and the [[microcanonical ensemble]] is that in the former, energy is allowed to fluctuate, whereas in the latter it is fixed and has no communication with the outside environment.
 
-Let's find how the energy fluctuates by computing its [[variance]] (up to a constant). Start by differentiating the internal energy:
+Let's find how the energy fluctuates by computing its [[Variance]] (up to a constant). Start by differentiating the internal energy:
 $$\frac{ \partial U }{ \partial \beta }=\frac{ \partial  }{ \partial \beta }  \frac{\int He^{-\beta H}d\mathbf{q}\,d\mathbf{p}}{\int e^{-\beta H}d\mathbf{q}\,d\mathbf{p}}=- \frac{\int H^{2}e^{-\beta H}d\mathbf{q}\,d\mathbf{p}}{\int e^{-\beta H}d\mathbf{q}\,d\mathbf{p}}+\left( \frac{\int He^{-\beta H}d\mathbf{q}\,d\mathbf{p}}{\int e^{-\beta H}d\mathbf{q}\,d\mathbf{p}} \right)^{2}=-\langle H^{2} \rangle +\langle H \rangle^{2} $$
 So the variance is just another derivative, with an additional minus in front:
 $$\boxed{\text{var}(H)=-\frac{ \partial U }{ \partial \beta } =\frac{ \partial  }{ \partial \beta ^{2} } \ln Q_{N}}$$

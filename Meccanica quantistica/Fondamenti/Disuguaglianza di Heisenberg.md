@@ -13,7 +13,7 @@ mentre in coordinate diverse non c'è una particolare relazione (ad esempio, $\D
 
 L'errore qui definito non è quello della strumentazione, ma quello intrinseco dovuto alla [[funzione d'onda]] della particella, dato che misure uguali su sistemi preparati allo stesso modo *non* danno lo stesso risultato. È una manifestazione dell'[[indeterminatezza quantistica]].
 ## Forma generale
-Consideriamo un'[[osservabile]] $A$ e il suo [[operatore autoaggiunto]] $\hat{A}$ per una funzione d'onda $\psi$. Allora la sua [[variance|varianza]] è
+Consideriamo un'[[osservabile]] $A$ e il suo [[operatore autoaggiunto]] $\hat{A}$ per una funzione d'onda $\psi$. Allora la sua [[Variance|varianza]] è
 $$\sigma_{A}^{2}=\langle (\hat{A}-\left\langle A \right\rangle)\psi\;|\; (\hat{A}-\left\langle A \right\rangle)\psi\rangle=\langle f|f\rangle$$
 con $f=(\hat{A}-\left\langle A \right\rangle)\psi$ e $\langle \cdot \rangle=\bra{\psi}\cdot \ket{\psi}$ la media nello stato $\psi$. Per un'altra osservabile $B$ si ha
 $$\sigma_{B}^{2}=\langle g|g\rangle$$

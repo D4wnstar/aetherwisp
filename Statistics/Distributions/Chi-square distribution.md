@@ -19,9 +19,9 @@ which is a very similar MGF to the [[exponential distribution]] one. We can make
 $$M_{Y}^{*}(t)=e^{t^{2}/2}$$
 which is the [[Gaussian distribution|standard normal distribution]]'s central MGF.
 
-The [[expected value]] is
+The [[Expected value]] is
 $$E[X]=k$$
-and the [[variance]] is
+and the [[Variance]] is
 $$\text{var}(X)=2k$$
 
 The [[Function moments|moments]] are
@@ -30,7 +30,7 @@ The [[Function moments|moments]] are
 
 0. $\mu_{0}=1$
 1. $\mu_{1}=0$
-2. $\mu_{2}=2k$ ([[variance]])
+2. $\mu_{2}=2k$ ([[Variance]])
 3. $\mu_{3}=8k$
 4. $\mu_{4}=12k^{2}+48k$
 

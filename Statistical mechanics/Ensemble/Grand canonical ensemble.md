@@ -72,7 +72,7 @@ so
 $$\langle N \rangle =\frac{1}{\mathcal{Z}}\sum_{N=0}^{\infty} z\frac{ \partial  }{ \partial z } z^{N}Q_{N}(V,T)=\frac{z}{\mathcal{Z}}\frac{ \partial  }{ \partial z } \sum_{N=0}^{\infty} z^{N}Q_{N}(V,T)=\frac{z}{\mathcal{Z}}\frac{ \partial  }{ \partial z } \mathcal{Z}=z\frac{ \partial  }{ \partial z } \ln \mathcal{Z}$$
 And so
 $$\boxed{\langle N \rangle =z\frac{ \partial  }{ \partial z } \ln \mathcal{Z}(z,V,T)}$$
-Now that we have the mean, we can also find the [[variance]]. The trick is the same as before. If doing $z\frac{ \partial  }{ \partial z }$ gave us $\langle N \rangle$, doing it twice should give us $\langle N^{2} \rangle$:
+Now that we have the mean, we can also find the [[Variance]]. The trick is the same as before. If doing $z\frac{ \partial  }{ \partial z }$ gave us $\langle N \rangle$, doing it twice should give us $\langle N^{2} \rangle$:
 $$\begin{align}
 z\frac{ \partial  }{ \partial z } z\frac{ \partial  }{ \partial z } \ln \mathcal{Z}&=z\frac{ \partial  }{ \partial z } \frac{1}{\mathcal{Z}} \sum_{N=0}^{\infty}Nz^{N}Q_{N} \\
 &=z\left[ \frac{1}{\mathcal{Z}}\sum_{N=0}^{\infty} N\left( \frac{ \partial  }{ \partial z } z^{N} \right)Q_{N}+ \left( \frac{ \partial  }{ \partial z } \frac{1}{\mathcal{Z}} \right)\sum_{N=0}^{\infty} Nz^{N}Q_{N} \right] \\

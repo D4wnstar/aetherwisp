@@ -7,11 +7,11 @@ Systematic errors can be corrected by deriving the magnitude of the error and su
 
 Given a measurement $t$ for a [[true value]] $T$, the systematic error $\delta$ and its correction $\hat{\delta}$ can be written as
 $$t=T-\delta+\hat{\delta}$$
-$\delta$ is the mean of the error and it has a [[variance]] $\sigma ^{2}_{\delta}$.
+$\delta$ is the mean of the error and it has a [[Variance]] $\sigma ^{2}_{\delta}$.
 ### Effect on multiple measurements
 Consider two different measurements $t_{1}$ and $t_{2}$ of the true values $T_{1}$ and $T_{2}$, both affected by [[random error|random errors]] $u_{1}$ and $u_{2}$, and corrected systematic error $a=-\delta+\hat{\delta}$, with variances $\sigma ^{2}_{u}$ and $\sigma ^{2}_{\delta}$, like
 $$t_{1}=T_{1}+u_{1}+a,\qquad t_{2}=T_{2}+u_{2}+a$$
-Let's find their [[covariance]]:
+Let's find their [[Covariance]]:
 $$\text{cov}(t_{1},t_{2})=E[t_{1}t_{2}]-\underbrace{ E[t_{1}] }_{ T_{1} }\underbrace{ E[t_{2}] }_{ T_{2} }=\sigma ^{2}_{\delta}$$
 since
 $$E[t_{1}t_{2}]=E[(T_{1}+u_{1}+a)(T_{2}+u_{2}+a)]=$$

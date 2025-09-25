@@ -9,9 +9,9 @@ where $\Gamma$ is the [[Gamma function]].
 
 It is a very general distribution that has applications in many fields, such as modeling wait times in queue theory. Specific cases of this distribution are themselves well-known: for $\alpha=k$ and $\beta=1$, we find the [[Erlang distribution]], for $\alpha=k/2$ and $\beta=2$ we get the [[chi-square distribution]], and for $\alpha=1$ and $\beta=\tau$ we get the [[exponential distribution]].
 ### Moments
-The [[expected value]] is
+The [[Expected value]] is
 $$E[X]=\alpha \beta$$
-and the [[variance]] is
+and the [[Variance]] is
 $$\text{var}(X)=\alpha \beta ^{2}$$
 ### Properties
 It is [[Normalization|normalized]] with a constant of $c=1$.

@@ -12,26 +12,24 @@ $$\mu_{n}=\sum_{i=1}^{\infty} (x_{i}-c)^{n}f(x_{i}),\qquad \mu_{n}=\int_{-\infty
 
 Moments are interesting values because the (infinite) set of all moments for a function $f$ completely determines $f$ and are thus an alternative way of working with the function.
 ### For random variables
-Moments are particularly useful to calculate for [[random variable|random variables]] in order to gain information on the distribution they follow. In this context, the moments gain specific interpretations.
+Moments are particularly useful in the context of [[random variable|random variables]] since they give information on the distribution they follow. In this context, the moments gain specific interpretations.
 
-Consider a random variable $X$ (here continuous; discrete just uses [[Serie|series]] instead of integrals). The moments about zero take the name of **algebraic** or **raw moments** of order $k$ and are defined as
-$$\mu^{*}_{k}=E[X^{k}]=\int_{\Omega}x^{k}f_{X}(x)\ dx$$
-where $E$ is the [[expected value]] operator and $f_{X}(x)$ is the [[probability density function]]. The first few moments are:
+Consider a random variable $X$ (assumed continuous; for a discrete one, just change [[integral|integrals]] into [[Serie|series]]). The moments about zero take the name of **algebraic** or **raw moments** of order $k$ and are defined as
+$$\mu^{*}_{k}=\text{E}[X^{k}]=\int_{\Omega}x^{k}f_{X}(x)\ dx$$
+where $\text{E}$ is the [[expected value]] operator and $f_{X}(x)$ is the [[probability density function]]. The first couple of moments are:
 0. $\mu^{*}_{0}=\int_{\Omega}f_{X}(x)\ dx$ is the [[Normalization|normalization condition]] for $f_{X}(x)$.
 1. $\mu^{*}_{1}=\int_{\Omega}xf_{X}(x)\ dx=\mu_{X}$ is the [[mean]] of $X$, an index of position.
-2. ...
 
-Orders 2 and up don't have an immediate interpretation and are therefore mostly unused.
+Orders 2 and up don't have a clear interpretation and are therefore mostly unused.
 
 The **central moments** of order $k$ are instead defined as the moments about the expectation of $X$, $\mu_{X}$:
 $$\mu_{k}=E[(X-\mu_{X})^{k}]=\int_{\Omega}(x-\mu_{X})^{k}f_{X}(x)\ dx$$
 The first few moments are
 0. $\mu_{0}=\int_{\Omega}f_{X}(x)\ dx=\mu^{*}_{0}$ is again the normalization condition for $f_{X}(x)$.
 1. $\mu_{1}=\int_{\Omega}(x-\mu_{X})f_{X}(x)\ dx$ is expectation of $x-\mu_{X}$.
-2. $\mu_{2}=\int_{\Omega}(x-\mu_{X})^{2}f_{X}(x)\ dx=\sigma ^{2}$ is the [[variance]] of $X$, an index of [[dispersion]].
+2. $\mu_{2}=\int_{\Omega}(x-\mu_{X})^{2}f_{X}(x)\ dx=\sigma ^{2}$ is the [[Variance]] of $X$, an index of [[dispersion]].
 3. $\mu_{3}=\int_{\Omega}(x-\mu_{X})^{3}f_{X}(x)\ dx$ is an index of asymmetry.
 4. $\mu_{4}=\int_{\Omega}(x-\mu_{X})^{4}f_{X}(x)\ dx$ is an index of "tailedness".
-5. ...
 
 Orders 5 and up don't have an easy interpretation. For orders 3 and up, we define **coefficients** or **standardized moments**, which are divided by the variance and thus scale-independent. The **asymmetry coefficient** $\gamma_{1}$ is called [[skewness]] and, just like $\mu_{3}$, it represents how asymmetrical $f_{X}(x)$ is:
 $$\gamma_{1}=\frac{\mu_{3}}{\mu_{2}^{3/2}}=\frac{\mu_{3}}{\sigma_{X}^{3}}$$

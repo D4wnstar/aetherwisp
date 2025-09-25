@@ -1,7 +1,7 @@
 ---
 wiki-publish: true
 ---
-The **variance** $\sigma ^{2}$ of a [[random variable]] $X$ is a measure of its [[dispersion]]. It is defined as the [[expected value]] of the square of the deviation from the [[mean]] $E[X]=\mu$:
+The **variance** $\sigma ^{2}$ of a [[random variable]] $X$ is a measure of its [[dispersion]]. It is defined as the [[Expected value]] of the square of the deviation from the [[mean]] $E[X]=\mu$:
 $$\text{var}(X)\equiv\sigma ^{2}_{X}=E[(X-\mu)^{2}]$$
 The variance can also be expressed as
 $$\begin{align}
@@ -10,7 +10,7 @@ $$\begin{align}
 &=E[X^{2}]-2E[X]E[X]+E[X]^{2} \\
 &=E[X^{2}]-E[X]^{2}
 \end{align}$$
-Or as the [[covariance]] of a variable with itself
+Or as the [[Covariance]] of a variable with itself
 $$\text{var}(X)=\text{cov}(X,X)$$
 The primary draw of variance as a measure of dispersion is that it is mathematically convenient to use in calculations and to derive results with. For instance, [[Chebyshev's inequality]] forces constraints onto what values the variable can take depending on its variance.
 ### Discrete random variable

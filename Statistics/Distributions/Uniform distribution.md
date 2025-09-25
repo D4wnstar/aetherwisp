@@ -12,9 +12,9 @@ It is often used as a placeholder distribution when lacking information. For ins
 The algebraic and central [[moment-generating function|moment-generating function]] are
 $$M^{*}_{X}(t)=\frac{1}{t(b-a)}(e^{bt}-e^{at}),\qquad M_{X}(t)=\frac{1}{t(b-a)}(e^{(b-a)t/2}-e^{-(b-a)t/2})$$
 
-The [[expected value]] is
+The [[Expected value]] is
 $$E[X]=\int_{a}^{b}xc\ dx=\frac{a+b}{2}$$
-and the [[variance]] is
+and the [[Variance]] is
 $$\text{var}(X)=\int_{a}^{b}x^{2}c\ dx-E[X]^{2}=\frac{(b-a)^{2}}{12}$$
 
 The [[Function moments|moments]] are
@@ -23,7 +23,7 @@ The [[Function moments|moments]] are
 
 0. $\mu_{0}=1$
 1. $\mu_{1}=0$
-2. $\mu_{2}=\frac{(b-a)^{2}}{12}$ ([[variance]])
+2. $\mu_{2}=\frac{(b-a)^{2}}{12}$ ([[Variance]])
 3. $\mu_{3}=0$
 4. $\mu_{4}=\frac{(b-a)^{4}}{80}$
 

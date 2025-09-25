@@ -1,7 +1,7 @@
 ---
 wiki-publish: true
 ---
-A **random variable** is a physical quantity whose value cannot be known before measurement due to a dependency on random events. What can be known is the [[probability distribution]] that the variable follows, which gives us no information on what the value *is*, but does gives us information on what the value *is likely to be*.
+A **random variable** is a quantity whose value cannot be known before measurement due to a dependency on random events. What can be known is the [[probability distribution]] that the variable follows, which gives us no information on what the value *is*, but does gives us information on what the value *is likely to be*.
 
 Generally speaking, it is assumed that a random variable is associated with a "true value", that is, the actual, errorless physical quantity that an object or phenomenon possesses and that we then take measurements of. Our measurements are realizations of the random variable associated with the true value, with an error being introduced by our measurement process. It is also possible that no true value even exists and that a quantity is fundamentally statistical even on a physical level. This is paramount in quantum physics, where systems are described by intrinsically probabilistic [[Funzione d'onda|wave functions]], but it may also be something as simple as a die roll.
 
@@ -11,7 +11,7 @@ Random variables are typically written with a capital letter like $X$, whereas s
 ### Discrete random variables
 A discrete random variable $X$ in defined over a discrete sample space $\Omega=\{ x_{1},\ldots,x_{n} \}$ where $n$ may be either finite or infinite. The [[probability]] that $X$ assumes the specific value $x_{i}$ is
 $$P_{x_{i}}=P(X=x_{i})\quad\text{for }i\in \{ 1,\ldots,n \}$$
-The set of all values of $P$ constitutes the probability distribution $\{ P_{X} \}$ associated with $X$ and the function that maps outcomes to these probabilities is called the [[probability mass function]]. The [[expected value]] $E\equiv \mu$ and [[variance]] $\text{var}\equiv\sigma ^{2}$ are defined as
+The set of all values of $P$ constitutes the probability distribution $\{ P_{X} \}$ associated with $X$ and the function that maps outcomes to these probabilities is called the [[probability mass function]]. The [[Expected value]] $E\equiv \mu$ and [[Variance]] $\text{var}\equiv\sigma ^{2}$ are defined as
 $$E[X]\equiv\mu_{X}=\sum_{i=1}^{n} P_{i},\quad\text{var}(X)\equiv \sigma ^{2}_{X}=E[(x-\mu_{X})^{2}]=\sum_{i=1}^{n} (x_{i}-\mu_{x})^{2}P_{i}$$
 Common discrete probability distributions are the [[binomial distribution]] and the [[Poisson distribution]]. 
 ### Continuous random variables

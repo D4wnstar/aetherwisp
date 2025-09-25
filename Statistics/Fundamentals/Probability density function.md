@@ -1,7 +1,7 @@
 ---
 wiki-publish: true
 ---
-A **probability density function** (**PDF**) is a function associated with a continuous [[random variable]] that gives the [[probability]] that the variable, when measured, falls between a certain range of values. The function is strongly linked to the [[probability distribution]] that the variable follows, and is in fact the primary means of defining the distribution in the first place.
+A **probability density function** (**PDF**) is a function associated with a continuous [[random variable]] that gives the [[probability]] that the variable, when measured, falls between a certain range of values. The PDF describes the [[probability distribution]] that the variable follows, though some care should be taken when interpreting individual values of the PDF.
 
 Formally, for a random variable $X$, its probability density function $f_{X}(x)$ is a non-negative [[Integrale secondo Lebesgue|Lebesgue-integrable]] function such that the probability of $X$ falling in the range $[a,b]$ is
 $$P[a\leq x\leq b]=\int_{a}^{b}f_{X}(x)dx$$

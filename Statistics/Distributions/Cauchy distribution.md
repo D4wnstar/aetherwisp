@@ -13,9 +13,9 @@ plot(f(x), [-5,5], [0,0.5])==?
 
 The shape is similar to that of the [[Gaussian distribution]], but the Cauchy distribution is considerably less well-behaved.
 ### Moments
-The [[expected value]] is
+The [[Expected value]] is
 $$E[X]=\int_{-\infty}^{\infty} \frac{1}{\pi} \frac{x}{1+x^{2}} \ dx =\frac{1}{\pi} \frac{1}{2}\ln(1+x^{2})|_{\infty}^{\infty}=\text{undefined}$$
-which means that the Cauchy distribution has no expected value. The [[variance]] instead is
+which means that the Cauchy distribution has no expected value. The [[Variance]] instead is
 $$\text{var}(X)=\int_{-\infty}^{\infty} \frac{1}{\pi} \frac{x^{2}}{1+x^{2}} \ dx \to \infty$$
 which tends to infinity (this is somewhat improper notation, formally the bounds of the integral should be some value $a$ and this expression becomes true in the limit $a\to \infty$). Notably, the lack of a well-defined expectation and variance imply that [[Chebyshev's inequality]] does not hold and neither does the [[central limit theorem]].
 ### Sum of variables

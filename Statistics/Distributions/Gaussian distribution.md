@@ -6,7 +6,7 @@ aliases:
 ---
 The **Gaussian distribution** or **normal distribution** is a real univariate continuous [[probability distribution]]. For a [[random variable]] $X$, the [[probability density function]] is
 $$N(x;\mu,\sigma ^{2})=\frac{1}{\sqrt{ 2\pi \sigma^{2} }}e^{- \frac{(x-\mu)^{2}}{2\sigma ^{2}}}$$
-where $\mu$ is the [[expected value]] e $\sigma ^{2}$ is the [[variance]].
+where $\mu$ is the [[Expected value]] e $\sigma ^{2}$ is the [[Variance]].
 
 ```mathpad
 %$2:=abs(sigma)^(-1)*e^((-1/2)*(-mu+x)^2*sigma^(-2))*sqrt(2)^(-1)*sqrt(pi)^(-1)
@@ -38,7 +38,7 @@ Generally, the [[Function moments|moments]] are
 
 0. $\mu_{0}=1$
 1. $\mu_{1}=0$
-2. $\mu_{2}=\sigma ^{2}$ ([[variance]])
+2. $\mu_{2}=\sigma ^{2}$ ([[Variance]])
 3. $\mu_{3}=0$
 4. $\mu_{4}=3\sigma^{4}$
 
@@ -52,7 +52,7 @@ A sum of [[independent variables]] $X_{i}$ that are normally distributed is itse
 $$Y=\sum_{i=1}^{n} X_{i}$$
 and its MGF is the sum of all the MGF over $x$:
 $$M_{Y}^{*}(t)=\prod_{i=1}^{n}M_{X}^{*}(t)$$
-Let's consider a set of normal variables $\{X_{i}\}_{i}$ that are all normally distributed with mean $\mu$ and [[variance]] $\sigma ^{2}$. As the number of variables $n$ goes to infinity, the sum distribution goes like
+Let's consider a set of normal variables $\{X_{i}\}_{i}$ that are all normally distributed with mean $\mu$ and [[Variance]] $\sigma ^{2}$. As the number of variables $n$ goes to infinity, the sum distribution goes like
 $$N\left( \mu, \frac{\sigma ^{2}}{n} \right)$$
 so the deviation tends to go to zero. Now let's consider the variable
 $$z=\frac{\bar{x}-\mu}{\frac{\sigma}{\sqrt{ n }}}$$

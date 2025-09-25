@@ -21,7 +21,7 @@ But we want $E$ to be stationary, in which case $\delta E=0$ always. Thus, the l
 
 For example, consider the [[Equazione di Schrödinger|Schrödinger equation]] $H\psi_{n}=E_{n}\psi_{n}$, indexed by a [[Numero quantico|quantum number]] $n\geq0$. The ground state is $n=0$ with $E_{0}$. We now consider a generic function $\phi$. This can be expressed in [[Serie di Fourier|Fourier series]] in the $\{ \psi_{n} \}_{n}$ [[Sistema ortonormale completo|basis]] as
 $$\phi=\sum_{n}a_{n}\psi_{n}$$
-The [[expected value]] of $E(\phi)$ for this function is
+The [[Expected value]] of $E(\phi)$ for this function is
 $$E[\phi]=\frac{\sum_{n}\lvert a_{n} \rvert ^{2}E_{n}}{\sum_{n}\lvert a_{n} \rvert ^{2}}=E_{0}+ \frac{\sum_{n}\lvert a_{n} \rvert ^{2}(E_{n}-E_{0})}{\sum_{n}\lvert a_{n} \rvert ^{2}}\geq E_{0}$$
 We hit on a lower bound. In fact, while this doesn't give us a solution, it does gives a bound to restrict what $E[\phi]$ can be:
 $$\boxed{E[\phi]=\frac{\braket{ \phi | H|\phi }}{\braket{ \phi | \phi } }\geq E_{0}}$$

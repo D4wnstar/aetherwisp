@@ -4,7 +4,7 @@ wiki-publish: true
 The **Poisson distribution** is a real discrete [[probability distribution]] is the limit of the [[binomial distribution]] where $n\to \infty$ but the number of successes remains constant (that is, $np\to \nu$). It describes rare events: events which have a very low [[probability]] of occurring even over many trials. It has a single parameter $\nu \in[0,1]$. For a [[random variable]] $K$, the [[probability mass function]] is
 $$P_{k}=P(k;\nu)=\frac{\nu^{k}e^{-\nu}}{k!}$$
 
-The Poisson distribution is commonly used for event counting. Suppose there are on average $\nu$ independent events per unit time, and thus $\nu\Delta t$ total events in the time interval $\Delta t$. The random variable $K$ is the number of events in $\Delta t$, following the Poisson distribution. To prove this, divide the interval in $n$ sufficiently small, evenly-spaced steps $\delta t=\Delta t/n$ such that the probability of two or more events occurring is zero. Each one of the $n$ intervals has either zero or one event happen in it and the probability of having one event is given by the binomial distribution $p=\nu \delta t$, with [[expected value]] $E[K]=\nu \Delta t$. If we add infinitely many intervals ($n\to \infty$) and send the probability of an event in each to zero ($p\to0$) to keep their product constant, we get the Poisson distribution.
+The Poisson distribution is commonly used for event counting. Suppose there are on average $\nu$ independent events per unit time, and thus $\nu\Delta t$ total events in the time interval $\Delta t$. The random variable $K$ is the number of events in $\Delta t$, following the Poisson distribution. To prove this, divide the interval in $n$ sufficiently small, evenly-spaced steps $\delta t=\Delta t/n$ such that the probability of two or more events occurring is zero. Each one of the $n$ intervals has either zero or one event happen in it and the probability of having one event is given by the binomial distribution $p=\nu \delta t$, with [[Expected value]] $E[K]=\nu \Delta t$. If we add infinitely many intervals ($n\to \infty$) and send the probability of an event in each to zero ($p\to0$) to keep their product constant, we get the Poisson distribution.
 ### Moments
 The algebraic [[moment-generating function]] is
 $$M_{K}^{*}(k)=\sum_{k=1}^{n} e^{tk} \frac{\nu^{k}e^{-\nu}}{k!}=e^{-\nu}\sum_{k=0}^{n} \frac{1}{k!}(\nu e^{t})^{k}=e^{-\nu}e^{\nu e^{t}}=e^{-\nu(1-e^{t})}$$
@@ -17,7 +17,7 @@ The [[Function moments|moments]] are
 
 0. $\mu_{0}=1$
 1. $\mu_{1}=0$
-2. $\mu_{2}=\nu$ ([[variance]])
+2. $\mu_{2}=\nu$ ([[Variance]])
 3. $\mu_{3}=\nu$
 4. $\mu_{4}=3\nu ^{2}+\nu$
 
