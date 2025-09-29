@@ -21,4 +21,4 @@ which tends to infinity (this is somewhat improper notation, formally the bounds
 ### Sum of variables
 It can be proven that the sum of Cauchy-distributed [[iid]] variables is itself a Cauchy distribution.
 ### Relation to other distributions
-The ratio $Y=\frac{X_{1}}{X_{2}}$ of two [[Gaussian distribution|standard-normally-distributed]] iid variables $X_{1},X_{2}\sim N(0,1)$ is a Cauchy distribution.
+The ratio $Y=\frac{X_{1}}{X_{2}}$ of two [[Gaussian distribution|standard-normally-distributed]] iid variables $X_{1},X_{2}\sim N(0,1)$ is a Cauchy distribution. A [[Student's t distribution]] with one [[Degrees of freedom|degree of freedom]] is a Cauchy distribution.

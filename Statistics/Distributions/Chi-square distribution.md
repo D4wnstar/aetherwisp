@@ -3,7 +3,7 @@ wiki-publish: true
 ---
 The **chi-square distribution** or **$\chi ^{2}$ distribution** is a real, continuous [[probability distribution]]. For a [[random variable]] $X$, the [[probability density function]] is
 $$f_{X}(x;k)=\frac{1}{2^{k/2}\Gamma\left( \frac{k}{2} \right)}x^{k/2 -1}e^{-x/2}$$
-where $k$ is a positive parameter called the *degrees of freedom* of the distribution and $\Gamma$ is the [[Gamma function]]. Though not strictly necessary by definition, $k$ is usually taken to be integer, as $\Gamma$ has closed form solutions for integer $k$.
+where $k$ is a positive parameter called the [[degrees of freedom]] of the distribution and $\Gamma$ is the [[gamma function]]. Though not strictly necessary by definition, $k$ is usually taken to be integer for physical reasons. Moreover, $\Gamma$ has closed form solutions for integer or half-integer $k$.
 
 ![[Chi-square_pdf.svg]]
 
@@ -40,7 +40,7 @@ and the coefficients are
 ### As sum of normal variables
 Given a set of normally-distributed variables $\{ X_{i} \}_{i}$, the sum of their squares $Y=\sum_{i=1}^{N}X_{i}^{2}$ is chi-square-distributed with a number of degrees of freedom equal to the number of normal variables being summed, $k=N$. This is the primary reason why this distribution is so common and often given as its definition.
 ### Relation to other distributions
-It is a specific case of the [[Gamma distribution]] with $\alpha=k/2$ and $\beta=2$. If $k\gg 1$, the distribution approximately becomes a [[Gaussian distribution]] $N(k,2k)$.
+It is a specific case of the [[gamma distribution]] with $\alpha=k/2$ and $\beta=2$. If $k\gg 1$, the distribution approximately becomes a [[Gaussian distribution]] $N(k,2k)$.
 ### In molecular velocity analysis
 The chi-square distribution can be used to derive a statistical description of the motion of molecules in a gas. Consider a gas of identical molecules each with velocity $\mathbf{v}=(v_{1},v_{2},v_{3})\in \mathbb{R}^{3}$. Each component of each $\mathbf{v}$ is considered a normally-distributed random variable with parameters $N(0,\sigma ^{2})$. We can define the scale-independent variable $\mathbf{q}$ as $\mathbf{q}=\mathbf{v}/\sigma=(q_{1},q_{2},q_{3})$, the components of which are also normally distributed but following the standard normal $N(0,1)$ instead. The square [[Norma|norm]] of $\mathbf{q}$, $\lvert \mathbf{q} \rvert^{2}\equiv q^{2}=q_{1}^{2}+q_{2}^{2}+q_{3}^{2}$ is therefore chi-squared-distributed with 3 degrees of freedom: $\chi ^{2}_{3}$. The probability density function for $q^{2}$ thus is
 $$f(q^{2})=\frac{1}{\sqrt{ 2\pi }}(q^{2})^{1/2}e^{-q^{2}/2}$$
