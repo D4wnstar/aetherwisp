@@ -3,7 +3,7 @@ wiki-publish: true
 ---
 The **minimum squares method** is a [[parameter estimation]] method. It assumes that the outputs $y$ are related to the inputs $x$ according to a function $y=f(x;\mathbf{p})$ for some set parameters $\mathbf{p}$. The method returns an [[estimator]] of $\mathbf{p}$. It is commonly employed in [[linear regression]], where $\mathbf{p}=(m,q)$ are the linear parameters of $y=mx+q$.
 
-Given a set of samples $\{ x_{1},\ldots,x_{N} \}$ and related values $\{ y_{1},\ldots,y_{N} \}$, we call
+Given a set of $N$ samples $\{ x_{1},\ldots,x_{N} \}$ and related values $\{ y_{1},\ldots,y_{N} \}$, we call
 $$\chi ^{2}=\sum_{i=1}^{N} \left[ \frac{y_{i}-f(x_{i};\mathbf{p})}{\sigma} \right]^{2}$$
 where $\sigma$ is the [[standard deviation]] of the output sample set $\{ y_{1},\ldots,y_{N} \}$. This is the deviation of the assumed function $f(x_{i};\mathbf{p})$ from the measured values $y_{i}$ for the $i$-th pair $(x_{i},y_{i})$, normalized by the deviation, squared and then summed over all pairs. The idea of the method is to minimize the variation of this quantity with respect to all the parameters $\mathbf{p}=(p_{1},\ldots,p_{M})$, meaning
 $$\boxed{\frac{ \partial \chi ^{2} }{ \partial p_{i} } =0\quad\forall\ p_{i}}$$

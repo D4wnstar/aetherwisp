@@ -1,13 +1,18 @@
 ---
 wiki-publish: true
+aliases:
+  - random vector
+  - random matrix
 ---
 A **random variable** is a quantity whose value cannot be known before measurement due to a dependency on random events. What can be known is the [[probability distribution]] that the variable follows, which gives us no information on what the value *is*, but does gives us information on what the value *is likely to be*.
 
-Generally speaking, it is assumed that a random variable is associated with a "true value", that is, the actual, errorless physical quantity that an object or phenomenon possesses and that we then take measurements of. Our measurements are realizations of the random variable associated with the true value, with an error being introduced by our measurement process. It is also possible that no true value even exists and that a quantity is fundamentally statistical even on a physical level. This is paramount in quantum physics, where systems are described by intrinsically probabilistic [[Funzione d'onda|wave functions]], but it may also be something as simple as a die roll.
+Generally speaking, it is assumed that a random variable is associated with a "[[true value]]", that is, the actual, errorless physical quantity that an object or phenomenon possesses and that we then take measurements of. Our measurements are realizations of the random variable associated with the true value, with an error being introduced by our measurement process. It is also possible that no true value even exists and that a quantity is fundamentally statistical even on a physical level. This is paramount in quantum physics, where systems are described by intrinsically probabilistic [[Funzione d'onda|wave functions]], but it may also be something as simple as a die roll.
 
 More formally, a random variable is a function $X:\Omega\to E$ whose domain (called the [[sample space]] $\Omega$) may be either discrete or continuous and includes all possible values that the variable can take, and its image is a [[measure|measurable]] set of numbers $E$. For instance, a coin flip may be describe as the random variable $\text{Coin}:\Omega\equiv\{\text{Head},\text{Tails}\}\to\{1,-1\}$.
 
 Random variables are typically written with a capital letter like $X$, whereas specific values that the variable can take a written in lowercase like $x$.
+
+A [[Vector space|vector]] whose components are random variables is called a **random vector**. A [[matrix]] whose entries are random variables is called a **random matrix**.
 ### Discrete random variables
 A discrete random variable $X$ in defined over a discrete sample space $\Omega=\{ x_{1},\ldots,x_{n} \}$ where $n$ may be either finite or infinite. The [[probability]] that $X$ assumes the specific value $x_{i}$ is
 $$P_{x_{i}}=P(X=x_{i})\quad\text{for }i\in \{ 1,\ldots,n \}$$

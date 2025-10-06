@@ -1,9 +1,9 @@
 ---
 wiki-publish: true
 ---
-The **expected value** or **expectation** $\text{E}[X]$ of a [[random variable]] $X$ is a generalization of a weighted average over all possible values the variable can take. It is what the word "[[mean]]" typically refers to in the context of statistics, though there's many other possible meanings. It is the first raw [[Function moments|moment]] of the [[probability distribution]].
+The **expected value** or **expectation** $\text{E}[X]$ of a [[random variable]] $X$ is a generalization of a weighted average over all possible values the variable can take. It is what the word "[[mean]]" typically refers to in the context of statistics, though there's many other possible meanings. It is the first raw [[Function moments|moment]] of the [[probability distribution]]. The name "expectation" refers to both the value $\text{E}[X]$ itself and the [[operatore|operator]] $\text{E}$ that is applied onto $X$.
 
-The name can be misleading: the expected value is not the most likely value (that would be the [[mode]]). It is strictly theoretical and may not even be an allowed value of the random variable: for instance, the expected value of a fair six-sided die is 3.5, which is not on the die. The name "expectation" refers to both the value $\text{E}[X]$ itself and the [[operatore|operator]] $\text{E}$ that is applied onto $X$.
+The name can be misleading: the expected value is not the most likely value (that would be the [[mode]]). It is strictly theoretical and may not even be an allowed value of the random variable: for instance, the expected value of a fair six-sided die is 3.5, which is not even on the die.
 
 The definition differs between discrete and continuous variables, and also between countable and uncountable outcomes.
 ### Discrete variable with finite outcomes
@@ -21,9 +21,16 @@ Similarly to the series above, integrals may diverge, in which case the variable
 ### Properties
 The expectation has some useful properties:
 - If $X>0$ then $\text{E}[X]>0$.
-- Linearity: $\text{E}[aX+bY]=a\text{E}[X]+b\text{E}[Y]$, where $a$ and $b$ are constants.
-- Monotonicity: If $X\leq Y$, then $\text{E}[X]\leq \text{E}[Y]$.
+- It is [[Operatore lineare|linear]]: $\text{E}[aX+bY]=a\text{E}[X]+b\text{E}[Y]$, where $a$ and $b$ are constants. This follows from the linearity of a [[series]] or [[integral]].
+- It is monotonous: If $X\leq Y$, then $\text{E}[X]\leq \text{E}[Y]$.
 - If $X=Y$, then $\text{E}[X]=\text{E}[Y]$.
 - If $\text{E}[\lvert X \rvert]=0$ then $X=0$.
 - If $X=c$ for a constant $c$, then $\text{E}[X]=c$. As a consequence, since the expectation is a constant, the expectation operator is [[idempotence|idempotent]]: $\text{E}[\text{E}[X]]=\text{E}[X]$.
-- $\text{E}[XY]\neq \text{E}[X]\text{E}[Y]$ in general. It is only guaranteed to be equal if $X$ and $Y$ are [[independent variables]], though it may also be true if they are dependent.
+- $\text{E}[XY]\neq \text{E}[X]\text{E}[Y]$ in general. It is guaranteed to be equal if $X$ and $Y$ are [[independent variables]], but could theoretically be true even if they are dependent.
+
+### Expected value vector
+When dealing with a [[Random variable|random vector]] $\mathbf{X}=(X_{1},\ldots,X_{N})$, the **expected value vector** or **mean vector** is the vector of expected values:
+$$\text{E}[\mathbf{X}]=(\text{E}[X_{1}],\ldots,\text{E}[X_{N}])$$
+In this case, the linearity properties looks like
+$$\text{E}[\mathrm{A}\mathbf{X}+\mathbf{b}]=\mathrm{A}\text{E}[\mathbf{X}]+\mathbf{b}$$
+where $\mathrm{A}$ is an $N\times N$ [[matrix]] and $\mathbf{b}$ is an $N$-dimensional vector.

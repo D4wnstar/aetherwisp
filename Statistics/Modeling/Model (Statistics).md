@@ -1,0 +1,18 @@
+---
+wiki-publish: true
+---
+A **model**, in the context of statistics, is a mathematical description of how the quantities that we observe may have been generated. It is a collection of parameters that can be used to gain insight on the originating process and may be used to make predictions on how the process might behave in the future.
+
+Formally, a statistical model is a set of parameters $\boldsymbol{\theta}$ alongside a prediction function that takes $\boldsymbol{\theta}$ as its parameters. The model is derived from observed data, collected in [[Random variable|random vector]] $\mathbf{x}$. The prediction function implicitly defines the [[probability distribution]] of $\mathbf{x}$, or rather, the distribution that the model predicts. This distribution could be right (quite similar to the real, natural distribution that $\mathbf{x}$ follows) or wrong (different). The model may also depend on additional data $\mathbf{y}$ that is assumed to be *known* (as opposed to $\mathbf{x}$, which *unknown*). It may also rely on some *known* parameters $\gamma$ (as opposed to $\boldsymbol{\theta}$, which are *unknown*). These are collectively called **covariates** or **predictor variables**.
+### Introduction to statistical modeling
+Statistics is essentially the science of extracting information from data, and more specifically on the process that generated that data. This is a path fraught with many difficulties; the two most fundamentals ones are
+1. the data may not be clear and it might be very difficult to interpret what it means;
+2. the data is [[random]] and repeat observations will produce different results.
+
+The purpose of statistical modeling is overcome these challenges by using sensible techniques to draw *generally valid* conclusion from a single [[sample]]. Statisticians do this by creating **models**, mathematical descriptions that contain information on how the production process of the data works.  The models can be subsequently used to make **inference**, that is, to use what we know to predict how the process might work in the future and possibly in different conditions than what we originally observed. This last part is key: statistics tries to *generalize*. It takes a narrow sample and tries to understand how the process works outside of this sample. The quality of a model is, to oversimplify, determined by how capable it is at generalizing beyond its original sample. A model that provides great results within its original sample but works poorly outside of it is of little value to statistics[^1].
+
+Modeling is done by pretty much every science: when a physicist studies the behavior of a [[superconductor]], they are doing so to create an empirical model of the superconductor in order to make predictions on why they exist (the "production process") and how they might work in general (the "inference"). This model can then guide the path to a *theory* of superconductors.
+### Simulations
+Simulation is the practice of creating samples from a model. These samples should, if the model is good, be indistinguishable from a sample of the real data. As such, simulating samples and then comparing them to the real sample is an excellent way of testing a model's validity. With the rise of computers and programming, simulations has become an essential part of statistics. A simulation requires a set of parameters to complete the model; these determined through a [[parameter estimation]] method.
+
+[^1]: In [[machine learning]], however, this is not necessarily the case. A machine learning [[model]], the sibling concept of the statistical model, can be extremely useful even if it can't generalize. However, generalization is still very important even in ML.
