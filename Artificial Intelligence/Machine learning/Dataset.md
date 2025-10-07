@@ -36,5 +36,11 @@ Here $N$ is the number of independent variables $x_{1},\ldots,x_{N}$ and $M$ is 
 ### Unsupervised learning
 In [[unsupervised machine learning]], the dataset is just a bag of inputs:
 $$D_\text{unsuper}\equiv \{ \mathbf{x}^{i} \}_{i=1,\ldots,N}$$
+### Balancing
+The distribution of the data inside the dataset is important in [[classification]]. A dataset is said to be **balanced** with respect to the response variable if the frequency of each category in the dataset is roughly the same. In [[binary classification]] specifically, this means that the dataset about half positive and half negative cases. This means that $\text{P}\simeq\text{N}$. We can make some considerations on the inherent accuracy of the dataset by expressing error rate through [[False Positive Rate|FPR]] and [[False Negative Rate|FNR]]:
+$$\text{Err}=\frac{\text{FP}+\text{FN}}{\text{N}+\text{P}}=\frac{\text{P}\cdot\text{FNR}+\text{N}\cdot\text{FPR}}{\text{N}+\text{P}}\simeq \frac{\text{N}(\text{FNR}+\text{FPR})}{\text{2N}}=\frac{1}{2}(\text{FNR}+\text{FPR})$$
+On a balanced dataset, the error rate is the average of FPR and FNR. The accuracy is
+$$\text{Acc}=1-\text{Err}\simeq\frac{1}{2}(\text{TNR}+\text{TPR})$$
+The more unbalanced the dataset is, the further the accuracy or error diverges from this mean, making the model progressively more *misleading* if the only metric that is provided is error or accuracy. This is why FPR and FNR should be provided alongside the accuracy.
 
 [^1]: Despite this, in practice the data is often processed in sequential order. This is more of a property of the learning technique than the dataset though.

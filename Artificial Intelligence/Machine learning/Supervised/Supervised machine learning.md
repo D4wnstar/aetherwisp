@@ -41,7 +41,7 @@ Supervised learning techniques are a very broad topic and differ in many ways. S
 Because of the massive breadth of options, there exist conventional categories to organize specific kinds of techniques. These categories are defined on the basis of what kind of $X,Y$ and $M$ the techniques work with. Below are some types.
 
 With respect to $Y$:
-- If $Y$ is a finite set without intrinsic order, the technique is called **classification** and the model is a **[[Classifier]]**. The elements of $Y$ are called **categories** and $y\in Y$ is said to be a **categorical variable**. If there are only two possible categories ($\lvert Y \rvert=2$), then we have **[[binary classification]]**. If there are more, we have **[[multiclass classification]]**.
+- If $Y$ is a finite set without intrinsic order, the technique is called **classification** and the model is a **[[Classification]]**. The elements of $Y$ are called **categories** and $y\in Y$ is said to be a **categorical variable**. If there are only two possible categories ($\lvert Y \rvert=2$), then we have **[[binary classification]]**. If there are more, we have **[[multiclass classification]]**.
 - If $Y$ is the set of real numbers $\mathbb{R}$ (or a subset), the technique is called **regression**. $y\in Y$ is said to be a **numerical variable**.
 
 With respect to $X$:

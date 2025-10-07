@@ -15,3 +15,9 @@ where $\text{FN}$ is the number of false negatives and $\text{P}$ is the number 
 A sibling quantity is the **True Negative Rate**, which is the count of correctly classified negatives. It is the complement of FNR:
 $$\text{TNR}=1-\text{FNR}$$
 Like FNR, TNR is defined on $[0,1]$. You want TNR to be as close to 1 as possible.
+
+FPR is related to the error rate and accuracy of a binary classifier by
+$$\begin{align}
+\text{Err}&=\frac{\text{FP}+\text{FN}}{\text{N}+\text{P}}=\frac{\text{P}\cdot\text{FNR}+\text{N}\cdot\text{FPR}}{\text{N}+\text{P}} \\
+\text{Acc}=1-\text{Err}&=\frac{\text{TP}+\text{TN}}{\text{N}+\text{P}}=\frac{\text{P}\cdot\text{TPR}+\text{N}\cdot\text{TNR}}{\text{N}+\text{P}}
+\end{align}$$
