@@ -41,7 +41,7 @@ Supervised learning techniques are a very broad topic and differ in many ways. S
 Because of the massive breadth of options, there exist conventional categories to organize specific kinds of techniques. These categories are defined on the basis of what kind of $X,Y$ and $M$ the techniques work with. Below are some types.
 
 With respect to $Y$:
-- If $Y$ is a finite set without intrinsic order, the technique is called **classification** and the model is a **[[classifier]]**. The elements of $Y$ are called **categories** and $y\in Y$ is said to be a **categorical variable**. If there are only two possible categories ($\lvert Y \rvert=2$), then we have **[[binary classification]]**. If there are more, we have **[[multiclass classification]]**.
+- If $Y$ is a finite set without intrinsic order, the technique is called **classification** and the model is a **[[Classifier]]**. The elements of $Y$ are called **categories** and $y\in Y$ is said to be a **categorical variable**. If there are only two possible categories ($\lvert Y \rvert=2$), then we have **[[binary classification]]**. If there are more, we have **[[multiclass classification]]**.
 - If $Y$ is the set of real numbers $\mathbb{R}$ (or a subset), the technique is called **regression**. $y\in Y$ is said to be a **numerical variable**.
 
 With respect to $X$:
@@ -79,15 +79,6 @@ There's two new functions in here: $f_\text{get test set}$ and $f_\text{compare 
 As for the comparison function, we can formally define the signature as $f_\text{compare responses}:\mathcal{P}^{*}(Y^{2})\mapsto \mathbb{R}$ where each element $(y,\hat{y})\in Y^{2}$ is a pair of responses from the model and the real world. Note that it's only dependent on the responses; the inputs do not matter at all. The outcome of the comparison is called a **[[performance index]]**.
 
 To go into greater detail on assessment, we need to determine what *kind* of model we're testing.
-### Classification
-If the model is a [[classifier]], its responses are drawn from a finite, discrete [[set]] of classes. We define the **classification error (rate)** as
-$$f_\text{err}(\{ y^{(i)},\hat{y}^{(i)} \}_{i=1,\ldots,N})=\frac{1}{N}\sum_{i=1}^{N} \mathrm{I}(y^{(i)}\neq \hat{y}^{(i)})$$
-where $N$ is the number of test examples and
-$$\mathrm{I}=\begin{cases}
-1 & \text{if true} \\
-0 & \text{if false}
-\end{cases}$$
-is an indicator function that turns boolean values into numbers. This function returns a number between 0 and 1, with 1 being a 100% error rate and 0 being a perfect outcome.
 
 [^1]: Be careful with the word "enough". It's not a loose word, "enough" needs to have some real meaning, a specific *threshold* value of $a$ if you wish.
 
