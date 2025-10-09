@@ -27,7 +27,6 @@ The expectation has some useful properties:
 - If $\text{E}[\lvert X \rvert]=0$ then $X=0$.
 - If $X=c$ for a constant $c$, then $\text{E}[X]=c$. As a consequence, since the expectation is a constant, the expectation operator is [[idempotence|idempotent]]: $\text{E}[\text{E}[X]]=\text{E}[X]$.
 - $\text{E}[XY]\neq \text{E}[X]\text{E}[Y]$ in general. It is guaranteed to be equal if $X$ and $Y$ are [[independent variables]], but could theoretically be true even if they are dependent.
-
 ### Expected value vector
 When dealing with a [[Random variable|random vector]] $\mathbf{X}=(X_{1},\ldots,X_{N})$, the **expected value vector** or **mean vector** is the vector of expected values:
 $$\text{E}[\mathbf{X}]=(\text{E}[X_{1}],\ldots,\text{E}[X_{N}])$$

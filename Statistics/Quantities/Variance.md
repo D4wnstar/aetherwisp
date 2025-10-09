@@ -27,7 +27,7 @@ Given a continuous random variable $X$ with [[probability density function]] $f_
 $$\text{var}(X)=\int_{-\infty}^{+\infty}f_{X}(x)(x-\mu)^{2}\ dx$$
 or equivalently
 $$\text{var}(X)=\int_{-\infty}^{+\infty}x^{2}f_{X}(x)\ dx-\mu ^{2}$$
-### Theoretical and observed variance
+### Population and sample variance
 The term "variance" can refer to two different but closely related concept. When the analytic form of a [[probability distribution]] is known, it is possible to calculate that distribution's variance using the formulas above. This is the "true" measure of dispersion of that distribution. However, variance may also be calculated from a dataset built from empirical observations, by finding estimates of the distribution and of the mean. This type of observed variance can be further divided into two categories: if all possible observations of the system are present, it is known as the **population variance**, whereas if only a subset of measurements are available (a [[sample]]), it is known as the **sample variance**. Typically, the amount of measurements/trials that can be taken is infinite (there is no physical limit on how many times you can toss a coin, or a die, etc...), so only the sample variance can be found experimentally. In fact, the sample variance is essentially just an estimate of the population variance, which itself behaves as the theoretical (and unreachable) variance.
 
 When working with a set of $N$ samples $x_{1},\ldots,x_{N}$ of a random variable $X$, we can use the arithmetic [[mean]] as the expected value (the sample mean):

@@ -14,7 +14,7 @@ where $\text{FN}$ is the number of false negatives and $\text{P}$ is the number 
 
 A sibling quantity is the **True Negative Rate**, which is the count of correctly classified negatives. It is the complement of FNR:
 $$\text{TNR}=1-\text{FNR}$$
-Like FNR, TNR is defined on $[0,1]$. You want TNR to be as close to 1 as possible.
+Like FNR, TNR is defined on $[0,1]$. You want TNR to be as close to 1 as possible. TNR is also called **specificity**, because it measures how precisely the model can tell you what's wrong. This term is more common in diagnostic tests.
 
 FPR is related to the error rate and accuracy of a binary classifier by
 $$\begin{align}

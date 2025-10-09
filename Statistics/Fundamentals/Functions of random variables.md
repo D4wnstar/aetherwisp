@@ -32,7 +32,7 @@ $$\mu_{y}=\mu_{1}+\mu_{2},\qquad \sigma_{y}^{2}=\sigma_{1}^{2}+\sigma_{2}^{2}+2\
 #### Linear regression
 Consider the linear relationship $X=mZ+q$ and a set of $n$ empirical measurements $(z_{i},x_{i})$. $X$ is a univariate function of $Z$, so we can use the theory above for estimates. Let's call $\hat{m}$ and $\hat{q}$ estimates of $m$ and $q$ and $\sigma_{\hat{m}}^{2}$ and $\sigma ^{2}_{\hat{q}}$ their variances. $\text{cov}(\hat{m},\hat{q})=\rho \sigma_{\hat{m}}\sigma_{\hat{q}}$ is their covariance. The expected value and variance of $X$ are
 $$x^{*}=\hat{m}z^{*}+\hat{q},\qquad\sigma ^{2}_{x^{*}}=(z^{*})^{2}\sigma ^{2}_{\hat{m}}+\sigma ^{2}_{\hat{q}}+2z^{*}\rho \sigma_{\hat{m}}\sigma_{\hat{z}}$$
-Using the [[minimum squares method]] and introducing the sum
+Using the [[Minimum squares method]] and introducing the sum
 $$S_{jk}=\sum_{i=1}^{n} \frac{z_{i}^{j}x_{i}^{k}}{\sigma_{i}^{2}}$$
 the best estimates of $m$ and $q$ are
 $$\hat{m}=\frac{1}{D}(S_{00}S_{11}-S_{10}S_{01}),\qquad\hat{q}=\frac{1}{D}(S_{01}S_{20}-S_{11}S_{10})$$

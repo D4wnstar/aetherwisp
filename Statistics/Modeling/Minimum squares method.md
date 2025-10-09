@@ -1,7 +1,7 @@
 ---
 wiki-publish: true
 ---
-The **minimum squares method** is a [[parameter estimation]] method. It assumes that the outputs $y$ are related to the inputs $x$ according to a function $y=f(x;\mathbf{p})$ for some set parameters $\mathbf{p}$. The method returns an [[estimator]] of $\mathbf{p}$. It is commonly employed in [[linear regression]], where $\mathbf{p}=(m,q)$ are the linear parameters of $y=mx+q$.
+The **minimum squares method** is a [[Parameter estimation]] method. It assumes that the outputs $y$ are related to the inputs $x$ according to a function $y=f(x;\mathbf{p})$ for some set parameters $\mathbf{p}$. The method returns an [[Estimator]] of $\mathbf{p}$. It is commonly employed in [[Linear regression]], where $\mathbf{p}=(m,q)$ are the linear parameters of $y=mx+q$.
 
 Given a set of $N$ samples $\{ x_{1},\ldots,x_{N} \}$ and related values $\{ y_{1},\ldots,y_{N} \}$, we call
 $$\chi ^{2}=\sum_{i=1}^{N} \left[ \frac{y_{i}-f(x_{i};\mathbf{p})}{\sigma} \right]^{2}$$

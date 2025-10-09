@@ -4,7 +4,7 @@ aliases:
   - MLE
   - binned maximum likelihood
 ---
-**Maximum likelihood estimation** (**MLE**) is a [[parameter estimation]] method that uses the [[Likelihood]] function to determine the most accurate [[Estimator|point estimate]], specifically by finding the maximum of the likelihood.
+**Maximum likelihood estimation** (**MLE**) is a [[Parameter estimation]] method that uses the [[Likelihood]] function to determine the most accurate [[Estimator|point estimate]], specifically by finding the maximum of the likelihood.
 
 Given a likelihood function $\mathcal{L}(x_{1},\ldots,x_{n};\theta_{1},\ldots,\theta_{m})$ for a set of parameter $\theta_{1},\ldots,\theta_{m}$ and a [[sample]] $\{ x_{i} \}_{i\in \mathbb{N}}$, the most accurate point estimates $\theta_{1}^{*},\ldots,\theta_{m}^{*}$ are the values for which the following system of derivatives is verified:
 $$\left\{\begin{align}
@@ -24,7 +24,7 @@ $$\mathcal{L}(\theta)\simeq \mathcal{L}_\text{max}e^{- (\theta-\theta^{*})^{2}/\
 This can be used, for instance, for numerical maximization algorithms, as it is often not possible to find the analytical form of the likelihood. More generally, the $N$-dimensional expression can be shown to use the [[Covariance|covariance matrix]] $\mathrm{V}$:
 $$\mathcal{L}(\boldsymbol{\theta})\simeq \mathcal{L}_\text{max}e^{- \frac{1}{2}(\boldsymbol{\theta}-\boldsymbol{\theta}^{*})\mathrm{V}_{\theta^{*}}^{-1}(\boldsymbol{\theta}-\boldsymbol{\theta}^{*})}$$
 ### Linear regression with standard normal
-For [[linear regression]], MLE takes on a particular form. For the relation $y_{i}=mx_{i}+q$ with a sample set $\{ x_{i},y_{i} \}_{i\in \mathbb{N}}$, each following a [[Gaussian distribution|standard normal distribution]], the likelihood function is
+For [[Linear regression]], MLE takes on a particular form. For the relation $y_{i}=mx_{i}+q$ with a sample set $\{ x_{i},y_{i} \}_{i\in \mathbb{N}}$, each following a [[Gaussian distribution|standard normal distribution]], the likelihood function is
 $$\mathcal{L}(y_{1},\ldots,y_{n};m,q)=\left[ \prod_{i=1}^{n} \frac{1}{\sqrt{ 2\pi }\sigma_{i}} \right]e^{-\sum_{i=1}^{n} (y_{i}-mx_{i}-q)^{2}/2\sigma^{2}_{i}}$$
 Taking the logarithm we obtain
 $$\ln \mathcal{L}=\ln\left( \prod_{i=1}^{n} \frac{1}{\sqrt{ 2\pi }\sigma_{i}} \right)-\sum_{i=1}^{n} \frac{(y_{i}-mx_{i}-q)^{2}}{2\sigma^{2}_{i}}$$

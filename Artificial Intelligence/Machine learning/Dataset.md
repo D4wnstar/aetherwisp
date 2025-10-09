@@ -40,7 +40,11 @@ $$D_\text{unsuper}\equiv \{ \mathbf{x}^{i} \}_{i=1,\ldots,N}$$
 The distribution of the data inside the dataset is important in [[classification]]. A dataset is said to be **balanced** with respect to the response variable if the frequency of each category in the dataset is roughly the same. In [[binary classification]] specifically, this means that the dataset about half positive and half negative cases. This means that $\text{P}\simeq\text{N}$. We can make some considerations on the inherent accuracy of the dataset by expressing error rate through [[False Positive Rate|FPR]] and [[False Negative Rate|FNR]]:
 $$\text{Err}=\frac{\text{FP}+\text{FN}}{\text{N}+\text{P}}=\frac{\text{P}\cdot\text{FNR}+\text{N}\cdot\text{FPR}}{\text{N}+\text{P}}\simeq \frac{\text{N}(\text{FNR}+\text{FPR})}{\text{2N}}=\frac{1}{2}(\text{FNR}+\text{FPR})$$
 On a balanced dataset, the error rate is the average of FPR and FNR. The accuracy is
-$$\text{Acc}=1-\text{Err}\simeq\frac{1}{2}(\text{TNR}+\text{TPR})$$
+$$\text{Acc}=1-\text{Err}\simeq\frac{1}{2}(\text{TNR}+\text{TPR})\tag{1}$$
 The more unbalanced the dataset is, the further the accuracy or error diverges from this mean, making the model progressively more *misleading* if the only metric that is provided is error or accuracy. This is why FPR and FNR should be provided alongside the accuracy.
+
+In [[multiclass classification]], the definition of balancing gets more complicate. In general, in unbalanced dataset it's common to use **weighted accuracy** (or **balanced accuracy**). It is defined as
+$$\text{wAcc}=f_\text{wAcc}(\{ (y^{i},\hat{y}^{i}) \}_{i})=\frac{1}{\lvert Y \rvert }\sum_{y\in Y}\left( \frac{\sum_{i}\mathrm{I}(y^{i}=y\text{ and }y^{i}=\hat{y}^{i})}{\sum_{i}\mathrm{I}(y^{i}=y)} \right)=\frac{1}{\lvert Y \rvert }\sum_{y\in Y}\text{Acc}_{y}$$
+It's the unweighted average of the accuracy of each class. It's called weighed because it ignores the exact amount of data points for each class, unlike usual accuracy. It is therefore resilient even in unbalanced datasets. As usual, the greater the better. This is the multiclass equivalent of $(1)$.
 
 [^1]: Despite this, in practice the data is often processed in sequential order. This is more of a property of the learning technique than the dataset though.

@@ -7,7 +7,7 @@ aliases:
   - perfect classifier
   - Bayes classifier
 ---
-**Classification** is a [[machine learning]] technique that produces a [[model]], called a **classifier**, whose purpose is to classify inputs into a discrete, finite set of labels called **categories** or **classes**. When given an observation, a classifier tells you what category the observation is a part of.
+**Classification** is a [[machine learning]] technique that produces a [[Artificial Intelligence/Machine learning/Model]], called a **classifier**, whose purpose is to classify inputs into a discrete, finite set of labels called **categories** or **classes**. When given an observation, a classifier tells you what category the observation is a part of.
 
 When there are only two categories, we call the technique [[binary classification]]. If there are more, we call it [[multiclass classification]].
 ## Types

@@ -14,4 +14,4 @@ where $\text{FP}$ is the number of false positives and $\text{N}$ is the number 
 
 A sibling quantity is the **True Positive Rate**, which is the count of correctly classified positives. It is the complement of FPR:
 $$\text{TPR}=1-\text{FPR}$$
-Like FPR, TPR is defined on $[0,1]$. You want TPR to be as close to 1 as possible.
+Like FPR, TPR is defined on $[0,1]$. You want TPR to be as close to 1 as possible. TPR is also called **sensitivity**, because it's measures how much a classifier is sensitive to errors and capable of discerning between a true positive and false positive. This term is more common in diagnostic tests.
