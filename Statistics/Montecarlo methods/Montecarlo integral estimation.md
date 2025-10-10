@@ -1,11 +1,11 @@
 ---
 wiki-publish: true
 ---
-Consider the integral of some univariate function $g(x)$ of a continuous [[random variable]] $X$ in the interval $[a,b]$:
+Consider the integral of some univariate function $g(x)$ of a continuous [[Random variable]] $X$ in the interval $[a,b]$:
 $$I=\int _{a}^{b}g(x) \ dx $$
 The trick is to multiply and divide by a function $f(x)$ like so:
 $$I=\int _{a}^{b} \frac{g(x)}{f(x)}f(x) \ dx =E\left[ \frac{g(X)}{f(X)} \right]$$
-using the [[Expected value]]. $f(x)$ must be [[Normalization|normalized]] over $[a,b]$, so that $\int_{a}^{b}f(x)\ dx=1$, and non-negative, which essentially makes it a [[probability density function]].
+using the [[Expected value]]. $f(x)$ must be [[Normalization|normalized]] over $[a,b]$, so that $\int_{a}^{b}f(x)\ dx=1$, and non-negative, which essentially makes it a [[Probability density function]].
 
 We know how to estimate an expectation by sampling a large [[sample]] of $N$ numbers $x_{1},\ldots,x_{N}$ from $f(x)$. Therefore our estimate $\hat{I}$ of $I$ is
 $$\hat{I}=\frac{1}{N}\sum_{i=1}^{N} \frac{g(x_{i})}{f(x_{i})}$$
@@ -25,7 +25,7 @@ In this case $\sigma ^{2}_{g/f}=0$. This gives a selection criterion to pick $f(
 > &=\int_{0}^{1} \underbrace{ \frac{2e^{-x^{2}/2}}{\sqrt{ 2\pi }} }_{ g(x) } \ dx=\int_{0}^{1}g(x)\ dx
 > \end{align}
 > $$
-> by using symmetry arguments. The above numerical result is the correct number we want to aim for. Now that we have a $g(x)$ to work with, let's pick a distribution $f(x)$ to use. Of course, using a standard normal distribution would be the best choice here, since they would be a multiple of each other, but for the sake of argument, let's try with a [[uniform distribution]] and an [[exponential distribution]]. Numerically, we get
+> by using symmetry arguments. The above numerical result is the correct number we want to aim for. Now that we have a $g(x)$ to work with, let's pick a distribution $f(x)$ to use. Of course, using a standard normal distribution would be the best choice here, since they would be a multiple of each other, but for the sake of argument, let's try with a [[Uniform distribution]] and an [[Exponential distribution]]. Numerically, we get
 > $$\begin{matrix}
  \text{Distribution} & N=100 & N=1000 \\
 > \hat{I}_\text{unif} & 0.682\pm 0.010 & 0.6820\pm 0.0010 \\

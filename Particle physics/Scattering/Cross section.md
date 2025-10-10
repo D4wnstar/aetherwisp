@@ -6,7 +6,7 @@ aliases:
   - Mott cross section
   - scattering center
 ---
-The **cross section** $\sigma$ is a measure of the [[probability]] that a specific reaction will occur during a [[particle scattering|collision]] between two [[Particle|particles]]. It is *not* the probability itself. The cross section is a surface area, generally measured in [[barn]], that loosely represents the physical size of the target that an incident particle must hit in order for a collision to happen. The bigger the area, the more likely the collision.
+The **cross section** $\sigma$ is a measure of the [[Probability]] that a specific reaction will occur during a [[particle scattering|collision]] between two [[Particle|particles]]. It is *not* the probability itself. The cross section is a surface area, generally measured in [[barn]], that loosely represents the physical size of the target that an incident particle must hit in order for a collision to happen. The bigger the area, the more likely the collision.
 
 The cross section is to an extent dependent on the [[kinetic energy]] of the particles that are colliding (more energy = higher cross section), but the most important factor is the [[fundamental interaction]] that's involved in the collision. Just knowing what interaction is involved is enough to provide an order-of-magnitude estimate of the cross section. For instance, [[strong interaction]] scatterings generally have $\sigma\sim10^{-27}\text{ m}^{2}=10\text{ b}$.
 

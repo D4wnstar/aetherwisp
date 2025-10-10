@@ -1,0 +1,8 @@
+---
+wiki-publish: true
+aliases:
+  - distribution
+---
+A **probability distribution** is a function that gives the [[Probability]] that a [[Random variable]] will take on a specific value or set of values on measurement. If a probability distribution correctly describes the outcomes of a random variable, than it is said that the variable follows that distribution. Probability distributions may be discrete or continuous. Despite being as a function, the term "probability distribution" generally refers to the broader concept of a set of possibilities and their probabilities to happen.
+
+For a discrete random variable, the probability distribution coincides with the [[Probability mass function]]. For continuous variables, it's more complicated as the probability of a single specific event occurring over an infinity of cases is always zero. In this case, the distribution is describe jointly by the [[Probability density function]] (if defined) and the [[Cumulative distribution function]].

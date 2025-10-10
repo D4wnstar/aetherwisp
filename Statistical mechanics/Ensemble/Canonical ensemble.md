@@ -15,7 +15,7 @@ where $E_\text{total}$ is the energy of the system + reservoir and $\Delta$ is a
 $$H=H_{1}+H_{2}$$
 The reservoir's energy and number of particle is taken to be much larger than that of the system, so $E_{2}\gg E_{1}$ and $N_{2}\gg N_{1}$.
 
-Now, we really only care about the state of system 1, regardless of what reservoir 2 is doing. The [[probability]] of system 1 being in a volume element $d\mathbf{q}_{1}d\mathbf{p}_{1}$ centered on $(\mathbf{q}_{1},\mathbf{p}_{1})$ in its own [[phase space]] is proportional to
+Now, we really only care about the state of system 1, regardless of what reservoir 2 is doing. The [[Probability]] of system 1 being in a volume element $d\mathbf{q}_{1}d\mathbf{p}_{1}$ centered on $(\mathbf{q}_{1},\mathbf{p}_{1})$ in its own [[phase space]] is proportional to
 $$\propto\Gamma_{2}(E_{2})d\mathbf{q}_{1}d\mathbf{p}_{1}=\Gamma_{2}(E_\text{total}-E_{1})d\mathbf{q}_{1}d\mathbf{p}_{1}$$
 since $E_{2}$ is the only state the reservoir is likely to be in at equilibrium. The density function of system 1 is going to be determined by its most likely state
 $$\rho_{1}(\mathbf{q}_{1},\mathbf{p}_{1})=\Gamma_{2}(E_\text{total}-E_{1})$$

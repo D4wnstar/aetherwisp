@@ -1,9 +1,9 @@
 ---
 wiki-publish: true
 ---
-The **binomial distribution** is a real discrete [[probability distribution]] that describes events that can only take two values: true or false, head or tails, etc.. It is described by one parameter: $p$, which is the [[probability]] of one of the two values occurring. We also define $q=1-p$, which is the probability of the other value occurring.
+The **binomial distribution** is a real discrete [[Probability distribution]] that describes events that can only take two values: true or false, head or tails, etc.. It is described by one parameter: $p$, which is the [[Probability]] of one of the two values occurring. We also define $q=1-p$, which is the probability of the other value occurring.
 
-For a [[random variable]] $K$, the binomial [[probability mass function]] is
+For a [[Random variable]] $K$, the binomial [[Probability mass function]] is
 $$P_{k}=P(k;n,p)=\begin{pmatrix}n \\ k\end{pmatrix}p^{k}q^{n-k}$$
 using the [[Binomial theorem|binomial coefficient]], hence the name. It is the probability that $k$ events will all be the desired value (true, head...) over $n$ total attempts. $k$ must be between $0\leq k\leq n$.
 
@@ -14,7 +14,7 @@ It is useful for studying histograms. Given a data sample, the number of events 
 > $$P_{6}=\begin{pmatrix}n \\ 6\end{pmatrix}0.5^{6}0.5^{n-6}$$
 > Unsurprisingly, as the number of attempts $n$ goes up, the probability that it'll occur also goes up.
 ### Moments
-The algebraic [[moment-generating function]] is
+The algebraic [[Moment-generating function]] is
 $$M_{k}^{*}(t)=E[e^{tK}]=\sum_{k=0}^{n} e^{tk}\begin{pmatrix}n \\ k\end{pmatrix}p^{k}q^{n-k}=\sum_{k=0}^{n} \begin{pmatrix}n \\ k\end{pmatrix}(e^{t}p)^{k}q^{n-k}=(e^{t}p+q)^{n}$$
 The central moment-generating function is
 $$M_{k}(t)=E[e^{t(K-np)}]=e^{-tnp}M_{k}^{*}(t)=(e^{-tp}e^{t}p+e^{-tp}q)^{n}=(e^{tq}p+e^{-tp}q)^{n}$$

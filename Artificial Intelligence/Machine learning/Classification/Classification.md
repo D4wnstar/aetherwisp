@@ -12,9 +12,9 @@ aliases:
 When there are only two categories, we call the technique [[binary classification]]. If there are more, we call it [[multiclass classification]].
 ## Types
 ### Random classifier
-The simplest (and least useful) case is **random classifier**, which simply returns a random category. Formally, its prediction function is a [[random variable]]:
+The simplest (and least useful) case is **random classifier**, which simply returns a random category. Formally, its prediction function is a [[Random variable]]:
 $$f_\text{random}=y_{i}\quad\text{where}\quad i\sim U(1,\ldots,\lvert Y \rvert )$$
-where $U$ is a [[uniform distribution]] over all possible class indexes. Naturally, this models no dependency between the inputs and outputs: it's just random. In fact, there's no learning phase at all (how could there be?), so it's hard to even call this a model. Nevertheless, it is the theoretically simplest classifier. A fair coin toss is a random binary classifier. A fair $N$-faced die is a random $N$-multiclass classifier.
+where $U$ is a [[Uniform distribution]] over all possible class indexes. Naturally, this models no dependency between the inputs and outputs: it's just random. In fact, there's no learning phase at all (how could there be?), so it's hard to even call this a model. Nevertheless, it is the theoretically simplest classifier. A fair coin toss is a random binary classifier. A fair $N$-faced die is a random $N$-multiclass classifier.
 
 There's no real difficulty in building a random classifier: just sample values from a uniform distribution and map them to class labels.
 ### Dummy classifier
@@ -25,13 +25,13 @@ $$f_{\text{dummy},\{ y^{i} \}}=\arg\max\limits_{y\in Y}\text{Fr}(y,\{ y^{i} \})$
 This is the first real model, because in order to determine what the most common class is, the model must be trained on the set of responses. It provides better-than-random accuracy simply on behalf of the fact that the most common class is, well, the most common, so if you have to pick randomly, always choosing the most common option is your best bet. However, this still models no dependency between $x$ and $y$.
 #### Building
 To build a dummy classifier, consider the learning process as a [[supervised machine learning]] technique. The two steps are:
-1. In the *learning phase*, compute the frequency or [[probability]] of classes.
+1. In the *learning phase*, compute the frequency or [[Probability]] of classes.
 2. In the *prediction phase*, choose the most frequent class.
 
 Formally, the process of building a dummy classifier is
 1. Determine the parameterization of the model. There's quite a few equivalent option:
 	1. The model is an array of the class probabilities, $\mathbf{f}=(f_{1},\ldots,f_{\lvert Y \rvert})$. The model space is $M=F_{Y}=\{ \mathbf{f}\in[0,1]^{\lvert Y \rvert}\ |\ \lVert \mathbf{f} \rVert_{1} = 1\}$. It's a [[vector space]] where each vector component is between 0 and 1 and each vector is [[Normalization|normalized]] according to the one-[[norm]] (i.e. the sum of all components, $\lVert \mathbf{x} \rVert_{1}=\sum_{i}x_{i}$).
-	2. The model is a [[probability mass function]] $p$ over $Y$. The model space is $M=P_{Y}=\left\{  p\ |\ Y\mapsto[0,1]\text{ such that Prob}(y'=y)=\sum_{y'\in Y}p(y')=1  \right\}$. It's the set of all possible PMFs over categories.
+	2. The model is a [[Probability mass function]] $p$ over $Y$. The model space is $M=P_{Y}=\left\{  p\ |\ Y\mapsto[0,1]\text{ such that Prob}(y'=y)=\sum_{y'\in Y}p(y')=1  \right\}$. It's the set of all possible PMFs over categories.
 	3. The model is the $y$ part of a [[dataset]] $\{ (x^{i},y^{i}) \}$. The model space is $M=\mathcal{P}^{*}(Y)$.
 	4. The model is the most frequent class $y^{*}$. The model space is $M=Y$.
 2. The template function to be made is $f_\text{learn}':\mathcal{P}(X\times Y)\mapsto M$.

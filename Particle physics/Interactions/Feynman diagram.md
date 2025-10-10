@@ -36,6 +36,6 @@ The time axis should always be drawn explicitly. This is especially true since k
 Feynman diagrams are drawings of actual calculations. As such, they hold all the properties of the math involved, namely:
 - At each vertex, all [[quantum number|quantum numbers]] are conserved. They must also be identical to those of the force carrier.
 - The exchange particle is inversely proportional to the square of the transferred momentum.
-- The [[probability]] of interaction and the [[cross section]] are proportional to the square of the amplitude, represented by the diagram: $\text{Prob}\propto\sigma \propto |\ \ \rangle\!\!\sim\sim\!\!\langle\ \ |^{2}$.
+- The [[Probability]] of interaction and the [[cross section]] are proportional to the square of the amplitude, represented by the diagram: $\text{Prob}\propto\sigma \propto |\ \ \rangle\!\!\sim\sim\!\!\langle\ \ |^{2}$.
 
 [^1]: This is in reference to the unification of electromagnetism and weak force: the [[electroweak interaction]].

@@ -35,7 +35,7 @@ $$\begin{align}
 \end{align}$$
 
 ### Exponential distribution
-Consider a sample $\{ t_{i} \}_{1\leq i\leq n}$ for a [[random variable]] $T$ that follows an [[exponential distribution]]
+Consider a sample $\{ t_{i} \}_{1\leq i\leq n}$ for a [[Random variable]] $T$ that follows an [[Exponential distribution]]
 $$f(t)=\frac{1}{\tau}e^{-t/\tau}$$
 The likelihood function is
 $$\mathcal{L}=\prod_{i=1}^{n} \frac{1}{\tau}e^{-t_{i}/\tau}$$
@@ -47,9 +47,9 @@ which is true for
 $$\tau^{*}=\frac{1}{n}\sum_{i=1}^{n} t_{i},\qquad \sigma ^{2}_{t^{*}}=\frac{(\tau^{*})^{2}}{n}$$
 We already know the [[mean]] $\tau^{*}$ is the best estimator, so this proves that the method works.
 ### Binned maximum likelihood
-It's possible to use the histogram bin amounts instead of the actual sampled values to run MLE. This is called **binned maximum likelihood** (as opposed to **unbinned maximum likelihood**). To prove that it works, consider a [[Joint distribution function|joint]] exponential distribution $f(x_{1},\ldots,x_{n};\boldsymbol{\theta})$ of [[iid]] variables $(X_{1},\ldots,X_{n})$, which becomes the distribution $g(n_{1},\ldots,n_{m};\boldsymbol{\theta})$ when represented as a histogram. $n_{i}$ is the amount of samples in the $i$-th bin. This distribution is given by a multivariate [[binomial distribution]]:
+It's possible to use the histogram bin amounts instead of the actual sampled values to run MLE. This is called **binned maximum likelihood** (as opposed to **unbinned maximum likelihood**). To prove that it works, consider a [[Joint distribution function|joint]] exponential distribution $f(x_{1},\ldots,x_{n};\boldsymbol{\theta})$ of [[iid]] variables $(X_{1},\ldots,X_{n})$, which becomes the distribution $g(n_{1},\ldots,n_{m};\boldsymbol{\theta})$ when represented as a histogram. $n_{i}$ is the amount of samples in the $i$-th bin. This distribution is given by a multivariate [[Binomial distribution]]:
 $$g(n_{1},\ldots,n_{m};\boldsymbol{\theta})=\frac{n!}{n_{1}!\ldots n_{m}!}p_{1}^{n_{1}}\ldots p_{m}^{n_{m}}=\mathcal{L}$$
-Each [[probability]] function $p_{i}$ is
+Each [[Probability]] function $p_{i}$ is
 $$p_{i}=\int_{x_{i}^{*}-\Delta_{i}/2}^{x_{i}^{*}+\Delta_{i}/2}f(x_{i};\boldsymbol{\theta})\ dx \simeq f(x_{i}^{*};\boldsymbol{\theta})\Delta_{i}=\frac{1}{\tau}e^{-x_{i}^{*}/\tau}\Delta_{i}$$
 where $x_{i}^{*}$ is the center of the $i$-th bin and $\Delta_{i}$ is its width. The logarithm of the likelihood is
 $$\ln \mathcal{L}=c+\sum_{i=1}^{m} n_{i}\ln p_{i}(\boldsymbol{\theta})=c'+\sum_{i=1}^{m} n_{i}\left( \ln \frac{1}{\tau}- \frac{x_{i}^{*}}{\tau} \right)$$

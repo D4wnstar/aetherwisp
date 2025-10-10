@@ -3,7 +3,7 @@ wiki-publish: true
 aliases:
   - sufficient statistic
 ---
-A **statistic** is a function of a [[set]] of [[random variable|random variables]]. It is itself a random variable.
+A **statistic** is a function of a [[set]] of [[Random variable|random variables]]. It is itself a random variable.
 
 For example, the [[mean]] and [[variance]] of a [[sample]] are statistics of that sample.
 ### Sufficient statistic

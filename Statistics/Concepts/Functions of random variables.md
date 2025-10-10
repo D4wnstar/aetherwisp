@@ -1,7 +1,7 @@
 ---
 wiki-publish: true
 ---
-A **function of one or more random variables** is any function that depends on a set of [[random variable|random variables]]. Call $y$ a function dependent on variables $X_{1},\ldots,X_{N}$, it is denoted $y=y(x_{1},\ldots,x_{n})$.
+A **function of one or more random variables** is any function that depends on a set of [[Random variable|random variables]]. Call $y$ a function dependent on variables $X_{1},\ldots,X_{N}$, it is denoted $y=y(x_{1},\ldots,x_{n})$.
 ### Expectation and variance
 It is generally useful to know the [[Expected value]] and [[Variance]] of such a function. Assume the expectation and variance of the $i$-th variable are $E[X_{i}]=\mu_{i}$ and $\sigma_{i}^{2}$, and the [[Covariance]] of the $ij$ pair is $\text{cov}(x_{i},x_{j})=\rho_{y}\sigma_{i}\sigma_{j}$.
 

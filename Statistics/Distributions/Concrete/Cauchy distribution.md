@@ -1,7 +1,7 @@
 ---
 wiki-publish: true
 ---
-The **Cauchy distribution** is a real, continuous, univariate [[probability distribution]]. For a [[random variable]] $X$, the [[probability density function]] is
+The **Cauchy distribution** is a real, continuous, univariate [[Probability distribution]]. For a [[Random variable]] $X$, the [[Probability density function]] is
 $$f_{X}(x)=\frac{1}{\pi} \frac{1}{1+x^{2}}$$
 Notably, it has no parameters.
 

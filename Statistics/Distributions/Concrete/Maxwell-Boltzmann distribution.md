@@ -1,7 +1,7 @@
 ---
 wiki-publish: true
 ---
-The **Maxwell-Boltzmann distribution** (not to be confused with the *other* [[Maxwell-Boltzmann statistic|Maxwell-Boltzmann distribution]]) is a real, continuous [[probability distribution]]. For a [[random variable]] $X$, the [[probability density function]] is
+The **Maxwell-Boltzmann distribution** (not to be confused with the *other* [[Maxwell-Boltzmann statistic|Maxwell-Boltzmann distribution]]) is a real, continuous [[Probability distribution]]. For a [[Random variable]] $X$, the [[Probability density function]] is
 $$f(x)=\sqrt{ \frac{2}{\pi} } \frac{x^{2}}{a^{3}} e^{-x^{2}/2a^{2}}$$
 where $a>0\in \mathbb{R}$ is a parameter. It is commonly employed in physics to model the velocity distribution of [[Particle|particles]] in an [[ideal gas]].
 ### 3D monoatomic ideal gas
@@ -16,4 +16,4 @@ The distribution can be generalized to an arbitrary number of dimensions as
 $$f(v)=A\left( \frac{m}{2\pi k_{B}T} \right)^{N/2}v^{N-1}e^{-mv ^{2}/2k_{B}T}$$
 where $A$ is a [[Normalization|normalization]] constant.
 ### Relation to other distributions
-It is a specific case of the [[chi-square distribution]], with 3 degrees of freedom (representing the components of the velocity vector).
+It is a specific case of the [[Chi-square distribution]], with 3 degrees of freedom (representing the components of the velocity vector).

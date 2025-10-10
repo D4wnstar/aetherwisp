@@ -12,7 +12,7 @@ Provided different particles are given the same starting kinetic energy $K_{0}$,
 The definition follows from expressing the range as an [[integral]] and playing with the [[Differential|differentials]] to turn it into an energy integral:
 $$R(K)=\int_{0}^{R}dx=\int_{K_{0}}^{0} \frac{dK}{dK} dx=-\int_{K_{0}}^{0} \frac{dK}{S(K)}=\int_{0}^{K_{0}} \frac{dK}{S(K)}$$
 
-Since the amount of energy lost in the material is [[random]] ([[Stopping power|energy straggling]]), the range is also random and described by a [[probability distribution]] parameterized by kinetic energy. This phenomenon is called **range straggling**.
+Since the amount of energy lost in the material is [[random]] ([[Stopping power|energy straggling]]), the range is also random and described by a [[Probability distribution]] parameterized by kinetic energy. This phenomenon is called **range straggling**.
 ### Nonrelativistic behavior
 For a particle of [[Electric charge|charge]] $z$, mass $M$, and nonrelativistic kinetic energy $K_{0}$, we can approximate the stopping power using the [[Stopping power|Bethe-Bloch formula]]. In nonrelativistic range, the logarithm is essentially constant. Then, the only functional dependence in $dK/dx$ is $z^{2}/\beta ^{2}$ and everything else is a constant. Then, we can state
 $$\frac{dK}{dx} \simeq C \frac{z^{2}}{\beta^{2}}=C\frac{z^{2}c^{2}(M/2)}{v^{2}(M/2)} = C'\frac{Mz^{2}}{K}$$

@@ -39,7 +39,7 @@ $$\begin{align}
 f''_\text{predict}:X\times M&\mapsto P_{Y} \\
 f''_\text{predict}(x,m)&=p
 \end{align}$$
-It takes the observation and the model as input and gives you a [[probability distribution]]. This probability then needs to be turned into a decision, which we can simply do by taking the decision with the highest probability (the "best"). Formally:
+It takes the observation and the model as input and gives you a [[Probability distribution]]. This probability then needs to be turned into a decision, which we can simply do by taking the decision with the highest probability (the "best"). Formally:
 $$f'_\text{predict}(x,m)=\arg\max\limits_{y\in Y}(f''_\text{predict}(x,m))(y)\tag{1}$$
 This kind of method is called a **supervised learning technique with probability** (for classification). It is defined by
 1. an $f'_\text{learn}:\mathcal{P}^{*}(X\times Y)\mapsto M$ for training a model from a dataset;

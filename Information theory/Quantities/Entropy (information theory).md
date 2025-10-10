@@ -6,9 +6,9 @@ aliases:
   - joint entropy
   - Boltzmann entropy
 ---
-In information theory, the **entropy** $H_{X}$ or $H(X)$ of a discrete [[random variable]] $X$ defined in the [[sample space]] $\mathcal{X}$ and following some [[probability distribution]] described by the [[probability mass function]] $p(x)$, is
+In information theory, the **entropy** $H_{X}$ or $H(X)$ of a discrete [[Random variable]] $X$ defined in the [[sample space]] $\mathcal{X}$ and following some [[Probability distribution]] described by the [[Probability mass function]] $p(x)$, is
 $$H_{X}=-\sum_{x \in \mathcal{X}}p(x)\log_{2}p(x) $$
-It is often called **Shannon entropy** due to it being originally introduced by Claude Shannon. If the [[probability]] is encoded in a [[Matrice di densità|density matrix]] $\hat{\rho}$, we can alternatively write
+It is often called **Shannon entropy** due to it being originally introduced by Claude Shannon. If the [[Probability]] is encoded in a [[Matrice di densità|density matrix]] $\hat{\rho}$, we can alternatively write
 $$H=-\text{Tr}(\hat{\rho}\log_{2} \hat{\rho})$$
 using the [[Traccia|trace]].
 
@@ -16,7 +16,7 @@ Strictly speaking, the base of the logarithm is arbitrary and may be any real nu
 ### Interpretation
 Shannon entropy can be described as a measure of the uncertainty of $X$. $H$ can be seen as  a sort of "missing information" or as a measure of "surprisingness" : the greater the entropy, the less information I have about $X$ a priori and the more unexpected the result is going to be. For instance, if $X$ only has one possible value, entropy is zero as there is no uncertainty; I already know everything that there is to know about $X$.
 ### Joint entropy
-If $X$ and $Y$ are two random variables in sample spaces $\mathcal{X}$ and $\mathcal{Y}$, **joint entropy** is defined by just changing the normal distribution function to a [[joint distribution function]]:
+If $X$ and $Y$ are two random variables in sample spaces $\mathcal{X}$ and $\mathcal{Y}$, **joint entropy** is defined by just changing the normal distribution function to a [[Joint distribution function]]:
 $$H_{X,Y}=-\sum_{x \in \mathcal{X}} \sum_{y\in \mathcal{Y}}p_{X,Y}(x,y)\log p_{X,Y}(x,y)$$
 If $X$ and $Y$ are [[independent variables]], it simplifies to
 $$H_{X,Y}=-\sum_{x \in \mathcal{X}}\sum _{y \in \mathcal{Y}}p_{X,Y}(x,y)[\log p_{X}(x)+\log p_{Y}(y)]=H_{X}+H_{Y} $$

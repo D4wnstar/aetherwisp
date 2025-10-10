@@ -13,6 +13,6 @@ Per un'[[Plane wave|onda piana]] del tipo
 $$\psi_{t}(x)=\frac{e^{(i/\hbar)(px-Et)}}{\sqrt{ 2\pi \hbar }}$$
 con $p>0$ abbiamo
 $$J_{t}(x)=- \frac{i\hbar}{2m}\left( \frac{i}{\hbar}p+ \frac{i}{\hbar}p \right)=\frac{p}{m} \frac{1}{2\pi \hbar}$$
-Considerata la [[uniform distribution|densità di probabilità uniforme]]
+Considerata la [[Uniform distribution|densità di probabilità uniforme]]
 $$\lvert \psi \rvert ^{2}=\frac{1}{2\pi \hbar}$$
 si ha che è la velocità $v=\frac{p}{m}$ per la densità di probabilità.

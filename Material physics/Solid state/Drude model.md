@@ -21,7 +21,7 @@ The Drude model is based on four major assumptions:
 1. The positive charge is localized on stationary [[Atomic nucleus|nuclei]]. Electrons can collide with nuclei and bounce off, but they do so as rigid neutral particles. They do not interact at any range other than with collisions (**free electron assumption**).
 2. Electrons do not collide with each other. They do not interact with each other (**independent electron assumption**).
 3. There exists some time $\tau$ which is the [[mean]] time between collisions. The probability of collision is $1/\tau$.
-4. Electrons reach [[thermal equilibrium]] with their surroundings exclusively through collisions. The velocity that the electron has after a collision is completely random and unrelated to the previous one. This velocity obeys the local [[probability distribution]] of velocities at the point of impact.
+4. Electrons reach [[thermal equilibrium]] with their surroundings exclusively through collisions. The velocity that the electron has after a collision is completely random and unrelated to the previous one. This velocity obeys the local [[Probability distribution]] of velocities at the point of impact.
 
 This is a classical model, so defining what a collision is rather straightforward: two electron colliding with each other. The [[mean free path]] of an electron between collisions is just $\lambda=\tau v_{t}$, where $v_{t}$ is the thermal (i.e. random and isotropic) velocity of the electrons. Since we are considering the electrons as a neutral gas (read: [[ideal gas]]), we can use the [[equipartition theorem]] to get the velocity from the equation
 $$\frac{1}{2}mv_{t}^{2}=\frac{3}{2}k_{B}T\quad\Rightarrow \quad v_{t}=\sqrt{ \frac{3k_{B}T}{m} }$$
@@ -31,7 +31,7 @@ This is what happens in gas (i.e. electrons in metal) at rest. If we apply a con
 $$\mathbf{F}=-e\mathbf{E}=m\mathbf{a}\quad\Rightarrow \quad \mathbf{a}=-\frac{e}{m}\mathbf{E}\quad\Rightarrow \quad \mathbf{v}_{el}=-\frac{et}{m}\mathbf{E}+\mathbf{v}_{0}$$
 where $e$ is the [[elementary charge]]. Now, in total we get
 $$\mathbf{v}=\mathbf{v}_{t}+\mathbf{v}_{el}$$
-This is an inherently random quantity due to $\mathbf{v}_{t}$ being a [[random variable]]. It is then more useful to consider the mean of this velocity:
+This is an inherently random quantity due to $\mathbf{v}_{t}$ being a [[Random variable]]. It is then more useful to consider the mean of this velocity:
 $$\mathbf{v}_{avg}=\langle \mathbf{v} \rangle =\langle \mathbf{v}_{t} \rangle +\langle \mathbf{v}_{el} \rangle =- \frac{e\tau}{m}\mathbf{E}$$
 since $\langle \mathbf{v}_{t} \rangle=0$ by definition of the kinetic model (isotropic motion), $\langle t \rangle=\tau$ and $\langle \mathbf{E} \rangle=\mathbf{E}$ since it's constant. We can define the **mobility** $\mu\equiv e \tau/m$ to write the velocity of the electrons as a simple linear function of $\mathbf{E}$:
 $$\mathbf{v}_{avg}=\mu \mathbf{E}$$

@@ -1,7 +1,7 @@
 ---
 wiki-publish: true
 ---
-**Spontaneous fission** (**SF**) is a mode of [[Nuclear decay|decay]] in which a heavy [[Atomic nucleus|nucleus]] undergoes [[nuclear fission]] spontaneously, without [[energy]] input from external [[Particle|particles]]. This causes the nucleus to split in to daughter nuclei of variable size. Unlike other modes of decay, the decay products of spontaneous fission are quite [[random]] and are best described by a [[probability distribution]]. It's a rather rare mode of decay, only observed in superheavy [[Nuclide|radionuclides]] like uranium and plutonium. Spontaneous fission is much less common than [[induced fission]], as few nuclei are unstable enough to even permit it and even in those that do, its [[branching ratio]] is generally tiny compared to other decay modes. Induced fission, however, requires human intervention.
+**Spontaneous fission** (**SF**) is a mode of [[Nuclear decay|decay]] in which a heavy [[Atomic nucleus|nucleus]] undergoes [[nuclear fission]] spontaneously, without [[energy]] input from external [[Particle|particles]]. This causes the nucleus to split in to daughter nuclei of variable size. Unlike other modes of decay, the decay products of spontaneous fission are quite [[random]] and are best described by a [[Probability distribution]]. It's a rather rare mode of decay, only observed in superheavy [[Nuclide|radionuclides]] like uranium and plutonium. Spontaneous fission is much less common than [[induced fission]], as few nuclei are unstable enough to even permit it and even in those that do, its [[branching ratio]] is generally tiny compared to other decay modes. Induced fission, however, requires human intervention.
 
 The nuclear reaction reads
 $$\ce{X}\to\ce{X'}+\ce{X''}+\nu n$$

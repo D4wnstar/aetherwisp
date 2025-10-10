@@ -13,7 +13,7 @@ $$\braket{  \alpha_{1} | \alpha_{2} } ^{2}=e^{-|\alpha_{1}-\alpha_{2}|^{2}}$$
 Può essere ottenuto dallo stato fondamentale di un [[oscillatore armonico quantistico]] mediante l'[[Operatore di displacement]]:
 $$\ket{\alpha} =e^{\alpha \hat{a}^{+}-\alpha^{*}\hat{a}}\ket{0} =\hat{D}(\alpha)\ket{0} $$
 ### Probabilità
-Gli stati coerenti esibiscono un comportamento interessante per quanto riguarda la loro [[probability|probabilità]]. Il [[Expected value|valor medio]] dell'operatore numero in uno stato coerente è
+Gli stati coerenti esibiscono un comportamento interessante per quanto riguarda la loro [[Probability|probabilità]]. Il [[Expected value|valor medio]] dell'operatore numero in uno stato coerente è
 $$\braket{ \alpha | \hat{n}| \alpha } =\braket{ \alpha | \hat{a}^{+}\hat{a}| \alpha }=\braket{ \hat{a}\alpha | \hat{a}\alpha }  =\lvert \alpha \rvert^{2} $$
 Per la [[Variance|varianza]] invece troviamo
 $$\braket{ \alpha | \hat{n}^{2} | \alpha } =\braket{ \alpha | (\hat{a}^{+}\hat{a})^{2}| \alpha } =\braket{ \alpha | \hat{a}^{+}\hat{a}\hat{a}^{+}\hat{a}| \alpha } =\ldots$$

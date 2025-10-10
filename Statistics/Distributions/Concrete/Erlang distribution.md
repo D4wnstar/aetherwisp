@@ -1,7 +1,7 @@
 ---
 wiki-publish: true
 ---
-The **Erlang distribution** is a continuous [[probability distribution]] over non-negative reals $[0,\infty)$. For a [[random variable]] $T$, the [[probability density function]] is
+The **Erlang distribution** is a continuous [[Probability distribution]] over non-negative reals $[0,\infty)$. For a [[Random variable]] $T$, the [[Probability density function]] is
 $$f_{T}(t)=\mu\frac{(\mu t)^{k-1}e^{-\mu t}}{(k-1)!}$$
 where $\mu$ is the rate parameter and $k$ is the shape parameter. Another common parameterization is using $\tau=1/\mu$.
 
@@ -26,4 +26,4 @@ $$E[T]=\frac{k}{\mu}=k\tau,\qquad\text{var}(T)=\frac{k}{\mu ^{2}}=k\tau ^{2}$$
 and in the $\mu=1$ case
 $$E[T]=k,\qquad\text{var}(T)=k$$
 ### Relation to other distributions
-If $k=1$, if simplifies to an [[exponential distribution]]. In fact, an Erlang distribution can be derived as a sum of exponential random variables. It is also a special case of the [[Gamma distribution]] with $\alpha=k$ and $\beta=1$.
+If $k=1$, if simplifies to an [[Exponential distribution]]. In fact, an Erlang distribution can be derived as a sum of exponential random variables. It is also a special case of the [[Gamma distribution]] with $\alpha=k$ and $\beta=1$.

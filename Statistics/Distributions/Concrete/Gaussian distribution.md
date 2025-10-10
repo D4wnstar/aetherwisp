@@ -4,7 +4,7 @@ aliases:
   - normal distribution
   - standard normal distribution
 ---
-The **Gaussian distribution** or **normal distribution** is a real univariate continuous [[probability distribution]]. For a [[random variable]] $X$, the [[probability density function]] is
+The **Gaussian distribution** or **normal distribution** is a real univariate continuous [[Probability distribution]]. For a [[Random variable]] $X$, the [[Probability density function]] is
 $$N(x;\mu,\sigma ^{2})=\frac{1}{\sqrt{ 2\pi \sigma^{2} }}e^{- \frac{(x-\mu)^{2}}{2\sigma ^{2}}}$$
 where $\mu$ is the [[Expected value]] e $\sigma ^{2}$ is the [[Variance]].
 
@@ -22,7 +22,7 @@ plot(f(x), [-4,4], [0,1])==?
 A **standard normal distribution** is defined as a normal distribution with $\mu=0$ and $\sigma=1$, which looks like
 $$N(x;0,1)=\frac{1}{\sqrt{ 2\pi }}e^{-x^{2}/2}$$
 ### Moments
-The central and algebraic [[moment-generating function]] for the Gaussian are
+The central and algebraic [[Moment-generating function]] for the Gaussian are
 $$M_{X}(t)=E[e^{t(X-\mu)}]=e^{\sigma ^{2}t^{2}/2},\qquad M_{X}^{*}(t)=e^{t\mu}M_{X}(t)=e^{t\mu+t^{2}\sigma ^{2}/2}$$
 For a standard normal distribution, they simplify to
 $$M_{X}(t)=e^{t^{2}/2},\qquad M_{X}^{*}(t)=e^{t+t^{2}/2}$$

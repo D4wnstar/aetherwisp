@@ -24,7 +24,7 @@ This is known as the **[[Klein-Gordon equation]]**. Thanks to the d'Alembertian,
 
 No, of course not, this article is about the Dirac equation for a reason. See, the KG equation hits on a new problem: being second-order in time and space, it admits both positive *and* negative energy solutions:
 $$E=\pm \sqrt{ \hat{p}^{2}+m^{2} }$$
-The positive-energy ones are just fine, but the negative-energy solutions are a disaster: they imply the existence of *negative [[probability|probabilities]]*, something that's fundamentally impossible in both physics and math. The KG equation is actually still useful in certain contexts, but it is by no means general enough for a proper description of quantum mechanics.
+The positive-energy ones are just fine, but the negative-energy solutions are a disaster: they imply the existence of *negative [[Probability|probabilities]]*, something that's fundamentally impossible in both physics and math. The KG equation is actually still useful in certain contexts, but it is by no means general enough for a proper description of quantum mechanics.
 
 Also, something that I haven't mentioned yet is [[spin]]. Schrödinger quantum mechanics is, for the most part, written without taking spin into consideration. Of course you can solve for spin [[Stato|states]] with the Schrödinger equation, but they take extra care and your entire attention. Since *all* fermions have spin, we need a way to have it be "just a property", something that's automatically taken care of by the shape of the equation. The KG equation, like Schrödinger's, does not provide a way of doing so.
 

@@ -12,6 +12,8 @@ $$\text{E}[\hat{\theta}]=\theta+b$$
 This quantity is known as **bias**. If $b\neq 0$, the estimator is said to be **biased**, else it is **unbiased**.
 
 A **(point) estimate** $\hat{\theta}^{*}$ is the value of an estimator calculated at a certain point. This difference is important: an *estimator* is a statistic and random variable, while an *estimate* is a number. It is the estimator that carries all the properties; estimates are just numbers.
+
+A more satisfactory estimation is provided by a **confidence interval**, which provides an entire set of values for the parameter. In multiple dimensions, there are also extensions called **confidence regions**, but they are seldom used in practice. These are built by considering a single parameter at once.
 ### Properties
 A ([[scalar]]) estimator over a sample of size $N$ is said to be **(weakly) consistent** if, for any arbitrarily small $\epsilon>0$, we have
 $$\lim_{ N \to \infty } P(\lvert \hat{\theta}-\theta \rvert >\epsilon)=0$$
@@ -20,9 +22,6 @@ where $P$ is a [[probability]]. Basically, as the sample size goes to infinity, 
 An unbiased estimator is **efficient** if it has small variance. Efficiency is a property that's typically relative to another estimator; an estimator may be more or less efficient than another, but it's hard to say if it efficient or not by itself.
 
 An estimator is **robust** if it is has good performance across a wide range of statistical [[Statistics/Modeling/Model|models]] built on the sample data. Robust estimators are typically less efficient than flimsy ones, but in return they are more resistant to outliers, which are a major source of large errors and biases.
-### Bias
-Say we have an estimator $\hat{\theta}$ and a function to [[Parameter estimation|fit]] $g(\hat{\theta})$. The expected value of $\hat{\theta}$ is
-$$E[\hat{\theta}]=\int_{\Omega_{\theta}}\hat{\theta}g(\hat{\theta})d \hat{\theta}=\int_{\Omega_{x}}\hat{\theta}f(x_{1},\ldots,x_{n})dx_{1}\ldots dx_{n}=\theta+b$$
 ### Examples
 The sample [[mean]] $\hat{\mu}\equiv \bar{X}$ is a common unbiased estimator of the true population mean. In fact, for a [[sample]] set $\{ x_{1},\ldots,x_{N} \}$ sampled from a random variable $X$ we have
 $$\hat{\mu}=\frac{1}{N}\sum_{i=1}^{N} x_{i}\quad\to \quad \text{E}[\hat{\mu}]=\mu$$
@@ -45,4 +44,29 @@ $$\lim_{ n \to \infty } P(\lvert \hat{\mu}-\mu \rvert <\varepsilon)=1$$
 > As $n\to \infty$ we get
 > $$\lim_{ n \to \infty } P(\lvert \hat{\mu}-\mu \rvert \geq \varepsilon)= 0$$
 > By logical inversion, we get the previous statement.
+### Confidence intervals
+The construction of a confidence interval typically makes use of a **pivot**, a function of the data and the parameter, whose [[probability distribution]] is known.
 
+Let's start with an example. A pivot function is, for instance, the following, defined for a random sample of a [[Gaussian distribution|normal distribution]] $N(\mu,\sigma ^{2})$ in which we wish to estimate  and $\sigma ^{2}$ is *not* known. In this case, the parameters are $\boldsymbol{\theta}=(\mu,\sigma ^{2})$ and the pivot is
+$$T(\mu)=\frac{\bar{X}-\mu}{\sqrt{ S^{2}/N }}\sim t_{N-1}$$
+where $\bar{X}$ is the sample mean, $S^{2}$ is the sample variance and $t_{N-1}$ is the [[Student's t distribution]]. This pivot carries the property
+$$\text{Prob}(t_{N-1;\ \alpha/2}\leq T(\mu)\leq t_{N-1;\ 1-\alpha/2})=1-\alpha$$
+where $t_{N-1;\ \alpha}$ is $\alpha$ [[Quantile function|quantile]] of the $t_{N-1}$ distribution. By symmetry arguments, $t_{N-1;\ \alpha/2}=-t_{N-1;\ 1-\alpha/2}$. With some algebra, the previous property can be manipulated to read
+$$\text{Prob}\left( \bar{X}-t_{N-1;1-\alpha/2}\sqrt{ \frac{S^{2}}{N} }\leq \mu \leq \bar{X}+t_{N-1;\ 1-\alpha/2}\sqrt{ \frac{S^{2}}{N} } \right)=1-\alpha$$
+Hence, the random interval of bounds
+$$\bar{X}-t_{N-1;\ 1-\alpha/2}\sqrt{ \frac{S^{2}}{N} }\quad\text{and}\quad \bar{X}+t_{N-1;\ 1-\alpha/2}\sqrt{ \frac{S^{2}}{N} }$$
+contains the mean $\mu$ with probability $1-\alpha$. This interval is known as a $(1-\alpha)\times100\%$ confidence interval. The parameter $\alpha$ is arbitrarily chosen: typical choices are $1-\alpha=99\%$ and $1-\alpha=95\%$.
+
+In practice, given a particular set of data $x_{1},\ldots,x_{N}$, we calculate the confidence interval by replacing $\bar{X}$ and $S^{2}$ with their observed values $\bar{x}$ and $s^{2}$ for the data that we have:
+$$\bar{x}-t_{N-1;\ 1-\alpha/2}\sqrt{ \frac{s^{2}}{N} }\quad\text{and}\quad \bar{x}+t_{N-1;\ 1-\alpha/2}\sqrt{ \frac{s^{2}}{N} }$$
+This interval either contains the true value of $\mu$ or it does not, with the probability given by $(1-\alpha)\%$. In other words, given some dataset $x_{1},\ldots,x_{N}$, there's a $(1-\alpha)\%$ chance that the confidence interval defined as above will contain the true value of the mean.
+
+Choosing $\alpha$ is therefore crucial: $\alpha$ is arbitrary because it's not an inherent property of the dataset or distribution. It's essentially a push-pull relation between accuracy and guarantees. On one hand, if $(1-\alpha)$ is very high, then basically every dataset we collect will contain the true value. In theory that sounds great; in practice the price we pay is that the confidence interval is huge. Indeed, what varying $\alpha$ does is essentially making the interval larger or smaller. The larger the interval, the more likely the true value is to fall in it, but the more error we accept. On the other hand, small intervals are very accurate, but they have a very high chance of being straight-up wrong. The figures for $\alpha$ given before are a good mixture of reliable and "accurate enough". For instance, the $95\%$ figure is wrong about 1 in 20 times.
+
+As for the endpoints, it depends on $\alpha$. It's generally chosen to be symmetrical $1-\alpha/2$ and $1+\alpha/2$, and these kinds of intervals are called **equi-tailed**, but strictly speaking there's no need. We can generalize to $1-\alpha_{1}$ and $1-\alpha_{2}$, with the only necessary condition being $\alpha_{1}+\alpha_{2}=\alpha$. Other notable choices are $(\alpha_{1},\alpha_{2})=(0,\alpha)$ and $(\alpha_{1},\alpha_{2})=(\alpha,0)$. These respectively make the left and right endpoints infinitely far, so that the confidence interval is only bounded to the left or right. These are called **one-sided** confidence intervals.
+
+Exact confidence intervals are few and far between. Thankfully, approximate intervals are rather easy to find. A common approximate interval is given by the **Wald pivot**, for some parameter $\psi$. It is based on a consistent estimator which is approximately standard-normally-distributed for large sample sizes:
+$$Z(\psi)=\frac{\hat{\psi}-\psi}{\text{SE}(\psi)}\approx N(0,1)$$
+for all $\psi$. $\text{SE}(\psi)$ is the [[standard error]]. The corresponding confidence interval is between
+$$\hat{\psi}-z_{1-\alpha/2}\text{SE}(\hat{\psi})\quad\text{and}\quad\hat{\psi}+z_{1-\alpha/2}\text{SE}(\hat{\psi})$$
+The benefit of this pivot is that the [[central limit theorem]] makes it work in many cases when $\psi$ is the sample mean of each variable.

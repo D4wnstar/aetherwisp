@@ -20,7 +20,7 @@ We can get some useful quantities out of this law. The time it takes for the ori
 $$t_{1/2}=\frac{\ln2}{\lambda}$$
 Easily confused but not the same, the **[[mean lifetime]]** is the time it takes *on average* for a *single* nucleus to decay:
 $$\tau=\frac{\displaystyle\int_{0}^{\infty}t\left|\frac{dN}{dt}\right|dt}{\displaystyle\int_{0}^{\infty}\left|\frac{dN}{dt}\right|dt}=\frac{1}{\lambda}$$
-obtained by integrating $\left|\frac{dN}{dt}\right|dt$, the number of nuclei decaying between $t$ and $t+dt$. This value is relevant because nuclear decay is a [[random]] process, so the time it takes for a decay event to occur is a [[random variable]].
+obtained by integrating $\left|\frac{dN}{dt}\right|dt$, the number of nuclei decaying between $t$ and $t+dt$. This value is relevant because nuclear decay is a [[random]] process, so the time it takes for a decay event to occur is a [[Random variable]].
 
 Under the assumption that the decay products are stable, it's easy to check that the total number of nuclei is conserved. Setting $N_{1}$ as the number of nuclei of the original material and $N_{2}$ as the number of product nuclei, we see
 $$N_{1}=N_{0}e^{-\lambda t},\qquad N_{2}=N_{0}(1-e^{-\lambda t})$$

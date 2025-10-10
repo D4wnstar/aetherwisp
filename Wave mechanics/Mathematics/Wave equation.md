@@ -74,7 +74,7 @@ One last thing to note is that the second rope doesn't budge ($v_{2}=0$ so $v_{2
 $$A_{R}=A_{I},\qquad A_{T}=0$$
 This makes sense: you can't transmit a wave to something that can't move. In fact, this is what would happen if instead of having an ideal infinite-mass rope, we just knotted the rope to a wall or other unmoving object.
 
-[^1]: This is assuming $\psi$ is a real-valued function. It if is complex-valued, then both the complex $\psi$ and its square modulo $\lvert \psi \rvert^{2}$ can be interpreted as amplitudes in some way. For quantum-mechanical [[Funzione d'onda|wavefunctions]], for example, $\psi$ is the [[probability amplitude]] and $\lvert \psi \rvert^{2}$ is the [[probability]] itself.
+[^1]: This is assuming $\psi$ is a real-valued function. It if is complex-valued, then both the complex $\psi$ and its square modulo $\lvert \psi \rvert^{2}$ can be interpreted as amplitudes in some way. For quantum-mechanical [[Funzione d'onda|wavefunctions]], for example, $\psi$ is the [[probability amplitude]] and $\lvert \psi \rvert^{2}$ is the [[Probability]] itself.
 
 [^2]: We don't really get to choose: nondispersive waves are the only ones that the wave equation can describe. Dispersive waves need more complicated forms of the wave equation.
 

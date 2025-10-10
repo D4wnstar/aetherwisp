@@ -4,19 +4,20 @@ aliases:
   - moment
   - algebraic moment
   - central moment
+  - raw moment
 ---
-The **moments** of a function are quantities pertaining to the shape of the function's graph. They are most commonly used in statistics to describe the shape of a [[probability distribution]]. A real-valued function $f(x)$ has countably infinite moments $\mu^{*}_{n}$, indexed by their order $n$ and defined as
+The **moments** of a function are quantities pertaining to the shape of the function's graph. They are most commonly used in statistics to describe the shape of a [[Probability distribution]]. A real-valued function $f(x)$ has countably infinite moments $\mu^{*}_{n}$, indexed by their order $n$ and defined as
 $$\mu^{*}_{n}=\sum_{i=1}^{\infty} x^{n}_{i}f(x_{i}),\qquad \mu^{*}_{n}=\int_{-\infty}^{\infty} x^{n}f(x) \ dx  $$
 depending on whether the function is discrete or continuous. These moments are about the origin. It is possible to have a more general form that defines the moment about an arbitrary point $c$ as
 $$\mu_{n}=\sum_{i=1}^{\infty} (x_{i}-c)^{n}f(x_{i}),\qquad \mu_{n}=\int_{-\infty}^{\infty} (x-c)^{n}f(x) \ dx $$
 
 Moments are interesting values because the (infinite) set of all moments for a function $f$ completely determines $f$ and are thus an alternative way of working with the function.
 ### For random variables
-Moments are particularly useful in the context of [[random variable|random variables]] since they give information on the distribution they follow. In this context, the moments gain specific interpretations.
+Moments are particularly useful in the context of [[Random variable|random variables]] since they give information on the distribution they follow. In this context, the moments gain specific interpretations.
 
 Consider a random variable $X$ (assumed continuous; for a discrete one, just change [[integral|integrals]] into [[Serie|series]]). The moments about zero take the name of **algebraic** or **raw moments** of order $k$ and are defined as
 $$\mu^{*}_{k}=\text{E}[X^{k}]=\int_{\Omega}x^{k}f_{X}(x)\ dx$$
-where $\text{E}$ is the [[expected value]] operator and $f_{X}(x)$ is the [[probability density function]]. The first couple of moments are:
+where $\text{E}$ is the [[expected value]] operator and $f_{X}(x)$ is the [[Probability density function]]. The first couple of moments are:
 0. $\mu^{*}_{0}=\int_{\Omega}f_{X}(x)\ dx$ is the [[Normalization|normalization condition]] for $f_{X}(x)$.
 1. $\mu^{*}_{1}=\int_{\Omega}xf_{X}(x)\ dx=\mu_{X}$ is the [[mean]] of $X$, an index of position.
 
