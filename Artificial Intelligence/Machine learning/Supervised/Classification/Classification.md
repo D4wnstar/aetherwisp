@@ -7,14 +7,14 @@ aliases:
   - perfect classifier
   - Bayes classifier
 ---
-**Classification** is a [[machine learning]] technique that produces a [[Artificial Intelligence/Machine learning/Model]], called a **classifier**, whose purpose is to classify inputs into a discrete, finite set of labels called **categories** or **classes**. When given an observation, a classifier tells you what category the observation is a part of.
+**Classification** is a [[machine learning]] technique that produces a [[Artificial Intelligence/Machine learning/Model|model]], called a **classifier**, whose purpose is to classify inputs into a discrete, finite set of labels called **categories** or **classes**. When given an observation, a classifier tells you what category the observation is a part of.
 
 When there are only two categories, we call the technique [[binary classification]]. If there are more, we call it [[multiclass classification]].
 ## Types
 ### Random classifier
-The simplest (and least useful) case is **random classifier**, which simply returns a random category. Formally, its prediction function is a [[Random variable]]:
+The simplest (and least useful) case is **random classifier**, which simply returns a random category. Formally, its prediction function is a [[random variable]]:
 $$f_\text{random}=y_{i}\quad\text{where}\quad i\sim U(1,\ldots,\lvert Y \rvert )$$
-where $U$ is a [[Uniform distribution]] over all possible class indexes. Naturally, this models no dependency between the inputs and outputs: it's just random. In fact, there's no learning phase at all (how could there be?), so it's hard to even call this a model. Nevertheless, it is the theoretically simplest classifier. A fair coin toss is a random binary classifier. A fair $N$-faced die is a random $N$-multiclass classifier.
+where $U$ is a [[uniform distribution]] over all possible class indexes. Naturally, this models no dependency between the inputs and outputs: it's just random. In fact, there's no learning phase at all (how could there be?), so it's hard to even call this a model. Nevertheless, it is the theoretically simplest classifier. A fair coin toss is a random binary classifier. A fair $N$-faced die is a random $N$-multiclass classifier.
 
 There's no real difficulty in building a random classifier: just sample values from a uniform distribution and map them to class labels.
 ### Dummy classifier
