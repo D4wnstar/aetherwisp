@@ -4,20 +4,22 @@ aliases:
   - MLE
   - binned maximum likelihood
 ---
-**Maximum likelihood estimation** (**MLE**) is a [[Parameter estimation]] method that uses the [[Likelihood]] function to determine the most accurate [[Estimator|point estimate]], specifically by finding the maximum of the likelihood.
+**Maximum likelihood estimation** (**MLE**) is a [[parameter estimation]] method that uses the [[likelihood]] function to determine the most accurate [[Estimator|point estimate]] of the parameters of a statistical [[Statistics/Modeling/Model|model]] by finding the maximum of the likelihood.
 
-Given a likelihood function $\mathcal{L}(x_{1},\ldots,x_{n};\theta_{1},\ldots,\theta_{m})$ for a set of parameter $\theta_{1},\ldots,\theta_{m}$ and a [[sample]] $\{ x_{i} \}_{i\in \mathbb{N}}$, the most accurate point estimates $\theta_{1}^{*},\ldots,\theta_{m}^{*}$ are the values for which the following system of derivatives is verified:
-$$\left\{\begin{align}
-\frac{ \partial \mathcal{L} }{ \partial \theta_{1} } &=0 \\
-\vdots& \\
-\frac{ \partial \mathcal{L} }{ \partial \theta_{m} } &=0
-\end{align}\right.$$
-
-Since $\mathcal{L}$ and $\ln \mathcal{L}$ share maxima, it is common to attempt to maximize $\ln \mathcal{L}$ instead since it makes the expression easier to solve.
+Given a likelihood function $\mathcal{L}(\theta_{1},\ldots,\theta_{M};x_{1},\ldots,x_{N})$ for a set of parameter $\theta_{1},\ldots,\theta_{M}$ on a [[sample]] $\{ x_{i} \}_{i\in \mathbb{N}}$, the most accurate point estimates $\theta_{1}^{*},\ldots,\theta_{M}^{*}$ of the parameters are the values for which the likelihood function is maximized. Formally, it's the set of parameters for which:
+$$\begin{cases}
+\dfrac{ \partial \mathcal{L} }{ \partial \theta_{1} } &=0 \\
+&\vdots \\
+\dfrac{ \partial \mathcal{L} }{ \partial \theta_{M} } &=0
+\end{cases}\quad\text{and}\quad\begin{cases}
+-\dfrac{ \partial ^{2} \mathcal{L} }{ \partial ^{2} \theta_{1} } &>0 \\
+&\vdots \\
+-\dfrac{ \partial ^{2} \mathcal{L} }{ \partial ^{2} \theta_{M} } &>0
+\end{cases}$$
 ### Approximation
 The behavior of the logarithm can be shown through a [[Taylor series|Taylor series]] around the best point estimate:
 $$\ln \mathcal{L}(\theta)=\ln \mathcal{L}(\theta^{*})+ \frac{d\ln \mathcal{L}}{d\theta}(\theta^{*})(\theta-\theta^{*})+ \frac{1}{2} \frac{d^{2}\ln \mathcal{L}}{d\theta}(\theta^{*})(\theta-\theta^{*})^{2}+\ldots$$
-The first terms is the maximum, whereas the second vanishes due to being a [[Punto critico|stationary point]]. The third term can be expressed using a inverted, saturated [[Kramer-Rao-Frechet inequality]] so that we're left with
+The first terms is the maximum, whereas the second vanishes due to being a [[Punto critico|stationary point]]. The third term can be expressed using a inverted, saturated [[Cramer-Rao-Frechet inequality]] so that we're left with
 $$\ln \mathcal{L}(\theta)\simeq \ln \mathcal{L}_{\text{max}}- \frac{1}{2} \frac{(\theta-\theta^{*})^{2}}{\sigma^{2}_{\theta^{*}}}$$
 and so the likelihood itself is approximately
 $$\mathcal{L}(\theta)\simeq \mathcal{L}_\text{max}e^{- (\theta-\theta^{*})^{2}/\sigma^{2}_{\theta^{*}}}$$
