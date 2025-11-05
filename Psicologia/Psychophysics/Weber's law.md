@@ -1,5 +1,5 @@
 ---
-wiki-publish: false
+wiki-publish: true
 aliases:
   - Weber's constant
 ---
