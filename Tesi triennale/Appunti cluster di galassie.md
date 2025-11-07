@@ -30,3 +30,4 @@ Qui $S$ è la costante di proporzionalità nell'equazione di stato di gas perfet
 $$K=k_{B}Tn^{-2/3}_{e}$$
 Questa quantità nel modello autosimilare, calcolata a sovradensità fissa $\Delta_{c}$, scala con temperatura e redshift come
 $$\boxed{K_{\Delta_{c}}\propto TE^{-4/3}(z)}$$
+### Argomenti numerici
