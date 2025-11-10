@@ -14,3 +14,4 @@ Parametri cruciali per l'accuratezza di una simulazione cosmologica sono
 - la risoluzione di massa, perché la minima massa simulabile rappresenta la più piccola fonte di gravità simulabile individualmente.
 - la risoluzione spaziale, perché è la grandezza minima di una cella simulata e quindi il grado di informazione che si perde per quanto riguarda la distribuzione nello spazio.
 
+La gravità e i fattori fluidodinamici sono gli aspetti più importanti della simulazione, ma ve ne sono altri. Ad esempio, la formazione stellare e l'accrescimento dei buchi neri, che vanno anch'essi simulati per essere corretti anche nei dettagli.
