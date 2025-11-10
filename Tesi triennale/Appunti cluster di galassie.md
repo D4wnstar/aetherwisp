@@ -30,4 +30,9 @@ Qui $S$ è la costante di proporzionalità nell'equazione di stato di gas perfet
 $$K=k_{B}Tn^{-2/3}_{e}$$
 Questa quantità nel modello autosimilare, calcolata a sovradensità fissa $\Delta_{c}$, scala con temperatura e redshift come
 $$\boxed{K_{\Delta_{c}}\propto TE^{-4/3}(z)}$$
-### Argomenti numerici
+### Migliorie non-autosimilari
+Il modello autosimilare (e il suo vicino modello a simmetria sferica) manca di alcuni fenomeni ulteriori alla gravità che descrivono l'evoluzione dell'ICM. Per esempio, processi di feedback dovuti alla formazione stellare, supernove e l'accrescimento dei buchi neri, che producono e trasportano metalli e li diffondono nel cluster mediante processi di gasdinamica. Questi processi paiono essere specialmente importanti nel centro del cluster, dove le simulazioni e i modelli divergono di più.
+
+Una miglioria è aggiungere un pre-riscaldamento del gas ICM a causa di AGN e venti galattici. Questo inietta un'energia termica $E_{h}$ nel sistema che contrasta il collasso gravitazionale. L'effetto è massimo per cluster piccoli e minimo per quelli grandi. Aggiungere questo fenomeno migliora notevolmente le predizioni di luminosità X delle simulazioni. Il problema sta che l'energia necessaria $E_{h}$ per ottenere predizioni realistiche è superiore a quella che le supernove possono realisticamente dare, anche assumendo alta efficienza termica.
+
+Un'altra migliora, apparentemente paradossale, è aggiungere il raffreddamento del gas come spiegazione per l'elevata entropia centrale. La spiegazione è che il raffreddamento rimuove gas a bassa entropia dalla fase calda, che dunque smette di emettere X. L'unico gas che rimane ad emettere X è quello ad alta entropia, che noi osserviamo.
