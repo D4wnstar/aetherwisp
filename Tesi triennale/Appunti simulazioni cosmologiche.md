@@ -13,4 +13,3 @@ La dinamica della materia barionica è fortemente collisionale e si simula dunqu
 Parametri cruciali per l'accuratezza di una simulazione cosmologica sono
 - la risoluzione di massa, perché la minima massa simulabile rappresenta la più piccola fonte di gravità simulabile individualmente.
 - la risoluzione spaziale, perché è la grandezza minima di una cella simulata e quindi il grado di informazione che si perde per quanto riguarda la distribuzione nello spazio.
-
