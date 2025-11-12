@@ -32,3 +32,4 @@
 - Disintegration energy
 - Delta resonance
 - Virtual gluonic energy
+- Supersonic galactic movement
