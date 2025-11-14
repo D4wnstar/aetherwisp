@@ -71,6 +71,79 @@ dove $r_{i}=\lvert \mathbf{x}-\mathbf{r}_{i} \rvert$ è la distanza della $i$-es
 I metodi ibridi hanno miglioramenti sostanziali su entrambi i metodi di cui sono composti, sia in termini di risoluzioni che di performance.
 
 Il metodo $P^{3}M$ è una versione più vecchia, dove anziché usare un metodo ad albero per il potenziale short, usava la somma diretta. Di fatto, è un caso specifico di TreePM dato che l'albero si riduce a somma diretta se si richiede massima precisione.
+#### Integrazione
+Il timestep è tipicamente deciso con la regola
+$$\Delta t=\alpha \sqrt{ \varepsilon/\lvert \mathbf{a} \rvert  }$$
+dove $\mathbf{a}$ è la velocità ottenuta nel precedente timestep, $\varepsilon$ è la scala di lunghezza, tipicamente associata all'attenuazione gravitazionale, e $\alpha$ è un parametro di [[Tolerance|tolleranza]]. Per il metodi, si usano cose standard; vedi [[Numerical integration]].
+#### Condizioni iniziali
+Le condizioni iniziali sono un punto chiave. In simulazioni cosmologiche, le condizioni iniziali partono da un campo random gaussiano di fluttuazioni di densità. Questo campo random è descritto interamente dallo spettro di potenza, la cui forma analitica è motivata da parametri cosmologici e la natura della materia oscura.
+
+Per generare le condizioni iniziali, si genera un set di numeri complessi con fase $\phi$ random e ampiezza anche random secondo una normale con varianza data dallo spettro desiderato. Questo set può essere ottenuto campionando due numeri random $\phi \in]0,1]$ e $A\in]0,1]$ per ogni punto in $k$-spazio:
+$$\hat{\delta}_{\mathbf{k}}=\sqrt{ -2P(\lvert \mathbf{k} \rvert )\ln(A) }\ e^{i2\pi \phi}$$
+Per ottenere il campo di perturbazioni di questa distribuzione, bisogna trovare il potenziale gravitazionale $\Phi(\mathbf{q})$ su una griglia $\mathbf{q}$ in spazio reale mediante una trasformata di Fourier
+$$\Phi(\mathbf{q})=\sum_{k} \frac{\hat{\delta}_{\mathbf{k}}}{\lvert \mathbf{k} \rvert ^{2}}e^{i\mathbf{k}\cdot \mathbf{q}}$$
+Si usa poi l'**approssimazione di Zel'dovich** per trovare le posizioni e velocità iniziali delle particelle mediante
+$$\mathbf{x}=\mathbf{q}-D^{+}(z)\Phi(\mathbf{q}),\qquad \mathbf{v}=\dot{D}^{+}(z)\nabla \Phi(\mathbf{q})$$
+$D^{+}(z)$ indica il fattore di crescita cosmologica lineare a redshift iniziale $z$.
+##### Risoluzione
+La risoluzione necessaria dipende molto dai dati che si vogliono ottenere dalla simulazione.
+### Idrodinamica
+A differenza della DM, che è non-collisionale, la materia barionica è collisionale ed è ben rappresentata come un fluido ideale. In particolare, l'evoluzione del fluido si segue risolvendo
+$$\begin{align}
+&\frac{d\mathbf{v}}{dt}=- \frac{\nabla P}{\rho}-\nabla \Phi \\
+&\frac{d\rho}{dt}+\rho \nabla\cdot\mathbf{v}=0 \\
+& \frac{du}{dt}=- \frac{P}{\rho}\nabla\cdot \mathbf{v} - \frac{\Lambda(u,\rho)}{\rho}
+\end{align}$$
+Rispettivamente sono:
+1. l'equazione di Eulero
+2. l'equazione di continuità di massa
+3.  la prima legge di termodinamica
+
+Queste sono chiuse da un'equazione di stato che lega la pressione $P$ e l'energia interna per unità di massa $u$. Nel caso di un gas monatomico ideale, questa è $P=(\gamma-1)\rho u$, con $\gamma=5/3$. La funzione $\Lambda(u,\rho)$ è una funzione di raffreddamento che descrive perdite termiche per radiazione.
+
+Data la forte nonlinearità della materia a scala cosmologica, si ergono due sfide che tipicamente non sono così problematiche nelle simulazioni idrodinamiche tipiche. Una è il moto estremamente supersonico attorno ai picchi di densità sviluppati da instabilità gravitazionali. Questo porta a discontinuità da shock piuttosto intense entro strutture complesse altrimenti lisce. L'altra è la presenza di un range dinamico enorme sia nello spazio che nel tempo, così come nelle quantità del gas. Per esempio, le scale di lunghezza nella struttura gerarchia della distribuzione di galassie vanno dai pochi kiloparsec di una singola galassia alle decine di megaparsec di ICM interno ai cluster.
+
+Risolvere materia barionica collisionale e materia oscura non-collisionale in contemporanea è un problema considerevole. I metodi di risoluzioni si dividono in due categorie:
+1. metodi a particelle, che discretizzano la massa
+2. metodi a griglia, che discretizzano lo spazio
+#### Metodi a griglia (Euleriani)
+Il set di equazioni idrodinamiche per un universo in espansione è
+$$\begin{align}
+&\frac{ \partial \mathbf{v} }{ \partial t } + \frac{1}{a}(\mathbf{v}\cdot \nabla)\mathbf{v}+ \frac{\dot{a}}{a}\mathbf{v}=- \frac{1}{a\rho}\nabla P- \frac{1}{a}\nabla \Phi \\
+& \frac{ \partial \rho }{ \partial t } + \frac{3\dot{a}}{a}\rho+ \frac{1}{a}\nabla \cdot(\rho \mathbf{v})=0 \\
+&\frac{ \partial  }{ \partial t } (\rho u)+ \frac{1}{a}\mathbf{v}\cdot \nabla(\rho u)=-(\rho u+P)\left( \frac{1}{a}\nabla \cdot \mathbf{v} + 3 \frac{\dot{a}}{a}\right)
+\end{align}$$
+Il termine a destra della terza equazione rappresenta il lavoro dell'espansione, oltre a quello usuale $PdV$. I metodi a griglia risolvono queste equazioni basandosi su una griglia più o meno strutturata che rappresenta il fluido.
+
+Si distinguono **variabili primitive**, che determinano la termodinamica (e.g. $\rho$, $\mathbf{v}$ o $P$) and **variabili conservative** che definiscono le leggi di conservazione (e.g. $\rho$, $\rho \mathbf{v}$ o $\rho u$).
+
+Data la complessità delle equazioni in gioco, metodi a differenza centrale tipo quelli in [[Numerical integration]] cadono a pezzi alla prima comparsa di discontinuità. Se usati, si tende ad usare una viscosità virtuale per simulare gli shock. Approcci più moderni usano schemi a ricostruzione che tengono anche conto di celle vicine oltre per ricostruire il campo in ogni cella, in particolare i valori al contorno delle celle. Le celle extra usate in questa stima si chiamano **stencil**. Tre esempi di schemi, ad accuratezza crescente, sono **piecewise constant method** (**PCM**), **piecewise linear method** (**PLM**) e **piecewise parabolic method** (**PPM**). Ne esistono anche di ordine ancora maggiore. Il metodo decide come ottenere la funzione di ricostruzione $f_{n,u}(x)$ che viene poi integrata sulla cella e poi divisa per il volume della cella per ottenere una stima migliore del valore rispetto ad una semplice differenza centrale:
+$$\hat{u}_{n}=\int_{x_{n}-0.5}^{x_{n}+0.5}f_{n,u}(x)dx$$
+È possibile anche aggiungere vincoli aggiuntivi alla ricostruzione per evitare oscillazioni. Per esempio, in PLM si aggiungono **slope limiters** che impediscono alla derivata (di fatto: differenza finita) di $f_{n,u}$ di eccedere certi valori. In PPM, prendono la forma di vincoli aggiuntivi nei parametri per trovare il polinomio che fitta meglio l'andamento di $u$. Metodi di ricostruzione moderni usano almeno 5 celle di stencil e hanno proprietà utili implementate come garanzie nella preservazione della monotonicità.
+
+Per ogni ricostruzione $f_{n,u}$ è possibile definire un **indicatore di liscezza** $S_{n}^{m}$. Questa metrica è utile per esempio per poter creare più ricostruzioni per la stessa cella e poi selezionare quella con liscezza minore. Questo migliora la stabilità attorno a discontinuità e sopprime le oscillazioni. Questo metodo si chiama **essentially non-oscillatory methods** (**ENO methods**). Un metodo più raffinato è prendere la media pesata di tutte le ricostruzioni, i cui pesi sono definiti in base alla liscezza. Questo metodo si chiama **weighted essentially non-oscillatory methods** (**WENO methods**).
+
+Una volta ricostruiti i valori al contorno, si ottengono discontinuità ad ogni cella. Queste discontinuità sono legate fra loro in una singola funzione continua risolvendo il **problema di Riemann**, ossia determinare l'evoluzione di due pezzi costanti di una funzione separate da una discontinuità. Questo può essere fatto sia analiticamente che numericamente, ed esistono numerosi metodi per farlo. Una volta risolto, i flussi attraverso i bordi delle celle possono essere usati per aggiornare il valore di $u$ in ogni cella.
+#### Metodi a particelle (Lagrangiani)
+I metodi a particelle consistono in varianti di idrodinamica a particelle lisciate (**smoothed particle hydrodynamics**, **SPH**). I metodi SPH risolvono le equazioni di Eulero in forma Lagrangiana. Hanno risoluzione buona in regioni ad alta densità, ma scarsa in regioni a bassa densità. Hanno anche problemi in zone con shock a causa dell'aggiunta di viscosità artificiale piuttosto alta e in generale non si comportano bene in presenza di instabilità dinamiche. Nonostante tutto, la loro adattività innata è sufficiente a compensare queste mancanze e dunque sono i metodi più usati in idrodinamica numerica cosmologica.
+
+L'idea di base è discretizzare il fluido in elementi di massa (i.e. particelle) anziché elementi di volume come in una griglia. Di conseguenza, la risoluzione spaziale si adatta automaticamente in base allo stato fisico della simulazione: oggetti collassati avranno naturalmente più particelle vicine e quindi migliore risoluzione spaziale.
+
+L'idea di base è rappresentare quantità $A(\mathbf{x})$ su un fluido continuo mediante una media lisciata tramite un kernel $W(\mathbf{x},h)$. Questa è una funzione normalizzata su $x$ ($\int W(\mathbf{x},h)d\mathbf{x}=1$) che rappresenta come viene lisciata $A$ su una distanza $h$. La media di $A$ viene dunque definita come
+$$\langle A(\mathbf{x}) \rangle =\int W(\mathbf{x}-\mathbf{x}',h)A(\mathbf{x}')d\mathbf{x}'$$
+Il kernel $W$ tende ad una delta di Dirac man mano che $h$ tende a 0, ossia $\lim_{ h \to 0 }W(\mathbf{x},h)=\delta(\mathbf{x})$. Questa funzione è poi scritta in base alle coordinate discrete $\mathbf{x}_{i}$ delle particelle come una somma anziché un integrale. Le derivate di $\langle A_{i} \rangle$ a loro volta diventano somme discrete. Il kernel è tipicamente scelto come la spline $B_{2}$ perché si trova essere la scelta ottimale nella maggioranza delle situazioni. In casi speciali esistono altre scelte.
+
+Sviluppando questo metodo si trova che l'equazione di Eulero può essere scritta come
+$$\frac{d\mathbf{v}_{i}}{dt}=-\sum_{j=1}^{N-1} -m_{j}\left( \frac{P_{j}}{\rho_{j}^{2}}+ \frac{P_{i}}{\rho_{i}^{2}}+\Pi_{ij} \right)\nabla_{i}W(\mathbf{x}_{i}-\mathbf{x}_{j},h)$$
+dove $\Pi_{ij}$ è un termine di **viscosità artificiale**, che serve per descrivere shock anche in questo schema discretizzato. Esistono studi fatti su che forma dovrebbe avere $\Pi_{ij}$ (e.g. Monaghan & Gingold 1983 o Monaghan 1997). La prima legge della termodinamica può anche essere scritta come
+$$\frac{du_{i}}{dt}=\frac{1}{2}\sum_{j=1}^{N-1} m_{j}\left( \frac{P_{j}}{\rho_{j}^{2}}+ \frac{P_{i}}{\rho_{i}^{2}}+\Pi_{ij} \right)(\mathbf{v}_{j}-\mathbf{v}_{i})\nabla_{i}W(\mathbf{x}_{i}-\mathbf{x}_{j},h)$$
+L'equazione di continuità non ha bisogno di essere evoluta perché è automaticamente vera sempre in un metodo Lagrangiano dato che simuliamo ogni singola particella individualmente.
+#### Paragoni
+I due schemi sono stati paragonati numerose volte nella letteratura sugli stessi problemi e si è trovato che i due metodi convergono in modo soddisfacente quando utilizzati sulle stesse dinamiche e condizioni iniziali. Le discrepanze tra i risultati sono ben spiegate dalle debolezze di ciascun metodo in uso.
+### Fisica aggiuntiva
+I metodi qui descritti si occupano principalmente di descrive l'azione della gravità o dei fenomeni idrodinamici, ma un sistema realistico contiene altra fisica oltre a questi effetti. Esempi importanti sono il raffreddamento radiativo, già menzionato nel termine $\Lambda(u,\rho)$ all'inizio di [[#Idrodinamica]], la formazione stellare, il feedback stellare come le supernove e i venti stellari, campi magnetici, raggi cosmici, fenomeni di trasporto e accrescimento di buchi neri.
+## Collegare simulazioni alle osservazioni
+Una volta compiuta una simulazione, bisogna assicurarsi che i dati che ne otteniamo siano equivalenti a quelli che otterremmo da una misura sperimentale con un telescopio. Questo non è un dato di fatto, dato che la strumentazione sperimentale ha un suo set di problematiche come risoluzione, rumore e altro. Paragonare direttamente i risultati di una simulazione ad un'osservazione sperimentale è dunque fuorviante, dato che la simulazione sarà "pura", mentre l'osservazione sarà affetta dai problemi di strumentazione imperfetta. Per paragonare le cose è importante dunque simulare gli effetti della strumentazione e applicarli sui risultati della simulazione per ottenere dati che sono fedeli alla nostra tecnologia e dunque paragonabili ai nostri esperimenti.
 ## Fonti
 - Dolag et al., 2008, Simulation techniques for cosmological simulations
 - Borgani & Kravtsov, 2009, Cosmological simulations of galaxy clusters
