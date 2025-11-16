@@ -88,18 +88,18 @@ $D^{+}(z)$ indica il fattore di crescita cosmologica lineare a redshift iniziale
 ##### Risoluzione
 La risoluzione necessaria dipende molto dai dati che si vogliono ottenere dalla simulazione.
 ### Idrodinamica
-A differenza della DM, che è non-collisionale, la materia barionica è collisionale ed è ben rappresentata come un fluido ideale. In particolare, l'evoluzione del fluido si segue risolvendo
+A differenza della DM, che è non-collisionale, la materia barionica è collisionale ed è ben rappresentata come un fluido ideale. In particolare, l'evoluzione del fluido si segue risolvendo le **equazioni di Eulero**, qui riportate in forma Lagrangiana:
 $$\begin{align}
 &\frac{d\mathbf{v}}{dt}=- \frac{\nabla P}{\rho}-\nabla \Phi \\
 &\frac{d\rho}{dt}+\rho \nabla\cdot\mathbf{v}=0 \\
-& \frac{du}{dt}=- \frac{P}{\rho}\nabla\cdot \mathbf{v} - \frac{\Lambda(u,\rho)}{\rho}
+& \frac{du}{dt}=- \frac{P}{\rho}\nabla\cdot \mathbf{v} - n^{2}\frac{\Lambda(u,\rho)}{\rho}
 \end{align}$$
 Rispettivamente sono:
-1. l'equazione di Eulero
+1. l'equazione del momento
 2. l'equazione di continuità di massa
 3.  la prima legge di termodinamica
 
-Queste sono chiuse da un'equazione di stato che lega la pressione $P$ e l'energia interna per unità di massa $u$. Nel caso di un gas monatomico ideale, questa è $P=(\gamma-1)\rho u$, con $\gamma=5/3$. La funzione $\Lambda(u,\rho)$ è una funzione di raffreddamento che descrive perdite termiche per radiazione.
+Queste sono chiuse da un'equazione di stato che lega la pressione $P$ alla densità di massa $\rho$ e l'energia interna per unità di massa $u$. Nel caso di un gas monatomico ideale, questa è $P=(\gamma-1)\rho u$, con indice politropico $\gamma=5/3$. La funzione $\Lambda(u,\rho)$ è una funzione di raffreddamento che descrive perdite termiche per radiazione e $n$ è la densità di numero del gas.
 
 Data la forte nonlinearità della materia a scala cosmologica, si ergono due sfide che tipicamente non sono così problematiche nelle simulazioni idrodinamiche tipiche. Una è il moto estremamente supersonico attorno ai picchi di densità sviluppati da instabilità gravitazionali. Questo porta a discontinuità da shock piuttosto intense entro strutture complesse altrimenti lisce. L'altra è la presenza di un range dinamico enorme sia nello spazio che nel tempo, così come nelle quantità del gas. Per esempio, le scale di lunghezza nella struttura gerarchia della distribuzione di galassie vanno dai pochi kiloparsec di una singola galassia alle decine di megaparsec di ICM interno ai cluster.
 
@@ -107,7 +107,7 @@ Risolvere materia barionica collisionale e materia oscura non-collisionale in co
 1. metodi a particelle, che discretizzano la massa
 2. metodi a griglia, che discretizzano lo spazio
 #### Metodi a griglia (Euleriani)
-Il set di equazioni idrodinamiche per un universo in espansione è
+Il set di equazioni di Eulero in forma Euleriana per un universo in espansione è
 $$\begin{align}
 &\frac{ \partial \mathbf{v} }{ \partial t } + \frac{1}{a}(\mathbf{v}\cdot \nabla)\mathbf{v}+ \frac{\dot{a}}{a}\mathbf{v}=- \frac{1}{a\rho}\nabla P- \frac{1}{a}\nabla \Phi \\
 & \frac{ \partial \rho }{ \partial t } + \frac{3\dot{a}}{a}\rho+ \frac{1}{a}\nabla \cdot(\rho \mathbf{v})=0 \\
@@ -117,7 +117,7 @@ Il termine a destra della terza equazione rappresenta il lavoro dell'espansione,
 
 Si distinguono **variabili primitive**, che determinano la termodinamica (e.g. $\rho$, $\mathbf{v}$ o $P$) and **variabili conservative** che definiscono le leggi di conservazione (e.g. $\rho$, $\rho \mathbf{v}$ o $\rho u$).
 
-Data la complessità delle equazioni in gioco, metodi a differenza centrale tipo quelli in [[Numerical integration]] cadono a pezzi alla prima comparsa di discontinuità. Se usati, si tende ad usare una viscosità virtuale per simulare gli shock. Approcci più moderni usano schemi a ricostruzione che tengono anche conto di celle vicine oltre per ricostruire il campo in ogni cella, in particolare i valori al contorno delle celle. Le celle extra usate in questa stima si chiamano **stencil**. Tre esempi di schemi, ad accuratezza crescente, sono **piecewise constant method** (**PCM**), **piecewise linear method** (**PLM**) e **piecewise parabolic method** (**PPM**). Ne esistono anche di ordine ancora maggiore. Il metodo decide come ottenere la funzione di ricostruzione $f_{n,u}(x)$ che viene poi integrata sulla cella e poi divisa per il volume della cella per ottenere una stima migliore del valore rispetto ad una semplice differenza centrale:
+Data la complessità delle equazioni in gioco, metodi a differenza centrale tipo quelli in [[Numerical integration]] cadono a pezzi alla prima comparsa di discontinuità. Se usati, si usa una viscosità virtuale per simulare gli shock. Questi metodi sono accurati solo al primo ordine. Approcci più moderni usano schemi a ricostruzione che tengono anche conto di celle vicine oltre per ricostruire il campo in ogni cella, in particolare i valori al contorno delle celle. Le celle extra usate in questa stima si chiamano **stencil**. Tre esempi di schemi, ad accuratezza crescente, sono **piecewise constant method** (**PCM**), **piecewise linear method** (**PLM**) e **piecewise parabolic method** (**PPM**). Ne esistono anche di ordine ancora maggiore. Il metodo decide come ottenere la funzione di ricostruzione $f_{n,u}(x)$ che viene poi integrata sulla cella e poi divisa per il volume della cella per ottenere una stima $\hat{u}_{n}$ migliore del valore rispetto ad una semplice differenza centrale $u_{n}$:
 $$\hat{u}_{n}=\int_{x_{n}-0.5}^{x_{n}+0.5}f_{n,u}(x)dx$$
 È possibile anche aggiungere vincoli aggiuntivi alla ricostruzione per evitare oscillazioni. Per esempio, in PLM si aggiungono **slope limiters** che impediscono alla derivata (di fatto: differenza finita) di $f_{n,u}$ di eccedere certi valori. In PPM, prendono la forma di vincoli aggiuntivi nei parametri per trovare il polinomio che fitta meglio l'andamento di $u$. Metodi di ricostruzione moderni usano almeno 5 celle di stencil e hanno proprietà utili implementate come garanzie nella preservazione della monotonicità.
 
@@ -129,7 +129,7 @@ I metodi a particelle consistono in varianti di idrodinamica a particelle liscia
 
 L'idea di base è discretizzare il fluido in elementi di massa (i.e. particelle) anziché elementi di volume come in una griglia. Di conseguenza, la risoluzione spaziale si adatta automaticamente in base allo stato fisico della simulazione: oggetti collassati avranno naturalmente più particelle vicine e quindi migliore risoluzione spaziale.
 
-L'idea di base è rappresentare quantità $A(\mathbf{x})$ su un fluido continuo mediante una media lisciata tramite un kernel $W(\mathbf{x},h)$. Questa è una funzione normalizzata su $x$ ($\int W(\mathbf{x},h)d\mathbf{x}=1$) che rappresenta come viene lisciata $A$ su una distanza $h$. La media di $A$ viene dunque definita come
+L'idea di base è rappresentare quantità $A(\mathbf{x})$ su un fluido continuo mediante una media lisciata tramite un kernel $W(\mathbf{x},h)$. Questa è una funzione normalizzata su $x$ ($\int W(\mathbf{x},h)d\mathbf{x}=1$) che rappresenta come viene lisciata $A$ su una distanza $h$. La media di $A$ viene dunque definita come un **kernel density estimate**
 $$\langle A(\mathbf{x}) \rangle =\int W(\mathbf{x}-\mathbf{x}',h)A(\mathbf{x}')d\mathbf{x}'$$
 Il kernel $W$ tende ad una delta di Dirac man mano che $h$ tende a 0, ossia $\lim_{ h \to 0 }W(\mathbf{x},h)=\delta(\mathbf{x})$. Questa funzione è poi scritta in base alle coordinate discrete $\mathbf{x}_{i}$ delle particelle come una somma anziché un integrale. Le derivate di $\langle A_{i} \rangle$ a loro volta diventano somme discrete. Il kernel è tipicamente scelto come la spline $B_{2}$ perché si trova essere la scelta ottimale nella maggioranza delle situazioni. In casi speciali esistono altre scelte.
 
