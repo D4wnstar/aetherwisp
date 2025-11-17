@@ -129,9 +129,21 @@ I metodi a particelle consistono in varianti di idrodinamica a particelle liscia
 
 L'idea di base è discretizzare il fluido in elementi di massa (i.e. particelle) anziché elementi di volume come in una griglia. Di conseguenza, la risoluzione spaziale si adatta automaticamente in base allo stato fisico della simulazione: oggetti collassati avranno naturalmente più particelle vicine e quindi migliore risoluzione spaziale.
 
-L'idea di base è rappresentare quantità $A(\mathbf{x})$ su un fluido continuo mediante una media lisciata tramite un kernel $W(\mathbf{x},h)$. Questa è una funzione normalizzata su $x$ ($\int W(\mathbf{x},h)d\mathbf{x}=1$) che rappresenta come viene lisciata $A$ su una distanza $h$. La media di $A$ viene dunque definita come un **kernel density estimate**
+L'idea di base è rappresentare quantità $A(\mathbf{x})$ su un fluido continuo mediante una media lisciata tramite un kernel $W(\mathbf{x},h)$. Questa è una funzione che rappresenta come viene lisciata $A$ su una distanza $h$. La media di $A$ viene dunque definita come un **kernel density estimate**
 $$\langle A(\mathbf{x}) \rangle =\int W(\mathbf{x}-\mathbf{x}',h)A(\mathbf{x}')d\mathbf{x}'$$
-Il kernel $W$ tende ad una delta di Dirac man mano che $h$ tende a 0, ossia $\lim_{ h \to 0 }W(\mathbf{x},h)=\delta(\mathbf{x})$. Questa funzione è poi scritta in base alle coordinate discrete $\mathbf{x}_{i}$ delle particelle come una somma anziché un integrale. Le derivate di $\langle A_{i} \rangle$ a loro volta diventano somme discrete. Il kernel è tipicamente scelto come la spline $B_{2}$ perché si trova essere la scelta ottimale nella maggioranza delle situazioni. In casi speciali esistono altre scelte.
+Per definizione, il kernel $W(\mathbf{x},h)$ è una funzione che
+- è monotonica
+- è differenziabile
+- dipende solo dal modulo della distanza
+- normalizzata su $x$: $\int W(\mathbf{x},h)d\mathbf{x}=1$
+- tende ad una delta di Dirac man mano che $h$ tende a 0, ossia $\lim_{ h \to 0 }W(\mathbf{x},h)=\delta(\mathbf{x})$
+
+Dato che stiamo discretizzando il fluido continuo come un insieme discreto di particelle, l'integrale viene poi approssimato ad una somma su coordinate discrete $\mathbf{x}_{i}$. L'elemento di volume $d\mathbf{x}$ viene sostituito dal rapporto massa densità $m_{j}/\rho_{j}$ nel $j$-esimo punto.
+$$\langle A_{i} \rangle =\langle A(\mathbf{x}_{i}) \rangle =\sum_{j=1}^{N-1} \frac{m_{j}}{\rho_{j}}A_{j}W(\mathbf{r}_{ij},h)$$
+dove $\mathbf{r}_{ij}\equiv \mathbf{x}_{i}-\mathbf{x}_{j}$ è il vettore che collega la $i$-esima e $j$-esima particella. Le derivate di $\langle A_{i} \rangle$ si trovano derivando la precedente equazione, il che equivale a derivare il kernel:
+$$\nabla \langle A_{i} \rangle =\sum_{j=1}^{N-1} \frac{m_{j}}{\rho_{j}}A_{j}\nabla W(\mathbf{r}_{ij},h)$$
+
+Storicamente il kernel più scelto era la spline $B_{2}$, ma oggi è più comune usare funzioni nella famiglia dei kernel HOCT o i cosiddeti kernel di Wendland.
 
 Sviluppando questo metodo si trova che l'equazione di Eulero può essere scritta come
 $$\frac{d\mathbf{v}_{i}}{dt}=-\sum_{j=1}^{N-1} -m_{j}\left( \frac{P_{j}}{\rho_{j}^{2}}+ \frac{P_{i}}{\rho_{i}^{2}}+\Pi_{ij} \right)\nabla_{i}W(\mathbf{x}_{i}-\mathbf{x}_{j},h)$$
@@ -140,6 +152,10 @@ $$\frac{du_{i}}{dt}=\frac{1}{2}\sum_{j=1}^{N-1} m_{j}\left( \frac{P_{j}}{\rho_{j
 L'equazione di continuità non ha bisogno di essere evoluta perché è automaticamente vera sempre in un metodo Lagrangiano dato che simuliamo ogni singola particella individualmente.
 #### Paragoni
 I due schemi sono stati paragonati numerose volte nella letteratura sugli stessi problemi e si è trovato che i due metodi convergono in modo soddisfacente quando utilizzati sulle stesse dinamiche e condizioni iniziali. Le discrepanze tra i risultati sono ben spiegate dalle debolezze di ciascun metodo in uso.
+#### Evoluzioni
+Molto lavoro è stato fatto per cercare di combinare i metodi euleriani e lagrangiani per avere il meglio di entrambi. Un tipo di miglioramento di questo genere sono i cosiddetti metodi a maglia mobile (**moving mesh methods**), che riformulano i metodi euleriani in approcci a maglia lagrangiana. L'idea originale è partire da una maglia regolare e poi deformarla seguendo il flusso del fluido, calcolando i flussi ai margini delle celle per risolvere le equazioni di Eulero. A causa della pesante deformazione delle celle, si usano tessellazioni di Voronoi o Delaunay per segmentare lo spazio. I flussi sono calcolati sul centroide dell'interfaccia. Il moto dell'interfaccia è dunque determinato dal moto dei centri delle celle. I flussi sono determinati risolvendo un problema di Riemann in un sistema di riferimento ruotato a modo che sia allineato con l'interfaccia.
+
+Un altro miglioramento sono i metodi senza maglia (**meshless methods**), che sono una classe di metodi lagrangiani nati per scopi astrofisici. Sono simili agli SPH, ma partono da un integrale diverso, più complicato, che contiene un campo scalare, la sua sorgente, il suo flusso in un sistema di riferimento possibilmente in moto, e una funzione differenziabile arbitraria di spazio e tempo.
 ### Fisica aggiuntiva
 I metodi qui descritti si occupano principalmente di descrive l'azione della gravità o dei fenomeni idrodinamici, ma un sistema realistico contiene altra fisica oltre a questi effetti. Esempi importanti sono il raffreddamento radiativo, già menzionato nel termine $\Lambda(u,\rho)$ all'inizio di [[#Idrodinamica]], la formazione stellare, il feedback stellare come le supernove e i venti stellari, campi magnetici, raggi cosmici, fenomeni di trasporto e accrescimento di buchi neri.
 ## Collegare simulazioni alle osservazioni
