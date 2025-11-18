@@ -28,14 +28,13 @@ Il metodo usato per compiere la simulazione dipende da cosa si simula e che rich
 	- tra qualche centinaia di parsec e alcuni kiloparsec di spazio, rispettivamente per singole galassie e box cosmologici
 ### N-body
 La simulazione più semplice possibile (in linea di principio) è una $N$-body. Prendi $N$ corpi, calcola l'attrazione gravitazionale fra di loro e risolvi numericamente le equazioni del moto. È una simulazione puramente gravitazione e dunque di particolare interesse per la CDM. La CDM è rappresentata come un fluido non-collisionale non-relativistico ("cold") di particelle di massa $m$, posizione $\mathbf{x}$ and momento $\mathbf{p}$. Per rispettare l'espansione dell'universo a fattore di scala $a=(1+z)^{-1}$, si usano coordinate comoventi. In questo modello, la distribuzione nello spazio delle fasi $f(\mathbf{x},\mathbf{p},t)$ è dato dall'**equazione di Vlasov**:
-$$\boxed{\frac{ \partial f }{ \partial t } + \frac{\mathbf{p}}{ma^{2}}\cdot\nabla f-m\nabla \Phi\cdot \frac{ \partial f }{ \partial \mathbf{p} } =0}$$
+$$\boxed{\frac{ \partial f }{ \partial t } + \frac{\mathbf{p}}{ma^{2}}\cdot \frac{ \partial f }{ \partial \mathbf{x} }  -m \nabla \Phi \cdot \frac{ \partial f }{ \partial \mathbf{p} } =0}$$
 accoppiata all'equazione di Poisson del potenziale gravitazionale $\Phi$:
 $$\boxed{\nabla ^{2}\Phi(\mathbf{x},t)=4\pi Ga^{2} [\rho(\mathbf{x},t)-\bar{\rho}(t)]  }$$
 
 > [!info]- Notazione
-> Il gradiente è da assumersi rispetto alle sole coordinate spaziali:
-> $$\nabla f(\mathbf{x},\mathbf{p},t)\equiv \frac{ \partial f(\mathbf{x},\mathbf{p},t) }{ \partial \mathbf{x} } \equiv\left( \frac{ \partial f }{ \partial x } ,\frac{ \partial f }{ \partial y } ,\frac{ \partial f }{ \partial z }  \right)$$
 > La derivata rispetto ad un vettore è un'abbreviazione per il vettore di derivate parziali di ogni componente del vettore:
+> $$\frac{ \partial f(\mathbf{x},\mathbf{p},t) }{ \partial \mathbf{x} } \equiv\left( \frac{ \partial f }{ \partial x } ,\frac{ \partial f }{ \partial y } ,\frac{ \partial f }{ \partial z }  \right)$$
 > $$\frac{ \partial f(\mathbf{x},\mathbf{p},t) }{ \partial \mathbf{p} } \equiv\left( \frac{ \partial f }{ \partial p_{x} } ,\frac{ \partial f }{ \partial p_{y} } ,\frac{ \partial f }{ \partial p_{z} }  \right)$$
 
 Qui $\bar{\rho}(t)$ è la densità di sfondo al tempo $t$. La densità propria nel punto $\mathbf{x}$ è
@@ -51,7 +50,7 @@ $$\dot{a}=H_{0}\sqrt{ 1+\Omega_{0}(a^{-1}-1)+\Omega_{\Lambda}(a^{2}-1) }$$
 dove abbiamo assunto che l'energia oscura sia equivalente ad una costante cosmologica $\Lambda$.
 #### Somma diretta
 La soluzione più facile e diretta è sommare il contributo di ogni corpo al potenziale gravitazionale
-$$\Phi(\mathbf{r})=-G\sum_{i=1}^{N-1} \frac{m_{i}}{\sqrt{ \lvert \mathbf{r}-\mathbf{r}_{i} \rvert ^{2}+\varepsilon ^{2} }}$$
+$$\Phi(\mathbf{r})=-G\sum_{i=1}^{N} \frac{m_{i}}{\sqrt{ \lvert \mathbf{r}-\mathbf{r}_{i} \rvert ^{2}+\varepsilon ^{2} }}$$
 $\varepsilon$ verrà spiegato in un attimo. In teoria, questo è l'esatto potenziale Newtoniano che genera la dinamica del sistema. In pratica, le "particelle" sono in realtà regioni di spazio contenenti un enorme numero di corpi gravitanti, quindi in realtà possiamo parlare solo di proprietà statistiche di ciascuna "particella." A questo scopo, si introduce l'**attenuazione gravitazionale** $\varepsilon$ per rendere più liscia l'interazione tra due "particelle." Tipicamente $\varepsilon$ si sceglie essere tra $1/20$ e $1/50$ della distanza media tra le particelle.
 
 La somma diretta è il metodo più accurato, ma è anche quello più computazionalmente costoso (è $O(N^{2})$). Si usa per le simulazioni che richiedono precisione superiore. Esistono ASIC il cui scopo è calcolare questa somma diretta (**Gravity Pipe** a.k.a. **GRAPE**) e può essere usato su GPU.
