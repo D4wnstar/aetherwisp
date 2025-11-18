@@ -16,6 +16,6 @@ Similarly, overfitting is also referred to as **high variance**. This is because
 
 Flexibility should be chosen based on metrics that measure over- or underfitting in order to find an optimal value in the middle.
 
-[^1]: Learning techniques also don't have a well-defined end, so determining what counts or doesn't count as an output is a fool's errand. Does one step of training some random initial parameters count as making a model? The convenient answer is "who cares; all sets of parameters are models, but some models are better than others."
+[^1]: Learning techniques also don't have a well-defined end, so determining what counts or doesn't count as an output is a fool's errand. Does one step of training on some random initial parameters count as making a model? The convenient answer is "who cares; all sets of parameters are models, but some models are better than others."
 
 [^2]: Obviously there could be more processes at play, but the *sum* of these processes is unique. The model only "sees" the sum of the processes because that's the information that the data contains. For instance, if you're trying to predict the height of a person based on their age, there are an enormous amount of biochemical processes that lead to that result, but the model doesn't care, because it's not predicting any of those in particular. It's the predicting the collective effect of all of them.
