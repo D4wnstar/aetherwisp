@@ -11,7 +11,7 @@ $$\int_{-\infty}^{+\infty}\delta(x)dx=1$$
 e soprattutto
 $$\int_{-\infty}^{+\infty}\delta(x)f(x)=f(0)$$
 
-La notazione $\delta(x)$ è leggermente impropria, dato che è la notazione di una funzione, mentre questa è una funzione generalizzata. Più correttamente, andrebbe scritta in forma [[Operatore|operatoriale]] $\delta_{0}$, con 0 a rappresentare il punto in cui va a infinito. Così facendo, si può scrivere in modo conciso $\delta_{0}f(x)=f(0)$.
+La notazione $\delta(x)$ è leggermente impropria, dato che è la notazione di una funzione, mentre questa è una funzione generalizzata. Più correttamente, andrebbe scritta in forma [[Operatore|operatoriale]] $\delta_{0}$, con 0 a rappresentare il punto in cui va a infinito. Così facendo, si può scrivere in modo conciso $\int\delta_{0}f(x)=f(0)$.
 
 È possibile definire una delta di Dirac che va a infinito in un punto diverso da zero semplicemente traslando di una costante reale $a$:
 $$\delta(x-a)=\begin{cases}
