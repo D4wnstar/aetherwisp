@@ -33,7 +33,7 @@ Tornando alla distribuzione degli stati $p(\mathbf{w})$, la conservazione della 
 $$\frac{ \partial p }{ \partial t } +\nabla(p \dot{\mathbf{w}})=0$$
 che può essere riscritta come
 $$\frac{ \partial p }{ \partial t } +\sum_{i} \left( p \frac{ \partial \dot{\mathbf{r}}_{i} }{ \partial \mathbf{r}_{i} } +\frac{ \partial p }{ \partial \mathbf{r}_{i} } \dot{\mathbf{r}}_{i}+p \frac{ \partial \dot{\mathbf{v}}_{i} }{ \partial \mathbf{v}_{i} } +\frac{ \partial p }{ \partial \mathbf{v}_{i} } \dot{\mathbf{v}}_{i} \right)=0$$
-Dato che nel nostro caso stiamo trattando sistemi puramente gravitazionali e quindi *conservativi*, possiamo descrivere il sistema con una Hamiltoniana e quindi le leggi del moto di Hamilton. Applicando
+Dato che nel nostro caso stiamo trattando sistemi puramente gravitazionali e quindi conservativi, possiamo descrivere il sistema con una Hamiltoniana e quindi le leggi del moto di Hamilton. Applicando
 $$\dot{\mathbf{r}}=\frac{ \partial H }{ \partial \mathbf{p} } ,\quad \dot{\mathbf{p}}=- \frac{ \partial H }{ \partial \mathbf{r} } $$
 ritroviamo il [[Liouville's theorem]]:
 $$\frac{ \partial p }{ \partial t } +\sum_{i} \left( \mathbf{v}_{i}\frac{ \partial p }{ \partial \mathbf{r}_{i} } +\mathbf{a}_{i}\frac{ \partial p }{ \partial \mathbf{v}_{i} }  \right)=0$$
@@ -56,7 +56,7 @@ Queste equazioni però descrivono un sistema fluido e continuo, dato che le part
 $$\boxed{\begin{align}
 \ddot{\mathbf{x}}_{i}&=-\nabla_{i}\Phi(\mathbf{r}_{i}) \\
 \Phi(\mathbf{r})&=-G\sum_{j=1}^{N}  \frac{m_{j}}{\sqrt{ (\mathbf{r}-\mathbf{r}_{j})^{2}+\boldsymbol{\epsilon}^{2} }}
-\end{align}}$$
+\end{align}}\tag{1}$$
 Alcuni commenti:
 - La massa di una macro-particella non compare nella propria equazione del moto, solo quella delle altre. Non c'è una auto-forza. Questo è importante perché l'unica cosa che rimane è la forma di $\Phi$. Dunque, le orbite delle macro-particelle sono tanto valide quanto quelle delle particelle originali finché il loro numero è sufficiente da descrivere $\Phi$ bene.
 - Questo modello a $N$ corpi dà una singola realizzazione (approssimata) della distribuzione ad un punto $f_{1}$. Non dà direttamente l'ensemble average.
@@ -65,9 +65,12 @@ Alcuni commenti:
   che è un buon punto d'inizio (necessario ma non sufficiente) per scegliere il valore di $\epsilon$. La presenza di un'attenuazione implica l'introduzione di una risoluzione spaziale minima: ogni cosa al di sotto viene sfumata.
 
 In linea di principio, il sistema Poisson-Vlasov sopra è sufficiente. Di fatto, in cosmologia dobbiamo affrontare il problema di uno spaziotempo in espansione e dunque un concetto di spazio che cambia nel tempo della simulazione. Le coordinate a tempo zero sono diverse da quelle al tempo finale semplicemente perché lo spazio si è espanso nel frattempo. Questo problema è risolto esprimendo tutto in [[comoving coordinates]] $\mathbf{x}$ anziché coordinate regolari $\mathbf{r}$. Le due sono legate da
-$$\mathbf{x}=a(t)\mathbf{r}$$
-dove $a(t)=1/(1+z)$ è il fattore scala cosmologico. L'evoluzione di $a$ è governata da quella del parametro di Hubble:
-$$\frac{\dot{a}}{a}=H(a)= \sqrt{ \frac{\Omega_{0}}{a^{3}}+ \frac{1-\Omega_{0}-\Omega_{\Lambda}}{a^{2}}+\Omega_{\Lambda} } $$
+$$\mathbf{x}=a(z)\mathbf{r}$$
+dove $a(z)=1/(1+z)$ è il fattore scala cosmologico al [[redshift]] $z$. L'evoluzione di $a$ è governata da quella del parametro di Hubble:
+$$\begin{align}
+\frac{\dot{a}}{a}=H(z)&= \sqrt{ (1+z)^{3}\Omega_{m}+ (1+z)^{2}(1-\Omega_{m}-\Omega_{\Lambda})+\Omega_{\Lambda} }  \\
+&=\sqrt{ \frac{\Omega_{m}}{a^{3}}+ \frac{1-\Omega_{m}-\Omega_{\Lambda}}{a^{2}}+\Omega_{\Lambda} }
+\end{align}$$
 nel modello di FLRW.
 
 In un universo in espansione infinito, modellato attraverso condizioni al contorno periodiche in una regione simulazione cubica di spigolo $L$, si può dimostrare (Springer et al. 2001) che il sistema Poisson-Vlasov può essere riscritto come
@@ -78,3 +81,46 @@ $$\boxed{\begin{align}
 - Qui $\phi$ è il **potenziale gravitazionale peculiare**, che corrisponde al potenziale Newtoniano delle deviazioni di densità rispetto ad una densità costante di sfondo, qui calcolato in forma discreta come differenza tra il potenziale delle particelle e la media di fondo.
 - Da notare che la somma per il potenziale nelle parentesi quadre è compiuta su tutte le copie periodiche di una particella, identificata dal vettore $\mathbf{n}=(n_{1},n_{2},n_{3})\in \mathbb{Z}^{3}$ che identifica una copia periodica dell'universo.
 - Il termine $-1/L^{3}$ serve a far svanire la densità media, altrimenti non esisterebbe una soluzione per spazio infinito. Infatti, quando portato fuori dalla parentesi si riduce a $-4\pi G/L^{3}\sum_{i=1}^{N}m_{i}=-4\pi GM/L^{3}$, dove $M$ è la massa totale della simulazione.
+
+In pratica:
+1. La prima equazione contiene tutte le equazioni del moto da risolvere. Queste sono le ODE che vanno integrate nel modo standard in qualunque metodo.
+2. La seconda equazione dà il potenziale gravitazionale e dunque le forze necessarie per risolvere le equazioni del moto. Il metodo di simulazione determina come viene risolta questa.
+
+In metodi efficienti come quelli ad albero o PM, l'equazione di Poisson è risolta numericamente per ottenere i valori di $\phi(\mathbf{x})$ in modo efficiente. Nella somma diretta, in realtà non abbiamo bisogno dell'equazione di Poisson o del potenziale peculiare, dato che possiamo sommare direttamente i contributi gravitazionali secondo la legge di gravità di Newton.
+### Somma diretta
+Estraendo $\ddot{\mathbf{x}}$ otteniamo:
+$$\ddot{\mathbf{x}}_{i}=\underbrace{ - \frac{1}{a^{3}}\nabla\Phi(\mathbf{x}_{i}) }_{ \ddot{\mathbf{x}}_{\text{grav},i} }\underbrace{ - 2 H(z)\dot{\mathbf{x}}_{i} }_{ \ddot{\mathbf{x}}_{\text{Hubble},i} }\tag{2}$$
+dove $H(z)=\dot{a}/a$ è il parametro di Hubble. Queste sono le nostre equazioni del moto. Il primo termine è quello gravitazionale, il secondo è detto **Hubble drag** e rappresenta una decelerazione dovuta all'espansione dell'universo. Difatti, dipende solo dalla cosmologia scelta e non dalla gravità. Di conseguenza, ha costo computazionale pressoché nullo.
+
+Le forze sono calcolate mediante somma diretta. Con condizioni al contorno chiuse, la forza è quella della legge della gravitazione universale di Newton, ossia partendo da $(1)$ cerchiamo $-\nabla \Phi(\mathbf{x}_{i})$. Il potenziale gravitazionale prodotto dalla $j$-esima particella e sentito dalla $i$-esima particella è
+$$\Phi_{j}(\mathbf{x}_{i})=-G m_{j} \frac{1}{\sqrt{ (\mathbf{x}_{i}-\mathbf{x}_{j})^{2}+\boldsymbol{\epsilon}^{2} }}$$
+Il cui gradiente è (usando $\mathbf{x}_{i}-\mathbf{x}_{j}\equiv \boldsymbol{\mathfrak{r}}$ per brevità):
+$$\begin{align}
+\nabla \Phi_{j}(\mathbf{x}_{i})&=\nabla\left[ -Gm_{j} \frac{1}{\sqrt{ \mathfrak{r}^{2}+\epsilon ^{2} }} \right] \\
+&=-Gm_{j}\nabla\left[ \frac{1}{\sqrt{ \mathfrak{r}^{2}+\epsilon ^{2} }} \right] \\
+&=-Gm_{j}\left[ - \frac{1/2}{[\mathfrak{r}^{2}+\epsilon ^{2}]^{3/2}}\nabla(\mathfrak{r}^{2}+\epsilon ^{2}) \right] \\
+&=-Gm_{j}\left[ - \frac{1}{2[\mathfrak{r}^{2}+\epsilon ^{2}]^{3/2}}\nabla \mathfrak{r}^{2} \right] \\
+&=-Gm_{j}\left[ - \frac{1}{2[\mathfrak{r}^{2}+\epsilon ^{2}]^{3/2}} 2\boldsymbol{\mathfrak{r}} \right] \\
+&=Gm_{j} \frac{\boldsymbol{\mathfrak{r}}}{[\mathfrak{r}^{2}+\epsilon ^{2}]^{3/2}}
+\end{align}$$
+e dunque
+$$-\nabla \Phi_{j}(\mathbf{x}_{i})=-Gm_{j} \frac{\mathbf{x}_{i}-\mathbf{x}_{j}}{[(\mathbf{x}_{i}-\mathbf{x}_{j})^{2}+\epsilon ^{2}]^{3/2}}$$
+Per trovare il potenziale totale su $i$ sommiamo su tutte le particelle[^1]:
+$$\boxed{-\nabla \Phi(\mathbf{x}_{i})=-G\sum_{j=1}^{N}m_{j} \frac{\mathbf{x}_{i}-\mathbf{x}_{j}}{[(\mathbf{x}_{i}-\mathbf{x}_{j})^{2}+\epsilon ^{2}]^{3/2}}}$$
+Questo è esatto in condizioni al contorno chiuse. In condizioni periodiche, dobbiamo considerare anche tutte le (infinite) copie periodiche di ciascuna particella. Ciascuna copia della $j$-esima particella è situata a coordinate $\mathbf{x}_{j}+\mathbf{n}L\equiv \mathbf{x}_{j,\mathbf{n}}$ di distanza, con $\mathbf{n}$ che identifica quale copia periodica si ha. Il gradiente va dunque esteso a
+$$\boxed{-\nabla \Phi(\mathbf{x}_{i})=-G\sum_{j=1}^{N} m_{j}\sum_{\mathbf{n}} \frac{\mathbf{x}_{i}-\mathbf{x}_{j,\mathbf{n}}}{[(\mathbf{x}_{i}-\mathbf{x}_{j,\mathbf{n}})^{2}+\epsilon ^{2}]^{3/2}}}\tag{3}$$
+La somma su $\mathbf{n}$ è infinita dato che le condizioni periodiche servono per simulare un universo infinito. Di conseguenza, non è risolvibile analiticamente. Per renderla trattabile, si può ad esempio limitarsi alle $k$ copie più vicine.
+
+Con questo abbiamo tutti i pezzi necessari per integrare numericamente. Ad ogni timestep, si calcola il gradiente del potenziale $(3)$, poi lo si usa per integrare $(2)$ numericamente.
+
+Con il metodo leapfrog, l'integrazione numerica è
+$$\begin{align}
+\dot{x}_{n+1/2}&=\dot{x}_{n}+f(x_{n}) \frac{\Delta t}{2} \\
+x_{n+1}&=x_{n}+\dot{x}_{n+1/2} \Delta t \\
+\dot{x}_{n+1}&=\dot{x}_{n+1/2}+f(x_{n+1}) \frac{\Delta t}{2}
+\end{align}$$
+dove $f(x)$ è il lato destro di $(2)$.
+### Fonti
+- Springel, 2014, High performance computing and numerical modelling
+
+[^1]: Ricordiamo che stiamo cercando il potenziale collettivo, quindi serve contare anche la particella stessa nella somma.
