@@ -66,3 +66,4 @@ $$\langle \delta_{R}^{2} \rangle \equiv \sigma ^{2}(R)=\frac{1}{(2\pi)^{3}}\int 
 dove $\tilde{W}(\mathbf{k},R)$ è la trasformata di Fourier del kernel, tale che $\delta_{R}(\mathbf{k})=\delta(\mathbf{k})\tilde{W}(\mathbf{k},R)$. Se si è interessati ad un range piccolo di lunghezze d'onda, lo spettro di potenze e la varianza possono essere approssimati con una legge di potenza: $P(k)\propto k^{n}$ e $\sigma ^{2}(R)\propto R^{-(n+3)}$.
 ### Fonti
 - Borgani & Kravtsov, 2009
+- Borgani & Kravtsov, 2012, Formation of galaxy clusters
