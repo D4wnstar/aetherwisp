@@ -11,4 +11,4 @@ La presenza della [[Legge di Hubble]], che implica che non siano solo gli oggett
 $$\frac{\lambda_{oss}}{a(t_{0})}=\frac{\lambda_{em}}{a(t)}$$
 e quindi il redshift cosmologico è
 $$1+z=\frac{a(t_{0})}{a(t)}=\frac{1}{a(t)}$$
-Il ultima analisi, dunque, il redshift non è un fenomeno dell'effetto Doppler, bensì un effetto puramente gravitazionale. Questo implica che il fattore di scala è un'[[osservabile]].
+In ultima analisi, dunque, il redshift non è un fenomeno dell'effetto Doppler, bensì un effetto puramente gravitazionale. Questo implica che il fattore di scala è un'[[osservabile]].
