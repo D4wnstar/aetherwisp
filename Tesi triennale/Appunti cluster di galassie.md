@@ -86,6 +86,20 @@ $$M_{HE}(<r)=- \frac{rk_{B}T(r)}{G\mu m_{p}}\left[ \frac{d\ln \rho_{g}(r)}{d\ln 
 con $T(r)$ la temperatura. Nel caso di materia noncollisionale (e.g. CDM, stelle in una galassia o (approssimativamente) le galassie dell'ammasso) la condizione di equilibrio è l'equazione di Jeans e la massa di Jeans è (assumendo simmetria sferica e nessuna rotazione):
 $$M_{J}(<r)=- \frac{r\sigma_{r}^{2}}{G}\left[ \frac{d\ln \nu(r)}{d\ln r}+ \frac{d\ln \sigma_{r}(r)^{2}}{d\ln r}+2\beta(r) \right]$$
 dove $\beta=1- \sigma_{t}^{2}/2\sigma_{r}^{2}$ è il parametro di anisotropia orbitale definito dalla dispersione tangenziale $\sigma_{t}$ e radiale $\sigma_{r}$ delle velocità. $\beta=0$ per campi di velocità isotropi.
+### Densità
+ La forma del profilo di densità si scopre essere quasi universale, praticamente indipendente da condizioni iniziali, forma dello spettro di potenza, struttura a piccola scala o cosmologia di sfondo. La forma che si usa nelle simulazioni senza dissipazione è quella di Navarro, Frenk & White:
+$$\rho _\text{NFW}(r)=\frac{4\rho_{s}}{x(1+x)^{2}}\quad\text{dove}\quad x\equiv \frac{r}{r_{s}}$$
+$r_{s}$ è il raggio di scala, ossia il raggio al quale la pendenza logaritmica di $\rho _\text{NFW}$ (ossia $d\ln \rho _\text{NFW}/d\ln r$) è $-2$, e $\rho_{s}\equiv \rho _\text{NFW}(r_{s})$ è la densità caratteristica a $r_{s}$.
+
+Ulteriori simulazioni hanno dimostrato che il profilo di Einasto (e altre proiezioni del profilo di Sérsic) danno una descrizioni migliore dei profili di densità di DM durante il collasso di aloni cosmologici:
+$$\rho _\text{E}(r)=\rho_{s}\exp\left[ \frac{2}{\alpha}(1-x^{\alpha}) \right]\quad\text{dove}\quad x\equiv \frac{r}{r_{s}}$$
+$r_{s}$ è come sopra e $\rho_{s}\equiv \rho _\text{E}(r_{s})$. Qui abbiamo $d\ln \rho _\text{E}/d\ln r=-2x^{\alpha}$. Questo profilo è applicabile a aloni galattici ($\alpha \simeq 0.16$) e di cluster massivi ($\alpha \simeq0.2\textendash0.3$) a redshift $z=0$. A redshift $z\simeq 3$, i valori di $\alpha$ aumentano di 0.1 circa. $\alpha$ si trova essere ben descritto come funzione dell'altezza dei picchi di densità $\nu\equiv \delta_{c}/\sigma(M,z)$ come $\alpha=0.0095\nu ^{2}+0.155$.
+
+Questi profili sono di precisione limitata quando paragonati a misure osservative per una varietà di motivi. La causa di queste discrepanze può essere una sfida al modello $\Lambda\text{CDM}$, dovuta a effetti barionici ancora non conosciuti o errori sistematici nelle osservazioni. C'è anche da considerare che in una simulazione, il centro di un cluster è ben definito, mentre in un'osservazione no; differenze nella decisione di qual è il centro possono modificare il profilo finale.
+### Velocità
+La dispersione delle velocità è correlata al profilo di densità. Simulazioni mostrano che questa aumenta fino a circa $r_{s}$ e poi diminuisce. Una quantità importante è il profilo della velocità media e la velocità media radiale $\bar{v}_{r}$. Una distribuzione di materia sferica in equilibro idrostatico dovrebbe avere $\bar{v}_{r}=0$, quindi differenze da questo valore sono utili per vedere differenze dallo stato di equilibrio a diversi raggi. Simulazioni mostrano che a $z=0$, i cluster tipicamente hanno $\bar{v}_{r}=0$ entro il raggio viriale e poi diventano molto negative al di fuori (a causa della materia che cade dentro il cluster).
+
+Su basse scale, il gas ha un tensore di dispersione di velocità isotropo, mentre la DM no. Su grandi scale, entrambi sono isotropi. Il parametro di anisotropia $\beta(r)$ descrive quanto isotropo è il campo di velocità al raggio $r$. Per DM, è $0\textendash0.1$ al centro e $0.2\textendash 0.4$ vicino al raggio viriale.
 ## Fonti
 - Borgani & Kravtsov, 2009, Cosmological simulations of galaxy clusters
 - Borgani & Kravtsov, 2012, Formation of galaxy clusters
