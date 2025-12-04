@@ -116,6 +116,16 @@ La dispersione delle velocità è correlata al profilo di densità. Simulazioni 
 Su basse scale, il gas ha un tensore di dispersione di velocità isotropo, mentre la DM no. Su grandi scale, entrambi sono isotropi. Il parametro di anisotropia $\beta(r)$ descrive quanto isotropo è il campo di velocità al raggio $r$. Per DM, è $0\textendash0.1$ al centro e $0.2\textendash 0.4$ vicino al raggio viriale.
 ### Metallicità
 Osservazioni sull'ICM mostrano linee spettrali associate a elementi pesanti. L'ICM deve dunque avere una frazione significativa che è chimicamente arricchita. Questo suggerisce che una parte sostanziale dell'ICM è gas intragalattico arricchito da e.g. SN e poi espulso dalla galassia. L'arricchimento dell'ICM dipende dunque dai processi di formazione e evoluzione galattica (che genera stelle, SN, venti stellari, etc.). L'osservazione di profili di metallicità dà informazioni su diversi processi, come fusioni, formazione stellare, SN e AGN. In particolare, elementi $\alpha$ e ferro sono associati a produzione stellare e SN.
+
+La metallicità di un gas in una regione di volume $V$ è tipicamente calcolato come una media pesata
+$$Z_{w}=\frac{\int_{V} wZd\tau}{\int_{V} wd\tau}\quad\to \quad \frac{\sum_{i=1}^{N_{V}} Z_{i}w_{i}}{\sum_{i=1}^{N_{V}} w_{i}}$$
+In una simulazione discreta, l'integrale è approssimato da una somma sugli $N_{V}$ elementi discreti entro $V$. $w$ è una funzione (o insieme discreto di valori $\{ w_{i} \}_{i}$, in una somma) che rappresenta il peso del singolo elemento di volume infinitesimo $d\tau$ (o l'$i$-esimo elemento discreto in una somma). Vi sono due scelte comuni per i pesi:
+1. usare le masse, $w_{i}=m_{i}$.
+2. usare l'emissività del gas, $w_{i}=m_{i}\rho_{i}\Lambda(T_{i},Z_{i})$, dove $\rho_{i}$ è la densità di massa dell'elemento e $\Lambda(T_{i},Z_{i})$ è la funzione di raffreddamento, che dipende dalla temperatura e la metallicità dell'elemento. Particolarmente interessante dato che le osservazioni sperimentali di metallicità partono dalla luminosità raggi X, che dipende appunto dall'emissività.
+
+Se si tiene traccia dell'abbondanza di ogni singolo elemento separatamente, si può anche calcolare la media pesata di ogni abbondanza, $Z_{w}^{\text{X}}$ per l'elemento $\text{X}$. Idealmente, si usano i dati simulati per creare osservazioni raggi X sintetiche da paragonare alle osservazioni.
+#### Distribuzione
+La distribuzione di elementi nell'ICM dà informazioni sulla distribuzione di SN e processi di feedback. Si trova che l'arricchimento associato a SNII si nota in macchie ad alta densità vicino a zone di formazione stellare, mentre arricchimento da SNIa e AGB è più diffuso nell'ambiente. La distribuzione di metalli è molto sensibile alla IMF. IMF più top-heavy favoriscono SNII. In generale, simulazioni trovano che la fonte della maggior parte dei metalli sono le SNII, a qualunque distanza dal centro. Anche quali fenomeni di diffusione sono considerati varia molto la distribuzione. La presenza di un AGN diminuisce il picco di metallicità e spinge più metalli lontano dal centro, creando una distribuzione più omogenea rispetto a sola diffusione stellare (SN + venti stellari), che invece è molto piccata nel nucleo. La metallicità del nucleo è correlata alla sua "cool-coreness". Gli NCC hanno profili un po' più piatti, mentre i CC mostrano un picco[^2]. È notevole che sia un'anticorrelazione all'entropia, che ha un picco negli NCC ed è piatta nei CC. Questo ci dice che il gas a bassa entropia è anche molto metallico (e viceversa).
 ## Fonti
 - Borgani & Kravtsov, 2009, Cosmological simulations of galaxy clusters
 - Borgani & Kravtsov, 2012, Formation of galaxy clusters
@@ -123,3 +133,5 @@ Osservazioni sull'ICM mostrano linee spettrali associate a elementi pesanti. L'I
 - Biffi, Mernier & Medvedev, 2018, Enrichment of the hot intracluster medium: numerical simulations
 
 [^1]: Non è stata data la forma della funzione.
+
+[^2]: La differenza non è molto grande.
