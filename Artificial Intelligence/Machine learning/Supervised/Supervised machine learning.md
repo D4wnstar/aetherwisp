@@ -18,7 +18,7 @@ We can use this information to make a **[[template]]**. A template is a function
 
 A template becomes a prediction function once you apply the set of parameters it asks for. If we call $m\in M$ a specific set of parameters in the space of all possible ones we can say
 $$f_\text{predict}(x)=f'_\text{predict}(x,m)$$
-In the linear case, $m=\{ a,b \}$ and $M\equiv \mathbb{R}^{2}$. The set of parameters $m$ is called a **[[Artificial Intelligence/Machine learning/Model]]**. Once you have a model, you can slot it in the template and you can start making predictions using it. If it does not provide the results you want, you can retrain a different model using different parameters and reuse the same template.
+In the linear case, $m=\{ a,b \}$ and $M\equiv \mathbb{R}^{2}$. The set of parameters $m$ is called a **[[Artificial Intelligence/Machine learning/Model|model]]**. Once you have a model, you can slot it in the template and you can start making predictions using it. If it does not provide the results you want, you can retrain a different model using different parameters and reuse the same template.
 
 Recall that $f'\in \mathcal{F'}_{X\mapsto Y}$, but we have defined $f'$ as $f'\equiv f'(x,m)$. $x$ is an observation, we don't control what it is; we do however control the model $m$. Thus, when training on a template, $f_\text{learn}$ does technically explore $\mathcal{F}'_{X\mapsto Y}$ to return a specific form of $f'$, but in practice the only thing we actually care about is $m$ because we already know the general $f'$. Thus, we can instead talk about an $f'_\text{learn}$ that takes a dataset as an input and returns a model:
 $$\begin{align}
