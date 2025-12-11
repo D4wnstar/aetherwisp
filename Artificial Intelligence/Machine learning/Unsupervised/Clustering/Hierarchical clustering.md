@@ -7,4 +7,6 @@ In order for hierarchical clustering to work, we need a way to measure distanced
 $$d_\text{cluster}:\mathcal{P}^{*}(X)\times \mathcal{P}^{*}(X)\to \mathbb{R}^{+}$$
 Some common choices are:
 - **Single linkage** (nearest): $d_\text{cluster}(D,D')=\min_{x \in D,x' \in D'}d(x,x')$
-- **Complete linkage** (farthest): $d_\text{cluster}(D,D')=$
+- **Complete linkage** (farthest): $d_\text{cluster}(D,D')=\max_{x \in D,x' \in D'}d(x,x')$
+- **Average linkage**: $d_\text{cluster}(D,D')=\frac{1}{\lvert D \rvert\lvert D' \rvert} \sum_{x \in D,x' \in D'}d(x,x')$
+- **Centroid**: $d_\text{cluster}(D,D')=d(c(D),c(D'))$ where $c(D)\equiv \bar{\mathbf{x}}=\frac{1}{\lvert D \rvert}\sum_{\mathbf{x}\in D}\mathbf{x}$ and $\mathbf{x}$ is the [[centroid]] of $D$.

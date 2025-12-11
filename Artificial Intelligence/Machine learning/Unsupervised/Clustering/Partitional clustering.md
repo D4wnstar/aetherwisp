@@ -1,0 +1,8 @@
+---
+wiki-publish: true
+aliases:
+  - k-means clustering
+---
+**Partitional clustering** is a collection of [[hierarchical clustering]] techniques based on recursively refining a partition until it is good enough by some heuristic metric. Given a [[dataset]] $D$, a [[random]] partition $\{ D_{h} \}_{h=1,\ldots,k}$ is chosen as a starting point. The partition is then refined until it is good enough according to the heuristic and finally returned as the output. Due to the random choice at the start, the technique is non-deterministic.
+
+**k-means clustering** is a form of partitional clustering over numerical data that uses cluster [[mean|means]] as a heuristic. During initialization, we randomly pick a mean for each cluster we want, obtaining $k$ means (hence the name). Then, we determine the clusters by assigning the closest points to each mean to that cluster. We then calculate the mean of each new cluster as $\boldsymbol{\mu}_{h}=\frac{1}{\lvert D_{h} \rvert}\sum_{\mathbf{x}\in D_{h}}\mathbf{x}$ and repeat the process. These means are the [[centroid|centroids]] of the clusters. The loop ends once the clusters no longer change, as they are optimally spaced out, and often has additional conditions for an early exit using other metrics (e.g. maximum iterations, distance traveled by centroids, etc.). The output [[Artificial Intelligence/Machine learning/Model|model]] is then a set of $k$ means that determine a division of space based on what points are closest to what mean: formally, it's a [[Voronoi tessellation]] of space, with each cell being a cluster.
