@@ -1,9 +1,6 @@
 ---
 wiki-publish: true
 ---
-> [!success] Esame
-> Questo esperimento può essere fatto per l'esame di Lab 2.
-
 This experiment uses [[Lenz's law]] to determine the local [[magnetic field]].
 ### Theory
 The Earth's magnetic field is on the order of $\sim 10^{-5}\text{ T}$.
