@@ -1,0 +1,13 @@
+- [ ] Scrivere parte teorica
+	- [ ] 1. Ammassi di galassie
+		- [ ] 1.1 Introduzione
+		- [ ] 1.2 Formazione ed evoluzione
+		- [ ] 1.3 Componenti
+		- [ ] 1.4 Metodi simulativi
+	- [ ] 2. Osservazioni e metallicità
+		- [ ] 2.1 Caratteristiche osservative
+		- [ ] 2.2 Metallicità
+		- [ ] 2.3 Profili, mappe, particelle
+- [ ] Ticchignare con amonra e snap
+- [ ] Creare una mappa della massa
+- [ ] Creare un profilo della massa
