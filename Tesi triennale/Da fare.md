@@ -1,7 +1,7 @@
 - [ ] Scrivere parte teorica
 	- [x] 0. Introduzione ✅ 2026-01-19
 	- [ ] 1. Ammassi di galassie
-		- [ ] 1.1 Introduzione
+		- [x] 1.1 Introduzione ✅ 2026-01-20
 		- [ ] 1.2 Formazione ed evoluzione
 		- [ ] 1.3 Componenti
 		- [ ] 1.4 Metodi simulativi
