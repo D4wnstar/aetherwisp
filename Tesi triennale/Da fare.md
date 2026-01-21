@@ -2,8 +2,8 @@
 	- [x] 0. Introduzione ✅ 2026-01-19
 	- [ ] 1. Ammassi di galassie
 		- [x] 1.1 Introduzione ✅ 2026-01-20
-		- [ ] 1.2 Formazione ed evoluzione
-		- [ ] 1.3 Componenti
+		- [x] 1.2 Formazione ed evoluzione ✅ 2026-01-21
+		- [x] 1.3 Componenti ✅ 2026-01-21
 		- [ ] 1.4 Metodi simulativi
 	- [ ] 2. Osservazioni e metallicità
 		- [ ] 2.1 Caratteristiche osservative
