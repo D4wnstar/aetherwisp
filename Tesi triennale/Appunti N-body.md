@@ -120,7 +120,7 @@ x_{n+1}&=x_{n}+\dot{x}_{n+1/2} \Delta t \\
 \dot{x}_{n+1}&=\dot{x}_{n+1/2}+f(x_{n+1}) \frac{\Delta t}{2}
 \end{align}$$
 dove $f(x)$ è il lato destro di $(2)$.
-### Fonti
+## Fonti
 - Springel, 2014, High performance computing and numerical modelling
 
 [^1]: Ricordiamo che stiamo cercando il potenziale collettivo, quindi serve contare anche la particella stessa nella somma.
