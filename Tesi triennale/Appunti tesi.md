@@ -53,7 +53,6 @@ Lo scopo dell'introduzione è dare tutte le basi teoriche necessarie per capire 
 		- Cenni di emissione visiva
 		* Emissione X: Meccanismi (Bremsstrahlung termico, righe spettrali di ioni pesanti come ferro).
 		* Effetto Sunyaev-Zeldovich (SZE) come marcatore: Scattering Compton inverso dei fotoni CMB, indipendenza dalla distanza.
-		* Mappe e sintesi: Creazione di osservazioni sintetiche dalle simulazioni per confronto diretto con i dati sperimentali (gestione di risoluzione e rumore strumentale).
 	2. *Metallicità*
 		* Definizione, importanza come tracciatore dell'evoluzione chimica e dei processi astrofisici.
 		* Sorgenti di arricchimento:
