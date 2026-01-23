@@ -1,14 +1,14 @@
-- [ ] Scrivere parte teorica
+- [x] Scrivere parte teorica ✅ 2026-01-23
 	- [x] 0. Introduzione ✅ 2026-01-19
 	- [x] 1. Ammassi di galassie ✅ 2026-01-22
 		- [x] 1.1 Introduzione ✅ 2026-01-20
 		- [x] 1.2 Formazione ed evoluzione ✅ 2026-01-21
 		- [x] 1.3 Componenti ✅ 2026-01-21
 		- [x] 1.4 Metodi simulativi ✅ 2026-01-22
-	- [ ] 2. Osservazioni e metallicità
+	- [x] 2. Osservazioni e metallicità ✅ 2026-01-23
 		- [x] 2.1 Caratteristiche osservative ✅ 2026-01-22
-		- [ ] 2.2 Metallicità
-		- [ ] 2.3 Profili, mappe, particelle
+		- [x] 2.2 Metallicità ✅ 2026-01-23
+		- [x] 2.3 Profili, mappe, particelle ✅ 2026-01-23
 - [ ] Ticchignare con amonra e snap
 - [ ] Creare una mappa della massa
 - [ ] Creare un profilo della massa
