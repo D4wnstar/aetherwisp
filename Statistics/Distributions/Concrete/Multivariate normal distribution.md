@@ -3,7 +3,7 @@ wiki-publish: true
 ---
 The **multivariate normal distribution** is a real, multivariate [[Probability distribution]] that is a generalization of the [[Gaussian distribution|normal distribution]] to multiple dimensions. For $n$ [[independent variable|independent]], normally-distributed [[Random variable|random variables]] $X_{1},\ldots,X_{n}$, it is simply the [[Joint distribution function]] of $N$ Gaussians:
 $$f(x_{1},\ldots,x_{N})=f_{1}(x_{1})\ldots f_{N}(x_{N})=\frac{1}{(2\pi)^{n/2}\sigma_{1}\ldots\sigma_{n}}e^{-\sum_{i=1}^{N} (x_{i}-\mu_{i})^{2}/2\sigma_{i}^{2}}$$
-where $\mu_{i}$ and $\sigma_{i}^{2}$ are the [[mean]] and [[variance]] of the $i$-th variable. In terms of the [[Covariance|covariance matrix]] $\Sigma$, it can be written in a more general form that also works for dependent variables:
+where $\mu_{i}$ and $\sigma_{i}^{2}$ are the [[mean]] and [[Variance]] of the $i$-th variable. In terms of the [[Covariance|covariance matrix]] $\Sigma$, it can be written in a more general form that also works for dependent variables:
 $$f(x_{1},\ldots,x_{N})=\frac{1}{(2\pi)^{n/2}\sqrt{ \det \Sigma }}e^{-(\mathbf{x}-\boldsymbol{\mu})^{T}\Sigma^{-1}(\mathbf{x}-\boldsymbol{\mu})/2}$$
 The shorthand to say that a [[Random variable|random vector]] $\mathbf{X}$ follows a multivariate normal of mean vector $\boldsymbol{\mu}$ and covariance matrix $\Sigma$ is
 $$\mathbf{X}\sim \mathcal{N}(\boldsymbol{\mu},\Sigma)$$

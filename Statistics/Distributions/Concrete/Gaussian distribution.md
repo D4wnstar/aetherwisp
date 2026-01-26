@@ -8,43 +8,28 @@ The **Gaussian distribution** or **normal distribution** is a real univariate co
 $$N(x;\mu,\sigma ^{2})=\frac{1}{\sqrt{ 2\pi \sigma^{2} }}e^{- \frac{(x-\mu)^{2}}{2\sigma ^{2}}}$$
 where $\mu$ is the [[Expected value]] e $\sigma ^{2}$ is the [[Variance]].
 
-```mathpad
-%$2:=abs(sigma)^(-1)*e^((-1/2)*(-mu+x)^2*sigma^(-2))*sqrt(2)^(-1)*sqrt(pi)^(-1)
-mu:=0
-%$3:=0
-sigma:=1/2
-%$4:=1/2
-%f(x):=1/sqrt(2pi*sigma^2)*e^(-(x-mu)^2/(2sigma^2))
-plot(f(x), [-4,4], [0,1])==?
-```
-
-
 A **standard normal distribution** is defined as a normal distribution with $\mu=0$ and $\sigma=1$, which looks like
 $$N(x;0,1)=\frac{1}{\sqrt{ 2\pi }}e^{-x^{2}/2}$$
 ### Moments
-The central and algebraic [[Moment-generating function]] for the Gaussian are
+The central and raw [[Moment-generating function]] for the Gaussian are
 $$M_{X}(t)=E[e^{t(X-\mu)}]=e^{\sigma ^{2}t^{2}/2},\qquad M_{X}^{*}(t)=e^{t\mu}M_{X}(t)=e^{t\mu+t^{2}\sigma ^{2}/2}$$
 For a standard normal distribution, they simplify to
-$$M_{X}(t)=e^{t^{2}/2},\qquad M_{X}^{*}(t)=e^{t+t^{2}/2}$$
+$$M_{X}(t)=e^{t^{2}/2}=M_{X}^{*}(t)$$
+The [[Function moments|moments]] are:
+- Raw
+	0. $\mu_{0}^{*}=1$
+	1. $\mu_{1}^{*}=\mu$ ([[mean]])
+- Central
+	0. $\mu_{0}=1$
+	1. $\mu_{1}=0$
+	2. $\mu_{2}=\sigma ^{2}$ ([[Variance]])
+	3. $\mu_{3}=0$
+	4. $\mu_{4}=3\sigma^{4}$
+- Coefficients
+	1. $\gamma_{1}=0$ ([[skewness]], it is symmetrical around the mean)
+	2. $\gamma_{2}=0$ ([[kurtosis]])
 
-
-The expected value is
-$$E[X]=\mu=\frac{1}{\sqrt{ 2\pi \sigma ^{2} }}\int_{-\infty}^{\infty} xe^{(x-\mu)^{2}/2\sigma ^{2}} \ dx$$
-The variance is
-$$\text{var}(X)=\sigma ^{2}=\frac{1}{\sqrt{ 2\pi \sigma ^{2} }}\int_{-\infty}^{\infty} x^{2}e^{(x-\mu)^{2}/2\sigma ^{2}} \ dx - \mu ^{2} $$
-Generally, the [[Function moments|moments]] are
-0. $\mu_{0}^{*}=1$
-1. $\mu_{1}^{*}=\mu$ ([[mean]])
-
-0. $\mu_{0}=1$
-1. $\mu_{1}=0$
-2. $\mu_{2}=\sigma ^{2}$ ([[Variance]])
-3. $\mu_{3}=0$
-4. $\mu_{4}=3\sigma^{4}$
-
-and the coefficients are
-1. $\gamma_{1}=0$ ([[skewness]], it is symmetrical around the mean)
-2. $\gamma_{2}=0$ ([[kurtosis]])
+These moments have particular significance, as the Gaussian distribution is the gold standard of distributions. It is extremely common, well-understood and well-behaved, so other distributions and their moments are frequently compared to it to get an idea of how they behave. For kurtosis in particular, negative values can be seen as "flatter than Gaussian" and positive ones as "more peaked than Gaussian".
 ### Properties
 - It is [[Normalization|normalized]]: $\frac{1}{\sqrt{ 2\pi \sigma ^{2} }}\int_{-\infty}^{\infty} e^{(x-\mu)^{2}/2\sigma ^{2}} \ dx=1$.
 ### As sum of normal variables

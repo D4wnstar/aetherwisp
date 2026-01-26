@@ -19,14 +19,14 @@ $$M_{k}^{*}(t)=E[e^{tK}]=\sum_{k=0}^{n} e^{tk}\begin{pmatrix}n \\ k\end{pmatrix}
 The central moment-generating function is
 $$M_{k}(t)=E[e^{t(K-np)}]=e^{-tnp}M_{k}^{*}(t)=(e^{-tp}e^{t}p+e^{-tp}q)^{n}=(e^{tq}p+e^{-tp}q)^{n}$$
 
-Its [[expected value]] is
+Its [[Expected value]] is
 $$\text{E}[K]=np$$
-and its [[variance]] is
+and its [[Variance]] is
 $$\text{var}(K)=npq=np(1-p)$$
 
 The [[Function moments|moments]] are
 0. $\mu_{0}^{*}=1$
-1. $\mu_{1}^{*}=np$ ([[expected value]])
+1. $\mu_{1}^{*}=np$ ([[Expected value]])
 
 2. $\mu_{0}=1$
 3. $\mu_{1}=0$

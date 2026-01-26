@@ -64,6 +64,6 @@ What's the flexibility of tree bagging? We arbitrarily set $n_\text{min}$ of eac
 
 [^2]: Actually, error does too, but these two metrics do it better.
 
-[^3]: Actually, with sets of regression trees you're basically working with a statistical set. Mean, mode, etc. are central statistics, but you can also calculate dispersion statistics like [[variance]] to measure the *uncertainty* of the prediction.
+[^3]: Actually, with sets of regression trees you're basically working with a statistical set. Mean, mode, etc. are central statistics, but you can also calculate dispersion statistics like [[Variance]] to measure the *uncertainty* of the prediction.
 
 [^4]: Of course, be careful of your resources! Training more trees is naturally more expensive, so consider if the added cost is worth the improvement.

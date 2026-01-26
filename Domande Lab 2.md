@@ -41,7 +41,6 @@
 
 ### PERSONA 3 (pomeriggio):
 - Circuito a rilassamento;
-- Oltre a usare direttamente un ohmetro oppure a costruire le curve voltamperometriche, c’è un altro modo per misurare una resistenza? (Ponte di Wheatstone);
 - È sufficiente prendere uguali due delle resistenze a disposizione e fare variare la terza oppure c’è qualcos’altro da tenere in considerazione? (Le due resistenze non possono essere troppo alte altrimenti da una parte del ponte passa pochissima corrente e dall’altra troppa e in quest’ultima zona, a causa del surriscaldamento per effetto Joule, viene modificata la resistenza)
 - Come si potrebbe tenere sotto controllo questo effetto? (Mettere due amperometri in più, uno per ciascun ramo del ponte)
 - Quale sarebbe l’incertezza associata alla resistenza incognita? (Usare la legge di propagazione degli errori relativi);

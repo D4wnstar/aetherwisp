@@ -4,7 +4,7 @@ aliases:
   - conditional independence
   - conditionally independent
 ---
-Two variables are **independent** if changing one has no effect on the other. Formally, their [[covariance]] is zero, or their [[Joint distribution function]] is the product of individual [[Probability density function|probability density functions]]:
+Two variables are **independent** if changing one has no effect on the other. Formally, their [[Covariance]] is zero, or their [[Joint distribution function]] is the product of individual [[Probability density function|probability density functions]]:
 $$\text{independent if cov}(X,Y)=0\text{ or }f(x,y)=f(x)f(y)$$
 Two variables may be **conditionally independent** if they are independent only when given a third one:
 $$\text{conditionally independent if }f(x,y|z)=f(x|z)f(y|z)$$

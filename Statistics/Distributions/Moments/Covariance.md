@@ -4,9 +4,9 @@ aliases:
   - correlation coefficient
   - covariance matrix
 ---
-The **covariance** of two [[Random variable|random variables]] is a measure of how linearly related they are. For two [[Joint distribution function|jointly-distributed]] variables $X$ and $Y$ with finite [[variance]], their covariance is defined as
+The **covariance** of two [[Random variable|random variables]] is a measure of how linearly related they are. For two [[Joint distribution function|jointly-distributed]] variables $X$ and $Y$ with finite [[Variance]], their covariance is defined as
 $$\text{cov}(X,Y)=\text{E}[(X-\text{E}[X])(Y-\text{E}[Y])]$$
-where $\text{E}[\cdot]$ is the [[expected value]]. Unlike variance, which is strictly positive, covariance may take any real value. High positive values indicate strong correlation, whereas high negative values indicate strong anticorrelation.
+where $\text{E}[\cdot]$ is the [[Expected value]]. Unlike variance, which is strictly positive, covariance may take any real value. High positive values indicate strong correlation, whereas high negative values indicate strong anticorrelation.
 
 The **correlation coefficient** or just **correlation** $\rho_{XY}$ is a scale-independent form of the covariance, defined as
 $$\rho_{XY}=\frac{\text{cov}(X,Y)}{\sigma_{X}\sigma_{Y}}$$

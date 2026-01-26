@@ -7,7 +7,7 @@ aliases:
 ---
 An **estimator** is a [[statistic]] that attempts to faithfully recreate the [[true value]] of a quantity. Being a statistic, it is a [[random variable]]. An estimator is typically denoted by adding a hat over the quantity's symbol, usually using the letter theta: $\hat{\theta}$ is an estimator of the quantity $\theta$.
 
-The [[expected value]] of an estimator differs from the true value of the quantity by some amount $b$:
+The [[Expected value]] of an estimator differs from the true value of the quantity by some amount $b$:
 $$\text{E}[\hat{\theta}]=\theta+b$$
 This quantity is known as **bias**. If $b\neq 0$, the estimator is said to be **biased**, else it is **unbiased**.
 
@@ -17,7 +17,7 @@ A more satisfactory estimation is provided by a **confidence interval**, which p
 ### Properties
 A ([[scalar]]) estimator over a sample of size $N$ is said to be **(weakly) consistent** if, for any arbitrarily small $\epsilon>0$, we have
 $$\lim_{ N \to \infty } P(\lvert \hat{\theta}-\theta \rvert >\epsilon)=0$$
-where $P$ is a [[probability]]. Basically, as the sample size goes to infinity, the difference between a consistent estimator and the true value becomes arbitrarily small, so that increasing the sample size always leads to better estimates. A sufficient condition to guarantee consistency is that the [[mean squared error]] of the estimator goes to zero as $N\to \infty$.
+where $P$ is a [[probability]]. Basically, as the sample size goes to infinity, the difference between a consistent estimator and the true value becomes arbitrarily small, so that increasing the sample size always leads to better estimates. A sufficient condition to guarantee consistency is that the [[Mean squared error]] of the estimator goes to zero as $N\to \infty$.
 
 An unbiased estimator is **efficient** if it has small variance. Efficiency is a property that's typically relative to another estimator; an estimator may be more or less efficient than another, but it's hard to say if it efficient or not by itself.
 
@@ -67,6 +67,6 @@ As for the endpoints, it depends on $\alpha$. It's generally chosen to be symmet
 
 Exact confidence intervals are few and far between. Thankfully, approximate intervals are rather easy to find. A common approximate interval is given by the **Wald pivot**, for some parameter $\psi$. It is based on a consistent estimator which is approximately standard-normally-distributed for large sample sizes:
 $$Z(\psi)=\frac{\hat{\psi}-\psi}{\text{SE}(\psi)}\approx N(0,1)$$
-for all $\psi$. $\text{SE}(\psi)$ is the [[standard error]]. The corresponding confidence interval is between
+for all $\psi$. $\text{SE}(\psi)$ is the [[Standard error]]. The corresponding confidence interval is between
 $$\hat{\psi}-z_{1-\alpha/2}\text{SE}(\hat{\psi})\quad\text{and}\quad\hat{\psi}+z_{1-\alpha/2}\text{SE}(\hat{\psi})$$
 The benefit of this pivot is that the [[central limit theorem]] makes it work in many cases when $\psi$ is the sample mean of each variable.

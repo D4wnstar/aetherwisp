@@ -5,7 +5,7 @@ aliases:
 ---
 A **statistic** is a function of a [[set]] of [[Random variable|random variables]]. It is itself a random variable.
 
-For example, the [[mean]] and [[variance]] of a [[sample]] are statistics of that sample.
+For example, the [[mean]] and [[Variance]] of a [[sample]] are statistics of that sample.
 ### Sufficient statistic
 Given a [[Random variable|random vector]] $\mathbf{X}$ of [[Probability density function|PDF]] $f_{\mathbf{X}}(x;\theta)$ ($\theta$ is a parameter), a statistic $t(\mathbf{X})$ is said to be **sufficient** for $\theta$ if it such that $f_{\mathbf{X}}(x;\theta)$ can be written as
   $$f_{X}(x;\theta)=h(\mathbf{X})g(t(\mathbf{X});\theta)$$
