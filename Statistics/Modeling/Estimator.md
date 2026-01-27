@@ -19,7 +19,7 @@ A ([[scalar]]) estimator over a sample of size $N$ is said to be **(weakly) cons
 $$\lim_{ N \to \infty } P(\lvert \hat{\theta}-\theta \rvert >\epsilon)=0$$
 where $P$ is a [[probability]]. Basically, as the sample size goes to infinity, the difference between a consistent estimator and the true value becomes arbitrarily small, so that increasing the sample size always leads to better estimates. A sufficient condition to guarantee consistency is that the [[Mean squared error]] of the estimator goes to zero as $N\to \infty$.
 
-An unbiased estimator is **efficient** if it has small variance. Efficiency is a property that's typically relative to another estimator; an estimator may be more or less efficient than another, but it's hard to say if it efficient or not by itself.
+An unbiased estimator is **efficient** if it has small variance. Efficiency is a property that's typically relative to another estimator; an estimator may be more or less efficient than another, but it's hard to say if it is efficient or not by itself.
 
 An estimator is **robust** if it is has good performance across a wide range of statistical [[Statistics/Modeling/Model|models]] built on the sample data. Robust estimators are typically less efficient than flimsy ones, but in return they are more resistant to outliers, which are a major source of large errors and biases.
 ### Examples
