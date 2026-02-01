@@ -80,18 +80,44 @@
 - Esperienza di Faraday (sia misura della costante che delle dimensioni degli ioni). Perchè è importante verificare l'ohmicità della cella?
 - Voltmetro (come modifica un circuito)
 
+### Riassunto
+
+| Domanda                                                                                    | Volte chiesta |
+| ------------------------------------------------------------------------------------------ | ------------- |
+| Diodi a semiconduttori<br>(giunzione $p$-$n$, uso, resistenza di buffer, corrente di buio) | ++            |
+| Circuito rettificatore/raddrizzatore                                                       | ++++          |
+| Meccanismo voltmetro analogico                                                             | ++            |
+| Meccanismo amperometro analogico                                                           | ++            |
+| Oscilloscopio (es., trigger, frequenza massima rilevabile)                                 | +++           |
+| Esperienza/Costante di Faraday                                                             | +++           |
+| Metodi per misurare resistenze                                                             | +             |
+| (Da sopra) Giusto che l'andamento $V-I$ passi per l'origine?                               | +             |
+| Circuito a rilassamento                                                                    | ++++          |
+| Circuiti RC                                                                                | ++            |
+| Circuiti RLC                                                                               | ++            |
+| Lampada al neon                                                                            | +             |
+| Esperimento di Millikan                                                                    | +             |
+| Tubo a raggi catodici                                                                      | +             |
+| Misura rapporto e/m con fascio filiforme                                                   | +             |
+| Misura rapporto e/m con tubo di Braun                                                      | +             |
+| Ponte di Wheatstone                                                                        | +             |
+| Carica/Scarica condensatore                                                                | +             |
+| --- Relazione ---                                                                          |               |
+| Qualcosa sulla relazione/esperimento                                                       | ++++++++      |
+
+
 # Martin
 ### PERSONA 1 (ha portato esercitazione 5)
 - In generale sul test di ipotesi (sapere bene il significato di $\alpha$ e quanto piccolo prenderlo e perché). Se non si conosce a priori la $\phi_{0}$ come posso fare?
 - Test ipotesi nell’esercizio 6
-- Dimostrare che la somma di quadrati di variabili $N(0,1)$ ha distribuzione di $\chi^{2}$
+- Dimostrare che la somma di quadrati di variabili $\mathcal{N}(0,1)$ ha distribuzione di $\chi^{2}$
 
 ### PERSONA 2 (esercitazione 5)
 - Parlare della relazione
 - Quale altro metodo di stima oltre al MML si sarebbe potuto usare e come (MMQ o MMQ lineare con fit per trovare $ac^2$ e quindi $ad$, e poi di conseguenza $ap$)
-- Quale distribuzione ha la radice quadrata di una $N(0,1)$ (le è bastato vedere che sapessi cominciare, poi non ha voluto i calcoli)
+- Quale distribuzione ha la radice quadrata di una $\mathcal{N}(0,1)$ (le è bastato vedere che sapessi cominciare, poi non ha voluto i calcoli)
 - Sviluppo in serie di $\ln L$ attorno alla stima migliore dei parametri o $L$ come funzione dei parametri per individuare le regioni di incertezza statistica + CRF (senza dim.)
-- Test d'ipotesi di compatibilità di un dato di un istogramma (usando sia statistica di test $\chi^{2}_{1}$ che $N(0,1)$)
+- Test d'ipotesi di compatibilità di un dato di un istogramma (usando sia statistica di test $\chi^{2}_{1}$ che $\mathcal{N}(0,1)$)
 - Quale argomento ti ha più annoiato del corso e ti è piaciuto meno (spiazzante, ma credo volesse scherzare… perché poi ha detto che l'esame era finito se non si fosse capito!)
 
 ### PERSONA 3 (ha portato esercitazione 6)
@@ -147,13 +173,13 @@
 - Stima di parametri in generale e in relazione alla relazione portata (esercitazione 6)
 - Cramer-Rao-Frechet (senza dimostrazione) e varianza minima
 - Minimi quadrati nella relazione
-- Dimostrazione che la somma di n variabili con funz. di distribuzione normale standard hanno distribuzione di chi quadro a n gradi di libertà
+- Dimostrazione che la somma di $n$ variabili con distribuzione $\mathcal{N}(0,1)$ hanno distribuzione di $\chi^{2}$ a $n$ gradi di libertà
 - Intervalli di confidenza nella relazione
 - Chiarimenti sulla relazione
 
 ### PERSONA 6
 - Metodi per stimare la varianza
-- Dimostrare che $S^{2}$ ha distribuzione $\chi^{2}$ a n gradi di libertà o n-1 se non conosco il valore di aspettazione
+- Dimostrare che $S^{2}$ ha distribuzione $\chi^{2}$ a $n$ gradi di libertà o $n-1$ se non conosco il valore di aspettazione
 - $S^{2}$ è a varianza minima? Dimostrazione
 - Come determinare gli intervalli di confidenza per $S^{2}$
 
@@ -168,8 +194,8 @@
 - Con quanti gradi di libertà hai eseguito il test di $\chi^{2}$ e perché?
 - Gradi di libertà di $S^{2}$
 - Test di ipotesi sulla media se non si conosce la varianza
-- Che caratteristica importante ha la
-- limita la precisione di una stima; una volta che si trova uno stimatore a varianza minima, non ha senso valutarne altri spiegare in che modo la dimensione del campione influenza la disuguaglianza, fare un esempio di stimatore a varianza minima
+- Che caratteristica importante ha la disuguaglianza CRF? Limita la precisione di una stima; una volta che si trova uno stimatore a varianza minima, non ha senso valutarne altri
+- Spiegare in che modo la dimensione del campione influenza la disuguaglianza, fare un esempio di stimatore a varianza minima
 - Discutere alcune scelte fatte nella relazione, spiegare perché per il test di Pearson bisogna che il numero di eventi in ciascun intervallo sia sufficientemente grande (per passare da Poisson a Gauss)
 
 ### PERSONA 1 (relazione a parte)
@@ -178,8 +204,8 @@
 - Cramer-Rao (solo formula)
 
 ### PERSONA 6 (relazione a parte)
-- (Partendo dall'orale precedente) Test d'ipotesi parametrici (caso varianza nota e varianza non nota, distribuzione della statistica t senza dimostrazione)
-- Metodo dei minimi quadrati lineari: calcolo delle stime ($\theta = B_y$).
+- (Partendo dall'orale precedente) Test d'ipotesi parametrici (caso varianza nota e varianza non nota, distribuzione della statistica $t$ senza dimostrazione)
+- Metodo dei minimi quadrati lineari: calcolo delle stime ($\theta = B_y$)
 - Intervalli di confidenza, calcolo esplicito con il metodo dei minimi quadrati lineari per arrivare alla formula $X^2 = X^{2}_{\text{min}} + Q^{2}$
 
 ### PERSONA 1:
@@ -191,5 +217,46 @@
 ### PERSONA 2: (relazione esterna)
 - Proprietà media aritmetica (che distribuzione segue) (proprietà asintotiche: teorema del limite centrale)
 - (partendo dalla domanda prima in qualche strano modo) Che distribuzione ha la stima dei parametri con MMQL se ho variabili gaussiane? ($\mu=A \theta; \theta=B_y$)
-- Di che variabili è distribuzione la t di Student? (rapporto tra $N(0,1)$ e la radice di $\chi^{2}_n$) Perchè abbiamo introdotto questa cosa?
+- Di che variabili è distribuzione la t di Student? (rapporto tra $\mathcal{N}(0,1)$ e la radice di $\chi^{2}_n$) Perchè abbiamo introdotto questa cosa?
 - Cosa hai fatto per la relazione, come hai raccolto i dati? Che funzione di distribuzione ti aspettavi e perchè, erano misure indipendenti o no, che test d'ipotesi hai usato e che altro avresti potuto fare?
+
+### Riassunto
+
+| Domanda                                                                  | Volte chiesta |
+| ------------------------------------------------------------------------ | ------------- |
+| --- Distribuzioni ---                                                    |               |
+| Distribuzione della media                                                | +             |
+| Media di Gaussiane è Gaussiana                                           | +             |
+| Somma di quadrati di $n$ variabili $\mathcal{N}(0,1)$ è $\chi ^{2}_{n}$  | ++            |
+| Distribuzione con radice di $\mathcal{N}(0,1)$                           | +             |
+| Generatore dei momenti (teoria generale)                                 | +             |
+| Generatore dei momenti (Gaussiana)                                       | +             |
+| Teorema del limite centrale                                              | ++++          |
+| Da dove viene $t$ di Student (rapporto $\mathcal{N}(0,1)/\chi ^{2}_{n}$) | +             |
+| --- Stima parametri ---                                                  |               |
+| Stima parametri (teoria generale)                                        | +             |
+| Minimi Quadrati                                                          | +++++         |
+| Distribuzione stima MQL con variabili Gaussiane                          | +             |
+| Definizione Likelihood                                                   | +++           |
+| Maximum Likelihood                                                       | +             |
+| Binned Maximum Likelihood                                                | +             |
+| Sviluppo in serie $\ln \mathcal{L}$ per incertezza su stima              | ++            |
+| Metodo grafico per incertezza su stima                                   | +             |
+| Disuguaglianza Cramér-Rao-Frechet                                        | ++++++        |
+| Perché media è buon stimatore (legge grandi numeri)                      | +             |
+| Stime per la varianza                                                    | +++           |
+| Stimatore $S^{2}$ varianza segue $\chi ^{2}_{n}$ o $\chi ^{2}_{n-1}$     | +             |
+| Dimostrare che $S^{2}$ ha varianza minima                                | +             |
+| Esempio di stimatore a varianza minima                                   | +             |
+| --- Test d'ipotesi ---                                                   |               |
+| Test d'ipotesi (teoria generale)                                         | ++            |
+| Cos'è $\alpha$/come sceglierlo                                           | ++            |
+| Cosa fare se $\phi_{0}$ non è nota                                       | +             |
+| Intervalli di confidenza                                                 | ++++          |
+| Test per compatibilità dato di un'istogramma                             | +             |
+| Compatibilità misure/stime                                               | ++            |
+| Test parametri per Gaussiana                                             | ++++          |
+| Test di $\chi ^{2}$ (normale/Pearson)                                    | ++            |
+| Test di indipendenza                                                     | +             |
+| --- Relazione ---                                                        |               |
+| Qualcosa sulla relazione                                                 | +++++++++++++ |

@@ -19,7 +19,7 @@ Consider a random variable $X$ (assumed continuous; for a discrete one, just cha
 $$\mu^{*}_{n}=\text{E}[X^{n}]=\int_{\Omega}x^{n}f_{X}(x)\ dx$$
 $f_{X}(x)$ is the [[probability density function]]. The first couple of moments are:
 0. $\mu^{*}_{0}=\int_{\Omega}f_{X}(x)\ dx$ is the [[Normalization|normalization condition]] for $f_{X}(x)$.
-1. $\mu^{*}_{1}=\int_{\Omega}xf_{X}(x)\ dx=\mu_{X}$ is the [[mean]] of $X$, an index of position.
+1. $\mu^{*}_{1}=\int_{\Omega}xf_{X}(x)\ dx=\mu_{X}$ is the expected value ([[mean]]) of $X$, an index of position.
 
 Orders 2 and up don't have a clear interpretation and are therefore mostly unused.
 

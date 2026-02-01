@@ -7,3 +7,4 @@ where $E[\cdot]$ is the [[Expected value|expectation operator]] and $f_{X}(x)$ i
 
 Unlike [[Moment-generating function|moment-generating functions]], which may not exist, the characteristic function is guaranteed to exist for any distribution with a probability density function. Like an MGF, it can be used to calculated the [[Function moments|moments]] of a distribution by series expanding the exponential in a [[serie di potenze|power series]] to get
 $$i^{k}\mu^{*}_{k}=\left.\frac{ \partial ^{k}\phi^{*}_{X} }{ \partial t^{k} } \right|_{t=0}$$
+For example, the [[Cauchy distribution]] has no MGF and requires using the characteristic function to find its (quite irregular) moments.

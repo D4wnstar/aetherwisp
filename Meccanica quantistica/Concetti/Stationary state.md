@@ -9,7 +9,7 @@ A **stationary state** is a quantum [[stato|state]] in which all [[osservabile|o
 
 Stationary states are solutions to the [[Equazione di Schrödinger|time-independent Schrödinger equation]]
 $$\hat{H}|\Psi\rangle=E |\Psi\rangle$$
-where $\hat{H}$ is the Hamiltonian operator, $|\Psi\rangle$ is the system's state, and $E$ is the energy eigenvalue associated with the stationary state.
+where $\hat{H}$ is the Hamiltonian operator, $|\Psi\rangle$ is the system's state, and $E$ is the **energy eigenvalue** associated with the stationary state.
 
 :::image(sidebar)
 ![[StationaryStatesAnimation.gif]]
