@@ -3,6 +3,7 @@ wiki-publish: true
 aliases:
   - diagonalized
   - eigendecomposition
+  - diagonal matrix
 ---
 A square [[matrix]] is said to be **diagonal** if it only has nonzero entries on the diagonal. For example, the identity matrix is diagonal
 $$\mathrm{I}=\begin{pmatrix}

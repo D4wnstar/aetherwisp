@@ -1,7 +1,7 @@
 ---
 wiki-publish: true
 ---
-The **expected value** or **expectation** $\text{E}[X]$ of a [[Random variable]] $X$ is a generalization of a weighted average over all possible values the variable can take. It is what the word "[[mean]]" typically refers to in the context of statistics, though there's many other possible meanings. It is the first raw [[Function moments|moment]] of the [[Probability distribution]]. The name "expectation" refers to both the value $\text{E}[X]$ itself and the [[operatore|operator]] $\text{E}$ that is applied onto $X$.
+The **expected value** or **expectation** $\text{E}[X]$ of a [[Random variable]] $X$ is a generalization of a weighted average over all possible values the variable can take. It is what the word "[[mean]]" typically refers to in the context of statistics, though there's many other possible meanings. It is the first raw [[Function moments|moment]] of the [[Probability distribution]]. The name "expectation" refers to both the value $\text{E}[X]$ itself and the [[operatore|operator]] $\text{E}$ that is applied onto $X$. It is also commonly denoted with the letter $\mu$.
 
 The name can be misleading: the expected value is not the most likely value (that would be the [[mode]]). It is strictly theoretical and may not even be an allowed value of the random variable: for instance, the expected value of a fair six-sided die is 3.5, which is not even on the die.
 
@@ -18,6 +18,11 @@ The [[Riemann series theorem]] states that the convergence value of some series 
 Given a continuous random variable $X$ with a [[Probability density function]] $f_{X}(x)$, the expected value is
 $$\text{E}[X]=\int_{-\infty}^{\infty} xf_{X}(x) \ dx$$
 Similarly to the series above, integrals may diverge, in which case the variable does not have finite expectation.
+### Multiple variables
+The expected value is not defined for multiple variables. However, it is possible to find the expected value of one variable among many from the [[joint distribution function]].
+
+For $N$ continuous random variables $X_{1},\ldots,X_{N}$ with JDF $f(x_{1},\ldots,x_{N})$, the expected value of $X_{i}$ is
+$$\text{E}[X_{i}]=\int_{\Omega_{N}}\ldots \int_{\Omega_{1}}x_{i}f(x_{1},\ldots,x_{N})dx_{1}\ldots dx_{N}$$
 ### Properties
 The expectation has some useful properties:
 - If $X>0$ then $\text{E}[X]>0$.
@@ -27,9 +32,9 @@ The expectation has some useful properties:
 - If $\text{E}[\lvert X \rvert]=0$ then $X=0$.
 - If $X=c$ for a constant $c$, then $\text{E}[X]=c$. As a consequence, since the expectation is a constant, the expectation operator is [[idempotence|idempotent]]: $\text{E}[\text{E}[X]]=\text{E}[X]$.
 - $\text{E}[XY]\neq \text{E}[X]\text{E}[Y]$ in general. It is guaranteed to be equal if $X$ and $Y$ are [[independent variables]], but could theoretically be true even if they are dependent.
-### Expected value vector
+### Expected value arrays
 When dealing with a [[Random variable|random vector]] $\mathbf{X}=(X_{1},\ldots,X_{N})$, the **expected value vector** or **mean vector** is the vector of expected values:
 $$\text{E}[\mathbf{X}]=(\text{E}[X_{1}],\ldots,\text{E}[X_{N}])$$
 In this case, the linearity properties looks like
 $$\text{E}[\mathrm{A}\mathbf{X}+\mathbf{b}]=\mathrm{A}\text{E}[\mathbf{X}]+\mathbf{b}$$
-where $\mathrm{A}$ is an $N\times N$ [[matrix]] and $\mathbf{b}$ is an $N$-dimensional vector.
+where $\mathrm{A}$ is an $N\times N$ [[matrix]] and $\mathbf{b}$ is an $N$-dimensional vector. Similar nomenclature applies to the **expected value matrix**.

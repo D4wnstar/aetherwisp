@@ -3,7 +3,7 @@ wiki-publish: true
 aliases:
   - sufficient statistic
 ---
-A **statistic** is a function of a statistical [[sample]], in the sense of a [[set]] of [[random variable|random variables]]. It is itself a random variable. Examples include the sample [[mean]] and sample [[variance]].
+A **statistic** is a function of a statistical [[sample]], in the sense of a [[set]] of [[random variable|random variables]], used to quantify properties of the sample, generally for descriptive or testing purposes. It is itself a random variable. Examples include the sample [[mean]] and sample [[variance]]. See also [[Functions of random variables]] for general properties.
 ### Sufficient statistic
 Given a [[Random variable|random vector]] $\mathbf{X}$ of [[Probability density function|PDF]] $f_{\mathbf{X}}(x;\theta)$ ($\theta$ is a parameter), a statistic $t(\mathbf{X})$ is said to be **sufficient** for $\theta$ if it such that $f_{\mathbf{X}}(x;\theta)$ can be written as
   $$f_{X}(x;\theta)=h(\mathbf{X})g(t(\mathbf{X});\theta)$$

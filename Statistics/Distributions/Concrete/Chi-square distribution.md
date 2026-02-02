@@ -5,11 +5,11 @@ The **chi-square distribution** or **$\chi ^{2}$ distribution** is a real, conti
 $$f_{X}(x;k)=\frac{1}{\Gamma\left( \frac{k}{2} \right)} \frac{1}{2^{k/2}}x^{k/2 -1}e^{-x/2}$$
 where $k\geq1$ is an integer parameter called the **[[degrees of freedom]]** of the distribution and $\Gamma$ is the [[gamma function]].
 
-Its most common application is for [[hypothesis test|hypothesis testing]], specifically [[Chi-square test|chi-square tests]].
+Its most common application is for [[hypothesis test|hypothesis testing]], specifically [[Chi-square test|chi-square tests]]. Moreover, since $\chi ^{2}$ distributions arise from the sum of squares of [[Gaussian distribution|Gaussian distributions]], the square [[norm]] of any [[Vector space|vector]] whose components follow a Gaussian is $\chi ^{2}$.
 ### Moments
 The raw [[moment-generating function]] is
 $$\begin{align}
-M_{X}^{*}(t)=E[e^{tX}]&=\frac{1}{2^{k/2}\Gamma\left( \frac{k}{2} \right)}\int_{0}^{\infty}e^{tx}x^{k/2-1}e^{-x/2}\ dx \\
+M_{X}^{*}(t)=\mathrm{E}[e^{tX}]&=\frac{1}{2^{k/2}\Gamma\left( \frac{k}{2} \right)}\int_{0}^{\infty}e^{tx}x^{k/2-1}e^{-x/2}\ dx \\
 &=\frac{1}{2^{k/2}\Gamma\left( \frac{k}{2} \right)}\Gamma\left( \frac{k}{2} \right) \frac{1}{2^{-k/2}}(1-2t)^{-k/2} \\
 &=(1-2t)^{-k/2}
 \end{align}$$
@@ -35,8 +35,25 @@ Some [[Function moments|moments]] are:
 ### Relation to other distributions
 - It is a special case of the [[Gamma distribution]] with $\alpha=k/2$ and $\beta=2$.
 - It follows the [[central limit theorem]]: if $k\gg 1$, the $\chi ^{2}_{k}$ approximately becomes a [[Gaussian distribution]] $\mathcal{N}(k,2k)$.
-- Given a set of $N$ [[iid]] normally-distributed variables $\{ X_{1},\ldots,X_{N} \}$, the sum of their squares $Y=\sum_{i=1}^{N}X_{i}^{2}$ is chi-square-distributed with $N$ degrees of freedom, $Y\sim \chi ^{2}_{N}$. As Gaussian RVs are quite common, the $\chi ^{2}$ distribution tends to appear frequently even if there is no individual phenomenon that follows it.
 - It is related to the [[Maxwell-Boltzmann distribution]] (see [[#In molecular velocity analysis]]).
+#### As the sum of square Gaussian distributions
+As a particularly interesting case, a $\chi ^{2}$ distribution is the result of the sum of squares of Gaussian distributions. Given a set of $N$ [[iid]] normally-distributed variables $\{ X_{1},\ldots,X_{N} \}$, the sum of their squares $Y=\sum_{i=1}^{N}X_{i}^{2}$ is chi-square-distributed with $N$ degrees of freedom, $Y\sim \chi ^{2}_{N}$. As Gaussian RVs are quite common, the $\chi ^{2}$ distribution tends to appear frequently even if there is no individual phenomenon that follows it.
+
+> [!quote]- Proof for standard normals
+> Say $X_{1},\ldots,X_{N}$ all independently follow $\mathcal{N}(0,1)$. Then $X_{1}^{2},\ldots,X_{N}^{2}$ all follow $\chi ^{2}_{1}$; for proof see [[Functions of random variables#Distribution, expectation, variance]]. The MGF of $\chi_{1}^{2}$ is
+> $$M_{X^{2}}^{*}(t)=\mathrm{E}[e^{ tX^{2} }]=(1-2t)^{-1/2}$$
+> Since $X_{1},\ldots,X_{N}$ are independent, the MGF of the distribution of $Y$ is the product of the MGFs of $X_{i}$:
+> $$M_{Y}^{*}(t)=\prod_{i=1}^{N} \mathrm{E}[e^{t_{i}X_{i}^{2}}]=(1-2t)^{-N/2}$$
+> But this is the MGF of the $\chi ^{2}_{N}$ distribution. Therefore, $Y\sim \chi ^{2}_{N}$.
+
+> [!quote]- Extension to any normal
+> Say $X_{1},\ldots,X_{N}$ independently follow $\mathcal{N}(\mu_{i},\sigma ^{2}_{i})$. Then $(X_{i}-\mu_{i})/\sigma_{i}$ follow $\mathcal{N}(0,1)$. Then, the sum of these squares is $\chi_{N}^{2}$ as per the previous point. Therefore in general
+> $$Y=\sum_{i=1}^{N} \frac{(X_{i}-\mu_{i})^{2}}{\sigma ^{2}_{i}}\sim \chi_{N}^{2}$$
+> This is the basis behind the $\chi ^{2}$ hypothesis tests.
+> 
+> If $X_{1},\ldots,X_{N}$ are dependent, then it can be proven (in a much more involved manner) that the quantity that follows a $\chi ^{2}_{N}$ distribution is
+> $$Y=(\mathbf{X}-\boldsymbol{\mu})^{T}\Sigma^{-1}(\mathbf{X}-\boldsymbol{\mu})\sim \chi_{N}^{2}$$
+> where $\Sigma$ is the [[Covariance|covariance matrix]] of $X_{1},\ldots,X_{N}$. The proof involves finding that, as long as $\Sigma$ is not singular, there always exists an orthogonal [[transformation]] that allows changing from $X_{1},\ldots,X_{N}$ correlated variables to $\tilde{X}_{1},\ldots,\tilde{X}_{N}$ independent variables, then reusing the above proof.
 ### In molecular velocity analysis
 The chi-square distribution can be used to derive a statistical description of the motion of molecules in a gas. Consider a gas of identical molecules each with velocity $\mathbf{v}=(v_{1},v_{2},v_{3})\in \mathbb{R}^{3}$. Each component of each $\mathbf{v}$ is considered a normally-distributed random variable with parameters $N(0,\sigma ^{2})$. We can define the scale-independent variable $\mathbf{q}$ as $\mathbf{q}=\mathbf{v}/\sigma=(q_{1},q_{2},q_{3})$, the components of which are also normally distributed but following the standard normal $N(0,1)$ instead. The square [[Norma|norm]] of $\mathbf{q}$, $\lvert \mathbf{q} \rvert^{2}\equiv q^{2}=q_{1}^{2}+q_{2}^{2}+q_{3}^{2}$ is therefore chi-squared-distributed with 3 degrees of freedom: $\chi ^{2}_{3}$. The probability density function for $q^{2}$ thus is
 $$f(q^{2})=\frac{1}{\sqrt{ 2\pi }}(q^{2})^{1/2}e^{-q^{2}/2}$$

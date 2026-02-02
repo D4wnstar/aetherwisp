@@ -17,3 +17,12 @@ $$\mu^{*}_{n}=\left.\frac{ \partial ^{n}M^{*}_{X} }{ \partial t^{n} } \right|_{t
 - If two random variables $X$ and $Y$ have MGFs $M_{X}(t)$ and $M_{Y}(t)$ that are equal in at least a small interval around $t=0$, then $X=Y$.
 - If $X$ and $Y$ are [[Independent variables|independent]], then $M_{X+Y}(t)=M_{X}(t)M_{Y}(t)$.
 - A random variable may not have an MGF. This is, for instance, the case for variables following the [[Cauchy distribution]]. In these cases, it's always possible to use the [[Characteristic function|characteristic function]] instead.
+### Multiple variables
+Moment-generating functions can be extended to [[Joint distribution function|joint distributions]] and are known as **joint MGFs**. Given $N$ random variables $X_{1},\ldots,X_{N}$ with JDF $f(x_{1},\ldots,x_{N})$ and expected values $\mathrm{E}[X_{i}]=\mu_{i}$, the joint raw MGF is defined as
+$$M^{*}(t_{1},\ldots,t_{N})=\mathrm{E}\left[ \prod_{i=1}^{N} e^{t_{i}X_{i}} \right]=\mathrm{E}\left[ e^{\sum_{i=1}^{N} t_{i}X_{i}} \right]$$
+The central MGF is analogous:
+$$M(t_{1},\ldots,t_{N})=\mathrm{E}\left[ \prod_{i=1}^{N} e^{t_{i}(X_{i}-\mu_{i})} \right]=\mathrm{E}\left[ e^{\sum_{i=1}^{N} t_{i}(X_{i}-\mu_{i})} \right]$$
+If $X_{1},\ldots,X_{N}$ are [[independent variables]], the joint MGF is the product of individual MGFs:
+$$M^{*}(t_{1},\ldots,t_{N})=\prod_{i=1}^{N} M_{X_{i}}^{*}(t_{i})=M_{X_{1}}^{*}(t_{1})...M_{X_{N}}^{*}(t_{N})$$
+It can be proven that, similarly to the one-dimensional MGFs, the function moments can be found by taking [[partial derivative|partial derivatives]] and evaluating in $\mathbf{t}=(t_{1},\ldots,t_{N})=0$:
+$$\mu_{i,n}^{*}=\left.{\frac{ \partial^{n} M_{X_{i}}^{*} }{ \partial t_{i}^{n} }}\right|_{\mathbf{t}=0} $$

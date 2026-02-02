@@ -1,31 +1,44 @@
 ---
 wiki-publish: true
 ---
-A **function of one or more random variables** is any function that depends on a set of [[Random variable|random variables]]. Call $y$ a function dependent on variables $X_{1},\ldots,X_{N}$, it is denoted $y=y(x_{1},\ldots,x_{n})$.
-### Expectation and variance
-It is generally useful to know the [[Expected value]] and [[Variance]] of such a function. Assume the expectation and variance of the $i$-th variable are $E[X_{i}]=\mu_{i}$ and $\sigma_{i}^{2}$, and the [[Covariance]] of the $ij$ pair is $\text{cov}(x_{i},x_{j})=\rho_{y}\sigma_{i}\sigma_{j}$.
+Despite being [[random]], a [[random variable]] is still a variable and as such can be used as the argument of a function. **Functions of random variables** thus play a significant role in statistics and knowing their properties sets the foundation for a significant chunk of the field. Importantly, they themselves are random variables and as such share all the statistical machinery that comes attached with them.
+### Distribution, expectation, variance
+Call $Y$ a univariate function dependent on an RV $X$. We denote it $Y\equiv Y(X)$. Since $Y$ is itself an RV, it follows some [[probability distribution]]. If $f_{X}(x)$ is the [[probability density function]] of $X$, then the PDF of $Y$ is given by
+$$\boxed{f_{Y}(y)=f_{X}(X(y))\left\lvert  \frac{dX(y)}{dY}  \right\rvert }$$
+This is true under the assumption that the function $Y(X)$ is monotonic and invertible to $Y^{-1}(Y)=X(Y)$. If that is not true and $Y(X)$ is not monotonic, such that there are $m$ RVs $X_{i}$ for which $Y=Y(X_{i})$, then the above formula generalizes to
+$$\boxed{f_{Y}(y)=\sum_{i=1}^{N} f_{X}(X_{i}(y))\left\lvert   \frac{dX_{i}(y)}{dY}  \right\rvert }$$
+In essence, this formula is the same as before, except you break the function down into $m$ monotonic pieces, recycle the previous formula to find their individual contribution and then sum them up.
 
-Let's initially consider just the univariate case $y=y(x)$ and let's call $E[y]=\mu$ the expected value and $\sigma^{2}$ the variance of $y$. We can do a [[Taylor series|Taylor expansion]] of $y$ centered in $\mu$ as
-$$y(x)\simeq y(\mu)+ \underbrace{ \left. \frac{dy}{dx}\right|_{x=\mu}(x-\mu) }_{ 0 }+ \frac{1}{2}\left. \frac{d^{2}y}{dx^{2}}\right|_{x=\mu}(x-\mu)^{2}+\ldots$$
-We have
-$$\mu_{y}=E[y]=y(\mu)+ \frac{1}{2}\left. \frac{d^{2}y}{dx^{2}}\right|_{x=\mu}\sigma ^{2}+\ldots$$
-The variance is $\text{var}(y)=E[y^{2}]-E[y]^{2}$, so we need $y^{2}$, which is, through another series expansion in $\mu$:
-$$y^{2}\simeq y^{2}(\mu)+2y(\mu) \left. \frac{dy}{dx}\right|_{x=\mu}(x-\mu)+ y(\mu) \frac{1}{2} \left. \frac{d^{2}y}{dx^{2}}\right|_{x=\mu}(x-\mu)^{2}+\left[ \left. \frac{dy}{dx}\right|_{x=\mu}(x-\mu) \right]^{2}+$$
-$$+y(\mu) \frac{1}{2} \left.\frac{d^{2}y}{dx^{2}}\right|_{x=\mu}(x-\mu)^{2}+\ldots$$
-So $E[y^{2}]$ is
-$$E[y^{2}]=y^{2}(\mu)+y(\mu) \left. \frac{d^{2}y}{dx^{2}}\right|_{x=\mu}\sigma ^{2}+ \left( \left. \frac{dy}{dx}\right|_{x=\mu} \right)^{2}+\ldots$$
+A couple of examples that can be derived from these are:
+- If $X\sim \mathcal{N}(\mu,\sigma^{2})$ then $Y(X)=(X-\mu)/\sigma$ is $Y\sim \mathcal{N}(0,1)$.
+- If $X\sim \mathcal{N}(0,1)$, then $Y(X)=X^{2}$ is $Y\sim \chi_{1}^{2}$.
 
-Meanwhile, $E[y]^{2}$ is idk teach deleted blackboard, same for $\sigma^{2}$, but it's just the propagation of variances
+> [!quote]- Proof: Square of a standard normal is chi-square
+> Let $X\sim \mathcal{N}(0,1)$. We want to prove that $Y=X^{2}\sim \chi ^{2}_{1}$. Inverting $Y=X^{2}$ gives $X=\pm \sqrt{ Y }$. The square is evidently not monotonic, as each there are two possible values of $x$ for each $y$. Thus, we use the non-monotonic form with $m=2$. The PDF of $X$ is the usual standard normal, so
+> $$f_{X}(X(y))=\frac{1}{\sqrt{ 2\pi }}e^{ -y/2 }$$
+> for both $\pm \sqrt{ y }$, as it is an even function. We then differentiate
+> $$\left\lvert  \frac{dX_{+}(y)}{dY}  \right\rvert =\left\lvert  \frac{d\sqrt{ Y }}{dY}  \right\rvert = \frac{1}{2\sqrt{ Y }},\qquad\left\lvert  \frac{dX_{-}(y)}{dY}  \right\rvert =\left\lvert  \frac{d(-\sqrt{ Y })}{dY}  \right\rvert = \frac{1}{2\sqrt{ Y }}$$
+> which are also both equal. Then, applying the formula
+> $$f_{Y}(y)=\frac{1}{\sqrt{ 2\pi }}e^{-y/2} \left( \frac{1}{2\sqrt{ y }}+ \frac{1}{2\sqrt{ y }} \right)=\frac{1}{\sqrt{ \pi }} \frac{1}{\sqrt{ 2 }} \frac{1}{\sqrt{ y }}e^{-y/2}=\frac{1}{\Gamma\left( \frac{1}{2} \right)} \frac{1}{2^{1/2}}y^{1/2-1}e^{-y/2}$$
+> which is exactly the PDF of a $\chi_{1}^{2}$.
 
-The multivariate case $y=y(x_{1},\ldots,x_{n})$ instead requires us to do a multivariate series expansion in $(\mu_{1},\ldots,\mu_{n})$:
-$$y(x_{1},\ldots,x_{n})=y(\mu_{1},\ldots,\mu_{n})+\sum_{i=1}^{n} \left.\frac{ \partial y }{ \partial x_{i} }\right|_{\mathbf{x}=\boldsymbol{\mu}} (x_{i}-\mu_{i})+ \frac{1}{2}\sum_{i=1}^{n} \sum_{j=1}^{n} \left. \frac{ \partial ^{2}y }{ \partial x_{i}x_{j} }  \right|_{\mathbf{x}=\boldsymbol{\mu}}(x_{i}-\mu_{i})(x_{j}-\mu_{j})+\ldots$$
-The expectation is
-$$\boxed{E[y]=y(\mu_{1},\ldots,\mu_{n})+ \frac{1}{2}\sum_{i=1}^{n} \sum_{j=1}^{n} \left. \frac{ \partial ^{2}y }{ \partial x_{i}x_{j} }  \right|_{\mathbf{x}=\boldsymbol{\mu}}\text{cov}(x_{i},x_{j})}$$
-idk what $y^{2}$, $E[y^{2}]$ or $E[y]^{2}$ are but if you find them you get
-$$\boxed{\text{var}(y)=\sum_{i=1}^{n} \left( \left.\frac{ \partial y }{ \partial x_{i} } \right|_{\mathbf{x}=\boldsymbol{\mu}} \right)^{2}\sigma ^{2}_{i}+\sum_{i\neq j}^{n} \left.\frac{ \partial y }{ \partial x_{i} } \right|_{\mathbf{x}=\boldsymbol{\mu}}\left.\frac{ \partial y }{ \partial x_{j} } \right|_{\mathbf{x}=\boldsymbol{\mu}}\text{cov}(x_{i},x_{j})}$$
+Calculating the entire distribution of $Y$ is rather overkill in many cases. Most of the time, the [[function moments]] of $Y$ are more useful. Out of them, it is generally useful to know the [[expected value]] and [[variance]]. Finding exact formulas for these is tricky however; instead, it is best to use approximations. For the [[mean]], given $\mu_{X}=\mathrm{E}[X]$, we can do a [[Taylor series|Taylor expansion]] of $Y$ centered in $\mu$ to get
+$$Y(X)\simeq Y(\mu_{X})+ \underbrace{ \left. \frac{dY}{dX}\right|_{x=\mu_{X}}(X-\mu_{X}) }_{ 0 }+ \frac{1}{2}\left. \frac{d^{2}Y}{dX^{2}}\right|_{x=\mu_{X}}(X-\mu_{X})^{2}+\ldots$$
+If we wrap this in an expectation operator we get
+$$\mathrm{E}[Y(X)]=\mu_{Y}\simeq Y(\mu_{X})+ \frac{1}{2} \left.{\frac{d^{2}Y}{dX^{2}}}\right|_{x=\mu_{X}}\sigma_{X}^{2}$$
+If $\sigma ^{2}_{X}$ is small, then we can approximate even more to simply state
+$$\mu_{Y}\simeq Y(\mu_{X})$$
+Similarly, the variance becomes
+$$\text{var}(Y(X))=\sigma ^{2}_{Y}\simeq\left( \left.{\frac{dY}{dX}}\right|_{x=\mu_{X}} \right)^{2}\sigma_{X}^{2}$$
+These results can be extended to the multivariate case. Given a multivariate $Y\equiv Y(X_{1},\ldots,X_{N})$, the approximate mean and variance can be found using the same Taylor expansion above, just in $N$ dimensions:
+$$\boxed{\begin{align}
+\mu_{Y}&\simeq Y(\mu_{X_{1}},\ldots,\mu_{X_{N}})+ \frac{1}{2}\sum_{i=1}^{N} \sum_{j=1}^{N} \left. \frac{ \partial ^{2}Y }{ \partial x_{i}x_{j} }  \right|_{\mathbf{x}=\boldsymbol{\mu}_{X}}\text{cov}(X_{i},X_{j}) \\ \\
+\sigma ^{2}_{Y}&\simeq \sum_{i=1}^{N} \left( \left.{\frac{dY}{dX_{i}}}\right|_{\mathbf{x}=\boldsymbol{\mu}_{X}} \right)^{2}\sigma ^{2}_{X_{i}}+\sum_{j=1}^{N} \sum_{\substack{k=1 \\ k\neq j}}^{N} \left.{\frac{ \partial Y }{ \partial x_{j} } }\right|_{\mathbf{x}=\mu_{X}}\left.{\frac{ \partial Y }{ \partial x_{k} }}\right|_{\mathbf{x}=\boldsymbol{\mu}_{X}}\text{cov}(X_{j},X_{k})
+\end{align}}$$
+The variance formula is known as the **[[law of propagation of variance]]** and finds considerable use in experimental science to propagate measurement errors. For [[independent variables]], the [[covariance]] terms vanish, leaving a much simpler sum of squares.
 
-Say instead we have two functions $y_{1}$ and $y_{2}$ of the same variables $(x_{1},\ldots,x_{n})$. It is also possible to find their covariance in the same way, using series expansions. It is
-$$\boxed{\text{cov}(y_{1},y_{2})=E[y_{1}y_{2}]-E[y_{1}]E[y_{2}]=\sum_{i=1}^{n} \left.\frac{ \partial y_{1} }{ \partial x_{i} }\right|_{\mathbf{x}=\boldsymbol{\mu}} \left.\frac{ \partial y_{2} }{ \partial x_{i} }\right|_{\mathbf{x}=\boldsymbol{\mu}}\sigma ^{2}_{i}}$$
+If we instead have two functions $Y_{1}$ and $Y_{2}$ of the same variables $(X_{1},\ldots,X_{N})$, their covariance can be through the same series expansions method. It is
+$$\boxed{\text{cov}(Y_{1},Y_{2})=E[Y_{1}Y_{2}]-E[Y_{1}]E[Y_{2}]=\sum_{i=1}^{N} \left.\frac{ \partial Y_{1} }{ \partial x_{i} }\right|_{\mathbf{x}=\boldsymbol{\mu}_{X}} \left.\frac{ \partial Y_{2} }{ \partial x_{i} }\right|_{\mathbf{x}=\boldsymbol{\mu}_{X}}\sigma ^{2}_{X_{i}}}$$
 #### Sum of two variables
 Let's consider two random variables $X_{1}$ and $X_{2}$ of [[mean|means]] $\mu_{1}$ and $\mu_{2}$ and variances $\sigma_{1}$ and $\sigma_{2}$. Let's also consider a function $y$ that is just their sum $y=x_{1}+x_{2}$. The mean and variance of $y$ are simply
 $$\mu_{y}=\mu_{1}+\mu_{2},\qquad \sigma_{y}^{2}=\sigma_{1}^{2}+\sigma_{2}^{2}+2\rho \sigma_{1}\sigma_{2}$$

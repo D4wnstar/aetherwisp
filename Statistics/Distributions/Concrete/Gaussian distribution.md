@@ -5,11 +5,11 @@ aliases:
   - standard normal distribution
 ---
 The **Gaussian distribution** or **normal distribution** is a real univariate continuous [[Probability distribution]]. For a [[Random variable]] $X$, the [[Probability density function]] is
-$$\mathcal{N}(x;\mu,\sigma ^{2})=\frac{1}{\sqrt{ 2\pi \sigma^{2} }}e^{- \frac{(x-\mu)^{2}}{2\sigma ^{2}}}$$
+$$f_{X}(x;\mu,\sigma ^{2})=\frac{1}{\sqrt{ 2\pi \sigma^{2} }}e^{- \frac{(x-\mu)^{2}}{2\sigma ^{2}}}$$
 where $\mu$ is the [[Expected value]] e $\sigma ^{2}$ is the [[Variance]].
 
-A **standard normal distribution** is defined as a normal distribution with $\mu=0$ and $\sigma=1$, which looks like
-$$\mathcal{N}(x;0,1)=\frac{1}{\sqrt{ 2\pi }}e^{-x^{2}/2}$$
+A **standard normal distribution** is defined as a normal distribution with $\mu=0$ and $\sigma ^{2}=1$:
+$$f_{X}(x;0,1)=\frac{1}{\sqrt{ 2\pi }}e^{-x^{2}/2}$$
 ### Moments
 The central and raw [[Moment-generating function]] for the Gaussian are
 $$M_{X}(t)=\text{E}[e^{t(X-\mu)}]=e^{\sigma ^{2}t^{2}/2},\qquad M_{X}^{*}(t)=e^{t\mu}M_{X}(t)=e^{t\mu+t^{2}\sigma ^{2}/2}$$

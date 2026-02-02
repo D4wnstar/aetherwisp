@@ -1,69 +1,93 @@
 ---
 wiki-publish: true
 ---
-The **multivariate normal distribution** is a real, multivariate [[Probability distribution]] that is a generalization of the [[Gaussian distribution|normal distribution]] to multiple dimensions. For $n$ [[independent variable|independent]], normally-distributed [[Random variable|random variables]] $X_{1},\ldots,X_{n}$, it is simply the [[Joint distribution function]] of $N$ Gaussians:
-$$f(x_{1},\ldots,x_{N})=f_{1}(x_{1})\ldots f_{N}(x_{N})=\frac{1}{(2\pi)^{n/2}\sigma_{1}\ldots\sigma_{n}}e^{-\sum_{i=1}^{N} (x_{i}-\mu_{i})^{2}/2\sigma_{i}^{2}}$$
-where $\mu_{i}$ and $\sigma_{i}^{2}$ are the [[mean]] and [[Variance]] of the $i$-th variable. In terms of the [[Covariance|covariance matrix]] $\Sigma$, it can be written in a more general form that also works for dependent variables:
-$$f(x_{1},\ldots,x_{N})=\frac{1}{(2\pi)^{n/2}\sqrt{ \det \Sigma }}e^{-(\mathbf{x}-\boldsymbol{\mu})^{T}\Sigma^{-1}(\mathbf{x}-\boldsymbol{\mu})/2}$$
-The shorthand to say that a [[Random variable|random vector]] $\mathbf{X}$ follows a multivariate normal of mean vector $\boldsymbol{\mu}$ and covariance matrix $\Sigma$ is
+The **multivariate normal distribution** is a real, multivariate [[probability distribution]] that is a generalization of the [[Gaussian distribution|normal distribution]] to multiple dimensions. For $N$ Gaussian [[Independent variables|independent]] [[Random variable|random variables]] $X_{1},\ldots,X_{N}$, the [[joint distribution function]] is:
+$$f(x_{1},\ldots,x_{N})=f_{1}(x_{1})\ldots f_{N}(x_{N})=\frac{1}{(2\pi)^{N/2}\sigma_{1}\ldots\sigma_{N}}e^{-\sum_{i=1}^{N} (x_{i}-\mu_{i})^{2}/2\sigma_{i}^{2}}$$
+$\mu_{i}$ and $\sigma_{i}^{2}$ are the [[mean]] and [[variance]] of the $i$-th distribution.
+
+If the variables are not independent, it can be written in terms of the [[Covariance|covariance matrix]] $\Sigma$:
+$$f(\mathbf{x})=\frac{1}{(2\pi)^{N/2}\sqrt{ \det \Sigma }}e^{-(\mathbf{x}-\boldsymbol{\mu})^{T}\Sigma^{-1}(\mathbf{x}-\boldsymbol{\mu})/2}$$
+where $\boldsymbol{\mu}=(\mu_{1},\ldots,\mu_{N})$. Most of the exponent is often put in its own variable:
+$$Q^{2}=(\mathbf{x}-\boldsymbol{\mu})^{T}\Sigma^{-1}(\mathbf{x}-\boldsymbol{\mu})$$
+This quantity has interesting properties that can be used to analyze the dispersion of the distribution.
+
+As a shorthand, a [[Random variable|random vector]] $\mathbf{X}$ can be said to follow a multivariate normal of mean vector $\boldsymbol{\mu}$ and covariance matrix $\Sigma$ with the notation
 $$\mathbf{X}\sim \mathcal{N}(\boldsymbol{\mu},\Sigma)$$
+### Moments
+The [[moment-generating function]] of the multivariate normal is known in closed form for the independent variable case and is relatively simple:
+$$M_{\mathbf{X}}(\mathbf{t})=\exp\left( \sum_{i=1}^{N} \frac{\sigma_{i}^{2}t_{i}^{2}}{2} \right),\qquad M_{\mathbf{X}}^{*}(\mathbf{t})=\exp\left( \sum_{i=1}^{N} \frac{\sigma_{i}^{2}t_{i}^{2}+2\mu_{i}t_{i}}{2} \right)$$
+## Dispersion and $Q^{2}$ ellipses
+The multivariate normal distribution is, like its univariate sibling, possibly the most important multivariate distribution, owing to the commonness of Gaussian random variables. Both the cases with independent and dependent random variables come up in practice, and it's therefore useful to discuss both.
 ### Independent variables
-Since the variables are independent, the covariance matrix is diagonal:
-$$V=\begin{pmatrix}
+Since the variables are independent, the covariance matrix is [[Diagonalization|diagonal]]:
+$$\Sigma=\begin{pmatrix}
 \sigma_{1}^{2} & 0 & \ldots & \ldots &  0 \\
 0 & \sigma_{2}^{2} & 0 & \ldots & 0 \\
 \vdots & \vdots & \vdots & \vdots & \vdots \\
-0 & \ldots & \ldots & \ldots & \sigma_{n}^{2}
+0 & \ldots & \ldots & \ldots & \sigma_{N}^{2}
 \end{pmatrix}$$
-and its inverse
-$$V^{-1}=\begin{pmatrix}
+and its [[Invertible matrix|inverse]] is
+$$\Sigma^{-1}=\begin{pmatrix}
 \frac{1}{\sigma_{1}^{2}} & 0 & \ldots & \ldots &  0 \\
 0 & \frac{1}{\sigma_{2}^{2}} & 0 & \ldots & 0 \\
 \vdots & \vdots & \vdots & \vdots & \vdots \\
-0 & \ldots & \ldots & \ldots & \frac{1}{\sigma_{n}^{2}}
+0 & \ldots & \ldots & \ldots & \frac{1}{\sigma_{N}^{2}}
 \end{pmatrix}$$
+This effectively reduces the covariance matrix down to a variance vector and makes formulas for explicit.
 
-Constant values of the exponent trace circular lines of equal probability:
-$$\begin{align}
-Q^{2}&=(\mathbf{x}-\mathbf{\mu})^{T}V^{-1}(\mathbf{x}-\mathbf{\mu})=\text{const} \\
-\text{(for two variables)}&=\frac{(x_{1}-\mu_{1})^{2}}{\sigma_{1} ^{2}}+ \frac{(x_{2}-\mu_{2})^{2}}{\sigma_{2}^{2}}=1
-\end{align}$$
-The area inside of a region enclosed by one of this lines is used to measure [[Probability]] in the same way an integral over the one-dimensional [[Probability density function|PDF]] can. For instance, the probability of a value being sampled inside of a circle of $1\sigma$ centered in $(\mu_{1},\mu_{2})$ is
-$$P(Q^{2}\leq 1)=P(\chi_{2}^{2}\leq 1)=\int_{0}^{1} \frac{1}{2}e^{-z/2}\ dz=-e^{-z/2}|_{0}^{1}=1- \frac{1}{\sqrt{ e }}=0.39$$
-where $\chi_{2}^{2}$ is the [[Chi-square distribution]] with 2 degrees of freedom. In fact, $Q^{2}$ can be shown to follow a $\chi ^{2}$ distribution with degrees of freedom equal to the number of variables in the system (here two). For $4\sigma$ we get
-$$P(Q^{2}\leq 4)=P(\chi_{2}^{2}\leq 4)=\int_{0}^{4} \frac{1}{2}e^{-z/2}\ dz=0.89$$
+The exponent $Q^{2}$ mentioned above is useful because its values trace [[hypersurface|hypersurfaces]] of equal [[probability]]. If you set a value of $Q^{2}$ and find the locus of $(x_{1},\ldots,x_{N})$ points that realize that value, you get a closed and quite well-behaved hypersurface that represents all points with equal probability. If this sounds confusing, just know that in the simplest case of $N=2$, they're just regular [[ellipse|ellipses]]. To see it, just write down the equation for $Q^{2}$:
+$$Q^{2}=\frac{(x_{1}-\mu_{1})^{2}}{\sigma_{1} ^{2}}+ \frac{(x_{2}-\mu_{2})^{2}}{\sigma_{2}^{2}}$$
+This is the equation of an ellipse with semiaxes $\sigma_{1}$ and $\sigma_{2}$, centered in $(\mu_{1},\mu_{2})$, scaled by a factor $Q$.[^1] For higher $N$, they are [[hyperellipsoid|hyperellipsoids]]. When they can be represented visually (mostly just $N=2$, possibly $N=3$), they serve as a useful way to visualize the dispersion of the multivariate normal. In fact, exactly because the [[standard deviation|standard deviations]] are the semiaxes, $Q^{2}$ is essentially the $N$-dimensional analog of the variance and $Q$ that of the standard deviation. Of course, the *real* variances are still $\sigma_{1}^{2},\ldots,\sigma_{N}^{2}$, but $Q^{2}$ is an efficient way to package all that information in a single variable. In the $N=2$ case, since the semiaxes are scaled by $Q$, setting $Q$ lets us draw the ellipse corresponding to whatever multiple of $\sigma$ we want. For $Q^{2}=1$, we get the ellipse with $(\sigma_{1},\sigma_{2})$, for $Q^{2}=4$, we get the ellipse with $(2\sigma_{1},2\sigma_{2})$, and so on.
+
+:::image
+![[multivariate_normal_independent.png]]
+1000 random samples from an $N=2$ multivariate normal (so-called *bivariate*). The means are both zero so that the distribution is centered in the origin. The standard deviations are $\sigma_{1}=2$ and $\sigma_{2}=1$. The colored ellipses show $Q^{2}=1$ and $Q^{2}=4$.
+:::
+
+The area inside the hyperellipsoid is used to measure probability in the same way a [[cumulative distribution function]] does. The probability of a value being inside of a $Q^{2}=1$ hyperellipsoid is $P(Q^{2}\leq1)$. To properly evaluate this, we need the CDF of $Q^{2}$. As it happens, $Q^{2}$ is actually [[Chi-square distribution|chi-square distributed]], specifically with $N$ degrees of freedom. This is because $Q^{2}$ is the sum of squares of $x_{1},\ldots,x_{N}$, and the sum of squares of Gaussians follows a $\chi ^{2}_{N}$ distribution. Thus, we can find the probability just fine, even analytically. For an $N=2$ ellipse, the $\chi^{2}_{2}$ is just
+$$f_{X}(x;2)=\frac{1}{2}e^{-x/2}$$
+and so the integral is
+$$P(Q^{2}\leq 1)=P(\chi ^{2}_{2}\leq 1)=\int_{0}^{1} \frac{1}{2}e^{-x/2}\ dx=-e^{-x/2}|_{0}^{1}=1- \frac{1}{\sqrt{ e }}\simeq0.39$$
+For $Q^{2}=4$ we instead get
+$$P(Q^{2}\leq 4)=P(\chi_{2}^{2}\leq 4)=\int_{0}^{4} \frac{1}{2}e^{-x/2}\ dx\simeq0.86$$
+These numbers are the multivariate analog of the classic 1-2-3$\sigma$ rule of the Gaussian. Where $1\sigma\Rightarrow68\%$ and $2\sigma\Rightarrow95\%$ in a univariate Gaussian, $Q^{2}=1\Rightarrow39\%$ and $Q^{2}=4\Rightarrow 86\%$ in a multivariate Gaussian.
 ### Dependent variables
-If the variables are not independent, it gets a lot more verbose. Let's consider two variables only. In this case, the covariance matrix is
-$$V=\begin{pmatrix}
+If the variables are not independent, things gets a lot more verbose as covariance can no longer be ignored. Let's consider $N=2$ variables only. We can no longer use the easy formula for $Q^{2}$ and need the full one:
+$$Q^{2}=(\mathbf{x}-\boldsymbol{\mu})^{T}\Sigma^{-1}(\mathbf{x}-\boldsymbol{\mu})$$
+In other words, we need the covariance matrix and its inverse:
+$$\Sigma=\begin{pmatrix}
 \sigma_{1}^{2} & \rho \sigma_{1}\sigma_{2} \\
 \rho \sigma_{1}\sigma_{2} & \sigma_{2}^{2}
-\end{pmatrix}\qquad \det V=\sigma_{1}^{2}\sigma_{2}^{2}(1-\rho ^{2})\qquad V^{-1}=\frac{1}{\det V}\begin{pmatrix}
+\end{pmatrix},\quad \det \Sigma=\sigma_{1}^{2}\sigma_{2}^{2}(1-\rho ^{2}),\quad \Sigma^{-1}=\frac{1}{\det \Sigma}\begin{pmatrix}
 \sigma_{2}^{2} & -\rho \sigma_{1}\sigma_{2} \\
 -\rho \sigma_{1}\sigma_{2} & \sigma_{1}^{2}
 \end{pmatrix}$$
-We get
-$$V^{-1}(\mathbf{x}-\mathbf{\mu})=\frac{1}{\det V}\begin{pmatrix}
+The second half of the formula is
+$$\Sigma^{-1}(\mathbf{x}-\boldsymbol{\mu})=\frac{1}{\det \Sigma}\begin{pmatrix}
 (x_{1}-\mu_{1})\sigma_{2}^{2} -\rho \sigma_{1}\sigma_{2}(\sigma_{2}-\mu_{2}) \\
 \rho \sigma_{1}\sigma_{2}(x_{1}-\mu_{1}) +\sigma_{1}^{2}(x_{2}-\mu_{2})
 \end{pmatrix}$$
-and so
+and so putting it all together and doing the matrix multiplications:
 $$\begin{align}
-Q^{2}&=(\mathbf{x}-\mathbf{\mu})^{T}V^{-1}(\mathbf{x}-\mathbf{\mu}) \\
-&=\frac{1}{\det V}[(x_{1}-\mu_{1})^{2}\sigma_{2}^{2}-2\rho \sigma_{1}\sigma_{2}(x_{1}-\mu_{1})(x_{2}-\mu_{2})+\sigma_{1}^{2}(x_{2}-\mu_{2})^{2}] \\
-&=\frac{1}{1-\rho ^{2}}\left[ \frac{(x_{1}-\mu_{1})^{2}}{\sigma_{1}^{2}}-2\rho \frac{x_{1}-\mu_{1}}{\sigma_{1}}\frac{x_{2}-\mu_{2}}{\sigma_{2}}+ \frac{(x_{2}-\mu_{2})^{2}}{\sigma_{2}^{2}} \right] \\
+Q^{2}&=(\mathbf{x}-\boldsymbol{\mu})^{T}\Sigma^{-1}(\mathbf{x}-\boldsymbol{\mu}) \\
+&=\frac{1}{\det \Sigma}[(x_{1}-\mu_{1})^{2}\sigma_{2}^{2}-2\rho \sigma_{1}\sigma_{2}(x_{1}-\mu_{1})(x_{2}-\mu_{2})+\sigma_{1}^{2}(x_{2}-\mu_{2})^{2}] \\
+&=\frac{1}{1-\rho ^{2}}\left[ \frac{(x_{1}-\mu_{1})^{2}}{\sigma_{1}^{2}}-2\rho \frac{x_{1}-\mu_{1}}{\sigma_{1}}\frac{x_{2}-\mu_{2}}{\sigma_{2}}+ \frac{(x_{2}-\mu_{2})^{2}}{\sigma_{2}^{2}} \right]
 \end{align}$$
-If we find the lines traced by constant values of this function, we find that instead of being circles like they were in the independent case, they are now ellipses, squished either on the bottom-left top-right diagonal or the top-left bottom-right diagonal.
+If we find the draw the ellipses traced by this $Q^{2}$, we find that they are now angled. This angle is quite important, as it visually represents correlation between $x_{1}$ and $x_{2}$. Indeed, this angle is proportional to the correlation coefficient $\rho$ and is the major difference from the independent case above (where the ellipse was *axis-aligned*). When $\rho=0$, you get an axis-aligned ellipse.
 
+:::image
 ![[Graph Multinormal equiprobability|80%|center]]
+A general bivariate ellipse showing important points and lines. The red diagonals (passing through segments $\overline{C C'}$ and $\overline{DD'}$) are known as the **regression lines** of the distribution.
+:::
 
-In fact, the [[eccentricity]] of the ellipsis is a visual cue that shows how correlated two variables are. High correlation means high eccentricity, whereas no correlation means no eccentricity, hence why the independent variable case is just a circle. We can get a lot of useful information with some geometry.
-$$A=\frac{1}{1-\rho ^{2}} \frac{(x_{1}-\mu_{1})^{2}}{\sigma_{1} ^{2}}=1,\qquad B=\frac{1}{1-\rho ^{2}} \frac{(x_{2}-\mu_{2})^{2}}{\sigma_{2} ^{2}}=1$$
-$$\overline{AA'}=2\sigma_{1}\sqrt{ 1-\rho ^{2} },\qquad \overline{BB'}=2\sigma_{2}\sqrt{ 1-\rho ^{2} }$$
-
-The red diagonals ($\overline{C C'}$ and $\overline{DD'}$) are known as the **regression lines**.
+We can get extract a lot of useful information with some geometry. The $x_{1}=\mu_{1}$ and $x_{2}=\mu_{2}$ lines intersect with the ellipse at points
+$$A=(\mu_{2}-\sqrt{ 1-\rho ^{2} }\sigma_{2}, \mu_{2}),\quad A'=(\mu_{2}+\sqrt{ 1-\rho ^{2} }\sigma_{2}, \mu_{2})$$
+$$B=(\mu_{1},\mu_{1}-\sqrt{ 1-\rho ^{2} }\sigma_{1}),\quad B'=(\mu_{1},\mu_{1}+\sqrt{ 1-\rho ^{2} }\sigma_{1})$$
+and the segments inside the ellipse are
+$$\overline{AA'}=2\sigma_{2}\sqrt{ 1-\rho ^{2} },\qquad \overline{BB'}=2\sigma_{1}\sqrt{ 1-\rho ^{2} }$$
 ### idk lol
 Let's consider the variable $\mathbf{y}$ defined as
-$$\mathbf{y}=\mathrm{A}\mathbf{x},\qquad \mathbf{\mu}_{y}=\mathrm{A}\boldsymbol{\mu}$$
+$$\mathbf{y}=\mathrm{A}\mathbf{x},\qquad \boldsymbol{\mu}_{y}=\mathrm{A}\boldsymbol{\mu}$$
 where $\mathrm{A}$ is a matrix. The covariance matrix is
 $$\mathrm{V}_{y}=\mathrm{A}\mathrm{V}\mathrm{A}^{T}$$
 Let's also consider a vector $\mathbf{z}$ such that its components are standard-normal distributed:
@@ -75,3 +99,5 @@ $$\mathrm{V}_{z}=\mathrm{V}^{-1/2}\mathrm{V}\mathrm{V}^{-1/2}=\mathrm{I}$$
 since the $z_{i}$ are independent of each other, $\text{cov}(z_{i},z_{j})=0$ for $i\neq j$. Thus, $Q^{2}$ in terms of $\mathbf{z}$ is
 $$Q^{2}=\underbrace{ (\mathbf{x}-\boldsymbol{\mu})^{T}\mathrm{V}^{-1/2} }_{ \mathbf{z}^{T} }\underbrace{ \mathrm{V}^{-1/2}(\mathbf{x}-\boldsymbol{\mu}) }_{ \mathbf{z} }=\mathbf{z}^{T}\mathbf{z}=\sum_{i=1}^{n} z_{i}^{2}$$
 which is indeed chi-square-distributed.
+
+[^1]: Alternatively, an unscaled ellipse with semiaxes $Q\sigma_{1}$ and $Q\sigma_{2}$.

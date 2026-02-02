@@ -12,3 +12,5 @@ The term "probability distribution" is sometimes used to refer to the [[image]] 
 Probability distributions may be discrete or continuous.
 - Discrete probability distributions are known as [[probability mass function|probability mass functions]]. 
 - Continuous probability distributions are known as [[Probability density function|probability density functions]]. However, due to complexities arising from the infinite outcomes over a continuous [[sample space]], the distribution is only fully defined when the [[cumulative distribution function]] is also given.
+
+Regardless of the type, most distribution functions have parameters. These are numerical values that modify the shape and behavior of the distribution and are chosen separately from the usual arguments. For example, the [[Gaussian distribution]] takes one real number $x$ as a regular argument and has two parameters: the [[mean]] $\mu$ and the [[variance]] $\sigma ^{2}$. To distinguish the two, it is typical to separate regular arguments from parameters with a semicolon. The Gaussian probability density function is commonly denoted $f(x;\mu,\sigma ^{2})$.
