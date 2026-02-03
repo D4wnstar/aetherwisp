@@ -39,3 +39,13 @@ $$\Sigma\equiv \text{E}[(\mathbf{X}-\text{E}[\mathbf{X}])(\mathbf{X}-\text{E}[\m
 - The diagonal contains the variance of each random variable: $\Sigma_{ii}=\sigma ^{2}_{i}$.
 - If all variables are independent, it is [[Diagonalization|diagonal]].
 - The covariance matrix of a linear relation is $\Sigma_{\mathrm{A}\mathbf{X}+\mathbf{b}}=\mathrm{A}\Sigma_{\mathbf{X}}\mathrm{A}^{T}$
+### Sample covariance
+Like the regular variance, calculating the covariance requires knowing the true mean of the random variables. When this is not known, the true means are estimated by the [[Arithmetic mean|sample means]] $\bar{X}$ and $\bar{Y}$ calculated on the [[sample|samples]] $X_{1},\ldots,X_{N}$ and $Y_{1},\ldots,Y_{N}$. Also just like the regular variance, we look for the average deviation from the sample mean:
+$$V_{X,Y,\text{biased}}=\frac{1}{N}\sum_{i=1}^{N} (X_{i}-\bar{X})(Y_{i}-\bar{Y})$$
+This is the **sample covariance** and is an [[estimator]] of the true covariance. It is also biased in the same way as the sample variance and must be Bessel corrected:
+$$V_{X,Y}=\frac{1}{N-1}\sum_{i=1}^{N} (X_{i}-\bar{X})(Y_{i}-\bar{Y})$$
+This is the appropriate estimator for the true covariance, as $\mathrm{E}[V_{X,Y}]=\text{cov}(X,Y)$.
+
+The **sample correlation coefficient** can be be calculated using the sample variances and covariance:
+$$r=\frac{V_{X,Y}}{\sqrt{ S^{2}_{X}S^{2}_{Y} }}$$
+*However*, unlike $S^{2}$ and $V$, which are quite well-behaved and unbiased (after correction), the sample correlation is *not*. $r$ is only unbiased asymptotically and, to make things worse, point estimates of $r$ usually have relatively high variance.

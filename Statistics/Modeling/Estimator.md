@@ -5,19 +5,19 @@ aliases:
   - bias
   - estimate
 ---
-An **estimator** is a [[statistic]] that attempts to faithfully recreate the [[true value]] of a quantity. Being a statistic, it is a [[random variable]]. An estimator is typically denoted by adding a hat over the quantity's symbol, usually using the letter theta: $\hat{\theta}$ is an estimator of the quantity $\theta$.
+An **estimator** is a [[statistic]] that attempts to faithfully recreate the [[Sample|true value]] of a quantity. An estimator is typically denoted by adding a hat over the quantity's symbol, though some common estimators use conventional letters without the hat. The letter theta is a common choice: $\hat{\theta}$ is an estimator of the quantity $\theta$.
 
-The [[Expected value]] of an estimator differs from the true value of the quantity by some amount $b$:
+Being a statistic, it is a [[random variable]].  As such, it carries all the machinery inherited from having a [[probability distribution]], like having an [[expected value]] and a [[variance]]. By design, the expected value of an estimator is either equal or near the true value it is estimating. In general, it is
 $$\text{E}[\hat{\theta}]=\theta+b$$
-This quantity is known as **bias**. If $b\neq 0$, the estimator is said to be **biased**, else it is **unbiased**.
+The quantity $b$ is known as **bias** and it represents how consistently off the mark the estimator is. If $b\neq 0$, the estimator is said to be **biased**, else it is **unbiased**. Since the end goal of an estimator $\hat{\theta}$ is to provide as close a value as possible to $\theta$, we ideally want all our estimators to be unbiased. However, it's not that easy in practice, as removing bias often comes at a cost of other valuable properties, such as increasing [[variance]].
 
-A **(point) estimate** $\hat{\theta}^{*}$ is the value of an estimator calculated at a certain point. This difference is important: an *estimator* is a statistic and random variable, while an *estimate* is a number. It is the estimator that carries all the properties; estimates are just numbers.
+A **(point) estimate** $\hat{\theta}^{*}$ is the value of an estimator calculated at a certain point. This difference is important: an *estimator* is a statistic and random variable, while an *estimate* is a number. It is the estimator that carries all the properties; estimates are just numbers. This is true for all statistics, but it's worth stressing here because the terminology is so similar between the two that it's easy to get mixed up.
 
-A more satisfactory estimation is provided by a **confidence interval**, which provides an entire set of values for the parameter. In multiple dimensions, there are also extensions called **confidence regions**, but they are seldom used in practice. These are built by considering a single parameter at once.
+The level of confidence of an estimate can be quantified by a [[confidence interval]], which is an interval that contains the estimate and represents the region of space in which the true value is likely to be, within a chosen level of significance. In multiple dimensions, intervals can be extended to **confidence regions**, but they are seldom used in practice.
 ### Properties
 A ([[scalar]]) estimator over a sample of size $N$ is said to be **(weakly) consistent** if, for any arbitrarily small $\epsilon>0$, we have
 $$\lim_{ N \to \infty } P(\lvert \hat{\theta}-\theta \rvert >\epsilon)=0$$
-where $P$ is a [[probability]]. Basically, as the sample size goes to infinity, the difference between a consistent estimator and the true value becomes arbitrarily small, so that increasing the sample size always leads to better estimates. A sufficient condition to guarantee consistency is that the [[Mean squared error]] of the estimator goes to zero as $N\to \infty$.
+where $P$ is a [[measure]] of [[probability]]. Consistency is, at heart, the generalized form of the [[law of large numbers]] for any estimator. Conversely, the law of large numbers is just saying "the sample mean is a consistent estimator of the expected value." Basically, as the sample size goes to infinity, the difference between a consistent estimator and the true value becomes arbitrarily small, so that increasing the sample size always leads to better estimates. A sufficient condition to guarantee consistency is that the [[Mean squared error]] of the estimator goes to zero as $N\to \infty$.
 
 An unbiased estimator is **efficient** if it has small variance. Efficiency is a property that's typically relative to another estimator; an estimator may be more or less efficient than another, but it's hard to say if it is efficient or not by itself.
 
@@ -31,9 +31,9 @@ Note the $n-1$ in the sample variance: that is the **Bessel correction** and it'
 $$b_{\hat{\sigma}^{2}}=- \frac{\sigma ^{2}}{N}$$
 where $\sigma ^{2}$ is the true variance. Notably, even the uncorrected sample variance becomes unbiased for $N\to \infty$, a property known as **asymptotic unbiasedness**. The sample variance has in general higher variance than the sample mean at the same sample size, making it a less efficient estimator.
 
-The sample [[median]] is a robust estimate of central location, being much less sensitive to outliers than the sample mean at the cost of some efficiency. In general, it's good to calculate both the sample mean and median to see if they match or have large differences. If they do, it might be time look at the outliers.
+The sample [[median]] is a robust estimate of [[central tendency]], being much less sensitive to outliers than the sample mean at the cost of some efficiency. In general, it's good to calculate both the sample mean and median to see if they match or have large differences. If they do, it might be time look at the outliers.
 
-The "arbitrarily close to the true value" property holds:
+The generalized [[law of large numbers]] holds:
 $$\lim_{ n \to \infty } P(\lvert \hat{\mu}-\mu \rvert <\varepsilon)=1$$
 
 > [!quote]- Proof
@@ -47,7 +47,7 @@ $$\lim_{ n \to \infty } P(\lvert \hat{\mu}-\mu \rvert <\varepsilon)=1$$
 ### Confidence intervals
 The construction of a confidence interval typically makes use of a **pivot**, a function of the data and the parameter, whose [[probability distribution]] is known.
 
-Let's start with an example. A pivot function is, for instance, the following, defined for a random sample of a [[Gaussian distribution|normal distribution]] $N(\mu,\sigma ^{2})$ in which we wish to estimate  and $\sigma ^{2}$ is *not* known. In this case, the parameters are $\boldsymbol{\theta}=(\mu,\sigma ^{2})$ and the pivot is
+Let's start with an example. A pivot function is, for instance, the following, defined for a random sample of a [[Gaussian distribution|normal distribution]] $N(\mu,\sigma ^{2})$ in which we wish to estimate $\mu$ and $\sigma ^{2}$ is *not* known. In this case, the parameters are $\boldsymbol{\theta}=(\mu,\sigma ^{2})$ and the pivot is
 $$T(\mu)=\frac{\bar{X}-\mu}{\sqrt{ S^{2}/N }}\sim t_{N-1}$$
 where $\bar{X}$ is the sample mean, $S^{2}$ is the sample variance and $t_{N-1}$ is the [[Student's t distribution]]. This pivot carries the property
 $$\text{Prob}(t_{N-1;\ \alpha/2}\leq T(\mu)\leq t_{N-1;\ 1-\alpha/2})=1-\alpha$$
