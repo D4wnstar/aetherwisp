@@ -1,7 +1,7 @@
 ---
 wiki-publish: true
 ---
-The **chi-square distribution** or **$\chi ^{2}$ distribution** is a real, continuous [[Probability distribution]]. For a [[Random variable]] $X$, the [[Probability density function]] is
+The **chi-square distribution** or **$\chi ^{2}$ distribution** is a real, continuous [[Probability distribution]] over $\Omega\equiv[0,\infty)$. For a [[Random variable]] $X$, the [[Probability density function]] is
 $$f_{X}(x;k)=\frac{1}{\Gamma\left( \frac{k}{2} \right)} \frac{1}{2^{k/2}}x^{k/2 -1}e^{-x/2}$$
 where $k\geq1$ is an integer parameter called the **[[degrees of freedom]]** of the distribution and $\Gamma$ is the [[gamma function]].
 
@@ -36,7 +36,15 @@ Some [[Function moments|moments]] are:
 - It is a special case of the [[Gamma distribution]] with $\alpha=k/2$ and $\beta=2$.
 - It follows the [[central limit theorem]]: if $k\gg 1$, the $\chi ^{2}_{k}$ approximately becomes a [[Gaussian distribution]] $\mathcal{N}(k,2k)$.
 - It is related to the [[Maxwell-Boltzmann distribution]] (see [[#In molecular velocity analysis]]).
-#### As the sum of square Gaussian distributions
+#### As sum of $\chi ^{2}$ distributions
+The sum of $N$ [[Independent variables|independent]] variables $X_{i}\sim \chi ^{2}_{k_{i}}$ is itself a $\chi ^{2}$ distribution with degrees of freedom equal to the sum of all individual degrees:
+$$Y=\sum_{i=1}^{N} X_{i}\sim \chi ^{2}_{k_{1}+\ldots+k_{N}}$$
+
+> [!quote]- Proof
+> The joint MGF of a sum of [[independent variables]] is the product of MGFs:
+> $$M_{Y}^{*}(t)=\prod_{i=1}^{N} M_{X}^{*}(t)=\prod_{i=1}^{N} (1-2t)^{-k_{i}/2}=(1-2t)^{-\left( \sum_{i=1}^{N} k_{i} \right)/2}=(1-2t)^{-k/2}$$
+> where $k=\sum_{i=1}^{N}k_{i}$. This is the MGF of a $\chi ^{2}_{k}$ distribution.
+#### As sum of square Gaussian distributions
 As a particularly interesting case, a $\chi ^{2}$ distribution is the result of the sum of squares of Gaussian distributions. Given a set of $N$ [[iid]] normally-distributed variables $\{ X_{1},\ldots,X_{N} \}$, the sum of their squares $Y=\sum_{i=1}^{N}X_{i}^{2}$ is chi-square-distributed with $N$ degrees of freedom, $Y\sim \chi ^{2}_{N}$. As Gaussian RVs are quite common, the $\chi ^{2}$ distribution tends to appear frequently even if there is no individual phenomenon that follows it.
 
 > [!quote]- Proof for standard normals

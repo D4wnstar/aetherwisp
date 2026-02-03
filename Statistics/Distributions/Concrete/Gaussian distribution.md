@@ -54,15 +54,10 @@ Some [[Function moments|moments]] are:
 
 These moments have particular significance, as the Gaussian distribution is the gold standard of distributions. It is extremely common, well-understood and well-behaved, so other distributions and their moments are frequently compared to it to get an idea of how they behave. For kurtosis in particular, negative values can be seen as "flatter than Gaussian" and positive ones as "more peaked than Gaussian."
 ### As sum of normal variables
-A sum of [[independent variables]] $X_{i}$ that are normally distributed is itself a normal distribution:
-$$Y=\sum_{i=1}^{n} X_{i}$$
-and its MGF is the sum of all the MGF over $x$:
-$$M_{Y}^{*}(t)=\prod_{i=1}^{n}M_{X}^{*}(t)$$
-Let's consider a set of normal variables $\{X_{i}\}_{i}$ that are all normally distributed with mean $\mu$ and [[Variance]] $\sigma ^{2}$. As the number of variables $n$ goes to infinity, the sum distribution goes like
-$$N\left( \mu, \frac{\sigma ^{2}}{n} \right)$$
-so the deviation tends to go to zero. Now let's consider the variable
-$$z=\frac{\bar{x}-\mu}{\frac{\sigma}{\sqrt{ n }}}$$
-where $\bar{x}=\frac{1}{n}\sum_{i=1}^{N}x_{i}$. This follows a standard normal distribution.
+The sum of $N$ [[iid]] normal variables $X_{i}\sim \mathcal{N}(\mu,\sigma ^{2})$ is itself a normal distribution:
+$$Y=\sum_{i=1}^{N} X_{i}\sim \mathcal{N}(N\mu,N\sigma ^{2})$$
 
-
-$$z= \frac{\sum_{i}x_{i}-n\mu}{\sigma \sqrt{ n }}=\sum_{i=1}^{n} \frac{x_{i}-\mu}{\sigma\sqrt{ n }}=\sum_{i=1}^{n} z_{i}$$
+> [!quote]- Proof
+> The joint MGF of a sum of [[independent variables]] is the product of MGFs:
+> $$M_{Y}(t)=\prod_{i=1}^{N} M_{X_{i}}(t)=\prod_{i=1}^{N} e^{t\mu+t^{2}\sigma ^{2}/2}=e^{tN\mu+t^{2}N\sigma ^{2}/2}$$
+> But this is the MGF of a Gaussian with mean $N\mu$ and variance $N\sigma ^{2}$. Thus $Y\sim \mathcal{N}(N\mu,N\sigma ^{2})$.

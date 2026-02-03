@@ -1,5 +1,9 @@
 ---
 wiki-publish: true
+aliases:
+  - population
+  - population parameter
+  - true value
 ---
 In statistics, a **random sample** or just **sample** can refer to one of two definitions:
 1. A [[set]] of [[Random variable|random variables]], $\{ X_{1},\ldots,X_{N} \}$;
@@ -7,6 +11,6 @@ In statistics, a **random sample** or just **sample** can refer to one of two de
 
 Definition 1 is more rigorous and generally what is intended when talking about probability theory and statistical modeling. Definition 2 is the more intuitive one, as it considers a sample to simply be a set of numbers, and is more common in practical branches like data analysis and [[machine learning]]. Both definitions are in use and care should be taken when discussing samples, as it's often unclear which is being used. Especially in the context of experimental measurements, a sample is typically seen as $N$ "draws" from the single random variable that's being measured (def. 2). However, it can equivalently be seen as $N$ *different* RVs, identically distributed but not necessarily [[Independent variables|independent]], from each of which one value is "drawn" to make the create one possible sample (def. 1).
 
-A sample is a finite subset of the total **population**; for instance, measurements ran on one-hundred people constitute a sample of the total human population.
+A sample is a finite subset of the total **population**, which is the set of all objects that are being considered. The population may be concrete, such as all people on Earth, or abstract, such as every possible starting hand in a game of cards. The sample is a subset of these: a few thousand people that participated in a survey or a hundred starting hands that were manually drawn. It is what is, in general, empirically accessible, as it is often unreasonable or outright impossible to run measurements on the entire population.
 
-The fundamental principle of statistics, at least statistical inference, is that conclusions drawn from a sample are approximately representative of the properties of the total population.
+The population is described concisely by a set of **population parameters**, which are numerical values that describe the collective properties of the population. Common examples are the population [[mean]] and population [[variance]]. As these values represent the true, intrinsic properties of the population, they are also often called **true values**. As such, the adjectives "true" and "population" are largely interchangeable when talking about population parameters (for instance, "true mean" = "population mean"). These parameters can indeed be calculated on a sample too, but they will not be *true*. The only way to obtain the true value is to obtain data from the *entire* population which, as we've established, is usually somewhere between unrealistic and impossible. When calculating a parameter on a sample, you get an **[[estimator]]**, which is a type of **[[statistic]]** (a function calculated on a sample). These usually adopt the adjective "sample" (for instance, "sample mean"). As one might imagine, an estimator is at best an approximation of a true value. The fundamental principle of statistics is, hence, that the conclusions one draws from a sample are approximately representative of the properties of the total population. Finding *how good* the approximation is is a significant part of the statistical effort.

@@ -39,9 +39,9 @@ The variance formula is known as the **[[law of propagation of variance]]** and 
 
 If we instead have two functions $Y_{1}$ and $Y_{2}$ of the same variables $(X_{1},\ldots,X_{N})$, their covariance can be through the same series expansions method. It is
 $$\boxed{\text{cov}(Y_{1},Y_{2})=E[Y_{1}Y_{2}]-E[Y_{1}]E[Y_{2}]=\sum_{i=1}^{N} \left.\frac{ \partial Y_{1} }{ \partial x_{i} }\right|_{\mathbf{x}=\boldsymbol{\mu}_{X}} \left.\frac{ \partial Y_{2} }{ \partial x_{i} }\right|_{\mathbf{x}=\boldsymbol{\mu}_{X}}\sigma ^{2}_{X_{i}}}$$
-#### Sum of two variables
-Let's consider two random variables $X_{1}$ and $X_{2}$ of [[mean|means]] $\mu_{1}$ and $\mu_{2}$ and variances $\sigma_{1}$ and $\sigma_{2}$. Let's also consider a function $y$ that is just their sum $y=x_{1}+x_{2}$. The mean and variance of $y$ are simply
-$$\mu_{y}=\mu_{1}+\mu_{2},\qquad \sigma_{y}^{2}=\sigma_{1}^{2}+\sigma_{2}^{2}+2\rho \sigma_{1}\sigma_{2}$$
+
+---
+
 #### Linear regression
 Consider the linear relationship $X=mZ+q$ and a set of $n$ empirical measurements $(z_{i},x_{i})$. $X$ is a univariate function of $Z$, so we can use the theory above for estimates. Let's call $\hat{m}$ and $\hat{q}$ estimates of $m$ and $q$ and $\sigma_{\hat{m}}^{2}$ and $\sigma ^{2}_{\hat{q}}$ their variances. $\text{cov}(\hat{m},\hat{q})=\rho \sigma_{\hat{m}}\sigma_{\hat{q}}$ is their covariance. The expected value and variance of $X$ are
 $$x^{*}=\hat{m}z^{*}+\hat{q},\qquad\sigma ^{2}_{x^{*}}=(z^{*})^{2}\sigma ^{2}_{\hat{m}}+\sigma ^{2}_{\hat{q}}+2z^{*}\rho \sigma_{\hat{m}}\sigma_{\hat{z}}$$

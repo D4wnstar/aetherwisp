@@ -4,7 +4,7 @@ aliases:
   - Bessel correction
   - sample variance
 ---
-The **variance** $\sigma ^{2}$ of a [[Random variable]] $X$ is a measure of its [[dispersion]]. It is defined as the [[Expected value]] of the square of the deviation from the [[mean]] $\mathrm{E}[X]=\mu$:
+The **variance** $\sigma ^{2}$ of a [[Random variable]] $X$ is a measure of its [[dispersion (statistics)|statistical dispersion]]. It is defined as the [[Expected value]] of the square of the deviation from the [[mean]] $\mathrm{E}[X]=\mu$:
 $$\text{var}(X)\equiv\sigma ^{2}_{X}=\mathrm{E}[(X-\mu)^{2}]$$
 The variance can also be expressed as
 $$\begin{align}
@@ -16,7 +16,7 @@ $$\begin{align}
 \end{align}$$
 Or as the [[Covariance]] of a variable with itself
 $$\text{var}(X)=\text{cov}(X,X)$$
-The primary draw of variance as a measure of dispersion is that it is mathematically convenient to use in calculations and to derive results with. For instance, [[Chebyshev's inequality]] forces constraints onto what values the variable can take depending on its variance.
+The primary draw of variance as a measure of dispersion is that it is mathematically convenient to use in calculations and to derive results with. For instance, [[Chebyshev's inequality]] forces constraints onto what values the variable can take depending on its variance. Furthermore, it is the second central [[function moments|function moment]] of a [[probability distribution]].
 
 The square root of variance is the [[standard deviation]]: $\sqrt{ \sigma ^{2} }=\sigma$. The variance is (approximately) related to the [[absolute error]] $\Delta$ by $\sigma ^{2}=\Delta ^{2}/3$.
 ## Definitions
@@ -44,6 +44,8 @@ $$\text{var}(X)=\mathrm{E}[X]^{2}-\mathrm{E}[X]^{2}=\frac{1}{N}\sum_{i=1}^{N} (x
 This is an [[estimator]] of the true population variance. It is, however, imperfect. It is found that this value consistently diverges from the population variance, with the effect being more pronounced for small $N$. The mistake is that this sample variance is calculated with the sample mean instead of the population mean. This introduces some [[Estimator|bias]] into the estimator. Thankfully, it can be proven that the bias can be removed using the **Bessel correction**:
 $$\boxed{\text{var}(X)=\frac{1}{N-1}\sum_{i=1}^{N}(x_{i}-\mu_{x})^{2}}$$
 where we changed $N$ to $N-1$. This corrected variance is an unbiased estimator of the population variance.
+## Properties
+- If $X_{1},\ldots,X_{N}$ are [[independent variables]], the variance of the sum is the sum of the variances: $\text{var}\left( \sum_{i=1}^{N}X_{i} \right)=\sum_{i=1}^{N}\text{var}(X_{i})$. Also, it is linear with respect to constant scaling: $\text{var}\left( a\sum_{i=1}^{N}X_{i} \right)=a^{2}\text{var}\left( \sum_{i=1}^{N}X_{i} \right)$.
 ## Propagation of variance
 It is common for a quantity $w$ to be dependent on other quantities $x,y,\ldots$ according to some function $w(x,y,\ldots)$. If we take the variables $x,y,\ldots$ to be independent of each other, the variance of $w$ is expressed by the **law of propagation of variance**:
 $$\boxed{\begin{align}
