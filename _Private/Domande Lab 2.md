@@ -222,41 +222,41 @@
 
 ### Riassunto
 
-| Domanda                                                                  | Volte chiesta |
-| ------------------------------------------------------------------------ | ------------- |
-| --- Distribuzioni ---                                                    |               |
-| Distribuzione della media                                                | +             |
-| Media di Gaussiane è Gaussiana                                           | +             |
-| Somma di quadrati di $n$ variabili $\mathcal{N}(0,1)$ è $\chi ^{2}_{n}$  | ++            |
-| Distribuzione con radice di $\mathcal{N}(0,1)$                           | +             |
-| Generatore dei momenti (teoria generale)                                 | +             |
-| Generatore dei momenti (Gaussiana)                                       | +             |
-| Teorema del limite centrale                                              | ++++          |
-| Da dove viene $t$ di Student (rapporto $\mathcal{N}(0,1)/\chi ^{2}_{n}$) | +             |
-| --- Stima parametri ---                                                  |               |
-| Stima parametri (teoria generale)                                        | +             |
-| Minimi Quadrati                                                          | +++++         |
-| Distribuzione stima MQL con variabili Gaussiane                          | +             |
-| Definizione Likelihood                                                   | +++           |
-| Maximum Likelihood                                                       | +             |
-| Binned Maximum Likelihood                                                | +             |
-| Sviluppo in serie $\ln \mathcal{L}$ per incertezza su stima              | ++            |
-| Metodo grafico per incertezza su stima                                   | +             |
-| Disuguaglianza Cramér-Rao-Frechet                                        | ++++++        |
-| Perché media è buon stimatore (legge grandi numeri)                      | +             |
-| Stime per la varianza                                                    | +++           |
-| Stimatore $S^{2}$ varianza segue $\chi ^{2}_{n}$ o $\chi ^{2}_{n-1}$     | +             |
-| Dimostrare che $S^{2}$ ha varianza minima                                | +             |
-| Esempio di stimatore a varianza minima                                   | +             |
-| --- Test d'ipotesi ---                                                   |               |
-| Test d'ipotesi (teoria generale)                                         | ++            |
-| Cos'è $\alpha$/come sceglierlo                                           | ++            |
-| Cosa fare se $\phi_{0}$ non è nota                                       | +             |
-| Intervalli di confidenza                                                 | ++++          |
-| Test per compatibilità dato di un'istogramma                             | +             |
-| Compatibilità misure/stime                                               | ++            |
-| Test parametri per Gaussiana                                             | ++++          |
-| Test di $\chi ^{2}$ (normale/Pearson)                                    | ++            |
-| Test di indipendenza                                                     | +             |
-| --- Relazione ---                                                        |               |
-| Qualcosa sulla relazione                                                 | +++++++++++++ |
+| Domanda                                                                              | Volte chiesta |
+| ------------------------------------------------------------------------------------ | ------------- |
+| --- Distribuzioni ---                                                                |               |
+| Distribuzione della media                                                            | +             |
+| Media di Gaussiane è Gaussiana                                                       | +             |
+| Somma di quadrati di $n$ variabili $\mathcal{N}(0,1)$ è $\chi ^{2}_{n}$              | ++            |
+| Distribuzione con radice di $\mathcal{N}(0,1)$                                       | +             |
+| Generatore dei momenti (teoria generale)                                             | +             |
+| Generatore dei momenti (Gaussiana)                                                   | +             |
+| Teorema del limite centrale                                                          | ++++          |
+| Da dove viene $t$ di Student (rapporto $\mathcal{N}(0,1)/\sqrt{ \chi ^{2}_{n} /n }$) | +             |
+| --- Stima parametri ---                                                              |               |
+| Stima parametri (teoria generale)                                                    | +             |
+| Minimi Quadrati                                                                      | +++++         |
+| Distribuzione stima MQL con variabili Gaussiane                                      | +             |
+| Definizione Likelihood                                                               | +++           |
+| Maximum Likelihood                                                                   | +             |
+| Binned Maximum Likelihood                                                            | +             |
+| Sviluppo in serie $\ln \mathcal{L}$ per incertezza su stima                          | ++            |
+| Metodo grafico per incertezza su stima                                               | +             |
+| Disuguaglianza Cramér-Rao-Frechet                                                    | ++++++        |
+| Perché media è buon stimatore (legge grandi numeri)                                  | +             |
+| Stime per la varianza                                                                | +++           |
+| Stimatore $S^{2}$ varianza segue $\chi ^{2}_{n}$ o $\chi ^{2}_{n-1}$                 | +             |
+| Dimostrare che $S^{2}$ ha varianza minima                                            | +             |
+| Esempio di stimatore a varianza minima                                               | +             |
+| --- Test d'ipotesi ---                                                               |               |
+| Test d'ipotesi (teoria generale)                                                     | ++            |
+| Cos'è $\alpha$/come sceglierlo                                                       | ++            |
+| Cosa fare se $\phi_{0}$ non è nota                                                   | +             |
+| Intervalli di confidenza                                                             | ++++          |
+| Test per compatibilità dato di un'istogramma                                         | +             |
+| Compatibilità misure/stime                                                           | ++            |
+| Test parametri per Gaussiana                                                         | ++++          |
+| Test di $\chi ^{2}$ (normale/Pearson)                                                | ++            |
+| Test di indipendenza                                                                 | +             |
+| --- Relazione ---                                                                    |               |
+| Qualcosa sulla relazione                                                             | +++++++++++++ |

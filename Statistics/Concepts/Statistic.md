@@ -5,8 +5,8 @@ aliases:
 ---
 A **statistic** is a function of a statistical [[sample]], in the sense of a [[set]] of [[random variable|random variables]], used to quantify properties of the sample, generally for descriptive or testing purposes. It is itself a random variable. Examples include the sample [[mean]] and sample [[variance]]. See also [[Functions of random variables]] for general properties.
 ### Sufficient statistic
-Given a [[Random variable|random vector]] $\mathbf{X}$ of [[Probability density function|PDF]] $f_{\mathbf{X}}(x;\theta)$ ($\theta$ is a parameter), a statistic $t(\mathbf{X})$ is said to be **sufficient** for $\theta$ if it such that $f_{\mathbf{X}}(x;\theta)$ can be written as
-  $$f_{X}(x;\theta)=h(\mathbf{X})g(t(\mathbf{X});\theta)$$
+Given a [[Random variable|random vector]] $\mathbf{X}$ of [[Joint distribution function|JDF]] $f_{\mathbf{X}}(\mathbf{x};\theta)$ ($\theta$ is a parameter), a statistic $t(\mathbf{X})$ is said to be **sufficient** for $\theta$ if it such that $f_{\mathbf{X}}(\mathbf{x};\theta)$ can be written as
+$$f_{X}(\mathbf{x};\theta)=h(\mathbf{X})g(t(\mathbf{X});\theta)$$
 where $h$ is a statistic that is independent of $\theta$ and $g$ is a statistic that depends on $\mathbf{X}$ only through $t(\mathbf{X})$. All the information available on $\theta$ contained in $\mathbf{X}$ is supplied by $t(\mathbf{X})$.
 
 Given a vector of [[iid]] [[Gaussian distribution|Gaussian]] random variables, $X_{i}\sim \mathcal{N}(\mu,\sigma ^{2})$, the parameters $\boldsymbol{\theta}$ are $\boldsymbol{\theta}=(\mu,\sigma ^{2})$. The PDF of the random vector is a [[Multivariate normal distribution|multivariate normal]]:

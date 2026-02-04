@@ -48,6 +48,6 @@ $$\boxed{\begin{align}
 \text{var}(w)&=\sum_{x_{i}=x,y,\ldots}\left( \frac{ \partial w }{ \partial x_{i} }  \right)^{2}\text{var}(x_{i}) \\
 &=\left( \frac{ \partial w }{ \partial x }  \right)^{2}\text{var}(x)+\left( \frac{ \partial w }{ \partial y }  \right)^{2}\text{var}(y)+\ldots
 \end{align}}$$
-For this to work, $w$ must be twice-[[Differential|differentiable]] in all of its arguments.
+For this to work, $w$ must be twice-[[Differential|differentiable]] in all of its arguments. This is a special case (and an approximation nonetheless) of the general properties of [[functions of random variables]].
 
 [^1]: But not all. Bias is far from the only problem to consider in choosing an estimator. $S^{2}_\text{biased}$ actually has legitimate use cases, as it has lower variance than unbiased $S^{2}$, at the cost of missing the mark due to the bias. In fact, if using $S^{2}$ over $S^{2}_\text{biased}$ causes estimates to go all over the place due to the higher variance, the little gain from removing bias is probably not enough to offset that, so you end up with worse estimates despite using the unbiased estimator. This usually happens when the sample size $N$ is small, when adding a bit of bias is often an acceptable price to pay to reduce variance.

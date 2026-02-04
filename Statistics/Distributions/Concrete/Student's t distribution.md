@@ -9,4 +9,4 @@ The $t$ distribution differs from the more usual Gaussian because it has much he
 
 It's most useful when the amount of available data is small or when outliers are present.
 ### Relation to other distributions
-If $n=1$, the tails are as heavy as the distribution allows: in this case it's known as the [[Cauchy distribution]].
+If $n=1$, the tails are as heavy as the distribution allows: in this case it goes back to the [[Cauchy distribution]].
