@@ -92,6 +92,7 @@
 | Esperienza/Costante di Faraday                                                             | +++           |
 | Metodi per misurare resistenze                                                             | +             |
 | (Da sopra) Giusto che l'andamento $V-I$ passi per l'origine?                               | +             |
+| Ponte di Wheatstone                                                                        | +             |
 | Circuito a rilassamento                                                                    | ++++          |
 | Circuiti RC                                                                                | ++            |
 | Circuiti RLC                                                                               | ++            |
@@ -100,7 +101,6 @@
 | Tubo a raggi catodici                                                                      | +             |
 | Misura rapporto e/m con fascio filiforme                                                   | +             |
 | Misura rapporto e/m con tubo di Braun                                                      | +             |
-| Ponte di Wheatstone                                                                        | +             |
 | Carica/Scarica condensatore                                                                | +             |
 | --- Relazione ---                                                                          |               |
 | Qualcosa sulla relazione/esperimento                                                       | ++++++++      |

@@ -11,7 +11,7 @@ There is also a much more general and physically meaningful form that applies to
 $$\mathbf{J}=\sigma\mathbf{f}=\frac{1}{\rho}\mathbf{f}$$
 where $\mathbf{f}$ is the force per unit charge, $\sigma$ is the [[electrical conductivity]] of the material and $\rho=1/\sigma$ is the [[electrical resistivity]]. For most electromagnetic forces, $\mathbf{f}$ is just the [[electric field]] $\mathbf{E}$:
 $$\mathbf{J}=\sigma\mathbf{E}=\frac{1}{\rho} \mathbf{E}$$
-This reduces to the above simpler form at the start when $\mathbf{E}$ is time-independent. If it is not, the [[Curl]] of $\mathbf{E}$ is not zero and the field is no longer uniform inside the wire, which in turn means that the resistance becomes dependent on the frequency of $\mathbf{E}$.
+This reduces to the simpler form at the start when $\mathbf{E}$ is time-independent. If it is not, the [[Curl]] of $\mathbf{E}$ is not zero and the field is no longer uniform inside the wire, which in turn means that the resistance becomes dependent on the frequency of $\mathbf{E}$.
 
 A material that obeys Ohm's laws is said to be ohmic. Non-ohmic materials behave differently, namely their currents $\mathbf{J}$ typically do not point in the same direction as their produced field $\mathbf{E}$.
 ### Differential form of first law

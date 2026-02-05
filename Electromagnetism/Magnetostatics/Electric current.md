@@ -4,9 +4,13 @@ aliases:
   - steady current
   - continuity equation
 ---
-The **electric current** $\mathbf{I}$ is the rate of change of [[electric charge]] in a given point. In other words, it's how much charge is passing through a location. It is measured in Amperes, which are Coulombs per second:
-$$\text{A}\equiv \frac{\text{C}}{\text{s}}$$
-By convention, negative charges moving to the left count the same as positive charges moving to the right. This is to reflect the physical fact that almost all laws regarding charge movement depend on the product of charge and velocity, so if you reverse the signs of both, the phenomenon doesn't change. For an example, see the [[Lorentz force]]. In practice, it's usually [[Electron|electrons]] that move and they do so in the opposite direction of the current.
+The **electric current** is the rate of change of [[electric charge]] in a given point. In other words, it's how much charge is passing through a location. It is defined as the time derivative of electric charge
+$$I(t)=\frac{Q(t)}{dt}$$
+The [[International System of Units|SI]] unit of current is the **Ampere** $\text{A}$, which are Coulombs per second.
+
+Current can be seen as both a [[scalar]] and [[Vector space|vector]] quantity. The vector interpretation is more complete as current requires motion of charges, which is described by velocity, a vector quantity. However, the scalar form is often sufficient when motion is constrained to a specific path, such as in electric wiring. In the scalar case, care should be taken to get the sign right.
+
+By convention, negative charges moving in one direction count the same as positive charges moving in the opposite direction. This is to reflect the physical fact that almost all laws regarding charge movement depend on the product of charge and velocity, so if you reverse the signs of both, the phenomenon doesn't change. For an example, see the [[Lorentz force]]. In practice, it's usually [[Electron|electrons]] that move and they do so in the opposite direction of the current.
 
 A current is said to be **steady** or **stationary** if it does not vary with time:
 $$\frac{\partial \mathbf{J}}{\partial t}=0$$

@@ -9,7 +9,7 @@ where $r$ is the distance from the charge and $\varepsilon_{0}$ is the [[vacuum 
 $$\mathbf{F}=Q\mathbf{E}=-Q\nabla V=\frac{1}{4\pi\varepsilon_{0}}\frac{qQ}{r^{2}}\hat{\mathbf{r}}$$
 where $Q$ is another charge a distance $r$ from the source charge $q$.
 
-The modern theory of electromagnetism is **quantum electrodynamics** (QED). Electromagnetism is an exchange interaction mediated by the [[Photon]], one of the four known [[gauge boson|gauge bosons]].
+The modern theory of electromagnetism is **[[quantum electrodynamics]]** (QED). Electromagnetism is an exchange interaction mediated by the [[Photon]], one of the four known [[gauge boson|gauge bosons]].
 
 Electromagnetism has infinite range, meaning it can affect objects at any distance.
 ### Coupling constant

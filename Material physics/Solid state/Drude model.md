@@ -53,7 +53,7 @@ When an [[electromagnetic wave]] hits a material, it splits between a reflected 
 $$k=\frac{2\pi N}{\lambda_{0}}$$
 where $N=n+i\kappa$ is the complex [[refractive index]]. Using Maxwell's relation for refractive index, we have $N=\sqrt{ \varepsilon }=\sqrt{ \varepsilon_{r}+i\varepsilon_{i} }$, where $\varepsilon$ is the complex [[permittivity]]. The wave then is
 $$\mathbf{E}(z,t)=\mathbf{E}_{0}e^{i((2\pi N/\lambda_{0})z-\omega t)}=\mathbf{E}_{0}e^{i((\omega \sqrt{ \varepsilon }/c)z-\omega t)}$$
-(TODO: Finish this with PDF for Drude model results)
+%%(TODO: Finish this with PDF for Drude model results)%%
 ### Limitations
 The Drude model fails in several situations. For instance, it fails to predict the conductivity of alloys, which is very inconsistent and certainly not a linear average of the two pure metals' conductivity. It also fails when temperatures become very low, such as metals bathed in liquid nitrogen.
 

@@ -5,7 +5,7 @@ A **molecule** is a bound [[Physical system|system]] of at least two [[Atomic nu
 
 Compared to the study of [[atom|atoms]], the study of molecules is greatly complicated by the motion and interaction of the nuclei. Luckily however, much of this problem is lifted since the [[mass]] of the nuclei is considerably larger than that of the electrons, thus causing the nuclear states to be less significant overall. A ballpark estimate using the [[Frequency|angular frequencies]] of electron excitations $\omega_{e}$ and nuclear vibrations $\omega_{N}$ (more on this below) leads to a ratio $\omega_{N}/\omega_{e}\sim 10^{-3}\textendash10^{-5}$, several orders of magnitude less. This is the logical basis for the common framework in which much of molecular physics is developed: the [[Born-Oppenheimer approximation]].
 
-Moreover, not all electrons are bound to the nucleus with the same strength. Electrons in complete [[electron shell model|shells]] are bound to the nucleus much more strongly than electrons in the incomplete outermost shell, broadly speaking difference between $\sim 10\text{ eV}$ and $\sim 1\text{ eV}$. As such, only the outer electrons, the *valence* electrons, are assumed to take part in molecular bonding.
+Moreover, not all electrons are bound to the nucleus with the same strength. Electrons in complete [[electron shell model|shells]] are bound to the nucleus much more strongly than electrons in the incomplete outermost shell, broadly speaking a difference between $\sim 10\text{ eV}$ and $\sim 1\text{ eV}$. As such, only the outer electrons, the *valence* electrons, are assumed to take part in molecular bonding.
 
 Some nomenclature: molecular orbitals are generally abbreviated as **MO**, while atomic ones as **AO**. The highest-energy occupied molecular orbital is called **HOMO**, the lowest-energy unoccupied molecular orbital is called **LUMO** and a singly-occupied molecular orbital is called **SOMO**. The **excitation energy** of a molecule is given by the energy difference between LUMO and HOMO: $\Delta E\equiv E_{\text{LUMO}}-E_\text{HOMO}$.
 ### Symmetries in diatomic molecules
@@ -33,7 +33,7 @@ When it comes to diatomic molecules, there's a useful rule regarding symmetries 
 > [!info] von Neumann-Wigner non-crossing rule
 > Electronic states, represented by their potentials $E(R)$, that have the same symmetries never cross when varying internuclear distance $R$. In other words, given two distinct electronic states $E_{1}(R)$ and $E_{2}(R)$ with the same symmetries, there does *not* exist a distance $R^{*}$ for which $E_{1}(R^{*})=E_{2}(R^{*})$.
 #### Examples
-> [!example] Lithium hydride
+> [!example]- Lithium hydride
 > Lithium hydride $\text{LiH}$ is a heteronuclear molecule with four total electron, three from lithium and one from hydrogen. An isolated, neutral lithium atom has ground state $1s^{2}2s$. The ground state of hydrogen is as usual $1s$. The $1s^{2}$ shell in lithium is complete, so we can imagine it will not bond in any way. The technical reason is that only orbitals of similar energy are likely to bond. The energies involved here are
 > $$E_{1s,\text{Li}}\simeq-67\text{ eV},\quad E_{2s,\text{Li}}\simeq-5.4\text{ eV},\quad E_{1s,\text{H}}\simeq-13.6\text{ eV}$$
 > As such, lithium's $1s$ is way out of range in terms of energy. Meanwhile, lithium's $2s$ and hydrogen's $1s$ are similar enough that they'll probably bond.
@@ -46,19 +46,19 @@ When it comes to diatomic molecules, there's a useful rule regarding symmetries 
 > 
 > The energy of hydrogen $1s$ is lower than lithium $2s$, so the bond (technically, its electron distribution) will be slanted towards hydrogen. As such, the bond will be *polar*, with a slightly more negative half on the hydrogen side and a slightly more positive part on the lithium side, leading to a permanent [[electric dipole]].
 
-> [!example] $\text{C}\textendash\text{H}$
+> [!example]- $\text{C}\textendash\text{H}$
 > The $\text{C}\textendash\text{H}$ molecule isn't a stable molecule. It's "unfinished" and need other atoms to have its orbitals completely filled. That said, it's interesting to talk about the individual carbon-hydrogen bond. The carbon's electron configuration is $1s^{2}2s^{2}2p^{2}$. Unlike lithium hydride, the carbon $2s$ orbital is *very* close in energy to the hydrogen $1s$ state. This causes it to participate in bonding even though it is fully filled (although the second carbon *shell* is not fully filled, as it's missing four electrons in $2p$). Thus, the bond form an $sp$ hybrid like in $\text{LiH}$. The dipole term here is stronger.
 
-> [!example] Hydrogen fluoride
+> [!example]- Hydrogen fluoride
 > Hydrogen fluoride $\text{HF}$ is largely similar to $\text{LiH}$, but the energy of the fluoride's $2s$ is far lower than the hydrogen's $1s$. As such, the bond is still a hybrid $sp$, but the electric dipole term is *very* pronounced, making it an ionic bond.
 
-> [!example] Methane
+> [!example]- Methane
 > Methane $\text{CH}_{4}$ complicates things by not being diatomic. The carbon electron configuration is $1s^{2}2s^{2}2p^{2}$, but in this case, it's worth noting that the exited state $1s^{2}2s^{2}2p^{3}$ is very close in energy. This is important because carbon bonds much more easily in this state. Here, since there's one electron each in $2s$, $2p_{x}$, $2p_{y}$ and $2p_{z}$, these can all hybridize together to form four hybrid $sp^{3}$ bond to four different external electrons. This is precisely what happens in methane, where the four external electrons are given by the four hydrogens. The shape formed by the bonds is a square pyramid, as that is the form that keeps the electrons most far away from each other, thus leading to a electric potential minimum.
 
-> [!example] Ethylene
+> [!example]- Ethylene
 > Ethylene $\text{C}_{2}\text{H}_{4}$ is interesting because it is the first molecule in this sequence to create $\pi$ bonds. Assume that both carbons are in the excited state as per methane. We now have four bonds to make. It's pretty clear that we'll get some bonds between the carbons and the hydrogens, but the carbons also bond between each other. Specifically, their $2p_{z}$ orbitals connect in a $\sigma$ bond. Then, one perpendicular $2p$ orbital ($2p_{x}$ or $2p_{y}$) takes two hydrogen $1s$ to make a $\sigma$ bond with each, whereas the other connects to the corresponding orbital on the other carbon, creating a bond between two $2p$ orbitals: a $\pi$ bond. The result is that each carbon is bonded once to two hydrogens, but *twice* to the other carbons. This phenomenon is called a **double bond** ($\sigma+\pi$),
 
-> [!example] Acetylene
+> [!example]- Acetylene
 > Acetylene $\text{C}_{2}\text{H}_{2}$ is similar to ethylene, but with two fewer hydrogens. Since the electrons need to go *somewhere*, they end up bonding with the other carbon, mostly by lack of options. This means that the carbons now have bonds with their $1s$ ($\sigma$), their $2p_{z}$ ($\pi$) and now another $2p$, say $2p_{y}$ ($\pi$). The remaining $2p_{x}$ in each carbon bonds with the hydrogen $1s$. The carbons are now bonded *three times*: this is called a **triple bond** ($\sigma+\pi+\pi$).
 ### Nuclear motion
 In the [[Born-Oppenheimer approximation]], the nuclei are assumed to be stationary. This makes calculations a lot more feasible while keeping the error margin relatively small. That said, an error is an error, and we can do better. To reintroduce the nuclear kinetic terms, we can use the [[Equazione di Schrödinger|Schrödinger equation]] their motion:
