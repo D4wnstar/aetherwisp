@@ -3,6 +3,7 @@ wiki-publish: true
 aliases:
   - back emf
   - RL circuit
+  - inductance
 ---
 **Self inductance** is the phenomenon where changing the [[electric current]] within a loop induces an additional current within the loop itself counteracting the change. If the current is increased, the induced current will run in reverse, thereby trying to reduce the current back to its original value. Likewise, decreasing the current will prompt the loop to try to increase its own current. This can be thought of as an inertial phenomenon, as a sort of [[Newton's laws|Newton's first law]] for currents.
 
@@ -31,7 +32,7 @@ An **RL circuit** is a circuit made of a [[Electrical resistance|resistor]] $R$ 
 $$\mathcal{E}_{0}-L \frac{dI}{dt}=IR$$
 which is a first order [[Ordinary differential equation|ordinary differential equation]]. It can be solved by [[separation of variables]] followed by integration:
 $$I(t)=\frac{\mathcal{E}_{0}}{R}[1-e^{ -(R/L)t }]$$
-We can call $L/R=\tau$ the **inductive time constant** of the circuit. Its inverse, $\Gamma=R/L$ is also called the **dampening frequency**. The function and has a shape of this sort
+We can call $L/R=\tau$ the **inductive time constant** of the circuit. Its inverse, $\Gamma=R/L$ is also called the **dampening frequency**. The function and has a shape of this sort:
 
 ```mathpad
 %$1:=-e^(-t*tau^(-1))+1
@@ -44,6 +45,6 @@ I(t,tau):=1-e^(-t/tau)
 plot(I(t, tau), [0,6], [0,1])==?
 ```
 
-so it converges to the final current at infinite time and gets to about 2/3 of the way at $1\tau$ and is mostly there at $3\tau$.
+It converges to the final current at infinite time and gets to about 2/3 of the way at $1\tau$ and is mostly there at $3\tau$.
 
 [^1]: It also usually fails, as induced electric fields are almost always tiny and do not have the intensity required to actually make a major change. That said, if the current is changed extremely fast (say, by violently pulling a plug out of a socket), the induced field can actually become enormous, if for a minuscule amount of time. Such a strong field can even be enough to force air to become a [[conductor]] for a split second and in so doing carry a massive current through the air between the socket and the plug in a desperate attempt to keep the current going. Visually, we see this as bright sparks and electric arcs running through the air, which is why it's dangerous to pull plugs out really fast when the power is on.

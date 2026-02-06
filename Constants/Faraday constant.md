@@ -17,7 +17,7 @@ Now we need the amount of substance. Since the substance is known, we know the [
 The two quantities are related by are related by
 $$\frac{\Delta m}{M_{\text{Cu}}}N_{A}2e=\Delta Q$$
 since there's two [[electron|electrons]] ($2e$) per $\ce{Cu^{2+}}$. Using the summation for $\Delta Q$ gives us
-$$\sum_{i=1}^{N} I_{i}\delta t_{i}=\frac{\delta m}{M_\text{Cu}}N_{A}2e$$
+$$\sum_{i=1}^{N} I_{i}\delta t_{i}=\frac{\Delta m}{M_\text{Cu}}N_{A}2e$$
 Then, using the definition of the Faraday constant, we get
 $$\boxed{F=eN_{A}=\frac{M_\text{Cu}}{2\Delta m}\sum_{i=1}^{N} I_{i}\delta t_{i}}$$
 Some tips:

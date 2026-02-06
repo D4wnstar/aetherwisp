@@ -92,19 +92,17 @@
 | Esperienza/Costante di Faraday                                                             | +++           |
 | Metodi per misurare resistenze                                                             | +             |
 | (Da sopra) Giusto che l'andamento $V-I$ passi per l'origine?                               | +             |
-| Ponte di Wheatstone                                                                        | +             |
-| Circuito a rilassamento                                                                    | ++++          |
+| Ponte di Wheatstone                                                                        | +++++         |
+| Tubo a raggi catodici                                                                      | +             |
 | Circuiti RC                                                                                | ++            |
 | Circuiti RLC                                                                               | ++            |
+| Carica/Scarica condensatore                                                                | +             |
 | Lampada al neon                                                                            | +             |
 | Esperimento di Millikan                                                                    | +             |
-| Tubo a raggi catodici                                                                      | +             |
 | Misura rapporto e/m con fascio filiforme                                                   | +             |
 | Misura rapporto e/m con tubo di Braun                                                      | +             |
-| Carica/Scarica condensatore                                                                | +             |
 | --- Relazione ---                                                                          |               |
 | Qualcosa sulla relazione/esperimento                                                       | ++++++++      |
-
 
 # Martin
 ### PERSONA 1 (ha portato esercitazione 5)

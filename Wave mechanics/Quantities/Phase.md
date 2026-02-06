@@ -1,5 +1,9 @@
 ---
 wiki-publish: true
+aliases:
+  - phase constant
+  - in phase
+  - out of phase
 ---
 The **phase** of a [[wave]] is, intuitively speaking, the point of its periodic cycle it is in. At the start of a cycle, the phase is zero. It then increases until the cycle reaches its end, at which point the phase resets to zero and the cycle starts all over.
 

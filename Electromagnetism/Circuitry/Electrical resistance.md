@@ -2,6 +2,7 @@
 wiki-publish: true
 aliases:
   - resistor
+  - resistance
 ---
 The **electrical resistance** $R$ of a material is the amount of [[electric current]] running through it per unit [[electric potential]]. For metals, it can be calculated with [[Ohm's law|Ohm's first law]]. It is measured in ohms, $\Omega$, which are volts per ampere. The resistance of a material is also dependent on its temperature.
 

@@ -108,9 +108,9 @@ $$C=C_{1}+C_{2}$$
 and more generally, for $n$ capacitors,
 $$\boxed{C=\sum_{i=1}^{n} C_{i}}$$
 ### Charge and discharge process
-The process of charging and discharging a capacitor is of course not an electrostatics problem. That said, if the capacitor is (dis)charging *slowly*, then we can approximate the [[electric current]] in the circuit to be mostly constant in time as the propagation of change happens much faster than the (dis)charging[^1]. It's not *actually*, but if the (dis)charge is slow enough, we can consider it as if it were a (quasi-)steady current. In this regime, we can apply [[Kirchhoff's laws|Kirchhoff's loop law]].
+The process of charging and discharging a capacitor is of course not an electrostatics problem. That said, if the capacitor is (dis)charging *slowly*, then we can approximate the [[electric current]] in the circuit to be mostly constant in time as the propagation of change happens much faster than the (dis)charging.[^1] It's not *actually*, but if the (dis)charge is slow enough, we can consider it as if it were a (quasi-)steady current. In this regime, we can apply [[Kirchhoff's laws|Kirchhoff's loop law]].
 #### Charge
-Consider a circuit of this shape, composed of an [[electrical resistance]] $R$, a capacitor $C$ and a generator with [[electromotive force]] $\mathcal{E}$:
+Consider an [[RC circuit]], composed of an [[electrical resistance]] $R$, a capacitor $C$ and a generator with [[electromotive force]] $\mathcal{E}$:
 
 ```tikz
 \usepackage{circuitikz}
@@ -206,5 +206,3 @@ $$\boxed{I(t)=- \frac{\mathcal{E}}{R}e^{-t/RC}}$$
 which is just the current in the charging case with the sign reversed. This means that when a capacitor is discharging, it'll elicit a current going in the *opposite* direction as the charging current.
 
 [^1]: This is pretty much the same thought process used to call slow [[thermodynamic transformation|thermodynamic transformations]] (quasi-)[[adiabatic transformation|adiabatic]].
-
-$$\phi(\mathbf{r})=\frac{q}{4\pi \varepsilon_{0}} \left( \frac{1}{\lvert \mathbf{r}- \mathbf{s}/2 \rvert} - \frac{1}{\lvert \mathbf{r}+ \mathbf{s}/2 \rvert } \right)=\frac{q}{4\pi \varepsilon_{0}} \frac{\mathbf{s}\cdot\mathbf{r}}{r^{3}}$$
