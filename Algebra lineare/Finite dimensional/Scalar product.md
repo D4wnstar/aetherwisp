@@ -18,7 +18,7 @@ The scalar product can also be defined on infinite-dimensional spaces, such as [
 $$(f,g)\equiv\int_{-\infty}^{+\infty}f^{*}(x)g(x)\ dx,\qquad( f, f)=\int_{-\infty}^{+\infty}|f(x)|^{2}\ dx$$
 
 > [!question] A note on notation
-> These notes employ all of the three shown notations for the scalar product, each in the context they are most likely to be found in in literature. Round brackets $(v,w)$ are used in mathematics, the dot $v\cdot w$, especially using bold font $\mathbf{v}\cdot \mathbf{w}$, is commonplace in physics in general, and [[Notazione braket|braket notation]] $\braket{ v | w }$ is standard in quantum physics.
+> Aetherwisp employs all of the three shown notations for the scalar product, each in the context they are most likely to be found in in literature. Round brackets $(v,w)$ are used in mathematics, the dot $v\cdot w$, especially using bold font $\mathbf{v}\cdot \mathbf{w}$, is commonplace in physics in general, and [[Notazione braket|braket notation]] $\braket{ v | w }$ is standard in quantum physics.
 ### Properties
 The scalar product satisfies the following properties:
 1. It is linear in the right-hand member[^1]. Given $\alpha,\beta \in \mathbb{C}$, $( v, \alpha w + \beta z)=\alpha ( v, w)+\beta ( v, z)$. 

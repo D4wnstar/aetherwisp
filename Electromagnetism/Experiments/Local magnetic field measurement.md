@@ -35,6 +35,6 @@ Whether the signal is the blue or red one determine the polarity of the magnetic
 
 The potential is going to be very small, in the tenths of a millivolt. This is unfortunate as the error margin is going to huge in comparison to the reading. As such, we make use of an amplifying filter to increase the potential. It contains a low-pass filter, which cuts out high frequencies to mostly remove the noise of the signal. The amplifier needs to be calibrated.
 
-It may also be interesting to but the apparatus on its side and take measurements that way.
+It may also be interesting to put the apparatus on its side and take measurements that way.
 
 [^1]: We can't use a motor because electric motors produce considerable electric fields.
