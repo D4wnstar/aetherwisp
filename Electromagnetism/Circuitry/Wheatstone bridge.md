@@ -26,7 +26,7 @@ $$\begin{cases}
 \Delta V_{3}=R_{3}I_{3} \\
 \Delta V_{X}=R_{X}I_{X}
 \end{cases}\tag{2}$$
-Potential is the same across parallel branches so $\Delta V_{1}=\Delta V_{3}$ and $\Delta V_{2}=\Delta V_{X}$, therefore combining this fact with $(2)$ yields
+Potential is the same across parallel branches so $\Delta V_{1}=\Delta V_{3}$ and if there's no current flow between the branches ($I_{BD}=0$) then also $\Delta V_{2}=\Delta V_{X}$. Combining this fact with $(2)$ yields
 $$\begin{cases}
 R_{1}I_{1}=R_{3}I_{3} \\
 R_{2}I_{2}=R_{X}I_{X}

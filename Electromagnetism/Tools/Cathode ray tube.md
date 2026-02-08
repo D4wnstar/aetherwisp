@@ -30,10 +30,12 @@ $$E(t)=\frac{V(t)}{d}$$
 where $V(t)$ is the time-varying potential that we give it. The Lorentz force then is
 $$F(t)=eE(t)=\frac{eV(t)}{d}$$
 The complication is that the trajectory becomes parabolic. The solution is that because the electron goes so fast, we can approximate the deflection as linear, at least to start. The capacitors deflect the electron perpendicular to the axis of the CRT so the [[Linear momentum|momentum]] variation must be
-$$\Delta p_{\perp}=F(t)\Delta t=\frac{eV(t)}{d}\frac{L}{v_{\parallel}}$$
-where $\Delta t$ is the time the electron spends inside the capacitor, $L$ is the length of the capacitor and $v_{\parallel}$ is $v_\text{acc}$ from $(1)$, renamed to clarify that it is parallel to the axis of the CRT. The deflection angle can be shown to be
-$$\theta=\arctan\left( \frac{\Delta p_{\perp}}{p_{\parallel}} \right)$$
-For small angles, $\tan \theta \simeq 0$, so the deflection is approximately linear to voltage, $\Delta y\propto \Delta V(t)$.[^3] Because the electrons shot this way will impact the screen and illuminate it, we can visually see the shape of the $V(t)$ as higher potentials will shoot higher (bigger deflection $\Delta y$) compared to weak ones. Negative potentials will go in the opposite direction (negative $\Delta y$). In practice, we made a graphical [[voltmeter]] for time-varying potentials. This concept is used to build [[Oscilloscope|oscilloscopes]]. A more advanced usage is for [[cathode ray television|cathode ray televisions]].
+$$\Delta p_{\perp}=F(t)\Delta t=\frac{eV(t)}{d}\frac{l}{v_{\parallel}}$$
+where $\Delta t$ is the time the electron spends inside the capacitor, $l$ is the length of the capacitor and $v_{\parallel}$ is $v_\text{acc}$ from $(1)$, renamed to clarify that it is parallel to the axis of the CRT. Through trigonometry, the deflection angle can be shown to be
+$$\tan\theta=\frac{\Delta p_{\perp}}{p_{\parallel}} =\frac{eV(t)}{d} \frac{l}{v_{\parallel}} \frac{1}{m_{e}v_{\parallel}}=\frac{l}{2V_\text{acc}d}V(t)$$
+For small angles, calling the distance between the gun and the screen $L$:
+$$y\simeq L\tan \theta=\left( \frac{lL}{2V_\text{acc}d} \right)V(t)=S_{y}V(t)$$
+where $S_{y}$ is called the **sensibility** of the $y$ axis.[^3] Clearly then, $y\propto \Delta V(t)$, meaning the linear changes in voltage will have corresponding linear changes in vertical deflection. Because the electrons shot this way will impact the screen and illuminate it, we can visually see the shape of the $V(t)$ as higher potentials will shoot higher (bigger deflection $\Delta y$) compared to weak ones. Negative potentials will go in the opposite direction (negative $\Delta y$). In practice, we made a graphical [[voltmeter]] for time-varying potentials. This concept is used to build [[Oscilloscope|oscilloscopes]]. A more advanced usage is for [[cathode ray television|cathode ray televisions]].
 
 [^1]: This is called **cathode poisoning**.
 

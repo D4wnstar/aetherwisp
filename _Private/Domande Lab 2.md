@@ -92,15 +92,15 @@
 | Esperienza/Costante di Faraday                                                             | +++           |
 | Metodi per misurare resistenze                                                             | +             |
 | (Da sopra) Giusto che l'andamento $V-I$ passi per l'origine?                               | +             |
-| Ponte di Wheatstone                                                                        | +++++         |
+| Ponte di Wheatstone                                                                        | +             |
 | Tubo a raggi catodici                                                                      | +             |
 | Circuiti RC                                                                                | ++            |
+| Circuito a rilassamento                                                                    | +++++         |
 | Circuiti RLC                                                                               | ++            |
 | Carica/Scarica condensatore                                                                | +             |
-| Lampada al neon                                                                            | +             |
-| Esperimento di Millikan                                                                    | +             |
 | Misura rapporto e/m con fascio filiforme                                                   | +             |
 | Misura rapporto e/m con tubo di Braun                                                      | +             |
+| Esperimento di Millikan                                                                    | +             |
 | --- Relazione ---                                                                          |               |
 | Qualcosa sulla relazione/esperimento                                                       | ++++++++      |
 
