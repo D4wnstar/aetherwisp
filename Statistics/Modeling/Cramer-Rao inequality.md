@@ -9,11 +9,11 @@ The **Cramer-Rao** or **Cramer-Rao-Frechèt inequality** gives a lower bound to 
 $$\hat{\sigma}^{2}_{\hat{\theta}}\geq\frac{1}{\mathrm{E}\left[ - \dfrac{d^{2}\log \mathcal{L}}{d\theta ^{2}} \right]}$$
 where $\mathrm{E}$ is the [[expected value]] and $\mathcal{L}$ is the twice-[[Differential|differentiable]] [[likelihood]] function evaluated over the same [[sample]] of the estimator. The inequality is saturated when
 $$\frac{ \partial \log \mathcal{L} }{ \partial \theta } =k(\hat{\theta}-\theta)$$
-where $k$ is either a number or a function of $\theta$. In this case, $\hat{\theta}$ is said to be a **minimum-variance** estimator or that it achieves the **Cramer-Rao lower bound** (**CRLB**).
+where $k$ is either a constant or a function of $\theta$. In this case, $\hat{\theta}$ is said to be a **minimum-variance** estimator or that it achieves the **Cramer-Rao lower bound** (**CRLB**).
 
 The inequality has two generalization. For one, we can assume the estimator is biased (with bias $b$). For the other, we can assume that instead of estimating a parameter $\theta$, we are estimating a function $\tau(\theta)$ of the parameter. The general estimator therefore is $\hat{\tau}$ with $\mathrm{E}[\hat{\tau}]=\tau(\theta)+b(\theta)$. With this estimator, the inequality becomes
 $$\hat{\sigma}^{2}_{\hat{\tau}}\geq \frac{\left( \dfrac{d\tau}{d\theta}+ \dfrac{db}{d\theta} \right)^{2}}{\mathrm{E}\left[ - \dfrac{d^{2}\log \mathcal{L}}{d\theta ^{2}}  \right]}$$
-This form goes back to the previous one when estimator is unbiased ($b=0$) and $\tau$ is the identity function ($\tau(\theta)=\theta$).
+This form goes back to the previous one when the estimator is unbiased ($b=0$) or constant with respect to $\theta$ ($db/d\theta=0$) and $\tau$ is the identity function ($\tau(\theta)=\theta$).
 
 > [!quote]- Proof
 > Consider an estimator $\hat{\tau}$ on a sample $X_{1},\ldots,X_{N}$ with [[sample space|sample spaces]] $\Omega_{1},\ldots,\Omega_{N}$ such that

@@ -35,9 +35,9 @@ For $N$ continuous random variables $X_{1},\ldots,X_{N}$ with JDF $f(x_{1},\ldot
 $$\text{var}(X_{i})= \mathrm{E}[(X_{i}-\mu_{i})^{2}]=\int_{\Omega_{N}}\ldots \int_{\Omega_{1}}(x_{i}-\mu_{i})^{2}f(x_{1},\ldots,x_{N})dx_{1}\ldots dx_{N}$$
 where $\mu_{i}=\mathrm{E}[X_{i}]$ is the expected value of $X_{i}$.
 ### Sample variance
-By definition, calculating the true variance requires knowing the true mean $\mu$. This is often not the case, so the true mean must be substituted by its [[estimator]]: the [[Arithmetic mean|sample mean]]. For a random [[sample]] of [[independent variables]] $X_{1},\ldots,X_{N}$, we can look for the average of the square deviations from the sample mean $\bar{X}$:
+By definition, calculating the true variance requires knowing the true mean $\mu$. This is often not the case, so the true mean must be substituted by (one of) its [[estimator]]: the [[Arithmetic mean|sample mean]]. For a random [[sample]] of [[independent variables]] $X_{1},\ldots,X_{N}$, we can look for the average of the square deviations from the sample mean $\bar{X}$:
 $$S^{2}_\text{biased}=\frac{1}{N}\sum_{i=1}^{N} (X_{i}-\bar{X})^{2}$$
-This is known as the **sample variance** and is an estimator of the true variance. However, in this form, it is imperfect. Similarly to the variance of the sample mean, it is a *biased* estimator of the true variance $\sigma ^{2}$. To fix the bias, we apply **Bessel's correction** (changing $N$ to $N-1$):
+This is known as the **sample variance** and is an estimator of the true variance. However, in this form, it is imperfect. It is a *biased* estimator of the true variance $\sigma ^{2}$. To fix the bias, we apply **Bessel's correction** (changing $N$ to $N-1$):
 $$S^{2}=\frac{1}{N-1}\sum_{i=1}^{N} (X_{i}-\bar{X})^{2}$$
 This is the unbiased sample variance and is the appropriate estimator for the true variance in most cases.[^1] Its expected value is, in fact, $\mathrm{E}[S^{2}]=\sigma ^{2}$.
 ## Properties

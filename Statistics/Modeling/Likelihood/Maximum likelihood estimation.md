@@ -12,13 +12,13 @@ $$\begin{cases}
 &\vdots \\
 \dfrac{ \partial \mathcal{L} }{ \partial \theta_{M} } &=0
 \end{cases}\quad\text{and}\quad\begin{cases}
--\dfrac{ \partial ^{2} \mathcal{L} }{ \partial ^{2} \theta_{1} } &<0 \\
+\dfrac{ \partial ^{2} \mathcal{L} }{ \partial ^{2} \theta_{1} } &<0 \\
 &\vdots \\
--\dfrac{ \partial ^{2} \mathcal{L} }{ \partial ^{2} \theta_{M} } &<0
+\dfrac{ \partial ^{2} \mathcal{L} }{ \partial ^{2} \theta_{M} } &<0
 \end{cases}$$
-The log-likelihood $\log \mathcal{L}$ can be substituted for $\mathcal{L}$, as the maximum is found for the same parameters. This is almost always done because it simplifies calculations by hand and restrains numerical range on a computer.
+These are sometimes called the **likelihood equations**. The log-likelihood $\log \mathcal{L}$ can be substituted for $\mathcal{L}$, as the maximum is found for the same parameters. This is almost always done because it simplifies calculations by hand and restrains numerical range on a computer.
 
-Maximum likelihood estimators carry remarkable properties. Under very general conditions, they can be proven to be consistent and at least asymptotically unbiased, asymptotically efficient and asymptotically [[Gaussian distribution|Gaussian]]. Often, but not always, these properties are always true instead of just asymptotically. As such, they are quite popular choices for large sample sizes where the asymptotic properties are verified.
+Maximum likelihood estimators carry remarkable properties. Under very general conditions, they can be proven to be consistent, asymptotically unbiased, asymptotically efficient and asymptotically [[Gaussian distribution|Gaussian]]. Often, but not always, some these properties are always true instead of just asymptotically. They are popular choices, especially for large sample sizes where the asymptotic properties are verified.
 ### Analytical solution
 For some simpler [[Probability distribution|probability distributions]], the method is analytically tractable. One such case is the [[exponential distribution]].
 
@@ -35,7 +35,7 @@ For some simpler [[Probability distribution|probability distributions]], the met
 > $$\frac{1}{\hat{\tau}^{*}}\sum_{i=1}^{N} t_{i}=N\quad\Rightarrow \quad \hat{\tau}^{*}=\frac{1}{N}\sum_{i=1}^{N} t_{i}$$
 > Thus, the best estimator of $\tau$ according to maximum likelihood is the [[Arithmetic mean|sample mean]], which we know to be an unbiased estimator with $\mathrm{E}[\hat{\tau}]=\tau^{}$. The second derivative can be proven to be negative, so this is indeed the maximum of $\mathcal{L}$.
 > 
-> We can also prove that it is a minimum-variance estimator. The [[Cramer-Rao-Frechet inequality]] is saturated when
+> We can also prove that it is a minimum-variance estimator. The [[Cramer-Rao inequality]] is saturated when
 > $$\frac{ \partial \log \mathcal{L} }{ \partial \tau } =k(\hat{\tau}-\tau)$$
 > where $k$ is either constant or a function of $\tau$. Using our derivative of $\log \mathcal{L}$ we can extract $N/\tau$ to find:
 > $$\frac{ \partial \log \mathcal{L} }{ \partial \tau } =\frac{N}{\tau}\left( -1+ \frac{1}{\tau N}\sum_{i=1}^{N} t_{i} \right)=\frac{N}{\tau}\left( -1+ \frac{\hat{\tau}}{\tau} \right)=\frac{N}{\tau ^{2}}(\hat{\tau}-\tau)$$
@@ -43,16 +43,16 @@ For some simpler [[Probability distribution|probability distributions]], the met
 ### Series expansion
 Solving the system analytically is not always possible. Thankfully, the behavior of the log-likelihood can be expressed through a [[Taylor series|Taylor series]] around the best point estimate:[^1]
 $$\log \mathcal{L}(\theta)=\log \mathcal{L}(\theta^{*})+ \frac{d\log \mathcal{L}}{d\theta}(\theta^{*})(\theta-\theta^{*})+ \frac{1}{2} \frac{d^{2}\log \mathcal{L}}{d\theta}(\theta^{*})(\theta-\theta^{*})^{2}+\ldots$$
-The first term is the maximum, whereas the second vanishes due to being a [[Punto critico|stationary point]]. The third term can be expressed using a inverted, saturated [[Cramer-Rao-Frechet inequality]] so that we're left with
+The first term is the maximum, whereas the second vanishes due to being a [[Punto critico|stationary point]]. The third term can be expressed using a inverted, saturated [[Cramer-Rao inequality]] so that we're left with
 $$\log \mathcal{L}(\theta)\simeq \log \mathcal{L}_{\text{max}}- \frac{1}{2} \frac{(\theta-\theta^{*})^{2}}{\sigma^{2}_{\theta^{*}}}$$
 and so the likelihood itself is approximately
 $$\mathcal{L}(\theta)\simeq \mathcal{L}_\text{max}e^{- (\theta-\theta^{*})^{2}/2\sigma^{2}_{\theta^{*}}}$$
-This can be used, for instance, for numerical maximization algorithms, as it is often not possible to find the analytical form of the likelihood. The important part is that this is only valid near the maximum, so selecting a where the maximum search is conducted is important. Notice also that this is essentially a Gaussian distribution: proof that maximum likelihood estimators are asymptotically Gaussian.
+This can be used, for instance, for numerical maximization algorithms, as it is often not possible to find the analytical form of the likelihood. The important part is that this is only valid near the maximum, so selecting where the maximum search is conducted is important. Notice also that this is essentially a Gaussian distribution: proof that maximum likelihood estimators are asymptotically Gaussian.
 
 More generally, the $N$-dimensional expression can be shown to follow a [[multivariate normal distribution]] and use the [[Covariance|covariance matrix]] $\Sigma$:
 $$\mathcal{L}(\boldsymbol{\theta})\simeq \mathcal{L}_\text{max}e^{- \frac{1}{2}(\boldsymbol{\theta}-\boldsymbol{\theta}^{*})\Sigma_{\theta^{*}}^{-1}(\boldsymbol{\theta}-\boldsymbol{\theta}^{*})}$$
 
-As an alternative route, there is also another useful path for numerical purposes. From the $\log \mathcal{L}(\theta)$ expression, notice that when $\theta-\theta^{*}=\pm \sigma_{\theta^{*}}$, it evaluates to $\log \mathcal{L}(\theta)=\log \mathcal{L}_\text{max}-1/2$. In other words, you can numerically search for the value of $\theta$ for which this is true and that's the value $1\sigma$ away from the mean. This lets you also get an estimate of the [[standard deviation]]  Similarly, when $\log \mathcal{L}(\theta)=\log \mathcal{L}_\text{max}-2$, you find the value $2\sigma$ away and so on.
+There is also another useful conclusion from this for numerical purposes. From the $\log \mathcal{L}(\theta)$ expression, notice that when $\theta-\theta^{*}=\pm \sigma_{\theta^{*}}$, it evaluates to $\log \mathcal{L}(\theta)=\log \mathcal{L}_\text{max}-1/2$. In other words, you can numerically search for the value of $\theta$ for which this is true and that's the value $1\sigma$ away from the mean. This lets you also get an estimate of the [[standard deviation]]  Similarly, when $\log \mathcal{L}(\theta)=\log \mathcal{L}_\text{max}-2$, you find the value $2\sigma$ away and so on.
 ### Binned maximum likelihood
 It's possible to use the histogram bin amounts instead of the actual sampled values to run MLE. This is called **binned maximum likelihood** (**BML**), as opposed to **unbinned maximum likelihood** (**UML**). Consider an [[iid]] sample $X_{1},\ldots,X_{N}$ of common [[Probability density function|PDF]] $f(x;\boldsymbol{\theta})$ which is binned into the approximate distribution $g(n_{1},\ldots,n_{M};\boldsymbol{\theta})$ when represented as a histogram. $n_{i}$ is the amount of samples occupying the $i$-th bin. The occupations are well-approximated by [[multinomial distribution]], which we use as our likelihood
 $$\mathcal{L}(\boldsymbol{\theta};\mathbf{n})=g(\mathbf{n};\boldsymbol{\theta})=\frac{N!}{n_{1}!\ldots n_{M}!}p_{1}^{n_{1}}\ldots p_{M}^{n_{M}}$$

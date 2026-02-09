@@ -19,7 +19,7 @@ Consider a random variable $X$ (assumed continuous; for a discrete one, just cha
 $$\mu^{*}_{n}=\text{E}[X^{n}]=\int_{\Omega}x^{n}f_{X}(x)\ dx$$
 $f_{X}(x)$ is the [[probability density function]]. The first couple of moments are:
 0. $\mu^{*}_{0}=\int_{\Omega}f_{X}(x)\ dx$ is the [[Normalization|normalization condition]] for $f_{X}(x)$.
-1. $\mu^{*}_{1}=\int_{\Omega}xf_{X}(x)\ dx=\mu_{X}$ is the expected value ([[mean]]) of $X$, an index of position.
+1. $\mu^{*}_{1}=\int_{\Omega}xf_{X}(x)\ dx=\mu_{X}$ is the expected value ([[mean]]) of $X$, an index of [[central tendency]].
 
 Orders 2 and up don't have a clear interpretation and are therefore mostly unused.
 
@@ -28,15 +28,15 @@ $$\mu_{n}=E[(X-\mu_{X})^{n}]=\int_{\Omega}(x-\mu_{X})^{n}f_{X}(x)\ dx$$
 The first few moments are
 0. $\mu_{0}=\int_{\Omega}f_{X}(x)\ dx=\mu^{*}_{0}$ is again the normalization condition for $f_{X}(x)$.
 1. $\mu_{1}=\int_{\Omega}(x-\mu_{X})f_{X}(x)\ dx$ is expected value of $x-\mu_{X}$.
-2. $\mu_{2}=\int_{\Omega}(x-\mu_{X})^{2}f_{X}(x)\ dx=\sigma ^{2}$ is the [[variance]] of $X$, an index of dispersion.
+2. $\mu_{2}=\int_{\Omega}(x-\mu_{X})^{2}f_{X}(x)\ dx=\sigma ^{2}$ is the [[variance]] of $X$, an index of [[statistical dispersion]].
 3. $\mu_{3}=\int_{\Omega}(x-\mu_{X})^{3}f_{X}(x)\ dx$ is an index of asymmetry.
 4. $\mu_{4}=\int_{\Omega}(x-\mu_{X})^{4}f_{X}(x)\ dx$ is an index of "tailedness".
 
-Orders 5 and up don't have an easy interpretation. For orders 3 and up, we define **coefficients** or **standardized moments**, which are divided by some power of the variance and are thus scale-independent. The **asymmetry coefficient** $\gamma_{1}$ is called [[skewness]] and, just like $\mu_{3}$, it represents how asymmetrical $f_{X}(x)$ is:
+Orders 5 and up don't have an easy interpretation. For orders 3 and up, we define **coefficients** or **standardized moments**, which are divided by some power of the variance and are thus scale-independent. The **asymmetry coefficient** $\gamma_{1}$ is called **[[skewness]]** and, just like $\mu_{3}$, it represents how asymmetrical $f_{X}(x)$ is:
 $$\gamma_{1}=\frac{\mu_{3}}{\mu_{2}^{3/2}}=\frac{\mu_{3}}{\sigma_{X}^{3}}$$
 The higher it is, the more slanted and asymmetrical the distribution is. It is zero if the distribution is symmetrical about $\mu_{X}$.
 
-The **flatness coefficient** $\gamma_{2}$ is called [[kurtosis]] and, just like $\mu_{4}$, it represents how tall the "tails" of $f_{X}(x)$ is:
+The **flatness coefficient** $\gamma_{2}$ is called **[[kurtosis]]** and, just like $\mu_{4}$, it represents how tall the "tails" of $f_{X}(x)$ is:
 $$\gamma_{2}=\frac{\mu_{4}}{\mu_{2}^{2}}-3=\frac{\mu_{4}}{\sigma^{4}_{X}}-3$$
 The $-3$ term is a completely arbitrary choice and was historically decided just so the kurtosis of the [[Gaussian distribution]] would be zero. The higher it is, the taller the "tails" of the distribution (going to $\pm \infty$) are.
 #### Equality of distributions with same moments
@@ -54,6 +54,6 @@ Say we have two probability density functions $f_{1}(x)$ and $f_{2}(x)$ for the 
 > &=\sum_{n=0}^{\infty} c_{n}[\mu_{n,1}^{*}-\mu_{n,2}^{*}] \\
 > &=0
 > \end{align}$$
-> Thus, $f_{1}(x)=f_{2}(x)$ over all $\Omega$.
+> if $\mu_{n,1}^{*}=\mu_{n,2}^{*}$ for all $n$. Thus, $f_{1}(x)=f_{2}(x)$ over all $\Omega$.
 
 If nothing else, this is further proof that the probability distribution of a random variable is unique.

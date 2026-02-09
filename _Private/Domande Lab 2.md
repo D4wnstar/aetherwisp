@@ -252,9 +252,8 @@
 | Cosa fare se $\phi_{0}$ non è nota                                                   | +             |
 | Intervalli di confidenza                                                             | ++++          |
 | Test per compatibilità dato di un'istogramma                                         | +             |
-| Compatibilità misure/stime                                                           | ++            |
 | Test parametri per Gaussiana                                                         | ++++          |
-| Test di $\chi ^{2}$ (normale/Pearson)                                                | ++            |
+| Test di $\chi ^{2}$ (normale/compatibilità/Pearson)                                  | ++++          |
 | Test di indipendenza                                                                 | +             |
 | --- Relazione ---                                                                    |               |
 | Qualcosa sulla relazione                                                             | +++++++++++++ |

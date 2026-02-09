@@ -1,5 +1,7 @@
 ---
 wiki-publish: true
+aliases:
+  - MGF
 ---
 A **moment-generating function** (**MGF**) of a [[Random variable]] $X$ is a real-valued function whose derivatives are the [[Function moments|moments]] of that variable's [[Probability distribution]]. There exists both **raw** (or **algebraic**) and **central** moment-generating functions. They are respectively defined as
 $$M_{X}^{*}(t)=\text{E}[e^{tX}]=\int_{\Omega}e^{tx}f_{X}(x)\ dx\qquad\text{(raw)}$$

@@ -14,8 +14,8 @@ This quantity has interesting properties that can be used to analyze the dispers
 As a shorthand, a [[Random variable|random vector]] $\mathbf{X}$ can be said to follow a multivariate normal of mean vector $\boldsymbol{\mu}$ and covariance matrix $\Sigma$ with the notation
 $$\mathbf{X}\sim \mathcal{N}(\boldsymbol{\mu},\Sigma)$$
 ### Moments
-The [[moment-generating function]] of the multivariate normal is known in closed form for the independent variable case and is relatively simple:
-$$M_{\mathbf{X}}(\mathbf{t})=\exp\left( \sum_{i=1}^{N} \frac{\sigma_{i}^{2}t_{i}^{2}}{2} \right),\qquad M_{\mathbf{X}}^{*}(\mathbf{t})=\exp\left( \sum_{i=1}^{N} \frac{\sigma_{i}^{2}t_{i}^{2}+2\mu_{i}t_{i}}{2} \right)$$
+The [[moment-generating function]] of the multivariate normal is known in closed form for the independent variable case and is a direct extension of the univariate normal:
+$$M_{\mathbf{X}}(\mathbf{t})=\exp\left( \sum_{i=1}^{N} \frac{\sigma_{i}^{2}t_{i}^{2}}{2} \right),\qquad M_{\mathbf{X}}^{*}(\mathbf{t})=\exp\left( \sum_{i=1}^{N} \frac{\sigma_{i}^{2}t_{i}^{2}}{2}+\mu_{i}t_{i} \right)$$
 ## Dispersion and $Q^{2}$ ellipses
 The multivariate normal distribution is, like its univariate sibling, possibly the most important multivariate distribution, owing to the commonness of Gaussian random variables. Both the cases with independent and dependent random variables come up in practice, and it's therefore useful to discuss both.
 ### Independent variables
@@ -23,17 +23,17 @@ Since the variables are independent, the covariance matrix is [[Diagonalization|
 $$\Sigma=\begin{pmatrix}
 \sigma_{1}^{2} & 0 & \ldots & \ldots &  0 \\
 0 & \sigma_{2}^{2} & 0 & \ldots & 0 \\
-\vdots & \vdots & \vdots & \vdots & \vdots \\
+\vdots & \vdots & \vdots & \ddots & \vdots \\
 0 & \ldots & \ldots & \ldots & \sigma_{N}^{2}
 \end{pmatrix}$$
 and its [[Invertible matrix|inverse]] is
 $$\Sigma^{-1}=\begin{pmatrix}
 \frac{1}{\sigma_{1}^{2}} & 0 & \ldots & \ldots &  0 \\
 0 & \frac{1}{\sigma_{2}^{2}} & 0 & \ldots & 0 \\
-\vdots & \vdots & \vdots & \vdots & \vdots \\
+\vdots & \vdots & \vdots & \ddots & \vdots \\
 0 & \ldots & \ldots & \ldots & \frac{1}{\sigma_{N}^{2}}
 \end{pmatrix}$$
-This effectively reduces the covariance matrix down to a variance vector and makes formulas for explicit.
+This effectively reduces the covariance matrix down to a variance vector.
 
 The exponent $Q^{2}$ mentioned above is useful because its values trace [[hypersurface|hypersurfaces]] of equal [[probability]]. If you set a value of $Q^{2}$ and find the locus of $(x_{1},\ldots,x_{N})$ points that realize that value, you get a closed and quite well-behaved hypersurface that represents all points with equal probability. If this sounds confusing, just know that in the simplest case of $N=2$, they're just regular [[ellipse|ellipses]]. To see it, just write down the equation for $Q^{2}$:
 $$Q^{2}=\frac{(x_{1}-\mu_{1})^{2}}{\sigma_{1} ^{2}}+ \frac{(x_{2}-\mu_{2})^{2}}{\sigma_{2}^{2}}$$

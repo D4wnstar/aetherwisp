@@ -28,11 +28,11 @@ Some [[Function moments|moments]] are:
 - For $n=1$, we get a [[Bernoulli distribution]], $\text{Bernoulli}(x;p)$.
 - When the sample size becomes large ($n\to \infty$) but the number of successes doesn't increase ($np\to \nu$), it becomes a [[Poisson distribution]], $\text{Pois}(x;np)$.
 ### Histograms
-The binomial distribution has a special connection to histograms. Given a data [[sample]], the number of events in each bin is a random variable that approximately follows the binomial distribution. Thus, the expected number of events in each bin is $np$ where $p$ is the probability of falling in that bin, and [[standard deviation]] $\sqrt{ npq }$. It is possible to find $p$ through the [[cumulative distribution function]] $F(x)$ as $p=F(x_{i+1})-F(x_{i})$, where $x_{i}$ and $x_{i+1}$ are the left and right edges of the $i$-th bin.
+The binomial distribution has a special connection to [[histogram|histograms]]. Given a data [[sample]], the number of events in each bin is a random variable that approximately follows the binomial distribution. Thus, the expected number of events in each bin is $np$ where $p$ is the probability of falling in that bin, and [[standard deviation]] $\sqrt{ npq }$. It is possible to find $p$ through the [[cumulative distribution function]] $F(x)$ as $p=F(x_{i+1})-F(x_{i})$, where $x_{i}$ and $x_{i+1}$ are the left and right edges of the $i$-th bin.
 
-This property is useful to analyze the dispersion of a histogram and how far it is from the intended distribution. This method is used in the Pearson goodness-of-fit [[chi-square test]].
+This property is useful to analyze the dispersion of a histogram and how far it is from the intended distribution. This method is used in the Pearson goodness-of-fit [[chi-square test]] and its derivatives, like the $\chi ^{2}$ independence test.
 
-If the sample is very large and the bins are small (as in, low width), it's also possible to use the [[Poisson distribution]].
+If the probability of landing in specific bins is small and the sample size is large, we can claim we are in the $np\to \nu$ limit and use the [[Poisson distribution]] instead.
 ### Examples
 > [!example]- Fair coin tosses
 > The probability that 6 coin tosses will all result in head is, with probability $p=0.5$ and $q=0.5$:

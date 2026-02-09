@@ -48,11 +48,7 @@ $$Y=\sum_{i=1}^{N} X_{i}\sim \chi ^{2}_{k_{1}+\ldots+k_{N}}$$
 As a particularly interesting case, a $\chi ^{2}$ distribution is the result of the sum of squares of Gaussian distributions. Given a set of $N$ [[iid]] normally-distributed variables $\{ X_{1},\ldots,X_{N} \}$, the sum of their squares $Y=\sum_{i=1}^{N}X_{i}^{2}$ is chi-square-distributed with $N$ degrees of freedom, $Y\sim \chi ^{2}_{N}$. As Gaussian RVs are quite common, the $\chi ^{2}$ distribution tends to appear frequently even if there is no individual phenomenon that follows it.
 
 > [!quote]- Proof for standard normals
-> Say $X_{1},\ldots,X_{N}$ all independently follow $\mathcal{N}(0,1)$. Then $X_{1}^{2},\ldots,X_{N}^{2}$ all follow $\chi ^{2}_{1}$; for proof see [[Functions of random variables#Distribution, expectation, variance]]. The MGF of $\chi_{1}^{2}$ is
-> $$M_{X^{2}}^{*}(t)=\mathrm{E}[e^{ tX^{2} }]=(1-2t)^{-1/2}$$
-> Since $X_{1},\ldots,X_{N}$ are independent, the MGF of the distribution of $Y$ is the product of the MGFs of $X_{i}$:
-> $$M_{Y}^{*}(t)=\prod_{i=1}^{N} \mathrm{E}[e^{t_{i}X_{i}^{2}}]=(1-2t)^{-N/2}$$
-> But this is the MGF of the $\chi ^{2}_{N}$ distribution. Therefore, $Y\sim \chi ^{2}_{N}$.
+> Say $X_{1},\ldots,X_{N}$ all independently follow $\mathcal{N}(0,1)$. Then $X_{1}^{2},\ldots,X_{N}^{2}$ all follow $\chi ^{2}_{1}$; for proof see [[Functions of random variables#Distribution, expectation, variance|here]]. But then $Y$ is a sum of $\chi ^{2}_{1}$ distributions. Using the proof above, we can state that $Y\sim \chi ^{2}_{N}$.
 
 > [!quote]- Extension to any normal
 > Say $X_{1},\ldots,X_{N}$ independently follow $\mathcal{N}(\mu_{i},\sigma ^{2}_{i})$. Then $(X_{i}-\mu_{i})/\sigma_{i}$ follow $\mathcal{N}(0,1)$. Then, the sum of these squares is $\chi_{N}^{2}$ as per the previous point. Therefore in general
