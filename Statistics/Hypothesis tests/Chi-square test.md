@@ -8,11 +8,11 @@ $$\begin{cases}
 H_{0}:&\mu_{i}=\mu_{0,i} \\
 H_{1}:&\mu_{i}\neq\mu_{0,i}
 \end{cases}\quad\forall i=1,\ldots,N$$
-We ask that each distribution individually has a mean equal to some value $\mu_{0,i}$. It is effectively $N$ simultaneous t-tests for $N$ separate Gaussians. Instead of testing that a mean equals a test mean, you are testing that a *vector* of means equals a *vector* of test means. The test [[statistic]] is
+We ask that each distribution individually has a mean equal to some value $\mu_{0,i}$. It is (almost) like $N$ simultaneous [[Gaussian parameter tests|Z-tests]] for $N$ separate Gaussians. Instead of testing that a mean equals a test mean, you are testing that a *vector* of means equals a *vector* of test means. The test [[statistic]] is
 $$T=\sum_{i=1}^{N} \frac{(X_{i}-\mu_{0,i})^{2}}{\sigma_{i}^{2}}\sim \chi ^{2}_{N}\tag{1}$$
 which follows a [[chi-square distribution]] with $N$ degrees of freedom. The critical region is defined as a one-tailed region for high values of $t$.
 
-The $\chi ^{2}$ test differs from the more typical parametric mean test because it does not require the Gaussian RVs to be iid. They can be differently distributed, so that all Gaussian distributions have different $\mu$ and $\sigma ^{2}$ parameters, and the test still applies. They also don't need to be [[Independent variables|independent]]; in fact, if the RVs are dependent on each other, the test still holds as long as we use the more general test statistic
+The $\chi ^{2}$ test differs from $N$ different applications of the Z-test because it does not require the Gaussian RVs to be iid and also considers correlations. They can be differently distributed, so that all Gaussian distributions have different $\mu$ and $\sigma ^{2}$ parameters, and the test still applies. They also don't need to be [[Independent variables|independent]]; in fact, if the RVs are dependent on each other, the test still holds as long as we use the more general test statistic
 $$T=(\mathbf{X}-\boldsymbol{\mu}_{0})^{T}\Sigma^{-1}(\mathbf{X}-\boldsymbol{\mu}_{0})\sim \chi_{N}^{2}$$
 where $\Sigma$ is the [[Covariance|covariance matrix]] of the RVs, $\mathbf{X}\equiv(X_{1},\ldots,X_{N})$ and $\boldsymbol{\mu}_{0}=(\mu_{0,1},\ldots,\mu_{0,N})$. It also follows the $\chi_{N}^{2}$ distribution and reduces to the previous form in the case independent variables.
 

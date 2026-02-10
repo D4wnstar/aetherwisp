@@ -18,7 +18,7 @@ If we $f(x)$ is a multiple of $g(x)$, so that $g(x)/f(x)=c$ for some constant $c
 $$\int_{a}^{b}g(x)\ dx=c\int _{a}^{b}f(x) \ dx =c$$
 In this case $\sigma ^{2}_{g/f}=0$. This gives a selection criterion to pick $f(x)$: it's whatever distribution is closest to the distribution of $g(x)$, i.e. the one that minimizes $\sigma ^{2}$.
 ### Examples
-> [!example] Standard normal integral
+> [!example]- Standard normal integral
 > Say to test the method we want to calculate the integral of a [[Gaussian distribution|standard normal distribution]] between $[-1,1]$. We have
 > $$\begin{align}
 > I&=\int_{-1}^{1} \frac{e^{-x^{2}/2}}{\sqrt{ 2\pi }}\ dx= 0.68268\ldots \\
