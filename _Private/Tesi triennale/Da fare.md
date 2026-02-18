@@ -9,6 +9,7 @@
 		- [x] 2.1 Caratteristiche osservative ✅ 2026-01-22
 		- [x] 2.2 Metallicità ✅ 2026-01-23
 		- [x] 2.3 Profili, mappe, particelle ✅ 2026-01-23
-- [ ] Ticchignare con amonra e snap
-- [ ] Creare una mappa della massa
-- [ ] Creare un profilo della massa
+- [x] Ticchignare con amonra e snap ✅ 2026-02-18
+- [x] Creare una mappa della massa ✅ 2026-02-18
+- [x] Creare un profilo della massa ✅ 2026-02-18
+- [x] Leggere correzioni tesi ✅ 2026-02-18
