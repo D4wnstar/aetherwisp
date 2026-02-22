@@ -14,24 +14,38 @@
 - [x] Creare un profilo della massa ✅ 2026-02-18
 - [x] Leggere correzioni tesi ✅ 2026-02-18
 - [x] Sistemare commenti ✅ 2026-02-19
+	- [ ] Sistemare nuovi commenti
 - [ ] Fare analisi dati metallicità
 - [ ] Scrivere capitolo 3
 - [ ] Rivedere e finalizzare tutto
 
-### Consigliongs
+## Analisi
 - [x] Esprimere metallicità in unità di metallicità solari ✅ 2026-02-20
-- [ ] Paragonare con masse built-in di subfind tipo $M_{500}$ entro $R_{500}$
+- [x] Paragonare con masse built-in di subfind tipo $M_{500}$ entro $R_{500}$ ✅ 2026-02-21
 - [x] Subfind ha la massa del gas nell'alone come MGAS, nello specifico: MGAS: Mass of gas in the six radii  RVIR / RMEA / R500 / RCRI / R5CC / R25K \[$10^{10} h^{-1} M_{\odot}$\] ✅ 2026-02-20
 - [ ] In capitolo 2: uno o più grafici di determinazioni osservative di metallicità
 - [ ] Aggiungere dati osservativi recenti di metallicità ai miei grafici per paragone e se accordo con realtà
 - [x] Grafici più chiari e leggibili ✅ 2026-02-20
-- [ ] Graficos
+- [ ] Grafici
 	- [x] Mappa di numero particelle ✅ 2026-02-20
 	- [x] Mappa di massa particelle ✅ 2026-02-20
 	- [x] Profilo densità di gas e massa totale ✅ 2026-02-20
 	- [x] Mappa di massa stellare ✅ 2026-02-20
-	- [ ] Profilo di massa e densità stellare
+	- [x] Mappa di metallicità ✅ 2026-02-21
+	- [x] Profilo di metallicità per tutte le sims + media ✅ 2026-02-21
+	- [x] Cambia intervalli bin da lineari a logaritmici ✅ 2026-02-22
+	- [x] Profili da mappe di metallicità gas e stelle ✅ 2026-02-22
+	- [ ] Deviazioni standard su profili
+	- [ ] Mappa metallicità delle stelle
+	- [ ] Condividere gli xlims e ylims tra grafici della stessa cosa
+	- [ ] Togliere i titoli prima di mettere grafici sulla tesi
 
-### Da chiedere
+### Domande
 - Che scale conviene usare per i grafici? Lineare, semilog, loglog?
-- Dove trovare dati per paragone
+	- Sempre in tema: conviene usare bin lineari o log in scala log?
+- Meglio media pesata per metallicità?
+- Unità di misura convenzionali?
+- Dove trovare dati per paragone e grafici di determinazioni osservative
+- Il centro dato da subfind è... fondo della buca gravitazionale?
+- Deviazione standard profili: come?
+- Qualche informazione in più sulla simulazione da cui arrivano i dati
