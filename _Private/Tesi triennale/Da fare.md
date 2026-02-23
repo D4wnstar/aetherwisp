@@ -35,7 +35,7 @@
 	- [x] Profilo di metallicità per tutte le sims + media ✅ 2026-02-21
 	- [x] Cambia intervalli bin da lineari a logaritmici ✅ 2026-02-22
 	- [x] Profili da mappe di metallicità gas e stelle ✅ 2026-02-22
-	- [ ] Deviazioni standard su profili
+	- [ ] Percentili su profili di media
 	- [ ] Mappa metallicità delle stelle
 	- [ ] Condividere gli xlims e ylims tra grafici della stessa cosa
 	- [ ] Togliere i titoli prima di mettere grafici sulla tesi
@@ -49,3 +49,17 @@
 - Il centro dato da subfind è... fondo della buca gravitazionale?
 - Deviazione standard profili: come?
 - Qualche informazione in più sulla simulazione da cui arrivano i dati
+
+### Appunti
+- Fare media mass-weighted
+- Nella selezione raggi per particelle, chiedere anche che abbiano temperatura maggiore di $0.5\ \text{keV}$ (blocco di temp in Kelvin; da convertire) e avere una CLDX (cold fraction) minore di 10%.
+- Fare anche plot profili da mappe binnando nei bin
+- Limitare la $z$ per la proiezione (e.g. 1-2 raggi viriali)
+- Aumentare il minimo dei plot log su asse $x$ a tipo $\log r/R_\text{vir}=0.005$.
+- Mettere densità in scala log
+- Graficare anche mediana/percentili 18/64 per medie di metallicità
+- Binnare $r/R_\text{vir}$ anziché $r$
+- Diagramma di fase densità vs. temp. Colorare le particelle che seleziono
+- Magari rifare i plot in $R_{500c}$. Mappe con $\pm 2-3 R_{500c}$ di lato
+- Centro è minimo di potenziale
+- Paper per le simulazioni: Bonafede et al. 2011
