@@ -39,27 +39,18 @@
 	- [ ] Mappa metallicità delle stelle
 	- [ ] Condividere gli xlims e ylims tra grafici della stessa cosa
 	- [ ] Togliere i titoli prima di mettere grafici sulla tesi
-
-### Domande
-- Che scale conviene usare per i grafici? Lineare, semilog, loglog?
-	- Sempre in tema: conviene usare bin lineari o log in scala log?
-- Meglio media pesata per metallicità?
-- Unità di misura convenzionali?
-- Dove trovare dati per paragone e grafici di determinazioni osservative
-- Il centro dato da subfind è... fondo della buca gravitazionale?
-- Deviazione standard profili: come?
-- Qualche informazione in più sulla simulazione da cui arrivano i dati
+	- [ ] Pesare il grafico metallicità per elemento con le metallicità solari per elemento
 
 ### Appunti
-- Fare media mass-weighted
-- Nella selezione raggi per particelle, chiedere anche che abbiano temperatura maggiore di $0.5\ \text{keV}$ (blocco di temp in Kelvin; da convertire) e avere una CLDX (cold fraction) minore di 10%.
-- Fare anche plot profili da mappe binnando nei bin
-- Limitare la $z$ per la proiezione (e.g. 1-2 raggi viriali)
-- Aumentare il minimo dei plot log su asse $x$ a tipo $\log r/R_\text{vir}=0.005$.
-- Mettere densità in scala log
-- Graficare anche mediana/percentili 18/64 per medie di metallicità
-- Binnare $r/R_\text{vir}$ anziché $r$
-- Diagramma di fase densità vs. temp. Colorare le particelle che seleziono
-- Magari rifare i plot in $R_{500c}$. Mappe con $\pm 2-3 R_{500c}$ di lato
-- Centro è minimo di potenziale
-- Paper per le simulazioni: Bonafede et al. 2011
+- [ ] Fare media mass-weighted per la metallicità
+- [ ] Nella selezione raggi per particelle, chiedere anche che abbiano temperatura maggiore di $0.5\ \text{keV}$ (blocco di temp in Kelvin; da convertire) e avere una CLDX (cold fraction) minore di 10%.
+- [ ] Fare anche plot profili da mappe binnando nei bin
+- [ ] Limitare la $z$ per la proiezione (e.g. 1-2 raggi viriali)
+- [ ] Aumentare il minimo dei plot log su asse $x$ a tipo $\log r/R_\text{vir}=0.005$.
+- [ ] Mettere densità in scala log
+- [ ] Graficare anche mediana/percentili 18/64 per medie di metallicità
+- [ ] Binnare $r/R_\text{vir}$ anziché $r$
+- [ ] Diagramma di fase densità vs. temp. Colorare le particelle che seleziono
+- [ ] Magari rifare i plot in $R_{500c}$. Mappe con $\pm 2-3 R_{500c}$ di lato
+- [ ] Centro è minimo di potenziale
+- [ ] Paper per le simulazioni: Bonafede et al. 2011
