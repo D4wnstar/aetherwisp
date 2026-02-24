@@ -18,6 +18,7 @@
 - [ ] Fare analisi dati metallicità
 - [ ] Scrivere capitolo 3
 - [ ] Rivedere e finalizzare tutto
+- [ ] Scrivere ringraziamenti
 
 ## Analisi
 - [x] Esprimere metallicità in unità di metallicità solari ✅ 2026-02-20
@@ -35,22 +36,25 @@
 	- [x] Profilo di metallicità per tutte le sims + media ✅ 2026-02-21
 	- [x] Cambia intervalli bin da lineari a logaritmici ✅ 2026-02-22
 	- [x] Profili da mappe di metallicità gas e stelle ✅ 2026-02-22
-	- [ ] Percentili su profili di media
-	- [ ] Mappa metallicità delle stelle
+	- [x] Percentili su profili di media ✅ 2026-02-24
+	- [x] Mappa metallicità delle stelle ✅ 2026-02-24
 	- [ ] Condividere gli xlims e ylims tra grafici della stessa cosa
 	- [ ] Togliere i titoli prima di mettere grafici sulla tesi
 	- [ ] Pesare il grafico metallicità per elemento con le metallicità solari per elemento
+	- [ ] Togli i `log` dalle label dei grafici
 
 ### Appunti
-- [ ] Fare media mass-weighted per la metallicità
-- [ ] Nella selezione raggi per particelle, chiedere anche che abbiano temperatura maggiore di $0.5\ \text{keV}$ (blocco di temp in Kelvin; da convertire) e avere una CLDX (cold fraction) minore di 10%.
-- [ ] Fare anche plot profili da mappe binnando nei bin
+- [x] Fare media mass-weighted per la metallicità ✅ 2026-02-24
+- [x] Nella selezione raggi per particelle, chiedere anche che abbiano temperatura maggiore di $0.5\ \text{keV}$ (blocco di temp in Kelvin; da convertire) e avere una CLDX (cold fraction) minore di 10%. ✅ 2026-02-24
+	- [ ] `metallicity_comparison` è rotta
+- [x] Diagramma di fase densità vs. temp. Colorare le particelle che seleziono ✅ 2026-02-24
+- [x] Fare anche plot profili da mappe binnando nei bin ✅ 2026-02-24
+	- [ ] Qualcosa probabilmente è rotto? I risultati non combaciano
 - [ ] Limitare la $z$ per la proiezione (e.g. 1-2 raggi viriali)
-- [ ] Aumentare il minimo dei plot log su asse $x$ a tipo $\log r/R_\text{vir}=0.005$.
-- [ ] Mettere densità in scala log
-- [ ] Graficare anche mediana/percentili 18/64 per medie di metallicità
-- [ ] Binnare $r/R_\text{vir}$ anziché $r$
-- [ ] Diagramma di fase densità vs. temp. Colorare le particelle che seleziono
-- [ ] Magari rifare i plot in $R_{500c}$. Mappe con $\pm 2-3 R_{500c}$ di lato
-- [ ] Centro è minimo di potenziale
+- [x] Aumentare il minimo dei plot log su asse $x$ a tipo $\log r/R_\text{vir}=0.005$. ✅ 2026-02-24
+- [x] Mettere densità in scala log ✅ 2026-02-24
+- [x] Graficare anche mediana/percentili 16/84 per medie di metallicità ✅ 2026-02-24
+- [x] Binnare $r/R_\text{vir}$ anziché $r$ ✅ 2026-02-24
+- [x] Magari rifare i plot in $R_{500c}$. Mappe con $\pm 2-3 R_{500c}$ di lato ✅ 2026-02-24
+- [x] Centro è minimo di potenziale ✅ 2026-02-24
 - [ ] Paper per le simulazioni: Bonafede et al. 2011
