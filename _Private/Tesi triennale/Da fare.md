@@ -15,8 +15,9 @@
 - [x] Leggere correzioni tesi ✅ 2026-02-18
 - [x] Sistemare commenti ✅ 2026-02-19
 	- [ ] Sistemare nuovi commenti
-- [ ] Fare analisi dati metallicità
+- [x] Fare analisi dati metallicità ✅ 2026-02-25
 - [ ] Scrivere capitolo 3
+	- [ ] Aggiungere paper amonra alla bibliografia
 - [ ] Rivedere e finalizzare tutto
 - [ ] Scrivere ringraziamenti
 
@@ -38,11 +39,11 @@
 	- [x] Profili da mappe di metallicità gas e stelle ✅ 2026-02-22
 	- [x] Percentili su profili di media ✅ 2026-02-24
 	- [x] Mappa metallicità delle stelle ✅ 2026-02-24
-	- [ ] Condividere gli xlims e ylims tra grafici della stessa cosa
 	- [ ] Togliere i titoli prima di mettere grafici sulla tesi
+		- [x] Chiedi ai relatori ✅ 2026-02-25
 	- [ ] Pesare il grafico metallicità per elemento con le metallicità solari per elemento
-		- [ ] Chiedi ai relatori come tirare fuori le frazioni di massa per elemento da Anders & Grevesse 1989
-	- [ ] Togli i `log` dalle label dei grafici
+		- [x] Chiedi ai relatori come tirare fuori le frazioni di massa per elemento da Anders & Grevesse 1989 ✅ 2026-02-25
+	- [x] Togli i `log` dalle label dei grafici ✅ 2026-02-25
 
 ### Appunti
 - [x] Fare media mass-weighted per la metallicità ✅ 2026-02-24
@@ -60,5 +61,6 @@
 - [x] Centro è minimo di potenziale ✅ 2026-02-24
 - [ ] Paper per le simulazioni: Bonafede et al. 2011
 
+- D7, D10, D18 e D26 non hanno snap 91. D28 ha un file corrotto.
 ### Questiongs
 - Nella mappa di massa delle stelle zoomata, tutti i punti sono galassie?
