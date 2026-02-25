@@ -41,7 +41,7 @@
 	- [x] Mappa metallicità delle stelle ✅ 2026-02-24
 	- [ ] Togliere i titoli prima di mettere grafici sulla tesi
 		- [x] Chiedi ai relatori ✅ 2026-02-25
-	- [ ] Pesare il grafico metallicità per elemento con le metallicità solari per elemento
+	- [x] Pesare il grafico metallicità per elemento con le metallicità solari per elemento ✅ 2026-02-25
 		- [x] Chiedi ai relatori come tirare fuori le frazioni di massa per elemento da Anders & Grevesse 1989 ✅ 2026-02-25
 	- [x] Togli i `log` dalle label dei grafici ✅ 2026-02-25
 
