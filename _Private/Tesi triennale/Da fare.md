@@ -41,16 +41,17 @@
 	- [ ] Condividere gli xlims e ylims tra grafici della stessa cosa
 	- [ ] Togliere i titoli prima di mettere grafici sulla tesi
 	- [ ] Pesare il grafico metallicità per elemento con le metallicità solari per elemento
+		- [ ] Chiedi ai relatori come tirare fuori le frazioni di massa per elemento da Anders & Grevesse 1989
 	- [ ] Togli i `log` dalle label dei grafici
 
 ### Appunti
 - [x] Fare media mass-weighted per la metallicità ✅ 2026-02-24
 - [x] Nella selezione raggi per particelle, chiedere anche che abbiano temperatura maggiore di $0.5\ \text{keV}$ (blocco di temp in Kelvin; da convertire) e avere una CLDX (cold fraction) minore di 10%. ✅ 2026-02-24
-	- [ ] `metallicity_comparison` è rotta
+	- [x] `metallicity_comparison` è rotta ✅ 2026-02-25
 - [x] Diagramma di fase densità vs. temp. Colorare le particelle che seleziono ✅ 2026-02-24
 - [x] Fare anche plot profili da mappe binnando nei bin ✅ 2026-02-24
 	- [ ] Qualcosa probabilmente è rotto? I risultati non combaciano
-- [ ] Limitare la $z$ per la proiezione (e.g. 1-2 raggi viriali)
+- [x] Limitare la $z$ per la proiezione (e.g. 1-2 raggi viriali) ✅ 2026-02-25
 - [x] Aumentare il minimo dei plot log su asse $x$ a tipo $\log r/R_\text{vir}=0.005$. ✅ 2026-02-24
 - [x] Mettere densità in scala log ✅ 2026-02-24
 - [x] Graficare anche mediana/percentili 16/84 per medie di metallicità ✅ 2026-02-24
@@ -58,3 +59,6 @@
 - [x] Magari rifare i plot in $R_{500c}$. Mappe con $\pm 2-3 R_{500c}$ di lato ✅ 2026-02-24
 - [x] Centro è minimo di potenziale ✅ 2026-02-24
 - [ ] Paper per le simulazioni: Bonafede et al. 2011
+
+### Questiongs
+- Nella mappa di massa delle stelle zoomata, tutti i punti sono galassie?
