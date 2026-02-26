@@ -17,7 +17,7 @@
 	- [ ] Sistemare nuovi commenti
 - [x] Fare analisi dati metallicità ✅ 2026-02-25
 - [ ] Scrivere capitolo 3
-	- [ ] Paper per le simulazioni: Bonafede et al. 2011
+	- [x] Paper per le simulazioni: Bonafede et al. 2011 ✅ 2026-02-26
 	- [ ] Aggiungere paper amonra alla bibliografia
 - [ ] Rivedere e finalizzare tutto
 - [ ] Scrivere ringraziamenti
@@ -40,12 +40,16 @@
 	- [x] Profili da mappe di metallicità gas e stelle ✅ 2026-02-22
 	- [x] Percentili su profili di media ✅ 2026-02-24
 	- [x] Mappa metallicità delle stelle ✅ 2026-02-24
-	- [ ] Togliere i titoli prima di mettere grafici sulla tesi
+	- [ ] Cambiare/togliere i titoli prima di mettere grafici sulla tesi
 		- [x] Chiedi ai relatori ✅ 2026-02-25
 	- [x] Pesare il grafico metallicità per elemento con le metallicità solari per elemento ✅ 2026-02-25
 		- [x] Chiedi ai relatori come tirare fuori le frazioni di massa per elemento da Anders & Grevesse 1989 ✅ 2026-02-25
 		- [ ] Aggiorna metallicità totale solare a Asplund 2009
 	- [x] Togli i `log` dalle label dei grafici ✅ 2026-02-25
+	- [ ] Ingrandire le label, i titoli e i ticks
+	- [ ] Rendere il cerchio di $R_{500c}$ nelle mappe più visibile
+	- [ ] Forza gli stessi xlims e ylims e dimensioni sulle mappe
+	- [ ] Combina grafici profili D1 in un unico grafico con tutti e 3
 
 ### Appunti
 - [x] Fare media mass-weighted per la metallicità ✅ 2026-02-24
