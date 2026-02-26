@@ -68,24 +68,22 @@ Lo scopo dell'introduzione è dare tutte le basi teoriche necessarie per capire 
 		* Universalità, piattezza delle code e invarianza evolutiva ($z \sim 2$ a oggi).
 
 3. **Analisi**
-	1. *Dati utilizzati*
-		* Nome del set di dati, volume della scatola, risoluzione (massa particella, forza softening $\epsilon$), cosmologia sottostante.
-		* Snapshot utilizzata e redshift d'interesse ($z=0$).
+	1. *Dati e simulazioni utilizzati*
+		* Nome del set di dati, volume della box, risoluzione (massa particella, softening $\epsilon$), cosmologia sottostante.
+		* Snapshot utilizzate e redshift d'interesse ($z=0$).
 		* Fisica inclusa nel codice di simulazione (quali modelli di feedback/raffreddamento sono attivi).
 	2. *Metodo di analisi*
-		* Linguaggio usato e librerie (Python, SMAC, ecc.).
-		* Definizione delle quantità (es. $R_{500}$, $R_{200}$).
-		* Identificazione degli ammassi: Strumento utilizzato per trovare gli aloni (SUBFIND), criteri di selezione.
-		* Algoritmo di binning (lineare, logaritmico).
+		* Linguaggio usato e librerie (Python, ecc.).
+		* Definizione delle quantità (es. $R_{500c}$, $R_\text{vir}$).
+		* Identificazione degli ammassi: Strumento utilizzato per trovare gli aloni (SUBFIND), criteri di selezione delle particelle.
+		* Binning (lineare, logaritmico).
 		* Gestione delle particelle di gas (ICM) e delle stelle.
 	3. *Risultati e discussione*
-		* Presentazione dei profili, grafici di $Z(r)$ vs $r/R_{500}$.
+		* Presentazione dei profili, grafici di $Z(r)$ vs $r/R_{500c}$.
 		* Analisi delle tendenze, dipendenza dalla massa/temperatura, andamento delle code.
-		* Validazione dei modelli di feedback (stellare vs AGN) e del pre-arricchimento sulla base dei risultati ottenuti.
 		* I profili concordano con le misure X?
 
 4. **Conclusioni**
 	* Riassunto dei risultati principali ottenuti dall'analisi dei profili radiali.
 	* Implicazioni cosmologiche/astrofisiche (es. conferma del ruolo dominante del pre-arricchimento o dell'efficienza dell'AGN).
 	* Limitazioni dello studio (risoluzione della simulazione, fisica non inclusa).
-	* Sviluppi futuri (miglioramenti della risoluzione, inclusione di nuova fisica nei modelli).

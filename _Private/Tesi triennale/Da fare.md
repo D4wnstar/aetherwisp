@@ -17,6 +17,7 @@
 	- [ ] Sistemare nuovi commenti
 - [x] Fare analisi dati metallicità ✅ 2026-02-25
 - [ ] Scrivere capitolo 3
+	- [ ] Paper per le simulazioni: Bonafede et al. 2011
 	- [ ] Aggiungere paper amonra alla bibliografia
 - [ ] Rivedere e finalizzare tutto
 - [ ] Scrivere ringraziamenti
@@ -43,6 +44,7 @@
 		- [x] Chiedi ai relatori ✅ 2026-02-25
 	- [x] Pesare il grafico metallicità per elemento con le metallicità solari per elemento ✅ 2026-02-25
 		- [x] Chiedi ai relatori come tirare fuori le frazioni di massa per elemento da Anders & Grevesse 1989 ✅ 2026-02-25
+		- [ ] Aggiorna metallicità totale solare a Asplund 2009
 	- [x] Togli i `log` dalle label dei grafici ✅ 2026-02-25
 
 ### Appunti
@@ -51,7 +53,7 @@
 	- [x] `metallicity_comparison` è rotta ✅ 2026-02-25
 - [x] Diagramma di fase densità vs. temp. Colorare le particelle che seleziono ✅ 2026-02-24
 - [x] Fare anche plot profili da mappe binnando nei bin ✅ 2026-02-24
-	- [ ] Qualcosa probabilmente è rotto? I risultati non combaciano
+	- [x] Qualcosa probabilmente è rotto? I risultati non combaciano ✅ 2026-02-26
 - [x] Limitare la $z$ per la proiezione (e.g. 1-2 raggi viriali) ✅ 2026-02-25
 - [x] Aumentare il minimo dei plot log su asse $x$ a tipo $\log r/R_\text{vir}=0.005$. ✅ 2026-02-24
 - [x] Mettere densità in scala log ✅ 2026-02-24
@@ -59,7 +61,6 @@
 - [x] Binnare $r/R_\text{vir}$ anziché $r$ ✅ 2026-02-24
 - [x] Magari rifare i plot in $R_{500c}$. Mappe con $\pm 2-3 R_{500c}$ di lato ✅ 2026-02-24
 - [x] Centro è minimo di potenziale ✅ 2026-02-24
-- [ ] Paper per le simulazioni: Bonafede et al. 2011
 
 - D7, D10, D18 e D26 non hanno snap 91. D28 ha un file corrotto.
 ### Questiongs
