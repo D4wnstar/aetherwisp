@@ -75,11 +75,14 @@ Lo scopo dell'introduzione è dare tutte le basi teoriche necessarie per capire 
 	2. *Metodo di analisi*
 		* Linguaggio usato e librerie (Python, ecc.).
 		* Definizione delle quantità (es. $R_{500c}$, $R_\text{vir}$).
-		* Identificazione degli ammassi: Strumento utilizzato per trovare gli aloni (SUBFIND), criteri di selezione delle particelle.
-		* Binning (lineare, logaritmico).
-		* Gestione delle particelle di gas (ICM) e delle stelle.
+		* Metodologia dei profili.
+			* Binning (lineare, logaritmico).
+			* Shell/cilindri/pixel.
+		* Criteri di selezione delle particelle (temp/cold fraction/$z$ cut).
+		* Media pesata per massa.
+		* Unità in metallicità solare (Anders & Grevesse 1989, Asplund et al. 2009)
 	3. *Risultati e discussione*
-		* Presentazione dei profili, grafici di $Z(r)$ vs $r/R_{500c}$.
+		* Presentazione dei profili e mappe, mostrare tutti i grafici.
 		* Analisi delle tendenze, dipendenza dalla massa/temperatura, andamento delle code.
 		* I profili concordano con le misure X?
 
