@@ -16,7 +16,7 @@
 - [x] Sistemare commenti ✅ 2026-02-19
 	- [ ] Sistemare nuovi commenti
 - [x] Fare analisi dati metallicità ✅ 2026-02-25
-- [ ] Scrivere capitolo 3
+- [x] Scrivere capitolo 3 ✅ 2026-02-27
 	- [x] Paper per le simulazioni: Bonafede et al. 2011 ✅ 2026-02-26
 	- [ ] Aggiungere paper amonra alla bibliografia
 - [ ] Rivedere e finalizzare tutto
@@ -29,7 +29,7 @@
 - [ ] In capitolo 2: uno o più grafici di determinazioni osservative di metallicità
 - [ ] Aggiungere dati osservativi recenti di metallicità ai miei grafici per paragone e se accordo con realtà
 - [x] Grafici più chiari e leggibili ✅ 2026-02-20
-- [ ] Grafici
+- [x] Grafici ✅ 2026-02-27
 	- [x] Mappa di numero particelle ✅ 2026-02-20
 	- [x] Mappa di massa particelle ✅ 2026-02-20
 	- [x] Profilo densità di gas e massa totale ✅ 2026-02-20
@@ -40,16 +40,17 @@
 	- [x] Profili da mappe di metallicità gas e stelle ✅ 2026-02-22
 	- [x] Percentili su profili di media ✅ 2026-02-24
 	- [x] Mappa metallicità delle stelle ✅ 2026-02-24
-	- [ ] Cambiare/togliere i titoli prima di mettere grafici sulla tesi
+	- [x] Cambiare/togliere i titoli prima di mettere grafici sulla tesi ✅ 2026-02-27
 		- [x] Chiedi ai relatori ✅ 2026-02-25
 	- [x] Pesare il grafico metallicità per elemento con le metallicità solari per elemento ✅ 2026-02-25
 		- [x] Chiedi ai relatori come tirare fuori le frazioni di massa per elemento da Anders & Grevesse 1989 ✅ 2026-02-25
-		- [ ] Aggiorna metallicità totale solare a Asplund 2009
+		- [x] Aggiorna metallicità totale solare a Asplund 2009 ✅ 2026-02-27
 	- [x] Togli i `log` dalle label dei grafici ✅ 2026-02-25
-	- [ ] Ingrandire le label, i titoli e i ticks
-	- [ ] Rendere il cerchio di $R_{500c}$ nelle mappe più visibile
-	- [ ] Forza gli stessi xlims e ylims e dimensioni sulle mappe
-	- [ ] Combina grafici profili D1 in un unico grafico con tutti e 3
+	- [x] Ingrandire le label, i titoli e i ticks ✅ 2026-02-27
+	- [x] Rendere il cerchio di $R_{500c}$ nelle mappe più visibile ✅ 2026-02-27
+	- [x] Forza gli stessi xlims e ylims e dimensioni sulle mappe ✅ 2026-02-27
+	- [x] Combina grafici profili D1 in un unico grafico con tutti e 3 ✅ 2026-02-27
+	- [x] Controllare i limiti delle mappe usate per i profili ✅ 2026-02-27
 
 ### Appunti
 - [x] Fare media mass-weighted per la metallicità ✅ 2026-02-24
@@ -69,3 +70,6 @@
 - D7, D10, D18 e D26 non hanno snap 91. D28 ha un file corrotto.
 ### Questiongs
 - Nella mappa di massa delle stelle zoomata, tutti i punti sono galassie?
+### Conclusioni
+- Nel profilo 3D, media e mediana differiscono verso il centro: outliers?
+- Profili 3D, 2D e da mappe non sono equivalenti. Quelli 2D e da mappe tra di loro sì, dato che un profilo da mappa logicamente usa gli stessi dati di quello 2D, ma binnati. Il profilo da mappe è un'approssimazione di quello 2D. Quello 3D pare catturare comportamenti che sono persi negli altri due, presumibilmente per effetti di proiezione.
