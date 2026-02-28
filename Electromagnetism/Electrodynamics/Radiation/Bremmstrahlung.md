@@ -7,7 +7,7 @@ and the total radiant power emitted is
 $$P=\frac{\mu_{0}q^{2}a^{2}\gamma^{6}}{6\pi c}$$
 where $\gamma=1/\sqrt{ 1-v^{2}/c^{2} }$ is the usual [[Lorentz transformation|relativistic]] coefficient.
 ### Derivation
-Consider a point charge moving in the same direction it is accelerating in, such that $\mathbf{v}$ and $\mathbf{a}$ are collinear at some [[retarded time]] $t_{r}$. We care about the angular distribution of the [[radiant power]] emitted, so use the [[Larmor formula]] in the Liénard generalization, specifically its [[solid angle]]
+Consider a point charge moving in the same direction it is accelerating in, such that $\mathbf{v}$ and $\mathbf{a}$ are collinear at some [[retarded time]] $t_{r}$. We care about the angular distribution of the [[radiant power]] emitted, so we use the [[Larmor formula]] in the Liénard generalization, specifically its [[solid angle]]
 $$\frac{dP}{d\Omega}=\frac{q^{2}}{16\pi ^{2}\varepsilon_{0}} \frac{\lvert \hat{\boldsymbol{\mathfrak{r}}}\times(\mathbf{u}\times \mathbf{a}) \rvert ^{2}}{(\hat{\boldsymbol{\mathfrak{r}}}\cdot \mathbf{u})^{5}}$$
 Since $\mathbf{u}=c \hat{\boldsymbol{\mathfrak{r}}}-\mathbf{v}$ and $\mathbf{v}$ is collinear with $\mathbf{a}$, we get $\mathbf{u}\times \mathbf{a}=c(\hat{\boldsymbol{\mathfrak{r}}}\times \mathbf{a})-\cancel{ \mathbf{v}\times \mathbf{a} }$. Also $\hat{\boldsymbol{\mathfrak{r}}}\cdot \mathbf{u}=c-\hat{\boldsymbol{\mathfrak{r}}}\cdot \mathbf{v}$. Thus
 $$\frac{dP}{d\Omega}=\frac{q^{2}}{16\pi ^{2}\varepsilon_{0}} \frac{\lvert \hat{\boldsymbol{\mathfrak{r}}}\times(\hat{\boldsymbol{\mathfrak{r}}}\times \mathbf{a}) \rvert ^{2}}{(c-\hat{\boldsymbol{\mathfrak{r}}}\cdot \mathbf{v})^{5}}$$
@@ -28,6 +28,6 @@ $$P=\frac{\mu_{0}q^{2}a^{2}}{8\pi c}\int_{-1}^{1} \frac{1-x^{2}}{(1-\beta x)^{5}
 We then [[integration by parts|integrate by parts]] on numerator and denominator, which results in $\frac{4}{3}(1-\beta ^{2})^{-3}$, and so
 $$P=\frac{\mu_{0}q^{2}a^{2}\gamma^{6}}{6\pi c}$$
 ### In detectors
-For an [[electron]], the [[Particle]] process of bremmstrahlung due to some [[Atomic nucleus]] $^{A}_{Z}X$ is
-$$e^{-}+\ _{Z}^{A}X \rightarrow e^{-}+\gamma+\ _{Z}^{A}X$$
+For an [[electron]], the [[Particle]] process of bremmstrahlung due to some [[Atomic nucleus]] $\ce{^{A}_{Z}X}$ is
+$$\ce{e^{-} + _{Z}^{A}X -> e^{-} + \gamma\ + _{Z}^{A}X}$$
 It consists of the emission of a [[Photon]] with no change on the electron or the nucleus. The effects are largely kinematic and cause the deflection of the electron. This is useful in [[detector]] physics, where bremmstrahlung is the primary cause of energy loss for light particles traversing matter (also see [[Stopping power]]).

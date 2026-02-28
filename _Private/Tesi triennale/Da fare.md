@@ -14,19 +14,25 @@
 - [x] Creare un profilo della massa ✅ 2026-02-18
 - [x] Leggere correzioni tesi ✅ 2026-02-18
 - [x] Sistemare commenti ✅ 2026-02-19
-	- [ ] Sistemare nuovi commenti
+	- [x] Sistemare nuovi commenti ✅ 2026-02-28
 - [x] Fare analisi dati metallicità ✅ 2026-02-25
 - [x] Scrivere capitolo 3 ✅ 2026-02-27
 	- [x] Paper per le simulazioni: Bonafede et al. 2011 ✅ 2026-02-26
-	- [ ] Aggiungere paper amonra alla bibliografia
 - [ ] Rivedere e finalizzare tutto
+	- [x] Introduzione ✅ 2026-02-28
+	- [x] Capitolo 1 ✅ 2026-02-28
+	- [x] Capitolo 2 ✅ 2026-02-28
+		- [ ] Grafico di spettro di emissione (?)
+		- [ ] Grafico di determinazioni/profili osservativi di metallicità
+	- [ ] Capitolo 3
+		- [ ] Aggiungere linea vertical grav softening a 20 kpc/h per denotare limite di force resolution
+	- [ ] Conclusione
 - [ ] Scrivere ringraziamenti
 
 ## Analisi
 - [x] Esprimere metallicità in unità di metallicità solari ✅ 2026-02-20
 - [x] Paragonare con masse built-in di subfind tipo $M_{500}$ entro $R_{500}$ ✅ 2026-02-21
 - [x] Subfind ha la massa del gas nell'alone come MGAS, nello specifico: MGAS: Mass of gas in the six radii  RVIR / RMEA / R500 / RCRI / R5CC / R25K \[$10^{10} h^{-1} M_{\odot}$\] ✅ 2026-02-20
-- [ ] In capitolo 2: uno o più grafici di determinazioni osservative di metallicità
 - [ ] Aggiungere dati osservativi recenti di metallicità ai miei grafici per paragone e se accordo con realtà
 - [x] Grafici più chiari e leggibili ✅ 2026-02-20
 - [x] Grafici ✅ 2026-02-27
@@ -68,8 +74,6 @@
 - [x] Centro è minimo di potenziale ✅ 2026-02-24
 
 - D7, D10, D18 e D26 non hanno snap 91. D28 ha un file corrotto.
-### Questiongs
-- Nella mappa di massa delle stelle zoomata, tutti i punti sono galassie?
 ### Conclusioni
 - Nel profilo 3D, media e mediana differiscono verso il centro: outliers?
 - Profili 3D, 2D e da mappe non sono equivalenti. Quelli 2D e da mappe tra di loro sì, dato che un profilo da mappa logicamente usa gli stessi dati di quello 2D, ma binnati. Il profilo da mappe è un'approssimazione di quello 2D. Quello 3D pare catturare comportamenti che sono persi negli altri due, presumibilmente per effetti di proiezione.
