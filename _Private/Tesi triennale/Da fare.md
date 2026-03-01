@@ -22,18 +22,23 @@
 	- [x] Introduzione ✅ 2026-02-28
 	- [x] Capitolo 1 ✅ 2026-02-28
 	- [x] Capitolo 2 ✅ 2026-02-28
-		- [ ] Grafico di spettro di emissione (?)
-		- [ ] Grafico di determinazioni/profili osservativi di metallicità
+		- [x] Grafico di determinazioni/profili osservativi di metallicità ✅ 2026-03-01
 	- [ ] Capitolo 3
-		- [ ] Aggiungere linea vertical grav softening a 20 kpc/h per denotare limite di force resolution
-	- [ ] Conclusione
+		- [x] Aggiungere linea vertical grav softening a 20 kpc/h per denotare limite di force resolution ✅ 2026-03-01
+		- [x] Menzionare il limite di risoluzione nel testo ✅ 2026-03-01
+		- [x] Uniformare grandezze plot medie/mediane ✅ 2026-03-01
+		- [x] Impostare scala di colore mappe metallicità evitando max spuri ✅ 2026-03-01
+		- [x] Dare un'interpretazione del picco 3D ✅ 2026-03-01
+		- [x] Dare un'interpretazione della dispersione di profili vicino al centro ✅ 2026-03-01
+		- [ ] Controllare perché un paio di profili da mappe esplodono
+		- [ ] Aggiungere dati X-COP ai miei grafici per paragone e se accordo con realtà
+	- [x] Conclusione ✅ 2026-03-01
 - [ ] Scrivere ringraziamenti
 
 ## Analisi
 - [x] Esprimere metallicità in unità di metallicità solari ✅ 2026-02-20
 - [x] Paragonare con masse built-in di subfind tipo $M_{500}$ entro $R_{500}$ ✅ 2026-02-21
 - [x] Subfind ha la massa del gas nell'alone come MGAS, nello specifico: MGAS: Mass of gas in the six radii  RVIR / RMEA / R500 / RCRI / R5CC / R25K \[$10^{10} h^{-1} M_{\odot}$\] ✅ 2026-02-20
-- [ ] Aggiungere dati osservativi recenti di metallicità ai miei grafici per paragone e se accordo con realtà
 - [x] Grafici più chiari e leggibili ✅ 2026-02-20
 - [x] Grafici ✅ 2026-02-27
 	- [x] Mappa di numero particelle ✅ 2026-02-20
