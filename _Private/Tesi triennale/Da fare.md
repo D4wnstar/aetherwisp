@@ -18,22 +18,22 @@
 - [x] Fare analisi dati metallicità ✅ 2026-02-25
 - [x] Scrivere capitolo 3 ✅ 2026-02-27
 	- [x] Paper per le simulazioni: Bonafede et al. 2011 ✅ 2026-02-26
-- [ ] Rivedere e finalizzare tutto
+- [x] Rivedere e finalizzare tutto ✅ 2026-03-02
 	- [x] Introduzione ✅ 2026-02-28
 	- [x] Capitolo 1 ✅ 2026-02-28
 	- [x] Capitolo 2 ✅ 2026-02-28
 		- [x] Grafico di determinazioni/profili osservativi di metallicità ✅ 2026-03-01
-	- [ ] Capitolo 3
+	- [x] Capitolo 3 ✅ 2026-03-02
 		- [x] Aggiungere linea vertical grav softening a 20 kpc/h per denotare limite di force resolution ✅ 2026-03-01
 		- [x] Menzionare il limite di risoluzione nel testo ✅ 2026-03-01
 		- [x] Uniformare grandezze plot medie/mediane ✅ 2026-03-01
 		- [x] Impostare scala di colore mappe metallicità evitando max spuri ✅ 2026-03-01
 		- [x] Dare un'interpretazione del picco 3D ✅ 2026-03-01
 		- [x] Dare un'interpretazione della dispersione di profili vicino al centro ✅ 2026-03-01
-		- [ ] Controllare perché un paio di profili da mappe esplodono
-		- [ ] Aggiungere dati X-COP ai miei grafici per paragone e se accordo con realtà
+		- [x] Controllare perché un paio di profili da mappe esplodono ✅ 2026-03-02
+		- [x] Aggiungere dati X-COP ai miei grafici per paragone e se accordo con realtà ✅ 2026-03-02
 	- [x] Conclusione ✅ 2026-03-01
-- [ ] Scrivere ringraziamenti
+- [x] Scrivere ringraziamenti ✅ 2026-03-02
 
 ## Analisi
 - [x] Esprimere metallicità in unità di metallicità solari ✅ 2026-02-20
