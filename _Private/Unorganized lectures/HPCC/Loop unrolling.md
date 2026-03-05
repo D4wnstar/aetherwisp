@@ -1,0 +1,4 @@
+---
+wiki-publish: true
+---
+**Loop unrolling** is a fundamental code transformation that can significantly improve performance by reducing loop overhead, exposing the critical data path and dependencies, and helping in exploiting [[ILP]]. At a high level, loop unrolling essentially consists of completely replacing a loop with an equivalent SIMD [[vectorization|vectorized]] operation.
