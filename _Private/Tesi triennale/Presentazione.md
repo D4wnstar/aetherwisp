@@ -1,3 +1,30 @@
 ---
 wiki-publish: true
 ---
+- Decina di slide, un minuto e mezzo ciascuna (~15-20 minuti tot.)
+- *Scopo*: presentare il lavoro della tesi
+- *Risultato finale*: profili osservativi vanno trattati con cura perché non sono direttamente rappresentativi dei profili radiali sferici a causa di effetti di proiezione
+- *In dettaglio*: i profili osservativi sono sottostime e non catturano il comportamento del nucleo (manca un picco, dispersione troppo bassa, outliers non hanno grande effetto). Inoltre, non combaciano con le osservazioni reali al di fuori del nucleo (decrescono troppo)
+
+Flow:
+- Introduci gli ammassi di galassie
+- Introduci il problema (comprendere la complessità dei processi astrofisici interni; come? Tramite traccianti dei processi)
+- Specifica i processi stellari e associati all'ICM (formazione stellare, feedback SN/venti galattici, feedback AGN, shock, ram pressure stripping...)
+- Introduci la metallicità come tracciante di fenomeni stellari (perché i metalli si formano durante il ciclo di vita di una stella). Grafico simpatico di loop tra "fenomeni astrofisici" e "metallicità"
+- Afferma che la metallicità ci dà i dati per testare e porre vincoli sui nostri modelli di processi astrofisici... ma come? Mica possiamo portare un ammasso in lab...
+- ...ma su un computer sì! (Budget a parte...) Le simulazioni cosmologiche sono un ottimo strumento per testare le nostre ipotesi sui modelli
+- Dobbiamo però fare attenzione che i risultati delle sims siano rappresentativi delle osservazioni, se no rischiamo di trarre conclusioni sbagliate (e.g., assumere che i nostri modelli siano sbagliati quando in realtà abbiamo solo equiparato due cose che uguali non sono)
+- Cosa otteniamo dunque dalle sims? Particelle in uno spazio 3D. Cosa otteniamo invece dalle osservazioni? Mappe 2D a risoluzione limitata (per risoluzione s'intende i pixel, che le sims non hanno. Anche le sims hanno una risoluzione ma è un concetto diverso)
+- Concettualmente sono dati diversi, quindi è ragionevole attendersi conclusioni diverse. Però questo è qualitativo; vogliamo numeri concreti
+- Allora paragoniamoli! Introduci il profilo radiale di metallicità (assumendo simmetria sferica), e che ci sono più modi per crearne uno: allora facciamoli tutti e vediamo come si paragonano
+- Presenta sims usate e profili calcolati su di essi
+- Mostra differenze tra profili 3D e da mappa e discuti che siano dovuti a effetti di proiezione (magari con una grafica carina)
+- Mostra differenze tra profili da mappa simulata e da X-COP e discuti che dimostrino che la simulazione non sia esattamente 1:1 con la realtà: quello che volevamo! Abbiamo scoperto un problema nei nostri modelli grazie alla metallicità
+
+Slide:
+1. Titolo
+2. Presentazione ammassi di galassie (definizione, componenti)
+3. Complessità e panoramica processi associati
+4. Come 3, ma con processi stellari evidenziati
+5. Metallicità: cos'è, come ci aiuta, freccia da processi stellari/ICM a metallicità
+6. Come 5, ma con la freccia e un punto di domanda da metallicità a processi stellari/ICM
