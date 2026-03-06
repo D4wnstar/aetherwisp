@@ -28,3 +28,5 @@ Slide:
 4. Come 3, ma con processi stellari evidenziati
 5. Metallicità: cos'è, come ci aiuta, freccia da processi stellari/ICM a metallicità
 6. Come 5, ma con la freccia e un punto di domanda da metallicità a processi stellari/ICM
+7. Usi come test e vincolo per modelli di processi astrofisici... ma come li testiamo? In lab non ci sta un ammasso di galassie...
+8. Ma su un computer sì! Intro alle sims cosmo
