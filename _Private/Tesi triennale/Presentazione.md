@@ -30,12 +30,11 @@ Slide:
 6. Come 5, ma con la freccia e un punto di domanda da metallicità a processi stellari/ICM
 7. Usi come test e vincolo per modelli di processi astrofisici... ma come li testiamo? In lab non ci sta un ammasso di galassie...
 8. Ma su un computer sì! Intro alle sims cosmo
-9. Attenzione che i dati di una sim non hanno la stessa forma dei dati osservativi (particelle vs. mappe; grafico di una distribuzione di particelle e una mappa)
-10. Quindi ragionevole che le conclusioni siano anche diverse
-11. Negli ammassi, un risultato comune è un profilo radiale di una quantità, $Q(r)$ vs. $r$, assumendo simmetria sferica (grafico da paper di qualche profilo)
-12. Ma ci sono più modi per crearne uno: 3D, 2D, da mappe. Quelli da mappe sono quelli sperimentali. Quelli 3D quelli da simulazioni. Allora paragoniamoli.
-13. Usiamo un set di 24 sims di ammassi e li usiamo come campione statistico per paragonare i profili 3D e da mappe della metallicità (qualche mappa panoramica)
-14. Grafici medie/mediane/singoli per i tre tipi di profilo
-15. Paragone medie e differenze, specie tra 3D e da mappa, interpretazione
-16. Paragone mediane con dati sperimentali, specie tra mappa e dati, interpretazione
-17. Conclusione: nonostante tutto, abbiamo scoperto una mancanza grazie alla metallicità
+9. Attenzione che i dati di una sim non hanno la stessa forma dei dati osservativi (particelle vs. mappe; grafico di una distribuzione di particelle e una mappa), quindi ragionevole che le conclusioni siano anche diverse
+10. Negli ammassi, un risultato comune è un profilo radiale di una quantità, $Q(r)$ vs. $r$, assumendo simmetria sferica (grafico da paper di qualche profilo)
+11. Ma ci sono più modi per crearne uno: 3D, 2D, da mappe. Quelli da mappe sono quelli sperimentali. Quelli 3D quelli da simulazioni. Allora paragoniamoli.
+12. Usiamo un set di 24 sims di ammassi e li usiamo come campione statistico per paragonare i profili 3D e da mappe della metallicità (qualche mappa panoramica)
+13. Grafici medie/mediane/singoli per i tre tipi di profilo
+14. Paragone medie e differenze, specie tra 3D e da mappa, interpretazione
+15. Paragone mediane con dati sperimentali, specie tra mappa e dati, interpretazione
+16. Conclusione: nonostante tutto, abbiamo scoperto una mancanza grazie alla metallicità
