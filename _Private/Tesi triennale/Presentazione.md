@@ -1,6 +1,3 @@
----
-wiki-publish: true
----
 - Decina di slide, un minuto e mezzo ciascuna (~15-20 minuti tot.)
 - *Scopo*: presentare il lavoro della tesi
 - *Risultato finale*: profili osservativi vanno trattati con cura perché non sono direttamente rappresentativi dei profili radiali sferici a causa di effetti di proiezione

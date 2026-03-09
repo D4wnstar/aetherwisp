@@ -1,6 +1,3 @@
----
-wiki-publish: true
----
 **Arithmetic intensity** is the ratio between the number of operations performed by a computer $f(n)$ and the amount of data processed by those operations $n$:
 $$A_{I}=\frac{f(n)}{n}$$
 It is usually measured in FLOPS/byte. It is a useful metric for code optimization. Ideally, arithmetic intensity should be as small as possible without sacrificing correctness (fewest operations per unit data).

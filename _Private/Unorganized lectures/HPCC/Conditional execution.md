@@ -1,6 +1,3 @@
----
-wiki-publish: true
----
 **Conditional execution** or **branching** is the process whereby some machine instruction are only executed under certain circumstances. At a high level, this typically maps to logical branches like `if-else` statements. At an [[assembly]] level, certain instructions are conditional by definition. For example, `je` and `jne` are both conditional instructions.
 
 Conditional execution requires a way to altering the execution flow: this is done through the **jump instruction** `jmp`, which causes control to be passed to a different code section. `jmp` may be itself conditional. Conditional instructions access the values stored in the bits of the flag register, a special register where the CPU stores some information on the last arithmetic or logical operation.
