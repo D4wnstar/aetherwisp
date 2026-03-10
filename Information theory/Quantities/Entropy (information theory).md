@@ -7,12 +7,12 @@ aliases:
   - Boltzmann entropy
 ---
 In information theory, the **entropy** $H_{X}$ or $H(X)$ of a discrete [[Random variable]] $X$ defined in the [[sample space]] $\mathcal{X}$ and following some [[Probability distribution]] described by the [[Probability mass function]] $p(x)$, is
-$$H_{X}=-\sum_{x \in \mathcal{X}}p(x)\log_{2}p(x) $$
-It is often called **Shannon entropy** due to it being originally introduced by Claude Shannon. If the [[Probability]] is encoded in a [[Matrice di densità|density matrix]] $\hat{\rho}$, we can alternatively write
+$$H_{X}=\mathrm{E}[-\log p(x)]=-\sum_{x \in \mathcal{X}}p(x)\log p(x)$$
+where $\mathrm{E}$ is the [[expected value]] and $-\log p(x)$ is called **self-information**. It is hence the expectation of the self-information. It is often called **Shannon entropy** due to it being originally introduced by Claude Shannon. If the [[Probability]] is encoded in a [[Matrice di densità|density matrix]] $\hat{\rho}$, we can alternatively write
 $$H=-\text{Tr}(\hat{\rho}\log_{2} \hat{\rho})$$
 using the [[Traccia|trace]].
 
-Strictly speaking, the base of the logarithm is arbitrary and may be any real number. Base two is the most common choice as it encodes the idea of "true or false" outcomes and is measured in **bits**. In physics, however, base $e$ (i.e. $\ln$) is the more common choice as it spontaneously arises in nature. Entropy in base $e$ is measured in **nats**.
+The base of the logarithm is arbitrary and may be any real number. Base two is the most common choice as it encodes the idea of "true or false" outcomes and is measured in **bits**. In physics, base $e$ (i.e. $\ln$) is a common choice as it spontaneously arises in nature. Entropy in base $e$ is measured in **nats**.
 ### Interpretation
 Shannon entropy can be described as a measure of the uncertainty of $X$. $H$ can be seen as  a sort of "missing information" or as a measure of "surprisingness" : the greater the entropy, the less information I have about $X$ a priori and the more unexpected the result is going to be. For instance, if $X$ only has one possible value, entropy is zero as there is no uncertainty; I already know everything that there is to know about $X$.
 ### Joint entropy
