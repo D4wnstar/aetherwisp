@@ -2,6 +2,11 @@
 wiki-publish: true
 aliases:
   - DBMS
+  - data definition language
+  - DDL
+  - data modeling language
+  - DML
+  - query language
 ---
 A **database management system** (**DBMS**) is a software system meant to manage and operate on [[database|databases]], usually considered alongside the data itself. They handle interrelated data by providing all the tools required to read and write the data in a structured, reliable, convenient and efficient manner. The basic operation done with a DBMS is called a **query**. For example, reading some data, appending new data, deleting existing data and joining related data from different sources are typical database queries.
 
@@ -19,3 +24,9 @@ In the early days, data management systems were built directly on top of the reg
 - Security becomes difficult to enforce. File access controls (i.e., read/write/execute permissions) are provided by the file system, but this requires the DBMS to be totally reliant on OS administration, which is not in general reasonable. You cannot define database permissions separately from regular file permissions.
 
 The solution? Just manage data separately from the regular file system! This way, all the pain points above becomes solvable, since the DBMS controls *everything*. Of course, this requires re-implementing the entire data access pipeline from scratch, but in a sense, that's precisely what we want. This idea is the foundation of all modern BDMSes.
+## Languages
+DBMSes are controlled through three conceptually-different languages: the **data definition language** (**DDL**), the **data modeling language** (**DML**) and the **query language**.
+
+A query language is used to manipulate the data in the database.
+
+In a [[Relational model|relational DBMS]], the current standard query language is [[SQL]].

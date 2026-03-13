@@ -1,7 +1,11 @@
 ---
 wiki-publish: true
+aliases:
+  - relational database
+  - relational DBMS
+  - RBDMS
 ---
-The **relational model** is a [[database]] data model focused on expressing relations within the data. It is almost synonymous with [[SQL]], which is the standard [[domain-specific language]] that is used to query a relational database.
+The **relational model** is a [[database]] data model focused on expressing relations within the data. A database that follows this model is called a **relational database** and a [[Database management system|DBMS]] that follows it is called a **relational DBMS** (**RDBMS**). It is almost synonymous with [[SQL]], which is the standard [[domain-specific language]] that is used to query a relational database.
 ## Limitations
 The relational model doesn't work for everything: it does not work with composite [[data structure|data structures]] and it also does not support multiple values (arrays) per key.[^1] These kinds of data structures are however quite common in practice, so being able to store them in a relational database is still quite relevant. When it comes to arrays, there are options, depending on the kind of data you are working with.
 
