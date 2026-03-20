@@ -3,9 +3,10 @@ wiki-publish: true
 ---
 The **Structured Query Language** is the standard [[domain-specific language]] used to query a [[Relational model|relational]] [[database management system]].
 ## Introduction to SQL
-As SQL is designed for data manipulation, the most important keywords to be aware of are `CREATE`, `DROP` and `ALTER`. In order, these are the general keywords used to create, delete and modify either data or metadata in the DB. They almost always appear in some capacity when writing to the DB, typically followed by another keyword to specify the object that is being written to.
+As SQL is designed for data manipulation, the most important keywords to be aware of are `CREATE`, `DROP` and `ALTER`. In order, these are the general keywords used to create, delete and modify metadata in the DB. They almost always appear in some capacity when writing to the DB itself, typically followed by another keyword to specify the object that is being written to.
 
-One note: SQL is not case-sensitive. This means that `create`, `drop` and `alter` are also correct, as is any other casing. This is true both for keywords and non-keywords: casing is only relevant in strings. By convention, it is considered standard to write keywords in uppercase to make them stand out from non-keyword elements of the query, and [[casing conventions|snake_case]] is considered the standard casing style for non-keywords.
+> [!tip] Casing
+> SQL is not case-sensitive. This means that `create`, `drop` and `alter` are also correct, as is any other casing. This is true both for keywords and non-keywords: casing is only relevant in strings. By convention, it is considered standard to write keywords in uppercase to make them stand out from non-keyword elements of the query, and [[casing conventions|snake_case]] is considered the standard casing style for non-keywords.
 
 Creation of [[database]] is handled with `CREATE DATABASE <name>`, where `<name>` is the name of the DB. Within the database, a table is created with `CREATE TABLE <name>`, followed by the schema of the table in parentheses. Here's an example:
 
@@ -16,7 +17,7 @@ CREATE TABLE students (
 	surname TEXT NOT NULL,
 	date_of_birth DATE NOT NULL,
 	phone VARCHAR(13)
-)
+);
 ```
 
 This query creates a table called `students` that contains an `id`, a `name`, a `surname`, a `date_of_birth` and a `phone` number.
@@ -71,7 +72,7 @@ Despite being the lifeblood of relational databases, adding a foreign key introd
 When it comes to retrieving data from a table, SQL performs two basic operations: **projection** and **selection**. Projection refers to retrieving a subset of columns from a table. Selection instead refers to retrieving a subset of rows. In simple terms, they refer to filtering columns and rows respectively. The two can be (and often are) done simultaneously in order to filter both at the same time. Take the following query:
 
 ```sql
-SELECT name, surname FROM students
+SELECT name, surname FROM students;
 ```
 
 This query is a projection of the `student` table, filtering for just the `name` and `surname` columns. So selection is requested, so all rows are returned. The result is the names of surnames of all students in the table.
@@ -79,19 +80,19 @@ This query is a projection of the `student` table, filtering for just the `name`
 Projection, in SQL, is simply done by listing the columns you want after `SELECT`. You may opt out of projection by requesting all columns using the `*` wildcard:[^3]
 
 ```sql
-SELECT * FROM students -- Returns all columns and rows from students
+SELECT * FROM students; -- Returns all columns and rows from students
 ```
 
 Selection on the other hand is done in a variety of ways. Unlike projection, selection is opt-in: no selection is done by default. One basic way of selecting is by adding a special keyword after `SELECT`. For example, the `DISTINCT` keyword returns only rows that are different from each other (*all* selected fields must be the same for two rows to not be considered distinct):
 
 ```sql
-SELECT DISTINCT name, surname from student
+SELECT DISTINCT name, surname from student;
 ```
 
 This selects only students with distinct name/surname pairs. Students with the same name or surname are fine, but not both. You may notice that the `SELECT` keyword matches the term "selection". In fact, all `SELECT` queries technically run a selection, but the default is to allow everything through unless otherwise asked. You can make this explicit by adding the `ALL` selection keyword: it does nothing, because it's the default behavior, but it is allowed.
 
 ```sql
-SELECT ALL name, surname from student -- Same result as without ALL
+SELECT ALL name, surname from student; -- Same result as without ALL
 ```
 
 The uses of `DISTINCT` are somewhat limited, however, in part because it's computationally expensive. Meanwhile, `ALL` is redundant. As such, this way of selecting is simple, but not that useful. In practice, selection is generally done through the much more powerful `WHERE` keyword. `WHERE` takes one or more conditions that are checked against the value of each row. If a row passes the conditions, then it's returned. Otherwise, it's ignored. Let's see an example:
@@ -99,7 +100,7 @@ The uses of `DISTINCT` are somewhat limited, however, in part because it's compu
 ```sql
 SELECT name, surname
 FROM students
-WHERE YEAR(date_of_birth) = 2000 AND name LIKE "M%"
+WHERE YEAR(date_of_birth) = 2000 AND name LIKE "M%";
 ```
 
 This query introduces a couple new features. Firstly, we see that `WHERE` conditions are related by a logical connective, just like constraints. Further, the `YEAR` builtin function extracts the year out of a `DATE` object. We then check that it is equal to 2000. The syntax is otherwise essentially the same as constraints: if you think about it, a `WHERE` clause *is* a constraint, only checked during retrieval instead of insertion. We also see another new keyword: `LIKE`. This keyword is one of many ways to run checks on strings. Specifically, it checks that the string matches the pattern placed after it.[^5] This pattern says "any string that starts with M".
@@ -109,7 +110,7 @@ A `WHERE` check returns an optional boolean value, meaning it can return "true",
 When selecting from a table in SQL, you generally request the column names directly, such as `SELECT name FROM student`. However, this is actually [[syntax sugar]]: strictly speaking, you are supposed to explicitly write out the name of the table before each column to let SQL know where the column is:
 
 ```sql
-SELECT students.name FROM students
+SELECT students.name FROM students;
 ```
 
 The table and column names are divided by a period character, like `<table>.<column>`. This might seem redundant and, in this case, it absolutely is. SQL is smart enough to know that if you request a single table, it should take all columns from that table, so you can safely omit it. However, specifying table ownership becomes relevant when you select from multiple tables through *joins*, where multiple tables might have columns with the same name.
@@ -117,7 +118,7 @@ The table and column names are divided by a period character, like `<table>.<col
 It is possible to rename tables and columns on the fly for the purpose of the query only. This is called **aliasing** and it is useful in two main cases: for brevity when specifying table names explicitly, or to rename columns in the output. Aliasing is done with the `AS` keyword, like so:
 
 ```sql
-SELECT S.name, S.surname FROM students AS S
+SELECT S.name, S.surname FROM students AS S;
 ```
 
 Here we are renaming `students` to `S` so that referring to it in the query is shorter.[^4] Columns can also be renamed:
@@ -133,7 +134,7 @@ Sorting is done through the `ORDER BY` keywords. These take one or more keys to 
 ```sql
 SELECT surname, name
 FROM students
-ORDER BY surname ASC, name ASC
+ORDER BY surname ASC, name ASC;
 ```
 
 This returns the names and surnames of all students in (ascending) alphabetical order. For students with the same surname, the names are also ordered in (ascending) alphabetical order.
@@ -167,6 +168,88 @@ The Cartesian product of the two, $\text{T}_{C}=\text{T1}\times\text{T2}$, is
 
 The product contains all combinations of rows and columns from both tables. The number of rows and columns is simply the product of the individual tables:
 $$N_\text{rows}=N_\text{rows,T1}\cdot N_\text{rows,T2},\qquad N_\text{cols}=N_\text{cols,T1}\cdot N_\text{cols,T2}$$
+## Manipulating data
+Retrieving data is a reading operation. You see existing data in some form. The data, of course, must also be written somehow. This section deals with the three main data manipulation operations in SQL: `INSERT`, `DELETE` and `UPDATE`.
+
+`INSERT` allows adding either new data or computed data to the database. New data is simplest to introduce: to add new data to a table, just use `INSERT INTO` with
+
+```sql
+INSERT INTO <table_name> [(<list_attributes>)]
+VALUES (val_1, ..., val_k)[, (val_1, ..., val_k), ...]
+```
+
+Here square brackets indicate optional elements. Let's unpack this. `INSERT INTO` is the keyword, followed by the name of the table to insert into. Then, optionally, the attributes (column) to insert into. If omitted, it assumes you are adding a value to all columns in the order the table is defined with (meaning, a full row). This is useful when some columns are nullable or have default values and you want to keep the defaults. Then, after the `VALUES` keyword, a list of tuples. Each tuple is one row and you can optionally insert multiple rows at the same time. Here's an example:
+
+```sql
+INSERT INTO students
+VALUES (123, 'John', 'Johnson', DATE('2000/04/11'), '3918219932'),
+       (124, 'Jane', 'Dawson', DATE('1999/01/02'), NULL);
+```
+
+Here we are adding two new rows to the `students` table. Since we are not specifying the attribute list, SQL expects us to specify every column, in precisely in the order we used when defining the table. We could have also did:
+
+```sql
+INSERT INTO students (id, name, surname, date_of_birth)
+VALUES (123, 'John', 'Johnson', DATE('2000/04/11')),
+       (124, 'Jane', 'Dawson', DATE('1999/01/02'));
+```
+
+This is the same as before, expect we are explicitly listing the attributes. Note that `phone` is missing here: it's a nullable column, so it'll just default to `NULL` in both rows.
+
+Let's talk about computed data now. As an example, let's define a new table:
+
+```sql
+CREATE TABLE summary (
+	id INTEGER PRIMARY KEY,
+	name TEXT NOT NULL,
+	surname TEXT NOT NULL,
+	num_exams INTEGER,
+	avg_grades INTEGER
+);
+```
+
+This table will contain some metadata about each student, namely the number of completed exams and the average grade. We'll calculate this metadata from existing data in the database like this:
+
+```sql
+INSERT INTO summary
+AS (SELECT S.id, S.name, S.surname, COUNT(E.student_id), AVG(E.grade)
+	FROM students as S LEFT OUTER JOIN exams as E
+	ON E.student_id = S.id
+	GROUP BY S.id, S.name, S.surname
+);
+```
+
+There's a quite a bit going on here. `INSERT INTO summary` is similar to before, but now we are using `AS` instead of `VALUES`. This is how we tell SQL that we need to compute the data instead of inserting new constants. Then, in parenthesis, instead of a tuple of values we put a *query*. Here we use a `SELECT`, where we retrieve the appropriate ID/name/surname from the `students` table, then do some computation (`COUNT` and `AVG`)  on the `exams` table by joining the two by the student ID. We then group everything by ID/name/surname for clarity.
+
+Computed value insertions take arbitrary queries, as long as their return the correct schema, so they can be come quite elaborate.
+
+That's all for the basics of data insertion. To do the opposite, deleting data, we use the `DELETE` keyword:
+
+```sql
+DELETE FROM <table_name> [WHERE <condition>]
+```
+
+Deleting is much simpler. It simply deletes any row that matches the given condition. If no condition is given, all the contents of the table will be deleted. Remember that deleting is permanent and there's no coming back, so be careful! For example, to delete all students named "John":
+
+```sql
+DELETE FROM students WHERE name = 'John';
+```
+
+Finally, you might want to modify existing rows. This is done through the `UPDATE` keyword:
+
+```sql
+UPDATE <table_name>
+SET <attribute> = <expression>
+[WHERE <condition>]
+```
+
+The syntax is very similar to `DELETE`, except you also have a `SET` statement to tell SQL what columns to update. For example, to remove the phone number from all students named "Jane":
+
+```sql
+UPDATE students
+SET phone = NULL
+WHERE name = 'Jane';
+```
 
 [^1]: A table with no primary key has no guarantee that two rows are different, so you can have two identical rows with no way to distinguish them. Further, there is no automatic index definition. This may or may not be desired behavior. Also, what happens in the background is not defined and depends on the DBMS in use. For example, PostgreSQL and SQLite internally generate a unique identifier for each row even if you don't add a primary key. However, you cannot reference it and it's meant for internal use.
 
