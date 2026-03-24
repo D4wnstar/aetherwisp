@@ -203,8 +203,8 @@ CREATE TABLE summary (
 	id INTEGER PRIMARY KEY,
 	name TEXT NOT NULL,
 	surname TEXT NOT NULL,
-	num_exams INTEGER,
-	avg_grades INTEGER
+	num_exams INTEGER NOT NULL,
+	avg_grade INTEGER
 );
 ```
 
@@ -250,6 +250,87 @@ UPDATE students
 SET phone = NULL
 WHERE name = 'Jane';
 ```
+
+## Automation
+Maintaining the internal consistency of a database requires automating some operations that must always happen as a consequence of others actions. The standard way of doing this is to use a **trigger**. A trigger is an automated database operation that occurs as a reaction to an event (the operation is "triggered"). The event is a data manipulation operation: `INSERT`, `UPDATE` or `DELETE`. They are primarily meant to enforce consistency.
+
+A trigger is defined with `CREATE TRIGGER`. For example:
+
+```sql
+CREATE TRIGGER update_student_name
+	BEFORE INSERT
+	ON students
+	FOR EACH ROW
+	EXECUTE FUNCTION update_student_name();
+```
+
+Here we are creating a new trigger called `update_student_name`. It triggers every time (specifically *before*) something is inserted in the `students` table, and when it does, it executes the function `update_student_name()` for each newly inserted row. A **function** is a collection of one or more operations organized in a single reusable block; for more on functions, see below. We also see a new concept: trigger timing. When we define a trigger condition (here, insertion on `students`), we get to choose whether the triggered operation (the function) happens `BEFORE` or `AFTER` the condition. In this case we choose `BEFORE`; for example, `update_student_name()` might standardize the formatting of the name to keep data consistent *before* inserting it into the database. `AFTER` would've executed the function after insertion. Furthermore, the `FOR EACH ROW` line is optional. If omitted, the trigger is ran once when the condition is met, instead of once per modified row.
+
+Trigger functions are very powerful tools in SQL, though they can be a bit complicated to get into at first. The fact of the matter is that you can't write functions in SQL itself: the language is just meant to interface with the database, not write arbitrary functions. You have to use a different programming language. In the field, these are called **procedural languages** (usually prefixed with "pl") and, many times, existing standard languages like Python can be adapted to work in this context. Other times, bespoke languages are created for this very purpose: for example, PostgreSQL provides the `plpgsql` language for function definitions. This article uses `plpgsql` for function definitions. Since function definitions in SQL can be quite different from what you might expect coming from other languages, let's just see an example first:
+
+```sql
+CREATE FUNCTION update_student_name()
+	RETURNS trigger
+	LANGUAGE 'plpgsql'
+	COST 100
+	VOLATILE NOT LEAKPROOF
+AS $BODY$
+BEGIN
+New."name" := Upper(New."name");
+New."surname" := Upper(New."surname");
+RETURN New;
+END;
+$BODY$;
+```
+
+This query is made of two parts. First, we have the SQL part. The function is made with `CREATE FUNCTION` followed by the name and the properties of the function. We tell SQL it's a trigger function written in `plpgsql`. %%(TODO: Explain COST and VOLATILE NOT LEAKPROOF%% Then, we start the `$BODY$` of the function: after this keyword we start writing the second part, which is the actual function body in the language of your choice (here `plpgsql`). We won't go into detail about `plpgqsql` syntax itself, but what this body does is that it takes the newly inserted row, provided to the function as the `New` variable, then overwrites the `name` and `surname` cells with uppercase versions of themselves using the `Upper()` function and the `:=` assignment operator. Finally, it returns the modified row `New`. This function, when paired with the previous trigger, guarantees that all names and surnames in the `students` table are uppercase by running this function before any insertion.
+
+Let's see another example with a different use case. Recall the `summary` table from the [[#Manipulating data]] section. Every time a new student enrolls in the university, we need a new summary entry for them. This *can* be done manually, but why? It must happen every time, with precisely the same behavior. This is a perfect moment to use a trigger. Let's make a trigger to automatically add a new row to `summary` whenever a new student enrolls.
+
+```sql
+CREATE FUNCTION init_summary()
+	RETURNS trigger
+	LANGUAGE 'plpgsql'
+AS $BODY$
+BEGIN
+INSERT INTO summary
+VALUES (New."name", New."surname", 0, NULL);
+END;
+$BODY$;
+
+CREATE TRIGGER init_summary
+	AFTER INSERT
+	ON students
+	FOR EACH ROW
+	EXECUTE FUNCTION init_summary();
+```
+
+Great, now every time a student is inserted into the `students` table, a new entry is added to `summary` with their name, surname and the default values for exam count and average grade. Now each student is guaranteed to have an associated summary for them. But we're not done. We need to also keep the summary up to date whenever the student passes an exam. To do so, we'll make another trigger that runs on insertion to `exams`.
+
+```sql
+CREATE FUNCTION update_summary()
+	RETURNS trigger
+	LANGUAGE 'plpgsql'
+AS $BODY$
+BEGIN
+UPDATE summary AS S
+SET New."num_exams" := New."num_exams" + 1,
+	New."avg_grade" := AVG(
+		SELECT grade FROM exams as E
+		WHERE E."student_id" = New."student_id";
+	)
+WHERE S."id" = New."student_id";
+END;
+$BODY$;
+
+CREATE TRIGGER update_summary
+	AFTER INSERT
+	ON exams
+	FOR EACH ROW
+	EXECUTE FUNCTION update_summary();
+```
+
+Here the trigger simply increases the exam count by one each time an exam is passed and recalculates the average. To recalculate it, we select all existing exams for the given student within the trigger itself. Notably, this is *not* a good way of doing this. It's expensive and leads to a lot of unnecessary `SELECT` queries, but it is easy to read for an educational example.
 
 [^1]: A table with no primary key has no guarantee that two rows are different, so you can have two identical rows with no way to distinguish them. Further, there is no automatic index definition. This may or may not be desired behavior. Also, what happens in the background is not defined and depends on the DBMS in use. For example, PostgreSQL and SQLite internally generate a unique identifier for each row even if you don't add a primary key. However, you cannot reference it and it's meant for internal use.
 

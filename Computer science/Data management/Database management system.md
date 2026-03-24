@@ -8,11 +8,13 @@ aliases:
   - DML
   - query language
 ---
-A **database management system** (**DBMS**) is a software system meant to manage and operate on [[database|databases]], usually considered alongside the data itself. They handle interrelated data by providing all the tools required to read and write the data in a structured, reliable, convenient and efficient manner. The basic operation done with a DBMS is called a **query**. For example, reading some data, appending new data, deleting existing data and joining related data from different sources are typical database queries.
+A **database management system** (**DBMS**) is a software system meant to manage and operate on [[database|databases]]. They handle interrelated data by providing the tools required to read and write the data in a reliable, convenient and efficient manner. Although data can be stored is simple files, DBMSes are meant specifically for storage of large quantities of data in a (generally) structured format, while providing a framework that is consistent in time, across operations and through system faults like crashes or outages.
+
+The basic operation done with a DBMS is called a **query**. For example, reading some data, appending new data, deleting existing data and joining related data from different sources are typical database queries.
 
 Besides managing permanent storage, a common use case for a DBMS it to provide users with an abstract view of the data. This means deconstructing the original data to *view* it in a different way. The data itself is not changed, it is merely *seen* from a different perspective. This is, for example, useful to describe the content of the data, the relationships inside the data, or to abstract [[data structure|data structures]] to hide complexity.
 
-Common [[SQL]] DBMSes include PostgreSQL, MySQL and SQLite.
+Common [[Relational model|relational DBMSes]] include PostgreSQL, MySQL and SQLite.
 ## Introduction
 In the early days, data management systems were built directly on top of the regular [[file system]] the [[operating system]] relies on. While technically easy (the file system is always present on a machine and its operation is guaranteed by the OS), this paradigm comes with several issues. Namely:
 - Data is stored in many files with different formats, making it prone to data redundancy and duplication.
