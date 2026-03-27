@@ -276,9 +276,9 @@ CREATE FUNCTION update_student_name()
 	VOLATILE NOT LEAKPROOF
 AS $BODY$
 BEGIN
-New."name" := Upper(New."name");
-New."surname" := Upper(New."surname");
-RETURN New;
+	New."name" := Upper(New."name");
+	New."surname" := Upper(New."surname");
+	RETURN New;
 END;
 $BODY$;
 ```
@@ -293,8 +293,8 @@ CREATE FUNCTION init_summary()
 	LANGUAGE 'plpgsql'
 AS $BODY$
 BEGIN
-INSERT INTO summary
-VALUES (New."name", New."surname", 0, NULL);
+	INSERT INTO summary
+	VALUES (New."name", New."surname", 0, NULL);
 END;
 $BODY$;
 
@@ -313,13 +313,13 @@ CREATE FUNCTION update_summary()
 	LANGUAGE 'plpgsql'
 AS $BODY$
 BEGIN
-UPDATE summary AS S
-SET New."num_exams" := New."num_exams" + 1,
-	New."avg_grade" := AVG(
-		SELECT grade FROM exams as E
-		WHERE E."student_id" = New."student_id";
-	)
-WHERE S."id" = New."student_id";
+	UPDATE summary AS S
+	SET New."num_exams" := New."num_exams" + 1,
+		New."avg_grade" := AVG(
+			SELECT grade FROM exams as E
+			WHERE E."student_id" = New."student_id";
+		)
+	WHERE S."id" = New."student_id";
 END;
 $BODY$;
 
