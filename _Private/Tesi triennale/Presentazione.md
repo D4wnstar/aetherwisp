@@ -35,3 +35,6 @@ Slide:
 14. Paragone medie e differenze, specie tra 3D e da mappa, interpretazione
 15. Paragone mediane con dati sperimentali, specie tra mappa e dati, interpretazione
 16. Conclusione: nonostante tutto, abbiamo scoperto una mancanza grazie alla metallicità
+
+
+$$Z=\frac{\sum_{i=1}^{N} Z_{i}m_{i}}{\sum_{i=1}^{N} m_{i}}$$

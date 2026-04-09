@@ -272,18 +272,16 @@ Trigger functions are very powerful tools in SQL, though they can be a bit compl
 CREATE FUNCTION update_student_name()
 	RETURNS trigger
 	LANGUAGE 'plpgsql'
-	COST 100
-	VOLATILE NOT LEAKPROOF
 AS $BODY$
 BEGIN
-	New."name" := Upper(New."name");
-	New."surname" := Upper(New."surname");
+	New."name" := UPPER(New."name");
+	New."surname" := UPPER(New."surname");
 	RETURN New;
 END;
 $BODY$;
 ```
 
-This query is made of two parts. First, we have the SQL part. The function is made with `CREATE FUNCTION` followed by the name and the properties of the function. We tell SQL it's a trigger function written in `plpgsql`. %%(TODO: Explain COST and VOLATILE NOT LEAKPROOF%% Then, we start the `$BODY$` of the function: after this keyword we start writing the second part, which is the actual function body in the language of your choice (here `plpgsql`). We won't go into detail about `plpgqsql` syntax itself, but what this body does is that it takes the newly inserted row, provided to the function as the `New` variable, then overwrites the `name` and `surname` cells with uppercase versions of themselves using the `Upper()` function and the `:=` assignment operator. Finally, it returns the modified row `New`. This function, when paired with the previous trigger, guarantees that all names and surnames in the `students` table are uppercase by running this function before any insertion.
+This query is made of two parts. First, we have the SQL part. The function is made with `CREATE FUNCTION` followed by the name and the properties of the function. We tell SQL it's a trigger function written in `plpgsql`. Then, we start the `$BODY$` of the function: after this keyword we start writing the second part, which is the actual function body in the language of your choice (here `plpgsql`). We won't go into detail about `plpgqsql` syntax itself, but what this body does is that it takes the newly inserted row, automatically provided to the function as the `New` variable, then overwrites the `name` and `surname` cells with uppercase versions of themselves using the `UPPER()` function and the `:=` assignment operator. Finally, it returns the modified row `New`. This function, when paired with the previous trigger, guarantees that all names and surnames in the `students` table are uppercase by running this function before any insertion.
 
 Let's see another example with a different use case. Recall the `summary` table from the [[#Manipulating data]] section. Every time a new student enrolls in the university, we need a new summary entry for them. This *can* be done manually, but why? It must happen every time, with precisely the same behavior. This is a perfect moment to use a trigger. Let's make a trigger to automatically add a new row to `summary` whenever a new student enrolls.
 
