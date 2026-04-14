@@ -1,0 +1,5 @@
+A **B+ tree** is an balanced, $n$-ary [[tree data structure]] with a variable number of children per node. B+ trees are self-balancing data structures where each node contains only keys and values are stored exclusively in leaves. They are a variant of [[B tree|B trees]], where nodes store key-value pairs instead.
+
+They are frequently used for data storage in block-based [[file system|file systems]] due to the aforementioned self-balancing property, plus the large number of children per node, which greatly reduces the height of tree and thus the operations needed to complete a search compared to a [[binary tree]]. For similar reasons, they are also frequently employed to generate indexes in [[database|databases]].
+## Indexing
+Consider an attribute in a database table. Assume this attribute is defined over an ordered domain, like $\mathbb{N}$. Then, each node of a B+ tree contains $k_{1},\ldots,k_{n}$ keys pointing at children nodes.
