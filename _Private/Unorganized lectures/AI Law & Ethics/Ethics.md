@@ -1,0 +1,1 @@
+Ethics is *flexible*. It is a fluid social contract that changes over time as culture evolves. This has been understood for long: for instance, in Book II of the Nicomachean ethics, they were described as having "no fixity". What is right today is not the same as it was 10, 100 or 1000 years ago.
