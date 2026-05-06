@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 **Einstein summation notation** is a convention used in linear algebra, especially special relativity, general relativity and differential geometry, to make [[Vector space|vector]] notation more compact.
 

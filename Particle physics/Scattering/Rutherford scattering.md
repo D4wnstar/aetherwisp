@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 **Rutherford scattering** is an elastic [[particle scattering]] process where an [[Alpha decay|alpha particle]] scatters off of an [[atomic nucleus]]. It is an [[Electromagnetism|electromagnetic]] scattering process with both classical and quantum formulations. The process is
 $$\alpha+\ce{X}\to \alpha+\ce{X}$$

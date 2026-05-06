@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 **Clustering**, in the context of [[unsupervised machine learning]], refers to techniques that detect **clusters** or **groups** of data within the [[dataset]]. A cluster, intuitively, is a collection of data points that are close together. Their definition therefore hinges on the concept of "distance" in the space of data points.
 

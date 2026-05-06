@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 aliases:
   - symmetric state
   - antisymmetric state

@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 L'**ortonormalizzazione di Gram-Schmidt** è un algoritmo per trovare un sistema ortonormale di vettori a partire da un sistema di vettori [[lineare indipendenza|linearmente indipendenti]].
 

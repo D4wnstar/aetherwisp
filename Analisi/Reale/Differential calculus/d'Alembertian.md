@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 The **d'Alembertian** or **d'Alembert operator** $\square ^{2}$ is a differential [[operatore|operator]] that can be seen as an extension to the [[Laplacian]] operator. It is defined as
 $$\square ^{2}\equiv \nabla ^{2}- \frac{1}{v^{2}}\frac{ \partial ^{2} }{ \partial t^{2} } $$

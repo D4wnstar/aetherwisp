@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 When the [[Universe]] was young, after the [[Big Bang nucleosynthesis]] era, the large majority of [[matter]] was simple [[Atomic nucleus|nuclei]], hydrogen and helium. These aggregated thanks to [[gravity]] to form the first [[Stella|stars]], triggering [[nuclear fusion]] and beginning *stellar* nucleosynthesis. Fusion formed [[Nuclide|nuclides]] up to iron and when the first large stars perished, their [[Supernova|supernovas]] formed even heavier elements. Many of these were [[Nuclear decay|radioactive]] and highly unstable, but some had very long [[half-life|half-lives]], so when the [[Disco protoplanetario|protoplanetary disk]] that would birth the [[Earth]] was created, many of these elements got embedded in what would become our planet. Then, four and half billion years later after the formation of the planet, many of them are still there, decaying. These form the so-called **background radiation of the Earth**.
 

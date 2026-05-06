@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 Osservando l'assorbimento della luce da parte di un gas di idrogeno, si è notata la presenza di [[Riga spettrale|righe di assorbimento]] ad intervalli discreti e ben spaziati, anziché continui come ci si aspettava. Inoltre, una carica come un [[Electron]] in rotazione attorno al [[Atomic nucleus]] è in perpetua accelerazione centripeta, e una carica in accelerazione emette [[radiazione]] per [[Bremmstrahlung]]. Per quale motivo l'elettrone non cadeva sul nucleo non era noto, però era chiaro che per qualche ragione, l'elettrone non perdeva energia come di norma.
 

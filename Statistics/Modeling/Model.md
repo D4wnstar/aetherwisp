@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 A **model**, in the context of statistics, is a mathematical description of how the quantities that we observe may have been generated. It is a collection of parameters that can be used to gain insight on the originating process and may be used to make predictions on how the process might behave in the future. The process of determining a model's parameters is called **[[parameter estimation]]**.
 

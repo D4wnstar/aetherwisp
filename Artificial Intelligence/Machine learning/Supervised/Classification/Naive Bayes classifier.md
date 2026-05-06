@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 The **naive Bayes** [[Classification|classifier]] is a kind of classifier technique based on [[Bayes' theorem]].
 ### Formulation

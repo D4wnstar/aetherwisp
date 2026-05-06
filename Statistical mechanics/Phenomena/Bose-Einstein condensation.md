@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 **Bose-Einstein condensation** is the tendency of [[Boson|bosons]] to collectively and almost exclusively occupy the ground [[stato|state]] of a [[Physical system|system]] around and below a specific [[temperature]], known as the **condensation temperature** or critical temperature. This phenomenon occurs at low temperatures and low energies. Mathematically, it is readily seen from the [[Bose-Einstein distribution]], which gives the average [[occupation number]] of each state:
 $$\langle n_{i} \rangle =\frac{1}{e^{\beta(\varepsilon_{i}-\mu)}-1}$$

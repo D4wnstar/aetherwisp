@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 The **Compton wavelength** $\lambda_{c}$ is a conventional [[wavelength]] assigned to a [[particle]] of [[mass]] $m$:
 $$\lambda_{C}=\frac{h}{mc}$$

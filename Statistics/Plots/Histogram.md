@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 A **histogram** is a type of plot that shows a quantity, taken to be a [[Random variable]], with respect to the number of measurements in a given **bin**. A bin is an interval in the domain in which the quantity is defined. Histograms are ubiquitous in statistics and they are one of the primary ways of displaying empirical observations. This is because the behavior of the bins is an approximation of the [[Probability distribution]] that the measurements follow.
 

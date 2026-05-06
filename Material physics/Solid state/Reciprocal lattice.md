@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 The **reciprocal lattice** of a [[Bravais lattice]] is, loosely speaking, the lattice formed by its [[Wavenumber|wavevectors]] in [[reciprocal space]]. In this context, the original Bravais lattice is said to be the **direct lattice** (or **real lattice**).
 

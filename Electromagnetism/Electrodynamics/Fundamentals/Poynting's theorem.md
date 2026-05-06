@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 **Poynting's theorem** is a result expressing conservation of [[energy]] in electrodynamics.
 

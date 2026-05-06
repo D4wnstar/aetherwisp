@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 La **traccia** è un numero e operazione definita su una matrice o un [[operatore]].
 - Nel caso di una matrice $A$, la traccia è la somma dei valori sulla sua diagonale. Vale $\text{Tr}(A)=\sum\limits_{i=1}^{n}a_{ii}$.

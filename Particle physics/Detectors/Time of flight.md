@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 **Time of flight** (**TOF**) is the time it takes for a [[particle]] to travel from one [[detector]] to another, assuming the two detectors are specifically paired to measure the passing of the particle. Calling $t_{1}$ the time of passage at the first detector and $t_{2}$ that at the second one, TOF is simply
 $$\text{TOF}=t_{2}-t_{1}$$

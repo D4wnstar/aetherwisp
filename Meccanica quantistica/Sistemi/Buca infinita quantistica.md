@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 aliases:
   - buca infinita
   - particella in una scatola

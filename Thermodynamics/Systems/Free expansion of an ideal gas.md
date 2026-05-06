@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 The **free expansion of an ideal gas** is particularly simple [[physical system]] to analyze the thermodynamics of.
 ### Mechanics

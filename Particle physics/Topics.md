@@ -1,5 +1,5 @@
 ---
-wiki-publish: false
+hl-publish: false
 ---
 - [[Fundamental interaction]]
 	- [[Gravity]]

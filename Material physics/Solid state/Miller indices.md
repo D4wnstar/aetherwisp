@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 **Miller indices** are a conventional notation to describe [[plane|planes]] in a three-dimensional [[Bravais lattice]]. It is based off of the geometric principle that three points in space uniquely identify a plane.
 

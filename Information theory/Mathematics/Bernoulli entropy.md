@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 The **Bernoulli entropy** or **binary entropy function** is a function for the [[Entropy (information theory)|information-theoretical entropy]] of a binary process, with [[Probability]] $p$. It is defined as
 $$H(p)=-p\log_{2}p-(1-p)\log_{2}(1-p)$$

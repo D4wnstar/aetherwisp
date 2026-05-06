@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 The **chi-square distribution** or **$\chi ^{2}$ distribution** is a real, continuous [[Probability distribution]] over $\Omega\equiv[0,\infty)$. For a [[Random variable]] $X$, the [[Probability density function]] is
 $$f_{X}(x;k)=\frac{1}{\Gamma\left( \frac{k}{2} \right)} \frac{1}{2^{k/2}}x^{k/2 -1}e^{-x/2}$$

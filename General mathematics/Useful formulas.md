@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 ## Trigonometry
 $$\sin^{2}(x)+\cos^{2}(x)=1$$

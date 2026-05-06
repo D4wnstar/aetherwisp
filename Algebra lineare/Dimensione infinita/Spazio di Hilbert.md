@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 Uno **spazio di Hilbert**, in genere denotato $\mathrm{H}$ o $\mathcal{H}$, è uno [[Vector space]] [[Spazio metrico completo|completo]] rispetto alla [[Norma]] indotta da un [[Scalar product]] definito su di esso. Se sullo spazio è inoltre presente un [[Sistema completo]] (non necessariamente ortonormale), si dice che lo spazio è **separabile**.
 

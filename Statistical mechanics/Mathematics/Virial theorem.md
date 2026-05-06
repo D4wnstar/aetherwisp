@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 The **virial theorem** provides a relation between the total [[kinetic energy]] and the total [[Potential|potential energy]] of a stable [[Physical system|system]] of [[Particle|particles]] subject to a [[conservative force]]. If the force comes from a potential of the form $U(r)=ar^{n}$, where $r$ is the distance between particles, the theorem states
 $$2\langle K_\text{total} \rangle =n\langle U_\text{total} \rangle $$

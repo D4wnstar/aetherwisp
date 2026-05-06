@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 A **magnetic spectrometer** is a [[detector]] designed to measure the [[Linear momentum|momentum]] of a [[Electric charge|charged]] [[particle]] from the [[curvature]] of its trajectory in a uniform [[magnetic field]]. It is often paired with at least one speed-measuring instrument to find the particle's [[mass]] from $m=p/v$.
 

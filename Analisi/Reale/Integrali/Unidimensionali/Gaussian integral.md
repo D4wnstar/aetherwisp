@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 A **Gaussian integral** is an integral of the form
 $$\int_{-\infty}^{\infty} e^{-a(x+b)^{2}} \ dx=\sqrt{ \frac{\pi}{a} } $$

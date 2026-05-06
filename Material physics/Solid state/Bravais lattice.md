@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 A **Bravais lattice** is an infinite [[set]] of discrete points laid out in space with a periodic arrangement, such that the arrangement and orientation appears the same everywhere in space.
 

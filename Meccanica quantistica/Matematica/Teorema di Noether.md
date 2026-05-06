@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 Il **teorema di Noether** è un risultato fondamentale che associa trasformazioni della dinamica di un sistema con leggi di conservazione.
 

@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 A **Markov chain** is a stateless statistical process. A Markov chain is fully defined by the state at the start of each step and does not need to "remember" any previous state. In a Markov chain, the [[Probability]] that a [[Random variable]] $X$ will take all the values in a sequence $(x_{1},\ldots,x_{N})$ in $N$ steps is
 $$P_{N}(x_{1},\ldots,x_{N})=p_{1}(x_{1})\prod_{t=2}^{N-1} W(x_{t}\to x_{t+1})$$

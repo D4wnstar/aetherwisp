@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 Una **stella** è un corpo celeste sferoidale auto-gravitante composto di gas di svariati elementi, principalmente in fase di plasma, nel cui nucleo avviene la [[Nuclear fusion]]. Questo permette alla stella di brillare di luce propria, e questa luce è emessa perlopiù in banda ottica. La struttura di una stella è fortemente determinata dalla sua composizione chimica, che in generale è dominata da idrogeno ed elio. La percentuale di elementi più pesanti è detta [[Metallicità]].
 ### Struttura

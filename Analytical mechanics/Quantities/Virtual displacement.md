@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 A **virtual displacement** (or **infinitesimal displacement**) $\delta \mathbf{r}$ of a mechanical [[Physical system|system]] is a possible change in [[Generalized coordinates|configuration]] that satisfies all of the [[Constraint|constraints]] imposed on the system at a *fixed* time $t$. It is called "virtual" because it is represents a *possibility*: it represent how the system *could* move at any given point in time while respecting constraints, not an actual movement (which would be written $d\mathbf{r}$ and would happen over a time interval $dt$). This is why time being fixed is emphasized in the definition: nothing actually *happens*, virtual displacement is a purely theoretical quantity and may not even equal the real displacement. It is primarily useful for analyzing the state of a system.
 

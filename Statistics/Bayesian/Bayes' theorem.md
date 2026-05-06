@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 **Bayes' theorem** is the central theorem of Bayesian statistics and relates [[Joint distribution function|joint probability distributions]] with [[Conditional distribution function|conditional]] and [[Marginal distribution function|marginal distributions]]. For two [[Random variable|random variables]] $X$ and $Y$, Bayes' theorem states
 $$P(y|x)=\frac{P(x|y)P(y)}{P(x)}=\frac{P(x,y)}{P(x)}$$

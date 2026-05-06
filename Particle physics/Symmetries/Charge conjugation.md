@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 **Charge conjugation** $\hat{C}$ is a [[transformation]] that inverts the sign of all [[quantum number|quantum numbers]] of a [[Particle|particle]], transforming it into its [[antiparticle]]. It is a [[Symmetry|discrete symmetry]]. Despite being called "charge" conjugation, it does not just invert charge. It operates as
 $$\hat{C}(Q,B,S,\ldots)=(-Q,-B,-S,\ldots)$$

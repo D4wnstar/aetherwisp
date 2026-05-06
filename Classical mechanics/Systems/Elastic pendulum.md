@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 The **elastic pendulum** is a generalization of the [[simple pendulum]] where the length of the string is allowed to vary according to [[Harmonic oscillator|Hooke's law]], as if it were a massless spring.
 

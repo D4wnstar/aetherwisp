@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 **Time reversal** $\hat{T}$ is a [[transformation]] that inverts the time dimension. It is a [[Symmetry|discrete symmetry]]. It operates as
 $$\hat{T}:t\mapsto-t$$

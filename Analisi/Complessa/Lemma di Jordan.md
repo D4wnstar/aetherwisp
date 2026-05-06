@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 Considera l'integrale
 $$\int_{-\infty}^{+\infty}f(x)e^{i\nu x}dx$$

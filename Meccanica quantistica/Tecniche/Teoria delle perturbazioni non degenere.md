@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 La **teoria delle perturbazioni non degenere** è una forma della [[Meccanica quantistica/Tecniche/Teoria delle perturbazioni]] indipendente dal tempo nella quale gli [[Equazione agli autovalori|autovalori]] dell'[[Hamiltonian]] imperturbata non sono [[degenerazione|degeneri]].
 

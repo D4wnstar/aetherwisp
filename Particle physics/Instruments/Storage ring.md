@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 A **storage ring** is a type of circular [[particle accelerator]] where the [[particle]] beam may be kept in circulation for extended periods of time, possibly hours. They are an evolution of the [[synchrotron]] design.
 

@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 Consideriamo una [[Particle]] immersa in un [[Potential]] della forma
 $$V(x)=-\alpha \delta(x)$$

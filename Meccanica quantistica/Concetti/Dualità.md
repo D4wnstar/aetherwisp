@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 La **dualità** in fisica quantistica è la relazione tra la *picture* di Schrödinger, in cui evolvono gli [[Stato|stati]], e la *picture* di Heisenberg, in cui evolvono gli [[Operatore|operatori]]. Questi due punti di vista sono equivalenti e quale viene usato è interamente una questione di preferenza. Si tratta dell'analogo quantistico dell'equivalenza di sistemi di riferimento (come guardare un treno dalla banchina o essere sul treno e guardare fuori).
 

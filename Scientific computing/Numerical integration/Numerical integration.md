@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 **Numerical integration** is a broad category of methods and algorithms designed to calculate the numerical value of a definite [[integral]]. In general, the end goal of a numerical integration method is, given some function $f(x)$, to calculate its definite integral over a known range $[a,b]$
 $$\int_{a}^{b}f(x)dx$$

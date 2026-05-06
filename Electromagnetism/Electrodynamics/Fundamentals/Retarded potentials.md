@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 **Retarded potentials** are general forms of the [[electric potential]] and [[magnetic vector potential]] in terms of the [[retarded time]]
 $$V(\mathbf{r},t)=\frac{1}{4\pi \varepsilon_{0}}\int \frac{\rho(\mathbf{r}',t_{r})}{\mathfrak{r}} \ d\tau',\qquad \mathbf{A}(\mathbf{r},t)=\frac{\mu_{0}}{4\pi}\int \frac{\mathbf{J}(\mathbf{r}',t_{r})}{\mathfrak{r}} \ d\tau'  $$

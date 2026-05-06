@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 Si chiama **parte principale di Cauchy** relativa da un punto di discontinuità $x_{0}$ per la funzione $f(x)$ l'integrale
 $$\mathscr{P}\int_{a}^{b}f(x)dx=\lim\limits_{\varepsilon \rightarrow 0^{+}} \left[\int_{a}^{x_{0}-\varepsilon}f(x)dx+\int_{x_{0}+\varepsilon}^{b}f(x)dx \right]$$

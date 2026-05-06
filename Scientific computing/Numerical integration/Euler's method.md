@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 **Euler's method** is a simple but imprecise method for numerical integration. In essence, it consists of following a [[vector field]] in small, discrete steps that can be computed numerically. In one dimension, given a first order autonomous [[Ordinary differential equation|ODE]] $\dot{x}=f(x)$ and a starting condition $x(t_{0})=x_{0}$, Euler's method states that, after a small amount of time $\Delta t$, the point will be in $x(t_{0}+\Delta t)\simeq x_{1}=x_{0}+f(x_{0})\Delta t$. Then, we apply the step again to get $x_{2}$, $x_{3}$, and so on. In general, the update rule is
 $$x_{n+1}=x_{n}+f(x_{n})\Delta t\tag{1}$$

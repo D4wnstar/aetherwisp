@@ -4,7 +4,7 @@ aliases:
   - atomic mass number
   - number of neutrons
   - neutron number
-wiki-publish: true
+hl-publish: true
 ---
 The **atom** is the [[physical system]] that acts as the building block of matter. Outside of exotic or extreme physics, all matter is composed of atoms, either individually or bound together to form [[molecule|molecules]], [[crystal|crystals]] or other forms of matter.
 

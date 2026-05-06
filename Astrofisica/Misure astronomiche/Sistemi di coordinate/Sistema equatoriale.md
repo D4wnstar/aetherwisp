@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 Il **sistema equatoriale** è un [[Sistema di coordinate celesti]] molto usato in astrofisica. Il nome viene dal fatto che il piano orizzontale è definito dall'equatore terrestre, estendendolo a tutta la sfera celeste. L'orizzonte così trovato si chiama *equatore celeste*. Le due coordinate angolari che usa sono
 1. la **declinazione** $\delta$, che va tra i -90° e i 90°, ottenuta misurando l'altezza angolare dell'oggetto rispetto all'equatore celeste.

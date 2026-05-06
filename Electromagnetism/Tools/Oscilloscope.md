@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 An **oscilloscope** is a tool used to detect and visualize high-[[frequency]] phenomena. More so than a specific device, oscilloscopes are a class of devices designed with a common goal, which is to visualize high-frequency electrical phenomena. The classical oscilloscope is based off of a [[cathode ray tube]].
 ## Mechanism

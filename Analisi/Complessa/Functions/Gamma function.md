@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 The **Gamma function** or **Euler's Gamma function** $\Gamma(z)$ is a complex-valued function defined over the entire complex plane. It is the [[analytic continuation]] of the factorial function and is defined as
 $$\Gamma(z)=\int_{0}^{\infty}w^{z-1}e^{-w}dw$$

@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 The **Woods-Saxon potential** is a mean-field [[potential]] for the nucleons in an [[atomic nucleus]], motivated by the observation that nuclei are not perfect [[sphere|spheres]] with sharply defined surfaces. Rather, the charge density smoothly falls off as the surface is approached instead of cutting out abruptly. This potential is meant to be used in the [[nuclear shell model]] to replace the more basic [[Oscillatore armonico quantistico|quantum harmonic oscillator]].
 

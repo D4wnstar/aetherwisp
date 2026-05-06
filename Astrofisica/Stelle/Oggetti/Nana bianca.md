@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 Una **nana bianca** è un [[Relitto stellare]], il nucleo di una [[Stella]] di massa non supermassiva (minore di 8 [[Massa solare|masse solari]]) che è rimasto esposto dopo l'eiezione dell'inviluppo sotto forma di una [[nebulosa planetaria]]. Si stima che circa il 95% delle stelle dell'universo diventerà una nana bianca al termine della sua [[Evoluzione stellare|evoluzione]].
 

@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 A **rotation** is a circular movement of an object around a central line, known as the **axis of rotation**. A rotation $R(\alpha)$ in $\mathbb{R}^{N}$ is a [[Operatore lineare|linear operator]] parameterized by a real value, typically interpreted as the angle of rotation and denoted $\theta$ or $\alpha$. It is also a [[transformation]].
 

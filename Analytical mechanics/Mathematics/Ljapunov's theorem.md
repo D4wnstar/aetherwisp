@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 **Ljapunov's theorem** gives a method for determining whether an [[equilibrium point]] of an [[Ordinary differential equation|ODE]] is stable or not.
 

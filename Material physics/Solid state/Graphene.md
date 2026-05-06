@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 **Graphene** is a sheet of carbon [[atom|atoms]] in a hexagonal (honeycomb) pattern. It is precisely one atom thick and can therefore be regarded as two-dimensional. It is a well-studied system due to both its geometric simplicity and its practical use cases in physics and engineering.
 

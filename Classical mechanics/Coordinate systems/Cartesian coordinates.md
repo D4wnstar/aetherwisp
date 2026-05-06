@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 **Cartesian coordinates** are a system of coordinates defined by an [[Orthogonality|orthonormal]] [[basis]] where any given point in space is determined by a set of real numbers, called **coordinates**, that represent the distance between the point and a basis vector.
 ### Motion

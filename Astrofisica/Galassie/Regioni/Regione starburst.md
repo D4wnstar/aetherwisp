@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 Una **regione starburst** è una regione dello spazio dove si misura un'attività di formazione stellare molto più alta della media osservata per quel genere di regione, processo appunto chiamato *starburst*.
 

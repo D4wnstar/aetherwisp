@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 **Conditional entropy** is a quantification of [[Entropy (information theory)|Shannon entropy]] for two correlated variables. Given two [[Random variable|random variables]] $X$ and $Y$, the conditional entropy for $Y$ given $X$ is
 $$H_{Y|X}=-\sum_{x \in \mathcal{X}} p(x)\sum_{y\in \mathcal{Y}} p(y|x)\log_{2}p(y|x)$$

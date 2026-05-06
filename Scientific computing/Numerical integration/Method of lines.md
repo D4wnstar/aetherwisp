@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 The **method of lines** (**MOL**) is an algorithmic method to numerically evaluate a [[partial differential equation]] by reducing it to a system of approximated [[Ordinary differential equation|ordinary differential equations]]. The basic idea is to convert all derivatives into algebraic approximations, except the derivative that we want to numerically evaluated. In physics, this is usually time, while space derivatives are approximated.
 ### Method

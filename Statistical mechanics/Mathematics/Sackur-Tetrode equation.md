@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 The **Sackur-Tetrode equation** gives the [[entropy]] of a 3D classical monatomic [[ideal gas]]. Given a gas of $N$ [[Particle|particles]], it reads
 $$\frac{S}{k_{B}N}=\ln\left[ \frac{V}{N}\left( \frac{4\pi m}{3h^{2}} \frac{U}{N} \right)^{3/2} \right]+ \frac{5}{2}=\ln\left( \frac{V}{N\lambda ^{3}} \right)+ \frac{5}{2}=-\ln(n\lambda ^{3})+ \frac{5}{2}$$

@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 Un **buco nero** è una regione dello spazio dove lo [[Spacetime]] è talmente piegato da far sì che una qualunque [[linea di universo]] time-like con origine all'interno di un area sferica delimitata dall'[[orizzonte degli eventi]] rimanga sempre all'interno dell'orizzonte degli eventi. In altre parole, qualunque cosa oltrepassi l'orizzonte degli eventi o sia prodotta entro di esso è permanentemente bloccato al suo interno, luce inclusa.
 

@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 The **law of large number** is a law that states that the [[arithmetic mean]] of an [[iid]] random [[sample]] is guaranteed to converge to the [[expected value]] as the sample size becomes infinite.
 

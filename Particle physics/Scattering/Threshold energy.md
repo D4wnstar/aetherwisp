@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 The **threshold energy** of a [[particle]] process is the minimum [[energy]] required for the process to occur. It is "minimal" in the sense that the process consumes all of this energy just to happen: the daughter particles will therefore have zero [[kinetic energy]] as there is none left to transfer.
 

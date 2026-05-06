@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 Preso uno [[Spazio di Hilbert]] $H$ con un [[Sistema ortonormale completo]] $\{e_{i}\}$ e un vettore $v$, si dice **identità di Parseval** la seguente relazione
 $$||v||^{2}=\sum\limits_{i=1}^{\infty}|(e_{i},v)|^{2}$$

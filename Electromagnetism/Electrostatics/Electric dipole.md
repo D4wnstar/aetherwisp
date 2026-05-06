@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 A **physical electric dipole** is a system of two equal and opposite [[Electric charge|electric charges]] separated by a distance $d$. A **perfect electric dipole** is the limiting case when $d\to 0$. The magnetic analog is the [[magnetic dipole]].
 

@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 **Hund's rules** are a set of rules that explain how [[electron|electrons]] organize around an [[atom]]. They were originally found empirically and then developed theoretically later on.
 1. Complete [[electron shell model|electron shells]] have $L=S=0$. The values of $L$ and $S$ are determined exclusively by the incomplete shells.

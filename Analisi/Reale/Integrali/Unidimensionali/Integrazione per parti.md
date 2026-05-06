@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 L'**integrazione per parti** è una tecnica di integrazione che segue dalla regola di derivazione dei prodotti
 $$\frac{d}{dx}(fg)=f \frac{dg}{dx}+ \frac{df}{dx}g$$

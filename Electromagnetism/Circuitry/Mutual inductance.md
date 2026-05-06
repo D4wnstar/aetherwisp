@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 The **mutual inductance** $M$ of two [[electric current]] loops is the quantity that describes the amount of current that is induced from one loop to the other. It is a purely geometric quantity that relies on the size and shape of the loops.
 ### Derivation

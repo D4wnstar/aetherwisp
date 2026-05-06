@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 A **chi-square test** or **$\chi ^{2}$-test** is a type of [[hypothesis test]] on a [[sample]] of [[Gaussian distribution|Gaussian]] [[Random variable|random variables]]. It is a [[Gaussian parameter tests|Gaussian parameter test]], but it's common enough to warrant it's own article. It's popularity is due to the commonness of Gaussian samples, alongside the simplicity and usefulness of the test.
 

@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 ### Preparatory topics
 - [[Maxwell's equations]] from electromagnetism

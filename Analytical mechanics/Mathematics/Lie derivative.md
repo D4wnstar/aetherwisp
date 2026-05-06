@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 The **Lie derivative** is a derivative [[Operatore|operator]] defined on a [[dynamical variable]] $G:\mathbb{R}^{N}\mapsto \mathbb{R}$ and a [[vector field]] $f(\mathbf{x})$ as
 $$\begin{align}

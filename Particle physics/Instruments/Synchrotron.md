@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 A **synchrotron** is a type of circular [[particle accelerator]] that combines an alternating [[electric field]] with an variable [[magnetic field]] to accelerate [[particle|particles]]. The magnetic field is varied in time to synchronize (hence the name) with the increasing [[relativistic energy]] of the particles in order to keep the trajectory under control. Whereas in the older [[cyclotron]] the trajectory was an outgoing spiral, in a synchrotron it is a closed circle, provided the magnetic field's intensity synchronizes with the particles' energy. This allows synchrotrons to have a [[torus]]-shaped construction instead of the [[disk]]-shaped one of cyclotrons. This design geometry allowed for the creation of the first [[Particle accelerator|particle colliders]] and would later go on to be the foundation of [[storage ring|storage rings]].
 

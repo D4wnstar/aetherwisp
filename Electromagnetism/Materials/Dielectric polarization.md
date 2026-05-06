@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 **Dielectric polarization** is the phenomenon where a [[dielectric]] that is subject to an [[electric field]] will develop an [[electric dipole moment]] for as long as the field is active. If the [[molecule|molecules]] that make up the dielectric are either symmetric or asymmetric but randomly ordered (such as in a liquid), the direction of the moment will be that of the field. In other situations, like in a [[crystal]], the orientation will differ.
 

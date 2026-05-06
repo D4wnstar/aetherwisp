@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 The **method of images** is a method for solving electrostatics problems that exploits the uniqueness of solutions for [[Laplace's equation]], which determines the [[electric potential]]. The method consists of modifying the system in such a way that the solution becomes more tractable and the conditions in the region of interest are identical to the unmodified system. The conditions outside the region will be different, but they can be discarded without an issue. Since the solution to Laplace's equation is unique, it doesn't matter that it was found in a different system: the conditions are the same where it matters, so the solution is correct.
 

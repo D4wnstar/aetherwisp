@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 A **Feynman diagram** is a schematic representation of an [[Fundamental interaction|interaction]] between [[Particle|particles]]. Although they are graphical tools, the components are defined in such a way as to represent fully rigorous calculations and are therefore reliable ways of describing interactions. They are used for both [[particle scattering]] and [[particle decay]].
 

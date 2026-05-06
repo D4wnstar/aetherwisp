@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 An **equilibrium point**, in mathematics, is a constant solution to a differential equation. Given a generic [[Ordinary differential equation|ODE]] $\dot{\mathbf{x}}(t)=f(\mathbf{x}(t))$, an equilibrium point is a solution $\mathbf{x}(t)=\mathbf{c}$. They are called equilibrium *points* because their "trajectories" in [[phase space]] are actually just a single point, unlike the usual [[curve]]. Unless perturbed, the system never moves out of the equilibrium point.
 ### Properties

@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 An **electromagnetic wave** is a [[wave]] produced by the periodic variation and mutual [[Electromagnetic induction|induction]] of an [[Electric field|electric]] and a [[magnetic field]]. It is a [[transverse wave]], which means that the fields are always [[Orthogonality|orthogonal]] to the direction of propagation.
 

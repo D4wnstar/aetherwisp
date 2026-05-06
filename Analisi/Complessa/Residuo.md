@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 Il **residuo** di una [[Singolarità isolata]] in $z_{0}$ di una [[Funzione analitica]] $f(z)$ in un intorno di $z_{0}\;\backslash\;\{z_{0}\}$ è definito come
 $$\text{Res}_{f}(z_{0})=\frac{1}{2\pi i}\oint_{\gamma}f(z)dz$$

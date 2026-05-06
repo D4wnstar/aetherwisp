@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 The **rapidity** $y$ is an alternative quantity to represent the speed of a [[Particle]], typically in the context of relativity. Given the relativistic speed coefficient $\beta=v/c$, where $c$ is the [[speed of light]], the rapidity is defined as its hyperbolic arctangent:
 $$y=\text{arctanh } \beta$$

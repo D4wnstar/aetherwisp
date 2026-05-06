@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 The **curl** $\nabla\times\mathbf{F}$ of a [[Differential|differentiable]] vector function $\mathbf{F}$ is a [[Vector field|vector field]] that represents the [[circulation]] of $\mathbf{F}$ around a point. In simpler terms, it describes how much $\mathbf{F}$ curls or wraps around a point, like a whirlpool.
 

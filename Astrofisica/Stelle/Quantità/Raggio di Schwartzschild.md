@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 Il **raggio di Schwartzschild** $R_{Sch}$ è una quantità associata ad un qualunque corpo massivo che definisce il raggio dell'[[orizzonte degli eventi]]. Esso vale
 $$R_{Sch}=\frac{2GM}{c^{2}}$$

@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 La **metallicità** $Z$ di una [[Stella|stella]] è la frazione di massa in elementi metallici di cui è composta.
 

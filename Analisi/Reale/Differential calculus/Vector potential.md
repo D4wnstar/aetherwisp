@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 A **vector potential** is a [[Vector field]] $\mathbf{A}:S\subseteq \mathbb{R}^{N}\to \mathbb{R}^{N}$ associated with another vector field $\mathbf{F}:S\subseteq \mathbb{R}^{N}\to \mathbb{R}^{N}$  such that its [[curl]] is the vector field:
 $$\nabla\times\mathbf{A}=\mathbf{F}$$

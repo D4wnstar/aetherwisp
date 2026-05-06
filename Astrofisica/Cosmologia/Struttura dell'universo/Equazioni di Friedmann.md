@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 Le **equazioni di Friedmann** sono un insieme di equazioni che spiegano l'[[Espansione dell'universo]] in un modello cosmologico che obbedisce al [[Principio cosmologico]]. Derivano da una soluzione dipendente dal tempo dell'[[equazione di Einstein]].
 ## Derivazione dalle leggi di Newton

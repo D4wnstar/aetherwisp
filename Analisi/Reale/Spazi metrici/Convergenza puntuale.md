@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 Una successione di funzioni $\{f_{n}\}_{n\in\mathbb{N}}$ si dice **puntualmente convergente** ad una funzione $f$ se vale
 $$\lim\limits_{n \rightarrow \infty}f_{n}(x)=f(x)$$

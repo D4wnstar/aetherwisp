@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 The **Drude model** or **Drude-Lorentz model** is an approximate model of electrical conduction within a material, primarily metals. It is a kinetic gas model using [[electron|electrons]] as neutral [[Particle|particles]] in metal.
 ### Qualitative description

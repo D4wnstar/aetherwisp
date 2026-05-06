@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 aliases:
   - rappresentazione della posizione
   - rappresentazione del momento

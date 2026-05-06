@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 The **multinomial distribution** is a discrete multivariate [[Probability distribution]] that acts as the many-outcome extension to the [[binomial distribution]]. Whereas the binomial distribution models events with two outcomes (e.g., true or false), the multinomial distribution models events with an arbitrary number of outcomes.
 

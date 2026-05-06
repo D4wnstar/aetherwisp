@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 The **fundamental interactions** or **fundamental forces** are the most elementary forces of the Universe, in the sense that they are not reducible to more elementary components. In the modern [[Universe]] there exist four of them:
 1. [[Gravity]]

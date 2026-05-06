@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 Il **Big Bang** è l'evento che ha dato inizio all'espansione dell'universo. Usando la [[Legge di Hubble]], si può predire un momento nel tempo in cui la densità dell'Universo era infinita; questo momento è detto Big Bang. La teoria corrente afferma che all'inizio dell'universo, questo era compresso in uno spazio estremamente piccolo (sebbene non infinitamente piccolo) e caldissimo, da cui il nome *Big Bang caldo*.
 

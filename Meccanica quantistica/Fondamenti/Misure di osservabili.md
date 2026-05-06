@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 Consideriamo un'[[Osservabile]] $A$ e il suo [[Operatore autoaggiunto]] associato $\hat{A}$. Prendo un [[Notazione braket|ket]] $|\psi\rangle\in\mathcal{H}$ con $\mathcal{H}$ uno [[Spazio di Hilbert]] e $\psi$ una [[Funzione d'onda]] che rappresenta lo [[Stato]] del mio sistema. Dato che la meccanica quantistica è una teoria statistica, è conveniente trovare il valor medio di un'osservabile:
 $$\boxed{\langle A\rangle_{\psi}=\langle \psi|\hat{A}|\psi\rangle}$$

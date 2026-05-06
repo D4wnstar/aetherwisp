@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 The **Larmor formula** gives the [[electromagnetic radiation|radiated]] [[radiant power|power]] emitted by an accelerating [[Electric charge|point charge]] $q$:
 $$P=\frac{\mu_{0}q^{2}a^{2}}{6\pi c}$$

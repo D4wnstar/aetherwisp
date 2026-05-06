@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 The **virtual work** $\delta W$ done by a [[force]] $\mathbf{F}$ on a mechanical [[Physical system|system]] is the [[work]] that the force *would* do over a [[virtual displacement]] $\delta \mathbf{r}$. Mathematically, it is the [[scalar product]] between the two:
 $$\delta W=\mathbf{F}\cdot \delta \mathbf{r}$$

@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 Il **limite di Hayashi** è un limite teorico sulla temperatura superficiale minima di una [[Stella]] in equilibrio idrostatico, pari a circa 3000 K.
 

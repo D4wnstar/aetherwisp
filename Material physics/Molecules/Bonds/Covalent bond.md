@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 A **covalent bond** is a primary [[chemical bond]] caused by the sharing of [[electron|electrons]] between two [[atom|atoms]]. Each atom contributes one electron, forming an **electron pair** (also called **bonding pair**).
 

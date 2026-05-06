@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 La **temperatura efficace** di una [[Stella]] o in generale di un corpo celeste è la temperatura che avrebbe un [[corpo nero]] sferico dello stesso raggio e [[Luminosità]] bolometrica del corpo. Viene spesso usata come approssimazione della temperatura superficiale di alcuni corpi celesti che si sanno avere spettro vicino a quello di un corpo nero, in particolare stelle e [[Pianeta|pianeti]].
 

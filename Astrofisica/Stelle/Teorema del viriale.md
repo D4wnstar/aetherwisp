@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 Il **teorema del viriale** ci dà una relazione tra l'energia cinetica totale e l'energia potenziale totale di un sistema discreto di [[Particle|particelle]] legate fra loro da una [[forza conservativa]]. Questo si applica, ad esempio, a sistemi di gas perfetto in equilibrio idrodinamico, orbite Kepleriane e il moto di [[Stella|stelle]] in [[Ammasso stellare|ammassi]] o [[Galassia|galassie]].
 

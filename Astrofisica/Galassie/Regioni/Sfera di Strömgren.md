@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 Una **sfera di Strömgren** è una [[Regione H II]] sferica possibilmente presente attorno ad una [[Stella]] giovane di [[Classe stellare]] O o B. Questo oggetto è osservato come una [[nebulosa a emissione]].
 ### Formazione

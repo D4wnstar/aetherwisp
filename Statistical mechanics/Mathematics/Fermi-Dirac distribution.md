@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 The **Fermi-Dirac distribution** is a [[Probability distribution]] that describes the behavior of a [[Physical system|system]] of $N$ non-interacting [[Fermion|fermions]] in [[thermal equilibrium]]. Its [[Probability density function]] is
 $$\langle n_{i} \rangle =\frac{1}{e^{\beta(\varepsilon_{i}-\mu)}+1}=\frac{1}{z^{-1}e^{\beta \varepsilon_{i}}+1}$$

@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 The **eightfold way** is a 1961 theoretical model to classify and organize [[hadron|hadrons]] in a structured manner. It depicts [[meson|mesons]] and [[baryon|baryons]] in geometric groups reminiscent of [[group]] theory. It also highlights the divide between ground state particles and [[Particle resonance|resonances]]. It was developed by American physicist Murray Gell-Mann and led to the development of the [[quark model]].
 ### Development

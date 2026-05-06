@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 Chiamo **matrice di Hadamard** la matrice
 $$U= \frac{1}{\sqrt{2}}\left(\matrix{1 & 1 \\ 1 & -1}\right)$$

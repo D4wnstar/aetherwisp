@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 The **Pauli exclusion principle** is the phenomenon where two [[Fermion|fermions]] in the same [[Physical system|system]] cannot simultaneously occupy the same [[Stato|state]]. It is a consequence of the [[Stato total-antisimmetrico|antisymmetry]] of a fermion system's [[Funzione d'onda|wavefunction]].
 ### Origin

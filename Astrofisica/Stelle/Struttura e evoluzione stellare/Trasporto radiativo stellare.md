@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 Considero un elemento di volume cilindro pieno di [[Particle|particelle]] ad una temperatura $T$ all'interno di una [[Stella]].
 

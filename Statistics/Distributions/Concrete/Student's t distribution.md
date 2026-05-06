@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 The **Student's $t$ distribution** is a real, continuous [[Probability distribution]] commonly used in statistical inference. Given a [[Gaussian distribution|standard-normal]]-distributed [[Random variable]] $Z\sim \mathcal{N}(0,1)$ and a [[Chi-square distribution|chi-square]]-distributed one $X\sim \chi ^{2}_{n}$, the [[Probability density function]] is
 $$T=\frac{Z}{\sqrt{ X/n }}$$

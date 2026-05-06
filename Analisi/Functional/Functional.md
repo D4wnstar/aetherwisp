@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 Given a space of functions $U$, a **functional** defined on $U$ is a map $F$ that maps a function $u\in U$ to a [[scalar]] number:
 $$\begin{align}

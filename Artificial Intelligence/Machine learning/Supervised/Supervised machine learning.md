@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 **Supervised machine learning** is a branch of [[machine learning]] that studies learning techniques based on a [[dataset]] of examples, meaning pairs of observations and responses. The machine learns how to connect the two by inferring relationships from the examples.
 ## Formalism

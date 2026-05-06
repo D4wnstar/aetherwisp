@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 Measuring the [[mean lifetime]] of an object is a very variable task. There's a lot of different objects to measure ([[Particle|particles]], [[Atomic nucleus|nuclei]], [[atom|atoms]], [[Molecule|molecules]]...) as well as enormous jumps in scale (anywhere from $10^{-24}$ seconds to $10^{10}$ years).  There are therefore a number of ways one may go about measuring lifetime.
 ### Near-stable

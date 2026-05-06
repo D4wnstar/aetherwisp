@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 **Laplace's equation** is a second-order linear [[partial differential equation]]
 $$\nabla^{2}\psi=0$$

@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 A **photon** is an [[Particle|elementary particle]] that acts as the quantum and carrier of [[Electromagnetism|electromagnetic interaction]]. It is a [[Boson|boson]] with [[spin]] 1 and zero [[mass]]. Being a massless particle, its [[energy]] is determined by its frequency through the [[Planck formula|Planck formula]] $E=\hbar \omega$.
 

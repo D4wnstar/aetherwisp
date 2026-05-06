@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 Una **galassia starburst** è una [[Galassia]] che presenta tassi di formazione stellare estremamente alti rispetto a quanto osservato in altre galassie. In sostanza, l'intera galassia è una [[Regione starburst]].
 

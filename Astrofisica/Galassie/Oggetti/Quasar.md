@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 Un **quasar**, abbreviazione di **quasi-stellar radio source**, è un [[Nucleo galattico attivo]] (AGN) estremamente luminoso. Convenzionalmente, un quasar è una radiogalassia la cui controparte ottica è un [[Quasi-Stellar Object|QSO]], anche se tipicamente si chiamano quasar tutti i QSO, anche se non sono radiogalassie. Un quasar si considera tale se ha $M_{V}<-23$ e $L_{X}>10^{44}$ erg/s.
 

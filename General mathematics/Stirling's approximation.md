@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 **Stirling's approximation** is an asymptotic approximation of a factorial, or more generally of the [[Gamma function]]. It reads
 $$\ln n! =n\ln n-n+O(\ln n)$$

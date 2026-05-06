@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 An **ionic bond** is a primary [[chemical bond]] caused by the [[electromagnetic interaction|electromagnetic]] attraction between [[ion|ions]]. These ions are formed by the transfer of an [[electron]] from one stable [[atom]] to another, leaving them both [[Electric charge|electrically charged]]. The reduction in total [[energy]] is due to moving into an [[electric potential]] well.
 

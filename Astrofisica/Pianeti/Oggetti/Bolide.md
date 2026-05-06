@@ -1,4 +1,4 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 Un **bolide** è un [[Meteorite]] che entra nell'atmosfera terrestre e comincia ad evaporare per via dell'atmosfera. Le stelle cadenti sono bolidi.

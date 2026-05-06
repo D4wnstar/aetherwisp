@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 **Mass spectrometry** is a high-precision technique (about $10^{-6}$ [[atomic mass unit|atomic mass units]]) for measuring the [[mass]] of an [[atom]] or [[ion]]. The instrument itself is called a **mass spectrometer**. It was the first experimental technique to permit measurements of this precision.
 ### Operation

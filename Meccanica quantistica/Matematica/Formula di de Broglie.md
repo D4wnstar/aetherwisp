@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 aliases:
   - lunghezza d'onda di de Broglie
   - lunghezza d'onda di De Broglie ridotta

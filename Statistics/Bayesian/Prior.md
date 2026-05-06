@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 The **prior distribution** or **prior** is an assumed probability distribution that represents existing knowledge about a process. In other words, it is the probability distribution assumed in the absence of data about the problem.
 

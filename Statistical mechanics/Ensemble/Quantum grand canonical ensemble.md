@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 The **quantum grand canonical ensemble** is the quantum extension of the [[grand canonical ensemble]]. Its [[Matrice di densità|density matrix]] is
 $$\hat{\rho}=z^{N}Q_{N}(V,T)$$

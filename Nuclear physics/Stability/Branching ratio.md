@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 In [[Atomic nucleus|nuclei]] that [[Nuclear decay|decay]] in more than one mode, **branching ratios** (**BR**) are numbers that determine how likely one decay mode is compared to the others. They are numbers between 0 and 1 and as such may be interpreted as the [[Probability]] of a given decay mode occurring. Over an entire material, they are the fraction of the material that decays in that mode. The total of all branching ratios for a [[nuclide]] must equal one:
 $$\text{BR}_{1}+\ldots+\text{BR}_{N}=1\quad\text{where}\quad\text{BR}_{i}\in[0,1]$$

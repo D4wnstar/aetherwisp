@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 An **equilibrium configuration** is a [[Generalized coordinates|configuration]] that leaves a [[Physical system|system]] at rest. By definition, $\mathbf{q}^{*}$ is an equilibrium configuration for the [[Lagrange equation]] if $\mathbf{c}\equiv(\mathbf{q}^{*},0)$ is an [[equilibrium point]] for the system.
 

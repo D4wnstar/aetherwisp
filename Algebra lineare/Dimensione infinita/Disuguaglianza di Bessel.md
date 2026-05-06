@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 In uno [[Spazio di Hilbert]] generico con un sistema [[Orthonormality|ortonormale]] $\{e_{1},e_{2},\ldots\}$, preso un vettore $v$, dice **disuguaglianza di Bessel** la seguente espressione
 $$||v||^{2}\geq\sum\limits_{i=1}^{\infty}|(e_{i},v)|^{2}=\sum\limits_{i=1}^{\infty}|a_{i}|^{2}$$

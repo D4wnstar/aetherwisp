@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 A **surface**, technically a **parametric surface**, is a continuous function that maps a two-dimensional space to a three-dimensional one: $\Phi : \Omega\subset \mathbb{R}^{2} → \mathbb{R}^{3}$, $\Phi(u,v)=(x(u,v),y(u,v),z(u,v))$, where $u$ and $v$ are called **parameters** of the surface. The image $\Sigma=\Phi(\Omega)$ is called the **support** of the surface.
 ### Properties

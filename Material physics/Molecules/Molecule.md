@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 A **molecule** is a bound [[Physical system|system]] of at least two [[Atomic nucleus|atomic nuclei]] and their [[electron|electrons]]. Molecules containing two nuclei are said to be **diatomic**, whereas ones containing more than two are said to be **polyatomic**. The [[stato|states]] in which the electrons are in are called [[molecular orbital|molecular orbitals]].
 

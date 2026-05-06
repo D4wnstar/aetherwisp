@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 A **conductor** is a material that contains a large (ideally infinite) number of free [[electric charge|electric charges]], typically [[Electron|electrons]] or [[ione|ions]].
 ### Properties

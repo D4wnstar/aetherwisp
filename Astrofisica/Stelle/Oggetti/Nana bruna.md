@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 Una **nana bruna** è una [[Stella]] che non è mai riuscita ad innescare la [[Nuclear fusion]] dell'idrogeno a causa della massa troppo bassa. Queste stelle diventano [[Pressione degenere|materia degenere]] prima di arrivare a temperatura sufficientemente alta per fondere idrogeno nel loro nucleo. La massa minima per l'accensione dell'idrogeno stabile in una stella è di $M_{min}=0.08M_{\odot}$, quindi questo il limite superiore di massa delle nane brune.
 

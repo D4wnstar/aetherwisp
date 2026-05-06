@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 The **capacitance** $C$ of a system of two [[Conductor|conductors]] is the constant of proportionality between their [[Electric charge|charges]] and their [[electric potential]]. For two conductors with charges $Q$ and $-Q$ respectively, their capacitance is
 $$C=\frac{Q}{V}=\frac{Q}{V_{+}-V_{-}} \qquad [\text{F}]\equiv\left[ \frac{\text{C}}{\text{V}} \right]$$

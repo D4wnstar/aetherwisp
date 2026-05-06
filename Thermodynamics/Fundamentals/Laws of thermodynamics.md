@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 aliases:
   - first law of thermodynamics
   - second law of thermodynamics

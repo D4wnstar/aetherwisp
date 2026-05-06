@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 The **cohesive energy** of a solid is the [[energy]] required to disassemble it into its constituent parts. It is a form of [[binding energy]]. It is the difference in the total energy of each individual [[atom]] of the solid and the energy of the solid itself.
 $$\text{cohesive energy}=\text{energy of atoms}-\text{energy of solid}$$

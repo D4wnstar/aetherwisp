@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 The **exponential distribution** is a continuous [[Probability distribution]] over non-negative reals $[0,\infty)$. For a [[Random variable]] $X$, the [[Probability density function]] is
 $$f_{X}(x;\tau)=\frac{1}{\tau}e^{-x/\tau}$$

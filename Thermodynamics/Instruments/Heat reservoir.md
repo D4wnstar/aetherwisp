@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 A **heat reservoir** is a body so large, [[heat]] exchange with other bodies incurs no noticeable variation in its [[temperature]]. It can seen as a body with massive [[heat capacity]], at least with respect to the amount of heat being transferred.
 

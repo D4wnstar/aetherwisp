@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 The **Joule effect** is the phenomenon whereby an [[electric current]] $I$ traversing a material of nonzero [[electrical resistance]] $R$ dissipates [[heat]], the amount of which is dependent on the intensity of the current. For a material subject to an [[electric potential]] difference $\Delta V$,  the power output in heat is
 $$P=I\Delta V=RI^{2}=\frac{\Delta V^{2}}{R}$$

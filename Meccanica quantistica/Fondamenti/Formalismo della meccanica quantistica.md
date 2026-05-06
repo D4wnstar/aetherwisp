@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 La meccanica quantistica è sostanzialmente un'applicazione dell'algebra lineare a dimensioni infinita e della teoria degli [[Operatore|operatori]]. Si usa quindi una certa notazione che porta a semplificare la parte grafica della matematica necessaria per i calcoli.
 

@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 A **potential** is a [[scalar field]] $V:A\subseteq \mathbb{R}\to \mathbb{R}^{N}$ associated with a [[Vector field]] $\mathbf{F}:A\subseteq \mathbb{R}^{N}\to \mathbb{R}^{N}$ such that its [[gradient]] is the vector field with the sign changed:
 $$\mathbf{F}=-\nabla V$$

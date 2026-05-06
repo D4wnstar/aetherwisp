@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 An **ideal crystal** is a solid-state material with a periodic, perfectly geometric [[Bravais lattice]]. It is the simplest mathematical description of a [[crystal]], much like how an [[ideal gas]] is the simplest description of a [[gas]]. The [[Hamiltonian]] is
 $$H=\underbrace{ \sum_{i} \frac{p_{i}^{2}}{2m_{i}}+ \sum_{j} \frac{P_{j}^{2}}{2M_{j}} }_{ \text{Kinetic terms} }+ \underbrace{ \frac{1}{2}\sum_{j,j'} \frac{Z_{j}Z_{j'}e^{2}}{\lvert \mathbf{R}_{j}-\mathbf{R}_{j'} \rvert } }_{ \text{Ion-ion interaction} }+ \underbrace{ \frac{1}{2}\sum_{i,i'} \frac{e^{2}}{\lvert \mathbf{r}_{i}-\mathbf{r}_{i'} \rvert } }_{ \text{Electron-electron interaction} }-\underbrace{ \sum_{i,j} \frac{Z_{j}e^{2}}{\lvert \mathbf{r}_{i}-\mathbf{R}_{j} \rvert } }_{ \text{Ion-electron interaction} }$$

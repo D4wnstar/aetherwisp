@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 All'inizio, a $t=0$, è accaduto il [[Big Bang]]. Le fasi successive accadono tutte nel giro di frazioni infinitesime di secondo. In particolare, si divide l'universo in epoche:
 1. **Universo molto primordiale**:

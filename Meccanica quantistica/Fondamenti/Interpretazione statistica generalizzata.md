@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 L'**interpretazione statistica generalizzata** è una spiegazione probabilistica della meccanica quantistica e dei suoi meccanismi.
 

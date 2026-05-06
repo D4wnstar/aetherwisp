@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 The **ideal gas constant** is a constant found in the [[Ideal gas|ideal gas law]]:
 $$\begin{align}

@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 **Degrees of freedom** are a quantitative description of the number of "ways a [[Physical system|system]] can move". The concept of motion here is not necessarily typical mechanical movement, and is more generally the change of any parameter.
 

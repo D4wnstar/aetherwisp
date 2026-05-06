@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 The **conditional distribution function**[^1] of a set of $N$ [[Random variable|random variables]] is the function that gives the [[Probability]] of any outcomes when the value of one or more of the random variables is already known in advance. For instance, if the variables are four dice being rolled together, the conditional distribution function answers the question "what's the probability that the fourth die will roll a 5 if the other dice rolled a 3, a 4 and a 1?"
 

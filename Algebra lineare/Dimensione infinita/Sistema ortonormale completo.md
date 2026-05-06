@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 Un sistema di vettori ortonormali $\{e_{i}\}$ si dice **completo** in uno [[Spazio di Hilbert]] $H$ se per ogni $v\in H$ la [[Serie di Fourier]] di $v$ rispetto a tale sistema converge a $v$ stesso nella norma di $H$, ossia $||\overline{v}_{n}-v|| \rightarrow 0$, e si scrive
 $$v=\sum\limits_{i=1}^{\infty}a_{i}e_{i}\quad;\quad a_{i}=(e_{i},x)$$

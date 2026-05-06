@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 Il **limite di Chandrasekhar** è la più alta massa che una [[Nana bianca]] stabile può avere ed è pari a circa
 $$M_{Ch}=1.44M_{\odot}$$

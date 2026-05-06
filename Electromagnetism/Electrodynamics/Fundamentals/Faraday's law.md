@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 **Faraday's law** gives a mathematical quantification of [[Electromagnetic induction]]. It states
 $$\nabla\times\mathbf{E}=- \frac{ \partial \mathbf{B} }{ \partial t } $$

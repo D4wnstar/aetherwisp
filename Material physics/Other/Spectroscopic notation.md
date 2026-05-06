@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 **Spectroscopic notation** is a convention for denoting the values of [[Numero quantico|quantum numbers]], especially in the context of [[atom|atomic]] and [[Molecule|molecular]] quantum numbers.
 ### Atomic orbitals

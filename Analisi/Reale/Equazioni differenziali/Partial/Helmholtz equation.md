@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 The **Helmholtz equation** is a second-order [[elliptic partial differential equation]]
 $$\nabla ^{2}\psi=-k^{2}\psi$$

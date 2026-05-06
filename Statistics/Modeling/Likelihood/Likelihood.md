@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 The **likelihood function** or simply **likelihood** provides a measure of how well a set of [[Sample|population parameters]] applied to a statistical [[model]] describes a [[sample]]. Mathematically, it is a specific interpretation of the [[joint distribution function]] that the sample's [[Random variable|random variables]] follow, but instead of setting parameters and changing samples, one sets the sample and changes the parameters.
 

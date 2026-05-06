@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 An **antiparticle** is the inverse form of a [[particle]]. Each particle is predicted to have an antiparticle sibling, which is identical to the particle save for the fact that all [[quantum number|quantum numbers]] are reversed. The [[mass]] remains the same.
 

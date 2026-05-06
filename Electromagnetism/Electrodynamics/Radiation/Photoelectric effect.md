@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 The **photoelectric effect** is a phenomenon in which [[electromagnetic radiation]] is absorbed by a material, leading to the [[ionization]] of an [[atom]] and the emission of a free [[electron]]. The incident [[electromagnetic wave]] ([[Photon]]) transfers enough [[kinetic energy]] to a [[electron shell model|valence electron]] to overcome its [[binding energy]] and break it out of the atom's [[potential energy|potential]] well.
 ### Mechanism

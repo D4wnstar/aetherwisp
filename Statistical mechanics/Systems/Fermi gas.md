@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 A **Fermi gas** is a model for a [[Physical system|system]] of many non-interacting [[Fermion|fermions]], the simplest example of which is a fermionic [[ideal gas]]. The key property is that fermions are subject to the [[Pauli exclusion principle]] and can't simultaneously occupy the same [[stato|state]], which leads to a "pseudo-[[Potential|potential]]" that pushes fermions away from each other.
 ## Zero temperature and Fermi energy

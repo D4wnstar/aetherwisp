@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 The **Hamilton-Jacobi equation** (or **HJ equation**) is the equation
 $$H\left( \frac{ \partial F_{2} }{ \partial q } (\tilde{\mathbf{p}},\mathbf{q},t),\mathbf{q},t \right)+\frac{ \partial F_{2} }{ \partial t } (\tilde{\mathbf{p}},\mathbf{q})=0$$

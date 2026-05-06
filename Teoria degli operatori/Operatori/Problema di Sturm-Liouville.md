@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 Un **problema di Sturm-Liouville** è un'[[Equazione agli autovalori]] associata all'equazione
 $$\frac{1}{\rho(x)}\left[\frac{d}{dx}\left(p(x) \frac{d}{dx}\right)-q(x)\right]u(x)+\lambda u(x)=0\tag{1}$$

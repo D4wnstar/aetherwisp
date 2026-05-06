@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 The **fugacity** $z$ is a quantity that represents a [[Physical system|system]]'s tendency to expand isothermically. In terms of the [[chemical potential]] $\mu$ it is defined as
 $$z\equiv e^{\beta \mu}$$

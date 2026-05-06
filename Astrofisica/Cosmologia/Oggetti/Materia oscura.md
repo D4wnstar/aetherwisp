@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 La **materia oscura** è una forma ipotetica di [[Materia]] che non [[Electromagnetism|interagisce elettromagneticamente]] ed è quindi invisibile. L'unica sua forma di interazione osservabile è quella [[Gravity|gravitazionale]].
 ### Evidenza

@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 **Maxwell's equations** are four equations that determine the [[divergence]] and [[curl]] of the [[Electric field|electric]] and [[magnetic field]]. In the vacuum they are
 $$\boxed{\begin{align}

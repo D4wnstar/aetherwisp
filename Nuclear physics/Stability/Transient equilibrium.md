@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 **Transient equilibrium** is the state of a [[Radioactive decay law|decay chain]] in which the [[Activity|activities]] of a parent-daughter [[Atomic nucleus|nuclei]] pair have a constant ratio. In this state, the daughter nuclei rate of decay follows that of the parents.
 

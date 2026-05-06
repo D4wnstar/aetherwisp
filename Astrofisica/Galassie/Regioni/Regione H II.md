@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 Una **regione H II** è una regione dello spazio da cui si osserva una forte [[Riga spettrale|riga di emissione]] $H\ II$, ossia al riga del primo [[stato]] eccitato dell'[[atomo di idrogeno]]. In altre parole, è una regione dello spazio composta da idrogeno [[ionizzazione|ionizzato]].
 

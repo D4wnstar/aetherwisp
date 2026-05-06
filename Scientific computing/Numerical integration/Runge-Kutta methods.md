@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 aliases:
   - Runge-Kutta 4
   - Dormand-Prince 5(4)

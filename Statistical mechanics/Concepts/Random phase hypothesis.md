@@ -1,4 +1,4 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 The **random phase hypothesis** (or postulate, or approximation) is an assumption that is made in [[quantum statistical mechanics]]. It claims that a [[stato|state]] of equilibrium can be seen as an incoherent superposition of states. In other words, there is no [[quantum interference]] between separate [[ampiezza di probabilità|probability amplitudes]], and [[Probability|probabilities]] can be summed over without worrying about cross terms. This allows one to express an equilibrium state as a simple sum over pure [[Equazione agli autovalori|eigenstates]].

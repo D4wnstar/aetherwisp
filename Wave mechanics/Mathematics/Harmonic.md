@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 A **harmonic** is a [[Plane wave|sine wave]] whose [[Frequency|angular frequency]] is an integer multiple of another sine wave, called the **first harmonic**. Calling $\omega$ the frequency of the first harmonic (the **fundamental frequency**), all harmonics have frequency $n\omega$, where $n\in \mathbb{N}$ and $n\neq 0$.
 

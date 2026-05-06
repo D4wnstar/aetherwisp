@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 The **binomial distribution** is a real discrete [[Probability distribution]] that describes events that can only take two values: true or false, head or tails, etc.. It is described by one parameter: $p$, which is the [[Probability]] of one of the two values occurring. We also define $q=1-p$, which is the probability of the other value occurring.
 

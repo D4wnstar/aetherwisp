@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 The **Helmholtz free energy** $A$ or $F$ is a measure of the energy of a system. It is defined as
 $$A=U-TS$$

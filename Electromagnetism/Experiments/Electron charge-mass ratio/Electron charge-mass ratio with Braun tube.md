@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 This experiment measures the [[electron]]'s [[Electric charge|charge]] to [[mass]] ratio $e/m_{e}$ by determining the exact [[Electric field|electric]] and [[Magnetic field|magnetic fields]] that, when applied to a straight beam of electrons, cancel each other's force out and cause no net variation. Since the force depends on the charge-mass ratio, it can be indirectly measured by finding when the fields cancel each other's effects out. The experiment is similar in principle to the [[electron charge-mass ratio with thin beam]] experiment, but the theory behind is more elegant, at the cost of being more difficult to get precise and accurate results out of.
 

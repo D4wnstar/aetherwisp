@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 In information theory, a **source code** is the collection of strings expressed in a predetermined set of symbols called an alphabet that encode some or all of the possible outcomes of a random event.
 ### Definitions

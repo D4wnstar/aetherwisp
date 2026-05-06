@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 L'**operatore di parità** è l'[[operatore]] $\hat{\pi}:L^{2}([-a,a],dx)\to L^{2}([-a,a],dx)$ che inverte il segno dell'argomento di una funzione:
 $$(\hat{\pi}\psi)(x)=\psi(-x)$$

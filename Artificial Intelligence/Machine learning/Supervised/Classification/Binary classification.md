@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 **Binary classification** is a kind of [[classification]] where there are only two possible classes. Typically, these two classes are some variation of "true" and "false". Binary classification is very common, as every "yes or no" question essentially implies a binary classifier. Some examples are: detecting if an email is spam or not, determining whether an image contains a dog or not, or determining if a person is affected by a disease or not.
 ### Assessment

@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 The **standard error** is a metric of error for a [[scalar]] [[estimator]]. Given an estimator $\hat{\theta}$, it is defined as
 $$\text{SE}(\hat{\theta})=\sqrt{ \text{var}(\hat{\theta}) }$$

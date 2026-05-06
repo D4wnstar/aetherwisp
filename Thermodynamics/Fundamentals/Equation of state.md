@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 The **equation of state** of a [[physical system]] in [[thermal equilibrium]] is a function that takes a system's thermodynamic, macroscopic variables as arguments and constrains them. This is usually [[pressure]], volume and [[temperature]]:
 $$f(P,V,T)=0$$

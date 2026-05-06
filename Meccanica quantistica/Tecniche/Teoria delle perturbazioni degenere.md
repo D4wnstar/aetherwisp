@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 La **teoria delle perturbazioni degenere** è una forma della [[teoria delle perturbazioni]] indipendente dal tempo nella quale gli [[Equazione agli autovalori|autovalori]] dell'[[Hamiltonian|Hamiltoniana]] imperturbata sono [[degenerazione|degeneri]]. Ciò vale a dire che, presi due o più [[stato|stati]] distinti del sistema non perturbato $\psi_{a}^{0}$ e $\psi_{b}^{0}$, questi hanno la stessa energia. In questo caso, la forma [[Teoria delle perturbazioni non degenere|non degenere]] della teoria fallisce, dato che il denominatore $E_{n}^{0}-E_{m}^{0}$ è zero per $n=a$ e $m=b$.
 

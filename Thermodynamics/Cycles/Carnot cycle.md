@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 The **Carnot cycle** is the most theoretically efficient [[thermodynamic transformation]] cycle, made up of two isotherms and two adiabatic transformations.
 

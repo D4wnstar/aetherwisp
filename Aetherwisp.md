@@ -1,6 +1,8 @@
 ---
-wiki-home: true
-wiki-publish: true
+hl-publish: true
+hl-frontpage: true
+hl-project-title: "Aetherwisp"
+hl-allow-mermaid-ink: true
 ---
 Welcome to Aetherwisp! This is a scientific outreach project that tries to provide free and open educational material in science. It is a large corpus of work totaling over 350,000 words, organized by field and topic, covering an ever-expanding number of fields.
 
@@ -16,7 +18,7 @@ Hi! I am Samuele Vignoli, currently a physics student at the University of Tries
 #### FAQ
 **Q.** What do you use to write and publish these?
 
-**A.** These notes are all written in [Obsidian](https://obsidian.md/). I use the [latex-suite](https://github.com/artisticat1/obsidian-latex-suite) plugin to make writing LaTeX 100 times faster, which is what allows me to write in real time during lectures and not spend ages just typesetting math. I make plots and diagrams with [obsidian-excalidraw](https://github.com/zsviczian/obsidian-excalidraw-plugin) when they are not taken from other sources like Wikipedia. These notes are then turned into a website with my personal [wiki-generator](https://github.com/D4wnstar/wiki-generator) Obsidian plugin. The website itself is hosted on [Vercel](https://vercel.com). The Obsidian vault that contains this entire project is also publicly available on GitHub [here](https://github.com/D4wnstar/aetherwisp).
+**A.** These notes are all written in [Obsidian](https://obsidian.md/). I use the [latex-suite](https://github.com/artisticat1/obsidian-latex-suite) plugin to make writing LaTeX 100 times faster, which is what allows me to write in real time during lectures and not spend ages just typesetting math. I make plots and diagrams with [obsidian-excalidraw](https://github.com/zsviczian/obsidian-excalidraw-plugin) when they are not taken from other sources like Wikipedia. These notes are then turned into a website with my personal [hl-generator](https://github.com/D4wnstar/hl-generator) Obsidian plugin. The website itself is hosted on [Vercel](https://vercel.com). The Obsidian vault that contains this entire project is also publicly available on GitHub [here](https://github.com/D4wnstar/aetherwisp).
 
 **Q.** Why is it called Aetherwisp?
 

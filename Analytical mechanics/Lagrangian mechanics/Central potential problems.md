@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 Consider two bodies of [[mass|masses]] $m_{1}$ and $m_{2}$ moving in $\mathbb{R}^{3}$, for a total of $n=6$ [[degrees of freedom]]. Each position vector is $\mathbf{r}_{i}=(x_{i},y_{i},z_{i})$ for $i=1,2$. The [[kinetic energy]] is
 $$T=\frac{1}{2}m_{1} \dot{\mathbf{r}}_{1}^{2}+ \frac{1}{2}m_{2}\dot{\mathbf{r}}_{2}^{2}$$

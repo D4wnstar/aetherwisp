@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 Diverse regioni, o bande, dello [[Electromagnetic radiation|electromagnetic spectrum]] interagiscono in modo diverso con la materia e quindi con i nostri [[Telescopi]]. Si usano dunque metodi diverse per bande diverse.
 

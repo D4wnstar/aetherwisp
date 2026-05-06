@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 A **decision tree** is formal description and visualization of a sequence of decisions. It is also a kind of [[supervised machine learning]] [[model]]. A decision tree is a graph of nodes, where each node is either a decision, after which the tree ends, or a further question, which are followed by at least two more nodes. Decision nodes are called **leaves** and question nodes are called **branches**. If branch nodes split in exactly two, the structure is also known as a **binary tree**. In computer science terms, decision trees are a sequence of neste `if-else` statements.
 

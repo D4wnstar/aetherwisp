@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 La meccanica quantistica può essere interamente descritta a partire da un piccolo insieme di **postulati**. Tutti gli altri risultati derivano da questi:
 1. Gli [[stato|stati]] puri di un [[Physical system|sistema]] quantistico sono tutti i vettori [[Normalization|normalizzati]] di un dato [[spazio di Hilbert]] $\mathcal{H}$, detti **vettori di stato**. Tutte le [[Convex combination|combinazioni convesse]] di vettori di stato, risultanti in [[Matrice di densità|matrici di densità]], sono ancora vettori di stato.

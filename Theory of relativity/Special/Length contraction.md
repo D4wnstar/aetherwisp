@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 **Length contraction** is the phenomenon where the length of an object decreases if the object moves with respect to the observer. For instance, if a stationary (with respect to the observer) plank of wood is one meter long, a moving plank of wood will be less than a meter long. If $\Delta x_\text{rest}$ is the length of an object at rest and $\Delta x_\text{moving}$ is the length of the same object while moving:
 $$\Delta x_\text{moving} = \frac{\Delta x_\text{rest}}{\gamma}$$

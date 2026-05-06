@@ -2,7 +2,7 @@
 excalidraw-plugin: parsed
 tags:
   - excalidraw
-wiki-publish: true
+hl-publish: true
 ---
 ==⚠  Switch to EXCALIDRAW VIEW in the MORE OPTIONS menu of this document. ⚠==
 

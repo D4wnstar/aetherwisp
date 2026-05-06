@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 The **neutron** $n$ is a [[baryon|baryonic]] [[hadron]] with no [[electric charge]]. It is one of the two components of the [[Atomic nucleus|nucleus]] and therefore a fundamental part of [[matter]]. It is a [[baryon]] composed of one [[up quark]] and two [[down quark|down quarks]]. Its [[antiparticle]] is the **antineutron** $\bar{p}$.
 

@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 A **probability mass function** (**PMF**) is a function associated with a discrete [[Random variable]] that gives the [[Probability]] that the variable, when measured, is exactly equal to some value. The PMF describes the [[Probability distribution]] that a discrete variable follows.
 

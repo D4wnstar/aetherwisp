@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 A **systematic error** is a type of measurement error that occurs consistently across measurements and is due to a repeatable, non-random process. It has non-zero [[mean]] and it does not reduce over large numbers of measurements.
 

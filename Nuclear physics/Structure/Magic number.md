@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 A **magic number** is a specific number of [[proton|protons]] or [[neutron|neutrons]] for which an [[atomic nucleus]] is particularly stable, exhibiting [[binding energy]] that is noticeably higher than neighboring nuclei with similar numbers. They are
 $$2,\ 8,\ 20,\ 28,\ 50,\ 82 \text{ and } 126$$

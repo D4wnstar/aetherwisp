@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 La **distribuzione parte principale**, scritta $\mathscr{P}(1/x)$, è una [[Distribuzione]] definita come
 $$\left\langle \mathscr{P} \frac{1}{x},\varphi\right\rangle= \mathscr{P}\int_{-\infty}^{+\infty} \frac{1}{x}\varphi(x)dx=\lim\limits_{\sigma \rightarrow 0}\left[\int_{-\infty}^{-\sigma} \frac{1}{x}\varphi(x)dx + \int_{+\sigma}^{+\infty} \frac{1}{x}\varphi(x)dx\right]$$

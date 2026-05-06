@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 [[Electromagnetic wave|Electromagnetic waves]] are complicated. They have a lot of related quantities with similar names that are often useful, but also equally often misnamed in as many ways as there are branches of physics. This article is a survival guide on radiometric nomenclature to try to convey a common standard to make sense of all of this. It does not attempt to be a complete or exhaustive explanation of these quantities: the point is to dispel confusion, clarify the connections between them and provide a common terminology.
 

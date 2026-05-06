@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 **Cherenkov radiation** or **Cherenkov effect** is a form of [[electromagnetic radiation]] that occurs when the speed of a [[Electric charge|charged]] [[Particle|particle]] in a medium exceeds the [[speed of light]] in that medium. The particle emits bluish radiation in a cone that expands at a well-defined angle around its axis of velocity.
 

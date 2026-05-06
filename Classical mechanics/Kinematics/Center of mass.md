@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 The **center of mass** is the imaginary point in space related to a system of $n$ [[Particle|particles]] defined by the position vector
 $$\mathbf{r}_{C}=\frac{\sum\limits_{i=1}^{n}m_{i}\mathbf{r}_{i}}{\sum\limits_{i=1}^{n}m_{i}}=\frac{1}{M}\sum\limits_{i=1}^{n}m_{i}\mathbf{r}_{i}$$

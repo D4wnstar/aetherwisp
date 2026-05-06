@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 **Magnetization** is the phenomenon where a [[paramagnet]] or [[diamagnet]] that is subject to a [[magnetic field]] will develop an [[magnetic dipole moment]] for as long as the field is active.
 

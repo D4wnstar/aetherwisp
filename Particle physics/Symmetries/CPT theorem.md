@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 The **CPT theorem** is a result that binds together [[parity]], [[charge conjugation]] and [[time reversal]].
 

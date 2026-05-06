@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 The **$\boldsymbol{Q}$ value** of a [[nuclear decay]] process is the [[energy]] released by the decay. It is the difference of the [[Relativistic energy|rest energies]] before and after the decay:
 $$Q=(m_\text{before}-m_\text{after})c^{2}$$

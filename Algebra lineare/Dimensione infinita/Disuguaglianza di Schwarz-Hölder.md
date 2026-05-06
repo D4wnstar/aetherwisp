@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 La **disuguaglianza di Schwarz-Hölder** è una generalizzazione della [[Disuguaglianza di Cauchy-Schwarz]] agli spazi a dimensione infinita, in particolare gli [[Spazio di Hilbert|spazi di Hilbert]].
 

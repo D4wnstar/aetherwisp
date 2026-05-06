@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 The **ensemble average** of a [[dynamical variable]] $O(\mathbf{q},\mathbf{p})$ over an [[ensemble]] is the weighted average over all possible [[stato|microstates]] of the [[Physical system|system]] in the [[thermodynamic limit]]:
 $$\langle O \rangle =\frac{\int\rho(\mathbf{q},\mathbf{p},t)O(\mathbf{q},\mathbf{p})\,dp\,dq}{\int \rho(\mathbf{q},\mathbf{p},t)\,dp\,dq}=\frac{1}{Z}\int O\rho\ dpdq$$

@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 L'**equazione differenziale sferica di Bessel** è l'[[Ordinary differential equation]] di secondo ordine
 $$r^{2} \frac{d^{2}R}{dr^{2}}+2r \frac{dR}{dr}+[k^{2}r^{2}-n(n+1)]R=0$$

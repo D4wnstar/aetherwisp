@@ -1,5 +1,5 @@
 ---
-wiki-publish: false
+hl-publish: false
 ---
 **Thomson's experiment** is a method of calculating the [[Electron|electron]]'s [[Electric charge|charge]]-[[mass]] ratio. It won Thomson the Nobel prize in physics.
 ### Setup

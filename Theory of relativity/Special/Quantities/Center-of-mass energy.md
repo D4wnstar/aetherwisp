@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 The **center-of-mass energy** of a relativistic [[Physical system|system]] is the [[norm]] of the total [[four-momentum]]:
 $$\lvert p_{\text{tot}} \rvert=\sqrt{s} =\sqrt{\left(\sum\limits_{i}E_{i}\right)^{2}-\left(\sum\limits_{i}\mathbf{p}_{i}\right)^{2}}$$

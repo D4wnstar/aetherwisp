@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 A [[Hamilton equations|Hamiltonian system]] of $n$ [[degrees of freedom]] is said to be **integrable** if there exists a [[canonical transformation]] $p_{i}=u_{i}(J,\psi)$ and $q_{j}=v_{j}(J,\psi)$ with functions $u$ and $v$ periodic in the coordinates $\psi_{i}$ and $(J,\psi)\equiv(J_{1},\ldots,J_{n},\psi_{1},\ldots,\psi_{n})\in \mathbb{R}^{n}\times T^{n}$ such that the conjugate Hamiltonian of $H(\mathbf{p},\mathbf{q})$ is a function $K$ that depends only on $J$, that is $K\equiv K(J)$. $(J,\psi)$ are known as the **[[action-angle variables]]** and $T^{n}$ is an $n$-dimensional [[torus]].
 

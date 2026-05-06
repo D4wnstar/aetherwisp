@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 The **Doppler effect** or **Doppler shift** is the change in [[frequency]] of a [[Wave]] due to its motion with respect to an observer. The frequency is increased if the wave is moving towards the observer or reduced otherwise. Being a relative effect, its description depends on whether we are using Galilean relativity or Einstein relativity. It is a consequences of the invariance of a [[phase]] across [[frame of reference|frames of reference]].
 ### Classical Doppler effect

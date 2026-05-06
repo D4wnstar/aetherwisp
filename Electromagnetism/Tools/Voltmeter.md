@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 A **voltmeter** is a tool used to measure [[electric potential]] differences within a circuit. It is attached in parallel at the ends of an [[electrical resistance]] (or some other combination of components) whose potential drop needs to be measured and is specifically designed to have an extremely high internal resistance to avoid causing a significant split in the current passing through the node where the voltmeter is attached.
 ## Mechanism

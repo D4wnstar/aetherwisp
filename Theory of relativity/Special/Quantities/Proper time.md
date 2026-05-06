@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 The **proper time** of an object is a measure of time that takes into account the [[time dilation]] that the object experiences due to its velocity with respect to another [[frame of reference]]. It is the time measured by a moving clock. Since time passes slower for things in motion, the proper time is always smaller than the time measured by a clock at rest (in some frame). In infinitesimal form it is defined as
 $$d\tau=\sqrt{ 1- \frac{v^{2}}{c^{2}} }dt=\frac{dt}{\gamma}$$

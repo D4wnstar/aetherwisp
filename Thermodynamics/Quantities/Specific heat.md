@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 The **specific heat (capacity)** $c$ of a substance is the amount of [[heat]] $Q$ that needs to be absorbed by a unit amount of matter to incur a unit change in [[temperature]] $T$. The amount of matter can be determined by several variables, namely the amount of [[Particle|particles]] $N$, the [[mass]] $M$ or the volume $V$. It is defined starting from the [[heat capacity]] $C$:
 $$\begin{align}

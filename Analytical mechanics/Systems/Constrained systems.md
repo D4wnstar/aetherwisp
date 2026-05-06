@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 Many mechanical [[Physical system|systems]] are subject to one or more [[Constraint|constraints]] that reduce the degree to which the system is allowed to move. This information is often known in advance of solving the system, such as the length of the rod of a [[simple pendulum]], and can be used to diminish the amount of variables that we need to describe the motion of the system. Most of what's necessary to make use of these constraint comes from differential geometry, which allows us to manipulate the [[Vector space|vector spaces]] of the system to restrict them to only the things that we strictly need.
 

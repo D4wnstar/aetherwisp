@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 A **phasor** is the complex [[phase]] of a [[Plane wave|sine wave]] of constant [[Frequency|angular frequency]] and time-invariant [[amplitude]]. Given a complex sine wave
 $$\psi(x,t)=Ae^{i[\mathbf{k}\cdot \mathbf{r}-\omega t+\varphi]}$$

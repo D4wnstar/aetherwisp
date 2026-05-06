@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 The **wavefront** is the locus of all points in space (generally a [[surface]]) where a [[wave]] has equal [[phase]]. If, for a given time, the [[amplitude]] is determined exclusively by the phase, the wavefront is a constant amplitude surface.
 

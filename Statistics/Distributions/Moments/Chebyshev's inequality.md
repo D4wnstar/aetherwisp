@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 **Chebyshev's inequality** is an inequality that sets bounds to the [[probability]] of deviation of a [[random variable]]. Given a RV $X$, Chebyshev's inequality states
 $$P(\lvert X-\mu \rvert \geq \lambda \sigma)\leq \frac{1}{\lambda ^{2}}$$

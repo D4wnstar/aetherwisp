@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 aliases:
   - principio di indeterminazione
   - osservabili compatibili

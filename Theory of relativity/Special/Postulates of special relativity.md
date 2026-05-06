@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 aliases:
   - Einstein's first postulate
   - Einstein's second postulate

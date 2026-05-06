@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 Consider the integral of some univariate function $g(x)$ of a continuous [[Random variable]] $X$ in the interval $[a,b]$:
 $$I=\int _{a}^{b}g(x) \ dx $$

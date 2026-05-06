@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 This experiment, dating to the late 1800s, measures the [[electron]]'s [[Electric charge|charge]] to [[mass]] ratio $e/m_{e}$ by tracing a thin, wire-like stream of electrons and using the deviations in its trajectory to determine the ratio from known forces.
 

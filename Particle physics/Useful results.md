@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 ### Nuclear
 **Semi-empirical mass formula**

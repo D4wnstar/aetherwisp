@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 Despite being [[random]], a [[random variable]] is still a variable and as such can be used as the argument of a function. **Functions of random variables** thus play a significant role in statistics and knowing their properties sets the foundation for a significant chunk of the field. Importantly, they themselves are random variables and as such share all the statistical machinery that comes attached with them.
 ### Distribution, expectation, variance

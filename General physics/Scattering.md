@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 **Scattering** is a phenomenon where a [[particle]] or [[wave]] is deviated from its trajectory due to the presence of an obstacle or [[force]] in the medium through which it travels. It represents the common ideas of "collision", "deflection" and "interaction".
 

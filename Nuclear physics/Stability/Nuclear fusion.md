@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 **Nuclear fusion** is the process by which two [[Atomic nucleus|atomic nuclei]] fuse together, creating a new combined nucleus. Spontaneous nuclear fusion is an extremely high-[[energy]] process, generally requiring very high [[temperature|temperatures]] and [[pressure|pressures]] to occur, but it is ultimately responsible for the [[nucleosynthesis]] of most [[chemical element|chemical elements]] below iron.
 ## Energy

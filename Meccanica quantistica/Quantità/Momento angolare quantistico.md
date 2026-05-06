@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 Classicamente, il [[angular momentum|momento angolare]] è dato dalla formula vettoriale
 $$\mathbf{L}=\mathbf{r}\times\mathbf{p}$$

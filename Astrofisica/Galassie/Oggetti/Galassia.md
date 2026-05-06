@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 Una **galassia** è un sistema di [[Stella|stelle]], [[Relitto stellare|relitti stellari]], [[Mezzo interstellare]] e (teoricamente) [[Materia oscura]] legati fra loro dalla gravità. Tali oggetti orbitano attorno ad un nucleo luminoso costituito da un [[Buco nero]] particolarmente massivo, la cui [[Gravity|gravità]] è sufficiente per mantenerli in orbita stabile.
 

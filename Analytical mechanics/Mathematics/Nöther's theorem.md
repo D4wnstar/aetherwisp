@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 **Nöther's theorem** is a fundamental result is physics that relates conserved quantities and [[symmetry|symmetries]]. It is given in one several statements, depending on the field of physics one is working in. Most commonly, it is given in the Lagrangian and Hamiltonian formalisms of mechanics.
 

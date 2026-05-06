@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 The **Faraday constant** is a physical constant representing the amount of [[electric charge]] per mole of matter. It is defined as the ratio between the total electric charge $Q$ of a sample of matter divided by the [[amount of substance]] $n$ of the sample. Equivalently, it is the product of the [[elementary charge]] and the [[Avogadro number]]:
 $$F\equiv \frac{Q}{n}=eN_{A}=9.648\,533\times 10^{4}\text{ C/mol}$$

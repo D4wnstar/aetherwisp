@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 **Recall**, in the context of [[machine learning]], is a [[performance index]] of [[Binary classification]] defined as the ratio between true positives and all positives:
 $$\text{Rec}=\frac{\text{TP}}{\text{P}}=\text{TPR}$$

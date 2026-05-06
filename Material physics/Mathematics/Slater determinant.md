@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 The **Slater determinant** is a method of determining the [[Funzione d'onda|wavefunction]] of a [[Physical system|system]] of many [[Fermion|fermions]] through the [[determinant]] of a [[matrix]], in particular the [[many-electron atom]]. It is useful because it inherently satisfies the [[Permutation operator|antisymmetry]] under [[Particle|particle]] exchange of fermionic states mandated by the [[Pauli exclusion principle]]. For a system of $N$ fermions it reads
 $$\Psi(q_{1},q_{2},\ldots,q_{N})=\frac{1}{\sqrt{ N! }}\begin{vmatrix}

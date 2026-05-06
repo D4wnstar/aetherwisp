@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 A **fermion** is a [[Particle|particle]] with half-integer [[spin]] ($\frac{1}{2}$, $\frac{3}{2}$, ...). The [[funzione d'onda|wavefunction]] of a [[Physical system|system]] of $N$ fermions changes sign when subject to a coordinate [[permutazione|permutation]]:
 $$P_{ij}\psi(\mathbf{r}_{1},\ldots,\mathbf{r}_{i},\ldots,\mathbf{r}_{j},\ldots,\mathbf{r}_{N})=-\psi(\mathbf{r}_{1},\ldots,\mathbf{r}_{j},\ldots,\mathbf{r}_{i},\ldots,\mathbf{r}_{N})$$

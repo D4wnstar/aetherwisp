@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 **Secular equilibrium** is the state of a decaying object in which the [[Radioactive decay law|rate of production]] is equal to the [[Nuclear decay|decay]] [[activity]]. In this state, the number of unstable [[Atomic nucleus|nuclei]] remains constant in time.
 

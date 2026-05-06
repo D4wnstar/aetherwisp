@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 Uno **spazio di Banach** è uno [[Vector space]] [[Spazio metrico completo|completo]] [[Norma|normato]].
 

@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 This experiment uses [[Lenz's law]] to determine the local [[magnetic field]].
 ### Theory

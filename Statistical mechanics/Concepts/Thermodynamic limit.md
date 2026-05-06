@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 The **thermodynamic limit** is the theoretical limit of a material body with $N$ [[Atom|atoms]] and volume $V$ where
 $$N\to \infty,\quad V\to \infty,\quad \frac{N}{V}=\text{constant}=n=\frac{1}{v}$$

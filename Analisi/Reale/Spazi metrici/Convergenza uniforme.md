@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 Una successione di funzioni $\{f_{n}\}_{n\in\mathbb{N}}$ si dice **uniformemente convergente** ad una funzione $f$ se vale
 $$\lim\limits_{n \rightarrow \infty}\sup\{|f_{n}(x)-f(x)|\}=0$$

@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 The **Erlang distribution** is a continuous [[Probability distribution]] over non-negative reals $[0,\infty)$. For a [[Random variable]] $X$, the [[Probability density function]] is
 $$f_{X}(x;k,\tau)=\frac{1}{(k-1)!} \frac{1}{\tau^{k}}x^{k-1}e^{-x/\tau}$$

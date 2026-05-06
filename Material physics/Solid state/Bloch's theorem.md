@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 **Bloch's theorem** is a result regarding the electronic structure of an [[ideal crystal]]. It provides a shape for the [[Funzione d'onda|wavefunction]] of an [[electron]] in a periodic [[potential]].
 

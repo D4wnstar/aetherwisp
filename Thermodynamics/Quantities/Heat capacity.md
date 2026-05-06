@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 **Heat capacity** or **thermal capacity** $C$ is the amount of [[heat]] $Q$ that needs to be absorbed by a body to incur a unit change in [[temperature]] $T$, such that
 $$C=\lim_{ T \to 0 } \frac{\Delta Q}{\Delta T}=\frac{ \partial U }{ \partial T } =T \frac{ \partial S }{ \partial T } $$

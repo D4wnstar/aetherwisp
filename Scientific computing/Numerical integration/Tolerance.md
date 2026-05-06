@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 **Tolerance** refers to the degree of precision that is accepted within a numerical integration method. It is typically split in two components: **absolute tolerance** (`atol`), which defines an arbitrary degree of precision, and **relative tolerance** (`rtol`), which defines precision with respect to the magnitude of what is being evaluated, typically as a percentage.
 

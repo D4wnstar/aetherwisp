@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 ### Classical statistical mechanics
 - [[Equal a priori probability hypothesis]]

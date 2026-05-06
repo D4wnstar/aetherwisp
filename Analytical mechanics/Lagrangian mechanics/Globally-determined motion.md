@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 Motion as described from the [[Lagrange equation]] is said to be **local**, as it evaluates motion point-wise in time. The opposite is **global** motion, which is determined from global properties of the entire [[Physical system|system]] instead of local ones. It is easiest to explain by example.
 

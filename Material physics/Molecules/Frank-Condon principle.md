@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 The **Frank-Condon principle** is a rule of thumb in [[molecule|molecular]] physics.
 

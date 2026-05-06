@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 A **hadron** is a subatomic [[Particle|composite particle]] made of two or more [[Quark|quarks]] held together by the [[Strong interaction|strong force]]. All known hadrons are made of either two or three quarks:
  - Hadrons with two quarks are called [[meson|mesons]].

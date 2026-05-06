@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 aliases:
   - braccio delle sottogiganti
   - braccio delle giganti rosse

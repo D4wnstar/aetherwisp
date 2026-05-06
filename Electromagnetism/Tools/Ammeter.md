@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 An **ammeter** is a tool used to measure [[electric current|electric currents]] within a circuit. It is attached in series to the circuit whose current needs to be measured and is specifically designed to have a low internal [[Electrical resistance|resistance]] to avoid causing a significant voltage drop in the circuit.
 ## Mechanism

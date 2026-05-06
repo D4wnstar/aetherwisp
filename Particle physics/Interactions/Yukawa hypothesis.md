@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 The **Yukawa hypothesis** was a hypothesis proposed by Japanese physicist Hideki Yukawa that postulated the existence of a [[force carrier]] of the [[strong interaction]], analogous to what the [[Photon|photon]] is for the [[Electromagnetism|electromagnetic interaction]].
 

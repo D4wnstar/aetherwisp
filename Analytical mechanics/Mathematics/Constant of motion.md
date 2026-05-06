@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 A **constant of motion** is a quantity that does not change over time and over a trajectory of motion. Formally, a constant of motion is defined as a function $I:\mathbb{R}^{N}\to \mathbb{R}$, $\mathbf{x}\to I(\mathbf{x})$, for which, given an autonomous system of [[Ordinary differential equation|ODEs]] $\dot{\mathbf{x}}=f(\mathbf{x})$ and a starting condition $\mathbf{x}_{0}$, we have $I(\mathbf{x}(t;\mathbf{x}_{0}))=I(\mathbf{x}_{0})$ for all $t$ and all solutions $\mathbf{x}(t;\mathbf{x}_{0})$ of the system. Its time derivative is zero everywhere: $\frac{d}{dt}I(\mathbf{x}(t;\mathbf{x}_{0}))=0$.
 

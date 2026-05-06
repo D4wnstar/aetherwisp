@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 Le [[Equazione agli autovalori|autofunzioni]] di [[Operatore autoaggiunto|operatori autoaggiunti]] svolgono un ruolo cruciale nella meccanica quantistica, dato che corrispondono a [[Stato determinato|stati determinati]] di un'[[osservabile]] e quindi ci permettono di "bypassare" il [[Disuguaglianza di Heisenberg|principio di indeterminazione]].
 

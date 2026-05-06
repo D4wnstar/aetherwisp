@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 The **baryon number** $B$ is a [[quantum number]] representing [[Baryon|baryons]], which are [[hadron|hardons]] with three [[Quark|quarks]]. It is equal to 1 for baryons and -1 for [[antiparticle|antibaryons]]. More technically, it is dependent on the number of quarks:
 $$B=\frac{1}{3}(n_\text{quark}-n_\text{antiquark})$$

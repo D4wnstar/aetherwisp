@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 The **multivariate normal distribution** is a real, multivariate [[probability distribution]] that is a generalization of the [[Gaussian distribution|normal distribution]] to multiple dimensions. For $N$ Gaussian [[Independent variables|independent]] [[Random variable|random variables]] $X_{1},\ldots,X_{N}$, the [[joint distribution function]] is:
 $$f(x_{1},\ldots,x_{N})=f_{1}(x_{1})\ldots f_{N}(x_{N})=\frac{1}{(2\pi)^{N/2}\sigma_{1}\ldots\sigma_{N}}e^{-\sum_{i=1}^{N} (x_{i}-\mu_{i})^{2}/2\sigma_{i}^{2}}$$

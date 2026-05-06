@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 aliases:
   - Kirchhoff's junction law
   - Kirchhoff's loop law

@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 The **Thomas-Fermi approximation** is an approximation used to express the [[Degenerazione|degeneracy]] of [[Stato|states]] of a nonrelativistic quantum [[ideal gas]] as a [[Differential|differential]] instead of a discrete sequence. This transforms sums into integrals and allows for analytical computation using, for instance, the [[partition function]] of a quantum [[ensemble]].
 

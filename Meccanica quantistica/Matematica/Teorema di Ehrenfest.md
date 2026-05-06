@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 Il **teorema di Ehrenfest** afferma che i valori di aspettazione degli [[Operatore|operatori]] posizione $x$ e quantità di moto $p$ obbediscono leggi simili a quelle classiche.
 $$m \frac{d \left\langle x \right\rangle}{dt}=m \left\langle v \right\rangle =\left\langle p \right\rangle\tag{1}$$

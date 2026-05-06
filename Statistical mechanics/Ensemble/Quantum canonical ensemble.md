@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 The **quantum canonical ensemble** is the quantum extension of the [[canonical ensemble]]. It is defined through the [[Matrice di densità|density matrix]]
 $$\hat{\rho}=e^{-\beta \hat{H}}$$

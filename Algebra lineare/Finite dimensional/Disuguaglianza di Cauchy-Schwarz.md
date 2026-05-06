@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 Preso uno [[Scalar product]] $(v,w)$ in uno [[Vector space]] $V$, si chiama **disuguaglianza di Cauchy-Schwarz** la seguente espressione
 $$|(v,w)|\leq||v||\;||w||$$

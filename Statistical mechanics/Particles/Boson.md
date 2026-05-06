@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 A **boson** is a [[Particle|particle]] with integer [[spin]] (0,1, ...). The [[funzione d'onda|wavefunction]] of a [[Physical system|system]] of $N$ bosons does not change sign when subject to a coordinate [[permutazione|permutation]]:
 $$P_{ij}\psi(\mathbf{r}_{1},\ldots,\mathbf{r}_{i},\ldots,\mathbf{r}_{j},\ldots,\mathbf{r}_{N})=\psi(\mathbf{r}_{1},\ldots,\mathbf{r}_{j},\ldots,\mathbf{r}_{i},\ldots,\mathbf{r}_{N})$$

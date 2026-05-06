@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 Una funzione reale $f(x)$ si dice **integrabile secondo Lebesgue** se la parte positiva
 $$f^{+}(x)=\begin{cases}

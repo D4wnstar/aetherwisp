@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 The **exact differential** of a multivariate function $f(x,y):\mathbb{R}^{2}\to \mathbb{R}$ is defined as the [[differential form]]
 $$df=\frac{ \partial f }{ \partial x } dx+\frac{ \partial f }{ \partial y } dy$$

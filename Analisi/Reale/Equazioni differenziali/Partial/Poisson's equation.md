@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 **Poisson's equation** is a second-order linear [[equazione differenziale parziale|partial differential equation]]
 $$\nabla^{2}\psi=f$$

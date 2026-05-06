@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 **Ohm's law** is a law that describes the [[electric potential]] difference and [[electrical resistance]] of a closed circuit made of thin wires:
 $$\Delta V=RI \quad\text{where }\quad R=\rho\frac{l}{S}=\rho \int_{0}^{l} \frac{1}{S(s)}ds$$

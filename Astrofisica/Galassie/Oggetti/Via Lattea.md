@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 La **Via Lattea** è la [[Galassia]] in cui si trova il Sistema Solare. E' una [[Classi galattiche|galassia a spirale barrata]] larga circa 50 kpc, composta da un disco sottile, un disco spesso, un bulge e un alone. Il disco sottile ha [[Stella|stelle]] di popolazione 2, con alta [[Metallicità]] e giovani. Nell'alone si trovano stelle di popolazione 1, con bassa metallicità e vecchie. Il bulge è particolare nel senso che ha stelle vecchie di popolazione 1, ma con alta metallicità. Il disco spesso si forma dal disco sottile col passare del tempo.
 ### Struttura

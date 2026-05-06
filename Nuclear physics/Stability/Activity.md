@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 **Activity** is the number of [[Nuclear decay|decays]] per unit time in a macroscopic sample of a radioactive object:
 $$A(t)=\lambda N(t)=A_{0}e^{-\lambda t}\quad\text{with}\quad A_{0}=\lambda N_{0},$$

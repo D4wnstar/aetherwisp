@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 Il **teorema di Fourier** ci dà delle condizioni entro le quali la [[Serie di Fourier]] converge.
 

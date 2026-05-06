@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 The **Taylor series** is a [[serie|series]] that expands a real or complex infinitely [[Differential|differentiable]] function $f(x)$ around a point $x_{0}$ using its derivatives
 $$\begin{align}

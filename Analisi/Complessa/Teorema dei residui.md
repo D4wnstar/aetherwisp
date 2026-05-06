@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 Sia $\gamma$ una [[Curve]] chiusa orientata in senso antiorario (positivamente) e $f$ una [[Funzione analitica]] in un intorno di $\gamma$ e [[Funzione meromorfa|meromorfa]] all'interno di $\gamma$. Allora vale
 $$\oint_{\gamma}f(z)dz=2\pi i\sum\limits_{i}\text{Res}_{f}(z_{i})$$

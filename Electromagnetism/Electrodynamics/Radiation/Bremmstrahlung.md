@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 **Bremmstrahlung** or **braking radiation** is the [[electromagnetic radiation]] emitted by a [[Electric charge|point charge]] due to deceleration (or acceleration) in the direction of its velocity. The angular [[radiant power]] distribution is
 $$\frac{dP}{d\Omega}=\frac{\mu_{0}q^{2}a^{2}}{16\pi ^{2}c} \frac{\sin ^{2}\theta}{(1-\beta \cos \theta)^{5}}$$

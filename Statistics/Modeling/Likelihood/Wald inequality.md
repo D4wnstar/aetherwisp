@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 The **Wald inequality** is an inequality related to the [[likelihood]] function $\mathcal{L}$. It states that if $\theta_{t}$ is the [[Sample|true value]] of a [[Statistics/Modeling/Model|model]] parameter $\theta$, then
 $$\text{E}_{\theta_{t}}[\log \mathcal{L}(\theta_{t};\mathbf{X})]>\text{E}_{\theta_{t}}[\log \mathcal{L}(\theta;\mathbf{X})]$$

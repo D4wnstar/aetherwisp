@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 The **chemical potential** $\mu$ is an [[energy]] difference that determines the amount of energy that needs to be spent to add a [[Particle|particle]] to a [[Physical system|system]]. Despite being called a [[Potential|potential]], it cannot be defined up to a constant as it is already a difference of two energies.
 

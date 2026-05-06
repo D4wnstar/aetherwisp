@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 The **product rule** for derivatives states that
 $$\frac{d}{dx}(f(x)+g(x))=\frac{d}{dx}f(x)+ \frac{d}{dx}g(x)=f'(x)+g'(x)$$

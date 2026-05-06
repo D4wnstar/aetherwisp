@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 The **Dirac equation** is a relativistic [[wave equation]] that describes the dynamics of [[mass|massive]] [[Fermion|fermions]], such as [[Electron|electrons]] and [[Quark|quarks]]. The equation is:
 $$(i\gamma^{\mu}\partial_{\mu} - m)\psi = 0$$

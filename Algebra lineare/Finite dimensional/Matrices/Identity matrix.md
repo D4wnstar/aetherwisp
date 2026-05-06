@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 The **identity matrix** $\mathrm{I}_{n}$ of size $n$ is an $n\times n$ square [[matrix]] with ones on the diagonal and zeros elsewhere:
 $$\mathrm{I}_{n}=\begin{pmatrix}

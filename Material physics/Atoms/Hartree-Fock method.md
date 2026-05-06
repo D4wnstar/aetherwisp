@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 The **Hartree-Fock method** is a [[variational method]] that uses a [[Slater determinant]] of single-[[Particle|particle]] [[Funzione d'onda|wavefunctions]] as a trial function. It is used to solve many [[fermion]] systems, such as the [[many-electron atom]].
 ### Description

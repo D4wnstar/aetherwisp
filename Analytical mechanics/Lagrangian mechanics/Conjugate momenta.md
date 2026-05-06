@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 **Conjugate momenta** are [[Dynamical variable|dynamical variables]] that generalize the idea of [[Linear momentum|momentum]] to [[generalized coordinates]] in both Lagrangian and Hamiltonian systems.
 

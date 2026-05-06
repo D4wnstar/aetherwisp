@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 The **speed of light** $c$ is the speed of a ray of light in the vacuum. In SI units it is exactly equal to
 $$c=299\ 792\ 458\text{ m/s}$$

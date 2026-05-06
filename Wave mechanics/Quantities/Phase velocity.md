@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 The **phase velocity** of a [[wave]] is one of two definitions of its velocity, the other being [[group velocity]]. It is the velocity at which the [[phase]] of a single-[[frequency]] component of the wave propagates in space. Imagine fixing a point on the profile of the wave so that its [[amplitude]] never changes: the velocity at which that point propagates is the phase velocity.
 

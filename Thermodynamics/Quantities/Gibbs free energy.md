@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 The **Gibbs free energy** or **Gibbs thermodynamic potential** $G$ is a measure of energy of a system. It is defined as
 $$G=A+PV=U-TS+PV$$

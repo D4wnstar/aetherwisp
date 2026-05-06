@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 A **kaon** is a [[strange particle|strange]] [[meson]] that comes in two types, charged kaons and neutral kaons.
 - Charged kaons are written $K^{+}$ and are made of an [[up quark]] and an anti-[[strange quark]] ($u\bar{s}$) with [[antiparticle]] $K^{-}$.

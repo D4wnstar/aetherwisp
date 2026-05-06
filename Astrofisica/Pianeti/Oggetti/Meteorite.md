@@ -1,4 +1,4 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 Un **meteorite** è un [[Asteroide]] che colpisce la terra.

@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 L'**indeterminatezza quantistica** è un fenomeno osservato a scale molto piccole (di dimensione, energia, ecc.) che impedisce la misurazione esatta di una o più proprietà di una [[Particle]]. In altre parole, quando gli effetti quantistici non sono trascurabili, il meglio che si può sperare di ottenere da una misura non è la quantità, bensì la *probabilità* che quella quantità abbia un certo valore (tramite la [[funzione d'onda]]). Per esempio, invece di trovare che un [[Electron]] si trova ad una distanza di $52\pm0.2$ picometri, si potrebbe trovare che ha il 65% di probabilità di trovarsi tra i 51.8 e i 52.2 picometri.
 ## Interpretazioni

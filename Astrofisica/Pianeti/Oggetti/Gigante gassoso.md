@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 Un **gigante gassoso** è un [[Pianeta]] composto primariamente da idrogeno ed elio. Sono caratterizzati da masse e dimensioni molto elevate (rispetto ad altri pianeti) e tendenzialmente orbite lontane dalla loro [[Stella]], anche se ci sono eccezioni.
 

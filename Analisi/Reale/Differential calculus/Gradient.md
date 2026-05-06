@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 The **gradient** $\nabla f$ of a [[Differential|differentiable]] scalar function $f$ is the [[Vector field|vector field]] whose values describe the direction and magnitude of fastest increase at any given point in $f$'s domain. In a generic coordinate system with [[Basis]] vectors $(x_{1},x_{2},\ldots,x_{n})$, the gradient can be written as the column vector whose components are the partial derivatives in that component:
 $$\nabla f=\begin{pmatrix}

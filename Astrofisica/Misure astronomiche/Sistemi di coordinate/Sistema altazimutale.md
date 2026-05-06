@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 Il **sistema altazimutale** è il più semplice [[Sistema di coordinate celesti]].
 

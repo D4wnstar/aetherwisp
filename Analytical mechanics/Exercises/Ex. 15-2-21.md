@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 Two [[point mass|point masses]] of equal [[mass]] $m$ are [[Constraint|constrained]] to move in 2D on a circumference of radius $R$ in the $xy$ plane. The two masses are connected by an elastic spring of elastic constant $k$. A gravitational acceleration $g$ pushes towards $-y$.
 

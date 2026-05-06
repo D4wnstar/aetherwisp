@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 [[Electric field|Electric]] and [[Magnetic field|magnetic fields]] transform according to relativity too, although their exact behavior under a [[Lorentz transformation]] is more complicated than your average quantity. The transformation rules for an electromagnetic field are
 $$\begin{align}

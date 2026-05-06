@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 aliases:
   - Laguerre functions
   - associated Laguerre polynomials

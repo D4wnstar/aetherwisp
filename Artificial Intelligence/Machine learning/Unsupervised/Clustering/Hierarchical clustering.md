@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 **Hierarchical clustering** is an iterative form of [[clustering]] that creates cluster by progressively refining existing clusters. There's two types: **agglomerative** hierarchical clustering starts from individual points and merges them to create progressively larger clusters; **divisive** hierarchical clustering starts from the entire dataset and splits it to form progressively smaller ones. The **hierarchy** is the sequence of clusters created during the iterations.
 

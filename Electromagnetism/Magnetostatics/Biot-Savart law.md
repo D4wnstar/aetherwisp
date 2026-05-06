@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 The **Biot-Savart** law describes the [[magnetic field]] of a [[Electric current|steady line current]]:
 $$\mathbf{B}(\mathbf{r})=\frac{\mu_{0}}{4\pi}\int_{\gamma} \frac{\mathbf{I}\times \hat{\boldsymbol{\mathfrak{r}}}}{\mathfrak{r}^{2}}\ dl'=\frac{\mu_{0}}{4\pi}I\int_{\gamma} \frac{d\mathbf{I}\times \hat{\boldsymbol{\mathfrak{r}}}}{\mathfrak{r}^{2}}\ dl'$$

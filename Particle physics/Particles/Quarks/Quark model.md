@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 The **quark model** is a framework that describes [[hadron|hadrons]] as being [[Particle|composite particles]] made of even smaller, elementary particles known as [[Quark|quarks]]. It is an evolution of the [[eightfold way]] that extends in geometric and algebraic results into a more extensive, more complete scheme.
 

@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 **Body coordinates** are a set of coordinates that measure the position of a point on a body from the perspective of the body itself, as opposed to the origin used in [[World coordinates]]. Given a point [[Particle|particle]] $\mathcal{P}$, its body coordinates are $\mathcal{B}(t;\mathcal{P})$. The perspective used is here is called the **body observer**, which stands at the **body origin** with its own set of axes called the **body axes**, which are assumed to form a right-handed [[Orthonormality|orthonormal]] set. Assuming the body is in motion, the body axes are a [[Moving frame]].
 

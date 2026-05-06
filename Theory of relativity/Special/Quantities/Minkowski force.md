@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 A **Minkoski force** is the relativistic generalization of a [[force]]. It is defined from the [[four-momentum]] as
 $$K^{\mu}\equiv \frac{dp^{\mu}}{d\tau}$$

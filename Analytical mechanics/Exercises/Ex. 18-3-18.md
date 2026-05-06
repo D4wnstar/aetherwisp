@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 There is a [[point mass]] of [[mass]] $m$ [[Constraint|constrained]] to the $xy$ plane. The mass is attached with an inextensible rope to a weight of mass $M$ hanging off the origin $\mathcal{O}$. [[Gravity|Gravity]] $g$ affects the whole system, pulling the weight down.
 

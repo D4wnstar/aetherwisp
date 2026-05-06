@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 Una **candela standard** è un oggetto astronomico di cui è nota la [[Luminosità]]. Sapendo questa, è possibile misurarne la distanza usando l'equazione del flusso $f=L/4\pi d^{2}$. Un esempio sono le [[Supernova|supernove]] di tipo Ia, la cui luminosità è costante al loro apice.
 

@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 The [[Laws of thermodynamics|second law of thermodynamics]] can be described by using the [[Moltiplicatori di Lagrange|Lagrange multipliers]] method to maximize [[entropy]].
 

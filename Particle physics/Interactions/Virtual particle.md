@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 A **virtual particle** is a theoretical [[particle]] that takes part in interactions as a [[force carrier]] but is not observable due to the [[Disuguaglianza di Heisenberg|uncertainty principle]], which limits its existence and permits the breakage of fundamental principles of physics below certain time scales. A particle that is observable is called a **real particle**.
 

@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 Che le [[Stella|stelle]] siano in un qualche forma equilibrio è evidente dal fatto che osserviamo stelle con età stimate nei miliardi di anni. Per una prova più rigorosa, si può calcolare il [[Tempo dinamico]] di una stella e notare quanto minuscolo sia in confronto alla sua aspettativa di vita. Per conoscere, quindi, le proprietà strutturali di una [[Stella]] è necessario comprendere che tipo di equilibrio tiene le stelle stabili e come possiamo formare un modello matematico per descriverlo.
 

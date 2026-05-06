@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 The **spherical harmonics** $Y_{l}^{m}(\theta,\phi)$ are the angular part of the solution to [[Laplace's equation]] in [[Spherical coordinates|spherical coordinates]]. They are
 $$Y_{l}^{m}(\theta,\phi)=\sqrt{\frac{2l+1}{4\pi} \frac{(l-m)!}{(l+m)!}}e^{im\phi}P_{l}^{m}(\cos\theta)$$

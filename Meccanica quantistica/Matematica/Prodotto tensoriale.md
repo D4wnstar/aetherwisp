@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 Il **prodotto tensoriale** è un'operazione tra due [[Vector space|spazi vettoriali]] $V$ e $W$ denotata con $V\otimes W$ che ha come risultato un terzo spazio vettoriale a cui è associata una funzione bilineare $V\times W \rightarrow V\otimes W$ che trasforma una coppia di elementi $(v,w)\in V\times W$ ad un elemento di $V\otimes W$, scritto $v\otimes w$. Solitamente ci si riferisce a $v\otimes w$ stesso come il prodotto tensoriale.
 

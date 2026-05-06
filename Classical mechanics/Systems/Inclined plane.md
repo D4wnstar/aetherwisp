@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 An **inclined plane** is, physically speaking, a [[Physical system|system]] composed of a plane tilted at some angle compared to another plane. It is often used as a simple system demonstrating the effects of a normal [[force]] and the application of [[friction]].
 ### In analytical mechanics

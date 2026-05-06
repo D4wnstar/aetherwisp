@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 Uno **stato coerente** è un qualunque [[Equazione agli autovalori|autostato]] dell'[[Operatori di creazione e distruzione|operatore di distruzione]] $\hat{a}$ e ha la forma
 $$\hat{a}\ket{\alpha} =\alpha \ket{\alpha} $$

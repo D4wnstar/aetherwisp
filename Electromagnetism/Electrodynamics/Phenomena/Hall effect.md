@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 The **Hall effect** is the formation of an [[electric potential]] between two surfaces of a solid material when [[electric charge|electric charges]] move through it while under a [[Orthogonality|perpendicular]] [[magnetic field]].
 ### Theory

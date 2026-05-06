@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 **Time dilation** is the phenomenon where the duration of a phenomenon increases if it occurs while moving relative to the observer. In other words, time passes slower for things that move (compared to the observer). For instance, if a stationary (with respect to the observer) kettle takes one minute to boil water, a moving kettle will take more than a minute to boil the water. If $\Delta t_\text{rest}$ is a duration measured by a clock at rest and $\Delta t_\text{moving}$ is the same duration measured by a moving clock
 $$\Delta t_\text{moving}=\gamma\Delta t_\text{rest}$$

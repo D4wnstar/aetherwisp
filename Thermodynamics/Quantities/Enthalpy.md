@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 **Enthalpy** is a form of thermodynamic energy defined as
 $$H=U+PV=(c_{V}+Nk_{b})T$$

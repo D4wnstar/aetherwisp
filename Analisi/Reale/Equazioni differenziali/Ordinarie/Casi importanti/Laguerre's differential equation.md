@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 **Laguerre's differential equation** is a second order linear [[ordinary differential equation]] of a function $x(t)$:
 $$t \frac{d^{2}x}{dt^{2}}+(1-t) \frac{dx}{dt}+nx=0$$

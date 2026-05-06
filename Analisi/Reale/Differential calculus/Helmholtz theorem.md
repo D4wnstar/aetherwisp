@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 The **Helmholtz theorem** provides the necessary conditions for existence and uniqueness of a vector function $\mathbf{F}$ for a given [[Divergence]] $\nabla\cdot\mathbf{F}=D$ and [[Curl]] $\nabla\times\mathbf{F}=\mathbf{C}$.
 

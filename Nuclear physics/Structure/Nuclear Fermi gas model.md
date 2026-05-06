@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 The **nuclear Fermi gas model** is a model of the internal structure of an [[atomic nucleus]] that treats [[proton|protons]] and [[neutron|neutrons]] as independent [[Fermi gas|Fermi gases]]. It is a basic model that works only for nuclei in the ground [[stato|state]] or in lightly exited states. For a more complete model, see [[Nuclear shell model]]. As with the shell model, the Fermi gas model is a mean field theory.
 

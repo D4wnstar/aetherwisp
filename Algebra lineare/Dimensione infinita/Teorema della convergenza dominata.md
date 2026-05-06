@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 Il **teorema della convergenza dominata** ci dà una condizione per garantire che sia possibile passare al limite dentro un integrale.
 ### Enunciato

@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 The **relativity of simultaneity** is the statement that two [[event|events]] that are simultaneous in [[Frame of reference|inertial frame]] are not necessarily simultaneous in another.
 ### Thought experiment

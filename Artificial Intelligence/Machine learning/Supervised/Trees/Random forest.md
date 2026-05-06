@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 A **random forest** is an [[ensemble learning]] technique based on [[Decision tree|decision trees]]. It is a stronger form of [[tree bagging]] that improves on individual tree independence.
 ### Formulation

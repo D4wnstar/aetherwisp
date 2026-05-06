@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 In meccanica quantistica, uno [[stato]] si dice **determinato** se misure compiute su sistemi identicamente preparati conduce sempre allo stesso risultato. Un esempio sono gli stati stazionari di un'[[Hamiltonian]], che danno sempre l'esatto valore di energia $E_{n}$ di quello stato.
 

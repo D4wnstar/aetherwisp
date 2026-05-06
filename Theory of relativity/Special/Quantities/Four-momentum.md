@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 aliases:
   - energy-momentum four-vector
   - relativistic momentum

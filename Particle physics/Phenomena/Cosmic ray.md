@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 A **cosmic ray** is a high-[[energy]] [[Particle|particle]] originating from deep space, meaning outside the [[Solar System]]. Cosmic ray energies vary massively, from experimentally accessible ranges ($10^{9}$ [[Electronvolt|eV]]) to practically unreachable extremes ($>10^{18}$ eV). This makes them wonderful tools to experiment with high-energy physics that is otherwise impossible to achieve with technology, at the cost of having zero control over what we're working with.
 

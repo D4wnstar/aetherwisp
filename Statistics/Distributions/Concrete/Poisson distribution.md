@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 The **Poisson distribution** is a real discrete [[Probability distribution]] is the limit of the [[Binomial distribution]] where $n\to \infty$ but the number of successes remains small (that is, $np\to \nu$). It describes rare events: events which have a low [[Probability]] of occurring even over many trials. It has a single parameter $\nu \in[0,1]$. For a [[Random variable]] $K$, the [[Probability mass function]] is
 $$P_{k}=P(k;\nu)=\frac{\nu^{k}e^{-\nu}}{k!}$$

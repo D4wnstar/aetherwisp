@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 La **rappresentazione spettrale** di un [[operatore]] è una decomposizione in [[Serie]] dell'operatore nella [[base]] creata dai suoi stessi [[Equazione agli autovalori|autostati]].
 ### Spettro discreto

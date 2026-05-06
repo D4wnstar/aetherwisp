@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 The **magnetic field** $\mathbf{B}$ is the [[Vector field|vector field]] that describes the action of an [[electric current]] onto other [[Electric charge|electric charges]]. It is measured in either Teslas $\text{T}$ or Gauss $\text{G}$. It is given by the [[Biot-Savart law]].
 

@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 The **Boltzmann constant** $k_{B}$ is a physical constant that commonly appears in thermodynamics and relates [[energy]] with [[temperature]]:
 $$\begin{align}

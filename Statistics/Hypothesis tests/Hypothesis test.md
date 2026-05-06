@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 A **hypothesis test** is a statistical test to check whether a statement is true or false based on a [[sample]] of values from one or more [[Random variable|random variables]], usually empirically measured or simulated. More precisely, it allows us to quantify of how confident we are that the statement is true of false. Hypothesis tests can take many forms and test for many different statements. They are strongly related to [[Confidence interval|confidence intervals]].
 ### Introduction

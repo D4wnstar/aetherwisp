@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 The **Stern-Gerlach experiment** is an experiment that almost accidentally discovered the [[spin]] of the [[electron]]. The true purpose of the experiment was to measure whether [[Particle|particles]] have an intrinsic [[angular momentum]] or not.
 ### Theory

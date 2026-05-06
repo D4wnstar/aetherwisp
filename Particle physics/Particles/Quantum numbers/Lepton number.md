@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 The **lepton number** $L$ is a [[quantum number]] representing [[lepton|leptons]]. It is 1 for leptons and -1 for antileptons. The lepton number is special in that it's actually three distinct numbers, one for each [[generation]] of leptons:
 1. [[Electron|Electronic]] lepton number $L_{e}$

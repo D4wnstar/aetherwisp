@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 The **isospin** $I$ is a [[quantum number]] that distinguishes between different [[stato|states]] of the same [[hadron]]. The concept was introduced to express why some hadrons are affected equally strongly by the [[Strong interaction|strong force]] but had different [[electric charge]]. This was especially important for the [[proton]] and the [[neutron]], which are nearly identical in all but a very small difference in [[mass]] when you exclude [[electromagnetism]]. In this context, the proton and neutron were considered to be the same particle, but in two different states. The state was expressed by the value of the isospin.
 

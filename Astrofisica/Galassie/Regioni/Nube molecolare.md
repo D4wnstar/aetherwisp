@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 Le **nubi molecolari** sono nuvole di [[Mezzo interstellare]] in fase molecolare. Per questo, sono regioni dello spazio in cui c'è una densità di massa molto più alta del normale e ciò le rende adatte all'inizio della [[Formazione stellare]].
 

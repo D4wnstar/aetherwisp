@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 Si dice **spettro** di un [[operatore]] $T$ l'insieme di tutti i numeri $\sigma$ tali per cui l'operatore $T-\sigma I$ non ammette inverso limitato, cioè se non è invertibile o se ammette un inverso non limitato. Gli [[Equazione agli autovalori|autovalori]] sono automaticamente parte dello spettro. In particolare, in dimensione finita lo spettro *è* l'insieme degli autovalori.
 

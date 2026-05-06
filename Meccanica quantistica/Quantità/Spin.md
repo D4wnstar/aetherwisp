@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 Lo **spin** $\hat{S}$ è l'equivalente quantistico del momento angolare di spin di un corpo. È rappresentato da un [[operatore semidefinito positivo]] vettoriale in tre dimensioni
 $$\hat{S}=(\hat{S}_{x},\hat{S}_{y},\hat{S}_{z})$$

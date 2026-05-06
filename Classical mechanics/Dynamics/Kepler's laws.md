@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 **Kepler's laws** are a set of three laws that describe the motion of the Earth around the Sun in terms of classical [[Gravity|gravitation]]:
 $$\mathbf{F}=- \frac{GMm}{r^{2}}\hat{R}$$

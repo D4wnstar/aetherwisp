@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 A **cyclotron** is a type of circular [[particle accelerator]] that combines an alternating [[electric field]] with a uniform [[magnetic field]] to accelerate [[particle|particles]] in a [[spiral]] trajectory. The particle beam is then straightened out and emitted from one end.
 

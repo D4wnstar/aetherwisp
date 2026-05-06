@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 Si chiama **evolutore** di un sistema quantistico l'[[operatore lineare]] $\hat{U}_{t}$ definito come
 $$\hat{U}_{t}=e^{- \frac{i}{\hbar}\hat{H}t}=\sum\limits_{i=1}^{\infty}e^{- \frac{i}{\hbar}E_{i}t}|E_{i}\rangle\langle E_{i}|=\sum\limits_{i=1}^{\infty}e^{- \frac{i}{\hbar}E_{i}t}\hat{P}_{E_{i}}$$

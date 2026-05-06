@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 The **Ising model** is a simplified model of [[ferromagnetism]] through statistical mechanics. It represents the total [[magnetization]] of a material by denoting each [[Atom|atom]] as being either [[spin]] up or down, with nearby atoms possessing an interaction that tends to move them to the same spin. The total magnetization arises from the collective arrangement of nearby atoms in the same spin. The model also shows a [[phase transition]].
 

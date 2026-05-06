@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 The **harmonic series** is the [[serie|series]]
 $$\sum\limits_{n=1}^{\infty} \frac{1}{n}=1+ \frac{1}{2}+ \frac{1}{3}+ \frac{1}{4}+\ldots$$

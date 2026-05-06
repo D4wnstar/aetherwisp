@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 The **characteristic function** of a real-valued, continuous [[Random variable]] $X$ is a complex-valued function that completely describes its [[Probability distribution]]. It is defined as
 $$\phi^{*}_{X}(t)=E[e^{itX}]=\int_{\Omega}e^{itx}f_{X}(x)\ dx$$

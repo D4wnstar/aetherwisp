@@ -1,4 +1,4 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 Un **operatore** è una generica legge che trasforma elementi di uno spazio, detto *dominio*, in elementi di un altro spazio, detto *codominio* o *immagine*. In genere, i termini "operatore" e "funzione" sono intercambiabili, ma è utile separarli quando si studiano, ad esempio, spazi di funzioni come gli [[spazi Lp]], dove i termini si confonderebbero.

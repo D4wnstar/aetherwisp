@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 The **central limit theorem** states that the [[probability distribution]] of a rescaled [[Arithmetic mean|sample mean]] converges, in some conditions, to a [[Gaussian distribution|normal distribution]]. The theorem has gone through numerous iterations and variations throughout the history of statistics and probability theory and as such, there exists several different variations.
 

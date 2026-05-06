@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 **Precision**, in the context of [[machine learning]], is a [[performance index]] of [[Binary classification]] defined as the ratio between [[False Positive Rate|true positives]] and the sum of true and false positives:
 $$\text{Prec}=\frac{\text{TP}}{\text{TP}+\text{FP}}$$

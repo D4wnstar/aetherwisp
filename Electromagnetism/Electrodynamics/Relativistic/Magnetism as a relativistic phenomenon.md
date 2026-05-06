@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 Magnetism has, chronologically speaking, always been its own thing. It has its own origin ([[electric current]]) and manifestation ([[magnetic field]]) distinct from electricity ([[electric charge]] and [[electric field]]), its own pair of laws in [[Maxwell's equations]] and its own half of the [[electromagnetic wave]]. And yet, despite all this, magnetism isn't real. Okay, that's a strong statement, it certainly *is* real, but it is not an independent phenomenon. Magnetism as we know it cannot exist alone. Magnetism isn't a cause, it's a consequence. Specifically, it's a consequence of the joint efforts of relativity and electrostatics.
 

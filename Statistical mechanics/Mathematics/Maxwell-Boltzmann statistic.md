@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 The **Maxwell-Boltzmann statistic** or **distribution** (not to be confused with the *other* [[Maxwell-Boltzmann distribution]]) is a real, continuous [[Probability distribution]] that describes the behavior of a [[Physical system|system]] of $N$ classical [[Particle|particles]] in [[thermal equilibrium]]. Its [[Probability density function]] is
 $$\langle n_{i} \rangle =\frac{1}{e^{\beta(\varepsilon_{i}-\mu)}}=ze^{-\beta \varepsilon_{i}}$$

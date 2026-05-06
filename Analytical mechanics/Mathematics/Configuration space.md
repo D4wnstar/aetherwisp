@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 The **configuration space** $Q$ of a [[Physical system|system]] is the [[differentiable manifold]] of all possible configurations it can take, as determined by the [[generalized coordinates]]. In unconstrained systems, it typically coincides with $\mathbb{R}^{N}$, some other well known set like the $SO(3)$ [[special orthogonal group]] or some combination of them, like $\mathbb{R}^{3}\times SO(3)$. When one or more [[Constraint|constraints]] are added, the configuration space shrinks as certain configurations become prohibited. A point in configuration space is called a **configuration**. The dimension of $Q$ is said to the be [[degrees of freedom]] of the system and is also the number of [[Generalized coordinates|free coordinates]] it has.
 

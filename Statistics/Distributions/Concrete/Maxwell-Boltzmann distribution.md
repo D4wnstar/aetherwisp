@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 The **Maxwell-Boltzmann distribution** (not to be confused with the *other* [[Maxwell-Boltzmann statistic|Maxwell-Boltzmann distribution]]) is a real, continuous [[Probability distribution]]. For a [[Random variable]] $X$, the [[Probability density function]] is
 $$f(x)=\sqrt{ \frac{2}{\pi} } \frac{x^{2}}{a^{3}} e^{-x^{2}/2a^{2}}$$

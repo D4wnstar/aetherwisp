@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 The **group velocity** of a [[wave]] is one of two definitions of its velocity, the other being [[phase velocity]]. It is the velocity at which the [[envelope]] of the wave propagates in space. It is most easily seen in the motion of a [[wave packet]], where the shape of the envelope is quite obvious.
 

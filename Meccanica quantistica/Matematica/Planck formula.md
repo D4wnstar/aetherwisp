@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 The **Planck formula** relates the [[energy]] of a [[Photon]] and its [[frequency]] in a linear manner:
 $$E=h\nu=\hbar\omega$$

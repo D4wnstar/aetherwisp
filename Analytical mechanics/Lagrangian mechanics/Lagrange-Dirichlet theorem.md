@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 The **Lagrange-Dirichlet theorem** gives a condition to find stable [[Equilibrium point|equilibrium points]] in mechanical systems.
 

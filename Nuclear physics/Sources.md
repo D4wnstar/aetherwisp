@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 - Notes from my professors, sourced from
 	- Particles and nuclei, 7th ed., Povh et al.

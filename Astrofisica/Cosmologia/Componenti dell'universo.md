@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 L'universo è composto fondamentalmente da tre componenti. Ciascuno di essi ha associata una densità $\rho$ e un parametro $\Omega$ che viene usato nei modelli cosmologici:
 1. [[Materia]], a cui è associato $\Omega_{m}$. Si divide in tre categorie, la cui somma fa $\Omega_{m}$

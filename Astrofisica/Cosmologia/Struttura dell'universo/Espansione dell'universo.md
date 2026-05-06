@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 L'**espansione dell'universo** è l'aumento delle distanze tra oggetti non [[Stati in meccanica quantistica|legati]] [[Gravity|gravitazionalmente]] nell'universo osservabile nel tempo.
 ### Differenze materia-radiazione

@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 La **luminosità** di un astro è definita come l'energia emessa isotropicamente dall'astro in una certa banda per unità di tempo, misurata in fotoni che cadono in quella banda. Matematicamente
 $$L_{banda}=f_{banda}4\pi d^{2}$$

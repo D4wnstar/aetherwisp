@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 **Transition radiation** is a form of [[electromagnetic radiation]] that is emitted when an [[electric charge]] with [[Lorentz transformation|relativistic]] speed crosses ("transitions") from one medium to another. [[boundary condition|Boundary conditions]] and the difference in [[Permittivity|permittivity]] lead to a burst of radiation. The [[irradiance]] is
 $$I=\frac{1}{3}\alpha \hbar \omega_{p}\gamma$$

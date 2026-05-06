@@ -1,5 +1,5 @@
 ---
-wiki-publish: false
+hl-publish: false
 tags:
   - serie
 ---

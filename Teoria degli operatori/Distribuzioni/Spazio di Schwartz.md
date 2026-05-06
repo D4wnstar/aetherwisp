@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 Si dice **spazio di Schwartz**, indicato con $\mathcal{S}$, lo [[Vector space]] costituito dalle funzioni $\varphi$ infinitamente derivabili e a *decrescenza rapida* in tutte le derivate, ovvero tali che, per ogni $h,k\in\mathbb{N}$ si ha
 $$\sup\limits_{x\in\mathbb{R}}\left|x^{h} \frac{d^{k}\varphi}{dx^{k}}\right|<+\infty$$

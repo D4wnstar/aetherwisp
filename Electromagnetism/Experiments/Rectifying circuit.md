@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 The idea is that we have a circuit with a [[Electrical resistance|resistance]] $R$, a [[Capacitor]] $C$, a diode and a variable [[electric potential]]. The circuit is
 

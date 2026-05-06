@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 The **exponential series** is the [[series]] that defines the exponential function $e^{x}$:
 $$\sum\limits_{n=0}^{\infty} \frac{x^n}{n!}=e^x$$

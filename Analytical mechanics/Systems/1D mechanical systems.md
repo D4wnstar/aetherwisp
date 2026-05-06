@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 One-dimensional mechanical [[Physical system|systems]] are of particular interest in physics. Their general [[ordinary differential equation]] is
 $$m\ddot{x}=F(x,\dot{x},t)$$

@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 The **microcanonical ensemble** is an [[ensemble]] whose [[Probability density function]] is
 $$\rho(\mathbf{q},\mathbf{p})=\begin{cases}

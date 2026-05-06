@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 Una **corrente di probabilità** $\mathbf{J}$ è una quantità che descrive il moto di una [[Probability distribution|distribuzione di probabilità]] nello spazio, analogamente a come una [[Electric current|corrente elettrica]] descrive il moto di una distribuzione di [[Electric charge|carica]] nello spazio. È una quantità vettoriale ottenuta come il prodotto di una distribuzione di probabilità $f$ e una velocità $\mathbf{v}$:
 $$\mathbf{J}=f\mathbf{v}$$

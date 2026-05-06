@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 A **physical magnetic dipole** is a tiny [[electric current]] loop. If the size of the loop is infinitesimal, it is called a **perfect magnetic dipole**. They are characterized by a [[magnetic dipole moment]]. The electric analog is the [[electric dipole]].
 ### Under a magnetic field

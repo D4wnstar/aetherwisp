@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 The **Frenet-Serret equations** are a set of three equations for the derivatives of the [[basis]] vectors of the [[Moving frame]] in three-dimensional [[Cartesian coordinates]]. Given the tangent, normal and binormal unit vectors $\mathbf{T}$, $\mathbf{N}$ and $\mathbf{B}$, we have
 $$\frac{d\mathbf{T}}{ds}=\kappa\mathbf{N}, \quad \frac{d\mathbf{N}}{ds}=-\kappa\mathbf{T}+\tau\mathbf{B}, \quad \frac{d\mathbf{B}}{ds}=-\tau\mathbf{N}$$

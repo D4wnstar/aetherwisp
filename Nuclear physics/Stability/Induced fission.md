@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 **Induced fission** is a mode of [[nuclear decay|decay]] in which a heavy [[Atomic nucleus|nucleus]] is struck by a [[neutron]], causing it [[nuclear fusion|fuse]] with the nucleus and producing a highly unstable excited [[isotope]] which then immediately undergoes [[nuclear fission]].
 

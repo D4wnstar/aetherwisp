@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 The **Lorenz gauge** is an electrodynamic [[gauge]] for [[Maxwell's equations]] where we set the [[divergence]] of the [[magnetic vector potential]] to
 $$\nabla\cdot \mathbf{A}=-\mu_{0}\varepsilon_{0}\frac{ \partial V }{ \partial t }=- \frac{1}{c^{2}}\frac{ \partial V }{ \partial t }  $$

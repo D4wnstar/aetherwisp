@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 $Q$ is [[electric charge]]. $B$ is [[baryon number]]. $S$ is [[strangeness]]. $L$ is [[lepton number]], brackets represent the flavor. $S$ is [[spin]]. $P$ is [[parity]].
 ### Quarks

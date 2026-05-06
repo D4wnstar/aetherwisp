@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 A **strange particle** is a [[Particle|particle]], specifically a [[hadron]], that exhibits anomalous characteristics: it [[Nuclear decay|decays]] with a [[mean lifetime]] typical of the [[Fundamental interaction|weak interaction]] ($10^{-10}\text{ s}$), but [[Particle scattering|scatters]] with a [[cross section]] typical of the [[Fundamental interaction|strong interaction]] ($\sim10^{-24}\text{ cm}^{2}$). They often decay in a pair of [[Electric charge|charged]] particles, to the point that their first recorded name for them is **V particles**, from the V-shaped tracks their decay products made in [[Cloud chamber|cloud chambers]] from [[Cosmic ray|cosmic rays]].
 

@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 La **scala delle distanze cosmica** è la successione di metodi usati in astronomia per misurare le distanze di corpi celesti. La misura diretta della distanza di un oggetto è possibile sono per oggetti molto vicini alla Terra (in scala cosmica), il che vale a dire meno di $\sim1000$ [[Parsec]] grazie al telescopio Gaia.
 

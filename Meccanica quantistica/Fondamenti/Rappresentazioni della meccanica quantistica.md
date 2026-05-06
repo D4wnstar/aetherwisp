@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 aliases:
   - rappresentazione di Schrödinger
   - rappresentazione di Heisenberg

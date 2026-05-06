@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 aliases:
   - funzione di Bessel sferica del primo tipo
   - funzione di Bessel sferica del secondo tipo

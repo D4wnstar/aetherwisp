@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 **Natural units** are system of units of measurements in which a number of fundamental constants are set to 1 and are dimensionless. Then, physical measurements are expressed not in the common [[International System]] (SI) units, but as multiples or fractions of physical constants. This is the reason behind the name: natural units attempt to remove the "human element" from measurements by relying only on constants of nature.
 

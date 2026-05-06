@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 Il **flusso energetico** $\Phi$, o semplicemente **flusso**, è la quantità di energia $E$ che passa attraverso una superficie $S$ per unità di tempo $t$:
 $$\Phi=\frac{1}{S} \frac{dE}{dt} \quad \left[\frac{W}{m^{2}}\right]$$

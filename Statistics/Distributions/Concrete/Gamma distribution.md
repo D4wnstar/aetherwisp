@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 The **gamma distribution** is a real continuous [[Probability distribution]] defined by a shape parameters $\alpha$ and a scale parameter $\tau$. For a [[Random variable]] $X$, the [[Probability density function]] is
 $$f_{X}(x;\alpha,\tau)=\frac{1}{\Gamma(\alpha)} \frac{1}{\tau^{\alpha}}x^{\alpha-1}e^{-x/\tau}$$

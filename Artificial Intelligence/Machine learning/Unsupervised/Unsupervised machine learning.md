@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 **Unsupervised machine learning** is a branch of [[machine learning]] that studies learning techniques that autonomously detect patterns in data. Unlike [[supervised machine learning]], only the raw observations are provided, so there is no need to create examples for the model to learn from.
 

@@ -1,5 +1,5 @@
 ---
-wiki-publish: true
+hl-publish: true
 ---
 The **electric dipole moment** $\mathbf{p}$ is a measure of how separated positive and negative [[Electric charge|electric charges]] are within a system. A dipole moment is defined for any pair of charges within a system, that is, for each [[electric dipole]], and the total moment of the system is the sum of each dipole moment. For a system of point charges, it is defined as
 $$\mathbf{p}=\sum_{i=1}^{n} q_{i}\mathbf{r}_{i}'\qquad[\text{C m}]$$
