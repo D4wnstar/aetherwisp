@@ -1,1 +1,0 @@
-La **precisione** o **affidabilità** di una misura è la proprietà di una misura di rimanere tale nel tempo, o comunque variare poco. È uno dei due concetti fondamentali di una misura, assieme alla [[Validità (misura)|validità]].

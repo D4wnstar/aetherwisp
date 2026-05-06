@@ -1,1 +1,0 @@
-Una **misura a scelta forzata** è una misura che non permette ampiezza di scelta: vero o falso, sì o no.
