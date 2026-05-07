@@ -29,7 +29,7 @@ con $M_{\odot}$ la [[Massa solare]]. Come vediamo, la massa di Jeans aumenta con
 ### Collasso
 Generalmente, quando una nube collassa, l'aumento della densità diminuisce la massa di Jeans e ciò fa si che sezioni più piccole *interne* alla nube comincino esse stesse a collassare, più in fretta della nube totale. Di conseguenza, invece di collassare in una singola stella con la massa di tutta la nube, si creano molte stelle più piccoli che hanno solo la massa di una piccola parte della nube. Questo fenomeno si chiama **frammentazione gerarchica**.
 
-![[Schema Frammentazione gerarchica|center]]
+![[Schema Frammentazione gerarchica.svg|center]]
 
 Una stella che ha cominciato il collasso e che ha cominciato ad aumentare la sua temperatura si chiama [[protostella]], e non è ancora una stella vera e propria in quanto non ha ancora processi interni. Attorno ad esse vi sono [[disco di accrescimento|dischi di accrescimento]] da cui accumulano massa. Le protostelle sono un tipo di [[Young Stellar Object]]. La stella diventa tale solo quando comincia la [[Nuclear fusion]] dell'idrogeno all'interno del suo nucleo.
 #### Dissipazione del momento angolare
@@ -39,7 +39,7 @@ Una parte del momento è perso nella frammentazione gerarchica, ma non abbastanz
 
 Questo modo è mediante i campi magnetici. Il plasma della nube, essendo elettricamente carico, emette un tenue campo magnetico nell'ordine dei microgauss. In un plasma, il campo magnetico rimane congelato con il gas, quindi il campo si oppone alla rotazione e trasporta momento angolare dalla protostella verso l'esterno. Nel girare attorno ad un campo magnetico, *piega* le linee magnetiche in una direzione. Per fare ciò, consuma energia che viene tolta dall'energia cinetica, agendo praticamente come *attrito magnetico*. Questo fenomeno si chiama **magnetic braking**.
 
-![[Schema Rallentamento magnetico|100%|center]]
+![[Schema Rallentamento magnetico.svg|100%|center]]
 ### Contrazione
 Nel perdere momento angolare, la protostella si contrae sempre di più. A differenza di una stella "viva", questo processo non è governato dal [[Teorema del viriale]]. Infatti, la nube è otticamente sottile e quasi tutta l'energia termica viene [[irradiazione|irradiata]] verso l'esterno, quindi può continuare a collassare e accumulare potenziale gravitazionale. La fase di contrazione dura circa un [[Tempo dinamico]], che è nell'ordine dei milioni di anni per ISM in fase molecolare.
 
@@ -47,4 +47,4 @@ La contrazione tende a formare un nucleo più denso. Ad un certo punto, il gas d
 
 Le protostelle sono completamente [[convezione|convettive]], fredde, molto grandi e molto luminose. Cominciano tutte sul lato destro del [[Diagramma Hertzsprung-Russell|diagramma HR]], al [[Limite di Hayashi]], per poi avvicinarsi alla [[Sequenza principale]] a età zero (ZAMS). Questa fase si dice **fase di presequenza** e osservativamente sono simili alle [[gigante rossa|giganti]], ma a sono distinguibili perché occupano una parte molto precisa del diagramma, sono sempre circondate da spesse nubi di gas e polvere, hanno [[Spettro (astrofisica)|spettri]] peculiari con forti [[Riga spettrale|righe di emissione]] e allargamenti per venti stellari. Cambiano anche la loro [[Luminosità]] molto rapidamente. Presentano talvolta anche una grande quantità di litio, fatto strano dato che di solito viene consumato nella fusione.
 
-![[Grafico Evoluzione protostelle|90%|center]]
+![[Grafico Evoluzione protostelle.svg|90%|center]]

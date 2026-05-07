@@ -25,7 +25,7 @@ The left number is $M_{z}$. The top right is the $y$ parity. Recall that the par
 
 The real value of symmetries is that, broadly speaking, only atomic orbitals of similar energy and symmetry can combine to form molecular orbitals. This allows us to intuitively select which orbitals would combine with which by knowing both their energy (the eigenvalue of the orbital) and symmetries (the angular momentum $l$). The figure below shows a few examples of atomic orbital that can bond and the molecular orbitals that they create.
 
-![[Diagram Molecular orbital symmetries|100%]]
+![[Diagram Molecular orbital symmetries.svg|100%]]
 
 #### von Neumann-Wigner non-crossing rule
 When it comes to diatomic molecules, there's a useful rule regarding symmetries that relies on the fact that the electronic terms only rely on the internuclear distance $R$.

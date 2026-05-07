@@ -9,7 +9,7 @@ Consideriamo una sfera di raggio $r$ e densità di massa $\rho$ in espansione se
 $$v=Hr$$
 con $H$ un numero, non necessariamente costante.
 
-![[Schema Modello Friedmann|center]]
+![[Schema Modello Friedmann.svg|center]]
 
 
 Per conservazione dell'energia, l'energia del tracciante è

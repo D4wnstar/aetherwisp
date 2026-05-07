@@ -18,7 +18,7 @@ $$\mathbf{N}(t)=(-\sin(\phi(t)),\ \cos(\phi(t)))$$
 Since differentiating the components of a unit vector is equivalent to [[Rotation|rotating]] it 90° counterclockwise, the normal vector is $\pi/2$ from the tangent vector, as expected[^1]. The tangent and normal vectors form a Cartesian basis that moves with the particle, with its origin determined by the origin vector $\mathbf{r}(t)$. These three vectors form a [[Moving frame]]
 $$\{\mathbf{r}(t), \mathbf{T}(t),\mathbf{N}(t)\}$$
 
-![[Graph 2D Cartesian coordinates|center]]
+![[Graph 2D Cartesian coordinates.svg|center]]
 
 Velocity and acceleration can be expressed in the moving frame as
 $$\mathbf{v}=|\mathbf{v}|\mathbf{T}=\dot{s} \mathbf{T}, \quad \mathbf{a}=\dot{\mathbf{v}}=\ddot{s}\mathbf{T}+\dot{s}^{2} \kappa \mathbf{N}$$

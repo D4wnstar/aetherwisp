@@ -136,7 +136,7 @@ and a transmitted wave
 $$\tilde{\mathbf{E}}_{T}(\mathbf{r},t)=\tilde{\mathbf{E}}_{0,T}e^{i(\mathbf{k}_{T}\cdot \mathbf{r}-\omega t)},\qquad \tilde{\mathbf{B}}_{T}(\mathbf{r},t)=\frac{n_{2}}{c}(\hat{\mathbf{k}}_{T}\times \tilde{\mathbf{E}}_{T})$$
 all at the same frequency $\omega$.
 
-![[Diagram Oblique incidence EM wave]]
+![[Diagram Oblique incidence EM wave.svg]]
 
 The wavevectors are all connected by
 $$\frac{k_{I}}{n_{1}}=\frac{k_{R}}{n_{1}}=\frac{k_{T}}{n_{2}}=\omega \quad\Rightarrow \quad k_{I}=k_{R}=\frac{n_{1}}{n_{2}}k_{T}\tag{1}$$

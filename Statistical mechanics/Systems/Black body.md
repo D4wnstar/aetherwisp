@@ -15,7 +15,7 @@ Let's assume our body is made up of many little [[Electric dipole|electric dipol
 $$k_{i}=\frac{\pi n_{i}}{L}$$
 where $i=x,y,z$ and $n\in \mathbb{N}$. This comes from the [[harmonic oscillator]]. Mind you, this is *not* quantization: we have not quantized fields, matter, light or anything else. The number of possible oscillation modes can be calculated in the space of wavenumbers. Let's consider an infinitesimally thick (thickness $dk$) spherical shell in this space, and let's cut out only the octant where all components $k_{x},k_{y}$ and $k_{z}$ are positive.
 
-![[Diagram Black body wavenumber shell]]
+![[Diagram Black body wavenumber shell.svg]]
 
 
 Remember that the modes are discrete, as they depend on a natural number $n$, so the density of oscillation modes in this infinitesimal "volume" (which is more of a 3D grid of points due to discreteness) is given by
@@ -99,7 +99,7 @@ We can see that the irradiance is an energy density multiplied by a velocity. Si
 
 The solid angle we integrate over is not a full sphere, but rather just one hemisphere. This is because the emission is from a pinhole on the surface of the black body. The surface is massive compared to the pinhole, so we can consider it locally flat. Thus, half of space is covered by the black body itself and radiation is not propagated in that direction.
 
-![[Schema Black body pinhole|center]]
+![[Schema Black body pinhole.svg|center]]
 
 $u$ is not dependent on any angle, so it comes out. We are left with
 $$\int \frac{\cos\theta}{4\pi}d\Omega=\int_{0}^{2\pi}d\phi\int_{0}^{\pi/2} \frac{\sin\theta}{4\pi}\cos \theta\ d\theta=\frac{1}{4}$$

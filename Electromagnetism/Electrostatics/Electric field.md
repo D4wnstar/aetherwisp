@@ -13,11 +13,11 @@ If dealing with response fields, it is typically easiest to work with [[electric
 ### Field lines
 The typical textbook electric field is perfectly radial, being emitted from a point charge and emanating in all directions evenly (outwards for a positive charge, inwards for a negative one).
 
-![[Diagram Electric field lines|80%]]
+![[Diagram Electric field lines.svg|80%]]
 
 For a charge in motion, things differ a bit. Namely, the field lines are enhanced in the direction perpendicular to motion and dampened in the direction of motion.
 
-![[Diagram Moving charge electric field lines]]
+![[Diagram Moving charge electric field lines.svg]]
 ### Point charges
 The field of an individual, unmoving point charge $q$ is
 $$\mathbf{E}(\mathbf{r},t)= \frac{1}{4\pi \varepsilon_{0}} \frac{q}{\mathfrak{r}^{2}}\hat{\boldsymbol{\mathfrak{r}}}$$
@@ -131,7 +131,7 @@ $$\mathbf{f}=\frac{1}{2}\sigma(\mathbf{E}_\text{above}+\mathbf{E}_\text{below})$
 #### Transmission angle
 The presence of a discontinuity implies that the field incident on a surface changes direction as it passes through the surface (i.e. it is transmitted).
 
-![[Schema Electric field transmission|90%]]
+![[Schema Electric field transmission.svg|90%]]
 
 When an electric field passes through the surface, the component parallel to the surface is conserved. We can use this to connect the incidence angle $\alpha_{\text{ext}}$ and the transmission angle $\alpha_{\text{int}}$. We can express the parallel components in terms of the cosines of these two angles:
 $$E_\text{ext}\cos \alpha _\text{ext}=E_\text{int}\cos \alpha _\text{int}$$

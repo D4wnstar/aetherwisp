@@ -13,14 +13,14 @@ Then, $2m_{e}c^{2}$ is the [[threshold energy]] of the process. If the mass of $
 $$E_\text{tr}=2m_{e}c^{2}\left( 1+ \frac{m}{M} \right)$$
 
 :::image
-![[Feynman diagram Pair production electron-positron|80%|center]]
+![[Feynman diagram Pair production electron-positron.svg|80%|center]]
 [[Feynman diagram]] of the electron-positron pair production. Note the influence of the external atom/nucleus.
 :::
 
 The [[cross section]] of pair production can be quite complicated if calculated properly through quantum electrodynamics. The general behavior is that it is zero beneath the threshold energy (of course), then increases rapidly until it starts to slow down. Eventually the growth nearly stops and moves asymptotically towards a top value.
 
 :::
-![[Diagram Pair production cross section]]
+![[Diagram Pair production cross section.svg]]
 The cross section of electron-positron pair production.
 :::
 

@@ -8,7 +8,7 @@ The [[energy]] radiated is rather small, but is quite as a particle [[detector]]
 Consider a medium with [[refractive index]] $n(\omega)$. When a charged particle passes through, its [[electric field]] affects the positive and negative charges of the [[Atom|atoms]], creating [[Electric dipole|electric dipoles]] that [[polarization|polarize]] the medium. As the particle leaves, the medium depolarizes. The time-variant polarization creates oscillating dipoles that emit dipole radiation in a [[spherical wave]] centered on the location where the particle passed. This occurs continuously throughout the entire trajectory of the particle, creating a [[wavefront]] that is the outer rim of many infinitesimally delayed spherical waves.
 
 :::image
-![[Diagram Cherenkov radiation|80%]]
+![[Diagram Cherenkov radiation.svg|80%]]
 A diagram of how Cherenkov radiation is released. This is a 2D cross section. The actual wavefront is conical (rotate the purple lines around the axis to see it).
 :::image
 
@@ -18,7 +18,7 @@ In this case, the particle moves faster than the wave can propagate, which cause
 
 The angular opening $\theta_{C}$ of the conical wavefront is called the **Cherenkov emission angle**. It can be found through purely geometrical considerations.
 
-![[Diagram Cherenkov radiation geometry|80%]]
+![[Diagram Cherenkov radiation geometry.svg|80%]]
 
 
 $\beta ct$ is the hypotenuse and $ct/n$ is its cosine so

@@ -5,7 +5,7 @@ Many mechanical [[Physical system|systems]] are subject to one or more [[Constra
 
 To start, consider a [[point mass]] of [[mass]] $m$ at some point $\mathbf{r}$ in space.
 
-![[Plot Point mass system|50%]]
+![[Plot Point mass system.svg|50%]]
 
 The position vector $\mathbf{r}$ is composed of three numbers that show the position of the point mass in any [[basis]] of preference. For instance, in [[Cartesian coordinates]], it is
 $$\mathbf{r}=\begin{pmatrix}
@@ -87,7 +87,7 @@ The coordinates of the points are $\mathbf{r}_{1},\ldots,\mathbf{r}_{N}$, for a 
 
 > [!example]- Circular constraint
 > We'll start with a simple example with just two point masses, $P_{1}$ and $P_{2}$. $P_{1}$ is constrained to a circumference of radius $R$ on the $xy$ plane and $P_{2}$ is constrained to $P_{1}$ by a rigid rod of length $L$ so that when $P_{1}$ moves, $P_{2}$ gets dragged along with it. The rod is attached to $P_{1}$ in such a way that's free to swivel, so while the length of the rod is constant, its direction is not.
-> ![[Plot Two bound point masses]]
+> ![[Plot Two bound point masses.svg]]
 > We have six coordinates here to solve, $(x_{1},y_{1},z_{1},x_{2},y_{2},z_{2})$. So what are our constraints? Well, we know $P_{1}$ is stuck on the $xy$ plane, so $f^{(1)}:z_{1}=0$ and $f^{(2)}:x_{1}^{2}+y_{1}^{2}-R^{2}=0$ everywhere. Similarly, since $P_{1}$ and $P_{2}$ are joint, their coordinates are bound by $f^{(3)}:(x_{1}-x_{2})^{2}+(y_{1}-y_{2})^{2}+(z_{1}-z_{2})^{2}-L^{2}=0$. We have three (holonomic) constraints then, which means that we only need to solve for $n=3N-r=6-3=3$ free coordinates.
 > 
 > We can check if the constraints are really independent from each other by looking for the gradients of the constraints:
@@ -114,7 +114,7 @@ The coordinates of the points are $\mathbf{r}_{1},\ldots,\mathbf{r}_{N}$, for a 
 > 2(z_{2}-z_{1})
 > \end{pmatrix}$$
 > These are [[Linear independence|linearly independent]], which confirms that these are three distinct constraints. Now that we know for a fact that we only need $n=3$ free coordinates, we attempt to look for a valid parameterization. The logic here is that we only need to know the angle of $P_{1}$ on its circumference to know where it is (the radius is constant so angle is sufficient), and then we can use the remaining two to locate $P_{2}$. $P_{2}$ is shifted from $P_{1}$ and since we are in three dimensions, we need three coordinates to determine this shift. Luckily we already know one, $L$, and the conveniently have two free coordinates that we can assign the other two. What we make these coordinates represent is a bit arbitrary so long it works, but since we're already using angles for $P_{1}$, we may as well use angles for $P_{2}$. In fact, since the length of the rod is constant, $P_{2}$ always lies on a sphere of radius $L$ centered on $P_{1}$. We can therefore use the angular part of [[spherical coordinates]] to uniquely identify the location of $P_{2}$, if we know $P_{1}$. We now have our three coordinates $q_{1},q_{2},q_{3}$, which are shown in the figure below:
-> ![[Plot Two bound point masses 2]]
+> ![[Plot Two bound point masses 2.svg]]
 > Armed with this knowledge, we want to convert this geometric reasoning into formulas. Fortunately, it's just a matter of using [[polar coordinates]] for $P_{1}$ and summing spherical coordinates on top of them for $P_{2}$:
 > $$\begin{align}
 > x_{1}&=R\cos q_{1} \\

@@ -83,7 +83,7 @@ This equation shows that although the starting Hamiltonian had coupled oscillati
 
 $\Omega(\mathbf{k})$ can be interpreted as the potential energy associated with the wave vector $\mathbf{k}$, just like how $U(\xi)$ is the potential energy associated with position $\xi$. $\Omega(\mathbf{k})$ is the energy of each phonon.
 
-![[Plot Phonon potential|center]]
+![[Plot Phonon potential.svg|center]]
 
 The derivative of the potential gives us the velocity of the phonon, usually denoted as $c$ and called the **speed of sound** (again, for acoustic phonons). Note that it's not the [[speed of light]], despite using the same letter. As is expected out of a harmonic oscillator, it is almost linear for small oscillations (i.e. small $\Omega$). Unlike the speed of light, which is governed directly by the laws of physics, the value of the speed of sound depends on the properties of the material.
 
@@ -153,7 +153,7 @@ which shows that all crystalline solids more ore less have the same heat capacit
 
 When plotted numerically, the heat capacity goes something like this:
 
-![[Plot Phonon crystal heat capacity|center]]
+![[Plot Phonon crystal heat capacity.svg|center]]
 
 When the ratio of temperature and Debye temperature approaches one, heat capacity plateaus at $\sim 3$. This model actually works really well for a large class of solids. However, it only works for solids: if the temperature is so high that the material melts, this model breaks.
 

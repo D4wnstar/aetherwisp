@@ -8,7 +8,7 @@ where $\mathbf{E}$ is the [[electric field]] and $\mathbf{B}$ is the [[magnetic 
 > [!example]- Cylinder
 > Consider a cylinder with a length of $L$ and radius $a$, an internal electric field $\mathbf{E}$ going through the length of the cylinder created by an [[electric potential]] difference $V$ between the ends of the cylinder, and a magnetic field $\mathbf{B}$ created by a current $I$ going through the cylinder.
 > 
-> ![[Diagram Poynting vector cylinder|80%]]
+> ![[Diagram Poynting vector cylinder.svg|80%]]
 > 
 > The electric field is uniform
 > $$\mathbf{E}=\frac{V}{L}\hat{\mathbf{z}},\qquad\text{inside the wire}$$
@@ -22,7 +22,7 @@ where $\mathbf{E}$ is the [[electric field]] and $\mathbf{B}$ is the [[magnetic 
 > [!example]- Coaxial cylinders
 > A similar situation is with two cylinders, with one embedded inside of the other. The length is still $L$ for both, with small and large radii $a$ and $b$. The electric potential difference $V$ is now applied in between the cylinders, so the electric field goes out radially. The current is still passing through the center, so the magnetic field is the same when $a\leq s\leq b$. This is the standard form of a cylindrical [[capacitor]].
 > 
-> ![[Diagram Poynting vector coaxial cylinders|80%]]
+> ![[Diagram Poynting vector coaxial cylinders.svg|80%]]
 > 
 > The electric field can be found by integrating the potential using the definition from $a$ to $b$ (remember the minus sign in front of the integral!), which gives the line charge density, and then through the usual field for a line charge density.
 > $$V=-\int_{a}^{b}\mathbf{E}\cdot d\mathbf{s}=\frac{\lambda}{2\pi \varepsilon_{0}}\ln\left( \frac{b}{a} \right)\quad\Rightarrow \lambda=\frac{2\pi \varepsilon_{0}V}{\ln(b/a)}$$

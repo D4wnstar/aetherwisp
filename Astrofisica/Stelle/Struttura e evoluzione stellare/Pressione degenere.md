@@ -62,7 +62,7 @@ Questo spesso non accade però. Dato che la pressione non aumenta più all'aumen
 
 È possibile mostrare l'andamento della densità e della temperatura in un grafico log-log:
 
-![[Grafico Gas degenere|100%|center]]
+![[Grafico Gas degenere.svg|100%|center]]
 
 L'area colorata in azzurro è la fase degenere. Si può vedere che il centro del Sole sia molto vicino ad uno stato degenere. La massa di una stella è (perlopiù) costante, ma la sua densità dipende da quanto gravitazionalmente contratta è. La linea tratteggiata verde rappresenta l'evoluzione di una stella in equilibrio idrostatico per una certa massa $M$, con pendenza $1/3$ ottenuta dalla relazione
 $$T_{gas\ perf.}\propto M^{2/3}\rho^{1/3}$$

@@ -1,6 +1,6 @@
 Consider a homogeneous disk of [[mass]] $M$ and radius $R$ [[Constraint|constrained]] to the $xy$ plane. The disk rolls without sliding over the $x$ axis. Its center $G$ is linked to the point $(0,R)$ by a spring of elastic constant $k$ and null rest length. A pendulum of length $\ell$ and mass $m$ is hanging from the point $P$. Gravity affects the system. The [[configuration space]] is parameterized by the angles $\theta$ and $\varphi$ as shown. $\varphi$ is defined such that the spring has length zero when $\varphi=\pi$.
 
-![[Diagram Ex. 18-7-22]]
+![[Diagram Ex. 18-7-22.svg]]
 
 1. Write the [[Lagrangian]] $L$.
 2. Write the [[Kinetic energy|kinetic matrix]].
@@ -69,7 +69,7 @@ $$\frac{ \partial V }{ \partial \varphi } =kR^{2}(\varphi-\pi)+mgR\sin \varphi=0
 These solve to
 $$\sin \varphi=- \frac{kR}{mg}\varphi+ \frac{kR}{mg}\pi,\quad \theta=0,\pi$$
 
-![[Diagram Ex. 18-7-22 Part 5|80%]]
+![[Diagram Ex. 18-7-22 Part 5.svg|80%]]
 We can use the [[Hessian]] of the potential to determine stability:
 $$\partial ^{2}V=\begin{pmatrix}
 \frac{ \partial ^{2}V }{ \partial \varphi ^{2} }  & 0 \\

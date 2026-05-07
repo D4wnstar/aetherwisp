@@ -9,7 +9,7 @@ dove $z$ è il [[Redshift]] e $H_{0}$ è la **costante di Hubble**, il cui valor
 
 Il punto da cui o a cui si osserva è indifferente: la velocità aumenta allo stesso modo ovunque si guardi. Questo è una conferma empirica del [[Principio cosmologico]].
 
-![[Grafico Legge di Hubble|Legge di Hubble|80%|center]]
+![[Grafico Legge di Hubble.svg|Legge di Hubble|80%|center]]
 
 Possiamo calcolare a grandi linee la costante di Hubble, ottenendo
 $$\frac{cz}{d}= H_{0}\sim100km\;s^{-1}\;Mpc^{-1}$$

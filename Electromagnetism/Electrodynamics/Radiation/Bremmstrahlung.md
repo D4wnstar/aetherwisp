@@ -17,7 +17,7 @@ If we set the [[frame of reference]] such that $\mathbf{v}$ is on the $x$ axis, 
 $$\frac{dP}{d\Omega}=\frac{\mu_{0}q^{2}a^{2}}{16\pi ^{2}c} \frac{\sin ^{2}\theta}{(1-\beta \cos \theta)^{5}}$$
 where $\beta\equiv v/c$ is the usual relativistic coefficient. Now, when $\beta \simeq 0$, the whole denominator below the sine goes away and we get the typical [[torus]]-shaped radiation emission. However, when $\beta$ is large, the quintic term at the denominator distorts the torus so that looks something like this:
 
-![[Diagram Bremmstrahlung angular distribution|80%]]
+![[Diagram Bremmstrahlung angular distribution.svg|80%]]
 
 The squished blue shapes are the directions in which radiation is strongest. While there is still no radiation in the $\mathbf{v}$ direction, most of it is being emitted forwards. Notice how, due to the square of $a$, the radiation distribution does not care about whether the charge is accelerating or decelerating. Either way, it gets emitted in the direction of the velocity. This kind of radiation is known as **bremmstrahlung**, or **braking radiation** since it is typically encountered when charges brake due to the presence of external fields.
 

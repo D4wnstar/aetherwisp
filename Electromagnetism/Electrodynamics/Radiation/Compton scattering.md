@@ -10,7 +10,7 @@ In the language of [[particle]] physics, Compton scattering reads
 $$\gamma+ e^{-} \rightarrow \gamma +e^{-}$$
 It is an elastic scattering process. Graphically it looks like this:
 
-![[Diagram Compton scattering|center]]
+![[Diagram Compton scattering.svg|center]]
 
 Before the scattering, the photon carries [[relativistic energy]] $E_{0}$ and the electron only has its rest energy. The process can be explained starting from [[four-momentum]] conservation, which is valid in elastic scatterings. Elaboration through relativistic energy yields a final photon energy of
 $$E_{\gamma}=\dfrac{1}{\dfrac{1-\cos\theta}{m_{e}c^{2}}+ \dfrac{1}{E_{0}}}$$
@@ -39,7 +39,7 @@ This is known as the **Compton edge** and, interestingly, it's guaranteed to be 
 Finally, we know that the [[cross section]] of Compton scattering decreases with energy, meaning lower-energy photons are favored.
 
 :::image
-![[Diagram Compton scattering cross section]]
+![[Diagram Compton scattering cross section.svg]]
 Cross section of Compton scattering. It is highest at low energies and eventually drops down to zero.
 :::
 

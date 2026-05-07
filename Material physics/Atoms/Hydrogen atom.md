@@ -5,7 +5,7 @@ aliases:
 ---
 The **hydrogen atom** is the [[atom]] of the element hydrogen, a quantum [[physical system]] made up of a central positive [[Electric charge|charge carrier]] (a [[proton]]) and a negative charge carrier (an [[Electron|electron]]) surrounding it. It is the simplest case of a broader class of objects called **hydrogenic atoms** (or **hydrogen-like atoms**) which may possess a stronger central charge, that is, a full atomic [[Atomic nucleus|nucleus]].
 
-![[Schema modello idrogeno|center]]
+![[Schema modello idrogeno.svg|center]]
 
 The [[Hamiltonian]] for the [[Equazione di Schrödinger|Schrödinger equation]] of the hydrogen atom is
 $$\hat{H}=- \frac{\hbar^{2}}{2M}\nabla ^{2}_{R}- \frac{\hbar^{2}}{2m}\nabla^{2}_{r_{e}}- \frac{Ze^{2}}{4\pi \varepsilon_{0}r_{e}}$$
@@ -75,7 +75,7 @@ or equivalently
 $$\frac{d^{2}u(r)}{dr^{2}}+ \frac{2\mu}{\hbar ^{2}}[E-V_\text{eff}]u(r)=0$$
 This potential looks something like this:
 
-![[Plot Effective spherical Schrodinger potential]]
+![[Plot Effective spherical Schrodinger potential.svg]]
 
 Note that for $l=0$, the potential is purely attractive: nothing is stopping the electron from falling and crashing into the nucleus. But if we add a rotation ($l>0$), suddenly there is a spike of potential beyond a certain point which explains why electrons don't just collide with the nucleus. The value of $r$ at the bottom of each potential well for $l>0$ should, in principle at least, correspond to the "allowed orbits" that the [[Bohr model]] identified. As always, the system is [[Stati in meccanica quantistica|bound]] if $E<0$ and [[Stati in meccanica quantistica|scattering]] if $E>0$.
 

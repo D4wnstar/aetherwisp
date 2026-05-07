@@ -9,7 +9,7 @@ Imagine a train cart traveling at some constant speed along a smooth, straight t
 $$\Delta t_\text{rest}=2 \frac{\Delta x_\text{rest}}{c}\quad\text{or}\quad \Delta x_\text{rest}=\frac{c\Delta t_\text{rest}}{2}\tag{1}$$
 where "rest" denotes that we are in the [[frame of reference]] of the cart and $\Delta x_\text{rest}$ is the rest length of the cart. To someone on the ground, the motion of the train changes the distances that need to be covered.
 
-![[Diagram length contraction thought experiment|100%]]
+![[Diagram length contraction thought experiment.svg|100%]]
 
 When the light is emitted, the light must cover the length of the train $\Delta x_\text{moving}$, plus the distance $v\Delta t_{\text{moving},1}$ that the train moves in that time interval $\Delta t_{\text{moving},1}$. When it comes back, it must again travel the length of the train $\Delta x_\text{moving}$ *minus* the distance $v\Delta t_{\text{moving},2}$ the train moves in that time interval $\Delta t_{\text{moving},2}$. So:
 $$\Delta t_{\text{moving},1}=\frac{\Delta x_\text{moving}+v\Delta t_{\text{moving},1}}{c},\qquad \Delta t_{\text{moving},2}=\frac{\Delta x_\text{moving}-v\Delta t_{\text{moving},2}}{c}$$

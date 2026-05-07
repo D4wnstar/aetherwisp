@@ -57,6 +57,6 @@ which again proves the previous result.
 > [!result] Bound volume charge origin
 > The bound volume charge comes from the incomplete internal cancellation of dipoles within chains due to the nonuniformity of the external electric field. 
 ### In linear media
-![[Dielectric#Linear dielectrics]]
+![[Dielectric#Linear dielectrics.svg]]
 
 [^1]: The apostrophe denotes that differentiation is done with respect to the source coordinates.

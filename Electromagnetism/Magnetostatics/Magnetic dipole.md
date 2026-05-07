@@ -5,7 +5,7 @@ A **physical magnetic dipole** is a tiny [[electric current]] loop. If the size 
 ### Under a magnetic field
 Consider a rectangular magnetic dipole of sides $a$ and $b$ subject to a uniform [[magnetic field]] $\mathbf{B}$. Any loop can be built up from an infinite number of arbitrarily small rectangles (a [[Riemann sum]]), so this discussion can be extended without loss of generality to any shape of the loop. For simplicity, center the loop at the origin and, using [[Cartesian coordinates]], tilt the loop by an angle $\theta$ from the $z$ axis towards the $y$ axis. Let $\mathbf{B}$ be in the $z$ direction.
 
-![[Schema Magnetic dipole rotation|100%]]
+![[Schema Magnetic dipole rotation.svg|100%]]
 
 The forces on the sloping sides cancel out (they stretch the loop, but they don't rotate it). The forces horizontal to the loop $\mathbf{F}$ also cancel each other out linearly, but not rotationally. They apply a moment of force
 $$\mathbf{N}=aF\sin \theta\ \hat{\mathbf{x}}$$
@@ -37,7 +37,7 @@ $$\boxed{V=0}$$
 Due to the current we have
 $$\mathbf{A}(\mathbf{r},t)=\frac{\mu_{0}}{4\pi}\oint_{\gamma} \frac{I_{0}\cos\left( \omega\left( t- \frac{\mathfrak{r}}{c} \right) \right)}{\mathfrak{r}}d\mathbf{I}'$$
 
-![[Diagram Magnetic dipole radiation]]
+![[Diagram Magnetic dipole radiation.svg]]
 
 
 For a point $\mathbf{r}$ above the $x$ axis, $\mathbf{A}$ must aim in the $y$ direction, since the $x$ component is canceled by equal contributions from both sides of the $x$ axis, so

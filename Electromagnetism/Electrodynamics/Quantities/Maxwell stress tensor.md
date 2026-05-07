@@ -7,7 +7,7 @@ where $\varepsilon_{0}$ is the [[vacuum permittivity]], $\mu_{0}$ is the [[vacuu
 
 Physically, the Maxwell stress tensor binds [[Lorentz force|electromagnetic forces]] to [[Linear momentum|momentum]]. Each component $ij$ has the units of a force per unit area, i.e. a [[pressure]] (negative pressure, to be exact). Each component can be interpreted as the negative pressure on the $i$-th axis applied onto a surface that is normal to the $j$-th axis. For instance, the $T_{xx}$ component is a pressure directed on the $x$ axis applied on a surface perpendicular to the $x$ axis. The easiest cases to imagine are the ones on the diagonals, $T_{xx}$, $T_{yy}$ and $T_{zz}$, since the forces are perpendicular to the surfaces. Off-diagonal elements like $T_{xy}$ and $T_{zx}$ instead represent [[shear]], a force parallel to the surface. Note that the pressure is negative: these forces *pull* the surface, not push it (though of course it depends on the signs of the electric and magnetic fields, but the force is always reversed, so to speak).
 
-![[Diagram Maxwell stress tensor components]]
+![[Diagram Maxwell stress tensor components.svg]]
 
 > [!question] A note on notation
 > Like much of the literature using tensors, these notes generally use the "sum over repeated indexes" notation popularized by Einstein, known as [[Einstein notation]]. Normally, a [[scalar product]] between the $j$-th column of a tensor $T$ and a vector $\mathbf{a}$ would be written as
@@ -86,7 +86,7 @@ The stress tensor is primarily used to determine forces acting on charges.
 > [!example] Equal charges between plane
 > The easiest case is, as always, two point charges. Of course, this would be easier to solve using [[Electromagnetism|Coulomb's law]] directly, but for the sake of example, we'll solve it using the stress tensor also. Consider two electric charges $q$ on the $z$ axis at an equal distance $2a$ from the origin. Find the Maxwell stress tensor and integrate over it to find the force of one charge over another.
 >
->![[Exercise Maxwell stress tensor equal charges]]
+>![[Exercise Maxwell stress tensor equal charges.svg]]
 > 
 > We can start from [[Newton's laws|Newton's second law]]:
 > $$\frac{d\mathbf{p}}{dt}=\mathbf{F}=\oint_{S} T\cdot d\mathbf{a}-\cancel{ \mu_{0}\varepsilon_{0} \frac{d}{dt} \int _{V}\mathbf{S}\ d\tau }$$

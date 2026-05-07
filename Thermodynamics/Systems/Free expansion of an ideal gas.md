@@ -5,7 +5,7 @@ The **free expansion of an ideal gas** is particularly simple [[physical system]
 ### Mechanics
 Consider an [[Ideal gas]] that's contained in a sealed, thermodynamically [[Physical system|isolated]] box by insulating walls. In the real world, this can be approximated by thick walls made of a material with very high [[heat capacity]], such as water (see the figure below).
 
-![[Schema Free expansion of ideal gas|center]]
+![[Schema Free expansion of ideal gas.svg|center]]
 
 
 There are two chambers, separated by a movable stopper. Initially, one chamber contains gas at [[temperature]] $T_{1}$ and volume $V_{1}$, whereas the other is vacuum. The stopper is then removed, letting the gas expand from the first chamber to the second, filling all space. After expansion, the gas has a new temperature $T_{2}$ and volume $V_{2}$. Experimentally, it was found that the temperature went unchanged, so that $T_{1}=T_{2}$. Notably, this implies a few things:
@@ -47,5 +47,5 @@ Using the [[equation of state]] $PV=Nk_{B}T$, we get the equivalent form
 $$\boxed{TV^{\gamma-1}=\text{constant}}$$
 Since $PV=\text{constant}$ determines an isotherm (because $PV\propto T$ in the ideal gas law), $PV^{\gamma}=\text{constant}$ has a similar shape to an isotherm, but since $\gamma>1$ as $C_{P}=C_{V}+Nk_{B}>C_{V}$, it has a steeper slope in a $PV$ graph. Thus, for an ideal gas, adiabatic transformations have a steeper $PV$ slope.
 
-![[Graph Transformation of ideal gas|center]]
+![[Graph Transformation of ideal gas.svg|center]]
 

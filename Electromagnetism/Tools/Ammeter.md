@@ -8,7 +8,7 @@ Ammeters are not new instruments and about two centuries of engineering have bro
 Consider a small circuit element traversed by current $I$ by charges ([[Electron|electrons]]) of [[electric charge]] $-e$ moving at velocity $\mathbf{v}$.
 
 :::image
-![[Schema Ammeter wiring|50%|center]]
+![[Schema Ammeter wiring.svg|50%|center]]
 A wire loop subject to a current $I$ and a magnetic field $\mathbf{B}$.
 :::
 
@@ -34,7 +34,7 @@ where $S=ab$ is the inner surface of the coil. Recalling the definition of linea
 $$N=SIB$$
 This is how we turn the current into an observable quantity. $B$ and $S$ are chosen during manufacturing of the tool, so we only need a way to find $N$ to get $I$. The simplest way to measure torque is through a spring. Two identical ones, actually.
 
-![[Schema Ammeter wiring springs]]
+![[Schema Ammeter wiring springs.svg]]
 
 We place the spring at the ends of the coil, orthogonal to the field. We know that for spiral springs, the torque can be approximated at low turning angles $\theta$ as
 $$N_\text{spr}\simeq k\theta$$

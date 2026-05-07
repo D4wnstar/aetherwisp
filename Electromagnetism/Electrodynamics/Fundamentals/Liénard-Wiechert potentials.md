@@ -148,7 +148,7 @@ where $\theta$ is the angle between $\mathbf{R}$ and $\mathbf{v}$. Thus
 $$\boxed{\mathbf{E}(\mathbf{r},t)=\frac{q}{4\pi \varepsilon_{0}} \frac{1- v^{2}/c^{2}}{(1-(v^{2}/c^{2})\sin ^{2}\theta)^{3/2}} \frac{\hat{\mathbf{R}}}{R^{2}}}$$
 There's a few of things to notice here. The fields points over $\hat{\mathbf{R}}$, which is vector from the *present* position of the charge. This is curious because the potential here is the retarded one, not the present one. Furthermore, the presence of a $\sin ^{2}\theta$ term means that the intensity of the field depends on the orientation with respect to the charge. It is not spherically uniform any longer, being strongest at 90° angles and suppressed when on the line of motion of the particle.
 
-![[Diagram Moving charge electric field lines]]
+![[Diagram Moving charge electric field lines.svg]]
 
 The field also depends on the ratio between particle speed and light speed, with faster moving charges being penalized by a factor $(1-v^{2}/c^{2})$ on the axis of motion. At 90° angles, on the other hand, the field is boosted by a factor $1/\sqrt{ 1-v^{2}/c^{2} }$.
 

@@ -3,7 +3,7 @@ hl-publish: true
 ---
 **Cylindrical coordinates** are a three-dimensional set of coordinates where each point in space is determined by an angle $\theta$ from a reference direction on a reference plane, the distance $r$ from the plane's normal vector and the distance $z$ from the plane itself (the "height"), where $\theta\in[0,2\pi[$.
 
-![[Graph Cylindrical coordinates|80%|center]]
+![[Graph Cylindrical coordinates.svg|80%|center]]
 
 
 ### Relation to Cartesian coordinates

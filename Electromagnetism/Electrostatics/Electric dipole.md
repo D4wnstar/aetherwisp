@@ -77,7 +77,7 @@ The last step is a valid approximation when $d\mathbf{s}\cdot \nabla \mathbf{E}(
 
 Also, pay close attention to the directions: while the torque tells us the orientation, it gives us no information on the direction of $\mathbf{p}$. Thankfully, that's given by its definition: since we defined $\mathbf{p}$ to go from the negative to the positive pole ("countercurrent", if you would, since the electric field does the exact opposite), and electric forces attract opposite charges, then $\mathbf{p}$ must be directed *alongside* the source field.
 
-![[Schema Dipole alignment|100%]]
+![[Schema Dipole alignment.svg|100%]]
 
 When the dipole rotates due to the torque, it does [[work]]. In the most extreme case (the dipole is perpendicular to the field), calling $\theta$ the angle between $\mathbf{E}$ and $\mathbf{p}$, it does work
 $$W=\int_{\pi}^{0}\tau(\mathbf{r})d\theta=\int_{\pi}^{0}\mathbf{p}\times \mathbf{E}(\mathbf{r})d\theta=pE\int_{\pi}^{0}\sin \theta d\theta=2pE$$

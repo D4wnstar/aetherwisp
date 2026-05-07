@@ -10,7 +10,7 @@ Gli **indicatori primari di distanza** sono metodi o oggetti che possiamo usare 
 #### Parallasse
 L'osservazione del parallasse è il metodo più diretto per la misura della distanza, ma è applicabile solo a [[Stella|stelle]] vicine ($<1000$ parsec). Le stelle vicine mostrano un moto apparente con periodo annuale rispetto alle stelle "fisse" di sfondo. La stella verrà vista muoversi su un ellisse con semiasse maggiore di diametro angolare pari all'angolo che l'orbita terrestre sottende se osservata da quella stella. Chiamiamo **parallasse** $\pi$ l'angolo corrispondente al semiasse maggiore dell'ellisse tracciata dalla stella. In radianti, vale la relazione $\pi d=1$ AU, con $d$ la distanza.
 
-![[Schema Distanza con parallasse|100%]]
+![[Schema Distanza con parallasse.svg|100%]]
 
 #### Metodo dell'ammasso mobile
 Per [[Ammasso stellare|ammassi stellari]] vicini (come quello delle Iadi), si può misurare la velocità di recessione media $v$ in funzione della velocità media delle stelle lungo la linea di vista (tramite lo [[effetto Doppler|spostamento Doppler]] delle [[Riga spettrale|righe spettrali]]). Dato che l'ammasso è vicino, possiamo misurare una diminuzione della sua diametro medio angolare $\theta$. Se varia di $\Delta\theta$ in un intervallo $\Delta t$ e gli angoli sono piccoli, si ha circa

@@ -28,7 +28,7 @@ The idea is that we have a circuit with a [[Electrical resistance|resistance]] $
 
 The current varies like so:
 
-![[Graph Correcting circuit current|center]]
+![[Graph Correcting circuit current.svg|center]]
 
 The response of the diode is (ideally) linear with a threshold $V_{S}$. Under $V_{S}$, there is no current. Above $V_{S}$, the current increases linearly.
 
@@ -36,9 +36,9 @@ The point of the circuit is to turn a a fixed-frequency potential[^1] into a con
 $$\tau=R^{*}C$$
 where $R^{*}$ is the internal resistance of the wire the capacitor is on. The original potential is a sinusoidal wave. The diode truncates low voltages and leaves only positive ones (through the [[Joule effect]], which heats up the diode and risks breaking it. It's also quite inefficient as we're wasting half of the energy). The addition of a capacitor and a resistance adds "inertia" to the circuit, which changes the range of the wave from 0 to the maximum potential $V_\text{max}$ to some $V_\text{min}$ to $V_\text{max}$, as it can no longer fully discharge before the next cycle comes. The time to discharge is $\tau'=RC$.
 
-![[Graph Rectified potential over time 1|center|100%]]
+![[Graph Rectified potential over time 1.svg|center|100%]]
 
-![[Graph Rectified potential over time 2|center]]
+![[Graph Rectified potential over time 2.svg|center]]
 
 The last waveform (after RC) is referred to as a **ripple**. We can measure the **rippling factor** by approximating each "wave" as a triangle, from which we get
 $$\text{Rippling factor}=\frac{\Delta V}{\langle V \rangle }=\frac{2(V_\text{max}-V_\text{min})}{V_\text{max}+V_\text{min}}$$

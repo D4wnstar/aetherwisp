@@ -19,7 +19,7 @@ Particle scattering is elastic when [[kinetic energy]] is conserved (but may be 
 $$a+b \rightarrow a'+b'$$
 where $a'$ and $b'$ are primed just for visual clarity, and are otherwise identical to $a$ and $b$. $b$ is assumed to remain in its ground state, but nevertheless absorb some [[Linear momentum|momentum]] through its recoil.
 
-![[Diagram Particle scattering elastic|60%|center]]
+![[Diagram Particle scattering elastic.svg|60%|center]]
 
 In the context of using scattering for probing the structure of particles, the [[wavelength]] of the incident wave-particle must be smaller than the length scale of the target. We can determine a range by invoking the [[Disuguaglianza di Heisenberg|Heisenberg inequality]]
 $$\Delta x\Delta p\geq \frac{\hbar}{2}$$
@@ -34,12 +34,12 @@ If we take a $\Delta x$ of a few femtometers (typical radius of the atomic nucle
 Particle scattering becomes inelastic when the kinetic energy transferred from $a$ to $b$ results in $b$ [[State transition|transitioning]] into an excited state $b^{*}$. $b^{*}$ then [[particle decay|decays]] into its ground state, emitting a particle or splitting into two or more new particles. Here it splits into $c$ and $d$. In symbols:
 $$a+b\ \rightarrow\ a'+b^{*}\ \to\ a'+c+d$$
 
-![[Diagram Particle scattering inelastic 1|60%|center]]
+![[Diagram Particle scattering inelastic 1.svg|60%|center]]
 
 In inelastic scattering, it's also possible for the projectile $a$ to be absorbed by the target $b$ in order to fuse into one or more new particles, such as this:
 $$a+b\to c+d+e$$
 
-![[Diagram Particle scattering inelastic 2]]
+![[Diagram Particle scattering inelastic 2.svg]]
 
 This is especially common in beam-on-beam collisions in particle colliders (it's also the end goal, generally speaking).
 

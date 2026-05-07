@@ -18,7 +18,7 @@ where
 
 Essentially, this formula measures the difference between the mass of the atom and the mass the system would have if it were composed of separate hydrogen atoms and neutrons.
 
-![[Diagram Helium binding energy|100%]]
+![[Diagram Helium binding energy.svg|100%]]
 
 
 The term **separation energy** is sometimes preferred over binding energy when referring to the removal of [[Atomic nucleus|nucleons]]. The **neutron separation energy** $S_{n}$ is the energy required to remove a neutron from a nucleus, i.e., the binding energy difference between $\ce{_{Z}^{A}X_{N}}$ and $\ce{_{Z}^{A-1}X_{N-1}}$:

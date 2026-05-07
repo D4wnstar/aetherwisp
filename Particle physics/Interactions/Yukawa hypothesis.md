@@ -6,7 +6,7 @@ The **Yukawa hypothesis** was a hypothesis proposed by Japanese physicist Hideki
 For example, the [[Particle scattering|elastic scattering]] of a [[proton]] and a [[neutron|neutron]], $n + p \rightarrow n + p$, would be mediated by this particle.
 
 :::image
-![[Feynman diagram Yukawa hypothesis|center|80%]]
+![[Feynman diagram Yukawa hypothesis.svg|center|80%]]
 A [[Feynman diagram]] depicting proton-neutron scattering.
 :::
 

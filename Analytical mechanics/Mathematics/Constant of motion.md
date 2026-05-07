@@ -24,7 +24,7 @@ The benefit of finding constants of motion is that they add [[constraint|constra
 > 
 > For an even simpler form, let's now set $\omega=1$. The energy therefore becomes $I(x,v)=\frac{1}{2}(x^{2}+v^{2})$. If we set an arbitrary energy quantity $E$, then the system will maintain this total energy throughout its entire motion. The formula for $I$ is well-known: it is a [[circle]]. In fact, each value $E$ describes a circle in $(x,v)$-space (i.e. [[phase space]]). Lower energies make for smaller circles and viceversa.
 > 
-> ![[Plot 1D Harmonic oscillator constant energy surfaces|70%]]
+> ![[Plot 1D Harmonic oscillator constant energy surfaces.svg|70%]]
 > 
 > As you can see, we reduced a two-dimensional problem (solving for all phase space) into a one-dimensional one (solving only for the constant energy [[Curve|curve]]).
 

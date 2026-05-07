@@ -3,7 +3,7 @@ hl-publish: true
 ---
 The **Rutherford experiment** is a 1911 experiment conducted to determine the internal structure of an [[atom]], specifically to determine whether the structure of an atom was *homogeneous* (uniformly distributed [[Particle|particles]], Thomson's proposal) or *planetary* (smaller particles orbiting a larger central one, Rutherford's proposal). The planetary model was found to be correct.
 
-![[Diagram Atomic models|100%]]
+![[Diagram Atomic models.svg|100%]]
 
 Thomson's model argued that there were elementary [[Electron|electrons]] with charge $e^{-}$ uniformly distributed throughout the atom alongside other particles with positive charges. Rutherford's model argued that the positive charges were concentrated in a single, much larger positive charge carrier called the [[Atomic nucleus|nucleus]]. To test the claims, a thin pure gold foil was bombarded with a beam of $\alpha$ particles ($\mathrm{He}^{2+}$) and their impact points were recorded in an (almost) 360° radius around the foil.
 

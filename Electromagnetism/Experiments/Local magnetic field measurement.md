@@ -5,7 +5,7 @@ This experiment uses [[Lenz's law]] to determine the local [[magnetic field]].
 ### Theory
 The Earth's magnetic field is on the order of $\sim 10^{-5}\text{ T}$.
 
-![[Schema Earth magnetic field|center]]
+![[Schema Earth magnetic field.svg|center]]
 
 Locally, the magnetic field is $\mathbf{B}_{L}$. It can be decomposed into two components in [[Polar coordinates]], $\mathbf{B}_{\theta}$ and $\mathbf{B}_{r}$. These have formal expressions
 $$B_{r}=\frac{\mu_{0}}{4\pi} \frac{2m\cos\theta}{R^{3}_{T}},\qquad B_{\theta}=\frac{\mu_{0}}{4\pi} \frac{2m\sin\theta}{R^{3}_{T}}$$
@@ -13,7 +13,7 @@ where $R_{T}$ is the radius of the Earth, $\mu_{0}$ is the [[Vacuum permeability
 ### Apparatus
 The apparatus is a copper wire coiled many times in a loop mounted on an axis that can rotated manually through a crank. The construction is mostly made of plastic and non-magnetic metals, with only a few iron screws. The wire is coated in an insulator to make sure each loop of the wire does not conduct to the adjacent loops.
 
-![[Drawing Local magnetic field apparatus|center]]
+![[Drawing Local magnetic field apparatus.svg|center]]
 
 The wire has an ending that can connect to an oscilloscope.
 ### Method
@@ -29,7 +29,7 @@ Once the direction is known, we can turn 90 degrees to instead maximize the indu
 
 To figure out the phase, we need to look at the initial acceleration, before $\omega$ becomes constant. At the start, the oscilloscope will something like either the blue or red signals:
 
-![[Graph Local magnetic field initial oscilloscope reading|center]]
+![[Graph Local magnetic field initial oscilloscope reading.svg|center]]
 
 Whether the signal is the blue or red one determine the polarity of the magnetic field (i.e., where the north and south poles are).
 

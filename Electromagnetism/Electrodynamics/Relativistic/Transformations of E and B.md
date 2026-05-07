@@ -19,7 +19,7 @@ $$E_{y}=\frac{\sigma_{0}}{\varepsilon_{0}}$$
 The Lorentz transformation moves the capacitor to [[frame of reference]] $\mathcal{S}$ moving on the $x$ axis at a constant speed $v_{0}$ (relative to $\mathcal{S}_{0}$).
 
 :::image
-![[Diagram Moving capacitor relativity|80%]]
+![[Diagram Moving capacitor relativity.svg|80%]]
 Note how the velocity $v_{0}$ moves the frame of reference to the *left*, which means that the capacitor effectively moves to the *right*.
 :::
 
@@ -53,7 +53,7 @@ Finally, if we make the capacitor stand up on the $yz$ axis, then little happens
 $$E_{x}'=E_{x}$$
 In this case, there is no magnetic field, so we can't figure out the transformation of $B_{x}$ from this system. What we can do is use a different electrical component altogether: a long solenoid centered on the $x$ axis at rest in $\mathcal{S}$.
 
-![[Diagram Resting solenoid relativity|80%]]
+![[Diagram Resting solenoid relativity.svg|80%]]
 
 
 The field of a resting solenoid with $n$ turns per unit length is

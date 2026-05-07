@@ -13,7 +13,7 @@ How do we determine the outcome of the test? By definition, the null hypothesis 
 $$\alpha=\int_{t_{\alpha}}^{\infty} \phi_{0}(t) \ dt $$
 Here we chose the critical region to be $[t_{\alpha},+\infty[$, where $t_{\alpha}$ is some value in $T$'s sample space. The significance level is an [[integral]] of a [[Probability density function|PDF]], so it represents a [[probability]]; "a probability of what?", you may ask.
 
-![[Graph Critical region|center]]
+![[Graph Critical region.svg|center]]
 
 Well, the interpretation is not that simple, for $\alpha$ is arbitrarily chosen.[^2] Recall that the critical region is needed to determine if $H_{0}$ is accepted or rejected. If one chooses $\alpha$ to be really small, then the critical region is also really small, but that also means that it's really unlikely that $T$'s value on the sample falls in it. Thus, the smaller we choose $\alpha$ to be, the more *extreme* the value of $T$ needs to be to fall in the region. That's why we call it "significance level": we can adjust it to determine how likely or unlikely the test is to pass, which in turn gives you different information.
 

@@ -12,12 +12,12 @@ Essendo una misura relativa, bisogna avere un punto di riferimento:
 - Una possibilità è il **sistema Vega**. Vega è la stella più luminosa del cielo estivo, la cui magnitudine è definita 0 in tutte le lunghezze d'onda. Il problema è misurare il flusso (complesso) di Vega.
 - Alternativamente si usa il **sistema AB**, dove ci si basa su un oggetto immaginario che ha flusso costante in tutte le lunghezze d'onda. Diventa facile calcolare il flusso, senza integrali, usando $f_{banda}=\frac{L_{banda}}{4\pi d^{2}}$, con $L_{banda}$ la luminosità della banda.
 
-![[Scala magnitudini apparenti|100%]]
+![[Scala magnitudini apparenti.svg|100%]]
 
-![[Sistemi di magnitudine|center|100%]]
+![[Sistemi di magnitudine.svg|center|100%]]
 
 La magnitudine dipende dal flusso di un oggetto e quindi dalla sua distanza. Dunque, per "normalizzare" le magnitudini in funzione della distanza, si usa la **magnitudine assoluta**
 $$M=m-5\log_{10}(d)+5\equiv m-\mu$$
 dove $m$ è la magnitudine apparente in una certa banda e $d$ è la distanza dell'oggetto. $\mu$ si dice *modulo di distanza*. Questa misura rappresenta la luminosità che la stella avrebbe se fosse posta a 10 [[Parsec]] di distanza.
 
-![[Scala magnitudini assolute|100%]]
+![[Scala magnitudini assolute.svg|100%]]

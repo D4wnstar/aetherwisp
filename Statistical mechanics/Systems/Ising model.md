@@ -65,7 +65,7 @@ Specifically, we get
 $$\boxed{m=\tanh(H_{i})=\tanh(\beta(Jmz+h))}$$
 Note that this is a transcendental equation, so the best we can do is show it numerically, graphically or with an approximation.
 
-![[Plot Ising model magnetic moment|center]]
+![[Plot Ising model magnetic moment.svg|center]]
 
 This plot is the phase diagram of the model. The diagonal line is the $m=0$ case. The phase transition occurs when this line is crossed. Proving that a phase transition occurs just means proving that there are temperature for which non-trivial $m=0$ solutions are possible (that is, $m=0$ outside of the origin). These solution can be found using, for instance, the hyperbolic tangent [[Taylor series|Taylor series]] $\tanh x=x-x^{3}/3+\ldots$.
 

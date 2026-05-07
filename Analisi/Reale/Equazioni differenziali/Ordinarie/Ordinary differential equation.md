@@ -55,7 +55,7 @@ Equation $(1)$ also has the important property that it forces the derivative of 
 $$\dot{\mathbf{x}}(t)=\lim_{ \delta t \to 0 } \frac{\mathbf{x}(t+\delta t)-\mathbf{x}(t)}{\delta t}$$
 If we draw the vectors manually, we see
 
-![[Diagram Derivative of position vector is tangent|100%]]
+![[Diagram Derivative of position vector is tangent.svg|100%]]
 
 If we send $\delta t\to0$, the displacement between the white and red vector become minuscule, which leads $\dot{\mathbf{x}}(t)$ to become tangent. A non-visual proof can for instance be found by taking the derivative of the unit vector of $\mathbf{x}(t)$ and proving that it is always perpendicular to the unit vector itself. In fact, the derivative of any unit vector is perpendicular to the original.
 ##### Flow of a vector field
@@ -111,7 +111,7 @@ In one dimension, where $\mathbf{r}\to x$, we have many interesting examples.
 > 
 > Some example trajectories look like this:
 > 
-> ![[Plot 1D Harmonic oscillator phase space trajectories]]
+> ![[Plot 1D Harmonic oscillator phase space trajectories.svg]]
 
 > [!example] Harmonic repulsor
 > A [[harmonic repulsor]] is

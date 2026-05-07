@@ -23,7 +23,7 @@ The importance of plane waves comes from the fact that every wave can be seen as
 ### Definition
 The condition for a plane wave is that the wavefront must be a plane at any given time. To start, consider a plane [[surface]] oriented in no particular way in three dimensional space. Call $\mathbf{k}$ the normal vector to the surface, $\mathbf{r}$ and $\mathbf{r}_{0}$ vectors pointing to two points on the surface.
 
-![[Diagram Plane wave condition|70%]]
+![[Diagram Plane wave condition.svg|70%]]
 
 In [[Cartesian coordinates]] we can represent the vectors as
 $$\mathbf{r}=x \hat{\mathbf{x}}+y \hat{\mathbf{y}}+ z \hat{\mathbf{z}},\qquad\mathbf{r}_{0}=x_{0} \hat{\mathbf{x}}+y_{0} \hat{\mathbf{y}}+ z_{0} \hat{\mathbf{z}}$$

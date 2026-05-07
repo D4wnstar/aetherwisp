@@ -13,7 +13,7 @@ therefore we can find the point in the world from the body coordinates as
 $$\boxed{\mathcal{X}(t;\mathcal{P})=\mathcal{X}(t;\mathcal{C})+\mathbf{r}(t;\mathcal{P})=\mathcal{X}(t;\mathcal{C})+R(t)\mathcal{B}(t;\mathcal{P})\tag{1}}$$
 Note that the rotation acts as a basis change between body and world.
 
-![[Graph Relative distance from body point|80%|center]]
+![[Graph Relative distance from body point.svg|80%|center]]
 
 Consider a time-varying vector in the body system $\mathbf{\xi}(t)=R(t)\mathbf{s}(t)$. The body coordinates $\mathbf{s}(t)$ vary with time because $\mathbf{\xi}(t)$ does. The time derivative is
 $$\frac{d\mathbf{\xi}}{dt}=R \frac{d\mathbf{s}}{dt}+\dot{R}\mathbf{s}=R \frac{d\mathbf{s}}{dt}+\dot{R}R^{T}\mathbf{\xi}=\frac{D\mathbf{\xi}}{Dt}+\mathbf{w}\times\mathbf{\xi}\tag{2}$$

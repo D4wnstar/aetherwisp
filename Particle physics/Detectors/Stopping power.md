@@ -79,7 +79,7 @@ $$S_\text{MT}(K) = - \frac{dK}{dX} = 4\pi m_{e}c^{2}r^{2}_{e}N_{A} \frac{Z}{A} \
 All considerations regarding the Bohr formula apply here too, with the difference that the additional terms suppress ultrarelativistic stopping power even more than it already was.
 
 :::image
-![[Plot Stopping power collisional|80%|center]]
+![[Plot Stopping power collisional.svg|80%|center]]
 A plot of Bethe-Bloch stopping power with respect to projectile velocity (expressed as $\beta \gamma$). This profile is mostly universal across materials. The $x$-axis is in log10 scale.
 :::
 
@@ -88,7 +88,7 @@ From the figure we can see that stopping power decreases to a minimum and then r
 Something interesting (and very useful) appears when we look at stopping power in terms of momentum instead of speed. Actually, it occurs for any variable dependent on speed and mass (e.g. kinetic energy; momentum just happens to be the most used). Since $p=mv$ and $v$ determines the behavior by itself, there's a "push and pull effect" between projectile mass and momentum. What I'm trying to say is that, in a plot of $S(K)$ vs. $p$ (or $S(K)$ vs. $K$), the mass *does* play a role in the profile (it needs to in order to cancel out the mass in the other variable). That means we get distinctly different curves for different masses.
 
 :::image
-![[Plot Stopping power collisional for p|80%]]
+![[Plot Stopping power collisional for p.svg|80%]]
 A stopping power plot in terms of kinetic energy for a charged [[kaon]] and a [[proton]].
 :::
 
@@ -127,7 +127,7 @@ The energy loss due to bremmstrahlung is exponential, and at high energies, it d
 $$K_{C}\simeq \frac{600}{Z}\text{ MeV}$$
 
 :::image
-![[Plot Stopping power col vs rad|80%|center]]  
+![[Plot Stopping power col vs rad.svg|80%|center]]  
 Comparison of radiative and collisional stopping power. The two cross at the critical energy, after which radiative loss dominates. The $\beta \gamma$ axis is logarithmic.
 :::
 

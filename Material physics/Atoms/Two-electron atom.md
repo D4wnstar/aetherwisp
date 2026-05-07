@@ -4,7 +4,7 @@ hl-publish: true
 The **two-electron atom** is a [[physical system]] modeling an [[atom]] with two [[Electron|electron]] around and arbitrary [[Atomic nucleus|nucleus]]. It is a generalization of the [[Hydrogen atom|hydrogenic atom]]. The key challenge of the system is the [[Identical particles|indistinguishability]] of electrons and their effective interaction due to the [[Pauli exclusion principle]]. The [[Hamiltonian]] of the system is
 $$\hat{H}=\underbrace{ - \frac{\hbar^{2}}{2m}\nabla ^{2}_{r_{1}}- \frac{Ze^{2}}{4\pi \varepsilon_{0}r_{1}} }_{ \text{Electron 1} }\underbrace{ - \frac{\hbar^{2}}{2m}\nabla ^{2}_{r_{2}}- \frac{Ze^{2}}{4\pi \varepsilon_{0}r_{2}} }_{ \text{Electron 2} }+ \underbrace{ \frac{e^{2}}{4\pi \varepsilon_{0}r_{12}} }_{ e-e\text{ interaction} }$$
 
-![[Diagram Two electrom atom|50%]]
+![[Diagram Two electrom atom.svg|50%]]
 ### Spin states
 The solved [[Equazione agli autovalori|eigenfunction]] (in [[Rappresentazioni dello stato|position representation]]) will be of the form $\Psi\equiv \Psi(q_{1},q_{2})$, where $q_{1}$ and $q_{2}$ are the [[generalized coordinates]] of the electrons (containing both position and spin state). Electrons are [[spin]] $1/2$ [[Fermion|fermions]] and so $\Psi$ must be an [[Permutation operator|antisymmetric state]]: $\Psi(q_{1},q_{2})=-\Psi(q_{2},q_{1})$. Since $\hat{H}$ does not directly depend on spin, we can factor out the spin and leave a coordinate-only and spin-only [[Funzione d'onda|wavefunction]]:
 $$\Psi(q_{1},q_{2})=\psi (\mathbf{r}_{1},\mathbf{r}_{2})\chi(1,2)$$

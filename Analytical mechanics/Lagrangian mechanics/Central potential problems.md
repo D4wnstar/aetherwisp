@@ -58,7 +58,7 @@ for some constant $k>0\in \mathbb{R}$. Our effective potential then is
 $$V_\text{eff}(r)=- \frac{k}{r}+ \frac{l^{2}}{2mr^{2}}$$
 There's a few cases of interest here that are already well-known from classical mechanics depending on the total energy $E$ of the system.
 
-![[Diagram Gravitational system]]
+![[Diagram Gravitational system.svg]]
 
 $E_{1}$ is the [[circle|circular]] orbit case. In that case
 $$\dot{\theta}(t)=\frac{l}{mr(t)^{2}}=\frac{l}{mr_{0}^{2}}\quad\to \quad \theta(t)=\frac{l}{mr_{0}^{2}}t+\theta_{0}$$

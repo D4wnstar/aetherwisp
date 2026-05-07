@@ -57,7 +57,7 @@ Le radiogalassie sono sistemi molto interessanti dal punto di vista fisico. Ad e
 
 Consideriamo una nube in movimento a velocità ultrarelativistiche $v\sim c$ che osserviamo da un terzo punto a distanza $D$. La nube si sta muovendo con un angolo di $\theta$ rispetto alla linea di vista.
 
-![[Schema Moto superluminale|40%|center]]
+![[Schema Moto superluminale.svg|40%|center]]
 
 Il tempo $T_{0}=t_{0}+ D/c$ è il tempo a cui osserviamo la nube nel punto 0 e $T_{1}=t_{1}+ (D-v(t_{1}-t_{0})\cos\theta)/c$ è il tempo a cui la osserviamo al punto 1. Bisogna fare attenzione al fatto che la velocità della luce è finita, non infinita. La differenza tra i due tempi è $\delta=v(t_{1}-t_{0})\sin\theta$ e dunque la velocità apparente deve essere
 $$v_{opp}=\frac{\delta}{T_{1}-T_{0}}=\frac{v\sin\theta}{1-\frac{v}{c}\cos\theta}$$

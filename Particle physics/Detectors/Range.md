@@ -21,6 +21,6 @@ $$R(K)=\int_{K_{0}}^{0} \frac{dK}{dK}dx\simeq \frac{C'}{Mz^{2}}\int_{K_{0}}^{0}K
 (where $C''=-C'$). Given an initial kinetic energy $K_{0}$, the range varies with mass according to $1/M$. The heavier the particle, the smaller the range and greater the energy loss. Just like the Bethe-Bloch curve, this fact is very useful for measuring particle mass, as the path covered by a particle before decaying or stopping is often relatively easy to measure by, say, analyzing tracks in a [[cloud chamber]] or having a layered set of [[Detector|detectors]] that count the passage of particles.
 
 :::image
-![[Diagram Layered range measurement|80%]]
+![[Diagram Layered range measurement.svg|80%]]
 Experimental setup to measure range. A layer of detectors that absorb energy is setup, each with some length $l$. If a particle is absorbed is some detector, it will be recorded. Each detector will therefore count the number of particles that stop in it. This provides a [[histogram]] of distances covered and thus an estimate of the range distribution. If the range is bigger then the total length, $R(K_\text{in})>L$, then we'll see few measurements and no peak. If the range is less, $R(K_\text{in})<L$, then we'll see the full range distribution with a peak in one of the detectors and very few $N_\text{out}$.
 :::

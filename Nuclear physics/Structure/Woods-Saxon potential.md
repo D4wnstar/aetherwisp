@@ -11,7 +11,7 @@ where
 - $a$ is the nuclear surface thickness, typically $\sim0.5\text{ fm}$;
 - $R$ is the [[mean]] nuclear radius, $\sim1.25A^{1/3}$, and $A$ is the atomic [[Atom|mass number]].
 
-![[Plot Woods-Saxon potential|center]]
+![[Plot Woods-Saxon potential.svg|center]]
 
 This form is derived from describing the charge distribution of the nucleus through a two-parameter [[Fermi-Dirac distribution]]
 $$\rho(r)=\frac{\rho(0)}{1+e^{(r-c)/a}},$$

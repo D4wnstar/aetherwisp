@@ -28,7 +28,7 @@ All trajectories that the system takes in its own [[phase space]] lie on a const
 > $$\frac{v^{2}}{2E/m}+ \frac{x^{2}}{2E/m\omega ^{2}}=1$$
 > which is the equation of an [[ellipse]] parameterized by $x$ and $v$, with axes given by the energy, the mass and the frequency.
 >
-> ![[Plot Trajectories of a harmonic oscillator|80%]]
+> ![[Plot Trajectories of a harmonic oscillator.svg|80%]]
 > 
 > Let's look for the tangent line for any point on the ellipse, call it $y=f(x)$. In a point $x_{0}$, it is of course a line, so $y=f'(x_{0})x+q$. But $f'(x_{0})$ is the tangent function $\tan(\alpha)$ for an angle $\alpha$. This angle is somewhat cryptic: thankfully, we can bypass it with calculus. The tangent at a point on a graph is just the derivative of the function being plotted. Since we are plotting $v$ against $x$, we have
 > $$\tan \alpha=\frac{dv}{dx}(x_{0})=\frac{\dot{v}(t(x_{0}))}{\dot{x}(t(x_{0}))}=\frac{f(x_{0})}{v(x_{0})}$$

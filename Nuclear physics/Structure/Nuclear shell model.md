@@ -33,13 +33,13 @@ This simple model is quite reminiscent of the [[Hydrogen atom|hydrogenic atom]],
 - Shell $N=2$ either has $n=1$ and $l=2$ or $n=2$ and $l=0$, and hence corresponds to the $1d$ and $2s$ states. It has a degeneracy of 12.
 
 :::image
-![[Diagram Nuclear shell model Gaussian|80%|center]]
+![[Diagram Nuclear shell model Gaussian.svg|80%|center]]
 A diagram showing the behavior of the first four shells, according to the Gaussian mean potential. The first three shells correctly predict magic numbers (2, 8, 20), but already by the fourth it goes off track (40 is not a magic number, but 28 is).
 :::
 ### Woods–Saxon potential
 For larger nuclei, we'll need a more realistic potential. A far better choice in modern day is the [[Woods-Saxon potential]], which you can see below.
 
-![[Plot Woods-Saxon potential]]
+![[Plot Woods-Saxon potential.svg]]
 
 Calculation of the actual energy levels is a lot more complicated compared to the harmonic oscillator. The idea is still the same however: solve the Schrödinger equation in spherical coordinates with this potential to find the energy eigenstates (shells) and their degeneracy (nucleons admitted by the shell). It should be mentioned that when a lot of splitting is introduced (and therefore many energy levels/shells), magic number stop being plain closed shells, but rather closed shells that are distant in energy from the next one over.
 

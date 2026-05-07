@@ -3,7 +3,7 @@ hl-publish: true
 ---
 The **Carnot cycle** is the most theoretically efficient [[thermodynamic transformation]] cycle, made up of two isotherms and two adiabatic transformations.
 
-![[Schema Carnot cycle|80%|center]]
+![[Schema Carnot cycle.svg|80%|center]]
 
 1. $ab$ is constant [[temperature]] $T_{2}$ transformation that absorbs [[heat]] $Q_{2}$ from a hot [[heat reservoir]].
 2. $bc$ is an [[adiabatic transformation]] that lowers temperature from $T_{2}$ to $T_{1}$.

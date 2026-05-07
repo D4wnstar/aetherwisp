@@ -106,7 +106,7 @@ with $\hat{\mathbf{n}}$ being the normal vector to the surface.
 #### Transmission angle
 The presence of a discontinuity implies that the field incident on a surface changes direction as it passes through the surface (i.e. it is transmitted).
 
-![[Schema Magnetic field transmission|90%]]
+![[Schema Magnetic field transmission.svg|90%]]
 
 When a magnetic field passes through the surface, the component perpendicular to the surface is conserved. We can use this to connect the incidence angle $\alpha_{\text{ext}}$ and the transmission angle $\alpha_{\text{int}}$. We can express the perpendicular components in terms of the sines of these two angles:
 $$B_\text{ext}\sin \alpha _\text{ext}=B_\text{int}\sin \alpha _\text{int}$$

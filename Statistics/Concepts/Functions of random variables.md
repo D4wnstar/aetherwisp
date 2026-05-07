@@ -68,7 +68,7 @@ These variables occupy a $1\times 1$ square between 0 and 1. Let's define the va
 $$y_{1}=x_{1}+x_{2},\qquad y_{2}=x_{1}-x_{2}$$
 We want to find what space these two occupy. The maximum and minimum of $y_{1}$ are 0 and 2, whereas for $y_{2}$ they are -1 and 1. Therefore, they at most occupy a diamond shape like the following
 
-![[Graph Regions of random variables|80%|center]]
+![[Graph Regions of random variables.svg|80%|center]]
 
 We can express $x_{1}$ and $x_{2}$ as functions of $y_{1}$ and $y_{2}$ as
 $$x_{1}=\frac{1}{2}(y_{1}+y_{2}),\qquad x_{2}=\frac{1}{2}(y_{1}-y_{2})$$

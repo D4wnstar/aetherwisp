@@ -5,7 +5,7 @@ A **Feynman diagram** is a schematic representation of an [[Fundamental interact
 
 For example, the [[Electromagnetism|electromagnetic]] attraction of an [[electron]] and a [[positron]] can be represented by the diagram
 
-![[Feynman diagram Electron scattering|80%|center]]
+![[Feynman diagram Electron scattering.svg|80%|center]]
 
 which corresponds to the process
 $$e^{-}+e^{+}\to e^{-}+e^{+}$$

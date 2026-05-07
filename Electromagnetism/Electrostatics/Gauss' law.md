@@ -75,7 +75,7 @@ These fields are parallel to each other. The positive one points away from the p
 $$E_{out}=0, \quad E_{in}=\frac{\sigma}{\varepsilon_{0}}$$
 where the inner field goes from the positive plane to the negative one.
 
-![[Schema Charged parallel planes|80%|center]]
+![[Schema Charged parallel planes.svg|80%|center]]
 ### In dielectrics
 In a [[dielectric]], the electric field is given by both the bound charges caused by [[dielectric polarization]] and by the free charges due to everything else. The total charge density is
 $$\rho=\rho_{b}+\rho_{f}$$

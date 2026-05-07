@@ -14,7 +14,7 @@ $$p=0.3BR$$
 To trace the trajectory [[circular arc|arc]] we'll need at least three detectors, one at the entrance, one at the exit and one in an intermediate point.
 
 :::image
-![[Diagram Sagitta method]]
+![[Diagram Sagitta method.svg]]
 A magnetic spectrometer schematic. The colored background is the apparatus where the magnetic field is. The blue line is the particle's trajectory arc, the purple dots are the detectors and the red line is the sagitta of the arc.
 :::
 

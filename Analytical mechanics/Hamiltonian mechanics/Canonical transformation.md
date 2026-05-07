@@ -29,7 +29,7 @@ It's easier to see an example.
 > \end{pmatrix}$$
 > We can see this in two ways.
 > 
-> ![[Plot Rotation coordinate change interpretations|100%]]
+> ![[Plot Rotation coordinate change interpretations.svg|100%]]
 > 
 > 1. On the left, we see the transformation as moving the point from the blue point to the red point.
 > 2. On the right, we see the transformation rotating the axes themselves from blue to red. Note how the rotation goes in the *opposite* direction here.

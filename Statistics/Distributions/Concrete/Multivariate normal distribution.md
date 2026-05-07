@@ -76,7 +76,7 @@ Q^{2}&=(\mathbf{x}-\boldsymbol{\mu})^{T}\Sigma^{-1}(\mathbf{x}-\boldsymbol{\mu})
 If we find the draw the ellipses traced by this $Q^{2}$, we find that they are now angled. This angle is quite important, as it visually represents correlation between $x_{1}$ and $x_{2}$. Indeed, this angle is proportional to the correlation coefficient $\rho$ and is the major difference from the independent case above (where the ellipse was *axis-aligned*). When $\rho=0$, you get an axis-aligned ellipse.
 
 :::image
-![[Graph Multinormal equiprobability|80%|center]]
+![[Graph Multinormal equiprobability.svg|80%|center]]
 A general bivariate ellipse showing important points and lines. The red diagonals (passing through segments $\overline{C C'}$ and $\overline{DD'}$) are known as the **regression lines** of the distribution.
 :::
 

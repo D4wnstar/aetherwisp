@@ -20,4 +20,4 @@ Nel 1964, John Bell compì degli esperimenti per cercare di spiegare il comporta
 ### Collasso della funzione d'onda
 Si può porre un ulteriore domanda: cosa succede se misuriamo la particella di nuovo immediatamente dopo? La risposta logica è "otteniamo la stessa misura". D'altronde, le misure logicamente funzionano così, ma data la natura probabilistica della meccanica quantistica è ragionevole avere il dubbio che ogni misura "peschi" a caso un nuovo risultato, senza ombra di continuità. *Questo non accade.* Sperimentalmente, se si compie una nuova misura subito dopo la prima, il risultato è *sempre* lo stesso. L'atto di compiere una misura cancella la casualità (per un periodo di tempo). Questo fenomeno è spiegato tramite il [[Funzione d'onda#Collasso|collasso della funzione d'onda]]. Si dice dunque che la funzione d'onda $\Psi$ **collassa** al tempo di misura, passando da una distribuzione di probabilità liscia ad una singola "spina" centrata nel punto della misura che racchiude il (quasi) 100% di probabilità.
 
-![[Grafico Collasso funzione d'onda|100%]]
+![[Grafico Collasso funzione d'onda.svg|100%]]

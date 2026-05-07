@@ -44,12 +44,12 @@ In both cases, the parabola has a minimum at $Z=\beta/2\gamma$.
 Note that the mass $M$ is the [[atom]] mass, not the nucleus mass. This is an important distinction because atomic mass automatically takes the created electron/positron into account. Neutrino masses are negligible.
 
 :::image
-![[Plot Beta decay odd A|90%]]
+![[Plot Beta decay odd A.svg|90%]]
 Decay behavior of $A=101$ isobars. The parabola minimum corresponds with $\ce{_{44}Ru}$, to which all the other isobars converge to. Isobars with too few protons create new ones with $\beta^{-}$ at the expense of protons. Conversely, ones with too many convert them into neutrons with $\beta^{+}$.
 :::
 
 :::image
-![[Plot Beta decay even A|90%]]
+![[Plot Beta decay even A.svg|90%]]
 Decay behavior of $A=106$ isobars. The lower parabola shows even-even nuclei, the upper one odd-odd nuclei. The minimum corresponds with $\ce{_{46}Pd}$. Each $\beta$ decay jumps from one parabola to the other. Notice how $\ce{_{48}Cd}$ also happens to be a *local* minimum to $\ce{_{47}Ag}$ and $\ce{_{49}In}$ and ends up being stable too. This is allowed by the $2\delta$ energy difference between the two parabolas, making it possible for there to be local minima on top of a global one. It is possible, albeit extremely rare, for $\ce{_{48}Cd}$ to decay into $\ce{_{46}Pd}$ through double $\beta^{+}$ decay.
 :::
 ### Electron capture
@@ -72,7 +72,7 @@ This occurs for free neutrons floating in the vacuum, has a [[Q value]] of about
 An example of some very slow processes is $\ce{^{40}_{19}K}$. This nuclide is $\beta$-unstable in every way: it can $\beta^{+}$, $\beta^{-}$ *and* EC. The branching ratios greatly favor $\beta^{-}$ and EC, with $\beta^{+}$ being a distant possibility. The potassium-40 half-life is about $t_{1/2}=1.27\times 10^{9}$ years.
 
 :::image
-![[Diagram Beta decay potassium-40|80%|center]]
+![[Diagram Beta decay potassium-40.svg|80%|center]]
 Possible decay paths of $\ce{^{40}K}$ and their branching ratios. Notice how suppressed $\beta^{+}$ is compared to EC. The numbers near the energy levels are the $J^{P}$ nuclear state (total angular momentum + parity). $\gamma$ refers to [[gamma decay]]. The bend in the $\beta^{+}$ arrow indicates the extra $2m_{e}c^{2}$ energy cost over EC used up in handling electrons.
 :::
 

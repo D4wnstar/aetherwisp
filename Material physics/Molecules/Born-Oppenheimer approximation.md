@@ -52,7 +52,7 @@ The position-dependent terms in brackets are known as the **direct** and **swap*
 $$E_{\ket{\psi} }=\langle H \rangle_{\psi} =\left[ 1+ 2 \frac{C+D}{1+I} \right]E_{1}$$
 Using, say, computational methods, we can graph this function to achieve something of this sort:
 
-![[Plot Hydrogen-hydrogen ion ground state|90%]]
+![[Plot Hydrogen-hydrogen ion ground state.svg|90%]]
 
 We can see that the energy actually is negative and has a minimum where the molecule can stabilize into. The molecule is possible![^2]
 ### Generalizing
@@ -81,13 +81,13 @@ The two valid solutions are for $+$ and $-$ cases. The minus case implies $c_{1}
 $$\Phi_{g}=c(\phi_{a}+\phi_{b}),\quad \Phi_{u}=c(\phi_{a}-\phi_{b})$$
 $\Phi_{g}$ is called a **bonding orbital**, whereas $\Phi_{u}$ is called an **antibonding integral**. Bonding orbitals are [[Permutation operator|symmetric states]] (*gerade*, hence the subscript), whereas antibonding ones [[Permutation operator|antisymmetric]] (*ungerade*).
 
-![[Plot Hydrogen-hydrogen ion bonding-antibonding orbitals|100%]]
+![[Plot Hydrogen-hydrogen ion bonding-antibonding orbitals.svg|100%]]
 
 In the bonding orbital, the wavefunctions of the individual atoms show constructive [[interference]] in between them and, as a consequence, there is a nonzero charge density between the nuclei. In other words, electrons reside in between the nuclei, forming a chemical bond. There is an energy minimum at a certain distance between the nuclei in which the system falls into. This is the distance between the nuclei of the atoms that make up the molecule.
 
 In the antibonding orbital, interference is destructive and the charge density between the nuclei is suppressed. There is no energy minimum to let the atoms bond, so it does not happen and the molecule is not constructed. Thus, as the name suggests, only bonding orbitals lead to the creation of a molecule.
 
-![[Plot Hydrogen-hydrogen ion bonding-antibonding orbital energy]]
+![[Plot Hydrogen-hydrogen ion bonding-antibonding orbital energy.svg]]
 
 Now, it's important to note that when atoms join to make a molecule, each of their (outer shell atomic) orbitals combine to make two (molecular) orbital: the bonding and antibonding orbitals come in pairs. However, as we've seen, the energy of the bonding integral is far lower and so all of the bonding orbitals will be occupied *first*. This binds the atoms together. Then, the antibonding orbitals will be filled *last*. If for some reason a molecule only has an antibonding state filled, then it will dissociate immediately.
 

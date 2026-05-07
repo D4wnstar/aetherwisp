@@ -10,7 +10,7 @@ This system is interesting because it highlights [[State transition|state transi
 ### Matter-radiation interaction
 One notable use case is studying the impact of [[radiation]] on [[matter]] and how the two interact. Our two-level system can be seen as, for instance, a simplified form of an [[electron]] in an [[atom]], and radiation is taken to be [[Electromagnetic radiation|electromagnetic]]. We won't go over the exact details of interaction with the [[Electric field|electric]] and [[magnetic field|magnetic fields]]: we'll take for granted that absorption and emission are both quantized in the form of [[Photon|photons]].
 
-![[Diagram Two-level system processes|100%]]
+![[Diagram Two-level system processes.svg|100%]]
 
 At a high level, there are three methods of interaction.
 #### Spontaneous emission

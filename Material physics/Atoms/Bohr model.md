@@ -3,7 +3,7 @@ hl-publish: true
 ---
 The **Bohr model** is a classical model of the structure of the [[hydrogen atom]] developed in 1913. It accurately describes the experimental behavior of hydrogen and its [[Isotope|isotopes]], but it is not a quantum model and is therefore not extendable to more complex systems, such as [[many-electron atom|atoms with more than one electron]].
 
-![[Schema Modello di Bohr|50%|center]]
+![[Schema Modello di Bohr.svg|50%|center]]
 ### Postulates
 The Bohr model is a fundamentally classical description, which describes [[electron|electrons]] as "orbiting" the nucleus. We know now that this is not true due to the quantum nature of electrons, but at the time it was still uncertain. Despite this, the model is based on three postulates, which essentially "mimic" quantum behavior before said behavior was even fully understood[^1]:
 1. Only a discrete set of [[circle|circular]] orbits is allowed. These orbits are called [[stationary state|stationary states]].

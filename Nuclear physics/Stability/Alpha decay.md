@@ -19,7 +19,7 @@ Within the nucleus, protons and neutrons are subject to binding energies around 
 
 We start from the [[potential energy]] $U(r)$ of an $\alpha$ particle at distance $r$ from the nucleus:
 
-![[Plot Alpha decay potential|80%|center]]
+![[Plot Alpha decay potential.svg|80%|center]]
 
 Let's unpack what is happening. The figure shows an $\alpha$ particle (the circle with four smaller circles in it, representing two protons and neutrons), which is taken to be a part of a larger nucleus, inside the potential well of the nucleus. Remember that by the [[least action principle]], the particle will spontaneously fall to the region of lowest potential energy, so to answer the question of why the alpha particle is ejected, we need to analyze the potential.
 

@@ -27,7 +27,7 @@ We can extend this to a path from points $A$ to $B$ in phase space by concatenat
 $$\Delta W=\int_{A}^{B}PdV$$
 In a non-cyclical transformation, this is the area under the curve in the $PV$ graph. In a cyclical transformation, this is the area inside of the closed shape.
 
-![[Graph Work in thermodynamic transformation|90%|center]]
+![[Graph Work in thermodynamic transformation.svg|90%|center]]
 
 This does not hold for irreversible transformations, whose work is usually not $\int PdV$. For example, in the [[free expansion of an ideal gas]], the system does not perform any work to expand, so $\Delta W=0$ despite the volume and pressure both not changing.
 

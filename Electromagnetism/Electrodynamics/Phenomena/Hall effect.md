@@ -5,7 +5,7 @@ The **Hall effect** is the formation of an [[electric potential]] between two su
 ### Theory
 Consider a rectangular pillbox-shaped solid object (called a **Hall sensor**) being traversed uniformly by a [[Electric current|steady current]] $I$ in the $y$ direction ($I=I_{y}$) and by a [[magnetic field]] in the $z$ direction $(B=B_{z})$.
 
-![[Diagram Hall effect]]
+![[Diagram Hall effect.svg]]
 
 Due to the [[Lorentz force]] $\mathbf{F}=e\mathbf{v}\times \mathbf{B}$, the [[Electron|electrons]] in the current will be deflected by the magnetic field as it travels through the object. This will cause a centrifugal force applied onto the charges, which makes the charges get pushed (in the figure's case) across the $x$ axis.[^1] This makes the electron density over $x$ no longer uniform, which generates an [[electric potential]] $V_{H}$ between the $yz$ planes at $x=0$ and $x=a$. This in turn creates a parallel plate [[capacitor]]-like [[electric field]]
 $$E=\frac{V_{H}}{a}$$
@@ -24,7 +24,7 @@ $$B_{z}=\frac{V_{H}\rho ac}{I_{y}},\qquad \rho=\frac{I_{y}B_{z}}{V_{H}ac}$$
 We can measure the Hall potential by connecting a [[voltmeter]] to the two ends of the sensor. While seemingly quite easy, this has considerable practical challenges due to the Hall sensor usually being tiny (because, remember, smaller sensors make bigger potentials). The measurement relies on getting the ends of the voltmeter *precisely* aligned on each  side.
 
 :::image
-![[Diagram Hall potential measurement|center]]
+![[Diagram Hall potential measurement.svg|center]]
 Schematic representation of measuring a Hall sensor's potential. $\Delta y$ is the source of the error.
 :::
 

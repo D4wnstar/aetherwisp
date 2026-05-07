@@ -7,7 +7,7 @@ The idea behind the Stern-Gerlach experiment starts from the [[Bohr model]] of t
 
 To analyze the situation, consider a circular loop of radius $R$ and area $A=\pi R^{2}$ traversed by an [[electric current]] $I$. This will be our "toy hydrogen atom".
 
-![[Spira con momento di dipolo|40%|center]]
+![[Spira con momento di dipolo.svg|40%|center]]
 
 This loop has a magnetic dipole moment perpendicular to the loop given by $\boldsymbol{\mu}=IA \hat{\mathbf{n}}$, where $\hat{\mathbf{n}}$ is the outgoing normal vector from the surface. For a single charge $q$ moving circularly at a velocity $v$ on that radius, we have a current
 $$I=\lambda v=\frac{q}{2\pi R} v$$

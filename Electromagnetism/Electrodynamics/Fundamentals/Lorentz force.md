@@ -28,7 +28,7 @@ The work is always carried out by the electric part of the force due to the char
 ### Newton's third law
 Consider a point charge $q$ going at speed $v$ down the $x$ axis. Its electric and magnetic fields emit radially, as per the [[Liénard-Wiechert potentials]]. Say then that another charge $q$ travels down the $y$ axis. They would repel each other off the axes of course, but assume they are forced to remain on them through tracks or something of the sort. The electric force between them is clearly repulsive, so let's look at the magnetic one.
 
-![[Diagram Broken Newton 3rd law|80%]]
+![[Diagram Broken Newton 3rd law.svg|80%]]
 
 The magnetic field of the particle 1 goes into the page ($-\hat{\mathbf{z}}$) at the position of particle 2. The force, by right hand rule, is to the right ($\hat{\mathbf{x}}$). Similarly, the magnetic field of 2 goes out of the page ($\hat{\mathbf{z}}$) at the position of 1, so the force is up ($\hat{\mathbf{y}}$). These are manifestly *not* opposites, so they do not cancel out. The action, so to say, does not result in an equal and opposite reaction. There's something very wrong with [[Newton's laws|Newton's third law]] here, because it clearly does not hold in electrodynamics. But that's a problem: the conservation of [[Linear momentum|momentum]] relies on the third law! So how do we fix it? Well, we fix it by saying that it's not just the particles that carry momentum, but also the *fields* themselves.
 #### Conservation of linear momentum

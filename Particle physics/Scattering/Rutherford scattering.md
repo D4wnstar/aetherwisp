@@ -8,7 +8,7 @@ where $\ce{X}$ represents the nucleus.
 We assume that the scattering happens in [[Lorentz transformation|relativistic]] regime, so we use [[Four-vector|four-vectors]]. The [[four-momentum]] is
 $$p=(p_{0},p_{1},p_{2},p_{3})=\left( \frac{E}{c}, \mathbf{p}\right)$$
 
-![[Diagram Rutherford scattering]]
+![[Diagram Rutherford scattering.svg]]
 
 The alpha particle collides with the nucleus elastically, so momentum is conserved. If we use a laboratory [[frame of reference]] in which the nucleus is at rest, the initial four-momenta are
 $$p_{\alpha}=\left( \frac{E_{\alpha}}{c}, \mathbf{p}_{\alpha} \right),\quad p_{N}=\left( \frac{Mc^{2}}{c},0 \right)$$
@@ -44,7 +44,7 @@ We'll use a generic particle as the projectile. Historically, Rutherford used al
 Say our projectile has [[Electric charge|charge]] $ze$ and the nucleus has charge $Ze$, where $e$ is the [[elementary charge]]. We shoot the projectile towards the nucleus with initial velocity $\mathbf{v}_{0}$.
 
 :::image
-![[Diagram Rutherford scattering classical|100%]]
+![[Diagram Rutherford scattering classical.svg|100%]]
 A diagram of Rutherford scattering in case of a positively-charge projectile.
 :::
 
@@ -61,7 +61,7 @@ $$\frac{1}{2}mv_{0}^{2}=\frac{1}{2}mv^{2}+ \frac{1}{4\pi\epsilon_{0}} \frac{zZe^
 
 This interaction inherently has cylindrical symmetry. This is because the only geometrical property that the scattering angle depends on is the impact parameter. This means that it behaves the same regardless of where the projectile's trajectory is around the nucleus.
 
-![[Diagram Rutherford scattering cylindrical symmetry|90%]]
+![[Diagram Rutherford scattering cylindrical symmetry.svg|90%]]
 
 In fact, all particles incident on some ring $[b,b+db]$ around the nucleus are scattered into an angular region $d\theta$. This ring has area $2\pi bdb$. A real target has a large number of nuclei and each of them has this ring around it. Call $df$ be the fraction of all incident particles that are going through this ring around *some* nucleus. To determine it, we need the number of nuclei, specifically their density over the impact surface. If $n$ is the volume density of nuclei and $x$ is the thickness of the target (you can imagine it as a thin foil), the surface density of nuclei will be $nx$. Thus, the fraction will be
 $$df=nx\ 2\pi bdb\tag{3}$$

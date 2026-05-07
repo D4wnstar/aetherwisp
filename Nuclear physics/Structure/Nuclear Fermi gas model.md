@@ -9,7 +9,7 @@ This model relies on two assumptions:
 ### Formulation
 The [[potential]] felt by each [[Atomic nucleus|nucleon]] is the superposition of all other potentials produced by all other nucleons. The typical way to overcome this complexity is to make an assumption about the shape of the final resulting potential and assume that all nucleons are subject to this shared potential, called the **mean field**. In the Fermi gas model, we assume that the mean field potential is a [[Buca finita quantistica|finite square well]]. Actually, since we are considering protons and neutrons to be two different systems, there are two potential wells, one for protons and one for neutrons.
 
-![[Diagram Nuclear Fermi gas|70%|center]]
+![[Diagram Nuclear Fermi gas.svg|70%|center]]
 
 As is usual for Fermi gases, we'll use the [[phase space]] to find the properties. Because of the [[Disuguaglianza di Heisenberg|uncertainty principle]], a [[particle]] occupies a volume $h^{3}=(2\pi\hbar)^{3}$ in phase space. All the particles in a volume $V$, each having a set [[Linear momentum|momentum]] around $p\pm dp$, occupy a phase space region equal to the volume $V$ in the space coordinates a thin spherical shell $4\pi p^{2}dp$ in momentum coordinates. The number of accessible states for this momentum is
 $$dn=\frac{4\pi p^{2}dp}{(2\pi\hbar)^{3}}V$$

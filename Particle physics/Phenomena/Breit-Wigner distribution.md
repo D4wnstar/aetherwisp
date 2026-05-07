@@ -18,4 +18,4 @@ The [[cross section]] of the [[particle scattering]] process in which the resona
 
 Mathematically, it is the distribution of the [[energy]] of a resonant [[stato|state]] which decays exponentially in time. It is a [[Cauchy distribution]] centered on $E_{n}$. $\Gamma$ is the [[full width at half maximum]] of the distribution.
 
-![[Particle resonance#History and discovery]]
+![[Particle resonance#History and discovery.svg]]

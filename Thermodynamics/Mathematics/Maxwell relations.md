@@ -14,7 +14,7 @@ Here $T$ is [[temperature]], $S$ is [[entropy]], $P$ is [[pressure]] and $V$ is 
 ### Mnemonic
 Maxwell relations can be rendered graphically in a square diagram:
 
-![[Diagram Maxwell Relations|50%|center]]
+![[Diagram Maxwell Relations.svg|50%|center]]
 
 The system energy is at the center of the sides and can be expressed in function of the two variables at its sides. The arrows refer to what the constant quantities are: starting at one of the variables, follow the arrow to find the constant. If you go in the direction of the arrow, it's a positive term, else it's negative. For instance, $U$ is between $S$ and $V$ so it will be $U(S,V)$. An arrow connects $V$ to $P$ and we go against the arrow, so one term will be $-PdV$. The other arrow points from $S$ to $T$ and we go alongside it, so the other term will be $TdS$. In total, we have $U(S,V)=TdS-PdV$.
 ### Derivations

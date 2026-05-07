@@ -8,7 +8,7 @@ In meccanica classica, preso un [[physical system|sistema]] composto da una [[Pa
 1. Gli **stati legati** sono quegli stati nei quali la particella è "bloccata" tra due barriere di potenziale insormontabili ed è quindi destinata a "rimbalzare" tra le barriere senza poter mai uscire. Questo accade quando il potenziale cresce al di sopra dell'energia totale della particella, ossia $V(x)>E$ per qualche $x$.
 2. Gli **stati liberi** sono quegli stati nei quali la particella si muove da un infinito ad un altro, o rimbalza su una barriera e torna all'infinito di partenza. Questo accade quando il potenziale non sale sopra l'energia della particella o lo fa solo una volta, a modo che non crei una "trappola".
 
-![[Schema Stati legati e liberi|80%|center]]
+![[Schema Stati legati e liberi.svg|80%|center]]
 
 Anche in meccanica quantistica esistono questi stati, e hanno un particolare significato matematico. Come si può vedere dal caso della [[Buca infinita quantistica|buca infinita]] e della [[Particella libera (quantistica)|particella libera]], ci sono due possibili soluzioni dell'[[equazione di Schrödinger]]: normalizzabili e non-normalizzabili. Le soluzioni normalizzabili possono essere viste come una collezione infinita numerabile di stati indipendenti, mentre quelle non-normalizzabili non corrispondono ad alcuno stato fisico. Tuttavia, in entrambi i casi la loro combinazione lineare ci dà una [[funzione d'onda]] fisica.
 

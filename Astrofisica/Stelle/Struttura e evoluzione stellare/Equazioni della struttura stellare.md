@@ -43,7 +43,7 @@ Dunque in totale abbiamo 7 equazioni, di cui 4 principali, e 4 condizioni al con
 ### Equilibrio idrostatico
 Consideriamo una stella come un sistema a simmetria sferica e prendiamo un elemento di massa $dm$ di volume $dV=dSdr$ ad una distanza $r$ dal centro. Ci saranno due tipi di forze applicate su questo elemento: una forza attraente, che attrae lo verso il centro e determinata dalla [[Gravity|forza gravitazionale]] della stella stessa, e una forza repellente, che lo respinge e di trattazione più complessa. Possiamo rappresentare genericamente la forza repellente come una pressione applicata su un'area: $AdP$, dove $dP$ è il gradiente di pressione verso il centro.
 
-![[Schema Equilibrio idrostatico|Equilibrio idrostatico|50%|center]]
+![[Schema Equilibrio idrostatico.svg|Equilibrio idrostatico|50%|center]]
 
 Per avere equilibrio, la forza totale (con verso positivo verso il centro) dovrà essere nulla, ossia
 $$F_{gr}-AP(r+dr)+AP(r)=- \frac{GM(r)}{r^{2}}dm-AP(r+dr)+AP(r)=0$$

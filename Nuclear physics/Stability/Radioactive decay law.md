@@ -56,7 +56,7 @@ $$\boxed{N_{2a}=N_{0}\left(\frac{\lambda_{a}}{\lambda_{t}}\right)\bigl(1-e^{-\la
 > Suppose we have a sample containing two [[Nuclide|radionuclides]]:
 > $$^{64}\text{Cu}\rightarrow t_{1/2}=12.7\text{ h},\qquad ^{61}\text{Cu}\rightarrow t_{1/2}=3.4\text{ h}$$
 > Measuring the activity yields a curve like
-> ![[Plot Multiple decay activities|60%|center]]
+> ![[Plot Multiple decay activities.svg|60%|center]]
 > Initially we observe a single decay curve. Because the lifetimes differ greatly, the shorter-lived isotope will eventually be nearly depleted while the longer-lived one is still going. Fitting the tail of the curve gives an estimate of the activity of the long-lived nuclide; subtracting this from the earlier data leaves the activity of the short-lived nuclide. The method works for any number of radionuclides provided their lifetimes are sufficiently different.
 
 #### Production-decay

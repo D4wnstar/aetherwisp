@@ -70,7 +70,7 @@ For a thought experiment, imagine we are charging a [[capacitor]]. The integral 
 $$\oint \mathbf{B}\cdot d\mathbf{r}=\mu_{0}I_\text{enc}$$
 Say I want to use this law on a loop right after a capacitor, beyond the second plate.
 
-![[Circuit Ampere's law inconsistency|60%|center]]
+![[Circuit Ampere's law inconsistency.svg|60%|center]]
 
 What's the enclosed current? Well, it's whatever current is passing through the surface of the loop. But what is the surface of the loop? It's any surface bounded by it. The obvious choice here is just the flat space within the loop (blue in the image), but it could just as well be the amorphous green one, similar to a balloon, passing through the space in between the conductor's armatures. The issue here is that, while in the blue surface the current passing through is obvious, in the green one there is *no* current passing through. This makes no sense: Ampere's law must hold for every possible surface bounded by the loop, it can't be picky. There's clearly something wrong here.
 

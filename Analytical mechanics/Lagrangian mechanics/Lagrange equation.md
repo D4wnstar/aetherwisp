@@ -188,7 +188,7 @@ $$V(q,\dot{q})=e\phi-e \dot{\mathbf{q}}\cdot \mathbf{A}$$
 
 > [!example]- Spherical pendulum
 > We'll now use another oscillating system: a spherical pendulum, which is a [[simple pendulum]] that's constrained to remain on a [[sphere]], instead of a [[circle]]. In plain English, it's a pendulum that swings in 3D. The position vector $\mathbf{r}(q)$ only needs two free coordinates, as that's the minimum to identify a point on a [[surface]] (which a sphere is). We'll use the angles $\theta$ and $\phi$ on a sphere of radius $R$.
-> ![[Diagram Spherical pendulum]]
+> ![[Diagram Spherical pendulum.svg]]
 > 
 > We want to express $x,y,z$ in terms of $\theta,\phi$. This is just the usual [[coordinate transformation]] from [[spherical coordinates]]:
 > $$x=R\sin \theta \cos \phi,\quad y=R\sin \theta \sin \phi,\quad z=R\cos \theta$$
@@ -232,7 +232,7 @@ $$V(q,\dot{q})=e\phi-e \dot{\mathbf{q}}\cdot \mathbf{A}$$
 > [!example]- Pendulum with a spring joint
 > In this example, we'll analyze how a spring interacts with gravity. Consider a point mass attached to the $x$ axis by a spring of some elastic constant that always remains exactly vertical. Gravity pulls the mass down. Crucially, the spring is allowed to slide over the $x$ axis: thing of it like a coat hanger on a metal pipe of sorts.
 > 
-> ![[Diagram Spring pendulum]]
+> ![[Diagram Spring pendulum.svg]]
 > 
 > We'll use [[polar coordinates]], with a distance $l$ and an angle $q$. The coordinate transformation back to $x$ and $y$ is $x=l\sin q$ and $y=-l\cos q$. Their derivatives are $\dot{x}=l\cos q\dot{q}$ and $\dot{y}=l\sin q\dot{q}$, which leads to kinetic energy
 > $$T=\frac{1}{2}m(\dot{x}^{2}+\dot{y}^{2})=\frac{1}{2}m(l^{2}\cos ^{2}q \dot{q}^{2}+l^{2}\sin ^{2}q \dot{q}^{2})=\frac{1}{2}ml^{2}\dot{q}^{2}$$
@@ -272,7 +272,7 @@ $$V(q,\dot{q})=e\phi-e \dot{\mathbf{q}}\cdot \mathbf{A}$$
 > 
 > When plotted, they look like this:
 > 
-> ![[Plot Spring pendulum equilibrium points|80%]]
+> ![[Plot Spring pendulum equilibrium points.svg|80%]]
 > 
 > The two $q^{*}$ points split in the middle as the parameter $mg/kl$ goes lower. This shape is called a **[[bifurcation]]** and this graph allows us to get an idea of how the potential looks like by tracing a vertical line anywhere in the graph to fix any one $mg/kl$. Since stable points are potential minima and unstable ones are potential maxima, our potential has two behaviors. When $mg/kl\geq1$, it's a rather typical parabola, with maxima at $q=\pm \pi$ and minima at $q=0$; about what you'd expect from the usual pendulum. But when the spring gets rigid enough, $mg/kl<1$ and we start to see the characteristic behavior of this pendulum. The vertical is no longer a stable equilibrium point, so the two new "oblique" equilibrium points $\pm q^{*}$ come in as the "replacement" minima. This gives the potential *two* valleys with an additional central peak at $q=0$.
 

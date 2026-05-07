@@ -33,7 +33,7 @@ In an ideal world, we'd be able to determine the exact radiation at any point fr
 
 To start, let's consider some generic charge distribution of any shape whatsoever, with our only prerequisite being that it's a finite volume near the origin.
 
-![[Diagram Electromagnetic radiation from arbitrary source|50%]]
+![[Diagram Electromagnetic radiation from arbitrary source.svg|50%]]
 
 #### Potentials
 The [[Retarded potentials|retarded scalar potential]] is

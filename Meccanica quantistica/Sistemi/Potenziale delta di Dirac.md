@@ -69,7 +69,7 @@ Ci troviamo in una situazione complicata: abbiamo due equazioni, la $(1)$ e la $
 
 Se accoppiati con il termine temporale $e^{-iEt/\hbar}$, i termini della forma $e^{ikx}$ danno luce ad un'onda propagante a $+x$, mentre $e^{-ikx}$ a onde propaganti a $-x$. Allora, $A$ è l'ampiezza dell'onda da $-\infty$ verso $0$ e $B$ è quella dell'onda da 0 verso $-\infty$. Analogamente, $C$ è l'ampiezza dell'onda da 0 verso $+\infty$ e $D$ quella dell'onda da $+\infty$ a 0.
 
-![[Schema Costanti potenziale delta di Dirac|100%]]
+![[Schema Costanti potenziale delta di Dirac.svg|100%]]
 
 Nel caso di una particella sola, le cose si semplificano. Se consideriamo una particella che si muove verso destra da $-\infty$, abbiamo
 - $A$ è la costante dell'**onda incidente**.

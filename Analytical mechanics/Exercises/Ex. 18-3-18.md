@@ -3,7 +3,7 @@ hl-publish: true
 ---
 There is a [[point mass]] of [[mass]] $m$ [[Constraint|constrained]] to the $xy$ plane. The mass is attached with an inextensible rope to a weight of mass $M$ hanging off the origin $\mathcal{O}$. [[Gravity|Gravity]] $g$ affects the whole system, pulling the weight down.
 
-![[Diagram Ex. 18-3-18]]
+![[Diagram Ex. 18-3-18.svg]]
 
 We have a few constraints here. $m$ is locked to the $xy$ plane, so $z_{1}=0$. We'll use [[polar coordinates]] $r$ and $\theta$ for $m$, so $x_{1}=r\cos \theta$ and $y_{1}=r\sin \theta$. The weight hangs off the origin, so $x_{2}=0$ and $y_{2}=0$. $z_{2}$ must be determined by the length of the rope, $L=r-z_{2}$, from which $z_{2}=r-L$. In total we get
 $$\begin{align}

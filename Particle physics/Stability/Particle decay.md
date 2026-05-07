@@ -19,7 +19,7 @@ This is the simplest case. An unstable particle $a$ is at rest. At some point, i
 $$a\to b+c$$
 The emission sends particles away from each other, in opposite directions. This is called **back-to-back decay**.
 
-![[Diagram Particle decay back-to-back|center]]
+![[Diagram Particle decay back-to-back.svg|center]]
 
 We'll use [[natural units]]. Conservation of [[energy]] and [[Linear momentum|momentum]] read
 $$\begin{cases}
@@ -53,7 +53,7 @@ This scenario is similar to the above, in that it's a particle decaying in two b
 
 In the laboratory frame, at rest with the scientists and [[detector|detectors]], the particle moves at some initial speed. Since momentum is conserved, the decay products will inherit it. This makes them also fly forward, but at an angle, with respect to the original line of motion.
 
-![[Diagram Particle decay in flight|80%|center]]
+![[Diagram Particle decay in flight.svg|80%|center]]
 
 Conservation says
 $$\begin{cases}

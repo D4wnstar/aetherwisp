@@ -13,7 +13,7 @@ che si riferisce al flusso che avrebbe uno strumento efficiente al 100% in quell
 
 L'esatta risposta di un rivelatore dipende dalla lunghezza d'onda dell'onda incidente. I rivelatori non sono uniformemente efficienti in tutte le lunghezze: chiamiamo $s_{banda}(\lambda)$ la *funzione di risposta* di un rivelatore. Nel caso ideale, sarebbe una sorta di onda quadra, dove vale 1 in un certo intervallo e 0 altrove. Ciò permetterebbe misure perfette in un certo intervallo di lunghezze d'onda. Le funzioni d'onda reali sono invece distribuzioni continue con picco ad una certa lunghezza.
 
-![[Assorbimento Filtri Telescopi|80%|center]]
+![[Assorbimento Filtri Telescopi.svg|80%|center]]
 
 Si può usare questa funzione per legare flusso monocromatico e flusso di banda:
 $$f_{banda}=\int_{0}^{\infty}f_{\lambda}s_{banda}(\lambda)d\lambda$$

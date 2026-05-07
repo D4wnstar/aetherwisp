@@ -8,10 +8,10 @@ Un **sistema di coordinate celesti** è un sistema matematico che si usa per det
 Così facendo abbiamo a disposizione le due coordinate angolari: una, $\alpha$, tra il punto di riferimento e l'oggetto proiettato sull'orizzonte e una, $\beta$, tra l'orizzonte e l'oggetto. Vale $0<\alpha<360°$ e $-90°<\beta<90°$.
 
 I sistemi più comuni sono:
-![[Sistema altazimutale]]
+![[Sistema altazimutale.svg]]
 
-![[Sistema equatoriale]]
+![[Sistema equatoriale.svg]]
 
-![[Sistema di coordinate galattiche]]
+![[Sistema di coordinate galattiche.svg]]
 
-![[Sistema di coordinate supergalattiche]]
+![[Sistema di coordinate supergalattiche.svg]]

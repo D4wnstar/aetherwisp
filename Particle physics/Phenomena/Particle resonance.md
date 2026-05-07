@@ -11,7 +11,7 @@ As experimental instrumentation became better and better throughout the 20th cen
 $$\pi^{-}+p\to X\to \pi^{-}+p$$
 between a negative [[pion]] and a [[proton]]. The end result is itself, meaning it's an elastic scattering, but there appeared to be an intermediate result. This was noticed due to an anomalous peak in the [[cross section]] of this interaction as a function of the [[invariant mass]]. There just happened to be an amount of energy that was *just right* to make the cross section spike to a much higher value: a [[resonance]].
 
-![[Plot Pion-proton resonance]]
+![[Plot Pion-proton resonance.svg]]
 
 This peak of cross section indicated the presence of a new particle that was interacting as an intermediate piece. We don't *see* it, but we know it must be there. The [[mean lifetime]] must therefore be minuscule[^1].
 

@@ -33,7 +33,7 @@ usando che $\Psi\in L^{2}$ deve valere $\Psi(\pm\infty) \rightarrow 0$ e allora 
 ### Collasso
 Il **collasso della funzione d'onda** è un fenomeno quantistico osservato dopo la misura di una particella. Immediatamente dopo aver compiuto una misura, la funzione d'onda della particella *collassa*, cambiando radicalmente forma e diventando un singolo picco attorno al valore misurato. Ciò implica che, compiendo misure rapide una dopo l'altra, si otterrà sempre lo stesso risultato (o comunque uno quasi uguale).
 
-![[Grafico Collasso funzione d'onda|100%|center]]
+![[Grafico Collasso funzione d'onda.svg|100%|center]]
 
 Questa è una dinamica *irreversibile*: consideriamo uno stato generico $\ket{\psi}$ in cui si trova la particella prima della misura. Dopo la misura, inevitabilmente collassa in uno dei suoi autostati $\ket{a_{i}}$, dandoci come valore sperimentali il suo autovalore $a_{i}$. L'esperimento può essere ripetuto molte volte su sistemi identicamente preparati, derivando così le probabilità di collasso in ciascuno degli autostati. Ora la domanda è: da queste misure, possiamo andare a ritroso e capire qual era lo stato $\ket{\psi}$ prima del collasso? *No.* La ragione è la seguente: consideriamo lo stato $\ket{\psi}$ nella sua [[rappresentazione spettrale]]:
 $$\ket{\psi} =\sum_{i=1}^{d} \braket{ a_{i} | \psi } \ket{a_{i}} $$

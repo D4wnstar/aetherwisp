@@ -23,7 +23,7 @@ Si definisce **larghezza equivalente** (EW) di una riga di assorbimento come la 
 
 Un'altra quantità più utile è la **Full-Width Half-Maximum** (FWHM), dove si misura la larghezza della banda a metà del massimo di assorbimento/emissione. La EW è comunque usata perché richiede meno dati ed è più resistente a rumore e imprecisioni.
 
-![[Schema righe spettrali|80%|center]]
+![[Schema righe spettrali.svg|80%|center]]
 
 ### Allargamento delle righe
 Come accennato sopra, le misure di righe spettrali danno luogo a picchi e valli con una certa pendenza. Le ragioni sono diverse, ma sono tutte o di natura quantistica, o di natura statistica. Infatti, la riga che vediamo è l'aggregato di innumerevoli [[Particle|particelle]] che vanno a formare i corpi celesti. Le lunghezze d'onda di transizione, poi, sono tali nel sistema di riferimento della particella, quindi risulteranno diverse in quello dell'osservatore.

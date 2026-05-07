@@ -39,7 +39,7 @@ $$S=k_{B}\log \Gamma(E)\qquad S=k_{B}\log \omega(E)\qquad S=k_{B}\log \Sigma(E)$
 #### Extensiveness
 Let's start from the first. Consider some chamber divided in two volumes $V_{1}$ and $V_{2}$, respectively containing $N_{1}$ and $N_{2}$ particles.
 
-![[Schema Microcanonical entropy proof|center]]
+![[Schema Microcanonical entropy proof.svg|center]]
 
 If entropy is extensive, then the total entropy must be given as the combination of the entropy of each subsystem[^1]. Entropy measures disorder, so if the two systems heavily interact with each other, that'll increase entropy by a lot. For this proof, let's assume that the energy of interaction $E_\text{int}$ between 1 and 2 is much smaller than the energy of each system, $E_\text{int}<E_{1}$ and $E_\text{int}<E_{2}$. This allows us to consider the two as non-interacting and leaves us with just the internal entropies. For the interaction to be negligible we need two things:
 1. the range of interaction between particles must be finite (we'll send the volume to infinity later so any finite value is fine). This excludes long-range interactions like [[Gravity|gravity]] from this proof;

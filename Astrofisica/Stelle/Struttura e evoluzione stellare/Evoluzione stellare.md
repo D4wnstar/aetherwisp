@@ -37,7 +37,7 @@ Eventualmente anche l'elio terminerà e il nucleo sarà formato dai prodotti del
 
 Una volta diventata gigante asintotica, la stella non ha abbastanza energia termica per innescare la fusione del carbonio, quindi il nucleo diventa inerte. Lo strato di elio, tuttavia, continua a bruciare; non solo, la fusione dell'elio diventa instabile anche in mancanza di degenerazione, così l'emissione di energia diventa esplosiva e causa un cosiddetto **pulso termico**, l'eiezione di una grande quantità dell'inviluppo a causa della fusione di elio. Questa emissione repentina spegne sia l'elio e lo strato di idrogeno superiore, che poi torna a riaccendersi e accumulare elio. L'accumulazione causa una nuova accensione dell'elio e un altro pulso termico, in un ciclo che va avanti finché la stella non ha eiettato tutto l'inviluppo nello spazio circostante, formando una nube detta [[nebulosa planetaria]]. Della stella rimane solo il nucleo esposto allo spazio vuoto, inerte e composto da idrogeno e ossigeno degenere. Questo [[Relitto stellare]] è detto [[Nana bianca]].
 
-![[Grafico Evoluzione stelle di massa solare|90%|center]]
+![[Grafico Evoluzione stelle di massa solare.svg|90%|center]]
 
 #### Stelle massive
 Una stella massiva ($>2.25M_{\odot}$) non incorre in flash di elio e comincia a bruciare elio senza eventi esplosivi. Ciò porta le stelle massive a non avere una "ricaduta" importante simile a quelle delle stelle di massa solare e ad avere un braccio orizzontale più pronunciato. Per il resto, la stella si evolve in modo analogo a quanto già visto, diventando una gigante asintotica, emettendo pulsi termici perdendo tutto il suo inviluppo per diventare infine una nana bianca.

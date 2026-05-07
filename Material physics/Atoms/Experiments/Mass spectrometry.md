@@ -5,7 +5,7 @@ hl-publish: true
 ### Operation
 A mass spectrometer traditionally consists of three components: an *ion source* and two *selectors*.
 
-![[Schematic Mass spectrometer|80%|center]]
+![[Schematic Mass spectrometer.svg|80%|center]]
 
 The *ion source* is where the ion that need to measured come from. A simple source is, for example, a block of pure chemical element (e.g. iron, silver, etc.) bombarded by a beam of [[Electron|electrons]] to in order to produce free ions.
 

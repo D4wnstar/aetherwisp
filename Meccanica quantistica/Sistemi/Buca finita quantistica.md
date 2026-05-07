@@ -10,7 +10,7 @@ $$V(x)=\begin{cases}
 \end{cases}$$
 con $a$ e $V_{0}$ costanti reali positive. Come per il [[Potenziale delta di Dirac]], sono possibili sia stati legati ($E<0$) e stati liberi ($E>0$).
 
-![[Grafico Buca finita|70%|center]]
+![[Grafico Buca finita.svg|70%|center]]
 ### Stati legati
 In $x<-a$ il potenziale è zero, quindi l'[[equazione di Schrödinger]] diventa
 $$\frac{d^{2}\psi}{dx^{2}}=- \frac{2mE}{\hbar^{2}}\psi=\kappa^{2}\psi$$

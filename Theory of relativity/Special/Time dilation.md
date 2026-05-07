@@ -9,7 +9,7 @@ Imagine a train cart traveling at some constant speed along a smooth, straight t
 $$\Delta t_{\text{rest}}=\frac{h}{c}$$
 where "rest" denotes that we are in the [[frame of reference]] of the cart and the light is at rest with respect to the observer. On the other hand, for someone on the ground, the space to travel is greater, as it is the diagonal between the location of the bulb when the light is emitted and the location of the floor after the light has traveled.
 
-![[Diagram Time dilation thought experiment|100%]]
+![[Diagram Time dilation thought experiment.svg|100%]]
 
 The train, which assume moves at speed $v$, travels some distance $v\Delta t$ while the light reaches the ground. Thus, the actual distance covered is given by the [[Law of cosines|Pythagorean theorem]], $\sqrt{ h^{2}+(v\Delta t_\text{moving})^{2} }$, and so
 $$\Delta t_\text{moving}=\frac{\sqrt{ h^{2}+(v\Delta t_\text{moving})^{2} }}{c}$$

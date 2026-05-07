@@ -13,7 +13,7 @@ An example of radionuclide that undergoes spontaneous fission is $^{238}\text{U}
 ### Mechanism
 Consider some superheavy nucleus ($A\gtrsim 230$). It's binding energy per nucleon is very low compared to much smaller nuclei, generally in the range of $7.5-7.6\text{ MeV/nucleon}$. As such, breaking into smaller nuclei, which generally have binding energies in the range of $8.4-8.5\text{ MeV/nucleon}$, is potentially very energy efficient. In practice, however, the strong attraction creates a deep well of [[potential energy]] in which then nucleus sits comfortably in and electrostatic repulsion creates a major potential barrier that prevents the nuclei from escaping or entering.
 
-![[Diagram Spontaneous fission|80%|center]]
+![[Diagram Spontaneous fission.svg|80%|center]]
 
 Let $R_{0}$ be the radius of the nucleus. If it were to split in two, the fragments would have radii $R_{1}$ and $R_{2}$. At the moment of fission, they would be "touching", so the total "size" of the result would be $R=R_{1}+R_{2}$. This end state would need to have enough energy to overcome the energy barrier for fission to happen. The potential energy at this distance is
 $$U(R)=\frac{1}{4\pi\epsilon_{0}} \frac{Z_{1}Z_{2}e^{2}}{R}$$
@@ -32,7 +32,7 @@ You might wonder how a nucleus whose $Q$ is lower than the potential barrier can
 ### Deformation and energy
 Fission is a more involved process than something like alpha decay. It involves a heavy deformation of the nucleus until it cracks in two pieces. The process is somewhat reminiscent of cellular [[mitosis]]: from its original shape (sometimes a sphere, sometimes more squished, depends on the nuclide), the nucleus gets deformed by the repulsive electrostatic forces into an [[ellipsoid]]. Eventually, the deformation is so heavy it splits into two pieces.
 
-![[Diagram Nuclear fission deformation|100%]]
+![[Diagram Nuclear fission deformation.svg|100%]]
 
 We can approximate this process by considering the deformed nucleus as being an ellipsoid of volume $V=\frac{4}{3}\pi ab^{2}$, where $a$ and $b$ are the axes of the ellipsoid. These can be expressed in terms of the volume $R$ of a sphere according to
 $$a=R(1+\epsilon),\quad b=\frac{R}{\sqrt{ 1+\epsilon }}$$
