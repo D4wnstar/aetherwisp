@@ -18,8 +18,7 @@ Some conventions:
 4. **Radiant intensity** $[\text{W/sr}]$ is radiant power per *solid angle* ($\text{sr}$ is steradian). It includes all energy: emitted, reflected, transmitted and received. It is the amount of power going through a specific direction (the solid angle).
 5. **Radiance** $[\text{W/sr/m}^{2}]$ is radiant intensity per unit *area*. It is the amount of power going through a direction over a surface.
 
-:::image
-![[Photometry_radiometry_units.svg|500]]
+:::figure[Photometry_radiometry_units.svg|500]
 Visual guide to radiometric quantities. The red quantities are the significant ones. (The purple ones are *photometric*, that is, weighed by what the human eye can see).
 By Cmglee - Own work, CC BY-SA 4.0, from [Wikipedia](https://commons.wikimedia.org/w/index.php?curid=121743159).
 :::

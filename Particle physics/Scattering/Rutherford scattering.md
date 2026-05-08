@@ -43,8 +43,7 @@ We'll use a generic particle as the projectile. Historically, Rutherford used al
 
 Say our projectile has [[Electric charge|charge]] $ze$ and the nucleus has charge $Ze$, where $e$ is the [[elementary charge]]. We shoot the projectile towards the nucleus with initial velocity $\mathbf{v}_{0}$.
 
-:::image
-![[Diagram Rutherford scattering classical.svg|100%]]
+:::figure[Diagram Rutherford scattering classical.svg|100%]
 A diagram of Rutherford scattering in case of a positively-charge projectile.
 :::
 

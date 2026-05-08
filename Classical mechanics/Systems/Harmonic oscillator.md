@@ -91,8 +91,7 @@ An atom can oscillate in 3 dimensions. Accordingly, a crystal of $N$ atoms has $
 $$\int_{0}^{\omega_{\text{max}}}f(\omega)d\omega=3N$$
 where $\omega _\text{max}$ is known as the **Debye frequency** and $f(\omega)$ is the frequency [[Probability distribution|distribution]][^2]. The nature of this upper limit is due to the discrete structure of atomic matter. Remember that the waves that we are not actually continuous, they are essentially the interpolating curve between atoms as the shift and vibrate. As such, this wave can only be as frequent as the atoms are dense. Any more frequent than that and there won't be any atoms to actually oscillate. The Debye frequency is the limit.
 
-:::image
-![[Phonon max frequency.png]]
+:::figure[Phonon max frequency.png]
 From *Kerson Huang's Statistical Mechanics, Chapter 17*
 :::
 

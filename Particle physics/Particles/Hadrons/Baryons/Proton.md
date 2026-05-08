@@ -34,8 +34,7 @@ Two detectors were used in the process:
 1. A [[Tempo di volo|time of flight]] detector was used to measure the speed of the passing particle.
 2. A [[Cherenkov radiation]] detector was placed shortly after to detect [[Photon]] emission from particles going over the Cherenkov speed threshold, carefully designed to only activate the kind of speeds pions were expected to go at, but not those of antiprotons.
 
-:::image
-![[BevatronAntiprotonApparatus.png|400]]
+:::figure[BevatronAntiprotonApparatus.png|400]
 An Italian diagram of the Bevatron apparatus. *Red*: Copper target. *Green*: Deflection magnets. *Yellow*: TOF detectors. *Pink*: Focusing magnets. *Light blue*: Cherenkov counters.
 :::
 

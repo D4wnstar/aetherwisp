@@ -27,8 +27,7 @@ In principle, the request makes sense. Any spinning charged object of nonzero ra
 ### Experiment
 The experiment consisted of a source of silver atoms, which are then aimed and fired at through collimators to align the atoms into a thin beam. These atoms are then made to pass through two magnets (one with an exposed north pole, the other a south pole) irregularly shaped such that they create an inhomogeneous magnetic field $\mathbf{B}$. The inhomogeneity produces a net force $\mathbf{F}=\nabla(\boldsymbol{\mu}\cdot \mathbf{B})$ on the atoms passing through[^3]. The atoms then hit a [[Detector|detector]] that reveals their where they hit.
 
-:::image
-![[Stern-Gerlach_experiment.svg]]
+:::figure[Stern-Gerlach_experiment.svg]
 1 is the atom source. 2 are the collimators. 3 are the magnets. 4 is the expected distribution, 5 is the measured one. By Tatoute - Own work, CC BY-SA 4.0, from [Wikipedia](https://commons.wikimedia.org/w/index.php?curid=34095239).
 :::
 

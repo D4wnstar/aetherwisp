@@ -20,8 +20,7 @@ Rubidium-93 and cesium-141 are the primary decay fragments. Two additional neutr
 
 The fragments themselves are, curiously, known to follow two distinct distributions.
 
-:::image
-![[ThermalFissionYield.svg]]
+:::figure[ThermalFissionYield.svg]
 Fission product distributions for three common radionuclides: uranium-233 (green), uranium-235 (red) and plutonium-239 (blue). Additionally, the black line is for a 65-35 mixture of uranium-235 and plutonium-239, a common choice for fuel in modern nuclear reactors.
 By JWB, from [Wikipedia](https://commons.wikimedia.org/w/index.php?curid=16479803), CC BY 3.0
 :::

@@ -267,8 +267,7 @@ $\lvert \psi_{+} \rvert^{2}$ has maxima at the potential maxima. Similarly, $\lv
 
 The result is something like this. The left plot shows three coefficients, $U_{-1},U_{0},U_{1}$ and the right plot shows five, $U_{-2},U_{-1},U_{0},U_{1},U_{2}$. Where the lines here would have been parabola in the zero-potential case, we can see that they now split at the edges of the 1BZ, creating energy gaps. Also, we can see another effect of solving the equations with more or less coefficients: the three-coefficient solution missed the band higher band gap since it had $\lvert U_{\pm2} \rvert^{2}=\lvert 0 \rvert^{2}=0$, whereas the five-coefficient shows it. This is another reason why more coefficients provide better results.
 
-:::image
-![[Energy gap schemes.png]]
+:::figure[Energy gap schemes.png]
 Another plot showing the new energy bands. There is more than one convention to display the energy bands. The left method, called the **extended zone scheme**, shows the new bands (solid line) over the original band (dashed lines in the gaps) across multiple Brillouin zones. The right method, called the **reduced zone scheme**, uses the fact that wavevectors can always be reduced to the 1BZ by translating them by $\mathbf{K}$. The resulting plot hence only includes the 1BZ with multiple bands stacked on top of each other. The bottom band is in the 1BZ, the band above is in the 2BZ, etc.
 :::
 
@@ -336,8 +335,7 @@ Let's a run a simple calculation in a 1D crystal of lattice parameter $a$ for $s
 $$E_{s}(k)=E_{s}-\beta_{s}-t_{s}(e^{ika}+e^{-ika})=E_{s}-\beta_{s}-2t_{s}\cos (ka)$$
 $\beta_{s}$ is the value of $\beta$ calculated in the $s$ orbital. Both $E_{s}$ and $\beta_{s}$ are constant, so maxima and minima are chosen by the cosine. The minimum energy is for $k=0$ and the maximum is at the Brillouin zone edge at $k=\pi/a$. The center of the energy band is shifted by $-\beta_{s}$ compared to $E_{s}$ (typically a small shift). These are the edges of the band. The width of the band is $4t_{s}$, as seen by the fact that the cosine term goes from $-2t_{s}$ to $2t_{s}$. This shows that it's the hopping term that determines how wide a band is in the tight-binding model. Hopping depends on the distance, increasing for small distances, so the closer the atoms are, the wider the bands are; this is logical, as closer atoms make transferring electrons easier and therefore conductivity higher.
 
-:::image
-![[Tight-binding s-band 1D.png]]
+:::figure[Tight-binding s-band 1D.png]
 The $s$-band of a 1D crystal in tight-binding in the first Brillouin zone.
 :::
 

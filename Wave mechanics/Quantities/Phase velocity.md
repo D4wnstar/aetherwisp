@@ -7,8 +7,7 @@ The phase velocity is only well-defined on waves with a single frequency compone
 $$v_{p}=\frac{\omega}{k}=\frac{\lambda}{T}$$
 where $\lambda$ and $T$ are the [[wavelength]] and [[period]]. If the wave is composed of multiple layered frequencies, each of them will have its own phase velocity. The speed of the wave as a whole is then described by [[group velocity]]. This is important when dealing with [[Dispersion|dispersive]] media, where the two do not match.
 
-:::image
-![[Wave_group.gif]]
+:::figure[Wave_group.gif]
 An animation displaying the difference between phase velocity (green) and group velocity (red). Note how the green point never goes "up" or "down", i.e. it doesn't change amplitude. That means its phase is constant, and therefore shows the propagation of the phase.
 By Kraaiennest - Own work, CC BY-SA 4.0, from [Wikipedia](https://commons.wikimedia.org/w/index.php?curid=3651297).
 :::

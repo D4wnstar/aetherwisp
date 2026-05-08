@@ -38,8 +38,7 @@ This is known as the **Compton edge** and, interestingly, it's guaranteed to be 
 
 Finally, we know that the [[cross section]] of Compton scattering decreases with energy, meaning lower-energy photons are favored.
 
-:::image
-![[Diagram Compton scattering cross section.svg]]
+:::figure[Diagram Compton scattering cross section.svg]
 Cross section of Compton scattering. It is highest at low energies and eventually drops down to zero.
 :::
 

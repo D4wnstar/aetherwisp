@@ -32,8 +32,7 @@ This simple model is quite reminiscent of the [[Hydrogen atom|hydrogenic atom]],
 - Shell $N=1$ has $n=1$ and $l=1$, hence corresponds to the $1p$ state. It has a degeneracy of 8.
 - Shell $N=2$ either has $n=1$ and $l=2$ or $n=2$ and $l=0$, and hence corresponds to the $1d$ and $2s$ states. It has a degeneracy of 12.
 
-:::image
-![[Diagram Nuclear shell model Gaussian.svg|80%|center]]
+:::figure[Diagram Nuclear shell model Gaussian.svg|80%|center]
 A diagram showing the behavior of the first four shells, according to the Gaussian mean potential. The first three shells correctly predict magic numbers (2, 8, 20), but already by the fourth it goes off track (40 is not a magic number, but 28 is).
 :::
 ### Woods–Saxon potential
@@ -43,8 +42,7 @@ For larger nuclei, we'll need a more realistic potential. A far better choice in
 
 Calculation of the actual energy levels is a lot more complicated compared to the harmonic oscillator. The idea is still the same however: solve the Schrödinger equation in spherical coordinates with this potential to find the energy eigenstates (shells) and their degeneracy (nucleons admitted by the shell). It should be mentioned that when a lot of splitting is introduced (and therefore many energy levels/shells), magic number stop being plain closed shells, but rather closed shells that are distant in energy from the next one over.
 
-:::image
-![[Closed shells Woods-Saxon.png|300]]
+:::figure[Closed shells Woods-Saxon.png|300]
 A diagram showing shells according to the Woods-Saxon mean potential. The main difference is the lifting of degeneracy over $l$, which leads to a lot more energy levels (since same $N$ but different $nl$ have different energies). Like the Gaussian distribution, it gets the first magic numbers right, but goes off track by the fourth.
 :::
 #### Spin–orbit coupling
@@ -69,8 +67,7 @@ We can see that the difference increases linearly with angular momentum. Experim
 
 The effect of this correction is pronounced, as it makes important changes to the ordering of magic numbers. All levels with nonzero $l$, which are $p,d,f,g\ldots$, are split into two new levels.
 
-:::image
-![[Closed shells spin-orbit.png|400]]
+:::figure[Closed shells spin-orbit.png|400]
 A diagram showing shells according to the spin-orbit-corrected Woods-Saxon mean potential. The left side shows the shells predicted by uncorrected Woods-Saxon. Notice how all known magic numbers (2, 8, 20, 28, 50, 82, 126) are reproduced, and how much splitting SO coupling introduces. By the way, the number 184 is a (possibly correct) theoretical prediction of a new magic number!
 :::
 

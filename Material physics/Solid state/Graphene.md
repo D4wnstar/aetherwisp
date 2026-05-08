@@ -21,8 +21,7 @@ We insert this is the [[Equazione di Schrödinger|Schrödinger equation]] $\hat{
 
 ...
 
-:::image
-![[Graphene electron band gap.png]]
+:::figure[Graphene electron band gap.png]
 Upper caption: $\pi$ bands in self-standing graphene
 Lower caption: Graphene is a semimetal (or zero gap semiconductor): the Fermi level intersects the $\pi$ band in a point ($K$) of the Brillouin zone.
 :::

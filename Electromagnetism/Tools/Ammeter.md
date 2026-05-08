@@ -7,8 +7,7 @@ Ammeters are not new instruments and about two centuries of engineering have bro
 ### Moving coil ammeter
 Consider a small circuit element traversed by current $I$ by charges ([[Electron|electrons]]) of [[electric charge]] $-e$ moving at velocity $\mathbf{v}$.
 
-:::image
-![[Schema Ammeter wiring.svg|50%|center]]
+:::figure[Schema Ammeter wiring.svg|50%|center]
 A wire loop subject to a current $I$ and a magnetic field $\mathbf{B}$.
 :::
 
@@ -18,8 +17,7 @@ The circuit is then wrapped around an iron cylinder that's designed to [[Magneti
 
 Whenever a current passes through the circuit, a [[Lorentz force]] $\mathbf{F}$ is applied onto it. Since  $\mathbf{B}$ is orthogonal by construction, so is $\mathbf{F}$. This enacts a [[Moment of force|torque]] onto the wire and by extensions onto the cylinder it's attached to, causing both to rotate (the cylinder is intentionally not held in place to allow this). A pin extends outwards from the cylinder to show the rotation, which is displayed in front of a scale with ticks for current. Spiral springs mounted inside the cylinder provide a restoring force that counteracts the rotation, allowing the cylinder to stop rotating and to go back to a neutral position when current is removed. Finally, instead of a single wire loop, it is typical to loop the wire several times around the cylinder to create a proper magnetic coil, hence the name of the device.
 
-:::image
-![[Galvanometer_diagram.svg]]
+:::figure[Galvanometer_diagram.svg]
 A diagram of a moving coil ammeter. The red lines represent the coiled wire around the cylinder, whereas the green ones represent the restoring spiral spring.
 By TiCPU - Own work, CC BY-SA 4.0, from [Wikipedia](https://commons.wikimedia.org/w/index.php?curid=5297642).
 :::

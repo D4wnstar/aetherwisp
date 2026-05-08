@@ -155,8 +155,7 @@ $$E_{n}=- \frac{1}{2n^{2}}\left( \frac{Ze^{2}}{4\pi \varepsilon_{0}} \right)^{2}
 where we used the [[Bohr radius]] $a_{0}$ and modified Bohr radius $a_{\mu}=a_{0} (m/\mu)$. Thus, after all this derivation, we have the expression for the allowed energy levels of the hydrogen atom:
 $$\boxed{E_{n}=- \frac{e^{2}}{4\pi \varepsilon_{0}a_{\mu}} \frac{Z^{2}}{2n^{2}}}$$
 
-:::image
-![[Hydrogen atom energy levels.png]]
+:::figure[Hydrogen atom energy levels.png]
 A plot depicting the energy levels of the hydrogen atom for different $n$ and $l$. Notice how the variation of $l$ makes no difference due to degeneracy. From *Bransden & Joachain - Physics of atoms and molecules*.
 :::
 
@@ -224,15 +223,13 @@ As is, the orbitals have limited intepretability. But as with all quantum mechan
 $$\boxed{D_{nl}(r)=r^{2}\lvert R_{nl}(r) \rvert ^{2}}$$
 since $Y_{lm}(\theta,\phi)$ are normalized. The first few radial wavefunction and their corresponding densities look like this.
 
-:::image
-![[Hydrogen atom radial distribution.png]]
+:::figure[Hydrogen atom radial distribution.png]
 From *Bransden & Joachain - Physics of atoms and molecules*
 :::
 
 Other visualizations of the wavefunctions are the $xy$-plane section plot below, where you can see the black lines representing the nodes (i.e. the zeros) of the wavefunctions.
 
-:::image
-![[Hydrogen atom orbitals.png]]
+:::figure[Hydrogen atom orbitals.png]
 Unknown author - Originally uploaded by FlorianMarquardt, 14 Oct 2002., CC BY-SA 3.0, from [Wikipedia](https://commons.wikimedia.org/w/index.php?curid=75046)
 :::
 
@@ -367,8 +364,7 @@ and adding this to the energy eigenvalues themselves we get the fine structure e
 $$\boxed{E_{nj}=E_{n}\left[ 1+ \frac{(Z\alpha)^{2}}{n^{2}}\left( \frac{n}{j+ \frac{1}{2}}- \frac{3}{4} \right) \right]}$$
 As we can see, there is no direct dependence on the azimuthal angular momentum: the only thing that matters is the total angular momentum. As such, despite the fine structure leading to a great deal of splitting in the energy spectrum, it does not fully eliminate the degeneracy in $l$.
 
-:::image
-![[Hydrogen_fine_structure_energy_2.png]]
+:::figure[Hydrogen_fine_structure_energy_2.png]
 The last column to the right shows an additional effect, the [[Zeeman effect]], which is not covered here.
 
 By ReyHahn - Own work, CC BY-SA 4.0, from [Wikipedia](https://commons.wikimedia.org/w/index.php?curid=92060559). Altered to have a white background.

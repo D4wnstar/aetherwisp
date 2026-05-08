@@ -15,8 +15,7 @@ Since we know what the second spatial derivative is at every grid point we can p
 $$\dot{u}_{i}=\frac{u_{i+1}-2u_{i}+u_{i-1}}{\Delta x^{2}}$$
 using dot notation for the time derivative. Notice how, since there is no longer an $x$ dependency, this is now an *ordinary* differential equation in time, and that there is one of these for every single grid point, $\dot{u}_{1},\ldots,\dot{u}_{m}$. Thus, we took an individual PDE and turned it into $m$ ODEs that describe the same phenomenon, with some concessions due to the grid approximation. The critical part here is that because we can just turn a PDE into a system of ODEs, we can just solve the ODEs with any old ODE integration method, like the [[Runge-Kutta methods]] or anything else. In other words, the MOL consists of reducing a PDE into an equivalent system of ODEs and then evaluating those with existing methods. This is where the name comes from: each ODE will draw a trajectory (*line*) for each grid point over time and the surface of the PDE that we're looking for is the interpolation between all of these lines.
 
-:::image
-![[MOL Schrödinger.png]]
+:::figure[MOL Schrödinger.png]
 A simulation of the [[Schrödinger equation]] using the method of lines. The left plot shows the namesake lines drawn by the ODEs for each grid point. The right plot is the surface interpolated by those lines.
 :::
 

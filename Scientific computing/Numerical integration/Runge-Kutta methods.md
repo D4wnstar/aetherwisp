@@ -70,8 +70,7 @@ That said, with FSAL (see below) we can actually increase this to 7 evaluations 
 $$x_{n+1}=x_{n}+\sum_{i=1}^{7} b_{i}k_{i}+O(\Delta t^{6}),\quad x_{n+1}^{*}=x_{n}+\sum_{i=1}^{7} b_{i}^{*}k_{i}+O(\Delta t^{5})$$
 $$\Delta\equiv x_{n+1}-x_{n+1}^{*}=\sum_{i=1}^{7} (b_{i}-b_{i}^{*})k_{i}$$
 
-:::image
-![[Dormand-Prince 5 coefficients.png]]
+:::figure[Dormand-Prince 5 coefficients.png]
 The coefficients for the Dormand-Prince 5(4) method. From *Numerical Recipes § 17.2*.
 :::
 

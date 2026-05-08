@@ -20,8 +20,7 @@ $$H^{0}\psi^{0}=E^{0}\psi^{0}$$
 
 Tipicamente, la perturbazione $\hat{V}$ "rompe" la degenerazione, creando due stati diversi con autovalori di energia diversi. Man mano che $\lambda$ aumenta, l'autostato non perturbato $E^{0}$ si divide in due: uno ad energia più alta, uno ad energia più bassa. Al contrario, se rimuoviamo la perturbazione, lo stato più energetico ritorna ad essere una *specifica* combinazione lineare di due stati $\psi_{a}^{0}$ e $\psi_{b}^{0}$, mentre quello meno energetico diventa una combinazione lineare [[Orthogonality|ortogonale]]. Il problema sta nel fatto che, a priori, noi non sappiamo quali sono questi stati specifici.
 
-:::image
-![[Divisione autostati in perturbazione.png]]
+:::figure[Divisione autostati in perturbazione.png]
 Da *Introduction to Quantum Mechanics di Griffiths, p. 260*
 :::
 

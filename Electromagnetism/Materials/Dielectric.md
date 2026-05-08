@@ -158,8 +158,7 @@ and
 $$\alpha=2\kappa \simeq \frac{Nq^{2}\omega ^{2}}{m\varepsilon_{0}c}\sum_{j} \frac{f_{j}\gamma_{j}}{(\omega_{j}^{2}-\omega ^{2})^{2}+\gamma ^{2}_{j}\omega ^{2}}$$
 These quantities, $n$ and $\alpha$, generally behave pretty nicely, with $n$ increasing monotonically with frequency. However, as we've hinted at before, $\omega_{j}^{2}-\omega ^{2}$ cancels out when $\omega_{j}\simeq \omega$, leaving only the damping term. When oscillations frequencies of different sources match, we get a **[[resonance]]**, which in general causes some weird behavior to crop up. This is the case here also, as when these two frequencies match, the refractive index crashes down immediately to the point it goes below 1. Simultaneously, the absorption coefficients spikes up, as you can see in the figure.
 
-:::image
-![[AnomalousDispersion.png]]
+:::figure[AnomalousDispersion.png]
 Note that the plot shows $n-1$, not $n$. From *Introduction to Electrodynamics 4th ed., Griffiths*
 :::
 

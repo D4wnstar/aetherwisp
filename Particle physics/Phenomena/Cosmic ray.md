@@ -19,8 +19,7 @@ The muon came in both positively- and negatively-charged varieties, like the pio
 
 The experiment that signed the deal was the **Conversi-Pancini-Piccioni experiment**, conducted in Rome in 1945 by the namesake Italian physicists. Actually I lied: the experiment was conducted *twice*, specifically with marginally different equipment in order to rule out unexpected behavior. The apparatus went as follows.
 
-:::image
-![[ConversiPanciniPiccioniMuoniPioniMesoni.png]]
+:::figure[ConversiPanciniPiccioniMuoniPioniMesoni.png]
 Apparatus of the Conversi-Pancini-Piccioni experiment. Cosmic rays come from the top.
 :::
 

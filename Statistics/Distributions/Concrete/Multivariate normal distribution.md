@@ -39,8 +39,7 @@ The exponent $Q^{2}$ mentioned above is useful because its values trace [[hypers
 $$Q^{2}=\frac{(x_{1}-\mu_{1})^{2}}{\sigma_{1} ^{2}}+ \frac{(x_{2}-\mu_{2})^{2}}{\sigma_{2}^{2}}$$
 This is the equation of an ellipse with semiaxes $\sigma_{1}$ and $\sigma_{2}$, centered in $(\mu_{1},\mu_{2})$, scaled by a factor $Q$.[^1] For higher $N$, they are [[hyperellipsoid|hyperellipsoids]]. When they can be represented visually (mostly just $N=2$, possibly $N=3$), they serve as a useful way to visualize the dispersion of the multivariate normal. In fact, exactly because the [[standard deviation|standard deviations]] are the semiaxes, $Q^{2}$ is essentially the $N$-dimensional analog of the variance and $Q$ that of the standard deviation. Of course, the *real* variances are still $\sigma_{1}^{2},\ldots,\sigma_{N}^{2}$, but $Q^{2}$ is an efficient way to package all that information in a single variable. In the $N=2$ case, since the semiaxes are scaled by $Q$, setting $Q$ lets us draw the ellipse corresponding to whatever multiple of $\sigma$ we want. For $Q^{2}=1$, we get the ellipse with $(\sigma_{1},\sigma_{2})$, for $Q^{2}=4$, we get the ellipse with $(2\sigma_{1},2\sigma_{2})$, and so on.
 
-:::image
-![[multivariate_normal_independent.png]]
+:::figure[multivariate_normal_independent.png]
 1000 random samples from an $N=2$ multivariate normal (so-called *bivariate*). The means are both zero so that the distribution is centered in the origin. The standard deviations are $\sigma_{1}=2$ and $\sigma_{2}=1$. The colored ellipses show $Q^{2}=1$ and $Q^{2}=4$.
 :::
 
@@ -75,8 +74,7 @@ Q^{2}&=(\mathbf{x}-\boldsymbol{\mu})^{T}\Sigma^{-1}(\mathbf{x}-\boldsymbol{\mu})
 \end{align}$$
 If we find the draw the ellipses traced by this $Q^{2}$, we find that they are now angled. This angle is quite important, as it visually represents correlation between $x_{1}$ and $x_{2}$. Indeed, this angle is proportional to the correlation coefficient $\rho$ and is the major difference from the independent case above (where the ellipse was *axis-aligned*). When $\rho=0$, you get an axis-aligned ellipse.
 
-:::image
-![[Graph Multinormal equiprobability.svg|80%|center]]
+:::figure[Graph Multinormal equiprobability.svg|80%|center]
 A general bivariate ellipse showing important points and lines. The red diagonals (passing through segments $\overline{C C'}$ and $\overline{DD'}$) are known as the **regression lines** of the distribution.
 :::
 

@@ -77,8 +77,7 @@ con il suo autovalore associato $\alpha$. Questo stato è quello con la dinamica
 
 Si nota anche che per stati di energia sufficientemente alti ($n\gg1$), la probabilità di osservare la particella in una data posizione è approssimativamente uguale quella classica, se si prende la media.
 
-:::image
-![[Stati stazionari oscillatore armonico quantistico.png]]
+:::figure[Stati stazionari oscillatore armonico quantistico.png]
 *Fonte: Introduction to Quantum Mechanics di Griffiths*
 :::
 ### Soluzione alternativa

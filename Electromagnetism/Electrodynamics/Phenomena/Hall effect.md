@@ -23,8 +23,7 @@ $V_{H}$ can be measured experimentally, which means that we can reverse the form
 $$B_{z}=\frac{V_{H}\rho ac}{I_{y}},\qquad \rho=\frac{I_{y}B_{z}}{V_{H}ac}$$
 We can measure the Hall potential by connecting a [[voltmeter]] to the two ends of the sensor. While seemingly quite easy, this has considerable practical challenges due to the Hall sensor usually being tiny (because, remember, smaller sensors make bigger potentials). The measurement relies on getting the ends of the voltmeter *precisely* aligned on each  side.
 
-:::image
-![[Diagram Hall potential measurement.svg|center]]
+:::figure[Diagram Hall potential measurement.svg|center]
 Schematic representation of measuring a Hall sensor's potential. $\Delta y$ is the source of the error.
 :::
 

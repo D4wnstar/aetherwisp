@@ -3,8 +3,7 @@ hl-publish: true
 ---
 A **Wheatstone bridge** is a [[bridge circuit]] designed to measure [[Electrical resistance|electrical resistances]]. It is composed of two parallel branches each containing two resistors in series. The branches are connected by an [[ammeter]] or [[galvanometer]] at the midpoints between the resistors. A [[voltmeter]] may also be used instead. Three of the four resistors have known resistance, while the fourth is unknown and to be measured.
 
-:::image
-![[Wheatstonebridge.svg]]
+:::figure[Wheatstonebridge.svg]
 Circuit diagram of a Wheatstone bridge. $R_{1}$, $R_{2}$ and $R_{3}$ are known resistances, while $R_{X}$ is unknown. $V_{G}$ is a galvanometer.
 By Rhdv - Own work, CC BY-SA 3.0, from [Wikipedia](https://commons.wikimedia.org/w/index.php?curid=2888809)
 :::

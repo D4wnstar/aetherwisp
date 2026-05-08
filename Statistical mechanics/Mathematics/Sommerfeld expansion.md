@@ -12,8 +12,7 @@ If we take $z$ to be the [[fugacity]] $e^{\beta \mu}$, we can write $z^{-1}e^{x^
 $$\ldots=\frac{4}{\sqrt{ \pi }}\int_{0}^{\infty} \frac{x^{2}}{e^{x^{2}-\nu}+1}dx=\frac{4}{2\sqrt{ \pi }}\int_{0}^{\infty} \frac{\sqrt{ y }}{e^{y-\nu}+1}dy=\ldots$$
 At high $z$, therefore high $\nu$, the factor $\frac{1}{e^{y-\nu}+1}$ (the Fermi-Dirac distribution) is almost a [[theta di Heaviside|Heaviside step function]][^1], the derivative of which would be almost a [[Delta di Dirac|Dirac delta]]. We can see this graphically if we plot the distribution at zero and low temperatures:
 
-:::image
-![[Fermi-Dirac distribution at low temperatures.png]]
+:::figure[Fermi-Dirac distribution at low temperatures.png]
 $E_{F}$ is the [[Fermi energy]]. The dashed line is our approximation. From *David Tong's lecture notes on statistical physics.*
 :::
 

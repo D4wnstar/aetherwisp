@@ -13,7 +13,6 @@ These numbers are known as the Miller indices, and are conventionally denoted $(
 
 Using the same indices, we can define a [[Vector space|vector]] $h\mathbf{a}_{1}+k\mathbf{a}_{2}+l\mathbf{a}_{3}$. This is known as a **crystal direction** and is denoted as $[hkl]$. It is, in general, not the normal vector to the plane's [[Surface]] (the exception is for a cubic lattice).
 
-:::image
-![[Miller indices.svg]]
+:::figure[Miller indices.svg]
 A collection of planes defined by Miller indices on a cubic lattice cell. The vectors shown are on the direct lattice. By Felix Kling - Own work, CC BY 3.0, from [Wikipedia](https://commons.wikimedia.org/w/index.php?curid=12123337).
 :::

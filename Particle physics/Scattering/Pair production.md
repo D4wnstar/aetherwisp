@@ -12,8 +12,7 @@ $$E_{\gamma}\geq2m_{e}c^{2}$$
 Then, $2m_{e}c^{2}$ is the [[threshold energy]] of the process. If the mass of $\ce{X}$ can't be ignored (call it $M$), then the threshold is increased to
 $$E_\text{tr}=2m_{e}c^{2}\left( 1+ \frac{m}{M} \right)$$
 
-:::image
-![[Feynman diagram Pair production electron-positron.svg|80%|center]]
+:::figure[Feynman diagram Pair production electron-positron.svg|80%|center]
 [[Feynman diagram]] of the electron-positron pair production. Note the influence of the external atom/nucleus.
 :::
 

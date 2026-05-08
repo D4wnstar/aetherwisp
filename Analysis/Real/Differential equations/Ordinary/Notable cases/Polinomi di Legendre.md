@@ -28,8 +28,7 @@ P_{5}(x)&=\frac{1}{8}(63x^{5}-70x^{3}+15x) \\
 P_{6}(x)&=\frac{1}{16}(231x^{6}-315x^{4}+105x^{2}-5)
 \end{align}$$
 
-:::image
-![[Polinomi di Legendre.png]]
+:::figure[Polinomi di Legendre.png]
 Da *Introduction to Quantum Mechanics di Griffiths, p.139*
 :::
 ### Polinomi associati di Legendre
@@ -65,7 +64,6 @@ P_{3}^{2}(\cos\theta)&=15\cos\theta\sin^{2}\theta \\
 P_{3}^{3}(\cos\theta)&=15\sin^{3}\theta
 \end{align}$$
 
-:::image
-![[Polinomi di Legendre associati.png]]
+:::figure[Polinomi di Legendre associati.png]
 Da *Introduction to Quantum Mechanics di Griffiths, p. 140*
 :::

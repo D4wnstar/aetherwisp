@@ -115,8 +115,7 @@ For as much discussion as we've had surrounding $\mathbf{k}$, we haven't really 
 
 That said, $\hbar \mathbf{k}$ is still *some* momentum, it's just not the electron's specifically. We call it the **crystal momentum** of the electron and, while the name includes the term "momentum", it really isn't one in the traditional sense. It does, however, hold several similarities that can only be appreciated when dealing externally applied [[Electromagnetic radiation]]. Until then, $\mathbf{k}$ can be interpreted as a quantum number that representing translational [[symmetry]] of a periodic potential, much like how $\mathbf{p}$ is in a way a quantum number of the translational symmetry of free space.
 
-:::image
-![[Bloch wave.png]]
+:::figure[Bloch wave.png]
 An example of a periodic potential $V(\mathbf{r})$ and a Bloch wave $\psi(\mathbf{k},\mathbf{r})$ for some function $u(\mathbf{k},\mathbf{r})$.
 :::
 

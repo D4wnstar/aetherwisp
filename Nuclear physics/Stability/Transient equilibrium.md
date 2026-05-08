@@ -7,8 +7,7 @@ Transient equilibrium is generally reached after a transient period of non-equil
 
 An example is the decay of $\ce{^{234}U}(2.45\times10^{5}\text{ years})$ into $\ce{^{230}Th}(8.0\times10^{4}\text{ years})$, where the  ratio tends to 1.48. This means that $\ce{^{230}Th}$ eventually decays at precisely $1.48$ times the rate of $\ce{^{234}U}$.
 
-:::image
-![[Equilibrio transiente.png]]
+:::figure[Equilibrio transiente.png]
 A plot showing the decay activities of $\ce{^{234}U}$ and $\ce{^{230}Th}$ over time. Notice how the activities don't match, but their slope does: that means they are in transient equilibrium.
 :::
 

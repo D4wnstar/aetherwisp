@@ -213,8 +213,7 @@ In most materials, $\mu_{1}\simeq \mu_{2}$, so $\beta \simeq n_{2}/n_{1}$ and th
 $$\tan \theta_{B}\simeq \frac{n_{2}}{n_{1}}\quad\Rightarrow \quad \theta_{B}\simeq\arctan\left( \frac{n_{2}}{n_{1}} \right)$$
 This angle is known as **[[Brewster's angle]]** and it is special because here, the reflected wave is fully extinguished. This is the other half of the medal: at 90°, the transmitted wave vanishes, and at Brewster's angle, the reflected wave vanishes.
 
-:::image
-![[Plot Amplitudes in EM wave incidence.png|500]]
+:::figure[Plot Amplitudes in EM wave incidence.png|500]
 A plot of the real amplitudes ratios of incident, reflected an transmitted waves with respect to the incidence angle. Negative values imply an out-of-phase wave; the amplitude itself is the absolute value.
 From *Introduction to Electrodynamics 4th ed., Griffiths*.
 :::
@@ -227,8 +226,7 @@ This said, while the wave is fully reflected, the fields are actually *not* zero
 $$\sin \theta_{T}=\frac{n_{1}}{n_{2}}\sin \theta_{I}$$
 to report an *imaginary* transmission angle when $\theta_{I}>\theta_{C}$. Of course, it no longer makes sense as an angle (at least a real one).
 
-:::image
-![[DenseToThinEMWaveReflection.svg]]
+:::figure[DenseToThinEMWaveReflection.svg]
 By Josell7 - Own work, CC BY-SA 3.0, from [Wikipedia](https://commons.wikimedia.org/w/index.php?curid=21670922).
 :::
 

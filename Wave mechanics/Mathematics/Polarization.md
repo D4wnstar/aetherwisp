@@ -20,8 +20,7 @@ where $\theta$ is called the **polarization angle**.
 
 On the other hand, you can describe oscillations as something closer to rotations. If this seems weird, imagine the wave as a corkscrew moving forward with the pointy end aimed forward. Instead of going up or down, you follow the surface of the corkscrew, which makes you *rotate*. Alternatively, it's like walking up a spiral staircase. You are "propagating" upwards, but also rotating around the direction of propagation (the column at the center of the stairs). This is called **circular polarization**.
 
-:::image
-![[CircularPolarization.gif]]
+:::figure[CircularPolarization.gif]
 An example of a circularly polarized wave.
 By Dave3457 - Own work, Public Domain, from [Wikipedia](https://commons.wikimedia.org/w/index.php?curid=9862801).
 :::

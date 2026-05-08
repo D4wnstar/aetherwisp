@@ -43,8 +43,7 @@ Consider some wave. We'll use a [[Plane wave|sine wave]] in complex notation, si
 $$\psi_{I}(x,t)=\tilde{A}_{I}e^{i(k_{1}x-\omega t)}\quad\text{for }x<0$$
 where $\tilde{A}_{I}$ is a complex number. The [[Frequency|angular frequency]] $\omega$ is constant. You can imagine this as a rope being shaken up and down. For example let's say this rope is attached at one end to another rope, at $x=0$. Let's also say this second rope is denser (higher mass-per-unit-length) so that it is distinguishable from the first. On the left end, the wave starts at $x=-\infty$. This way, we get a wave coming from some place that travels until it collides with another object. We call this an **incident wave**. It is easiest to visualize as a **[[wave packet]]**, a short, localized, traveling impulse.
 
-:::image
-![[Wave_packet_propagation.gif|400]]
+:::figure[Wave_packet_propagation.gif|400]
 An example of wave packet. Don't worry too much about the packet also changing shape as it travels (but see [[Group velocity]] if you're curious about why).
 By Becarlson - Own work, CC BY-SA 4.0, from [Wikipedia](https://commons.wikimedia.org/w/index.php?curid=67433782).
 :::

@@ -18,8 +18,7 @@ We'll use a [[capacitor]] with surface charge densities $\pm \sigma_{0}$ as a te
 $$E_{y}=\frac{\sigma_{0}}{\varepsilon_{0}}$$
 The Lorentz transformation moves the capacitor to [[frame of reference]] $\mathcal{S}$ moving on the $x$ axis at a constant speed $v_{0}$ (relative to $\mathcal{S}_{0}$).
 
-:::image
-![[Diagram Moving capacitor relativity.svg|80%]]
+:::figure[Diagram Moving capacitor relativity.svg|80%]
 Note how the velocity $v_{0}$ moves the frame of reference to the *left*, which means that the capacitor effectively moves to the *right*.
 :::
 

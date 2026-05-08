@@ -37,8 +37,7 @@ which gives two high-energy photons. Where the [[electron]] gets shot to is the 
 
 The photons aren't strictly necessary, but measuring their distribution too helps to determine that cobalt is truly polarized (spatial distribution depends on the polarization) to rule out a cause for error. We know EM interaction conserves parity, so this is true regardless of the experiment's results.
 
-:::image
-![[Wu_Exp_Parity_transformation.png|500]]
+:::figure[Wu_Exp_Parity_transformation.png|500]
 $j$ is the polarization axis. This show emission of an electron, but principle is the same.
 *By nagualdesign - Own work, made using reference. CC0, from [Wikipedia](https://commons.wikimedia.org/w/index.php?curid=97671385).*
 :::
@@ -51,8 +50,7 @@ where $\mu$ is [[permeability]] and $k_{B}$ is the [[Boltzmann constant]].  Ther
 
 The solution to both of these is **[[adiabatic demagnetization]]**. The cobalt is covered in a thin layer of [[Paramagnet|paramagnetic]] salt. An initial magnetic field is applied and then waned. While it wanes, the cobalt transfers [[heat]] to the salt, which favors the polarization by reducing temperature even further. A second magnetic field is then applied to do the actual polarization. This measurement is conducted with the magnetic field alternating directions to check for emission both ways and see any (if any) differences.
 
-:::image
-![[Wu-Experiment_(English).png|500]]
+:::figure[Wu-Experiment_(English).png|500]
 Apparatus of the Wu experiment.
 *By Pen88, with English translation by Stigmatella aurantiaca - Derived from Wu-Experiment_wikipedia by Pen88 on the German Wikipedia, substituting the German legends with English legends., CC BY-SA 3.0, from English [Wikipedia](https://commons.wikimedia.org/w/index.php?curid=29895892).*
 :::

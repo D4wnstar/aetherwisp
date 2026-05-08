@@ -71,8 +71,7 @@ $$l=0,\;1/2,\;1,\;3/2,\;2,\ldots\quad; \quad m=-l,-l+1,\ldots,0,\ldots,l-1,l$$
 
 È possibile mostrare graficamente i valori accettabili momento angolare sull'asse $z$ in questo modo.
 
-:::image
-![[Stati di momento angolare.png]]
+:::figure[Stati di momento angolare.png]
 Da Introduction to Quantum Mechanics di Griffiths, p. 167
 :::
 

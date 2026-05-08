@@ -78,8 +78,7 @@ This is called the **Bethe-Bloch formula**. As you can see, it only differs from
 $$S_\text{MT}(K) = - \frac{dK}{dX} = 4\pi m_{e}c^{2}r^{2}_{e}N_{A} \frac{Z}{A} \frac{z^{2}}{\beta^{2}} \left[ \ln\left( \frac{\beta^{2} \gamma^{2} m_{e}c^{2}}{I} \right) - \beta^{2} - \frac{\delta(\gamma)}{2} \right]$$
 All considerations regarding the Bohr formula apply here too, with the difference that the additional terms suppress ultrarelativistic stopping power even more than it already was.
 
-:::image
-![[Plot Stopping power collisional.svg|80%|center]]
+:::figure[Plot Stopping power collisional.svg|80%|center]
 A plot of Bethe-Bloch stopping power with respect to projectile velocity (expressed as $\beta \gamma$). This profile is mostly universal across materials. The $x$-axis is in log10 scale.
 :::
 
@@ -87,8 +86,7 @@ From the figure we can see that stopping power decreases to a minimum and then r
 
 Something interesting (and very useful) appears when we look at stopping power in terms of momentum instead of speed. Actually, it occurs for any variable dependent on speed and mass (e.g. kinetic energy; momentum just happens to be the most used). Since $p=mv$ and $v$ determines the behavior by itself, there's a "push and pull effect" between projectile mass and momentum. What I'm trying to say is that, in a plot of $S(K)$ vs. $p$ (or $S(K)$ vs. $K$), the mass *does* play a role in the profile (it needs to in order to cancel out the mass in the other variable). That means we get distinctly different curves for different masses.
 
-:::image
-![[Plot Stopping power collisional for p.svg|80%]]
+:::figure[Plot Stopping power collisional for p.svg|80%]
 A stopping power plot in terms of kinetic energy for a charged [[kaon]] and a [[proton]].
 :::
 
@@ -96,8 +94,7 @@ This is extremely useful, because it provides us with a way to discriminate diff
 
 Note that for larger masses, the plot gets [[translation|shifted]] to the right, meaning it generally loses more energy as the minimum gets pushed further into relativistic territory. The difference is biggest in low-energy, nonrelativistic range. Unfortunately, many particle detections are well into the relativistic range, so the differences actually seen in practice can require a high level of precision to discern or be outright impossible to use for really high speeds. This is especially true since the energy loss given by the Bethe-Bloch formula is a mean: the real loss will be a distribution around it. As such, the actual measurements will not find *curves* but rather *bands* with a certain width around the curve. When two bands are close enough, they tend to overlap, making distinction hard.
 
-:::image
-![[BetheBlochExpBands.png]]
+:::figure[BetheBlochExpBands.png]
 Theoretical values of the Bethe-Bloch (left) and experimental bands (right).
 :::
 #### Energy straggling
@@ -126,8 +123,7 @@ The photons emitted can in theory carry any energy between 0 and $K_{0}$. Also, 
 The energy loss due to bremmstrahlung is exponential, and at high energies, it dominates over ionization. At low energies, ionization is more significant. The larger the mass of the particle, the higher the threshold is for radiation to start dominating. This threshold, where both processes contribute equally, is known as the **critical energy** $K_C$, which is known to be
 $$K_{C}\simeq \frac{600}{Z}\text{ MeV}$$
 
-:::image
-![[Plot Stopping power col vs rad.svg|80%|center]]  
+:::figure[Plot Stopping power col vs rad.svg|80%|center]  
 Comparison of radiative and collisional stopping power. The two cross at the critical energy, after which radiative loss dominates. The $\beta \gamma$ axis is logarithmic.
 :::
 

@@ -7,8 +7,7 @@ A **crystal** is a material that exhibits a periodic structure at a microscopic 
 
 Mathematically, a crystal can be described by giving its underlying [[Bravais lattice]] alongside a description of the arrangements of its [[atom|atoms]], [[Molecule|molecules]], [[ion|ions]], etc. within a particular primitive cell of the lattice. This arrangement is known as the **basis** of the lattice. The crystal structure then consists of copying each cell alongside its basis to fill space, using the lattice points as markers on where to place the cells[^1]. A model of great theoretical importance is the [[ideal crystal]].
 
-:::image
-![[Bravais lattice basis.png]]
+:::figure[Bravais lattice basis.png]
 A honeycomb crystal. The honeycomb pattern is *not* the Bravais lattice. The Bravais lattice is the points at the intersections between the [[parallelogram|parallelograms]]. Each parallelogram is a primitive cell. Each cell contains two atoms, bonded as per the thick solid line, which constitutes the basis. The parallelogram alongside the basis is the crystal structure. Copying the crystal structure near every lattice points yields the actual physical crystal.
 
 You can see how the honeycomb pattern is restored by the bonds (dotted lines) that spontaneously form by placing each piece of the crystal structure next to another. From *Ashcroft & Mermin, Chapter 4*.
@@ -46,15 +45,13 @@ Squaring both sides yields
 $$\mathbf{k}\cdot \hat{\mathbf{K}}=\frac{1}{2}K$$
 That is to say, the component of the incident wavevector along the reciprocal lattice vector must be half the length of $K$. This can be seen geometrically as follows: $\mathbf{k}$ satisfies the von Laue condition if and only if the tip of $\mathbf{k}$ lies in a plane that perpendicularly splits the space between the origin of the reciprocal lattice and a lattice point $\mathbf{K}$ in half. In other words, imagine the vector $\mathbf{K}$, then a plane normal to $\mathbf{K}$. Place the plane half-way through $\mathbf{K}$: that's the plane the wavevector's tip must lie in. These are called **Bragg planes**.
 
-:::image
-![[Bragg planes.png]]
+:::figure[Bragg planes.png]
 From *Ashcroft and Mermin, Chapter 6*.
 :::
 
 Another related visualization is the **Ewald sphere**. Consider a vector $\mathbf{k}$, then draw a sphere centered in $\mathbf{k}$ and with radius equal to $k$, so that it passes through the origin of the reciprocal lattice. The only wavevectors $\mathbf{k}'$ that can satisfy the von Laue conditions are those that start from a point on the sphere and also end in $\mathbf{k}$. Alternatively, the only vectors $\mathbf{K}$ that satisfy it are those that start from the origin and end on a point on the sphere. The radius of this sphere is representative of the energy of absorbed and emitted photons.
 
-:::image
-![[Ewald sphere.png]]
+:::figure[Ewald sphere.png]
 From *Ashcroft & Mermin, Chapter 6*.
 :::
 ### Diffraction from a basis

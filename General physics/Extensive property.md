@@ -15,8 +15,7 @@ These properties can be seen as being attached to a specific object, like a spec
 
 These do occur even in real systems. For instance, the volume of a star is not cleanly extensive because the [[Gravity|gravitational interaction]] between atoms tends to counteract the increase in size due to adding more atoms, which makes the volume function non-linear.
 
-:::image
-![[Extensive properties.png]]
+:::figure[Extensive properties.png]
 From *Introduction to Statistical Physics, 2nd Edition, Kerson Huang, Chapter 1*
 :::
 

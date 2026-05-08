@@ -39,8 +39,7 @@ $$\begin{aligned}
 \end{aligned}$$
 It should be noted that unlike with other terms, the $-3/4$ exponent of $A$ is purely empirical, obtained from a [[Parameter estimation|fit]]. In fact, there is debate regarding whether $-1/2$ is a more accurate exponent, as modern data seems to suggest so.
 
-:::image
-![[binding_vs_A.png]]
+:::figure[binding_vs_A.png]
 A plot of binding energy per nucleon. Each line adds one more term to the formula. Notice how most $B/A$ values are between $7.2$ and $8.8\text{ MeV}/c^{2}$.
 :::
 

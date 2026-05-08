@@ -28,8 +28,7 @@ $$S_{p}=B(\ce{_{Z}^{A}X_{N}})-B(\ce{_{Z-1}^{A-1}X_{N}})=[m(\ce{_{Z-1}^{A-1}X_{N}
 
 The binding energy of a nucleus depends on its atomic mass number $A$. One might expect the ratio of binding energy to the number of nucleons to be constant, but this is not the case.
 
-:::image
-![[Binding_energy_curve_common_isotopes.svg]]
+:::figure[Binding_energy_curve_common_isotopes.svg]
 By Fastfission - Own work. Archived from the original on 2006-03-09. Retrieved on 2025-07-22., Public Domain, from [Wikipedia](https://commons.wikimedia.org/w/index.php?curid=1540082). Data from [here](https://web.archive.org/web/20060309210852/http://www.einstein-online.info/en/spotlights/binding_energy/binding_energy/index.txt).
 :::
 
