@@ -7,7 +7,7 @@ where the sum over $i>j$ is indexed that way to avoid double-counting [[Electrom
 ## Central field approximation
 With two electrons, the perturbative approximation was rather poor and required a more accurate treatment (namely, the [[variational method]]). As you add more electrons, it becomes even worse. Our approach is to try and enforce a central symmetry and split that Hamiltonian into a central term $H_{C}$ and an "everything else" term $H_{1}$, the latter of which is ideally much smaller and can be ignored:
 $$H=H_{C}+H_{1}$$
-The logical backing to this proposal is that, despite the additional electrons, the nucleus still acts as the central attractor of the system and that the electron-electron repulsive interactions have a central component. This model is called the **central field approximation** and was proposed by Hartree and Slater. It is an independent particle model where each electron moves in an *effective*, spherically-symmetrical [[potential]], representing both the central nuclear attraction and the *average* of the electron-electron repulsive interactions.
+The logical backing to this proposal is that, despite the additional electrons, the nucleus still acts as the central attractor of the system and that the electron-electron repulsive interactions have a central component. This model is called the **central field approximation** and was proposed by Hartree and Slater. It is an independent particle model where each electron moves in an *effective*, spherically-symmetrical [[Potential]], representing both the central nuclear attraction and the *average* of the electron-electron repulsive interactions.
 
 The effect of the repulsion is to *screen* (i.e. reduce) the central attraction to the nucleus and because of this, the electron-electron interaction term must have a strong central component to it. We can write this term as $\sum_{i}S(r_{i})$, where $S(r_{i})$ is called the **screening**. As such, if we *only* consider this central component (and use [[atomic units]]), we can broadly approximate the system's effective potential as
 $$V(r)=- \frac{Z}{r}+S(r)$$
@@ -43,7 +43,7 @@ $$\left[ - \frac{\hbar^{2}}{2m}\left( \frac{1}{r^{2}} \frac{d}{dr}\left( r^{2} \
 Note how the energy eigenvalues now depend on $l$ too, not just $n$. To get the total energy of all electrons, just sum the individual ones:
 $$E_{C}=\sum_{i=1}^{N} E_{n_{i}l_{i}}$$
 ### Adding spin
-We can reintroduce spin by multiplying the orbital [[funzione d'onda|wavefunction]] by the spin component of the wavefunction
+We can reintroduce spin by multiplying the orbital [[Funzione d'onda|wavefunction]] by the spin component of the wavefunction
 $$u_{nlmm_{s}}(q)=u_{nlm}(\mathbf{r})\chi_{1/2,m_{S}}$$
 with the fourth quantum number $m_{S}$.
 

@@ -18,7 +18,7 @@ $$\oint \frac{dQ}{T}\leq 0$$
 Clausius' theorem implicitly states the following corollary:
 
 > [!info] Corollary
-> The integral $\int \frac{dQ}{T}$ is independent of path. It is uniquely determined by the start and end [[stato|states]].
+> The integral $\int \frac{dQ}{T}$ is independent of path. It is uniquely determined by the start and end [[Stato|states]].
 
 #### Proof
 Consider a generic integration loop between points $A$ and $B$, divided in two paths $I$ and $II$, each representing a reversible transformation. Let's call $-II$ the reverse path of $II$. The joint path $I\to -II$ forms a reversible cycle. But from Clausius' theorem we know that

@@ -4,7 +4,7 @@ aliases:
   - conjugate Hamiltonian
   - univalent canonical transformation
 ---
-A **canonical transformation** is a [[coordinate transformation]] that transforms a set of [[canonical coordinates]] that satisfy the [[Hamilton equations|Hamilton equations]] into another set that also satisfies them. It is said that canonical transformations **preserve the form** of the Hamilton equations.
+A **canonical transformation** is a [[Coordinate transformation]] that transforms a set of [[canonical coordinates]] that satisfy the [[Hamilton equations|Hamilton equations]] into another set that also satisfies them. It is said that canonical transformations **preserve the form** of the Hamilton equations.
 
 Mathematically, the transformation $q_{i}=u_{i}(\tilde{q},\tilde{p},t)$, $p_{i}=v_{i}(\tilde{q},\tilde{p},t)$ is canonical if for all [[Hamiltonian|Hamiltonians]] $H(q,p,t)$, there exists a function $K(\tilde{q},\tilde{p},t)$ called the **conjugate Hamiltonian** such that, if the equations of motion in coordinates $(q,p)$ obey the Hamilton equations
 $$\dot{p}_{i}=-\frac{ \partial H }{ \partial q_{i} },\quad  \dot{q}_{i}=\frac{ \partial H }{ \partial p_{i} }$$
@@ -62,16 +62,16 @@ If the transformation is canonical, then this must also be equal to $\dot{\tilde
 
 The issue now is that we don't really know what $K$ *is*. We'll start from $\mathrm{E}\nabla_{\mathbf{x}}K$ and see what we can do.
 $$\mathrm{E}\nabla_{\tilde{\mathbf{x}}}K=\tilde{J}\mathrm{E}\nabla_{\mathbf{x}}H+\frac{ \partial \tilde{\mathbf{w}} }{ \partial t } =\tilde{J}\mathrm{E}\tilde{J}^{T}(\tilde{J}^{T})^{-1}\nabla_{\mathbf{x}}H+\mathrm{E}\nabla_{\tilde{\mathbf{x}}}K_{0}=\ldots$$
-In the first step, we used the first part of the canonicity lemma. In the second, we used the second part of the lemma and we arbitrarily added $\tilde{J}^{T}(\tilde{J}^{T})^{-1}$ since a [[matrix]] multiplied by its [[Invertible matrix|inverse]] is the [[identity matrix]] and doesn't change anything. It's a weird step, but it allows us to use the following equality. First, notice that, since $\tilde{J}^{-1}=J$, $(\tilde{J}^{T})^{-1}=(\tilde{J}^{-1})^{T}=J^{T}$. Then
+In the first step, we used the first part of the canonicity lemma. In the second, we used the second part of the lemma and we arbitrarily added $\tilde{J}^{T}(\tilde{J}^{T})^{-1}$ since a [[matrix]] multiplied by its [[Invertible matrix|inverse]] is the [[Identity matrix]] and doesn't change anything. It's a weird step, but it allows us to use the following equality. First, notice that, since $\tilde{J}^{-1}=J$, $(\tilde{J}^{T})^{-1}=(\tilde{J}^{-1})^{T}=J^{T}$. Then
 $$\begin{align}
 ((\tilde{J}^{T})^{-1} \nabla_{\mathbf{x}}H)_{i}&=\sum_{j}J_{ij}^{T}\frac{ \partial H }{ \partial x_{j} } \\
 (\text{symmetric: }J^{T}_{ij}=J_{ji})&=\sum_{j}J_{ji}\frac{ \partial H }{ \partial x_{j} } \\
 \left( \text{def: }J_{ji}=\frac{ \partial w_{j} }{ \partial \tilde{x}_{i} }  \right)&=\sum_{j}\frac{ \partial w_{j} }{ \partial \tilde{x}_{i} } \frac{ \partial H }{ \partial x_{j} } \\
 (\text{def: }H(w(\tilde{x},t),t)\equiv\tilde{H}(\tilde{x},t))&=\frac{ \partial \tilde{H} }{ \partial \tilde{x}_{i} } 
 \end{align}$$
-The last step uses the [[chain rule]]. In vector form:
+The last step uses the [[Chain rule]]. In vector form:
 $$(\tilde{J}^{T})^{-1}\nabla_{\mathbf{x}}H=\nabla_{\tilde{\mathbf{x}}}\tilde{H}$$
-The meaning of this is that we can use the Jacobian of the transformation to transform from the [[gradient]] in $\mathbf{x}$ of $H$ to the one in $\tilde{\mathbf{x}}$ of $\tilde{H}$ (basically, we use the derivatives of the transformation to transform the *gradient's* coordinates). Plugging this into our previous equation yields
+The meaning of this is that we can use the Jacobian of the transformation to transform from the [[Gradient]] in $\mathbf{x}$ of $H$ to the one in $\tilde{\mathbf{x}}$ of $\tilde{H}$ (basically, we use the derivatives of the transformation to transform the *gradient's* coordinates). Plugging this into our previous equation yields
 $$\begin{align}
 \ldots&=\tilde{J}\mathrm{E}\tilde{J}^{T}\nabla_{\tilde{\mathbf{x}}}\tilde{H}+\mathrm{E}\nabla_{\tilde{\mathbf{x}}}K_{0} \\
 \end{align}$$
@@ -79,9 +79,9 @@ We can see that we have a gradient of $K$ and one of $K_{0}$. We can move the on
 $$\tilde{J}\mathrm{E}\tilde{J}^{T}\nabla_{\tilde{\mathbf{x}}}\tilde{H}=\mathrm{E}\nabla_{\tilde{\mathbf{x}}}(K-K_{0})$$
 By applying $\mathrm{E}^{-1}=-\mathrm{E}$ on the left on both sides of the equation we get
 $$-\mathrm{E}\tilde{J}\mathrm{E}\tilde{J}^{T}\nabla_{\tilde{\mathbf{x}}}\tilde{H}=\nabla_{\tilde{\mathbf{x}}}(K-K_{0})$$
-The [[vector field]] $-\mathrm{E}\tilde{J}\mathrm{E}\tilde{J}^{T}\nabla_{\tilde{\mathbf{x}}}\tilde{H}$ is [[Vector field|irrotational]] for all $\tilde{H}$. This is because it is equal to a gradient, and the [[curl]] of a gradient is always zero. This means that there exists some [[potential]] whose gradient is the field itself. This won't be proven here, but knowing this, we can write
+The [[Vector field]] $-\mathrm{E}\tilde{J}\mathrm{E}\tilde{J}^{T}\nabla_{\tilde{\mathbf{x}}}\tilde{H}$ is [[Vector field|irrotational]] for all $\tilde{H}$. This is because it is equal to a gradient, and the [[Curl]] of a gradient is always zero. This means that there exists some [[Potential]] whose gradient is the field itself. This won't be proven here, but knowing this, we can write
 $$-\mathrm{E}\tilde{J}\mathrm{E}\tilde{J}^{T}=c\mathrm{I}_{2n}\tag{1}$$
-where $\mathrm{I}_{2n}$ is the $2n$-dimensional [[identity matrix]] and $c$ is some real constant. With one last substitution we see
+where $\mathrm{I}_{2n}$ is the $2n$-dimensional [[Identity matrix]] and $c$ is some real constant. With one last substitution we see
 $$c\nabla_{\tilde{\mathbf{x}}}\tilde{H}=\nabla_{\tilde{\mathbf{x}}}(K-K_{0})$$
 and so, matching the gradient arguments and rearranging:
 $$\boxed{K=c \tilde{H}+K_{0}}\tag{2}$$
@@ -101,7 +101,7 @@ This is the *general* shape of the conjugate Hamiltonian. In the special case wh
 > $$\tilde{J}\mathrm{E}\nabla_{\mathbf{x}}H=\tilde{J}\mathrm{E}\tilde{J}^{T}\nabla_{\tilde{\mathbf{x}}}\tilde{H}=c\mathrm{E}\nabla_{\tilde{\mathbf{x}}}\tilde{H}$$
 > With two more lemmas that won't be covered here, one can prove that if $K_{0}$ exists such that $\mathrm{E}\nabla_{\tilde{\mathbf{x}}}K_{0}=\frac{ \partial \tilde{\mathbf{w}} }{ \partial t }$ (part 2 of canonicity lemma), then there exists a $K$ such that the canonicity lemma is valid and thus the transformation is canonical.
 
-We should stop for a moment to think about this result. What does $cJ\mathrm{E}J^{T}=\mathrm{E}$ *mean*? Well, if you set $c=1$, you get $J\mathrm{E}J^{T}=\mathrm{E}$. This is the definition of a [[symplectic matrix]], a set of [[matrix|matrices]] which form a [[group]] with useful properties that is *very* important in Hamiltonian mechanics[^2]. Unfortunately, the $c$ makes things harder. In general, we need to analyze things further. Spoilers: while $J$ may not be symplectic when $c\neq 1$, everything else regarding Hamilton's equations stays the same (up to some scaling).
+We should stop for a moment to think about this result. What does $cJ\mathrm{E}J^{T}=\mathrm{E}$ *mean*? Well, if you set $c=1$, you get $J\mathrm{E}J^{T}=\mathrm{E}$. This is the definition of a [[Symplectic matrix]], a set of [[matrix|matrices]] which form a [[group]] with useful properties that is *very* important in Hamiltonian mechanics[^2]. Unfortunately, the $c$ makes things harder. In general, we need to analyze things further. Spoilers: while $J$ may not be symplectic when $c\neq 1$, everything else regarding Hamilton's equations stays the same (up to some scaling).
 
 If we take the [[determinant]] of $cJ\mathrm{E}J^{T}=\mathrm{E}$, remember that $\det(\mathrm{A}\mathrm{B})=\det \mathrm{A}\det \mathrm{B}$ and that $\det \mathrm{E}=1$, we get $c^{2n}(\det J)^{2}=1$ and so
 $$\boxed{c^{n}=\frac{1}{\lvert \det J \rvert }}\tag{3}$$
@@ -189,7 +189,7 @@ This can use the following lemma:
 > $$\frac{ \partial u }{ \partial x } =\mathrm{E}\Omega$$
 > means that $\mathrm{E}\Omega$ is symmetrical. Then
 > $$\frac{ \partial u_{i} }{ \partial x_{j} } -\frac{ \partial u_{j} }{ \partial x_{i} } =0$$
-> This is the same as asking that the [[curl]] of $\mathbf{u}$ be zero. But if $\mathbf{u}$ is [[Vector field|irrotational]], there exists an $F$ such that $\mathbf{u}=-\nabla_{\mathbf{x}}F$ and so $\mathbf{f}=\mathrm{E}\nabla_{\mathbf{x}}F$.
+> This is the same as asking that the [[Curl]] of $\mathbf{u}$ be zero. But if $\mathbf{u}$ is [[Vector field|irrotational]], there exists an $F$ such that $\mathbf{u}=-\nabla_{\mathbf{x}}F$ and so $\mathbf{f}=\mathrm{E}\nabla_{\mathbf{x}}F$.
 
 Our vector field here is $\delta \mathbf{x}$, and since the latter part of the lemma is true, then there exists some function $G(\mathbf{x},t)$ that allows us to write
 $$\boxed{\delta \mathbf{x}=\mathrm{E}\nabla_{\mathbf{x}}(\varepsilon G)=\varepsilon \{ \mathbf{x},G \}}\tag{4}$$
@@ -199,7 +199,7 @@ The function $G(x,t)$ is known as the **generator** of the infinitesimal canonic
 
 $(4)$ allows us to calculate the infinitesimal variation of any [[dynamical variable]] $f(\mathbf{x},t)$:
 $$\delta f(\mathbf{x},t)=f(\mathbf{x}+\delta \mathbf{x},t)-f(\mathbf{x},t)=df(\mathbf{x},t)[\delta \mathbf{x}]=\ldots$$
-This is the [[differential]] of $f(\mathbf{x},t)$. Applying the definition
+This is the [[Differential]] of $f(\mathbf{x},t)$. Applying the definition
 $$\ldots=\sum_{i=1}^{2n} \frac{ \partial f }{ \partial x_{i} }(\mathbf{x},t)\delta x_{i}=\ldots $$
 and applying $(4)$
 $$\ldots=\sum_{i=1}^{2n} \frac{ \partial f }{ \partial x_{i} } \varepsilon \sum_{j=1}^{2n} E_{ij}\frac{ \partial G }{ \partial x_{j} } =\varepsilon \sum_{i,j=1}^{2n} \frac{ \partial f }{ \partial x_{i} } E_{ij}\frac{ \partial G }{ \partial x_{j} } =\varepsilon \{ f,G \}$$
@@ -217,7 +217,7 @@ Recalling that
 $$\mathrm{E}\nabla_{\tilde{\mathbf{x}}}K_{0}=\frac{ \partial \tilde{ w} }{ \partial t }(w(\tilde{\mathbf{x}},t),t)=\frac{ \partial  }{ \partial t } (\mathbf{x}+\delta \mathbf{x}(\mathbf{x},t))=\frac{ \partial \delta \mathbf{x} }{ \partial t } =\frac{ \partial  }{ \partial t } \varepsilon \mathrm{E}\nabla_{\mathbf{x}}G(\mathbf{x},t)=\mathrm{E}\nabla_{\mathbf{x}}\left( \varepsilon \frac{ \partial G }{ \partial t }  \right)$$
 The last term in the brackets is a function of $(\mathbf{x},t)$. Define
 $$\Lambda(\tilde{\mathbf{x}},t)\equiv \varepsilon \frac{ \partial G }{ \partial t } (\tilde{\mathbf{x}}-\delta \mathbf{x},t)$$
-The (components of the) [[gradient]] of this function are
+The (components of the) [[Gradient]] of this function are
 $$\frac{ \partial \Lambda }{ \partial \tilde{x}_{j} }=\sum_{i}\varepsilon \frac{ \partial ^{2}G }{ \partial x_{i}\partial t }(\tilde{\mathbf{x}}-\delta \mathbf{x},t) \frac{ \partial \tilde{\mathbf{x}}_{i}+\delta x_{i} }{ \partial \tilde{x}_{j} } =\frac{ \partial  }{ \partial x_{j} } \left( \varepsilon \frac{ \partial G }{ \partial t }  \right)(\tilde{\mathbf{x}}-\delta \mathbf{x},t)$$
 But this is just the last term of the previous equation:
 $$\nabla_{\mathbf{x}}\left( \varepsilon \frac{ \partial G }{ \partial t } \right)=\nabla_{\tilde{\mathbf{x}}}\Lambda$$
@@ -232,7 +232,7 @@ We now ask the question: since we have a theory on infinitesimal transformations
 
 The idea here is to interpret infinitesimal transformations as an *approximation* of finite, continuous one-parameter transformations. The approximation is best when the parameter is small and the two are exactly equal when the parameter is zero. For a practical example, rotations are one-parameter transformations, where the parameter is the angle of rotation. A small angle leads to an infinitesimal rotation, which is (in theory) an infinitesimal transformation.
 
-We'll use the active interpretation here, so we think of the transformation as moving the actual point in phase space. We'll call the parameter $\varepsilon$. As $\varepsilon$ varies, the transformation moves the point, tracing a [[curve]] in phase space given by
+We'll use the active interpretation here, so we think of the transformation as moving the actual point in phase space. We'll call the parameter $\varepsilon$. As $\varepsilon$ varies, the transformation moves the point, tracing a [[Curve]] in phase space given by
 $$\tilde{\mathbf{x}}(\varepsilon)=\tilde{\mathbf{w}}(x;\varepsilon)\equiv \Phi^{\varepsilon}(\mathbf{x})$$
 (The similar choice of notation to the [[Hamiltonian flow]] is no coincidence: the flow is also a one-parameter transformation, with the parameter being time). For simplicity, we ignore time dependence in the transformation ($\mathbf{w}(\mathbf{x},t)\equiv \mathbf{w}(\mathbf{x})$). If $\varepsilon\ll1$, the transformation becomes infinitesimal and there exists some generator $G$ such that
 $$\delta \mathbf{x}=\varepsilon \{ \mathbf{x},G \}=\varepsilon \mathrm{E}\nabla_{\mathbf{x}}G(\mathbf{x},t)$$
@@ -254,7 +254,7 @@ Knowing this, we can look at it in reverse. We now that the usual Hamiltonian ha
 
 Let's define some rotation
 $$R(\alpha)=\mathrm{I}+\Omega(\alpha)$$
-where $R(\alpha)\in SO(3)$ is a rotation on the $\hat{\omega}$ axis of angle $\alpha$ (which must be infinitesimal for this approximation to hold), $\mathrm{I}$ is the [[identity matrix]] and $\Omega(\alpha)$ is the infinitesimal rotation defined by its components as
+where $R(\alpha)\in SO(3)$ is a rotation on the $\hat{\omega}$ axis of angle $\alpha$ (which must be infinitesimal for this approximation to hold), $\mathrm{I}$ is the [[Identity matrix]] and $\Omega(\alpha)$ is the infinitesimal rotation defined by its components as
 $$\Omega(\alpha)_{ij}=-\alpha \sum_{k}\epsilon_{ijk}\hat{\omega}_{k}$$
 where $\epsilon_{ijk}$ is the [[Tensore di Levi-Civita|Levi-Civita tensor]] and $\boldsymbol{\omega}=\alpha\hat{\omega}$ is the angular speed.
 
@@ -278,7 +278,7 @@ $$\begin{align}
 \delta p_{i}=\alpha\{ p_{i},\hat{\omega}\cdot \mathbf{L} \}&=\alpha\left\{  p_{i},\sum_{j}\hat{\omega}_{j}L_{j}  \right\}=\alpha \sum_{j}\hat{\omega}_{j}\{ p_{i},L_{j} \}=\alpha \sum_{j}\hat{\omega}_{j}\sum_{k}\epsilon_{ijk}p_{k} \\
 &=\sum_{k}\left( -\alpha \sum_{j}\epsilon_{ikj}\hat{\omega}_{j} \right)p_{j}=\sum_{k}\Omega_{ij}p_{k}
 \end{align}$$
-where we used that $L_{j}=(\mathbf{q}\times \mathbf{p})_{j}$ which can be expressed with the Levi-Civita definition of the [[vector product]] $L_{j}=\sum_{jkm}\epsilon_{jkm}q_{k}p_{m}$ and then explicitly calculated the brackets. This matches our previous variation, so it confirms our suspicion: *the projection of the angular momentum over the rotation axis generates the rotation*. The same can be proven for $\delta q_{i}$ to complete the proof.
+where we used that $L_{j}=(\mathbf{q}\times \mathbf{p})_{j}$ which can be expressed with the Levi-Civita definition of the [[Vector product]] $L_{j}=\sum_{jkm}\epsilon_{jkm}q_{k}p_{m}$ and then explicitly calculated the brackets. This matches our previous variation, so it confirms our suspicion: *the projection of the angular momentum over the rotation axis generates the rotation*. The same can be proven for $\delta q_{i}$ to complete the proof.
 
 > [!success] Rotations
 > 1. Infinitesimal rotations are canonical transformations.

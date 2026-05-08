@@ -7,7 +7,7 @@ The **Lagrange equation** is a second order[^1] [[differential equation]] that f
 $$\frac{d}{dt} \frac{ \partial T }{ \partial \dot{q}_{j} }(q(t),\dot{q}(t),t)- \frac{ \partial T }{ \partial q_{j} } (q(t),\dot{q}(t),t)=Q_{j} $$
 Here $T$ is the [[kinetic energy]], $q(t)$ is the motion in [[generalized coordinates]] $q_{j}$ and $Q_{j}$ are the [[generalized force|generalized forces]]. The value $j=1,\ldots,n$ depends on the [[degrees of freedom]] $n$ of the system.
 
-If the system is subject to [[Vector field|conservative forces]] and can be written in terms of a [[potential]] $V$, we can further define the **[[Lagrangian]]** $L=T-V$ to rewrite the equation as
+If the system is subject to [[Vector field|conservative forces]] and can be written in terms of a [[Potential]] $V$, we can further define the **[[Lagrangian]]** $L=T-V$ to rewrite the equation as
 $$\frac{d}{dt} \frac{ \partial L }{ \partial \dot{q}_{i} }(q(t),\dot{q}(t),t)-\frac{ \partial L }{ \partial q_{i} } (q(t),\dot{q}(t),t)=0 $$
 A [[dynamical system]] whose equations of motion can be written in this form is said to be a **Lagrangian system**.
 
@@ -45,7 +45,7 @@ Like other differential equations, we can linearize the Lagrange equation near a
 
 We assume that the motion $q(t)$ is always near our equilibrium point $\mathbf{q}^{*}$ for all time, so that $\lvert \mathbf{q}(t)-\mathbf{q}^{*} \rvert\ll 1$ for all $t$. This also implies that the velocity must be small: $\lvert \dot{\mathbf{q}}(t) \rvert\ll 1$ (otherwise the moving object could not possibly remain near the equilibrium point). Also, this of course requires $\mathbf{q}^{*}$ to be stable, otherwise the object would diverge from it as soon as it starts moving, making it impossible for motion to be small.
 
-We'll use a [[coordinate transformation]] to set the equilibrium point in $(0,0)$; this just makes the treatment easier and no less general, as motion cannot possibly depend on the choice of coordinates. In these coordinates, $\lvert \mathbf{q}(t) \rvert\ll 1$ and $\lvert \dot{\mathbf{q}}(t) \rvert\ll 1$. We are now going to expand the Lagrangian in a [[Taylor series]] about $(0,0)$:
+We'll use a [[Coordinate transformation]] to set the equilibrium point in $(0,0)$; this just makes the treatment easier and no less general, as motion cannot possibly depend on the choice of coordinates. In these coordinates, $\lvert \mathbf{q}(t) \rvert\ll 1$ and $\lvert \dot{\mathbf{q}}(t) \rvert\ll 1$. We are now going to expand the Lagrangian in a [[Taylor series]] about $(0,0)$:
 $$\begin{align}
 L(\mathbf{q},\dot{\mathbf{q}})&=L(0,0) \\
 &+\sum_{i=1}^{n} \frac{ \partial L }{ \partial q_{i} } (0,0)q_{i}+\sum_{i=1}^{n} \frac{ \partial L }{ \partial \dot{q}_{i}}(0,0)\dot{q}_{i} \\
@@ -64,7 +64,7 @@ Plugging this into the Lagrange equation yields
 $$\boxed{\mathrm{A} \ddot{\mathbf{q}}+\mathrm{B}\mathbf{q}=0}$$
 which is a fully general, *linearized* form of the equation of motion for the approximate Lagrangian above[^2].
 
-This is a homogeneous, linear, second-order ODE, so the solution isn't too difficult. There are $2n$ independent solutions and the general solution is the [[linear combination]] of all of them. Following the guidance of the general theory (see [[Equilibrium point#Linearization near equilibrium points]]), we ansatz
+This is a homogeneous, linear, second-order ODE, so the solution isn't too difficult. There are $2n$ independent solutions and the general solution is the [[Linear combination]] of all of them. Following the guidance of the general theory (see [[Equilibrium point#Linearization near equilibrium points]]), we ansatz
 $$\mathbf{q}(t)=\rho(t)\mathbf{u}$$
 so
 $$\ddot{\rho}(t)\mathrm{A}\mathbf{u}+\rho(t)\mathrm{B}\mathbf{u}=0$$
@@ -89,7 +89,7 @@ This has two independent solutions.
 > [!example]- Coriolis force
 > The Coriolis force is defined as $\mathbf{F}=2m \dot{\mathbf{q}}\times \boldsymbol{\omega}$. $\boldsymbol{\omega}$ is assumed to be constant. The $j$-th component is determined by the potential by
 > $$F_{j}=\frac{d}{dt} \frac{ \partial V }{ \partial \dot{q}_{j} } -\frac{ \partial V }{ \partial q_{j} } $$
-> The potential is $V(q,\dot{q})=-m(\dot{\mathbf{q}}\times \boldsymbol{\omega})\cdot \mathbf{q}$[^3]. Before we take the derivatives, we should expand the mixed product. The [[scalar product]] of a [[cross product]] in general is
+> The potential is $V(q,\dot{q})=-m(\dot{\mathbf{q}}\times \boldsymbol{\omega})\cdot \mathbf{q}$[^3]. Before we take the derivatives, we should expand the mixed product. The [[Scalar product]] of a [[cross product]] in general is
 > $$\begin{align}
 > (\mathbf{a}\times \mathbf{b})\cdot \mathbf{c}&=\left( \sum_{i,j,k=1}^{3} \epsilon_{ijk}a_{i}b_{j}\mathbf{e}_{k} \right)\cdot\left( \sum_{l}c_{l}\mathbf{e}_{l}  \right) \\
 > &=\sum_{i,j,k=1}^{3} \epsilon_{ijk}a_{i}b_{j}c_{l}\underbrace{ \mathbf{e}_{k}\cdot \mathbf{e}_{j} }_{ \delta_{kj} } \\
@@ -112,7 +112,7 @@ This has two independent solutions.
 > $$L(x,y,z,\dot{x},\dot{y},\dot{z})=\frac{m}{2}(\dot{x}^{2}+\dot{y}^{2}+\dot{z}^{2})$$
 > The issue here figuring out the motion relative to the moving frame. Normally, this would require a lot of imagination and lengthy mathematics to try to understand the relative motion. The benefit of Lagrangian mechanics is that no such thing is needed: since frame changes lead to apparent forces, the process of figuring this out is identical to any other force and is just a matter of applying the usual mathematical algorithm; no fancy methods required.
 >
-> Since it's inertial, the frame must move at a constant velocity. In our case, we set it to uniform circular motion of [[Frequency|angular frequency]] $\omega$ on the $xy$ plane, such that the [[coordinate transformation]] is
+> Since it's inertial, the frame must move at a constant velocity. In our case, we set it to uniform circular motion of [[Frequency|angular frequency]] $\omega$ on the $xy$ plane, such that the [[Coordinate transformation]] is
 > $$x=q_{1}\cos \omega t-q_{2}\sin \omega t,\quad y=q_{1}\sin \omega t-\cos \omega t,\quad z=q_{3}$$
 > The Lagrangian is dependent only on the derivatives, so we find those
 > $$\begin{align}
@@ -187,10 +187,10 @@ $$V(q,\dot{q})=e\phi-e \dot{\mathbf{q}}\cdot \mathbf{A}$$
 > where we also switched to [[cylindrical coordinates]].
 
 > [!example]- Spherical pendulum
-> We'll now use another oscillating system: a spherical pendulum, which is a [[simple pendulum]] that's constrained to remain on a [[sphere]], instead of a [[circle]]. In plain English, it's a pendulum that swings in 3D. The position vector $\mathbf{r}(q)$ only needs two free coordinates, as that's the minimum to identify a point on a [[surface]] (which a sphere is). We'll use the angles $\theta$ and $\phi$ on a sphere of radius $R$.
+> We'll now use another oscillating system: a spherical pendulum, which is a [[simple pendulum]] that's constrained to remain on a [[sphere]], instead of a [[circle]]. In plain English, it's a pendulum that swings in 3D. The position vector $\mathbf{r}(q)$ only needs two free coordinates, as that's the minimum to identify a point on a [[Surface]] (which a sphere is). We'll use the angles $\theta$ and $\phi$ on a sphere of radius $R$.
 > ![[Diagram Spherical pendulum.svg]]
 > 
-> We want to express $x,y,z$ in terms of $\theta,\phi$. This is just the usual [[coordinate transformation]] from [[spherical coordinates]]:
+> We want to express $x,y,z$ in terms of $\theta,\phi$. This is just the usual [[Coordinate transformation]] from [[spherical coordinates]]:
 > $$x=R\sin \theta \cos \phi,\quad y=R\sin \theta \sin \phi,\quad z=R\cos \theta$$
 > The velocity vector $\mathbf{v}=(\dot{x},\dot{y},\dot{z})$ is also easy to find:
 > $$\dot{x}=R\cos \theta \cos \phi \dot{\theta}-R\sin \theta \sin \phi \dot{\phi},\quad y=R\cos \theta \sin \phi \dot{\theta}+R\sin \theta \cos \phi \dot{\phi},\quad z=-R\sin \theta \dot{\theta}$$

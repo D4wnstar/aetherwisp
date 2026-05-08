@@ -16,6 +16,6 @@ which is the relativistic Breit-Wigner distribution.
 
 The [[cross section]] of the [[particle scattering]] process in which the resonance occurs is locally proportional to the Breit-Wigner distribution around the mass peak. When $E=E_{n}$ (equivalently: $m_{0}=m_{X}$), the scattering resonates and maximizes the cross section (and therefore [[Probability]]) of the resonant particle being formed. This is useful to more reliably produce resonant particles by manipulating the center-of-mass energy to be just right for the resonance.
 
-Mathematically, it is the distribution of the [[energy]] of a resonant [[stato|state]] which decays exponentially in time. It is a [[Cauchy distribution]] centered on $E_{n}$. $\Gamma$ is the [[full width at half maximum]] of the distribution.
+Mathematically, it is the distribution of the [[energy]] of a resonant [[Stato|state]] which decays exponentially in time. It is a [[Cauchy distribution]] centered on $E_{n}$. $\Gamma$ is the [[full width at half maximum]] of the distribution.
 
 ![[Particle resonance#History and discovery.svg]]

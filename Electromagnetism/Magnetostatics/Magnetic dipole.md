@@ -17,7 +17,7 @@ or
 $$\boxed{\mathbf{N}=\mathbf{m}\times \mathbf{B}}$$
 where $m=Iab$ is the magnetic dipole moment. This moment of force is exact on any magnetic dipole if the field is uniform. If it is not uniform, it is exact only for perfect dipoles, which have no spatial extension and therefore ignore the fact that it's not uniform.
 
-This torque tends to align the dipole in the direction of the magnetic field and accounts for [[Paramagnet|paramagnetism]]. It might seem then that paramagnetism is the only form of magnetism, as there's nothing here to account for the existence of a [[diamagnet]]. However, the magnetic dipole in matter is given by [[spin|spinning]] [[Electron|electrons]] and these, due to the [[Pauli exclusion principle|Pauli exclusion principle]], tend to pair up with electrons of opposite spin, canceling each other out magnetically. Thus, this rotation is only observed in [[Atom|atoms]] with odd number of electrons. Even here, the alignment can be broken by thermal collisions.
+This torque tends to align the dipole in the direction of the magnetic field and accounts for [[Paramagnet|paramagnetism]]. It might seem then that paramagnetism is the only form of magnetism, as there's nothing here to account for the existence of a [[diamagnet]]. However, the magnetic dipole in matter is given by [[Spin|spinning]] [[Electron|electrons]] and these, due to the [[Pauli exclusion principle|Pauli exclusion principle]], tend to pair up with electrons of opposite spin, canceling each other out magnetically. Thus, this rotation is only observed in [[Atom|atoms]] with odd number of electrons. Even here, the alignment can be broken by thermal collisions.
 
 If the field is uniform, the force over the current loop is zero:
 $$\mathbf{F}=I\oint d\mathbf{I}\times \mathbf{B}=I\left( \oint \mathbf{dI} \right)\times \mathbf{B}=\mathbf{0}$$
@@ -44,7 +44,7 @@ For a point $\mathbf{r}$ above the $x$ axis, $\mathbf{A}$ must aim in the $y$ di
 $$\mathbf{A}(\mathbf{r},t)=\frac{\mu_{0}I_{0}b}{4\pi}\hat{\mathbf{y}}\int_{0}^{2\pi} \frac{\cos\left[ \omega\left( t- \frac{\mathfrak{r}}{c} \right) \right]}{\mathfrak{r}}\cos \phi'd\phi'$$
 where $\cos \phi'$ picks out the $y$ component of $d\mathbf{I}'$. Using the [[law of cosines]]
 $$\mathfrak{r}=\sqrt{ r^{2}+b^{2}-2rb\cos \psi }$$
-Since $\psi$ is the angle between $\mathbf{r}$ and $\mathbf{b}$, we have the [[scalar product]] $rb\cos \psi=\mathbf{r}\cdot \mathbf{b}=rb\sin \theta \cos \phi'$, since
+Since $\psi$ is the angle between $\mathbf{r}$ and $\mathbf{b}$, we have the [[Scalar product]] $rb\cos \psi=\mathbf{r}\cdot \mathbf{b}=rb\sin \theta \cos \phi'$, since
 $$\mathbf{r}=r\sin \theta\ \hat{\mathbf{x}}+r\cos \theta\ \hat{\mathbf{y}},\qquad \mathbf{b}=b\cos \phi'\ \hat{\mathbf{x}}+b\sin \phi'\ \hat{\mathbf{y}}$$
 The law of cosines then becomes
 $$\mathfrak{r}=\sqrt{ r^{2}+b^{2}-2rb\sin \theta \cos \phi' }$$
@@ -63,7 +63,7 @@ $$\begin{align}
 \end{align}$$
 using $\cos(\alpha+\beta)=\cos \alpha \cos \beta-\sin \alpha \sin \beta$. We now make the second approximation:
 $$b\ll \lambda\sim \frac{c}{\omega}\tag{Large wavelength approximation}$$
-With this we can truncate the [[sine and cosine series]] to first order:
+With this we can truncate the [[Sine and cosine series]] to first order:
 $$\frac{\omega b}{c}\ll 1\quad\Rightarrow \quad \cos\left( \frac{\omega b}{c}\sin \theta \cos \phi' \right)\simeq 1,\qquad \sin\left( \frac{\omega b}{c}\sin \theta \cos \phi' \right)\simeq \frac{\omega b}{c}\sin \theta \cos \phi'$$
 and so
 $$\ldots=\cos\left[ \omega\left( t- \frac{r}{c} \right) \right]- \frac{\omega b}{c}\sin \theta \cos \phi'\sin\left[ \omega\left( t- \frac{r}{c} \right) \right]$$

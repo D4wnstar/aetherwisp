@@ -1,7 +1,7 @@
 ---
 hl-publish: true
 ---
-The **standard error** is a metric of error for a [[scalar]] [[estimator]]. Given an estimator $\hat{\theta}$, it is defined as
+The **standard error** is a metric of error for a [[Scalar]] [[estimator]]. Given an estimator $\hat{\theta}$, it is defined as
 $$\text{SE}(\hat{\theta})=\sqrt{ \text{var}(\hat{\theta}) }$$
 It is a more convenient error metric than simple [[Variance]] because it has the same units as the estimator. Once a [[sample]] of $N$ elements is collected and a numerical estimate $\theta$ is obtained, the estimated standard error is obtained by replacing $\hat{\theta}$ with $\theta$. A common related quantity is the standard error of the sample [[mean]]
 $$\text{SE}(\bar{X})=\frac{\sigma}{\sqrt{ N }}$$

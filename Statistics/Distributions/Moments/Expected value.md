@@ -1,7 +1,7 @@
 ---
 hl-publish: true
 ---
-The **expected value** or **expectation** $\text{E}[X]$ of a [[Random variable]] $X$ is a generalization of a weighted average over all possible values the variable can take. It is what the word "[[mean]]" typically refers to in the context of statistics, though there's many other possible meanings, such as the [[arithmetic mean]]. It is the first raw [[Function moments|moment]] of the [[Probability distribution]]. The name "expectation" refers to both the value $\text{E}[X]$ itself and the [[operatore|operator]] $\text{E}$ that is applied onto $X$. It is also commonly denoted with the letter $\mu$.
+The **expected value** or **expectation** $\text{E}[X]$ of a [[Random variable]] $X$ is a generalization of a weighted average over all possible values the variable can take. It is what the word "[[mean]]" typically refers to in the context of statistics, though there's many other possible meanings, such as the [[arithmetic mean]]. It is the first raw [[Function moments|moment]] of the [[Probability distribution]]. The name "expectation" refers to both the value $\text{E}[X]$ itself and the [[Operatore|operator]] $\text{E}$ that is applied onto $X$. It is also commonly denoted with the letter $\mu$.
 
 The name can be misleading: the expected value is not the most likely value (that would be the [[mode]]). It is strictly theoretical and may not even be an allowed value of the random variable: for instance, the expected value of a fair six-sided die is 3.5, which is not even on the die.
 

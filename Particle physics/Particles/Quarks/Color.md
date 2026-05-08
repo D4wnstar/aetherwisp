@@ -39,7 +39,7 @@ Color also serves to explain the mass problem, though the reason why is much mor
 ### Proof of existence
 Whereas the electric charge's existence is "obvious", quarks are subatomic [[particle|particles]] that are (mostly) impossible to isolate, so while color as a theoretical object certainly sounds nice, proving its existence is a whole problem of its own. Thankfully, there's not one, but two ways of proving it exists empirically.
 #### Electron-positron collisions
-The first way is to study the initial and final [[stato|states]] of electromagnetic interactions like $e^{-}+e^{+}\to \mu^{-}+\mu^{+}$, which, from the perspective of quantum numbers, are almost equivalent to processes like $e^{-}+e^{+}\to q+\bar{q}$.[^1] The only real differences are that quarks have different electric charge from [[muon|muons]] and that quarks should have color.
+The first way is to study the initial and final [[Stato|states]] of electromagnetic interactions like $e^{-}+e^{+}\to \mu^{-}+\mu^{+}$, which, from the perspective of quantum numbers, are almost equivalent to processes like $e^{-}+e^{+}\to q+\bar{q}$.[^1] The only real differences are that quarks have different electric charge from [[muon|muons]] and that quarks should have color.
 
 We start by calculating the [[cross section]] of these processes. In the first process, the cross section is proportional to $\sqrt{ \alpha }$, with $\alpha$ the [[Fine-structure constant|electromagnetic coupling constant]]. In the second, the cross section is not only dependent on $\alpha$ but also to this presumed color-related dependency, $\sqrt{ \alpha }\cdot\text{color}$. We can measure these two cross sections and then take their ratio to find the color proportionality. This ratio $R$ leads to a new color-related dependency that comes out to be directly proportional to the squares of quark fractional charges $Q_{q}$:
 $$R=\frac{\sigma(e^{+}+e^{-}\to q+\bar{q})}{\sigma(e^{+}+e^{-}\to \mu^{+}+\mu^{-})}=N_{C}\sum_{q}Q_{q}^{2}$$
@@ -51,7 +51,7 @@ The second way is essentially the first but in reverse. Instead of creating quar
 $$\pi^{0}\to \gamma+\gamma$$
 This process is deceptively difficult and the [[Feynman diagram]] for it involves some rather confusing physics. Suffice to say that the two quarks that make up $\pi^{0}$ distribute themselves in a time loop of 2 up quarks and a down quark, which will interact electromagnetically to emit two photons.
 
-If color truly exists, then this decay must have *some* relation to it, considering that quarks are involved. This is a decay, so the "cross section" is its [[Breit-Wigner distribution|decay width]]. We know that like the cross section it is proportional to the [[matrix element]] of the [[state transition]]:
+If color truly exists, then this decay must have *some* relation to it, considering that quarks are involved. This is a decay, so the "cross section" is its [[Breit-Wigner distribution|decay width]]. We know that like the cross section it is proportional to the [[matrix element]] of the [[State transition]]:
 $$\Gamma \propto \lvert \braket{ \psi_{f} | \mathcal{M}_{fi} | \psi_{i} }  \rvert ^{2}$$
 This is measured to be
 $$\Gamma(\pi^{0}\to2\gamma)=f_{\pi} \frac{N_{C}}{\sqrt{ 2 }}\left( \frac{4}{9}e^{2}- \frac{1}{9}e^{2} \right)$$

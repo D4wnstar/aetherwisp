@@ -3,7 +3,7 @@ hl-publish: true
 aliases:
   - Coulomb's law
 ---
-The **electric field** $\mathbf{E}$ is the [[vector field]] that describes the action of an [[electric charge]] onto other charges. For a test charge $Q$, the force applied to it by another charged object is determined through the electric field according to **Coulomb's law**:
+The **electric field** $\mathbf{E}$ is the [[Vector field]] that describes the action of an [[electric charge]] onto other charges. For a test charge $Q$, the force applied to it by another charged object is determined through the electric field according to **Coulomb's law**:
 $$\mathbf{F}=Q\mathbf{E}$$
  Electric fields obey the [[superposition principle]]. If there are two charges producing fields $\mathbf{E}_{1}$ and $\mathbf{E}_{2}$, their combined field is simply $\mathbf{E}=\mathbf{E}_{1}+\mathbf{E}_{2}$. When the source charges are static, it is also [[Vector field|conservative]].
 
@@ -48,7 +48,7 @@ $$\nabla\cdot\mathbf{E}=\frac{1}{4\pi\varepsilon_{0}}\int\nabla\cdot\left(\frac{
 > $$\nabla\cdot \left(\frac{\hat{r}}{r^{2}}\right)=\frac{1}{r^{2}}\frac{\partial }{\partial r}\left(r^{2} \frac{1}{r^{2}}\right)=0$$
 > If we apply the [[Divergence theorem|divergence theorem]], we get
 > $$\int_{V}\nabla\cdot\left(\frac{\hat{r}}{r^{2}}\right)=\oint_{S} \frac{\hat{r}}{r^{2}}\cdot d\mathbf{a}=4\pi$$
-> which seems paradoxical. How can the integral of something we calculate as zero be $4\pi$? The only way this can be true is if the divergence contains the (three-dimensional) [[delta di dirac|Dirac delta]] [[Distribuzione|distribution]], as its integral over all space is one. Thus
+> which seems paradoxical. How can the integral of something we calculate as zero be $4\pi$? The only way this can be true is if the divergence contains the (three-dimensional) [[Delta di Dirac|Dirac delta]] [[Distribuzione|distribution]], as its integral over all space is one. Thus
 > $$\nabla\cdot\left(\frac{\hat{r}}{r^{2}}\right)=4\pi\delta^{3}(\mathbf{r})$$
 > and since
 > $$\iiint \delta^{3}(\mathbf{r})\ d\mathbf{r}=1$$

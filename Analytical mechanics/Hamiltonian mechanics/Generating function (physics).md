@@ -5,7 +5,7 @@ aliases:
 ---
 In Hamiltonian mechanics, a **generating function** is a function whose [[partial derivative|partial derivatives]] are [[differential equation|differential equations]] that determine the dynamics of a [[physical system]]. The most important generating function is the [[Hamiltonian]] itself, whose dynamics are found through the [[Hamilton equations]]. The [[partition function]] of an [[ensemble]] is also a generating function.
 ### Derivation
-Let's start with an example. Consider the following [[coordinate transformation]]:
+Let's start with an example. Consider the following [[Coordinate transformation]]:
 $$\begin{cases}
 p=\sqrt{ 2\tilde{p} }\cos \tilde{q} \\
 q=\sqrt{ 2\tilde{p} }\sin \tilde{q}

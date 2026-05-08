@@ -20,7 +20,7 @@ Estimators have numerous properties that determine how well they behave and how 
 An estimator is **unbiased** if its bias is always zero. It is **asymptotically unbiased** if its bias in nonzero in general, but approaches zero as the sample size grows infinite
 $$\lim_{ n \to \infty }b=0$$
 
-A ([[scalar]]) estimator $\hat{\theta}_{n}$ over a sample of size $n$ is said to be **(weakly) consistent** if, for any arbitrarily small number $\epsilon>0$, we have
+A ([[Scalar]]) estimator $\hat{\theta}_{n}$ over a sample of size $n$ is said to be **(weakly) consistent** if, for any arbitrarily small number $\epsilon>0$, we have
 $$\lim_{ N \to \infty } P(\lvert \hat{\theta}_{n}-\theta \rvert \geq\epsilon)=0$$
 where $P$ is a [[measure]] of [[probability]]. Consistency is basically a generalized [[law of large numbers]] for any estimator. Conversely, the law of large numbers is just saying "the sample mean is a consistent estimator of the expected value." Basically, as the sample size goes to infinity, the difference between a consistent estimator and the true value becomes arbitrarily small, so that increasing the sample size always leads to better estimates. A sufficient condition to guarantee consistency is that the [[Mean squared error]] of the estimator goes to zero as $n\to \infty$.
 

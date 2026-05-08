@@ -15,7 +15,7 @@ The Lorentz force can also be written in an extremely general and manifestly tim
 $$\mathbf{F}=\oint_{\mathcal{S}}\mathrm{T}\cdot d\mathbf{a}-\varepsilon_{0}\mu_{0}\frac{d}{dt} \int_{\mathcal{V}}\mathbf{S}\ d\tau$$
 which reduces to
 $$\mathbf{F}=\oint_{\mathcal{S}}\mathrm{T}\cdot d\mathbf{a}$$
-in static, time-independent contexts. Here, $\mathcal{V}$ is some volume and $\mathcal{S}$ is the bounding [[surface]] of that volume. The force density instead reads
+in static, time-independent contexts. Here, $\mathcal{V}$ is some volume and $\mathcal{S}$ is the bounding [[Surface]] of that volume. The force density instead reads
 $$\mathbf{f}=\nabla\cdot \mathrm{T}-\varepsilon_{0} \mu_{0} \frac{ \partial \mathbf{S} }{ \partial t } $$
 ### Work done
 The Lorentz force does do [[work]], but only the electric part does. Magnetic forces do no work. In fact, the work per unit distance $d\mathbf{s}$ is

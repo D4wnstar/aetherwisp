@@ -3,7 +3,7 @@ hl-publish: true
 ---
 **Spectroscopic notation** is a convention for denoting the values of [[Numero quantico|quantum numbers]], especially in the context of [[atom|atomic]] and [[Molecule|molecular]] quantum numbers.
 ### Atomic orbitals
-Barring [[spin]], an [[atomic orbital]] is identified by the quantum numbers $n$, $l$ and $m$. This notation is used to represent the [[stato|state]] of an individual [[electron]] using the format
+Barring [[Spin]], an [[atomic orbital]] is identified by the quantum numbers $n$, $l$ and $m$. This notation is used to represent the [[Stato|state]] of an individual [[electron]] using the format
 $$nl_{m}$$
 - The principal quantum number $n$ is denoted with usual numbers, $n=1,2,3,\ldots$
 - The azimuthal quantum number $l$ is denoted with a specific set of letters, as shown in the table below.

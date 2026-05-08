@@ -4,7 +4,7 @@ aliases:
   - elementary particle
   - composite particle
 ---
-A **particle** is an object that occupies a localized region of [[spacetime]] and possesses certain intrinsic attributes, such as [[mass]], [[electric charge]] or [[spin]].
+A **particle** is an object that occupies a localized region of [[spacetime]] and possesses certain intrinsic attributes, such as [[mass]], [[electric charge]] or [[Spin]].
 
 Particles are typically used as an idealization within a physical model in order to simplify treatment. For instance, in statistical mechanics an [[ideal gas]] is described as being composed of numerous particles, irrespective of the shape, size and specifics of the actual atoms and [[Molecule|molecules]] that make up the gas, in order to treat them as a large set of equivalent objects. In general, a particle is assumed to be an object that is much smaller than the scale of the environment that it is in.
 ### In particle physics

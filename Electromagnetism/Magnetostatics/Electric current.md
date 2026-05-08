@@ -8,7 +8,7 @@ The **electric current** is the rate of change of [[electric charge]] in a given
 $$I(t)=\frac{Q(t)}{dt}$$
 The [[International System of Units|SI]] unit of current is the **Ampere** $\text{A}$, which are Coulombs per second.
 
-Current can be seen as both a [[scalar]] and [[Vector space|vector]] quantity. The vector interpretation is more complete as current requires motion of charges, which is described by velocity, a vector quantity. However, the scalar form is often sufficient when motion is constrained to a specific path, such as in electric wiring. In the scalar case, care should be taken to get the sign right.
+Current can be seen as both a [[Scalar]] and [[Vector space|vector]] quantity. The vector interpretation is more complete as current requires motion of charges, which is described by velocity, a vector quantity. However, the scalar form is often sufficient when motion is constrained to a specific path, such as in electric wiring. In the scalar case, care should be taken to get the sign right.
 
 By convention, negative charges moving in one direction count the same as positive charges moving in the opposite direction. This is to reflect the physical fact that almost all laws regarding charge movement depend on the product of charge and velocity, so if you reverse the signs of both, the phenomenon doesn't change. For an example, see the [[Lorentz force]]. In practice, it's usually [[Electron|electrons]] that move and they do so in the opposite direction of the current.
 
@@ -58,7 +58,7 @@ which states that the current must be [[Vector field|solenoidal]] (divergenceles
 #### Relativity
 The continuity equation takes on a very simple form when using the [[four-current]]
 $$J^{\mu}=\rho_{0}\eta^{\mu}=(c\rho,J_{x},J_{y},J_{z})$$
-With the definition of [[divergence]] the old three-current says:
+With the definition of [[Divergence]] the old three-current says:
 $$\nabla\cdot \mathbf{J}=\sum_{i=1}^{3} \frac{ \partial J^{i} }{ \partial x^{i} } $$
 By looking at the definition of four-current we can see
 $$\frac{ \partial \rho }{ \partial t } =\frac{1}{c}\frac{ \partial J^{0} }{ \partial t } =\frac{ \partial J^{0} }{ \partial x^{0} } $$

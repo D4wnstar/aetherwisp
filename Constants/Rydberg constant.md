@@ -13,6 +13,6 @@ In this sense, it can also be given as a [[frequency]] by multiplying by the [[S
 $$\bar{R}=cR=3.288\cdot10^{15}\text{ Hz}$$
 Recognizing that $hcR$ is an energy (because of the [[Planck formula]]) we can write the **Rydberg energy**
 $$E_\text{Ryd}=hcR\simeq13.6\text{ eV}$$
-This represents the depth of the [[potential]] well in which an [[electron]] resides in the ground state of the hydrogen atom. In other words, it is the [[ionization]] energy of hydrogen in the ground state.
+This represents the depth of the [[Potential]] well in which an [[electron]] resides in the ground state of the hydrogen atom. In other words, it is the [[ionization]] energy of hydrogen in the ground state.
 
 Experimental measurements on the atom yield values of $R=109677\text{ cm}^{-1}$, almost identical to the theoretical value, confirming that the Bohr model is fairly accurate, despite being classical.

@@ -3,13 +3,13 @@ hl-publish: true
 aliases:
   - shell
 ---
-The **nuclear shell model** is a mean field model of the [[atomic nucleus]]. Reminiscent of its sibling the [[electron shell model]], which is for [[Electron|electrons]] around an [[atom]], the model describes the [[Atomic nucleus|nucleons]] as having discrete [[Stationary state|energy states]], which are progressively occupied in order from least to most energetic until they complete a so-called **shell**, which is a particularly stable configuration of nucleons. The states cannot be occupied by too more than two nucleons each due to the [[Pauli exclusion principle]]. Similarly to how valence electrons are sufficient to determine most of the behavior of an atom, "valence nucleons" in the outermost shell are enough to determine most of the behavior of the nucleus, namely [[spin]] and [[parity]].
+The **nuclear shell model** is a mean field model of the [[atomic nucleus]]. Reminiscent of its sibling the [[electron shell model]], which is for [[Electron|electrons]] around an [[atom]], the model describes the [[Atomic nucleus|nucleons]] as having discrete [[Stationary state|energy states]], which are progressively occupied in order from least to most energetic until they complete a so-called **shell**, which is a particularly stable configuration of nucleons. The states cannot be occupied by too more than two nucleons each due to the [[Pauli exclusion principle]]. Similarly to how valence electrons are sufficient to determine most of the behavior of an atom, "valence nucleons" in the outermost shell are enough to determine most of the behavior of the nucleus, namely [[Spin]] and [[parity]].
 
 The main result of the shell model is explaining the presence of anomalous stability present in some nuclei containing specific numbers of [[proton|protons]] and [[neutron|neutrons]], known as [[Magic number|magic numbers]].
 ## Formulation
 The nuclear shell model is based on two basic ideas:
 1. each nucleon is a quantum object with a defined energy eigenstate which occupies a well-defined **shell** inside the nucleus, a shell being a theoretical configuration of nucleons that, when filled, leads to a particularly stable state;
-2. the nucleons are subject to a mean [[potential]], which originates from the other nucleons[^1].
+2. the nucleons are subject to a mean [[Potential]], which originates from the other nucleons[^1].
 
 Moreover, a few approximations are made to render the system tenable in a mathematical manner:
 1. the motion of the nucleons is taken to be non-[[Lorentz transformation|relativistic]] to avoid having to invoke relativistic quantum mechanics and the [[Dirac equation]];
@@ -21,11 +21,11 @@ Different versions of the shell models use different potentials. In fact, the ch
 ### Gaussian potential
 For small nuclei ($A\leq7$), the nucleon distribution can roughly be taken to be [[Gaussian distribution|Gaussian]], so we can approximate the potential with a Gaussian spatial profile. In other words, we have a three-dimensional [[Oscillatore armonico quantistico|quantum harmonic oscillator]] whose potential, when expressed in [[spherical coordinates]], is
 $$V(r)=\frac{1}{2}kr^{2}$$
-which depends only on the radial coordinate. The [[Schrödinger equation]] is then solved in the usual manner for central potentials, leading to an angular part given by the [[spherical harmonics]] $Y_{l}^{m}(\theta,\phi)$. The energy eigenvalues are
+which depends only on the radial coordinate. The [[Schrödinger equation]] is then solved in the usual manner for central potentials, leading to an angular part given by the [[Spherical harmonics]] $Y_{l}^{m}(\theta,\phi)$. The energy eigenvalues are
 $$E_{N}=\hbar\omega_{0}\left(N+\frac{3}{2}\right)$$
 where $N=0,1,2,\ldots$ is the energy-level [[quantum number]]. Introducing the number of nodes $n=1,2,3\ldots$ (which counts the number of states with the given value of $l$) and the orbital quantum number $l=0,1,2\ldots$ (which satisfies $l\leq N$), the energy levels can be written as
 $$N=2(n-1)+l$$
-The energy-level [[degenerazione|degeneracy]] is $2l+1$, or $2(2l+1)$ when considering [[spin]] 1/2 nucleons. This is important: a shell is a collection of degenerate states, so the degeneracy basically tells us how many nucleons fit inside the shell of energy level $N$ (it's not one-to-one, there are more states than nucleons; the number of nucleons per shell is called the **capacity**). Even more importantly, since magic numbers are associated with filled shells, it's the degeneracy that works as the predictor for magic numbers, the discovery of which is ultimately one of the main goals of the shell model.
+The energy-level [[Degenerazione|degeneracy]] is $2l+1$, or $2(2l+1)$ when considering [[Spin]] 1/2 nucleons. This is important: a shell is a collection of degenerate states, so the degeneracy basically tells us how many nucleons fit inside the shell of energy level $N$ (it's not one-to-one, there are more states than nucleons; the number of nucleons per shell is called the **capacity**). Even more importantly, since magic numbers are associated with filled shells, it's the degeneracy that works as the predictor for magic numbers, the discovery of which is ultimately one of the main goals of the shell model.
 
 This simple model is quite reminiscent of the [[Hydrogen atom|hydrogenic atom]], so it's common to employ [[spectroscopic notation]] here too, namely the usage of the letters $s$, $p$, $d$, $f$, etc. for the orbital quantum number. For instance, the first three energy levels/shells are:
 - Shell $N=0$ has $n=1$ and $l=0$, hence corresponds to the $1s$ state. It has a degeneracy of 2, meaning it can contain up to two nucleons.
@@ -102,7 +102,7 @@ For nuclei with both $Z$ and $N$ odd, the total spin is obtained as usual for a 
 For example, $^{6}_{3}\text{Li}_{3}$ has both an unpaired proton and an unpaired neutron in $1p_{3/2}$, so $l_{1}=l_{2}=l=1$. The parity is then $(-1)^{1+1}=+1$. The spin ranges from $|3/2-3/2|=0$ to $3/2+3/2=3$, so it can take the values 0, 1, 2, or 3. In total the possible states are
 $$J^{P}=0^{+},\,1^{+},\,2^{+},\,3^{+}$$
 ## State transitions  
-Just like electrons, nucleons can undergo a [[state transition]] to move up or down shells. When receiving energy from an external source, a nucleon can reach an excited state in two ways:
+Just like electrons, nucleons can undergo a [[State transition]] to move up or down shells. When receiving energy from an external source, a nucleon can reach an excited state in two ways:
 1. by being promoted to the next subshell;
 2. by being coupled with another nucleon from a more inner subshell.
 

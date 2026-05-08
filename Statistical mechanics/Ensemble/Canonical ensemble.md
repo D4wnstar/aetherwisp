@@ -31,7 +31,7 @@ The first exponential is a constant, so we can drop it by redefining the normali
 $$\boxed{\rho(\mathbf{q},\mathbf{p})=e^{-\beta H(\mathbf{q},\mathbf{p})}}$$
 Note that it is not yet normalized. The normalization factor is the partition function below.
 
-This is the density function of the canonical ensemble and is an incredibly important result in and out of physics because it essentially encodes a universal method to find a [[stato|state]] of equilibrium from an extremely complex system. In statistical physics, of course, it represents a huge number of particles needing to thermalize. But it may also represent cities in the [[traveling salesman problem]] or many other systems completely detached from physics. The function $H$ here is the [[Hamiltonian]], but it is more generally a [[cost function]] the minimum of which is the most stable equilibrium state.
+This is the density function of the canonical ensemble and is an incredibly important result in and out of physics because it essentially encodes a universal method to find a [[Stato|state]] of equilibrium from an extremely complex system. In statistical physics, of course, it represents a huge number of particles needing to thermalize. But it may also represent cities in the [[traveling salesman problem]] or many other systems completely detached from physics. The function $H$ here is the [[Hamiltonian]], but it is more generally a [[cost function]] the minimum of which is the most stable equilibrium state.
 ### Partition function
 The [[partition function]] of the canonical ensemble is
 $$\boxed{Q_{N}(V,T)=\int \frac{e^{-\beta H(\mathbf{q},\mathbf{p})}}{h^{3N}N!} \ d^{3N}q\,d^{3N}p }$$

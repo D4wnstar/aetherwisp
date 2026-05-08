@@ -1,7 +1,7 @@
 ---
 hl-publish: true
 ---
-The **Lorenz gauge** is an electrodynamic [[gauge]] for [[Maxwell's equations]] where we set the [[divergence]] of the [[magnetic vector potential]] to
+The **Lorenz gauge** is an electrodynamic [[gauge]] for [[Maxwell's equations]] where we set the [[Divergence]] of the [[magnetic vector potential]] to
 $$\nabla\cdot \mathbf{A}=-\mu_{0}\varepsilon_{0}\frac{ \partial V }{ \partial t }=- \frac{1}{c^{2}}\frac{ \partial V }{ \partial t }  $$
 The benefit of this specific choice is that it cancels out two terms in the potential formulation of Maxwell's equations. The [[differential equation]] for $\mathbf{A}$ then is
 $$\nabla ^{2}\mathbf{A}-\mu_{0}\varepsilon_{0}\frac{ \partial ^{2}\mathbf{A} }{ \partial t^{2} } =-\mu_{0}\mathbf{J}$$

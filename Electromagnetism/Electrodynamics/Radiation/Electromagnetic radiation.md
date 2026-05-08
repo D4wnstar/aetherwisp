@@ -81,7 +81,7 @@ This is why we could accept a zeroth order approximation $\mathfrak{r}\simeq r$,
 #### Fields
 As for the fields, we only really care about the radiation zone, so
 $$r^{-2}\text{ terms and below are negligible}\tag{Far field approximation}$$
-In the [[electric field]], we need to take the [[gradient]] of $V$. Because of the far field approximation, the first term drops out ($\nabla r^{-1}\propto r^{-2}$). The second term is already second order on its own so it also drops out. The third term requires us to take the gradient of $t_{0}$:
+In the [[electric field]], we need to take the [[Gradient]] of $V$. Because of the far field approximation, the first term drops out ($\nabla r^{-1}\propto r^{-2}$). The second term is already second order on its own so it also drops out. The third term requires us to take the gradient of $t_{0}$:
 $$\nabla t_{0}=- \frac{1}{c}\nabla r=- \frac{1}{c}\hat{\mathbf{r}}$$
 and hence
 $$V(\mathbf{r},t)\simeq \nabla\left[ \frac{1}{4\pi \epsilon_{0}} \frac{\hat{\mathbf{r}}\cdot \dot{\mathbf{p}}(t_{0})}{rc} \right]\simeq \frac{1}{4\pi \varepsilon_{0}}\frac{\hat{\mathbf{r}}\cdot \ddot{\mathbf{p}}(t_{0})}{c}\nabla t_{0}=- \frac{\hat{\mathbf{r}}\cdot \ddot{\mathbf{p}}(t_{0})}{4\pi \varepsilon_{0}c^{2}}\hat{\mathbf{r}}$$
@@ -89,7 +89,7 @@ The time derivative of $\mathbf{A}$ is
 $$\frac{ \partial \mathbf{A} }{ \partial t } = \frac{\mu_{0}}{4\pi r} \ddot{\mathbf{p}}(t_{0})$$
 So
 $$\boxed{\mathbf{E}(\mathbf{r},t)\simeq \frac{\mu_{0}}{4\pi r}[(\hat{\mathbf{r}}\cdot \ddot{\mathbf{r}})\hat{\mathbf{r}}-\ddot{\mathbf{p}}]=\frac{\mu_{0}}{4\pi r}\hat{\mathbf{r}}\times(\hat{\mathbf{r}}\times \ddot{\mathbf{p}})}$$
-The [[curl]] of $\mathbf{A}$ is
+The [[Curl]] of $\mathbf{A}$ is
 $$\nabla\times \mathbf{A}=\frac{\mu_{0}}{4\pi r}[\nabla \times \dot{\mathbf{p}}(t_{0})]=\frac{\mu_{0}}{4\pi r}[(\nabla t_{0})\times \ddot{\mathbf{p}}(t_{0})]=- \frac{\mu_{0}}{4\pi cr}[\hat{\mathbf{r}}\times \ddot{\mathbf{p}}(t_{0})]$$
 and so
 $$\boxed{\mathbf{B}(\mathbf{r},t)\simeq - \frac{\mu_{0}}{4\pi cr}\hat{\mathbf{r}}\times \ddot{\mathbf{p}}=- \frac{1}{c}\hat{\mathbf{r}}\times \mathbf{E}}$$

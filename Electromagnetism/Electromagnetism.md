@@ -23,7 +23,7 @@ where
 
 Notably, the fine-structure constant is universal. All electromagnetic interactions are regulated by the same coupling constant.
 ### Exchange particle
-The quantum of the electromagnetic interaction is the [[Photon]], a [[mass|massless]] [[gauge boson]] with [[spin]] 1 and no [[electric charge]]. The photon carries the electromagnetic [[force]], whose intensity is determined the electromagnetic coupling constant. Simple examples of electromagnetic exchange are [[proton]]-[[electron]] attraction $e^{-}+p\to e^{-}+p$ and electron-positron attraction $e^{-}+e^{+}\to e^{-}+e^{+}$.
+The quantum of the electromagnetic interaction is the [[Photon]], a [[mass|massless]] [[gauge boson]] with [[Spin]] 1 and no [[electric charge]]. The photon carries the electromagnetic [[force]], whose intensity is determined the electromagnetic coupling constant. Simple examples of electromagnetic exchange are [[proton]]-[[electron]] attraction $e^{-}+p\to e^{-}+p$ and electron-positron attraction $e^{-}+e^{+}\to e^{-}+e^{+}$.
 
 In [[Feynman diagram|Feynman diagrams]], a photon carrying the electromagnetic interaction is represented by a wavy line.
 ### Interaction with matter

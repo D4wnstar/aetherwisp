@@ -19,7 +19,7 @@ Once the waves arrive, we integrate the Poynting vector over the sphere. A spher
 $$\mathbf{E}_\text{rad}=\frac{1}{4\pi \varepsilon_{0}} \frac{\mathfrak{r}}{(\boldsymbol{\mathfrak{r}}\cdot \mathbf{u})^{3}}\boldsymbol{\mathfrak{r}}\times(\mathbf{u}\times \mathbf{a})$$
 This term goes like $\sim \mathfrak{r}^{-1}$, which becomes $\sim \mathfrak{r}^{-2}$ when square in the Poynting vector. The velocity field's energy instead remains attached to the charge itself.
 
-Now, $\mathbf{E}_\text{rad}$ is [[Orthogonality|perpendicular]] to $\hat{\boldsymbol{\mathfrak{r}}}$ due to the [[vector product]], so the second term in the Poynting vector vanishes (because the [[scalar product]] $\hat{\boldsymbol{\mathfrak{r}}}\cdot \mathbf{E}$ is zero). We are then left with
+Now, $\mathbf{E}_\text{rad}$ is [[Orthogonality|perpendicular]] to $\hat{\boldsymbol{\mathfrak{r}}}$ due to the [[Vector product]], so the second term in the Poynting vector vanishes (because the [[Scalar product]] $\hat{\boldsymbol{\mathfrak{r}}}\cdot \mathbf{E}$ is zero). We are then left with
 $$\mathbf{S}_\text{rad}=\frac{1}{\mu_{0}c}E_\text{rad}^{2}\hat{\boldsymbol{\mathfrak{r}}}$$
 We only need the square of the magnitude of $\mathbf{E}_\text{rad}$.
 

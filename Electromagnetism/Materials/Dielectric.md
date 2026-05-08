@@ -108,7 +108,7 @@ Our end goal is to explain why the [[permittivity]] $\varepsilon$ of a dielectri
 
 Each electron in a dielectric is, generally speaking, bound to a specific [[molecule]]. We'll say that there is a binding [[force]] $F_{\text{binding}}$ keeping the electron attached to the molecule against the displacement of imposed by the wave (which we assume to be propagating on the $x$ axis and [[Polarization|polarized]] on the $y$ axis as usual) and we'll say that this force is elastic and described by [[Harmonic oscillator|Hooke's law]]:
 $$F_\text{binding}=-kx=-m\omega_{0}^{2}y$$
-where $k=m\omega_{0}^{2}$ is the spring constant, $m$ is the [[mass]] of the electron and $\omega_{0}=\sqrt{ k/m }$ is the **natural oscillation frequency**. We claim this is a valid approximation since any [[potential]] (and thus force) can be approximated by the [[harmonic oscillator]] for small enough displacements around an [[equilibrium point]], which the electron's stable orbit around the molecule is.
+where $k=m\omega_{0}^{2}$ is the spring constant, $m$ is the [[mass]] of the electron and $\omega_{0}=\sqrt{ k/m }$ is the **natural oscillation frequency**. We claim this is a valid approximation since any [[Potential]] (and thus force) can be approximated by the [[harmonic oscillator]] for small enough displacements around an [[equilibrium point]], which the electron's stable orbit around the molecule is.
 
 This electron is likely also subject to a damping force $F_\text{damping}$, which we'll assume to be a generic [[dissipative force]]
 $$F_\text{damping}=-m\gamma \frac{dy}{dt}$$
@@ -122,7 +122,7 @@ Combine all of these with [[Newton's laws|Newton's second law]] and you get
 $$F_\text{tot}=m \frac{d^{2}y}{dt^{2}}=F_\text{binding}+F_\text{damping}+F_\text{driving}$$
 so
 $$m \frac{d^{2}y}{dt^{2}}+m\gamma \frac{dy}{dt}+m\omega_{0}^{2}y=qE_{0}\cos (\omega t)$$
-This is an inhomogeneous second-order linear [[ordinary differential equation]] in $x$, representing a damped harmonic oscillator driven at frequency $\omega$. This becomes easier to handle if we regard it as the real part of a complex differential equation in $\tilde{x}$:
+This is an inhomogeneous second-order linear [[Ordinary differential equation]] in $x$, representing a damped harmonic oscillator driven at frequency $\omega$. This becomes easier to handle if we regard it as the real part of a complex differential equation in $\tilde{x}$:
 $$\frac{d^{2}\tilde{y}}{dt^{2}}+\gamma \frac{d\tilde{y}}{dt}+\omega_{0}^{2}\tilde{y}=\frac{q}{m}E_{0}e^{-i\omega t}$$
 where we used [[Euler's formula]] to see the cosine as the real part of a complex exponential. In a steady state, the system oscillates at the driving frequency
 $$\tilde{x}(t)=\tilde{x}_{0}e^{-i\omega t}$$

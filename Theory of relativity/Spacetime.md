@@ -9,7 +9,7 @@ aliases:
 ---
 **Spacetime** is a mathematical model to simultaneously describe the three spatial dimensions and one temporal dimension of the Universe, in a single four-dimensional space.
 
-In the absence of [[Gravitational interaction|gravity]], spacetime is described by a **Minkowski space**, which is a [[metric space]] equipped with a [[scalar product]], given by the [[metric tensor]], used to describe the concept of distance in spacetime. In the presence of gravity, it is necessary to use general relativity and the Minkowski space becomes the special case of a **flat spacetime**.
+In the absence of [[Gravitational interaction|gravity]], spacetime is described by a **Minkowski space**, which is a [[metric space]] equipped with a [[Scalar product]], given by the [[metric tensor]], used to describe the concept of distance in spacetime. In the presence of gravity, it is necessary to use general relativity and the Minkowski space becomes the special case of a **flat spacetime**.
 
 An [[event]] $a$ that occurs at some time $t$ in history and in some location $(x,y,z)$ in space is a point in spacetime, specifically the [[four-vector]] $a=(t,x,y,z)$. The trajectory drawn by an object in spacetime is called a [[world line]].
 ### Causality
@@ -29,7 +29,7 @@ where $t$ is the temporal difference between events (how far apart in history th
 2. **Timelike** ($I<0$): the events do not occur at the same time but may occur in the same place. There is always a valid Lorentz transformation to a frame in which they occur in the same place, for one can just travel from one to the other at speed $d/t<c$ to be there in time. As such, the events are *causally linked*, since a single observer can experience them in sequence, provided they travel sufficiently fast. There is however *no* transformation to have them happen at the same time.
 3. **Lightlike** ($I=0$): the events are technically causally linked (timelike) but only by something moving at the speed of light. Anything slower and they become spacelike.
 #### The light cone
-It's fair to have a hard time grasping what any of this means. Fortunately, we have a conventional way of drawing these concepts graphically in a figure known as a **Minkowski diagram**, which you can see below. It is a plot in space and time, drawn using 1D space to make a 2D plot. Any [[curve]] in this graph is a world line.
+It's fair to have a hard time grasping what any of this means. Fortunately, we have a conventional way of drawing these concepts graphically in a figure known as a **Minkowski diagram**, which you can see below. It is a plot in space and time, drawn using 1D space to make a 2D plot. Any [[Curve]] in this graph is a world line.
 
 ![[Diagram Light cone.svg|100%|center]]
 

@@ -6,8 +6,8 @@ The **Bohr model** is a classical model of the structure of the [[hydrogen atom]
 ![[Schema Modello di Bohr.svg|50%|center]]
 ### Postulates
 The Bohr model is a fundamentally classical description, which describes [[electron|electrons]] as "orbiting" the nucleus. We know now that this is not true due to the quantum nature of electrons, but at the time it was still uncertain. Despite this, the model is based on three postulates, which essentially "mimic" quantum behavior before said behavior was even fully understood[^1]:
-1. Only a discrete set of [[circle|circular]] orbits is allowed. These orbits are called [[stationary state|stationary states]].
-2. Electrons in stable orbits do not [[radiation|radiate]]. The emission or absorption of radiation is related solely to [[state transition|state transitions]] from one orbit to another.
+1. Only a discrete set of [[circle|circular]] orbits is allowed. These orbits are called [[Stationary state|stationary states]].
+2. Electrons in stable orbits do not [[radiation|radiate]]. The emission or absorption of radiation is related solely to [[State transition|state transitions]] from one orbit to another.
 3. The [[angular momentum]] of the circular orbits admits only discrete values, as given by the formula $L=n\hbar$, where $n\in \mathbb{N}$ and $\hbar$ is the [[Planck constant|reduced Planck constant]].
 
 The origin of these postulates is the discrepancy between experiment and theory of the time regarding electron radiation. It was well known that accelerating [[Electric charge|charges]] emit [[Electromagnetic radiation]], but it was also a fact that stable atoms presented no radiation whatsoever. Since orbiting electrons must have *some* acceleration (at least centripetal acceleration), the lack of radiation was concerning and highlighted some flaw in the theory. Moreover, the frequencies of light that were seen being emitted by the hydrogen atom were very specific discrete values. These issues would eventually be solved by quantum theory, but before then, Bohr set these postulates up to enforce the undeniable experimental evidence.

@@ -33,7 +33,7 @@ The benefit of finding constants of motion is that they add [[constraint|constra
 > $$\frac{F(x)}{m}=f(x)=- \frac{V'(x)}{m}$$
 > where $m$ is the mass. $f(x)$ is an acceleration, $f(x)=a=\ddot{x}$. The total energy therefore is
 > $$E(x,v)=\frac{1}{2}mv^{2}+V(x)$$
-> where the first term is [[kinetic energy]]. In such a system, this is always a constant of motion. In fact, using the [[chain rule]] we get
+> where the first term is [[kinetic energy]]. In such a system, this is always a constant of motion. In fact, using the [[Chain rule]] we get
 > $$\frac{d}{dt}E(x(t),v(t))=\frac{ \partial E }{ \partial x } (x(t),v(t))\dot{x}(t)+\frac{ \partial E }{ \partial v } (x(t),v(t))\dot{v}(t)=\ldots$$
 > This system is described by the two ODEs $\dot{x}=v$ and $\dot{v}=f(x)$. We can substitute these two above
 > $$\ldots=\frac{ \partial E }{ \partial x } (x(t),v(t))v(t)+\frac{ \partial E }{ \partial v } (x(t),v(t))f(x(t))=\ldots$$
@@ -65,7 +65,7 @@ In systems with multiple coordinates, the constant of motion only finds the moti
 > [!example]- Mechanical system with purely positional forces
 > For a mechanical system with purely positional forces, if the Lagrangian is explicitly time independent, $L\equiv L(q,\dot{q})$, then we can write
 > $$L(q,\dot{q})=\frac{1}{2}\sum_{n,k} a_{nk}(q)\dot{q}_{n}\dot{q}_{k}-V(q)=T_{2}-V$$
-> $a$ is a [[homogeneous function]] of degree $2$ in $\dot{q}$ and $V$ is a homogeneous function of degree $0$ in $\dot{q}$. The quantity $E$ is
+> $a$ is a [[Homogeneous function]] of degree $2$ in $\dot{q}$ and $V$ is a homogeneous function of degree $0$ in $\dot{q}$. The quantity $E$ is
 > $$E=\sum_{k=1}^{n} \dot{q}_{k}\frac{ \partial L }{ \partial \dot{q}_{k} } -L=\underbrace{ \sum_{k=1}^{n} \dot{q}_{k}\frac{ \partial T_{2} }{ \partial \dot{q}_{k} } }_{ 2T_{2} } -T_{2}+V=T_{2}+V$$
 > We can see that $E$ is the *total* mechanical energy of the system, given by the sum of [[kinetic energy]] and [[potential energy]].
 
@@ -77,7 +77,7 @@ In systems with multiple coordinates, the constant of motion only finds the moti
 > $$\frac{d}{dt} \frac{ \partial L }{ \partial y } -\frac{ \partial L }{ \partial y } =0\quad\to \quad \ddot{y}=-\omega ^{2}y$$
 > These are simple second order ODEs that solve to
 > $$x(t)=A_{x}\cos(\omega t+\varphi_{x}),\qquad y(t)=A_{y}\cos(\omega t+\varphi_{y})$$
-> For an illustrating example, we should also solve this in [[polar coordinates]]. If we use the [[coordinate transformation]] $r=\cos \varphi,\ y=r\sin \varphi$, the Lagrangian becomes
+> For an illustrating example, we should also solve this in [[polar coordinates]]. If we use the [[Coordinate transformation]] $r=\cos \varphi,\ y=r\sin \varphi$, the Lagrangian becomes
 > $$L=\frac{m}{2}(\dot{r}^{2}+r^{2}\dot{\varphi}^{2})- \frac{m\omega ^{2}}{2}r^{2}$$
 > This Lagrangian does not explicitly depend on $\varphi$; this is your hint that there's a constant of motion somewhere in here. The terms of $E$ are
 > $$0=\frac{d}{dt} \frac{ \partial L }{ \partial \dot{r} } -\frac{ \partial L }{ \partial r } =m \ddot{r}-mr \dot{\varphi}^{2}+m \omega ^{2}r\quad\to \quad \ddot{r}=-\omega ^{2}r+r \dot{\varphi}^{2}$$

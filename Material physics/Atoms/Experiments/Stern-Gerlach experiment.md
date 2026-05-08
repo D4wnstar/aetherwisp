@@ -1,7 +1,7 @@
 ---
 hl-publish: true
 ---
-The **Stern-Gerlach experiment** is an experiment that almost accidentally discovered the [[spin]] of the [[electron]]. The true purpose of the experiment was to measure whether [[Particle|particles]] have an intrinsic [[angular momentum]] or not.
+The **Stern-Gerlach experiment** is an experiment that almost accidentally discovered the [[Spin]] of the [[electron]]. The true purpose of the experiment was to measure whether [[Particle|particles]] have an intrinsic [[angular momentum]] or not.
 ### Theory
 The idea behind the Stern-Gerlach experiment starts from the [[Bohr model]] of the [[hydrogen atom]], which suggests that, since electrons orbit the [[Atomic nucleus|nucleus]], and rotating [[Electric charge|electric charges]] produce a [[magnetic field]], then hydrogen atoms should, at least in principle, be a naturally occurring [[magnetic dipole]] with [[magnetic dipole moment]] determined exactly by the motion of the electron.
 
@@ -34,7 +34,7 @@ The experiment consisted of a source of silver atoms, which are then aimed and f
 
 In the old way of thinking, there's no reason to think that we would see anything other than a smooth distribution of measured hits across the entire surface of the detector (see 4 in the figure). In the simple case of a hydrogen atom in the ground state, anything between $\mu_{B}$ and $-\mu_{B}$ would be fine, as it depends on how fast the atom is spinning. However, Bohr noted that this isn't the case. *Only* $\mu_{B}$ and $-\mu_{B}$ are allowed, but nothing in between. It's either spinning at a set (angular) speed in one direction, or at the same speed in the other. No in-between.
 
-In fact, the observed distribution (see 5 in the figure) was only peaked around two points, at the two extremes, with near zero measurements everywhere else. Some atoms were being pushed up, other were being pushed down, but all of them with the same force, as they all landed near the same point. This confirmed Bohr's vision: there can only be discrete angular momenta. This behavior matched what would would expect out of a spinning particle and more. Not only did the atoms possess some sort of *intrinsic* magnetic dipole (and thus angular momentum), it was also *quantized*, just as Bohr had predicted. This intrinsic angular momentum was, in reference to the classical counterpart, named [[spin]].
+In fact, the observed distribution (see 5 in the figure) was only peaked around two points, at the two extremes, with near zero measurements everywhere else. Some atoms were being pushed up, other were being pushed down, but all of them with the same force, as they all landed near the same point. This confirmed Bohr's vision: there can only be discrete angular momenta. This behavior matched what would would expect out of a spinning particle and more. Not only did the atoms possess some sort of *intrinsic* magnetic dipole (and thus angular momentum), it was also *quantized*, just as Bohr had predicted. This intrinsic angular momentum was, in reference to the classical counterpart, named [[Spin]].
 ### A correction
 The formula we derived for $\mu$ works well enough for orbital momentum, but displays issues for spin. In reality, for spin specifically, this relationship is not quite correct, but the proof is not within the scope or historical context of this article. Quantum mechanics tells us that there is a factor, called the (electron spin) **[[g-factor]]** $g$, that rescales this equation, such that
 $$\mu_{e}=g\frac{eS_{e}}{2m_{e}}$$
@@ -47,4 +47,4 @@ $$\boldsymbol{\mu}=-g\mu_{B} \frac{\mathbf{J}}{\hbar}$$
 
 [^2]: Technically it should be $-e$, but the sign doesn't matter: we can just make the electron orbit the other way and the sign disappears anyway, so we might as well ignoring from the start.
 
-[^3]: Note that the inhomogeneity is obligatory, as since we assume that $\nabla \boldsymbol{\mu}=0$ ($\boldsymbol{\mu}$ is a constant of the atom), the only term that can produce a nonzero force is $\nabla \mathbf{B}$. A uniform field as zero [[gradient]] everywhere, so no force would be felt.
+[^3]: Note that the inhomogeneity is obligatory, as since we assume that $\nabla \boldsymbol{\mu}=0$ ($\boldsymbol{\mu}$ is a constant of the atom), the only term that can produce a nonzero force is $\nabla \mathbf{B}$. A uniform field as zero [[Gradient]] everywhere, so no force would be felt.

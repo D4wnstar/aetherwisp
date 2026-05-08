@@ -5,7 +5,7 @@ An **ideal crystal** is a solid-state material with a periodic, perfectly geomet
 $$H=\underbrace{ \sum_{i} \frac{p_{i}^{2}}{2m_{i}}+ \sum_{j} \frac{P_{j}^{2}}{2M_{j}} }_{ \text{Kinetic terms} }+ \underbrace{ \frac{1}{2}\sum_{j,j'} \frac{Z_{j}Z_{j'}e^{2}}{\lvert \mathbf{R}_{j}-\mathbf{R}_{j'} \rvert } }_{ \text{Ion-ion interaction} }+ \underbrace{ \frac{1}{2}\sum_{i,i'} \frac{e^{2}}{\lvert \mathbf{r}_{i}-\mathbf{r}_{i'} \rvert } }_{ \text{Electron-electron interaction} }-\underbrace{ \sum_{i,j} \frac{Z_{j}e^{2}}{\lvert \mathbf{r}_{i}-\mathbf{R}_{j} \rvert } }_{ \text{Ion-electron interaction} }$$
 This is an $N$-body Hamiltonian that's certainly not analytically solvable. It can be solved in an approximate manner by combining two assumptions:
 1. **Core and valence electrons**. We split electrons in two categories: core electrons (inner electron shells) and valence electrons (outermost electron shell). Only the valence electrons are significant when it comes to interactions.
-2. **Born-Oppenheimer approximation**. The [[Born-Oppenheimer approximation]] is noticing that the [[Atomic nucleus|nuclei]] move at much lower speeds than the electrons, which allows us to state that ions are subject to a [[mean]] [[potential]] and that the electrons see the ions as basically stationary.
+2. **Born-Oppenheimer approximation**. The [[Born-Oppenheimer approximation]] is noticing that the [[Atomic nucleus|nuclei]] move at much lower speeds than the electrons, which allows us to state that ions are subject to a [[mean]] [[Potential]] and that the electrons see the ions as basically stationary.
 
 In this sense, the Hamiltonian can be written as
 $$H\equiv H_\text{ions}(R_{i})+H_{e}(r_{i},R_{j})+H_\text{e-ion}(r_{i},\delta R_{j})$$
@@ -56,7 +56,7 @@ where $M$ is the [[mass]] of the ion.
 
 Let's start from a 1D crystal, so an (effectively) infinite chain of oscillators all bound to their two closest neighbors. We'll assume each primitive cell has just one ion in it. The oscillations are longitudinal, that is, on the axis of the springs[^2]. The lattice parameter is $a$, so each ion's resting position is $na$, for $n\in \mathbb{Z}$. We assume that the ions only interact with their nearest neighbors (short range approximation), so the potential is
 $$U_\text{harmonic}=\frac{1}{2}\phi''(a)\sum_{n}[u(na)-u([n+1]a)]^{2}$$
-The [[ordinary differential equation|differential equation]] of motion then is
+The [[Ordinary differential equation|differential equation]] of motion then is
 $$M\ddot{u}(na)=-\frac{ \partial U_\text{harmonic} }{ \partial u(na) }=-\phi''(a)[2u(na)-u([n-1]a)-u([n+1]a)] \tag{1}$$
 This is the equation of motion of a [[point mass]] $M$ attached with two massless springs of elastic constant $\gamma=\phi''(a)$. It is a [[wave equation]], so we'll choose the solution for $u(na,t)\equiv u_{n}(t)$ to be a [[Plane wave]]
 $$u_{n}(t)=ue^{i(kna-\omega t)}\tag{2}$$
@@ -154,7 +154,7 @@ In any quantum statistical mechanical scenario dealing with a very large number 
 
 It's pretty common in a many-electron scenario to need to calculate a quantity $Q$ of the form
 $$Q=2\sum_{n,\mathbf{k}}Q_{n}(\mathbf{k})$$
-where the factor 2 takes [[spin]] [[Degenerazione|degeneracy]] into account and the sum is over all distinct levels $\mathbf{k}$ in a single primitive cell of the reciprocal lattice. If the volume is very large then we can define the volume density $q$ of $Q$ as
+where the factor 2 takes [[Spin]] [[Degenerazione|degeneracy]] into account and the sum is over all distinct levels $\mathbf{k}$ in a single primitive cell of the reciprocal lattice. If the volume is very large then we can define the volume density $q$ of $Q$ as
 $$q=\lim_{ V \to \infty } \frac{Q}{V}=2\sum_{n} \frac{Q_{n}(\mathbf{k})}{(2\pi)^{3}}d^{3}k$$
 If $Q_{n}(\mathbf{k})$ depends only on $\varepsilon_{n}(\mathbf{k})$, then we can define a density of states (or **density of levels** in this context) function $g(\varepsilon)$ per unit volume such that
 $$q=\int g(\varepsilon)Q(\varepsilon)d\varepsilon \quad\text{where }g(\varepsilon)=\sum_{n}g_{n}(\varepsilon)\quad\text{and }g_{n}(\varepsilon)=\int _\text{cell} \frac{\delta(\varepsilon-\varepsilon_{n}(\mathbf{k}))}{4\pi ^{3}}d^{3}k$$
@@ -167,7 +167,7 @@ $$g_{n}(\varepsilon)d\varepsilon=\int _\text{cell} \frac{d^{3}k}{4\pi ^{3}}\time
 \end{cases}$$
 Since $d\varepsilon$ is infinitesimal, the density of states can be calculated as an integral on a constant energy surface $S_{n}(\varepsilon)$ of energy $\varepsilon_{n}(\mathbf{k})=\varepsilon$:
 $$g_{n}(\varepsilon)d\varepsilon=\int_{S_{n}(\varepsilon)} \frac{\delta k(\mathbf{k})}{4\pi ^{3}}dS$$
-$\delta k(\mathbf{k})$ is the distance (in reciprocal space) between the surfaces at $\varepsilon$ and $\varepsilon+d\varepsilon$. The [[gradient]] $\nabla_{\mathbf{k}}\varepsilon_{n}(\mathbf{k})$ is normal to the constant-energy surface, so
+$\delta k(\mathbf{k})$ is the distance (in reciprocal space) between the surfaces at $\varepsilon$ and $\varepsilon+d\varepsilon$. The [[Gradient]] $\nabla_{\mathbf{k}}\varepsilon_{n}(\mathbf{k})$ is normal to the constant-energy surface, so
 $$\varepsilon+d\varepsilon=\varepsilon+\lvert \nabla_{\mathbf{k}}\varepsilon_{n} \rvert \cdot \delta k(\mathbf{k})\quad\Rightarrow \quad \delta k(\mathbf{k})=\frac{d\varepsilon}{\lvert \nabla_{\mathbf{k}}\varepsilon_{n} \rvert }$$
 Plugging this into the integral yields
 $$g_{n}(\varepsilon)=\int_{S_{n}(\varepsilon)} \frac{1}{4\pi ^{3}} \frac{dS}{\lvert \nabla_{\mathbf{k}}\varepsilon_{n} \rvert }$$
@@ -208,7 +208,7 @@ Here we can see what the solution looks like in arbitrary units. Due to periodic
 
 This is what happens for free electrons in a periodic lattice. Now let's take another step and turn on the potential. We start from a free electron [[Hamiltonian]] $H_{0}=p^{2}/2m$. These are [[Particella libera (quantistica)|free particles]] so their (continuous, delocalized, not physically valid) eigenstates are [[Plane wave|plane waves]] $\ket{\mathbf{k}}$ with eigenvalues $\varepsilon_{0}(\mathbf{k})=\hbar^{2}\lvert \mathbf{k} \rvert^{2}/2m$. Now consider a weak perturbation to this Hamiltonian — our potential — so that we get $H=H_{0}+U(\mathbf{r})$.
 
-Adding a perturbation to an otherwise stable system always adds a form of quantum dynamics, that is the possibility of a [[state transition]]. The [[matrix element]] of a transition from the state $\ket{\mathbf{k}}$ to $\ket{\mathbf{k}'}$ is
+Adding a perturbation to an otherwise stable system always adds a form of quantum dynamics, that is the possibility of a [[State transition]]. The [[matrix element]] of a transition from the state $\ket{\mathbf{k}}$ to $\ket{\mathbf{k}'}$ is
 $$\braket{ \mathbf{k}' | U | \mathbf{k} } =\frac{1}{V}\int_{\mathbb{R}^{3}} e^{i(\mathbf{k}-\mathbf{k}')\cdot \mathbf{r}}U(\mathbf{r})d\mathbf{r}\equiv U_{\mathbf{k}'-\mathbf{k}}$$
 This is zero unless $\mathbf{k}-\mathbf{k}'$ is a reciprocal lattice vector $\mathbf{K}$. Thus, a plane wave $\ket{\mathbf{k}}$ can be transitioned to another one $\ket{\mathbf{k}'}$ only if they differ by a reciprocal lattice vector.
 
@@ -234,7 +234,7 @@ $$\begin{align}
 \braket{ \mathbf{k} | H | \mathbf{k}' } &= U_{\mathbf{k}-\mathbf{k}'}=U_{\mathbf{K}}^{*} \\
 \braket{ \mathbf{k}' | H | \mathbf{k} } &= U_{\mathbf{k}'-\mathbf{k}}=U_{\mathbf{K}}
 \end{align}$$
-Since the potential is a real function, $U_{-\mathbf{K}}=U_{\mathbf{K}}^{*}$. The degenerate states $\ket{\mathbf{k}}$ and $\ket{\mathbf{k}+\mathbf{K}}$ form a two-dimensional [[vector space]] where each state is a [[linear combination]] of the two:
+Since the potential is a real function, $U_{-\mathbf{K}}=U_{\mathbf{K}}^{*}$. The degenerate states $\ket{\mathbf{k}}$ and $\ket{\mathbf{k}+\mathbf{K}}$ form a two-dimensional [[Vector space]] where each state is a [[Linear combination]] of the two:
 $$\ket{\psi} =\alpha \ket{\mathbf{k}} +\beta \ket{\mathbf{k}+\mathbf{K}} $$
 Applying degenerate perturbation theory gives the [[eigenvalue equation]]
 $$\begin{pmatrix}
@@ -326,7 +326,7 @@ The total energy eigenvalue must be the sum of this piece and the one we found b
 $$E(\mathbf{k})=E_{n}-\beta+\sum_{\mathbf{R}\neq 0}e^{i\mathbf{k}\cdot \mathbf{R}}\int \phi_{n}^{*}(\mathbf{r})\hat{H}_\text{solid}\phi_{n}(\mathbf{r}-\mathbf{R})d\mathbf{r}$$
 The integral is the real problem here. Let's see what we can do with it:
 $$\int \phi_{n}^{*}(\mathbf{r})\hat{H}_\text{solid}\phi_{n}(\mathbf{r}-\mathbf{R})d\mathbf{r}=E_{n}\int \phi_{n}^{*}(\mathbf{r})\phi_{n}(\mathbf{r}-\mathbf{R})d\mathbf{r}+\int \phi_{n}^{*}(\mathbf{r})\mathcal{U}(\mathbf{r})\phi_{n}(\mathbf{r}-\mathbf{R})d\mathbf{r}$$
-The first integral on the right is largely inconsequential: it measures the overlap of wavefunctions evaluated at different sites on the lattice, so it's never going to be significant. The second integral however cannot be ignored: the presence of $\mathcal{U}(\mathbf{r})$ makes $\mathcal{U}(\mathbf{r})\phi_{n}(\mathbf{r}-\mathbf{R})$ nontrivial even in the region it overlaps $\phi_{n}^{*}(\mathbf{r})$ so we can't drop it. Instead, we'll add a minus sign and call it $t=-\int \phi_{n}^{*}(\mathbf{r})\mathcal{U}(\mathbf{r})\phi_{n}(\mathbf{r}-\mathbf{R})d\mathbf{r}$. This term is known as the **hopping term** and measures the [[state transition]] [[Probability]] of an electron from its own orbital to an orbital of nearby atom.
+The first integral on the right is largely inconsequential: it measures the overlap of wavefunctions evaluated at different sites on the lattice, so it's never going to be significant. The second integral however cannot be ignored: the presence of $\mathcal{U}(\mathbf{r})$ makes $\mathcal{U}(\mathbf{r})\phi_{n}(\mathbf{r}-\mathbf{R})$ nontrivial even in the region it overlaps $\phi_{n}^{*}(\mathbf{r})$ so we can't drop it. Instead, we'll add a minus sign and call it $t=-\int \phi_{n}^{*}(\mathbf{r})\mathcal{U}(\mathbf{r})\phi_{n}(\mathbf{r}-\mathbf{R})d\mathbf{r}$. This term is known as the **hopping term** and measures the [[State transition]] [[Probability]] of an electron from its own orbital to an orbital of nearby atom.
 
 The energy band function, or the electron dispersion relation depending on how you want to see it, then is
 $$\boxed{E(\mathbf{k})=E_{n}-\beta-\sum_{\mathbf{R}\neq 0}t(\mathbf{R})e^{i\mathbf{k}\cdot \mathbf{R}}}$$

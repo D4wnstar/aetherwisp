@@ -10,7 +10,7 @@ where $\text{E}[\cdot]$ is the [[Expected value|expectation operator]], $\mu_{X}
 $$M_{X}(t)=e^{-t\mu_{X}}M_{X}^{*}(t)$$
 Proof is trivial: notice that $e^{t(x-\mu_{X})}=e^{tx}e^{-t\mu_{X}}$ and extract the second term from the integral of $M_{X}(t)$.
 
-To understand the connection to moments, we can express them in a [[serie di potenze|power series]] by expanding the [[exponential series]]:
+To understand the connection to moments, we can express them in a [[serie di potenze|power series]] by expanding the [[Exponential series]]:
 $$M_{X}^{*}(t)=\int_{\Omega}e^{tx}f_{X}(x)\ dx=\sum_{n=0}^{\infty} \frac{t^{n}}{n!}\int_{\Omega}x^{n}f_{X}(x)\ dx=\sum_{n=0}^{\infty} \frac{t^{n}}{n!}\mu_{n}^{*} $$
 where $\mu_{n}^{*}$ is the $n$-th order raw moment. The same applies to $M_{X}(t)$. We can extract $\mu$ by just taking $n$-th derivative for $t^{n}$ and evaluating in $t=0$:
 $$\mu^{*}_{n}=\left.\frac{ \partial ^{n}M^{*}_{X} }{ \partial t^{n} } \right|_{t=0},\qquad \mu_{n}=\left.\frac{ \partial ^{n}M_{X} }{ \partial t^{n} } \right|_{t=0}$$

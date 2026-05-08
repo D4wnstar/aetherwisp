@@ -117,7 +117,7 @@ $N_{A}$ is the [[Avogadro number]], $r_{e}$ is the classical electron radius, $\
 
 This quantity is the distance over which the electron's energy is reduced by a factor of $1/e$ due to bremmstrahlung. Note the important dependence on $Z^{2}$: it means that heavier elements are much, much better than lighter ones at stopping electrons. Some common values are 36 cm for $\ce{H_{2}O}$, 9 cm for $\ce{Al}$, 1.7 cm for $\ce{Fe}$, and 0.56 cm for $\ce{Pb}$. This explains why metals, lead especially, are such effective radiation shields.
 
-Radiative stopping power is a pretty easy first-order *linear* [[ordinary differential equation]], which solves to
+Radiative stopping power is a pretty easy first-order *linear* [[Ordinary differential equation]], which solves to
 $$K(x) = K_{0} e^{-x / L_{R}}$$
 This is a form reminiscent of the [[Beer-Lambert law]], here for kinetic energy. In fact, $L_{R}$ is essentially the bremmstrahlung absorption coefficient. Importantly, the energy loss is *exponential* with distance traveled. As such, when radiative losses dominate, they stop particles far faster than any collision.
 

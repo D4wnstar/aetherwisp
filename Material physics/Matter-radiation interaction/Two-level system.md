@@ -4,7 +4,7 @@ aliases:
   - spontaneous emission
   - stimulated emission
 ---
-A **two-level system** is a [[physical system]] with only two allowed [[energy]] levels. It is an idealized model that is useful to describe some phenomena, such as a [[qubit]], but it is not physically possible; see [[Microcanonical ensemble#Examples]] for an example of why.
+A **two-level system** is a [[physical system]] with only two allowed [[energy]] levels. It is an idealized model that is useful to describe some phenomena, such as a [[Qubit]], but it is not physically possible; see [[Microcanonical ensemble#Examples]] for an example of why.
 
 This system is interesting because it highlights [[State transition|state transitions]] in the simplest possible system: you either go up to the higher-energy **excited state**, or go down to the lower-energy **ground state**. It is therefore useful to discuss the methods by which a system may undergo these transitions.
 ### Matter-radiation interaction

@@ -15,7 +15,7 @@ Many properties of the ideal gas were already derived with classical thermodynam
 The [[heat capacity]] by volume of a monatomic ideal gas is
 $$C_{V}=\frac{3}{2}Nk_{B}$$
 #### Entropy
-The [[entropy]] of an ideal gas can calculated as a function of volume $V$ and temperature $T$ by explicitly integrating $dS=dQ/T$. Let's consider a [[stato|state]] $A$, which we approach from two different states: one using an constant-volume transformation (path 1), the other using a isothermal one (path 2).
+The [[entropy]] of an ideal gas can calculated as a function of volume $V$ and temperature $T$ by explicitly integrating $dS=dQ/T$. Let's consider a [[Stato|state]] $A$, which we approach from two different states: one using an constant-volume transformation (path 1), the other using a isothermal one (path 2).
 
 Along path 1, $V$ is constant, so
 $$\int \frac{dQ}{T}=C_{V}\int \frac{dT}{T}$$

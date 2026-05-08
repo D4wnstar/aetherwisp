@@ -1,7 +1,7 @@
 ---
 hl-publish: true
 ---
-A **quark** is an [[Particle|elementary particle]] with fractional [[electric charge]] and [[spin]] 1/2. All quarks are therefore [[Fermion|fermions]]. Quarks are the fundamental unit with which [[hadron|hadrons]] are composed of and are one of the major components of the [[Standard Model]]. Being fermions, they are described by the [[Dirac equation]], which implies the existence of antiquarks. There are six [[flavor|flavors]] of quarks:
+A **quark** is an [[Particle|elementary particle]] with fractional [[electric charge]] and [[Spin]] 1/2. All quarks are therefore [[Fermion|fermions]]. Quarks are the fundamental unit with which [[hadron|hadrons]] are composed of and are one of the major components of the [[Standard Model]]. Being fermions, they are described by the [[Dirac equation]], which implies the existence of antiquarks. There are six [[flavor|flavors]] of quarks:
 1. [[Up quark]] $u$
 2. [[Down quark]] $d$
 3. [[Strange quark]] $s$

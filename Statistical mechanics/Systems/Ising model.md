@@ -1,9 +1,9 @@
 ---
 hl-publish: true
 ---
-The **Ising model** is a simplified model of [[ferromagnetism]] through statistical mechanics. It represents the total [[magnetization]] of a material by denoting each [[Atom|atom]] as being either [[spin]] up or down, with nearby atoms possessing an interaction that tends to move them to the same spin. The total magnetization arises from the collective arrangement of nearby atoms in the same spin. The model also shows a [[phase transition]].
+The **Ising model** is a simplified model of [[ferromagnetism]] through statistical mechanics. It represents the total [[magnetization]] of a material by denoting each [[Atom|atom]] as being either [[Spin]] up or down, with nearby atoms possessing an interaction that tends to move them to the same spin. The total magnetization arises from the collective arrangement of nearby atoms in the same spin. The model also shows a [[phase transition]].
 
-Consider a [[lattice]] of $N$ sites (i.e. atoms).  Each atom is given a discrete variable $S=\pm 1$ representing whether it is spin up or down. The set of all spins describes the [[stato|state]] of the [[Physical system|system]] and is denoted $\{ S_{i} \}_{i\in N}$. Adjacent atoms have an interaction $J\in \mathbb{R}$ and the system is subject to an external [[magnetic field]] $h$. The [[Hamiltonian]] of the Ising model is therefore
+Consider a [[lattice]] of $N$ sites (i.e. atoms).  Each atom is given a discrete variable $S=\pm 1$ representing whether it is spin up or down. The set of all spins describes the [[Stato|state]] of the [[Physical system|system]] and is denoted $\{ S_{i} \}_{i\in N}$. Adjacent atoms have an interaction $J\in \mathbb{R}$ and the system is subject to an external [[magnetic field]] $h$. The [[Hamiltonian]] of the Ising model is therefore
 $$H=-J\sum_{\langle i,j \rangle}S_{i}S_{j}-h\sum_{i=1}^{N}S_{i}$$
 where $\langle i,j \rangle$ denotes a sum over adjacent atoms. This is the simplest case, in which we have a constant interaction and a constant magnetic field. It possible for these to change for every site, in which case we'd have
 $$H=-\sum_{\langle i,j \rangle}J_{ij}S_{i}S_{j}-\sum_{i=1}^{N}h_{i}S_{i}$$
@@ -19,7 +19,7 @@ In a **binary alloy**, each cell in the grid contains a particle, and each parti
 $$H=\frac{1}{4}\sum_{\langle i,j \rangle }J_{AA}(1+S_{i})(1+S_{j})+ \frac{1}{4}\sum_{\langle i,j \rangle }J_{BB}(1+S_{i})(1+S_{j})+ \frac{1}{4}\sum_{\langle i,j \rangle }J_{AB}(1+S_{i})(1+S_{j})$$
 The interaction is determined by how the particles want to align (for instance, in columns or rows of same alignment).
 #### Potts model
-The **spin-1 Ising model** is an Ising model applied to [[spin]]-1 particles. It can be extend to an arbitrary spin $s$. The $S$ here can be $S_{i}=1,\ldots,q$ (TODO: Rewatch lesson from 13/11/2024). The Hamitonian for is
+The **spin-1 Ising model** is an Ising model applied to [[Spin]]-1 particles. It can be extend to an arbitrary spin $s$. The $S$ here can be $S_{i}=1,\ldots,q$ (TODO: Rewatch lesson from 13/11/2024). The Hamitonian for is
 $$H=-J\sum_{\langle i,j \rangle }\delta_{S_{i},S_{j}}-h\sum_{i} \delta_{i,S_{i}}$$
 There is a further extension called the **Potts model**, where the Hamiltonian is
 $$H=-J\sum_{\langle i,j \rangle }\overline{S}_{i}\overline{S}_{j}$$
@@ -75,7 +75,7 @@ The Ising model can be rewritten in quantum mechanical terms. The classical Isin
 $$H=-J\sum_{\langle i,j \rangle }S_{i}S_{j}-h\sum_{i}S_{i},\quad S_{i}=\pm 1$$
 This is classical in the sense that the $S_{i}$ are just numbers, bits. They naturally [[Commutator|commute]] with each other. Some things are reminiscent of quantum mechanics, such as the fact that there are discrete energy levels for each [[Stato|microstate]]. But they are not states in the quantum sense, they're just due to the kind of description of the system we are using (which employs a set of discrete quantities). Each element of the system can classically be either *up* or *down*, $\uparrow$ or $\downarrow$, true or false, 1 or -1. When we make the quantum leap, these become individual quantum states $\ket{S}$, which are no longer discrete: they are linear combinations in $\mathbb{C}^{2}$ of the two [[Equazione agli autovalori|eigenstates]] $\ket{\uparrow}$ and $\ket{\downarrow}$, such that
 $$\ket{S} =\alpha \ket{\uparrow} +\beta \ket{\downarrow} $$
-In other words, we went from bits to [[qubit|qubits]]. The $S$ values become [[Osservabile|observables]] and are described by [[Operatore autoaggiunto|self-adjoint operators]] $\hat{S}_{i}$. In particular, since these are (two-dimensional) spin states, they are described by the [[Matrici di Pauli|Pauli matrices]]:
+In other words, we went from bits to [[Qubit|qubits]]. The $S$ values become [[Osservabile|observables]] and are described by [[Operatore autoaggiunto|self-adjoint operators]] $\hat{S}_{i}$. In particular, since these are (two-dimensional) spin states, they are described by the [[Matrici di Pauli|Pauli matrices]]:
 $$S_{i}\quad\to \quad \hat{S}_{i}=\sigma_{z}^{i}=\begin{pmatrix}
 1 & 0 \\
 0 & -1

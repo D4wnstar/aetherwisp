@@ -1,9 +1,9 @@
 ---
 hl-publish: true
 ---
-An **equilibrium point**, in mathematics, is a constant solution to a differential equation. Given a generic [[Ordinary differential equation|ODE]] $\dot{\mathbf{x}}(t)=f(\mathbf{x}(t))$, an equilibrium point is a solution $\mathbf{x}(t)=\mathbf{c}$. They are called equilibrium *points* because their "trajectories" in [[phase space]] are actually just a single point, unlike the usual [[curve]]. Unless perturbed, the system never moves out of the equilibrium point.
+An **equilibrium point**, in mathematics, is a constant solution to a differential equation. Given a generic [[Ordinary differential equation|ODE]] $\dot{\mathbf{x}}(t)=f(\mathbf{x}(t))$, an equilibrium point is a solution $\mathbf{x}(t)=\mathbf{c}$. They are called equilibrium *points* because their "trajectories" in [[phase space]] are actually just a single point, unlike the usual [[Curve]]. Unless perturbed, the system never moves out of the equilibrium point.
 ### Properties
-- Equilibrium points constitute the set of all zeros of the [[vector field]] $f$: if $\mathbf{c}$ is an equilibrium point, then $f(\mathbf{c})=0$ for all $t$; the converse also applies. 
+- Equilibrium points constitute the set of all zeros of the [[Vector field]] $f$: if $\mathbf{c}$ is an equilibrium point, then $f(\mathbf{c})=0$ for all $t$; the converse also applies. 
 - An equilibrium point $\mathbf{c}$ is **stable** if for every neighborhood $U$ of $\mathbf{c}$, there exists another neighborhood $V$ of $\mathbf{c}$ such that any motion $\mathbf{x}(t;\mathbf{x}_{0})$ that starts in $V$ ($\mathbf{x}_{0}\in V$) remains in $U$ for all $t$. An equilibrium point that doesn't meet this condition is **unstable**.
 - A less binding property is being stable **in the future** and **in the past**. These have the same definition, but motion only remains in $U$ for all $t>0$ (future) or $t<0$ (past).
 ### Search
@@ -28,7 +28,7 @@ This is a one-dimensional, linear ODE in $\xi$. It's solution is easy: it's an e
 
 Now, it would be great if there were a universal solution to this approximation. That way, we'd have a good-enough universal solution to all mechanical systems near equilibrium. Turns out, there actually is one. To find it, we make the following ansatz:
 $$\text{The partial solution of }\boldsymbol{\xi}(t)\text{ is }\rho(t)\mathbf{u}\text{ where }\mathbf{u}\in \mathbb{R}^{N}$$
-Basically, we claim that $\boldsymbol{\xi}(t)$ is a constant vector $\mathbf{u}$ scaled by a [[scalar field]] $\rho(t)$. Plugging this into the linearized equation, knowing that $\dot{\boldsymbol{\xi}}(t)=\dot{\rho}(t)\mathbf{u}$, we get
+Basically, we claim that $\boldsymbol{\xi}(t)$ is a constant vector $\mathbf{u}$ scaled by a [[Scalar field]] $\rho(t)$. Plugging this into the linearized equation, knowing that $\dot{\boldsymbol{\xi}}(t)=\dot{\rho}(t)\mathbf{u}$, we get
 $$\dot{\rho}(t)\mathbf{u}=\rho(t)\mathrm{A}\mathbf{u}$$
 For this to hold, $\mathbf{u}$ must be an [[Equazione agli autovalori|eigenvector]] of $\mathrm{A}$, of some eigenvalue $\alpha$, so that
 $$\mathrm{A}\mathbf{u}=\alpha \mathbf{u}\quad\Rightarrow \quad \dot{\rho}(t)\mathbf{u}=\alpha\rho(t)\mathbf{u}$$
@@ -36,9 +36,9 @@ We can now match the coefficients of $\mathbf{u}$:
 $$\dot{\rho}(t)=\alpha \rho(t) \quad\Rightarrow \quad \rho (t)=Ce^{\alpha t}$$
 Thus, the partial solution of $\boldsymbol{\xi}(t)$ must in general be
 $$\boldsymbol{\xi}(t)=Ce^{\alpha t}\mathbf{u}$$
-for some constants $C$ and an eigenvalue $\alpha$ satisfying $\mathrm{A}\mathbf{u}=\alpha \mathbf{u}$. There is one of these for each eigenvector $\mathbf{u}$. The general solution will then be the [[linear combination]] of all of these:
+for some constants $C$ and an eigenvalue $\alpha$ satisfying $\mathrm{A}\mathbf{u}=\alpha \mathbf{u}$. There is one of these for each eigenvector $\mathbf{u}$. The general solution will then be the [[Linear combination]] of all of these:
 $$\boxed{\boldsymbol{\xi}(t)=\sum_{k=1}^{N} C_{k}e^{\alpha_{k}t}\mathbf{u}_{k}}$$
-This approach works as long as $\mathrm{A}\equiv \mathrm{J}(\mathbf{c})$ is [[Diagonalization|diagonalizable]] or at the very least admits a [[basis]] of eigenvectors $\mathbf{u}_{1},\ldots,\mathbf{u}_{N}$. The behavior of $\boldsymbol{\xi}(t)$ near $\mathbf{c}$ can then be discerned by the real parts of $\alpha_{k}$ (which may very well be complex):
+This approach works as long as $\mathrm{A}\equiv \mathrm{J}(\mathbf{c})$ is [[Diagonalization|diagonalizable]] or at the very least admits a [[Basis]] of eigenvectors $\mathbf{u}_{1},\ldots,\mathbf{u}_{N}$. The behavior of $\boldsymbol{\xi}(t)$ near $\mathbf{c}$ can then be discerned by the real parts of $\alpha_{k}$ (which may very well be complex):
 - if all $\alpha_{k}$ have negative real parts, $\mathbf{c}$ is stable;
 - if all $\alpha_{k}$ have positive real parts, $\mathbf{c}$ is unstable;
 - if any $\alpha_{k}$ has zero real part but nonzero imaginary part, then that signals oscillatory behavior around the equilibrium.

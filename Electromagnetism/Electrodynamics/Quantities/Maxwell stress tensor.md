@@ -1,7 +1,7 @@
 ---
 hl-publish: true
 ---
-The **Maxwell stress tensor** is a three-dimensional symmetric second-order [[tensor]] used to simplify the equations of electrodynamics into shorter forms. In plain terms, it's a $3\times3$ [[symmetric matrix]]. It exploits the symmetries found between the [[electric field]] $\mathbf{E}$ and the [[magnetic field]] $\mathbf{B}$. It is defined through its components as
+The **Maxwell stress tensor** is a three-dimensional symmetric second-order [[tensor]] used to simplify the equations of electrodynamics into shorter forms. In plain terms, it's a $3\times3$ [[Symmetric matrix]]. It exploits the symmetries found between the [[electric field]] $\mathbf{E}$ and the [[magnetic field]] $\mathbf{B}$. It is defined through its components as
 $$T_{ij}=\varepsilon_{0}\left( E_{i}E_{j}- \frac{1}{2}\delta_{ij}E^{2} \right)+ \frac{1}{\mu_{0}}\left( B_{i}B_{j}- \frac{1}{2}\delta_{ij}B^{2} \right)$$
 where $\varepsilon_{0}$ is the [[vacuum permittivity]], $\mu_{0}$ is the [[vacuum permeability]] and $\delta_{ij}$ is the [[Kronecker delta]]. Being symmetrical, $T_{ij}=T_{ji}$ for all $i$ and $j$.
 
@@ -10,7 +10,7 @@ Physically, the Maxwell stress tensor binds [[Lorentz force|electromagnetic forc
 ![[Diagram Maxwell stress tensor components.svg]]
 
 > [!question] A note on notation
-> Like much of the literature using tensors, these notes generally use the "sum over repeated indexes" notation popularized by Einstein, known as [[Einstein notation]]. Normally, a [[scalar product]] between the $j$-th column of a tensor $T$ and a vector $\mathbf{a}$ would be written as
+> Like much of the literature using tensors, these notes generally use the "sum over repeated indexes" notation popularized by Einstein, known as [[Einstein notation]]. Normally, a [[Scalar product]] between the $j$-th column of a tensor $T$ and a vector $\mathbf{a}$ would be written as
 > $$(T\cdot \mathbf{a})_{j}=\sum_{i=1}^{3} T_{ij}a_{i}$$
 > For brevity, whenever two identical indices appear in the same expression, the summation will be *implied*:
 > $$\sum_{i=1}^{3} T_{ij}a_{i}\quad\to \quad T_{ij}a_{i}$$
@@ -25,19 +25,19 @@ To start, we write the Lorentz force in density form:
 $$\mathbf{f}=\rho \mathbf{E}+\mathbf{J}\times \mathbf{B}$$
 Ideally, we want the most generic, expressive form that this equation can take. Using [[Gauss' law]] and the [[Ampere's law|Ampere-Maxwell law]] we get
 $$\mathbf{f}=(\varepsilon_{0}\nabla\cdot\mathbf{E})\mathbf{E}+ \left( \frac{1}{\mu_{0}}\nabla\times\mathbf{B}-\varepsilon_{0} \frac{ \partial \mathbf{E} }{ \partial t }  \right)\times \mathbf{B}$$
-Let's tackle the the terms one by one, using known vector calculus equations. The derivative of a [[curl]] is
+Let's tackle the the terms one by one, using known vector calculus equations. The derivative of a [[Curl]] is
 $$\frac{ \partial  }{ \partial t } (\mathbf{E}\times \mathbf{B})=\left( \frac{ \partial \mathbf{E} }{ \partial t } \times \mathbf{B} \right)+\left( \mathbf{E}\times \frac{ \partial \mathbf{B} }{ \partial t }  \right)$$
 we can invert the equation to find
 $$\frac{ \partial \mathbf{E} }{ \partial t } \times \mathbf{B}=\frac{ \partial }{ \partial t } (\mathbf{E}\times \mathbf{B})-\mathbf{E}\times \frac{ \partial \mathbf{B} }{ \partial t } =\frac{ \partial  }{ \partial t } (\mathbf{E}\times \mathbf{B})+\mathbf{E}\times(\nabla\times\mathbf{E})$$
 using [[Faraday's law]]. Conveniently, this is the very last term of $\mathbf{f}$, barring $\varepsilon_{0}$. If we plug it in we get
 $$\mathbf{f}=\varepsilon_{0}(\nabla\cdot\mathbf{E})\mathbf{E}+ \frac{1}{\mu_{0}}(\nabla\times\mathbf{B})\times \mathbf{B}-\varepsilon_{0}\frac{ \partial  }{ \partial t } (\mathbf{E}\times \mathbf{B})-\varepsilon_{0}\mathbf{E}\times(\nabla\times\mathbf{E})$$
-Using the anticommutative property of the [[vector product]], we can write $(\nabla\times\mathbf{B})\times \mathbf{B}=-\mathbf{B}\times(\nabla\times\mathbf{B})$, so that the magnetic term is symmetrical to the electric one (the last one). Moreover, for the sake of symmetry, we can make the term $\frac{1}{\mu_{0}}(\nabla\cdot\mathbf{B})\mathbf{B}$ appear out of nowhere since $\nabla\cdot\mathbf{B}=0$ anyway. We get
+Using the anticommutative property of the [[Vector product]], we can write $(\nabla\times\mathbf{B})\times \mathbf{B}=-\mathbf{B}\times(\nabla\times\mathbf{B})$, so that the magnetic term is symmetrical to the electric one (the last one). Moreover, for the sake of symmetry, we can make the term $\frac{1}{\mu_{0}}(\nabla\cdot\mathbf{B})\mathbf{B}$ appear out of nowhere since $\nabla\cdot\mathbf{B}=0$ anyway. We get
 $$\begin{align}
 \mathbf{f}&=\varepsilon_{0}(\nabla\cdot\mathbf{E})\mathbf{E}-\varepsilon_{0}\mathbf{E}\times(\nabla\times\mathbf{E}) \\
 &+ \frac{1}{\mu_{0}}(\nabla\cdot\mathbf{B})\mathbf{B}- \frac{1}{\mu_{0}}\mathbf{B}\times(\nabla\times\mathbf{B}) \\
 &-\varepsilon_{0}\frac{ \partial  }{ \partial t } (\mathbf{E}\times \mathbf{B})
 \end{align}$$
-The [[gradient]] of a [[Scalar product|scalar product]] is
+The [[Gradient]] of a [[Scalar product|scalar product]] is
 $$\nabla(\mathbf{V}\cdot \mathbf{W})=\mathbf{V}\times(\nabla\times\mathbf{W})+\mathbf{W}\times(\nabla\times\mathbf{V})+(\mathbf{V}\cdot \nabla)\mathbf{W}+(\mathbf{W}\cdot \nabla)\mathbf{V}$$
 If $\mathbf{V}=\mathbf{W}=\mathbf{E}$ we find
 $$\nabla(E^{2})=2\mathbf{E}\times(\nabla\times\mathbf{E})+2(\mathbf{E}\cdot \nabla)\mathbf{E}$$
@@ -55,7 +55,7 @@ As foreshadowed, this is a very lengthy equation, with seven total terms. That s
 $$\boxed{T_{ij}=\varepsilon_{0}\left( E_{i}E_{j}- \frac{1}{2}\delta_{ij}E^{2} \right)+ \frac{1}{\mu_{0}}\left( B_{i}B_{j}- \frac{1}{2}\delta_{ij}B^{2} \right)}$$
 where $\delta_{ij}$ is the [[Kronecker delta]].
 #### Divergence
-As it stands, it is unclear how $T_{ij}$ can help us in simplifying anything, much less $\mathbf{f}$. The reason why it is useful is hidden behind the [[divergence]] of $\mathrm{T}$ as a whole. The divergence is usually only defined on [[Vector space|vectors]], but can be specified more broadly over tensors as an operation that reduces the order of the tensor by one. Since vectors are first-order tensors, their divergence is a zeroth-order tensor, i.e. a [[scalar]]. The divergence of a second-order tensor like $\mathrm{T}$ therefore must be a first-order tensor, i.e. a vector.
+As it stands, it is unclear how $T_{ij}$ can help us in simplifying anything, much less $\mathbf{f}$. The reason why it is useful is hidden behind the [[Divergence]] of $\mathrm{T}$ as a whole. The divergence is usually only defined on [[Vector space|vectors]], but can be specified more broadly over tensors as an operation that reduces the order of the tensor by one. Since vectors are first-order tensors, their divergence is a zeroth-order tensor, i.e. a [[Scalar]]. The divergence of a second-order tensor like $\mathrm{T}$ therefore must be a first-order tensor, i.e. a vector.
 
 Unfortunately, tensors are very complicated objects and calculating their divergence is everything but straightforward. What we can do is calculate the divergence for each axis $j$. In this context, the divergence over the $j$-th axis is given by $(\nabla\cdot \mathrm{T})_{j}=\sum_{i=1}^{3}\partial_{i}T_{ij}$, which means[^1]
 $$(\nabla\cdot \mathrm{T})_{j}=\sum_{i=1}^{3} \partial_{i}\left[ \varepsilon_{0}\left( E_{i}E_{j}- \frac{1}{2}\delta_{ij}E^{2} \right) + \frac{1}{\mu_{0}}\left( B_{i}B_{j}- \frac{1}{2}\delta_{ij}B^{2} \right)\right]$$
@@ -76,7 +76,7 @@ $$\begin{align}
 \end{align}$$
 Quite conveniently then, if we combine the three $j$ components into a vector $\nabla\cdot \mathrm{T}$ we get precisely the first two lines of $(1)$. Armed with this knowledge, we can state the Lorentz force by area is
 $$\boxed{\mathbf{f}=\nabla\cdot \mathrm{T}-\varepsilon_{0} \mu_{0} \frac{ \partial \mathbf{S} }{ \partial t } }$$
-Integration over a volume and usage of the [[divergence theorem]] gives us the force itself:
+Integration over a volume and usage of the [[Divergence theorem]] gives us the force itself:
 $$\boxed{\mathbf{F}=\oint_{\mathcal{S}}\mathrm{T}\cdot d\mathbf{a}-\varepsilon_{0}\mu_{0}\frac{d}{dt} \int_{\mathcal{V}}\mathbf{S}\ d\tau}$$
 If we are in static conditions, the time derivative cancels and we are left with
 $$\mathbf{F}=\oint_{\mathcal{S}}\mathrm{T}\cdot d\mathbf{a}$$

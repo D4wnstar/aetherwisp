@@ -20,13 +20,13 @@ for some potential energy $V$. Note that this does not depend on *where* the cen
 
 We can interpret this equation as the sum of a free particle of mass $M$ and a particle of mass $\mu$ subject to a potential $V(\mathbf{r})$. In this light, we'll split the Lagrangian in two. Specifically, the latter part is
 $$L(\mathbf{r},\dot{\mathbf{r}})=\frac{1}{2}\mu \lvert \dot{\mathbf{r}} \rvert ^{2}-V(\lvert \mathbf{r} \rvert )$$
-As with all Lagrangians, our priority should be to sniff out [[Constant of motion|constants of motion]], as each and every one we find makes our problem easier. This Lagrangian of $\mathbf{r}$, for instance, is invariant to [[Rotation|rotations]] (in $SO(3)$). Invoking [[Nöther's theorem]], this means that the [[angular momentum]] $\mathbf{A}$[^1] is a constant of motion (all three components actually, so $A_{x}$, $A_{y}$ and $A_{z}$). Let's analyze what this invariance implies. The momentum is $\mathbf{A}=\mu \mathbf{r}\times \dot{\mathbf{r}}$. If it's constant over $\mathbf{r}(t)$, then $\mu \mathbf{r}(t)\times \dot{\mathbf{r}}(t)=\mathbf{A}_\text{const}$, but for a [[vector product]] to give an angle-independent constant we must have both $\mathbf{r}(t)$ and $\dot{\mathbf{r}}(t)$ lying [[Orthogonality|orthogonal]] to $\mathbf{A}_\text{const}$. In other words, both $\mathbf{r}(t)$ and $\dot{\mathbf{r}}(t)$ (and by extension the whole motion) lie on a [[plane]] perpendicular to $\mathbf{A}_\text{const}$.
+As with all Lagrangians, our priority should be to sniff out [[Constant of motion|constants of motion]], as each and every one we find makes our problem easier. This Lagrangian of $\mathbf{r}$, for instance, is invariant to [[Rotation|rotations]] (in $SO(3)$). Invoking [[Nöther's theorem]], this means that the [[angular momentum]] $\mathbf{A}$[^1] is a constant of motion (all three components actually, so $A_{x}$, $A_{y}$ and $A_{z}$). Let's analyze what this invariance implies. The momentum is $\mathbf{A}=\mu \mathbf{r}\times \dot{\mathbf{r}}$. If it's constant over $\mathbf{r}(t)$, then $\mu \mathbf{r}(t)\times \dot{\mathbf{r}}(t)=\mathbf{A}_\text{const}$, but for a [[Vector product]] to give an angle-independent constant we must have both $\mathbf{r}(t)$ and $\dot{\mathbf{r}}(t)$ lying [[Orthogonality|orthogonal]] to $\mathbf{A}_\text{const}$. In other words, both $\mathbf{r}(t)$ and $\dot{\mathbf{r}}(t)$ (and by extension the whole motion) lie on a [[plane]] perpendicular to $\mathbf{A}_\text{const}$.
 
-This bit of geometry gives us the information that we need to simplify our coordinates. We'll then pick a [[frame of reference]] in which $(A_\text{const})_{x}=(A_\text{const})_{y}=0$[^2]. In this frame, we can pick the canonical [[basis]] $\{ \mathbf{e}_{x} ,\mathbf{e}_{y}\}$ and express $\mathbf{r}$ and $\dot{\mathbf{r}}$ as a [[linear combination]] of these:
+This bit of geometry gives us the information that we need to simplify our coordinates. We'll then pick a [[frame of reference]] in which $(A_\text{const})_{x}=(A_\text{const})_{y}=0$[^2]. In this frame, we can pick the canonical [[Basis]] $\{ \mathbf{e}_{x} ,\mathbf{e}_{y}\}$ and express $\mathbf{r}$ and $\dot{\mathbf{r}}$ as a [[Linear combination]] of these:
 $$\mathbf{r}=x\mathbf{e}_{x}+y\mathbf{e}_{y},\qquad \dot{\mathbf{r}}=\dot{x}\mathbf{e}_{x}+\dot{y}\mathbf{e}_{y}$$
 In here, the Lagrangian becomes
 $$L=\frac{1}{2}\mu(\dot{x}^{2}+\dot{y}^{2})- V(\sqrt{ x^{2}+y^{2} })$$
-Since we're on a plane, we might as well move to [[polar coordinates]]. The appropriate [[coordinate transformation]] is
+Since we're on a plane, we might as well move to [[polar coordinates]]. The appropriate [[Coordinate transformation]] is
 $$x=r\cos \theta,\qquad y=r\sin \theta$$
 for which
 $$L=\frac{1}{2}\mu(\dot{r}^{2}+r^{2}\dot{\theta}^{2})-V(r)$$
@@ -45,7 +45,7 @@ where
 $$V_\text{eff}(r)=V(r)+\frac{l^{2}}{2mr^{2}}$$
 Solving the [[Lagrange equation]] yields $r(t)$, which we can put into $\dot{\theta}$ to get
 $$\dot{\theta}(t)=\frac{l}{mr(t)^{2}}$$
-which we can solve to find $\theta(t)$. More importantly, $\theta(t)$ is invertible so we can also find $t(\theta)$. Since $r(\theta(t)))$ is a composite function, we can use the [[chain rule]]:
+which we can solve to find $\theta(t)$. More importantly, $\theta(t)$ is invertible so we can also find $t(\theta)$. Since $r(\theta(t)))$ is a composite function, we can use the [[Chain rule]]:
 $$\dot{r}(t)=\frac{dr(\theta(t))}{d\theta}\dot{\theta }(t)=\frac{dr}{d\theta} \frac{l}{mr^{2}}=- \frac{l}{m} \left.{\frac{d}{d\theta}\left( \frac{1}{r} \right)}\right|_{\theta=\theta(t)}$$
 and
 $$\ddot{r}(t)=- \frac{l}{m} \frac{d^{2}}{d\theta ^{2}}\left( \frac{1}{r} \right)\dot{\theta}=- \frac{l^{2}}{m^{2}r^{2}} \left.{\frac{d^{2}}{d\theta ^{2}}\left( \frac{1}{r} \right)}\right|_{\theta=\theta(t)}$$

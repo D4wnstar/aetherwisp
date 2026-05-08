@@ -14,7 +14,7 @@ Since ionic bonds are caused by electromagnetism (a static [[electric field]] in
 > 
 > In a solid, molecules are not cleanly divided. Table salt has a crystal structure made up of two interlocked FCC [[Bravais lattice|Bravais lattices]], one for sodium and one for chlorine. Each sodium is surrounded by six chlorines at a distance $a$, so the energy gain due to being in the potential of chlorine is six times larger than the individual molecule, $6E_\text{Coulomb}$. Meanwhile, at a distance $a/\sqrt{ 2 }$, there are twelve sodiums, which repel the central sodium with a potential energy
 > $$E_\text{Coulomb}=12\frac{e^{2}}{4\pi \varepsilon_{0}a\sqrt{ 2 }}$$
-> Further on, there are eight more chlorine, which attract, then more sodiums, which repel, and so on and so forth. This makes a [[serie|series]] which is proven to converge to
+> Further on, there are eight more chlorine, which attract, then more sodiums, which repel, and so on and so forth. This makes a [[Serie|series]] which is proven to converge to
 > $$E_{\text{Na}}=- M_{d} \frac{e^{2}}{4\pi \varepsilon a}$$
 > where $M_{d}$ is known as a **[[Madelung constant]]**, a property of the lattice. For this lattice, it is $M_{d}=1.748$. This is the energy for a single sodium atom. The total lattice energy (not the cohesive energy) is
 > $$E_\text{tot}=\frac{2E_{\text{Na}}\times N_{A}}{2}\simeq861\text{ kJ/mol}$$

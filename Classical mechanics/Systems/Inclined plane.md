@@ -8,13 +8,13 @@ The inclined plane can be analyzed in a more modern manner by using analytical m
 ![[Diagram Inclined plane.svg|80%]]
 
 #### Frictionless plane
-It is easiest to start by ignoring friction. The surface of the plane is of course our [[constraint]] of reaction $\Phi$. Since the point mass can only move up and down the surface, we really only need one [[Generalized coordinates|generalized coordinate]], $q$, to describe this motion. The [[coordinate transformation]] from $\mathbb{R}^{2}$ to our [[configuration space]] (which is just the line the inclined plane stands on) is then simply given by
+It is easiest to start by ignoring friction. The surface of the plane is of course our [[constraint]] of reaction $\Phi$. Since the point mass can only move up and down the surface, we really only need one [[Generalized coordinates|generalized coordinate]], $q$, to describe this motion. The [[Coordinate transformation]] from $\mathbb{R}^{2}$ to our [[configuration space]] (which is just the line the inclined plane stands on) is then simply given by
 $$x=q\cos \theta,\quad y=h-q\sin \theta\tag{1}$$
 We can immediately find the derivative of $\mathbf{r}=(x,y)=(q\cos \theta,h-q\sin \theta)$:
 $$\frac{ \partial \mathbf{r} }{ \partial q } =(\cos \theta,-\sin \theta)$$
 Our gravitational force is just $\mathbf{F}=(0,-mg)$, which sets up the constrained [[Newton's laws|Newton's second law]]:
 $$m \ddot{\mathbf{r}}=\mathbf{F}+\Phi$$
-We are going to project this equation on the axis of the inclined plane, given by $\partial \mathbf{r}/\partial q$, so that we get two scalar equations that we can solve separately instead of a single vector one. To do so, we just need to take the [[scalar product]] of the above equation with $\partial \mathbf{r}/\partial q$:
+We are going to project this equation on the axis of the inclined plane, given by $\partial \mathbf{r}/\partial q$, so that we get two scalar equations that we can solve separately instead of a single vector one. To do so, we just need to take the [[Scalar product]] of the above equation with $\partial \mathbf{r}/\partial q$:
 $$(\mathbf{F}+\Phi-m \ddot{\mathbf{r}})\cdot \frac{ \partial \mathbf{r} }{ \partial q } =0$$
 Before doing any math, we can immediately tell that $\Phi$ vanishes. This is because the frictionless plane is an *ideal* constraint and $\Phi$ is always perpendicular to $\partial \mathbf{r}/\partial q$, so that term is guaranteed to vanish[^1]. This is precisely what allows us to solve the system while completely ignoring the constraint reaction: we just need to find the configuration space and project our equation over that. Now we can proceed with the calculation:
 $$(F_{x}-m\ddot{x},F_{y}-m\ddot{y})\begin{pmatrix}

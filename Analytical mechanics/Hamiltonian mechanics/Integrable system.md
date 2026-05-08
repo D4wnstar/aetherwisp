@@ -18,13 +18,13 @@ In an integrable system, trajectories in [[phase space]] are **limited** and **q
 > Let $H$ be the Hamiltonian for a system with $n$ degrees of freedom. Assume that there exist $n$ constants of motion $f_{i}(\mathbf{p},\mathbf{q})$ all independent and in involution, so that $\{ f_{i},f_{j} \}=0$ for all $i,j$. Also assume that for some $\mathbf{a}\in \mathbb{R}^{n}$, the level set $M_{\mathbf{a}}=\{ f_{i}(\mathbf{p},\mathbf{q})=a_{i} \}$ is compact and connected. Then, the system is integrable.
 > 
 
-$M_{\mathbf{a}}$ is parameterized by the angles $\psi_{i}$. By varying $\psi_{i}$ you obtain a [[curve]] $\gamma_{i}$ in $M_{\mathbf{a}}$. The action variables are defined by
+$M_{\mathbf{a}}$ is parameterized by the angles $\psi_{i}$. By varying $\psi_{i}$ you obtain a [[Curve]] $\gamma_{i}$ in $M_{\mathbf{a}}$. The action variables are defined by
 $$J_{i}=\frac{1}{2\pi}\oint_{\gamma_{i}}\sum_{k=1}^{n}p_{k}dq_{k}$$
 These are only dependent on the constants of motion $f_{i}$ are independent and in involution. It can be proven that the variables that are conjugated to the $J_{i}$ are angles of period $2\pi$.
 ### Use case
 Many integrable systems (such as the ones below) are plenty easily solved without even invoking Hamiltonian mechanics (i.e. using a [[Lagrangian]] instead). Furthermore, most systems in nature are not integrable. It is therefore fair to ask why even bother with all of this (evidently difficult) formalism. The answer is that it is very common to be able to *approximate* a non-integrable system into an integrable one, and Hamiltonian mechanics becomes quite useful when dealing with these approximations (using [[Teoria delle perturbazioni|perturbation theory]]).
 ### Examples
-- [[Central potential problems]]. A body in a [[vector field]] of central [[force|forces]] with [[potential]] $V\equiv V(r)$ in $\mathbb{R}^{3}$ ($n=3$) is an integrable system. There exist three constants of motion in involution: $\{ H,L_{z} \}=0$, $\{ H,L^{2} \}=0$ and $\{ L_{z},L^{2} \}=0$ where $\mathbf{L}$ is the [[angular momentum]].
+- [[Central potential problems]]. A body in a [[Vector field]] of central [[force|forces]] with [[Potential]] $V\equiv V(r)$ in $\mathbb{R}^{3}$ ($n=3$) is an integrable system. There exist three constants of motion in involution: $\{ H,L_{z} \}=0$, $\{ H,L^{2} \}=0$ and $\{ L_{z},L^{2} \}=0$ where $\mathbf{L}$ is the [[angular momentum]].
 - A [[spinning top]] ($n=3$). The three constants of motion are $\{ H,p_{\varphi} \}=0$, $\{ H,p_{\psi} \}=0$ and $\{ p_{\varphi},p_{\psi} \}=0$.
 - All one-dimensional systems ($n=1$) with a time-independent Hamiltonian. There is one constant of motion and it's the Hamiltonian itself.
 

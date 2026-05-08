@@ -1,13 +1,13 @@
 ---
 hl-publish: true
 ---
-The **nuclear Fermi gas model** is a model of the internal structure of an [[atomic nucleus]] that treats [[proton|protons]] and [[neutron|neutrons]] as independent [[Fermi gas|Fermi gases]]. It is a basic model that works only for nuclei in the ground [[stato|state]] or in lightly exited states. For a more complete model, see [[Nuclear shell model]]. As with the shell model, the Fermi gas model is a mean field theory.
+The **nuclear Fermi gas model** is a model of the internal structure of an [[atomic nucleus]] that treats [[proton|protons]] and [[neutron|neutrons]] as independent [[Fermi gas|Fermi gases]]. It is a basic model that works only for nuclei in the ground [[Stato|state]] or in lightly exited states. For a more complete model, see [[Nuclear shell model]]. As with the shell model, the Fermi gas model is a mean field theory.
 
 This model relies on two assumptions:
 1. protons and neutrons are independent systems;
 2. the nucleons move freely inside the nucleus.
 ### Formulation
-The [[potential]] felt by each [[Atomic nucleus|nucleon]] is the superposition of all other potentials produced by all other nucleons. The typical way to overcome this complexity is to make an assumption about the shape of the final resulting potential and assume that all nucleons are subject to this shared potential, called the **mean field**. In the Fermi gas model, we assume that the mean field potential is a [[Buca finita quantistica|finite square well]]. Actually, since we are considering protons and neutrons to be two different systems, there are two potential wells, one for protons and one for neutrons.
+The [[Potential]] felt by each [[Atomic nucleus|nucleon]] is the superposition of all other potentials produced by all other nucleons. The typical way to overcome this complexity is to make an assumption about the shape of the final resulting potential and assume that all nucleons are subject to this shared potential, called the **mean field**. In the Fermi gas model, we assume that the mean field potential is a [[Buca finita quantistica|finite square well]]. Actually, since we are considering protons and neutrons to be two different systems, there are two potential wells, one for protons and one for neutrons.
 
 ![[Diagram Nuclear Fermi gas.svg|70%|center]]
 
@@ -17,7 +17,7 @@ Nonzero [[temperature]] is complicated, so we'll start by assuming that the nucl
 
 Let's integrate the above expression to get the number of occupied absolute zero states, which go up to the Fermi momentum $p_{F}$:
 $$n=\int_{0}^{p_{F}}n(p)dp=\frac{V p_{F}^{3}}{6\pi^{2}\hbar^{3}}$$
-Actually, this is an underestimate, because we are ignoring [[spin]]! Each momentum state hosts *two* nucleons, since they are spin 1/2 particles. Thus, the correct number is double that:
+Actually, this is an underestimate, because we are ignoring [[Spin]]! Each momentum state hosts *two* nucleons, since they are spin 1/2 particles. Thus, the correct number is double that:
 $$n=2\frac{V p_{F}^{3}}{6\pi^{2}\hbar^{3}}=\frac{V p_{F}^{3}}{3\pi^{2}\hbar^{3}}$$
 Remember that this is true for both protons and neutrons, and that thanks to being at absolute zero, the number of occupied states is identical to the number of particles in the gas. As such, we can express the proton and neutron number pretty easily in terms of the Fermi momentum:
 $$N=\frac{V(p_{F}^{n})^{3}}{3\pi^{2}\hbar^{3}},\qquad Z=\frac{V(p_{F}^{p})^{3}}{3\pi^{2}\hbar^{3}}$$

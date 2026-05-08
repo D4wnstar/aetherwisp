@@ -28,7 +28,7 @@ $$H_{X,Y}=-\sum_{x \in \mathcal{X}}\sum _{y \in \mathcal{Y}}p_{X,Y}(x,y)[\log p_
 ### Boltzmann's entropy
 In the specific case that all outcomes are equally likely, $p(x)$ is a constant. If there are $W$ possible outcomes, we have $p=1/W$, in which case the entropy reduces to
 $$H=\log W$$
-This chiefly occurs in statistical mechanics under the [[equal a priori probability hypothesis]], where $W$ is interpreted as the number of [[stato|microstates]] a [[physical system]] can be found in. Turning it into physical [[entropy]] through the [[Boltzmann constant]], we get Boltzmann's formula for entropy:
+This chiefly occurs in statistical mechanics under the [[equal a priori probability hypothesis]], where $W$ is interpreted as the number of [[Stato|microstates]] a [[physical system]] can be found in. Turning it into physical [[entropy]] through the [[Boltzmann constant]], we get Boltzmann's formula for entropy:
 $$\boxed{S=k_{B}\log W}$$
 #### Second law of thermodynamics
 This particular case has a very useful property that's true for a system with many particles, say $N\sim 10^{23}$ and defined energy $E_{\text{total}}$ (a [[microcanonical ensemble]]). Split the system in two non-interacting halves (that still exchange energy, somehow) with respective energies $E_{1}$ and $E_{2}$ ($E_{\text{total}}=E_{1}+E_{2}$) and call $W=\Gamma(E_{i})$ the function that counts all the states at energy $E_{i}$[^1]. $\Gamma_{1}(E_{i})$ and $\Gamma_{2}(E_{i})$ do the same, but for the two subsystems. We therefore have[^2]

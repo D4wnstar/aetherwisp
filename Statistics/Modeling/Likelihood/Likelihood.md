@@ -22,7 +22,7 @@ where $\Theta$ is the space of all possible parameters and $c_{\mathbf{x}}$ is s
 ### Log-likelihood
 It is common to instead use the **log-likelihood**, which is simply the logarithm of the likelihood: $\ell(\boldsymbol{\theta};\mathbf{x})\equiv \log \mathcal{L}(\boldsymbol{\theta};\mathbf{x})$. The base of the logarithm is usually $e$ or 10. This form greatly reduces the range of numbers that are observed in practice, which helps with numerical stability. Analytically, it also turns many products into sums.
 
-The [[gradient]] of the log-likelihood is sometimes called the **score function** $U(\boldsymbol{\theta})\equiv(\partial_{\theta_{1}}\log \mathcal{L},\ldots,\partial_{\theta_{M}}\log \mathcal{L})$. The negative [[Hessian]] is called the **observed information matrix** $J_{ij}(\boldsymbol{\theta})\equiv- \frac{ \partial ^{2}\log \mathcal{L} }{ \partial \theta_{i}\partial \theta_{j} }$.
+The [[Gradient]] of the log-likelihood is sometimes called the **score function** $U(\boldsymbol{\theta})\equiv(\partial_{\theta_{1}}\log \mathcal{L},\ldots,\partial_{\theta_{M}}\log \mathcal{L})$. The negative [[Hessian]] is called the **observed information matrix** $J_{ij}(\boldsymbol{\theta})\equiv- \frac{ \partial ^{2}\log \mathcal{L} }{ \partial \theta_{i}\partial \theta_{j} }$.
 
 These functions possess some interesting properties, provided they are sufficiently regular:
 1. The expected score is zero: $\text{E}[U(\boldsymbol{\theta})]=0$.

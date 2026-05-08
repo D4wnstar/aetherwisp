@@ -38,7 +38,7 @@ Multiplying both sides by $2\pi/\lambda$ yields
 $$\mathbf{d}\cdot(\mathbf{k}-\mathbf{k}')=2\pi m$$
 If we extend to an array of scatterers, at points of the Bravais lattice a distance $\mathbf{R}$ apart, the condition becomes
 $$\mathbf{R}\cdot(\mathbf{k}-\mathbf{k}')=2\pi m$$
-But this is identical to the definition of the [[reciprocal lattice]] vectors (since the [[scalar product]] is commutative). We therefore have that the difference $\mathbf{k}-\mathbf{k}'$ must be a reciprocal lattice vector. In other words, the **von Laue condition** states that constructive interference occurs when the difference between scattered wavevectors is a reciprocal lattice vector.
+But this is identical to the definition of the [[reciprocal lattice]] vectors (since the [[Scalar product]] is commutative). We therefore have that the difference $\mathbf{k}-\mathbf{k}'$ must be a reciprocal lattice vector. In other words, the **von Laue condition** states that constructive interference occurs when the difference between scattered wavevectors is a reciprocal lattice vector.
 
 It is useful to have an alternate version of this condition that only mentions the incident wavevector $\mathbf{k}$. Since the reciprocal lattice is itself a Bravais lattice, if $\mathbf{k}-\mathbf{k}'$ is a lattice vector, then so is $\mathbf{k}'-\mathbf{k}$. If we call the latter $\mathbf{K}$, then the condition or $\mathbf{k}$ and $\mathbf{k}'$ to have the same magnitude is
 $$k=\lvert \mathbf{k}-\mathbf{K} \rvert $$

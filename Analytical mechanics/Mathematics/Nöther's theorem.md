@@ -102,6 +102,6 @@ The first two are axis-dependent: linear momentum is conserved over the axis of 
 > $$\mathcal{P}=m\omega A_{1}A_{2}\sin(\phi_{1}-\phi_{2})$$
 > But this is all time-independent. Clearly then, it is a constant of motion, which confirms that Nöther's theorem was correct all along.
 > 
-> While it's nice to have an abstract constant, it would be nice if we could understand what we're looking at. To do so, notice that $q_{1}\dot{q}_{2}-q_{2}\dot{q}_{1}$ is just the third component of a [[vector product]]:
+> While it's nice to have an abstract constant, it would be nice if we could understand what we're looking at. To do so, notice that $q_{1}\dot{q}_{2}-q_{2}\dot{q}_{1}$ is just the third component of a [[Vector product]]:
 > $$\mathcal{P}=m(q_{1}\dot{q}_{2}-q_{2}\dot{q}_{1})=m(\mathbf{q}\times \dot{\mathbf{q}})_{3}=(\mathbf{q}\times \mathbf{p})_{3}=M_{3}$$
 > But this is just the definition of [[angular momentum]]. Evidently, then, what we're trying to say is the harmonic oscillator conserves the component of the angular momentum over the axis of rotation.

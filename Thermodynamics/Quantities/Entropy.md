@@ -5,7 +5,7 @@ hl-publish: true
 $$dS=\frac{\delta Q_{\text{rev}}}{T}=k_{B}\ dS_\text{it}$$
 where $Q_\text{rev}$ is the [[heat]] exchanged by a reversible [[thermodynamic transformation]] and $T$ is [[temperature]]. $S_\text{it}$ is the [[Entropy (information theory)|information theory entropy]], which becomes thermodynamic entropy when weighed by the [[Boltzmann constant|Boltzmann constant]] $k_{B}$. Notably, $dS$ is an [[Exact differential]], unlike $\delta Q$, which usually isn't.
 
-Entropy is defined up to an additive constant and the difference between two [[stato|states]] $A$ and $B$ connected by a reversible transformation is
+Entropy is defined up to an additive constant and the difference between two [[Stato|states]] $A$ and $B$ connected by a reversible transformation is
 $$\Delta S=S(B)-S(A)\equiv \int_{A}^{B} \frac{\delta Q}{T}$$
 By [[Clausius' theorem]], $\Delta S$ is independent of path, so long it is reversible.
 ### Irreversible transformations

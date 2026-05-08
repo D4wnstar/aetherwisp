@@ -15,7 +15,7 @@ Quantities can be assigned a parity depending on whether the function that gover
 - [[Spin]] is even.
 - [[Helicity]] is odd.
 
-As a rule of thumb, [[scalar|scalars]] are even (e.g. spin) and vectors are odd (e.g. linear momentum). [[Pseudovector|Pseudovectors]] (e.g. angular momentum) are instead even, which is why they're called pseudovectors in the first place. [[pseudoscalar|Pseudoscalars]] (e.g. helicity) are odd.
+As a rule of thumb, [[Scalar|scalars]] are even (e.g. spin) and vectors are odd (e.g. linear momentum). [[Pseudovector|Pseudovectors]] (e.g. angular momentum) are instead even, which is why they're called pseudovectors in the first place. [[pseudoscalar|Pseudoscalars]] (e.g. helicity) are odd.
 ### In particle physics
 As in [[#Quantities]], each [[Fundamental interaction|fundamental interaction]] can assigned a parity by seeing if the laws that govern that force are even or odd:
 - [[Electromagnetism]] is even (because [[Maxwell's equations]] are).

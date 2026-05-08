@@ -30,7 +30,7 @@ To build a dummy classifier, consider the learning process as a [[supervised mac
 
 Formally, the process of building a dummy classifier is
 1. Determine the parameterization of the model. There's quite a few equivalent option:
-	1. The model is an array of the class probabilities, $\mathbf{f}=(f_{1},\ldots,f_{\lvert Y \rvert})$. The model space is $M=F_{Y}=\{ \mathbf{f}\in[0,1]^{\lvert Y \rvert}\ |\ \lVert \mathbf{f} \rVert_{1} = 1\}$. It's a [[vector space]] where each vector component is between 0 and 1 and each vector is [[Normalization|normalized]] according to the one-[[norm]] (i.e. the sum of all components, $\lVert \mathbf{x} \rVert_{1}=\sum_{i}x_{i}$).
+	1. The model is an array of the class probabilities, $\mathbf{f}=(f_{1},\ldots,f_{\lvert Y \rvert})$. The model space is $M=F_{Y}=\{ \mathbf{f}\in[0,1]^{\lvert Y \rvert}\ |\ \lVert \mathbf{f} \rVert_{1} = 1\}$. It's a [[Vector space]] where each vector component is between 0 and 1 and each vector is [[Normalization|normalized]] according to the one-[[norm]] (i.e. the sum of all components, $\lVert \mathbf{x} \rVert_{1}=\sum_{i}x_{i}$).
 	2. The model is a [[Probability mass function]] $p$ over $Y$. The model space is $M=P_{Y}=\left\{  p\ |\ Y\mapsto[0,1]\text{ such that Prob}(y'=y)=\sum_{y'\in Y}p(y')=1  \right\}$. It's the set of all possible PMFs over categories.
 	3. The model is the $y$ part of a [[dataset]] $\{ (x^{i},y^{i}) \}$. The model space is $M=\mathcal{P}^{*}(Y)$.
 	4. The model is the most frequent class $y^{*}$. The model space is $M=Y$.

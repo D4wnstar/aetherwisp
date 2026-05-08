@@ -3,7 +3,7 @@ hl-publish: true
 aliases:
   - cyclical coordinates
 ---
-The **Lagrangian** $L$ is the difference between the [[Kinetic energy|kinetic]] $T$ and [[potential]] $V$ energy of a [[conservative system]]:
+The **Lagrangian** $L$ is the difference between the [[Kinetic energy|kinetic]] $T$ and [[Potential]] $V$ energy of a [[conservative system]]:
 $$L(q,\dot{q},t)=T(q,\dot{q},t)-V(q,t)$$
 $q$ are the [[generalized coordinates]].
 ### Cyclical coordinates

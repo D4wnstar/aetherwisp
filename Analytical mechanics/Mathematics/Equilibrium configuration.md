@@ -3,7 +3,7 @@ hl-publish: true
 ---
 An **equilibrium configuration** is a [[Generalized coordinates|configuration]] that leaves a [[Physical system|system]] at rest. By definition, $\mathbf{q}^{*}$ is an equilibrium configuration for the [[Lagrange equation]] if $\mathbf{c}\equiv(\mathbf{q}^{*},0)$ is an [[equilibrium point]] for the system.
 
-The Lagrange equation is $\ddot{\mathbf{q}}=f(\mathbf{q},\dot{\mathbf{q}})=Q^{-1}(\mathbf{Q}+\ldots)$. The second term is expressed as an [[invertible matrix]] $Q$ multiplied by some function $\mathbf{Q}+\ldots$, where the dots are some quantity dependent on $\dot{\mathbf{q}}$.
+The Lagrange equation is $\ddot{\mathbf{q}}=f(\mathbf{q},\dot{\mathbf{q}})=Q^{-1}(\mathbf{Q}+\ldots)$. The second term is expressed as an [[Invertible matrix]] $Q$ multiplied by some function $\mathbf{Q}+\ldots$, where the dots are some quantity dependent on $\dot{\mathbf{q}}$.
 
 Say we describe the system with a system of [[Ordinary differential equation|ODEs]]:
 $$\ddot{q}_{k}=f_{k}(q,\dot{q})\quad\leftrightarrow \quad \begin{cases}

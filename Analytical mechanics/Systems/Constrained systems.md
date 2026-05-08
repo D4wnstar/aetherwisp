@@ -7,19 +7,19 @@ To start, consider a [[point mass]] of [[mass]] $m$ at some point $\mathbf{r}$ i
 
 ![[Plot Point mass system.svg|50%]]
 
-The position vector $\mathbf{r}$ is composed of three numbers that show the position of the point mass in any [[basis]] of preference. For instance, in [[Cartesian coordinates]], it is
+The position vector $\mathbf{r}$ is composed of three numbers that show the position of the point mass in any [[Basis]] of preference. For instance, in [[Cartesian coordinates]], it is
 $$\mathbf{r}=\begin{pmatrix}
 x \\
 y \\
 z
 \end{pmatrix}$$
-but the choice of coordinate is not binding: all of them are equal and one can freely jump from one to another by way of a [[coordinate transformation]]. We only care about [[generalized coordinates]]. The motion of the point in space is given by the time dependence of $\mathbf{r}$ on time $t$:
+but the choice of coordinate is not binding: all of them are equal and one can freely jump from one to another by way of a [[Coordinate transformation]]. We only care about [[generalized coordinates]]. The motion of the point in space is given by the time dependence of $\mathbf{r}$ on time $t$:
 $$\mathbf{r}(t)=\begin{pmatrix}
 x(t) \\
 y(t) \\
 z(t)
 \end{pmatrix}$$
-which is now a [[curve]] function $\mathbf{r}:\mathbb{R}\mapsto \mathbb{R}^{3}$ that sends $t$ to $\mathbf{r}(t)$.
+which is now a [[Curve]] function $\mathbf{r}:\mathbb{R}\mapsto \mathbb{R}^{3}$ that sends $t$ to $\mathbf{r}(t)$.
 
 The coordinate transformation that we would need to convert between coordinates is a function from $\mathbb{R}^{3}$ to $\mathbb{R}^{3}$ that sends $(x,y,z)$ to $(q_{1},q_{2},q_{3})$. Importantly, it must be invertible, which is like saying that the [[determinant]] of its [[Jacobian]] must be nonzero:
 $$\det \begin{pmatrix}
@@ -33,20 +33,20 @@ But three linearly independent vectors always form a basis of $\mathbb{R}^{3}$, 
 
 The main benefit of using such an odd basis is that it comes in very handy in so called **constrained systems**, systems that are constrained to move only in a very particular part of space. Let's see why this is true.
 ### Surfaces
-A [[surface]] $Q$ can be described in one of two ways.
-1. One way is, given a [[vector field]] $f(x,y,z)$, the surface is the locus of all points where $f(x,y,z)=0$. $f$ must be smooth and such that the [[gradient]] $\nabla f\neq 0$ for all points on the surface.
+A [[Surface]] $Q$ can be described in one of two ways.
+1. One way is, given a [[Vector field]] $f(x,y,z)$, the surface is the locus of all points where $f(x,y,z)=0$. $f$ must be smooth and such that the [[Gradient]] $\nabla f\neq 0$ for all points on the surface.
 2. The other way is using a parameterization of two parameters, which are coordinates on the surface. The coordinates $\mathbf{r}$ in $\mathbb{R}^{3}$ may be given by the $\mathbb{R}^{2}$ coordinates on the surface $(q_{1},q_{2})$ by
 $$x\equiv x(q_{1},q_{2}),\quad y\equiv y(q_{1},q_{2}),\quad z\equiv z(q_{1},q_{2})$$
 
 For instance, a [[palla|ball]] of unit radius in $\mathbb{R}^{3}$  is defined with method 1 by $x^{2}+y^{2}+z^{2}-1=0$. With method 2, since we know the radius, we can use angular part of [[spherical coordinates]] to state:
 $$x\equiv x(\theta,\phi)=\cos \theta \sin \phi,\quad y\equiv y(\theta,\phi)=\sin \theta \sin \phi,\quad z\equiv z(\theta,\phi)=\cos \phi$$
 
-We have successfully reduced the dimensions we work with from 3 to 2 by relying on knowledge about the problem at hand. We want to describe how things move on this surface. To do so, we need the tangents to any point so we can express the idea of movement on the surface. For a start, take some point (configuration) on the surface, say $P=(q_{1}^{*},q_{2}^{*})$. There are infinite possible tangents passing through this point and as a whole they form a set that we call a **[[tangent space]]** to the surface $Q$ at point $P$, denoted $T_{P}Q$, which is a two-dimensional [[vector space]]. Great, now what? Well, remember that before we found a universal basis made of tangents. Since that applies anywhere in space, the same argument works just as well over this surface, just instead of ending up with three vectors we only need two:
+We have successfully reduced the dimensions we work with from 3 to 2 by relying on knowledge about the problem at hand. We want to describe how things move on this surface. To do so, we need the tangents to any point so we can express the idea of movement on the surface. For a start, take some point (configuration) on the surface, say $P=(q_{1}^{*},q_{2}^{*})$. There are infinite possible tangents passing through this point and as a whole they form a set that we call a **[[tangent space]]** to the surface $Q$ at point $P$, denoted $T_{P}Q$, which is a two-dimensional [[Vector space]]. Great, now what? Well, remember that before we found a universal basis made of tangents. Since that applies anywhere in space, the same argument works just as well over this surface, just instead of ending up with three vectors we only need two:
 $$\frac{ \partial \mathbf{r} }{ \partial q_{1} } ,\quad \frac{ \partial \mathbf{r} }{ \partial q_{2} } $$
 Since these are linearly independent tangents to the surface (specifically, tangents to the $q_{1}$ and $q_{2}$ axes), they make a fine basis to the tangent space. Any element of $T_{P}Q$, then, is a sum of these two. We call each element of $T_{P}Q$ **[[virtual displacement]]**, since it represents what an infinitesimal change in location over the surface would look like (but isn't *actual* displacement yet, hence "virtual"), and we write it $\delta \mathbf{r}$. We are allowed to write
 $$\delta \mathbf{r}=\sum_{i=1}^{2} \delta q_{i}\frac{ \partial \mathbf{r} }{ \partial q_{i} } ,\quad \delta q_{i}\in \mathbb{R}$$
 ### Curves
-Just like a surface, a [[curve]] $Q$ can be described in two ways.
+Just like a surface, a [[Curve]] $Q$ can be described in two ways.
 
 One is, again given a vector field $f(x,y,z)$, the locus of points where
 $$\begin{cases}
@@ -150,7 +150,7 @@ The coordinates of the points are $\mathbf{r}_{1},\ldots,\mathbf{r}_{N}$, for a 
 > 0
 > \end{pmatrix}$$
 > 
-> The trajectories of $P_{1}$ and $P_{2}$ now are fully determined as functions of the constrained coordinates: $\mathbf{r}_{1}(q_{1}(t),q_{2}(t),q_{3}(t))$ and $\mathbf{r}_{2}(q_{1}(t),q_{2}(t),q_{3}(t))$. The real velocities are then the time [[Differential|total derivatives]] of these: $\mathbf{v}_{1}(t)=\dot{\mathbf{r}}_{1}(t)=\frac{d}{dt}\mathbf{r}_{1}(q_{1}(t),q_{2}(t),q_{3}(t))$ and $\mathbf{v}_{2}(t)=\dot{\mathbf{r}}_{2}(t)=\frac{d}{dt}\mathbf{r}_{2}(q_{1}(t),q_{2}(t),q_{3}(t))$. The [[stato|state]] of the system is fully determined by $\mathbf{r}_{1}$, $\mathbf{r}_{2}$, $\mathbf{v}_{1}$ and $\mathbf{v}_{2}$.
+> The trajectories of $P_{1}$ and $P_{2}$ now are fully determined as functions of the constrained coordinates: $\mathbf{r}_{1}(q_{1}(t),q_{2}(t),q_{3}(t))$ and $\mathbf{r}_{2}(q_{1}(t),q_{2}(t),q_{3}(t))$. The real velocities are then the time [[Differential|total derivatives]] of these: $\mathbf{v}_{1}(t)=\dot{\mathbf{r}}_{1}(t)=\frac{d}{dt}\mathbf{r}_{1}(q_{1}(t),q_{2}(t),q_{3}(t))$ and $\mathbf{v}_{2}(t)=\dot{\mathbf{r}}_{2}(t)=\frac{d}{dt}\mathbf{r}_{2}(q_{1}(t),q_{2}(t),q_{3}(t))$. The [[Stato|state]] of the system is fully determined by $\mathbf{r}_{1}$, $\mathbf{r}_{2}$, $\mathbf{v}_{1}$ and $\mathbf{v}_{2}$.
 
 [^1]: Or rows, although columns are much more meaningful here.
 

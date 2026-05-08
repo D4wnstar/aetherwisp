@@ -10,7 +10,7 @@ u_{\alpha}(q_{2}) & u_{\beta}(q_{2}) & \ldots & u_{\nu}(q_{2}) \\
 \vdots \\
 u_{\alpha}(q_{N}) & u_{\beta}(q_{N}) & \ldots & u_{\nu}(q_{N})
 \end{vmatrix}$$
-where $u(q)$ are the single-particle wavefunctions, which are assumed to be [[Orthonormality|orthonormal]] to each other, $\braket{ u_{\lambda} | u_{\mu} }=\delta_{\lambda \mu}$. As per the variational method, the [[energy]] is this state is the minimum of the [[functional]]
+where $u(q)$ are the single-particle wavefunctions, which are assumed to be [[Orthonormality|orthonormal]] to each other, $\braket{ u_{\lambda} | u_{\mu} }=\delta_{\lambda \mu}$. As per the variational method, the [[energy]] is this state is the minimum of the [[Functional]]
 $$E[\Psi]=\braket{ \Psi | \hat{H}| \Psi } $$
 A given [[Hamiltonian]] $\hat{H}$ can be split in an independent term $\hat{H}_{1}$ and an interaction term $\hat{H}_{2}$ in the form $\hat{H}=\hat{H}_{1}+\hat{H}_{2}$. $\hat{H}_{1}$ is given by a sum of single-particle Hamiltonians $\hat{h}_{i}$, whereas $\hat{H}_{2}$ is a sum of interaction terms dependent on the distance between particles. It consists of doing the typical variational method workflow using the Slater determinant as a trial function.
 

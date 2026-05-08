@@ -1,7 +1,7 @@
 ---
 hl-publish: true
 ---
-**Bloch's theorem** is a result regarding the electronic structure of an [[ideal crystal]]. It provides a shape for the [[Funzione d'onda|wavefunction]] of an [[electron]] in a periodic [[potential]].
+**Bloch's theorem** is a result regarding the electronic structure of an [[ideal crystal]]. It provides a shape for the [[Funzione d'onda|wavefunction]] of an [[electron]] in a periodic [[Potential]].
 
 > [!info] Bloch's theorem
 > The [[Equazione agli autovalori|eigenstates]] $\psi$ of the one-electron [[Hamiltonian]] $\hat{H}=-\hbar^{2}\nabla ^{2}/2m + U(\mathbf{r})$, where $U(\mathbf{r})=U(\mathbf{r}+\mathbf{R})$ for all $\mathbf{R}$ in a three-dimensional [[Bravais lattice]], can be chosen to be [[Plane wave|plane waves]] multiplied by a function $u_{n\mathbf{k}}(\mathbf{r})$ with equal periodicity to the Bravais lattice:
@@ -45,7 +45,7 @@ where summation occurs over all allowed wavevectors. Since the potential is peri
 $$U(\mathbf{r})=\sum_{\mathbf{K}}U_{\mathbf{K}}e^{i\mathbf{K}\cdot \mathbf{r}}\tag{5}$$
 where summation occurs over all reciprocal lattice vectors. Both of these are [[Fourier series]] of components $c_{\mathbf{q}}$ and $U_{\mathbf{K}}$. The $U_{\mathbf{K}}$ coefficients are given by
 $$U_{\mathbf{K}}=\frac{1}{v}\int _\text{cell}U(\mathbf{r})e^{-i\mathbf{K}\cdot \mathbf{r}}d\mathbf{r}$$
-where $v=V/N$ is the volume of the primitive cell in real space. A [[potential]] is only defined up to a constant and we are free to choose this constant as we wish. We shall select it such that the spatial average $U_{0}$ of the potential over a primitive cell vanishes:
+where $v=V/N$ is the volume of the primitive cell in real space. A [[Potential]] is only defined up to a constant and we are free to choose this constant as we wish. We shall select it such that the spatial average $U_{0}$ of the potential over a primitive cell vanishes:
 $$U_{0}=\frac{1}{v}\int _\text{cell}U(\mathbf{r})d\mathbf{r}=0$$
 Since $U(\mathbf{r})$ is real, the coefficients must satisfy $U_{-\mathbf{K}}=U_{\mathbf{K}}^{*}$ where $^{*}$ is the [[complex conjugate]]. If the crystal also has inversion symmetry[^1], that is, it is invariant under [[Parity|parity]] $\mathbf{r}\to-\mathbf{r}$, then the coefficients must also be real: $U_{-\mathbf{K}}=U_{\mathbf{K}}$.
 
@@ -101,7 +101,7 @@ Plane waves are definitely not [[Normalization|normalizable]], since they extend
 
 In the given Bravais lattice, the wavevector $\mathbf{k}$ can always be assumed to be contained within the first [[Brillouin zone]]. This is because any $\mathbf{k}'$ can be reduced to $\mathbf{k}$ by opportune translation:
 $$\psi(\mathbf{r}+\mathbf{R})=e^{i\mathbf{k}'\cdot \mathbf{R}}\psi(\mathbf{R})=e^{i(\mathbf{k}+\mathbf{K})\cdot \mathbf{R}}\psi(\mathbf{R})=e^{i\mathbf{k}\cdot \mathbf{R}}\psi(\mathbf{R})$$
-The band index $n$ appears in the Bloch wave because the solution for each $\mathbf{k}$ is not unique. If we substitute $\psi(\mathbf{r})=e^{i\mathbf{k}\cdot \mathbf{r}}u_{\mathbf{k}}(\mathbf{r})$ in the [[equazione di Schrödinger|Schrödinger equation]] we get
+The band index $n$ appears in the Bloch wave because the solution for each $\mathbf{k}$ is not unique. If we substitute $\psi(\mathbf{r})=e^{i\mathbf{k}\cdot \mathbf{r}}u_{\mathbf{k}}(\mathbf{r})$ in the [[Equazione di Schrödinger|Schrödinger equation]] we get
 $$\hat{H}_{\mathbf{k}}u_{\mathbf{k}}(\mathbf{r})=\left[ \frac{\hbar^{2}}{2m}(-i\nabla+\mathbf{k})^{2}+U(\mathbf{r}) \right]u_{\mathbf{k}}(\mathbf{r})=\varepsilon_{\mathbf{k}}u_{\mathbf{k}}(\mathbf{r})$$
 Thanks to the boundary condition $u_{\mathbf{k}}(\mathbf{r})=u_{\mathbf{k}}(\mathbf{r}+\mathbf{R})$, we can consider this to be a Hermitian [[eigenvalue equation]], limited to a single cell of the crystal. Since the eigenvalue problem is set in a finite and defined volume, we expect in general to find an infinite [[set]] of solutions with discrete eigenvalues, which we index with the symbol $n$. Thus, every single $\mathbf{k}$ comes along with an infinite set of eigenvalues $\varepsilon_{n\mathbf{k}}$. The eigenfunctions $\psi_{n\mathbf{k}}$ and eigenvalues $\varepsilon_{n\mathbf{k}}$ also obey by periodicity in the reciprocal lattice:
 $$\psi_{n,\mathbf{k}+\mathbf{K}}(\mathbf{r})=\psi_{n\mathbf{k}}(\mathbf{r}),\quad \varepsilon_{n,\mathbf{k}+\mathbf{K}}=\varepsilon_{n\mathbf{k}}\equiv \varepsilon_{n}(\mathbf{k})$$

@@ -1,0 +1,104 @@
+---
+hl-publish: false
+aliases:
+  - collasso della funzione d'onda
+---
+Una **funzione d'onda** è una funzione che descrive lo stato di una [[Particle]] quantistica. È la soluzione dell'[[Equazione di Schrödinger]]. Esistono diverse interpretazioni fisiche della funzione d'onda.
+### Interpretazione di Born
+Un modo per spiegare a livello fisico la funzione d'onda è l'**interpretazione statistica di Born**. Questa afferma che la [[Norma]] della funzione d'onda ci dà la *probabilità* che la particella si trovi in un determinato punto $x$ allo spazio $t$. In simboli
+$$\int_{a}^{b}|\Psi(x,t)|^{2}dx=\text{probabilità di trovare la particella tra }a\text{ e }b\text{ al tempo }t$$
+Ciò significa che, anche conoscendo la funzione d'onda di una particella, quello che sappiamo del suo moto è al più la *probabilità* che si trovi in un certo punto (o insieme di punti) ad un certo tempo. Questo fatto si chiama [[Indeterminatezza quantistica]].
+#### Normalizzazione
+Se $\Psi$ è una distribuzione di probabilità, allora deve essere normalizzata
+$$\boxed{\int_{-\infty}^{+\infty}|\Psi(x,t)|^{2}dx= \langle \Psi|\Psi\rangle =1\tag{1}}$$
+(dove il secondo termine usa la [[Notazione braket]]) ma $\Psi$ è ottenuta dall'equazione di Schrödinger, che di per sé non dà alcuna garanzia che $\Psi$ sia normalizzata. Per le proprietà delle equazioni differenziali, sappiamo però che se $\Psi(x,t)$ è soluzione, lo sono anche tutte le $A\Psi(x,t)=\tilde{\Psi}(x,t)$, con $A$ costante complessa. Allora è quasi sempre possibile trovare una $A$ tale per cui $(1)$ è soddisfatta.
+
+È possibile che per alcune soluzioni dell'equazione di Schrödinger, l'integrale $(1)$ sia infinito o zero. In questi casi, non esiste nessuna $A$ capace di normalizzare $\Psi$. Queste soluzioni *non-normalizzabili* non hanno significato fisico e vanno scartate. Vista in un altro modo, tutte le $\Psi$ rappresentanti soluzioni fisiche sono funzioni [[Spazi Lp#Spazio $L {2}$|L^2]].
+
+L'equazione di Schrödinger ha la cruciale proprietà di conservare la normalizzazione nel tempo. Ciò significa che se si trova una costante di normalizzazione $A$ al tempo $t_{0}$, quella costante varrà per qualunque $t\in\mathbb{R}$. Questa proprietà garantisce che la costante $A$ sia davvero una costante - se non lo fosse, $A$ diventerebbe una funzione in $t$ e $A(t)\Psi(x,t)$ non sarebbe più una soluzione dell'equazione di Schrödinger, dunque invalidando tutta l'interpretazione di Born.
+##### Dimostrazione
+Prendiamo
+$$\frac{d}{dt}\int_{-\infty}^{+\infty}|\Psi(x,t)|^{2}dx=\int_{-\infty}^{+\infty}\frac{\partial }{\partial t}|\Psi(x,t)|^{2}dx\tag{2}$$
+La derivata passa da una totale a una parziale perché l'integrale è funzione solo di $t$, ma all'interno $\Psi$ è funzione sia di $t$ che di $x$. Vale
+$$\frac{\partial }{\partial t}|\Psi|^{2}=\frac{\partial }{\partial t}(\Psi^{*}\Psi)=\Psi^{*}\frac{\partial \Psi}{\partial t}+\frac{\partial \Psi^{*}}{\partial t}\Psi$$
+Prendiamo l'equazione di Schrödinger
+$$\frac{\partial \Psi}{\partial t}=\frac{i\hbar}{2m}\frac{\partial ^{2}\Psi}{\partial x^{2}}- \frac{i}{\hbar}V\Psi$$
+di cui possiamo prendere il complesso coniugato
+$$\frac{\partial \Psi^{*}}{\partial t}=- \frac{i\hbar}{2m}\frac{\partial ^{2}\Psi^{*}}{\partial x^{2}}- \frac{i}{\hbar}V\Psi^{*}$$
+Dunque
+$$\frac{\partial }{\partial t}|\Psi|^{2}=\frac{i\hbar}{2m}\left(\Psi^{*}\frac{\partial ^{2}\Psi}{\partial x^{2}}-\frac{\partial ^{2}\Psi}{\partial x^{2}}\Psi\right)=\frac{\partial }{\partial x}\left[\frac{i\hbar}{2m}\left(\Psi^{*}\frac{\partial \Psi}{\partial x}-\frac{\partial \Psi^{*}}{\partial x}\Psi\right)\right]$$
+che possiamo usare per calcolare l'integrale $(2)$
+$$\frac{d}{dt}\int_{-\infty}^{+\infty}|\Psi(x,t)|^{2}dx=\frac{i\hbar}{2m}\left.\left(\psi^{*}\frac{\partial \Psi}{\partial x}-\frac{\partial \Psi^{*}}{\partial x}\Psi\right)\right|_{-\infty}^{+\infty}=\ldots$$
+usando che $\Psi\in L^{2}$ deve valere $\Psi(\pm\infty) \rightarrow 0$ e allora l'integrale $(2)$ è identicamente nullo. Ciò significa che l'integrale è costante nel tempo e quindi se è normalizzato da $A$ in $t_{0}$, lo è per qualunque altro $t$.
+### Collasso
+Il **collasso della funzione d'onda** è un fenomeno quantistico osservato dopo la misura di una particella. Immediatamente dopo aver compiuto una misura, la funzione d'onda della particella *collassa*, cambiando radicalmente forma e diventando un singolo picco attorno al valore misurato. Ciò implica che, compiendo misure rapide una dopo l'altra, si otterrà sempre lo stesso risultato (o comunque uno quasi uguale).
+
+![[Grafico Collasso funzione d'onda.svg|100%|center]]
+
+Questa è una dinamica *irreversibile*: consideriamo uno stato generico $\ket{\psi}$ in cui si trova la particella prima della misura. Dopo la misura, inevitabilmente collassa in uno dei suoi autostati $\ket{a_{i}}$, dandoci come valore sperimentali il suo autovalore $a_{i}$. L'esperimento può essere ripetuto molte volte su sistemi identicamente preparati, derivando così le probabilità di collasso in ciascuno degli autostati. Ora la domanda è: da queste misure, possiamo andare a ritroso e capire qual era lo stato $\ket{\psi}$ prima del collasso? *No.* La ragione è la seguente: consideriamo lo stato $\ket{\psi}$ nella sua [[Rappresentazione spettrale]]:
+$$\ket{\psi} =\sum_{i=1}^{d} \braket{ a_{i} | \psi } \ket{a_{i}} $$
+con $d$ la [[Degenerazione]] dello stato. Noi abbiamo bisogno dello scalare $\braket{ a_{i} | \psi }$ per poter trovare i termini. Ma noi abbiamo le *probabilità* di collasso, che sono la *norma quadra* dello scalare $\lvert \braket{ a_{i} | \psi } \rvert^{2}$, non lo scalare in sé. Difatti, $\braket{ a_{i} | \psi }$ è un numero complesso, detto **ampiezza di probabilità**, e le misure sperimentali ci possono solo dare numeri reali. Trovare la radice quadrata della probabilità non è sufficiente, perché perdiamo un'informazione cruciale: la fase dell'ampiezza di probabilità. Senza la fase, non possiamo trovare i termini e senza i termini non possiamo trovare lo stato. Quindi è impossibile, dalle informazioni che ci dà il collasso, invertire il processo per trovare cosa c'era prima.
+### Valori di aspettazione
+Prendiamo una particella in uno stato $\Psi$. Allora, possiamo determinare il [[Expected value|valore di aspettazione]] della posizione $x$ come
+$$\left\langle x \right\rangle=\int_{-\infty}^{+\infty}x|\Psi(x,t)|^{2}dx=\langle \Psi|x |\Psi\rangle$$
+Cos'è $\left\langle x \right\rangle$? A causa del collasso dopo un'osservazione, misure ripetute daranno sempre lo stesso risultato. Dunque, $\left\langle x \right\rangle$ non può il risultato che ci si aspetta dalla media di molte misure. Invece, $\left\langle x \right\rangle$ è la media di risultati ottenuti da misure su particelle *nello stato* $\Psi$. In altre parole, bisogna misurare particelle che sono nello stato indeterminato, *prima* del collasso. Ciò significa o trovare un modo per "resettare" una particella e farla tornare indeterminata dopo il collasso per misurarla più volte, o misurare un intero ensemble di particelle, tutte nello stesso stato $\Psi$. Allora, il *valore di aspettazione è la media di misure ripetute su un ensemble di sistemi preparati allo stesso modo*.
+
+La funzione d'onda varia nel tempo. Allora, anche il valore di aspettazione dipende da $t$. Possiamo trovarne la derivata temporale
+$$\frac{d\left\langle x \right\rangle}{dt}=\int_{-\infty}^{+\infty}x \frac{\partial }{\partial t}|\Psi(x,t)|^{2}dx=\frac{i\hbar}{2m}\int_{-\infty}^{+\infty}x\frac{\partial }{\partial x}\left(\Psi^{*}\frac{\partial \Psi}{\partial x}-\frac{\partial \Psi^{*}}{\partial x}\Psi\right)dx=\ldots$$
+usando un'[[Integrazione per parti]] e usando che $\lim\limits_{x \rightarrow \pm\infty}\Psi(x,t)=0$
+$$\ldots=-\frac{i\hbar}{2m}\int_{-\infty}^{+\infty}\left(\Psi^{*}\frac{\partial \Psi}{\partial x}-\frac{\partial \Psi^{*}}{\partial x}\Psi\right)dx=\ldots$$
+e ancora un'integrazione per parti, su $\partial\Psi^{*}/\partial x$
+$$\ldots=- \frac{i\hbar}{m}\int_{-\infty}^{+\infty}\Psi^{*}\frac{\partial \Psi}{\partial x}dx$$
+Intuitivamente, questo ci dà qualche sorta di velocità. D'altronde, la derivata di una posizione è proprio la velocità. Tuttavia, il concetto stesso di velocità, così come la posizione non è ben definito. Si può costruire tuttavia la distribuzione di probabilità delle velocità. Si dimostra poi che quanto appena trovato è il valore di aspettazione di questa distribuzione:
+$$\left\langle v \right\rangle=\frac{d\left\langle x \right\rangle}{dt}=- \frac{i\hbar}{m}\int_{-\infty}^{+\infty}\Psi^{*}\frac{\partial \Psi}{\partial x}dx$$
+Di norma si lavora con il momento, o quantità di moto, $p=mv$ della particella:
+$$\left\langle p \right\rangle=m \frac{d\left\langle x \right\rangle}{dt}=- i\hbar\int_{-\infty}^{+\infty}\Psi^{*}\frac{\partial \Psi}{\partial x}dx$$
+$\left\langle x \right\rangle$ e $\left\langle p \right\rangle$ sono solitamente scritte in questo modo
+$$\boxed{\begin{align}
+\left\langle x \right\rangle &=\int_{-\infty}^{+\infty}\Psi^{*}(x)\Psi dx &= \int_{-\infty}^{+\infty}\Psi^{*}\;\hat{q}\;\Psi dx & = \langle \Psi|\hat{q}|\Psi\rangle \\
+\left\langle p \right\rangle &=\int_{-\infty}^{+\infty}\Psi^{*}\left(\frac{\hbar}{i}\frac{\partial }{\partial x}\right)\Psi dx &= \int_{-\infty}^{+\infty}\Psi^{*}\;\hat{p}\;\Psi dx &= \langle \Psi|\hat{p}|\Psi\rangle
+\end{align}}$$
+dove $\hat{q}\equiv x$ e $\hat{p}\equiv(\hbar/i)\partial/\partial x$ sono [[Operatore|operatori]] associati alle [[Osservabile|osservabili]] posizione e quantità di moto e possiamo calcolarne la media ponendoli in mezzo[^1] a $\Psi^{*}$ e $\Psi$ e poi integrando il risultato su tutto $\mathbb{R}$.
+
+Qualunque [[variabile dinamica]] $Q$ è esprimibile in funzione di $q$ e $p$. Allora, per calcolare il valore di aspettazione (nello stato $\Psi$) di $Q$, basta sostituire $p$ con $(\hbar/i)\partial/\partial x$ e integrare come sopra. La formula generale è
+$$\boxed{\left\langle Q(q,p) \right\rangle=\int_{-\infty}^{+\infty}\Psi^{*}Q\left(q, \frac{\hbar}{i}\frac{\partial }{\partial x}\right)\Psi dx=\langle \Psi|\hat{Q} |\Psi\rangle}$$
+
+In generale, per ogni osservabile $A$ associata ad un [[Operatore autoaggiunto]] $\hat{A}$, il valore di aspettazione del $\hat{A}$ in uno stato $\ket{\psi}$ è
+$$\langle \hat{A} \rangle _{\psi}=\braket{ \psi | \hat{A}\psi } $$
+
+> [!example] Dimostrazione
+> Considerato un operatore autoaggiunto $\hat{A}$ e uno stato $\ket{\psi}$, la sua media in quello stato è
+> $$\langle \hat{A} \rangle_{\psi}=\sum_{i=1}^{n} a_{i}\braket{ \psi | a_{i} } \braket{ a_{i} | \psi } =\sum_{i=1}^{n} a_{i}\braket{ \psi | \hat{P}_{a_{i}}\psi } =\braket{ \psi | \sum_{i=1}^{n} a_{i}\hat{P}_{a_{i}} |\psi } )=\braket{ \psi | \hat{A}\psi } $$
+> usando la [[Rappresentazione spettrale]] dell'operatore, $\hat{A}=\sum_{i=1}^{n}a_{i}\hat{P}_{a_{i}}$.
+
+La media può anche essere rappresentata come la [[Traccia]] di un [[Proiettore]] su quell'operatore.
+$$\langle \hat{A} \rangle _{\psi}=\text{Tr}(\hat{A}\hat{P}_{\psi})=\text{Tr}(\hat{P}_{\psi}\hat{A})$$
+
+> [!example] Dimostrazione
+> Considerato un operatore autoaggiunto $\hat{A}$ e uno stato $\ket{\psi}$, vale
+> di un operatore autoaggiunto $\hat{A}$ e uno stato $\ket{\psi}$, la sua media in quello stato è
+> $$\begin{align}
+> \langle \hat{A} \rangle _{\psi}&=\sum_{i=1}^{n} a_{i}\hat{P}_{\psi}(a_{i})=\sum_{i=1}^{n} a_{i}\braket{ a_{i} | \psi } \braket{ \psi | a_{i} } =\sum_{i=1}^{n} a_{i}\braket{ a_{i} | \hat{P}_{\psi}a_{i} } =\sum_{i=1}^{n} a_{i}\text{Tr}(\hat{P}_{\psi}\hat{P}_{a_{i}}^{A})= \\
+> &=\sum_{i=1}^{n} \text{Tr}(a_{i}\hat{P}_{\psi}\hat{P}_{a_{i}}^{A})=\text{Tr}(\hat{P}_{\psi}\hat{A})
+> \end{align}$$
+> Per la ciclità della traccia, vale $\text{Tr}(\hat{A}\hat{P}_{\psi})=\text{Tr}(\hat{P}_{\psi}\hat{A})$.
+### Caso tridimensionale
+La funzione d'onda e le sue proprietà sono facilmente estese a tre dimensioni. Per una funzione d'onda in tre dimensioni $\Psi(\vec{r},t)$ valgono le stesse proprietà del caso unidimensionale. La normalizzazione è su un volume
+$$\int |\Psi(\vec{r},t)|^{2}d^{3}\vec{r}=1$$
+Se il potenziale è indipendente dal tempo, può essere comunque espressa in funzione degli stati stazionari
+$$\Psi_{n}(\vec{r},t)=\psi_{n}(\vec{r})e^{-iE_{n}t/\hbar}$$
+dove gli stati stazionari $\psi_{n}$ sono la soluzione della forma indipendente dal tempo dell'equazione di Schrödinger e la soluzione generale è sempre
+$$\Psi_{n}(\vec{r},t)=\sum\limits_{n=1}^{\infty}c_{n}\psi_{n}(\vec{r})e^{-iE_{n}t/\hbar}$$
+Ovviamente se gli stati sono continui e non discreti, la somma diventa un integrale.
+### Formalizzazione matematica
+Matematicamente, una funzione d'onda è un elemento di uno [[Spazio di Hilbert]] individuata come il coefficiente di sviluppo in [[Serie]] degli autostati di una particella in qualche [[Rappresentazioni dello stato|rappresentazione]]. Infatti, sebbene uno stato sia universale, una funzione d'onda dipende dalla rappresentazione. In un certo senso, è solo un modo di interpretare lo stato. Per esempio, in rappresentazione della posizione, la funzione d'onda indipendente dal tempo in una dimensione è
+$$\langle x|\psi\rangle=\braket{ \tilde{\psi}_{x} | \psi } =\int_{-\infty}^{\infty} \overline{\tilde{\psi}_{x}(y)}\psi(y) \ dy=\int_{-\infty}^{\infty} \delta(y-x)\psi(y) \ dy = \psi(x)$$
+dove $\ket{\psi}$ è lo stato della particella e $\ket{\tilde{\psi}_{x}}$ è un autostato di posizione della particella, spesso rappresentato solo come $\ket{x}$. $\delta(y-x)$ è la [[Delta di Dirac]]. In rappresentazione dei momenti è
+$$\braket{ p | \psi } =\braket{ \psi_{p} | \psi }=\int_{-\infty}^{\infty} \overline{\psi_{p}(y)}\psi(y) \ dy=\int_{-\infty}^{\infty} \frac{e^{-ipy/\hbar}}{\sqrt{ 2\pi \hbar }}\psi(y) \ dy   =\psi(p)$$
+dove di nuovo $\ket{\psi_{p}}$ è un autostato di momento, spesso rappresentato come $\ket{p}$.
+
+È possibile passare da una rappresentazione all'altra compiendo una [[Trasformata di Fourier]]. Infatti, sia $\psi(x)$ che $\psi(p)$ appartengono a $L^{2}(\mathbb{R},dx)$ e valgono
+$$\psi(p)=\int_{-\infty}^{\infty} \frac{e^{-ipx/\hbar}}{\sqrt{ 2\pi \hbar }}\psi(x) \ dx,\qquad \psi(x)=\int_{-\infty}^{\infty} \frac{e^{ipx/\hbar}}{\sqrt{ 2\pi \hbar }}\psi(p) \ dp  $$
+quindi trasformando la rappresentazione delle posizioni ci dà quella dei momenti, antitrasformando quella dei momenti ci dà quella delle posizioni.
+
+[^1]: L'esatta operazione da compiere è un [[Scalar product]] tra $\Psi$ e l'operatore.

@@ -14,7 +14,7 @@ where $\mathbf{x}=(\mathbf{q},\mathbf{p})=(q_{1},\ldots,q_{n},p_{1},\ldots,p_{n}
 - $\{f,f\}=0$ (due to antisymmetry).
 - $\{f(x),x\}=0$.
 
-The first three are the most important, as a [[vector space]] equipped with an operation that satisfies them is a [[Lie algebra]].
+The first three are the most important, as a [[Vector space]] equipped with an operation that satisfies them is a [[Lie algebra]].
 ### Fundamental Poisson brackets
 Some instances of Poisson brackets are particularly important, specifically the brackets on the [[generalized coordinates]] and [[conjugate momenta]] of the phase space:
 $$\{ q_{i},q_{j} \}=\sum_{k=1}^{n} \frac{ \partial q_{i} }{ \partial q_{k} } \underbrace{ \frac{ \partial q_{j} }{ \partial p_{k} } }_{ 0 } - \underbrace{ \frac{ \partial q_{i} }{ \partial p_{k} } }_{ 0 } \frac{ \partial q_{j} }{ \partial q_{k} }=0$$
@@ -70,7 +70,7 @@ In other words, it's always constant unless it explicitly changes over time. Thi
 > &=\sum_{k=1}^{3} \epsilon_{ijk}(\mathbf{q}\times \mathbf{p})_{k} \\
 > &=\sum_{k=1}^{3} \epsilon_{ijk}L_{k}
 > \end{align}$$
-> where at the end we used the Levi-Civita tensor expression for the [[vector product]] of $\mathbf{q}$ and $\mathbf{p}$ (which is angular momentum). So, the Poisson brackets on angular momentum component is
+> where at the end we used the Levi-Civita tensor expression for the [[Vector product]] of $\mathbf{q}$ and $\mathbf{p}$ (which is angular momentum). So, the Poisson brackets on angular momentum component is
 > $$\boxed{\{ L_{i},L_{j} \}=\sum_{k=1}^{3} \epsilon_{ijk}L_{k}}$$
 > Specializing to specific indexes, we see the following fundamental relations:
 > $$\boxed{\{ L_{1},L_{2} \}=L_{3},\quad \{ L_{2},L_{3} \}=L_{1},\quad \{ L_{3},L_{1} \}=L_{2}}$$

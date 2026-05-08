@@ -5,7 +5,7 @@ Measuring the [[mean lifetime]] of an object is a very variable task. There's a 
 ### Near-stable
 If the duration of the measurement is tiny compared to the lifetime ($t\ll \tau$), we're probably dealing with a [[nuclide]] with many tens of thousands of years of lifetime, possible even billions, that decays extremely slowly. There's not much we can do about extended measurements here considering that the sample will outlast humanity a thousand times over, so what we do is rely on the [[radioactive decay law]] and a little approximation. The number of [[Nuclear decay|decays]] in a time interval are
 $$\Delta N(t)=N(0)-N(t)=N(0)(1-e^{-t/\tau})\simeq N(0)\left( 1- 1+ \frac{t}{\tau} \right)=\frac{t}{\tau}N(0)$$
-We used a first-order expansion of the [[exponential series]] since $t/\tau$ is tiny. Then, assuming we know $N(0)$, can measure the number of decays $N_{D}(t)$ and have good timer for $t$, we get
+We used a first-order expansion of the [[Exponential series]] since $t/\tau$ is tiny. Then, assuming we know $N(0)$, can measure the number of decays $N_{D}(t)$ and have good timer for $t$, we get
 $$\tau=\frac{N(0)}{\Delta N(t)}t$$
 ### Manageable lifetime
 If the lifetime is comparable to the time we can afford to spend measuring it ($t\sim \tau$), it's a little more involved. In this situation, it's common to get a large sample of the decaying object, separate them to the best of our abilities, keep them trapped at rest and measure the decay time of each individually. Then, join all the measurements in a [[histogram]] to get the lifetime [[Probability distribution|distribution]] and finally find the [[mean]] the old-fashioned way. The histogram should show the radioactive decay law:

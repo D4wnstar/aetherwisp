@@ -9,7 +9,7 @@ The modern theory of strong force is **quantum chromodynamics** (QCD), which exp
 
 The strong interaction has a tiny range of only approximately $10^{-15}\text{ m}$, which is about the size of an atomic nucleus. It is therefore relegated to interactions within the nucleus.
 ### Coupling constant
-The [[binding energy]] of the bound [[stato|state]] of a neutron–proton system (the deuterium nucleus) is about 2 MeV, so the energy required to break a nucleus is generally on the order of 10 MeV. The effective strong coupling constant at this scale is, loosely
+The [[binding energy]] of the bound [[Stato|state]] of a neutron–proton system (the deuterium nucleus) is about 2 MeV, so the energy required to break a nucleus is generally on the order of 10 MeV. The effective strong coupling constant at this scale is, loosely
 $$\alpha_{S}(\sim10\text{ MeV})\simeq 2.6$$
 Taking the [[Relativistic energy|rest energy]] of a proton $m_{p}\sim 1\text{ GeV}$, through more complicated QFT math one finds
 $$\alpha_{S}(\sim1\text{ GeV})\simeq 0.5$$

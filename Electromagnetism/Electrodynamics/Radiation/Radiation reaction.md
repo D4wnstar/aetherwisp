@@ -22,11 +22,11 @@ The boundary term drops because the state is identical in $t_{1}$ and $t_{2}$. T
 $$U=\int_{t_{1}}^{t_{2}}\mathbf{F}_\text{rad}\cdot \mathbf{v}dt=\frac{\mu_{0}q^{2}}{6\pi c}\int_{t_{1}}^{t_{2}}\dot{\mathbf{a}}\cdot \mathbf{v}dt\quad\Rightarrow \quad \int_{t_{1}}^{t_{2}}\left( \mathbf{F}_\text{rad}- \frac{\mu_{0}q^{2}}{6\pi c}\dot{\mathbf{a}} \right)\cdot \mathbf{v}dt=0$$
 This is certainly true if
 $$\boxed{\mathbf{F}_\text{rad}=\frac{\mu_{0}q^{2}}{6\pi c}\dot{\mathbf{a}}}$$
-This is known as the **Abraham-Lorentz formula** for radiation reaction. Sort of, at least. As it stands, this formula is on thin ice. It is valid only in a very particular form of motion (perfectly periodic) and we don't really have any information on the components of $\mathbf{v}$ that are [[Orthogonality|perpendicular]] to $\mathbf{v}$ as those will get deleted by the [[scalar product]] anyway and therefore never matter in the integral. The actual proof of this form is available, but not with this premise; see [[#Mechanism]] below.
+This is known as the **Abraham-Lorentz formula** for radiation reaction. Sort of, at least. As it stands, this formula is on thin ice. It is valid only in a very particular form of motion (perfectly periodic) and we don't really have any information on the components of $\mathbf{v}$ that are [[Orthogonality|perpendicular]] to $\mathbf{v}$ as those will get deleted by the [[Scalar product]] anyway and therefore never matter in the integral. The actual proof of this form is available, but not with this premise; see [[#Mechanism]] below.
 
 What's more urgent is the consequences of this law. Take [[Newton's laws|Newton's second law]]:
 $$F_\text{rad}=\frac{\mu_{0}q^{2}}{6\pi c}\dot{a}=ma$$
-under the assumption that the charge is not subject to any other force. This is a first-order linear [[ordinary differential equation]] with a simple exponential solution[^2]:
+under the assumption that the charge is not subject to any other force. This is a first-order linear [[Ordinary differential equation]] with a simple exponential solution[^2]:
 $$a(t)=a_{0}e^{t/\tau}$$
 where
 $$\tau\equiv \frac{\mu_{0}q^{2}}{6\pi mc}$$

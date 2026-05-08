@@ -6,14 +6,14 @@ hl-publish: true
 ![[Graph Spherical coordinates.svg|50%|center]]
 
 ### Relation to Cartesian coordinates
-Spherical coordinates $(r,\theta,\phi)$ can be converted to [[Cartesian coordinates]] $(x,y,z)$ through the [[coordinate transformation]]
+Spherical coordinates $(r,\theta,\phi)$ can be converted to [[Cartesian coordinates]] $(x,y,z)$ through the [[Coordinate transformation]]
 $$x=r\cos\theta\sin\phi, \quad y=r\sin\theta\sin\phi, \quad z=r\cos\phi$$
 and viceversa
 $$r=\sqrt{ x^{2}+y^{2}+z^{2} },\quad y=\arctan\left( \frac{\sqrt{x^{2}+y^{2} }}{z} \right),\quad z=\arctan\left( \frac{y}{x} \right)$$
 To convert an integral from Cartesian to spherical, we find the [[determinant]] of the [[Jacobian]] of the conversion [[diffeomorphism]] $\sigma(x,y,z)=(r\cos\theta\sin\phi,r\sin\theta\sin\phi,r\cos\phi)$, which is $\det J\sigma=r^{2}\sin \phi$. As such
 $$\iiint dxdydz=\iiint r^{2}\sin \phi\ drd\theta d\phi$$
 ### Motion
-A unit vector in the unit sphere is $\mathbf{R}=(\cos\theta\sin\phi,\sin\theta\sin\phi,\cos\phi)$. A perpendicular vector is $\mathbf{P}=(-\sin\theta,\cos\theta,0)$. Another perpendicular vector is just obtained by the [[Vector product|cross product]] $\mathbf{Q}=\mathbf{R}\times\mathbf{P}=(-\cos\theta\cos\phi,-\sin\theta\cos\phi,\sin\phi)$, which completes the [[basis]]. The [[Moving frame]] is
+A unit vector in the unit sphere is $\mathbf{R}=(\cos\theta\sin\phi,\sin\theta\sin\phi,\cos\phi)$. A perpendicular vector is $\mathbf{P}=(-\sin\theta,\cos\theta,0)$. Another perpendicular vector is just obtained by the [[Vector product|cross product]] $\mathbf{Q}=\mathbf{R}\times\mathbf{P}=(-\cos\theta\cos\phi,-\sin\theta\cos\phi,\sin\phi)$, which completes the [[Basis]]. The [[Moving frame]] is
 $$\{\mathbf{r}(t);\mathbf{R}(t),\mathbf{P}(t),\mathbf{Q}(t)\}$$
 
 The position of a point is

@@ -11,7 +11,7 @@ The [[Hamiltonian]] for the [[Equazione di Schrödinger|Schrödinger equation]] 
 $$\hat{H}=- \frac{\hbar^{2}}{2M}\nabla ^{2}_{R}- \frac{\hbar^{2}}{2m}\nabla^{2}_{r_{e}}- \frac{Ze^{2}}{4\pi \varepsilon_{0}r_{e}}$$
 where $M$ is the [[mass]] of the nucleus, $m$ is the mass of the electron, $\hbar$ is the [[Planck constant|reduced Planck constant]], $Z$ is the [[Atom|atomic number]] (the number of protons), $\varepsilon_{0}$ is the [[vacuum permittivity]] and $r_{e}$ is the distance of the electron from the origin. The last term is the [[potential energy]] due to [[Electromagnetism|electromagnetic attraction]].
 ## Derivation
-First things first, the end goal is finding the [[Funzione d'onda|wavefunction]] of the system. We'll solve it in [[Rappresentazioni dello stato|position representation]], $\psi(r)=\braket{ r | \psi }$. This wavefunction is of course dependent on the spatial coordinates, but since the electron carries [[spin]] ($s=1/2$ and $m_{s}=\pm1/2$ specifically), this will also be parameter. If we call $q$ the [[generalized coordinates]] of the wavefunction, we can write it as $\psi\equiv \psi(q)=\psi(r_{e},R,s,m_{s})$.
+First things first, the end goal is finding the [[Funzione d'onda|wavefunction]] of the system. We'll solve it in [[Rappresentazioni dello stato|position representation]], $\psi(r)=\braket{ r | \psi }$. This wavefunction is of course dependent on the spatial coordinates, but since the electron carries [[Spin]] ($s=1/2$ and $m_{s}=\pm1/2$ specifically), this will also be parameter. If we call $q$ the [[generalized coordinates]] of the wavefunction, we can write it as $\psi\equiv \psi(q)=\psi(r_{e},R,s,m_{s})$.
 
 However, the Hamiltonian has no spin term. $s$ and $m_{s}$ never appear. This suggests that the wavefunction that we get by solving $\hat{H}\psi=E\psi$ is actually just the spatial part, with the spin part being a separate piece. Using [[separation of variables]], we can split the two:
 $$\psi(q)\equiv \chi_{sm_{s}}\psi(r_{e},R)$$
@@ -27,7 +27,7 @@ $$\chi_{1/2,+1/2}=\begin{pmatrix}
 \end{pmatrix}$$
 And that's the spin part done already. The real challenge is solving the spatial part.
 ### The spatial part
-Since we have a central potential, the system lends itself well to be rewritten in [[spherical coordinates]], as the Schrödinger equation has a general solution in this form. To do so, we make a first [[coordinate transformation]] to the [[frame of reference]] of the [[center of mass]]. We define the reduced mass as usual:
+Since we have a central potential, the system lends itself well to be rewritten in [[spherical coordinates]], as the Schrödinger equation has a general solution in this form. To do so, we make a first [[Coordinate transformation]] to the [[frame of reference]] of the [[center of mass]]. We define the reduced mass as usual:
 $$\mu=\frac{Mm}{M+m}$$
 Then, using $\mu$ and expressing the [[Laplacian]] in the relative coordinate $\mathbf{r}=\mathbf{r}_{e}-\mathbf{R}$, the equation becomes
 $$\hat{H}\psi(r)=\left[ - \frac{\hbar^{2}}{2\mu} \nabla ^{2}_{r}- \frac{Ze^{2}}{4\pi \varepsilon_{0}r}\right]\psi(r)=E\psi(r)$$
@@ -41,7 +41,7 @@ With this we can express the Laplacian in spherical coordinates. Writing the pot
 $$\begin{align}
 \hat{H}&=- \frac{\hbar^{2}}{2\mu}\left[ \frac{1}{r^{2}}\frac{ \partial  }{ \partial r } \left( r^{2}\frac{ \partial  }{ \partial r }  \right)+ \frac{1}{r^{2}\sin \theta}\frac{ \partial  }{ \partial \theta } \left( \sin \theta \frac{ \partial  }{ \partial \theta }  \right)+ \frac{1}{r^{2}\sin ^{2}\theta}\frac{ \partial ^{2}  }{ \partial \phi ^{2} }  \right]+V(r) \\
 \end{align}$$
-We now introduce what is arguably the key component of the system: the [[Momento angolare quantistico|quantum angular momentum]] $\hat{L}=\hat{r}\times \hat{p}=-i\hbar (\hat{r}\times \nabla)$[^1]. It is so important because if we express its [[gradient]] in spherical coordinates, then take the square, we get the equation
+We now introduce what is arguably the key component of the system: the [[Momento angolare quantistico|quantum angular momentum]] $\hat{L}=\hat{r}\times \hat{p}=-i\hbar (\hat{r}\times \nabla)$[^1]. It is so important because if we express its [[Gradient]] in spherical coordinates, then take the square, we get the equation
 $$\hat{L}^{2}=-\hbar^{2}\left[ \frac{1}{\sin \theta}\frac{ \partial  }{ \partial \theta } \left( \sin \theta \frac{ \partial  }{ \partial \theta }\right) + \frac{1}{\sin ^{2} \theta}\frac{ \partial ^{2} }{ \partial \phi ^{2} }  \right]$$
 We can see that $\hat{L}^{2}$ comes up exactly in the Hamiltonian, so with a simple substitution
 $$\hat{H}=- \frac{\hbar^{2}}{2\mu}\left[ \frac{1}{r^{2}}\frac{ \partial  }{ \partial r } \left( r^{2}\frac{ \partial  }{ \partial r }  \right)- \frac{\hat{L}^{2}}{\hbar^{2}r^{2}} \right]+V(r)$$
@@ -168,7 +168,7 @@ The levels themselves are infinite and tend towards zero as you get further from
 
 Furthermore, these energy levels are *identical* to those obtained from the Bohr model of the atom. Despite being a (semi)classical model, it already got the quantum levels correct down to the equation. But what it couldn't do, however, are the eigenstates themselves.
 #### Eigenstates
-To compute the eigenstate, we look back at $(2)$. Earlier, we looked only at the asymptotic behavior, which led us to the definition of the radial and principal quantum numbers and $\lambda=n$. We now want to find the actual solutions themselves. This is a second order [[ordinary differential equation]] in $\rho$ and luckily, a similar equation has already been solved in the past.
+To compute the eigenstate, we look back at $(2)$. Earlier, we looked only at the asymptotic behavior, which led us to the definition of the radial and principal quantum numbers and $\lambda=n$. We now want to find the actual solutions themselves. This is a second order [[Ordinary differential equation]] in $\rho$ and luckily, a similar equation has already been solved in the past.
 
 The (generalized) [[Laguerre's differential equation]] is the following second order [[Ordinary differential equation|ODE]]:
 $$\left[ \rho \frac{d^{2}}{d\rho^{2}}+(p+1-\rho) \frac{d}{d\rho}+q \right]L_{q}^{p}(\rho)=0$$
@@ -186,7 +186,7 @@ g(\rho)=L_{q}^{p}(\rho)
 \end{cases}$$
 Thus, the physically valid solutions of $(2)$ are
 $$g(\rho)=AL_{n-l-1}^{2l+1}(\rho)$$
-where $A$ is some [[normalization]] constant. Substituting $r$ for $\rho$ and substituting $g(\rho)$ into $R(r)$ (after unwinding all the functions we've added)
+where $A$ is some [[Normalization]] constant. Substituting $r$ for $\rho$ and substituting $g(\rho)$ into $R(r)$ (after unwinding all the functions we've added)
 $$R_{nl}(r)=\frac{u(r)}{r}=\frac{na_{\mu}}{2Z} \frac{f(\rho)e^{-\rho/2}}{\rho}=\frac{na_{\mu}}{2Z}\frac{g(\rho)\rho^{l+1}e^{-\rho/2}}{\rho}=A\rho^{l}e^{-\rho/2}L_{n-l-1}^{2l+1}(\rho)$$
 where in the last step we have absorbed $na_{\mu}/2Z$ inside $A$ since they are both constants. Calculating the constant (see below) yields the radial wavefunction:
 $$\boxed{R_{nl}(\rho)=- \sqrt{ \left( \frac{2Z}{na_{\mu}} \right)^{3} \frac{(n-l-1)!}{2n[(n+l)!]^{3}} }\rho^{l}e^{-\rho/2}L_{n-l-1}^{2l+1}(\rho)}$$
@@ -301,9 +301,9 @@ Evaluating the derivative gives the **spin-orbit correction**:
 $$\boxed{H_{2}'=\frac{Ze^{2}}{8m^{2}c^{2}\pi \varepsilon_{0}r^{3}}\mathbf{L}\cdot \mathbf{S}}$$
 This correction does not commute with neither $L_{z}$ nor $S_{z}$, so to find the eigenvalue correction we must first identify some states that [[Diagonalization|diagonalize]] $H_{2}'$. To do so, we introduce the total angular momentum
 $$\mathbf{J}\equiv \mathbf{L}+\mathbf{S}$$
-which associated quantum numbers $j$ and $m_{j}$. This allows us to write the [[scalar product]] as
+which associated quantum numbers $j$ and $m_{j}$. This allows us to write the [[Scalar product]] as
 $$\mathbf{L}\cdot \mathbf{S}=\frac{1}{2}(\mathbf{J}^{2}-\mathbf{L}^{2}-\mathbf{S}^{2})$$
-A good [[basis]] is the one given by the states
+A good [[Basis]] is the one given by the states
 $$\ket{\psi_{nlm_{l}m_{s}}} \equiv \sum_{m_{l},m_{s}}\braket{ \frac{1}{2}lm_{l}m_{s} | jm_{j} } \ket{\chi_{m_{s}}\psi_{nlm_{l}}} $$
 The scalar product in the sum are a well-known set of numbers called the [[Clebsch-Gordan coefficients]] for $s=1/2$. In these states we have the eigenvalue equations
 $$\begin{cases}
@@ -433,7 +433,7 @@ Now, this new term $\mathbf{r}_{ba}$ can be shown to be not null only in very sp
 $$\boxed{\Delta l=l_{b}-l_{a}=\pm 1,\quad \Delta m=m_{b}-m_{a}=0,\pm 1}$$
 But then the transition probability must follow these conditions: we call these **selection rules**, as they allow us to determine which transitions are allowed and which aren't, for if these rules are not met, then $W_{ba}=0$ and the transition is impossible. These rules actually happen to be quite general, despite having derived them from a specific approximation in a specific kind of field and specifically for electrons. These even function, for instance, in transitions between vibrational states of [[molecule|molecules]].
 
-[^1]: The angular momentum operator is found by quantizing the classical quantities of $r$ and $p$, which become $\hat{r}$ and $-i\hbar \nabla$ respectively ($\nabla$ is the [[gradient]]). So, we get $\hat{L}=-i\hbar(\hat{r}\times \nabla)$.
+[^1]: The angular momentum operator is found by quantizing the classical quantities of $r$ and $p$, which become $\hat{r}$ and $-i\hbar \nabla$ respectively ($\nabla$ is the [[Gradient]]). So, we get $\hat{L}=-i\hbar(\hat{r}\times \nabla)$.
 
 [^2]: If you recall the general solution, this extra term is known as the "centrifugal term". It represent the fact that more intense rotations (high $l$) tend to "push" outwards more. It's to quantum mechanics what the centrifugal force is to classical mechanics.
 

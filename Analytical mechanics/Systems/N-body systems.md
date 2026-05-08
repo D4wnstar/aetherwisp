@@ -13,7 +13,7 @@ There are $N$ equations like this (each with three components), one for each dim
 $$\sum_{i=1}^{N} (m_{i}\mathbf{a}_{i}-\mathbf{F}_{i}-\Phi_{i})\cdot \frac{ \partial \mathbf{r}_{i} }{ \partial q_{j} } =0$$
 for $j=1,\ldots,n$, which simplifies our equation greatly *if* we claim that our constraints are ideal, for which
 $$\Phi_{i}\cdot \frac{ \partial \mathbf{r}_{i} }{ \partial q_{j} } =0\quad\text{(ideal constraints)}$$
-Similarly, the middle [[scalar product]] is a [[generalized force]]
+Similarly, the middle [[Scalar product]] is a [[generalized force]]
 $$\sum_{i=1}^{N} \mathbf{F}_{i}\cdot \frac{ \partial \mathbf{r}_{i} }{ \partial q_{j} } =Q_{j}$$
 Meanwhile, the first product is
 $$m_{i}\mathbf{a}_{i}\cdot \frac{ \partial \mathbf{r}_{i} }{ \partial q_{j} } =m_{i}\frac{d}{dt} \left( \frac{1}{2}\frac{ \partial  }{ \partial \dot{q}_{j} } \lvert \mathbf{v}_{i} \rvert ^{2} \right)- \frac{1}{2}m_{i}\frac{ \partial  }{ \partial q_{j} } \lvert \mathbf{v}_{i} \rvert ^{2}$$
@@ -26,7 +26,7 @@ where we find the [[kinetic energy]] $T$. Our functions $q_{j}(t)$ then satisfy 
 $$\boxed{\frac{d}{dt} \frac{ \partial T }{ \partial \dot{q}_{j} }(q(t),\dot{q}(t),t)- \frac{ \partial T }{ \partial q_{j} } (q(t),\dot{q}(t),t)=Q_{j} }$$
 Each of these equations is known as the **[[Lagrange equation]]**, or one form of it at least. The left hand side essentially describes motion. The right hand side is the projection of forces over the direction of motion. Solving this equation means finding $q(t)$ and thus the motion.
 ### Conservative systems
-Say the forces applied onto the system are [[Vector field|conservative]]. In this case, they can be written in terms of a [[potential]]:
+Say the forces applied onto the system are [[Vector field|conservative]]. In this case, they can be written in terms of a [[Potential]]:
 $$\mathbf{F}_{i}=-\nabla V\quad\Rightarrow \quad Q_{j}=-\frac{ \partial V }{ \partial q_{j} } (q,t)\quad\text{and}\quad\frac{ \partial V }{ \partial \dot{q}_{j} } =0$$
 Knowing this, the generalized force becomes
 $$\frac{d}{dt} \frac{ \partial V }{ \partial \dot{q}_{j} } -\frac{ \partial V }{ \partial q_{j} } =Q_{j}$$

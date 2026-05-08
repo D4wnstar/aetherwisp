@@ -3,7 +3,7 @@ hl-publish: true
 aliases:
   - gamma ray
 ---
-**Gamma decay** is a [[Nuclear decay|decay]] mode in which an excited [[Atomic nucleus|nucleon]] drops to a less energetic [[stato|state]] by emitting a [[Photon]]. It is essentially just a [[state transition]] of a nucleon from a higher [[Stationary state|energy eigenstate]] to a lower one. As such, the [[energy]] of the photon equals the difference in energy between states, however it is reduced by a small [[Atomic nucleus|nucleus]] recoil term. It often follows [[Alpha decay|alpha]] or [[Beta decay|beta]] decay, which generally leave one or more nucleons in an excited state.
+**Gamma decay** is a [[Nuclear decay|decay]] mode in which an excited [[Atomic nucleus|nucleon]] drops to a less energetic [[Stato|state]] by emitting a [[Photon]]. It is essentially just a [[State transition]] of a nucleon from a higher [[Stationary state|energy eigenstate]] to a lower one. As such, the [[energy]] of the photon equals the difference in energy between states, however it is reduced by a small [[Atomic nucleus|nucleus]] recoil term. It often follows [[Alpha decay|alpha]] or [[Beta decay|beta]] decay, which generally leave one or more nucleons in an excited state.
 
 The nuclear process is
 $$\ce{X^{*}}\to \ce{X}+\gamma$$
@@ -41,9 +41,9 @@ The second term is the recoil correction:
 $$\boxed{K_{R}= \frac{(\Delta E)^{2}}{2Mc^{2}}}$$
 This is tiny: usually in the order somewhere between and 1 and 100 electronvolts. Nevertheless, it's not insignificant. On the higher end, $100\text{ eV}$ recoils can displace an [[atom]] is a solid state [[crystal]] which can break things at an atomic level. This is commonly known as **radiation damage**.
 ### Selection rules
-Gamma decay results in the emission of [[electromagnetic radiation]] from a nucleus. We can describe this radiation as a superposition of known radiation shapes, namely regarding the polarity of the radiation. We know that radiation from an arbitrary source can be described as a [[multipole expansion]] containing a monopole term, a dipole term, a quadrupole term, etc. Each of these has a characteristic angular distribution, which we can use as a [[basis]] to express any form of radiation.
+Gamma decay results in the emission of [[electromagnetic radiation]] from a nucleus. We can describe this radiation as a superposition of known radiation shapes, namely regarding the polarity of the radiation. We know that radiation from an arbitrary source can be described as a [[multipole expansion]] containing a monopole term, a dipole term, a quadrupole term, etc. Each of these has a characteristic angular distribution, which we can use as a [[Basis]] to express any form of radiation.
 
-Electric radiation arises from the variation of the [[Electric charge|charge]] distribution inside the nucleus. Magnetic radiation instead arises from the variation of nuclear magnetic moment, be it orbital [[angular momentum]] or [[spin]]. Within the nucleus, angular momentum (and by extension spin and hence [[parity]]) must be conserved. This conservation requirement forbids some transitions and allows some others: we call **selection rules** the set of rules we use to determine which transitions are allowed.
+Electric radiation arises from the variation of the [[Electric charge|charge]] distribution inside the nucleus. Magnetic radiation instead arises from the variation of nuclear magnetic moment, be it orbital [[angular momentum]] or [[Spin]]. Within the nucleus, angular momentum (and by extension spin and hence [[parity]]) must be conserved. This conservation requirement forbids some transitions and allows some others: we call **selection rules** the set of rules we use to determine which transitions are allowed.
 
 Consider some gamma decay transition that takes a nucleus from $J_{i}^{P_{i}}$ to $J_{f}^{P_{f}}$. From conservation of angular momentum I have
 $$\mathbf{J}_{i}=\mathbf{J}_{f}+\mathbf{L}_{\gamma}$$
@@ -51,7 +51,7 @@ since the photon being emitted may very well carry away some of the angular mome
 
 The values of $L$ give the set of multipole terms that describe the radiation. According to conservation of momentum, the allowed values of $L$ satisfy
 $$|J_{i}-J_{f}|\leq L\leq J_{i}+J_{f}$$
-For instance, if we start from $J_{i}=3/2$ and end up in $J_{f}=5/2$, the possible transitions are $L=1,2,3,4$. This means that the actual radiation being emitted is some [[linear combination]] of these four terms (dipole, quadrupole, octopole, hexadecapole).
+For instance, if we start from $J_{i}=3/2$ and end up in $J_{f}=5/2$, the possible transitions are $L=1,2,3,4$. This means that the actual radiation being emitted is some [[Linear combination]] of these four terms (dipole, quadrupole, octopole, hexadecapole).
 
 The parity difference instead tells us whether each pole is electric or magnetic. Electric transitions produce photons with parity given by $P_{\gamma}(\text{EL})=(-1)^{L}$ (same parity as $L$) and magnetic transitions have $P_{\gamma}(\text{ML})=(-1)^{L+1}$ (opposite of $L$)[^2]. The total parity must be conserved, so
 $$P_{i}=P_{f}\cdot P_{\gamma}(\text{EL or ML})$$

@@ -38,7 +38,7 @@ where $\mathfrak{r}=\sqrt{ r^{2}+R^{2}-2rR\cos \theta }$ and we ignored the inte
 $$\psi_{100}(r)=\frac{1}{\sqrt{ \pi a^{3} }}e^{-r/a}$$
 This will be our trial function. For brevity we'll write $\psi_{100}\equiv \psi_{0}$. We'll use what's called a **[[Linear Combination of Atomic Orbitals]]** (or **LCAO** for short):
 $$\psi=S[\psi_{100}(r)+\psi_{100}(\mathfrak{r})]$$
- where $S$ is a [[normalization]] constant. We are taking a [[linear combination]] of [[atomic orbital|atomic orbitals]]. It is not the most accurate or general solution, but the benefit is that it is quick and easy to set up: it's just a sum. For this wave function to be a realizable state, it must be [[Normalization|normalized]], so
+ where $S$ is a [[Normalization]] constant. We are taking a [[Linear combination]] of [[atomic orbital|atomic orbitals]]. It is not the most accurate or general solution, but the benefit is that it is quick and easy to set up: it's just a sum. For this wave function to be a realizable state, it must be [[Normalization|normalized]], so
 $$1=\int \lvert \psi \rvert ^{2}d\tau=\lvert S\rvert ^{2}\left[ \underbrace{ \int \psi_{0}(r)^{2}d\tau }_{ 1 }+ \underbrace{ \int \psi_{0}(\mathfrak{r})^{2}d\tau }_{ 1 }+2\int \psi_{0}(r)\psi_{0}(\mathfrak{r})d\tau \right]$$
 The first two integrals are trivial because physically realizable states are always normalized. The last one can be solved by substituting the definition of $\psi$ above (and changing to [[spherical coordinates]]):
 $$I=\frac{1}{\pi a^{3}}\int e^{-r/a}e^{-\sqrt{ r^{2}+R^{2}-2rR\cos \theta }/a}R^{2}\sin \theta drd\theta d\phi$$
@@ -62,7 +62,7 @@ and we need some way to determine $c_{1}$ and $c_{2}$. The [[Equazione di Schrö
 $$\left( \underbrace{ - \frac{\hbar^{2}}{2m}\nabla ^{2}- \frac{e^{2}}{4\pi \varepsilon_{0}r_{a}} }_{ H_{a} }- \frac{e^{2}}{4\pi \varepsilon_{0}r_{b}} \right)c_{1}\phi_{a}+\left( \underbrace{ - \frac{\hbar^{2}}{2m}\nabla ^{2}- \frac{e^{2}}{4\pi \varepsilon_{0}r_{b}} }_{ H_{b} }- \frac{e^{2}}{4\pi \varepsilon_{0}r_{a}} \right)c_{2}\phi_{b}=E\Phi$$
 and so, defining $\Delta E\equiv E-E_{0}$, we get
 $$\left( -\Delta E+ \frac{e^{2}}{4\pi \varepsilon_{0}r_{b}} \right)c_{1}\phi_{a}+\left( -\Delta E - \frac{e^{2}}{4\pi \varepsilon_{0}r_{a}} \right)c_{2}\phi_{b}=0$$
-To find conditions on $c_{1}$ and $c_{2}$ we can take the [[scalar product]] of this expression with $\phi_{a}$ or $\phi_{b}$. For instance, with $\phi_{a}$:
+To find conditions on $c_{1}$ and $c_{2}$ we can take the [[Scalar product]] of this expression with $\phi_{a}$ or $\phi_{b}$. For instance, with $\phi_{a}$:
 $$c_{1}\left( -\Delta E \int \phi^{*}_{a}\phi_{a}+\underbrace{ \int \frac{e^{2}}{4\pi \varepsilon_{0}r_{b}}\phi_{a}^{*}\phi_{a} }_{ C } \right)-c_{2}\left( -\Delta E\underbrace{ \int \phi_{a}^{*}\phi_{b} }_{ S }- \underbrace{ \int \frac{e^{2}}{4\pi \varepsilon_{0}r_{a}}\phi_{a}^{*}\phi_{b} }_{ D }\right)=0$$
 which yields
 $$c_{1}(C-\Delta E)+c_{2}(D-S\Delta E)=0$$

@@ -3,7 +3,7 @@ hl-publish: true
 ---
 The **chi-square distribution** or **$\chi ^{2}$ distribution** is a real, continuous [[Probability distribution]] over $\Omega\equiv[0,\infty)$. For a [[Random variable]] $X$, the [[Probability density function]] is
 $$f_{X}(x;k)=\frac{1}{\Gamma\left( \frac{k}{2} \right)} \frac{1}{2^{k/2}}x^{k/2 -1}e^{-x/2}$$
-where $k\geq1$ is an integer parameter called the **[[degrees of freedom]]** of the distribution and $\Gamma$ is the [[gamma function]].
+where $k\geq1$ is an integer parameter called the **[[degrees of freedom]]** of the distribution and $\Gamma$ is the [[Gamma function]].
 
 Its most common application is for [[hypothesis test|hypothesis testing]], specifically [[Chi-square test|chi-square tests]]. Moreover, since $\chi ^{2}$ distributions arise from the sum of squares of [[Gaussian distribution|Gaussian distributions]], the square [[norm]] of any [[Vector space|vector]] whose components follow a Gaussian is $\chi ^{2}$.
 ### Moments

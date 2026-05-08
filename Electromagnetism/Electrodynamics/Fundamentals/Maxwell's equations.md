@@ -1,7 +1,7 @@
 ---
 hl-publish: true
 ---
-**Maxwell's equations** are four equations that determine the [[divergence]] and [[curl]] of the [[Electric field|electric]] and [[magnetic field]]. In the vacuum they are
+**Maxwell's equations** are four equations that determine the [[Divergence]] and [[Curl]] of the [[Electric field|electric]] and [[magnetic field]]. In the vacuum they are
 $$\boxed{\begin{align}
 \nabla\cdot\mathbf{E} & =\frac{\rho}{\varepsilon_{0}} &
 \nabla\times\mathbf{E} & = -\frac{ \partial \mathbf{B} }{ \partial t } \\
@@ -134,7 +134,7 @@ Simple enough; take away time dependence and it goes back to the usual [[Poisson
 $$\nabla\times (\nabla\times \mathbf{A})=\mu_{0}\mathbf{J}-\mu_{0}\varepsilon_{0}\nabla\left( \frac{ \partial V }{ \partial t }  \right)-\mu_{0}\varepsilon_{0}\frac{ \partial ^{2}\mathbf{A} }{ \partial t^{2} } $$
 Using the vector identity $\nabla\times(\nabla\times \mathbf{A})=\nabla(\nabla\cdot \mathbf{A})-\nabla ^{2}\mathbf{A}$ and with some rearrangements we get
 $$\left( \nabla ^{2}\mathbf{A}-\mu_{0}\varepsilon_{0}\frac{ \partial ^{2}\mathbf{A} }{ \partial t^{2} }  \right)-\nabla\left( \nabla\cdot \mathbf{A}+\mu_{0}\varepsilon_{0}\frac{ \partial V }{ \partial t }  \right)=-\mu_{0}\mathbf{J}\tag{2}$$
-On paper, this is the potential form of Maxwell's equation. It is also horribly confusing compared to the field form, so it begs the question of why you'd ever do this to yourself. The answer to that, beyond the proposition of reducing variables from six to four, is that potentials come packaged with a certain degree of freedom. Recall that a [[potential]] is defined up to a constant (the gradient of a constant always vanishes) and that a [[vector potential]] is defined up to the gradient of a [[scalar field]] (since the curl of a gradient always vanishes). This is the *soul* of these two equation, and it is important enough to warrant a name of its own: **[[gauge freedom]]**.
+On paper, this is the potential form of Maxwell's equation. It is also horribly confusing compared to the field form, so it begs the question of why you'd ever do this to yourself. The answer to that, beyond the proposition of reducing variables from six to four, is that potentials come packaged with a certain degree of freedom. Recall that a [[Potential]] is defined up to a constant (the gradient of a constant always vanishes) and that a [[Vector potential]] is defined up to the gradient of a [[Scalar field]] (since the curl of a gradient always vanishes). This is the *soul* of these two equation, and it is important enough to warrant a name of its own: **[[gauge freedom]]**.
 
 As a side note, if we define $L\equiv \nabla\cdot \mathbf{A}+\mu_{0}\varepsilon_{0}\ \partial V/\partial t$ and invoke the [[d'Alembertian]] operator, we can write Maxwell's equations in potential form as
 $$\boxed{\square ^{2}V+\frac{ \partial L }{ \partial t } =- \frac{\rho}{\varepsilon_{0}},\qquad\square ^{2}\mathbf{A}-\nabla L=-\mu_{0}\mathbf{J}}$$

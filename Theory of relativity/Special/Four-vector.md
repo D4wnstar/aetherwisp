@@ -15,6 +15,6 @@ where $a_{0}$ is the time coordinate and $\mathbf{a}=(a_{1},a_{2},a_{3})$ are th
 ### Product
 As vectors, the definition of product needs to be approached with care. In spacetime, the product between two four-vectors $a$ and $b$ is defined as
 $$a\cdot b=-a_{0}b_{0}+a_{1}b_{1}+a_{2}b_{2}+a_{3}b_{3}=-a_{0}b_{0}+\mathbf{a}\cdot \mathbf{b}$$
-This is similar to the three-dimensional [[scalar product]], but in four-dimensions and with the sign of the first product being minus instead of plus. This is expressed in terms of the [[metric tensor]] $g_{\mu \nu}$ as
+This is similar to the three-dimensional [[Scalar product]], but in four-dimensions and with the sign of the first product being minus instead of plus. This is expressed in terms of the [[metric tensor]] $g_{\mu \nu}$ as
 $$a\cdot b=a_{\mu}b_{\nu}g^{\mu \nu}$$
 This product is a [[relativistic invariant]].

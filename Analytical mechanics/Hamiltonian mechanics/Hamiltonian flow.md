@@ -1,13 +1,13 @@
 ---
 hl-publish: true
 ---
-The **Hamiltonian flow** is the [[flow]] of the [[Hamiltonian]] [[vector field]] $\mathrm{E}\nabla_{\mathbf{x}}H(\mathbf{x},t)$.
+The **Hamiltonian flow** is the [[Flow]] of the [[Hamiltonian]] [[Vector field]] $\mathrm{E}\nabla_{\mathbf{x}}H(\mathbf{x},t)$.
 
 The [[Hamilton equations]] can be written in compact form as
 $$\dot{\mathbf{x}}=\mathrm{E}\nabla_{\mathbf{x}}H(\mathbf{x},t)$$
-which is a first order [[ordinary differential equation]]. As with other differential equations, we can look for the flow. We'll denote it $\Phi^{t}:T^{*}Q\mapsto T^{*}Q$ and its application is $\mathbf{x}_{0}\mapsto \Phi^{t}(\mathbf{x}_{0})\equiv \mathbf{x}(t;\mathbf{x}_{0})$. As usual, this isn't a single map, but rather a family of maps parameterized by $t$. We call this the Hamiltonian flow.
+which is a first order [[Ordinary differential equation]]. As with other differential equations, we can look for the flow. We'll denote it $\Phi^{t}:T^{*}Q\mapsto T^{*}Q$ and its application is $\mathbf{x}_{0}\mapsto \Phi^{t}(\mathbf{x}_{0})\equiv \mathbf{x}(t;\mathbf{x}_{0})$. As usual, this isn't a single map, but rather a family of maps parameterized by $t$. We call this the Hamiltonian flow.
 ### As a canonical transformation
-Given $n$ [[degrees of freedom]], the Hamiltonian flow is an invertible function with domains $\mathbb{R}^{2n}\to \mathbb{R}^{2n}$. This qualifies it as a [[coordinate transformation]], so we can use $\Phi^{t}$ to change coordinates. We'll define the transformation as $\mathbf{x}\equiv \mathbf{w}(\tilde{\mathbf{x}},t)=\Phi^{t}(\tilde{\mathbf{x}})$, and it isn't just a generic transformation.
+Given $n$ [[degrees of freedom]], the Hamiltonian flow is an invertible function with domains $\mathbb{R}^{2n}\to \mathbb{R}^{2n}$. This qualifies it as a [[Coordinate transformation]], so we can use $\Phi^{t}$ to change coordinates. We'll define the transformation as $\mathbf{x}\equiv \mathbf{w}(\tilde{\mathbf{x}},t)=\Phi^{t}(\tilde{\mathbf{x}})$, and it isn't just a generic transformation.
 
 > [!info] Proposition
 > The Hamiltonian flow is a [[Canonical transformation|univalent canonical transformation]].
@@ -17,7 +17,7 @@ Given $n$ [[degrees of freedom]], the Hamiltonian flow is an invertible function
 > $$J_{ij}=\frac{ \partial \Phi_{i}^{t} }{ \partial \tilde{x}_{j} }=\frac{ \partial w_{i} }{ \partial \tilde{x}_{j} }$$
 > The symplectic condition is $J^{T}\mathrm{E}J=\mathrm{E}$ for all $t$. Starting from $t=0$,
 > $$w_{i}(\tilde{\mathbf{x}},0)=\Phi_{i}^{0}(\tilde{\mathbf{x}})=\tilde{x}_{i}\quad\Rightarrow \quad J_{ij}=\frac{ \partial w_{i} }{ \partial \tilde{x}_{j} } =\frac{ \partial \tilde{x}_{i} }{ \partial \tilde{x}_{j} } =\delta_{ij}$$
-> But remember that the [[Kronecker delta]] defines the components of the [[identity matrix]] $\mathrm{I}$, so $J=\mathrm{I}$ for $t=0$, and $\mathrm{I}$ is symplectic since $\mathrm{I}\mathrm{E}\mathrm{I}=\mathrm{E}$.
+> But remember that the [[Kronecker delta]] defines the components of the [[Identity matrix]] $\mathrm{I}$, so $J=\mathrm{I}$ for $t=0$, and $\mathrm{I}$ is symplectic since $\mathrm{I}\mathrm{E}\mathrm{I}=\mathrm{E}$.
 > 
 > We now want to extend this to any $t$. We'll do so by proving that $J_{t}^{T}\mathrm{E}J_{t}$ does not actually depend on $t$. To do so, we'll check if the time derivative is zero:
 > $$\frac{ \partial  }{ \partial t } J_{t}^{T}\mathrm{E}J_{t}=0\quad(?)$$

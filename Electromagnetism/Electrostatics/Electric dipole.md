@@ -65,7 +65,7 @@ Just like how the dipole term of potential goes like $\sim 1/r^{2}$ instead of $
 ### Energy and torque
 When subject to an external source field, we can calculate the stored [[potential energy]] of a *rigid* dipole. The distinction here is important: a non-rigid dipole would move to adapt to the source field, ending up in the point of lowest potential energy. Given a dipole of charges $-q$ and $q$ set a distance $d\mathbf{s}$ apart, respectively in $\mathbf{r}$ and $\mathbf{r}+d\mathbf{s}$, we find the potential energy as
 $$\mathbf{U}(\mathbf{r})=q[V(\mathbf{r}+d\mathbf{s})-V(\mathbf{r})]=q(d\mathbf{s}\cdot \nabla V(\mathbf{r}))=-\mathbf{p}\cdot \mathbf{E}(\mathbf{r})$$
-where we used the fact that the infinitesimal difference of potential is given by the projection of the [[gradient]] over the $d\mathbf{s}$ axis (i.e. the [[directional derivative]])[^2]. Using the same argument, the [[moment of force]] (or torque) is given by
+where we used the fact that the infinitesimal difference of potential is given by the projection of the [[Gradient]] over the $d\mathbf{s}$ axis (i.e. the [[directional derivative]])[^2]. Using the same argument, the [[moment of force]] (or torque) is given by
 $$\begin{align}
 \tau(\mathbf{r})&=-q\mathbf{r}\times \mathbf{E}(\mathbf{r})+q(\mathbf{r}+d\mathbf{s})\times \mathbf{E}(\mathbf{r}+d\mathbf{s}) \\
 &=-q\mathbf{r}\times \mathbf{E}(\mathbf{r})+q\mathbf{r}\times \mathbf{E}(\mathbf{r}+d\mathbf{s})+qd\mathbf{s}\times \mathbf{E}(\mathbf{r}+d\mathbf{s}) \\
@@ -107,7 +107,7 @@ $$\begin{align}
 \end{align}$$
 where we used $\cos(\alpha\pm \beta)=\cos \alpha \cos \beta\mp \sin \alpha \sin \beta$. This is... verbose. Thankfully, in the perfect dipole limit we have another approximation that is automatically satisfied:
 $$d\ll \lambda\sim\frac{c}{\omega}\tag{Large wavelength approximation}$$
-since [[Wave|waves]] of frequency $\omega$ have a [[wavelength]] $\lambda=2\pi c/\omega$. With this we can say, truncating the [[sine and cosine series]] to first order:
+since [[Wave|waves]] of frequency $\omega$ have a [[wavelength]] $\lambda=2\pi c/\omega$. With this we can say, truncating the [[Sine and cosine series]] to first order:
 $$\frac{\omega d}{c}\ll 1\quad\Rightarrow \quad \cos\left( \frac{\omega d}{2c}\cos \theta \right)\simeq 1,\qquad \sin\left( \frac{\omega d}{2c}\cos \theta \right)\simeq \frac{\omega d}{2c}\cos \theta$$
 and so
 $$\ldots\simeq \cos\left[ \omega\left( t- \frac{r}{c} \right) \right]\mp \frac{\omega d}{2c}\cos \theta \sin\left[ \omega\left( t- \frac{r}{c} \right) \right]$$
@@ -139,7 +139,7 @@ where in the last step we dropped the first and last term since in the far field
 $$\frac{ \partial \mathbf{A} }{ \partial t } =- \frac{\mu_{0}p_{0}\omega ^{2}}{4\pi r}\cos\left[ \omega\left( t- \frac{r}{c} \right) \right](\cos \theta \hat{\mathbf{r}}-\sin \theta \hat{\boldsymbol{\theta}})$$
 Quite conveniently, the cosine term here cancels out the entire gradient (notice $\varepsilon_{0}c^{2}=1/\mu_{0}$). The electric field therefore is
 $$\boxed{\mathbf{E}=- \frac{\mu_{0}p_{0}\omega ^{2}}{4\pi r}\sin \theta\cos\left[ \omega\left( t- \frac{r}{c} \right) \right]\hat{\boldsymbol{\theta}}}\tag{5}$$
-The magnetic field is derived from the [[curl]] of $\mathbf{A}$:
+The magnetic field is derived from the [[Curl]] of $\mathbf{A}$:
 $$\begin{align}
 \nabla\times \mathbf{A}&=\frac{1}{r}\left[ \frac{ \partial  }{ \partial r } (rA_{\theta})- \frac{ \partial A_{r} }{ \partial \theta }  \right]\hat{\boldsymbol{\phi}} \\
 &=- \frac{\mu_{0}p_{0}\omega}{4\pi r}\left[ \frac{\omega}{c}\sin \theta \cos\left[ \omega\left( t- \frac{r}{c} \right) \right]+ \frac{\sin\theta}{r}\sin \left[ \omega\left( t- \frac{r}{c} \right) \right] \right]\hat{\boldsymbol{\phi}} \\
@@ -157,7 +157,7 @@ The [[irradiance]] is the magnitude of the time average of the Poynting vector o
 $$I=\lvert \langle \mathbf{S} \rangle \rvert =\frac{\mu_{0}p_{0}^{2}\omega^{4}}{32\pi ^{2}c} \frac{\sin^{2}\theta}{r^{2}}$$
 Note that it is dependent on the angle $\theta$. On the axis of the dipole, where $\theta=0$ and therefore $\sin \theta=0$, $I=0$. This means that oscillating dipoles *do not* emit radiation on their axis. On the other hand, the emission is maximized perpendicular to the axis, when $\theta=\pm\pi/2$ and $\sin ^{2}\theta=1$. Geometrically, this creates a sort of [[torus]] shape.
 
-The average [[radiant power]] is found by "collecting" all of the energy that comes out of the dipole over time. We can do this by enclosing the dipole in a closed [[surface]], the simplest of which is a [[sphere]], and then integrate the [[radiant flux]] of energy going through that surface:
+The average [[radiant power]] is found by "collecting" all of the energy that comes out of the dipole over time. We can do this by enclosing the dipole in a closed [[Surface]], the simplest of which is a [[sphere]], and then integrate the [[radiant flux]] of energy going through that surface:
 $$\boxed{\langle P \rangle =\int_{\mathcal{S}}\langle \mathbf{S} \rangle \cdot d\mathbf{a} =\frac{\mu_{0}p_{0}^{2}\omega^{4}}{32\pi ^{2}c}\int \frac{\sin^{2}\theta}{r^{2}}r^{2}\sin \theta d\theta d\phi=\frac{\mu_{0}p_{0}^{2}\omega^{4}}{12\pi c}}$$
 We can see that the power is *strongly* dependent on $\omega$, to the fourth power. Evidently, as the frequency of oscillation increases, the power gets really high really fast (although not exponentially fast). On paper, you could emit near infinite energy from a dipole by just having it oscillate *really* fast. As you may imagine, this seems... hard to believe? And hard to believe it is, because this $\sim \omega^{4}$ behavior is the source of *a lot* of problems in the late 1800s, since experimental measurements just did not match for high frequencies. It was so far from reality in fact that measurements showed that around the ultraviolet range, energy emission would actually start going *down* instead of increasing like $\sim \omega^{4}$. The infinitely increasing power at large frequencies has come to be known as the **[[Black body|ultraviolet catastrophe]]**, and it was this very flaw that would spur the beginning of quantum physics.
 

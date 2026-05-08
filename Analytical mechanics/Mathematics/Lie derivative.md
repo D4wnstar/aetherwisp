@@ -1,12 +1,12 @@
 ---
 hl-publish: true
 ---
-The **Lie derivative** is a derivative [[Operatore|operator]] defined on a [[dynamical variable]] $G:\mathbb{R}^{N}\mapsto \mathbb{R}$ and a [[vector field]] $f(\mathbf{x})$ as
+The **Lie derivative** is a derivative [[Operatore|operator]] defined on a [[dynamical variable]] $G:\mathbb{R}^{N}\mapsto \mathbb{R}$ and a [[Vector field]] $f(\mathbf{x})$ as
 $$\begin{align}
 &\mathcal{L}_{f}G:\mathbb{R}^{N}\mapsto \mathbb{R} \\
 &\mathbf{x}\mapsto \sum_{i=1}^{N} \frac{ \partial G }{ \partial x_{i} } (\mathbf{x})f_{i}(\mathbf{x})=\nabla G\cdot f=dG[f]
 \end{align}$$
-where $\nabla G$ is the [[gradient]] of $G$ and $dG[f]$ is the [[exact differential]] of $G$.
+where $\nabla G$ is the [[Gradient]] of $G$ and $dG[f]$ is the [[Exact differential]] of $G$.
 
 The importance of Lie derivatives comes from their ability to detect [[Constant of motion|constants of motion]], thanks to the following result:
 
@@ -19,7 +19,7 @@ The importance of Lie derivatives comes from their ability to detect [[Constant 
 > - $(\Rightarrow)$ If $G$ is a constant, then let $\mathbf{x}_{0}\in \mathbb{R}^{N}$ be some point. Then, $\mathcal{L}_{f}G(\mathbf{x}_{0})=\mathcal{L}_{f}G(\mathbf{x}(t_{0}))=0$, which is true since $G$ is a constant of motion. This is true for any $\mathbf{x}_{0}\in \mathbb{R}^{N}$, so $\mathcal{L}_{f}G=0$ everywhere.
 
 ### Relation with homogeneous functions[^1]
-Lie derivatives have some interesting connections to [[homogeneous function]] that, while not particularly useful in practice, help to make some connections between different areas of mathematics. Assume that our dynamical variable $G(\mathbf{x})$ is now homogeneous of degree $\alpha$. By Euler's theorem for homogeneous functions we can state
+Lie derivatives have some interesting connections to [[Homogeneous function]] that, while not particularly useful in practice, help to make some connections between different areas of mathematics. Assume that our dynamical variable $G(\mathbf{x})$ is now homogeneous of degree $\alpha$. By Euler's theorem for homogeneous functions we can state
 $$\alpha G(\mathbf{x})=\sum_{i=1}^{N} \frac{ \partial G }{ \partial x_{i} } x_{i}$$
 You might notice a staggering similarity with the definition of the Lie derivative. In fact, the sum on the right hand side *is* a Lie derivative, but very specifically over the identity vector field $I(\mathbf{x})=\mathbf{x}$, which allows us to state the following:
 $$\mathcal{L}_{I}G=\sum_{i=1}^{N} \frac{ \partial G }{ \partial x_{i} } I(x_{i})=\sum_{i=1}^{N} \frac{ \partial G }{ \partial x_{i} } x_{i}=\alpha G(\mathbf{x})$$

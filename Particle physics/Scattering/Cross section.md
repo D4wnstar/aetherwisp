@@ -51,7 +51,7 @@ $$\frac{d^{2}\sigma}{d\Omega dE'}$$
 where $E'$ is the energy of the scattering product being detected (as opposed to $E$, the energy at the collision vertex itself). The total cross section is then the integral over both a whole [[sphere]] and the entire range of possible output energy:
 $$\sigma_{tot}(E)=\int_{0}^{E'_{max}}\oint_{\text{sphere}} \frac{d^{2}\sigma}{d\Omega dE'}d\Omega dE'$$
 ### Mott Cross Section
-The Mott cross section accounts for the [[spin]] of the electron and nucleus and their influence on scattering. It is given by
+The Mott cross section accounts for the [[Spin]] of the electron and nucleus and their influence on scattering. It is given by
 $$\left(\frac{d\sigma}{d\Omega}\right)_{\text{Mott}}=\left(\frac{d\sigma}{d\Omega}\right)_{\text{Rutherford}}\left[1-\beta^{2}\sin^{2}\left(\frac{\theta}{2}\right)\right]$$
 where $\beta=v/c$. In the limit of negligible nuclear recoil and $\beta \rightarrow 1$:
 $$\left(\frac{d\sigma}{d\Omega}\right)_{\text{Mott}}=\left(\frac{d\sigma}{d\Omega}\right)_{\text{Rutherford}}\cos^{2}\left(\frac{\theta}{2}\right)$$
@@ -60,7 +60,7 @@ The Mott cross section decreases more rapidly than the Rutherford cross section 
 ## Theoretical prediction
 The kinds of cross section presented above are shown in a very experimental-first light. However, cross section can, with some difficulty, be predicted from purely theoretical principles.
 
-The interaction is described by a [[Hamiltonian]] $H_\text{int}$. The [[Physical system|system]] begins in a state $\psi_{i}$ and ends in a state $\psi_{f}$. The [[probability amplitude]] of this [[state transition]] is given by the [[matrix element]]
+The interaction is described by a [[Hamiltonian]] $H_\text{int}$. The [[Physical system|system]] begins in a state $\psi_{i}$ and ends in a state $\psi_{f}$. The [[probability amplitude]] of this [[State transition]] is given by the [[matrix element]]
 $$\mathcal{M}_{fi}=\langle \psi_{f}|H_{\text{int}}|\psi_{i}\rangle=\int\psi_{f}^{*}H_{\text{int}}\psi_{i}\ dE$$
 Each particle occupies a volume $h^{3}$ in [[phase space]], using the [[Planck constant]], because of the [[Disuguaglianza di Heisenberg|uncertainty principle]]. Say the particle occupies a spatial volume $V$ and a momentum volume given by the thin spherical shell $p$ to $p+dp$, which yields $4\pi p^{2}dp$. Then, the total number of states this particle can be in is
 $$dn(p)=\frac{4\pi p^{2}dp}{h^{3}}V$$

@@ -1,7 +1,7 @@
 ---
 hl-publish: true
 ---
-$Q$ is [[electric charge]]. $B$ is [[baryon number]]. $S$ is [[strangeness]]. $L$ is [[lepton number]], brackets represent the flavor. $S$ is [[spin]]. $P$ is [[parity]].
+These tables contain common properties of many known particles. [[Mass]] in [[Electronvolt|electronvolts]]. $Q$ is [[electric charge]]. $B$ is [[baryon number]]. $S$ is [[strangeness]]. $L$ is [[lepton number]], brackets represent the flavor. $S$ is [[Spin]]. $P$ is [[parity]].
 ### Quarks
 
 | Name    | Symbol | Mass (MeV) | Q    | B   | S   | $S^{P}$ |

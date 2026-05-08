@@ -13,7 +13,7 @@ and for a continuum of mass
 $$I=\int_{M}r^{2}dm$$
 where $r$ in this case is the distance from the infinitesimal mass element $dm$ and $M$ is the distribution of mass. It can also be expressed in terms of mass density in various dimensions:
 $$I=\int_{\gamma}r^{2}\lambda(x)\ dx, \quad I=\int_{S}|\mathbf{r}|^{2}\sigma(x,y)\ dxdy, \quad I=\int_{V}|\mathbf{r}|^{2}\rho(x,y,z)\ dxdydz$$
-where $\gamma$, $S$ and $V$ represent a [[curve]], a [[surface]] and a volume.
+where $\gamma$, $S$ and $V$ represent a [[Curve]], a [[Surface]] and a volume.
 
 The moment of inertia around the [[Center of mass]] $\mathbf{r}_{C}$ is
 $$I_{C}=\sum\limits_{i=1}^{N}m_{i}|\mathbf{r}_{i}-\mathbf{r}_{C}|^{2}; \quad I_{C}=\int_{M}|\mathbf{r}-\mathbf{r}_{C}|^{2}\ dm$$
