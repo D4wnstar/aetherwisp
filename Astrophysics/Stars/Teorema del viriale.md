@@ -1,5 +1,5 @@
 ---
-hl-publish: true
+hl-publish: false
 ---
 > [!error]
 > La pagina [[Virial theorem]] esiste già, separatamente, nella parte di Statistical mechanics, rendendo questa obsoleta. La derivazione dalle equazioni di struttura stellare non è riportata in quella pagina, quindi dovrebbe essere spostata altrove: o là o in una pagina di struttura stellare.
