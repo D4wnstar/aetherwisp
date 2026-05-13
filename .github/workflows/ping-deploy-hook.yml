@@ -1,0 +1,20 @@
+# This action pings the Vercel deploy hook of aetherwisp.net to redeploy
+# the site every time the content changes (i.e. pushing to main).
+# The hook is stored as a repository secret.
+
+name: Deploy on Vercel
+run-name: Pinging Vercel deploy hook
+
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Pinging deploy hook
+        shell: bash
+        env:
+          DEPLOY_HOOK: ${{ secrets.DEPLOY_HOOK }}
+        run: curl -X POST "$DEPLOY_HOOK"
